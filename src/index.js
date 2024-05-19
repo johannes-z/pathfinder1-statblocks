@@ -42,9 +42,9 @@ async function extractStatblocks(filename, destination) {
 
 await extractStatblocks(
   './assets/monster_bestiary_full.tsv',
-  './dist/bestiary/monsters',
+  './public/bestiary/monsters',
 )
 await extractStatblocks(
   './assets/npcs.tsv',
-  './dist/bestiary/npcs',
+  './public/bestiary/npcs',
 )

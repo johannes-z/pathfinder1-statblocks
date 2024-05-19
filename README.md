@@ -4,7 +4,7 @@ Extracts statblocks from the Pathfinder 1e SRD and formats them as yaml.
 
 The Statblocks come from these two DBs/Spreadsheets:
 
-* [Monster Bestiary Full (Updated 27Jul2015)](https://docs.google.com/spreadsheets/d/1Vn18JFxojAGXD4irfJM0hYiL9-198vO-Pj_5bbuUtbw/edit#gid=1526751511)
+* [Monster Bestiary Full (Updated 27Jul2015)](https://docs.google.com/spreadsheets/d/1Vn18JFxojAGXD4irfJM0hYiL9-198vO-Pj_5bbuUtbw/edit#gid=1526751511) as hosted on [Pathfinder Community](https://www.pathfindercommunity.net/home/databases/monsters)
 * [NPC DB](https://www.d20pfsrd.com/bestiary/npc-s/npc-db)
 
 There are some post processing steps to sanitized and format the data to be more
