@@ -8,15 +8,15 @@ export function tsv2JSON(csv: string) {
   for (let i = 1; i < lines.length; i++) {
     if (lines[i].length === 0)
       continue
-    const obj = {}
+    const row: any = {}
     const currentline = lines[i].split('\t')
 
     for (let j = 0; j < headers.length; j++) {
       const value = currentline[j]
-      obj[headers[j]] = value.trim()
+      row[headers[j]] = value.trim()
     }
 
-    result.push(obj)
+    result.push(row)
   }
 
   return result
