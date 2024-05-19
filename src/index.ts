@@ -21,8 +21,8 @@ async function extractStatblocks(filename: string, destination: string) {
 
     sanitized.AbilityScores = monster.AbilityScores.split(/,\s+/g).map(ability => ability.split(' ')[1])
     sanitized.Senses = monster.Senses.split(/;\s+/g)
-    sanitized.Melee = monster.Melee.split(/(,\sor\s)/g)
-    sanitized.Ranged = monster.Ranged.split(/(,\sor\s)/g)
+    sanitized.Melee = monster.Melee.split(/\s+or\s{2,}/g)
+    sanitized.Ranged = monster.Ranged.split(/\s+or\s{2,}/g)
     sanitized.Feats = monster.Feats.split(/,\s+/g)
     sanitized.Skills = monster.Skills.split(/,\s+/g)
     sanitized.Languages = monster.Languages.split(/[,;]\s+/g)
