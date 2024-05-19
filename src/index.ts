@@ -4,13 +4,13 @@ import { kebabize } from './utils/kebabize'
 
 const REGEX_SpecialAbilities = /(?<name>[A-Za-z\s]+?\s?\((Ex|Su|Sp)\))\s(?<description>.*?)(?=\s[A-Za-z\s]+?\s?\((Ex|Su|Sp)\)|$)/gs
 
-async function extractStatblocks(filename, destination) {
+async function extractStatblocks(filename: string, destination: string) {
   const file = Bun.file(filename)
   const text = await file.text()
 
   const obj = csv2JSON(text)
 
-  obj.forEach((monster) => {
+  obj.forEach((monster: any) => {
     const name = (Array.isArray(monster.Name) ? monster.Name.join(' ') : monster.Name)
       .replace(/'/g, '')
     const filename = kebabize(name)

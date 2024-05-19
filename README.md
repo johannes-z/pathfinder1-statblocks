@@ -16,8 +16,8 @@ This project uses [Bun](https://bun.sh/).
 
 ## Usage
 
-* Install dependencies: `npm install` or `pnpm install`
-* Build the project: `bun run ./src/index.js`
+* Install dependencies: `bun install`
+* Build the project: `bun run ./src/index.ts`
 
 ## Planned Features
 
