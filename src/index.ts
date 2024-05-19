@@ -1,14 +1,15 @@
 import { dump } from 'js-yaml'
-import { csv2JSON } from './utils/csv2JSON'
+import { tsv2JSON } from './utils/tsv2JSON'
 import { kebabize } from './utils/kebabize'
 
 const REGEX_SpecialAbilities = /(?<name>[A-Za-z\s]+?\s?\((Ex|Su|Sp)\))\s(?<description>.*?)(?=\s[A-Za-z\s]+?\s?\((Ex|Su|Sp)\)|$)/gs
+
 
 async function extractStatblocks(filename: string, destination: string) {
   const file = Bun.file(filename)
   const text = await file.text()
 
-  const obj = csv2JSON(text)
+  const obj = tsv2JSON(text)
 
   obj.forEach((monster: any) => {
     const name = (Array.isArray(monster.Name) ? monster.Name.join(' ') : monster.Name)

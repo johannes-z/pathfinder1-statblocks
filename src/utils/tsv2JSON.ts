@@ -1,4 +1,4 @@
-export function csv2JSON(csv: any) {
+export function tsv2JSON(csv: string) {
   const lines = csv.split(/\r\n|\n/)
 
   const result: any = []
