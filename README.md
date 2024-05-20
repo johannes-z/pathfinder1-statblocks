@@ -33,6 +33,5 @@ This project uses trademarks and/or copyrights owned by Paizo Inc., used under
 project is not published, endorsed, or specifically approved by Paizo. For more
 information about Paizo Inc. and Paizo products, visit paizo.com.
 
-### License
-
-Any other source code is licensed under the MIT License.
+## License
+MIT License © 2024-PRESENT Johannes Zwirchmayr
