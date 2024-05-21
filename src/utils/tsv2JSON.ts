@@ -9,6 +9,10 @@ export function tsv2JSON(csv: string) {
     if (lines[i].length === 0)
       continue
     const row: any = {}
+    lines[i] = lines[i]
+      .replace('&#8211;', '-')
+      .replace('</br>', '<br>')
+      .replace('&mdash;', '-')
     const currentline = lines[i].split('\t')
 
     for (let j = 0; j < headers.length; j++) {

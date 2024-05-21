@@ -1,6 +1,6 @@
-export function unique(array: { name: string, description: string }[]) {
-  return array.reduce((acc: { [key: string]: string }, { name, description }) => {
-    acc[name] = description
+export function unique(array: any[], key: string, value: string) {
+  return array.reduce((acc: { [key: string]: string }, obj) => {
+    acc[array[key]] = array[value]
     return acc
   }, {})
 }

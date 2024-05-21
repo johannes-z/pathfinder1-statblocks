@@ -1,3 +1,5 @@
+<a href="https://cse.google.com/cse?cx=006680642033474972217%3A6zo0hx_wle8&q={{ Name }}" target="_blank">Pathfinder SRD - "{{ Name }}"</a>
+
 <div class="statblock">
   <!-- main block -->
   {% if Description_Visual %}
@@ -38,6 +40,12 @@
     <b class="label">Senses</b> {{ Senses|join('; ') }}
   </div>
 
+  {% if Aura %}
+  <div>
+    <b class="label">Aura</b> {{ Aura }}
+  </div>
+  {% endif %}
+
   <!-- defense block -->
   <h3>Defense</h3>
   <div>
@@ -60,6 +68,32 @@
   {% if Weaknesses %}
   <div>
     <b class="label">Weaknesses</b> {{ Weaknesses }}
+  </div>
+  {% endif %}
+
+  {% if SpellLikeAbilities and SpellLikeAbilities['values'] %}
+  <div>
+    <b class="label">{{ SpellLikeAbilities['header'] }}</b><br>
+    <div class="spell-list">
+    {% for item in SpellLikeAbilities['values'] %}
+      <div class="list">
+        <b class="label">{{ item.label }}—</b>{{ item.value }}
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if SpellsKnown and SpellsKnown['values'] %}
+  <div>
+    <b class="label">{{ SpellsKnown['header'] }}</b><br>
+    <div class="spell-list">
+    {% for item in SpellsKnown['values'] %}
+      <div class="list">
+        <b class="label">{{ item.label }}—</b>{{ item.value }}
+      </div>
+    {% endfor %}
+    </div>
   </div>
   {% endif %}
 
@@ -133,9 +167,11 @@
     <b class="label">Skills</b> {{ Skills|join(', ') }}
   </div>
   {% endif %}
+  {% if Languages %}
   <div>
-    <b class="label">Languages</b> {{ Languages|default('none listed') }}
+    <b class="label">Languages</b> {{ Languages|join(', ') }}
   </div>
+  {% endif %}
   {% if SQ %}
   <div>
     <b class="label">Special Qualities</b> {{ SQ }}
@@ -173,4 +209,10 @@
   {% for paragraph in Description %}
     <p>{{ paragraph }}</p>
   {% endfor %}
+
+  {% if Source %}
+  <div>
+    <small><b class="label">Source</b> {{ Source }}</small>
+  </div>
+  {% endif %}
 </div>

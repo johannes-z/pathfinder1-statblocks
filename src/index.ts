@@ -1,22 +1,9 @@
 import { dump } from 'js-yaml'
 import { tsv2JSON } from './utils/tsv2JSON'
 import { kebabize } from './utils/kebabize'
-import { unique } from './utils/unique'
-
-const REGEX_SpecialAbilities = /(?<name>[A-Za-z\s]+?\s?\((Ex|Su|Sp)\))\s(?<description>.*?)(?=\s[A-Za-z\s]+?\s?\((Ex|Su|Sp)\)|$)/gs
-
-function mergeMonsters(base: any, monster: any) {
-  const merged = {
-    ...base,
-    ...monster,
-    SpecialAbilities: unique([
-      ...(base.SpecialAbilities || []),
-      ...(monster.SpecialAbilities || []),
-    ]),
-  }
-
-  return merged
-}
+import { extractSpecialAbilities } from './extractSpecialAbilities'
+import { extractSpells } from './extractSpells'
+import { mergeMonsters } from './mergeMonsters'
 
 function saveMonster(monster: any, destination: string) {
   const name = (Array.isArray(monster.Name) ? monster.Name.join(' ') : monster.Name)
@@ -51,14 +38,15 @@ async function extractStatblocks(filename: string, destination: string) {
     monster.Languages = monster.Languages?.split(/[,;]\s+/g)
     monster.Description = monster.Description?.split(/\s{2,}/g)
 
-    if (monster.SpecialAbilities) {
-      const matches = [...monster.SpecialAbilities.matchAll(REGEX_SpecialAbilities)]
+    if (monster.SpecialAbilities)
+      extractSpecialAbilities(monster)
 
-      monster.SpecialAbilities = matches.map(match => ({
-        name: match.groups.name.trim(),
-        description: match.groups.description.trim().replace(/\s{2,}/g, ' '), // Remove extra spaces
-      }))
-    }
+    if (monster.SpellLikeAbilities)
+      extractSpells(monster, 'SpellLikeAbilities')
+
+    if (monster.SpellsKnown)
+      extractSpells(monster, 'SpellsKnown')
+
     monsters[monster.Name] = monster
 
     return monsters
