@@ -1,0 +1,76 @@
+.statblock:not([data-compiled]) {
+  /* display: none; */
+}
+
+.statblock h1 {
+  font-size: 18px;
+  border-top: solid thin;
+  border-bottom: solid thin;
+  text-transform: uppercase;
+  overflow: hidden;
+  font-weight: bold;
+  padding: 1px;
+
+  margin-bottom: 0.4rem !important;
+  padding: 3px;
+
+  background: var(--md-default-fg-color);
+  color: var(--md-default-bg-color);
+}
+
+.statblock .statblock-cr {
+  float: right;
+}
+
+.statblock h3 {
+  font-size: 12px;
+  border-top: solid thin;
+  border-bottom: solid thin;
+  text-transform: uppercase;
+  overflow: hidden;
+
+  margin: 0.4rem 0 !important;
+}
+
+.statblock-skills {
+  text-transform: capitalize;
+}
+
+.statblock-sources {
+  border-top: solid thin;
+  font-size: 12px;
+}
+
+
+.statblock-pf .level {
+  float: right;
+  margin-right: 3px;
+}
+
+.statblock-pf p {
+  margin: 0 0 10px;
+}
+.statblock-pf .title {
+  font-size: 18px;
+  font-weight: bold;
+  background: var(--md-default-fg-color);
+  color: var(--md-default-bg-color);
+  padding: 3px;
+  clear: both;
+}
+
+.statblock-pf .divider {
+  font-size: 10px;
+  border-top: solid thin;
+  border-bottom: solid thin;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.statblock .list {
+  display: flex;
+}
+
+.statblock b.label {
+  white-space: pre;
+}

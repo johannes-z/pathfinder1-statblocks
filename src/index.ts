@@ -1,19 +1,37 @@
 import { dump } from 'js-yaml'
 import { tsv2JSON } from './utils/tsv2JSON'
 import { kebabize } from './utils/kebabize'
+import { unique } from './utils/unique'
 
 const REGEX_SpecialAbilities = /(?<name>[A-Za-z\s]+?\s?\((Ex|Su|Sp)\))\s(?<description>.*?)(?=\s[A-Za-z\s]+?\s?\((Ex|Su|Sp)\)|$)/gs
+
+function mergeMonsters(base: any, monster: any) {
+  const merged = {
+    ...base,
+    ...monster,
+    SpecialAbilities: unique([
+      ...(base.SpecialAbilities || []),
+      ...(monster.SpecialAbilities || []),
+    ]),
+  }
+
+  return merged
+}
+
+function saveMonster(monster: any, destination: string) {
+  const name = (Array.isArray(monster.Name) ? monster.Name.join(' ') : monster.Name)
+    .replace(/'/g, '')
+
+  const filename = kebabize(name)
+  const target = Bun.file(`${destination}/${filename}.yaml`)
+  Bun.write(target, dump(monster))
+}
 
 async function extractStatblocks(filename: string, destination: string) {
   const file = Bun.file(filename)
   const text = await file.text()
 
-  const obj = tsv2JSON(text)
-
-  obj.forEach((monster: any) => {
-    const name = (Array.isArray(monster.Name) ? monster.Name.join(' ') : monster.Name)
-      .replace(/'/g, '')
-
+  const monsters = tsv2JSON(text).reduce((monsters: any, monster: any) => {
     delete monster.FullText
     for (const key in monster) {
       if (!monster[key])
@@ -41,10 +59,23 @@ async function extractStatblocks(filename: string, destination: string) {
         description: match.groups.description.trim().replace(/\s{2,}/g, ' '), // Remove extra spaces
       }))
     }
+    monsters[monster.Name] = monster
 
-    const filename = kebabize(name)
-    const target = Bun.file(`${destination}/${filename}.yaml`)
-    Bun.write(target, dump(monster))
+    return monsters
+  }, {})
+
+  Object.values(monsters).forEach((monster: any) => {
+    saveMonster(monster, destination)
+  })
+
+  // post-process step for Group property to merge data with base monster
+  Object.values(monsters).filter((monster: any) => monster.Group).forEach((monster: any) => {
+    const baseMonster = monsters[monster.Group]
+    if (baseMonster == null)
+      return
+
+    const merged = mergeMonsters(baseMonster, monster)
+    saveMonster(merged, destination)
   })
 }
 

@@ -1,0 +1,176 @@
+<div class="statblock">
+  <!-- main block -->
+  {% if Description_Visual %}
+    <blockquote>
+      <p>{{ Description_Visual }}</p>
+    </blockquote>
+  {% endif %}
+
+  <h1 class="statblock-name">
+    {{ Name }}
+    <div class="statblock-cr">
+      {% if CR %}
+        <b class="label">CR</b> {{ CR }}
+      {% endif %}
+    </div>
+  </h1>
+
+  {% if XP %}
+    <div class="statblock-xp">{{ XP|testFilter(label='XP')}}</div>
+  {% endif %}
+
+  {% if Race or Class %}
+  <div class="statblock-class">
+    {{ Race }}
+    {{ Class }}
+  </div>
+  {% endif %}
+
+  <div class="statblock-type">
+    {% if Alignment %}{{ Alignment }}{% endif %}
+    {% if Size %}{{ Size }}{% endif %}
+    {% if Type %}{{ Type }}{% endif %}
+    {% if SubType %}{{ SubType }}{% endif %}
+  </div>
+
+  <div>
+    <b class="label">Init</b> {{ Init|modifier }};
+    <b class="label">Senses</b> {{ Senses|join('; ') }}
+  </div>
+
+  <!-- defense block -->
+  <h3>Defense</h3>
+  <div>
+    <b class="label">AC</b> {{ AC }} {{ AC_Mods }}
+  </div>
+  <div>
+    <b class="label">hp</b> {{ HP }} {{ HD }}
+  </div>
+  <div>
+    <b class="label">Fort</b> {{ Fort|modifier }},
+    <b class="label">Ref</b> {{ Ref|modifier }},
+    <b class="label">Will</b> {{ Will|modifier }}
+  </div>
+  {% if DR or Immune %}
+  <div>
+    {% if DR %}<b class="label">DR</b> {{ DR }}{% endif %}{% if DR and Immune %};{% endif %}
+    {% if Immune %}<b class="label">Immune</b> {{ Immune }}{% endif %}
+  </div>
+  {% endif %}
+  {% if Weaknesses %}
+  <div>
+    <b class="label">Weaknesses</b> {{ Weaknesses }}
+  </div>
+  {% endif %}
+
+  <!-- offense block -->
+  <h3>Offense</h3>
+  {% if Speed %}
+  <div>
+    {{ Speed|testFilter(label='Speed')}}
+  </div>
+  {% endif %}
+  {% if Melee %}
+  <div class="list">
+    <b class="label">Melee </b>
+    <div>
+      {% for attack in Melee %}
+      <div>
+        {{ attack }}{%if not loop.last %}, or {%endif%}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  {% if Ranged %}
+  <div class="list">
+    <b class="label">Ranged </b>
+    <div>
+      {% for attack in Ranged %}
+      <div>
+        {{ attack }}{%if not loop.last %}, or {%endif%}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if Space or Reach %}
+  <div>
+    {% if Space %}<b class="label">Space</b> {{ Space }}{% endif %}{% if Space and Reach %};{% endif %}
+    {% if Reach %}<b class="label">Reach</b> {{ Reach }}{% endif %}
+  </div>
+  {% endif %}
+
+  {% if SpecialAttacks %}
+  <div>
+    <b class="label">Special Attacks</b> {{ SpecialAttacks }}
+  </div>
+  {% endif %}
+
+  <!-- statistics block -->
+  <h3>Statistics</h3>
+  <div>
+    <b class="label">Str</b> {{ AbilityScores[0] }},
+    <b class="label">Dex</b> {{ AbilityScores[1] }},
+    <b class="label">Con</b> {{ AbilityScores[2] }},
+    <b class="label">Int</b> {{ AbilityScores[3] }},
+    <b class="label">Wis</b> {{ AbilityScores[4] }},
+    <b class="label">Cha</b> {{ AbilityScores[5] }}
+  </div>
+  <div>
+    <b class="label">Base Atk</b> {{ BaseAtk|modifier }};
+    <b class="label">CMB</b> {{ CMB|modifier }};
+    <b class="label">CMD</b> {{ CMD }}
+  </div>
+  {% if Feats %}
+  <div>
+    <b class="label">Feats</b> {{ Feats|join(', ') }}
+  </div>
+  {% endif %}
+  {% if Skills %}
+  <div>
+    <b class="label">Skills</b> {{ Skills|join(', ') }}
+  </div>
+  {% endif %}
+  <div>
+    <b class="label">Languages</b> {{ Languages|default('none listed') }}
+  </div>
+  {% if SQ %}
+  <div>
+    <b class="label">Special Qualities</b> {{ SQ }}
+  </div>
+  {% endif %}
+
+  <!-- special abilities block -->
+  {% if SpecialAbilities %}
+  <h3>Special Abilities</h3>
+  <div>
+    {% for ability in SpecialAbilities %}
+      <h4>{{ ability.name }}</h4>
+      <div>{{ ability.description }}</div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% set ecology = [
+    { "key": "Environment", "value": Environment },
+    { "key": "Organization", "value": Organization },
+    { "key": "Treasure", "value": Treasure }
+  ] | rejectattr('value', 'undefined') | list %}
+
+  <!-- ecology block -->
+  {% if ecology | map(attribute='value') | list | length > 0 %}
+  <h3>Ecology</h3>
+  {% for item in ecology %}
+  <div>
+    <b class="label">{{ item.key }}</b> {{ item.value }}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  <!-- description block -->
+  {% for paragraph in Description %}
+    <p>{{ paragraph }}</p>
+  {% endfor %}
+</div>
