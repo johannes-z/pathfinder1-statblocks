@@ -8,9 +8,9 @@
     </blockquote>
   {% endif %}
 
-  <h1 class="statblock-name">
+  <h1 class="name">
     {{ Name }}
-    <div class="statblock-cr">
+    <div class="cr">
       {% if CR %}
         <b class="label">CR</b> {{ CR }}
       {% endif %}
@@ -74,7 +74,7 @@
   {% if SpellLikeAbilities and SpellLikeAbilities['values'] %}
   <div>
     <b class="label">{{ SpellLikeAbilities['header'] }}</b><br>
-    <div class="spell-list">
+    <div class="spells list">
     {% for item in SpellLikeAbilities['values'] %}
       <div class="list">
         <b class="label">{{ item.label }}—</b>{{ item.value }}
@@ -87,11 +87,9 @@
   {% if SpellsKnown and SpellsKnown['values'] %}
   <div>
     <b class="label">{{ SpellsKnown['header'] }}</b><br>
-    <div class="spell-list">
+    <div class="spells list">
     {% for item in SpellsKnown['values'] %}
-      <div class="list">
-        <b class="label">{{ item.label }}—</b>{{ item.value }}
-      </div>
+        <b class="label">{{ item.label }}—</b><span>{{ item.value }}</span>
     {% endfor %}
     </div>
   </div>
@@ -211,7 +209,7 @@
   {% endfor %}
 
   {% if Source %}
-  <div>
+  <div class="source">
     <small><b class="label">Source</b> {{ Source }}</small>
   </div>
   {% endif %}

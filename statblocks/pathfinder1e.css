@@ -3,7 +3,7 @@
 }
 
 .statblock h1 {
-  font-size: 18px;
+  font-size: 0.9rem;
   border-top: solid thin;
   border-bottom: solid thin;
   text-transform: uppercase;
@@ -18,12 +18,12 @@
   color: var(--md-default-bg-color);
 }
 
-.statblock .statblock-cr {
+.statblock .cr {
   float: right;
 }
 
 .statblock h3 {
-  font-size: 12px;
+  font-size: 0.6rem;
   border-top: solid thin;
   border-bottom: solid thin;
   text-transform: uppercase;
@@ -32,49 +32,25 @@
   margin: 0.4rem 0 !important;
 }
 
-.statblock-skills {
-  text-transform: capitalize;
+.statblock .source {
+  border-top: 1px solid var(--md-default-fg-color--light);
+  font-size: 0.8rem;
 }
 
-.statblock-sources {
-  border-top: solid thin;
-  font-size: 12px;
-}
-
-
-.statblock-pf .level {
-  float: right;
-  margin-right: 3px;
-}
-
-.statblock-pf p {
-  margin: 0 0 10px;
-}
-.statblock-pf .title {
-  font-size: 18px;
-  font-weight: bold;
-  background: var(--md-default-fg-color);
-  color: var(--md-default-bg-color);
-  padding: 3px;
-  clear: both;
-}
-
-.statblock-pf .divider {
-  font-size: 10px;
-  border-top: solid thin;
-  border-bottom: solid thin;
-  text-transform: uppercase;
-  overflow: hidden;
-}
 
 .statblock .list {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.statblock .list > b.label {
+  text-align: right;
 }
 
 .statblock b.label {
   white-space: pre;
 }
 
-.statblock .spell-list {
+.statblock .spells {
   padding-left: 1.2rem;
 }
