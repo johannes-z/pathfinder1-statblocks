@@ -1,0 +1,114 @@
+Name: Uurgu
+CR: '4'
+XP: '1200'
+Race: lizardfolk
+Class: inquisitor of Hshurha 4
+MonsterSource: Pathfinder RPG Bestiary 195, Pathfinder RPG Advanced Player's Guide 38
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (reptilian)
+Init: '4'
+Senses:
+  - Perception +9
+AC: 20, touch 12, flat-footed 18
+AC_Mods: (+3 armor, +2 Dex, +5 natural)
+HP: '37'
+HD: (6d8+10)
+Saves: Fort +9, Ref +4, Will +7
+Fort: '9'
+Ref: '4'
+Will: '7'
+DR: 1/magic
+Speed: 30 ft., swim 15 ft.
+Melee:
+  - +1 quarterstaff +10 (1d6+6), bite +3 (1d4+2)
+  - +1 quarterstaff +8 (1d6+5), +1 quarterstaff +8 (1d6+5), bite +3 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: judgment 2/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 4th; concentration +6)
+  values:
+    - label: 5/day
+      value: >-
+        touch of evil (2 rounds) Inquisitor Spell-Like Abilities (CL 4th;
+        concentration +6)
+    - label: At Will
+      value: detect alignment
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 4th; concentration +6)
+  values:
+    - label: 2nd (2/day)
+      value: death knell (DC 14), silence (DC 14)
+    - label: 1st (4/day)
+      value: alarm, cause fear (DC 13), divine favor, magic weapon
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, guidance, read magic, resistance, virtue
+SpellDomains: Evil
+AbilityScores:
+  - 16
+  - 15
+  - 12
+  - 10
+  - 14
+  - 8
+BaseAtk: '4'
+CMB: '8'
+CMD: '19'
+Feats:
+  - Double Slice
+  - Precise Strike
+  - Two-weapon Fighting
+  - Weapon Focus (quarterstaff)
+Skills:
+  - Acrobatics +6
+  - Heal +9
+  - Intimidate +6
+  - Knowledge (planes) +7
+  - Knowledge (religion) +7
+  - Perception +9
+  - Sense Motive +11
+  - Stealth +9
+  - Survival +7
+  - Swim +11
+RacialMods: +4 Acrobatics
+Languages:
+  - Polyglot
+SQ: hold breath, monster lore +2, solo tactics, stern gaze +2, track +2
+Source: Ire Of The Storm
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Uurgu casts alarm on area N16 each day, and if alerted to intruders, casts
+  divine favor on herself and magic weapon on her staff.
+DuringCombat: >-
+  Uurgu offers intruders one chance to surrender (for later sacrifice to the
+  elemental lord she worships) before declaring her judgment of resiliency and
+  launching into combat. She targets enemy divine casters with silence, then
+  attacks with her staff. If one of her cultists falls, she slays him with death
+  knell.
+Morale: Uurgu fights to the death.
+Gear: potion of cure moderate wounds, potion of darkvision, salve of slipperiness
+OtherGear: >-
+  mwk studded leather, mwk quarterstaff, cloak of resistance +1, manacles, gold
+  holy symbol of Hshurha (worth 60 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: >-
+  Without divine favor and magic weapon cast, Uurgu's statistics are Melee
+  quarterstaff +9 (1d6+4), bite +3 (1d4+1), or quarterstaff +7 (1d6+3),
+  quarterstaff +7 (1d6+3), bite +2 (1d4+1).
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8395'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

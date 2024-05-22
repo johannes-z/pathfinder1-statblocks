@@ -1,0 +1,142 @@
+Name: Blood Simulacrum Of Sorshen
+CR: '11'
+XP: '12800'
+Race: human
+Class: enchanter 10
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '3'
+Senses:
+  - Perception +10
+Aura: despair (30 ft., 10 rounds/day)
+AC: 23, touch 17, flat-footed 19
+AC_Mods: (+4 armor, +3 deflection, +3 Dex, +1 dodge, +2 natural)
+HP: '107'
+HD: (10d6+70)
+Saves: Fort +6, Ref +6, Will +9
+Fort: '6'
+Ref: '6'
+Will: '9'
+Immune: bleed
+Speed: 30 ft.
+Melee:
+  - unarmed strike +4 (1d3-1 nonlethal)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Enchanter Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: 8/day
+      value: dazing touch
+SpellsPrepared: >-
+  Enchanter Spells Prepared (CL 10th; concentration +15)   5th-dominate person
+  (2, DC 21), dream, mind fog (DC 21), sending   4th-charm monster (2, DC 20),
+  dimension door (3), phantasmal killer (DC 19)   3rd-fireball (DC 18),
+  lightning bolt (DC 18), nondetection, reckless infatuationUM (2, DC 19),
+  spiked pitAPG (DC 18)   2nd-create pitAPG (DC 17), mirror image, misdirection,
+  scorching ray, touch of idiocy (2), web (DC 17)   1st-charm person (2, DC 17),
+  grease (DC 16), lock gazeUC (DC 17), mage armor, magic missile (2), unseen
+  servant   0 (at will)-arcane mark, detect magic, prestidigitation, read magic
+AbilityScores:
+  - 9
+  - 17
+  - 17
+  - 21
+  - 10
+  - 20
+BaseAtk: '5'
+CMB: '4'
+CMD: '21'
+Feats:
+  - Combat Expertise
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Dodge
+  - Eschew Materials
+  - Iron Will
+  - Scribe Scroll
+  - Spell Focus (enchantment)
+  - Toughness
+Skills:
+  - Bluff +23
+  - Diplomacy +23
+  - Disguise +11
+  - Intimidate +19
+  - Knowledge (arcana) +18
+  - Knowledge (local
+  - nobility
+  - planes
+  - and religion) +9
+  - Perception +10
+  - Sense Motive +10
+  - Spellcraft +18
+Languages:
+  - Abyssal
+  - Azlanti
+  - Common
+  - Shoanti
+  - Thassilonian
+  - Varisian
+SQ: >-
+  arcane bond (ring of protection +3), blood simulacrum, enchanting smile,
+  everdawn infusion, exceptional statistics
+Source: AP 135
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Simulacrum (Su)
+    description: >-
+      Any divination spell that attempts to locate or otherwise target the real
+      Sorshen is instead redirected to target this simulacrum. The caster of the
+      divination spell can notice the redirection with a successful DC 40
+      Spellcraft check as the divination spell is cast, but even if the
+      redirection is noted, it is impossible to tell where the effect was
+      redirected from. This effect also affects long-distance spells like
+      demand, dream, nightmare, and sending, but not mental communication such
+      as telepathy.
+  - name: Everdawn Infusion (Ex)
+    description: >-
+      Sorshen calculates her hit points using her Charisma modifier rather than
+      her Constitution modifier, and she is immune to bleed effects.
+  - name: Exceptional Statistics (Ex)
+    description: >-
+      Sorshen's ability scores were generated using 25 points rather than using
+      the standard 15. In addition, the simulacrum has much more gear than a PC
+      of her level would normally have. These modifications increase her total
+      CR by 1.
+Gender: Female
+ProhibitedSchools: necromancy, transmutation
+BeforeCombat: >-
+  Sorshen casts nondetection, unseen servant, and mage armor on herself just
+  before meeting the PCs.
+DuringCombat: >-
+  Sorshen's first action in combat is to use her ring of invisibility to avoid
+  the conflict if possible. If directly confronted, she casts dominate person
+  and charm monster to secure temporary bodyguards before becoming invisible so
+  she can safely cast mirror image and then relocate to a more advantageous
+  position.
+Morale: >-
+  This simulacrum loses interest in any fight in which she's reduced to 50 or
+  fewer hit points, whereupon she casts dimension door to return to the hidden
+  domain deep under Korvosa where the real Sorshen can repair her.
+Gear: potions of lesser restoration (8), ring of invisibility
+OtherGear: >-
+  amulet of natural armor +2, dance of seven veils, handy haversack, ring of
+  protection +3, 12 pp, 42 gp, 39 sp, 18 cp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11929'
+UniqueMonster: '0'
+ThassilonianSpecialization: enchantment
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

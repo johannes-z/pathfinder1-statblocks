@@ -1,0 +1,88 @@
+Name: Statue Of Wishes
+CR: '5'
+XP: '1600'
+Race: Animated Object
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '-1 Senses darkvision 60, low-light vision'
+Senses:
+  - Perception -5
+AC: 14, touch 8, flat-footed 14
+AC_Mods: (-1 Dex, +6 natural, -1 size)
+HP: '52'
+HD: (4d10+30 size)
+Saves: Fort +1, Ref +0, Will -4
+Fort: '1'
+Ref: '0'
+Will: '-4'
+DefensiveAbilities: hardness 10
+Immune: construct traits, non-magical missiles
+Speed: 0 ft. (cannot move)
+Melee:
+  - +0 (no physical attack)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: consume wisher
+SpellLikeAbilities:
+  header: >-
+    Spell-Like Abilities (CL 20th; concentration cannot be disrupted) 
+    1/round-magic missile (5 missiles)
+  values: []
+AbilityScores:
+  - —
+  - —
+  - —
+  - —
+  - 1
+  - 1
+BaseAtk: '4'
+CMB: '11'
+CMD: 20 (cannot be sundered or tripped)
+SQ: grant wish
+Source: Rappan Athuk-Level 2B
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Grant Wish (Su)
+    description: >-
+      The Statue of Wishes may grant either a raise dead effect or an experience
+      bonus to anyone standing in the target circle. There is a 20% chance of
+      failure, however, for the spirit inhabiting the statue is somewhat
+      capricious. Failure is automatic if a wish is made for anything other than
+      reawakening or experience. If a wish attempt for reawakening is made, any
+      single dead person on the flagstone is raised from the dead (CL 20th). If
+      a wish is made for experience, one person on the flagstone gains enough
+      experience points to gain the next level of experience. Note that if a
+      wish is made for reawakening and there is no dead person on the flagstone,
+      it is as if no wish had been made (i.e., there is no "failure" result and
+      the statue is willing to allow another attempt at a wish). If the wish
+      fails, however, the statue opens its mouth and the person who made the
+      wish is magically pulled into the statue's mouth, which then closes (see
+      Consume Wisher).
+  - name: Consume Wisher (Su)
+    description: >-
+      Anytime the Statue of Wishes fails to grant a wishers request, whether
+      from a poor wish or the capricious nature of the statue, the target is
+      drawn into the statue's open mouth and trapped within the statue. Once the
+      moth closes, the target is completely sealed inside the stone statue
+      (there are no air gaps). The target dies by suffocation within 1d6 hours
+      if not rescued (see the Pathfinder Roleplaying Game Core Rulebook,
+      "Suffocation," for more details). Rescuing a person who is trapped in the
+      statue requires killing the statue.
+  - name: Immune (Ex)
+    description: The Statue of Wishes is immune to all nonmagical missile attacks.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12041'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

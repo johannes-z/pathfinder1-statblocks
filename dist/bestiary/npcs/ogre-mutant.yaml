@@ -1,0 +1,105 @@
+Name: Ogre Mutant
+CR: '8'
+XP: '4800'
+Race: ogre
+Class: barbarian 4
+MonsterSource: >-
+  Pathfinder RPG Bestiary 220, Pathfinder Campaign Setting: Inner Sea Bestiary
+  28
+Alignment: CE
+Size: Large
+Type: aberration
+SubType: (augmented humanoid, giant)
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +9
+AC: 20, touch 6, flat-footed 20
+AC_Mods: (+5 armor, -1 Dex, +9 natural, -2 rage, -1 size)
+HP: '109'
+HD: (8 HD; 4d8+4d12+60)
+Saves: >-
+  Fort +14, Ref +3 (+1 vs. traps), Will +8; +4 vs. mind-affecting effects, +3
+  vs. magic
+Fort: '14'
+Ref: +3 (+1 vs. traps)
+Will: '8'
+Save_Mods: +4 vs. mind-affecting effects, +3 vs. magic
+DefensiveAbilities: acidic pustules (1d6, DC 18), trap sense +1, uncanny dodge
+DR: 5/cold iron
+Immune: poison, disease
+SR: '19'
+Speed: 35 ft.
+Melee:
+  - mwk club +17/+12 (1d8+10), slam +16 (1d6+10 plus disease)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rage (14 rounds/day), rage powers (knockback, superstition +3)
+AbilityScores:
+  - 30
+  - 8
+  - 23
+  - 4
+  - 14
+  - 6
+BaseAtk: '7'
+CMB: '18'
+CMD: '25'
+Feats:
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+Skills:
+  - Climb +14
+  - Perception +9
+Languages:
+  - Giant
+SQ: deformity (warped hide), mutations (acidic pustules, disease), fast movement
+Source: Wardens Of The Reborn Forge
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acidic Pustules (Ex)
+    description: >-
+      Whenever a creature deals piercing or slashing damage to an ogre mutant,
+      all creatures adjacent to the ogre mutant must succeed at a DC 18 Reflex
+      save or take 1d6 points of acid damage as its boils and blisters pop and
+      spray about.
+  - name: Disease (Su)
+    description: >-
+      Mana Fever: Slam-injury; save Fort DC 18; onset 1d4 minutes; frequency
+      1/day; effect 1d2 Con damage, 1d2 Cha drain; cure 2 consecutive saves.
+      Anyone who lives with mana fever for a week straight without dying becomes
+      immune to the disease, but also
+DuringCombat: >-
+  The ogre mutants rage immediately and throw fuse grenades at their enemies
+  before moving into the fray. They swing wildly with their mutated arms and
+  clubs, concentrating less on tactics and more on dealing massive amounts of
+  damage.
+Morale: >-
+  The ogres lust for battle after so many days without carnage, and fight to the
+  death.
+Gear: fuse grenadesUE (3)
+OtherGear: >-
+  mwk scale mail, mwk club, amulet of bullet protectionUC +2, 8 emeralds worth
+  100 gp each, 200 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: mana wastes mutant|
+BaseStatistics: >-
+  When not raging, the barbarians' statistics are AC 22, touch 8, flat-footed
+  22; hp 93; Fort +12, Will +6; Melee mwk club +15/+10 (1d8+8), slam +14 (1d6+8
+  plus disease); Str 26, Con 19; CMB +16, CMD 25; Skills Climb +12.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5429'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,160 @@
+Name: Fahrauth
+CR: '22'
+XP: '614400'
+Race: great wyrm umbral dragon
+Alignment: CE
+Size: Colossal
+Type: dragon
+SubType: (extraplanar)
+Init: '2'
+Senses:
+  - dragon senses
+  - Perception +40
+Aura: frightful presence (360 ft., DC 32)
+AC: 39, touch 0, flat-footed 39
+AC_Mods: (-2 Dex, +39 natural, -8 size)
+HP: '420'
+HD: (29d12+232)
+Saves: Fort +24, Ref +16, Will +24
+Fort: '24'
+Ref: '16'
+Will: '24'
+DR: 20/magic
+Immune: cold, death effects, dragon traits, energy drain, paralysis, sleep
+SR: '33'
+Speed: 40 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +35 (4d8+21/19-20 plus energy drain), 2 claws +35 (4d6+14 plus energy
+    drain), tail slap +33 (4d6+21), 2 wings +33 (2d8+7)
+Space: 30 ft.
+Reach: 30 ft. (40 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (70-ft. cone, 24d8 negative energy, Reflex DC 32 half, usable
+  every 1d4 rounds), create shadows, crush, energy drain (1 level, DC 32),
+  shadow breath (12 Str), tail sweep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 29th; concentration +37)
+  values:
+    - label: At Will
+      value: >-
+        darkness, project image (DC 25), shades (DC 27), shadow walk (DC 24),
+        vampiric touch
+    - label: 3/day
+      value: finger of death (DC 25)
+SpellsKnown:
+  header: Spells Known (CL 19th; concentration +27)
+  values:
+    - label: 9th (4/day)
+      value: implosion (DC 27), imprisonment (DC 27)
+    - label: 8th (7/day)
+      value: discern location, fire storm (DC 26), greater shout (DC 26)
+    - label: 7th (7/day)
+      value: destruction (DC 25), limited wish, word of chaos
+    - label: 6th (7/day)
+      value: harm (DC 24), mislead, veil (DC 24)
+    - label: 5th (7/day)
+      value: greater command (DC 23), slay living (DC 23), teleport, unhallow
+    - label: 4th (8/day)
+      value: >-
+        enervation, inflict critical wounds (DC 22), phantasmal killer (DC 22),
+        unholy blight (DC 22)
+    - label: 3rd (8/day)
+      value: >-
+        dispel magic, haste, inflict serious wounds (DC 21), lightning bolt (DC
+        21)
+    - label: 2nd (8/day)
+      value: alter self, blur, command undead (DC 20), invisibility, web (DC 20)
+    - label: 1st (8/day)
+      value: >-
+        inflict light wounds (DC 19), grease, magic missile, reduce person (DC
+        19), shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 18), detect magic, detect poison, disrupt undead,
+        ghost sound (DC 18), mage hand, ray of frost, read magic
+AbilityScores:
+  - 39
+  - 6
+  - 27
+  - 26
+  - 27
+  - 26
+BaseAtk: '29'
+CMB: '51'
+CMD: 59 (63 vs. trip)
+Feats:
+  - Bleeding Critical
+  - Blind-Fight
+  - Critical Focus
+  - Flyby Attack
+  - Greater Vital Strike
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Snatch
+  - Vital Strike
+Skills:
+  - Appraise +30
+  - Bluff +40
+  - Diplomacy +35
+  - Fly +14
+  - Intimidate +40
+  - Knowledge (arcana) +40
+  - Knowledge (history) +40
+  - Knowledge (local) +40
+  - Knowledge (planes) +40
+  - Knowledge (religion) +40
+  - Perception +40
+  - Sense Motive +40
+  - Spellcraft +40
+  - Stealth +20
+  - Survival +26
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Draconic
+  - Dwarven
+  - Giant
+  - Infernal
+  - Shadowtongue
+  - Undercommon
+SQ: ghost bane, umbral scion
+Source: Dragons Unleashed
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Fahrauth is typically alerted to the presence of enemies by his minions. He
+  often sizes up his opponents remotely using project image. Once he determines
+  the nature of the threat, he then bolsters himself by using limited wish to
+  recreate a protective spell suitable for his foes.
+DuringCombat: >-
+  Fahrauth opens combat against living creatures with his breath weapon. If
+  space permits, he hovers above his enemies, casting spells between uses of his
+  breath weapon. If he's feeling especially confident, he lands near his foes
+  and finishes them off with his melee attacks. He sticks close to the gate to
+  the Negative Energy Plane to receive constant healing from its emanations.
+Morale: >-
+  Arrogant and unafraid of dying so close to the gate, Fahrauth fights to the
+  death if encountered in his lair.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: great wyrm
+CompanionFamiliarLink: '0'
+id: '4454'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

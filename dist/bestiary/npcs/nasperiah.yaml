@@ -1,0 +1,146 @@
+Name: Nasperiah
+CR: '18'
+XP: '153600'
+Race: witchfire
+Class: cleric of Mahathallah 13
+MonsterSource: Pathfinder RPG Bestiary 2 284
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '12'
+Senses:
+  - darkvision 60 ft.
+  - Perception +32
+AC: 32, touch 32, flat-footed 23
+AC_Mods: (+9 deflection, +8 Dex, +1 dodge, +4 profane)
+HP: '323'
+HD: (23d8+220)
+Saves: Fort +20, Ref +17, Will +21
+Fort: '20'
+Ref: '17'
+Will: '21'
+DefensiveAbilities: incorporeal
+Immune: undead traits
+Speed: fly 50 ft. (perfect)
+Melee:
+  - incorporeal touch +24 (8d6 fire plus witchflame)
+Ranged:
+  - witchflame bolt +24 (8d6/19-20 fire plus witchflame)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 12/day (DC 27, 7d6), scythe of evil (6 rounds, 2/day)
+SpellLikeAbilities:
+  header: Witchfire Spell-Like Abilities (CL 9th; concentration +18)
+  values:
+    - label: At Will
+      value: >-
+        dancing lights, disguise self, ghost sound (DC 19), invisibility,
+        pyrotechnics (DC 21), ray of enfeeblement (DC 20)
+    - label: 1/day
+      value: >-
+        summon (level 4, 2 will-o'-wisps 50%) Cleric Spell-Like Abilities (CL
+        13th; concentration +19)
+    - label: At Will
+      value: master's illusion (13 rounds/day)
+    - label: 9/day
+      value: copycat (13 rounds), touch of evil (6 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 13th; concentration +19)  7th-quickened dispel
+  magic, screenD  6th-blade barrier (DC 22), harm (DC 22), misleadD (DC 22),
+  quickened spiritual weapon  5th-dispel goodD, flame strike (2, DC 21), plane
+  shift (DC 21), slay living (DC 21)  4th-confusionD (DC 20), dismissal (DC 20),
+  order's wrath (2, DC 20), unholy blight (2, DC 20)  3rd-bestow curse (DC 19),
+  dispel magic, invisibility purge, nondetectionD, speak with dead (DC 19), wind
+  wall  2nd-align weaponD (evil only), desecrate, hold person (2, DC 18),
+  silence (DC 18), sound burst (DC 18), spiritual weapon  1st-bane (DC 17),
+  command (4, DC 17), protection from goodD, sanctuary (DC 17)  0 (at
+  will)-bleed (DC 16), detect magic, read magic, resistance
+SpellDomains: Evil, Trickery
+AbilityScores:
+  - —
+  - 26
+  - —
+  - 19
+  - 22
+  - 28
+BaseAtk: '16'
+CMB: '24'
+CMD: '44'
+Feats:
+  - Ability Focus (witchflame)
+  - Combat Casting
+  - Combat Reflexes
+  - Craft Wondrous Item
+  - Dodge
+  - Eschew Materials
+  - Improved Critical (witchflame bolt)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Mobility
+  - Point-Blank Shot
+  - Quicken Spell
+Skills:
+  - Bluff +9
+  - Craft (tattoo) +15
+  - Fly +29
+  - Knowledge (arcana) +30
+  - Knowledge (planes) +30
+  - Knowledge (religion) +30
+  - Perception +32
+  - Sense Motive +32
+  - Spellcraft +30
+Languages:
+  - Auran
+  - Common
+  - Giant
+  - Infernal
+  - Undercommon
+SQ: rejuvenation, sound mimicry, symbol of Mahathallah
+Source: AP 102
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Rejuvenation (Su)
+    description: >-
+      As long as the soul anchor exists, Nasperiah returns to her unlife as a
+      witchfire 24 hours after her destruction. If the soul anchor is destroyed
+      or Barzillai Thrune's heart is removed from the soul anchor, she is
+      immediately destroyed and allowed to move on to the Great Beyond.
+  - name: Symbol of Mahathallah (Ex)
+    description: >-
+      A functional unholy symbol of Mahathallah adorns Nasperiah's torso, a
+      physical manifestation of her faith in the Dowager of Illusions. This
+      symbol functions as a divine focus for all of Nasperiah's divine spells
+      and grants her a +4 profane bonus to her Armor Class.
+Gender: Female
+BeforeCombat: >-
+  Nasperiah casts screen daily to make the Soulbound Fane appear empty and
+  deserted.
+DuringCombat: >-
+  For the first few rounds of combat, Nasperiah attempts to stay out of melee
+  range and casts blade barrier and flame strike, along with a quickened
+  spiritual weapon. She uses quickened dispel magic against the PC who seems to
+  be the most augmented by magical effects (favoring those who use magical
+  flight). She switches to using witchfire bolts after a few rounds of combat,
+  still staying at range and channeling negative energy only when surrounded. In
+  melee, she favors powerful touch spells like slay living, but saves harm to
+  heal herself with once reduced to 150 or fewer hit points. If reduced to fewer
+  than 50 hit points, she uses Quicken Spell to cast inflict spells to heal
+  herself while she attempts to flee via mislead or sanctuary, returning to
+  combat once she is healed up again.
+Morale: Nasperiah fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7595'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

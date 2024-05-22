@@ -1,0 +1,130 @@
+Name: The Gossamer
+CR: '8'
+XP: '4800'
+Race: aranea
+Class: shadowdancer 4
+MonsterSource: Pathfinder RPG Bestiary 2 30
+Alignment: LE
+Size: Medium
+Type: magical beast
+SubType: (shapechanger)
+Init: '9'
+Senses:
+  - darkvision 90 ft., low-light vision
+  - Perception +10
+AC: 23, touch 16, flat-footed 17
+AC_Mods: (+4 armor, +5 Dex, +1 dodge, +3 natural)
+HP: '75'
+HD: (9 HD; 5d10+4d8+32)
+Saves: Fort +9, Ref +11, Will +1
+Fort: '9'
+Ref: '11'
+Will: '1'
+DefensiveAbilities: evasion, uncanny dodge
+Weaknesses: opium addict
+Speed: 30 ft. (cannot run or charge)
+Melee:
+  - mwk dagger +14/+9 (1d4+1/19-20 plus aranea poison [DC 14])
+Ranged:
+  - mwk dagger +14 (1d4+1/19-20 plus aranea poison [DC 14])
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: web (+13 ranged, DC 16, 5 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: 2/day
+      value: shadow illusion (DC 15)
+    - label: 1/day
+      value: shadow call (DC 18)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (5/day)
+      value: false life, mirror image
+    - label: 1st (7/day)
+      value: charm person (DC 15), mage armor, magic missile, vanish*
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), ghost sound (DC 14), mage hand, message, resistance,
+        touch of fatigue (DC 14)
+AbilityScores:
+  - 12
+  - 20
+  - 16
+  - 14
+  - 10
+  - 19
+BaseAtk: '8'
+CMB: '9'
+CMD: '25'
+Feats:
+  - Ability Focus (web)
+  - Combat Reflexes
+  - Dodge
+  - Eschew MaterialsB
+  - Improved Initiative
+  - Mobility
+  - Weapon Finesse
+Skills:
+  - Acrobatics +16
+  - Bluff +11
+  - Climb +8
+  - Escape Artist +12
+  - Knowledge (arcana) +6
+  - Perception +10
+  - Perform (dance) +15
+  - Sleight of Hand +12
+  - Stealth +16
+Languages:
+  - Common
+  - Minkaian
+  - Sylvan
+  - Tien
+SQ: >-
+  change shape (humanoid; alter self ), hide in plain sight, rogue talent
+  (finesse rogue), shadow jump (40 feet/day), summon shadow
+Source: AP 52
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Opium Addict (Ex)
+    description: >-
+      The Gossamer are addicted to opium (see the sidebar above). While under
+      the effects of the drug, they gain +1d8 temporary hit points and a +2
+      alchemical bonus on Fortitude saves for 1 hour, but they are also
+      fatigued. In addition, they have taken 2 points of Constitution damage and
+      2 points of Wisdom damage from the drug (already reflected in the stat
+      block).
+Gender: Female
+BeforeCombat: >-
+  The Gossamer cast false life and mage armor before combat, and poison their
+  daggers with their own poison.
+DuringCombat: >-
+  The Gossamer initially use their shadow call abilities to summon 1d3 shadowy
+  giant spiders to attack enemies, hoping to draw their opponents' attention
+  while they try to outflank them. The Gossamer use their shadowdancer abilities
+  and spells such as mirror image and vanish to confuse their enemies, always
+  attempting to flank their enemies with each other or their shadow companions.
+  They reserve their shadow jump abilities to escape if they are cornered.
+Morale: The Gossamer fight to the death to protect their lover and master Akinosa.
+Gear: potion of blur, potion of cure serious wounds
+OtherGear: >-
+  masterwork daggers (8), black porcelain mask, black silk kimono embroidered
+  with dark draconic figures (worth 75 gp), necklace of Akinosa's hair
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+OffenseNote: '* See the Advanced Player''s Guide.'
+AgeCategory: Adult
+CompanionFamiliarLink: '1923'
+AlternateNameForm: hybrid form
+id: '1922'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

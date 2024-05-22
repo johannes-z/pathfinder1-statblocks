@@ -1,0 +1,84 @@
+Name: Shadow Mastiff
+CR: '5'
+XP: '1600'
+Race: Shadow Mastiff
+MonsterSource: Bonus Bestiary 16
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +10
+AC: 17, touch 12, flat-footed 15
+AC_Mods: (+2 Dex, +5 natural)
+HP: '51'
+HD: (6d10+18)
+Saves: Fort +8, Ref +7, Will +5
+Fort: '8'
+Ref: '7'
+Will: '5'
+DefensiveAbilities: shadow blend
+Speed: 50 ft.
+Melee:
+  - bite +10 (1d6+6 plus trip)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bay
+AbilityScores:
+  - 19
+  - 15
+  - 17
+  - 4
+  - 12
+  - 13
+BaseAtk: '6'
+CMB: '10'
+CMD: '22'
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+Skills:
+  - Perception +10
+  - Stealth +11
+  - Survival +10
+Languages:
+  - Common (cannot speak)
+Source: AP 29
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bay (Su)
+    description: >-
+      When a shadow mastiff howls or barks, all creatures except evil outsiders
+      within a 300-foot spread must succeed on a DC 16 Will save or become
+      panicked for 2d4 rounds. This is a sonic, mind-affecting fear effect. A
+      creature that successfully saves cannot be affected by the same mastiff's
+      bay for 24 hours. The save DC is Charisma-based and includes a +2 racial
+      bonus.
+  - name: Shadow Blend (Su)
+    description: >-
+      In any condition other than bright light, a shadow mastiff disappears into
+      the shadows, giving it total concealment (50% miss chance). A shadow
+      mastiff can suspend or resume this ability as a free action.
+DuringCombat: >-
+  A shadow mastiff uses its bay attack throughout combat, alerting most of the
+  other denizens of Walcourt that something has blundered into the grounds. They
+  generally focus their attacks on any foe that carries a light source.
+Morale: Shadow mastiffs fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '471'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

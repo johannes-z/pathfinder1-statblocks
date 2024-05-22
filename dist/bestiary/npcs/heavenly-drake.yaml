@@ -1,0 +1,100 @@
+Name: Heavenly Drake
+CR: '12'
+XP: '19200'
+Race: flame drake
+MonsterSource: Pathfinder RPG Bestiary 294, 169; Pathfinder RPG Bestiary 2 106
+Alignment: LG
+Size: Large
+Type: outsider
+SubType: (dragon, fire, native)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +17
+AC: 28, touch 13, flat-footed 24
+AC_Mods: (+4 armor, +4 Dex, +11 natural, -1 size)
+HP: '161'
+HD: (10d12+70)
+Saves: Fort +14 (+4 vs. poison), Ref +12, Will +11
+Fort: +14 (+4 vs. poison)
+Ref: '12'
+Will: '11'
+DR: 5/magic
+Immune: disease, fire, paralysis, sleep
+Resist: acid 10, cold 10, electricity 10
+SR: '23'
+Weaknesses: vulnerable to cold
+Speed: 20 ft., fly 60 ft. (good)
+Melee:
+  - +1 bite +20 (3d6+11 plus 1d6 fire), +1 tail slap +15 (1d6+6)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  fireball breath (180 ft., 20-ft.-radius spread, 5d6 fire damage, Reflex DC 22
+  for half, usable every 1d6 rounds), smite evil 1/day (+3 attack and AC, +10
+  damage)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +13)
+  values:
+    - label: 3/day
+      value: protection from evil
+    - label: 1/day
+      value: >-
+        aid, bless, cure serious wounds, detect evil, dispel evil (DC 18), holy
+        smite (DC 17), neutralize poison, remove disease
+AbilityScores:
+  - 30
+  - 21
+  - 24
+  - 15
+  - 18
+  - 16
+BaseAtk: '10'
+CMB: '21'
+CMD: '36'
+Feats:
+  - Flyby Attack
+  - Improved Natural Attack (bite)
+  - Light Armor Proficiency
+  - Power Attack
+  - Wingover
+Skills:
+  - Diplomacy +16
+  - Fly +19
+  - Intimidate +16
+  - Knowledge (planes) +15
+  - Perception +17
+  - Sense Motive +17
+  - Stealth +13
+  - Survival +17
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+SQ: speed surge
+Source: AP 108
+IsTemplate: '0'
+DuringCombat: >-
+  Against evil foes, a heavenly drake casts dispel evil on the first round of
+  combat, then fights as its rider directs, using its fireball breath and spells
+  such as holy smite while minimizing damage to bystanders.
+Morale: >-
+  A heavenly flame drake retreats only if directed by its rider or if its rider
+  falls in battle and the drake is reduced to 30 hit points or fewer.
+Gear: mwk chain shirt, amulet of mighty fists +1, exotic military saddle
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-celestial|advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8470'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,104 @@
+Name: Parthuk
+CR: '7'
+XP: '3200'
+Race: troll
+Class: oracle 4
+MonsterSource: Pathfinder RPG Bestiary 268, Pathfinder RPG Advanced Player's Guide 42
+Alignment: NE
+Size: Large
+Type: humanoid
+SubType: (giant)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +11
+AC: 17, touch 11, flat-footed 15
+AC_Mods: (+1 armor, +2 Dex, +5 natural, -1 size)
+HP: '99'
+HD: (10d8+54)
+HP_Mods: regeneration 5 (acid or fire)
+Saves: Fort +11, Ref +5, Will +10
+Fort: '11'
+Ref: '5'
+Will: '10'
+Speed: 20 ft.
+Melee:
+  - bite +11 (1d8+5), 2 claws +11 (1d6+5)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rend (2 claws, 1d6+7)
+SpellsKnown:
+  header: Oracle Spells Known (CL 4th; concentration +6)
+  values:
+    - label: 2nd (4/day)
+      value: barkskin, death knell (DC 14), inflict moderate wounds (DC 14)
+    - label: 1st (7/day)
+      value: >-
+        bless, charm animal (DC 13), command (DC 13), inflict light wounds (DC
+        13), obscuring mist
+    - label: 0 (at will)
+      value: create water, detect poison, guidance, mending, resistance, stabilize
+AbilityScores:
+  - 20
+  - 15
+  - 20
+  - 9
+  - 14
+  - 14
+BaseAtk: '7'
+CMB: '13'
+CMD: '25'
+Feats:
+  - Animal Affinity
+  - Combat Casting
+  - Intimidating Prowess
+  - Iron Will
+  - Skill Focus (Perception)
+Skills:
+  - Acrobatics +2 (-2 when jumping)
+  - Handle Animal +11
+  - Heal +2 (+5 to treat common animals
+  - but +1 to treat other creatures)
+  - Intimidate +13
+  - Knowledge (nature) +6
+  - Perception +11
+  - Ride +4
+  - Survival +9
+Languages:
+  - Giant
+SQ: oracle's curse (lame), revelations (natural divination, speak with animals)
+Source: AP 116
+IsTemplate: '0'
+BeforeCombat: >-
+  Parthuk casts barkskin on both of the dire weasels. He uses natural divination
+  each day to gain a +4 bonus to his initiative (included in his statistics
+  above).
+DuringCombat: >-
+  Parthuk prefers to take the brunt of attacks while the dire weasels harry
+  opponents. He casts command before lumbering into melee to ensure he remains
+  the focus of attacks. Parthuk casts death knell on the first creature to fall
+  in combat, even if it is one of his weasels.
+Morale: >-
+  Convinced of his own immortality thanks to his regeneration, Parthuk fights to
+  the death.
+Gear: wand of charm animal (27 charges)
+OtherGear: >-
+  padded armor, headband of alluring charisma +2, animal calls (cougar, roc,
+  weasel, and wolf)ACG, animal harnessesAPG (4), canvas ball, veterinarian's
+  kitUE
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: middle age
+Mystery: nature
+CompanionFamiliarLink: '0'
+id: '11163'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

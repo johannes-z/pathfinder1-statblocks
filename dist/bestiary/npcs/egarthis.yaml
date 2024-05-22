@@ -1,0 +1,107 @@
+Name: Egarthis
+CR: '6'
+XP: '2400'
+Race: human
+Class: sorcerer 5/monk 2
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '0'
+Senses:
+  - Perception +9
+AC: 17, touch 13, flat-footed 16
+AC_Mods: (+4 armor, +1 dodge, +2 Wis)
+HP: '58'
+HD: (5d6+2d8+19 plus 10 false life)
+Saves: Fort +5, Ref +6, Will +9
+Fort: '5'
+Ref: '6'
+Will: '9'
+DefensiveAbilities: evasion
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - flurry of blows +5/+5 (1d6+2)
+Ranged:
+  - elemental ray +3 touch (1d6+2 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: elemental ray 6/day, stunning fist (2/day, DC 15)
+SpellsKnown:
+  header: Spells Known (CL 5th)
+  values:
+    - label: 2nd (5/day)
+      value: bull's strength, false life, scorching ray
+    - label: 1st (7/day)
+      value: >-
+        alarm, burning hands (DC 14), color spray (DC 14), mage armor, magic
+        missile
+    - label: 0 (at will)
+      value: >-
+        detect magic, detect poison, mage hand, message, read magic, touch of
+        fatigue (DC 13)
+AbilityScores:
+  - 14
+  - 10
+  - 12
+  - 8
+  - 14
+  - 17
+BaseAtk: '3'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Combat Casting
+  - Dazzling Display
+  - Deflect Arrows
+  - Dodge
+  - Eschew Materials
+  - Improved Unarmed Strike
+  - Lightning Reflexes
+  - Stunning Fist
+  - Toughness
+  - Weapon Focus (unarmed strike)
+Skills:
+  - Heal +5
+  - Intimidate +9
+  - Knowledge (arcana) +4
+  - Perception +9
+  - Spellcraft +4
+  - Stealth +7
+Languages:
+  - Common
+SQ: bloodline arcana (change damage spells to fire damage)
+Source: Masks Of The Living God
+IsTemplate: '0'
+Gender: Male
+Bloodline: elemental (fire)
+BeforeCombat: >-
+  Egarthian casts mage armor and false life in the morning, renewing both of
+  them in the afternoon.
+DuringCombat: >-
+  Egarthian waits for the right time to enter combat. He uses his collar of the
+  inferno at the first opportunity, and prefers targeting weak opponents.
+Morale: >-
+  Egarthis is not above sacrificing acolytes, priests, or even other heralds to
+  ensure victory or his own escape, and flees when at 15 hp or less.
+Gear: >-
+  brooch of shielding (85 points), collar of the inferno (single-use item,
+  summons 1d3 hell hounds as if using summon monster V), potion of cure moderate
+  wounds (2), potion of stabilize, wand of shield (42 charges)
+OtherGear: black robes, iron mask, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4061'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

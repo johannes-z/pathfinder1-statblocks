@@ -1,0 +1,143 @@
+Name: Adult Crystal Dragon
+CR: '10'
+XP: '9600'
+Alignment: CG
+Size: Large
+Type: dragon
+SubType: (earth, extraplanar)
+Init: '1'
+Senses:
+  - dragon senses, tremorsense 60 ft.
+  - Perception +19
+Aura: frightful presence (180 ft., DC 22)
+AC: 27, touch 10, flat-footed 26
+AC_Mods: (+1 Dex, +17 natural, -1 size)
+HP: '149'
+HD: (13d12+65)
+Saves: Fort +15, Ref +11, Will +11
+Fort: '15'
+Ref: '11'
+Will: '11'
+DR: 5/magic
+Immune: paralysis, sleep, sonic
+SR: '21'
+Speed: 60 ft., burrow 30 ft., climb 30 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +19 (2d6+9/19-20), 2 claws +18 (1d8+6), tail slap +16 (1d8+9), 2 wings
+    +16 (1d6+3)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (40-ft. cone, 12d4 sonic, DC 21)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +18)
+  values:
+    - label: At Will
+      value: color spray (DC 17), glitterdust (DC 18), rainbow pattern (DC 20)
+SpellsKnown:
+  header: Spells Known (CL 1st; concentration +7)
+  values:
+    - label: 1st (5/day)
+      value: shield, unseen servant
+    - label: 0 (at will)
+      value: acid splash, detect magic, ghost sound, read magic
+AbilityScores:
+  - 23
+  - 12
+  - 21
+  - 16
+  - 17
+  - 22
+BaseAtk: '13'
+CMB: '20'
+CMD: 31 (35 vs. trip)
+Feats:
+  - Deceitful
+  - Great Fortitude
+  - Improved Critical (bite)
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +26
+  - Climb +30
+  - Disguise +23
+  - Fly +11
+  - Intimidate +22
+  - Knowledge (dungeoneering) +19
+  - Perception +19
+  - Sense Motive +19
+  - Stealth +13
+Languages:
+  - Common
+  - Draconic
+  - Terran
+  - Undercommon
+SQ: razor sharp
+Environment: any underground (Plane of Earth)
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This brilliantly colored dragon has scales, teeth, and claws made of
+  multicolored crystal, and its wings are sheets of flexible glass.
+Group: Primal Dragon
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Razor Sharp (Sp)
+    description: All of a crystal dragon's natural attacks deal slashing damage.
+  - name: Ray Reflection (Ex)
+    description: >-
+      An ancient crystal dragon's scales reflect ray spells back upon the ray's
+      source if the ray fails to overcome the dragon's spell resistance.
+  - name: Scintillating Aura (Su)
+    description: >-
+      A great wyrm crystal dragon radiates an aura of scintillating color from
+      its jeweled scales to a radius of 60 feet. All within this area must make
+      a Will save each round to avoid being stunned (if the victim has 15 or
+      fewer Hit Dice) or confused (if the victim has more than 15 Hit Dice) for
+      1 round. The save DC is equal to the dragon's breath weapon save DC. This
+      is a mind-affecting effect. The dragon can activate or suppress this aura
+      as a free action. Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      A crystal dragon gains the following spell-like abilities, usable at will
+      (unless indicated otherwise) upon reaching the listed age category. Very
+      young-color spray; Juvenile-glitterdust; Adult-rainbow pattern; Old- stone
+      to flesh (3/day); Ancient-prismatic spray (3/day); Great wyrm-imprisonment
+      (1/day).
+  - name: Tremorsense (Ex)
+    description: >-
+      Crystal dragons do not gain tremorsense until juvenile age (30 ft.),
+      improving at adult (60 ft.) and old (120 ft.).
+Description:
+  - >-
+    Crystal dragons are generally good-natured, though their incredible vanity
+    sometimes causes them to seem aloof and cocky. Any perceived insult against
+    its appearance is all but assured to send a crystal dragon into a rage-which
+    is a problem, as most crystal dragons are prone to seeing insults even where
+    none are intended. Crystal dragons prefer underground lairs, and often go
+    for decades or even centuries without emerging from their extensive cavern
+    lairs onto the surface world above.
+  - >-
+    Crystal dragons tend to be exacting and even obsessive-compulsive, their
+    personalities mirroring the precise and ordered nature of the facets of
+    their scales. A crystal dragon's lair is a well-ordered place-these dragons
+    find the very idea of the classic sprawl of a dragon's hoard to be shameful.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Adult Crystal Dragon
+id: '1177'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

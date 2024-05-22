@@ -1,0 +1,133 @@
+Name: Devourer Of Reason Subtier 4-5
+CR: '6'
+XP: '2400'
+Race: Ghoul
+Class: sorcerer (wildblooded) 5
+MonsterSource: Pathfinder RPG Bestiary 146, Ultimate Magic 70
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +10
+AC: 20, touch 13, flat-footed 17
+AC_Mods: (+4 armor, +3 Dex, +3 natural)
+HP: '59'
+HD: (7 HD; 2d8+5d6+33)
+Saves: Fort +5, Ref +4, Will +10
+Fort: '5'
+Ref: '4'
+Will: '10'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Resist: cold 5, fire 5
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +7 (1d6+4 plus disease and paralysis), 2 claws +7 (1d4+4 plus
+    paralysis)
+  - +1 dagger +8 (1d4+5/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: paralysis (1d4+1 rounds, DC 15, elves are immune to this effect)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: 7/day
+      value: dark motes
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (5/day)
+      value: acid arrow, glitterdust, scorching ray
+    - label: 1st (7/day)
+      value: disguise self, mage armor, magic missile, shocking grasp, unseen servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, detect magic, mage hand, message, ray of
+        frost
+AbilityScores:
+  - 18
+  - 17
+  - —
+  - 13
+  - 16
+  - 18
+BaseAtk: '3'
+CMB: '7'
+CMD: '20'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Eschew Materials
+  - Spell Focus (evocation)
+  - Brain Eater
+Skills:
+  - Acrobatics +7
+  - Bluff +11
+  - Climb +11
+  - Perception +10
+  - Spellcraft +8
+  - Stealth +11
+Languages:
+  - Aklo
+  - Common
+SQ: voidwalker
+Source: PFS S3-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Black Motes (Sp)
+    description: >-
+      As a standard action, the Devourer of Reason can summon a rain of tiny
+      meteorites that fall in a 5-foot column, 30 feet high, with a range of 30
+      feet. The meteors deal 1d4+2 points of cold damage (DC 16 Reflex negates).
+  - name: Bloodline Arcana (Su)
+    description: >-
+      Whenever the Devourer of Reason casts an evocation spell, it may select
+      one affected target that fails its save to suffer the choking airlessness
+      of the void, silencing it (as silence, but affecting only the target) for
+      1 round.
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 15; onset 1 day; frequency 1 day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at
+      the next midnight; a humanoid of 4 Hit Dice or more rises as a ghast.
+  - name: Voidwalker (Ex)
+    description: The Devourer of Reason gains low-light vision and resist cold and fire 5.
+Bloodline: Void-touched
+BeforeCombat: >-
+  The Devourer cast mage armor on itself before entering the tower (effects
+  included in its stats). When it realizes that the adventurers are making their
+  way to the vault, it uses its scroll of web   at the entrance to the vault,
+  spends a charge from its wand of protection from arrows, and drinks its potion
+  of invisibility, hiding in the corner and waiting to attack the first creature
+  with its back turned.
+DuringCombat: >-
+  The Devourer of Reason tries to take out divine casters first, silencing them
+  with its bloodline arcana power, and uses its evocation spells alongside its
+  lesser elemental metamagic rod to deal cold damage.
+Morale: The Devourer of Reason fights until destroyed.
+Gear: >-
+  potion of invisibility, scrolls of web (2), wand of burning hands (16
+  charges), wand of protection from arrows (8 charges), lesser elemental
+  metamagic rod (cold)*
+OtherGear: +1 dagger, amulet of natural armor +1, disguise kit, 236 gp
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: wildblooded
+CompanionFamiliarLink: '0'
+id: '5910'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

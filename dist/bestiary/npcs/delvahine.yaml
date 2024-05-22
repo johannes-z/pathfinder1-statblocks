@@ -1,0 +1,186 @@
+Name: Delvahine
+CR: '15'
+XP: '51200'
+Race: succubus
+Class: bard 6/dominant 5
+MonsterSource: Pathfinder RPG Bestiary 68, Plot & Poison 66
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft., detect good
+  - Perception +33
+AC: 29, touch 16, flat-footed 23
+AC_Mods: (+6 armor, +6 Dex, +7 natural)
+HP: '249'
+HD: (19 HD; 8d10+11d8+158)
+Saves: >-
+  Fort +15, Ref +20, Will +17; +4 vs. bardic performance, language-dependent,
+  and sonic
+Fort: '15'
+Ref: '20'
+Will: '17'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DR: 10/cold iron or good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+SR: '18'
+Speed: 30 ft., fly 50 ft. (average)
+Melee:
+  - sadist's lash +22/+17/+12 (1d3+5/19-20), +1 dagger +21/+16/+11 (1d4+5/19-20)
+  - 2 claws +22 (1d4+4 plus 1d3 nonlethal)
+  - agonizing touch +22 (1d3 nonlethal)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  agonizing touch, binding whip, deadly whip, energy drain, penetrating whip,
+  profane gift, bardic performance 27 rounds/day (countersong, distraction,
+  fascinate, inspire competence +2, inspire courage +2, suggestion)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +25)
+  values:
+    - label: Constant
+      value: detect good, tongues
+    - label: At Will
+      value: >-
+        charm monster (DC 27), detect thoughts (DC 25), ethereal jaunt (self
+        plus 50 lbs. of objects only), greater teleport (self plus 50 lbs. of
+        objects only), suggestion (DC 26), vampiric touch
+    - label: 1/day
+      value: dominate person (DC 28), summon (level 3, 1 babau 50%)
+SpellsKnown:
+  header: Spells Known (CL 11th; concentration +24)
+  values:
+    - label: 4th (5/day)
+      value: dominate person (DC 29), freedom of movement, greater invisibility
+    - label: 3rd (7/day)
+      value: confusion (DC 27), dispel magic, displacement, haste
+    - label: 2nd (7/day)
+      value: >-
+        blindness/deafness (DC 25), cure moderate wounds, eagle's splendor, hold
+        person (DC 26), mirror image
+    - label: 1st (9/day)
+      value: >-
+        alarm, animate rope, cure light wounds, grease (DC 24), hideous laughter
+        (DC 25), unseen servant
+    - label: 0 (at will)
+      value: >-
+        ghost sound (DC 23), mage hand, mending, message, prestidigitation, read
+        magic
+AbilityScores:
+  - 18
+  - 23
+  - 26
+  - 16
+  - 14
+  - 36
+BaseAtk: '15'
+CMB: '19'
+CMD: '35'
+Feats:
+  - Arcane Strike
+  - Combat Reflexes
+  - Dazzling Display
+  - Double Slice
+  - Greater Two-Weapon Fighting
+  - Improved Two-Weapon Fighting
+  - Spell Focus (enchantment)
+  - Two-Weapon Fighting
+  - Weapon Finesse
+  - Weapon Focus (whip)
+Skills:
+  - Acrobatics +36
+  - Bluff +37
+  - Diplomacy +36
+  - Escape Artist +29
+  - Fly +36
+  - Heal +11
+  - Intimidate +36
+  - Knowledge (arcana
+  - planes) +20
+  - Perception +33
+  - Perform (dance) +36
+  - Perform (oratory) +36
+  - Sense Motive +36
+  - Stealth +29
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - Thassilonian
+  - telepathy 100 ft.
+SQ: >-
+  change shape (Small or Medium humanoid; alter self), enchantment
+  specialization, bardic knowledge +3, lore master 1/day, versatile performance
+  (dance, oratory)
+Source: RotRL-AE-Sins of the Saviors
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Agonizing Touch (Su)
+    description: >-
+      Delvahine can deal 1d3 points of nonlethal damage with a touch attack at
+      will as a standard action. She deals an additional 1d3 points of nonlethal
+      damage with her natural attacks.
+  - name: Binding Whip (Ex)
+    description: >-
+      Delvahine does not provoke attacks of opportunity when she uses a whip in
+      melee. She can also attempt to entangle a Large or smaller foe with a
+      whip-to do so, she makes a touch attack against a target. If she hits, the
+      target is entangled. If she succeeds at an opposed Strength check against
+      the target, the target can not move farther than 15 feet away from
+      Delvahine. An entangled creature can escape with a successful DC 20 Escape
+      Artist check (a full-round action) or DC 25 Strength check, or by
+      sundering the whip. As long as she entangles a foe with her whip,
+      Delvahine cannot use that whip to make additional attacks. Delvahine can
+      release a foe from her binding whip as an immediate action.
+  - name: Deadly Whip (Ex)
+    description: >-
+      Delvahine can choose to deal normal damage with a whip rather than
+      nonlethal damage.
+  - name: Enchantment Specialization (Ex)
+    description: >-
+      Delvahine gains a +1 bonus to overcome SR when she casts dominate person,
+      and the save DC of any dominate person spell she casts increases by 1.
+  - name: Penetrating Whip (Su)
+    description: >-
+      Delvahine can harm any foe with her whip, regardless of the foe's armor or
+      natural armor bonuses.
+Gender: Female
+BeforeCombat: >-
+  Delvahine is unlikely to be caught off guard by the PCs since her daughters
+  keep in telepathic contact with her. Once she knows the PCs are approaching
+  (either at her permission or otherwise), she casts freedom of movement,
+  eagle's splendor, and mirror image.
+DuringCombat: >-
+  Delvahine prefers to fight with allies, particularly her submissive daughters,
+  who are well trained at protecting her. She uses her bardic performance to
+  inspire courage on the first round of combat, then moves on to use dominate
+  person and confusion against her foes. If forced to fight in melee, she fights
+  with dagger and sadist's lash, using Arcane Strike each round to deal an
+  additional 3 points of damage with each hit.
+Morale: >-
+  Delvahine teleports to area I2 if brought below 20 hit points&#8211;as
+  distasteful as it is to her, she hopes to seek aid from Vraxeris. When she
+  discovers he is dead and only his simulacra remains, she assumes his form,
+  allies with his simulacra, and awaits the PCs' arrival in that wing to seek
+  revenge.
+Gear: >-
+  +2 glamered mithral chain shirt, sadist's lash, +1 dagger, belt of physical
+  might +4 (Dex, Con)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3269'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,110 @@
+Name: Abrikandilu
+CR: '3'
+XP: '800'
+Race: Abrikandilu
+MonsterSource: 'Pathfinder Campaign Setting: The Worldwound 42'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 15, touch 10, flat-footed 15
+AC_Mods: (+5 natural)
+HP: '32'
+HD: (5d10+5)
+Saves: Fort +5, Ref +4, Will +3
+Fort: '5'
+Ref: '4'
+Will: '3'
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Weaknesses: hatred of mirrors
+Speed: 30 ft.
+Melee:
+  - bite +7 (1d6+2 plus mutilation), 2 claws +7 (1d4+2)
+Ranged:
+  - improvised weapon +5 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: destructive attacks, mutilation
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +6)
+  values:
+    - label: 3/day
+      value: cause fear (DC 12), shatter (DC 13)
+    - label: 1/day
+      value: summon (level 1, 1 abrikandilu 50%-already used today)
+AbilityScores:
+  - 15
+  - 11
+  - 12
+  - 6
+  - 10
+  - 13
+BaseAtk: '5'
+CMB: +7 (+9 sunder)
+CMD: 19 (21 vs. sunder)
+Feats:
+  - Improved Sunder
+  - Iron Will
+  - Power Attack
+  - Throw Anything
+Skills:
+  - Appraise +6
+  - Climb +10
+  - Disable Device +8
+  - Perception +12
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+Source: AP 73
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Destructive Attacks (Ex)
+    description: >-
+      An abrikandilu's natural attacks can threaten and confirm critical hits
+      against objects. In addition, the abrikandilu gains a +5 racial bonus on
+      Strength checks made to break or destroy objects.
+  - name: Hatred of Mirrors (Ex)
+    description: >-
+      An abrikandilu loathes the sight of its own reflection. Using a mirror
+      grants a +5 bonus on Intimidate checks against an abrikandilu. An
+      abrikandilu adjacent to a mirror or attacked by a mirror-carrying creature
+      (at the GM's discretion, some shields could be considered mirrors) must
+      attempt a DC 15 Will save at the start of its turn. If it fails, the
+      abrikandilu must focus all of its actions that round on attempts to
+      destroy the mirror.
+  - name: Mutilation (Su)
+    description: >-
+      An abrikandilu's bite causes hideous, ugly wounds that not only mar beauty
+      but supernaturally diminish a creature's sense of self-worth. A creature
+      bitten by an abrikandilu must succeed at a DC 13 Fortitude save or take a
+      -1 penalty on all Charisma-based checks. This penalty can stack as high as
+      a &#8211;5 penalty with multiple bites and failed saves, and lasts even
+      after the wounds are healed. The penalty reduces by 1 point every 24
+      hours. This is a curse effect. The save DC is Constitution-based.
+DuringCombat: >-
+  The abrikandilu opens combat by hurling knives and bits of broken furniture at
+  the PCs. When it engages in melee, it focuses its attacks on the most
+  attractive PC.
+Morale: The abrikandilu flees if reduced to fewer than 6 hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4830'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

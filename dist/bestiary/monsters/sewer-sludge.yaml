@@ -1,0 +1,131 @@
+Name: Sewer Sludge
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Medium
+Type: ooze
+SubType: (aquatic)
+Init: '0'
+Senses:
+  - blindsight 30 ft.
+  - Perception -5
+Aura: stench (10 ft., DC 17)
+AC: 14, touch 10, flat-footed 14
+AC_Mods: (+4 natural)
+HP: '38'
+HD: (4d8+20)
+Saves: Fort +6, Ref +1, Will -4
+Fort: '6'
+Ref: '1'
+Will: '-4'
+Immune: cold, electricity, ooze traits
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee:
+  - slam +6 (1d8+4 plus disease and grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (1d8+4)
+AbilityScores:
+  - 16
+  - 10
+  - 20
+  - —
+  - 1
+  - 1
+BaseAtk: '3'
+CMB: +6 (+10 grapple)
+CMD: 16 (can't be tripped)
+Skills:
+  - Climb +11
+  - Swim +11
+SQ: amphibious, camouflage
+Environment: any
+Organization: solitary or smattering (2-5)
+Treasure: none
+Description_Visual: >-
+  Suddenly, the pile of sewage rises up and extends a long brown pseudopod
+  dripping with vulgar fluids.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Camouflage (Ex)
+    description: >-
+      Since a sewer sludge looks like normal sludge when at rest, a DC 20
+      Perception check is required to notice it before it attacks for the first
+      time. Anyone with ranks in Survival or Knowledge (dungeoneering) can use
+      either of those skills instead of Perception to notice the ooze.
+  - name: Cold Immunity (Ex)
+    description: >-
+      A sewer sludge hit by a cold-based attack takes no damage. However, if the
+      amount of damage it would have otherwise taken exceeds its Constitution
+      score, the sewer sludge is slowed (as the slow spell) for 1d6 rounds.
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Slam-contact; save DC 17 Fort; onset 1d3 days; frequency
+      1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
+      The save DC is Constitution-based.
+  - name: Stench Aura (Ex)
+    description: >-
+      Creatures entering the area must succeed on a DC 17 Fortitude save or be
+      sickened for as long as they remain in the area and for 1d4 rounds after
+      leaving it. The save DC is Constitution-based.
+Description:
+  - >-
+    A sewer sludge is a disgusting ooze that resembles nothing more than a
+    filthy pile of sewage. They lurk in the sewer and waste-water systems of
+    large cities, usually content to feed on rats and refuse that filters down
+    from the streets overhead.
+  - >-
+    A sewer sludge is a globular mass about 4 feet across, and weighing 100
+    pounds.
+  - >-
+    Sewer sludges are almost always hungry, and do not hesitate to attack prey
+    larger than themselves. A sewer sludge's usual method of attack is to glom
+    onto the body of a creature struck by its pseudopod, grip it tightly, and
+    liquefy its flesh by releasing acidic digestive enzymes.
+  - Spawn of Dungie
+  - >-
+    The origin of sewer sludges was unknown until recently. Diligent research by
+    a curious adventurer named Bilark Weterson finally tracked down where these
+    creatures came from, and the news was not good at all. Weterson realized
+    that sewer sludges first appeared in cities often frequented by travelers
+    returning from a certain famous dungeon. Following a hunch, he investigated
+    and was never heard from again. Weterson's diary was recently uncovered in a
+    used book store in Bard's Gate, and in it were discovered his theories about
+    sewer sludges.
+  - >-
+    It is known that in the upper levels of the dungeon known as Rappan Athuk
+    there exists a creature called the Dung Monster. The good news is that the
+    Dung Monster, nicknamed ‘Dungie' by those few who have survived an encounter
+    with that it, is content to remain in Rappan Athuk and not venture into the
+    outside world. The bad news is that Dungie has begun to reproduce.
+  - >-
+    Once every few years, Dungie grows odd nodules on its surface. These nodules
+    continue to bud until they fall away and take on a life of their own.
+    Sometimes, a bud finds its way outside of Rappan Athuk, either on its own or
+    hidden in the packs and clothing of weary adventurers as they exit the
+    dungeon. If undetected, these buds drop out into the sewers of the great
+    cities of the world and grow into sewer sludges. Fortunately, sewer sludges
+    remain mindless oozes as they age. Were they to mature into adhesive,
+    shape-changing, immortal monsters like their progenitor, the world might
+    surely be doomed!
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+AlternateNameForm: Spawn Of Dungie
+id: '5051'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

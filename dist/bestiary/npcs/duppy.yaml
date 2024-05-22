@@ -1,0 +1,96 @@
+Name: Duppy
+CR: '7'
+XP: '3200'
+Race: Duppy
+MonsterSource: 'Pathfinder Campaign Setting: Isles of the Shackles 48'
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+Aura: unnatural aura (30 ft.)
+AC: 20, touch 20, flat-footed 14
+AC_Mods: (+4 deflection, +6 Dex)
+HP: '76'
+HD: (9d8+36)
+Saves: Fort +7, Ref +11, Will +8
+Fort: '7'
+Ref: '11'
+Will: '8'
+DefensiveAbilities: channel resistance +2, incorporeal
+Immune: undead traits
+Weaknesses: resurrection vulnerability, sunlight powerlessness
+Speed: fly 40 ft. (perfect)
+Melee:
+  - incorporeal touch +12 (2d8 negative energy plus 1d6 Str drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: ravenous hounds
+AbilityScores:
+  - —
+  - 22
+  - —
+  - 13
+  - 15
+  - 19
+BaseAtk: '6'
+CMB: '12'
+CMD: '26'
+Feats:
+  - Flyby Attack
+  - Improved Initiative
+  - Lightning Reflexes
+  - Lunge
+  - Step Up
+Skills:
+  - Fly +26
+  - Intimidate +16
+  - Perception +14
+  - Sense Motive +14
+  - Stealth +18
+Languages:
+  - Common
+  - Polyglot
+Source: AP 60
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ravenous Hounds (Sp)
+    description: >-
+      Once per day as a standard action, a duppy can bring into being a pack of
+      incorporeal hounds for 1d4+3 rounds. The ravenous hounds attack as a
+      single unit, have a +11 attack bonus, deal 2d6+3 points of force damage on
+      a successful hit, and threaten a critical hit on a natural 20. This
+      ability is otherwise identical to mage's sword (CL 7th).
+  - name: Resurrection Vulnerability (Su)
+    description: >-
+      A raise dead or similar spell that is cast on a duppy destroys it (Will
+      save negates). Using the spell in this way does not require any material
+      components.
+  - name: Strength Drain (Su)
+    description: >-
+      Creatures hit by a duppy's touch attack must succeed at a DC 18 Fortitude
+      save or take 1d6 points of Strength drain. On each successful attack, the
+      duppy gains 5 temporary hit points. The save DC is Charisma-based.
+DuringCombat: >-
+  The duppies summon their ravenous hounds on the first round of combat, then
+  attack with their incorporeal touch attacks. The duppies focus their attacks
+  on obvious pirates and sailors first.
+Morale: The duppies fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3305'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

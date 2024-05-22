@@ -1,0 +1,108 @@
+Name: Dark Creeper Skirmisher
+CR: '3'
+XP: '800'
+Race: dark creeper
+Class: rogue 1
+MonsterSource: Pathfinder RPG Bestiary 53
+Alignment: CN
+Size: Small
+Type: humanoid
+SubType: (dark creeper)
+Init: '3'
+Senses:
+  - see in darkness
+  - Perception +10
+AC: 16, touch 14, flat-footed 13
+AC_Mods: (+2 armor, +3 Dex, +1 size)
+HP: '26'
+HD: (4 HD; 3d8+1d8+9)
+Saves: Fort +3, Ref +6, Will +2
+Fort: '3'
+Ref: '6'
+Will: '2'
+Weaknesses: light blindness
+Speed: 30 ft.
+Melee:
+  - mwk dagger +7 (1d3+1/19-20 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death throes, sneak attack (+2d6)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +2)
+  values:
+    - label: At Will
+      value: darkness, detect magic
+AbilityScores:
+  - 13
+  - 17
+  - 14
+  - 10
+  - 12
+  - 8
+BaseAtk: '2'
+CMB: '2'
+CMD: '15'
+Feats:
+  - Skill Focus (Sleight of Hand)
+  - Weapon Finesse
+Skills:
+  - Acrobatics +8
+  - Climb +10
+  - Disable Device +8
+  - Escape Artist +8
+  - Perception +10
+  - Sleight of Hand +11
+  - Stealth +16
+Languages:
+  - Dark Folk
+SQ: poison use, rag armor, trapfinding
+Source: PFS S1-47
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Throes (Su)
+    description: >-
+      When a dark creeper is slain, its body combusts in a flash of bright white
+      light, leaving its gear in a heap on the ground. All creatures within a
+      10-foot burst must make a DC 13 Fortitude save or be blinded for 1d6
+      rounds. Other dark creepers within 10 feet are automatically blinded for
+      at least 1 round, due to their light blindness. The save is
+      Constitution-based.
+  - name: Poison Use (Ex)
+    description: >-
+      Dark creepers are skilled in the use of poison and never risk accidentally
+      poisoning themselves. Dark creepers favor a foul-smelling black paste
+      distilled from certain deep-underground fungi, known as black
+      smear-injury; save Fort DC 15; frequency 1/round for 6 rounds; effect 1d2
+      Str; cure 1 save.
+  - name: Rag Armor (Ex)
+    description: >-
+      A dark creeper's multiple layers of filthy rags function as leather armor
+      when worn by one of their kind.
+  - name: See in Darkness (Su)
+    description: >-
+      A dark creeper can see perfectly in darkness of any kind, including that
+      created by deeper darkness.
+Gender: Male
+BeforeCombat: The dark creepers initiate combat by casting darkness.
+DuringCombat: >-
+  The dark creepers use detect magic to determine which character is the
+  greatest threat, attacking that character first. They concentrate attacks on
+  single characters, trying to flank and assassinate them. Once they drop an
+  opponent, they move to the next.
+Morale: The creepers attempt to flee if reduced to 4 hit points or fewer.
+Gear: rag armor, masterwork dagger, black poison (3 doses)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4273'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

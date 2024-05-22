@@ -1,0 +1,127 @@
+Name: Repral
+CR: '10'
+XP: '9600'
+Race: hobgoblin
+Class: hunter 11
+MonsterSource: Pathfinder RPG Bestiary 175, Pathfinder RPG Advanced Class Guide 26
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+AC: 24, touch 15, flat-footed 21
+AC_Mods: (+7 armor, +2 deflection, +2 Dex, +1 dodge, +1 natural, +1 shield)
+HP: '130'
+HD: (11d8+77)
+Saves: Fort +13, Ref +10, Will +8
+Fort: '13'
+Ref: '10'
+Will: '8'
+DefensiveAbilities: evasion
+Speed: 20 ft.
+Melee:
+  - +1 flaming scorpion whip +14/+9 (1d4+6 plus 1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Hunter Spells Known (CL 11th; concentration +13)
+  values:
+    - label: 4th (2/day)
+      value: >-
+        animal growth (DC 16), cure serious wounds, freedom of movement, summon
+        nature's ally IV
+    - label: 3rd (4/day)
+      value: >-
+        air geyserACG (DC 15), dominate animal (DC 15), greater magic fang,
+        poison (DC 15), summon nature's ally III
+    - label: 2nd (5/day)
+      value: >-
+        bull's strength, chill metal (DC 14), hold animal (DC 14), summon
+        nature's ally II, summon swarm, whip of spidersACG
+    - label: 1st (6/day)
+      value: >-
+        charm animal (DC 13), cure light wounds, longstrider, produce flame,
+        resist energy, summon nature's ally I, thunderstompACG
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, detect poison, guidance, know direction,
+        resistance
+AbilityScores:
+  - 20
+  - 14
+  - 20
+  - 8
+  - 14
+  - 10
+BaseAtk: '8'
+CMB: '13'
+CMD: '28'
+Feats:
+  - Dodge
+  - Exotic Weapon Proficiency (whip)
+  - Improved Initiative
+  - Iron Will
+  - Outflank
+  - Paired Opportunists
+  - Precise Strike
+  - Shielded Caster
+  - Skill Focus (Handle Animal)
+  - Toughness
+Skills:
+  - Acrobatics -2 (-6 to jump)
+  - Climb +6
+  - Handle Animal +20
+  - Knowledge (arcana) +4
+  - Knowledge (dungeoneering
+  - nature) +12
+  - Perception +14
+  - Stealth +2
+  - Survival +13
+RacialMods: +4 Stealth
+Languages:
+  - Common
+  - Goblin
+SQ: >-
+  animal companion (constrictor named Tikik), animal focus (11 minutes/day,
+  double), bonus trick (1), hunter tactics, improved empathic link, nature
+  training, swift tracker, track +5, wild empathy +11, woodland stride
+Source: AP 117
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If she hears enemy activity (such as a loud battle with the gorgons in area
+  M5), Repral casts animal growth and greater magic fang on Tikik, casts bull's
+  strength and freedom of movement on herself, and activates her animal focus
+  for both of them to gain +4 Constitution and evasion.
+DuringCombat: >-
+  Repral keeps Tikik close at hand in combat to defend her. She begins by
+  casting chill metal on the most heavily armored foe, then casts poison and
+  whip of spiders while her snake deals with anyone drawing close.
+Morale: Repral is a fanatic and fights to the death.
+Gear: wand of cure serious wounds (15 charges)
+OtherGear: >-
+  +1 breastplate, buckler, +1 flaming scorpion whipUE, amulet of natural armor
+  +1, cloak of resistance +1, ring of protection +2, large opals (2, worth 300
+  gp each)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without her spells and animal focus, Repral's statistics are hp 108; Fort +11
+  Melee +1 flaming scorpion whip +12/+7 (1d4+4 plus 1d6 fire); Str 16, Con 16;
+  CMB +11; CMD 26; Skills Climb +4.
+AgeCategory: Adult
+CompanionFamiliarLink: '11204'
+id: '11203'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

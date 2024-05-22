@@ -1,0 +1,106 @@
+Name: Acrietia
+CR: '7'
+XP: '3200'
+Race: human
+Class: monk 6
+MonsterSource: Advanced Bestiary 95, Pathfinder RPG Bestiary 276
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '9'
+Senses:
+  - blindsense 60 ft., darkvision 60 ft.
+  - Perception +11
+AC: 23, touch 19, flat-footed 17
+AC_Mods: (+5 Dex, +1 dodge, +1 monk, +2 Wis, +4 natural)
+HP: '60'
+HD: (6d8+30)
+Saves: Fort +8, Ref +10, Will +7; +2 vs. enchantment
+Fort: '8'
+Ref: '10'
+Will: '7'
+Save_Mods: +2 vs. enchantment
+DefensiveAbilities: channel resistance +4, evasion
+Immune: undead traits
+Speed: 50 ft.
+Melee:
+  - unarmed strike +10 (1d8+4 plus energy drain)
+  - flurry of blows +10/+10/+5 (1d8+4 plus energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  command wights, create spawn, energy drain (1 level, DC 16), flurry of blows,
+  stunning fist (6/day, DC 15, fatigued)
+AbilityScores:
+  - 18
+  - 20
+  - —
+  - 12
+  - 14
+  - 17
+BaseAtk: '4'
+CMB: +10 (+12 grapple)
+CMD: 25 (27 vs. grapple)
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Grapple
+  - Improved Initiative
+  - Improved Unarmed Strike
+  - Stunning Fist
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (unarmed strike)
+Skills:
+  - Acrobatics +14 (+20 jump)
+  - Climb +11
+  - Escape Artist +12
+  - Intimidate +12
+  - Knowledge (history) +8
+  - Knowledge (religion) +6
+  - Perception +11
+  - Stealth +20
+RacialMods: +8 Stealth
+Languages:
+  - Common
+  - Necril
+SQ: >-
+  fast movement, high jump, ki pool (5 points, magic), maneuver training, slow
+  fall 30 ft.
+Source: AP 45
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      Any creature killed by a dread wight's energy drain ability rises as a
+      dread wight in 1d4 rounds. A dread wight created in this manner is under
+      the command of its creator and remains so until either it or the creator
+      is destroyed.
+  - name: Command Wights (Su)
+    description: >-
+      A dread wight can automatically command all normal wights within 30 feet
+      as a free action. Normal wights never attack a dread wight unless
+      compelled.
+Gender: Female
+DuringCombat: >-
+  Acrietia uses her stunning fist attack to stun opponents so she or her
+  disciples can use their energy drain attacks.
+Morale: Acrietia fights until destroyed.
+Gear: belt of giant strength +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: dread wight|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1639'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

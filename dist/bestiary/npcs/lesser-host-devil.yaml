@@ -1,0 +1,123 @@
+Name: Lesser Host Devil
+CR: '3'
+XP: '800'
+Race: Lesser Host Devil
+MonsterSource: >-
+  Pathfinder Campaign Setting: Book of the Damned Volume I, Princes of Darkness
+  58
+Alignment: LE
+Size: Small
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '3'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +6
+AC: 17, touch 15, flat-footed 13
+AC_Mods: (+3 Dex, +1 dodge, +2 natural, +1 size)
+HP: 30 (currently 12
+HD: ; 4d10+8)
+Saves: Fort +6, Ref +7, Will +0
+Fort: '6'
+Ref: '7'
+Will: '0'
+DR: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Speed: 5 ft., fly 60 ft. (good)
+Melee:
+  - mwk spear +7 (1d8+1), 2 claws +6 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: noxious breath
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th, concentration +3)
+  values:
+    - label: At Will
+      value: >-
+        dancing lights, detect magic, greater teleport (self plus 50 lbs. of
+        objects only), mage hand, ventriloquism (DC 10)
+    - label: 1/day
+      value: summon (level 3, imp 35%)
+AbilityScores:
+  - 13
+  - 17
+  - 14
+  - 7
+  - 9
+  - 8
+BaseAtk: '4'
+CMB: '4'
+CMD: '18'
+Feats:
+  - Dodge
+  - Hover
+Skills:
+  - Acrobatics +9
+  - Escape Artist +9
+  - Fly +11
+  - Perception +6
+  - Stealth +13
+Languages:
+  - Infernal
+  - telepathy 100 ft.
+SQ: shared senses, superior grappler, swarming
+Source: Daughters Of Fury
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Noxious Breath (Su)
+    description: >-
+      Three times per day, a gaav can exhale a breath that reeks of pure
+      corruption upon a creature within 5 feet. The target must succeed at a DC
+      14 Fortitude save or be sickened for 1d4 rounds. The save DC is
+      Constitution-based. Creatures that successfully save cannot be affected by
+      the same gaav's noxious breath for 24 hours. A delay poison or neutralize
+      poison spell removes the effect from the sickened creature. Creatures with
+      immunity to poison are unaffected, and creatures resistant to poison
+      receive their normal bonus on their saving throws. Once a gaav uses its
+      breath weapon, it can't use it again until 1d4 rounds later.
+  - name: Shared Senses (Su)
+    description: >-
+      All gaavs within 100 feet of one another share the same senses. Thus, if
+      one individual perceives something (for example, with a successful
+      Perception check), all others within range are immediately aware of it.
+      Senses are instantly relayed from one gaav or magaav to the next, allowing
+      for the senses of a single devil to potentially spread through and inform
+      an entire massive swarm instantly. It is still possible for a gaav to be
+      surprised or flat-footed, even if other nearby gaavs are not.
+  - name: Superior Grappler (Ex)
+    description: >-
+      A gaav can wield a weapon and still attempt grapple checks. If it's not
+      wielding a weapon, a gaav gains a +4 bonus on grapple checks. In addition,
+      it takes up to eight gaavs cooperatively to lift a creature that one or
+      more of them is grappling; each gaav can lift up to 50 pounds and still
+      fly without being impeded.
+  - name: Swarming (Ex)
+    description: >-
+      Up to two gaavs can share the same space at the same time. If two gaavs in
+      the same square attack the same foe, they are considered to be flanking
+      that foe as if they were in opposite squares.
+DuringCombat: >-
+  Once the PCs arrive, the gaavs focus their attacks almost entirely on them.
+  The gaavs have already expended their noxious breath attacks and summoned imps
+  (which were defeated before the PCs arrived).
+Morale: >-
+  If one of the gaavs is defeated, the other teleports back to Kelseph's
+  encampment on its next turn to report the battle's outcome.
+Gear: mwk spear
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: Gaavs
+id: '6789'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

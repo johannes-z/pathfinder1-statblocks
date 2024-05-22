@@ -1,0 +1,137 @@
+Name: Ghoran
+CR: 1/2
+XP: '200'
+Race: Ghoran
+Class: bard 1
+Alignment: 'N'
+Size: Medium
+Type: plant
+Init: '1'
+Senses:
+  - low-light vision
+  - Perception +5
+AC: 13, touch 11, flat-footed 12
+AC_Mods: (+1 Dex, +2 natural)
+HP: '12'
+HD: (1d8+4)
+Saves: Fort +3, Ref +3, Will +3
+Fort: '3'
+Ref: '3'
+Will: '3'
+Immune: plant traits
+Weaknesses: delicious, light dependent
+Speed: 30 ft.
+Melee:
+  - rapier +1 (1d6-1/18-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bardic performance 7 rounds/day
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 1st; concentration +4)
+  values:
+    - label: 1/day
+      value: detect poison, goodberry, purify food and drink
+SpellsKnown:
+  header: Bard Spells Known (CL 1st; concentration +4)
+  values:
+    - label: 1st (2/day)
+      value: charm person (DC 14), disguise self
+    - label: 0 (at will)
+      value: daze (DC 13), light, mending, message
+AbilityScores:
+  - 8
+  - 13
+  - 16
+  - 8
+  - 12
+  - 17
+BaseAtk: '0'
+CMB: '-1'
+CMD: '10'
+Feats:
+  - Weapon Finesse
+Skills:
+  - Bluff +7
+  - Knowledge (history) +4
+  - Knowledge (local) +4
+  - Perception +5
+  - Perform (sing) +7
+Languages:
+  - Common
+  - Sylvan
+SQ: bardic knowledge +1, ghorus seed, past-life knowledge
+Environment: any (Nex)
+Organization: solitary, pair, or plot (3-12)
+Treasure: NPC gear (rapier, other treasure)
+Description_Visual: >-
+  This humanoid creature's taut green shell extends like a cowl from chin to
+  brow, wreathing a face of brilliant flower petals.
+Source: Inner Sea Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Delicious (Ex)
+    description: >-
+      Ghorans take a -2 penalty on Escape Artist and combat maneuver checks made
+      to escape a grapple against any creature that has a bite attack with the
+      grab ability.
+  - name: Ghorus Seed (Ex)
+    description: >-
+      As a full-round action, a ghoran can expel its ghorus seed from an orifice
+      in its abdomen. If planted in fertile ground and left undisturbed for 2d6
+      days, the seed grows into a healthy duplicate of the original ghoran, save
+      that the duplicate may reallocate all of its skill ranks upon sprouting.
+      Once a ghoran expels its seed, it gains 1 negative level, and it dies as
+      soon as its duplicate sprouts. This duplicate replaces the previous ghoran
+      character.
+  - name: Light Dependent (Ex)
+    description: >-
+      Ghorans take 1d4 points of Constitution damage each day they go without
+      exposure to sunlight. Past-Life
+  - name: Knowledge (Ex)
+    description: >-
+      Ghorans remember memories encoded in their ghorus seed. They treat all
+      Knowledge skills as class skills.
+Description:
+  - >-
+    When Geb's magic despoiled his kingdom, the archmage Nex enlisted the
+    renegade druid Ghorus to create a form of plant life that could survive in
+    the blighted wasteland and sustain his starving people. Eventually, the
+    plants evolved sentience and ambulatory bodies mimicking the appearance of
+    their human farmers and consumers.
+  - GHORAN CHARACTERS (19 RP)
+  - >-
+    Ghorans are defined by their class levels-they do not possess racial Hit
+    Dice. They have the following racial traits.
+  - >-
+    +2 Con, +2 Cha, -2 Int: Ghorans are hardy and guileful, but process thoughts
+    slowly.
+  - '+2 Natural Armor: Ghorans have tough, rugged skin.'
+  - 'Plant: Ghorans have the plant type.'
+  - >-
+    Natural Magic (2 RP): Ghorans with a Charisma score of 11 or higher gain the
+    following spell-like abilities: 1/day-detect poison, goodberry (created
+    berries bud from the ghoran's body), and purify food and drink. The caster
+    level is equal to the ghoran's level. The DC for these spells is equal to 10
+    + the spell's level + the ghoran's Charisma bonus.
+  - >-
+    Delicious (-1 RP), Ghorus Seed (6 RP), Light Dependent (-2 RP), Past-Life
+    Knowledge (2 RP): See above.
+  - >-
+    Languages: Ghorans begin play speaking Sylvan and Common. Ghorans with high
+    Intelligence scores can choose any languages they want (except secret
+    languages, such as Druidic).
+CharacterFlag: '1'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '1'
+CompanionFamiliarLink: 'NULL'
+id: '3560'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

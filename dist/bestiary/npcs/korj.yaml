@@ -1,0 +1,108 @@
+Name: Korj
+CR: '11'
+XP: '12800'
+Race: Ozimat
+MonsterSource: 'Pathfinder Campaign Setting: Planes of Power 62'
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (earth, elemental, extraplanar, incorporeal)
+Init: '5'
+Senses:
+  - blindsight 30 ft., darkvision 60 ft.
+  - Perception +23
+AC: 22, touch 22, flat-footed 16
+AC_Mods: (+6 deflection, +5 Dex, +1 dodge)
+HP: '168'
+HD: (16d10+80)
+Saves: Fort +16, Ref +17, Will +9
+Fort: '16'
+Ref: '17'
+Will: '9'
+DefensiveAbilities: incorporeal
+Immune: elemental traits
+Speed: 30 ft., fly 30 ft. (good)
+Melee:
+  - calcifying touch +21 (1d8 Dex)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - —
+  - 20
+  - 19
+  - 14
+  - 19
+  - 23
+BaseAtk: '16'
+CMB: '21'
+CMD: '38'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Flyby Attack
+  - Great Fortitude
+  - Hover
+  - Lightning Reflexes
+  - Toughness
+  - Vital Strike
+Skills:
+  - Acrobatics +21
+  - Appraise +18
+  - Fly +28
+  - Intimidate +22
+  - Knowledge (dungeoneering) +18
+  - Knowledge (planes) +21
+  - Perception +23
+  - Stealth +24
+Languages:
+  - Jistka
+  - Terran
+SQ: earthen host
+Source: PFS 8-17
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Calcifying Touch (Su)
+    description: >-
+      An incorporeal ozimat's touch can partially petrify a living creature's
+      body, dealing 1d8 points of Dexterity damage. When reduced to 0 Dexterity
+      in this way, an affected creature is petrified for 24 hours. A petrified
+      Medium creature can serve as a stone receptacle for the ozimat's earthen
+      host ability; if used in this manner, it doubles the length of time the
+      ozimat can remain in that form.
+  - name: Earthen Host (Su)
+    description: >-
+      As a full-round action, an ozimat can merge with a body of inert earth or
+      stone, shedding its incorporeality. The form must be roughly the size of a
+      Medium creature. A merged ozimat loses its incorporeal subtype (plus all
+      incorporeal special qualities, including its deflection bonus to AC) and
+      its fly speed, but gains a Strength score of 24, a +8 natural armor bonus
+      (AC 24, touch 16, flat-footed 18), DR 5/-, and Improved Bull Rush and
+      Power Attack as bonus feats. In earthen form, an ozimat gains 2 slam
+      attacks with a +23 bonus to hit, each dealing 3d6+7 points of damage, but
+      cannot use its calcifying touch. Its hit points do not change. An ozimat
+      can maintain its earthen form for a number of rounds per day equal to its
+      Hit Dice (typically 16).
+BeforeCombat: Korj does not attack unless its attitude is hostile or the PCs attack it.
+DuringCombat: >-
+  Korj uses Flyby Attack to move into and out of walls each turn. It uses Vital
+  Strike with its calcific touch ability to eliminate the most dangerous threats
+  first, focusing on the PCs that it knows to be most dangerous from its
+  observations of them throughout Deep Sky.
+Morale: >-
+  When reduced below 40 hit points, or when it otherwise believes the fight is
+  lost, Korj attempts to parley with the PCs. See Development below.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11190'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

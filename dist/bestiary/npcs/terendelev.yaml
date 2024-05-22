@@ -1,0 +1,152 @@
+Name: Terendelev
+CR: '21'
+XP: '409600'
+Race: ancient silver dragon
+MonsterSource: Pathfinder RPG Bestiary 110, Pathfinder RPG Bestiary 2 230
+Alignment: CE
+Size: Gargantuan
+Type: undead
+SubType: (cold)
+Init: '3'
+Senses:
+  - >-
+    blindsense 120 ft., darkvision 240 ft., detect evil, dragon senses, fog
+    vision
+  - Perception +45
+Aura: cowering fear, frightful presence (30 ft., DC 32, 10 rounds)
+AC: 43, touch 10, flat-footed 43
+AC_Mods: (+5 deflection, -1 Dex, +33 natural, -4 size)
+HP: '387'
+HD: (25d8+275)
+Saves: Fort +24, Ref +15, Will +23
+Fort: '24'
+Ref: '15'
+Will: '23'
+DefensiveAbilities: channel resistance +4, reflective scales, soul ward (250 hp)
+DR: 15/good
+Immune: acid, cold, paralysis, sleep, undead traits, vorpal immunity
+SR: '30'
+Weaknesses: scales, vulnerable to fire
+Speed: 40 ft., fly 250 ft. (poor)
+Speed_Mod: cloudwalking, graceful flight
+Melee:
+  - >-
+    bite +35 (2d8+21/17-20), 2 claws +35 (2d6+14/19-20), tail slap +33
+    (2d8+7/19-20), 2 wings +33 (2d6+7/19-20)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, DC 32, 20d8 cold and 2 negative levels), crush
+  (Medium creatures, DC 32, 4d6+21), energy drain, paralyzing breath, soul
+  consumption, soul magic, tail sweep (Small creatures, DC 32, 2d6+21)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 25th)
+  values:
+    - label: At Will
+      value: control weather, control winds, detect evil, feather fall, fog cloud
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 18th; concentration +28)   9th-imprisonment (DC
+    30)   8th-greater shout (DC 29), maze   7th-banishment (DC 28), greater
+    teleport, prismatic spray (DC 28)   6th-greater dispel magic, flesh to stone
+    (DC 27), mass suggestion (DC 27)   5th-break enchantment, dismissal (DC 26),
+    feeblemind (DC 26), sending   4th-dimension door, dimensional anchor,
+    greater invisibility, wall of ice (DC 24)   3rd-dispel magic, displacement,
+    haste, tongues   2nd-detect thoughts (DC 23), glitterdust (DC 23), mirror
+    image, pyrotechnics (DC 23), scorching ray   1st-alarm, magic missile, ray
+    of enfeeblement (DC 22), silent image (DC 22), unseen servant   0-acid
+    splash, dancing lights, detect magic, detect poison, light, mage hand,
+    message, prestidigitation, read magic
+  values: []
+AbilityScores:
+  - 39
+  - 8
+  - —
+  - 28
+  - 29
+  - 30
+BaseAtk: '25'
+CMB: '43'
+CMD: 57 (61 vs. trip)
+Feats:
+  - Arcane Strike
+  - Combat Expertise
+  - Critical Focus
+  - Flyby Attack
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Staggering Critical
+  - Toughness
+  - Vital Strike
+Skills:
+  - Acrobatics +24
+  - Diplomacy +38
+  - Fly +17
+  - Intimidate +46
+  - Knowledge (arcana
+  - engineering
+  - history
+  - local
+  - nobility
+  - planes) +37
+  - Perception +45
+  - Sense Motive +37
+  - Spellcraft +37
+  - Stealth +23
+  - Use Magic Device +38
+Languages:
+  - Auran
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Giant
+  - Halfling
+  - Terran
+SQ: change shape
+Source: AP 78
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Scales (Ex)
+    description: >-
+      The scales shed by Terendelev at the start of this Adventure Path are
+      anathema to the ravener. Any PC who carries one of these items (see "The
+      Worldwound Incursion") gains a +5 bonus to his AC and on all saving throws
+      against the ravener's attacks, and any damage the character deals to the
+      ravener is deducted from her hit points and her soul ward simultaneously.
+  - name: Vorpal Immunity (Ex)
+    description: >-
+      Terendelev has already been decapitated; she is now immune to further
+      attacks that decapitate.
+Gender: Female
+DuringCombat: >-
+  Terendelev casts greater invisibility on the first round of combat and takes
+  to the air. She uses her breath weapon on the second round, then follows that
+  by casting imprisonment and other spells, resorting to melee attacks only
+  against foes who are capable of attacking her in melee. If reduced to 1 hit
+  point so that she starts taking damage to her soul ward instead, she takes a
+  round to cast sending, begging the Storm King for help, but Khorramzadeh
+  ignores her cries for now, hoping to avoid a fight against the PCs before
+  they've been sufficiently softened up; he intervenes only if they secure the
+  Suture.
+Morale: Terendelev fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: ravener|
+AgeCategory: ancient
+CompanionFamiliarLink: '0'
+id: '5712'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

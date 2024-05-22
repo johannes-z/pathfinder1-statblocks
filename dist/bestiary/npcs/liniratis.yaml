@@ -1,0 +1,142 @@
+Name: Liniratis
+CR: '16'
+XP: '76800'
+Race: spirit naga
+Class: sorcerer 7
+MonsterSource: Pathfinder RPG Bestiary 213
+Alignment: CE
+Size: Large
+Type: aberration
+Init: '11'
+Senses:
+  - darkvision 60 ft.
+  - Perception +24
+AC: 33, touch 20, flat-footed 26
+AC_Mods: (+4 armor, +4 deflection, +7 Dex, +9 natural, -1 size)
+HP: '227'
+HD: (17 HD; 10d8+7d6+158)
+Saves: Fort +14, Ref +14, Will +18; +2 vs. poison
+Fort: '14'
+Ref: '14'
+Will: '18'
+Save_Mods: +2 vs. poison
+DR: 10/adamantine (140 points)
+Resist: electricity 5
+Speed: 40 ft., swim 20 ft.
+Melee:
+  - bite +14 (2d6+7 plus poison)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: charming gaze (DC 22)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 14th; concentration +21)
+  values:
+    - label: 7th (4/day)
+      value: phase door, prismatic spray (DC 24)
+    - label: 6th (6/day)
+      value: disintegrate (DC 23), summon monster VI
+    - label: 5th (7/day)
+      value: acidic sprayUM (DC 22), permanency, prying eyes, wall of force
+    - label: 4th (7/day)
+      value: >-
+        acid pitAPG (DC 21), cure critical wounds, sending, stoneskin, summon
+        monster IV
+    - label: 3rd (8/day)
+      value: >-
+        dispel magic, displacement, fireball (DC 20), force punchUM (DC 20),
+        rage
+    - label: 2nd (8/day)
+      value: >-
+        accelerate poisonAPG (DC 19), bull's strength, false life, invisibility,
+        scorching ray, silence (DC 19)
+    - label: 1st (8/day)
+      value: >-
+        cause fear (DC 18), cure light wounds, grease (DC 18), mage armor, magic
+        missile, shield of faith
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, detect magic, ghost sound (DC 17), mage
+        hand, open/close, prestidigitation, ray of frost, read magic
+AbilityScores:
+  - 20
+  - 24
+  - 24
+  - 16
+  - 19
+  - 25
+BaseAtk: '10'
+CMB: '16'
+CMD: 37 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Expanded Arcana (2)
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Maximize Spell
+  - Quicken Spell
+  - Toughness
+Skills:
+  - Acrobatics +20
+  - Bluff +20
+  - Knowledge (arcana) +16
+  - Knowledge (planes) +23
+  - Linguistics +5
+  - Perception +24
+  - Spellcraft +14
+  - Stealth +20
+  - Swim +13
+  - Use Magic Device +27
+Languages:
+  - Abyssal
+  - Aquan
+  - Common
+  - Giant
+SQ: bloodline arcana (summoned creatures gain DR 3/good)
+Source: AP 96
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 22; frequency 1/round for 6 rounds; effect 1d4
+      Con; cure 1 save. Spells Liniratis's sorcerer levels stack with her innate
+      spellcasting ability, and she can cast spells from the cleric list (which
+      are considered arcane spells for her) as well as from the sorcerer list.
+Gender: Female
+Bloodline: Abyssal
+BeforeCombat: >-
+  Liniratis casts false life and mage armor every day, and bull's strength,
+  shield of faith, and stoneskin before going into battle.
+DuringCombat: >-
+  Liniratis tries to avoid direct confrontation as much as possible, preferring
+  to use her spells to harass opponents from a safe distance. She casts
+  displacement on the first round of combat, then uses her scroll of summon
+  monster VII to summon a vrock to assist her in combat. Liniratis attempts to
+  use her charming gaze, mostly out of personal vanity, before casting her most
+  destructive spells, using Maximize Spell and Quicken Spell as needed. During
+  the fight, Liniratis uses her magical baskets to keep her enemies off their
+  guard and to evade devastating magical attacks at the last moment.
+Morale: >-
+  Liniratis is afraid of death, so if reduced to fewer than 60 hit points, the
+  naga attempts to flee, likely to hide elsewhere in the castle.
+Gear: scroll of acid fog, scroll of cone of cold, scroll of summon monster VII
+OtherGear: >-
+  headband of mental prowess +4 (Int, Cha; Knowledge [planes], Use Magic
+  Device), diamond dust (worth 500 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7047'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

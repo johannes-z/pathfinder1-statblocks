@@ -1,0 +1,169 @@
+Name: Parnoneryx's Ghost
+CR: '17'
+XP: '102400'
+Race: adult gold dragon
+MonsterSource: Pathfinder RPG Bestiary 108, 144
+Alignment: LG
+Size: Huge
+Type: undead
+SubType: (dragon, fire, incorporeal)
+Init: '0'
+Senses:
+  - dragon senses
+  - Perception +38
+Aura: frightful presence (180 ft., DC 28)
+AC: 35, touch 27, flat-footed 35
+AC_Mods: (+4 armor, +9 deflection, +4 shield, +10 sacred, -2 size)
+HP: '243'
+HD: (18d8+162)
+Saves: Fort +20, Ref +11, Will +18
+Fort: '20'
+Ref: '11'
+Will: '18'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+DR: 5/magic
+Immune: fire, undead traits
+SR: '28'
+Weaknesses: vulnerable to cold
+Speed: fly 250 ft. (perfect)
+Melee:
+  - >-
+    corrupting touch +16 touch (17d6, Fort DC 28), bite +25 (2d8+13 force/19-20
+    plus guilt)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  ghost fangs, instant spellcasting, sacred breath weapon (50-ft. cone, Reflex
+  DC 28 half, 12d10 sacred damage plus guilt)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +27)
+  values:
+    - label: At Will
+      value: bless, daylight, detect evil
+    - label: 3/day
+      value: locate object (gemstones only)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +16)
+  values:
+    - label: 3rd (6/day)
+      value: haste, suggestion (DC 22)
+    - label: 2nd (8/day)
+      value: cure moderate wounds, eagle's splendor, mirror image
+    - label: 1st (9/day)
+      value: alarm, command (DC 20), cure light wounds, mage armor, shield
+    - label: 0 (at will)
+      value: >-
+        detect magic, guidance, light, mage hand, mending, open/close (DC 19),
+        stabilize
+AbilityScores:
+  - —
+  - 10
+  - —
+  - 20
+  - 21
+  - 28
+BaseAtk: '18'
+CMB: '20'
+CMD: 39 (43 vs. trip)
+Feats:
+  - Alertness
+  - Critical Focus
+  - Extend Spell
+  - Improved Critical (bite)
+  - Improved Critical (claw)
+  - Iron Will
+  - Multiattack
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Diplomacy +30
+  - Fly +25
+  - Heal +26
+  - Knowledge (arcana) +26
+  - Knowledge (local) +26
+  - Knowledge (nobility) +26
+  - Knowledge (religion) +26
+  - Perception +38
+  - Sense Motive +30
+  - Spellcraft +26
+  - Stealth +0
+  - Swim +29
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+SQ: haunted scales
+Source: AP 107
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ghost Fangs (Su)
+    description: >-
+      Since Parnoneryx's ghost maintains a powerful link to his increasingly
+      befouled head, the ghost retains a bite attack. The attack roll is
+      modified by the dragon's Charisma modifier, the fangs deal force damage,
+      and the damage is modified by 1-1/2 times his Charisma modifier. An evil
+      creature that takes damage from Parnoneryx's ghost fangs must succeed at a
+      DC 28 Will save or be nauseated with guilt for 1 round. This is a
+      mind-affecting effect, and the save DC is Charisma-based.
+  - name: Haunted Scales (Su)
+    description: >-
+      Parnoneryx's ghostly scales shimmer and shine with golden energy, granting
+      the ghost a +10 sacred bonus to his Armor Class.
+  - name: Instant Spellcasting (Su)
+    description: >-
+      Once per day, Parnoneryx can cast up to 6 levels of spells he knows as a
+      free action as he manifests, so long as Parnoneryx is the only target of
+      these spells. Typically, Parnoneryx uses this ability to cast eagle's
+      splendor, mage armor, mirror image, and shield on himself.
+  - name: Rejuvenation (Ex)
+    description: >-
+      Parnoneryx's ghost can be put to rest in two ways. First, if the tathlum
+      is successfully completed Parnoneryx's ghost cannot be rejuvenated and his
+      soul becomes trapped within the weapon until it is used, at which point
+      the dragon's corrupted soul helps to power the resulting devastation
+      before being banished to its destiny in the Great Beyond. Alternatively,
+      if the dragon's severed head is reunited with whatever remains of his body
+      and a cleric of Iomedae casts hallow upon them, Parnoneryx's ghost is
+      released to the afterlife and his head can no longer be used to create a
+      tathlum.
+  - name: Sacred Breath Weapon (Su)
+    description: >-
+      Parnoneryx retains a fiery breath weapon, but it is infused with his
+      righteous fury and bolstered by energies from Heaven itself. He can use
+      this breath weapon once every 1d4 rounds. Damage caused by this breath
+      weapon feels like scorching fire, but the damage is pure sacred energy and
+      is not subject to energy resistance. An evil creature that takes damage
+      from Parnoneryx's sacred breath weapon must also succeed at a DC 28 Will
+      save to avoid being nauseated with guilt for 1 round; this nausea effect
+      is a mind-affecting effect. The save DC is Charisma-based.
+Gender: Male
+BeforeCombat: >-
+  Parnoneryx uses instant spellcasting to gain the effects of eagle's splendor,
+  mage armor, mirror image, and shield as he manifests.
+DuringCombat: >-
+  Parnoneryx's primary target is the PC who delivered the final death blow to
+  his mortal form, but if this PC isn't present, the dragon ghost focuses his
+  wrath  instead on those who it knows or suspects worship Asmodeus. The dragon
+  uses his sacred breath weapon on the first round of combat and as often as
+  possible thereafter, and is fond of using Vital Strike with his corrupting
+  touch attack. As a ghost, Parnoneryx can't use some of his feats (Improved
+  Critical [claw], Multiattack, and Power Attack), nor can he heal himself with
+  his cure spells due to his undead state, but these limitations serve to focus
+  his tactics rather than to cripple them.
+Morale: Parnoneryx fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '8444'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

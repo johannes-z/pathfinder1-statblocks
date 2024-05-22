@@ -1,0 +1,95 @@
+Name: Dog Rider Knight
+CR: '6'
+XP: '2400'
+Race: halfling
+Class: paladin of sarenrae 7
+Alignment: LG
+Size: Small
+Type: humanoid
+SubType: (halfling)
+Init: '2'
+Senses:
+  - Perception +5
+Aura: courage (10 ft.)
+AC: 23, touch 13, flat-footed 21
+AC_Mods: (+7 armor, +2 Dex, +3 shield, +1 size)
+HP: '60'
+HD: (7d10+17)
+Saves: Fort +10, Ref +8, Will +8; +2 vs. fear
+Fort: '10'
+Ref: '8'
+Will: '8'
+Save_Mods: +2 vs. fear
+Immune: disease, fear
+Speed: 15 ft.
+Melee:
+  - +1 lance +14/+9 (1d6+5/x3)
+  - mwk longsword +13/+8 (1d6+4/19-20)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with lance)
+SpecialAttacks: >-
+  channel positive energy (DC 16, 4d6), smite evil 3/day (+3 attack and AC, +7
+  damage)
+SpellLikeAbilities:
+  header: Paladin Spell-Like Abilities (CL 7th; concentration +10)
+  values:
+    - label: At Will
+      value: detect evil
+SpellsPrepared: >-
+  Paladin Spells Prepared (CL 4th; concentration +7)   2nd-bull's strength  
+  1st-bless weapon, divine favor
+AbilityScores:
+  - 18
+  - 14
+  - 13
+  - 10
+  - 8
+  - 16
+BaseAtk: '7'
+CMB: '10'
+CMD: '22'
+Feats:
+  - Mounted Combat
+  - Ride-By Attack
+  - Toughness
+  - Weapon Focus (lance)
+Skills:
+  - Acrobatics +0 (-4 when jumping)
+  - Climb +2
+  - Heal +7
+  - Perception +5
+  - Ride +8 (+10 to stay in the saddle)
+  - Survival +1
+Languages:
+  - Common
+  - Halfling
+SQ: >-
+  aura, code of conduct, divine bond (mount), lay on hands (3d6, 6/day), mercies
+  (dazed, shaken)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The paladin casts bull's strength.
+DuringCombat: The paladin uses Ride-By Attack to charge his foes, and uses smite evil.
+Gear: potion of aid, potion of shield of faith
+OtherGear: >-
+  +1 breastplate, +1 heavy steel shield, +1 lance, masterwork longsword, silver
+  holy symbol, exotic military saddle, 420 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bull's strength, the paladin's statistics are Melee +1 lance +12/+7
+  (1d6+3/x3) or mwk longsword +11/+6 (1d6+2/19&#8211;20); Str 14; CMB +8; CMD
+  20; Skills Climb +0.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3750'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,127 @@
+Name: Areshkhesbed
+CR: '12'
+XP: '19200'
+Race: gynosphinx
+MonsterSource: Pathfinder RPG Bestiary 171, 257; Pathfinder RPG Bestiary 4 60
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (air, chaotic, evil, native)
+Init: '7'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +28
+AC: 27, touch 12, flat-footed 24
+AC_Mods: (+3 armor, +3 Dex, +12 natural, -1 size)
+HP: '138'
+HD: (12d10+72)
+HP_Mods: fast healing 5
+Saves: Fort +15, Ref +11, Will +14
+Fort: '15'
+Ref: '11'
+Will: '14'
+DefensiveAbilities: ability healing
+DR: 10/magic
+Immune: disease, mind-affecting effects, poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '23'
+Speed: 80 ft., fly 160 ft. (perfect)
+Melee:
+  - bite +19 (1d8+8), 2 claws +19 (3d6+8/19-20)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  smite good 1/day (+7 attack and AC, +12 damage), pounce, rake (2 claws +19,
+  3d6+8/19-20)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +19)
+  values:
+    - label: Constant
+      value: comprehend languages, detect magic, read magic, see invisibility
+    - label: At Will
+      value: dimension door (within Sightless Sphinx only)
+    - label: 3/day
+      value: alarm, clairaudience/clairvoyance, darkness, knock, poison (DC 21)
+    - label: 1/day
+      value: >-
+        arcane lock, augury, blasphemy (DC 24), commune, contagion (DC 21),
+        desecrate, dismissal (DC 22), dispel magic, guards and wards (DC 23),
+        hold portal, locate object, remove curse, legend lore, unholy blight (DC
+        21)
+    - label: 1/week
+      value: >-
+        any one of the following: symbol of fear (DC 23), symbol of pain (DC
+        22), symbol of persuasion (DC 23), symbol of sleep (DC 22), symbol of
+        stunning (DC 24); all symbols last 1 week maximum
+AbilityScores:
+  - 26
+  - 17
+  - 20
+  - 20
+  - 27
+  - 25
+BaseAtk: '12'
+CMB: '21'
+CMD: 34 (42 vs. trip)
+Feats:
+  - Combat Casting
+  - Great Fortitude
+  - Improved Critical (claw)
+  - Improved Natural Attack (claw)
+  - Iron Will
+  - Toughness
+Skills:
+  - Acrobatics +18
+  - Bluff +19
+  - Diplomacy +19
+  - Fly +24
+  - Intimidate +19
+  - Knowledge (planes) +17
+  - Knowledge (religion) +17
+  - Perception +28
+  - Sense Motive +25
+  - Spellcraft +17
+  - Stealth +14
+Languages:
+  - Abyssal
+  - Ancient Osiriani
+  - Auran
+  - Common
+  - Draconic
+  - Osiriani
+  - Sphinx
+SQ: blessed life, divine swiftness, sacred site
+Source: AP 82
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Areshkhesbed places alarms on the doors in areas K18 and K38, and a symbol of
+  persuasion on the door to this chamber from area K38.
+DuringCombat: >-
+  Areshkhesbed attacks intruders with her spell-like abilities, making use of
+  blasphemy, contagion, poison, and unholy blight. If all else fails, the evil
+  sphinx is more than happy to pounce upon her foes, smiting good and tearing
+  them limb from limb with her claws and fanged bite.
+Morale: >-
+  Bound for eternity to the Sightless Sphinx, Areshkhesbed has no choice but to
+  fight to the death to defend the temple. However, if reduced to fewer than 35
+  hit points, the sphinx uses dimension door to retreat to another room, where
+  she waits for her fast healing ability to heal her before returning to attack
+  intruders.
+Gear: bracers of armor +3, headband of inspired wisdom +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-fiend|divine guardian|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6078'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

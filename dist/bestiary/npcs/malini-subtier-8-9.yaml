@@ -1,0 +1,124 @@
+Name: Malini Subtier 8-9
+CR: '10'
+XP: '9600'
+Race: Fire mephit
+Class: oracle 9
+MonsterSource: Pathfinder RPG Bestiary 202, Pathfinder RPG Advanced Player's Guide 42
+Alignment: 'N'
+Size: Small
+Type: outsider
+SubType: (fire)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+AC: 25, touch 16, flat-footed 20
+AC_Mods: (+6 armor, +4 Dex, +1 dodge, +3 natural, +1 size)
+HP: '89'
+HD: (12 HD; 9d8+3d10+33)
+HP_Mods: fast healing 2 (in flames only)
+Saves: Fort +6, Ref +11, Will +11
+Fort: '6'
+Ref: '11'
+Will: '11'
+DR: 5/magic
+Immune: fatigue, fire
+Weaknesses: vulnerability to cold
+Speed: 20 ft., fly 40 ft. (average)
+Melee:
+  - mwk short sword +11/+6 (1d4/19-20) or 2 claws +5 (1d3)
+Ranged:
+  - +1 flaming heavy crossbow +15 (1d8+1/19-20 plus 1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (15-foot cone, 1d8 fire, Reflex DC 13 half, usable every 4
+  rounds)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +11)
+  values:
+    - label: 1/hour
+      value: scorching ray
+    - label: 1/day
+      value: heat metal, summon (level 2, 1 fire mephit 25%)
+SpellsKnown:
+  header: Oracle Spells Known (CL 9th; concentration +14)
+  values:
+    - label: 4th (5/day)
+      value: cure critical wounds, divine power, freedom of movement, wall of fire
+    - label: 3rd (7/day)
+      value: >-
+        cure serious wounds, fireball (DC 18), remove curse, searing light, wind
+        wall
+    - label: 2nd (7/day)
+      value: >-
+        bull's strength, cat's grace, cure moderate wounds, hold person (DC 17),
+        resist energy, spiritual weapon
+    - label: 1st (8/day)
+      value: >-
+        bless, burning hands (DC 16), command (DC 16), cure light wounds,
+        protection from evil, sanctuary (DC 16), shield of faith
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, detect poison, light, mending, purify food
+        and drink, read magic, sparkAPG (DC 15)
+AbilityScores:
+  - 11
+  - 19
+  - 12
+  - 8
+  - 13
+  - 20
+BaseAtk: '9'
+CMB: '8'
+CMD: '23'
+Feats:
+  - Brew Potion
+  - Combat Casting
+  - Dodge
+  - Improved Initiative
+  - Scribe Scroll
+  - Toughness
+Skills:
+  - Bluff +14
+  - Craft (alchemy) +8
+  - Fly +11
+  - Perception +14
+  - Sense Motive +12
+  - Spellcraft +8
+  - Stealth +13
+Languages:
+  - Common
+  - Ignan
+SQ: oracle's curse (lame), revelations (burning magic, fire breath, heat aura)
+Source: PFS 8-09
+IsTemplate: '0'
+BeforeCombat: >-
+  Malini casts freedom of movement, shield of faith, and resist energy (cold) on
+  herself if she anticipates combat. These are not included in her statistics.
+DuringCombat: >-
+  Malini casts spiritual weapon before relying on her other spells and crossbow
+  to chase off her foes. She makes a token attempt to avoid catching her wares
+  in the area of her fire spells, but she knows most of her merchandise is
+  resilient enough to survive an errant spell.
+Morale: If reduced to fewer than 15 hit points, Malini flees.
+Gear: potion of blur, scroll of dispel magic
+OtherGear: >-
+  +2 chain shirt, +1 flaming heavy crossbow with 30 bolts, cloak of resistance
+  +1, mwk short sword, 162 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: flame
+CompanionFamiliarLink: '0'
+id: '8934'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

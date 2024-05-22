@@ -1,0 +1,111 @@
+Name: Mud Shaman
+CR: '8'
+XP: '4800'
+Race: human
+Class: druid 9
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '0'
+Senses:
+  - Perception +13
+AC: 22, touch 10, flat-footed 22
+AC_Mods: (+7 armor, +3 natural, +2 shield)
+HP: '69'
+HD: (9d8+25)
+Saves: Fort +8, Ref +5, Will +11; +4 vs. fey and plant-targeted effects
+Fort: '8'
+Ref: '5'
+Will: '11'
+Save_Mods: +4 vs. fey and plant-targeted effects
+Immune: poison
+Resist: acid 10
+Speed: 20 ft.
+Melee:
+  - mwk club +10/+5 (1d6+3)
+Ranged:
+  - mwk shortspear +7/+2 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: wild shape 3/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 9th; concentration +14)
+  values:
+    - label: 8/day
+      value: acid dart
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 9th; concentration +14)   5th-animal growth (DC 20),
+  stoneskin, wall of stoneD   4th-dispel magic, freedom of movement, giant
+  vermin, spike stonesD (DC 19)   3rd-greater magic fang (3), spike growth (DC
+  18), stone shapeD   2nd-barkskin (2), bull's strength (2), fog cloud, soften
+  earth and stoneD   1st-cure light wounds (2), faerie fire (2), magic stoneD,
+  shillelagh, speak with animals   0 (at will)-create water, guidance, know
+  direction, light
+SpellDomains: Earth
+AbilityScores:
+  - 17
+  - 10
+  - 14
+  - 8
+  - 20
+  - 13
+BaseAtk: '6'
+CMB: '9'
+CMD: '19'
+Feats:
+  - Augment Summoning
+  - Lightning Reflexes
+  - Lunge
+  - Power Attack
+  - Spell Focus (conjuration)
+  - Vital Strike
+Skills:
+  - Craft (woodworking) +6
+  - Fly +4
+  - Handle Animal +6
+  - Knowledge (geography) +5
+  - Knowledge (nature) +9
+  - Perception +13
+  - Spellcraft +4
+  - Survival +18
+  - Swim +6
+Languages:
+  - Common
+SQ: >-
+  nature bond (Earth domain), nature sense, trackless step, wild empathy +10,
+  woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The druid casts barkskin and bull's strength.
+DuringCombat: >-
+  The druid casts wall of stone between his opponents to separate them. On the
+  following rounds, he spontaneously casts summoning spells, bolstering summoned
+  creatures with greater magic fang. He eventually wild shapes into a
+  stegosaurus to enter melee.
+Gear: >-
+  potion of cure serious wounds, scroll of lesser restoration, scroll of
+  protection from energy, scroll of wall of fire
+OtherGear: >-
+  +1 dragonhide breastplate, masterwork heavy wooden shield, masterwork club,
+  masterwork shortspears (3), headband of inspired wisdom +2, holly and
+  mistletoe, spell component pouch, 60 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without barkskin and bull's strength, the druid's statistics are AC 19, touch
+  10, flat-footed 19; Melee mwk club +8/+3 (1d6+1); Ranged mwk shortspear +7/+2
+  (1d6+1); Str 13; CMB +7; CMD 17; Skills Swim +4.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3663'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

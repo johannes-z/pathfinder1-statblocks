@@ -1,0 +1,135 @@
+Name: The Gardener
+CR: '12'
+XP: '19200'
+Race: vishkanya
+Class: sorcerer 12
+MonsterSource: Pathfinder RPG Bestiary 3 281
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (vishkanya)
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +6
+AC: 23, touch 15, flat-footed 19
+AC_Mods: (+4 armor, +3 Dex, +1 dodge, +1 insight, +4 shield)
+HP: '111'
+HD: (12d6+67)
+Saves: Fort +6, Ref +7, Will +8; +12 bonus vs. poison
+Fort: '6'
+Ref: '7'
+Will: '8'
+Save_Mods: +12 bonus vs. poison
+DefensiveAbilities: poison resistance
+DR: 10/adamantine, 10/lethal
+Resist: cold 10
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - +1 disruption light mace +6/+1 (1d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Sorcerer Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: 7/day
+      value: grave touch (6 rounds)
+    - label: 1/day
+      value: grasp of the dead (12d6 slashing, DC 20)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +16)
+  values:
+    - label: 6th (3/day)
+      value: chain lightning (DC 20)
+    - label: 5th (5/day)
+      value: cone of cold (DC 19), telekinesis (DC 19), waves of fatigue
+    - label: 4th (7/day)
+      value: animate dead, dimension door, phantasmal killer (DC 18), stoneskin
+    - label: 3rd (7/day)
+      value: dispel magic, fly, halt undead (DC 17), haste, vampiric touch
+    - label: 2nd (7/day)
+      value: >-
+        false life, ghoul touch (DC 16), invisibility, mirror image, see
+        invisibility, spectral hand
+    - label: 1st (7/day)
+      value: >-
+        alarm, chill touch (DC 15), detect undead, mage armor, magic missile,
+        shield
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 14), detect magic, ghost sound (DC 14), mage
+        hand, mending, message, prestidigitation, touch of fatigue (DC 14)
+AbilityScores:
+  - 9
+  - 16
+  - 14
+  - 10
+  - 10
+  - 18
+BaseAtk: '6'
+CMB: '5'
+CMD: '20'
+Feats:
+  - Craft Construct
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Dodge
+  - Eschew Materials
+  - Quicken Spell
+  - Still Spell
+  - Toughness
+Skills:
+  - Bluff +8
+  - Craft (alchemy) +7
+  - Craft (sculpture) +9
+  - Escape Artist +5
+  - Fly +13
+  - Knowledge (arcana) +7
+  - Knowledge (nature) +4
+  - Perception +6
+  - Stealth +5
+Languages:
+  - Common
+  - Vishkanya
+SQ: >-
+  bloodline arcana (corporeal undead affected by humanoid-affecting spells),
+  poison use, toxic
+Source: AP 100
+IsTemplate: '0'
+Gender: Female
+Bloodline: undead
+BeforeCombat: >-
+  The Gardener casts stoneskin, mage armor, shield, fly, and false life before
+  combat.
+DuringCombat: >-
+  The Gardener favors area-effect spells in combat, and tries to stay at range,
+  moving between attacks to minimize the number of full attacks made against
+  her. She casts  quickened mirror image on the first round of the fight, then
+  quickened spectral hand on the second round, saving a 6th-level slot for chain
+  lightning. She uses vampiric touch often once her spectral hand is active.
+Morale: >-
+  The Gardener fights until reduced to 20 hit points or fewer, at which point
+  she surrenders and offers to join the PCs. She honors her word and fights with
+  them until they encounter Barzillai, at which point she betrays the PCs and
+  attacks them once more, this time fighting to the death.
+Gear: >-
+  scroll of break enchantment, scroll of displacement, scroll of greater
+  invisibility, scroll of speak with dead, scroll of teleport
+OtherGear: >-
+  +1 disruption light mace, dusty rose prism ioun stone, handy haversack, 48 gp,
+  3 sp, 3 cp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7521'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

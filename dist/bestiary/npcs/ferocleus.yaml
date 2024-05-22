@@ -1,0 +1,137 @@
+Name: Ferocleus
+CR: '12'
+XP: '19200'
+Race: half-elf
+Class: druid (blight druid) 13
+MonsterSource: Pathfinder RPG Advanced Player's Guide 98
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '0'
+Senses:
+  - low-light vision
+  - Perception +17
+Aura: miasma
+AC: 19, touch 12, flat-footed 19
+AC_Mods: (+7 armor, +2 deflection)
+HP: '101'
+HD: (13d8+39)
+Saves: Fort +9, Ref +6, Will +12; +2 vs. enchantments
+Fort: '9'
+Ref: '6'
+Will: '12'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: blightblooded, plaguebearer
+Immune: disease, sickened, nauseated
+Resist: acid 20
+Speed: 20 ft.
+Melee:
+  - +2 scythe +15/+10 (2d4+6/19-20/x4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: acid dart (1d6+6 acid, 7/day), miasma, wild shape 13 hours/day
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 13th; concentration +17)  7th-creeping doom (DC 21),
+  elemental body IV (earth only)D  6th-antilife shell, repel wood, stoneskinD 
+  5th-baleful polymorph (DC 19), cure critical wounds, insect plague, wall of
+  stoneD  4th-dispel magic, flame strike (DC 18), freedom of movement, ice
+  storm, rusting grasp, spike stonesD (DC 18)  3rd-contagion (DC 18), poison (DC
+  18), protection from energy, sleet storm, stone shapeD, wind wall  2nd-bull's
+  strength, flaming sphere (DC 16), heat metal (DC 16), lesser restoration,
+  soften earth and stoneD, spider climb  1st-jump, longstrider, obscuring mist,
+  magic stoneD, pass without trace, produce flame  0 (at will)-detect magic,
+  light, stabilize, read magic
+SpellDomains: Earth
+AbilityScores:
+  - 16
+  - 10
+  - 13
+  - 12
+  - 18
+  - 8
+BaseAtk: '9'
+CMB: '12'
+CMD: '24'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Improved Critical (scythe)
+  - Lightning Reflexes
+  - Spell Focus (necromancy)
+  - Toughness
+  - Weapon Focus (scythe)
+Skills:
+  - Climb +12
+  - Craft (alchemy) +11
+  - Fly +6
+  - Handle Animal +7
+  - Heal +12
+  - Knowledge (nature) +13
+  - Perception +17
+  - Ride +6
+  - Spellcraft +15
+  - Survival +19
+  - Swim +11
+Languages:
+  - Common
+  - Druidic
+  - Elven
+  - Terran
+SQ: >-
+  blightblooded*, elf blood, nature bond (Earth domain), nature sense, vermin
+  empathy +12, woodland stride
+Source: PFS S2-22
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Vermin Empathy (Su)
+    description: >-
+      A blight druid can improve the attitude of vermin as a normal druid can
+      with animals. Vermin have a starting attitude of unfriendly. A blight
+      druid can also improve the attitude of animals and mindless undead
+      creatures that were formerly animals, but takes a -4 penalty on the check
+      unless the animal or undead has a disease special attack.
+  - name: Miasma (Ex)
+    description: >-
+      Whenever a blight druid is adjacent to a creature at the beginning of its
+      turn, the creature must succeed at a DC 20 Fortitude save or become
+      sickened for 1 round. A creature of the animal, fey, or plant type that
+      fails its save is nauseated for 1 round and sickened for 1 minute
+      thereafter. If the creature makes its save, it is immune to this effect
+      for 24 hours, as are creatures that are immune to disease.
+  - name: Plaguebearer (Su)
+    description: >-
+      Any creature that strikes a blight druid with a touch attack, unarmed
+      strike, or natural weapon must succeed at a DC 20 Fortitude save or
+      contract a disease, as the contagion spell. If the creature makes its
+      save, it is immune to this effect for 24 hours.
+Gender: Male
+BeforeCombat: >-
+  Ferocleus casts antilife shell, longstrider, and freedom of movement once he
+  becomes aware of the PCs.
+DuringCombat: >-
+  Ferocleus depends on magic as his primary weapon, preferring to avoid melee
+  and attack with ranged spells. If possible, he isolates a single PC with a
+  wall of stone, allowing his fellow escapees to focus their attacks on a single
+  target. If melee is unavoidable and he has no more touch or close-range
+  spells, he wild shapes into a huge earth elemental.
+Morale: >-
+  Ferocleus knows what his future holds if he's recaptured and placed back in
+  temporal stasis, and he fights to the death to avoid such a fate.
+Gear: +3 hide armor, +2 scythe, ring of protection +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: blight druid
+CompanionFamiliarLink: '0'
+id: '5698'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

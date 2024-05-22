@@ -1,0 +1,110 @@
+Name: Farf
+CR: '4'
+XP: '1200'
+Race: Nucol sahkil
+MonsterSource: Pathfinder RPG Book of the Damned 253
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar, sahkil)
+Init: '7'
+Senses:
+  - darkvision 60 ft., detect magic, low-light vision
+  - Perception +9
+AC: 17, touch 13, flat-footed 14
+AC_Mods: (+3 Dex, +4 natural)
+HP: '42'
+HD: (5d10+15)
+Saves: Fort +7, Ref +7, Will +2
+Fort: '7'
+Ref: '7'
+Will: '2'
+DR: 5/good
+Immune: death effects, disease, fear, and poison
+Resist: cold 10, electricity 10, sonic 10
+SR: '15'
+Speed: 40 ft.
+Melee:
+  - gore +10 (2d6+7 plus nervous consumption)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: cough, look of fear (DC 15), spirit touch
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +7)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: open/close
+    - label: 3/day
+      value: grease (DC 14), sense fearHA
+    - label: 1/day
+      value: remove disease
+AbilityScores:
+  - 21
+  - 16
+  - 17
+  - 9
+  - 12
+  - 16
+BaseAtk: '5'
+CMB: +10 (+12 bull rush)
+CMD: 23 (25 vs. bull rush, 27 vs. trip)
+Feats:
+  - Improved Bull Rush
+  - Improved Initiative
+  - Power Attack
+Skills:
+  - Bluff +11
+  - Intimidate +11
+  - Perception +9
+  - Sense Motive +9
+  - Stealth +11
+Languages:
+  - Abyssal
+  - Celestial
+  - Infernal
+  - telepathy 100 ft.
+SQ: easy to call, emotional focus, skip between
+Source: AP 139
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cough (Su)
+    description: >-
+      As a standard action, a nucol can bellow out a contagious cough. This
+      cough can take one of two forms: a ranged touch attack consisting of a wad
+      of infectious phlegm with a range of 30 feet, or a spray of snot and spit
+      that affects creatures in a 15-foot cone (Reflex DC 15 negates). All
+      creatures affected by either form of the cough must succeed at a DC 15
+      Fortitude save or contract nervous consumption. The save DCs are
+      Charisma-based.
+  - name: Look of Fear (Su)
+    description: A creature affected by a nucol's gaze is shaken for 1d2 rounds.
+  - name: Disease (Su)
+    description: >-
+      Nervous Consumption: Gore or cough-injury or contact; save Fort DC 15;
+      onset immediate; frequency 1/day; effect 1 point of Wisdom damage. If a
+      creature with this illness is suffering Wisdom damage from any source, it
+      takes a -1 penalty to its Armor Class and on ability checks and skill
+      checks. This is a disease effect. The save DC is Constitution-based.
+DuringCombat: >-
+  Farf coughs to inflict nervous consumption on its opponents, then gores at
+  those approaching in melee, using Power Attack to maximize its damage.
+Morale: >-
+  Already resigned to the fact that its trip to the Boneyard was a suicide
+  mission, Farf fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12009'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

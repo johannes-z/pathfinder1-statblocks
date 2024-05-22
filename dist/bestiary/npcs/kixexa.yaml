@@ -1,0 +1,117 @@
+Name: Kixexa
+CR: '11'
+XP: '12800'
+Race: noble efreeti
+MonsterSource: Pathfinder RPG Bestiary 140, 294
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (extraplanar, fire)
+Init: '9'
+Senses:
+  - darkvision 60 ft., detect magic
+  - Perception +20
+AC: 25, touch 15, flat-footed 19
+AC_Mods: (+5 Dex, +1 dodge, +10 natural, -1 size)
+HP: '149'
+HD: (13d10+78)
+Saves: Fort +10, Ref +13, Will +14
+Fort: '10'
+Ref: '13'
+Will: '14'
+Immune: fire
+Weaknesses: vulnerable to cold
+Speed: 20 ft., fly 40 ft. (perfect)
+Melee:
+  - 2 slams +20 (2d6+8 plus 1d6 fire)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: change size (DC 16), heat (1d6 fire)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +19)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: >-
+        plane shift (willing targets to elemental planes, Astral Plane, or
+        Material Plane only), produce flame, pyrotechnics (DC 16), scorching ray
+    - label: 3/day
+      value: >-
+        quickened fireball (DC 17), heat metal (DC 16), invisibility, quickened
+        scorching ray, wall of fire (DC 18)
+    - label: 1/day
+      value: >-
+        grant up to 3 wishes (to non-genies only), gaseous form, greater
+        invisibility, permanent image (DC 20), pyroclastic storm (as ice storm,
+        with fire instead of cold damage)
+AbilityScores:
+  - 27
+  - 21
+  - 22
+  - 16
+  - 18
+  - 19
+BaseAtk: '13'
+CMB: '22'
+CMD: '38'
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Improved InitiativeB
+  - Improved Natural Attack (slam)
+  - Iron Will
+  - Quicken Spell-Like Ability (fireball)
+  - Quicken Spell-Like Ability (scorching ray)
+Skills:
+  - Bluff +20
+  - Craft (traps) +18
+  - Disguise +16
+  - Fly +20
+  - Intimidate +20
+  - Knowledge (geography) +12
+  - Knowledge (planes) +12
+  - Perception +20
+  - Sense Motive +20
+  - Spellcraft +19
+  - Stealth +17
+Languages:
+  - Aquan
+  - Auran
+  - Common
+  - Draconic
+  - Ignan
+  - Osirian
+  - Terran
+  - telepathy 100 ft.
+SQ: change shape (humanoid or giant; alter self or giant form I)
+Source: AP 82
+IsTemplate: '0'
+Gender: Female
+DuringCombat: >-
+  Kixexa casts greater invisibility on herself right away and fills the room
+  with quickened fireballs and scorching rays in quick succession. When she has
+  expended her fireballs, Kixexa launches quickened scorching rays at those who
+  seem most injured by the fire while targeting others with her area effect
+  spell-like abilities. Kixexa prefers to fight with her magic, but she attacks
+  with her slam attack in melee if she has no other choice.
+Morale: >-
+  If reduced to fewer than 50 hit points, Kixexa casts gaseous form and attempts
+  to flee, joining Picasi in area H9.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6065'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

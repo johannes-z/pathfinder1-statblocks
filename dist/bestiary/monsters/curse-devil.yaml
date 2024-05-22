@@ -1,0 +1,134 @@
+Name: Curse Devil
+CR: '5'
+XP: '1600'
+Alignment: LE
+Size: Small
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '8'
+Senses:
+  - darkvision 60 ft., see in darkness, detect magic, detect thoughts
+  - Perception +11
+AC: 20, touch 16, flat-footed 15
+AC_Mods: (+4 Dex, +1 dodge, +4 natural, +1 size)
+HP: '39'
+HD: (6d10+6)
+Saves: Fort +5, Ref +9, Will +7
+Fort: '5'
+Ref: '9'
+Will: '7'
+DefensiveAbilities: natural invisibility
+DR: 5/cold or silver
+Immune: fire, poison
+Resist: acid 10, cold 10
+Speed: 20 ft., fly 40 ft. (perfect)
+Melee:
+  - 2 claws +6 (1d4-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: anathematize
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: Constant
+      value: detect magic, detect thoughts (DC 15)
+    - label: At Will
+      value: >-
+        daze (DC 13), greater teleport (self plus 50 lbs. of objects only), mage
+        hand
+    - label: 5/day
+      value: bane (DC 14), chill touch (DC 14), doom (DC 14)
+    - label: 3/day
+      value: bestow curse (DC 16), suggestion (DC 16), touch of idiocy (DC 15)
+    - label: 1/day
+      value: >-
+        blindness/deafness (DC 15), confusion (DC 17), contagion (DC 17), summon
+        (level 3, 2 lesser host devils 50%)
+AbilityScores:
+  - 8
+  - 18
+  - 12
+  - 13
+  - 15
+  - 17
+BaseAtk: '6'
+CMB: '4'
+CMD: '19'
+Feats:
+  - Dodge
+  - Great Fortitude
+  - Improved Initiative
+Skills:
+  - Bluff +12
+  - Fly +23
+  - Intimidate +12
+  - Perception +11
+  - Sense Motive +11
+  - Spellcraft +10
+  - Stealth +17
+Languages:
+  - Infernal
+  - telepathy 100 ft.
+SQ: broken curses, infernal bond
+Environment: any (Hell)
+Organization: solitary
+Treasure: incidental
+Description_Visual: >-
+  This short fiend has mottled pink skin, clawed fingers, and green eyes. It
+  drags a tattered scroll behind its feminine frame.
+Group: Devil
+Source: Daughters Of Fury
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Anathematize (Su)
+    description: >-
+      Once per day as a standard action, a curse devil can temporarily drop its
+      natural invisibility to reveal its true, horrifying form. All creatures
+      within 30 feet must succeed at a DC 16 Will save or become cursed as
+      bestow curse; additionally, all creatures in the area must succeed at a
+      second DC 16 Will save or have their memories of the event stripped as if
+      by modify memory. The curse devil can resume its invisibility at the end
+      of its turn as a free action. Whether or not the saves are successful, an
+      affected creature is immune to that curse devil's anathematize ability for
+      24 hours. If its natural invisibility is negated by other methods, the
+      curse devil can't use this ability. Those who can see invisible creatures
+      are immune to this effect. The save DCs are Charisma-based.
+  - name: Broken Curses (Ex)
+    description: >-
+      When a curse devil dies, any lingering curses or harmful effects caused by
+      the devil are undone as if by a miracle spell.
+  - name: Infernal Bond (Ex)
+    description: >-
+      When a curse devil is created by a lesser or greater devil, its creator
+      forges a magical link between the curse devil and a mortal signed to-or
+      implicated in-an infernal contract, such as a mortal who sold her soul to
+      a devil or the first-born child of a mortal who was promised in an
+      infernal bargain). Thereafter, the curse devil can always find the
+      specified mortal as though guided by a locate creature spell with no
+      maximum range. The specified mortal takes a -2 penalty on saving throws
+      against the curse devil's anathematize ability and its spell-like
+      abilities.
+Description:
+  - >-
+    Curse devils, or phiams, are constructs of Hell that exist outside the
+    infernal hierarchy. They are forged by more powerful devils to hunt down
+    mortals whose souls belong to Hell. When folk speak of "family curses" or
+    "damned fates," a curse devil is often pulling strings.
+  - A curse devil is 4 feet tall and weighs 80 pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+AlternateNameForm: Phiam
+id: '6803'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,141 @@
+Name: Ice Seer
+CR: '9'
+XP: '6400'
+Race: Triaxian
+Class: oracle 10
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42 and see page 86
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (Triaxian)
+Init: '6'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft., low-light vision, snow sight
+  - Perception +12
+AC: 24, touch 16, flat-footed 21
+AC_Mods: (+8 armor, +3 deflection, +2 Dex, +1 dodge)
+HP: '88'
+HD: (10d8+40)
+Saves: Fort +7, Ref +7, Will +11
+Fort: '7'
+Ref: '7'
+Will: '11'
+Resist: cold 10
+Speed: 30 ft.
+Melee:
+  - mwk spear +7/+2 (1d8-1/x3)
+Ranged:
+  - dart +9 (1d4-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 10th; concentration +14)
+  values:
+    - label: 5th (3/day)
+      value: holy iceUM (DC 19), icy prisonUM (DC 19), mass cure light wounds (DC 19)
+    - label: 4th (6/day)
+      value: >-
+        cure critical wounds, freedom of movement, ice storm, order's wrath (DC
+        18)
+    - label: 3rd (7/day)
+      value: >-
+        cure serious wounds, dispel magic, invisibility purge, sleet storm,
+        stone shape
+    - label: 2nd (7/day)
+      value: >-
+        aid, arrow of lawUM (DC 16), cure moderate wounds, frost fallUC (DC 16),
+        sound burst (DC 16), spiritual weapon
+    - label: 1st (7/day)
+      value: >-
+        bless, command (DC 15), cure light wounds, divine favor, endure
+        elements, magic weapon, shield of faith
+    - label: 0 (at will)
+      value: >-
+        detect magic, detect poison, guidance, light, mending, purify food and
+        drink, resistance, stabilize, virtue
+AbilityScores:
+  - 8
+  - 14
+  - 15
+  - 12
+  - 10
+  - 19
+BaseAtk: '7'
+CMB: '6'
+CMD: '22'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Extra RevelationAPG
+  - Improved Initiative
+  - Iron Will
+  - Toughness
+Skills:
+  - Heal +13
+  - Knowledge (nature) +9
+  - Knowledge (religion) +9
+  - Perception +12
+  - Spellcraft +14
+  - Stealth +10
+  - Survival +8
+Languages:
+  - Draconic
+  - Triaxian
+SQ: >-
+  oracle's curse (clouded vision), revelations (cold aura 3/day, ice armor, icy
+  skin, snow sight), seasoned
+Source: AP 70
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cold Aura (Su)
+    description: >-
+      As a swift action three times per day, an ice seer can cause waves of cold
+      to radiate from his body. This cold deals 5d6 points of cold damage to all
+      creatures within 10 feet (Fort DC 19 half). In addition, a flurry of snow
+      momentarily surrounds the ice seer, granting him concealment until his
+      next turn.
+  - name: Ice Armor (Su)
+    description: >-
+      An ice seer can conjure armor of ice that grants a +8 armor bonus to AC in
+      cold conditions. The ice seer can use this armor for 10 hours per day.
+      This duration does not need to be consecutive, but must be spent in 1-hour
+      increments.
+  - name: Icy Skin (Ex)
+    description: An ice seer gains cold resistance 10.
+  - name: Snow Sight (Su)
+    description: >-
+      An ice seer can see through falling snow and sleet without taking any
+      penalties on Perception checks as long as there is enough light for him to
+      see normally.
+BeforeCombat: >-
+  The ice seer uses his ice armor revelation and casts freedom of movement and
+  shield of faith before combat.
+DuringCombat: >-
+  The ice seer casts icy prison on anyone he catches attempting to break down or
+  open the blockhouse door, then focuses on aiding the dragonkin with his spells
+  and healing her when necessary. The ice seer then targets anyone else who is
+  attempting to open the door with his offensive spells.
+Morale: The ice seer fights to the death to defend Spurhorn.
+Gear: >-
+  potion of levitate, wand of cure moderate wounds (45 charges), thunderstone
+  (2)
+OtherGear: >-
+  padded armor, darts (6), mwk spear, cloak of resistance +2, headband of
+  alluring charisma +2, spell component pouch, 27 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: winterborn|
+AgeCategory: Adult
+Mystery: winterPOTN
+CompanionFamiliarLink: '0'
+id: '4387'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

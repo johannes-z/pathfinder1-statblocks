@@ -1,0 +1,110 @@
+Name: Bloodfire Sorcerer
+CR: '6'
+XP: '2400'
+Race: half-orc
+Class: sorcerer 7
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 17, touch 12, flat-footed 16
+AC_Mods: (+4 armor, +1 deflection, +1 Dex, +1 natural)
+HP: '60'
+HD: (7d6+33)
+Saves: Fort +3, Ref +3, Will +7
+Fort: '3'
+Ref: '3'
+Will: '7'
+DefensiveAbilities: orc ferocity
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - mwk falchion +7 (2d4+4/18-20)
+Ranged:
+  - mwk heavy crossbow +5 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 7th; concentration +10)
+  values:
+    - label: 6/day
+      value: elemental ray (1d6+3 fire)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +10)
+  values:
+    - label: 3rd (5/day)
+      value: fireball (DC 17), haste, protection from energy
+    - label: 2nd (7/day)
+      value: blur, false life, glitterdust (DC 15), scorching ray
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 15), mage armor, magic missile, magic weapon, ray of
+        enfeeblement (DC 14), shield
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 13), dancing lights, detect magic, flare (DC 14), light, ray
+        of frost (fire), read magic
+AbilityScores:
+  - 16
+  - 12
+  - 13
+  - 8
+  - 10
+  - 16
+BaseAtk: '3'
+CMB: '6'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Iron Will
+  - Power Attack
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Intimidate +11
+  - Knowledge (arcana) +3
+  - Linguistics +0
+  - Perception +7
+  - Spellcraft +4
+Languages:
+  - Common
+  - Ignan
+  - Orc
+SQ: >-
+  bloodline arcana (change energy damage spells to fire), orc blood, weapon
+  familiarity
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: elemental (fire)
+BeforeCombat: The sorcerer casts false life and mage armor.
+DuringCombat: >-
+  The sorcerer casts haste before targeting her foes with fireball or scorching
+  ray. In melee combat, she casts shield on herself, and magic weapon on her
+  falchion.
+Gear: potion of cure moderate wounds, scroll of fly (2)
+OtherGear: >-
+  masterwork falchion, masterwork heavy crossbow with 10 bolts, amulet of
+  natural armor +1, ring of protection +1, 225 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without false life and mage armor, the sorcerer's statistics are AC 13, touch
+  11, flat-footed 12; hp 48.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3809'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

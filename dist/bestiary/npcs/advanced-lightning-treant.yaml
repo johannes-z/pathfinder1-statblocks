@@ -1,0 +1,103 @@
+Name: Advanced Lightning Treant
+CR: '14'
+XP: '38400'
+Race: Advanced Lightning Treant
+MonsterSource: Tome of Horrors Complete 607
+Alignment: NE
+Size: Huge
+Type: plant
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +24
+AC: 27, touch 9, flat-footed 26
+AC_Mods: (+1 Dex, +18 natural, -2 size)
+HP: '216'
+HD: (16d8+144)
+HP_Mods: fast healing 10
+Saves: Fort +19, Ref +8, Will +12
+Fort: '19'
+Ref: '8'
+Will: '12'
+DefensiveAbilities: electric healing
+DR: 10/slashing
+Immune: electricity, fire, plant traits
+Speed: 40 ft.
+Melee:
+  - 2 slams +24 (2d8+14/19-20)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: double damage against objects
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +14)
+  values:
+    - label: At Will
+      value: faerie fire, greater magic fang (self only)
+    - label: 3/day
+      value: >-
+        call lightning storm (DC 17), lightning bolt (DC 15), protection from
+        energy
+    - label: 1/day
+      value: chain lightning (DC 18)
+AbilityScores:
+  - 32
+  - 13
+  - 28
+  - 15
+  - 20
+  - 15
+BaseAtk: '12'
+CMB: +25 (+29 sunder)
+CMD: 38 (40 vs. sunder)
+Feats:
+  - Cleave
+  - Greater Sunder
+  - Improved Critical (slam)
+  - Improved Initiative
+  - Improved Sunder
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+Skills:
+  - Knowledge (nature) +18
+  - Perception +24
+  - Stealth +12 (+28 in forests)
+  - Survival +21
+Languages:
+  - Aklo
+  - Russian
+  - Sylvan
+Source: AP 71
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Double Damage Against Objects (Ex)
+    description: >-
+      A lightning treant that makes a full attack against an object or structure
+      deals double damage.
+  - name: Electric Healing (Ex)
+    description: >-
+      Electricity damage heals a lightning treant of 1 point of damage for every
+      3 points it would otherwise deal. If the amount would cause the lightning
+      treant to exceed its full normal hit points, it gains any excess as
+      temporary hit points. These temporary hit points last for 2 hours.
+BeforeCombat: The lightning treant casts greater magic fang on its slam attacks every day.
+DuringCombat: >-
+  The lightning treant holds its position in the cellarium, attacking foes with
+  its slam attacks or lightning bolts, and using the strikes to heal itself in
+  combat as needed.
+Morale: The lightning treant fights to the death if confronted.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4432'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,123 @@
+Name: Zagmaander
+CR: '7'
+XP: '3200'
+Race: xill
+Class: sorcerer 2
+MonsterSource: Pathfinder RPG Bestiary 283
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (evil, native)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +16
+AC: 21, touch 16, flat-footed 15
+AC_Mods: (+5 Dex, +1 dodge, +5 natural)
+HP: '80'
+HD: (11 HD; 9d10+2d6+24)
+Saves: Fort +8, Ref +11, Will +10
+Fort: '8'
+Ref: '11'
+Will: '10'
+SR: '17'
+Weaknesses: cursed flesh
+Speed: 40 ft.
+Melee:
+  - >-
+    longsword +12/+7 (1d8+3/19-20), longsword +12 (1d8+3/19-20), laser torch +12
+    touch (1d10 fire+1/x3), bite +12 (1d3+3 plus paralysis), claw +12 (1d4+3
+    plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: implant, paralysis (1d4 hours, DC 17)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 2nd; concentration +4)
+  values:
+    - label: 5/day
+      value: minute meteors
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 2nd; concentration +4)
+  values:
+    - label: 1st (5/day)
+      value: charm person (DC 13), ray of enfeeblement (DC 13)
+    - label: 0 (at will)
+      value: acid splash, detect magic, mage hand, mending, open/close
+AbilityScores:
+  - 15
+  - 20
+  - 14
+  - 13
+  - 14
+  - 15
+BaseAtk: '10'
+CMB: '12'
+CMD: '28'
+Feats:
+  - Arcane Strike
+  - Combat Reflexes
+  - Dodge
+  - Eschew Materials
+  - Improved Initiative
+  - Iron Will
+  - Technologist
+Skills:
+  - Acrobatics +19
+  - Disable Device +16
+  - Knowledge (engineering) +12
+  - Knowledge (planes) +5
+  - Linguistics +3
+  - Perception +16
+  - Sense Motive +16
+  - Stealth +19
+Languages:
+  - Androffan
+  - Common
+  - Infernal
+  - Orc
+SQ: multiweapon mastery
+Source: AP 86
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cursed Flesh (Su)
+    description: >-
+      Zagmaander's curse prevents her from using planar travel and causes her
+      immense pain as long as she remains on the Material Plane. She does not
+      have access to her planewalking ability, and any means she uses to attempt
+      to leave the Material Plane fails. She is treated as a native outsider on
+      the Material Plane in most ways, but she retains the normal outsider trait
+      of not being subject to raise dead, resurrection, or reincarnate. The pain
+      of existing on the Material Plane imparts a -2 penalty to her Strength,
+      Dexterity, and Constitution&#8211;these penalties are included in her
+      stats above. A character must succeed at a DC 20 caster level check to
+      remove this curse via remove curse or break enchantment.
+Gender: Female
+Bloodline: starsoul
+DuringCombat: >-
+  Zagmaander uses charm person at the start of a fight, but once a battle is
+  underway, she resorts to paralysis and rays of enfeeblement to subdue foes.
+  She uses Arcane Strike when attacking, but generally does so to deal nonlethal
+  damage (taking a &#8211;4 penalty on her attack rolls) so she can preserve
+  living victims for her eggs. If reduced to fewer than 40 hit points, however,
+  the xill abandons this tactic and uses lethal force.
+Morale: >-
+  Zagmaander fights to the death unless she's had her curse removed. If freed of
+  her curse, she flees combat if reduced to fewer than 30 hit points and then
+  planewalks back to the Ethereal Plane as soon as she feels safe enough to
+  escape in this way.
+Gear: laser torch, longswords (2), mithral bracers worth 800 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6325'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

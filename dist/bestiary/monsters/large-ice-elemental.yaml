@@ -1,0 +1,107 @@
+Name: Large Ice Elemental
+CR: '5'
+XP: '1600'
+Alignment: 'N'
+Size: Large
+Type: outsider
+SubType: (air, cold, elemental, extraplanar, water)
+Init: '5'
+Senses:
+  - darkvision 60 ft., snow vision
+  - Perception +11
+AC: 17, touch 10, flat-footed 16
+AC_Mods: (+1 Dex, +7 natural, -1 size)
+HP: '68'
+HD: (8d10+24)
+Saves: Fort +9, Ref +7, Will +2
+Fort: '9'
+Ref: '7'
+Will: '2'
+DR: 5/-
+Immune: cold, elemental traits
+Weaknesses: vulnerable to fire
+Speed: 20 ft., burrow (ice and snow only) 20 ft., swim 60 ft.
+Melee:
+  - 2 slams +12 (1d8+5 plus 1d6 cold)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: numbing cold (DC 17)
+AbilityScores:
+  - 20
+  - 12
+  - 17
+  - 6
+  - 11
+  - 11
+BaseAtk: '8'
+CMB: '14'
+CMD: 25 (can't be tripped)
+Feats:
+  - Cleave
+  - Great Cleave
+  - Improved Initiative
+  - Power Attack
+Skills:
+  - Intimidate +11
+  - Knowledge (planes) +9
+  - Perception +11
+  - Stealth +8
+  - Swim +13
+Languages:
+  - Aquan
+SQ: ice glide, icewalking
+Environment: any land or water (Plane of Water)
+Organization: solitary, pair, or gang (3-8)
+Treasure: none
+Description_Visual: >-
+  From the waist up, this icy creature's features are humanoid, but below its
+  body is a snake-like, slithering tail.
+Group: Elemental
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ice Glide (Su)
+    description: >-
+      A burrowing ice elemental can pass through nonmagical ice and snow as
+      easily as a fish swims through water. Its burrowing leaves behind no
+      tunnel or hole, nor does it create any ripple or other sign of its
+      presence. A control water spell cast on an area containing a burrowing ice
+      elemental flings the elemental back 30 feet, stunning the creature for 1
+      round unless it succeeds on a DC 15 Fortitude save.
+  - name: Icewalking (Ex)
+    description: >-
+      This ability works like the spider climb spell, but the surfaces the
+      elemental climbs must be icy. The elemental can move across icy surfaces
+      without penalty and does not need to make Acrobatics checks to run or
+      charge on ice.
+  - name: Numbing Cold (Su)
+    description: >-
+      When an ice elemental deals cold damage to a creature, that creature must
+      succeed on a Fortitude save or be staggered for 1 round. The save DC is
+      listed in the elemental's stat block and is Constitution-based.
+  - name: Snow Vision (Ex)
+    description: >-
+      An ice elemental can see perfectly well in snowy conditions and does not
+      take any penalties on Perception checks while in snow.
+Description:
+  - >-
+    Ice elementals are creatures made of animated snow and ice. They form in
+    especially cold parts of the Plane of Water and along its border with the
+    Plane of Air, where giant icebergs careen off of world-high waterfalls into
+    the open sky. Ice elementals vary in their exact appearance.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Large Ice Elemental
+id: '1197'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

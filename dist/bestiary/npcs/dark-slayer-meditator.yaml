@@ -1,0 +1,131 @@
+Name: Dark Slayer Meditator
+CR: '7'
+XP: '3200'
+Race: Dark slayer
+Class: sorcerer 5
+MonsterSource: Pathfinder RPG Bestiary 2 75
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (dark folk)
+Init: '5'
+Senses:
+  - detect magic, see in darkness
+  - Perception +4
+AC: 16, touch 16, flat-footed 11
+AC_Mods: (+5 Dex, +1 size)
+HP: '58'
+HD: (9 HD; 4d8+5d6+23)
+Saves: Fort +6, Ref +7, Will +8
+Fort: '6'
+Ref: '7'
+Will: '8'
+Weaknesses: light blindness
+Speed: 30 ft.
+Melee:
+  - +1 kukri +12 (1d3+2/18-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death throes, poison use, sneak attack +2d6, soul harvest
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +9)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At will
+      value: bleed (DC 16), chill touch (DC 16), darkness, spectral hand
+    - label: 3/day
+      value: >-
+        daze monster (DC 17), death knell (DC 17), inflict moderate wounds (DC
+        17) Bloodline Spell-Like Abilities (CL 5th; concentration +10)
+    - label: 8/day
+      value: grave touch (2 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +10)
+  values:
+    - label: 2nd (5/day)
+      value: false life, ghoul touch (DC 18), scorching ray
+    - label: 1st (8/day)
+      value: >-
+        cause fear (DC 17), chill touch (DC 17), protection from good, ray of
+        enfeeblement (DC 17), true strike
+    - label: 0 (at will)
+      value: >-
+        daze (DC 15), ghost sound (DC 15), mage hand, message, read magic, touch
+        of fatigue (DC 16)
+AbilityScores:
+  - 13
+  - 20
+  - 14
+  - 8
+  - 11
+  - 20
+BaseAtk: '5'
+CMB: '5'
+CMD: '20'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Great Fortitude
+  - Skill Focus (Use Magic Device)
+  - Spell Focus (necromancy)
+  - Weapon Finesse
+Skills:
+  - Climb +5
+  - Perception +4
+  - Spellcraft +6
+  - Stealth +17
+  - Use Magic Device +15
+RacialMods: +4 Climb, +4 Perception, +4 Stealth
+Languages:
+  - Dark Folk
+SQ: >-
+  bloodline arcana (corporeal undead affected by humanoid affecting spells),
+  magical knack
+Source: PFS S3-20
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Throes (Su)
+    description: >-
+      When a dark stalker is slain, its body implodes violently into
+      nothingness, leaving its gear in a heap on the ground. All creatures
+      within a 10-foot burst take 1d8 points of sonic damage and must succeed at
+      a DC 14 Fortitude save or be deafened for 2d4 rounds. The save DC is
+      Constitution-based.
+  - name: Soul Harvest (Su)
+    description: >-
+      When a dark slayer damages a flat-footed foe or a foe it is flanking with
+      a melee touch spell or spell like ability that deals hit point damage, the
+      spell does an additional 1d6 points of damage and the dark slayer gains an
+      equal number of temporary hit points. These temporary hit points last for
+      a maximum of 1 hour.
+Bloodline: undead
+BeforeCombat: >-
+  The dark slayer is in a deep, trancelike meditative state and most likely
+  unaware of the PCs' approach. Should it manage to hear the PCs before the
+  encounter begins, it draws its wand and kukri.
+DuringCombat: >-
+  The dark slayer attempts to sneak attack the PCs with ranged touch and melee
+  touch spells, taking full advantage of its soul harvest ability. Should the
+  PCs attempt to neutralize the deeper darkness effect in the shrine, the dark
+  slayer uses its wand of dispel magic to negate the PCs' spells or effects.
+Morale: The dark slayer defends its unholy shrine to the death.
+Gear: >-
+  black smear (2 doses), scroll of deeper darkness, scroll of mage armor, wand
+  of dispel magic (CL 11th, 6 charges)
+OtherGear: +1 kukri, 322 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6266'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

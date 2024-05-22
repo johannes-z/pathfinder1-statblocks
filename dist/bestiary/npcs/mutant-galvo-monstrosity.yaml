@@ -1,0 +1,86 @@
+Name: Mutant Galvo Monstrosity
+CR: '14'
+XP: '38400'
+Race: galvo
+MonsterSource: Pathfinder RPG Bestiary 4 120
+Alignment: NE
+Size: Large
+Type: magical beast
+SubType: (aquatic)
+Init: '4'
+Senses:
+  - blindsense 60 ft., darkvision 60 ft., low-light vision
+  - Perception +15
+AC: 29, touch 14, flat-footed 24
+AC_Mods: (+4 Dex, +1 dodge, +15 natural, -1 size)
+HP: '230'
+HD: (20d10+120)
+Saves: Fort +17, Ref +16, Will +7
+Fort: '17'
+Ref: '16'
+Will: '7'
+DefensiveAbilities: swarmlike
+DR: 10/slashing
+Immune: electricity
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - >-
+    bite +26 (1d8+7 plus 2d6 electricity), 2 slams +26 (2d6+7 plus 2d6
+    electricity)
+Ranged:
+  - eel dart +23 touch (1d6+7 plus 1d6 electricity)
+Space: 10 ft.
+Reach: 10 ft. (15 ft. with slam)
+SpecialAttacks: discharge (20-ft. radius, 15d6 electricity, Reflex DC 25 half)
+AbilityScores:
+  - 25
+  - 18
+  - 20
+  - 7
+  - 12
+  - 8
+BaseAtk: '20'
+CMB: '28'
+CMD: 43 (can't be tripped)
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Dodge
+  - Improved Natural Attack (slam)
+  - Point-Blank Shot
+  - Power Attack
+  - Precise Shot
+  - Toughness
+  - Vital Strike
+  - Weapon Finesse
+Skills:
+  - Perception +15
+  - Stealth +11
+  - Swim +19
+Languages:
+  - Aquan (can't speak)
+SQ: amphibious, compression, varied attack
+Source: AP 126
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Discharge (Su)
+    description: >-
+      Once per day as a full-round action, a mutant galvo can discharge a burst
+      of electricity in a 20-foot radius centered on itself that deals 15d6
+      points of electricity damage. A creature that succeeds at a DC 25 Reflex
+      save reduces this damage by half. The save DC is Constitution-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11728'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

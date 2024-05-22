@@ -1,0 +1,152 @@
+Name: Eshen Theba
+CR: '17'
+XP: '102400'
+Race: handmaiden devil
+Class: sorcerer 7
+MonsterSource: Pathfinder RPG Bestiary 2 86
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '10'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +24
+AC: 34, touch 16, flat-footed 28
+AC_Mods: (+4 armor, +6 Dex, +14 natural)
+HP: '282'
+HD: (22 HD; 15d10+7d6+176)
+Saves: Fort +19, Ref +17, Will +16; +2 vs. poison
+Fort: '19'
+Ref: '17'
+Will: '16'
+Save_Mods: +2 vs. poison
+DR: 10/good
+Immune: fire, poison
+Resist: acid 10, cold 10, electricity 20, fire 5
+SR: '25'
+Speed: 40 ft., fly 60 ft. (average)
+Melee:
+  - 2 claws +27 (2d8+9/19-20/x3), 2 tentacles +25 (1d8+4 plus grab)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with tentacle)
+SpecialAttacks: tentacle cage (4d8+13 bludgeoning damage, AC 17, 28 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +24)
+  values:
+    - label: Constant
+      value: spider climb, true seeing
+    - label: At Will
+      value: >-
+        alter self, dispel good (DC 25), enthrall (DC 22), greater teleport
+        (self plus 1 entrapped creature and 50 lbs. of goods only), persistent
+        image (DC 25)
+    - label: 3/day
+      value: black tentacles, charm monster (DC 24)
+    - label: 1/day
+      value: >-
+        summon (level 5, 3 erinyes 65%) Bloodline Spell-Like Abilities (CL 7th;
+        concentration +17)
+    - label: 13/day
+      value: corrupting touch (3 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +17)
+  values:
+    - label: 3rd (6/day)
+      value: eruptive pustulesUM (DC 23), stinking cloud (DC 23), suggestion (DC 24)
+    - label: 2nd (9/day)
+      value: acid arrow, scorching ray, touch of idiocy, web (DC 22)
+    - label: 1st (9/day)
+      value: >-
+        charm person (DC 22), grease (DC 21), mage armor, magic missile,
+        protection from good, ray of enfeeblement (DC 21)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 20), acid splash, detect magic, ghost sound (DC 20), mage
+        hand, prestidigitation (DC 20), read magic
+AbilityScores:
+  - 28
+  - 23
+  - 27
+  - 24
+  - 22
+  - 30
+BaseAtk: '18'
+CMB: +27 (+31 grapple, +29 trip)
+CMD: 43 (can't be tripped)
+Feats:
+  - Acrobatic Steps
+  - Combat Casting
+  - Combat Expertise
+  - Combat Reflexes
+  - Deceitful
+  - Eschew Materials
+  - Improved Initiative
+  - Improved Natural Attack (tentacle)
+  - Improved Trip
+  - Multiattack
+  - Nimble Moves
+  - Spell Focus (enchantment)
+  - Strike Back
+Skills:
+  - Acrobatics +31 (+35 when jumping)
+  - Bluff +39
+  - Diplomacy +35
+  - Disguise +39
+  - Fly +19
+  - Intimidate +26
+  - Knowledge (arcana) +32
+  - Knowledge (planes) +32
+  - Perception +31
+  - Perform (sing) +35
+  - Sense Motive +31
+  - Spellcraft +32
+  - Stealth +31
+Languages:
+  - Ancient Osiriani
+  - Celestial
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: agile grappler, bloodline arcana (+2 DC for charm spells)
+Source: AP 84
+IsTemplate: '0'
+Gender: Female
+Bloodline: infernal
+BeforeCombat: >-
+  If the PCs trigger the alarm in area C9, Eshen Theba is warned of their
+  approach and uses alter self to take on her gruesome but clearly human
+  appearance. She then casts mage armor on herself and drinks her potion of
+  undetectable alignment.
+DuringCombat: >-
+  Eshen casts eruptive pustules, then concentrates physical attacks on those
+  nearest to her. She uses black tentacles and her sorcerer spells against those
+  who remain at a distance.
+Morale: >-
+  If Eshen is reduced to 100 hit points or fewer, she uses enthrall or charm
+  monster to gain some respite from the PCs' assault. However, if the handmaiden
+  devil has someone trapped in her tentacle cage, she uses greater teleport to
+  reach area C3, where she can dispatch this lone foe or hold him for ransom.
+  She then drinks a potion of invisibility before the others arrive. She makes
+  her last stand there, fighting to the death.
+Gear: >-
+  potions of cure serious wounds (2), potion of undetectable alignment, scroll
+  of displacement
+OtherGear: >-
+  headband of alluring charisma +6, major ring of electricity resistance,
+  bejeweled skirt (worth 8,000 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6246'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

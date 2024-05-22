@@ -1,0 +1,86 @@
+Name: Shadowy Triceratops Skeleton
+CR: '7'
+XP: '3200'
+Race: triceratops
+MonsterSource: Pathfinder RPG Bestiary 86, 250; Advanced Bestiary 185
+Alignment: NE
+Size: Huge
+Type: undead
+Init: '6'
+Senses:
+  - blindsight 60 ft., darkvision 60 ft.
+  - Perception +0
+AC: 15, touch 12, flat-footed 13
+AC_Mods: (+2 Dex, +2 dodge, +3 natural, -2 size)
+HP: '91'
+HD: (14d8+28)
+Saves: Fort +11, Ref +6, Will +4
+Fort: '11'
+Ref: '6'
+Will: '4'
+DefensiveAbilities: channel resistance +4, obscuring energy, resistant to positive energy
+DR: 5/bludgeoning and good
+Immune: cold, undead traits
+Speed: 60 ft.
+Melee:
+  - gore +18 (2d10+15 plus 1d6 negative energy)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: charged attacks, searing darkness
+AbilityScores:
+  - 30
+  - 15
+  - —
+  - —
+  - 10
+  - 14
+BaseAtk: '10'
+CMB: '22'
+CMD: '36'
+Feats:
+  - Improved Initiative
+Source: AP 27
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Charged Attacks (Su)
+    description: >-
+      The triceratops's gore attack inflicts an additional 1d6 points of
+      negative energy on a hit. In addition, when it makes a full attack, it can
+      make a second attack with its gore as if hastened.
+  - name: Obscuring Energy (Su)
+    description: >-
+      The shadowy undead triceratops is surrounded by flickering shadows and
+      wisps of black smoke, granting it partial concealment (20% miss chance).
+      When it stands still, the shadows grow stronger and grant concealment (50%
+      miss chance).
+  - name: Resistant to Positive Energy (Ex)
+    description: >-
+      The undead dinosaur takes 10 fewer points of damage than normal from
+      positive energy effects that deal damage.
+  - name: Searing Darkness (Sp)
+    description: >-
+      Once every 1d4 rounds, the undead can release a beam of searing darkness;
+      treat this as a searing light spell (CL 14th) that inflicts negative
+      energy damage.
+DuringCombat: >-
+  The undead triceratops quickly moves to attack the first foe it notices. Note
+  that the undead dinosaur is huge and thunderous; having it make a charge
+  attack against a PC only to miss and hit the tank of fetid water could make
+  for an exciting development.
+Morale: The skeleton fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: '@skeleton|negative-energy-charged|'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '392'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

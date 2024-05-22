@@ -1,0 +1,117 @@
+Name: Bastion
+CR: '18'
+XP: '153600'
+Race: noqual golem robot
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea Bestiary 18'
+Alignment: LE
+Size: Huge
+Type: construct
+SubType: (robot)
+Init: '11'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +28
+Aura: impeded magic (60 ft.)
+AC: 33, touch 15, flat-footed 26
+AC_Mods: (+7 Dex, +18 natural, -2 size)
+HP: '292'
+HD: (25d10+65 plus 90 hp force field)
+Saves: >-
+  Fort +8, Ref +17, Will +10; +8 vs. spells, spell-like abilities, and
+  supernatural abilities
+Fort: '8'
+Ref: '17'
+Will: '10'
+Save_Mods: +8 vs. spells, spell-like abilities, and supernatural abilities
+DefensiveAbilities: spell absorption
+DR: 15/adamantine
+Immune: construct traits, magic
+Weaknesses: vulnerable to critical hits and electricity
+Speed: 40 ft.
+Melee:
+  - 4 slams +31 (2d8+8/19-20 plus spell sunder)
+Ranged:
+  - 2 integrated gravity rifleTG +30 touch (4d6 force/19-20)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: construct bane
+AbilityScores:
+  - 26
+  - 25
+  - —
+  - 10
+  - 11
+  - 1
+BaseAtk: '25'
+CMB: '35'
+CMD: '52'
+Feats:
+  - Critical Focus
+  - Deadly Aim
+  - Improved Critical (slams)
+  - Improved Critical (integrated gravity rifle)
+  - Improved Initiative
+  - Improved Iron Will
+  - Improved Vital Strike
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Staggering Critical
+  - Toughness
+  - Vital Strike
+Skills:
+  - Knowledge (engineering) +28
+  - Perception +28
+Languages:
+  - Androffan
+Source: AP 90
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Construct Bane (Ex)
+    description: >-
+      Bastion deals an additional 2d6 points of damage to constructs and undead
+      created by feats or spells.
+  - name: Immunity to Magic (Su)
+    description: >-
+      Bastion is immune to and absorbs any spell or spell-like ability that
+      allows spell resistance. In addition, certain spells and effects function
+      differently against it, as detailed below. &#8226; Magical electricity
+      damage slows Bastion for 3 rounds, with no saving throw. If hasted,
+      magical electricity attacks instead negate the haste effect. &#8226;
+      Mage's disjunction staggers Bastion and negates its impeded magic ability
+      for 1d4 rounds.
+  - name: Impeded Magic (Su)
+    description: >-
+      A spellcaster within 60 feet of Bastion must succeed at a concentration
+      check (DC 25 + the level of the spell being cast) to successfully cast a
+      spell-if this check fails, Bastion absorbs the spell.
+  - name: Spell Absorption (Su)
+    description: >-
+      Whenever Bastion absorbs a spell, it heals 5 points of damage per spell
+      level. Healing in excess of its normal hit point maximum grants it
+      temporary hit points. Absorbing a spell gives the golem the benefits of
+      haste for 1 round per spell level.
+  - name: Spell Sunder (Su)
+    description: >-
+      A creature struck by Bastion's slam attack is targeted by dispel magic (CL
+      18th). Bastion absorbs any spells so sundered.
+DuringCombat: >-
+  Bastion doesn't address the PCs at all&#8211;it's tightly focused on its job
+  to defend the security sector's control center. It doesn't pursue foes from
+  this room.
+Morale: Bastion fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6712'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

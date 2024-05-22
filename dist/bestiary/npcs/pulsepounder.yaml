@@ -1,0 +1,97 @@
+Name: Pulsepounder
+CR: '15'
+XP: '51200'
+Race: cannon golem
+MonsterSource: Pathfinder RPG Bestiary 3 135
+Alignment: 'N'
+Size: Large
+Type: construct
+SubType: (robot)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +25
+AC: 31, touch 16, flat-footed 24
+AC_Mods: (+7 Dex, +15 natural, -1 size)
+HP: '235'
+HD: (20d10+50 plus 75 point force field)
+Saves: Fort +6, Ref +15, Will +10
+Fort: '6'
+Ref: '15'
+Will: '10'
+DR: 15/adamantine
+Immune: construct traits
+Speed: 30 ft.
+Melee:
+  - 2 slams +29 (2d10+10/19-20)
+Ranged:
+  - integrated laser cannon +26 touch (6d6+7 fire/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+AbilityScores:
+  - 30
+  - 24
+  - —
+  - 10
+  - 15
+  - 1
+BaseAtk: '20'
+CMB: '31'
+CMD: '48'
+Feats:
+  - Critical Focus
+  - Deadly Aim
+  - Improved Critical (slams)
+  - Improved Critical (integrated laser cannon)
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Staggering Critical
+  - Toughness
+  - Vital Strike
+Skills:
+  - Climb +20 (on metal surfaces)
+  - Perception +25
+  - Sense Motive +25
+Languages:
+  - Androffan
+SQ: alloyed, blasting critical, gun training, magnetic step
+Source: AP 90
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Integrated Laser Cannon (Ex)
+    description: >-
+      A pulsepounder's integrated laser cannon has a range of 300 feet, and
+      firing it in melee doesn't provoke attacks of opportunity. Rather than
+      firing a single shot, a pulsepounder can fire a blast of energy from this
+      cannon as a standard action. When it does so, it doesn't attempt an attack
+      roll; it simply targets a point within a maximum range of 300 feet. The
+      robot must have line of effect to the target when it launches a blast; if
+      the blast impacts a solid object before reaching the target area, it
+      explodes at that point. The blast fills a 20-foot-radius spread, and all
+      creatures caught in the blast radius take 10d6 points of fire damage
+      (Reflex DC 20 half). The save DC is Intelligence-based.
+  - name: Magnetic Step (Ex)
+    description: >-
+      A pulsepounder can walk upon any metallic surface with ease in zero
+      gravity, and gains a +10 circumstance bonus on Climb checks made while
+      scaling metal surfaces.
+DuringCombat: >-
+  Each robot fights to prevent entry into area C18&#8211;it pursues intruders
+  into that area, but not out into the rest of the deck.
+Morale: A pulsepounder robot fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6711'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

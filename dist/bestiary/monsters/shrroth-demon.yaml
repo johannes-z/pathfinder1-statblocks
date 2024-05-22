@@ -1,0 +1,158 @@
+Name: Shrroth Demon
+CR: '12'
+XP: '19200'
+Alignment: CE
+Size: Huge
+Type: outsider
+SubType: (aquatic, chaotic, demon, evil, extraplanar)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +26
+AC: 23, touch 12, flat-footed 23
+AC_Mods: ', +11 natural, -2 size, +4 profane)'
+HP: '162'
+HD: (12d10+96)
+Saves: Fort +16, Ref +10, Will +7
+Fort: '16'
+Ref: '10'
+Will: '7'
+DR: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold  10, fire 10
+SR: '23'
+Speed: 20 ft., swim 60 ft.
+Melee:
+  - >-
+    trident +19/+12/+9 (3d6+9) or 2 claws +19 (1d6+9),  bite +19 (1d8+9), 6
+    tentacles +14 (2d6+4 plus grab)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: constrict (tentacle, 2d6+4), sickening cloud
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: At will
+      value: >-
+        chaos hammer (DC 18), dispel magic, mirror image, greater teleport (self
+        plus 50 pounds of objects only), water breathing (others only) (DC 17)
+    - label: 2/day
+      value: feeblemind (DC 19)
+    - label: 1/day
+      value: >-
+        power word blind, summon (level 9, 2d8 melethzu demons [aquatic
+        dretches, swim speed 50 ft.] 50% or 1 shrroth 35%)
+AbilityScores:
+  - 28
+  - 10
+  - 27
+  - 14
+  - 16
+  - 18
+BaseAtk: '12'
+CMB: +23 (+27 grapple)
+CMD: '37'
+Feats:
+  - Blind-Fight
+  - Cleave
+  - Deceitful
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+Skills:
+  - Bluff +23
+  - Diplomacy +19
+  - Disguise +6
+  - Intimidate +19
+  - Knowledge (planes) +17
+  - Perception +26
+  - Sense Motive +18
+  - Stealth +7
+  - Swim +32
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Common
+  - plus one more
+  - telepathy 100 ft.
+SQ: amphibious, jet
+Environment: any (Abyss)
+Organization: solitary or gang (2-5)
+Treasure: standard
+Description_Visual: >-
+  This huge creature has the lower torso of an octopus and the upper torso of a
+  copper-skinned humanoid. Its arms end in 6-fingered talons and it wields a
+  wicked trident. A mass of long black hair hangs from its head; from under
+  which protrude two forward-curving, blackish horns.
+Group: Demon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Sickening Cloud (Ex)
+    description: >-
+      A shrroth can emit a cloud of grayish liquid in a 40-foot spread once per
+      minute as a free action. The cloud provides concealment and any creature
+      in the area or entering the area must make a successful DC 24 Fortitude
+      save or be sickened for 3 rounds. The save DC is Constitution-based.
+  - name: Jet (Ex)
+    description: >-
+      A shrroth can jet backward once per round as a full-round action at a
+      speed of 240 feet. It must move in a straight line, and does not provoke
+      attacks of opportunity while jetting.
+Description:
+  - >-
+    Shrroths are the warriors of Dagon, Demon Prince of the Seas and serve in
+    his abyssal army. When not fighting the abyssal wars among the demon
+    princes, shrroths are often sent to the Material Plane to tempt and corrupt
+    mortals with promises of power and wealth. Those refusing such offers are
+    captured by the shrroth and brought to its Abyssal layer. They are confined
+    in a stone cage and thrown into the Abyssal sea where they sink to the
+    bottom and are never seen again.
+  - >-
+    Shrroths are malevolent creatures and though they follow the orders of their
+    superiors, they are difficult to control. Fights amongst groups, packs, or
+    battalions is not uncommon when there demons are involved, and such fights
+    always end with the deaths of several of their number.
+  - >-
+    A shrroth is a 15-foot tall copper-colored demon with the lower torso of an
+    octopus and the upper torso of a powerful humanoid. Its arms end in
+    6-fingered talons. Its lower torso sports a mass of writing tentacles
+    reaching lengths of 10 feet. Six larger tentacles stretching 20 feet
+    surround the smaller tentacles. The shrroth's visage is one of hatred and
+    despair. Its mouth is filled with serrated teeth and its eyes are violet. A
+    mass of long black hair hangs from its head; from under which protrude two
+    forward-curving, blackish horns.
+  - >-
+    Shrroths rarely confront creatures on land; they prefer to fight in the
+    Abyssal waters of their native plane where they have the advantage.
+  - These demons open combat using chaos hammer to batter their foes.
+  - >-
+    This is quickly followed by feeblemind against an arcane caster if one is
+    present. If a shrroth grabs an opponent in its tentacles, it hangs on,
+    constricts it and stabs it with its trident. When facing an air-breathing
+    creature, the shrroth likes to cast water breathing on it, grab it, and swim
+    as deep as it can in the water before dispelling the water breathing effect
+    and watching the air-breather drown.
+  - >-
+    If in danger, or if facing powerful adversaries, the shrroth summons a horde
+    of melethzus (see summon above) to aid it in battle or to cover its retreat.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2453'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,101 @@
+Name: Healer
+CR: '7'
+XP: '3200'
+Race: halfling
+Class: adept 9
+Alignment: NG
+Size: Small
+Type: humanoid
+SubType: (halfling)
+Init: '1'
+Senses:
+  - Perception +4
+AC: 16, touch 12, flat-footed 15
+AC_Mods: (+4 armor, +1 Dex, +1 size)
+HP: '34'
+HD: (9d6+3)
+Saves: Fort +6, Ref +5, Will +11; +2 vs. fear
+Fort: '6'
+Ref: '5'
+Will: '11'
+Save_Mods: +2 vs. fear
+Speed: 20 ft.
+Melee:
+  - quarterstaff +3 (1d4-2)
+Ranged:
+  - sling +6 (1d3-2)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsPrepared: >-
+  Adept Spells Prepared (CL 9th; concentration +11)   3rd-remove disease  
+  2nd-cure moderate wounds, delay poison, web (DC 14)   1st-cure light wounds
+  (2), endure elements, obscuring mist   0 (at will)-create water, read magic,
+  stabilize
+AbilityScores:
+  - 6
+  - 13
+  - 10
+  - 12
+  - 14
+  - 12
+BaseAtk: '4'
+CMB: '1'
+CMD: '12'
+Feats:
+  - Brew Potion
+  - Great Fortitude
+  - Iron Will
+  - Scribe Scroll
+  - Skill Focus (Heal)
+Skills:
+  - Acrobatics +3 (-1 when jumping)
+  - Appraise +4
+  - Climb +0
+  - Heal +19
+  - Knowledge (local) +8
+  - Knowledge (nature) +13
+  - Linguistics +3
+  - Perception +4
+  - Profession (herbalist) +14
+  - Survival +8
+Languages:
+  - Common
+  - Elven
+  - Gnome
+  - Halfling
+  - Sylvan
+SQ: summon familiar (toad)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The adept drinks her potion of mage armor.
+DuringCombat: >-
+  The adept catches as many foes as possible in her web, then heals her allies
+  or seeks to escape. If she must fight, she prefers her sling.
+Gear: >-
+  potions of cure light wounds (2), potion of cure moderate wounds, potions of
+  lesser restoration (2), potion of mage armor, restorative ointment, scroll of
+  animal trance, scroll of cure moderate wounds, scroll of neutralize poison (CL
+  8th), scroll of remove curse (CL 8th), scroll of remove disease, wand of cure
+  light wounds (29 charges), holy water, tanglefoot bag
+OtherGear: >-
+  quarterstaff, sling with 10 bullets, antitoxin (2), everburning torch,
+  healer's kit, spell component pouch, wooden holy symbol, bit and bridle, pony
+  (combat trained), saddle, saddlebags, 38 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor, the adept's statistics are AC 12, touch 12, flat-footed
+  11.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3920'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,126 @@
+Name: Verbovezzor
+CR: '16'
+XP: '76800'
+Race: Mythic vescavor swarm
+MonsterSource: Pathfinder RPG Mythic Adventures 226
+Alignment: CE
+Size: Diminutive
+Type: outsider
+SubType: (chaotic, evil, mythic, swarm)
+Init: +15M
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+Aura: gibber (15 ft., DC 22)
+AC: 29, touch 21, flat-footed 22
+AC_Mods: (+5 Dex, +2 dodge, +8 natural, +4 size)
+HP: '238'
+HD: (17d10+145)
+Saves: Fort +16, Ref +17, Will +8
+Fort: '16'
+Ref: '17'
+Will: '8'
+DefensiveAbilities: evasion, rejuvenation, swarm traits
+DR: 10/epic
+Immune: mind-affecting effects, poison, weapon damage
+Resist: electricity 10, fire 10
+SR: '33'
+Speed: 30 ft., fly 40 ft. (good)
+Melee:
+  - swarm (8d6 plus distraction and 1d4 Charisma drain)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: >-
+  Charisma drain, distraction, mythic power (6/day, surge +1d8), ravenous,
+  traumatizing
+AbilityScores:
+  - 7
+  - 20
+  - 18
+  - 10
+  - 13
+  - 12
+BaseAtk: '17'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Blind-Fight
+  - DodgeM
+  - Great Fortitude
+  - Improved InitiativeM
+  - Improved Iron Will
+  - Iron Will
+  - Lightning Reflexes
+  - MobilityM
+  - Toughness
+Skills:
+  - Fly +35
+  - Intimidate +21
+  - Knowledge (local) +17
+  - Perception +21
+  - Sense Motive +21
+  - Stealth +37
+Languages:
+  - Abyssal
+SQ: dual initiative
+Source: AP 77
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Charisma Drain (Su)
+    description: >-
+      Verbovezzor drains fragments of personality and memories from those it
+      feeds upon, dealing 1d4 points of Charisma drain whenever it deals swarm
+      damage. A successful DC 22 Fortitude save reduces the Charisma drain to 1
+      point of Charisma damage. The save DC is Constitution-based.
+  - name: Gibber (Su)
+    description: >-
+      Any creature within 15 feet of Verbovezzor must succeed at a DC 22 Will
+      save or be confused for 1 round. This is a mind-affecting compulsion
+      insanity effect. A creature that saves successfully cannot be affected by
+      Verbovezzor's gibber again for 24 hours. The save DC is
+      Constitution-based.
+  - name: Ravenous (Ex)
+    description: >-
+      Verbovezzor ignores hardness of less than 20 when it attacks an object.
+      Each round a creature is in the same space as the swarm, Verbovezzor
+      begins devouring one object on the creature. The object takes an amount of
+      damage equal to half its maximum hit points and becomes broken; a broken
+      object damaged in this way is destroyed. An attended magic item gets a DC
+      15 Reflex save to negate this effect.
+  - name: Rejuvenation (Su)
+    description: >-
+      If even one of the individual vescavors that makes up Verbovezzor survives
+      the swarm's destruction (this is all but guaranteed, as the swarm always
+      keeps a few dozen hidden in the surrounding area), Verbovezzor can rebuild
+      itself through a fit of reproduction over the course of 24 hours.
+      Permanently slaying Verbovezzor requires powerful magic or diligence. A
+      miracle or wish used to ensure its death after its defeat could certainly
+      do the trick.
+  - name: Traumatizing (Su)
+    description: >-
+      Any creature that spends more than 3 rounds within the swarm must succeed
+      at a DC 19 Will save or become afflicted with a random insanity
+      (GameMastery Guide 250). The save DC is Charisma-based.
+DuringCombat: >-
+  Verbovezzor moves to engulf as many foes as it can each round, but it
+  particularly enjoys devouring animal companions, familiars, and other
+  "tidbits," since emotional connections of these creatures to the masters serve
+  as lovely appetizers.
+Morale: >-
+  If reduced to fewer than 50 hit points, Verbovezzor attempts to surrender,
+  promising to reveal many important secrets to the PCs in reward for its life.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5554'
+UniqueMonster: '0'
+Variant: '0'
+MR: '6'
+Mythic: '1'
+MT: '0'

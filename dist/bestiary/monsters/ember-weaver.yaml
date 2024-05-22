@@ -1,0 +1,131 @@
+Name: Ember Weaver
+CR: '8'
+XP: '4800'
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (psychopomp, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, spiritsense 60 ft.
+  - Perception +19
+Aura: eerie radiance (300 ft., DC 19)
+AC: 22, touch 16, flat-footed 16
+AC_Mods: (+5 Dex, +1 dodge, +6 natural)
+HP: '104'
+HD: (11d8+55)
+Saves: Fort +11, Ref +8, Will +12
+Fort: '11'
+Ref: '8'
+Will: '12'
+DR: 10/adamantine
+Immune: charm, death effects, disease, fire, poison, spells with the light descriptor
+Resist: cold 10, electricity 10
+SR: '19'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - 2 touches +15 (4d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: rush of souls
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +15)
+  values:
+    - label: At Will
+      value: >-
+        continual flame, dancing lights (DC 14), searing light, suggestion (DC
+        19), whispering wind
+    - label: 1/day
+      value: >-
+        dispel magic, freedom of movement, fly, locate creature, plane shift,
+        slay living (DC 19)
+AbilityScores:
+  - 19
+  - 21
+  - 18
+  - 18
+  - 21
+  - 18
+BaseAtk: '11'
+CMB: '15'
+CMD: '30'
+Feats:
+  - Ability Focus (suggestion)
+  - Dodge
+  - Flyby Attack
+  - Mobility
+  - Toughness
+Skills:
+  - Acrobatics +19
+  - Fly +23
+  - Knowledge (geography) +18
+  - Knowledge (planes) +18
+  - Knowledge (religion) +18
+  - Perception +19
+  - Sense Motive +19
+  - Spellcraft +18
+  - Survival +19
+Languages:
+  - Abyssal
+  - Celestial
+  - Infernal
+SQ: spirit touch
+Environment: any (Astral Plane)
+Organization: >-
+  solitary, pair, escort (1 ember weaver and 1 shoki), troupe (1 ember weaver
+  plus 3-10 ahmuuths, catrinas, esoboks, or nosois), or procession (3-12 ember
+  weavers)
+Treasure: standard
+Description_Visual: >-
+  This slim, glowing figure is draped with voluminous gossamer shawls and veils
+  that obscure its shape.
+Group: Psychopomp
+Source: Monster Summoner's Handbook
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Eerie Radiance (Su)
+    description: >-
+      As a standard action, an ember weaver can wreath itself in an aura of
+      cinders similar to dancing lights (CL 11th). Any living or dead creature
+      within 300 feet with line of sight to the dancing embers must succeed at a
+      DC 19 Will save or else any protections or immunities it has against
+      charm, fear, and mind-affecting effects are suppressed for as long as the
+      ember weaver uses a free action to maintain the effect each round and for
+      1 round thereafter. Once a creature succeeds at this saving throw, it
+      can't be affected by an eerie radiance for 24 hours. The light has no
+      effect on psychopomps, creatures that can't see, and creatures the ember
+      weaver chooses to exclude. This is a sight-based abjuration effect.
+  - name: Rush of Souls (Su)
+    description: >-
+      As a standard action every 1d4+1 rounds, an ember weaver can call forth a
+      rush of souls to trample its foes. This ability deals 6d6 points of force
+      damage to all creatures in a 60-foot cone. A successful DC 19 Reflex
+      saving throw halves the damage. The save DC is Charisma-based.
+Description:
+  - >-
+    Ember weavers are beacons for dead souls seeking the afterlife, and escorts
+    for other psychopomps. Most ember weavers patrol graveyards, ley lines, and
+    other places where the dead enter into the river of souls, beckoning them to
+    step toward eternity. Ember weavers also perform services in payment for
+    knowledge about lost souls.
+  - >-
+    Ember weavers lead ahmuuths and esoboks in hunts for spirits waylaid by
+    undeath. They also accompany nosois and catrinas to recover confused or
+    rebellious spirits.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6957'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

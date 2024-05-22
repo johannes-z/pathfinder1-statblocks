@@ -1,0 +1,182 @@
+Name: Great Wyrm Brass Dragon
+CR: '19'
+XP: '204800'
+Alignment: CG
+Size: Gargantuan
+Type: dragon
+SubType: (fire)
+Init: '3'
+Senses:
+  - blindsense 60 ft., dragon senses
+  - Perception +39
+Aura: fire (10 ft., 2d6 fire), frightful presence (360 ft., DC 29)
+AC: 41, touch 5, flat-footed 41
+AC_Mods: (-1 Dex, +36 natural, -4 size)
+HP: '377'
+HD: (26d12+208)
+Saves: Fort +23, Ref +14, Will +21
+Fort: '23'
+Ref: '14'
+Will: '21'
+DR: 20/magic
+Immune: fire, paralysis, sleep
+SR: '30'
+Weaknesses: vulnerability to cold
+Speed: 60 ft., burrow 30 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +35 (4d6+19), 2 claws +35 (2d8+13), 2 wings +33 (2d6+7), tail slap +33
+    (2d8+19)
+Space: 20 ft.
+Reach: 20 ft. (25 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (120-ft. line, DC 31, 24d4 fire), crush (medium creatures, DC
+  31, 4d6+19), desert wind, sandstorm, sleep breath, summon djinni, tail sweep
+  (small creatures, DC 31, 2d6+19)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 26th; concentration +32)
+  values:
+    - label: At will
+      value: >-
+        - control weather, control winds, endure elements, speak with animals,
+        suggestion (DC 19), whirlwind
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 19th; concentration +25)
+  values:
+    - label: 9th (4/day)
+      value: '-dominate monster (DC 27), power word kill'
+    - label: 8th (6/day)
+      value: '-demand (DC 26), discern location, power word stun'
+    - label: 7th (6/day)
+      value: '-greater teleport, mass hold person (DC 25), power word blind'
+    - label: 6th (7/day)
+      value: '-forceful hand, geas, greater dispel magic'
+    - label: 5th (7/day)
+      value: >-
+        -contact other plane, dominate person (DC 23), mirage arcana, prying
+        eyes
+    - label: 4th (7/day)
+      value: >-
+        -charm monster (DC 22), confusion (DC 22), dimensional anchor, locate
+        creature
+    - label: 3rd (7/day)
+      value: '-displacement, heroism, hold person (DC 20), tongues'
+    - label: 2nd (8/day)
+      value: >-
+        -alter self, detect thoughts (DC 18), locate object, resist energy, see
+        invisibility
+    - label: 1st (8/day)
+      value: >-
+        -alarm, charm person (DC 19), protection from evil, shield,
+        ventriloquism
+    - label: 0 (at will)
+      value: >-
+        -arcane mark, dancing lights, detect magic, detect poison, ghost sound
+        (DC 16), mage hand, message, prestidigitation, read magic
+AbilityScores:
+  - 37
+  - 8
+  - 27
+  - 22
+  - 23
+  - 22
+BaseAtk: '26'
+CMB: '43'
+CMD: 52 (56 vs. trip)
+Feats:
+  - Alertness
+  - Flyby Attack
+  - Hover
+  - Greater Spell Focus (enchantment)
+  - Greater Spell Penetration
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Quicken Spell
+  - Spell Focus (enchantment)
+  - Spell Penetration
+  - Vital Strike
+Skills:
+  - Bluff +35
+  - Diplomacy +35
+  - Fly +14
+  - Heal +35
+  - Knowledge (geography) +35
+  - Knowledge (history) +35
+  - Knowledge (local) +35
+  - Linguistics +35
+  - Perception +39
+  - Sense Motive +39
+  - Spellcraft +35
+  - Survival +35
+Languages:
+  - Common
+  - Draconic
+  - plus any 31 more
+SQ: move sand
+Environment: warm deserts
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  A crest of horns sweeps back from the head of this dragon, leading to a long
+  neck and serpentine brass body.
+Group: Metallic Dragon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Desert Wind (Su)
+    description: >-
+      A juvenile or older brass dragon can call up the desert wind to serve him.
+      This functions as gust of wind, but any creature in its path must make a
+      Fortitude save (DC 31) or be blinded for 1d4 rounds by the sand.
+  - name: Fire Aura (Su)
+    description: >-
+      An old or older brass dragon is surrounded by an aura of intense heat. All
+      creatures within 5 feet of the dragon take 1d6 points of fire damage at
+      the beginning of the dragon's turn. An ancient brass dragon's aura extends
+      to 10 feet. A great wyrm's damage increases to 2d6. A brass dragon can
+      suppress or activate this aura at will as a free action.
+  - name: Move Sand (Su)
+    description: >-
+      A young or older brass dragon can move sand to excavate ruins or hide
+      treasures. This functions as move earth, but it only affects sand. The
+      dragon uses his HD in place of his caster level for this effect. This is
+      equivalent to a 5th-level spell.
+  - name: Sandstorm (Su)
+    description: >-
+      An ancient or older brass dragon can create a powerful sandstorm once per
+      day as a full-round action. This storm has a radius of 1 mile and lasts
+      for 1 minute per age category of the dragon. This functions as a sandstorm
+      (Pathfinder RPG Core Rulebook 431), except that it is also accompanied by
+      windstorm-level winds.
+  - name: Sleep Breath (Su)
+    description: >-
+      Instead of a line of fire, a brass dragon can breathe a 60 ft. cone of
+      sleep gas. Creatures within the cone must succeed on a Will save or fall
+      asleep for 1d6+12 rounds.
+  - name: Summon Djinni (Sp)
+    description: >-
+      This ability, usable by a great wyrm brass dragon once per day, works like
+      a summon monster spell, except that it summons one noble djinni. This
+      ability is the equivalent of a 9th-level spell.
+Description:
+  - >-
+    Consummate conversationalists, brass dragons prefer to talk instead of
+    fight. Brass dragons lair near humanoid settlements, where they can hear the
+    most recent news and gossip.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: great wyrm
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1570'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

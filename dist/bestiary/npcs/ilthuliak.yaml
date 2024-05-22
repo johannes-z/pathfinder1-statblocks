@@ -1,0 +1,132 @@
+Name: Ilthuliak
+CR: '17'
+XP: '102400'
+Race: wyrm black dragon
+MonsterSource: Pathfinder RPG Bestiary 92
+Alignment: CE
+Size: Huge
+Type: dragon
+SubType: (water)
+Init: '-1'
+Senses:
+  - blindsense 60 ft., darkvision 120 ft., dragon senses
+  - Perception +32
+Aura: frightful presence (330 ft., DC 31)
+AC: 48, touch 7, flat-footed 48
+AC_Mods: (+4 armor, -1 Dex, +33 natural armor, +4 shield, -2 size)
+HP: '324'
+HD: (24d12+168)
+Saves: Fort +21, Ref +13, Will +21
+Fort: '21'
+Ref: '13'
+Will: '21'
+DefensiveAbilities: evasion
+DR: 20/magic
+Immune: acid, magic paralysis and sleep, dragon traits
+SR: '28'
+Speed: 60 ft., fly 200 ft. (poor), swim 60 ft.
+Melee:
+  - >-
+    bite +34 (2d8+18), 2 claws +34 (2d6+12), 2 wings +32 (1d8+6), tail slap +32
+    (2d6+18)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  acid pool, acidic bite, breath weapon (100-ft. line of acid, 22d6 damage, DC
+  31), crush (2d8+18, DC 31)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 24th; concentration +28)
+  values:
+    - label: At will
+      value: darkness (110-foot radius), insect plague, plant growth
+    - label: 1/day
+      value: corrupt water
+SpellsKnown:
+  header: >-
+    Spells Known (CL 13th; concentration +17) 6th (4)-acid fog, flesh to stone
+    (DC 20) 5th (6)-teleport, transmute rock to mud, wall of force 4th
+    (7)-dimension door, enervation, hallucinatory terrain, mass reduce person
+    (DC 18) 3rd (7)-clairaudience/clairvoyance, dispel magic, haste, suggestion
+    (DC 17) 2nd (7)-acid arrow, detect thoughts (DC 16), invisibility, resist
+    energy, scorching ray 1st (7)-charm person (DC 15), grease (DC 15), mage
+    armor, ray of enfeeblement (DC 15), shield
+  values:
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), dancing lights, detect magic, mage hand,
+        message, prestidigitation, read magic, resistance
+AbilityScores:
+  - 35
+  - 8
+  - 25
+  - 18
+  - 21
+  - 18
+BaseAtk: '24'
+CMB: '38'
+CMD: 47 (51 vs. trip)
+Feats:
+  - Awesome Blow
+  - Bleeding Critical
+  - Critical Focus
+  - Eschew Materials
+  - Improved Bull Rush
+  - Improved Iron Will
+  - Improved Vital Strike
+  - Iron Will
+  - Multiattack
+  - Power Attack
+  - Quicken Spell
+  - Vital Strike
+Skills:
+  - Bluff +31
+  - Fly +22
+  - Intimidate +31
+  - Knowledge (arcana) +31
+  - Knowledge (history) +31
+  - Knowledge (planes) +31
+  - Perception +32
+  - Sense Motive +32
+  - Stealth +18
+  - Swim +39
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Skald
+  - Sylvan
+SQ: speak with reptiles, swamp stride, water breathing
+Source: AP 36
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Ilthuliak casts mage armor, shield, and invisibility (in that order) on
+  herself before she initiates combat. As a result, the dragon's AC increases to
+  an impressive 48&#8211;this may be far too high for your PCs to handle, so if
+  you are worried that the battle won't be fair, feel free to replace mage armor
+  or shield with other 1st-level spells like magic missile and obscuring mist.
+DuringCombat: >-
+  The dragon opens combat with her breath weapon, following up with a few rounds
+  flying overhead and casting spells like acid fog, mass reduce person, and
+  flesh to stone at PCs on the ground below. When her breath weapon recharges,
+  she casts haste, then on the next round swoops down to land amid the PCs and
+  uses her breath weapon again&#8211;on the following several rounds, she loses
+  herself in the glory of melee battle, periodically taking to the sky to cast a
+  few more spells.
+Morale: Ilthuliak fights to the death.
+Gear: ring of evasion
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '884'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

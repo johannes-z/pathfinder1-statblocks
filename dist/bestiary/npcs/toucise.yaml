@@ -1,0 +1,94 @@
+Name: Toucise
+CR: '3'
+XP: '800'
+Race: human
+Class: rogue 3
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human, shapechanger)
+Init: '8'
+Senses:
+  - low-light vision, scent
+  - Perception +8
+AC: 20, touch 15, flat-footed 15
+AC_Mods: (+3 armor, +4 Dex, +1 dodge, +2 natural)
+HP: '23'
+HD: (3d8+6)
+Saves: Fort +3, Ref +7, Will +3; +1 vs. traps
+Fort: '3'
+Ref: '7'
+Will: '3'
+Save_Mods: +1 vs. traps
+DefensiveAbilities: evasion, trap sense
+DR: 10/silver
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +6 (1d4+3 plus disease plus curse of lycanthropy; DC 15), or rapier +6
+    (1d6+2/18-20)
+Ranged:
+  - light crossbow +6 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: curse of lycanthropy, filth fever (disease), sneak attack +2d6
+AbilityScores:
+  - 14
+  - 18
+  - 15
+  - 10
+  - 15
+  - 10
+BaseAtk: '2'
+CMB: '4'
+CMD: '19'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Acrobatics +10
+  - Appraise +4
+  - Climb +8
+  - Craft (traps) +4
+  - Diplomacy +5 (+9 to change attitude vs. rats)
+  - Escape Artist +9
+  - Perception +8 (+9 to locate traps)
+  - Sense Motive +8
+  - Sleight of Hand +8
+  - Stealth +10
+  - Swim +8
+  - Use Magic Device +6
+SQ: >-
+  change shape (human, hybrid, and dire rat; polymorph), lycanthropic empathy
+  (rats and dire rats), rogue talents (fast stealth), trapfinding +1
+Source: The Lost City of Barakus-Adventures in Endhome
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Bite-injury; save Fort DC 13; onset 1d3 days; frequency
+      1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
+      The save DC is Constitution-based.
+Gender: Male
+Gear: potion of cure light wounds (CL 3rd), smokestick, tanglefoot bag, thunderstone
+OtherGear: >-
+  masterwork studded leather armor, light crossbow, 20 crossbow bolts, rapier,
+  gold charm bracelet (100 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: natural wererat|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: Hybrid Form
+id: '12848'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

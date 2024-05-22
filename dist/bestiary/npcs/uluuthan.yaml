@@ -1,0 +1,154 @@
+Name: Uluuthan
+CR: '16'
+XP: '76800'
+Race: aboleth
+Class: sorcerer 11
+MonsterSource: Pathfinder RPG Bestiary 8, Pathfinder RPG Bestiary 4 268
+Alignment: LE
+Size: Huge
+Type: undead
+SubType: (aquatic, augmented aberration)
+Init: '8'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +40
+Aura: mucus cloud (5 ft., DC 22)
+AC: 31, touch 12, flat-footed 27
+AC_Mods: (+4 Dex, +19 natural, -2 size)
+HP: '237'
+HD: (19 HD; 11d6+8d8+163)
+HP_Mods: fast healing 5
+Saves: Fort +13, Ref +11, Will +23; +4 vs. mind-affecting effects
+Fort: '13'
+Ref: '11'
+Will: '23'
+Save_Mods: +4 vs. mind-affecting effects
+DefensiveAbilities: channel resistance +4
+DR: 5/piercing and wood
+Immune: undead traits
+Resist: cold 10, electricity 10, sonic 10
+Weaknesses: vampire weaknesses
+Speed: 10 ft., swim 60 ft.
+Melee:
+  - 2 claws +17 (2d6+8), 4 tentacles +18 (1d6+8 plus slime)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: blood drain (1d4 Con and 1d4 Wis), dominate (DC 27), telekinesis
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +24)
+  values:
+    - label: At Will
+      value: >-
+        hypnotic pattern (DC 20), illusory wall (DC 22), mirage arcana (DC 23),
+        persistent image (DC 23), programmed image (DC 24), project image (DC
+        25), veil (DC 24)
+    - label: 3/day
+      value: >-
+        dominate monster (DC 27) Bloodline Spell-Like Abilities (CL 11th;
+        concentration +19)
+    - label: 11/day
+      value: psychic strike (1d6+5)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +19)
+  values:
+    - label: 5th (5/day)
+      value: >-
+        ego whip IIIOA (DC 23), id insinuation IVOA (DC 23), intellect fortress
+        IIOA, mind fog (DC 23), mind thrust VOA (DC 23), psychic crush IOA (DC
+        23), wall of force
+    - label: 4th (8/day)
+      value: dimension door, fire shield, stone shape
+    - label: 3rd (8/day)
+      value: >-
+        dispel magic, hold person (DC 21), lightning bolt (DC 21), protection
+        from energy
+    - label: 2nd (8/day)
+      value: >-
+        ghoul touch (DC 20), glitterdust (DC 20), invisibility, resist energy,
+        web (DC 20)
+    - label: 1st (8/day)
+      value: >-
+        comprehend languages, magic missile, protection from good, shield, true
+        strike
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 18), detect magic, disrupt undead, ghost sound (DC 18), light,
+        mage hand, open/close (DC 18), prestidigitation, read magic
+AbilityScores:
+  - 26
+  - 18
+  - —
+  - 17
+  - 26
+  - 26
+BaseAtk: '11'
+CMB: '21'
+CMD: 43 (can't be tripped)
+Feats:
+  - Alertness
+  - Combat Casting
+  - Defensive Combat Training
+  - Empower Spell
+  - Eschew Materials
+  - Extend Spell
+  - Improved InitiativeB
+  - Iron Will
+  - Lightning ReflexesB
+  - Persuasive
+  - Quicken Spell
+  - Skill Focus (Intimidate
+  - Perception)B
+  - Spell Penetration
+  - Weapon Focus (tentacle)
+Skills:
+  - Bluff +30
+  - Diplomacy +10
+  - Intimidate +40
+  - Knowledge (arcana) +25
+  - Perception +40
+  - Sense Motive +29
+  - Spellcraft +25
+  - Stealth +15
+  - Swim +27
+RacialMods: +8 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Aboleth
+  - Aklo
+  - Aquan
+  - Azlanti
+  - Undercommon
+  - telepathy 60 ft.
+SQ: >-
+  bloodline arcana (use thought and emotion components instead of verbal and
+  somatic), recovery, spider climb, swarm form (crab swarm or jellyfish
+  swarmB2), undercasting prodigy
+Source: AP 125
+IsTemplate: '0'
+Bloodline: psychicOA
+DuringCombat: >-
+  Uluuthan casts mind fog at the start of combat and thereafter uses its psychic
+  spells, particularly ego whip III and psychic crush I, to incapacitate
+  opponents, undercasting these spells if necessary.
+Morale: >-
+  Fatalistic and loyal, Uluuthan fights until destroyed. It then retreats in its
+  swarm form to its coffin in area C14. Once recovered, it seeks out its
+  opponents to renew its attacks.
+Gear: >-
+  azure briolette ioun stone (see page 36), lavender and green ellipsoid ioun
+  stone
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: nosferatu|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11711'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

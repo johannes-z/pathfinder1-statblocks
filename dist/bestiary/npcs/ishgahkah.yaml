@@ -1,0 +1,130 @@
+Name: Ishgahkah
+CR: '14'
+XP: '38400'
+Race: Gug savant
+Class: sorcerer 7
+MonsterSource: Pathfinder RPG Bestiary 2 151
+Alignment: CE
+Size: Large
+Type: aberration
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+AC: 30, touch 12, flat-footed 27
+AC_Mods: (+4 armor, +3 Dex, +14 natural, -1 size)
+HP: '208'
+HD: (22 HD; 7d6+15d8+117)
+Saves: Fort +12, Ref +10, Will +16
+Fort: '12'
+Ref: '10'
+Will: '16'
+Immune: disease, poison
+Resist: electricity 5
+Speed: 40 ft., climb 20 ft.
+Melee:
+  - bite +20 (1d8+7), 4 claws +21 (1d8+7)
+Space: 10 ft.
+Reach: 15 ft.
+SpecialAttacks: rend (2 claws, 1d6+10)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +16)
+  values:
+    - label: 1/day
+      value: >-
+        invisibility, spike stones (DC 20), transmute rock to mud (DC 21),
+        unholy blight (DC 20)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +13)
+  values:
+    - label: 3rd (5/day)
+      value: gentle repose (DC 19), rage, slow (DC 19)
+    - label: 2nd (8/day)
+      value: acid arrow, blindness/deafness (DC 18), bull's strength, summon swarm
+    - label: 1st (8/day)
+      value: >-
+        burning hands (DC 17), cause fear (DC 17), mage armor, magic missile,
+        shield, true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, disrupt undead, ghost sound (DC 16), message,
+        ray of frost, read magic
+AbilityScores:
+  - 25
+  - 16
+  - 20
+  - 13
+  - 14
+  - 23
+BaseAtk: '14'
+CMB: +22 (+26 bull rush)
+CMD: 35 (37 vs. bull rush)
+Feats:
+  - Arcane Strike
+  - Awesome Blow
+  - Blind-Fight
+  - Cleave
+  - Combat Reflexes
+  - Eschew Materials
+  - Greater Bull Rush
+  - Improved Bull Rush
+  - Lunge
+  - Magical Aptitude
+  - Power Attack
+  - Skill Focus (Perception)
+  - Weapon Focus (claw)
+Skills:
+  - Acrobatics +3 (+7 when jumping)
+  - Climb +15
+  - Escape Artist +13
+  - Knowledge (arcana
+  - planes) +18
+  - Knowledge (dungeoneering) +11
+  - Perception +21
+  - Spellcraft +23
+  - Stealth +15
+  - Survival +15
+  - Use Magic Device +18
+RacialMods: +4 Escape Artist
+Languages:
+  - Abyssal
+  - Undercommon
+SQ: bloodline arcana (summoned creatures gain DR 3/ good), compression
+Source: AP 118
+IsTemplate: '0'
+Bloodline: abyssal
+BeforeCombat: >-
+  If Ishgahkah notices the sounds of combat, it casts invisibility and mage
+  armor on itself.
+DuringCombat: >-
+  Ishgahkah immediately uses a scroll of summon monster VII to summon 1d4+1
+  babaus while still invisible, then casts slow before closing to melee. As a
+  gug, it revels in bloodshed, and it uses Arcane Strike and Power Attack to
+  rend enemies with its claws, unleashing more spells only on opponents who keep
+  their distance.
+Morale: >-
+  If reduced to 80 or fewer hit points, Ishgahkah retreats to the support of its
+  fiendish kin in area J9, where the savant makes its final stand.
+Gear: >-
+  scroll of giant form I, scroll of greater dispel magic, scroll of mass cure
+  moderate wounds, scrolls of summon monster VII (3)
+OtherGear: >-
+  ring of spell knowledge IIUE (currently contains comprehend languages), robe
+  of scintillating colors, ruby-and-gold unholy symbol of Nyarlathotep (worth
+  750 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without mage armor, Ishgahkah's statistics are AC 26, flat-footed 23.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11479'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

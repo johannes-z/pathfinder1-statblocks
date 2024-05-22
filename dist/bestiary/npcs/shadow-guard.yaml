@@ -1,0 +1,92 @@
+Name: Shadow Guard
+CR: 1/3
+XP: '135'
+Race: fetchling
+Class: warrior 1
+MonsterSource: Pathfinder RPG Bestiary 2 123
+Alignment: NE
+Size: Medium
+Type: outsider
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 14, touch 11, flat-footed 13
+AC_Mods: (+3 armor, +1 Dex)
+HP: '8'
+HD: (1d10+3)
+Saves: Fort +2, Ref +1, Will +0
+Fort: '2'
+Ref: '1'
+Will: '0'
+Resist: cold 5, electricity 5
+Speed: 30 ft.
+Melee:
+  - longsword +2 (1d8+1/19-20)
+Ranged:
+  - sling +2 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 1st; concentration +1)
+  values:
+    - label: 1/day
+      value: disguise self (humanoid only)
+AbilityScores:
+  - 13
+  - 12
+  - 11
+  - 9
+  - 10
+  - 10
+BaseAtk: '1'
+CMB: '2'
+CMD: '13'
+Feats:
+  - Toughness
+Skills:
+  - Intimidate +4
+  - Knowledge (planes) +1
+  - Profession (guard) +4
+  - Stealth +3
+RacialMods: +2 Knowledge (planes), +2 Stealth
+Languages:
+  - Common
+Source: PFS S2-11
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Shadow Blending (Su)
+    description: >-
+      Attacks against a fetchling in dim light have a 50% miss chance instead of
+      the normal 20% miss chance. This ability does not grant total concealment;
+      it just increases the miss chance.
+Gender: Male and Female
+BeforeCombat: >-
+  If the guards are aware of the PCs' presence, they spread out throughout the
+  room preparing to ambush the PCs as these intruders enter the laboratory.
+DuringCombat: >-
+  The guards charge the nearest PC at the onset of the combat, attempting to
+  drive the intruders out of the room and away from the slaves in area 5.
+Morale: >-
+  While anything but good and certainly not cowardly, the guards are merely
+  hired mercenaries of the Onyx Alliance and surrender if brought below 3 hit
+  points.
+Gear: alchemist's fire (2)
+OtherGear: >-
+  masterwork black studded leather, longsword, sling with 10 bullets, manacles,
+  15 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5541'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

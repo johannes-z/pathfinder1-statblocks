@@ -1,0 +1,139 @@
+Name: Scylla
+CR: '10'
+XP: '9600'
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+SubType: (aquatic)
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +23
+AC: 21, touch 10, flat-footed 19
+AC_Mods: (+2 Dex, +11 natural, -2 size)
+HP: '138'
+HD: (12d10+72)
+Saves: Fort +14, Ref +10, Will +8
+Fort: '14'
+Ref: '10'
+Will: '8'
+Weaknesses: water dependency
+Speed: 10 ft., swim 50 ft.
+Melee:
+  - 6 bites +16 (1d8+6/19-20)
+Space: 15 ft.
+Reach: 10 ft.
+SpecialAttacks: boil water, heat, scalding blast
+AbilityScores:
+  - 23
+  - 14
+  - 23
+  - 10
+  - 14
+  - 10
+BaseAtk: '12'
+CMB: '20'
+CMD: 32 (can't be tripped)
+Feats:
+  - Improved Critical (bite)
+  - Intimidating Prowess
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Perception)
+  - Vital Strike
+Skills:
+  - Intimidate +19
+  - Perception +23
+  - Swim +19
+RacialMods: +2 Perception
+Languages:
+  - Aquan
+  - Common
+Environment: any temperate or warm aquatic
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This massive sea monster is about 20 feet long with a rounded lower body, four
+  large fins, a short tail, and six heads, each perched on top of a long
+  snake-like neck.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Boil Water (Ex)
+    description: >-
+      If a scylla uses its heat ability (see below) for 3 consecutive rounds and
+      doesn't move more than 5 feet from its current location, the water
+      surrounding it (in a 10-foot radius and to a depth of 10 feet) begins to
+      rapidly churn and boil. Creatures caught in the boiling water take 3d6
+      points of fire damage each round they remain in the area. A successful DC
+      22 Fortitude save reduces the damage by half. Creatures wearing heavy
+      clothing or medium or heavy armor take a -2 penalty on their saving throw.
+      In addition, those wearing metal armor or coming into contact with very
+      hot metal are affected as if by a heat metal spell. The save DC is
+      Constitution-based. Once the scylla moves from its location or shuts its
+      heat ability off, the boiling water takes 3 rounds to return to its normal
+      temperature (it still deals full damage during its cooling off period). A
+      scylla is immune to its own boil water ability and to the boil water
+      ability of other scyllas.
+  - name: Heat (Ex)
+    description: >-
+      A scylla raises the temperature of its body in order to generate intense
+      heat. It does so as a free action. Creatures attacking a scylla unarmed or
+      with natural weapons take 1d6 points of fire damage each time their
+      attacks hit. In addition, a scylla can use its heat ability to boil the
+      surrounding waters.
+  - name: Scalding Blast (Ex)
+    description: >-
+      A scylla can gulp some of the boiling water surrounding it as a move
+      action. Each head that gulped water can then unleash a line of scalding
+      steam on the scylla's next action to a range of 50 feet. The scylla can
+      target the same or different opponents with each head, if it wishes. Each
+      blast deals 3d6 points of fire damage or half that amount if the target
+      succeeds on a DC 22 Reflex save. The save DC is Constitution-based. This
+      is effective both on the surface and underwater. In any round that a head
+      does not gulp water, it can bite.
+  - name: Water Dependency (Ex)
+    description: >-
+      A scylla can survive on land for a number of hours equal to its
+      Constitution modifier (minimum 1 hour). After that, refer to the drowning
+      rules in Chapter 13 of the Pathfinder Roleplaying Game Core Rulebook.
+Description:
+  - >-
+    Scyllas are thought to be related to hydras, though no proof exists
+    connecting the two. They are found in climates from temperate to warm (they
+    don't like the cold) and prefer to lair in natural underwater caves and
+    caverns, only emerging when hungry. A scylla is a predatory creature,
+    existing on a diet of large fish such as shark, octopus or squid, or
+    unlikely swimmers and sailors. Prey is usually devoured in the same spot it
+    is killed; rarely does a scylla return to its lair with prey except when
+    nursing its young. Scyllas are solitary creatures and even during mating
+    season it is rare to actually encounter more than one of these creatures.
+    The mating ritual lasts but a short time with the male swimming away
+    afterwards, never to return to the lair. Young are born about 6 months later
+    and reach maturity in just under a year. Young scyllas are noncombatants and
+    do not possess the heat ability of adult scyllas. A scylla is gray-blue to
+    dark gray in color with a lighter shaded underbelly. Its fins are gray-blue
+    to dark gray. Its eyes are golden or gray and each mouth is lined with
+    triple rows of whitish-gray teeth. Scyllas can grow to a length of 50 feet.
+    Scyllas attack their foes with vicious bites from their multiple heads. When
+    facing more than one opponent, a scylla uses its heat ability to boil the
+    water surrounding it and burn its foes. Scyllas prefer to attack when it is
+    most advantageous, such as surfacing under a foe. If combat goes against a
+    scylla it dives beneath the waves and swims away. A cornered or hungry
+    scylla, or one defending its lair, always fights to the death. Copyright
+    Notice Author Scott Greene.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2987'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

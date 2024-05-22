@@ -1,0 +1,120 @@
+Name: Marble Sentinel
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Small
+Type: construct
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +6
+AC: 20, touch 14, flat-footed 17
+AC_Mods: (+3 Dex, +6 natural, +1 size)
+HP: '43'
+HD: (6d10+10)
+Saves: Fort +2, Ref +5, Will +2
+Fort: '2'
+Ref: '5'
+Will: '2'
+Immune: acid, construct traits, magic
+Speed: 40 ft., climb 20 ft.
+Melee:
+  - 2 claws +12 (1d4+5)
+Ranged:
+  - paralyzing bolt +10 (paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 2nd; concentration -1)
+  values:
+    - label: Constant
+      value: detect magic
+AbilityScores:
+  - 20
+  - 16
+  - —
+  - 1
+  - 11
+  - 5
+BaseAtk: '6'
+CMB: '10'
+CMD: 23 (31 vs. trip)
+Feats:
+  - Ability Focus (paralyzing bolt)
+  - Improved Initiative
+  - Skill Focus (Perception)
+Skills:
+  - Climb +13
+  - Perception +6
+  - Stealth +10
+Languages:
+  - Thassilonian (can't speak)
+SQ: alert, freeze
+Environment: any
+Organization: solitary, pair, or troop (3-7)
+Treasure: none
+Description_Visual: >-
+  Crouched on six jointed metal legs, this large humanoid head crafted from
+  polished marble gazes intently with its glowing green eyes.
+Group: Thassilonian Sentinels
+Source: AP 62
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alert (Su)
+    description: >-
+      A marble sentinel can take simple orders and identify intruders, and it
+      possesses the ability to alert its creator or another creature to which
+      it's keyed. When a marble sentinel detects a trespasser, it can choose to
+      alert the creature to which it's keyed in one of two ways. The sentinel
+      can create a loud sound like that of a bell, chime, or gong that can be
+      clearly heard at a range of 500 feet. Alternatively, a marble sentinel can
+      send a mental alert to the creature to which it is keyed as long as that
+      creature is within 1 mile of the sentinel. The mental alert wakes the
+      keyed creature from sleep, but doesn't affect normal concentration. A
+      marble sentinel's creator is the first creature to which it is keyed, and
+      the creator can pass its link to another creature as part of a 4-hour
+      ritual that uses materials costing 500 gp.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A marble sentinel is immune to spells or spell-like abilities that allow
+      spell resistance, save for spells with the force descriptor.
+  - name: Paralyzing Bolt (Su)
+    description: >-
+      As a standard action, a marble sentinel can fire a green-hued bolt of
+      energy as a ranged touch attack out to a maximum range of 30 feet. A
+      creature struck by this ray must succeed at a DC 12 Fortitude save or be
+      paralyzed for 1d6 rounds. The save DC is Charisma-based.
+Description:
+  - >-
+    Marble sentinels were prized for their ability not only to detect intruders,
+    but also to restrain them with paralyzing bolts. This ability only lasts
+    temporarily, so the creator or other creature the sentinel is keyed to would
+    have to receive the alert and mobilize her guards to properly subdue and
+    restrain any trespassers.
+  - Construction
+  - >-
+    Though the exact process of creating the base form differs depending on the
+    materials involved, the process of animating sentinels is roughly the same.
+    Each sentinel must be carved or worked to a fine detail before being
+    subjected to spells and magical unguents worth 1,000 gp.
+  - Marble Sentinel CL 12th; Price 24,000
+  - CONSTRUCTION
+  - >-
+    Requirements Craft Construct, alarm, detect magic, geas/ quest, limited
+    wish, stone shape, creator must be caster level 12th; Skill Craft
+    (sculpture) DC 20; Cost 12,500 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3390'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

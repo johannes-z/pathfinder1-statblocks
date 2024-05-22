@@ -1,0 +1,107 @@
+Name: Face
+CR: '5'
+XP: '1600'
+Race: Elf
+Class: bard 6
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +10
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex)
+HP: '36'
+HD: (6d8+6)
+Saves: >-
+  Fort +3, Ref +7, Will +4; +2 vs. enchantments, +4 vs. bardic performance,
+  language-dependent, and sonic
+Fort: '3'
+Ref: '7'
+Will: '4'
+Save_Mods: +2 vs. enchantments, +4 vs. bardic performance, language-dependent, and sonic
+Immune: sleep
+Speed: 30 ft.
+Melee:
+  - mwk dagger +6 (1d4+1/19-20)
+Ranged:
+  - mwk light crossbow +7 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 17 rounds/day (countersong, distraction, fascinate [DC 16],
+  inspire competence +2, inspire courage +2, suggestion [DC 16])
+SpellsKnown:
+  header: Bard Spells Known (CL 6th; concentration +12)
+  values:
+    - label: 2nd (4/day)
+      value: >-
+        detect thoughts (DC 15), honeyed tongueAPG, communal share languageUC,
+        suggestion (DC 15)
+    - label: 1st (5/day)
+      value: adorationUC, charm person (DC 14), comprehend languages, innocenceAPG
+    - label: 0 (at will)
+      value: >-
+        daze (DC 13), detect magic, know direction, lullaby (DC 13), mending,
+        message
+AbilityScores:
+  - 12
+  - 15
+  - 12
+  - 12
+  - 8
+  - 16
+BaseAtk: '4'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Eschew Materials
+  - Skill Focus (Perform [comedy])
+  - Skill Focus (Perform [oratory])
+Skills:
+  - Appraise +12
+  - Disguise +15
+  - Knowledge (local) +13
+  - Perception +10
+  - Perform (comedy) +18
+  - Perform (oratory) +18
+  - Sleight of Hand +11
+  - Stealth +11
+RacialMods: +2 Perception
+Languages:
+  - Common
+  - Elven
+  - Gnome
+  - Orc
+  - Sylvan
+SQ: >-
+  bardic knowledge +3, elven magic, lore master 1/day, versatile performance
+  (comedy, oratory)
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: The face uses magic to try to win over potential enemies and avoid combat.
+Morale: >-
+  The face avoids direct clashes whenever possible, preferring to let brawnier
+  allies go toe to toe against foes. If she cannot use her glib tongue to soothe
+  enemies and halt the fight, she flees. She casts innocence if the authorities
+  get involved.
+OtherGear: >-
+  mithral chain shirt, mwk dagger, mwk light crossbow, circlet of persuasion, 13
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8952'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

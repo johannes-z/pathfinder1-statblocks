@@ -1,0 +1,131 @@
+Name: Urannag
+CR: '8'
+XP: '4800'
+Alignment: CE
+Size: Huge
+Type: construct
+SubType: (extraplanar)
+Init: '4'
+Senses:
+  - tremorsense 60 ft.
+  - Perception +18
+AC: 22, touch 8, flat-footed 22
+AC_Mods: (+14 natural, -2 size)
+HP: '100'
+HD: (11d10+40)
+Saves: Fort +5, Ref +5, Will +5
+Fort: '5'
+Ref: '5'
+Will: '5'
+DR: 5/adamantine and good
+Immune: >-
+  gaze attacks, visual effects and illusions, sight-based attacks, construct
+  traits
+SR: '19'
+Weaknesses: exposed mechanisms
+Speed: 10 ft.
+Melee:
+  - 3 claws +17 (1d8+7 plus entrap)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: encage, entrap (DC 15, 1d10 rounds, hardness 10, hp 10)
+AbilityScores:
+  - 25
+  - 11
+  - —
+  - 2
+  - 15
+  - 2
+BaseAtk: '11'
+CMB: '20'
+CMD: 30 (can't be tripped)
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Lightning Reflexes
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+  - Weapon Focus (arms)
+Skills:
+  - Perception +18
+  - Stealth +9 (+21 in shallow water)
+RacialMods: +8 Perception, +8 Stealth (+20 in shallow water)
+SQ: living trap
+Environment: any swamp
+Organization: solitary, pair, tangle (3-5), or menace (6-12)
+Treasure: incidental
+Description_Visual: >-
+  What appeared at first to be a sadistic spiked cage suddenly writhes into
+  unholy life, with bladed, articulated arms.
+Source: The Worldwound
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Encage (Ex)
+    description: >-
+      As a swift action, an urannag can attempt to encage a creature that is not
+      aware of it and is sharing its space, or a helpless creature it has
+      entrapped. The target creature can resist this attempt with a DC 22 Reflex
+      save. On a failure, the target treats the urannag's space as difficult
+      terrain, but cannot move out of that space or up more than 10 feet. Each
+      round a creature remains encaged, it takes 2d6 slashing damage from the
+      sharpened gears and blades thrashing and whirring inside the creature. A
+      creature can escape being encaged by making a successful CMB check or
+      Escape Artist check (DC = the urannag's CMD) as a full-round action, or
+      can smash through a cage wall. These walls are AC 22, have hardness 10,
+      and 22 hp-once a hole is smashed into a wall, it automatically repairs
+      itself the next time the urannag encages a foe. The save DC is
+      Strength-based.
+  - name: Exposed Mechanisms (Ex)
+    description: >-
+      Although an urannag is a construct, it can be damaged and harmed by the
+      same methods used to disarm and disable traps. A DC 20 Disable Device
+      check can be attempted against an urannag as a full-round action that
+      provokes an attack of opportunity. On a successful check, the urannag
+      takes damage equal to 3d6 + the character's total ranks in Disable Device
+      and it must make a DC 16 Fortitude save to avoid being staggered for 1
+      round (the damage bypasses the urannag's damage reduction).
+  - name: Living Trap (Ex)
+    description: >-
+      Defensive abilities that apply to traps (such as trap sense) apply against
+      an urannag's attacks.
+Description:
+  - >-
+    The strange urannag (ur-AWN-ag, the singular and plural are the same) has
+    long vexed scholars who have argued whether or not the thing is a creature
+    or merely a complex trap. In truth, it is a little bit of both-yet another
+    unsettling example of how reality on the Abyss doesn't quite match mortal
+    expectations. Behaviorally, an urannag acts similarly to an ambush predator,
+    yet it has no need for sustenance and is driven to trap and flense prey
+    simply out of an inborn sense of cruelty and sadism.
+  - Construction
+  - >-
+    Most urannag are created spontaneously by the Abyss, but enterprising
+    spellcasters have found methods to duplicate the construction of these
+    strange creatures. An urannag's body is made of 2,000 pounds of iron, and
+    its frame must be forged over an Abyssal heat source, which infuses the
+    creature with its chaotic and evil urges.
+  - URANNAG
+  - CL 10th; Price 35,000 gp
+  - CONSTRUCTION
+  - >-
+    Requirements Craft Construct, geas/quest, keen edge, limited wish, planar
+    binding; Skill Craft (sculpture) DC 19; Cost 17,500 gp.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4679'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

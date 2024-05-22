@@ -1,0 +1,121 @@
+Name: Zerrund
+CR: '9'
+XP: '6400'
+Race: human
+Class: evoker 8
+MonsterSource: Pathfinder RPG Bestiary 2 286
+Alignment: CE
+Size: Medium
+Type: vermin
+Init: '5'
+Senses:
+  - blindsight 30 ft., darkvision 60 ft.
+  - Perception +10
+AC: 17, touch 17, flat-footed 12
+AC_Mods: (+5 Dex, +2 insight)
+HP: '78'
+HD: (8d6+48)
+HP_Mods: fast healing 10
+Saves: Fort +7, Ref +7, Will +8
+Fort: '7'
+Ref: '7'
+Will: '8'
+DefensiveAbilities: worm that walks traits
+DR: 15/-
+Immune: critical hits, disease, flanking, paralysis, poison, sleep
+Weaknesses: overwhelming wrath
+Speed: 30 ft.
+Melee:
+  - slam +5 (1d4+1 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: grab (Large), intense spells (+4 damage), squirming embrace, tenacious
+SpellLikeAbilities:
+  header: Evoker Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: At Will
+      value: elemental wall (8 rounds/day)
+    - label: 7/day
+      value: force missile (1d4+4)
+SpellsPrepared: >-
+  Evoker Spells Prepared (CL 8th; concentration +12)   4th-ice storm (2),
+  empowered scorching ray (3)   3rd-fly, lightning bolt (3, DC 17), empowered
+  magic missile (2)   2nd-enlarged charm person (DC 15), enlarged magic missile
+  (3), scorching ray (2)   1st-charm person (DC 15), magic missile (4), shocking
+  grasp (2)   0 (at will)-detect magic, light, message, ray of frost
+AbilityScores:
+  - 12
+  - 20
+  - 20
+  - 18
+  - 14
+  - 10
+BaseAtk: '4'
+CMB: +5 (+13 grapple)
+CMD: '26'
+Feats:
+  - Craft Wondrous Item
+  - Diehard
+  - Empower Spell
+  - Enlarge Spell
+  - Eschew Materials
+  - Scribe Scroll
+  - Spell Mastery (taken twice charm person
+  - fly
+  - ice storm
+  - lightning bolt
+  - magic missile
+  - scorching ray
+  - and shocking grasp)
+Skills:
+  - Craft (alchemy) +15
+  - Craft (siege engines) +13
+  - Fly +16
+  - Knowledge (arcana) +15
+  - Knowledge (planes) +15
+  - Perception +10
+  - Spellcraft +15
+Languages:
+  - Abyssal
+  - Azlanti
+  - Elven
+  - Giant
+  - Thassilonian
+  - Varisian
+Source: AP 134
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Overwhelming Wrath (Ex)
+    description: >-
+      Zerrund suffers from an overwhelming sense of wrath that hampers his
+      judgment. He lacks the discorporate ability and racial skill bonuses most
+      worms that walk have. This, plus the fact that he's lost his arcane focus
+      and has no gear, reduces his CR by 1.
+Gender: Male
+ProhibitedSchools: conjuration, abjuration
+DuringCombat: >-
+  Without his arcane bond, Zerrund must succeed at a concentration check (DC =
+  20 + the spell's level) when he casts a spell to avoid losing the spell as he
+  casts it. If he fails to cast a spell in this way, his rage compels him to
+  make a slam attack against a foe on the next round rather than cast a spell.
+  These significant disadvantages aside, on the first round of combat he
+  attempts to cast fly, then does his best to maintain distance between himself
+  and the PCs and focuses on using his other spells to blast them to death.
+Morale: Zerrund fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: worm that walks|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11902'
+UniqueMonster: '0'
+ThassilonianSpecialization: evocation
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

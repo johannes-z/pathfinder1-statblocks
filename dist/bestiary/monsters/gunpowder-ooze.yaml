@@ -1,0 +1,107 @@
+Name: Gunpowder Ooze
+CR: '14'
+XP: '38400'
+Alignment: 'N'
+Size: Large
+Type: ooze
+Init: '0'
+Senses:
+  - Perception -5
+AC: 9, touch 9, flat-footed 9
+AC_Mods: (-1 size)
+HP: '230'
+HD: (20d8+140)
+Saves: Fort +13, Ref +6, Will +1
+Fort: '13'
+Ref: '6'
+Will: '1'
+DefensiveAbilities: split (slashing or fire, 46 hp)
+Immune: cold, ooze traits
+Weaknesses: vulnerable to fire
+Speed: 20 ft., climb 20 ft.
+Melee:
+  - slam +23 (1d8+13 plus grab and gunpowder residue)
+Ranged:
+  - blast +14 touch (4d6+7 plus gunpowder residue)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: combust, constrict (1d8+13)
+AbilityScores:
+  - 28
+  - 11
+  - 24
+  - —
+  - 1
+  - 1
+BaseAtk: '15'
+CMB: +25 (+29 grapple)
+CMD: 35 (39 vs. grapple, can't be tripped)
+Skills:
+  - Climb +17
+Environment: any land
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This lurching mass of slime and gunpowder leaves a trail of shiny black
+  residue in its wake, and shudders with the concussive energy of an explosive.
+Source: Wardens Of The Reborn Forge
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blast (Ex)
+    description: >-
+      Once every 1d4 rounds, a gunpowder ooze can fire a concentrated blast of
+      gunpowder from its body as a ranged touch attack, dealing damage equal to
+      4d6 + the ooze's Constitution modifier (+7 for most gunpowder oozes). Any
+      creature struck by this blast is also potentially exposed to the ooze's
+      gunpowder residue (Reflex DC 27 negates). This attack has a range of 180
+      feet with no range increment. The save DC is Constitution-based.
+  - name: Combust (Ex)
+    description: >-
+      Because of the volatile nature of its composition, a gunpowder ooze is
+      susceptible to combusting when an ignition source is present. Anytime a
+      gunpowder ooze takes fire damage or damage from a ranged firearm attack,
+      it spontaneously explodes, dealing 10d6 points of fire damage to all
+      creatures and objects in a 30-foot-burst cone toward the damage source
+      that ignited the ooze. If there is no method of determining the damage
+      source's direction (such as a burst or spread centered on the ooze), the
+      ooze instead combusts in a 15-foot-radius burst. A successful DC 27 Reflex
+      save halves the damage taken from this attack. A gunpowder ooze that
+      combusts automatically splits. The save DC is Constitution-based.
+  - name: Gunpowder Residue (Ex)
+    description: >-
+      Whenever a gunpowder ooze successfully strikes a creature with its blast
+      or slam attack, the target must succeed at a DC 27 Reflex save to avoid
+      being coated in sticky gunpowder residue. Though the residue is not
+      harmful in itself, if a creature covered in the residue uses a firearm,
+      wields any weapon capable of dealing fire damage, takes fire damage from
+      any source, or is exposed to a suitable spark, the residue immediately
+      ignites and explodes, dealing 5d6 points of fire damage to the creature.
+      Creatures adjacent to the exploding creature take half damage (Reflex DC
+      27 half). Gunpowder residue remains flammable for 24 hours, until it is
+      ignited, or until it is scrubbed away (which requires soap, water, and at
+      least 1 hour of bathing and washing). A creature can only be covered in
+      one layer of gunpowder residue at a time. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    Common throughout the Mana Wastes, where wild magic and gunpowder are both
+    more prevalent than elsewhere in the world, gunpowder oozes are the
+    combination of these two dangerous and unpredictable elements.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5448'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

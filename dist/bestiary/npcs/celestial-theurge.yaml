@@ -1,0 +1,120 @@
+Name: Celestial Theurge
+CR: '8'
+XP: '4800'
+Race: human
+Class: cleric of sarenrae 3/sorcerer 4/mystic theurge 2
+Alignment: NG
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '0'
+Senses:
+  - Perception +8
+AC: 18, touch 10, flat-footed 18
+AC_Mods: (+7 armor, +1 natural)
+HP: '69'
+HD: (3d8+4d6+2d6+31)
+Saves: Fort +8, Ref +4, Will +11
+Fort: '8'
+Ref: '4'
+Will: '11'
+Resist: acid 5, cold 5
+Speed: 20 ft.
+Melee:
+  - +1 spear +13 (1d8+7/x3)
+Ranged:
+  - mwk heavy crossbow +6 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel positive energy 6/day (DC 12 [DC 14 against undead], 2d6)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 4th; concentration +5)
+  values:
+    - label: 4/day
+      value: >-
+        heavenly fire (1d4+2) Domain Spell-Like Abilities (CL 3rd; concentration
+        +5)
+    - label: 5/day
+      value: rebuke death, touch of glory
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +7; 25% spell failure)
+  values:
+    - label: 3rd (3/day)
+      value: haste
+    - label: 2nd (5/day)
+      value: bull's strength, protection from arrows
+    - label: 1st (7/day)
+      value: bless, burning hands (DC 12), enlarge person, shield, true strike
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, detect poison, mage hand, mending,
+        message, read magic
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 5th; concentration +7)  3rd-prayer, searing lightD 
+  2nd-bless weaponD, delay poison, remove paralysis, shield other  1st-cure
+  light woundsD, divine favor (2), protection from evil, remove fear  0 (at
+  will)-create water, guidance, purify food and drink, stabilize
+SpellDomains: Glory, Healing
+AbilityScores:
+  - 22
+  - 10
+  - 14
+  - 8
+  - 14
+  - 12
+BaseAtk: '5'
+CMB: '11'
+CMD: '21'
+Feats:
+  - Arcane Armor Mastery
+  - Arcane Armor Training
+  - Combat Casting
+  - Eschew Materials
+  - Extra Channel
+  - Toughness
+  - Weapon Focus (spear)
+Skills:
+  - Diplomacy +7
+  - Knowledge (arcana) +5
+  - Knowledge (religion) +5
+  - Knowledge (nobility) +4
+  - Perception +8
+  - Spellcraft +3
+Languages:
+  - Common
+SQ: >-
+  aura, bloodline arcana (summoned creatures gain DR 2/evil), combined spells
+  (1st)
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: celestial
+BeforeCombat: The mystic theurge casts bull's strength.
+DuringCombat: >-
+  The mystic theurge casts haste and shield, then supports her companions with
+  spells. She targets undead with channeled energy and searing light.
+Gear: >-
+  +1 bolts (3), +1 evil outsider-bane bolts (3), +1 undead-bane bolts (3),
+  scrolls of cure serious wounds (2), scrolls of neutralize poison (2), scroll
+  of remove disease, antitoxin (2), holy water (2)
+OtherGear: >-
+  +1 breastplate, +1 spear, masterwork heavy crossbow with 10 bolts, amulet of
+  natural armor +1, cloak of resistance +1, pair of platinum rings (worth 50
+  gp), 287 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bull's strength, the mystic theurge's statistics are Melee +1 spear
+  +11 (1d8+5/x3); Str 18; CMB +9; CMD 19.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3900'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

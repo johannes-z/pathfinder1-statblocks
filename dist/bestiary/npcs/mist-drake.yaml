@@ -1,0 +1,107 @@
+Name: Mist Drake
+CR: '6'
+XP: '2400'
+Race: mist drake
+MonsterSource: Pathfinder RPG Bestiary 4 288, 79
+Alignment: NE
+Size: Large
+Type: dragon
+SubType: (air)
+Init: '4'
+Senses:
+  - darkvision 60 ft., fogvision, low-light vision, scent
+  - Perception +12
+AC: 23, touch 14, flat-footed 18
+AC_Mods: (+4 Dex, +1 dodge, +9 natural, -1 size)
+HP: '69'
+HD: (6d12+30)
+Saves: Fort +10, Ref +9, Will +8
+Fort: '10'
+Ref: '9'
+Will: '8'
+Immune: paralysis, sleep
+Speed: 30 ft., fly 80 ft. (average)
+Melee:
+  - bite +11 (2d6+6), tail slap +6 (1d8+3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: fogburst
+AbilityScores:
+  - 23
+  - 19
+  - 20
+  - 13
+  - 16
+  - 14
+BaseAtk: '6'
+CMB: '13'
+CMD: '28'
+Feats:
+  - Dodge
+  - Flyby Attack
+  - Hover
+Skills:
+  - Fly +11
+  - Intimidate +11
+  - Knowledge (planes) +10
+  - Perception +12
+  - Sense Motive +12
+  - Stealth +9 (+17 in fog or mist)
+  - Survival +12
+RacialMods: +8 Stealth in fog or mist
+Languages:
+  - Auran
+  - Draconic
+SQ: misty camouflage, speed surge
+Source: PFS 8-24
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fogburst (Su)
+    description: >-
+      As a standard action, a mist drake can expel a ball of solid mist that
+      explodes into a cloud of fog upon impact. This attack has a range of 60
+      feet and deals 3d6 points of bludgeoning damage to all creatures in a
+      20-foot radius (Reflex DC 18 half). A flying creatures that fails its
+      Reflex save is pushed 1d4x5 feet from the center of the fogburst's area of
+      effect (taking 1d6 points of damage per 10 feet if it strikes a solid
+      object), while creatures on the ground are knocked prone on a failed save.
+      The area of effect of the fogburst is filled with mist (as per obscuring
+      mist) for 1d4 rounds after impact. Once a mist drake has used its fogburst
+      attack, it cannot do so again for 1d6 rounds. The save DC is
+      Constitution-based.
+  - name: Fogvision (Ex)
+    description: >-
+      A mist drake can see normally through any form of natural or magical mist,
+      fog, or precipitation.
+  - name: Misty Camouflage (Ex)
+    description: >-
+      A mist drake can use Stealth to hide whenever it is in or adjacent to an
+      area of mist, even while being observed.
+  - name: Speed Surge (Ex)
+    description: >-
+      Three times per day as a swift action, a mist drake can draw on its
+      draconic heritage for a boost of strength and speed that enables it to
+      take an additional move action in that round.
+DuringCombat: >-
+  The drakes attempt to disorient the PCs with fogbursts and then hide within
+  the created clouds, making hit-and-run attacks from concealment.
+Morale: >-
+  The drakes fear death more than even Bozhithar and Grasping Storm. They flee
+  into the sky if reduced to 15 hit points or fewer.
+Gear: horn of fog (one drake only), wind fan (one drake only)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11609'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

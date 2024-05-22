@@ -1,0 +1,143 @@
+Name: Asrai
+CR: '5'
+XP: '1600'
+Alignment: CN
+Size: Tiny
+Type: fey
+SubType: (aquatic)
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +6
+AC: 18, touch 16, flat-footed 14
+AC_Mods: (+4 Dex, +2 natural, +2 size)
+HP: '9'
+HD: (2d6+2)
+Saves: Fort +1, Ref +7, Will +4
+Fort: '1'
+Ref: '7'
+Will: '4'
+DR: 5/cold iron
+Immune: cold
+SR: '16'
+Weaknesses: water dependent
+Speed: 20 ft., swim 50 ft.
+Melee:
+  - touch +7 (1d4 cold)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: cold touch
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th)
+  values:
+    - label: 2/day
+      value: control water, fog cloud, obscuring mist
+SpellsKnown:
+  header: Spells Known (CL 5th)
+  values:
+    - label: 2nd (5/day)
+      value: hideous laughter (DC 14), summon monster II
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 13), hypnotism (DC 13), reduce person (DC 13), sleep
+        (DC 13)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze (DC 12), detect magic, ray of frost, resistance,
+        touch of fatigue (DC 12)
+AbilityScores:
+  - 5
+  - 18
+  - 13
+  - 10
+  - 13
+  - 14
+BaseAtk: '1'
+CMB: '3'
+CMD: '10'
+Feats:
+  - Eschew MaterialsB
+  - Weapon Finesse
+Skills:
+  - Knowledge (arcana) +4
+  - Knowledge (nature) +5
+  - Perception +6
+  - Sense Motive +6
+  - Stealth +14
+  - Spellcraft +5
+  - Swim +16
+RacialMods: Knowledge (arcana) and Spellcraft are class skills for asrai
+Languages:
+  - Common
+  - Aquan
+  - Sylvan
+Environment: cold and temperate aquatic
+Organization: solitary or colony (2-12)
+Treasure: none
+Description_Visual: >-
+  This being looks like a one-foot tall female elf with delicate features,
+  emerald eyes, long golden hair, and pale blue skin.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cold Touch (Su)
+    description: >-
+      The touch of an asrai is supernaturally cold. All damage dealt from an
+      asrai's natural attacks is cold damage. This ability is constant, but the
+      asrai can suppress or resume it at will as a free action.
+  - name: Water Dependent (Su)
+    description: >-
+      An asrai can survive on land for 1 hour per 2 points of Constitution.
+      After that, it begins to suffocate. Lost Constitution points are
+      immediately restored if the asrai returns to the water. If its
+      Constitution reaches 0 it dies, collapsing into a puddle of water.
+Description:
+  - >-
+    Asrai dwell in crystal clear lakes, ponds, and rivers. They can be found in
+    any large body of water far from civilized lands. Most asrai spend their
+    time frolicking and playing in the lake they call home, dancing among the
+    fish and playfully splashing the various woodland creatures that venture
+    near the water for a drink. Asrai are protective of their aquatic homes,
+    however, and attack en masse any foolish human so oafish as to not ask their
+    permission to enter the water.
+  - >-
+    Asrai spend most of their time in the water, preferring not to touch land if
+    possible. Though they can survive on land for a short amount of time, they
+    prefer not to risk such ventures, so any encounter with an asrai is almost
+    always in the water. Asrai make their homes in giant seashells or natural
+    underwater caves. These homes are usually concealed under a canopy of
+    aquatic plants, algae, and seaweed so potential enemies cannot easily find
+    them.
+  - >-
+    Asrai are closely related to pixies and thought to be a relative, though
+    they do not possess wings. Male asrai are thought to exist, though none have
+    ever been encountered.
+  - >-
+    An asrai only engages in combat if its body of water is threatened, or if
+    any intelligent creature other than a fey enters the water without
+    permission.
+  - >-
+    Once in combat, an asrai prefers to attack with its magic, using its
+    chilling touch only as a last resort. If it faces overwhelming odds, an
+    asrai seeks escape, often using its fog cloud or obscuring mist ability to
+    cover its exit.
+  - Copyright Notice Author Erica Balsley.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2237'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

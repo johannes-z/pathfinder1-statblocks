@@ -1,0 +1,121 @@
+Name: Derro Commander
+CR: '7'
+XP: '3200'
+Race: derro
+Class: rogue 4/shadowdancer 1
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (derro)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 21, touch 17, flat-footed 15
+AC_Mods: (+2 armor, +5 Dex, +1 dodge, +2 natural, +1 size)
+HP: '64'
+HD: (8d8+28)
+Saves: Fort +5, Ref +11, Will +8
+Fort: '5'
+Ref: '11'
+Will: '8'
+DefensiveAbilities: evasion, trap sense +1, uncanny dodge
+SR: '18'
+Weaknesses: vulnerability to sunlight
+Speed: 20 ft.
+Melee:
+  - short sword +11 (1d4+2)
+Ranged:
+  - repeating light crossbow +11 (1d8/19-20 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +3d6
+SpellLikeAbilities:
+  header: >-
+    Spell-Like Abilities (CL 3rd; concentration +14)  At will.darkness, ghost
+    sound (DC 14)  1/day.daze (DC 14), sound burst (DC 16)
+  values: []
+AbilityScores:
+  - 15
+  - 20
+  - 16
+  - 12
+  - 5
+  - 18
+BaseAtk: '5'
+CMB: '6'
+CMD: '22'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Mobility
+  - Weapon Finesse
+Skills:
+  - Acrobatics +16
+  - Bluff +13
+  - Disable Device +13
+  - Escape Artist +13
+  - Intimidate +13
+  - Knowledge (dungeoneering) +6
+  - Linguistics +7
+  - Perception +7
+  - Perform (dance) +9
+  - Stealth +20
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Terran
+  - Undercommon
+SQ: >-
+  hide in plain sight, madness, poison use, rogue talents (bleeding attack [3
+  bleed], combat trick), trapfinding, trap sense +1
+Source: PFS S1-48
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Madness (Ex)
+    description: >-
+      Derros use their Charisma modifier on Will saves instead of their Wisdom
+      modifier, and are immune to insanity and confusion effects. Only a miracle
+      or wish can remove a derro's madness. If this occurs, the derro gains 6
+      points of Wisdom and loses 6 points of Charisma.
+  - name: Poison Use (Ex)
+    description: >-
+      Derros are not at risk of poisoning themselves when handling poison. They
+      use Medium spider venom to poison their crossbow bolts, and generally
+      carry 10 prepoisoned bolts at all times.
+  - name: Poison (Ex)
+    description: >-
+      Weapon-injury; save Fort DC 14; frequency 1/round for 4 rounds; effect 1d2
+      Strength damage; cure 1 save.
+  - name: Vulnerability to Sunlight (Ex)
+    description: >-
+      A derro takes 1 point of Con damage after every hour it is exposed to
+      sunlight.
+Gender: Female
+DuringCombat: >-
+  The derro commander prefers to fight from range, and uses her hide in plain
+  sight ability. If she becomes overmatched on the platform, she uses her
+  darkness at will ability. Once concealed within the darkness, she flees to the
+  safety of the room's edge farthest from the bulk of the PCs. Next she uses
+  ghost sound to trick the PCs into believing she is still within the sphere of
+  darkness. Once more she hides and uses sound burst or her crossbow to attack
+  her foes. Otherwise, she isolates her foes and uses sneak attack.
+Morale: The derro commander fights to the death.
+Gear: leather armor, short sword, repeating light crossbow with 10 poisoned bolts
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4487'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

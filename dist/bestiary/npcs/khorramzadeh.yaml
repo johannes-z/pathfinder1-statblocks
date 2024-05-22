@@ -1,0 +1,170 @@
+Name: Khorramzadeh
+CR: '26'
+XP: '2457600'
+Race: balor lord
+MonsterSource: Pathfinder RPG Bestiary 58
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar, mythicMA)
+Init: +16M/-6
+Senses:
+  - darkvision 60 ft., low-light vision, true seeing
+  - Perception +49
+Aura: flaming body, unholy aura (DC 28)
+AC: 48, touch 48, flat-footed 41
+AC_Mods: (+11 armor, +3 Dex, +4 dodge, +21 natural, -1 size)
+HP: '605'
+HD: (30d10+440)
+Saves: Fort +34, Ref +23, Will +29
+Fort: '34'
+Ref: '23'
+Will: '29'
+DefensiveAbilities: deflective defense, resist smite
+DR: 15/ cold iron, epic, and good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+SR: '37'
+Speed: 30 ft., fly 90 ft. (good)
+Melee:
+  - >-
+    Noriznigath +46/+41/+36/+31 (2d6+19/17-20), +5 vorpal flaming burst whip
+    +45/+40/+35 (1d4+18/19-20 plus 1d6 fire)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with whip)
+SpecialAttacks: mythic power (5/day, surge +1d8), stormlord
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +30)
+  values:
+    - label: Constant
+      value: greater nondetection, true seeing, unholy aura (DC 28)
+    - label: At Will
+      value: >-
+        chain lightning (DC 26), dominate monster (DC 29), greater dispel magic,
+        greater teleport (self and gear only), power word stun, sending,
+        telekinesis (DC 25)
+    - label: 3/day
+      value: limited wish, quickened telekinesis (DC 25)
+    - label: 1/day
+      value: >-
+        blasphemy (DC 27), earthquake, fire storm (DC 28), implosion (DC 29),
+        righteous might, storm of vengeance, summon (level 9, any 1 CR 19 or
+        lower demon 100%)
+AbilityScores:
+  - 36
+  - 25
+  - 36
+  - 24
+  - 26
+  - 30
+BaseAtk: '30'
+CMB: '44'
+CMD: '65'
+Feats:
+  - Combat Reflexes
+  - Craft Construct
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Double Slice
+  - Greater Two-Weapon Fighting
+  - Improved Critical (longsword)
+  - Improved Critical (whip)
+  - Improved Initiative[M]
+  - Improved Two-Weapon Fighting
+  - Lightning Reflexes[M]
+  - Master Craftsman
+  - Power Attack[M]
+  - Quicken Spell-Like Ability (telekinesis)
+  - Two-Weapon Fighting
+Skills:
+  - Acrobatics +37
+  - Bluff +43
+  - Craft (weapons) +40
+  - Fly +39
+  - Intimidate +43
+  - Knowledge (engineering) +37
+  - Knowledge (local) +40
+  - Knowledge (planes) +40
+  - Linguistics +12
+  - Perception +49
+  - Sense Motive +36
+  - Spellcraft +37
+  - Stealth +33
+  - Use Magic Device +43
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Common
+  - Draconic
+  - Hallit
+  - Necril
+  - Undercommon
+  - telepathy 100 ft.
+SQ: death throes, dual initiative, vorpal strike, whip mastery
+Source: AP 78
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Deflective Defense (Ex)
+    description: Khorramzadeh's touch AC is modified by armor and natural armor bonuses.
+  - name: Death Throes (Su)
+    description: >-
+      Khorramzadeh's death throes are more devastating than those of a typical
+      balor. When killed, Khorramzadeh explodes in a flash of fire that deals
+      200 points of damage (half fire damage, half unholy damage) and
+      permanently blinds anything within 200 feet (Reflex DC 38 halves the
+      damage and negates the blindness). One round after this explosion, an
+      earthquake (CL 20th) is triggered as well, centered on the point where the
+      Storm King's body fell. The save DC is Constitution-based.
+  - name: Greater Nondetection (Sp)
+    description: >-
+      Khorramzadeh is constantly warded by a powerful nondetection effect-this
+      effect works as nondetection, but is always in effect. There's no chance
+      of penetrating this ward with a caster level check.
+  - name: Resist Smite (Ex)
+    description: >-
+      Khorramzadeh is difficult to affect with smite attacks, such as by a
+      paladin's smite evil ability. When a creature attempts to make
+      Khorramzadeh the target of any smite effect, Khorramzadeh can try to
+      resist the smite by attempting a Fortitude saving throw (DC = 10 + the Hit
+      Dice of the creature attempting the smite attack + the Charisma modifier
+      of the creature attempting the smite attack). On a successful save, not
+      only is that smite attack wasted, but the backlash of power also causes
+      the source of the smite attempt to become staggered for 1 round unless it
+      succeeds at a DC 38 Will save. This save DC is Constitution-based.
+  - name: Stormlord (Su)
+    description: >-
+      Khorramzadeh's spell-like abilities, death throes, and flaming body
+      abilities can deal electricity damage instead of fire damage, as
+      appropriate&#8211;he can decide to adjust his fire damage in this way
+      instantaneously. Electricity resistance is halved against this electricity
+      damage, and electricity immunity is treated as resist electricity 20. Up
+      to once per round when he is affected by electricity damage, he can choose
+      to be healed of an amount of damage equal to the amount of electricity
+      damage dealt rather than simply be immune to the damage.
+Gender: Male
+BeforeCombat: Khorramzadeh casts storm of vengeance over the area.
+DuringCombat: >-
+  Khorramzadeh uses his spell-like abilities at first, using telekinesis to hurl
+  non-flying PCs off the cliff edge, dominating others, and blasting survivors
+  with fire storm and implosion. Once he moves on to melee combat, he casts
+  righteous might on himself and then focuses on healers first in battle.
+Morale: >-
+  Khorramzadeh has little choice when the final battle begins&#8211;he fights to
+  the death rather than face greater punishment by Deskari for his failure.
+Gear: +5 breastplate, +5 flaming burst whip, Noriznigath
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5724'
+UniqueMonster: '0'
+Variant: '0'
+MR: '5'
+Mythic: '1'
+MT: '0'

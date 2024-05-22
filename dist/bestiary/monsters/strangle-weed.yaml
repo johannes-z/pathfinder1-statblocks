@@ -1,0 +1,110 @@
+Name: Strangle Weed
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Large
+Type: plant
+SubType: (aquatic)
+Init: '0'
+Senses:
+  - blindsight 30 ft., low-light vision
+  - Perception +6
+AC: 14, touch 9, flat-footed 14
+AC_Mods: ', +5 natural, -1 size)'
+HP: '30'
+HD: (4d8+12)
+Saves: Fort +7, Ref +1, Will +2
+Fort: '7'
+Ref: '1'
+Will: '2'
+DefensiveAbilities: camouflage
+Immune: plant traits
+Resist: fire 10
+Speed: swim 5 ft.
+Melee:
+  - slam +7 (1d6+6 plus grab)
+Space: 10 ft.
+Reach: 20 ft.
+SpecialAttacks: constrict (1d6+6), fronds
+AbilityScores:
+  - 18
+  - 10
+  - 16
+  - 2
+  - 12
+  - 6
+BaseAtk: '3'
+CMB: +8 (+12 grapple)
+CMD: 18 (can't be tripped)
+Feats:
+  - Power Attack
+  - Weapon Focus (slam)
+Skills:
+  - Perception +6
+  - Stealth +1
+  - Swim +15
+Environment: temperate and warm aquatic
+Organization: solitary or patch (2-4)
+Treasure: 50% coins, 1/10th goods, 1/10th items
+Description_Visual: >-
+  This mass of writhing vines and leaves looks like a large patch of seaweed.
+  Several long fronds protrude from the center of it.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Camouflage (Ex)
+    description: >-
+      Since a strangle weed looks like normal seaweed when at rest, it takes a
+      DC 20 Perception check to notice it before it attacks. Anyone with ranks
+      in Survival or Knowledge (nature) can use one of those skills instead of
+      Perception to notice the plant.
+  - name: Fronds (Ex)
+    description: >-
+      Strangle weed attacks with fronds that can extend up to 20 feet from its
+      central mass. Each strangle weed has 3-12 fronds. A strangle weed attacks
+      with these fronds as a slam attack; although it can make only one attack
+      per round, if it grapples a foe it is not denied its Dexterity bonus
+      against non-grappled foes and can still make attacks of opportunity if it
+      has any free fronds. Once a foe is grappled, the strangle weed can attempt
+      to latch on 1-4 additional fronds each round as a standard action by means
+      of a separate grapple check. Additional fronds attached to a foe do not do
+      increased damage, but they do add a cumulative +2 bonus to the strangle
+      weed's CMB on subsequent grapple checks against that foe. To free itself,
+      the foe must succeed on a grapple check against every frond grappling it.
+Description:
+  - The strangle weed is a large plant that resembles a patch of seaweed.
+  - >-
+    Strangle weed is an ambush predator, relying on its similarity to seaweed to
+    remain inconspicuous until prey wanders near, whereupon it lashes out with
+    its fronds, attempting to grapple its foes, then pull them beneath the water
+    and crush them.
+  - >-
+    A subterranean version of the strangle weed is believed to exist, though
+    encounters with it are very rare. It is dark blackish-green and is found in
+    underground pools, stagnant water, and the like.
+  - >-
+    A typical strangle weed is 12 feet in diameter, dark green and slightly
+    slimy, with long, ropy fronds, each about ten feet long, radiating from its
+    central mass. The strangle weed keeps these fronds concealed within its main
+    mass when hiding from potential prey.
+  - >-
+    Credit The Strangle Weed originally appeared in the First Edition Monster
+    Manual (© TSR/Wizards of the Coast, 1977) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Gary
+    Gygax.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3038'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,120 @@
+Name: Gebbite Necrosage
+CR: '9'
+XP: '6400'
+Race: Wight
+Class: oracle 8
+MonsterSource: Pathfinder RPG Bestiary 276, Pathfinder RPG Advanced Player's Guide 42
+Alignment: LE
+Size: Medium
+Type: undead
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 25, touch 15, flat-footed 23
+AC_Mods: (+6 armor, +3 deflection, +2 Dex, +4 natural)
+HP: '135'
+HD: (12d8+81)
+Saves: Fort +9, Ref +8, Will +15
+Fort: '9'
+Ref: '8'
+Will: '15'
+Immune: undead traits
+Weaknesses: resurrection vulnerability
+Speed: 20 ft.
+Melee:
+  - +1 light mace +11/+6 (1d6+2)
+  - slam +10 (1d4+1 plus energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, energy drain (1 level, DC 17)
+SpellsKnown:
+  header: Oracle Spells Known (CL 8th; concentration +13)
+  values:
+    - label: 4th (4/day)
+      value: fear (DC 19), inflict critical wounds (DC 19), unholy blight (DC 19)
+    - label: 3rd (6/day)
+      value: >-
+        animate dead, inflict serious wounds (DC 18), protection from energy,
+        wind wall
+    - label: 2nd (7/day)
+      value: >-
+        darkness, death knell (DC 17), false life, gentle repose, inflict
+        moderate wounds (DC 17)
+    - label: 1st (8/day)
+      value: >-
+        bane (DC 16), cause fear (DC 16), comprehend languages, cure light
+        wounds, inflict light wounds (DC 16), protection from good, shield of
+        faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), create water, detect magic, guidance, light, mending,
+        read magic, resistance
+AbilityScores:
+  - 12
+  - 14
+  - —
+  - 16
+  - 15
+  - 20
+BaseAtk: '9'
+CMB: '10'
+CMD: '25'
+Feats:
+  - Blind-Fight
+  - Combat Casting
+  - Combat Reflexes
+  - Iron Will
+  - Lightning Reflexes
+  - Skill Focus (Perception)
+Skills:
+  - Heal +13
+  - Intimidate +20
+  - Knowledge (arcana
+  - history
+  - planes
+  - religion) +18
+  - Perception +12
+  - Spellcraft +14
+  - Stealth +22
+RacialMods: +8 Stealth
+Languages:
+  - Common
+  - Infernal
+  - Kelish
+  - Necril
+SQ: >-
+  oracle's curse (lame), revelations (armor of bones, soul siphon, voice of the
+  grave)
+Source: AP 142
+IsTemplate: '0'
+BeforeCombat: >-
+  A necrosage uses its armor of bones revelation and casts false life and shield
+  of faith.
+DuringCombat: >-
+  The necrosage casts unholy blight on groups of foes, then enters melee to cast
+  inflict spells. When within 30 feet of Amaretos, the necrosage benefits from
+  his armor's sacrilegious aura (a +2 profane bonus on attacks, damage rolls,
+  and saving throws); these benefits are not included in necrosage's statistics.
+Morale: Gebbite necrosages are fanatically loyal and fight to the death.
+Gear: potion of levitate, unholy water (2)
+OtherGear: +1 light mace, cloak of resistance +1, stalker's maskUE, silver unholy symbol
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without its preparations, the Gebbite necrosage has AC 16, touch 12,
+  flat-footed 14; hp 122.
+AgeCategory: Adult
+Mystery: bones
+CompanionFamiliarLink: '0'
+id: '12519'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

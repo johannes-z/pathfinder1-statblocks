@@ -1,0 +1,84 @@
+Name: Wayward Crusader Npc
+CR: '4'
+XP: '1200'
+Race: Human
+Class: paladin of Iomedae 5
+Alignment: LG
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '-1'
+Senses:
+  - Perception +1
+Aura: courage (10 ft.)
+AC: 20, touch 9, flat-footed 20
+AC_Mods: (+9 armor, -1 Dex, +2 shield)
+HP: '42'
+HD: (5d10+10)
+Saves: Fort +8, Ref +3, Will +8
+Fort: '8'
+Ref: '3'
+Will: '8'
+Immune: disease, fear
+Speed: 20 ft.
+Melee:
+  - mwk cold iron longsword +9 (1d8+3/19-20)
+  - mwk lance +9 (1d8+4/3)
+Ranged:
+  - javelin +4 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel positive energy (DC 15, 3d6), smite evil 2/day (+3 attack and AC, +5
+  damage)
+SpellLikeAbilities:
+  header: Paladin Spell-Like Abilities (CL 5th; concentration +8)
+  values:
+    - label: At will
+      value: detect evil
+SpellsPrepared: >-
+  Paladin Spells Prepared (CL 2nd; concentration +5)  1st-bless weapon, lesser
+  restoration
+AbilityScores:
+  - 16
+  - 8
+  - 13
+  - 10
+  - 12
+  - 16
+BaseAtk: '5'
+CMB: '8'
+CMD: '17'
+Feats:
+  - Mounted Combat
+  - Ride-By Attack
+  - Skill Focus (Ride)
+  - Spirited Charge
+Skills:
+  - Diplomacy +11
+  - Heal +9
+  - Ride +4
+Languages:
+  - Common
+SQ: divine bond (mount), lay on hands (2d6, 5/day), mercy (sickened)
+Source: Numeria Land Of Fallen Stars
+IsTemplate: '0'
+Gear: >-
+  wand of cure light wounds [9 charges], holy water [2], mwk full plate, mwk
+  heavy steel shield, dagger, javelins [4], mwk cold iron longsword, mwk lance,
+  everburning torch, silver holy symbol of Iomedae, spell component pouch, 83 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '6108'
+id: '6107'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

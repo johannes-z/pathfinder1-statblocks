@@ -1,0 +1,154 @@
+Name: Very Old Brass Dragon
+CR: '15'
+XP: '51200'
+Alignment: CG
+Size: Huge
+Type: dragon
+SubType: (fire)
+Init: '4'
+Senses:
+  - blindsense 60 ft., dragon senses
+  - Perception +31
+Aura: fire (5 ft., 1d6 fire), frightful presence (270 ft., DC 24)
+AC: 35, touch 8, flat-footed 35
+AC_Mods: ', +27 natural, -2 size)'
+HP: '250'
+HD: (20d12+120)
+Saves: Fort +18, Ref +12, Will +16
+Fort: '18'
+Ref: '12'
+Will: '16'
+DR: 15/magic
+Immune: fire, paralysis, sleep
+SR: '26'
+Weaknesses: vulnerability to cold
+Speed: 60 ft., burrow 30 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +28 (2d8+15), 2 claws +28 (2d6+10), 2 wings +26 (1d8+5), tail slap +26
+    (2d6+15)
+Space: 15 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (100-ft. line, DC 26, 18d4 fire), crush (small creatures, DC 26,
+  2d8+15), desert wind, sleep breath
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +24)
+  values:
+    - label: At will
+      value: '-control winds, endure elements, speak with animals, suggestion (DC 17)'
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 13th; concentration +17)
+  values:
+    - label: 6th (4/day)
+      value: '-forceful hand, greater dispel magic'
+    - label: 5th (6/day)
+      value: '-dominate person (DC 21), mirage arcana, prying eyes'
+    - label: 4th (7/day)
+      value: >-
+        -charm monster (DC 20), confusion (DC 20), dimensional anchor, locate
+        creature
+    - label: 3rd (7/day)
+      value: '-displacement, heroism, hold person (DC 19), tongues'
+    - label: 2nd (7/day)
+      value: >-
+        -alter self, detect thoughts (DC 16), locate object, resist energy, see
+        invisibility
+    - label: 1st (7/day)
+      value: >-
+        -alarm, charm person (DC 17), protection from evil, shield,
+        ventriloquism
+    - label: 0 (at will)
+      value: >-
+        -arcane mark, dancing lights, detect magic, detect poison, ghost sound
+        (DC 14), mage hand, message, prestidigitation, read magic
+AbilityScores:
+  - 31
+  - 10
+  - 23
+  - 18
+  - 19
+  - 18
+BaseAtk: '20'
+CMB: '32'
+CMD: 42 (46 vs. trip)
+Feats:
+  - Alertness
+  - Flyby Attack
+  - Hover
+  - Greater Spell Focus (enchantment)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Spell Focus (enchantment)
+  - Vital Strike
+Skills:
+  - Bluff +27
+  - Diplomacy +27
+  - Fly +15
+  - Heal +27
+  - Knowledge (local) +27
+  - Linguistics +27
+  - Perception +31
+  - Sense Motive +31
+  - Spellcraft +27
+  - Survival +27
+Languages:
+  - Common
+  - Draconic
+  - plus any 22 more
+SQ: move sand
+Environment: warm deserts
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  A crest of horns sweeps back from the head of this dragon, leading to a long
+  neck and serpentine brass body.
+Group: Metallic Dragon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Desert Wind (Su)
+    description: >-
+      A juvenile or older brass dragon can call up the desert wind to serve him.
+      This functions as gust of wind, but any creature in its path must make a
+      Fortitude save (DC 26) or be blinded for 1d4 rounds by the sand.
+  - name: Fire Aura (Su)
+    description: >-
+      An old or older brass dragon is surrounded by an aura of intense heat. All
+      creatures within 5 feet of the dragon take 1d6 points of fire damage at
+      the beginning of the dragon's turn. An ancient brass dragon's aura extends
+      to 10 feet. A great wyrm's damage increases to 2d6. A brass dragon can
+      suppress or activate this aura at will as a free action.
+  - name: Move Sand (Su)
+    description: >-
+      A young or older brass dragon can move sand to excavate ruins or hide
+      treasures. This functions as move earth, but it only affects sand. The
+      dragon uses his HD in place of his caster level for this effect. This is
+      equivalent to a 5th-level spell.
+  - name: Sleep Breath (Su)
+    description: >-
+      Instead of a line of fire, a brass dragon can breathe a 50 ft. cone of
+      sleep gas. Creatures within the cone must succeed on a Will save or fall
+      asleep for 1d6+9 rounds.
+Description:
+  - >-
+    Consummate conversationalists, brass dragons prefer to talk instead of
+    fight. Brass dragons lair near humanoid settlements, where they can hear the
+    most recent news and gossip.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: very old
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1568'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

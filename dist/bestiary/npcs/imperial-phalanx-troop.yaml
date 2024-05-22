@@ -1,0 +1,82 @@
+Name: Imperial Phalanx Troop
+CR: '11'
+XP: '12800'
+Race: Imperial Phalanx Troop
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (troop, human)
+Init: '0'
+Senses:
+  - Perception +19
+AC: 28, touch 10, flat-footed 28
+AC_Mods: (+9 armor, +5 shield, +4 natural)
+HP: '150'
+HD: (12d8+96)
+Saves: Fort +14, Ref +4, Will +6; +4 vs. trample
+Fort: '14'
+Ref: '4'
+Will: '6'
+Save_Mods: +4 vs. trample
+DefensiveAbilities: troop traits
+Speed: 30 ft.
+Melee:
+  - troop (3d8+8; 3d8+ 2d6 +8 vs. mounted opponents)
+Space: 20 ft.
+Reach: 10 ft.
+AbilityScores:
+  - 26
+  - 11
+  - 19
+  - 10
+  - 14
+  - 13
+BaseAtk: '9'
+CMB: +17 (+19 bull rush and overrun)
+CMD: '27'
+Feats:
+  - Great Fortitude
+  - Greater Bull Rush
+  - Greater Overrun
+  - Shield Focus
+  - Skill Focus (Intimidate
+  - Perception)
+Skills:
+  - Intimidate +11
+  - Perception +19
+  - Profession (soldier) +11
+Languages:
+  - Common
+SQ: elite troop, phalanx troop, united spirit
+Source: Lands Of Conflict
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Elite Troop (Ex)
+    description: See the imperial infantry troop stat block on page 60.
+  - name: Phalanx Troop (Ex)
+    description: >-
+      An imperial phalanx troop is made up of a mixture of soldiers with
+      polearms and those with blades and spears. This grants it an additional 5
+      feet of reach with its troop melee attack. The troop also gains a +5
+      shield bonus to AC and a +4 bonus on saving throws against trample
+      attacks, and its troop melee attack deals an additional 2d6 points of
+      damage against mounted opponents. The troop gains 2 additional hit points
+      per Hit Die. These effects are included in the troop's stat block.
+  - name: United Spirit (Ex)
+    description: See the imperial infantry troop stat block on page 60.
+OtherGear: tower shield
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11113'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

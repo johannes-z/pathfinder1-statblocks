@@ -1,0 +1,152 @@
+Name: Leng Mummy
+CR: '9'
+XP: '6400'
+Race: denizen of leng
+MonsterSource: Pathfinder RPG Bestiary 4 196, Pathfinder RPG Bestiary 2 82
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented outsider, extraplanar)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +15
+Aura: frightful presence (30 ft., DC 20, 1d6 rounds)
+AC: 25, touch 15, flat-footed 20
+AC_Mods: (+4 Dex, +1 dodge, +10 natural)
+HP: '115'
+HD: (10d8+60)
+Saves: Fort +12, Ref +11, Will +6
+Fort: '12'
+Ref: '11'
+Will: '6'
+DefensiveAbilities: unusual anatomy
+DR: 5/-
+Immune: undead traits
+Resist: cold 30, electricity 30
+SR: '19'
+Weaknesses: vulnerability to fire
+Speed: 30 ft.
+Melee:
+  - bite +15 (1d8+4 plus 1d6 Dex drain), 2 claws +14 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: burst of vengeance, dust stroke, sneak attack +3d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: Constant
+      value: tongues
+    - label: 3/day
+      value: >-
+        detect thoughts (DC 17), hypnotic pattern (DC 17), levitate, minor image
+        (DC 17)
+    - label: 1/day
+      value: locate object
+AbilityScores:
+  - 18
+  - 18
+  - —
+  - 16
+  - 17
+  - 21
+BaseAtk: '10'
+CMB: '14'
+CMD: '29'
+Feats:
+  - Deceitful
+  - Dodge
+  - Mobility
+  - Improved Natural Attack (bite
+  - claws)
+  - Persuasive
+  - Spring Attack
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +21
+  - Diplomacy +7
+  - Disable Device +12
+  - Disguise +12 (+16 when disguised as a Medium humanoid)
+  - Intimidate +11
+  - Knowledge (arcana) +15
+  - Perception +15
+  - Profession (sailor) +8
+  - Sense Motive +15
+  - Sleight of Hand +16
+  - Spellcraft +10
+  - Stealth +20
+  - Use Magic Device +16
+RacialMods: +4 Disguise when disguised as a Medium humanoid, +4 Stealth
+Languages:
+  - Aklo
+  - tongues
+SQ: no breath
+Source: PFS 8-15
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Burst of Vengeance (Su)
+    description: >-
+      Despite its slow, lumbering nature, a Leng mummy is capable of lurching
+      forward to attack with a short but surprising explosion of speed. Twice
+      per day as a swift action, a Leng mummy may act as if affected by a haste
+      spell for 1 round.
+  - name: Dexterity Drain (Su)
+    description: >-
+      The otherworldly teeth and tongues of a Leng mummy deal 1d6 points of
+      Dexterity drain with a bite. Constructs, elementals, and other creatures
+      that do not possess flesh are immune to this effect. A successful DC 20
+      Fortitude save reduces the Dexterity drain to 1 point. The save DC is
+      Charisma-based.
+  - name: Dust Stroke (Su)
+    description: >-
+      A creature killed by a Leng mummy's natural attack disintegrates into a
+      cloud of dust and ash, completely destroying the victim's body (as per
+      disintegrate). Site-Bound (Su) A Leng mummy is bound to the site in which
+      it was created and loses its planar fast healing ability and its plane
+      shift spell-like ability. This also hampers its sneak attack damage,
+      reducing it to 3d6.
+  - name: Unusual Anatomy (Ex)
+    description: >-
+      Each Leng mummy's internal anatomy is different, and it has a 50% chance
+      to treat any critical hit or sneak attack against it as a normal hit.
+  - name: Vulnerability (Su)
+    description: >-
+      The mummification process leaves a Leng mummy vulnerable to fire. As a
+      fail-safe in case of rebellion, a mummified creature is subtly marked
+      during the ritual process with a hieroglyph someplace inconspicuous on its
+      body or wrappings that identifies the particular energy type to which it
+      is vulnerable. A successful DC 20 Perception check is needed to find the
+      mark , but a successful DC 25 Linguistics check is still required to
+      decipher the hieroglyph's meaning.
+BeforeCombat: >-
+  When the mummies detect anyone approaching-such as a creature manipulating the
+  trap door above the center of the room, one of the mummies uses minor image to
+  create an image of Hrethnar Olvaradsson, a powerfully built, golden-haired
+  Ulfen man wearing midnight blue robes, seated on the enormous stone throne.
+DuringCombat: >-
+  One round after the first PC reaches the floor of  this room, the mummies
+  attack. During the first two rounds of combat they use their burst of
+  vengeance ability to gain an extra bite attack. Thereafter, the mummies use
+  Spring Attack to dart in and out of melee, striking at a different PC each
+  round with a bite attack.
+Morale: >-
+  The mummies fight until destroyed. They pursue fleeing PCs, but they do not
+  leave areas B3, B4a, and B4b.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: mummified|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11123'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

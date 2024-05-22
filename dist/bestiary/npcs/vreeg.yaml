@@ -1,0 +1,108 @@
+Name: Vreeg
+CR: '6'
+XP: '2400'
+Race: derro
+Class: necromancer 5
+MonsterSource: Pathfinder RPG Bestiary 70
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (derro)
+Init: '4'
+Senses:
+  - Perception +5
+AC: 22, touch 16, flat-footed 18
+AC_Mods: (+1 deflection, +4 Dex, +2 natural, +4 shield, +1 size)
+HP: '69'
+HD: (8 HD; 5d6+3d8+39)
+Saves: Fort +5, Ref +6, Will +12
+Fort: '5'
+Ref: '6'
+Will: '12'
+SR: '14'
+Weaknesses: vulnerable to sunlight
+Speed: 20 ft., fly 60 ft. (good)
+Melee:
+  - mwk dagger +7 (1d3+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +1d6
+SpellLikeAbilities:
+  header: Derro Spell-Like Abilities (CL 3rd; concentration +8)
+  values:
+    - label: At Will
+      value: darkness, ghost sound (DC 15)
+    - label: 1/day
+      value: >-
+        daze (DC 15), sound burst (DC 17) Necromancer Spell-Like Abilities (CL
+        5th; concentration +8)
+    - label: 6/day
+      value: grave touch (2 rounds)
+SpellsPrepared: >-
+  Necromancer Spells Prepared (CL 5th; concentration +8)  3rd-extended false
+  life, fly, vampiric touch  2nd-blindness/deafness (DC 16), scorching ray,
+  extended shield, spectral hand  1st-cause fear (DC 15), chill touch (DC 15),
+  magic missile, ray of enfeeblement (DC 15), sleep (DC 14)  0 (at will)-detect
+  magic, mage hand, ray of frost, touch of fatigue (DC 14)
+AbilityScores:
+  - 13
+  - 18
+  - 16
+  - 16
+  - 5
+  - 20
+BaseAtk: '4'
+CMB: '4'
+CMD: '19'
+Feats:
+  - Combat Casting
+  - Craft Wand
+  - Craft Wondrous Item
+  - Extend Spell
+  - Scribe Scroll
+  - Spell Focus (necromancy)
+  - Turn Undead
+Skills:
+  - Bluff +13
+  - Fly +11
+  - Knowledge (arcana) +14
+  - Perception +5
+  - Spellcraft +14
+  - Stealth +16
+Languages:
+  - Aklo
+  - Common
+  - Giant
+  - Terran
+  - Undercommon
+SQ: arcane bond (wand of ghoul touch), madness, poison use, power over undead
+Source: Curse Of The Crimson Throne Chapter 1
+IsTemplate: '0'
+Gender: Male
+ProhibitedSchools: Conjuration, Illusion
+BeforeCombat: >-
+  Vreeg casts extended false life every morning. If he hears intruders, he also
+  casts fly and extended shield.
+DuringCombat: >-
+  Vreeg uses flight to remain out of melee combat, casting spells and throwing
+  undead from his robe of bones until cornered or forced into melee. At this
+  point, he uses his wand of ghoul touch against foes, or makes sneak attacks
+  against a character on whom he has cast blindness/deafness.
+Morale: Vreeg fights to the death.
+Gear: robe of bones, wand of ghoul touch (22 charges), blue whinnis (3)
+OtherGear: mwk dagger, ring of protection +1, 38 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8629'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

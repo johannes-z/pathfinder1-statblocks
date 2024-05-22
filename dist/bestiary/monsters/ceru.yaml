@@ -1,0 +1,120 @@
+Name: Ceru
+CR: '2'
+XP: '600'
+Alignment: NG
+Size: Tiny
+Type: magical beast
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +6
+AC: 16, touch 14, flat-footed 14
+AC_Mods: (+2 Dex, +2 natural, +2 size)
+HP: '22'
+HD: (3d10+6)
+HP_Mods: fast healing 2
+Saves: Fort +5, Ref +5, Will +2
+Fort: '5'
+Ref: '5'
+Will: '2'
+Immune: poison
+Resist: acid 5, electricity 5
+SR: '13'
+Speed: 20 ft.
+Melee:
+  - gore +7 (1d3-1 plus poison)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: luckbringer
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +8)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: mage hand
+AbilityScores:
+  - 8
+  - 15
+  - 14
+  - 13
+  - 12
+  - 15
+BaseAtk: '3'
+CMB: '3'
+CMD: 12 (16 vs. trip)
+Feats:
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Diplomacy +4
+  - Knowledge (arcana) +4
+  - Perception +6
+  - Stealth +15
+Languages:
+  - Common (can't speak)
+Environment: any urban (Vudra)
+Organization: solitary, pair, or litter (3-5)
+Treasure: none
+Description_Visual: >-
+  This pint-sized creature resembles a tiny blue elephant no larger than a house
+  cat. Its feet, tail, and ears are clawed and spiked.
+Source: Inner Sea Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Luckbringer (Su)
+    description: >-
+      As a standard action, a ceru can bring luck or misfortune upon any
+      creature it can see within 30 feet. This effect lasts for 1 round, and the
+      ceru decides in advance whether the modified luck is good or bad. If the
+      ceru grants bad luck, anytime the target makes an ability check, attack
+      roll, saving throw, or skill check, it must roll twice and take the worse
+      result. A successful DC 13 Will save negates this effect. If the ceru
+      grants good luck, the target must choose a single roll (as above) prior to
+      rolling, and may roll the chosen roll twice and take the higher result. A
+      creature can only be affected by this ability once per 24 hours, and the
+      ceru may use the ability once per day for every 4 HD it has (minimum once
+      per day). The save DC is Charisma-based. If the ceru is a familiar, it may
+      use its master's character level, if higher, in place of its racial Hit
+      Dice for determining the number of uses of this ability, and for
+      calculating the save DC (DC = 10 + 1/2 or the master's character level +
+      the master's Cha modifier).
+  - name: Poison (Ex)
+    description: >-
+      Gore-injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d2
+      Con; cure 2 consecutive saves.
+Description:
+  - >-
+    Cerus are artificial creatures created through the fusion of alchemy and
+    magic in the Impossible Kingdoms of Vudra, where they are regarded as
+    amazing pets for the rich and powerful. A single ceru fetches at least 300
+    gp from Vudrani specialty merchants. Most cerus are sterile, and so the rare
+    breeding pair commands an additional +1,000 gp beyond the cost of two
+    non-breeding cerus. Many breeders would rather kill their breeding stock (or
+    murder would-be thieves) than lose control of their exclusivity.
+  - >-
+    Cerus do not yet exist outside of exotic merchant stalls and strange arcane
+    laboratories. Rumors persist of an alchemical formula allowing the creation
+    of a first-generation ceru that is reliably fertile. This revelation is
+    bound to spur a race among arcanists to find the formula and introduce these
+    creatures to the Inner Sea region in much greater numbers. A spellcaster of
+    7th level or higher can bond with a ceru via the Improved Familiar feat.
+  - >-
+    Upon reaching maturity, a ceru's body is 1 foot long and weighs 12 pounds.
+    The rare fertile female ceru bears only one litter per year, no matter how
+    frequently bred, with typically no more than one to three offspring.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3557'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

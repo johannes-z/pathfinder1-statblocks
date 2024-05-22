@@ -1,0 +1,118 @@
+Name: Versevosh Subtier 4-5
+CR: '4'
+XP: '1200'
+Race: goblin
+Class: bard (court bard) 4/fighter 1
+MonsterSource: Pathfinder RPG Bestiary 156, Advanced Player's Guide 81
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (goblinoid)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 18, touch 14, flat-footed 15
+AC_Mods: (+4 armor, +3 Dex, +1 size)
+HP: '37'
+HD: (5 HD; 4d8+1d10+9)
+Saves: >-
+  Fort +3, Ref +7, Will +3; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '3'
+Ref: '7'
+Will: '3'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - mwk whip +10 (1d2+1 nonlethal)
+  - mwk short sword +9 (1d4+1/19-20)
+Ranged:
+  - shortbow +8 (1d4/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 12 rounds/day (countersong, distraction, fascinate,
+  mockery, satire -1)
+SpellsKnown:
+  header: Bard Spells Known (CL 4th; concentration +6)
+  values:
+    - label: 2nd (2/day)
+      value: heroism, scare (DC 14)
+    - label: 1st (4/day)
+      value: >-
+        cause fear (DC 13), disguise self, grease (DC 13), hideous laughter (DC
+        13)
+    - label: 0 (at will)
+      value: >-
+        daze (DC 12), detect magic, flare (DC 12), mage hand, mending,
+        prestidigitation
+AbilityScores:
+  - 12
+  - 16
+  - 10
+  - 13
+  - 8
+  - 14
+BaseAtk: '4'
+CMB: '4'
+CMD: '17'
+Feats:
+  - Combat Reflexes
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (whip)
+Skills:
+  - Bluff +10
+  - Diplomacy +11
+  - Disguise +11
+  - Intimidate +9
+  - Knowledge (local) +10
+  - Perception +6
+  - Perform (sing) +10
+  - Ride +12
+  - Sense Motive +7
+  - Sleight of Hand +8
+  - Stealth +16
+Languages:
+  - Common
+  - Goblin
+SQ: heraldic expertise +2, versatile performance (sing)
+Source: PFS S4-01
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  If aware of intruders, Versevosh casts heroism on himself (not included in his
+  stats) and mounts his duskhound steed.
+DuringCombat: >-
+  Versevosh uses his satire bardic performance on the PCs as soon as they enter
+  the room. He casts scare or hideous laughter on any PCs attempting to cross
+  the bridge to make that PC an easy target. He casts grease on the bridge
+  underneath the PCs' feet to knock them down, and dexterously trips or disarms
+  foes near the bridge using Weapon Finesse and his whip. Versevosh heals
+  himself if reduced below 18 hit points; he also heals other goblins or his
+  duskhound mount if he gets the chance.
+Morale: >-
+  Versevosh flees if more than half of the PCs make it across the bridge or if
+  his goblin minions are slain.
+Gear: potion of resist energy (fire), wand of cure moderate wounds (6 charges)
+OtherGear: >-
+  +1 studded leather, masterwork short sword, masterwork whip, shortbow with 20
+  arrows, brooch of shielding (with 15 points remaining), disguise kit, jester's
+  motley, pouch of broken glass shards, spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: court bard
+CompanionFamiliarLink: '0'
+id: '7612'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

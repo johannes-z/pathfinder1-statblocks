@@ -1,0 +1,114 @@
+Name: Masimo Viorica
+CR: '5'
+XP: '1600'
+Race: shredskin
+Class: cleric of zon-kuthon 3
+MonsterSource: Pathfinder RPG Bestiary 4 288, 243
+Alignment: NE
+Size: Small
+Type: undead
+Init: '4'
+Senses:
+  - darkvision 60 ft., detect undead
+  - Perception +12
+AC: 18, touch 15, flat-footed 14
+AC_Mods: (+4 Dex, +3 natural, +1 size)
+HP: '62'
+HD: (7d8+31)
+Saves: Fort +8, Ref +6, Will +11
+Fort: '8'
+Ref: '6'
+Will: '11'
+DefensiveAbilities: amorphous
+Immune: undead traits
+Speed: fly 40 ft. (average)
+Melee:
+  - bite +10 (1d4+4), 2 claws +10 (1d4+4 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 9/day (DC 15, 2d6), constrict (1d4+4), control body,
+  enshroud, enshrouding caster, grab (Medium)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +7)
+  values:
+    - label: Constant
+      value: detect undead
+    - label: 1/day
+      value: >-
+        command undead (DC 16) Domain Spell-Like Abilities (CL 3rd;
+        concentration +7)
+    - label: 7/day
+      value: touch of darkness (1 round), touch of evil (1 round)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 3rd; concentration +7)  2nd-blindness/deafnessD
+  (blindness only; DC 16), death knell (DC 16), hold person (DC 16)  1st-bane
+  (DC 15), deathwatch, doom (DC 15), obscuring mistD  0 (at will)-bleed (DC 14),
+  detect magic, guidance, resistance
+SpellDomains: Darkness, Evil
+AbilityScores:
+  - 18
+  - 19
+  - —
+  - 12
+  - 18
+  - 19
+BaseAtk: '5'
+CMB: +8 (+12 grapple)
+CMD: 22 (can't be tripped)
+Feats:
+  - Agile Maneuvers
+  - Blind-Fight
+  - Extra Channel
+  - Quick Channel
+  - Weapon Finesse
+Skills:
+  - Fly +12
+  - Intimidate +10
+  - Knowledge (religion) +11
+  - Perception +12
+  - Sense Motive +10
+  - Spellcraft +8
+  - Stealth +15
+Languages:
+  - Common
+  - Infernal
+  - Shadowtongue (can't speak)
+SQ: compression
+Source: AP 104
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Enshrouding Caster (Ex)
+    description: >-
+      Since he is unable to speak, Masimo cannot cast spells with verbal
+      components. However, when Masimo successfully uses his enshroud ability on
+      a humanoid creature capable of speech, he can, instead of constricting the
+      creature, apply pressure on the creature's vocal cords as a free action to
+      enable him to cast spells normally.
+Gender: Male
+DuringCombat: >-
+  Masimo attempts to enshroud the target who appears to be weakest physically.
+  If successful, he immediately uses his enshrouding caster ability to cast
+  obscuring mist, then alternates between channeling negative energy and
+  spellcasting as appropriate.
+Morale: >-
+  Masimo fights until destroyed in his attempt to find a host body to control.
+  If one of his foes dies, Masimo immediately enshrouds the corpse and moves
+  toward the exit, eager to confront his daughter with his new body.
+Gear: spell component pouch, platinum unholy symbol of Zon-Kuthon (worth 500 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8219'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

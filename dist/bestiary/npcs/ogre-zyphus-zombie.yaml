@@ -1,0 +1,84 @@
+Name: Ogre Zyphus Zombie
+CR: '2'
+XP: '600'
+Race: Ogre Zyphus Zombie
+Alignment: NE
+Size: Large
+Type: undead
+Init: '-2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 10, touch 7, flat-footed 10
+AC_Mods: (-2 Dex, +3 natural, -1 size)
+HP: '33'
+HD: (6d8+6)
+Saves: Fort +2, Ref +0, Will +5
+Fort: '2'
+Ref: '0'
+Will: '5'
+DR: 5/slashing
+Immune: undead traits
+Speed: 40 ft.
+Melee:
+  - slam +10 (1d8+9)
+Space: 10 ft.
+Reach: 10 ft.
+AbilityScores:
+  - 23
+  - 6
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '4'
+CMB: '9'
+CMD: '17'
+Feats:
+  - Toughness
+Source: PFS S1-49
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Staggered (Ex)
+    description: >-
+      Zombies have poor reflexes and can only perform a single move action or
+      standard action each round. A zombie can move up to its speed and attack
+      in the same round as a charge action.
+  - name: Zyphus Rot (Su)
+    description: >-
+      When a Zyphus zombie kills a living creature and feeds on it, the zombie
+      passes on a magical disease called Zyphus rot that causes the victim to
+      quickly animate and rise as a zombie in 1d4 minutes. Once risen, the new
+      zombie no longer carries Zyphus rot and can't pass it to another living
+      creature. A corpse can be "cured" of Zyphus rot by receiving a cure
+      disease spell prior to reanimation. A Zyphus zombie cannot be cured of the
+      disease unless the artifact that caused it is destroyed. Any creature with
+      more than 10 HD is immune to the effects of Zyphus rot. Zyphus rot only
+      affects corporeal creatures (other than undead) that have a skeletal
+      system.
+BeforeCombat: >-
+  The zombie stands in the northeast hallway of the crypt. Once he hears the
+  PCs, he moves down the 10-foot-wide hallway toward A2, but stops at the pit
+  (T3). Having already stepped into the pit once, he knows not to try to cross
+  it.
+DuringCombat: >-
+  Should the PCs spot the zombie and ignore him, he wanders north and comes at
+  the PCs from another angle (he will not cross T3). He attacks the first PC he
+  sees and mindlessly bludgeons her until she's unconscious before shifting to
+  the next nearest PC.
+Morale: The zombie fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4489'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

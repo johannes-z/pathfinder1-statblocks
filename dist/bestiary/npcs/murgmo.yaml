@@ -1,0 +1,95 @@
+Name: Murgmo
+CR: '2'
+XP: '600'
+Race: goblin
+Class: oracle 3
+MonsterSource: Pathfinder RPG Bestiary 156, Pathfinder RPG Advanced Player's Guide 42
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (goblinoid)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+AC: 16, touch 12, flat-footed 15
+AC_Mods: (+4 armor, +1 Dex, +1 size)
+HP: '23'
+HD: (3d8+6)
+Saves: Fort +2, Ref +2, Will +5; +4 vs. disease
+Fort: '2'
+Ref: '2'
+Will: '5'
+Save_Mods: +4 vs. disease
+Speed: 30 ft.
+Melee:
+  - mwk longspear +3 (1d6-1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 3rd; concentration +4)
+  values:
+    - label: 1st (6/day)
+      value: >-
+        bane (DC 12), burning hands (DC 12), cause fear (DC 12), doom (DC 12),
+        inflict light wounds (DC 12)
+    - label: 0 (at will)
+      value: bleed (DC 11), create water, detect magic, light, resistance
+AbilityScores:
+  - 8
+  - 12
+  - 12
+  - 13
+  - 14
+  - 13
+BaseAtk: '2'
+CMB: '0'
+CMD: '11'
+Feats:
+  - Combat Casting
+  - Improved Initiative
+Skills:
+  - Acrobatics +6
+  - Climb +4
+  - Heal +8
+  - Sense Motive +8
+  - Spellcraft +7
+  - Stealth +8
+RacialMods: +4 Ride, +4 Stealth
+Languages:
+  - Common
+  - Goblin
+SQ: >-
+  oracle's curse (wasting), revelations (burning magic, fire breath [3d4, 1/day,
+  DC 12])
+Source: Thornkeep
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If she has time to prepare for an encounter against the PCs, Murgmo gets in a
+  tactical position so she can use her burning hands spell and fire breath
+  ability to damage the PCs and avoid her own allies.
+DuringCombat: >-
+  Murgmo relies on her goblin warriors to do most of the heavy lifting in combat
+  while she uses spells like doom to hinder the PCs and her fire breath ability
+  to damage them. She drinks her potion of cure light wounds if her hit points
+  drop to fewer than 10.
+Morale: Murgmo is determined to find the sword of Zog, and fights to the death.
+Gear: potion of cure light wounds, acid (2)
+OtherGear: masterwork chain shirt, masterwork longspear
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: flame
+CompanionFamiliarLink: '0'
+id: '4037'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

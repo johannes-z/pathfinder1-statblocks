@@ -1,0 +1,91 @@
+Name: Initiate Of Flame
+CR: 1/2
+XP: '200'
+Race: dwarf
+Class: druid 1
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '0'
+Senses:
+  - Perception +6
+AC: 14, touch 10, flat-footed 14
+AC_Mods: (+4 armor)
+HP: '15'
+HD: (1d8+7)
+Saves: Fort +5, Ref +0, Will +4; +2 vs. poison, spells, and spell-like abilities
+Fort: '5'
+Ref: '0'
+Will: '4'
+Save_Mods: +2 vs. poison, spells, and spell-like abilities
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Speed: 20 ft.
+Melee:
+  - spear +2 (1d8+3/x3)
+Ranged:
+  - sling +0 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: +1 on attack rolls against goblinoid and orc humanoids
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 1st; concentration +3)
+  values:
+    - label: 5/day
+      value: fire bolt
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 1st; concentration +3)   1st-burning handsD (DC 13),
+  endure elements, faerie fire   0 (at will)-detect poison, flare (DC 12),
+  stabilize
+SpellDomains: Fire
+AbilityScores:
+  - 15
+  - 10
+  - 16
+  - 12
+  - 15
+  - 6
+BaseAtk: '0'
+CMB: '2'
+CMD: 12 (16 vs. bull rush or trip)
+Feats:
+  - Toughness
+Skills:
+  - Climb +4
+  - Handle Animal +2
+  - Knowledge (geography) +5
+  - Knowledge (nature) +3
+  - Perception +6 (+8 to notice unusual stonework)
+  - Survival +8
+Languages:
+  - Common
+  - Druidic
+  - Dwarven
+  - Giant
+SQ: nature bond (Fire domain), nature sense, wild empathy -1
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The druid casts endure elements each day.
+DuringCombat: >-
+  The druid casts faerie fire, then drops a smokestick at his feet, letting foes
+  come to him, and possibly sets his spear against a charge. He then fights with
+  his spear or casts burning hands.
+Gear: alchemist's fire (2), smokesticks (2)
+OtherGear: >-
+  masterwork hide armor, sling with 20 bullets, spear, climber's kit, healer's
+  kit, holly and mistletoe, spell component pouch, 8 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3655'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

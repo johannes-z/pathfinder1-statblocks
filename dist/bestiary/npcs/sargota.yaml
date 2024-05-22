@@ -1,0 +1,103 @@
+Name: Sargota
+CR: '11'
+XP: '12800'
+Race: shadow demon
+MonsterSource: Pathfinder RPG Bestiary 67
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar, incorporeal)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +27
+AC: 20, touch 20, flat-footed 15
+AC_Mods: (+5 deflection, +4 Dex, +1 dodge)
+HP: '119'
+HD: (14d10+42)
+Saves: Fort +7, Ref +13, Will +11
+Fort: '7'
+Ref: '13'
+Will: '11'
+DefensiveAbilities: incorporeal
+DR: 10/cold iron or good
+Immune: cold, electricity, poison
+Resist: acid 10, fire 10
+SR: '22'
+Weaknesses: sunlight powerlessness
+Speed: fly 40 ft. (perfect)
+Melee:
+  - bite +18 touch (2d6 plus 1d6 cold), 2 claws +18 touch (1d8 plus 1d6 cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: pounce
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: At Will
+      value: >-
+        deeper darkness, fear (DC 19), greater teleport (self only), telekinesis
+        (DC 20)
+    - label: 3/day
+      value: shadow conjuration (DC 19), shadow evocation (DC 20)
+    - label: 1/day
+      value: magic jar (DC 20), summon (level 3, 1 shadow demon 50%)
+AbilityScores:
+  - —
+  - 18
+  - 17
+  - 14
+  - 14
+  - 20
+BaseAtk: '14'
+CMB: '18'
+CMD: '34'
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Improved Natural Attack (bite)
+  - Improved Natural Attack (claw)
+  - Mobility
+Skills:
+  - Acrobatics +21
+  - Bluff +22
+  - Fly +29
+  - Knowledge (local) +19
+  - Knowledge (planes) +19
+  - Perception +27
+  - Sense Motive +19
+  - Stealth +21
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+SQ: shadow blend, sprint
+Source: AP 82
+IsTemplate: '0'
+DuringCombat: >-
+  If it gets the chance, Sargota attempts to possess one of the PCs with magic
+  jar to make use of a physical body. If unsuccessful or prevented from
+  possessing an opponent, Sargota lashes out with its incorporeal touch attacks
+  and spell-like abilities.
+Morale: >-
+  If reduced to fewer than 60 hit points, Sargota attempts to flee. The
+  Sightless Sphinx's wards, however, prevent it from using greater teleport, so
+  it flees through the walls back to the maftet-held areas of the Sphinx.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6072'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

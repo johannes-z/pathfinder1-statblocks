@@ -1,0 +1,107 @@
+Name: Fear Guard
+CR: '5'
+XP: '1600'
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '6'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +10
+Aura: fear aura (20 ft., DC 17)
+AC: 17, touch 17, flat-footed 14
+AC_Mods: (+4 deflection, +2 Dex, +1 dodge, +0 natural)
+HP: '51'
+HD: (6d8+24)
+Saves: Fort +6, Ref +4, Will +6
+Fort: '6'
+Ref: '4'
+Will: '6'
+DefensiveAbilities: channel resistance +2, incorporeal
+Immune: undead traits
+Weaknesses: daylight vulnerability
+Speed: fly 30 ft. (good)
+Melee:
+  - incorporeal touch +7 (1d3 Wis  damage)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th)
+  values:
+    - label: At will
+      value: darkness, ray of enfeeblement (DC 15)
+    - label: 2/day
+      value: deeper darkness
+AbilityScores:
+  - —
+  - 15
+  - —
+  - 10
+  - 12
+  - 18
+BaseAtk: '4'
+CMB: '6'
+CMD: 20 (can't be tripped)
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Weapon Focus (incorporeal touch)
+Skills:
+  - Fly +15
+  - Perception +10
+  - Sense Motive +10
+  - Stealth +10 (+18 in dim light and darkness)
+RacialMods: Stealth +8 in dim light and darkness
+Environment: underground
+Organization: solitary or group (2-5)
+Treasure: standard
+Description_Visual: >-
+  This incorporeal entity appears as a hooded humanoid figure clad in flowing
+  robes of translucent gray over a suit of ghostly armor. Its facial features
+  are a swirl of maddening images, fluctuating between a serene countenance and
+  a face twisted into a grimace of horror and fear.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      Any living creature reduced to Wisdom 0 by a fear guard is slain and
+      becomes a fear guard under the control of its killer in 1d6 rounds.
+  - name: Daylight Vulnerability (Ex)
+    description: >-
+      A fear guard exposed to natural sunlight (not merely bright light) suffers
+      2d6 points of damage per round of exposure and is slowed (as the spell).
+Description:
+  - >-
+    Fear guards embody evil in its blackest conjuration. They are summoned from
+    some unknown place by evil wizards and clerics to guard prized possessions
+    or a valued location.
+  - >-
+    Shrouding themselves in a preternatural darkness, fear guards fight using
+    spell-like abilities and their incorporeal touch. If guarding a particular
+    location, a fear guard fights until either it is slain or driven away, or
+    its opponents are slain or flee. If exposed to natural sunlight, fear guards
+    either surround themselves with magical darkness for protection or flee if
+    this unsuccessful.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2589'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

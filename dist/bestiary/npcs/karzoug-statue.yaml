@@ -1,0 +1,83 @@
+Name: Karzoug Statue
+CR: '16'
+XP: '76800'
+Race: stone golem
+MonsterSource: Pathfinder RPG Bestiary 163
+Alignment: 'N'
+Size: Huge
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +2
+AC: 31, touch 8, flat-footed 31
+AC_Mods: (+23 natural, -2 size)
+HP: '205'
+HD: (30d10+40)
+Saves: Fort +10, Ref +10, Will +12
+Fort: '10'
+Ref: '10'
+Will: '12'
+DR: 15/adamantine and bludgeoning
+Immune: construct traits, magic
+Speed: 30 ft.
+Melee:
+  - 2 slams +43 (3d10+15 plus petrification)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: shattering blow, slow (DC 25)
+AbilityScores:
+  - 40
+  - 11
+  - —
+  - —
+  - 15
+  - 5
+BaseAtk: '30'
+CMB: '47'
+CMD: '57'
+Feats:
+  - Power AttackB
+Source: RotRL-AE-Sins of the Saviors
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Petrification (Su)
+    description: >-
+      A creature struck by the statue's slam attack must succeed at a DC 25
+      Fortitude save or take 1d10 points of Dexterity drain. A creature drained
+      to 0 Dexterity becomes petrified. The save DC is Constitution-based.
+  - name: Shattering Blow (Su)
+    description: >-
+      If the Karzoug statue ever damages a petrified creature with its slam
+      attack, that creature must succeed at a DC 25 Fortitude save or be
+      shattered into fragments. This essentially kills the PC, but also deals
+      3d10 points of slashing damage to all creatures within a 5-foot radius of
+      the shattered statue. The save DC is Constitution-based.
+DuringCombat: >-
+  The stone golem uses its slow ability on the party every chance it gets,
+  moving to place itself in an optimal position before activating this power. It
+  focuses its physical attacks on the character who created the dominant weapon.
+  Fortunately for that character, this newly enhanced weapon bypasses all damage
+  reduction possessed by the stone golem.
+Morale: >-
+  Karzoug can maintain the golem's animation for only 4 rounds. If the PCs still
+  live on the fifth round, the statue spends a round just speaking: "This… this
+  is not the last… come then, heroes. Seek me atop Mhar Massif, if you value
+  life so poorly. You should be honored to be the first fools executed under the
+  banner of Shalast in ten thousand…" Karzoug is unable to finish his taunts,
+  though, and the golem reverts to inanimate stone. It does not attack again.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3277'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

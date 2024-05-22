@@ -1,0 +1,160 @@
+Name: Boggart
+CR: '5'
+XP: '1600'
+Alignment: CE
+Size: Small
+Type: aberration
+SubType: (air, shapechanger)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 21, touch 16, flat-footed 15
+AC_Mods: (+4 Dex, +1 dodge, +5 natural, +1 size)
+HP: '39'
+HD: (6d8+12)
+Saves: Fort +3, Ref +6, Will +6
+Fort: '3'
+Ref: '6'
+Will: '6'
+Immune: magic
+Speed: 20 ft.
+Melee:
+  - slam +9 (2d6 electricity)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: confusion, electrical discharge, feed
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 1st)
+  values:
+    - label: 10/day
+      value: invisibility
+AbilityScores:
+  - 12
+  - 19
+  - 15
+  - 14
+  - 12
+  - 14
+BaseAtk: '4'
+CMB: '4'
+CMD: '19'
+Feats:
+  - Alertness
+  - Blind-Fight
+  - Dodge
+  - Weapon Finesse B
+Skills:
+  - Acrobatics +13 (+11 jumping)
+  - Bluff +8
+  - Escape Artist +13
+  - Fly +13
+  - Perception +12
+  - Stealth +17
+SQ: >-
+  change shape (boggart, will-o'-wisp, polymorph any object), detect thoughts,
+  invisibility
+Environment: any marsh
+Organization: solitary, pair, or pack (2-5)
+Treasure: none
+Description_Visual: >-
+  This creature resembles a small, rough-looking humanoid with unkempt dark
+  hair, an untrimmed shaggy beard and thick mustache. Its skin is pale and its
+  eyes are green. Its body is covered in coarse, dark fur.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      A boggart's natural form is that of a small humanoid (resembling a young
+      gnome, halfling, or goblin). It has one other form: that of a small,
+      immature will-o'-wisp. In humanoid form, a boggart assumes the same
+      appearance and traits of its form, much as a lycanthrope would. In
+      humanoid form, a boggart retains all of its special attacks and special
+      qualities. The second form is that of a will-o- ‘wisp. In this form, a
+      boggart is nearly indistinguishable from a normal will-o'- wisp, but a DC
+      18 Knowledge (dungeoneering) or Perception check reveals that the boggart
+      is in fact smaller and brighter. A boggart can assume either form as a
+      standard action, though it cannot maintain either one for longer than 1
+      minute (10 rounds). A change in form cannot be dispelled, nor does the
+      boggart revert to its true natural form when slain. A true seeing spell
+      reveals the boggart's natural form if it is in will-o'-wisp form.
+  - name: Confusion (Su)
+    description: >-
+      Once per day, as a full-round action, a boggart can unleash a screech that
+      confuses all those hearing it within 30 ft. of the boggart. The confusion
+      lasts for 6 rounds. An affected creature can make a DC 15 Will save to
+      negate the effects. Each additional boggart within 10 feet that joins the
+      screeching increases the save DC by +1. The save DC is Charisma-based.
+  - name: Detect Thoughts (Su)
+    description: >-
+      A boggart can continuously detect thoughts as the spell (caster level
+      8th). It can suppress or resume this ability as a free action.
+  - name: Electricity (Su)
+    description: >-
+      A boggart delivers 2d6 points of electricity damage with a successful slam
+      attack (DC 15 Fortitude for half). The save DC is Constitution-based.
+  - name: Feed (Su)
+    description: >-
+      When a boggart slays a humanoid opponent, it can feed on the corpse,
+      devouring both flesh and life force, as a full-round action. Feeding
+      destroys the victim's body and prevents any form of raising or
+      resurrection that requires part of the corpse. There is a 50% chance that
+      a wish, miracle, or true resurrection spell can restore a devoured victim
+      to life. Check once for each destroyed creature. If the check fails, the
+      creature cannot be brought back to life by mortal magic. A boggart
+      advances in Hit Dice by consuming corpses in this fashion. For every three
+      suitable corpses a boggart devours, it gains 1 Hit Die, and its Strength,
+      Constitution, and natural armor increase by +1. Its attack bonus and saves
+      improve as normal for an aberration of its Hit Dice, and it gains skill
+      ranks, feats, and ability score improvements normally. The boggart only
+      advances by consuming the corpses of creatures whose Hit Dice or levels
+      are equal to or greater than its own current total. A boggart that reaches
+      9 Hit Dice through feeding immediately becomes a will-o'-wisp upon
+      completion of the act.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      Boggarts are immune to most spells or spell-like abilities that allow
+      spell resistance, except magic missile, protection from evil, magic circle
+      against evil, and maze.
+Description:
+  - >-
+    The boggart is a relative of the will-o-wisp. Sages believe it to be a sort
+    of "larval" or immature form of said creature. It haunts many of the same
+    places as its adult form and can be just as deadly when encountered.
+  - The typical boggart stands 2 feet tall.
+  - >-
+    A boggart begins melee using its confusion ability. It then uses its
+    electrical attack against its foes while changing forms as it wishes. Foes
+    not in melee range are subjected to its electrical discharge attack (it
+    fires a thin line of electricity from its hands). If reduced to 5 or less
+    hit points, the boggart attempts to escape by changing to its will-o-wisp
+    form and moving across grounds its enemies cannot traverse.
+  - >-
+    Credit The Boggart originally appeared in the First Edition module WG4 The
+    Forgotten Temple of Tharizdun (© TSR/Wizards of the Coast, 1982) and later
+    in the First Edition Monster Manual II (© TSR/Wizards of the Coast, 1983)
+    and is used by permission. This is not the same Boggart that appeared in
+    Dragon #54 (© TSR/Wizards of the Coast, 1981).
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Gary
+    Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2276'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,101 @@
+Name: Sky Warden
+CR: '10'
+XP: '9600'
+Race: Human
+Class: paladin of Iomedae 11
+Alignment: LG
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +5
+Aura: courage (10 ft.), justice (10 ft.), resolve (10 ft.)
+AC: 24, touch 11, flat-footed 23
+AC_Mods: (+10 armor, +1 Dex, +3 shield)
+HP: '120'
+HD: (11d10+55)
+Saves: Fort +13, Ref +7, Will +10
+Fort: '13'
+Ref: '7'
+Will: '10'
+Immune: charm, disease, fear
+Speed: 20 ft.
+Melee:
+  - +1 flaming holy lance +18/+13/+8 (1d8+8/x3 plus 1d6 fire plus 2d6 vs. evil)
+  - mwk scimitar +17/+12/+7 (1d6+5/18-20)
+Ranged:
+  - +1 composite shortbow +13/+8/+3 (1d6+6/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel positive energy 4/day (DC 18, 6d6), smite evil 4/day (+3 attack and
+  AC, +11 damage)
+SpellLikeAbilities:
+  header: Paladin Spell-Like Abilities (CL 11th; concentration +14)
+  values:
+    - label: At Will
+      value: detect evil
+SpellsPrepared: >-
+  Paladin Spells Prepared (CL 8th; concentration +11)   3rd-litany of sightUC,
+  prayer   2nd-bull's strength, saddle surgeAPG   1st-bless weapon, divine
+  favor, hero's defianceAPG
+AbilityScores:
+  - 20
+  - 12
+  - 16
+  - 8
+  - 10
+  - 16
+BaseAtk: '11'
+CMB: '16'
+CMD: '27'
+Feats:
+  - Mounted Archery
+  - Mounted Combat
+  - Power Attack
+  - Ride-By Attack
+  - Spirited Charge
+  - Toughness
+  - Weapon Focus (lance)
+Skills:
+  - Handle Animal +10
+  - Perception +5
+  - Ride +9 (+11 to stay in the saddle)
+  - Sense Motive +5
+Languages:
+  - Common
+SQ: >-
+  divine bond (weapon +3, 2/day), lay on hands 8/day (5d6), mercies (dazed,
+  fatigued, poisoned)
+Source: AP 108
+IsTemplate: '0'
+BeforeCombat: >-
+  A sky warden adds the flaming and holy special abilities to her lance with her
+  divine bond ability and casts bull's strength on herself.
+DuringCombat: >-
+  A sky warden activates her greater glorious tabard on the first round of
+  combat, then casts saddle surge. Sky wardens make long, sweeping charges from
+  opposite sides of the battlefield with Power Attack, Ride- By Attack, and
+  smite evil, using any rounds between attacks to heal themselves or their
+  mounts.
+Morale: This devoted guardian fights to the death.
+Gear: >-
+  +1 full plate, +1 heavy steel shield, +1 composite shortbow (+5 Str) with 20
+  arrows, +1 lance, mwk scimitar, belt of mighty constitution +2, greater
+  glorious tabard (see the sidebar on page 7)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8469'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

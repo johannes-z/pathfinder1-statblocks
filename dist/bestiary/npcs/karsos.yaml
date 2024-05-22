@@ -1,0 +1,107 @@
+Name: Karsos
+CR: '6'
+XP: '2400'
+Race: minotaur
+MonsterSource: Pathfinder RPG Bestiary 144, 206
+Alignment: CE
+Size: Large
+Type: undead
+SubType: (augmented monstrous humanoid, incorporeal)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+AC: 10, touch 10, flat-footed 10
+AC_Mods: (+1 deflection, -1 size)
+HP: '33'
+HD: (6d8+6)
+Saves: Fort +5, Ref +5, Will +5
+Fort: '5'
+Ref: '5'
+Will: '5'
+DefensiveAbilities: incorporeal channel resistance +4
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +5 touch (6d6, Fort DC 14 half)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: lure of the labyrinth (DC 14)
+AbilityScores:
+  - —
+  - 10
+  - —
+  - 7
+  - 10
+  - 12
+BaseAtk: '6'
+CMB: +7 (+9 bull rush)
+CMD: 18 (20 vs. bull rush)
+Feats:
+  - Great Fortitude
+  - Improved Bull Rush
+  - Power Attack
+Skills:
+  - Fly +6
+  - Intimidate +7
+  - Perception +14
+  - Stealth +10
+  - Survival +10
+RacialMods: +8 Perception, +8 Stealth, +4 Survival
+Languages:
+  - Giant
+SQ: natural cunning, phantasmagoria (DC 16)
+Source: PFS S5-09
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Lure of the Labyrinth (Su)
+    description: >-
+      As a move action, Karsos can utter the name of a creature in his maze,
+      which fascinates the creature and entices it to wander aimlessly. On the
+      creature's next turn, it spends a move action traveling its speed in a
+      random direction, after which it can act normally as long as it does not
+      retrace its steps. Karsos can only affect a creature with this ability
+      once per 24-hour period, and a DC 14 Will save negates this effect.
+  - name: Natural Cunning (Ex)
+    description: >-
+      Although minotaurs are not especially intelligent, they possess innate
+      cunning and logical ability. This gives them immunity to maze spells and
+      prevents them from ever becoming lost. Further, they are never caught
+      flat-footed.
+  - name: Phantasmagoria (Su)
+    description: >-
+      Karsos was tied to his former maze abode and this persists into his
+      undeath. Once per day, Karsos can create an elaborate illusion within the
+      ruins of the maze that restores it to its former glory. This illusion
+      functions similarly to the spell mirage arcana in combination with
+      multiple major images, allowing Karsos to recreate the maze. Karsos can
+      even incorporate himself into the illusion as if he were under the effects
+      of the spell alter self. The illusion is treated as a 6th-level spell
+      created at CL 6th. If any part of the illusion is dispelled, the entire
+      illusion fades. The save DC is Charisma-based.
+Gender: Male
+BeforeCombat: >-
+  Karsos stalks the PCs as they navigate the maze, waiting for them to become
+  separated by an illusion or circumstance before striking.
+DuringCombat: >-
+  Karsos attacks by striking through walls, moving ahead of the PCs to wait just
+  around the next corner, and staying mobile.
+Morale: >-
+  Karsos believes the PCs to be Mendevian Crusaders, which enrages him. He
+  fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8052'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,70 @@
+Name: Haunted Chain
+CR: '7'
+XP: '3200'
+Race: animated object
+MonsterSource: Pathfinder RPG Bestiary 14, 294
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception -3
+AC: 20, touch 10, flat-footed 19
+AC_Mods: (+1 Dex, +10 natural, -1 size)
+HP: '52'
+HD: (4d10+30)
+Saves: Fort +1, Ref +2, Will -2
+Fort: '1'
+Ref: '2'
+Will: '-2'
+DefensiveAbilities: hardness 10
+Immune: construct traits
+Weaknesses: haunted
+Speed: 40 ft.
+Melee:
+  - 2 slams +11 (1d8+8 plus grab)
+Space: 5 ft.
+Reach: 60 ft.
+SpecialAttacks: constrict (1d8+12)
+AbilityScores:
+  - 26
+  - 12
+  - —
+  - —
+  - 5
+  - 5
+BaseAtk: '4'
+CMB: +13 (+17 grapple)
+CMD: 24 (can't be tripped)
+SQ: >-
+  construction points (additional attack, constrict, faster, grab, haunted,
+  metal)
+Source: RotRL-AE-Spires of Xin-Shalast
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Haunted (Ex)
+    description: >-
+      The chain is haunted, and as a result takes damage from positive energy as
+      if it were an undead creature. It can be detected by detect undead.
+DuringCombat: >-
+  The haunted chain lifts anyone it constricts to the top of the shaft and on
+  the next round drops him after attempting (and possibly succeeding at) a
+  second round of constriction damage.
+Morale: The haunted chain fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3279'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

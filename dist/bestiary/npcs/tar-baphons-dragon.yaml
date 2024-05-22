@@ -1,0 +1,114 @@
+Name: Tar-Baphon's Dragon
+CR: '7'
+XP: '3200'
+Race: undead
+Alignment: LE
+Size: Large
+Type: undead
+SubType: (fire)
+Init: '4'
+Senses:
+  - dragon senses
+  - Perception +15
+AC: 22, touch 9, flat-footed 22
+AC_Mods: (+4 armor, +5 natural, +4 shield, -1 size)
+HP: '85'
+HD: (10d8+40)
+Saves: Fort +7, Ref +3, Will +9
+Fort: '7'
+Ref: '3'
+Will: '9'
+DefensiveAbilities: channel resistance +4, light fortification
+DR: 5/bludgeoning
+Immune: cold, fire, magic missile (from shield), undead traits
+Weaknesses: vulnerability to electricity
+Speed: 50 ft., swim 50 ft.
+Melee:
+  - >-
+    bite +13 (2d6+10), 2 claws +13 (1d8+7), 2 wings +11 (1d6+3),  tail slap +11
+    (1d8+10)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (40-ft. cone, 4d10 fire damage, Reflex DC 19 for half, usable
+  every 1d4 rounds)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: At will
+      value: detect evil
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 1st; concentration +5)
+  values:
+    - label: 1st (4/day)
+      value: mage armor, shield
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, open/close, touch of fatigue (DC 14)
+AbilityScores:
+  - 25
+  - 10
+  - —
+  - 18
+  - 15
+  - 18
+BaseAtk: '7'
+CMB: '15'
+CMD: 25 (29 vs. trip)
+Feats:
+  - Awesome Blow
+  - Improved Bull Rush
+  - Improved Initiative
+  - Lunge
+  - Multiattack
+  - Power Attack
+Skills:
+  - Climb +20
+  - Intimidate +17
+  - Knowledge (arcana) +17
+  - Perception +15
+  - Sense Motive +15
+  - Spellcraft +17
+  - Stealth +9
+  - Swim +25
+Languages:
+  - Common
+  - Draconic
+  - Elven
+  - Thassilonian
+Source: City of Golden Death
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Light Fortification (Ex)
+    description: >-
+      Whenever a sneak attack or critical hit is scored against Tar-Baphon's
+      dragon, there is a 25% chance that the extra damage is negated and damage
+      is rolled normally.
+BeforeCombat: >-
+  Tar-Baphon's dragon casts mage armor and shield on itself as soon as it
+  detects intruders.
+DuringCombat: >-
+  The dragon opens combat with its breath weapon, trying to catch as many
+  enemies in its effect as possible. It continues to use its breath weapon as
+  often as it is able, but if the majority of its foes seem resistant to fire
+  damage, it forgoes its breath weapon in favor of melee attacks. The dragon
+  uses Awesome Blow to attempt to knock opponents off the bridge into the molten
+  canal below.
+Morale: Bound to the city by ancient magics, the dragon fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: >-
+  Without its spells, Tar-Baphon's dragon has the following statistics: AC 14,
+  touch 9, flat-footed 14.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '695'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

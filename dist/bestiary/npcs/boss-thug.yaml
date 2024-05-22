@@ -1,0 +1,76 @@
+Name: Boss Thug
+CR: 1/2
+XP: '200'
+Race: Human
+Class: warrior 2
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception -1
+AC: 19, touch 11, flat-footed 18
+AC_Mods: (+6 armor, +1 Dex, +2 shield)
+HP: '22'
+HD: (2d10+7)
+Saves: Fort +4, Ref +1, Will -1
+Fort: '4'
+Ref: '1'
+Will: '-1'
+Speed: 20 ft.
+Melee:
+  - throwing axe +4 (1d6+1)
+Ranged:
+  - throwing axe +4 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 13
+  - 12
+  - 12
+  - 9
+  - 8
+  - 11
+BaseAtk: '2'
+CMB: '3'
+CMD: '14'
+Feats:
+  - Toughness
+  - Weapon Focus (throwing axe)
+Skills:
+  - Intimidate +4
+  - Knowledge (local) +1
+  - Linguistics +0
+Languages:
+  - Common
+  - Skald
+Source: PFS S2-15
+IsTemplate: '0'
+BeforeCombat: >-
+  The boss guesses the PCs' expedition leader to be whoever has the highest
+  Charisma, and orders the thugs not to attack that PC under any condition.
+DuringCombat: >-
+  The boss lets the thugs attack first, and holds back to throw axes at the
+  easiest targets. Once either down to just one axe or directly attacking in
+  melee, the boss shifts to close combat.
+Morale: >-
+  The boss fights until reduced to 5 hit points or less and then attempts to
+  flee.
+Gear: potions of cure light wounds (2)
+OtherGear: chainmail, heavy steel shield, throwing axes (5), 50 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5612'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

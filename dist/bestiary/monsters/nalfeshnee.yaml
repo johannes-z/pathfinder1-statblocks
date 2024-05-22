@@ -1,0 +1,129 @@
+Name: Nalfeshnee
+CR: '14'
+XP: '38400'
+Alignment: CE
+Size: Huge
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '5'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +31
+Aura: unholy aura (DC 23)
+AC: 29, touch 13, flat-footed 28
+AC_Mods: (+4 deflection, +1 Dex, +16 natural, -2 size)
+HP: '203'
+HD: (14d10+126)
+Saves: Fort +22, Ref +9, Will +21
+Fort: '22'
+Ref: '9'
+Will: '21'
+DR: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '25'
+Speed: 30 ft., fly 40 ft. (poor)
+Melee:
+  - bite +23 (3d8+11/19-20), 2 claws +23 (2d6+11)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: unholy nimbus
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: Constant
+      value: true seeing, unholy aura (DC 23)
+    - label: At will
+      value: >-
+        call lightning (DC 18), feeblemind (DC 20), greater dispel magic, slow
+        (DC 18), greater teleport (self plus 50 lbs. of objects only)
+    - label: 1/day
+      value: summon (level 5, 1 nalfeshnee 20%, 1d4 hezrous 40%, or 1d4 vrocks 50%)
+AbilityScores:
+  - 32
+  - 13
+  - 29
+  - 23
+  - 22
+  - 20
+BaseAtk: '14'
+CMB: '27'
+CMD: '42'
+Feats:
+  - Awesome Blow
+  - Cleave
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+Skills:
+  - Bluff +22
+  - Diplomacy +22
+  - Fly +10
+  - Intimidate +19
+  - Knowledge (arcana) +23
+  - Knowledge (planes) +23
+  - Knowledge (any one other) +20
+  - Perception +31
+  - Sense Motive +23
+  - Spellcraft +23
+  - Stealth +10
+  - Use Magic Device +22
+RacialMods: +8 on Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+Environment: any (Abyss)
+Organization: solitary or warband (1 nalfeshnee, 1 hezrou, and 2-5 vrocks)
+Treasure: standard
+Description_Visual: >-
+  A towering, corpulent beast, this fiend has the hideous head of a boar and
+  arms ending in fatty, four-fingered hands.
+Group: Demon
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Unholy Nimbus (Su)
+    description: >-
+      Three times per day as a free action a nalfeshnee can create a nimbus of
+      unholy light, causing nauseating beams of writhing color to play around
+      its body. One round later, the light bursts in a 60-foot radius. Any
+      non-demon creature caught within this area must succeed on a DC 22 Will
+      save or be dazed for 1d10 rounds as visions of madness hound it. The save
+      DC is Charisma-based.
+Description:
+  - >-
+    Few demons understand the inner workings of the Abyss like the nalfeshnee,
+    and it is not unusual to see a nalfeshnee seeming to serve the Abyss itself
+    rather than a demon lord. Some claim stewardship over the fleshy realms that
+    birth new demons, while others guard sites of particular significance deep
+    in the plane's secret reaches. Often, a nalfeshnee's realm in the Abyss
+    surpasses the strength and size of the largest of mortal kingdoms, for
+    nalfeshnees display a singular gift for managing and ordering the chaos of
+    the Abyss. Mortal summoners often seek them out for their unparalleled yet
+    mad intellects, ever taking care to comb through bargains with such demons
+    for hidden and unwanted consequences, for there is little a nalfeshnee will
+    agree to do that does not, in some sinister way, advance the needs and
+    desires of the Abyss. Nalfeshnees stand 20 feet tall and weigh 8,000 pounds.
+    They form from the souls of greedy or avaricious evil mortals, particularly
+    those who ruled over empires of slavery, theft, banditry, and more violent
+    vices.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Demon, Nalfeshnee
+id: '82'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

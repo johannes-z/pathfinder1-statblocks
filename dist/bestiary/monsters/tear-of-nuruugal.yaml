@@ -1,0 +1,118 @@
+Name: Tear of Nuruu'gal
+CR: '6'
+XP: '2400'
+Alignment: CN
+Size: Small
+Type: ooze
+SubType: (fire)
+Init: '-5'
+Senses:
+  - blindsight 60 ft.
+  - Perception -3
+AC: 6, touch 6, flat-footed 6
+AC_Mods: (-5 Dex, +1 size)
+HP: '62'
+HD: (5d8+40)
+Saves: Fort +8, Ref -4, Will -2
+Fort: '8'
+Ref: '-4'
+Will: '-2'
+DR: 5/-
+Immune: fire, ooze traits
+SR: '17'
+Weaknesses: vulnerability to cold
+Speed: 10 ft., climb 10 ft.
+Melee:
+  - slam +7 (1d6+3 plus burn and grab)
+Ranged:
+  - ranged touch -1 (by spell)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: burn (1d6, DC 19), constrict (1d6+3), symbiosis
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +0)
+  values:
+    - label: At will
+      value: detect thoughts (DC 7), produce flame
+    - label: 3/day
+      value: searing light
+AbilityScores:
+  - 14
+  - 1
+  - 24
+  - 4
+  - 5
+  - 1
+BaseAtk: '3'
+CMB: +4 (+8 grapple)
+CMD: 9 (can't be tripped)
+Feats:
+  - Ability Focus (symbiosis)
+  - Toughness
+  - Weapon Focus (slam)
+Skills:
+  - Climb +12
+  - Stealth +2
+Languages:
+  - telepathy 100 ft.
+Environment: any land
+Organization: solitary or pack (2-6)
+Treasure: none
+Description_Visual: >-
+  A slithering blob of amoeba-like protoplasm shines with flame, warping the air
+  around it in a searing mirage.
+Source: Lost Cities Of Golarion
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Symbiosis (Ex)
+    description: >-
+      As part of a constrict attack, a tear of Nuruu'gal can attempt to
+      forcefully inhabit a humanoid victim's body. A DC 21 Fortitude save
+      resists this intrusion and renders immunity to that ooze's symbiosis
+      ability for 24 hours; failure means the ooze spends a full-round action
+      inhabiting its new host. Once absorbed, the ooze grants incredible boons
+      to willing hosts, or slowly incinerates unwilling victims. A willing host
+      ceases aging, is sustained as if wearing a ring of sustenance, and becomes
+      sterile. He or she also gains the fire subtype, spell resistance, and
+      telepathic abilities of the tear of Nuruu'gal. A host can use the
+      creature's spell-like abilities, with save DCs calculated using the host's
+      Hit Dice and Charisma score, although daily limits of powers still apply.
+      Damage dealt to the host body does not harm the ooze. Unwilling victims
+      are granted no abilities, and are instead tortured with searing pain.
+      Victims take automatic burn damage each round, and must succeed on a DC 21
+      Fortitude save or become nauseated for 1d4 rounds. While this occurs, the
+      ooze may telepathically appeal to the host for control of the body to
+      prevent further pain (treat control as magic jar, with no receptacle
+      required). The ooze may vacate the body of a host as a full-round action,
+      bursting forth in a protoplasmic expulsion, dealing double burn damage. A
+      victim may attempt to expel the creature from his or her body as a
+      full-round action with a DC 21 Fortitude save, but each attempt results in
+      automatic burn damage from the ooze, and damage from the creature's
+      violent exit if successful (as if the ooze had left voluntarily). Remove
+      curse expels the creature, if the caster succeeds on a DC 21 caster level
+      check. The save DCs are Constitution-based.
+Description:
+  - >-
+    First spawned by the primordial godling Nuruu'gal in the lost Azlanti city
+    of Nal-Vashkin, these fiery, parasitic oozes contain a portion of the
+    creature's essence and foul sentience. The oozes hunt ceaselessly, seeking
+    to force their amoebic protoplasm into the bodies of humanoids to turn their
+    hosts to the service of their master, whether the hosts are willing or not.
+    After many years of possession, the host and the symbiote may undergo a
+    strange metamorphosis, exploding into a horrible light that catalyzes into a
+    being known as a shining child.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1407'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

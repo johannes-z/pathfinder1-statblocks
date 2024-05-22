@@ -1,0 +1,113 @@
+Name: Vlasko The Fang
+CR: '10'
+XP: '9600'
+Race: human
+Class: druid 11
+Alignment: NG
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +23
+AC: 24, touch 12, flat-footed 22
+AC_Mods: (+6 armor, +2 Dex, +4 natural, +2 shield)
+HP: '86'
+HD: (11d8+33)
+Saves: Fort +11, Ref +7, Will +13; +4 vs. fey and plant-targeted effects
+Fort: '11'
+Ref: '7'
+Will: '13'
+Save_Mods: +4 vs. fey and plant-targeted effects
+DR: 10/adamantine (110 points)
+Immune: poison
+Resist: electricity 10, fire 30
+Speed: 20 ft.
+Melee:
+  - +1 shock scimitar +13/+8 (1d6+4/15-20 plus 1d6 electricity)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: wild shape 4/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 11th; concentration +15)
+  values:
+    - label: 7/day
+      value: lightning arc (1d6+5 electricity)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 11th; concentration +15)   6th-chain lightningD (DC
+  20), fire seeds   5th-call lightning storm (DC 19), control windsD (DC 19),
+  stoneskin   4th-air walkD, cure serious wounds, freedom of movement (2), ice
+  storm   3rd-call lightning (DC 17), cure moderate wounds (2), gaseous formD,
+  greater magic fang, spike growth (DC 17)   2nd-barkskin, bull's strength,
+  flame blade, resist energy (2), wind wallD   1st-cure light wounds, endure
+  elements, entangle (DC 15), magic stone, obscuring mistD, produce flame   0
+  (at will)-detect magic, guidance, light, stabilize
+SpellDomains: Air
+AbilityScores:
+  - 16
+  - 14
+  - 14
+  - 10
+  - 18
+  - 8
+BaseAtk: '8'
+CMB: '11'
+CMD: '23'
+Feats:
+  - Combat Casting
+  - Death From Above
+  - Improved Critical (scimitar)
+  - Mounted Combat
+  - Ride-by Attack
+  - Vital Strike
+  - Weapon Focus (scimitar)
+Skills:
+  - Fly +9
+  - Knowledge (geography) +13
+  - Knowledge (nature) +15
+  - Perception +23
+  - Ride +13
+  - Survival +15
+Languages:
+  - Common
+  - Druidic
+SQ: >-
+  nature bond (Air domain), nature sense, trackless step, wild empathy +10,
+  woodland stride
+Source: AP 106
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Vlasko casts greater magic fang on Kazi every day. Before entering combat, he
+  casts barkskin, bull's strength, freedom of movement, resist energy (fire),
+  and stoneskin on himself, and freedom of movement and resist energy (fire) on
+  Kazi.
+DuringCombat: >-
+  Vlasko harasses foes with call lightning storm, chain lightning, fire seeds,
+  ice storm, and spike growth while in flight. When Kazi swoops in for an
+  attack, Vlasko attacks foes with his scimitar, using Death From Above and
+  Vital Strike. Vlasko also use his healing spells on Kazi and himself when
+  needed.
+Morale: >-
+  If Kazi is seriously wounded (reduced to fewer than 30 hit points) and Vlasko
+  is out of healing spells, he guides her out of the fight. If Kazi is slain,
+  Vlasko fights to the death.
+Gear: scroll of cure critical wounds, scroll of greater dispel magic
+OtherGear: >-
+  +2 hide armor, +1 shock scimitar, cloak of resistance +2, eyes of the eagle,
+  holly and mistletoe, spell component pouch, diamond dust (worth 500 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8368'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

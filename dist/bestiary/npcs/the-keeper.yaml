@@ -1,0 +1,130 @@
+Name: The Keeper
+CR: '14'
+XP: '38400'
+Race: exscinder archon
+MonsterSource: Pathfinder RPG Bestiary 4 24, Pathfinder RPG Bestiary 5 34
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (archon, extraplanar, good, lawful)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision, true seeing
+  - Perception +27
+AC: 31, touch 10, flat-footed 30
+AC_Mods: (+1 Dex, +21 natural, -1 size| +2 deflection bonus vs. evil)
+HP: '203'
+HD: (14d10+126)
+Saves: Fort +19, Ref +7, Will +15; +4 vs. poison
+Fort: '19'
+Ref: '7'
+Will: '15'
+Save_Mods: +4 vs. poison
+DR: 5/-, 10/evil
+Immune: acid, cold, electricity, fire, petrification
+Resist: sonic 5
+SR: '23'
+Speed: 20 ft., fly 80 ft. (good)
+Melee:
+  - +3 flaming longsword +26/+21/+16 (2d6+13/19-20 plus 1d6 fire)
+  - torturous touch +23 touch (2d6 plus 1d6 Dex damage and convulsions)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: agonized wail (DC 23), baleful gaze (DC 23), censor text
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +11)
+  values:
+    - label: Constant
+      value: detect evil, true seeing
+    - label: At Will
+      value: >-
+        cure light wounds, detect thoughts (DC 18), discern lies (DC 20), hold
+        monster (DC 21), holy smite (DC 20), invisibility (self only), locate
+        creature, locate object, modify memory (DC 20), protection from evil,
+        repress memoryOA, stabilize, zone of truth (DC 18)
+    - label: 3/day
+      value: dispel evil, fireball (DC 19), flame strike (DC 21), plane shift (DC 23)
+    - label: 1/day
+      value: discern location, find the path
+AbilityScores:
+  - 30
+  - 13
+  - 26
+  - 16
+  - 23
+  - 23
+BaseAtk: '14'
+CMB: '25'
+CMD: '36'
+Feats:
+  - Alertness
+  - Cleave
+  - Combat Reflexes
+  - Diehard
+  - Endurance
+  - Great Fortitude
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+Skills:
+  - Acrobatics +1 (-3 when jumping)
+  - Fly +3
+  - Intimidate +31
+  - Knowledge (arcana) +20
+  - Knowledge (geography) +17
+  - Knowledge (history) +20
+  - Knowledge (planes) +20
+  - Knowledge (religion) +20
+  - Linguistics +10
+  - Perception +27
+  - Sense Motive +27
+  - Spellcraft +10
+RacialMods: +8 Intimidate
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Halfling
+  - Ignan
+  - Infernal
+  - Kelish
+  - Sylvan
+  - telepathy 100 ft.
+  - truespeech
+SQ: change size, no breath, torturous touch
+Source: AP 112
+IsTemplate: '0'
+BeforeCombat: >-
+  The Keeper can change size at will from Small to Huge, but is Large when the
+  PCs first arrive in the Soul.
+DuringCombat: >-
+  The Keeper begins combat by activating their agonized wail. The Keeper prefers
+  to fight in melee with their flaming longsword, but makes use of their
+  spell-like abilities to augment their attacks. As the Keeper nears the PCs,
+  they are subject to the archon's baleful gaze. If the PCs gang up on the
+  Keeper, the guardian uses hold monster to reduce the number of simultaneous
+  attackers. The Keeper is immune to fire,  and thus doesn't hesitate to cast
+  fireball while in the area of effect.
+Morale: Insane and enraged, the Keeper fights to the death.
+Gear: +3 flaming longsword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: broken soul|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8905'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

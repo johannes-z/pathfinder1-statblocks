@@ -1,0 +1,110 @@
+Name: Disenchanter
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Large
+Type: magical beast
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 15, touch 12, flat-footed 12
+AC_Mods: (+3 Dex, +3 natural, -1 size)
+HP: '37'
+HD: (4d10+8)
+Saves: Fort +6, Ref +7, Will +3
+Fort: '6'
+Ref: '7'
+Will: '3'
+DR: 5/magic
+Speed: 30 ft.
+Melee:
+  - snout +7 touch (disenchantment) or 2 hooves +6  (1d6+3)
+Space: 10 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: At will
+      value: detect magic
+AbilityScores:
+  - 16
+  - 16
+  - 14
+  - 2
+  - 11
+  - 4
+BaseAtk: '4'
+CMB: '8'
+CMD: 21 (25 vs. trip)
+Feats:
+  - Iron Will
+  - Weapon Focus (snout)
+Skills:
+  - Perception +7
+Environment: any
+Organization: solitary or pair
+Treasure: none
+Description_Visual: >-
+  This creature resembles a massive blue furred camel with slightly translucent
+  skin and a long snout that ends in a suction-like cup.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disenchantment (Ex)
+    description: >-
+      A disenchanter that makes a successful touch attack with its snout drains
+      one magic item carried or worn by the target (determined randomly by the
+      DM). If the disenchanter aims at a particular item, it must make an attack
+      roll against that item's AC. Items worn or carried have an AC equal to 10
+      + its size modifier + the opponent's Dexterity modifier (if any). A
+      disenchanter does not provoke attacks of opportunity when using this
+      ability. An item struck must succeed on a DC 14 Fortitude save or
+      permanently lose all magical properties it possesses. An unattended magic
+      item has a save bonus equal to 2 + one-half its caster level. An attended
+      magic item either makes its save as its owner or uses its own saving throw
+      whichever is better. The save DC is Constitution-based. Disenchanters
+      cannot affect artifacts.
+Description:
+  - >-
+    The disenchanter is greatly feared for the damage it can cause. Much like a
+    rust monster, it feeds on objects most adventurers hold near and dear to
+    their hearts-magic items. A typical disenchanter is about 8 feet long and
+    weighs 600 pounds.
+  - >-
+    A disenchanter targets magical items carried or worn by an opponent. A
+    disenchanter is able to discern the most powerful magical items in a group
+    and always attack those items first, unless those items are too difficult to
+    reach (such as hidden in a backpack), in which case the disenchanter will
+    choose to attack a more readily available item (such as a magical shield).
+    It fastens its snout onto an item and drains the item's magical properties.
+    Magical weapons striking a disenchanter cannot be drained of their magical
+    properties.
+  - >-
+    A disenchanter's natural weapons are treated as magic weapons for the
+    purpose of overcoming damage reduction.
+  - >-
+    Credit The Disenchanter originally appeared in the First Edition Fiend Folio
+    (© TSR/Wizards of the Coast, 1981) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Roger
+    Musson.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2522'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

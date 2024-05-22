@@ -1,0 +1,93 @@
+Name: Crocodile
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Large
+Type: animal
+Init: '1'
+Senses:
+  - low-light vision
+  - Perception +8
+AC: 14, touch 10, flat-footed 13
+AC_Mods: (+1 Dex, +4 natural, -1 size)
+HP: '22'
+HD: (3d8+9)
+Saves: Fort +6, Ref +4, Will +2
+Fort: '6'
+Ref: '4'
+Will: '2'
+Speed: 20 ft., swim 30 ft.
+Speed_Mod: sprint
+Melee:
+  - bite +5 (1d8+4 plus grab) and tail slap +0 (1d12+2)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: death roll (1d8+6 plus trip)
+AbilityScores:
+  - 19
+  - 12
+  - 17
+  - 1
+  - 12
+  - 2
+BaseAtk: '2'
+CMB: +7 (+11 grapple)
+CMD: 18 (22 vs. trip)
+Feats:
+  - Skill Focus (Perception
+  - Stealth)
+Skills:
+  - Perception +8
+  - Stealth +5 (+13 in water)
+  - Swim +12
+RacialMods: +8 on Stealth in water
+SQ: hold breath
+Environment: warm rivers and marshes
+Organization: solitary, pair, or colony (3-12)
+Treasure: none
+Description_Visual: >-
+  This reptile lunges out of the placid water with shocking speed. Its jaw gapes
+  open in a roar, its powerful tail lashing behind.
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Roll (Ex)
+    description: >-
+      When grappling a foe of its size or smaller, a crocodile can perform a
+      death roll upon making a successful grapple check. As it clings to its
+      foe, it tucks in its legs and rolls rapidly, twisting and wrenching its
+      victim. The crocodile inflicts its bite damage and knocks the creature
+      prone. If successful, the crocodile maintains its grapple.
+  - name: Hold Breath (Ex)
+    description: >-
+      A crocodile can hold its breath for a number of rounds equal to 4 times
+      its Constitution score before it risks drowning.
+  - name: Sprint (Ex)
+    description: >-
+      Once per minute a crocodile may sprint, increasing its land speed to 40
+      feet for 1 round.
+Description:
+  - >-
+    A crocodile is a primeval reptile that dwells in swamps or along the banks
+    of rivers, a habitat that often puts it in violent contact with unsuspecting
+    prey that come to the water's edge to drink.
+  - >-
+    The typical crocodile is 14 feet long and weighs 1,400 pounds, but larger
+    species exist. You can use these statistics for similar creatures, such as
+    alligators.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Crocodile
+id: '69'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

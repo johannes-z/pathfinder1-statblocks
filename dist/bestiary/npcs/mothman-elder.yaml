@@ -1,0 +1,119 @@
+Name: Mothman Elder
+CR: '12'
+XP: '19200'
+Race: Mothman Elder
+Alignment: CN
+Size: Large
+Type: monstrous humanoid
+Init: '9'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +23
+Aura: warp elements (120 ft., DC 22)
+AC: 26, touch 14, flat-footed 21
+AC_Mods: (+5 Dex, +12 natural, -1 size)
+HP: '142'
+HD: (15d10+60)
+Saves: Fort +9, Ref +14, Will +16
+Fort: '9'
+Ref: '14'
+Will: '16'
+DefensiveAbilities: blur
+DR: 10/magic
+Resist: cold 20, fire 20
+SR: '23'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - 2 claws +20 (2d6+3/19-20)
+Ranged:
+  - obliteration ray +19 touch (8d6 energy)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: mind-warping gaze (DC 22)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +20)
+  values:
+    - label: Constant
+      value: blur, see invisibility
+    - label: At Will
+      value: control weather, greater dispel magic
+    - label: 3/day
+      value: >-
+        cloudkill (DC 20), hold monster (DC 20), phantasmal killer (DC 19),
+        scrying (DC 19)
+    - label: 1/day
+      value: earthquake (DC 23), incendiary cloud (DC 23)
+AbilityScores:
+  - 17
+  - 20
+  - 18
+  - 17
+  - 21
+  - 20
+BaseAtk: '15'
+CMB: '21'
+CMD: '34'
+Feats:
+  - Agile Maneuvers
+  - Blind-Fight
+  - Improved Critical (claw)
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Weapon Finesse
+  - Weapon Focus (claw)
+Skills:
+  - Fly +25
+  - Knowledge (arcana) +21
+  - Knowledge (dungeoneering) +21
+  - Perception +23
+  - Sense Motive +20
+  - Spellcraft +18
+  - Stealth +19
+Languages:
+  - Common
+  - Sylvan
+  - Undercommon (can't speak)
+  - telepathy 100 ft.
+Source: Mystery Monsters Revisited
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Warping Gaze (Su)
+    description: See page 194 of Pathfinder RPG Bestiary 2.
+  - name: Obliteration Ray (Su)
+    description: >-
+      As a swift action, a mothman elder can fire a ray of devastating energy as
+      a ranged touch attack that deals 8d6 points of damage (or 8d8 points of
+      damage against an object, automatically bypassing hardness). This attack
+      deals either acid, cold, electricity, or fire damage, as chosen by the
+      mothman elder at the start of its turn. This attack has a range of 180
+      feet with no range increment.
+  - name: Warp Elements (Su)
+    description: >-
+      A mothman elder's presence distorts the perceptions of those around it, to
+      the point that they believe it is either suddenly swelteringly hot or
+      numbingly cold. Any creature that starts its turn within 120 feet of a
+      mothman elder must succeed at a DC 22 Will save or immediately succumb to
+      the effects of extreme heat (Pathfinder RPG Core Rulebook 444) or extreme
+      cold (Core Rulebook 442). A mothman elder can switch between emitting a
+      hot or cold aura as a move action. This effect lasts as long as the target
+      remains within the area of effect and for 1d6 minutes afterward. A target
+      may attempt a new Will save every minute to prematurely end the effect.
+      This is a mind-affecting effect-the heat and cold are not real, and thus
+      energy resistance and spells like endure elements have no effect. The save
+      DC is Charisma-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3715'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

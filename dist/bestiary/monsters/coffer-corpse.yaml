@@ -1,0 +1,119 @@
+Name: Coffer Corpse
+CR: '3'
+XP: '800'
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 14, touch 11, flat-footed 13
+AC_Mods: (+1 Dex, +3 natural)
+HP: '16'
+HD: (2d8+4 plus 2)
+Saves: Fort +2, Ref +1, Will +4
+Fort: '2'
+Ref: '1'
+Will: '4'
+DefensiveAbilities: deceiving death, channel resistance +2
+DR: 5/magic and bludgeoning
+Immune: undead traits
+Speed: 20 ft.
+Melee:
+  - slam +4 melee (1d4+4 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death grip (1d4+4), fear
+AbilityScores:
+  - 16
+  - 12
+  - —
+  - 6
+  - 13
+  - 14
+BaseAtk: '1'
+CMB: +4 (+8 grapple)
+CMD: '15'
+Feats:
+  - Toughness
+Skills:
+  - Intimidate +6
+  - Perception +6
+  - Stealth +5
+Languages:
+  - Common
+Environment: any
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This creature appears as a desiccated humanoid shrouded in rotting, tattered
+  funerary clothes. Its hands end in sharpened claws with slightly elongated
+  fingernails.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Grip (Ex)
+    description: >-
+      Because the coffer corpse grasps the victim's throat, a creature in its
+      death grip cannot speak or cast spells with verbal components.
+  - name: Deceiving Death (Ex)
+    description: >-
+      In any round in which a coffer corpse is struck for 6 or more points of
+      damage (whether the damage bypasses the creature's damage reduction or
+      not), the creature slumps to the ground, seemingly destroyed. If it has
+      fastened its death grip on a victim, it releases its hold when it falls. A
+      DC 20 Sense Motive check sees through the ruse (necromancers gain a +2
+      competence bonus on this check). On its next turn, the coffer corpse rises
+      again as if reanimated, triggering its fear ability.
+  - name: Fear (Su)
+    description: >-
+      A creature viewing a coffer corpse rise after it uses its deceiving death
+      ability must make a DC 13 Will save or become panicked for 2d4 rounds.
+      This is a mind-affecting fear effect. The save DC is Charisma-based.
+Description:
+  - >-
+    The coffer corpse is an undead creature formed as the result of an
+    incomplete death ritual. It is often found haunting stranded funeral barges
+    or in other situations where a corpse has not been delivered to its final
+    resting place. The creature hates life and attacks living creatures on
+    sight.
+  - >-
+    A coffer corpse appears much as it did in life. At a distance, a coffer
+    corpse is often mistaken for a zombie.
+  - >-
+    In combat, a coffer corpse attacks with a slam attack. It attempts to grab
+    an opponent around the throat, and if successful, the creature does not let
+    go until either it is destroyed or the opponent is dead. Small percentages
+    (25%) of coffer corpses carry weapons (usually either longswords or clubs)
+    and use those in combat instead of their slam attack. Most however, rely on
+    their natural attack as it allows them to use their death grip ability
+    against an opponent.
+  - >-
+    A coffer corpse's natural weapons are treated as magic weapons for the
+    purpose of overcoming damage reduction.
+  - >-
+    Credit The Coffer Corpse originally appeared in the First Edition Fiend
+    Folio (© TSR/Wizards of the Coast, 1981) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Simon
+    Eaton.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2321'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

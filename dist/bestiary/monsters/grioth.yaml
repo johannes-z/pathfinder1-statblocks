@@ -1,0 +1,127 @@
+Name: Grioth
+CR: '1'
+XP: '400'
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '4'
+Senses:
+  - blindsight 20 ft., see in darkness
+  - Perception +6 (+10 in darkness)
+AC: 14, touch 14, flat-footed 10
+AC_Mods: (+4 Dex)
+HP: '13'
+HD: (2d10+2)
+Saves: Fort +1, Ref +7, Will +6
+Fort: '1'
+Ref: '7'
+Will: '6'
+Immune: cold
+Weaknesses: light sensitivity
+Speed: 30 ft., fly 40 ft. (average)
+Melee:
+  - >-
+    mwk voidglass kukri +3 (1d4+1/18-20 plus 1d4 nonlethal), bite -3 (1d6 plus
+    poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: mindshock
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 1st; concentration +1)
+  values:
+    - label: At Will
+      value: detect magic, mage hand, open/close
+    - label: 1/day
+      value: daze (DC 10), id insinuation (DC 12)
+AbilityScores:
+  - 10
+  - 18
+  - 12
+  - 13
+  - 13
+  - 11
+BaseAtk: '2'
+CMB: '2'
+CMD: '16'
+Feats:
+  - Iron Will
+Skills:
+  - Fly +9
+  - Knowledge (geography) +3
+  - Perception +6 (+10 in darkness)
+  - Sense Motive +3
+  - Stealth +9
+RacialMods: +4 Perception in darkness
+Languages:
+  - Aklo
+  - Grioth
+  - telepathy 30 ft.
+SQ: no breath
+Environment: any
+Organization: >-
+  solitary, pair, gathering (3-6 plus 1 3rd-level cleric), or cult (7-20 plus
+  2-6 3rd-level clerics, 2-4 3rd-level barbarians, and 1 7th-level cleric)
+Treasure: NPC gear (masterwork voidglass kukri, other treasure)
+Description_Visual: >-
+  This lanky, batlike humanoid has a long tail and four narrow eyes. The silent
+  creature moves with an unnerving grace.
+Source: The Dragon's Demand
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Id Insinuation (Sp)
+    description: >-
+      As a standard action once per day, a grioth can disrupt a creature's mind.
+      The target must be within 30 feet, and can resist this effect with a
+      successful DC 12 Will save-otherwise, the target becomes confused for as
+      long as the grioth concentrates plus 1 additional round after it ceases
+      concentrating, to a maximum number of rounds equal to 3 plus the Grioth's
+      total HD (5 rounds for most grioths). This is a mind-affecting effect, and
+      is equivalent to a 2nd-level spell. The save DC is Charisma-based.
+  - name: Mindshock (Su)
+    description: >-
+      When a grioth damages a creature with a voidglass weapon, a surge of the
+      grioth's violent psychic energy pulses through the weapon, causing an
+      additional 1d4 points of nonlethal damage. On a critical hit, the creature
+      struck must also succeed at a DC 12 Will save or be confused for 1d2
+      rounds. This is a mind-affecting effect. The save DC is Charisma-based and
+      includes a +2 racial bonus.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 12; frequency 1/round for 6 rounds; effect
+      shaken for 1 round; cure 1 save.
+Description:
+  - >-
+    Grioths inhabit rogue planets that have been cast away from the stars. They
+    often travel via portals to other worlds via that are undergoing eclipses to
+    pillage resources that are rare on their frozen homeworlds. Many members of
+    this evil race are known for their devotion to the Outer God Nyarlathotep
+    (whom they worship in his guise as the Haunter of the Dark), and it isn't
+    uncommon for colonies of grioths to be led by his clerics. Grioths' voices
+    are raspy and dry. They favor weaponry crafted from a strange material known
+    as voidglass (see page 35).
+  - >-
+    The grioth race is prone to mutations, their forms twisted by the eldritch
+    forces within the Dark Tapestry into lumbering giants or deformed horrors.
+    Some grioths grow unusually large and ferocious, and the elders of the race
+    possesses unusual and deadly psychic powers- abilities that aid them in
+    ruling their dark spire cities and in their constant war against their hated
+    foes, the entities of the Dominion of the Black.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4692'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

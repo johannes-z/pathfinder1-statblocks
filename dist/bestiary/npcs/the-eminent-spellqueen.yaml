@@ -1,0 +1,149 @@
+Name: The Eminent Spellqueen
+CR: '14'
+XP: '38400'
+Race: human
+Class: sorcerer 12
+MonsterSource: Pathfinder RPG Bestiary 188
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (humanoid, human)
+Init: '11'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+Aura: fear aura (DC 25)
+AC: 34, touch 18, flat-footed 31
+AC_Mods: (+4 armor, +5 deflection, +3 Dex, +8 natural, +4 shield)
+HP: '167'
+HD: (12d6+123)
+Saves: Fort +18, Ref +14, Will +17; +4 vs. channeled energy
+Fort: '18'
+Ref: '14'
+Will: '17'
+Save_Mods: +4 vs. channeled energy
+DefensiveAbilities: >-
+  channel resistance +4, contingency (dispel magic), freedom of movement, mirror
+  image, rejuvenation
+DR: 15/bludgeoning and magic
+Immune: cold, electricity, polymorph, undead traits
+Speed: 30 ft.
+Speed_Mod: fly 40 ft. (good)
+Melee:
+  - +1 duelingAPG adamantine dagger +7/+2 (1d4/19-20)
+  - touch +5 (1d8+6 negative energy plus paralyzing touch)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: paralyzing touch (DC 25)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +21)
+  values:
+    - label: 6th (4/day)
+      value: cold ice strikeUM (DC 25)
+    - label: 5th (7/day)
+      value: greater appearance of life*, overland flight, teleport
+    - label: 4th (8/day)
+      value: amnesia* (DC 23), dimension door, enervation, phantasmal killer (DC 25)
+    - label: 3rd (8/day)
+      value: >-
+        dispel magic, fireball (DC 22), major image (DC 24), slow (DC 22),
+        suggestion (DC 22)
+    - label: 2nd (8/day)
+      value: >-
+        glitterdust (DC 21), haunting mistsUM (DC 23), invisibility, mirror
+        image, resist energy, scorching ray
+    - label: 1st (9/day)
+      value: >-
+        color spray (DC 22), identify, mage armor, magic missile, protection
+        from good, shield
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 19), detect magic, flare (DC 19), ghost sound (DC
+        21), message, open/close (DC 16), ray of frost, read magic
+AbilityScores:
+  - 8
+  - 16
+  - —
+  - 16
+  - 15
+  - 28
+BaseAtk: '6'
+CMB: '5'
+CMD: '23'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Greater Spell Focus (illusion)
+  - Improved Initiative
+  - Iron Will
+  - Persistent Spell
+  - Quicken Spell
+  - Skill Focus (Knowledge [arcana])
+  - Spell Focus (illusion)
+  - Toughness
+Skills:
+  - Bluff +26
+  - Diplomacy +20
+  - Disguise +29
+  - Fly +13
+  - Intimidate +20
+  - Knowledge (arcana) +24
+  - Knowledge (local) +18
+  - Perception +19
+  - Sense Motive +19
+  - Spellcraft +18
+  - Stealth +17
+  - Use Magic Device +14
+RacialMods: +8 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Celestial
+  - Common
+  - Dwarven
+  - Elven
+SQ: >-
+  arcane bond (ring of protection +5), bloodline arcana (+1 DC for metamagic
+  spells that increase spell level), blush of youth*, metamagic adept (3/day),
+  exceptional wealth, new arcana
+Source: Villain Codex
+IsTemplate: '0'
+Bloodline: arcane
+BeforeCombat: >-
+  The Spellqueen has her blush of youth ritual active and a contingency (via her
+  mnemonic vestment on a previous day) to dispel magic. She casts mage armor,
+  overland flight, mirror image, and shield.
+DuringCombat: >-
+  The Eminent Spellqueen attempts to eliminate foes with cold ice strike or use
+  quickened spells to cast two spells each round.
+Gear: >-
+  lesser extend metamagic rod, reach metamagic rodAPG, scroll of contingency,
+  scroll of dominate person, scroll of fickle windsUM, scroll of icy prisonUM,
+  scroll of illusory wall, wand of cure serious wounds (5 charges), wand of
+  false life (11 charges), wand of freedom of movement (9 charges), wand of
+  inflict light wounds (10 charges)
+OtherGear: >-
+  +1 duelingAPG adamantine dagger, amulet of natural armor +3, belt of
+  incredible dexterity +4, circlet of persuasion, cloak of resistance +5, dust
+  of illusion, handy haversack, headband of alluring charisma +6, mnemonic
+  vestment, ring of mind shielding, ring of protection +5, statuette for
+  contingency, 198 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: lich|
+BaseStatistics: >-
+  Without her spells, the Spellqueen's statistics are AC 26, touch 18,
+  flat-footed 23; hp 152 (12d6+108); Defensive Abilities no contingency, freedom
+  of movement, or mirror image; Speed no fly speed; Skills Bluff +24, Diplomacy
+  +18, Disguise +27, Fly +3, Intimidate +18; SQ no blush of youth*.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8799'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

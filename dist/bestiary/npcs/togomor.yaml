@@ -1,0 +1,182 @@
+Name: Togomor
+CR: '15'
+XP: '51200'
+Race: human
+Class: wizard 7/bloatmage 9
+MonsterSource: 'Pathfinder Campaign Setting: City of Strangers 61'
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '3'
+Senses:
+  - arcane sight, darkvision 60 ft., see invisibility
+  - Perception +16
+AC: 19, touch 9, flat-footed 19
+AC_Mods: (+4 armor, -1 Dex, +2 natural, +4 shield)
+HP: '162'
+HD: (16d6+103)
+Saves: Fort +10, Ref +4, Will +10
+Fort: '10'
+Ref: '4'
+Will: '10'
+DefensiveAbilities: contingency, corpulence
+Speed: 10 ft., fly 30 ft. (average)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hand of the apprentice (9/day)
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 16th; concentration +22)  8th-horrid wilting (DC
+  24), telekinetic sphere (DC 25)  7th-quickened displacement, prismatic spray,
+  project image (DC 23)  6th-disintegrate (DC 22), greater dispel magic,
+  quickened invisibility, summon monster VI  5th-cloudkill (DC 21), cone of cold
+  (DC 22), feeblemind (DC 21), quickened magic missile, overland flight 
+  4th-dimension door (2), fear (DC 20), greater invisibility, illusory wall (DC
+  20)  3rd-dispel magic, extended false life, lightning bolt (2, DC 20),
+  nondetection  2nd-bear's endurance, blindness/deafness (DC 18), glitterdust
+  (DC 18), mirror image, scorching ray, spider climb  1st-charm person (DC 17),
+  feather fall, grease (DC 17), mage armor, magic missile, shield  0 (at
+  will)-light, mage hand, prestidigitation, touch of fatigue (DC 16)
+AbilityScores:
+  - 14
+  - 8
+  - 20
+  - 22
+  - 10
+  - 12
+BaseAtk: '7'
+CMB: '9'
+CMD: '18'
+Feats:
+  - Bloatmage Initiate (evocation)
+  - Craft Construct
+  - Craft Magic Arms and Armor
+  - Craft Staff
+  - Craft Wondrous Item
+  - Extend Spell
+  - Improved Familiar
+  - Improved Initiative
+  - Quicken Spell
+  - Scribe Scroll
+  - Spell Focus (evocation)
+Skills:
+  - Acrobatics +12
+  - Craft (armor) +23
+  - Diplomacy +10
+  - Fly +0
+  - Knowledge (arcana) +25
+  - Knowledge (local) +25
+  - Knowledge (nobility) +25
+  - Knowledge (planes) +25
+  - Perception +16
+  - Spellcraft +25
+  - Use Magic Device +20
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Infernal
+  - Shadowtongue
+  - Shoanti
+  - Varisian
+  - tongues
+SQ: >-
+  arcane bond (imp named Pudgyknuckles), bloat, blood pool, hemophilia,
+  permanent spells, possessed
+Source: Curse Of The Crimson Throne Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bloat (Su)
+    description: >-
+      Togomor can exert himself up to three times per day as a free action to
+      gain 1d12 blood points to use with his blood pool ability (see below).
+      This can fill his blood pool to a point beyond his normal limit of 9 blood
+      points, but as long as his blood pool contains more than 9 blood points
+      (but fewer than 18 blood points), Togomor is sickened. If this ability
+      fills his blood pool to 18 blood points or more, he flies into a homicidal
+      range and attacks randomly with his most damaging attacks and abilities at
+      friends and foes alike for 1d6 rounds or until his blood point total is
+      reduced to 0 (whichever comes first); at the end of this rage, Togomor's
+      hit points drop to -1 and he begins dying.
+  - name: Blood Pool (Su)
+    description: >-
+      Togomor has a blood pool that represents an overload to his system of
+      excess blood to extend his arcane abilities beyond their normal level.
+      Togomor's blood pool consists of 9 blood points that can be spent at the
+      time of casting to cast a spell without using that spell's spell slot,
+      leaving it available for further use later in the day. When he does so,
+      Togomor spends blood points equal to the spell slot being retained.
+      Togomor's blood pool refills to its normal maximum of 9 when he rests to
+      regain spells; if he has more than 9 points at this time (due to use of
+      his bloat ability), he gains no additional points from rest. Some
+      bloatmages conduct constant rituals involving leeches or exsanguination in
+      an attempt to regulate their systems and to minimize the results from
+      using the bloat ability (and to help prevent overbloating), but Togomor
+      does not use these rituals. Instead, he simply avoids using his bloat
+      ability until his blood pool is at 5 or lower. Contingency If Togomor
+      snaps his fingers (a swift action as long as he has a hand free), a
+      stoneskin spell activates on him.
+  - name: Corpulence (Ex)
+    description: >-
+      Togomor is so massive that his rolls of fatty, blood-laden flesh grant him
+      a +2 natural armor bonus but reduce his base speed by 10 feet-combined
+      with the fact that his weight results in him carrying a medium load, this
+      means his speed is effectively 10 feet.
+  - name: Hemophilia (Ex)
+    description: >-
+      Togomor is particularly susceptible to bleed effects, and the DC of any
+      Heal check to stop a bleed effect on him is 5 higher than normal. In
+      addition, if Togomor takes bleed damage, he loses 1 blood point from his
+      blood pool; this loss of blood points is cumulative for multiple bleed
+      attacks, but not each time he takes damage from the same attack. Permanent
+      Spells Togomor has made the following spells permanent on himself: arcane
+      sight, darkvision, see invisibility, and tongues.
+  - name: Possessed (Su)
+    description: >-
+      Togomor is possessed by the belier devil Sermignatto, who languishes on
+      the Ethereal Plane as long as he controls the bloatmage (see area A59).
+Gender: Male
+BeforeCombat: >-
+  Togomor casts extended false life, overland flight, mage armor, and
+  nondetection on himself every morning. Once the castle's alarm is raised,
+  Togomor takes the time to cast shield and bear's endurance before he responds
+  to the alarm.
+DuringCombat: >-
+  It's unlikely for the PCs to actually encounter Togomor here, unless this room
+  happens to be their first target on visiting the castle. If confronted here
+  before he prepares a defense, Togomor uses dimension door to travel to area
+  A59, casts his preparatory spells, and then either waits for the PCs to
+  confront him there or waits for them to trigger an alarm elsewhere, whereupon
+  he casts greater invisibility and then uses dimension door to that location to
+  offer aid. See area A45 for sample tactics tailored to that location; you can
+  use most of these tactics anywhere else in the castle with a little
+  modification.
+Morale: >-
+  Togomor doesn't have control of his actions as long as he remains possessed,
+  but Sermignatto doesn't take unnecessary risks with his puppet. If reduced to
+  fewer than 30 hit points, Togomor flees via dimension door to area A59, where
+  he makes his last stand.
+Gear: >-
+  scroll of break enchantment, scroll of greater dispel magic, scroll of greater
+  teleport, scrolls of stoneskin (2), scroll of wall of force (CL 10th),  staff
+  of evocation (10 charges)
+OtherGear: >-
+  handy haversack, headband of vast intelligence +4 (grants ranks in Acrobatics
+  and Use Magic Device), necklace of adaptation, ring of keys (opens all locks
+  in the castle unless the lock's description says otherwise), spell component
+  pouch, 20 gp, 12 cp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8698'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

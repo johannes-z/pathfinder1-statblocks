@@ -1,0 +1,89 @@
+Name: Supply Sack
+CR: '4'
+XP: '1200'
+Race: Animated object
+MonsterSource: Pathfinder RPG Bestiary 14
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception -5
+AC: 14, touch 10, flat-footed 14
+AC_Mods: (+4 natural)
+HP: '36'
+HD: (3d10+20)
+Saves: Fort +1, Ref +1, Will -4
+Fort: '1'
+Ref: '1'
+Will: '-4'
+DR: 5/piercing or slashing
+Immune: construct traits
+Speed: 30 ft.
+Melee:
+  - slam +5 (1d6+3 plus grab)
+Ranged:
+  - spit supplies (see below)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (1d6+3 plus caustic contents), strangle
+AbilityScores:
+  - 14
+  - 10
+  - —
+  - —
+  - 1
+  - 1
+BaseAtk: '3'
+CMB: +5 (+9 grapple)
+CMD: '15'
+SQ: >-
+  construction points (cloth, constrict, grab, supplies, spit supplies,
+  strangle)
+Source: PFS S7-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Caustic Contents (Ex)
+    description: >-
+      The supply sack deals an additional 1d4 points of acid damage and 1d4
+      points of fire damage when it constricts a creature.
+  - name: Cloth (Ex)
+    description: >-
+      The supply sack is made of cloth. This ability replaces an animated
+      object's typical hardness 5 with DR 5/piercing or slashing.
+  - name: Spit Supplies (Ex)
+    description: >-
+      The supply sack has two main pouches; one filled with weapons and the
+      other with alchemical items. Each time the sack uses spit supplies, it
+      makes each of the following attacks against a random target within 30
+      feet. The alchemical items do not deal the typical splash or ongoing
+      damage, and instead function as listed below. When it uses this ability,
+      it also spits a variety of vials of liquid that have no effect on their
+      targets. 1: longsword +3 (1d8+2/19-20) 2: club +3 (1d6+2) 3: alchemist's
+      fire +3 touch (1d6+2 fire) 4: acid flask +3 touch (1d6+2 acid)
+  - name: Strangle (Ex)
+    description: >-
+      A creature grappled by a supply sack cannot speak or cast spells with
+      verbal components.
+DuringCombat: >-
+  The supply sack attacks anyone within area D1. It does not continue attacking
+  unconscious creatures.
+Morale: >-
+  The sack is mindless, and does not surrender. It does not pursue creatures
+  outside of area D1.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12727'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

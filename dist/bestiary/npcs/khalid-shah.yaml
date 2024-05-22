@@ -1,0 +1,156 @@
+Name: Khalid-Shah
+CR: '11'
+XP: '12800'
+Race: shaitan
+Class: rogue 6
+MonsterSource: Pathfinder RPG Bestiary 143, Advanced Bestiary 183
+Alignment: CN
+Size: Large
+Type: outsider
+SubType: (earth, elemental, extraplanar, water)
+Init: '8'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +21
+AC: 24, touch 14, flat-footed 19
+AC_Mods: (+4 Dex, +1 dodge, +10 natural, -1 size)
+HP: '154'
+HD: (15 HD; 9d10+6d8+75)
+Saves: Fort +13, Ref +12, Will +11
+Fort: '13'
+Ref: '12'
+Will: '11'
+DefensiveAbilities: evasion, trap sense +2, uncanny dodge, DR 10/adamantine
+Immune: electricity, elemental traits
+Speed: 20 ft., burrow 60 ft., climb 30 ft., swim 30 ft.
+Melee:
+  - 2 slams +21 (2d6+8/19-20 plus grab)
+Ranged:
+  - mudball +16 touch (1d8+6 nonlethal)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  earth and water mastery, exude muck, metalmorph, mudball, smother, sneak
+  attack +3d6, stone curse
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +10)
+  values:
+    - label: At will
+      value: >-
+        meld into stone, plane shift (willing targets to elemental planes,
+        Astral Plane, or Material Plane only), soften earth and stone, stone
+        shape, veil (self only)
+    - label: 3/day
+      value: >-
+        quickened glitterdust (DC 13), rusting grasp, stoneskin, stone tell,
+        wall of stone
+    - label: 1/day
+      value: transmute mud to rock, transmute rock to mud
+AbilityScores:
+  - 22
+  - 18
+  - 20
+  - 18
+  - 17
+  - 12
+BaseAtk: '13'
+CMB: +20 (+24 bull rush or grapple)
+CMD: 35 (37 vs. bull rush)
+Feats:
+  - Combat Casting
+  - Dodge
+  - Greater Bull Rush
+  - Improved Bull Rush
+  - Improved Critical (slam)
+  - Improved InitiativeB
+  - Power Attack
+  - Quicken Spell-Like Ability (glitterdust)
+  - Weapon Focus (slam)
+Skills:
+  - Appraise +22
+  - Bluff +19
+  - Climb +32
+  - Craft (gemcutting) +16
+  - Escape Artist +32
+  - Knowledge (dungeoneering) +19
+  - Knowledge (engineering) +19
+  - Perception +21
+  - Sense Motive +21
+  - Spellcraft +22
+  - Stealth +18 (+22 in areas of mud or silt)
+  - Swim +32
+Languages:
+  - Aquan
+  - Auran
+  - Common
+  - Ignan
+  - Terran
+  - telepathy  100 ft.
+SQ: >-
+  rogue talents (slow reactions, stand up, surprise attack), stone glide,
+  trapfinding +3
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Earth and Water Mastery (Ex)
+    description: >-
+      Khalid-Shah gains a +1 morale bonus on attack and damage rolls (already
+      factored into his stats) as long as he touches earth or water (or a
+      combination of both). He takes a -4 morale penalty on attack and damage
+      rolls when attacking an airborne creature or attacking while airborne.
+  - name: Exude Muck (Su)
+    description: >-
+      As a full-round action, Khalid-Shah can exude a puddle of slippery muck in
+      a 10-foot-radius spread. This muck remains in the affected area until
+      washed away. It otherwise functions as a grease spell (DC 15). Creatures
+      with the earth or water subtypes are immune to this effect.
+  - name: Mudball (Su)
+    description: >-
+      Khalid-Shah can hurl a mudball as a ranged touch attack with a 20-foot
+      range increment. It deals 1d8+6 points of nonlethal damage, and covers the
+      target in slippery sludge, affecting the target's equipment as if by a
+      grease spell, as well as granting the target fire resistance 3 for the
+      duration. The slippery coating lasts for 1 minute or until washed off with
+      at least 10 gallons of water. Creatures with the water subtype are immune
+      to this effect.
+  - name: Smother (Ex)
+    description: >-
+      On a successful grapple check, Khalid-Shah can fill his opponent's mouth
+      and nose with noxious muck. The opponent must immediately hold her breath
+      or drown (Pathfinder RPG Core Rulebook 445) and cannot speak or cast
+      spells with a verbal component. Furthermore, the opponent must make a DC
+      19 Fortitude save each round that she is unable to breathe or be nauseated
+      until 1d4 rounds after the muck is cleared. A creature can remove this
+      smothering muck by succeeding on a DC 15 Constitution check as a move
+      action that provokes attacks of opportunity. This move action may be
+      performed even while being grappled. The save DC is Constitution-based.
+Gender: Male
+BeforeCombat: Khalid-Shah casts stoneskin on himself before engaging in combat.
+DuringCombat: >-
+  Khalid-Shah uses transmute mud to rock on anyone floundering in his mud pit in
+  order to encase the victim in a shell of hardened stone. His affinity with the
+  magic is such that he can transform single 10-foot cubes of mud around PCs in
+  order to trap them in the cubes' confines. The cubes of stone then sink to the
+  bottom of the pit; entrapped characters must be freed before they drown or
+  suffocate within the rock. If the PCs avoid his mud pit, Khalid-Shah resorts
+  to mudballs and smother attacks to incapacitate them.
+Morale: >-
+  If reduced to fewer than 15 hit points, Khalid-Shah retreats to the bottom of
+  his pit and seals it above himself with a horizontal wall of stone.
+OtherGear: amulet of mighty fists +1, necklace of blue crystals (see Treasure)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '1'
+Swim: '1'
+Land: '1'
+TemplatesApplied: muck|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1041'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

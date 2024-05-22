@@ -1,0 +1,119 @@
+Name: Necro-Phantom
+CR: '3'
+XP: '800'
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '1'
+Senses:
+  - darkvision 60 ft., sense necromancy 60 ft.
+  - Perception +11
+AC: 15, touch 11, flat-footed 14
+AC_Mods: (+1 Dex, +4 natural)
+HP: '26'
+HD: (4d8+8)
+Saves: Fort +3, Ref +2, Will +5
+Fort: '3'
+Ref: '2'
+Will: '5'
+DefensiveAbilities: channel resistance +2, resist the grave
+DR: 5/magic
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - 2 claws +7 (1d6+3 plus 1d4 Con damage), bite +6 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: grave touch
+AbilityScores:
+  - 16
+  - 13
+  - —
+  - 10
+  - 12
+  - 14
+BaseAtk: '3'
+CMB: '6'
+CMD: '17'
+Feats:
+  - Skill Focus (Perception)
+  - Weapon Focus (claw)
+Skills:
+  - Climb +8
+  - Intimidate +9
+  - Perception +11
+  - Spellcraft +5
+  - Stealth +8
+Languages:
+  - Common
+Environment: any
+Organization: solitary or gang (2-5)
+Treasure: none
+Description_Visual: >-
+  This creature appears to be a rotting corpse dressed in dirty and torn
+  clothing. Its hair is unkempt, its nails long and filthy. Its eyes show no
+  semblance of life but glow with an eerie pale green light.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Grave Touch (Su)
+    description: >-
+      The claws of a necro-phantom deal 1d4 points of Constitution damage (DC 14
+      Will save negates). A successful critical hit causes 1d4 points of
+      Constitution damage and 1 point of Constitution drain (instead of double
+      Constitution damage). With each successful attack, a necro-phantom gains 5
+      temporary hit points. The save DC is Charisma-based.
+  - name: Resist the Grave (Ex)
+    description: >-
+      A necro-phantom gains a +4 racial bonus on saving throws against spells
+      and spell-like abilities from the school of Necromancy.
+  - name: Sense Necromancy (Su)
+    description: >-
+      A necro-phantom can attempt a Spellcraft check to identify a spell being
+      cast within a 60- foot radius (DC 15 + spell level). The necro-phantom
+      gains a +4 racial bonus on its check if the spell is from the school of
+      Necromancy.
+Description:
+  - >-
+    A creature that dies (either of its own accord or one that is killed) in an
+    area poisoned by necromantic magic sometimes returns to the land of the
+    living as a necro-phantom, an evil undead creature with a hatred for all
+    things living, especially those who dabble in necromancy. Necro-phantoms are
+    found haunting cemeteries, temples, mausoleums, and any other place
+    necromantic magic is or was once prevalent. Often more than one
+    necro-phantom is encountered; some strange effect of the magic that created
+    them seems to draw these creatures to one another.
+  - >-
+    A necro-phantom appears as a rotting desiccated corpse still dressed in the
+    clothing it wore in life (though it is now tattered and worn). Its nails are
+    filthy and long and its teeth are broken. Each necro-phantom varies in
+    height from 5 feet to almost 7 feet tall and weighs anywhere from 100 pounds
+    to over 200 pounds. Necro-phantoms can speak Common, but seldom bother
+    unless they are cursing a necromancy-wielding opponent.
+  - >-
+    Necro-phantoms attack their opponents by raking and slashing with their
+    claws. A necro-phantom engaged in battle with a spellcaster uses its sense
+    magic ability to attempt to identify any spell being cast. If it detects a
+    necromancy spell, it focuses its attention on that spellcaster, ignoring all
+    other opponents until the necromancy-wielding caster flees or is dead. If
+    one necro-phantom out of a group successfully identifies a necromancy spell,
+    it signals to the others of its kind and all move to attack the spellcaster.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5017'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,108 @@
+Name: Mantrithor Thrax
+CR: '7'
+XP: '3200'
+Race: human
+Class: conjurer 8
+Alignment: LE
+Size: Medium
+Type: humanoid
+Init: '1'
+Senses:
+  - Perception +8
+AC: 20, touch 11, flat-footed 19
+AC_Mods: (+4 armor, +1 Dex, +1 natural, +4 shield)
+HP: '70'
+HD: (8d6+40)
+Saves: Fort +5, Ref +3, Will +6
+Fort: '5'
+Ref: '3'
+Will: '6'
+DR: 10/adamantine
+Speed: 30 ft.
+Speed_Mod: dimension step (240 ft./day)
+Melee:
+  - +1 mithral quarterstaff +7 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: acid dart 6/day (+5 ranged touch, 1d6+4 acid damage)
+SpellsKnown:
+  header: >-
+    Spells Known (CL 8th, +5 ranged touch)  4th-stoneskin, summon monster IV
+    (2)  3rd-haste, stinking cloud (DC 18), summon monster III (2)  2nd-acid
+    arrow, bear's endurance, glitterdust (DC 17), summon monster II  1st-jump,
+    mage armor, protection from evil, shield, summon monster I
+  values:
+    - label: 0 (at will)
+      value: detect magic, prestidigitation, read magic, resistance
+AbilityScores:
+  - 14
+  - 12
+  - 16
+  - 16
+  - 10
+  - 8
+BaseAtk: '4'
+CMB: '6'
+CMD: '17'
+Feats:
+  - Augment Summoning
+  - Combat Casting
+  - Craft Wand
+  - Greater Spell Focus (conjuration)
+  - Scribe Scroll
+  - Spell Focus (conjuration)
+  - Toughness
+Skills:
+  - Acrobatics +9
+  - Intimidate +8
+  - Knowledge (arcana) +14
+  - Knowledge (local) +14
+  - Perception +8
+  - Spellcraft +14
+Languages:
+  - Auran
+  - Common
+  - Ignan
+  - Infernal
+SQ: arcane bond (quarterstaff), summoner's charm
+Source: AP 27
+IsTemplate: '0'
+Gender: Male
+ProhibitedSchools: enchantment, illusion
+BeforeCombat: >-
+  Thrax casts stoneskin, mage armor, and shield on himself before he enters the
+  ring-even before the battle starts, he's preparing, if unconsciously, for a
+  worst-case scenario that sees him losing the battle and then attacking the PCs
+  directly.
+DuringCombat: >-
+  Once Thrax summons his first batch of lemures (using summon monster IV to
+  summon 1d4+1 of the devils), he casts haste on the devils on the same round
+  they appear. Every round thereafter, he casts additional summon monster spells
+  to call more and more lemures into the battle until he runs out with his last
+  summon monster II spell. If things go bad for Thrax and he attacks the PCs, he
+  casts stinking cloud into the cage with the rest of the party, and follows up
+  with a dimension step to attack the party or (if the PCs used a champion
+  rather than a summoned creature) the winning gladiator.
+Morale: >-
+  Once Thrax snaps and attacks the PCs, he fights to the death-he won't accept
+  offers to surrender and must be magically or physically restrained if the PCs
+  want to avoid killing him.
+OtherGear: >-
+  +1 mithral quarterstaff with twin rubies for eyes (worth 4,100 gp in all),
+  amulet of natural armor +1, pearl of power (1st), gold Hellcaller's Cup trophy
+  (worth 1,000 gp), diamond dust worth 500 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '389'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,124 @@
+Name: Ascalar Vruul
+CR: '6'
+XP: '2400'
+Race: human
+Class: sorcerer 7
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception +7
+AC: 17, touch 13, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, +1 Dex, +1 dodge)
+HP: '56'
+HD: (7d6+29)
+Saves: Fort +4, Ref +4, Will +8; +2 vs. poison
+Fort: '4'
+Ref: '4'
+Will: '8'
+Save_Mods: +2 vs. poison
+DefensiveAbilities: +2 vs. poison
+Resist: fire 5
+Speed: 30 ft.
+Melee:
+  - mwk dagger +3 (1d4-1/19-20), quarterstaff +2 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 7th; concentration +11)
+  values:
+    - label: 7/day
+      value: corrupting touch (3 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (5/day)
+      value: fireball (DC 18), spiked pitAPG (DC 17), suggestion (DC 17)
+    - label: 2nd (7/day)
+      value: acid arrow, hideous laughter (DC 16), mirror image, scorching ray
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 17), ear-piercing screamUM (DC 16), hypnotism (DC 15),
+        illusion of calmUM (DC 15), mage armor, protection from good
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, flare (DC 15), light, mage hand, read magic,
+        resistance
+AbilityScores:
+  - 8
+  - 13
+  - 12
+  - 14
+  - 10
+  - 18
+BaseAtk: '3'
+CMB: '2'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Improved Initiative
+  - Iron Will
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Bluff +14
+  - Diplomacy +14
+  - Knowledge (arcana) +9
+  - Perception +7
+  - Sense Motive +3
+  - Spellcraft +12
+Languages:
+  - Common
+  - Elven
+  - Infernal
+SQ: bloodline arcana (+2 DC for charm spells)
+Source: PFS S4-16
+IsTemplate: '0'
+Gender: Male
+Bloodline: infernal
+BeforeCombat: >-
+  If Ascalar knows combat is imminent, he casts mage armor and false life from
+  his wands, and then casts illusion of calm so he can continue to act and cast
+  spells without looking like a threat to the PCs. (These effects are already
+  calculated into his statistics.) If the PCs seek to parlay first, he tries to
+  cast suggestion and charm person to gain an advantage.
+DuringCombat: >-
+  When combat begins, Ascalar casts mirror image and then targets his foes with
+  his offensive spells like fireball, spiked pit, hideous laughter, ear-piercing
+  scream, acid arrow, and scorching ray. After he casts these spells, Ascalar
+  targets foes with his wand of spontaneous immolation. He avoids melee at all
+  costs.
+Morale: >-
+  Ascalar is a coward at heart with no true loyalty to his companions. If
+  reduced to 15 hit points or less, Ascalar tries to flee to area C1 to drink
+  his healing potions. If reduced to 5 hit points or less, Ascalar surrenders
+  and promises to assist the PCs in any way possible if they spare his life and
+  help him escape the vault, He will of course betray the PCs at the first
+  opportunity.
+Gear: >-
+  potions of cure light wounds (2), potion of cure serious wounds, wand of false
+  life (6 charges), wand of mage armor (30 charges), wand of spontaneous
+  immolationUC (15 charges)
+OtherGear: mwk dagger, quarterstaff, cloak of resistance +1, ring of protection +1, 48 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without the benefit of his preparatory spells, Ascalar has the following
+  statistics: AC 17, flat-footed 11; hp 48.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7706'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

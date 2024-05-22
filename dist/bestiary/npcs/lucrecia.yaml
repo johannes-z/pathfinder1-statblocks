@@ -1,0 +1,139 @@
+Name: Lucrecia
+CR: '10'
+XP: '9600'
+Race: lamia matriarch
+Class: sorcerer 2
+MonsterSource: Pathfinder RPG Bestiary 2 175
+Alignment: CE
+Size: Large
+Type: monstrous humanoid
+SubType: (shapechanger)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +2
+AC: 26, touch 14, flat-footed 21
+AC_Mods: (+4 armor, +5 Dex, +8 natural, -1 size)
+HP: '141'
+HD: (14 HD; 12d10+2d6+68)
+Saves: Fort +9, Ref +14, Will +14
+Fort: '9'
+Ref: '14'
+Will: '14'
+Immune: mind-affecting
+SR: '19'
+Speed: 30 ft.
+Melee:
+  - >-
+    +1 keen dagger +18/+13/+8 (1d4+8/17-20 +1 Wisdom drain on first strike in a
+    round), mwk dagger +18/+13/+8 (1d4+7/17-20)
+  - touch +14 (1d4 Wisdom drain+10)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: Wisdom drain
+SpellLikeAbilities:
+  header: Lamia Matriarch Spell-Like Abilities (CL 12th; concentration +19)
+  values:
+    - label: At Will
+      value: charm monster (DC 21), ventriloquism (DC 18)
+    - label: 3/day
+      value: >-
+        deep slumber (DC 20), dream, major image (DC 20), mirror image,
+        suggestion (DC 20) Bloodline Spell-Like Abilities (CL 8th; concentration
+        +15)
+    - label: 10/day
+      value: laughing touch
+SpellsKnown:
+  header: Spells Known (CL 8th; concentration +15)
+  values:
+    - label: 4th (4/day)
+      value: dimension door
+    - label: 3rd (7/day)
+      value: cure critical wounds, haste
+    - label: 2nd (8/day)
+      value: enthrall (DC 19), hold person (DC 19), invisibility
+    - label: 1st (8/day)
+      value: >-
+        cure light wounds, divine favor, mage armor, magic missile, sanctuary
+        (DC 18)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze (DC 17), detect magic, ghost sound, mage hand,
+        mending, open/close, prestidigitation
+AbilityScores:
+  - 24
+  - 21
+  - 19
+  - 16
+  - 14
+  - 25
+BaseAtk: '13'
+CMB: '21'
+CMD: 36 (can't be tripped)
+Feats:
+  - Arcane Strike
+  - Eschew Materials
+  - Improved Critical (dagger)
+  - Inscribe Magical Tattoo
+  - Power Attack
+  - Still Spell
+  - Two-Weapon Defense
+  - Two-Weapon Fighting
+Skills:
+  - Acrobatics +19
+  - Bluff +24
+  - Craft (tattoos) +13
+  - Knowledge (arcana) +20
+  - Knowledge (local) +10
+  - Linguistics +6
+  - Sense Motive +16
+  - Spellcraft +20
+  - Swim +17
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Giant
+  - Sylvan
+  - Thassilonian
+SQ: >-
+  bloodline arcana (+2 DC for compulsion spells), change shape (fixed Medium
+  humanoid form, alter self)
+Source: RotRL-AE-Hook Mountain Massacre
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Female
+Bloodline: Fey
+BeforeCombat: >-
+  Lucrecia casts mage armor as soon as she becomes aware of trouble in the keep
+  above (or in the shocker lizard caves in area B37).
+DuringCombat: >-
+  Lucrecia assumes her true form on the first round of combat, preferring to
+  fight with her daggers and activating false life on the first round of combat.
+  If faced with overwhelming odds or brought below 80 hit points, she attempts
+  to flee, recover, and then attack the PCs again in an area where she has more
+  room to move around so she can utilize her spells more effectively.
+Morale: >-
+  Lucrecia attempts to flee to the Hook Mountain clanhold if brought below 40
+  hit points&#8211;if she escapes, she'll be encountered at Barl Breakbones'
+  side in area D9.
+Gear: wand of scorching ray (22 charges)
+OtherGear: >-
+  +1 keen dagger, masterwork dagger, lesser caster's tattoo, Sihedron medallion,
+  gold and pearl ring (worth 300 gp), silver necklace (worth 200 gp), scroll of
+  Sihedron sacrifices (see Treasure, below)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3239'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

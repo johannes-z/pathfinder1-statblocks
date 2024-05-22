@@ -1,0 +1,126 @@
+Name: Gray Goo
+CR: '14'
+XP: '38400'
+Alignment: 'N'
+Size: Fine
+Type: construct
+SubType: (swarm)
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +13
+AC: 29, touch 29, flat-footed 18
+AC_Mods: (+10 Dex, +1 dodge, +8 size)
+HP: '123'
+HD: (19d10+19)
+Saves: Fort +8, Ref +18, Will +8
+Fort: '8'
+Ref: '18'
+Will: '8'
+DefensiveAbilities: dispersion, swarm traits
+Immune: construct traits, weapon damage
+Speed: fly 50 ft. (perfect)
+Melee:
+  - swarm (6d6 plus dismantle and distraction)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: dismantle, distraction (DC 21), infest
+AbilityScores:
+  - 1
+  - 30
+  - —
+  - 5
+  - 10
+  - 1
+BaseAtk: '19'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Ability Focus (distraction)
+  - Dodge
+  - Great Fortitude
+  - Improved Lightning Reflexes
+  - Iron Will
+  - Lightning Reflexes
+  - Lightning Stance
+  - Mobility
+  - Toughness
+  - Wind Stance
+Skills:
+  - Fly +26
+  - Perception +13
+  - >-
+    Stealth +32 (+42 when dispersed) Racial M odifiers +10 Stealth when
+    dispersed
+Languages:
+  - Common (can't speak)
+  - Hallit (can't speak)
+Environment: cold plains (Numeria)
+Organization: solitary, pair, or storm (3-12)
+Treasure: none
+Description_Visual: >-
+  Droplets of a silvery gray, slightly grainy goo gleam dully as they hang in
+  the air.
+Source: Numeria Land Of Fallen Stars
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dismantle (Ex)
+    description: >-
+      Creatures damaged by a gray goo must succeed at a DC 19 Reflex save or a
+      random piece of their equipment takes the same amount of damage,
+      determined as though the target rolled a natural 1 on a saving throw,
+      using the rules for items surviving after a saving throw (Pathfinder RPG
+      Core Rulebook 217). In addition, unattended objects in the area of a gray
+      goo take damage if the swarm chooses to harm them. The save DC is
+      Constitution-based.
+  - name: Dispersion (Ex)
+    description: >-
+      As an immediate action, a gray goo can disperse, spreading itself across
+      an area of up to 30 cubic feet. While dispersed, it deals no damage and
+      cannot use its other special abilities until it reforms. A dispersed gray
+      goo can hide in plain sight (as a ranger in its favored terrain) with a
+      +10 bonus and does not take additional damage from area effects. It takes
+      2 rounds for a dispersed gray goo to reform.
+  - name: Infest (Ex)
+    description: >-
+      As a standard action, a gray goo can infest a Medium or larger creature
+      (Fortitude DC 21 negates), including constructs and undead. The swarm
+      deals double its normal damage to its host each round, but cannot make use
+      of its dismantle ability. If the host is reduced to 0 hit points while
+      infested, it is reduced to dust and destroyed (similar to a disintegrate
+      effect). A gray goo infesting a host can be expelled by any effect that
+      cures disease, with a disease save equal to this ability's DC. The save DC
+      is Constitution-based and includes a +2 racial bonus.
+Description:
+  - >-
+    Swarms of weaponized nanites-microscopic robots designed to work in large
+    groups to perform varied tasks-roam the Felldales, reducing anything in
+    their path to wisps of dust. Called "gray goo" by natives who do not
+    understand the true nature of the creature's components, some swarms were
+    activated as weapons of mass destruction, while others were originally
+    benign swarms that malfunctioned and abandoned their programming. Nanites
+    have limited intelligence and potentially respond to commands. Such
+    controlled swarms often spare the treasure their victims carry.
+  - >-
+    Rumors of virulent clouds of gray goo spread throughout Numeria every few
+    years. The most recent tale speaks of a self-replicating swarm that uses its
+    victims as incubators from which further swarms are born- a harrowing
+    prospect if true.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6091'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

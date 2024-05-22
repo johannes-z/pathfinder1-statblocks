@@ -1,0 +1,114 @@
+Name: Interlocutor Kyton
+CR: '12'
+XP: '19200'
+Race: interlocutor kyton
+MonsterSource: Pathfinder RPG Bestiary 3 174
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (evil, extraplanar, kyton, lawful)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +23
+AC: 26, touch 13, flat-footed 22
+AC_Mods: (+3 Dex, +1 dodge, +13 natural, -1 size)
+HP: '147'
+HD: (14d10+70)
+HP_Mods: regeneration 5 (good weapons and spells, silver weapons)
+Saves: Fort +14, Ref +9, Will +17
+Fort: '14'
+Ref: '9'
+Will: '17'
+DR: 10/silver or good
+Immune: cold
+SR: '23'
+Speed: 40 ft.
+Melee:
+  - 4 claws +20 (1d8+7/19-20 plus bleed)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  bleed (1d6), poison, rend (2 claws, 1d8+7), surgical strikes, unnerving gaze
+  (30 ft.; DC 22)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +19)
+  values:
+    - label: At Will
+      value: >-
+        bleed (DC 15), plane shift (from the Material Plane to the Shadow Plane,
+        self only), stabilize
+    - label: 3/day
+      value: cure serious wounds, restoration
+    - label: 1/day
+      value: breath of life
+AbilityScores:
+  - 24
+  - 17
+  - 21
+  - 15
+  - 22
+  - 20
+BaseAtk: '14'
+CMB: '22'
+CMD: 36 (38 vs. trip)
+Feats:
+  - Cleave
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+Skills:
+  - Heal +23
+  - Intimidate +22
+  - Knowledge (arcana
+  - local
+  - religion) +9
+  - Knowledge (dungeoneering
+  - nature
+  - planes) +12
+  - Perception +23
+  - Sense Motive +23
+  - Stealth +16
+Languages:
+  - Common
+  - Infernal
+Source: PFS S3-26
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Surgical Strikes (Ex)
+    description: >-
+      An interlocutor's claws threaten a critical hit on a roll of 19-20. On a
+      successful critical hit, that claw deals 2d6 bleed damage rather than 1d6.
+  - name: Unnerving Gaze (Ex)
+    description: >-
+      A creature that succumbs to an interlocutor's unnerving gaze becomes
+      staggered for 1 round as it becomes convinced that it recognizes some of
+      its own body parts entangled in the interlocutor's body.
+DuringCombat: >-
+  The interlocutor heads directly into melee, delivering full attacks to the
+  most vulnerable opponent within reach. If combat goes well and it successfully
+  strikes down an opponent, it may spend an action casting stabilize on that PC,
+  even going so far as to cast breath of life to restore the final PC to life
+  should the kyton wipe out the entire party&#8211;all so it has a potential
+  experimental subject in its debt.
+Morale: >-
+  The terms of the kyton's binding do not allow for anything but a fight until
+  its destruction.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6756'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

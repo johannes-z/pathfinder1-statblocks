@@ -1,0 +1,96 @@
+Name: Mist Demon
+CR: '2'
+XP: '600'
+Race: Mist Demon
+Alignment: LE
+Size: Small
+Type: outsider
+SubType: (evil, extraplanar, lawful)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6 (see the Appendix)
+AC: 14, touch 13, flat-footed 12
+AC_Mods: (+2 Dex, +1 natural, +1 size)
+HP: '13'
+HD: (2d10+2)
+Saves: Fort +1, Ref +5, Will +4
+Fort: '1'
+Ref: '5'
+Will: '4'
+DefensiveAbilities: invisible in mist, mist form
+Immune: critical hits
+Speed: 30 ft., fly 30 ft. (good)
+Melee:
+  - 2 claws +5 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 1st; ranged touch +5)
+  values:
+    - label: 1/day
+      value: cause fear (DC 13), ray of enfeeblement (DC 13)
+AbilityScores:
+  - 12
+  - 14
+  - 13
+  - 12
+  - 12
+  - 14
+BaseAtk: '2'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Weapon Finesse
+Skills:
+  - Bluff +7
+  - Fly +13
+  - Intimidate +4
+  - Knowledge (planes) +6
+  - Perception +6
+  - Sense Motive +6
+  - Stealth +11
+Languages:
+  - Infernal
+SQ: create mist
+Source: The Lost City of Barakus-Level 1
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Mist (Su)
+    description: >-
+      If near a body of water, a mist demon can, as a full round action,
+      generate a cloud of mist. This vaporous cloud is similar in all ways to
+      the spell obscuring mist except that the mist demon can see normally while
+      within it, and it remains for as long as the mist demon wishes it to,
+      although it can be dispelled or dispersed by the normal magical means. The
+      mist evaporates immediately once the mist demon is slain.
+  - name: Invisible in Mist (Su)
+    description: >-
+      While within the mist, a mist demon is considered invisible as per the
+      spell. Like the spell, the mist demon becomes visible whenever it casts a
+      spell or attacks. However, as a standard action, the mist demon may blend
+      back into the mist at any point, becoming invisible once again. An
+      opponent notices the invisible mist demon with a successful DC 25
+      Perception check.
+  - name: Mist Form (Su)
+    description: >-
+      A mist demon can switch from its normal form to one of pure mist or back
+      again a swift action. It can spend up to 20 rounds per day in mist form.
+      In mist form, the mist demon acts as if under the effects of a gaseous
+      form spell, except that it retains its natural fly speed of 30 feet
+      (good).
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12918'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,105 @@
+Name: Caustic Stalker
+CR: '7'
+XP: '3200'
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (air, elemental, extraplanar)
+Init: '12'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 19, touch 19, flat-footed 10
+AC_Mods: (+8 Dex, +1 dodge)
+HP: '73'
+HD: (7d10+35)
+Saves: Fort +10, Ref +13, Will +4
+Fort: '10'
+Ref: '13'
+Will: '4'
+DefensiveAbilities: amorphous
+DR: 5/-
+Immune: acid, elemental traits
+Weaknesses: vulnerable to wind
+Speed: fly 40 ft. (perfect)
+Melee:
+  - 2 slams +15 (1d6 plus chemical burn)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (15-ft. cone, 5d6 acid damage plus poison, Reflex DC 18 half,
+  usable every 1d4 rounds), chemical burn (1d6, DC 18)
+AbilityScores:
+  - —
+  - 27
+  - 20
+  - 5
+  - 14
+  - 11
+BaseAtk: '7'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Mobility
+  - Weapon Finesse
+Skills:
+  - Fly +26
+  - Perception +12
+  - Stealth +18
+Languages:
+  - Auran
+SQ: misty form
+Environment: any underground
+Organization: solitary, pair, smog (3-10)
+Treasure: incidental
+Description_Visual: >-
+  Reaching hands, a fierce and eerie visage, and a powerfully abrasive stench
+  all stem from this hissing cloud of churning gases.
+Source: The Emerald Spire
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      In addition to taking acid damage, any creature harmed by a caustic
+      stalker's breath weapon must succeed at an additional DC 18 Fortitude
+      saving throw or be affected by caustic creep poison. Caustic
+      Creep-inhaled; save Fort DC 18; frequency 1/round for 4 rounds; effect 1d4
+      Con; cure 2 consecutive saves. The save DC is Constitution-based.
+  - name: Chemical Burn (Su)
+    description: >-
+      Any creature struck by the caustic stalker, or that strikes it with a
+      natural weapon or unarmed attack, is affected as if by the burn special
+      attack, but takes acid damage instead of fire damage. The chemical burn
+      persists for multiple rounds, just as a normal burn, but can be ended
+      early if the affected creature is doused in at least 1 gallon of liquid
+      (requiring a full-round action from the victim or another creature) or
+      fully submerges itself in water.
+Description:
+  - >-
+    Though caustic stalkers arise from pockets of poisonous gas in the Plane of
+    Air, they far prefer to congregate amid the great heat and pressure where
+    the Plane of Earth and Plane of Fire meet. These conditions are also common
+    in the depths of many worlds on the Material Plane. Caustic stalkers are
+    usually content to drift amid the searing rocks and toxic fumes of volcanic
+    depths, but occasionally emerge into more spacious areas. When they emerge,
+    they are quick to lash out at anything that disturbs their explorations,
+    especially if the area is windy.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6133'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

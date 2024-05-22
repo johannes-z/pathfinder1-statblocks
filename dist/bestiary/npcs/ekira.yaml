@@ -1,0 +1,108 @@
+Name: Ekira
+CR: '2'
+XP: '600'
+Race: human
+Class: inquisitor of Iomedae 3
+MonsterSource: Pathfinder RPG Advanced Class Guide 38
+Alignment: LG
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +8
+AC: 16, touch 10, flat-footed 16
+AC_Mods: (+6 armor)
+HP: '23'
+HD: (3d8+6)
+Saves: Fort +4, Ref +1, Will +5
+Fort: '4'
+Ref: '1'
+Will: '5'
+Speed: 20 ft.
+Melee:
+  - mwk cold iron longsword +5 (1d8+2/19-20)
+Ranged:
+  - mwk composite shortbow +3 (1d6+2/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Inquisitor Spell-Like Abilities (CL 3rd; concentration +5)
+  values:
+    - label: 5/day
+      value: touch of glory (+3)
+    - label: At Will
+      value: detect alignment
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 3rd; concentration +5)
+  values:
+    - label: 1st (4/day)
+      value: >-
+        command (DC 13), comprehend languages, cure light wounds, protection
+        from chaos
+    - label: 0 (at will)
+      value: >-
+        brandAPG (DC 12), daze (DC 12), detect magic, detect poison, guidance,
+        light
+SpellDomains: Glory
+AbilityScores:
+  - 14
+  - 10
+  - 13
+  - 8
+  - 14
+  - 15
+BaseAtk: '2'
+CMB: '4'
+CMD: '14'
+Feats:
+  - Blind-Fight
+  - Improved Initiative
+  - Paired Opportunists
+  - Persuasive
+Skills:
+  - Climb +2
+  - Diplomacy +8
+  - Heal +6
+  - Intimidate +11
+  - Knowledge (planes) +4
+  - Knowledge (religion) +5
+  - Perception +8
+  - Sense Motive +7
+  - Survival +7
+  - Swim +2
+Languages:
+  - Common
+SQ: >-
+  cunning initiative, judgment 1/day, monster lore +2, solo tactics, stern gaze,
+  track +1,
+Source: PFS S5-22
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Ekira uses her touch of glory domain ability on herself.
+DuringCombat: >-
+  If given an opportunity, Ekira casts a spell such as protection from chaos or
+  divine favor to augment her combat abilities as she bellows an oath to
+  Iomedae. She uses her longsword and class abilities to cut down whomever she
+  deems guilty.
+Morale: Ekira fights to the death unless talked down by the PCs (see Encounter 5).
+Gear: scroll of divine favor, holy water (2)
+OtherGear: >-
+  masterwork chainmail, masterwork cold iron longsword, masterwork composite
+  shortbow with 20 cold iron arrows, scabbard of honingUE, The Acts of Iomedae
+  (holy text), silver holy symbol of Iomedae, 33 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8121'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

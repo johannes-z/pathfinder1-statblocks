@@ -1,0 +1,88 @@
+Name: Hobgoblin Phalanx Troop
+CR: '10'
+XP: '9600'
+Race: Hobgoblin Phalanx Troop
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid, troop)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +18
+AC: 25, touch 14, flat-footed 21
+AC_Mods: (+9 armor, +4 Dex, +2 shield)
+HP: '126'
+HD: (12d8+72)
+Saves: Fort +13, Ref +8, Will +12
+Fort: '13'
+Ref: '8'
+Will: '12'
+DefensiveAbilities: close ranks, troop traits
+Speed: 20 ft.
+Melee:
+  - troop (3d6+5 plus trip)
+Space: 20 ft.
+Reach: 10 ft.
+SpecialAttacks: tripping spears, volley
+AbilityScores:
+  - 20
+  - 19
+  - 20
+  - 13
+  - 22
+  - 9
+BaseAtk: '9'
+CMB: +14 (+16 trip)
+CMD: 28 (30 vs. trip)
+Feats:
+  - Combat Expertise
+  - Deflect Arrows
+  - Improved Initiative
+  - Improved Trip
+  - Improved Unarmed Strike
+  - Toughness
+Skills:
+  - Intimidate +11
+  - Perception +18
+  - Stealth +20
+RacialMods: +4 Stealth
+Languages:
+  - Goblin
+Source: AP 117
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Close Ranks (Ex)
+    description: >-
+      A hobgoblin phalanx troop can adopt a defensive position as a move action.
+      This doubles the troop's shield bonus to AC and grants it DR 5/- until the
+      beginning of its next turn. While adopting this defensive posture, the
+      hobgoblin phalanx troop's speed is reduced to 5 feet.
+  - name: Tripping Spears (Ex)
+    description: >-
+      Hobgoblin phalanx troops are adept at using their spears to knock
+      creatures off their feet. The troop's troop attack gains the trip weapon
+      quality.
+  - name: Volley (Ex)
+    description: >-
+      A hobgoblin phalanx troop can fire a volley of arrows as a standard
+      action. This attack takes the form of up to four lines with a range of 100
+      feet. These lines can start from the corner of any square in the troop's
+      space. Each creature in any of these lines takes 4d6 points of piercing
+      damage per line that hits it (Reflex DC 20 half). The save DC is
+      Dexterity-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11219'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

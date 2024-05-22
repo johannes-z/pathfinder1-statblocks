@@ -1,0 +1,135 @@
+Name: Young Forest Dragon
+CR: '10'
+XP: '9600'
+Alignment: CE
+Size: Large
+Type: dragon
+SubType: (earth)
+Init: '5'
+Senses:
+  - dragon senses, tremorsense 60 ft.
+  - Perception +15
+AC: 22, touch 10, flat-footed 21
+AC_Mods: (+1 Dex, +12 natural, -1 size)
+HP: '126'
+HD: (11d12+55)
+Saves: Fort +11, Ref +8, Will +8
+Fort: '11'
+Ref: '8'
+Will: '8'
+Immune: paralysis, poison, sleep
+Speed: 40 ft., burrow 20 ft., climb 30 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +17 (2d6+9), 2 claws +16 (1d8+6), gore +16 (1d8+9), tail slap +14
+    (1d8+9)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite and gore)
+SpecialAttacks: breath weapon (40-ft. cone, 6d6 piercing damage, DC 19)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +12)
+  values:
+    - label: At Will
+      value: pass without trace
+SpellsKnown:
+  header: Spells Known (CL 1st; concentration +12)
+  values:
+    - label: 1st (4/day)
+      value: >-
+        obscuring mist, shield 0 (at-will)-ghost sound, read magic, resistance,
+        touch of fatigue
+AbilityScores:
+  - 23
+  - 12
+  - 18
+  - 12
+  - 13
+  - 12
+BaseAtk: '11'
+CMB: '18'
+CMD: 29 (33 vs. trip)
+Feats:
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Toughness
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +10 (+14 when jumping)
+  - Bluff +15
+  - Climb +28
+  - Fly -3
+  - Intimidate +15
+  - Knowledge (arcana) +9
+  - Knowledge (nature) +9
+  - Perception +15
+  - Stealth +17
+  - Survival +10
+Languages:
+  - Common
+  - Draconic
+SQ: sound imitation, woodland stride
+Environment: any forest
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This massive serpentine and wingless creature has jade scales and antlers, and
+  sounds like grinding stones as it stalks forth.
+Group: Imperial Dragon
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      An adult or older forest dragon can assume any humanoid form three times
+      per day as if using polymorph.
+  - name: Destructive Crush (Su)
+    description: >-
+      When an old or older forest dragon makes a crush attack, the impact kicks
+      up debris in a 20-foot-radius burst for 1d6 rounds. The debris obscures
+      the vision of creatures within the debris field and grants concealment to
+      those creatures. The forest dragon can see normally within and through the
+      debris field.
+  - name: Elemental Breath (Su)
+    description: >-
+      Once per day, when an ancient or older forest dragon uses its breath
+      weapon, it can summon a greater earth elemental within the cone. The
+      caster level for these effects is the same as the dragon's caster level.
+  - name: Sound Imitation (Ex)
+    description: >-
+      A very young or older forest dragon can mimic any voice or sound it has
+      heard by making a successful Bluff check against the listener's Sense
+      Motive check.
+  - name: Stony Death (Su)
+    description: >-
+      Any creature reduced to 0 or fewer hit points by a great wyrm forest
+      dragon's breath weapon must also make a Fortitude save (same DC as the
+      forest dragon's breath weapon) or be petrified as the flesh to stone
+      spell. This is a death effect.
+  - name: Woodland Stride (Ex)
+    description: As the druid ability of the same name.
+Description:
+  - >-
+    Forest dragons, or dilung, are fickle and malevolent dragons that dwell in
+    deep, rugged woodlands. While a forest dragon can fly, it prefers to stalk
+    the earth, flying only to pursue objects of its wrath.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: young
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2036'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

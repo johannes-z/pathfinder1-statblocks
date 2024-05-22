@@ -1,0 +1,108 @@
+Name: Mr. Smiles III
+CR: '3'
+XP: '800'
+Race: Fetchling
+Class: bard 4
+MonsterSource: Pathfinder RPG Bestiary 2 123
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +4
+AC: 17, touch 13, flat-footed 14
+AC_Mods: (+3 armor, +3 Dex, +1 shield)
+HP: '29'
+HD: (4d8+8)
+Saves: >-
+  Fort +2, Ref +7, Will +3; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '2'
+Ref: '7'
+Will: '3'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: shadow blending
+Resist: cold 5, electricity 5
+Speed: 30 ft.
+Melee:
+  - +1 sickle +6 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 14 rounds/day  (countersong, distraction, fascinate [DC
+  16], inspire competence +2, inspire courage +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: 1/day
+      value: disguise self
+SpellsKnown:
+  header: Bard Spells Known (CL 4th; concentration +8)
+  values:
+    - label: 2nd (2/day)
+      value: mirror image, scare (DC 16)
+    - label: 1st (4/day)
+      value: >-
+        lesser confusion (DC 15), grease, hideous laughter (DC 15), silent image
+        (DC 15)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze (DC 14), ghost sound (DC 14), message,
+        prestidigitation, resistance
+AbilityScores:
+  - 12
+  - 16
+  - 13
+  - 8
+  - 8
+  - 18
+BaseAtk: '3'
+CMB: '4'
+CMD: '17'
+Feats:
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Acrobatics +8
+  - Diplomacy +9
+  - Disguise +9
+  - Escape Artist +6
+  - Perception +4
+  - Perform (comedy) +11
+  - Perform (dance) +9
+  - Stealth +8
+RacialMods: +2 Stealth
+Languages:
+  - Common
+SQ: bardic knowledge +2, versatile performance (comedy)
+Source: AP 127
+IsTemplate: '0'
+BeforeCombat: Mr. Smiles prepares for combat by casting mirror image on himself.
+DuringCombat: >-
+  Mr. Smiles knows his best role in combat is to use his bardic performances to
+  inspire courage in his allies. He alternates melee attacks with spells such as
+  hideous laughter, lesser confusion, and scare to sow chaos among his victims.
+Morale: >-
+  Knowing his reputation is all that keeps him employed in Oppara, Mr. Smiles
+  III fights until reduced to 7 hit points or fewer, at which point he attempts
+  to flee out the office window and use his disguise self spell-like ability to
+  blend in among the bodies of silent initiatives the PCs have already bested.
+Gear: thunderstone (2)
+OtherGear: studded leather, buckler, +1 sickle, entertainer's outfit
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11747'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,129 @@
+Name: Star-Sworn Naga
+CR: '11'
+XP: '12800'
+Race: lunar naga
+MonsterSource: >-
+  Pathfinder RPG Bestiary 294, Pathfinder RPG Bestiary 4 60, Pathfinder RPG
+  Bestiary 3 197
+Alignment: CN
+Size: Large
+Type: aberration
+SubType: (chaotic)
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +28
+AC: 26, touch 16, flat-footed 19
+AC_Mods: (+6 Dex, +1 dodge, +10 natural, -1 size)
+HP: '142'
+HD: (15d8+75)
+HP_Mods: fast healing 5
+Saves: Fort +9, Ref +13, Will +14
+Fort: '9'
+Ref: '13'
+Will: '14'
+DefensiveAbilities: ability healing
+Immune: disease, mind-affecting effects, poison
+Speed: 80 ft., fly 60 ft. (good)
+Melee:
+  - bite +16 (2d6+3 plus poison)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: hypnosis (DC 24), poison (DC 21), sneak attack +3d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities  (CL 15th; concentration +21)
+  values:
+    - label: At Will
+      value: dimension door (within sacred site only)
+    - label: 3/day
+      value: alarm, knock
+    - label: 1/day
+      value: >-
+        arcane lock, augury, banishment (DC 23), clairaudience/clairvoyance,
+        commune, dismissal (DC 21), forbiddance (DC 22), guards and wards (DC
+        22), hold portal
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 9th; concentration +15)
+  values:
+    - label: 4th (6/day)
+      value: detect scrying, rainbow pattern (DC 20)
+    - label: 3rd (6/day)
+      value: fly, lightning bolt (DC 19), major image (DC 19)
+    - label: 2nd (6/day)
+      value: cat's grace, invisibility, scorching ray, see invisibility
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 17), comprehend languages, magic missile, ray of
+        enfeeblement (DC 17), true strike
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, detect magic, disrupt undead, mage hand,
+        open/close (DC 16), prestidigitation, ray of frost
+AbilityScores:
+  - 14
+  - 23
+  - 18
+  - 13
+  - 20
+  - 22
+BaseAtk: '11'
+CMB: '14'
+CMD: 31 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew MaterialsB
+  - Lightning Reflexes
+  - Mobility
+  - Skill Focus (Stealth)
+  - Spring Attack
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Bluff +12
+  - Diplomacy +12
+  - Fly +10
+  - Knowledge (arcana) +10
+  - Knowledge (nature) +16
+  - Perception +28
+  - Sense Motive +10
+  - Spellcraft +10
+  - Stealth +26
+RacialMods: +5 Perception, +5 Sense Motive
+Languages:
+  - Aklo
+  - Common
+SQ: blessed life, divine swiftness, sacred site
+Source: AP 113
+IsTemplate: '0'
+BeforeCombat: >-
+  Ever watching for the universe to watch them back, the nagas cast detect
+  scrying at the beginning of each day. If they expect imminent conflict, each
+  casts cat's grace, see invisibility, and fly.
+DuringCombat: >-
+  The nagas coordinate their attacks, using their magic and mobility to strike
+  quickly and let poison and illusions take their toll.
+Morale: >-
+  The nagas fight to the death until only one remains, at which point the
+  survivor pleads for mercy so that at least one guardian might continue to
+  defend the observatory.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|divine guardian|
+BaseStatistics: >-
+  Without their preparatory spells, the nagas' base statistics are Init +8; AC
+  24, touch 14, Ref +11; Melee bite +14; Dex 19; CMD 29; Skills Fly +8, Stealth
+  +24.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '10072'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

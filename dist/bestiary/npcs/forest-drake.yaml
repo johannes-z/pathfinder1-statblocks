@@ -1,0 +1,96 @@
+Name: Forest Drake
+CR: '5'
+XP: '1600'
+Race: Forest Drake
+MonsterSource: Pathfinder Adventure Path volume 15
+Alignment: LE
+Size: Large
+Type: dragon
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +13
+AC: 19, touch 11, flat-footed 17
+AC_Mods: (+2 Dex, +8 natural, -1 size)
+HP: '59'
+HD: (7d12+14)
+Saves: Fort +7, Ref +7, Will +5
+Fort: '7'
+Ref: '7'
+Will: '5'
+Immune: acid, sleep, paralysis
+Speed: 30 ft., fly 60 ft. (average), swim 30 ft.
+Melee:
+  - bite +10 (1d8+4), tail slap +8 (1d8+2)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: acid cloud
+AbilityScores:
+  - 19
+  - 14
+  - 14
+  - 9
+  - 11
+  - 12
+BaseAtk: '7'
+CMB: '12'
+CMD: '24'
+Feats:
+  - Hover
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Perception)
+Skills:
+  - Fly +10
+  - Intimidate +11
+  - Perception +13
+  - Stealth +8 (+16 in forests)
+  - Swim +22
+Languages:
+  - Draconic
+SQ: aquatic adaptation, speed surge
+Source: AP 32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acidic Cloud (Su)
+    description: >-
+      A forest drake can, as a standard action, spit a ball of acid that
+      dissipates into a cloud on impact. This attack has a range of 60 feet and
+      deals 4d4 points of acid damage to all creaturesin a 10-foot-radius
+      spread. A DC 15 Reflex save halves this damage. The cloud remains for 1d4
+      rounds once created, but a strong wind disperses it in a single round.
+      Once a forest drake has used its acidic cloud breath, it cannot do so
+      again for 1d6 rounds. The Reflex save is Constitution-based.
+  - name: Aquatic Adaptation (Ex)
+    description: >-
+      A forest drake can breathe underwaterindefinitely and can freely use its
+      breath weapon and other abilities while underwater. The acidic cloud
+      created by that attack dissipates after 1 round if used underwater.
+  - name: Speed Surge (Ex)
+    description: >-
+      Three times per day as a swift action, a forest drake may draw on its
+      draconic heritage for a boost of strength and speed to take an additional
+      move action in that round.
+DuringCombat: >-
+  The forest drake begins combat with its acidic cloud breath, attempting to
+  catch as many opponents as it can in the cloud. Thereafter it focuses its
+  attacks on any elves or gnomes present.
+Morale: >-
+  The forest drake is cowardly and flees back to its lair if reduced to fewer
+  than 20 hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '672'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

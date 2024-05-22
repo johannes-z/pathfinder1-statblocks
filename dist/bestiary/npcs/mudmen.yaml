@@ -1,0 +1,111 @@
+Name: Mudmen
+CR: '2'
+XP: '600'
+Race: Mudmen
+MonsterSource: Tome of Horrors Revised 272
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (earth, elemental, extraplanar, water)
+Init: '0'
+Senses:
+  - darkvision 60 ft., tremorsense
+  - Perception +0
+AC: 13, touch 10, flat-footed 13
+AC_Mods: (+3 natural)
+HP: '19'
+HD: (2d10+8)
+Saves: Fort +4, Ref +0, Will +0
+Fort: '4'
+Ref: '0'
+Will: '0'
+DR: 5/magic
+Immune: elemental traits, mind-affecting effects
+Weaknesses: magic vulnerability
+Speed: 10 ft.
+Melee:
+  - 2 slams +4 (1d4+2)
+Ranged:
+  - mud bomb +2 touch (1d4 Dexterity damage)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: engulf
+AbilityScores:
+  - 15
+  - 10
+  - 19
+  - —
+  - 10
+  - 10
+BaseAtk: '2'
+CMB: +4 (+8 grapple when engulfing)
+CMD: '14'
+Skills:
+  - Stealth +0 (+16 in mud)
+SQ: mud pool
+Source: AP 33
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Engulf (Su)
+    description: >-
+      Once per minute as a standard action, a mudman can hurl itself at any
+      creature of its size or smaller within 10 feet. If it succeeds on a ranged
+      touch attack, the mudman immediately makes a CMB check to grapple the
+      target (this does not provoke an attack of opportunity) with a +4 racial
+      bonus. If the mudman fails to establish a hold, it drops into an adjacent
+      square and is staggered for 1 round. If the mudman establishes a hold, it
+      flows over its opponent, covering the creature with its muddy body-it can
+      attempt a new CMB check to maintain the "hold" on the creature each round
+      that follows as a free action. The creature is effectively blinded and
+      must either hold its breath or suffocate as long as the mudman retains its
+      hold. Each round the mudman maintains its hold, it deals 1d4+3 points of
+      damage as it crushes and constricts its victims.
+  - name: Magic Vulnerability (Ex)
+    description: >-
+      Mudmen are particularly susceptible to dispel magic, as this spell
+      disrupts the magical energies in their bodies. A mudman subjected to
+      dispel magic takes 1d6 points of damage per caster level (Fortitude save
+      for half damage). Transmute mud to rock deals 1d6 points of damage per
+      caster level to any mudmen caught in the area of effect and leaves them
+      staggered until they can find a new mud pool. Other, similar spells may
+      have similar effects.
+  - name: Mud Bomb (Su)
+    description: >-
+      A mudman can hurl globs of its muddy body mixed with its surrounding
+      mud&#8211;this attack has a range increment of 10 feet. If one of these
+      mud bombs hits a target, it quickly grows semi-solid and tenacious,
+      causing 1d4 points of Dexterity damage. If the cumulative Dexterity damage
+      from mud bombs ever equals the target's actual Dexterity score, the target
+      remains conscious but is held immobile and cannot take any physical action
+      (although see below) until the mud is removed or the target breaks free.
+      Spell-like abilities or spells with only verbal components may be used if
+      the trapped creature can make a DC 20 concentration check. It's a DC 20
+      Strength check (made as a full-round action) to pry accumulated mud off
+      and remove all Dexterity damage caused by the attack&#8211;a creature that
+      is held immobile can break free with a DC 25 Strength check made as a
+      full-round action (this is the only physical action the creature can
+      attempt while encased in mud). The mud dries and crumbles to dust in 15
+      minutes, or in 1d3 rounds if a large amount of water (such as results from
+      a casting of create water) is used to wash it away.
+  - name: Mud Pool (Su)
+    description: >-
+      A mudman cannot leave the bounds of the mud pool it dwells in, although
+      these mud pools may be of any size. A mudman's tremorsense extends
+      throughout the entire mud pool, and it gains a +16 bonus on Stealth checks
+      when hiding in a mud pool. A mudman forced out of its mud pool is
+      staggered.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '700'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,92 @@
+Name: Shadow Hound Tier 4-5
+CR: '5'
+XP: '1600'
+Race: Shadow mastiff
+MonsterSource: Pathfinder RPG Bonus Bestiary 16
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil)
+Init: '6'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +10
+AC: 17, touch 12, flat-footed 15
+AC_Mods: (+2 Dex, +5 natural)
+HP: '51'
+HD: (6d10+18)
+Saves: Fort +8, Ref +7, Will +5
+Fort: '8'
+Ref: '7'
+Will: '5'
+DefensiveAbilities: shadow blend
+Speed: 50 ft.
+Melee:
+  - bite +10 (1d6+6 plus trip)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bay
+AbilityScores:
+  - 19
+  - 15
+  - 17
+  - 4
+  - 12
+  - 13
+BaseAtk: '6'
+CMB: '10'
+CMD: '22'
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+Skills:
+  - Perception +10
+  - Stealth +11
+  - Survival +10
+Languages:
+  - Common (cannot speak)
+Source: PFS S2-11
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bay (Su)
+    description: >-
+      When a shadow mastiff howls or barks, all creatures except evil outsiders
+      within a 300-foot spread must succeed on a DC 16 Will save or become
+      panicked for 2d4 rounds. This is a sonic, mind-affecting fear effect. A
+      creature that successfully saves cannot be affected by the same mastiff's
+      bay for 24 hours. The save DC is Charisma-based and includes a +2 racial
+      bonus.
+  - name: Shadow Blend (Su)
+    description: >-
+      In any condition of illumination other than full daylight, a shadow
+      mastiff disappears into the shadows, giving it total concealment.
+      Artificial illumination, even a light or continual flame spell, does not
+      negate this ability. A daylight spell, however, does. A shadow mastiff can
+      suspend or resume this ability as a free action.
+BeforeCombat: >-
+  The shadow hound lurks behind one of the room's larger crates, waiting to be
+  fed. When the PCs enter, it doesn't recognize their scent and initiates combat
+  with its bay ability.
+DuringCombat: >-
+  The hound pursues PCs to the length of its chain, attacking while trying to
+  remain at least partially hidden in the shadows of the crates and cargo stored
+  here in the Material Plane.
+Morale: >-
+  The shadow hound fights to the death, and howls loudly and relentlessly if the
+  PCs move beyond its reach.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5544'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,128 @@
+Name: Rumatri
+CR: '6'
+XP: '2400'
+Race: human
+Class: bard 6
+MonsterSource: Pathfinder RPG Bestiary 3 216
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (humanoid, human)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+AC: 20, touch 14, flat-footed 16
+AC_Mods: (+4 Dex, +6 natural)
+HP: '72'
+HD: (6d8+42)
+HP_Mods: fast healing 5
+Saves: >-
+  Fort +8, Ref +9, Will +7; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '8'
+Ref: '9'
+Will: '7'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: channel resistance +4
+DR: 5/silver and slashing
+Immune: undead traits
+Resist: cold 10, fire 10
+Weaknesses: light sensitivity, sunlight vulnerability
+Speed: fly 60 ft. (good)
+Melee:
+  - bite +8 (1d6+3), slam +8 (1d4+3 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 20 rounds/day (countersong, distraction, fascinate [DC 19],
+  inspire competence +2, inspire courage +2, suggestion [DC 19]), blood drain
+  (1d4 Con), create spawn, disease, wither
+SpellsKnown:
+  header: Bard Spells Known (CL 6th; concentration +12)
+  values:
+    - label: 2nd (5/day)
+      value: glitterdust (DC 18), heroism, hold person (DC 18), invisibility
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 17), chord of shardsUM (DC 17), ear-piercing screamUM
+        (DC 17), hideous laughter (DC 17)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, lullaby (DC 16), mage hand,
+        prestidigitation, read magic
+AbilityScores:
+  - 16
+  - 18
+  - —
+  - 15
+  - 14
+  - 22
+BaseAtk: '4'
+CMB: +7 (+11 grapple)
+CMD: '21'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Flyby Attack
+  - Weapon Finesse
+Skills:
+  - Bluff +15
+  - Diplomacy +15
+  - Fly +16
+  - Knowledge (arcana) +18
+  - Knowledge (dungeoneering) +10
+  - Knowledge (engineering) +5
+  - Knowledge (geography) +5
+  - Knowledge (history) +5
+  - Knowledge (local) +10
+  - Knowledge (nature) +10
+  - Knowledge (nobility) +5
+  - Knowledge (planes) +10
+  - Knowledge (religion) +10
+  - Perception +19
+  - Perform (act) +15
+  - Perform (sing) +15
+  - Sense Motive +15
+  - Spellcraft +9
+  - Stealth +21
+  - Use Magic Device +15
+RacialMods: >-
+  +8 Bluff, +8 Fly, +8 Knowledge (arcana), +8 Perception, +8 Sense Motive, +8
+  Stealth
+Languages:
+  - Common
+  - Kelish
+  - Vudrani
+SQ: >-
+  bardic knowledge +3, lore master 1/day, separate, versatile performances (act,
+  sing)
+Source: AP 110
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If she has time to prepare for combat, Rumatri casts heroism on herself,
+  followed by invisibility just before the PCs enter the room.
+DuringCombat: >-
+  Rumatri favors her spells in combat, and attempts to stay out of melee range
+  as long as possible. She opens combat with glitterdust, hoping to blind as
+  many PCs as possible. She then uses damaging spells such as chord of shards
+  and ear-piercing scream, or spells that can take PCs out of combat such as
+  hideous laughter.
+Morale: Unafraid of death, Rumatri fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: penanggalen|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8575'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,122 @@
+Name: Sonarisa
+CR: '9'
+XP: '6400'
+Race: elf
+Class: oracle 9
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42, see page 29
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +9
+AC: 20, touch 16, flat-footed 17
+AC_Mods: (+2 armor, +3 deflection, +2 Dex, +1 dodge, +2 natural)
+HP: '71'
+HD: (9d8+27)
+Saves: Fort +5, Ref +5, Will +6; +2 vs. enchantments
+Fort: '5'
+Ref: '5'
+Will: '6'
+Save_Mods: +2 vs. enchantments
+Immune: sleep
+Speed: 40 ft.
+Melee:
+  - bite +8 (1d6+3), claw +8 (1d6+3)
+Ranged:
+  - +1 seeking composite longbow +8/+3 (1d8+3/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 9th; concentration +11)
+  values:
+    - label: 4th (4/day)
+      value: cure critical wounds, divination, legend lore, sending
+    - label: 3rd (6/day)
+      value: >-
+        create food and water, cure serious wounds, locate object, magic
+        vestment, summon monster III
+    - label: 2nd (7/day)
+      value: >-
+        cure moderate wounds, hold person (DC 14), make whole, sound burst (DC
+        14), summon monster II, tongues
+    - label: 1st (7/day)
+      value: >-
+        comprehend languages, cure light wounds, endure elements, identify,
+        sanctuary (DC 13), shield of faith, summon monster I
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, detect poison, light, mending, purify food
+        and drink, read magic, stabilize
+AbilityScores:
+  - 15
+  - 15
+  - 14
+  - 5
+  - 11
+  - 14
+BaseAtk: '6'
+CMB: '8'
+CMD: '24'
+Feats:
+  - Dodge
+  - Eschew Materials
+  - Point-Blank Shot
+  - Precise Shot
+  - Toughness
+  - Weapon Focus (composite longbow)
+Skills:
+  - Knowledge (arcana) +3
+  - Knowledge (geography) +6
+  - Perception +9
+  - Spellcraft +3 (+5 to identify magic item properties)
+  - Stealth +6
+  - Survival +4
+  - Use Magic Device +5
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Elven
+SQ: >-
+  elven magic, mutations (additional natural attack, blindsense, ferocious),
+  oracle's curse (tongues), revelations (automatic writing, lore keeper, think
+  on it), weapon familiarity
+Source: Doom Comes To Dustpawn
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Although Sonarisa's intellect is a shadow of what it once was, her religious
+  habits die hard. Her daily prayers still include a casting of magic vestment,
+  and as soon as she fears combat is nearing (as is the case if she notices an
+  approaching light source or hears the traps in area C2 activate), she casts
+  shield of faith on herself.
+DuringCombat: >-
+  For the first few rounds of combat, Sonarisa casts summon monster spells to
+  summon creatures to attack her foes in melee. She switches to her bow once the
+  odds are evened, pausing to cast sanctuary if she's brought below 30 hit
+  points so she can heal her wounds in peace.
+Morale: >-
+  Sonarisa fights to the death unless the PCs show her one of the planet spheres
+  from the orrery of distant worlds, in which case she stops fighting and reacts
+  as detailed under Development, below.
+Gear: +1 seeking composite longbow with 16 arrows
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: id mutant|
+AgeCategory: middle age
+Mystery: lore
+CompanionFamiliarLink: '0'
+id: '4419'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

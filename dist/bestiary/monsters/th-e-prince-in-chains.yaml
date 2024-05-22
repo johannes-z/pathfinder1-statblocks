@@ -1,0 +1,141 @@
+Name: Th E Prince In Chains
+CR: '15'
+XP: '51200'
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (evil, extraplanar, kyton, lawful)
+Init: '7'
+Senses:
+  - blindsight 60 ft., darkvision 60 ft., low-light vision, scent
+  - Perception +21
+Aura: chainstorm (15 ft., DC 25)
+AC: 33, touch 13, flat-footed 29
+AC_Mods: (+3 Dex, +1 Dodge, +20 natural, -1 size)
+HP: '202'
+HD: (15d10+120)
+HP_Mods: fast healing 10 (see exaction)
+Saves: Fort +17, Ref +12, Will +8
+Fort: '17'
+Ref: '12'
+Will: '8'
+DefensiveAbilities: exaction
+DR: 15/good
+Immune: cold, critical hits, sneak attacks
+Speed: 40 ft., fly 50 ft. (good)
+Melee:
+  - >-
+    bite +24 (6d6+9 plus trip and vicious critical), 2 tentacles +18 (3d6+4 plus
+    vicious critical)
+Space: 10 ft.
+Reach: 10 ft. (15 ft. with tentacle)
+SpecialAttacks: howl of despair, unnerving gaze (30 ft., DC 22), vicious critical
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th)
+  values:
+    - label: Constant
+      value: pass without trace
+    - label: At Will
+      value: death knell (DC 17), deeper darkness, desecrate, shadow walk
+    - label: 3/day
+      value: >-
+        bestow curse (DC 18), blindness/deafness (DC 18), crushing despair (DC
+        19), eyebite (DC 21), greater invisibility, greater shadow conjuration
+        (DC 22), find the path, plane shift (DC 20), symbol of pain (DC 20)
+    - label: 1/day
+      value: blasphemy (DC 22), slay living (DC 20), unhallow
+AbilityScores:
+  - 28
+  - 16
+  - 26
+  - 13
+  - 16
+  - 20
+BaseAtk: '15'
+CMB: +25 (+27 overrun, +27 sunder)
+CMD: 39 (41 vs. overrun, 41 vs. sunder, 43 vs. trip)
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Improved Overrun
+  - Improved Sunder
+  - Power Attack
+  - Run
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +21
+  - Climb +17
+  - Fly +5
+  - Intimidate +23
+  - Knowledge (planes) +19
+  - Knowledge (religion) +11
+  - Perception +21
+  - Stealth +17
+  - Survival +21 (+29 when following tracks)
+RacialMods: +8 Survival when following tracks
+Languages:
+  - Auran
+  - Common
+  - Infernal
+  - Sylvan
+SQ: no breath
+Environment: any (Plane of Shadow)
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  Animate, rusting chains simultaneously bind and lash out from this gigantic,
+  skinless, wolf-like monstrosity.
+Group: The Prince In Chains
+Source: Inner Sea Gods
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Chainstorm (Ex)
+    description: >-
+      Chains and flesh tendrils constantly lash at anything that approaches the
+      herald. A creature that enters the area or begins its turn within it takes
+      1d12 points of bludgeoning and slashing damage. The chains entangle any
+      creature so long as it's in the area (Reflex DC 25 negates). The save DC
+      is Constitution-based.
+  - name: Exaction (Ex)
+    description: >-
+      The herald is healed of 10 points of damage in any round it deals damage,
+      as if it had fast healing 10.
+  - name: Howl of Despair (Su)
+    description: >-
+      The Prince in Chains can loose a howl of immortal agony once every 1d4
+      rounds. All nonevil creatures within 60 feet must succeed at a DC 22 Will
+      saving throw or take 6d6 points of sonic damage. Any within 10 feet who
+      fail their saves are also affected as per the insanity spell. This is a
+      sonic, mind-affecting effect. The save DC is Charisma-based.
+  - name: Unnerving Gaze (Ex)
+    description: >-
+      A creature that fails its save against the herald's unnerving gaze is
+      staggered for 1 round.
+  - name: Vicious Critical (Ex)
+    description: >-
+      If the herald confirms a critical hit, the attack also deals 2 points of
+      Constitution damage.
+Description:
+  - >-
+    Zon-Kuthon has stripped the flesh from this spirit-wolf and replaced it with
+    haphazard layers of metal, leather, and necrotic tissue to create a
+    terrifying herald. The Prince in Chains stands 18 feet tall and weighs
+    nearly 3 tons.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6016'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

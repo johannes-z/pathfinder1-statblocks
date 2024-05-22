@@ -1,0 +1,98 @@
+Name: Advanced Gearsman Robot
+CR: '5'
+XP: '1600'
+Race: Gearsman Robot
+MonsterSource: >-
+  Pathfinder Campaign Setting: Inner Sea Bestiary 44, Pathfinder RPG Bestiary
+  294
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (robot)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +10
+AC: 24, touch 11, flat-footed 19
+AC_Mods: (+3 Dex, +11 natural)
+HP: '50'
+HD: (4d10+28)
+Saves: Fort +1, Ref +4, Will +4
+Fort: '1'
+Ref: '4'
+Will: '4'
+DefensiveAbilities: hardness 10
+Immune: construct traits
+Weaknesses: vulnerable to critical hits and electricity
+Speed: 20 ft.
+Melee:
+  - slam +11 (1d4+9)
+  - mwk spear +12 (1d8+10/x3 plus 1d6 electricity)
+Ranged:
+  - mwk spear +6 (1d8+6/x3)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 24
+  - 17
+  - —
+  - 14
+  - 17
+  - 1
+BaseAtk: '4'
+CMB: '11'
+CMD: '24'
+Feats:
+  - Combat Reflexes
+  - Power Attack
+Skills:
+  - Craft (weapons) +10
+  - Disable Device +10
+  - Perception +10
+  - Profession (soldier) +9
+  - Sense Motive +10
+Languages:
+  - Common
+  - Hallit
+SQ: adaptive learning, charge weapon, self-repair
+Source: PFS S6-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adaptive Learning (Ex)
+    description: >-
+      A gearsman has a number of skill points equal to 4 + its Int modifier per
+      Hit Die, and treats Craft and Profession as class skills beyond those
+      possessed by all robots. In addition, a gearsman has a number of bonus
+      skill ranks equal to its Hit Dice that can be reprogrammed to apply to any
+      skill-these ranks cannot be split among multiple skills and must all apply
+      to one skill. A gearsman may change what skill these bonus ranks apply to
+      up to once per day by concentrating for 1 minute, during which time it can
+      take no other actions. Rather than spend these bonus ranks on a skill, a
+      gearsman can choose to devote them to weapon knowledge, gaining
+      proficiency with a single weapon instead of bonus ranks in a skill. All
+      gearsmen are automatically proficient with all simple weapons.
+  - name: Charge Weapon (Ex)
+    description: >-
+      Any metal melee weapon wielded by a gearsman becomes charged with
+      electricity and deals +1d6 points of electricity damage on a hit.
+      Self-Repair (Ex) A gearsman's nanites heal it at the rate of a number of
+      hit points per hour equal to its Hit Dice (4 hit points per hour for most
+      gearsmen). Up to once per day, as a full-round action, it can heal any
+      robot it touches of 4d6 points of damage. If a gearsman uses this ability
+      on itself, it heals the maximum amount: 24 points of damage.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7857'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

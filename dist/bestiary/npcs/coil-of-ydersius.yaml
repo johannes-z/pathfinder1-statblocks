@@ -1,0 +1,173 @@
+Name: Coil of Ydersius
+CR: '13'
+XP: '25600'
+Race: human
+Class: sorcerer 10/assassin 4
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '10'
+Senses:
+  - Perception +15
+AC: 28, touch 18, flat-footed 21
+AC_Mods: (+4 armor, +1 deflection, +6 Dex, +1 dodge, +2 natural, +4 shield)
+HP: '133'
+HD: (14 HD; 10d6+4d8+80)
+Saves: Fort +11, Ref +14, Will +13; +4 vs. poison
+Fort: '11'
+Ref: '14'
+Will: '13'
+Save_Mods: +4 vs. poison
+DefensiveAbilities: uncanny dodge
+DR: 10/adamantine
+Immune: mind-affecting effects
+Speed: 30 ft.
+Melee:
+  - >-
+    human bane assassin's dagger +19/+14 (1d4+3/17-20 plus  purple worm poison),
+    bite +11 (1d4 plus poison)
+Ranged:
+  - mwk composite shortbow +17/+12 (1d6+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  death attack (DC 18), poison, serpent's fang* (8 rounds/day), sneak attack
+  +2d6, true death (DC 19)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +9)
+  values:
+    - label: At will
+      value: disguise self (DC 16), ventriloquism
+    - label: 1/day
+      value: >-
+        blur, dominate person (DC 20), major image (DC 18), mass suggestion (DC
+        21), mirror image, suggestion (DC 18), teleport Bloodline Spell-Like
+        Abilities (CL 10th; concentration +15)
+    - label: At will
+      value: speak with animals (reptilian animals only)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: beast shape III
+    - label: 4th (6/day)
+      value: greater invisibility, poison (DC 19), stoneskin
+    - label: 3rd (7/day)
+      value: dispel magic, haste, summon monster III (reptiles only), vampiric touch
+    - label: 2nd (7/day)
+      value: acid arrow, cat's grace, delay poison, ghoul touch (DC 17), levitate
+    - label: 1st (8/day)
+      value: >-
+        hypnotism (DC 16), mage armor, magic missile, shield, shocking grasp,
+        true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 15), dancing lights, detect magic, ghost sound
+        (DC 15), mage hand, message, prestidigitation, read magic
+AbilityScores:
+  - 12
+  - 23
+  - 18
+  - 16
+  - 14
+  - 20
+BaseAtk: '8'
+CMB: '11'
+CMD: '27'
+Feats:
+  - Deceitful
+  - Dodge
+  - Eschew Materials
+  - Improved Critical (dagger)
+  - Improved Initiative
+  - Quicken Spell
+  - Silent Spell
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (dagger)
+Skills:
+  - Acrobatics +17
+  - Bluff +31
+  - Climb +12
+  - Disable Device +15
+  - Disguise +28 (+38 with disguise self )
+  - Escape Artist +17
+  - Intimidate +14
+  - Knowledge (arcana) +12
+  - Perception +15
+  - Sense Motive +12
+  - Sleight of Hand +15 (+19 to conceal weapons)
+  - Stealth +25
+  - Use Magic Device +15
+Languages:
+  - Aklo
+  - Azlanti
+  - Common
+  - Polyglot
+  - telepathy 100 ft.
+SQ: >-
+  bloodline arcana, hidden weapons, poison use, serpentfriend* (viper familiar),
+  snakeskin*
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 19; frequency 1/round for 6 rounds; effect 1d2
+      Con; cure 2 consecutive saves.
+Gender: Female
+Bloodline: serpentine*
+BeforeCombat: >-
+  The assassins cast mage armor, stoneskin, cat's grace, and shield, and drink
+  their potions of bear's endurance. They also cast heroism and nondetection
+  from their scrolls. Before meeting the PCs, they apply purple worm poison to
+  their daggers.
+DuringCombat: >-
+  A Coil of Ydersius takes the time to study her target for at least 3 rounds
+  while interacting with him before making a death attack. If the death attack
+  is unsuccessful, the assassin then casts greater invisibility, silent haste,
+  and silent true strike to continue making sneak attacks.
+Morale: >-
+  If reduced to fewer than 35 hit points, a Coil of Ydersius uses teleport to
+  escape to a prearranged rendezvous point in the jungle, relying on her scroll
+  of nondetection to ensure the PCs can't locate her with divination magic.
+  Thereafter, the Coils conduct further assassination attempts by employing
+  their spells to get close enough to strike again, persuading intermediaries
+  with suggestion to poison the PCs or lure them into another ambush, or
+  targeting human PCs from range with true strike and their greater slaying
+  arrows.
+Gear: >-
+  greater slaying arrow (human), potion of bear's endurance, potions of cure
+  light wounds (2), potion of cure moderate wounds, scrolls of heroism (2),
+  scrolls of nondetection (2)
+OtherGear: >-
+  human bane assassin's dagger, masterwork composite shortbow (+1 Str) with 20
+  arrows, belt of the snake king (see sidebar), cloak of resistance +1, dust of
+  tracelessness, elixir of hiding, ring of protection +1, serpentine brooch
+  (worth 500 gp), oil of taggit (2 doses), purple worm poison (1 dose), thieves'
+  tools, 186 gp
+Note: '* See Pathfinder RPG Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without their spells, potions, and scrolls, the Coils of Ydersius's statistics
+  are Init +8; AC 18, touch 16, flat-footed 13; hp 105; Fort +7, Ref +10, Will
+  +11; no DR; Melee human bane assassin's dagger +15/+10 (1d4+3/17&#8211;20),
+  bite +7 (1d4 plus poison); Ranged mwk composite shortbow +13/+8 (1d6+1/x3);
+  Dex 19, Con 14; CMB +9; CMD 25; Skills Acrobatics +13, Disable Device +11,
+  Escape Artist +13, Sleight of Hand +11 (+15 to conceal weapons), Stealth +21,
+  &#8211;2 to all other skills; poison save DC 17.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1453'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

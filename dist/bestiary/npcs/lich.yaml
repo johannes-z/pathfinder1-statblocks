@@ -1,0 +1,163 @@
+Name: Lich
+CR: '19'
+XP: '204800'
+Race: human
+Class: wizard 15/archwizard 3
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +25
+Aura: fear aura (DC 23)
+AC: 14, touch 9, flat-footed 14
+AC_Mods: (+5 natural, -1 Dex)
+HP: '137'
+HD: (18d6+72)
+Saves: Fort +10, Ref +5, Will +14
+Fort: '10'
+Ref: '5'
+Will: '14'
+DefensiveAbilities: channel resistance +4, rejuvenation
+DR: 15/bludgeoning and magic
+Immune: cold, electricity, polymorph, undead traits
+Speed: 30 ft.
+Melee:
+  - +2 longsword +7/+2 (1d8+3/19-20) and touch +9 (1d8+9 plus paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: paralyzing touch (DC 23)
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 18th; melee touch +9, ranged touch +7):   9th-time
+  stop, wail of the banshee (DC 26)   8th-polar ray, summon monster VIII,
+  telekinetic sphere (DC 27)   7th-forcecage (DC 26), greater teleport, greater
+  teleport, project image (DC 24)   6th-chain lightning (DC 25), globe of
+  invulnerability, greater dispel magic, mage's lucubration, true seeing  
+  5th-cloudkill (DC 22), interposing hand, magic jar (DC 22),  transmute rock to
+  mud, wall of force   4th-acid pit* (DC 21), black tentacles, greater false
+  lifeUM, greater invisibility, stoneskin   3rd-dispel magic, displacement, fly,
+  slow (DC 20), tongues, vampiric touch   2nd-acid arrow, darkness, mirror
+  image, spectral hand, touch of idiocy, touch of idiocy   1st-breakAPG (DC 18),
+  grease, mage armor, magic missile, protection from good, shield   0 (at
+  will)-acid splash, mage hand, mage hand, ray of frost
+AbilityScores:
+  - 12
+  - 9
+  - —
+  - 25
+  - 17
+  - 18
+BaseAtk: '8'
+CMB: '9'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Disruptive Spell
+  - Empower Spell
+  - Extend Spell
+  - Greater Spell Focus (enchantment)
+  - Greater Spell Focus (evocation)
+  - Greater Spell Penetration
+  - Improved Initiative
+  - Scribe Scroll
+  - Skill Focus (Knowledge [arcana])
+  - Skill Focus (Spellcraft)
+  - Spell Focus (enchantment)
+  - Spell Focus (evocation)
+  - Spell Penetration
+Skills:
+  - Appraise +20
+  - Bluff +19
+  - Craft (alchemy) +20
+  - Diplomacy +14
+  - Fly +10
+  - Intimidate +22
+  - Knowledge (arcana) +39
+  - Knowledge (dungeoneering) +18
+  - Knowledge (engineering) +15
+  - Knowledge (history) +20
+  - Knowledge (nobility) +15
+  - Knowledge (planes) +25
+  - Knowledge (religion) +18
+  - Linguistics +15
+  - Perception +25
+  - Sense Motive +23
+  - Spellcraft +36
+  - Stealth +14
+  - Use Magic Device +26
+RacialMods: +8 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Abyssal
+  - Common
+  - Dark Folk
+  - Draconic
+  - Dwarven
+  - Elder Thing
+  - Elven
+  - Kuah-Lij
+  - Mi-Go
+  - Omargwaton
+  - Tsathar
+  - Yithian
+SQ: >-
+  arcane bond (ring of protection +2), arcane servant, detect expertise, forgo
+  materials, metamagic enhancement, spellcasting master, touch
+Source: Sword of Air-Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear Aura (Su)
+    description: >-
+      Creatures of less than 5 HD in a 60 foot radius that look at a lich must
+      succeed on a Will save or become frightened. Creatures with 5 HD or more
+      must succeed at a Will save or be shaken for a number of rounds equal to
+      the lich's Hit Dice. A creature that successfully saves cannot be affected
+      again by the same lich's fear aura for 24 hours. This is a mind-affecting
+      fear effect.
+  - name: Paralyzing Touch (Su)
+    description: >-
+      Any living creature a lich hits with its touch attack must succeed on a
+      Fortitude save or be permanently paralyzed. Remove paralysis or any spell
+      that can remove a curse can free the victim (with a DC equal to the lich's
+      save DC). The effect cannot be dispelled. Anyone paralyzed by a lich seems
+      dead, though a DC 20 Perception check or a DC 15 Heal check reveals that
+      the victim is still alive.
+  - name: Rejuvenation (Su)
+    description: >-
+      When a lich is destroyed, its phylactery (which is generally hidden by the
+      lich in a safe place far from where it chooses to dwell) immediately
+      begins to rebuild the undead spellcaster's body nearby. This process takes
+      1d10 days-if the body is destroyed before that time passes, the phylactery
+      merely starts the process anew. After this time passes, the lich wakens
+      fully healed (albeit without any gear it left behind on its old body),
+      usually with a burning need for revenge against those who previously
+      destroyed it. The most common form of phylactery is a sealed metal box
+      containing strips of parchment on which magical phrases have been
+      transcribed. The box is Tiny and has 40 hit points, hardness 20, and a
+      break DC of 40. Other forms of phylacteries can exist, such as rings,
+      amulets, or similar items.
+Gender: Male
+Gear: >-
+  helm of teleportation (allows user to teleport without error 3/day anywhere
+  inside the tomb complex only. It can transport itself and up to 50 lbs. of
+  gear.), pearl of power (4th level)
+OtherGear: >-
+  false Sword of Air (see Sidebox) , +2 longsword, bracers of armor +4, ring of
+  protection +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: lich|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12752'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,141 @@
+Name: Karivek Vekker
+CR: '15'
+XP: '51200'
+Race: dwarf
+Class: expert 15
+MonsterSource: Pathfinder RPG Bestiary 144
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (cold, incorporeal)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +26
+AC: 22, touch 17, flat-footed 20
+AC_Mods: (+5 armor, +5 deflection, +2 Dex)
+HP: '161'
+HD: (15d8+90)
+HP_Mods: fast healing 10
+Saves: Fort +12, Ref +7, Will +13; +2 vs. spells and spell-like abilities
+Fort: '12'
+Ref: '7'
+Will: '13'
+Save_Mods: +2 vs. spells and spell-like abilities
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: cold, undead traits
+Weaknesses: vulnerable to fire
+Speed: fly 30 ft. (perfect)
+Melee:
+  - >-
+    corrupting touch +13 touch (15d6 plus 2d6 cold), vicious bite +13 touch
+    (3d6+7/18-20 plus 1d8 bleed and 1d6 Cha and 1d6 Con)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: command the frozen, eater of flesh, telekinesis (DC 22)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +20)
+  values:
+    - label: At Will
+      value: >-
+        dominate monster (DC 24; can only affect non-outsiders with the cold
+        subtype)
+AbilityScores:
+  - —
+  - 14
+  - —
+  - 13
+  - 14
+  - 20
+BaseAtk: '11'
+CMB: '13'
+CMD: 28 (32 vs. bull rush, 32 vs. trip)
+Feats:
+  - Endurance
+  - Great Fortitude
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Skill Focus (Perception)
+  - Skill Focus (Profession [miner])
+  - Toughness
+Skills:
+  - Climb +18
+  - Craft (armorsmith) +19
+  - Craft (blacksmith) +19
+  - Fly +10
+  - Knowledge (geography) +19
+  - Knowledge (nature) +19
+  - Perception +26 (+28 unusual stonework)
+  - Profession (miner) +26
+  - Survival +17
+Languages:
+  - Common
+  - Dwarven
+  - Giant
+SQ: frozen dead
+Source: RotRL-AE-Spires of Xin-Shalast
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command the Frozen (Su)
+    description: >-
+      Karivek's death at the hands of a supernaturally cold malevolence (the
+      wendigo) has given him ghost power over non-outsider creatures who possess
+      the cold subtype. The ghost can use dominate monster at will on any
+      non-outsider with the cold subtype as a spell-like ability, but can only
+      maintain control in this manner over one creature at a time.
+  - name: Eater of Flesh (Su)
+    description: >-
+      As a victim of the wendigo's insidious disease prior to his death, Karivek
+      retains a portion of that sickness within his very being. On a successful
+      critical hit with his vicious bite attack, the ghost tears away a chunk of
+      flesh and consumes it (the flesh becoming ghostly and vanishing as he does
+      so)-this deals 1d6 points of Constitution and Charisma drain to the victim
+      (DC 22 Fortitude save negates).
+  - name: Frozen Dead (Su)
+    description: >-
+      Karivek gains the cold subtype, thanks to his death in this frozen
+      landscape. As long as he's in an area where the temperature is below
+      freezing (as it is on this ledge), he gains fast healing 10.
+  - name: Rejuvenation (Su)
+    description: >-
+      Until his bones are returned to the Vekkers' cabin, Karivek's ghost
+      rejuvenates 2d4 days after it is destroyed.
+  - name: Vicious Bite (Su)
+    description: >-
+      Karivek threatens a critical hit with his bite on a natural roll of
+      18&#8211;20. His fangs become solid and razor sharp as they cut through
+      flesh but ignore armor, allowing him to attack with his bite as a touch
+      attack. Karivek adds 1-1/2 times his Charisma modifier as damage to his
+      vicious bite attack. Wounds caused by his vicious bite are deep and gory,
+      causing 1d8 points of bleed damage.
+Gender: Male
+DuringCombat: >-
+  Karivek uses his frightful moan on the first round of combat, then uses
+  telekinesis to hurl non-flying foes off of his ledge. He focuses his melee
+  attacks on larger foes&#8211;victims with the most meat on their bones. If he
+  sees that the frost worm is nearly dead and surrounded by enemies, he'll
+  attempt to kill the worm with his corrupting touch in order to trigger its
+  death throes, knowing that only the supernatural piercing damage can hurt him
+  (and even then, at best, he'll only take half damage from that, due to his
+  incorporeal nature.
+Morale: >-
+  Once Karivek engages in battle, he fights until destroyed, knowing he will
+  just rejuvenate in a few days.
+Gear: +4 improved cold resistance padded armor
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3280'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

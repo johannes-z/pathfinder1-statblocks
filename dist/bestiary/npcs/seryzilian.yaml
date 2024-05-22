@@ -1,0 +1,142 @@
+Name: Seryzilian
+CR: '19'
+XP: '204800'
+Race: great wyrm black dragon
+Alignment: CE
+Size: Gargantuan
+Type: dragon
+SubType: (water)
+Init: '-1'
+Senses:
+  - dragon senses
+  - Perception +39
+Aura: frightful presence (360 ft., DC 27)
+AC: 41, touch 5, flat-footed 41
+AC_Mods: (-1 Dex, +36 natural, -4 size)
+HP: '377'
+HD: (26d12+208)
+Saves: Fort +23, Ref +16, Will +21
+Fort: '23'
+Ref: '16'
+Will: '21'
+DR: 20/magic
+Immune: acid, dragon traits, paralysis, sleep
+SR: '30'
+Speed: 60 ft., fly 250 ft. (clumsy), swim 60 ft.
+Melee:
+  - >-
+    bite +36 (4d6+13 plus 6d6 acid), 2 claws +35 (2d8+13), tail slap +33
+    (2d8+6), 2 wings +33 (2d6+6)
+Space: 20 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  acidic bite, acid pool, corrupt water, crush, breath weapon (120-ft. line,
+  24d6 acid damage, Reflex DC 31 for half, usable every 1d4 rounds), tail sweep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 26th; concentration +31)
+  values:
+    - label: At Will
+      value: darkness (120-ft. radius), insect plague
+    - label: 3/day
+      value: charm reptiles (DC 23)
+SpellsKnown:
+  header: Spells Known (CL 15th; concentration +20)
+  values:
+    - label: 7th (4/day)
+      value: finger of death (DC 22), project image (DC 22)
+    - label: 6th (6/day)
+      value: acid fog, disintegrate (DC 21), true seeing
+    - label: 5th (7/day)
+      value: >-
+        break enchantment, cloudkill (DC 20), transmute rock to mud, wall of
+        force
+    - label: 4th (7/day)
+      value: arcane eye, black tentacles, dimension door, phantasmal killer (DC 19)
+    - label: 3rd (7/day)
+      value: dispel magic, displacement, haste, slow (DC 18)
+    - label: 2nd (7/day)
+      value: blur, glitterdust (DC 17), invisibility, summon swarm, whispering wind
+    - label: 1st (8/day)
+      value: alarm, mage armor, magic missile, obscuring mist, true strike
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, light, mage hand, mending, message,
+        prestidigitation, read magic, resistance
+AbilityScores:
+  - 37
+  - 8
+  - 27
+  - 20
+  - 23
+  - 20
+BaseAtk: '26'
+CMB: '43'
+CMD: 52 (56 vs. trip)
+Feats:
+  - Alertness
+  - Combat Casting
+  - Combat Expertise
+  - Flyby Attack
+  - Greater Vital Strike
+  - Hover
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Vital Strike
+  - Weapon Focus (bite)
+Skills:
+  - Fly +14
+  - Handle Animal +27
+  - Intimidate +30
+  - Knowledge (arcana) +34
+  - Knowledge (history) +34
+  - Knowledge (nature) +34
+  - Knowledge (religion) +34
+  - Perception +39
+  - Sense Motive +19
+  - Spellcraft +34
+  - Stealth +22
+  - Swim +50
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Hallit
+  - Orc
+  - Sylvan
+  - Undercommon
+SQ: speak with reptiles, swamp stride, water breathing
+Source: Dragons Unleashed
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If made aware of threats to her servants, Seryzilian moves into the depths of
+  Adderpool and watches from the safety of the murky water. There she casts
+  haste, displacement, and mage armor, then uses her acid pool ability to
+  undetectably taint the surface of the water. Only if battle turns against
+  Lesaul and her followers does Seryzilian emerge.
+DuringCombat: >-
+  Seryzilian prefers to keep foes off balance by using darkness or dimension
+  door, disappearing beneath the water, or attempting to lure enemies onto
+  marshy ground&#8211;or perhaps create it using transmute rock to mud.
+Morale: >-
+  The black dragon retreats to her lair, calling upon the aid of her green hag
+  and reptilian allies, if reduced to fewer than half her hit points. If
+  confronted there, she fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: great wyrm
+CompanionFamiliarLink: '0'
+id: '4460'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

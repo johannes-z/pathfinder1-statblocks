@@ -1,0 +1,102 @@
+Name: Water Weird
+CR: '8'
+XP: '4800'
+Race: Water Weird
+MonsterSource: The Tome of Horrors 4 248
+Alignment: 'N'
+Size: Large
+Type: outsider
+SubType: (elemental, extraplanar, varies)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +25
+AC: 20, touch 12, flat-footed 17
+AC_Mods: (+2 Dex, +1 dodge, +8 natural, -1 size)
+HP: '95'
+HD: (10d10+40)
+HP_Mods: fast healing 5 (in water)
+Saves: Fort +11, Ref +9, Will +5
+Fort: '11'
+Ref: '9'
+Will: '5'
+DefensiveAbilities: rejuvenation, transparency
+DR: 10/ bludgeoning
+Resist: fire 10
+Speed: swim 60 ft.
+Melee:
+  - bite +15 (1d8+7 plus grab)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: command elemental, constrict (1d8+7), drench, water mastery
+AbilityScores:
+  - 21
+  - 15
+  - 18
+  - 11
+  - 14
+  - 14
+BaseAtk: '10'
+CMB: +16 (+20 grapple)
+CMD: 29 (can't be tripped)
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Mobility
+  - Skill Focus (Perception)
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +15
+  - Bluff +10
+  - Climb +15
+  - Intimidate +10
+  - Knowledge (planes) +13
+  - Perception +25
+  - Stealth +15 (+27 submerged in element)
+  - Swim +13
+RacialMods: +4 Perception, +4 Stealth (+16 when submerged in element)
+Languages:
+  - Aquan
+  - Weirdling
+Source: Sword of Air-Chapter 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Elemental (Su)
+    description: >-
+      As a standard action, a greater weird can attempt to enslave elementals of
+      the same subtype within 30 ft. Elementals receive a DC 19 Will save to
+      negate the effect. Elementals that fail their saves fall under the greater
+      weird's control, obeying its commands to the best of their ability as if
+      under the effects of a dominate monster spell. Intelligent elementals
+      receive a new save once each week to resist command. A greater weird can
+      command any number of elementals, so long as their total Hit Dice do not
+      exceed its own. If the elemental is under the command of another creature,
+      the greater weird must make an opposed Charisma check to gain control of
+      the elemental. The save DC is Charisma-based and includes a +2 racial
+      bonus.
+  - name: Rejuvenation (Su)
+    description: >-
+      When reduced to 0 hit points or less, a greater weird collapses. If
+      contacting its element, it reforms 1 minute later with 5 hit points,
+      allowing its fast healing thereafter to resume healing it.
+  - name: Transparency (Ex)
+    description: >-
+      When submerged in its element, a greater weird is effectively invisible
+      and gains total concealment (50% miss chance). Additionally, a submerged
+      greater weird gains a +12 racial bonus on Stealth checks and can move at
+      full speed without taking a penalty on Stealth checks.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12570'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,134 @@
+Name: Aboleth Engineer
+CR: '15'
+XP: '51200'
+Race: aboleth
+Class: wizard 11
+MonsterSource: Pathfinder RPG Bestiary 294, 8
+Alignment: LE
+Size: Huge
+Type: aberration
+SubType: (aquatic)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +30
+Aura: mucus cloud (5 ft., DC 23)
+AC: 34, touch 17, flat-footed 28
+AC_Mods: (+3 deflection, +5 Dex, +1 dodge, +13 natural, +4 shield, -2 size)
+HP: '256'
+HD: (19 HD; 11d6+8d8+182)
+Saves: Fort +14, Ref +12, Will +23
+Fort: '14'
+Ref: '12'
+Will: '23'
+Speed: 10 ft., swim 60 ft.
+Melee:
+  - 4 tentacles +16 (1d6+6 plus slime)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: hand of the apprentice (11/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +22)
+  values:
+    - label: At Will
+      value: >-
+        hypnotic pattern (DC 18), illusory wall (DC 20), mirage arcana (DC 21),
+        persistent image (DC 21), programmed image (DC 22), project image (DC
+        23), veil (DC 22)
+    - label: 3/day
+      value: dominate monster (DC 27)
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 11th; concentration +19)   6th-chain lightning (DC
+  25), disintegrate (DC 24), greater dispel magic   5th-feeblemind (DC 25), icy
+  prisonUM (DC 24), mind fog (DC 25)   4th-dimension door, enervation, fire
+  shield, greater invisibility, stoneskin   3rd-displacement, fireball (DC 22),
+  haste, hold person (DC 23), protection from energy, slow (DC 21)   2nd-fog
+  cloud, glitterdust (DC 20), kinetic reverberationUC (DC 20), mirror image,
+  resist energy, see invisibility   1st-magic missile (2), protection from good,
+  ray of enfeeblement (DC 19), shield, shocking grasp   0 (at will)-detect
+  magic, mending, open/close (DC 18), read magic
+AbilityScores:
+  - 22
+  - 20
+  - 28
+  - 26
+  - 26
+  - 23
+BaseAtk: '11'
+CMB: '19'
+CMD: 38 (can't be tripped)
+Feats:
+  - Dodge
+  - Greater Spell Focus (enchantment)
+  - Greater Spell Penetration
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Quicken Spell
+  - Scribe Scroll
+  - Spell Focus (enchantment
+  - evocation)
+  - Spell Penetration
+  - Still Spell
+  - Weapon Focus (tentacle)
+Skills:
+  - Acrobatics +15 (+7 to jump)
+  - Appraise +30
+  - Bluff +24
+  - Escape Artist +26
+  - Intimidate +28
+  - Knowledge (arcana
+  - engineering
+  - planes) +30
+  - Knowledge (history
+  - local) +22
+  - Perception +30
+  - Spellcraft +30
+  - Swim +25
+Languages:
+  - Aboleth
+  - Aklo
+  - Aquan
+  - Azlanti
+  - Common
+  - Dwarven
+  - Elven
+  - Orvian
+  - Thassilonian
+  - Undercommon
+SQ: arcane bond (amulet of spell mastery), metamagic mastery (2/day)
+Source: AP 126
+IsTemplate: '0'
+BeforeCombat: >-
+  If warned, Ochymua alerts these aboleth engineers to the PCs' arrival. They
+  cast shield, stoneskin, kinetic reverberation, and mirror image, in that
+  order.
+DuringCombat: >-
+  The aboleth engineers use various spells to take PCs out of combat. Each
+  engineer clenches a rod of lesser quicken metamagic in one of its tentacles.
+Morale: >-
+  With the vision of a restored aboleth empire so close, the aboleth engineers
+  fight until slain.
+Gear: >-
+  lesser quicken metamagic rod, scroll of horrid wilting, scroll of prismatic
+  spray
+OtherGear: >-
+  amulet of spell masteryUE, headband of mental superiority +2, ring of
+  protection +3, spellbook
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|
+BaseStatistics: Without shield, the aboleths' statistics are AC 30, touch 17, flat-footed 24.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11730'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

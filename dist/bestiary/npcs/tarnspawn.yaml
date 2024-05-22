@@ -1,0 +1,105 @@
+Name: Tarnspawn
+CR: '6'
+XP: '2400'
+Race: eel
+MonsterSource: Advanced Bestiary 167, Pathfinder RPG Bestiary 119
+Alignment: NE
+Size: Large
+Type: monstrous humanoid
+SubType: (aquatic, augmented animal)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +9
+AC: 19, touch 11, flat-footed 17
+AC_Mods: (+2 Dex, +8 natural, -1 size)
+HP: '68'
+HD: (8d10+24)
+Saves: Fort +5, Ref +8, Will +9
+Fort: '5'
+Ref: '8'
+Will: '9'
+Weaknesses: light sensitivity
+Speed: 10 ft., swim 30 ft.
+Melee:
+  - bite +13 (1d8+6), 2 claws +14 (1d6+6)
+Ranged:
+  - bile +9 (1d8/x3 acid)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: soul feast, spit bile
+AbilityScores:
+  - 22
+  - 14
+  - 16
+  - 9
+  - 12
+  - 12
+BaseAtk: '8'
+CMB: '15'
+CMD: '27'
+Feats:
+  - Dazzling Display
+  - Improved Initiative
+  - Iron Will
+  - Weapon Focus (claws)
+Skills:
+  - Intimidate +12
+  - Perception +9
+  - Stealth +7
+  - Survival +9
+  - Swim +14
+Languages:
+  - Infernal (cannot speak)
+SQ: amphibious, animal blood
+Source: PFS S2-12
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Animal Blood (Ex)
+    description: >-
+      A tarnspawn counts as both an animal and a monstrous humanoid for the
+      purposes of spells, abilities, and effects that affect animals. A
+      tarnspawn is allowed a Will save to resist spells and effects that
+      specifically affect animals, even if the effect does not normally allow a
+      Will save.
+  - name: Soul Feast (Su)
+    description: >-
+      As a standard action, a tarnspawn may attempt to drink the soul from any
+      adjacent humanoid creature killed within the last round, storing the life
+      force inside itself to carry back to the Silver Tarn entity. Draining a
+      soul is a touch attack that provokes an attack of opportunity. A tarnspawn
+      may only store a single soul, and cannot use this ability if it has
+      already feasted on a soul. A creature whose soul has been imbibed may not
+      be returned from the dead with any magic short of a limited miracle.
+      Slaying the tarnspawn releases the stored soul, allowing the character to
+      be raised normally. If the tarnspawn returns to the Silver Tarn, both it
+      and the soul are absorbed by the entity, permanently slaying both.
+  - name: Spit Bile (Ex)
+    description: >-
+      Tarnspawn may spit a stream of acidic bile up to 40 feet as a ranged
+      attack.
+BeforeCombat: >-
+  If stalking humans or expecting combat, roughly half of a tarnspawn pack
+  hides, attempting to prowl behind their prey or leap unexpectedly from ambush.
+DuringCombat: >-
+  Tarnspawn in a group reserve one member each round to unleash a terrifying
+  howl (using their Dazzling Display feat; remember to include a +4 bonus if the
+  tarnspawn are larger than their opponents). They eschew weapons, instead using
+  their claws and fangs and focusing on shaken opponents.
+Morale: Tarnspawn fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: manimal|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5547'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

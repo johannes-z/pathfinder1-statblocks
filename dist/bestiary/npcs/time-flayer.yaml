@@ -1,0 +1,122 @@
+Name: Time Flayer
+CR: '12'
+XP: '19200'
+Race: Time flayer
+MonsterSource: Tome of Horrors Complete 603
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+AC: 27, touch 17, flat-footed 25
+AC_Mods: (+2 Dex, +10 natural, +5 Wis)
+HP: '162'
+HD: (13d10+91)
+Saves: Fort +10, Ref +10, Will +13
+Fort: '10'
+Ref: '10'
+Will: '13'
+DefensiveAbilities: foresight, immunity to temporal magic, reality bend
+DR: 10/magic
+Speed: 40 ft., time jaunt
+Melee:
+  - +2 frost bastard sword +20/+15/+10 (1d10+6/17-20 plus 1d6 cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: temporal displacement
+AbilityScores:
+  - 18
+  - 15
+  - 23
+  - 20
+  - 20
+  - 19
+BaseAtk: '13'
+CMB: '17'
+CMD: '34'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Exotic Weapon Proficiency (bastard sword)
+  - Improved Critical (bastard sword)
+  - Improved Initiative
+  - Toughness
+  - Weapon Focus (bastard sword)
+Skills:
+  - Acrobatics +16
+  - Bluff +19
+  - Climb +10
+  - Diplomacy +19
+  - Escape Artist +16
+  - Intimidate +20
+  - Knowledge (history) +21
+  - Knowledge (planes) +21
+  - Perception +21
+  - Sense Motive +21
+  - Stealth +18
+  - Survival +21
+Languages:
+  - Aklo
+Source: AP 135
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Foresight (Su)
+    description: >-
+      A time flayer can see a few seconds into the future. This ability prevents
+      a time flayer from being surprised, caught flat-footed, or flanked. It
+      also grants the time flayer an insight bonus to AC equal to its Wisdom
+      bonus. This ability can be negated, but the time flayer can restart it as
+      a free action on its next turn.
+  - name: Immunity to Temporal Magic (Ex)
+    description: >-
+      A time flayer is immune to all time-related spells and effects (including
+      time stop, temporal stasis, and the like).
+  - name: Reality Bend (Su)
+    description: >-
+      As a swift action, a time flayer can fold the dimensional space
+      surrounding it so its true location is hard to discern. The time flayer
+      can activate this ability after it is hit in battle to suddenly not be
+      where it was the moment before, giving it a 50% miss chance it can apply
+      to successful strikes after they occur (but before damage is rolled). This
+      is similar to the miss chance granted by a displacement spell. See
+      invisibility does not reveal the creature's location, but true seeing
+      does.
+  - name: Temporal Displacement (Su)
+    description: >-
+      As a +12 melee touch attack up to three times per day, a time flayer can
+      attempt to send a creature a few seconds into the future. The creature
+      touched can resist being temporally displaced with a successful DC 20
+      Fortitude save. On a failed save, the creature vanishes in a flash of
+      white light, only to reappear in the same space 1d4 rounds later. If that
+      space is occupied when the creature returns, it is shunted harmlessly
+      aside to the closest unoccupied space. The save DC is Charisma-based.
+  - name: Time Jaunt (Su)
+    description: >-
+      A time flayer normally has the ability to travel through time and space,
+      but in this encounter, the nature of the stopped time prevents the time
+      flayer from using this power entirely.
+DuringCombat: >-
+  The time flayer targets PCs exclusively, silently striking with its sword. It
+  uses its temporal displacement ability on any character that seems
+  particularly dangerous, doing its best to keep that PC locked out of time for
+  as much of the battle as possible.
+Morale: The time flayer fights until destroyed.
+Gear: +2 frost bastard sword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11921'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

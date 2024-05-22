@@ -1,0 +1,105 @@
+Name: Yarrix
+CR: '10'
+XP: '9600'
+Race: mummy
+Class: cleric of Hastur 7
+MonsterSource: Pathfinder RPG Bestiary 210
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+Aura: despair (30 ft., DC 17)
+AC: 24, touch 13, flat-footed 23
+AC_Mods: (+1 armor, +2 deflection, +1 Dex, +10 natural)
+HP: '134'
+HD: (15 HD; 8d8+7d8+67)
+Saves: Fort +11, Ref +6, Will +17; +2 vs. mind-affecting
+Fort: '11'
+Ref: '6'
+Will: '17'
+Save_Mods: +2 vs. mind-affecting
+DR: 5/-
+Immune: undead traits
+Resist: fire 10
+Weaknesses: vulnerable to cold
+Speed: 20 ft.
+Melee:
+  - slam +20 (1d8+11 plus mummy rot [DC 17])
+Ranged:
+  - ray +13 ranged touch
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 6/day (DC 18, 4d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 7th; concentration +12)
+  values:
+    - label: 8/day
+      value: touch of evil (3 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 7th; concentration +12)   4th-aura of doomUM (DC
+  20), death ward, unholy blightD (DC 20)   3rd-flyD, magic vestment (already
+  cast), prayer (already cast), vision of hellUM (already cast)   2nd-dread
+  boltUM (2, DC 18), levitateD, silence (DC 17), summon monster II   1st-bane
+  (DC 16), command (2, DC 17), doom (DC 17), feather fallD, sanctuary (DC 16),
+  shield of faith   0 (at will)-bleed (DC 16), detect magic, light, read magic
+SpellDomains: Evil, VoidISWG
+AbilityScores:
+  - 24
+  - 12
+  - —
+  - 10
+  - 20
+  - 17
+BaseAtk: '11'
+CMB: '18'
+CMD: '31'
+Feats:
+  - Combat Casting
+  - Improved Channel
+  - Power Attack
+  - Skill Focus (Perception)
+  - Spell Focus (evocation
+  - necromancy)
+  - Toughness
+  - Weapon Focus (slam)
+Skills:
+  - Knowledge (planes
+  - religion) +16
+  - Perception +20
+  - Spellcraft +10
+  - Stealth +13
+Languages:
+  - Aklo
+  - Common
+Source: The Emerald Spire
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Yarrix casts magic vestment, vision of hell, and prayer.
+DuringCombat: >-
+  Yarrix's despair aura affects PCs as soon as  they see her. If Yarrix's spells
+  are exhausted, she uses bleeding touch and enters melee, using Power Attack.
+Morale: Yarrix fights until destroyed.
+Gear: ring of protection +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without magic vestment and prayer, Yarrix's statistics are AC 23, touch 13,
+  flat-footed 22; Fort +10, Ref +5, Will +16; Melee slam +19 (1d8+10 plus mummy
+  rot [DC 17]); Ranged ray +12 ranged touch; Skills Knowledge (planes, religion)
+  +15, Perception +19, Spellcraft +9, Stealth +12.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6124'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

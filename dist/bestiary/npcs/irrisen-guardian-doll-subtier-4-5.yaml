@@ -1,0 +1,146 @@
+Name: Irrisen Guardian Doll Subtier 4-5
+CR: '5'
+XP: '1600'
+Race: Soulbound doll
+Class: sorcerer 4
+MonsterSource: Pathfinder RPG Bestiary 2 255
+Alignment: NE
+Size: Tiny
+Type: construct
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +7
+AC: 17, touch 16, flat-footed 13
+AC_Mods: (+3 Dex, +1 dodge, +1 natural, +2 size)
+HP: '41'
+HD: (7 HD; 3d10+4d6+11)
+Saves: Fort +2, Ref +5, Will +6
+Fort: '2'
+Ref: '5'
+Will: '6'
+DR: 2/magic
+Immune: construct traits
+Resist: cold 5
+Weaknesses: susceptible to mind-affecting effects
+Speed: 20 ft.
+Melee:
+  - dagger +5 (1d2-2/19-20)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +5)
+  values:
+    - label: 3/day
+      value: mage hand, message, open/close, prestidigitation
+    - label: 1/day
+      value: >-
+        inflict serious wounds (DC 15), levitate Bloodline Spell-Like Abilities
+        (CL 4th; concentration +6)
+    - label: 5/day
+      value: cold steel (2 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 4th; concentration +6)
+  values:
+    - label: 2nd (4/day)
+      value: scorching ray
+    - label: 1st (7/day)
+      value: cause fear (DC 13), charm person (DC 14), enlarge person, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 12), daze (DC 13), detect magic, ray of frost,
+        resistance
+AbilityScores:
+  - 7
+  - 16
+  - —
+  - 15
+  - 12
+  - 14
+BaseAtk: '5'
+CMB: '6'
+CMD: '15'
+Feats:
+  - Dodge
+  - Eschew Materials
+  - Improved Initiative
+  - Spell Focus (enchantment)
+  - Toughness
+Skills:
+  - Fly +16
+  - Knowledge (arcana) +11
+  - Perception +7
+  - Spellcraft +9
+  - Stealth +17
+Languages:
+  - Common
+  - Skald
+  - Sylvan
+SQ: alignment variation, bloodline arcana, icewalker, soul focus
+Source: PFS S3-01
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alignment Variation (Ex)
+    description: >-
+      Soulbound dolls have an alignment-dependent spell-like ability usable once
+      per day; those of neutral evil alignment can cast inflict serious wounds.
+  - name: Bloodline Arcana (Su)
+    description: >-
+      When you cast a spell with the cold descriptor, increase the spell's save
+      DC by 1.
+  - name: Cold Steel (Sp)
+    description: >-
+      You can touch a weapon or up to 50 pieces of ammunition as a standard
+      action, giving the weapon or ammunition the frost special ability for a
+      number of rounds equal to 1/2 your sorcerer level (minimum 1).
+  - name: Icewalker (Ex)
+    description: >-
+      You gain cold resistance 5 and can move across snow and icy surfaces
+      without penalty and without leaving tracks.
+  - name: Soul Focus (Su)
+    description: >-
+      The soul bound to the doll lives within a focus integrated into the
+      doll-in this case, a gem embedded into its chest. As long as this soul
+      focus remains intact, it can be used to animate another doll, using the
+      same cost as creating a new construct. Once bound into the soul focus, the
+      soul continues to learn, and so if later it is put into a new doll body,
+      the soul retains its personality and memories from its previous body or
+      bodies. A soul focus has hardness 8, 12 hit points, and a break DC of 20.
+      Susceptible to Mind-Affecting
+  - name: Effects (Ex)
+    description: >-
+      The weakened conviction of a soulbound doll's soul makes it susceptible to
+      mind-affecting effects, despite the fact that it is a construct
+Bloodline: Boreal*
+BeforeCombat: >-
+  If the doll has time to prepare while the PCs aren't aware it's alive, it
+  casts shield. Then just before combat, it uses its cold steel ability to grant
+  its dagger the frost special ability for 2 rounds.
+DuringCombat: >-
+  The Irrisen Guardian Doll initiates combat by casting inflict serious wounds
+  on whichever PC the doll sees as the largest threat, which is generally the PC
+  who attacked it or investigated it first. The doll then uses its levitate
+  spell-like ability to move out of melee range, hoping its connection to the
+  jadwiga will bring reinforcements while it uses ranged magical attacks to
+  bring down the PCs.
+Morale: >-
+  The Irrisen Guardian Doll is tasked with a single duty&#8211;to watch and
+  protect the nation's borders&#8211;and it fights until destroyed to uphold
+  that order.
+Gear: dagger
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5831'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

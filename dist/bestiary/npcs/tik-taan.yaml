@@ -1,0 +1,136 @@
+Name: Tik Taan
+CR: '1'
+XP: '400'
+Race: Wood idol
+MonsterSource: 'Pathfinder #27 84'
+Alignment: 'N'
+Size: Diminutive
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +5
+Aura: incombustible aura (30 ft.),
+AC: 14, touch 14, flat-footed 14
+AC_Mods: (+4 size)
+HP: '11'
+HD: (2d10)
+HP_Mods: regeneration 5 (on natural ground)
+Saves: Fort +0, Ref +0, Will +1
+Fort: '0'
+Ref: '0'
+Will: '1'
+Immune: construct traits,
+Resist: cold 5, electricity 5
+Weaknesses: fire
+Speed: 10 ft.
+Melee:
+  - bite +2 (1d2-4)
+Ranged:
+  - splinter +6 (1d2-4)
+Space: 1 ft.
+Reach: 0 ft.
+SpecialAttacks: primeval curse
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +4)
+  values:
+    - label: At will
+      value: detect animals or plants*, warp wood (DC 13)
+    - label: 3/day
+      value: create water, goodberry, tree shape*
+    - label: 1/day
+      value: barkskin, entangle (DC 12) Save DCs are Wisdom-based.
+AbilityScores:
+  - 3
+  - 11
+  - —
+  - 5
+  - 13
+  - 13
+BaseAtk: '2'
+CMB: '-2'
+CMD: '4'
+Feats:
+  - Skill Focus (Perception)
+Skills:
+  - Perception +5
+  - Stealth +13 (+17 amid wood)
+RacialMods: +4 Stealth amid wood
+Languages:
+  - understands Polyglot (cannot speak)
+SQ: inanimate, share abilities
+Source: PFS S0-05
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Incombustible Aura (Su)
+    description: >-
+      All creatures within 30 feet of a Tik Taan idol gain fire resistance 10.
+      This effect lasts as long as a creature remains within the idol's aura.
+      Any time a being makes active use of this resistance to any degree, the
+      wood idol takes 1 point of normal damage, appearing more and more charred
+      as it takes damage. This ability ceases to function should a Tik Taan idol
+      have only 1 hit point and does not reactivate until it regains hit points.
+  - name: Primeval Curse (Su)
+    description: >-
+      Once per day, a Tik Taan idol can force a creature within 15 feet to make
+      a DC 12 Will save or be cursed. This curse functions similarly to the
+      spell bestow curse, except that it can only either decrease an ability
+      score by -4 or cause a &#8211;2 penalty to attack rolls, saves, ability
+      checks, and skill checks. In addition, while affected, the skin of the
+      target takes on a rough, wooden appearance. A Tik Taan idol's curse can
+      only affect one creature at a time, and should it curse another creature,
+      the first target is no longer affected. This effect can be removed by
+      remove curse or by eating a goodberry. The save DC is Charisma based.
+  - name: Regeneration (Ex)
+    description: >-
+      A Tik Taan idol's regeneration only functions while it is standing on
+      wood, grass, or earth. Fire deals normal damage to a wood idol.
+  - name: Inanimate (Ex)
+    description: >-
+      An idol is effectively a statuette and does little to suggest otherwise.
+      Spending most of its existence perfectly motionless, a stationary idol is
+      indistinguishable from a normal inanimate object. Unless noted in its
+      description, an idol can make use of the majority of its special abilities
+      without moving, though the round after it does so observers can make a DC
+      25 Perception check to notice minute hints&#8211;magical glimmers, minute
+      contortions, etc.&#8211;suggesting that the idol is actually animate.
+      Overt actions, such as an idol moving or attacking, make its nature
+      obvious to witnesses, and to others who make a Perception check (as
+      previously noted) even 1 round after it moves.
+  - name: Share Abilities (Su)
+    description: >-
+      An idol can share any spell-like ability that would normally only affect
+      itself (as the caster) with any ally within 5 feet. The idol's creator or
+      allies familiar with its abilities may request the idol grant them
+      specific powers on its turn. Spell-like abilities usable in this way are
+      marked with an asterisk (*).
+BeforeCombat: >-
+  If made aware of the PCs' presence before they enter Area 7, the Tik Taan idol
+  casts barkskin on Da'Tunga, increasing his AC by +2; otherwise it does so on
+  the first round of combat.
+DuringCombat: >-
+  The Tik Taan idol is intelligent enough to avoid melee combat if at all
+  possible. Instead, it uses its spell-like and special abilities to support
+  Da'Tunga. As the North Exhibit Hall has flagstone floors, the Tik Taan's
+  regeneration ability does not work in this location.
+Morale: >-
+  If reduced to 5 hp or less, the Tik Taan idol reverts to its inanimate state
+  (see below), hoping that its attacker will lose interest. It continues using
+  its spell-like and special abilities in this state. When the Tik Taan is
+  destroyed all of the primates (including Da'Tunga) are stunned for 1 round,
+  casting the room into a momentary, gloomy silence.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4080'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

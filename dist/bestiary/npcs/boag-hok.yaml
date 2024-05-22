@@ -1,0 +1,104 @@
+Name: Boag-Hok
+CR: '6'
+XP: '2400'
+Race: medium air elemental
+MonsterSource: Pathfinder RPG Bestiary 171, 120
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (air, elemental, extraplanar, native)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 21, touch 17, flat-footed 14
+AC_Mods: (+6 Dex, +1 dodge, +4 natural)
+HP: '68'
+HD: (8d10+24)
+Saves: Fort +9, Ref +12, Will +5
+Fort: '9'
+Ref: '12'
+Will: '5'
+DefensiveAbilities: air mastery
+DR: 5/magic
+Immune: elemental traits
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '17'
+Speed: fly 100 ft. (perfect)
+Melee:
+  - bite +14 (5d6+3 force)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: force fangs, smite good, whirlwind (10-30 ft. high, 1d6+4 damage, DC 18)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +10)
+  values:
+    - label: 3/day
+      value: darkness, poison (DC 16)
+    - label: 1/day
+      value: desecrate, unholy blight (DC 16)
+AbilityScores:
+  - —
+  - 23
+  - 16
+  - 8
+  - 13
+  - 15
+BaseAtk: '8'
+CMB: '12'
+CMD: '29'
+Feats:
+  - Dodge
+  - Flyby Attack
+  - Improved Initiative
+  - Iron Will
+  - Mobility
+  - Weapon Finesse
+Skills:
+  - Acrobatics +17
+  - Escape Artist +11
+  - Fly +19
+  - Knowledge (planes) +10
+  - Perception +12
+  - Sense Motive +8
+  - Stealth +17
+Languages:
+  - Abyssal
+  - telepathy (100 ft.)
+SQ: vaporous body
+Source: AP 134
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Force Fangs (Su)
+    description: >-
+      When Boag-Hok attacks with its bite, its fangs are made of magical force.
+      On a hit, it inflicts 5d6 points of force damage, modified by 1-1/2 times
+      its Charisma modifier.
+  - name: Vaporous Body (Ex)
+    description: >-
+      Boag-Hok can pass through small holes, even cracks, without reducing its
+      speed. It cannot enter water or other liquid. It has no Strength score,
+      and it cannot manipulate objects other than to bite them.
+DuringCombat: >-
+  Boag-Hok begins combat by casting unholy blight, then flows out through the
+  gaps in the bars t o cast poison on its foes and attack with its bite. It
+  casts darkness if it's surrounded and reduced to fewer than 30 hit points,
+  using the cover to escape back to a distance, after which it relies upon
+  making bite attacks with Flyby Attack to prevent full attacks against itself.
+Morale: Boag-Hok fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: half-fiend|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11898'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

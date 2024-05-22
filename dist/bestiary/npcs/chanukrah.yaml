@@ -1,0 +1,113 @@
+Name: Chanukrah
+CR: '8'
+XP: '4800'
+Race: lust sinspawn
+Class: sorcerer 6
+MonsterSource: Pathfinder RPG Bestiary 2 246, 292
+Alignment: NE
+Size: Medium
+Type: aberration
+Init: '4'
+Senses:
+  - darkvision 60 ft., sin-scent
+  - Perception +14
+AC: 21, touch 15, flat-footed 16
+AC_Mods: (+4 armor, +4 Dex, +1 dodge, +2 natural)
+HP: '94'
+HD: (9 HD; 3d8+6d6+60)
+Saves: Fort +8, Ref +7, Will +10; +2 vs. poison
+Fort: '8'
+Ref: '7'
+Will: '10'
+Save_Mods: +2 vs. poison
+Immune: mind-affecting effects
+Resist: electricity 5
+SR: '13'
+Speed: 40 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    +1 guisarme +13 (2d4+11/x3) or bite +12 (1d6+7 plus sinful bite), 2 claws
+    +12 (1d4+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sinful bite (DC 18)
+SpellsKnown:
+  header: Spells Known (CL 6th; concentration +13)
+  values:
+    - label: 3rd (5/day)
+      value: summon monster III
+    - label: 2nd (7/day)
+      value: bull's strength, summon monster II, touch of idiocy (DC 19)
+    - label: 1st (8/day)
+      value: >-
+        cause fear (DC 18), charm person (DC 18), mage armor, magic missile, ray
+        of enfeeblement (DC 18)
+    - label: 0 (at will)
+      value: >-
+        bleed, daze (DC 17), detect magic, flare (DC 17), mage hand,
+        prestidigitation, read magic
+AbilityScores:
+  - 24
+  - 19
+  - 20
+  - 12
+  - 15
+  - 24
+BaseAtk: '5'
+CMB: '12'
+CMD: '27'
+Feats:
+  - Arcane Strike
+  - Augment Summoning
+  - Dodge
+  - Eschew Materials
+  - Spell Focus (conjuration)
+  - Toughness
+Skills:
+  - Acrobatics +16
+  - Fly +10
+  - Intimidate +16
+  - Perception +14
+  - Stealth +16
+Languages:
+  - Aklo
+  - Thassilonian
+SQ: martial proficiency, bloodline arcana (summoned creatures gain DR 3/good)
+Source: AP 62
+IsTemplate: '0'
+Gender: Female
+Bloodline: Abyssal
+BeforeCombat: >-
+  Chanukrah casts mage armor, fly (from her wand), and bull's strength on
+  herself.
+DuringCombat: >-
+  Chanukrah casts invisibility on the first round of combat. She then casts
+  summon monster III each round, switching to summon monster II once she's out
+  of the more powerful spell, hoping to overwhelm the PCs with conjured
+  monsters. She prefers summoning dretches and multiple giant fiendish spiders
+  with summon monster III and lemures and multiple dire rats with summon monster
+  II. She uses her ranged spells and wands against foes who seem to be able to
+  see her or otherwise counter her invisibility, resorting to melee only as a
+  last resort, using arcane strike with each attack to deal an additional +2
+  points of damage with her guisarme.
+Morale: Chanukrah fights to the death.
+Gear: >-
+  wand of acid arrow (11 charges), wand of fly (9 charges) wand of lightning
+  bolt (6 charges)
+OtherGear: +1 guisarme, silver crown worth 800 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3382'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

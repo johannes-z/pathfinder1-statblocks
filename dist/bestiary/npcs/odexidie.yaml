@@ -1,0 +1,183 @@
+Name: Odexidie
+CR: '15'
+XP: '51200'
+Race: contract devil
+Class: universalist 10
+MonsterSource: Pathfinder RPG Bestiary 3 76
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '14'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +37
+AC: 39, touch 24, flat-footed 28
+AC_Mods: (+4 armor, +3 deflection, +10 Dex, +1 dodge, +7 natural, +4 shield)
+HP: '231'
+HD: (23 HD; 10d6+13d10+125)
+Saves: Fort +14, Ref +21, Will +24
+Fort: '14'
+Ref: '21'
+Will: '24'
+DR: 10/good
+Immune: fire, mind-affecting effects, poison
+Resist: acid 10, cold 10
+SR: '21'
+Speed: 30 ft., fly 60 ft.
+Melee:
+  - binding contract +27/+22/+17/+12 (1d4+9 plus bleed), gore +16 (2d6+1)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with binding contract)
+SpecialAttacks: binding contract, bleed (1d6), hand of the apprentice (12/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +20)
+  values:
+    - label: Constant
+      value: tongues
+    - label: At Will
+      value: >-
+        bestow curse (DC 20), detect thoughts (DC 19), dimension door, erase,
+        identify, major image (DC 20), produce flame, sending
+    - label: 3/day
+      value: >-
+        arcane eye, break enchantment, greater teleport (self plus 50 lbs. of
+        objects only), hold person (DC 19), locate creature, mage's private
+        sanctum, empowered scorching ray, silence (DC 19), vision
+    - label: 1/day
+      value: >-
+        contact other plane, delayed blast fireball (DC 24), dismissal (DC 21),
+        plane shift (DC 21), summon (level 4, 1d6 bearded devils or 1 bone devil
+        50%), symbol of pain (DC 22)
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 10th; concentration +19)  5th-hold monster (2, DC
+  24), nightmare (DC 24), telekinesis (DC 24)  4th-enervation (3), phantasmal
+  killer (2, DC 23)  3rd-dispel magic (3), displacement, slow (DC 22) 
+  2nd-darkness (3), glitterdust (DC 21), invisibility (2)  1st-mage armor, magic
+  missile (4), shield, unseen servant  0 (at will)-detect magic, mage hand,
+  message, open/close (DC 19)
+AbilityScores:
+  - 16
+  - 30
+  - 20
+  - 28
+  - 25
+  - 24
+BaseAtk: '18'
+CMB: '21'
+CMD: '45'
+Feats:
+  - Alertness
+  - Arcane Strike
+  - Craft Construct
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Deceitful
+  - Dodge
+  - Empower Spell-Like Ability (scorching ray)
+  - Forge Ring
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Mobility
+  - Persuasive
+  - Scribe Scroll
+Skills:
+  - Bluff +37
+  - Diplomacy +37
+  - Disguise +9
+  - Fly +16
+  - Intimidate +27
+  - Knowledge (arcana
+  - history
+  - local
+  - nobility
+  - planes
+  - and religion) +35
+  - Linguistics +35
+  - Perception +37
+  - Profession (scribe) +23
+  - Sense Motive +37
+  - Sleight of Hand +23
+  - Spellcraft +35
+Languages:
+  - Aboleth
+  - Abyssal
+  - Ancient Osiriani
+  - Aquan
+  - Auran
+  - Azlanti
+  - Celestial
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Giant
+  - Gnome
+  - Halfling
+  - Hallit
+  - Ignan
+  - Infernal
+  - Kelish
+  - Necril
+  - Orc
+  - Orvian
+  - Osiriani
+  - Polyglot
+  - Senzar
+  - Shadowtongue
+  - Shoanti
+  - Skald
+  - Strix
+  - Tengu
+  - Terran
+  - Thassilonian
+  - Tien
+  - Undercommon
+  - Varisian
+  - Vudrani
+  - tongues
+  - telepathy 100 ft.
+SQ: >-
+  arcane bond (amulet of magecraft), impale, infernal contract, infernal
+  investment, metamagic mastery (2/day)
+Source: AP 101
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Odexidie casts mage armor, invisibility, shield, and fly on himself before
+  combat.
+DuringCombat: >-
+  Odexidie uses flight and transportation powers to avoid being cornered, and
+  battlefield control spells to hinder the PCs' access to him. He prefers to
+  capture foes alive if possible.
+Morale: >-
+  Odexidie offers to parley at 100 hit points or fewer, hoping to turn the
+  battle into a productive discussion. If the PCs aren't interested in talking,
+  he teleports away to gather resources and returns, fully healed, in 3d10
+  minutes with four rust devils (see page 82) and four barbed devils. He
+  teleports away each time he's reduced to 30 or fewer hit points, continuing
+  this tactic until he's slain or the PCs finally give up and agree to talk (or
+  simply flee); he can repeat this tactic up to five times before exhausting his
+  rust devil and barbed devil resources, at which point he abandons his offices
+  to the PCs.
+Gear: ring of spell storing (mark of justice)
+OtherGear: >-
+  amulet of magecraft, ring of protection +3, spellbook (containing those spells
+  he has prepared plus 3d4 spells of each level from 1st to 5th of your
+  choosing)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7582'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

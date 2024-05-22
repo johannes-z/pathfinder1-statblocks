@@ -1,0 +1,146 @@
+Name: Lady Morilaeth
+CR: '2'
+XP: '600'
+Race: elf
+Class: cleric of lamashtu 2
+MonsterSource: Advanced Bestiary 187
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '6'
+Senses:
+  - darkvision 120 ft., low-light vision
+  - Perception +4
+Aura: fear aura (60 ft., DC 14), frightful presence (30 ft., DC 14)
+AC: 21, touch 14, flat-footed 19
+AC_Mods: (+6 armor, +2 deflection, +2 Dex, +1 shield)
+HP: '16'
+HD: (2d8+4)
+HP_Mods: regeneration 5 (silver or good)
+Saves: >-
+  Fort +4, Ref +2, Will +5; +2 saves vs. good creatures, +2 saves vs.
+  enchantment spells and effects
+Fort: '4'
+Ref: '2'
+Will: '5'
+Save_Mods: +2 saves vs. good creatures, +2 saves vs. enchantment spells and effects
+DefensiveAbilities: protection from good
+DR: 5/silver or good
+Immune: illusion spells and effects
+Speed: 20 ft., fly 10 ft. (perfect)
+Melee:
+  - dagger +2 (1d4+1/19-20) or cold iron rapier +2 (1d6+1/18-20)
+Ranged:
+  - mwk longbow +4 (1d8/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy (1d6, DC 14, 4/day), night terrors, nightmare
+  spellcasting
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 2nd; concentration +4)
+  values:
+    - label: 1/day
+      value: shadow walk Domain Spell-Like Abilities (CL 2nd; concentration +4)
+    - label: 5/day
+      value: copycat (2 rounds), vision of madness (+/-1)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 2nd, nightmare spellcasting; concentration +4)
+  1st-bane (DC 13), cause fear (DC 13), cure light wounds, disguise selfD (DC
+  13) 0 (at will)-detect magic, detect poison, stabilize, virtue
+SpellDomains: Madness, Trickery
+AbilityScores:
+  - 12
+  - 14
+  - 12
+  - 14
+  - 15
+  - 17
+BaseAtk: '1'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Improved Initiative
+Skills:
+  - Bluff +9
+  - Craft (sculpture) +6
+  - Fly +7
+  - Heal +6
+  - Intimidate +9
+  - Linguistics +7
+  - Stealth +9
+RacialMods: +6 Stealth, +6 Intimidate, +2 Perception
+Languages:
+  - Aklo
+  - Common
+  - Elven
+  - Undercommon
+SQ: aura, elven magic, feign death
+Source: PFS S1-37
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Feign Death (Ex)
+    description: >-
+      With a successful Bluff check, a nightmare creature can make itself appear
+      dead. Any creature wishing to ascertain whether the nightmare creature is
+      really dead must make a Heal check opposed by the nightmare creature's
+      Bluff check. The nightmare creature cannot move or take any actions
+      pretending to be dead. In addition, whenever a nightmare creature falls
+      unconscious, it appears dead. A DC 15 Heal check is required to ascertain
+      if the nightmare creature is alive. Nightmare creatures use this ability
+      to escape destruction, to gain revenge, or to trick foes into approaching
+      them. The Heal check DC is Charisma-based.
+  - name: Night Terrors (Su)
+    description: See sidebar on page 4.
+  - name: Nightmare Spellcasting (Su)
+    description: >-
+      A nightmare creature's effective caster level for fear, phantasm, and
+      shadow spells increases by +2 over that of the base creature.
+  - name: Protection from Good (Su)
+    description: >-
+      A nightmare creature gains a +2 deflection bonus to AC and a +2 resistance
+      bonus on saves against attacks by good creatures. Furthermore, it is
+      immune to any attempt by a good creature to posses, charm, or influence
+      it.
+Gender: Female
+BeforeCombat: >-
+  If Lady Morilaeth detects the PCs she casts disguise self to change her
+  appearance to that of a derro, albeit the tallest derro in the room.
+DuringCombat: >-
+  Once disguised, Morilaeth joins the revelers, hoping to get close to the PCs
+  and surprise them with channeled negative energy. Morilaeth is aware of the
+  effect her fear aura will have on the mites and derros-namely, when she uses
+  it, most of them will run from the room-and she doesn't hesitate to use it.
+  Nor does she hesitate to use her channel negative energy ability to injure
+  both the PCs and the revelers. While fighting, Morilaeth repeatedly screams,
+  "You will dream of me!"
+Morale: >-
+  If reduced to less than 5 hit points, Lady Morilaeth retreats to area 13 to
+  regenerate. If she's unable to make it, she uses feign death and regenerates.
+Gear: potion of cure light wounds, scroll of aid
+OtherGear: >-
+  masterwork breastplate, masterwork buckler, dagger, masterwork longbow with 20
+  arrows, cold iron rapier, antitoxin, blackened silver holy symbol of Lamashtu,
+  noblewoman's robes, 4 parchment pages filled with Lamashtu holy scripts,
+  silver necklace (100 gp value), silver ring bearing Lamashtu's symbol (50 gp
+  value), spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: nightmare|
+BaseStatistics: >-
+  AC 19, touch 14, flat-footed 17 (+6 armor, +2 Dex, +1 shield) versus non-good
+  creatures
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4197'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

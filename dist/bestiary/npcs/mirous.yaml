@@ -1,0 +1,118 @@
+Name: Mirous
+CR: '5'
+XP: '1600'
+Race: zuvembie
+Class: alchemist 2
+MonsterSource: Pathfinder RPG Bestiary 3 289, Pathfinder RPG Advanced Player's Guide 26
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +11
+AC: 17, touch 13, flat-footed 14
+AC_Mods: (+2 Dex, +1 dodge, +4 natural)
+HP: '68'
+HD: (7d8+37)
+Saves: Fort +8, Ref +6, Will +5
+Fort: '8'
+Ref: '6'
+Will: '5'
+DefensiveAbilities: channel resistance +4
+DR: 5/piercing
+Immune: cold, undead traits
+Speed: 30 ft.
+Melee:
+  - 2 claws +8 (1d4+4)
+Ranged:
+  - bomb +7 (1d6+1 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bomb 3/day (1d6+1 fire, DC 12), corpse call
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: At Will
+      value: darkness
+    - label: 3/day
+      value: ghoul touch (DC 16), scare (DC 16)
+    - label: 1/day
+      value: >-
+        animate dead, ray of exhaustion (DC 17), summon (level 3, 1d3 bat or
+        bird swarms, 1d2 constrictor snakes, 1d3 venomous snakes, or 1d4 wolves)
+AbilityScores:
+  - 19
+  - 14
+  - —
+  - 13
+  - 12
+  - 19
+BaseAtk: '4'
+CMB: '8'
+CMD: '21'
+Feats:
+  - Ability Focus (corpse call)
+  - Brew Potion
+  - Dodge
+  - Extra Discovery
+  - Throw Anything
+  - Toughness
+Skills:
+  - Appraise +1 (+6 to know value vs. gems)
+  - Bluff +11
+  - Craft (alchemy) +11 (+13 to create alchemical items)
+  - Heal +11
+  - Knowledge (arcana) +11
+  - Perception +11
+  - Stealth +16
+RacialMods: +4 Stealth
+Languages:
+  - Common
+  - Osiriani
+  - Polyglot (can't speak)
+SQ: >-
+  alchemy (alchemy crafting +2), discoveries (explosive bomb, infusion), mutagen
+  (+4/-2, +2 natural armor, 20 minutes), poison use
+Source: PFS 8-18
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Mirous prepares for battle by drinking his mutagen to increase his Strength.
+  If the PCs were not the first group to encounter the zuvembie, he has already
+  used his daily corpse call ability to attract a rival racing team, expending
+  his oils of animate dead to create two additional zuvembies from the corpses
+  of his fallen victims. If the PCs are the first group of racers to face the
+  zuvembie, he instead summons 1d2 constrictor snakes to assist him in battle.
+DuringCombat: >-
+  Mirous initially fights from range, hurling explosive bombs at the PCs. He
+  uses targeted bomb admixture if his foes disperse to avoid splash damage. If
+  pressed into melee, he uses ghoul touch to weaken his foes before tearing into
+  them with his claws.
+Morale: Mirous fights until he is destroyed.
+Gear: oils of animate dead (3)
+OtherGear: hand of the mage, miser's maskUE, formula book (see below)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not under the effects of his mutagen, Mirous has the following
+  statistics: AC 15, touch 13, flat-footed 12 (+2 Dex, +1 dodge, +2 natural);
+  Melee 2 claws +6 (1d4+2); Special Attacks bomb 4/day (1d6+2 fire, DC 13); Str
+  15,  Int 15; Skills Appraise +2 (+7 to know value vs. gems), Craft (alchemy)
+  +12 (+14 to create alchemical items), Knowledge (arcana) +12.
+ExtractsPrepared: >-
+  Alchemist Extracts Prepared (CL 2nd; concentration +3)   1st-adjuring stepUC,
+  targeted bomb admixtureUC, true strike
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11463'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

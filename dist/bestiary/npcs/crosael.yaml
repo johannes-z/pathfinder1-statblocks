@@ -1,0 +1,133 @@
+Name: Crosael
+CR: '8'
+XP: '4800'
+Race: tiefling
+Class: bard 9
+MonsterSource: Pathfinder RPG Bestiary 264
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 22, touch 15, flat-footed 18
+AC_Mods: (+5 armor, +1 deflection, +3 Dex, +1 dodge, +2 shield)
+HP: '71'
+HD: (9d8+27)
+Saves: Fort +5, Ref +9, Will +8
+Fort: '5'
+Ref: '9'
+Will: '8'
+DefensiveAbilities: well-versed
+Resist: cold 5, electricity 5, fire 5
+Speed: 35 ft.
+Melee:
+  - mwk rapier +6/+1 (1d8-1/19-20)
+Ranged:
+  - mwk shortbow +6/+1 (1d6-1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance (move action; dirge of doom,  distraction, fascinate [DC
+  19], inspire competence +3, inspire  courage +2, inspire greatness, suggestion
+  [DC 19])
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th)
+  values:
+    - label: 1/day
+      value: darkness
+SpellsKnown:
+  header: Spells Known (CL 9th; concentration +14)
+  values:
+    - label: 3rd (4/day)
+      value: confusion (DC 18), cure serious wounds, dispel magic, summon monster III
+    - label: 2nd (5/day)
+      value: blindness/deafness (DC 17), invisibility, summon monster II, tongues
+    - label: 1st (7/day)
+      value: >-
+        alarm, charm person (DC 16), cure light wounds, hideous laughter (DC
+        16), unseen servant
+    - label: 0 (at will)
+      value: detect magic, mage hand, mending, prestidigitation, summon instrument
+AbilityScores:
+  - 8
+  - 16
+  - 14
+  - 10
+  - 10
+  - 20
+BaseAtk: '6'
+CMB: '5'
+CMD: '19'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Fiendish Facade
+  - Iron Will
+  - Mobility
+Skills:
+  - Bluff +17
+  - Diplomacy +17
+  - Disguise +17 (+20 as human)
+  - Knowledge (nobility) +16
+  - Perform (dance) +17
+  - Perform (sing) +10
+  - Sense Motive +12
+  - Stealth +4
+Languages:
+  - Common
+  - Infernal
+SQ: >-
+  bardic knowledge, lore master 1/day, fiendish sorcery,  rakshasa-spawned,
+  versatile performance (Acrobatics, Bluff, Fly,  Sense Motive)
+Source: AP 28
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Spawned (Ex)
+    description: >-
+      As a rakshasa-spawn tiefling, Crosael's ability score modifiers are +2
+      Dex, +2 Cha, and -2 Wis, unlike standard tieflings.
+Gender: Female
+BeforeCombat: >-
+  Every evening before bedtime, Crosael places a silent mental alarm on each of
+  the four doors leading into her room. She also casts unseen servant every
+  morning. If she's warned that someone's about to enter her room, she casts
+  invisibility.
+DuringCombat: >-
+  If Crosael starts combat invisible, she remains silent and watches her foes,
+  trying to determine what they want. She orders her unseen servant to open
+  doors and then uses one open door that is unguarded to slip out of the room to
+  gather up the thieves from area E5 or perhaps to let in the shadows from area
+  E10. She won't initiate combat, if she can help it, until she has allies. If
+  she has the chance in a surprise round, she starts casting summon monster III
+  to conjure 1d3 lemures-when the summoned creatures appear on the first round
+  of combat, she orders them to attack and uses inspire courage. She then
+  attempts to stay at range to use spells to vex foes, avoiding melee as much as
+  she can.
+Morale: >-
+  Crosael is headstrong and stubborn-she fights to the death as a result, but if
+  reduced to 10 or fewer hit points and offered a chance to surrender, she takes
+  the mercy and could become a valuable informant to the PCs if they can assure
+  her that they'll let her go once she tells them what she knows of the Council
+  of Thieves... which is a lot (see Gathering Intelligence on page 23).
+Gear: wand of sound burst (23 charges)
+OtherGear: >-
+  +1 chain shirt, +1 buckler, masterwork rapier, masterwork shortbow with 20
+  arrows, ring of protection +1, gray bag of tricks
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '427'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

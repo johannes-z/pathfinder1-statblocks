@@ -1,0 +1,129 @@
+Name: Maukui
+CR: '12'
+XP: '19200'
+Race: Intellect devourer
+Class: sorcerer 8
+MonsterSource: Pathfinder RPG Bestiary 180
+Alignment: CE
+Size: Small
+Type: aberration
+Init: '15'
+Senses:
+  - blindsight 60 ft., detect magic
+  - Perception +27
+AC: 27, touch 23, flat-footed 15
+AC_Mods: (+4 armor, +11 Dex, +1 dodge, +1 size)
+HP: '184'
+HD: (16 HD; 8d8+8d6+120)
+Saves: Fort +10, Ref +17, Will +14
+Fort: '10'
+Ref: '17'
+Will: '14'
+DefensiveAbilities: fated (+2)
+DR: 10/adamantine and magic
+Immune: fire, mind-affecting effects
+Resist: cold 20, electricity 20, sonic 20
+SR: '23'
+Weaknesses: vulnerable to protection from evil
+Speed: 40 ft.
+Melee:
+  - 4 claws +23 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: body thief, sneak attack +3d6
+SpellLikeAbilities:
+  header: Intellect Devourer Spell-Like Abilities (CL 8th; concentration +14)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: >-
+        confusion (single target only), daze monster (no HD limit), inflict
+        serious wounds, invisibility, reduce size (as reduce person but self
+        only)
+    - label: 3/day
+      value: >-
+        cure moderate wounds, globe of invulnerability Bloodline Spell-Like
+        Abilities (CL 8th; concentration +14)
+    - label: 9/day
+      value: touch of destiny (+4)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 8th; concentration +14)
+  values:
+    - label: 4th (4/day)
+      value: dimension door
+    - label: 3rd (6/day)
+      value: hold person (DC 19), protection from energy, spiked pitAPG (DC 19)
+    - label: 2nd (8/day)
+      value: blur, cat's grace, mirror image, web (DC 18)
+    - label: 1st (8/day)
+      value: >-
+        alarm, burning hands (DC 17), charm person (DC 17), chill touch (DC 17),
+        mage armor, ray of enfeeblement (DC 17)
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 16), flare (DC 16), ghost sound (DC 16), mage
+        hand, open/close, read magic, touch of fatigue (DC 16)
+AbilityScores:
+  - 14
+  - 32
+  - 23
+  - 14
+  - 10
+  - 22
+BaseAtk: '10'
+CMB: '11'
+CMD: '33'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Silent Spell
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (claws)
+Skills:
+  - Bluff +33
+  - Diplomacy +14
+  - Disguise +14
+  - Perception +27
+  - Sense Motive +8
+  - Spellcraft +21
+  - Stealth +34
+RacialMods: +8 Bluff, +8 Perception, +8 Stealth
+Languages:
+  - Aklo (cannot speak)
+SQ: bloodline arcana (gain luck bonus on saves when casting personal-range spells)
+Source: AP 88
+IsTemplate: '0'
+Bloodline: destined
+DuringCombat: >-
+  Maukui casts cat's grace and mage armor near the start of combat&#8211;if it
+  can, it does so before a fight begins. The effects of these two spells is
+  included in the statistics here. Once combat begins, the intellect devourer
+  casts mirror image, then prefers to use spiked pit, hold person, and web to
+  scatter its enemies and limit their mobility. Given the   chance, it uses body
+  theft on a target that has been held. Remember that in intellect devourer
+  form, Maukui cannot cast spells unless it augments them with Silent Spell.
+Morale: >-
+  Maukui attempts to flee if reduced to fewer than 30 hit points. If it does so,
+  it abandons the Dominion entirely and is unlikely to attempt to confront the
+  PCs again. If prevented from fleeing, it fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6479'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

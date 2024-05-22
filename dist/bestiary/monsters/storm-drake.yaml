@@ -1,0 +1,126 @@
+Name: Storm Drake
+CR: '7'
+XP: '3200'
+Alignment: LE
+Size: Large
+Type: dragon
+SubType: (air)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision, scent, storm vision
+  - Perception +12
+AC: 20, touch 10, flat-footed 19
+AC_Mods: (+1 Dex, +10 natural, -1 size)
+HP: '84'
+HD: (8d12+32)
+Saves: Fort +10, Ref +7, Will +9
+Fort: '10'
+Ref: '7'
+Will: '9'
+Immune: paralysis, sleep
+Resist: electricity 20
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - bite +13 (2d6+6/19-20), 2 claws +13 (1d6+6)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: lightning breath, savage bite
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th)
+  values:
+    - label: 3/day
+      value: call lightning (DC 14), fog cloud, obscuring mist, sleet storm
+    - label: 1/day
+      value: control weather, control winds (DC 16)
+AbilityScores:
+  - 22
+  - 13
+  - 18
+  - 8
+  - 12
+  - 13
+BaseAtk: '8'
+CMB: '15'
+CMD: '26'
+Feats:
+  - Flyby Attack
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+Skills:
+  - Fly +10
+  - Intimidate +12
+  - Knowledge (nature) +6
+  - Perception +12
+  - Stealth +8
+  - Survival +8
+Languages:
+  - Draconic
+SQ: speed surge
+Environment: temperate mountains
+Organization: solitary, pair, or wing (3-8)
+Treasure: standard
+Description_Visual: >-
+  This powerful dragon is dull gray in color and sports massive wings. Its mouth
+  is lined with razor-sharp fangs the length of daggers.
+Group: Drake
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Lightning Breath (Su)
+    description: >-
+      A storm drake can, as a standard action, breathe a ball of electricity
+      that explodes upon contact with a solid surface or target. This attack has
+      a range of 100 feet and deals 7d6 points of electricity damage (DC 18
+      Reflex half) to all creatures within a 20-foot radius spread. Once a storm
+      drake has used its lightning breath, it cannot do so again for 1d6 rounds.
+      The save DC is Constitution-based.
+  - name: Savage Bite (Ex)
+    description: >-
+      A storm drake applies 1-1/2 times its Strength bonus to damage dealt with
+      its bite attack, and it threatens a critical hit on a 19-20.
+  - name: Speed Surge (Ex)
+    description: >-
+      Three times per day as a swift action, a storm drake may draw on its
+      draconic heritage for a boost of strength and speed to take an additional
+      move action in that round.
+  - name: Storm Vision (Ex)
+    description: >-
+      A storm drake can see through fog, clouds, and similar obscuring effects
+      with perfect clarity, including areas affected by spells such as obscuring
+      mist and fog cloud.
+Description:
+  - >-
+    Storm drakes are fierce creatures that make their lairs high atop
+    storm-ravaged mountains. From here, they can survey their territory, and
+    dive to the attack when a potential meal is spotted. Favored meals include
+    humanoids of all kinds, and large game such as deer, elk, and moose.
+  - >-
+    Storm drakes are generally 20 feet long from nose to tail and weigh over
+    3,000 pounds. Colors range from dark, dull gray to slate gray mottled with
+    lighter grays. Claws and talons are black and its eyes are the color of dark
+    storm clouds. Storm drakes typically live 300 years.
+  - >-
+    A storm drake is merciless in combat, biting and slashing its foes with its
+    dagger-like teeth and claws. An ambush hunter by nature, a storm drake's
+    approach is usually foreshadowed by a sudden shift in the weather from clear
+    or slightly overcast skies to dark skies and storms.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4805'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

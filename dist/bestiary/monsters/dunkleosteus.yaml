@@ -1,0 +1,82 @@
+Name: Dunkleosteus
+CR: '6'
+XP: '2400'
+Alignment: 'N'
+Size: Huge
+Type: animal
+SubType: (aquatic)
+Init: '6'
+Senses:
+  - low-light vision
+  - Perception +15
+AC: 19, touch 10, flat-footed 17
+AC_Mods: (+9 armor, +2 Dex, -2 size, +0 natural)
+HP: '75'
+HD: (10d8+30)
+Saves: Fort +10, Ref +9, Will +4
+Fort: '10'
+Ref: '9'
+Will: '4'
+Speed: swim 60 ft.
+Melee:
+  - bite +16 (3d8+15/19-20 plus grab)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: siphoning bite, swallow whole (1d10 acid damage, AC 10, 6 hp)
+AbilityScores:
+  - 30
+  - 14
+  - 17
+  - 1
+  - 12
+  - 6
+BaseAtk: '7'
+CMB: +19 (+23 grapple)
+CMD: '31'
+Feats:
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Skill Focus (Swim)
+  - Weapon Focus (bite)
+Skills:
+  - Perception +15
+  - Swim +30
+RacialMods: +4 Perception
+Environment: any ocean
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  A gigantic, prehistoric fish cuts through the water, its head like a snapping
+  turtle, complete with sharp, toothlike plates.
+Group: Fish
+Source: AP 56
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Siphoning Bite (Ex)
+    description: >-
+      A dunkleosteus can open its giant mouth in a fraction of a second,
+      creating a vortex that draws a target in. When underwater, a dunkleosteus
+      gains an additional 5 feet of reach with its bite attack and a +2 bonus on
+      combat maneuver checks when grappling.
+Description:
+  - >-
+    A dunkleosteus is a massive fish with a bony head, armor plating, and a
+    beaklike maw capable of creating a vortex that siphons in its prey. Despite
+    growing to over 30 feet in length and weighing 8,000 pounds, dunkleosteuses
+    are agile swimmers.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2875'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

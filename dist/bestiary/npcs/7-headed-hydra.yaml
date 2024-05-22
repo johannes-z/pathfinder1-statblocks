@@ -1,0 +1,90 @@
+Name: 7-Headed Hydra
+CR: '6'
+XP: '2400'
+Race: 7-Headed Hydra
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +12
+AC: 17, touch 9, flat-footed 16
+AC_Mods: (+1 Dex, +8 natural, -2 size)
+HP: '66'
+HD: (7d10+28)
+HP_Mods: fast healing 7
+Saves: Fort +9, Ref +8, Will +4
+Fort: '9'
+Ref: '8'
+Will: '4'
+Speed: 20 ft., swim 20 ft.
+Melee:
+  - 7 bites +9 (1d8+3)
+Space: 15 ft.
+Reach: 10 ft.
+SpecialAttacks: pounce
+AbilityScores:
+  - 17
+  - 12
+  - 18
+  - 2
+  - 11
+  - 9
+BaseAtk: '7'
+CMB: '12'
+CMD: 23 (can't be tripped)
+Feats:
+  - Combat Reflexes
+  - Iron Will
+  - Lightning Reflexes
+  - Weapon Focus (bite)
+Skills:
+  - Perception +12
+  - Swim +11
+RacialMods: +2 Perception
+SQ: hydra traits, regenerate head
+Source: The Lost City of Barakus-Level 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fast Healing (Ex)
+    description: >-
+      A hydra's fast healing ability is equal to its current number of heads
+      (minimum fast healing 5). This fast healing applies only to damage
+      inflicted on the hydra's body.
+  - name: Hydra Traits (Ex)
+    description: >-
+      A hydra can be killed by severing all of its heads or slaying its body.
+      Any attack that is not an attempt to sever a head affects the body,
+      including area attacks or attacks that cause piercing or bludgeoning
+      damage. To sever a head, an opponent must make a sunder attempt with a
+      slashing weapon targeting a head. A head is considered a separate weapon
+      with hardness 0 and hit points equal to the hydra's HD. To sever a head,
+      an opponent must inflict enough damage to reduce the head's hit points to
+      0 or less. Severing a head deals damage to the hydra's body equal to the
+      hydra's current HD. A hydra can't attack with a severed head, but takes no
+      other penalties.
+  - name: Regenerate Head (Ex)
+    description: >-
+      When a hydra's head is destroyed, two heads regrow in 1d4 rounds. A hydra
+      cannot have more than twice its original number of heads at any one time.
+      To prevent new heads from growing, at least 5 points of acid or fire
+      damage must be dealt to the stump (a touch attack to hit) before they
+      appear. Acid or fire damage from area attacks can affect stumps and the
+      body simultaneously. A hydra doesn't die from losing its heads until all
+      are cut off and the stumps seared by acid or fire.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '14935'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

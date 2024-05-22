@@ -1,0 +1,98 @@
+Name: Rawbones
+CR: '8'
+XP: '4800'
+Race: Rawbones
+MonsterSource: Tome of Horrors III 157
+Alignment: LE
+Size: Medium
+Type: undead
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+Aura: nauseating aura (20 ft., DC 19)
+AC: 20, touch 12, flat-footed 18
+AC_Mods: (+2 Dex, +8 natural)
+HP: '102'
+HD: (12d8+48)
+Saves: Fort +7, Ref +8, Will +9
+Fort: '7'
+Ref: '8'
+Will: '9'
+DefensiveAbilities: channel resistance +2,
+DR: 10/magic or silver
+Immune: cold, undead traits
+Speed: 30 ft.
+Melee:
+  - 2 slams +15 (2d6+5)
+  - entrails lash +10 (1d6+5 plus grab)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with entrails lash)
+SpecialAttacks: constrict (1d6+5), strangle, vomit gore
+AbilityScores:
+  - 21
+  - 14
+  - —
+  - 12
+  - 13
+  - 16
+BaseAtk: '9'
+CMB: +14 (+18 grapple)
+CMD: '26'
+Feats:
+  - Improved Initiative
+  - Improved Natural Attack (entrails lash)
+  - Lightning Reflexes
+  - Toughness
+  - Weapon Focus (entrails lash)
+  - Weapon Focus (slam)
+Skills:
+  - Acrobatics +12
+  - Climb +18
+  - Escape Artist +12
+  - Intimidate +16
+  - Perception +14
+  - Stealth +15
+Languages:
+  - Common
+  - Polyglot
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Nauseating Aura (Su)
+    description: >-
+      A rawbones emanates a sickening aura that reeks of death in a 20-foot
+      radius. Any creature that comes within that area must succeed on DC 19
+      Fortitude save or become nauseated for as long as it remains within the
+      area and for 1 minute after leaving the area. A creature that makes a
+      successful save is immune to the nauseating aura of that rawbones for 24
+      hours. The save DC is Charisma-based.
+  - name: Strangle (Ex)
+    description: >-
+      Rawbones have an unerring talent for seizing their victims by the neck. A
+      creature that is grappled by a rawbones cannot speak or cast any spells
+      that have verbal components.
+  - name: Vomit Gore (Su)
+    description: >-
+      Three times per day, a rawbones can spit a blast of blood and gore in a
+      20-foot cone that deals 6d6 points of damage (DC 19 Reflex save for half
+      ). The save DC is Charisma-based.
+DuringCombat: >-
+  The rawbones vomit gore to catch as many opponents as possible in its effects,
+  then use their entrails lash to constrict and strangle their foes.
+Morale: The rawbones fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1045'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

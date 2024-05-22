@@ -1,0 +1,128 @@
+Name: Young Vrock
+CR: '8'
+XP: '4800'
+Race: vrock
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +23
+AC: 23, touch 14, flat-footed 19
+AC_Mods: (+4 Dex, +9 natural)
+HP: '94'
+HD: (9d10+45)
+Saves: Fort +11, Ref +12, Will +6
+Fort: '11'
+Ref: '12'
+Will: '6'
+DR: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10,  fire 10
+SR: '20'
+Speed: 30 ft., fly 50 ft. (average)
+Melee:
+  - 2 claws +11 (2d6+3), bite +11 (1d8+3), 2 talons +11 (1d6+3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: dance of ruin, spores, stunning screech
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: At will
+      value: >-
+        mirror image, telekinesis (DC 18), greater teleport (self plus 50 lbs.
+        of objects only)
+    - label: 1/day
+      value: heroism, summon (level 3, 1 vrock 35%)
+AbilityScores:
+  - 17
+  - 19
+  - 20
+  - 14
+  - 16
+  - 16
+BaseAtk: '9'
+CMB: '12'
+CMD: '26'
+Feats:
+  - Cleave
+  - Combat Reflexes
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+Skills:
+  - Fly +14
+  - Intimidate +15
+  - Knowledge (planes) +14
+  - Perception +23
+  - Sense Motive +15
+  - Spellcraft +14
+  - Stealth +12
+  - Survival +15
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - telepathy 100 ft.
+Source: PFS S1-32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dance of Ruin (Su)
+    description: >-
+      A vrock can dance and chant as a full-round action-at the end of 3 rounds,
+      a crackling wave of energy explodes from the vrock, dealing 5d6 points of
+      electricity damage to all creatures within 100 feet. A DC 17 Reflex save
+      halves this damage. For each additional vrock that joins in the dance, the
+      damage increases by 5d6 and the DC to avoid the effect increases by +1, to
+      a maximum of 20d6 when four or more vrocks are dancing (the DC continues
+      to increase with additional vrocks, but the damage does not). The dance
+      immediately ends and must be started anew if any of the participating
+      vrocks is slain, stunned, or otherwise prevented from dancing. The save DC
+      is Charisma-based.
+  - name: Spores (Ex)
+    description: >-
+      A vrock can release a cloud of spores from its body once every 3 rounds as
+      a free action. Adjacent creatures take 1d8 points of damage from the
+      spores, plus 1d4 points of damage per round for 10 rounds as the spores
+      grow into thick green vines. Although ugly, the vines are harmless and
+      wither away in 1d4 days if not shaved off before then. The spores can be
+      destroyed by casting bless on the affected creatures or by sprinkling them
+      with holy water. This attack can also be halted by effects that remove or
+      provide immunity to disease.
+  - name: Stunning Screech (Su)
+    description: >-
+      Once per hour, a vrock can emit a shrill screech. All creatures except
+      demons within a 30-foot-radius spread must succeed on a DC 18 Fortitude
+      save or be stunned for 1 round. The save DC is Constitution-based.
+BeforeCombat: The vrock casts mirror image if it expects battle.
+DuringCombat: >-
+  The vrock tries to use its spores ability at every opportunity as long as
+  there is a creature adjacent to it. It uses its stunning screech the first
+  time it has at least two enemies in range. Note that the vrock can fly under
+  its own power at a faster speed than the ambient fly ability, so it can zoom
+  around if it wants to, though it has a tendency to spin relative to the true
+  gravity when it does this (so it would look upside-down to the PCs, though
+  this doesn't hinder it in any way).
+Morale: >-
+  The demon is bound by an abyssal agreement to serve Jevana, and fights to the
+  death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: young|
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '4142'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

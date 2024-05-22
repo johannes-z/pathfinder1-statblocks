@@ -1,0 +1,103 @@
+Name: Dahruun Firehorn
+CR: '9'
+XP: '6400'
+Race: minotaur elder
+MonsterSource: Classic Monsters Revisited 44
+Alignment: CE
+Size: Large
+Type: monstrous humanoid
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+AC: 23, touch 9, flat-footed 23
+AC_Mods: (+6 armor, +8 natural, -1 size)
+HP: '133'
+HD: (14d10+56)
+Saves: Fort +10, Ref +9, Will +12
+Fort: '10'
+Ref: '9'
+Will: '12'
+Speed: 20 ft.
+Melee:
+  - greataxe +20/+15/+10 (3d6+10/x3), gore +15 (1d8+3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: powerful charge (gore, 4d6+10)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +12)
+  values:
+    - label: 3/day
+      value: fog cloud, glyph of warding (DC 16), stone shape
+    - label: 1/day
+      value: maze, wall of stone Save DCs are Wisdom-based.
+AbilityScores:
+  - 24
+  - 10
+  - 19
+  - 9
+  - 16
+  - 11
+BaseAtk: '14'
+CMB: +22 (+24 bull rush or grapple)
+CMD: 32 (+34 vs. bull rush or grapple)
+Feats:
+  - Cleave
+  - Great Cleave
+  - Great Fortitude
+  - Improved Bull Rush
+  - Improved Grapple
+  - Improved Unarmed Strike
+  - Power Attack
+Skills:
+  - Intimidate +17
+  - Perception +20
+  - Stealth +9 (+17 in mazes)
+RacialMods: +8 Stealth in mazes
+Languages:
+  - Giant
+SQ: maze mastery, natural cunning
+Source: PFS S3-04
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Maze Mastery (Su)
+    description: >-
+      Minotaur elders possess a supernatural cunning when in the confines of a
+      maze or labyrinth. In such areas, they receive a +4 bonus on initiative
+      checks and a +8 racial bonus on Stealth checks. In addition, a minotaur
+      elder might enter a maze spell as it is being cast along with the intended
+      target so long as the target is within 30 feet. This includes maze spells
+      cast by the minotaur elder. Once inside, the minotaur elder can leave the
+      maze as a move action. The minotaur elder and the target appear at
+      opposite ends of a 30-foot-square chamber where all exits lead to the maze
+      itself (and the only way out for the target).
+  - name: Natural Cunning (Ex)
+    description: >-
+      This ability is identical to the minotaur ability (Pathfinder RPG Bestiary
+      206).
+Gender: Male
+BeforeCombat: >-
+  Dahruun has saved against the Brimoraks' smoke breath and is not sickened
+  while adjacent to them.
+DuringCombat: >-
+  Dahruun begins the battle using his powerful charge ability to gore the
+  nearest PC. When reduced to 70 hit points or fewer, he uses his maze
+  spell-like ability and maze mastery special quality to isolate a
+  nonspellcasting PC and attempts to grapple and gore them to death.
+Morale: Dahruun fights to the death for the glory of his dark lord.
+OtherGear: breastplate, greataxe, silver unholy symbol of Baphomet
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5880'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

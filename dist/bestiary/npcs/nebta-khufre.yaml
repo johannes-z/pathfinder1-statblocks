@@ -1,0 +1,134 @@
+Name: Nebta-Khufre
+CR: '7'
+XP: '3200'
+Race: human
+Class: necromancer 8
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '0'
+Senses:
+  - life sight (10 feet, 8 rounds/day)
+  - Perception +8
+AC: 18, touch 10, flat-footed 18
+AC_Mods: (+4 armor, +4 shield)
+HP: '83'
+HD: (8d6+53)
+Saves: Fort +6, Ref +4, Will +9
+Fort: '6'
+Ref: '4'
+Will: '9'
+DR: 10/adamantine (80 points)
+Resist: fire 20
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - mwk club +4 (1d6-1)
+Ranged:
+  - dagger +4 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 8/day (DC 15)
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 8th; concentration +13)
+  values:
+    - label: 8/day
+      value: grave touch (4 rounds)
+SpellsPrepared: >-
+  Necromancer Spells Prepared (CL 8th; concentration +13)   4th-ball
+  lightningAPG (DC 19), fear (DC 21), obsidian flowUC (DC 19), stoneskin  
+  3rd-communal resist energyUC, fly, haste, ray of exhaustion (2, DC 20)  
+  2nd-bear's endurance, command undead (DC 19), false life, glitterdust (DC 17),
+  scorching ray   1st-alarm (2, already cast), mage armor, magic missile (2),
+  ray of enfeeblement (DC 18), shield   0 (at will)-bleed (DC 17), detect magic,
+  light, read magic
+AbilityScores:
+  - 8
+  - 10
+  - 18
+  - 20
+  - 16
+  - 12
+BaseAtk: '4'
+CMB: '3'
+CMD: '13'
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Craft Wand
+  - Greater Spell Focus (necromancy)
+  - Lightning Reflexes
+  - Scribe Scroll
+  - Spell Focus (necromancy)
+  - Undead Master
+Skills:
+  - Bluff +9
+  - Fly +12
+  - Intimidate +12
+  - Knowledge (arcana) +16
+  - Knowledge (history) +16
+  - Knowledge (nobility) +16
+  - Knowledge (religion) +16
+  - Perception +8
+  - Sense Motive +7
+  - Spellcraft +14
+Languages:
+  - Abyssal
+  - Aklo
+  - Ancient Osiriani
+  - Common
+  - Infernal
+  - Necril
+  - Osiriani
+SQ: arcane bond (mwk club), power over undead
+Source: AP 80
+IsTemplate: '0'
+Gender: Male
+ProhibitedSchools: enchantment, illusion
+BeforeCombat: >-
+  Nebta-Khufre casts alarm spells in areas Q8 and Q13 every day, and casts false
+  life and mage armor as soon as the alarm in area Q8 is triggered. Once the
+  second alarm in area Q13 is triggered, he also casts bear's endurance, fly,
+  shield, and stoneskin, and casts communal resist energy (fire) on himself and
+  the mummies.
+DuringCombat: >-
+  Once combat begins, Nebta-Khufre uses the Mask of the Forgotten Pharaoh to
+  cast animate dead on the corpses piled on the dais, creating six zombies, then
+  takes to the air and casts haste on himself and his undead minions and
+  obsidian flow on the floor around opponents. He then rains down offensive
+  spells and rays, sending ball lightning against armored warriors and targeting
+  spellcasters with disruptive spells (modified with his lesser disruptive
+  metamagic rod).
+Morale: >-
+  Obsessed with his newfound power over life and death, Nebta-Khufre is
+  unwilling to give up the Mask of the Forgotten Pharaoh and fights to the
+  death.
+Gear: >-
+  lesser disruptive metamagic rodUE, potions of cure moderate wounds (2), scroll
+  of stinking cloud, wand of enervation (14 charges)
+OtherGear: >-
+  dagger, mwk club, Mask of the Forgotten Pharaoh (see page 62), ring of
+  sustenance, spell component pouch, spellbook (contains all prepared spells and
+  all 0-level spells plus animate dead, arcane lock, chill touch, enervation,
+  gentle repose, ghoul touch, invisibility, knock, stinking cloud, vampiric
+  touch, and 1d8 additional spells), diamond dust (worth 500 gp), onyxes (worth
+  500 gp in total), silver holy symbols of Anubis and Pharasma (worth 25 gp
+  each), silver unholy symbol of Urgathoa (worth 25 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bear's endurance, false life, and mage armor, Nebta-Khufre's
+  statistics are AC 14, touch 10, flat-footed 14; hp 54; Fort +4; Con 14.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5972'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

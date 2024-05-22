@@ -1,0 +1,117 @@
+Name: Nox
+CR: '9'
+XP: '6400'
+Race: human
+Class: fighter (polearm master) 7
+MonsterSource: Pathfinder RPG Bestiary 4 56, 24; Pathfinder RPG Advanced Player's Guide 106
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '0'
+Senses:
+  - blinders, darkvision 60 ft., see in darkness
+  - Perception +10
+AC: 26, touch 10, flat-footed 26
+AC_Mods: (+8 armor, +8 natural)
+HP: '99'
+HD: (7d10+56)
+HP_Mods: regeneration 5 (good spells, good weapons)
+Saves: Fort +14, Ref +3, Will +4; +4 vs. poison
+Fort: '14'
+Ref: '3'
+Will: '4'
+Save_Mods: +4 vs. poison
+DR: 5/-
+Resist: acid 5, cold 5, electricity 5, fire 30, sonic 5
+Weaknesses: contract bound
+Speed: 15 ft.
+Melee:
+  - +1 vicious glaive +16/+11 (1d10+13/x3 plus 2d6)
+  - torturous touch +13 touch (2d6 plus 1d6 Dexterity damage and convulsions)
+Ranged:
+  - throwing axe +7 (1d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: baleful gaze (DC 11), pole fighting, steadfast pike
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration -5)
+  values:
+    - label: 3/day
+      value: dimension door, rage
+    - label: 1/day
+      value: summon (level 2, 1 lemure 100%)
+AbilityScores:
+  - 22
+  - 10
+  - 22
+  - 10
+  - 12
+  - 7
+BaseAtk: '7'
+CMB: '13'
+CMD: '23'
+Feats:
+  - Alertness
+  - Cleave
+  - Combat Reflexes
+  - Diehard
+  - Endurance
+  - Great Fortitude
+  - Power Attack
+  - Stand Still
+  - Step Up
+  - Toughness
+  - Weapon Focus (glaive)
+  - Weapon Specialization (glaive)
+Skills:
+  - Climb +6
+  - Intimidate +15
+  - Knowledge (planes) +1
+  - Perception +10
+  - Sense Motive +9
+Languages:
+  - Common
+SQ: torturous touch
+Source: AP 99
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blinders (Ex)
+    description: >-
+      As long as Nox wears her blinders, she loses limit her vision to no
+      farther than 10 feet; she remains no farther than 10 feet from Cizmekris
+      at all times as a result. As a standard action, an adjacent creature can
+      yank a chain hanging from the back of the blinders, causing the device to
+      painfully rip away. This deals 2d4 points of damage to Nox, but restores
+      her sight and baleful gaze ability.
+Gender: Female
+DuringCombat: >-
+  Nox uses her glaive's reach to fight the PCs while they engage in melee with
+  others. She prefers to fight with this weapon, but switches to her torturous
+  touch if forced into close quarters. If Cizmekris removes her blinders, Nox
+  swiftly moves away from her "master" to keep him out of reach of her gaze if
+  possible&#8211;though she doesn't bother to keep any dottari guards sheltered
+  from the gaze. She doesn't bother summoning a lemure in this battle. She
+  avoids using rage so she can retain the option of using dimension door if
+  needed to pursue the PCs.
+Morale: Nox fights to the death.
+Gear: >-
+  +2 chainmail, +1 vicious glaive, throwing axes (4), belt of giant strength +2,
+  cloak of resistance +1, ring of sustenance, blinders, skeleton key
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: broken soul|bearded-devil-bound|
+AgeCategory: Adult
+ClassArchetypes: polearm master
+CompanionFamiliarLink: '0'
+id: '7174'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

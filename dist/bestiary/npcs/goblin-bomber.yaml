@@ -1,0 +1,98 @@
+Name: Goblin Bomber
+CR: '2'
+XP: '600'
+Race: Goblin
+Class: alchemist 3
+MonsterSource: Advanced Player's Guide 26
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (goblinoid)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 21, touch 15, flat-footed 17
+AC_Mods: (+4 armor, +4 Dex, +2 natural, +1 size)
+HP: '32'
+HD: (3d8+15)
+Saves: Fort +7, Ref +7, Will +1; +2 vs. poison
+Fort: '7'
+Ref: '7'
+Will: '1'
+Save_Mods: +2 vs. poison
+Speed: 30 ft.
+Melee:
+  - short sword +3 (1d4/19-20)
+Ranged:
+  - bomb +9 (2d6+1 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bomb 4/day (2d6+1 fire and catch fire, DC 12, 10-ft. radius)
+AbilityScores:
+  - 10
+  - 19
+  - 18
+  - 13
+  - 10
+  - 4
+BaseAtk: '2'
+CMB: '1'
+CMD: '15'
+Feats:
+  - Brew Potion
+  - Improved Initiative
+  - Throw Anything
+  - Weapon Focus (bomb)
+Skills:
+  - Climb +3
+  - Craft (alchemy) +7
+  - Ride +11
+  - Stealth +15
+  - Swim +3
+RacialMods: +4 Ride, +4 Stealth
+Languages:
+  - Common
+  - Goblin
+SQ: >-
+  alchemy (alchemy crafting +3, identify potions), mutagen (+4/-2, +2 natural,
+  30 minutes), discoveries (explosive bomb*), poison use, swift alchemy
+Source: PFS S2-17
+IsTemplate: '0'
+BeforeCombat: >-
+  Once the bombers see the PCs, they drink their Constitution mutagens and wait
+  for the PCs to kill the rabid dogs before attacking.
+DuringCombat: >-
+  The bombers stay in the rafters as long as they can, hurling bombs and
+  alchemist's fire at the PCs. Should the PCs retreat into the room to the
+  south, the goblins run across the rafters and drop into the trash along the
+  north wall to go after them.
+Morale: >-
+  The goblin bombers fight to the death, but if there is only one remaining, he
+  runs for the stairs and attempts to warn Vermund about the PCs.
+Gear: >-
+  potions of cure light wounds (2), alchemist fire (3), tanglefoot bag (2),
+  thunderstone (3)
+OtherGear: +1 studded leather, short sword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not under the effects of its mutagen, a goblin bombers stats are: AC 19,
+  touch 15, flat-footed 15 (+4 armor, +4 Dex, +1 size); hp 26 each; Fort +5; Con
+  14, Cha 6
+ExtractsPrepared: >-
+  Alchemist Extracts Known (CL 3rd)  1st-cure light wounds, endure elements,
+  expeditious retreat, jump
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5641'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

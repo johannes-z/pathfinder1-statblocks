@@ -1,0 +1,108 @@
+Name: Darux
+CR: '5'
+XP: '1600'
+Race: fear eater
+MonsterSource: 'Pathfinder Campaign Setting: Occult Bestiary 27'
+Alignment: NE
+Size: Medium
+Type: fey
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +12
+AC: 18, touch 16, flat-footed 12
+AC_Mods: (+6 Dex, +2 natural)
+HP: '52'
+HD: (8d6+24)
+Saves: Fort +5, Ref +12, Will +7
+Fort: '5'
+Ref: '12'
+Will: '7'
+DR: 5/cold iron
+Immune: disease, fear
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - 2 claws +10 (1d6+2 plus anxiety spores)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: anxiety spores, dread burst, fungal snare
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th, concentration +7)
+  values:
+    - label: At Will
+      value: cause fear (DC 13), dancing lights
+    - label: 3/day
+      value: faerie fire, paranoiaOA (DC 14)
+    - label: 1/day
+      value: fear, feather fall
+AbilityScores:
+  - 14
+  - 22
+  - 17
+  - 11
+  - 12
+  - 15
+BaseAtk: '4'
+CMB: '6'
+CMD: 22 (can't be tripped)
+Feats:
+  - Combat Reflexes
+  - Improved Initiative
+  - Power Attack
+  - Weapon Finesse
+Skills:
+  - Acrobatics +17
+  - Climb +21
+  - Intimidate +10
+  - Perception +12
+  - Sense Motive +12
+  - Stealth +17
+RacialMods: +8 Climb
+Languages:
+  - Aklo
+  - Undercommon
+Source: Down The Blighted Path
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Anxiety Spores (Ex)
+    description: >-
+      Any creature struck by the fear eater's claws must succeed at a DC 17
+      Fortitude saving throw or be infected with anxiety spores, which cause
+      nervousness and muscle tremors. Anxiety Spores: Disease-injury; save Fort
+      DC 17; onset 1 round; frequency 1/minute; effect cumulative &#8211;1
+      penalty on saving throws against effects with the emotion descriptor
+      (maximum &#8211;5); cure 2
+  - name: consecutive saves  Dread Burst (Su)
+    description: >-
+      As a standard action, a fear eater can cause mushrooms to erupt from any
+      creature within 30 feet already infected with its anxiety spores. The
+      targeted creature takes 1d6 points of Charisma damage (Fortitude DC 17
+      negates) as the growing spores siphon away her emotions. If the affected
+      creature is currently shaken, frightened, or panicked, any creature within
+      10 feet gains the same condition for 1d4 rounds (Will DC 17 negates). This
+      is a mind-affecting fear effect with the emotion descriptor. The save DCs
+      are Charisma-based.
+  - name: Fungal Snare (Ex)
+    description: >-
+      Once every 1d4 rounds, a fear eater can spew a fungal mass up to 30 feet,
+      which coats all creatures within a 10-foot-radius burst with sticky
+      filaments. Creatures other than fear eaters are entangled (Reflex DC 17
+      negates). An entangled creature can attempt to break free with a
+      successful DC 14 Strength or Escape Artist check as a move action. The
+      save DC is Charisma-based.
+Gender: Female
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7829'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

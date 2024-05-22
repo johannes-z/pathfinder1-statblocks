@@ -1,0 +1,114 @@
+Name: Halig Oaklage
+CR: '4'
+XP: '1200'
+Race: ghast
+Class: cleric of Zon-Kuthon 3
+MonsterSource: Pathfinder RPG Bestiary 146
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +13
+Aura: stench (10 ft., DC 16, 1d6+4 minutes)
+AC: 22, touch 13, flat-footed 19
+AC_Mods: (+5 armor, +3 Dex, +4 natural)
+HP: '47'
+HD: (5d8+25)
+Saves: Fort +9, Ref +5, Will +12
+Fort: '9'
+Ref: '5'
+Will: '12'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 20 ft.
+Melee:
+  - >-
+    bite +6 (1d6+2 plus disease and paralysis), 2 claws +6  (1d4+2 plus
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  paralysis (1d4+1 rounds, DC 16), channel  negative energy 10/day (DC 16, 2d6),
+  destructive smite +1  (8/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 3rd; concentration +8)
+  values:
+    - label: 8/day
+      value: touch of evil (1 round)
+SpellsPrepared: >-
+  Spells Prepared (CL 3rd; concentration +8)  2nd-death knell (DC 17), shatterD
+  (DC 17), spiritual weapon  1st-bane (DC 16), cause fear (DC 16), command (2,
+  DC 16), protection from goodD  0 (at will)-bleed (DC 15), detect magic,
+  guidance, resistance
+SpellDomains: Destruction, Evil
+AbilityScores:
+  - 14
+  - 17
+  - —
+  - 17
+  - 21
+  - 20
+BaseAtk: '3'
+CMB: '5'
+CMD: '18'
+Feats:
+  - Command Undead
+  - Extra Channel
+  - Weapon Finesse
+Skills:
+  - Acrobatics +1 (-3 jump)
+  - Climb +3
+  - Diplomacy +11
+  - Heal +11
+  - Intimidate +11
+  - Knowledge (nobility) +9
+  - Knowledge (religion) +9
+  - Perception +13
+  - Sense Motive +11
+  - Spellcraft +9
+  - Stealth +6
+Languages:
+  - Common
+  - Draconic
+  - Osiriani
+SQ: aura
+Source: NPC Guide
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 16; onset 1 day; frequency 1 day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at
+      the next midnight. A humanoid of 4 Hit Dice or more rises as a ghast.
+Gender: Male
+BeforeCombat: >-
+  In his home, Halig has two guards (NE male ghoul fighters 1) nearby at all
+  times, and is quick to summon them if he is in danger. If there are chattel
+  about, Halig also summons them to fight at his side&#8211; even if only to
+  distract his opponents for a moment.
+DuringCombat: >-
+  Halig uses his channel energy ability to heal himself and his undead allies or
+  to injure living opponents. He targets his largest enemy's weapon with
+  shatter, then casts spiritual weapon before joining the fray. He tries to
+  paralyze as many opponents as possible.
+Morale: Halig uses his darkness spell to flee if the combat turns against him.
+Gear: potion of barkskin, potion of magic fang
+OtherGear: masterwork scale mail, cloak of resistance +1, 650 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '638'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

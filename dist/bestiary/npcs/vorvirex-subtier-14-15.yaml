@@ -1,0 +1,123 @@
+Name: Vorvirex Subtier 14-15
+CR: '14'
+XP: '38400'
+Race: young adult umbral dragon
+MonsterSource: >-
+  Pathfinder Player Companion: Monster Summoner's Handbook 19, Pathfinder RPG
+  Bestiary 2 102
+Alignment: CE
+Size: Huge
+Type: dragon
+SubType: (extraplanar, fire)
+Init: '4'
+Senses:
+  - dragon senses
+  - Perception +22
+Aura: frightful presence (150 ft., DC 21)
+AC: 30, touch 8, flat-footed 30
+AC_Mods: (+4 armor, +18 natural, -2 size)
+HP: '157'
+HD: (15d12+60)
+Saves: Fort +13, Ref +9, Will +13
+Fort: '13'
+Ref: '9'
+Will: '13'
+DefensiveAbilities: negative energy affinity
+DR: 5/-
+Immune: cold, death effects, fire, negative energy, paralysis, sleep
+SR: '25'
+Speed: 40 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +20 (2d8+10/19-20 plus 3d6 fire), 2 claws +20 (2d6+7 plus 3d6 fire),
+    tail slap +18 (2d6+10 plus 3d6 fire), 2 wings +18 (1d8+3 plus 3d6 fire)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (50-ft. cone, 10d8 negative energy, Reflex DC 21 half), crush
+  (Small creatures, DC 21, 2d8+10)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +19)
+  values:
+    - label: At Will
+      value: darkness, vampiric touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (5/day)
+      value: burning gazeAPG (DC 16), command undead (DC 16)
+    - label: 1st (7/day)
+      value: alarm, mage armor, protection from good, shield
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, detect magic, ghost sound (DC 14), mage
+        hand, message
+AbilityScores:
+  - 25
+  - 10
+  - 19
+  - 18
+  - 19
+  - 18
+BaseAtk: '15'
+CMB: '24'
+CMD: 34 (38 vs. trip)
+Feats:
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Vital Strike
+Skills:
+  - Bluff +22
+  - Diplomacy +22
+  - Fly +10
+  - Knowledge (arcana) +22
+  - Knowledge (local) +22
+  - Knowledge (planes) +22
+  - Perception +22
+  - Sense Motive +22
+  - Spellcraft +22
+  - Stealth +16
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Ignan
+  - Undercommon
+SQ: ghost bane, umbral scion
+Source: PFS 8-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ghost Bane (Su)
+    description: Vorvirex's physical attacks deal damage to incorporeal creatures normally.
+  - name: Umbral Scion (Ex)
+    description: >-
+      Vorvirex has negative energy affinity and is immune to energy drain and
+      death effects.
+BeforeCombat: Vorvirex casts entropic shield and mage armor on himself.
+DuringCombat: >-
+  Vorvirex engages the PCs from a distance using his breath weapon and sticking
+  to the air. If facing opponents with superior ranged abilities, he instead
+  lands and uses his natural attacks.
+Morale: >-
+  If Azhghazara is slain and Vorvirex is reduced to 15 or fewer hit points, he
+  attempts to flee across the chasm and into the Plane of Fire.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: fiery|
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '11621'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

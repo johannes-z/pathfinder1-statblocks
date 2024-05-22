@@ -1,0 +1,97 @@
+Name: Charau-ka Thug
+CR: '4'
+XP: '1200'
+Race: Charau-ka
+Class: warrior 3
+MonsterSource: 'World Guide: The Inner Sea 308'
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (charau-ka)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +2
+AC: 18, touch 12, flat-footed 17
+AC_Mods: (+3 armor, +1 Dex, +2 natural, +1 shield, +1 size)
+HP: '44'
+HD: (6 HD; 3d8+3d10+15)
+Saves: Fort +6, Ref +5, Will +3
+Fort: '6'
+Ref: '5'
+Will: '3'
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - mwk darkwood club +10 (1d4+2), bite +3 (1d3+1)
+Ranged:
+  - mwk throwing axe +9 (1d4+2/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 15
+  - 13
+  - 14
+  - 8
+  - 12
+  - 11
+BaseAtk: '5'
+CMB: '6'
+CMD: '17'
+Feats:
+  - Point-Blank Shot
+  - Precise Shot
+  - Throw AnythingB
+  - Weapon Focus (club)
+Skills:
+  - Climb +14
+  - Intimidate +6
+  - Perception +2
+  - Stealth +10
+Languages:
+  - Abyssal
+  - Polyglot
+Source: AP 39
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Shrieking Frenzy (Su)
+    description: >-
+      Once per day, a charau-ka can enter a state of shrieking frenzy as a free
+      action. While in this state, the charau-ka automatically fails Stealth
+      checks and cannot speak or cast spells that use verbal components (or use
+      items that require command words to activate), but functions as if under
+      the effects of a haste spell. A charau-ka can continue shrieking for up to
+      3 rounds, after which it is staggered for 1 round.
+  - name: Thrown Weapon Mastery (Ex)
+    description: >-
+      Charau-ka are masters of thrown weapons. All charau-ka gain Throw Anything
+      as a bonus feat. In addition, a charau-ka gains a +1 racial bonus on all
+      thrown weapons, and the threat range for thrown weapons is doubled, as if
+      the charau-ka possessed the Improved Critical feat for all thrown weapons.
+      This effect doesn't stack with any other effect that expands the threat
+      range of a weapon.
+DuringCombat: >-
+  A charau-ka thug enters a shrieking frenzy on the first round of combat. If
+  it's injured when the frenzy ends, it drinks its potion of cure moderate
+  wounds before continuing the fight.
+Morale: >-
+  Unless it's in the presence of one of the tribe's leaders, a charau-ka thug
+  flees combat or surrenders if reduced to fewer than 10 hit points.
+Gear: potion of cure moderate wounds
+OtherGear: >-
+  masterwork studded leather, masterwork darkwood light wooden shield,
+  masterwork darkwood club, masterwork throwing axes (2)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '978'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,144 @@
+Name: King Castruccio Irovetti
+CR: '16'
+XP: '76800'
+Race: human
+Class: bard 11/fighter 5
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +18
+AC: 32, touch 19, flat-footed 27
+AC_Mods: (+11 armor, +3 deflection, +4 Dex, +2 dodge, +2 natural)
+HP: '188'
+HD: (16 HD; 11d8+5d10+107)
+Saves: >-
+  Fort +16, Ref +17, Will +13; +4 vs. bardic performance, language-dependent,
+  and sonic, +1 vs. fear
+Fort: '16'
+Ref: '17'
+Will: '13'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic, +1 vs. fear
+DefensiveAbilities: bravery +1
+Speed: 60 ft.
+Melee:
+  - rod of razors +25/+25/+20/+15 (1d10+17/19-20/x3)
+Ranged:
+  - flechettes +24/+24/+19/+14 (1d8+13/19-20/x3)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with rod of razors)
+SpecialAttacks: >-
+  bardic performance 36 rounds/day (move action; countersong, dirge of doom,
+  distraction, fascinate, inspire competence +4, inspire courage +3, inspire
+  greatness, suggestion)
+SpellsKnown:
+  header: Spells Known (CL 11th; concentration +17)
+  values:
+    - label: 4th (3/day)
+      value: dimension door, dominate person (DC 21), greater invisibility
+    - label: 3rd (5/day)
+      value: charm monster (DC 20), displacement, phantom steed, scrying
+    - label: 2nd (6/day)
+      value: >-
+        cat's grace, cure moderate wounds, detect thoughts (DC 18), glitterdust
+        (DC 18), suggestion (DC 19)
+    - label: 1st (7/day)
+      value: >-
+        alarm, charm person (DC 18), cure light wounds, expeditious retreat,
+        undetectable alignment, unseen servant
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, light, mage hand, message,
+        prestidigitation
+AbilityScores:
+  - 18
+  - 18
+  - 20
+  - 12
+  - 8
+  - 22
+BaseAtk: '13'
+CMB: '17'
+CMD: '35'
+Feats:
+  - Arcane Strike
+  - Combat Reflexes
+  - Dodge
+  - Extend Spell
+  - Extra Performance
+  - Improved Iron Will
+  - Iron Will
+  - Skill Focus (Perform [sing])
+  - Spell Focus (enchantment)
+  - Toughness
+  - Weapon Focus (rod of razors)
+  - Weapon Specialization (rod of razors)
+Skills:
+  - Intimidate +20
+  - Knowledge (arcana) +14
+  - Knowledge (local) +14
+  - Knowledge (nobility) +14
+  - Linguistics +5
+  - Perception +18
+  - Perform (dance) +20
+  - Perform (oratory) +25
+  - Perform (sing) +31
+  - Ride +13
+  - Use Magic Device +25
+Languages:
+  - Common
+  - Hallit
+  - Skald
+  - tongues
+SQ: >-
+  armor training 1, bardic knowledge +5, contingency, improved resources,
+  jack-of-all-trades (use any skill), lore master 2/day, permanent spells,
+  versatile performance (oratory, sing, dance)
+Source: AP 35
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Male
+BeforeCombat: >-
+  King Irovetti casts three alarm spells every morning (one at area Q1, one at
+  Q10, and one at T3), along with undetectable alignment and unseen servant so
+  he never has to take time to open doors on his own. If an alarm is raised, he
+  also casts cat's grace on himself.
+DuringCombat: >-
+  King Irovetti activates his boots of speed at the start of combat, along with
+  his inspire courage ability&#8211;both of these effects are calculated in the
+  stat block above. For the first few rounds of combat, he lets his guards enter
+  melee while he hangs back and casts displacement and various ranged attack
+  spells. If he's still around after 3 rounds, his increased courage leads him
+  to enter melee wielding his rod of razors. He always uses Arcane Strike when
+  he attacks (this damage bonus is included in his stats above).
+Morale: >-
+  King Irovetti flees via his dimension door contingency if he ever takes more
+  than 10 points of damage from a single attack. He also flees via dimension
+  door to area T1 if he's reduced to 100 hit points or fewer or is otherwise
+  hurt badly by a magical effect that doesn't do hit point damage. He resorts to
+  greater invisibility and physical retreat if he can't teleport.
+Gear: >-
+  potions of lesser restoration (4), scroll of heal, scroll of restoration,
+  scroll of teleport, wand of hold monster (CL 10th, 13 charges)
+OtherGear: >-
+  +5 mithral breastplate, rod of razors, amulet of natural armor +2, boots of
+  speed, cloak of resistance +4, ring of protection +3, master key (unlocks all
+  locks in the palace), mindrender baton
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '860'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

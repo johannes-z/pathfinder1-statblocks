@@ -1,0 +1,83 @@
+Name: Pool Of Ultimate Ending
+CR: '15'
+XP: '51200'
+Race: Colossal mythic crystal ooze
+MonsterSource: Pathfinder RPG Bestiary 166, Pathfinder RPG Mythic Adventures 226
+Alignment: 'N'
+Size: Colossal
+Type: ooze
+SubType: (aquatic, mythic)
+Init: '0'
+Senses:
+  - blindsight 60 ft.
+  - Perception -5
+Aura: unholy aura (DC 13)
+AC: 26, touch 6, flat-footed 26
+AC_Mods: (+4 deflection, +20 natural, -8 size)
+HP: '376'
+HD: (16d8+304)
+HP_Mods: regeneration 15 (good spell or weapon)
+Saves: Fort +25, Ref +9, Will +4
+Fort: '25'
+Ref: '9'
+Will: '4'
+DR: 10/epic
+Immune: acid, cold, fire, ooze traits
+SR: '26'
+Speed: 10 ft., swim 30 ft.
+Melee:
+  - 2 slams +23 (4d8+28 plus paralysis)
+Space: 30 ft.
+Reach: 60 ft.
+SpecialAttacks: acid, mythic power (6/day, surge +1d8), potent paralysis
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +11)
+  values:
+    - label: Constant
+      value: unholy aura (DC 13)
+AbilityScores:
+  - 48
+  - 10
+  - 42
+  - —
+  - 1
+  - 1
+BaseAtk: '12'
+CMB: '39'
+CMD: '53'
+Skills:
+  - Swim +27
+Source: AP 77
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Potent Paralysis (Ex)
+    description: >-
+      A creature damaged by the ooze's slam attack must also succeed at a DC 34
+      Fortitude save or be paralyzed for 3d6 rounds. This paralysis effect can
+      even affect those under the protection of freedom of movement, or who are
+      normally immune to paralysis effects, although mythic creatures who have
+      immunity to paralysis gain a +10 bonus on their saving throws to resist.
+      When used to paralyze a creature normally immune to the effect, this is a
+      supernatural ability. The save DC is Constitution-based.
+DuringCombat: >-
+  The ooze, despite being unintelligent, can sense the difference between
+  chaotic evil outsiders and other creatures. It does not attack chaotic evil
+  outsiders, but furiously assaults all other intruders into this chamber with
+  its immense acidic pseudopods as long as they remain within 60 feet of the
+  acid surface below.
+Morale: The vast ooze fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5557'
+UniqueMonster: '0'
+Variant: '0'
+MR: '6'
+Mythic: '1'
+MT: '0'

@@ -1,0 +1,71 @@
+Name: Animated Crane
+CR: '8'
+XP: '4800'
+Race: Animated Crane
+MonsterSource: Pathfinder RPG Bestiary 14
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception -5
+AC: 18, touch 8, flat-footed 18
+AC_Mods: (-1 Dex, +10 natural, -1 size)
+HP: '68'
+HD: (7d10+30)
+Saves: Fort +2, Ref +1, Will -3
+Fort: '2'
+Ref: '1'
+Will: '-3'
+DefensiveAbilities: hardness 15
+Immune: construct traits
+Speed: immobile
+Melee:
+  - slams +12 (4d6+9 plus grab)
+Space: 10 ft.
+Reach: 30 ft.
+AbilityScores:
+  - 22
+  - 8
+  - —
+  - —
+  - 1
+  - 1
+BaseAtk: '7'
+CMB: +14 (+18 grapple)
+CMD: '23'
+SQ: >-
+  Construction Points (exceptional reach, glaucite, grab, improved attack,
+  reinforced, immobile)
+Source: AP 87
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Construction Points (Ex)
+    description: >-
+      The animated crane gains 30- foot reach and enhanced damage with its slam
+      attack. It is made of glaucite (granting it a +4 increase to natural armor
+      and hardness 15), and is reinforced such that it gains additional Hit Dice
+      over what a Large construct normally gains. The crane is immobile, and
+      cannot move from its position.
+DuringCombat: >-
+  The animated crane is immobile, but can strike at opponents with the claw at
+  the end of its boom from anywhere in its reach. If it successfully grabs a
+  creature, the  crane swings its boom over the open space and drops the
+  creature into area F23, 30 feet below.
+Morale: The animated crane fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6359'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

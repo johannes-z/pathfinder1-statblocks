@@ -1,0 +1,99 @@
+Name: Half-Fiend Thessalhydra
+CR: '21'
+XP: '409600'
+Race: thessalhydra
+MonsterSource: Pathfinder RPG Bestiary 171, Pathfinder RPG Bestiary 6 263
+Alignment: CE
+Size: Gargantuan
+Type: outsider
+SubType: (aberration, native)
+Init: '17'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +37
+AC: 40, touch 27, flat-footed 23
+AC_Mods: (+4 deflection, +17 Dex, +13 natural, -4 size)
+HP: '350'
+HD: (20d8+260)
+Saves: Fort +23, Ref +27, Will +24
+Fort: '23'
+Ref: '27'
+Will: '24'
+DefensiveAbilities: all-around vision
+DR: 10/magic
+Immune: acid, poison
+Resist: cold 10, electricity 10, fire 10
+SR: '32'
+Speed: 40 ft., fly 80 ft. (good)
+Melee:
+  - >-
+    bite +29 (3d6+11/19-20 plus 2d6 acid), 2 claws +28 (2d6+11), pincer +26
+    (2d8+5 plus grab), 8 snake bites +27 (1d8+5/19-20 plus 1d6 acid)
+Ranged:
+  - 8 acid spits +28 touch (2d6 acid)
+Space: 20 ft.
+Reach: 20 ft. (30 ft. with snake bites, 40 ft. with pincer)
+SpecialAttacks: >-
+  breath weapon (160- ft. line, 20d6 acid, Reflex DC 33 half, usable every 1d4
+  rounds), constrict (2d6+11), pounce, smite good
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +21)
+  values:
+    - label: 3/day
+      value: darkness, poison (DC 15), unholy aura (DC 19)
+    - label: 1/day
+      value: >-
+        blasphemy (DC 18), contagion (DC 15), desecrate, destruction (DC 18),
+        horrid wilting (DC 19), summon monster IX (fiends only), unhallow,
+        unholy blight (DC 15)
+AbilityScores:
+  - 33
+  - 44
+  - 36
+  - 4
+  - 26
+  - 13
+BaseAtk: '15'
+CMB: +30 (+34 grapple)
+CMD: 61 (65 vs. trip)
+Feats:
+  - Bleeding Critical
+  - Combat Reflexes
+  - Critical Focus
+  - Improved Critical (bite)
+  - Improved Critical (snake bite)
+  - Multiattack
+  - Skill Focus (Perception)
+  - Weapon Finesse
+  - Weapon Focus (bite)
+  - Weapon Focus (snake bite)
+Skills:
+  - Acrobatics +35
+  - Fly +38
+  - Perception +37
+  - Swim +19
+Source: AP 138
+IsTemplate: '0'
+DuringCombat: >-
+  The thessalhydras cast unholy aura on themselves in the first round of combat
+  (this spell's effects are calculated into the stat blocks already), then cast
+  summon monster IX on the second round to each summon 1d3 hezrous. On the third
+  round, they move into position to hit as many PCs as possible with their
+  breath weapons, after which they fight in melee.
+Morale: The half-fiend thessalhydras fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-fiend|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11990'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

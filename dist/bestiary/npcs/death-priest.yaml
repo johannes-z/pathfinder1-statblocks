@@ -1,0 +1,99 @@
+Name: Death Priest
+CR: '8'
+XP: '4800'
+Race: human
+Class: cleric of urgathoa 9
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +10
+AC: 20, touch 13, flat-footed 18
+AC_Mods: (+7 armor, +1 deflection, +2 Dex)
+HP: '89'
+HD: (9d8+27)
+Saves: Fort +11, Ref +6, Will +11
+Fort: '11'
+Ref: '6'
+Will: '11'
+Speed: 20 ft.
+Melee:
+  - dagger +5/+0 (1d4-1/19-20)
+Ranged:
+  - light crossbow +8 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 17, 5d6), hand of the acolyte (7/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: 7/day
+      value: bleeding touch (4 rounds)
+    - label: 1/day
+      value: dispelling touch
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 9th; concentration +13)   5th-slay living D (2, DC
+  21)   4th-death wardD, freedom of movement, poison (DC 20), spell immunity  
+  3rd-bestow curse (DC 19), contagion (2, DC 19), dispel magicD, prayer  
+  2nd-bear's endurance, darkness, death knell D (DC 18), delay poison (DC 16),
+  desecrate, resist energy (DC 16)   1st-bane (DC 15), cause fear D (DC 17, 2),
+  entropic shield, obscuring mist, protection from good   0 (at will)-bleed (DC
+  16), detect poison, light, virtue
+SpellDomains: Death, Magic
+AbilityScores:
+  - 8
+  - 15
+  - 18
+  - 10
+  - 19
+  - 12
+BaseAtk: '6'
+CMB: '5'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Greater Spell Focus (necromancy)
+  - Improved Channel
+  - Improved Initiative
+  - Spell Focus (necromancy)
+Skills:
+  - Craft (alchemy) +6
+  - Heal +10
+  - Intimidate +7
+  - Knowledge (religion) +12
+  - Perception +10
+Languages:
+  - Common
+SQ: aura, death's embrace
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The cleric casts bear's endurance, delay poison, and freedom of movement.
+DuringCombat: >-
+  The cleric lets allies or undead minions handle the bulk of the fighting,
+  using bestow curse, contagion, and slay living against individual foes or
+  channeling negative energy against groups or to heal herself and her undead
+  allies.
+Gear: >-
+  +1 chainmail, dagger, light crossbow with 20 bolts, cloak of resistance +1,
+  headband of inspired wisdom +2, pearl of power (1st), ring of protection +1,
+  bone unholy symbol, unholy water, onyx gems (worth 500 gp), silver dust for
+  desecrate (worth 25 gp), 162 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without bear's endurance, the cleric's statistics are hp 71, Fort +9, Con 14.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3643'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

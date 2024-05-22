@@ -1,0 +1,110 @@
+Name: Ixolan
+CR: '10'
+XP: '9600'
+Race: intellect-devourer-controlled morlock
+Class: ranger (skirmisher) 8
+MonsterSource: Pathfinder RPG Bestiary 209, Pathfinder RPG Advanced Player's Guide 128
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: +11 (+15 underground)
+Senses:
+  - darkvision 120 ft., scent
+  - Perception +12 (+16 underground)
+AC: 24, touch 14, flat-footed 20
+AC_Mods: (+7 armor, +3 Dex, +1 dodge, +2 natural, +1 shield)
+HP: '116'
+HD: (11d10+52)
+Saves: Fort +10, Ref +16, Will +6
+Fort: '10'
+Ref: '16'
+Will: '6'
+Immune: disease, poison
+Weaknesses: light blindness
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - >-
+    morningstar of venom +15/+10/+5 (1d8+5), mwk kukri  +14/+9 (1d4+4/18-20),
+    bite +10 (1d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  favored enemy (monstrous humanoids +2, native outsiders +4), leap attack,
+  sneak attack +1d6, swarming
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +11)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At will
+      value: >-
+        confusion (DC 17, single target only), daze monster (DC 15, no HD
+        limit), inflict serious wounds (DC 16), invisibility, reduce size (as
+        reduce person but self only)
+    - label: 3/day
+      value: cure moderate wounds, globe of invulnerability
+AbilityScores:
+  - 18
+  - 24
+  - 16
+  - 7
+  - 12
+  - 8
+BaseAtk: '11'
+CMB: '15'
+CMD: '33'
+Feats:
+  - Dodge
+  - Double Slice
+  - Endurance
+  - Improved Initiative
+  - Improved Two-Weapon Fighting
+  - Toughness
+  - Two- Weapon Defense
+  - Two-Weapon Fighting
+  - Weapon Focus (morningstar)
+Skills:
+  - Acrobatics +20
+  - Climb +36
+  - Perception +12
+  - Stealth +15 (+23 in caverns or underground)
+  - Survival +10 (+14 underground)
+Languages:
+  - Undercommon
+SQ: >-
+  expert climber, favored terrain (underground +4, urban +2), hunter's bond
+  (companions), hunter's tricks 5/day (second chance strike, surprise shift)*,
+  swift tracker, track +4, wild empathy +7, woodland stride
+Source: AP 41
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Ixolan casts globe of invulnerability and invisibility on himself before
+  entering combat.
+DuringCombat: >-
+  While his golems attack the PCs, Ixolan attempts to weaken them using
+  confusion and daze monster. If these seem ineffectual, Ixolan enters combat
+  with his weapons. After every attack, he retreats to the shadows and becomes
+  invisible again.
+Morale: >-
+  Ixolan tries to flee if he is reduced to fewer than 30 hit points or is in
+  immediate danger of being captured. If Ixolan is slain, the intellect devourer
+  Uthothot emerges from his body and attacks.
+Gear: >-
+  +1 breastplate, morningstar of venom (as dagger of venom), masterwork kukri,
+  amulet of natural armor +1 * See Advanced Player's Guide.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1416'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,137 @@
+Name: Zorek
+CR: '12'
+XP: '12800'
+Race: human
+Class: cleric of gorum 12
+MonsterSource: Advanced Bestiary 60
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (chaotic, human)
+Init: '4'
+Senses:
+  - Perception +16
+AC: 21, touch 12, flat-footed 21
+AC_Mods: (+7 armor, +4 deflection, -1 Dex, +2 natural, -1 size)
+HP: '150'
+HD: (12d8+96)
+HP_Mods: fast healing 5
+Saves: Fort +16, Ref +3, Will +13
+Fort: '16'
+Ref: '3'
+Will: '13'
+DefensiveAbilities: ability healing
+DR: 5/ evil
+Immune: disease, mind-affecting effects, poison
+Weaknesses: bound to the faith
+Speed: 60 ft.
+Melee:
+  - +3 anarchic spear +19/+14  (2d6+13/19-20/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel positive energy (6d6, DC 19, 6/day), might of the gods (+12, 12
+  rounds/day), weapon master (12 rounds/day) Divine Guardian Spell- Like
+  Abilities (CL 12th; concentration +15) At will-dimension door (to any location
+  in Armag's Tomb) 3/day-alarm, knock 1/day-arcane lock, augury,
+  clairaudience/clairvoyance, commune, dismissal (DC 18), guards and wards, hold
+  portal
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL  12th; concentration +17)
+  values:
+    - label: 8/day
+      value: battle rage (+6 damage), strength surge (+6)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 12th; concentration +17)  6th-antilife shell, blade
+  barrierD (DC 21), heal  5th-flame strike (2; DC 20), greater command (DC 20),
+  righteous mightD, wall of stone  4th-air walk, chaos hammer (DC 19), divine
+  powerD, freedom of movement, greater magic weapon  3rd-dispel magic (2),
+  invisibility purge, magic vestmentD, searing light, wind wall  2nd-bear's
+  endurance, bull's strengthD, hold person (DC 17), resist energy, sound burst
+  (DC 17), spiritual weapon  1st-command (DC 16), divine favor, enlarge personD,
+  obscuring mist, protection from law, sanctuary, shield of faith  0 (at
+  will)-bleed (DC 15), light, mending, stabilize
+SpellDomains: Strength,
+AbilityScores:
+  - 24
+  - 8
+  - 23
+  - 8
+  - 20
+  - 16
+BaseAtk: '9'
+CMB: '17'
+CMD: '30'
+Feats:
+  - Combat Casting
+  - Great Fortitude
+  - Improved Critical (spear)
+  - Power Attack
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (spear)
+Skills:
+  - Knowledge (religion) +14
+  - Perception +16
+  - Sense Motive +0
+  - Survival +11
+Languages:
+  - Hallit
+SQ: blessed life, sacred site
+Source: AP 34
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ability Healing (Ex)
+    description: >-
+      As a divine guardian, Zorek heals 1 point of ability damage per round in
+      each damaged ability score.
+  - name: Blessed Life (Ex)
+    description: >-
+      Zorek does not age or breathe, and he doesn't need to eat, drink, or
+      sleep.
+  - name: Bound to the Faith (Ex)
+    description: >-
+      A worshiper of Gorum with the Command Undead or Turn Undead feat can use
+      the effects of these feats on Zorek as if he were an undead creature.
+      Zorek suffers a -4 penalty on his Will save to negate the effect.
+  - name: Sacred Site (Ex)
+    description: >-
+      Zorek is bound to guard Armag's Tomb by Gorum himself, and he cannot leave
+      the tomb complex. Should Zorek ever leave the tomb, he immediately takes
+      6d6 points of Constitution drain as the years of lost food, drink, and
+      sleep return tenfold.
+Gender: Male
+BeforeCombat: >-
+  Zorek casts magic vestment and greater magic weapon daily. His status as
+  divine guardian allows him to track the PCs' movements through the tomb, and
+  as they approach this chamber, he casts the following spells in this order:
+  freedom of movement, air walk, bear's endurance, bull's strength, shield of
+  faith, righteous might, and divine favor.
+DuringCombat: >-
+  Zorek's first acts in combat are to cast antilife shell and to moves to the
+  top of the stairs leading down to area D12. He then uses his ranged spells to
+  soften up the PCs for 4 rounds (favoring blade barrier, his flame strikes, and
+  chaos hammer) before negating his antilife shell by stepping up to engage the
+  PCs in melee. Zorek casts heal on himself whenever he drops below 60 hit
+  points.
+Morale: >-
+  Zorek fights to the death-if he's slain by mortals, he is granted the true
+  freedom of death as certainly as if his charge to guard the tomb had been
+  completed (although Zorek doesn't realize this).
+Gear: +1 light fortification hide armor, +1 anarchic spear
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: divine guardian|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '829'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

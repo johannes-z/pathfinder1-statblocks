@@ -1,0 +1,79 @@
+Name: Clockwork Controller
+CR: '18'
+XP: '153600'
+Race: Clockwork Controller
+Alignment: 'N'
+Size: Gargantuan
+Type: construct
+SubType: (clockwork)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 33, touch 9, flat-footed 30
+AC_Mods: (+1 Dex, +2 dodge, +24 natural, -4 size)
+HP: '225'
+HD: (30d10+60)
+Saves: Fort +10, Ref +13, Will +10
+Fort: '10'
+Ref: '13'
+Will: '10'
+DR: 15/adamantine
+Immune: construct traits
+Weaknesses: vulnerability to electricity
+Speed: 0 ft. (can't move)
+Melee:
+  - 4 slams +33 (3d6+7)
+Ranged:
+  - energy jet +27 touch (6d6)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: energy jet, self-destruction
+AbilityScores:
+  - 24
+  - 12
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '30'
+CMB: '41'
+CMD: 54 (can't be tripped)
+Feats:
+  - Improved InitiativeB
+  - Lightning ReflexesB
+SQ: difficult to create, swift reactions, winding
+Source: AP 126
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Energy Jet (Su)
+    description: >-
+      The clockwork controller has a built-in defense system in case any
+      unauthorized creature attempts to extract unauthorized data, subvert its
+      programming, or tinker with its controls. Once per round as a standard
+      action, the clockwork controller can fire a jet of energy at a single
+      target within 60 feet as a ranged touch attack. This attack deals 6d6
+      points of damage, and the clockwork controller can choose from the
+      following damage types each time it fires the energy jet: cold,
+      electricity, fire, force, or sonic. Self-Destruction (Su) When its hit
+      points are reduced to 0, the clockwork controller begins shuddering and
+      sparks run along its seams. One round after it is destroyed, the clockwork
+      controller explodes in a violent burst that deals 12d6 points of slashing
+      damage and 12d6 points of fire damage in a 20-foot radius. Creatures in
+      the area can attempt a DC 25 Reflex save to halve this damage. The save DC
+      is Constitution-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11726'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

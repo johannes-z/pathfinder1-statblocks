@@ -1,0 +1,123 @@
+Name: Murderous Scythe
+CR: '16'
+XP: '76800'
+Race: half-elf
+Class: druid 4/fighter 6/assassin 7
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +24
+AC: 26, touch 12, flat-footed 26
+AC_Mods: (+12 armor, +2 deflection, +2 natural)
+HP: '144'
+HD: (4d8+6d10+7d8+57)
+Saves: >-
+  Fort +15, Ref +8, Will +11; +2 vs. enchantments, +2 vs. fear, +3 vs. poison,
+  +4 vs. fey and plant-targeted effects
+Fort: '15'
+Ref: '8'
+Will: '11'
+Save_Mods: >-
+  +2 vs. enchantments, +2 vs. fear, +3 vs. poison, +4 vs. fey and plant-targeted
+  effects
+DefensiveAbilities: bravery +2, improved uncanny dodge
+Speed: 30 ft.
+Melee:
+  - +2 scythe +25/+20/+15 (2d4+15/19-20/x4 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  death attack (DC 19), quiet death, sneak attack +4d6, true death (DC 22),
+  weapon training (heavy blades +1), wild shape 1/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 4th; concentration +6)
+  values:
+    - label: 5/day
+      value: wooden fist
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 4th; concentration +6)   2nd-barkskinD, resist
+  energy (DC 14), spider climb, tree shape   1st-entangleD (DC 13), faerie fire
+  (2), longstrider, obscuring mist   0 (at will)-detect magic, guidance, light,
+  know direction
+SpellDomains: Plant
+AbilityScores:
+  - 24
+  - 10
+  - 16
+  - 14
+  - 14
+  - 8
+BaseAtk: '14'
+CMB: +21 (+25 trip)
+CMD: 33 (35 vs. trip)
+Feats:
+  - Combat Expertise
+  - Critical Focus
+  - Disruptive
+  - Greater Trip
+  - Improved Critical (scythe)
+  - Improved Initiative
+  - Improved Trip
+  - Improved Vital Strike
+  - Natural Spell
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Vital Strike
+  - Weapon Focus (scythe)
+  - Weapon Specialization (scythe)
+Skills:
+  - Climb +13
+  - Disguise +1
+  - Fly +3
+  - Knowledge (geography) +10
+  - Knowledge (local) +7
+  - Knowledge (religion) +7
+  - Knowledge (nature) +12
+  - Perception +24
+  - Sense Motive +19
+  - Stealth +21
+  - Survival +12
+  - Swim +13
+Languages:
+  - Common
+  - Elven
+  - Goblin
+  - Sylvan
+SQ: >-
+  armor training 1, elf blood, hidden weapons, nature bond (Plant domain),
+  nature sense, poison use, trackless step, wild empathy +3, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The assassin casts barkskin and longstrider. He applies poison to his scythe,
+  and wild shapes into an eagle or dire rat.
+DuringCombat: >-
+  In animal form, the assassin studies an enemy spellcaster for 3 rounds before
+  casting obscuring mist to sow chaos among his foes. He then takes his real
+  form to make a death attack against his target. In melee, he trips his foes.
+Gear: potion of cure serious wounds, deathblade poison, purple worm poison (3)
+OtherGear: >-
+  +3 glamered darkwood full plate, +2 scythe, belt of physical might +4 (Str,
+  Con), cloak of resistance +1, ring of protection +2, 402 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without barkskin and longstrider, the assassin's statistics are AC 24, touch
+  12, flat-footed 24; Speed 20 ft.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3882'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

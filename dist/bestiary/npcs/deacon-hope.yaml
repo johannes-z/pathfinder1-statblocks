@@ -1,0 +1,162 @@
+Name: Deacon Hope
+CR: '17'
+XP: '102400'
+Race: Mnemovore
+Class: rogue 12
+MonsterSource: It Came From the Stars 62
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (extraplanar, incorporeal)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +36
+AC: 23, touch 23, flat-footed 16
+AC_Mods: (+6 deflection, +6 Dex, +1 dodge)
+HP: '300'
+HD: (24 HD; 12d10+12d8+180)
+Saves: Fort +14, Ref +22, Will +17
+Fort: '14'
+Ref: '22'
+Will: '17'
+DefensiveAbilities: evasion, improved uncanny dodge, incorporeal, trap sense +4
+Immune: cold, electricity, fire, sonic
+Weaknesses: vulnerable to force effects
+Speed: fly 40 ft. (perfect)
+Melee:
+  - incorporeal touch +27 touch (6d6 force plus memory consumption)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hologram magic, sneak attack +6d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +18)
+  values:
+    - label: At Will
+      value: detect thoughts (DC 18), dimension door, veil (self only)
+    - label: 3/day
+      value: hypnotic pattern (DC 18), major image (DC 19), mirror image
+    - label: 1/day
+      value: >-
+        hallucinatory terrain (DC 20), illusory wall (DC 20), phantasmal killer
+        (DC 20), shadow conjuration (DC 20)
+AbilityScores:
+  - —
+  - 23
+  - 22
+  - 17
+  - 20
+  - 22
+BaseAtk: '21'
+CMB: '27'
+CMD: '44'
+Feats:
+  - Alertness
+  - Combat Expertise
+  - Combat Reflexes
+  - Deceitful
+  - Dodge
+  - Flyby Attack
+  - Greater Feint
+  - Improved Feint
+  - Improved Initiative
+  - Mobility
+  - Toughness
+  - Vital Strike
+Skills:
+  - Acrobatics +33
+  - Bluff +37
+  - Craft (sculpture) +18
+  - Diplomacy +33
+  - Disable Device +33
+  - Disguise +37
+  - Fly +29
+  - Knowledge (engineering) +15
+  - Knowledge (planes) +18
+  - Knowledge (religion) +15
+  - Perception +36
+  - Perform (act) +21
+  - Sense Motive +36
+Languages:
+  - Abyssal
+  - Aklo
+  - Androffan
+  - Aquan
+  - Auran
+  - Celestial
+  - Draconic
+  - Ignan
+  - Infernal
+  - Terran
+SQ: >-
+  rogue talents (combat trick, honeyed wordsAPG, opportunist, redirect
+  attackAPG, resiliency, slow reactions), trapfinding +6
+Source: AP 90
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Holographic Magic (Su)
+    description: >-
+      Deacon Hope's spell-like abilities are as much a manipulation of holograms
+      as magic. The save DCs of these spells increase by 2 when in the presence
+      of holographic machinery (such as in areas D8-D10). Additionally, Deacon
+      Hope's dimension door spell-like ability isn't as much actual
+      teleportation as it is merely him manifesting himself through an
+      electrical outlet or object on the recreation deck. As such, this ability
+      isn't impeded by the Divinity Drive, but it functions only here on the
+      recreation deck (areas D1&#8211;D17).
+  - name: Memory Consumption (Su)
+    description: >-
+      Deacon Hope feeds on memories and knowledge via his incorporeal touch. A
+      creature damaged by his touch must succeed at a DC 22 Will save or take
+      1d4 points of Intelligence drain. For each point of Intelligence drained,
+      Deacon Hope gains 1 memory point&#8211;a memory point fades after 1 hour
+      if not used. The save DC is Charisma-based. Deacon Hope can expend memory
+      points as free actions to accomplish the following effects. Arcane Recall:
+      Deacon Hope can regain one use of a 3/day spell-like ability by expending
+      2 memory points, or one use per day of a 1/day spell-like ability by
+      expending 5 memory points. Corporeal Form: Deacon Hope can become
+      corporeal for 1 round by expending 1 memory point. He loses the
+      incorporeal trait and defense and his fly speed, but gains a speed of 30
+      feet and a Strength score equal to his Charisma (22). Feat Absorption: As
+      he inflicts Intelligence drain on a target, he can expend 4 memory points
+      to gain one feat of his choice possessed by the target. This feat persists
+      for 1 hour, during which time the target can't use that feat (this doesn't
+      impact access to feats that use the absorbed feat as a prerequisite).
+      Skill Absorption: As Deacon Hope inflicts Intelligence drain on a target,
+      he can expend 2 memory points to gain one skill check bonus of his choice
+      possessed by the target&#8211;he attempts skill checks with this skill
+      using the target's total bonus, not his own. This skill bonus persists for
+      1 hour, during which time the target attempts all checks with that skill
+      as if untrained.
+  - name: Vulnerable to Force Effects (Ex)
+    description: >-
+      Deacon Hope takes half again as much damage (+50%) from force effects that
+      deal damage.
+BeforeCombat: >-
+  Deacon Hope uses hallucinatory terrain each morning as part of his morning
+  sermon to make the ceiling above area D2 seem as if it were open to the air,
+  complete with a day-night cycle.
+DuringCombat: >-
+  Hope hates a fair fight. He uses mirror image constantly, then shadow
+  conjuration and phantasmal killer spells to create distractions. If he has
+  allies, he stays mobile and seeks to maximize sneak attacks with his
+  incorporeal touch, but when alone, he uses Improved Feint to do the same.
+Morale: >-
+  If reduced below half hit points, Deacon Hope flees to the theater and his
+  sanctum beyond (area D10), but if cornered there in his Quiet Garden, he
+  fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6713'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,104 @@
+Name: Yiddlepode
+CR: '1'
+XP: '400'
+Race: kobold
+Class: bard 2
+MonsterSource: Pathfinder RPG Bestiary 183
+Alignment: LN
+Size: Small
+Type: humanoid
+SubType: (reptilian)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 15, touch 12, flat-footed 14
+AC_Mods: (+2 armor, +1 Dex, +1 natural, +1 size)
+HP: '16'
+HD: (2d8+4)
+Saves: Fort +1, Ref +4, Will +2
+Fort: '1'
+Ref: '4'
+Will: '2'
+Weaknesses: light sensitivity
+Speed: 30 ft.
+Melee:
+  - rapier +1 (1d4-1/18-20)
+Ranged:
+  - light crossbow +3 (1d6/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 8 rounds/day (countersong, distraction, fascinate, inspire
+  courage +1)
+SpellsKnown:
+  header: Bard Spells Known (CL 2nd; concentration +4)
+  values:
+    - label: 1st (3/day)
+      value: cure light wounds, hideous laughter (DC 13), silent image
+    - label: 0 (at will)
+      value: daze (DC 12), detect magic, ghost sound, message, prestidigitation
+AbilityScores:
+  - 9
+  - 12
+  - 12
+  - 12
+  - 8
+  - 15
+BaseAtk: '1'
+CMB: '-1'
+CMD: '10'
+Feats:
+  - Persuasive
+Skills:
+  - Acrobatics +6
+  - Diplomacy +12
+  - Intimidate +12
+  - Perception +6
+  - Perform (oratory) +10
+  - Spellcraft +6
+  - Stealth +10
+Languages:
+  - Common
+  - Draconic
+SQ: bardic knowledge +1, crafty, versatile performance (oratory)
+Source: PFS S3-02
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Yiddlepode casts invisibility from her scroll before the PCs enter and hides
+  behind the curtain or the scant scene decorations during combat, maintaining
+  the illusion of the dragon on her father's behalf.
+DuringCombat: >-
+  As long as the dragon is occupying the PCs' attention, Yiddlepode engages them
+  with it as much as possible, even to the point of engaging in mock combat with
+  one of them. As soon as it's clear that the PCs start recognizing the illusion
+  for what it is, Yiddlepode drops the spell and starts her bardic performance
+  to help boost the guards' attacks. She doesn't attack the PCs directly, and
+  remains invisible or hidden throughout combat if possible. Anytime Kibizax
+  turns invisible or hides, Yiddlepode uses silent image to create a fake double
+  of her father to divert attacks.
+Morale: >-
+  When her father falls unconscious or dies, Yiddlepode tries to strike a truce
+  with the PCs as indicated in the Development section below.
+Gear: >-
+  potion of cure light wounds, scroll of invisibility, scrolls of minor image
+  (2), wand of disguise self
+OtherGear: >-
+  leather armor, rapier, light crossbow with 20 bolts, circlet of persuasion, 20
+  opals worth 45 gp each
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: old
+CompanionFamiliarLink: '0'
+id: '5848'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

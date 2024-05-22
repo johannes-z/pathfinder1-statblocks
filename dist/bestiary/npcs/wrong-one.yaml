@@ -1,0 +1,96 @@
+Name: Wrong One
+CR: '5'
+XP: '1600'
+Race: myceloid
+MonsterSource: Advanced Bestiary 148, Pathfinder RPG Bestiary 3 196
+Alignment: NE
+Size: Medium
+Type: aberration
+SubType: (augmented plant)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, scent, tremorsense 20 ft.
+  - Perception +6
+AC: 18, touch 12, flat-footed 16
+AC_Mods: (+2 Dex, +6 natural)
+HP: '52'
+HD: (5d8+30)
+HP_Mods: fast healing 2
+Saves: Fort +9, Ref +3, Will +4
+Fort: '9'
+Ref: '3'
+Will: '4'
+DR: 5/slashing
+Immune: purple pox
+Resist: cold 10, fire 10, sonic 10
+Speed: 30 ft.
+Melee:
+  - 2 claws +8 (1d6+5 plus bleed)
+Space: 5 ft.
+Reach: 10 ft.
+SpecialAttacks: bleed (1d4), long limbs
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +6)
+  values:
+    - label: 3/day
+      value: remorseful aspect (DC 14)
+AbilityScores:
+  - 21
+  - 15
+  - 20
+  - 9
+  - 12
+  - 10
+BaseAtk: '3'
+CMB: '8'
+CMD: '20'
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Toughness
+Skills:
+  - Perception +6
+  - Sense Motive +6
+  - Stealth +6
+  - Survival +9
+RacialMods: +4 Sense Motive, +4 Survival
+Languages:
+  - Undercommon
+  - telepathy 60 ft. (myceloid and purple pox sufferers only)
+Source: AP 104
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Long Limbs (Ex)
+    description: >-
+      As a result of its faceless stalker ancestry, the Wrong One's arms are
+      lengthier than that of normal myceloids, giving it reach of 10 feet.
+  - name: Remorseful Aspect (Sp)
+    description: >-
+      The Wrong One can adjust its skin to crudely resemble the appearance of
+      another creature it can see, the sight of which fills the target with
+      profound disgust and remorse. This spell-like ability functions as
+      terrible remorseUM. Creatures currently infected with purple pox take a -2
+      penalty on saving throws against this ability.
+DuringCombat: >-
+  The Wrong One uses its remorseful aspect spell-like ability against intruders,
+  preferring victims already suffering from purple pox. When an opponent gets
+  within its reach, the Wrong One attacks with its claws.
+Morale: >-
+  The Wrong One fights to the death unless Mam or Pap commands it to stop
+  fighting.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: flesh|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8402'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,130 @@
+Name: Nuragla
+CR: '13'
+XP: '25600'
+Race: Pit hag
+MonsterSource: Tome of Horrors Complete 477
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar, lawful)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +29
+Aura: aura of affliction (30 ft., DC 23, 18 rounds)
+AC: 28, touch 16, flat-footed 22
+AC_Mods: (+5 Dex, +1 dodge, +12 natural)
+HP: '171'
+HD: (18d10+72)
+Saves: Fort +12, Ref +16, Will +17
+Fort: '12'
+Ref: '16'
+Will: '17'
+DR: 10/cold iron and magic
+Immune: fire, poison
+SR: '24'
+Speed: 40 ft.
+Melee:
+  - +2 unholy trident +25/+20/+15/+10 (2d6+7), claw +18 (1d8+2)
+  - 2 claws +23 (1d8+5)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: rend (2 claws or trident and claw, 1d8+7), skewer
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: cone of cold (DC 20), waves of fatigue
+    - label: 4th (7/day)
+      value: crushing despair (DC 18), enervation, wall of fire
+    - label: 3rd (7/day)
+      value: >-
+        fireball (DC 18), lightning bolt (DC 18), ray of exhaustion (DC 18),
+        vampiric touch
+    - label: 2nd (7/day)
+      value: blur, fog cloud, glitterdust (DC 16), scorching ray, web (DC 16)
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 16), grease, magic missile, ray of enfeeblement (DC
+        16), true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 15), detect magic, flare (DC 15), ghost sound (DC
+        14), open/close, ray of frost, read magic, touch of fatigue (DC 15)
+AbilityScores:
+  - 20
+  - 20
+  - 19
+  - 17
+  - 18
+  - 19
+BaseAtk: '18'
+CMB: '23'
+CMD: '39'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Dodge
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Quicken Spell
+  - Spell Focus (evocation)
+  - Spell Focus (necromancy)
+Skills:
+  - Bluff +25
+  - Diplomacy +25
+  - Intimidate +25
+  - Knowledge (arcana) +24
+  - Knowledge (planes) +24
+  - Perception +29
+  - Sense Motive +29
+  - Spellcraft +24
+  - Stealth +26
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Infernal
+Source: AP 72
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Affliction (Su)
+    description: >-
+      Three times per day for up to 18 rounds, a pit hag can emit an aura in a
+      30-foot radius as a free action. Creatures within or coming within the
+      area must succeed at a DC 23 Fortitude save or contract devil chills.
+      Devil Chills: Aura-affliction; save Fort DC 23; onset immediate; frequency
+      1 day; effect 1d4 Str damage; cure 3 consecutive saves.
+  - name: Skewer (Ex)
+    description: >-
+      Pit hags are masters at combat using the trident. In the hands of a pit
+      hag, a trident deals damage as if it was one size category larger (usually
+      2d6). In addition, if the pit hag hits with a trident and a claw attack in
+      1 round, she can rend as if she had hit with two claw attacks. Spells A
+      pit hag casts spells as an 11th-level sorcerer.
+DuringCombat: >-
+  When all of the hellwasps have been unleashed, Nuragla tries to further weaken
+  the PCs with spells such as crushing despair, fireball, lightning bolt, and
+  wall of fire before attacking with her unholy trident. If possible, she tries
+  to throw weakened opponents down the stairs and into area D6 (see that area
+  for details).
+Morale: >-
+  Nuragla tries to flee if reduced to fewer than 80 hit points (see Development,
+  below).
+Gear: +2 unholy trident, gold bracelets and anklets worth 500 gp total
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4643'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

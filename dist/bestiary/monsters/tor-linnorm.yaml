@@ -1,0 +1,132 @@
+Name: Tor Linnorm
+CR: '21'
+XP: '409600'
+Alignment: CE
+Size: Colossal
+Type: dragon
+Init: '14'
+Senses:
+  - darkvision 60 ft., low-light vision, scent, true seeing
+  - Perception +34
+AC: 37, touch 12, flat-footed 27
+AC_Mods: (+10 Dex, +25 natural, -8 size)
+HP: '420'
+HD: (24d12+264)
+HP_Mods: regeneration 20 (cold iron)
+Saves: Fort +25, Ref +26, Will +21
+Fort: '25'
+Ref: '26'
+Will: '21'
+DefensiveAbilities: freedom of movement
+DR: 20/cold iron
+Immune: curse effects, fire, mind-affecting effects, paralysis, poison, sleep
+SR: '32'
+Speed: 40 ft., climb 40 ft., fly 100 ft. (average), swim 60 ft.
+Melee:
+  - >-
+    bite +34 (3d8+18/19-20 plus poison), 4 claws +34 (2d6+18), tail +29 (3d6+9
+    plus grab)
+Space: 30 ft.
+Reach: 30 ft.
+SpecialAttacks: breath weapon, constrict (tail, 3d6+27), death curse
+AbilityScores:
+  - 46
+  - 30
+  - 33
+  - 7
+  - 25
+  - 28
+BaseAtk: '24'
+CMB: +50 (+54 grapple)
+CMD: 70 (can't be tripped)
+Feats:
+  - Awesome Blow
+  - Blind-Fight
+  - Cleave
+  - Combat Reflexes
+  - Great Cleave
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Climb +26
+  - Fly +29
+  - Perception +34
+  - Stealth +21
+  - Swim +53
+Languages:
+  - Aklo
+  - Draconic
+  - Sylvan
+SQ: lava affinity
+Environment: cold volcanic mountains
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This gigantic, wingless, four-armed dragon has rivulets of bright red magma
+  coursing through its serpentine body.
+Group: Linnorm
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      Once every 1d4 rounds as a standard action, a tor linnorm can expel a 60-
+      foot cone of flame and ash, dealing 24d8 points of fire damage to all
+      creatures struck (Reflex DC 33 for half damage). One round after this
+      breath weapon is used, the area affected by the attack becomes covered in
+      a cloud of thick, scorching smoke that burns both the lungs and eyes,
+      dealing an additional 8d8 points of fire damage to all creatures in the
+      area. Each creature that begins its turn in the smoke-covered area and
+      breathes must make a DC 33 (+ 1 per previous check) Fortitude save each
+      round or spend that round choking and coughing. Creatures that keep their
+      eyes open for more than 1 round while in the area of the smoke must make a
+      DC 33 Fortitude save or go blind for 1d3 hours. The smoke dissipates after
+      2d4 rounds. This duration is halved in strong winds and quartered in more
+      powerful winds. The save DC is Constitution-based.
+  - name: Death Curse (Su)
+    description: >-
+      Curse of Boiling Blood: save Will DC 31; effect creature gains
+      vulnerability to fire and is permanently staggered from the pain of its
+      boiling blood. The save DC is Charisma-based.
+  - name: Lava Affinity (Ex)
+    description: A tor linnorm can breathe and swim while submerged in lava and magma.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 33; frequency 1/round for 10 rounds; effect 8d6
+      fire damage and 1d8 Con drain; cure 3 consecutive saves.
+Description:
+  - >-
+    Tor linnorms epitomize the raw and untempered power of their kin. They dwell
+    in the tallest volcanic mountains, either in naturally formed caverns or in
+    the craters themselves, and rain destruction down upon nearby mountain
+    villages whenever the urge strikes them. Tor linnorms are brutes, but as far
+    as linnorms go are relatively intelligent. With this intelligence comes an
+    overwhelming vanity-unlike other linnorms, tor linnorms enjoy being adored
+    and worshiped by lesser creatures, and have been known to delay eating
+    prisoners who seem to be particularly cowed by their presence, simply
+    basking in their victims' fear.
+  - A tor linnorm is 50 feet long and weighs 15,000 pounds.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2128'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

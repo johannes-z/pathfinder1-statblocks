@@ -1,0 +1,175 @@
+Name: Metruni
+CR: '11'
+XP: '12800'
+Race: tiefling
+Class: oracle 12
+MonsterSource: Pathfinder RPG Bestiary 264, Pathfinder RPG Advanced Player's Guide 42
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '4'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft.
+  - Perception +7
+AC: 25, touch 15, flat-footed 20
+AC_Mods: (+8 armor, +4 Dex, +1 dodge, +2 natural)
+HP: '93'
+HD: (12d8+36)
+Saves: Fort +8, Ref +8, Will +9; +2 vs. primal magic
+Fort: '8'
+Ref: '8'
+Will: '9'
+Save_Mods: +2 vs. primal magic
+Resist: cold 5, electricity 5, fire 5 DR 10/adamantine (70 points)
+SR: '17'
+Speed: 30 ft.
+Melee:
+  - mwk axe musket +11/+6 (1d8/x3)
+Ranged:
+  - mwk axe musket +15 (1d8/x4)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th, concentration +16)
+  values:
+    - label: 1/day
+      value: darkness
+SpellsKnown:
+  header: Oracle Spells Known (CL 12th; concentration +16)
+  values:
+    - label: 6th (3/day)
+      value: antimagic field, harm (DC 20), mass inflict moderate wounds (DC 20)
+    - label: 5th (5/day)
+      value: >-
+        break enchantment, flame strike (DC 19), mass inflict light wounds (DC
+        19), summon monster V
+    - label: 4th (7/day)
+      value: >-
+        cure critical wounds, greater magic weapon, inflict critical wounds (DC
+        18), lesser globe of invulnerability
+    - label: 3rd (7/day)
+      value: >-
+        deeper darkness, dispel magic, inflict serious wounds (DC 17), magic
+        circle against good, meld into stone, wind wall
+    - label: 2nd (7/day)
+      value: >-
+        augury, bull's strength, disfiguring touchUM (DC 17), inflict moderate
+        wounds (DC 16), make whole, obscure object, shield other
+    - label: 1st (7/day)
+      value: >-
+        bane (DC 15), cause fear (DC 15), command (DC 15), detect good, endure
+        elements, inflict light wounds (DC 15), ray of enfeeblement (DC 15)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), create water, detect magic, guidance, mending, purify
+        food and drink, read magic, resistance, stabilize
+AbilityScores:
+  - 10
+  - 19
+  - 14
+  - 10
+  - 12
+  - 18
+BaseAtk: '9'
+CMB: '9'
+CMD: '24'
+Feats:
+  - Armor of the PitARG
+  - Combat Casting
+  - Dodge
+  - Exotic Weapon Proficiency (firearms)
+  - Great Fortitude
+  - Weapon Focus (axe musket)
+Skills:
+  - Bluff +12
+  - Heal +10
+  - Perception +7
+  - Sense Motive +10
+  - Spellcraft +15
+  - Stealth +10
+  - Use Magic Device +10
+RacialMods: +2 Bluff, +2 Stealth
+Languages:
+  - Abyssal
+  - Common
+SQ: >-
+  Abyssal connection, oracle's curse (clouded vision), revelations (eldritch
+  bolt [1d8+6 force, 60 ft.] 7/day, primal manipulation 3/day, primal mastery,
+  spell resistance)
+Source: Wardens Of The Reborn Forge
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Abyssal Connection (Su)
+    description: >-
+      Thanks to a foul rite in which Metruni dedicated her eternal soul to
+      Haagenti, the oracle received a special gift from her patron demon lord,
+      who granted Metruni a favored servant in exchange for her piety-a
+      retriever called Orixium. Metruni and Orixium are irreversibly linked, and
+      possess a special bond identical to that of a wizard's empathic link with
+      his familiar.
+  - name: Eldritch Bolt (Su)
+    description: >-
+      Metruni can damage foes with a bolt of raw magical energy. She may make a
+      ranged touch attack against any foe within 60 feet. On a hit, she deals
+      1d8+6 points of force damage. She may use this revelation a number of
+      times equal to 3 + her Charisma modifier.
+  - name: Primal Manipulation (Su)
+    description: >-
+      Whenever Metruni casts a spell that deals acid, cold, electricity, or fire
+      damage, she may change it to deal one of the other listed damage types.
+      She may use this ability once per day, plus one additional time for every
+      5 levels she possesses.
+  - name: Primal Mastery (Su)
+    description: >-
+      Whenever a spell Metruni casts triggers a primal magic event, or whenever
+      she uses a rod of wonder, she may roll d% twice when generating the
+      result. She may pick which of the two results actually occurs. She gains a
+      +2 bonus on all saving throws made to resist primal magic events or
+      magical effects caused by a rod of wonder.
+Gender: Female
+BeforeCombat: >-
+  If Metruni senses any harm befalling her retriever or should she hear combat
+  in area B18, she imbibes her potion of cat's grace and uses a charge of her
+  wand of stoneskin on herself before setting out to investigate.
+DuringCombat: >-
+  Metruni alternately casts offensive spells to damage her foes and protective
+  spells to bolster her defenses. Harm and inflict spells aid her greatly in the
+  former regard, while spells such as bull's strength and greater magic weapon
+  can be a boon if she is pressed into melee. She prefers to let her retriever
+  minion do most of the fighting, however, and casts summon monster V to bolster
+  her forces if need be, all while staying back and launching eldritch bolts or
+  bullets from her axe musket at her foes. Meld into stone allows the tiefling a
+  quick escape if she sees defeat is inevitable, allowing her to recover before
+  seeking revenge upon the PCs later.
+Morale: >-
+  Metruni casts cure serious wounds on herself if she is brought to fewer than
+  15 hit points, and surrenders if she runs out of healing spells, her retriever
+  companion is slain, and she has no viable escape route. Her brief alliance
+  with Sultur is certainly an unworthy cause to die for.
+Gear: >-
+  potion of cat's grace, potions of cure serious wounds (2), scroll of
+  dismissal, wand of stoneskin (9 charges)
+OtherGear: >-
+  +2 mithral chainmail, mwk axe musketUE with 10 paper alchemical cartridges
+  (bullet)UE, headband of alluring charisma +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without her potion and wand, Metruni's statistics are AC 23, touch 13,
+  flat-footed 20; Ref +6; Defensive Abilities no damage reduction; Ranged mwk
+  axe musket +13 (1d8/x4); CMD 22; Dex 15; Skills Stealth +8.
+AgeCategory: Adult
+Mystery: spellscarISM
+CompanionFamiliarLink: '0'
+id: '5431'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

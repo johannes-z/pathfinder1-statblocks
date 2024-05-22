@@ -1,0 +1,110 @@
+Name: Pyroclasm Legion
+CR: '11'
+XP: '12800'
+Race: Pyroclasm Legion
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (elemental, extraplanar, fire, troop)
+Init: '13'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +19
+Aura: fire aura (DC 22)
+AC: 26, touch 20, flat-footed 16
+AC_Mods: (+9 Dex, +1 dodge, +6 natural)
+HP: '152'
+HD: (16d10+64)
+Saves: Fort +9, Ref +19, Will +12
+Fort: '9'
+Ref: '19'
+Will: '12'
+DefensiveAbilities: troop traits
+DR: 10/-
+Immune: elemental traits, fire
+Weaknesses: vulnerability to cold
+Speed: 60 ft.
+Melee:
+  - troop (4d6+8 plus burn)
+Ranged:
+  - flame jet +25 touch (6d6 fire plus burn)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: burn (4d6; DC 22), conflagration, flame jet (6d6; 60 ft.), hit and run
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th, concentration +12)
+  values:
+    - label: Constant
+      value: see invisibility
+AbilityScores:
+  - 26
+  - 29
+  - 18
+  - 10
+  - 11
+  - 11
+BaseAtk: '16'
+CMB: '24'
+CMD: 44 (can't be tripped)
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Stance
+  - Mobility
+  - Wind Stance
+Skills:
+  - Acrobatics +28 (+40 to jump)
+  - Climb +27
+  - Fly +25
+  - Intimidate +19
+  - Knowledge (planes) +19
+  - Perception +19
+Languages:
+  - Ignan
+Source: PFS 8-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Conflagration (Ex)
+    description: >-
+      As a move action, a pyroclasm legion can join together to burn brighter
+      and hotter, focusing their heat to create a powerful downdraft. This
+      grants the troop a fly speed of 30 with average maneuverability for 1
+      round. The fire elemental troop can maintain this flight by expending a
+      swift action at the start of its turn each round. While this ability is
+      active, the troop's fire aura damage increases to 6d6.
+  - name: Fire Aura (Ex)
+    description: >-
+      Creatures ending their turn within 10 feet of a pyroclasm legion take 3d6
+      points of fire damage and must succeed at a Reflex save (DC 22) or catch
+      fire as the troop's burn ability. This save DC is Constitution-based.
+  - name: Flame Jet (Su)
+    description: >-
+      As a standard action, a pyroclasm legion can launch a jet of flame as a
+      ranged touch attack at one creature within 60 feet. This attack deals 6d6
+      points of fire damage on a successful hit and creatures damaged by flame
+      jet are affected by the pyroclasm legion's burn ability.
+  - name: Hit and Run (Ex)
+    description: >-
+      A pyroclasm legion is trained to move and strike as a unit, allowing them
+      to make a move or double move action and use their troop attack once
+      against every creature in their space or in their reach at any point
+      during their movement, rather than only at the end of movement.
+DuringCombat: A pyroclasm legion makes hit-and-run attacks.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11616'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

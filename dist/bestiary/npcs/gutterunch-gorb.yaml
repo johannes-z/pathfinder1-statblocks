@@ -1,0 +1,117 @@
+Name: Gutterunch Gorb
+CR: '5'
+XP: '1600'
+Race: ogre
+Class: sorcerer 4
+MonsterSource: Pathfinder RPG Bestiary 220
+Alignment: CE
+Size: Large
+Type: humanoid
+SubType: (giant)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception -1
+AC: 19, touch 12, flat-footed 18
+AC_Mods: (+1 Dex, +5 natural, +2 profane, +2 shield, -1 size)
+HP: '60'
+HD: (8 HD; 4d8+4d6+28)
+Saves: Fort +8, Ref +3, Will +4; +2 vs. poison
+Fort: '8'
+Ref: '3'
+Will: '4'
+Save_Mods: +2 vs. poison
+Resist: electricity 5
+Speed: 40 ft.
+Melee:
+  - 2 claws +10 (1d6+5)
+  - quarterstaff +9 (1d8+7)
+Ranged:
+  - javelin +5 (1d8+5)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: claws (1d6+5, 5 rounds/day)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 4th; concentration +6)
+  values:
+    - label: 2nd (4/day)
+      value: scorching ray
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 13), ray of enfeeblement (DC 13), shock shieldUC,
+        shocking grasp
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, bleed (DC 12), read magic, resistance, touch
+        of fatigue (DC 12)
+AbilityScores:
+  - 21
+  - 12
+  - 17
+  - 8
+  - 9
+  - 14
+BaseAtk: '5'
+CMB: '11'
+CMD: '22'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Power Attack
+  - Skill Focus (Use Magic Device)
+  - Weapon Focus (claw)
+Skills:
+  - Intimidate +9
+  - Knowledge (planes) +4
+  - Linguistics +1
+  - Use Magic Device +10
+Languages:
+  - Abyssal
+  - Common
+  - Giant
+SQ: bloodline arcana (summoned creatures gain DR 2/good), ritual scarification
+Source: AP 92
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ritual Scarification (Ex)
+    description: >-
+      Gutterunch has etched Abyssal runes paying homage to his patron Zura,
+      demon lord of blood and cannibalism, into his ample flesh. These scarred
+      symbols grant the ogre a +2 profane bonus to AC and a +2 profane bonus on
+      Intimidate checks.
+Gender: Male
+Bloodline: Abyssal
+BeforeCombat: >-
+  If Gutterunch becomes aware of invaders before they enter the room (such as by
+  triggering the haunt in area K33), the ogre patriarch casts shock shield and
+  uses his scroll of mirror image.
+DuringCombat: >-
+  Gutterunch begins combat by using his wand of summon monster III to summon a
+  dire bat, while Lurp and Sister Slobber move to engage opponents. Initially,
+  Gutterunch casts spells such as scorching ray and ray of enfeeblement at foes,
+  but he soon hungers for real combat, casting shocking grasp and activating his
+  Abyssal claws before wading into melee combat.
+Morale: >-
+  Obsessed with the castellan's remains, Gutterunch fights to the death to
+  defend the headless skeleton.
+Gear: >-
+  javelin of lightning, scroll of mirror image, scrolls of speak with dead (2),
+  wand of summon monster III (9 charges)
+OtherGear: >-
+  javelins (2), quarterstaff, headband of alluring charisma +2, unholy symbol of
+  Zura
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6889'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,100 @@
+Name: Mother Of Beasts
+CR: '9'
+XP: '6400'
+Race: human
+Class: cleric of lamashtu 10
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '3'
+Senses:
+  - Perception +14
+AC: 21, touch 10, flat-footed 21
+AC_Mods: (+11 armor, +1 deflection, -1 Dex) (+1 vs. good opponents)
+HP: '78'
+HD: (10d8+30)
+Saves: Fort +10, Ref +3, Will +12; +2 vs. good opponents
+Fort: '10'
+Ref: '3'
+Will: '12'
+Save_Mods: +2 vs. good opponents
+Speed: 20 ft.
+Melee:
+  - +1 falchion +11/+6 (2d4+5/18-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  aura of madness (DC 19, 10 rounds/day), channel negative energy 4/day (DC 16,
+  5d6), might of the gods (+10, 10 rounds/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: 7/day
+      value: strength surge (+5), vision of madness (+/-5)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 10th; concentration +14)   5th-flame strike (DC
+  19), righteous mightD, summon monster V   4th-confusionD (DC 18), cure
+  critical wounds, summon monster IV (2), unholy blight (DC 18)  
+  3rd-blindness/deafness, magic circle against good, magic vestmentD, summon
+  monster III, water breathing   2nd-bull's strengthD, cure moderate wounds,
+  darkness, shield other, silence (DC 16), summon monster II   1st-bane (DC 15),
+  bless, command (DC 15), cure light wounds, divine favor, enlarge personD (DC
+  15)   0 (at will)-create water, detect magic, light, mending
+SpellDomains: Madness, Strength
+AbilityScores:
+  - 16
+  - 8
+  - 14
+  - 10
+  - 18
+  - 12
+BaseAtk: '7'
+CMB: '10'
+CMD: '20'
+Feats:
+  - Augment Summoning
+  - Combat Casting
+  - Heavy Armor Proficiency
+  - Improved Initiative
+  - Power Attack
+  - Spell Focus (conjuration)
+Skills:
+  - Handle Animal +11
+  - Heal +8
+  - Knowledge (nature) +1
+  - Knowledge (religion) +6
+  - Perception +14
+  - Spellcraft +8
+Languages:
+  - Common
+SQ: aura
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The cleric casts magic circle against good and magic vestment.
+DuringCombat: >-
+  The cleric drinks a potion of invisibility, then uses summon monster V and
+  summon monster IV to overwhelm opponents, and attacks with flame strike,
+  casting righteous might before entering melee.
+Gear: potions of invisibility (2)
+OtherGear: >-
+  +1 full plate, +1 falchion, cloak of resistance +1, headband of inspired
+  wisdom +2, ring of protection +1, silver unholy symbol, 110 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without magic circle against good and magic vestment, the cleric's statistics
+  are AC 20, touch 10, flat-footed 20.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3644'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,215 @@
+Name: Erodaemon
+CR: '11'
+XP: '12800'
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (daemon, evil, extraplanar)
+Init: '9'
+Senses:
+  - darkvision 60 ft., detect good, detect thoughts
+  - Perception +20
+AC: 25, touch 16, flat-footed 19
+AC_Mods: (+5 Dex, +1 dodge, +9 natural)
+HP: '147'
+HD: (14d10+70)
+Saves: Fort +9, Ref +14, Will +12
+Fort: '9'
+Ref: '14'
+Will: '12'
+DR: 10/good or silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+SR: '22'
+Speed: 30 ft.
+Melee:
+  - bite +19 (1d6+4 plus 1d4 Charisma drain), 2 claws +19 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: object of desire, wilting kiss
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +20)
+  values:
+    - label: Constant
+      value: detect good, detect thoughts, tongues
+    - label: At Will
+      value: >-
+        death knell (DC 18), greater teleport (self plus 50 lbs. of objects
+        only), unnatural lust* (DC 18)
+    - label: 3/day
+      value: >-
+        desecrate, quickened crushing despair (DC 20), enervation, suggestion
+        (DC 19)
+    - label: 1/day
+      value: >-
+        modify memory (DC 20), summon (level 4, 1d3 ceustodaemons 35%), utter
+        contempt* (DC 20)
+AbilityScores:
+  - 18
+  - 21
+  - 21
+  - 19
+  - 16
+  - 22
+BaseAtk: '14'
+CMB: '19'
+CMD: '34'
+Feats:
+  - Agile Maneuvers
+  - Deceitful
+  - Dodge
+  - Improved Initiative
+  - Quicken Spell-Like Ability (crushing despair)
+  - Skill Focus (Bluff)
+  - Weapon Finesse
+Skills:
+  - Bluff +33
+  - Diplomacy +23
+  - Disguise +24
+  - Intimidate +23
+  - Knowledge (local) +21
+  - Knowledge (planes) +21
+  - Perception +20
+  - Sense Motive +20
+  - Sleight of Hand +22
+  - Stealth +22
+Languages:
+  - Abyssal
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+  - tongues
+Environment: any (Abaddon)
+Organization: solitary, pair, or harem (3-6)
+Treasure: standard
+Description_Visual: >-
+  This fiend appears to be a slim half-elf with long hair and a slender set of
+  black ram horns. Covered by a sheer gown, her skin is tinged blue and covered
+  with an elaborate tracery of white, scarified tattoos. A long, serpentine tail
+  sprouts from the base of her spine, ending in a fanged maw. Her extremities
+  are withered and blackened, ending in scorched, fleshless talons, and her
+  unearthly beauty is further marred by a red, unblinking third eye.
+Source: Horsemen Of The Apocalypse
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Object of Desire (Su)
+    description: >-
+      While using its detect thoughts ability, an erodaemon can see into the
+      mind of a humanoid and identify the person the target most desires,
+      whether it be a lost loved one or an object of lust. As a full-round
+      action, the erodaemon can change into the form of this desired person as
+      long as the target is a Small, Medium, or Large humanoid. The erodaemon
+      gains a +20 bonus on its Disguise and Bluff checks to impersonate that
+      person and avoid being detected as a fraud, but spells like true seeing
+      negate this effect as normal. This effect ends if the erodaemon attacks
+      any creature. Actions that could reveal the erodaemon as a fraud (such as
+      performing an action that the imitated person would obviously not do, like
+      cast a spell or speak Infernal) require the erodaemon to make an immediate
+      Bluff check to continue the impersonation, with the erodaemon losing some
+      or all of its bonus depending on the severity of the breach (GM's
+      discretion).
+  - name: Wilting Kiss (Su)
+    description: >-
+      An erodaemon can draw a mortal into a state of obsession with its kiss. An
+      unwilling victim must be grappled before the erodaemon can use this
+      ability. A creature affected by this kiss must make a DC 23 Will save or
+      become obsessed with the erodaemon, an obsession the erodaemon feeds on.
+      Each round the target is more than 30 feet away from the erodaemon, it
+      must make an additional DC 23 Will save. Failing the save means that the
+      sheer pain of her absence deals 1 point of Charisma drain to the subject
+      that round. Succeeding at the Will save two consecutive times ends the
+      effects of this ability. Spells such as dispel magic and break enchantment
+      end this effect. The save DC is Charisma-based.
+Description:
+  - >-
+    Erodaemons personify death by heartbreak. These fiends pose as mortals,
+    insert themselves into the lives of their victims, and slowly destroy them.
+    They break apart marriages, kill children or cause them to leave their
+    families, destroy reputations, extinguish faith, curdle family ties, and bit
+    by bit savor the slow disintegration of their victims' emotional well-being
+    and consequent physical deterioration. Every tear shed, every sobbing woman,
+    and every grieving man brings a rapturous smile to an erodaemon's face,
+    because when a mortal dies of heartbreak and grief, the erodaemon feasts
+    upon the tortured soul.
+  - The typical erodaemon stands 6 feet tall and weighs 150 pounds.
+  - Ecology
+  - >-
+    Erodaemons sometimes form from the hunted, the wandering mortal souls of
+    Abaddon. Corrupted by their heartbreak, the resulting erodaemons seek to
+    impose their morbid fate upon others.
+  - >-
+    Erodaemons are thought by some to be Abaddon's answer to the demonic succubi
+    and diabolic erinyes, possessing the visage of beautiful mortals, yet
+    tainted with obviously fiendish traits and intentions. However, rather than
+    inspiring wars based on lust or torturing
+  - >-
+    victims ceaselessly, erodaemons seek to stoke the flames of mortal woe,
+    causing many to fall into such pits of melancholy that they ultimately
+    perish. When a mortal succumbs to death as a way to escape the pain of
+    living without one's love, an erodaemon ensnares the soul and feasts upon
+    its anguish.
+  - >-
+    Though they can appear as either a man or woman to their victims, in their
+    true form, erodaemons are predominantly female. Erodaemons freely adopt
+    whatever guises they deem necessary to infiltrate and ravage the lives of
+    the mortals they hunt throughout the planes, and when not donning mortal
+    figures, they often shift between various forms as they so desire, honing
+    their ability to adopt each particular gender's behavioral quirks for when
+    it matters.
+  - Habitat & Society
+  - >-
+    Erodaemons know many traditions of different societies due to their
+    intrusions into urban areas on other planes. In Abaddon, however, such
+    communal grounds are rare, if they exist at all. In the sprawling wastes,
+    erodaemons practice their forms of seduction primarily upon the hunted, who
+    may still have such base desires as intimacy and love. Erodaemons are rarely
+    trusted by other daemons, who have no hearts to break but can be tricked all
+    the same into thinking a supposed ally or leader has turned its back on
+    them.
+  - >-
+    While infiltrating other planes, erodaemons prefer to hunt alone most of the
+    time. Selecting a particularly susceptible victim-such as one whose heart
+    already throbs for another-an erodaemon will assume the guise of its
+    target's lover and make the victim believe his or her partner is unfaithful,
+    abusive, or worse. The devastation this causes for both of the real members
+    of the relationship is delectable to the erodaemon, whose kiss snatches any
+    life that still remains in the souls of those whose hearts it breaks.
+    Similarly, an erodaemon might simply assume the form of a beautiful suitor,
+    bewitching an already devoted mortal into relations which will ultimately be
+    discovered suddenly by his or her mate. When the affair is revealed- often
+    in the bedroom-the erodaemon assumes its true form to devour the emotionally
+    shattered remains of both parties involved.
+  - >-
+    Erodaemons occasionally work together, but only if doing so results in a
+    greater harvest of crushed mortal souls. This usually involves mesmerizing
+    entire groups of people, often at a risqué performance or event, and
+    seductively sapping the life from the unwitting spectators. While such ruses
+    are elaborate enough to pique erodaemons' peculiar tastes, the act of
+    tricking mortals on an individual level often yields much more broken-and
+    thus all the more delicious-souls.
+  - >-
+    Given their diverse uses and unique insights into mortals, erodaemons serve
+    all of the Four equally. In addition to typical erodaemon servitors,
+    erodaemons with particularly specialized skill sets serve each Horseman as
+    his or her needs require. Apollyon possesses access to a group of plagued
+    erodaemons who act as jubilant and seductive carriers of venereal diseases;
+    Trelmarixian's erodaemons target rulers of kingdoms in order to divert
+    resources meant for food; Szuriel's erodaemons woo entire legions of
+    soldiers into embittered deaths; and Charon's erodaemons seek and further
+    destroy the hearts of the aged.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+OffenseNote: '* See Ultimate Magic.'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1937'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

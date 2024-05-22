@@ -1,0 +1,144 @@
+Name: Old Underworld Dragon
+CR: '14'
+XP: '38400'
+Alignment: LE
+Size: Huge
+Type: dragon
+SubType: (fire)
+Init: '3'
+Senses:
+  - dragon senses, smoke vision
+  - Perception +25
+Aura: frightful presence (240 ft., DC 23)
+AC: 33, touch 7, flat-footed 33
+AC_Mods: (-1 Dex, +26 natural, -2 size)
+HP: '225'
+HD: (18d12+108)
+Saves: Fort +17, Ref +10, Will +15
+Fort: '17'
+Ref: '10'
+Will: '15'
+DR: 10/magic
+Immune: fire, paralysis, sleep
+SR: '25'
+Weaknesses: vulnerability to cold
+Speed: 40 ft., burrow 50 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +27 (2d8+15/19-20), 2 claws +27 (2d6+10/19-20), gore +26 (2d6+15), tail
+    slap +21 (2d6+15)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite and gore)
+SpecialAttacks: >-
+  adamantine claws, breath weapon (100-ft. line, 16d6 fire damage, DC 25), crush
+  (DC 25, 2d8+15)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +22)
+  values:
+    - label: At will
+      value: soften earth and stone, spike stones (DC 18), stone shape, wall of stone
+SpellsKnown:
+  header: Spells Known (CL 9th; concentration +13)
+  values:
+    - label: 4th (5/day)
+      value: shout (DC 18), stone shape
+    - label: 3rd (7/day)
+      value: displacement, fireball (DC 17), protection from good
+    - label: 2nd (7/day)
+      value: acid arrow, flaming sphere (DC 16), resist energy, scorching ray
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 15), cause fear (DC 15), magic missile, ray of
+        enfeeblement (DC 15), true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), detect magic, flare (DC 14), ghost sound,
+        mage hand, read magic, resistance
+AbilityScores:
+  - 31
+  - 8
+  - 23
+  - 18
+  - 19
+  - 18
+BaseAtk: '18'
+CMB: '30'
+CMD: 39 (43 vs. trip)
+Feats:
+  - Improved Critical (bite
+  - claw)
+  - Improved Initiative
+  - Improved Natural Armor
+  - Lunge
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Weapon Focus (bite
+  - claw)
+Skills:
+  - Appraise +25
+  - Bluff +25
+  - Climb +31
+  - Fly +12
+  - Intimidate +25
+  - Knowledge (dungeoneering
+  - geography
+  - planes) +25
+  - Perception +25
+  - Stealth +18
+Languages:
+  - Common
+  - Draconic
+  - Dwarven
+  - Ignan
+  - Terran
+SQ: change shape, underworld burrower
+Environment: any underground
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This serpentine dragon has skin the color of deep volcanic rock, enormous
+  claws, and jagged, stonelike horns and scales.
+Group: Imperial Dragon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adamantine Claws (Ex)
+    description: >-
+      The claws of an underworld dragon are made of adamantine, and have the
+      qualities of a weapon made from that material.
+  - name: Change Shape (Su)
+    description: >-
+      A young or older underworld dragon can assume any humanoid form three
+      times per day as if using polymorph.
+  - name: Smoke Vision (Ex)
+    description: >-
+      A very young and older underworld dragon can see perfectly in smoky
+      conditions (such as those created by pyrotechnics).
+  - name: Underworld Burrower (Ex)
+    description: >-
+      An adult underworld dragon gains a 10-foot bonus to its burrow speed. When
+      the underworld dragon becomes old and every two age categories thereafter,
+      its burrow speed increases by an additional 10 feet.
+Description:
+  - >-
+    Underworld dragons, also called futsanglungs, are calculating, greedy
+    creatures that carve great labyrinthine tunnels beneath the world, defending
+    their hidden treasures. Preferring the earth to the heavens, they channel
+    the fires of the world's core within their twisting, stonelike bodies and
+    through flaming breath hot enough to turn granite into slag.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6655'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

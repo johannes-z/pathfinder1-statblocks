@@ -1,0 +1,173 @@
+Name: Cinnabar
+CR: '12'
+XP: '19200'
+Race: human
+Class: ranger 2/rogue 4/Red Mantis assassin 7
+MonsterSource: 'Pathfinder Campaign Setting: The Inner Sea World Guide 282'
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception +19
+AC: 25, touch 16, flat-footed 20
+AC_Mods: (+8 armor, +1 deflection, +4 Dex, +1 dodge, +1 shield)
+HP: '133'
+HD: (13 HD; 11d8+2d10+69)
+Saves: Fort +10, Ref +16, Will +4
+Fort: '10'
+Ref: '16'
+Will: '4'
+DefensiveAbilities: evasion, red shroud, trap sense +1, uncanny dodge
+Speed: 40 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    +1 sawtooth sabre +15/+10 (1d8+11/17-20), +1 sawtooth sabre +15/+10
+    (1d8+11/17-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  combat style (two-weapon combat), favored enemy (humans +2), prayer attack (DC
+  17), sneak attack +5d6
+SpellLikeAbilities:
+  header: Red Mantis Assassin Spell-Like Abilities (CL 7th; concentration +9)
+  values:
+    - label: 1/day
+      value: summon mantis
+SpellsKnown:
+  header: Red Mantis Assassin Spells Known (CL 7th; concentration +9)
+  values:
+    - label: 3rd (1/day)
+      value: fly, haste
+    - label: 2nd (4/day)
+      value: bear's endurance, bull's strength, cat's grace, summon swarm
+    - label: 1st (5/day)
+      value: disguise self, expeditious retreat, jump, true strike, vanishAPG
+AbilityScores:
+  - 18
+  - 21
+  - 18
+  - 10
+  - 8
+  - 14
+BaseAtk: '10'
+CMB: '14'
+CMD: '31'
+Feats:
+  - Alertness
+  - Arcane Strike
+  - Dodge
+  - Double Slice
+  - Exotic Weapon Proficiency (sawtooth sabre)
+  - Greater Weapon Focus (sawtooth sabre)
+  - Greater Weapon Specialization (sawtooth sabre)
+  - Improved Critical (sawtooth sabre)
+  - Improved Two-Weapon Fighting
+  - Toughness
+  - Two-Weapon Defense
+  - Two-Weapon Fighting
+  - Weapon Focus (sawtooth sabre)
+  - Weapon Specialization (sawtooth sabre)
+Skills:
+  - Acrobatics +19
+  - Bluff +18
+  - Disguise +18
+  - Fly +12
+  - Intimidate +18
+  - Perception +19
+  - Sense Motive +12
+  - Stealth +19
+  - Survival +15
+Languages:
+  - Common
+SQ: >-
+  mantis form, resurrection sense, rogue talents (combat trick, weapon
+  training), track +1, trapfinding +2, wild empathy +4
+Source: Curse Of The Crimson Throne Chapter 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Mantis Form (Su)
+    description: >-
+      Once per day, Cinnabar can transform into a blood-red giant praying mantis
+      as a standard action, as if using vermin shape IIUM (CL 10th). In addition
+      to the normal adjustments to Strength, Dexterity, and natural armor
+      provided by this spell effect, she gains the giant mantis's darkvision
+      (with a range of 60 feet), grab, lunge, mandibles, and sudden strike
+      extraordinary abilities, but not its immunity to mind-affecting effects or
+      its racial modifiers on Perception and Stealth checks. If she wields a
+      magical sawtooth sabre in her hand when she transforms, the magical
+      enhancements for that weapon apply to her corresponding claw attack-if she
+      wields two of them, then the weapons each apply to a different claw
+      attack.
+  - name: Prayer Attack (Su)
+    description: >-
+      Resisting Cinnabar's prayer attack requires a successful DC 17 Will save.
+      See page 145 for more details on this signature assassination style.
+  - name: Red Shroud (Su)
+    description: >-
+      Cinnabar's red shroud persists for 7 rounds when she activates it. She can
+      use this ability four times per day. See page 145 for more details.
+  - name: Resurrection Sense (Su)
+    description: >-
+      Cinnabar senses if a creature she has slain within the last year has been
+      restored to life, as long as she and the creature are both on the same
+      plane.
+  - name: Summon Mantis (Sp)
+    description: >-
+      Once per day, Cinnabar can summon an advanced fiendish giant mantis, 1d3
+      fiendish giant mantises, or 1d4+1 giant mantises, as if using summon
+      monster V. She can mentally direct the actions of these summoned vermin as
+      a free action. All mantises summoned by this spell-like ability are
+      bloodred and gain no racial bonuses on Stealth checks in forests.
+Gender: Female
+BeforeCombat: >-
+  Cinnabar casts fly, bear's endurance, bull's strength, and cat's grace on
+  herself before combat.
+DuringCombat: >-
+  If she is with allies, Cinnabar hangs back to summon 1d3 fiendish giant
+  mantises on the first round of combat, then casts haste on the second round
+  before moving in to join the fight in melee, staying mobile as needed to make
+  sneak attacks. If she is alone, she instead fights defensively and attacks via
+  melee on the first round. She uses Arcane Strike to enhance her attacks.
+Morale: >-
+  Cinnabar is a relentless leader and loyal to the Red Mantis, yet her
+  personality has begun to crack. If she is reduced to 10 or fewer hit points,
+  her next action in combat is to drop her weapons and fall to her knees and beg
+  for a quick death. If death is not granted in 1 round, she picks her weapons
+  back up (hoping to provoke attacks of opportunity that result in her demise)
+  and then fights to the death with a furious wrath, gaining a +4 morale bonus
+  on attack rolls and weapon damage rolls for the next 10 rounds. If she is
+  granted mercy and given the chance to surrender instead of death, the
+  conditioning in her mind reels and she instead becomes speechless for 1d6
+  rounds, during which she takes no offensive actions unless she's attacked (in
+  which case she is filled with a wrath as detailed above). If none attack her
+  in those 1d6 rounds, Cinnabar's original, more kind-hearted personality has a
+  chance to return. A full redemption should take many weeks or even months, and
+  while she doesn't aid the PCs in combat (her distaste for bloodshed having
+  returned), she can provide them with information about the repercussions the
+  PCs may face for driving off the Red Mantis. This includes the information in
+  her recent letter from the Crimson Citadel, along with warnings of Mistress
+  Kayltanya, as well as information about the defenders within Deathhead Vault.
+  In time, she'll be targeted for assassination by the Red Mantis, but if the
+  PCs can keep her alive, Cinnabar can become a potent ally in the climax of
+  Curse of the Crimson Throne (at your discretion).
+Gear: mask of the mantis (see page 434), potions of cure moderate wounds (2)
+OtherGear: >-
+  +2 mithral chainmail, +1 sawtooth sabreUE, +1 sawtooth sabreUE, boots of
+  striding and springing, ring of protection +1, 8 pp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8669'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

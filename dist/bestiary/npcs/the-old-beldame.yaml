@@ -1,0 +1,112 @@
+Name: The Old Beldame
+CR: '6'
+XP: '2400'
+Race: human
+Class: sorcerer 7
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '-1'
+Senses:
+  - Perception +1
+AC: 17, touch 9, flat-footed 17
+AC_Mods: (+4 armor, -1 Dex, +4 shield)
+HP: '43'
+HD: (7d6+19)
+Saves: Fort +2, Ref +3, Will +8
+Fort: '2'
+Ref: '3'
+Will: '8'
+Speed: 30 ft.
+Melee:
+  - +1 spell storing quarterstaff +1 (1d6-2 plus hideous laughter)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 7th; concentration +12)
+  values:
+    - label: 8/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +12)
+  values:
+    - label: 3rd (5/day)
+      value: beast shape I, deep slumber (DC 18), slow (DC 18)
+    - label: 2nd (7/day)
+      value: false life, hideous laughter (DC 17), scare (DC 17), touch of idiocy
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 16), entangle (DC 16), mage armor, obscuring mist, ray
+        of enfeeblement (DC 16), shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, detect poison, light, mending, read magic,
+        touch of fatigue
+AbilityScores:
+  - 5
+  - 9
+  - 11
+  - 15
+  - 12
+  - 20
+BaseAtk: '3'
+CMB: '0'
+CMD: '9'
+Feats:
+  - Craft Construct
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Eschew Materials
+  - Iron Will
+  - Lightning Reflexes
+  - Skill Focus (Craft [alchemy])
+Skills:
+  - Appraise +12
+  - Craft (alchemy) +15
+  - Knowledge (arcana) +12
+  - Knowledge (nature) +12
+  - Spellcraft +12
+Languages:
+  - Aklo
+  - Aquan
+  - Boggard
+  - Common
+  - Draconic
+  - Sylvan
+SQ: bloodline arcana, woodland stride
+Source: AP 32
+IsTemplate: '0'
+Gender: Female
+Bloodline: fey
+BeforeCombat: The Old Beldame casts false life, mage armor, and shield on herself every day.
+DuringCombat: >-
+  The Old Beldame first casts scare to frighten away intruders. If they remain,
+  she follows with slow, deep slumber, and hideous laughter spells, while her
+  scarecrow attacks as outlined below. She targets fighters with scare, uses
+  touch of idiocy against spellcasters, and targets clustered opponents with her
+  wand. The first person to engage her in melee combat is hit with hideous
+  laughter from her staff.
+Morale: >-
+  If reduced to 15 hit points or fewer, the Old Beldame casts beast shape I to
+  change into a raven and flies out the door into the swamp, hoping to return
+  later after her tormentors have departed.
+Gear: wand of burning hands (CL 5th, 10 charges)
+OtherGear: >-
+  +1 spell storing quarterstaff (holds hideous laughter), hand of the mage,
+  shawl of resistance +1 (as cloak), spell component pouch, spellbook
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: old
+CompanionFamiliarLink: '0'
+id: '667'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,141 @@
+Name: Blighted Handmaiden
+CR: '12'
+XP: '19200'
+Race: dryad
+Class: witch 9
+MonsterSource: >-
+  Pathfinder RPG Bestiary 6 45, Pathfinder RPG Bestiary 116, Pathfinder RPG
+  Advanced Player's Guide 65
+Alignment: CE
+Size: Medium
+Type: fey
+Init: '9'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +19
+AC: 28, touch 15, flat-footed 23
+AC_Mods: (+4 armor, +5 Dex, +9 natural)
+HP: '188'
+HD: (15 HD; 9d6+6d8+129)
+HP_Mods: fast healing 5
+Saves: Fort +14, Ref +13, Will +15
+Fort: '14'
+Ref: '13'
+Will: '15'
+DefensiveAbilities: fungal rejuvenation
+DR: 10/cold iron and good
+Immune: disease, paralysis, poison, polymorph
+Resist: cold 10, electricity 10
+SR: '23'
+Speed: 30 ft.
+Melee:
+  - mwk dagger +13/+8 (1d4+1/19-20)
+Ranged:
+  - thorn throw +12 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hexes (blight, coven, evil eye, healing, misfortune), parasitic bond
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +12)
+  values:
+    - label: Constant
+      value: speak with plants
+    - label: At Will
+      value: entangle (DC 17), tree shape, wood shape (1 lb. only, DC 18)
+    - label: 3/day
+      value: charm person (DC 17), deep slumber (DC 19), tree stride
+    - label: 1/day
+      value: suggestion (DC 19)
+SpellsPrepared: >-
+  Witch Spells Prepared (CL 9th; concentration +13)   5th-mass pain strikeAPG
+  (DC 19)   4th-beast shape II, cure serious wounds, enervation   3rd-arcane
+  sight, dispel magic (2), twilight knifeAPG   2nd-augury, bear's endurance,
+  blindness/deafness (DC 17), death knell (DC 17), glitterdust (DC 16)  
+  1st-beguiling giftAPG (DC 15), chill touch (DC 16), mage armor, ray of
+  enfeeblement (DC 16), unseen servant   0 (at will)-bleed (DC 15), dancing
+  lights, detect magic, message
+AbilityScores:
+  - 12
+  - 20
+  - 25
+  - 18
+  - 18
+  - 22
+BaseAtk: '7'
+CMB: '8'
+CMD: '23'
+Feats:
+  - Combat Casting
+  - Great Fortitude
+  - Improved Initiative
+  - Improved Natural Armor
+  - Persuasive
+  - Spell Focus (necromancy)
+  - Stealthy
+  - ToughnessB
+  - Weapon Finesse
+Skills:
+  - Bluff +19
+  - Climb +10
+  - Craft (sculpture) +13 (+19 with wood)
+  - Diplomacy +8
+  - Escape Artist +22
+  - Handle Animal +12
+  - Intimidate +23
+  - Knowledge (nature) +19
+  - Knowledge (nobility) +14
+  - Perception +19
+  - Sleight of Hand +18
+  - Stealth +24
+  - Survival +10
+  - Use Magic Device +19
+RacialMods: +2 Knowledge (nature), +2 Perception, +2 Stealth
+Languages:
+  - Aklo
+  - Common
+  - Elven
+  - Infernal
+  - Sylvan
+  - speak with plants
+SQ: >-
+  blighted unity, daughter of the blight, tainted blood, tree meld, wild empathy
+  +18, witch's familiar (rat), woodcraft
+Source: AP 119
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If the PCs engage any other blighted fey on this floor, the handmaidens are
+  aware of the intruders thanks to their blighted unity; they cast bear's
+  endurance and mage armor but aren't immediately aggressive.
+DuringCombat: >-
+  The handmaidens trust the intoxicating stench and enticing head-fruit of the
+  jinmenju to deal with most trespassers, and reinforce the attraction by
+  casting beguiling gift. If the PCs resist these efforts or attack immediately,
+  the three use their coven hex to support individuals unleashing mass pain
+  strike and enervation. If one member of the coven dies, the remaining two cast
+  twilight knife and beast shape II to become tigers, then leap to attack.
+Morale: >-
+  If two dryads are slain, the remaining one uses tree stride to flee to
+  Arlantia's side and warn her of the intruders, eventually fighting by her
+  mistress's side when the PCs arrive.
+Gear: mwk dagger, amulet of natural armor +3
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: blighted|
+BaseStatistics: >-
+  Without their spells, the dryads' statistics are AC 24, flat-footed 19; hp
+  158; Fort +12; Con 21.
+AgeCategory: Adult
+Patron: transformation
+CompanionFamiliarLink: '0'
+id: '11499'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

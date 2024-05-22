@@ -1,0 +1,109 @@
+Name: Deggorhbaatha
+CR: '6'
+XP: '2400'
+Race: skum
+Class: sorcerer 5
+MonsterSource: Pathfinder RPG Bestiary 253
+Alignment: LE
+Size: Medium
+Type: monstrous humanoid
+SubType: (aquatic)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +5
+AC: 24, touch 14, flat-footed 20
+AC_Mods: (+4 armor, +3 Dex, +1 dodge, +2 natural, +4 shield)
+HP: '68'
+HD: (7 HD; 5d6+2d10+40)
+Saves: Fort +5, Ref +7, Will +7
+Fort: '5'
+Ref: '7'
+Will: '7'
+DefensiveAbilities: stormchild
+Resist: cold 10, electricity 5, sonic 5
+Speed: 20 ft., swim 40 ft.
+Melee:
+  - mwk trident +6 (1d8+1), bite +5 (1d6), claw +5 (1d4)
+Ranged:
+  - mwk trident +8 (1d8+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +6)
+  values:
+    - label: 2nd (4/day)
+      value: defensive shockUM, gust of wind (DC 13), invisibility
+    - label: 1st (7/day)
+      value: grease, magic armor, magic missile, shield, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, light, mage hand, ray of frost, touch of
+        fatigue (DC 11)
+AbilityScores:
+  - 13
+  - 17
+  - 19
+  - 12
+  - 10
+  - 13
+BaseAtk: '4'
+CMB: '5'
+CMD: '19'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - MultiattackB
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +3
+  - Intimidate +8
+  - Knowledge (arcana) +10
+  - Perception +5 (+9 when underwater)
+  - Spellcraft +10
+  - Stealth +10 (+14 when underwater)
+  - Swim +14
+  - Use Magic Device +5
+RacialMods: +4 Perception when underwater, +4 Stealth when underwater
+Languages:
+  - Aboleth
+  - Aklo
+  - Undercommon
+SQ: amphibious, thunderstaff
+Source: AP 110
+IsTemplate: '0'
+Gender: Male
+Bloodline: stormbornAPG
+BeforeCombat: >-
+  If aware of the PCs' approach, Deggorhbaatha casts mage armor, shield, and
+  defensive shock.
+DuringCombat: >-
+  On the first round of combat, Deggorhbaatha casts grease on the stairs, hoping
+  to slow or halt the PCs' ascent. He uses his damaging spells in combat, but if
+  too many PCs draw too close, he activates his thunderstaff bloodline power and
+  fights with his trident and natural attacks.
+Morale: >-
+  Deggorhbaatha has no desire to die before he gets a chance to attack
+  Thrushmoor. If reduced to fewer than 20 hit points, he casts invisibility and
+  flees to the fort's basement or joins Itsqaal-Thoal in area D16, whichever
+  seems the most prudent at the time.
+Gear: potions of cure moderate wounds (2)
+OtherGear: mwk trident, headband of alluring charisma +2, 53 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: Without his spells, Deggorhbaatha's statistics are AC 16, flat-footed 12.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8564'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

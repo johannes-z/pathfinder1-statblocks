@@ -1,0 +1,104 @@
+Name: Fire Nymph
+CR: '4'
+XP: '1200'
+Alignment: CN
+Size: Medium
+Type: outsider
+SubType: (extraplanar, fire)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +8
+AC: 15, touch 12, flat-footed 13
+AC_Mods: (+1 Dex, +1 dodge, +3 natural)
+HP: '13'
+HD: (2d10+2)
+Saves: Fort +1, Ref +4, Will +6
+Fort: '1'
+Ref: '4'
+Will: '6'
+Immune: fire
+SR: '10'
+Weaknesses: vulnerability to fire
+Speed: 30 ft.
+Melee:
+  - masterwork dagger +3 (1d4/19-20 plus burn), slam +2  (1d4)
+Ranged:
+  - masterwork dagger +4 (1d4/19-20 plus burn)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: burn (1d4, DC 12)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th)
+  values:
+    - label: At will
+      value: >-
+        burning hands (DC 15), flame blade, flaming sphere (DC 16), produce
+        flame
+    - label: 1/day
+      value: fire shield
+AbilityScores:
+  - 10
+  - 13
+  - 12
+  - 16
+  - 17
+  - 19
+BaseAtk: '2'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Dodge
+Skills:
+  - Bluff +9
+  - Diplomacy +9
+  - Escape Artist +6
+  - Knowledge (nature) +8
+  - Knowledge (planes) +8
+  - Perception +8
+  - Sense Motive +8
+  - Stealth +6
+  - Survival +8
+Languages:
+  - Common
+  - Ignan
+Environment: Plane of Fire
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This creature appears as a very attractive and beautiful female with long,
+  flowing fiery-red hair. Her eyes are pale blue and her skin is lightly colored
+  with a cinnamon hint to it.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+Description:
+  - >-
+    A fire nymph is a very beautiful creature that dwells on the Plane of Fire.
+    It is akin to the nymph and dryad, though its origins obviously lie
+    elsewhere. Fire nymphs rarely visit the Material Plane, though mages are
+    known to request their company on occasion. A fire nymph usually wears
+    translucent robes of white or ash.
+  - >-
+    Fire nymphs avoid combat if at all possible, but if pressed into action they
+    rely on their spell-like abilities and seek escape as soon as possible.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: masterwork dagger
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2594'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

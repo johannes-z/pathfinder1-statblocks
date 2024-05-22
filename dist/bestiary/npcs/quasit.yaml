@@ -1,0 +1,109 @@
+Name: Quasit
+CR: '2'
+XP: '600'
+Race: Quasit
+Alignment: CE
+Size: Tiny
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 16, touch 14, flat-footed 14
+AC_Mods: (+2 Dex, +2 natural, +2 size)
+HP: '16'
+HD: (3d10)
+HP_Mods: fast healing 2
+Saves: Fort +1, Ref +5, Will +4
+Fort: '1'
+Ref: '5'
+Will: '4'
+DR: 5/cold iron or good
+Immune: electricity, poison
+Resist: acid  10, cold 10, fire 10
+Speed: 20 ft., fly 50 ft. (perfect)
+Melee:
+  - 2 claws +7 (1d3-1 plus poison), bite +7 (1d4-1)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: >-
+  change shape (2 of the following forms: bat, Small centipede, toad, or wolf;
+  polymorph)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th)
+  values:
+    - label: At will
+      value: detect good, detect magic, invisibility (self only)
+    - label: 1/day
+      value: cause fear (30-foot radius, DC 11)
+    - label: 1/week
+      value: commune (six questions)
+AbilityScores:
+  - 8
+  - 14
+  - 10
+  - 10
+  - 12
+  - 10
+BaseAtk: '3'
+CMB: '0'
+CMD: '12'
+Feats:
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Bluff +6
+  - Fly +20
+  - Intimidate +6
+  - Knowledge (planes) +6
+  - Perception +7
+  - Stealth +16
+Languages:
+  - Abyssal
+  - Common
+  - telepathy (touch)  Treasure standard
+Source: PFS S1-32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Claw-injury; save Fortitude DC 13; frequency 1/round for 6 rounds; effect
+      1d2 Dexterity; cure 2 consecutive saves.
+BeforeCombat: >-
+  The quasits guard under the effect of their invisibility spell-like ability.
+  If the PCs are using light, the quasits are aware of them as soon as their
+  light source gets close to the eastern entrance of the room, otherwise the
+  quasits on the eastern end of the bridge notice the PCs once they move to
+  within 60 feet of the bridge (the quasits's darkvision allows them to easily
+  spot visible intruders, even those trying to use Stealth). Once alerted by the
+  PCs, five of the quasits change into wolf form and wait, invisibly, three
+  flanking the east side of the bridge and two on the west. The last quasit
+  remains in its normal form and flies near the ceiling, ready to dive down to
+  aid any of its allies.
+DuringCombat: >-
+  One pair of wolf-quasits try to flank and trip a weak-looking character, then
+  use invisibility on their next turn; the other pair then approaches and
+  attacks, making it look like there is only one pair of wolves. They alternate
+  this strategy for two rounds or until the PCs catch on to the ruse, at which
+  point they assume their normal form and attack with claws and bite, turning
+  invisible if wounded to give them time to retreat and heal with fast healing.
+Morale: >-
+  If the PCs are having an easy time killing the quasits, the last two or three
+  try to retreat to the pyramid cavern and warn the drow of the PCs' impending
+  arrival.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4134'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

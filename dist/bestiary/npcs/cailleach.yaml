@@ -1,0 +1,122 @@
+Name: Cailleach
+CR: '10'
+XP: '9600'
+Race: night hag
+MonsterSource: Pathfinder RPG Bestiary 215
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+AC: 25, touch 14, flat-footed 21
+AC_Mods: (+4 Dex, +11 natural)
+HP: '112'
+HD: (9d10+63)
+Saves: Fort +14, Ref +9, Will +11
+Fort: '14'
+Ref: '9'
+Will: '11'
+DR: 10/cold iron and magic
+Immune: charm, cold, fear, fire, sleep
+SR: '24'
+Speed: 30 ft.
+Melee:
+  - 2 claw +14 (1d4+5), bite +14 (2d6+5 plus  disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: cold blast, dream haunting
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +11)
+  values:
+    - label: Constant
+      value: detect chaos, detect evil, detect good, detect law, detect magic
+    - label: At Will
+      value: >-
+        invisibility, magic missile, ray of enfeeblement (DC 14), sleet storm
+        (DC 16)
+    - label: At will
+      value: (with heartstone) etherealness, soul bind (DC 22)
+AbilityScores:
+  - 21
+  - 19
+  - 22
+  - 18
+  - 16
+  - 17
+BaseAtk: '9'
+CMB: '14'
+CMD: '28'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Deceitful
+  - Improved Natural Attack (claw)
+  - Toughness
+Skills:
+  - Bluff +17
+  - Diplomacy +12
+  - Disguise +17
+  - Intimidate +15
+  - Knowledge (arcana) +16
+  - Knowledge (planes) +16
+  - Perception +17
+  - Sense Motive +17
+  - Spellcraft +13
+  - Stealth +16
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Infernal
+SQ: change shape (any humanoid, alter self ), heartstone
+Source: PFS S2-14
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cold Blast (Su)
+    description: >-
+      Eight times per day, as a standard action, Cailleach can unleash a blast
+      of freezing cold. The blast deals 2d6+4 cold damage to all creatures
+      within 5 feet of the hag and staggers them for 1 round. A successful DC 18
+      Reflex save halves the damage and negates the staggered condition. The DC
+      is Intelligence-based.
+  - name: Disease (Su)
+    description: >-
+      Demon Fever: Bite-injury; save Fort DC 20; onset immediate; frequency
+      1/day; effect 1d6 Con damage (target must save a second time or 1 point of
+      the damage is drain instead); cure 2 consecutive saves. The save DC is
+      Constitution-based.
+Gender: Female
+BeforeCombat: >-
+  As soon as she detects intruders, the hag turns invisible, then darts about
+  the caverns making subtle scratching noises in order to lure them towards Eya,
+  using her as bait to distract them so she can gain surprise.
+DuringCombat: >-
+  Once the PCs become occupied with Eya, she strikes from behind, biting the
+  nearest opponent, and then unleashes her cold blast special ability. Next, she
+  turns ethereal, uses her sleet storm ability, and if possible, grabs Eya and
+  drags her about the caverns, taunting the PCs and trying to get them to split
+  up in order to attack them individually, alternating between her at-will
+  powers and physical attacks. As she wears down, she eventually drops Eya in
+  another location and then begins stalking the PCs.
+Morale: >-
+  If reduced below 20 hit points, the hag turns ethereal (or invisible if she's
+  lost her heartstone) and attempts to flee.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5610'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

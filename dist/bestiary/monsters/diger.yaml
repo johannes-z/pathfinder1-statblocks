@@ -1,0 +1,104 @@
+Name: Diger
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Large
+Type: ooze
+Init: '0'
+Senses:
+  - blindsight 60 ft.
+  - Perception -5
+AC: 14, touch 9, flat-footed 14
+AC_Mods: ', +5 natural, -1 size)'
+HP: '31'
+HD: (3d8+18)
+Saves: Fort +7, Ref +1, Will -4
+Fort: '7'
+Ref: '1'
+Will: '-4'
+DefensiveAbilities: transparent
+Immune: ooze traits
+Speed: 5 ft., fly 30 ft (poor), swim 40 ft.
+Melee:
+  - slam +3 (1d4+3 plus 1d4 acid plus paralysis)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: engulf (DC 17, 1d4 acid and paralysis), paralysis (1d6 rounds, DC 17)
+AbilityScores:
+  - 15
+  - 10
+  - 23
+  - —
+  - 1
+  - 1
+BaseAtk: '2'
+CMB: '5'
+CMD: 15 (can't be tripped)
+Skills:
+  - Fly -6
+  - Stealth +4
+  - Swim +10
+RacialMods: +8 Stealth
+SQ: limited flight
+Environment: underground
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  A large pool of water is situated here. Floating near the center of it is a
+  large reddish-colored gem.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Limited Flight (Ex)
+    description: >-
+      By releasing naturally occurring helium from its body, a diger is able to
+      fly for a number of rounds equal to 1 + 1/2 its current Constitution score
+      (12 rounds for the average diger). After that, it must land and cannot fly
+      again until it has rested for 2 minutes (20 rounds).
+  - name: Transparent (Ex)
+    description: >-
+      A diger is transparent in water. It takes a successful DC 15 Perception
+      check to recognize a motionless diger for what it really is.
+Description:
+  - >-
+    Digers are semi-transparent oozes about 9 feet in diameter that live in
+    abandoned ruins or underground areas where they spend most of their time
+    hunting for food. A diger's gem-like eye offers it a means to lure its prey
+    in so it can attack. A character can attempt a DC 15 Perception check to
+    realize the gem is not real, but is in fact a part of the creature itself.
+  - >-
+    Anyone with ranks in Appraise or Craft (gemcutting) can use one of those
+    skills instead of Perception to notice.
+  - >-
+    A diger attacks by hitting a foe with its slimy appendage, or by simply
+    waiting, floating unnoticed until an opponent contacts it. Often, a diger
+    lies at the bottom of a pool or stream where it is almost impossible to
+    detect (+10 on Perception DC). Its gem-like eye appears to be a gemstone or
+    jewel embedded in the ground under the water. An opponent that moves to grab
+    the gemstone is immediately attacked by the diger.
+  - >-
+    Credit The Diger originally appeared in the First Edition module B3 Palace
+    of the Silver Princess (© TSR/Wizards of the Coast, 1981) and is used by
+    permission.
+  - >-
+    Copyright Notice Authors Scott Greene and Erica Balsley, based on original
+    material by Jean Wells.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2520'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

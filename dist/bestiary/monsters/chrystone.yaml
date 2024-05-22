@@ -1,0 +1,145 @@
+Name: Chrystone
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +4
+AC: 15, touch 9, flat-footed 15
+AC_Mods: (-1 Dex, +6 natural)
+HP: '42'
+HD: (4d10+20)
+Saves: Fort +1, Ref +0, Will +3
+Fort: '1'
+Ref: '0'
+Will: '3'
+DefensiveAbilities: shatter weapons
+DR: 5/-
+Immune: construct traits, magic
+Speed: 20 ft.
+Melee:
+  - longsword +7 (1d8+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death throes
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th)
+  values:
+    - label: At will
+      value: stone shape (item of 5 pounds or less, otherwise as the spell)
+    - label: 2/day
+      value: stone tell
+    - label: 3/day
+      value: color spray (DC 13)
+AbilityScores:
+  - 17
+  - 9
+  - —
+  - 8
+  - 11
+  - 1
+BaseAtk: '4'
+CMB: '7'
+CMD: '16'
+Feats:
+  - Iron Will
+  - Power Attack
+Skills:
+  - Perception +4
+Environment: any
+Organization: solitary, company (2-6), or squad (7-20)
+Treasure: standard
+Description_Visual: >-
+  This creature appears as a statue constructed of rock and crystal. It has
+  almost no neck; its head seems attached firmly to its shoulders, though by
+  observing it, you see that it is able to turn its head freely. Each of its
+  hands has two fingers and two opposable thumbs.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Throes (Ex)
+    description: >-
+      When a chrystone is destroyed, it shatters, spraying razor-sharp fragments
+      from its form. Creatures within 5 feet of the chrystone take 2d6 points of
+      damage. A DC 12 Reflex saving throw halves the damage. A chrystone can
+      prevent itself from shattering by making a DC 12 Will save as it is
+      destroyed. Spell-like
+  - name: Abilities (Sp)
+    description: >-
+      Three times per day, a chrystone can use its stone shape to repair itself,
+      healing 1d6 points of damage per use. This requires a full-round action
+      that provokes attacks of opportunity. The save DC for the chrystone's
+      color spray includes a +2 racial bonus.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A chrystone is immune to any spell or spell-like ability that allows spell
+      resistance. In addition, certain spells and effects function differently
+      against the creature, as noted below. A transmute rock to mud spell slows
+      a chrystone (as the slow spell) for 2d6 rounds, with no saving throw,
+      while transmute mud to rock heals all of its lost hit points. A stone to
+      flesh spell does not actually change the chrystone's structure but negates
+      its damage reduction and immunity to magic for 1 full round.
+  - name: Shatter Weapons (Ex)
+    description: >-
+      Whenever a character strikes a chrystone with a weapon (magical or
+      nonmagical), the weapon must succeed on a DC 14 Fortitude save or shatter
+      into pieces. A magic weapon uses its own save bonus or that of the
+      wielder, whichever is higher. If the weapon breaks, the chrystone takes no
+      damage from the attack. The save DC is Constitution-based and includes a
+      +2 racial bonus.
+Description:
+  - >-
+    Chrystones are creatures made of rock and crystal that normally stand just
+    over 5 feet tall. Their coloration varies by the types of crystal and rock
+    they absorb, giving each chrystone a unique pattern of striations and
+    coloration that makes them easy to tell apart. Originally imbued with life
+    by a spellcaster in a ritual involving the blood of several dragons and a
+    demon, chrystones grow new offspring through budding. To form a new bud, a
+    chrystone must consume several times its weight in crystals and consume at
+    least 300 gp worth of gems. The bud continues to grow from the chrystone's
+    back until it is large enough to separate. Each chrystone offspring retains
+    the memories and knowledge of its entire parental line. Chrystones were
+    originally created to be part of an army, but those plans were cut short by
+    their creator's death. As they developed and spread, they became more
+    free-willed and independent and wished to make certain they were never
+    enslaved again. They retain all of the abilities that would have made them a
+    powerful army, and their racial knowledge helps them put these abilities to
+    the best possible use. Chrystones, while usually neutral, have a racial
+    memory of being slaves to the whim of their creator. This memory makes them
+    somewhat paranoid when dealing with other races, making them more likely to
+    attack other races than talk with them. Chrystones open with color spray
+    which emanates from their mouth like a breath weapon and then close for
+    melee combat if targets are close enough; otherwise, they stand back and
+    fight with their longswords. If a battle is going poorly, a chrystone
+    attempts to retreat and ambush its opponents when it has repaired itself.
+    Construction A chrystone's body is chiseled from a single block of hard
+    stone, such as granite, weighing at least 1,000 pounds. The stone must be of
+    exceptional quality, and costs 1,000 gp. CHRYSTONE CL 14th; Price 16,000 gp
+    Requirements Craft Construct, color spray, limited wish, polymorph any
+    object, shatter, stone shape, stone tell, creator must be caster level 14th
+    level; Skill Craft (sculptures) or Craft (stonemasonry) DC 15; Cost 8,500 gp
+    Credit The Chrystone first appeared in the Necromancer Games module Hall of
+    the Rainbow Mage by Patrick Lawinger (©2002, Necromancer Games, Inc.).
+    Copyright Notice Author Patrick Lawinger.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2305'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

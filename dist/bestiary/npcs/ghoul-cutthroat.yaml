@@ -1,0 +1,90 @@
+Name: Ghoul Cutthroat
+CR: '5'
+XP: '1600'
+Race: Ghoul
+Class: rogue 5
+MonsterSource: Pathfinder RPG Bestiary 146
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 18, touch 16, flat-footed 12
+AC_Mods: (+5 Dex, +1 dodge, +2 natural)
+HP: '50'
+HD: (7 HD; 2d8+5d8+19)
+Saves: Fort +3, Ref +9, Will +6
+Fort: '3'
+Ref: '9'
+Will: '6'
+DefensiveAbilities: channel resistance +2, evasion, trap sense +1, uncanny dodge
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +9 (1d8+4 plus disease and paralysis), 2 claws +9  (1d6+4 plus
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: disease, paralysis (1d4+1 rounds, DC 13), sneak attack +3d6
+AbilityScores:
+  - 18
+  - 20
+  - —
+  - 13
+  - 14
+  - 14
+BaseAtk: '4'
+CMB: '8'
+CMD: '24'
+Feats:
+  - Dodge
+  - Improved Natural Attack (bite)
+  - Mobility
+  - Skill Focus (Stealth)
+  - Weapon Finesse
+Skills:
+  - Acrobatics +15
+  - Climb +14
+  - Disable Device +14
+  - Escape Artist +15
+  - Intimidate +12
+  - Knowledge (religion) +11
+  - Perception +12
+  - Stealth +18
+Languages:
+  - Common
+  - Necril
+SQ: rogue talents (finesse rogue, surprise attack), trapfinding +2
+Source: AP 46
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 13; onset 1 day; frequency 1/day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid of 4 Hit Dice or more who dies of ghoul
+      fever rises as a ghast at the next midnight; all other humanoids rise as
+      ghouls.
+DuringCombat: >-
+  The ghouls try to set up flanking attacks with Clanartus or each other. Once a
+  ghoul has tasted the flesh of an enemy, it concentrates all of its attacks
+  against that individual.
+Morale: The ghouls fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1689'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

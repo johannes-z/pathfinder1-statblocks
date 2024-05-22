@@ -1,0 +1,123 @@
+Name: Juvenile Bronze Dragon
+CR: '10'
+XP: '9600'
+Alignment: LG
+Size: Large
+Type: dragon
+SubType: (water)
+Init: '1'
+Senses:
+  - dragon senses
+  - Perception +23
+AC: 24, touch 10, flat-footed 23
+AC_Mods: (+1 Dex, +14 natural, -1 size)
+HP: '126'
+HD: (12d12+48)
+Saves: Fort +12, Ref +9, Will +12
+Fort: '12'
+Ref: '9'
+Will: '12'
+Immune: electricity, paralysis, sleep
+Speed: 40 ft., fly 200 ft. (poor)
+Speed_Mod: swim 60 ft.
+Melee:
+  - >-
+    bite +17 (2d6+9), 2 claws +17 (1d8+6), tail slap +15 (1d8+9), 2 wings +15
+    (1d6+3)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (80-ft. line, DC 20, 8d6 electricity), repulsion breath
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: At will
+      value: create food and water, speak with animals
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 3rd; concentration +7)
+  values:
+    - label: 1st (6/day)
+      value: alarm, obscuring mist, true strike
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, message, resistance
+AbilityScores:
+  - 23
+  - 12
+  - 19
+  - 18
+  - 19
+  - 18
+BaseAtk: '12'
+CMB: '19'
+CMD: 30 (34 vs. trip)
+Feats:
+  - Alertness
+  - Cleave
+  - Flyby Attack
+  - Multiattack
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Diplomacy +19
+  - Fly +10
+  - Handle Animal +16
+  - Intimidate +19
+  - Knowledge (arcana) +19
+  - Perception +23
+  - Sense Motive +23
+  - Spellcraft +19
+  - Stealth +12
+  - Swim +29
+RacialMods: +8 Swim
+Languages:
+  - Aquan
+  - Common
+  - Draconic
+  - Elven
+  - Gnome
+SQ: >-
+  change shape (animal or humanoid, polymorph), water breathing, wave mastery
+  (40 min)
+Environment: temperate coastlines
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This sleek dragon is covered in dull metallic scales that range in color from
+  shining bronze to mottled blue.
+Group: Metallic Dragon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Repulsion Breath (Su)
+    description: >-
+      Instead of a line of electricity, a bronze dragon can breathe a cone of
+      repulsion gas. Targets must make a Will save or be compelled to do nothing
+      but move away from the dragon for 1d6 rounds plus 1 round per age
+      category. This is a mind-affecting compulsion effect.
+  - name: Water Breathing (Ex)
+    description: >-
+      A bronze dragon breathes water and can use its breath weapon, spells, and
+      abilities underwater.
+  - name: Wave Mastery (Su)
+    description: >-
+      For up to 10 minutes per age category per day, a juvenile bronze dragon,
+      along with creatures or vessels within 50 feet, can move at twice its
+      normal speed in water.
+Description:
+  - >-
+    Bronze dragons have been known to ally with travelers and adventurers if the
+    cause and reward is right and just.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: juvenile
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1573'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

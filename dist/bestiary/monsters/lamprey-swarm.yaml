@@ -1,0 +1,95 @@
+Name: Lamprey Swarm
+CR: '5'
+XP: '1600'
+Alignment: 'N'
+Size: Tiny
+Type: animal
+SubType: (aquatic, swarm)
+Init: '6'
+Senses:
+  - low-light vision
+  - Perception +8
+AC: 14, touch 14, flat-footed 12
+AC_Mods: (+2 Dex, +2 size)
+HP: '52'
+HD: (8d8+16)
+Saves: Fort +8, Ref +10, Will +5
+Fort: '8'
+Ref: '10'
+Will: '5'
+DefensiveAbilities: swarm traits
+Immune: weapon damage
+Speed: 5 ft., swim 30 ft.
+Melee:
+  - swarm (2d6 plus distraction and blood drain)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: distraction (DC 16)
+AbilityScores:
+  - 5
+  - 15
+  - 14
+  - 1
+  - 12
+  - 2
+BaseAtk: '6'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Skill Focus (Swim)
+Skills:
+  - Escape Artist +10
+  - Perception +8
+  - Swim +15
+RacialMods: +8 Escape Artist
+SQ: amphibious, swarm traits
+Environment: temperate and warm aquatic
+Organization: solitary, pair, cluster (3-6 swarms)
+Treasure: none
+Description_Visual: A black cloud of eel-like fish swims rapidly forward.
+Group: Swarm
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Drain (Ex)
+    description: >-
+      Any living creature that takes damage from a lamprey swarm must succeed on
+      a DC 16 Reflex save. On a failed save, several lampreys have attached
+      themselves to the target and the creature takes 1d3 points of Constitution
+      damage each round as the lampreys drain blood. This effect continues as
+      long as the victim remains in the swarm and for 1d6 rounds after it leaves
+      the swarm. The attached lampreys can be killed instantly by dealing at
+      least 6 points of damage to the victim (any weapon or energy-based attacks
+      work), ending the effect prematurely. A successful DC 16 Heal check
+      reduces the duration by 1d6 rounds, ending the effect prematurely. The
+      save DC and check DC are both Constitution-based.
+Description:
+  - >-
+    A lamprey swarm is a mass of lampreys numbering in the hundreds, possibly
+    thousands. These creatures are attracted to living creatures in the water
+    and quickly attach themselves to their targeted prey.
+  - >-
+    Lamprey swarms attack any living prey encountered in their paths, swimming
+    over the creature and draining as much blood as possible. When their prey is
+    dead, they move on, seeking out a new source of nourishment.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5078'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

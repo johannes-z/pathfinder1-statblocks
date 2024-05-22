@@ -1,0 +1,127 @@
+Name: Krug, Moonflower Shaman Tier 10-11
+CR: '9'
+XP: '6400'
+Race: orc
+Class: sorcerer 10
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (orc)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+AC: 21, touch 13, flat-footed 19
+AC_Mods: (+4 armor, +1 deflection, +2 Dex, +4 shield)
+HP: '45'
+HD: (10d6+10)
+Saves: Fort +4, Ref +5, Will +8
+Fort: '4'
+Ref: '5'
+Will: '8'
+DefensiveAbilities: ferocity
+DR: 10/- (nonlethal)
+Resist: cold 10
+Weaknesses: light sensitivity
+Speed: 30 ft.
+Melee:
+  - touch +6 (by spell)
+  - mwk longspear +7 (1d8+1/x3 plus Arcane Strike)
+Ranged:
+  - ray +7 (by spell)
+Space: 5 ft.
+Reach: 5 ft.; 10 ft. with longspear
+SpecialAttacks: >-
+  cantrips, grasp of the dead (1/day, 20-ft.-radius burst, 10d6 damage, Reflex
+  DC 17), grave touch (5/day, 5 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th)
+  values:
+    - label: 5th (3/day)
+      value: blight (DC 20)
+    - label: 4th (5/day)
+      value: animate dead, fear (DC 19), ice storm
+    - label: 3rd (6/day)
+      value: >-
+        halt undead, hold person (DC 16), lightning bolt (DC 16), vampiric touch
+        (DC 18)
+    - label: 2nd (7/day)
+      value: >-
+        blindness/deafness (DC 17), false life, ghoul touch (DC 17), scorching
+        ray, web (DC 15)
+    - label: 1st (6/day)
+      value: >-
+        chill touch (DC 16), detect undead, hold portal, mage armor, magic
+        missile, ray of enfeeblement (DC 16), shield 0 (all)-bleed (DC 15), daze
+        (DC 13), detect magic, detect poison, disrupt undead, message, read
+        magic, resistance, touch of fatigue (DC 15)
+AbilityScores:
+  - 12
+  - 14
+  - 12
+  - 11
+  - 8
+  - 17
+BaseAtk: '5'
+CMB: '6'
+CMD: '18'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Eschew Materials
+  - Greater Spell Focus (necromancy)
+  - Iron Will
+  - Persuasive
+  - Spell Focus (necromancy)
+Skills:
+  - Appraise +5
+  - Bluff +8
+  - Diplomacy +7
+  - Intimidate +19
+  - Knowledge (arcana) +6
+  - Perception +2
+  - Spellcraft +6 (+10 defensive casting)
+  - Use Magic Device +8
+Languages:
+  - Common
+  - Orc
+Source: PFS S1-36
+IsTemplate: '0'
+Gender: Male
+Bloodline: undead
+BeforeCombat: >-
+  When Krug hears the PCs approach, he casts mage armor and shield on himself,
+  in case the PCs are hostile.
+DuringCombat: >-
+  Should the PCs fight Krug, he's a fearsome ally. He starts with his highest
+  level spells (ice storm if has range or fear if he's close) and flees from
+  melee attacks, making his way down to the first floor and out into the motte.
+  If any melee PCs get close, he targets them with blindness/deafness and hold
+  person.
+Morale: >-
+  Krug surrenders if brought below 5 hit points and begs the PCs to allow him to
+  serve his Master (the moonflower in S1).
+Gear: >-
+  potion of cure light wounds, potion of cure moderate wounds, potion of
+  invisibility
+OtherGear: >-
+  headband of alluring charisma +2, metamagic rod of lesser silent, masterwork
+  long spear, ring of protection +1, wand of expeditious retreat, 100 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  AC 12, touch 12, flat-footed 10 (+2 Dex); reduce all spell DCs by 1; Cha 15;
+  Bluff +8, Intimidate +19, Use Magic Device +8
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4193'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

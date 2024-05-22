@@ -1,0 +1,116 @@
+Name: Fang Monastery Ascendant
+CR: '10'
+XP: '9600'
+Race: Human
+Class: sorcerer 11
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +9
+AC: 23, touch 13, flat-footed 21
+AC_Mods: (+4 armor, +1 deflection, +2 Dex, +2 natural, +4 shield)
+HP: '100'
+HD: (11d6+59)
+Saves: Fort +8, Ref +6, Will +13; +2 vs. poison
+Fort: '8'
+Ref: '6'
+Will: '13'
+Save_Mods: +2 vs. poison
+Resist: snakeskin
+Speed: 30 ft.
+Melee:
+  - mwk spear +5 (1d8-1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: serpent's fang
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 11th; concentration +15)
+  values:
+    - label: At Will
+      value: serpentfriend
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: cloudkill (DC 19), fire snakeAPG (DC 19), hold monster (DC 19)
+    - label: 4th (7/day)
+      value: dimension door, enervation, fear (DC 18), poison (DC 18)
+    - label: 3rd (7/day)
+      value: >-
+        fireball (DC 17), fly, monstrous physique IUM, slow (DC 17), summon
+        monster III (reptiles only)
+    - label: 2nd (7/day)
+      value: >-
+        accelerate poisonAPG (DC 16), delay poison, detect thoughts (DC 16),
+        false life, skinsendUM, spider climb
+    - label: 1st (7/day)
+      value: >-
+        comprehend languages, corrosive touchUM, enlarge person (DC 15),
+        hypnotism (DC 15), mage armor, shield
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), detect magic, detect poison, ghost sound (DC 14), light,
+        mage hand, mending, message, touch of fatigue (DC 14)
+AbilityScores:
+  - 8
+  - 14
+  - 14
+  - 10
+  - 16
+  - 18
+BaseAtk: '5'
+CMB: '4'
+CMD: '17'
+Feats:
+  - Empower Spell
+  - Eschew Materials
+  - Extend Spell
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Silent Spell
+  - Still Spell
+  - Toughness
+Skills:
+  - Bluff +12
+  - Escape Artist +4
+  - Knowledge (arcana) +14
+  - Knowledge (history) +11
+  - Perception +9
+Languages:
+  - Common
+Source: Villain Codex
+IsTemplate: '0'
+Bloodline: serpentineAPG
+BeforeCombat: The ascendant casts false life, mage armor, and shield.
+DuringCombat: >-
+  The ascendant joins any nearby allies in melee if she's protected by mage
+  armor and shield. She prefers to enhance her allies with enlarge person and
+  weaken enemies with slow. If presented with heavily armored opponents, she
+  focuses on them with enervation, and if pressed, she utilizes dimension door
+  to escape.
+Gear: potion of cure moderate wounds, scroll of greater invisibility
+OtherGear: >-
+  mwk spear, amulet of natural armor +1, cloak of resistance +1, headband of
+  mental prowess +2 (Wis, Cha), ring of protection +1, 48 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without false life, mage armor and shield, the ascendant's statistics are AC
+  15, touch 13, flat-footed 13; hp 85.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8940'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

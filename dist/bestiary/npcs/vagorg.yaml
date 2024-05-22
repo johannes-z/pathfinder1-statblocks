@@ -1,0 +1,101 @@
+Name: Vagorg
+CR: '4'
+XP: '1200'
+Race: half-orc
+Class: sorcerer 5
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 19, touch 11, flat-footed 18
+AC_Mods: (+4 armor, +1 Dex, +4 shield)
+HP: '35'
+HD: (5d6+15)
+Saves: >-
+  Fort +3, Ref +2, Will +4; +4 vs. sickness, nausea, fatigue, or exhaustion, +2
+  vs. poison
+Fort: '3'
+Ref: '2'
+Will: '4'
+Save_Mods: +4 vs. sickness, nausea, fatigue, or exhaustion, +2 vs. poison
+DefensiveAbilities: orc ferocity
+Resist: electricity 5
+Speed: 30 ft.
+Melee:
+  - ranseur of the gargoyle +4 (2d4+2/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (5/day)
+      value: bull's strength, scorching ray, shatter (DC 16)
+    - label: 1st (7/day)
+      value: alarm, cause fear (DC 15), mage armor, shield, summon monster I
+    - label: 0 (at will)
+      value: >-
+        acid splash, daze (DC 14), flare (DC 14), ghost sound (DC 14), light,
+        ray of frost
+AbilityScores:
+  - 13
+  - 12
+  - 14
+  - 8
+  - 10
+  - 18
+BaseAtk: '2'
+CMB: '3'
+CMD: '14'
+Feats:
+  - Demonic Obedience (Xoveron)BOTD2
+  - Eschew Materials
+  - Martial Weapon Proficiency (ranseur)
+  - Silent Spell
+Skills:
+  - Intimidate +10
+  - Knowledge (planes) +5
+  - Linguistics +0
+Languages:
+  - Abyssal
+  - Common
+  - Orc
+SQ: bloodline arcana (summoned creatures gain DR 2/good)
+Source: AP 73
+IsTemplate: '0'
+Gender: Male
+Bloodline: abyssal
+BeforeCombat: >-
+  When the alarm goes off, Vagorg drinks a potion of invisibility, then casts
+  silent mage armor and silent shield on himself while moving to the southern
+  nook to wait.
+DuringCombat: >-
+  Vagorg waits for Anevia to be in sight before he begins his attack. He casts
+  silent summon monster I (it takes a sorcerer 2 rounds to do so) to summon a
+  fiendish fire beetle to attack Anevia&#8211;he repeats this action every 2
+  rounds. Once he's out of 2nd-level spells, he joins the fight, focusing his
+  ranseur attacks on Anevia while screaming in Orc, "Your wife will find your
+  corpse in bed waiting for her!" If the PCs manage to attack him before he's
+  out of 2nd-level spells, he casts bull's strength on himself before attacking
+  in return.
+Morale: Vagorg fights to the death.
+Gear: potions of invisibility (2), wand of magic missile (CL 3rd, 11 charges)
+OtherGear: ranseur of the gargoyle, 42 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4832'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

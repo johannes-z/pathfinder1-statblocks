@@ -1,0 +1,138 @@
+Name: Beatific One
+CR: '9'
+XP: '6400'
+Race: Beatific One
+MonsterSource: 'Pathfinder Adventure Path #9 82'
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (asura, evil, extraplanar, lawful)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+AC: 26, touch 20, flat-footed 18
+AC_Mods: (+7 Dex, +1 dodge, +2 monk, +6 natural)
+HP: '93'
+HD: (11d10+33)
+Saves: Fort +6, Ref +14, Will +14; +2 vs. enchantment
+Fort: '6'
+Ref: '14'
+Will: '14'
+Save_Mods: +2 vs. enchantment
+DefensiveAbilities: improved evasion
+DR: 10/good
+Immune: curses, disease, poison
+Resist: acid 10, electricity 10
+SR: '20'
+Speed: 60 ft.
+Melee:
+  - >-
+    mwk spear +18/+13/+8 (1d8+9/x3), mwk kukri +18  (1d4+3/18-20), mwk temple
+    sword +18 (1d8+3)
+  - unarmed strike +18/+13/+8 (1d10+6)
+  - flurry of blows +16/+16/+11/+11/+6 (1d10+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  continuous barrage, flurry of blows, stunning fist (11/day, DC 22, fatigued,
+  sickened)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +10)
+  values:
+    - label: At will
+      value: disguise self, feather fall, see invisibility, ventriloquism
+    - label: 3/day
+      value: >-
+        blindness/deafness (DC 16), blur, hypnotic pattern (DC 16), levitate,
+        magic weapon
+    - label: 1/day
+      value: >-
+        dimension door, hold person (DC 17), summon (level 3, 1 beatific one,
+        40%)
+AbilityScores:
+  - 22
+  - 24
+  - 16
+  - 16
+  - 24
+  - 19
+BaseAtk: '11'
+CMB: +17 (+19 disarm, grapple, trip)
+CMD: 37 (39 vs. disarm, grapple, trip)
+Feats:
+  - Deflect Arrows
+  - Dodge
+  - Improved Disarm
+  - Improved Grapple
+  - Improved Trip
+  - Improved Unarmed Strike
+  - Mobility
+  - Power Attack
+  - Snatch Arrows
+  - Spring Attack
+  - Stunning Fist
+  - Weapon Focus (unarmed strike)
+Skills:
+  - Acrobatics +21 (+33 jump)
+  - Appraise +17
+  - Climb +20
+  - Escape Artist +21
+  - Knowledge (planes) +17
+  - Perception +21
+  - Perform (dance) +15
+  - Sense Motive +21
+  - Stealth +21
+Languages:
+  - Celestial
+  - Common
+  - Infernal
+  - Vudrani
+  - telepathy 100 ft.
+SQ: fast movement, monk qualities, still mind
+Source: Cult Of The Ebon Destroyers
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Continuous Barrage (Ex)
+    description: >-
+      If a beatific one hits with the last attack of its flurry of blows, it may
+      make an additional attack at a -2 penalty. If this attack hits, the
+      beatific one may continue to make additional attacks, with a cumulative
+      &#8211;2 penalty for each subsequent attack (&#8211;4 for the second
+      attack, &#8211;6 for the third, and so on). If any attack misses, the
+      barrage ends.
+  - name: Flurry of Blows (Ex)
+    description: >-
+      A beatific one can make a flurry of blows as per the monk ability. It may
+      use this ability whenever it has at least two of its six hands free or is
+      equipped with a special monk weapon. Monk Qualities A beatific one
+      emulates many of the strengths of the monk character class. On top of its
+      racial abilities, a beatific one receives the AC bonus, bonus feats, speed
+      bonus, unarmed damage, and weapon proficiencies of a monk whose level is
+      equal to its Hit Dice, along with the flurry of blows, improved evasion,
+      and still mind abilities. All these benefits are included in the
+      statistics above.
+BeforeCombat: >-
+  Sulukta casts blur on herself and magic weapon on her weapons when she becomes
+  aware of interlopers (not included in her statistics).
+DuringCombat: >-
+  Sulukta holds her opponents in disdain. She trips and disarms foes, then
+  batters them with unarmed strikes. She enjoys disarming foes and using their
+  own weapons against them.
+Morale: Sworn to protect the shrine, Sulukta fights to the death.
+Gear: masterwork kukri, masterwork spear, masterwork temple sword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1478'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

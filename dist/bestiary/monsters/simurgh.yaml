@@ -1,0 +1,144 @@
+Name: Simurgh
+CR: '18'
+XP: '153600'
+Alignment: NG
+Size: Gargantuan
+Type: magical beast
+Init: '7'
+Senses:
+  - darkvision 60 ft., detect evil, detect magic, low-light vision
+  - Perception +27
+Aura: peace (50 ft.)
+AC: 34, touch 10, flat-footed 30
+AC_Mods: (+3 Dex, +1 dodge, +24 natural, -4 size)
+HP: '324'
+HD: (24d10+192)
+Saves: Fort +22, Ref +17, Will +14
+Fort: '22'
+Ref: '17'
+Will: '14'
+Immune: >-
+  ability damage, ability drain, disease, fire, negative energy, petrification,
+  poison, sleep
+Resist: acid 10, cold 10, electricity 10
+SR: '29'
+Speed: 40 ft., fly 120 ft. (good)
+Melee:
+  - >-
+    bite +32 (2d8+12 plus 2d6 fire), 2 claws +32 (2d8+12 plus 2d6 fire), tail
+    slap +30 (1d4+6 plus banishing swipe)
+Ranged:
+  - glaring ray +23 touch (20d6 fire)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: banishing swipe, glaring ray, radiant feathers
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +22)
+  values:
+    - label: Constant
+      value: detect evil, detect magic, tongues
+    - label: At Will
+      value: daylight, zone of truth (DC 18)
+    - label: 3/day
+      value: flame strike (DC 21), mass cure critical wounds
+AbilityScores:
+  - 34
+  - 16
+  - 27
+  - 16
+  - 19
+  - 23
+BaseAtk: '24'
+CMB: +40 (+42 disarm)
+CMD: 54 (56 vs. disarm)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Dodge
+  - Flyby Attack
+  - Hover
+  - Improved Disarm
+  - Improved Initiative
+  - Iron Will
+  - Mobility
+  - Multiattack
+  - Snatch
+  - Wingover
+Skills:
+  - Diplomacy +26
+  - Fly +7
+  - Heal +14
+  - Knowledge (arcana) +33
+  - Knowledge (dungeoneering) +21
+  - Knowledge (all others) +15
+  - Perception +27
+  - Perform (sing) +19
+  - Survival +14
+RacialMods: +10 on all Knowledge skills
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - tongues
+Environment: warm deserts or mountains
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This massive creature has the body of a resplendent bird but the head of a
+  regal canine.
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Peace (Su)
+    description: >-
+      Creatures within a 50-foot spread from a simurgh feel a sensation of peace
+      wash over them, as if affected by calm emotions, except the simurgh can
+      choose which creatures are affected. A DC 28 Will save negates the effects
+      of this aura for 1 round, but a new save must be made each round to
+      continue to resist the effects. The saving throw is Charisma-based.
+  - name: Banishing Swipe (Su)
+    description: >-
+      A simurgh can use its radiant tail to return creatures to their native
+      planes. In addition to taking damage, any extraplanar creature touched by
+      a simurgh's tail must succeed at a DC 28 Will save or be affected as if by
+      banishment. A creature that makes this save cannot be affected by the same
+      simurgh's banishing swipe for the next 24 hours. The save DC is
+      Charisma-based.
+  - name: Glaring Ray (Su)
+    description: >-
+      A simurgh can blast a fiery ray of brilliant light from its eyes as a
+      standard action to a range of 100 feet.
+  - name: Radiant Feathers (Su)
+    description: >-
+      Once per day as a standard action, a simurgh can fan out its glimmering
+      tail feathers and blast its foes with a 100-foot cone of radiant light
+      from its tail. Aside from its size, this attack is identical to a
+      prismatic spray (DC 28). The save is Charisma-based.
+Description:
+  - >-
+    Regarded as living legends, simurghs are held in high regard by desert
+    dwellers. Those who live in the desert lands where these benevolent
+    creatures sometimes reside consider it a lifetime's worth of luck even to
+    spot one soaring through the sky. Simurghs prefer to keep to themselves,
+    well out of the way of lesser creatures and their often dubious morals,
+    though they can be relied upon for aid when called by those in true need and
+    with a pure heart. A simurgh can live for thousands of years, and frequent
+    mentions of these giant avian beings throughout a region's historical record
+    are more often than not sightings of the same creature.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '2190'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

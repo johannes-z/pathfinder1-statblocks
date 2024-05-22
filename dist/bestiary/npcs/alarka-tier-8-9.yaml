@@ -1,0 +1,144 @@
+Name: Alarka Tier 8-9
+CR: '10'
+XP: '9600'
+Race: human
+Class: oracle 11
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception -1
+AC: 18, touch 11, flat-footed 17
+AC_Mods: (+5 armor, +1 Dex, +2 shield)
+HP: '82'
+HD: (11d8+33)
+Saves: Fort +5, Ref +4, Will +6; +4 vs. disease
+Fort: '5'
+Ref: '4'
+Will: '6'
+Save_Mods: +4 vs. disease
+Immune: disease, sickened condition
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - +1 scimitar +12/+7 (1d6+3/18-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: revelation (burning magic, firestorm, gaze of flames, molten skin)
+SpellsKnown:
+  header: Spells Known (CL 11th, concentration +19)
+  values:
+    - label: 5th (4/day)
+      value: >-
+        flame strike (DC 21), mass cure light wounds, slay living (DC 19),
+        summon monster V (fire elementals only)
+    - label: 4th (7/day)
+      value: >-
+        cure critical wounds, divine power, freedom of movement, spell immunity,
+        wall of fire
+    - label: 3rd (7/day)
+      value: >-
+        create food and water, cure serious wounds, dispel magic, fireball (DC
+        19), invisibility purge, prayer
+    - label: 2nd (7/day)
+      value: >-
+        bull's strength, cure moderate wounds, hold person (DC 16), lesser
+        restoration, resist energy, silence, sound burst (DC 18)
+    - label: 1st (7/day)
+      value: >-
+        bless, burning hands (DC 17), command (DC 15), cure light wounds, divine
+        favor, endure elements, shield of faith
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, detect poison, guidance, light, purify food
+        and drink, read magic, stabilize, virtue
+AbilityScores:
+  - 14
+  - 12
+  - 14
+  - 10
+  - 8
+  - 18
+BaseAtk: '8'
+CMB: '10'
+CMD: '21'
+Feats:
+  - Combat Casting
+  - Greater Spell Focus (evocation)
+  - Improved Initiative
+  - Spell Focus (evocation)
+  - Spell Penetration
+  - Toughness
+  - Weapon Focus (scimitar)
+Skills:
+  - Acrobatics +14
+  - Bluff +15
+  - Intimidate +18
+Languages:
+  - Common
+SQ: oracle's curse (wasting)
+Source: PFS S2-03
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Burning Magic (Su)
+    description: >-
+      Whenever a creature fails a saving throw and takes fire damage from one of
+      Alarka's spells, it catches on fire. This fire deals 1 point of fire
+      damage per spell level at the beginning of the burning creature's turn.
+      The fire lasts for 1d4 rounds, but it can be extinguished as a move action
+      if the creature succeeds at a Reflex save (using the spell's DC). Dousing
+      the creature with water as a standard action grants a +2 bonus on this
+      save, while immersing the creature in water automatically extinguishes the
+      fire. Spells that do not grant a save do not cause a creature to catch on
+      fire.
+  - name: Firestorm (Su)
+    description: >-
+      As a standard action, Alarka can cause fire to erupt around her. She can
+      create eleven 10-foot cubes of fire, arranged in any pattern, but each
+      cube must be adjacent to another and one must be adjacent to her. Any
+      creature caught in these flames takes 11d6 points of fire damage. A DC 19
+      Reflex save halves this damage. The firestorm lasts for 4 rounds. This
+      ability can be used once per day.
+  - name: Gaze of Flames (Su)
+    description: >-
+      Alarka can see through fire, fog, and smoke without penalty as long as the
+      light is sufficient to allow her to see normally. She can also gaze
+      through any source of flame within 10 feet per oracle level, as if using
+      clairvoyance. She can use this ability for a number of rounds per day
+      equal to her oracle level, but these rounds do not need to be consecutive.
+  - name: Molten Skin (Ex)
+    description: Alarka gains resist fire 10.
+Gender: Female
+BeforeCombat: >-
+  Alarka has used one of her 3rd-level spells each day to create food and water
+  for those trapped in the tomb. Once she hands over the scepter, allowing the
+  door to be opened, she casts divine favor, prayer, shield of faith, and bull's
+  strength on herself, just in case the PCs betray her. Otherwise, she waits to
+  cast these spells, along with divine power, before ambushing the PCs later
+  (these are not factored in to her stats).
+DuringCombat: >-
+  Alarka is a brutal combatant, using her spells and revelations to incinerate
+  her foes. She opens with wall of fire to separate the group, before moving on
+  to fireball and flame strike to burn and cripple those on her side of the
+  wall. She reserves slay living for anyone who dares to challenge her in melee
+  combat. She only heals the desert raiders if it proves convenient, preferring
+  instead to help them with prayer and the occasional mass cure light wounds.
+OtherGear: +1 chain shirt, heavy steel shield, +1 scimitar
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: Flame
+CompanionFamiliarLink: '0'
+id: '4628'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

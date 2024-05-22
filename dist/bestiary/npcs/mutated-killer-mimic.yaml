@@ -1,0 +1,130 @@
+Name: Mutated Killer Mimic
+CR: '10'
+XP: '9600'
+Race: Mutated Killer Mimic
+Alignment: NE
+Size: Large
+Type: aberration
+SubType: (shapechanger)
+Init: '1'
+Senses:
+  - blindsight 90 ft., darkvision 60 ft.
+  - Perception +20
+AC: 18, touch 10, flat-footed 18
+AC_Mods: (+1 Dex, +8 natural, -1 size)
+HP: '115'
+HD: (10d8+60 plus 10)
+HP_Mods: fast healing 25
+Saves: Fort +9, Ref +6, Will +8
+Fort: '9'
+Ref: '6'
+Will: '8'
+DefensiveAbilities: rejuvenation
+DR: 15/epic
+Immune: >-
+  ability damage, ability drain, acid, cold, critical hits, electricity, energy
+  drain, exhaustion, fatigue, fire, magic, mindaffecting effects, nonlethal
+  damage, paralysis, poison, polymorph, sleep effects, sonic, stunning
+Weaknesses: cannot run
+Speed: 10 ft. (cannot run), climb 10 ft.
+Melee:
+  - 2 slams +12 (1d8+5 plus 1d8 acid plus adhesive)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: acid, adhesive, constrict (slam, 1d8+5 plus 1d8 acid), engulf
+AbilityScores:
+  - 21
+  - 12
+  - 22
+  - 10
+  - 13
+  - 10
+BaseAtk: '7'
+CMB: '13'
+CMD: 24 (can't be tripped)
+Feats:
+  - Lightning Reflexes
+  - Skill Focus (Perception)
+  - Step Up
+  - Toughness
+  - Weapon Focus (slam)
+Skills:
+  - Climb +26
+  - Disguise +33
+  - Escape Artist +14
+  - Perception +20
+RacialMods: +20 Disguise
+SQ: creeping, mimic object
+Source: Rappan Athuk-Level 1
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid (Ex)
+    description: >-
+      The dung monster's acid does 1d8 damage with each successful hit and per
+      round to any creature engulfed.
+  - name: Adhesive (Ex)
+    description: >-
+      The dung monster exudes a thick slime that acts as a powerful adhesive,
+      holding fast any creatures or items that touch it. The dung monster
+      automatically grapples any creature it hits with its slam attack.
+      Opponents so grappled cannot get free while the dung monster is alive
+      without removing the adhesive first. A weapon that strikes the dung
+      monster is stuck fast unless the wielder succeeds on a DC 20 Reflex save.
+      A successful DC 20 Strength check is needed to pry off a stuck weapon.
+      Strong alcohol or universal solvent dissolves the adhesive, but the dung
+      monster can still grapple normally. The dung monster can dissolve its
+      adhesive at will, and the substance breaks down 5 rounds after the
+      creature dies. The save DC is Strength-based.
+  - name: Creeping (Ex)
+    description: >-
+      The dung monster can climb any vertical surface and can hang from the
+      underside of any horizontal surface as long as a third of its mass touches
+      a vertical surface. It can pass through any opening through which water
+      could pass.
+  - name: Engulf (Ex)
+    description: >-
+      Although it moves slowly, the dung monster can simply engulf Large or
+      smaller creatures in its path as a standard action. It cannot make a slam
+      attack during a round in which it engulfs. The dung monster merely has to
+      move over the opponents, affecting as many as it can cover. Opponents can
+      make attacks of opportunity against the dung monster, but if they do so
+      they are not entitled to a saving throw. Those who do not attempt attacks
+      of opportunity can attempt a DC 20 Reflex save to avoid being engulfed-on
+      a success, they are pushed back or aside (opponent's choice) as the dung
+      monster moves forward. Engulfed creatures are subject to the dung
+      monster's acid, gain the pinned condition, are in danger of suffocating,
+      and are trapped within its body until they are no longer pinned. The save
+      DC is Strengthbased.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      The dung monster is immune to any spell or spell-like ability that allows
+      spell resistance.
+  - name: Mimic Object (Ex)
+    description: >-
+      The dung monster can assume the general shape of any Large object, such as
+      a massive chest, a stout bed, or a door. The creature cannot substantially
+      alter its size, though. The dung monster's body is hard and has a rough
+      texture, no matter what appearance it might present. The dung monster
+      gains a +20 racial bonus on Disguise checks when imitating an object in
+      this manner. Disguise is a class skill for the dung monster.
+  - name: Rejuvenation (Ex)
+    description: >-
+      Even if the dung monster is somehow destroyed, trapped, transported away,
+      or otherwise rendered inert, it returns to roam Level 1 (and any other
+      level the GM chooses) after 1d4 days.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: '"the Dung Monster"'
+id: '8301'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

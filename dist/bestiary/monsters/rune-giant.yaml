@@ -1,0 +1,138 @@
+Name: Rune Giant
+CR: '17'
+XP: '102400'
+Alignment: LE
+Size: Gargantuan
+Type: humanoid
+SubType: (giant)
+Init: '0'
+Senses:
+  - low-light vision
+  - Perception +29
+AC: 30, touch 6, flat-footed 30
+AC_Mods: (+9 armor, +15 natural, -4 size)
+HP: '270'
+HD: (20d8+180)
+Saves: Fort +15, Ref +6, Will +20
+Fort: '15'
+Ref: '6'
+Will: '20'
+Immune: cold, electricity, fire
+Speed: 35 ft. (50 ft. without armor)
+Speed_Mod: air walk
+Melee:
+  - mwk longsword +27/+22/+17 (4d6+22/17-20)
+  - 2 slams +26 (2d6+15)
+Ranged:
+  - mwk spear +12/+7/+2 (4d6+15/x3)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: command giants, runes, spark shower
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +24)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At will
+      value: charm person (DC 15), suggestion (DC 17)
+    - label: 3/day
+      value: mass charm monster (DC 22), dominate person (DC 19)
+    - label: 1/day
+      value: demand (DC 22), true seeing
+AbilityScores:
+  - 41
+  - 11
+  - 28
+  - 14
+  - 23
+  - 18
+BaseAtk: '15'
+CMB: '34'
+CMD: '44'
+Feats:
+  - Awesome Blow
+  - Critical Focus
+  - Improved Bull Rush
+  - Improved Critical (longsword)
+  - Improved Vital Strike
+  - Iron Will
+  - Power Attack
+  - Quick Draw
+  - Staggering Critical
+  - Vital Strike
+Skills:
+  - Acrobatics +15 (+23 jump)
+  - Craft (any one) +25
+  - Knowledge (history) +12
+  - Knowledge (nobility) +12
+  - Perception +29
+Languages:
+  - Common
+  - Giant
+  - Terran
+Environment: cold mountains
+Organization: >-
+  solitary, pair, patrol (3-6), squad (7-12), or company (13-30 plus 2-4
+  fighters or rogues of 2nd-4th level, 1 oracle or sorcerer of 5th-8th level, 1
+  ranger or monk commander of 5th-6th level, 10-20 yetis, 1-4 cloud giants, 8-12
+  frost giants, 10-16 stone giants, 4-8 lamia matriarchs, and 1-2 adult blue
+  dragons)
+Treasure: >-
+  standard (masterwork full plate armor, masterwork longsword, 3 masterwork
+  spears, other treasure)
+Description_Visual: >-
+  This giant's skin is black and pitted, like roughly cast iron, and etched with
+  glowing red runes.
+Group: Giant
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Giant (Su)
+    description: >-
+      A rune giant gains a +4 racial bonus on the save DC of charm or compulsion
+      effects used against giants.
+  - name: Runes (Ex)
+    description: >-
+      As a free action, whenever a rune giant uses its spark shower or
+      spell-like abilities, it can cause the runes on its body to flash with
+      light. All creatures within 10 feet of the giant must make a DC 24
+      Fortitude save or be blinded for 1 round. The saving throw is
+      Charisma-based.
+  - name: Spark Shower (Su)
+    description: >-
+      As a standard action, a rune giant can cause a shower of sparks to erupt
+      out of one of the runes on its body. These sparks function as a breath
+      weapon (30-ft. cone; 10d6 fire and 10d6 electricity damage; Reflex DC 29
+      half; usable once every 1d4 rounds). The save DC is Constitution-based.
+Description:
+  - >-
+    Magically crafted and crossbred from taiga and fire giant slaves by ancient
+    wizards, rune giants are anathema to their own kind.
+  - >-
+    Given power to command and magically control other giants, the rune giants
+    themselves served their even more powerful masters, and in so doing granted
+    ancient empires armies of giants to command.
+  - >-
+    In the eons since these ancient empires collapsed, rune giants have
+    persisted as a race of their own, little more than bogeymen, horrors
+    whispered of late at night by superstitious giants.
+  - >-
+    Rune giants' charcoal flesh is decorated by dozens of runes-manifestations
+    of their eldritch powers. Rune giants are 40 feet tall and weigh 25,000
+    pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Giant, Rune
+id: '1229'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

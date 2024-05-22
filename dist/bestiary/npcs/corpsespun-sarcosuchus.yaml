@@ -1,0 +1,102 @@
+Name: Corpsespun Sarcosuchus
+CR: '10'
+XP: '9600'
+Race: dire crocodile
+MonsterSource: Pathfinder RPG Bestiary 51, Tome of Horrors II 202
+Alignment: NE
+Size: Gargantuan
+Type: undead
+SubType: (augmented animal)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+AC: 24, touch 5, flat-footed 24
+AC_Mods: (-1 Dex, +19 natural, -4 size)
+HP: '138'
+HD: (12d8+84)
+Saves: Fort +11, Ref +3, Will +12
+Fort: '11'
+Ref: '3'
+Will: '12'
+DefensiveAbilities: channel resistance +2
+DR: 10/magic
+Immune: undead traits
+Speed: 20 ft., swim 30 ft., sprint
+Melee:
+  - >-
+    bite +19 (3d6+14/19-20 plus grab and spider transfer),  tail slap +14 (4d8+7
+    plus spider transfer)
+Space: 20 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  death roll (3d6+19 plus trip), spider spray (20-ft. cone, 3d6 swarm damage
+  plus distraction and poison, Reflex DC 23 for half, usable every 1d4 rounds),
+  spider transfer, swallow whole (3d6+21 acid damage, AC 19, 13 hp)
+AbilityScores:
+  - 39
+  - 8
+  - —
+  - 1
+  - 14
+  - 25
+BaseAtk: '9'
+CMB: +27 (+31 grapple)
+CMD: 36 (40 vs. trip)
+Feats:
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Iron Will
+  - Run
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+Skills:
+  - Perception +14
+  - Stealth -1 (+7 in water)
+  - Swim +22
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Swarm-injury; save Fort DC 23; frequency 1/round for 4 rounds; effect 1d4
+      Str; cure 1 save.
+  - name: Spider Spray (Ex)
+    description: >-
+      Every 1d4 rounds as a standard action, a corpsespun can spray a hail of
+      spiders from its mouth in a 20-foot cone. Each creature in the area takes
+      3d6 points of swarm damage (DC 23 Reflex save for half ) and is distracted
+      (DC 23 Fortitude save negates). The spiders quickly spread across the
+      opponent's body in the same round they contact it and automatically bite,
+      delivering a highly debilitating poison. The spiders cause swarm damage
+      and distraction each round for 1d4 rounds, at which point they fall off
+      and die. The save DCs are Charisma-based.
+  - name: Spider Transfer (Ex)
+    description: >-
+      Whenever a corpsespun successfully hits an opponent with a natural attack,
+      or whenever the corpsespun is successfully hit with a natural attack or
+      unarmed strike, a number of spiders are automatically transferred to the
+      opponent. The spiders quickly spread and swarm over the opponent (as
+      detailed in the spider spray ability). These spiders fall off and die
+      after 1 round.
+DuringCombat: >-
+  The corpsespun sarcosuchus sprays opponents with its spider spray as often as
+  possible, then attempts to bite and grab the nearest enemy to use its death
+  roll. It uses its tail slap on any other creatures who come within its reach.
+Morale: The sarcosuchus fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: corpsespun|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1049'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

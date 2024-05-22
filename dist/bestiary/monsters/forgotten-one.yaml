@@ -1,0 +1,139 @@
+Name: Forgotten One
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Diminutive
+Type: fey
+Init: '4'
+Senses:
+  - environmental awareness, low-light vision
+  - Perception +9
+AC: 19, touch 18, flat-footed 15
+AC_Mods: (+4 Dex, +1 natural, +4 size)
+HP: '10'
+HD: (3d6)
+Saves: Fort +1, Ref +7, Will +6
+Fort: '1'
+Ref: '7'
+Will: '6'
+DefensiveAbilities: environmental awareness
+Speed: 20 ft.
+Melee:
+  - shortspear +9 (1d2-4 plus poison)
+Ranged:
+  - shortspear +9 (1d2-4 plus poison)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd)
+  values:
+    - label: At will
+      value: blur
+AbilityScores:
+  - 3
+  - 19
+  - 11
+  - 14
+  - 17
+  - 21
+BaseAtk: '1'
+CMB: '1'
+CMD: '7'
+Feats:
+  - Skill Focus (Knowledge [nature])
+  - Weapon Finesse
+Skills:
+  - Acrobatics +10 (+6 jumping)
+  - Climb +10
+  - Craft (alchemy) +8
+  - Escape Artist +10
+  - Knowledge (nature) +11
+  - Perception +9
+  - Sense Motive +9
+  - Stealth +22
+  - Survival +7
+RacialMods: +4 Acrobatics when jumping, +4 Survival
+Languages:
+  - Common
+  - Elven
+  - Sylvan
+SQ: forgetful presence
+Environment: any forests
+Organization: troop (2-8) or clan (10-100)
+Treasure: incidental
+Description_Visual: >-
+  This is a small 1-foot tall creature with pointed ears, slanted eyes, and long
+  lithe limbs. Its hair is brightly colored and decorated with leaves and twigs
+  and it is dressed in greenish-brown clothes. It carries a tiny spear in its
+  hands.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Environmental Awareness (Ex)
+    description: >-
+      The very earth speaks to a forgotten one. A forgotten one has the benefits
+      of tremorsense and blindsight within a 100-foot radius. It cannot be
+      flanked or caught flat-footed.
+  - name: Poison Use (Ex)
+    description: >-
+      Forgotten Ones are skilled in the use of poison and never risk
+      accidentally poisoning themselves. Forgotten ones use a mixture of bee and
+      spider venom on their spears that causes severe itching and soreness.
+      Forgotten One Poison-injury; save Fort DC 11; frequency 1/hour for 24
+      hours; effect -1 (non-cumulative) penalty on attack rolls, skill checks,
+      and saving throws, if the target fails at least 8 saves it also takes 1
+      point of Con damage; cure 1 save. Humanoids and monstrous humanoids have a
+      5% chance of being severely allergic to forgotten one poison. The effects
+      of a failed save are as above, but the penalty is -2 rather than -1, and
+      1d3 Con damage.
+  - name: Forgetful Presence (Su)
+    description: >-
+      Three times per day, a forgotten one can cause any creature within 20 feet
+      of it to forget an encounter with it as per a modify memory spell with the
+      restriction that it can only remove memories specifically dealing with the
+      forgotten one. Opponents that succeed on a DC 16 Will save avoid the
+      effects. Opponents that make the save are immune to the forgetful presence
+      of that forgotten one for 24 hours. The save DC is Charisma-based.
+Description:
+  - >-
+    Forgotten ones are a sprite race related to pixies. These wee folk are
+    natural spies and trackers, and are routinely employed by powerful
+    forest-guarding fey creatures such as unicorns, dryads, and nymphs. It is
+    not uncommon for travelers in a fey forest to be followed by scores of
+    forgotten ones, all moving unnoticed through the treetops as quickly and
+    quietly as squirrels. While some forgotten ones keep track of the
+    interlopers, others send messages back and forth to alert more powerful fey
+    guardians to the presence of outsiders.
+  - >-
+    A forgotten one is about a foot tall with pointed ears, slanted eyes, and
+    long, nimble limbs. Most forgotten ones weave twigs and leaves into their
+    hair for decoration and to help conceal themselves in the treetops.
+  - >-
+    Rangers are druids are especially fond of the forgotten ones, and often use
+    them as intermediaries between themselves and the greater Fey guardians of
+    the forest.
+  - >-
+    Forgotten ones try to avoid combat with anything larger than themselves-they
+    are well aware of their own limitations. If hard pressed or ordered into
+    combat by a greater fey creature to defend their forest, forgotten ones will
+    fight with courage not often attributed to creatures of such small size.
+  - Copyright Notice Author Erica Balsley.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2606'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,111 @@
+Name: Raviaza
+CR: '17'
+XP: '102400'
+Race: marilith
+MonsterSource: Pathfinder RPG Bestiary 63
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '4'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +31
+Aura: unholy aura (DC 25)
+AC: 32, touch 17, flat-footed 28
+AC_Mods: (+4 deflection, +4 Dex, +15 natural, -1 size)
+HP: '264'
+HD: (16d10+176)
+Saves: Fort +25, Ref +18, Will +13
+Fort: '25'
+Ref: '18'
+Will: '13'
+DR: 10/cold iron and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '28'
+Speed: 40 ft.
+Melee:
+  - >-
+    +1 flaming dagger +24/+19/+14/+9 (1d6+8/17-20 plus  1d6 fire), 3 +1 flaming
+    daggers +24 (1d6+8/17-20 plus 1d6  fire), 2 +1 flaming unholy whips +23
+    (1d4+8 plus 1d6 fire),  tail slap +17 (2d6+3 plus grab)
+Space: 10 ft.
+Reach: 10 ft. (15 ft. with whips)
+SpecialAttacks: constrict (2d6+10 plus crushing coils), infuse weapons, multiweapon mastery
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +23)
+  values:
+    - label: Constant
+      value: true seeing, unholy aura (DC 25)
+    - label: At will
+      value: >-
+        greater teleport (self plus 50 lbs. of objects only), project image (DC
+        24), telekinesis (DC 22)
+    - label: 3/day
+      value: blade barrier (DC 23), fly
+    - label: 1/day
+      value: >-
+        summon (level 5, 1 marilith 20%, 1 nalfeshnee at 35%, or 1d4 hezrous at
+        60%)
+AbilityScores:
+  - 25
+  - 19
+  - 32
+  - 18
+  - 18
+  - 25
+BaseAtk: '16'
+CMB: +24 (+28 grapple)
+CMD: 42 (can't be tripped)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Critical Focus
+  - Exotic Weapon Proficiency (whip)
+  - Improved Critical (dagger)
+  - Improved Disarm
+  - Power Attack
+  - Weapon Focus (dagger)
+Skills:
+  - Acrobatics +23
+  - Bluff +26
+  - Diplomacy +26
+  - Fly +18
+  - Intimidate +26
+  - Knowledge (engineering) +20
+  - Perception +31
+  - Sense Motive +23
+  - Stealth +19
+  - Use Magic Device +26
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+Source: AP 42
+IsTemplate: '0'
+Gender: Female
+DuringCombat: >-
+  Raviaza summons 1d4 hezrou demons to attack enemies while she grapples
+  opposing spellcasters from a safe distance with telekinesis. She tries to
+  constrict powerful warriors with her crushing coils while attacking other foes
+  with her weapons, using her whips to disarm and trip.
+Morale: Raviaza fights to the death.
+Gear: +1 flaming daggers (4), +1 flaming unholy whips (2)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1461'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

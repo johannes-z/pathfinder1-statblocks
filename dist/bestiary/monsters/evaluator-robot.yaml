@@ -1,0 +1,222 @@
+Name: Evaluator Robot
+CR: '12'
+XP: '19200'
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (robot)
+Init: '9'
+Senses:
+  - darkvision 60 ft., low-light vision, superior optics
+  - Perception +18
+AC: 27, touch 15, flat-footed 22
+AC_Mods: (+5 Dex, +12 natural)
+HP: '158'
+HD: (16d10+20 plus 50 hp force field)
+Saves: Fort +5, Ref +10, Will +10
+Fort: '5'
+Ref: '10'
+Will: '10'
+DefensiveAbilities: hardness 10
+Immune: construct traits
+Weaknesses: vulnerable to critical hits and electricity
+Speed: 50 ft., fly 120 ft. (perfect)
+Melee:
+  - >-
+    bastard sword +22/+17/+12/+7 (1d10+6/19-20 plus stun)  or 2 slams +22 (1d4+6
+    plus stun)
+Ranged:
+  - integrated laser rifle +21 ranged touch (4d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: memory wipe, stun (DC 19, 1d4 rounds)
+AbilityScores:
+  - 22
+  - 21
+  - —
+  - 12
+  - 17
+  - 1
+BaseAtk: '16'
+CMB: '22'
+CMD: '37'
+Feats:
+  - Blind-Fight
+  - Cleave
+  - Flyby Attack
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Sense Motive)
+  - Vital Strike
+Skills:
+  - Fly +17
+  - Knowledge (local) +12
+  - Perception +18
+  - Sense Motive +25
+  - Stealth +10
+Languages:
+  - Androffan
+  - Common
+  - process languages
+Environment: any (Numeria)
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  With wings and an unearthly glow, this mechanical being could easily be
+  mistaken for an angel.
+Group: Robot
+Source: AP 90
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Force Field (Ex)
+    description: >-
+      An evaluator robot is sheathed in a thin layer of shimmering energy that
+      grants it 50 bonus hit points. All damage dealt to an evaluator robot with
+      an active force field is deducted from these hit points first. As long as
+      the force field is active, the evaluator robot is immune to critical hits.
+      An evaluator robot's force field has fast healing 10, but once these hit
+      points are reduced to 0, the force field shuts down and does not
+      reactivate for 24 hours.
+  - name: Integrated Laser Rifle (Ex)
+    description: >-
+      An evaluator robot has a built-in laser rifle. This weapon has a range of
+      150 feet and deals 4d6 points of fire damage on a hit. The weapon can fire
+      once per round as a ranged touch attack. A laser attack can pass through
+      force fields and force effects, such as a wall of force, to strike a foe
+      beyond without damaging that field. Objects like glass or other
+      transparent barriers don't provide cover from lasers, but unlike force
+      barriers, a transparent physical barrier still takes damage when a laser
+      passes through it. Invisible creatures and objects are immune to damage
+      from lasers. Fog, smoke, and other clouds provide cover in addition to
+      concealment from laser attacks. Darkness (magical or otherwise) has no
+      effect on lasers other than providing concealment.
+  - name: Memory Wipe (Ex)
+    description: >-
+      As a standard action, an evaluator robot can make a touch attack that, if
+      it hits, injects nanites into a target and erases the last 12 hours of its
+      memories. A successful DC 19 Will save negates this effect. This is a
+      mind-affecting effect, and the save DC is Intelligence-based.
+  - name: Process Languages (Ex)
+    description: >-
+      Exceptional processing and data stores allows an evaluator robot to parse
+      language in a way that lets it permanently speak and understand any spoken
+      or written language it observes for at least 1 minute.
+  - name: Stun (Ex)
+    description: >-
+      An evaluator robot's melee attacks deliver a nonlethal jolt of electricity
+      with each strike. If the robot strikes a creature twice in one round with
+      its bastard sword or slam attack, that target must succeed at a DC 19
+      Fortitude save or be stunned for 1d4 rounds. The save DC is
+      Intelligence-based.
+  - name: Superior Optics (Ex)
+    description: >-
+      An evaluator robot can see invisible creatures or objects as if they were
+      visible.
+Description:
+  - >-
+    Androffans, the race responsible for the presence of robots on Golarion,
+    were a spacefaring people who visited dozens of worlds. Masters of
+    engineering, they created robots that could perform a wide array of tasks,
+    even trusting their creations to perform complex surgeries on the
+    Androffans' own organic forms. In the course of their interplanetary
+    explorations, the Androffans quickly learned that not every world was ready
+    to comprehend the awesome experience of leaving one's home planet to visit
+    others. Not wanting to risk valuable crew members, the Androffans created
+    evaluator robots as an alternative to sending a shuttle mission to alien
+    planets and interacting in person. When sensors aboard Androffan ships
+    orbiting foreign worlds discovered other humanoid species, evaluator robots
+    would be dispatched to assess the planets' alien cultures.
+  - >-
+    Taking forms designed to be recognizable to a planet's general populace,
+    evaluator robots would drop from orbiting surveillance ships onto alien
+    worlds to collect data so that their masters could determine the readiness
+    of the planets' inhabitants to accept the existence of creatures from other
+    worlds. Androffans also used evaluator robots to determine how violent or
+    superstitious the indigenous populations were so that they could carefully
+    plan direct contact. Evaluator robots were fashioned into pleasing and
+    majestic forms to command respect and admiration from the humanoids they
+    interacted with, and were usually made slightly taller than the planet's
+    primary race so as to seem properly impressive. These robots' advanced
+    construction utilizes sophisticated lightweight materials, making their
+    durable frames weigh in under 400 pounds. The model presented here is the
+    most common design-a radiant humanoid angel with gleaming feathers of
+    brushed metal.
+  - Design
+  - >-
+    The engineers who designed evaluator robots created each one to serve
+    specific purposes tailored to the world it was intended to observe. These
+    thematic designs were tested through trial and error by the evaluators
+    themselves, who paid close attention to the religions encountered on each
+    planet. They discovered that reverence for angelic beings was common on many
+    worlds populated by sentient humanoids, so the engineers built the majority
+    of evaluator robots in this form.
+  - >-
+    Although some evaluators were designed for use on worlds that used advanced
+    technology, evaluators were rarely used to observe cultures that had already
+    reached space on their own or that were otherwise accustomed to dealing with
+    beings from other worlds. In some cases, Androffan engineers designed
+    evaluator robots to mimic the form of beings iconic to the populace,
+    gathering information about these individuals from intercepted communication
+    signals. This was often judged too risky, however, as it was found that
+    cultures rarely responded well to the eventual revelation that their
+    resurrected heroes and messiahs were actually alien robots.
+  - >-
+    Even though redesigning an evaluator robot's outward form was simple, their
+    complex programming required a vast amount of collected data. If the robot
+    couldn't reply in a convincing manner, or if its memory-modifying nanites
+    took no hold on the alien humanoids it encountered, then the evaluator's
+    mission was quickly compromised. The robot's creators then had to hope that
+    the interaction would be interpreted as a fluke supernatural experience, or
+    that the witness would be disbelieved and derided by its community.
+  - >-
+    Evaluator robots are universally curious, their programming filling them
+    with an endless need to learn about living creatures. These robots take
+    every opportunity to ask questions of intelligent organic life forms,
+    especially humanoids. An evaluator robot compares these answers to profiles
+    of existing cultures, either installed when it was created or assembled from
+    previous interactions. Complex algorithms capable of parsing the nuances of
+    myriad humanoid societies allow the robot to quickly evaluate and categorize
+    the nature of a particular society using these hundreds or thousands of
+    profiles. Once an evaluator has thoroughly assessed a planet's cultures, its
+    Androffan masters use this information to plan a landing expedition to make
+    direct contact.
+  - Habitat & Society
+  - >-
+    As robots, evaluators have no society outside of their programming, and
+    their habitat is wherever they happen to be deployed. In the Inner Sea
+    region, nearly all evaluator robots encountered to date have been found in
+    Silver Mount.
+  - >-
+    Since they were designed to interact with sentient organic beings, evaluator
+    robots don't regularly associate with
+  - >-
+    other robots unless tasked with a project requiring such interaction, and
+    instead keep the company of humanoids (though their cold robotic presence
+    isn't always comforting).
+  - >-
+    Crafts that split from Divinity during its crash and fell to other parts of
+    Numeria contained two other known evaluator robots. A tribe of Ghost Wolves
+    destroyed one of these evaluators-designed to resemble a horned, red-skinned
+    fiend-when it appeared before the Kellid barbarians in the Sellen Hills. The
+    robot fought with wicked claws, and after it was destroyed, it exploded in a
+    blast that killed dozens of the barbarians. The other evaluator, reportedly
+    appearing as a six-armed, three-faced woman with bronze skin, was spotted
+    brief ly by griffon riders at Castle Urion before it headed south into the
+    River Kingdoms, and hasn't been seen since.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6725'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,128 @@
+Name: Zahur Dal Tier 10-11
+CR: '10'
+XP: '9600'
+Race: human
+Class: sorcerer 11
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception -1
+AC: 16, touch 12, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, +1 Dex)
+HP: '96'
+HD: (11d6+55)
+Saves: Fort +8, Ref +6, Will +8
+Fort: '8'
+Ref: '6'
+Will: '8'
+Resist: electricity 20
+Speed: 30 ft., fly 40 feet (average)
+Melee:
+  - dagger +5 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 11th; concentration +16)
+  values:
+    - label: 8/day
+      value: elemental ray (1d6+5 electricity)
+    - label: 1/day
+      value: elemental blast (11d6 electricity, DC 20)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +16)
+  values:
+    - label: 5th (5/day)
+      value: elemental body II, cone of cold (DC 22), overland flight
+    - label: 4th (7/day)
+      value: elemental body I, solid fog, ice storm, shout (DC 21)
+    - label: 3rd (7/day)
+      value: >-
+        fireball (DC 20), gaseous form, haste, protection from energy, sleet
+        storm
+    - label: 2nd (7/day)
+      value: >-
+        gust of wind (DC 19), flaming sphere (DC 19), fog cloud, invisibility,
+        scorching ray (electricity), see invisibility
+    - label: 1st (8/day)
+      value: >-
+        burning hands (DC 18, [electricity]), feather fall, mage armor, magic
+        missile, shield, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        light, detect magic, detect poison, mage hand, mending, message,
+        prestidigitation, ray of frost, read magic
+AbilityScores:
+  - 10
+  - 13
+  - 16
+  - 12
+  - 8
+  - 21
+BaseAtk: '5'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Combat Casting
+  - Empower Spell
+  - Eschew Materials
+  - Extend Spell
+  - Greater Spell Focus (evocation)
+  - Maximize Spell
+  - Quicken Spell
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Bluff +19
+  - Knowledge (arcana) +15
+  - Knowledge (planes) +15
+  - Spellcraft +15
+Languages:
+  - Common
+  - Osiriani
+SQ: bloodline arcana
+Source: PFS S2-20
+IsTemplate: '0'
+Gender: Male
+Bloodline: Elemental (air)
+BeforeCombat: >-
+  Zahur casts mage armor and overland flight at the start of each day. When
+  preparing to ambush the PCs, he casts invisibility, extended shield, and
+  protection from energy (fire, cold, and acid), then drinks his potion of
+  barkskin, in that order.
+DuringCombat: >-
+  Zahur starts by casting solid fog to hinder the PCs' movement, and then uses
+  elemental blast to make them vulnerable to electricity. He follows this with
+  empowered spells converted to deal electricity damage such as ice storm and
+  fireball, as well as maximized scorching ray and quickened magic missile. He
+  remains aloft and uses flight to stay out of melee, casting fog cloud to stop
+  ranged attacks.
+Morale: >-
+  If reduced to 20 hit points or less, Zahur attempts to retreat invisibly and
+  flees Sothis.
+Gear: >-
+  potion of barkskin, potion of cure serious wounds, scroll of pyrotechnics,
+  scrolls of summon monster II (2), wand of magic missile (50 charges)
+OtherGear: >-
+  dagger, cloak of resistance +2, belt of mighty constitution +2, headband of
+  alluring charisma +2, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his mage armor or overland flight Zahur's statistics are AC 12, touch
+  12, flat-footed 11; no fly speed
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5678'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

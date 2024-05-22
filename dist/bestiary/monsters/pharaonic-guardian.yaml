@@ -1,0 +1,131 @@
+Name: Pharaonic Guardian
+CR: '11'
+XP: '12800'
+Alignment: LE
+Size: Large
+Type: undead
+SubType: (incorporeal)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+AC: 25, touch 21, flat-footed 18
+AC_Mods: (+5 deflection, +7 Dex, +4 shield, -1 size)
+HP: '142'
+HD: (15d8+75)
+Saves: Fort +10, Ref +12, Will +12
+Fort: '10'
+Ref: '12'
+Will: '12'
+DefensiveAbilities: channel resistance +4, incorporeal
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - +3 ghost touch longsword +19/+14/+9 (2d6+3/17-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: insightful strike, judging gaze, soul-rending wings
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th)
+  values:
+    - label: 3/day
+      value: suggestion (DC 18)
+    - label: 1/day
+      value: greater command (DC 20)
+AbilityScores:
+  - —
+  - 25
+  - —
+  - 13
+  - 16
+  - 21
+BaseAtk: '11'
+CMB: '19'
+CMD: '34'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Improved Critical (longsword)
+  - Improved Vital Strike
+  - Stand Still
+  - Step Up
+  - Vital Strike
+  - Weapon Focus (longsword)
+Skills:
+  - Fly +13
+  - Intimidate +23
+  - Knowledge (history) +16
+  - Knowledge (religion) +19
+  - Perception +21
+  - Sense Motive +21
+Languages:
+  - Aklo
+  - Ancient Osiriani
+  - Auran
+  - Infernal
+  - telepathy 100 ft.
+SQ: guardian sword and shield
+Environment: warm ruins
+Organization: solitary, pair, or patrol (3-6)
+Treasure: standard (mwk longsword, mwk light steel shield, other treasure)
+Description_Visual: >-
+  This towering humanoid figure has an animal's head and cold, brightly luminous
+  eyes. Its radiant wings are beams of white light.
+Source: Osirion, Legacy Of Pharaohs
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Guardian Sword and Shield (Su)
+    description: >-
+      A pharaonic guardian can imbue any Large sword and shield with a +3
+      enhancement bonus and the ghost touch ability. This effect lasts as long
+      as the guardian wields them and for 1 minute thereafter. The guardian uses
+      these as if its Strength score equaled its Charisma score.
+  - name: Insightful Strike (Ex)
+    description: >-
+      A pharaonic guardian gains a +4 insight bonus on attack rolls against foes
+      whose thoughts it has read via its judging gaze ability.
+  - name: Judging Gaze (Su)
+    description: >-
+      A pharaonic guardian's gaze attack reads the minds of those it sees, as
+      the detect thoughts spell with 3 rounds of concentration. This gaze has a
+      range of 30 feet, and can be negated with a successful DC 22 Will save.
+      This is a mindaffecting divination effect. The save DC is Charisma-based.
+      Soul-Rending
+  - name: Wings (Su)
+    description: >-
+      As a standard action every 1d4 rounds, a pharaonic guardian can flare its
+      wings to fire rays of soulcutting light in two 30-foot lines extending
+      away from it. Living creatures in the lines gain 1 negative level (Reflex
+      DC 22 negates). A creature whose mind the pharaonic guardian has read from
+      its judging gaze ability takes a -2 penalty on this save. Negative levels
+      from this ability are made permanent at the next sunrise unless the
+      creature succeeds at a DC 22 Fortitude save. The save DCs are
+      Charisma-based.
+Description:
+  - >-
+    Pharaonic guardians were created when an egotistical Osirian pharaoh used
+    nowlost techniques to ritually draw upon the fear of the countless slaves
+    and servants who built her monuments. When enough of these minions were
+    driven into self-destruction trying to provide for the pharaoh's decadent
+    demands, she knitted their souls together to create the first pharaonic
+    guardians. Such creatures now guard the entrances to tombs and other sites
+    important to the pharaohs of the late First Age and the Second Age of
+    Ancient Osirion.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5578'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

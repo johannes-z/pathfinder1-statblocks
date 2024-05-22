@@ -1,0 +1,190 @@
+Name: Nosra
+CR: '15'
+XP: '51200'
+Race: human
+Class: necromancer 1/loremaster 3
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (humanoid, human)
+Init: '7'
+Senses:
+  - darkvision 60 ft., lifesight (110 ft., 11 rounds/ day)
+  - Perception +15
+AC: 26, touch 16, flat-footed 22
+AC_Mods: (+4 armor, +2 deflection, +3 Dex, +1 dodge, +6 natural)
+HP: '136'
+HD: (14d6+64 plus 21)
+HP_Mods: fast healing 5
+Saves: Fort +8, Ref +11, Will +11
+Fort: '8'
+Ref: '11'
+Will: '11'
+DefensiveAbilities: channel resistance +4
+DR: 10/magic and silver
+Immune: undead traits
+Resist: cold 10, electricity 10, fire 30
+Weaknesses: vampire weaknesses
+Speed: 30 ft.
+Melee:
+  - slam +10 (1d4+3 plus energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blood drain, children of the night, create spawn, dominate (DC 21), energy
+  drain (2 levels, DC 21)
+SpellLikeAbilities:
+  header: Necromancer Spell-Like Abilities (CL 14th; melee touch +9)
+  values:
+    - label: 8/day
+      value: grave touch (5 rounds)
+SpellsPrepared: >-
+  Spells Prepared (CL 14th; melee touch +9, ranged +9) 7th-greater teleport,
+  power word blindB  6th-create undeadB, disintegrate (DC 21), eyebite (DC 23,
+  x2)  5th-baleful polymorph (DC 20), cloudkill (DC 20), magic jar (DC 22),
+  teleport, waves of fatigueB  4th-animate deadB, confusion (DC 19), enervation,
+  fear (DC 21), wall of fire  3rd-fireball (DC 18), fly, haste, ray of
+  exhaustion (DC 20), vampiric touchB, vampiric touch  2nd-detect thoughts (DC
+  17), false lifeB, minor image (DC 17), scorching ray, see invisibility 
+  1st-burning hands (DC 16), cause fearB (DC 18), mage armor (x2), magic
+  missile, protection from good, shield  0 (at will)-bleed (DC 17), detect
+  magic, read magic, touch of fatigue (DC 17)
+AbilityScores:
+  - 16
+  - 16
+  - —
+  - 21
+  - 10
+  - 18
+BaseAtk: '6'
+CMB: '10'
+CMD: '25'
+Feats:
+  - Alertness
+  - Brew Potion
+  - Combat Casting
+  - Combat Reflexes
+  - Command UndeadB
+  - Craft Wondrous Item
+  - Dodge
+  - Greater Spell Focus (necromancy)
+  - Improved Channel
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Scribe Scroll
+  - Skill Focus (Knowledge [arcana])
+  - Spell Focus (necromancy)
+  - Toughness
+Skills:
+  - Appraise +14
+  - Bluff +12
+  - Diplomacy +12
+  - Fly +16
+  - Heal +8
+  - Intimidate +12
+  - Knowledge (arcana) +29
+  - Knowledge (dungeoneering) +14
+  - Knowledge (engineering) +14
+  - Knowledge (geography) +14
+  - Knowledge (history) +19
+  - Knowledge (local) +14
+  - Knowledge (nature) +14
+  - Knowledge (nobility) +14
+  - Knowledge (planes) +19
+  - Knowledge (religion) +14
+  - Perception +15
+  - Sense Motive +10
+  - Spellcraft +19
+  - Stealth +11
+  - Use Magic Device +17
+RacialMods: +8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Aklo
+  - Common
+  - Dwarven
+  - Elven
+  - Goblin
+  - Infernal
+SQ: >-
+  arcane bonds (arcane bond [staff of frost]), change shape, gaseous form, grave
+  touch, life sight, lore, opposition schools (enchantment, illusion), secrets
+  (knowledge of avoidance, weapon trick), shadowless, specialized schools
+  (necromancy), spider climb
+Source: Sword of Air-Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Drain (Su)
+    description: >-
+      A vampire can suck blood from a grappled opponent; if the vampire
+      establishes or maintains a pin, it drains blood, dealing 1d4 points of
+      Constitution damage. The vampire heals 5 hit points or gains 5 temporary
+      hit points for 1 hour (up to a maximum number of temporary hit points
+      equal to its full normal hit points) each round it drains blood.
+  - name: Change Shape (Su)
+    description: >-
+      A vampire can use change shape to assume the form of a dire bat or wolf,
+      as beast shape II.
+  - name: Children of the Night (Su)
+    description: >-
+      Once per day, a vampire can call forth 1d6+1 rat swarms, 1d4+1 bat swarms,
+      or 2d6 wolves as a standard action. (If the base creature is not
+      terrestrial, this power might summon other creatures of similar power.)
+      These creatures arrive in 2d6 rounds and serve the vampire for up to 1
+      hour.
+  - name: Create Spawn (Su)
+    description: >-
+      A vampire can create spawn out of those it slays with blood drain or
+      energy drain, provided that the slain creature is of the same creature
+      type as the vampire's base creature type. The victim rises from death as a
+      vampire spawn in 1d4 days. This vampire is under the command of the
+      vampire that created it, and remains enslaved until its master's
+      destruction. A vampire may have enslaved spawn totaling no more than twice
+      its own Hit Dice; any spawn it creates that would exceed this limit become
+      free-willed undead. A vampire may free an enslaved spawn in order to
+      enslave a new spawn, but once freed, a vampire or vampire spawn cannot be
+      enslaved again.
+  - name: Dominate (Su)
+    description: >-
+      A vampire can crush a humanoid opponent's will as a standard action.
+      Anyone the vampire targets must succeed on a Will save or fall instantly
+      under the vampire's influence, as though by a dominate person spell (CL
+      12th). The ability has a range of 30 ft.
+  - name: Energy Drain (Su)
+    description: >-
+      A creature hit by a vampire's slam (or other natural weapon) gains two
+      negative levels. This ability only triggers once per round, regardless of
+      the number of attacks a vampire makes.Gaseous
+  - name: Form (Su)
+    description: >-
+      As a standard action, a vampire can assume gaseous form at will (caster
+      level 5th), but it can remain gaseous indefinitely and has a fly speed of
+      20 feet with perfect maneuverability.
+  - name: Shadowless (Ex)
+    description: A vampire casts no shadows and shows no reflection in a mirror.
+  - name: Spider Climb (Ex)
+    description: >-
+      A vampire can climb sheer surfaces as though under the effects of a spider
+      climb spell.
+Gender: Male
+ProhibitedSchools: Enchantment, Illusion
+Gear: staff of frost
+OtherGear: >-
+  ring of protection +2, spellbook, crystal for magic jar (worth 100 gp), spell
+  component pouch.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: vampire|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12797'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

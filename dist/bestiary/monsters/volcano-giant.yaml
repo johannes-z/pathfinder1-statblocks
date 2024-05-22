@@ -1,0 +1,154 @@
+Name: Volcano Giant
+CR: '14'
+XP: '38400'
+Alignment: CN
+Size: Huge
+Type: humanoid
+SubType: (earth, fire, giant)
+Init: '1'
+Senses:
+  - low-light vision
+  - Perception +18
+AC: 29, touch 9, flat-footed 28
+AC_Mods: (+2 armor, +1 Dex, +18 natural, -2 size)
+HP: '201'
+HD: (20d8+120)
+Saves: Fort +18, Ref +7, Will +9
+Fort: '18'
+Ref: '7'
+Will: '9'
+DefensiveAbilities: rock catching
+Immune: fire
+Weaknesses: vulnerability to cold
+Speed: 40 ft.
+Melee:
+  - Gargantuan longspear +24/+19/+14 (4d6+16, crit x3) or 2 slams +24 (2d6+11)
+Ranged:
+  - rock +15 (2d6+16 plus 1d6 fire)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: breath weapon, rock throwing (120 ft.), trample (2d6+16; DC 31)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: 1/day
+      value: stone shape
+AbilityScores:
+  - 32
+  - 12
+  - 23
+  - 10
+  - 14
+  - 11
+BaseAtk: '15'
+CMB: '28'
+CMD: '39'
+Feats:
+  - Awesome Blow
+  - Cleave
+  - Diehard
+  - Endurance
+  - Improved Bull Rush
+  - Improved Sunder
+  - Intimidating Prowess
+  - Iron Will
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Acrobatics +14 (+18 jumping)
+  - Climb +18
+  - Intimidate +20
+  - Knowledge (nature) +10
+  - Perception +18
+Languages:
+  - Giant
+  - Ignan
+SQ: oversized weapon use
+Environment: warm mountains
+Organization: >-
+  solitary, gang (2-5) or band (6-9 plus 35% noncombatants plus 1 adept or
+  cleric of 1st or 2nd level), hunting/raiding party (6-9 plus 1 adept or
+  sorcerer of 3-5th level plus 3-8 fire lizards); or tribe (21-30 plus 1 adept,
+  cleric, or sorcerer of 6th or 7th level plus 12-30 fire lizards)
+Treasure: standard
+Description_Visual: >-
+  This 18-foot tall, barrel-chested giant has leathery, reddish brown skin and
+  haunting amber eyes. The creature is tough and wiry, with the strength and
+  texture of copper.
+Group: Giant
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      Three times per day, a volcano giant can exhale a cloud of warm and
+      sulfuric gas in a 30-foot cone. Affected creatures must make a successful
+      DC 26 Fortitude save or take a -4 circumstance penalty on attack rolls,
+      checks and saves for 1 minute (10 rounds) due to fits of coughing and
+      choking. The save DC is Constitution-based.
+  - name: Oversized Weapon Use (Ex)
+    description: A volcano giant wields a Gargantuan two-handed longspear without penalty.
+Description:
+  - >-
+    Volcano giants make their homes in the many twisting caves and subterranean
+    rooms of volcanic cones, enlarging and reinforcing them for comfort and
+    convenience. Clothing for a volcano giant usually consists of little more
+    than a simple wrap of fire lizard skin. A volcano giant wears ornaments made
+    of bone, shell, and obsidian, and their general culture and society is
+    similar to that of humanoid civilizations on tropical islands. Such island
+    societies often get along well with local tribes of volcano giants, engaging
+    in trade and peacefully coexisting. Should a tribe of volcano giants form an
+    allegiance with a human tribe, the giants warn the humans of possible
+    eruptions of their volcano to allow them time to escape the destruction.
+    Although volcano giants can be described as good-natured and peaceful
+    people, their demeanor can change quickly. At a real or imagined affront, a
+    volcano giant can erupt with a passion that is rivaled only by the fire and
+    fury of the volcano in which it lives. Volcano giants feel that their shadow
+    is actually their soul, and do not tolerate any creature that dares to trod
+    upon it. Volcano giants usually use Gargantuan longspears in combat. They
+    are fierce and brave warriors, not backing down from any adversary. Many
+    choose to open combat with their breath weapon so as to soften up their foes
+    before attacking. Volcano Giants Characters +22 Strength, +2 Dexterity, +12
+    Constitution, +2 Wisdom: A volcano giant's prowess lies almost entirely in
+    his physical abilities, predominantly strength. Huge: Volcano giants are
+    huge and take a -2 penalty to AC, -2 penalty to attack rolls, +2 bonus to
+    Combat Maneuver Bonus and Combat Maneuver Defense, and a -8 penalty to
+    Stealth checks. A volcano giant's lifting and carrying limits quadruple
+    those of Medium characters. Space 15ft., Reach 15ft. Speed: A volcano
+    giant's base speed is 40 feet. Low-light vision: volcano giants can see
+    twice as far as humans in conditions of dim light. Racial Hit Dice: A
+    volcano giant starts with seventeen levels of giant, which provide it with
+    20d8 HD, a base attack bonus of +15, and base save bonuses of Fort +12, Ref
+    +6, Will +6. Defensive Abilities: a volcano giant gains the rock catching
+    defensive ability. Racial Skills: A volcano giant's giant levels give it
+    skill points equal to 20 x (2 + Int modifier). Its class skills are
+    Acrobatics, Climb, Intimidate, Knowledge (nature), and Perception. Racial
+    Feats: A volcano giant's giant levels give it ten feats. AC: Tough-skinned,
+    volcano giants gain a +18 natural AC bonus. Special Attacks (see above):
+    Breath weapon, rock throwing, trample. Spell-like Abilities: volcano giants
+    can cast stone shape 1/day as a 20th level caster. Special Qualities (see
+    above): fire and earth subtypes, low-light vision, oversized weapon use,
+    Automatic Languages: Giant, Ignan. Volcano giants with high Intelligence
+    scores can choose from the following languages: Draconic, Goblin, Terran,
+    Orc. Copyright Notice Authors Scott Greene, Casey Christofferson, and Erica
+    Balsley.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: Gargantuan longspear, leather armor
+CharacterFlag: '1'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2636'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

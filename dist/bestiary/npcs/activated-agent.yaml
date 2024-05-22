@@ -1,0 +1,117 @@
+Name: Activated Agent
+CR: '12'
+XP: '19200'
+Race: Gillman
+Class: sorcerer 12
+MonsterSource: 'Pathfinder Campaign Setting: The Inner Sea World Guide 310'
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (aquatic)
+Init: '6'
+Senses:
+  - Perception +0
+AC: 21, touch 13, flat-footed 19
+AC_Mods: (+4 armor, +1 deflection, +2 Dex, +4 shield)
+HP: '104'
+HD: (12d6+60)
+Saves: >-
+  Fort +7, Ref +6, Will +8; +2 vs. non-aboleth enchantments and -2 vs. aboleth
+  enchantments
+Fort: '7'
+Ref: '6'
+Will: '8'
+Save_Mods: +2 vs. non-aboleth enchantments and -2 vs. aboleth enchantments
+DefensiveAbilities: enchantment resistance, unusual anatomy (25%)
+Weaknesses: water dependent
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - mwk sickle +6/+1 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: long limbs (10 ft.)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 12th; concentration +18)
+  values:
+    - label: 9/day
+      value: acidic ray (1d6+6 acid)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +18)
+  values:
+    - label: 6th (4/day)
+      value: freezing sphere (DC 24)
+    - label: 5th (6/day)
+      value: cone of cold (DC 23), feeblemind (DC 21), suffocationAPG (DC 21)
+    - label: 4th (7/day)
+      value: >-
+        black tentacles, dimension door, telekinetic chargeUC, wall of ice (DC
+        22)
+    - label: 3rd (7/day)
+      value: dispel magic, fly, haste, lightning bolt (DC 21), tongues
+    - label: 2nd (8/day)
+      value: >-
+        aboleth's lungARG (DC 18), invisibility, mirror image, scorching ray,
+        see invisibility, shatter (DC 20)
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 17), enlarge person (DC 17), mage armor, magic missile,
+        shield, true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, daze (DC 16), detect magic, light, message,
+        prestidigitation, ray of frost, read magic, resistance
+AbilityScores:
+  - 8
+  - 14
+  - 16
+  - 10
+  - 10
+  - 23
+BaseAtk: '6'
+CMB: '5'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Empower Spell
+  - Eschew Materials
+  - Focused Spell
+  - Greater Spell Focus (evocation)
+  - Improved Initiative
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Knowledge (arcana) +15
+  - Spellcraft +15
+  - Swim +7
+Languages:
+  - Aboleth
+  - Common
+SQ: amphibious, bloodline arcana (+50% duration on polymorph effects)
+Source: AP 126
+IsTemplate: '0'
+Bloodline: aberrant
+BeforeCombat: >-
+  These gillmen cast mage armor and shield well before entering a zone of
+  potential combat. Immediately prior to combat, they cast fly, haste, and
+  invisibility.
+DuringCombat: >-
+  The gillmen concentrate their efforts on bringing down enemies with their
+  spells. Their first action is to set up Sharopech in melee with opponents by
+  using telekinetic charge and sealing off the combat with a wall of ice.
+Morale: Their ancient aboleth programming activated, the gillmen fight to the death.
+Gear: mwk sickle, headband of alluring charisma +4, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11719'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,122 @@
+Name: Frost Giant Ice Mage
+CR: '12'
+XP: '19200'
+Race: Frost giant
+Class: sorcerer 6
+Alignment: CE
+Size: Large
+Type: humanoid
+SubType: (cold, giant)
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +25
+AC: 26, touch 10, flat-footed 26
+AC_Mods: (+2 armor, +1 deflection, +10 natural, +4 shield, -1 size)
+HP: '204'
+HD: (20 HD; 14d8+6d6+120)
+Saves: Fort +17, Ref +8, Will +11
+Fort: '17'
+Ref: '8'
+Will: '11'
+DefensiveAbilities: rock catching
+Immune: cold
+Weaknesses: vulnerable to fire
+Speed: 40 ft.
+Melee:
+  - mwk morningstar +21/+16/+11 (2d6+12) or 2 slams +20 (1d8+8 plus 1d6 cold)
+Ranged:
+  - rock +12 (1d8+12 plus 1d6 cold)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rock throwing (120 ft.)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: 7/day
+      value: >-
+        cold steel (grant weapon or 50 ammunition frost weapon special ability
+        for 3 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 3rd (4/day)
+      value: dispel magic
+    - label: 2nd (6/day)
+      value: frigid touchUM, ice slick, rage (DC 16)
+    - label: 1st (7/day)
+      value: enlarge person, expeditious retreat, obscuring mist, shield, true strike
+    - label: 0 (at will)
+      value: >-
+        detect magic, ghost sound (DC 13), flare (DC 13), mage hand, message,
+        ray of frost, touch of fatigue (DC 13)
+AbilityScores:
+  - 26
+  - 11
+  - 22
+  - 14
+  - 14
+  - 16
+BaseAtk: '13'
+CMB: '22'
+CMD: '33'
+Feats:
+  - Arcane Strike
+  - Born of Frost
+  - Chilled Rock
+  - Combat Casting
+  - Eschew Materials
+  - Extend Spell
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Stealth)
+Skills:
+  - Bluff +12
+  - Climb +21
+  - Craft (alchemy) +15
+  - Intimidate +16
+  - Knowledge (arcana) +15
+  - Perception +25
+  - Spellcraft +15
+  - Stealth +12 (+16 in snow)
+RacialMods: +4 Stealth in snow
+Languages:
+  - Abyssal
+  - Auran
+  - Common
+  - Giant
+SQ: icewalker
+Source: Monster Codex
+IsTemplate: '0'
+Bloodline: borealAPG
+BeforeCombat: A frost giant ice mage casts shield and expeditious retreat.
+DuringCombat: >-
+  A frost giant ice mage uses his wand of solid fog to trap opponents, then
+  blasts them at range with his wand of ice storm or wand of lightning bolt. He
+  casts ice slick and uses his icewalker bloodline ability to outmaneuver his
+  opponents in icy and snowy areas.
+Gear: >-
+  potions of cure serious wounds (2), potion of invisibility, potion of
+  protection from energy (fire), wand of ice storm (10 charges), wand of
+  lightning bolt (10 charges), wand of solid fog (5 charges), alchemist's fire
+  (4)
+OtherGear: >-
+  mwk morningstar, amulet of natural armor +1, bracers of armor +2, ring of
+  protection +1, 362 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: old
+CompanionFamiliarLink: '0'
+id: '6441'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

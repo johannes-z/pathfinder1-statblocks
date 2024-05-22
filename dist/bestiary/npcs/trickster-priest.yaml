@@ -1,0 +1,109 @@
+Name: Trickster Priest
+CR: '11'
+XP: '12800'
+Race: human
+Class: cleric of calistria 12
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +11
+AC: 26, touch 13, flat-footed 24
+AC_Mods: (+9 armor, +1 deflection, +2 Dex, +1 natural, +3 shield)
+HP: '105'
+HD: (12d8+24)
+Saves: Fort +12, Ref +9, Will +14
+Fort: '12'
+Ref: '9'
+Will: '14'
+Speed: 20 ft.
+Melee:
+  - mwk whip +9/+4 (1d3-1 nonlethal)
+Ranged:
+  - mwk heavy crossbow +12 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 8/day (DC 21, 6d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 12th; concentration +17)
+  values:
+    - label: At Will
+      value: >-
+        charming smile (12 rounds/day, DC 21), master's illusion (12 rounds/day,
+        DC 21)
+    - label: 8/day
+      value: copycat (12 rounds), dazing touch
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 12th; concentration +17)   6th-geas/questD, greater
+  dispel magic, word of recall   5th-breath of life, charm monsterD (DC 22),
+  greater command (DC 22), slay living (DC 20), spell resistance   4th-chaos
+  hammer (DC 19), cure serious wounds, discern lies (DC 19), heroismD, poison
+  (DC 19)   3rd-invisibility purge, magic vestment, prayer, protection from
+  energy (DC 18), searing light, suggestionD (DC 20)   2nd-calm emotions (DC
+  19), delay poison (DC 17), enthrall (DC 19), hold person (2, DC 19),
+  invisibilityD   1st-charm personD (DC 18), cure light wounds (2), entropic
+  shield, hide from undead, obscuring mist, remove fear   0 (at will)-detect
+  magic, light, mending, purify food and drink
+SpellDomains: Charm, Trickery
+AbilityScores:
+  - 8
+  - 15
+  - 16
+  - 10
+  - 20
+  - 16
+BaseAtk: '9'
+CMB: '8'
+CMD: '21'
+Feats:
+  - Extra Channel
+  - Greater Spell Focus (enchantment)
+  - Improved Channel
+  - Improved Initiative
+  - Lightning Reflexes
+  - Selective Channeling
+  - Spell Focus (enchantment)
+Skills:
+  - Bluff +11
+  - Diplomacy +17
+  - Heal +14
+  - Intimidate +8
+  - Perception +11
+  - Spellcraft +6
+Languages:
+  - Common
+SQ: aura
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The cleric uses his wand of bear's endurance, then casts magic vestment.
+DuringCombat: >-
+  The cleric uses charm spells, hold spells, and suggestion to disable opponents
+  or turn them into allies. He casts heroism and prayer to bolster companions,
+  and uses his copycat domain power and spell resistance to protect himself,
+  channeling negative energy to harm creatures who resist enchantment.
+Gear: potion of cure moderate wounds, wand of bear's endurance (10 charges)
+OtherGear: >-
+  +1 breastplate, +2 light wooden shield, masterwork heavy crossbow with 20
+  bolts, masterwork whip, amulet of natural armor +1, belt of incredible
+  dexterity +2, cloak of resistance +1, headband of inspired wisdom, ring of
+  protection +1, silver unholy symbol, 621 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bear's endurance and magic vestment, the cleric's statistics are AC
+  24, touch 13, flat-footed 22; hp 81; Fort +10; Con 12.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3646'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

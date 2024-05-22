@@ -1,0 +1,97 @@
+Name: Supply Sack Subtier 6-7
+CR: '7'
+XP: '3200'
+Race: Animated object (large)
+MonsterSource: Pathfinder RPG Bestiary 14
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception -5
+AC: 14, touch 8, flat-footed 14
+AC_Mods: (-1 Dex, +6 natural, -1 size)
+HP: '82'
+HD: (4d10+60)
+Saves: Fort +1, Ref +0, Will -4
+Fort: '1'
+Ref: '0'
+Will: '-4'
+DR: 5/piercing or slashing
+Immune: construct traits
+Speed: 30 ft.
+Melee:
+  - slam +9 (1d8+9 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: constrict (1d8+9 plus caustic contents), strangle
+AbilityScores:
+  - 22
+  - 8
+  - —
+  - —
+  - 1
+  - 1
+BaseAtk: '4'
+CMB: +13 (+21 grapple)
+CMD: '20'
+SQ: >-
+  construction points (cloth, constrict, durable, grab, supplies, spit supplies,
+  sticky, strangle)
+Source: PFS S7-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Caustic Contents (Ex)
+    description: >-
+      The supply sack deals an additional 1d4 points of acid damage and 1d4
+      points of fire damage when it constricts a creature.
+  - name: Cloth (Ex)
+    description: >-
+      The supply sack is made of cloth. This ability replaces an animated
+      object's typical hardness 5 with DR 5/piercing or slashing.
+  - name: Durable (Ex)
+    description: >-
+      Strange energies from the First World have enhanced and reinforced this
+      supply sack, granting it 30 additional hit points.
+  - name: Spit Supplies (Ex)
+    description: >-
+      The supply sack has two main pouches; one filled with weapons and the
+      other with alchemical items. Each time the sack uses spit supplies, it
+      makes each of the following attacks against a random target within 30
+      feet. The alchemical items do not deal the typical splash or ongoing
+      damage, and instead function as listed below. It also spits a variety of
+      vials of liquid that have no effect on their targets. 1: longsword +3
+      (1d8+6/19-20) 2: club +3 (1d6+6) 3: alchemist's fire +3 touch (1d6+6 fire)
+      4: acid flask +3 touch (1d6+6 acid)
+  - name: Sticky (Ex)
+    description: >-
+      The supply sack contains sticky alchemical goop from high-quality
+      Uringen-made tanglefoot bags, which helps it grab on to its foes. This
+      ability gives it a +4 bonus on its grapple checks and inflicts a -4
+      penalty on any attempt to escape its grapple.
+  - name: Strangle (Ex)
+    description: >-
+      A creature grappled by a supply sack cannot speak or cast spells with
+      verbal components.
+DuringCombat: >-
+  The supply sack attacks anyone within area D1. It does not continue attacking
+  unconscious creatures.
+Morale: >-
+  The sack is mindless, and does not surrender. It does not pursue creatures
+  outside of area D1.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12728'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

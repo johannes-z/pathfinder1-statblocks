@@ -1,0 +1,136 @@
+Name: Bahor
+CR: '14'
+XP: '38400'
+Race: rakshasa
+Class: rogue 8
+MonsterSource: Pathfinder RPG Bestiary 231
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native, shapechanger)
+Init: '12'
+Senses:
+  - darkvision 60 ft.
+  - Perception +26
+AC: 36, touch 19, flat-footed 27
+AC_Mods: (+4 armor, +8 Dex, +1 dodge, +9 natural, +4 shield)
+HP: '207'
+HD: (18 HD; 8d8+10d10+116)
+Saves: Fort +11, Ref +21, Will +12
+Fort: '11'
+Ref: '21'
+Will: '12'
+DefensiveAbilities: evasion, improved uncanny dodge, trap sense +2
+DR: 15/good and piercing
+SR: '25'
+Speed: 40 ft.
+Melee:
+  - +2 kukri +27/+22/+17/+12 (1d4+7/15-20), bite +22 (1d6+2), claw +22 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: detect thoughts, sneak attack +4d6 plus 4 bleed
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +12)
+  values:
+    - label: 3rd (5/day)
+      value: fly, lightning bolt (DC 18)
+    - label: 2nd (7/day)
+      value: invisibility, scorching ray, web (DC 17)
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 16), mage armor, obscuring mist, protection from good,
+        ray of enfeeblement (DC 16)
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, detect magic, mage hand, mending, message,
+        prestidigitation
+AbilityScores:
+  - 20
+  - 26
+  - 22
+  - 15
+  - 12
+  - 20
+BaseAtk: '16'
+CMB: '21'
+CMD: '40'
+Feats:
+  - Arcane Strike
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (kukri)
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Mobility
+  - Multiattack
+  - Spring Attack
+  - Weapon Finesse
+  - Weapon Focus (kukri)
+Skills:
+  - Acrobatics +29
+  - Bluff +30
+  - Diplomacy +26
+  - Disguise +34
+  - Fly +18
+  - Intimidate +26
+  - Knowledge (local) +17
+  - Knowledge (nobility) +14
+  - Perception +26
+  - Sense Motive +22
+Languages:
+  - Common
+  - Infernal
+  - Undercommon
+  - Vudrani
+SQ: >-
+  change shape (any humanoid; alter self), rogue talents (bleeding attack +4,
+  combat trick, finesse rogue, weapon training), trapfinding +4
+Source: Curse Of The Crimson Throne Chapter Appendix
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Bahor casts mage armor as soon as the prospect of combat looms (such as upon
+  hearing a palace alarm activated). He uses his third eye to check the various
+  rooms in his palace for intruders. As soon as his foes seem to be drawing
+  near, he casts shield and protection from good.
+DuringCombat: >-
+  Bahor favors spellcasting in combat, and reverts to his true form only if his
+  enemies know that he isn't human. If his spells are exhausted or proving
+  useless, he uses a charge from his wand of haste, then resorts to melee
+  tactics. He prefers to fight with allies so he can perform sneak attacks. In
+  such a situation, Bahor tries to remain mobile, moving in and out of combat by
+  using Spring Attack to make a single bleeding sneak attack against a foe each
+  round. On his own, he tries to make full attacks so he can add a bite and a
+  claw to his kukri strikes, using Arcane Strike to gain a +1 bonus on all
+  damage rolls.
+Morale: >-
+  Bahor has little interest in risking everything on bad luck. If reduced to
+  fewer than 100 hit points, he  attempts to flee with the aid of invisibility.
+  If he escapes, he retreats to the Cerulean Society guildhall below Old Korvosa
+  to wait things out, and may end up seeking revenge on the PCs at a later
+  date-especially if the PCs interact with the Cerulean Society. Bahor stays
+  behind to fight to the death only if his enemies show that they know of his
+  true nature; allowing anyone to escape his clutches with this knowledge is the
+  thing he fears the most.
+Gear: >-
+  scroll of sending (3), wand of haste (19 charges), wand of illusory script (12
+  charges), wand of shield (23 charges)
+OtherGear: >-
+  +2 kukri, third eye (see page 436), keys to all Arkona Palace locks, 19 pp, 2
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8706'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

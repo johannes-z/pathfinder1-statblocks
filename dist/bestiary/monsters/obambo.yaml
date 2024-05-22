@@ -1,0 +1,228 @@
+Name: Obambo
+CR: '13'
+XP: '25600'
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+AC: 21, touch 21, flat-footed 17
+AC_Mods: (+7 deflection, +4 Dex)
+HP: '175'
+HD: (14d8+112)
+Saves: Fort +11, Ref +10, Will +15
+Fort: '11'
+Ref: '10'
+Will: '15'
+DefensiveAbilities: channel resistance +4, rejuvenation, incorporeal
+Immune: undead traits
+Speed: 30 ft., fly 30 ft. (perfect)
+Melee:
+  - incorporeal touch +16 (1d6 Int drain plus daze)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: jungle animus, thought eater
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +21)
+  values:
+    - label: At will
+      value: entangle (DC 18), enthrall (DC 19), goodberry, mage hand, obscuring mist
+    - label: 3/day
+      value: >-
+        command plants (DC 21), giant vermin, hallucinatory terrain (DC 21),
+        helping hand, move earth, rainbow pattern (DC 21), soften earth and
+        stone (DC 19), spike growth (DC 20), tree stride
+    - label: 1/day
+      value: >-
+        animate plants, creeping doom (DC 24), find the path, legend lore,
+        mage's magnificent mansion, reincarnate
+AbilityScores:
+  - —
+  - 23
+  - —
+  - 19
+  - 18
+  - 25
+BaseAtk: '10'
+CMB: '16'
+CMD: 33 (can't be tripped)
+Feats:
+  - Alertness
+  - Flyby Attack
+  - Improved InitiativeB
+  - Iron Will
+  - Lunge
+  - Skill Focus (Perform [oratory])
+  - Step Up
+  - Toughness
+Skills:
+  - Appraise +21
+  - Bluff +24
+  - Craft (alchemy) +10
+  - Diplomacy +15
+  - Fly +18
+  - Knowledge (dungeoneering) +10
+  - Knowledge (geography) +15
+  - Knowledge (history) +15
+  - Knowledge (local) +15
+  - Knowledge (nature) +15
+  - Knowledge (religion) +10
+  - Perception +21
+  - Perform (oratory) +30
+  - Sense Motive +24
+Languages:
+  - Common
+  - Polyglot
+  - Sylvan
+  - speak with animals
+  - speak with vermin
+SQ: unnatural aura
+Environment: warm forests
+Organization: solitary or tribe (1 plus 1-2 giant flytraps or 1-3 shambling mounds)
+Treasure: standard
+Description_Visual: >-
+  This spectral creature looks like a scarred and shriveled ruin of an ancient
+  tribal elder, with skin caked with dirt and moss, and long white hair tangled
+  with sticks. Sharp teeth fill its cackling mouth, and its eyes are tiny but
+  bright and piercing. Jungle vines weave through its ghostly body, which
+  appears stuffed with decaying leaves and other plant matter.
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Jungle Animus (Su)
+    description: >-
+      As a full-round action, an obambo can invest its spirit into the land
+      itself and cause the ground to rise up as a Huge mass of soil, mud, vines,
+      roots, and vermin. In this form, it has the statistics of an advanced
+      giant shambling mound, except it keeps its own hit points.
+  - name: Rejuvenation (Su)
+    description: >-
+      In most cases, it's difficult to destroy an obambo through simple combat,
+      as the "destroyed" spirit restores itself in 2d4 days. Only after its
+      remains or place of death is found and appropriate funeral rites are
+      performed does it rest in peace and not return.
+  - name: Speak with Vermin (Su)
+    description: >-
+      An obambo can communicate with vermin, similar to using speak with
+      animals. Vermin can only communicate with instinct-level information.
+  - name: Thought Eater (Su)
+    description: >-
+      An obambo's touch drains 1d6 points of Intelligence and dazes the target
+      for 1 round; a successful DC 24 Fortitude save negates the daze effect and
+      halves the ability drain. The obambo gains 5 temporary hit points and a +1
+      bonus on all Intelligence-based skill checks for 24 hours with each
+      successful Intelligence drain; these benefits stack. A creature reduced to
+      0 Intelligence by this attack is polymorphed into a Diminutive vermin
+      (Fortitude DC 24 negates; otherwise treat as baleful polymorph).
+  - name: Unnatural Aura (Su)
+    description: >-
+      Animals, both wild and domesticated, can sense the unnatural presence of
+      an obambo at a distance of 30 feet. They do not willingly approach nearer
+      than that and panic if forced to do so unless their master succeeds at a
+      DC 25 Handle Animal, Ride, or wild empathy check. A panicked animal
+      remains so while within 30 feet of the obambo.
+Description:
+  - >-
+    When a person wise in the lore of the jungle dies and is not buried or given
+    a funeral, the jungle itself may embrace her spirit, creating an obambo
+    ("forsaken one"). The embittered spirit seeps into the ground, the roots of
+    plants, and the crawling things beneath, becoming one with the jungle
+    itself. An obambo is cunning, spiteful, and treacherous, but it remembers
+    its old role of teacher and storyteller, a duty and an obligation it both
+    loves and loathes. While dealing with an obambo is dangerous, they are known
+    to assist those in need, if supplicants can meet the obambo's price.
+  - >-
+    Ecology An obambo may rise when a tribal elder or shaman perishes in the
+    wild and is never properly laid to rest.
+  - >-
+    Without the proper rites to lead the spirit into the afterlife, the obambo
+    is lost and sundered from its community and tribe, cursed to wander the
+    wild. If the obambo's place of death can be discovered and its remains
+    returned for proper burial (usually in a small house-like shrine on the land
+    of a blood relative), its spirit is laid to rest forever, but few obambos
+    ever find such peace. Instead, whispered memories drive the obambo to
+    meander endlessly between jungle villages, all vaguely familiar but none
+    ever seeming right. An obambo may be male or female.
+  - Obambos are solitary wanderers of the bush and veldt.
+  - >-
+    Animals shy away from them, but obambos share a keen spiritual symbiosis
+    with vermin and plants. Through an obambo's journeys, these are its
+    audience, attending faithfully to the obambo's endless tales and treating it
+    as a wise mentor and leader. Their obeisance, however, can never satisfy the
+    obambo's yearning for the rapt attention of its former humanoid kind to its
+    riddles, stories, and lessons. An obambo is easily angered by the foolish,
+    however, and its stern reproofs often leave its pupils as drooling husks or
+    mindless insectile drones. An obambo's plant or vermin sycophants have been
+    known to devour such hapless wretches, or even to ravage entire villages as
+    they sit enthralled by the obambo's tales. As long as a few survivors remain
+    and learn from the obambo's teaching, it is satisfied. In any case, an angry
+    obambo hardly needs assistance in the act of destruction, as an obambo's
+    spiritual communion with the land enables it to merge itself into the land,
+    rising up as a roaring titan melded of soil, mud, vegetation, and crawling
+    vermin.
+  - >-
+    Habitat and Society Obambos often establish a reputation as darkling
+    oracles, wise and knowledgeable about the jungle, its creatures, and its
+    people. They create small shrines to themselves called akinfa, usually in
+    hollow trees where supplicants may bring gifts and the obambo may sit
+    within. These gifts may be of material wealth, but as a teacher, the obambo
+    prefers gifts that show the talents of the supplicant, be it a crafted item,
+    a song, a story, a riddle, or some other performance.
+  - >-
+    An obambo begins any meeting as unfriendly, but a supplicant may make a
+    Craft or Perform check opposed by the obambo's Appraise skill to offer a
+    gift he has made (offering a magical or masterwork item grants a +2
+    circumstance bonus on this check). If the supplicant succeeds, the obambo is
+    impressed with his skill and its attitude becomes indifferent. If the check
+    fails, the obambo remains unfriendly, and if failed by 10 or more, the
+    obambo is insulted and becomes hostile. If a creature offers an item the
+    creature did not personally create, the obambo is entitled to a Sense Motive
+    check opposed by the supplicant's Craft or Perform check; if it succeeds,
+    the obambo becomes hostile. An obambo is unaffected by Diplomacy until it
+    receives a suitable gift.
+  - >-
+    An indifferent obambo's attitude may be improved with Diplomacy or by
+    offering additional gifts as above; each gift that pleases the obambo
+    improves its attitude by one step. Using Intimidate against the obambo makes
+    it immediately hostile, as does any unsuccessful Bluff attempt. An obambo
+    can also be challenged to a storytelling contest. The contest is resolved by
+    a Perform (oratory) or Perform (sing) check opposed by the obambo's Perform
+    (oratory) check; if the PC wins, the obambo is truly impressed and
+    immediately becomes helpful.
+  - >-
+    Each time a supplicant tries to inf luence the obambo's attitude beyond
+    indifferent, it responds with a question or riddle, using its Bluff skill or
+    one of its Knowledge skills; the supplicant must oppose the check with the
+    same skill. Each time a supplicant fails this opposed check, the obambo
+    becomes annoyed and all skill checks to inf luence him take a -2
+    circumstance penalty for 1 hour.
+  - >-
+    An indifferent obambo answers questions in riddles, requiring a Sense Motive
+    check opposed by the obambo's Bluff check for the PC to understand what the
+    creature means. A friendly obambo speaks more plainly, and visitors
+    generally do not need to make opposed checks to determine its meaning. It
+    may offer goodberries to supplicants who have offered it additional gifts. A
+    helpful obambo answers questions clearly, and may also agree to use one of
+    its spell-like abilities to aid the supplicant.
+  - >-
+    However, an obambo expects gratitude and an additional gift after it lends
+    its aid. If no gift is forthcoming, or the supplicant requests another
+    favor, the obambo flies into a rage at the ingratitude and attacks.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1060'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

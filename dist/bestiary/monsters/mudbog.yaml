@@ -1,0 +1,109 @@
+Name: Mudbog
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Large
+Type: ooze
+Init: '-5'
+Senses:
+  - blindsight 60 ft.
+  - Perception -5
+AC: 4, touch 4, flat-footed 4
+AC_Mods: (-1 size, -5 Dex, +0 natural)
+HP: '31'
+HD: (3d8+18)
+Saves: Fort +7, Ref -4, Will -4
+Fort: '7'
+Ref: '-4'
+Will: '-4'
+DefensiveAbilities: camouflage
+Immune: ooze traits
+Resist: fire 10
+Speed: 10 ft.
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: acid, engulf (1d6 bludgeoning plus 1d6 acid damage, AC 4, hp 6)
+AbilityScores:
+  - 20
+  - 1
+  - 23
+  - —
+  - 1
+  - 1
+BaseAtk: '2'
+CMB: '8'
+CMD: 13 (can't be tripped)
+Skills:
+  - Stealth -9 (+3 in marshes)
+RacialMods: +12 Stealth in marsh
+SQ: camouflage
+Environment: marshes
+Organization: solitary
+Treasure: double standard
+Description_Visual: >-
+  What you originally thought was a patch of muddy water reveals itself to be a
+  protoplasmic life-form resembling a giant brownish-black amoeba.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid (Ex)
+    description: >-
+      A mudbog secretes a digestive acid that quickly dissolves organic
+      material, but not metal or stone. Any melee hit deals 1d6 points of acid
+      damage. Armor or clothing dissolves and becomes useless immediately unless
+      it succeeds on a DC 17 Reflex save. A wooden weapon that strikes a mudbog
+      dissolves immediately unless it succeeds on a DC 17 Reflex save. The
+      mudbog's acidic touch deals 17 points of acid damage per round to wooden
+      objects, but the ooze must remain in contact with the object for 1 full
+      round to deal this damage. The save DCs are Constitution-based.
+  - name: Camouflage (Ex)
+    description: >-
+      The consistency and coloration of a mudbog makes it difficult to discern
+      from a normal patch of mud. Any creature within 10 feet of a mudbog must
+      make a DC 20 Perception or Survival check to determine the actual nature
+      of the creature.
+  - name: Engulf (Ex)
+    description: >-
+      A Medium or smaller opponent that walks into a mudbog is automatically
+      grappled and takes 1d6 acid damage each round the mudbog maintains the
+      hold. Engulfed creatures are considered to be grappled and are trapped
+      within the mudbog's body. This ability otherwise functions as swallow
+      whole, save that a creature that cut its way out of a mudbog leaves no
+      hole in the protoplasmic creature's body.
+Description:
+  - >-
+    Mudbogs are strange, slow-moving, pudding-like creatures that dwell in
+    swamps, fens, and wetlands. Situated comfortably in its hole along
+    well-traveled paths, a mudbog is likely to be mistaken for a patch of muddy
+    water or a wet spot in the road. Creatures attempting to simply walk over or
+    through the "mud puddle" find themselves stuck fast and, worse yet, being
+    consumed by the hungry ooze.
+  - >-
+    A mudbog doesn't really attack its opponents; its method of getting a meal
+    is strictly passive. However, once a meal stumbles into its protoplasmic
+    body, the mudbog is determined not to let it escape. They are brownish in
+    color, resembling nothing more than brackish mud. These monsters use their
+    coloration to their best advantage and use their acidic bodies to dig a
+    hole, usually several feet deep, in which to lie in wait for a meal. The
+    average mudbog is roughly 10 feet across and 3 feet deep.
+  - >-
+    A mudbog lacks the intelligence to collect treasure. However, the
+    possessions of its victims can always be found in a heap at the bottom of
+    the hole it has chosen as its home. Actually getting to the treasure
+    involves somehow removing the mudbog from its hole.
+  - Copyright Notice Author Erica Balsley.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2838'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

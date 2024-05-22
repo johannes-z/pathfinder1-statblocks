@@ -1,0 +1,108 @@
+Name: Cadaver
+CR: '2'
+XP: '600'
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 13, touch 11, flat-footed 12
+AC_Mods: (+1 Dex, +2 natural)
+HP: '16'
+HD: (2d8)
+HP_Mods: reanimation
+Saves: Fort +0, Ref +1, Will +3
+Fort: '0'
+Ref: '1'
+Will: '3'
+DR: 5/bludgeoning
+Immune: cold, undead traits
+Speed: 30 ft.
+Melee:
+  - 2 claws +2 (1d4+1 plus disease) and bite +2 (1d6+1  plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 13
+  - 13
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '1'
+CMB: '2'
+CMD: '13'
+Feats:
+  - Improved InitiativeB
+Environment: any
+Organization: solitary or gang (2-5)
+Treasure: standard
+Description_Visual: >-
+  This monster resembles a humanoid dressed in tattered rags. Rotted flesh
+  reveals corded muscles and sinew stretched tightly over its skeleton. Hollow
+  eye sockets flicker with a hellish glow. Broken and rotted teeth line its
+  mouth, and its hands end in wicked claws.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Claw and bite-injury; save Fort DC 11; onset 1d3 days;
+      frequency 1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2
+      consecutive saves. The save DC is Charisma-based.
+  - name: Reanimation (Su)
+    description: >-
+      When reduced to 0 hit points or less, a cadaver is not destroyed; rather
+      it falls inert and begins the process of reanimating by regaining 1 hit
+      point per round. Hit points lost to magical weapons or spells are not
+      regained. When the creature reaches its full hit point total (minus damage
+      dealt by magical attacks and weapons), it stands up, ready to fight again.
+      If the creature is destroyed by channeled positive energy, it cannot
+      reanimate. If a cleric casts gentle repose on the cadaver when it is
+      reduced to 0 hit points, it cannot reanimate. A bless spell delays the
+      reanimation, causing the creature to regain hit points at half the normal
+      rate (i.e. 1 hit point every other round).
+Description:
+  - >-
+    Cadavers are the undead skeletal remains of people who have been buried
+    alive or given an improper burial (an unmarked grave or mass grave for
+    example). They can be found haunting graveyards and cemeteries.
+  - >-
+    Cadavers are infused with a hatred that rivals many other undead creatures.
+    This hatred includes its own existence as well as the existence of all
+    living creatures. Thus, the cadaver attacks all creatures it encounters.
+  - >-
+    They have a distinct hatred for light, but it does not damage them. All
+    encounters with cadavers are at night or places cloaked in darkness.
+  - >-
+    Encounters are most often with a solitary creature. Multiple cadavers do not
+    work in concert with each other; being mindless they simply charge into
+    combat, killing all creatures they can. Cadavers are sometimes found in the
+    employ of greater undead (such as wights or ghasts).
+  - >-
+    A cadaver attacks by raking with its filthy claws or biting with its sharp,
+    disease-infested teeth. They often lie in shallow graves waiting for
+    potential victims to wander too close, where they immediately spring to the
+    attack, raking and biting until destroyed or until all foes are dead.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2291'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

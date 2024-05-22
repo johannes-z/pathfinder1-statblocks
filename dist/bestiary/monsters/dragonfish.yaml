@@ -1,0 +1,106 @@
+Name: Dragonfish
+CR: '1'
+XP: '400'
+Alignment: 'N'
+Size: Small
+Type: animal
+SubType: (aquatic)
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +7
+AC: 16, touch 13, flat-footed 14
+AC_Mods: (+2 Dex, +3 natural, +1 size)
+HP: '9'
+HD: (2d8)
+Saves: Fort +3, Ref +5, Will +0
+Fort: '3'
+Ref: '5'
+Will: '0'
+DefensiveAbilities: camouflage, spines
+Speed: swim 20 ft.
+Melee:
+  - bite +2 (1d4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: poison
+AbilityScores:
+  - 10
+  - 15
+  - 11
+  - 2
+  - 11
+  - 4
+BaseAtk: '1'
+CMB: '0'
+CMD: 12 (can't be tripped)
+Feats:
+  - Skill Focus (Perception)
+Skills:
+  - Perception +7
+  - Stealth +10
+  - Swim +10
+RacialMods: Dragonfish use their Dexterity modifier for Swim checks.
+Environment: any aquatic
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This small flat fish has brown scales mottled with black. A series of
+  needle-like spines runs the length of the fish on its dorsal side.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Spines (Ex)
+    description: >-
+      A creature that steps on a dragonfish or strikes it with an unarmed strike
+      or a natural weapon takes 1d4 points of piercing damage from the fish's
+      dorsal barbs and is subjected to its poison. Melee weapons do not endanger
+      a user in this way. A charging or running creature must immediately stop
+      if it steps on a dragonfish. A creature that takes more than 2 points of
+      damage from a dragonfish's barb has its speed is reduced by half because
+      its foot is wounded. This movement penalty lasts until the barb is
+      removed, requiring a DC 15 Heal check at least 1 point of magical healing.
+      A failure on the Heal check to remove a dragonfish spine results in 1d4
+      additional points of damage.
+  - name: Dragonfish Poison (Ex)
+    description: >-
+      Spine-injury; save Fort DC 11; frequency 1/round for 6 rounds; effect 1d2
+      Constitution; cure 1
+  - name: save Camouflage (Ex)
+    description: >-
+      It takes a successful DC 20 Perception check to recognize a motionless
+      dragonfish for what it really is.
+Description:
+  - >-
+    A dragonfish is a small, 2-foot long, flat fish that makes its home on the
+    bottom of shallow lakes, rivers, or streams. The dragonfish's back is
+    covered with long, sharp spines. A dragonfish's dorsal spines carry a
+    virulent poison that is delivered whenever an opponent contacts a spine.
+    They are non-aggressive and spend their days eating miniscule water
+    creatures, insects, and aquatic plants.
+  - >-
+    Dragonfish are not aggressive and prefer to lie on the bottom of a body of
+    water, waiting for a victim to step on it so its poisonous spines penetrate
+    the victim's flesh. If forced into melee, a dragonfish attacks with its
+    bite.
+  - >-
+    Credit The Dragonfish originally appeared in the First Edition Fiend Folio
+    (© TSR/Wizards of the Coast, 1981) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Albie
+    Fiore.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3458'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

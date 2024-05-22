@@ -1,0 +1,124 @@
+Name: Nairoth
+CR: '17'
+XP: '102400'
+Race: nightwalker
+MonsterSource: >-
+  Pathfinder Player Companion: Monster Summoner's Handbook 19, Pathfinder RPG
+  Bestiary 2 201
+Alignment: CE
+Size: Huge
+Type: undead
+SubType: (extraplanar, fire, nightshade)
+Init: '2'
+Senses:
+  - darksense, darkvision 60 ft., low-light vision
+  - Perception +29
+Aura: desecrating aura (30 ft.)
+AC: 31, touch 10, flat-footed 29
+AC_Mods: (+2 Dex, +21 natural, -2 size)
+HP: '241'
+HD: (21d8+105)
+Saves: Fort +14, Ref +11, Will +19
+Fort: '14'
+Ref: '11'
+Will: '19'
+DR: 15/good and silver, 5/-
+Immune: cold, fire, undead traits
+SR: '27'
+Weaknesses: light aversion
+Speed: 40 ft.
+Melee:
+  - 2 claws +27 (3d6+14/19-20 plus 3d6 fire and 4d6 cold)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: channel negative energy 8/day (DC 29, 8d6), fear gaze, swift sundering
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +21)
+  values:
+    - label: Constant
+      value: air walk, detect magic, magic fang
+    - label: At Will
+      value: >-
+        contagion (DC 19), deeper darkness, greater dispel magic, unholy blight
+        (DC 19)
+    - label: 3/day
+      value: >-
+        confusion (DC 19), haste, hold monster (DC 20), invisibility, quickened
+        unholy blight (DC 19)
+    - label: 1/day
+      value: >-
+        cone of cold (DC 20), finger of death (DC 22), plane shift (DC 22),
+        summon (level 7, 4 greater shadows)
+AbilityScores:
+  - 35
+  - 14
+  - —
+  - 20
+  - 21
+  - 21
+BaseAtk: '15'
+CMB: +31 (+33 disarm, sunder)
+CMD: 41 (43 vs. disarm and sunder)
+Feats:
+  - Combat Expertise
+  - Command Undead
+  - Greater Sunder
+  - Greater Vital Strike
+  - Improved Critical (claw)
+  - Improved Disarm
+  - Improved Sunder
+  - Improved Vital Strike
+  - Power Attack
+  - Quicken Spell-Like Ability (unholy blight)
+  - Vital Strike
+Skills:
+  - Intimidate +29
+  - Knowledge (arcana
+  - religion) +29
+  - Knowledge (planes) +26
+  - Perception +29
+  - Sense Motive +29
+  - Spellcraft +29
+  - Stealth +18 (+26 in darkness)
+  - Swim +33
+RacialMods: +8 Stealth in darkness
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Dwarven
+  - Ignan
+  - Infernal
+  - telepathy 100 ft.
+Source: PFS 8-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear Gaze (Su)
+    description: >-
+      Cower in fear for 1 round, 30 feet, Will DC 25 negates. This is a
+      mind-affecting fear effect. The save DC is Charisma-based.
+  - name: Swift Sundering (Su)
+    description: Nairoth can make a sunder attempt as a swift action with one of its claws.
+DuringCombat: >-
+  Nairoth casts deeper darkness at the start of combat from within the cyclone
+  of fire, followed by quickened unholy blight. It then casts haste and emerges
+  from the cyclone, targets groups of enemies with cone of cold and individual
+  spellcasters that prove to be able to penetrate its spell resistance with
+  finger of death on subsequent rounds. If reduced to 120 of fewer hit points,
+  Nairoth uses its summon ability to call 4 greater shadows.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: fiery|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11619'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,94 @@
+Name: Reszavass
+CR: '3'
+XP: '800'
+Race: lizardfolk
+Class: druid 3
+MonsterSource: Pathfinder RPG Bestiary 195
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (reptilian)
+Init: '1'
+Senses:
+  - Perception +6
+AC: 18, touch 11, flat-footed 17
+AC_Mods: (+2 armor, +1 Dex, +5 natural)
+HP: '36'
+HD: (5d8+13)
+Saves: Fort +8, Ref +2, Will +7
+Fort: '8'
+Ref: '2'
+Will: '7'
+Speed: 30 ft., swim 15 ft.
+Melee:
+  - bite +4 (1d4+1), 2 claws +4 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 3rd; concentration +5)
+  values:
+    - label: 5/day
+      value: lightning arc (1d6+1 electricity)
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 3rd; concentration +5)   2nd-bear's endurance, chill
+  metal (DC 14), wind wallD   1st-entangle (DC 13), hydraulic pushAPG, magic
+  fang, obscuring mistD   0 (at will)-create water, detect poison, purify food
+  and drink (DC 12), resistance
+SpellDomains: Air
+AbilityScores:
+  - 13
+  - 12
+  - 15
+  - 7
+  - 14
+  - 14
+BaseAtk: '3'
+CMB: '4'
+CMD: '15'
+Feats:
+  - Iron Will
+  - Multiattack
+  - Power Attack
+Skills:
+  - Acrobatics +5
+  - Handle Animal +7
+  - Knowledge (nature) +5
+  - Perception +6
+  - Survival +9
+  - Swim +13
+RacialMods: +4 Acrobatics
+Languages:
+  - Druidic
+  - Polyglot
+SQ: >-
+  hold breath, nature bond (Air domain), nature sense, trackless step, wild
+  empathy +5, woodland stride
+Source: Ire Of The Storm
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If Reszavass notices strangers approaching from her high perch, she casts
+  bear's endurance on herself.
+DuringCombat: >-
+  Reszavass remains above the fight, protecting herself with wind wall and using
+  her entangle, chill metal, and lightning arcs to target enemies.
+Morale: >-
+  Reszavass fights until the death, believing the power of the storm will
+  protect her.
+Gear: brooch of shielding, wand of cure moderate wounds (8 charges)
+OtherGear: mwk leather armor
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8382'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,124 @@
+Name: Blackfire Adept
+CR: '8'
+XP: '4800'
+Race: Human
+Class: sorcerer 6/Blackfire Adept 3
+MonsterSource: 'Pathfinder Campaign Setting: Paths of Prestige 12'
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +9
+AC: 23, touch 13, flat-footed 20
+AC_Mods: (+4 armor, +2 Dex, +1 dodge, +2 natural, +4 shield)
+HP: '66'
+HD: (9d6+33)
+Saves: Fort +5, Ref +5, Will +7; +2 vs. poison
+Fort: '5'
+Ref: '5'
+Will: '7'
+Save_Mods: +2 vs. poison
+Resist: electricity 5
+Speed: 30 ft.
+Melee:
+  - mwk dagger +6 (1d4+1/19-20) or 2 claws +5 (1d4+1 plus 1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: blackfire pact
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 8th; concentration +12)
+  values:
+    - label: 4th (4/day)
+      value: dimension door
+    - label: 3rd (6/day)
+      value: rage, stinking cloud (DC 18), summon monster III
+    - label: 2nd (7/day)
+      value: bull's strength, glitterdust (DC 17), mirror image, rope trick
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 15), grease (DC 16), mage armor, magic missile,
+        protection from good, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed, detect magic, light, mage hand, message, open/close,
+        read magic
+AbilityScores:
+  - 12
+  - 14
+  - 14
+  - 12
+  - 10
+  - 18
+BaseAtk: '4'
+CMB: '5'
+CMD: '18'
+Feats:
+  - Augment Summoning
+  - Craft Wondrous Item
+  - Dodge
+  - Eschew Materials
+  - Extend Spell
+  - Spell Focus (conjuration)
+  - Sacred SummonsUM
+  - Toughness
+Skills:
+  - Bluff +12
+  - Knowledge (arcana) +13
+  - Knowledge (planes) +13
+  - Linguistics +2
+  - Perception +9
+  - Spellcraft +13
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+SQ: blackfire taint, bloodline arcana (summoned creatures gain DR 3/good)
+Source: AP 75
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blackfire Pact (Su)
+    description: >-
+      As a standard action, a Blackfire Adept can create a destructive resonance
+      between herself and a target within 30 feet. She gains a +1 profane bonus
+      on attack rolls and caster level checks against the target, while the
+      target takes a -1 penalty on saves against the adept's attacks and spells
+      (&#8211;2 against conjuration effects). This effect lasts for 2 rounds
+      (Will DC 16 reduces to 1 round), and the effect ends if the target moves
+      more than 30 feet away from the Blackfire Adept.
+  - name: Blackfire Taint (Su)
+    description: >-
+      A Blackfire Adept gains a +1 profane bonus on saving throws, caster level
+      checks, Charisma checks, and Charisma-based skill checks against demons.
+Bloodline: abyssal
+BeforeCombat: A Blackfire Adept casts bull's strength, mage armor, and shield before combat.
+DuringCombat: >-
+  A Blackfire Adept prefer to hang back in combat. She begins by casting mirror
+  image, followed by a summon monster III spell to summon a dretch. An Adept is
+  fond of using grease on weapons or holy symbols, and of preparing an action to
+  cast magic missile at spellcasters in order to disrupt their spellcasting.
+Morale: >-
+  A Blackfire Adept saves at least one 4th-level spell to escape, casting
+  dimension door once reduced to fewer than 15 hit points to relocate to area
+  Q16, where she knocks on the door to area Q19 to report. Adepts may be
+  encountered again at Vang's side if the PCs reach area Q19 within 24 hours;
+  otherwise, adepts return to their duties. At Vang's side, a Blackfire Adept
+  fights to the death.
+Gear: wand of summon monster IV (14 charges)
+OtherGear: amulet of natural armor +2, mwk dagger, 17 pp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5120'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

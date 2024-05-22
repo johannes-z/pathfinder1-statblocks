@@ -1,0 +1,135 @@
+Name: Ursathella
+CR: '13'
+XP: '25600'
+Race: lamia matriarch
+Class: fighter 1/eldritch knight 5
+MonsterSource: Pathfinder RPG Bestiary 2 175
+Alignment: CE
+Size: Large
+Type: monstrous humanoid
+Init: '8'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +4
+AC: 33, touch 14, flat-footed 28
+AC_Mods: (+7 armor, +4 Dex, +1 dodge, +8 natural, +4 shield, -1 size)
+HP: '207'
+HD: (18 HD; 12d10+1d10+5d10+109)
+Saves: Fort +16, Ref +16, Will +16
+Fort: '16'
+Ref: '16'
+Will: '16'
+Immune: mind-affecting effects
+SR: '19'
+Weaknesses: unhinged
+Speed: 40 ft., climb 40 ft., fly 60 ft. (good), swim 40 ft.
+Melee:
+  - >-
+    +3 unholy scythe +28/+23/+18/+13 (2d4+13/19-20/x4 plus 1 Wisdom drain on
+    first hit each round), touch +19 (1d4 Wisdom drain+10)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: Wisdom drain (DC 23)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +19)
+  values:
+    - label: Constant
+      value: charm monster (DC 21), ventriloquism (DC 18)
+    - label: 3/day
+      value: >-
+        deep slumber (DC 20), dream, major image (DC 20), mirror image,
+        suggestion (DC 20)
+SpellsKnown:
+  header: >-
+    Spells Known (CL 10th; concentration +17)   5th (4)-cloudkill (DC 22)   4th
+    (6)-cure serious wounds, unholy blight (DC 21)   3rd (8)-fly, haste,
+    lightning bolt (DC 20)   2nd (8)-cure moderate wounds, glitterdust (DC 19),
+    misdirection, scorching ray   1st (8)-alarm, cure light wounds, lead
+    bladesAPG, magic missile, shield
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 17), acid splash, detect magic, dancing lights, ghost sound
+        (DC 17), mage hand, mending, message, read magic
+AbilityScores:
+  - 24
+  - 19
+  - 20
+  - 16
+  - 18
+  - 25
+BaseAtk: '18'
+CMB: '26'
+CMD: 41 (can't be tripped)
+Feats:
+  - Arcane Armor Mastery
+  - Arcane Armor Training
+  - Arcane Strike
+  - Craft Magic Arms and Armor
+  - Dodge
+  - Improved Critical (scythe)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Power Attack
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (scythe)
+Skills:
+  - Climb +26
+  - Fly +22
+  - Intimidate +28
+  - Knowledge (arcana) +24
+  - Knowledge (dungeoneering) +12
+  - Profession (miner) +25
+  - Spellcraft +24
+  - Swim +26
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+SQ: >-
+  change shape (fixed Medium humanoid form, alter self), diverse training,
+  undersized weapons
+Source: AP 76
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Female
+BeforeCombat: >-
+  Ursathella casts misdirection twice per day to help hide her aura, and alarm
+  twice per day on the western portion of area A8 so that anyone entering the
+  room from those doors triggers a mental alarm in her head. She casts fly on
+  herself before entering battle.
+DuringCombat: >-
+  Ursathella casts haste on herself in the first round of battle, then uses
+  unholy blight, lightning bolt, and scorching ray to make attacks at range
+  while she flies out of reach. If her enemies use ranged attacks but can't fly
+  themselves, she's fond of dropping a cloudkill on them and then preparing
+  actions to attack them as they emerge from the vapors&#8211;but she might fly
+  down into the mists to attack PCs if they don't emerge after too long,
+  exposing herself to the spell's effects. She casts lead blades as soon as she
+  needs to enter melee combat, but often moves around to attack new foes each
+  round rather than taking advantage of a full attack action. She uses healing
+  on herself when she's reduced to fewer than 50 hit points if she can, but
+  doesn't bother to cast defensively when she does.
+Morale: >-
+  Ursathella has a difficult time envisioning a loss in battle, and fights to
+  the death as a result.
+Gear: >-
+  +3 chain shirt, +3 unholy scythe, cloak of resistance +2, facial piercings
+  worth 750 gp in all, key to cage
+OtherGear: scrolls of sending (3)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5409'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

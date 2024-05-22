@@ -1,0 +1,172 @@
+Name: Balor Lord
+CR: '25'
+XP: '1638400'
+Race: Male balor lord
+Class: barbarian 5
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision, true seeing
+  - Perception +44
+Aura: flaming body, unholy aura (DC 27)
+AC: 33, touch 17, flat-footed 27
+AC_Mods: (+4 deflection, +6 Dex, +16 natural, -1 size, -2 rage)
+HP: '518'
+HD: (20d10+5d12+375)
+Saves: Fort +31, Ref +17, Will +25
+Fort: '31'
+Ref: '17'
+Will: '25'
+DefensiveAbilities: improved uncanny dodge, trap sense +1
+DR: 15/cold iron and good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+SR: '31'
+Speed: 50 ft., fly 90 ft. (good)
+Melee:
+  - >-
+    (rage) +1 vorpal unholy longsword +40/+35/+30/+25 (2d6+17), +1 vorpal
+    flaming whip+39/+34/+29 (1d4+9 plus 1d6 fire and entangle) or 2 slams
+    +40(1d10+16)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with whip)
+SpecialAttacks: rage (27 rounds/day), rage powers (knockback)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: Constant
+      value: true seeing, unholy aura(DC 27)
+    - label: At will
+      value: >-
+        dominate monster (DC 28), greater dispel magic, greater teleport (self
+        plus 50 lbs. of objects only), power word stun, telekinesis(DC 24)
+    - label: 3/day
+      value: quickened telekinesis(DC 24)
+    - label: 1/day
+      value: >-
+        blasphemy (DC 26), fire storm (DC 27), implosion(DC 28), summon (level
+        9, any 1 CR 19 or lower demon 100%)
+AbilityScores:
+  - 43
+  - 23
+  - 44
+  - 24
+  - 26
+  - 29
+BaseAtk: '25'
+CMB: '41'
+CMD: '66'
+Feats:
+  - Cleave
+  - Combat Reflexes
+  - Critical Focus
+  - Great Cleave
+  - Great Fortitude
+  - Greater Two-Weapon Fighting
+  - Improved Initiative
+  - Improved Two-Weapon Fighting
+  - Iron Will
+  - Power Attack
+  - Quicken Spell-Like Ability (telekinesis)
+  - Two-Weapon Fighting
+  - Weapon Focus (longsword)
+Skills:
+  - Acrobatics +31
+  - Bluff +37
+  - Diplomacy +37
+  - Fly +36
+  - Intimidate +37
+  - Knowledge (history) +29
+  - Knowledge (nobility) +29
+  - Knowledge (planes) +35
+  - Knowledge (religion) +28
+  - Perception +44
+  - Sense Motive +36
+  - Stealth +30
+  - Use Magic Device +37
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+SQ: death throes, fast movement, lifedrinker, vorpal strike, whip mastery
+Environment: any (Abyss)
+Organization: solitary or warband (1 balor and 2-5 glabrezus)
+Treasure: standard (+1 vorpal unholy longsword, +1 vorpal flaming whip, other treasure)
+Description_Visual: >-
+  This towering, burning demon wears black, spiky armor and carries two
+  weapons-a jagged sword and a whip of flames.
+Group: Demon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Entangle (Ex)
+    description: >-
+      If a balor lord strikes a Medium or smaller foe with its whip, the balor
+      can immediately attempt a grapple check without provoking an attack of
+      opportunity. If the balor wins the check, it draws the foe into an
+      adjacent square. The foe gains the grappled condition, but the balor does
+      not.
+  - name: Lifedrinker (Su)
+    description: >-
+      Whenever the balor lord slays a living foe, it receives the benefits of a
+      heal spell (CL 20th). This ability can activate up to once per round.
+Description:
+  - >-
+    Even more terrible than the typical balor are those who do not call a demon
+    lord their master, but instead are masters themselves. A balor lord
+    typically rules over a region no larger than half the size of the realm in
+    which it resides (as only full demon lords can command the rule of an entire
+    Abyssal realm), and even though most balor lords rule much smaller regions
+    (generally areas comparable in size to a single continent), their power is
+    vast indeed. A balor lord is typically a CR 21 to CR 25 monster (a range
+    shared with the various unique nascent demon lords, with the range of CR 26
+    and above being the domain of the demon lords themselves), and as such
+    serves quite well as the final villain in a long-running campaign. The
+    majority of balor lords have several levels of barbarian, fighter, or ranger
+    (although ranger balor lords never form bonds with animals), but some
+    instead have levels of bard, rogue, sorcerer, or wizard. Cleric balor lords
+    are unknown, as they see themselves as objects of worship, not the other way
+    around, although rumors persist of powerful balor clerics that directly
+    serve demon lords or even evil gods. In addition to any benefits a balor
+    lord might gain from its class levels, all balor lords possess one
+    additional unique ability over and above those granted by its race and
+    class. Listed here are three sample balor lord abilities, but these samples
+    are by no means the entirety of the strange powers a balor lord might wield.
+  - >-
+    Lifedrinker (Su)Whenever the balor lord slays a living foe, it receives the
+    benefits of a heal spell (CL 20th). This ability can activate up to once per
+    round.
+  - >-
+    Master of Magic (Su) The balor lord has additional spell-like abilities (20
+    spell levels' worth of 1st-4th level spells usable at will and 20 spell
+    levels' worth of 5th-8th level spells usable 3 times a day).
+  - >-
+    Soul Swallow (Su)As a standard action, the balor lord can inhale the soul of
+    a living creature within 30 feet. The target must make a Fortitude save (DC
+    10 + 1/2 balor lord's racial HD + the balor lord's Charisma modifier) or
+    die. The body of a humanoid creature killed in this manner immediately
+    transforms into a demon under the balor lord's command (a babau, succubus,
+    or shadow demon, according to the balor lord's whim).
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4846'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

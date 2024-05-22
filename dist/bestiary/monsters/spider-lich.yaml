@@ -1,0 +1,175 @@
+Name: Spider Lich
+CR: '10'
+XP: '9600'
+Alignment: CE
+Size: Large
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +21
+Aura: fear (60 ft. radius, DC 19)
+AC: 19, touch 12, flat-footed 16
+AC_Mods: (+3 Dex, +7 natural, -1 size)
+HP: '102'
+HD: (12d8+48)
+Saves: Fort +7, Ref +7, Will +10
+Fort: '7'
+Ref: '7'
+Will: '10'
+DefensiveAbilities: channel resistance +4
+DR: 15/bludgeoning and magic
+Immune: cold, electricity, undead traits
+Speed: 40 ft., climb 40 ft.
+Melee:
+  - bite +11 (2d8+3 plus paralysis and poison)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: web (+11 ranged, DC 19, 12 hp)
+SpellsKnown:
+  header: Spells Known (CL 12th; melee touch +10, ranged touch +11)
+  values:
+    - label: 6th (3/day)
+      value: chain lightning (DC 19)
+    - label: 5th (5/day)
+      value: cloudkill (DC 18), dominate person (DC 18)
+    - label: 4th (6/day)
+      value: bestow curse (DC 17), crushing despair (DC 17), enervation
+    - label: 3rd (7/day)
+      value: fireball (DC 16), haste (DC 16), rage, slow (DC 16)
+    - label: 2nd (7/day)
+      value: alter self, blur (DC 15), darkness, see invisibility, web (DC 15)
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 14), jump (DC 14), ray of enfeeblement (DC 14),
+        shield, true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 13), daze (DC 13), detect magic, ghost sound (DC
+        13), light, mage hand, ray of frost, touch of fatigue (DC 13)
+AbilityScores:
+  - 15
+  - 17
+  - —
+  - 16
+  - 14
+  - 16
+BaseAtk: '9'
+CMB: '12'
+CMD: 28 (36 vs. trip)
+Feats:
+  - Blind-Fight
+  - Combat Casting
+  - Defensive Combat Training
+  - Empower Spell
+  - Toughness
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +11
+  - Climb +25
+  - Intimidate +18
+  - Knowledge (arcana) +18
+  - Knowledge (planes) +9
+  - Perception +21
+  - Sense Motive +11
+  - Spellcraft +18
+  - Stealth +18
+RacialMods: +8 Acrobatics, +4 Perception, +4 Stealth
+Languages:
+  - Common
+  - Undercommon
+  - plus two others
+SQ: rejuvenation
+Environment: any
+Organization: solitary or troop (1 spider lich plus 2-4 wraiths or spectres)
+Treasure: standard
+Description_Visual: >-
+  This chill of death emanates from this giant skeletal spider. Its blackened
+  eyes show a remarkable intelligence.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear Aura (Su)
+    description: >-
+      Creatures of less than 5 HD in a 60-foot radius that look at the spider
+      lich must succeed on a DC 19 Will save or become frightened. Creatures
+      with 5 HD or more must succeed at a Will save or be shaken for 1d6+6
+      rounds. A creature that successfully saves cannot be affected again by the
+      same spider lich's aura for one day. This is a mind-affecting fear effect.
+  - name: Paralyzing Bite (Su)
+    description: >-
+      Any living creature a spider lich hits with its bite attack must succeed
+      on a DC 19 Fortitude save or be paralyzed for 1d6+12 minutes. Remove
+      paralysis or any spell that can remove a curse can free the victim (see
+      the bestow curse spell description). The effect cannot be dispelled.
+      Anyone paralyzed by a spider lich seems dead, though a DC 20 Perception
+      check or a DC 15 Heal check reveals that the victim is still alive.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save DC 21 Fort; frequency 1/round for 6/rounds; effect 1d4
+      Strength damage; cure 1 save. The save is Charisma-based and includes a +2
+      racial bonus.
+  - name: Rejuvenation (Su)
+    description: >-
+      When a spider lich is destroyed, its phylactery (which is generally hidden
+      by the spider lich in a safe place far from where it chooses to dwell)
+      immediately begins to rebuild the undead spider lich's body nearby. This
+      process takes 1d10 days-if the body is destroyed before that time passes,
+      the phylactery merely starts the process anew. Spells A spider lich does
+      not require any verbal, somatic, or material components to cast its
+      spells.
+Description:
+  - >-
+    The true origin of the spider lich is shrouded in mystery. Scholars argue
+    constantly about its origins and how it came into existence. Some stand by
+    the theory that intelligent giant spiders, perhaps phase spiders or some
+    offshoot race of that dreaded creature, discovered the path to lichdom.
+    Others contend a spider lich is the byproduct of a failed sorcerer's attempt
+    at lichdom. Still others argue that the spider lich is simply a
+    spellcaster's chosen form once it achieved lichhood. Whatever its true
+    origins, the spider lich is truly a dreaded creature that many adventurers
+    hope they never run across.
+  - >-
+    Spider liches are most often encountered underground in dungeons, caves, and
+    crypts or in ruined temples and shrines, leading to further speculation
+    among scholars as to the creature's origins. They do not associate with true
+    spiders but are often encountered with other undead, particularly wraiths
+    and spectres.
+  - >-
+    Spider liches have an insatiable thirst for knowledge. Countless days,
+    months, years are spent pouring over ancient texts and tomes. Though evil by
+    nature, spider liches often work with other creatures, particularly evil
+    spellcasters to quench their thirst for this knowledge.
+  - >-
+    Spider liches stand over 8 feet tall and resemble skeletal spiders. Their
+    eight eyes are deep black in color. Other than the sound of their bony legs
+    clattering across stone floors, these creatures make no sound. They can
+    speak a variety of languages but rarely do so.
+  - The Spider Lich's Phylactery
+  - >-
+    An integral part of becoming a spider lich is the creation of the phylactery
+    in which the creature stores its spirit. The only way to get rid of a spider
+    lich for sure is to destroy its phylactery. Unless its phylactery is located
+    and destroyed, a spider lich can rejuvenate after it is killed.
+  - >-
+    The typical spider lich phylactery is a gemstone of not less than 1,000 gp
+    value. The spider lich hides the gemstone in a safe place and wraps it
+    securely in a complex mesh of super strong webbing (DR 10/-, 24 hp).
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5070'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

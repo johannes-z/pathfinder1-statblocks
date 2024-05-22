@@ -1,0 +1,100 @@
+Name: Advanced Jack-O'-Lantern
+CR: '4'
+XP: '1200'
+Race: Jack-o'-lantern
+MonsterSource: Pathfinder RPG Bestiary 4 160
+Alignment: NE
+Size: Medium
+Type: plant
+Init: '0'
+Senses:
+  - low-light vision, tremorsense 30 ft.
+  - Perception +7
+Aura: fear (20 ft., DC 15)
+AC: 17, touch 10, flat-footed 17
+AC_Mods: (+7 natural)
+HP: '37'
+HD: (5d8+15)
+Saves: Fort +6, Ref +1, Will +3
+Fort: '6'
+Ref: '1'
+Will: '3'
+Immune: plant traits
+Resist: fire 15
+Speed: 30 ft.
+Melee:
+  - bite +7 (1d6+4), slam +7 (1d4+4 plus strangling ensnare)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with slam)
+SpecialAttacks: >-
+  breath weapon (20-ft. cone, 1d10 fire, Reflex DC 14 half, usable every 1d4
+  rounds), explode, strangling ensnare (DC 16)
+AbilityScores:
+  - 19
+  - 11
+  - 14
+  - 8
+  - 14
+  - 9
+BaseAtk: '3'
+CMB: '7'
+CMD: 17 (can't be tripped)
+Feats:
+  - Ability Focus (strangling ensnare)
+  - Skill Focus (Stealth)
+  - Toughness
+Skills:
+  - Perception +7
+  - Stealth +9
+SQ: pumpkin form
+Source: PFS 8-06
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Explode (Ex)
+    description: >-
+      One round after a jack-o'-lantern is reduced to 0 or fewer hit points, it
+      explodes in a burst of flaming spores. Creatures within 10 feet must
+      succeed at a DC 14 Reflex save or take 3d6 points of fire damage and be
+      stunned for 1 round. On a successful save, a creature takes half damage
+      and is not stunned. The save DC is Constitution-based.
+  - name: Fear Aura (Su)
+    description: >-
+      Any creature within 30 feet of a jack-o'-lantern must succeed at a DC 15
+      Will save or be shaken for 2d6 minutes. If a creature succeeds at this
+      Will save, it is immune to that jack-o'-lantern's fear aura for 24 hours.
+      This is a vision-based mind-affecting fear effect. The save DC is
+      Charisma-based and includes a +4 racial bonus.
+  - name: Pumpkin Form (Su)
+    description: >-
+      A jack-o'-lantern can shrink in size and douse its sinister fiery
+      radiance, allowing it to blend in almost perfectly with normal pumpkins
+      and take 20 on its Stealth checks to hide in plain sight as a normal
+      pumpkin. While using this ability, a jack-o'-lantern loses its fear aura.
+      A jack-o'- lantern can use this ability as a full-round action and end it
+      as a free action.
+  - name: Strangling Ensnare (Ex)
+    description: >-
+      A jack-o'-lantern's slam attack entangles the target in its vines for 2d4
+      rounds unless the target succeeds at a DC 16 Reflex save. The target can
+      attempt to burst these entangling vines before the duration expires with a
+      successful DC 14 Strength check as a full-round action. While the target
+      is entangled, its vines also grasp at the target's mouth. The target
+      cannot speak or cast spells with verbal components while it is entangled
+      by the jack-o'-lantern. When a creature is entangled by this ability, the
+      jack-o'-lantern loses its slam attack, but it can end this ability as a
+      free action. The save and the burst DCs are Constitution-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8744'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

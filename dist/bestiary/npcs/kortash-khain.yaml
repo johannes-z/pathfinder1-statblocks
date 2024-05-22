@@ -1,0 +1,167 @@
+Name: Kortash Khain
+CR: '23'
+XP: '819200'
+Race: ghoul
+Class: cleric of Kabriri 5/sorcerer (wildblooded) 5/mystic theurge 10/hierophant 6
+MonsterSource: Pathfinder RPG Mythic Adventures 32, Pathfinder RPG Ultimate Magic 70
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '11'
+Senses:
+  - darkvision 60 ft., deathwatch 30 ft., true seeing
+  - Perception +11
+AC: 39, touch 22, flat-footed 34
+AC_Mods: (+5 armor, +5 deflection, +5 Dex, +2 luck, +7 natural, +5 shield)
+HP: '391'
+HD: (22 HD; 2d8+5d8+5d6+10d6+308)
+Saves: Fort +25, Ref +17, Will +34
+Fort: '25'
+Ref: '17'
+Will: '34'
+DefensiveAbilities: >-
+  channel resistance +2, contingencies, hard to kill, mind blank, mythic saving
+  throws
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +12 (1d6+1 plus disease and paralysis), 2 claws +12 (1d4+1 plus
+    paralysis), staff of power +14/+9/+4 (1d6+3)
+Ranged:
+  - ray +17 (by spell/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  alter channel, the blood is the lifeUM (13/day), channel negative energy
+  15/day (DC 22, 3d6), death's kiss (2 rounds, 14/day), disease, divine surge
+  (inspired spell), eldritch breach, enduring blessing (1 minute/level), faith's
+  reach, lore keeper, mythic power (15/day, surge +1d8), paralysis (1d4+1
+  rounds, DC 21, elves are immune to this effect), spell synthesis
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 22nd)
+  values:
+    - label: 2/day
+      value: ghoul touch
+    - label: 1/day
+      value: undead minionBOTD2
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 15th; concentration +25)
+  values:
+    - label: 7th (5/day)
+      value: finger of deathM, (DC 29), power word blind, prismatic sprayM
+    - label: 6th (8/day)
+      value: >-
+        contagious flameAPG, contingencyM, greater dispel magic, undeath to
+        death (DC 28)
+    - label: 5th (8/day)
+      value: >-
+        cone of cold (DC 25), dominate personM (DC 25), mage's private sanctum,
+        teleport, waves of fatigue
+    - label: 4th (8/day)
+      value: >-
+        animate dead, bestow curse (DC 26), charm monster (DC 24), enervationM,
+        fire shield
+    - label: 3rd (8/day)
+      value: >-
+        fly, hold person (DC 23), magic circle against good, nondetection,
+        vampiric touchM 2nd (9/day, 8 remaining)-command undead (DC 23), false
+        life (cast once), mirror image, resist energy, scorching ray, spider
+        climbM
+    - label: 1st (9/day)
+      value: >-
+        chill touch (DC 23), expeditious retreat, feather fall, ray of
+        enfeeblement (DC 23), silent image (DC 21), vanish
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, dancing lights, ghost sound (DC 20), mage
+        hand, message, prestidigitation, read magic, tough of fatigue
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 15th; concentration +26) 8th-fire stormM (DC 29),
+  mind blankD (already cast), unholy aura 7th-destructionD (2, DC 29), empowered
+  flame strike (2), repulsion (DC 28) 6th-create undeadD, greater dispel magic,
+  harmM (2, DC 29), plague storm, word of recall 5th-plane shiftM (DC 26),
+  scrying (DC 26), slay livingD (3, DC 27), steal powerMA (DC 28), true seeing
+  (already cast) 4th-aura of doom, blessing of fervorAPG, dismissal (DC 25),
+  divine power, enervationD, M (2), freedom of movement 3rd-bestow curse (3, DC
+  25), dispel magic, magic vestment (already cast), prayerM (2), seek
+  thoughtsAPG, D 2nd-darknessM, ghoul touchD (DC 25), remove paralysis, resist
+  energy (2), silenceM (2, DC 23), spiritual weapon 1st-comprehend languagesD,
+  divine favor, entropic shield, protection from good (3), shield of faithM (2)
+  0 (at will)-detect magic, guidance, light, mending
+SpellDomains: Death (Undead subdomainAPG), Knowledge (Thought subdomainAPG)
+AbilityScores:
+  - 13
+  - 21
+  - —
+  - 17
+  - 32
+  - 31
+BaseAtk: '11'
+CMB: '12'
+CMD: '32'
+Feats:
+  - Accursed CriticalUM
+  - Craft Wondrous Item
+  - Demonic ObedienceBOTD2
+  - Empower Spell
+  - Eschew Materials
+  - Extra Channel
+  - Improved Critical (ray)
+  - Mythic Spell Lore
+  - Spell FocusM (necromancy)
+  - Thanatopic SpellUM
+  - ToughnessM
+  - Weapon Focus (ray)
+Skills:
+  - Intimidate +32
+  - Knowledge (arcana
+  - planes
+  - religion) +28
+  - Spellcraft +28
+  - Use Magic Device +24
+Languages:
+  - Common
+SQ: >-
+  amazing initiative, aura, bloodline arcana (+1 caster level with necromancy
+  spells), combined spells (5th), exceptional wealth, ghoulish apotheosis (+4
+  Charisma), mythic spellcasting, recuperation
+Source: Mythic Realms
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 21; onset 1 day; frequency 1 day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at
+      the next midnight; a humanoid with 4 Hit Dice or more rises as a ghast.
+  - name: Exceptional Wealth (Ex)
+    description: >-
+      Kortash Khain has the wealth of a 20th-level PC, rather than an NPC. This
+      increases his CR by 1.
+Gender: Male
+Bloodline: undead (sanguineUM);
+Gear: >-
+  crown of conquestUE, extend metamagic rod, greater strand of prayer beads,
+  ring of spell turning, scroll of tongues, staff of necromancy, staff of power
+OtherGear: >-
+  +4 mithral buckler, amulet of natural armor +5, belt of incredible dexterity
+  +6, cloak of resistance +5, darkskull (invisibility purge), deathwatch eyes,
+  headband of mental prowess +6 (Wis, Cha), ring of protection +5, eye ointment
+  (worth 250 gp), gold and platinum holy symbol (worth 1,000 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: wildblooded
+CompanionFamiliarLink: '0'
+id: '4929'
+UniqueMonster: '0'
+Variant: '0'
+MR: '6'
+Mythic: '1'
+MT: '6'

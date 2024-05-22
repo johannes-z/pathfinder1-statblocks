@@ -1,0 +1,117 @@
+Name: Blightguard
+CR: '11'
+XP: '12800'
+Race: redcap
+Class: fighter 3
+MonsterSource: Pathfinder RPG Bestiary 6 46, Pathfinder RPG Bestiary 2 233
+Alignment: CE
+Size: Medium
+Type: fey
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +16
+AC: 25, touch 17, flat-footed 18
+AC_Mods: (+3 armor, +6 Dex, +1 dodge, +5 natural)
+HP: '154'
+HD: (11 HD; 8d8+3d10+102)
+HP_Mods: fast healing 5
+Saves: Fort +13, Ref +13, Will +11 (+1 vs. fear)
+Fort: '13'
+Ref: '13'
+Will: +11 (+1 vs. fear)
+DefensiveAbilities: evasion, fungal rejuvenation
+DR: 10/ cold iron and good
+Immune: disease, paralysis, poison, polymorph
+Resist: cold 10, electricity 10
+SR: '22'
+Weaknesses: chimeric anatomy, irreligious
+Speed: 80 ft.
+Melee:
+  - Large +1 cold iron sickle +16/+11 (1d8+12), kick +9 (1d6+11)
+Ranged:
+  - thorn throw +13 (1d6+11)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: parasitic bond
+AbilityScores:
+  - 24
+  - 23
+  - 26
+  - 14
+  - 15
+  - 17
+BaseAtk: '7'
+CMB: '14'
+CMD: '31'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Mobility
+  - Power Attack
+  - Spring Attack
+  - ToughnessB
+  - Vital Strike
+  - Weapon Focus (sickle)
+Skills:
+  - Acrobatics +17 (+37 when jumping)
+  - Bluff +14
+  - Climb +19
+  - Escape Artist +18
+  - Intimidate +14
+  - Knowledge (nature) +15
+  - Perception +16
+  - Sense Motive +14
+  - Stealth +19
+RacialMods: +2 Knowledge (nature), +2 Perception, +2 Stealth
+Languages:
+  - Aklo
+  - Common
+  - Sylvan
+SQ: >-
+  armor training 1, blighted unity, boot stomp, heavy weapons, quickling speed,
+  red cap, tainted blood
+Source: AP 119
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Chimeric Anatomy (Ex)
+    description: >-
+      A blightguard gains the weaknesses of both its component fey
+      types-quickling and redcap. If subject to a slow spell or effect, a
+      blightguard loses access to its quickling speed ability and its fast
+      healing, and is sickened for the effect's duration. If it fails a save for
+      the redcap irreligious weakness, it loses access to its quickling speed in
+      addition to gaining the frightened condition.
+  - name: Quickling Speed (Su)
+    description: >-
+      Thanks to its quickling components, a blightguard moves with unnatural
+      speed and grace that makes it difficult to target, increasing its base
+      speed by 20 feet. Any time a blightguard moves at least 10 feet in a
+      round, it gains concealment (20% miss chance) until the beginning of its
+      next turn. This ability also grants the blightguard evasion (as per the
+      rogue ability).
+BeforeCombat: >-
+  Blightguards neither sleep nor eat, standing guard at their posts until
+  dispatched to a new duty.
+DuringCombat: >-
+  In combat, blightguards prefer to remain mobile, relying on their unnatural
+  speed and oversized weapons to whittle away at foes.
+Morale: Blightguards fight until slain.
+Gear: +1 leather armor, Large +1 cold iron sickle
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: blighted|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11495'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

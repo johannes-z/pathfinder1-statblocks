@@ -1,0 +1,242 @@
+Name: Xaphan
+CR: '26'
+XP: '2460000'
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '12'
+Senses:
+  - darkvision 60 ft., detect magic, detect good, detect thoughts
+  - Perception +51
+Aura: fire (5 ft., 1d6 fire plus 1d6 unholy damage)
+AC: 46, touch 27, flat-footed 38
+AC_Mods: (+8 Dex, +19 natural, -1 size, +10 profane)
+HP: '717'
+HD: (35d10+525)
+HP_Mods: regeneration 10 (good, silver)
+Saves: Fort +26, Ref +29, Will +30
+Fort: '26'
+Ref: '29'
+Will: '30'
+DR: 20/good and silver
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '37'
+Speed: 40 ft., fly 60 ft. (average)
+Melee:
+  - >-
+    +4 unholy flaming burst falchion +52/+47/+42/+37 (2d6+23/15-20 plus 1d6
+    fire)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: fiery gaze
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: Constant
+      value: detect magic, detect good, detect thoughts (DC 22)
+    - label: At will
+      value: >-
+        animate dead, blasphemy (DC 27), discern location, fireball (DC 23),
+        greater dispel magic, greater teleport (self plus 50 pounds of objects
+        only), improved invisibility (self only), magic circle against good (DC
+        23), locate creature, polymorph (self only), produce flame (DC 22),
+        pyrotechnics (DC 22), resurrection, scorching ray, suggestion (DC 23),
+        true seeing (DC 26), unhallow, unholy aura (DC 28), wall of fire
+    - label: 3/day
+      value: >-
+        summon (level 9, 2 barbed devils, bone devils or horned devils, 1d4
+        bearded devils or hellstokers, or 1d2 pit fiends 100%)
+    - label: 1/day
+      value: >-
+        limited wish, power word kill, symbol of fear (DC 26), symbol of
+        weakness (DC 27)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 20th)
+  values:
+    - label: 9th (7/day)
+      value: >-
+        energy drain (DC 29), prismatic sphere (DC 29), wail of the banshee (DC
+        29)
+    - label: 8th (7/day)
+      value: binding (DC 28), sunburst (DC 28), trap the soul (DC 28)
+    - label: 7th (7/day)
+      value: >-
+        delayed blast fireball (DC 27), finger of death (DC 27), waves of
+        exhaustion
+    - label: 6th (8/day)
+      value: greater dispel magic, chain lightning (DC 26), planar binding (DC 26)
+    - label: 5th (8/day)
+      value: >-
+        baleful polymorph (DC 25), break enchantment, cloudkill (DC 25),
+        dismissal (DC 25)
+    - label: 4th (8/day)
+      value: >-
+        crushing despair (DC 24), dimensional anchor, enervation, phantasmal
+        killer (DC 24)
+    - label: 3rd (8/day)
+      value: daylight, deep slumber (DC 23), haste (DC 23), nondetection (DC 23)
+    - label: 2nd (9/day)
+      value: >-
+        arcane lock, gust of wind (DC 22), misdirection (DC 22), shatter (DC
+        22), spider climb
+    - label: 1st (9/day)
+      value: >-
+        cause fear (DC 21), charm person (DC 21), disguise self, hypnotism (DC
+        21), ray of enfeeblement
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, daze (DC 20), dancing lights, ghost sound, ray
+        of frost, read magic, resistance, touch of fatigue (DC 20)
+AbilityScores:
+  - 37
+  - 27
+  - 40
+  - 28
+  - 28
+  - 30
+BaseAtk: '35'
+CMB: '49'
+CMD: '77'
+Feats:
+  - Alertness
+  - Bleeding Critical
+  - Cleave
+  - Combat Casting
+  - Craft Wondrous Item
+  - Critical Focus
+  - Deceitful
+  - Empower Spell
+  - Great Cleave
+  - Improved Critical (falchion)
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Quicken Spell
+  - Quicken Spell-Like Ability (fireball)
+  - Weapon Focus (falchion)
+  - Widen Spell
+Skills:
+  - Acrobatics +46
+  - Bluff +52
+  - Diplomacy +45
+  - Disguise +12
+  - Fly +44
+  - Heal +47
+  - Intimidate +48
+  - Knowledge (arcana) +47
+  - Knowledge (local) +44
+  - Knowledge (planes) +47
+  - Knowledge (religion) +44
+  - Perception +51
+  - Sense Motive +51
+  - Spellcraft +44
+  - Stealth +42
+  - Survival +44
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Daemonic
+  - Draconic
+  - Giant
+  - Ignan
+  - Infernal
+  - Terran
+  - telepathy 100 ft.
+Environment: any (Infernus)
+Organization: solitary or troupe (Xaphan plus 1-2 pit fiends)
+Treasure: double standard
+Description_Visual: >-
+  A massively built satyr-like creature with blackish-brown flesh, this monster
+  tightens its grip on its fiery falchion. Small horns jut from its forehead,
+  just above its golden eyes. Its hair is long and black, and tied back in a
+  braided ponytail. Two, large bat wings protrude from its back.
+Group: Devil
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fiery Aura (Su)
+    description: >-
+      As a free action, Xaphan can cause his entire body to erupt in unholy fire
+      (the same fires he uses to stoke his furnaces). Creatures within 5 feet of
+      or grappling Xaphan take 1d6 points of fire damage and 1d6 points of
+      unholy damage each round. There is no save against either effect, but
+      resistance to or immunity to fire reduces or negates the fire damage.
+  - name: Fiery Gaze (Su)
+    description: >-
+      A creature that meets Xaphan's gaze must succeed on a DC 36 Will save or
+      be affected as follows: 1st-round: The victim's blood begins to boil,
+      dealing 3d6 points of fire damage this round; the victim takes a -2
+      circumstance penalty on attack rolls, weapon damage rolls, ability and
+      skill checks, and saves. A DC 37 Fortitude save halves the fire damage but
+      does not negate the penalties. 2nd-round: The victim's blood reaches
+      searing temperatures and begins to burn away muscle and flesh; the
+      circumstance penalty increases to -4. Smoke rises from the victim's flesh.
+      The victim takes 6d6 points of fire damage this round. A DC 37 Fortitude
+      save halves the fire damage but does not negate the penalties. 3rd-round:
+      The victim's blood erupts into an inferno and explodes from its body
+      dealing 12d6 points of fire damage; the victim is stunned for 3 rounds. A
+      DC 37 Fortitude save halves the fire damage but the victim is still
+      stunned. A successful Will save renders a creature immune to Xaphan's gaze
+      for one day. The save DC against the gaze is Charisma-based and the
+      Fortitude saves are Constitution-based. Hellstorm: Xaphan's unique weapon,
+      Hellstorm, is a Large +4 unholy flaming burst falchion.
+Description:
+  - >-
+    "The Unholy Schism was the beginning of what is to come. Every angelic
+    being, every creature of good, and all that oppose Great Lucifer shall be
+    consumed in eternal and everlasting fire." Xaphan. Xaphan, the Burning Duke,
+    serves Lucifer, leading 15 companies of pit fiends in his service. He is
+    completely loyal to the Prince of Darkness and was with Lucifer during the
+    Unholy Schism. It was Xaphan that, during the Unholy Schism, attempted to
+    set the heavens on fire and consume each and every angel and celestial in a
+    blazing inferno. Xaphan was cast down along with Lucifer and the other
+    angels for their sacrilege and it is said he helped Lucifer construct Hell
+    itself. It is known among scholars that Xaphan was the one that stoked
+    Hell's furnaces in Lucifer's great basalt palace, powering the furnaces with
+    unholy fire fed by tortured souls. When Asmodeus and the other devils rose
+    against Lucifer, Xaphan fought against the uprising and slew many devils,
+    even inflicting a near-fatal wound on Asmodeus himself. (The intervention of
+    a devil named Mephistopheles saved Asmodeus from ultimate destruction.) In
+    the end however, Xaphan was cast out of Hell along with Lucifer and now
+    resides in Infernus, a pocket-plane of infernal and everlasting fires
+    located somewhere in the great configuration. From Lucifer's great palace,
+    Malefacta, Xaphan aids Lucifer in replenishing his forces and increasing his
+    power with the ultimate goal being the reclaiming of Hell's Throne. And when
+    the battle for Hell does come, Xaphan will be beside Lucifer once again-and
+    this time, Mephistopheles won't be able to stop Xaphan from finishing off
+    Asmodeus. Xaphan spends his days in Malefacta where he keeps a legion of
+    hellstoker devils busy stoking the furnaces and a retinue of barbed devils
+    forging weapons for the eventual war to reclaim Hell. Xaphan stands 13 feet
+    tall and weighs 800 pounds. Xaphan is a deadly adversary in battle and
+    rarely, if ever, backs down from a fight. He is not stupid however, and
+    should the battle go against him, he either flees (via greater teleport) or
+    summons a troupe of pit fiends to cover his escape. In battle, Xaphan
+    unleashes his full fury against a foe; starting with his fiery gaze. Those
+    that survive are then witness to his fiery aura power. If within range, he
+    likes to grab a foe and hold on while using his fiery aura power. The rest
+    of the battle alternates between Xaphan using his great falchion and his
+    spells and spell-like abilities. Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: Hellstorm
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2518'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

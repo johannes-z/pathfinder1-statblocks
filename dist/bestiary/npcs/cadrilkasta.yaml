@@ -1,0 +1,175 @@
+Name: Cadrilkasta
+CR: '19'
+XP: '204800'
+Race: wyrm blue dragon
+MonsterSource: Pathfinder RPG Bestiary 94
+Alignment: LE
+Size: Gargantuan
+Type: dragon
+SubType: (earth)
+Init: '2'
+Senses:
+  - blindsense 60 ft., darkvision 120 ft., dragon senses
+  - Perception +34
+Aura: electricity (10 ft., 2d6 electricity), frightful presence (330 ft., DC 28)
+AC: 39, touch 4, flat-footed 39
+AC_Mods: (-2 Dex, +35 natural, -4 size)
+HP: '351'
+HD: (26d12+182)
+Saves: Fort +22, Ref +15, Will +20; +2 vs. conjuration spells
+Fort: '22'
+Ref: '15'
+Will: '20'
+Save_Mods: +2 vs. conjuration spells
+DefensiveAbilities: evasion, freedom of movement
+DR: 20/ magic
+Immune: electricity, paralysis, sleep
+SR: '30'
+Weaknesses: curse of sloth
+Speed: 20 ft., burrow 10 ft., fly 125 ft. (clumsy)
+Melee:
+  - >-
+    bite +38 (4d6+16/19-20), claw +38 (2d8+16), tail slap +33 (2d8+19), 2 wings
+    +36 (2d6+9)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  breath weapon (120-ft. line, 22d8 electricity, Reflex DC 30 half, usable every
+  1d4 rounds), crush (4d6+19, DC 30), desert thirst (DC 28), mirage, storm
+  breath (DC 30), tail sweep (2d6+19, DC 30)
+SpellLikeAbilities:
+  header: Dragon Spell-Like Abilities (CL 26th; concentration +35)
+  values:
+    - label: At Will
+      value: >-
+        create water, ghost sound (DC 15), hallucinatory terrain (DC 19), minor
+        image (DC 16), veil (DC 21), ventriloquism (DC 16) Shard of Sloth
+        Spell-Like Abilities (CL 26th; concentration +35)
+    - label: 1/day
+      value: summon monster III
+SpellsKnown:
+  header: >-
+    Spells Known (CL 15th; concentration +25)  7th (4)-greater scrying (DC 22),
+    prismatic spray (DC 22)  6th (6)-chain lightning (DC 21), contingency,
+    geas/quest  5th (7)-dominate person (DC 20), nightmare (DC 20), sending,
+    teleport  4th (7)-charm monster (DC 19), greater invisibility, phantasmal
+    killer (DC 19), wall of ice  3rd (7)-dispel magic, displacement, gaseous
+    form, slow (DC 18)  2nd (7)-alter self, command undead (DC 17), detect
+    thoughts (DC 17), glitterdust (DC 17), scorching ray  1st (8)-charm person
+    (DC 16), endure elements, grease (DC 16), magic missile, reduce person (DC
+    16)
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), detect magic, light, mage hand, message, open/close,
+        prestidigitation, read magic, touch of fatigue (DC 15)
+AbilityScores:
+  - 37
+  - 6
+  - 25
+  - 20
+  - 21
+  - 20
+BaseAtk: '26'
+CMB: '43'
+CMD: 51 (55 vs. trip)
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Critical Focus
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Maximize Spell
+  - Multiattack
+  - Power Attack
+  - Quicken Spell
+  - Staggering Critical
+  - Vital Strike
+Skills:
+  - Bluff +34
+  - Diplomacy +34
+  - Fly +13
+  - Intimidate +34
+  - Knowledge (arcana) +34
+  - Knowledge (geography) +34
+  - Knowledge (history) +34
+  - Knowledge (nature) +34
+  - Perception +34
+  - Sense Motive +34
+  - Stealth +15
+Languages:
+  - Aquan
+  - Common
+  - Draconic
+  - Giant
+  - Thassilonian
+  - Varisian
+SQ: contingency, sound imitation
+Source: AP 65
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Female
+BeforeCombat: Cadrilkasta casts endure elements every day.
+Morale: >-
+  During Combat Although Cadrilkasta is a dangerous foe, the curse that afflicts
+  her helps to soften that danger somewhat. She doesn't bother casting many
+  preparatory spells before combat, and for the first few rounds of battle she
+  doesn't bother taking more than a move action, and stays in her nest. She
+  clutches the Shard of Sloth tightly in one claw at all times, which prevents
+  her from making a second claw attack even when she does start making full
+  attacks. At the start of combat, Cadrilkasta activates her storm breath
+  ability, calling down a bolt of lightning on the closest foe. She continues
+  calling down bolts each round until she's reduced to fewer than 250 hit
+  points. At this point, she realizes she's up against significant foes. She
+  then leaps into the air and starts taking her full complement of actions (at
+  which point her curse makes her sickened). She prefers not to make full
+  attacks, and instead swoops back and forth while casting spells or breathing
+  lightning on the PCs. She also starts using Quicken Spell to cast additional
+  spells each round&#8211;displacement on the first round, followed by
+  glitterdust, scorching ray, magic missile, grease, and reduce person. She
+  saves a 7th-level spell slot for summon monster VII, three 5th-level spell
+  slots for her teleport spells, and at least two 4th-level slots for charm
+  monster spells to be used as detailed in her  section if she flees. Once she's
+  reduced to fewer than 150 hit points, her contingency spell activates, turning
+  her invisible. She then casts teleport to retreat to area F3, where she casts
+  summon monster VII to summon 1d3 lillend azatas, then orders them to heal her
+  with cure serious wounds and cure light wounds. Once they exhaust their
+  healing, she uses her mirage ability to create a duplicate image of herself
+  farther up the tunnel, making it appear that she's come back to cast more
+  spells and breathe more lightning at foes while her lillends move up to attack
+  the PCs as well. As soon as her mirage ends or the PCs confront her in F3, she
+  lands in their midst and starts making full attacks (still minus one claw
+  attack).   Cadrilkasta tries to escape if reduced to 60 hit points or fewer,
+  taking with her only the treasures she carries or wears and leaving the rest
+  behind in area F10. She casts teleport to return to area F1, then flees
+  through the portal back to area E3 in the Embassy of Leng (she doesn't realize
+  she can do the same by fleeing into the clouds below). The dragon makes her
+  way back through the dungeons&#8211;pausing to breathe a bolt of lightning
+  into the pit at area E3 to wake up and anger the bhole so that pursuing PCs
+  need to deal with it (unless they've already damaged the bhole enough to make
+  it retreat for an extended time). As she works her way back up through the
+  dungeon, Cadrilkasta uses charm monster to recruit additional creatures to
+  slow down her pursuers. Once she exits the dungeon (or immediately upon
+  returning to the Material Plane if the abysium reactor is no longer
+  functioning), she uses teleport to escape into an old lair in the Kodar
+  Mountains.
+Gear: >-
+  amulet of mighty fists +3, portable hole, ring of evasion, ring of freedom of
+  movement, Shard of Sloth, contingency statuette worth 4,500 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: wyrm
+CompanionFamiliarLink: '0'
+id: '3705'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

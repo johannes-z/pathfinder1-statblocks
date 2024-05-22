@@ -1,0 +1,113 @@
+Name: Sonthonax
+CR: '10'
+XP: '9600'
+Race: juvenile bronze dragon
+Alignment: LG
+Size: Large
+Type: dragon
+SubType: (water)
+Init: '1'
+Senses:
+  - dragon senses
+  - Perception +19
+AC: 24, touch 10, flat-footed 23
+AC_Mods: (+1 Dex, +14 natural, -1 size)
+HP: '126'
+HD: (12d12+48)
+Saves: Fort +12, Ref +9, Will +12
+Fort: '12'
+Ref: '9'
+Will: '12'
+Immune: dragon traits, electricity, paralysis, sleep
+Speed: 40 ft., fly 200 ft. (poor), swim 60 ft.
+Melee:
+  - >-
+    bite +17 (2d6+9), 2 claws +17 (1d8+6), tail slap +15 (1d8+3), 2 wings +15
+    (1d6+3)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (80-ft. line, 8d6 electricity, Reflex DC 20 for half, usable
+  every 1d4 rounds), repulsion breath
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: At Will
+      value: create food and water, speak with animals
+SpellsKnown:
+  header: Spells Known (CL 3rd; concentration +7)
+  values:
+    - label: 1st (6/day)
+      value: air bubbleUC, protection from evil, touch of the seaAPG (DC 15)
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, message, resistance
+AbilityScores:
+  - 23
+  - 12
+  - 19
+  - 18
+  - 19
+  - 18
+BaseAtk: '12'
+CMB: '19'
+CMD: 30 (34 vs. trip)
+Feats:
+  - Cleave
+  - Flyby Attack
+  - Great Cleave
+  - Hover
+  - Multiattack
+  - Power Attack
+Skills:
+  - Bluff +15
+  - Diplomacy +15
+  - Fly +10
+  - Intimidate +15
+  - Knowledge (arcana) +17
+  - Knowledge (local) +17
+  - Perception +19
+  - Sense Motive +16
+  - Spellcraft +18
+  - Stealth +12
+  - Survival +14
+  - Swim +18
+  - Use Magic Device +19
+Languages:
+  - Aquan
+  - Common
+  - Draconic
+  - Elven
+  - Halfling
+  - Osiriani
+SQ: change shape, water breathing, wave mastery
+Source: Dragons Unleashed
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  If planning a raid on a slave ship, Sonthonax often outfits his humanoid
+  allies with air bubble and touch of the sea to give them more freedom in the
+  water.
+DuringCombat: >-
+  Sonthonax prefers to fight from both air and sea, diving beneath the waves,
+  then erupting over the side of a ship and strafing the vessel with his breath
+  weapon. He often uses his repulsion at the helm of the ship to force the pilot
+  and any crew away from the wheel, rendering the ship uncontrolled.
+Morale: >-
+  If reduced to a quarter of his hit points, Sonthonax removes himself from
+  battle. He presses on longer if lives are at stake, including those of the
+  slaves he hopes to free and his own allies.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: juvenile
+CompanionFamiliarLink: '0'
+id: '4462'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

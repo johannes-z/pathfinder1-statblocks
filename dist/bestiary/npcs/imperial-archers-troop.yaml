@@ -1,0 +1,87 @@
+Name: Imperial Archers Troop
+CR: '10'
+XP: '9600'
+Race: Imperial Archers Troop
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (human, troop)
+Init: '10'
+Senses:
+  - Perception +19
+AC: 24, touch 16, flat-footed 18
+AC_Mods: (+4 armor, +6 Dex, +4 natural)
+HP: '114'
+HD: (12d8+60)
+Saves: Fort +13, Ref +12, Will +5
+Fort: '13'
+Ref: '12'
+Will: '5'
+DefensiveAbilities: troop traits
+Speed: 30 ft.
+Melee:
+  - troop (3d4+3)
+Space: 20 ft.
+Reach: 5 ft.
+SpecialAttacks: volley
+AbilityScores:
+  - 17
+  - 22
+  - 17
+  - 10
+  - 12
+  - 13
+BaseAtk: '9'
+CMB: '15'
+CMD: '28'
+Feats:
+  - Agile Maneuvers
+  - Combat Reflexes
+  - Great Fortitude
+  - Improved Initiative
+  - Lightning Reflexes
+  - Skill Focus (Perception)
+Skills:
+  - Perception +19
+  - Profession (soldier) +16
+Languages:
+  - Common
+SQ: elite troop, united spirit
+Source: Lands Of Conflict
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Elite Troop (Ex)
+    description: >-
+      See the imperial infantry troop stat block on page 60. The additional die
+      step of damage also applies to the troop's volley attack, as noted below.
+  - name: United Spirit (Ex)
+    description: See the imperial infantry troop stat block on page 60.
+  - name: Volley (Ex)
+    description: >-
+      An imperial archers troop is trained and optimized for ranged combat. As a
+      standard action, the troop can fire a volley of arrows. This attack takes
+      the form of up to four lines with a distance of up to 100 feet each. These
+      lines can each start from any corner of any square in the troop's space,
+      and the troop can accurately shoot over friendly creatures or large groups
+      of individual creatures (though it cannot shoot over spaces smaller than a
+      10-foot-by-10-foot square). Each creature in any of these lines that is
+      not excluded in this way takes 4d8+3 points of piercing damage per line
+      that hits it (Reflex DC 20 half). The save is Dexterity-based. The archers
+      wield composite bows but are not accustomed to melee combat; this lowers
+      the troop's AC by 2 and its troop melee damage by two die steps. These
+      effects have already been calculated into the troop's stat block.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11112'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

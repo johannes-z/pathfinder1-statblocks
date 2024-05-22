@@ -1,0 +1,122 @@
+Name: The Mirza's Mullah Tier 8-9
+CR: '8'
+XP: '4800'
+Race: human
+Class: cleric of ahriman 8
+MonsterSource: Advanced Bestiary 76
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '1'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +11
+AC: 20, touch 11, flat-footed 19
+AC_Mods: (+7 armor, +1 Dex, +2 natural)
+HP: '75'
+HD: (8d8+32)
+Saves: Fort +8, Ref +3, Will +10
+Fort: '8'
+Ref: '3'
+Will: '10'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 20 ft., climb 20 ft.
+Melee:
+  - >-
+    2 claw +11 (1d6+5 plus paralysis), bite +11 (1d6+5 plus  disease and
+    paralysis)
+  - +1 heavy mace +13/+8 (1d8+6), bite +6 (1d6+2 plus disease and  paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 7/day (DC 16, 4d6), command ghouls, create spawn,
+  destructive aura (+4, 8 rounds/ day), destructive smite (+4, 7/day), disease,
+  paralysis (1d4+1 rounds, DC 16; elves are immune to this effect)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 7/day
+      value: touch of darkness (4 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 8th; concentration +12)  4th-divine power, inflict
+  critical woundsD (DC 18), order's wrath (DC 18), unholy blight (DC 18) 
+  3rd-bestow curse (DC 17), invisibility purge, magic circle against good,
+  prayer, rageD  2nd-blindness/deafnessD (DC 16; blindness only), death knell
+  (DC 16), desecrate, hold person (DC 16), spiritual weapon  1st-bane (DC 15),
+  cause fear (DC 15), entropic shield, divine favor, shield of faith, true
+  strikeD  0 (at will)-bleed (DC 14), detect magic, resistance, virtue
+SpellDomains: Darkness, Destruction
+AbilityScores:
+  - 20
+  - 12
+  - —
+  - 12
+  - 19
+  - 14
+BaseAtk: '6'
+CMB: '11'
+CMD: '22'
+Feats:
+  - Combat Casting
+  - Extra Channel
+  - Improved Channel
+  - Toughness
+  - Weapon Focus (heavy mace)
+Skills:
+  - Climb +18
+  - Knowledge (religion) +12
+  - Perception +12
+  - Spellcraft +12
+  - Survival +12
+RacialMods: +8 Climb, +8 Survival
+Languages:
+  - Ancient Osiriani
+SQ: aura, eyes of darkness (4 rounds/day)
+Source: PFS S2-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Ghouls (Su)
+    description: >-
+      A dread ghoul can automatically command all normal ghouls within 30 feet
+      as a free action. Normal ghouls never attack a dread ghoul unless
+      compelled.
+  - name: Create Spawn (Su)
+    description: >-
+      Any creature killed by a dread ghoul that is not subsequently eaten rises
+      at the next midnight as a dread ghoul.
+  - name: The new dread ghoul is not under the control of its creator Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 16; onset 1 day; frequency 1/day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves.
+Gender: Male
+BeforeCombat: >-
+  The Mullah lies immobile on the ground and feigns mortal injury to lure PCs
+  toward him. When the first PC approaches within 10 feet, he rolls over and
+  channels negative energy to harm the PCs.
+DuringCombat: >-
+  The Mullah casts defensively for as long as he can safely do so, allowing his
+  minions to fight melee, and healing them as needed with channeled negative
+  energy. If forced into close combat, however, the Mullah fights with his mace.
+Morale: >-
+  The Mullah can think of no greater honor than being destroyed serving his lord
+  and the great div Ahriman. He fights until destroyed.
+Gear: pearl of power (1st)
+OtherGear: +1 breastplate, +1 heavy mace, dust of illusion, unholy symbol
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: dread ghoul|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4722'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

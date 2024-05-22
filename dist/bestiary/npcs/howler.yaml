@@ -1,0 +1,99 @@
+Name: Howler
+CR: '3'
+XP: '800'
+Race: Howler
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, evil, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +13
+AC: 15, touch 11, flat-footed 13
+AC_Mods: (+2 Dex, +4 natural, -1 size)
+HP: '37'
+HD: (5d10+10)
+Saves: Fort +6, Ref +6, Will +3
+Fort: '6'
+Ref: '6'
+Will: '3'
+Speed: 60 ft.
+Melee:
+  - bite +7 (2d6+4), quills +2 (1d4+1 plus pain)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: howl
+AbilityScores:
+  - 17
+  - 15
+  - 15
+  - 6
+  - 14
+  - 10
+BaseAtk: '5'
+CMB: '9'
+CMD: '21'
+Feats:
+  - Combat Reflexes
+  - Improved Initiative
+  - Skill Focus (Perception)
+Skills:
+  - Acrobatics +10
+  - Climb +11
+  - Perception +13
+  - Stealth +6
+Languages:
+  - Abyssal
+SQ: abyssal strike, quill defense
+Source: AP 26
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Abyssal Strike (Ex)
+    description: >-
+      A howler's bite and quills are considered to be chaotically aligned and
+      evil-aligned for the purpose of overcoming damage reduction.
+  - name: Howl (Su)
+    description: >-
+      A howler's constant howling is a grating, exhausting baying that can drive
+      listeners insane. All beings other than outsiders within 120 feet of a
+      howling howler must succeed on a DC 12 Will save or become cursed by the
+      creature's howl. Once a creature becomes cursed in this way, he suffers no
+      additional penalty for being exposed to additional howlers' howls until
+      the current curse is lifted. This is a sonic mindaffecting effect. The
+      save DC is Charisma-based. Howler Howl: Curse; save Fort DC 12 negates;
+      frequency 1/hour; effect 1 Wis damage; cure 1 save.
+  - name: Pain (Ex)
+    description: >-
+      Whenever a creature takes damage from a howler's quill attack or quill
+      defense, he must make a DC 14 Reflex save or bits of the quills break off
+      in his flesh, causing the target to become sickened until the quill
+      fragments are removed. Removing quill fragments requires a DC 20 Heal
+      check made as a full-round action-on a failed check, the quills are still
+      removed but the process causes 1d4+1 points of damage. The save DC is
+      Dexterity-based.
+  - name: Quill Defense (Ex)
+    description: >-
+      Any creature that strikes a howler with a non-reach melee weapon, an
+      unarmed strike, or a natural weapon takes 1d4+1 points of piercing damage
+      from the howler's quills.
+DuringCombat: >-
+  As soon as they notice the PCs, the howlers use their howl attack on the first
+  round of combat to alert the rest of the Asmodean Knot, then rush in to bite
+  and thrash about with their quills.
+Morale: The howlers fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '18'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

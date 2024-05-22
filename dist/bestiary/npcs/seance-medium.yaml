@@ -1,0 +1,121 @@
+Name: Seance Medium
+CR: '9'
+XP: '6400'
+Race: human
+Class: bard 10
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +15
+AC: 13, touch 13, flat-footed 11
+AC_Mods: (+1 deflection, +2 Dex)
+HP: '58'
+HD: (10d8+10)
+Saves: >-
+  Fort +4, Ref +9, Will +9; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '4'
+Ref: '9'
+Will: '9'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - +1 light mace +10/+5 (1d6)
+Ranged:
+  - +1 blowgun +11/+6 (1d2+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 29 rounds/day (move action; countersong, dirge of doom,
+  distraction, fascinate, inspire competence +3, inspire courage +2, inspire
+  greatness, suggestion)
+SpellsKnown:
+  header: Bard Spells Known (CL 10th; concentration +17)
+  values:
+    - label: 4th (2/day)
+      value: legend lore, modify memory (DC 21)
+    - label: 3rd (4/day)
+      value: blink, dispel magic, major image (DC 20), scrying (DC 20)
+    - label: 2nd (5/day)
+      value: >-
+        cure moderate wounds (DC 19), hypnotic pattern (DC 19), suggestion (DC
+        19), summon swarm, whispering wind
+    - label: 1st (7/day)
+      value: >-
+        comprehend languages, hideous laughter (DC 18), silent image (DC 18),
+        unseen servant, ventriloquism (DC 18)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 17), lullaby (DC 17), mage
+        hand, open/close
+AbilityScores:
+  - 8
+  - 14
+  - 12
+  - 10
+  - 14
+  - 24
+BaseAtk: '7'
+CMB: '6'
+CMD: '19'
+Feats:
+  - Deceitful
+  - Point-Blank Shot
+  - Precise Shot
+  - Skill Focus (Bluff)
+  - Weapon Finesse
+  - Weapon Focus (blowgun)
+Skills:
+  - Bluff +23
+  - Diplomacy +20
+  - Disguise +9
+  - Knowledge (arcana) +11
+  - Knowledge (history) +9
+  - Knowledge (planes) +12
+  - Knowledge (religion) +13
+  - Perception +15
+  - Perform (act) +16
+  - Perform (keyboard) +20
+  - Perform (oratory) +16
+  - Sense Motive +10
+  - Sleight of Hand +10
+  - Spellcraft +10
+Languages:
+  - Common
+SQ: >-
+  bardic knowledge +5, jack-of-all-trades (use any skill), lore master 1/day,
+  versatile performance (act, keyboard, oratory)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The bard drinks a potion of eagle's splendor.
+DuringCombat: >-
+  The bard disrupts spellcasters with dispel magic or readied blowgun attacks,
+  and casts blink to protect himself in melee.
+Gear: >-
+  elixir of fire breath, potions of eagle's splendor (2), potions of mage armor
+  (2)
+OtherGear: >-
+  +1 blowgun, +1 light mace, headband of alluring charisma +2, ring of
+  protection +1, 343 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without eagle's splendor, the bard's statistics are Bard Spells Known reduce
+  spell DCs by 2; Cha 20; Skills Bluff +21, Diplomacy +18, Disguise +7, Perform
+  (act) +14, Perform (keyboard) +18, Perform (oratory) +14.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3625'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

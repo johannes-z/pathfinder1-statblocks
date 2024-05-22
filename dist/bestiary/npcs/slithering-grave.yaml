@@ -1,0 +1,81 @@
+Name: Slithering Grave
+CR: '11'
+XP: '12800'
+Race: slithering pit
+MonsterSource: Pathfinder RPG Bestiary 6 254
+Alignment: 'N'
+Size: Large
+Type: ooze
+Init: '2'
+Senses:
+  - blindsight 60 ft., breach sense
+  - Perception +3
+AC: 23, touch 11, flat-footed 21
+AC_Mods: (+2 Dex, +12 natural, -1 size)
+HP: '150'
+HD: (12d8+96)
+HP_Mods: fast healing 5
+Saves: Fort +11, Ref +6, Will +2
+Fort: '11'
+Ref: '6'
+Will: '2'
+Immune: acid, ooze traits
+Weaknesses: breach vulnerability
+Speed: 10 ft.
+Melee:
+  - 3 tentacles +16 (1d6+7 plus pull)
+Space: 5 ft.
+Reach: 10 ft.
+SpecialAttacks: hungry pit, pull (tentacle, 5 ft.)
+AbilityScores:
+  - 24
+  - 14
+  - 24
+  - 2
+  - 6
+  - 1
+BaseAtk: '9'
+CMB: '17'
+CMD: '29'
+Feats:
+  - Combat Reflexes
+  - Power Attack
+  - Skill Focus (Perception
+  - Stealth)
+  - Toughness
+  - Weapon Focus (tentacle)
+Skills:
+  - Perception +3
+  - Stealth +22
+RacialMods: +8 Stealth
+SQ: transparent
+Source: AP 131
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Hungry Pit (Su)
+    description: >-
+      This ability functions as a slithering pit's pit ability with the
+      following exceptions. The pit created is 10 feet in diameter and is 40
+      feet deep (dealing 4d6 falling damage), and the Reflex save to avoid
+      falling into the pit increases to DC 23. The pit can hold one Large
+      creature, four Medium creatures, or eight Small creatures. The Climb check
+      to climb out of a slithering grave increases to DC 24. The slithering
+      grave does not deal acid damage to trapped creatures; instead it deals
+      1d6+7 bludgeoning and slashing damage to each trapped creature each round
+      as undead bodies reach out of the walls to claw at any creatures inside
+      the pit. The walls have an AC of 11 and hardness 10.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11822'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

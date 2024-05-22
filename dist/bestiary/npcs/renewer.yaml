@@ -1,0 +1,103 @@
+Name: Renewer
+CR: '7'
+XP: '3200'
+Race: Human
+Class: shaman 8
+MonsterSource: Pathfinder RPG Advanced Class Guide 35
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +13
+AC: 19, touch 11, flat-footed 18
+AC_Mods: (+5 armor, +1 Dex, +3 natural)
+HP: '84'
+HD: (8d8+45)
+Saves: Fort +5, Ref +4, Will +12
+Fort: '5'
+Ref: '4'
+Will: '12'
+Speed: 30 ft.
+Speed_Mod: fly 60 ft. (good)
+Melee:
+  - sickle +5/+0 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel positive energy 3/day (DC 16, 4d6), hexes (chant, friend to the
+  animals [30 ft.], misfortuneAPG, wardAPG), wandering hex (life sight)
+SpellsPrepared: >-
+  Shaman Spells Prepared (CL 8th; concentration +13)   4th-ball lightningAPG (DC
+  19), summon nature's ally IV (2); grove of respiteS, APG or restorationS  
+  3rd-burning entanglement* (DC 18), fly, remove disease, summon monster III;
+  neutralize poisonS or speak with plantsS   2nd-barkskin, false life, life
+  pactACG, spiritual weapon; barkskinS or lesser restorationS   1st-burning
+  hands (DC 16), charm person (DC 16), entangle (DC 16), goodberry, remove fear,
+  shield of faith; charm animalS (DC 16) or detect undeadS   0 (at will)-create
+  water, detect poison, guidance, stabilize
+AbilityScores:
+  - 8
+  - 12
+  - 14
+  - 10
+  - 20
+  - 14
+BaseAtk: '6'
+CMB: '5'
+CMD: '16'
+Feats:
+  - Augment Summoning
+  - Extra Hex
+  - Flexible Hex
+  - Spell Focus (conjuration)
+  - Toughness
+Skills:
+  - Diplomacy +11
+  - Fly +13
+  - Handle Animal +13
+  - Knowledge (nature) +11
+  - Perception +13
+  - Spellcraft +11
+  - Survival +9
+Languages:
+  - Common
+SQ: spirit animal (hawk), spirit of nature, storm burst
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The Renewer usually selects life as her wandering spirit. When she expects
+  combat, she casts barkskin and false life on herself. She then casts life
+  pact  on herself and all of her allies and applies her ward hex to an ally,
+  preferably one who is acting as a sentry. Finally, she casts fly on herself.
+DuringCombat: >-
+  If the Renewer is alone, she focuses on hampering effects that target a wide
+  area, such as burning entanglement. With allies, she prefers to use her
+  summoning spells and focus her efforts on keeping her most effective allies in
+  the fight, using her Flexible Hex feat to switch her life sight hex to the
+  life link hex. If her allies prove ineffective against her foes, she does not
+  waste her efforts on saving them and instead uses her offensive abilities.
+Gear: potion of invisibility, wand of cure light wounds (26 charges)
+OtherGear: >-
+  +1 mithral chain shirt, sickle, cloak of resistance +1, headband of inspired
+  wisdom +2, 4 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without barkskin, false life, and fly, the Renewer's statistics are AC 16,
+  touch 11, flat-footed 15; hp 69; Speed no fly speed; Skills Fly +5.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8970'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'
+Spirit: nature; Wandering Spirit life

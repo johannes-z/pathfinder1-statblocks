@@ -1,0 +1,143 @@
+Name: Xojject Cinderfury
+CR: '11'
+XP: '12800'
+Race: Efreeti malik
+Class: arcanist 2
+MonsterSource: Pathfinder RPG Bestiary 140, Pathfinder RPG Advanced Class Guide 8
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (fire)
+Init: '6'
+Senses:
+  - darkvision 60 ft., detect magic
+  - Perception +20
+AC: 26, touch 14, flat-footed 23
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 dodge, +8 natural, -1 size)
+HP: '142'
+HD: (15 HD; 2d6+13d10+62)
+Saves: Fort +9, Ref +13, Will +16
+Fort: '9'
+Ref: '13'
+Will: '16'
+Immune: fire
+Weaknesses: vulnerability to cold
+Speed: 20 ft., fly 40 ft. (perfect)
+Melee:
+  - >-
+    +1 battleaxe +21/+16/+11 (2d6+8/x3 plus 1d6 fire) or 2 slams +15 (1d8+3 plus
+    1d6 fire)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  arcane reservoir (4 current, 5 maximum), arcanist exploit (dimensional slide),
+  change size, consume spells, heat
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +18)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: >-
+        plane shift (willing targets to elemental planes, astral plane, or
+        material plane only) (DC 20), produce flame, pyrotechnics (DC 15),
+        scorching ray
+    - label: 3/day
+      value: >-
+        fireball (DC 16), heat metal (DC 15), invisibility, quickened scorching
+        ray, wall of fire
+    - label: 1/day
+      value: >-
+        grant up to 3 wishes (to nongenies only), gaseous form, greater
+        invisibility, permanent image (DC 19), pyroclastic storm
+SpellsPrepared: >-
+  Arcanist Spells Prepared (CL 2nd; concentration +5)   1st (4/day)-mage armor,
+  thunderstompACG   0 (at will)-arcane mark, bleed (DC 13), mage hand, message,
+  read magic
+AbilityScores:
+  - 25
+  - 15
+  - 18
+  - 16
+  - 18
+  - 17
+BaseAtk: '14'
+CMB: '22'
+CMD: '37'
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Deceitful
+  - Dodge
+  - Improved InitiativeB
+  - Lightning Reflexes
+  - Power Attack
+  - Quicken Spell-Like Ability (scorching ray)
+  - Vital Strike
+Skills:
+  - Bluff +24
+  - Craft (calligraphy) +14
+  - Disguise +11
+  - Fly +12
+  - Intimidate +19
+  - Knowledge (all) +10
+  - Perception +20
+  - Sense Motive +20
+  - Spellcraft +20
+  - Stealth +7
+Languages:
+  - Aquan
+  - Auran
+  - Common
+  - Draconic
+  - Ignan
+  - Infernal
+  - Terran
+  - telepathy 100 ft.
+SQ: change shape (humanoid or giant; alter self or giant form I)
+Source: PFS 8-11
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Size (Sp)
+    description: >-
+      Twice per day, an efreeti can magically change a creature's size. This
+      works just like an enlarge person or reduce person spell (the efreeti
+      chooses when using the ability), except that the ability can work on the
+      efreeti. A DC 13 Fortitude save negates the effect. The save DC is
+      Charisma-based. This is the equivalent of a 2nd-level spell.
+  - name: Heat (Ex)
+    description: >-
+      An efreeti's body deals 1d6 points of fire damage whenever it hits in
+      melee, or in each round it grapples.
+BeforeCombat: >-
+  Earlier in the day, Xojject cast mage armor on himself, which is included in
+  his statblock.
+DuringCombat: >-
+  As a swift action, Xojject casts quickened scorching ray to blast the PCs from
+  afar. After, Xojject uses his dimensional slide arcanist exploit to position
+  himself next to a PC, allowing him to use Vital Strike to obliterate his
+  target.
+Morale: >-
+  Unwilling to be known as a coward, Xojject viciously fights to the death in
+  the hopes of taking one or more of the Pathfinders with him.
+Gear: >-
+  potion of cure serious wounds, potion of bull's  strength, potion of
+  protection from cold
+OtherGear: >-
+  +1 battleaxe, aegis of recoveryUE, cloak of resistance +1, ring of protection
+  +2, spellbook
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '9070'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,147 @@
+Name: Hyapatia
+CR: '14'
+XP: '38400'
+Race: lamia matriarch
+Class: sorcerer 6
+MonsterSource: Pathfinder RPG Bestiary 2 175
+Alignment: CE
+Size: Large
+Type: monstrous humanoid
+SubType: (shapechanger)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +15
+AC: 31, touch 19, flat-footed 25
+AC_Mods: (+4 armor, +4 deflection, +6 Dex, +8 natural, -1 size)
+HP: '194'
+HD: (18 HD; 12d10+6d6+107)
+Saves: Fort +10, Ref +16, Will +15
+Fort: '10'
+Ref: '16'
+Will: '15'
+Immune: mind-affecting effects
+SR: '19'
+Speed: 40 ft., climb 40 ft., swim 40 ft.
+Melee:
+  - >-
+    +1 scimitars +20/+20/+15/+15/+10 (1d6+10/15-20 plus 1 Wisdom drain on first
+    hit each round)
+  - touch +22 (1d4 Wisdom drain)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with melee touch attack)
+SpecialAttacks: long limbs (+5 ft.), Wisdom drain (1d4, Will DC 24 negates)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +20)
+  values:
+    - label: At Will
+      value: charm monster (DC 22), ventriloquism (DC 19)
+    - label: 3/day
+      value: >-
+        deep slumber (DC 21), dream, major image (DC 21), mirror image,
+        suggestion (DC 21) Bloodline Spell-Like Abilities (CL 6th; concentration
+        +14)
+    - label: 11/day
+      value: acidic ray (1d6+3 acid)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +20)
+  values:
+    - label: 6th (4/day)
+      value: planar ally
+    - label: 5th (6/day)
+      value: cone of cold (DC 23), slay living (DC 23)
+    - label: 4th (8/day)
+      value: divine power, greater invisibility, illusory wall (DC 22)
+    - label: 3rd (8/day)
+      value: cure serious wounds, dispel magic, lightning bolt (DC 21), slow (DC 21)
+    - label: 2nd (8/day)
+      value: aid, false life, grace*, scorching ray, see invisibility, weapon of awe*
+    - label: 1st (8/day)
+      value: >-
+        enlarge person (DC 19), mage armor, magic missile, ray of enfeeblement
+        (DC 19), shield of faith, unseen servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, create water, dancing lights, detect magic, guidance, mage
+        hand, prestidigitation, read magic, touch of fatigue (DC 18)
+AbilityScores:
+  - 24
+  - 23
+  - 19
+  - 16
+  - 14
+  - 26
+BaseAtk: '15'
+CMB: '23'
+CMD: 43 (can't be tripped)
+Feats:
+  - Critical Focus
+  - Double Slice
+  - Eschew Materials
+  - Extend Spell
+  - Improved Critical (scimitar)
+  - Improved Two- Weapon Fighting
+  - Quick Draw
+  - Sickening Critical
+  - Two-Weapon Fighting
+  - Weapon Focus (scimitar)
+Skills:
+  - Acrobatics +16 (+20 when jumping)
+  - Bluff +23
+  - Climb +20
+  - Diplomacy +21
+  - Disguise +21
+  - Handle Animal +20
+  - Intimidate +24
+  - Knowledge (arcana) +16
+  - Knowledge (local) +13
+  - Perception +15
+  - Spellcraft +16
+  - Stealth +16
+  - Swim +20
+  - Use Magic Device +23
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+SQ: >-
+  bloodline arcana (+50% duration on polymorphs), change shape (fixed Medium
+  humanoid form; alter self ), undersized weapons
+Source: AP 60
+IsTemplate: '0'
+Gender: Female
+Bloodline: aberrant
+BeforeCombat: >-
+  Hyapatia casts false life and mage armor every day. Before combat, she casts
+  aid, mirror image, see invisibility, and shield of faith on herself and weapon
+  of awe on both of her scimitars.
+DuringCombat: >-
+  When combat is imminent, Hyapatia casts greater invisibility, then targets
+  foes with her spells, using slow to hinder warriors and suggestion to
+  neutralize enemies. If forced into melee combat, Hyapatia casts divine power
+  and attacks, alternating scimitar strikes with her Wisdom draining touch
+  attack coupled with touch spells such as slay living.
+Morale: >-
+  If reduced to fewer than 40 hit points, Hyapatia uses her cape of the
+  mountebank to teleport to the Filthy Lucre, joining Kerdak Bonefist in area
+  Q5.
+Gear: scroll of dominate person, scroll of mage's private sanctum
+OtherGear: >-
+  +1 scimitars (2), belt of giant strength +2, cape of the mountebank, circlet
+  of persuasion, necklace of adaptation, 40 gp, jewelry worth 500 gp
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3315'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

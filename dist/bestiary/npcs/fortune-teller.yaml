@@ -1,0 +1,112 @@
+Name: Fortune-Teller
+CR: '7'
+XP: '3200'
+Race: Half-elf
+Class: bard (fortune-teller*) 8
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +14
+AC: 18, touch 13, flat-footed 15
+AC_Mods: (+5 armor, +2 Dex, +1 dodge)
+HP: '55'
+HD: (8d8+16)
+Saves: Fort +5, Ref +9, Will +8; +2 vs. enchantments
+Fort: '5'
+Ref: '9'
+Will: '8'
+Save_Mods: +2 vs. enchantments
+Immune: sleep
+Speed: 30 ft.
+Melee:
+  - mwk sap +6/+1 (1d6-1 nonlethal)
+Ranged:
+  - mwk heavy crossbow +9 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 22 rounds/ day (move action; fascinate [DC 18], inspire
+  competence +3, inspire courage +2, oracular performance, suggestion [DC 18],
+  transparent fate [DC 18])
+SpellsKnown:
+  header: Bard Spells Known (CL 8th; concentration +12)
+  values:
+    - label: 3rd (3/day)
+      value: clairaudience/ clairvoyance, glibness, hypercognitionOA
+    - label: 2nd (5/day)
+      value: augury, detect thoughts (DC 16), psychic readingOA, pyrotechnics (DC 16)
+    - label: 1st (5/day)
+      value: >-
+        charm person (DC 15), decrepit disguiseOA (DC 15), deja vuOA, object
+        readingOA, unseen servant
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 14), guidance, mage hand,
+        message
+AbilityScores:
+  - 8
+  - 14
+  - 10
+  - 13
+  - 13
+  - 18
+BaseAtk: '6'
+CMB: '5'
+CMD: '18'
+Feats:
+  - Dodge
+  - Extra Performance
+  - Great Fortitude
+  - Skill Focus (Perform [oratory])
+  - Toughness
+Skills:
+  - Knowledge (arcana) +14
+  - Knowledge (local) +14
+  - Perception +14
+  - Perform (act) +15
+  - Perform (oratory) +18
+  - Sleight of Hand +12
+  - Spellcraft +8
+  - Use Magic Device +15
+RacialMods: +2 Perception
+Languages:
+  - Common
+  - Draconic
+  - Elven
+SQ: >-
+  bardic knowledge +4, elf blood, fortune-teller's acumen, lore master 1/day,
+  versatile performances (act, oratory)
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  Fortune-tellers attempt to recruit allies before a fight, either by finding
+  like-minded criminals or by compelling innocent townsfolk to defend them.
+DuringCombat: >-
+  Fortune-tellers lead from the rear, using glibness and pyrotechnics to confuse
+  enemies, as well as their bardic performance to augment their allies'
+  abilities.
+Gear: mountebank's megaphone*, wand of levitate (5 charges), smokestick
+OtherGear: >-
+  +1 chain shirt, mwk heavy crossbow with 10 bolts, mwk sap, cloak of resistance
+  +1, crystal ball (nonmagical), mwk fortune-teller's deckUE, prognostication
+  manualOA
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: fortune-teller*
+CompanionFamiliarLink: '0'
+id: '8818'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

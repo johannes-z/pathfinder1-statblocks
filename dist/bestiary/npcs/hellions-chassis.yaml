@@ -1,0 +1,135 @@
+Name: Hellion's Chassis
+CR: '8'
+XP: '4800'
+Race: Aggregate Hellion  arachnid robot
+MonsterSource: >-
+  Pathfinder Campaign Setting: Technology Guide 59, see page 56, Pathfinder
+  Campaign Setting: Numeria, Land of Fallen Stars 56, Pathfinder RPG Mythic
+  Adventures 226
+Alignment: CE
+Size: Large
+Type: construct
+SubType: (mythicMA, robot)
+Init: +6M/-14, dual initiative
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +16
+AC: 21, touch 9, flat-footed 21
+AC_Mods: (+12 natural, -1 size)
+HP: '122'
+HD: (8d10+78)
+Saves: Fort +6, Ref +2, Will +7
+Fort: '6'
+Ref: '2'
+Will: '7'
+DefensiveAbilities: hardness 10
+Immune: construct traits
+Speed: 40 ft., climb 20 ft.
+Melee:
+  - 2 claws +16 (1d8+8 plus grab)
+  - 2 claws +11 (1d8+5 plus grab)
+Ranged:
+  - plasma beam +9 ranged touch (2d6+2 plasma)
+  - plasma beam +7/+7/+2 ranged touch (2d6+2 plasma)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: constrict (1d8+6), explode, mythic power (4/day, surge +1d8), plasma beam
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th, concentration +11)
+  values:
+    - label: 1/day
+      value: >-
+        align weapon (chaos or evil only), animate rope (DC 15), chaos hammer
+        (DC 18), command (DC 15), confusion (DC 18), dispel magic, entropic
+        shield, lesser confusion (DC 15), magic circle against good, magic
+        circle against law, minor creation, moonstruckAPG (DC 18), protection
+        from good, protection from law, rage, stone shape, touch of idiocy,
+        unholy blight (DC 18), wood shape
+AbilityScores:
+  - 22
+  - 10
+  - —
+  - 14
+  - 17
+  - 19
+BaseAtk: '8'
+CMB: '15'
+CMD: '25'
+Skills:
+  - Acrobatics +8 (+12 when jumping)
+  - Bluff +15
+  - Climb +25
+  - Disable Device +11
+  - Intimidate +16
+  - Knowledge (engineering) +13
+  - Knowledge (local) +10
+  - Knowledge (religion) +10
+  - Perception +16
+  - Sense Motive +13  Feats Alertness
+  - Combat Expertise
+  - Deadly Aim
+  - Great Fortitude
+  - Improved InitiativeM
+  - Iron WillM
+  - Point-Blank Shot
+  - Power Attack
+  - Precise Shot
+  - Weapon Focus (claws)
+  - TechnologistTG
+  - Toughness
+Languages:
+  - Androffan
+  - Common
+  - Orc
+SQ: impart mythic traits (see page 56), inherited divinity (see page 56)
+Source: AP 86
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Explode (Ex)
+    description: >-
+      If Hellion's chassis is reduced to 0 hit points, it explodes, dealing 8d4
+      points of plasma damage (half fire, half electricity) in a 20-foot-radius
+      burst (Reflex DC 14 half). The save DC Is Dexterity-based.
+  - name: Plasma Beam (Ex)
+    description: >-
+      Hellion's chassis has a plasma beam integrated into its "tail." An
+      advanced version of the typical arachnid robot's plasma torch, this plasma
+      beam is an integrated weapon. The robot treats this attack as if it were a
+      manufactured weapon, not a natural attack-it can make iterative attacks
+      with the plasma beam, and the integrated weapon can be targeted by effects
+      that target manufactured weapons (such as magic weapon spells or sunder
+      attempts). It cannot be harvested for use outside of the robot's body, and
+      does not provoke attacks of opportunity when fired in melee combat. The
+      plasma beam deals 2d6 points of damage on a hit (half of which is fire
+      damage and half of which is electricity damage), has a range increment of
+      50 feet, and is semi-automatic (see page 20 of the Technology Guide).
+DuringCombat: >-
+  While inhabiting this robot, Hellion prefers to attack with its plasma torch,
+  even in melee (because this is an integrated weapon, attacks with it do not
+  provoke attacks of opportunity). When the robot makes a full-attack action, it
+  can fire its plasma torch and attack with its claws, but if it does so, it
+  treats its claw attacks as secondary attacks.
+Morale: >-
+  Hellion fights until destroyed while inhabiting the robot, unless the central
+  processor in area S3 has been destroyed or shut down, in which case it
+  attempts to flee Scrapwall if reduced to fewer than 30 hit points. If cornered
+  in such conditions, the AI attempts to bargain for its life, offering anything
+  it can in trade for mercy, but at the first opportunity, it attempts to escape
+  from or slay its captors, either given the opportunity to do so without
+  putting itself at obvious risk or after it manages to repair its damage.
+Gear: aggression facet, ego facet
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6326'
+UniqueMonster: '0'
+Variant: '1'
+MR: '4'
+Mythic: '1'
+MT: '0'

@@ -1,0 +1,122 @@
+Name: Suasandra
+CR: '17'
+XP: '102400'
+Race: medusa
+Class: cleric of Asmodeus 11
+MonsterSource: Pathfinder RPG Bestiary 171, 201
+Alignment: LE
+Size: Medium
+Type: monstrous humanoid
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +28
+AC: 33, touch 22, flat-footed 25
+AC_Mods: (+7 armor, +4 deflection, +6 Dex, +2 dodge, +4 natural)
+HP: '256'
+HD: (19 HD; 8d10+11d8+163)
+Saves: Fort +16, Ref +15, Will +19
+Fort: '16'
+Ref: '15'
+Will: '19'
+DR: 10/magic
+Immune: poison
+Resist: acid 10, cold 10,  electricity 10, fire 10
+SR: '28'
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - bite +22 (1d6+1), claws +22 (1d4+1), snake bite +22 (1d4+1  plus poison)
+Ranged:
+  - +3 axiomatic longbow +25/+20/+15/+10 (1d8+3/19-20/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 8/day (DC 20, 6d6), petrifying gaze (DC 21), smite
+  good 1/day (as 19th level paladin, but vs. good targets)
+SpellLikeAbilities:
+  header: Half-Fiend Spell-Like Abilities (CL 19th; concentration +24)
+  values:
+    - label: 3/day
+      value: darkness, poison (DC 19), unholy aura (DC 21)
+    - label: 1/day
+      value: >-
+        desecrate, destruction (DC 22), displacement (DC 19), horrid wilting (DC
+        23), phantasmal killer (DC 19), scintillating pattern (DC 23), summon
+        monster IX (fiends only), unhallow Domain Spell-Like Abilities (CL 14th;
+        concentration +20)
+    - label: At will
+      value: master's illusion (11 rounds/day)
+    - label: 9/day
+      value: copycat, touch of evil
+    - label: 1/day
+      value: scythe of evil
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 14th; concentration +20)  6th-blade barrier (DC
+  22), heal, misleadD  5th-dispel goodD, flame strike (2, DC 21), slay living
+  (DC 21)  4th-air walk, cure serious wounds (2), spell immunity, unholy blightD
+  (DC 20)  3rd-bestow curse (DC 19), create food and water, cure serious wounds,
+  nondetectionD, stone shape, water breathing  2nd-cure moderate wounds (5),
+  darkness, invisibilityD  1st-bane, cure light wounds (3), divine favor,
+  protection from goodD, sanctuary (DC 17)  0 (at will)-bleed (DC 16), guidance,
+  read magic, resistance
+SpellDomains: Evil, Trickery
+AbilityScores:
+  - 12
+  - 22
+  - 24
+  - 12
+  - 22
+  - 21
+BaseAtk: '16'
+CMB: '17'
+CMD: 38 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Deadly Aim
+  - Dodge
+  - Improved Critical (longbow)
+  - Improved Initiative
+  - Mobility
+  - Point-Blank Shot
+  - Precise Shot
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Knowledge (engineering) +20
+  - Knowledge (religion) +15
+  - Perception +32
+  - Profession (architect) +28
+  - Spellcraft +17
+  - Swim +20
+Languages:
+  - Common
+  - Infernal
+Source: Tomb Of The Iron Medusa
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If she has time to prepare, Suasandra casts air walk, spell immunity
+  (confusion and charm monster), and invisibility on herself.
+DuringCombat: >-
+  Suasandra casts unholy aura on herself on the first round of combat, then uses
+  summon monster IX to summon 1d3 barbed devils to attack the PCs. After this,
+  she uses air walk or her swim speed to stay out of melee while she uses her
+  spells and arrows.
+Morale: Suasandra fights to the death.
+Gear: +5 leather armor, +3 axiomatic longbow with 20 arrows, ring of protection +4
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: half-fiend
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1623'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

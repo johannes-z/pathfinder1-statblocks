@@ -1,0 +1,137 @@
+Name: Benabak
+CR: '2'
+XP: '600'
+Race: Male variant imp
+MonsterSource: Pathfinder RPG Bestiary 78
+Alignment: LE
+Size: Tiny
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '3'
+Senses:
+  - darkvision 60 ft., detect good, detect magic, see in darkness
+  - Perception +6
+AC: 16, touch 15, flat-footed 13
+AC_Mods: (+3 Dex, +1 natural, +2 size)
+HP: '16'
+HD: (3d10)
+HP_Mods: fast healing 2
+Saves: Fort +1, Ref +6, Will +3
+Fort: '1'
+Ref: '6'
+Will: '3'
+DR: 5/good or silver
+Immune: fire, poison
+Resist: acid 10, cold 10
+Speed: 20 ft., fly 50 ft. (perfect)
+Melee:
+  - sting +8 (1d4 plus poison)
+Ranged:
+  - dart +8 (1d2 plus poison)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: infernal jinx
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +8)
+  values:
+    - label: Constant
+      value: detect good, detect magic
+    - label: At Will
+      value: invisibility (self only)
+    - label: 1/day
+      value: augury, seek thoughtsAPG (DC 15)
+    - label: 1/week
+      value: commune (6 questions, CL 12th)
+AbilityScores:
+  - 10
+  - 17
+  - 10
+  - 15
+  - 11
+  - 14
+BaseAtk: '3'
+CMB: '4'
+CMD: '14'
+Feats:
+  - Skill Focus (Profession [gambler])
+  - Weapon Finesse
+Skills:
+  - Bluff +8
+  - Fly +21
+  - Knowledge (arcana) +3
+  - Knowledge (local) +6
+  - Knowledge (planes) +6
+  - Perception +6
+  - Profession (gambler) +9
+  - Sense Motive +6
+  - Stealth +17
+  - Use Magic Device +8
+Languages:
+  - Common
+  - Infernal
+SQ: change shape (bat, rat, or raven, beast shape I)
+Environment: '?'
+Organization: '?'
+Treasure: '?'
+Description_Visual: >-
+  This tiny, crimson-skinned creature possesses a pair of horns, a
+  stinger-tipped tail, and batlike wings.
+Source: Hell Unleashed
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      Unlike a standard imp, Benabak's change shape ability allows him to take
+      the form of a bat instead of a boar or giant spider.
+  - name: Infernal Jinx (Su)
+    description: >-
+      Benabak has developed the ability to curse other creatures with ill luck.
+      As a standard action, he can jinx a creature within 30 feet who fails a DC
+      13 Will save. A jinxed creature takes a -2 penalty on its next d20 roll.
+      The effects of the jinx wear off after 1 minute. A creature that succeeds
+      on the saving throw is immune to Benabak's infernal jinx for 24 hours. The
+      save DC is Charisma-based.
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d2
+      Dex; cure 1 save. The save DC is Constitution-based, and includes a +2
+      racial bonus.
+Description:
+  - >-
+    Over the decades since his emancipation, more than a few thugs have
+    attempted to divest Benabak of his hard-earned winnings. The imp's
+    elusiveness, arcane defenses, and mobility often best those who attempt to
+    seize his hoard by force. To protect his tower home, Benabak hung a trio of
+    zombie soldiers upside down from a pair of beams on the third floor. He used
+    a wand of command undead that he won from a down-on-her-luck arcanist to
+    procure the zombies, who were the unfortunate victims of an ill-fated
+    training exercise against a devil. The zombies gnash their teeth, and lash
+    out at any living creatures in reach, serving as warnings to potential
+    pilferers, as well as last-ditch security. Whenever would-be thieves
+    attempts to steal the imp's treasures, Benabak kills them and strings their
+    bodies up with the zombies. Two such corpses currently hang among the
+    undead. Benabak hopes to one day gain the resources to raise these corpses
+    as zombies as well.
+  - >-
+    Those who wish to end Benabak's tiny reign of corruption may do best to
+    outwit him by beating the imp at his own game.
+Gear: >-
+  wand of command undead (7 charges); Other Gear dagger, darts (20) with imp
+  poison
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '7059'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

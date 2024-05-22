@@ -1,0 +1,90 @@
+Name: Giant Blowfish
+CR: '5'
+XP: '1600'
+Alignment: 'N'
+Size: Large
+Type: animal
+SubType: (aquatic)
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +5
+AC: 18, touch 10, flat-footed 17
+AC_Mods: (+8 armor, +1 Dex, -1 size, +0 natural)
+HP: '52'
+HD: (7d8+21)
+Saves: Fort +10, Ref +6, Will +4
+Fort: '10'
+Ref: '6'
+Will: '4'
+DefensiveAbilities: quills
+Speed: 30 ft.
+Speed_Mod: swim 30 ft.
+Melee:
+  - 1 slam +9 (1d8+4 plus poison)
+Space: 10 ft.
+Reach: 10 ft.
+AbilityScores:
+  - 18
+  - 13
+  - 17
+  - 1
+  - 14
+  - 12
+BaseAtk: '5'
+CMB: '10'
+CMD: 21 (can't be tripped)
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Weapon Focus (slam)
+Skills:
+  - Perception +5
+  - Swim +14
+Environment: warm oceans
+Organization: solitary, pair, or school (3-9)
+Treasure: none
+Description_Visual: >-
+  A blowfish the size of a horse drifts through the water, its quills the size
+  of spears.
+Group: Fish
+Source: AP 56
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Slam aand quills-injury; save Fort DC 16; frequency 1/ round for 6 rounds;
+      effect 1d6 Dex, prevents breath holding; cure 1 save. Giant blowfish venom
+      causes violent seizing of the muscles. Any non-aquatic creature affected
+      must immediately begin making Constitution checks to continue holding its
+      breath (see page 445 of the Core Rulebook). The save DC is
+      Constitution-based.
+  - name: Quills (Ex)
+    description: >-
+      Any creature attacking a giant blowfish with light or one-handed melee
+      weapons, natural weapons, or an unarmed strike takes 1d8 points of
+      piercing damage. A creature that grapples a giant blowfish takes 2d6
+      points of piercing damage each round it does so. Creatures damaged by a
+      giant blowfish's quills must also save or be poisoned. These gigantic
+      cousins of common blowfish, covered in poisonous spearlike quills, can
+      reach up to 10 feet in size, and nearly double that when fully inf lated.
+Description:
+  - >-
+    A gigantic, prehistoric fish cuts through the water, its head like a
+    snapping turtle, complete with sharp, toothlike plates.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2874'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,123 @@
+Name: Creeping Death
+CR: '14'
+XP: '38400'
+Race: elf
+Class: druid 15
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '7'
+Senses:
+  - low-light vision
+  - Perception +18
+AC: 31, touch 16, flat-footed 27
+AC_Mods: (+7 armor, +2 deflection, +3 Dex, +1 dodge, +5 natural, +3 shield)
+HP: '96'
+HD: (15d8+25)
+Saves: >-
+  Fort +12, Ref +10, Will +16; +2 vs. enchantments, +4 vs. fey and
+  plant-targeted effects
+Fort: '12'
+Ref: '10'
+Will: '16'
+Save_Mods: +2 vs. enchantments, +4 vs. fey and plant-targeted effects
+DefensiveAbilities: 25% chance to negate critical hits and sneak attacks
+Immune: poison, sleep DR 10/adamantine (150 points)
+Speed: 30 ft.
+Melee:
+  - +1 cold iron scythe +13/+8/+3 (2d4+2/x4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: wild shape 6/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 15th; concentration +20)
+  values:
+    - label: 8/day
+      value: wooden fist
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 15th; concentration +20)   8th-control plantsD (DC
+  23), word of recall   7th-animate plantsD, creeping doom (DC 22), true
+  seeing   6th-antilife shell, mass cure light wounds, repel woodD, wall of
+  stone   5th-baleful polymorph (DC 20), insect plague, stoneskin, transmute
+  rock to mud, tree stride, wall of thornsD   4th-air walk, command plantsD (DC
+  19), cure serious wounds, freedom of movement, rusting grasp, scrying (DC
+  19)   3rd-daylight, greater magic fang (2), plant growthD, protection from
+  energy (2, DC 18)   2nd-barkskinD (3), bear's endurance, lesser restoration,
+  longstrider   1st-cure light wounds (2), entangleD (DC 16), faerie fire (2),
+  obscuring mist, speak with animals   0 (at will)-detect magic, light, mending,
+  read magic
+SpellDomains: Plant
+AbilityScores:
+  - 13
+  - 16
+  - 12
+  - 12
+  - 20
+  - 8
+BaseAtk: '11'
+CMB: '12'
+CMD: '28'
+Feats:
+  - Blind-Fight
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Natural Spell
+  - Power Attack
+  - Spell Penetration
+Skills:
+  - Climb +5
+  - Fly +7
+  - Handle Animal +9
+  - Heal +13
+  - Knowledge (geography) +10
+  - Knowledge (nature) +14
+  - Knowledge (planes) +9
+  - Perception +18
+  - Ride +6
+  - Spellcraft +14 (+16 to identify magic item properties)
+  - Survival +19
+  - Swim +5
+Languages:
+  - Abyssal
+  - Common
+  - Druidic
+  - Elven
+SQ: >-
+  a thousand faces, bramble armor (1d6+7, 15 rounds/day), elven magic, nature
+  bond (Plant domain), nature sense, timeless body, trackless step, weapon
+  familiarity, wild empathy +14, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The druid casts stoneskin, barkskin, and longstrider and drinks her potion of
+  haste.
+DuringCombat: >-
+  The druid locks down opponents with entangle, wall of stone, and transmute
+  rock to mud, while casting creeping doom and animate plants from a distance.
+Gear: potion of cure serious wounds, potion of haste, scroll of heal
+OtherGear: >-
+  +1 dragonhide breastplate, +1 light fortification heavy wooden shield, +1 cold
+  iron scythe, amulet of natural armor +1, cloak of resistance +2, headband of
+  inspired wisdom +4, pearl of power (1st), ring of protection +2, holly and
+  mistletoe, spell component pouch, 652 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without stoneskin, barkskin, and longstrider, the druid's statistics are AC
+  27, touch 16, flat-footed 23; DR none; Speed 20 ft.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3669'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

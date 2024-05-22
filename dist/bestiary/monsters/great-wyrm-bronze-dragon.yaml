@@ -1,0 +1,185 @@
+Name: Great Wyrm Bronze Dragon
+CR: '21'
+XP: '409600'
+Alignment: LG
+Size: Colossal
+Type: dragon
+SubType: (water)
+Init: '2'
+Senses:
+  - dragon senses
+  - Perception +43
+Aura: >-
+  electricity aura (10 ft., 2d6 electricity), frightful presence (360 ft., DC
+  32)
+AC: 38, touch 0, flat-footed 38
+AC_Mods: (-2 Dex, +38 natural, -8 size)
+HP: '406'
+HD: (28d12+224)
+Saves: Fort +24, Ref +16, Will +24
+Fort: '24'
+Ref: '16'
+Will: '24'
+DR: 20/magic
+Immune: electricity, paralysis, sleep
+SR: '32'
+Speed: 40 ft., fly 250 ft. (clumsy)
+Speed_Mod: swim 60 ft.
+Melee:
+  - >-
+    bite +34 (4d8+21/19-20), 2 claws +34 (4d6+14/19-20), tail slap +32 (4d6+21),
+    2 wings +32 (2d8+7)
+Space: 30 ft.
+Reach: 20 ft. (30 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (140-ft. line, DC 32, 24d6 electricity), crush (4d8+21, DC 32),
+  repulsion breath, tail sweep (2d8+21, DC 32), tidal wave, vortex
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 28th; concentration +36)
+  values:
+    - label: At will
+      value: >-
+        control water, control weather, create food and water, detect thoughts
+        (DC 20), fog cloud, speak with animals
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 19th; concentration +27)
+  values:
+    - label: 9th (4/day)
+      value: freedom, tsunami*
+    - label: 8th (7/day)
+      value: antipathy, discern location, storm bolts*
+    - label: 7th (7/day)
+      value: mass fly, spell turning, statue
+    - label: 6th (7/day)
+      value: greater dispel magic, mass suggestion (DC 24), mislead
+    - label: 5th (7/day)
+      value: dismissal, interposing hand, mind fog, teleport
+    - label: 4th (8/day)
+      value: dimension door, ice storm, solid fog, stoneskin
+    - label: 3rd (8/day)
+      value: dispel magic, heroism, slow (DC 21), suggestion
+    - label: 2nd (8/day)
+      value: blur, gust of wind, invisibility, mirror image, web
+    - label: 1st (8/day)
+      value: alarm, mage armor, obscuring mist, shield, true strike
+    - label: 0 (at will)
+      value: >-
+        detect magic, detect poison, light, mage hand, mending, message, read
+        magic, resistance, prestidigitation
+AbilityScores:
+  - 39
+  - 6
+  - 27
+  - 264
+  - 27
+  - 26
+BaseAtk: '28'
+CMB: '50'
+CMD: 58 (62 vs. trip)
+Feats:
+  - Alertness
+  - Cleave
+  - Flyby Attack
+  - Great Cleave
+  - Hover
+  - Improved Critical (bite
+  - claw)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Vital Strike
+  - Wingover
+Skills:
+  - Diplomacy +39
+  - Fly +13
+  - Handle Animal +36
+  - Heal +39
+  - Intimidate +39
+  - Knowledge (arcana) +39
+  - Knowledge (geography) +39
+  - Knowledge (history) +39
+  - Knowledge (local) +39
+  - Perception +43
+  - Sense Motive +43
+  - Spellcraft +39
+  - Stealth +13
+  - Swim +53
+RacialMods: +8 Swim
+Languages:
+  - Aquan
+  - Common
+  - Draconic
+  - Elven
+  - Gnome
+  - 4 more
+SQ: >-
+  change shape (animal or humanoid, polymorph), water breathing, wave mastery
+  (120 min)
+Environment: temperate coastlines
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This sleek dragon is covered in dull metallic scales that range in color from
+  shining bronze to mottled blue.
+Group: Metallic Dragon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Electricity Aura (Su)
+    description: >-
+      An old or older bronze dragon has an aura of electricity. All creatures
+      within 5 feet take 1d6 points of electricity damage at the start of the
+      dragon's turn. An ancient dragon's aura is 10 feet. A great wyrm's damage
+      increases to 2d6. A bronze dragon can suppress this aura at will.
+  - name: Repulsion Breath (Su)
+    description: >-
+      Instead of a line of electricity, a bronze dragon can breathe a cone of
+      repulsion gas. Targets must make a Will save or be compelled to do nothing
+      but move away from the dragon for 1d6 rounds plus 1 round per age
+      category. This is a mind-affecting compulsion effect.
+  - name: Tidal Wave (Su)
+    description: >-
+      A great wyrm bronze dragon can cause the sea to rise up and crush his
+      enemies once per day as a standard action. This affects an area of
+      coastline 120 feet in length and targets all creatures within 40 feet of
+      the shore-treat the targets as if struck by an avalanche. Treat all
+      creatures as if they were in the bury zone. The save DC to halve this
+      damage is equal to the dragon's breath weapon DC. Those who fail their
+      saves take full damage and are drawn 60 feet off shore and deposited 20
+      feet under the surface on the round after the wave hits.
+  - name: Vortex (Ex)
+    description: >-
+      Once per day, an ancient or older bronze dragon can create a vortex as a
+      standard action, just like an elder water elemental. A bronze dragon can
+      maintain this vortex for 1 round per age category.
+  - name: Water Breathing (Ex)
+    description: >-
+      A bronze dragon breathes water and can use its breath weapon, spells, and
+      abilities underwater.
+  - name: Wave Mastery (Su)
+    description: >-
+      For up to 10 minutes per age category per day, a juvenile bronze dragon,
+      along with creatures or vessels within 50 feet, can move at twice its
+      normal speed in water.
+Description:
+  - >-
+    Bronze dragons have been known to ally with travelers and adventurers if the
+    cause and reward is right and just.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+OffenseNote: '* This spell is from the Pathfinder RPG Advanced Player''s Guide.'
+AgeCategory: great wyrm
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1578'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

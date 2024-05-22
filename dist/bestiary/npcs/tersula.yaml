@@ -1,0 +1,102 @@
+Name: Tersula
+CR: '1'
+XP: '400'
+Race: human
+Class: sorcerer 2
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +2
+AC: 17, touch 13, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex, +1 dodge)
+HP: '11'
+HD: (2d6+2)
+Saves: Fort +1, Ref +2, Will +3
+Fort: '1'
+Ref: '2'
+Will: '3'
+Speed: 30 ft.
+Melee:
+  - quarterstaff +0 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 2nd; concentration +5)
+  values:
+    - label: 6/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 2nd; concentration +5)
+  values:
+    - label: 1st (5/day)
+      value: sleep (DC 16), vanish*
+    - label: 0 (at will)
+      value: daze (DC 15), detect magic, ghost hand, message, read magic
+AbilityScores:
+  - 8
+  - 14
+  - 13
+  - 12
+  - 10
+  - 17
+BaseAtk: '1'
+CMB: '0'
+CMD: '13'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+Skills:
+  - Bluff +8
+  - Knowledge (arcana) +6
+  - Perception +2
+  - Spellcraft +6
+  - Stealth +4
+Languages:
+  - Common
+  - Sylvan
+SQ: bloodline arcana (+2 DC for compulsion spells)
+Source: PFS S3-18
+IsTemplate: '0'
+Gender: Female
+Bloodline: fey
+BeforeCombat: >-
+  Before ambushing the PCs, Tersula uses her wand of mage armor and imbibes her
+  potion of invisibility.
+DuringCombat: >-
+  Tersula immediately casts sleep to knock out as many PCs as possible while her
+  sister rushes in to steal the keg. She uses vanish, which makes her invisible
+  for 2 rounds, to further confuse the PCs as the heist unfolds. The sisters
+  have taken pains to look as similar as possible, and try to keep the fact that
+  there are two of them a secret.
+Morale: >-
+  Tersula imbibes her potion of cure light wounds if brought to 4 hit points or
+  fewer. She has a long and close relationship with her sister, and neither is
+  willing to risk death. If one sister is captured or falls, the other offers to
+  surrender the keg to ensure her sister survives. The two are simply trying to
+  steal the keg, and fight only if cornered. If death seems like an imminent
+  threat, both attempt to flee, whether they have the keg in tow or not.
+Gear: >-
+  potion of cure light wounds, potion of invisibility, wand of mage armor (15
+  charges)
+OtherGear: quarterstaff
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without her spells, Tersula's statistics are AC 13, touch 13, flat-footed 10.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6187'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

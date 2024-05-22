@@ -1,0 +1,101 @@
+Name: Grimslake
+CR: '6'
+XP: '2400'
+Race: Grimslake
+MonsterSource: 'Pathfinder Campaign Setting: The Worldwound 55'
+Alignment: CE
+Size: Large
+Type: aberration
+SubType: (extraplanar)
+Init: '5'
+Senses:
+  - darkvision 60 ft., tremorsense 30 ft.
+  - Perception +13
+AC: 19, touch 10, flat-footed 18
+AC_Mods: (+1 Dex, +9 natural, -1 size)
+HP: '68'
+HD: (8d8+32)
+HP_Mods: fast healing 5
+Saves: Fort +6, Ref +5, Will +10
+Fort: '6'
+Ref: '5'
+Will: '10'
+DefensiveAbilities: slashing scales
+Immune: disease
+Resist: acid 10, fire 10
+Speed: 20 ft., burrow 20 ft., climb 20 ft.
+Melee:
+  - bite +11 (2d6+6 plus grab), sting +11 (1d6+6 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: constrict (1d6+6), marrow drain, penetrating jaws
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +6)
+  values:
+    - label: 3/day
+      value: death knell (DC 12), ray of exhaustion (DC 13)
+    - label: 1/day
+      value: slow (DC 13)
+AbilityScores:
+  - 22
+  - 13
+  - 19
+  - 6
+  - 14
+  - 11
+BaseAtk: '6'
+CMB: +13 (+17 grapple)
+CMD: 24 (can't be tripped)
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Step Up
+Skills:
+  - Climb +25
+  - Perception +13
+Languages:
+  - Abyssal
+Source: AP 75
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Marrow Drain (Ex)
+    description: >-
+      A grimslake's tail is covered with suckers that extend long, thin,
+      razor-sharp tendrils to drill into its victim's bones, draining the victim
+      of marrow. The grimslake can drain marrow from any creature it is
+      grappling or from any helpless creature as a swift action. The victim can
+      resist this painful attack with a successful DC 18 Fortitude save;
+      otherwise, it is staggered from the horrific agony for 1 round and takes 1
+      point of Constitution drain. The save DC is Constitution-based.
+  - name: Penetrating Jaws (Su)
+    description: >-
+      A grimslake's bite attack penetrates cold iron and silver damage
+      reduction.
+  - name: Slashing Scales (Ex)
+    description: >-
+      The scales running in a line down a grimslake's back have razor-sharp
+      ridges and spines, and the creature is adept at lashing at attackers with
+      these scales. Any creature that attacks a grimslake with a natural weapon,
+      unarmed strike, or light weapon must succeed at a DC 15 Reflex save or
+      take 1d4 points of slashing damage. The save DC is Dexterity-based.
+DuringCombat: >-
+  The grimslakes focus their attacks on the closest target, but if a target
+  falls, these ravenous creatures descend on the body to feed unless they're
+  threatened by adjacent foes.
+Morale: The grimslakes fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5118'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

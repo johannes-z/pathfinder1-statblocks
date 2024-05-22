@@ -1,0 +1,111 @@
+Name: Living Monolith
+CR: '13'
+XP: '25600'
+Alignment: 'N'
+Size: Gargantuan
+Type: ooze
+Init: '-2'
+Senses:
+  - blindsight 120 ft., tremorsense 120 ft.
+  - Perception -5
+AC: 24, touch 4, flat-footed 24
+AC_Mods: (-2 Dex, +20 natural, -4 size)
+HP: '225'
+HD: (18d8+144)
+HP_Mods: regeneration 10 (fire)
+Saves: Fort +14, Ref +4, Will +1
+Fort: '14'
+Ref: '4'
+Will: '1'
+DR: 10/-
+Immune: acid, electricity, ooze traits
+Resist: cold 20
+SR: '24'
+Speed: 5 ft.
+Melee:
+  - >-
+    4 tentacles +20 (2d6+11 plus 2d6 acid and grab) or bite +20 (4d8+24 plus 2d6
+    acid; only against grabbed foe)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: spawn offspring, swallow whole (6d8 acid damage, AC 20, 20 hp)
+AbilityScores:
+  - 32
+  - 6
+  - 26
+  - —
+  - 1
+  - 1
+BaseAtk: '13'
+CMB: +28 (+32 grapple)
+CMD: 36 (can't be tripped)
+Environment: underground
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This massive creature appears to be an amorphous column of flesh coated in a
+  thick, bubbling slime. Several large maws litter its form, each filled with
+  sharpened teeth. Many long tentacles whip and flail about its body.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid (Ex)
+    description: >-
+      A living monolith secrets a digestive acid that dissolves organic material
+      and metal quickly, but does not affect stone. Each time a creature suffers
+      damage from a living monolith's acid, its clothing and armor take the same
+      amount of damage from the acid. A DC 27 Reflex save prevents damage to
+      clothing and armor. A metal or wooden weapon that strikes a living
+      monolith takes 2d6 points of acid damage unless the weapon's wielder
+      succeeds on a DC 27 Reflex save. If a living monolith remains in contact
+      with a wooden or metal object for 1 full round, it inflicts 27 points of
+      acid damage (no save) to the object. The save DCs are Constitution-based.
+  - name: Spawn Offspring (Ex)
+    description: >-
+      Every 1d4 rounds, a living monolith spawns 1d6 crawling offspring from its
+      form, but 1d6 of these are instantly destroyed or reabsorbed by the living
+      monolith. (See the Crawling Offspring entry below.)
+  - name: Tentacles (Ex)
+    description: >-
+      A living monolith can transfer a grabbed opponent from a tentacle to one
+      of its mouths as a move action.
+Description:
+  - >-
+    The living monolith, sometimes called a monolith of fecundity, is a
+    slow-moving pillar of amorphous flesh dripping with slime. Along its
+    gigantic bulk are several gaping mouths and writhing pseudopods. This
+    loathsome being is usually brought forth by the summoning spells of clerics
+    who worship perverse fertility deities.
+  - >-
+    At irregular intervals its flesh breaks open and instantly regenerates as
+    the living monolith spawns twisted offspring that crawl and slither away
+    from its progenitor. Some of these spawn are instantly disintegrated by the
+    acidic slime dripping from the monolith or torn to pieces by pseudopods and
+    ravenous mouths, but a few scuttle away and survive (see the crawling
+    offspring entry).
+  - >-
+    A living monolith thrashes mindlessly at opponents with its tentacles. When
+    disturbed, it constantly seeps its acidic slime which is as likely to
+    destroy its crawling offspring as inflicting damage on opponents. An
+    opponent unlucky enough to be grabbed by a flailing tentacle is shoved into
+    one of the living monolith's maws and swallowed whole, subjected to the
+    monster's deadly digestive acids.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4996'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,117 @@
+Name: Dalirio Teppish Tier 6-7
+CR: '7'
+XP: '3200'
+Race: ghoul
+Class: cleric of Groetus 7
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +15
+AC: 15, touch 12, flat-footed 13
+AC_Mods: (+3 Dex, +2 natural)
+HP: '53'
+HD: (9d8+13)
+Saves: Fort +8, Ref +7, Will +10
+Fort: '8'
+Ref: '7'
+Will: '10'
+DefensiveAbilities: channel resistance +2
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +10 (1d6+3 plus disease and paralysis) and 2 claws +9  (1d6+3 plus
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy (4d6, DC 19, 7/day), paralysis (1d4+1 rounds, DC 14,
+  elves are immune to this effect)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 7th; concentration +11)
+  values:
+    - label: 7/day
+      value: touch of chaos
+    - label: 7/day
+      value: vision of madness (+/-3)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 7th; concentration +11)  4th-confusionD (DC 18),
+  freedom of movement, inflict critical wounds (DC 18)  3rd-deeper darkness,
+  inflict serious wounds (DC 17), invisibility purge, rageD  2nd-darkness (2),
+  hold person (2, DC 16), touch of idiocyD (DC 16)  1st-bane (2, DC 15), cause
+  fear (2, DC 15), lesser confusionD (DC 15)  0 (at will)-bleed (DC 14), detect
+  magic, light, resistance
+SpellDomains: Chaos, Madness
+AbilityScores:
+  - 17
+  - 17
+  - —
+  - 13
+  - 19
+  - 17
+BaseAtk: '6'
+CMB: '9'
+CMD: '22'
+Feats:
+  - Command Undead
+  - Improved Channel
+  - Improved Initiative
+  - Lightning Reflexes
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +5
+  - Climb +8
+  - Heal +9
+  - Perception +15
+  - Spellcraft +11
+  - Stealth +14
+  - Swim +5
+Languages:
+  - Aklo
+  - Common
+SQ: aura
+Source: PFS S1-41
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 13; onset 1 day; frequency 1 day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at
+      the next midnight. A humanoid who becomes a ghoul in this way retains none
+      of the abilities it possessed in life. It is not under the control of any
+      other ghouls, but it hungers for the flesh of the living and behaves like
+      a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as
+      a ghast.
+Gender: Male
+BeforeCombat: >-
+  Dalirio sits at his desk, looking over paperwork. Unless otherwise warned, he
+  does not expect the PCs.
+DuringCombat: >-
+  Dalirio orders his skeletons to attack and uses confusion, cause fear, lesser
+  confusion, and hold person to keep the PCs back. Once those spells are
+  gone&#8211;or once the PCs reach him&#8211;he switches to melee and
+  relentlessly attacks the nearest PC. Once this victim is unconscious, Dalirio
+  then picks the next closest PC to attack, and so on. If given the chance, he
+  uses his inflict spells on lightly-armored spellcasters, but otherwise he uses
+  his bite and claws. Dalirio can only command up to 7 HD of undead&#8211;but
+  there are 8 HD of skeletons present. Each round, randomly roll for the 8th
+  skeleton to see whom it attacks (possibly even Dalirio).
+Morale: Dalirio fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4232'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

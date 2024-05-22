@@ -1,0 +1,138 @@
+Name: Ordikon, The Mithral Mage
+CR: '14'
+XP: '38400'
+Race: human(azlanti)
+Class: transmuter 13
+MonsterSource: Advanced Bestiary 169
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +16
+AC: 31, touch 15, flat-footed 26
+AC_Mods: (+4 armor, +4 Dex, +1 dodge, +8 natural, +4 shield)
+HP: '169'
+HD: (13d6+121)
+Saves: Fort +11, Ref +12, Will +12
+Fort: '11'
+Ref: '12'
+Will: '12'
+DefensiveAbilities: medium fortification (75%)
+Resist: electricity 30, fire 15
+Weaknesses: vulnerable to electricity
+Speed: 40 ft., fly 60 ft. (good)
+Melee:
+  - staff of mithral might +11/+6 (1d6+5), slam +9 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +19)
+  values:
+    - label: At Will
+      value: change shape (beast shape III/elemental body II, 13 rounds/day)
+    - label: 9/day
+      value: telekinetic fist (1d4+6 bludgeoning)
+SpellsPrepared: >-
+  Spells Prepared (CL 13th; concentration +19)   7th-prismatic spray (DC 23),
+  reverse gravity (2)   6th-disintegrate (DC 24, 2), flesh to stone (DC 24),
+  greater dispel magic, quickened mirror image   5th-baleful polymorph (DC 23,
+  2), cone of cold (DC 21), dismissal (DC 21), quickened shield, wall of force  
+  4th-dimension door (2), fear (DC 20), mass reduce person (DC 22, 2),
+  stoneskin   3rd-dispel magic, fireball (DC 19), fly, extended false life, slow
+  (DC 21, 2), protection from energy   2nd-acid arrow, cat's grace (2),
+  glitterdust (DC 18), extended mage armor, scorching ray (3)   1st-expeditious
+  retreat, grease (DC 17), magic missile (3), reduce person (DC 19, 2), true
+  strike   0 (at will)-acid splash, arcane mark, mage hand, open/close,
+  prestidigitation
+AbilityScores:
+  - 14
+  - 18
+  - 21
+  - 22
+  - 15
+  - 14
+BaseAtk: '6'
+CMB: '8'
+CMD: '23'
+Feats:
+  - Craft Magic Arms and Armor
+  - Craft Rod
+  - Craft Staff
+  - Craft Wondrous Item
+  - Dodge
+  - Extend Spell
+  - Greater Spell Focus (transmutation)
+  - Lightning Reflexes
+  - Scribe Scroll
+  - Spell Focus (transmutation)
+  - Toughness
+Skills:
+  - Appraise +23
+  - Craft (metalworking) +23
+  - Fly +15
+  - Knowledge (arcana
+  - nature
+  - nobility
+  - planes) +23
+  - Perception +16
+  - Sense Motive +16
+  - Spellcraft +23
+  - Swim -1
+Languages:
+  - Aklo
+  - Abyssal
+  - Draconic
+  - Infernal
+  - Giant
+  - Terran
+  - Thassilonian
+SQ: arcane bond (staff), physical enhancement +3 Con
+Source: RotRL-AE-Sins of the Saviors
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Medium Fortification (Ex)
+    description: >-
+      Whenever a sneak attack or critical hit is scored against Ordikon, there
+      is a 75% chance that the extra damage is negated.
+  - name: Vulnerable to Electricity (Ex)
+    description: Ordikon takes 150% normal damage from electricity attacks.
+Gender: Male
+ProhibitedSchools: enchantment, illusion
+BeforeCombat: >-
+  Ordikon starts every day by casting extended false life, mage armor, and
+  unseen servant. In the event that he hears combat nearby (or if he hears any
+  of the golems in area G4 activate), he takes the time to cast the following
+  spells before investigating: shield, stoneskin, fly, protection from energy
+  (electricity), cat's grace, and expeditious retreat.
+DuringCombat: >-
+  If caught off guard, Ordikon uses dimension door to travel to area G8, casts
+  his short-term defensive spells as outlined above, then returns to G6 to
+  confront the PCs. He always opens by casting disintegrate on any obvious
+  clerics, along with a quickened mirror image.
+Morale: >-
+  Ordikon fights until reduced to 20 hit points or fewer, whereupon he uses
+  dimension door to travel to area G8. If confronted there, he fights to the
+  death.
+Gear: staff of mithral might
+OtherGear: >-
+  cloak of resistance +1, pearl of power (2nd level), rod of metal and mineral
+  detection, 500 gp in diamond dust
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: mithral-clad|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3266'
+UniqueMonster: '0'
+ThassilonianSpecialization: transmutation
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

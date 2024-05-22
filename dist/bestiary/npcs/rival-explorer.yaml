@@ -1,0 +1,146 @@
+Name: Rival Explorer
+CR: '17'
+XP: '102400'
+Race: half-orc
+Class: bard 18
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+AC: 24, touch 17, flat-footed 19
+AC_Mods: (+7 armor, +2 deflection, +4 Dex, +1 dodge)
+HP: '102'
+HD: (18d8+18)
+Saves: >-
+  Fort +8, Ref +18, Will +11; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '8'
+Ref: '18'
+Will: '11'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: orc ferocity
+Speed: 30 ft.
+Melee:
+  - +2 sword of life stealing +19/+14/+9 (1d8+5/17-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 43 rounds/day (swift action; countersong, dirge of doom,
+  distraction, fascinate, frightening tune, inspire competence +5, inspire
+  courage +4, inspire greatness, inspire heroics, mass suggestion, soothing
+  performance, suggestion)
+SpellsKnown:
+  header: Bard Spells Known (CL 18th; concentration +23)
+  values:
+    - label: 6th (3/day)
+      value: >-
+        animate objects, find the path, greater shout (DC 21), sympathetic
+        vibration
+    - label: 5th (5/day)
+      value: >-
+        greater dispel magic, greater heroism, shadow evocation (DC 20), shadow
+        walk (DC 20)
+    - label: 4th (6/day)
+      value: >-
+        break enchantment (DC 19), cure critical wounds (DC 19), freedom of
+        movement, shout (DC 19)
+    - label: 3rd (6/day)
+      value: >-
+        charm monster (DC 18), gaseous form, haste (DC 18), phantom steed,
+        remove curse, see invisibility
+    - label: 2nd (6/day)
+      value: >-
+        alter self, cat's grace, glitterdust (DC 17), silence (DC 17),
+        suggestion (DC 17), tongues
+    - label: 1st (7/day)
+      value: >-
+        alarm, animate rope, detect secret doors, expeditious retreat, grease,
+        undetectable alignment
+    - label: 0 (at will)
+      value: dancing lights, detect magic, mage hand, mending, message, read magic
+AbilityScores:
+  - 16
+  - 22
+  - 12
+  - 13
+  - 9
+  - 20
+BaseAtk: '13'
+CMB: '16'
+CMD: '33'
+Feats:
+  - Acrobatic Steps
+  - Critical Focus
+  - Dodge
+  - Improved Critical (longsword)
+  - Mobility
+  - Nimble Moves
+  - Spring Attack
+  - Staggering Critical
+  - Weapon Focus (longsword)
+Skills:
+  - Acrobatics +12 (+16 when jumping)
+  - Bluff +10
+  - Climb +10
+  - Diplomacy +10
+  - Disable Device +20
+  - Escape Artist +18
+  - Intimidate +7
+  - Knowledge (arcana) +14
+  - Knowledge (dungeoneering) +14
+  - Knowledge (geography) +14
+  - Knowledge (history) +14
+  - Knowledge (local) +14
+  - Knowledge (nature) +14
+  - Knowledge (planes) +14
+  - Knowledge (religion) +14
+  - Perception +20
+  - Perform (dance) +20
+  - Perform (oratory) +13
+  - Perform (sing) +18
+  - Perform (string) +25
+  - Spellcraft +15
+  - Stealth +22
+  - Use Magic Device +20
+Languages:
+  - Common
+  - Draconic
+  - Orc
+SQ: >-
+  bardic knowledge +9, jack-of-all-trades (use any skill, all skills are class
+  skills), lore master 3/day, orc blood, versatile performance (act, dance,
+  oratory, string, wind), weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The bard casts cat's grace and freedom of movement.
+DuringCombat: The bard casts haste on herself, and makes hit-and-run attacks.
+Gear: >-
+  scrolls of fireball (2), scroll of lesser restoration, scrolls of lightning
+  bolt (2), scroll of remove curse, wand of cure moderate wounds (50 charges)
+OtherGear: >-
+  , +3 chain shirt, sword of life stealing, belt of physical perfection +2,
+  cloak of resistance +1, goggles of minute seeing, hat of disguise, headband of
+  alluring charisma +4, necklace of adaptation, ring of protection +2,
+  masterwork lute, masterwork thieves' tools, 10 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without cat's grace, the bard's statistics are Init +4; Dex 18; Skills Disable
+  Device +18, Escape Artist +18, Stealth +20.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3633'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

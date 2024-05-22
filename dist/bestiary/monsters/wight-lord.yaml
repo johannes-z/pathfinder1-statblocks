@@ -1,0 +1,132 @@
+Name: Wight Lord
+CR: '9'
+XP: '6400'
+Alignment: LE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft., deathwatch
+  - Perception +16
+AC: 24, touch 11, flat-footed 23
+AC_Mods: (+9 armor, +1 Dex, +4 natural)
+HP: '115'
+HD: (11d8+66)
+Saves: Fort +9, Ref +6, Will +9
+Fort: '9'
+Ref: '6'
+Will: '9'
+DefensiveAbilities: channel resistance +4
+DR: 10/cold iron or good
+Immune: undead traits
+Weaknesses: resurrection vulnerability
+Speed: 30 ft. (40 ft. without armor)
+Melee:
+  - >-
+    +1 falchion +17/+12 (2d4+11/15-20 plus energy drain) or slam +15 (1d6+1 plus
+    energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, energy drain (1 level, DC 21)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +15)
+  values:
+    - label: At will
+      value: deathwatch
+    - label: 3/day
+      value: air walk, greater command (DC 21)
+    - label: 1/day
+      value: haste
+AbilityScores:
+  - 24
+  - 13
+  - —
+  - 13
+  - 15
+  - 22
+BaseAtk: '8'
+CMB: '15'
+CMD: '26'
+Feats:
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Quick Draw
+  - Vital Strike
+  - Weapon Focus (falchion)
+Skills:
+  - Climb +15
+  - Intimidate +20
+  - Perception +16
+  - Sense Motive +16
+  - Stealth +9
+Languages:
+  - Common
+Environment: any
+Organization: solitary or platoon (1 wight lord plus 4-6 advanced wights)
+Treasure: NPC gear (full plate, +1 falchion, other treasure)
+Description_Visual: >-
+  This nearly skeletal figure wears the ancient armor of a long-dead king, and
+  carries itself with a sort of regal pride.
+Source: Undead Revisited
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      Any humanoid creature that is slain by a wight lord becomes a wight itself
+      in only 1d4 rounds. Although spawn so created are less powerful than wight
+      lords, they are more powerful than typical wights, and are treated as
+      wights with the advanced simple template. Spawn are under the command of
+      the wight lord that created them and remain enslaved until its death, at
+      which point they become fullfledged, free-willed advanced wights. They do
+      not possess any of the abilities they had in life.
+  - name: Energy Drain (Su)
+    description: >-
+      A wight lord inflicts a negative level each time it hits a foe with a slam
+      attack. Like cairn wights, a wight lord can channel this negative energy
+      through any weapon it wields, inflicting a negative level with each
+      successful hit with the weapon.
+  - name: Resurrection Vulnerability (Su)
+    description: >-
+      While a wight lord is vulnerable to resurrection magic, it isn't quite as
+      vulnerable as a typical wight. A raise dead or similar spell cast on a
+      wight lord staggers it for 1d6+1 rounds if it fails a Will save, but does
+      not destroy the wight. Using the spell in this way does not require a
+      material component.
+Description:
+  - >-
+    Dark princes and warlords of old, wight lords are undead monarchs. Where
+    typical wights rise from a wide variety of individuals, wight lords rise
+    from the bodies of despotic rulers or ruthless generals. Wight lords haunt
+    the same ancient burial grounds and battlefields their lesser kin dwell in,
+    but wight lords aren't satisfied by simply guarding their haunts against the
+    living. They continue their reign as tyrants in death, ruling over undead
+    armies and often compelling their unliving minions to wage war upon nearby
+    towns or cities, sometimes even at the behest of bold and powerful
+    necromancers. The statistics that are presented above represent the minimum
+    power level of a wight lord. A wight lord can rise from the remains of any
+    cruel or sadistic leader, but those who were higher than 11th level when
+    they perished retain some of their previous life's knowledge-although not
+    all of it. When this occurs, subtract 11 from the creature's previous number
+    of class levels to determine the total number of class levels the wight lord
+    possesses. Assign these class levels to the wight lord in a logical way-if
+    it was a single-classed NPC in life, simply add more levels of that class to
+    the wight lord. Multiclassed characters and those who possessed levels in
+    prestige classes require more creativity in applying the class levels. The
+    goal for building such a wight lord should be to approximate the themes and
+    general abilities the creature had in life.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1725'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

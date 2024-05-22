@@ -1,0 +1,121 @@
+Name: Conna The Wise
+CR: '12'
+XP: '19200'
+Race: stone giant
+Class: sorcerer 6
+MonsterSource: Pathfinder RPG Bestiary 151
+Alignment: 'N'
+Size: Large
+Type: humanoid
+SubType: (giant)
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +20
+AC: 29, touch 14, flat-footed 26
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 dodge, +11 natural, -1 size)
+HP: '171'
+HD: (18 HD; 12d8+6d6+96)
+Saves: Fort +15, Ref +10, Will +13
+Fort: '15'
+Ref: '10'
+Will: '13'
+DefensiveAbilities: improved rock catching
+Resist: acid 10
+Speed: 40 ft.
+Melee:
+  - +1 shortspear +19/+14/+9 (1d8+8)
+Ranged:
+  - rock +14 (1d8+10)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rock throwing (180 ft.)
+SpellLikeAbilities:
+  header: Stone Giant Elder Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: 1/day
+      value: >-
+        stone shape, stone tell, transmute rock to mud (DC 19) Bloodline
+        Spell-Like Abilities (CL 6th; concentration +10)
+    - label: 7/day
+      value: elemental ray (1d6+3 acid)
+SpellsKnown:
+  header: Spells Known (CL 6th; concentration +10)
+  values:
+    - label: 3rd (4/day)
+      value: fly
+    - label: 2nd (6/day)
+      value: blur, glitterdust (DC 16), scorching ray (acid)
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 15, acid damage), charm person (DC 15), mage armor,
+        obscuring mist, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze (DC 14), flare (DC 14), ghost sound (DC 14), light,
+        mending, prestidigitation
+AbilityScores:
+  - 25
+  - 15
+  - 21
+  - 14
+  - 14
+  - 18
+BaseAtk: '12'
+CMB: '20'
+CMD: '35'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Dodge
+  - Eschew Materials
+  - Extend Spell
+  - Improved Iron Will
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Spring Attack
+Skills:
+  - Climb +28
+  - Knowledge (arcana) +23
+  - Perception +20
+  - Spellcraft +23
+Languages:
+  - Common
+  - Draconic
+  - Giant
+  - Terran
+SQ: bloodline arcana (change energy damage spells to match bloodline energy)
+Source: RotRL-AE-Fortress of the Stone Giants
+IsTemplate: '0'
+Gender: Female
+Bloodline: Elemental (earth)
+BeforeCombat: >-
+  Conna casts mage armor twice a day, so it's always in effect during her waking
+  hours.
+DuringCombat: >-
+  Conna's main tactic is to stall. She uses Combat Expertise to increase her AC
+  when she can. If she has time to prepare, she casts fly on herself.
+Morale: >-
+  Conna doesn't want to fight the PCs. Her tactics focus on escape so she can
+  recover in hiding and plan a new method of contacting the PCs and once again
+  try to plead her case and recruit them in her plans against Mokmurian.
+Gear: potion of barkskin +4
+OtherGear: >-
+  +1 shortspear, headband of alluring charisma +2, ring of minor acid
+  resistance, ring of protection +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: elder
+CompanionFamiliarLink: '0'
+id: '3251'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

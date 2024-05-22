@@ -1,0 +1,114 @@
+Name: Ravenous Tooth Fairy Swarm
+CR: '16'
+XP: '76800'
+Race: tooth fairy
+MonsterSource: Pathfinder RPG Bestiary 4 262
+Alignment: CE
+Size: Diminutive
+Type: fey
+SubType: (swarm)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +31
+AC: 18, touch 17, flat-footed 15
+AC_Mods: (+2 Dex, +1 dodge, +1 natural, +4 size)
+HP: '117'
+HD: (26d6+26)
+Saves: Fort +10, Ref +19, Will +19
+Fort: '10'
+Ref: '19'
+Will: '19'
+DefensiveAbilities: swarm traits,
+DR: 5/cold iron
+Immune: weapon damage
+Speed: 15 ft., fly 60 ft. (perfect)
+Melee:
+  - swarm (5d6 plus paralysis)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: death throes, distraction (DC 23), extraction, paralysis (1d3 rounds, DC 23)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 26th; concentration +22)
+  values:
+    - label: At Will
+      value: mage hand, open/close
+    - label: 1/day
+      value: invisibility (swarm only), sleep (DC 25)
+AbilityScores:
+  - 5
+  - 14
+  - 11
+  - 8
+  - 15
+  - 14
+BaseAtk: '13'
+CMB: '- (+15 steal)'
+CMD: '- (21 vs. steal)'
+Feats:
+  - Agile Maneuvers
+  - Dodge
+  - Endurance
+  - Great Fortitude
+  - Greater Steal
+  - B
+  - Improved Initiative
+  - Improved Natural Armor
+  - Improved Steal
+  - B
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Skill Focus (Perception
+  - Stealth)
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +25 (+21 when jumping)
+  - Escape Artist +25
+  - Fly +29
+  - Perception +31
+  - Sense Motive +25
+  - Stealth +43
+  - Survival +22
+RacialMods: '-4 Acrobatics when jumping'
+Languages:
+  - Sylvan
+Source: AP 119
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Throes (Su)
+    description: >-
+      Anytime a tooth fairy swarm takes 5 or more points of damage from any
+      source, several component fairies die in foul-smelling clouds of sparkling
+      fairy dust. Any creature within 5 feet of the swarm must succeed at a DC
+      23 Fortitude save or be sickened by the stench for 1d4 rounds. This is a
+      poison effect. The save DC is Constitution-based.
+  - name: Extraction (Su)
+    description: >-
+      At the end of its turn every round, the tooth fairy swarm attempts a
+      single steal combat maneuver check. All creatures with a CMD equal to or
+      lower than the result of this check suffer the forcible extraction of 1d6
+      teeth, taking a number of points of Charisma damage and bleed damage equal
+      to the number of teeth extracted. If the stolen teeth are returned within
+      10 minutes and the character receives any amount of magical healing, the
+      teeth reattach, the bleed damage ends, and the Charisma damage is cured.
+DuringCombat: >-
+  The tooth fairies hide as long as they can stand using their invisibility, but
+  swarm over anyone who opens the barricade.
+Morale: The swarm fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11500'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

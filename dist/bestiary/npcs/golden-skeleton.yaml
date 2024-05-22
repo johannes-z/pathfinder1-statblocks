@@ -1,0 +1,68 @@
+Name: Golden Skeleton
+CR: '1'
+XP: '400'
+Race: human
+MonsterSource: Pathfinder RPG Bestiary 251, Advanced Bestiary 169
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception -1
+AC: 16, touch 9, flat-footed 16
+AC_Mods: (+2 armor, -1 Dex, +5 natural)
+HP: '8'
+HD: (1d8+4)
+Saves: Fort +4, Ref -1, Will +1
+Fort: '4'
+Ref: '-1'
+Will: '1'
+DefensiveAbilities: light fortification
+DR: 5/bludgeoning
+Immune: fire, undead traits
+Weaknesses: vulnerability to cold, electricity
+Speed: 20 ft.
+Melee:
+  - broken scimitar +0 (1d6 plus 1d6 fire), claw -3 (1d4+1 plus  1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: fiery aura
+AbilityScores:
+  - 15
+  - 8
+  - —
+  - —
+  - 8
+  - 18
+BaseAtk: '0'
+CMB: '2'
+CMD: '11'
+Feats:
+  - Improved Initiative
+SQ: fiery death (1d6 fire damage, Reflex DC 11 half )
+Source: City of Golden Death
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Light Fortification (Ex)
+    description: >-
+      Whenever a sneak attack or critical hit is scored against a gold-clad
+      creature, there is a 25% chance that the extra damage is negated and
+      damage is rolled normally.
+Gear: broken chain shirt, helmet, broken scimitar
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: burning@skeleton|gold-clad|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '690'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

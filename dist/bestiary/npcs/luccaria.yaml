@@ -1,0 +1,118 @@
+Name: Luccaria
+CR: '11'
+XP: '12800'
+Race: human
+Class: cleric of Norgorber 12
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '3'
+Senses:
+  - Perception +4
+AC: 25, touch 17, flat-footed 22
+AC_Mods: (+7 armor, +4 deflection, +3 Dex, +1 shield)
+HP: '117'
+HD: (12d8+60)
+Saves: Fort +11, Ref +7, Will +12
+Fort: '11'
+Ref: '7'
+Will: '12'
+Speed: 30 ft.
+Melee:
+  - >-
+    +3 grayflame short sword +14/+9 (1d6+3/19-20), +3 short sword +14/+9
+    (1d6+3/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 5/day (DC 18, 6d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: At Will
+      value: charming smile (12 rounds, DC 16), master's illusion (12 rounds/day)
+    - label: 7/day
+      value: copycat (12 rounds), dazing touch
+SpellsPrepared: >-
+  Spells Prepared (CL 12th; concentration +16)   6th-blade barrier (DC 20),
+  heal, misleadD (DC 20)   5th-charm monsterD (DC 19), quickened divine might,
+  flame strike (DC 19), quickened shield of faith   4th-air walk, heroismD,
+  greater magic weapon (2), spell immunity   3rd-bestow curse (DC 17), cure
+  serious wounds, contagion (DC 17), dispel magic, magic vestment, suggestionD
+  (DC 17)   2nd-bear's endurance, cure moderate wounds (2), death knell (DC 16),
+  hold person (DC 16), invisibilityD   1st-charm personD (DC 15), cure light
+  wounds (3), deathwatch, obscuring mist   0 (at will)-bleed (DC 14), guidance,
+  read magic, stabilize
+SpellDomains: Charm, Trickery
+AbilityScores:
+  - 10
+  - 16
+  - 16
+  - 8
+  - 19
+  - 14
+BaseAtk: '9'
+CMB: '9'
+CMD: '26'
+Feats:
+  - Combat Casting
+  - Quicken Spell
+  - Toughness
+  - Two-Weapon Defense
+  - Two-Weapon Fighting
+  - Weapon Finesse
+  - Weapon Focus (short sword)
+Skills:
+  - Diplomacy +9
+  - Heal +11
+  - Intimidate +6
+  - Knowledge (religion) +6
+  - Profession (torturer) +11
+  - Sense Motive +11
+Languages:
+  - Common
+Source: AP 59
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Luccaria casts greater magic weapon on her swords and magic vestment on her
+  armor. As soon as she hears her cultists in area D9 shouting, she casts air
+  walk, bear's endurance, and invisibility on herself. She also casts spell
+  immunity, choosing spells she knows the PCs favor.
+DuringCombat: >-
+  Once combat starts in area D9, and once she is invisible, Luccaria sends her
+  two attendant cultists into area D9 as well to join the fight. She follows,
+  casting quickened shield of faith and heroism as she enters the room. If the
+  opportunity presents itself, she casts blade barrier to block escape routes.
+  Once she's visible, Luccaria casts her ranged attack spells. If she's engaged
+  in melee she casts quickened divine might before attacking, then channels
+  negative energy as a swift action the following round to activate her
+  grayflame short sword (which increases the weapon's enhancement bonus by +1
+  and deals +1d6 points of damage for 6 rounds). Luccaria casts heal on herself
+  if she ever drops below 40 hit points.
+Morale: >-
+  If dropped below 15 hit points, Luccaria casts mislead and attempts to escape
+  to Harrigan's side (in area G3) to inform him of the PCs and to aid him in
+  combat. She does not abandon Harrigan as long as he lives, but if he is slain,
+  she attempts to flee the Shackles entirely.
+Gear: wand of cure serious wounds (14 charges), unholy water (2)
+OtherGear: >-
+  +1 glamered chain shirt, +1 grayflame* short sword, masterwork short sword,
+  headband of inspired wisdom +2, ring of mind shielding, spell component pouch,
+  silver unholy symbol of Norgorber worth 25 gp
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3164'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

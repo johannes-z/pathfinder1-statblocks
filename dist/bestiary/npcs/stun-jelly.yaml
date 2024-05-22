@@ -1,0 +1,79 @@
+Name: Stun Jelly
+CR: '3'
+XP: '800'
+Race: Stunjelly
+MonsterSource: The Tome of Horrors Complete 386
+Alignment: 'N'
+Size: Large
+Type: ooze
+Init: '0'
+Senses:
+  - blindsight 60 ft.
+  - Perception -5
+AC: 9, touch 9, flat-footed 9
+AC_Mods: (-1 size)
+HP: '42'
+HD: (4d8+24)
+Saves: Fort +7, Ref +1, Will -4
+Fort: '7'
+Ref: '1'
+Will: '-4'
+DefensiveAbilities: camouflage
+Immune: ooze traits
+Speed: 10 ft.
+Melee:
+  - slam +3 (1d6+1 plus 1d6 acid plus paralysis)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  corrosion, engulf (DC 13, 1d6 acid and paralysis), paralysis (3d6 rounds, DC
+  18)
+AbilityScores:
+  - 12
+  - 10
+  - 22
+  - —
+  - 1
+  - 1
+BaseAtk: '3'
+CMB: '5'
+CMD: 15 (can't be tripped)
+Source: Sword of Air-Chapter 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid (Ex)
+    description: >-
+      A stunjelly secretes a digestive acid that dissolves organic material
+      quickly, but does not affect metal or stone. Any melee hit deals acid
+      damage, and the opponent's clothing and armor (non-metal only) take the
+      same amount of damage unless they succeed on DC 18 Reflex save. A wooden
+      weapon that strikes a stunjelly takes 1d6 acid damage unless it succeeds
+      on a DC 18 Reflex save. If a stunjelly remains in contact with a wooden
+      object for 1 full round, it inflicts 18 points of damage (no save) to the
+      object. The save DCs are Constitution-based.
+  - name: Camouflage (Ex)
+    description: >-
+      Since a stunjelly looks like normal stone when at rest, it takes a DC 20
+      Perception check to notice it before it attacks. Anyone with ranks in
+      Survival or Knowledge (dungeoneering) can use one of those skills instead
+      of Perception to notice the stunjelly. Dwarves can use stonecunning to
+      notice a stunjelly.
+  - name: Corrosion (Ex)
+    description: >-
+      An opponent that is being engulfed by a stunjelly suffers a -4 penalty on
+      Reflex saves made to resist acid damage applying to clothing and armor.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12605'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,78 @@
+Name: Centipede Swarm
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Diminutive
+Type: vermin
+SubType: (swarm)
+Init: '4'
+Senses:
+  - darkvision 60 ft., tremorsense 30 ft.
+  - Perception +4
+AC: 18, touch 18, flat-footed 14
+AC_Mods: (+4 Dex, +4 size)
+HP: '31'
+HD: (9d8-9)
+Saves: Fort +5, Ref +7, Will +3
+Fort: '5'
+Ref: '7'
+Will: '3'
+DefensiveAbilities: swarm traits
+Immune: weapon damage
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - swarm (2d6 plus poison)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: distraction (DC 13), poison
+AbilityScores:
+  - 1
+  - 19
+  - 8
+  - —
+  - 10
+  - 2
+BaseAtk: '6'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Weapon FinesseB
+Skills:
+  - Climb +12
+  - Perception +4
+RacialMods: +4 Perception
+Environment: temperate or warm forest or underground
+Organization: solitary, pair, or tangle (3-6 swarms)
+Treasure: none
+Description_Visual: >-
+  A writhing mass of legs and poisonous pincers swarms across the ground in a
+  deadly, undulating wave.
+Group: Centipede
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d4
+      Dex damage; cure 1 save. The save DC is Constitution-based and includes a
+      +2 racial bonus.
+Description:
+  - >-
+    A centipede swarm seeks to surround and attack any living prey it
+    encounters.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Centipede, Swarm
+id: '60'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,210 @@
+Name: Sunbaked Zombie
+CR: '1'
+XP: '400'
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 13, touch 11, flat-footed 12
+AC_Mods: (+1 Dex, +2 natural)
+HP: '12'
+HD: (2d8+3)
+Saves: Fort +0, Ref +1, Will +3
+Fort: '0'
+Ref: '1'
+Will: '3'
+DR: 5/slashing
+Immune: undead traits
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - slam +4 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death throes (DC 11), fiery gaze (1d6 fire, DC 11)
+AbilityScores:
+  - 17
+  - 12
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '1'
+CMB: '4'
+CMD: '15'
+Feats:
+  - ToughnessB
+Environment: any warm
+Organization: solitary, pair, or infestation (3-12)
+Treasure: none
+Description_Visual: >-
+  This humanoid creature's skin is scorched brown and pulled taut against its
+  bones. Flames flicker in its hollow eye sockets.
+Source: AP 80
+IsTemplate: '1'
+Description:
+  - >-
+    Most creatures that die in the desert are consumed by roaming scavengers or
+    buried forever by sand, yet those who avoid such a fate bake under the
+    merciless sun. Such desiccated corpses near pyramids or other areas with
+    strong necromantic magic sometimes rise as sunbaked zombies. With their
+    corporeal bodies warped by the sun, and their innards but a dry facsimile of
+    living organs, sunbaked zombies use the gifts of the sun to lash those who
+    cross their paths. A sunbaked zombie is the same size as its original form,
+    but typically weighs less than half its original weight.
+  - Ecology
+  - >-
+    Other than the dry, leathery skin clinging to the creature's bones, the most
+    striking physical difference between a sunbaked zombie and a normal zombie
+    is the sunbaked zombie's flame-filled eye sockets. Though it lacks
+    functioning eyes-those having long since shriveled to dust-the sunbaked
+    zombie can see as well as any other zombie, and the flames in its dried
+    sockets can set enemies afire. With its dried, taut skin and taut and
+    insides reduced to dust, it retains a normal zombie's resistance to damage.
+    When its animating spark is extinguished, a sunbaked zombie's corpse bursts
+    into a cloud of poisonous gas, choking those around it.
+  - >-
+    So long as the sun shines, sunbaked zombies move about as if with purpose.
+    At night, however, they wander in circles until the sun blazes across the
+    morning sky
+  - >-
+    once more. The faint light given off by their eye sockets, combined with
+    their stumbling movement, has led some desert nomads to claim they are
+    desert will-o-wisps.
+  - Habitat & Society
+  - >-
+    Sun-baked zombies most often rise near pyramids and other burial sites in
+    hot deserts, where latent necromantic energy lingers from countless arcane
+    rituals and restless spirits. As such, sunbaked zombies are primarily found
+    among the dunes of Osirion and the other nations that make up northern
+    Garund. Typically animated in isolation, sunbaked zombies rarely form hordes
+    like normal zombies, but when entire caravans fall to thirst and the desert
+    sun, all of its members might rise as these terrible undead.
+  - >-
+    When one intentionally raises a sunbaked zombie using animate dead, the body
+    to be raised must be left out in the sun's rays for a full 12 hours and must
+    be salted every hour during this time to hasten its desiccation. Spell
+    effects that produce light work for this purpose only if they count as
+    actual sunlight, and even then they must be combined with desecrate. Casting
+    the animating spell at night always fails; the sun must be out and directly
+    beating down on the corpse. Without the intense magical focus of a spell, it
+    takes many days for the corpse to absorb enough sun and necromantic energy
+    to rise spontaneously.
+  - >-
+    Creating a Sunbaked Zombie "Sunbaked zombie" is an acquired template that
+    can be added to any corporeal creature (other than undead), referred to
+    hereafter as the base creature.
+  - 'CR: This depends on the creature''s new total number of Hit Dice, as follows.'
+  - HD CR XP
+  - 1 1/2 200
+  - 2 1 400
+  - 3-4 2 600
+  - 5-6 3 800
+  - 7-8 4 1,200
+  - 9-10 5 1,600
+  - 11-12 6 2,400
+  - 13-16 7 3,200
+  - 17-20 8 4,800
+  - 21-24 9 6,400
+  - 25-28 10 9,600
+  - 'Alignment: Always neutral evil.'
+  - >-
+    Type: The creature's type changes to undead. It retains any subtypes except
+    for alignment subtypes (such as good) and subtypes that indicate kind (such
+    as giant). It does not gain the augmented subtype.
+  - 'Armor Class: The natural armor bonus is based on the creature''s size.'
+  - Sunbaked Zombie Size Natural Armor Bonus
+  - Tiny or smaller +0
+  - Small +1
+  - Medium +2
+  - Large +3
+  - Huge +4
+  - Gargantuan +7
+  - Colossal +11
+  - >-
+    Hit Dice: Drop Hit Dice gained from class levels (to a minimum of 1) and
+    change racial HD to d8s. Sunbaked zombies gain additional HD as noted on the
+    following table. Sunbaked zombies use their Charisma modifiers to determine
+    bonus hit points (instead of Constitution).
+  - Sunbaked Zombie Size Bonus Hit Dice
+  - Tiny or smaller -
+  - Small or Medium +1 HD
+  - Large +2 HD
+  - Huge +4 HD
+  - Gargantuan +6 HD
+  - Colossal +10 HD
+  - >-
+    Saves: A sunbaked zombie's base save bonuses are Fort +1/3 HD, Ref +1/3 HD,
+    and Will +1/2 HD + 2.
+  - >-
+    Defensive Abilities: A sunbaked zombie loses the base creature's defensive
+    abilities and gains DR 5/slashing and resist fire 10 (or immunity to fire if
+    it has 11 HD or more), as well as all of the standard immunities and traits
+    granted by the undead type.
+  - >-
+    Speed: Winged sunbaked zombies can still fly, but their maneuverability
+    drops to clumsy. If the base creature flew magically, so can the sunbaked
+    zombie. Retain all other movement types.
+  - >-
+    Attacks: A sunbaked zombie retains all natural weapons, manufactured weapon
+    attacks, and weapon proficiencies of the base creature. It also gains a slam
+    attack that deals damage based on the sunbaked zombie's size, but as if it
+    were one size category larger than its actual size (Pathfinder RPG Bestiary
+    301-302).
+  - >-
+    Special Attacks: A sunbaked zombie retains none of the base creature's
+    special attacks, but gains the following.
+  - >-
+    Death Throes (Su): When a sunbaked zombie is destroyed, its body explodes in
+    a burst of stale dust. Adjacent creatures must succeed at a Fortitude save
+    or be staggered for 1d4+1 rounds. The DC is equal to 10 + 1/2 the sunbaked
+    zombie's Hit Dice + the sunbaked zombie's Cha modifier. Creatures that don't
+    breathe are immune to this effect.
+  - >-
+    Fiery Gaze (Su): A sunbaked zombie's eye sockets flicker with a small flame
+    that gives light equivalent to that of a candle. As a standard action, a
+    sunbaked zombie can direct its gaze against a single creature within 30 feet
+    of it. A creature targeted must succeed at a Fortitude save
+  - >-
+    or take 1d6 points of fire damage. If the sunbaked zombie has 5 or more Hit
+    Dice, its fiery gaze deals 2d6 points of fire damage, and this damage
+    increases by an additional 1d6 points of fire damage for every 4 additional
+    Hit Dice the sunbaked zombie possesses. A creature damaged by this effect
+    must succeed at a Reflex save or catch fire. Each round, a burning creature
+    can attempt a Reflex save to quench the flames; failure results in another
+    1d6 points of fire damage. Flammable items worn by a creature must also save
+    or take the same damage as the creature. If a creature is already on fire,
+    it suffers no additional effects from a fiery gaze. The save DC is
+    Charisma-based.
+  - >-
+    Abilities: Str +2. A sunbaked zombie has no Con or Int score, and its Wis
+    and Cha become 10.
+  - 'BAB: A sunbaked zombie''s base attack bonus is equal to 3/4 of its Hit Dice.'
+  - 'Skills: A sunbaked zombie has no skill ranks.'
+  - >-
+    Feats: A sunbaked zombie loses all feats possessed by the base creature and
+    gains Toughness as a bonus feat.
+  - >-
+    Special Qualities: A sunbaked zombie loses most special qualities of the
+    base creature. It retains any extraordinary special qualities that improve
+    its melee or ranged attacks.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5976'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

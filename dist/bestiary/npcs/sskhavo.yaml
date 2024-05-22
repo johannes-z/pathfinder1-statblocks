@@ -1,0 +1,133 @@
+Name: Sskhavo
+CR: '16'
+XP: '76800'
+Race: serpentfolk
+Class: fighter 3/duelist 9
+MonsterSource: Pathfinder RPG Bestiary 2 242
+Alignment: NE
+Size: Medium
+Type: monstrous humanoid
+Init: '15'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +22
+AC: 33, touch 24, flat-footed 19
+AC_Mods: (+4 armor, +7 Dex, +1 dodge, +6 Int, +5 natural)
+HP: '176'
+HD: (17d10+88)
+Saves: Fort +13, Ref +19, Will +12; +1 vs. fear
+Fort: '13'
+Ref: '19'
+Will: '12'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1, canny defense, elaborate defense, grace, parry
+Immune: mind-affecting effects, paralysis, poison
+SR: '27'
+Speed: 30 ft.
+Melee:
+  - >-
+    +1 keen short sword +26/+21/+16/+11 (1d6+13/17-20),  bite +19 (1d6+1 plus
+    poison)
+Ranged:
+  - +1 composite longbow +25/+20/+15/+10 (1d8+4/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: acrobatic charge, no retreat, precise strike +9, riposte
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +6)
+  values:
+    - label: At will
+      value: disguise self (DC 15), ventriloquism
+    - label: 1/day
+      value: >-
+        blur, dominate person (DC 17), major image (DC 15), mass suggestion (DC
+        18), mirror image, suggestion (DC 17), teleport
+AbilityScores:
+  - 17
+  - 24
+  - 18
+  - 22
+  - 14
+  - 14
+BaseAtk: '17'
+CMB: +20 (+24 disarm)
+CMD: 38 (40 vs. disarm)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Deflect Arrows
+  - Dodge
+  - Great Fortitude
+  - Greater Disarm
+  - Improved Disarm
+  - Improved Initiative
+  - Iron Will
+  - Mobility
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (short sword)
+Skills:
+  - Acrobatics +27
+  - Bluff +22
+  - Climb +13
+  - Escape Artist +35
+  - Intimidate +22
+  - Knowledge (dungeoneering) +26
+  - Knowledge (engineering) +26
+  - Perception +22
+  - Perform (dance) +9
+  - Sense Motive +22
+  - Stealth +27
+Languages:
+  - Aklo
+  - Azlanti
+  - Common
+  - Cyclops
+  - Draconic
+  - Necril
+  - Orvian
+  - Undercommon
+  - telepathy 100 ft.
+SQ: armor training 1, enhanced mobility, improved reaction +4
+Source: AP 41
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 22; frequency 1/round for 6 rounds; effect 1d2
+      Str; cure 2 saves.
+Gender: Male
+BeforeCombat: Sskhavo casts blur and mirror image before combat.
+DuringCombat: >-
+  Sskhavo uses precise strike as often as possible (the bonus is already
+  included in his stat block). He attempts to disarm foes who engage him in
+  melee combat, focusing all of his attacks on disarmed opponents while parrying
+  and riposting attacks from other foes. He uses his enhanced mobility to avoid
+  being cornered or flanked.
+Morale: >-
+  If he is reduced to fewer than 100 hit points, Sskhavo teleports to area N10
+  and summons his officers to rally the fortress's defenders. If the fortress is
+  already on alert, he instead teleports to area N26 to join Khavith in a
+  last-ditch defense of the citadel. Otherwise, Sskhavo fights to the death,
+  aware that failure or surrender will only result in an even more painful death
+  at the hands of Vyr-Azul.
+Gear: potion of cure serious wounds
+OtherGear: >-
+  +2 leather armor, +1 composite longbow (+3 Str) with 20 arrows, +1 keen short
+  sword, amulet of natural armor +2, belt of giant strength +2, key to area N34,
+  80 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1432'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

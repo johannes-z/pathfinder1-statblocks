@@ -1,0 +1,128 @@
+Name: Burrowing Lamprey
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Small
+Type: magical beast
+SubType: (aquatic)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +5
+AC: 15, touch 13, flat-footed 13
+AC_Mods: (+2 Dex, +2 natural, +1 size)
+HP: '8'
+HD: (1d10+3)
+Saves: Fort +5, Ref +4, Will +1
+Fort: '5'
+Ref: '4'
+Will: '1'
+Speed: 5 ft., swim 30 ft.
+Melee:
+  - bite +4 (1d4 plus attach plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: attach, flesh burrow, poison
+AbilityScores:
+  - 10
+  - 15
+  - 16
+  - 1
+  - 12
+  - 2
+BaseAtk: '1'
+CMB: +0 (+8 grapple when attached)
+CMD: 12 (can't be tripped)
+Feats:
+  - Improved Initiative
+  - Weapon FinesseB
+Skills:
+  - Escape Artist +10
+  - Perception +5
+  - Swim +8
+RacialMods: +8 Escape Artist
+SQ: amphibious
+Environment: temperate and warm aquatic
+Organization: cluster (2-5) or swarm (6-20)
+Treasure: none
+Description_Visual: >-
+  This eel-like creature has leathery-looking skin almost black in color. No
+  discernible features are present on its form.
+Group: Lamprey
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Attach (Ex)
+    description: >-
+      When a burrowing lamprey hits with a bite attack, its suckered mouth
+      latches onto the target, anchoring it in place. An attached burrowing
+      lamprey is effectively grappling its prey. The burrowing lamprey loses its
+      Dexterity bonus to AC and has an AC of 13, but holds on with great
+      tenacity. A burrowing lamprey has a +8 racial bonus to maintain its
+      grapple on a foe once it is attached. An attached burrowing lamprey can be
+      struck with a weapon or grappled itself-if its prey manages to win a
+      grapple check or Escape Artist check against it, the burrowing lamprey is
+      removed.
+  - name: Flesh Burrow (Ex)
+    description: >-
+      At the start of its next turn, the round after it attaches to its prey, a
+      burrowing lamprey burrows into the target's flesh and subjects it to its
+      poison. Applying flame to the point of entry deals 1d6 points of fire
+      damage to both the host and the burrowing lamprey. Cutting the lamprey out
+      works, but the longer the lamprey remains in the host, the more damage
+      this method does. Cutting a lamprey out requires a slashing weapon and a
+      DC 20 Heal check, and deals 1d6 points of damage to the host per round the
+      lamprey has been inside it. If the Heal check succeeds, one lamprey is
+      removed. Remove disease instantly kills any burrowing lampreys inside a
+      host.
+  - name: Poison (Ex)
+    description: >-
+      Flesh burrow-injury; save DC 14 Fort; effect 1d2 Constitution damage; cure
+      -. The save DC is Constitution-based. The lamprey's poison liquefies the
+      host's organs. A successful saving throw can prevent Con damage for that
+      round, but the only cure is to remove the burrowing lamprey from the host.
+Description:
+  - >-
+    The burrowing lamprey is an eel-like fish that attaches to its prey, and
+    then burrows into its body, feasting on blood and the rich vital organs.
+    They are a danger to fish and aquatic mammals, and can be as deadly as a
+    school of piranha when encountered in large numbers. Burrowing lampreys
+    resemble eels three to four feet long, with sphincter-like mouths positioned
+    within hardened cartilaginous beaks.
+  - >-
+    Although they are usually marine creatures, burrowing lampreys breed in
+    coastal freshwater swamps and rivers, and thus can be found in both fresh
+    and saltwater environments.
+  - >-
+    They prefer to either ambush prey by hiding along the ocean floor or in
+    rocky crevices, or swarm around a target if traveling in numbers. However,
+    it is possible that they can be encountered inside a dead creature's
+    remains, feeding on its vital organs.
+  - >-
+    Medium- and large-sized burrowing lampreys are less common, but sometimes
+    found in the deeper sea, where they may attack large sharks or even small
+    whales.
+  - >-
+    Burrowing lampreys seek out targets at least equal to their size category,
+    and up to three sizes larger, if they can, though a starving lamprey attacks
+    just about anything. They attack with their bite, then immediately attempt
+    to burrow into their victim.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4989'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

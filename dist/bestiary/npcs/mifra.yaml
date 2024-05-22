@@ -1,0 +1,114 @@
+Name: Mifra
+CR: '2'
+XP: '600'
+Race: jinkin
+Class: sorcerer 2
+MonsterSource: Pathfinder RPG Bestiary 2 142
+Alignment: CE
+Size: Tiny
+Type: fey
+SubType: (gremlin)
+Init: '6'
+Senses:
+  - darkvision 120 ft., low-light vision
+  - Perception +7
+AC: 19, touch 19, flat-footed 12
+AC_Mods: (+6 Dex, +1 dodge, +2 size)
+HP: '18'
+HD: (3d6+8)
+Saves: Fort +1, Ref +8, Will +6
+Fort: '1'
+Ref: '8'
+Will: '6'
+DR: 5/cold iron
+SR: '12'
+Speed: 40 ft.
+Melee:
+  - mwk short sword +10 (1d3-4/19-20), bite +4 (1d3-4)
+Ranged:
+  - dart +9 (1d2-4)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: sneak attack +1d6, tinker
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 1st; concentration +5)
+  values:
+    - label: At Will
+      value: prestidigitation
+    - label: 1/day
+      value: >-
+        dimension door (self plus 5 lbs. only) Bloodline Spell-Like Abilities
+        (CL 2nd; concentration +6)
+    - label: 7/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 2nd; concentration +6)
+  values:
+    - label: 1st (5/day)
+      value: magic missile, sleep (DC 17)
+    - label: 0 (at will)
+      value: bleed (DC 14), ghost sound (DC 15), detect magic, mage hand, resistance
+AbilityScores:
+  - 3
+  - 23
+  - 13
+  - 16
+  - 12
+  - 19
+BaseAtk: '1'
+CMB: '5'
+CMD: '12'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - ToughnessB
+  - Weapon FinesseB
+Skills:
+  - Bluff +10
+  - Craft (traps) +11
+  - Disable Device +11
+  - Escape Artist +12
+  - Knowledge (arcana) +7
+  - Perception +7
+  - Sense Motive +5
+  - Sleight of Hand +10
+  - Spellcraft +9
+  - Stealth +18
+  - Use Magic Device +8
+RacialMods: +4 Craft (traps), +4 Disable Device
+Languages:
+  - Undercommon
+SQ: bloodline arcana (+2 DC for compulsion spells)
+Source: PFS S4-18
+IsTemplate: '0'
+Gender: Female
+Bloodline: fey
+BeforeCombat: >-
+  If alerted to the PCs' presence, Mifra readies her scroll of summon monster II
+  and hides behind one of the tubs.
+DuringCombat: >-
+  Mifra stays out of melee while using darkness, speed, and stealth to bait the
+  PCs into chasing her through the hazardous room. She uses her scroll to summon
+  a fiendish centipede and uses her spells to neutralize other threats.
+Morale: >-
+  Mifra is viciously territorial, but she would rather live to torment her
+  enemies than die by their hands. If Xarmigash is killed and Mifra is reduced
+  to 5 hit points or fewer, she flees.
+Gear: potion of cure moderate wounds, scroll of summon monster II
+OtherGear: mwk short sword, dart (4), battered notebook, walking stick
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7720'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,126 @@
+Name: Ibhris Akpahl
+CR: '9'
+XP: '6400'
+Race: human
+Class: sorcerer 10
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +6
+AC: 18, touch 14, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, +2 Dex, +1 dodge)
+HP: '67'
+HD: (10d6+30)
+Saves: Fort +6, Ref +6, Will +9; +4 vs. poison
+Fort: '6'
+Ref: '6'
+Will: '9'
+Save_Mods: +4 vs. poison
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - mwk morningstar +5 (1d8-1)
+Ranged:
+  - mwk light crossbow +8 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: 8/day
+      value: corrupting touch (5 rounds)
+    - label: 1/day
+      value: hellfire (10d6 fire, DC 20)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: dominate person (DC 21)
+    - label: 4th (6/day)
+      value: charm monster (DC 22), greater invisibility, illusory wall (DC 20)
+    - label: 3rd (7/day)
+      value: fireball (DC 18), haste, major image (DC 19), suggestion (DC 19)
+    - label: 2nd (7/day)
+      value: >-
+        detect thoughts (DC 17), hideous laughter (DC 18), mirror image,
+        misdirection (DC 18), scorching ray
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 19), mage armor, magic missile, protection from good,
+        shield, ventriloquism (DC 17)
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 15), dancing lights, ghost sound (DC 16),
+        guidance, mage hand, message, prestidigitation (DC 15), touch of fatigue
+        (DC 15)
+AbilityScores:
+  - 8
+  - 14
+  - 14
+  - 10
+  - 12
+  - 20
+BaseAtk: '5'
+CMB: '4'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Deceitful
+  - Dodge
+  - Eschew Materials
+  - Point-Blank Shot
+  - Spell Focus (illusion)
+  - Spell Focus (enchantment)
+Skills:
+  - Bluff +22
+  - Disguise +12
+  - Perception +6
+  - Stealth +7
+  - Use Magic Device +13
+Languages:
+  - Common
+SQ: bloodline arcana (+2 DC for charm spells)
+Source: Feast Of Dust
+IsTemplate: '0'
+Gender: Male
+Bloodline: infernal
+BeforeCombat: Ibhris casts mage armor every day.
+DuringCombat: >-
+  Ibhris remains adjacent to his golem at all times. He casts dominate person on
+  the strongest-looking enemy if attacked, then activates the Great Scarab's
+  shield other ability before unleashing fireball and hideous laughter. He loves
+  using illusory wall to simulate higher-level wall spells, such as wall of iron
+  or wall of stone.
+Morale: >-
+  If reduced below half hit points, Ibhris casts greater invisibility, and he
+  and the Great Scarab retreat back to the Sentinel Shrine (area C5). If already
+  in the shrine, he fights until reduced below 20 hit points, then casts greater
+  invisibility, hoping to snatch up an armload of treasure before fleeing into
+  the desert.
+Gear: >-
+  potion of cure serious wounds, scroll of permanent image, wand of charm
+  monster (7 charges)
+OtherGear: >-
+  mwk light crossbow, mwk morningstar, cloak of resistance +1, headband of
+  alluring charisma +2, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  If not under the effect of mage armor, Ibhris has an Armor Class of 14 (touch
+  14, flat-footed 11).
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7199'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

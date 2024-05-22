@@ -1,0 +1,172 @@
+Name: Vashian The Needle
+CR: '10'
+XP: '9600'
+Race: human
+Class: fighter (mobile fighter) 2/rogue (acrobat) 3/Red Mantis assassin 5
+MonsterSource: >-
+  Pathfinder RPG Advanced Player's Guide 105, 132; Pathfinder Campaign Setting:
+  The Inner Sea World Guide 282
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception +12
+AC: 22, touch 16, flat-footed 17
+AC_Mods: (+5 armor, +1 deflection, +4 Dex, +1 dodge, +1 natural)
+HP: '81'
+HD: (10 HD; 2d10+8d8+33)
+Saves: >-
+  Fort +9, Ref +12, Will +4; +1 vs. effects that would cause the  paralysis,
+  slowed, or entangled condition
+Fort: '9'
+Ref: '12'
+Will: '4'
+Save_Mods: +1 vs. effects that would cause the  paralysis, slowed, or entangled condition
+DefensiveAbilities: alchemically quickened, evasion, red shroud (2/day 5 rounds)
+Speed: 70 ft.
+Melee:
+  - +1 sawtooth sabre +14/+9 (1d8+6/19-20), dagger +12/+7  (1d4+3/19-20)
+Ranged:
+  - dagger +12 (1d4+3/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: prayer attack (DC 16), sneak attack +4d6
+SpellsKnown:
+  header: Red Mantis Assassin Spells Known (CL 5th; concentration +6)
+  values:
+    - label: 2nd (2/day)
+      value: bull's strength, cat's grace, invisibility
+    - label: 1st (5/day)
+      value: expeditious retreat, feather fall, reduce person, ventriloquism
+AbilityScores:
+  - 16
+  - 20
+  - 14
+  - 13
+  - 8
+  - 13
+BaseAtk: '7'
+CMB: '10'
+CMD: '27'
+Feats:
+  - Desperate Battler
+  - Dodge
+  - Exotic Weapon Proficiency (sawtooth sabre)
+  - Greater Weapon Focus (sawtooth sabre)
+  - Mobility
+  - Spring Attack
+  - Step Up
+  - Toughness
+  - Weapon Finesse
+  - Weapon Specialization (sawtooth sabre)
+Skills:
+  - Acrobatics +19 (+35 jump)
+  - Bluff +14
+  - Climb +8
+  - Disable Device +8
+  - Disguise +14
+  - Escape Artist +11
+  - Fly +10
+  - Intimidate +5
+  - Knowledge (religion) +5
+  - Linguistics +5
+  - Perception +12
+  - Sense Motive +5
+  - Sleight of Hand +11
+  - Stealth +19
+  - Swim +6
+Languages:
+  - Common
+  - Draconic
+SQ: >-
+  agility, alchemically quickened, expert acrobat, rogue talent (fast stealth),
+  resurrection sense, sabre fighting 1, sabre fighting 2, second chance (1/day),
+  summon mantis
+Source: PFS S2-26
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alchemically Quickened (Ex)
+    description: >-
+      Vashian's speed increases by 10 feet, and each round in which he moves at
+      least 10 feet, he gains the effects of a blur spell until the start of his
+      next round. Feats Vashian's Desperate Battle feat grants him a +1 morale
+      bonus on attack and damage rolls when he is more than 10 feet from an ally
+      and not benefiting from the aid another action.
+  - name: Prayer Attack (Su)
+    description: >-
+      To initiate a prayer attack, a Red Mantis assassin holds her sawtooth
+      sabre (or sabres) out, point down, and weaves the blade in the air. She
+      must be within 30 feet of and visible to her victim. Beginning a prayer
+      attack is a standard action, and causes her victim to be fascinated by her
+      unless he makes a Will save. She can maintain this effect by
+      concentrating. The victim may attempt a new save to escape the fascination
+      each time a threat (other than the fascinating assassin) appears. At any
+      point after 3 rounds, she may make a coup de grace attack against the
+      target, provided the target is still fascinated. Activating or
+      concentrating on maintaining a prayer attack does not provoke an attack of
+      opportunity.
+  - name: Red Shroud (Su)
+    description: >-
+      A Red Mantis assassin can create a veil of red mist as a move-equivalent
+      action. The red shroud persists for 1 round per class level. It grants a
+      +1 dodge bonus to AC and fast healing equal to the assassin's Constitution
+      bonus. This mist cannot be dissipated by wind. If she is slain while this
+      ability is active, she can choose whether to remain corporeal or to
+      disintegrate into a cloud of red mist that leaves behind only her gear in
+      order to deprive her enemies of access to her remains.
+  - name: Summon Mantis (Sp)
+    description: >-
+      Once per day, Vashian can summon an advanced fiendish giant mantis, 1d3
+      fiendish giant mantises, or 1d4+1 giant mantises as if using summon
+      monster V. He can mentally direct the actions of these summoned vermin as
+      a free action. All mantises summoned by this spell-like ability are blood
+      red, and gain no racial bonus on Stealth checks in forests.
+Gender: Male
+BeforeCombat: >-
+  Vashian casts bull's strength, cat's grace, and expeditious retreat, all of
+  which have been factored into his statistics. He also casts invisibility.
+DuringCombat: >-
+  Vashian hides with invisibility and then uses his fast stealth rogue talent to
+  sneak up on an unaware opponent and score a sneak attack with his sawtooth
+  sabre. He then uses Spring Attack and his considerable movement speed to
+  distance himself from the PCs during the same round, preferably around a
+  corner. He repeats this tactic as often as he can get away with it. He might
+  cast ventriloquism to duplicate his villainous laughter in an area away from
+  him to divert the PCs' search. He knows the college's layout and takes
+  advantage of the secret door in area 3 and ladder in area 5 to attack from
+  unsuspected directions.
+Morale: >-
+  Unable to conceive of his defeat, Vashian ultimately fights to the death,
+  whereupon he disintegrates his body into a cloud of red mist if his red shroud
+  ability is active.
+Gear: >-
+  +1 mithral shirt, +1 sawtooth sabre, dagger, amulet of natural armor +1, cloak
+  of resistance +2, mask of the mantis*, ring of protection +1, cipher stone
+  ring
+Note: '* See The Inner Sea World Guide.<br>** See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: alchemically quickened|
+BaseStatistics: >-
+  When not benefiting from his spells, Vashian has the following statistics:
+  Init +3; AC 20, touch 14; Ref +10; Speed 40 ft.; Melee +2 sawtooth sabre
+  +12/+7 (1d8+4/19&#8211;20), dagger +10/+5 (1d4+1/19&#8211;20); Ranged dagger
+  +10 (1d4+1/19&#8211; 20); Str 12, Dex 16; CMB +8; CMD 23; Skills Acrobatics
+  +17 (+23 jump), Climb +6, Disable Device +6, Escape Artist +9, Fly +8, Sleight
+  of Hand +9, Stealth +17, Swim +4
+AgeCategory: Adult
+ClassArchetypes: mobile fighter
+CompanionFamiliarLink: '0'
+id: '5809'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

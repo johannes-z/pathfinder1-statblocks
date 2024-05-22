@@ -1,0 +1,149 @@
+Name: Ithier
+CR: '17'
+XP: '102400'
+Race: scarlet walker
+MonsterSource: >-
+  Pathfinder RPG Monster Codex 248, Pathfinder Adventure Path: Rise of the
+  Runelords Anniversary Edition 414
+Alignment: LE
+Size: Huge
+Type: outsider
+SubType: (evil, extraplanar, lawful)
+Init: '11'
+Senses:
+  - bloodsense, darkvision 60 ft.
+  - Perception +29
+AC: 32, touch 20, flat-footed 20
+AC_Mods: (+11 Dex, +1 dodge, +12 natural, -2 size)
+HP: '272'
+HD: (19d10+152)
+HP_Mods: fast healing 10
+Saves: Fort +13, Ref +22, Will +18
+Fort: '13'
+Ref: '22'
+Will: '18'
+DefensiveAbilities: evasion, unusual anatomy (50%)
+Immune: acid, cold, poison
+SR: '27'
+Weaknesses: vulnerable to electricity
+Speed: 40 ft., climb 40 ft.
+Speed_Mod: air walk
+Melee:
+  - >-
+    2 claws +28 (3d6+9/19-20 plus bleed), tentacle +23 (4d6+4 plus paralysis and
+    bleed)
+Space: 15 ft.
+Reach: 30 ft.
+SpecialAttacks: >-
+  bleed (1d6), blood-draining gaze, long limbs (+15 ft.), paralysis (1d4 rounds,
+  DC 26)
+SpellLikeAbilities:
+  header: Scarlet Walker Spell-Like Abilities (CL 16th; concentration +25)
+  values:
+    - label: Constant
+      value: air walk, detect thoughts (DC 21)
+    - label: At Will
+      value: sending
+    - label: 3/day
+      value: confusion (DC 23), demand (DC 27), quickened lesser confusion (DC 20)
+    - label: 1/day
+      value: >-
+        feeblemind (DC 24), insanity (DC 26), true seeing Sorcerer Creature
+        Spell-Like Abilities (CL 19th; concentration +28)
+    - label: 12/day
+      value: acidic ray (1d6+8 acid)
+SpellsKnown:
+  header: Sorcerer Creature Spells Known (CL 19th; concentration +28)
+  values:
+    - label: 6th (3/day)
+      value: greater dispel magic
+    - label: 5th (4/day)
+      value: dominate person (DC 24), mind fog (DC 24)
+    - label: 4th (4/day)
+      value: enervation, greater invisibility
+AbilityScores:
+  - 28
+  - 33
+  - 25
+  - 18
+  - 24
+  - 29
+BaseAtk: '19'
+CMB: '30'
+CMD: 52 (60 vs. trip)
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (claw)
+  - Improved Natural Attack (claw)
+  - Mobility
+  - Power Attack
+  - Quicken Spell-Like Ability (lesser confusion)
+  - Spring Attack
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +33
+  - Climb +17
+  - Intimidate +31
+  - Knowledge (arcana) +26
+  - Knowledge (nature) +26
+  - Knowledge (planes) +26
+  - Perception +29
+  - Sense Motive +29
+  - Spellcraft +23
+  - Stealth +25
+  - Use Magic Device +28
+Languages:
+  - Abyssal
+  - Aklo
+  - Infernal
+  - Thassilonian
+  - telepathy 300 ft.
+SQ: bloodline arcana (+50% duration on polymorph effects), compression, no breath
+Source: Curse Of The Crimson Throne Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Draining Gaze (Su)
+    description: >-
+      All creatures within 20 feet of a scarlet walker are subject to the
+      monster's eerie blood-draining gaze. Affected creatures must succeed at a
+      DC 26 Fortitude save or thin streams of blood pour from their eyes,
+      flowing through the air and into the eye-socket-like pits in Ithier's
+      face. This does not impact the victim's vision, but deals 1 point of
+      Constitution damage and sickens the victim for 1 round from the hideous
+      pain. A creature already suffering from a bleed effect takes a -4 penalty
+      on the saving throw. This is a bleed effect. The save DC is
+      Constitution-based.
+  - name: Bloodsense (Su)
+    description: >-
+      Ithier can sense living creatures with blood in their veins and undead
+      creatures that feed on blood (such as vampires). This ability functions
+      like blindsight to a range of 60 feet.
+DuringCombat: >-
+  Ithier casts mind fog on the first round of combat and uses quickened lesser
+  confusion each round on a fighter, a barbarian, or another well-armed PC.  The
+  scarlet walker casts greater invisibility on the second round, following that
+  up with its mind-affecting spells and spell-like abilities. It keeps Ileosa
+  informed of the battle via telepathy. It pursues foes throughout the Sunken
+  Queen, but not into the flooded areas. If it manages to affect the target of
+  the soultrapping gem in area B19 with dominate person or demand, it orders
+  that person to go fetch the gemstone and thus fall victim to the gem's
+  effects.
+Morale: Ithier fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|sorcerer|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8704'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

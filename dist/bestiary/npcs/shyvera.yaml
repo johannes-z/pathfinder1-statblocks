@@ -1,0 +1,123 @@
+Name: Shyvera
+CR: '6'
+XP: '2400'
+Race: ifrit
+Class: sorcerer (wishcrafter) 7
+MonsterSource: Pathfinder RPG Advanced Race Guide 126, 128
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +3
+AC: 20, touch 13, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, +1 Dex, +4 shield)
+HP: '55'
+HD: (7d6+28)
+Saves: Fort +5, Ref +4, Will +6
+Fort: '5'
+Ref: '4'
+Will: '6'
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - dagger +2 (1d4-1/19-20)
+Ranged:
+  - dagger +5 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +11)
+  values:
+    - label: 1/day
+      value: >-
+        burning hands (DC 17) Bloodline Spell-Like Abilities (CL 7th;
+        concentration +12)
+    - label: 8/day
+      value: fire ray (1d6+3 fire damage)
+    - label: 5/day
+      value: heart's desire (DC 18)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +12)
+  values:
+    - label: 3rd (5/day)
+      value: fireball (DC 20), haste
+    - label: 2nd (7/day)
+      value: >-
+        flaming sphere (DC 19), glitterdust (DC 17), invisibility*, scorching
+        ray
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 18), grease, mage armor, magic missile, obscuring
+        mist*, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 15), detect magic, light, mending, message*, ray
+        of frost, read magic
+AbilityScores:
+  - 8
+  - 12
+  - 14
+  - 13
+  - 10
+  - 18
+BaseAtk: '3'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Eschew Materials
+  - Extend Spell
+  - Greater Spell Focus (evocation)
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Acrobatics +3
+  - Knowledge (arcana) +10
+  - Perception +4
+  - Spellcraft +8
+  - Use Magic Device +12
+Languages:
+  - Common
+  - Ignan
+  - Terran
+SQ: >-
+  expanded wishcraft, fire affinity, fire ray (7/day), heart's desire, wildfire
+  heartARG, wishbound arcana
+Source: PFS S6-07
+IsTemplate: '0'
+Gender: Female
+Bloodline: elemental (fire)
+BeforeCombat: >-
+  Every morning, Shyvera casts extended mage armor on herself. Additionally,
+  Shyvera casts shield on herself at the first sign of commotion (figured into
+  her statistics).
+DuringCombat: >-
+  Shyvera supports her allies with spells such as haste and other spells that
+  benefit from her wishbound arcana ability. She also uses her offensive spells
+  to blast intruders.
+Morale: >-
+  Being one of Tygora's battlefield generals, Shyvera fights to the death in
+  attempting to delay the PCs and oreads for as long as possible.
+Gear: dagger, cloak of resistance +1, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+OffenseNote: '* These spells can only be cast with wishbound arcana.'
+BaseStatistics: >-
+  Without extended mage armor and shield, Shyvera's statistics are AC 13, Touch
+  13, flat-footed 11.
+AgeCategory: Adult
+ClassArchetypes: wishcrafter
+CompanionFamiliarLink: '0'
+id: '7884'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

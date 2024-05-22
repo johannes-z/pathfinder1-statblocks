@@ -1,0 +1,114 @@
+Name: Jeslyn
+CR: '6'
+XP: '2400'
+Race: half-elf
+Class: oracle 7
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '1'
+Senses:
+  - low-light vision
+  - Perception +11
+AC: 22, touch 15, flat-footed 20
+AC_Mods: (+6 armor, +3 deflection, +1 Dex, +1 dodge, +1 natural)
+HP: '80'
+HD: (7d8+45)
+Saves: Fort +8, Ref +5, Will +6; +4 vs. disease, +2 vs. enchantments
+Fort: '8'
+Ref: '5'
+Will: '6'
+Save_Mods: +4 vs. disease, +2 vs. enchantments
+DefensiveAbilities: resist life
+Immune: disease, sickness, sleep
+Weaknesses: sickened
+Speed: 30 ft.
+Melee:
+  - +1 scythe +9 (2d4+5/x4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: soul siphon 1/day
+SpellsKnown:
+  header: Oracle Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (5/day)
+      value: >-
+        animate dead, bestow curse (DC 17), inflict serious wounds (DC 17),
+        summon monster III
+    - label: 2nd (7/day)
+      value: >-
+        bull's strength, bear's endurance, false life, hold person (DC 16),
+        inflict moderate wounds (DC 16)
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 15), command (DC 15), divine favor, inflict light wounds
+        (DC 15), obscuring mist, sanctuary (DC 15), shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), detect magic, detect poison, guidance, read magic,
+        resistance, stabilize
+AbilityScores:
+  - 16
+  - 13
+  - 18
+  - 10
+  - 8
+  - 18
+BaseAtk: '5'
+CMB: '8'
+CMD: '23'
+Feats:
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Dodge
+  - Martial Weapon Proficiency (scythe)
+  - Skill Focus (Perception)
+Skills:
+  - Intimidate +13
+  - Knowledge (planes) +9
+  - Knowledge (religion) +9
+  - Linguistics +3
+  - Perception +11
+Languages:
+  - Abyssal
+  - Common
+  - Elven
+  - Hallit
+  - Necril
+SQ: >-
+  oracle's curse (wasting), revelations (armor of bones, resist life, soul
+  siphon)
+Source: AP 73
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Jeslyn casts bull's strength, bear's endurance, false life, and shield of
+  faith once she fears the PCs are drawing near.
+DuringCombat: >-
+  Jeslyn casts divine favor on the first round of combat, then attacks with her
+  scythe. If she's having trouble hitting foes, she abandons the scythe and
+  instead uses her inflict spells. She uses bestow curse to lower ability scores
+  against foes&#8211;she's particularly fond of reducing Wisdom scores for
+  clerics, but doesn't bother using spells with saving throws against paladins.
+Morale: Jeslyn fights to the death.
+Gear: scroll of dispel magic (3)
+OtherGear: >-
+  +1 scythe, amulet of natural armor +1, cloak of resistance +2, keys to areas
+  P15 and P18, 350 gp in onyx gems for animate dead, 32 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: bones
+CompanionFamiliarLink: '0'
+id: '4837'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

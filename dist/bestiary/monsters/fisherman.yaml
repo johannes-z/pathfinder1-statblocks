@@ -1,0 +1,191 @@
+Name: Fisherman
+CR: '15'
+XP: '51200'
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (aquatic, evil, lawful, native)
+Init: '2'
+Senses:
+  - darkvision 60 ft., deathwatch 15 miles, weather sense 30 miles
+  - Perception +23
+AC: 21, touch 11, flat-footed 19
+AC_Mods: (+2 Dex, +10 natural, -1 size)
+HP: '202'
+HD: (15d10+120)
+Saves: Fort +13, Ref +11, Will +16
+Fort: '13'
+Ref: '11'
+Will: '16'
+DR: 15/magic
+Immune: cold
+Resist: electricity 10, fire 10
+SR: '26'
+Speed: 40 ft., swim 30 ft.
+Melee:
+  - >-
+    +3 boat hook +26/+21/+16 (1d8+13) or +3 boat hook +22/+17/+12 (1d8+9), +3
+    boat hook +22 (1d6+9) or +3 boat hook +22/+17/+12 (1d8+9), +3 gaff hook +22
+    (1d8+9)
+Ranged:
+  - net +16 (entangle)
+Space: 10 ft.
+Reach: 10 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th)
+  values:
+    - label: Constant
+      value: '- deathwatch (15 mile radius), freedom of movement (underwater)'
+    - label: 1/day
+      value: summon nature's ally V
+SpellsPrepared: >-
+  Spells Prepared (CL 9th; melee touch +23, ranged touch +16) 5th-slay living
+  (DC 20, x2)  4th-control water, spell immunity, unholy blight (DC 19) 
+  3rd-bestow curse (DC 18), deeper darkness, magic circle against good, water
+  walk  2nd-align weapon, darkness, death knell (DC 17), enthrall (DC 17),
+  silence (DC 17)  1st-bane (DC 16), command (DC 16), curse water x2, obscuring
+  mist, sanctuary (DC 16)  0-bleed (DC 15), create water, detect magic, mending
+AbilityScores:
+  - 28
+  - 15
+  - 26
+  - 15
+  - 21
+  - 20
+BaseAtk: '15'
+CMB: '25'
+CMD: '37'
+Feats:
+  - Cleave
+  - Diehard
+  - Endurance
+  - Great Cleave
+  - Iron Will
+  - Power Attack
+  - Two-Weapon Fighting
+  - Vital Strike
+Skills:
+  - Bluff +23
+  - Craft (any) +20
+  - Diplomacy +23
+  - Intimidate +23
+  - Knowledge (local) +20
+  - Perception +23
+  - Sense Motive +23
+  - Swim +35
+Languages:
+  - Aquan
+  - Sylvan
+SQ: amphibious, create soul cage, exotic weapons, gambling
+Environment: any aquatic
+Organization: solitary
+Treasure: standard (+3 boat hook, +3 gaff hook, net, other treasure)
+Description_Visual: >-
+  This large humanoid stands over 10 feet tall, and is clad in the garb of a
+  mundane fisherman. Its eyes glow with an eerie blue light and its grizzled
+  face is trimmed with a gnarled beard from which scuttle small crabs, fish, and
+  shrimp.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Soul Cage (Su)
+    description: >-
+      Using debris that floats to the bottom of the ocean, a fisherman can
+      construct a soul cage. The soul cage is a magical construction that,
+      through its crafting, has been endowed with a trap the soul spell. The
+      spell requires no material components other than the debris from which it
+      is created. The magic of the soul cage only functions for fishermen and
+      the souls remain trapped for as long as the fisherman wishes and remains
+      on the Material Plane. Usually, only upon the death of the fisherman may
+      the trapped souls be released. A soul cage can hold up to six souls at any
+      given time.
+  - name: Deathwatch (Sp)
+    description: >-
+      A fisherman makes constant use of the spell deathwatch, as cast by a 15th
+      level cleric. The range of a fisherman's deathwatch is 1 mile per hit die,
+      allowing it to sense the life state of any creature within its territory.
+      This ability can be negated, but the fisherman can reactivate it the next
+      round as a free action.
+  - name: Exotic Weapons (Ex)
+    description: A fisherman is proficient in the use of the boat hook and gaff hook.
+  - name: Gambling (Ex)
+    description: >-
+      Fishermen are fond of games and gambling and should one be offered a fair
+      chance of odds, he may find a wager impossible to resist. In this way, it
+      may be possible to bargain for the release of the soul of a companion or
+      loved one. Although evil, fishermen are bound by a personal code and honor
+      the terms of a wager if they lose. Spells Fishermen cast divine spells as
+      9th-level clerics. They do not gain access to domains or other cleric
+      abilities.
+  - name: Weather Sense (Su)
+    description: >-
+      A fisherman always knows the condition of the weather within a 30 mile
+      radius, even if he is currently underwater.
+Description:
+  - >-
+    The fisherman is a rare creature not often encountered by the mortals of the
+    material world. Sages and scholars often postulate these
+  - >-
+    boathooks, gaff hooks, and nets to ensnare and slay those who intrude upon
+    their habitat. All fishermen seem to be male - no female of the species has
+    ever been witnessed by any sailor. They are powerful creatures who enjoy
+    tormenting seafarers and work hard to collect the souls of those who die at
+    the hands of the sea. At the bottom of the ocean they may be found tending
+    to devices called soul cages that resemble ordinary lobster traps, though
+    they are used to imprison the spirits of the drowned. The territory of a
+    fisherman can extend over a dozen miles from its lair.
+  - Fishermen stand between 11 and 12 feet tall and weigh 1,600 pounds.
+  - >-
+    When a fisherman detects a great storm at sea, or is otherwise aware that
+    sailors are meeting watery deaths, it rises to the surface in order to start
+    collecting as many of the souls as it can. An individual fisherman may tend
+    to as many as 3d6 soul cages, each containing the incarcerated spirits of
+    1d6 unfortunate sailors, all of which have met their deaths through storm,
+    shipwreck, or some other maritime disaster. Those slain by intentional
+    violence are left to wander the depths by the fisherman. They are very
+    competitive with others of their kind but occasionally they swap souls to
+    enhance their own collections.
+  - Special Weapons
+  - >-
+    Boat Hook: A boat hook resembles a quarterstaff with a barbed hook at one
+    end. Sailors use boat hooks to snag mooring lines and pull in small boats.
+    Because a boat hook is not intended to be used as a weapon, it requires the
+    Exotic Weapon Proficiency to be used in that capacity. A boat hook is a
+    double weapon. The damage is given as hook/staff.
+  - >-
+    Cost 6 gp; Small 1d4/1d3, Medium 1d6/1d4, Large 1d8/1d6; Critical x2; Weight
+    5 lb.; Type Bludgeoning/Piercing.
+  - >-
+    Gaff Hook: A gaff hook is a curved metallic hook with a cross bar. Gaff
+    hooks are used by fishermen to lift heavy catches into their boats. Because
+    a gaff hook is not intended to be used as a weapon, it requires the Exotic
+    Weapon Proficiency to be used in that capacity.
+  - >-
+    Cost 4 gp; Small 1d4, Medium 1d6, Large 1d8; Critical x2; Weight 3 lb.; Type
+    Piercing.
+  - >-
+    aquatic spirits may hail from some other plane of existence, whilst others
+    assume the fisherman is some strange form of undead, the powerful soul of a
+    legendary seaman fated to lurk in the depths of the ocean. Sailors know only
+    that they are to be feared. Although they do not often engage in melee
+    combat, many have found to their own detriment that fishermen are quite
+    skilled. Fighting with a variety of maritime tools and weapons, fishermen
+    favor
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4944'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

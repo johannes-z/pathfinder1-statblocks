@@ -1,0 +1,172 @@
+Name: Ha-Naga
+CR: '16'
+XP: '76800'
+Alignment: CE
+Size: Huge
+Type: aberration
+Init: '10'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +35
+AC: 31, touch 15, flat-footed 24
+AC_Mods: (+6 Dex, +1 dodge, +16 natural, -2 size)
+HP: '250'
+HD: (20d8+160)
+Saves: Fort +14, Ref +14, Will +20
+Fort: '14'
+Ref: '14'
+Will: '20'
+DR: 10/magic
+Immune: charm, sleep
+Resist: cold 20, fire 20
+SR: '27'
+Speed: 50 ft., fly 80 ft. (good)
+Melee:
+  - >-
+    bite +21 (2d8+8), sting +21 (1d8+8 plus poison), tail slap +19 (2d6+4 plus
+    grab)
+Space: 15 ft.
+Reach: 10 ft.
+SpecialAttacks: charming gaze, constrict (2d6+8), poison
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: 3/day
+      value: plane shift (self plus willing targets only)
+SpellsKnown:
+  header: Spells Known (CL 15th; melee touch +21, ranged touch +19)
+  values:
+    - label: 7th (5/day)
+      value: finger of death (DC 24), prismatic spray (DC 24)
+    - label: 6th (7/day)
+      value: chain lightning (DC 23), summon monster VI, true seeing
+    - label: 5th (7/day)
+      value: >-
+        baleful polymorph (DC 22), feeblemind (DC 22), symbol of sleep (DC 22),
+        teleport (DC 22)
+    - label: 4th (7/day)
+      value: bestow curse (DC 21), fear (DC 21), greater invisibility, wall of fire
+    - label: 3rd (8/day)
+      value: >-
+        dispel magic, hold person (DC 20), magic circle against good, sleet
+        storm
+    - label: 2nd (8/day)
+      value: >-
+        blindness-deafness (DC 19), blur, gust of wind (DC 19), invisibility,
+        shatter (DC 19)
+    - label: 1st (8/day)
+      value: >-
+        chill touch (DC 18), mage armor, magic missile, protection from good (DC
+        18), true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 17), daze (DC 17), detect magic, flare (DC 17),
+        message, open/close, read magic, touch of fatigue (DC 17)
+AbilityScores:
+  - 27
+  - 23
+  - 26
+  - 24
+  - 26
+  - 24
+BaseAtk: '15'
+CMB: +25 (+29 grapple)
+CMD: 42 (can't be tripped)
+Feats:
+  - Alertness
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Eschew Materials
+  - Flyby Attack
+  - Improved Initiative
+  - Lightning Reflexes
+  - Mobility
+  - Multiattack
+Skills:
+  - Acrobatics +25
+  - Bluff +27
+  - Diplomacy +27
+  - Fly +24
+  - Intimidate +25
+  - Knowledge (arcana) +30
+  - Knowledge (nobility) +27
+  - Knowledge (planes) +27
+  - Perception +35
+  - Sense Motive +32
+  - Spellcraft +30
+  - Stealth +21 (+29 blending)
+RacialMods: +8 Stealth blend with surroundings
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Giant
+  - Infernal
+  - any one elemental language (Aquan
+  - Auran
+  - Ignan
+  - Terran)
+Environment: temperate and warm lands and underground
+Organization: solitary
+Treasure: double standard
+Description_Visual: This enormous snake-like creature has the head of a gigantic humanoid.
+Group: Naga
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Charming Gaze (Su)
+    description: >-
+      This ability functions as a charm monster spell (CL 20th); 90 feet; DC 27
+      Will negates. The save DC is Charisma-based.
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save DC 28 Fort; frequency 1/round for 6 rounds; effect 1d6
+      Con damage; cure 2 consecutive saves. The save DC is Constitution-based.
+Description:
+  - >-
+    The ha-naga is a stronger, fiercer version of the more common naga that
+    spends its time moving from plane to plane, engaging in diplomacy, courtly
+    intrigues and plotting, and even hunting (both for sport and for food).
+    These creatures are known for their voracious appetites, eating anything,
+    both alive or dead, except for others of their own kind (even in times of
+    starvation).
+  - >-
+    Ha-nagas lair in deep, dark caves or ruins, far away from most civilized
+    lands. A typical ha-naga lair is a twisted maze of tunnels and chambers with
+    multiple entry and exit points, all camouflaged and trapped with both
+    mundane and magical traps.
+  - >-
+    Ha-nagas are generally solitary creatures but can occasionally be
+    encountered with other nagas of evil disposition. These creatures sometimes
+    make truces with local evil humanoids (gnolls, inphidians especially, or
+    hobgoblins) allowing the humanoids to serve them or in some cases even
+    worship them as gods, and exchanging gifts and treasure for knowledge, food,
+    and other goods.
+  - >-
+    A typical ha-naga stretches over 20 feet and weighs over 600 pounds. Larger
+    versions are known to exist. They are stronger and smarter than the ha-naga
+    presented here. One unique ha-naga of Colossal size, Sss'ashisth, dwells in
+    the fabled City of Brass, spending his days in the court of the Sultan. (See
+    the City of Brass boxed set from Necromancer Games for details.)
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5014'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

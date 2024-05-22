@@ -1,0 +1,92 @@
+Name: Rage Mage
+CR: '6'
+XP: '2400'
+Race: Human
+Class: sorcerer 7
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception +1
+AC: 20, touch 12, flat-footed 19
+AC_Mods: (+4 armor, +1 deflection, +1 Dex, +4 shield)
+HP: '62'
+HD: (7d6+35)
+Saves: Fort +8, Ref +6, Will +7
+Fort: '8'
+Ref: '6'
+Will: '7'
+Resist: cold 10
+Speed: 30 ft.
+Melee:
+  - +1 earth breaker +12 (2d6+10/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 7th; concentration +9)
+  values:
+    - label: 5/day
+      value: elemental ray (1d6+3 cold)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +9)
+  values:
+    - label: 3rd (4/day)
+      value: fireball (cold, DC 17), haste, heroism, protection from energy
+    - label: 2nd (7/day)
+      value: bear's endurance, bull's strength, resist energy, scorching ray (cold)
+    - label: 1st (7/day)
+      value: >-
+        burning hands (cold, DC 15), mage armor, mount, ray of enfeeblement (DC
+        13), shield, shocking grasp (cold)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, detect magic, light, mage hand, message, ray of frost, read
+        magic
+AbilityScores:
+  - 22
+  - 13
+  - 16
+  - 10
+  - 8
+  - 14
+BaseAtk: '3'
+CMB: '11'
+CMD: '20'
+Feats:
+  - Eschew Materials
+  - Expanded Arcana
+  - Greater Spell Focus (evocation)
+  - Improved Initiative
+  - Martial Weapon Proficiency (earth breaker)
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Bluff +14
+  - Intimidate +14
+  - Spellcraft +12
+Languages:
+  - Common
+SQ: bloodline arcana (change energy damage spells to cold)
+Source: Villain Codex
+IsTemplate: '0'
+Bloodline: elemental (water)
+BeforeCombat: She casts bear's endurance, bull's strength, heroism, mage armor, and shield.
+Gear: potion of cure serious wounds
+OtherGear: +1 earth breakerUE, cloak of resistance +1, ring of protection +1, 310 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '9003'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

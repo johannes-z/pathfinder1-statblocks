@@ -1,0 +1,106 @@
+Name: The Thing From Beyond Time
+CR: '16'
+XP: '76800'
+Race: hound of Tindalos
+MonsterSource: Pathfinder RPG Bestiary 2 158, 292
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (evil, extraplanar)
+Init: '11'
+Senses:
+  - darkvision 120 ft.
+  - Perception +29
+AC: 31, touch 17, flat-footed 23
+AC_Mods: (+7 Dex, +1 dodge, +14 natural, -1 size)
+HP: '256'
+HD: (19d10+152)
+Saves: Fort +18, Ref +20, Will +13
+Fort: '18'
+Ref: '20'
+Will: '13'
+DR: 10/magic and piercing
+Immune: poison, mind-affecting effects
+Speed: 40 ft.
+Melee:
+  - >-
+    bite +28 (4d6+10/19-20), 2 claws +28 (2d6+10/19-20), tongue +23 (2d8+5 plus
+    1d4 Wisdom drain)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: ripping gaze (DC 24)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At Will
+      value: fog cloud, invisibility, locate creature
+    - label: 3/day
+      value: >-
+        dimensional anchor, discern location, greater scrying (DC 22), haste,
+        slow (DC 18)
+AbilityScores:
+  - 30
+  - 24
+  - 24
+  - 20
+  - 25
+  - 20
+BaseAtk: '19'
+CMB: '30'
+CMD: 48 (52 vs. trip)
+Feats:
+  - Ability Focus (ripping gaze)
+  - Combat Expertise
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (bite)
+  - Improved Critical (claws)
+  - Improved Initiative
+  - Improved Natural Attack (bite)
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Acrobatics +29 (+33 when jumping)
+  - Escape Artist +26
+  - Intimidate +24
+  - Knowledge (arcana) +24
+  - Knowledge (engineering) +24
+  - Knowledge (geography) +24
+  - Knowledge (history) +24
+  - Knowledge (planes) +27
+  - Perception +29
+  - Sense Motive +29
+  - Stealth +25
+  - Survival +26
+Languages:
+  - Aklo
+SQ: angled entry, otherworldly mind
+Source: RotRL-AE-Spires of Xin-Shalast
+IsTemplate: '0'
+DuringCombat: >-
+  The Thing from Beyond Time is not immune to the effects of the occluding
+  field&#8211;in fact, its presence causes the monster extreme discomfort and
+  pain. Beyond its first manifestation in the room (made possible only by the
+  Leng Device's fluctuation of energy), this hound of Tindalos cannot use its
+  angled entry ability at all. The feeling of being trapped and cut off from the
+  angles of time enrages the monster, driving it into a blind frenzy.
+Morale: >-
+  If the occluding field is brought down, the hound immediately uses plane shift
+  to flee, never to return. Otherwise, it fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3290'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

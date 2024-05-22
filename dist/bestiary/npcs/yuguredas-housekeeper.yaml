@@ -1,0 +1,116 @@
+Name: Yugureda's Housekeeper
+CR: '8'
+XP: '4800'
+Race: manananggal
+Class: rogue 2
+MonsterSource: Pathfinder RPG Bestiary 3 190
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+AC: 22, touch 16, flat-footed 16
+AC_Mods: (+5 Dex, +1 dodge, +6 natural)
+HP: '114'
+HD: (12 HD; 10d8+2d8+60)
+Saves: Fort +8, Ref +13, Will +11
+Fort: '8'
+Ref: '13'
+Will: '11'
+DefensiveAbilities: evasion
+DR: 10/good or silver
+Immune: undead traits
+Weaknesses: light sensitivity, vulnerable to light blades
+Speed: 30 ft., fly 100 ft. (good)
+Melee:
+  - bite +14 (1d8+6), 2 claws +15 (1d8+6 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: blood drain (1d2 Constitution), sneak attack +1d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +14)
+  values:
+    - label: At Will
+      value: bleed (DC 15), dancing lights, touch of fatigue (DC 15)
+    - label: 3/day
+      value: darkness, deep slumber (DC 18), fear (DC 19)
+AbilityScores:
+  - 23
+  - 21
+  - —
+  - 12
+  - 18
+  - 21
+BaseAtk: '8'
+CMB: +14 (+18 grapple)
+CMD: '30'
+Feats:
+  - Deceitful
+  - Dodge
+  - Flyby Attack
+  - Lightning Reflexes
+  - Weapon Focus (claws)
+  - Wingover
+Skills:
+  - Bluff +24
+  - Disguise +24
+  - Fly +20
+  - Knowledge (religion) +11
+  - Perception +19
+  - Sense Motive +12
+  - Spellcraft +6
+  - Stealth +20
+Languages:
+  - Abyssal
+  - Minkaian
+  - Tien
+SQ: rogue talents (surprise attack), separate, trapfinding +1
+Source: AP 53
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Separate (Su)
+    description: >-
+      During the day, a manananggal looks like a living human woman. She does
+      not detect as undead during the day, but is still an undead creature. At
+      night, her upper torso rips away (this is a full-round action that occurs
+      at sunset), leaving her lower torso behind. Her lower torso is helpless,
+      but her upper torso gains its fly speed and natural attacks at this time.
+      The upper and lower portions share the same pool of hit points (despite
+      any intervening distance), and if the helpless lower portion is damaged,
+      the manananggal is immediately aware of the attack. Since manananggals can
+      be destroyed by damage to their lower bodies, they prefer to hide their
+      lower torsos when separated. A manananggal must return to its lower torso
+      and reattach to it (a full-round action) within the hour before
+      sunrise-each round a manananggal remains separated after sunrise, it takes
+      1d6 points of damage until it rejoins its lower torso or it crumbles into
+      dust.
+  - name: Vulnerable to Light Blades (Ex)
+    description: >-
+      Light blades (such as daggers, kamas, kukris, rapiers, short swords,
+      sickles, and starknives) deal double the weapon's base damage on a
+      successful hit against a manananggal.
+Gender: Female
+DuringCombat: >-
+  The manananggals use Stealth to take opponents by surprise, then coordinate
+  flanking attacks with one another, using their Flyby Attack feat to avoid
+  being pinned down in combat.
+Morale: >-
+  If reduced to 30 hit points or fewer, a manananggal withdraws to rejoin the
+  lower half of her body.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2331'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

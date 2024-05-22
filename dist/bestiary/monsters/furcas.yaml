@@ -1,0 +1,238 @@
+Name: Furcas
+CR: '27'
+XP: '3276800'
+Alignment: LE
+Size: Huge
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '7'
+Senses:
+  - darkvision 60 ft., detect chaos, detect good, see in darkness, true seeing
+  - Perception +45
+Aura: frightful presence (120 ft., DC 35), unholy aura (30 ft., DC 28, 10 rounds)
+AC: 46, touch 33, flat-footed 39
+AC_Mods: (+4 deflection, +7 Dex, +13 natural, +14 profane, -2 size)
+HP: '635'
+HD: (31d10+465)
+HP_Mods: regeneration (epic and good, good and mythic, or deific)
+Saves: Fort +36, Ref +28, Will +27
+Fort: '36'
+Ref: '28'
+Will: '27'
+DefensiveAbilities: armor of thorns, freedom of movement, hellish resurrection, immovable
+DR: 20/good, epic, and silver
+Immune: >-
+  ability damage, ability drain, charm effects, compulsion effects, death
+  effects, energy drain, fire, petrification, poison
+Resist: acid 30, cold 30
+SR: '38'
+Speed: 50 ft.
+Speed_Mod: air walk
+Melee:
+  - >-
+    Avernus Claw +48/+43/+38/+33 (2d6+19/19-20 plus 1d6 fire), 2 hooves +44
+    (1d8+15 plus disease), slam +44 (1d8+15 plus swat)
+Ranged:
+  - poison barb +36 (1d4+15/19-20 plus poison)
+Space: 15 ft.
+Reach: 15 ft. (25 ft. with trident)
+SpecialAttacks: >-
+  crown of laurels, disease, poison, poison barb, powerful hooves, swat, trample
+  (4d8+22, DC 40)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 27th; concentration +37)
+  values:
+    - label: Constant
+      value: >-
+        air walk, detect chaos, detect good, freedom of movement, true seeing,
+        unholy aura (DC 28)
+    - label: At Will
+      value: >-
+        blasphemy (DC 27), desecrate, diminish plants, greater dispel magic,
+        greater teleport, plant growth, shapechange, telekinesis (DC 25), thorny
+        entanglementACG (DC 23), unhallow, unholy blight, wall of stone
+    - label: 3/day
+      value: >-
+        overwhelming presenceUM (DC 29), quickened fire seeds (DC 26), reverse
+        gravity, summon devils
+    - label: 1/day
+      value: imprisonment (DC 29), meteor swarm (DC 29), time stop
+AbilityScores:
+  - 40
+  - 24
+  - 40
+  - 29
+  - 33
+  - 31
+BaseAtk: '31'
+CMB: +48 (+52 bull rush, +52 disarm)
+CMD: 83 (immovable 85 vs. bull rush, 85 vs. disarm, 87 vs. trip)
+Feats:
+  - Awesome Blow
+  - Blind-Fight
+  - Combat Expertise
+  - Combat Reflexes
+  - Craft Magic Arms and Armor
+  - Critical Focus
+  - Greater Bull Rush
+  - Greater Disarm
+  - Improved Bull Rush
+  - Improved Critical (trident)
+  - Improved Disarm
+  - Iron Will
+  - Multiattack
+  - Power Attack
+  - Quicken Spell-Like Ability (fire seeds)
+  - Staggering Critical
+Skills:
+  - Bluff +44
+  - Diplomacy +44
+  - Handle Animal +44
+  - Heal +42
+  - Intimidate +44
+  - Knowledge (arcana) +40
+  - Knowledge (engineering) +40
+  - Knowledge (nature) +43
+  - Knowledge (planes) +43
+  - Perception +45
+  - Profession (herbalist) +42
+  - Sense Motive +45
+  - Spellcraft +40
+  - Stealth +33
+  - Use Magic Device +41
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Infernal
+  - Sylvan
+  - telepathy 300 ft.
+SQ: infernal duke traits (see page 43), irresistible force
+Environment: any (Hell)
+Organization: solitary (unique)
+Treasure: triple standard (Avernus Claw, other treasure)
+Description_Visual: >-
+  This giant, centaurlike creature's body is made of hardened, thorny vines. A
+  crown of laurels graces its brow.
+Group: Infernal Duke
+Source: Hell Unleashed
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Armor of Thorns (Ex)
+    description: >-
+      A network of thorny vines armors and invades Furcas's body. Any creature
+      that strikes Furcas with a non-reach melee weapon, unarmed strike, or
+      natural weapon takes 1d8+7 points of piercing damage from the barbs
+      studding the infernal duke's body and must succeed at a DC 40 Fortitude
+      saving throw or be poisoned (potentially in addition to the effects of
+      unholy aura). This living, toxic armor also feeds off of all manner of
+      corruption. Any attempt to poison Furcas or magically control his vine
+      armor heals him for 4d6 points of damage. Furcas can also use his poison
+      barbs to heal himself in this way.
+  - name: Crown of Laurels (Su)
+    description: >-
+      Once per day as a move action, Furcas can bestow his laurel crown upon an
+      adjacent creature. For the next 24 hours, the creature is affected as per
+      the spells greater heroism and unholy aura. At the end of this period,
+      these benefits cease and the creature is infected with a particularly
+      resilient form of devil chills (see below). This version requires six
+      consecutive successful saving throws to cure, and can be magically cured
+      only by a lawful evil spellcaster. Creatures immune to disease suffer no
+      negative effects. The crown always returns to Furcas after 24 hours.
+  - name: Disease (Su)
+    description: >-
+      Devil chills: hooves-injury; save Fort DC 40; onset immediate; frequency
+      1/day; effect 1d3 Str damage; cure 3 consecutive saves. The save DC is
+      Constitution-based.
+  - name: Immovable (Ex)
+    description: >-
+      While conscious, Furcas cannot be moved, tripped, or knocked prone by any
+      attack, combat maneuver, spell, or similar effect generated by any
+      creature lesser than a deity or object of less than artifact-level power.
+  - name: Irresistible Force (Su)
+    description: >-
+      Anytime Furcas's attack moves a foe-whether through the use of a combat
+      maneuver, Awesome Blow, telekinesis, or a similar effect-that creature is
+      moved double the normal distance.
+  - name: Poison (Ex)
+    description: >-
+      Poison barb-injury; save Fort DC 20; frequency 1/round for 10 rounds;
+      effect fatigued; cure 3 consecutive saves. The save DC is
+      Constitution-based.
+  - name: Poison Barb (Su)
+    description: >-
+      As a standard action, Furcas can grow and fire a toxic barb from his body.
+      This is a ranged attack with a range increment of 60 feet. Any creature
+      struck by the barb must succeed at a DC 40 Fortitude saving throw or be
+      poisoned. Furcas can decide what type of poison the barb bears, whether
+      his own fatiguing toxin or any poison conveyed through injury that appears
+      on the chart on page 559 of the Pathfinder RPG Core Rulebook. After using
+      this ability, Furcas cannot grow another barb for 1d4 rounds.
+  - name: Powerful Hooves (Ex)
+    description: >-
+      Furcas's hoof attacks are considered primary attacks. He always adds his
+      full Strength bonus to the amount of damage dealt by his hooves.
+  - name: Swat (Ex)
+    description: >-
+      As a free action, Furcas can use the Awesome Blow feat with his slam
+      attack. Because of his irresistible force ability, any creature affected
+      by this attack is hurled 20 feet.
+Description:
+  - >-
+    Called the Knight of the Laurels and the Sentinel of Dis, Furcas is the
+    infernal duke of duty, flames, and herbalism. His disparate concerns model
+    him as a true knight of Hell, a sentry armed with fire and girded by thorns.
+    His patience and wisdom make him one of the multiverse's greatest military
+    commanders, but also a sage of all things green and growing. It might take
+    eons, but Furcas knows that a relentless will can forge even the most
+    delicate petal into a weapon deadlier than any spear.
+  - >-
+    While laurels do crown Furcas's brown, his title stems from the tangle of
+    parasitic, cassytha-like growths that riddle the remains of his stern,
+    once-angelic form. These vines constitute a mighty, tauric body-one that
+    serves as armor for the infernal duke and as a bed for innumerable toxic
+    plants. Furcas is rarely seen without the Avernus Claw, a trident gifted to
+    him by Typhon, the deceased former archdevil of Avernus. The burning trident
+    holds
+  - >-
+    the power to block any escape from the first layer of Hell, and serves as
+    Furcas's divine symbol.
+  - >-
+    As Furcas's demesne-the Hanging Marches-lies on Avernus, the infernal duke
+    is the subject of the layer's ruler, Barbatos. However, Furcas also
+    maintains strong ties with Dis, the second layer of Hell, and its imperious
+    ruler, the archdevil Dispater. These dual loyalties stem from the ancient
+    hellmouth Voulgaz, which yawns at the center of Furcas's realm. The infernal
+    duke's fortress, the Forked Pyre, guards the hellmouth and serves as the
+    stronghold from which Furcas oversees his legions as they conduct travelers
+    and damned souls into the plane-city beyond. Furcas has overseen this post
+    for countless eons, and despite numerous sieges by celestials and proteans
+    alike, the gate to Dis has never fallen.
+  - >-
+    Whether seeking to reclaim a damned soul (rightfully or otherwise), to gain
+    some wisdom of the natural world, or to secure passage to Dis, characters
+    with business in Hell are likely to travel through the Hanging Marches. This
+    is made all the easier from Golarion by a permanent portal that connects a
+    forested valley within Brevoy's Icerime Peaks with Olikscourt, a toppled
+    outpost on the shore of the Crawling Sea. Few who trespass in the Hanging
+    Marches escape the notice of the Knight of the Laurels.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '7065'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,145 @@
+Name: Firebird
+CR: '8'
+XP: '4800'
+Alignment: NG
+Size: Large
+Type: magical beast
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +15
+AC: 20, touch 11, flat-footed 18
+AC_Mods: (+2 Dex, +9 natural, -1 size)
+HP: '85'
+HD: (9d10+36)
+Saves: Fort +10, Ref +8, Will +7
+Fort: '10'
+Ref: '8'
+Will: '7'
+DefensiveAbilities: magic circle against evil
+DR: 10/evil
+Resist: cold 10, fire 10
+SR: '19'
+Speed: 30 ft., fly 70 ft. (good)
+Melee:
+  - 2 claws +13 (1d8+5), bite +13 (2d6+5), 2 wings +11 (1d6+2)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blinding brilliance, breath weapon (60-ft. cone, 5d6 fire damage; DC 18 Ref
+  half, every 1d4 rounds)
+SpellLikeAbilities:
+  header: 'Spell-Like Abilities (CL 9th):'
+  values:
+    - label: Constant
+      value: magic circle against evil
+    - label: At Will
+      value: detect evil, flare (DC 12)
+    - label: 3/day
+      value: cure moderate wounds (DC 14), hold person (DC 15; evil creatures only)
+    - label: 1/day
+      value: fire shield, sunburst (DC 20)
+AbilityScores:
+  - 21
+  - 15
+  - 19
+  - 15
+  - 14
+  - 15
+BaseAtk: '9'
+CMB: '15'
+CMD: '27'
+Feats:
+  - Alertness
+  - Flyby Attack
+  - Improved Initiative
+  - Iron Will
+  - Multiattack
+Skills:
+  - Diplomacy +11
+  - Fly +8
+  - Heal +11
+  - Knowledge (any one) +11
+  - Perception +15
+  - Sense Motive +8
+RacialMods: +4 Perception
+Languages:
+  - Auran
+  - Celestial
+  - Common
+  - Sylvan
+SQ: chant
+Environment: temperate forests
+Organization: solitary or pair
+Treasure: standard
+Description_Visual: >-
+  A majestic bird about 8 feet long swoops overhead. Its feathers shine like
+  silver and gold and its eyes are the color of crystals.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blinding Brilliance (Su)
+    description: >-
+      At will as a swift action, a firebird can increase the light output of its
+      tail feathers so they radiate brilliant yellow light in a 100-foot radius.
+      Creatures in the affected area must succeed on a DC 18 Fortitude save or
+      be blinded for 2d4 rounds. The save DC is Constitution-based.
+  - name: Chant (Su)
+    description: >-
+      By chanting for one full round, a firebird can create any one of the
+      following effects: cure serious wounds, remove blindness/deafness, remove
+      disease, remove fear, or slow poison. Each is usable once per round at
+      will, but a single creature can only gain the benefit of each one once per
+      day. Each functions as the spell of the same name with a caster level
+      equal to the firebird's Hit Dice.
+Description:
+  - >-
+    Firebirds are considered by many to be good luck. Sighting one on a journey
+    is considered to be a boon (unless of course you are evil, in which case it
+    is deemed bad luck to see a firebird). Firebirds are thought of as
+    protectors and guardians of the forest and often befriend elves, creatures.
+    They dislike orcs, goblins, and any who would despoil and destroy the
+    forests.
+  - >-
+    These creatures roost in great caves far away from civilized lands and are
+    usually only seen in the early morning or evening hours. Once a month
+    firebirds take to the night sky at the stroke of midnight. To the casual
+    observer a firebird in the night sky appears to be a shooting star or comet
+    flying across the sky.
+  - >-
+    Firebirds claim vast amounts of territory as their own, protecting this
+    domain from evil, and also using it as their own personal hunting ground.
+    Such domains often overlap with other firebirds (which suits each just fine
+    as they share the duties of guardianship over the overlapping territory).
+    Firebirds live on a diet of game animals, fruits, nuts, and berries.
+  - >-
+    A firebird appears as a large bird about 8 feet long with golden and silver
+    feathers. A majestic crest of gold runs from its head, along its back, and
+    disappears into its tail feathers. Its beak and claws are the color of
+    pearls and its eyes shine like crystal.
+  - >-
+    Firebirds almost always attack evil-aligned creatures and those that would
+    despoil their forests. They prefer to fight from the air and always enter
+    battle with their magic circle against evil in effect. A firebird usually
+    begins combat using its blinding brilliance, followed quickly by its breath
+    weapon. Foes that continue to press the fight are held (if evil) or
+    subjected to a sunburst.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4943'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,138 @@
+Name: Sound Warrior
+CR: '12'
+XP: '19200'
+Race: halfling
+Class: bard 5/druid 4/mystic theurge 4
+Alignment: 'N'
+Size: Small
+Type: humanoid
+SubType: (halfling)
+Init: '3'
+Senses:
+  - Perception +17
+AC: 24, touch 17, flat-footed 20
+AC_Mods: (+4 armor, +2 deflection, +3 Dex, +1 dodge, +3 natural, +1 size)
+HP: '76'
+HD: (5d8+4d8+4d6+18)
+Saves: >-
+  Fort +10, Ref +11, Will +14; +2 vs. fear, +4 vs. fey and plant-targeted
+  effects, +4 vs. bardic performance, language-dependent, and sonic
+Fort: '10'
+Ref: '11'
+Will: '14'
+Save_Mods: >-
+  +2 vs. fear, +4 vs. fey and plant-targeted effects, +4 vs. bardic performance,
+  language-dependent, and sonic
+Speed: 20 ft.
+Melee:
+  - mwk dagger +10/+5 (1d3/19-20)
+Ranged:
+  - mwk dagger +13/+8 (1d3/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 17 rounds/day (countersong, distraction, fascinate, inspire
+  competence +2, inspire courage +2), wild shape 2/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 4th; concentration +6)
+  values:
+    - label: 5/day
+      value: lightning arc (1d6+2 electricity)
+SpellsKnown:
+  header: Bard Spells Known (CL 9th; concentration +14)
+  values:
+    - label: 3rd (4/day)
+      value: charm monster (DC 20), displacement, haste, sculpt sound
+    - label: 2nd (5/day)
+      value: hold person (DC 19), scare (DC 17), shatter, sound burst (DC 17)
+    - label: 1st (7/day)
+      value: >-
+        alarm, cause fear (DC 16), charm person (DC 18), remove fear,
+        ventriloquism (DC 16)
+    - label: 0 (at will)
+      value: >-
+        ghost sound (DC 15), know direction, light, mage hand, message,
+        resistance
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 8th; concentration +10)   4th-air walkD, cure
+  serious wounds, freedom of movement   3rd-call lightning (DC 15), cure
+  moderate wounds, gaseous formD, neutralize poison   2nd-barkskin, cat's grace,
+  delay poison, lesser restoration, wind wallD   1st-cure light wounds, faerie
+  fire, goodberry, longstrider, obscuring mistD, pass without trace   0 (at
+  will)-create water, detect poison, mending, stabilize
+SpellDomains: Air
+AbilityScores:
+  - 10
+  - 16
+  - 10
+  - 10
+  - 15
+  - 20
+BaseAtk: '8'
+CMB: '7'
+CMD: '23'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Great Fortitude
+  - Greater Spell Focus (enchantment)
+  - Natural Spell
+  - Spell Focus (enchantment)
+  - Toughness
+Skills:
+  - Acrobatics +5 (+1 when jumping)
+  - Climb +6
+  - Diplomacy +9
+  - Fly +9
+  - Heal +6
+  - Knowledge (arcana) +8
+  - Knowledge (religion) +8
+  - Knowledge (geography) +9
+  - Knowledge (local) +9
+  - Knowledge (history) +10
+  - Knowledge (nature) +12
+  - Perception +17
+  - Perform (oratory) +9
+  - Perform (sing) +9
+  - Sense Motive +9
+  - Stealth +20
+  - Survival +12
+Languages:
+  - Common
+  - Druidic
+  - Halfling
+SQ: >-
+  bardic knowledge +2, combined spells (2nd), lore master 1/day, nature bond
+  (Air domain), nature sense, trackless step, versatile performance (oratory),
+  wild empathy +9, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The mystic theurge casts barkskin, freedom of movement, and pass without
+  trace.
+DuringCombat: >-
+  While aiding her companions with bardic performance, the mystic theurge
+  harasses her opponents with call lightning, charm monster, and wind wall.
+Gear: potion of cure serious wounds, smokesticks (5), thunderstones (5)
+OtherGear: >-
+  +2 leather armor, masterwork daggers (2), belt of mighty constitution +2,
+  cloak of resistance +1, druid's vestment, headband of alluring charisma +2,
+  ring of protection +2, 486 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without barkskin, the mystic theurge's statistics are AC 21, touch 17,
+  flat-footed 17.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3901'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

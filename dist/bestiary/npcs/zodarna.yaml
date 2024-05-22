@@ -1,0 +1,142 @@
+Name: Zodarna
+CR: '10'
+XP: '9600'
+Race: dark caller
+Class: inquisitor of Norgorber 8
+MonsterSource: Pathfinder RPG Bestiary 4 42, Pathfinder RPG Advanced Player's Guide 38
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (dark folk)
+Init: '14'
+Senses:
+  - see in darkness
+  - Perception +27
+AC: 23, touch 17, flat-footed 16
+AC_Mods: (+3 armor, +6 Dex, +1 dodge, +3 natural)
+HP: '128'
+HD: (16d8+56)
+Saves: Fort +11, Ref +14, Will +12
+Fort: '11'
+Ref: '14'
+Will: '12'
+Weaknesses: light blindness
+Speed: 30 ft.
+Melee:
+  - short sword of venom +19/+14/+9 (1d6+2/17-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bane (8 rounds/day), death throes, judgment (2, 3/day), sneak attack +2d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: bleed (DC 14)
+    - label: 3/day
+      value: deeper darkness, shadow stepUM
+    - label: 1/day
+      value: >-
+        shadow conjuration (DC 18) Inquisitor Spell-Like Abilities (CL 8th;
+        concentration +12)
+    - label: At Will
+      value: >-
+        detect alignment, discern lies (8 rounds/day), master's illusion (8
+        rounds/day)
+    - label: 7/day
+      value: copycat (8 rounds)
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 8th; concentration +12)
+  values:
+    - label: 3rd (3/day)
+      value: keen edge, nondetection, seek thoughts (DC 17)
+    - label: 2nd (5/day)
+      value: >-
+        detect thoughts (DC 16), disguise otherUM, invisibility, see
+        invisibility
+    - label: 1st (5/day)
+      value: >-
+        alarm, comprehend languages, disguise self, divine favor, shield of
+        faith
+    - label: 0 (at will)
+      value: >-
+        acid splash, brandAPG (DC 14), detect poison, guidance, read magic,
+        siftAPG
+SpellDomains: Trickery
+AbilityScores:
+  - 12
+  - 22
+  - 16
+  - 15
+  - 18
+  - 18
+BaseAtk: '12'
+CMB: '13'
+CMD: '34'
+Feats:
+  - Blind-Fight
+  - Defensive Combat Training
+  - Dodge
+  - Improved Initiative
+  - Mobility
+  - Nimble Moves
+  - Outflank
+  - Shielded Caster
+  - Skill Focus (Stealth)
+  - Weapon Finesse
+Skills:
+  - Bluff +15
+  - Climb +9
+  - Diplomacy +10
+  - Disguise +15
+  - Intimidate +19
+  - Knowledge (arcana) +11
+  - Knowledge (local) +10
+  - Knowledge (planes) +11
+  - Knowledge (religion) +11
+  - Perception +27
+  - Sense Motive +21
+  - Stealth +35
+RacialMods: +4 Climb, +4 Perception, +4 Stealth
+Languages:
+  - Common
+  - Dark Folk
+  - Undercommon
+SQ: >-
+  cunning initiative, monster lore +4, poison use, shadow ritual, solo tactics,
+  track +4
+Source: PFS S6-23
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Zodarna casts keen edge on her short sword in addition to see invisibility and
+  nondetection on herself. She activates her master's illusion domain ability
+  once she believes the PCs are just about to enter the room.
+DuringCombat: >-
+  Zodarna waits for a moment to see if the PCs fall for her ruse and kill one or
+  more of the captives. She then fights using her kyton allies, darkness, and
+  allies to gain an advantage. If a PC's magical light source is especially
+  problematic, she uses her scroll of dispel magic to end the effect.
+Morale: >-
+  If the PCs kill one or more of the captives, Zodarna fights until reduced to
+  25 hit points or fewer before using shadow step to flee to the tunnel below
+  and escape into the Darklands. Otherwise she fights to the death to secure
+  vengeance in blood.
+Gear: scroll of dispel magic (CL 11th), wand of countless eyesUM (9 charges)
+OtherGear: short sword of venom (functions as a dagger of venom), +1 leather armor
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7995'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

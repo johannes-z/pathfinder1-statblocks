@@ -1,0 +1,132 @@
+Name: Thalem
+CR: '14'
+XP: '38400'
+Race: deep merfolk
+Class: sorcerer 13
+MonsterSource: Pathfinder RPG Bestiary 5 172
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (aquatic)
+Init: '11'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft.
+  - Perception +18
+AC: 24, touch 20, flat-footed 16
+AC_Mods: (+2 deflection, +7 Dex, +1 dodge, +4 natural)
+HP: '144'
+HD: (17 HD; 13d6+4d8+81)
+Saves: Fort +10, Ref +14, Will +13
+Fort: '10'
+Ref: '14'
+Will: '13'
+DefensiveAbilities: deep dweller, fated (+3), semitransparent
+Resist: cold 5
+Weaknesses: light sensitivity
+Speed: 10 ft., swim 40 ft.
+Melee:
+  - +2 spear +14/+9 (1d8+5/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: it was meant to be 1/day, sneak attack +2d6, sprint
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 13th; concentration +17)
+  values:
+    - label: 7/day
+      value: touch of destiny (+6)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 13th; concentration +17)
+  values:
+    - label: 6th (4/day)
+      value: disintegrate (DC 20), mislead (DC 21), true seeing
+    - label: 5th (6/day)
+      value: >-
+        break enchantment, dominate person (DC 20), hold monster (DC 20),
+        sending
+    - label: 4th (7/day)
+      value: >-
+        confusion (DC 19), crushing despair (DC 19), dimension door, freedom of
+        movement, stoneskin
+    - label: 3rd (7/day)
+      value: >-
+        blink, dispel magic, lightning bolt (DC 17), protection from energy,
+        suggestion (DC 18)
+    - label: 2nd (7/day)
+      value: >-
+        blur, glitterdust (DC 16), invisibility, knock, mirror image, touch of
+        idiocy
+    - label: 1st (7/day)
+      value: >-
+        alarm, color spray (DC 16), disguise self, mage armor, magic missile,
+        shocking grasp
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, detect magic, disrupt undead, ghost sound
+        (DC 15), mage hand, mending, message, read magic
+AbilityScores:
+  - 15
+  - 24
+  - 16
+  - 13
+  - 12
+  - 18
+BaseAtk: '9'
+CMB: '11'
+CMD: '31'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Spell Focus (enchantment
+  - illusion)
+  - Toughness
+  - Weapon Focus (spear)
+Skills:
+  - Acrobatics +7 (-1 when jumping)
+  - Knowledge (arcana) +14
+  - Perception +18
+  - Spellcraft +21
+  - Stealth +12 (+20 underwater)
+  - Swim +15
+RacialMods: +8 Stealth underwater
+Languages:
+  - Aboleth
+  - Aquan
+SQ: bloodline arcana (gain luck bonus on saves when casting personal-range spells)
+Source: AP 124
+IsTemplate: '0'
+Gender: Male
+Bloodline: destined
+BeforeCombat: >-
+  If given time to prepare, Thalem casts stoneskin, freedom of movement, and
+  invisibility before combat begins and hides in the laboratory. These spells
+  are not factored into his statistics.
+DuringCombat: >-
+  Thalem casts lightning bolt down the hallway as the PCs arrive. If he wasn't
+  able to prepare his defenses, he casts stoneskin as early in the combat as
+  possible. Thalem focuses on using his spells to disrupt the PCs' actions.
+Morale: If reduced to fewer than 30 hit points, Thalem casts dimension door to escape.
+Gear: >-
+  +2 spear, amulet of natural armor +2, ring of protection +2, shell of sending
+  (see page 56), spell component pouch, 698 gp worth of semiprecious stones and
+  pearls
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11691'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

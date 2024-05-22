@@ -1,0 +1,130 @@
+Name: Maghara
+CR: '13'
+XP: '25600'
+Race: young adult copper dragon
+Alignment: CG
+Size: Large
+Type: undead
+SubType: (augmented dragon, earth, incorporeal)
+Init: '5'
+Senses:
+  - dragon senses
+  - Perception +21
+AC: 31, touch 15, flat-footed 30
+AC_Mods: (+5 deflection, +1 Dex, +16 natural, -1 size)
+HP: '136'
+HD: (13d8+78)
+Saves: Fort +9, Ref +5, Will +11
+Fort: '9'
+Ref: '5'
+Will: '11'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation, uncanny dodge
+DR: 5/ magic
+Immune: acid, dragon traits, paralysis, sleep, undead traits
+SR: '22'
+Speed: 40 ft., fly 200 ft. (poor)
+Speed_Mod: climb stone
+Melee:
+  - corrupting touch +8 (13d6, Fort DC 21 half)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with corrupting touch)
+SpecialAttacks: >-
+  ectoplasmic breath (80-ft. line, 10d6 force, Reflex DC 16 half, usable every
+  1d4 rounds), fatal fate (Pathfinder Campaign Setting: Classic Horrors
+  Revisited 25), slow breath, telekinesis
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +18)
+  values:
+    - label: At Will
+      value: grease (DC 16), hideous laughter (DC 16)
+SpellsKnown:
+  header: Spells Known (CL 5th; concentration +10)
+  values:
+    - label: 2nd (5/day)
+      value: invisibility, phantom trap
+    - label: 1st (8/day)
+      value: alarm, magic missile, shield, silent image (DC 17)
+    - label: 0 (at will)
+      value: >-
+        detect magic, ghost sound (DC 16), light, message, prestidigitation,
+        read magic
+AbilityScores:
+  - —
+  - 12
+  - —
+  - 16
+  - 17
+  - 20
+BaseAtk: '9'
+CMB: +11 (+15 trip)
+CMD: 28 (34 vs. trip)
+Feats:
+  - Combat Expertise
+  - Greater Trip
+  - Improved Initiative
+  - Improved Trip
+  - Power Attack
+  - Spell Penetration
+  - Toughness
+Skills:
+  - Bluff +18
+  - Craft (traps) +10
+  - Diplomacy +18
+  - Fly +5
+  - Knowledge (arcana) +9
+  - Knowledge (local) +4
+  - Knowledge (religion) +7
+  - Perception +21
+  - Perform (comedy) +18
+  - Sense Motive +19
+  - Spellcraft +19
+  - Stealth +21
+  - Use Magic Device +18
+RacialMods: +8 Perception, +8 Stealth
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - Gnome
+  - Halfling
+SQ: trap master
+Source: Dragons Unleashed
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ectoplasmic Breath (Su)
+    description: >-
+      After becoming a ghost, Maghara learned to use his iconic breath weapon,
+      albeit with a slight difference. His breath weapon now produces a line of
+      ectoplasm that deals force damage instead of acid damage.
+Gender: Male
+BeforeCombat: >-
+  Maghara prefers to observe invisibly to assess potential threats. He uses
+  ghost sound, silent image, phantom trap, and telekinesis to scare off
+  intruders. If he expects conflict, he casts shield to protect against magic
+  missiles (which can harm even a ghost).
+DuringCombat: >-
+  Maghara relies on his incorporeal nature to protect him against most forms of
+  harm. He initiates combat by using hideous laughter and telekinesis to deal
+  with foes, using his corrupting touch only if needed, or against truly evil
+  opponents.
+Morale: >-
+  Already a ghost, Maghara fears little, although he will use his incorporeal
+  traits and invisibility to escape a losing battle, knowing that his work in
+  the world is not yet done. Though he is careful to not be "destroyed," he
+  knows his rejuvenation ability will bring him back after a time.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: ghost|
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '4457'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,132 @@
+Name: Pestilential Cadaver
+CR: '7'
+XP: '3200'
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +6
+Aura: disease (30 ft., DC 15)
+AC: 19, touch 11, flat-footed 18
+AC_Mods: (+1 Dex, +8 natural)
+HP: '64'
+HD: (8d10+20)
+HP_Mods: fast healing 5
+Saves: Fort +2, Ref +3, Will +2
+Fort: '2'
+Ref: '3'
+Will: '2'
+DR: 5/magic
+Immune: construct traits (+20 hp), magic
+Speed: 30 ft.
+Melee:
+  - 2 slams +12 (1d8+3 plus sickness)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: disease aura, sickness
+AbilityScores:
+  - 16
+  - 12
+  - —
+  - 10
+  - 10
+  - 12
+BaseAtk: '8'
+CMB: '11'
+CMD: '22'
+Feats:
+  - Ability Focus (disease)
+  - Alertness
+  - Stealthy
+  - Weapon Focus (slam)
+Skills:
+  - Disguise +7
+  - Escape Artist +3
+  - Perception +6
+  - Stealth +13
+RacialMods: +4 Stealth
+Languages:
+  - Abyssal
+  - Common
+  - Infernal (cannot speak any languages)
+Environment: any
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This creature appears to be an animated corpse composed of mismatched body
+  parts, crudely stitched together. Maggots and worms writhe from its rotting
+  form.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease Aura (Ex)
+    description: >-
+      A pestilential cadaver exudes a putrid aura in a 30-foot radius around
+      itself. Creatures entering or caught in the area must succeed on a DC 15
+      Fortitude save or contract one of the diseases listed on the table below.
+      A creature that saves is immune to the disease aura of that pestilential
+      cadaver for one day. The save DC is Charisma-based. 1D8 DISEASE 1 Blinding
+      sickness 2 Cackle fever 3 Filth fever 4 Mindfire 5 Red ache 6 Shakes 7
+      Slimy doom 8 Roll twice, ignoring any results of 8
+  - name: Fast Healing (Ex)
+    description: >-
+      A pestilential cadaver's fast healing only works if it is within 30 feet
+      of a fresh corpse. A fresh corpse is defined as any living creature killed
+      within the last 24 hours.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A pestilential cadaver is immune to any spell or spell-like ability that
+      allows spell resistance. In addition, certain spells and effects function
+      differently against the creature, as noted: A magical attack that deals
+      fire damage dazes a pestilential cadaver (as the daze spell) for 3 rounds
+      (no save). A magical attack that inflicts disease heals the cadaver of 1d6
+      hit points per level of the spellcaster. A remove disease spell deals 1d6
+      points of damage per caster level (maximum 10d6) to a pestilential
+      cadaver. The creature can attempt a Fortitude save to reduce the damage by
+      half. A heal spell functions as a harm spell against a pestilential
+      cadaver.
+  - name: Sickness (Ex)
+    description: >-
+      A living creature hit by a pestilential cadaver's slam attack must succeed
+      on a DC 15 Fortitude save or become sickened for 2d6 rounds. A creature
+      that fails its save by 5 or more is must immediately attempt another DC 15
+      Fortitude save or be subjected to one of the diseases above just as if it
+      had been affected by the cadaver's aura. A creature that succeeds on the
+      second Fortitude save is not subject to the disease effects of this
+      ability for one day, even if it fails any subsequent Fortitude saves by 5
+      or more. The save DC is Charisma-based.
+Description:
+  - >-
+    The pestilential cadaver is literally a walking disease, a construct formed
+    from the bodies of those who died of plague and fever. It is ever active,
+    seeking to spread its contagion to all who live. It rots constantly, losing
+    flesh to decomposition, but gaining material from those it slays.
+  - >-
+    Although it moves awkwardly, in fits and jerks, the pestilential cadaver is
+    as swift and dexterous as a healthy man, even capable of running (though it
+    rarely does so). It stands about 6 feet in height, and weighs roughly 150
+    pounds.
+  - >-
+    The pestilential cadaver engages in combat primarily as a means of infecting
+    new victims and absorbing their diseased remains once it slays them. It is a
+    straightforward combatant, deadly even to those it does not touch.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5027'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

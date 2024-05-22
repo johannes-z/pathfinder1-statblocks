@@ -1,0 +1,107 @@
+Name: Abu Knet
+CR: '6'
+XP: '2400'
+Race: human
+Class: cleric 5
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (humanoid, human, incorporeal)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +11
+AC: 17, touch 17, flat-footed 15
+AC_Mods: (+5 deflection, +2 Dex)
+HP: '51'
+HD: (5d8+25)
+Saves: Fort +9, Ref +5, Will +9
+Fort: '9'
+Ref: '5'
+Will: '9'
+DefensiveAbilities: channel resistance +4, incorporeal,  rejuvenation
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel positive energy 8/day (DC 17, 3d6), corrupting touch
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; melee touch +5, ranged touch +5)
+  values:
+    - label: 6/day
+      value: rebuke death (1d4+2), touch of law
+SpellsPrepared: >-
+  Spells Prepared (CL 5th; melee touch +5, ranged touch +5)  3rd-bestow curse
+  (DC 16), cure serious woundsD, deeper darkness   2nd-align weapon (law only)D,
+  death knell (DC 15), enthrall (DC 15), hold person (DC 15)   1st-bless water
+  (DC 14), command (DC 14), detect evil, doom (DC 14), protection from chaos D  
+  0 (at will)-detect magic, light, purify food and drink (DC 13), read magic
+SpellDomains: Healing, Law
+AbilityScores:
+  - —
+  - 14
+  - —
+  - 12
+  - 16
+  - 20
+BaseAtk: '3'
+CMB: '5'
+CMD: '20'
+Feats:
+  - Blind-fight
+  - Command Undead
+  - Deceitful
+  - Iron Will
+  - Lightning Reflexes
+Skills:
+  - Bluff +7
+  - Disguise +7
+  - Fly +10
+  - Heal +11
+  - Knowledge (planes) +9
+  - Knowledge (religion) +9
+  - Perception +11
+  - Sense Motive +11
+  - Spellcraft +9
+  - Stealth +10
+RacialMods: +8 Perception, +8 Stealth
+Languages:
+  - Abyssal
+  - Common
+Source: Sword of Air-Chapter 5
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Corrupting Touch (Su)
+    description: >-
+      All ghosts gain this incorporeal touch attack. By passing part of its
+      incorporeal body through a foe's body as a standard action, the ghost
+      inflicts a number of d6s equal to its CR in damage. This damage is not
+      negative energy-it manifests in the form of physical wounds and aches from
+      supernatural aging. Creatures immune to magical aging are immune to this
+      damage, but otherwise the damage bypasses all forms of damage reduction. A
+      Fortitude save halves the damage inflicted.
+  - name: Rejuvenation (Su)
+    description: >-
+      In most cases, it's difficult to destroy a ghost through simple combat:
+      the "destroyed" spirit restores itself in 2d4 days. Even the most powerful
+      spells are usually only temporary solutions. The only way to permanently
+      destroy a ghost is to determine the reason for its existence and set right
+      whatever prevents it from resting in peace. The exact means varies with
+      each spirit and may require a good deal of research, and should be created
+      specifically for each different ghost by the GM.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12685'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

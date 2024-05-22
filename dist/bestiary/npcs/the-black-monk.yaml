@@ -1,0 +1,130 @@
+Name: The Black Monk
+CR: '13'
+XP: '25600'
+Race: human(azlanti) dread mummy
+Class: monk 11
+MonsterSource: Advanced Bestiary 210
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented human)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +18
+Aura: despair (30 ft., paralyzed for 1d4 rounds, Will DC 22 negates)
+AC: 29, touch 21, flat-footed 24
+AC_Mods: (+4 Dex, +1 dodge, +2 monk, +8 natural, +4 Wis)
+HP: '152'
+HD: (11d8+99)
+Saves: Fort +14, Ref +13, Will +11; +2 vs. enchantment,
+Fort: '14'
+Ref: '13'
+Will: '11'
+Save_Mods: +2 vs. enchantment,
+DefensiveAbilities: channel resistance +4, improved evasion
+DR: 5/-
+Immune: cold, disease, poison, undead traits
+Weaknesses: vulnerable to fire
+Speed: fly 50 ft. (perfect)
+Melee:
+  - flurry of blows +19/+19/+14/+14/+9/+9 (1d10+10/19-20 plus mummy rot)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath of death, command undead, flurry of blows, mummy rot, stunning fist
+  (11/day, DC 19)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +18)
+  values:
+    - label: At Will
+      value: >-
+        animal messenger, calm animals (DC 18), command undead (DC 19), heat
+        metal (DC 19), summon swarm
+    - label: 2/day
+      value: >-
+        commune with nature, control winds, dominate animal (DC 20), insect
+        plague
+    - label: 1/day
+      value: control weather, creeping doom, earthquake, sunbeam (DC 24)
+AbilityScores:
+  - 30
+  - 18
+  - —
+  - 12
+  - 18
+  - 24
+BaseAtk: '8'
+CMB: '21'
+CMD: '41'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (unarmed strike)
+  - Improved Initiative
+  - Improved Trip
+  - Improved Unarmed Strike
+  - Lightning Reflexes
+  - Power Attack
+  - Spring Attack
+  - Stunning Fist
+  - Toughness
+  - Weapon Focus (unarmed strike)
+Skills:
+  - Acrobatics +18
+  - Fly +15
+  - Knowledge (arcana) +12
+  - Knowledge (religion) +15
+  - Perception +18
+  - Spellcraft +12
+Languages:
+  - Thassilonian
+SQ: >-
+  diamond body, fast movement, high jump, ki pool (9 points, lawful, magic),
+  maneuver training, purity of body, still mind, slow fall 50 ft., wholeness of
+  body
+Source: RotRL-AE-Fortress of the Stone Giants
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath of Death (Su)
+    description: >-
+      Once every 1d4 rounds as a standard action, the Black Monk can exhale a
+      30-foot cone of tomb gas. Living creatures in this area must make a
+      successful DC 22 Fortitude save or gain 1d4 negative levels. A creature
+      killed by these negative levels rises as a juju zombie (Pathfinder RPG
+      Bestiary 2 291) in 1d4 rounds. A juju zombie created in this manner is
+      under the Black Monk's control and remains so until it or the Black Monk
+      is destroyed. The save DC is Charisma-based.
+  - name: Despair (Su)
+    description: >-
+      This functions as a typical mummy's despair, save that once a paralyzed
+      creature recovers from the effect, it remains staggered for 1 additional
+      round. This is a mind-affecting fear effect. The save DC is
+      Charisma-based.
+  - name: Mummy Rot (Su)
+    description: >-
+      This functions as the typical mummy rot curse and disease, save that the
+      Black Monk can afflict foes with it via his flurry of blows.
+Gender: Male
+DuringCombat: >-
+  The Black Monk uses Improved Trip and Stunning Fist against foes in melee to
+  keep them off balance. He uses his spell-like abilities against foes who can
+  remain out of reach of his melee attacks or who prove too canny to trip, but
+  never uses earthquake for fear of damaging the Black Tower itself.
+Morale: The Black Monk fights to the death.
+Gear: belt of giant strength +4, ring of the ram (45 charges)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3250'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

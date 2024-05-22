@@ -1,0 +1,107 @@
+Name: Zaahku
+CR: '3'
+XP: '800'
+Race: halfling
+Class: sorcerer 4
+Alignment: CN
+Size: Small
+Type: humanoid
+SubType: (halfling)
+Init: '3'
+Senses:
+  - Perception +4
+AC: 18, touch 14, flat-footed 15
+AC_Mods: (+4 armor, +3 Dex, +1 size)
+HP: '28'
+HD: (4d6+12)
+Saves: Fort +5, Ref +8, Will +7; +2 vs. fear
+Fort: '5'
+Ref: '8'
+Will: '7'
+Save_Mods: +2 vs. fear
+Resist: cold 10
+Speed: 20 ft.
+Melee:
+  - spear +1 (1d6-2/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 4th; concentration +7)
+  values:
+    - label: 6/day
+      value: elemental ray (1d6+2 cold)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 4th; concentration +7)
+  values:
+    - label: 2nd (4/day)
+      value: mirror image
+    - label: 1st (7/day)
+      value: burning hands (DC 15), hydraulic pushAPG, hypnotism (DC 14), mage armor
+    - label: 0 (at will)
+      value: light, mage hand, message, prestidigitation, ray of frost, read magic
+AbilityScores:
+  - 6
+  - 16
+  - 14
+  - 10
+  - 12
+  - 17
+BaseAtk: '2'
+CMB: '-1'
+CMD: '12'
+Feats:
+  - Eschew Materials
+  - Lightning Reflexes
+  - Scribe Scroll
+Skills:
+  - Acrobatics +5 (+1 when jumping)
+  - Climb +0
+  - Diplomacy +4
+  - Intimidate +7
+  - Knowledge (nature) +1
+  - Knowledge (planes) +4
+  - Perception +4
+  - Spellcraft +5
+  - Use Magic Device +7
+RacialMods: +2 Acrobatics, +2 Climb, +2 Perception
+Languages:
+  - Common
+  - Halfling
+SQ: bloodline arcana
+Source: Ire Of The Storm
+IsTemplate: '0'
+Gender: Female
+Bloodline: elemental (water)
+BeforeCombat: >-
+  Zaahku casts mage armor when scouts first warn her of visitors, and casts
+  message on her warriors to help coordinate them in case of attack.
+DuringCombat: >-
+  Zaahku is conservative in combat, using mirror image to protect herself and
+  hypnotism to distract enemies. If intruders slay one of her guards, she
+  switches tactics, relying on her elemental ray and burning hands.
+Morale: >-
+  Zaahku hopes to delay dangerous opponents while her people flee, and retreats
+  after 5 rounds. If the PCs kill two or more of her guards, she fights to the
+  death.
+Gear: >-
+  potion of barkskin (CL 3rd), potion of cure light wounds, scroll of mirror
+  image, wand of cat's grace (8 charges)
+OtherGear: >-
+  spear, cloak of resistance +1, flint and steel, sunrods (5), waterskin, Song'o
+  necklaces (worth 60 gp total), 82 sp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without mage armor cast, Zaahku's AC is 14.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8389'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

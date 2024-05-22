@@ -1,0 +1,99 @@
+Name: Inhabited Kasatha
+CR: '6'
+XP: '2400'
+Race: Kasatha
+Class: rogue 7
+MonsterSource: Pathfinder RPG Bestiary 4 174
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (kasatha)
+Init: '2'
+Senses:
+  - detect magic, Perception +12
+AC: 21, touch 15, flat-footed 16
+AC_Mods: (+4 armor, +2 Dex, +3 dodge, +2 shield)
+HP: '63'
+HD: (7d8+28)
+Saves: Fort +4, Ref +7, Will +4
+Fort: '4'
+Ref: '7'
+Will: '4'
+DefensiveAbilities: defensive training, evasion, trap sense +2, uncanny dodge
+Speed: 30 ft.
+Melee:
+  - mwk short sword +8 (1d6+3/19-20), 2 mwk short swords +8 (1d6+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +4d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +7)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: >-
+        confusion (single target only), daze monster (no HD limit), inflict
+        serious wounds, invisibility, reduce size (as reduce person but self
+        only)
+    - label: 3/day
+      value: cure moderate wounds, globe of invulnerability
+AbilityScores:
+  - 16
+  - 15
+  - 14
+  - 10
+  - 14
+  - 8
+BaseAtk: '5'
+CMB: '8'
+CMD: '23'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Toughness
+  - Two-Weapon Fighting
+  - Weapon Focus (short sword)
+Skills:
+  - Acrobatics +12
+  - Climb +13
+  - Escape Artist +12
+  - Intimidate +9
+  - Perception +12
+  - Sense Motive +12
+  - Stealth +12
+  - Survival +9
+Languages:
+  - Kasatha
+  - Androffan
+SQ: >-
+  desert runner, desert stride, jumper, multi-armed, stalker, rogue talents
+  (combat trick, resiliency, weapon training), trapfinding +3
+Source: AP 88
+IsTemplate: '0'
+DuringCombat: >-
+  The inhabited kasathas start combat by trying to sneak attack flat-footed
+  foes. They then either use invisibility to set up sneak attacks every other
+  round or flank foes to do the same. They rely on confusion and daze monster
+  against foes who seek to maintain ranged superiority.
+Morale: >-
+  An inhabited kasatha fights to the death. If slain, the intellect devourer
+  within emerges, at which point its allies move to protect it during the round
+  the emerged intellect devourer is vulnerable and dazed. An emerged intellect
+  devourer fights to the death.
+Gear: +2 leather armor, +1 buckler, 3 mwk short swords
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6476'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

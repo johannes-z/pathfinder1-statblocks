@@ -1,0 +1,101 @@
+Name: Uthil Mak
+CR: '3'
+XP: '800'
+Race: fetchling
+Class: monk 4
+MonsterSource: Pathfinder RPG Bestiary 2 123
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +2
+AC: 17, touch 16, flat-footed 14
+AC_Mods: (+1 armor, +2 Dex, +1 dodge, +1 monk, +2 Wis)
+HP: '35'
+HD: (4d8+12)
+Saves: Fort +6, Ref +7, Will +7; +2 vs. enchantment
+Fort: '6'
+Ref: '7'
+Will: '7'
+Save_Mods: +2 vs. enchantment
+DefensiveAbilities: evasion
+Speed: 40 ft.
+Melee:
+  - unarmed strike +6 (1d8+2)
+  - flurry of blows +4/+4 (1d8+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: flurry of blows, stunning fist (4/day, DC 14)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +4)
+  values:
+    - label: 1/day
+      value: disguise self (humanoid only)
+AbilityScores:
+  - 14
+  - 15
+  - 12
+  - 10
+  - 14
+  - 10
+BaseAtk: '3'
+CMB: '6'
+CMD: '21'
+Feats:
+  - Combat Reflexes
+  - Deflect Arrows
+  - Dodge
+  - Improved Unarmed Strike
+  - Stunning Fist
+  - Toughness
+Skills:
+  - Acrobatics +10
+  - Knowledge (arcana) +3
+  - Knowledge (planes) +3
+  - Knowledge (religion) +7
+  - Stealth +12
+Languages:
+  - Common
+SQ: >-
+  fast movement, maneuver training, still mind, ki pool (4 points, magic), slow
+  fall 20 ft.
+Source: PFS S2-11
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Shadow Blending (Su)
+    description: >-
+      Attacks against a fetchling in dim light have a 50% miss chance instead of
+      the normal 20% miss chance. This ability does not grant total concealment;
+      it just increases the miss chance.
+Gender: Male
+BeforeCombat: >-
+  Uthil Mak is engaged fully in his ritual and does nothing to prepare for the
+  PCs' arrival. If they are exceptionally loud or he is otherwise alerted to
+  their presence, he drinks his potion of shield of faith before continuing the
+  rite.
+DuringCombat: >-
+  The fetchling backs against a wall or the Wightir Conjunction to avoid being
+  flanked and fights any comers. He uses flurry of blows as often as possible,
+  spending ki to add an extra attack when possible. If he takes more than 15
+  points of damage, he spends ki to increase his AC instead.
+Morale: Uthil Mak fights to the death.
+Gear: potion of cure moderate wounds, potion of shield of faith
+OtherGear: ceremonial dagger, bracers of armor +1, cloak of resistance +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5545'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

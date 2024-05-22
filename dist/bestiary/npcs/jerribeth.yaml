@@ -1,0 +1,137 @@
+Name: Jerribeth
+CR: '14'
+XP: '38400'
+Race: mythic glabrezu
+MonsterSource: Pathfinder RPG Bestiary 61, Pathfinder RPG Mythic Adventures
+Alignment: CE
+Size: Huge
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar, mythicMA)
+Init: +4/-16, dual initiativeMA
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +26
+AC: 30, touch 8, flat-footed 30
+AC_Mods: (+22 natural, -2 size)
+HP: '206'
+HD: (12d10+140)
+Saves: Fort +18, Ref +6, Will +11
+Fort: '18'
+Ref: '6'
+Will: '11'
+DR: 10/epic and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '27'
+Speed: 40 ft.
+Speed_Mod: air walk
+Melee:
+  - >-
+    rod of the viper +20/+15/+10 (1d8+14 plus poison), bite +20 (1d8+6), claw
+    +20 (1d6+6), 2 pincers +20 (2d8+6/19-20)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: dual initiativeMA, mythic powerMA (2/day, surge +1d6), rend (2 claws, 2d8+18)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +22)
+  values:
+    - label: Constant
+      value: true seeing
+    - label: At Will
+      value: >-
+        chaos hammer (DC 22), confusion (DC 22), dispel magic, mirror image,
+        reverse gravity (DC 25), greater teleport (self plus 50 lbs. of objects
+        only), veil (self only)
+    - label: 1/day
+      value: >-
+        power word stun, summon (level 4, 1 glabrezu 20% or 1d2 vrocks 50%)
+        1/month-wish (granted to a mortal humanoid only)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 14th; concentration +22)   7th-destruction (DC 25),
+  greater scrying (DC 25)   6th-heal   4th-air walk   2nd-bull's strength,
+  eagle's splendor
+AbilityScores:
+  - 35
+  - 11
+  - 31
+  - 16
+  - 16
+  - 26
+BaseAtk: '12'
+CMB: '26'
+CMD: '36'
+Feats:
+  - Improved Critical (pincers)
+  - Improved Initiative
+  - Lightning ReflexesM
+  - Multiattack
+  - Persuasive
+  - Power Attack
+Skills:
+  - Bluff +31
+  - Diplomacy +27
+  - Disguise +23
+  - Intimidate +10
+  - Knowledge (arcana
+  - local) +9
+  - Knowledge (planes) +12
+  - Knowledge (religion) +18
+  - Linguistics +9
+  - Perception +26
+  - Sense Motive +18
+  - Spellcraft +18
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Hallit
+  - Necril
+  - Undercommon
+SQ: change shape (any humanoid form, alter self), simple divine spellcastingMA
+Source: AP 75
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      Jerribeth can use this ability as an immediate action to either assume
+      humanoid form or return to her true form.
+Gender: Female
+BeforeCombat: Jerribeth casts air walk, bull's strength, and eagle's splendor on herself.
+DuringCombat: >-
+  Jerribeth opens combat by reverting to her true form as an immediate action
+  and then using power word stun on a party healer. On the following rounds, she
+  casts her spells and uses her spell-like abilities at range. Her first act in
+  melee is to cast mirror image. She avoids full attacks against enemies like
+  paladins or rangers who are quite strong in melee against demons, instead
+  using Power Attack to make a single attack with her rod of the viper before
+  moving away to keep her foes from being able to make full attacks against her.
+  She casts heal on herself once she's reduced to fewer than 75 hit points.
+Morale: >-
+  Jerribeth teleports away to safety if reduced to fewer than 50 hit points
+  after she's already used heal. She does not immediately return, but should
+  eventually seek revenge against the PCs&#8211;likely after fleeing back to the
+  Abyss to join Hepzamirah in the Midnight Isles.
+Gear: >-
+  rod of the viper, jailer's dungeon ringUE, prisoner's dungeon ringUE (4), iron
+  key (opens all doors in the Ivory Sanctum except those to areas Q12a and Q19),
+  bejeweled key worth 1,000 gp (opens the secret door into area Q12a), fine
+  clothing worth 1,000 gp (automatically destroyed when she reverts to her true
+  form), mithral key worth 600 gp (opens the door to area Q5)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5119'
+UniqueMonster: '0'
+Variant: '0'
+MR: '2'
+Mythic: '1'
+MT: '0'

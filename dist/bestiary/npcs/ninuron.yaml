@@ -1,0 +1,137 @@
+Name: Ninuron
+CR: '14'
+XP: '38400'
+Race: young adult time dragon
+MonsterSource: Pathfinder RPG Bestiary 4 70
+Alignment: 'N'
+Size: Huge
+Type: dragon
+Init: '10'
+Senses:
+  - detect magic, dragon senses, see in darkness
+  - Perception +23
+Aura: alien presence (150 ft., DC 21)
+AC: 29, touch 9, flat-footed 28
+AC_Mods: (+4 armor, +1 Dex, +16 natural, -2 size)
+HP: '212'
+HD: (17d12+102)
+Saves: Fort +16, Ref +11, Will +13
+Fort: '16'
+Ref: '11'
+Will: '13'
+DR: 5/magic
+Immune: cold, paralysis, sleep, staggered
+SR: '25'
+Speed: 50 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +25 (2d8+13), 2 claws +25 (2d6+9/19-20), tail slap +22 (2d6+13), 2
+    wings +22 (1d8+4)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (50-ft. cone, 10d10 electricity, Reflex DC 24 half), crush
+  (Small creatures, DC 24, 2d8+13)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 17th; concentration +20)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: share memoryUM (DC 15)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +8)
+  values:
+    - label: 2nd (5/day)
+      value: glitterdust (DC 15), invisibility
+    - label: 1st (7/day)
+      value: identify, mage armor, magic missile, unseen servant
+    - label: 0 (at will)
+      value: >-
+        arcane mark, ghost sound (DC 13), mage hand, mending, message, read
+        magic
+AbilityScores:
+  - 28
+  - 13
+  - 22
+  - 17
+  - 16
+  - 17
+BaseAtk: '17'
+CMB: '28'
+CMD: 39 (43 vs. trip)
+Feats:
+  - Cleave
+  - Great Cleave
+  - Improved Critical (claw)
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Knowledge [history])
+  - Weapon Focus (bite
+  - claw)
+Skills:
+  - Diplomacy +23
+  - Fly +13
+  - Knowledge (arcana) +23
+  - Knowledge (geography) +23
+  - Knowledge (history) +29
+  - Knowledge (planes) +23
+  - Knowledge (religion) +23
+  - Perception +23
+  - Spellcraft +23
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Sylvan
+SQ: exiled, immortal, no breath, read the threads, starflight
+Source: AP 136
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Exiled (Ex)
+    description: >-
+      Ninuron has been exiled from the Dimension of Time. He cannot enter that
+      dimension again, nor can he enter areas particularly infused with the
+      dimension's energies (such as the Therassic Library below Jorgenfist). As
+      long as his exile continues, he remains immortal and does not
+      age-something others might consider a boon, but to a dragon, who grows
+      more powerful only with age, it has been agony. In this adventure, nothing
+      can remove this effect from the time dragon, but depending on the PCs'
+      actions in the last adventure of Return of the Runelords, they might be
+      able to release Ninuron from his strange fate.
+Gender: Male
+BeforeCombat: Ninuron casts mage armor on himself.
+DuringCombat: >-
+  Ninuron starts combat by casting glitterdust on the party to disrupt tactics
+  and then takes to the air and uses his breath weapon on the second round. He
+  then lands and attacks in melee. Once reduced to 125 hp or fewer, he casts
+  invisibility to retreat, takes to the sky, and begins using his ranged spells
+  mixed with breath weapon attacks. If at any point it appears that Ninuron is
+  about to destroy the party entirely, the dragon relents and offers the PCs a
+  chance to submit to his demands. In this case, he doesn't ask for the PCs' aid
+  in exploring the Therassic  Library-he expects it from those he has bested in
+  combat. Even at his angriest, the dragon doesn't want to slaughter the PCs, as
+  he hopes they can help him. He avoids using his breath weapon against foes
+  that are likely to immediately perish, nor does he attack foes who look like
+  they might be on their last legs. Judge the fight as appropriate, and be ready
+  for Ninuron to offer mercy instead of killing a PC if the time comes.
+Morale: >-
+  Ninuron fights until he is reduced to fewer than 75 hit points, at which point
+  he calls for a truce, offering each PC a choice of treasure from his hoard
+  (see page 6) if they let him live and assist him.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '11950'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

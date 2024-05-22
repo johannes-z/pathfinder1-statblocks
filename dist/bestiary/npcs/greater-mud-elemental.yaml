@@ -1,0 +1,87 @@
+Name: Greater Mud Elemental
+CR: '9'
+XP: '6400'
+Race: Greater Mud Elemental
+Alignment: 'N'
+Size: Huge
+Type: outsider
+SubType: (earth, elemental, extraplanar, water)
+Init: '4'
+Senses:
+  - darkvision 60 ft., tremorsense 30 ft.
+  - Perception +16
+AC: 22, touch 13, flat-footed 17
+AC_Mods: (+4 Dex, +1 dodge, +9 natural, -2 size)
+HP: '123'
+HD: (13d10+52)
+Saves: Fort +12, Ref +14, Will +4
+Fort: '12'
+Ref: '14'
+Will: '4'
+DR: 10/-
+Immune: acid, elemental traits
+Speed: 20 ft., burrow 10 ft., swim 30 ft.
+Speed_Mod: earth glide
+Melee:
+  - 2 slams +20 (2d8+9 plus entrap)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: entrap (DC 20, 10 minutes, hardness 10, hp 15)
+AbilityScores:
+  - 28
+  - 18
+  - 19
+  - 8
+  - 11
+  - 11
+BaseAtk: '13'
+CMB: '24'
+CMD: '39'
+Feats:
+  - Awesome Blow
+  - Cleave
+  - Dodge
+  - Great Cleave
+  - Greater Bull Rush
+  - Improved Bull RushB
+  - Lightning Reflexes
+  - Power Attack
+Skills:
+  - Climb +25
+  - Escape Artist +20
+  - Knowledge (planes) +15
+  - Perception +16
+  - Stealth +12
+  - Swim +17
+Source: PFS S3-24
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Earth Glide (Ex)
+    description: >-
+      A burrowing mud elemental can pass through dirt, gravel, or other loose or
+      porous solid matter as easily as a fish swims through water. It cannot use
+      this ability to pass through a solid barrier such as a stone or brick
+      wall. Its burrowing leaves behind no tunnel or hole, nor does it create
+      any ripple or other sign of its presence. A move earth spell cast on an
+      area containing a burrowing mud elemental flings the elemental back 30
+      feet, stunning the creature for 1 round unless it succeeds at a DC 15
+      Fortitude save.
+  - name: Entrap (Ex)
+    description: >-
+      The mud from an elemental's entrap ability can be washed away in 1d3
+      rounds of immersion in water.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6699'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

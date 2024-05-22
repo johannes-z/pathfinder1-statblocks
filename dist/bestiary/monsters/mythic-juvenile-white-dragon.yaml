@@ -1,0 +1,129 @@
+Name: Mythic Juvenile White Dragon
+CR: '9'
+XP: '6400'
+Alignment: CE
+Size: Medium
+Type: dragon
+SubType: (cold, mythic)
+Init: '6'
+Senses:
+  - blindsense 60 ft., darkvision 120 ft., low-light vision, snow vision
+  - Perception +15
+AC: 26, touch 12, flat-footed 24
+AC_Mods: (+2 Dex, +14 natural)
+HP: '124'
+HD: (9d12+66)
+Saves: Fort +10, Ref +8, Will +7
+Fort: '10'
+Ref: '8'
+Will: '7'
+DefensiveAbilities: dragon blood (1d4 cold)
+DR: 5/epic
+Immune: cold, dragon traits, paralysis, sleep
+Weaknesses: vulnerable to fire
+Speed: 60 ft., burrow 30 ft., fly 150 ft. (average), swim 60 ft.
+Melee:
+  - bite +15 (1d8+9), 2 claws +15 (1d6+6), 2 wings +10 (1d4+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (30-ft. cone, 8d4 cold damage, Reflex DC 18 half, usable every
+  1d4 rounds), dragon fury (1d4 cold), ice slick, mythic power (3/day, surge
+  +1d6), power slide, trample (1d6+9, DC 20)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +9)
+  values:
+    - label: Constant
+      value: fog cloud
+AbilityScores:
+  - 23
+  - 14
+  - 19
+  - 10
+  - 13
+  - 10
+BaseAtk: '9'
+CMB: '15'
+CMD: 27 (31 vs. trip)
+Feats:
+  - Alertness
+  - Flyby Attack
+  - Improved Initiative
+  - Power AttackM
+  - Vital StrikeM
+Skills:
+  - Fly +14
+  - Intimidate +12
+  - Perception +15
+  - Sense Motive +15
+  - Stealth +14
+  - Swim +26
+Languages:
+  - Draconic
+SQ: ice shape, icewalking
+Environment: cold mountains
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This dragon's white, ice-encrusted scales glitter like diamonds as it
+  effortlessly makes its way across the snow.
+Group: Dragon
+Source: Mythic Adventures
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ice Shape (Su)
+    description: >-
+      A young white dragon can shape ice and snow at will. This ability
+      functions as stone shape, but only targets ice and snow, not stone. A
+      white dragon's caster level for this effect is equal to its Hit Dice.
+  - name: Ice Slick (Ex)
+    description: >-
+      Ice and slush persists from a mythic juvenile white dragon's breath
+      weapon, coating all surfaces in the area and turning the area into
+      difficult terrain for 1 minute per age category. The dragon can breathe at
+      a location beyond its breath weapon range, coating it in ice and slush,
+      instead of damaging creatures, in a radius equal to half its breath weapon
+      range and at a range of 30 feet per age category (a 15-foot burst up to
+      120 feet for a mythic juvenile white dragon).
+  - name: Icewalking (Ex)
+    description: >-
+      This ability works like the spider climb spell, but the surfaces the
+      dragon climbs must be icy. The dragon can move across icy surfaces without
+      penalty and does not need to make Acrobatics checks to run or charge on
+      ice.
+  - name: Power Slide (Ex)
+    description: >-
+      If a mythic juvenile white dragon deals trample damage to one or more
+      opponents on ice, snow, frozen tundra, or a similar slippery surface, it
+      can expend one use of mythic power to attempt an awesome blow combat
+      maneuver against each damaged target, as if it had the Awesome Blow
+      monster feat (Bestiary 314).
+  - name: Snow Vision (Ex)
+    description: >-
+      A very young white dragon learns to see perfectly well in snowy
+      conditions. A white dragon does not take any penalties on Perception
+      checks while in snow.
+Description:
+  - >-
+    A mythic white dragon's powers over ice and snow make it a perfect predator
+    for its environment. Its hunger is barely kept in check by its human-level
+    intelligence. It is fond of crashing into enemies and knocking them into
+    ravines so they can be found and eaten later.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '1'
+Land: '1'
+AgeCategory: juvenile
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4870'
+UniqueMonster: '0'
+MR: '3'
+Mythic: '1'
+MT: '0'

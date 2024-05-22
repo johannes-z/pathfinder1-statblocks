@@ -1,0 +1,136 @@
+Name: Father Of Worms
+CR: '20'
+XP: '307200'
+Race: Mythic nightcrawler
+MonsterSource: Pathfinder RPG Bestiary 2 200, Pathfinder RPG Mythic Adventures 226
+Alignment: CE
+Size: Gargantuan
+Type: undead
+SubType: (extraplanar, mythic, nightshade)
+Init: +8M
+Senses:
+  - >-
+    darkvision 120 ft., low-light vision, tremorsense 120 ft., darksense, detect
+    magic
+  - Perception +33
+Aura: desecrating aura (30 ft.)
+AC: 37, touch 6, flat-footed 37
+AC_Mods: (+31 natural, -4 size)
+HP: '419'
+HD: (25d8+307)
+Saves: Fort +19, Ref +10, Will +23
+Fort: '19'
+Ref: '10'
+Will: '23'
+DefensiveAbilities: corrosive blood
+DR: 15/good and silver,  10/epic
+Immune: acid, cold, undead traits
+SR: '31'
+Weaknesses: light aversion
+Speed: 30 ft., burrow 60 ft.
+Melee:
+  - >-
+    bite +32 (4d10+18/19-20/x3 plus 4d6 cold and grab), sting +32 (4d6+18/19-20
+    plus 4d6 cold and poison)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  breath weapon, channel negative energy (9d6, DC 37, 9/day), energy drain (1d4
+  levels, DC 31), fast swallow, mythic power (4/day, surge +1d8), swallow whole
+  (4d10+18 bludgeoning plus 4d10 cold and energy drain, AC 25, 41 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +27)
+  values:
+    - label: Constant
+      value: air walk, detect magic, magic fang
+    - label: At Will
+      value: >-
+        contagion (DC 23), deeper darkness, greater dispel magic, invisibility,
+        unholy blight (DC 23)
+    - label: 3/day
+      value: >-
+        quickened cone of cold (DC 24), confusion (DC 23), haste, hold monster
+        (DC 24)
+    - label: 1/day
+      value: >-
+        finger of death (DC 26), mass hold monster (DC 28), plane shift (DC 26),
+        summon (level 8, 6 greater shadows 100%)
+AbilityScores:
+  - 41
+  - 10
+  - —
+  - 20
+  - 21
+  - 29
+BaseAtk: '18'
+CMB: '37'
+CMD: 47 (can't be tripped)
+Feats:
+  - Combat Expertise
+  - Command Undead
+  - Critical Focus
+  - Greater Vital Strike
+  - Improved CriticalM (bite)
+  - Improved Critical (sting)
+  - Improved InitiativeM
+  - Improved Vital Strike
+  - Iron Will
+  - Power Attack
+  - Quicken Spell-Like Ability (cone of cold)
+  - Staggering Critical
+  - Vital Strike
+Skills:
+  - Intimidate +37
+  - Knowledge (arcana) +33
+  - Knowledge (dungeoneering) +30
+  - Knowledge (planes) +30
+  - Knowledge (religion) +33
+  - Perception +33
+  - Sense Motive +33
+  - Spellcraft +33
+  - Stealth +16 (+24 in dim light and darkness)
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+  - telepathy 100 ft.
+Source: AP 77
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      Once every 1d4 rounds as a move action, the Father of Worms can breathe a
+      90-foot cone of black energy. This deals 20d6 points of cold damage and
+      imparts 1d4 negative levels to all creatures in that area. A successful DC
+      31 Reflex save halves the cold damage and negates the negative levels. The
+      save DC is Charisma-based.
+  - name: Corrosive Blood (Su)
+    description: >-
+      A creature that strikes the Father of Worms with a slashing or piercing
+      melee attack must succeed at a DC 31 Reflex save or take 2d6 points of
+      acid damage. This damage affects the weapon used to damage the monster as
+      well-the damage is not halved against objects and ignores hardness. The
+      acidic blood swiftly becomes inert unless captured in a vessel capable of
+      storing it, in which case it retains its corrosive properties until poured
+      out.
+DuringCombat: >-
+  The Father of Worms starts a fight by summoning its six greater shadows, using
+  quickened cones  of cold on the first 3 rounds of combat to supplement its
+  other ranged magical attacks. It casts haste on itself and any surviving
+  shadows before entering melee.
+Morale: The Father of Worms fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5555'
+UniqueMonster: '0'
+Variant: '0'
+MR: '4'
+Mythic: '1'
+MT: '0'

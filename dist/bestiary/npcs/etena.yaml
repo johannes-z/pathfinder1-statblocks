@@ -1,0 +1,130 @@
+Name: Etena
+CR: '9'
+XP: '6400'
+Race: slag giant
+Class: oracle 7
+MonsterSource: Pathfinder RPG Bestiary 4 129, Pathfinder RPG Advanced Player's Guide 42
+Alignment: CE
+Size: Large
+Type: humanoid
+SubType: (giant)
+Init: '2'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft., low-light vision
+  - Perception +15
+AC: 23, touch 7, flat-footed 23
+AC_Mods: (+8 armor, -2 Dex, +8 natural, -1 size)
+HP: '117'
+HD: (17 HD; 10d8+7d8+41)
+Saves: Fort +11, Ref +3, Will +12
+Fort: '11'
+Ref: '3'
+Will: '12'
+DefensiveAbilities: rock catching
+Resist: fire 30
+Speed: 50 ft.
+Melee:
+  - +1 adamantine flaming warhammer +17/+12/+7 (2d6+7/x3 plus 1d6 fire)
+  - 2 slams +15 (1d8+4)
+Ranged:
+  - rock +10 (1d8+4)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rock throwing (120 ft.)
+SpellsKnown:
+  header: Oracle Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (5/day)
+      value: bestow curse (DC 17), cure serious wounds, dispel magic, keen edge
+    - label: 2nd (7/day)
+      value: >-
+        bull's strength, cure moderate wounds, heat metal, hold person (DC 16),
+        spiritual weapon
+    - label: 1st (7/day)
+      value: >-
+        cure light wounds, divine favor, doom (DC 15), forbid actionUM (DC 15),
+        lead bladesAPG, ray of sickeningUM (DC 15), sanctuary (DC 15)
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, guidance, mending, read magic, resistance,
+        sparkAPG
+AbilityScores:
+  - 19
+  - 6
+  - 15
+  - 15
+  - 19
+  - 18
+BaseAtk: '12'
+CMB: +17 (+19 sunder)
+CMD: 25 (27 vs. sunder)
+Feats:
+  - Combat Casting
+  - Craft Magic Arms and Armor
+  - Extra Revelation
+  - Improved Initiative
+  - Improved Natural Armor
+  - Improved Sunder
+  - Martial Weapon Proficiency (warhammer)
+  - Power Attack
+  - Weapon Focus (warhammer)
+Skills:
+  - Appraise +15
+  - Craft (armor) +20
+  - Craft (weapons) +20
+  - Diplomacy +15
+  - Knowledge (history) +10
+  - Knowledge (religion) +15
+  - Perception +15
+  - Sense Motive +15
+  - Spellcraft +15
+  - Survival +8
+RacialMods: +4 Craft (armor), +4 Craft (weapons)
+Languages:
+  - Common
+  - Dwarven
+  - Giant
+  - Infernal
+SQ: >-
+  ancient, oracle's curse (clouded vision), revelations (armor mastery, dance of
+  the blades +1, riddle of steel, vision in iron [7 rounds]), shattering blow
+Source: AP 93
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ancient (Ex)
+    description: Etena's CR is reduced by 1 to account for her venerable age.
+Gender: Female
+BeforeCombat: >-
+  If she knows combat is imminent, Etena casts bull's strength and lead blades
+  in preparation for battle. The bonuses from these spells are not included in
+  her stat block.
+DuringCombat: >-
+  At the Sacred Forge (area Z5), Etena casts forbid action and hold person to
+  prevent opponents from approaching Minderhal's Forge. If the shard slags (see
+  Relighting the Forge on page 56) have awoken, Etena falls back and positions
+  herself behind them, casting doom, heat metal, ray of sickening, and spiritual
+  weapon to weaken and hinder opponents. If forced into melee combat, Etena
+  casts divine favor and tries to stay mobile to take advantage of her dance of
+  the blades oracle revelation, while wildly swinging her flaming hammer.
+Morale: >-
+  Etena is more than willing to martyr herself in Minderhal's name, and fights
+  to the death.
+Gear: >-
+  +2 light fortification chainmail, +1 adamantine flaming warhammer, stone
+  unholy symbol of Minderhal
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: venerable
+Mystery: metalUM
+CompanionFamiliarLink: '0'
+id: '6911'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

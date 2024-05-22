@@ -1,0 +1,102 @@
+Name: Pious Guard
+CR: '9'
+XP: '6400'
+Race: human
+Class: paladin of iomedae 10
+Alignment: LG
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '-1'
+Senses:
+  - Perception +10
+Aura: courage (10 ft.), resolve (10 ft.)
+AC: 22, touch 10, flat-footed 22
+AC_Mods: (+11 armor, +1 deflection, -1 Dex, +1 natural)
+HP: '84'
+HD: (10d10+25)
+Saves: Fort +11, Ref +4, Will +9
+Fort: '11'
+Ref: '4'
+Will: '9'
+Immune: charm, disease, fear, poison
+Speed: 20 ft.
+Melee:
+  - +1 ranseur +17/+12 (2d4+8/x3)
+  - mwk longsword +16/+11 (1d8+7/19-20)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with ranseur)
+SpecialAttacks: >-
+  channel positive energy (DC 17, 5d6), smite evil 4/day (+2 attack and AC, +10
+  damage)
+SpellLikeAbilities:
+  header: Paladin Spell-Like Abilities (CL 10th; concentration +12)
+  values:
+    - label: At Will
+      value: detect evil
+SpellsPrepared: >-
+  Paladin Spells Prepared (CL 7th; concentration +9)   2nd-bull's strength,
+  delay poison   1st-bless, lesser restoration, protection from evil
+AbilityScores:
+  - 20
+  - 8
+  - 14
+  - 14
+  - 10
+  - 14
+BaseAtk: '10'
+CMB: +15 (+19 disarm)
+CMD: 25 (27 vs. disarm)
+Feats:
+  - Cleave
+  - Combat Expertise
+  - Greater Disarm
+  - Improved Disarm
+  - Power Attack
+  - Weapon Focus (ranseur)
+Skills:
+  - Diplomacy +10
+  - Intimidate +7
+  - Knowledge (history) +7
+  - Knowledge (local) +7
+  - Knowledge (nobility) +10
+  - Knowledge (religion) +10
+  - Perception +10
+  - Sense Motive +13
+  - Spellcraft +10
+Languages:
+  - Common
+  - Dwarven
+  - Elven
+SQ: >-
+  aura, code of conduct, divine bond (weapon +2, 2/day), lay on hands (5d6,
+  7/day), mercies (cursed, nauseated, shaken)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The paladin casts bull's strength and delay poison.
+DuringCombat: >-
+  The paladin disarms foes to capture and question them. The exceptions are
+  mindless creatures, evil outsiders, and undead, all of which he destroys on
+  the spot.
+OtherGear: >-
+  +2 full plate, +1 ranseur, masterwork longsword, amulet of natural armor +1,
+  ring of protection +1, silver holy symbol, 450 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bull's strength, the paladin's statistics are Immune charm, disease,
+  fear; Melee +1 ranseur +15/+10 (2d4+5/x3) or mwk longsword +14/+9
+  (1d8+4/19&#8211;20); Str 16; CMB +13 (+17 disarm); CMD 23 (25 vs. disarm).
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3753'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

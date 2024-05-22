@@ -1,0 +1,123 @@
+Name: Empowered Cyberplasm
+CR: '7'
+XP: '3200'
+Race: Empowered Cyberplasm
+Alignment: 'N'
+Size: Fine
+Type: construct
+SubType: (swarm)
+Init: '9'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +7
+AC: 23, touch 23, flat-footed 18
+AC_Mods: (+5 Dex, +8 size)
+HP: '78'
+HD: (12d10+12)
+Saves: Fort +4, Ref +11, Will +4
+Fort: '4'
+Ref: '11'
+Will: '4'
+DefensiveAbilities: swarm traits
+Immune: construct traits, weapon damage
+Weaknesses: vulnerable to electricity
+Speed: 20 ft.
+Melee:
+  - swarm (3d6 plus distraction)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: deconstruct, infest (Fort DC 18), reconstruct
+AbilityScores:
+  - 1
+  - 21
+  - —
+  - 8
+  - 10
+  - 1
+BaseAtk: '12'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Alertness
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+  - Skill Focus (Perception)
+  - Toughness
+Skills:
+  - Disable Device +13
+  - Knowledge (engineering) +12
+  - Perception +7
+  - Sense Motive +2
+  - Stealth +22
+RacialMods: +4 Disable Device, +8 Knowledge (engineering)
+Languages:
+  - Androffan (can't speak)
+Source: PFS S6-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Deconstruct (Ex)
+    description: >-
+      A cyberplasm can mix traces of its own nanites with dead organic material,
+      giving the material a semblance of life. As a full-round action, a
+      cyberplasm can use this ability to transform a dead Large or smaller
+      creature into a quivering blob, transforming it into a hungry flesh
+      (Pathfinder RPG Bestiary 4 152). The hungry flesh remains active for 1
+      hour before collapsing into a slurry of inert organic material. A
+      cyberplasm can use this ability on a hungry flesh it has created in this
+      way at any point during the hour to reset the duration.
+  - name: Infest (Ex)
+    description: >-
+      As a standard action, a cyberplasm can attempt to inhabit a Large or
+      smaller corporeal creature. The cyberplasm must move into the target's
+      space (dealing swarm damage in the process), and the target must succeed
+      at a DC 18 Fortitude save to avoid being infested. An infested creature
+      retains its physical ability scores, hit points, natural and special
+      attacks, and natural abilities, while the cyberplasm uses its own mental
+      ability scores, base attack bonus, base save bonuses, alignment, and
+      mental abilities. The host is considered unconscious while infested, and
+      can't take actions or control any of its own abilities as long as the
+      cyberplasm inhabits it. While infesting a host, a cyberplasm can't access
+      its host's thoughts, skills, or mental abilities, and it loses its swarm
+      traits (including immunity to weapon damage) and use of its extraordinary
+      abilities. Any damaging attacks or effects affecting the host deals half
+      of the damage to the host and half of the damage to the cyberplasm. Any
+      electricity damage dealt to the host deals full damage to the host and the
+      cyberplasm (and the cyberplasm is still subject to its vulnerability to
+      electricity). A cyberplasm deals 1 point of Constitution damage every hour
+      it is inside a host. If the cyberplasm reduces its host's Constitution
+      score to 0 in this way, the host's body dissolves into gray dust and is
+      destroyed (similar to a disintegrate effect). A cyberplasm can end its
+      infestation as a move action, appearing in any space adjacent to the
+      infested creature. If the host is slain, the cyberplasm is immediately
+      ejected and is dazed for 1 round. A remove disease spell has a 50% chance
+      to force a cyberplasm from a host, but the creature receives a saving
+      throw against this effect. Anytime a creature infested with a cyberplasm
+      is subjected to electricity damage, it can attempt another DC 18 Fortitude
+      save to eject the cyberplasm. The save DC for this ability is
+      Charisma-based and includes a +2 racial bonus.
+  - name: Reconstruct (Ex)
+    description: >-
+      A cyberplasm can temporarily reshape and repair constructs. As a
+      full-round action, a cyberplasm can reactivate a destroyed or inert
+      construct by leaving traces of its own nanites within the construct.
+      Constructs revived in this way are restored with their full normal hit
+      points, but after 1 hour the traces of nanites within the construct become
+      inert and the construct is destroyed once again. A cyberplasm can use this
+      ability on a construct it has revived at any point during the hour to
+      reset the duration.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7864'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

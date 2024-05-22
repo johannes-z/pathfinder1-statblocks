@@ -1,0 +1,126 @@
+Name: Soul Eater
+CR: '7'
+XP: '3200'
+Race: Soul Eater
+MonsterSource: Tome of Horrors Revised 324
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar)
+Init: '10'
+Senses:
+  - darkvision 60 ft., all-around vision
+  - Perception +14
+AC: 21, touch 17, flat-footed 14
+AC_Mods: (+6 Dex, +1 dodge, +4 natural)
+HP: '82'
+HD: (11d10+22)
+Saves: Fort +5, Ref +13, Will +7
+Fort: '5'
+Ref: '13'
+Will: '7'
+DR: 10/magic
+Immune: critical hits, paralysis, poison, sleep, stunning
+Speed: fly 100 ft. (perfect)
+Melee:
+  - 2 claws +18 (1d6+1/19-20 plus 1d6 Wisdom)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: find target, soul drain
+AbilityScores:
+  - 13
+  - 22
+  - 14
+  - 12
+  - 11
+  - 11
+BaseAtk: '11'
+CMB: '12'
+CMD: 29 (cannot be tripped)
+Feats:
+  - Dodge
+  - Flyby Attack
+  - Improved Critical (claws)
+  - Improved Initiative
+  - Weapon Finesse
+  - Weapon Focus (claws)
+Skills:
+  - Acrobatics +17
+  - Escape Artist +17
+  - Fly +25
+  - Intimidate +11
+  - Knowledge (planes) +15
+  - Perception +14
+  - Stealth +20 (+30 in darkness or smoke)
+Languages:
+  - Daemonic
+SQ: caster link
+Source: AP 33
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Around Vision (Ex)
+    description: >-
+      A soul eater's entire body functions as its eyes. This allows it to see in
+      all directions at once. It cannot be flanked.
+  - name: Caster Link (Ex)
+    description: >-
+      When a soul eater is summoned to the Material Plane, it creates a mental
+      link between itself and the caster who summoned it. If the soul eater's
+      assigned target dies before the soul eater can devour its soul, the soul
+      eater returns at full speed to the caster and attacks him. Likewise, if
+      the soul eater is defeated in battle (but not slain) by its target, the
+      creature returns to the caster and attacks him. So long as both the caster
+      and the soul eater are on the same plane of existence, the soul eater can
+      successfully locate the caster using its find target ability. If the
+      caster leaves the plane, the link is temporarily broken. Once the caster
+      returns or the soul eater enters the plane the caster is now on, the link
+      is immediately restored.
+  - name: Find Target (Su)
+    description: >-
+      When ordered to find a creature, a soul eater does so unerringly, as
+      though guided by a locate creature spell that has no maximum range and is
+      not blocked by running water. The being giving the order must have seen
+      the creature to be found and must speak the target's name (this limits
+      Vordakai's choices to PCs whose name he knows learned through observation
+      via his familiar).
+  - name: Soul Drain (Su)
+    description: >-
+      When a soul eater reduces a foe to 0 Wisdom, it can devour that creature's
+      soul as a standard action that provokes an attack of opportunity. The
+      victim can resist having his soul drained by making a DC 17 Fortitude
+      save. If he does, he is slain but can be restored to life normally. If the
+      victim fails, he is immediately slain and his soul is consumed by the soul
+      drinker. A victim slain in this manner cannot be returned to life through
+      clone, raise dead, reincarnation, resurrection, true resurrection, or even
+      a miracle or wish. The victim's soul remains within the essence of the
+      soul eater forever-unless the soul eater is slain while the victim's body
+      is within 30 feet and the victim has been dead for no more than 1 minute.
+      In that case, the victim's soul returns to the body and restores it to
+      life (although at &#8211;1 hit point). This is a death effect. The save DC
+      is Constitution-based.
+  - name: Wisdom Damage (Su)
+    description: >-
+      A creature hit by a soul eater's claw must succeed on a DC 17 Fortitude
+      save or take 1d6 points of Wisdom damage. The save DC is
+      Constitution-based.
+DuringCombat: >-
+  The soul eater prefers to attack its assigned target character. If detected
+  before it reaches its foe, it attempts to kill guards in order to complete its
+  dark errand.
+Morale: The soul drinker fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+LinkText: Soul Eater
+id: '705'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

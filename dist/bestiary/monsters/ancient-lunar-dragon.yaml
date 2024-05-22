@@ -1,0 +1,176 @@
+Name: Ancient Lunar Dragon
+CR: '18'
+XP: '153600'
+Alignment: CN
+Size: Gargantuan
+Type: dragon
+Init: '2'
+Senses:
+  - dragon senses, see in darkness
+  - Perception +35
+Aura: alien presence (300 ft., DC 29)
+AC: 37, touch 4, flat-footed 37
+AC_Mods: (-2 Dex, +33 natural, -4 size)
+HP: '348'
+HD: (24d12+192)
+Saves: Fort +21, Ref +12, Will +22
+Fort: '21'
+Ref: '12'
+Will: '22'
+DefensiveAbilities: reflect rays, reflected light
+DR: 15/ magic
+Immune: cold, paralysis, sleep
+SR: '29'
+Speed: 40 ft., burrow 20 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +32 (4d6+18), 2 claws +32 (2d8+12), 2 wings +30 (2d8+6), tail slap +30
+    (2d8+18)
+Space: 20 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  bewildering breath, breath weapon (120-ft. line, 20d8 cold, DC 29), crush,
+  moonsilver, tail sweep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 24th; concentration +31)
+  values:
+    - label: At Will
+      value: dancing lights, life bubbleAPG, moonstruckAPG, scrying
+    - label: 3/day
+      value: quickened moonstruckAPG
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 15th; concentration +22)
+  values:
+    - label: 7th (5/day)
+      value: greater teleport, waves of exhaustion
+    - label: 6th (7/day)
+      value: cold ice strikeUM (DC 23), greater dispel magic, true seeing
+    - label: 5th (7/day)
+      value: >-
+        dominate person (DC 22), feeblemind (DC 22), fire snake (DC 22), mage's
+        private sanctum
+    - label: 4th (7/day)
+      value: >-
+        charm monster (DC 21), fire shield, greater invisibility, lesser globe
+        of invulnerability
+    - label: 3rd (8/day)
+      value: haste, heroism, tongues, vampiric touch
+    - label: 2nd (8/day)
+      value: >-
+        bear's endurance, detect thoughts (DC 19), hypnotic pattern (DC 19),
+        minor image (DC 19), mirror image
+    - label: 1st (8/day)
+      value: >-
+        comprehend languages, mage armor, protection from evil, shocking grasp,
+        vanishAPG
+    - label: 0 (at will)
+      value: detect magic, light, read magic, 4 more
+AbilityScores:
+  - 35
+  - 7
+  - 24
+  - 24
+  - 26
+  - 25
+BaseAtk: '24'
+CMB: '40'
+CMD: 48 (52 vs. trip)
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Dazing AssaultAPG
+  - Flyby Attack
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Quicken Spell-Like Ability (moonstruckAPG)
+  - Toughness
+  - Vital Strike
+  - Wingover
+Skills:
+  - Bluff +34
+  - Diplomacy +34
+  - Fly +11
+  - Intimidate +34
+  - Knowledge (arcana
+  - geography
+  - history
+  - local
+  - nature
+  - planes) +30
+  - Perception +35
+  - Sense Motive +35
+  - Spellcraft +34
+  - Use Magic Device +34
+Languages:
+  - Aklo
+  - Aquan
+  - Auran
+  - Common
+  - Draconic
+  - Ignan
+  - Terran
+SQ: absolute cold, no breath, starflight
+Environment: vacuum
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  A shimmering halo surrounds this regal dragon's spine-crowned head, and its
+  vast wings ripple like milky gossamer lit by the moon.
+Group: Outer Dragon
+Source: PFRPG Bestiary 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Absolute Cold (Su)
+    description: >-
+      An old or older lunar dragon's breath weapon can affect creatures immune
+      to cold damage. A creature immune to cold damage still takes half damage
+      from the breath weapon (no damage with a successful saving throw).
+      Resistant creatures' cold resistance is treated as 10 less than normal.
+  - name: Alien Presence (Su)
+    description: >-
+      A lunar dragon's alien presence affects opponents that fail their saves as
+      touch of idiocy (or as feeblemind for creatures with 4 or fewer Hit Dice)
+      for 5d6 rounds. This is a mind-affecting compulsion effect.
+  - name: Bewildering Breath (Su)
+    description: >-
+      A creature that fails its saving throw against a lunar dragon's breath
+      weapon emits light (as faerie fire) and is dazzled for 1d4 rounds. If the
+      lunar dragon is adult or older, the creature is also confused for 1d4
+      rounds.
+  - name: Moonsilver (Ex)
+    description: >-
+      A lunar dragon's natural weapons are treated as silver for the purpose of
+      overcoming damage reduction.
+  - name: Reflect Rays (Su)
+    description: >-
+      Rays and ranged touch effects that strike an ancient or older lunar dragon
+      but fail to overcome its spell resistance are reflected back at their
+      source, using the original attack roll to determine whether they hit.
+  - name: Reflected Light (Ex)
+    description: >-
+      A very young or older lunar dragon can't be blinded or dazzled by bright
+      light or patterns.
+Description:
+  - >-
+    Lunar dragons frequently interact with mortals, spending long hours watching
+    the activities occurring on planets that interest them.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: ancient
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5184'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

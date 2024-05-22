@@ -1,0 +1,134 @@
+Name: Zelkor
+CR: '11'
+XP: '12800'
+Race: Spectre
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +13
+Aura: unnatural aura (30 ft.)
+AC: 16, touch 16, flat-footed 13
+AC_Mods: (+3 deflection, +3 Dex)
+HP: '67'
+HD: (9d8+27)
+Saves: Fort +6, Ref +6, Will +8
+Fort: '6'
+Ref: '6'
+Will: '8'
+DefensiveAbilities: incorporeal, channel resistance +6
+Immune: undead traits
+Weaknesses: resurrection vulnerability, sunlight powerlessness
+Speed: fly 80 ft. (perfect)
+Melee:
+  - incorporeal touch +10 (1d8 plus energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, energy drain (2 levels, DC 17), magic jar (DC 17)
+SpellsPrepared: >-
+  Spells Prepared (CL 11th; melee touch +10, ranged touch +9)  6th-chain
+  lightning (DC 20)  5th-cloudkill (DC 19), hold monster (DC 19), waves of
+  fatigue  4th-greater invisibility, lesser globe of invulnerability, wall of
+  fire  3rd-dispel magic, fireball (DC 17) (x3), ray of exhaustion (DC 17) 
+  2nd-blur, glitterdust (DC 16), scorching ray, mirror image (x2)  1st-charm
+  person (DC 15), magic missile (x3), obscuring mist  0 (at will)-dancing
+  lights, daze (DC 14), flare (DC 14), resistance
+AbilityScores:
+  - —
+  - 16
+  - —
+  - 19
+  - 14
+  - 17
+BaseAtk: '6'
+CMB: '6'
+CMD: '22'
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Eschew MaterialsB
+  - Improved Initiative
+  - Scribe ScrollB
+  - Spell Mastery (dispel magic
+  - fireball
+  - magic missile
+  - mirror image)
+  - Weapon Focus (touch)
+Skills:
+  - Fly +22
+  - Intimidate +14
+  - Knowledge (arcana) +15
+  - Knowledge (history) +12
+  - Knowledge (religion) +15
+  - Linguistics +6
+  - Perception +13
+  - Sense Motive +11
+  - Spellcraft +15
+  - Stealth +14
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Elven
+  - Infernal
+  - Sylvan
+Source: Rappan Athuk-Level 3A
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      Any humanoids slain by a spectre become spectres themselves in 1d4 rounds.
+      Spawn so created are less powerful than typical spectres, and suffer a -2
+      penalty on all d20 rolls and checks, receive -2 hp per HD, and only drain
+      one level on a touch. Spawn are under the command of the spectre that
+      created them and remain enslaved until its death, at which point they lose
+      their spawn penalties and become full-fledged and freewilled spectres.
+      They do not possess any of the abilities they had in life.
+  - name: Magic Jar (Su)
+    description: >-
+      A gift from Orcus on converting to evil, Zelkor was given the ability to
+      magic jar as per the spell at will as a supernatural ability. The high
+      priests of Orcus from the lower temple gave Zelkor the peridot gem that he
+      uses as the receptacle for the spell. Using his magic jar ability is a
+      full round action. The room is designed so that anyone within the room is
+      within the range of the magic jar spell.
+  - name: Resurrection Vulnerability (Su)
+    description: >-
+      A raise dead or similar spell cast on a spectre destroys it (Will
+      negates). Using the spell in this way does not require a material
+      component.
+  - name: Sunlight Powerlessness (Ex)
+    description: >-
+      Spectres are powerless in natural sunlight (not merely a daylight spell)
+      and flee from it. A spectre caught in sunlight cannot attack and is
+      staggered.
+  - name: Turn Resistance (Su)
+    description: >-
+      An additional effect from the gift of Orcus increases Zelkor's turn
+      resistance to +6.
+  - name: Unnatural Aura (Su)
+    description: >-
+      Animals, whether wild or domesticated, can sense the unnatural presence of
+      a spectre at a distance of 30 ft. They do not willingly approach nearer
+      than that and panic if forced to do so unless a master succeeds at a DC 25
+      Handle Animal, Ride, or wild empathy check. A panicked animal remains so
+      as long as it is within 30 feet of the spectre.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12047'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

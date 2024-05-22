@@ -1,0 +1,99 @@
+Name: Stirge Hound Rider
+CR: '3'
+XP: '800'
+Race: Sprite
+Class: fighter 4
+MonsterSource: Pathfinder RPG Bestiary 3 256
+Alignment: CN
+Size: Diminutive
+Type: fey
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +6
+AC: 19, touch 19, flat-footed 14
+AC_Mods: (+4 Dex, +1 dodge, +4 size)
+HP: '39'
+HD: (5 HD; 1d6+4d10+14)
+Saves: Fort +6, Ref +7, Will +3 (+1 vs. fear)
+Fort: '6'
+Ref: '7'
+Will: +3 (+1 vs. fear)
+DR: 2/cold iron
+Speed: 15 ft., fly 60 ft. (perfect)
+Melee:
+  - mwk longsword +8 (1d3-1/19-20)
+Ranged:
+  - mwk shortbow +13 (1d2-1, plus 1d6 fire/x3)
+Space: 1 ft.
+Reach: 0 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +4)
+  values:
+    - label: Constant
+      value: detect evil, detect good
+    - label: At Will
+      value: dancing lights, daze (DC 9)
+    - label: 1/day
+      value: color spray (DC 10)
+AbilityScores:
+  - 8
+  - 19
+  - 14
+  - 8
+  - 11
+  - 8
+BaseAtk: '4'
+CMB: '4'
+CMD: '14'
+Feats:
+  - Alertness
+  - Dodge
+  - Mobility
+  - Mounted Archery
+  - Mounted Combat
+  - Point-Blank Shot
+Skills:
+  - Acrobatics +4 (-4 when jumping)
+  - Escape Artist +8
+  - Fly +22
+  - Handle Animal +4
+  - Perception +6
+  - Ride +10
+  - Sense Motive +2
+  - Survival +4
+Languages:
+  - Common
+  - Sylvan
+SQ: armor training 1, luminous
+Source: Down The Blighted Path
+IsTemplate: '0'
+BeforeCombat: >-
+  Before mounting up, the riders apply one oil of flame arrow to a single quiver
+  of 50 arrows and divvy up the enchanted ammunition.
+DuringCombat: >-
+  The Stirge Hounds circle or chase prey on their stirge steeds, firing arrows
+  and unleashing their color spray spell-like effects against any opponents who
+  prove especially dangerous. After a few rounds, they attempt to fast dismount
+  and direct their mounts to attach to enemies and drain their blood.
+  Ironically, the dismounted sprites are much faster and more maneuverable.
+Morale: A rider flees if reduced to fewer than 5 hit points.
+Gear: oil of flame arrow, oil of magic weapon, potion of cure serious wounds
+OtherGear: >-
+  masterwork diminutive longsword, masterwork diminutive shortbow with 20
+  arrows, exotic military saddle, 42 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7832'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,216 @@
+Name: Surgeon Robot
+CR: '14'
+XP: '38400'
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (robot)
+Init: '11'
+Senses:
+  - darkvision 60 ft., low-light vision, superior optics
+  - Perception +22
+AC: 27, touch 17, flat-footed 20
+AC_Mods: (+7 Dex, +10 natural)
+HP: '254'
+HD: (18d10+80 plus 75 hp force field)
+Saves: Fort +6, Ref +13, Will +7
+Fort: '6'
+Ref: '13'
+Will: '7'
+DefensiveAbilities: hardness 10
+Immune: construct traits
+Weaknesses: vulnerable to critical hits and electricity
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    2 claws +25 (1d6+6 plus grab), 4 scalpels +25 (1d6+6/19-20), syringe +25
+    (1d4+6/19-20 plus poison)
+Ranged:
+  - integrated surgical laser +25 touch (1d6 fire/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (1d6+9), sneak attack +3d6, syringe
+AbilityScores:
+  - 22
+  - 25
+  - —
+  - 14
+  - 13
+  - 1
+BaseAtk: '18'
+CMB: '24'
+CMD: 41 (45 vs. trip)
+Feats:
+  - Bleeding Critical
+  - Blinding Critical
+  - Critical Focus
+  - Improved Critical (integrated surgical laser)
+  - Improved Critical (scalpel)
+  - Improved Critical (syringe)
+  - Improved Initiative
+  - Vital Strike
+  - Weapon Finesse
+Skills:
+  - Disable Device +11
+  - Heal +27
+  - Knowledge (engineering) +15
+  - Knowledge (local) +15
+  - Knowledge (nature) +15
+  - Perception +22
+  - Sense Motive +9
+RacialMods: +8 Heal
+Languages:
+  - Androffan
+  - Common
+  - Hallit
+SQ: master surgeon, specialized programming
+Environment: any (Numeria)
+Organization: solitary or team (2-6)
+Treasure: none
+Description_Visual: >-
+  This robot has the general appearance of a skeletal preying mantis fashioned
+  entirely from gleaming metal. An array of limbs fitted with laser scalpels,
+  syringes, and other surgical devices spring from its body.
+Group: Robot
+Source: AP 89
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Force Field (Ex)
+    description: >-
+      A surgeon robot is sheathed in a thin layer of shimmering energy that
+      grants it 75 bonus hit points. All damage dealt to a surgeon robot with an
+      active force field is deducted from these hit points first. As long as the
+      force field is active, the surgeon robot is immune to critical hits. A
+      surgeon robot's force field has fast healing 15, but once these bonus hit
+      points are reduced to 0, the force field shuts down and doesn't reactivate
+      for 24 hours.
+  - name: Master Surgeon (Ex)
+    description: >-
+      Programmed to execute advanced medical procedures, a surgeon robot can
+      perform surgeries and other procedures that heal humanoid creatures of all
+      manner of maladies. A surgeon robot can heal wounds, set broken bones,
+      cure diseases, treat burns, remove poison, and even install cybertech
+      items. These procedures take varying amounts of time for the surgeon robot
+      to complete and require different Heal check DCs. The DCs for these
+      surgical procedures increase by 10 when they're performed on a
+      non-humanoid creature. These procedures leave the patient with the
+      exhausted condition. If the surgeon robot fails any of its Heal checks,
+      the surgery fails and the patient takes 1d4 points of Constitution damage
+      and is exhausted for 24 hours. The procedures a surgeon robot can perform
+      are as follows: • Cure Blindness/Deafness (DC 35): The patient's sight or
+      hearing is restored. Required Time: 30 minutes. • Install Cybertech (DC =
+      5 + the cybertech install DC): Cybernetic equipment is installed safely.
+      Required Time: 20 minutes per point of implantation of the cybertech being
+      installed. • Minor Surgery (DC 25): The patient is healed of 1d8+1 points
+      of damage. Required Time: 5 minutes. • Moderate Surgery (DC 30): The
+      patient is healed of 2d8+3 points of damage and 1d4+1 points of ability
+      damage to a selected ability score. Required Time: 10 minutes. • Major
+      Surgery (DC 35): The patient is healed of 3d8+5 points of damage and is
+      cured of blindness and deafness. Required Time: 15 minutes. • Critical
+      Surgery (DC 40): The patient is healed of 4d8+7 points of damage and
+      either all ability damage to all ability scores or all ability drain to
+      one ability score. Required Time: 30 minutes. • Treat Toxin (DC = 10 + the
+      save DC of disease or poison): One disease or poison currently afflicting
+      the patient is removed. Required Time: 10 minutes.
+  - name: Specialized Programming (Ex)
+    description: >-
+      Heal is always a class skill for surgeon robots, and they gain a +8 racial
+      bonus on Heal checks.
+  - name: Superior Optics (Ex)
+    description: Surgeon robots see invisible creatures or objects as if they were visible.
+  - name: Syringe (Ex)
+    description: >-
+      When a surgeon robot makes a successful attack with its syringe, it can
+      inject the target with pharmaceuticals. The robot contains nanites that
+      fabricate the pharmaceuticals stored within its body. Up to 10 doses of
+      these pharmaceuticals can be administered per day. The surgeon robot can
+      choose to affect its target with cardioamp, cureall, hemochem (grade III),
+      torpinal, or zortaphen each time it uses this ability. Rules for these
+      pharmaceuticals can be found on pages 33-34 of Pathfinder Campaign
+      Setting: Technology Guide.
+Description:
+  - >-
+    These large, insectoid-looking robots were designed to perform incredibly
+    complicated surgeries with flawless results. Possessing a data bank filled
+    with advanced surgical techniques, these robots produce nearly supernatural
+    effects, and the recovery time from their procedures is often nothing short
+    of miraculous. These robots were
+  - >-
+    originally stationed on Divinity to care for the humanoid crew of the ship
+    during their long voyage, and some were even employed to treat the aliens
+    the ship collected during its journey. Surgeon robots stand 7 feet tall and
+    weigh a bit more than 600 pounds.
+  - Ecology
+  - >-
+    Formed from a skeletal array of gleaming metal, surgeon robots can contort
+    their forms to accommodate various positions needed to most effectively
+    perform surgical procedures on their patients. Though the robot is capable
+    of standing upright and extending its body to a height of 10 feet, it
+    usually stands on four legs when working for increased stability. In this
+    posture, the surgeon robot resembles an oversized preying mantis. Surgeon
+    robots are equipped with powerful and precise rotors that allow them to fly
+    if necessary. This added movement allows surgeon robots to treat patients in
+    precarious locations during emergency situations.
+  - >-
+    Surgeon robots possess remarkable speed, dexterity, and structural strength,
+    and their design makes them highly adaptable. In addition to sensory inputs
+    that exceed the senses of most living creatures, its creators also added a
+    nanite-powered pharmaceutical lab that is housed deep in the robot's body.
+    Each of its limbs-though seemingly delicate-is crafted from remarkably
+    durable metal that flexes to prevent breakage if the robot attempts to lift
+    more than it can normally carry. Thin claws extend from its two primary
+    limbs, allowing it to deftly and precisely maneuver a patient into the
+    optimal position for each of the dizzying number of procedures the robot is
+    capable of performing. Should a surgeon robot need to defend itself or its
+    patient, its claws are also more than ample weapons.
+  - >-
+    Some surgeon robots have been reprogrammed to accommodate different sorts of
+    patients. Due to exposure to alien creatures or training given by those
+    expecting to venture into places with non-humanoid creatures, the robots
+    contain detailed information on alien physiologies. These surgeon robots can
+    perform surgical procedures on non-humanoid creatures with no increase to
+    the Heal DC.
+  - Habitat & Society
+  - >-
+    The Technic League has spent a great deal of effort recovering and
+    reprogramming these robots for its own purposes, which are not limited to
+    simple healing and surgery. Aside from medicine, Technic League agents use
+    these robots as torturers during painful interrogations, or take advantage
+    of the robots' pharmaceutical production to keep subjects drugged for months
+    at a time. Despite such alternate uses, these intelligent constructs have a
+    hardwired directive that Technic League agents have failed to deactivate: an
+    obsessive
+  - >-
+    drive to perfect their craft. Surgeon robots continually attempt to study
+    humanoid physiology. They require new subject matter to study with some
+    regularity, and if denied such opportunities, they take it upon themselves
+    to collect specimens and perform experiments on them-sometimes claiming the
+    same Technic League agents who tried to cow them.
+  - >-
+    These robots are most commonly encountered in Silver Mount, among the
+    Technic League compound in Starfall, or hidden away inside other ruins of
+    Divinity's crash where they once were stationed to provide medical care.
+    However, rogue surgeon robots may also be found in dungeons or caves that
+    they've transformed into their own macabre operating rooms filled with all
+    manner of strange and alien technological devices. On rare occasions, these
+    beings form pacts with other intelligent creatures, bartering their services
+    as surgeons in return for both materials and test subjects. Lacking any sort
+    of conscience or ethical code, surgeon robots make excellent torturers and
+    executioners.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6619'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

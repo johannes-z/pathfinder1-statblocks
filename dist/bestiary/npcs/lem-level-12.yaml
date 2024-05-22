@@ -1,0 +1,130 @@
+Name: Lem Level 12
+CR: '12'
+XP: '19200'
+Race: halfling
+Class: bard 12
+Alignment: CG
+Size: Small
+Type: humanoid
+SubType: (halfling)
+Init: '6'
+Senses:
+  - Perception +4
+AC: 24, touch 16, flat-footed 21
+AC_Mods: (+8 armor, +2 deflection, +2 Dex, +1 dodge, +1 size)
+HP: '105'
+HD: (12d8+48)
+Saves: >-
+  Fort +12, Ref +16, Will +14; +2 vs. fear, +4 vs. bardic performance,
+  language-dependent, and sonic
+Fort: '12'
+Ref: '16'
+Will: '14'
+Save_Mods: +2 vs. fear, +4 vs. bardic performance, language-dependent, and sonic
+Speed: 20 ft.
+Melee:
+  - +3 defending short sword +17/+12 (1d4+2/19-20)
+Ranged:
+  - +1 sling +15/+10 (1d3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 39 rounds/day (move action; countersong, dirge of doom,
+  distraction, fascinate, inspire competence +4, inspire courage +3, inspire
+  greatness, soothing performance, suggestion)
+SpellsKnown:
+  header: Bard Spells Known (CL 12th; concentration +19)
+  values:
+    - label: 4th (4/day)
+      value: >-
+        break enchantment (DC 21), dominate person (DC 22), greater
+        invisibility, rainbow pattern (DC 21)
+    - label: 3rd (6/day)
+      value: deep slumber (DC 21), dispel magic, haste, see invisibility
+    - label: 2nd (7/day)
+      value: >-
+        heroism, hold person (DC 20), silence (DC 19), suggestion (DC 20),
+        tongues
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 19), grease, hideous laughter (DC 19), remove fear,
+        silent image (DC 18), ventriloquism (DC 18)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 17), light, mage hand,
+        prestidigitation
+AbilityScores:
+  - 8
+  - 14
+  - 14
+  - 14
+  - 10
+  - 24
+BaseAtk: '9'
+CMB: '9'
+CMD: '22'
+Feats:
+  - Dodge
+  - Extra Performance
+  - Improved Initiative
+  - Spell Focus (enchantment)
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +17 (+13 when jumping)
+  - Bluff +24
+  - Climb +3
+  - Diplomacy +24
+  - Knowledge (arcana) +25
+  - Knowledge (nobility) +20
+  - Perception +4
+  - Perform (comedy) +19
+  - Perform (dance) +19
+  - Perform (wind) +26
+  - Sense Motive +17
+  - Stealth +18
+SQ: >-
+  bardic knowledge +6, jack-of-all-trades (use any skill), lore master 2/day,
+  versatile performance (comedy, dance, wind)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: Lem casts heroism before the start of the encounter.
+DuringCombat: >-
+  Lem knows he is best in a supporting role, and tries to stay out of melee if
+  at all possible. Instead of fighting directly, he uses his bardic performance
+  ability to inspire courage in his companions, and augments his effectiveness
+  with the use of well-placed spells to charm or otherwise waylay foes until his
+  allies can deal with them.
+Gear: >-
+  potion of cure serious wounds, scroll of alter self, scroll of charm monster,
+  scroll of hideous laughter, wand of cure moderate wounds (50 charges), wand of
+  freedom of movement (12 charges), caltrops
+OtherGear: >-
+  +4 mithral slick chain shirt, +3 defending short sword, +1 sling with 10
+  bullets, cloak of resistance +3, extend metamagic rod, headband of alluring
+  charisma +4, ring of feather falling, ring of protection +2, universal solvent
+  (2), backpack, bedroll, hooded lantern, masterwork flute, scroll case, silk
+  rope (50 ft.), smokestick, spell component pouch, trail rations (2),
+  waterskin, 102 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without heroism, Lem's statistics are Senses Perception +2; Fort +10, Ref +14,
+  Will +12; Melee +3 defending short sword +15/+10 (1d4+2/19&#8211;20); Ranged
+  +1 sling +13/+8 (1d3); CMB +7; Skills Acrobatics +15 (+11 when jumping), Bluff
+  +22, Climb +1, Diplomacy +22, Knowledge (arcana) +23, Knowledge (nobility)
+  +18, Perception +2, Perform (comedy, dance) +17, Perform (wind) +24, Sense
+  Motive +15, Stealth +16.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3967'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

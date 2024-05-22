@@ -1,0 +1,109 @@
+Name: Stagecrafter
+CR: '9'
+XP: '6400'
+Race: Human
+Class: illusionist 10
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +10
+AC: 18, touch 13, flat-footed 16
+AC_Mods: (+4 armor, +1 deflection, +2 Dex, +1 natural)
+HP: '57'
+HD: (10d6+20)
+Saves: Fort +6, Ref +7, Will +11
+Fort: '6'
+Ref: '7'
+Will: '11'
+Speed: 30 ft.
+Melee:
+  - mwk quarterstaff +5 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: At Will
+      value: invisibility field (10 rounds/day)
+    - label: 7/day
+      value: blinding ray
+SpellsPrepared: >-
+  Illusionist Spells Prepared (CL 10th; concentration +14)   5th-mind fog (DC
+  19), still phantasmal killer (DC 20), shadow evocation (DC 21)   4th-greater
+  invisibility, hallucinatory terrain (DC 20), extended invisibility sphere (2),
+  rainbow pattern (DC 20)   3rd-displacement, silent invisibility, major image
+  (2, DC 19), summon monster III   2nd-hypnotic pattern (DC 18), invisibility,
+  minor image (2, DC 18), mirror image, summon monster II   1st-disguise self,
+  enlarge person (DC 15), mage armor, silent image (2, DC 17), ventriloquism (DC
+  17)   0 (at will)-daze (DC 14), detect poison, ghost sound (DC 16), message
+AbilityScores:
+  - 8
+  - 14
+  - 12
+  - 18
+  - 10
+  - 14
+BaseAtk: '5'
+CMB: '4'
+CMD: '17'
+Feats:
+  - Combat Casting
+  - Extend Spell
+  - Greater Spell Focus (illusion)
+  - Iron Will
+  - Scribe Scroll
+  - Silent Spell
+  - Skill Focus (Stealth)
+  - Spell Focus (illusion)
+  - Still Spell
+Skills:
+  - Bluff +12
+  - Disguise +7
+  - Knowledge (arcana) +17
+  - Perception +10
+  - Sense Motive +5
+  - Sleight of Hand +12
+  - Spellcraft +17
+  - Stealth +18
+Languages:
+  - Common
+  - Elven
+  - Gnome
+  - Halfling
+  - Shae
+SQ: arcane bond (wand of shadow conjuration), extended illusions (5 rounds)
+Source: Villain Codex
+IsTemplate: '0'
+ProhibitedSchools: evocation, necromancy
+BeforeCombat: >-
+  Each day, the stagecrafter casts mage armor to guard against enemies and
+  accidents alike. If combat seems imminent, he casts greater invisibility.
+DuringCombat: >-
+  The stagecrafter unleashes mind fog to make enemies more susceptible to other
+  spells, and then he us  his wand of shadow conjuration in order to summon a
+  variety of terrifying creatures.
+Gear: potion of fly, wand of shadow conjuration (20 charges), smokesticks (2)
+OtherGear: >-
+  mwk quarterstaff, amulet of natural armor +1, cloak of resistance +2, ring of
+  protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor, the stagecrafter's statistics are AC 13, touch 13,
+  flat-footed 11.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8821'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

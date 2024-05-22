@@ -1,0 +1,101 @@
+Name: Kallas Devil
+CR: '9'
+XP: '6400'
+Race: nuckelavee
+MonsterSource: Pathfinder RPG Bestiary 3 203
+Alignment: NE
+Size: Large
+Type: fey
+SubType: (aquatic)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+Aura: frightful presence (30 ft., DC 20),
+AC: 22, touch 16, flat-footed 15
+AC_Mods: (+5 Dex, +2 dodge, +6 natural, -1 size)
+HP: '102'
+HD: (12d6+60)
+Saves: Fort +9, Ref +15, Will +10
+Fort: '9'
+Ref: '15'
+Will: '10'
+DR: 10/cold iron
+Immune: poison, disease
+Speed: 50 ft., swim 50 ft.
+Melee:
+  - >-
+    mwk trident +11/+6 (2d6+5), bite +10 (1d8+5 plus disease), 2 hooves +5
+    (1d6+2 plus disease)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (30-ft. cone, 10d6, Reflex DC 21 half, usable every 1d4 rounds),
+  evil eye, trample (1d6+7, DC 21)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: 3/day
+      value: black tentacles, call lightning, stinking cloud (DC 17)
+AbilityScores:
+  - 21
+  - 20
+  - 20
+  - 13
+  - 15
+  - 18
+BaseAtk: '6'
+CMB: '12'
+CMD: 29 (33 vs. trip)
+Feats:
+  - Dodge
+  - Lightning Reflexes
+  - Lightning Stance
+  - Mobility
+  - Spring Attack
+  - Wind Stance
+Skills:
+  - Acrobatics +20 (+28 when jumping)
+  - Escape Artist +20
+  - Intimidate +16
+  - Knowledge (nature) +16
+  - Perception +17
+  - Stealth +16
+  - Swim +28
+Languages:
+  - Aklo
+  - Common
+  - Sylvan
+SQ: amphibious, undersized weapons
+Source: Fey Revisited
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Evil Eye (Su)
+    description: >-
+      Three times per day, the Kallas Devil can cast its dire gaze upon any
+      single creature within 30 feet. The target must succeed at a DC 20 Will
+      save or be staggered as a strange nebulous distress and a gnawing sense of
+      impending doom plague the victim. If the Kallas Devil uses its evil eye on
+      someone already afflicted by this curse, the victim must succeed at a DC
+      20 Fortitude save or be overwhelmed with fright and collapse into a
+      comatose state for 3 days. Each day that passes, the comatose victim must
+      succeed at a DC 20 Fortitude save or perish. The evil eye is a
+      mind-affecting fear effect. The save DCs are Charisma-based. Evil Eye
+      Curse: Gaze-failed save; save Will DC 20; frequency 1/day; effect
+      staggered (or fall comatose if already under the effects of the evil eye).
+Gear: masterwork trident
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4405'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

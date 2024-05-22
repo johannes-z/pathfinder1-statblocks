@@ -1,0 +1,140 @@
+Name: Izon
+CR: '15'
+XP: '51200'
+Race: urdefhan
+Class: cleric of Szuriel 11
+MonsterSource: Pathfinder RPG Bestiary 2 276, Pathfinder RPG Bestiary 171
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '3'
+Senses:
+  - darkvision 120 ft., true seeing
+  - Perception +16
+AC: 29, touch 16, flat-footed 26
+AC_Mods: (+8 armor, +3 deflection, +3 Dex, +5 natural)
+HP: '188'
+HD: (14 HD;  3d10+11d8+123)
+Saves: Fort +19, Ref +9, Will +14
+Fort: '19'
+Ref: '9'
+Will: '14'
+DefensiveAbilities: negative energy affinity
+DR: 5/good or silver,  10/magic
+Immune: death effects, disease, disintegrate, fear, holy smite, level drain, poison
+Resist: acid 10, cold 10, electricity  10, fire 10
+SR: '26'
+Speed: 20 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    +1 thundering glaive +23/+18/+13  (1d10+16/19-20/x3 plus 2d8 sonic), bite
+    +16  (1d6+5 plus 2 Str)
+  - bite +16 (1d6+5 plus 2 Str), 2 claws +21 (1d4+10)
+Ranged:
+  - +1 composite longbow +15/+10/+5  (1d8+9/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blood drain (1 Con), channel negative energy 8/day (DC 20, 6d6), scythe of
+  evil (5 rounds, 1/day), smite good 1/day, strength damage (DC 16), weapon
+  master (11 rounds/day)
+SpellLikeAbilities:
+  header: Half-Fiend Spell-Like Abilities (CL 14th; concentration +19)
+  values:
+    - label: 3/day
+      value: darkness, poison (DC 19), unholy aura (DC 23)
+    - label: 1/day
+      value: >-
+        blasphemy (DC 22), contagion (DC 19), desecrate, unhallow, unholy blight
+        (DC 19) Urdefhan Spell-Like Abilities (CL 3rd; concentration +8)
+    - label: At will
+      value: feather fall
+    - label: 3/day
+      value: >-
+        align weapon, death knell (DC 17), ray of enfeeblement (DC 16) Domain
+        Spell-Like Abilities (CL 11th; concentration +17)
+    - label: 9/day
+      value: battle rage (+5 damage), touch of evil (5 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 11th; concentration +17)  6th-blade barrierD (DC
+  22), greater dispel magic, harm (DC 22)  5th-flame strikeD (DC 21, 2), slay
+  living (DC 21), true seeing  4th-chaos hammer (DC 20), divine powerD, freedom
+  of movement, spell immunity, unholy blight (DC 20)  3rd-blindness/deafness (DC
+  19), inflict serious wounds (DC 19), magic vestmentD, searing light (3) 
+  2nd-bear's endurance, bull's strength, silence (DC 18, 2), sound burst (DC 18,
+  2), spiritual weaponD  1st-bane (DC 17), doom (DC 17), inflict light wounds
+  (DC 17, 3), protection from goodD, shield of faith  0 (at will)-bleed (DC 16),
+  detect magic, guidance, read magic
+SpellDomains: Evil, War
+AbilityScores:
+  - 30
+  - 16
+  - 25
+  - 14
+  - 22
+  - 20
+BaseAtk: '11'
+CMB: '21'
+CMD: '37'
+Feats:
+  - Combat Casting
+  - Great Fortitude
+  - Improved Critical (glaive)
+  - Martial Weapon Proficiency (glaive)
+  - Power Attack
+  - Toughness
+  - Weapon Focus (glaive)
+Skills:
+  - Diplomacy +14
+  - Fly +21
+  - Intimidate +12
+  - Knowledge (planes) +12
+  - Knowledge (religion) +12
+  - Perception +16
+  - Ride +6
+  - Sense Motive +16
+  - Spellcraft +12
+Languages:
+  - Aklo
+  - Orvian
+  - Undercommon
+SQ: aura, daemonic pact (DC 16)
+Source: AP 41
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Izon casts magic vestment every day. Before combat, he casts spell immunity
+  (against disintegrate and holy smite), shield of faith, true seeing, bear's
+  endurance, and bull's strength.
+DuringCombat: >-
+  Once in combat, Izon casts unholy aura. He attempts to kill as many enemies as
+  possible using his spells. If forced into melee, Izon casts divine power and
+  activates his battle rage and scythe of evil abilities before attacking with
+  his glaive.
+Morale: Here in his sanctum, Izon fights to the death.
+OtherGear: >-
+  masterwork breastplate, +1 thundering glaive, +1 composite longbow (+8 Str)
+  with 20 arrows, amulet of natural armor +2, eye ointment (for true seeing,
+  worth 1,000gp), spell component pouch, silver unholy symbol of Szuriel
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-fiend
+BaseStatistics: >-
+  Without his spells, Izon has AC 24, touch 13, flat-footed 21; hp 160; Fort
+  +17; Melee +1 thundering glaive +21/+16/+11 (1d10+13/19&#8211;20/x3 plus 2d8
+  sonic), bite +14 (1d6+4 plus 2 Str) or bite +14 (1d6+4 plus 2 Str), 2 claws
+  +19 (1d4+8); Str 26, Con 21; CMB +19; CMD 35.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1426'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

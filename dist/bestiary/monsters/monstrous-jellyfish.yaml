@@ -1,0 +1,101 @@
+Name: Monstrous Jellyfish
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Large
+Type: vermin
+Init: '1'
+Senses:
+  - watersense 60 ft
+  - Perception +0
+AC: 12, touch 10, flat-footed 11
+AC_Mods: (+1 Dex, +2 natural, -1 size)
+HP: '13'
+HD: (3d8)
+Saves: Fort +3, Ref +2, Will +1
+Fort: '3'
+Ref: '2'
+Will: '1'
+DefensiveAbilities: jet, transparent
+Immune: vermin traits
+Speed: swim 10 ft.
+Melee:
+  - tentacles +3 (1d6 plus poison and grab)
+Space: 10 ft.
+Reach: 10 ft.
+AbilityScores:
+  - 11
+  - 12
+  - 10
+  - —
+  - 10
+  - 2
+BaseAtk: '2'
+CMB: +3 (+7 to grapple)
+CMD: 14 (can't be tripped)
+Feats:
+  - Weapon FinesseB
+Skills:
+  - Stealth +5
+  - Swim +8
+RacialMods: +8 Stealth
+Environment: temperate and warm aquatic
+Organization: solitary, pack (2-5), cluster (6-11), or swarm (12-23)
+Treasure: none
+Description_Visual: >-
+  An enormous jelly-like being floats peacefully in the warm waters, trailing
+  long seaweed-like tendrils from its central mass.
+Group: Jellyfish
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Jet (Ex)
+    description: >-
+      A monstrous jellyfish can jet backward once per round as a full-round
+      action at a speed equal to four times its swim speed. It must move in a
+      straight line, but does not provoke attacks of opportunity while jetting.
+  - name: Poison (Ex)
+    description: >-
+      Tentacle-injury; save DC 13; frequency 1/ minute for 6 minutes; effect 1d6
+      Dexterity damage; cure 2 consecutive saves. The save DC is
+      Constitution-based and includes a +2 bonus.
+  - name: Transparent (Ex)
+    description: >-
+      A monstrous jellyfish is nearly invisible floating in the water. An
+      observer must succeed on a DC 20 Perception check to notice the jellyfish.
+  - name: Watersense (Ex)
+    description: >-
+      Monstrous jellyfish can automatically sense the location of anything
+      within 60 feet that is in contact with water.
+Description:
+  - >-
+    The jellyfish's body is a translucent pink, blue, or purple hollow form
+    resembling an inverted umbrella of sorts. A giant jellyfish's body averages
+    8 feet or more in diameter, while its tentacles (trailing beneath it
+    underwater) can reach lengths of around 50 feet or greater. Special muscles
+    on the underside of the jellyfish's body push water out of it, allowing the
+    creature to swim through propulsion. Jellyfish eat anything that contacts
+    their tentacles - usually crustaceans, fish, algae, and plankton. A
+    monstrous jellyfish spends its time floating in the oceans and seas. When
+    something contacts its tentacles, it quickly rolls its tentacles around the
+    creature or object, attempting to paralyze and devour it.
+  - Copyright Notice Author Scott Greene
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2705'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,97 @@
+Name: The Ancient Mariner
+CR: '6'
+XP: '2400'
+Race: mummy of the deep
+MonsterSource: Tome of Horrors Complete 439
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (aquatic)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+Aura: despair (30 ft., paralyzed for 1d4 rounds, Will DC 16 negates)
+AC: 20, touch 10, flat-footed 20
+AC_Mods: (+10 natural)
+HP: '67'
+HD: (9d8+27)
+Saves: Fort +7, Ref +3, Will +8
+Fort: '7'
+Ref: '3'
+Will: '8'
+DR: 5/-
+Immune: undead traits
+Resist: fire 10
+Speed: 20 ft., swim 20 ft.
+Melee:
+  - slam +12 (1d6+7 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: curse of the deep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +10)
+  values:
+    - label: 1/day
+      value: control water
+AbilityScores:
+  - 21
+  - 10
+  - —
+  - 6
+  - 14
+  - 15
+BaseAtk: '6'
+CMB: +11 (+15 grapple)
+CMD: '21'
+Feats:
+  - Great Fortitude
+  - Power Attack
+  - Skill Focus (Perception)
+  - Toughness
+  - Weapon Focus (slam)
+Skills:
+  - Disguise +10
+  - Perception +12
+  - Stealth +10
+  - Swim +18
+Source: AP 56
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Curse of the Deep (Su)
+    description: >-
+      On a successful grapple check, a mummy of the deep presses its lips
+      against an opponent's and regurgitates sea water into the opponent's
+      lungs. Each round thereafter, for the next 10 rounds, the victim must
+      succeed at a DC 16 Fortitude save or be dazed and take 1d4 points of
+      damage that round. Three consecutive successful saves means the victim has
+      coughed up enough water to shake off the effects of the attack and takes
+      no further damage. When a victim reaches 0 or fewer hit points, it falls
+      unconscious. In the next round, it drowns. Holding one's breath does not
+      prevent drowning (water is already in the lungs). A remove curse, heal
+      spell, or DC 20 Heal check halts the damage if applied before the creature
+      reaches 0 or fewer hit points. The save DC is Charisma-based.
+  - name: Despair (Su)
+    description: >-
+      All creatures within a 30-foot radius that see a mummy of the deep must
+      succeed at a DC 16 Will save or be paralyzed with fear for 1d4 rounds.
+      Whether or not the save is successful, that creature cannot be affected
+      again by that mummy of the deep's despair ability for 24 hours. This is a
+      paralysis and mind-affecting fear attack. The save DC is Charisma-based.
+Gender: Male
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2866'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

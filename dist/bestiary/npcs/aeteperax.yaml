@@ -1,0 +1,152 @@
+Name: Aeteperax
+CR: '11'
+XP: '12800'
+Race: young adult green dragon
+MonsterSource: Pathfinder RPG Bestiary 96
+Alignment: LE
+Size: Huge
+Type: dragon
+Init: '4'
+Senses:
+  - darkvision 120 ft., dragon senses
+  - Perception +18
+Aura: frightful presence (150 ft., DC 20)
+AC: 28, touch 8, flat-footed 28
+AC_Mods: (+4 armor, +16 natural, -2 size)
+HP: '149'
+HD: (13d12+65)
+Saves: Fort +12, Ref +8, Will +10
+Fort: '12'
+Ref: '8'
+Will: '10'
+DR: 5/magic
+Immune: acid, paralysis, sleep
+SR: '22'
+Weaknesses: shameful name
+Speed: 40 ft., fly 200 ft. (poor), swim 40 ft.
+Melee:
+  - >-
+    bite +18 (2d8+10/19-20), 2 claws +18 (2d6+7), tail slap +13 (2d6+10), 2
+    wings +13 (1d8+3)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (50-ft. cone, 10d6 acid, Reflex DC 20 half, usable every 1d4
+  rounds), crush (Small creatures, 2d8+10 damage, DC 20)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +15)
+  values:
+    - label: At Will
+      value: charm person (DC 13), entangle (DC 13)
+    - label: 3/day
+      value: call grioth
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 3rd; concentration +5)  1st (6)-grease, mage
+    armor, ray of enfeeblement (DC 13)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, message, read magic
+AbilityScores:
+  - 25
+  - 10
+  - 19
+  - 14
+  - 15
+  - 14
+BaseAtk: '13'
+CMB: +22 (+24 bull rush)
+CMD: 32 (34 vs. bull rush, 36 vs. trip)
+Feats:
+  - Awesome Blow
+  - Improved Bull Rush
+  - Improved Initiative
+  - Improved Vital Strike
+  - Power Attack
+  - Toughness
+  - Vital Strike
+Skills:
+  - Bluff +18
+  - Diplomacy +15
+  - Fly +8
+  - Knowledge (arcana) +15
+  - Knowledge (geography) +18
+  - Linguistics +8
+  - Perception +18
+  - Sense Motive +15
+  - Spellcraft +18
+  - Swim +24
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Grioth
+  - Sylvan
+SQ: water breathing, woodland stride
+Source: The Dragon's Demand
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Call Grioth (Sp)
+    description: >-
+      This ability functions as long as the rift at area G5 is open, and only
+      within 60 feet of it. This functions as planar ally, but can be used only
+      to conjure grioths. Aeteperax doesn't have to present called grioths with
+      any offerings-as long as the rift exists, called grioths are bound to his
+      will automatically.
+  - name: Shameful Name (Ex)
+    description: >-
+      The first time a PC calls Aeteperax by his true name, Szangi, the dragon
+      is visibly rattled&#8211;he becomes staggered for 1 round as he angrily
+      roars and curses in Draconic. During this time, he can't focus his mind
+      enough to cast spells. Each additional time his true name is spoken beyond
+      the first, Aeteperax can resist being staggered if he succeeds at a DC 20
+      Will save&#8211;he gains a cumulative +2 bonus on this save each time
+      beyond the second his true name is used. If he manages to drop a PC's hit
+      points below 0 or kill a PC, he gains an additional +4 bonus on all future
+      Will saves to avoid this effect. After the PCs have uttered his true name
+      five times, it no longer has an effect on him (other than to make him even
+      angrier).
+Gender: Male
+BeforeCombat: Aeteperax casts mage armor.
+DuringCombat: >-
+  The dragon starts any battle with his breath weapon, swooping down to try to
+  catch as many PCs in its area as possible. For the next few rounds, he moves
+  back and forth between ledges, casting spells or using entangle on foes down
+  below to soften them up. His staff of illusion has only 2 charges remaining
+  after his use of persistent image and mislead during the auction, but before
+  he enters melee combat he uses the staff to cast mirror image, then drops the
+  staff somewhere safe so that he can swoop down and engage foes in melee. His
+  first attack is an Improved Vital Strike bite, after which he makes full
+  attacks if possible. He spreads his attacks out among multiple targets, but if
+  a foe is particularly dangerous, he focuses all of his attacks on that
+  opponent.
+Morale: >-
+  If reduced to fewer than 40 hit points, Aeteperax suddenly realizes he's in
+  significant danger, but his obsession with his treasure and books keeps him
+  from fleeing immediately. Instead, he moves to area G8 and starts to gather
+  his belongings. Rima, by this point, has hidden herself in the cave, and the
+  dragon roars in rage if she's nowhere to be seen. If the PCs take longer than
+  5 minutes to reach him, Aeteperax finds and kills Rima, then flees the region
+  with the bulk of his treasure gathered up in the chimera skin clutched to his
+  chest. If the PCs confront him before this point but after he's found Rima, he
+  holds her hostage, telling the PCs he'll hand her over alive if they let him
+  leave with his treasure. At this point, if the PCs wish to try to kill him
+  before he can make good on his promise to kill her, roll initiative
+  again&#8211;on his count, the dragon drops Rima and uses his breath weapon on
+  the PCs, stubbornly fighting to the death thereafter.
+Gear: staff of illusion (2 charges currently remaining after use at auction)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '4697'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

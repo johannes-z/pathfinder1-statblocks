@@ -1,0 +1,96 @@
+Name: Sage Of Plagues
+CR: '4'
+XP: '1200'
+Race: Mythic allip
+MonsterSource: Pathfinder RPG Bestiary 3 12, Pathfinder RPG Mythic Adventures 226
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal, mythic)
+Init: +5/-15, dual initiativeMA
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+Aura: babble (60 ft., DC 16)
+AC: 15, touch 15, flat-footed 14
+AC_Mods: (+4 deflection, +1 Dex)
+HP: '50'
+HD: (4d8+32)
+Saves: Fort +5, Ref +4, Will +4
+Fort: '5'
+Ref: '4'
+Will: '4'
+DefensiveAbilities: channel resistance +2, incorporeal, poisonous blood (insanity mist)
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - incorporeal touch +4 (1d4 Wisdom damage)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  babble, mythic powerMA (2/day, surge +1d6), simple divine spellcastingMA,
+  touch of insanity
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: 1/day
+      value: >-
+        bane (DC 15), bestow curse (DC 17), disfiguring touchUM (DC 16), inflict
+        moderate wounds (DC 16)
+AbilityScores:
+  - —
+  - 12
+  - —
+  - 11
+  - 11
+  - 18
+BaseAtk: '3'
+CMB: '4'
+CMD: '18'
+Feats:
+  - Improved Initiative
+  - Lightning Reflexes[M]
+Skills:
+  - Fly +16
+  - Intimidate +11
+  - Perception +7
+  - Stealth +8
+Languages:
+  - Aklo
+  - Common
+SQ: madness
+Source: PFS S5-15
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poisonous Blood (Ex)
+    description: >-
+      Any creature that confirms a critical hit against the allip with a
+      piercing or slashing melee weapon breaks off a piece of its mad essence.
+      Melee weapons with reach don't endanger their users in this way. The
+      attacker briefly becomes enveloped by a cloud of insanity mist (inhaled;
+      save Fort DC 15; frequency 1/round for 6 rounds; effect 1d3 Wis; cure 1
+      save).
+DuringCombat: >-
+  The Sage of Plagues begins combat by debilitating one or more enemies with a
+  spell-like ability and then attacks anyone holding a shard of the shattered
+  ruby or a nearby foe. So long as it has spell-like abilities remaining, the
+  Sage of Plagues alternates between using those and its maddening touch. It
+  prefers to use bestow curse and disfiguring touch on creatures it knows can
+  hurt it, and it saves inflict moderate wounds to heal itself. It pursues
+  fleeing enemies but does not go outside.
+Morale: The sage fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8085'
+UniqueMonster: '0'
+Variant: '0'
+MR: '2'
+Mythic: '1'
+MT: '0'

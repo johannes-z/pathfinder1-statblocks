@@ -1,0 +1,170 @@
+Name: Avatar of Ydersius
+CR: '19'
+XP: '204800'
+Race: Avatar of Ydersius
+Alignment: CE
+Size: Huge
+Type: outsider
+SubType: (chaotic, evil, extraplanar)
+Init: '13'
+Senses:
+  - blindsight 120 ft., darkvision 120 ft., scent,  true seeing
+  - Perception +34
+Aura: frightful presence (300 ft., DC 32), unholy aura (DC 26)
+AC: 35, touch 21, flat-footed 26
+AC_Mods: (+4 deflection, +9 Dex, +14 natural, -2 size)
+HP: '322'
+HD: (28d10+168)
+HP_Mods: regeneration 30
+Saves: Fort +28, Ref +22, Will +28
+Fort: '28'
+Ref: '22'
+Will: '28'
+DR: 15/lawful and silver
+Immune: acid, fire, mind-affecting effects, paralysis, petrification, poison
+Resist: electricity 20
+SR: '30'
+Weaknesses: vulnerable to decapitation
+Speed: 50 ft., climb 40 ft.
+Melee:
+  - >-
+    bite +36/+36 (2d6+20/19-20 plus poison),  2 claws +36 (2d6+10), tail slap
+    +31 (2d8+5  plus grab)
+Space: 15 ft.
+Reach: 15 ft. (20 ft. with tail)
+SpecialAttacks: >-
+  constrict (2d8+10), fast strike, noxious breath, poison, powerful bite, toxic
+  blood
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +28)
+  values:
+    - label: Constant
+      value: true seeing, unholy aura (DC 26)
+    - label: At will
+      value: >-
+        dream, geas/quest, greater dispel magic, permanent image (DC 24), poison
+        (DC 22), unhallow
+    - label: 3/day
+      value: >-
+        baleful polymorph (viper only, DC 23), demand (DC 26), dominate monster
+        (DC 27), maximized flame strike (DC 23), freedom of movement, mass
+        suggestion (DC 24)
+    - label: 1/day
+      value: blasphemy (DC 25)
+AbilityScores:
+  - 31
+  - 29
+  - 24
+  - 10
+  - 23
+  - 26
+BaseAtk: '28'
+CMB: +40 (+46 grapple)
+CMD: '59'
+Feats:
+  - Awesome Blow
+  - Combat Reflexes
+  - Critical Focus
+  - Great Fortitude
+  - Greater Grapple
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Improved Great Fortitude
+  - Improved Initiative
+  - Intimidating Prowess
+  - Iron Will
+  - Power Attack
+  - Sickening Critical
+  - Stand Still
+Skills:
+  - Acrobatics +23 (+31 jump)
+  - Bluff +25
+  - Climb +32
+  - Escape Artist +34
+  - Intimidate +35
+  - Knowledge (nobility) +17
+  - Knowledge (planes) +17
+  - Knowledge (religion) +17
+  - Perception +34
+  - Sense Motive +23
+  - Stealth +29
+RacialMods: +8 Escape Artist, +4 Perception, +4 Stealth
+Languages:
+  - Aklo
+  - telepathy 200 ft.
+SQ: bound to Material Plane
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bound to Material Plane (Ex)
+    description: >-
+      Although he is an extraplanar creature, Ydersius is bound to the Material
+      Plane until he has fully regenerated and is completely restored. As a
+      result, spells such as banishment, dismissal, and the like have no effect
+      on him.
+  - name: Fast Strike (Ex)
+    description: >-
+      Ydersius strikes with unnatural speed and precision, allowing him one
+      extra bite attack at his full base attack bonus. This effect is not
+      cumulative with similar effects such as haste, and does not actually grant
+      a second action.
+  - name: Noxious Breath (Su)
+    description: >-
+      Ydersius can exhale a venomous cloud of mind-numbing pheromones in a
+      30-foot spread every 1d4 rounds. Breath-inhaled; save Fort DC 30;
+      frequency 1/round for 6 rounds; effect 1d4 Wis; cure 2 consecutive saves.
+  - name: Poison (Ex)
+    description: >-
+      Bite&#8211;injury; save Fort DC 30; frequency 1/round for 6 rounds; effect
+      1d6 Con; cure 2 consecutive saves.
+  - name: Powerful Bite (Ex)
+    description: Ydersius applies twice his Strength modifier to bite damage.
+  - name: Regeneration (Ex)
+    description: >-
+      No form of attack can suppress Ydersius's regeneration&#8211;the snake-god
+      regenerates even if disintegrated or slain by a death effect. If Ydersius
+      fails a save against an effect that would kill him instantly, he rises
+      from death 3 rounds later with 1 hit point if no further damage is
+      inflicted upon his remains.
+  - name: Toxic Blood (Ex)
+    description: >-
+      Ydersius's blood is both acidic and poisonous to those it contacts. A
+      creature that strikes Ydersius with a slashing or piercing melee weapon,
+      an unarmed strike, or a natural weapon takes 2d8 points of acid damage and
+      exposes itself to a contact poison. Touch&#8211;contact; save Fort DC 30;
+      frequency 1/round for 6 rounds; effect 1d4 Dex; cure 2 consecutive saves.
+  - name: Vulnerable to Decapitation (Ex)
+    description: >-
+      Ydersius can only be defeated by severing his head from his body, either
+      with a vorpal weapon or by reducing him to fewer than 0 hit points, then
+      decapitating him with a coup de grace attack. Even then, both Ydersius's
+      head and body live on. His head immediately decays into an inert skull,
+      while his body is blind, deaf, mindless, and limited to claw and tail slap
+      attacks. If the head is held to the body, it reattaches, eventually
+      restoring the snake-god.
+BeforeCombat: Ydersius casts freedom of movement before climbing from the chasm.
+DuringCombat: >-
+  Ydersius attacks with the savagery of a constrictor and the speed of a viper.
+  He attempts to subject as many foes as possible to his poisonous attacks,
+  using Awesome Blow to knock opponents into the Chasm of Retreat, if possible.
+  He uses his tail to constrict spellcasters, and casts baleful polymorph on
+  dangerous warriors to take them out of the fight.
+Morale: >-
+  Ydersius fights until his head is severed from his body, at which point his
+  headless body thrashes mindlessly around the cavern before once more fleeing
+  into the Chasm of Retreat.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1464'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

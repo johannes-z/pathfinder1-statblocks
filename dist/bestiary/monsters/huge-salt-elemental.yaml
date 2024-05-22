@@ -1,0 +1,125 @@
+Name: Huge Salt Elemental
+CR: '6'
+XP: '2400'
+Alignment: 'N'
+Size: Huge
+Type: outsider
+SubType: (earth, elemental, extraplanar)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +11
+Aura: dehydration (20 ft., DC 17, 2d6)
+AC: 18, touch 9, flat-footed 17
+AC_Mods: (+1 dodge, +9 natural, -2 size)
+HP: '68'
+HD: (8d10+24)
+Saves: Fort +9, Ref +2, Will +6
+Fort: '9'
+Ref: '2'
+Will: '6'
+DR: 5/-
+Immune: elemental traits
+Weaknesses: vulnerability to water
+Speed: 20 ft.
+Melee:
+  - 2 claws +11 (2d6+5 plus salt poisoning)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: salt poisoning (11 rounds, DC 17)
+AbilityScores:
+  - 21
+  - 10
+  - 17
+  - 6
+  - 11
+  - 11
+BaseAtk: '8'
+CMB: '15'
+CMD: '26'
+Feats:
+  - Cleave
+  - DodgeB
+  - Endurance
+  - Great Cleave
+  - Mobility
+  - Power Attack
+Skills:
+  - Climb +16
+  - Knowledge (dungeoneering) +5
+  - Knowledge (planes) +5
+  - Perception +11
+  - Stealth +3
+Languages:
+  - Terran
+Environment: any (Plane of Earth)
+Organization: solitary, pair, or gang (3-8)
+Treasure: none
+Description_Visual: >-
+  This crystalline humanoid is slightly translucent and light gray in color. Its
+  head has no discernible features and its power arms end in massive fists.
+Group: Elemental
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dehydration Aura (Su)
+    description: >-
+      A salt elemental's aura draws moisture from an area centered on itself.
+      Living creatures within range take damage (damage is detailed with each
+      elemental) each round they remain in the area. A successful Fortitude save
+      reduces the damage by half. This effect is especially devastating to
+      plants, animals, and aquatic creatures, which take a -4 penalty on their
+      saving throws. The save DC is Constitution-based.
+  - name: Earth Mastery (Ex)
+    description: >-
+      A salt elemental gains a +1 bonus on attack and damage rolls if both it
+      and its foe are touching the ground. If an opponent is airborne or
+      waterborne, the elemental takes a -4 penalty on attack and damage rolls.
+      These modifiers apply to bull rush and overrun maneuvers, whether the
+      elemental is initiating or resisting these kinds of attacks. (These
+      modifiers are not included in the statistics block.)
+  - name: Salt Poisoning (Ex)
+    description: >-
+      Anyone hit by a salt elemental's claw attack is sickened for 3 rounds + 1
+      round per Hit Dice of the salt elemental. A successful Fortitude save
+      negates this effect. The save DC is Constitution-based.
+  - name: Vulnerability to Water (Ex)
+    description: >-
+      A salt elemental submerged in water that covers at least half its body
+      takes 1d6 points of damage each round until it escapes. Damage from
+      water-based attacks (such as the slam attack of a water elemental) deal
+      +50% damage to a salt elemental.
+Description:
+  - >-
+    Salt elementals inhabit regions rich in salt upon the Plane of Earth. Some
+    believe they originated on a pocket plane somewhere near the energy planes
+    and Plane of Water; perhaps an Elemental Plane of Salt. Salt elementals,
+    avoid large expanses of water at all costs, knowing exposure to such a large
+    quantity spells disaster.
+  - >-
+    Salt elementals spend most of their time wandering their realm and often
+    make forays into other planes (except the Plane of Water), seeking creatures
+    on which to feed. They are particularly fond of plants, which are extremely
+    vulnerable to their dehydrating ability.
+  - >-
+    A salt elemental generally appears as a humanoid with no discernible
+    features, though they can take other forms, and some do, preferring to
+    appear in the shape of large animals or giant vermin (usually beetles).
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4823'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

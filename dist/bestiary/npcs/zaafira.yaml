@@ -1,0 +1,130 @@
+Name: Zaafira
+CR: '10'
+XP: '9600'
+Race: human
+Class: monk 2/oracle 9
+MonsterSource: Advanced Player's Guide 42
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +18
+AC: 24, touch 19, flat-footed 22
+AC_Mods: (+4 armor, +3 deflection, +1 Dex, +1 dodge, +1 natural, +4 Wis)
+HP: '106'
+HD: (11 HD; 11d8+53)
+Saves: Fort +10, Ref +8, Will +14
+Fort: '10'
+Ref: '8'
+Will: '14'
+DefensiveAbilities: evasion
+Speed: 30 ft.
+Melee:
+  - +2 temple sword* +16/+11 (1d8+11/17-20)
+  - flurry of blows with +2 temple sword +15/+15/+10 (1d8+8/17-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: flurry of blows, stunning fist (4/day, DC 19)
+SpellsKnown:
+  header: >-
+    Oracle Spells Known (CL 9th; concentration +11)  4th (4/day; 2 cast)-air
+    walk, cure critical wounds, inflict critical wounds (DC 16), freedom of
+    movement, wall of fire  3rd (6/day; 4 cast)-cure serious wounds, deeper
+    darkness, inflict serious wounds (DC 15), invisibility purge, magic circle
+    against good, magic vestment  2nd (7/day; 1 cast)-aid, align weapon, bear's
+    endurance, bull's strength, cure moderate wounds, fog cloud, inflict
+    moderate wounds (DC 14), owl's wisdom
+  values:
+    - label: 1st (7/day)
+      value: >-
+        bless, cure light wounds, divine favor, endure elements, enlarge person,
+        inflict light wounds (DC 13), protection from good, shield of faith
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, detect poison, ghost sound (DC 12),
+        guidance, light, mage hand, read magic, resistance, stabilize
+AbilityScores:
+  - 22
+  - 12
+  - 16
+  - 8
+  - 18
+  - 14
+BaseAtk: '7'
+CMB: +13 (+18 trip)
+CMD: 32 (34 vs. trip)
+Feats:
+  - Asura Stun
+  - Deflect Arrows
+  - Dodge
+  - Extend Spell
+  - Extra Revelation*
+  - Improved Critical (temple sword)
+  - Improved Trip
+  - Improved Unarmed Strike
+  - Lunge
+  - Power Attack
+  - Step Up
+  - Stunning Fist
+  - Toughness
+  - Weapon Focus (temple sword)
+Skills:
+  - Acrobatics +15
+  - Knowledge (religion) +13
+  - Perception +18
+  - Spellcraft +13
+Languages:
+  - Common
+  - Vudrani
+SQ: >-
+  oracle's curse (haunted), revelations (maneuver mastery, surprising charge,
+  weapon mastery)
+Source: Cult Of The Ebon Destroyers
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Female
+BeforeCombat: >-
+  At the start of each day, Zaafira casts extended magic vestment on her robes.
+  When she hears of intruders in the temple, she drinks her potion of mage armor
+  and casts air walk, freedom of movement, and magic circle against good. If
+  warned that the PCs are approaching, Zaafira casts extended shield of faith,
+  extended bull's strength, extended owl's wisdom, and extended bear's endurance
+  on herself, in that order. (All are included in her statistics). Right before
+  combat, Zaafira casts extended divine favor, aid, and enlarge person on
+  herself in that order (not included in her statistics).
+DuringCombat: >-
+  Zaafira uses her surprising charge ability to gain an unexpected flurry attack
+  or to make a full attack and then move back to escape retaliation. Each round,
+  she makes a Stunning Fist attack through her sword and attempts to trip
+  opponents.
+Morale: >-
+  If fairly defeated in a duel, Zaafira complies with its terms&#8211;including
+  surrendering herself. Otherwise, she fights to the death to defend the temple.
+Gear: potions of mage armor (2), wand of cure light wounds (40 charges)
+OtherGear: >-
+  +2 temple sword, amulet of natural armor +1, belt of incredible dexterity +2,
+  jeweled nose ring worth 250 gp
+Note: '* See Pathfinder RPG Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without the benefit of any spells except magic vestment, Zaafira has the
+  following statistics: AC 17, touch 14, flat-footed 15; Melee +2 temple sword
+  +14/+19 (1d8+8/19&#8211;20); Str 18, Con 12, Wis 14; CMB +11 (+16 trip); CMD
+  25 (27 vs. trip); Perception +16.
+AgeCategory: Adult
+Mystery: Battle
+CompanionFamiliarLink: '0'
+id: '1481'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

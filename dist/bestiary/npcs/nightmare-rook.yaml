@@ -1,0 +1,117 @@
+Name: Nightmare Rook
+CR: '16'
+XP: '76800'
+Race: roc
+MonsterSource: Pathfinder RPG Bestiary 236, Advanced Bestiary 187
+Alignment: CE
+Size: Colossal
+Type: magical beast
+SubType: (augmented animal, evil)
+Init: '5'
+Senses:
+  - darkvision 120 ft., low-light vision
+  - Perception +28
+Aura: fear aura (60 ft., DC 26)
+AC: 30, touch 8, flat-footed 24
+AC_Mods: (+5 Dex, +1 dodge, +22 natural, -8 size)
+HP: '252'
+HD: (24d8+144)
+HP_Mods: regeneration 5 (silver or good)
+Saves: Fort +20, Ref +19, Will +11
+Fort: '20'
+Ref: '19'
+Will: '11'
+DefensiveAbilities: feign death
+DR: 5/silver or good
+Immune: illusions
+Speed: 20 ft., fly 80 ft. (perfect)
+Melee:
+  - 2 talons +23 (3d6+13/19-20), bite +23 (3d8+13/19-20)
+Space: 30 ft.
+Reach: 20 ft.
+SpecialAttacks: living nightmares
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +24)
+  values:
+    - label: Constant
+      value: protection from good
+AbilityScores:
+  - 36
+  - 20
+  - 22
+  - 16
+  - 12
+  - 18
+BaseAtk: '18'
+CMB: '39'
+CMD: '55'
+Feats:
+  - Dodge
+  - Flyby Attack
+  - Improved Critical (talons
+  - bite)
+  - Improved Iron Will
+  - Improved Natural Armor (3)
+  - Improved Vital Strike
+  - Iron Will
+  - Snatch
+  - Vital Strike
+Skills:
+  - Fly +32
+  - Intimidate +34
+  - Knowledge (planes) +27
+  - Perception +28
+  - Stealth +22
+Languages:
+  - Aklo
+  - Sylvan
+Source: AP 36
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear Aura (Su)
+    description: >-
+      Creatures affected by the Nightmare Rook's fear aura become shaken the
+      first time they fail their save and cower in fear each round they fail a
+      save thereafter. Once a creature succeeds on a saving throw against this
+      effect, it is immune to the effect for 24 hours.
+  - name: Living Nightmares (Su)
+    description: >-
+      The Nightmare Rook has the ability to inflict living nightmares on any
+      non-native of the First World who sleeps in Thousandbreaths, at the rate
+      of one nightmare per person per night. A living nightmare functions as
+      detailed on page 15-this ability cannot be used in combat.
+Gender: Male
+DuringCombat: >-
+  The Nightmare Rook uses Flyby Attack and Vital Strike bite attacks to
+  devastating effect, relying on its fear aura and frightful presence to scatter
+  its foes. If this tactic works, it uses Snatch to grab a PC and then flies off
+  with its foe. If the Nightmare Rook makes it over the tree line, it is
+  effectively out of reach of other players and free to travel to any other
+  glade it wishes to drop its stolen PC-the bird has a particular fondness for
+  dropping prey into the Mire (area G) or the Fruiting Orchard (area E). It
+  can't drop a PC into the deep woods, as the nature of Thousandbreaths prevents
+  such a stranding, and if a PC manages to wrestle out of the Rook's clutches
+  while hanging over the vast green forest below, she falls a distance of well
+  over 200 feet to land at the edge of the glade from which she most recently
+  left. If the Rook isn't able to separate the PCs, it lands and makes full
+  attacks until reduced to 100 hit points or less, at which point it flies back
+  up to its spire to heal and glare malevolently at the PCs.
+Morale: >-
+  If confronted at the top of its perch (a circular area 90 feet in diameter),
+  the Nightmare Rook fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: awakened|advanced|nightmare|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '880'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,90 @@
+Name: Broken Child
+CR: '4'
+XP: '1200'
+Race: Wraith spawn
+MonsterSource: Pathfinder RPG Bestiary 281
+Alignment: LE
+Size: Small
+Type: undead
+SubType: (incorporeal)
+Init: '5'
+Senses:
+  - darkvision 60 ft., lifesense
+  - Perception +8
+Aura: unnatural aura (30 ft.)
+AC: 15, touch 15, flat-footed 14
+AC_Mods: (+3 deflection, +1 Dex, +1 size)
+HP: '37'
+HD: (5d8+15)
+Saves: Fort +4, Ref +2, Will +4
+Fort: '4'
+Ref: '2'
+Will: '4'
+DefensiveAbilities: channel resistance +2, incorporeal
+Immune: undead traits
+Weaknesses: sunlight powerlessness, wraith spawn
+Speed: fly 60 ft. (good)
+Melee:
+  - incorporeal touch +5 (1d4 negative energy plus 1d2  Con drain)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - —
+  - 12
+  - —
+  - 14
+  - 10
+  - 17
+BaseAtk: '3'
+CMB: '3'
+CMD: '16'
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Improved Initiative
+Skills:
+  - Diplomacy +8
+  - Fly +5
+  - Intimidate +11
+  - Knowledge (planes) +5
+  - Perception +8
+  - Sense Motive +8
+  - Stealth +13
+Languages:
+  - Common
+  - Varisian
+Source: AP 44
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Constitution Drain (Su)
+    description: >-
+      The save DC for a wraith spawn's Constitution drain is 15. On each
+      successful attack, the wraith spawn gains 2 temporary hit points.
+  - name: Wraith Spawn (Su)
+    description: >-
+      The broken children are spawn of the wraith Brother Swarm and are under
+      his control. As such, they are smaller and weaker than normal wraiths. If
+      Brother Swarm is destroyed, they become full-sized, free-willed wraiths
+      with no penalties.
+DuringCombat: >-
+  A wraith spawn concentrates attacks upon individual PCs, such as those caught
+  in traps or at the edges of the group. If attacked, a wraith spawn flees and
+  returns again to attack the same foe when it is safe.
+Morale: >-
+  A wraith spawn flees if reduced to 10 hit points or fewer, but if encountered
+  in its home, it attacks until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1595'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

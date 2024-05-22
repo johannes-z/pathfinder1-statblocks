@@ -1,0 +1,113 @@
+Name: Golgalag The Shadow Giant
+CR: '10'
+XP: '9600'
+Race: Shadow Giant
+Alignment: NE
+Size: Large
+Type: outsider
+Init: '3'
+Senses:
+  - darkvision 120 ft.
+  - Perception +15
+AC: 19, touch 12, flat-footed 16
+AC_Mods: (+3 Dex, +7 natural, -1 size)
+HP: '95'
+HD: (10d10+40)
+Saves: Fort +11, Ref +10, Will +7
+Fort: '11'
+Ref: '10'
+Will: '7'
+Speed: 40 ft.
+Melee:
+  - >-
+    heavy mace +16/+11 (2d6+6 plus 1d6 Str damage) or 2 slams +10 (1d8+3 plus
+    1d6 Str damage)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: strength damage
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 10th; melee touch +15, ranged touch +12)
+  values:
+    - label: 6/day
+      value: shadowstrike (1d4+5 nonleathal)
+    - label: 1/day
+      value: shadow well
+SpellsKnown:
+  header: Spells Known (CL 10th; melee touch +15, ranged touch +12)
+  values:
+    - label: 5th (3/day)
+      value: false vision
+    - label: 4th (5/day)
+      value: hallucinatory terrain (DC 17), shadow conjuration (DC 17)
+    - label: 3rd (7/day)
+      value: dispel magic, displacement, major image (DC 16)
+    - label: 2nd (7/day)
+      value: blur (DC 15), continual flame, invisibility, magic mouth (DC 15)
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 14), color spray (DC 14), disguise self, silent image (DC
+        14), ventriloquism (DC 14)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, daze (DC 13), detect magic, ghost sound (DC
+        13), ray of frost, read magic, resistance (DC 13), touch of fatigue (DC
+        13)
+AbilityScores:
+  - 22
+  - 16
+  - 19
+  - 12
+  - 14
+  - 16
+BaseAtk: '10'
+CMB: '17'
+CMD: 30 (can't be tripped)
+Feats:
+  - Cleave
+  - Combat Reflexes
+  - Iron Will
+  - Power Attack
+  - Weapon Focus (heavy mace)
+Skills:
+  - Bluff +11
+  - Diplomacy +11
+  - Intimidate +16
+  - Knowledge (arcana) +14
+  - Knowledge (planes) +14
+  - Perception +15
+  - Spellcraft +14
+  - Stealth +12 (+16 in dim light)
+RacialMods: +4 Stealth in dim light
+Languages:
+  - Common
+  - Giant
+Source: Sword of Air-Chapter 5
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Shadow Blend (Su)
+    description: >-
+      In any illumination other than bright light, a shadow giant blends into
+      the shadows, giving it concealment (20% miss chance). A shadow giant can
+      suspend or resume this ability as a free action.
+  - name: Strength Damage (Su)
+    description: >-
+      A shadow giant's slam attack as well as any melee weapon attacks deals 1d6
+      points of Strength damage to a living creature. This is a negative energy
+      effect. A creature dies if this Strength damage equals or exceeds its
+      actual Strength score.
+Bloodline: ShadowAPG
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12679'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

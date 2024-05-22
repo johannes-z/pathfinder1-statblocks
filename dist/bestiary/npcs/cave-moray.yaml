@@ -1,0 +1,74 @@
+Name: Cave Moray
+CR: '2'
+XP: '600'
+Race: Cave Moray
+MonsterSource: Tome of Horrors Complete 99
+Alignment: 'N'
+Size: Medium
+Type: magical beast
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision, tremorsense 60 ft.
+  - Perception +8
+AC: 15, touch 13, flat-footed 12
+AC_Mods: (+3 Dex, +2 natural)
+HP: '19'
+HD: (3d10+3)
+Saves: Fort +4, Ref +6, Will +2
+Fort: '4'
+Ref: '6'
+Will: '2'
+Speed: 20 ft.
+Melee:
+  - bite +5 (2d6+3)
+Space: 5 ft.
+Reach: 10 ft.
+SpecialAttacks: ambush, recoil attack
+AbilityScores:
+  - 14
+  - 17
+  - 13
+  - 2
+  - 13
+  - 10
+BaseAtk: '3'
+CMB: '5'
+CMD: 18 (can't be tripped)
+Feats:
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+Skills:
+  - Perception +8
+  - Stealth +11 (+15 in rocky or stony areas)
+Source: AP 61
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ambush (Ex)
+    description: >-
+      A cave moray gains a +4 circumstance bonus on attack rolls made during a
+      surprise round.
+  - name: Recoil Attack (Ex)
+    description: >-
+      When a cave moray attacks from a cyst, it gains the benefit of a charge
+      attack even though it doesn't actually move. This lunging attack, combined
+      with a second set of jaws that can extend further from its primary jaws,
+      work to extend its reach to 15 feet.
+DuringCombat: >-
+  The cave morays lunge out to attack anyone who passes within reach of their
+  recoil attack.
+Morale: The cave morays fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3347'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

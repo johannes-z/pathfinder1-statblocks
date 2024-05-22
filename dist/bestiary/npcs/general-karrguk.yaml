@@ -1,0 +1,102 @@
+Name: General Karrguk
+CR: '6'
+XP: '2400'
+Race: orc
+Class: cleric of Gorum 3/fighter 4
+MonsterSource: Pathfinder RPG Bestiary 222
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (orc)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +1
+AC: 20, touch 11, flat-footed 19
+AC_Mods: (+9 armor, +1 Dex)
+HP: '71'
+HD: (7 HD; 3d8+4d10+32)
+Saves: Fort +9, Ref +5, Will +5; +2 vs. fear
+Fort: '9'
+Ref: '5'
+Will: '5'
+Save_Mods: +2 vs. fear
+DefensiveAbilities: bravery +1, ferocity
+Weaknesses: light sensitivity
+Speed: 20 ft.
+Melee:
+  - +1 greatsword +16/+11 (2d6+13/19-20)
+Ranged:
+  - mwk javelin +10 (1d6+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 1/day (DC 9, 2d6), destructive smite (+1, 4/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 3rd; concentration +4)
+  values:
+    - label: 4/day
+      value: strength surge (+1)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 3rd; concentration +4)   2nd-aid, bull's
+  strengthD   1st-divine favor, doom (DC 12), enlarge personD, murderous
+  commandUM (DC 12)   0 (at will)-bleed (DC 11), detect poison, sparkAPG, virtue
+SpellDomains: Destruction, Strength
+AbilityScores:
+  - 22
+  - 12
+  - 15
+  - 8
+  - 12
+  - 6
+BaseAtk: '6'
+CMB: '12'
+CMD: '23'
+Feats:
+  - Cleave
+  - Lightning Reflexes
+  - Lunge
+  - Power Attack
+  - Toughness
+  - Weapon Focus (greatsword)
+  - Weapon Specialization (greatsword)
+Skills:
+  - Intimidate +5
+  - Knowledge (religion) +3
+  - Sense Motive +6
+Languages:
+  - Common
+  - Orc
+SQ: armor training 1, weapon familiarity
+Source: AP 92
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  General Karrguk casts aid, bull's strength, and divine favor before entering
+  battle.
+DuringCombat: >-
+  If time permits, the general casts enlarge person on the first round of
+  combat. Karrguk makes use of his Lunge and Power Attack feats coupled with his
+  destructive smite ability.
+Morale: >-
+  In the presence of any other orcs, General Karrguk fights to the death. If
+  isolated and brought to fewer than 10 hit points, Karrguk attempts to
+  surrender.
+Gear: potion of cure serious wounds, potion of protection from arrows
+OtherGear: >-
+  +1 half-plate, +1 greatsword, mwk javelins (2), spell component pouch,
+  platinum holy symbol of Gorum (worth 100 gp), 148 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6886'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

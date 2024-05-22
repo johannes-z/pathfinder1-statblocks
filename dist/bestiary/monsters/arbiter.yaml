@@ -1,0 +1,135 @@
+Name: Arbiter
+CR: '2'
+XP: '600'
+Alignment: LN
+Size: Tiny
+Type: outsider
+SubType: (extraplanar, inevitable, lawful)
+Init: '3'
+Senses:
+  - darkvision 60 ft., detect chaos, low-light vision
+  - Perception +5
+AC: 16, touch 15, flat-footed 13
+AC_Mods: (+3 Dex, +1 natural, +2 size)
+HP: '15'
+HD: (2d10+4)
+HP_Mods: regeneration 2 (chaotic)
+Saves: Fort +5, Ref +3, Will +3
+Fort: '5'
+Ref: '3'
+Will: '3'
+DefensiveAbilities: constant vigilance, constructed
+SR: '13'
+Speed: 20 ft., fly 50 ft. (average)
+Melee:
+  - short sword +7 (1d3/19-20)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: electrical burst
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 2nd; concentration +4)
+  values:
+    - label: Constant
+      value: detect chaos
+    - label: 3/day
+      value: command (DC 13), make whole, protection from chaos
+    - label: 1/week
+      value: commune (CL 12th, 6 questions)
+AbilityScores:
+  - 11
+  - 16
+  - 14
+  - 11
+  - 11
+  - 14
+BaseAtk: '2'
+CMB: '3'
+CMD: '13'
+Feats:
+  - Flyby Attack
+  - Weapon FinesseB
+Skills:
+  - Diplomacy +7
+  - Fly +12
+  - Knowledge (planes) +5
+  - Perception +5
+  - Sense Motive +5
+  - Stealth +16
+Languages:
+  - truespeech
+SQ: locate inevitable
+Environment: any
+Organization: solitary, pair, or flock (3-14)
+Treasure: none
+Description_Visual: >-
+  A sphere of bronze and copper set with a single eye, this winged creature has
+  two clawed hands, one of which clutches a knife.
+Group: Inevitable
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Constant Vigilance (Su)
+    description: >-
+      An arbiter gains a +4 bonus to recognize and disbelieve illusions created
+      by creatures with the chaotic subtype or possessing the chaotic
+      descriptor.
+  - name: Electrical Burst (Ex)
+    description: >-
+      An arbiter can release electrical energy from its body in a 10-foot-radius
+      burst that deals 3d6 electricity damage (DC 13 Reflex half ). Immediately
+      following such a burst, the arbiter becomes stunned for 24 hours. The save
+      DC is Constitution-based.
+  - name: Locate Inevitable (Su)
+    description: >-
+      An arbiter can always sense the direction of the nearest non-arbiter
+      inevitable on the plane, the better to help it report back to its
+      superiors. It cannot sense the range to this inevitable.
+Description:
+  - >-
+    Stealthy, observant, and frequently persuasive, arbiter inevitables are the
+    scouts and diplomats of the inevitable race. Found throughout the multiverse
+    in courts and on battlefields, arbiters keep a close eye on the forces of
+    chaos and do their best to keep the lawful from straying, while
+    simultaneously winning over the hearts and minds of those who might yet be
+    saved. Though their assorted abilities make them extremely useful, arbiters
+    see themselves less as servants than as advisers and counselors, preferring
+    to ride around on their summoners' shoulders and help guide their "partners"
+    on the path of law. They detest being summoned by chaotic individuals, and
+    when teamed with such a creature, they aren't above using Diplomacy to try
+    to inf luence the summoner's friends or refusing to undertake actions that
+    seem contrary to their programming. An arbiter who comes across evidence of
+    a significant insurgence of chaos upon a given plane does everything in its
+    power to rally its allies against the dangerous instability, and in
+    situations that are clearly beyond its ability to handle, it may refuse to
+    continue onward until the group agrees to help it reach the nearest greater
+    inevitable and make a full report, or else may travel to Utopia itself and
+    present its urgent information in person. Arbiters typically bear the shapes
+    of tiny clockwork spheres with shiny metal wings. Generally peaceful unless
+    combating true creatures of chaos, arbiters prefer to cast protection from
+    chaos on their allies and use command to make opponents drop their weapons
+    and run. Their most powerful weapon, the ability to release their internal
+    energy as a deadly burst, is reserved for dire need and battles of the
+    utmost service to law, as the resulting period of darkness while they're
+    powered down is the only thing that seems to truly scare the tiny
+    automatons. An arbiter inevitable can serve a spellcaster as a familiar.
+    Such a spellcaster must be lawful neutral, must be at least caster level
+    7th, and must have the Improved Familiar feat. Arbiter inevitables measure 1
+    foot in diameter but are surprisingly heavy, weighing 60 pounds. Their
+    ability to fly on metal wings is as much a supernatural ability as a
+    physical one.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Inevitable, Arbiter
+id: '1262'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

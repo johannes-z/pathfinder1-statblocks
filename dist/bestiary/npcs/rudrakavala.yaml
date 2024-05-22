@@ -1,0 +1,148 @@
+Name: Rudrakavala
+CR: '15'
+XP: '51200'
+Race: devourer
+Class: oracle 9
+MonsterSource: Pathfinder RPG Bestiary 82, Pathfinder RPG Advanced Player's Guide 42
+Alignment: NE
+Size: Large
+Type: undead
+SubType: (extraplanar)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +30
+AC: 31, touch 18, flat-footed 24
+AC_Mods: (+1 deflection, +6 Dex, +1 dodge, +1 monk, +13 natural, -1 size)
+HP: '264'
+HD: (23 HD; 14d8+9d8+161)
+Saves: Fort +14, Ref +13, Will +19
+Fort: '14'
+Ref: '13'
+Will: '19'
+DefensiveAbilities: spell deflection
+Immune: undead traits
+SR: '26'
+Speed: 30 ft., fly 20 ft. (perfect)
+Melee:
+  - 2 claws +25 (1d8+10 plus energy drain)
+  - unarmed strike +25/+20/+15/+10 (1d8+10 plus energy drain)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: devour soul (DC 24), energy drain (1 level, DC 24)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +25)
+  values:
+    - label: At Will
+      value: >-
+        animate dead, bestow curse (DC 21), confusion (DC 21), control undead
+        (DC 24), death knell (DC 19), ghoul touch (DC 19), inflict serious
+        wounds (DC 20), lesser planar ally, ray of enfeeblement, spectral hand,
+        suggestion (DC 20), true seeing, vampiric touch (DC 20)
+    - label: 1/day
+      value: plane shift (DC 22)
+SpellsKnown:
+  header: Oracle Spells Known (CL 9th; concentration +16)
+  values:
+    - label: 4th (5/day)
+      value: >-
+        divine power, fear (DC 22), freedom of movement, inflict critical wounds
+        (DC 21)
+    - label: 3rd (8/day)
+      value: >-
+        animate dead, blindness/deafness (DC 21), dispel magic, inflict serious
+        wounds (DC 20), magic circle against good
+    - label: 2nd (8/day)
+      value: >-
+        communal protection from goodUC, enthrall (DC 19), false life, inflict
+        moderate wounds (DC 19), oracle's burdenAPG (DC 20), resist energy
+    - label: 1st (8/day)
+      value: >-
+        cause fear (DC 19), command (DC 18), detect good, doom (DC 19), entropic
+        shield, inflict light wounds (DC 18), murderous commandUM (DC 18)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 18), detect magic, guidance, mending, read magic, resistance,
+        sparkAPG, virtue
+AbilityScores:
+  - 30
+  - 22
+  - —
+  - 17
+  - 18
+  - 25
+BaseAtk: '16'
+CMB: +27 (+29 sunder)
+CMD: 46 (48 vs. sunder)
+Feats:
+  - Blind-Fight
+  - Cleave
+  - Combat Casting
+  - Combat Expertise
+  - Command UndeadB
+  - Dodge
+  - Improved Initiative
+  - Improved Sunder
+  - Improved Unarmed Strike
+  - Mobility
+  - Power Attack
+  - Spell Focus (necromancy)
+  - Spring Attack
+Skills:
+  - Bluff +23
+  - Diplomacy +23
+  - Fly +21
+  - Intimidate +23
+  - Knowledge (arcana) +29
+  - Knowledge (planes) +29
+  - Perception +30
+  - Sense Motive +30
+  - Spellcraft +29
+  - Stealth +15
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Common
+  - Ignan
+  - Infernal
+  - Vudrani
+  - telepathy 100 ft.
+SQ: >-
+  oracle's curse (tongues [Aklo]), revelations (armor of bones, death's touch,
+  undead servitude)
+Source: Undead Unleashed
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Rudrakavala remains perfectly still atop his iron pillar, leaving combat to
+  his followers. If, however, he knows his involvement in combat is imminent, he
+  casts desecrate and animate dead to raise minions from the pile of remains at
+  his feet.
+DuringCombat: >-
+  Rudrakavala concentrates on stalling those foes capable of dealing the most
+  damage. He uses debilitating attacks like energy drain, enervation, and
+  vampiric touch before moving in for the kill with his devour soul ability.
+Morale: >-
+  Rudrakavala casts plane shift to travel to the Shadow Plane when reduced to
+  fewer than 60 hit points. There he gathers reinforcements before returning to
+  the Material Plane to resume his post in Adhaarm.
+Gear: >-
+  incense of meditation, monk's robes, ring of protection +1, rod of withering,
+  100 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: bones
+CompanionFamiliarLink: '0'
+id: '6348'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

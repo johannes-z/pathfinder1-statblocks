@@ -1,0 +1,127 @@
+Name: Aaphia
+CR: '10'
+XP: '9600'
+Race: crypt thing
+Class: sorcerer 8
+Alignment: 'N'
+Size: Medium
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +26
+Aura: fear (10 ft., frightened for 1d4 rounds, Will DC 19 negates)
+AC: 20, touch 14, flat-footed 16
+AC_Mods: (+3 Dex, +1 dodge, +6 natural)
+HP: '115'
+HD: (8d8+8d6+80 plus 8)
+Saves: Fort +9, Ref +9, Will +16
+Fort: '9'
+Ref: '9'
+Will: '16'
+DefensiveAbilities: channel resistance +2
+DR: 10/ bludgeoning or magic
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - 2 claws +14 (1d8+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: arcane bloodline arcana, teleporting burst
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th)
+  values:
+    - label: 3/day
+      value: quickened dimension door
+SpellsKnown:
+  header: Spells Known (CL 8th; ranged touch +14)
+  values:
+    - label: 4th (4/day)
+      value: enervation
+    - label: 3rd (6/day)
+      value: dispel magicB, ray of exhaustion (DC 19), slow (DC 18)
+    - label: 2nd (7/day)
+      value: hideous laughter (DC 17), invisibilityB, scorching ray, see invisibility
+    - label: 1st (8/day)
+      value: >-
+        identifyB, magic missile, ray of enfeeblement (DC 17), shield, silent
+        image, unseen servant
+    - label: 0 (at will)
+      value: >-
+        daze (DC 15), detect magic, mage hand, mending, open/close, ray of
+        frost, read magic, resistance
+AbilityScores:
+  - 19
+  - 16
+  - —
+  - 15
+  - 18
+  - 21
+BaseAtk: '10'
+CMB: '14'
+CMD: '34'
+Feats:
+  - Alertness
+  - Combat CastingB
+  - Defensive Combat Training
+  - Dodge
+  - Eschew MaterialsB
+  - Extend Spell
+  - Improved Initiative
+  - Lightning Reflexes
+  - Skill Focus (Perception)
+  - Spell Focus (necromancy)
+  - Weapon Focus (ray)
+Skills:
+  - Bluff +12
+  - Diplomacy +10
+  - Intimidate +12
+  - Knowledge (arcana) +10
+  - Knowledge (dungeoneering) +10
+  - Knowledge (history) +10
+  - Knowledge (religion) +10
+  - Perception +26
+  - Sense Motive +21
+  - Spellcraft +15
+  - Stealth +10
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Goblin
+SQ: arcane bond (amulet), metamagic adept
+Source: Rappan Athuk-Level 1A
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Teleporting Burst (Su)
+    description: >-
+      Once per day, Aaphia can teleport all creatures within 50 ft. of her to
+      randomly determined locations. She can only affect creatures she is aware
+      of and to which she has line of sight. A successful DC 19 Will save
+      negates this effect. An affected creature is teleported into one of the
+      sarcophagi in the Crypt of the Damned (Area 1A-10). A creature that
+      succeeds on this save is immune to Aaphia's teleporting burst ability for
+      24 hours. The save DC is Charisma-based.
+Gender: Female
+Bloodline: Arcane
+Gear: >-
+  Aaphia wears a magical amulet that allows its wearer to cast inflict serious
+  wounds (3d8+15, CL 15th, 3/day) on its wearer as a swift action; she uses this
+  heal damage to herself. The amulet also serves as her bonded object (see
+  below). Further, the face of the amulet serves as the key to the vault door
+  she guards.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8311'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

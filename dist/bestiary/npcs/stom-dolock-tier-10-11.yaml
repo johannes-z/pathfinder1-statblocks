@@ -1,0 +1,143 @@
+Name: Stom Dolock Tier 10-11
+CR: '11'
+XP: '12800'
+Race: dwarf
+Class: oracle 13
+Alignment: NE
+Size: Large
+Type: humanoid
+SubType: (dwarf)
+Init: '-2'
+Senses:
+  - blindsense 30 feet, darkvision 60 ft.
+  - Perception +2
+AC: 21, touch 7, flat-footed 21
+AC_Mods: (+12 armor, -2 Dex, +2 natural, -1 size)(+4 dodge vs. giants)
+HP: '166'
+HD: (13d8+104)
+HP_Mods: currently 153
+Saves: Fort +13, Ref +2, Will +10; +2 vs. poison, spells, and spell-like abilities
+Fort: '13'
+Ref: '2'
+Will: '10'
+Save_Mods: +2 vs. poison, spells, and spell-like abilities
+DR: 5/good 10/adamantine
+Speed: 20 ft.
+Melee:
+  - heavy pick +14/+9 (1d8+5/19-20/x4)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: +1 on attack rolls against goblinoid and orc humanoids
+SpellsKnown:
+  header: Oracle Spells Known (CL 13th; concentration +16)
+  values:
+    - label: 6th (4/day)
+      value: animate objects, blade barrier, mass bull's strength
+    - label: 5th (6/day)
+      value: flame strike (DC 18), righteous might, slay living (DC 18), true seeing
+    - label: 4th (6/day)
+      value: >-
+        cure critical wounds, divine power, greater magic weapon, inflict
+        critical wounds (DC 17), unholy blight (DC 17), wall of fire
+    - label: 3rd (7/day)
+      value: >-
+        bestow curse (DC 16), cure serious wounds, inflict serious wounds (DC
+        16), invisibility purge, magic vestment, prayer 2nd (7)-bear's
+        endurance, bull's strength, fog cloud, inflict moderate wounds (DC 15),
+        hold person (DC 15), instant armor*, make whole 1st (7)-cure light
+        wounds, divine favor, enlarge person, inflict light wounds (DC 14),
+        magic weapon, protection from good, sanctuary
+    - label: 0 (at will)
+      value: >-
+        bleed, detect magic, detect poison, guidance, light, mending,
+        resistance, stabilize, virtue
+AbilityScores:
+  - 21
+  - 6
+  - 24
+  - 10
+  - 14
+  - 16
+BaseAtk: '9'
+CMB: '15'
+CMD: 23 (27 vs. bull rush, 27 vs. trip)
+Feats:
+  - Cleave
+  - Combat Casting
+  - Extra Revelation
+  - Great Fortitude
+  - Improved Critical (heavy pick)
+  - Power Attack
+  - Toughness
+  - Weapon Focus (heavy pick)
+Skills:
+  - Intimidate +18
+  - Knowledge (engineering) +15
+  - Knowledge (history) +8
+  - Knowledge (planes) +8
+  - Knowledge (religion) +8
+  - Sense Motive +18
+  - Spellcraft +16
+RacialMods: >-
+  +2 Appraise (nonmagical metals or gemstones), +2 Perception (unusual
+  stonework)
+Languages:
+  - Common
+  - Dwarven
+  - Infernal
+SQ: >-
+  oracle's curse (clouded vision), possession, revelations (combat healer, iron
+  skin, skill at arms, war sight, weapon mastery), weapon familiarity
+Source: PFS S2-12
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Possession (Su)
+    description: >-
+      Nicoroux's fell influence grants Stom incredible powers, but leaves him
+      susceptible to several magical effects. Protection from evil and
+      protection from law affect Stom as if he were an evil creature, and he may
+      not touch any creature benefiting from either spell. Additionally,
+      Nicoroux's control is instantly ended with a successful dispel evil or
+      dispel law spell delivered as a touch attack.
+  - name: Weapon Familiarity (Ex)
+    description: >-
+      By virtue of his years using the tool, Stom may wield his mining pick in
+      combat as a heavy pick without taking an improvised weapon penalty.
+Gender: Male
+BeforeCombat: >-
+  Stom has already cast bear's endurance, bull's strength, instant armor, and
+  magic vestment for his earlier fight with the other survivors, and has also
+  taken a small amount of damage, reducing him to 153 hit points. If the PCs are
+  especially loud or noisy returning from the basement, he prepares by casting
+  righteous might on himself and activates his iron skin revelation. (All of
+  these spells and the revelation are included in his stats).
+DuringCombat: >-
+  Stom uses his war sight revelation to roll initiative three times and take the
+  best result, then casts blade barrier to surround the PCs in a circle of
+  steel. Afterward, he casts animate object to animate three Medium-sized
+  statues of Aroden to harry any remaining PCs, using the free time it buys him
+  to cast divine power. He then unleashes unholy blight and flame strike on
+  clustered groups of PCs. If opponents close to melee, he switches to slay
+  living. If reduced below half his normal hit points, he uses a swift action
+  each round to cast a cure spell using his combat healer revelation.
+Morale: >-
+  If reduced below 20 hit points, Stom collapses as Nicoroux's hold over him
+  slips. He returns to his former neutral alignment and begs for leniency.
+Gear: miner's pick
+Note: '* See Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: Battle
+CompanionFamiliarLink: '0'
+id: '5551'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

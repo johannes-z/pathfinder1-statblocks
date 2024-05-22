@@ -1,0 +1,129 @@
+Name: Wormgnash
+CR: '3'
+XP: '800'
+Race: vermlek
+MonsterSource: 'Pathfinder Campaign Setting: Lords of Chaos, Book of the Damned, Vol. 2 54'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '-1'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft., scent
+  - Perception +8
+AC: 15, touch 9, flat-footed 15
+AC_Mods: (+3 armor, -1 Dex, +3 natural)
+HP: '30'
+HD: (4d10+8)
+Saves: Fort +3 , Ref +3, Will +5
+Fort: '3'
+Ref: '3'
+Will: '5'
+DefensiveAbilities: abandon flesh, flesh armor, negative energy affinity
+DR: 5/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '14'
+Speed: 30 ft., burrow 20 ft. (when not inhabiting a corpse)
+Melee:
+  - mwk rapier +7 (1d6+2/18-20), bite +1 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: inhabit body
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +4)
+  values:
+    - label: 3/day
+      value: mass inflict light wounds (DC 16), jump
+    - label: 1/day
+      value: >-
+        gentle repose, summon (level 2, 1d4 slimy dretches 50%; see special
+        abilities)
+AbilityScores:
+  - 15
+  - 9
+  - 14
+  - 13
+  - 12
+  - 12
+BaseAtk: '4'
+CMB: '6'
+CMD: '15'
+Feats:
+  - Combat Expertise
+  - Improved Feint
+Skills:
+  - Acrobatics +6
+  - Bluff +8
+  - Disguise +8 (+16 when inhabiting a corpse)
+  - Escape Artist +6 (+14 when not inhabiting a corpse)
+  - Knowledge (planes) +8
+  - Perception +8
+  - Sense Motive +8
+RacialMods: >-
+  +8 Disguise when inhabiting a corpse, +8 Escape Artist when not inhabiting a
+  corpse
+Languages:
+  - Abyssal
+  - Common
+  - Undercommon
+  - telepathy 100 ft.
+Source: Gallows Of Madness
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Abandon Flesh (Su)
+    description: >-
+      As a swift action, Wormgnash can abandon an inhabited body, crawling
+      hideously out of his host and leaving behind an empty sack of skin and
+      bits of gristle. In so doing, he absorbs much of the body's flesh to heal
+      himself, regaining 2d6+3 hit points. Wormgnash cannot later reclaim this
+      body with his inhabit body ability.
+  - name: Flesh Armor (Su)
+    description: >-
+      When Wormgnash wears a humanoid body (see Inhabit Body below), he treats
+      the dead flesh and muscle as armor and gains a +3 armor bonus to his AC.
+      This bonus is already included in Wormgnash's statistics above; when not
+      inhabiting a corpse, his statistics are AC 12, touch 9, flat-footed 12 (-1
+      Dex, +3 natural).
+  - name: Inhabit Body (Su)
+    description: >-
+      Wormgnash can crawl into the body of any dead Medium humanoid, consuming
+      and replacing the bulk of the humanoid's skeleton and internal organs as
+      he does so. This process takes 1d4 rounds to complete, during which
+      Wormgnash is considered flat-footed. Once the process is complete,
+      Wormgnash appears for all practical purposes to be a living but bloated
+      version of the previous humanoid. He gains a +8 racial bonus on Disguise
+      checks to appear as a normal humanoid while wearing a dead body in this
+      manner, but does not gain any of the abilities the dead creature had in
+      life, including natural attacks, unusual movement types, or bonuses to
+      natural armor. He loses his own burrow speed while inhabiting a body, but
+      gains the ability to wield weapons or wear armor shaped for humanoids
+      (although note that the armor bonus granted by wearing armor does not
+      stack with the bonus granted by the vermlek's flesh armor ability).
+  - name: Negative Energy Affinity (Ex)
+    description: >-
+      Wormgnash is healed by negative energy and harmed by positive energy,
+      exactly as if he were an undead creature.
+  - name: Summon Slimy Dretch (Sp)
+    description: >-
+      The dretches (Pathfinder RPG Bestiary 60) that Wormgnash summons are
+      covered in demon's bile, and their abilities are also altered. Instead of
+      their usual spell-like abilities, these dretches can cast grease twice per
+      day as a spell-like ability.
+Gender: Male
+Gear: mwk rapier
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8491'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

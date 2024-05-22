@@ -1,0 +1,187 @@
+Name: Ancient Red Dragon
+CR: '19'
+XP: '204800'
+Alignment: CE
+Size: Gargantuan
+Type: dragon
+SubType: (fire)
+Init: '3'
+Senses:
+  - dragon senses, smoke vision
+  - Perception +33
+Aura: fire, frightful presence (300 ft., DC 27)
+AC: 38, touch 5, flat-footed
+AC_Mods: 38 (-1 Dex, +33 natural, -4 size)
+HP: '362'
+HD: (25d12+200)
+Saves: Fort +22, Ref +13, Will +21
+Fort: '22'
+Ref: '13'
+Will: '21'
+DR: 15/magic
+Immune: fire, paralysis, sleep
+SR: '30'
+Weaknesses: vulnerability to cold
+Speed: 40 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +35 (4d6+21/19-20), 2 claws +35 (2d8+14), 2 wings +33 (2d6+7), tail
+    slap +33 (2d8+21)
+Space: 20 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, DC 30, 20d10 fire), crush, manipulate flames, melt
+  stone, tail sweep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 25th)
+  values:
+    - label: At will
+      value: >-
+        detect magic, find the path, pyrotechnics (DC 17), suggestion (DC 18),
+        wall of fire
+SpellsKnown:
+  header: Spells Known (CL 15th)
+  values:
+    - label: 7th (4/day)
+      value: limited wish, spell turning
+    - label: 6th (6/day)
+      value: antimagic field, contingency, greater dispel magic
+    - label: 5th (7/day)
+      value: polymorph, telekinesis (DC 20), teleport, wall of force
+    - label: 4th (7/day)
+      value: fear (DC 19), fire shield, greater invisibility, stoneskin
+    - label: 3rd (7/day)
+      value: dispel magic, displacement, haste, tongues
+    - label: 2nd (7/day)
+      value: >-
+        alter self, detect thoughts (DC 17), misdirection (DC 17), resist
+        energy, see invisibility
+    - label: 1st (8/day)
+      value: alarm, grease (DC 16), magic missile, shield, true strike
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed, light, mage hand, mending, message, open/close,
+        prestidigitation, read magic
+AbilityScores:
+  - 39
+  - 8
+  - 27
+  - 20
+  - 21
+  - 20
+BaseAtk: '25'
+CMB: '43'
+CMD: 52 (56 vs. trip)
+Feats:
+  - Cleave
+  - Critical Focus
+  - Greater Vital Strike
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Iron Will
+  - Improved Vital Strike
+  - Iron Will
+  - Multiattack
+  - Power Attack
+  - Quicken Spell
+  - Staggering Critical
+  - Vital Strike
+Skills:
+  - Appraise +33
+  - Bluff +33
+  - Diplomacy +33
+  - Fly +11
+  - Intimidate +33
+  - Knowledge (arcana) +33
+  - Knowledge (history) +33
+  - Perception +33
+  - Sense Motive +33
+  - Spellcraft +33
+  - Stealth +15
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Dwarven
+  - Giant
+  - Orc
+Environment: warm mountains
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  A crown of cruel horns surrounds the head of this mighty dragon. Thick scales
+  the color of molten rock cover its long body.
+Group: Chromatic Dragon
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fire Aura (Su)
+    description: >-
+      An adult red dragon is surrounded by an aura of intense heat. All
+      creatures within 5 feet take 1d6 points of fire damage at the beginning of
+      the dragon's turn. An old dragon's aura extends to 10 feet. An ancient
+      dragon's damage increases to 2d6.
+  - name: Incinerate (Su)
+    description: >-
+      A great wyrm red dragon can incinerate creatures in its fiery breath. A
+      creature reduced to fewer than 0 hit points by its breath weapon must make
+      a Fortitude save (using the breath weapon's DC). Failure indicates that
+      the creature is reduced to ash. Creatures destroyed in this way can only
+      be restored to life through true resurrection or similar magic.
+  - name: Manipulate Flames (Su)
+    description: >-
+      An old or older red dragon can control any fire spell within 10 feet per
+      age category of the dragon as a standard action. This ability allows it to
+      move any fire effect in the area, as if it were the caster. This ability
+      also allows it to reposition a stationary fire effect, although the new
+      placement must be one allowed by the spell. Finally, for 1 round following
+      the use of this ability, the dragon can control any new fire spell cast
+      within its area of control, as if it were the caster. It can make all
+      decisions allowed to the caster, including canceling the spell if it so
+      desires.
+  - name: Melt Stone (Su)
+    description: >-
+      An ancient or older red dragon can use its breath weapon to melt rock at a
+      range of 100 feet, affecting a 5-foot-radius area per age category. The
+      area becomes lava to a depth of 1 foot. Any creature in contact with the
+      lava takes 20d6 points of fire damage on the first round, 10d6 on the
+      second, and none thereafter as the lava hardens and cools. If used on a
+      wall or ceiling, treat this ability as an avalanche that deals fire
+      damage.
+  - name: Smoke Vision (Ex)
+    description: >-
+      A very young red dragon can see perfectly in smoky conditions (such as
+      those created by pyrotechnics). Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      A red dragon gains the following spell-like abilities, usable at will upon
+      reaching the listed age category. Young-detect magic;
+      Juvenile-pyrotechnics; Adult-suggestion; Old-wall of fire; Ancient-find
+      the path; Great wyrm-discern location. Age Category S pecial Abilities
+      Caster Level Wyrmling Fire subtype - Very young Smoke vision - Young
+      Detect magic 1st Juvenile Frightful presence, pyrotechnics 3rd Young adult
+      DR 5/magic, spell resistance 5th Adult Fire aura, suggestion 7th Mature
+      adult DR 10/magic 9th Old Manipulate flames, wall of fire 11th Very old DR
+      15/magic 13th Ancient Melt stone, find the path 15th Wyrm DR 20/magic 17th
+      Great wyrm Incinerate, discern location 19th
+Description:
+  - >-
+    Few creatures are more cruel and fearsome than the mighty red dragon. King
+    of the chromatics, this terrible beast brings ruin and death to the lands
+    that fall under its shadow.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: ancient
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Ancient Red Dragon
+id: '124'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

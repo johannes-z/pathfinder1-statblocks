@@ -1,0 +1,100 @@
+Name: Local Celebrity
+CR: '2'
+XP: '600'
+Race: human
+Class: bard 3
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +4
+AC: 12, touch 11, flat-footed 11
+AC_Mods: (+1 armor, +1 Dex)
+HP: '20'
+HD: (3d8+3)
+Saves: >-
+  Fort +2, Ref +4, Will +3; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '2'
+Ref: '4'
+Will: '3'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - mwk dagger +4 (1d4-1/19-20)
+Ranged:
+  - dagger +3 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 10 rounds/day (countersong, distraction, fascinate, inspire
+  competence +2, inspire courage +1)
+SpellsKnown:
+  header: Bard Spells Known (CL 3rd; concentration +5)
+  values:
+    - label: 1st (4/day)
+      value: >-
+        charm person (DC 14), cure light wounds (DC 13), hypnotism (DC 14),
+        sleep (DC 14)
+    - label: 0 (at will)
+      value: >-
+        daze (DC 13), detect magic, light, lullaby (DC 13), mage hand,
+        resistance
+AbilityScores:
+  - 8
+  - 13
+  - 12
+  - 14
+  - 10
+  - 15
+BaseAtk: '2'
+CMB: '1'
+CMD: '12'
+Feats:
+  - Skill Focus (Bluff)
+  - Spell Focus (enchantment)
+  - Weapon Finesse
+Skills:
+  - Appraise +6
+  - Bluff +11
+  - Diplomacy +8
+  - Disguise +8
+  - Intimidate +6
+  - Knowledge (arcana) +7
+  - Knowledge (nobility) +7
+  - Knowledge (local) +9
+  - Perception +4
+  - Perform (act) +8
+  - Perform (dance) +8
+  - Perform (sing) +7
+  - Sense Motive +5
+  - Spellcraft +8
+Languages:
+  - Common
+  - Elven
+  - Infernal
+SQ: bardic knowledge +1, versatile performance (act)
+Source: NPC Codex
+IsTemplate: '0'
+DuringCombat: >-
+  The bard uses bardic performance to bolster his entourage, and spells to
+  impede enemies.
+Gear: potion of invisibility
+OtherGear: masterwork dagger, bracers of armor +1, 48 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3618'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

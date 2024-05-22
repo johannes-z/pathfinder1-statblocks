@@ -1,0 +1,142 @@
+Name: Powderpot
+CR: '8'
+XP: '4800'
+Race: charau-ka
+Class: alchemist 7
+MonsterSource: >-
+  Pathfinder Campaign Setting: The Inner Sea World Guide 308, Pathfinder RPG
+  Advanced Player's Guide 26
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (charau-ka)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +15
+AC: 22, touch 16, flat-footed 17
+AC_Mods: (+5 Dex, +2 natural, +4 shield, +1 size)
+HP: '102'
+HD: (10 HD; 3d8+7d8+58)
+Saves: Fort +11, Ref +15, Will +7; +1 vs. fear, +4 vs. poison
+Fort: '11'
+Ref: '15'
+Will: '7'
+Save_Mods: +1 vs. fear, +4 vs. poison
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - bite +16 (1d6+5), 2 claws +16 (1d4+5)
+  - +1 boarding pike +17/+12 (1d6+8/x3), bite +11 (1d6+2)
+Ranged:
+  - bomb +19 (4d6+2 fire/19-20)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with boarding pike)
+SpecialAttacks: >-
+  bomb 11/day (4d6+2 fire and catch fire, DC 15, 10-ft. radius), shrieking
+  frenzy, thrown-weapon mastery
+AbilityScores:
+  - 21
+  - 20
+  - 16
+  - 14
+  - 10
+  - 8
+BaseAtk: '7'
+CMB: '11'
+CMD: '26'
+Feats:
+  - Brew Potion
+  - Extra Bombs*
+  - Iron Will
+  - Point-Blank Shot
+  - Throw Anything
+  - Toughness
+  - Weapon Focus (bomb)
+Skills:
+  - Climb +25
+  - Craft (alchemy) +17
+  - Intimidate +13
+  - Perception +15
+  - Profession (sailor) +10
+  - Spellcraft +11
+  - Stealth +18
+  - Survival +10
+Languages:
+  - Abyssal
+  - Common
+  - Osiriani
+  - Polyglot
+SQ: >-
+  alchemy (alchemy crafting +7, identify potions), mutagen (+4/-2, +2 natural,
+  70 minutes), discoveries (explosive bomb, feral mutagen, precise bombs [2
+  squares]), poison use, swift alchemy, swift poisoning
+Source: AP 60
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Shrieking Frenzy (Su)
+    description: >-
+      Once per day, a charau-ka can enter a state of shrieking frenzy as a free
+      action. While in this state, the charau-ka automatically fails Stealth
+      checks and cannot speak or cast spells that use verbal components (or use
+      items that require command words to activate), but functions as if under
+      the effects of a haste spell. The charau-ka can continue shrieking for up
+      to 3 rounds, after which it is staggered for 1 round. Thrown-Weapon
+  - name: Mastery (Ex)
+    description: >-
+      Charau-ka are masters of thrown weapons. All charau-ka gain Throw Anything
+      as a bonus feat. In addition, charau-ka gain a +1 racial bonus on all
+      thrown weapons, and their threat range for thrown weapons is doubled, as
+      if they possessed the Improved Critical feat for all thrown weapons. This
+      effect doesn't stack with any other effect that expands the threat range
+      of a weapon.
+Gender: Male
+BeforeCombat: >-
+  When the alarm is sounded, Powderpot drinks his feral mutagen and extracts of
+  aid, blur, bull's strength, and shield. In addition, his stat block includes
+  the bonuses from the lord's banner of victory flying from the mainmast.
+DuringCombat: >-
+  Powderpot throws explosive bombs at attackers, using his precise bombs
+  discovery to avoid hitting the boatswain's mates. If attackers engage him in
+  melee combat, Powderpot uses his boarding pike in an attempt to fend them off,
+  but if anyone gets past his reach, he goes into a shrieking frenzy and attacks
+  with his bite and claws. If he runs out of bombs, Powderpot drinks his extract
+  of fire breath or hurls alchemical items such as alchemist's fire or liquid
+  ice at foes.
+Morale: >-
+  Powderpot happily serves as the Filthy Lucre's mascot, but he is intelligent
+  enough to recognize a losing battle when he's in one. If reduced to 20 hit
+  points or fewer, he drinks his extract of gaseous form and attempts to retreat
+  to safety.
+Gear: >-
+  acid (3), alchemist's fire (3), liquid ice* (3), mutagen (Dex), tanglefoot
+  bag, thunderstone (3)
+OtherGear: >-
+  +1 boarding pike, handy haversack, alchemist's kit*, bandanna, formula book
+  (contains all prepared formulae), tindertwigs (7), 60 gp
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his mutagens and extracts and out of sight of the lord's banner,
+  Powderpot's statistics are Init +3; AC 16, touch 14, flat-footed 13; hp 91;
+  Fort +9, Ref +11, Will +6; Melee +1 boarding pike +12/+7 (1d6+5/x3), bite +6
+  (1d3+1); Ranged bomb +14 (4d6+2 fire/19&#8211;20); Str 17, Dex 16, Wis 12; CMB
+  +9; CMD 22; Skills Climb +21, Craft (alchemy) +15, Intimidate +9, Perception
+  +14, Profession (sailor) +9, Spellcraft +9, Stealth +14, Survival +9.
+ExtractsPrepared: >-
+  Alchemist Extracts Prepared (CL 7th)   3rd-gaseous form   2nd-aid, blur,
+  bull's strength, fire breath* (DC 14)   1st-bomber's eye*, cure light wounds,
+  enlarge person, shield, touch of the sea*
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3317'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

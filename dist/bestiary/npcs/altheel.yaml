@@ -1,0 +1,114 @@
+Name: Altheel
+CR: '5'
+XP: '1600'
+Race: derro
+Class: mesmerist 4
+MonsterSource: Pathfinder RPG Bestiary 70, Pathfinder RPG Occult Adventures 38
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (derro)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 22, touch 17, flat-footed 16
+AC_Mods: (+3 armor, +5 Dex, +1 dodge, +2 natural, +1 size)
+HP: '56'
+HD: (7d8+25)
+Saves: Fort +5, Ref +10, Will +17
+Fort: '5'
+Ref: '10'
+Will: '17'
+SR: '14'
+Weaknesses: vulnerable to sunlight
+Speed: 20 ft.
+Melee:
+  - +1 short sword +12 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bold stare (disorientationOA), hypnotic  stare (-2), mesmerist tricks 7/day
+  (false flanker, levitation buffer, psychosomatic surge), painful stare (+2 or
+  +1d6), sneak attack +1d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +8)
+  values:
+    - label: At Will
+      value: darkness, ghost sound (DC 15)
+    - label: 1/day
+      value: daze (DC 15), sound burst (DC 17)
+SpellsKnown:
+  header: Mesmerist Spells Known (CL 4th; concentration +9)
+  values:
+    - label: 2nd (2/day)
+      value: hold person (DC 17), mirror image
+    - label: 1st (5/day)
+      value: >-
+        charm person (DC 16), mental blockOA (DC 16), murderous commandUM (DC
+        16), vanishAPG (DC 16)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), detect magic, flare (DC 15), mage hand, read magic,
+        unwitting allyAPG (DC 15)
+AbilityScores:
+  - 13
+  - 20
+  - 16
+  - 12
+  - 5
+  - 20
+BaseAtk: '5'
+CMB: '5'
+CMD: '21'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Acrobatics +7 (+3 when jumping)
+  - Bluff +7
+  - Intimidate +15
+  - Perception +7
+  - Spellcraft +11
+  - Stealth +19
+  - Use Magic Device +15
+Languages:
+  - Aklo
+  - Common
+  - Undercommon
+SQ: consummate liar +2, madness, poison use, touch treatment 8/day (minor)
+Source: AP 112
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  If Altheel is aware that the PCs are coming up to this room, he casts mirror
+  image right before they enter the room.
+DuringCombat: >-
+  Altheel uses his mesmerist tricks to aid Twain in combat. He uses false
+  flanker to help her set up sneak attacks, and psychosomatic surge to provide
+  her with temporary hit points. He saves hold person for a PC who is an obvious
+  combat threat, and targets spellcasters with mental block to hinder their
+  casting.
+Morale: >-
+  Altheel refuses to show weakness in front of Twain, and fights to the death.
+  If Twain is killed before him, he calls for a truce if he's reduced to fewer
+  than 10 hit points.
+Gear: potion of cure light wounds
+OtherGear: +1 leather armor, +1 short sword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8901'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

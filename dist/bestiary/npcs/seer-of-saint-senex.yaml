@@ -1,0 +1,101 @@
+Name: Seer Of Saint Senex
+CR: '3'
+XP: '800'
+Race: human
+Class: oracle 4
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '-2'
+Senses:
+  - darkvision 30 ft.
+  - Perception +2
+AC: 12, touch 8, flat-footed 12
+AC_Mods: (+4 armor, -2 Dex)
+HP: '21'
+HD: (4d8)
+Saves: Fort +0, Ref -1, Will +6
+Fort: '0'
+Ref: '-1'
+Will: '6'
+Speed: 30 ft.
+Melee:
+  - mwk boarding gaff +5 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: wintry touch 7/day (1d6+2 cold)
+SpellsKnown:
+  header: Oracle Spells Known (CL 4th; concentration +8)
+  values:
+    - label: 2nd (4/day)
+      value: cure moderate wounds, slipstreamAPG (DC 16), weapon of aweAPG (DC 16)
+    - label: 1st (7/day)
+      value: >-
+        command (DC 15), cure light wounds, divine favor, sanctuary (DC 15),
+        touch of the seaAPG (DC 15)
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, light, mending, purify food and drink (DC
+        14), read magic
+AbilityScores:
+  - 12
+  - 7
+  - 9
+  - 13
+  - 15
+  - 19
+BaseAtk: '3'
+CMB: '4'
+CMD: '12'
+Feats:
+  - Exotic Weapon Proficiency (boarding gaff)
+  - Extra Revelation
+  - Toughness
+Skills:
+  - Heal +9
+  - Knowledge (nature) +8
+  - Knowledge (religion) +8
+  - Sense Motive +9
+  - Spellcraft +8
+  - Swim +8
+  - Use Magic Device +8
+Languages:
+  - Aquan
+  - Common
+SQ: >-
+  oracle's curse (clouded vision), revelations (fluid travel, ice armor, wintry
+  touch)
+Source: AP 98
+IsTemplate: '0'
+SpecialAbilities: []
+BeforeCombat: A seer activates ice armor before combat.
+DuringCombat: >-
+  The traditional weapon of the seer of Saint Senex is the boarding gaff (see
+  Special Abilities  below). A seer casts sanctuary on the first round of
+  combat, then divine favor and weapon of awe in the next 2 rounds before
+  breaking her sanctuary effect and casting command on foes to force them to lie
+  down. In the rounds that follow, the seers focus their attacks on the same
+  target. They work to maintain reach with their gaffs, but use their wintry
+  touch ability if forced to fight adjacent foes. If either seer is reduced to
+  fewer than 10 hit points, the other uses healing magic on the wounded seer.
+Morale: The seers fight to the death defending the shrine.
+Gear: wand of summon monster II (7 charges), wand of water breathing (8 charges)
+OtherGear: mwk boarding gaff, hooked key, 37 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: middle age
+Mystery: waves
+CompanionFamiliarLink: '0'
+id: '7142'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

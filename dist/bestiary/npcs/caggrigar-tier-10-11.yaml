@@ -1,0 +1,182 @@
+Name: Caggrigar Tier 10-11
+CR: '13'
+XP: '25600'
+Race: human
+Class: witch 7/demoniac of Deskari 7
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: +4 (+8 in a swarm)
+Senses:
+  - Perception +0
+AC: 19, touch 14, flat-footed 17
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 natural)
+HP: '132'
+HD: (7d6+7d8+63)
+Saves: Fort +12, Ref +9, Will +12; +4 vs. disease or vermin, +4 to all if  in a swarm
+Fort: '12'
+Ref: '9'
+Will: '12'
+Save_Mods: +4 vs. disease or vermin, +4 to all if  in a swarm
+DefensiveAbilities: obedience
+Speed: 30 ft.
+Melee:
+  - +1 scythe +8/+3 (2d4/x4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  hexes (charm [1 step, 6 rounds], evil eye [-2, 9 rounds], flight [feather fall
+  at will, levitate 1/day, fly 7 minutes/ day], misfortune [1 round])
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +20)
+  values:
+    - label: 2/day
+      value: summon swarm
+    - label: 1/day
+      value: summon monster VI (1 succubus, 1d3 babaus, or 1d4+1 brimoraks**)
+SpellsPrepared: >-
+  Witch Spells Prepared (CL 13th; concentration +19)  7th-chain lightning (DC
+  23)  6th-mass fester* (DC 22), slay living (DC 22), swarm skin* 
+  5th-cloudkill, feeblemind (DC 21), suffocation (DC 21), teleport  4th-black
+  tentacles, crushing despair (DC 20), phantasmal killer (DC 20), spite (already
+  cast), threefold aspect (already cast)  3rd-bestow curse (DC 19), contagion
+  (DC 19), dispel magic, screech (DC 19), vampiric touch  2nd-blindness/deafness
+  (DC 18), burning gaze (DC 18), false life, pox pustules* (DC 18), vomit swarm,
+  web  1st-burning hands (DC 17), cause fear (DC 17), harm person (DC 17), mage
+  armor (already cast), obscuring mist, ray of enfeeblement (DC 17)  0 (at
+  will)-bleed (DC 16), detect magic, putrefy food and drink, resistance
+AbilityScores:
+  - 8
+  - 14
+  - 16
+  - 22
+  - 11
+  - 10
+BaseAtk: '8'
+CMB: '7'
+CMD: '21'
+Feats:
+  - Augment Summoning
+  - Combat Casting
+  - Demonic Obedience**
+  - Extend Spell
+  - Iron Will
+  - Magical Aptitude
+  - Spell Focus (conjuration)
+  - Toughness
+Skills:
+  - Bluff +15
+  - Fly +19
+  - Intimidate +17
+  - Knowledge (arcana) +23
+  - Knowledge (planes) +23
+  - Knowledge (religion) +23
+  - Linguistics +8
+  - Sense Motive +17
+  - Spellcraft +27
+  - Stealth +19
+  - Swim +3
+  - Use Magic Device +2
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Hallit
+  - Ignan
+  - Infernal
+  - Skald
+  - Varisian
+SQ: >-
+  damned, demonic boon, demonic mark, energumen, summon demon, swarm walker,
+  swarming susurrus, witch's familiar (scorpion named Asdorax)
+Source: PFS S2-08
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Damned (Ex)
+    description: >-
+      When Caggrigar dies, his soul is instantly claimed by the Abyss, where it
+      transforms into a demon. Any character attempting to resurrect him must
+      succeed at a caster level check equal to 24 or the spell fails. That
+      character cannot attempt to resurrect Caggrigar again until the following
+      day, though other characters can attempt to do so if they please.
+  - name: Demonic Mark (Ex)
+    description: >-
+      Caggrigar bears the sign of Deskari as a tattoolike brand on the back of
+      his left hand. Once per day, he can call upon the profane power of this
+      mark to power a spell as he casts it. Doing so causes the spell to gain
+      the chaotic and evil descriptors, and causes the spell not be expended as
+      it is cast, allowing Caggrigar to cast the spell again at a later point in
+      the day.
+  - name: Energumen (Su)
+    description: >-
+      Once per day, Caggrigar can open his soul to a demonic spirit as a free
+      action. This spirit possesses him for 7 rounds, granting a +6 profane
+      bonus to one ability score of the demoniac's choice and immunity to
+      electricity and poison. When the energumen ends, Caggrigar becomes
+      confused for 4 rounds as the demonic spirit has its way with his mind. At
+      the start of each round of confusion, he can make a DC 25 Will save to end
+      the confusion effect immediately. Energumen is a possession effect, and is
+      negated by protection from evil or protection from chaos. Caggrigar can
+      prevent or end the confusion side effect by having one of these spells
+      cast upon him when (or before) the energumen ends, but being affected by
+      such a spell before the energumen has run its course also causes the
+      benefits granted to end prematurely.
+  - name: Obedience (Ex)
+    description: >-
+      Each day, as part of preparing his spells, Caggrigar must meditate while
+      allowing insects or worms of any type to crawl upon his body-he generally
+      uses his scorpion familiar. In return, he gains a +4 profane bonus on all
+      saving throws against disease and against effects caused by vermin. If he
+      should ever fail to perform this ritual, Caggrigar loses all abilities
+      granted through his demoniac prestige class until he next performs the
+      obedience.
+  - name: Swarm Walker (Su)
+    description: >-
+      Caggrigar can walk through any swarm without fear of taking damage or
+      suffering any ill effects&#8211;swarms recognize him as one of their own.
+      As long as he stands within a swarm, he gain a +4 profane bonus on
+      Initiative checks and on all saving throws. Damned, Vol. 2.
+Gender: Male
+BeforeCombat: >-
+  Caggrigar cast threefold aspect on himself this morning and now appears as a
+  young adult. Before leaving the safe house, he also cast spite with the
+  vampiric touch effect. Once Caggrigar becomes aware of the PCs, he summons 1d3
+  babaus to aid him in battle, and false life should time permit. If he has
+  further time, he summons a swarm of spiders that covers him, granting him
+  bonuses to initiative and all saves.
+DuringCombat: >-
+  Caggrigar sends his demonic servants to fight melee and ranged combatants,
+  using his offensive spells against casters, beginning with his highest-level
+  spells. If attacked directly, Caggrigar casts swarm skin on his next turn,
+  taking the form of an army ant swarm (Pathfinder RPG Bestiary 16).
+Morale: >-
+  Caggrigar fears death, knowing that he will suffer eternal torment at
+  Deskari's hands. If reduced to fewer than 40 hp, he uses his energumen ability
+  as a free action to boost his Constitution by +6 for 7 rounds, thus increasing
+  his hit points by 42, and attempts to flee or parlay.
+Gear: potion of cure serious wounds, scroll of baleful polymorph
+OtherGear: >-
+  +1 scythe, amulet of natural armor +1, cloak of resistance +3, headband of
+  vast intelligence +2, ring of protection +2, 55 pp, 57 gp
+Note: >-
+  * See Pathfinder RPG Advanced Player's Guide.  ** See Pathfinder Campaign
+  Setting: Lords of Chaos: Book of the
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Dex 12, Con 14, Wis 13
+AgeCategory: Adult
+Patron: Plague
+CompanionFamiliarLink: '0'
+id: '5517'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

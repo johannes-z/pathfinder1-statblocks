@@ -1,0 +1,143 @@
+Name: Baillaset Tier 3-4
+CR: '5'
+XP: '1600'
+Race: brute wight
+MonsterSource: Advanced Bestiary 121, Pathfinder RPG Bestiary 276
+Alignment: LE
+Size: Large
+Type: undead
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +11
+Aura: aura of misfortune (10 ft.)
+AC: 20, touch 11, flat-footed 18
+AC_Mods: (+2 Dex, +9 natural, -1 size)
+HP: '42'
+HD: (4d8+24)
+Saves: Fort +5, Ref +1, Will +4
+Fort: '5'
+Ref: '1'
+Will: '4'
+DefensiveAbilities: undead traits
+Weaknesses: resurrection vulnerability
+Speed: 30 ft.
+Melee:
+  - slam +7 (1d6+7 plus Con drain)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: fortune-spurned curse, Constitution drain (1 point of Con damage, DC 18)
+AbilityScores:
+  - 20
+  - 14
+  - —
+  - 15
+  - 17
+  - 23
+BaseAtk: '3'
+CMB: '9'
+CMD: '21'
+Feats:
+  - Blind-Fight
+  - Skill Focus (Perception)
+Skills:
+  - Climb +10
+  - Intimidate +11
+  - Knowledge (arcane) +7
+  - Knowledge (religion) +7
+  - Perception +11
+  - Stealth +11
+RacialMods: >-
+  +8 Stealth; a fortune-spurned creature takes a - 2 penalty on all skill
+  checks-this penalty stacks with the one it takes on opposed checks
+Languages:
+  - Common
+SQ: >-
+  create spawn, cursed, diminished criticals, twist of fate, unlucky strike (DC
+  18)
+Source: PFS S1-49
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Misfortune (Su)
+    description: >-
+      Every creature within 10 feet of a fortune-spurned creature gains the
+      diminished criticals and unlucky strike special qualities of the
+      fortune-spurned template as long as it remains within range. Furthermore,
+      each such creature takes a - 4 penalty on all checks and saving throws.
+  - name: Calamitous Mishap (Su)
+    description: >-
+      As a free action once per encounter, a fortune-spurned creature can cause
+      some calamity to befall itself and another creature within 5 feet of it.
+      The mishap selected must be a possible result of normal circumstances, but
+      it can be the worst possible result. For instance, lightning could strike
+      both the fortune-spurned creature and its foe on a cloudy day, or it could
+      strike a tree, causing a heavy limb to fall on both targets, but lightning
+      could not strike out of a clear sky. Alternatively, ropes holding up some
+      scaffolding might break, the lock on a portcullis might slip, or the floor
+      of a ruined keep might give way. In some cases, the fortune-spurned
+      creature might be unable to cause any calamity given its surroundings. A
+      calamity cannot affect more than the fortune-spurned creature and a single
+      adjacent creature of its choice. Nearly any natural misfortune may be
+      chosen, but it must be one that is as dangerous to the fortune-spurned
+      creature as it is to the other creature. Both targets must be affected
+      equally-that is, both must make the same saving throw and suffer the same
+      result. Thus, if the fortune-spurned creature is immune or resistance to
+      electricity it could not choose to have lightning strike both it and its
+      foe unless the foe is equally resistance to electricity.
+  - name: Cursed (Ex)
+    description: >-
+      A fortune-spurned creature takes a - 2 luck penalty on all opposed checks
+      and saves, and a -1 luck penalty on all attack rolls. These penalties are
+      figured into the creature's stats.
+  - name: Diminished Criticals (Ex)
+    description: >-
+      A fortune-spurned creature must roll twice to confirm a critical hit.
+      Fortune-Spurned
+  - name: Curse (Su)
+    description: >-
+      Once per month, Baillaset can curse up to 25 humanoids, permanently giving
+      them his fortune-spurned template. Baillaset has already used this ability
+      this month cursing the Zyphus cultists.
+  - name: Resurrection Vulnerability (Su)
+    description: >-
+      A raise dead or similar spell cast on a wight destroys it (Will negates).
+      Using the spell in this way does not require a material component.
+  - name: Twist of Fate (Su)
+    description: >-
+      The first time in any given day that a fortune-spurned creature rolls a
+      natural 20 on a saving throw, it fails the save. This twist of fate
+      happens only once per day.
+  - name: Unlucky Strike (Su)
+    description: >-
+      When a fortune-spurned creature attacks with a weapon and rolls a natural
+      1, it drops the weapon unless it can make a successful Reflex save (DC
+      14). If it attacks with a natural weapon and rolls a natural 1, it
+      provokes an attack of opportunity from its target, even if that creature
+      would not otherwise be entitled to make one.
+BeforeCombat: >-
+  If Baillaset is unaware of the PCs' approach, he's hanging corpses over the
+  bloody trench by the west wall. If he's aware that the PCs are coming, he
+  waits in the 10-foot square just west of the entrance to this room, ready to
+  ambush the first PC through the door.
+DuringCombat: >-
+  Baillaset gets in close and stays there, preferring to take out one target at
+  a time, fully aware of the effect of his aura of misfortune.
+Morale: >-
+  Baillaset fights until destroyed-when destroyed, he evaporates in a bloody red
+  mist.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: fortune-spurned|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4497'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

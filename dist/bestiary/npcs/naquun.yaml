@@ -1,0 +1,143 @@
+Name: Naquun
+CR: '7'
+XP: '3200'
+Race: human
+Class: ranger (guide) 7
+MonsterSource: Advanced Bestiary 51, Pathfinder RPG Advanced Player's Guide 125
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (chaotic, evil, human)
+Init: +5 (+7 in cold)
+Senses:
+  - Perception +12 (+14 in cold)
+AC: 20, touch 16, flat-footed 14
+AC_Mods: (+3 armor, +5 Dex, +1 dodge, +1 shield)
+HP: '71'
+HD: (7d10+28)
+HP_Mods: fast healing 2
+Saves: Fort +7, Ref +10, Will +4; +2 vs. poison
+Fort: '7'
+Ref: '10'
+Will: '4'
+Save_Mods: +2 vs. poison
+DR: 5/cold iron
+Resist: electricity 20
+Weaknesses: spell vulnerability
+Speed: 30 ft.
+Melee:
+  - +1 handaxe +14/+9 (1d6+2/x3 plus 1d6 profane)
+  - >-
+    +1 handaxe +12/+7 (1d6+2/x3 plus 1d6 profane) and mwk handaxe +12 (1d6/x3
+    plus 1d6 profane)
+Ranged:
+  - mwk spear +13 (1d8+1/x3 plus 1d6 profane)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: profane attacks, ranger's focusAPG (+4, 3/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +6)
+  values:
+    - label: At Will
+      value: detect good, detect magic
+    - label: 2/day
+      value: invisibility
+SpellsPrepared: >-
+  Ranger Spells Prepared (CL 4th; concentration +6)   2nd-protective spiritAPG  
+  1st-endure elements, feather stepAPG
+AbilityScores:
+  - 12
+  - 21
+  - 14
+  - 10
+  - 14
+  - 8
+BaseAtk: '7'
+CMB: '8'
+CMD: '24'
+Feats:
+  - Dodge
+  - Endurance
+  - Quick Draw
+  - Toughness
+  - Two-Weapon Defense
+  - Two-Weapon Fighting
+  - Weapon Finesse
+  - Weapon Focus (handaxe)
+Skills:
+  - Acrobatics +12
+  - Climb +9
+  - Handle Animal +9
+  - Intimidate +6
+  - Knowledge (geography) +5 (+7 in cold)
+  - Knowledge (nature) +5
+  - Perception +12 (+14 in cold)
+  - Stealth +17 (+19 in cold)
+  - Survival +12 (+14 in cold)
+  - Swim +5
+Languages:
+  - Common
+  - Erutaki
+SQ: >-
+  favored terrain (cold +2), possessed, terrain bondAPG, track +3, wild empathy
+  +6, woodland stride
+Source: AP 51
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Possessed (Su)
+    description: >-
+      Naquun is possessed by a quasit named Eguriak; the quasit can take no
+      actions other than communicating with its host and using
+      Intelligence-based skills. It can be detected by divinations but cannot be
+      targeted by spell effects (except as described under spell vulnerability
+      below). Damage to Naquun does not harm the quasit. If Naquun is killed,
+      Eguriak appears in his square. If the possession is ended without killing
+      Naquun (see below), the hunter's alignment returns to neutral.
+  - name: Profane Attacks (Su)
+    description: >-
+      Naquun's melee attacks deal an extra 1d6 points of damage to creatures of
+      good alignment. In addition, his weapons are treated as evil-aligned and
+      magic for the purpose of overcoming DR.
+  - name: Spell Vulnerability (Ex)
+    description: >-
+      If Naquun is targeted with a banishment or dismissal spell, he must
+      succeed at a Will save or the quasit is banished back to the Abyss. If
+      Naquun is targeted with dispel chaos, dispel evil, protection from chaos,
+      or protection from evil, he must also make a Will save. On a failed save,
+      the quasit is driven out of his body and appears in the nearest open
+      square. It cannot possess a new host.
+Gender: Male
+BeforeCombat: Naquun casts feather step before taking position in front of the door.
+DuringCombat: >-
+  Naquun casts protective spirit on the first round of combat. He activates his
+  ranger's focus ability on the first foe to attack, making the majority of his
+  attacks against that opponent. If surrounded by enemies, Naquun casts
+  invisibility to better position himself and attack from surprise.
+Morale: >-
+  As long as he is possessed, Naquun fights to the death. If freed from his
+  possession, he immediately surrenders and offers to help the PCs find Tunuak
+  and bring him to justice.
+Gear: >-
+  campfire beadsAPG (3), potions of cure light wounds (2), scroll of campfire
+  wallAPG, scroll of hide campsiteAPG, alchemist's fire, tindertwigs (5)
+OtherGear: >-
+  masterwork studded leather, +1 handaxe, masterwork handaxe, masterwork spear,
+  cold-weather outfit, smoked gogglesAPG, snowshoesAPG, trail rations (5 days),
+  13 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: quasit-possessed|
+AgeCategory: Adult
+ClassArchetypes: guide
+CompanionFamiliarLink: '0'
+id: '1898'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,135 @@
+Name: Tunuak
+CR: '8'
+XP: '4800'
+Race: human
+Class: oracle 9
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '0'
+Senses:
+  - Perception +5
+AC: 21, touch 13, flat-footed 21
+AC_Mods: (+6 armor, +3 deflection, +2 natural)
+HP: '80'
+HD: (9d8+36)
+Saves: Fort +8, Ref +5, Will +11
+Fort: '8'
+Ref: '5'
+Will: '11'
+Speed: 30 ft.
+Melee:
+  - staff of journeys +3/-2 (1d6-3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 9th; concentration +16)
+  values:
+    - label: 4th (5/day)
+      value: >-
+        cure critical wounds, river of wind* (DC 21), spiritual ally*, unholy
+        blight (DC 21)
+    - label: 3rd (7/day)
+      value: >-
+        borrow fortune*, cloak of winds* (DC 20), cure serious wounds, dispel
+        magic, protection from energy
+    - label: 2nd (7/day)
+      value: >-
+        bear's endurance, cure moderate wounds, eagle's splendor, gust of wind
+        (DC 19), silence (DC 19), spiritual weapon
+    - label: 1st (8/day)
+      value: >-
+        alter winds* (DC 18), cure light wounds, divine favor, doom (DC 18),
+        endure elements, obscuring mist, shield of faith
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, guidance, light, purify food and drink, read
+        magic, resistance, stabilize
+AbilityScores:
+  - 5
+  - 10
+  - 16
+  - 14
+  - 12
+  - 24
+BaseAtk: '6'
+CMB: '3'
+CMD: '19'
+Feats:
+  - Combat Expertise
+  - Defensive Combat Training
+  - Eschew Materials
+  - Extra Revelation*
+  - Iron Will
+  - Toughness
+Skills:
+  - Bluff +14
+  - Diplomacy +19
+  - Fly +10
+  - Intimidate +12
+  - Knowledge (history) +10
+  - Knowledge (planes) +6
+  - Knowledge (religion) +14
+  - Perception +5
+  - Sense Motive +13
+  - Spellcraft +14
+  - Stealth +10
+Languages:
+  - Abyssal
+  - Auran
+  - Common
+  - Draconic
+  - Erutaki
+  - Giant
+SQ: >-
+  oracle's curse (tongues; Abyssal, Auran), revelations (air barrier,
+  invisibility, wind sight, wings of air)
+Source: AP 51
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Tunuak casts endure elements every day. Before combat, he activates his air
+  barrier and wings of air revelations; drinks a potion of barkskin; and casts
+  bear's endurance, cloak of winds, shield of faith, and protection from energy
+  (against a type commonly used by the PCs, likely fire). Before he makes his
+  pronouncement against the PCs, Tunuak casts eagle's splendor.
+DuringCombat: >-
+  Tunuak activates his invisibility revelation to gain greater invisibility and
+  casts attack spells such as unholy blight and silence. He creates spiritual
+  allies adjacent to spellcasters and multiple spiritual weapons (appearing as
+  longswords, Sithhud's favored weapon). If several opponents are in a line, he
+  casts river of wind against them.
+Morale: >-
+  If reduced to fewer than 20 hit points or if all of his minions are slain,
+  Tunuak uses his invisibility revelation to flee Iqaliat entirely and harry the
+  PCs' caravan on their further journeys. If confronted by the PCs before they
+  venture into Tunuak's Bore, Tunuak uses his invisibility revelation or casts
+  obscuring mist and flees to area K3 to set up an ambush with the hoarfrost
+  spirits there.
+Gear: potions of barkskin (2)
+OtherGear: >-
+  cloak of resistance +2, ring of mind shielding, staff of journeys*,
+  cold-weather outfit, unholy symbol of Sithhud
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his spells and revelations, Tunuak's statistics are AC 10, touch 10,
+  flat-footed 10; hp 62; Fort +6; Spells concentration +14, reduce all save DCs
+  by 2; Con 12, Cha 20; CMD 16; Skills Bluff +12, Diplomacy +17, Intimidate +10.
+AgeCategory: old
+Mystery: wind
+CompanionFamiliarLink: '0'
+id: '1914'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

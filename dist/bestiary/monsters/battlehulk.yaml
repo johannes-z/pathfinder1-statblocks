@@ -1,0 +1,190 @@
+Name: Battlehulk
+CR: '13'
+XP: '25600'
+Alignment: 'N'
+Size: Huge
+Type: construct
+SubType: (good)
+Init: '-4'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 27, touch 4, flat-footed 27
+AC_Mods: (+2 armor, -4 Dex, +21 natural, -2 size)
+HP: '177'
+HD: (25d10+40)
+Saves: Fort +8, Ref +4, Will +8
+Fort: '8'
+Ref: '4'
+Will: '8'
+DR: 15/adamantine
+Immune: acid, cold, electricity, fire, construct traits (+40 hp)
+SR: '20'
+Speed: 10 ft.
+Speed_Mod: charge
+Melee:
+  - ram +38 (4d8+22) and 4 slams +38 (2d10+15)
+Space: 15 ft.
+Reach: 5 ft. (10 ft. with slams)
+SpecialAttacks: bull rush, charge, ram, sweep, trample (8d8+44, DC 37)
+AbilityScores:
+  - 40
+  - 3
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '25'
+CMB: +42 (+46 bull rush)
+CMD: 48 (52 vs. bull rush, can't be tripped)
+Feats:
+  - Greater Bull RushB
+  - Improved Bull RushB
+Environment: any relatively flat and dry terrain
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  A massive block of stone rolls ponderously forward on great stone rollers.
+  Iron plates armor this stone monstrosity, the front of which is studded with
+  spikes of iron, adamantine and stone. Great stone clubs capped in iron sprout
+  from loopholes in the sides like the arms of a giant. The top of this huge
+  structure is a platform surrounded by stone merlons to provide cover for any
+  defenders riding upon it. At the back edge of this platform extend two chains
+  that end in great stone spheres that spin on a pivoted base and lay waste to
+  anyone behind the mobile fortress.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bull Rush (Ex)
+    description: >-
+      If the battlehulk is charging it can opt to make a bull rush attack
+      without provoking an attack of opportunity. If the bull rush is
+      successful, the defender is automatically pushed back the distance that
+      the battlehulk moves forward past his position. The battlehulk does not
+      require a check result of 5 or more higher than the defender's check
+      result to determine how far back the defender can be pushed. The
+      battlehulk can bull rush as many opponents as occupy the squares in its
+      path of travel with the usual -4 penalty to additional combat maneuver
+      checks.
+  - name: Charge (Ex)
+    description: >-
+      Each round a battlehulk double moves in a straight line, it adds an
+      additional 10 ft. to its speed as its weight and inertia propel it
+      forward. It can reach a maximum speed of 80 feet in this way. A battlehulk
+      can stop after charging only by striking an unyielding obstacle (like a
+      mountain) or by gradually slowing. It can reduce its speed by 10 feet per
+      round as it slows its momentum. A battlehulk can only turn when going at a
+      speed of 30 feet or less. If traveling downhill on a steep slope, the
+      battlehulk accelerates twice as fast (i.e. it goes from 10 feet, to 30
+      feet, to 50 feet, etc.) and decelerate twice as slow (i.e. it takes 2
+      rounds to decelerate from 80 feet to 70 feet and so on). Likewise if
+      traveling up hill on a steep slope it decelerates twice as fast and
+      accelerates twice as slow.
+  - name: Immunities (Ex)
+    description: >-
+      A battlehulk is immune to acid, cold, electricity, and fire and confers
+      this immunity to anyone sealed within its inner compartment.
+  - name: Ram (Ex)
+    description: >-
+      The ram attack of the battlehulk is with the ironplated and spike-studded
+      front face. The damage this attack deals is considered both piercing and
+      bludgeoning. Because of the different metal compositions used in the
+      spikes and enchantments placed on this front facing, this attack is both
+      cold iron and adamantine and is considered magic and good-aligned for the
+      purpose of overcoming damage reduction. This attack is particularly useful
+      against evil outsiders.
+  - name: Sweep (Ex)
+    description: >-
+      As a full round action a battlehulk can make a bull rush attack with each
+      of its slamming arms on targets within range without provoking attacks of
+      opportunity. Each stone arm is considered a Large creature for this
+      purpose and has a combat maneuver bonus of +45. The flail on the back is
+      also capable of making this bull rush attack on any targets atop the
+      platform (roll separately for each target). Anyone moved off the platform
+      results in a 15-foot fall to the ground below for 1d6 points of damage.
+Description:
+  - >-
+    Battlehulks are constructs crafted for war. They were created by the Army of
+    Light to roll over enemy lines, smash enemy fortifications and, if
+    necessary, fight toe-to-toe with even the mightiest balor demon.
+  - >-
+    It resembles a squat stone building surmounting massive stone rollers that
+    provide it mobility. From embrasures in the sides (one on each side and one
+    in back) project long stone arms capped in iron that the construct uses for
+    slam attacks. In addition at the upper edge of the back is a massive
+    swivel-mounted double flail that also provides a slam attack.
+  - >-
+    The front is studded with many spikes for ramming opponents. Defenders can
+    ride atop the platform and obtain cover from its merlons while firing down
+    on enemy troops. Normally they would lower a rope or ladder to allow other
+    riders on - otherwise it requires a DC 25 Climb check (DC 35 if the
+    battlehulk is moving). The battlehulk is able to reach those atop it with
+    its flail slam if enemies reach that position, though not with its club
+    slams.
+  - >-
+    In the center of the platform is a secret door (DC 25 Perception check to
+    locate) leading to an interior chamber large enough to hold two Medium
+    creatures. This compartment is sealed against water and air and holds enough
+    air to supply two Medium creatures for 10 minutes before the door must be
+    opened again or suffocation begins. Ordinarily the controller would ride
+    here. Anyone opening this door other than the controller must make a DC 40
+    Strength check or deal 60 points of damage against a
+  - >-
+    Hardness 8. These hit points are not deducted from the battlehulk's total.
+    Slaying the controller does not stop the battlehulk, which continues to
+    carry out the controller's last command.
+  - >-
+    A battlehulk is a 15-foot cube atop three 5-foot diameter stone rollers. It
+    weighs about 50,000 pounds.
+  - >-
+    A battlehulk is nonintelligent and has no forms of communication, taking
+    direction telepathically from its controller. It rolls with a grinding
+    rumble, crushing anything in its path. Despite its bulk it is able to
+    maneuver well since its rollers are able to swivel individually to some
+    extent.
+  - >-
+    A battlehulk is a terror to behold in combat, and very few will willingly
+    stand against one. Entire enemy formations are often routed by the mere
+    presence of a battlehulk on the field. Against obstacles and large masses of
+    troops, the battlehulk usually attempts its bull rush, ram, and trample
+    attacks, flailing with its slamming arms at any who linger near. Against
+    smaller groups it divides its slam attacks against those within range and
+    focuses its ram and trample attacks at those who appear to be inflicting the
+    most damage.
+  - Construction
+  - >-
+    A battlehulk is constructed from a single block of granite and exotic metals
+    and processes that cost 10,000 gp. When created it is attuned to an amulet
+    or ring that is worn by a controller who can command the battlehulk
+    telepathically within a quarter mile.
+  - BATTLEHULK
+  - CL 18th; Price 250,000 gp
+  - CONSTRUCTION
+  - >-
+    Requirements Craft Construct, bull's strength, geas/ quest, limited wish,
+    polymorph any object, align weapon, creator must be caster level 18th; Skill
+    Craft (sculptures) or (stonemasonry) DC 18; Cost 70,000 gp.
+  - Credit
+  - Original author Greg A. Vaughan
+  - >-
+    Originally appearing in Slumbering Tsar (© Frog God Games/ Greg A. Vaughan,
+    2012)
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4740'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

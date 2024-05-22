@@ -1,0 +1,140 @@
+Name: Tesharat
+CR: '15'
+XP: '51200'
+Race: old magma dragon
+MonsterSource: Pathfinder RPG Bestiary 2 100
+Alignment: CN
+Size: Huge
+Type: dragon
+SubType: (extraplanar, fire)
+Init: '4'
+Senses:
+  - dragon senses
+  - Perception +27
+Aura: frightful presence (240 ft., DC 23)
+AC: 33, touch 8, flat-footed 33
+AC_Mods: (+25 natural, -2 size)
+HP: '237'
+HD: (19d12+114)
+Saves: Fort +19, Ref +13, Will +18
+Fort: '19'
+Ref: '13'
+Will: '18'
+Immune: fire, paralysis, sleep
+SR: '26'
+Weaknesses: vulnerable to cold
+Speed: 40 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +27 (2d8+15/19-20 plus 8 fire), 2 claws +27 (2d6+10), tail slap +22
+    (2d6+15), 2 wings +22 (1d8+5)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (50-ft. cone, 16d6 fire damage, Reflex DC 25 half, usable every
+  1d4 rounds), crush
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 19th; concentration +23)
+  values:
+    - label: Constant
+      value: fire shield (warm)
+    - label: At Will
+      value: burning hands (DC 15), scorching ray, wall of fire
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: dominate person (DC 19), teleport
+    - label: 4th (7/day)
+      value: charm monster (DC 18), dimension door, greater invisibility
+    - label: 3rd (7/day)
+      value: dispel magic, displacement, haste, vampiric touch
+    - label: 2nd (7/day)
+      value: >-
+        darkness, glitterdust (DC 16), hideous laughter (DC 16), mirror image,
+        see invisibility
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 15), grease, mage armor, reduce person (DC 15), true
+        strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), detect magic, detect poison, disrupt undead,
+        open/close, read magic, sparkAPG, touch of fatigue (DC 14)
+AbilityScores:
+  - 31
+  - 10
+  - 23
+  - 20
+  - 20
+  - 19
+BaseAtk: '19'
+CMB: '31'
+CMD: 41 (45 vs. trip)
+Feats:
+  - Flyby Attack
+  - Great Fortitude
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Iron Will
+  - Improved Vital Strike
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Acrobatics +19 (+23 when jumping)
+  - Climb +20
+  - Fly +14
+  - Intimidate +25
+  - Knowledge (arcana) +20
+  - Knowledge (dungeoneering) +20
+  - Knowledge (local) +12
+  - Knowledge (planes) +20
+  - Perception +27
+  - Sense Motive +20
+  - Spellcraft +27
+  - Stealth +14
+  - Survival +20
+  - Swim +20
+  - Use Magic Device +25
+RacialMods: +4 Acrobatics when jumping
+Languages:
+  - Common
+  - Draconic
+  - Giant
+  - Ignan
+  - Infernal
+  - Orc
+SQ: superheated
+Source: AP 95
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Tesharat casts mage armor every day, and displacement and greater invisibility
+  if she expects imminent combat. If she has more time to prepare, she also
+  casts mirror image and holds the charge on vampiric touch to combine with her
+  first melee attack.
+DuringCombat: >-
+  Tesharat opens combat with her breath weapon. She relies on displacement and
+  greater invisibility  to reduce the effectiveness of attacks against her as
+  she fights in melee.
+Morale: >-
+  If brought below 50 hit points, Tesharat attempts to flee using teleport or
+  dimension door. After taking the time to heal, she likely returns to hunt down
+  the PCs in order to finish them off.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: old
+CompanionFamiliarLink: '0'
+id: '7027'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

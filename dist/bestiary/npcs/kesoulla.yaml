@@ -1,0 +1,117 @@
+Name: Kesoulla
+CR: '8'
+XP: '4800'
+Race: human
+Class: cleric of Lissala 9
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - true seeing
+  - Perception +14
+AC: 22, touch 11, flat-footed 21
+AC_Mods: (+8 armor, +1 Dex, +3 shield)
+HP: '80'
+HD: (9d8+36)
+Saves: Fort +9, Ref +7, Will +12
+Fort: '9'
+Ref: '7'
+Will: '12'
+DefensiveAbilities: 20% miss chance on ranged attacks, freedom of movement
+Speed: 20 ft.
+Melee:
+  - +1 bastard sword +10/+5 (1d10+3/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 2/day (DC 13, 5d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 9th; concentration +14)
+  values:
+    - label: At Will
+      value: lore keeper (29), remote viewing (9 rounds/day)
+    - label: 8/day
+      value: blast rune or spell rune (1d6+4 energy damage or spell, 9 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 9th; concentration +14)   5th-flame strike (DC 20),
+  greater command (DC 21), true seeingD   4th-air walk, divinationD, divine
+  power, freedom of movement   3rd-dispel magic, glyph of wardingD, magic
+  vestment (2), wind wall   2nd-cure moderate wounds, detect thoughtsD (DC 17),
+  graceAPG (2), hold person (DC 18), sound burst (DC 17)   1st-comprehend
+  languagesD, cure light wounds (2), obscuring mist, sanctuary (DC 16), shield
+  of faith (2)   0 (at will)-detect magic, light, mending, read magic
+SpellDomains: Knowledge, Rune
+AbilityScores:
+  - 14
+  - 12
+  - 14
+  - 10
+  - 20
+  - 8
+BaseAtk: '6'
+CMB: '8'
+CMD: '19'
+Feats:
+  - Combat Casting
+  - Exotic Weapon Proficiency (bastard sword)
+  - Lightning Reflexes
+  - Scribe Scroll
+  - Spell Focus (enchantment)
+  - Toughness
+  - Weapon Focus (bastard sword)
+Skills:
+  - Diplomacy +7
+  - Knowledge (religion) +8
+  - Perception +14
+  - Sense Motive +12
+  - Spellcraft +7
+RacialMods: '-4 Acrobatics when jumping'
+Languages:
+  - Common
+SQ: aura
+Source: PFS S4-10
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Kesoulla keeps magic vestment on her armor and shield at all times. If alerted
+  by the symbol of scrying in area B6, she also casts entropic shield, freedom
+  of movement, and true seeing. These effects are reflected in her stat block.
+DuringCombat: >-
+  Kesoulla puts up a wind wall to prevent ranged attacks against herself, then
+  pounds the party with ranged spells. She uses blade barrier if she can
+  effectively split up the party. Otherwise, she continues to use ranged spells
+  as long as possible. When forced into melee, Kesoulla uses greater command
+  (flee) and grace to slip away. (Remember that characters who reenter the area
+  need to make the save against forbiddance again.) When other choices are
+  exhausted, she casts divine power, then fights defensively.
+Morale: >-
+  Once her guards are slain and it's clear she is going to lose the fight,
+  Kesoulla tries to grab the chest filled with sigil wafers and flee out the
+  back exit. Once she reaches the surface, she quaffs her potion of invisibility
+  and flees using air walk. If the PCs withdraw from the room even briefly, she
+  takes the opportunity to grab the sigil wafers and flee.
+Gear: potion of invisibility, scroll of blade barrier, scroll of cure serious wounds
+OtherGear: >-
+  mwk breastplate, mwk light steel shield, +1 bastard sword, cloak of resistance
+  +1, headband of inspired wisdom +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  If Kesoulla is not alerted by the symbol of scrying in area B6, there is no
+  miss chance to hit her with ranged attacks and she lacks true seeing and
+  freedom of movement. Without magic vestment, her statistics are AC 18, touch
+  11, flat-footed 17.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7672'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,117 @@
+Name: Atga
+CR: '7'
+XP: '3200'
+Race: human
+Class: sorcerer 8
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +6
+AC: 20, touch 14, flat-footed 17
+AC_Mods: (+4 armor, +1 deflection, +2 Dex, +1 dodge, +2 natural)
+HP: '75'
+HD: (8d6+45)
+Saves: Fort +6, Ref +6, Will +9
+Fort: '6'
+Ref: '6'
+Will: '9'
+Immune: cold (96 points)
+Resist: cold 10
+Speed: 30 ft.
+Melee:
+  - club +3 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 7/day
+      value: elemental ray (1d6+4 cold)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 8th; concentration +12)
+  values:
+    - label: 4th (4/day)
+      value: wall of ice (DC 20)
+    - label: 3rd (6/day)
+      value: fireball (DC 19), protection from energy, stinking cloud (DC 17)
+    - label: 2nd (7/day)
+      value: false life, mirror image, scorching ray (cold), web (DC 16)
+    - label: 1st (7/day)
+      value: >-
+        burning hands (cold) (DC 17), charm person (DC 15), grease, mage armor,
+        magic missile, ray of enfeeblement (DC 15)
+    - label: 0 (at will)
+      value: >-
+        acid dart, dancing lights, daze (DC 14), detect magic, light, mage hand,
+        message, prestidigitation
+AbilityScores:
+  - 8
+  - 14
+  - 14
+  - 10
+  - 12
+  - 18
+BaseAtk: '4'
+CMB: '3'
+CMD: '17'
+Feats:
+  - Dodge
+  - Eschew Materials
+  - Greater Spell Focus (evocation)
+  - Point-Blank Shot
+  - Precise Shot
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Acrobatics +4
+  - Bluff +12
+  - Knowledge (arcana) +7
+  - Knowledge (geography) +1
+  - Knowledge (religion) +1
+  - Linguistics +1
+  - Perception +6
+  - Spellcraft +8
+Languages:
+  - Common
+  - Giant
+  - Skald
+SQ: bloodline arcana (change energy damage spells to match bloodline energy)
+Source: PFS S4-04
+IsTemplate: '0'
+Gender: Female
+Bloodline: elemental (water)
+BeforeCombat: >-
+  Atga casts false life, mage armor, and protection from energy (cold) on
+  herself, and protection from energy (cold) on Formoch.
+DuringCombat: >-
+  Atga uses stinking cloud to disable as many enemies as possible, then uses
+  wall of ice or web to separate the PCs and prevent them from attacking
+  Formoch. Atga prefers disabling enemies and relies on Formoch's ability to
+  deal damage, but uses fireball or scorching ray if doing so takes out a
+  weakened enemy.
+Morale: Atga fights to the death.
+Gear: scroll of dimension door, scroll of haste, scroll of see invisibility
+OtherGear: >-
+  club, amulet of natural armor +2, cloak of resistance +2, ring of protection
+  +1, 575 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without false life, mage armor, and protection from energy (cold), Atga's
+  statistics are AC 16, touch 14, flat-footed 13; hp 62; Immune none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7634'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

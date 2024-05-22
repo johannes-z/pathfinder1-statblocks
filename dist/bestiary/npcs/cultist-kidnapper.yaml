@@ -1,0 +1,89 @@
+Name: Cultist Kidnapper
+CR: '1'
+XP: '400'
+Race: Human
+Class: rogue 2
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +4
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex)
+HP: '18'
+HD: (2d8+6)
+Saves: Fort +2, Ref +5, Will +1
+Fort: '2'
+Ref: '5'
+Will: '1'
+DefensiveAbilities: evasion
+Speed: 30 ft.
+Melee:
+  - rapier +4 (1d6+2/18-20)
+  - sap +4 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +1d6
+AbilityScores:
+  - 14
+  - 15
+  - 14
+  - 10
+  - 8
+  - 13
+BaseAtk: '1'
+CMB: '3'
+CMD: '15'
+Feats:
+  - Iron Will
+  - Weapon Finesse
+  - Weapon Focus (rapier)
+Skills:
+  - Acrobatics +5
+  - Bluff +6
+  - Diplomacy +5
+  - Disguise +5
+  - Intimidate +6
+  - Knowledge (local) +4
+  - Knowledge (religion) +2
+  - Perception +4
+  - Sense Motive +4
+  - Stealth +15
+  - Use Magic Device +5
+Languages:
+  - Common
+SQ: rogue talent (finesse rogue), trapfinding +1
+Source: AP 110
+IsTemplate: '0'
+BeforeCombat: >-
+  If the ambush takes place at night, the cultists each apply a dose of
+  nightdrops and use their elixir of hiding.
+DuringCombat: >-
+  The cultists fight well together, working to set up flanking with one another
+  to make sneak attacks.
+Morale: >-
+  If any of the cultists are reduced to 5 or fewer hit points, they all drink
+  their potions of vanish and flee the scene before anyone else notices the
+  attack.
+Gear: >-
+  elixir of hiding, nightdropsUE, oil of magic weapon, potion of cure light
+  wounds, potion of vanish
+OtherGear: chain shirt, rapier, sap, unholy symbol of Hastur, 10 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8561'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,113 @@
+Name: Edavagor
+CR: '12'
+XP: '19200'
+Race: Edavagor
+MonsterSource: 'kobold quarterly #22 12'
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '9'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +22
+AC: 26, touch 14, flat-footed 21
+AC_Mods: (+5 Dex, +12 natural, -1 size)
+HP: '184'
+HD: (16d10+96)
+Saves: Fort +16, Ref +17, Will +8
+Fort: '16'
+Ref: '17'
+Will: '8'
+DefensiveAbilities: amorphous
+DR: 10/good
+Immune: mind-affecting effects, fire, poison
+Resist: acid 10, cold 10
+SR: '23'
+Speed: 50 ft., climb 10 ft.
+Melee:
+  - >-
+    2 bites +25 (1d8+10 plus disease and spoor worm), 2 claws +25 (1d6+10), 1
+    tail +25 (1d8+10 plus trip)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  breath weapon (2 30-ft. cones, 8d6 fire damage plus spoor worm, Reflex DC 24
+  half, usable every 1d4 rounds)
+AbilityScores:
+  - 30
+  - 21
+  - 23
+  - 13
+  - 16
+  - 16
+BaseAtk: '16'
+CMB: '27'
+CMD: 42 (46 vs. trip)
+Feats:
+  - Acrobatic Steps
+  - Combat Reflexes
+  - Improved Initiative
+  - Lightning Reflexes
+  - Lunge
+  - Nimble Moves
+  - Power Attack
+  - Run
+Skills:
+  - Acrobatics +24 (+32 when jumping)
+  - Climb +37
+  - Knowledge (planes) +20
+  - Perception +22
+  - Stealth +20
+  - Survival +22
+  - Swim +26
+Languages:
+  - Common
+  - Infernal
+  - telepathy 100 ft.
+Source: PFS S4-13
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      When an edavagor uses its breath weapon, both of its heads breathe a
+      30-foot-long cone of flame. These cones can be directed to affect separate
+      squares (dealing 8d6 points of fire damage to those within), or can cover
+      the same area (wholly or partially; dealing 16d6 points of fire damage to
+      those within). The save DC is Constitution-based.
+  - name: Disease (Su)
+    description: >-
+      Devil Chills: Bite-injury; save Fort DC 24; onset immediate; frequency
+      1/day; effect 1d4 Str damage; cure 3 consecutive saves. The save DC is
+      Constitution-based.
+  - name: Spoor Worm (Su)
+    description: >-
+      Any creature bitten by an edavagor must attempt a DC 24 Reflex save as a
+      wave of worms spills over its wound. On a failed save, the devil's worms
+      latch onto the creature or burrow into its wound. While the worms don't
+      damage or hinder the creature, their presence allows the edavagor to know
+      where the infected creature is at all times, as per the spell locate
+      creature with no maximum range and even between planes. Any remove disease
+      effect instantly destroys a spoor worm infestation. Immunity to disease
+      offers no defense. The save DC is Constitution-based.
+DuringCombat: >-
+  Losarkur's loyal edavagor opens combat with its breath weapon, attempting to
+  get as many targets as possible within the two cones. On rounds when it cannot
+  use its breath weapon, the edavagor wades fearlessly into the largest mass of
+  enemies it can reach, using its size and many attacks to deal damage to as
+  many creatures as possible each round.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7684'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,121 @@
+Name: Alu-Demon
+CR: '5'
+XP: '800'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '2'
+Senses:
+  - darkvision 120 ft.
+  - Perception +15
+AC: 18, touch 12, flat-footed 16
+AC_Mods: (+2 Dex, +6 natural)
+HP: '45'
+HD: (6d10+12)
+Saves: Fort +6, Ref +6, Will +4
+Fort: '6'
+Ref: '6'
+Will: '4'
+DR: 5/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '16'
+Speed: 30 ft., fly 50 ft. (average)
+Melee:
+  - longsword +9/+4 (1d8+3/19-20) or 2 claws +9 (1d6+3 plus vampiric touch)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th)
+  values:
+    - label: 3/day
+      value: >-
+        charm person (DC 14), detect thoughts (DC 15), disguise self, suggestion
+        (DC 16)
+    - label: 1/day
+      value: dimension door
+AbilityScores:
+  - 17
+  - 15
+  - 15
+  - 15
+  - 15
+  - 16
+BaseAtk: '6'
+CMB: '9'
+CMD: '21'
+Feats:
+  - Blind-Fight
+  - Cleave
+  - Power Attack
+Skills:
+  - Bluff +11
+  - Diplomacy +12
+  - Escape Artist +11
+  - Fly +6
+  - Intimidate +12
+  - Knowledge (planes) +11
+  - Perception +15
+  - Stealth +11
+  - Survival +11
+RacialMods: +4 Perception
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+Environment: any (Abyss)
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This shapely female humanoid has dark hair, dark eyes, and a pair of small
+  black horns just above her eyes. Small, black, leathery wings protrude from
+  her shoulders.
+Group: Demon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Vampiric Touch (Su)
+    description: >-
+      An alu-demon gains temporary hit points equal to the damage dealt each
+      time she successfully hits with a claw attack. She cannot gain more than
+      her target's current hit points + the target's Con score (which is enough
+      to kill the target). The temporary hit points disappear in one hour.
+Description:
+  - >-
+    The alu-demon is the female demonic offspring of a succubus and human.
+    Though part demon, not all alu-demons are inherently evil (although
+    good-aligned alu-demons are extremely rare). The typical aludemon has black
+    or brown hair and dark green, brown, or black eyes. Alu-demons are always
+    female. Alu-demons are often sent to the Material Plane to seduce mortals.
+    When on such missions they typically arrange their flowing hair so it hides
+    their horns and also fold their wings against their backs (and tuck them
+    under their robe, shirt, or whatever garment of clothing one happens to be
+    wearing at the time). Alu-demons attack with weapons (preferring longswords
+    or maces) or with claws. The alu-demon mixes in her spell-like abilities
+    regardless of the method of attack utilized. Credit The Alu-Demon originally
+    appeared in the First Edition module S4 Lost Caverns of Tsojcanth (©
+    TSR/Wizards of the Coast, 1982) and later in the First Edition Monster
+    Manual II (© TSR/Wizards of the Coast, 1983) and is used by permission.
+    Copyright Notice Author Scott Greene, based on original material by Gary
+    Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: longsword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2431'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

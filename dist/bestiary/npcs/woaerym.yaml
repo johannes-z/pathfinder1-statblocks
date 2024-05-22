@@ -1,0 +1,141 @@
+Name: Woaerym
+CR: '11'
+XP: '12800'
+Race: drider
+Class: sorcerer 4
+MonsterSource: Pathfinder RPG Bestiary 113
+Alignment: CE
+Size: Large
+Type: aberration
+Init: '4'
+Senses:
+  - darkvision 120 ft., detect good, detect law, detect magic
+  - Perception +16
+AC: 27, touch 15, flat-footed 22
+AC_Mods: (+4 armor, +1 deflection, +4 Dex, +1 dodge, +8 natural, -1 size)
+HP: '136'
+HD: (13 HD; 4d6+9d8+82)
+Saves: Fort +10, Ref +8, Will +14
+Fort: '10'
+Ref: '8'
+Will: '14'
+DR: 5/- (nonlethal)
+Immune: sleep
+Resist: cold 5
+SR: '18'
+Speed: 30 ft., climb 20 ft.
+Melee:
+  - +1 vampiric dagger +10/+5 (1d6+3/19-20), bite +6 (1d4+1 plus poison)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: web (+11 ranged, DC 20, 13 hp)
+SpellLikeAbilities:
+  header: Drider Spell-Like Abilities (CL 9th; concentration +14)
+  values:
+    - label: Constant
+      value: detect good, detect law, detect magic
+    - label: At Will
+      value: dancing lights, darkness, faerie fire
+    - label: 1/day
+      value: >-
+        clairaudience/clairvoyance, deeper darkness, dispel magic, levitate,
+        suggestion (DC 18) Sorcerer Spell-Like Abilities (CL 10th; concentration
+        +15)
+    - label: 8/day
+      value: grave touch (2 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: feeblemind (DC 20)
+    - label: 4th (6/day)
+      value: dimension door, greater assume appearanceHA
+    - label: 3rd (7/day)
+      value: fly, lightning bolt (DC 18), nondetection
+    - label: 2nd (7/day)
+      value: acid arrow, alter self, eagle's splendor, mirror image
+    - label: 1st (8/day)
+      value: >-
+        alarm, chill touch (DC 16), grease (DC 16), mage armor, magic missile,
+        ray of enfeeblement (DC 16)
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, bleed (DC 15), detect magic, mage hand,
+        mending, open/close (DC 15), prestidigitation, read magic
+AbilityScores:
+  - 15
+  - 18
+  - 22
+  - 13
+  - 18
+  - 20
+BaseAtk: '8'
+CMB: '11'
+CMD: 27 (39 vs. trip)
+Feats:
+  - Alertness
+  - Arcane Strike
+  - Combat Casting
+  - Deceitful
+  - Dodge
+  - Eschew Materials
+  - Extend Spell
+  - Weapon Finesse
+Skills:
+  - Bluff +28
+  - Climb +10
+  - Diplomacy +8
+  - Disguise +25
+  - Intimidate +8
+  - Knowledge (arcana) +11
+  - Perception +16
+  - Sense Motive +18
+  - Spellcraft +11
+  - Stealth +4
+Languages:
+  - Common
+  - Elven
+  - Undercommon
+SQ: >-
+  bloodline arcana (corporeal undead affected by humanoid-affecting spells),
+  undersized weapons
+Source: AP 135
+IsTemplate: '0'
+Gender: Female
+Bloodline: undead
+BeforeCombat: >-
+  Woaerym casts alarm on the door to area D1 every day, and she casts mage armor
+  on herself as soon as she hears anyone at the door or if the alarm there is
+  triggered in her head.
+DuringCombat: >-
+  Woaerym's first act in combat is to cast mirror image, followed by fly the
+  next round. After that, she takes to the air to avoid melee attacks and use
+  her ranged spells. If reduced to fewer than 75 hit points, she flies down to
+  the secret door to area D3a and opens it, releasing the clay golem there to
+  attack the intruders (she knows that if the PCs destroy the golem, they'll
+  have a harder time navigating area D4, after all).
+Morale: >-
+  Woaerym casts dimension door to escape to area D12 if reduced to fewer than 30
+  hit points, whereupon she warns Erigantus of the PCs' attack. If encountered
+  deeper in the dungeon, she instead casts dimension door to escape to area D1
+  and abandons the Shrine of the Seal entirely (although, at your discretion,
+  she may come back at a later date to seek vengeance on the PCs).
+Gear: potions of cure serious wounds (2)
+OtherGear: >-
+  +1 vampiricHA dagger, circlet of persuasion, ring of protection +1, detailed
+  sketch of Brother Javrin made while he lived
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11924'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

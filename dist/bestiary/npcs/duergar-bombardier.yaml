@@ -1,0 +1,108 @@
+Name: Duergar Bombardier
+CR: '1'
+XP: '400'
+Race: Duergar
+Class: alchemist 2
+MonsterSource: Pathfinder RPG Advanced Player's Guide 26
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '4'
+Senses:
+  - darkvision 120 ft.
+  - Perception +6
+AC: 22, touch 14, flat-footed 18
+AC_Mods: (+2 armor, +4 Dex, +6 natural)
+HP: '18'
+HD: (2d8+6)
+Saves: Fort +5, Ref +7, Will +0; +2 vs. spells
+Fort: '5'
+Ref: '7'
+Will: '0'
+Save_Mods: +2 vs. spells
+Immune: paralysis, phantasms, poison
+Weaknesses: light sensitivity
+Speed: 20 ft.
+Melee:
+  - light mace +2 (1d6+1)
+Ranged:
+  - bomb +6 (1d6+2 acid or fire)
+  - light crossbow +3 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bomb 6/day (1d6+2 acid or fire, DC 13)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 2nd; concentration -1)
+  values:
+    - label: 1/day
+      value: invisibility (self only), ironskin*
+AbilityScores:
+  - 12
+  - 16
+  - 15
+  - 15
+  - 10
+  - 4
+BaseAtk: '1'
+CMB: '2'
+CMD: 16 (20 vs. bull rush or trip)
+Feats:
+  - Brew Potion
+  - Extra Bombs
+  - Throw Anything
+Skills:
+  - Craft (alchemy) +7
+  - Disable Device +8
+  - Heal +4
+  - Knowledge (arcana) +7
+  - Perception +6
+  - Survival +4
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Dwarven
+  - Undercommon
+SQ: >-
+  alchemy (alchemy crafting +2, identify potions), discovery (acid bomb),
+  ironskinned*, mutagen (+4/-2, +2 natural, 20 minutes), poison use, slow and
+  steady, stability
+Source: Monster Codex
+IsTemplate: '0'
+BeforeCombat: The bombardier quaffs a Dexterity mutagen and casts ironskin.
+DuringCombat: >-
+  The bombardier spends most of the combat lobbing bombs or alchemist's fire at
+  her foes, using invisibility and potions of longstrider to gain superior
+  tactical positions or make a hasty retreat.
+Gear: >-
+  potions of cure light wounds (2), potions of detect secret doors (2), potions
+  of expeditious retreat (2), potions of negate aromaAPG (2), acid (6),
+  alchemist's fire (6), smokesticks (6), tanglefoot bags (6), thunderstones (6)
+OtherGear: >-
+  leather armor, light crossbow with 10 bolts, light mace, dust of
+  tracelessness, tindertwigs (6), formula book, 2 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When she's not under the effect of her mutagen and ironskin, the bombardier's
+  statistics are Init +2; AC 14, touch 12, flat-footed 12; Ref +5, Will +1;
+  Ranged bomb +4 (1d6+2 fire) or light crossbow +3 (1d8/19&#8211;20); Dex 14,
+  Wis 12; CMD 14 (18 vs. bull rush, 18 vs. trip); Skills Heal +6, Disable Device
+  +7, Perception +6, Survival +6.
+ExtractsPrepared: >-
+  Alchemist Extracts Prepared (CL 2nd)   1st-bomber's eyeAPG, shield, true
+  strike
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6422'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

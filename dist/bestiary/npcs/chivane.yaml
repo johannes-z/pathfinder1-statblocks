@@ -1,0 +1,139 @@
+Name: Chivane
+CR: '8'
+XP: '4800'
+Race: elf
+Class: rogue 5/Red Mantis assassin 4
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (elf )
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +15
+AC: 20, touch 16, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, +4 Dex, +1 dodge)
+HP: '54'
+HD: (9d8+14)
+Saves: Fort +4, Ref +11, Will +3; +2 vs.  enchantments
+Fort: '4'
+Ref: '11'
+Will: '3'
+Save_Mods: +2 vs.  enchantments
+DefensiveAbilities: evasion, red shroud (1/day, 4 rounds), trap sense +1, uncanny dodge
+Speed: 30 ft.
+Melee:
+  - >-
+    +1 sawtooth sabre +10/+5 (1d8+4/19-20), mwk  sawtooth sabre +10
+    (1d8+2/19-20)
+Ranged:
+  - mwk hand crossbow +11 (1d4/19-20 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: prayer attack (DC 18), sneak attack +5d6 plus 5 bleed
+SpellLikeAbilities:
+  header: Red Mantis Spell-Like Abilities (CL 4th; concentration +6)
+  values:
+    - label: 1/day
+      value: summon mantis
+SpellsKnown:
+  header: Red Mantis Spells Known (CL 4th; concentration +6)
+  values:
+    - label: 2nd (2/day)
+      value: blur, cat's grace, invisibility
+    - label: 1st (3/day)
+      value: expeditious retreat, feather fall, spider climb, true strike
+AbilityScores:
+  - 12
+  - 18
+  - 12
+  - 12
+  - 8
+  - 14
+BaseAtk: '6'
+CMB: '7'
+CMD: '23'
+Feats:
+  - Alertness
+  - Dodge
+  - Exotic Weapon Proficiency (sawtooth sabre)
+  - Two-Weapon Fighting
+  - Weapon Finesse
+  - Weapon Focus (sawtooth sabre)
+  - Weapon Specialization (sawtooth sabre)
+Skills:
+  - Acrobatics +21
+  - Bluff +14
+  - Climb +10
+  - Disable Device +12
+  - Disguise +8
+  - Escape Artist +8
+  - Intimidate +14
+  - Knowledge (nature) +6
+  - Knowledge (nobility) +6
+  - Knowledge (religion) +6
+  - Perception +15
+  - Sense Motive +6
+  - Stealth +16
+  - Use Magic Device +14
+Languages:
+  - Common
+  - Polyglot
+SQ: >-
+  elven magic, rogue talents (bleeding attack +5, weapon training), sabre
+  fighting (gains Weapon Specialization as a bonus feat), trapfinding +2, weapon
+  familiarity
+Source: AP 39
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Prayer Attack (Su)
+    description: >-
+      Chivane must be within 30 feet of and visible to her victim to use this
+      specialized assassination attack. Beginning a prayer attack is a standard
+      action, and causes her victim to be fascinated by her unless he makes a DC
+      18 Will save. She can maintain the fascination effect by concentrating.
+      The victim may attempt a new save to escape fascination each time a
+      potential threat (other than the fascinating assassin) appears. At any
+      point after 3 rounds, she may make a coup de grace attack against the
+      target, provided that the target is still fascinated.
+  - name: Red Shroud (Su)
+    description: >-
+      Chivane can create a veil of red mist once per day as a move-equivalent
+      action. The red shroud persists for 4 rounds, granting a +1 dodge bonus to
+      AC and fast healing 1. This mist cannot be dissipated by wind. If she is
+      slain while this ability is active, she can choose to remain corporeal or
+      disintegrate into a cloud of red mist that leaves behind only her gear.
+  - name: Summon Mantis (Sp)
+    description: >-
+      Once per day, Chivane may summon an advanced fiendish giant mantis, 1d3
+      fiendish giant mantises, or 1d4+1 giant mantises, as if using summon
+      monster V. She can mentally direct the actions of these summoned vermin as
+      a free action. All mantises summoned by this spell-like ability are
+      blood-red, and gain no racial bonus on Stealth checks in forests.
+Gender: Female
+DuringCombat: >-
+  Chivane uses her red shroud ability as combat begins. She picks a single
+  target and attempts to use her prayer attack against that enemy. If hard
+  pressed, Chivane summons fiendish giant mantises to aid her priests.
+Morale: Chivane fights to the death.
+Gear: potion of cure light wounds, potion of cure moderate wounds, antitoxin
+OtherGear: >-
+  +1 studded leather, +1 sawtooth sabre, masterwork hand crossbow with 10 shadow
+  essence poisoned bolts, masterwork sawtooth sabre, boots of elvenkind, cloak
+  of resistance +1, ring of protection +1, disguise kit, spell component pouch,
+  masterwork thieves' tools
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1007'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

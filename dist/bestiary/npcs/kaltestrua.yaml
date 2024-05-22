@@ -1,0 +1,132 @@
+Name: Kaltestrua
+CR: '21'
+XP: '409600'
+Race: marilith
+Class: sorcerer 7
+MonsterSource: Pathfinder RPG Bestiary 63
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +39
+Aura: unholy aura (DC 28)
+AC: 38, touch 19, flat-footed 32
+AC_Mods: (+4 armor, +4 deflection, +6 Dex, +15 natural, -1 size)
+HP: '430'
+HD: (23 HD; 16d10+7d6+318)
+Saves: Fort +28, Ref +22, Will +19
+Fort: '28'
+Ref: '22'
+Will: '19'
+DefensiveAbilities: evasion
+DR: 10/cold iron and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '28'
+Speed: 30 ft.
+Melee:
+  - >-
+    +4 ghost touch unholy heavy flail +31/+26/+21/+16 (2d8+14/17-20), 4 +3 ghost
+    touch flails +29 (2d6+6/19-20), tail slap +20 (2d6+3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  constrict (tail slap, 2d6+10 plus crushing coils), crushing coils, infuse
+  weapon, multiweapon mastery
+SpellLikeAbilities:
+  header: Marilith Spell-Like Abilities (CL 16th; concentration +26)
+  values:
+    - label: Constant
+      value: true seeing, unholy aura (DC 28)
+    - label: At Will
+      value: >-
+        greater teleport (self plus 50 lbs. of objects only), project image (DC
+        27), telekinesis (DC 25)
+    - label: 3/day
+      value: blade barrier (DC 26), fly
+    - label: 1/day
+      value: >-
+        summon (level 5, 1 marilith 20%, 1 nalfeshnee 35%, or 1d4 hezrous 60%)
+        Bloodline Spell-Like Abilities (CL 7th; concentration +17)
+    - label: 13/day
+      value: grave touch (3 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +17)
+  values:
+    - label: 3rd (6/day)
+      value: haste, major image (DC 23), vampiric touch
+    - label: 2nd (9/day)
+      value: alter self, command undead (DC 22), false life, invisibility
+    - label: 1st (9/day)
+      value: >-
+        chill touch (DC 21), mage armor, magic missile, shield, silent image (DC
+        21), unseen servant
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 20), detect magic, disrupt undead, ghost sound (DC 20),
+        message, read magic, touch of fatigue (DC 20)
+AbilityScores:
+  - 25
+  - 23
+  - 34
+  - 20
+  - 20
+  - 30
+BaseAtk: '19'
+CMB: +27 (+31 disarm, +31 trip)
+CMD: 49 (51 vs. disarm, can't be tripped)
+Feats:
+  - Combat Expertise
+  - Critical Focus
+  - Eschew Materials
+  - Greater Disarm
+  - Greater Trip
+  - Improved Critical (heavy flail)
+  - Improved Disarm
+  - Improved Trip
+  - Multiweapon Defense
+  - Power Attack
+  - Staggering Critical
+  - Toughness
+  - Weapon Focus (heavy flail)
+  - Weapon Focus (flail)
+Skills:
+  - Acrobatics +32
+  - Bluff +36
+  - Diplomacy +36
+  - Fly +30
+  - Intimidate +36
+  - Knowledge (engineering) +26
+  - Knowledge (religion) +31
+  - Perception +39
+  - Sense Motive +31
+  - Stealth +28
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+SQ: bloodline arcana (corporeal undead affected by humanoid-affecting spells)
+Source: Demons Revisited
+IsTemplate: '0'
+Gender: Female
+Bloodline: undead
+Gear: +4 ghost touch unholy heavy flail, +3 ghost touch flails (4), ring of evasion
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4851'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

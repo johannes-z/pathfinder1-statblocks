@@ -1,0 +1,117 @@
+Name: Eustoyriax
+CR: '11'
+XP: '12800'
+Race: mythic shadow demon
+MonsterSource: Pathfinder RPG Bestiary 67, 294; Pathfinder RPG Mythic Adventures
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar, incorporeal, mythic)
+Init: '10'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +25
+AC: 25, touch 25, flat-footed 17
+AC_Mods: (+7 deflection, +6 Dex, +2 dodge)
+HP: '155'
+HD: (10d10+100)
+Saves: Fort +9, Ref +13, Will +11
+Fort: '9'
+Ref: '13'
+Will: '11'
+DefensiveAbilities: endure sunlight, incorporeal
+DR: 10/cold iron and epic or good and epic
+Immune: cold, electricity, poison
+Resist: acid 10, fire 10
+SR: '21'
+Speed: fly 40 ft. (perfect)
+Melee:
+  - bite +16 (1d8 plus 1d6 cold), 2 claws +16 (1d6 plus 1d6 cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  mythic power (4/day, surge 1d8), possession mastery, pounce, shadow blend,
+  sprint
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +17)
+  values:
+    - label: At Will
+      value: >-
+        deeper darkness, fear (DC 21), greater teleport (self only), telekinesis
+        (DC 22), summon (level 2, 1d3 shadows, 75%)
+    - label: 3/day
+      value: magic jar (DC 24), shadow conjuration (DC 21), shadow evocation (DC 22)
+    - label: 1/day
+      value: summon (level 3, 1 shadow demon 50%)
+AbilityScores:
+  - —
+  - 22
+  - 23
+  - 18
+  - 18
+  - 25
+BaseAtk: '10'
+CMB: '16'
+CMD: '35'
+Feats:
+  - Ability Focus (magic jar)
+  - Blind-Fight
+  - Combat ReflexesM
+  - DodgeM
+  - Improved Initiative
+Skills:
+  - Acrobatics +19 (+7 when jumping)
+  - Bluff +20
+  - Fly +27
+  - Intimidate +17
+  - Knowledge (arcana) +17
+  - Knowledge (local) +17
+  - Knowledge (planes) +17
+  - Perception +25
+  - Sense Motive +17
+  - Stealth +19
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+SQ: shadowblood
+Source: AP 74
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Endure Sunlight (Ex)
+    description: >-
+      Eustoyriax does not possess the standard shadow demon weakness of sunlight
+      powerlessness.
+  - name: Possession Mastery (Su)
+    description: >-
+      Eustoyriax can use magic jar three times per day. When he affects a
+      creature with this ability, he can use all of its abilities, including
+      spellcasting.
+  - name: Shadowblood (Su)
+    description: >-
+      As a standard action once per day while possessing a living creature,
+      Eustoyriax can create a single does of shadowblood by cutting his borrowed
+      flesh and allowing the blood to fill a vial.
+Gender: Male
+DuringCombat: >-
+  Eustoyriax tries to possess any obvious healers in the group for the first 3
+  rounds of combat before switching to physical attacks. If the doors to area
+  G12 are open, he uses telekinesis to try to push foes into the pit in that
+  room.
+Morale: Eustoyriax fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4915'
+UniqueMonster: '0'
+Variant: '0'
+MR: '4'
+Mythic: '1'
+MT: '0'

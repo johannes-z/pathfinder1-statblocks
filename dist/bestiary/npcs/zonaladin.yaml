@@ -1,0 +1,146 @@
+Name: Zonaladin
+CR: '14'
+XP: '38400'
+Race: old copper dragon
+MonsterSource: Pathfinder RPG Bestiary 106
+Alignment: CG
+Size: Huge
+Type: dragon
+SubType: (earth)
+Init: '3'
+Senses:
+  - dragon senses
+  - Perception +27
+Aura: frightful presence (240 ft., DC 24), slow (5 ft., DC 25, 1 round)
+AC: 32, touch 7, flat-footed 32
+AC_Mods: (-1 Dex, +25 natural, -2 size)
+HP: '227'
+HD: (19d12+104; currently 190)
+Saves: Fort +17, Ref +10, Will +16
+Fort: '17'
+Ref: '10'
+Will: '16'
+DefensiveAbilities: uncanny dodge
+DR: 10/magic
+Immune: acid, paralysis and sleep, dragon traits
+SR: '26'
+Speed: 40 ft., fly 200 ft. (poor)
+Speed_Mod: climb stone
+Melee:
+  - >-
+    bite +25 (2d8+12/19-20), 2 claws +25 (2d6+8/19-20), 2 wings +20 (1d8+4),
+    tail slap +20 (2d6+12)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (100-ft. line, 16d6 acid, Reflex DC 25 for half, usable every
+  1d4 rounds), crush, slow breath
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 19th; concentration +24)
+  values:
+    - label: At Will
+      value: >-
+        grease (DC 16), hideous laughter (DC 17), stone shape, transmute mud to
+        rock (DC 20), transmute rock to mud (DC 20)
+SpellsKnown:
+  header: Spells Known (CL 11th; concentration +16)
+  values:
+    - label: 5th (5/day)
+      value: feeblemind (DC 20), phantasmal webAPG (DC 21)
+    - label: 4th (7/day)
+      value: >-
+        confusion (DC 19), hallucinatory terrain (DC 20), resilient sphere (DC
+        19)
+    - label: 3rd (7/day)
+      value: dispel magic, heroism, major image (DC 19), wind wall
+    - label: 2nd (7/day)
+      value: >-
+        glitterdust (DC 17), invisibility, phantom trap, resist energy, see
+        invisibility
+    - label: 1st (8/day)
+      value: alarm, identify, magic missile, shield, silent image (DC 17)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound, light, mage hand, message,
+        open/close, prestidigitation, read magic
+AbilityScores:
+  - 27
+  - 8
+  - 23
+  - 20
+  - 21
+  - 20
+BaseAtk: '19'
+CMB: +29 (+33 trip)
+CMD: 38 (44 vs. trip)
+Feats:
+  - Combat Expertise
+  - Greater Trip
+  - Improved Critical (bite)
+  - Improved Critical (claws)
+  - Improved Initiative
+  - Improved Trip
+  - Improved Vital Strike
+  - Power Attack
+  - Spell Focus (illusion)
+  - Vital Strike
+Skills:
+  - Bluff +27
+  - Craft (traps) +35
+  - Diplomacy +27
+  - Fly +13
+  - Knowledge (arcana) +27
+  - Knowledge (history) +27
+  - Perception +27 (+35 vs. traps)
+  - Perform (comedy) +24
+  - Sense Motive +27
+  - Spellcraft +27
+  - Use Magic Device +27
+RacialMods: +8 Perception vs. traps
+Languages:
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Gnome
+  - Halfling
+SQ: trap master
+Source: PFS S4-20
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Zonaladin begins combat with the fatigued condition, two negative levels, and
+  only two remaining spells per level due to his long vigil and earlier battles
+  against the cult of Lissala. The penalty to Str and Dex from fatigue and the
+  reduction of maximum hit points and CMD from his negative levels have already
+  been applied to his statistics. Additionally, he suffers a &#8211;2 penalty on
+  ability checks, attack rolls, combat maneuver checks, saving throws, and skill
+  checks from his negative levels, which has not been reflected in his stats.
+  These penalties, which Zonaladin has no way to remove himself, reduce his
+  Challenge Rating by 1.
+DuringCombat: >-
+  Zonaladin is a cautious fighter and attempts to slow as many enemies as
+  possible before retreating to  one of the columns rising from the ravine.
+  There he harasses the PCs with his breath weapon while physically
+  incapacitating anyone who can reach him. He closes with serious ranged threats
+  to trip and disarm them.
+Morale: >-
+  Zonaladin's enjoyment of combat lasts only so long as he is healthy and has an
+  advantage. If reduced to 30 hit points or fewer or made incapable of fighting
+  effectively, he flees back to his lair, hoping to heal and await the
+  Pathfinders' exit from the Thousandth Spire.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: old
+CompanionFamiliarLink: '0'
+id: '7727'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

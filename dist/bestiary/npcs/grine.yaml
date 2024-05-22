@@ -1,0 +1,119 @@
+Name: Grine
+CR: '4'
+XP: '1200'
+Race: dark creeper
+Class: cleric of Norgorber 1/rogue 2
+MonsterSource: Pathfinder RPG Bestiary 53
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (dark folk)
+Init: '8'
+Senses:
+  - see in darkness
+  - Perception +12
+AC: 19, touch 17, flat-footed 15
+AC_Mods: (+2 armor, +2 deflection, +4 Dex, +1 size)
+HP: '38'
+HD: (6d8+12)
+Saves: Fort +5, Ref +10, Will +5
+Fort: '5'
+Ref: '10'
+Will: '5'
+DefensiveAbilities: evasion
+Weaknesses: light blindness
+Speed: 30 ft.
+Speed_Mod: climb 20 ft.
+Melee:
+  - mwk handaxe +9 (1d4+1/x3 plus poison)
+Ranged:
+  - mwk throwing axe +9 (1d4+1 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 2/day (DC 9, 1d6), death throes, sneak attack +2d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +2)
+  values:
+    - label: At will
+      value: >-
+        darkness, detect magic Domain Spell-Like Abilities (CL 1st;
+        concentration +3)
+    - label: 5/day
+      value: bleeding touch (1 round)
+    - label: 5/day
+      value: copycat (1 round)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 1st; concentration +3)  1st-command (DC 13),
+  disguise selfD (DC 13), shield of faith  0 (at will)-bleed (DC 12), detect
+  magic, read magic
+SpellDomains: Death, Trickery
+AbilityScores:
+  - 12
+  - 18
+  - 15
+  - 10
+  - 15
+  - 8
+BaseAtk: '3'
+CMB: '3'
+CMD: '19'
+Feats:
+  - Improved Initiative
+  - Skill Focus (Sleight of Hand)
+  - Weapon Finesse
+Skills:
+  - Acrobatics +10
+  - Bluff +4
+  - Climb +14
+  - Craft (alchemy) +7
+  - Disable Device +8
+  - Disguise +8 (+18 with disguise self )
+  - Perception +12
+  - Sleight of Hand +14
+  - Stealth +18
+Languages:
+  - Common
+  - Dark Folk
+SQ: poison use, rag armor, rogue talents (lasting poison*), trapfinding +1
+Source: AP 44
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Black Smear: injury; save Fort DC 15; frequency 1/ round for 6 rounds;
+      effect 1d2 Str; cure 1 save.
+Gender: Male
+BeforeCombat: Grine casts shield of faith and imbibes his potion of spider climb.
+DuringCombat: >-
+  Grine prefers to attack opponents in the Vats (area E4). If encountered in his
+  room, he tries to retreat into that area to have better maneuverability and
+  options. He uses darkness to conceal himself to make sneak attacks with his
+  poisoned throwing axes, and attempts to draw enemies onto the dangerous planks
+  above the vats.
+Morale: >-
+  If reduced to 10 hit points or fewer, Grine retreats to area E9 to collect his
+  homunculi before escaping the factory through the tower using spider climb.
+Gear: potion of cure light wounds, potion of spider climb, acid (2), antitoxin
+OtherGear: >-
+  rags, masterwork handaxe, masterwork throwing axes (3), disguise kit, holy
+  symbol of Norgorber, black smear poison (6 doses), spell component pouch,
+  thieves' tools
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his spells and potion, Grine's statistics are AC 17, touch 15,
+  flat-footed 13; Skills Climb +10.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1597'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

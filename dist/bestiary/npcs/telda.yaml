@@ -1,0 +1,124 @@
+Name: Telda
+CR: '3'
+XP: '800'
+Race: hobgoblin
+Class: oracle 4
+MonsterSource: Advanced Player's Guide 42, Pathfinder RPG Bestiary 175
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +1
+AC: 19, touch 14, flat-footed 17
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 shield)
+HP: '43'
+HD: (4d8+12; 10 temporary)
+Saves: Fort +4, Ref +3, Will +5
+Fort: '4'
+Ref: '3'
+Will: '5'
+Speed: 30 ft.
+Melee:
+  - mwk morningstar +3 (1d8-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 4th; concentration +7)
+  values:
+    - label: 2nd (4/day)
+      value: false life, inflict moderate wounds (DC 16), lesser animate dead
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 15), inflict light wounds (DC 15), obscuring mist, shield
+        of faith, summon monster I
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, mending, read magic, resistance
+AbilityScores:
+  - 8
+  - 15
+  - 16
+  - 10
+  - 12
+  - 16
+BaseAtk: '3'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Skeleton Summoner
+  - Spell Focus (necromancy)
+Skills:
+  - Heal +7
+  - Intimidate +10
+  - Knowledge (religion) +7
+  - Linguistics +1
+  - Spellcraft +7
+  - Stealth +13
+RacialMods: +4 Stealth
+Languages:
+  - Abyssal
+  - Common
+  - Goblin
+  - Necril
+SQ: oracle's curse (tongues), revelations (armor of bones, bleeding wounds)
+Source: PFS S3-23
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Armor of Bones (Su)
+    description: >-
+      Telda can conjure armor made of bones that grants her a +4 armor bonus for
+      4 hours per day. This duration does not need to be consecutive, but it
+      must be spent in 1-hour increments.
+  - name: Bleeding Wounds (Su)
+    description: >-
+      Whenever a creature takes damage from one of Telda's spells or effects
+      that causes negative energy damage, it begins to bleed, taking 1 point of
+      damage each round. The bleeding can be stopped by a successful DC 15 Heal
+      check or any effect that heals damage. Skeleton Summoner Telda adds "human
+      skeleton" to the list of creatures she can summon with summon monster I
+      and "human skeletal champion" to the list of creatures she can summon with
+      summon monster III. Once per day, when casting summon monster, she may
+      summon a skeletal version of one of the creatures on that spell's
+      summoning list (apply the skeleton template to that creature to create
+      this monster).
+Gender: Female
+BeforeCombat: >-
+  If she discovers that intruders have entered her lair, Telda conjures her
+  armor of bones and casts false life and shield of faith before combat.
+DuringCombat: >-
+  Once combat begins, Telda's curse takes effect, causing her voice to deepen
+  and only allowing her to communicate in Abyssal. Telda casts obscuring mist
+  during the first round of combat. She hides within the mist while she casts
+  summon monster I to summon a human skeleton using her Skeleton Summoner feat.
+  Telda casts lesser animate dead on any available corpse or skeleton, including
+  a slain PC if the opportunity presents itself.
+Morale: >-
+  Telda fights to the death, believing that her goddess will reward her in the
+  afterlife for her unfaltering servitude.
+Gear: >-
+  scroll of bane, scroll of lesser restoration, scrolls of cure moderate wounds
+  (2), wand of inflict light wounds (19 charges)
+OtherGear: >-
+  masterwork light wooden shield, masterwork morningstar, 8 onyx gems (each
+  worth 25 gp), silver unholy symbol of Urgathoa, spell component pouch, 99 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without her spells, Telda's statistics are AC 13, touch 12, flat-footed 11; hp
+  33.
+AgeCategory: Adult
+Mystery: bones
+CompanionFamiliarLink: '0'
+id: '6687'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

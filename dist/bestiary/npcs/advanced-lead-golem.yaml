@@ -1,0 +1,89 @@
+Name: Advanced Lead Golem
+CR: '11'
+XP: '12800'
+Race: lead golems
+MonsterSource: Pathfinder RPG Bestiary 5 288, 127
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '-2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 30, touch 9, flat-footed 30
+AC_Mods: (+21 natural, -1 size)
+HP: '107'
+HD: (14d10+30)
+Saves: Fort +4, Ref +4, Will +6
+Fort: '4'
+Ref: '4'
+Will: '6'
+DR: 10/adamantine
+Immune: acid, construct traits, electricity, magic
+Speed: 20 ft.
+Melee:
+  - 2 slams +23 (2d10+10)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: retributive miasma
+AbilityScores:
+  - 30
+  - 11
+  - —
+  - —
+  - 15
+  - 1
+BaseAtk: '14'
+CMB: '25'
+CMD: 35 (43 vs. bull rush, reposition)
+SQ: divination screen, intractable density
+Source: PFS 8-17
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Divination Screen (Ex)
+    description: Divination spells cast within 60 feet of a lead golem automatically fail.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A lead golem is immune to spells or spell-like abilities that allow spell
+      resistance. Certain spells and effects function differently against a lead
+      golem, as noted here. 1. A magical attack that deals acid damage instead
+      coats the lead golem, granting its slam attacks an additional 1d6 acid
+      damage for the following 1d4 rounds. 2. A gust of wind or neutralize
+      poison spell directed at the lead golem dissipates any clouds created by
+      its retributive miasma ability and prevents it from using that ability for
+      1d6 rounds.
+  - name: Intractable Density (Ex)
+    description: >-
+      The weight and sturdiness of its form grants the lead golem a +8 racial
+      bonus on CMD versus bull rush and reposition combat maneuvers.
+  - name: Retributive Miasma (Ex)
+    description: >-
+      Any attack that overcomes the damage reduction of the lead golem causes
+      fine lead particles to fill the air within a 5-foot radius of the lead
+      golem. This cloud of lead persists for 1 round; any creatures within the
+      area or that pass through the cloud are exposed to the cloud's poisonous
+      effects. Subsequent attacks damaging the golem increase the duration of
+      the cloud by 1 round each. Poison Cloud-inhaled; save Fort 16; frequency
+      1/round for 6 rounds; effect 1d3 Constitution and 1d3 Wisdom damage; cure
+      2 saves. The save DC is Constitution-based.
+DuringCombat: >-
+  The lead golem attempts to corner melee opponents, hoping to inflict its
+  retributive miasma on as many foes as possible. It does not generally pursue
+  foes that leave the room, unless attacked from outside the room.
+Morale: The lead golem fights until it is destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11185'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

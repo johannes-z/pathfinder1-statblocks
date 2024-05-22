@@ -1,0 +1,104 @@
+Name: Holy Ahendile
+CR: '2'
+XP: '600'
+Race: human
+Class: sorcerer (Razmiran priest) 3
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea Magic 38'
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +0
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex)
+HP: '19'
+HD: (3d6+6)
+Saves: Fort +2, Ref +3, Will +3
+Fort: '2'
+Ref: '3'
+Will: '3'
+Resist: cold 5, fire 5
+Speed: 30 ft.
+Melee:
+  - mwk dagger +1 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 3rd; concentration +6)
+  values:
+    - label: 6/day
+      value: minute meteors (1d4+1 fire, DC 14)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 3rd; concentration +6)
+  values:
+    - label: 1st (6/day)
+      value: burning hands (DC 14), mage armor, ray of enfeeblement (DC 14)
+    - label: 0 (at will)
+      value: acid splash, bleed (DC 13), daze (DC 13), detect magic, read magic
+AbilityScores:
+  - 8
+  - 14
+  - 13
+  - 12
+  - 10
+  - 17
+BaseAtk: '1'
+CMB: '0'
+CMD: '14'
+Feats:
+  - Defensive Combat Training
+  - False Casting
+  - False Focus
+  - Magical Aptitude
+Skills:
+  - Bluff +9
+  - Knowledge (local) +2
+  - Knowledge (religion) +5
+  - Sleight of Hand +3
+  - Spellcraft +9
+  - Use Magic Device +11
+Languages:
+  - Common
+  - Hallit
+SQ: false piety, lay healer
+Source: PFS S5-01
+IsTemplate: '0'
+SpecialAbilities:
+  - name: False Piety (Ex)
+    description: >-
+      A Razmiran priest gains Knowledge (religion) and Perform as class skills,
+      but loses Appraise and Fly as class skills. She gains half her level as a
+      bonus to activate spell trigger and spell completion items that use divine
+      spells. She gains False Focus as a bonus feat but does not gain Eschew
+      Materials.
+  - name: Lay Healer (Su)
+    description: >-
+      At 3rd level, the Razmiran priest adds aid to her list of spells known. At
+      5th level she adds remove disease to her list of spells known. These
+      replace the bloodline spells that she would normally gain at 3rd and 5th
+      level respectively.
+Gender: Female
+Bloodline: starsoulAPG
+Gear: >-
+  potion of invisibility, scroll of scare, wand of cure light wounds (25
+  charges)
+OtherGear: mwk dagger, silver unholy symbol of Razmir, 113 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: Razmiran priest
+CompanionFamiliarLink: '0'
+id: '8002'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

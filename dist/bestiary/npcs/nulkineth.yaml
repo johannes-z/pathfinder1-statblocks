@@ -1,0 +1,133 @@
+Name: Nulkineth
+CR: '7'
+XP: '3200'
+Race: half-nabasu human
+Class: inquisitor of Kabriri 6
+MonsterSource: >-
+  Pathfinder RPG Advanced Player's Guide 38, Pathfinder Campaign Setting: Demons
+  Revisited 42
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +13
+AC: 21, touch 12, flat-footed 21
+AC_Mods: (+7 armor, +2 profane, +2 shield)
+HP: '84'
+HD: (6d8+54)
+Saves: Fort +10, Ref +4, Will +9
+Fort: '10'
+Ref: '4'
+Will: '9'
+DR: 5/magic
+Immune: death effects, poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '18'
+Speed: 20 ft., fly 60 ft. (good)
+Melee:
+  - +1 battle aspergillum +10 (1d6+6/19-20), bite +4 (1d6+3), claw +4 (1d4+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bane (6 rounds/day), consume flesh 1/day, smite good 1/day
+SpellLikeAbilities:
+  header: Half-Nabasu Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: 3/day
+      value: darkness
+    - label: 1/day
+      value: >-
+        silence (DC 15), unholy blight (DC 17) Inquisitor Spell-Like Abilities
+        (CL 6th; concentration +10)
+    - label: At Will
+      value: >-
+        detect alignment, lore keeper (25), remote viewing (6 rounds/day) 6
+        rounds/day-discern lies
+SpellsKnown:
+  header: Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 2nd (4/day)
+      value: >-
+        corruption resistanceAPG, cure moderate wounds, spiritual weapon, weapon
+        of aweAPG
+    - label: 1st (5/day)
+      value: command (DC 15), cure light wounds, curse water, expeditious retreat
+    - label: 0 (at will)
+      value: bleed (DC 14), brandAPG, detect magic, guidance, read magic, resistance
+SpellDomains: Knowledge
+AbilityScores:
+  - 17
+  - 10
+  - 20
+  - 12
+  - 18
+  - 16
+BaseAtk: '4'
+CMB: '7'
+CMD: '19'
+Feats:
+  - Flyby Attack
+  - Improved Initiative
+  - Lightning Reflexes
+  - Toughness
+  - OutflankAPG
+  - Pack AttackUC
+Skills:
+  - Fly +8
+  - Intimidate +15
+  - Knowledge (local) +10
+  - Knowledge (religion) +10
+  - Perception +13
+  - Sense Motive +16
+  - Stealth +4
+  - Survival +13
+Languages:
+  - Abyssal
+  - Common
+SQ: >-
+  cunning initiative, judgment 2/day, monster lore +4, solo tactics, stern gaze,
+  track +3
+Source: AP 74
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Consume Flesh (Su)
+    description: >-
+      Once per day, Nulkineth can entirely consume the body of a human, which
+      takes the half-nabasu 10 minutes of grisly work-doing so grants Nulkineth
+      a +2 profane bonus on all attack rolls and damage rolls, as well as to his
+      AC. In addition, the act grants the half-nabasu 2 temporary hit points per
+      Hit Die. These effects last for 1 hour per Hit Die. Nulkineth has already
+      fed upon a 5th-level prisoner, and the benefits from this ability are
+      figured into his stat block above.
+Gender: Male
+BeforeCombat: Nulkineth casts corruption resistance (evil) and expeditious retreat.
+DuringCombat: >-
+  Nulkineth first pronounces a justice judgment on his foes and casts weapon of
+  awe on his +1 battle aspergillum. He then attacks, smiting good against anyone
+  who appears to be a cleric, paladin, or other holy servant of a good deity.
+Morale: >-
+  Once reduced to fewer than 20 hit points, Nulkineth flees after casting
+  darkness to throw off pursuit. Once he's escaped, he heals his wounds as best
+  he can and then heads straight for Drezen, hoping to trade information about
+  the PCs' army in exchange for safe quarter there.
+Gear: wand of hold person (10 charges), unholy water (3)
+OtherGear: >-
+  +1 breastplate, heavy steel shield, +1 battle aspergillumUE, holy symbol of
+  Kabriri, powdered silver worth 250 gp, key to area D8
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4905'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

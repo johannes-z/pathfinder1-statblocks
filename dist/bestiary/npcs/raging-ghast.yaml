@@ -1,0 +1,99 @@
+Name: Raging Ghast
+CR: '4'
+XP: '1200'
+Race: ghast
+Class: barbarian 2
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft., scent 30 ft.
+  - Perception +12
+Aura: stench (10-foot radius, Fort DC 20, sickened 1d6+4 minutes)
+AC: 20, touch 13, flat-footed 15
+AC_Mods: (+3 armor, +5 Dex, +4 natural, -2 rage)
+HP: '54'
+HD: (4 HD; 2d8+2d12+32)
+Saves: Fort +11, Ref +5, Will +10
+Fort: '11'
+Ref: '5'
+Will: '10'
+DefensiveAbilities: channel resistance +2, uncanny dodge
+Speed: 40 ft.
+Melee:
+  - >-
+    bite +11 (1d6+7 plus disease and paralysis), 2 claws +10  (1d6+7 plus
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: paralysis (1d4+1 rounds, DC 19), rage (12 rounds/ day), rage powers (scent)
+AbilityScores:
+  - 25
+  - 21
+  - —
+  - 17
+  - 20
+  - 26
+BaseAtk: '3'
+CMB: '10'
+CMD: '25'
+Feats:
+  - Weapon Finesse
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +9
+  - Climb +14
+  - Handle Animal +13
+  - Intimidate +13
+  - Perception +12
+  - Stealth +12
+  - Swim +11
+  - Survival +10
+Languages:
+  - Common
+Source: PFS S1-48
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite- injury; save Fort DC 19; onset 1 day; frequency 1 day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at
+      the next midnight. A humanoid who becomes a ghoul in this way retains none
+      of the abilities it possessed in life. It is not under the control of any
+      other ghouls, but it hungers for the flesh of the living and behaves like
+      a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as
+      a ghast.
+Gender: Male
+BeforeCombat: The ghast moves to the area marked G and waits.
+DuringCombat: >-
+  Because of the close quarters, the ghast tries to block in the first PC
+  through the door and limit combat to just him and the first PC. Should the PCs
+  back out of the room, the ghast hides at the spot marked G again and waits.
+Morale: The ghast fights until destroyed.
+Gear: potion of inflict moderate wounds
+OtherGear: >-
+  masterwork studded leather, masterwork torturer's tool (masterwork artisan's
+  tools), 250 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not raging, the barbarian's statistics are: no scent; stench Fort DC 18;
+  AC 22, touch 15, flat-footed 17; hp 46; Fort +9, Will +8; Melee bite +9 (1d6+5
+  plus disease and paralysis), 2 claws +8 (1d6+5 plus paralysis); paralysis
+  (1d4+1 rounds, DC 17); Str 21, Cha 22; CMB +8, CMD 23; Climb +12, Handle
+  Animal +11, Intimidate +11, Swim +9; Ghoul Fever: save Fort DC 17
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4485'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

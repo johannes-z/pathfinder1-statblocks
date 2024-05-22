@@ -1,0 +1,121 @@
+Name: Marrowgarth
+CR: '16'
+XP: '76800'
+Race: adult red dragon
+MonsterSource: Pathfinder RPG Bestiary 98, Pathfinder RPG Bestiary 2 230
+Alignment: CE
+Size: Huge
+Type: undead
+SubType: (fire)
+Init: '4'
+Senses:
+  - blindsense 120 ft., darkvision 240 ft., dragon senses, smoke vision
+  - Perception +33
+Aura: cowering fear, fire (5 ft., 1d6), frightful presence (180 ft., DC 24)
+AC: 36, touch 11, flat-footed 36
+AC_Mods: (+3 deflection, +21 natural, +4 shield, -2 size)
+HP: '210'
+HD: (17d8+134)
+Saves: Fort +16, Ref +10, Will +17
+Fort: '16'
+Ref: '10'
+Will: '17'
+DefensiveAbilities: channel resistance +4, soul ward (31 hp)
+DR: 5/good
+Immune: fire, undead traits
+SR: '25'
+Weaknesses: vulnerability to cold
+Speed: 40 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +27 (2d8+18/19-20), 2 claws +27 (2d6+12/19-20), tail  slap +25
+    (2d6+18/19-20), 2 wings +25 (1d8+6/19-20)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (50-ft. cone, 12d10 fire plus 2 negative levels, Reflex DC 24
+  half, usable every 1d4 rounds), crush (2d8+18, DC 24), soul consumption (DC
+  24), soul magic, tail sweep (DC 24)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 17th; concentration +23)
+  values:
+    - label: At will
+      value: detect magic, pyrotechnics (DC 16), suggestion (DC 17)
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 10th; concentration +16)  5th-waves of fatigue 
+    4th-dimension door, lesser globe of invulnerability  3rd-dispel magic,
+    haste, lightning bolt (DC 19)  2nd-command undead (DC 18), false life,
+    invisibility, see invisibility  1st-grease (DC 17), magic missile, ray of
+    enfeeblement, shield, true strike  0-acid splash, bleed (DC 16), dancing
+    lights, detect magic, ghost sound (DC 16), mage hand, message,
+    prestidigitation, read magic
+  values: []
+AbilityScores:
+  - 35
+  - 10
+  - —
+  - 20
+  - 21
+  - 22
+BaseAtk: '17'
+CMB: '31'
+CMD: 44 (48 vs. trip)
+Feats:
+  - Cleave
+  - Flyby Attack
+  - Improved Initiative
+  - Improved Vital Strike
+  - Iron Will
+  - Multiattack
+  - Power Attack
+  - Toughness
+  - Vital Strike
+Skills:
+  - Appraise +25
+  - Bluff +26
+  - Fly +12
+  - Intimidate +34
+  - Knowledge (arcana) +25
+  - Knowledge (history) +18
+  - Knowledge (religion) +25
+  - Perception +33
+  - Sense Motive +25
+  - Spellcraft +25
+  - Stealth +20
+  - Survival +15
+Languages:
+  - Common
+  - Draconic
+  - Dwarven
+  - Ignan
+  - Necril
+  - Orc
+Source: AP 48
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Marrowgarth casts false life and shield before she engages the PCs.
+DuringCombat: >-
+  See Battle with Marrowgarth below for her actions during combat. If forced
+  into melee combat, she makes full attacks with all of her natural weapons,
+  focusing her rage on individual combatants.
+Morale: >-
+  Unwilling to give up her unnatural existence, Marrowgarth flees when reduced
+  to 50 hit points or fewer, continuing to plague Virlych and consume souls
+  until her health is restored.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: ravener|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1804'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

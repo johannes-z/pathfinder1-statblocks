@@ -1,0 +1,134 @@
+Name: Carnag
+CR: '11'
+XP: '12800'
+Race: dark naga
+MonsterSource: Pathfinder RPG Bestiary 211
+Alignment: LE
+Size: Large
+Type: aberration
+Init: '6'
+Senses:
+  - darkvision 60 ft., detect thoughts
+  - Perception +21
+AC: 24, touch 16, flat-footed 17
+AC_Mods: (+6 Dex, +1 dodge, +8 natural, -1 size)
+HP: '152'
+HD: (16d8+80)
+Saves: Fort +10, Ref +13, Will +14 (+16 vs. charm effects)
+Fort: '10'
+Ref: '13'
+Will: +14 (+16 vs. charm effects)
+DefensiveAbilities: guarded thoughts
+Immune: poison
+Speed: 40 ft.
+Melee:
+  - bite +13 (1d6+3), sting +13 (2d6+3 plus poison)
+Space: 10 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Spells Known (CL 10th; concentration +13)
+  values:
+    - label: 5th (3/day)
+      value: interposing hand
+    - label: 4th (5/day)
+      value: greater invisibility, wall of ice
+    - label: 3rd (7/day)
+      value: displacement, lightning bolt (DC 16), stinking cloud
+    - label: 2nd (7/day)
+      value: cat's grace, invisibility, scorching ray, web
+    - label: 1st (7/day)
+      value: >-
+        expeditious retreat, magic missile, ray of enfeeblement (DC 14), reduce
+        person, shield, silent image
+    - label: 0 (at will)
+      value: >-
+        daze, detect magic, light, made hand, mending, open/ close, ray of
+        frost, read magic, touch of fatigue
+AbilityScores:
+  - 14
+  - 23
+  - 20
+  - 16
+  - 15
+  - 17
+BaseAtk: '12'
+CMB: '15'
+CMD: 32 (can't be tripped)
+Feats:
+  - Alertness
+  - Combat Casting
+  - Dodge
+  - Eschew MaterialsB
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Spring Attack
+  - Stealthy
+Skills:
+  - Bluff +16
+  - Diplomacy +11
+  - Disguise +9
+  - Escape Artist +18
+  - Intimidate +16
+  - Knowledge (arcana) +19
+  - Knowledge (history) +4
+  - Knowledge (religion) +4
+  - Perception +21
+  - Sense Motive +21
+  - Spellcraft +18
+  - Stealth +23
+Languages:
+  - Common
+  - Hallit
+  - Infernal
+  - Undercommon
+Source: PFS S2-12
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Detect Thoughts (Su)
+    description: >-
+      Carnag can continuously use detect thoughts as per the spell (caster level
+      9th; Will DC 18 negates). The save DC is Charisma-based.
+  - name: Guarded Thoughts (Ex)
+    description: >-
+      Carnag is immune to any form of mind reading, such as that granted by
+      detect thoughts. This ability also grants a +2 racial bonus on all saves
+      against charm effects.
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 23; frequency 1 round; effect sleep for 2d4
+      minutes; cure 1 save. Spells Carnag casts spells as a 10th-level sorcerer.
+Gender: Male
+BeforeCombat: >-
+  Carnag slithers into hiding when he hears anyone descend the stairs, using
+  cat's grace to improve his Stealth, but calls out to learn who is there. If
+  the conversation goes poorly, he casts greater invisibility on himself before
+  moving from his hiding place and uses detect thoughts to identify the
+  cleverest of the group to target with his poisoned sting in the surprise
+  round.
+DuringCombat: >-
+  Carnag uses his interposing hand, wall of ice, and web spells to separate a
+  group, isolating single targets to confront. He alternates using his poisoned
+  sting and damaging spells, but prefers to keep mobile and rarely makes
+  full-attack actions, trying to use the deep pits to prevent himself from being
+  flanked or overwhelmed
+Morale: >-
+  While Carnag would normally flee combat after losing half his normal hit
+  points, his geas forces him to fight to the death. Once reduced below half his
+  normal hit points, he begs for mercy while maintaining the attack.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5549'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

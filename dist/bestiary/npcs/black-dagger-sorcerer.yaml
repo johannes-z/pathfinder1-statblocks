@@ -1,0 +1,110 @@
+Name: Black Dagger Sorcerer
+CR: '4'
+XP: '1200'
+Race: Tiefling
+Class: sorcerer 5
+MonsterSource: Pathfinder RPG Bestiary 264
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +3
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+4 armor, +3 Dex, +1 dodge)
+HP: '30'
+HD: (5d6+10)
+Saves: Fort +3, Ref +5, Will +6; +2 vs. poison
+Fort: '3'
+Ref: '5'
+Will: '6'
+Save_Mods: +2 vs. poison
+Resist: cold 5, electricity 5, fire 5
+Speed: 30 ft.
+Melee:
+  - mwk dagger +3 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +7)
+  values:
+    - label: 1/day
+      value: darkness Bloodline Spell-Like Abilities (CL 5th; concentration +8)
+    - label: 6/day
+      value: corrupting touch (2 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +8)
+  values:
+    - label: 2nd (5/day)
+      value: ghoul touch (DC 15), mirror image, scorching ray
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 14), charm person (DC 16), magic missile, protection
+        from good, vanishAPG
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 13), detect magic, flare (DC 13), ghost sound (DC
+        13), read magic
+AbilityScores:
+  - 10
+  - 16
+  - 12
+  - 10
+  - 13
+  - 14
+BaseAtk: '2'
+CMB: '2'
+CMD: '16'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Improved Initiative
+Skills:
+  - Bluff +9
+  - Craft (alchemy) +5
+  - Perception +3
+  - Stealth +9
+Languages:
+  - Common
+  - Infernal
+SQ: bloodline arcana (+2 DC for charm spells), fiendish sorcery
+Source: AP 105
+IsTemplate: '0'
+Bloodline: infernal
+BeforeCombat: >-
+  If aware of intruders, the Black Dagger sorcerers cast mage armor and mirror
+  image, and drink their potions of blur before entering battle.
+DuringCombat: >-
+  The sorcerers target opponents with spells such as scorching ray, ghoul touch,
+  burning hands, or magic missile, and summon lemures or fiendish wolves with
+  their wands of summon monster II.
+Morale: >-
+  The sorcerers are less afraid of death than most members of their guild. A
+  Black Dagger sorcerer continues to fight until it is the sole remaining Black
+  Dagger left in battle, at which point the sorcerer casts vanish and flees to
+  regroup.
+Gear: >-
+  potion of blur, potion of cure light wounds, scroll of alarm, scroll of mage
+  armor (3), scroll of spider climb, wand of summon monster II (13 charges),
+  alchemist's fire (2)
+OtherGear: >-
+  mwk dagger, cloak of resistance +1, dust of tracelessness, skeleton keyUE, 53
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8315'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

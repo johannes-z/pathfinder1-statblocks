@@ -1,0 +1,98 @@
+Name: Ice Golem
+CR: '5'
+XP: '1600'
+Alignment: 'N'
+Size: Large
+Type: construct
+SubType: (cold)
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 16, touch 8, flat-footed 16
+AC_Mods: (-1 Dex, +8 natural, -1 size)
+HP: '63'
+HD: (6d10+30)
+Saves: Fort +2, Ref +1, Will +2
+Fort: '2'
+Ref: '1'
+Will: '2'
+DR: 5/adamantine
+Immune: cold, construct traits, magic
+Weaknesses: vulnerability to fire
+Speed: 20 ft.
+Melee:
+  - 2 slams +9 (1d6+4 plus 1d6 cold)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  breath weapon (20-ft. cone, 3d6 cold damage, Reflex DC 15 for half, usable
+  once every 1d4 rounds), cold (1d6)
+AbilityScores:
+  - 18
+  - 9
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '6'
+CMB: '11'
+CMD: '20'
+Environment: any
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This automaton is nearly twice as tall as a normal human and seems to be
+  chiseled from ice and snow.
+Group: Golem
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: The save DC is Constitution-based and includes a +2 racial bonus.
+  - name: Cold (Ex)
+    description: >-
+      An ice golem's body generates intense cold, dealing 1d6 points of damage
+      with its touch. Creatures attacking an ice golem unarmed or with natural
+      weapons take this same cold damage each time one of their attacks hit.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      An ice golem is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against the creature, as noted below. Lightning-based effects
+      sl ow an ice golem (as the spell) for 2d6 rounds. Cold-based effects heal
+      all of its lost hit points.
+Description:
+  - >-
+    The ice golem is a humanoid formed of roughly chiseled ice, standing 10 feet
+    tall and weighing around 800 pounds. Ice golems at rest appear to be normal
+    ice sculptures and are often mistaken as such (DC 20 Perception check to
+    notice the creature is alive). An ice golem usually opens combat with its
+    breath weapon. An ice golem never uses weapons or wears armor, preferring to
+    attack with its powerful fists. Fire is an effective means of combating
+    these creatures. Construction An ice golem's body must be constructed from a
+    single block of ice weighing at least 1,000 pounds. The ice is treated with
+    magical powders and unguents worth at least 500 gp. ICE GOLEM CL 12th; Price
+    19,600 gp Requirements Craft Construct, chill touch, cone of cold,
+    geas/quest, polymorph any object, resist energy (cold), creator must be
+    caster level 12th; Skill Craft (sculptures) DC 17; Cost 10,050 gp Copyright
+    Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2648'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

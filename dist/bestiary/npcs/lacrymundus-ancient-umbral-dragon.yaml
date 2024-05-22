@@ -1,0 +1,151 @@
+Name: Lacrymundus, Ancient Umbral Dragon
+CR: '19'
+XP: '204800'
+Race: Ancient umbral dragon
+Alignment: CE
+Size: Gargantuan
+Type: dragon
+SubType: (extraplanar)
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +35
+Aura: frightful presence (300 ft., DC 29)
+AC: 38, touch 5, flat-footed 38
+AC_Mods: (-1 Dex, +33 natural, -4 size)
+HP: '337'
+HD: (25d12+175)
+Saves: Fort +21, Ref +13, Will +21
+Fort: '21'
+Ref: '13'
+Will: '21'
+DR: 15/magic
+Immune: death effects, energy drain, paralysis, sleep
+SR: '30'
+Speed: 40 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +33 (4d6+18/19-20), 2 claws +33 (2d8+12), tail slap +31 (2d8+18), 2
+    wings +31 (2d6+6)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, 20d8 negative energy, DC 29), create shadows,
+  crush, shadow breath, tail sweep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 25th; melee touch +33, ranged touch +20)
+  values:
+    - label: At will
+      value: darkness, project image (DC 23), shadow walk (DC 22), vampiric touch
+    - label: 3/day
+      value: finger of death (DC 24)
+SpellsKnown:
+  header: Spells Known (CL 15th; melee touch +33, ranged touch +20)
+  values:
+    - label: 7th (5/day)
+      value: spell turning, summon monster VII
+    - label: 6th (7/day)
+      value: circle of death (DC 23), contingency, geas/ quest
+    - label: 5th (7/day)
+      value: >-
+        break enchantment, cloudkill (DC 22), cone of cold (DC 22), shadow
+        evocation (DC 22)
+    - label: 4th (7/day)
+      value: enervation, ice storm, greater invisibility, phantasmal killer (DC 21)
+    - label: 3rd (8/day)
+      value: >-
+        deep slumber (DC 20), dispel magic, lightning bolt (DC 20), ray of
+        exhaustion (DC 20)
+    - label: 2nd (8/day)
+      value: >-
+        darkness, flaming sphere (DC 19), hideous laughter (DC 19), scorching
+        ray, web (DC 19)
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 18), grease (DC 18), magic missile, protection from
+        good (DC 18), shiield
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 17), daze (DC 17), detect magic, flare (DC 17),
+        ghost sound (DC 17), ray of frost, read magic, touch of fatigue (DC 17)
+AbilityScores:
+  - 35
+  - 8
+  - 25
+  - 24
+  - 25
+  - 24
+BaseAtk: '25'
+CMB: '41'
+CMD: 50 (54 vs. trip)
+Feats:
+  - Bleeding Critical
+  - Critical Focus
+  - Flyby Attack
+  - Greater Vital Strike
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Snatch
+  - Vital Strike
+Skills:
+  - Appraise +35
+  - Bluff +35
+  - Diplomacy +35
+  - Fly +13
+  - Knowledge (arcana) +35
+  - Knowledge (local) +35
+  - Knowledge (planes) +35
+  - Knowledge (religion) +35
+  - Perception +35
+  - Sense Motive +35
+  - Spellcraft +35
+  - Stealth +21
+  - Survival +35
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Undercommon
+SQ: ghost bane, umbral scion
+Source: Sword of Air-Chapter 5
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Shadows (Su)
+    description: >-
+      Any creature slain by an ancient or older umbral dragon rises as a shadow
+      (if 8 HD or less) or greater shadow (if above 8 HD) under the umbral
+      dragon's control 1d4 rounds later.
+  - name: Ghost Bane (Su)
+    description: >-
+      A young or older umbral dragon's physical attacks deal damage to
+      incorporeal creatures normally.
+  - name: Shadow Breath (Su)
+    description: >-
+      Three times per day, an adult or older umbral dragon can breathe a cone of
+      shadows. Creatures who fail a Fortitude save are blinded for 1d4 rounds
+      and take 1 point of Str drain per age category possessed by the dragon. A
+      successful save negates the blindness and reduces Str drain to 1d4 points.
+  - name: Umbral Scion (Ex)
+    description: >-
+      Umbral dragons have negative energy affinity and are immune to energy
+      drain and death effects.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12691'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

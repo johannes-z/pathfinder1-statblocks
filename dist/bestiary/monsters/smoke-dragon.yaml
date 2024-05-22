@@ -1,0 +1,126 @@
+Name: Smoke Dragon
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Small
+Type: dragon
+SubType: (air)
+Init: '1'
+Senses:
+  - dragon senses
+  - Perception +9
+AC: 17, touch 12, flat-footed 16
+AC_Mods: (+1 Dex, +5 natural, +1 size)
+HP: '22'
+HD: (3d12+3)
+Saves: Fort +4, Ref +4, Will +4
+Fort: '4'
+Ref: '4'
+Will: '4'
+Immune: paralysis, sleep
+SR: '10'
+Speed: 15 ft., fly 60 ft. (good)
+Melee:
+  - bite +5 (1d6), 2 claws +5 (1d4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: breath weapon (20 ft. cone, Fort DC 12, nauseated)
+AbilityScores:
+  - 11
+  - 12
+  - 13
+  - 10
+  - 12
+  - 10
+BaseAtk: '3'
+CMB: '2'
+CMD: 13 (17 vs. trip)
+Feats:
+  - Alertness
+  - Weapon Finesse
+Skills:
+  - Bluff +6
+  - Escape Artist +4
+  - Fly +13
+  - Knowledge (nature) +6
+  - Perception +9
+  - Sense Motive +3
+  - Stealth +11 (+15 in areas of smoke or fog)
+RacialMods: +4 to Stealth in areas of smoke or fog
+Languages:
+  - Common
+  - Draconic
+SQ: smoke form
+Environment: temperate forests and marshes
+Organization: solitary or wing (2-5 plus 1d4 non-combatant hatchlings)
+Treasure: standard
+Description_Visual: >-
+  This creature is a small, 3-foot long, dragon with a grayish underbelly and
+  black scales. Its feet are tipped with smoke-gray talons and it has red-tinged
+  wings and blue-gray eyes. Small under-curved horns protrude from its head and
+  its serpentine tail writhes like a plume of smoke.
+Group: Dragon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      A smoke dragon's breath weapon is a 20 ft. cone of thick, black smoke.
+      Creatures caught in the smoke must succeed on a Fortitude save or be
+      nauseated as they choke and cough. A creature that chokes for 3 or more
+      consecutive rounds takes 1d6 points of nonlethal damage per 2 HD of the
+      smoke dragon.
+  - name: Smoke Form (Ex)
+    description: >-
+      Once per day, a smoke dragon can assume a smoky form as a move action. It
+      can spend up to 1 minute per day per HD in smoke form. This time does not
+      have to be consecutive, but it must be spent in 1-minute increments. A
+      smoke form dragon can fly at a speed of 60 feet (good maneuverability).
+      The ability is otherwise similar to a gaseous form spell.
+Description:
+  - >-
+    Smoke dragons lair in marshes, dense forests, or just about any area where
+    thick fog is present (or can be present). They venture from their lair when
+    the fog is the thickest, so most encounters occur in the morning.
+  - >-
+    Lairs take the form of natural caves or caverns and are usually near a
+    natural source of water. They eat just about anything but prefer a diet of
+    fruits, plants, and berries. They also eat small animals such as mice and
+    other rodents found slinking about near their lair. A smoke dragon's feeding
+    grounds is generally small and most cover an area of less than 1 square
+    mile.
+  - >-
+    Smoke dragons live in small groups and such a group always includes at least
+    one mated pair. Hatchlings can assume smoke form for 1 minute per day but
+    cannot fly. If eggs are present, the female guards them closely and will
+    fight to the death protecting them. Eggs are round, mottled gray and black.
+  - >-
+    Smoke dragons are generally inoffensive creatures and keep to themselves.
+    Only when threatened or if their lair is threatened do they attack. In such
+    cases, a smoke dragon unleashes its breath weapon and then swoops in to
+    attack with its claws and bite. If the smoke dragon is outnumbered or
+    overwhelmed, it uses its smoke form to avoid its opponents and flee.
+    Multiple smoke dragons gang up against foes, alternating their breath weapon
+    and natural attacks with the other smoke dragons in the gang; i.e., one
+    smoke dragon belches forth its breath weapon while the others swoop in and
+    attack with their claws and bite.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2536'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

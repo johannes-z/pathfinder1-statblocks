@@ -1,0 +1,98 @@
+Name: Fetid Spore Mound
+CR: '9'
+XP: '6400'
+Race: shambling mound
+MonsterSource: Pathfinder RPG Bestiary 246, Dungeon Denizens Revisited 61
+Alignment: 'N'
+Size: Large
+Type: plant
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +13
+AC: 21, touch 9, flat-footed 21
+AC_Mods: (+12 natural, -1 size)
+HP: '90'
+HD: (12d8+36)
+Saves: Fort +11, Ref +6, Will +6
+Fort: '11'
+Ref: '6'
+Will: '6'
+DefensiveAbilities: compressible form
+DR: 10/slashing
+Immune: electricity, plant traits
+Resist: fire 10
+Speed: 20 ft., swim 20 ft.
+Melee:
+  - 2 slams +15 (2d6+6 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: constrict (2d6+9), spore discharge
+AbilityScores:
+  - 22
+  - 10
+  - 17
+  - 7
+  - 10
+  - 8
+BaseAtk: '9'
+CMB: +16 (+20 grapple)
+CMD: '26'
+Feats:
+  - Ability Focus (spore discharge)
+  - Cleave
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Weapon Focus (slam)
+Skills:
+  - Escape Artist +10 (+20 when squeezing through tight spaces)
+  - Perception +13
+  - Stealth +9 (+17 in swamps or forest)
+  - Swim +14
+RacialMods: >-
+  +10 Escape Artist (+20 when squeezing through tight spaces), +4 Perception, +4
+  Stealth (+12 in swamps or forest)
+Languages:
+  - Common
+  - Undercommon (cannot speak)
+SQ: electric fortitude
+Source: AP 46
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Compressible Form (Ex)
+    description: >-
+      A fetid spore mound is difficult to harm with piercing and bludgeoning
+      attacks, gaining DR 10/slashing and taking half damage from falls. It also
+      never takes penalties for squeezing into a 5-foot-wide space and gains a
+      +10 racial bonus on Escape Artist checks (+20 when squeezing through tight
+      spaces).
+  - name: Spore Discharge (Ex)
+    description: >-
+      If struck in combat, a fetid spore mound discharges a cloud of yellow mold
+      spores in a 10-foot radius. Exposure to direct sunlight renders the spore
+      mound's yellow mold dormant, and it does not discharge. Its spore
+      discharge is suppressed for 1 round if the creature is struck by a fire
+      attack that overcomes its fire resistance. Yellow mold spores: inhaled;
+      save Fort DC 17; frequency 1/round for 5 rounds; effect 1d3 Con damage;
+      cure 1 save.
+DuringCombat: >-
+  The fetid spore mound attempts to grab and constrict any targets that come
+  within reach.
+Morale: The fetid spore mound fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1696'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

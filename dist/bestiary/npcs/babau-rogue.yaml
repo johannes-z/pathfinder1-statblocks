@@ -1,0 +1,117 @@
+Name: Babau Rogue
+CR: '8'
+XP: '4800'
+Race: Babau
+Class: rogue 2
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +21
+AC: 21, touch 13, flat-footed 18
+AC_Mods: (+3 Dex, +8 natural)
+HP: '103'
+HD: (9 HD; 7d10+2d8+56)
+Saves: Fort +11, Ref +11, Will +5
+Fort: '11'
+Ref: '11'
+Will: '5'
+DefensiveAbilities: evasion, protective slime
+DR: 10/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '17'
+Speed: 30 ft.
+Melee:
+  - >-
+    2 claws +15 (1d6+7), bite +15 (1d6+7), or mwk longspear +16/+11 (1d8+10/x3),
+    bite +15 (1d6+3)
+Ranged:
+  - chakram +11/+6 (1d8+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +3d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At Will
+      value: >-
+        darkness, dispel magic, greater teleport (self plus 50 lbs. of objects
+        only)
+    - label: 1/day
+      value: summon (level 3, 1 babau 40%)
+AbilityScores:
+  - 25
+  - 17
+  - 22
+  - 16
+  - 13
+  - 14
+BaseAtk: '8'
+CMB: '15'
+CMD: '28'
+Feats:
+  - Combat Reflexes
+  - Improved Initiative
+  - Iron Will
+  - Quick Draw
+  - Skill Focus (Stealth)
+Skills:
+  - Acrobatics +15
+  - Bluff +14
+  - Climb +19
+  - Disable Device +15
+  - Escape Artist +15
+  - Perception +21
+  - Sense Motive +13
+  - Sleight of Hand +15
+  - Stealth +26
+  - Swim +14
+RacialMods: +8 Perception, +8 Stealth
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+SQ: rogue talents (bleeding attack +3), trapfinding +1
+Source: PFS S5-05
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Protective Slime (Su)
+    description: >-
+      A layer of acidic slime coats a babau's skin. Any creature that strikes a
+      babau with a natural attack or unarmed strike takes 1d8 points of acid
+      damage from this slime if it fails a DC 19 Reflex save. A creature that
+      strikes a babau with a melee weapon must make a DC 19 Reflex save or the
+      weapon takes 1d8 points of acid damage; if this damage penetrates the
+      weapon's hardness, the weapon gains the broken condition. Ammunition that
+      strikes a babau is automatically destroyed after it inflicts its damage.
+DuringCombat: >-
+  The babau demons attempt to lure the PCs toward the wolf-in-sheep's-clothing
+  by moving to flank it, swatting at the gnome, and attacking the PCs with
+  chakrams. They avoid entering the reach of the wolf-in-sheep's clothing unless
+  doing so would be to their advantage; they correctly suspect that the
+  aberration doesn't want to attack them, especially not if there is other food
+  available.
+Morale: If one babau dies, the other flees if reduced to 30 hp or less.
+OtherGear: mwk longspear, chakrams (4)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8019'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

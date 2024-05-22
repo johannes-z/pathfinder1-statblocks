@@ -1,0 +1,114 @@
+Name: Crawling Hand Plague Swarm
+CR: '16'
+XP: '76800'
+Race: plague swarm
+MonsterSource: Pathfinder RPG Bestiary 5 192
+Alignment: NE
+Size: Diminutive
+Type: undead
+SubType: (mythic, swarm)
+Init: +13M/-7, dual initiative
+Senses:
+  - blindsense 30 ft., darkvision 60 ft.
+  - Perception +13
+AC: 30, touch 17, flat-footed 27
+AC_Mods: (+9 armor, +1 Dex, +2 dodge, +4 natural, +4 size)
+HP: '234'
+HD: (20d8+144)
+HP_Mods: fast healing 5
+Saves: Fort +9, Ref +9, Will +14; second save
+Fort: '9'
+Ref: '9'
+Will: '14'
+Save_Mods: second save
+DefensiveAbilities: reform, swarm traits
+DR: 10/epic
+Immune: undead traits, weapon damage
+Speed: 40 ft. (30 ft. in armor), climb 40 ft. (30 ft. in armor)
+Melee:
+  - swarm (4d6 plus 4d6 blight, distraction, steal, and throttle)
+Space: 20 ft.
+Reach: 0 ft.
+SpecialAttacks: distraction (DC 25), mark quarry, mythic power (10/day, surge +1d10)
+AbilityScores:
+  - 13
+  - 13
+  - —
+  - 6
+  - 11
+  - 16
+BaseAtk: '15'
+CMB: '- (+12 steal)'
+CMD: '-'
+Feats:
+  - Ability Focus (distraction)
+  - Dodge[M]
+  - Extra Mythic Power[M]
+  - Heavy Armor Proficiency
+  - Improved Initiative[M]
+  - Improved Lightning Reflexes
+  - Iron Will
+  - Light Armor Proficiency
+  - Lightning Reflexes[M]
+  - Medium Armor Proficiency
+  - Toughness
+Skills:
+  - Climb +17
+  - Perception +13
+  - Stealth +21
+  - Survival +10
+Languages:
+  - Common (can't speak)
+SQ: >-
+  hivemind, multiply (crawling hand swarm with throttle; use stats for army ant
+  swarm [Bestiary 16])
+Source: AP 144
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Hivemind (Su)
+    description: >-
+      The plague swarm maintains constant telepathic communication with the
+      one-handed wights (see area G2) from whom they were severed as long as
+      they are on the same plane. These wights have an attitude of helpful
+      toward the swarm.
+  - name: Mark Quarry (Su)
+    description: >-
+      Upon dealing damage to a creature, the crawling hand plague swarm can mark
+      that creature as its quarry as a free action. The swarm is always aware of
+      its quarry's location as if under the effect of a continuous locate
+      creature spell, and the swarm's swarm attack deals an additional 1d6
+      blight damage to the quarry. The mark quarry ability lasts until the
+      quarry is slain, the swarm marks a new quarry, or the swarm is dispersed.
+  - name: Reform (Su)
+    description: >-
+      The crawling hand plague swarm can only be permanently destroyed by first
+      destroying the one-handed wight troop in area G2 and then dispersing the
+      plague swarm within 60 feet of the troop's remains. This causes the
+      crawling hands to reunite with their estranged bodies, after which the
+      intact bodies slowly disintegrate.
+  - name: Throttle (Ex)
+    description: >-
+      A creature damaged by the plague swarm can't breathe, speak, or cast
+      spells with verbal components for 1 round.
+DuringCombat: >-
+  The plague swarm surges over any intruders, marking the first creature it
+  damages as its quarry.
+Morale: >-
+  The plague swarm doesn't leave this area, but it otherwise fights until
+  destroyed.
+Gear: mwk full plate (gauntlets only)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12765'
+UniqueMonster: '1'
+Variant: '0'
+MR: '8'
+Mythic: '1'
+MT: '0'

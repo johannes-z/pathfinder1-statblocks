@@ -1,0 +1,126 @@
+Name: Picasi
+CR: '10'
+XP: '9600'
+Race: shaitan
+Class: monk 6
+MonsterSource: Pathfinder RPG Bestiary 143
+Alignment: LN
+Size: Large
+Type: outsider
+SubType: (earth, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +20
+AC: 26, touch 16, flat-footed 23
+AC_Mods: (+3 Dex, +1 monk, +3 Wis, +10 natural, -1 size)
+HP: '127'
+HD: (15 HD; 9d10+6d8+51)
+Saves: Fort +14, Ref +11, Will +14; +2 vs. enchantments
+Fort: '14'
+Ref: '11'
+Will: '14'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: evasion
+DR: 10/ adamantine (120 points)
+Immune: disease, electricity
+Speed: 40 ft., burrow 60 ft., climb 20 ft.
+Melee:
+  - flurry of blows +19/+19/+14/+9 (2d6+7/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  earth mastery, flurry of blows, metalmorph, stone curse (DC 21), stunning fist
+  (8/day, DC 16)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +15)
+  values:
+    - label: At Will
+      value: >-
+        meld into stone, plane shift (willing targets to elemental planes,
+        Astral Plane, or Material Plane only), soften earth and stone, stone
+        shape, veil (DC 19; self only)
+    - label: 3/day
+      value: >-
+        quickened glitterdust (DC 15), stoneskin, rusting grasp, stone tell,
+        wall of stone
+    - label: 1/day
+      value: transmute mud to rock (DC 18), transmute rock to mud (DC 18)
+AbilityScores:
+  - 25
+  - 16
+  - 17
+  - 14
+  - 17
+  - 16
+BaseAtk: '13'
+CMB: +23 (+27 bull rush)
+CMD: 38 (40 vs. bull rush)
+Feats:
+  - Awesome Blow
+  - Combat Casting
+  - Combat Reflexes
+  - Critical Focus
+  - Gorgon's Fist
+  - Greater Bull Rush
+  - Improved Bull Rush
+  - Improved Critical (unarmed strike)
+  - Improved InitiativeB
+  - Improved Unarmed Strike
+  - Power Attack
+  - Quicken Spell-Like Ability (glitterdust)
+  - Scorpion Style
+  - Stunning Fist
+Skills:
+  - Acrobatics +20 (+30 when jumping)
+  - Appraise +14
+  - Bluff +15
+  - Climb +27
+  - Craft (gemcutting) +14
+  - Knowledge (engineering) +14
+  - Linguistics +3
+  - Perception +20
+  - Sense Motive +16
+  - Spellcraft +14
+  - Stealth +17
+Languages:
+  - Aquan
+  - Auran
+  - Common
+  - Ignan
+  - Osiriani
+  - Terran
+  - telepathy 100 ft.
+SQ: >-
+  fast movement, high jump, ki pool (6 points, magic), maneuver training, slow
+  fall 30 ft., stone glide
+Source: AP 82
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Picasi uses meld into stone to merge with a wall or the floor and then casts
+  stoneskin on herself.
+DuringCombat: >-
+  Picasi bull rushes the closest target to her hiding place, attempting to drive
+  the target into a wall and trap it with her stone curse ability. Otherwise,
+  she lashes out with a flurry of blows at anyone within reach. If pressed, she
+  uses wall of stone to seal away some of her opponents.
+Morale: >-
+  If reduced to 30 hit points or fewer, Picasi burrows into the sandy floor and
+  attempts to escape.
+Gear: potions of cure serious wounds (3)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6066'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

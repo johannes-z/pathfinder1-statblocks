@@ -1,0 +1,85 @@
+Name: Ultramarine Chaser
+CR: '5'
+XP: '1600'
+Race: Fey giant dragonfly
+MonsterSource: Bestiary 3 116, Bestiary 2 105
+Alignment: 'N'
+Size: Medium
+Type: fey
+Init: '4'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +8
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+4 Dex, +4 natural)
+HP: '52'
+HD: (7d8+21)
+Saves: Fort +7, Ref +6, Will +3; +4 vs. mind-affecting effects
+Fort: '7'
+Ref: '6'
+Will: '3'
+Save_Mods: +4 vs. mind-affecting effects
+DefensiveAbilities: evasion
+DR: 5/cold iron
+Resist: cold 10, electricity 10
+Speed: 20 ft., fly 80 ft. (perfect)
+Melee:
+  - bite +10 (3d8+6 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: darting charge
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +7)
+  values:
+    - label: 3/day
+      value: dancing lights
+    - label: 1/day
+      value: >-
+        deep slumber (DC 13), entangle (DC 11), faerie fire, glitterdust (DC
+        12), major image (DC 13)
+AbilityScores:
+  - 19
+  - 19
+  - 14
+  - 3
+  - 12
+  - 11
+BaseAtk: '5'
+CMB: +9 (+13 grapple, or +17 grapple on a charge)
+CMD: 23 (31 vs. trip)
+Feats:
+  - Flyby AttackB
+  - Hover
+  - Improved Natural Attack (bite)
+  - Toughness
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +10
+  - Fly +16
+  - Perception +8
+  - Stealth +10
+Languages:
+  - Sylvan
+SQ: vanish (7 rounds/day)
+Source: AP 92
+IsTemplate: '0'
+DuringCombat: >-
+  The ultramarine chaser casts entangle against multiple opponents, then targets
+  any creatures not entangled with glitterdust, before charging and making Flyby
+  Attacks against blinded foes.
+Morale: Hungry for warm-blooded prey, the giant dragonfly fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6882'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

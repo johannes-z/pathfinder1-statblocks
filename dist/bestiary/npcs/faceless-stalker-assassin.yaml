@@ -1,0 +1,105 @@
+Name: Faceless Stalker Assassin
+CR: '12'
+XP: '19200'
+Race: Faceless stalker
+Class: assassin 10
+MonsterSource: Pathfinder RPG Bestiary 2 122
+Alignment: CE
+Size: Medium
+Type: aberration
+SubType: (shapechanger)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 23, touch 15, flat-footed 18
+AC_Mods: (+4 armor, +5 Dex, +4 natural)
+HP: '142'
+HD: (15d8+75)
+Saves: Fort +9, Ref +12, Will +9; +5 vs. poison
+Fort: '9'
+Ref: '12'
+Will: '9'
+Save_Mods: +5 vs. poison
+DefensiveAbilities: improved uncanny dodge
+DR: 5/piercing or slashing
+Speed: 30 ft.
+Melee:
+  - assassin's dagger +18/+13 (1d4+8/17-20)
+  - 2 slams +16 (1d6+6 plus grab)
+Space: 5 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  blood drain (1 Con), death attack (DC 22), quiet death, sneak attack +7d6,
+  swift death 1/day, true death (DC 25)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +8)
+  values:
+    - label: Constant
+      value: tongues
+AbilityScores:
+  - 22
+  - 22
+  - 20
+  - 15
+  - 14
+  - 16
+BaseAtk: '10'
+CMB: +16 (+20 grapple)
+CMD: '32'
+Feats:
+  - Combat Reflexes
+  - Deceitful
+  - Improved Critical (dagger)
+  - Improved Initiative
+  - Precise Strike
+  - Seize the Moment
+  - Shadow Strike
+  - Stealthy
+Skills:
+  - Acrobatics +14
+  - Bluff +25
+  - Disguise +29 (+39 when using change shape)
+  - Escape Artist +36
+  - Perception +10
+  - Sense Motive +10
+  - Sleight of Hand +24 (+34 to hide weapons on body)
+  - Stealth +33
+RacialMods: +4 Disguise, +8 Escape Artist
+Languages:
+  - Aboleth
+  - Aquan
+  - Common
+  - tongues
+SQ: >-
+  angel of death, change shape (Medium humanoid; alter self), compression,
+  faceless, hidden weapons, hide in plain sight, poison use
+Source: AP 126
+IsTemplate: '0'
+BeforeCombat: >-
+  Immediately prior to making an assassination attempt, the faceless stalkers
+  quaff their potions of displacement and potions of invisibility.
+DuringCombat: >-
+  The assassins begin by setting their ring of foe focus to their target. In
+  open combat, they work in groups, taking advantage of sneak attack damage and
+  hoping to trigger their Seize the Moment teamwork feats with critical hits.
+Morale: If reduced below 30 hit points, the faceless stalkers attempt to flee.
+Gear: >-
+  potion of displacement, potion of invisibility, ring of foe focusUE,
+  deathblade poison (2), shadow essence poison (4)
+OtherGear: +1 shadow studded leather, assassin's dagger, assassin's dustACG
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11717'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

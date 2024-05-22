@@ -1,0 +1,117 @@
+Name: Mother Of Oblivion
+CR: '13'
+XP: '25600'
+Race: Black Magga
+MonsterSource: 'Pathfinder Adventure Path: Rise of the Runelords Anniversary Edition 406'
+Alignment: CE
+Size: Huge
+Type: outsider
+SubType: (aquatic, native)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+AC: 28, touch 8, flat-footed 28
+AC_Mods: (+20 natural, -2 size)
+HP: '174'
+HD: (12d10+108)
+Saves: Fort +16, Ref +10, Will +8
+Fort: '16'
+Ref: '10'
+Will: '8'
+DefensiveAbilities: all-around vision
+DR: 15/cold iron and magic
+Immune: death effects, mind-affecting effects, petrification, polymorph
+Resist: acid 20, cold 20
+SR: '26'
+Speed: 20 ft., swim 60 ft.
+Melee:
+  - bite +19 (2d8+9/19-20), 4 tentacles +18 (1d8+4 plus grab)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: breath of madness, constrict (1d8+9), energy drain (2 levels, DC 20)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: Constant
+      value: invisibility purge
+    - label: At Will
+      value: death knell (DC 16), prayer
+    - label: 3/day
+      value: >-
+        demand (DC 22), dimensional anchor, divination, dominate person (DC 19),
+        greater command (DC 19)
+    - label: 1/day
+      value: commune, dream, unhallow
+AbilityScores:
+  - 29
+  - 10
+  - 27
+  - 21
+  - 18
+  - 18
+BaseAtk: '12'
+CMB: +23 (+27 grapple)
+CMD: 33 (can't be tripped)
+Feats:
+  - Improved Critical (bite)
+  - Improved Natural Attack (bite)
+  - Lightning Reflexes
+  - Multiattack
+  - Toughness
+  - Weapon Focus (tentacle)
+Skills:
+  - Knowledge (arcana) +20
+  - Knowledge (history) +17
+  - Knowledge (nature) +17
+  - Knowledge (planes) +20
+  - Knowledge (religion) +17
+  - Perception +19
+  - Sense Motive +19
+  - Spellcraft +20
+  - Stealth +7
+  - Survival +16
+  - Swim +32
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Draconic
+  - Giant
+  - Infernal
+  - Thassilonian
+Source: AP 136
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath of Madness (Su)
+    description: >-
+      When it is not underwater, a mother of oblivion can exhale a 60-foot cone
+      of black smoke as a standard action once per minute. All creatures caught
+      in this area take 1d6 points of Wisdom damage and become confused for 1d6
+      rounds (a creature can attempt a DC 24 Will save to halve the Wisdom
+      damage and negate the confusion effect). This is a mind-affecting poison
+      effect. The save DC is Constitution-based.
+DuringCombat: >-
+  The mother of oblivion immediately attacks anyone who swims more than 40 feet
+  from the shore into the waters of the lake, and it pursues foes onto land as
+  needed. If the PCs don't defeat the creature first, it will certainly attack
+  them as they cross the bridge over the lake from area J to area K. Note that
+  unlike most mothers of oblivion, this creature cannot make use of its
+  transdimensional tentacles or warp dimensions special qualities in this
+  adventure, due to the dimensional lock effect throughout the region.
+Morale: The mother of oblivion fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11940'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,142 @@
+Name: Zinlun
+CR: '20'
+XP: '307200'
+Race: demilich
+Class: transmuter 18
+MonsterSource: Pathfinder RPG Bestiary 188, Pathfinder RPG Bestiary 3 66
+Alignment: CE
+Size: Tiny
+Type: undead
+SubType: (augmented humanoid, human)
+Init: '12'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +38
+AC: 35, touch 31, flat-footed 26
+AC_Mods: (+8 Dex, +1 dodge, +4 natural, +10 profane, +2 size)
+HP: '296'
+HD: (18d6+231)
+Saves: Fort +26, Ref +26, Will +30
+Fort: '26'
+Ref: '26'
+Will: '30'
+DefensiveAbilities: channel resistance +5, rejuvenation, unholy grace
+DR: 20/-
+Immune: acid, cold, electricity, magic, polymorph, undead traits
+Weaknesses: vorpal susceptibility
+Speed: fly 30 ft. (perfect)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: devour soul (DC 29)
+SpellLikeAbilities:
+  header: Demilich Spell-Like Abilities (CL 20th; concentration +30)
+  values:
+    - label: Constant
+      value: true seeing
+    - label: At Will
+      value: >-
+        greater bestow curse (DC 26), telekinesis (DC 25), wail of the banshee
+        (20-ft.-radius spread centered on the demilich; DC 29) Arcane School
+        Spell-Like Abilities (CL 18th; concentration +28)
+    - label: 13/day
+      value: telekinetic fist (1d4+9 bludgeoning)
+SpellsPrepared: >-
+  Transmuter Spells Prepared (CL 18th; concentration +28)  9th-mage's
+  disjunction (DC 29), time stop (2), wail of the banshee (2, DC 29) 
+  8th-quickened still fireball (4, DC 23), still reverse gravity (2)  7th-still
+  disintegrate (2, DC 26), resonating wordUM (3, DC 27), teleport object (DC
+  27)  6th-still baleful polymorph (2, DC 25), quickened still magic missile
+  (4), still telekinesis (2, DC 25)  5th-still calcific touchAPG (2, DC 24),
+  contact other plane, still enervation (4), still mass reduce person (DC 24) 
+  4th-still dispel magic (2), extended still false life, still fireball (2, DC
+  23), still slow (2, DC 23), still vampiric touch  3rd-still eagle's splendor
+  (2), still glitterdust (4, DC 22), still twisted spaceUC (2, DC 22)  2nd-still
+  magic missile (7), still reduce person (2, DC 21)  1st-flare burstAPG (3, DC
+  21), heightened awarenessACG, still mage hand (2), true strike (3)  0 (at
+  will)-flare (DC 20)
+AbilityScores:
+  - 6
+  - 26
+  - —
+  - 31
+  - 29
+  - 30
+BaseAtk: '9'
+CMB: '7'
+CMD: '26'
+Feats:
+  - Combat Casting
+  - Craft Construct
+  - Craft Magic Arms and Armor
+  - Craft Rod
+  - Craft Staff
+  - Craft Wondrous Item
+  - Dodge
+  - Eschew Materials
+  - Extend Spell
+  - Improved Initiative
+  - Lightning Reflexes
+  - Mobility
+  - Quicken Spell
+  - Scribe Scroll
+  - Still Spell
+  - Toughness
+Skills:
+  - Bluff +28
+  - Fly +33
+  - Intimidate +31
+  - Knowledge (arcana) +31
+  - Knowledge (engineering) +31
+  - Knowledge (local) +31
+  - Knowledge (nobility) +31
+  - Knowledge (planes) +31
+  - Perception +38
+  - Sense Motive +38
+  - Spellcraft +31
+  - Stealth +37
+  - Use Magic Device +28
+Languages:
+  - Abyssal
+  - Aklo
+  - Azlanti
+  - Draconic
+  - Giant
+  - Infernal
+  - Shoanti
+  - Thassilonian
+  - Varisian
+SQ: >-
+  arcane bond (emerald wedge ioun stone), enhanced ability scores, physical
+  enhancement (+4 Dex)
+Source: AP 138
+IsTemplate: '0'
+SpecialAbilities: []
+ProhibitedSchools: enchantment, illusion
+BeforeCombat: Zinlun casts extended still false life.
+DuringCombat: >-
+  On the first round of combat he casts time stop, and takes advantage of this
+  moment to cast reverse gravity, glitterdust, eagle's splendor and to move into
+  a more advantageous combat position. After his time stop ends, he attacks the
+  party with an area-effect offensive spell on odd-numbered rounds and a devour
+  soul attempt on even-numbered rounds. If reduced to fewer than 100 hit points,
+  he casts time stop again and then casts spells and repositions as appropriate
+  to regain an advantage.
+Morale: Zinlun fights until destroyed.
+Gear: emerald wedge ioun stone (see page 77), spellbooks
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: awakened|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11993'
+UniqueMonster: '0'
+ThassilonianSpecialization: transmutation
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

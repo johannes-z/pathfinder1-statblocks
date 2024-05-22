@@ -1,0 +1,105 @@
+Name: Ighiz
+CR: '4'
+XP: '1200'
+Race: troglodyte
+Class: oracle 4
+MonsterSource: Pathfinder RPG Bestiary 267, Pathfinder RPG Advanced Player's Guide 42
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (reptilian)
+Init: '1'
+Senses:
+  - darkvision 90 ft.
+  - Perception +5
+Aura: stench (30 ft., DC 14, 10 rounds)
+AC: 20, touch 13, flat-footed 19
+AC_Mods: (+1 armor, +2 deflection, +1 Dex, +6 natural)
+HP: '49'
+HD: (6d8+22)
+Saves: Fort +7, Ref +4, Will +5
+Fort: '7'
+Ref: '4'
+Will: '5'
+Speed: 30 ft.
+Melee:
+  - >-
+    mwk morningstar +5 (1d8), bite -1 (1d4), claw -1 (1d4)   Range magic stone
+    +6 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 4th; concentration +7)
+  values:
+    - label: 2nd (4/day)
+      value: cure moderate wounds, hold person (DC 15), stone callAPG
+    - label: 1st (7/day)
+      value: >-
+        bane (DC 14), command (DC 14), cure light wounds, magic stone, shield of
+        faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 13), detect magic, detect poison, guidance, read magic,
+        resistance
+AbilityScores:
+  - 10
+  - 13
+  - 16
+  - 8
+  - 13
+  - 16
+BaseAtk: '4'
+CMB: '4'
+CMD: '15'
+Feats:
+  - Brew Potion
+  - Combat Casting
+  - Lightning Reflexes
+Skills:
+  - Intimidate +8
+  - Knowledge (planes) +3
+  - Perception +5
+  - Perform (oratory) +7
+  - Spellcraft +5
+  - Stealth +5 (+9 in rocky areas)
+RacialMods: +4 Stealth (+8 in rocky areas)
+Languages:
+  - Draconic
+  - Terran
+SQ: oracle's curse (tongues), revelations (crystal sight, shard explosion)
+Source: AP 115
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If Ighiz hears strangers approaching or combat with her crysmal guardian, she
+  casts magic stone, then casts shield of faith on herself and her acolyte.
+DuringCombat: >-
+  Ighiz begins any confrontation with her shard explosion revelation, then
+  targets individuals with hold person, command, and her magic stones. If her
+  opponents close in, she targets them with stone call.
+Morale: Ighiz believes she is protected by destiny and fights to the death.
+Gear: >-
+  feather token (bird), feather token (tree), potion of cure moderate wounds
+  (2), potion of shield of faith (2), wand of hold person (9 charges)
+OtherGear: >-
+  mwk morningstar, bandages of rapid recoveryAPG, bracers of armor +1,
+  aquamarine necklace (150 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without shield of faith cast, Ighiz has the following statistics: AC 18, touch
+  11, flat-footed 17.
+AgeCategory: Adult
+Mystery: Stone
+CompanionFamiliarLink: '0'
+id: '11139'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,219 @@
+Name: Mummy Lord
+CR: '10'
+XP: '9600'
+Race: Male human mummy lord
+Class: cleric of Set 9
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (human)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +5
+Aura: great despair (30 ft., DC 19)
+AC: 18, touch 14, flat-footed 15
+AC_Mods: (+1 deflection, +2 Dex, +1 dodge, +4 natural)
+HP: '107'
+HD: (9d8+63)
+Saves: Fort +11, Ref +7, Will +11
+Fort: '11'
+Ref: '7'
+Will: '11'
+DefensiveAbilities: channel resistance +4, undying will
+DR: 10/-
+Immune: cold, electricity, undead traits
+Speed: 30 ft.
+Melee:
+  - +1 spear +12/+7 (1d8+8/x3 plus insidious mummy rot)
+  - slam +11 (1d6+7 plus insidious mummy rot)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 8/day (DC 21, 5d6), channel rot, insidious mummy rot
+  (DC 19), sandstorm wrath (DC 19, 6d8 fire and slashing), scythe of evil (4
+  rounds, 1/day), undead mastery (DC 19)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 9th; concentration +14)
+  values:
+    - label: 8/day
+      value: touch of darkness (4 rounds)
+    - label: 8/day
+      value: touch of evil (4 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 9th; concentration +14)  5th-dispel goodD (DC 20),
+  greater contagionUM (DC 21), slay living (DC 21)  4th-divine power, poison (DC
+  20), shadow conjurationD (DC 19), spit venomUM (DC 19)  3rd-animate dead,
+  bestow curse (DC 19), deeper darknessD, magic vestment, sands of timeUM 
+  2nd-align weaponD (evil only), bull's strength, desecrate, dread boltUM (DC
+  17), hold person (DC 18), silence (DC 17),  1st-bane (DC 17), cause fear (DC
+  17), command (DC 17), detect good, divine favor, protection from goodD,
+  sanctuary (DC 16)  0 (at will)-detect magic, guidance, read magic, resistance
+SpellDomains: Darkness, Evil
+AbilityScores:
+  - 20
+  - 14
+  - —
+  - 10
+  - 20
+  - 20
+BaseAtk: '6'
+CMB: '11'
+CMD: '25'
+Feats:
+  - Blind-Fight
+  - Combat Casting
+  - Dodge
+  - Improved Channel
+  - Lightning Reflexes
+  - Spell Focus (enchantment)
+  - Spell Focus (necromancy)
+  - ToughnessB
+Skills:
+  - Intimidate +17
+  - Knowledge (religion) +12
+  - Sense Motive +20
+  - Spellcraft +12
+  - Stealth +17
+RacialMods: +8 Intimidate, +8 Sense Motive, +8 Stealth
+Languages:
+  - Ancient Osiriani
+  - Common
+SQ: eyes of darkness (4 rounds/day)
+Environment: any (Osirion)
+Organization: >-
+  solitary or court (mummy lord and 6-14 standard mummies or mummified
+  creatures)
+Treasure: NPC gear
+Description_Visual: >-
+  Dirty linen strips swathe this emaciated figure from head to toe, and its
+  stripped headdress marks it as a once-noble being, whose eyes now burn with an
+  unholy light.
+Source: AP 84
+IsTemplate: '1'
+Description:
+  - >-
+    Mummification is a practice common to many cultures, although the use of
+    magical techniques to imbue the departed with potent, undead vitality is
+    less widespread. On rare occasions, if the deceased was a person of great
+    rank and exceeding malice, he may undergo even more elaborate and expensive
+    rituals granting him greater power in undeath, and he eventually rises from
+    his tomb as a mummy lord. Retaining the powers and abilities he had in life,
+    he becomes a creature consumed by the desire to dominate others and a
+    seething envy for the living that drives him to acts of surpassing cruelty.
+  - Creating a Mummy Lord
+  - >-
+    "Mummy Lord" is an acquired template that can be added to any living
+    corporeal creature (referred to hereafter as the base creature) with at
+    least 8 HD. The process of creating a mummy lord requires 50,000 gp worth of
+    rare herbs, oils, and other mummification materials. The mummy lord retains
+    all of the base creature's statistics and special abilities except as listed
+    below.
+  - 'CR: Same as the base creature +2.'
+  - 'Alignment: Any evil.'
+  - >-
+    Type: The creature's type changes to undead. Do not recalculate BAB, saves,
+    or skill ranks.
+  - 'Senses: A mummy lord gains darkvision 60 ft.'
+  - >-
+    Armor Class: A mummy lord has either a +1 natural armor bonus for every 2
+    Hit Dice it possesses or the base creature's natural armor bonus, whichever
+    is higher.
+  - >-
+    Hit Dice: Change the creature's racial Hit Dice to d8s. All Hit Dice derived
+    from class levels remain unchanged. As undead, mummy lords use their
+    Charisma modifiers to determine bonus hit points.
+  - >-
+    Defensive Abilities: A mummy lord gains channel resistance +4, DR 10/-,
+    immunity to cold and electricity (in addition to those granted by its undead
+    traits), and the following defensive ability.
+  - >-
+    Rejuvenation (Su): One day after a mummy lord is destroyed, the necromantic
+    energies that created the abomination begin to rebuild its body. This
+    process takes 1d10 days, and if the body is destroyed before that time
+    passes, the process starts anew. After this time, the mummy lord awakens
+    fully healed in its tomb. To prevent the mummy lord from returning, its
+    remains must be targeted by consecrate, hallow, and then dispel evil, cast
+    in consecutive rounds and in that order, before it can be permanently
+    destroyed.
+  - >-
+    Attacks: The mummification process hardens the mummy lord's bones to a
+    stone-like density, granting it a powerful slam attack if the base creature
+    has no other natural attacks. This slam attack deals damage based on the
+    mummy lord's size (Pathfinder RPG Bestiary 302), treating the creature as if
+    it were one size category larger. Those hit by a mummy lord's slam attack
+    also run the risk of succumbing to insidious mummy rot (see Special
+    Attacks).
+  - >-
+    Special Attacks: A mummy lord gains the following special attacks. Save DCs
+    are equal to 10 + 1/2 the mummy lord's HD + the mummy lord's Charisma
+    modifier unless otherwise noted.
+  - >-
+    Channel Rot (Su): A mummy lord can deliver its insidious mummy rot through
+    melee weapons as well as through its slam attack and any natural attacks it
+    possesses.
+  - >-
+    Great Despair Aura (Su): All creatures within a 30-foot radius that see a
+    mummy lord must make a successful Will save or be paralyzed with fear for
+    1d4 rounds, then shaken for the following 1d4 rounds. Whether or not the
+    save is successful, that creature cannot be affected again by the same
+    mummy's great despair aura ability for 24 hours. This is a paralysis and
+    mind-affecting fear affect.
+  - >-
+    Insidious Mummy Rot (Su): Curse and disease-slam; save Fort DC 10 + 1/2 HD +
+    Cha modifier; onset 1 minute; frequency 1/day; effect 2d4 Con and 2d4 Cha
+    damage; cure -. Insidious mummy rot is both a curse and disease, and can be
+    cured only by first removing the curse and then curing the disease. Even
+    after the curse element of mummy rot is lifted, a creature suffering from it
+    cannot recover naturally over time. Anyone casting a conjuration (healing)
+    spell on the aff licted creature must succeed at a DC 20 caster level check,
+    or the spell is wasted and the healing has no effect. Anyone who dies from
+    insidious mummy rot turns to dust and cannot be raised by means other than
+    resurrection or greater magic.
+  - >-
+    Sandstorm Wrath (Su): Three times per day as a standard action, a mummy lord
+    can exhale a blast of superheated sand in a 40-foot cone. The blast deals
+    2d8 points of fire and slashing damage for every 3 Hit Dice a mummy lord
+    possesses. A successful Reflex save halves this damage, and creatures that
+    fail this save are blinded for 2d4 rounds.
+  - >-
+    Undead Mastery (Su): As a standard action, a mummy lord can attempt to bend
+    any undead creature within 50 feet to its will. The targeted undead must
+    succeed at a Will save or fall under the mummy lord's control. An undead
+    with an Intelligence score is allowed an additional save every day to break
+    free of the mummy lord's control; for undead without an Intelligence score,
+    the control is permanent. A creature that succeeds at its Will save cannot
+    be affected again by the same mummy lord's undead mastery for 24 hours. A
+    mummy lord can control 6 Hit Dice of undead creatures for every Hit Die it
+    has. If the mummy lord exceeds this limit, the excess undead from earlier
+    uses of the ability become uncontrolled, as animate dead.
+  - >-
+    Ability Scores: Str +8, Cha +6. As an undead creature, a mummy lord has no
+    Constitution score.
+  - >-
+    Skills: A mummy lord gains a +8 racial bonus to Intimidate, Sense Motive,
+    and Stealth checks. A mummy lord always treats Climb, Disguise, Fly,
+    Intimidate, Knowledge (arcana), Knowledge (religion), Perception, Sense
+    Motive, Spellcraft, and Stealth as class skills. Otherwise, its skills are
+    the same as the base creature.
+  - 'Feats: A mummif ied creature gains Toughness as a bonus feat.'
+Gender: 'NULL'
+Gear: >-
+  scroll of spiritual weapon, scroll of summon monster III; Other Gear +1 spear,
+  headband of inspired wisdom +2, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6258'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,129 @@
+Name: Nigankona
+CR: '15'
+XP: '51200'
+Race: fire yai
+MonsterSource: Pathfinder RPG Bestiary 3 206
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (fire, giant, native, oni, shapechanger)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +23
+AC: 29, touch 12, flat-footed 26
+AC_Mods: (+6 armor, +3 Dex, +11 natural, -1 size)
+HP: '229'
+HD: (17d10+136)
+HP_Mods: regeneration 5 (acid or cold)
+Saves: Fort +18, Ref +10, Will +15
+Fort: '18'
+Ref: '10'
+Will: '15'
+Immune: fire
+SR: '26'
+Weaknesses: vulnerable to cold
+Speed: 30 ft., fly 40 ft. (good)
+Melee:
+  - tetsubo of the titans +29/+24/+19/+14 (2d8+18/x4)
+  - 2 slams +26 (1d10+15)
+Ranged:
+  - fiery missile +19 touch (4d6 fire plus burn)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: burn (2d6, DC 26), smoke form
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +17)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: darkness, invisibility (self only), scorching ray
+    - label: 3/day
+      value: >-
+        charm monster (DC 16), deep slumber (DC 15), fire shield (warm shield
+        only), fireball (DC 15), wall of fire
+    - label: 1/day
+      value: incendiary cloud (DC 20)
+AbilityScores:
+  - 31
+  - 16
+  - 26
+  - 14
+  - 17
+  - 15
+BaseAtk: '17'
+CMB: '28'
+CMD: '41'
+Feats:
+  - Cleave
+  - Combat Reflexes
+  - Great Cleave
+  - Improved Initiative
+  - Improved Overrun
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Bluff +22
+  - Craft (weapons) +12
+  - Diplomacy +13
+  - Disguise +14
+  - Fly +16
+  - Intimidate +22
+  - Knowledge (arcana) +17
+  - Perception +23
+  - Sense Motive +23
+  - Spellcraft +14
+  - Use Magic Device +14
+Languages:
+  - Giant
+  - Minkaian
+  - Tien
+SQ: change shape (Medium or Large humanoid; alter self or giant form I)
+Source: AP 53
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fiery Missile (Su)
+    description: >-
+      As a swift action, Nigankona can launch a bolt of fire from his third eye.
+      This attack has a range of 180 feet with no range increment.
+  - name: Smoke Form (Sp)
+    description: >-
+      As a standard action, Nigankona can turn into a cloud of smoke. This
+      ability functions like gaseous form, except the cloud has the properties
+      of the smoke cloud from a pyrotechnics spell (Fort DC 26 negates the
+      effects of the smoke cloud). Nigankona can end this ability as a standard
+      action.
+Gender: Male
+DuringCombat: >-
+  Nigankona casts fire shield on the first round of combat, then casts
+  incendiary cloud to drive defenders out of the fortress, readying his fiery
+  missiles or scorching rays to cut down fleeing opponents. If no one comes out
+  to face him, Nigankona focuses his attacks on the walls of the fortress,
+  dealing triple damage to the walls with his tetsubo of the titans. Once he can
+  attack in melee, he does so eagerly, casting wall of fire to cut off
+  spellcasters or ranged combatants so he can focus on enemies in melee.
+Morale: >-
+  If reduced to 100 hit points or fewer, Nigankona assumes his smoke form,
+  hoping to hinder attackers while he regenerates. As soon as he is able, he
+  resumes his normal form and renews his attacks. Nigankona fights to the death,
+  knowing that failure is not an option.
+Gear: +1 Large do-maru*, tetsubo of the titans (+3 tetsubo*, as maul of the titans)
+Note: '* See Ultimate Combat.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2337'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

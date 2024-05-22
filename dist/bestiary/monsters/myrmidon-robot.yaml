@@ -1,0 +1,131 @@
+Name: Myrmidon Robot
+CR: '11'
+XP: '12800'
+Alignment: 'N'
+Size: Large
+Type: construct
+SubType: (robot)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, superior optics
+  - Perception +20
+AC: 25, touch 11, flat-footed 23
+AC_Mods: (+2 Dex, +14 natural, -1 size)
+HP: '167'
+HD: (15d10+30 plus 55 hp force shield)
+Saves: Fort +10, Ref +12, Will +10
+Fort: '10'
+Ref: '12'
+Will: '10'
+DefensiveAbilities: hardness 10, resilient
+Immune: cold, construct traits
+Weaknesses: vulnerable to critical hits, vulnerable to electricity
+Speed: 20 ft., fly 90 ft. (perfect)
+Melee:
+  - 2 claws +22 (1d6+8 plus grab), 2 quantum lashes +22 touch (1d10 force/19-20)
+Ranged:
+  - integrated laser rifle +16 touch (2d10 fire)
+Space: 10 ft.
+Reach: 5 ft. (20 ft. with quantum lash)
+SpecialAttacks: combined arms, constrict (1d6+8), rockets
+AbilityScores:
+  - 27
+  - 15
+  - —
+  - 12
+  - 14
+  - 1
+BaseAtk: '15'
+CMB: +24 (+28 grapple)
+CMD: 36 (can't be tripped)
+Feats:
+  - Combat Reflexes
+  - Flyby Attack
+  - Great Fortitude
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+  - Point-Blank Shot
+  - Precise Shot
+Skills:
+  - Fly +26
+  - Knowledge (engineering) +19
+  - Perception +20
+Languages:
+  - Common
+  - Hallit
+Environment: any (Numeria)
+Organization: solitary or unit (2-6)
+Treasure: none
+Description_Visual: >-
+  This metallic creature has pincer-tipped arms and a single red eye-it flies
+  with eerie grace via blasts of fire from its back.
+Group: Robot
+Source: Inner Sea Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Combined Arms (Ex)
+    description: >-
+      When taking a full-attack action, a myrmidon can attack with melee and
+      ranged integrated weapons simultaneously.
+  - name: Laser Rifle (Ex)
+    description: >-
+      A myrmidon's eye is an integrated laser rifle. This weapon has a range
+      increment of 250 feet.
+  - name: Quantum Lash (Ex)
+    description: >-
+      A myrmidon's two facial tentacles lash out with surprising force, and are
+      capable of extending up to a reach of 20 feet. These lashes are primary
+      attacks that deal force damage on a successful hit. They resolve as touch
+      attacks, but the damage dealt is not modified by Strength, nor can it be
+      improved via Power Attack. A quantum lash threatens a critical hit on a
+      19-20. A quantum lash that strikes a force field or force effect has a
+      chance to disrupt that effect. Against a magical force effect like a wall
+      of force, the myrmidon makes a special check as if it were casting dispel
+      magic against the effect (CL 11th). Against a robot's force field, the
+      robot struck must succeed at a DC 18 Fortitude save or its force field is
+      deactivated for 1d10 rounds, after which it returns at the same hit point
+      level it was at before it was deactivated. The save DC is
+      Intelligence-based.
+  - name: Resilient (Ex)
+    description: Myrmidons receive a +3 racial bonus on all saving throws.
+  - name: Rockets (Ex)
+    description: >-
+      As a standard action, a myrmidon can fire a rocket to a range of 800 feet.
+      A rocket explodes on impact in a 30-foot-radius burst, dealing 6d6 points
+      of fire damage and 6d6 points of bludgeoning damage to all creatures in
+      the area (Reflex DC 18 halves). A myrmidon carries a maximum of five
+      rockets. Its core can replenish fired rockets at the rate of one per 12
+      hours, crafting new rockets from scrap metal and other collected
+      components used in the construction process. The save DC is
+      Intelligence-based.
+  - name: Superior Optics (Ex)
+    description: Myrmidons see invisible creatures or objects as if they were visible.
+Description:
+  - >-
+    Myrmidons are highly mobile robots programmed to patrol the skies above
+    important locations. They tend to react with swift violence, and often
+    interpret any anomalous sensory input as proof of hostile intent and rain
+    destruction on the offending target. Most have analyzed enough language to
+    communicate, but rarely choose to do so. The Technic League has had little
+    success in reprogramming myrmidons to submit to their control, with most
+    such attempts resulting in devastating backlashes as the robots run amok
+    until destroyed.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6281'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

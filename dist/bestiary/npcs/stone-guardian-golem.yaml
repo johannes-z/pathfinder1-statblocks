@@ -1,0 +1,81 @@
+Name: Stone Guardian Golem
+CR: '4'
+XP: '1200'
+Race: Stone Guardian Golem
+MonsterSource: Tome of Horrors Complete 341
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +0
+AC: 17, touch 9, flat-footed 17
+AC_Mods: (-1 Dex, +8 natural)
+HP: '47'
+HD: (5d10+20)
+Saves: Fort +1, Ref +0, Will +1
+Fort: '1'
+Ref: '0'
+Will: '1'
+DefensiveAbilities: light fortification
+Immune: construct traits
+Resist: cold 5, fire 5, electricity 5
+Speed: 20 ft.
+Melee:
+  - 2 slams +10 (1d8+5)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 21
+  - 9
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '5'
+CMB: '10'
+CMD: '19'
+SQ: ring link
+Source: PFS S4-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Light Fortification (Ex)
+    description: >-
+      A stone guardian has a 25% chance to ignore additional damage caused by
+      critical hits or sneak attacks.
+  - name: Ring Link (Su)
+    description: >-
+      A stone guardian is linked to a magic ring. The construct will never
+      attack any creature that wears this ring, nor any creatures within 10 feet
+      of the ring wearer, unless one of those creatures attacks the guardian
+      first.
+  - name: See Invisibility (Ex)
+    description: >-
+      A stone guardian can see invisible creatures and objects, as per the spell
+      see invisibility.
+BeforeCombat: >-
+  The stone guardian golem stands inert in the chapel access until it is
+  attacked or until the safe house is damaged.
+DuringCombat: >-
+  The stone guardian golem uses its slam attacks to harm any intruders. The
+  magic ring linked to the stone guardian golem is in the possession of the
+  Lashmistress in area E9.
+Morale: >-
+  The stone guardian golem pursues intruders relentlessly and fights until
+  destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7651'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

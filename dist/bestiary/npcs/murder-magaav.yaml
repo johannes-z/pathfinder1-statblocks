@@ -1,0 +1,136 @@
+Name: Murder Magaav
+CR: '8'
+XP: '4800'
+Race: Greater host devil
+Class: rogue 2/assassin 1
+MonsterSource: >-
+  Pathfinder Campaign Setting: Princes of Darkness, Book of the Damned, Vol. 1
+  58
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '4'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +16
+AC: 23, touch 15, flat-footed 18
+AC_Mods: (+4 Dex, +1 dodge, +8 natural)
+HP: '93'
+HD: (10 HD; 7d10+3d8+42)
+Saves: Fort +9, Ref +13, Will +5
+Fort: '9'
+Ref: '13'
+Will: '5'
+DefensiveAbilities: evasion
+DR: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '17'
+Speed: 20 ft., fly 50 ft. (average)
+Melee:
+  - +1 ranseur +14/+9 (2d4+8/x3), 2 claws +8 (1d6+2 plus infernal wound)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (5-ft., sickened for 1d4 rounds, Fort DC 17 negates, usable
+  3/day every 1d4 rounds), death attack (DC 13), master grappler, rend (2 claws,
+  1d6+7 plus infernal wound), sneak attack +2d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +11)
+  values:
+    - label: At Will
+      value: greater teleport (self plus 50 lbs. of objects only)
+    - label: 1/day
+      value: summon (level 3, 1d2 gaavs, 60%)
+AbilityScores:
+  - 20
+  - 19
+  - 18
+  - 15
+  - 16
+  - 9
+BaseAtk: '8'
+CMB: '13'
+CMD: '28'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Hover
+  - Mobility
+  - Outflank*
+  - Precise Strike*
+Skills:
+  - Acrobatics +17
+  - Bluff +12
+  - Disguise +4
+  - Escape Artist +17
+  - Fly +17
+  - Intimidate +12
+  - Perception +16
+  - Sense Motive +16
+  - Stealth +17
+Languages:
+  - Aquan
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: poison use, rogue talents (combat trick), shared senses, trapfinding +1
+Source: AP 60
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      Three times per day, a magaav can exhale a noxious cloud of reeking
+      corruption upon a creature within 5 feet. The target must succeed at a DC
+      17 Fortitude save or be sickened for 1d4 rounds. A creature that
+      successfully saves cannot be affected by the same magaav's breath weapon
+      for 24 hours. This is a poison effect.
+  - name: Infernal Wound (Su)
+    description: >-
+      The damage a magaav deals with its claws or rend inflicts persistent
+      wounds that cause 1 point of bleed damage. Bleed damage caused by an
+      infernal wound is particularly difficult to stanch-a successful DC 17 Heal
+      check stops the damage, and any attempt to heal a creature suffering from
+      an infernal wound must succeed at a DC 17 caster level check or the spell
+      does not function. Success indicates the healing works normally and stops
+      all bleed effects on the victim.
+  - name: Master Grappler (Ex)
+    description: >-
+      A magaav can wield a weapon in both hands and still attempt to grapple. If
+      it's not wielding a weapon, a magaav gains a +4 bonus on combat maneuver
+      checks to grapple. A magaav does not provoke an attack of opportunity when
+      attempting to grapple.
+  - name: Shared Senses (Su)
+    description: >-
+      All host devils (gaavs and magaavs) within 100 feet of each other share
+      the same senses. If one individual perceives something, all others within
+      range are immediately aware of it. It is still possible for a magaav to be
+      surprised or flat-footed even if other host devils within range are not.
+BeforeCombat: The murder magaavs drink their potions of invisibility before combat.
+DuringCombat: >-
+  While the PCs deal with the major image, the murder magaavs study their foes
+  for 3 rounds in preparation to make death attacks. Thereafter, they attack in
+  pairs, flanking with one another to make sneak attacks using their Outflank
+  and Precise Strike feats.
+Morale: The magaavs fight to the death.
+Gear: potion of invisibility
+OtherGear: +1 ranseur
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3302'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

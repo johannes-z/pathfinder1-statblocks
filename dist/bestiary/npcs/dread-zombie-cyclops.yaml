@@ -1,0 +1,95 @@
+Name: Dread Zombie Cyclops
+CR: '6'
+XP: '2400'
+Race: Cyclops
+MonsterSource: Pathfinder RPG Bestiary 52, Advanced Bestiary 105
+Alignment: CE
+Size: Large
+Type: undead
+Init: '-2'
+Senses:
+  - low-light vision
+  - Perception +19
+AC: 19, touch 7, flat-footed 19
+AC_Mods: (+2 armor, -2 Dex, +10 natural, -1 size)
+HP: '65'
+HD: (10d8+20)
+Saves: Fort +4, Ref +1, Will +8
+Fort: '4'
+Ref: '1'
+Will: '8'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - mwk battleaxe +14/+9 (2d6+7/x3), slam +13 (1d8+7),  bite +13 (1d6+7)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: brain consumption, command zombies
+AbilityScores:
+  - 25
+  - 6
+  - —
+  - 6
+  - 13
+  - 12
+BaseAtk: '7'
+CMB: '15'
+CMD: '23'
+Feats:
+  - Alertness
+  - Cleave
+  - Great Cleave
+  - Improved Bull Rush
+  - Power Attack
+  - Toughness
+Skills:
+  - Intimidate +9
+  - Perception +19
+  - Sense Motive +11
+  - Survival +6
+Languages:
+  - Common
+  - Cyclops
+  - Giant
+SQ: flash of insight
+Source: AP 33
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Brain Consumption (Ex)
+    description: >-
+      If a dread zombie cyclops deals damage with its bite attack against a
+      helpless or pinned living foe, the bitten creature must make a DC 22
+      Fortitude save or be reduced to a negative hit point total equal to 1
+      lower than his current Constitution as the zombie begins to consume his
+      brain. If the dread zombie bites a foe who is in negative hit points, he
+      automatically kills the foe by eating his brain. The save DC is
+      Strength-based.
+  - name: Command Zombies (Su)
+    description: >-
+      A dread zombie cyclops can automatically command all normal zombies within
+      30 feet as a free action. Normal zombies never attack a dread zombie
+      unless compelled.
+DuringCombat: >-
+  Plagued by shattered, incomplete memories of an ancient cyclops empire and a
+  constant, gnawing hunger for brains, the dread zombie cyclops lurches to
+  roaring violence upon sighting any living intruder, attacking intruders on
+  sight.
+Morale: The undead cyclops fights until destroyed.
+Gear: leather armor, battleaxe
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: dread zombie|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '701'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,111 @@
+Name: Jorqual
+CR: '4'
+XP: '1200'
+Race: undine
+Class: summoner 5
+MonsterSource: Pathfinder RPG Advanced Player's Guide 54, Pathfinder RPG Bestiary 2 275
+Alignment: CN
+Size: Medium
+Type: outsider
+SubType: (aquatic, native)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 15, touch 11, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection)
+HP: '31'
+HD: (5d8+5)
+Saves: Fort +4, Ref +1, Will +6
+Fort: '4'
+Ref: '1'
+Will: '6'
+DefensiveAbilities: shield ally
+Resist: cold 5
+Speed: 30 ft., swim 40 ft.
+Melee:
+  - dagger +2 (1d4-1/19-20)
+Ranged:
+  - light crossbow +3 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5)
+  values:
+    - label: 1/day
+      value: >-
+        hydraulic pushAPG Summoner Spell-Like Abilities (CL 5th; concentration
+        +8):
+    - label: 6/day
+      value: summon monster III
+SpellsKnown:
+  header: Summoner Spells Known (CL 5th; concentration +8)
+  values:
+    - label: 2nd (3/day)
+      value: glitterdust (DC 15), haste, summon monster II
+    - label: 1st (5/day)
+      value: >-
+        corrosive touchUM, daze monster (DC 14), lesser rejuvenate eidolonAPG,
+        mage armor
+    - label: 0 (at will)
+      value: acid splash, detect magic, mage hand, message, open/close, read magic
+AbilityScores:
+  - 8
+  - 10
+  - 12
+  - 14
+  - 15
+  - 16
+BaseAtk: '3'
+CMB: '2'
+CMD: '13'
+Feats:
+  - Aquatic Ancestry
+  - Combat Casting
+  - Great Fortitude
+Skills:
+  - Knowledge (arcana
+  - nature
+  - planes) +10
+  - Perception +7
+  - Spellcraft +10
+  - Swim +5
+Languages:
+  - Aklo
+  - Aquan
+  - Common
+  - Draconic
+SQ: amphibious, bond senses (5 rounds/day), eidolon, life link, water affinity
+Source: The Emerald Spire
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: Jorqual casts mage armor on his eidolon daily.
+DuringCombat: >-
+  Jorqual casts haste on himself and his eidolon; he then uses summon monster II
+  to summon a giant frog or multiple poisonous frogs.
+Morale: >-
+  If his eidolon is defeated, Jorqual attempts to flee (using a scroll of
+  invisibility, if possible), heading toward his sisters.
+Gear: >-
+  potion of cure moderate wounds, scroll of aqueous orbAPG, scroll of
+  invisibility
+OtherGear: >-
+  chain shirt, dagger, light crossbow with 10 mwk bolts, ring of protection +1,
+  antitoxin, backpack, flasks (10), glass bottles (5), hourglass (1 hour), ink,
+  inkpen, journalUE, scroll case, coral (worth 100 gp), irregular pearls (5,
+  worth 10 gp each), pearl (worth 100 gp), 71 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '6111'
+id: '6110'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

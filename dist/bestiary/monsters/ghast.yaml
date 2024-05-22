@@ -1,0 +1,82 @@
+Name: Ghast
+CR: '2'
+XP: '600'
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+4 Dex, +4 natural)
+HP: '17'
+HD: (2d8+8)
+Saves: Fort +4, Ref +4, Will +7
+Fort: '4'
+Ref: '4'
+Will: '7'
+DefensiveAbilities: channel resistance +2
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +5 (1d6+3 plus disease and paralysis) and 2 claws +5 (1d6+3 plus
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: paralysis (1d4+1 rounds, DC 15, effects elves normally), stench
+AbilityScores:
+  - 17
+  - 19
+  - —
+  - 17
+  - 18
+  - 18
+BaseAtk: '1'
+CMB: '4'
+CMD: '18'
+Feats:
+  - Weapon Finesse
+Skills:
+  - Acrobatics +6
+  - Climb +8
+  - Perception +9
+  - Stealth +9
+  - Swim +4
+Languages:
+  - Common
+Environment: any land
+Organization: solitary, gang (2-4), or pack (7-12)
+Treasure: standard
+Description_Visual: >-
+  This humanoid creature has long, sharp teeth, and its pallid flesh is
+  stretched tightly over its starved frame.
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Stench (Ex)
+    description: >-
+      Ghast's exude an overwhelming stink of death and corruption in a 10-foot
+      radius. Those within the stench must succeed at a DC 15 Fortitude save, or
+      be sickened for 1d6+4 minutes
+Description:
+  - >-
+    A ghast's paralysis even affects elves. Ghasts roam in packs of their own
+    kind or lead groups of common ghouls. The stink of death and corruption
+    surrounding these creatures is overwhelming.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: Ghoul
+CompanionFamiliarLink: 'NULL'
+id: '1768'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

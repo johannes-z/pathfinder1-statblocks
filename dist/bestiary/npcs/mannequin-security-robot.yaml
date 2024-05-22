@@ -1,0 +1,103 @@
+Name: Mannequin Security Robot
+CR: '3'
+XP: '800'
+Race: Mannequin Security Robot
+MonsterSource: 'robot; Pathfinder Campaign Setting: Numeria Land of Fallen Stars 57'
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, Perception +4
+AC: 17, touch 12, flat-footed 15
+AC_Mods: (+2 armor, +2 Dex, +3 natural)
+HP: '31'
+HD: (2d10+20)
+Saves: Fort +0, Ref +2, Will +0
+Fort: '0'
+Ref: '2'
+Will: '0'
+DefensiveAbilities: hardness 5
+Immune: construct traits
+Resist: electricity 5, fire 5
+Weaknesses: vulnerable to critical hits, vulnerability to electricity
+Speed: 30 ft.
+Melee:
+  - longspear +6 (1d8+6/x3) or 2 slams +6 (1d4+4)
+Ranged:
+  - javelin +4 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 19
+  - 14
+  - —
+  - 10
+  - 11
+  - 1
+BaseAtk: '2'
+CMB: '6'
+CMD: '18'
+Feats:
+  - Improved Initiative
+Skills:
+  - Disguise -4 (+4 to appear human)
+  - Knowledge (local) +4
+  - Perception +4
+  - Sense Motive +4
+RacialMods: +8 Disguise to appear human
+Languages:
+  - Common
+  - Hallit
+SQ: false flesh
+Source: PFS S6-09
+IsTemplate: '0'
+SpecialAbilities:
+  - name: False Flesh (Ex)
+    description: >-
+      The synthetic flesh and hair of a mannequin robot give it a +8 bonus on
+      Disguise checks to appear human (but not to impersonate a specific human).
+      Closely inspecting a mannequin or touching its cold, synthetic skin
+      automatically reveals its non-human nature.
+  - name: Robot Subtype (Ex)
+    description: >-
+      "Robot" is a special subtype applied to a construct without changing its
+      CR. All robots are vulnerable to critical hits (see below), vulnerable to
+      electricity, and are intelligent. A creature can identify a robot by using
+      Knowledge (arcana or engineering), but only if he also has the
+      Technologist feat (Pathfinder Campaign Setting: Technology Guide 7);
+      otherwise the creature is limited to identifying the robot as an
+      unfamiliar construct (DC 10 reveals the type and basic construct traits).
+  - name: Vulnerable to Critical Hits (Ex)
+    description: >-
+      Whenever a robot takes extra damage from a critical hit, it must succeed
+      at a DC 15 Fortitude save to avoid being stunned for 1 round. If its
+      saving throw is successful, it is staggered for 1 round. The robot remains
+      immune to other sources of the stunned condition.
+BeforeCombat: >-
+  The mannequin remains quiet while Na'alu speaks, though it sometimes sways
+  slightly or makes other small movements to feign life.
+DuringCombat: >-
+  The mannequin tries to pin down any foes trying to cross the bridge and attack
+  Na'alu.
+Morale: The mannequin fights until destroyed.
+Gear: longspear, javelins (2), leather armor
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bull's strength, the mannequins statistics are Melee longspear +4
+  (1d8+3/x3) or 2 slams +4 (1d4+2); Ranged javelin +4 (1d6+2); Str 15; CMB +4;
+  CMD 16.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7903'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

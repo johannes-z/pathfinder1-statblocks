@@ -1,0 +1,124 @@
+Name: Maelpheta
+CR: '8'
+XP: '4800'
+Race: marai rakshasa
+MonsterSource: Pathfinder RPG Bestiary 3 228
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native, rakshasa, shapechanger)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 25, touch 16, flat-footed 19
+AC_Mods: (+4 armor, +5 Dex, +1 dodge, +5 natural)
+HP: '94'
+HD: (9d10+45)
+Saves: Fort +8, Ref +11, Will +9
+Fort: '8'
+Ref: '11'
+Will: '9'
+DR: 10/good and piercing
+SR: '23'
+Speed: 40 ft.
+Melee:
+  - 7 bites +14 (1d4+2 plus confusion)
+Ranged:
+  - 6 energy bolts +14 touch (1d8 plus special)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: detect thoughts (DC 18), energy bolts
+SpellsKnown:
+  header: Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (5/day)
+      value: invisibility, scorching ray
+    - label: 1st (7/day)
+      value: charm person (DC 15), jump, mage armor, magic missile
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), detect magic, ghost sound (DC 14), mage hand, open/close,
+        read magic
+AbilityScores:
+  - 14
+  - 21
+  - 20
+  - 11
+  - 13
+  - 18
+BaseAtk: '9'
+CMB: '11'
+CMD: '27'
+Feats:
+  - Dodge
+  - Iron Will
+  - Silent Spell
+  - Still Spell
+  - Weapon Finesse
+Skills:
+  - Acrobatics +14 (+18 when jumping)
+  - Bluff +20
+  - Climb +7
+  - Disguise +16
+  - Knowledge (arcana) +8
+  - Perception +10
+  - Sense Motive +12
+  - Spellcraft +8
+RacialMods: +4 Bluff, +8 Disguise
+Languages:
+  - Common
+  - Infernal
+  - Undercommon
+SQ: change shape (any humanoid; alter self)
+Source: PFS S3-24
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Confusion (Su)
+    description: >-
+      A creature bitten by a marai's bite (from either its actual mouth or the
+      snakes it has for hands) must succeed at a DC 19 Will save or become
+      confused for 1 round. The save DC is Constitution-based.
+  - name: Energy Bolts (Ex)
+    description: >-
+      Once every 1d4 rounds as a standard action that provokes an attack of
+      opportunity, Maelpheta's six snake arms can each spit a bolt of energy to
+      a maximum range of 60 feet. Each bolt deals 1d8 points of damage and has
+      an additional effect if the target fails to resist it with a DC 19
+      Fortitude save, as summarized below. The save DC is Constitution-based.
+      Amethyst Viper: Cold damage plus sickened for 1d4 rounds. Crimson Viper:
+      Fire damage plus burn (1d4, DC 19). Emerald Viper: Acid damage plus
+      nauseated for 1 round. Magenta Viper: Electricity damage plus staggered
+      for 1 round. Turquoise Viper: Sonic damage plus stunned for 1 round.
+      Violet Viper: Force damage plus knocked prone. Spells A marai casts arcane
+      spells as a 5th-level sorcerer.
+Gender: Female
+BeforeCombat: >-
+  If aware that something has gone wrong at the Golden Serpent, Maelpheta casts
+  mage armor in anticipation of conflict. This spell effect is already included
+  in her statistics.
+DuringCombat: >-
+  If the PCs do not force her into close combat, Maelpheta uses her energy bolts
+  to target as many PCs as possible, following up with scorching ray and magic
+  missile while her viper arms recharge. In close combat, she makes full attacks
+  against a single opponent, counting on her confusion supernatural ability to
+  distract her opponent on the following round to give her time to move away.
+Morale: >-
+  Maelpheta flees if brought down to 15 hit points or fewer, using her cape of
+  the mountebank to get as far from the PCs as possible.
+Gear: cape of the mountebank
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6700'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

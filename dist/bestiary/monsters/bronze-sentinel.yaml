@@ -1,0 +1,108 @@
+Name: Bronze Sentinel
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Small
+Type: construct
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +5
+AC: 18, touch 14, flat-footed 15
+AC_Mods: (+3 Dex, +4 natural, +1 size)
+HP: '32'
+HD: (4d10+10)
+Saves: Fort +1, Ref +4, Will +1
+Fort: '1'
+Ref: '4'
+Will: '1'
+Immune: construct traits, fire, magic
+Speed: 40 ft., climb 20 ft.
+Melee:
+  - 2 claws +9 (1d4+4)
+Ranged:
+  - fiery bolt +8 (1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 2nd; concentration -1)
+  values:
+    - label: Constant
+      value: detect magic
+AbilityScores:
+  - 18
+  - 16
+  - —
+  - 1
+  - 11
+  - 5
+BaseAtk: '4'
+CMB: '7'
+CMD: 20 (28 vs. trip)
+Feats:
+  - Improved Initiative
+  - Skill Focus (Perception)
+Skills:
+  - Climb +12
+  - Perception +5
+  - Stealth +9
+Languages:
+  - Thassilonian (can't speak)
+SQ: alert, freeze
+Environment: any
+Organization: solitary, pair, or troop (3-7)
+Treasure: none
+Description_Visual: >-
+  Sculpted from bronze in the form of a large humanoid head, this creature
+  perches on six mechanical legs, its eyes intermittently shining with an orange
+  glow.
+Group: Thassilonian Sentinels
+Source: AP 62
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alert (Su)
+    description: >-
+      A bronze sentinel can take simple orders and identify intruders, and it
+      possesses the ability to alert its creator or another creature to which
+      it's keyed. When a bronze sentinel detects a trespasser, it can choose to
+      alert the creature to which it's keyed in one of two ways. The sentinel
+      can create a loud sound like that of a bell, chime, or gong that can be
+      clearly heard at a range of 500 feet. Alternatively, a bronze sentinel can
+      send a mental alert to the creature to which it is keyed as long as that
+      creature is within 1 mile of the sentinel. The mental alert wakes the
+      keyed creature from sleep, but doesn't affect normal concentration. A
+      bronze sentinel's creator is the first creature to which it is keyed, and
+      the creator can pass its link to another creature as part of a 4-hour
+      ritual that uses materials costing 500 gp.
+  - name: Fiery Bolt (Su)
+    description: >-
+      As a standard action, a bronze sentinel can fire a bolt of flame as a
+      ranged touch attack out to a maximum range of 30 feet. This bolt deals 1d6
+      points of fire damage.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A bronze sentinel is immune to spells or spell-like abilities that allow
+      spell resistance, save for spells with the electricity descriptor.
+Description:
+  - >-
+    Bronze sentinels were among the most common of Thassilonian sentinels, and
+    saw widespread use in ancient Bakrakhan and Eurythnia. Thassilonian nobles
+    and wizards used these creatures to protect their goods, magical
+    laboratories, and libraries. A bronze sentinel's fiery bolt burns hot, but
+    its flames are short lived. This construction is in place to minimize the
+    risk of the sentinel setting fire to the very things it is set to protect.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3389'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

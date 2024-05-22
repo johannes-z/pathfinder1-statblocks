@@ -1,0 +1,112 @@
+Name: Marrowstone Golem
+CR: '8'
+XP: '4800'
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+Aura: necrotic field (30 ft.)
+AC: 21, touch 9, flat-footed 21
+AC_Mods: (+12 natural, -1 size)
+HP: '85'
+HD: (10d10+30)
+Saves: Fort +3, Ref +3, Will +3
+Fort: '3'
+Ref: '3'
+Will: '3'
+DR: 10/adamantine
+Immune: construct traits, magic
+Speed: 30 ft.
+Melee:
+  - 2 slams +14 (2d6+5 plus 2d6 negative energy)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: create spawn
+AbilityScores:
+  - 20
+  - 11
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '10'
+CMB: '16'
+CMD: '26'
+Environment: any underground (Darklands)
+Organization: solitary or gang (2-5)
+Treasure: none
+Description_Visual: Thin veins of black rock crisscross the frame of this hulking construct.
+Group: Golem
+Source: Inner Sea Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      Any humanoid creature that is slain by a marrowstone golem rises from
+      death as a free-willed ghoul in 24 hours. A creature with four or more
+      class levels rises as a ghast instead. In either case, the ghoul or ghast
+      has a 25% chance of retaining whatever class levels it had in life.
+  - name: Immunity to Magic (Su)
+    description: >-
+      A marrowstone golem is immune to any spell or spell-like ability that
+      allows spell resistance. In addition, certain spells and effects function
+      differently against the golem, as noted below. • A transmute rock to mud
+      spell slows a marrowstone golem (as the slow spell) for 2d6 rounds, with
+      no saving throw. • Effects that heal undead heal half that amount of
+      damage to a marrowstone golem, to a limit of its full normal hit points. •
+      A marrowstone golem that fails its save against a magical attack that
+      deals positive energy damage (including the channel energy ability when
+      used to harm undead, but not when used to heal living creatures) does not
+      take any damage from the attack, but it loses its create spawn ability,
+      its necrotic field aura, and the negative energy damage from its slam
+      attack for 1d4 rounds.
+  - name: Necrotic Field (Su)
+    description: >-
+      Undead within 30 feet of a marrowstone golem gain a +2 resistance bonus on
+      saving throws, increase the save DCs of their extraordinary and
+      supernatural abilities by 2, and gain a +4 bonus to channel resistance.
+      Positive energy effects cause only half damage to a creature within the
+      marrowstone golem's aura. Their aura particularly strengthens ghouls and
+      ghasts, giving them a +2 bonus on attack and weapon damage rolls.
+Description:
+  - >-
+    Carved from rock hewn from the marrowstone mines of Sekamina, these golems
+    amplify the magical radiation emitted by veins of lazurite. They can only be
+    crafted within the necropolis of Nemret Noktoria, land of ghouls, for
+    lazurite brought beyond its boundaries loses its potency. Binding the
+    lazurite into the body of the golem stabilizes it and lets the construct
+    leave the boundaries of the ghoulish city with its fell powers intact.
+  - >-
+    Though the ghouls guard the secrets of making a marrowstone golem, they are
+    sometimes known to trade their handiwork with outsiders.
+  - CONSTRUCTION
+  - >-
+    A marrowstone golem's body is chiseled from a single block of marrowstone
+    weighing at least 2,500 pounds. Marrowstone can only be found in the
+    necropolis of Nemret Noktoria in the Darklands realm of Sekamina. Preparing
+    the stone requires the use of exotic unguents that cost 2,500 gp.
+  - Marrowstone Golem
+  - CL 11th; Price 42,500 gp
+  - CONSTRUCTION
+  - >-
+    Requirements Craft Construct, animate object, antilife shell, create undead,
+    creator must be caster level 11th; Skill Craft (sculpture) or Craft
+    (stonemasonry) DC 21; Cost 22,500 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3563'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

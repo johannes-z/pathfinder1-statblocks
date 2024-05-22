@@ -1,0 +1,98 @@
+Name: Morlock Creeper
+CR: '7'
+XP: '3200'
+Race: morlock
+Class: rogue 5
+MonsterSource: Pathfinder RPG Bestiary 209
+Alignment: CE
+Size: Small
+Type: monstrous humanoid
+Init: '12'
+Senses:
+  - darkvision 120 ft., scent
+  - Perception +12
+AC: 23, touch 19, flat-footed 15
+AC_Mods: (+1 armor, +8 Dex, +3 natural, +1 size)
+HP: '67'
+HD: (8 HD; 5d8+3d10+29)
+Saves: Fort +7, Ref +15, Will +8
+Fort: '7'
+Ref: '15'
+Will: '8'
+DefensiveAbilities: evasion, trap sense +1, uncanny dodge
+Immune: disease, poison
+Weaknesses: light blindness
+Speed: 40 ft., climb 30 ft.
+Melee:
+  - mwk short sword +8/+3 (1d4/19-20), bite +2 (1d3)
+Ranged:
+  - mwk blowgun +16/+11 (1 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: leap attack, sneak attack +4d6, swarming
+AbilityScores:
+  - 11
+  - 26
+  - 17
+  - 7
+  - 18
+  - 6
+BaseAtk: '6'
+CMB: '5'
+CMD: '23'
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Point-Blank Shot
+  - Precise Shot
+Skills:
+  - Acrobatics +23 (+27 when jumping)
+  - Climb +23
+  - Craft (alchemy) +8
+  - Knowledge (dungeoneering) +7
+  - Perception +12
+  - Stealth +20 (+24 in caverns)
+  - Survival +12
+RacialMods: +8 Acrobatics, +16 Climb, +4 Stealth in caverns
+Languages:
+  - Undercommon
+SQ: >-
+  expert climber, rogue talents (surprise attacks, swift poisonAPG), trapfinding
+  +2
+Source: AP 118
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Spritely (Ex)
+    description: >-
+      Creepers are smaller and faster than the average morlock, but also weaker.
+      Their size category is Small and they gain a +2 bonus to Dexterity, but
+      they also take a -2 penalty to Strength. These modifications do not affect
+      a creeper's challenge rating.
+BeforeCombat: >-
+  Prior to combat, the creeper coats two blowgun darts with bloodbrain venom and
+  finds a hiding place in the nooks of the cavern wall.
+DuringCombat: >-
+  The creeper fights from afar with its blowgun whenever possible. It clings to
+  walls and makes repeated shots at enemies using its sneak attack ability and
+  poisoned darts. It prefers to snipe enemies (taking the -20 penalty on Stealth
+  checks) rather than reveal itself immediately.
+Morale: >-
+  The creeper is cowardly for a morlock, and if reduced below 10 hit points, it
+  flees to reinforce other defenders.
+Gear: bloodbrain venom (4 doses; see page 16)
+OtherGear: padded armor, mwk blowgun, mwk short sword, amulet of natural armor +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11469'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

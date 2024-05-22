@@ -1,0 +1,140 @@
+Name: Tormentor Devil
+CR: '7'
+XP: '3200'
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '8'
+Senses:
+  - darkvision 60 ft., detect thoughts, see in darkness
+  - Perception +15
+AC: 24, touch 14, flat-footed 20
+AC_Mods: (+4 Dex, +10 natural)
+HP: '76'
+HD: (8d10+32)
+HP_Mods: regeneration 5 (good, silver)
+Saves: Fort +6, Ref +10, Will +8
+Fort: '6'
+Ref: '10'
+Will: '8'
+DR: 5/good or silver
+Immune: fire, poison
+Resist: acid 10, cold  10
+SR: '18'
+Speed: 30 ft.
+Melee:
+  - +1 ghost touch battleaxe +13/+8 (1d8+5/x3) or 2  claws +12 (1d8+4)
+Ranged:
+  - soulcatcher net +12 (1d6 plus grapple)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: ghost touch
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: Constant
+      value: detect thoughts (DC 14)
+    - label: At will
+      value: >-
+        dimensional anchor, doom (DC 13), greater teleport (self plus 50 pounds
+        of objects only), scorching ray
+    - label: 1/day
+      value: order's wrath (DC 16)
+AbilityScores:
+  - 18
+  - 18
+  - 18
+  - 14
+  - 14
+  - 15
+BaseAtk: '8'
+CMB: '12'
+CMD: '26'
+Feats:
+  - Alertness
+  - Improved Initiative
+  - Power Attack
+  - Skill Focus (Bluff)
+Skills:
+  - Bluff +16
+  - Diplomacy +13
+  - Escape Artist +15
+  - Intimidate +13
+  - Knowledge (planes) +13
+  - Perception +15
+  - Sense Motive +15
+  - Survival +13 (+17 tracking)
+RacialMods: +4 Survival when tracking
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+  - telepathy 100 ft.
+SQ: soul track
+Environment: any (Hell)
+Organization: pack (2-5) or troupe (pack plus 1-4 hell hounds)
+Treasure: none
+Description_Visual: >-
+  This reddish-gray scaled humanoid stands taller than a human. Its hands are
+  clawed and its feet cloven. Oversized fangs jut from its upper jaw and drip
+  foul-smelling saliva. Small horns protrude from just above its eyes, curving
+  backwards. Its head and body are hairless and a small curving tail trails
+  behind it. It wields a battleaxe and carries a wickedly-barbed net slung
+  across its back.
+Group: Devil
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ghost Touch (Ex)
+    description: >-
+      A tormentor devil deals damage normally with its claws against incorporeal
+      creatures.
+  - name: Soul Track (Su)
+    description: >-
+      A tormentor devil can track the soul of any creature that enters any of
+      the planes of Hell. Tracking a soul has a base DC of 20 and follows the
+      rules for tracking. A tormentor devil must be on the same plane as the
+      soul it is tracking. Soulcatcher Net: A tormentor devil's net looks like a
+      normal net and follows the rules for net attacks. The net has 20 hit
+      points; the Escape Artist check to get free is DC 30; the net can be
+      broken with a successful DC 30 Strength check. The net can entrap
+      incorporeal creatures. The net has many small razor-sharp barbs lining it.
+      These barbs deal 1d6 points of damage each round to any creature caught in
+      the net, including incorporeal creatures. (The incorporeal creature's 50%
+      chance to avoid damage from a corporeal source does not apply to this
+      attack.)
+Description:
+  - >-
+    Tormentors of Souls, known as tormentor devils, make their way across the
+    uppermost plane of Hell searching for souls that have entered the realms of
+    evil. Various arch-devils and dukes employ tormentor devils to capture and
+    return souls to them for their devilish uses. Tormentors often employ hell
+    hounds when pursuing renegade or runaway souls.
+  - Tormentors stand 7 feet tall and weigh about 400 pounds.
+  - >-
+    Tormentor devils attack using their battleaxes and nets. They hunt in packs
+    when tracking souls and are rarely encountered alone. If leading a pack of
+    hell hounds, tormentors let the hell hounds attack first while they stay at
+    range and attack with their nets.
+  - Copyright Notice Authors Clark Peterson and Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: +1 ghost touch battleaxe, soulcatcher net
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2477'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

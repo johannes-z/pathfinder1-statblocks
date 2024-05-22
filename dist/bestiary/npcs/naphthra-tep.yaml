@@ -1,0 +1,130 @@
+Name: Naphthra-Tep
+CR: '12'
+XP: '12800'
+Race: mummy
+Class: sorcerer 10
+Alignment: LE
+Size: Small
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+Aura: despair (30 ft., paralyzed for 1d4 rounds, Will DC 19 negates)
+AC: 23, touch 15, flat-footed 19
+AC_Mods: (+3 Dex, +1 dodge, +8 natural, +1 size)
+HP: '161'
+HD: (8d8+10d6+90)
+Saves: Fort +10, Ref +10, Will +15
+Fort: '10'
+Ref: '10'
+Will: '15'
+DR: 5/-
+Immune: undead traits
+Resist: acid 10, cold 10, electricity 10, fire 10
+Weaknesses: vulnerability to fire
+Speed: 20 ft.
+Melee:
+  - slam +15 (1d6+3 plus mummy rot) or 2 claws +13 (1d2+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bloodline arcana (+1 damage per die for spells with acid, cold, electricity,
+  or fire descriptor), breath weapon 1/day (acid 30-foot cone, acid 60-foot
+  line, cold 30-foot cone, electricity 60-foot line, fire 30-foot cone; 9d6;
+  Reflex DC 20 half), claws 8 rounds/day, mummy rot (DC 19)
+SpellsKnown:
+  header: Spells Known (CL 10th; melee touch +14, ranged touch +15)
+  values:
+    - label: 5th (4/day)
+      value: cone of cold (DC 20)
+    - label: 4th (6/day)
+      value: confusion (DC 19), fear (DC 19)B, ice storm
+    - label: 3rd (7/day)
+      value: dispel magic, flame arrow, flyB, lightning bolt (DC 18)
+    - label: 2nd (7/day)
+      value: >-
+        arcane lock, command undead (DC 17), glitterdust (DC 17), resist
+        energyB, scorching ray
+    - label: 1st (8/day)
+      value: >-
+        burning hands (DC 16), mage armorB, magic missile, obscuring mist, ray
+        of enfeeblement, true strike
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), dancing lights, daze (DC 15), detect magic, message,
+        open/close, read magic, touch of fatigue
+AbilityScores:
+  - 15
+  - 16
+  - —
+  - 10
+  - 15
+  - 21
+BaseAtk: '11'
+CMB: '12'
+CMD: '26'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew MaterialsB
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Silent Spell
+  - Skill Focus (Fly)B
+  - Skill Focus (Perception)
+  - Stealthy
+  - Still Spell
+  - Weapon Focus (slam)
+Skills:
+  - Bluff +17
+  - Escape Artist +5
+  - Fly +19
+  - Knowledge (religion) +20
+  - Perception +17
+  - Spellcraft +11
+  - Stealth +20
+Languages:
+  - Common
+SQ: bloodline power (all chromatic dragons)
+Source: Rappan Athuk-Level 12B
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Despair (Su)
+    description: >-
+      All creatures within a 30-foot radius that see Naphthra-Tep must make a DC
+      19 Will save or be paralyzed by fear for 1d4 rounds. Whether or not the
+      save is successful, that creature cannot be affected again by his despair
+      ability for 24 hours. This is a paralysis and a mind-affecting fear
+      affect. The save DC is Charisma-based.
+  - name: Mummy Rot (Su)
+    description: >-
+      Curse and disease-slam; save Fort DC 19; onset 1 minute; frequency 1/day;
+      effect 1d6 Con and 1d6 Cha; cure -. Mummy rot is both a curse and disease
+      and can only be cured if the curse is first removed, at which point the
+      disease can be magically removed. Even after the curse element of mummy
+      rot is lifted, a creature suffering from it cannot recover naturally over
+      time. Anyone casting a conjuration (healing) spell on the afflicted
+      creature must succeed on a DC 20 caster level check, or the spell is
+      wasted and the healing has no effect. Anyone who dies from mummy rot turns
+      to dust and cannot be raised without a resurrection or greater magic. The
+      save DC is Charisma-based.
+Gender: Male
+Bloodline: Draconic (all)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: young|
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '12300'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

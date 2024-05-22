@@ -1,0 +1,88 @@
+Name: Coffer Corpse
+CR: '3'
+XP: '800'
+Race: Coffer Corpse
+MonsterSource: Tome of Horrors Complete 117
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 14, touch 11, flat-footed 13
+AC_Mods: (+1 Dex, +3 natural)
+HP: '30'
+HD: (4d8+12)
+Saves: Fort +3, Ref +2, Will +5
+Fort: '3'
+Ref: '2'
+Will: '5'
+DefensiveAbilities: channel resistance +2, deceiving death
+DR: 5/magic and bludgeoning
+Immune: undead traits
+Speed: 20 ft.
+Melee:
+  - 2 slams +6 (1d6+3 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (1d6+3), fear, grab (Large), strangle
+AbilityScores:
+  - 16
+  - 12
+  - —
+  - 6
+  - 13
+  - 15
+BaseAtk: '3'
+CMB: +6 (+10 grapple)
+CMD: '17'
+Feats:
+  - Improved Initiative
+  - Toughness
+Skills:
+  - Intimidate +7
+  - Perception +6
+  - Stealth +8
+Languages:
+  - Common
+  - Osirian
+Source: AP 79
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Deceiving Death (Ex)
+    description: >-
+      In any round in which a coffer corpse is struck for 6 or more points of
+      damage (whether or not the damage bypasses the coffer corpse's damage
+      reduction), the creature slumps to the ground, seemingly destroyed. If the
+      coffer corpse is strangling a victim, it releases its hold when it falls.
+      On its next turn, the coffer corpse rises again as if reanimated,
+      triggering its fear ability. Characters can see through this ruse with a
+      successful DC 20 Sense Motive check (necromancers receive a +2
+      circumstance bonus on this check).
+  - name: Fear (Su)
+    description: >-
+      A creature that sees a coffer corpse rise after it uses its deceiving
+      death ability must succeed at a DC 14 Will save or be panicked for 2d4
+      rounds. On a successful save, the creature is shaken for 1 round. This is
+      a mind-affecting fear effect. The save DC is Charisma-based.
+  - name: Strangle (Ex)
+    description: >-
+      A coffer corpse grasps its victims by the throat in a crushing death grip.
+      A creature that is grappled by a coffer corpse cannot speak or cast spells
+      with verbal components.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5767'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

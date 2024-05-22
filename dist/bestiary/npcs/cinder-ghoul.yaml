@@ -1,0 +1,110 @@
+Name: Cinder Ghoul
+CR: '8'
+XP: '4800'
+Race: Cinder Ghoul
+MonsterSource: Tome of Horrors Complete 313
+Alignment: CE
+Size: Large
+Type: undead
+SubType: (fire)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +8
+AC: 21, touch 15, flat-footed 15
+AC_Mods: (+5 Dex, +1 dodge, +6 natural, -1 size)
+HP: '68'
+HD: (8d8+32)
+Saves: Fort +6, Ref +9, Will +7
+Fort: '6'
+Ref: '9'
+Will: '7'
+DefensiveAbilities: limited gaseous form
+DR: 10/magic
+Immune: fire, undead traits
+Weaknesses: vulnerable to cold
+Speed: fly 40 ft. (perfect)
+Melee:
+  - >-
+    cleaver +12/+7 (1d6+5/19-20 plus burn and energy drain), slam +5 (1d8+1 plus
+    burn and energy drain)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: burn (1d8 fire, DC 18), energy drain (1 level, DC 18), smoke inhalation
+AbilityScores:
+  - 16
+  - 20
+  - —
+  - 4
+  - 12
+  - 19
+BaseAtk: '6'
+CMB: '10'
+CMD: 26 (can't be tripped)
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Lightning Reflexes
+  - Weapon Finesse
+Skills:
+  - Fly +18
+  - Perception +8
+Source: Curse Of The Crimson Throne Chapter 5
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cleaver (Su)
+    description: >-
+      Each of these cinder ghouls wields a wicked-looking meat cleaver that
+      functions as a +2 conductiveUE dagger. If a cinder ghoul is destroyed, or
+      if a cinder ghoul is forced to drop its cleaver, the cleaver becomes a
+      nonmagical improvised weapon. This unique ability, which grants the cinder
+      ghoul additional opportunities to affect foes with burn and energy drain,
+      increases its CR by 1.
+  - name: Limited Gaseous Form (Ex)
+    description: >-
+      Because it has solid body parts that constantly float and swirl within it,
+      a cinder ghoul has a limited version of gaseous form. Although other
+      gaseous creatures can slip under the crack of a door, a cinder ghoul
+      cannot. A cinder ghoul can, however, make slam attacks, retains its
+      natural armor bonus, and can wield objects and weapons. Spells, spell-like
+      abilities, and supernatural abilities affect them normally. A cinder ghoul
+      cannot enter water or other liquid. It is not ethereal or incorporeal, and
+      is affected by winds or other forms of moving air to the extent that the
+      wind pushes them in the direction the wind is moving. However, even the
+      strongest wind can't disperse or damage a cinder ghoul. Because it
+      contains burning embers and small bits of perpetually smoldering flesh, a
+      cinder ghoul cannot hide and gains no bonuses on Stealth checks in an area
+      of mist, smoke, or other gas.
+  - name: Smoke Inhalation (Su)
+    description: >-
+      As a standard action, a cinder ghoul can attempt to force some of its
+      smoky form into the lungs of a living opponent. To initiate this attack,
+      it must move into its target's space (this does not provoke an attack of
+      opportunity). The target must then attempt a successful DC 18 Fortitude
+      save or inhale part of the creature. Smoke inside the victim's lungs burns
+      the surrounding tissue, dealing 1d2 points of Constitution damage each
+      round. The affected creature can attempt another Fortitude save each round
+      to cough out the burning residue and thus end the effect. The save DC is
+      Charisma-based.
+DuringCombat: >-
+  The cinder ghouls move to attack the closest targets. On the first round that
+  a cinder ghoul is adjacent to a foe at the start of that round, the ghoul
+  attempts its smoke inhalation attack while the other ghoul continues to fight.
+  Although they will pursue foes into the nearby larder to the southwest, they
+  do not pursue foes further into the castle.
+Morale: The cinder ghouls fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8687'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

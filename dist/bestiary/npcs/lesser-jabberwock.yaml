@@ -1,0 +1,146 @@
+Name: Lesser Jabberwock
+CR: '20'
+XP: '307200'
+Race: Lesser Jabberwock
+Alignment: CE
+Size: Huge
+Type: dragon
+SubType: (air, fire)
+Init: '3'
+Senses:
+  - blindsight 60 ft., darkvision 120 ft., low-light vision, scent
+  - Perception +35
+Aura: frightful presence (120 ft., DC 28)
+AC: 38, touch 12, flat-footed 34
+AC_Mods: (+3 Dex, +1 dodge, +26 natural, -2 size)
+HP: '387'
+HD: (25d12+225)
+HP_Mods: fast healing 10
+Saves: Fort +23, Ref +17, Will +21
+Fort: '23'
+Ref: '17'
+Will: '21'
+DR: 15/vorpal
+Immune: fire, magic paralysis and sleep
+Resist: acid 20, electricity 20, sonic 20
+Weaknesses: fear of vorpal weaponry, vulnerable to cold
+Speed: 40 ft., fly 60 ft. (poor)
+Melee:
+  - >-
+    bite +36 (3d6+13/19-20), 2 claws +36 (2d6+13/19-20 plus  grab), 2 wings +31
+    (1d8+6), tail +31 (2d6+6)
+Ranged:
+  - 2 eye rays +26 touch (15d6/19-20 plus burn)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: burble, burn (6d6, DC 31), whiffling
+AbilityScores:
+  - 37
+  - 16
+  - 29
+  - 8
+  - 25
+  - 22
+BaseAtk: '25'
+CMB: '40'
+CMD: '54'
+Feats:
+  - Awesome Blow
+  - Bleeding Critical
+  - Critical Focus
+  - Dodge
+  - Flyby Attack
+  - Improved Bull Rush
+  - Improved Critical (bite
+  - claws
+  - eye rays)
+  - Mobility
+  - Power Attack
+  - Spring Attack
+  - Vital Strike
+Skills:
+  - Fly +23
+  - Intimidate +34
+  - Knowledge (nature) +27
+  - Perception +35
+  - Sense Motive +35
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Gnome
+  - Sylvan
+SQ: whiffling
+Source: AP 36
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Burble (Su)
+    description: >-
+      A lesser jabberwock can burble once every 1d4 rounds as a standard action.
+      This blast of strange noises and shouted nonsense in the various languages
+      known to the jabberwock (and invariably some languages it doesn't know)
+      affects all creatures within a 60-foot-radius spread-these creatures must
+      make a DC 28 Will save or become confused for 1d4 rounds. Alternatively,
+      the lesser jabberwock can focus its burble attack to create a 60-foot-line
+      of sonic energy that inflicts 20d6 points of sonic damage (DC 28 Reflex
+      save for half). The confusion effect is mind-affecting; both are sonic
+      effects. The save DC is Charisma-based.
+  - name: Damage Reduction (Ex)
+    description: >-
+      A lesser jabberwock's damage reduction can be bypassed only by weapons
+      with the vorpal weapon enhancement.
+  - name: Eye Rays (Su)
+    description: >-
+      The lesser jabberwock can project beams of fire from its eyes as a ranged
+      touch attack as a standard action. It projects two beams, and can target
+      different creatures with these beams if it wishes as long as both targets
+      are within 30 feet of each other. A creature that takes damage from an eye
+      beam suffers burn.
+  - name: Fear of Vorpal Weaponry (Ex)
+    description: >-
+      A lesser jabberwock knows that a vorpal weapon can kill it swiftly. As
+      soon as it takes damage from a vorpal weapon, a lesser jabberwock becomes
+      shaken. If it is hit by a critical threat from a vorpal weapon, whether or
+      not the critical hit is confirmed, the jabberwock is staggered for the
+      following round.
+  - name: Whiffling (Ex)
+    description: >-
+      A lesser jabberwock's wings and violent motions create a significant
+      amount of wind whenever it makes a full attack action. These winds
+      surround the monster to a radius of 30 feet, and are treated as severe
+      winds-ranged attacks suffer a -4 penalty to hit a lesser jabberwock when
+      it is whiffling, and Medium creatures must make a DC 10 Strength check to
+      approach the creature. Small or smaller creatures in this area that fail a
+      DC 15 Strength check are blown away. See page 439 of the Pathfinder RPG
+      Core Rulebook for further details on the effects of severe winds.
+DuringCombat: >-
+  The lesser jabberwock races into the midst of the PCs on the first round of
+  combat to make a vital strike with its bite. On the second round, it burbles
+  to confuse the PCs that surround it. On following rounds, it makes full
+  attacks-preferably against the PC wielding Briar. If the monster is reduced to
+  fewer than 200 hit points, it takes to the air and circles, firing one eye ray
+  per round with Vital Strike while it heals back up to at least 300 hit points
+  before landing and entering melee again. If denied this level of mobility, the
+  monster simply focuses its full attacks on single targets, hoping to take the
+  PCs down one at a time. At your discretion, if the monster defeats the wielder
+  of Briar, it could scoop up the weapon and take to the air. The gate through
+  which Nyrissa sent the creature into the Material Plane is closed, so it must
+  return to the First World via the portal at the Castle of Knives-it flies
+  toward that site with all due haste, eager to return the hated weapon to its
+  mistress.
+Morale: The lesser jabberwock fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '877'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,141 @@
+Name: Volstus
+CR: '19'
+XP: '204800'
+Race: storm giant
+Class: fighter 6
+MonsterSource: Pathfinder RPG Bestiary 152
+Alignment: NE
+Size: Huge
+Type: humanoid
+SubType: (giant)
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +30
+AC: 38, touch 5, flat-footed 38
+AC_Mods: (+9 armor, -1 Dex, +33 natural, -4 size) (+2 deflection vs. good)
+HP: '343'
+HD: (25 HD; 19d8+6d10+225)
+Saves: Fort +22, Ref +13, Will +21 (+2 vs. fear); +2 vs. good
+Fort: '22'
+Ref: '13'
+Will: +21 (+2 vs. fear)
+Save_Mods: +2 vs. good
+DefensiveAbilities: bravery +2, rock catching
+Immune: electricity, red dragon breath weapon
+Speed: 35 ft., swim 30 ft.
+Melee:
+  - +2 thundering falcata +38/+33/+28/+23 (3d6+21/17-20/x3)
+  - 2 slams +34 (2d6+16)
+Ranged:
+  - mwk composite longbow +22/+17/+12/+7 (3d6+16/x3)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  breath weapon (3/day, 60-ft. cone, 20d10 fire damage, Reflex DC 30 half),
+  weapon training (heavy blades +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +16)
+  values:
+    - label: Constant
+      value: freedom of movement
+    - label: 2/day
+      value: control weather, levitate
+    - label: 1/day
+      value: >-
+        call lightning (DC 14), chain lightning (DC 17) Orb of Dragonkind
+        Spell-Like Abilities (CL 10th; concentration +11)
+    - label: At Will
+      value: wall of fire
+AbilityScores:
+  - 43
+  - 16
+  - 28
+  - 16
+  - 22
+  - 13
+BaseAtk: '20'
+CMB: +38 (+40 bull rush, +40 sunder)
+CMD: 51 (53 vs. bull rush, 53 vs. sunder)
+Feats:
+  - Awesome Blow
+  - Cleave
+  - Combat Reflexes
+  - Exotic Weapon Proficiency (falcata)
+  - Improved Bull Rush
+  - Improved Critical (falcata)
+  - Improved Sunder
+  - Improved Vital Strike
+  - Iron Will
+  - Mounted Archery
+  - Mounted Combat
+  - Power Attack
+  - Ride-By Attack
+  - Vital Strike
+  - Weapon Focus (falcata)
+  - Weapon Specialization (falcata)
+  - Will of Giants
+Skills:
+  - Acrobatics +20
+  - Climb +16
+  - Craft (weapons) +12
+  - Intimidate +25
+  - Knowledge (engineering) +25
+  - Perception +30
+  - Perform (sing) +11
+  - Ride +20 (+22 with aerial mounts)
+  - Sense Motive +20
+  - Swim +20
+Languages:
+  - Auran
+  - Common
+  - Draconic
+  - Giant
+SQ: armor training 1, militant, water breathing
+Source: AP 96
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Male
+BeforeCombat: >-
+  Volstus drinks his potion of protection from good and always calls Akazerath
+  to his side before a battle, knowing that teaming up with the dragon makes him
+  almost invincible.
+DuringCombat: >-
+  When battle begins, the Storm Tyrant uses his orb of storms to conjure a storm
+  of vengeance, then uses call lighting, chain lightning, wall of fire, and his
+  breath weapon while Akazerath uses his own breath weapon. When these magical
+  attacks are exhausted, Volstus makes swooping ride-by attacks with his falcata
+  while Akazerath makes flyby attacks.
+Morale: >-
+  All of the Storm Tyrant's plans of conquest hinge on the outcome of his battle
+  with the PCs. As a result, he gives no quarter and asks for none, fighting to
+  the death. If  Volstus is killed or incapacitated, the dead man's switch in
+  his cloud diadem detonates the alchemic bomb in area F3, if it has not yet
+  been disabled.
+Gear: >-
+  potion of barkskin, potions of cure serious wounds (2), potion of protection
+  from good
+OtherGear: >-
+  +2 red dragonhide banded mail, +2 thundering falcataUE, mwk composite longbow
+  (+16 Str) with 20 arrows, boots of the catUE, cloud diadem (see page 31),
+  jailer's dungeon ringUE, Orb of Red Dragonkind, orb of storms, roc rider badge
+  (see page 53), steelhand circleUE, signet ring (worth 150 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: >-
+  If Volstus is divested of the Orb of Red Dragonkind, his statistics are AC 31,
+  touch 10, flat-footed 29 (+9 armor, +2 Dex, +12 natural, &#8211;2 size); Fort
+  +25, Ref +11, Will +16.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7052'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

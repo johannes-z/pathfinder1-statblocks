@@ -1,0 +1,147 @@
+Name: Ashamintallu
+CR: '10'
+XP: '9600'
+Race: alu-demon
+Class: enchanter 7
+MonsterSource: Tome of Horrors Complete 154
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 120 ft.
+  - Perception +22
+AC: 28, touch 14, flat-footed 24
+AC_Mods: (+4 armor, +3 Dex, +1 dodge, +6 natural, +4 shield)
+HP: '129'
+HD: (13 HD; 6d10+7d6+72)
+Saves: Fort +8, Ref +10, Will +14; +2 vs. enchantment
+Fort: '8'
+Ref: '10'
+Will: '14'
+Save_Mods: +2 vs. enchantment
+DR: 5/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '16'
+Speed: 30 ft., fly 50 ft. (average)
+Melee:
+  - >-
+    +1 keen guisarme +12/+7 (2d4+4/x3) or 2 claws +11 (1d6+2 plus vampiric
+    claws)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Alu-Demon Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 3/day
+      value: charm person (DC 15), detect thoughts (DC 16), suggestion (DC 17)
+    - label: 1/day
+      value: >-
+        dimension door Arcane School Spell-Like Abilities (CL 7th; concentration
+        +12)
+    - label: 8/day
+      value: >-
+        dazing touch Shard of Lust Spell-Like Abilities (CL 7th; concentration
+        +12)
+    - label: 1/day
+      value: suggestion (DC 17)
+SpellsPrepared: >-
+  Spells Prepared (CL 7th [8th ench.]; concentration +12 [+13 ench.])  4th-charm
+  monster (DC 20), confusion (2, DC 20), phantasmal killer (DC 19)  3rd-dispel
+  magic, fireball (DC 18), hold person (2, DC 19), reckless infatuationUM (DC
+  19)  2nd-flaming sphere (DC 17), glitterdust (DC 17), hideous laughter (DC
+  18), touch of idiocy, unnatural lustUM (2, DC 18)  1st-burning hands (DC 16),
+  charm person (2, DC 17), mage armor, magic missile (2), protection from good,
+  shield  0 (at will)-bleed, detect magic, ghost sound (DC 15), mending
+AbilityScores:
+  - 15
+  - 17
+  - 19
+  - 20
+  - 15
+  - 18
+BaseAtk: '9'
+CMB: '11'
+CMD: '25'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Craft Wondrous Item
+  - Dodge
+  - Hover
+  - Iron Will
+  - Scribe Scroll
+  - Spell Focus (enchantment)
+  - Toughness
+Skills:
+  - Acrobatics +19
+  - Bluff +20
+  - Escape Artist +17
+  - Fly +19
+  - Intimidate +20
+  - Knowledge (arcana) +21
+  - Perception +22
+  - Spellcraft +21
+  - Stealth +19
+RacialMods: +4 Perception
+Languages:
+  - Abyssal
+  - Boggard
+  - Common
+  - Thassilonian
+  - Varisian
+  - telepathy 100 ft.
+SQ: >-
+  arcane bond (guisarme), change shape (alter self, Medium humanoid), cursed,
+  enchanting smile
+Source: AP 62
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Vampiric Claws (Su)
+    description: >-
+      Each time Ashamintallu damages a foe with her claw attack, she gains an
+      amount of temporary hit points equal to the amount of damage she dealt.
+      She cannot gain more hit points than her target's current hit points plus
+      the target's Con score (which is enough to kill the target). These
+      temporary hit points vanish in 1 hour.
+Gender: Female
+ProhibitedSchools: Transmutation, Necromancy
+BeforeCombat: Ashamintallu casts mage armor, protection from good, and shield.
+DuringCombat: >-
+  Ashamintallu activates her boots of haste on the first round of combat, then
+  uses flight to hover out of reach from melee attacks while she uses her spells
+  to pick the party apart. Her first act in combat is to use confusion on the
+  PCs, followed by a fireball in the second round. She's fond of using charm
+  monster, charm person, and suggestion to compel enemies to cast aside their
+  weapons and strip off their armor and gear. Once she manages to neutralize the
+  party through enchantments, she picks off the stragglers with her spells and
+  at reach with her guisarme.
+Morale: >-
+  If reduced to fewer than 30 hit points, Ashamintallu flees combat using
+  dimension door to area L22, where she begins scouring the dungeon for allies
+  and drinks her potions of cure serious wounds before returning to confront the
+  PCs. If the PCs goad her into revealing her true nature, though, her madness
+  takes over and she fights the PCs to the death.
+Gear: potion of cure serious wounds (4), wand of dimension door (14 charges)
+OtherGear: +1 keen guisarme, boots of haste, spell component pouch
+Note: >-
+  ISM See Pathfinder Campaign Setting: Inner Sea Magic.  UM See Pathfinder RPG
+  Ultimate Magic.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3384'
+UniqueMonster: '0'
+ThassilonianSpecialization: EnchantmentISM
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

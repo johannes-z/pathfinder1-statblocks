@@ -1,0 +1,93 @@
+Name: Facestealer Druid
+CR: '2'
+XP: '600'
+Race: Facestealer
+Alignment: NE
+Size: Medium
+Type: magical beast
+SubType: (daemon)
+Init: '2'
+Senses:
+  - low-light vision, scent
+  - Perception +5
+AC: 15, touch 12, flat-footed 13
+AC_Mods: (+2 Dex, +3 natural)
+HP: '19'
+HD: (3d8+6)
+Saves: Fort +5, Ref +5, Will +2
+Fort: '5'
+Ref: '5'
+Will: '2'
+DefensiveAbilities: unusual anatomy
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - 2 claws +6 (1d4+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd)
+  values:
+    - label: 3/day
+      value: cure light wounds, hydraulic push
+AbilityScores:
+  - 18
+  - 14
+  - 14
+  - 5
+  - 13
+  - 15
+BaseAtk: '2'
+CMB: '6'
+CMD: '18'
+Feats:
+  - Endurance
+  - Self-Sufficient
+Skills:
+  - Climb +16
+  - Disguise +12
+  - Heal +3
+  - Perception +5
+  - Survival +4
+  - Swim +4 (+8 to resist nonlethal damage from exhaustion)
+SQ: daemonic osmosis, stolen face
+Source: 'Rappan Athuk-Area 31: The Face in the Forest'
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Daemonic Osmosis (Su)
+    description: >-
+      If a facestealer (in its doppelbear form) spends at least 24 hours
+      watching a mark (or just being within 50 feet of him) it may permanently
+      gain a feat that the mark has used, even if the facestealer does not meet
+      the requirements. Alternatively, it may gain one 0-level or 1st-level
+      spell that the mark casts during that time as a spell-like ability (CL
+      3rd), usable 3 times a day. This effect uses the creature's Charisma to
+      determine the spell's DC. This ability can be used only to obtain spells
+      with a material component worth less than 5 gp. Once daemonic osmosis is
+      used on a mark, the ability only functions if used on the same mark.
+  - name: Stolen Face (Ex)
+    description: >-
+      Facestealers receive a +10 bonus to Disguise when imitating its mark
+      (included above). It can speak with the mark's voice, but does not
+      understand the language, repeating catchphrases and gibberish.
+  - name: Unusual Anatomy (Ex)
+    description: >-
+      Facestealers have a 25% chance to treat any critical hit they suffer as a
+      normal hit.
+Gear: >-
+  quarterstaff (a prop only, the facestealer has never seen it used), leather
+  satchel
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12471'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,115 @@
+Name: Hezrou
+CR: '11'
+XP: '12800'
+Race: Hezrou
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (aquatic, chaotic, demon, evil, extraplanar)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +23
+AC: 25, touch 9, flat-footed 25
+AC_Mods: (+16 natural, -1 size)
+HP: '145'
+HD: (10d10+90)
+Saves: Fort +16, Ref +3, Will +9
+Fort: '16'
+Ref: '3'
+Will: '9'
+DR: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10,  fire 10
+SR: '22'
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - bite +17 (4d4+8 plus grab), 2 claws +17 (1d8+8 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: nausea, stench (DC 24, 10 rounds)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th)
+  values:
+    - label: At will
+      value: >-
+        chaos hammer (DC 18), greater teleport (self plus 50 lbs. of objects
+        only), unholy blight (DC 18)
+    - label: 3/day
+      value: gaseous form
+    - label: 1/day
+      value: blasphemy (DC 21), summon (level 4, 1 hezrou 35%)
+AbilityScores:
+  - 26
+  - 10
+  - 29
+  - 14
+  - 14
+  - 18
+BaseAtk: '10'
+CMB: +19 (+23 grapple)
+CMD: '29'
+Feats:
+  - Blind-Fight
+  - Cleave
+  - Great Cleave
+  - Improved Initiative
+  - Power Attack
+Skills:
+  - Climb +21
+  - Escape Artist +10
+  - Fly +2
+  - Intimidate +14
+  - Knowledge (arcana) +15
+  - Perception +23
+  - Spellcraft +15
+  - Stealth +9
+  - Swim +29
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+SQ: amphibious
+Source: PFS S1-32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Nausea (Ex)
+    description: >-
+      The noxious vapors and foul fluids that constantly weep and seethe from a
+      hezrou's body are particularly heinous to those the creature grapples.
+      Each round a creature is grappled by a hezrou, the grappled foe must make
+      a DC 24 Fortitude save to avoid becoming nauseated. A creature nauseated
+      in this manner remains nauseated until he succeeds on a DC 24 Fortitude
+      save, or until a minute has passed during which he is not grappled by the
+      hezrou, whichever condition comes first. The save DC is
+      Constitution-based.
+BeforeCombat: >-
+  If the demon can initiate combat, it casts unholy blight, following up with
+  chaos hammer if there is time before melee.
+DuringCombat: >-
+  The hezrou uses blasphemy as soon as two or more enemies are in range, and
+  enters melee on its next turn, using its grab special ability to hold an
+  opponent while it bites and claws it to death. It prefers to deal with a
+  grabbed opponent before all others, but an especially dangerous enemy
+  convinces it to drop its current prey and attack the more deadly foe, either
+  with natural weapons or another blasphemy.
+Morale: >-
+  The demon is bound by an abyssal agreement to serve Jevana, and fights to the
+  death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4143'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

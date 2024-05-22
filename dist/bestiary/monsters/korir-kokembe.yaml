@@ -1,0 +1,117 @@
+Name: Korir-kokembe
+CR: '10'
+XP: '9600'
+Alignment: 'N'
+Size: Huge
+Type: dragon
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +18
+Aura: frightful presence (30 ft., DC 18)
+AC: 24, touch 10, flat-footed 22
+AC_Mods: (+2 Dex, +14 natural, -2 size)
+HP: '136'
+HD: (13d12+52)
+Saves: Fort +12, Ref +12, Will +10
+Fort: '12'
+Ref: '12'
+Will: '10'
+Immune: disease, dragon traits, magic paralysis and sleep
+Speed: 40 ft., climb 40 ft., fly 80 ft. (good), swim 40 ft.
+Melee:
+  - >-
+    bite +18 (2d6+10 plus disease and grab), 2 claws +18 (2d6+7/19-20 plus
+    grab), tail slap +13 (2d6+3 plus grab)
+Space: 15 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: constrict (2d6+7), grab (Gargantuan), rake (2 claws +18, 2d6+7/19-20)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +15)
+  values:
+    - label: Constant
+      value: freedom of movement
+    - label: At Will
+      value: >-
+        repel vermin (DC 16), vomit swarmAPG (must wait 1d4 rounds before using
+        this ability again)
+    - label: 3/day
+      value: entangle (DC 13)
+    - label: 1/day
+      value: creeping doom (DC 19), insect plague
+AbilityScores:
+  - 25
+  - 15
+  - 18
+  - 10
+  - 14
+  - 15
+BaseAtk: '13'
+CMB: +22 (+26 grapple)
+CMD: 34 (46 vs. trip)
+Feats:
+  - Critical Focus
+  - Improved Critical (claw)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Sickening Critical
+  - Wingover
+Skills:
+  - Climb +21
+  - Fly +15
+  - Intimidate +15
+  - Knowledge (nature) +13
+  - Perception +18
+  - Spellcraft +10
+  - Stealth +10 (+18 in jungles)
+  - Survival +10
+  - Swim +25
+RacialMods: +8 Stealth in jungles
+Languages:
+  - Draconic
+SQ: compression
+Environment: warm jungles (Mwangi Expanse)
+Organization: solitary or nest (2-5)
+Treasure: standard
+Description_Visual: >-
+  This green-tined dragon has multiple sets of legs down its long, sinuous body.
+  An oversized gullet bulges in its throat.
+Source: Inner Sea Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Bite-injury; save Fort DC 20; onset 1 round; frequency 1 day; effect 1d3
+      Dex damage and 1d3 Str damage; cure 2 consecutive saves.
+Description:
+  - >-
+    Korir-kokembe live in the deep, watery jungles of central Garund, plaguing
+    the major rivers and lake systems. While young korir-kokembe may swim near
+    populated waterways to claim their prey, their elder kin prefer more remote
+    backwaters, sloughs, and heavily wooded swamps where they can hunt
+    undisturbed. These degenerate dragons live in a violent symbiosis with the
+    tiny vermin that infest the jungle, hosting colonies of such creatures
+    within their own bodies. Such tiny vermin constantly swarm in and out of the
+    korir-kokembe's gullet, bringing contagion to creatures bitten and allowing
+    the wyrm to expel swarms of pests, or to summon yet more vermin to its aid.
+    While korir-kokembe are capable of flight, they generally prefer to crawl or
+    climb on their eight legs, hunching their bodies like inchworms or twining
+    their coils around their prey while savaging creatures with a barrage of
+    slashing claws.
+Note: APG See Advanced Palyer's Guide.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3568'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,113 @@
+Name: Malini
+CR: '6'
+XP: '2400'
+Race: Fire mephit
+Class: oracle 5
+MonsterSource: Pathfinder RPG Bestiary 202, Pathfinder RPG Advanced Player's Guide 42
+Alignment: 'N'
+Size: Small
+Type: outsider
+SubType: (fire)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 24, touch 16, flat-footed 19
+AC_Mods: (+5 armor, +4 Dex, +1 dodge, +3 natural, +1 size)
+HP: '59'
+HD: (8 HD; 5d8+3d10+21)
+HP_Mods: fast healing 2 (in flames only)
+Saves: Fort +4, Ref +9, Will +9
+Fort: '4'
+Ref: '9'
+Will: '9'
+DR: 5/magic
+Immune: fatigue, fire
+Weaknesses: vulnerability to cold
+Speed: 20 ft., fly 40 ft. (average)
+Melee:
+  - 2 claws +2 (1d3)
+Ranged:
+  - +1 heavy crossbow +12 (1d8+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (15-foot cone, 1d8 fire, Reflex DC 13 half, usable every 4
+  rounds)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +10)
+  values:
+    - label: 1/hour
+      value: scorching ray
+    - label: 1/day
+      value: heat metal, summon (level 2, 1 fire mephit 25%)
+SpellsKnown:
+  header: Oracle Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (5/day)
+      value: >-
+        cure moderate wounds, hold person (DC 16), resist energy, spiritual
+        weapon
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 15), command (DC 15), cure light wounds, protection
+        from evil, sanctuary (DC 15), shield of faith
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, detect poison, light, purify food and drink,
+        read magic
+AbilityScores:
+  - 11
+  - 19
+  - 12
+  - 8
+  - 13
+  - 19
+BaseAtk: '6'
+CMB: '5'
+CMD: '20'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Scribe Scroll
+  - Toughness
+Skills:
+  - Bluff +12
+  - Craft (alchemy) +7
+  - Fly +11
+  - Perception +10
+  - Sense Motive +7
+  - Spellcraft +7
+  - Stealth +13
+Languages:
+  - Common
+  - Ignan
+SQ: oracle's curse (lame), revelations (burning magic, heat aura)
+Source: PFS 8-09
+IsTemplate: '0'
+BeforeCombat: >-
+  Malini casts shield of faith and resist energy (cold) on herself if she
+  anticipates combat. These are not included in her statistics.
+DuringCombat: >-
+  Malini casts spiritual weapon before relying on her other spells and crossbow
+  to chase off her foes. She makes a token attempt to avoid catching her wares
+  in the area of her fire spells, but she knows most of her merchandise is
+  resilient enough to survive an errant spell.
+Morale: If reduced to fewer than 10 hit points, Malini flees.
+Gear: +1 chain shirt, +1 heavy crossbow with 30 bolts, cloak of resistance +1, 47 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: flame
+CompanionFamiliarLink: '0'
+id: '8933'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,110 @@
+Name: Elder Brykolakas
+CR: '9'
+XP: '6400'
+Race: brykolakas
+MonsterSource: Tome of Horrors Complete 85
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (aquatic, shapechanger)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +24
+AC: 21, touch 15, flat-footed 16
+AC_Mods: (+5 Dex, +6 natural)
+HP: '123'
+HD: (13d8+65)
+Saves: Fort +10, Ref +9, Will +12
+Fort: '10'
+Ref: '9'
+Will: '12'
+DR: 10/silver
+Immune: undead traits
+SR: '20'
+Weaknesses: water dependency
+Speed: 30 ft., swim 40 ft.
+Melee:
+  - 2 claws +16 (2d6+6/19-20 plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, death throes
+AbilityScores:
+  - 22
+  - 20
+  - —
+  - 15
+  - 18
+  - 19
+BaseAtk: '9'
+CMB: '15'
+CMD: '30'
+Feats:
+  - Great Fortitude
+  - Improved Critical (claws)
+  - Improved Natural Attack (claws)
+  - Power Attack
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (claws)
+Skills:
+  - Acrobatics +18
+  - Intimidate +20
+  - Knowledge (nature) +15
+  - Perception +24
+  - Stealth +21
+  - Swim +27
+Languages:
+  - Common
+SQ: change shape (dolphin or manta ray, beast shape I)
+Source: AP 59
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      A humanoid or monstrous humanoid killed by a brykolakas rises as a lacedon
+      in 1d4 days under the control of the brykolakas that created it.
+  - name: Death Throes (Su)
+    description: >-
+      When reduced to 0 or fewer hit points, a brykolakas is destroyed and its
+      body changes into a pool of deadly poison that quickly fills a
+      10-foot-radius spread (if underwater) or a 10-foot-diameter puddle (if on
+      land) in 1 round. All creatures in this area are exposed to this foul
+      venom. The poison disperses in 1 round if underwater, or 1d2 rounds if on
+      land. Brykolakas poison: Death throes-contact; save Fort DC 20; onset 1
+      minute; frequency 1/round for 2 rounds; effect 1d6 Dex damage; cure 1
+      save. The save DC is Charisma-based.
+  - name: Disease (Su)
+    description: >-
+      A brykolakas's claw attacks deliver a virulent disease that breaks down
+      the victim's internal organs, resulting in internal bleeding and a gradual
+      darkening of the skin. This supernatural disease is called brykolakas
+      fever. The save DC is Charisma-based. Brykolakas fever: Claw&#8211;injury;
+      save Fortitude DC 20 negates; onset 1 minute; frequency 1/day; effect 1d4
+      Con and 1d4 Dex damage; cure 1 save.
+  - name: Water Dependency (Ex)
+    description: >-
+      A brykolakas can survive out of the water for 6 hours. After that, its
+      body begins drying out, and within 1 hour, the brykolakas crumbles into
+      dust (this does not activate its death throes ability) unless it can reach
+      saltwater before the hour passes.
+DuringCombat: >-
+  The brykolakases let their lacedon minions engage opponents first, using them
+  as sacrificial troops to distract enemies and perhaps use up some resources
+  before they step in to focus their attacks on the same foes.
+Morale: A brykolakas fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3151'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

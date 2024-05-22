@@ -1,0 +1,90 @@
+Name: Angry Pseudodragon
+CR: '2'
+XP: '600'
+Race: pseudodragon
+MonsterSource: Pathfinder RPG Bestiary 224, 229
+Alignment: NG
+Size: Tiny
+Type: dragon
+Init: '4'
+Senses:
+  - blindsense 60 ft., darkvision 60 ft., low-light vision
+  - Perception +8
+AC: 20, touch 16, flat-footed 16
+AC_Mods: (+4 Dex, +4 natural, +2 size)
+HP: '19'
+HD: (2d12+6)
+Saves: Fort +6, Ref +7, Will +6
+Fort: '6'
+Ref: '7'
+Will: '6'
+Immune: paralysis, sleep
+SR: '12'
+Speed: 15 ft., fly 60 ft. (good)
+Melee:
+  - bite +8 (1d2), sting +8 (1d3)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+AbilityScores:
+  - 11
+  - 19
+  - 17
+  - 14
+  - 16
+  - 14
+BaseAtk: '2'
+CMB: '4'
+CMD: 14 (18 vs. trip)
+Feats:
+  - Weapon FinesseB
+Skills:
+  - Acrobatics +4 (-4 when jumping)
+  - Diplomacy +7
+  - Fly +17
+  - Perception +8
+  - Sense Motive +8
+  - Stealth +21 (+25 in Forests)
+  - Survival +8
+RacialMods: +4 Stealth (improves to +8 in forests)
+Languages:
+  - telepathy 60 ft.
+SQ: poison
+Source: PFS 8-01
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 16; frequency 1/minute for 10 minutes; effect
+      sleep for 1 minute; cure 1 save. The save DC is Constitution-based and
+      includes a +2 racial bonus.
+BeforeCombat: >-
+  1d4 rounds after combat begins, the three pseudodragons arrive simultaneously
+  from different windows.
+DuringCombat: >-
+  The pseudodragon attacks PCs threatening the hippogriff, or any PCs attempting
+  to steal an egg (see Treasure below). He telepathically yells to them, "Get
+  out, friends of egg thieves!" Even if the PCs are not attempting to steal
+  eggs, he assumes they are friends of Craik.
+Morale: >-
+  Though he fights furiously, the pseudodragons are willing to hear reason. A PC
+  who succeeds at a DC 24 Diplomacy check as a standard action or who returns a
+  stolen egg can initiate a telepathic parley (see Development below). However,
+  if the PCs steal an egg or kill any member of his clutch (including the
+  hippogriff), the pseudodragons fight to the death. The PCs either convince all
+  of the pseudodragons to stand down or none of them.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8555'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,137 @@
+Name: Young Lunar Dragon
+CR: '9'
+XP: '6400'
+Alignment: CN
+Size: Large
+Type: dragon
+Init: '0'
+Senses:
+  - dragon senses, see in darkness
+  - Perception +17
+AC: 21, touch 9, flat-footed 21
+AC_Mods: (+12 natural, -1 size)
+HP: '105'
+HD: (10d12+40)
+Saves: Fort +10, Ref +7, Will +11
+Fort: '10'
+Ref: '7'
+Will: '11'
+DefensiveAbilities: reflected light
+Immune: cold, paralysis, sleep
+Speed: 40 ft., burrow 20 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +14 (2d6+7), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail slap +12
+    (1d8+7)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: bewildering breath, breath weapon (80-ft. line, 6d8 cold, DC 18), moonsilver
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +13)
+  values:
+    - label: At Will
+      value: dancing lights
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 1st; concentration +4)
+  values:
+    - label: 1st (4/day)
+      value: comprehend languages, mage armor
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, read magic
+AbilityScores:
+  - 21
+  - 11
+  - 16
+  - 16
+  - 18
+  - 17
+BaseAtk: '10'
+CMB: '16'
+CMD: 26 (30 vs. trip)
+Feats:
+  - Flyby Attack
+  - Multiattack
+  - Power Attack
+  - Step Up
+  - Toughness
+Skills:
+  - Diplomacy +16
+  - Fly +7
+  - Intimidate +16
+  - Knowledge (arcana
+  - geography
+  - history
+  - local
+  - nature) +10
+  - Perception +17
+  - Sense Motive +17
+  - Spellcraft +16
+  - Use Magic Device +16
+Languages:
+  - Aklo
+  - Auran
+  - Common
+  - Draconic
+SQ: no breath, starflight
+Environment: vacuum
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  A shimmering halo surrounds this regal dragon's spine-crowned head, and its
+  vast wings ripple like milky gossamer lit by the moon.
+Group: Outer Dragon
+Source: PFRPG Bestiary 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Absolute Cold (Su)
+    description: >-
+      An old or older lunar dragon's breath weapon can affect creatures immune
+      to cold damage. A creature immune to cold damage still takes half damage
+      from the breath weapon (no damage with a successful saving throw).
+      Resistant creatures' cold resistance is treated as 10 less than normal.
+  - name: Alien Presence (Su)
+    description: >-
+      A lunar dragon's alien presence affects opponents that fail their saves as
+      touch of idiocy (or as feeblemind for creatures with 4 or fewer Hit Dice)
+      for 5d6 rounds. This is a mind-affecting compulsion effect.
+  - name: Bewildering Breath (Su)
+    description: >-
+      A creature that fails its saving throw against a lunar dragon's breath
+      weapon emits light (as faerie fire) and is dazzled for 1d4 rounds. If the
+      lunar dragon is adult or older, the creature is also confused for 1d4
+      rounds.
+  - name: Moonsilver (Ex)
+    description: >-
+      A lunar dragon's natural weapons are treated as silver for the purpose of
+      overcoming damage reduction.
+  - name: Reflect Rays (Su)
+    description: >-
+      Rays and ranged touch effects that strike an ancient or older lunar dragon
+      but fail to overcome its spell resistance are reflected back at their
+      source, using the original attack roll to determine whether they hit.
+  - name: Reflected Light (Ex)
+    description: >-
+      A very young or older lunar dragon can't be blinded or dazzled by bright
+      light or patterns.
+Description:
+  - >-
+    Lunar dragons frequently interact with mortals, spending long hours watching
+    the activities occurring on planets that interest them.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: young
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5182'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

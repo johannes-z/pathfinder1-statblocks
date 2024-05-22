@@ -1,0 +1,106 @@
+Name: Hell Moth
+CR: '6'
+XP: '2400'
+Alignment: NE
+Size: Large
+Type: aberration
+SubType: (extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +13
+AC: 19, touch 12, flat-footed 16
+AC_Mods: (+3 Dex, +7 natural, -1 size)
+HP: '76'
+HD: (9d8+36)
+Saves: Fort +6, Ref +6, Will +7
+Fort: '6'
+Ref: '6'
+Will: '7'
+Resist: fire 20
+Speed: 10 ft., fly 40 ft. (average)
+Melee:
+  - bite +10 (1d6+7 plus grab)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: engulf, immolation
+AbilityScores:
+  - 21
+  - 16
+  - 17
+  - 6
+  - 12
+  - 10
+BaseAtk: '6'
+CMB: +12 (+16 grapple)
+CMD: '25'
+Feats:
+  - Diehard
+  - Endurance
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Toughness
+Skills:
+  - Fly +10
+  - Perception +13
+  - Stealth +8
+Environment: any
+Organization: solitary or flock (3-6)
+Treasure: none
+Description_Visual: >-
+  This creature looks like a giant gray moth with spiraling bands of red and
+  black on its body. It has large, thin, reddish-hued wings.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Engulf (Ex)
+    description: >-
+      If a hell moth grapples an opponent it can wrap a Medium or smaller
+      creature in its wings and body and automatically deal bite damage in each
+      round it maintains the grapple. Attacks that hit an engulfing hell moth
+      deal half their damage to the monster and half to the trapped victim.
+  - name: Immolation (Su)
+    description: >-
+      A hell moth that has engulfed an opponent can detonate its body in a blast
+      of hellish fire that deals 6d10 points of fire damage to itself and the
+      engulfed opponent (no save). (Reduce the damage dealt to the hell moth by
+      its fire resistance.) A hell moth can immolate itself once every 3 hours
+      (providing it survives the immolation). Creatures within 10 feet of the
+      hell moth when it uses this ability must succeed on a DC 17 Reflex save or
+      take 1d8 points of fire damage as clothes and combustibles ignite. The
+      damage continues for another 1d4+4 rounds after the hell moth uses this
+      ability or until the fire is extinguished. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    The hell moth is thought to have come from another plane, though sages are
+    not quite sure of its exact origin. The hell moth attacks living creatures
+    that wander too close to its lair. It otherwise resembles a large moth with
+    an 8-foot wingspan.
+  - >-
+    Hell moths wait for their prey to pass nearby before attacking. If facing
+    multiple opponents, they attempt to bite and usually do not employ their
+    engulfing ability. Multiple hell moths work in concert with one another
+    against opponents. When a hell moth has successfully engulfed a foe, it sets
+    its own body on fire in a display of self-immolation that consumes both it
+    and its engulfed opponent.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2682'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

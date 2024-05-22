@@ -1,0 +1,128 @@
+Name: Dagagal
+CR: '7'
+XP: '3200'
+Race: wayang
+Class: evoker 8
+MonsterSource: 'Pathfinder Campaign Setting: Dragon Empires Gazetteer 13'
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (wayang)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 19, touch 15, flat-footed 16
+AC_Mods: (+4 armor, +1 deflection, +3 Dex, +1 size)
+HP: '54'
+HD: (8d6+24)
+Saves: Fort +5, Ref +7, Will +8; +2 vs. spells of the shadow subschool
+Fort: '5'
+Ref: '7'
+Will: '8'
+Save_Mods: +2 vs. spells of the shadow subschool
+Speed: 20 ft.
+Melee:
+  - mwk dagger +5 (1d3-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: intense spells +4
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +8)
+  values:
+    - label: 1/day
+      value: >-
+        ghost sound (DC 10), pass without trace, ventriloquism (DC 11) Arcane
+        School Spell-Like Abilities (CL 8th; concentration +12)
+    - label: At Will
+      value: elemental wall (8 rounds/day)
+    - label: 7/day
+      value: force missile (1d4+4)
+SpellsPrepared: >-
+  Evoker Spells Prepared (CL 8th; concentration +12)  4th-ice storm, silent
+  lightning bolt (DC 19), silent major image (DC 17), shout (DC 20) 
+  3rd-displacement, fly, lightning bolt (DC 19), slow (DC 17), wind wall 
+  2nd-blur, gust of wind (DC 18), invisibility, minor image (DC 16), scorching
+  ray  1st-alarm, burning hands (DC 17), mage armor, magic missile, shocking
+  grasp, shield  0 (at will)-detect magic, mage hand, ray of frost, read magic,
+  resistance
+AbilityScores:
+  - 8
+  - 16
+  - 13
+  - 18
+  - 10
+  - 11
+BaseAtk: '4'
+CMB: '2'
+CMD: '16'
+Feats:
+  - Combat Casting
+  - Greater Spell Focus (evocation)
+  - Scribe Scroll
+  - Silent Spell
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Fly +12
+  - Knowledge (arcana) +15
+  - Knowledge (local) +15
+  - Knowledge (planes) +15
+  - Perception +6
+  - Spellcraft +15
+  - Stealth +17
+RacialMods: +2 Perception, +2 Stealth
+Languages:
+  - Aklo
+  - Common
+  - Minkaian
+  - Tien
+  - Wayang
+SQ: arcane bond (object [dagger]), light and dark, shadow magic
+Source: PFS S3-15
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Light and Dark (Su)
+    description: >-
+      Once per day as an immediate action, a wayang can treat positive energy
+      and negative energy effects as if the wayang were an undead creature,
+      taking damage from positive energy and healing from negative energy. This
+      ability lasts for 1 minute once activated.
+  - name: Shadow Magic (Ex)
+    description: >-
+      Wayang add +1 to the DC of any saving throws against spells of the shadow
+      subschool that they cast.
+  - name: Shadow Resistance (Ex)
+    description: >-
+      Wayangs get a +2 racial saving throw bonus against spells of the shadow
+      subschool.
+Gender: Male
+ProhibitedSchools: Necromancy, Transmutation
+BeforeCombat: Dagagal casts mage armor at the start of every day.
+DuringCombat: >-
+  Dagagal's favorite tactic is to cast fly and then invisibility. He can cast
+  major image silently without losing his invisibility to project an image of
+  himself, gathering his opponents into formation for a well-placed ice storm or
+  lightning bolt spell.
+Morale: Dagagal attempts to flee if he is reduced to 16 or fewer hit points.
+Gear: >-
+  potions of cure moderate wounds (2), potion of invisibility, wand of
+  glitterdust (10 charges)
+OtherGear: >-
+  masterwork dagger, cloak of resistance +2, ring of protection +1, spell
+  component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6154'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

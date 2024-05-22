@@ -1,0 +1,108 @@
+Name: Blemia Subtier 6-7
+CR: '10'
+XP: '9600'
+Race: Young umbral dragon
+MonsterSource: Pathfinder RPG Bestiary 2 102
+Alignment: CE
+Size: Large
+Type: dragon
+SubType: (extraplanar)
+Init: '5'
+Senses:
+  - dragon senses
+  - Perception +17
+AC: 22, touch 10, flat-footed 21
+AC_Mods: (+1 Dex, +12 natural, -1 size)
+HP: '104'
+HD: (11d12+33)
+Saves: Fort +10, Ref +8, Will +10
+Fort: '10'
+Ref: '8'
+Will: '10'
+DefensiveAbilities: negative energy affinity
+Immune: cold, death effects, energy drain, paralysis, sleep
+Speed: 40 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +15 (2d6+7/19-20), 2 claws +15 (1d8+5), 2 wings +13 (1d6+2), tail slap
+    +13 (1d8+7)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (40-ft. cone, 6d8 negative energy, DC 18)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +14)
+  values:
+    - label: At Will
+      value: darkness
+SpellsKnown:
+  header: Spells Known (CL 1st; concentration +4)
+  values:
+    - label: 1st (4/day)
+      value: erase, obscuring mist
+    - label: 0 (at will)
+      value: arcane mark, detect magic, mage hand, read magic
+AbilityScores:
+  - 21
+  - 12
+  - 17
+  - 16
+  - 17
+  - 16
+BaseAtk: '11'
+CMB: '17'
+CMD: 28 (32 vs. trip)
+Feats:
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Bluff +17
+  - Diplomacy +17
+  - Fly +9
+  - Knowledge (arcana
+  - local
+  - planes) +17
+  - Perception +17
+  - Sense Motive +17
+  - Stealth +11
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Undercommon
+SQ: ghost bane, umbral scion
+Source: PFS 8-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ghost Bane (Su)
+    description: >-
+      A young or older umbral dragon's physical attacks deal damage to
+      incorporeal creatures normally.
+  - name: Umbral Scion (Ex)
+    description: >-
+      Umbral dragons have negative energy affinity and are immune to energy
+      drain and death effects.
+BeforeCombat: Blemia shrouds herself in darkness.
+DuringCombat: Blemia opens with her breath weapon before switching to full attacks.
+Morale: >-
+  Blemia is reluctant to abandon her hoard, but if she believes the PCs might be
+  able to kill her-such as if they reduce her to 15 hit points or fewer-she
+  snarls with rage and leaves, swearing vengeance on the Pathfinder Society.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '8845'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

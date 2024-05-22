@@ -1,0 +1,84 @@
+Name: Giant Spyglass Octopus
+CR: '11'
+XP: '12800'
+Race: giant octopus
+MonsterSource: Pathfinder RPG Bestiary 219
+Alignment: 'N'
+Size: Huge
+Type: animal
+SubType: (aquatic)
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +10
+AC: 20, touch 10, flat-footed 18
+AC_Mods: (+1 Dex, +1 dodge, +10 natural, -2 size)
+HP: '152'
+HD: (16d8+80)
+Saves: Fort +15, Ref +13, Will +8
+Fort: '15'
+Ref: '13'
+Will: '8'
+DefensiveAbilities: ink cloud (30-ft.-radius sphere)
+Speed: 20 ft., swim 30 ft., jet 200 ft.
+Melee:
+  - bite +19 (2d6+9 plus poison), 8 tentacles +17 (1d6+4 plus grab)
+Space: 15 ft.
+Reach: 15 ft. (30 ft. with tentacle)
+SpecialAttacks: constrict (1d6+4), poison
+AbilityScores:
+  - 28
+  - 13
+  - 21
+  - 2
+  - 12
+  - 3
+BaseAtk: '12'
+CMB: +23 (+27 grapple)
+CMD: 35 (can't be tripped)
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - MultiattackB
+  - Skill Focus (Stealth)
+  - Stealthy
+Skills:
+  - Escape Artist +13
+  - Perception +10
+  - Stealth +24
+  - Swim +17
+Source: AP 58
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 23; frequency 1/round for 6 rounds; effect 1d3
+      Str; cure 2 consecutive saves.
+DuringCombat: >-
+  The octopus targets multiple victims with its tentacles, relying on
+  Blind-Fight and its grab ability to pull opponents into the water. Once it has
+  prey in the water, the octopus either constricts it, transfers the victim to
+  its mouth for a poisonous bite, or holds it underwater until it drowns.
+Morale: >-
+  The octopus retreats if it falls below 25 hit points, leaving behind an ink
+  cloud as it jets away with any victims still in its grasp.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3121'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

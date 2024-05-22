@@ -1,0 +1,98 @@
+Name: Arcane Artillerist
+CR: '5'
+XP: '1600'
+Race: Halfling
+Class: evoker 6
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (halfling)
+Init: '3'
+Senses:
+  - Perception +9
+AC: 20, touch 16, flat-footed 16
+AC_Mods: (+4 armor, +1 deflection, +3 Dex, +1 dodge, +1 size)
+HP: '35'
+HD: (6d6+12)
+Saves: Fort +4, Ref +6, Will +7; +2 vs. fear
+Fort: '4'
+Ref: '6'
+Will: '7'
+Save_Mods: +2 vs. fear
+Speed: 20 ft.
+Melee:
+  - mwk dagger +3 (1d3-2/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: intense spells (+3 damage)
+SpellLikeAbilities:
+  header: Evoker Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: 6/day
+      value: force missile (1d4+3)
+SpellsPrepared: >-
+  Evoker Spells Prepared (CL 6th; concentration +9)   3rd-fireball (DC 17),
+  hydraulic torrentAPG, lightning bolt (DC 16), wind wall   2nd-acid arrow,
+  burning gazeAPG (DC 16), fire breathAPG (DC 16), flaming sphere (DC 16),
+  scorching ray   1st-burning hands (DC 15), flare burstAPG (DC 14), mage armor,
+  magic missile, shield   0 (at will)-acid splash, flare (DC 13), message, ray
+  of frost
+AbilityScores:
+  - 6
+  - 16
+  - 13
+  - 16
+  - 12
+  - 12
+BaseAtk: '3'
+CMB: '0'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Craft Wand
+  - Dodge
+  - Elemental Focus
+  - Scribe Scroll
+Skills:
+  - Acrobatics +5 (+1 when jumping)
+  - Escape Artist +9
+  - Knowledge (arcana) +12
+  - Perception +9
+  - Spellcraft +12
+  - Stealth +13
+RacialMods: +2 Acrobatics, +2 Climb, +2 Perception
+Languages:
+  - Common
+  - Dwarven
+  - Elven
+  - Gnome
+  - Halfling
+SQ: arcane bond (wand of scorching ray)
+Source: Villain Codex
+IsTemplate: '0'
+ProhibitedSchools: divination, necromancy
+BeforeCombat: The artillerist casts his prepared mage armor.
+DuringCombat: >-
+  Remaining on the periphery of the battlefield, the artillerist casts ranged
+  spells at enemy units, often relying on a wand of scorching ray to set enemies
+  afire.
+Gear: wand of scorching ray (25 charges)
+OtherGear: mwk dagger, ring of protection +1, spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without the benefit of mage armor, the artillerist's statistics are AC 16,
+  touch 16, flat-footed 12.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8996'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

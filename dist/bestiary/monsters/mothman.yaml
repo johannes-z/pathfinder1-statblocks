@@ -1,0 +1,118 @@
+Name: Mothman
+CR: '6'
+XP: '2400'
+Alignment: CN
+Size: Medium
+Type: monstrous humanoid
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +16
+AC: 20, touch 14, flat-footed 16
+AC_Mods: (+4 Dex, +6 natural)
+HP: '76'
+HD: (9d10+27)
+Saves: Fort +6, Ref +10, Will +10
+Fort: '6'
+Ref: '10'
+Will: '10'
+SR: '17'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - 2 claw +13 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: mind-warping gaze
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: Constant
+      value: blur
+    - label: At Will
+      value: detect thoughts (DC 16), ghost sound (DC 14), misdirection (DC 16)
+    - label: 3/day
+      value: >-
+        greater invisibility, major image (DC 17), modify memory (DC 18),
+        nightmare (DC 19), phantasmal killer (DC 18), shadow walk (DC 20),
+        suggestion (DC 17)
+    - label: 1/day
+      value: >-
+        agent of fate, false vision, mind fog (DC 19), mislead (DC 20), project
+        image (DC 21)
+AbilityScores:
+  - 12
+  - 19
+  - 16
+  - 17
+  - 19
+  - 18
+BaseAtk: '9'
+CMB: '13'
+CMD: '24'
+Feats:
+  - Agile Maneuvers
+  - Blind-Fight
+  - Flyby Attack
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Fly +20
+  - Knowledge (any two) +12
+  - Perception +16
+  - Sense Motive +13
+  - Spellcraft +12
+  - Stealth +16
+Languages:
+  - Common
+  - Sylvan
+  - Undercommon (can't speak)
+  - telepathy 100 ft.
+Environment: any land
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  A shroud of dark wings cloaks this thin, humanoid shape. Two monstrous red
+  eyes glare malevolently from its narrow face.
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Agent of Fate (Sp)
+    description: >-
+      A mothman may recreate the effects of any spell of 5th level or lower once
+      per day as a spell-like ability, but only if doing so steers the flow of
+      fate in its proper course. What the proper flow of fate entails is
+      determined by the GM. Typical uses of this ability include casting major
+      image to coax someone to a portentous location, casting raise dead to
+      return someone with an important fate to life, or using rusting grasp to
+      weaken a structure and cause some necessary calamity. Mind-Warping
+  - name: Gaze (Su)
+    description: >-
+      Fear, 30 feet, Will DC 18 negates. A creature that fails a save against
+      this attack becomes shaken for 1d6 rounds. A creature currently suffering
+      from a fear effect that fails this save instead takes 1d4 points of Wisdom
+      damage. This is a mind-affecting fear effect. The save DC is
+      Charisma-based.
+Description:
+  - >-
+    Little is known of these strange creatures, save that when they appear,
+    calamity follows. Mothmen see themselves as agents of fate, exhibiting
+    extraordinary powers to guide the hands of destiny. More often than not,
+    citizens encounter a mothman and never recall the meeting, yet fall right
+    into the creature's obscure plans.
+  - Mothmen stand almost 7 feet tall and weigh 100 pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Mothman
+id: '1300'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

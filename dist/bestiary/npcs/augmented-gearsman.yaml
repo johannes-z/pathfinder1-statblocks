@@ -1,0 +1,100 @@
+Name: Augmented Gearsman
+CR: '8'
+XP: '4800'
+Race: Gearsman
+Class: fighter 4
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea Bestiary 44'
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (robot)
+Init: '4'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +13
+AC: 23, touch 14, flat-footed 19
+AC_Mods: (+4 Dex, +9 natural)
+HP: '76'
+HD: (8d10+32)
+Saves: Fort +5, Ref +6, Will +4; +1 vs. fear
+Fort: '5'
+Ref: '6'
+Will: '4'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1, hardness 10
+Immune: construct traits
+Weaknesses: vulnerable to critical hits, vulnerable to electricity
+Speed: 20 ft.
+Melee:
+  - slam +15 (1d4+10)
+Ranged:
+  - timeworn laser rifle +13/+8 touch (2d6+2)
+  - timeworn laser rifle +11/+11/+6 touch (2d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 24
+  - 18
+  - —
+  - 12
+  - 15
+  - 1
+BaseAtk: '8'
+CMB: '15'
+CMD: '29'
+Feats:
+  - Deadly Aim
+  - Exotic Weapon Proficiency (firearms)
+  - Point- Blank Shot
+  - Precise Shot
+  - Toughness
+  - Weapon Focus (laser rifle)
+  - Weapon Specialization (laser rifle)
+Skills:
+  - Climb +18
+  - Knowledge (engineering) +12
+  - Perception +13
+  - Survival +13
+Languages:
+  - Common
+  - Androffan
+SQ: adaptive learning, armor training 1, charge weapon, self-repair
+Source: AP 87
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adaptive Learning (Ex)
+    description: >-
+      This gearsman has used this ability to gain proficiency with firearms, and
+      does not use it to reallocate skill ranks.
+  - name: Charge Weapon (Ex)
+    description: >-
+      Any metal melee weapon wielded by a gearsman becomes charged with
+      electricity and deals +1d6 points of electricity damage on a hit.
+      Self-Repair (Ex) This gearsman's nanites heal it of damage at the rate of
+      8 hit points per hour. Up to once per day as a full-round action, it can
+      heal any robot it touches of 4d6 points of damage-if it uses this ability
+      on itself, it automatically heals 24 points of damage.
+DuringCombat: >-
+  The augmented gearsman attacks with its laser rifle, preferring to make
+  semi-automatic fire attacks when possible and taking 5-foot steps to avoid
+  firing in melee. If no option is available, the robot opts to provoke attacks
+  of opportunity and fires the laser rifle in melee, resorting to slam attacks
+  only if its weapon's charges are depleted. It always uses Deadly Aim when
+  attacking with its laser rifle.
+Morale: This augmented gearsman fights until destroyed.
+Gear: timewornTG laser rifleTG (20 charges)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6356'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

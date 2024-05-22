@@ -1,0 +1,107 @@
+Name: Ice Drake
+CR: '3'
+XP: '800'
+Alignment: CE
+Size: Small
+Type: dragon
+SubType: (cold)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +5
+AC: 18, touch 12, flat-footed 17
+AC_Mods: (+1 Dex, +6 natural, +1 size)
+HP: '22'
+HD: (3d12+3)
+Saves: Fort +4, Ref +4, Will +2
+Fort: '4'
+Ref: '4'
+Will: '2'
+Immune: cold, paralysis, sleep
+SR: '18'
+Weaknesses: vulnerability to fire
+Speed: 20 ft., fly 50 ft. (average)
+Melee:
+  - bite +6 (1d6+1), 2 claws +5 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (20 ft. cone, DC 12, 2d8 cold) Space 5 ft.; Reach 5 ft. (10 ft.
+  with bite)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th)
+  values:
+    - label: 2/day
+      value: fear, sleep
+AbilityScores:
+  - 13
+  - 13
+  - 13
+  - 7
+  - 8
+  - 10
+BaseAtk: '3'
+CMB: '3'
+CMD: 14 (18 vs. trip)
+Feats:
+  - Flyby Attack
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +6
+  - Escape Artist +4
+  - Fly +9
+  - Perception +5
+Languages:
+  - Draconic
+SQ: alternate form 2/day (form of the dragon I [white dragon only])
+Environment: cold hills and mountains
+Organization: pair, clutch (2-5), or family (6-8)
+Treasure: standard
+Description_Visual: >-
+  This slender creature looks like a small immature white dragon with icy white
+  scales and sapphire eyes. A chill hangs in the air around the creature. Its
+  claws are sharpened and have icy blue nails.
+Group: Drake
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alternate Form (Su)
+    description: >-
+      Twice per day, an ice drake can assume the shape of a young white dragon
+      for 2 hours.
+Description:
+  - >-
+    Ice drakes are found in cold mountainous caves and caverns. Most encounters
+    are with a solitary drake. Only in the winter months is it common to find a
+    mated pair or family. An ice drake's scales are white, and it is often
+    mistaken for a young white dragon. Ice drakes range from 3 feet to 6 feet
+    long.
+  - >-
+    An ice drake opens combat from the air using its icy breath weapon. If it
+    expends its breath weapon, it relies on its claws and bite to finish off any
+    remaining opponents.
+  - >-
+    Credit The Ice Drake originally appeared in the First Edition Fiend Folio (©
+    TSR/Wizards of the Coast, 1981) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Mike
+    Ferguson.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2543'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,143 @@
+Name: Kirin
+CR: '7'
+XP: '3200'
+Alignment: LG
+Size: Large
+Type: magical beast
+SubType: (air)
+Init: '6'
+Senses:
+  - darkvision 60 ft., detect evil, low-light vision, scent
+  - Perception +17
+AC: 20, touch 15, flat-footed 14
+AC_Mods: (+6 Dex, +5 natural, -1 size)
+HP: '85'
+HD: (9d10+36)
+Saves: Fort +10, Ref +12, Will +10
+Fort: '10'
+Ref: '12'
+Will: '10'
+Resist: cold 10, electricity 30, fire 10
+SR: '18'
+Speed: 60 ft., fly 120 ft. (good)
+Melee:
+  - gore +14 (1d8+5), 2 hooves +8 (1d6+2)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (15-ft. cone, 5d6 fire damage, Reflex DC 18 for half, usable
+  every 1d4 rounds), powerful charge (gore, 2d8+14)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +15)
+  values:
+    - label: Constant
+      value: detect evil, water walk
+    - label: At Will
+      value: gaseous form, gust of wind
+    - label: 1/day
+      value: >-
+        break enchantment, create food and water, major creation, wind walk
+        (self only)
+SpellsKnown:
+  header: Spells Known (CL 6th; concentration +12)
+  values:
+    - label: 3rd (4/day)
+      value: lightning bolt (DC 19)
+    - label: 2nd (7/day)
+      value: lesser restoration, scorching ray
+    - label: 1st (8/day)
+      value: >-
+        color spray (DC 17), cure light wounds, disguise self, remove fear,
+        sanctuary (DC 17)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, create water, detect magic, guidance, mage hand, mending,
+        stabilize
+AbilityScores:
+  - 20
+  - 23
+  - 18
+  - 18
+  - 21
+  - 23
+BaseAtk: '9'
+CMB: '15'
+CMD: 31 (35 vs. trip)
+Feats:
+  - Combat Casting
+  - Eschew MaterialsB
+  - Flyby Attack
+  - Hover
+  - Iron Will
+  - Weapon Focus (gore)
+Skills:
+  - Diplomacy +15
+  - Fly +20
+  - Knowledge (history) +13
+  - Perception +17
+  - Perform (sing) +15
+  - Sense Motive +14
+Languages:
+  - Abyssal
+  - Auran
+  - Celestial
+  - Common
+  - Draconic
+  - telepathy 100 ft.
+Environment: any
+Organization: solitary or pair
+Treasure: standard
+Description_Visual: >-
+  With draconic scales covering much of its body, this staglike creature moves
+  with awe-inspiring grace.
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities: []
+Description:
+  - >-
+    The noble kirin roam the sky, their feet rarely touching soil. They have a
+    stag's graceful body and cloven hooves, a pair of backward-facing horns, and
+    a thick mane and tail ranging from golden to brilliant reds or purples in
+    the hues of the setting sun. Their hide resembles that of a dragon, the
+    scales gleaming ebon or iridescent green.
+  - >-
+    Rare in the extreme, kirin seldom meddle openly in worldly affairs,
+    preferring a subtle hand in overturning the schemes of wicked spirits such
+    as hags and oni. The blood of young kirin runs hot, however, and such
+    spirited youths may serve as mounts for cavaliers and paladins of clever wit
+    and untarnished moral quality.
+  - >-
+    The wisest and most powerful kirin are known as emperor kirin, having earned
+    this title through the respect of their peers and the strength of their
+    powers. They resemble standard kirin, except their hooves give off sparks as
+    they gallop through the air.
+  - >-
+    Emperor kirin have the advanced creature simple template and additional
+    racial Hit Dice. When advancing a kirin's Hit Dice to create an emperor
+    kirin, make the following additional changes.
+  - '• CR: Increase by 1 + the number of additional HD.'
+  - '• Breath Weapon: Damage increases by 1d6 for every 2 additional HD.'
+  - >-
+    • Spellcasting: Increase sorcerer level (for the purpose of spells known and
+    spells per day) by 1 per additional HD.
+  - '• Spell-Like Abilities: Increase caster level by +1 per additional HD.'
+  - '• Spell Resistance: Increase by +1 per additional HD.'
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2115'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

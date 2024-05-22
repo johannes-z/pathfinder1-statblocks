@@ -1,0 +1,140 @@
+Name: Razinia
+CR: '7'
+XP: '3200'
+Race: ghul
+Class: sorcerer 4
+MonsterSource: Pathfinder RPG Bestiary 3 125
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (shapechanger)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +18
+AC: 21, touch 15, flat-footed 16
+AC_Mods: (+5 Dex, +6 natural)
+HP: '91'
+HD: (10 HD; 6d8+4d6+50)
+Saves: Fort +8, Ref +8, Will +10
+Fort: '8'
+Ref: '8'
+Will: '10'
+DR: 5/good
+Immune: undead traits
+Resist: cold 10, fire 10
+Speed: 40 ft., climb 20 ft.
+Melee:
+  - bite +13 (1d6+7), 2 claws +13 (1d4+7 plus bleed)
+  - dagger +13 (1d4+7/19-20)
+Ranged:
+  - dagger +11 (1d4+7/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bleed 1, cursed claws, rend (2 claws, 1d6+10)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 4th; concentration +9)
+  values:
+    - label: 8/day
+      value: elemental ray (1d6+2 cold)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 4th; concentration +9)
+  values:
+    - label: 2nd (4/day)
+      value: darkness
+    - label: 1st (8/day)
+      value: >-
+        burning hands (cold, DC 16), color spray (DC 16), memory lapseAPG (DC
+        16), silent image (DC 16)
+    - label: 0 (at will)
+      value: >-
+        detect magic, ghost sound (DC 15), mage hand, mending, prestidigitation
+        (DC 15), touch of fatigue (DC 15)
+AbilityScores:
+  - 24
+  - 20
+  - —
+  - 18
+  - 13
+  - 20
+BaseAtk: '6'
+CMB: +13 (+17 sunder)
+CMD: 28 (30 vs. sunder)
+Feats:
+  - Craft Wondrous Item
+  - Eschew Materials
+  - Greater Sunder
+  - Improved Sunder
+  - Power Attack
+  - Step Up
+Skills:
+  - Appraise +13
+  - Bluff +18
+  - Climb +15
+  - Diplomacy +15
+  - Disguise +18
+  - Knowledge (arcana) +13
+  - Perception +18
+  - Sense Motive +14
+  - Spellcraft +14
+  - Stealth +15
+  - Survival +0 (+8 when following tracks)
+RacialMods: +4 Perception, +8 Survival when following tracks
+Languages:
+  - Abyssal
+  - Auran
+  - Common
+  - Draconic
+  - Ignan
+  - Infernal
+  - Kelish
+SQ: >-
+  bloodline arcana (change energy damage spells to match bloodline energy),
+  bound by betrayal, change shape (hyena or janni; does not detect as undead in
+  these forms; beast shape I or alter self, respectively), genie-kin
+Source: Undead Unleashed
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bound by Betrayal (Su)
+    description: >-
+      Razinia cannot move farther than 600 feet from the center of the oasis
+      where she committed her fatal betrayal; if she is taken beyond this range,
+      she can take no actions except move actions in the direction of the oasis.
+      As a side effect of the curse holding her to the oasis, she can take the
+      form of a living janni that resembles her appearance in life in the same
+      way she can change shape into a hyena. When in this form, she does not
+      detect as undead, but she retains her hoofed feet as a reminder of her
+      treachery, a physical feature she goes to extreme lengths to hide.
+Gender: Female
+Bloodline: elemental (water)
+DuringCombat: >-
+  Razinia maintains her hyena or janni form unless she absolutely must drop the
+  ruse and expose herself to her enemies. She attempts to sunder held or worn
+  magic items, especially those that could damage or expose her, but switches to
+  attacking spellcasters directly if this tactic proves ineffectual.
+Morale: >-
+  If Razinia believes she is in imminent danger of being exposed or falls below
+  20 hp, she drinks her potion of invisibility or casts darkness, then flees to
+  her tent or the cave (area 7), using her dust of tracelessness to avoid
+  leaving footprints since she cannot leave the oasis.
+Gear: >-
+  potions of inflict serious wounds (2), potion of invisibility, scroll of
+  glitterdust, scroll of mage armor, scroll of sculpt corpse, scroll of summon
+  swarm, wand of scorching ray (9 charges), wand of charm person (16 charges),
+  tanglefoot bag
+OtherGear: dagger, dust of tracelessness (2), elemental gem (air), stone of alarm, 23 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6347'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,115 @@
+Name: Night Willow
+CR: '16'
+XP: '76800'
+Race: willow dusk
+MonsterSource: >-
+  Pathfinder RPG Bestiary 4 116, Pathfinder RPG Bestiary 294, Tome of Horrors
+  Complete 642
+Alignment: CE
+Size: Huge
+Type: augmented plant
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +25
+AC: 32, touch 8, flat-footed 32
+AC_Mods: (+24 natural, -2 size)
+HP: '290'
+HD: (20d8+200)
+HP_Mods: fast healing 5
+Saves: Fort +21, Ref +8, Will +13
+Fort: '21'
+Ref: '8'
+Will: '13'
+DefensiveAbilities: poisonous blood
+DR: 10/magic
+Immune: disease, plant traits
+Resist: cold 10, fire 10
+Speed: 10 ft.
+Melee:
+  - 4 slams +27 (2d8+13)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  aura of misery, create spawn, droning, poison spore cloud, swallow whole
+  (2d6+13 bludgeoning damage, AC 22, 29 hp)
+AbilityScores:
+  - 37
+  - 10
+  - 29
+  - 8
+  - 20
+  - 14
+BaseAtk: '15'
+CMB: +30 (+34 grapple, +32 trip)
+CMD: 40 (42 vs. trip)
+Feats:
+  - Ability Focus (aura of misery)
+  - Ability Focus (droning)
+  - Improved TripB
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+  - Toughness
+  - Weapon Focus (slam)
+Skills:
+  - Perception +25
+  - Stealth +7 (+23 in forests)
+RacialMods: +16 Stealth in forests
+Languages:
+  - Sylvan
+SQ: fungal metabolism, rejuvenation
+Source: AP 114
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Misery (Su)
+    description: >-
+      Once every 1d4+1 rounds as a free action, the night willow can emit a wave
+      of negative energy that affects all living creatures within a 10-foot
+      radius. Creatures within the area take 1d6 points of Charisma damage if
+      they fail a DC 24 Will save. The save DC is Charisma-based.
+  - name: Droning (Su)
+    description: >-
+      Once per round as a standard action, the night willow can emit a droning
+      sound audible to a range of 100 feet. Creatures within the area that hear
+      it must succeed at a DC 24 Will save or enter a state of lethargy.
+      Affected creatures cannot move (as if held by hold monster) and have no
+      desire to take any other action or engage in combat (unless attacked
+      first, in which case the lethargy effect is broken). The effects last for
+      a number of rounds equal to 1/2 of the willow dusk's Hit Dice. When the
+      night willow attacks a creature affected by this ability, the night willow
+      gains a +4 bonus on its attack roll. A creature that succeeds at its Will
+      save is unaffected by the droning from the night willow for 24 hours. This
+      is a mind-affecting effect. The save DC is Charisma-based.
+  - name: Fungal Spores (Ex)
+    description: >-
+      Poison-inhaled; save Fort DC 29; frequency 1/round for 6 rounds; effect
+      1d2 Con damage and fatigued for 1 minute; cure 2 saves.
+  - name: Poisonous Blood (Ex)
+    description: >-
+      Fungal Blood or Flesh: Poison- ingested; save Fort DC 29; frequency
+      1/minute for 6 minutes; effect 1 Str damage, 1 Dex damage, and nauseated
+      for 1 minute; cure 2 saves.
+DuringCombat: >-
+  The night willow typically uses its reach to attempt to grapple an opponent
+  and swallow that foe. When PCs get close enough for melee combat, the night
+  willow uses its aura of misery, droning, and fungal spores abilities.
+Morale: The night willow fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|fungal|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11085'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

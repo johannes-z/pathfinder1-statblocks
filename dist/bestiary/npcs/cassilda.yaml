@@ -1,0 +1,181 @@
+Name: Cassilda
+CR: '22'
+XP: '614400'
+Race: humanoid
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (humanoid)
+Init: '10'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +41
+AC: 38, touch 26, flat-footed 31
+AC_Mods: (+9 deflection, +6 Dex, +1 dodge, +12 natural)
+HP: '418'
+HD: (31d8+279)
+HP_Mods: fast healing 5
+Saves: Fort +20, Ref +25, Will +19
+Fort: '20'
+Ref: '25'
+Will: '19'
+DefensiveAbilities: force of will, immortal
+DR: 10/ adamantine and bludgeoning
+Immune: paralysis, poison, sonic
+Resist: acid 10, electricity 10
+SR: '33'
+Speed: 30 ft., fly 50 ft. (average)
+Melee:
+  - 2 slams +29 (1d6+6 plus 2d6 cold/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: black star mote, breach reality's fabric
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 31st; concentration +40)
+  values:
+    - label: Constant
+      value: tongues
+    - label: At Will
+      value: >-
+        detect thoughts (DC 20), greater dispel magic, greater teleport (self
+        plus 50 lbs. of objects only)
+    - label: 3/day
+      value: >-
+        atonement, dream, quickened greater dispel magic, greater scrying (DC
+        25), mislead
+    - label: 1/day
+      value: dream councilOA (DC 25)
+SpellsKnown:
+  header: >-
+    Psychic Spells Known (CL 20th; concentration +29)   5th (8)-etheric shardsOA
+    (DC 23), psychic crushOA (DC 23), retrocognitionOA, wall of ectoplasmOA (DC
+    23)   4th (8)-haste, mind probeOA (DC 22), sending, thought shieldOA,
+    thoughtsenseOA   3rd (8)-ectoplasmic snareOA (DC 21), node of blastingOA (DC
+    21), purge spiritOA (DC 21), synaptic pulseOA (DC 21), telekinetic
+    maneuverOA (DC 21)   2nd (8)-anticipate thoughtsOA, apport objectOA (DC 20),
+    aversionOA (DC 20), hypercognitionOA, placebo effectOA   1st (8)-déjà vuOA,
+    mind linkOA, mind thrustOA (DC 19), psychic readingOA, telempathic
+    projectionOA (DC 19)
+  values:
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, detect psychic significanceOA, ghost
+        sound, light, mage hand, prestidigitation, resistance, telekinetic
+        projectileOA
+AbilityScores:
+  - 22
+  - 23
+  - 27
+  - 20
+  - 25
+  - 28
+BaseAtk: '23'
+CMB: '29'
+CMD: '55'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Flyby Attack
+  - Great Fortitude
+  - Improved Critical (slam)
+  - Improved Initiative
+  - Intuitive Spell
+  - Iron Will
+  - Lightning Reflexes
+  - Logical Spell
+  - Mobility
+  - Quicken Spell-Like Ability (greater dispel magic)
+  - Spell Penetration
+  - Toughness
+Skills:
+  - Bluff +24
+  - Diplomacy +24
+  - Fly +19
+  - Intimidate +16
+  - Knowledge (arcana
+  - local
+  - nobility) +15
+  - Knowledge (dungeoneering
+  - planes) +10
+  - Perception +41
+  - Perform (act
+  - sing) +19
+  - Sense Motive +31
+  - Spellcraft +25
+  - Stealth +26
+  - Use Magic Device +29
+Languages:
+  - Aklo
+  - Mi-go
+  - Necril
+  - Yithian
+  - telepathy (100 ft.)
+Source: AP 114
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Black Star Mote (Su)
+    description: >-
+      As a standard action that does not provoke attacks of opportunity,
+      Cassilda flings a black hole with a corona of light shining around it at a
+      target as a ranged touch attack. If her mote hits the target, she can do
+      one of three things: deal 10d6 points of force and negative energy damage,
+      affect the target with the equivalent of a violent thrust use of
+      telekinesis (15 objects, +39 attack roll), or affect the target with the
+      equivalent of reverse gravity (DC 33 negates). The save DC is
+      Charisma-based. Breach Reality's
+  - name: Fabric (Su)
+    description: >-
+      Three times per day, Cassilda may select a point within 60 feet. A black
+      sphere with a corona of light opens like a hole in reality. The squares in
+      a 40-foot burst around this point become difficult to move in, but only
+      when a creature is moving away from the point. When a creature is moving
+      away from the point, each square of movement counts as three squares.
+      Every round that a creature is within the area of the burst, it is drawn
+      toward the point at the start of its turn. A DC 33 Reflex save halts this
+      movement for 1 round; if this save fails, the creature is automatically
+      pulled into the hole and takes 10d6 points of negative energy damage
+      (Fortitude DC 33 half). A creature in the hole takes the same amount of
+      damage at the start of its turn. A creature in the hole no longer occupies
+      a square but instead occupies an extradimensional space. A successful DC
+      33 Reflex save allows a creature to exit the hole. Cassilda is unaffected
+      by this ability but must maintain concentration on the effect or it ends
+      at the start of her next turn. The save DC is Charisma-based.
+  - name: Force of Will (Su)
+    description: >-
+      Cassilda adds her Charisma modifier as a deflection bonus to her Armor
+      Class.
+  - name: Immortal (Su)
+    description: >-
+      Cassilda is immune to all aging effects. Furthermore, she is difficult to
+      destroy, even for Hastur. Upon her death, she is painfully reborn in her
+      palace at the heart of Carcosa in 1d6 days. She can be permanently
+      destroyed only by the destruction of her Imperial Diadem.
+  - name: Spells (Sp)
+    description: >-
+      Cassilda has a limited selection of spells known, but she casts spells as
+      a 20th-level psychic. The save DCs for her spells are Charisma-based.
+Gender: Female
+DuringCombat: >-
+  Cassilda cannot work directly against Hastur, but she can provide aid to the
+  PCs in their quest. She uses her abilities to assist them where she can.
+Morale: >-
+  Cassilda knows that, if destroyed, she will continue to reform in Carcosa
+  until Hastur's destruction.
+Gear: Imperial Diadem (see page 19)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11102'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

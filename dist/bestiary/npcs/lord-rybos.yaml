@@ -1,0 +1,117 @@
+Name: Lord Rybos
+CR: '10'
+XP: '9600'
+Race: giant squid
+Class: wizard 1
+MonsterSource: Pathfinder RPG Bestiary 259
+Alignment: NE
+Size: Huge
+Type: magical beast
+SubType: (aquatic, augmented animal)
+Init: '6'
+Senses:
+  - low-light vision
+  - Perception +26
+AC: 23, touch 10, flat-footed 21
+AC_Mods: (+4 armor, +2 Dex, +9 natural, -2 size)
+HP: '141'
+HD: (14d8+1d6+75)
+Saves: Fort +16, Ref +13, Will +8
+Fort: '16'
+Ref: '13'
+Will: '8'
+DefensiveAbilities: ink cloud (20-ft. radius)
+Speed: swim 60 ft., jet 260 ft.
+Melee:
+  - >-
+    +1 quarterstaff +16/+11 (2d6+11/19-20), bite +13 (2d6+3), tentacles +13
+    (4d6+3/19-20 plus grab)
+  - bite +15 (2d6+7), 2 arms +15 (1d6+7), tentacles +13 (4d6+3/19-20 plus grab)
+Space: 15 ft.
+Reach: 15 ft. (30 ft. with arms and tentacles)
+SpecialAttacks: constrict (4d6+10), hand of the apprentice (5/day)
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 1st; concentration +3)   1st-alarm, mage armor   0
+  (at will)-detect magic, light, read magic
+AbilityScores:
+  - 25
+  - 15
+  - 21
+  - 14
+  - 14
+  - 7
+BaseAtk: '10'
+CMB: +19 (+23 grapple)
+CMD: '31'
+Feats:
+  - Combat Reflexes
+  - Great Fortitude
+  - Improved Critical (quarterstaff
+  - tentacles)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Magical Aptitude
+  - MultiattackB
+  - Scribe Scroll
+  - Skill Focus (Perception)
+Skills:
+  - Knowledge (arcana) +15
+  - Linguistics +6
+  - Perception +26
+  - Spellcraft +19
+  - Stealth +7
+  - Swim +15
+  - Use Magic Device +17
+Languages:
+  - Aquan
+  - Common
+  - Minkaian
+SQ: arcane bond (+1 quarterstaff)
+Source: PFS S6-13
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ink Cloud (Ex)
+    description: >-
+      A squid can emit a 20-foot-radius cloud of ink once per minute as a free
+      action while underwater. This cloud provides total concealment. The ink
+      persists for 1 minute.
+  - name: Jet (Ex)
+    description: >-
+      A squid can jet in a straight line as a full-round action. It does not
+      provoke attacks of opportunity while jetting.
+Gender: Male
+BeforeCombat: >-
+  Lord Rybos casts a mental alarm spell above the south door in area A10 to warn
+  him of intruders before he begins any sacrificial ritual. If warned of
+  intruders, he casts mage armor and hides beneath the water.
+DuringCombat: >-
+  Lord Rybos activates his scroll of shield and strikes weapon-wielding foes at
+  a distance with his wand of enervation. If attacked in melee, he fends off
+  nearby threats with his staff and focuses his tentacle attacks on spellcasting
+  foes to utilize his constrict ability.
+Morale: >-
+  Lord Rybos attempts to flee using a scroll of fly or scroll of alter self if
+  reduced to 30 hit points or fewer.
+Gear: >-
+  scrolls of alarm (3), scroll of alter self, scrolls of fly, scrolls of mage
+  armor (3), scrolls of shield (3), wand of enervation (4 charges)
+OtherGear: +1 quarterstaff, spell component pouch, spellbook
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: awakened|
+BaseStatistics: >-
+  Without mage armor, Lord Rybos's statistics are AC 19, touch 10, flat-footed
+  17.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7923'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

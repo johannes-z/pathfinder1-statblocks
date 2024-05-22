@@ -1,0 +1,153 @@
+Name: Mute hag
+CR: '11'
+XP: '12800'
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+SubType: (cold)
+Init: '5'
+Senses:
+  - blindsight 60 ft., scent
+  - Perception +21
+AC: 24, touch 15, flat-footed 19
+AC_Mods: (+5 Dex, +9 natural)
+HP: '175'
+HD: (14d10+84)
+Saves: Fort +12, Ref +14, Will +13
+Fort: '12'
+Ref: '14'
+Will: '13'
+DR: 10/cold iron and magic
+Immune: cold, acid, charm, fear, gaze attacks, sleep
+SR: '22'
+Weaknesses: vulnerable to fire
+Speed: 30 ft.
+Melee:
+  - 2 claws +20 (1d6+6 plus 1d4 bleed), bite +20 (1d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: shaping touch
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +18)
+  values:
+    - label: Constant
+      value: detect good, detect magic, detect thoughts (DC 16)
+    - label: At will
+      value: >-
+        contagion (DC 17), cure light wounds, diminish plants, inflict light
+        wounds (DC 15), invisibility (self only), minor creation, poison (DC 17)
+    - label: 3/day
+      value: >-
+        bestow curse (DC 17), blindness/deafness (DC 16), empowered cone of cold
+        (DC 19), crushing despair (DC 17), silence (DC 16)
+    - label: 1/day
+      value: control weather
+AbilityScores:
+  - 23
+  - 21
+  - 22
+  - 20
+  - 19
+  - 18
+BaseAtk: '14'
+CMB: '20'
+CMD: '35'
+Feats:
+  - Alertness
+  - Blind-Fight
+  - Combat Casting
+  - Empower Spell-Like Ability (cone of cold)
+  - Great Fortitude
+  - Persuasive
+  - Toughness
+Skills:
+  - Bluff +14
+  - Craft (leather) +16
+  - Diplomacy +18
+  - Heal +12
+  - Intimidate +21
+  - Knowledge (arcana) +11
+  - Knowledge (history) +19
+  - Knowledge (local) +11
+  - Knowledge (nature) +11
+  - Perception +21
+  - Sense Motive +18
+  - Sleight of Hand +12
+  - Spellcraft +16
+  - Stealth +18
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Giant
+  - Goblin
+  - Sylvan (cannot speak)
+SQ: blind and mute, change shape (any humanoid, alter self )
+Environment: cold plains, forests, and marshes
+Organization: solitary or coven (3 hags of any kind)
+Treasure: standard
+Description_Visual: >-
+  Empty eye sockets and jagged teeth punctuate the palpable hate that roils off
+  this twisted, gray-skinned crone.
+Group: Mute Hag
+Source: The Harrowing
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blind and Mute (Ex)
+    description: >-
+      Mute hags tear out their eyes and tongues, leaving them blind to life's
+      joys and incapable of sharing their sorrow. A mute hag is immune to gaze
+      attacks, and cannot use spell completion or command word trigger magic
+      items.
+  - name: Shaping Touch (Su)
+    description: >-
+      The touch of a mute hag twists flesh like clay. As a full-round action
+      that draws an attack of opportunity, a mute hag may change the appearance
+      of a grappled or helpless victim. The effect acts as a permanent alter
+      self spell. Unwilling victims may resist the transformation with a DC 21
+      Fortitude save. A mute hag allowed to work for 10 minutes may also
+      increase a victim's age category by one step; doing so does not grant
+      mental ability score boosts but does inflict physical ability score
+      penalties as normal. Creatures that are affected by this power or
+      successfully save against it cannot be affected by the same hag's shaping
+      touch for one month. The DC is Charisma-based.
+Description:
+  - >-
+    When bitterness consumes a woman already steeped in arcane power, that
+    energy may sour, driving her to rip out her own eyes and tongue and burning
+    the light from her soul. This ritual births a strange and horrible creature:
+    a mute hag. These hateful abominations dedicate their wretched lives to
+    spreading misery and strangling joy wherever they go.
+  - Mute hags exist to unmake happy things.
+  - >-
+    Tales claim the natural order despises the crones so much that plants wither
+    at their touch, storms churn at their passing, and wounds they inflict never
+    heal.
+  - >-
+    Though physically capable of ripping a man in two, the crones prefer to
+    corrupt instead. They move silently through peaceful settlements, granting
+    the inhabitants' darkest desires and sowing the seeds of discord. Nothing
+    pleases a mute hag more than watching friends, neighbors, and lovers murder
+    one another in paranoia and rage. Many strike unholy bargains with mortal
+    outcasts, granting vigor, beauty, or revenge in exchange for vile and
+    unforgivable crimes.
+  - >-
+    Mute hags resemble mortal women, but with blotchy, bruised-looking skin.
+    Some conceal their empty eye sockets and ragged teeth with veils or their
+    own hair, but most relish their hideous countenances. Mute hags stand 6 to 7
+    feet tall and weigh 150 to 250 pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1781'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

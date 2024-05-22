@@ -1,0 +1,132 @@
+Name: Zolerim
+CR: '11'
+XP: '12800'
+Race: human
+Class: cleric of Nethys 3/wizard 3/mystic theurge 6
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +4
+AC: 24, touch 14, flat-footed 23
+AC_Mods: (+4 armor, +3 deflection, +1 Dex, +2 natural, +4 shield)
+HP: '101'
+HD: (12 HD; 3d8+9d6+53)
+Saves: Fort +8, Ref +7, Will +13
+Fort: '8'
+Ref: '7'
+Will: '13'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - mwk dagger +6/+1 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 3/day (DC 11, 2d6), destructive smite (+1, 7/day),
+  hand of the apprentice (7/day), intense spells (+1 damage)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: 7/day
+      value: blast rune (1d6+1 energy damage, 3 rounds)
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 9th; concentration +13)   5th-wall of force  
+  4th-dimension door, fear (DC 18), fire shield   3rd-dispel magic, extended
+  false life, fly, lightning bolt (DC 17)   2nd-acid arrow, glitterdust (DC 16),
+  extended mage armor, mirror image, extended shield   1st-charm person (DC 15),
+  magic missile (3), ray of enfeeblement (DC 15)   0 (at will)-arcane mark, mage
+  hand, message, prestidigitation Cleric Spells Prepared (CL 9th; concentration
+  +13)   5th-flame strike (DC 19), shoutD (DC 19)   4th-cure critical wounds,
+  explosive runesD (DC 17), freedom of movement, sending   3rd-cure serious
+  wounds (2), dispel magic, glyph of wardingD, meld into stone   2nd-hold person
+  (DC 16), resist energy, shatterD (DC 16), extended shield of faith, sound
+  burst (DC 16), spiritual weapon   1st-command (DC 15), cure light wounds (3),
+  sanctuary (DC 15), true strikeD   0 (at will)-bleed (DC 14), create water,
+  light, stabilize
+SpellDomains: Destruction, Rune
+AbilityScores:
+  - 8
+  - 13
+  - 14
+  - 18
+  - 18
+  - 10
+BaseAtk: '6'
+CMB: '5'
+CMD: '19'
+Feats:
+  - Craft Construct
+  - Craft Magic Arms and Armor
+  - Craft Wand
+  - Craft Wondrous Item
+  - Extend Spell
+  - Lightning Reflexes
+  - Scribe Scroll
+  - Toughness
+Skills:
+  - Bluff +12
+  - Fly +24
+  - Knowledge (arcana) +19
+  - Knowledge (history) +13
+  - Knowledge (planes) +13
+  - Knowledge (religion) +19
+  - Sense Motive +19
+  - Spellcraft +19
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Thassilonian
+  - Varisian
+SQ: arcane bond (dagger), combined spells (3rd)
+Source: AP 64
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Zolerim casts extended mage armor and extended false life every morning. Once
+  he's alerted to trouble, he casts sending to alert Ardathanatus that the PCs
+  are in the dungeon. He casts extended shield, fly, freedom of movement, and
+  extended shield of faith on himself before entering combat.
+DuringCombat: >-
+  Zolerim uses flight to stay mobile in combat and relies on his damaging spells
+  to hit the PCs at range, but casts mirror image on the first round of the
+  fight. Whenever he's surrounded and can't get to safety to cast spells, he
+  simply channels negative energy. He heals himself whenever he's reduced to 40
+  or fewer hit points.
+Morale: >-
+  If he's reduced to 20 or fewer hit points, Zolerim casts wall of force to try
+  to seal the PCs off from him, then flees. As soon as he's out of sight, he
+  casts meld into stone to hide in the dungeon floor for an hour or so before
+  emerging. At this point, he heals himself and then moves out into the dungeon
+  to seek the PCs for revenge. He doesn't expect mercy, and if escape isn't an
+  option, he fights to the death. If captured, he is unrepentant, claiming that
+  Nethys cares nothing for petty human politics and that he sided with the
+  source of stronger magic (Ardathanatus), as his god demanded&#8211;he only
+  reveals what he knows of the dungeon if magically compelled. In this case, you
+  can use a charmed or compelled Zolerim to give the PCs whatever hints you wish
+  about the parts of the dungeon they have yet to explore.
+Gear: >-
+  scroll of blade barrier, scroll of greater dispel magic, scroll of heal,
+  scroll of mass inflict critical wounds, wand of cure moderate wounds (CL 10th,
+  15 charges), wand of fireball (CL 10th, 9 charges)
+OtherGear: >-
+  masterwork dagger, amulet of natural armor +2, doomsday key, headband of
+  mental prowess +2 (Int, Wis), minor cloak of displacement, key to chest in
+  area D4
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3538'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

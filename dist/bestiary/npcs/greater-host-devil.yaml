@@ -1,0 +1,117 @@
+Name: Greater Host Devil
+CR: '6'
+XP: '2400'
+Race: Greater Host Devil
+MonsterSource: 'Princes of Darkness: Book of the Damned, Vol. 1 58'
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '4'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +11
+AC: 23, touch 15, flat-footed 18
+AC_Mods: (+4 Dex, +1 dodge, +8 natural)
+HP: '59'
+HD: (7d10+21)
+Saves: Fort +8, Ref +9, Will +3
+Fort: '8'
+Ref: '9'
+Will: '3'
+DR: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '17'
+Speed: 20 ft., fly 50 ft. (average)
+Melee:
+  - mwk ranseur +12 (2d4+6), 2 claws +11 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: infernal wound, noxious breath, rend (2 claws, 1d6+1), summon devil
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +12)
+  values:
+    - label: At will
+      value: greater teleport (self plus 50 lbs. of objects only)
+AbilityScores:
+  - 18
+  - 19
+  - 16
+  - 10
+  - 12
+  - 11
+BaseAtk: '7'
+CMB: '10'
+CMD: '25'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Mobility
+  - Hover
+Skills:
+  - Acrobatics +14
+  - Escape Artist +14
+  - Fly +14
+  - Intimidate +10
+  - Perception +11
+  - Stealth +14
+Languages:
+  - Celestial
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: master grappler, shared senses
+Source: PFS S1-39
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Infernal Wound (Ex)
+    description: >-
+      The damage a magaav deals with its claws or rend causes a persistent
+      wound. An injured creature loses 1 additional hit point each round. The
+      wound does not heal naturally and resists healing spells. The continuing
+      hit point loss can be stopped by a DC 16 Heal check or any spell that
+      cures hit point damage; casting a curative spell on the injured creature
+      requires a successful DC 15 caster level check, otherwise the spell has no
+      effect. The check DC is Constitution-based.
+  - name: Master Grappler (Ex)
+    description: >-
+      A magaav can wield a weapon and still make grapple checks. If it's not
+      wielding a weapon, a magaav gains a +4 bonus on grapple checks.
+  - name: Noxious Breath (Su)
+    description: >-
+      Three times per day, a magaav can exhale a breath that reeks of pure
+      corruption upon a creature within 5 feet. The target must make a DC 16
+      Fortitude save or be sickened for 1d4 rounds. The save DC is Constitution
+      based. Creatures that successfully save cannot be affected by the same
+      magaav's noxious breath for 24 hours. A delay poison or neutralize poison
+      spell removes the effect from the sickened creature. Creatures with
+      immunity to poison are unaffected, and creatures resistant to poison
+      receive their normal bonuses on their saving throws. Once a magaav uses
+      its breath weapon, it can't breathe again until 1d4 rounds later.
+BeforeCombat: >-
+  The magaav has already used its summon devil ability for the day, summoning
+  gaavs to explore the surrounding territory.
+DuringCombat: >-
+  The magaav is a tactical fighter and attempts to attack the weakest PC
+  (wearing light or no armor, has obvious wounds, etc.) each round.
+Morale: >-
+  The magaav fights until brought below 5 hit points and then attempts to fly
+  away. If successful, the magaav returns to area F4 where the PCs encounter it
+  later.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: Magaav
+id: '4212'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

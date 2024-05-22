@@ -1,0 +1,121 @@
+Name: Raogru, Fang of Ydersius
+CR: '6'
+XP: '2400'
+Race: charau-ka
+Class: cleric of Ydersius 6
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (charau-ka)
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +3
+AC: 20, touch 13, flat-footed 18
+AC_Mods: (+5 armor, +2 Dex, +2 natural, +1 size)
+HP: '82'
+HD: (9d8+42)
+Saves: Fort +9, Ref +5, Will +9
+Fort: '9'
+Ref: '5'
+Will: '9'
+Immune: fire (72 points)
+Speed: 20 ft., climb 20 ft.
+Melee:
+  - +1 heavy mace +13/+8 (1d6+6), bite +7 (1d3+3)
+Ranged:
+  - magic stone +13 (1d6+6/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 3/day (DC 13, 3d6), shrieking frenzy, thrownweapon
+  mastery
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: At will
+      value: speak with animals (9 rounds/day)
+    - label: 6/day
+      value: venomous stare
+SpellsPrepared: >-
+  Spells Prepared (CL 6th; concentration +9) 3rd-blindness/deafness (DC 16),
+  deeper darkness, dominate animalD (DC 16), protection from energy 2nd-animal
+  tranceD (DC 15), bear's endurance, death knell (DC 15), delay poison, sound
+  burst (DC 15) 1st-bane (DC 14), divine favor, doom (DC 14), magic fangD, magic
+  stone 0 (at will)-bleed (DC 13), guidance, resistance, virtue
+SpellDomains: Animal, Scalykind
+AbilityScores:
+  - 17
+  - 14
+  - 16
+  - 13
+  - 16
+  - 10
+BaseAtk: '6'
+CMB: '10'
+CMD: '20'
+Feats:
+  - Combat Casting
+  - Persuasive
+  - Point-Blank Shot
+  - Precise Shot
+  - Throw Anything
+  - Toughness
+Skills:
+  - Climb +20
+  - Diplomacy +6
+  - Handle Animal +7
+  - Intimidate +10
+  - Knowledge (religion) +6
+  - Spellcraft +6
+  - Stealth +10
+Languages:
+  - Abyssal
+  - Common
+  - Polyglot
+SQ: animal companion, serpent companion (constrictor snake named Chu-tok)
+Source: AP 38
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Serpent Companion (Ex)
+    description: >-
+      Raogru has a constrictor snake animal companion from the Scalykind domain.
+      His effective druid level for this companion is his cleric level -2.
+  - name: Venomous Stare (Sp)
+    description: >-
+      As a standard action, Raogru can activate a gaze attack with a 30-foot
+      range (Pathfinder RPG Bestiary 300). This is an active gaze attack that
+      can target a single creature within range. The target must make a DC 16
+      Will save. Those who fail take 1d6+3 points of nonlethal damage and are
+      fascinated until the beginning of Raogru's next turn. This is a
+      mind-affecting effect.
+Gender: Male
+BeforeCombat: >-
+  If he hears the sounds of fighting in the temple proper, Raogru prepares for
+  combat by casting magic stone, bear's endurance, protection from energy
+  (fire), and divine favor on himself, and magic fang on Chu-tok.
+DuringCombat: >-
+  Raogru uses his venomous stare on opponents, then orders Chu-tok to attack
+  while he casts spells and throws rocks, keeping Chu-tok between him and his
+  enemies. If forced into melee combat, Raogru goes into a shrieking frenzy and
+  attacks with his mace and bite.
+Morale: Raogru fights to the death.
+Gear: elixir of fire breath
+OtherGear: >-
+  +1 hide armor, +1 heavy mace, wooden holy symbol of Ydersius, spell component
+  pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '951'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

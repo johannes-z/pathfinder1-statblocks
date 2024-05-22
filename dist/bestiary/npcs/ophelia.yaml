@@ -1,0 +1,143 @@
+Name: Ophelia
+CR: '19'
+XP: '204800'
+Race: gargoyle
+Class: cleric of unity 17
+MonsterSource: Pathfinder RPG Bestiary 137, 294
+Alignment: LE
+Size: Medium
+Type: monstrous humanoid
+SubType: (earth)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +22
+AC: 37, touch 18, flat-footed 33
+AC_Mods: (+10 armor, +4 deflection, +3 Dex, +1 dodge, +9 natural)
+HP: '323'
+HD: (22 HD; 5d10+17d8+220)
+Saves: Fort +23, Ref +17, Will +25; +2 vs. mind-affecting effects
+Fort: '23'
+Ref: '17'
+Will: '25'
+Save_Mods: +2 vs. mind-affecting effects
+Resist: cold 20
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - >-
+    +3 shocking burst battleaxe +28/+23/+18/+13 (1d8+12/19-20/x3 plus 1d6
+    electricity), +3 shocking burst claw +27 (1d6+10 plus 1d6 electricity), gore
+    +19 (1d4+3), bite +19 (1d4+3)
+Ranged:
+  - +4 rail gun +26 touch (3d10+4/x4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 6/day (DC 21, 9d6)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 17th; concentration +25)   9th-meteor swarmD (DC
+  27), miracle (DC 27)   8th-demandD (DC 26), fire storm (DC 26), quickened
+  freedom of movement, greater spell immunity   7th-quickened cure serious
+  wounds (2), destruction (DC 25), quickened irradiateTG (DC 21), sunbeamD (DC
+  25)   6th-blade barrier (2, DC 24), quickened hold person (DC 20), heal,
+  planar bindingD (DC 24), quickened silence (DC 20)   5th-quickened cure light
+  wounds, flame strike (DC 23), greater commandD (DC 23), quickened shield of
+  faith, spell resistance, wall of stone (DC 23),   4th-cure critical wounds
+  (2), death ward, discern liesD (DC 22), greater magic weapon, spell immunity,
+  unholy blight (DC 22)   3rd-cure serious wounds (2), dischargeTG, dispel
+  magic, invisibility purge, magic vestmentD, protection from energy   2nd-cure
+  moderate wounds (3), hold person (DC 20), hypnotic patternD (DC 20), make
+  whole, spiritual weapon   1st-command (DC 19), cure light wounds (4), divine
+  favorD, sanctuary (DC 19)   0 (at will)-create water, guidance, mending,
+  stabilize
+SpellDomains: Nobility, Stars
+AbilityScores:
+  - 24
+  - 20
+  - 28
+  - 12
+  - 26
+  - 17
+BaseAtk: '17'
+CMB: '24'
+CMD: '44'
+Feats:
+  - Craft Magic Arms and Armor
+  - Dodge
+  - Improved Critical (battleaxe)
+  - Improved Initiative
+  - Martial Weapon Proficiency (heavy weaponry)
+  - Power Attack
+  - Quicken Spell
+  - Selective Channeling
+  - Toughness
+  - Weapon Focus (battleaxe)
+  - Technologist
+Skills:
+  - Craft (weapon) +15
+  - Disable Device +12
+  - Fly +17
+  - Intimidate +17
+  - Knowledge (engineering) +12
+  - Knowledge (religion) +15
+  - Linguistics +7
+  - Perception +22
+  - Stealth +17 (+21 in stony environs)
+Languages:
+  - Androffan
+  - Common
+  - Hallit
+  - Lashunta
+  - Terran
+SQ: freeze, guarded mind, pawn of Unity
+Source: AP 90
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Pawn of Unity (Ex)
+    description: >-
+      When Ophelia became Unity's pawn, the AI performed invasive and
+      experimental surgical procedures on the gargoyle that increased her
+      Intelligence, Wisdom, and Charisma by 4 each. Unity can communicate with
+      her telepathically and issue orders at will as if via a demand
+      spell-Ophelia cannot save against this effect. A successful DC 20 Sense
+      Motive check is enough to let someone know that Ophelia is being
+      controlled by an external force, but this control can't be disrupted as
+      long as Unity survives.
+Gender: Female
+BeforeCombat: >-
+  Ophelia casts magic vestment on her armor and greater magic weapon on her rail
+  gun.
+DuringCombat: >-
+  Ophelia casts quickened shield of faith on the first round of combat (this
+  bonus is included in her stats above), and then quickened freedom of movement,
+  quickened irradiate, silence, and hold person on the following rounds. When
+  multiple the PCs are in a line, she'll fire on them with her rail gun;
+  otherwise, she uses offensive spells against them. As Unity's favored minion,
+  she doesn't need to attempt caster level checks to successfully cast fire
+  spells within the Divinity Drive's influence. She uses her quickened healing
+  magic on herself during any round where she has fewer than 150 hit points,
+  saving heal for emergencies. She prefers to hold off on casting miracle unless
+  she needs a specific spell she hasn't prepared, but if reduced to fewer than
+  100 hit points, she attempts to cast miracle to not only restore herself to
+  full hit points but to restore all destroyed evaluator robots to full
+  functionality at her side.
+Morale: Ophelia fights to the death.
+Gear: >-
+  mwk breastplate, rail gunTG, Arms of the Iron God, belt of mighty constitution
+  +4, cloak of resistance +3, cybernetic legsTG, dermal plating mark IIITG,
+  major ring of cold resistance, 5 batteriesTG, 25,000 gp in powdered diamonds
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6718'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,124 @@
+Name: Riftcreeper
+CR: '15'
+XP: '51200'
+Alignment: CE
+Size: Gargantuan
+Type: ooze
+SubType: (extraplanar)
+Init: '12'
+Senses:
+  - blindsight 60 ft., tremorsense 120 ft.
+  - Perception +3
+AC: 30, touch 14, flat-footed 22
+AC_Mods: (+8 Dex, +16 natural, -4 size)
+HP: '217'
+HD: (15d8+150)
+HP_Mods: fast healing 10
+Saves: Fort +15, Ref +13, Will +8
+Fort: '15'
+Ref: '13'
+Will: '8'
+DefensiveAbilities: adaptive defenses
+Immune: acid, ability damage, ability drain, exhaustion, fatigue, ooze traits
+Speed: 30 ft., climb 30 ft., swim 20 ft.
+Speed_Mod: gelatinous surge
+Melee:
+  - 2 slams +22 (4d6+14 plus 2d4 acid and grab)
+Ranged:
+  - 6 strands +15 touch (2d4 acid and attach)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: constrict (slam, 4d6+14 plus 2d6 acid), pull (strand, 20 feet)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +15)
+  values:
+    - label: Constant
+      value: feather fall
+AbilityScores:
+  - 39
+  - 27
+  - 30
+  - 7
+  - 16
+  - 10
+BaseAtk: '11'
+CMB: +29 (+31 bull rush, +33 grapple)
+CMD: 47 (49 vs. bull rush, can't be tripped)
+Feats:
+  - Awesome Blow
+  - Combat Reflexes
+  - Improved Bull Rush
+  - Improved Initiative
+  - Improved Vital Strike
+  - Power Attack
+  - Vital Strike
+  - Weapon Focus (slam)
+Skills:
+  - Climb +37
+  - Swim +22
+Languages:
+  - Abyssal (cannot speak)
+Environment: any mountain
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This slithering mass of bubbling red ooze extrudes a nest of long, thin
+  tendrils, as if tasting the air in search of prey.
+Source: The Worldwound
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adaptive Defenses (Su)
+    description: >-
+      After being damaged by any magical effect that deals cold, electricity,
+      fire, or sonic damage, a riftcreeper's body instantly adapts to become
+      immune to that form of energy. A riftcreeper can only adapt to one of
+      those four types of energy at a time-if it adapts to a new energy type, it
+      loses its immunity to the previous type. Otherwise, the immunity lasts for
+      1 hour.
+  - name: Gelatinous Surge (Ex)
+    description: >-
+      Once per minute as a standard action, a riftcreeper can extrude a
+      protoplasmic tendril of ooze to attach to any vertical surface within 120
+      feet. It can then transfer its entire bulk along that tendril as part of
+      that move action to change its location to the surface to which it's now
+      attached. This movement does not provoke attacks of opportunity. Any
+      creatures along its line of travel are subjected to a bull rush attempt.
+  - name: Strands (Ex)
+    description: >-
+      A riftcreeper can extend up to six thin, sticky strands from its body at a
+      time as a standard action, launching them to a maximum range of 120 feet.
+      These attacks resolve as ranged touch attacks. On a hit, a strand deals
+      2d4 points of acid damage to its target and attaches to the creature.
+      These strands are quite strong, but any amount of slashing damage severs
+      them (a strand has AC 25). As long as a strand remains attached to a
+      target, that creature takes an additional 2d4 points of acid damage at the
+      start of its turn. A riftcreeper can automatically absorb the strands into
+      its body if it uses its gelatinous surge ability (and, in doing so, it
+      releases any attached creatures).
+Description:
+  - >-
+    Heaving masses of unnatural protoplasm known as riftcreepers prowl the
+    Worldwound's shattered canyons. Despite their name, these intelligent,
+    malevolent oozes are quite agile and swift, slithering up and down canyon
+    walls or swimming through even the foulest water. Natives of the Abyss,
+    riftcreepers have adapted disturbingly well and quickly to the Worldwound.
+    Although smart enough to understand Abyssal, riftcreepers have little
+    interest in conversing with their food.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4677'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

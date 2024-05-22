@@ -1,0 +1,75 @@
+Name: Bronze Golem
+CR: '13'
+XP: '25600'
+Race: Bronze Golem
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 28, touch 8, flat-footed 28
+AC_Mods: (-1 Dex, +20 natural, -1 size)
+HP: '162'
+HD: (24d10+30)
+Saves: Fort +8, Ref +7, Will +8
+Fort: '8'
+Ref: '7'
+Will: '8'
+DR: 15/adamantine
+Immune: construct traits, magic
+Speed: 20 ft.
+Melee:
+  - greatsword +35 (3d6+16/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: petrifying gaze (DC 17, every 3 rounds), shattering strike
+AbilityScores:
+  - 32
+  - 9
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '24'
+CMB: '37'
+CMD: '46'
+Source: Sword of Air-Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A bronze golem is immune to spells or spell-like abilities that allow
+      spell resistance. Certain spells and effects function differently against
+      it, as noted below. A magical attack that deals electricity damage slows a
+      bronze golem (as the slow spell) for 3 rounds, with no saving throw. A
+      magical attack that deals fire damage breaks any slow effect on the golem
+      and heals 1 point of damage for each 3 points of damage the attack would
+      otherwise deal. If the amount of healing would cause the golem to exceed
+      its full normal hit points, it gains any excess as temporary hit points. A
+      bronze golem gets no saving throw against fire effects.
+  - name: Petrifying Gaze (Su)
+    description: >-
+      Turn to stone permanently, 30 feet, Fortitude DC 17 negates. The save DC
+      is Charisma-based.
+  - name: Shattering Strike (Ex)
+    description: >-
+      A bronze golem instinctively detects weak points in the structure of a
+      victim turned to stone by its petrifying gaze. Its attacks against its
+      petrified victims ignore the stone's hardness.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12799'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

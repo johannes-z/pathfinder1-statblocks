@@ -1,0 +1,197 @@
+Name: Philosopher Golem
+CR: '9'
+XP: '6400'
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +14
+AC: 20, touch 9, flat-footed 20
+AC_Mods: (+11 natural, -1 size)
+HP: '112'
+HD: (15d10+30)
+Saves: Fort +5, Ref +5, Will +9
+Fort: '5'
+Ref: '5'
+Will: '9'
+DR: 10/adamantine
+Immune: construct traits (+30 hp), magic
+Speed: 30 ft.
+Melee:
+  - platinum rod +19/+14 (1d8+5) or 2 slams +19 (2d6+5)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: spells
+SpellsKnown:
+  header: Spells Known (CL 7th; melee touch +19, ranged touch +14)
+  values:
+    - label: 3rd (4/day)
+      value: lightning bolt (DC 15), sleet storm
+    - label: 2nd (7/day)
+      value: flaming sphere (DC 14), invisibility, web (DC 14)
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 13), charm person (DC 13), detect secret doors, ray of
+        enfeeblement (DC 13), true strike
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 12), dancing lights, detect magic, flare (DC 12), mage hand,
+        read magic, touch of fatigue (DC 12)
+AbilityScores:
+  - 20
+  - 11
+  - —
+  - 15
+  - 15
+  - 15
+BaseAtk: '15'
+CMB: '21'
+CMD: '31'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Craft ConstructB
+  - Craft Wondrous Item
+  - Extend Spell
+  - Iron Will
+  - Maximize Spell
+  - Power Attack
+  - Quicken Spell
+Skills:
+  - Craft (any one) +12
+  - Knowledge (any one) +12
+  - Knowledge (arcana) +12
+  - Perception +14
+  - Sense Motive +4
+  - Spellcraft +12
+  - Use Magical Device +12
+Languages:
+  - Common
+  - plus two others
+Environment: any
+Organization: solitary
+Treasure: platinum rod (1,500 gp)
+Description_Visual: >-
+  This creature appears as a nine-foot tall humanoid crafted from lapis lazuli.
+  It has a regal bearing and wields a rod of platinum in its hand.
+Group: Golem
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A philosopher golem is immune to any spell or spell-like ability that
+      allows spell resistance . In addition, certain spells and effects function
+      differently against the creature as noted: A shatter spell deals damage to
+      a philosopher golem as if it were a crystalline creature. A keen edge
+      spell affects a philosopher golem's slam attacks as if they were slashing
+      weapons. A magical attack that deals cold damage slows a philosopher golem
+      (as the slow spell) for 3 rounds (no saving throw). A magical attack that
+      deals fire damage ends any slow effect on the golem and heals 1 point of
+      damage for each 3 points of damage the attack would otherwise deal. If the
+      amount of healing would cause the golem to exceed its full normal hit
+      points, it gains any excess as temporary hit points. A philosopher golem
+      gets no saving throw against fire effects. Spells When a philosopher golem
+      is created, it is programmed with spells. The creator can add as many or
+      as few spells as desired up to the limit of the golem's caster level. A
+      philosopher golem has a caster level equal to one-half its Hit Dice. A
+      philosopher golem does not require any spell components or focuses to cast
+      its spells, and once a spell is cast, it is expended until the golem
+      recharges it. To recharge its expended spells, a philosopher golem must
+      remain idle (resting, more or less) for 8 hours.
+Description:
+  - >-
+    The philosopher golem is a completely self-aware construct, designed as an
+    aid to powerful spellcasters. The philosopher golem is subservient to its
+    master but acts more as a companion and confidant, having its own mind as to
+    choices of right and wrong or good and evil. Philosopher golems are often
+    used as proxies in the crafting of dangerous magical items by their creators
+    who use the philosopher golem in the handling of volatile spell components
+    or in the acquisition of reagents from hostile environments. Philosopher
+    golems can, or so it is rumored, teach other spellcasters the spells they
+    have programmed if the spellcaster is of sufficient level to cast the spell.
+    A philosopher golem cannot change its programmed spells, but its creator or
+    another spellcaster can. Spells can be added, removed, or changed by the
+    creator or another spellcaster.
+  - >-
+    Philosopher golems are most often found in the employ of wizards, sorcerers,
+    and clerics. In combat, philosopher golem uses its programmed spells and
+    powerful slam attacks to dispatch its foes. It can also attack with its
+    platinum rod (treat as a club).
+  - Reprogramming a Philosopher Golem
+  - >-
+    A spellcaster can add, remove, or change the philosopher golem's programmed
+    spells.
+  - Adding a New Programmed Spell
+  - >-
+    The following rules apply when adding a new spell to an existing philosopher
+    golem.
+  - >-
+    The philosopher golem must have available spell slots. A golem has as many
+    spell slots as would a spellcaster equal to its caster level.
+  - >-
+    A new spell can only be added in a spell slot of the spell's level or
+    higher.
+  - >-
+    The spellcaster must be able to cast the spell to be added and must have
+    access to it (that is, it must appear on his spell list and he must have
+    access to it via spellbook, prepared spell or known spell, scroll, etc.)
+  - >-
+    Adding a new spell takes 1 hour per spell level and the spellcaster must
+    expend a number of gold pieces equal to the spell's level x the philosopher
+    golem's caster level x 500 gp. 0th level spells cost one-half this price.
+    The spellcaster makes a Spellcraft check (DC 20 if the spellcaster is the
+    golem's creator; DC 25 if not + the spell's level). If successful, the new
+    spell is added to the golem. If the check fails, both time and cost are
+    wasted.
+  - Removing a Programmed Spell
+  - >-
+    Removing a programmed spell from a philosopher golem takes 1 hour per spell
+    level and requires a DC 20 Spellcraft check. Modify the DC as follows (add
+    all that apply).
+  - Circumstance DC
+  - Spellcaster is not the golem's creator +5
+  - Spell doesn't appear on spellcaster's list (or doesn't know the spell) +5
+  - Spell is of a higher level than spellcaster can cast +5 per level over
+  - >-
+    If the Spellcraft check succeeds, the spell is removed. If the check fails,
+    the spell is not removed. The spellcaster can try again, but the DC to
+    remove that spell increases by +5 each time he fails this check.
+  - Changing a Programmed Spell
+  - >-
+    Changing a spell requires the spellcaster to first remove the spell (using
+    the rules above), and then add the spell to the golem (using the rules
+    above).
+  - Construction
+  - >-
+    A philosopher golem's body is chiseled from a single block of lapis lazuli,
+    weighing at least 2,000 pounds. The lapis lazuli must be of exceptional
+    quality, and costs 10,000 gp.
+  - PHILOSOPHER GOLEM
+  - CL 14th; Price 64,000 gp
+  - CONSTRUCTION
+  - >-
+    Requirements Craft Construct, antimagic field, geas/quest, limited wish, all
+    of the spells the creator wants to program into the philosopher golem,
+    creator must be caster level 14th; Skill Craft (sculpting) or Craft
+    (jewelrymaking) DC 17; Cost 37,000 gp
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4965'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

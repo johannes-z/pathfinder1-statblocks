@@ -1,0 +1,88 @@
+Name: Volorog
+CR: '2'
+XP: '600'
+Race: Undersized faceless stalker
+MonsterSource: Pathfinder RPG Bestiary 2 122
+Alignment: CE
+Size: Small
+Type: aberration
+SubType: (shapechanger)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+AC: 15, touch 9, flat-footed 15
+AC_Mods: (+2 armor, -2 Dex, +4 natural, +1 size)
+HP: '18'
+HD: (5d8+15; normally 37 hp)
+Saves: Fort +4, Ref -1, Will +6
+Fort: '4'
+Ref: '-1'
+Will: '6'
+DR: 5/piercing or slashing
+Weaknesses: fatigued
+Speed: 20 ft.
+Melee:
+  - slam +5 (1d4+1 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: blood drain (1 Con), sneak attack +2d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +8)
+  values:
+    - label: Constant
+      value: tongues
+AbilityScores:
+  - 12
+  - 7
+  - 16
+  - 13
+  - 15
+  - 16
+BaseAtk: '3'
+CMB: +3 (+7 grapple)
+CMD: '11'
+Feats:
+  - Combat Reflexes
+  - Deceitful
+  - Improved Initiative
+Skills:
+  - Bluff +10
+  - Disguise +14 (+24 when using change shape)
+  - Escape Artist +10
+  - Perception +9
+  - Sleight of Hand +3
+  - Stealth +10
+Languages:
+  - Aquan
+  - Common
+  - tongues
+SQ: change shape (Small humanoid, alter self ), compression, faceless
+Source: AP 49
+IsTemplate: '0'
+DuringCombat: >-
+  Volorog attacks flat-footed foes in the first round of combat in order to
+  maximize his sneak attack damage. After combat is fully under way, the
+  faceless stalker moves to fight adjacent to walls to prevent foes from
+  flanking him.
+Morale: >-
+  If reduced to fewer than 6 hit points, Volorog attempts to flee into the
+  swamp. He won't pursue foes into area G5, and if faced with a foe who uses
+  poison or snakes, he attempts to flee immediately, regardless of how many hit
+  points he has.
+Gear: leather armor
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1819'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,123 @@
+Name: Memory Child
+CR: '6'
+XP: '2400'
+Alignment: 'N'
+Size: Small
+Type: outsider
+SubType: (extraplanar)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +15
+AC: 16, touch 13, flat-footed 14
+AC_Mods: (+2 Dex, +3 natural, +1 size)
+HP: '68'
+HD: (8d10+16 plus 8)
+Saves: Fort +8, Ref +6, Will +10
+Fort: '8'
+Ref: '6'
+Will: '10'
+DR: 10/silver
+Speed: 30 ft.
+Melee:
+  - touch +9 (1d4 plus thought consumption)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: mind flood
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: Constant
+      value: detect thoughts (DC 12)
+AbilityScores:
+  - 10
+  - 14
+  - 14
+  - 12
+  - 15
+  - 11
+BaseAtk: '8'
+CMB: '7'
+CMD: '19'
+Feats:
+  - Alertness
+  - Iron Will
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Diplomacy +4
+  - Disguise +5
+  - Knowledge (arcana) +12
+  - Knowledge (history) +12
+  - Knowledge (planes) +12
+  - Perception +15
+  - Perform (oratory) +11
+  - Sense Motive +4
+  - Stealth +15
+  - Survival +3
+Languages:
+  - Celestial
+  - Common
+  - telepathy 100 ft.
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: standard
+Description_Visual: A small innocent child, seemingly confused or lost, stands in front of you.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Mind Flood (Su)
+    description: >-
+      As a standard action and by touching an opponent, a memory child floods
+      the opponent's mind with every single thought the child has ever collected
+      from those that have come into contact with it. This effect overloads the
+      opponent's brain dazing it for 1d6+2 rounds and confusing it for 1 hour
+      (treat as a confusion spell, caster level equals the memory child's Hit
+      Dice). A successful DC 16 Will save negates the stunning effect and
+      reduces the confusion effect to 1 minute. The save DC is
+      Constitution-based. This ability is always active but can be suppressed or
+      restarted by the memory child as a free action.
+  - name: Thought Consumption (Su)
+    description: >-
+      A memory child can drain an opponent's thoughts and memories by touch.
+      (The opponent retains its memories; the memory child just copies them). By
+      making a successful melee touch attack, a memory child deals 1d4 points of
+      Intelligence damage to its opponent. A memory child must consume at least
+      4 points of Intelligence each day or it suffers the effects of starvation.
+Description:
+  - >-
+    A memory child is an extraplanar being from an unknown plane of existence
+    whose sole purpose is the harvesting and collecting of memories from all of
+    those it encounters. Such memories function as food for the memory child
+    (though it retains all memories collected; that is, they are not actually
+    devoured and do not disappear). Memory children take delight in traveling to
+    the Material Plane and so are most often encountered there, especially in
+    places where intelligent creatures reside such as cities and towns.
+  - >-
+    A memory child waits until the perfect moment to use its abilities. It
+    rarely if ever engages in melee, preferring to flee rather than engage a foe
+    in combat. If possible, it uses its special abilities to make such combat
+    unnecessary.
+  - >-
+    To the observer, a memory child looks exactly like an ordinary child (male
+    or female) about 7 or 8 years old with delicate features, pale skin, and
+    innocent eyes of blue (all memory children have blue eyes).
+  - >-
+    Regardless of its actual age, a memory child never seems to grow up or grow
+    old.
+  - Copyright Notice Author Scott Greene.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2811'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

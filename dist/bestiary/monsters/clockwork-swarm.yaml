@@ -1,0 +1,99 @@
+Name: Clockwork Swarm
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Tiny
+Type: construct
+SubType: (swarm)
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +1
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+2 Dex, +4 natural, +2 size)
+HP: '42'
+HD: (4d10+20)
+HP_Mods: self repair 3 (acid, cold, fire)
+Saves: Fort +1, Ref +3, Will +2
+Fort: '1'
+Ref: '3'
+Will: '2'
+Immune: construct traits, swarm traits
+Weaknesses: swarm traits
+Speed: 40 ft.
+Melee:
+  - swarm (1d6)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: distraction (DC 12)
+AbilityScores:
+  - 14
+  - 15
+  - —
+  - —
+  - 13
+  - 12
+BaseAtk: '4'
+CMB: '-'
+CMD: '-'
+Skills:
+  - Stealth +2 (+6 when not moving)
+RacialMods: +4 Stealth when not moving
+Environment: any
+Organization: squad (2-4 swarms)
+Treasure: none
+Description_Visual: A mass of tiny insect-like mechanical creatures surges closer.
+Group: Clockwork
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Repair (Ex)
+    description: >-
+      A clockwork swarm regains 3 hit points per round. Damage dealt from acid,
+      cold, or fire effects cannot be self-repaired. If a clockwork swarm takes
+      damage from an area attack, it is unable to repair itself for 1d6 rounds
+      following the attack. If reduced to 0 or less hit points, it regains 1 hit
+      point per round (but still cannot repair damage caused by acid, cold, or
+      fire effects) until it has at least 1 hit point (at which time it begins
+      to self-repair at its normal rate of 3 hit points per round).
+Description:
+  - >-
+    Clockwork swarms are a collection of tiny, insect-like clockworks that work
+    together as a single creature. An individual member of the swarm poses
+    little threat. Yet when acting in concert, a swarm poses a deadly threat to
+    adventurers. Much like the clockwork warrior, the clockwork swarm forms a
+    fighting frame from random pieces of trash, debris, and other cast-offs. The
+    swarm, however, is much more capable of adapting to new situations and
+    surviving combat. Unless the individual components of the swarm are
+    destroyed, it simply reforms and continues its attack.
+  - >-
+    Area of effect attacks, such as burning oil, fireball, or lightning bolt are
+    the most effective means of destroying the swarm. A clockwork swarm
+    typically appears as a ramshackle collection of spare parts and garbage
+    draped in a thick, web-like substance and arranged in a vaguely humanoid
+    form.
+  - >-
+    A swarm prefers to lie in wait and strike from ambush, collecting innocuous
+    looking piles of debris that adventurers overlook as harmless but that the
+    swarm is capable of quickly forming into a combat-worthy frame. If the swarm
+    attempts to assemble itself from a pile of debris, assume that the swarm
+    starts the round with -10 hit points and self-repairs from there.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2316'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

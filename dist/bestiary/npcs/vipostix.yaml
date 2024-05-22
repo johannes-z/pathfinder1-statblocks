@@ -1,0 +1,164 @@
+Name: Vipostix
+CR: '17'
+XP: '102400'
+Race: apostate devil
+MonsterSource: >-
+  Pathfinder Campaign Setting: Princes of Darkness, Book of the Damned, Vol. 1
+  54
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '13'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +26
+AC: 32, touch 20, flat-footed 22
+AC_Mods: (+9 Dex, +1 dodge, +12 natural)
+HP: '279'
+HD: (18d10+180)
+HP_Mods: regeneration 5
+Saves: Fort +16, Ref +20, Will +18
+Fort: '16'
+Ref: '20'
+Will: '18'
+DR: 10/good and silver
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '28'
+Speed: 30 ft., fly 30 ft. (perfect)
+Melee:
+  - 2 claws +29 (1d8+10/19-20 plus 1d6 Wisdom drain)
+Space: 5 ft.
+Reach: 10 ft.
+SpecialAttacks: boundless reach, ohrwurm, summon devil
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +27)
+  values:
+    - label: At Will
+      value: >-
+        alter self (DC 21), dream (DC 24), greater teleport (self plus 50 lbs.
+        of objects only), major image (DC 22), mirage arcana (DC 24)
+    - label: 3/day
+      value: >-
+        blasphemy (DC 26), dominate person (DC 24), greater scrying (DC 26),
+        hold monster (DC 24), veil (DC 25)
+    - label: 1/day
+      value: mind fog (DC 24), screen (DC 27)
+AbilityScores:
+  - 31
+  - 28
+  - 30
+  - 21
+  - 21
+  - 28
+BaseAtk: '18'
+CMB: +27 (+29 disarm)
+CMD: 48 (50 vs. disarm)
+Feats:
+  - Agile Maneuvers
+  - Combat Expertise
+  - Combat Reflexes
+  - Improved Critical (claw)
+  - Improved Disarm
+  - Improved Initiative
+  - Iron Will
+  - Persuasive
+  - Weapon Focus (claw)
+Skills:
+  - Acrobatics +27
+  - Bluff +30
+  - Diplomacy +34
+  - Disguise +17
+  - Fly +30
+  - Intimidate +34
+  - Knowledge (history) +23
+  - Knowledge (planes) +26
+  - Knowledge (religion) +23
+  - Perception +26
+  - Sense Motive +26
+  - Stealth +30
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: indomitable oration, malleable form
+Source: Hell Unleashed
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Boundless Reach (Su)
+    description: >-
+      Vipostix's claws can slice through reality, allowing him to make melee
+      attacks against any creature he is aware of (typically creatures within
+      100 feet). Vipostix threatens only the 10-foot area around him and cannot
+      make attacks of opportunity against creatures farther away. This ability
+      can span miles or even planes if Vipostix uses greater scrying to pinpoint
+      a certain creature. Spells that prevent planar travel, such as
+      forbiddance, also protect against Vipostix's boundless reach. Dimensional
+      anchor prevents Vipostix from using this ability for the duration of that
+      spell. An attacked creature can retaliate that round, striking at
+      Vipostix's claws with weapons or spells as if his entire body were
+      present, but cannot grapple or otherwise prevent the claws from vanishing
+      out of reach at the end of the round. Once per day as a move action, when
+      Vipostix deals damage with this ability, he can appear within 10 feet of
+      the creature attacked, even if it's on a different plane. Vipostix must
+      return to his original location within 10 minutes. If he does not, he is
+      immediately shunted back there as if via greater teleport or a one-way
+      gate. When Vipostix returns this way, he can take up to one Medium or
+      smaller creature with him as long as he is in contact with it (Will DC 28
+      negates). The hole in reality is invisible to all other creatures and
+      functions for no one other than Vipostix.
+  - name: Indomitable Oration (Su)
+    description: >-
+      Vipostix's speech is always perfectly clear and cannot be silenced or
+      warped through mundane or magical means. In areas of incredible noise,
+      through water or airless voids, and even in areas of magical silence,
+      Vipostix's voice can still be heard and understood normally. All beings
+      understand Vipostix, as if he constantly speaks in all tongues at once.
+  - name: Malleable Form (Su)
+    description: >-
+      Vipostix has complete control over his physical form, and if transformed
+      into another shape against his will, he can revert back to his own form as
+      a free action.
+  - name: Ohrwurm (Ex)
+    description: >-
+      Three times per day as a standard action, Vipostix can whisper a
+      fundamental and terrifying truth to one creature within 5 feet. The target
+      must succeed at a DC 28 Will saving throw or have Vipostix's words take
+      root in its psyche. Outsiders and elementals receive a +2 bonus on their
+      saving throws to resist this ability. Initially, this seems to have no
+      effect. Anytime the victim tries to rest, however, it must succeed at an
+      additional DC 28 Will saving throw or be affected as per the spell
+      nightmare. Afterward, the victim must succeed at another DC 28 Will saving
+      throw or have its alignment shift one step toward lawful evil. Only by
+      unlearning what Vipostix told it can a victim be free of this effect; this
+      requires a spell such as miracle, modify memory, or wish. The save DC is
+      Charisma-based.
+  - name: Summon Devil (Sp)
+    description: >-
+      Once per day, Vipostix can attempt to summon 1d6 bone devils or 2d4
+      bearded devils with a 50% chance of success, or one ice devil with a 20%
+      chance of success. This ability is the equivalent of an 8th-level spell.
+  - name: Wisdom Drain (Su)
+    description: >-
+      Vipostix drains 1d6 points of Wisdom each time he hits with his claw
+      attack. He does not heal any damage through his regeneration ability
+      during any round that he uses his Wisdom drain.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7070'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

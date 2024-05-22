@@ -1,0 +1,152 @@
+Name: Grundlescorn Sister
+CR: '13'
+XP: '25600'
+Race: storm hag
+Class: witch 10
+MonsterSource: Pathfinder RPG Bestiary 5 235, Pathfinder RPG Advanced Player's Guide 65
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '4'
+Senses:
+  - child-scent, darkvision 60 ft.
+  - Perception +24
+AC: 30, touch 15, flat-footed 25
+AC_Mods: (+4 armor, +4 Dex, +1 dodge, +11 natural)
+HP: '180'
+HD: (20 HD; 10d6+10d10+90)
+Saves: Fort +14, Ref +16, Will +17; +8 vs. mind-affecting effects
+Fort: '14'
+Ref: '16'
+Will: '17'
+Save_Mods: +8 vs. mind-affecting effects
+Immune: electricity
+SR: '18'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    bite +18 (1d6+3 plus 1d6 electricity), 2 claws +18 (1d4+3 plus 1d6
+    electricity)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  hexes (cackle, evil eye, hag's eye, misfortune, retribution, slumber), storm
+  strike, whipping winds
+SpellLikeAbilities:
+  header: Storm Hag Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: At Will
+      value: bleed, gust of wind (DC 16), whispering wind
+    - label: 3/day
+      value: >-
+        invisibility, lightning bolt (DC 17), river of windAPG (DC 18), sleet
+        storm
+    - label: 1/day
+      value: >-
+        control winds (DC 19) Coven Spell-Like Abilities (CL 10th; concentration
+        +14)
+    - label: At Will
+      value: >-
+        animate dead, baleful polymorph (DC 18), blight (DC 17), bestow curse
+        (DC 17), call lightning storm (DC 18), charm monster (DC 17),
+        clairaudience/ clairvoyance, commune, control weather, dream, forcecage,
+        mind blank, mirage arcana (DC 18), plague stormUM (DC 19), quench (DC
+        16), reincarnate, speak with dead, veil (DC 19), vision, whirlwind (DC
+        21), wind wall
+SpellsPrepared: >-
+  Witch Spells Prepared (CL 10th; concentration +16)  5th-baleful polymorph (DC
+  21), cloudkill (DC 21), feeblemind (DC 21)  4th-confusion (DC 20), dimension
+  door (2), ice storm  3rd-dispel magic, suggestion (DC 19), vampiric touch (2) 
+  2nd-glitterdust (2, DC 18), mirror image, spectral hand, touch of idiocy (2) 
+  1st-charm person (DC 17), cure light wounds (3), mage armor, obscuring mist  0
+  (at will)-dancing lights, detect magic, message, touch of fatigue (DC 16)
+AbilityScores:
+  - 16
+  - 18
+  - 18
+  - 22
+  - 13
+  - 18
+BaseAtk: '15'
+CMB: '18'
+CMD: '33'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Craft Wondrous Item
+  - Dodge
+  - Empower Spell-Like Ability (lightning bolt)
+  - Flyby Attack
+  - Great Fortitude
+  - Improved Natural Armor
+  - Mobility
+  - Vital Strike
+Skills:
+  - Acrobatics +14
+  - Bluff +14
+  - Diplomacy +14
+  - Disguise +24
+  - Fly +21
+  - Intimidate +17
+  - Knowledge (arcana) +24
+  - Knowledge (nature) +24
+  - Perception +24
+  - Sense Motive +21
+  - Spellcraft +29
+  - Stealth +17
+  - Survival +14
+Languages:
+  - Auran
+  - Common
+  - Giant
+  - Strix
+SQ: storm rider, witch's familiar (bat)
+Source: AP 101
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Each Grundlescorn casts mage armor before entering combat. If they are
+  expecting the PCs, in addition to using their coven spell-like abilities to
+  create a mirage arcana and control weather, they cast call lightning storm and
+  mind blank.
+DuringCombat: >-
+  The Grundlescorns begin combat with their coven spell-like abilities, using
+  forcecage to capture and isolate PCs, starting with healers and spellcasters.
+  If they manage to whittle the PCs down to  one free foe, they then focus their
+  attacks on that lone victim. Killing a sister or forcing at least one of them
+  more than 10 feet away from the others prevents them from using coven magic.
+  Likewise, the hags abandon this tactic if faced with a foe in melee, since the
+  full-round casting time makes coven magic a poor choice in such circumstances.
+  On the first round of melee combat, or just before they attack, each
+  Grundlescorn sister casts mirror image on herself before scattering and using
+  her offensive magic. A Grundlescorn sister who can't get away from foes that
+  threaten her instead calls down a bolt of lightning with call lightning storm,
+  uses a hex to put the threatening foe to sleep, or uses dimension door to
+  reach a position of safety from which to continue spellcasting. Melee attacks
+  are options of last resort for the Grundlescorns.
+Morale: >-
+  As soon as one Grundlescorn sister is slain, the surviving hags fly into a
+  frenzy and focus all of their attacks on the person who killed their sister.
+  If a second witch is killed, the surviving Grundlescorn sister flees,
+  preferably via dimension door. Whether or not she returns to vex the PCs in
+  the future is left up to you.
+Gear: wand of cure serious wounds (20 charges), wand of dispel magic (15 charges)
+OtherGear: >-
+  amulet of natural armor +2, cloak of resistance +2, handy haversack, headband
+  of vast intelligence +4, spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Patron: trickery
+CompanionFamiliarLink: '0'
+id: '7577'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

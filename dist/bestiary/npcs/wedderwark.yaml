@@ -1,0 +1,118 @@
+Name: Wedderwark
+CR: '7'
+XP: '3200'
+Race: nuglub
+Class: sorcerer 6
+MonsterSource: Pathfinder RPG Bestiary 2 143
+Alignment: CE
+Size: Small
+Type: fey
+Init: '4'
+Senses:
+  - darkvision 120 ft., low-light vision
+  - Perception +10
+AC: 27, touch 15, flat-footed 23
+AC_Mods: (+4 armor, +4 Dex, +4 natural, +4 shield, +1 size)
+HP: '91'
+HD: (9 HD; 3d6+6d6+60)
+Saves: Fort +8, Ref +9, Will +8
+Fort: '8'
+Ref: '9'
+Will: '8'
+DR: 5/cold iron
+SR: '13'
+Speed: 30 ft., climb 20 ft.
+Melee:
+  - 2 claw +8 (1d3+2 plus trip), bite +7 (1d4+2 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +6)
+  values:
+    - label: At Will
+      value: prestidigitation
+    - label: 1/hour
+      value: >-
+        heat metal (DC 15), shocking grasp, snare (DC 15) Bloodline Spell-Like
+        Abilities (CL 6th; concentration +9)
+    - label: 6/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 3rd (4/day)
+      value: deep slumber (DC 19)
+    - label: 2nd (6/day)
+      value: frigid touchUM, glitterdust (DC 15), hideous laughter (DC 18)
+    - label: 1st (7/day)
+      value: entangle (DC 14), grease (DC 14), mage armor, shield, vanish
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), daze (DC 16), detect magic, mage hand,
+        open/close, read magic
+AbilityScores:
+  - 15
+  - 18
+  - 20
+  - 6
+  - 11
+  - 16
+BaseAtk: '4'
+CMB: +5 (+9 grapple or trip)
+CMD: '19'
+Feats:
+  - Combat Casting
+  - Eschew MaterialsB
+  - Silent Spell
+  - Spell Focus (enchantment)
+  - Step Up
+  - ToughnessB
+  - Weapon Focus (claw)
+Skills:
+  - Acrobatics +10
+  - Climb +10
+  - Craft (traps) +8
+  - Intimidate +13
+  - Perception +10
+  - Stealth +16
+  - Use Magic Device +7
+RacialMods: +4 Craft (traps), +4 Intimidate, +4 Perception
+Languages:
+  - Undercommon
+SQ: bloodline arcana (+2 DC for compulsion spells), kneecapper, woodland stride
+Source: PFS S4-22
+IsTemplate: '0'
+Bloodline: fey
+BeforeCombat: >-
+  Wedderwark casts mage armor as soon as  she hears the elevator moving, hides,
+  and commands her minions to do the same. As it opens, she casts shield.
+DuringCombat: >-
+  Wedderwark first casts silent glitterdust to confound as many foes as possible
+  without revealing her position. She then uses grease, deep slumber, or fear
+  before wading into melee with frigid touch and natural attacks. She uses her
+  trip ability to keep spellcasters prone and favors casting touch spells when
+  she cannot manage a full attack.
+Morale: >-
+  Wedderwark attempts to parley in Undercommon if reduced to fewer than 30 hit
+  points, and she casts vanish to flee if she fails to negotiate her peaceful
+  surrender.
+Gear: potion of cure moderate wounds, wand of fear (4 charges)
+OtherGear: amulet of natural armor +1, handy haversack, hexagonal elevator key.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor and shield, Wedderwark's statistics are AC 19, touch 15,
+  flat-footed 15.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7734'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

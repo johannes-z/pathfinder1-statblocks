@@ -1,0 +1,103 @@
+Name: Ironfang Guardian
+CR: '8'
+XP: '4800'
+Race: Hobgoblin
+Class: cleric of Hadregash 9
+MonsterSource: Pathfinder RPG Bestiary 175
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +11
+AC: 23, touch 12, flat-footed 21
+AC_Mods: (+8 armor, +2 Dex, +3 shield)
+HP: '97'
+HD: (9d8+54)
+Saves: Fort +12, Ref +7, Will +12
+Fort: '12'
+Ref: '7'
+Will: '12'
+Speed: 20 ft.
+Melee:
+  - mwk light flail +8/+3 (1d8+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 3/day (DC 14, 5d6), ferocious strike, might of the
+  gods (+9, 9 rounds/ day), weapon master (9 rounds/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 9th; concentration +11)
+  values:
+    - label: 5/day
+      value: battle rage (+4)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 9th; concentration +11)   5th-righteous mightD,
+  spell resistance   4th-cure critical wounds, restoration, spell immunityD  
+  3rd-cure serious wounds (2), magic vestmentD, protection from energy  
+  2nd-cure moderate wounds, delay poison, hold person (DC 14), lesser
+  restoration, shield other, spiritual weaponD   1st-cause fear (DC 13), detect
+  good, endure elements, magic weaponD, remove fear, shield of faith   0 (at
+  will)-detect magic, detect poison, guidance, resistance
+SpellDomains: Strength (Ferocity subdomain), War
+AbilityScores:
+  - 12
+  - 15
+  - 18
+  - 8
+  - 15
+  - 10
+BaseAtk: '6'
+CMB: '7'
+CMD: '19'
+Feats:
+  - Alertness
+  - Bodyguard
+  - Combat Reflexes
+  - Iron Will
+  - Toughness
+Skills:
+  - Acrobatics -3 (-7 to jump)
+  - Perception +11
+  - Sense Motive +9
+  - Stealth +1
+RacialMods: +4 Stealth
+Languages:
+  - Common
+  - Goblin
+Source: AP 117
+IsTemplate: '0'
+BeforeCombat: >-
+  Kosseruk's guardians take turns maintaining shield other spells on her
+  throughout the day. If they hear combat begin, they cast protection from
+  energy and spell immunity on Kosseruk, relying on scouting reports and 
+  observations during the battle to make educated guesses about the tactics the
+  PCs may use.
+DuringCombat: >-
+  In combat, the guardians stick close to Kosseruk to defend her with the
+  Bodyguard feat, and cast cure and restoration spells as necessary. If they
+  have a moment to take the offense, they cast spiritual weapon on opponents and
+  righteous might on themselves.
+Morale: >-
+  The Ironfang guardians are elite slaves, raised from birth to die for their
+  charges. They fight to the death.
+Gear: >-
+  +2 chainmail, +1 heavy steel shield, mwk light flail, cloak of resistance +2,
+  gold unholy symbol of Hadregash, 172 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11209'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

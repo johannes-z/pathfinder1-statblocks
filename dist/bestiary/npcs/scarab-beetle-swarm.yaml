@@ -1,0 +1,66 @@
+Name: Scarab Beetle Swarm
+CR: '3'
+XP: '800'
+Race: scarab beetle
+MonsterSource: Dunes of Desolation 61
+Alignment: 'N'
+Size: Diminutive
+Type: vermin
+SubType: (swarm)
+Init: '2'
+Senses:
+  - darkvision 60 ft., tremorsense 30 ft.
+  - Perception +4
+AC: 16, touch 16, flat-footed 14
+AC_Mods: (+2 Dex, +4 size)
+HP: '28'
+HD: (8d8-8)
+Saves: Fort +5, Ref +4, Will +2
+Fort: '5'
+Ref: '4'
+Will: '2'
+DefensiveAbilities: swarm traits
+Immune: weapon damage
+Speed: 40 ft.
+Melee:
+  - swarm (2d6)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: daze (DC 10), distraction (DC 13)
+AbilityScores:
+  - 1
+  - 15
+  - 8
+  - —
+  - 10
+  - 2
+BaseAtk: '6'
+CMB: '-'
+CMD: '-'
+Skills:
+  - Perception +4
+RacialMods: +4 Perception
+Source: Sword of Air-Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Daze (Ex)
+    description: >-
+      Any living creature that begins its turn with a beetle swarm in its space
+      must succeed on a DC 10 Will save or be dazed. This is a mind-affecting
+      fear effect. The save DC is Charisma-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: swarm|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12750'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,171 @@
+Name: Helcraw
+CR: '16'
+XP: '76800'
+Race: ancient black dragon
+Alignment: CE
+Size: Huge
+Type: dragon
+SubType: (water)
+Init: '4'
+Senses:
+  - dragon senses
+  - Perception +34
+Aura: frightful presence (300 ft., DC 25)
+AC: 38, touch 8, flat-footed 38
+AC_Mods: (+30 natural, -2 size)
+HP: '297'
+HD: (22d12+154)
+Saves: Fort +20, Ref +13, Will +18
+Fort: '20'
+Ref: '13'
+Will: '18'
+DR: 15/magic
+Immune: acid, paralysis, sleep
+SR: '27'
+Speed: 60 ft., fly 200 ft. (poor), swim 60 ft.
+Melee:
+  - >-
+    bite +32 (2d8+16 plus 4d6 acid) and 2 claws +31 (2d6+11) and tail slap +29
+    (2d6+16) and 2 wings +29 (1d8+5)
+Space: 15 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  acid pool (50 ft. radius), acidic bite, breath weapon (100 ft. line, DC 28,
+  20d6 acid), corrupt water, crush
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 22nd; melee touch +29, ranged touch +20)
+  values:
+    - label: Constant
+      value: speak with animals (reptiles only)
+    - label: At Will
+      value: darkness (100 ft. radius), insect plague, plant growth
+    - label: 1/day
+      value: corrupt water
+SpellsKnown:
+  header: Spells Known (CL 11th; melee touch +29, ranged touch +20)
+  values:
+    - label: 5th (4/day)
+      value: mirage arcana (DC 19), suffocationAPG (DC 19)
+    - label: 4th (7/day)
+      value: dimension door, greater invisibility, phantasmal killer (DC 18)
+    - label: 3rd (7/day)
+      value: gaseous form, major image (DC 17), nondetection, vampiric touch
+    - label: 2nd (7/day)
+      value: acid arrow, cat's grace, fog cloud, mirror image, resist energy
+    - label: 1st (7/day)
+      value: >-
+        affect normal fog, expeditious retreat, mage armor, obscuring mist, true
+        strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), dancing lights, detect magic, ghost sound
+        (DC 14), mage hand, prestidigitation, read magic, resistance
+AbilityScores:
+  - 33
+  - 10
+  - 25
+  - 18
+  - 21
+  - 18
+BaseAtk: '22'
+CMB: '35'
+CMD: 45 (49 vs. trip)
+Feats:
+  - Alertness
+  - Combat Expertise
+  - Flyby Attack
+  - Greater Vital Strike
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Vital Strike
+  - Weapon Focus (bite)
+Skills:
+  - Fly +17
+  - Handle Animal +26
+  - Intimidate +29
+  - Knowledge (arcana) +29
+  - Knowledge (geography) +29
+  - Knowledge (history) +29
+  - Perception +34
+  - Sense Motive +7
+  - Spellcraft +29
+  - Stealth +23
+  - Swim +44
+Languages:
+  - Common
+  - Draconic
+  - Giant
+  - Goblin
+  - Orc
+SQ: swamp stride, water breathing
+Source: Sword of Air-Chapter 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid Pool (Su)
+    description: >-
+      An ancient or older black dragon can use its breath weapon to create an
+      acid pool as a standard action. This acid pool has a radius of 50 feet.
+      When an acid pool is created, anyone inside its area takes 20d6 points of
+      acid damage (Reflex half). Any creature that starts its turn touching this
+      pool takes damage, but can make a Reflex save for half. Each round, the
+      total damage dice of the pool is halved (10d6 round 2, 5d6 round 3, 2d6
+      round 4, 1d6 round 5) until the result would be less than 1d6. The acid
+      pool floats on water, and deals damage to anything on the surface.
+  - name: Acidic Bite (Su)
+    description: >-
+      At old age, a black dragon's bite deals an additional 2d6 points of acid
+      damage. An ancient dragon's damage increases to 4d6, and a great wrym's to
+      6d6.
+  - name: Corrupt Water (Sp)
+    description: >-
+      Once per day an adult or older black dragon can stagnate 10 cubic feet of
+      still water, making it foul and unable to support water-breathing life.
+      The ability spoils liquids containing water. Liquid-based magic items
+      (such as potions) and items in a creature's possession must succeed on a
+      Will save (DC 25) or become ruined. This ability is the equivalent of a
+      1st-level spell. Its range is 300ft.
+  - name: Crush (Ex)
+    description: >-
+      A flying or jumping Huge or larger dragon can land on foes as a standard
+      action, using its whole body to crush them. Crush attacks are effective
+      only against opponents three or more size categories smaller than the
+      dragon. A crush attack affects as many creatures as fit in the dragon's
+      space. Creatures in the affected area must succeed on a Reflex save (DC
+      equal to that of the dragon's breath weapon) or be pinned, automatically
+      taking bludgeoning damage during the next round unless the dragon moves
+      off them. If the dragon chooses to maintain the pin, it must succeed at a
+      combat maneuver check as normal. Pinned foes take damage from the crush
+      each round if they don't escape. A crush attack deals the indicated damage
+      plus 1-1/2 times the dragon's Strength bonus.
+  - name: Speak with Reptiles (Sp)
+    description: >-
+      A young or older black dragon gains the constant spell-like ability to
+      speak with reptiles. This functions as speak with animals, but only with
+      reptilian animals.
+  - name: Swamp Stride (Ex)
+    description: >-
+      A very young or older black dragon can move through bogs and quicksand
+      without penalty at its normal speed.
+  - name: Water Breathing (Ex)
+    description: >-
+      A black dragon can breathe underwater indefinitely and can freely use its
+      breath weapon, spells, and other abilities while submerged.
+Gender: Male
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: ancient
+CompanionFamiliarLink: '0'
+id: '12612'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

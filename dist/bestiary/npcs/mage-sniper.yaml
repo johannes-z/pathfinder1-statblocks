@@ -1,0 +1,138 @@
+Name: Mage Sniper
+CR: '13'
+XP: '25600'
+Race: half-elf
+Class: evoker 14
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '4'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +27
+AC: 21, touch 16, flat-footed 17
+AC_Mods: (+4 armor, +2 deflection, +4 Dex, +1 natural)
+HP: '69'
+HD: (14d6+18)
+Saves: Fort +7, Ref +10, Will +11; +2 vs. enchantments
+Fort: '7'
+Ref: '10'
+Will: '11'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: nondetection, spell turning
+Resist: electricity 30, fire 30
+Speed: 30 ft.
+Melee:
+  - dagger +8/+3 (1d4+1/19-20)
+Ranged:
+  - light crossbow +11 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: intense spells (+7 damage)
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 14th; concentration +20)
+  values:
+    - label: At Will
+      value: elemental wall (14 rounds/day)
+    - label: 9/day
+      value: force missile (1d4+7)
+SpellsPrepared: >-
+  Evoker Spells Prepared (CL 14th; concentration +20)   7th-enlarged maximized
+  fireball (DC 21), prismatic spray, spell turning   6th-disintegrate (DC 23),
+  greater dispel magic, enlarged maximized scorching ray (2), enlarged
+  telekinesis (DC 22)   5th-maximized acid arrow, enlarged black tentacles,
+  maximized scorching ray, teleport, wall of force   4th-arcane eye, dimension
+  door, greater invisibility, enlarged lightning bolt (DC 21), maximized magic
+  missile, shout (DC 22)   3rd-clairaudience/clairvoyance (2), dispel magic,
+  fly, nondetection, wind wall   2nd-acid arrow, darkness, darkvision,
+  glitterdust (DC 18), resist energy (2), see invisibility   1st-endure
+  elements, expeditious retreat, mage armor, magic missile, shield, true strike
+  (2)   0 (at will)-dancing lights, detect magic, mage hand, message
+AbilityScores:
+  - 12
+  - 18
+  - 13
+  - 22
+  - 10
+  - 8
+BaseAtk: '7'
+CMB: '8'
+CMD: '24'
+Feats:
+  - Craft Wondrous Item
+  - Enlarge Spell
+  - Greater Spell Focus (evocation)
+  - Maximize Spell
+  - Point-Blank Shot
+  - Precise Shot
+  - Scribe Scroll
+  - Skill Focus (Perception)
+  - Spell Focus (evocation)
+  - Spell Focus (transmutation)
+  - Spell Penetration
+Skills:
+  - Acrobatics +9
+  - Climb +11
+  - Fly +17
+  - Handle Animal +4
+  - Knowledge (arcana) +23
+  - Knowledge (geography) +14
+  - Knowledge (local) +19
+  - Knowledge (nature) +15
+  - Perception +27
+  - Spellcraft +23
+  - Stealth +18
+  - Survival +10
+  - Swim +6
+Languages:
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Gnome
+  - Halfling
+  - Orc
+SQ: arcane bond (ring of protection +2), elf blood
+Source: NPC Codex
+IsTemplate: '0'
+ProhibitedSchools: enchantment, necromancy
+BeforeCombat: >-
+  The wizard casts darkvision, endure elements, mage armor, nondetection, resist
+  energy (electricity, fire), see invisibility, and spell turning.
+DuringCombat: >-
+  The wizard uses tactics specific to his quarry, choosing spells with saving
+  throws that target his prey's weakest defenses. When facing a target he knows
+  little about, he casts greater invisibility and then enlarged black tentacles
+  to give him time to find the perfect spell. Against single targets, he casts
+  disintegrate, enlarged maximized scorching ray, or maximized magic missile. He
+  uses telekinesis to hurl boulders if the kill is supposed to look like an
+  accident.
+Gear: >-
+  potion of cure serious wounds (2), potion of invisibility, potion of pass
+  without trace, scrolls of teleport (2), wand of scorching ray (CL 11th, 20
+  charges)
+OtherGear: >-
+  dagger, light crossbow with 10 bolts, amulet of natural armor +1, bag of
+  holding (type II), belt of incredible dexterity +2, cloak of resistance +2,
+  eyes of the eagle, headband of vast intelligence +4, ring of protection +2,
+  ring of sustenance, spellbook, 1,937 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without darkvision, mage armor, resist energy (electricity, fire), and see
+  invisibility, the wizard's statistics are AC 17, touch 16, flat-footed 13;
+  Senses low-light vision; Defensive Abilities none; Resist none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3835'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

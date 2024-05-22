@@ -1,0 +1,125 @@
+Name: Advanced Babau
+CR: '7'
+XP: '3200'
+Race: babau
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +21
+AC: 21, touch 11, flat-footed 20
+AC_Mods: (+1 Dex, +10 natural)
+HP: '87'
+HD: (7d10+49)
+Saves: Fort +12, Ref +8, Will +7
+Fort: '12'
+Ref: '8'
+Will: '7'
+DefensiveAbilities: protective slime
+DR: 10/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '17'
+Speed: 30 ft.
+Melee:
+  - >-
+    2 claws +14 (1d6+7), bite +14 (1d6+7) or longspear +14/+9  (1d8+9), bite +9
+    (1d6+4)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with longspear)
+SpecialAttacks: sneak attack +2d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At Will
+      value: >-
+        darkness, dispel magic, greater teleport (self plus 50 lbs. of objects
+        only)
+    - label: 1/day
+      value: summon (level 3, 1 babau at 40%)
+AbilityScores:
+  - 25
+  - 16
+  - 24
+  - 18
+  - 17
+  - 20
+BaseAtk: '7'
+CMB: '14'
+CMD: '27'
+Feats:
+  - Combat Reflexes
+  - Improved Initiative
+  - Iron Will
+  - Skill Focus (Stealth)
+Skills:
+  - Acrobatics +13
+  - Climb +14
+  - Disable Device +13
+  - Escape Artist +13
+  - Perception +21
+  - Sense Motive +13
+  - Sleight of Hand +13
+  - Stealth +24
+RacialMods: +8 Perception, +8 Stealth
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+Source: PFS S1-32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Protective Slime (Su)
+    description: >-
+      A layer of acidic slime coats a babau's skin. Any creature that strikes a
+      babau with a natural attack or unarmed strike takes 1d8 points of acid
+      damage from this slime if it fails a DC 18 Reflex save. A creature that
+      strikes a babau with a melee weapon must make a DC 18 Reflex save or the
+      weapon takes 1d8 points of acid damage; if this damage penetrates the
+      weapon's hardness, the weapon gains the broken condition. Ammunition that
+      strikes a babau is automatically destroyed after it inflicts its damage.
+BeforeCombat: >-
+  Whether the babaus hear the PCs arrive or a quasit informs them of the
+  intruders, the babaus use their greater teleport ability to get to one of the
+  hidden nooks in the southwest part of this cavern. From there they watch the
+  PCs (even invisible ones, as babaus have constant see invisibility)  and
+  decide on the best way to approach and neutralize the PCs, typically by
+  teleporting behind a stalagmite near a PC, then charging at or ambushing their
+  target.
+DuringCombat: >-
+  Babaus like to flank opponents so they can use sneak attack. Though they
+  prefer to attack the most powerful creature present so they can neutralize the
+  greatest threat, they recognize that their acid slime is harmful to creatures
+  using natural attacks or unarmed strikes, and may gang up on animal companions
+  or monks if the opportunity presents itself. They may use darkness to snuff
+  the dim lights of the skull-torches, as their darkvision allows them to fight
+  without penalty in darkness. They have been promised souls and slaves in
+  exchange for their work, and growl about this in Abyssal once they reveal
+  themselves to the PCs.
+Morale: >-
+  If brought to 10 hit points or less, a babau attempts to retreat, using
+  greater teleport if safe to do so, transporting to the pyramid cavern to the
+  southwest and warning its masters there. Neither demon uses its summon
+  ability.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4135'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

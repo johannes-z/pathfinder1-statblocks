@@ -1,0 +1,109 @@
+Name: Paajgat The Flayer
+CR: '12'
+XP: '19200'
+Race: sacristan kyton
+Class: cleric of Zon-Kuthon 5
+MonsterSource: Pathfinder RPG Bestiary 4 177
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (kyton, evil, extraplanar, lawful)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +24
+AC: 28, touch 12, flat-footed 26
+AC_Mods: (+7 armor, +2 Dex, +9 natural)
+HP: '195'
+HD: (17 HD; 12d10+5d8+107)
+HP_Mods: regeneration 5 (good spells and weapons, silver)
+Saves: Fort +17, Ref +8, Will +16
+Fort: '17'
+Ref: '8'
+Will: '16'
+DR: 10/silver or good
+Immune: cold
+SR: '21'
+Speed: 20 ft.
+Melee:
+  - +1 unholy spiked chain +24/+19/+14 (2d4+11/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 6/day (DC 15, 3d6), shadow scream, unnerving gaze (30
+  ft., DC 19),
+SpellLikeAbilities:
+  header: Cleric Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: 7/day
+      value: touch of darkness (2 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 5th; concentration +9)   3rd-cure serious wounds,
+  dispel magic, keen edgeD   2nd-blindness/deafnessD (DC 16, only to cause
+  blindness), cure moderate wounds, gentle repose (2)   1st-cure light wounds
+  (3), divine favor, obscuring mistD   0 (at will)-bleed (DC 14), detect magic,
+  guidance, read magic
+SpellDomains: Darkness, Murder
+AbilityScores:
+  - 24
+  - 16
+  - 20
+  - 15
+  - 18
+  - 17
+BaseAtk: '15'
+CMB: '22'
+CMD: '35'
+Feats:
+  - Bleeding Critical
+  - Blind-Fight
+  - Cleave
+  - Critical Focus
+  - Great Cleave
+  - Improved Initiative
+  - Power Attack
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (spiked chain)
+Skills:
+  - Heal +24
+  - Intimidate +20
+  - Knowledge (religion) +19
+  - Perception +24
+  - Sense Motive +24
+  - Spellcraft +22
+  - Stealth +19
+Languages:
+  - Common
+  - Shadowtongue
+Source: AP 88
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Paajgat casts keen edge at the start of combat.
+DuringCombat: >-
+  Paajgat uses shadow scream on the first round, then casts divine favor before
+  attacking in melee. She pauses to heal herself whenever she's brought below
+  100 hp, and saves her channel energy for when she's surrounded or when it
+  looks like several foes are on their last legs.
+Morale: >-
+  Paajgat abandons combat if reduced to fewer than 30 hit points and uses her
+  scroll of wind walk to escape the region once she can escape the Hive. If she
+  does so, she may well end up in Starfall, in which case the PCs can encounter
+  her again amid the kytons there.
+Gear: scroll of wind walk
+OtherGear: +1 chainmail, +1 unholy spiked chain
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6477'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

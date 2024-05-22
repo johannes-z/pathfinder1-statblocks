@@ -1,0 +1,108 @@
+Name: Baron Araig Telus
+CR: '6'
+XP: '2400'
+Race: ettercap
+Class: sorcerer 5
+MonsterSource: Pathfinder RPG Bestiary 129
+Alignment: NE
+Size: Medium
+Type: aberration
+Init: '9'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +10
+AC: 22, touch 16, flat-footed 16
+AC_Mods: (+4 armor, +5 Dex, +1 dodge, +2 natural)
+HP: '67'
+HD: (9 HD; 5d6+4d8+32)
+Saves: Fort +8, Ref +8, Will +10
+Fort: '8'
+Ref: '8'
+Will: '10'
+DefensiveAbilities: fated (+1)
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - bite +8 (1d6+3 plus poison), 2 claws +8 (1d4+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: traps, web (+10 ranged, DC 15, 9 hp)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 5th; concentration +8)
+  values:
+    - label: 6/day
+      value: touch of destiny (+2)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +8)
+  values:
+    - label: 2nd (5/day)
+      value: blur, summon swarm, web (DC 15)
+    - label: 1st (7/day)
+      value: >-
+        alarm, color spray (DC 14), mage armor, shocking grasp, ventriloquism
+        (DC 14)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, detect magic, ghost sound (DC 13), mage hand, ray of frost,
+        touch of fatigue (DC 13)
+AbilityScores:
+  - 16
+  - 20
+  - 17
+  - 8
+  - 12
+  - 16
+BaseAtk: '5'
+CMB: '8'
+CMD: '24'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Initiative
+  - Silent Spell
+Skills:
+  - Climb +15
+  - Craft (traps) +12
+  - Perception +10
+  - Spellcraft +6
+  - Stealth +10
+  - Survival +6
+RacialMods: +8 Craft (traps)
+Languages:
+  - Common
+SQ: >-
+  bloodline arcana (gains luck bonus on saves when casting personal-range
+  spells), spider empathy +11
+Source: AP 128
+IsTemplate: '0'
+Gender: Male
+Bloodline: destined
+BeforeCombat: >-
+  Araig uses a pause in conversation to cast mage armor on himself with his
+  Silent Spell feat.
+DuringCombat: >-
+  Once combat begins, Araig casts summon swarm to conjure a spider swarm, then
+  casts web. Once his opponents are scattered, he casts blur before skittering
+  to the floor to attack with claws and shocking grasp. After a few rounds, he
+  remembers he's still  wearing his crown of blasting and targets the largest
+  opponent he can see.
+Morale: Araig fights to the death.
+Gear: minor crown of blasting
+OtherGear: cloak of resistance +1, Telus signet ring
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without mage armor, Baron Telus's statistics are AC 18, flat-footed 12.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11763'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

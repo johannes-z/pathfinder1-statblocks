@@ -1,0 +1,102 @@
+Name: Mummy Guardian
+CR: '15'
+XP: '51200'
+Race: mummy
+Class: fighter 10
+Alignment: LN
+Size: Medium
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 120 ft.
+  - Perception +19
+Aura: despair (30 ft., paralyzed for 1d4 rounds, Will DC 16 negates)
+AC: 29, touch 14, flat-footed 25
+AC_Mods: (+5 armor, +3 Dex, +1 dodge, +10 natural)
+HP: '155'
+HD: (8d8+10d10+36 plus 28)
+Saves: Fort +13, Ref +8, Will +14 (+17 vs. fear)
+Fort: '13'
+Ref: '8'
+Will: +14 (+17 vs. fear)
+DefensiveAbilities: bravery +3, turn resistance +4
+DR: 5/-
+Immune: undead traits
+Resist: fire 20
+Weaknesses: vulnerable to fire
+Speed: 20 ft.
+Melee:
+  - >-
+    mwk khopesh sword +28/+23/+18/+13 (2d4+14/15-  20), or slam +25 (1d8+11 plus
+    mummy rot)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: weapon training (heavy blades +2, natural +1)
+AbilityScores:
+  - 24
+  - 16
+  - —
+  - 6
+  - 16
+  - 15
+BaseAtk: '16'
+CMB: '23'
+CMD: '37'
+Feats:
+  - Alertness
+  - Combat Reflexes
+  - Dodge
+  - Great Fortitude
+  - Greater Weapon Focus (khopesh)
+  - Improved Critical (khopesh)
+  - Improved Initiative
+  - Iron Will
+  - Mobility
+  - Power Attack
+  - Toughness
+  - Skill Focus (Perception)
+  - Weapon Focus (khopesh)
+  - Weapon Focus (slam)
+  - Weapon Specialization (khopesh)
+Skills:
+  - Intimidate +15
+  - Perception +19
+  - Sense Motive +5
+  - Stealth +14
+Languages:
+  - Common
+SQ: armor training 2
+Source: Rappan Athuk-Level 3B
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Despair (Su)
+    description: >-
+      All creatures within a 30 ft. radius that see a mummy must make a DC 16
+      Will save or be paralyzed by fear for 1d4 rounds. Whether or not the save
+      is successful, that creature cannot be affected again by the same mummy's
+      despair ability for 24 hours. This is a paralysis and a mind-affecting
+      fear affect. The save DC is Charisma-based.
+  - name: Mummy Rot (Su)
+    description: >-
+      Curse and disease-slam; save Fort DC 16; onset 1 minute; frequency 1/day;
+      effect 1d6 Con and 1d6 Cha; cure -.
+Gender: Male
+Gear: >-
+  mithral breastplate, masterwork khopesh (as falchion), fire-retardant
+  bandaging (alchemical item, provides fire resistance 20 and takes up a body
+  slot)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12055'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

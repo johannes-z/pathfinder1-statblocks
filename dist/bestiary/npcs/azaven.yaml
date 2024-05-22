@@ -1,0 +1,157 @@
+Name: Azaven
+CR: '15'
+XP: '51200'
+Race: Azlanti human
+Class: necromancer 14
+MonsterSource: Pathfinder RPG Bestiary 188
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, human)
+Init: '8'
+Senses:
+  - darkvision 60 ft., life sight
+  - Perception +29
+Aura: fear (60-ft. radius, DC 23)
+AC: 27, touch 17, flat-footed 22
+AC_Mods: (+5 armor, +2 deflection, +4 Dex, +1 dodge, +5 natural)
+HP: '179'
+HD: (14d6+128)
+Saves: Fort +10, Ref +10, Will +14
+Fort: '10'
+Ref: '10'
+Will: '14'
+DefensiveAbilities: channel resistance +4, rejuvenation
+DR: 15/bludgeoning and magic
+Immune: cold, electricity, undead traits
+Speed: 30 ft.
+Melee:
+  - touch +9 (1d8+8 plus paralyzing touch)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy (DC 21, 11/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +22)
+  values:
+    - label: 11/day
+      value: grave touch (7 rounds)
+SpellsPrepared: >-
+  Spells Prepared (CL 14th; concentration +22)  7th-quickened displacement,
+  finger of death (DC 27), prismatic spray (DC 25), quickened vampiric touch
+  (2)  6th-quickened blindness/deafness (DC 26, 2), quickened cat's grace, chain
+  lightning (DC 24), disintegrate (DC 24), mislead (DC 24)  5th-fabricate,
+  quickened magic missile, telekinesis (DC 23), wall of force, waves of fatigue
+  (2)  4th-bestow curse (DC 24), contagion (DC 24), dimension door, enervation
+  (2), fear (DC 24), mass reduce person (DC 22), stone shape  3rd-extended false
+  life, fly, gaseous form, ray of exhaustion (2), slow (DC 21), stinking cloud
+  (DC 21), tongues  2nd-blindness/deafness (DC 22, 2), ghoul touch (DC 22),
+  glitterdust (DC 20), invisibility, mirror image, scorching ray, spectral hand 
+  1st-chill touch (DC 21, 2), grease (DC 19), magic missile (3), obscuring mist,
+  reduce person (DC 19)  0 (at will)-arcane mark, light, mage hand, mending,
+  prestidigitation  Thassilonian Specialization necromancy;
+AbilityScores:
+  - 10
+  - 18
+  - —
+  - 26
+  - 17
+  - 18
+BaseAtk: '7'
+CMB: '9'
+CMD: '26'
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Craft Staff
+  - Craft Wondrous Item
+  - Dodge
+  - Extend Spell
+  - Greater Spell Focus (necromancy)
+  - Improved Initiative
+  - Quicken Spell
+  - Scribe Scroll
+  - Spell Focus (necromancy)
+  - Toughness
+Skills:
+  - Craft (alchemy) +26
+  - Knowledge (arcana
+  - dungeoneering
+  - engineering
+  - nobility
+  - planes
+  - and religion) +26
+  - Perception +29
+  - Sense Motive +29
+  - Spellcraft +26
+  - Stealth +30
+Languages:
+  - Abyssal
+  - Aklo
+  - Draconic
+  - Elven
+  - Giant
+  - Ignan
+  - Infernal
+  - Necril
+  - Thassilonian
+  - telepathic bond
+  - tongues
+SQ: arcane bond (staff of hungry shadows), life sight (20 feet, 14 rounds/day)
+Source: RotRL-AE-Sins of the Saviors
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Contingency (Sp)
+    description: >-
+      If Azaven is grappled, a dimension door spell activates on him. Azaven
+      uses this to merely reposition himself in combat if the battle is going
+      well-if it is going poorly, he uses it to flee to area F11.
+  - name: Telepathic Bond (Sp)
+    description: >-
+      Azaven has a permanent telepathic bond with his minion Xyoddin and with
+      one of the Thassilonian mummies in areas F1 and F8.
+Gender: Male
+ProhibitedSchools: abjuration, enchantment
+BeforeCombat: >-
+  Once he knows interlopers have invaded the crypts, Azaven casts extended false
+  life and tongues on himself. He then calls a devourer&#8211;a proud being
+  named Vioidzhain, scarred with symbols only it knows the otherworldly source
+  of&#8211;to guard him using his staff of hungry shadows. As soon as he can
+  before combat, he casts quickened cat's grace.
+DuringCombat: >-
+  Azaven opens battles by casting finger of death at a spellcaster and quickened
+  displacement on himself. He then casts wall of force to seal himself off from
+  the PCs, giving him time to cast fly, mirror image, and spectral hand. During
+  this time, he lets the conjured devourer keep the PCs busy. If the PCs haven't
+  breached his wall by the time he's done casting preparatory spells, he uses
+  dimension door to return back into their midst and begins casting offensive
+  spells. If he needs more minions, Azaven casts stone shape on a nearby wall to
+  release several wraiths, hoping they provide additional distractions.
+Morale: >-
+  Azaven values his own immortal existence too much to stick around in a fight
+  he's losing. If reduced to fewer than 30 hit points, he uses mislead to escape
+  by casting gaseous form and retreating to area F11, where he gathers his
+  phylactery before triggering the trap in the room to heal his damage. Given
+  time, he recovers his spells and then seeks revenge on the PCs. If confronted
+  there, Azaven has little choice but to fight until destroyed, but he makes
+  sure to trigger the trap in the room before a fight begins.
+Gear: staff of hungry shadows (10 charges)
+OtherGear: >-
+  bracers of armor +5, headband of vast intelligence +4 (grants ranks in
+  Knowledge [nobility] and Spellcraft), ring of protection +2, contingency
+  statuette worth 2,000 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: lich|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3265'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

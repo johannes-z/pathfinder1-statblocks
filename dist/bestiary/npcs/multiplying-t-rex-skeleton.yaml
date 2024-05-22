@@ -1,0 +1,71 @@
+Name: Multiplying T-Rex Skeleton
+CR: '9'
+XP: '6400'
+Race: Multiplying T-Rex Skeleton
+Alignment: NE
+Size: Gargantuan
+Type: undead
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 14, touch 8, flat-footed 12
+AC_Mods: (+2 Dex, +6 natural, -4 size)
+HP: '81'
+HD: (18d8)
+Saves: Fort +6, Ref +8, Will +11
+Fort: '6'
+Ref: '8'
+Will: '11'
+DR: 5/bludgeoning
+Immune: cold, undead traits
+Speed: 40 ft.
+Melee:
+  - bite +20 (4d6+22)
+Space: 20 ft.
+Reach: 20 ft.
+AbilityScores:
+  - 32
+  - 15
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '13'
+CMB: '28'
+CMD: '40'
+Feats:
+  - Improved InitiativeB
+SQ: multiplication, powerful bite
+Source: AP 44
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Multiplication (Su)
+    description: >-
+      When a multiplying skeleton is reduced to 0 hit points, its bones reform
+      1d4 rounds later into two smaller multiplying skeletons with half the Hit
+      Dice of the original. Each resulting multiplying skeleton continues to
+      reform into smaller and smaller sizes. A multiplying tyrannosaurus
+      skeleton reforms into two Large skeletons with 9 HD each, each of which
+      then reforms into two Small skeletons with 4 HD each. When these four
+      Small skeletons are killed, the skeleton no longer multiplies and is
+      finally destroyed.
+  - name: Powerful Bite (Ex)
+    description: >-
+      A multiplying tyrannosaurus skeleton applies twice its Strength modifier
+      to bite damage.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1615'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

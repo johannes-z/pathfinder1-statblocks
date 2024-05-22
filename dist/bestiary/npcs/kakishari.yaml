@@ -1,0 +1,157 @@
+Name: Kakishari
+CR: '14'
+XP: '38400'
+Race: human
+Class: inquisitor of rovagug 13
+MonsterSource: Pathfinder RPG Bestiary 3 138, Pathfinder RPG Advanced Player's Guide 38
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (humanoid, human)
+Init: '9'
+Senses:
+  - darkvision 60 ft. see invisibility
+  - Perception +28
+Aura: sacrilegious aura (30 ft., DC 20)
+AC: 27, touch 14, flat-footed 26
+AC_Mods: (+9 armor, +3 deflection, +1 Dex, +4 natural)
+HP: '179'
+HD: (13d8+117)
+Saves: Fort +17, Ref +12, Will +17
+Fort: '17'
+Ref: '12'
+Will: '17'
+DefensiveAbilities: channel resistance +4, freedom of movement, rejuvenation, stalwart
+DR: 10/magic
+Immune: acid, cold, electricity, undead traits
+SR: '25'
+Speed: 20 ft.
+Melee:
+  - +2 greataxe +24/+24/+19 (1d12+19/19-20/x3 plus 3d6 acid)
+  - mwk morningstar +23/+23/+18 (1d8+13 plus 3d6 acid)
+  - slam +17/+17 (1d4+9)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel destruction (3d6 acid), deadly weather, destructive smite (+6, 7/day),
+  devastating blast (8d6 acid, DC 20, 3/day), greater bane (13 rounds/day),
+  judgment 5/day (2 simultaneous), the lone witness, undead mastery (65 HD, DC
+  20)
+SpellLikeAbilities:
+  header: Inquisitor Spell-Like Abilities (CL 13th; concentration +17)
+  values:
+    - label: At Will
+      value: detect alignment, discern lies (13 rounds/day)
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 13th; concentration +17)
+  values:
+    - label: 5th (1/day)
+      value: resounding blowAPG (DC 19), righteous might
+    - label: 4th (4/day)
+      value: >-
+        dismissal (DC 18), divine power, freedom of movement, unholy blight (DC
+        18)
+    - label: 3rd (5/day)
+      value: >-
+        burst of speedUC, dispel magic, inflict serious wounds (DC 17), speak
+        with dead (DC 17), ward the faithfulAPG (DC 17)
+    - label: 2nd (6/day)
+      value: align weapon, invisibility, perceive cuesAPG, see invisibility, tongues
+    - label: 1st (6/day)
+      value: >-
+        burst bondsAPG (DC 15), divine favor, ear-piercing screamUM (DC 15),
+        expeditious retreat, shield of faith, true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), brandAPG (DC 14), detect magic, guidance,
+        read magic
+SpellDomains: Catastrophe
+AbilityScores:
+  - 29
+  - 12
+  - —
+  - 12
+  - 18
+  - 18
+BaseAtk: '9'
+CMB: +16 (+20 sunder)
+CMD: 27 (29 vs. sunder)
+Feats:
+  - Furious Focus
+  - Greater Sunder
+  - Improved Critical (greataxe)
+  - Improved Initiative
+  - Improved Sunder
+  - Lightning Reflexes
+  - Mounted Combat
+  - Power Attack
+  - Ride-By Attack
+  - Sundering Strike
+  - Toughness
+  - Vital Strike
+Skills:
+  - Acrobatics -2 (-6 to jump)
+  - Climb +11
+  - Disguise +13
+  - Intimidate +34
+  - Knowledge (dungeoneering
+  - planes
+  - religion) +14
+  - Perception +28
+  - Ride +10
+  - Sense Motive +26
+  - Spellcraft +17
+  - Stealth +14
+Languages:
+  - Common
+  - Kelish
+SQ: >-
+  deadly weather, graveknight armor, monster lore +4, phantom mount, ruinous
+  revivification (acid), stern gaze +6, track +6
+Source: AP 113
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Lone Witness (Ex)
+    description: >-
+      Kakishari's millennia of solitude have excised what little empathy she
+      once had. When she successfully confirms a critical hit while using her
+      destructive smite domain ability, she can activate her deadly weather
+      domain ability as a free action. She also gains an additional hit point
+      per Hit Die. This ability replaces her bonus teamwork feats and solo
+      tactics class feature.
+Gender: Female
+BeforeCombat: >-
+  At the first sign of intruders, Kakishari summons and mounts her skeletal
+  horse before casting see invisibility and freedom of movement. When she
+  believes an encounter is imminent, she casts ward of the faithful and divine
+  power.
+DuringCombat: >-
+  Kakishari used her mounted mobility to strike her enemies and ride beyond
+  their reach. If unseated, she wades into melee combat, where she remorselessly
+  breaks her foes' favorite equipment before ending their lives.
+Morale: >-
+  Kakishari has perished a dozen times and has always returned to haunt
+  Neruzavin. She fights until destroyed.
+Gear: longarm bracersUE
+OtherGear: +3 breastplate, +2 greataxe, mwk morningstar, 1,822 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: graveknight|
+BaseStatistics: >-
+  If she's caught unprepared, Kakishari's base statistics are AC 24, touch 11,
+  flat-footed 23; hp 192; Fort +14, Ref +9, Will +14; Melee +2 greataxe +20/+15
+  (1d12+14/19-20/x3 plus 3d6 acid) or mwk morningstar +19/+14 (1d8+9 plus 3d6
+  acid) or slam +13 (1d4+5); Str 25; Skills Climb +9.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '10074'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

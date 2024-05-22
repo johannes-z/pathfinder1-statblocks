@@ -1,0 +1,130 @@
+Name: Aponavicius
+CR: '24'
+XP: '1228800'
+Race: marilith
+Class: fighter 7
+MonsterSource: Pathfinder RPG Bestiary 63
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '8'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +37
+Aura: unholy aura (DC 26)
+AC: 43, touch 17, flat-footed 39
+AC_Mods: (+11 armor, +4 deflection, +4 Dex, +15 natural, -1 size)
+HP: '455'
+HD: (23 HD; 16d10+7d10+329)
+Saves: Fort +32, Ref +20, Will +16; +2 vs. fear
+Fort: '32'
+Ref: '20'
+Will: '16'
+Save_Mods: +2 vs. fear
+DefensiveAbilities: bravery +2
+DR: 10/cold iron and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '28'
+Speed: 40 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    +3 katana +37/+32/+27/+22 (2d6+16/15-20), +3 shotel +36 (2d6+9/19-20/3), +3
+    khopesh +36 (2d6+9/19-20), +3 falcata +36 (2d6+9/17-20/x3), +3 flaming
+    kusari gama sickle +35 (1d8+8/18-20 plus 1d6 fire), +3 frost kusari gama
+    ball +35 (1d4+8/18-20 plus 1d6 cold), tail slap +27 (1d8+5)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  constrict (tail slap, 2d6+15 plus crushing coils), infuse weapon, multiweapon
+  mastery, weapon training (heavy blades +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +24)
+  values:
+    - label: Constant
+      value: true seeing, unholy aura (DC 26)
+    - label: At Will
+      value: >-
+        greater teleport (self plus 50 lbs. of objects only), project image (DC
+        25), telekinesis (DC 23)
+    - label: 3/day
+      value: blade barrier (DC 24), fly
+    - label: 1/day
+      value: summon (level 5, 1 marilith 20%, 1 nalfeshnee 35%, or 1d4 hezrous 60%)
+AbilityScores:
+  - 30
+  - 19
+  - 36
+  - 20
+  - 16
+  - 27
+BaseAtk: '23'
+CMB: +34 (+38 disarm)
+CMD: 52 (54 vs. disarm)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Exotic Weapon Proficiency (falcata
+  - katana
+  - khopesh
+  - kusarigama
+  - shotel)
+  - Greater Disarm
+  - Improved Critical (katana)
+  - Improved Disarm
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Toughness
+  - Weapon Focus (katana)
+  - Weapon Specialization (katana)
+Skills:
+  - Acrobatics +29 (+33 when jumping)
+  - Bluff +34
+  - Diplomacy +34
+  - Fly +34
+  - Intimidate +34
+  - Knowledge (engineering) +31
+  - Perception +37
+  - Sense Motive +29
+  - Stealth +25
+  - Use Magic Device +34
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - telepathy 100 ft.
+SQ: armor training 2
+Source: AP 78
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Aponavicius attempts to summon a marilith and casts fly before seeking out the
+  PCs.
+DuringCombat: >-
+  Aponavicius doesn't immediately enter combat with the PCs. Rather, she uses
+  project image to confront them, then uses blade barriers and telekinesis to
+  soften them up. Once this tactic no longer seems viable, she slithers in to
+  attack with her bewildering array of exotic weapons.
+Morale: Aponavicius is done with giving up and fleeing&#8211;she fights to the death.
+Gear: >-
+  +5 breastplate, +3 flaming/+3 frost kusarigama, +3 keen human bane shotel, +3
+  keen lawful outsider bane falcata, +3 unholy khopesh, +3 wounding katana,
+  glove of storing, quasit key
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5708'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

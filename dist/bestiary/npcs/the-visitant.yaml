@@ -1,0 +1,131 @@
+Name: The Visitant
+CR: '8'
+XP: '4800'
+Race: Mi-go
+Class: cleric of Shub-Niggurath 3
+MonsterSource: 'Pathfinder Adventure Path #46 86'
+Alignment: CE
+Size: Medium
+Type: plant
+Init: '7'
+Senses:
+  - blindsight 30 ft., low-light vision
+  - Perception +17
+AC: 22, touch 18, flat-footed 14
+AC_Mods: (+7 Dex, +1 dodge, +4 natural)
+HP: '107'
+HD: (10d8+63)
+Saves: Fort +14, Ref +10, Will +9
+Fort: '14'
+Ref: '10'
+Will: '9'
+DR: 5/slashing
+Immune: cold, plant traits
+Resist: electricity 10, fire 10
+Speed: 30 ft., fly 50 ft. (good)
+Melee:
+  - 4 claws +14 (1d4+4 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 5/day (DC 13, 2d6), evisceration, sneak attack +2d6,
+  wooden fist (+1, 7 rounds/day)
+SpellLikeAbilities:
+  header: Spell-Like Ability (CL 3rd; concentration +5)
+  values:
+    - label: 7/day
+      value: touch of chaos
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 3rd; concentration +7)   2nd-barkskinD, cure
+  moderate wounds (DC 16), hold person (DC 16)   1st-cure light wounds (3),
+  protection from lawD   0 (at will)-bleed (DC 14), create water, mending,
+  stabilize
+SpellDomains: Chaos, Plant
+AbilityScores:
+  - 18
+  - 24
+  - 23
+  - 23
+  - 18
+  - 15
+BaseAtk: '7'
+CMB: +11 (+15 grapple)
+CMD: 29 (37 vs. trip)
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Selective Channeling
+  - Skill Focus (Use Magic Device)
+  - Weapon Finesse
+Skills:
+  - Bluff +19
+  - Disguise +19
+  - Fly +24
+  - Heal +17
+  - Knowledge (religion) +19
+  - Perception +17
+  - Spellcraft +19
+  - Use Magic Device +18
+Languages:
+  - Aklo
+  - Azlanti
+  - Mi-Go
+  - cannot speak
+SQ: deceptive, item creation, no breath, starflight
+Source: Thornkeep
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Deceptive (Ex)
+    description: >-
+      A mi-go is a master of deception, and gains a +4 racial bonus on Bluff and
+      Disguise checks. Bluff and Disguise are always class skills for mi-go.
+  - name: Evisceration (Ex)
+    description: >-
+      A mi-go's claws are capable of swiftly and painfully performing surgical
+      operations upon helpless creatures or creatures it has grappled. When a
+      mi-go succeeds at a grapple check (in addition to any other effects caused
+      by a successful check), it deals its sneak attack damage to the victim. A
+      creature that takes this damage must succeed at a DC 18 Fortitude save or
+      take an additional 1d4 points of ability damage from the invasive surgery
+      (the type of ability damage dealt is chosen by the mi-go at the time the
+      evisceration occurs). The save DC is Dexterity-based.
+  - name: Item Creation (Ex)
+    description: >-
+      All mi-go possess the ability to create strange items that blur the line
+      between magic and technology, given time and resources. But this mi-go
+      doesn't have time to take advantage of this ability during this adventure.
+  - name: Starflight (Su)
+    description: >-
+      A mi-go can survive in the void of outer space, and flies through space at
+      an incredible speed. Although exact travel times vary, a trip within a
+      single solar system normally takes 3d20 months, while a trip beyond should
+      take 3d20 years (or more, at the GM's discretion)-provided the mi-go knows
+      the way to its destination.
+DuringCombat: >-
+  The Visitant starts combat by using its wand of invisibility (via Use Magic
+  Device). It then proceeds to use its summon monster scrolls. Once it has
+  summoned several allies, it casts protection from law and moves to a flanking
+  position&#8211;PCs with healing capacities are its preferred targets.
+Morale: >-
+  If reduced to fewer than 30 hit points, the Visitant attempts to flee, making
+  for area C14 so it can escape into the woods to the north. If it manages to do
+  so, it can become a harrowing recurring villain.
+Gear: >-
+  scroll of summon monster III, scroll of summon monster IV, wand of charm
+  monster (10 charges), wand of invisibility (15 charges), wand of sound burst
+  (15 charges)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4043'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

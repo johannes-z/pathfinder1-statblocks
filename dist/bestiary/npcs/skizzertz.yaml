@@ -1,0 +1,84 @@
+Name: Skizzertz
+CR: '1'
+XP: '400'
+Race: goblin
+Class: cleric of Lamashtu 2
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (goblinoid)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +3
+AC: 17, touch 15, flat-footed 13
+AC_Mods: (+2 armor, +4 Dex, +1 size)
+HP: '16'
+HD: (2d8+4)
+Saves: Fort +4, Ref +4, Will +5
+Fort: '4'
+Ref: '4'
+Will: '5'
+Speed: 30 ft.
+Melee:
+  - mwk falchion +3 (1d6/18-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 3/day (DC 9, 1d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 2nd; concentration +4)
+  values:
+    - label: 5/day
+      value: copycat (2 rounds), strength surge (+1)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 2nd; concentration +4)   1st-bless, cause fear (DC
+  13), command (DC 13), enlarge personD (DC 13)   0 (at will)-bleed (DC 12),
+  detect magic, detect poison, resistance
+SpellDomains: Strength, Trickery
+AbilityScores:
+  - 10
+  - 18
+  - 13
+  - 10
+  - 15
+  - 6
+BaseAtk: '1'
+CMB: '0'
+CMD: '14'
+Feats:
+  - Extra Channel
+Skills:
+  - Heal +6
+  - Perception +3
+  - Ride +8
+  - Spellcraft +4
+  - Stealth +16
+Languages:
+  - Goblin
+Source: The Emerald Spire
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  If Skizzertz hears combat in area A9 or A11, he casts resistance on himself
+  and hides behind Clanky.
+DuringCombat: >-
+  Skizzertz casts bless on himself and Clanky. He then uses his offensive spells
+  to support Clanky in combat.
+Morale: If Skizzertz is losing, he uses copycat and flees.
+Gear: wand of cure light wounds (20 charges)
+OtherGear: leather armor, mwk falchion, 95 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6051'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

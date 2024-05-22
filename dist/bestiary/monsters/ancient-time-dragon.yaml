@@ -1,0 +1,169 @@
+Name: Ancient Time Dragon
+CR: '20'
+XP: '307200'
+Alignment: 'N'
+Size: Gargantuan
+Type: dragon
+Init: '14'
+Senses:
+  - detect magic, dragon senses, see in darkness
+  - Perception +36
+Aura: alien presence (300 ft., DC 29)
+AC: 37, touch 6, flat-footed 37
+AC_Mods: (+31 natural, -4 size)
+HP: '418'
+HD: (27d12+243)
+Saves: Fort +24, Ref +17, Will +21
+Fort: '24'
+Ref: '17'
+Will: '21'
+DR: 15/magic
+Immune: cold, paralysis, sleep, staggered
+SR: '31'
+Speed: 50 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +38 (4d6+21), 2 claws +38 (2d8+14/19-20), 2 wings +35 (2d6+7), tail
+    slap +35 (2d8+21)
+Space: 20 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, 20d10 electricity, DC 32), crush, second chance,
+  shifting breath (5 rounds), tail sweep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 27th; concentration +33)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: clairaudience/clairvoyance, legend lore, locate creature, share memoryUM
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 15th; concentration +21)
+  values:
+    - label: 7th (4/day)
+      value: plane shift (DC 23), sequester
+    - label: 6th (7/day)
+      value: disintegrate (DC 22), greater dispel magic, true seeing
+    - label: 5th (7/day)
+      value: dominate person (DC 21), feeblemind (DC 21), telepathic bond, teleport
+    - label: 4th (7/day)
+      value: fear (DC 20), scrying (DC 20), stone shape, stoneskin
+    - label: 3rd (7/day)
+      value: blink, dispel magic, slow (DC 19), tongues
+    - label: 2nd (8/day)
+      value: >-
+        arcane lock, blindness/deafness (DC 18), blur, detect thoughts (DC 18),
+        memory lapseAPG (DC 18)
+    - label: 1st (8/day)
+      value: erase, feather fall, identify, mage armor, magic missile
+    - label: 0 (at will)
+      value: light, mage hand, message, read magic, 5 more
+AbilityScores:
+  - 38
+  - 11
+  - 28
+  - 23
+  - 22
+  - 23
+BaseAtk: '27'
+CMB: +45 (+47 sunder)
+CMD: 57 (59 vs. sunder, 61 vs. trip)
+Feats:
+  - Cleave
+  - Critical Focus
+  - Improved Critical (claw)
+  - Improved Initiative
+  - Improved Sunder
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Quicken Spell
+  - Skill Focus (Knowledge [history])
+  - Spell Penetration
+  - Step Up
+  - Weapon Focus (bite)
+  - Weapon Focus (claw)
+Skills:
+  - Bluff +36
+  - Diplomacy +36
+  - Fly +16
+  - Knowledge (arcana) +36
+  - Knowledge (geography) +36
+  - Knowledge (nobility) +36
+  - Knowledge (planes) +36
+  - Knowledge (religion) +36
+  - Knowledge (history) +42
+  - Perception +36
+  - Sense Motive +36
+  - Spellcraft +36
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Infernal
+  - Sylvan
+SQ: immortal, no breath, read the threads, starflight
+Environment: vacuum
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This dragon's cracked scales creak with frightening, patient power. Some of
+  its horns are ancient and brittle, others new and pristine.
+Group: Outer Dragon
+Source: PFRPG Bestiary 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Immortal (Ex)
+    description: Time dragons age, but don't die from old age.
+  - name: Read the Threads (Su)
+    description: >-
+      A time dragon gains a racial bonus on initiative checks equal to its age
+      category. In addition, a time dragon is immune to the staggered condition.
+  - name: Alien Presence (Su)
+    description: >-
+      A creature that fails its saving throw against a time dragon's alien
+      presence is staggered for 5d6 rounds (or stunned if it has 4 Hit Dice or
+      fewer).
+  - name: Shifting Breath (Su)
+    description: >-
+      Instead of a cone of electricity, an old or older time dragon can use its
+      breath weapon to displace creatures in time. Each creature in the cone
+      must succeed at a Will save or be shifted forward in time a number of
+      rounds equal to 1/2 the dragon's age category (DC equal to breath weapon).
+      For an affected creature, it's as if no time passed. Creatures that
+      succeed at their saves are staggered for 1 round.
+  - name: Second Chance (Su)
+    description: >-
+      Three times per day as an immediate action, an ancient or older time
+      dragon can force a creature (including itself) to reroll any d20 roll. The
+      target must use the result of the second roll.
+  - name: Time Travel (Su)
+    description: >-
+      Up to three times in its life, a great wyrm time dragon can travel to any
+      point in time, taking with it a number of willing creatures equal to its
+      Charisma modifier.
+Description:
+  - >-
+    Guardians of history, time dragons are the most powerful of the outer
+    dragons. Watchers and waiters, time dragons guard the universe against those
+    that would interfere with the natural temporal order.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: ancient
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5190'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

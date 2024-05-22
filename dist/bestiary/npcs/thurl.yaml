@@ -1,0 +1,138 @@
+Name: Thurl
+CR: '8'
+XP: '4800'
+Race: dwarf
+Class: summoner 8
+MonsterSource: Pathfinder RPG Advanced Class Guide 54
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +3
+AC: 19, touch 12, flat-footed 17
+AC_Mods: (+3 armor, +2 Dex, +2 natural, +2 shield)
+HP: '71'
+HD: (8d8+32)
+Saves: Fort +10, Ref +8, Will +11; +2 vs. poison, spells, and spell-like abilities
+Fort: '10'
+Ref: '8'
+Will: '11'
+Save_Mods: +2 vs. poison, spells, and spell-like abilities
+DefensiveAbilities: defensive training, shield ally
+DR: 10/ adamantine (80 hp)
+Speed: 20 ft.
+Melee:
+  - +2 darkwood quarterstaff +9/+4 (1d6+1)
+  - mwk mithral dagger +8/+3 (1d4-1/19-20)
+Ranged:
+  - mwk mithril dagger +11 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hatred
+SpellLikeAbilities:
+  header: Summoner Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 7/day
+      value: summon monster IV
+SpellsKnown:
+  header: Summoner Spells Known (CL 8th; concentration +12)
+  values:
+    - label: 3rd (3/day)
+      value: evolution surgeAPG, greater magic fang, summon monster IV
+    - label: 2nd (5/day)
+      value: eagle's splendor, glitterdust (DC 17), resist energy, summon monster II
+    - label: 1st (5/day)
+      value: >-
+        daze monster (DC 15), grease (DC 16), life conduitUC, ray of sickeningUM
+        (DC 15), summon monster I
+    - label: 0 (at will)
+      value: acid splash, daze (DC 14), detect magic, mage hand, message, resistance
+AbilityScores:
+  - 8
+  - 14
+  - 18
+  - 13
+  - 12
+  - 19
+BaseAtk: '6'
+CMB: '5'
+CMD: 17 (21 vs. bull rush, 21 vs. trip)
+Feats:
+  - Augment Summoning
+  - Inscribe Magical Tattoo
+  - Spell Focus (conjuration)
+  - Summoner's Call
+Skills:
+  - Appraise +0 (+2 to assess nonmagical metals or gemstones)
+  - Bluff +8
+  - Craft (tattoo) +11
+  - Knowledge (arcana) +10
+  - Knowledge (geography) +10
+  - Knowledge (history) +10
+  - Knowledge (planes) +12
+  - Linguistics +7
+  - Perception +3 (+5 to notice unusual stonework)
+  - Spellcraft +12
+RacialMods: >-
+  +2 Appraise to assess nonmagical metals or gemstones, +2 Perception to notice
+  unusual stonework
+Languages:
+  - Abyssal
+  - Common
+  - Dwarven
+  - Terran
+SQ: >-
+  bond senses (8 rounds/day), eidolon, exceptional resources, life link, maker's
+  call, transposition
+Source: PFS S5-25
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Male
+BeforeCombat: >-
+  While in his stone prison, Thurl has cast the following spells on himself:
+  barkskin, bear's endurance, eagle's splendor, heroism, and stoneskin before
+  breaking out. He also cast greater magic fang and evolution surge, adding a +1
+  to all of Inaz's natural attacks and making him Large.
+DuringCombat: >-
+  Thurl casts haste on the first round of combat, including all of his allies in
+  the effect. He then stays within Inhaz's reach, gaining the benefit of his
+  shield ally ability. He first casts summon monster IV to summon a fiendish
+  dire boar, then uses grease, ray of sickening and glitterdust to weaken foes.
+  He uses life conduit or resist energy to help Inhaz. If Inhaz is killed, Thurl
+  uses his summon monster IV ability to conjure another fiendish dire boar or
+  1d3 dretches.
+Morale: >-
+  Thurl knows he will find no mercy at the hands of the Decemvirate. He fights
+  to the death.
+Gear: >-
+  potions of cure serious wounds (2), spell  tattoo of barkskin (CL 6th; feet
+  slot), spell tattoo of bear's endurance (CL 6th; shoulders slot), spell tattoo
+  of dimension door (ring slot), spell tattoo of dispel magic (CL 6th; hands
+  slot), spell tattoo of haste (CL 6th; ring slot), spell tattoo of heroism (CL
+  6th; neck slot), spell tattoo of protection from energy (CL 6th; waist slot),
+  spell tattoo of stoneskin (CL 6th; torso slot)
+OtherGear: +2 darkwood quarterstaff, mithral daggers (2), bracers of armor +3
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without barkskin, bear's endurance, eagle's splendor, heroism, and stoneskin,
+  Thurl has the following statistics: AC 17, touch 12, flat-footed 13; hp 55;
+  Fort +8, Ref +6, Will +9; Melee +2 darkwood quarterstaff +7/+2 (1d6+1), mwk
+  mithral dagger +6/+1 (1d4-1/19-20); Ranged mithral dagger +9; Con 14, Cha 15;
+  CMB +5; CMD 17 (21 vs. bull rush, 21 vs. trip)
+AgeCategory: Adult
+CompanionFamiliarLink: '8134'
+id: '8132'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,125 @@
+Name: Byurka
+CR: '8'
+XP: '4800'
+Race: Storm hag
+Class: oracle 3
+MonsterSource: Pathfinder RPG Bestiary 5 235, Pathfinder RPG Advanced Player's Guide 42
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '3'
+Senses:
+  - child-scent, darkvision 60 ft.
+  - Perception +14
+AC: 22, touch 14, flat-footed 18
+AC_Mods: (+3 Dex, +1 dodge, +8 natural)
+HP: '97'
+HD: (13 HD; 3d8+10d10+29)
+Saves: Fort +8, Ref +11, Will +11; +8 vs. mind-affecting effects
+Fort: '8'
+Ref: '11'
+Will: '11'
+Save_Mods: +8 vs. mind-affecting effects
+DefensiveAbilities: mind blank
+Immune: electricity
+SR: '18'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    bite +18 (1d6+6 plus 1d6 electricity), 2 claws +18 (1d4+6 plus 1d6
+    electricity)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: storm strike, whipping winds
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: At Will
+      value: bleed (DC 15), gust of wind (DC 17), whispering wind
+    - label: 3/day
+      value: >-
+        invisibility, lightning bolt (DC 18), river of windAPG (DC 19), sleet
+        storm
+    - label: 1/day
+      value: control winds (DC 20)
+SpellsKnown:
+  header: Oracle Spells Known (CL 3rd; concentration +8)
+  values:
+    - label: 1st (7/day)
+      value: >-
+        air bubbleUC, alter windsAPG (DC 16), command (DC 16), cure light
+        wounds, sanctuary (DC 16)
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, mending, read magic
+AbilityScores:
+  - 22
+  - 16
+  - 14
+  - 16
+  - 13
+  - 20
+BaseAtk: '12'
+CMB: '18'
+CMD: '32'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Flyby Attack
+  - Great Fortitude
+  - Mobility
+  - Psychic Sensitivity
+  - Power Attack
+Skills:
+  - Appraise +16
+  - Diplomacy +18
+  - Fly +16
+  - Knowledge (history) +19
+  - Knowledge (nature) +16
+  - Perception +14
+  - Sense Motive +14
+  - Spellcraft +12
+  - Swim +19
+Languages:
+  - Abyssal
+  - Auran
+  - Common
+  - Giant
+  - Polyglot
+SQ: oracle's curse (tongues), revelations (air barrier, wind sight), storm rider
+Source: Seers Of The Drowned City
+IsTemplate: '0'
+BeforeCombat: The coven casts mind blank on Byurka each day.
+DuringCombat: >-
+  Byurka blasts foes with lightning bolt each round for the first 3 rounds of
+  battle. She uses her wand of cure serious wounds on any ally who drops below
+  20 hit points, but she otherwise focuses on making melee attacks using Power
+  Attack against any foes within reach. Given the chance, she tries to blow
+  characters out of this room and through a telescope-created window using
+  control winds or gust of wind. A character who falls through a window in the
+  northern quarter of the wall plummets 20 feet onto the balcony north of H6,
+  while a character who falls through any other location falls 60 feet to the
+  ground below.
+Morale: >-
+  Byurka casts sanctuary on herself if brought to fewer than 20 hit points and
+  spends her next few actions healing her wounds. If the coven is broken by the
+  death of another hag, she instead flees Hyrantam and does not return if
+  reduced to 20 or fewer hit points.
+Gear: >-
+  stormlureUE, wand of cure serious wounds (24 charges), wand of wind wall (8
+  charges)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: wind
+CompanionFamiliarLink: '0'
+id: '8784'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

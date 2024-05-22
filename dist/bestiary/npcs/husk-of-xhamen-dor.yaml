@@ -1,0 +1,124 @@
+Name: Husk Of Xhamen-Dor
+CR: '17'
+XP: '102400'
+Race: HUSK OF XHAMEN-DOR
+Alignment: NE
+Size: Gargantuan
+Type: undead
+SubType: (Great Old One)
+Init: '11'
+Senses:
+  - blindsight 120 ft., darkvision 60 ft., tremorsense 120 ft.
+  - Perception +26
+Aura: unspeakable presence (300 ft., DC 27)
+AC: 32, touch 17, flat-footed 31
+AC_Mods: (+1 Dex, +10 insight, +15 natural, -4 size)
+HP: '253'
+HD: (22d8+154)
+HP_Mods: fast healing 10
+Saves: Fort +13, Ref +10, Will +19
+Fort: '13'
+Ref: '10'
+Will: '19'
+DefensiveAbilities: insanity (DC 27)
+DR: 10/epic and lawful
+Immune: ability damage, aging, cold, petrification, undead traits
+Speed: 50 ft., climb 30 ft., swim 30 ft.
+Melee:
+  - bite +25 (2d8+12 plus dread decay), 4 tentacles +25 (2d6+12/19-20)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: constrict (2d8+12), rend (2 tentacles, dread decay), trample (6d8+18, DC 33)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 17th; concentration +23)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At Will
+      value: dream, nightmare (DC 21)
+    - label: 3/day
+      value: demand (DC 24)
+    - label: 1/day
+      value: greater dispel magic, horrid wilting (DC 24), sympathy (DC 25)
+AbilityScores:
+  - 35
+  - 12
+  - —
+  - 5
+  - 23
+  - 22
+BaseAtk: '16'
+CMB: '32'
+CMD: 53 (can't be tripped)
+Feats:
+  - Combat Reflexes
+  - Critical Focus
+  - Improved Critical (tentacle)
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Perception)
+  - Staggering Critical
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (tentacle)
+Skills:
+  - Climb +20
+  - Perception +26
+  - Stealth +3
+  - Swim +20
+Languages:
+  - Aklo
+  - telepathy 100 ft.
+SQ: otherworldly insight
+Source: AP 113
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dormancy (Su)
+    description: >-
+      The Husk of Xhamen-Dor has shielded itself from conventional detection
+      while recuperating, which makes it difficult to find until it moves. As a
+      full-round action, the husk can become inanimate, during which time it
+      bends light and sounds around itself to disguise its presence. This grants
+      it a +20 bonus on Stealth checks and the benefits of a nondetection spell
+      (CL 20th). The husk can use its spell-like abilities and telepathy while
+      in this state, but any other action causes this effect to end immediately.
+  - name: Dread Decay (Su)
+    description: >-
+      The Husk of Xhamen-Dor's tentacles inflict a horrible affliction that
+      withers the flesh, digesting the victims with sickening speed. This
+      catastrophic withering begins when the tentacle deals damage and continues
+      for 4 rounds thereafter. Each round the rot persists, the target must
+      succeed at a DC 27 Fortitude save or take 2 points of Constitution damage
+      and 2 points of Wisdom damage. If the target succeeds at two consecutive
+      saving throws, the effect is cured. Heal also ends the effect. Latent
+      Great Old One The Husk of Xhamen-Dor is all that remains of the
+      once-mighty Great Old One Xhamen- Dor. Until it recovers its power
+      completely, it gains all the benefits from all of the Great Old One
+      subtype (Pathfinder RPG Bestiary 4 306) save for immortality and mythic.
+  - name: Unspeakable Presence (Su)
+    description: >-
+      Failing a DC 27 Will save against the Husk of Xhamen-Dor's unspeakable
+      presence causes the victim to capitulate to the husk's rotting attacks and
+      become a seeded creature; the victim loses its Dexterity bonus to AC
+      against the husk's attacks. If the creature is also infected with the
+      seedborne consumption-even if it is are otherwise immune to the disease's
+      effects-a failed save also forces that creature to move at least its speed
+      toward the husk each round; once a creature enters the husk's reach, the
+      victim is staggered until the end of its next turn. This ends the
+      compulsion to move closer but not the loss of Dexterity.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '10077'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

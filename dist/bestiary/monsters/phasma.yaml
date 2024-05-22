@@ -1,0 +1,118 @@
+Name: Phasma
+CR: '12'
+XP: '19200'
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +23
+AC: 20, touch 20, flat-footed 15
+AC_Mods: (+5 deflection, +5 Dex, +0 natural)
+HP: '123'
+HD: (13d8+65)
+Saves: Fort +9, Ref +11, Will +13
+Fort: '9'
+Ref: '11'
+Will: '13'
+DefensiveAbilities: channel resistance +4, incorporeal
+Immune: undead traits
+Speed: fly 40 ft. (perfect)
+Melee:
+  - incorporeal touch +14 (1d6 plus 1d6 Wisdom drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: phantasmagoria, Wisdom drain
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th)
+  values:
+    - label: At will
+      value: detect good
+    - label: 1/day
+      value: '-blasphemy (DC 22), unholy aura (DC 22)'
+    - label: 3/day
+      value: dispel magic, protection from evil, quickened protection from good
+AbilityScores:
+  - —
+  - 20
+  - —
+  - 15
+  - 17
+  - 20
+BaseAtk: '9'
+CMB: '14'
+CMD: '29'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Fly-by Attack
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Quicken Spell-Like Ability (protection from good)
+Skills:
+  - Bluff +21
+  - Fly +13
+  - Intimidate +21
+  - Knowledge (any one) +15
+  - Perception +23
+  - Sense Motive +23
+  - Spellcraft +18
+Languages:
+  - Common
+Environment: any
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  A floating semi-transparent humanoid dressed in grayish robes slowly moves
+  toward you. Its face is either nonexistent or concealed behind a translucent
+  gray mask. A faint pulsating white light surrounds its form.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Wisdom Drain (Su)
+    description: >-
+      A phasma feeds on the mental strength of its enemies. Its incorporeal
+      touch deals 1d6 points of Wisdom drain each time one of its attacks hits.
+      On each successful attack, a phasma gains 5 temporary hit points.
+Description:
+  - >-
+    A phasma is an undead creature spawned when a humanoid or monstrous humanoid
+    fails its Fortitude saving throw against a phantasmal killer spell and dies
+    as a result. Phasmas are extremely evil and highly aggressive with a hatred
+    for living creatures (especially arcane spellcasters) that knows no bounds.
+    A phasma is usually found haunting an area within 500 feet of where it was
+    slain when it was alive. It is not bound to this area and may travel or move
+    wherever it pleases, though for some reason, a phasma rarely leaves the area
+    where it died. A phasma feeds on the mental strength of living creatures. By
+    sapping a foe's mental strength it weakens its mind, thereby opening it up
+    to the true power of the phasma, the ability to kill an opponent the same
+    way it died-by a phantasmal killer effect. Creatures slain are left where
+    they fall: the phasma has no use for the opponent anymore. A phasma appears
+    as a 6-foot tall incorporeal humanoid dressed in gray robes. A translucent
+    and pale white light surrounds its entire body. A phasma speaks the same
+    languages it did in life and Common (though it rarely engages in
+    communication with living creatures, other than perhaps to hurl insults and
+    curses at its opponents). A phasma engages any living foe it encounters. It
+    begins melee using its incorporeal touch in order to feed on an opponent's
+    mental strength, often focusing its incorporeal touch on a different
+    opponent each round. Once it feels it has weakened the will of its foes
+    enough, it uses its phantasmagoria ability to try and kill its foes
+    immediately. Copyright Notice Author Scott Greene.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2929'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

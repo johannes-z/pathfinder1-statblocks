@@ -1,0 +1,116 @@
+Name: Warmonger Devil
+CR: '7'
+XP: '3200'
+Race: Warmonger Devil
+MonsterSource: 'Book of the Damned 1: Princes of Darkness 60'
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '7'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +16
+AC: 22, touch 12, flat-footed 19
+AC_Mods: (+3 Dex, +10 natural, -1 size)
+HP: '84'
+HD: (8d10+40)
+Saves: Fort +10, Ref +9, Will +5
+Fort: '10'
+Ref: '9'
+Will: '5'
+DefensiveAbilities: construct form
+DR: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '12'
+Speed: 40 ft., climb 40 ft.
+Melee:
+  - mwk trident +13 (2d6+7), 2 legs +7 (1d8+2)
+  - 2 claws +12 (1d6+5), 2 legs +7 (1d8+2)
+Ranged:
+  - mwk trident +10 (2d6+7)
+  - net +10 ranged touch (entangle)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: merciless blow, trample (1d8+7, DC 19)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: At will
+      value: greater teleport (self plus 50 lbs. of objects only)
+    - label: 1/day
+      value: summon (level 4, 1d4 lemures or 1 bearded devil, 40%)
+AbilityScores:
+  - 20
+  - 17
+  - 19
+  - 14
+  - 16
+  - 15
+BaseAtk: '8'
+CMB: '14'
+CMD: '27'
+Feats:
+  - Combat Reflexes
+  - Improved Initiative
+  - Power Attack
+  - Toughness
+Skills:
+  - Acrobatics +14 (+18 jumping)
+  - Bluff +13
+  - Climb +17
+  - Craft (weapons) +9
+  - Intimidate +13
+  - Knowledge (dungeoneering) +9
+  - Knowledge (engineering) +9
+  - Knowledge (planes) +13
+  - Perception +16
+  - Stealth +12
+RacialMods: +2 Perception, +2 Stealth (+8 when concealed amid metal objects or debris)
+Languages:
+  - Celestial
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: hellstrider, phalanx, stability
+Source: Academy Of Secrets
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Hellstrider (Su)
+    description: >-
+      A warmonger devil is not impeded by rough terrain, and can move or charge
+      through such squares as normal. It can also cross areas covered with
+      deadly impediments (such as caltrops or thorns) without being damaged or
+      hindered. In addition to being entirely immune to fire, the creature's
+      legs are immune to acid and cold, allowing it to cross rivers of acid or
+      lava as long as the material is less than 4 feet deep. This ability does
+      not protect a warmonger devil against magical hindrances like black
+      tentacles, web, or similar spells.
+  - name: Merciless Blow (Su)
+    description: >-
+      Any trident attacks a warmonger devil makes against entangled creatures
+      (including those entangled by its net) deal an extra 2d6 points of damage.
+  - name: Phalanx (Ex)
+    description: >-
+      Devils gain a +1 morale bonus on attacks and to AC while adjacent to a
+      warmonger devil.
+  - name: Stability (Ex)
+    description: >-
+      Warmonger devils receive a +4 racial bonus to their CMD when resisting a
+      bull rush or trip attempt while standing on the ground.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1713'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,126 @@
+Name: Dahaaka
+CR: '14'
+XP: '38400'
+Race: scrag
+Class: druid (blight druid) 12
+MonsterSource: Pathfinder RPG Bestiary 268, Pathfinder RPG Advanced Player's Guide 98
+Alignment: NE
+Size: Large
+Type: humanoid
+SubType: (aquatic, giant)
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +19
+Aura: miasma (DC 20)
+AC: 29, touch 12, flat-footed 26
+AC_Mods: (+7 armor, +3 Dex, +10 natural, -1 size)
+HP: '183'
+HD: (18d8+102)
+HP_Mods: regeneration 5 (acid or fire)
+Saves: Fort +18, Ref +11, Will +16
+Fort: '18'
+Ref: '11'
+Will: '16'
+Immune: disease, nauseated, sickened
+Resist: cold 20
+Speed: 15 ft., swim 40 ft.
+Melee:
+  - bite +18 (1d8+6), 2 claws +18 (1d6+6)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rend (2 claws, 1d6+8), wild shape 5/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: 7/day
+      value: icicle (1d6+6 cold)
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 12th; concentration +16)   6th-empowered ball
+  lightningAPG (DC 18), cone of coldD (DC 20), mass cure light wounds  
+  5th-baleful polymorph (DC 19), death ward, ice stormD, wall of thorns  
+  4th-blight (DC 18), empowered chill metal (DC 16), control waterD, cure
+  serious wounds, freedom of movement   3rd-greater magic fang, hydraulic
+  torrentAPG, poison (DC 17), protection from energy, transfer regenerationMC,
+  water breathingD   2nd-barkskin, chill metal (DC 16), control vermin (DC 16),
+  fog cloudD, lesser restoration, resist energy   1st-call animalAPG, charm
+  animal (DC 15), cure light wounds, faerie fire, obscuring mistD, speak with
+  animals   0 (at will)-detect magic, detect poison, mending, stabilize
+SpellDomains: Water
+AbilityScores:
+  - 21
+  - 16
+  - 21
+  - 8
+  - 18
+  - 10
+BaseAtk: '13'
+CMB: '19'
+CMD: '32'
+Feats:
+  - Animal Affinity
+  - Blind-Fight
+  - Combat Casting
+  - Eldritch Claws
+  - Empower Spell
+  - Intimidating Prowess
+  - Iron Will
+  - Lightning Reflexes
+  - Skill Focus (Perception)
+Skills:
+  - Acrobatics +0 (-8 when jumping)
+  - Handle Animal +25
+  - Intimidate +11
+  - Knowledge (nature) +13
+  - Perception +19
+  - Ride +7
+  - Survival +6
+  - Swim +14
+Languages:
+  - Druidic
+  - Giant
+SQ: >-
+  amphibious, nature bond (Water domain), nature sense, vermin empathy, woodland
+  stride
+Source: AP 125
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Dahaaka casts barkskin, freedom of movement, and greater magic fang on
+  herself.
+DuringCombat: >-
+  Dahaaka fights from behind her allies, using spells such as empowered ball
+  lightning and empowered  chill metal to weaken opponents wearing metal armor.
+  Against large groups of foes, she prefers area effect spells such as cone of
+  cold and ice storm. If her enemies use acid or fire against her, Dahaaka casts
+  protection from energy or resist energy to protect herself. Although she has
+  some ability to heal her allies if they are injured, Dahaaka prefers to use
+  her actions in combat to eliminate enemies and patch up any surviving allies
+  afterward.
+Morale: >-
+  Although smarter than most scrags, Dahaaka is recklessly overconfident in her
+  ability to survive combat. If Dahaaka is defeated but later revives due to her
+  regeneration, she attempts to flee using wild shape.
+Gear: >-
+  +1 dragonhide breastplate, incandescent blue sphere ioun stone, holly and
+  mistletoe, pouch of exotic shells (worth 410 gp), spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: >-
+  Without barkskin and greater magic fang, Dahaaka's statistics are AC 24, touch
+  12, flat-footed 21; Melee bite +17 (1d8+5), 2 claws +17 (1d6+5); Special
+  Attacks rend (2 claws, 1d6+7).
+AgeCategory: Adult
+ClassArchetypes: blight druid
+CompanionFamiliarLink: '0'
+id: '11702'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

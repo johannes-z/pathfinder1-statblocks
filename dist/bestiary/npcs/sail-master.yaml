@@ -1,0 +1,88 @@
+Name: Sail Master
+CR: '1'
+XP: '400'
+Race: human
+Class: druid 2
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +5
+AC: 17, touch 12, flat-footed 15
+AC_Mods: (+2 armor, +1 Dex, +1 dodge, +3 shield)
+HP: '18'
+HD: (2d8+6)
+Saves: Fort +5, Ref +1, Will +4
+Fort: '5'
+Ref: '1'
+Will: '4'
+Speed: 30 ft.
+Melee:
+  - mwk club +5 (1d6+3)
+Ranged:
+  - shortspear +2 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 2nd; concentration +3)
+  values:
+    - label: 4/day
+      value: storm burst
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 2nd; concentration +3)   1st-cure light wounds,
+  jump, obscuring mistD, shillelagh   0 (at will)-flare (DC 11), know direction,
+  light, stabilize
+SpellDomains: Weather
+AbilityScores:
+  - 17
+  - 13
+  - 14
+  - 8
+  - 12
+  - 10
+BaseAtk: '1'
+CMB: '4'
+CMD: '16'
+Feats:
+  - Dodge
+  - Shield Focus
+Skills:
+  - Handle Animal +5
+  - Heal +5
+  - Knowledge (geography) +3
+  - Knowledge (nature) +1
+  - Perception +5
+  - Profession (sailor) +5
+  - Survival +7
+  - Swim +5
+Languages:
+  - Common
+  - Druidic
+SQ: nature bond (Weather domain), nature sense, wild empathy +2, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+DuringCombat: >-
+  The druid casts obscuring mist at the start of combat and shillelagh before
+  moving into melee range.
+Gear: scrolls of cure light wounds (2), scroll of entangle (2), alchemist's fire (4)
+OtherGear: >-
+  masterwork leather armor, heavy wooden shield, masterwork club, shortspear,
+  grappling hook, healer's kit, hemp rope (50 ft.), holly and mistletoe, spell
+  component pouch, amber necklace (worth 25 gp), 45 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3656'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

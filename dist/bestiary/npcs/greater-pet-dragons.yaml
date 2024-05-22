@@ -1,0 +1,107 @@
+Name: Greater Pet Dragons
+CR: '8'
+XP: '4800'
+Race: frost drake
+MonsterSource: Pathfinder RPG Bestiary 2 108, 292
+Alignment: CE
+Size: Large
+Type: dragon
+SubType: (cold)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision, scent, snow vision
+  - Perception +12
+AC: 24, touch 12, flat-footed 21
+AC_Mods: (+3 Dex, +12 natural, -1 size)
+HP: '100'
+HD: (8d12+48)
+Saves: Fort +12, Ref +9, Will +7
+Fort: '12'
+Ref: '9'
+Will: '7'
+Immune: cold, paralysis, sleep
+Weaknesses: vulnerable to fire
+Speed: 20 ft., burrow (snow only) 20 ft., fly 60 ft. (average)
+Melee:
+  - bite +15 (2d6+8 plus 1d6 cold), tail slap +10 (1d8+4)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: freezing mist breath
+AbilityScores:
+  - 26
+  - 17
+  - 22
+  - 12
+  - 13
+  - 17
+BaseAtk: '8'
+CMB: '17'
+CMD: '30'
+Feats:
+  - Flyby Attack
+  - Improved Initiative
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Climb +19
+  - Fly +12
+  - Intimidate +14
+  - Perception +12
+  - Sense Motive +12
+  - Stealth +10
+  - Survival +12
+Languages:
+  - Common
+  - Draconic
+SQ: speed surge, icewalking
+Source: PFS S3-04
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Freezing Mist Breath (Su)
+    description: >-
+      A frost drake can, as a standard action, spit a ball of liquid that bursts
+      into a cloud of freezing mist. This attack has a range of 60 feet and
+      deals 7d6 points of cold damage (DC 20 Reflex half ) to all creatures in a
+      20-foot-radius spread. The mist cakes all surfaces in the area with a
+      sheet of slippery ice that turns the area into difficult terrain for 2d4
+      rounds, after which the ice cracks or melts enough to revert to the normal
+      terrain features in the area. Once a frost drake has used its freezing
+      mist breath, it cannot do so again for 1d6 rounds. The Reflex save is
+      Constitution-based.
+  - name: Icewalking (Ex)
+    description: >-
+      This ability works like spider climb, but the surfaces the drake climbs
+      must be icy. It can move across icy surfaces without penalty and does not
+      need to make Acrobatics checks to run or charge on ice.
+  - name: Speed Surge (Ex)
+    description: >-
+      Three times per day as a swift action, a frost drake may draw on its
+      draconic heritage for a boost of strength and speed to take an additional
+      move action in that round.
+  - name: Snow Vision (Ex)
+    description: >-
+      A frost drake can see perfectly well in snowy conditions, and does not
+      take any penalties on Perception checks while in snow.
+DuringCombat: >-
+  The frost drakes use their freezing mist breath on the PCs in the first round
+  of combat, creating icy ground near the cave's mouth. If any PCs remain in
+  this area, the drakes take turns attempting to bull rush them over the edge,
+  provoking attacks of opportunity but gaining a +2 bonus on their CMB checks
+  thanks to the icy ground.
+Morale: The frost drakes are loyal to Jerevyx and fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5875'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

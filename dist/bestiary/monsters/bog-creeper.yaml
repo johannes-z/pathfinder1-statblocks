@@ -1,0 +1,115 @@
+Name: Bog Creeper
+CR: '8'
+XP: '4800'
+Alignment: 'N'
+Size: Medium
+Type: plant
+SubType: (fungus)
+Init: '4'
+Senses:
+  - low-light vision, tremorsense 60 ft.
+  - Perception +21
+AC: 15, touch 10, flat-footed 15
+AC_Mods: ', +5 natural)'
+HP: '95'
+HD: (10d8+50)
+Saves: Fort +12, Ref +3, Will +5
+Fort: '12'
+Ref: '3'
+Will: '5'
+DefensiveAbilities: camouflage
+Immune: plant traits
+Speed: 10 ft., swim 20 ft.
+Melee:
+  - slam +11 (1d6+4), bite +11 (2d4+4), 4 tendrils +9  (1d4+2 plus grab)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with tendrils)
+SpecialAttacks: acid spray, constrict (1d4+4)
+AbilityScores:
+  - 18
+  - 10
+  - 20
+  - 3
+  - 14
+  - 6
+BaseAtk: '7'
+CMB: +11 (+15 grapple)
+CMD: 21 (can't be tripped)
+Feats:
+  - Endurance
+  - Diehard
+  - Improved Initiative
+  - Multiattack
+  - Skill Focus (Perception)
+Skills:
+  - Perception +21
+  - Swim +12
+SQ: marsh move
+Environment: warm swamps
+Organization: solitary
+Treasure: 50% standard
+Description_Visual: >-
+  This creature looks like a man-sized rotting tree trunk with several thorny
+  tendrils sprouting from its body. A single limb protrudes from its central
+  form as well.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid Spray (Ex)
+    description: >-
+      Three times per day, a bog creeper can spew digestive acid from its mouth
+      in a 30-foot cone that deals 2d8 points of acid damage to all creatures in
+      the area, with a DC 20 Reflex save allowed for half damage. The save DC is
+      Constitution-based.
+  - name: Camouflage (Ex)
+    description: >-
+      Since a bog creeper looks like a plant when at rest, it takes a DC 20
+      Perception check to notice it before it attacks. Anyone with ranks in
+      Survival or Knowledge (nature) can use one of those skills instead of
+      Perception to notice the plant.
+  - name: Marsh Move (Ex)
+    description: >-
+      A bog creeper can move across marshy terrain without incurring any
+      movement penalties.
+Description:
+  - >-
+    The bog creeper is a creature native to the thickest, darkest swamps. It
+    superficially resembles a man-sized rotted tree trunk sprouting several
+    thorny tendrils each about 10 feet long and a single 6-foot long limb. Bog
+    creepers are carnivorous, lurking amid dead trees and stumps waiting to
+    ambush unsuspecting prey. The shattered boles and stumps make perfect
+    camouflage for the sly bog creeper.
+  - >-
+    Marshes and swamps are home to the bog creeper and it moves through the
+    territory with ease; it can swim the waters and shamble across the rare
+    patches of dry or swampy ground in pursuit of its prey.
+  - >-
+    The treasure of a bog creeper is located in its pulpy gullet, and consists
+    of the inorganic, indigestible remains and possessions of its victims.
+  - >-
+    A bog creeper attacks by ambushing its prey, lying in wait for someone or
+    something to wander nearby. When prey comes within range, it lashes out with
+    its single limb and slashes with its tendrils. It uses its tendrils to grab
+    prey and either constrict it or transfer it to its mouth where it bites with
+    its toothy maw. A desperate bog creeper can also vomit forth its powerful
+    digestive sap in order to dispatch its opponents.
+  - Copyright Notice Author Erica Balsley.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2273'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

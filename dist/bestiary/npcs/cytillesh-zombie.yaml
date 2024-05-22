@@ -1,0 +1,76 @@
+Name: Cytillesh Zombie
+CR: '1'
+XP: '400'
+Race: Cytillesh Zombie
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 18, touch 12, flat-footed 14
+AC_Mods: (+2 armor, +4 Dex, +2 natural)
+HP: '12'
+HD: (2d8+3)
+Saves: Fort +0, Ref +4, Will +3
+Fort: '0'
+Ref: '4'
+Will: '3'
+DefensiveAbilities: +4 turn resistance
+Immune: undead traits
+Speed: 40 ft.
+Melee:
+  - slam +6 (1d6+5 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 21
+  - 18
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '1'
+CMB: '6'
+CMD: '20'
+Feats:
+  - Toughness
+Source: No Response From Deepmar
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cytillesh Symbiosis (Su)
+    description: >-
+      The cytillesh fungus infesting the host creature's body acts as the dead
+      flesh's animating force. It grants the creature a +4 enhancement bonus to
+      Strength and Dexterity and a poisonous touch. The slam of a cytillesh
+      zombie releases spores that subject the creature to a mild dose of
+      cytillesh poison. The creature must succeed at a DC 18 Fortitude save or
+      become dazed for 1d3 rounds as it suffers memory loss of the previous
+      moments. Multiple poisoning effects do not stack, but rather only extend
+      the duration.
+  - name: Quick Strikes (Ex)
+    description: >-
+      Whenever a cytillesh zombie takes a full-attack action, it can make one
+      additional slam attack at its highest base attack bonus.
+DuringCombat: >-
+  A cytillesh zombie attacks any creature trying to interact with it verbally or
+  physically. Once it targets an opponent, it continues attacking its target
+  until the target or the zombie is dead or destroyed.
+Morale: A cytillesh zombie fights to the death.
+Gear: leather armor
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2898'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

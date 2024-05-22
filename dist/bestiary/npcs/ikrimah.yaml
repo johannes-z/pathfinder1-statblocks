@@ -1,0 +1,151 @@
+Name: Ikrimah
+CR: '11'
+XP: '12800'
+Race: human
+Class: monk 1/transmuter 11
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +21
+AC: 31, touch 19, flat-footed 28
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 dodge, +4 natural, +4 shield, +4 Wis)
+HP: '121'
+HD: (12 HD; 1d8+11d6+74)
+Saves: Fort +17, Ref +12, Will +17
+Fort: '17'
+Ref: '12'
+Will: '17'
+DefensiveAbilities: displacement (50% miss chance), mirror image (5 images)
+DR: 10/adamantine (110 points), 10/ magic vs. ranged weapons (100 points)
+Immune: fire (protection from energy, 120 points)
+Resist: electricity 30 (resist energy)
+Speed: 60 ft., fly 70 ft. (average)
+Melee:
+  - >-
+    unarmed strike +21/+21/+16/+11 (1d6+6) or flurry of blows
+    +19/+19/+19/+16/+11 (1d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: stunning fist (3/day, DC 20)
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 11th; concentration +17)
+  values:
+    - label: At will
+      value: change shape (beast shape II/elemental body I, 11 rounds/day)
+    - label: 9/day
+      value: telekinetic fist (1d4+5 bludgeoning)
+SpellsPrepared: >-
+  Transmuter Spells Prepared (CL 11th; concentration +17) 6th-disintegrate,
+  globe of invulnerability, transformation* 5th-overland flight*, telekinesis,
+  teleport, wall of force 4th-dimension door, lesser globe of invulnerability,
+  mnemonic enhancer, resilient sphere, stoneskin* 3rd-displacement*, greater
+  magic weapon*, haste*, heroism*, protection from energy* 2nd-alter self *,
+  blur*, false life*, mirror image*, owl's wisdom*, protection from arrows*,
+  resist energy* 1st-chill touch (DC 17), expeditious retreat*, mage armor*,
+  obscuring mist, protection from good*, ray of enfeeblement, shield* 0 (at
+  will)-detect magic, light, mage hand, message
+AbilityScores:
+  - 19
+  - 14
+  - 16
+  - 22
+  - 18
+  - 8
+BaseAtk: '12'
+CMB: '19'
+CMD: '35'
+Feats:
+  - Blind-Fight
+  - Brew Potion
+  - Combat Casting
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Defensive Combat Training
+  - Deflect Arrows
+  - Improved Initiative
+  - Improved Unarmed Strike
+  - Power Attack
+  - Scribe Scroll
+  - Stunning Fist
+  - Toughness
+Skills:
+  - Acrobatics +19 (+31 jump)
+  - Escape Artist +19
+  - Fly +24
+  - Knowledge (arcana) +23
+  - Knowledge (engineering) +18
+  - Knowledge (history) +18
+  - Perception +21
+  - Spellcraft +23
+  - Stealth +19
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+  - Kelish
+  - Osiriani
+  - Tien
+  - Vudrani
+SQ: arcane bond (ring of protection +2), contingency, physical enhancement +3
+Source: Cult Of The Ebon Destroyers
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Male
+ProhibitedSchools: Divination, Enchantment
+BeforeCombat: >-
+  Ikrimah casts false life, greater magic weapon (unarmed strike), mage armor,
+  overland flight, and protection from arrows on himself at the start of each
+  day. When an alarm spell triggers, Ikrimah casts spells on himself in this
+  order: protection from energy (fire), resist energy (electricity), heroism,
+  stoneskin, blur, alter self, mirror image, owl's wisdom, expeditious retreat,
+  protection from good, shield, displacement, haste, and transformation. (All
+  are included in his statistics.)
+DuringCombat: >-
+  Ikrimah uses smokesticks to cloud the area as he engages the PCs, using his
+  Blind-Fight feat to gain a tactical edge. He stays in the air to prevent the
+  PCs from surrounding him and attacks enemy spellcasters first.
+Morale: >-
+  Ikrimah's contingency spell triggers if he drops below 30 hit points, turning
+  him invisible. However, Ikrimah can't cast spells while under the effects of a
+  transformation spell, so he might need to lurk invisibly until it expires
+  before casting dimension door to retreat to the fighting arena (B12).
+Gear: >-
+  potion of bear's endurance, potions of bull's strength (2), potions of cat's
+  grace (2), potions of cure moderate wounds (2), scroll of greater dispel
+  magic, scroll of teleport, wand of scorching ray (15 charges), 4 smokesticks
+OtherGear: >-
+  cloak of resistance +2, headband of vast intelligence +2 (Escape Artist), ring
+  of counterspells (dispel magic), ring of protection +2 (bonded item,
+  nonfunctional for anyone but Ikrimah), contingency statue (worth 1,500 gp),
+  diamond dust worth 750 gp (for stoneskin spells), spell component pouch,
+  spellbook (contains all prepared spells plus: 0&#8211;all; 1st&#8211;alarm,
+  disguise self; 2nd&#8211;bear's endurance, bull's strength, cat's grace,
+  continual flame, darkvision, eagle's splendor, fox's cunning, invisibility,
+  knock, magic mouth, scorching ray, see invisibility, spider climb;
+  3rd&#8211;dispel magic, fireball, gaseous form, 5th&#8211; permanency, symbol
+  of pain; 6th&#8211;greater dispel magic, permanent image)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+OffenseNote: '* Already cast.'
+BaseStatistics: >-
+  Without any spells affecting him, Ikrimah has the following statistics: Init
+  +4; AC 14, touch 14, flat-footed 14; hp 82; Fort +8, Ref +7, Will +13; Melee
+  unarmed strike +8 (1d6+3), stunning fist (3/day, DC 18); Str 16, Dex 10, Con
+  12, Wis 14; Base Atk +5; CMB +8; CMD 22.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1479'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

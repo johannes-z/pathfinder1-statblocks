@@ -1,0 +1,89 @@
+Name: Guardian Of Coin
+CR: '14'
+XP: '38400'
+Race: brass golem
+MonsterSource: Pathfinder RPG Bestiary 3 134
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +2
+AC: 32, touch 9, flat-footed 30
+AC_Mods: (+1 Dex, +22 natural, -1 size)
+HP: '140'
+HD: (20d10+30)
+Saves: Fort +6, Ref +6, Will +8
+Fort: '6'
+Ref: '6'
+Will: '8'
+DR: 15/adamantine
+Immune: construct traits, fire, immunity to magic
+Speed: 50 ft.
+Melee:
+  - 2 claws +30 (2d6+11 plus 2d6 fire)
+Ranged:
+  - coin shot +20/+15/+10 (4d6/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: breath weapon
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +15)
+  values:
+    - label: Constant
+      value: see invisibility
+AbilityScores:
+  - 32
+  - 13
+  - —
+  - —
+  - 15
+  - 1
+BaseAtk: '20'
+CMB: '32'
+CMD: '43'
+SQ: coin shot, death throes
+Source: AP 130
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      As a free action once every 1d4 rounds, the Guardian of Coin can expel a
+      cloud of smoke and cinders that fills a 20-foot cube. This functions as an
+      incendiary cloud that persists for 1d6 rounds, dealing 6d6 points of fire
+      damage (Reflex DC 20 half). The save DC is Constitution-based.
+  - name: Coin Shot (Ex)
+    description: >-
+      A spinning wheel in the Guardian's chest can shred silver and gold coins
+      from an internal hopper and project them at high speed. Once each round as
+      a swift action, the guardian can either fire a single ranged attack at a
+      creature within 60 feet or fire a spray of projectiles that strikes all
+      creatures in a 15-foot cone. Resolve the ranged attack normally. All
+      creatures in the cone take 2d6 points of damage and are blinded for 1d6
+      rounds; a successful DC 21 Reflex saving throw halves the damage and
+      eliminates the blinded condition.
+  - name: Death Throes (Ex)
+    description: >-
+      The Guardian melts into a pool of molten slag when destroyed, dealing 15d6
+      points of fire damage to all creatures within 30 feet of the golem (Reflex
+      DC 20 half). The save DC is Constitution-based.
+DuringCombat: >-
+  The Guardian is a straightforward and brutal combatant, closing to melee with
+  its claws while unleashing bursts of shredded coins.
+Morale: The Guardian fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11803'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

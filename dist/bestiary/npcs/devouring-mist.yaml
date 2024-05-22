@@ -1,0 +1,87 @@
+Name: Devouring Mist
+CR: '10'
+XP: '9600'
+Race: Devouring Mist
+Alignment: NE
+Size: Large
+Type: undead
+SubType: (swarm)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +26
+AC: 13, touch 13, flat-footed 9
+AC_Mods: (+3 Dex, +1 dodge, -1 size)
+HP: '133'
+HD: (14d12+42)
+Saves: Fort +9, Ref +10, Will +12
+Fort: '9'
+Ref: '10'
+Will: '12'
+DefensiveAbilities: channel resistance +4, swarm traits
+Immune: undead traits, weapon damage
+SR: '24'
+Weaknesses: swarm traits
+Speed: fly 40 ft. (perfect)
+Melee:
+  - swarm (blood drain)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: create spawn, distraction (DC 20)
+AbilityScores:
+  - 1
+  - 19
+  - —
+  - 8
+  - 16
+  - 16
+BaseAtk: '10'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Dodge
+  - Great Fortitude
+  - Improved Channel Resistance
+  - Lightning Reflexes
+  - Mobility
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+Skills:
+  - Fly +27
+  - Perception +26
+  - Stealth +20 (+30 in the Bloodways)
+RacialMods: >-
+  +10 circumstance bonus on Stealth checks while in the red mists of the
+  Bloodways
+Source: Rappan Athuk-Level 9D
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Drain (Ex)
+    description: >-
+      Creatures in the devouring mist's space at the end of its movement each
+      round take 1d4 points of Constitution damage as it siphons blood out of
+      the victim's body. For every point so drained, the devouring mist heals 5
+      hit points of damage. Creatures without blood take no damage from the
+      devouring mist.
+  - name: Create Spawn (Su)
+    description: >-
+      Any creature slain by a devouring mist rises as a vampire spawn in 1d4
+      days, unless the remains are blessed. If the victim had more than 5 hit
+      dice, there is a 1% chance per hit die that it arises as a full-fledged
+      vampire instead, or a 5% chance per hit die if the victim was of the
+      humanoid type.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12179'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

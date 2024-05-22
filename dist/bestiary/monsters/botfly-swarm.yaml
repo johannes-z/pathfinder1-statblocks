@@ -1,0 +1,87 @@
+Name: Botfly Swarm
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Fine
+Type: vermin
+SubType: (swarm)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 18, touch 18, flat-footed 18
+AC_Mods: (+8 size)
+HP: '40'
+HD: (9d8)
+Saves: Fort +6, Ref +3, Will +3
+Fort: '6'
+Ref: '3'
+Will: '3'
+DefensiveAbilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+Weaknesses: swarm traits
+Speed: 0 ft., fly 60 ft. (good)
+Melee:
+  - swarm (2d6 plus infestation)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: disease, distraction (DC 14), suffocation
+AbilityScores:
+  - 2
+  - 11
+  - 10
+  - —
+  - 11
+  - 2
+BaseAtk: '6'
+CMB: '-'
+CMD: '-'
+Skills:
+  - Fly +12
+Environment: warm jungles and swamps
+Organization: solitary or colony (2-20 swarms)
+Treasure: none
+Description_Visual: >-
+  Like a cloud of black dust, a swirling swarm of insects hovers in the air.
+  From within comes the low, droning buzz of thousands of tiny flies.
+Group: Botfly
+Source: Heart of the Jungle
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Infestation (Ex)
+    description: >-
+      A living creature injured by a botfly swarm's attack must make a DC 14
+      Fortitude save or be infested with the swarm's larvae. The larvae may be
+      cut out of the host with a DC 15 Heal check, though each attempt inflicts
+      1d8 points of damage whether or not it's successful. A cure disease spell
+      destroys all larvae without further harm to the host. Botfly larvae:
+      infestation; save Fort DC 14; onset 1 day; frequency 1/day; effect 1d4 Con
+      damage.
+Description:
+  - >-
+    Common to sweltering jungles, warm swamplands, and lazy riverbanks, these
+    pestilent fly swarms seek humanoid hosts for their eggs. While not as
+    physically dangerous as their giant cousins, implanted botf ly larvae
+    typically carry diseases that spread to the host. Infestations Parasites
+    such as botf ly larvae cause infestations, a type of aff liction similar to
+    diseases. Infestations can only be cured through specific means; otherwise,
+    no matter how many saving throws are made, the infestation continues to aff
+    lict the target. While a remove disease spell (or similar effect) instantly
+    halts an infestation, immunity to disease offers no protection, as the
+    infestation itself is caused by parasites.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Botfly, Swarm
+id: '806'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

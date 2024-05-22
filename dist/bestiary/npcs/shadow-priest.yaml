@@ -1,0 +1,94 @@
+Name: Shadow Priest
+CR: '5'
+XP: '1600'
+Race: shadow
+Class: cleric 5
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (augmented humanoid)
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +6
+Aura: Evil
+AC: 18, touch 9, flat-footed 18
+AC_Mods: (+7 armor, -1 Dex, +2 shield)
+HP: '41'
+HD: (5d8+15)
+Saves: Fort +7, Ref +1, Will +7
+Fort: '7'
+Ref: '1'
+Will: '7'
+DR: 5/magic
+Resist: cold 10, electricity 10
+SR: '11'
+Speed: 20 ft.
+Melee:
+  - mwk longsword +8 (1d8+3/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel positive energy 6/day (DC 13, 3d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; melee touch +6)
+  values:
+    - label: 5/day
+      value: touch of law, battle rage (+2 damage)
+SpellsPrepared: >-
+  Spells Prepared (CL 5th; melee touch +6, ranged touch +2) 3rd-dispel magic,
+  magic vestmentD, searing light  2nd-align weapon (law only)D, enthrall (DC
+  14), resist energy (DC 14), sound burst (DC 14)  1st-command (DC 13), divine
+  favor, magic weaponD, shield of faith, summon monster I  0 (at will)-guidance,
+  light, purify food and drink, resistance
+SpellDomains: Law, War
+AbilityScores:
+  - 17
+  - 8
+  - 14
+  - 10
+  - 14
+  - 12
+BaseAtk: '3'
+CMB: '6'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Heavy Armor Proficiency
+  - Improved Shield Bash
+  - Weapon Focus (longsword)
+Skills:
+  - Diplomacy +9
+  - Heal +6
+  - Knowledge (nobility) +6
+  - Knowledge (religion) +5
+  - Perception +6
+Languages:
+  - Common
+Source: Sword of Air-Chapter 5
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Shadow Blend (Su)
+    description: >-
+      In any illumination other than bright light, a shadow creature blends into
+      the shadows, giving it concealment (20% miss chance). A shadow creature
+      can suspend or resume this ability as a free action.
+Gender: Male
+Gear: potion of bull's strength, thunderstone
+OtherGear: >-
+  masterwork splint mail, +1 light steel shield, masterwork longsword, cloak of
+  resistance +1, silver holy symbol, 271 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12681'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

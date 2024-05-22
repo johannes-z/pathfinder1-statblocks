@@ -1,0 +1,163 @@
+Name: Jeshura
+CR: '14'
+XP: '38400'
+Race: pairaka div
+Class: sorcerer 6/arcane archer 4
+MonsterSource: Pathfinder RPG Bestiary 3 88
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (div, evil, extraplanar, shapechanger)
+Init: '6'
+Senses:
+  - darkvision 60 ft., detect good, detect magic, see in darkness
+  - Perception +26
+AC: 26, touch 18, flat-footed 19
+AC_Mods: (+1 deflection, +6 Dex, +1 dodge, +8 natural)
+HP: '212'
+HD: (19 HD; 13d10+6d6+120)
+Saves: Fort +13, Ref +16, Will +16; +4 vs. nausea effects
+Fort: '13'
+Ref: '16'
+Will: '16'
+Save_Mods: +4 vs. nausea effects
+DefensiveAbilities: accustomed to awfulness
+DR: 10/cold iron or good
+Immune: fire, poison, disease, sickened
+Resist: acid 10, electricity 10
+SR: '22'
+Speed: 30 ft., fly 50 ft. (good)
+Melee:
+  - 2 claws +20 (1d6+4 plus disease)
+Ranged:
+  - >-
+    +4 composite longbow +27/+22/+17/+12 (1d8+8/19-20/x3 plus disease and 1d6
+    cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  enhance arrows (elemental, magic), imbue arrow, infected arrows, lustful
+  dreams, seeker arrow
+SpellLikeAbilities:
+  header: Div Spell-Like Abilities (CL 12th; concentration +21)
+  values:
+    - label: Constant
+      value: detect good, detect magic
+    - label: At Will
+      value: >-
+        charm monster (DC 23), dimension door (self plus 50 lbs. of objects
+        only), misdirection (DC 22)
+    - label: 1/day
+      value: >-
+        insect plague, summon div (level 3, 1d4 dorus 50%) Sorcerer Spell-Like
+        Abilities (CL 9th; concentration +18)
+    - label: 12/day
+      value: plague's caress
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 9th; concentration +18)
+  values:
+    - label: 4th (6/day)
+      value: black tentacles, contagion (DC 23)
+    - label: 3rd (8/day)
+      value: dispel magic, fireball (DC 22), slow (DC 22)
+    - label: 2nd (8/day)
+      value: darkness, glitterdust (DC 21), mirror image, summon swarm, web (DC 21)
+    - label: 1st (9/day)
+      value: >-
+        burning hands (DC 20), charm animal (DC 20), gravity bowAPG, mage armor,
+        ray of enfeeblement (DC 20), true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 19), detect magic, light, mage hand, message,
+        prestidigitation (DC 19), touch of fatigue (DC 19)
+AbilityScores:
+  - 19
+  - 22
+  - 22
+  - 12
+  - 18
+  - 28
+BaseAtk: '16'
+CMB: '20'
+CMD: '38'
+Feats:
+  - Arcane Strike
+  - Bleeding Critical
+  - Critical Focus
+  - Deadly Aim
+  - Dodge
+  - Eschew Materials
+  - Improved Critical (composite longbow)
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Shot
+  - Weapon Focus (composite longbow)
+Skills:
+  - Bluff +31
+  - Disguise +28
+  - Fly +19
+  - Perception +26
+  - Sense Motive +26
+  - Spellcraft +23
+Languages:
+  - Abyssal
+  - Celestial
+  - Infernal
+  - telepathy 100 ft.
+SQ: change shape (any Small or Medium animal or humanoid; polymorph)
+Source: AP 83
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Accustomed to Awfulness (Ex)
+    description: >-
+      Jeshura is immune to the sickened condition and gains a +4 bonus on all
+      saving throws against effects that cause nausea or disease.
+  - name: Infected Arrows (Su)
+    description: >-
+      Any arrows Jeshura fires carry with them bubonic plague, similarly to her
+      claw attacks. Pestilence Bloodline This rare sorcerer bloodline was first
+      detailed on page 29 of Pathfinder Adventure Path #29. It grants Heal as a
+      bonus class skill, and Jeshura's level is high enough that she gains charm
+      animal and summon swarm as bonus spells. Vermin are susceptible to her
+      mind-affecting spells, and are treated as animals for the purposes of
+      determining which mind-affecting spells can affect them. Plague's
+  - name: Caress (Sp)
+    description: >-
+      Jeshura can make a melee touch attack as a standard action that causes a
+      living creature's flesh to break out into rancid-smelling pustules and
+      sores for 3 rounds. These sores cause the victim to become sickened for
+      these 3 rounds-this is a disease effect.
+Gender: Female
+Bloodline: Pestilence
+DuringCombat: >-
+  Jeshura has no time to prepare for combat initially, so she casts mirror image
+  on the first round of battle to get herself some time to cast mage armor and
+  gravity bow before she begins firing her longbow at foes. If she's surrounded,
+  she tries to sow confusion by using darkness or glitterdust to make it even
+  more difficult for her enemies to see. If reduced to fewer than 120 hit
+  points, Jeshura attempts to flee via dimension door&#8211;this, of course,
+  likely results in her being redirected by the vault's teleport trap into
+  another prison, area H8.
+Morale: >-
+  If reduced to 30 or fewer hit points and prevented from attempting to escape
+  by dimension door, Jeshura does something that may surprise the PCs&#8211;she
+  drops to her knees and begs for mercy. Although she has the powers and shape
+  of a pairaka div, she remains a human at heart and still fears death. See
+  Development, below, for what comes of granting mercy to the Plague Queen of
+  Kho.
+Gear: +4 composite longbow, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6224'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

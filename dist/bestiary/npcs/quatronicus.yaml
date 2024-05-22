@@ -1,0 +1,115 @@
+Name: Quatronicus
+CR: '14'
+XP: '38400'
+Race: Yarahkut inevitable
+MonsterSource: 'Pathfinder Adventure Path #90: The Divinity Drive 84'
+Alignment: LN
+Size: Large
+Type: outsider
+SubType: (extraplanar, inevitable, lawful)
+Init: '6'
+Senses:
+  - arcane sight, darkvision 60 ft., low-light vision, true seeing
+  - Perception +18
+Aura: malfunctioning (100 ft.)
+AC: 29, touch 15, flat-footed 23
+AC_Mods: (+6 Dex, +14 natural, -1 size)
+HP: '187'
+HD: (15d10+105)
+HP_Mods: regeneration 10 (chaotic)
+Saves: Fort +14, Ref +11, Will +14
+Fort: '14'
+Ref: '11'
+Will: '14'
+DefensiveAbilities: all-around vision, constructed
+SR: '25'
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - 2 claws +21 (2d6+7), 2 slams +21 (1d6+7), 2 wings +21 (1d6+7)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: dismantling gaze (100 ft., DC 21, 1/round), rend (2 wings, 2d6+10), wings
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +19)
+  values:
+    - label: Constant
+      value: arcane sight, true seeing
+    - label: At Will
+      value: chill metal (DC 16), heat metal (DC 16)
+    - label: 3/day
+      value: locate object, modify memory (DC 18), rusting grasp, wall of force
+    - label: 1/day
+      value: disintegrate (DC 20), feeblemind (DC 19), mark of justice
+    - label: 1/week
+      value: lesser geas (DC 18)
+AbilityScores:
+  - 24
+  - 23
+  - 20
+  - 13
+  - 20
+  - 19
+BaseAtk: '15'
+CMB: +23 (+27 disarm, steal)
+CMD: 39 (41 vs. disarm or steal)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Flyby Attack
+  - Greater Disarm
+  - Greater Steal
+  - Improved Disarm
+  - Improved Steal
+  - Quick Steal
+Skills:
+  - Diplomacy +16
+  - Disable Device +14
+  - Fly +16
+  - Intimidate +16
+  - Knowledge (engineering) +15
+  - Knowledge (planes) +10
+  - Perception +18
+  - Sense Motive +16
+  - Sleight of Hand +20
+  - Survival +14
+  - Use Magic Device +14
+Languages:
+  - truespeech
+Source: AP 126
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dismantling Gaze (Su)
+    description: >-
+      Once per round as a swift action, a yarahkut can concentrate its gaze on
+      any item within 100 feet and damage that item. An attended item must
+      succeed at a DC 21 Fortitude save or lose half its hit points and gain the
+      broken condition. Items that already have the broken condition and fail
+      this save are destroyed. Items that successfully save against this effect
+      are immune to that yarahkut's dismantling gaze for 24 hours. Unattended
+      nonmagical items don't receive a saving throw. The save DC is
+      Charisma-based.
+  - name: Malfunctioning Aura (Su)
+    description: >-
+      A yarahkut radiates a disruptive aura that is harmful to ranged weapons
+      within 100 feet. Mechanical projectile weapons-such as crossbows,
+      firearms, siege weapons, and many technological weapons-have a 20% chance
+      of not firing on each attack made within the aura's area. If a weapon in
+      this aura has a misfire value, its misfire value increases by 2.
+  - name: Wings (Ex)
+    description: A yarahkut's wings are primary attacks.
+Gear: necklace of adaptation, ring of freedom of movement
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11727'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

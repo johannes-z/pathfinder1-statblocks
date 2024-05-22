@@ -1,0 +1,83 @@
+Name: Supercharged Brass Guardian
+CR: '14'
+XP: '38400'
+Race: clockwork soldier
+MonsterSource: Pathfinder RPG Bestiary 3 57
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (clockwork)
+Init: '4'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +2
+AC: 28, touch 14, flat-footed 24
+AC_Mods: (+4 Dex, +14 natural)
+HP: '119'
+HD: (18d10+20)
+Saves: Fort +6, Ref +10, Will +6
+Fort: '6'
+Ref: '10'
+Will: '6'
+DR: 15/adamantine
+Immune: construct traits, electricity
+Speed: 50 ft.
+Melee:
+  - +1 longsword +24/+19/+14/+9 (1d10+12/19-20), +1 heavy mace +20 (1d8+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: multiweapon mastery, self-destruct, supercharged
+AbilityScores:
+  - 32
+  - 19
+  - —
+  - —
+  - 15
+  - 5
+BaseAtk: '18'
+CMB: '29'
+CMD: '33'
+Feats:
+  - Improved Initiative
+  - Lightning Reflexes
+SQ: efficient winding, proficient, standby, swift reactions
+Source: Wardens Of The Reborn Forge
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Destruct (Ex)
+    description: >-
+      If the supercharged Brass Guardian is reduced to fewer than 0 hit points,
+      it immediately begins to overheat. On its next turn, the Brass Guardian
+      explodes, dealing 8d6 points of fire damage to every creature in
+      10-foot-radius (Reflex DC 23 negates) and exposing any creature damaged by
+      the explosion to eidite sickness (see page 19). The save DC is
+      Dexterity-based.
+  - name: Supercharged (Ex)
+    description: >-
+      As long as the Brass Guardian is attached to the turbine in Krauss's
+      workshop via its various cables (which effectively form a 20-foot-long
+      tether) and for 1 round after detaching from the cords, the construct is
+      supercharged with electricity. During this time, all of the Brass
+      Guardian's melee attacks are treated as though they possessed the shocking
+      burst special ability. A creature struck by the supercharged Brass
+      Guardian is paralyzed for 1 round (Reflex DC 19 avoids). Creatures with
+      immunity or energy resistance to electricity are immune to this paralysis
+      effect. The Brass Guardian can rip free of the cords tethering it to the
+      turbine as a free action, and other creatures can break the cables with
+      slashing weapons (AC 10, 25 hp, hardness 3). The save DC is
+      Constitution-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5438'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

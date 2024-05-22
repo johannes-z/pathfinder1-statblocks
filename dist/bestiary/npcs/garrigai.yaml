@@ -1,0 +1,103 @@
+Name: Garrigai
+CR: '9'
+XP: '6400'
+Race: Witchfire
+MonsterSource: Pathfinder RPG Bestiary 2 284
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +16
+AC: 24, touch 24, flat-footed 17
+AC_Mods: (+7 deflection, +6 Dex, +1 dodge)
+HP: '115'
+HD: (10d8+70)
+Saves: Fort +10, Ref +11, Will +10
+Fort: '10'
+Ref: '11'
+Will: '10'
+DefensiveAbilities: incorporeal, witchflame
+Immune: fire, undead traits
+Speed: fly 50 ft. (perfect)
+Melee:
+  - incorporeal touch +13 (8d6 fire plus witchflame)
+Ranged:
+  - witchflame bolt +13 (8d6 fire plus witchflame)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th)
+  values:
+    - label: At Will
+      value: >-
+        dancing lights, disguise self, ghost sound (DC 17), invisibility,
+        pyrotechnics (DC 18), ray of enfeeblement (DC 18)
+    - label: 1/day
+      value: summon (level 4, 2 will-o'-wisps 50%)
+AbilityScores:
+  - —
+  - 22
+  - —
+  - 17
+  - 16
+  - 25
+BaseAtk: '7'
+CMB: '13'
+CMD: '31'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Lightning Reflexes
+  - Mobility
+Skills:
+  - Bluff +17
+  - Fly +22
+  - Intimidate +20
+  - Knowledge (arcana) +13
+  - Knowledge (local) +13
+  - Perception +16
+  - Sense Motive +11
+  - Stealth +19
+Languages:
+  - Auran
+  - Minkaian
+  - Tien
+SQ: sound mimicry (animal noises)
+Source: PFS S3-15
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Witchflame (Su)
+    description: >-
+      Any creature damaged by the incorporeal touch or ranged bolt attacks of a
+      witchfire must succeed on a DC 22 Will save or become engulfed in sickly
+      green flames. While these eerie flames deal no additional damage, the
+      affected creature glows as per faerie fire and becomes sickened. While
+      under the effects of the witchflame, the victim gains vulnerability to
+      fire and takes half again as much damage (+50%) from fire attacks of any
+      sort. This effect persists for 10 minutes. The supernatural flames can
+      only be extinguished before this duration expires by a break enchantment,
+      miracle, remove curse, or wish spell-the effective caster level of the
+      witchflame is equal to the witchfire's HD (CL 10th for most witchfires).
+      Any creature entering the same square as a witchfire or striking it with a
+      melee attack must succeed on a DC 22 Will save or begin burning with
+      witchflame, even if the attack would not otherwise harm the witchfire
+      because of its incorporeal nature. The save DCs are Charisma-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6153'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

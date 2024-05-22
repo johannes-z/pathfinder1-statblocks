@@ -1,0 +1,162 @@
+Name: Young Driders
+CR: '6'
+XP: '2400'
+Race: drider
+Alignment: CE
+Size: Medium
+Type: aberration
+Init: '2'
+Senses:
+  - darkvision 60 ft., detect good, detect law, detect magic
+  - Perception +15
+AC: 19, touch 14, flat-footed 15
+AC_Mods: (+4 Dex, +1 dodge, +4 natural)
+HP: '58'
+HD: (9d8+18)
+Saves: Fort +5, Ref +7, Will +9
+Fort: '5'
+Ref: '7'
+Will: '9'
+Immune: sleep
+SR: '18'
+Speed: 30 ft., climb 20 ft., fly 30 ft. (good)
+Melee:
+  - mwk heavy mace +7/+2 (1d6+1), bite +2 (1d3+1 plus poison)
+Ranged:
+  - mwk composite longbow +9/+4 (1d8+1/x3)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: web (+9 ranged, DC 18, hp 9)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th)
+  values:
+    - label: Constant
+      value: detect good, detect law, detect magic
+    - label: At Will
+      value: dancing lights, darkness, faerie fire
+    - label: 1/day
+      value: >-
+        clairaudience/clairvoyance, deeper darkness, dispel magic, levitate,
+        suggestion (DC 16)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th)
+  values:
+    - label: 3rd (4/day)
+      value: lightning bolt (DC 16)
+    - label: 2nd (6/day)
+      value: invisibility, web (DC 15)
+    - label: 1st (7/day)
+      value: >-
+        mage armor, magic missile, ray of enfeeblement (DC 14), silent image (DC
+        14)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 13), daze (DC 13), ghost sound, mage hand, ray of frost, read
+        magic, resistance
+AbilityScores:
+  - 11
+  - 19
+  - 14
+  - 15
+  - 16
+  - 16
+BaseAtk: '6'
+CMB: '7'
+CMD: '21'
+Feats:
+  - Blind-Fight
+  - Dodge
+  - Combat Casting
+  - Weapon Focus (bite)
+  - Weapon Focus (mace)
+Skills:
+  - Climb +20
+  - Fly +6
+  - Intimidate +15
+  - Knowledge (arcana) +14
+  - Perception +15
+  - Spellcraft +14
+  - Stealth +16
+RacialMods: +4 Stealth
+Languages:
+  - Common
+  - Elven
+  - Undercommon
+SQ: undersized weapons
+Source: PFS S1-32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 16; frequency 1/round for 6 rounds; effect 1d2
+      Str; cure 1 save. The save DC is Constitution-based. Spells A drider casts
+      spells as a 6th-level cleric, sorcerer, or wizard, but does not gain any
+      other class abilities.
+  - name: Web (Ex)
+    description: >-
+      Driders can use webs to support themselves and up to one additional
+      creature of the same size. In addition, such creatures can throw a web up
+      to eight times per day. This is similar to an attack with a net but has a
+      maximum range of 50 feet, with a range increment of 10 feet, and is
+      effective against targets up to one size category larger than the drider.
+      An entangled creature can escape with a successful Escape Artist check or
+      burst it with a Strength check. Both are standard actions with a DC equal
+      to 10 + 1/2 creature's HD + creature's Con modifier. Attempts to burst a
+      web by those caught in it suffer a &#8211;4 penalty. Driders can create
+      sheets of sticky webbing up to three times their size. They usually
+      position these sheets to snare flying creatures but can also try to trap
+      prey on the ground. Approaching creatures must succeed on a DC 20
+      Perception check to notice a web; otherwise they stumble into it and
+      become trapped as though by a successful web attack. Attempts to escape or
+      burst the webbing gain a +5 bonus if the trapped creature has something to
+      walk on or grab while pulling free. Each 5-foot section of webs has a
+      number of hit points equal to the Hit Dice of the creature that created
+      it, and sheet webs have damage reduction 5/&#8211;. A drider can move
+      across its own web at its climb speed and can pinpoint the location of any
+      creature touching its web.
+  - name: Undersized Weapons (Ex)
+    description: >-
+      A drider wields weapons as if it were one size category smaller than its
+      actual size (Medium weapons for most driders).
+BeforeCombat: >-
+  If the driders are warned about the PCs by the demons in the previous area,
+  they cast mage armor (giving them AC 22, touch 12, flat-footed 19),
+  invisibility, and (if there is time) target several stalactites around the
+  cavern with darkness (not deeper darkness), then wait for the PCs to arrive.
+DuringCombat: >-
+  The driders break their invisibility by casting lightning bolt and follow up
+  with magic missile or bow attacks. They remain in the air. They may cast
+  invisibility again and move to another location (such as an area of darkness)
+  to make attacks that can't be traced to them (such as suggestion or firing
+  arrows, as lightning bolt and magic missile leave a visible trail that reveals
+  the caster's location). If the PCs look like they're going to try to enter the
+  pyramid, one drider casts web over the entrance. Remember that the ambient
+  light in this room is dim light except right next to the pyramid, and the
+  darkness spell reduces the light level by one step, so if the driders use
+  darkness anywhere else in the cavern, normal-sighted PCs are effectively blind
+  attacking targets in that area, while the driders can see perfectly well with
+  their superior darkvision.
+Morale: >-
+  If things go poorly for the driders, they turn invisible and use distractions
+  such as ghost sound and silent image to distract and confuse the PCs, giving
+  the driders time to retreat into the pyramid and warn their allies. Because
+  these driders have the young template, they are Medium size rather than Large
+  and do not need to squeeze to move through the 5-foot-wide passages in the
+  pyramid.
+Gear: mwk heavy mace, mwk composite longbow (+2 Str), arrows (20)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: young|
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '4136'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

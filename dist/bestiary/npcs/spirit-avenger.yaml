@@ -1,0 +1,134 @@
+Name: Spirit Avenger
+CR: '16'
+XP: '76800'
+Race: half-orc
+Class: barbarian 4/sorcerer 6/eldritch knight 7
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +16
+AC: 25, touch 18, flat-footed 20
+AC_Mods: (+5 armor, +3 deflection, +4 Dex, +1 dodge, +2 natural)
+HP: '139'
+HD: (4d12+6d6+7d10+48)
+Saves: Fort +17, Ref +12, Will +16
+Fort: '17'
+Ref: '12'
+Will: '16'
+DefensiveAbilities: orc ferocity, trap sense +1, uncanny dodge
+Resist: acid 5, cold 5
+Speed: 40 ft.
+Melee:
+  - +1 spear +15/+10/+5 (1d8+1/x3)
+Ranged:
+  - +1 shortbow +20/+15/+10 (1d6+3/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: rage (12 rounds/day), rage powers (no escape, superstition +3)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 12th; concentration +15)
+  values:
+    - label: 6/day
+      value: heavenly fire (1d4+3 divine energy)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +15)
+  values:
+    - label: 6th (3/day)
+      value: disintegrate (DC 19)
+    - label: 5th (5/day)
+      value: dismissal (DC 18), summon monster V
+    - label: 4th (6/day)
+      value: dimensional anchor, locate creature, resilient sphere (DC 17)
+    - label: 3rd (7/day)
+      value: >-
+        halt undead (DC 16), haste, lightning bolt (DC 16), magic circle against
+        evil, summon monster III
+    - label: 2nd (7/day)
+      value: >-
+        blindness/deafness (DC 15), false life, mirror image, resist energy,
+        rope trick, see invisibility
+    - label: 1st (7/day)
+      value: >-
+        bless, cause fear (DC 14), detect undead, magic missile, shield, unseen
+        servant
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, disrupt undead, flare (DC 13), mage hand,
+        message, open/close, prestidigitation, resistance
+AbilityScores:
+  - 10
+  - 18
+  - 14
+  - 10
+  - 16
+  - 16
+BaseAtk: '14'
+CMB: '14'
+CMD: '32'
+Feats:
+  - Arcane Armor Mastery
+  - Arcane Armor Training
+  - Blind-Fight
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Great Fortitude
+  - Iron Will
+  - Point-Blank Shot
+  - Rapid Shot
+  - Weapon Focus (shortbow)
+  - Weapon Specialization (shortbow)
+Skills:
+  - Climb +8
+  - Diplomacy +5
+  - Handle Animal +11
+  - Intimidate +5
+  - Knowledge (nature) +8
+  - Knowledge (planes) +5
+  - Knowledge (religion) +5
+  - Linguistics +1
+  - Perception +16
+  - Survival +11
+  - Swim +8
+Languages:
+  - Celestial
+  - Common
+  - Giant
+  - Orc
+SQ: >-
+  bloodline arcana (summoned creatures gain DR 3/evil), diverse training, fast
+  movement, orc blood, weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: celestial
+BeforeCombat: The eldritch knight casts false life.
+DuringCombat: >-
+  The knight starts combat with shield and summoning spells, letting conjured
+  allies run interference while he contains or damages his foes.
+Gear: >-
+  +1 ghost touch arrows (10), +1 undead-bane arrows (10), scroll of neutralize
+  poison, scroll of remove disease, scrolls of restoration (2)
+OtherGear: >-
+  +1 shortbow with 20 arrows, +1 spear, amulet of natural armor +2, belt of
+  incredible dexterity +2, bracers of armor +5, cloak of resistance +3, headband
+  of mental prowess +2 (Wis, Cha), ring of protection +3, 246 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without false life, the eldritch knight's statistics are hp 125.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3894'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

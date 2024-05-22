@@ -1,0 +1,120 @@
+Name: Phomandala
+CR: '16'
+XP: '76800'
+Race: medusa
+Class: sorcerer 12
+MonsterSource: Pathfinder RPG Bestiary 201, Advanced Bestiary 213
+Alignment: LE
+Size: Medium
+Type: monstrous humanoid
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision, scent, allaround vision
+  - Perception +26
+AC: 32, touch 19, flat-footed 26
+AC_Mods: (+4 armor, +3 deflection, +5 Dex, +1 dodge, +5 natural, +4 shield)
+HP: '238'
+HD: (20 HD; 8d10+12d6+152)
+Saves: Fort +12, Ref +15, Will +17
+Fort: '12'
+Ref: '15'
+Will: '17'
+DR: 10/adamantine
+Speed: 30 ft.
+Melee:
+  - 3 bites +20 (1d8+7 plus poison), 2 claws +20 (1d4+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: laughing touch 8/day, leaping pounce, petrifying gaze (DC 21), poison (DC 20)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +17)
+  values:
+    - label: 6th (3/day)
+      value: chain lightning (DC 21)
+    - label: 5th (6/day)
+      value: cone of cold (DC 20), nightmare (DC 20), tree stride
+    - label: 4th (7/day)
+      value: bestow curse (DC 19), dimension door, poison (DC 19), stoneskin
+    - label: 3rd (7/day)
+      value: >-
+        deep slumber (DC 18), displacement, lightning bolt (DC 18), major image,
+        vampiric touch
+    - label: 2nd (7/day)
+      value: >-
+        bull's strength, cat's grace, glitterdust (DC 17), hideous laughter (DC
+        17), scorching ray, spectral hand
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 16), disguise self (DC 16), entangle (DC 16), mage
+        armor, magic missile, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, ghost sound (DC 15), mage hand, message,
+        prestidigitation, read magic, resistance, touch of fatigue (DC 15)
+AbilityScores:
+  - 18
+  - 20
+  - 22
+  - 10
+  - 16
+  - 20
+BaseAtk: '14'
+CMB: '18'
+CMD: '37'
+Feats:
+  - Ability Focus (petrifying gaze)
+  - Arcane Strike
+  - Dodge
+  - Empower Spell
+  - Eschew Materials
+  - Improved Natural Attack (bite)
+  - Quicken Spell
+  - Toughness
+  - Vital Strike
+  - Weapon Finesse
+  - Weapon Focus (bite)
+  - Weapon Focus (claws)
+Skills:
+  - Acrobatics +21 (+29 jumping)
+  - Perception +26
+  - Spellcraft +23
+  - Survival +11
+Languages:
+  - Common
+SQ: bloodline arcana, fleeting glance 12 rounds/day, woodland stride
+Source: AP 36
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Leaping Pounce (Ex)
+    description: >-
+      When Phomandala charges a foe and jumps at least the last 10 feet of it,
+      she may make a full attack.
+Gender: Female
+Bloodline: Fey
+BeforeCombat: >-
+  Phomandala casts bull's strength, cat's grace, mage armor, stoneskin, spectral
+  hand, and shield before combat begins if she has the time.
+DuringCombat: >-
+  On the first round of combat, Phomandala uses spectral hand to make attacks
+  with bestow curse, poison, and vampiric touch while attempting to stay at
+  range-her woodland stride ability should make it easy for her to remain more
+  mobile than the PCs in these tangled rooms, allowing her to make hit-and-run
+  attacks.
+Morale: Phomandala fights to the death.
+Gear: amulet of natural armor +3, ring of protection +3, 1,500 gp in diamond dust
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: saurian|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '890'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

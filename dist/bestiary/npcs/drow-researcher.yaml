@@ -1,0 +1,125 @@
+Name: Drow Researcher
+CR: '5'
+XP: '1600'
+Race: drow
+Class: sorcerer 6
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (elf )
+Init: '1'
+Senses:
+  - darkvision 120 ft.
+  - Perception +4
+AC: 12, touch 12, flat-footed 11
+AC_Mods: (+1 deflection, +1 Dex)
+HP: '21'
+HD: (6d6)
+Saves: Fort +3, Ref +4, Will +7; +2 vs. enchantment
+Fort: '3'
+Ref: '4'
+Will: '7'
+Save_Mods: +2 vs. enchantment
+Immune: sleep
+SR: '12'
+Weaknesses: light blindness
+Speed: 30 ft., fly 30 ft. (good)
+Melee:
+  - mwk dagger +3 (1d4/19-20 plus poison)
+Ranged:
+  - hand crossbow +4 (1d4/19-20 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th)
+  values:
+    - label: 1/day
+      value: dancing lights, darkness, faerie fire
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 6th)  3rd (4)-deep slumber  2nd (6)-invisibility,
+    knock, locate object  1st (7)-comprehend languages, detect secret doors,
+    erase, identify, magic missile
+  values:
+    - label: 0 (at will)
+      value: >-
+        detect magic, detect poison, light, mage hand, mending, open/close, read
+        magic
+AbilityScores:
+  - 8
+  - 12
+  - 10
+  - 14
+  - 13
+  - 18
+BaseAtk: '3'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Skill Focus (Knowledge [arcana])
+  - Skill Focus (Stealth)
+Skills:
+  - Appraise +6
+  - Diplomacy +5
+  - Fly +5
+  - Intimidate +9
+  - Knowledge (arcana) +14
+  - Knowledge (nobility) +3
+  - Knowledge (planes) +6
+  - Knowledge (religion) +3
+  - Linguistics +3
+  - Perception +4
+  - Spellcraft +11
+  - Stealth +5
+  - Survival +2
+  - Use Magic Device +8
+Languages:
+  - Elven
+  - Ancient Orisiani
+  - Undercommon,
+SQ: bloodline power (arcane bond, dagger), metamagic adept 1/ day
+Source: PFS S1-32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison Use (Ex)
+    description: >-
+      Drow are skilled in the use of poison and never risk accidentally
+      poisoning themselves. The researchers do not carry any poison.
+Gender: Female
+Bloodline: arcane
+BeforeCombat: >-
+  The researchers are ill-prepared for combat and cast invisibility if they
+  believe they are in danger.
+DuringCombat: >-
+  If the researchers aren't invisible when combat starts, they cast
+  invisibility. They fall back to let their guard take point and defend them.
+  Once he's in position to keep enemies from getting to them, they cast deep
+  slumber or magic missile every round. If the PCs bring light, the researchers
+  use darkness to reduce the light level by one step.
+Morale: >-
+  If injured, a researcher falls back to a safe point and drinks her potion. If
+  she can't safely drink or fall back, she casts invisibility and defensively
+  drinks her potion. Researchers fight to the death, knowing that Jevana will
+  kill them if they surrender to surface-dwellers.
+Gear: potion of cure moderate wounds, mwk dagger, hand crossbow, bolts (20)
+OtherGear: >-
+  ring of protection +1, cloak of resistance +1, wand of arcane sight (2
+  charges), bundle of scrolls with notes about the pyramid's warding magic
+  (written in Undercommon), 200 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4138'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

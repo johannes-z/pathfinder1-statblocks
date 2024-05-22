@@ -1,0 +1,90 @@
+Name: Asvika
+CR: '1'
+XP: '400'
+Race: human
+Class: sorcerer 2
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +1
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex)
+HP: '11'
+HD: (2d6+2)
+Saves: Fort +1, Ref +2, Will +4
+Fort: '1'
+Ref: '2'
+Will: '4'
+Speed: 30 ft.
+Melee:
+  - punching dagger +3 (1d4/x3)
+Ranged:
+  - mwk light crossbow +4 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 2nd; concentration +5)
+  values:
+    - label: 6/day
+      value: acidic ray (1d6+1 acid)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 2nd; concentration +5)
+  values:
+    - label: 1st (5/day)
+      value: cause fear (DC 14), shocking grasp
+    - label: 0 (at will)
+      value: acid splash, daze (DC 13), detect magic, ghost sound (DC 13), mage hand
+AbilityScores:
+  - 10
+  - 14
+  - 12
+  - 8
+  - 13
+  - 17
+BaseAtk: '1'
+CMB: '1'
+CMD: '13'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Weapon Finesse
+Skills:
+  - Intimidate +8
+  - Knowledge (dungeoneering) +4
+  - Spellcraft +4
+Languages:
+  - Common
+  - Vudrani
+SQ: bloodline arcana (+50% duration on polymorph spells)
+Source: PFS S6-08
+IsTemplate: '0'
+Gender: Female
+Bloodline: aberrant
+BeforeCombat: Asvika cast mage armor before entering the temple.
+DuringCombat: >-
+  Asvika focuses her attacks on heavily armed or armored attackers. She begins
+  by attempting to frighten targets away with cause fear and employs shocking
+  grasp against nearby targets.
+Morale: >-
+  Asvika flees as soon as she can without provoking attacks of opportunity. She
+  otherwise fights to the death.
+Gear: potion of cure light wounds (2), wand of mage armor (10 charges)
+OtherGear: punching dagger, mwk light crossbow with 20 bolts, everburning torch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7893'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

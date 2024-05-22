@@ -1,0 +1,144 @@
+Name: Thessene
+CR: '13'
+XP: '25600'
+Race: triton
+Class: oracle 12
+MonsterSource: Pathfinder RPG Bestiary 2 270, Pathfinder RPG Advanced Player's Guide 42
+Alignment: NG
+Size: Medium
+Type: outsider
+SubType: (native, water)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +18
+AC: 32, touch 17, flat-footed 29
+AC_Mods: (+8 armor, +4 deflection, +3 Dex, +4 natural, +3 shield)
+HP: '157'
+HD: (15 HD; 12d8+3d10+87)
+Saves: Fort +11, Ref +8, Will +13
+Fort: '11'
+Ref: '8'
+Will: '13'
+Speed: 5 ft., swim 40 ft.
+Melee:
+  - mwk frost trident +14/+9/+4 (1d8+1 plus 1d6 cold)
+Ranged:
+  - >-
+    +3 frost holy underwater heavy crossbow +19 (1d10+3/17-20 plus 1d6 cold plus
+    2d6 vs. evil)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Triton Spell-Like Abilities (CL 7th; concentration +11)
+  values:
+    - label: 1/day
+      value: summon nature's ally II (Small water elemental or 1d3 dolphins only)
+SpellsKnown:
+  header: Oracle Spells Known (CL 12th; concentration +16)
+  values:
+    - label: 6th (3/day)
+      value: cold ice strikeUM (DC 20), mass cure moderate wounds, fluid formAPG
+    - label: 5th (5/day)
+      value: >-
+        greater forbid actionUM (DC 19), geyserAPG (DC 19), holy iceUM, mass
+        cure light wounds
+    - label: 4th (7/day)
+      value: >-
+        control water, cure critical wounds, greater magic weapon, holy smite
+        (DC 18), wall of ice (DC 18)
+    - label: 3rd (7/day)
+      value: >-
+        air breathingMC, blindness/deafness (DC 17), cure serious wounds, dispel
+        magic, protection from energy, water breathing
+    - label: 2nd (7/day)
+      value: >-
+        bear's endurance, cure moderate wounds, hold person (DC 16), silence (DC
+        16), slipstreamAPG (DC 16), spear of purityUM (DC 16), spiritual weapon
+    - label: 1st (7/day)
+      value: >-
+        bless, cure light wounds, detect evil, divine favor, obscuring mist,
+        shield of faith, touch of the seaAPG (DC 15)
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, detect poison, guidance, light, read magic,
+        resistance, stabilize, virtue
+AbilityScores:
+  - 12
+  - 16
+  - 18
+  - 11
+  - 15
+  - 18
+BaseAtk: '12'
+CMB: '13'
+CMD: '30'
+Feats:
+  - Deadly Aim
+  - Extra Revelation
+  - Improved Critical (heavy crossbow)
+  - Improved Initiative
+  - Point-Blank Shot
+  - Rapid Reload
+  - Toughness
+  - Weapon Focus (heavy crossbow)
+Skills:
+  - Acrobatics +15
+  - Diplomacy +15
+  - Knowledge (nature) +6
+  - Knowledge (planes) +6
+  - Knowledge (religion) +6
+  - Perception +18
+  - Sense Motive +15
+  - Spellcraft +10
+  - Stealth +10
+  - Survival +10
+  - Swim +13
+Languages:
+  - Aquan
+  - Celestial
+  - Common
+  - Infernal
+  - tongues (understand only)
+SQ: >-
+  oracle's curse (tongues), revelations (blizzard 1/day [4 rounds, 12d4 cold
+  damage, Reflex DC 20 half], freezing spells, ice armor, punitive
+  transformation 4/day [DC 20, 12 rounds], wintry touch 7/day [1d6+6 cold
+  damage])
+Source: AP 108
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Thessene has already activated his ice armor revelation for the day. In
+  addition, he casts greater magic weapon on his crossbow and bear's endurance
+  and shield of faith on himself before combat.
+DuringCombat: >-
+  When he is within 20 feet of Elissi, Thessene gains a +4 resistance bonus on
+  saving throws against attacks made or created by evil creatures from the
+  cetaceal's protective aura. Thessene casts divine favor on the first round of
+  combat, then attacks with spells or his crossbow (using Deadly Aim), casting
+  cold ice strike as a swift action every round to take advantage of his
+  freezing spells revelation. Against evil foes, Thessene uses his punitive
+  transformation revelation to turn his foes into fish, especially if they are
+  on land.
+Morale: Thessene fights valiantly to the death.
+Gear: potions of fly (2)
+OtherGear: >-
+  +2 buckler, +1 holy underwater heavy crossbowUE with 20 crossbow bolts, mwk
+  trident, headband of alluring charisma +2, spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+Mystery: waves
+CompanionFamiliarLink: '0'
+id: '8464'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,94 @@
+Name: Daughter
+CR: '2'
+XP: '600'
+Race: Tooth fairy
+Class: rogue 2
+MonsterSource: Pathfinder RPG Bestiary 4 262
+Alignment: CE
+Size: Diminutive
+Type: fey
+SubType: (extraplanar)
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +8
+AC: 18, touch 18, flat-footed 14
+AC_Mods: (+3 Dex, +1 dodge, +4 size)
+HP: '22'
+HD: (2d6+2d8+6)
+Saves: Fort +1, Ref +9, Will +4
+Fort: '1'
+Ref: '9'
+Will: '4'
+DefensiveAbilities: evasion
+DR: 2/cold iron
+Speed: 15 ft., fly 60 ft. (perfect)
+Melee:
+  - +1 pliers +10 (1d4/19-20), bite +4 (1d2-1 plus paralysis)
+Space: 1 ft.
+Reach: 0 ft. (5 ft. with pliers)
+SpecialAttacks: >-
+  paralysis (1d3 rounds, DC 11), sneak attack +1d6, death throes (DC 12),
+  pliers, tricky thief
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +7)
+  values:
+    - label: At Will
+      value: mage hand, open/close
+    - label: 1/day
+      value: invisibility (self only), sleep (DC 13)
+AbilityScores:
+  - 9
+  - 16
+  - 13
+  - 10
+  - 13
+  - 14
+BaseAtk: '2'
+CMB: +1 (+5 steal)
+CMD: 11 (13 vs. steal)
+Feats:
+  - Dodge
+  - Greater Steal
+  - Improved Steal
+  - Weapon Finesse
+Skills:
+  - Acrobatics +10
+  - Diplomacy +7
+  - Disable Device +4
+  - Escape Artist +10
+  - Fly +22
+  - Perception +8
+  - Sense Motive +8
+  - Sleight of Hand +10
+  - Stealth +22
+Languages:
+  - Sylvan
+SQ: rogue talents (slow reactions), trapfinding +1
+Source: PFS S6-15
+IsTemplate: '0'
+BeforeCombat: >-
+  The Daughters extract Virml's remaining molars, or scour the taxidermy for
+  choice bicuspids.
+DuringCombat: >-
+  The daughters rush into melee and gang up on the PC with the highest Charisma,
+  biting and paralyzing her so they can extract more gifts for Gormandelle. If
+  the fairies can't hit their targets in melee, they fly out of melee range and
+  cast sleep instead, hoping to make the extractions easier.
+Morale: The daughters flee if their "mother," Lady Gormandelle, surrenders or dies.
+Gear: bag of gold and silver teeth (worth 750 gp total)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7937'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

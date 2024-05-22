@@ -1,0 +1,109 @@
+Name: Clockwork Snail
+CR: '10'
+XP: '9600'
+Alignment: 'N'
+Size: Large
+Type: construct
+SubType: (clockwork)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 26, touch 14, flat-footed 21
+AC_Mods: (+3 Dex, +2 dodge, +12 natural, -1 size)
+HP: '101'
+HD: (13d10+30)
+Saves: Fort +4, Ref +9, Will +4
+Fort: '4'
+Ref: '9'
+Will: '4'
+DR: 5/adamantine
+Immune: construct traits, eidite sickness
+Weaknesses: vulnerable to electricity
+Speed: 30 ft., climb 20 ft.
+Speed_Mod: improved charge, tracks
+Melee:
+  - mwk dire flail +18/+13/+8 (1d8+7), mwk dire flail +18  (1d8+3)
+Space: 10 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 24
+  - 17
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '13'
+CMB: '21'
+CMD: 36 (can't be tripped)
+Feats:
+  - Improved InitiativeB
+  - Lightning ReflexesB
+  - Two-Weapon FightingB
+Skills:
+  - Climb +23
+SQ: swift reactions, undersized weapons, winding
+Environment: any
+Organization: solitary, squadron (2-4), or cavalry (5-10)
+Treasure: incidental (mwk dire flail, other treasure)
+Description_Visual: >-
+  The torso of this constructed gastropod is elongated and eerily humanoid. Smog
+  pours from the shell-like posterior of the machine, while toxic green ooze
+  courses through its translucent pipes.
+Source: Wardens Of The Reborn Forge
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Eidite Trail (Ex)
+    description: >-
+      A clockwork snail can release a noxious trail of poisonous ooze, coating
+      any surface it treads upon with viscous liquid eidite. Any square that the
+      clockwork snail moves through while this ability is active is covered in a
+      nonmagical web effect that acts in all ways as the spell (DC 16 negates),
+      but also has a chance of infecting whoever touches it with eidite sickness
+      (see page 19). A clockwork snail can activate or deactivate this ability
+      as a swift action, and can cover a total of 40 squares per day, though
+      these squares need not be consecutive. The save DC is Constitution-based.
+  - name: Improved Charge (Ex)
+    description: >-
+      A clockwork snail excels at charging into enemies; it can move up to
+      triple its speed when using the charge action, and ignores any effects of
+      difficult terrain while charging.
+  - name: Tracks (Ex)
+    description: >-
+      A clockwork snail's tracks allow it to climb even sheer surfaces with
+      ease, granting it a +16 racial bonus on Climb checks instead of the usual
+      +8 for having a climb speed, and it can make attacks with its upper body
+      normally even while climbing.
+Description:
+  - >-
+    Although their upper bodies resemble the clockwork soldiers from which their
+    forms were no doubt inspired, these mechanical monstrosities are in fact a
+    horrific blend of gastropod and clockwork, fusing the cruelest aspects of
+    calculated war machinery and the foul influence of eidite.
+  - A clockwork snail is 12 feet tall and weighs 2,000 pounds.
+  - >-
+    Construction The creator of a clockwork snail must start with crafted
+    clockwork pieces worth 7,500 gp and 1,000 gp worth of refined eidite ore.
+  - >-
+    Clockwork Snail CL 12th; Price 100,000 gp Construction Requirements Craft
+    Construct, animate objects, freedom of movement, geas/quest, and poison,
+    creator must be at least caster level 12th; Skill Craft (clockwork) DC 20;
+    Cost 50,000 gp
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5447'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

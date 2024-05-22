@@ -1,0 +1,111 @@
+Name: Skeleton Warrior
+CR: '14'
+XP: '38400'
+Race: Human
+Class: fighter 13
+MonsterSource: The Tome of Horrors Complete 734
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+Aura: fear aura (30 ft., DC 18)
+AC: 27, touch 12, flat-footed 25
+AC_Mods: (+11 armor, +1 Dex, +1 dodge, +4 natural)
+HP: '121'
+HD: (13d10+26 plus 13)
+Saves: Fort +12, Ref +9, Will +7; +3 vs. fear
+Fort: '12'
+Ref: '9'
+Will: '7'
+Save_Mods: +3 vs. fear
+DefensiveAbilities: bravery +3
+DR: 10/magic and bludgeoning
+Immune: channel energy, undead traits
+SR: '28'
+Speed: 30 ft.
+Melee:
+  - +2 bastard sword +25/+20/+15 (1d10+16/17-20)
+Ranged:
+  - mwk longbow +17/+12/+7 (1d8+2/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: weapon training (heavy blades +3, bows +2, light blades +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th)
+  values:
+    - label: Constant
+      value: find target
+AbilityScores:
+  - 22
+  - 13
+  - —
+  - 8
+  - 12
+  - 14
+BaseAtk: '13'
+CMB: '19'
+CMD: '31'
+Feats:
+  - Alertness
+  - Blind-FightB
+  - CleaveB
+  - Critical FocusB
+  - Dodge
+  - Great CleaveB
+  - Improved Critical (bastard sword) B
+  - Improved InitiativeB
+  - Improved Sunder
+  - Lightning Reflexes
+  - Power Attack
+  - Quick DrawB
+  - Run
+  - Weapon Focus (bastard sword)
+  - Weapon Specialization (bastard sword)
+Skills:
+  - Climb +13
+  - Intimidate +26
+  - Perception +9
+  - Sense Motive +9
+  - Swim +14
+RacialMods: +8 Intimidate, +6 Perception, +6 Sense Motive
+Languages:
+  - Common
+SQ: armor training 3
+Source: Sword of Air-Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear Aura (Su)
+    description: >-
+      Skeleton warriors are shrouded in an aura of fear. Creatures with less
+      than 5 HD and in a 30-foot radius must succeed on a Will save or be
+      affected as though by fear cast by a caster of the skeleton warrior's
+      levels.
+  - name: Find Target (Sp)
+    description: >-
+      A skeleton warrior can track and find the possessor of its circlet
+      unerringly, as though guided by discern location. Using this ability, it
+      can also find the last person to possess its circlet. Its caster level is
+      equal to its total Hit Dice.
+Gear: >-
+  +2 full plate, +2 bastard sword, masterwork longbow, 20 arrows, cloak of
+  resistance +2, boots of speed
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: skeleton warrior|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12795'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,73 @@
+Name: Graven Guardian Of Iomedae
+CR: '5'
+XP: '1600'
+Race: Graven Guardian Of Iomedae
+MonsterSource: Pathfinder RPG Bestiary 3 140
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +1
+AC: 21, touch 13, flat-footed 18
+AC_Mods: (+2 Dex, +1 dodge, +8 natural)
+HP: '53'
+HD: (6d10+20)
+HP_Mods: fast healing 2
+Saves: Fort +2, Ref +5, Will +3
+Fort: '2'
+Ref: '5'
+Will: '3'
+DR: 5/adamantine
+Immune: construct traits
+SR: '16'
+Weaknesses: faith bound
+Speed: 70 ft.
+Melee:
+  - +2 keen longsword +12/+12/+7 (1d8+6/17-20)
+  - slam +10/+10 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: enhanced, good weapons, magic weapon
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +0)
+  values:
+    - label: 1/day
+      value: haste (self only)
+AbilityScores:
+  - 16
+  - 15
+  - —
+  - —
+  - 12
+  - 1
+BaseAtk: '6'
+CMB: '10'
+CMD: '22'
+SQ: guardian domains (Good, War)
+Source: AP 104
+IsTemplate: '0'
+BeforeCombat: The guardian casts haste before battle.
+DuringCombat: >-
+  The guardian attacks any intruders in the sanctuary. The construct ignores
+  anyone wearing or displaying a holy symbol of Iomedae who does not attack it
+  first, but its sword deals 1d6 points of additional damage to evil creatures
+  because of its good weapons ability.
+Morale: The graven guardian fights until destroyed.
+Gear: mwk longsword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8229'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

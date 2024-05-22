@@ -1,0 +1,107 @@
+Name: Palaveen
+CR: '3'
+XP: '800'
+Race: tiefling
+Class: cleric of Asmodeus 4
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 18, touch 11, flat-footed 17
+AC_Mods: (+7 armor, +1 Dex)
+HP: '33'
+HD: (4d8+12)
+Saves: Fort +6, Ref +2, Will +7
+Fort: '6'
+Ref: '2'
+Will: '7'
+Resist: cold 5, electricity 5, fire 5
+Speed: 20 ft.
+Melee:
+  - +1 morningstar +4 (1d8+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 2/day (2d6, DC 11)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 4th, +4 ranged touch)
+  values:
+    - label: 6/day
+      value: copycat, fire bolt Racial Spell-Like Abilities (CL 4th)
+    - label: 1/day
+      value: darkness
+SpellsPrepared: >-
+  Spells Prepared (CL 4th)  2nd-cure moderate wounds, hold person (DC 15),
+  invisibilityD, spiritual weapon 1st-burning handsD (DC 14), cause fear (2, DC
+  14), cure light wounds (2)  0-bleed, detect magic, mending, stabilize
+SpellDomains: (Fire, Trickery)
+AbilityScores:
+  - 10
+  - 12
+  - 14
+  - 15
+  - 16
+  - 8
+BaseAtk: '3'
+CMB: '3'
+CMD: '14'
+Feats:
+  - Command Undead
+  - Improved Initiative
+Skills:
+  - Bluff +5
+  - Diplomacy +3
+  - Heal +8
+  - Intimidate +1
+  - Knowledge (history) +6
+  - Knowledge (nobility) +6
+  - Knowledge (religion) +6
+  - Perception +6
+  - Sense Motive +7
+  - Spellcraft +6
+  - Stealth +5
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+Source: AP 25
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Palaveen casts invisibility on himself if he suspects battle is about to
+  start.
+DuringCombat: >-
+  While invisible, Palaveen casts spiritual weapon and directs it to attack a
+  lightly armored character. He uses his wand to heal allies and casts stabilize
+  on any who fall beyond the range of his touch. If forced to attack he uses
+  burning hands on a group of enemies (even if he catches another tiefling in
+  the area, as he expects their fire resistance will protect them), fire bolt at
+  wounded targets, and cause fear or hold person on weak-willed opponents. If he
+  is visible and has a spare turn, he uses copycat to confuse opponents. If he
+  wants reinforcements, he calls to the Hell dog in area 16, or moves to that
+  area if that is a better tactical option.
+Morale: >-
+  If reduced to 10 hp and unable to heal himself, Palaveen tries to escape,
+  using copycat if possible and his potion of disguise self to blend it with the
+  human population of Westcrown. He may surrender if he thinks the PCs won't
+  kill him.
+Gear: potion of disguise self, wand of cure light wounds (11 charges)
+OtherGear: +1 breastplate, +1 morningstar, iron unholy symbol, treasure chest key, 330 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '10'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

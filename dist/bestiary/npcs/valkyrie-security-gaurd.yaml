@@ -1,0 +1,127 @@
+Name: Valkyrie Security Gaurd
+CR: '16'
+XP: '76800'
+Race: valkyrie
+Class: cavalier 5
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (extraplanar)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +24
+AC: 28, touch 19, flat-footed 25
+AC_Mods: (+9 armor, +6 deflection, +3 Dex)
+HP: '228'
+HD: (21d10+105)
+Saves: Fort +14, Ref +14, Will +16
+Fort: '14'
+Ref: '14'
+Will: '16'
+DR: 10/cold iron, 10/lawful
+Immune: cold, electricity, poison
+Resist: acid 10, fire 10
+SR: '23'
+Speed: 40 ft., fly 100 ft. (perfect)
+Melee:
+  - >-
+    +4 defending adamantine spear +30/+25/+20/+15  (1d8+10/x3) or unarmed strike
+    +25/+20/+15/+10 (1d3+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: cavalier's charge, dragon's challenge (+5, 2/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: Constant
+      value: deathwatch, tongues
+    - label: At Will
+      value: aid, death ward, gentle repose, plane shift (self and mount only)
+    - label: 3/day
+      value: call lightning storm, divine power, geas/quest
+    - label: 1/day
+      value: breath of life, heal, summon (level 8, 1 sleipnir 100%)
+AbilityScores:
+  - 19
+  - 17
+  - 20
+  - 11
+  - 20
+  - 23
+BaseAtk: '21'
+CMB: '25'
+CMD: '44'
+Feats:
+  - Catch Off-Guard
+  - Critical Focus
+  - Improved Vital Strike
+  - Mounted Combat
+  - Power Attack
+  - Ride-by Attack
+  - Skill Focus (Ride)
+  - Spirited Charge
+  - Swap Places
+  - Trample
+  - Vital Strike
+  - Weapon Focus (spear)
+Skills:
+  - Acrobatics +1
+  - Climb +2
+  - Diplomacy +13
+  - Escape Artist +1
+  - Fly +28
+  - Handle Animal +25
+  - Heal +24
+  - Knowledge (planes) +19
+  - Perception +24
+  - Ride +28
+  - Sense Motive +24
+  - Stealth +1
+  - Swim +2
+RacialMods: +2 Ride while riding your bonded mount
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - tongues (constant)
+SQ: >-
+  order of the dragon, aid allies (+3), animal companion link, banner (+2/+1),
+  battle trained, choose the slain, expert trainer (+2), tactician (swap places,
+  5rounds, 2/day)
+Source: Rappan Athuk-Level 14C
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Battle Trained (Ex)
+    description: >-
+      A valkyrie is proficient with all armor. Armor never impacts a valkyrie's
+      speed, nor does a valkyrie take armor check penalties on Ride checks.
+  - name: Choose the Slain (Su)
+    description: >-
+      A valkyrie can draw the soul from a newly dead body and store it in her
+      spear for transport to the Outer Planes. This functions as soul bind, but
+      the dead creature must be willing to have its soul taken. If the creature
+      is unwilling, this ability has no effect.
+  - name: Holy Zeal (Su)
+    description: >-
+      A valkyrie adds her Charisma modifier as a deflection bonus to her Armor
+      Class.
+Gender: Female
+Gear: >-
+  celestial armor; +4 defending adamantine spear, boots of striding and
+  springing
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12367'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

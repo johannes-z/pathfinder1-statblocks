@@ -1,0 +1,137 @@
+Name: Dark Guardian Tier 8-9
+CR: '9'
+XP: '6400'
+Race: Dark stalker
+Class: cleric of Norgorber 5
+MonsterSource: Pathfinder RPG Bestiary 54, 252
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '9'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +9
+AC: 21, touch 16, flat-footed 15
+AC_Mods: (+3 armor, +5 Dex, +1 dodge, +2 natural)
+HP: '78'
+HD: (13d8+18)
+Saves: Fort +7, Ref +8, Will +11; channel resistance +4
+Fort: '7'
+Ref: '8'
+Will: +11 channel resistance +4
+DR: 5/bludgeoning
+Immune: cold, undead traits
+Weaknesses: light blindness
+Speed: 30 ft.
+Melee:
+  - 2 short swords +15/+15/+10 (1d6+3/19-20 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death throes, channel negative energy 4/day (DC 13, 3d6), sneak attack +3d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +7)
+  values:
+    - label: At will
+      value: >-
+        deeper darkness, detect magic, fog cloud Domain Spell-Like Abilities (CL
+        5th; concentration +6)
+    - label: 4/day
+      value: touch of evil (2 rounds)
+    - label: At will
+      value: lore keeper (21)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 5th; concentration +6) 3rd-dispel magic, magic
+  circle against goodD 2nd-align weapon (evil only)D, death knell (DC 13),
+  silence 1st-bane (DC 12), cause fear (DC 12), inflict light wounds (DC 12),
+  protection from goodD, shield of faith 0 (at will)-bleed (DC 11), detect
+  poison, guidance, resistance
+SpellDomains: Evil, Knowledge
+AbilityScores:
+  - 16
+  - 20
+  - —
+  - 9
+  - 13
+  - 12
+BaseAtk: '9'
+CMB: '12'
+CMD: '28'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Double Slice
+  - Improved InitiativeB
+  - Improved Two-Weapon Fighting
+  - Two-Weapon Fighting
+  - Weapon Finesse
+  - Weapon Focus (short sword)
+Skills:
+  - Climb +15
+  - Knowledge (religion) +6
+  - Linguistics +3
+  - Perception +9
+  - Sleight of Hand +11
+  - Stealth +18
+  - Swim +9
+RacialMods: +4 Climb, +4 Perception, +4 Stealth
+Languages:
+  - Common
+  - Dark Folk
+  - Undercommon
+SQ: aura, poison use
+Source: PFS S2-06
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Throes (Su)
+    description: >-
+      When a dark stalker is slain, its body combusts in a flash of white-hot
+      flame. This acts like a fireball that deals 3d6 points of fire damage to
+      all creatures within a 20-foot-radius burst. A DC 14 Reflex save halves
+      this damage. The dark stalker's gear and treasure are unaffected by this
+      explosion. This save is Constitution-based.
+  - name: Poison Use (Ex)
+    description: >-
+      Dark stalkers are skilled in the use of poison and never risk accidentally
+      poisoning themselves. Dark stalkers use black smear poison on their
+      weapons and generally carry 6 doses on them. Black Smear-injury; save Fort
+      DC 14; frequency 1/ round for 6 rounds; effect 1d2 Str; cure 1 save. The
+      poison DC is Constitution-based.
+  - name: See in Darkness (Su)
+    description: >-
+      A dark stalker can see perfectly in darkness of any kind, including that
+      created by deeper darkness.
+BeforeCombat: >-
+  When the PCs enter, the guardian casts shield of faith and applies poison to
+  both of his swords. When the PCs begin to climb the stairs or ascend by other
+  means, the guardian casts deeper darkness to shroud the tower in darkness,
+  then casts silence on himself.
+DuringCombat: >-
+  In battle, the dark guardian attempts to stay in darkness to utilize his sneak
+  attack, channeling negative energy if he becomes surrounded by foes. If the
+  majority of the PCs make it out of the darkened portion of the room, he scales
+  the walls and casts deeper darkness on the other landing as well, dismissing
+  silence as needed to cast spells later in battle.
+Morale: >-
+  The dark guardian never retreats except to heal under cover of darkness in
+  order to sneak attack again, and fights to the death to eradicate all who dare
+  violate his sacred site.
+Gear: >-
+  potion of inflict serious wounds, wand of inflict moderate wounds (16
+  charges), black smear (6)
+OtherGear: +1 leather armor, 2 short swords, silver holy symbol, 85 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: skeletal champion|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4716'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

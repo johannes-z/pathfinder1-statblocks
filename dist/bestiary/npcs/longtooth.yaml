@@ -1,0 +1,107 @@
+Name: Longtooth
+CR: '11'
+XP: '12800'
+Race: juvenile red dragon
+MonsterSource: Pathfinder RPG Bestiary 98
+Alignment: CE
+Size: Large
+Type: dragon
+SubType: (fire)
+Init: '5'
+Senses:
+  - >-
+    blindsense 60 ft., darkvision 120 ft., dragon senses, low-light vision,
+    smoke vision
+  - Perception +18
+Aura: frightful presence (120 ft., DC 18)
+AC: 29, touch 10, flat-footed 28
+AC_Mods: (+4 armor, +1 Dex, +15 natural, -1 size)
+HP: '149'
+HD: (13d12+65)
+Saves: Fort +13, Ref +9, Will +10
+Fort: '13'
+Ref: '9'
+Will: '10'
+Immune: fire, paralysis, sleep
+Weaknesses: vulnerable to cold
+Speed: 40 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    +1 bite +22 (2d6+9/19-20), 2 +1 claws +22 (1d8+9), +1 wings +16 (1d6+5), +1
+    tail slap +16 (1d8+5)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (40-ft. cone, 8d6 fire damage, Reflex DC 21 half, usable every
+  1d4 rounds)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +15)
+  values:
+    - label: At Will
+      value: detect magic, pyrotechnics (DC 14)
+SpellsKnown:
+  header: Spells Known (CL 3rd; concentration +5)
+  values:
+    - label: 1st (6/day)
+      value: mage armor, ray of enfeeblement, true strike
+    - label: 0 (at will)
+      value: arcane mark, detect magic, flare (DC 12), mage hand, open/close
+AbilityScores:
+  - 27
+  - 12
+  - 21
+  - 14
+  - 15
+  - 14
+BaseAtk: '13'
+CMB: '22'
+CMD: '33'
+Feats:
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Power Attack
+  - Vital Strike
+  - Weapon Focus (bite)
+  - Weapon Focus (claws)
+Skills:
+  - Acrobatics +14 (+18 when jumping)
+  - Appraise +18
+  - Bluff +18
+  - Fly +11
+  - Intimidate +18
+  - Knowledge (arcana) +18
+  - Perception +18
+  - Spellcraft +18
+Languages:
+  - Common
+  - Draconic
+Source: RotRL-AE-Fortress of the Stone Giants
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: Longtooth casts mage armor before he flies down to join the raid.
+DuringCombat: >-
+  If forced into melee, Longtooth is fond of using true strike followed by Power
+  Attack to maximize damage against a single foe. He uses ray of enfeeblement
+  against foes who seem able to hit him particularly hard.
+Morale: >-
+  Longtooth abandons the raid and flees back to Jorgenfist to lick his wounds in
+  area A5 if reduced to fewer than 50 hit points.
+Gear: >-
+  amulet of mighty fists +1, gold-and-amber ring (worth 500 gp), silver armband
+  (worth 2,500 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3246'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

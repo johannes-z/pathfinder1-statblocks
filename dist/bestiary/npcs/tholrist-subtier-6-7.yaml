@@ -1,0 +1,129 @@
+Name: Tholrist Subtier 6-7
+CR: '9'
+XP: '6400'
+Race: ghast
+Class: cleric of Yamasoth 8
+MonsterSource: Pathfinder RPG Bestiary 146, 294
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +18
+Aura: stench (10 ft. radius, DC 17, 1d6+4 minutes, sickened)
+AC: 27, touch 16, flat-footed 22
+AC_Mods: (+6 armor, +1 deflection, +4 Dex, +1 dodge, +5 natural)
+HP: '93'
+HD: (10d8+48)
+Saves: Fort +10, Ref +9, Will +15
+Fort: '10'
+Ref: '9'
+Will: '15'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +13 (1d6+6 plus disease and paralysis), 2 claws +13 (1d4+6 plus
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 7/day (DC 18, 4d6), chaos blade (4 rounds, 1/day),
+  paralysis (1d4+1 rounds, DC 15), scythe of evil (4 rounds, 1/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 8th; concentration +14)
+  values:
+    - label: 9/day
+      value: fury of the Abyss
+    - label: 9/day
+      value: touch of evil (4 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 8th; concentration +14)   4th-chaos hammer (DC 20),
+  dismissal (DC 20), freedom of movement, unholy blightD (DC 20)   3rd-bestow
+  curse (DC 19), blindness/deafness (DC 19), dispel magic, invisibility purge,
+  rageD   2nd-aid, align weaponD (evil only), hold person (DC 18), owl's wisdom,
+  resist energy (DC 18), silence (DC 18)   1st-cause fear (DC 17), command (DC
+  17), curse water, divine favor, doom (DC 17), protection from goodD, shield of
+  faith   0 (at will)-bleed (DC 16), detect magic, guidance, read magic
+SpellDomains: DemonAPG, Evil
+AbilityScores:
+  - 22
+  - 20
+  - —
+  - 14
+  - 22
+  - 19
+BaseAtk: '7'
+CMB: '13'
+CMD: '30'
+Feats:
+  - Ability Focus (stench aura)
+  - Dodge
+  - Improved Initiative
+  - Lightning Reflexes
+  - Quick Channel
+Skills:
+  - Acrobatics +13
+  - Diplomacy +11
+  - Knowledge (planes) +11
+  - Knowledge (religion) +12
+  - Perception +18
+  - Stealth +16
+Languages:
+  - Abyssal
+  - Aklo
+  - Thassilonian
+SQ: aura
+Source: PFS S4-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 15; onset 1 day; frequency 1/day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at
+      the next midnight. A humanoid who becomes a ghoul in this way retains none
+      of the abilities it possessed in life. It is not under the control of any
+      other ghouls, but it hungers for the flesh of the living and behaves like
+      a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as
+      a ghast.
+Gender: Male
+BeforeCombat: >-
+  As if he hears the PCs outside of his chamber, Tholrist prepares for battle by
+  casting freedom of movement, resist energy, and owl's wisdom on himself, and
+  casts aid, rage, and shield of faith on one of his ghoul minions. He then
+  hides behind the sacrificial altar until the PCs have entered and his minions
+  have gone into melee with them.
+DuringCombat: >-
+  Once combat begins, Tholrist casts unholy blight on the party, followed by
+  chaos hammer. He then targets any obvious casters with blindness/deafness,
+  following up by casting command or hold person to hinder the PCs' approach. If
+  any casters have a summoned outsider aiding them, Tholrist uses dismissal to
+  eliminate that threat. If PCs get close enough for melee, he attacks with his
+  claws and bite, augmented by his fury of the Abyss ability from the Demon
+  domain, and sometimes casts offensive touch spells like bestow curse. Tholrist
+  uses his channel energy ability, augmented with Quick Channel, to quickly heal
+  himself and his minions rather than using it to attack the party unless he's
+  surrounded by three or more PCs. Tholrist ignores any creatures he
+  successfully paralyzes until the battle is over.
+Morale: >-
+  Knowing he is cursed to remain in this chamber forever and clearly insane
+  after all the intervening years, Tholrist fights until destroyed.
+Gear: +2 mithral shirt, amulet of natural armor +1, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7619'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

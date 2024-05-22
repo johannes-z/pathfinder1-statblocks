@@ -1,0 +1,165 @@
+Name: Weiralai
+CR: '15'
+XP: '51200'
+Race: denizen of Leng
+Class: cleric of Hastur 11
+MonsterSource: Pathfinder RPG Bestiary 2 82
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +31
+AC: 26, touch 14, flat-footed 22
+AC_Mods: (+6 armor, +3 Dex, +1 dodge, +6 natural)
+HP: '220'
+HD: (21 HD; 11d8+10d10+116)
+HP_Mods: fast healing 5, planar fast healing
+Saves: Fort +19, Ref +13, Will +17
+Fort: '19'
+Ref: '13'
+Will: '17'
+DefensiveAbilities: unusual anatomy
+Immune: poison
+Resist: cold 30, electricity 30
+SR: '19'
+Speed: 40 ft.
+Melee:
+  - >-
+    +1 conductive rapier +22/+17/+12/+7 (1d6+3/15-20), bite +16 (1d6+1 plus 1d6
+    Dexterity drain), claw +16 (1d4+1)
+  - bite +21 (1d6+2 plus 1d6 Dexterity drain), 2 claws +21 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 12/day (DC 24, 6d6), chaos blade (5 rounds, 1/day),
+  Dexterity drain, sneak attack +5d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +19)
+  values:
+    - label: Constant
+      value: tongues
+    - label: 3/day
+      value: >-
+        detect thoughts (DC 21), hypnotic pattern (DC 21), levitate, minor image
+        (DC 21)
+    - label: 1/day
+      value: >-
+        locate object, plane shift (DC 26, self only) Domain Spell-Like
+        Abilities (CL 11th; concentration +18)
+    - label: 10/day
+      value: spell rune (1d6+5 energy damage or spell, 11 rounds), touch of chaos
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 11th; concentration +18)  6th-animate objectsD,
+  greater dispel magic, heal  5th-dispel lawD, greater command (DC 22), major
+  curseUM (DC 22), true seeing  4th-aura of doomUM (DC 21), chaos hammerD (DC
+  21), dismissal (DC 21), divine power, freedom of movement  3rd-bestow curse
+  (DC 20), cure serious wounds, dispel magic (2), glyph of wardingD,
+  invisibility purge, speak with dead (DC 20)  2nd-align weaponD (chaos only),
+  darkness, hold person (DC 19), resist energy, shatter (DC 19), sound burst (DC
+  19), spiritual weapon  1st-deathwatch, detect law, divine favor (2), obscuring
+  mist, protection from lawD, shield of faith  0 (at will)-bleed (DC 17), detect
+  magic, guidance, read magic
+SpellDomains: Chaos, Rune
+AbilityScores:
+  - 14
+  - 16
+  - 21
+  - 20
+  - 24
+  - 28
+BaseAtk: '18'
+CMB: '20'
+CMD: '34'
+Feats:
+  - Critical Focus
+  - Deceitful
+  - Dodge
+  - Improved Critical (rapier)
+  - Improved Initiative
+  - Mobility
+  - Persuasive
+  - Scribe Scroll
+  - Spring Attack
+  - Staggering Critical
+  - Stunning Critical
+  - Weapon Finesse
+Skills:
+  - Acrobatics +3 (+7 when jumping)
+  - Bluff +37
+  - Diplomacy +26
+  - Disable Device +22
+  - Disguise +23
+  - Intimidate +23
+  - Knowledge (planes) +15
+  - Knowledge (religion) +15
+  - Perception +31
+  - Profession (sailor) +15
+  - Sense Motive +31
+  - Sleight of Hand +16
+  - Spellcraft +18
+  - Stealth +27
+  - Use Magic Device +22
+RacialMods: +4 disguise when disguised as a medium humanoid
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Gnoll
+  - Kelish
+  - Osiriani
+  - telepathy 100 ft. (seeded creatures only)
+  - tongues
+SQ: no breath
+Source: AP 113
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Touch of the Blot (Su)
+    description: >-
+      Weiralai has manifested a unique ability as a servant of Carcosa. Three
+      times per day as a standard action, Weiralai can make a touch attack
+      against a creature and infect it with a horrible affliction that withers
+      the creature's flesh. The struck creature must succeed at a DC 25
+      Fortitude save or take 2 points of Constitution drain. The save DC is
+      Constitution-based. In addition, Weiralai gains the ability to
+      telepathically communicate with seeded creatures within 100 feet as if she
+      herself was a seeded creature.
+Gender: Female
+BeforeCombat: >-
+  After preparing her spells each day, Weiralai infuses her unique armor, The
+  Forbidden Name, with one blast rune and a spell rune containing bestow curse.
+  With her extraordinary senses, Weiralai is capable of detecting approaching
+  danger with ease. She uses the forewarning to cast aura of doom, divine favor,
+  freedom of movement, shield of faith, true seeing, and resist energy against
+  whichever energy type she knows the PCs use most.
+DuringCombat: >-
+  Weiralai greater dispel magic to soften up her opposition before wading into
+  melee. She uses her rapier's conductive special ability to activate her touch
+  of chaos domain ability without slowing her attacks, and she activates her
+  armor's runes to debilitate a key target.
+Morale: >-
+  Weiralai must destroy the PCs, but she is willing to retreat from an
+  unbeatable fight in order to attack later when the PCs are more vulnerable. If
+  she cannot reliably retreat, she fights until destroyed.
+Gear: potion of fly, potion of invisibility
+OtherGear: >-
+  The Forbidden Name (see page 42), +1 conductive rapier, headband of mental
+  prowess +2 (Wis, Cha), Leng rubies (8, worth 500 gp each), tins of eye
+  ointment (2, worth 250 gp each)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '10080'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

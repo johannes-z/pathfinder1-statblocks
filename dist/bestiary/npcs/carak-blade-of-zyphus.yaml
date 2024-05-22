@@ -1,0 +1,104 @@
+Name: Carak, Blade of Zyphus
+CR: '6'
+XP: '2400'
+Race: allip
+MonsterSource: Pathfinder Bonus Bestiary 4
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +13
+Aura: babble (60 ft. DC 19)
+AC: 19, touch 19, flat-footed 15
+AC_Mods: (+5 deflection, +3 Dex, +1 dodge)
+HP: '76'
+HD: (8d8+40)
+Saves: Fort +7, Ref +7, Will +8
+Fort: '7'
+Ref: '7'
+Will: '8'
+DefensiveAbilities: channel resistance +2, incorporeal
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - incorporeal touch +9 (1d4 Wisdom damage)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, touch of insanity
+AbilityScores:
+  - —
+  - 17
+  - —
+  - 15
+  - 15
+  - 20
+BaseAtk: '6'
+CMB: '9'
+CMD: '25'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+Skills:
+  - Fly +22
+  - Intimidate +16
+  - Knowledge (planes) +10
+  - Knowledge (religion) +13
+  - Perception +13
+  - Stealth +14
+Languages:
+  - Common
+SQ: madness
+Source: Undead Revisited
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Babble (Su)
+    description: >-
+      Carak constantly mutters and whines to himself, creating a hypnotic
+      effect. All sane creatures within 60 feet of Carak must succeed at a DC 19
+      Will save or be fascinated for 2d4 rounds. While a target is fascinated,
+      the allip can approach without breaking the effect, but an attack by the
+      allip breaks the effect. This is a sonic, mind-affecting compulsion
+      effect. Creatures that successfully save cannot be affected by Carak's
+      babble for 24 hours. The save DC is Charisma-based.
+  - name: Create Spawn (Su)
+    description: >-
+      If the Wisdom damage caused by Carak's touch of insanity ever meets or
+      exceeds a creature's actual Wisdom score, that creature immediately drops
+      dead-this is an exception to the normal rules for Wisdom damage. In 1d4
+      rounds, a regular allip emerges from the victim's body&#8211;this allip
+      spawn takes a &#8211;2 penalty on all d20 rolls and receives &#8211;2 hp
+      per HD. It is under Carak's command and remains so enslaved until his
+      destruction, at which point the allip spawn loses its spawn penalties and
+      becomes a fully-fledged and free-willed allip.
+  - name: Madness (Su)
+    description: >-
+      Anyone targeting Carak with thought detection, mind control, or telepathy
+      immediately takes 1d4 points of Wisdom damage resulting from contact with
+      the insane undead's tortured mind.
+  - name: Touch of Insanity (Su)
+    description: >-
+      Carak deals 1d4 Wisdom damage with a touch. A successful critical hit
+      deals this damage and an additional 1 point of Wisdom drain (instead of
+      merely dealing double Wisdom damage). On each successful attack, Carak
+      gains 5 temporary hit points.
+Gender: Male
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1724'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

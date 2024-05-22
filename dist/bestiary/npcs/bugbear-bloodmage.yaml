@@ -1,0 +1,116 @@
+Name: Bugbear Bloodmage
+CR: '11'
+XP: '12800'
+Race: Bugbear
+Class: sorcerer 10
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid)
+Init: '6'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +0
+AC: 18, touch 13, flat-footed 15
+AC_Mods: (+2 Dex, +1 dodge, +5 natural)
+HP: '97'
+HD: (13 HD; 3d8+10d6+49)
+Saves: Fort +8, Ref +11, Will +9
+Fort: '8'
+Ref: '11'
+Will: '9'
+Resist: fire 20
+Speed: 30 ft.
+Melee:
+  - +1 quarterstaff +12/+7 (1d6+7)
+Ranged:
+  - mwk shortbow +10 (1d6/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 10th; concentration +12)
+  values:
+    - label: 6/day
+      value: elemental ray (1d6+5 fire)
+    - label: 1/day
+      value: elemental blast (10d6 fire, DC 18)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +13)
+  values:
+    - label: 5th (3/day)
+      value: fire snakeAPG (DC 18)
+    - label: 4th (5/day)
+      value: black tentacles, elemental body I, fire shield
+    - label: 3rd (6/day)
+      value: >-
+        fireball (DC 16), howling agonyUM (DC 16), protection from energy, rage,
+        stinking cloud (DC 16)
+    - label: 2nd (7/day)
+      value: >-
+        alter self, invisibility, levitate, scorching ray, see invisibility,
+        touch of idiocy
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 14), color spray (DC 14), enlarge person (DC 14),
+        magic missile, ray of enfeeblement (DC 14), shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, daze (DC 13), detect magic, detect poison, ghost sound (DC
+        13), mage hand, read magic, resistance, touch of fatigue (DC 13)
+AbilityScores:
+  - 18
+  - 15
+  - 16
+  - 8
+  - 10
+  - 17
+BaseAtk: '7'
+CMB: '11'
+CMD: '24'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Empower Spell
+  - Enlarge Spell
+  - Eschew Materials
+  - Improved Initiative
+  - Lightning Reflexes
+  - Point-Blank Shot
+  - Precise Shot
+Skills:
+  - Intimidate +6
+  - Spellcraft +12
+  - Stealth +9
+Languages:
+  - Common
+  - Goblin
+SQ: bloodline arcana (change energy damage spells to fire), stalker
+Source: Monster Codex
+IsTemplate: '0'
+Bloodline: elemental (fire)
+BeforeCombat: >-
+  The bloodmage casts invisibility and positions herself where she can hurl
+  spells with impunity.
+DuringCombat: >-
+  At the start of the battle, the bloodmage casts fire snake and fireball on her
+  foes. She reserves spells such as fire shield and shield to protect herself
+  when she becomes the target of attacks.
+Gear: potion of cure moderate wounds,
+OtherGear: >-
+  +1 quarterstaff, mwk dagger, mwk shortbow with 20 arrows, amulet of natural
+  armor +2, cloak of resistance +1, headband of alluring charisma +2, 117 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6405'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

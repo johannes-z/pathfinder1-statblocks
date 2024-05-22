@@ -1,0 +1,153 @@
+Name: Lairsaph
+CR: '10'
+XP: '9600'
+Race: elf
+Class: sorcerer 10
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '6'
+Senses:
+  - low-light vision
+  - Perception +6
+AC: 25, touch 15, flat-footed 22
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 dodge, +2 natural, +4 shield)
+HP: '102'
+HD: (10d6+65)
+Saves: Fort +9, Ref +8, Will +11; +2 vs. enchantments
+Fort: '9'
+Ref: '8'
+Will: '11'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: stormchild
+Immune: sleep
+Resist: electricity 5, sonic 5
+Speed: 30 ft.
+Melee:
+  - +1 longspear +8 (1d8+4/x3)
+Ranged:
+  - +1 composite longbow +8 (1d8+3/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: 7/day
+      value: thunderstaff
+    - label: 1/day
+      value: thunderbolt (10d6, DC 19)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +14)
+  values:
+    - label: 5th (3/day)
+      value: teleport
+    - label: 4th (6/day)
+      value: >-
+        ball lightningAPG (DC 19), greater aggressive thundercloudACG (DC 19),
+        shout (DC 19)
+    - label: 3rd (7/day)
+      value: >-
+        displacement, lightning bolt (DC 18), slow (DC 17), spiked pitAPG (DC
+        17)
+    - label: 2nd (7/day)
+      value: >-
+        aggressive thundercloudACG (DC 17), bear's endurance, bull's strength,
+        false life, gust of wind (DC 16), scorching ray
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 15), grease (DC 15), magic missile, obscuring mist,
+        shield, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, detect magic, ghost sound (DC 14), light,
+        mending, message, ray of frost, read magic
+AbilityScores:
+  - 14
+  - 14
+  - 16
+  - 16
+  - 8
+  - 18
+BaseAtk: '5'
+CMB: '7'
+CMD: '22'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Improved Initiative
+  - Iron Will
+  - Quicken Spell
+  - Toughness
+Skills:
+  - Bluff +13
+  - Fly +8
+  - Intimidate +13
+  - Knowledge (local) +5
+  - Knowledge (nature) +8
+  - Knowledge (nobility) +5
+  - Perception +6
+  - Spellcraft +11 (+2 to identify magic item properties)
+  - Stealth +10
+  - Survival +4
+  - Use Magic Device +13
+Languages:
+  - Common
+  - Draconic
+  - Elven
+  - Goblin
+  - Sylvan
+SQ: >-
+  bloodline arcana (+1 to save DC of spells with electricity or sonic
+  descriptor), elven magic, exceptional resources
+Source: AP 105
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Exceptional Resources (Ex)
+    description: >-
+      Lairsaph has had a long, successful career in banditry, and his equipment
+      is testament to this. The Feign Prince has the wealth of a PC rather than
+      an NPC, increasing his CR by 1.
+Gender: Male
+Bloodline: stormbornAPG
+BeforeCombat: >-
+  Lairsaph casts false life and uses his wand of mage armor every morning and
+  afternoon. If he is alerted to intruders in the encampment, Lairsaph casts
+  bear's endurance, bull's strength, and shield on himself.
+DuringCombat: >-
+  Lairsaph casts displacement on the first round of combat, then attacks foes
+  with his spells, favoring electricity spells. He uses a scroll of fly or
+  potion of invisibility to avoid being pinned down in melee combat, and casts
+  slow and obscuring mist to hinder opponents, using the blindsense granted by
+  his stormchild ability to continue targeting foes in the mist.
+Morale: >-
+  The Feign Prince is not willing to die to keep the location of his hideout
+  secret, and if reduced to 75 hit points or fewer, or if one of his consorts is
+  slain, Lairsaph casts teleport and flees into the Whisperwood, having no
+  qualms about abandoning any surviving members of his gang.
+Gear: >-
+  +1 corrosiveUE arrows (5), potions of cure moderate wounds (3), potions of
+  invisibility (2), scrolls of dimension door (2), scrolls of dispel magic (2),
+  scrolls of fly (2), scrolls of mount (2), scrolls of wall of fire (2), wand of
+  mage armor (33 charges), wand of plant growth (12 charges)
+OtherGear: >-
+  +1 composite longbow (+2 Str) with 20 arrows, +1 longspear, amulet of natural
+  armor +2, cloak of resistance +3, handy haversack, headband of alluring
+  charisma +2, ring of protection +2, ring of spell knowledge IIUE (false life),
+  unfettered shirtUE, 220 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8319'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

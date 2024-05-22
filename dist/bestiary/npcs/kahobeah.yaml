@@ -1,0 +1,94 @@
+Name: Kahobeah
+CR: '7'
+XP: '3200'
+Race: air elemental
+MonsterSource: Pathfinder RPG Bestiary 4 60, Pathfinder RPG Bestiary 120
+Alignment: 'N'
+Size: Large
+Type: elemental
+SubType: (air, water)
+Init: '15'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +11
+AC: 21, touch 17, flat-footed 13
+AC_Mods: (+7 Dex, +1 dodge, +4 natural, -1 size)
+HP: '68'
+HD: (fast healing 5)
+Saves: Fort +9, Ref +13, Will +4
+Fort: '9'
+Ref: '13'
+Will: '4'
+DefensiveAbilities: ability healing, air mastery
+DR: 5/-
+Immune: disease, elemental traits, mind-affecting effects
+Speed: fly 200 ft. (perfect), swim 200 ft.
+Melee:
+  - 2 slams +14 (1d8+4)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: whirlwind (DC 18, 10-40 ft.)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +10)
+  values:
+    - label: At will
+      value: dimension door (within sacred site only)
+    - label: 3/day
+      value: alarm, knock
+    - label: 1/day
+      value: arcane lock, augury, clairaudience/clairvoyance, dismissal, hold portal
+AbilityScores:
+  - 18
+  - 25
+  - 16
+  - 6
+  - 15
+  - 15
+BaseAtk: '8'
+CMB: '13'
+CMD: '31'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Flyby Attack
+  - Improved InitiativeB
+  - Mobility
+  - Weapon FinesseB
+Skills:
+  - Acrobatics +15
+  - Escape Artist +15
+  - Fly +21
+  - Knowledge (planes) +5
+  - Perception +18
+  - Sense Motive +7
+  - Stealth +11
+Languages:
+  - Auran
+SQ: blessed life, divine swiftness, sacred site
+Source: Plunder & Peril
+IsTemplate: '0'
+DuringCombat: >-
+  Kahobeah maintains as much altitude as it can between attacks, striking foes
+  using Flyby Attack.
+Morale: >-
+  If reduced to fewer than 20 hit points, Kahobeah calls for a truce. Kahobeah
+  tries to convince intruders to leave, even if it must surrender the treasure
+  within the altar in the open chamber (see area K6) to persuade them to leave.
+  However, if trespassers have attempted to desecrate the site or seem
+  interested in restoring it, Kahobeah fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+TemplatesApplied: divine guardian|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6487'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

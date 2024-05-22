@@ -1,0 +1,137 @@
+Name: Ice Mage
+CR: '13'
+XP: '25600'
+Race: half-elf
+Class: sorcerer 14
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +19
+AC: 21, touch 15, flat-footed 18
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 dodge, +2 natural)
+HP: '79'
+HD: (14d6+28)
+Saves: Fort +6, Ref +6, Will +12; +2 vs. enchantments
+Fort: '6'
+Ref: '6'
+Will: '12'
+Save_Mods: +2 vs. enchantments
+Immune: fire (120 points), sleep
+Resist: cold 20
+Speed: 30 ft.
+Melee:
+  - mwk spear +7/+2 (1d8-1/x3)
+Ranged:
+  - mwk light crossbow +10 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 14th; concentration +20)
+  values:
+    - label: 9/day
+      value: elemental ray (1d6+7 cold)
+    - label: 1/day
+      value: elemental blast (14d6 cold, DC 23)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 14th, concentration +20)
+  values:
+    - label: 7th (3/day)
+      value: delayed blast fireball (cold, DC 25)
+    - label: 6th (6/day)
+      value: >-
+        chain lightning (cold, DC 24), elemental body III, freezing sphere (DC
+        24)
+    - label: 5th (7/day)
+      value: >-
+        baleful polymorph (DC 21), cone of cold (DC 23), elemental body II,
+        summon monster V
+    - label: 4th (7/day)
+      value: >-
+        elemental body I, ice storm, resilient sphere (DC 22), solid fog, wall
+        of ice (DC 22)
+    - label: 3rd (7/day)
+      value: >-
+        fly, lightning bolt (cold, DC 21), protection from energy, ray of
+        exhaustion (DC 19), sleet storm
+    - label: 2nd (8/day)
+      value: >-
+        acid arrow (cold), blindness/deafness (DC 18), fog cloud, gust of wind
+        (DC 20), mirror image, scorching ray (cold)
+    - label: 1st (8/day)
+      value: >-
+        burning hands (cold, DC 19), endure elements, mage armor, magic missile,
+        obscuring mist, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash (cold), bleed (DC 16), detect magic, detect poison, mage
+        hand, ray of frost, read magic, resistance, touch of fatigue (DC 16)
+AbilityScores:
+  - 8
+  - 15
+  - 14
+  - 10
+  - 12
+  - 22
+BaseAtk: '7'
+CMB: '6'
+CMD: '21'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Empower Spell
+  - Eschew Materials
+  - Greater Spell Focus (evocation)
+  - Improved Initiative
+  - Iron Will
+  - Nimble Moves
+  - Silent Spell
+  - Skill Focus (Perception)
+  - Spell Focus (evocation)
+Skills:
+  - Diplomacy +11
+  - Fly +11
+  - Knowledge (arcana) +8
+  - Knowledge (planes) +8
+  - Linguistics +1
+  - Perception +19
+  - Spellcraft +8
+  - Swim +4
+Languages:
+  - Aquan
+  - Common
+  - Elven
+SQ: bloodline arcana (change energy damage spells to cold), elf blood
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: elemental (water)
+BeforeCombat: The sorcerer casts mage armor and protection from energy (fire).
+DuringCombat: >-
+  The sorcerer casts empowered area damage spells such as cone of cold, freezing
+  sphere, and chain lightning. If forced into melee, she casts elemental body
+  III and transforms into a Large water elemental.
+Gear: potion of fly
+OtherGear: >-
+  masterwork light crossbow with 10 bolts, masterwork spear, amulet of natural
+  armor +2, headband of alluring charisma +4, ring of protection +2, 1,413 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor and protection from energy, the sorcerer's statistics are
+  AC 17, touch 15, flat-footed 14; Immune sleep.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3815'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,97 @@
+Name: Verdant Bombardier
+CR: '15'
+XP: '51200'
+Race: cannon golem
+MonsterSource: Pathfinder RPG Bestiary 3 135
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +2
+AC: 31, touch 16, flat-footed 24
+AC_Mods: (+7 Dex, +15 natural, -1 size)
+HP: '140'
+HD: (20d10+30)
+Saves: Fort +6, Ref +13, Will +8
+Fort: '6'
+Ref: '13'
+Will: '8'
+DR: 15/adamantine
+Immune: construct traits, magic
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - 2 slams +29 (2d10+10)
+Ranged:
+  - arcane mortar +26/+21 (6d6+10/19-20/x4)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: arcane mortar
+AbilityScores:
+  - 30
+  - 24
+  - —
+  - —
+  - 15
+  - 2
+BaseAtk: '20'
+CMB: '31'
+CMD: '48'
+Feats:
+  - Improved Critical (arcane mortar)B
+SQ: arcane munitions, blasting critical, reinforced mortar
+Source: AP 143
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Arcane Mortar (Ex)
+    description: >-
+      An arcane bombardier's mortar has a range increment of 50 feet and deals
+      6d6 points of bludgeoning and force damage on a hit with a x4 critical
+      modifier. The bombardier must spend a swift action to charge an arcane
+      munition; this allows the golem to take two shots per round with the
+      mortar.
+  - name: Arcane Munitions (Ex)
+    description: >-
+      A verdant bombardier's slam and mortar attacks count as adamantine, cold
+      iron, magic, and silver for the purpose of overcoming damage reduction.
+  - name: Blasting Critical (Ex)
+    description: >-
+      When a verdant bombardier confirms a critical hit with a slam attack, it
+      can make one mortar attack against that target as a free action (as long
+      as the mortar is loaded).
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A verdant bombardier is immune to spells and spell-like abilities that
+      allow spell resistance. Certain spells and effects function differently
+      against it, as noted below. &#8226; Any spell with the electricity
+      descriptor that affects a verdant bombardier renders its arcane mortar
+      unusable for 1 round (no save). &#8226; A shocking grasp spell
+      additionally causes the bombardier's mortar to instantly backfire, dealing
+      6d6 points of damage to the bombardier and staggering it for 1 round (no
+      save).
+  - name: Reinforced Mortar (Ex)
+    description: >-
+      A verdant bombardier adds its Strength modifier to the damage dealt by its
+      mortar.
+DuringCombat: >-
+  The verdant bombardier follows Umbarno's orders, entering melee to prevent
+  enemies from reaching Umbarno. It uses its arcane mortar liberally, even if
+  doing so provokes attacks of opportunity from its foes.
+Morale: The verdant bombardier fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12709'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

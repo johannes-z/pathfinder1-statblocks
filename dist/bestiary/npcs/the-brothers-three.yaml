@@ -1,0 +1,157 @@
+Name: The Brothers Three
+CR: '12'
+XP: '19200'
+Race: human
+Class: antipaladin 11
+MonsterSource: 'Pathfinder Adventure Path #8 88, Pathfinder RPG Advanced Player''s Guide 118'
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, human)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +31
+Aura: cowardice (10 ft.), despair (10 ft.), vengeance (10 ft.)
+AC: 26, touch 16, flat-footed 22
+AC_Mods: (+2 armor, +2 deflection, +3 Dex, +1 dodge, +8 natural)
+HP: '164'
+HD: (11d10+99)
+HP_Mods: fast healing 5
+Saves: Fort +24, Ref +18, Will +20
+Fort: '24'
+Ref: '18'
+Will: '20'
+DefensiveAbilities: channel resistance +4
+DR: 5/wood and piercing
+Immune: disease, undead traits
+Resist: cold 10, electricity 10, sonic 10
+Weaknesses: vampire weaknesses
+Speed: 30 ft.
+Melee:
+  - 2 +1 unholy claws +20 (1d8+8)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blood drain (1d4 Con and Wis drain), channel negative energy (DC 25, 6d6),
+  cruelties (nauseated, sickened, staggered), dominate (DC 22), smite good 4/day
+  (+7 attack and AC, +11 damage), telekinesis (DC 22), touch of corruption (5d6,
+  12/day)
+SpellLikeAbilities:
+  header: Antipaladin Spell-Like Abilities (CL 11th; concentration +18)
+  values:
+    - label: At Will
+      value: detect good
+SpellsPrepared: >-
+  Antipaladin Spells Prepared (CL 8th; concentration +15)  3rd-defile armorAPG,
+  vampiric touch  2nd-bull's strength, eagle's splendor  1st-death knell (DC
+  18), disguise self, doom (DC 18), protection from good
+AbilityScores:
+  - 22
+  - 17
+  - —
+  - 14
+  - 16
+  - 25
+BaseAtk: '11'
+CMB: '17'
+CMD: '33'
+Feats:
+  - AlertnessB
+  - Combat Expertise
+  - Dodge
+  - Extra Lay On Hands
+  - Improved InitiativeB
+  - Improved Natural Attack (claw)
+  - Lightning ReflexesB
+  - Power Attack
+  - Skill Focus (Perception)B
+  - Skill Focus (Stealth)B
+  - Toughness
+  - Weapon Focus (claw)
+Skills:
+  - Bluff +20
+  - Intimidate +20
+  - Knowledge (history) +7
+  - Knowledge (religion) +9
+  - Perception +31
+  - Sense Motive +22
+  - Stealth +30
+RacialMods: +8 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Greek
+  - Russian
+  - telepathy 60 ft.
+SQ: >-
+  aura of evil, code of conduct, fiendish boon (weapon +3, 2/day), plague
+  bringer, spider climb, swarm form
+Source: AP 71
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Drain (Ex)
+    description: >-
+      A nosferatu can suck blood from a living victim with its fangs by making a
+      successful grapple check. If it pins the foe, it drains blood, dealing 1d4
+      points of Constitution and Wisdom drain each round the pin is maintained.
+      On each such successful attack, the nosferatu gains 5 temporary hit
+      points.
+  - name: Damage Reduction (Ex)
+    description: >-
+      A nosferatu has damage reduction 5/ wood and piercing (this includes all
+      wood-shafted weapons like arrows, crossbow bolts, spears, and javelins,
+      even if the weapon's head is made of another material).
+  - name: Dominate (Su)
+    description: >-
+      This functions as the vampire ability of the same name (Pathfinder RPG
+      Bestiary 271).
+  - name: Spider Climb (Ex)
+    description: >-
+      This functions as the vampire ability of the same name (Pathfinder RPG
+      Bestiary 271).
+  - name: Swarm Form (Su)
+    description: >-
+      As a standard action, a nosferatu can change into a bat swarm, centipede
+      swarm, rat swarm, or spider swarm. The swarm has the same number of hit
+      points as the nosferatu. While in swarm form, a nosferatu cannot use its
+      claw attacks or any of its special attacks. It retains its defensive
+      abilities and special qualities, and counts as an undead creature. It
+      gains the natural weapons and extraordinary special attacks of the swarm
+      it transformed into and can use any of the swarm's abilities and defenses.
+      It can remain in swarm form until it assumes another form or until the
+      next sunrise.
+  - name: Telekinesis (Su)
+    description: As a standard action, a nosferatu can use telekinesis (caster level 12th).
+Gender: Male
+BeforeCombat: >-
+  The Brothers Three prepare themselves by casting bull's strength, eagle's
+  splendor, defile armor, and protection from good, and use their fiendish boon
+  ability to make their claws +1 unholy weapons. In addition, they are under the
+  effects of the erodaemon Serafina's desecrate spell in this area.
+DuringCombat: >-
+  The nosferatu brothers flank opponents and use their smite good ability on the
+  biggest apparent threat. They make liberal use of their touch of corruption
+  ability to harm and nauseate opponents, and use it or channeled negative
+  energy to heal one another as needed.
+Morale: >-
+  If reduced to fewer than 30 hit points, the nosferatus retreat behind
+  Rasputin's antilife shell in area H6 to allow their fast healing to take over.
+  If reduced to 0 hit points, a nosferatu assumes bat swarm form and flees to
+  its coffin in the eastern bell tower (area H4b).
+Gear: key to area D4
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: nosferatu|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: '3'
+id: '4439'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

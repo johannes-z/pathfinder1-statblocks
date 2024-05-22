@@ -1,0 +1,73 @@
+Name: Witherweed
+CR: '4'
+XP: '1200'
+Race: Witherweed
+MonsterSource: The Tome of Horrors Complete 646
+Alignment: 'N'
+Size: Large
+Type: plant
+Init: '0'
+Senses:
+  - blindsight 30 ft
+  - Perception +1
+AC: 13, touch 9, flat-footed 13
+AC_Mods: (+4 natural,-1 size)
+HP: '37'
+HD: (5d8+15)
+Saves: Fort +7, Ref +1, Will +2
+Fort: '7'
+Ref: '1'
+Will: '2'
+DefensiveAbilities: camouflage
+Immune: plant traits
+Speed: 0 ft.
+Melee:
+  - 5 fronds +5 (1d4+3 plus 1d4 Dex)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: death smoke
+AbilityScores:
+  - 16
+  - 10
+  - 16
+  - —
+  - 13
+  - 9
+BaseAtk: '3'
+CMB: '7'
+CMD: 17 (can't be tripped)
+Source: Sword of Air-Chapter 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Camouflage (Ex)
+    description: >-
+      A witherweed looks like normal grass and weeds when at rest; it takes a DC
+      20 Perception check to notice it before it attacks. Anyone with ranks in
+      Survival or Knowledge (nature) can use one of those skills instead of
+      Perception to notice the plant. Dwarves can use stonecunning to notice the
+      subterranean version.
+  - name: Death Smoke (Ex)
+    description: >-
+      A witherweed that takes at least 1 point of damage from a fire effect
+      releases a cloud of deadly smoke that billows forth and quickly fills a
+      20-foot radius surrounding it. Creatures within the area must succeed on a
+      DC 15 Fortitude save or take 1d6 points of Constitution damage. One minute
+      later, another Fortitude save (same DC) must be made to avoid another 2d6
+      points of Constitution damage. The save DCs are Constitution-based. The
+      cloud remains for 1 round per HD of the witherweed but a strong wind (21+
+      mph) disperses the cloud in 1 round.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12622'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

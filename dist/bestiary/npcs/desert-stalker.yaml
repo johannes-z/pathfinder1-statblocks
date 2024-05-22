@@ -1,0 +1,117 @@
+Name: Desert Stalker
+CR: '13'
+XP: '25600'
+Race: half-orc
+Class: ranger 14
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+AC: 27, touch 14, flat-footed 25
+AC_Mods: (+6 armor, +2 deflection, +1 Dex, +1 dodge, +4 natural, +3 shield)
+HP: '130'
+HD: (14d10+49)
+Saves: Fort +14, Ref +12, Will +8
+Fort: '14'
+Ref: '12'
+Will: '8'
+DefensiveAbilities: evasion, orc ferocity
+Immune: fire (120 points)
+Resist: electricity 30
+Speed: 40 ft.
+Melee:
+  - >-
+    +1 scimitar +18/+13/+8 (1d6+6/15-20), +2 light shield +21/+16 (1d3+7 plus
+    bull rush)
+Ranged:
+  - mwk composite longbow +16/+11/+6 (1d8+5/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: favored enemy (animals +2, humans +4, magical beasts +4)
+SpellsPrepared: >-
+  Ranger Spells Prepared (CL 11th; concentration +13)   4th-freedom of
+  movement   3rd-neutralize poison   2nd-barkskin, protection from energy, wind
+  wall   1st-endure elements, longstrider, pass without trace, resist energy
+AbilityScores:
+  - 20
+  - 13
+  - 16
+  - 10
+  - 14
+  - 8
+BaseAtk: '14'
+CMB: '19'
+CMD: '33'
+Feats:
+  - Blind-Fight
+  - Dodge
+  - Double Slice
+  - Endurance
+  - Improved Critical (scimitar)
+  - Improved Initiative
+  - Improved Shield Bash
+  - Improved Two-Weapon Fighting
+  - Power Attack
+  - Shield Master
+  - Shield Slam
+  - Two-Weapon Fighting
+Skills:
+  - Acrobatics +11 (+15 when jumping)
+  - Climb +13
+  - Diplomacy +4
+  - Handle Animal +7
+  - Heal +10
+  - Intimidate +1
+  - Knowledge (geography) +8
+  - Knowledge (nature) +13
+  - Perception +19
+  - Ride +9
+  - Sense Motive +5
+  - Stealth +18
+  - Survival +15
+Languages:
+  - Common
+  - Orc
+SQ: >-
+  camouflage, favored terrain (desert +6, mountain +2, urban +2), hunter's bond
+  (companions), orc blood, quarry, swift tracker, track +7, weapon familiarity,
+  wild empathy +13, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The ranger casts barkskin, endure elements, freedom of movement, longstrider,
+  pass without trace, protection from energy (fire), and resist energy
+  (electricity).
+DuringCombat: >-
+  The ranger casts wind wall to separate foes, then uses Improved Shield Bash to
+  manipulate positioning.
+Gear: >-
+  potions of cure serious wounds (2), potion of fly, potion of haste, scrolls of
+  neutralize poison (2), wand of cure moderate wounds (20 charges)
+OtherGear: >-
+  +2 chain shirt, +2 light wooden shield, +1 scimitar, masterwork composite
+  longbow (+5 Str) with 20 arrows, belt of giant strength +2, cloak of
+  resistance +2, ring of protection +2, 981 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without barkskin, longstrider, protection from energy, and resist energy, the
+  ranger's statistics are AC 23, touch 14, flat-footed 21; Immune none; Resist
+  none; Speed 30 ft.; Skills Acrobatics +11.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3777'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,142 @@
+Name: Hyakume
+CR: '15'
+XP: '51200'
+Alignment: NE
+Size: Large
+Type: aberration
+Init: '12'
+Senses:
+  - all-around vision, darkvision 90 ft., low-light vision
+  - Perception +19
+AC: 32, touch 18, flat-footed 23
+AC_Mods: (+8 Dex, +1 dodge, +14 natural, -1 size)
+HP: '218'
+HD: (19d8+133)
+Saves: Fort +13, Ref +14, Will +17
+Fort: '13'
+Ref: '14'
+Will: '17'
+Immune: cold
+Resist: electricity 10, fire 10
+SR: '26'
+Weaknesses: light sensitivity
+Speed: 30 ft.
+Melee:
+  - 2 slams +18 (3d6+4)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: drain memory, quivering palm (1/day, DC 25), stunning fist (4/day, DC 25)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +24)
+  values:
+    - label: At Will
+      value: clairvoyance/clairaudience, share memoryUM
+    - label: 5/day
+      value: divination
+    - label: 3/day
+      value: cold ice strikeUM, discordant blastAPG, sonic thrustUM
+AbilityScores:
+  - 18
+  - 27
+  - 24
+  - 19
+  - 22
+  - 29
+BaseAtk: '14'
+CMB: '19'
+CMD: '38'
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Improved Unarmed Strike
+  - Mobility
+  - Skill Focus (Sense Motive)
+  - Stunning Fist
+  - Weapon Focus (slam)
+  - Wind Stance
+Skills:
+  - Acrobatics +23
+  - Bluff +21
+  - Craft (any) +10
+  - Diplomacy +17
+  - Intimidate +24
+  - Knowledge (arcana
+  - planes
+  - religion) +12
+  - Knowledge (geography
+  - history) +10
+  - Perception +19
+  - Sense Motive +17
+  - Spellcraft +22
+  - Stealth +15
+  - Survival +17
+  - Swim +8
+  - Use Magic Device +17
+Languages:
+  - Common
+  - Undercommon
+  - telepathy 60 ft.
+SQ: eye probe, monk abilities, transfer memories
+Environment: any underground
+Organization: solitary or enclave (2-6)
+Treasure: standard
+Description_Visual: >-
+  This bloated creature's eyes protrude from between the fleshy fat rolls of its
+  neckless, hulking form.
+Source: PFRPG Bestiary 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Drain Memory (Su)
+    description: >-
+      Once per day as a standard action, a hyakume can make a touch attack with
+      either its hands or one of its eye probes to drain a target of its
+      memories. The target loses the majority of memories relating to life and
+      identity, and the hyakume can control the creature as if it were subject
+      to a charm monster spell until those memories are regained (Will DC 28
+      negates). The hyakume absorbs the memories and can store and use them. It
+      can store the memories of a number of creatures equal to its Intelligence
+      bonus (typically 4) at one time. This is a mind-affecting effect. The save
+      DC is Charisma-based.
+  - name: Eye Probe (Su)
+    description: >-
+      Once per day as a full-round action, a hyakume can detach up to six of its
+      eyes and send them on missions. An eyeball has AC 22, hp 5, and a fly
+      speed of 60 ft. with perfect maneuverability. A hyakume can see through
+      all of its eye probes, and can make drain memory attacks with them. If a
+      hyakume's eyeball is destroyed, the hyakume takes 5 points of damage. An
+      eye probe can't stray farther than 1 mile from a hyakume or the eye is
+      destroyed (dealing 5 points of damage). Monk Abilities The hyakume's
+      Stunning Fist feat and slam attacks function as though it were a
+      15th-level monk. It can also use the quivering palm class feature once per
+      day (Fortitude DC 25). The save DC is Wisdom-based.
+  - name: Transfer Memories (Su)
+    description: >-
+      Once per day as a standard action, a hyakume can touch a willing creature
+      with either its hand or one of its eye probes to transfer memories it has
+      stored to the creature touched. This is a mind-affecting effect.
+Description:
+  - >-
+    Hideous and corpulent, with numerous eyes dotting their bodies, hyakumes are
+    mystics of malevolence. They steal and collect the memories of other
+    intelligent beings to increase their own knowledge.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5264'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

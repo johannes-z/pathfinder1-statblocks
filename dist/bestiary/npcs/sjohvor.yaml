@@ -1,0 +1,142 @@
+Name: Sjohvor
+CR: '18'
+XP: '153600'
+Race: great wyrm white dragon
+Alignment: CE
+Size: Gargantuan
+Type: dragon
+SubType: (cold)
+Init: '3'
+Senses:
+  - dragon senses, snow vision
+  - Perception +33
+Aura: cold aura (10 ft., 2d6 cold damage), frightful presence (360 ft., DC 26)
+AC: 40, touch 5, flat-footed 40
+AC_Mods: (-1 Dex, +35 natural, -4 size)
+HP: '362'
+HD: (25d12+200)
+Saves: Fort +22, Ref +13, Will +19
+Fort: '22'
+Ref: '13'
+Will: '19'
+DR: 20/magic
+Immune: cold, dragon traits, paralysis, sleep
+SR: '29'
+Weaknesses: vulnerable to fire
+Speed: 60 ft., burrow 30 ft., fly 250 ft. (clumsy), swim 60 ft.
+Melee:
+  - >-
+    bite +34 (4d6+19/19-20), 2 claws +34 (2d8+13/19-20), tail slap +32 (2d8+6),
+    2 wings +32 (2d6+6)
+Space: 20 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  blizzard, breath weapon (60-ft. cone, 24d4 cold, Reflex DC 30 half, usable
+  every 1d4 rounds), crush (DC 30, 4d6+19), freezing fog (3/day, DC 20), ice
+  tomb, tail sweep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 25th; concentration +29)
+  values:
+    - label: At Will
+      value: control weather, fog cloud, gust of wind (DC 16), wall of ice
+SpellsKnown:
+  header: Spells Known (CL 13th; concentration +17)
+  values:
+    - label: 6th (4/day)
+      value: antimagic field, chain lightning (DC 20)
+    - label: 5th (6/day)
+      value: hold monster (DC 19), mind fog (DC 19), wall of force
+    - label: 4th (7/day)
+      value: dimension door, fire shield, greater invisibility, stoneskin
+    - label: 3rd (7/day)
+      value: displacement, haste, protection from energy, ray of exhaustion (DC 17)
+    - label: 2nd (7/day)
+      value: >-
+        cat's grace, detect thoughts (DC 16), glitterdust (DC 16), mirror image,
+        resist energy 1st (7)-alarm, mage armor, magic missile, shield, true
+        strike
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 14), detect magic, light, mage hand, mending,
+        message, read magic, resistance
+AbilityScores:
+  - 37
+  - 8
+  - 27
+  - 18
+  - 21
+  - 18
+BaseAtk: '25'
+CMB: '42'
+CMD: 51 (55 vs. trip)
+Feats:
+  - Ability Focus (breath weapon)
+  - Diehard
+  - Endurance
+  - Flyby Attack
+  - Hover
+  - Improved Critical (bite)
+  - Improved Critical (claws)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Snatch
+  - Vital Strike
+Skills:
+  - Appraise +10
+  - Bluff +22
+  - Climb +20
+  - Diplomacy +22
+  - Fly +13
+  - Intimidate +30
+  - Knowledge (arcana) +20
+  - Knowledge (history) +20
+  - Knowledge (local) +20
+  - Perception +33
+  - Sense Motive +30
+  - Spellcraft +30
+  - Stealth +15
+  - Survival +20
+  - Swim +25
+  - Use Magic Device +25
+Languages:
+  - Aquan
+  - Common
+  - Draconic
+  - Giant
+  - Iobarian
+SQ: ice shape, icewalking
+Source: Dragons Unleashed
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Sjohvor casts alarm on the entrances to his cave every day. If he sees or is
+  alerted to an imminent attack, he casts resist energy (fire) on himself, as
+  well as mage armor, mirror image, and shield.
+DuringCombat: >-
+  Sjohvor prefers to be airborne when he battles others. He uses fog cloud, wall
+  of ice, and wall of force to split his foes before swooping in to snatch one
+  of the enemies. On the ground, he engages in melee, using his breath weapon
+  when available.
+Morale: >-
+  If reduced to fewer than half his full normal hit points, Sjohvor calls on
+  either his harpy or centaur allies (whichever are closest). He then flees to
+  his lair in the distraction. If particularly strong foes face him, he calls
+  for Thragandor to join his defense. If confronted in his lair, he fights to
+  the death to protect his hoard.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '1'
+Land: '1'
+AgeCategory: old
+CompanionFamiliarLink: '0'
+id: '4461'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

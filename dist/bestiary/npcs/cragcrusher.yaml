@@ -1,0 +1,114 @@
+Name: Cragcrusher
+CR: '17'
+XP: '102400'
+Race: xorn
+Class: druid 12
+MonsterSource: Pathfinder RPG Bestiary 284
+Alignment: 'N'
+Size: Large
+Type: outsider
+SubType: (earth, extraplanar)
+Init: '4'
+Senses:
+  - all-around vision, darkvision 60 ft., tremorsense 60 ft.
+  - Perception +30
+AC: 32, touch 9, flat-footed 32
+AC_Mods: (+22 natural, -1 size)
+HP: '313'
+HD: (19 HD; 12d8+7d10+221)
+Saves: Fort +20, Ref +11, Will +20; +4 vs. fey and plant-targeted effects
+Fort: '20'
+Ref: '11'
+Will: '20'
+Save_Mods: +4 vs. fey and plant-targeted effects
+DR: 5/bludgeoning
+Immune: cold, fire, flanking, poison
+Resist: acid 20, electricity 10
+Speed: 20 ft., burrow 20 ft.
+Speed_Mod: earth glide
+Melee:
+  - bite +26 (6d6+10), 3 claws +25 (1d6+10)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: wild shape 5/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 12th; concentration +19)
+  values:
+    - label: 10/day
+      value: acid dart (1d6+6 acid)
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 12th; concentration +19)   6th-mass bull's strength,
+  move earth (2), stoneskinD   5th-call lightning storm (DC 22), cure critical
+  wounds, transmute rock to mud (2), wall of stoneD   4th-air walk, cure serious
+  wounds, dispel magic, flame strike (DC 21), spike stonesD (DC 21)   3rd-call
+  lightning (2, DC 20), greater magic fang (2), spike growth (2, DC 20), stone
+  shapeD   2nd-barkskin, bull's strength, fog cloud, lesser restoration (2),
+  soften earth and stoneD, stone callAPG   1st-ant haulAPG, expeditious
+  excavationAPG (2), jump (2), longstrider, magic stoneD   0 (at will)-create
+  water, guidance, mending, virtue
+SpellDomains: Earth
+AbilityScores:
+  - 30
+  - 10
+  - 30
+  - 14
+  - 24
+  - 16
+BaseAtk: '16'
+CMB: +27 (+29 bull rush)
+CMD: 37 (39 vs. bull rush)
+Feats:
+  - Alertness
+  - Cleave
+  - Craft Wondrous Item
+  - Improved Bull Rush
+  - Improved Initiative
+  - Improved Natural Armor
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +0 (-4 when jumping)
+  - Handle Animal +22
+  - Knowledge (nature) +23
+  - Knowledge (planes) +21
+  - Perception +30
+  - Sense Motive +29
+  - Spellcraft +21
+  - Stealth +16
+  - Survival +28
+Languages:
+  - Common
+  - Druidic
+  - Terran
+SQ: >-
+  nature bond (Earth domain), nature sense, trackless step, wild empathy +15,
+  woodland stride
+Source: AP 120
+IsTemplate: '0'
+BeforeCombat: Cragcrusher casts barkskin.
+DuringCombat: >-
+  If combat ensues, Cragcrusher sinks into the earth and casts call lightning
+  storm, using his tremorsense to target the PCs. Once the spell elapses or his
+  lightning proves ineffective, he emerges to engage in melee.
+Morale: >-
+  The xorn retreats into the earth to heal himself if reduced below 100 hit
+  points.
+Gear: headband of inspired wisdom +6
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without barkskin, Cragcrusher's statistics are AC 26, touch 9, flat-footed 26.
+AgeCategory: elder
+CompanionFamiliarLink: '0'
+id: '11563'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

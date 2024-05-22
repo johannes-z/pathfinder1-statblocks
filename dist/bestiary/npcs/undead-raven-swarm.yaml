@@ -1,0 +1,77 @@
+Name: Undead Raven Swarm
+CR: '9'
+XP: '6400'
+Race: Undead Raven Swarm
+MonsterSource: Tome of Horrors Complete 584
+Alignment: NE
+Size: Tiny
+Type: undead
+SubType: (swarm)
+Init: '6'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +15
+AC: 16, touch 14, flat-footed 14
+AC_Mods: (+2 Dex, +2 natural, +2 size)
+HP: '91'
+HD: (14d8+28)
+Saves: Fort +7, Ref +8, Will +13
+Fort: '7'
+Ref: '8'
+Will: '13'
+DefensiveAbilities: swarm traits
+Immune: undead traits
+Speed: 10 ft., fly 40 ft. (average)
+Melee:
+  - swarm (3d6 plus disease and eye-rake)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: disease, distraction (DC 18), eye-rake
+AbilityScores:
+  - 2
+  - 15
+  - —
+  - 2
+  - 15
+  - 13
+BaseAtk: '10'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Skill Focus (Perception)
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Fly +16
+  - Perception +15
+Source: AP 69
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Raven Plague: Swarm-injury; save Fort DC 18; onset 1 day; frequency 1 day;
+      effect 1d4 Str damage and 1d2 Str damage; cure 2 consecutive saves.
+      Eye-Rake (Ex) Any living creature damaged by a raven swarm must succeed at
+      a DC 18 Reflex save or be blinded as the swarm scratches and tears at the
+      victim's eyes. The blindness lasts for 1d4 days or until healed with
+      remove blindness/deafness or a successful DC 20 Heal check. The save DC is
+      Charisma-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4355'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

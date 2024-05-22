@@ -1,0 +1,131 @@
+Name: Atga Subtier 10-11
+CR: '10'
+XP: '9600'
+Race: human
+Class: sorcerer 11
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +9
+AC: 19, touch 14, flat-footed 16
+AC_Mods: (+4 armor, +1 deflection, +2 Dex, +1 dodge, +1 natural)
+HP: '100'
+HD: (11d6+59)
+Saves: Fort +10, Ref +8, Will +11
+Fort: '10'
+Ref: '8'
+Will: '11'
+Immune: cold (96 points)
+Resist: cold 20
+Speed: 30 ft.
+Melee:
+  - club +4 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 11th; concentration +16)
+  values:
+    - label: 8/day
+      value: elemental ray (1d6+5 cold)
+    - label: 1/day
+      value: elemental blast (11d6 cold, DC 20)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +16)
+  values:
+    - label: 5th (5/day)
+      value: dismissal (DC 20), elemental body II, wall of force
+    - label: 4th (7/day)
+      value: black tentacles, dimension door, elemental body I, enervation
+    - label: 3rd (7/day)
+      value: >-
+        fireball (DC 19), protection from energy, ray of exhaustion (DC 18),
+        slow (DC 18), stinking cloud (DC 18)
+    - label: 2nd (7/day)
+      value: >-
+        false life, fog cloud, mirror image, scorching ray (cold), see
+        invisibility, web (DC 17)
+    - label: 1st (8/day)
+      value: >-
+        burning hands (cold) (DC 17), charm person (DC 16), grease, mage armor,
+        magic missile, ray of enfeeblement (DC 16)
+    - label: 0 (at will)
+      value: >-
+        acid dart, dancing lights, daze (DC 15), detect magic, light, mage hand,
+        message, prestidigitation, read magic
+AbilityScores:
+  - 8
+  - 14
+  - 14
+  - 10
+  - 12
+  - 20
+BaseAtk: '5'
+CMB: '4'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Initiative
+  - Point-Blank Shot
+  - Precise Shot
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Acrobatics +6
+  - Bluff +15
+  - Knowledge (arcana) +9
+  - Knowledge (geography) +1
+  - Knowledge (religion) +1
+  - Linguistics +1
+  - Perception +9
+  - Spellcraft +8
+Languages:
+  - Common
+  - Giant
+  - Skald
+SQ: bloodline arcana (change energy damage spells to match bloodline energy)
+Source: PFS S4-04
+IsTemplate: '0'
+Gender: Female
+Bloodline: elemental (water)
+BeforeCombat: >-
+  Atga casts false life, mage armor, and protection from energy (cold) on
+  herself, and casts protection from energy (cold) on Formoch.
+DuringCombat: >-
+  Atga casts black tentacles to disable as many enemies as possible, then casts
+  wall of force to separate the PCs, prevent them from attacking Formoch, and
+  contain them in the area with the black tentacles. She casts dimension door to
+  move herself and Formoch out of a dangerous area or to an enemy spellcaster.
+  She casts  scorching ray and fireball to finish off enemies who are clearly
+  weakened. Because Formoch is protected against cold by her spell, she doesn't
+  care if she includes him in the area of her cold attacks.
+Morale: Atga fights to the death.
+Gear: >-
+  scroll of arcane eye, scroll of blur, scroll of haste, scroll of teleport,
+  wand of glitterdust (7 charges)
+OtherGear: >-
+  club, amulet of natural armor +1, cloak of resistance +3, headband of alluring
+  charisma +2, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without false life, mage armor, and protection from energy (cold), Atga's
+  statistics are AC 15, touch 14, flat-footed 12; hp 85; Immune none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7636'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

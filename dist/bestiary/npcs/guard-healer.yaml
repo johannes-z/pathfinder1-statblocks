@@ -1,0 +1,81 @@
+Name: Guard Healer
+CR: '1'
+XP: '400'
+Race: Human
+Class: cleric of Abadar 2
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '0'
+Senses:
+  - Perception +3
+AC: 14, touch 10, flat-footed 14
+AC_Mods: (+4 armor)
+HP: '16'
+HD: (2d8+4)
+Saves: Fort +5, Ref +1, Will +7
+Fort: '5'
+Ref: '1'
+Will: '7'
+Speed: 30 ft.
+Melee:
+  - dagger +0 (1d4-1/19-20)
+Ranged:
+  - light crossbow +1 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel positive energy 7/day (DC 13, 1d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 2nd; concentration +5)
+  values:
+    - label: 6/day
+      value: resistant touch (+1), touch of law
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 2nd; concentration +5)   1st-bless, protection from
+  chaosD, remove fear, shield of faith   0 (at will)-detect magic, detect
+  poison, purify food and drink, stabilize
+SpellDomains: Law, Protection
+AbilityScores:
+  - 8
+  - 10
+  - 12
+  - 13
+  - 17
+  - 14
+BaseAtk: '1'
+CMB: '0'
+CMD: '10'
+Feats:
+  - Extra Channel
+  - Selective Channeling
+Skills:
+  - Diplomacy +7
+  - Heal +10
+  - Profession (barrister) +8
+  - Sense Motive +8
+Languages:
+  - Common
+  - Dwarven
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: If he expects combat, he casts bless and shield of faith on his allies.
+Gear: wand of cure light wounds (20 charges), wand of shield of faith (5 charges)
+OtherGear: >-
+  mwk chain shirt, dagger, light crossbow with 10 bolts, guard's kit*, healer's
+  kit, silver holy symbol of Abadar, 42 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8829'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

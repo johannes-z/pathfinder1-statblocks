@@ -1,0 +1,116 @@
+Name: Chalissier
+CR: '5'
+XP: '1600'
+Race: medium air elemental
+MonsterSource: Pathfinder RPG Bestiary 120
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (air, elemental, extraplanar)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 19, touch 16, flat-footed 13
+AC_Mods: (+5 Dex, +1 dodge, +3 natural)
+HP: '47'
+HD: (5d10+15)
+Saves: Fort +7, Ref +9, Will +2
+Fort: '7'
+Ref: '9'
+Will: '2'
+DefensiveAbilities: air mastery
+Immune: elemental traits
+Speed: fly 100 ft. (perfect)
+Melee:
+  - slam +10 (1d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  arcane reservoir (4/7), arcanist exploits (energy shield, lightning lance
+  [2d6+2; DC 14]), whirlwind (DC 16)
+SpellsKnown:
+  header: >-
+    Arcanist Spells Known (CL 4th; concentration +7)   2nd-sonic screamACG (DC
+    15)   1st-magic missile, shocking grasp
+  values:
+    - label: At Will
+      value: daze (DC 12), resistance, touch of fatigue (DC 13)
+AbilityScores:
+  - 18
+  - 21
+  - 16
+  - 16
+  - 9
+  - 15
+BaseAtk: '5'
+CMB: '9'
+CMD: '25'
+Feats:
+  - Dodge
+  - Flyby Attack
+  - Improved InitiativeB
+  - Iron Will
+  - Weapon FinesseB
+Skills:
+  - Acrobatics +11
+  - Escape Artist +9
+  - Fly +21
+  - Knowledge (arcana
+  - history) +8
+  - Knowledge (planes) +11
+  - Perception +7
+  - Sense Motive +3
+  - Spellcraft +8
+  - Stealth +13
+  - Use Magic Device +6
+Languages:
+  - Auran
+  - Common
+  - Elven
+  - Gnome
+Source: PFS 8-12
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Air Mastery (Ex)
+    description: >-
+      Airborne creatures take a -1 penalty on attack and damage rolls against an
+      air elemental.
+  - name: Arcane Reservoir (Su)
+    description: >-
+      Chalissier can use the arcane reservoir arcanist ability (Pathfinder RPG
+      Advanced Class Guide 9) to augment his spell-like abilities. He counts as
+      a 4th-level arcanist for the purposes of determining his number of uses
+      per day.
+  - name: Arcanist Exploits (Su)
+    description: >-
+      Chalissier can use the energy shield and lightning lance arcanist exploit
+      (Pathfinder RPG Advanced Class Guide 11) as if he were a 4th-level
+      arcanist. Spells Chalissier casts spells as a 4th-level arcanist, except
+      that he has a reduced number of spells prepared.
+Gender: Male
+BeforeCombat: >-
+  Chalissier capitalizes on his knowledge of the PCs if he's encountered them
+  before. He uses his energy shield arcanist exploit to protect against an
+  element he knows the PCs employ.
+DuringCombat: >-
+  In combat, Chalissier remains mobile. He flies around the battlefield,
+  unleashing his offensive spells, as well as using his lightning lance arcanist
+  exploit. He makes use of Flyby Attack when all of his ranged attack options
+  have been expended.
+Morale: Failure is as good as death, so Chalissier fights until he is destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11074'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

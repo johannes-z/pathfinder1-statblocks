@@ -1,0 +1,126 @@
+Name: Gallows Tree Zombie
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Medium
+Type: plant
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, tremorsense 60 ft.
+  - Perception +9
+AC: 17, touch 12, flat-footed 15
+AC_Mods: (+2 Dex, +5 natural)
+HP: '33'
+HD: (6d8+6)
+HP_Mods: fast healing 5
+Saves: Fort +6, Ref +4, Will +2
+Fort: '6'
+Ref: '4'
+Will: '2'
+Immune: plant traits
+Speed: 30 ft.
+Melee:
+  - 2 slams +8 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: spore cloud
+AbilityScores:
+  - 19
+  - 15
+  - 13
+  - 4
+  - 10
+  - 1
+BaseAtk: '4'
+CMB: '8'
+CMD: '20'
+Feats:
+  - Improved Initiative
+  - Power Attack
+  - Skill Focus (Perception)
+Skills:
+  - Perception +9
+  - Stealth +8
+Languages:
+  - Common (cannot speak)
+  - empathy with gallows  tree
+SQ: tether-vine
+Environment: temperate and warm forest, hill, marsh, and plains
+Organization: grove (6-11 plus 1 gallows tree)
+Treasure: none
+Description_Visual: >-
+  This creature is a humanoid with deathly gray-green skin dressed in tattered
+  and torn clothes. Small plants, weeds, and fungi grow on the creature's body.
+  A long, sinewy, greenish-brown noose connects the creature to the massive tree
+  behind it.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Spore Cloud (Ex)
+    description: >-
+      As a free action, once every 1d4 rounds (but no more than three times per
+      day), a gallows tree zombie can breathe a cloud of poisonous, greenish
+      spores in a 5-foot cube directly in front of it. A creature caught in the
+      cloud must succeed on a DC 14 Fortitude save or be slowed (as the slow
+      spell) for 6 rounds. One minute later, the creature must make another
+      Fortitude save (same DC) or take 1d3 points of Strength damage. The save
+      DC is Constitution-based. Tether-Vine (Ex) A gallows tree zombie is
+      connected to the gallows tree that created it by a long, sinewy vine. This
+      vine can be lengthened to allow the zombie to move up to 100 feet away
+      from the tree. The vine is AC 19 (touch 12) and has 10 hit points. Harming
+      the vine deals no damage to the gallows tree zombie or the gallows tree,
+      but if severed, does prevent the zombie from using its fast healing
+      ability.
+  - name: Tremorsense (Ex)
+    description: >-
+      Gallows tree zombies can automatically sense the location of anything
+      within 60 feet that is in contact with the same vegetation the zombie is
+      touching.
+Description:
+  - >-
+    Gallows tree zombies were once living humanoids slain and devoured by a
+    gallows tree and reborn from the seedlings as a minion of said creature.
+  - >-
+    They serve no purpose in life now other than killing or capturing living
+    prey for the gallows tree that created them. These monsters retain small
+    memories of their former lives and these scenes sometimes manifest in the
+    zombie's mind, causing it great anger which it vents on the nearest living
+    creature.
+  - >-
+    Gallows tree zombies appear as humanoid creatures with deathly graygreen
+    skin that feels coarse and rough to the touch. A long, sinewy cord of
+    greenish-brown wraps around the zombie's throat and connects it to the
+    gallows tree. Gallows tree zombies show no spark of life in their eyes, but
+    are not completely mindless. They are not undead even though their name
+    suggests otherwise; therefore, they cannot be turned or rebuked.
+  - >-
+    Gallows tree zombies hang motionless from the tree that created them, being
+    lowered to the ground only when a living creature comes within 100 feet of
+    the gallows tree they are connected to. They are formidable opponents and
+    relentlessly pound their foes with their club-like fists while breathing a
+    cloud of choking spores. The zombies prefer uneven odds that favor them, so
+    ganging up on an individual is the norm in battle.
+  - >-
+    Slain foes are dragged back to the gallows tree, devoured by the tree, and
+    eventually transformed into a gallows tree zombie to replace any that fell
+    in battle.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2615'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

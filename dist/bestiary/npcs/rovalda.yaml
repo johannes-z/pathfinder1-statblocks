@@ -1,0 +1,161 @@
+Name: Rovalda
+CR: '10'
+XP: '9600'
+Race: duergar
+Class: psychic 11
+MonsterSource: Pathfinder RPG Bestiary 117, Pathfinder RPG Occult Adventures 60
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '4'
+Senses:
+  - darkvision 120 ft.
+  - Perception +17
+AC: 24, touch 10, flat-footed 24
+AC_Mods: (+8 armor, +4 shield)
+HP: '107'
+HD: (11d6+66)
+Saves: Fort +14, Ref +8, Will +14; +2 vs. spells and spell-like abilities
+Fort: '14'
+Ref: '8'
+Will: '14'
+Save_Mods: +2 vs. spells and spell-like abilities
+DefensiveAbilities: resilience of the faithful +3
+Immune: paralysis, phantasms, poison
+Weaknesses: light sensitivity
+Speed: 20 ft., fly 40 ft. (good)
+Melee:
+  - +1 spell storing punching dagger +7 (1d4/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  divine energy (inflict, maximum 2), phrenic amplifications (defensive
+  prognostication, dispelling pulse, mindtouch, overpowering mind), phrenic pool
+  (7 points)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +11)
+  values:
+    - label: 1/day
+      value: >-
+        enlarge person (self only), invisibility (self only) Psychic Spell-Like
+        Abilities (CL 11th; concentration +14)
+    - label: 1/day
+      value: detect thoughts (DC 11), telepathic bond
+SpellsKnown:
+  header: Psychic Spells Known (CL 11th; concentration +14)
+  values:
+    - label: 5th (4/day)
+      value: commune, true seeing, wall of ectoplasmOA (DC 18)
+    - label: 4th (6/day)
+      value: >-
+        confusion (DC 17), guardian of faithACG, lesser geas (DC 17),
+        telekinesis
+    - label: 3rd (7/day)
+      value: blink, fly, heroism, magic vestment, nondetection
+    - label: 2nd (7/day)
+      value: >-
+        bull's strength, hold person (2, DC 15), mirror image, silence (DC 15),
+        spiritual weapon
+    - label: 1st (7/day)
+      value: >-
+        bless, charm animal (DC 14), charm person (DC 14), entropic shield,
+        quintessenceOA, shield
+    - label: 0 (at will)
+      value: >-
+        arcane mark, daze (DC 13), detect magic, know direction, mending, read
+        magic, resistance, stabilize, telekinetic projectileOA
+AbilityScores:
+  - 8
+  - 10
+  - 16
+  - 16
+  - 14
+  - 10
+BaseAtk: '5'
+CMB: '4'
+CMD: 14 (18 vs. bull rush or trip)
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Light Armor Proficiency
+  - Medium Armor Proficiency
+  - Scribe Scroll
+  - Toughness
+Skills:
+  - Acrobatics -1 (-5 when jumping)
+  - Appraise +5
+  - Bluff +2
+  - Climb -2
+  - Diplomacy +10
+  - Disguise +2
+  - Escape Artist -1
+  - Fly -1
+  - Heal +4
+  - Intimidate +15
+  - Perception +17
+  - Profession (soothsayer) +17
+  - Ride -1
+  - Sense Motive +17
+  - Spellcraft +18
+  - Stealth +3
+  - Survival +4
+  - Swim -2
+RacialMods: +4 Stealth
+Languages:
+  - Aklo
+  - Common
+  - Dwarven
+  - Giant
+  - Goblin
+  - Undercommon
+SQ: detect thoughts, slow and steady, stability, telepathic bond
+Source: AP 118
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Rovalda casts magic vestment on her armor every day. She prepares for combat
+  or strangers by casting heroism on her group and fly, shield, and true seeing
+  on herself.
+DuringCombat: >-
+  Rovalda begins combat by casting mirror image. She lets her minions and mount
+  fight directly while she hovers overhead controlling the battlefield,
+  unleashing confusion and telekinesis on warriors and spellcasters
+  (respectively), often paired with her dispelling pulse to rip apart magical
+  protections. She loves using wall of ectoplasm to isolate healers from their
+  allies.
+Morale: >-
+  Rovalda is no fool, and she sues for negotiation when four or more caravan
+  guards are slain, her mount is slain, or she's reduced to 40 or fewer hit
+  points. If a peaceful solution is not forthcoming, she does her best to
+  retreat from the battlefield. If the PCs party contains any surface dwarves,
+  Rovalda does not surrender or seek a peaceful solution-she fanatically fights
+  to the death.
+Gear: >-
+  potion of cure serious wounds, scrolls of sending (2), scroll of telekinesis,
+  wand of lesser confusion (20 charges), wand of shield (38 charges)
+OtherGear: >-
+  mwk breastplate, +1 spell storing punching dagger (currently holds vampiric
+  touch), belt of mighty constitution +2, cloak of resistance +1, gold-and-ruby
+  necklace (250 gp), iron unholy symbol of Droskar, lockbox key, 23 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without her spells, Rovalda's statistics are AC 16, touch 10, flat-footed 16;
+  Fort +12, Ref +6, Will +12; Speed 20 ft.; Melee +1 spell storing punching
+  dagger +5 (1d4/x3); Skills Diplomacy +8, Intimidate +13, Perception +15,
+  Profession (soothsayer) +15, Sense Motive +15, Spellcraft +16.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11476'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'
+PsychicDiscipline: faith (Droskar)

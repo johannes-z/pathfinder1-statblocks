@@ -1,0 +1,122 @@
+Name: Young Adult Gray Dragon
+CR: '9'
+XP: '6400'
+Alignment: NE
+Size: Large
+Type: dragon
+SubType: (water)
+Init: '5'
+Senses:
+  - dragon senses
+  - Perception +18
+AC: 26, touch 10, flat-footed 25
+AC_Mods: (+1 Dex, +16 natural, -1 size)
+HP: '115'
+HD: (11d12+44)
+Saves: Fort +11, Ref +10, Will +9
+Fort: '11'
+Ref: '10'
+Will: '9'
+Immune: paralysis, sleep
+SR: '20'
+Speed: 60 ft., fly 200 ft. (average), swim 40 ft.
+Melee:
+  - >-
+    2 claws +16 (1d8+6), bite +17 (2d6+9), 2 wings +14 (1d6+3), tail slap +14
+    (1d8+9)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (80-ft. line, 10d6 fire; DC 19 Ref half)
+SpellsKnown:
+  header: Spells Known (CL 3rd; melee touch +16, ranged touch +11)
+  values:
+    - label: 1st (6/day)
+      value: burning hands (DC 12), protection from good, obscuring mist
+    - label: 0 (at will)
+      value: acid splash, dancing lights, detect magic, ray of frost, resistance
+AbilityScores:
+  - 23
+  - 12
+  - 19
+  - 13
+  - 15
+  - 13
+BaseAtk: '11'
+CMB: '18'
+CMD: 29 (33 vs. trip)
+Feats:
+  - Alertness
+  - Improved Initiative
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +15
+  - Fly +13
+  - Intimidate +15
+  - Knowledge (local) +15
+  - Perception +20
+  - Sense Motive +4
+  - Stealth +11
+  - Swim +28
+Languages:
+  - Common
+  - Draconic   Special Abilities
+Environment: warm coastlines
+Organization: solitary
+Treasure: triple standard
+Description_Visual: Steam emanates from the nostrils and mouth of this slate gray dragon.
+Group: Dragon
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: A gray dragon's breath weapon is a superheated line of steam.
+  - name: Change Shape (Su)
+    description: >-
+      A young or older gray dragon can take any animal or humanoid form 3/day as
+      if using polymorph.
+  - name: Corrupt Water (Sp)
+    description: >-
+      Once per day an adult or older gray dragon can stagnate 10 cubic feet of
+      still water, making it foul and unable to support water-breathing life.
+      The ability spoils liquids containing water. Liquid-based magic items
+      (such as potions) and items in a creature's possession must succeed on a
+      Will save (DC 19) or become ruined. This ability is the equivalent of a
+      1st-level spell. Its range is 180 ft. Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      A gray dragon gains the following spell-like abilities, usable at will
+      upon reaching the listed age category. • Young-fog cloud; •
+      Juvenile-create water; • Old-control winds; • Ancient-control water;
+  - name: Water Breathing (Ex)
+    description: >-
+      A gray dragon breathes water and can use its breath weapon, spells, and
+      abilities underwater.
+Description:
+  - >-
+    Gray dragons are evil dragons that inhabit mountains and hills near
+    coastlines. They have little regard for other races and often enslave others
+    to do their bidding. Adult and older gray dragons are rarely found without a
+    retinue of humanoid slaves. Gray dragons mate for life and a single mated
+    pair often terrorizes nearby villages, laying waste to those that oppose the
+    dragon's will.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: young
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4796'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

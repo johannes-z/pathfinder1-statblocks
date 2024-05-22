@@ -1,0 +1,95 @@
+Name: Jiraku
+CR: '6'
+XP: '2400'
+Race: Jiraku
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (native, oni, reptilian, shapechanger)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +12
+AC: 20, touch 13, flat-footed 17
+AC_Mods: (+3 Dex, +7 natural)
+HP: '66'
+HD: (7d10+28)
+HP_Mods: regeneration 5 (acid or fire)
+Saves: Fort +9, Ref +5, Will +7
+Fort: '9'
+Ref: '5'
+Will: '7'
+SR: '17'
+Speed: 40 ft.
+Melee:
+  - Hikori +12/+7 (1d10+7/x4), tongue +6 touch (1d4 Cha damage)
+  - 2 claws +11 (1d6+4), tongue +6 touch (1d4 Cha damage)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +11)
+  values:
+    - label: At Will
+      value: murderous commandUM (DC 15)
+    - label: 3/day
+      value: dimension door (self only)
+    - label: 1/day
+      value: hold person (DC 16), hypnotic pattern (DC 16), mirror image
+AbilityScores:
+  - 18
+  - 17
+  - 18
+  - 12
+  - 15
+  - 18
+BaseAtk: '7'
+CMB: '11'
+CMD: '24'
+Feats:
+  - Exotic Weapon Proficiency (tetsubo)
+  - Improved Initiative
+  - Lunge
+  - Power Attack
+Skills:
+  - Acrobatics +13
+  - Bluff +14
+  - Disguise +14
+  - Knowledge (arcana) +5
+  - Perception +12
+  - Sense Motive +12
+  - Spellcraft +10
+  - Stealth +13
+Languages:
+  - Common
+  - Nagaji
+  - Tien
+SQ: change shape (any nagaji or Medium snake, alter self or beast shape I)
+Source: PFS 8-02
+IsTemplate: '0'
+BeforeCombat: >-
+  Jiraku's transformation fully heals her and removes all conditions and ongoing
+  spells affecting her. She still counts as the same creature for purposes of
+  effects that can affect a creature  only once per day.
+DuringCombat: >-
+  Jiraku casts mirror image. She aggressively attacks with her tetsubo and
+  spell-like abilities, using whichever option seems most effective.
+Morale: >-
+  If reduced to 22 hp or below, Jiraku attempts to flee by using dimension door.
+  Failing that, she surrenders.
+Gear: +1 adamantine tetsuboUE
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: Oni Form
+id: '8598'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

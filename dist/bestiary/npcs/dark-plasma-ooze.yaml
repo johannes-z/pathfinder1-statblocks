@@ -1,0 +1,96 @@
+Name: Dark Plasma Ooze
+CR: '16'
+XP: '76800'
+Race: plasma ooze
+MonsterSource: Pathfinder RPG Bestiary 3 220
+Alignment: 'N'
+Size: Huge
+Type: ooze
+Init: '7'
+Senses:
+  - blindsight 60 ft.
+  - Perception -5
+Aura: magnetic pulse (30 ft.)
+AC: 12, touch 12, flat-footed 8
+AC_Mods: (+3 Dex, +1 dodge, -2 size)
+HP: '225'
+HD: (18d8+144)
+Saves: Fort +15, Ref +11, Will +1
+Fort: '15'
+Ref: '11'
+Will: '1'
+DefensiveAbilities: split (slashing or sonic, 112 hp)
+DR: 15/-
+Immune: acid, bludgeoning and piercing damage, electricity, ooze traits
+Resist: fire 30
+Speed: fly 30 ft. (perfect)
+Melee:
+  - slam +23 (4d6+16 plus 4d6 cold, 4d6 electricity, and grab)
+Ranged:
+  - 1d4 plasma arc +15 touch (4d6 cold plus 4d6 electricity)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  constrict (4d6+16 plus 4d6 cold and 4d6 electricity), engulf (DC 30, 4d6 cold
+  plus 4d6 electricity)
+AbilityScores:
+  - 32
+  - 16
+  - 24
+  - 3
+  - 1
+  - 1
+BaseAtk: '13'
+CMB: +26 (+30 grapple)
+CMD: 40 (can't be tripped)
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Great Fortitude
+  - Improved Initiative
+  - Lightning Reflexes
+  - Skill Focus (Stealth)
+  - Toughness
+  - Weapon Focus (plasma arc)
+  - Weapon Focus (slam)
+Skills:
+  - Fly +28
+  - Stealth +6
+SQ: compression, no breath
+Source: AP 84
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Plasma Arc (Su)
+    description: >-
+      A dark plasma ooze's plasma arcs function the same as a normal plasma
+      ooze's rays, but can arc around corners (ignoring line of sight
+      restrictions and negating concealment modifiers) if the target wears any
+      metal.
+DuringCombat: >-
+  When one or more intruders possessing metallic belongings comes within 15 feet
+  of the chamber, the ooze starts using its magnetic pulse ability, and fires
+  plasma arcs from its hiding place. It keeps using its ranged attacks until at
+  least one creature is in the room below it. The ooze then switches to melee
+  attacks with the intention of engulfing its prey. If the PCs retreat from the
+  beast, it descends from its perch and starts making its way down the hall
+  toward the party, continuing to make ranged attacks until it is close enough
+  to engage the PCs in melee combat.
+Morale: >-
+  If reduced to 40 hit points or fewer, the ooze attempts to retreat, though its
+  options are limited (it can't open the secret door to area E9, nor can it open
+  the stone block to area E12.)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6249'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

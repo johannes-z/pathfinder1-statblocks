@@ -1,0 +1,147 @@
+Name: Karumzek Alchemist
+CR: '11'
+XP: '12800'
+Race: karumzek
+Class: alchemist 8
+MonsterSource: >-
+  Pathfinder RPG Bestiary 288, Pathfinder Campaign Setting: Inner Sea Gods 301,
+  Pathfinder RPG Advanced Player's Guide 26
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar, shapechanger)
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision, sense poison
+  - Perception +19
+AC: 25, touch 16, flat-footed 19
+AC_Mods: (+6 Dex, +9 natural)
+HP: '162'
+HD: (13 HD; 8d8+5d10+99)
+Saves: Fort +17, Ref +16, Will +8
+Fort: '17'
+Ref: '16'
+Will: '8'
+DR: 5/good
+Immune: poison
+SR: '15'
+Speed: 40 ft., climb 20 ft.
+Melee:
+  - bite +17 (1d8+7 plus poison)
+Ranged:
+  - bomb +18 (4d6+4 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bomb 12/day (4d6+4 fire, DC 18), poison, sneak attack +1d6, web (+17 ranged,
+  DC 19, 13 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +6)
+  values:
+    - label: Constant
+      value: negate aromaAPG (DC 11)
+    - label: At Will
+      value: bleed (DC 10), prestidigitation, stabilize
+    - label: 3/day
+      value: >-
+        alchemical allocationAPG, death knell (DC 12), invisibility (self only),
+        obscuring mist, vomit swarm (spiders only)APG
+AbilityScores:
+  - 21
+  - 22
+  - 25
+  - 18
+  - 17
+  - 10
+BaseAtk: '11'
+CMB: '16'
+CMD: 32 (44 vs. trip)
+Feats:
+  - Ability Focus (poison)
+  - Brew Potion
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Point-Blank Shot
+  - Skill Focus (Craft [alchemy])
+  - Throw Anything
+  - Weapon Focus (bite)
+Skills:
+  - Climb +13
+  - Craft (alchemy) +26 (+34 to create alchemical items)
+  - Disable Device +20
+  - Heal +8
+  - Knowledge (arcana
+  - planes) +11
+  - Knowledge (nature
+  - religion) +20
+  - Perception +19
+  - Sleight of Hand +22
+  - Spellcraft +20
+  - Stealth +26
+RacialMods: +4 Stealth
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Draconic
+  - Ignan
+  - Infernal
+  - Undercommon
+SQ: >-
+  alchemy (alchemy crafting +8), change shape (Diminutive spider; vermin shape
+  IIUM), deft limbs, discoveries (frost bomb, precise bombs [4 squares], smoke
+  bomb, stink bomb), mutagen (+4/-2, +2 natural armor, 80 minutes), poison use,
+  swift alchemy
+Source: AP 131
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Deft limbs (Ex)
+    description: >-
+      A karumzek's front pair of feet are as nimble and dexterous as human
+      hands. It takes a karumzek half the normal amount of time to create
+      alchemical items.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 21; frequency 1/round for 6 rounds; effect 1d3
+      Str, Dex, or Con (karumzek's choice); cure 2 consecutive saves.
+  - name: Sense Poison (Ex)
+    description: >-
+      As a free action, a karumzek can detect if a creature within 15 feet of it
+      is poisoned. It can attempt to determine the exact type of poison, as if
+      using detect poison.
+BeforeCombat: >-
+  The karumzek consumes its mutagen at the first hint of trouble. It then
+  consumes its extracts of heroism, barkskin, see invisibility, resist energy,
+  and shield in that order. If no threats arrive, the karumzek casts
+  invisibility then creeps out to launch a surprise attack against any intruder
+  before scurrying back here to mount a defense.
+DuringCombat: >-
+  The karumzek prefers to throw bombs before relentlessly biting lightly armored
+  targets.
+Morale: The karumzek fights to the death.
+Gear: formula book (contains all prepared extracts)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+BaseStatistics: >-
+  Without its mutagen, the karumzek's statistics are AC 23, flat-footed 17; hp
+  136; Fort +15; Con 21, Cha 12.
+ExtractsPrepared: >-
+  Alchemist Extracts Prepared (CL 8th; concentration +12)   3rd-gaseous form,
+  haste, heroism   2nd-barkskin, bear's endurance, detect thoughts (DC 16),
+  resist energy, see invisibility   1st-bomber's eyeAPG, comprehend languages,
+  expeditious retreat, shield, true strike
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11824'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,88 @@
+Name: Bullying Brawler
+CR: '1'
+XP: '400'
+Race: human
+Class: monk 2
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception +7
+AC: 14, touch 14, flat-footed 12
+AC_Mods: (+1 Dex, +1 dodge, +2 Wis)
+HP: '17'
+HD: (2d8+5)
+Saves: Fort +5, Ref +4, Will +5
+Fort: '5'
+Ref: '4'
+Will: '5'
+DefensiveAbilities: evasion
+Speed: 30 ft.
+Melee:
+  - unarmed strike +5 (1d6+4)
+  - mwk nunchaku +6 (1d6+4)
+  - mwk nunchaku flurry of blows +4/+4 (1d6+4)
+Ranged:
+  - light crossbow +2 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: flurry of blows, stunning fist (2/day, DC 13)
+AbilityScores:
+  - 19
+  - 12
+  - 15
+  - 8
+  - 14
+  - 10
+BaseAtk: '1'
+CMB: '5'
+CMD: '19'
+Feats:
+  - Blind-Fight
+  - Dodge
+  - Improved Initiative
+  - Improved Unarmed Strike
+  - Scorpion Style
+  - Stunning Fist
+Skills:
+  - Acrobatics +5
+  - Bluff +1
+  - Intimidate +5
+  - Perception +7
+  - Sense Motive +7
+  - Stealth +5
+Languages:
+  - Common
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The monk drinks his potion of bull's strength if facing more than two
+  opponents.
+DuringCombat: >-
+  The monk uses flurry of blows whenever possible, especially against opponents
+  successfully affected by his stunning fist. If reduced to 5 hit points or
+  fewer, he withdraws to drink one of his potions of cure light wounds before
+  returning to the fray.
+Gear: potion of bull's strength, potions of cure light wounds (2), acid (2)
+OtherGear: light crossbow with 20 bolts, masterwork nunchaku, 23 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bull's strength, the monk's statistics are Melee unarmed strike +3
+  (1d6+2) or mwk nunchaku +4 (1d6+2) or flurry of blows (nunchaku) +2/+2
+  (1d6+2); Str 15; CMB +3; CMD 17.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3725'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,128 @@
+Name: Stygian Spawn
+CR: '13'
+XP: '25600'
+Alignment: NE
+Size: Huge
+Type: outsider
+SubType: (aquatic, evil, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +18
+AC: 24, touch 10, flat-footed 22
+AC_Mods: (+2 Dex, +14 natural, -2 size)
+HP: '162'
+HD: (13d10+91)
+Saves: Fort +18, Ref +10, Will +8
+Fort: '18'
+Ref: '10'
+Will: '8'
+DR: 10/good
+Resist: acid 10, cold 10, fire 10
+SR: '24'
+Speed: 40 ft., swim 30 ft.
+Melee:
+  - >-
+    bite +21 (2d6+10), 2 claws +21 (1d8+10), tail slap +19 (1d8+5 plus grab) or
+    tongue +22 touch (1d8+10 plus grab)
+Space: 15 ft.
+Reach: 15 ft. (30 ft. with tongue)
+SpecialAttacks: >-
+  breath weapon (60 ft. line, 10d6 sonic, DC 23 half, usable every 1d4 rounds),
+  swallow whole (6d6 acid damage, AC 17, 16 hp), tongue
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th)
+  values:
+    - label: At will
+      value: detect good, detect magic
+    - label: 3/day
+      value: magic circle against good, unholy blight (DC 17)
+AbilityScores:
+  - 31
+  - 15
+  - 24
+  - 6
+  - 14
+  - 16
+BaseAtk: '13'
+CMB: +25 (+29 grapple)
+CMD: 37 (41 vs. trip)
+Feats:
+  - Critical Focus
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Multiattack
+  - Power Attack
+  - Weapon Focus (tongue)
+Skills:
+  - Acrobatics +9
+  - Intimidate +19
+  - Knowledge (planes) +14
+  - Perception +18
+  - Stealth +16
+  - Swim +18
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+SQ: amphibious
+Environment: any (River Styx)
+Organization: solitary or pack (2-6)
+Treasure: standard
+Description_Visual: >-
+  This creature resembles a monstrous amphibian, with equal parts toad, newt,
+  and salamander. Its smooth skin erupts here and there with hideous lesions,
+  each one leaking a viscous ichor the color of mucus.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Tongue (Ex)
+    description: >-
+      A Stygian spawn's tongue is a primary attack with a reach equal to twice
+      the spawn's normal reach. A Stygian spawn's tongue is covered in sharpened
+      barbs and any attempt to break free of a grapple with it, whether
+      successful or not, deals an extra 1d6 points of piercing damage to the
+      target. A Stygian spawn does not gain the grappled condition while using
+      its tongue in this manner.
+Description:
+  - >-
+    A Stygian spawn is a creature that lurks along the banks of the River Styx.
+    Unlike amphibians on the Material Plane, Stygian spawn spend very little
+    time in the water. Most of the time, these vile creatures reside deep in the
+    mud in a self-induced state of hibernation. Stygian spawns only eat
+    creatures not native to the lower planes; such creatures are the spawns'
+    only source of food. Travelers in the realms of the lower planes quickly
+    learn to fear the horrid Stygian spawn, which awaken from their hibernation
+    and erupt from the mud of the River Styx with surprising speed. A Stygian
+    spawn summoned to another plane is dangerous to all life there, since it can
+    eat any organic substance that fits in its mouth. Occasionally, Stygian
+    spawn are awakened on purpose by bored charonadaemons who hunt the creatures
+    for sport. Stygian spawn tadpoles are harmless, and resemble pale, boneless
+    fish that swim mindlessly in the River Styx. These tadpoles are a frequent
+    source of food for hungry hydrodaemons.
+  - A fully-grown Stygian spawn is 20 feet long and weigh 3,000 pounds.
+  - >-
+    Since their only source of food-extraplanar travelers-are so rare, Stygian
+    spawn attack with their barbed tongue, trying to grapple and swallow their
+    opponents as quickly as possible. In extended combats, however, a Stygian
+    spawn blasts at opponents with its breath weapon.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5075'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

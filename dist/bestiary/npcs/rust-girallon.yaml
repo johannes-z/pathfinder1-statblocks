@@ -1,0 +1,103 @@
+Name: Rust Girallon
+CR: '9'
+XP: '6400'
+Race: dust girallon
+MonsterSource: Advanced Bestiary 109, Pathfinder RPGBestiary 154
+Alignment: 'N'
+Size: Huge
+Type: augmented magical beast
+SubType: (air, earth)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +16
+AC: 22, touch 10, flat-footed 20
+AC_Mods: (+2 Dex, +12 natural, -2 size)
+HP: '112'
+HD: (9d10+63)
+Saves: Fort +12, Ref +8, Will +6
+Fort: '12'
+Ref: '8'
+Will: '6'
+Speed: 40 ft., climb 40 ft.
+Melee:
+  - 4 claws +15 (1d8+8 plus rend), bite +15 (2d6+8)
+Space: 15 ft.
+Reach: 10 ft.
+SpecialAttacks: exude dust (DC 20), rend (4 claws, 1d8 + 12), sand blast (9d4, DC 20)
+AbilityScores:
+  - 27
+  - 15
+  - 22
+  - 4
+  - 12
+  - 7
+BaseAtk: '9'
+CMB: '19'
+CMD: '31'
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Perception)
+  - Toughness
+Skills:
+  - Climb +16
+  - Perception +16
+  - Stealth -2
+RacialMods: +4 Stealth
+SQ: air mastery, airborne
+Source: PFS S2-05
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Air Mastery (Ex)
+    description: >-
+      Any airborne creature takes a -1 penalty on attack and damage rolls
+      against a dust creature.
+  - name: Airborne (Su)
+    description: >-
+      A rust girallon can walk on air as with the air walk spell. In addition,
+      it always falls as if affected by a feather fall spell.
+  - name: Exude Dust (Su)
+    description: >-
+      As a free action, a rust girallon can exude a cloud of dust that functions
+      like an obscuring mist spell, except that all rust girallons can see
+      through it normally. Any other creature caught within the cloud must
+      succeed on a DC 20 Reflex save or be blinded by the stinging dust. A
+      creature that enters the dust cloud with its eyes closed or covered need
+      not make a save against blindness unless it opens its eyes while within
+      the dust cloud. A creature blinded by a rust girallon's cloud of dust
+      regains its sight 1d4 rounds after its last exposure to a dust cloud with
+      its eyes open. The save DC is Constitution-based.
+  - name: Sand Blast (Su)
+    description: >-
+      As a standard action, a rust girallon can emit an abrasive jet of
+      dust-filled wind that damages objects and other creatures. This wind takes
+      the form of a 5-foot-wide, 20-foot-long line that causes 9d4 points of
+      slashing damage. Any creature caught within the line of effect may attempt
+      a DC 20 Reflex save for half damage. The save DC is Constitution-based.
+DuringCombat: >-
+  The rust girallons split into two groups of two. One group uses its airborne
+  ability and walks up over the heads of the PCs, using exude dust to blind
+  them. The other two girallons then fire off their sand blast breath weapon,
+  hitting as many PCs as possible. Then they attack in melee and ruthlessly tear
+  at the closest PC.
+Morale: >-
+  The girallons know Adril will slay them should they disobey him-so they fight
+  to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4702'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

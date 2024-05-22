@@ -1,0 +1,89 @@
+Name: The Haunted Choir
+CR: '14'
+XP: '38400'
+Race: Zombie Horde
+Alignment: NE
+Size: Colossal
+Type: undead
+SubType: (horde)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 17, touch 6, flat-footed 17
+AC_Mods: (+11 natural, -4 size)
+HP: '110'
+HD: (20d8 plus 20)
+Saves: Fort +6, Ref +6, Will +12
+Fort: '6'
+Ref: '6'
+Will: '12'
+DefensiveAbilities: half damage from piercing weapons
+DR: 10/slashing
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - horde attack (6d6)
+Space: 30 ft.
+Reach: 5 ft.
+SpecialAttacks: feral rage, rend (+3d6)
+AbilityScores:
+  - 22
+  - 10
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '15'
+CMB: '25'
+CMD: 35 (can't be tripped)
+Feats:
+  - Improved OverrunB
+  - ToughnessB
+Skills:
+  - Stealth -13
+Source: Rappan Athuk-Level 14A
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Feral Rage (Ex)
+    description: >-
+      The horde attacks as a ruthless mob, intent only on tearing apart those
+      that fall into their clutches. This frenzy prevents them from using any
+      sort of tactics, and frees them from any form of control by other beings.
+      However, the sheer force of the wave attack allows them to deal 6d6 points
+      of damage to any creature whose space they occupy at the end of their
+      move. This ability is lost if the horde is broken up.
+  - name: Horde Traits (Ex)
+    description: >-
+      Hordes are not so called because of the size of the group but rather the
+      size of the creatures that compose the horde. Unlike normal swarms, hordes
+      are composed of Medium creatures which are usually a normal version of a
+      creature but otherwise behave in a swarmlike manner. There are usually
+      around 50 creatures in a horde. The net effect is that they take only half
+      damage from piercing weapons but take normal damage from other weapons. In
+      addition when the swarm is reduced to 0 hit points or lower and breaks up,
+      unless the damage was dealt by area-affecting attacks, then 2d6 surviving
+      members of the horde continue their attack, though now only as individual
+      creatures. Otherwise, a horde conforms to all of the other swarm traits as
+      described in the Pathfinder Roleplaying Game Bestiary.
+  - name: Rend (Ex)
+    description: >-
+      Due to the grasping and clawing nature of the zombie horde attack, any
+      time the horde does more than 25 points of damage, add 3d6 slashing damage
+      from the additional pulling and tearing. This ability is lost if the swarm
+      is broken up.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12343'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

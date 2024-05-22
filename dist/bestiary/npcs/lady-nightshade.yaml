@@ -1,0 +1,126 @@
+Name: Lady Nightshade
+CR: '10'
+XP: '9600'
+Race: daemon-spawn tiefling
+Class: illusionist 11
+MonsterSource: Blood of Fiends 19
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 24, touch 16, flat-footed 20
+AC_Mods: (+4 armor, +2 deflection, +3 Dex, +1 dodge, +4 shield)
+HP: '107'
+HD: (11d6+66)
+Saves: Fort +11, Ref +8, Will +11
+Fort: '11'
+Ref: '8'
+Will: '11'
+Resist: cold 5, electricity 5, fire 5
+Speed: 30 ft.
+Melee:
+  - mwk dagger +6 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Tiefling Spell-Like Abilities (CL 11th; concentration +10)
+  values:
+    - label: 1/day
+      value: >-
+        death knell (DC 11) Arcane School Spell-Like Abilities (CL 11th;
+        concentration +15)
+    - label: At Will
+      value: invisibility field (11 rounds/day)
+    - label: 7/day
+      value: blinding ray
+SpellsPrepared: >-
+  Illusionist Spells Prepared (CL 11th; concentration +15)  6th-quickened mirror
+  image, summon monster VI  5th-persistent image (DC 19), quickened shield,
+  summon monster V  4th-dimension door, greater invisibility, phantasmal killer
+  (DC 18), summon monster IV (2)  3rd-dispel magic, fly, lightning bolt (DC 17),
+  major image (DC 17) (2), summon monster III  2nd-acid arrow, bear's endurance,
+  blur, glitterdust (DC 16), invisibility, minor image (DC 16)  1st-disguise
+  self (DC 15), floating disc, mage armor, magic missile (2), silent image (DC
+  15)  0 (at will)-ghost sound (DC 14), mage hand, mending, open/ close,
+  prestidigitation
+AbilityScores:
+  - 10
+  - 16
+  - 18
+  - 18
+  - 10
+  - 8
+BaseAtk: '5'
+CMB: '5'
+CMD: '21'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Great Fortitude
+  - Iron Will
+  - Mobility
+  - Quicken Spell
+  - Scribe Scroll
+  - Silent Spell
+  - Toughness
+Skills:
+  - Disable Device +5
+  - Disguise +10
+  - Fly +17
+  - Knowledge (arcana) +18
+  - Knowledge (history) +8
+  - Knowledge (local) +8
+  - Knowledge (planes) +8
+  - Perform (act) +7
+  - Sleight of Hand +16
+  - Spellcraft +18
+Languages:
+  - Abyssal
+  - Aquan
+  - Common
+  - Gnome
+  - Goblin
+  - Infernal
+  - Polyglot
+SQ: >-
+  arcane bond (amulet), contingency (displacement on self if she snaps her
+  fingers as a free action), extended illusions +5 rounds
+Source: AP 59
+IsTemplate: '0'
+Gender: Female
+ProhibitedSchools: enchantment, necromancy
+BeforeCombat: Lady Nightshade casts bear's endurance and mage armor.
+DuringCombat: >-
+  Lady Nightshade hangs back from combat, casting quickened shield and greater
+  invisibility on the first round and then using summon monster spells each
+  round thereafter. If her invisibility is countered, she casts quickened mirror
+  image on the next round, snapping her fingers at the same time to also
+  activate her contingency spell of displacement.
+Morale: >-
+  Lady Nightshade abandons the troupe if reduced to fewer than 15 hit points,
+  using dimension door to escape into Hell Harbor. After that, she does her best
+  to avoid the PCs and escape the Shackles.
+Gear: wand of grease (48 charges)
+OtherGear: >-
+  masterwork dagger, cloak of resistance +2, ring of protection +2, ring of the
+  ram (17 charges), spellbook, spell component pouch, ivory statuette of herself
+  worth 1,500 gp, 328 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3149'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

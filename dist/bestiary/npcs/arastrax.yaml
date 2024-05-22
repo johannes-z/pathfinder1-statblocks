@@ -1,0 +1,126 @@
+Name: Arastrax
+CR: '11'
+XP: '12800'
+Race: shadow demon
+Class: rogue 4
+MonsterSource: Pathfinder RPG Bestiary 67
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar,   incorporeal)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +25
+AC: 22, touch 22, flat-footed 16
+AC_Mods: (+6 deflection, +6 Dex)
+HP: '115'
+HD: (11 HD; 7d10+4d8+59)
+Saves: Fort +8, Ref +17, Will +9
+Fort: '8'
+Ref: '17'
+Will: '9'
+DefensiveAbilities: evasion, incorporeal, trap sense +1,uncanny dodge
+DR: 10/cold iron or good
+Immune: cold, electricity, poison
+Resist: acid 10, fire 10
+SR: '17'
+Weaknesses: sunlight powerlessness
+Speed: fly 40 ft. (perfect)
+Melee:
+  - 2 claws +16 touch (1d6 plus 1d6 cold), bite +16 touch (1d8 plus 1d6 cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: pounce, shadow blend, sneak attack +2d6, sprint
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +16)
+  values:
+    - label: At Will
+      value: >-
+        deeper darkness, fear (DC 20), greater teleport (self only), telekinesis
+        (DC 21)
+    - label: 3/day
+      value: shadow conjuration (DC 20), shadow evocation (DC 21)
+    - label: 1/day
+      value: magic jar (DC 21), summon (level 3, 1 shadow demon 50%)
+AbilityScores:
+  - —
+  - 22
+  - 20
+  - 14
+  - 16
+  - 23
+BaseAtk: '10'
+CMB: '16'
+CMD: '32'
+Feats:
+  - Blind-Fight
+  - Combat Expertise
+  - Combat Reflexes
+  - Improved Feint
+  - Improved Initiative
+  - Lightning Reflexes
+Skills:
+  - Acrobatics +20
+  - Bluff +20
+  - Diplomacy +16
+  - Disable Device +8
+  - Fly +24
+  - Intimidate +14
+  - Knowledge (local) +16
+  - Knowledge (planes) +16
+  - Perception +25
+  - Sense Motive +17
+  - Stealth +20
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+SQ: rogue talents (bleeding attack +2, surprise attack), trapfinding +2
+Source: PFS S5-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Sprint (Ex)
+    description: >-
+      Once per minute, a shadow demon increase its fly speed to 240 feet for 1
+      round.
+  - name: Shadow Blend (Su)
+    description: >-
+      During any conditions other than bright light, a shadow demon can
+      disappear into the shadows as a move-equivalent action, effectively
+      becoming invisible. Artificial illumination or light spells of 2nd level
+      or lower do not negate this ability.
+  - name: Sunlight Powerlessness (Ex)
+    description: >-
+      A shadow demon is utterly powerless in bright light or natural sunlight
+      and flees from it. A shadow demon caught in such light cannot attack and
+      can take only a single move or standard action. A shadow demon that is
+      possessing a creature using magic jar is not harmed by sunlight, but if it
+      is struck by a sunbeam or sunburst spell while possessing a creature, the
+      shadow demon is driven out of its host automatically.
+Gender: Male
+BeforeCombat: >-
+  Arastrax refrains from using his spell-like abilities while within his host to
+  help maintain his ruse.
+DuringCombat: >-
+  Once his host is slain, Arastrax casts deeper darkness to protect himself from
+  the sunlight, and then uses his shadow conjuration, shadow evocation, and
+  telekinesis abilities against the PCs. On alternating rounds he uses fear in
+  hopes of driving off some of his attackers.
+Morale: Enraged and desperate, Arastrax fights until slain.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8141'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

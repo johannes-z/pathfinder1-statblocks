@@ -1,0 +1,125 @@
+Name: Shoggti
+CR: '7'
+XP: '3200'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, evil, extraplanar, qlippoth)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +18
+AC: 21, touch 12, flat-footed 18
+AC_Mods: (+3 Dex, +9 natural, -1 size)
+HP: '80'
+HD: (7d10+42)
+Saves: Fort +11, Ref +5, Will +9
+Fort: '11'
+Ref: '5'
+Will: '9'
+DefensiveAbilities: uncanny dodge
+DR: 10/cold iron or lawful
+Immune: cold, poison, mind-affecting effects
+Resist: acid 10, electricity 10, fire 10
+Speed: 30 ft.
+Melee:
+  - bite +12 (1d8+6), 4 tentacles +8 (1d4+3 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: braincloud, horrific appearance (DC 15), constrict (1d4+6)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +9)
+  values:
+    - label: Constant
+      value: tongues
+    - label: At Will
+      value: command (DC 13)
+    - label: 3/day
+      value: charm person (DC 13), protection from law
+    - label: 1/day
+      value: charm monster (DC 16), dimension door
+AbilityScores:
+  - 22
+  - 16
+  - 23
+  - 12
+  - 19
+  - 15
+BaseAtk: '7'
+CMB: +14 (+18 grapple)
+CMD: 27 (31 vs. trip)
+Feats:
+  - Combat Reflexes
+  - Improved Initiative
+  - Skill Focus (Use Magic Device)
+  - Weapon Focus (tentacles)
+Skills:
+  - Escape Artist +13
+  - Intimidate +16
+  - Knowledge (planes) +11
+  - Perception +18
+  - Sense Motive +14
+  - Stealth +9
+  - Use Magic Device +19
+RacialMods: +4 Intimidate, +4 Perception, +4 Use Magic Device
+Languages:
+  - Abyssal
+  - telepathy 100 ft.
+Environment: any (the Abyss)
+Organization: solitary, pair, or slaver band (3-10 plus 6-12 slaves of various races)
+Treasure: standard
+Description_Visual: >-
+  This pale creature has four suckered arms that end in pincers. A gnashing maw
+  gapes in its head between two staring eyes.
+Group: Qlippoth
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Braincloud (Su)
+    description: >-
+      Once per round, in place of a melee attack with a tentacle, a shoggti can
+      make a melee touch attack with the pincer on the end of that tentacle. If
+      it hits, the target takes 1d4 points of Wisdom damage. Shoggti use this
+      ability to mentally debilitate their victims so they can more easily use
+      their charm spell-like abilities against them.
+  - name: Horrific Appearance (Su)
+    description: >-
+      Creatures that succumb to a shoggti's horrific appearance become
+      fascinated by the creature's hypnotically wriggling tentacles and the
+      strange, shimmering colors in its eyes. This effect persists for 1d6
+      rounds (but can be ended by the normal methods of defeating the fascinated
+      condition).
+Description:
+  - >-
+    The shoggti are masters of mind manipulation, capable of seizing control of
+    the thoughts of others and charming them into docile allies. They invade
+    other realms in slaver bands, seeking out creatures to capture alive and
+    return to the Abyss as charmed slaves-the fates of these poor souls is
+    unknown, but likely has something to do with the qlippoth drive to reclaim
+    the Abyss as their own.
+  - >-
+    Although a shoggti lacks proper hands, it is capable of performing
+    incredibly dextrous manipulations with the pincers at the tips of its
+    tentacles. It cannot wield weapons in these pincers, but it can utilize
+    magic items like wands, rods, staves, and the like. Shoggti are fond of
+    wands in particular, particularly those that create mind-affecting effects
+    that are easy to inf lict on victims of their braincloud ability.
+  - >-
+    A shoggti's body is an egg-shaped mass about 8 feet long-its tentacles are
+    about 8 feet long as well. The whole creature weighs 900 pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Qlippoth, Shoggti
+id: '1327'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

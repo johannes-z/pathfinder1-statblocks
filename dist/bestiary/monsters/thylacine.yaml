@@ -1,0 +1,84 @@
+Name: Thylacine
+CR: 1/2
+XP: '200'
+Alignment: 'N'
+Size: Small
+Type: animal
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +8
+AC: 13, touch 13, flat-footed 11
+AC_Mods: (+2 Dex, +1 size)
+HP: '7'
+HD: (1d8+3)
+Saves: Fort +5, Ref +4, Will +1
+Fort: '5'
+Ref: '4'
+Will: '1'
+Speed: 30 ft.
+Melee:
+  - bite +2 (1d4+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 12
+  - 15
+  - 16
+  - 2
+  - 13
+  - 7
+BaseAtk: '0'
+CMB: '0'
+CMD: 12 (16 vs. trip)
+Feats:
+  - Skill Focus (Perception)
+Skills:
+  - Perception +8
+SQ: powerful jaws
+Environment: warm hills
+Organization: solitary or pack (2-5)
+Treasure: none
+Description_Visual: >-
+  This catlike creature has a striped pelt and whiskers that jut from a long
+  muzzle filled with sharp teeth.
+Group: Marsupial
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Powerful Jaws (Ex)
+    description: >-
+      A thylacine's muscular jaws threaten a critical hit on a natural roll of
+      19 or 20.
+Description:
+  - >-
+    These carnivorous, wide-jawed marsupials typically hunt at night and have a
+    reputation for savagery. By day, they nest in hollow trees or clusters of
+    bushes.
+  - Thylacine Companions
+  - >-
+    Starting Statistics: Size Small; Speed 30 ft.; Attack bite (1d4); Ability
+    Scores Str 12, Dex 15, Con 16, Int 2, Wis 13, Cha 7; Special Qualities
+    low-light vision, powerful jaws.
+  - >-
+    4th-Level Advancement: Size Medium; AC +2 natural armor; Attack bite (1d6);
+    Ability Scores Str +4, Dex -2, Con +4.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '1'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2136'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

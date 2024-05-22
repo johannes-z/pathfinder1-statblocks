@@ -1,0 +1,139 @@
+Name: Iuwlas
+CR: '11'
+XP: '12800'
+Race: morlock
+Class: oracle 10
+MonsterSource: Pathfinder RPG Bestiary 209, Pathfinder RPG Advanced Player's Guide 42
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '8'
+Senses:
+  - darkvision 120 ft., scent
+  - Perception +14
+AC: 24, touch 18, flat-footed 20
+AC_Mods: (+5 armor, +3 deflection, +4 Dex, +1 insight, +1 natural)
+HP: '162'
+HD: (13 HD; 10d8+3d10+101)
+Saves: Fort +15, Ref +15, Will +16
+Fort: '15'
+Ref: '15'
+Will: '16'
+Immune: disease, fatigue, poison
+Weaknesses: light blindness
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - mwk quarterstaff +12/+7 (1d6+1), bite +6 (1d4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: leap attack, sneak attack +1d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +15)
+  values:
+    - label: 3/day
+      value: cure light wounds (DC 16)
+SpellsKnown:
+  header: Oracle Spells Known (CL 10th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: greater command (DC 20), mass inflict light wounds (DC 20), telekinesis
+    - label: 4th (6/day)
+      value: >-
+        freedom of movement, inflict critical wounds (DC 19), poison (DC 19),
+        spiritual allyAPG
+    - label: 3rd (7/day)
+      value: >-
+        blindness/deafness (2) (DC 18), dispel magic, heroism, inflict serious
+        wounds (DC 18)
+    - label: 2nd (7/day)
+      value: >-
+        darkness, eagle's splendor, enthrall (DC 17), hold person (DC 17),
+        inflict moderate wounds (DC 17), spiritual weapon
+    - label: 1st (8/day)
+      value: >-
+        divine favor, inflict light wounds (DC 16), obscuring mist, protection
+        from good, sanctuary (DC 16), shield of faith, unseen servant
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), create water, detect magic, detect poison, guidance,
+        mending, purify food and drink (DC 15), resistance, virtue
+AbilityScores:
+  - 12
+  - 19
+  - 22
+  - 8
+  - 16
+  - 20
+BaseAtk: '10'
+CMB: '11'
+CMD: '29'
+Feats:
+  - Combat Casting
+  - Extra Revelation
+  - Great Fortitude
+  - Improved Initiative
+  - Lightning Reflexes
+  - Silent Spell
+  - Toughness
+Skills:
+  - Acrobatics +12
+  - Climb +20
+  - Knowledge (history
+  - religion) +8
+  - Perception +12
+  - Sense Motive +14
+  - Spellcraft +12
+  - Stealth +7 (+11 in caverns)
+RacialMods: +8 Acrobatics, +16 Climb, +4 Stealth in caverns
+Languages:
+  - Undercommon
+SQ: >-
+  ancestor-touched, expert climber, oracle's curse (lame), revelations (spirit
+  shieldUM, storm of soulsUM, voice of the grave, wisdom of the ancestorsUM),
+  slow and steady
+Source: AP 118
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Touched (Ex)
+    description: >-
+      Iuwlas is an evolutionary throwback, possessing magic and intellect his
+      people lost long ago. He gains a +6 bonus to his Charisma and can cast
+      cure light wounds three times per day as a spell-like ability. Because of
+      the awe and fear he inspires in other morlocks, he loses his swarming
+      racial ability. This ability originally appeared in Pathfinder Campaign
+      Setting: Darklands Revisited.
+Gender: Male
+BeforeCombat: >-
+  If he hears anyone approaching or plans an ambush, Iuwlas casts eagle's
+  splendor, protection from good, and shield of faith on himself.
+DuringCombat: >-
+  Iuwlas begins any conflict by unleashing his storm of souls revelation and
+  then casting spiritual ally. He clings to the walls and ceiling and unleashes
+  attack spells, beginning by using telekinesis to fling enemies into the
+  waterfall and down to area G14 for the lake's denizen to finish off.
+Morale: >-
+  Iuwlas retreats to his morlock allies in G12 if reduced below 60 hit points.
+  He makes a final stand in area G19 with the tribe's chief.
+Gear: >-
+  +1 chain shirt, mwk quarterstaff, cloak of resistance +3, dull gray ioun
+  stones (4), dusty rose prism ioun stone, pink rhomboid ioun stone, jade "holy
+  symbol" of Zanathura (worth 150 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his spells, Iulwas's statistics are AC 21, touch 15, flat-footed 17;
+  Concentration +13; Cha 16; reduce spell saving throw DCs by 2 each.
+AgeCategory: Adult
+Mystery: ancestor
+CompanionFamiliarLink: '0'
+id: '11470'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,156 @@
+Name: Zella Zidlii
+CR: '10'
+XP: '9600'
+Race: human
+Class: harrower 6/wizard 5
+MonsterSource: 'Pathfinder Campaign Setting: The Inner Sea World Guide 276'
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +12
+AC: 24, touch 16, flat-footed 19
+AC_Mods: (+4 armor, +1 deflection, +4 Dex, +1 dodge, +4 shield)
+HP: '105'
+HD: (11d6+64)
+Saves: Fort +7, Ref +8, Will +9; +1 vs. enchantment
+Fort: '7'
+Ref: '8'
+Will: '9'
+Save_Mods: +1 vs. enchantment
+Speed: 30 ft.
+Melee:
+  - +2 defending bladed scarf +11 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hand of the apprentice (7/day), harrow casting
+SpellLikeAbilities:
+  header: Harrower Spell-Like Abilities (CL 11th; concentration +15)
+  values:
+    - label: 1/day
+      value: divination
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 11th; concentration +15)  6th-chain lightning (DC
+  20)  5th-prying eyes, sending  4th-black tentacles, dimension door, locate
+  creature, scrying (DC 18)  3rd-dispel magic, fireball (DC 17), haste, spiked
+  pitAPG (DC 17), suggestion (DC 17)  2nd-cat's grace, create pitAPG (DC 16),
+  false life, glitterdust (DC 16), rope trick  1st-charm person (DC 15), grease,
+  mage armor, magic missile, shield  0 (at will)-arcane mark, detect magic,
+  light, message
+AbilityScores:
+  - 10
+  - 18
+  - 16
+  - 18
+  - 12
+  - 8
+BaseAtk: '5'
+CMB: '5'
+CMD: '21'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Craft Magic Arms and Armor
+  - Dodge
+  - Exotic Weapon Proficiency (bladed scarf)
+  - Harrowed
+  - Scribe Scroll
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Craft (painting) +16
+  - Fly +18
+  - Knowledge (arcana) +18
+  - Knowledge (religion) +18
+  - Perception +12
+  - Perform (string instruments) +13
+  - Spellcraft +18
+Languages:
+  - Common
+  - Draconic
+  - Infernal
+  - Shadowtongue
+  - Shoanti
+  - Varisian
+SQ: >-
+  arcane bond (+2 defending bladed scarf), blessing of the harrow, spirit deck,
+  tower of charisma, tower of intelligence, tower of strength
+Source: AP 100
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blessing of the Harrow (Su)
+    description: >-
+      Once per day, Zella can spend 10 minutes to provide a 24-hour-long bonus
+      by performing a harrowing for herself and all allies within 20 feet. Roll
+      1d6 to determine the results: 1 = +1 on all attack rolls, 2 = +1 to AC, 3
+      = +1 on weapon damage rolls, 4 = +1 on all skill checks, 5 = +1 on all
+      saving throws, 6 = +1 on caster level checks and concentration checks.
+      Harrower Abilities To speed game play, Zella's harrower class abilities
+      presented here use die rolls to resolve their effects, but you can use the
+      rules given in the harrower prestige class if you have a Pathfinder Cards:
+      Deluxe Harrow Deck.
+  - name: Harrow Casting (Su)
+    description: >-
+      Up to six times per day, Zella can perform a harrow casting by adding a
+      somatic component and focus component (her harrow deck) to a spell as she
+      casts it. When she does so, she rolls 1d6 three times: 1 = Zella gains the
+      tower of charisma; 2 = Zella gains the tower of intelligence; 3 = Zella
+      gains the tower of strength. The bonuses granted by these tower effects
+      stack. She gains no benefit from results of 4-6.
+  - name: Spirit Deck (Su)
+    description: >-
+      As a standard action once per day, Zella can create a translucent harrow
+      deck made of force and cause it to strike a target within 30 feet. She
+      rolls 1d6 six times to determine how much force damage the deck deals (the
+      results are cumulative): 1 = 5 points of damage; 2&#8211;3 = 3 points of
+      damage; 4&#8211;5 = 1 point of damage; 6 = 0 points.
+  - name: Tower of Charisma (Su)
+    description: >-
+      Each time she rolls a 1 when using harrow casting, Zella increases the
+      spell's save DC by 1.
+  - name: Tower of Intelligence (Su)
+    description: >-
+      Each time she rolls a 2 when using harrow casting, Zella adds a +1 bonus
+      on rolls made to penetrate Spell Resistance.
+  - name: Tower of Strength (Su)
+    description: >-
+      Each time she rolls a 3 when using harrow casting, Zella's spell deals 1
+      extra point of damage per damage die (if the spell deals hit point
+      damage).
+Gender: Female
+BeforeCombat: >-
+  Zella casts cat's grace, mage armor, false life, and shield before combat. In
+  addition, each morning she performs a blessing of the harrow for Barzillai.
+  Make sure to note what effect her blessing grants to herself and Barzillai
+  (since this is a random bonus, it is not already calculated into her
+  statistics or Barzillai's).
+DuringCombat: >-
+  Zella begins combat with chain lightning, then follows with her pit spells to
+  keep the PCs from controlling the battlefield. She enjoys using her spirit
+  deck attack on severely wounded enemies in hopes of killing them with the
+  attack. If forced into melee, she fights with her bladed scarf, using its
+  bonus to aid her AC while she seeks to move to range or find allies so she can
+  return to spellcasting.
+Morale: >-
+  Zella is eager to meet her final reward in Hell, but believes suicide will
+  undo her hard work. She fights to the death as a result.
+Gear: >-
+  +2 defending bladed scarf, belt of mighty constitution +2, cloak of resistance
+  +1, ring of protection +1, infernal-themed harrow deck worth 600 gp, 146 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7519'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

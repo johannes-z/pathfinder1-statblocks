@@ -1,0 +1,129 @@
+Name: Uzar-Kus
+CR: '8'
+XP: '4800'
+Race: serpentfolk
+Class: sorcerer 6
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '11'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +16
+AC: 24, touch 17, flat-footed 17
+AC_Mods: (+4 armor, +7 Dex, +3 natural)
+HP: '109'
+HD: (11 HD; 5d10+6d6+61)
+Saves: Fort +9, Ref +13, Will +11
+Fort: '9'
+Ref: '13'
+Will: '11'
+Immune: harmful vapors and gases, mind-affecting effects, paralysis, poison
+SR: '20'
+Speed: 30 ft.
+Melee:
+  - +2 dagger +17/+12 (1d4+2/19-20), 2 bites +10 (1d6 plus poison)
+  - 2 bites +15 (1d6 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: long limbs (+5 ft.), two-headed
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +10)
+  values:
+    - label: At Will
+      value: disguise self (humanoid form only, DC 17), ventriloquism
+    - label: 1/day
+      value: >-
+        blur, dominate person (DC 21), major image, mirror image, suggestion (DC
+        19) Bloodline Spell-Like Abilities (CL 6th; concentration +12)
+    - label: 9/day
+      value: acidic ray (1d6+3 acid)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +12)
+  values:
+    - label: 3rd (4/day)
+      value: fireball (DC 19)
+    - label: 2nd (7/day)
+      value: invisibility, see invisibility, summon monster II
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 17), enlarge person, mage armor, magic missile, ray of
+        enfeeblement (DC 17)
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, ghost sound (DC 16), light, mage hand,
+        resistance, touch of fatigue (DC 16)
+AbilityScores:
+  - 11
+  - 24
+  - 18
+  - 16
+  - 14
+  - 22
+BaseAtk: '8'
+CMB: '8'
+CMD: '25'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Initiative
+  - Still Spell
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +17
+  - Disguise +11
+  - Escape Artist +20
+  - Knowledge (arcana) +17
+  - Perception +16
+  - Sense Motive +7
+  - Spellcraft +17
+  - Use Magic Device +20
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Undercommon
+  - telepathy 100 ft.
+SQ: bloodline arcana (+50% duration on polymorphs)
+Source: The Emerald Spire
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 19; frequency 1/round for 6 rounds; effect 1d2
+      Str; cure 2 saves. Two-Headed (Ex) Uzar-Kus hatched with two heads. On any
+      round in which he casts a spell or uses a spell-like ability, he can make
+      one bite attack as part of the action to cast the spell. If he casts a
+      spell using Still Spell, he can make his dagger attack and one bite
+      attack, but doing so is a full-round action, regardless of the time it
+      would normally take to cast the spell. Uzar-Kus is immune to any effect
+      focused on the head that would incapacitate him, such as blindness/
+      deafness, unless that effect targets both heads.
+Gender: Male
+Bloodline: aberrant
+BeforeCombat: Uzar-Kus casts mage armor on himself.
+DuringCombat: >-
+  Uzar-Kus casts mirror image and dominate person, then casts fireball as many
+  times as he can before he's forced into melee. Once in melee, he continues
+  casting spells while biting with his second head.
+Morale: Uzar-Kus fights to the death to protect the temple.
+Gear: >-
+  +2 dagger, necklace of adaptation, jade holy symbol of Ydersius, key to area
+  H11, 25 pp, topazes (5, worth 50 gp each)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6120'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

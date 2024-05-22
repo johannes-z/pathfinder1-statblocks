@@ -1,0 +1,116 @@
+Name: Tower Guard
+CR: '3'
+XP: '800'
+Race: Ratfolk
+Class: fighter 2/rogue 2
+MonsterSource: Pathfinder RPG Bestiary 3 231
+Alignment: 'N'
+Size: Small
+Type: humanoid
+SubType: (ratfolk)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 19, touch 15, flat-footed 15
+AC_Mods: (+3 armor, +4 Dex, +1 shield, +1 size)
+HP: '30'
+HD: (4 HD; 2d10+2d8+6)
+Saves: Fort +5, Ref +8, Will +2; +1 vs. fear
+Fort: '5'
+Ref: '8'
+Will: '2'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1, evasion
+Speed: 20 ft.
+Melee:
+  - short sword +5 (1d4+1/19-20)
+Ranged:
+  - mwk composite longbow +10 (1d6+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +1d6, swarming
+AbilityScores:
+  - 12
+  - 18
+  - 12
+  - 12
+  - 13
+  - 8
+BaseAtk: '3'
+CMB: '3'
+CMD: '17'
+Feats:
+  - Improved Initiative
+  - Point-Blank Shot
+  - Rapid Shot
+  - Weapon Focus (composite longbow)
+Skills:
+  - Climb +4
+  - Craft (alchemy) +7
+  - Disable Device +7
+  - Handle Animal +3 (+7 to influence rodents)
+  - Knowledge (dungeoneering) +6
+  - Knowledge (engineering) +6
+  - Knowledge (local) +5
+  - Perception +10
+  - Sense Motive +8
+  - Sleight of Hand +8
+  - Stealth +11
+  - Survival +8
+  - Use Magic Device +5
+RacialMods: >-
+  +2 Craft (alchemy), +4 Handle Animal to influence rodents, +2 Perception, +2
+  Use Magic Device
+Languages:
+  - Common
+  - Tian
+SQ: rogue talents (slow reactions), trapfinding +1
+Source: PFS S3-20
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Swarming (Ex)
+    description: >-
+      Ratfolk are used to living and fighting communally, and are adept at
+      swarming foes for their own gain and their foes' detriment. Up to two
+      ratfolk can share the same square at the same time. If two ratfolk in the
+      same square attack the same foe, they are considered to be flanking that
+      foe as if they were in two opposite squares.
+BeforeCombat: >-
+  The ratfolk guards attempt to identify anyone approaching their tower. Unless
+  the PCs manage to convince the guards to engage in diplomacy, the guards open
+  fire from behind the improved cover of their arrow slits. The arrow slits
+  grant the ratfolk a +8 bonus to AC, a +4 bonus on Reflex saves, and the
+  benefits of the improved evasion class feature.
+DuringCombat: >-
+  The ratfolk guards retreat deeper into the tower as needed to avoid melee for
+  as long as possible. Should they be forced into melee, they use their swarming
+  tactics to confuse their enemies. If one of their foes appears near death,
+  they switch to nonlethal attacks (such as their blunt arrows) to drop their
+  opponent, as their primary goal is simply to repel intruders.
+Morale: >-
+  If brought below 10 hit points, the ratfolk guards attempt to surrender with
+  the hopes of escaping their capturers and retreating to their captain's
+  office.
+Gear: >-
+  potions of cure moderate wounds (2), alchemist's fire, blunt arrows* (20),
+  smokestick, tanglefoot bag
+OtherGear: >-
+  masterwork studded leather, buckler, masterwork composite longbow (+1 Str)
+  with 20 arrows, short sword, cloak of resistance +1, 18 gp
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6262'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

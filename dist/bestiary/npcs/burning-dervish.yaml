@@ -1,0 +1,103 @@
+Name: Burning Dervish
+CR: '7'
+XP: '3200'
+Race: Burning Dervish
+MonsterSource: Tome of Horrors Complete 89
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (extraplanar, fire)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+AC: 17, touch 14, flat-footed 13
+AC_Mods: (+3 Dex, +1 dodge, +3 natural)
+HP: '58'
+HD: (9d10+9)
+Saves: Fort +7, Ref +6, Will +8
+Fort: '7'
+Ref: '6'
+Will: '8'
+Immune: fire
+Weaknesses: vulnerability to cold
+Speed: 30 ft., fly 20 ft. (perfect)
+Melee:
+  - +1 falchion +14/+9 (2d4+7/18-20)
+  - (in flame form) 2 slams +13 (1d6+4 plus 1d6 fire plus burn)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: burn (1d6, DC 15)
+SpellLikeAbilities:
+  header: 'Spell-Like Abilities (CL 14th):'
+  values:
+    - label: 3/day
+      value: invisibility (self only), pyrotechnics (DC 14)
+    - label: 1/day
+      value: >-
+        enlarge person or reduce person (DC 13), plane shift (Elemental, Astral,
+        or Material Planes only), produce flame
+AbilityScores:
+  - 18
+  - 16
+  - 13
+  - 13
+  - 15
+  - 15
+BaseAtk: '9'
+CMB: '13'
+CMD: '27'
+Feats:
+  - Combat Expertise
+  - Dodge
+  - Mobility
+  - Spring Attack
+  - Whirlwind Attack
+Skills:
+  - Bluff +13
+  - Escape Artist +13
+  - Knowledge (planes) +13
+  - Perception +14
+  - Search +9
+  - Sense Motive +13
+  - Stealth +14
+  - Survival +14
+RacialMods: +2 Survival when tracking
+Languages:
+  - Common
+  - Ignan
+  - Infernal
+SQ: elemental endurance, flame form
+Source: AP 82
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Elemental Endurance (Ex)
+    description: >-
+      Burning dervishes can survive on the Elemental Planes of Air or Earth for
+      up to 48 hours and on the Elemental Plane of Water for up to 12 hours.
+      Failure to return to the Elemental Plane of Fire after that time deals 1
+      point of damage per hour to a burning dervish until it dies or returns to
+      the Elemental Plane of Fire. It is able to survive on other planes
+      normally.
+  - name: Flame Form (Su)
+    description: >-
+      Three times per day, as a standard action, a burning dervish can change
+      its form to that of a column of fire. In this form it gains two slam
+      attacks. The transformation lasts indefinitely; reverting to its humanoid
+      form requires another standard action.
+Gear: +1 falchion
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6081'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

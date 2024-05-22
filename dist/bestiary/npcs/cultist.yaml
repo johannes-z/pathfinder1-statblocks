@@ -1,0 +1,93 @@
+Name: Cultist
+CR: '1'
+XP: '400'
+Race: Human
+Class: cleric of Baphomet or Deskari 1/fighter 1
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '3'
+Senses:
+  - Perception +5
+AC: 13, touch 9, flat-footed 13
+AC_Mods: (+4 armor, -1 Dex)
+HP: '15'
+HD: (2 HD; 1d8+1d10+1)
+Saves: Fort +4, Ref -1, Will +5
+Fort: '4'
+Ref: '-1'
+Will: '5'
+Speed: 30 ft.
+Melee:
+  - mwk glaive +5 (1d10+3/x3)
+  - mwk scythe +4 (2d4+3/x4)
+  - dagger +3 (1d4+2/19-20)
+Ranged:
+  - dagger +0 (1d4+2/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 11, 1d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 1st; concentration +4)
+  values:
+    - label: 6/day
+      value: touch of chaos, touch of evil
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 1st; concentration +4)   1st-command (DC 14), cure
+  light wounds, protection from goodD   0 (at will)-bleed (DC 13), guidance,
+  light
+SpellDomains: Chaos, Evil
+AbilityScores:
+  - 14
+  - 8
+  - 10
+  - 13
+  - 17
+  - 12
+BaseAtk: '1'
+CMB: '3'
+CMD: '12'
+Feats:
+  - Combat Casting
+  - Improved Initiative
+  - Weapon Focus (glaive or scythe)
+Skills:
+  - Climb +6
+  - Knowledge (religion) +6
+  - Perception +5
+  - Stealth +0
+Languages:
+  - Abyssal
+  - Common
+  - Hallit
+Source: AP 73
+IsTemplate: '0'
+DuringCombat: >-
+  The cultist casts protection from good, then focuses all attacks on obvious
+  paladins or good-aligned priests if possible. She is fond of using command on
+  foes who try to stay at range, ordering them to drop their weapons. The
+  cultist casts cure light wounds on herself if reduced to fewer than 6 hit
+  points.
+Morale: Worldwound cultists fight to the death.
+Gear: >-
+  potion of cure light wounds, scroll of cause fear, scroll of comprehend
+  languages, unholy water
+OtherGear: >-
+  mwk chain shirt, mwk glaive (cultist of Baphomet) or mwk scythe (cultist of
+  Deskari), dagger, spell component pouch, unholy symbol, 10 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4829'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

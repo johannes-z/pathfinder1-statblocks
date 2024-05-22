@@ -1,0 +1,153 @@
+Name: Baaphel
+CR: '21'
+XP: '409600'
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '11'
+Senses:
+  - darkvision 60 ft., detect good, detect magic, see in darkness
+  - Perception +35
+AC: 38, touch 19, flat-footed 37
+AC_Mods: (+9 armor, +2 Dex, +11 natural, +7 profane)
+HP: '270'
+HD: (20d10+160)
+HP_Mods: regeneration 10 (good, silver)
+Saves: Fort +14, Ref +19, Will +22
+Fort: '14'
+Ref: '19'
+Will: '22'
+DR: 15/good and silver
+Immune: fire, poison
+Resist: acid 10,  cold 10
+SR: '32'
+Speed: 30 ft., fly 50 ft. (good) (40 ft., fly 60 ft. base)
+Melee:
+  - >-
+    +3 axiomatic keen scythe +35/+30/+25/+20  (2d4+19/19-20/x4) or fear touch
+    +31 (fear)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: fear touch (Will DC 27, fear spell, CL 20th)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: Constant
+      value: detect good, detect magic
+    - label: At Will
+      value: >-
+        blasphemy (DC 24), charm monster (DC 21), desecrate, fire shield,
+        greater dispel magic, greater invisibility (DC 21), greater teleport
+        (self plus 50 pounds of objects only), magic circle against good,
+        suggestion (DC 20), tongues, unholy aura (DC 25)
+    - label: 2/day
+      value: >-
+        summon (level 9, 4d10 nupperibos, 2d6 bearded devils, bone devils or
+        erinyes, or 1 ghaddar 100%)
+    - label: 1/day
+      value: >-
+        circle of death (DC 23), flesh to stone (DC 23), symbol of pain (DC 22),
+        symbol of sleep (DC 22)
+AbilityScores:
+  - 33
+  - 25
+  - 27
+  - 26
+  - 26
+  - 25
+BaseAtk: '20'
+CMB: '31'
+CMD: '55'
+Feats:
+  - Alertness
+  - Blind-Fight
+  - Cleave
+  - Great Cleave
+  - Improved Initiative
+  - Improved Sunder
+  - Iron Will
+  - Power Attack
+  - Weapon Focus (scythe)
+  - Vital Strike
+Skills:
+  - Appraise +28
+  - Bluff +30
+  - Diplomacy +30
+  - Disguise +27
+  - Escape Artist +30
+  - Fly +34
+  - Intimidate +30
+  - Knowledge (arcana) +31
+  - Knowledge (planes) +31
+  - Knowledge (religion) +28
+  - Perception +35
+  - Sense Motive +35
+  - Stealth +30
+  - Survival +28
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Giant
+  - Infernal
+  - Terran
+  - telepathy 100 ft.
+Environment: any (Hell)
+Organization: >-
+  solitary or troupe (Baaphel plus 2-5 bearded devils, 1-2 barbed devils, or 1
+  pit fiend)
+Treasure: double standard
+Description_Visual: >-
+  This dog-headed humanoid has grayish-brown, pale scarlet eyes, and two upright
+  crimson horns. Two, large, black bat-like wings sprout from its shoulders. Its
+  hands are clawed and its feet are blackened hooves. A forked crimson tail
+  snakes behind it.
+Group: Devil
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear Touch (Su)
+    description: >-
+      A creature that successfully saves cannot be affected again by Baaphel's
+      fear touch for one day. The save DC is Charisma-based. Hell's Gleaning:
+      Baaphel's unique weapon is a +3 axiomatic keen scythe.
+Description:
+  - >-
+    Baaphel is a grand duke in the service of Belial, leading 2 legions of
+    bearded devils in battle for his lord. Baaphel is constantly scheming
+    against the other dukes in Belial's service and takes every opportunity to
+    discredit them in the eyes of their lord, though he never does this openly;
+    it is always through lesser dukes and other devils that his machinations
+    come to fruition. Baaphel yearns to be ruler of an entire plane and is
+    waiting anxiously until the time comes that he can overthrow his lord.
+  - >-
+    Baaphel makes his home in a great castle of basalt and iron called Evermore
+    on Hell's fourth plane.
+  - Baaphel stands 7 feet tall and weighs about 400 pounds.
+  - >-
+    Baaphel attacks with Hell's Gleaning and spell-like abilities. He usually
+    opens combat with flesh to stone, taking out the most able bodied attackers.
+  - Baaphel wears +3 chainmail and is rarely encountered without it.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: Hell's Gleaning, +3 chainmail
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2508'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,105 @@
+Name: Feral Howler
+CR: '5'
+XP: '1600'
+Race: howler
+MonsterSource: Pathfinder RPG Bestiary 2 159
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+AC: 18, touch 12, flat-footed 15
+AC_Mods: (+3 Dex, +6 natural, -1 size)
+HP: '51'
+HD: (6d10+18)
+Saves: Fort +8, Ref +8, Will +4
+Fort: '8'
+Ref: '8'
+Will: '4'
+DefensiveAbilities: quill defense
+Speed: 60 ft.
+Melee:
+  - bite +10 (1d8+5), quills +5 (1d4+2 plus pain)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: howl
+AbilityScores:
+  - 20
+  - 17
+  - 17
+  - 6
+  - 14
+  - 13
+BaseAtk: '6'
+CMB: '12'
+CMD: 25 (29 vs. trip)
+Feats:
+  - Combat Reflexes
+  - Improved Initiative
+  - Skill Focus (Perception)
+Skills:
+  - Acrobatics +9 (+21 when jumping)
+  - Climb +11
+  - Perception +14
+  - Stealth +8
+Languages:
+  - Abyssal (can't speak)
+Source: PFS S5-14
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Howl (Su)
+    description: >-
+      A howler's constant howling is a grating, exhausting baying that can drive
+      listeners insane. All beings other than outsiders within 120 feet of a
+      howling howler must succeed at a DC 14 Will save or become cursed by the
+      creature's howl. Once a creature becomes cursed in this way, it takes no
+      additional penalty for being exposed to additional howlers' howls until
+      the current howler curse is lifted. This is a sonic mind-affecting effect.
+      The save DC is Charisma-based. Howler Howl: Curse-howl; save Will DC 14
+      negates; frequency 1/hour; effect 1 Wis damage; cure 1 save.
+  - name: Pain (Ex)
+    description: >-
+      Whenever a creature takes damage from a howler's quill attack or its quill
+      defense, that creature must make a successful 16 Reflex save or one quill
+      breaks off in its flesh, causing the target to become sickened until all
+      embedded quills are removed. Removing one quill requires a successful DC
+      15 Heal check made as a full-round action. For every 5 by which the check
+      is exceeded, one additional quill can be removed. On a failed check, a
+      quill is still removed, but the process deals 1d4+1 points of damage to
+      the victim. The save DC is Dexterity-based.
+  - name: Quill Defense (Ex)
+    description: >-
+      Any creature that strikes a howler with a non-reach melee weapon, unarmed
+      strike, or natural weapon takes 1d4+1 points of piercing damage from the
+      howler's quills and suffers from the howler's pain attack.
+BeforeCombat: >-
+  Sensing prey nearby, the howlers begin to close in on the outbuilding by using
+  the rain to conceal their approach. The howler in the haystack observes the
+  Pathfinders and howls and attacks when the first PC enters the stable,
+  signaling its kin to join the assault.
+DuringCombat: >-
+  The howlers utter mind-shattering howls immediately upon initiating combat and
+  continue to howl for the duration of combat. They fight with pack tactics,
+  attempting to surround and overwhelm the weakest-looking PC.
+Morale: >-
+  The howlers fight until reduced to 15 or fewer hit points, at which time they
+  attempt to flee into the wilderness.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8079'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

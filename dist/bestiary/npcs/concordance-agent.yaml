@@ -1,0 +1,101 @@
+Name: Concordance Agent
+CR: 1/2
+XP: '200'
+Race: suli
+Class: bard (archaeologist) 1
+MonsterSource: Pathfinder RPG Advanced Race Guide 202, Pathfinder RPG Ultimate Combat 32
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +3
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex)
+HP: '10'
+HD: (1d8+2)
+Saves: Fort +1, Ref +4, Will +1
+Fort: '1'
+Ref: '4'
+Will: '1'
+Resist: acid 5, cold 5, electricity 5, fire 5
+Speed: 30 ft.
+Melee:
+  - sap +2 (1d6+2 nonlethal) or rapier +2 (1d6+2/18-20)
+Ranged:
+  - light crossbow +2 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: archaeologist's luck 5 rounds/day (+1), elemental assault
+SpellsKnown:
+  header: Bard Spells Known (CL 1st; concentration +2)
+  values:
+    - label: 1st (2/day)
+      value: cure light wounds, sleep (DC 12)
+    - label: 0 (at will)
+      value: daze (DC 11), detect magic, flare (DC 11), message
+AbilityScores:
+  - 14
+  - 14
+  - 13
+  - 13
+  - 8
+  - 12
+BaseAtk: '0'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Extra Elemental Assault
+Skills:
+  - Diplomacy +7
+  - Knowledge (arcana
+  - history
+  - planes) +6
+  - Perception +3
+  - Sense Motive +5
+  - Stealth +4
+RacialMods: +2 Diplomacy, +2 Sense Motive
+Languages:
+  - Auran
+  - Common
+  - Terran
+SQ: bardic knowledge +1
+Source: PFS 8-10
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Elemental Assault (Su)
+    description: >-
+      Once per day as a swift action, a Concordance agent can shroud her arms in
+      acid, cold, electricity, or fire. This lasts for 3 rounds and can be
+      dismissed as a free action. Unarmed strikes with her arms or hands (or
+      attacks with weapons held in those hands) deal +1d6 points of damage of
+      the appropriate energy type.
+Gender: Female
+BeforeCombat: A Concordance agent has previously activated her vial of elemental flux.
+DuringCombat: >-
+  A Concordance agent attempts to subdue the PCs nonlethally. She considers
+  dealing some lethal damage against particularly aggressive or tough PCs.
+Morale: >-
+  An agent fights until two of her team are killed or all team members are below
+  3 hit points, at which point the agent surrenders and tells any remaining team
+  members to stand down.
+Gear: potion of cure light wounds, potion of fly, elemental fluxARG (3)
+OtherGear: chain shirt, light crossbow with 20 bolts, rapier, sap
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: archaeologist
+CompanionFamiliarLink: '0'
+id: '9062'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

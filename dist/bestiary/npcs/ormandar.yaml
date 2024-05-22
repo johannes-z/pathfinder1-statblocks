@@ -1,0 +1,111 @@
+Name: Ormandar
+CR: '7'
+XP: '3200'
+Race: merfolk
+Class: druid (shark shaman) 8
+MonsterSource: Pathfinder RPG Bestiary 204, Pathfinder RPG Ultimate Magic 40
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (aquatic)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +13
+AC: 19, touch 12, flat-footed 17
+AC_Mods: (+2 armor, +2 Dex, +5 natural)
+HP: '79'
+HD: (8d8+40)
+Saves: Fort +9, Ref +6, Will +8; +4 vs. fey and plant-targeted effects
+Fort: '9'
+Ref: '6'
+Will: '8'
+Save_Mods: +4 vs. fey and plant-targeted effects
+DefensiveAbilities: resist nature's lure
+Speed: 5 ft., swim 50 ft.
+Melee:
+  - +2 trident +13/+8 (1d8+7), bite +8 (1d6+4)
+Ranged:
+  - +2 trident +10 (1d8+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  totem transformation* (move action, 8 minutes/ day), totemic summons*, wild
+  shape as 6th-level druid 3/day (shark form as 10th-level druid)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +9)
+  values:
+    - label: At Will
+      value: speak with animals (fish only)
+SpellsPrepared: >-
+  Spells Prepared (CL 8th; concentration +10)   4th-dispel magic (2)  
+  3rd-dominate animal (DC 15), greater magic fang (2)   2nd-barkskin, bull's
+  strength (2), chill metal (DC 14)   1st-charm animal (DC 13), cure light
+  wounds (2), entangle (2, DC 13)   0 (at will)-detect magic, detect poison,
+  guidance, light
+AbilityScores:
+  - 20
+  - 14
+  - 16
+  - 8
+  - 14
+  - 12
+BaseAtk: '6'
+CMB: '11'
+CMD: 23 (can't be tripped)
+Feats:
+  - Lightning Reflexes
+  - Martial Weapon Proficiency (trident)
+  - Natural Spell
+  - Toughness
+Skills:
+  - Handle Animal +10
+  - Knowledge (nature) +5
+  - Perception +13
+  - Survival +10
+  - Swim +22
+Languages:
+  - Aquan
+  - Common
+SQ: >-
+  amphibious, nature bond (shark animal companion named Galieus), nature sense,
+  trackless step, wild empathy +9, (+13 with fish), woodland stride
+Source: AP 57
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Ormandar casts greater magic fang on himself and his shark companion Galieus
+  every day and uses his totem transformation ability to give himself a shark's
+  bite attack. When he becomes aware of intruders near the wreck, Ormandar casts
+  barkskin and bull's strength on himself and bull's strength on Galieus.
+DuringCombat: >-
+  Ormandar orders Galieus and the bull sharks to attack while he stays back and
+  casts dispel magic on air-breathers that are using magic to breathe
+  underwater, forcing those opponents to hold their breath or dash to the
+  surface for air. If Galieus or the two bull sharks are slain, Ormandar
+  wildshapes into a Large great white shark and rushes into melee.
+Morale: >-
+  Once he tastes blood, Ormandar loses control and fights to the death in a gory
+  frenzy.
+Gear: +2 trident, bracers of armor +2
+Note: '* See Ultimate Magic.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: >-
+  Without his spells, Ormandar's statistics are AC 16, touch 12, flat-footed 14;
+  Melee +2 trident +11/+6 (1d8+5), bite +4 (1d6+1); Ranged +2 trident +10
+  (1d8+5); Str 16; CMB +9; CMD 21; Skills Swim +20.
+AgeCategory: Adult
+ClassArchetypes: shark shaman
+CompanionFamiliarLink: '3066'
+id: '3065'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

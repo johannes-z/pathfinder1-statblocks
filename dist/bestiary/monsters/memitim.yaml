@@ -1,0 +1,126 @@
+Name: Memitim
+CR: '15'
+XP: '51200'
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (extraplanar, psychopomp)
+Init: '13'
+Senses:
+  - darkvision 60 ft., low-light vision, spiritsense, true seeing
+  - Perception +28
+Aura: terminal aura (50 ft., DC 23)
+AC: 32, touch 19, flat-footed 23
+AC_Mods: (+9 Dex, +13 natural)
+HP: '216'
+HD: (16d10+128)
+Saves: Fort +13, Ref +19, Will +15
+Fort: '13'
+Ref: '19'
+Will: '15'
+Immune: acid, death effects, disease
+Resist: cold 10, electricity 10
+SR: '26'
+Speed: 30 ft., fly 100 ft. (good)
+Melee:
+  - +3 scythe +27/+22/+17/+12 (2d4+13/19-20/x4)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +19)
+  values:
+    - label: At Will
+      value: >-
+        detect good, detect evil, dimensional anchor (DC 19), dispel magic,
+        freedom of movement, gaseous form, greater teleport (self plus 50 lbs.
+        of objects only), invisibility (self only), plane shift (self only),
+        speak with dead, status, true seeing, veil
+    - label: 5/day
+      value: finger of death (DC 22), forbiddance, undeath to death (DC 21)
+    - label: 1/day
+      value: energy drain (DC 24)
+AbilityScores:
+  - 24
+  - 29
+  - 26
+  - 17
+  - 20
+  - 21
+BaseAtk: '16'
+CMB: '23'
+CMD: '42'
+Feats:
+  - Alertness
+  - Bleeding Critical
+  - Cleave
+  - Critical Focus
+  - Improved Critical (scythe)
+  - Improved Initiative
+  - Power Attack
+  - Weapon Focus (scythe)
+Skills:
+  - Bluff +24
+  - Diplomacy +24
+  - Escape Artist +28
+  - Fly +32
+  - Intimidate +24
+  - Knowledge (planes) +22
+  - Knowledge (religion) +22
+  - Perception +28
+  - Sense Motive +7
+  - Stealth +28
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Infernal
+SQ: change shape (owl, raven, or vulture; beast shape I), spirit touch
+Environment: any (the Boneyard)
+Organization: solitary, pair, or dirge (3-7)
+Treasure: standard (+3 scythe, other treasure)
+Description_Visual: >-
+  Eyes the dead cast of onyx glare from beneath the legionnaire's helmet worn by
+  this ominous, black-winged angel.
+Group: Psychopomp
+Source: Inner Sea Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Terminal Aura (Su)
+    description: >-
+      Every round, any creature within 50 feet of a memitim that has -1 or fewer
+      hit points but is stable must succeed at a DC 23 Will saving throw or be
+      affected by the spell bleed. Any dying creature within range of this aura
+      does not receive a Constitution check to stabilize, but can still be
+      healed as normal-though it may be affected by bleed in subsequent rounds
+      if it is not restored to 0 or more hit points. Any creatures with fast
+      healing or regeneration must also succeed at a DC 23 Will save every round
+      or that ability does not function for 1 round. The save DC is
+      Charisma-based.
+Description:
+  - >-
+    Soldiers know memitims as the angels of death, the black-winged specters
+    whose own ominous hosts compose a third impartial legion fielded in the
+    clouds above the bloodiest battlegrounds. As combatants shed their mortal
+    forms in droves, memitims ready their weapons, prepared to drive back all
+    manner of monstrous, soul-hungry scavengers that lurk just beyond the veil
+    of death. While daemons, night hags, and undead number among their most
+    persistent foes, memitims strike against any who would deny the dead passage
+    into the River of Souls or who would cut a life short to harvest its
+    essence. While most memitims impartially preside over bloodshed and
+    massacres, their full wrath manifests against any who would cut numerous
+    lives short in unnatural pursuit of their souls.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3579'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

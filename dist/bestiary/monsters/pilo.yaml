@@ -1,0 +1,105 @@
+Name: Pilo
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Small
+Type: animal
+Init: '1'
+Senses:
+  - low-light vision, scent
+  - Perception +8
+AC: 14, touch 12, flat-footed 13
+AC_Mods: (+1 Dex, +2 natural, +1 size)
+HP: '19'
+HD: (3d8+6)
+Saves: Fort +5, Ref +4, Will +3
+Fort: '5'
+Ref: '4'
+Will: '3'
+DefensiveAbilities: roll up
+Speed: 30 ft.
+Melee:
+  - gore +4 (1d6+1 plus poison), tail slap -1 (1d4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: poison, quills
+AbilityScores:
+  - 13
+  - 13
+  - 14
+  - 2
+  - 14
+  - 7
+BaseAtk: '2'
+CMB: +2 (+4 bull rush)
+CMD: 13 (15 vs. bull rush, 21 vs. trip)
+Feats:
+  - Improved Bull Rush
+  - Power Attack
+Skills:
+  - Perception +8
+Environment: any deserts
+Organization: solitary or pair
+Treasure: none
+Description_Visual: >-
+  Sharp quills cover this bright yellow, six-legged animal, and its long,
+  twitching snout probes the air around it.
+Source: AP 85
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Quills-injury; save Fort DC 13; frequency 1/round for 4 rounds; effect 1d2
+      Dex; cure 1 save.
+  - name: Quills (Ex)
+    description: >-
+      Any creature attacking a pilo with natural weapons or an unarmed strike
+      takes 1d6 points of piercing damage. A creature that grapples a pilo takes
+      2d6 points of piercing damage each round it is engaged in a grapple. A
+      pilo can also use its quills to damage any opponent it successfully bull
+      rushes. Any creature that takes damage from a pilo's quills risks being
+      poisoned.
+  - name: Roll Up (Ex)
+    description: >-
+      As a move action, a pilo can tuck itself into a ball. This grants the pilo
+      a +4 bonus to its natural armor, but its speed is reduced to 10 feet.
+Description:
+  - >-
+    These carnivorous marsupials, sometimes called tumblespikes, are irritable
+    desert-dwelling creatures that even predators leave alone. They are
+    aggressive and often attack creatures that are larger than themselves. Pilos
+    plow toward their foes and attempt to gore these foes with their spikes,
+    bellowing a wheezing series of grunts. When provoked by a creature much
+    larger than themselves or a particularly dangerous predator, pilos roll up
+    into a spiny ball to deter attacks. Their aggressive nature means that they
+    often fight until they die or until their opponent perishes or flees. Though
+    pilos are only 3 feet long, their muscular bodies and spikes-which
+    constantly grow-contribute to their 80-pound weight. Like many marsupials,
+    pilos carry their young in a pouch, which they protect by remaining rolled
+    up except when hunting.
+  - Pilo Companions
+  - >-
+    Starting Statistics: Size Small; Speed 30 ft.; AC +2 natural armor; Attack
+    gore (1d6); Ability Scores Str 13, Dex 13, Con 14, Int 2, Wis 14, Cha 7;
+    Special Defenses roll up; SQ low-light vision, scent.
+  - >-
+    4th-level Advancement: Size Small; AC +2 natural armor; Attack tail slap
+    (1d4); Ability Scores Str +2, Con +2; Special Attacks poison, quills.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '1'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6287'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

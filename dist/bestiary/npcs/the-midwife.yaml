@@ -1,0 +1,134 @@
+Name: The Midwife
+CR: '8'
+XP: '4800'
+Race: jackalwere
+Class: oracle 5
+MonsterSource: Pathfinder RPG Bestiary 3 154, Pathfinder RPG Advanced Player's Guide 42
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (native, shapechanger)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +13
+AC: 23, touch 14, flat-footed 19
+AC_Mods: (+7 armor, +2 Dex, +2 natural, +2 dodge)
+HP: '75'
+HD: (8 HD; 3d10+5d8+32)
+Saves: Fort +8, Ref +11, Will +7; +4 vs. disease
+Fort: '8'
+Ref: '11'
+Will: '7'
+Save_Mods: +4 vs. disease
+DR: 5/cold iron,  5/magic
+Immune: sickened, poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '19'
+Speed: 40 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    +1 kukri +13/+13/+8 (1d4+8/15-20), +1 kukri +13 (1d4+4/18-20), bite +8
+    (1d6+3)
+  - 2 bites +13 (1d6+7), 2 claws +13 (1d4+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sleep gaze (DC 16), smite good (1/day), weapon intuition
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +10)
+  values:
+    - label: 3/day
+      value: darkness, poison (DC 16)
+    - label: 1/day
+      value: desecrate, unholy blight (DC 16)
+SpellsKnown:
+  header: Oracle Spells Known (CL 5th; concentration +10)
+  values:
+    - label: 2nd (5/day)
+      value: >-
+        dread bolt (DC 17), fog cloud, inflict moderate wounds (DC 17),
+        spiritual weapon
+    - label: 1st (8/day)
+      value: >-
+        bane (DC 16), command (DC 16), divine favor, enlarge person (DC 16),
+        inflict light wounds (DC 16), murderous commandUM (DC 16)
+    - label: 0 (at will)
+      value: bleed (DC 15), create water, detect magic, resistance, stabilize, virtue
+AbilityScores:
+  - 24
+  - 23
+  - 19
+  - 12
+  - 14
+  - 20
+BaseAtk: '6'
+CMB: '13'
+CMD: '26'
+Feats:
+  - Alertness
+  - Dodge
+  - Two-Weapon Fighting
+  - Weapon Focus (kukri)
+Skills:
+  - Acrobatics +8 (+12 when jumping)
+  - Bluff +6
+  - Fly +14
+  - Heal +8
+  - Intimidate +10
+  - Knowledge (religion) +9
+  - Perception +13
+  - Sense Motive +12
+  - Spellcraft +9
+  - Stealth +11
+  - Survival +7
+RacialMods: +2 Bluff, +2 Survival
+Languages:
+  - Abyssal
+  - Common
+SQ: >-
+  change shape (human, hybrid, and jackal; polymorph), jackal empathy, oracle's
+  curse (wasting), revelations (surprising charge 1/day, war sight)
+Source: Broken Chains
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      This ability functions as a jackalwere's standard change shape ability,
+      except in jackal form the Midwife functions as a dog with the fiendish
+      template.
+Gender: Female
+BeforeCombat: >-
+  If she has time, the Midwife imbibes her potion of haste and applies her oil
+  of keen edge to one of her kukris (factored into her statistics).
+DuringCombat: >-
+  The Midwife uses her sleep gaze to put as many enemies to sleep as possible,
+  then concentrates on taking out the still-conscious PCs with her kukris. She
+  flies to stay out of range, and uses her oracle spells to further hinder and
+  destroy enemies, launching dread bolts and unleashing spiritual weapons to
+  increase her firepower while trying to lure PCs into the birthing pool. She
+  uses smite good against any particularly zealous foes, and only resorts to her
+  natural weapons if disarmed.
+Morale: The Midwife relishes combat and fights to the death.
+Gear: oil of keen edge, potion of cure moderate wounds, potion of haste
+OtherGear: +1 chainmail, +1 kukris (2)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-fiend|
+BaseStatistics: >-
+  Without her potion and oil, the Midwife's statistics are AC 22, touch 13,
+  flat-footed 19; Ref +10; Speed 20 ft., fly 60 ft. (good); Melee +1 kukri
+  +13/+8 (1d4+8/18&#8211;20); Skills Acrobatics +8 (+4 when jumping).
+AgeCategory: Adult
+Mystery: battle
+CompanionFamiliarLink: '0'
+id: '4335'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

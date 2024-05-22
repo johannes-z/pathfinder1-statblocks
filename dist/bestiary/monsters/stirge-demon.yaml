@@ -1,0 +1,143 @@
+Name: Stirge Demon
+CR: '10'
+XP: '9600'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+Aura: drone (60 ft., DC 20). fear (20 ft., DC 16)
+AC: 23, touch 12, flat-footed 20
+AC_Mods: (+3 Dex, +11 natural, -1 size)
+HP: '92'
+HD: (8d10+48)
+Saves: Fort +12, Ref +9, Will +6
+Fort: '12'
+Ref: '9'
+Will: '6'
+DR: 10/good
+Immune: electricity and poison
+Resist: acid 10,  cold 10, fire 10
+SR: '21'
+Speed: 20 ft., fly 60 ft. (good)
+Melee:
+  - 2 claws +13 (2d4+6 plus 1d4 bleed), bite +13 (2d6+6  plus blood drain)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: blood drain (1d4 Constitution), drone, wounding
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: At will
+      value: >-
+        darkness, dispel magic, greater teleport (self plus 50 pounds of objects
+        only), see invisibility, telekinesis (DC 17)
+    - label: 1/day
+      value: summon (level 4, 2d8 dretches or 1 stirge demon 35%)
+AbilityScores:
+  - 22
+  - 17
+  - 23
+  - 14
+  - 14
+  - 15
+BaseAtk: '8'
+CMB: '15'
+CMD: 28 (32 vs. trip)
+Feats:
+  - Blind-Fight
+  - Cleave
+  - Power Attack
+  - Iron Will
+Skills:
+  - Bluff +10
+  - Climb +18
+  - Escape Artist +11
+  - Fly +16
+  - Intimidate +13
+  - Knowledge (planes) +10
+  - Perception +21
+  - Sense Motive +13
+  - Stealth +10
+  - Survival +13
+RacialMods: +8 Climb, +8 Perception
+Languages:
+  - Abyssal
+  - Common
+  - Undercommon
+  - telepathy  100 ft.
+Environment: any (Abyss)
+Organization: solitary, gang (2-4), or squad (5-6)
+Treasure: standard
+Description_Visual: >-
+  The creature is a loathsome cross between a human, a stirge, and an abyssal
+  fly. It stands on four stirge-like hind legs and grasps with its humanlike
+  forelimbs, which end in chitinous claw-like fingers. It has the wings of a
+  stirge, though wrinkled and seemingly useless. Its stirge-like head has
+  distinctly human features and is topped with a bristled, backswept mane. Its
+  mouth is tiny and filled with fangs, though its nose is long and sharp and is
+  used to pierce and draw blood.
+Group: Demon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Drone (Su)
+    description: >-
+      At all times, save when using any spell-like abilities, the stirge demon
+      drones and buzzes like a fly. All creatures within a 60-foot spread that
+      hear it must succeed on a DC 20 Will save or fall into a comatose sleep
+      for 1d4 hours. There is no HD limit for this effect and it otherwise
+      functions as the sleep spell (CL 10th). Note, the stirge demon can drain
+      blood from a sleeping creature without automatically waking it up. In such
+      an event, the sleeping creature receives a new Will save (same DC) each
+      round the stirge demon drains blood. The save DCs are Constitution-based.
+Description:
+  - >-
+    One of the most foul and despicable of all demonkind, the stirge demon hates
+    all other demonic races and usually attacks them on sight. It savors the
+    blood of vrocks and hezrous, but generally avoids any more powerful demonic
+    races. Stirge demons play no role in the Abyssal armies as most demon lords
+    and princes find them hard to control and consider them pests to be
+    exterminated. Other demons loathe them as well, and usually attack them when
+    they are encountered.
+  - A stirge demon is about 10 feet long and weighs 800 pounds.
+  - >-
+    Stirge demons enter combat and attempt to drone as many of their opponents
+    to sleep as they can. Creatures that resist are attacked with claws and
+    bite. Once the stirge demon has droned all its opponents to sleep, or they
+    have fled, it feasts on any sleeping creatures, draining their blood. If
+    outnumbered or overmatched, a stirge demon does not engage an enemy. If
+    confronted by foes more powerful than it, the stirge demon uses its greater
+    teleport to escape.
+  - >-
+    Credit The Stirge demon is loosely based on the Chasme Demon, which
+    originally appeared in the First Edition module S4 Lost Caverns of Tsojcanth
+    (© TSR/Wizards of the Coast, 1982) and later in the First Edition Monster
+    Manual II (© TSR/Wizards of the Coast, 1983) and is used by permission. The
+    stirge demon made its d20 debut in the Necromancer Games module D1 Tomb of
+    Abysthor (©2001, Clark Peterson, Necromancer Games, Inc.).
+  - >-
+    Copyright Notice Authors Scott Greene and Clark Peterson, based on original
+    material by Gary Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2455'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

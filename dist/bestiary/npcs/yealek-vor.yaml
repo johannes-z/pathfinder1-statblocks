@@ -1,0 +1,155 @@
+Name: Yealek-Vor
+CR: '15'
+XP: '51200'
+Race: Kalavakus demon
+Class: cleric of Shivaska 10
+MonsterSource: Pathfinder RPG Bestiary 2 78
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +32
+Aura: madness (30 ft., DC 21, 10 rounds/day)
+AC: 29, touch 14, flat-footed 25
+AC_Mods: (+4 Dex, +15 natural)
+HP: '230'
+HD: (20 HD; 10d10+10d8+130)
+Saves: Fort +16, Ref +14, Will +20
+Fort: '16'
+Ref: '14'
+Will: '20'
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '21'
+Speed: 30 ft.
+Melee:
+  - bite +24 (1d6+7), 2 claws +24 (1d8+7), gore +24 (2d6+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 9/day (DC 21, 5d6), enslave soul (DC 19), horns,
+  powerful charge (gore, 4d6+7)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: At Will
+      value: >-
+        command (DC 15), greater teleport (self plus 50 lbs. of objects only),
+        telekinesis (DC 19)
+    - label: 3/day
+      value: air walk, dominate person (DC 19), haste
+    - label: 1/day
+      value: >-
+        greater command (DC 19), summon (level 4, 1 kalavakus 40%), symbol of
+        persuasion (DC 20) Domain Spell-Like Abilities (CL 10th; concentration
+        +16)
+    - label: 9/day
+      value: touch of darkness (5 rounds)
+    - label: 9/day
+      value: vision of madness (+/-5)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 10th; concentration +16)  5th-flame strike (DC 21),
+  slay living (DC 22), summon monster VD (summons 1d3 shadows), unholy iceUM (DC
+  21)  4th-chaos hammer (DC 20), confusionD (DC 20), cure critical wounds,
+  fleshworm infestationUM (DC 20), unholy blight (DC 20)  3rd-bestow curse (DC
+  20), chain of perditionUC, contagion (DC 20), deeper darknessD, dispel magic 
+  2nd-dread boltUM (DC 18), enthrall (DC 18), resist energy,  shard of chaosUM
+  (DC 18), sound burst (DC 18), spiritual weapon, touch of idiocyD  1st-bane (DC
+  17), divine favor, doom (DC 18), murderous commandUM (DC 17), ray of
+  sickeningUM (DC 18), shield of faith, obscuring mistD  0 (at will)-bleed (DC
+  17), detect magic, read magic, resistance
+SpellDomains: Darkness, Madness
+AbilityScores:
+  - 24
+  - 18
+  - 22
+  - 15
+  - 22
+  - 18
+BaseAtk: '17'
+CMB: +24 (+26 bull rush, +30 disarm, +26 trip)
+CMD: 38 (40 vs. bull rush, 40 vs. disarm, 40 vs. trip)
+Feats:
+  - Blind-Fight
+  - Combat Expertise
+  - Extra Channel
+  - Improved Bull Rush
+  - Improved Channel
+  - Improved Disarm
+  - Improved Initiative
+  - Improved Trip
+  - Power Attack
+  - Spell Focus (necromancy)
+  - Quick Channel
+Skills:
+  - Acrobatics +17
+  - Climb +20
+  - Intimidate +17
+  - Knowledge (planes) +15
+  - Knowledge (religion) +20
+  - Perception +32
+  - Sense Motive +19
+  - Spellcraft +20
+  - Stealth +17
+  - Use Magic Device +22
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - telepathy 100 ft.
+SQ: eyes of darkness (5 rounds/day)
+Source: PFS S6-00
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Enslave Soul (Su)
+    description: >-
+      A kalavakus can attempt to enslave the soul of any mortal creature within
+      60 feet as a swift action. The kalavakus must have line of sight to the
+      target. The target can resist this special attack with a DC 19 Will save,
+      but is staggered for 1 round even if the save is successful. If the save
+      is successful, the creature is immune to this ability for 24 hours. If the
+      save is a failure, the target's soul is enslaved- this creature takes a
+      &#8211;6 penalty on all attack rolls and saving throws against that
+      kalavakus. If a creature with an enslaved soul is slain by that kalavakus,
+      the soul immediately infuses the demon's body, affecting it with a heal
+      spell (CL 12th). A kalavakus can have only one mortal soul enslaved at a
+      time&#8211; if it enslaves a second soul, the first is released. This is a
+      mind-affecting death effect. The save DC is Charisma-based.
+  - name: Horns (Ex)
+    description: >-
+      The kalavakus's numerous horns can easily catch weapons and yank them away
+      from opponents. The demon gains a +4 racial bonus on all disarm attempts
+      as a result.
+BeforeCombat: >-
+  Before the PCs have an opportunity to fight him, Yealek-Vor studies their
+  tactics, identifies the most dangerous threat, uses his ring of foe focus on
+  that target, and casts either shield of faith or divine favor just before
+  combat.
+DuringCombat: >-
+  Yealek-Vor is an intelligent combatant who alternates between spellcasting and
+  brutal natural attacks as necessary. He favors debilitating his foes with trip
+  an disarm attacks before killing them.
+Morale: >-
+  Yealek-Vor is not willing to surrender his rulership of Jormurdun, and he
+  fights to the death.
+OtherGear: amulet of natural armor +1, ring of foe focusUE, Sky Key core
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7985'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

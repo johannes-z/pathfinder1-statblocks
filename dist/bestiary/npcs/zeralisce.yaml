@@ -1,0 +1,126 @@
+Name: Zeralisce
+CR: '10'
+XP: '9600'
+Race: fetchling
+Class: sorcerer 11
+MonsterSource: Pathfinder RPG Bestiary 2 123
+Alignment: CG
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '2'
+Senses:
+  - darkvision 120 ft., low-light vision
+  - Perception +8
+AC: 21, touch 13, flat-footed 18
+AC_Mods: (+4 armor, +2 Dex, +1 dodge, +4 shield)
+HP: '85'
+HD: (11d6+33)
+Saves: Fort +7, Ref +7, Will +9
+Fort: '7'
+Ref: '7'
+Will: '9'
+DefensiveAbilities: shadow blending
+Resist: cold 5, electricity 5
+Speed: 30 ft.
+Melee:
+  - +1 ominous dagger +6 (1d4+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Fetchling Spell-Like Abilities (CL 11th; concentration +16)
+  values:
+    - label: 1/day
+      value: >-
+        disguise self, shadow walk (self only) Sorcerer Spell-Like Abilities (CL
+        11th; concentration +16)
+    - label: 8/day
+      value: shadowstrike (1d4+5 nonlethal)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +16)
+  values:
+    - label: 5th (5/day)
+      value: cloudkill (DC 20), lightning arcUM (DC 20), shadow evocation (DC 20)
+    - label: 4th (7/day)
+      value: dimension door, fire shield, secure shelter, shadow conjuration
+    - label: 3rd (7/day)
+      value: daylight, deeper darkness, fireball (DC 18), rage, tongues
+    - label: 2nd (7/day)
+      value: darkness, darkvision, levitate, mirror image, scorching ray, web (DC 17)
+    - label: 1st (8/day)
+      value: >-
+        burning hands (DC 17), comprehend languages, mage armor, magic missile,
+        ray of enfeeblement (DC 16), shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 15), dancing lights, detect magic, flare (DC 16),
+        mage hand, message, mending, prestidigitation
+AbilityScores:
+  - 10
+  - 15
+  - 14
+  - 12
+  - 6
+  - 21
+BaseAtk: '5'
+CMB: '5'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Empower Spell
+  - Eschew Materials
+  - Extend Spell
+  - Iron Will
+  - Silent Spell
+  - Spell Focus (evocation)
+Skills:
+  - Diplomacy +8
+  - Fly +8
+  - Intimidate +6
+  - Perception +8
+  - Spellcraft +12
+  - Stealth +4
+  - Use Magic Device +17
+Languages:
+  - Common
+  - Shadowtongue
+SQ: shadow well
+Source: AP 137
+IsTemplate: '0'
+Gender: Female
+Bloodline: shadowAPG
+BeforeCombat: >-
+  Zeralisce maintains extended mage armor at all times. She also casts extended
+  shield before venturing into a dangerous area. The bonuses to her AC are
+  included above, but remember that when the PCs first encounter her, these
+  effects have long since expired and she hasn't been able to re-cast the
+  spells.
+DuringCombat: >-
+  Zeralisce makes her spells available to the PCs if they travel with her;
+  several of them she's perfected to aid in her role as a guide for off-plane
+  patrons. She offers darkvision to PCs who can't see in the dark, daylight to
+  do what she can to offset the plane's gloom, secure shelter if a safe place to
+  rest is required, recovering as needed. In combat, she uses her shadow
+  evocation and shadow conjuration spells to create effects tailored
+  specifically for the situation, but she is always ready to extract allies in
+  danger by rushing in and then casting dimension door to help them escape.
+Morale: >-
+  If the PCs rescue Zeralisce, she will fight to the death to aid and protect
+  them. But on her own, she flees if reduced below 20 hit points.
+Gear: +1 ominous daggerUE, cloak of resistance +2, headband of alluring charisma +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11958'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,125 @@
+Name: Hei-Fen
+CR: '12'
+XP: '19200'
+Race: human
+Class: cleric of norgorber 12
+MonsterSource: Pathfinder RPG Bestiary 197
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human, shapechanger)
+Init: '8'
+Senses:
+  - low-light vision, scent
+  - Perception +10
+AC: 29, touch 19, flat-footed 24
+AC_Mods: (+7 armor, +4 deflection, +4 Dex, +1 dodge, +3 natural)
+HP: '117'
+HD: (12d8+60)
+Saves: Fort +11, Ref +8, Will +12
+Fort: '11'
+Ref: '8'
+Will: '12'
+DR: 10/silver
+Speed: 40 ft.
+Melee:
+  - +3 agile short sword +16/+11 (1d6+7/19-20)
+  - bite +8 (1d4 plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 17, 6d6), curse of lycanthropy
+SpellLikeAbilities:
+  header: Cleric Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: At Will
+      value: charming smile (DC 20, 12 rounds/day), master's illusion (12 rounds/day)
+    - label: 7/day
+      value: copycat (12 rounds), dazing touch
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 12th; concentration +16)   6th-harm (DC 20),
+  misleadD (DC 20), word of recall   5th-charm monsterD (DC 19), flame strike
+  (DC 19), plane shift (DC 19), scrying (DC 19)   4th-air walk, confusionD (DC
+  18), cure critical wounds, greater magic weapon, poison (DC 18)  
+  3rd-blindness/deafness (DC 17), cure serious wounds (2), dispel magic, magic
+  vestment, suggestionD (DC 17)   2nd-cure moderate wounds (2), enthrall (DC
+  16), invisibilityD, spiritual weapon, status   1st-cure light wounds (2),
+  disguise selfD, divine favor, sanctuary (DC 15), shield of faith   0 (at
+  will)-bleed (DC 14), detect magic, light, read magic
+SpellDomains: Charm, Trickery
+AbilityScores:
+  - 12
+  - 19
+  - 17
+  - 10
+  - 18
+  - 13
+BaseAtk: '9'
+CMB: '10'
+CMD: '29'
+Feats:
+  - Combat Casting
+  - Craft Wondrous Item
+  - Dodge
+  - Improved Initiative
+  - Selective Channeling
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +12
+  - Knowledge (local) +6
+  - Knowledge (religion) +12
+  - Perception +10
+  - Stealth +17
+Languages:
+  - Common
+  - Tien
+SQ: change forms, lycanthropic empathy
+Source: AP 100
+IsTemplate: '0'
+BeforeCombat: >-
+  Hei-Fen casts shield of faith and air walk on herself just before combat, and
+  greater magic weapon on her short sword and magic vestment on her chain shirt
+  before combat. She poisons her sword with a dose of purple worm poison before
+  combat. She always fights in hybrid form to offset her age penalties and to
+  gain a bite attack.
+DuringCombat: >-
+  Hei-Fen uses her ranged spells in the first few rounds of combat to soften
+  foes up or to sow discord. When three of her cultists fall, she casts harm,
+  holds the charge, and steps up to deliver the spell to a PC, following up on
+  the next rounds with melee attacks while flanking with surviving cultist
+  allies. She wants to see the PCs die, and resists the urge to use plane shift
+  to send one of them away to Abaddon, but uses this tactic on dangerous
+  conjured foes or non-PC allies. If reduced to 40 or fewer hit points, she
+  casts mislead and then seeks a hiding place to cast healing spells; she then
+  casts poison, holds the charge, and seeks to return to combat with the spell
+  as a touch attack.
+Morale: >-
+  If reduced to 20 hp or fewer, Hei-Fen casts word of recall to flee back to
+  Vyre. She may return to attack the PCs one last time, preferably during the
+  celebrations on the bridge (see From Hell's Heart on page 62).
+Gear: purple worm poison (3)
+OtherGear: >-
+  +1 chain shirt, +1 agile short sword, amulet of natural armor +1, belt of
+  physical might +2 (Dex, Con), boots of striding and springing, cloak of
+  elvenkind, contract with Barzillai Thrune to perform murders to help
+  destabilize Kintargans' morale and to supply him with cultists and a jorogumo
+  to aid in defending the temple of Asmodeus in return for the dottari and
+  inquisitors of the church turning a blind eye to her actions in Kintargo, 40
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: natural wererat|
+AgeCategory: old
+CompanionFamiliarLink: '0'
+AlternateNameForm: Hybrid Form
+id: '7505'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

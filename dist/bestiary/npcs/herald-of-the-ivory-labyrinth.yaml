@@ -1,0 +1,190 @@
+Name: Herald Of The Ivory Labyrinth
+CR: '20'
+XP: '307200'
+Race: Herald Of The Ivory Labyrinth
+MonsterSource: Pathfinder RPG Mythic Adventures 226
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, mythic)
+Init: +19M/-1
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +30
+AC: 39, touch 10, flat-footed 38
+AC_Mods: (+14 armor, +1 Dex, +15 natural, -1 size)
+HP: '377'
+HD: (18d10+278)
+HP_Mods: regeneration 10 (good effects or weapons)
+Saves: Fort +21, Ref +13, Will +20
+Fort: '21'
+Ref: '13'
+Will: '20'
+DefensiveAbilities: infested, repulsion field
+DR: 15/cold iron, good, and epic
+Immune: bleed, electricity, maze, poison
+Resist: acid 10, cold 10, fire 10
+SR: '31'
+Weaknesses: heartless
+Speed: 35 ft., fly 100 ft. (average)
+Melee:
+  - >-
+    Medium +5 unholy glaive +31/+26/+21/+16 (1d10+18/19-20/x4), Medium +5
+    axiomatic glaive +31 (1d10+18/19-20/x4)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: glaive mastery, maze gaze, mythic power (8/day, surge +1d10), smite Iomedaean
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th)
+  values:
+    - label: At Will
+      value: >-
+        detect good, dispel magic, fear (DC 22), greater teleport, lesser
+        restoration
+    - label: 3/day
+      value: >-
+        quickened flame strike (DC 23), power word stun, resist energy, see
+        invisibility, slay living (DC 23), unholy blight (DC 22)
+    - label: 1/day
+      value: >-
+        blade barrier (DC 24), dispel good (DC 23), heal, summon (level 8, 1d4
+        ivory minotaurs 75%)
+AbilityScores:
+  - 33
+  - 25
+  - 30
+  - 26
+  - 28
+  - 27
+BaseAtk: '18'
+CMB: '30'
+CMD: '47'
+Feats:
+  - Critical FocusM
+  - Double Slice
+  - Improved CriticalM (glaive)
+  - Improved InitiativeM
+  - Quicken Spell-Like Ability (flame strike)
+  - Staggering Critical
+  - ToughnessM
+  - Two-Weapon Fighting
+  - Two- Weapon Rend
+Skills:
+  - Bluff +29
+  - Fly +21
+  - Intimidate +29
+  - Knowledge (arcana) +26
+  - Knowledge (dungeoneering) +26
+  - Knowledge (engineering) +26
+  - Knowledge (geography) +26
+  - Knowledge (planes) +29
+  - Knowledge (religion) +29
+  - Perception +30
+  - Sense Motive +30
+  - Spellcraft +29
+  - Stealth +19
+  - Use Magic Device +29
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Giant
+SQ: dual initiative
+Source: AP 77
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Glaive Mastery (Su)
+    description: >-
+      The Herald of the Ivory Labyrinth fights with two Medium glaives, wielding
+      each as if it were a one-handed weapon with no penalty for size. These
+      weapons do not increase his natural reach. He can cause any unattended
+      glaive within 30 feet to teleport into his hand as a free action and gains
+      a +2 racial bonus on all attack rolls and damage rolls with glaives.
+  - name: Heartless (Ex)
+    description: >-
+      The herald has no heart, only a gaping hole that drips black ichor.
+      Placing the Heart of the Herald in this cavity causes great pain to the
+      herald, but to accomplish this, the herald must be willing, helpless, or
+      being grappled by the person attempting to place the Heart in his chest.
+      To place the heart while grappling, the character must succeed at an
+      additional grapple check as if he were attempting to pin the herald. Once
+      the Heart of the Herald is placed in his chest, the herald becomes
+      staggered. He can rip the heart free from his chest as a standard action
+      by making a successful DC 35 Fortitude save. Once he removes the heart,
+      prying the heart from his hands to drop it is a second standard action.
+      While he is in possession of the heart, the herald cannot use his maze
+      gaze, smite Iomedaean, or spell-like abilities. Furthermore, an atonement
+      spell that targets the herald while he is in possession of the heart deals
+      1d4 negative levels to him (or 2d4+1 negative levels if the heart is still
+      in his chest). If the herald succeeds at a DC 35 Will save, the negative
+      levels gained are reduced to the minimum possible number (1 or 3,
+      depending on the presence or absence of his heart). He takes a -5 penalty
+      on saving throws against atonement spells from worshipers of Iomedae. If
+      any atonement spell causes him to gain 18 or more negative levels, the
+      corruption in him is immediately blasted from his body and he is restored
+      as the Herald of Iomedae.
+  - name: Infested (Ex)
+    description: >-
+      Anyone who grapples or is grappled by the Herald of the Ivory Labyrinth
+      finds a swarm of wriggling flesh-eating worms burrowing from the herald's
+      flesh into its own. This deals 3d6 points of damage per round the grapple
+      is maintained and for 1d3 additional rounds after the grapple ends. Remove
+      disease or a similar spell destroys these worms, but immunity to disease
+      offers no protection. Casting remove disease or a similar spell on the
+      herald suppresses this ability for 1 minute.
+  - name: Maze Gaze (Su)
+    description: >-
+      The Herald of the Ivory Labyrinth can cast those who meet his gaze into an
+      extradimensional maze within his mind. This gaze attack functions as a
+      maze spell to a range of 30 feet, save that a creature can resist the
+      effects with a successful DC 27 Will save. Only one creature may be
+      trapped in the herald's maze at a time. As a swift action, the herald may
+      expend a use of mythic power to cause the walls of this maze to shriek and
+      run with blood, causing a creature trapped within to attempt a DC 27
+      Fortitude save to resist taking 1d4 points of Intelligence drain from
+      encroaching madness. The saving throw is Charisma-based.
+  - name: Repulsion Field (Su)
+    description: >-
+      The herald can turn ranged attacks and ranged spells back against their
+      source. This ability works against only the first 1d4 ranged attacks each
+      round. The attacker rolls or targets himself with the effect, and must
+      make an attack roll or save against the effect as normal.
+  - name: Smite Iomedaean (Su)
+    description: >-
+      The first time in a round that the Herald of the Ivory Labyrinth damages a
+      worshiper of Iomedae with his glaive, the creature struck takes an
+      additional 10 points of damage and must succeed at a DC 27 Fortitude save
+      or be staggered for 1 round by an overwhelming sense of despair. Paladins
+      of Iomedae take a &#8211;4 penalty on this saving throw, and are staggered
+      for 1d4 rounds if they fail the save. The herald automatically confirms
+      all critical hits made against a worshiper of Iomedae. The save DC is
+      Charisma-based.
+Gender: Male
+DuringCombat: >-
+  The Herald of the Ivory Labyrinth begins combat by casting blade barrier and a
+  quickened flame strike, then calls his glaives to his hands and proceeds to
+  attack in melee in the following rounds. He waits to use power word stun on a
+  foe once he's wounded it, and prefers to save his uses of mythic power to
+  drive insane those who succumb to his maze gaze. As he fights, he issues
+  curses and vile threats to any obvious Iomedaeans&#8211; he prefers to target
+  these foes (paladins and clerics in particular) over all others if possible.
+  He does attempt to remain within 15 feet of the tar lake at all times if
+  possible so that at the end of each round the lake can attack anyone he's
+  lured close enough.
+Morale: The Herald of the Ivory Labyrinth fights to the death.
+Gear: +5 full plate, +5 axiomatic glaive, +5 unholy glaive
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5563'
+UniqueMonster: '0'
+Variant: '0'
+MR: '8'
+Mythic: '1'
+MT: '0'

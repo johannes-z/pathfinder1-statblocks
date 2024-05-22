@@ -1,0 +1,113 @@
+Name: Kelseph
+CR: '5'
+XP: '1600'
+Race: orc
+Class: fighter 5
+MonsterSource: Pathfinder RPG Bestiary 4 56, Pathfinder RPG Bestiary 222
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (orc)
+Init: '4'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +2
+AC: 24, touch 12, flat-footed 22
+AC_Mods: (+8 armor, +1 Dex, +1 dodge, +4 natural)
+HP: '52'
+HD: (5d10+20)
+HP_Mods: regeneration 5 (good spells or good weapons)
+Saves: Fort +7, Ref +5, Will -1 (+1 vs. fear); +4 vs. poison
+Fort: '7'
+Ref: '5'
+Will: '-1 (+1 vs. fear)'
+Save_Mods: +4 vs. poison
+DefensiveAbilities: bravery +1, ferocity
+Resist: fire 30
+Weaknesses: contract bound, light sensitivity
+Speed: 20 ft.
+Melee:
+  - mwk falchion +11 (2d4+7/18-20)
+  - mwk silver dagger +11 (1d4+5/19-20)
+Ranged:
+  - angelfall bow +11 (1d8+7/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: weapon training (bows +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +5)
+  values:
+    - label: 3/day
+      value: fear (single target), unholy blight
+    - label: 1/day
+      value: summon (level 3, 1 gaav 100%)
+AbilityScores:
+  - 20
+  - 19
+  - 16
+  - 10
+  - 6
+  - 10
+BaseAtk: '5'
+CMB: +10 (+12 bull rush)
+CMD: 25 (27 vs. bull rush)
+Feats:
+  - Deadly Aim
+  - Dodge
+  - Improved Bull Rush
+  - Mobility
+  - Point-Blank Shot
+  - Power Attack
+Skills:
+  - Acrobatics +11 (+7 when jumping)
+  - Intimidate +7
+  - Perception +2
+RacialMods: '-4 Acrobatics when jumping'
+Languages:
+  - Common
+  - Orc
+SQ: armor training 1, weapon familiarity
+Source: Daughters Of Fury
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Summon (Sp)
+    description: >-
+      Due to the specifics of her contract with Shayle, Kelseph can use her
+      summon spell-like ability to summon a single gaav with a 100% chance of
+      success instead of the lemure she would normally be able to summon.
+Gender: Female
+BeforeCombat: >-
+  Kelseph drinks her potion of cat's grace and her elixir of tumbling if she
+  knows a battle is imminent. These changes are factored into her statistics.
+DuringCombat: >-
+  Kelseph uses her summon ability as soon as combat begins, and relies on her
+  fiendish minions to keep the PCs at bay while she plugs them with arrows from
+  her angelfall bow. If melee seems inevitable, she launches into the fray with
+  her falchion, using Acrobatics to maneuver the battlefield and avoid being
+  flanked. She uses her fear spell-like ability against whomever she deems to be
+  the biggest damage-dealer, and uses unholy blight if she is surrounded. She
+  drinks a potion of cure moderate wounds when her hit point total falls below
+  20.
+Morale: Kelseph has run out of options at this point, and fights to the death.
+Gear: >-
+  +1 arrows (5), +1 cruel arrows (5), potions of cure moderate wounds (2),
+  potion of cat's grace, smokestick (3)
+OtherGear: >-
+  mwk half-plate, angelfall bow (see page 53) with 20 arrows, mwk falchion, mwk
+  silver dagger, elixir of tumbling, red diamond pendant worth 200 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: erinyes-bound|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6801'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

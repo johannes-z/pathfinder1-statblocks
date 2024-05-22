@@ -1,0 +1,104 @@
+Name: Gravebound Warden
+CR: '14'
+XP: '38400'
+Race: Gravebound Warden
+Alignment: 'N'
+Size: Gargantuan
+Type: construct
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +14
+AC: 29, touch 5, flat-footed 29
+AC_Mods: (-1 Dex, +24 natural, -4 size)
+HP: '164'
+HD: (19d10+60)
+Saves: Fort +6, Ref +5, Will +8
+Fort: '6'
+Ref: '5'
+Will: '8'
+DR: 10/adamantine
+Immune: construct traits
+Speed: 30 ft.
+Melee:
+  - 2 slams +24 (2d10+13/19-20)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, blinded and sickened for 1d6+1 rounds, DC 21
+  Fortitude negates, usable every 1d4 rounds), powerful blows
+AbilityScores:
+  - 28
+  - 9
+  - —
+  - 4
+  - 15
+  - 1
+BaseAtk: '19'
+CMB: +32 (+36 bull rush or overrun)
+CMD: 41 (43 vs. bull rush or overrun)
+Feats:
+  - Ability Focus (breath weapon)
+  - Awesome Blow
+  - Cleave
+  - Great Cleave
+  - Greater Bull Rush
+  - Greater Overrun
+  - Improved Bull Rush
+  - Improved Overrun
+  - Intimidating Prowess
+  - Power Attack
+Skills:
+  - Disguise +15 (to imitate a cemetery)
+  - Intimidate +11
+  - Perception +14
+Languages:
+  - Minkaian (cannot speak)
+SQ: alternate form, gravebound
+Source: AP 54
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alternate Form (Su)
+    description: >-
+      A gravebound warden can transform itself into a field of gravestones,
+      miniature shrines, or stone coffins. While in this form, the warden gains
+      a +20 racial bonus on Disguise checks to imitate a crowded cemetery. It
+      requires a full-round action to change forms.
+  - name: Breath Weapon (Su)
+    description: >-
+      Once every 1d4 rounds, a gravebound warden can exhale a 60-foot cone of
+      ash and grave dust. Any creatures within this area must succeed at a DC 21
+      Fortitude save or be blinded and sickened for 1d6+1 rounds. The save DC is
+      Constitution-based.
+  - name: Gravebound (Su)
+    description: >-
+      A gravebound warden is assigned a specific site sacred to the dead to
+      guard. This site is always marked by either a permanent hallow or unhallow
+      effect, determined at the time of the warden's construction. The warden
+      cannot willingly leave this area and defends it against all intruders
+      except those named during the casting of the spell. This gravebound warden
+      is bound to a 40-foot-radius emanation from a hallow spell (CL 15th).
+  - name: Powerful Blows (Ex)
+    description: >-
+      A gravebound warden adds 1-1/2 times its Strength modifier on damage rolls
+      with its slam attacks and threatens a critical hit on a 19-20.
+DuringCombat: >-
+  The gravebound warden charges into opponents to attack with its slams. It uses
+  Bull Rush, Cleave, and Overrun attacks as often as possible, pausing only to
+  employ its breath weapon before renewing its assault.
+Morale: The gravebound warden fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2482'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

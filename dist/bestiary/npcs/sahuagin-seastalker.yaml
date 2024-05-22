@@ -1,0 +1,100 @@
+Name: Sahuagin Seastalker
+CR: '5'
+XP: ',1600'
+Race: Sahuagin
+Class: ranger 3
+MonsterSource: Pathfinder RPG Bestiary 239
+Alignment: LE
+Size: Medium
+Type: monstrous humanoid
+SubType: (aquatic)
+Init: '5'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft.
+  - Perception +11
+AC: 22, touch 13, flat-footed 19
+AC_Mods: (+4 armor, +3 Dex, +5 natural)
+HP: '50'
+HD: (5d10+18)
+Saves: Fort +6, Ref +9, Will +5
+Fort: '6'
+Ref: '9'
+Will: '5'
+Weaknesses: light blindness
+Speed: 30 ft., swim 60 ft.
+Melee:
+  - >-
+    +1 spear +11 (1d8+7/x3), bite +4 (1d4+2) or bite +9 (1d4+4), 2 claws +9
+    (1d4+4)
+Ranged:
+  - spear +9 (1d8+4/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: blood frenzy, combat style (thrown), favored enemy (native outsiders +2)
+AbilityScores:
+  - 18
+  - 17
+  - 16
+  - 12
+  - 13
+  - 11
+BaseAtk: '5'
+CMB: '9'
+CMD: '22'
+Feats:
+  - Point-Blank Shot
+  - Precise Shot
+  - Quick Draw
+  - Weapon Focus (spear)
+Skills:
+  - Handle Animal +8
+  - Intimidate +4
+  - Perception +11
+  - Ride +11
+  - Stealth +13
+  - Survival +11
+  - Swim +20
+Languages:
+  - Aquan
+  - speak with sharks
+SQ: track +1, favored terrain (Plane of Water +2), wild empathy +3
+Source: PFS 8-19
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Frenzy (Ex)
+    description: >-
+      Once per day, a sahuagin that takes damage in combat can fly into a frenzy
+      in the following round. It gains +2 Constitution and +2 Strength, but
+      takes a -2 penalty to its AC. The frenzy lasts as long as the battle or 1
+      minute, whichever is shorter.
+  - name: Speak with Sharks (Su)
+    description: >-
+      A sahuagin can communicate telepathically with sharks to a distance of 150
+      feet. This communication is limited to simple concepts, such as "come
+      here," "defend me," or "attack this target."
+BeforeCombat: >-
+  The seastalkers apply their oils of magic weapon to their masterwork spears.
+  This bonus is included in their statistics.
+DuringCombat: >-
+  Two seastalkers move into melee, while the others spread out and throw spears
+  at spellcasting targets.
+Morale: >-
+  A seastalker drinks a potion of cure light wounds if reduced below 10 hit
+  points. The seastalkers fight to the death.
+Gear: oil of magic weapon, potion of cure light wounds
+OtherGear: +1 studded leather, +1 spear, spears (10)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11464'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,93 @@
+Name: Cadathiel The Zealot
+CR: '2'
+XP: '600'
+Race: cassisian angel
+MonsterSource: Pathfinder RPG Bestiary 2 26
+Alignment: NG
+Size: Small
+Type: outsider
+SubType: (angel, extraplanar, good)
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +7
+Aura: lesser protective aura
+AC: 14, touch 11, flat-footed 14
+AC_Mods: (+3 natural, +1 size| +2 deflection vs. evil)
+HP: '13'
+HD: (2d10+2)
+Saves: Fort +4, Ref +3, Will +0; +4 vs. poison, +2 resistance vs. evil
+Fort: '4'
+Ref: '3'
+Will: '0'
+Save_Mods: +4 vs. poison, +2 resistance vs. evil
+DR: 5/cold iron or evil
+Immune: acid, cold, petrification
+Resist: electricity 10, fire 10
+Speed: fly 60 ft. (perfect)
+Melee:
+  - slam -1 (1d3-4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (15-ft. line, 1d6 cold or 1d6 fire, Reflex DC 12 for half,
+  usable every 1d4 rounds)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +3)
+  values:
+    - label: Constant
+      value: know direction
+    - label: At Will
+      value: detect chaos, detect evil, detect good, detect law
+    - label: 1/day
+      value: confessAPG (DC 12), forced repentanceAPG (DC 14)
+    - label: 1/week
+      value: commune (six questions, CL 12th)
+AbilityScores:
+  - 3
+  - 11
+  - 12
+  - 6
+  - 11
+  - 10
+BaseAtk: '2'
+CMB: '-3'
+CMD: 7 (can't be tripped)
+Feats:
+  - Alertness
+Skills:
+  - Diplomacy +4
+  - Fly +10
+  - Knowledge (planes
+  - religion) +2
+  - Perception +7
+  - Sense Motive +7
+  - Stealth +8
+Languages:
+  - Celestial
+  - Draconic
+  - Infernal
+  - truespeech
+SQ: change shape (Small human or snapping turtle; polymorph), perfect memory
+Source: Heaven Unleashed
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      Cadathiel can assume the form of a 6-year-old human child or a
+      silver-shelled snapping turtle.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8340'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

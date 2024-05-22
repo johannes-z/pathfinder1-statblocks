@@ -1,0 +1,105 @@
+Name: Fiendish Mustard Jelly
+CR: '14'
+XP: '38400'
+Race: mustard jelly
+MonsterSource: Tome of Horrors Complete 385, Pathfinder RPG Bestiary 294
+Alignment: CE
+Size: Large
+Type: ooze
+SubType: (extraplanar)
+Init: '5'
+Senses:
+  - blindsight 60 ft., darkvision 60 ft.
+  - Perception +24
+Aura: toxic gas (10 ft., DC 23)
+AC: 25, touch 15, flat-footed 19
+AC_Mods: (+5 Dex, +1 dodge, +10 natural, -1 size)
+HP: '230'
+HD: (20d8+140)
+Saves: Fort +14, Ref +14, Will +12
+Fort: '14'
+Ref: '14'
+Will: '12'
+DefensiveAbilities: divide, energy absorption
+DR: 10/good
+Immune: ooze traits
+Resist: cold 15, fire 15
+SR: '22'
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - 4 slams +22 (2d6+7 plus 1d6 acid and grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  acid, constrict (2d6+10 plus 1d6 acid), smite good 1/day (+3 attack, +20
+  damage)
+AbilityScores:
+  - 24
+  - 20
+  - 24
+  - 14
+  - 17
+  - 16
+BaseAtk: '15'
+CMB: +23 (+27 grapple)
+CMD: 39 (can't be tripped)
+Feats:
+  - Combat Expertise
+  - Dodge
+  - Improved Critical (slams)
+  - Improved Natural Attack (slams)
+  - Improved Vital Strike
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Vital Strike
+  - Weapon Focus (slams)
+Skills:
+  - Climb +28
+  - Perception +24
+  - Stealth +22
+  - Swim +36
+Languages:
+  - Abyssal (cannot speak)
+Source: RotRL-AE-Sins of the Saviors
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Divide (Ex)
+    description: >-
+      As a standard action, a mustard jelly can split into two identical
+      jellies, each with half the original's hit points (round down). A mustard
+      jelly with 10 hit points or fewer cannot divide itself. When divided, each
+      jelly moves at a speed of 40 feet.
+  - name: Energy Absorption (Ex)
+    description: >-
+      A mustard jelly is immune to electricity and magic missiles. If targeted
+      by such an effect, it gains temporary hit points equal to the damage that
+      attack would have normally done. These temporary hit points last for 1
+      hour.
+  - name: Toxic Gas (Ex)
+    description: >-
+      A mustard jelly exudes an aura of toxic gas in a 10-ft.-radius spread. A
+      creature in this area must succeed at a DC 23 Fortitude save each round or
+      be slowed (as per slow) for as long as it remains in the area plus an
+      additional 1d4 rounds. This is a poison effect. The save DC is
+      Constitution-based.
+DuringCombat: >-
+  The fiendish mustard jelly waits until someone tries to step more than 5 feet
+  into the room to attack.
+Morale: The fiendish mustard jelly fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: fiendish|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3262'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

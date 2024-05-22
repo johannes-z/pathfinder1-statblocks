@@ -1,0 +1,111 @@
+Name: Robot Golem
+CR: '11'
+XP: '12800'
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 27, touch 9, flat-footed 27
+AC_Mods: (+18 natural, -1 size)
+HP: '112'
+HD: (15d10+30)
+Saves: Fort +5, Ref +5, Will +5
+Fort: '5'
+Ref: '5'
+Will: '5'
+DR: 10/adamantine
+Immune: construct traits, magic
+Speed: 20 ft.
+Melee:
+  - 2 slams +22 (2d10+8)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  rend construct (2 slams, 2d10+12), shockwave (30-ft.-radius spread, 8d6
+  electricity, Reflex DC 19 for half, usable every 1d4 rounds)
+AbilityScores:
+  - 26
+  - 11
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '15'
+CMB: '24'
+CMD: '34'
+Environment: any (Numeria)
+Organization: solitary or gang (2-4)
+Treasure: none
+Description_Visual: >-
+  Though corroded and damaged, this bipedal metallic construct moves silently,
+  as though powered by some force other than its own rattling gears.
+Group: Golem
+Source: Numeria Land Of Fallen Stars
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A robot golem is immune to spells or spell-like abilities that allow spell
+      resistance. In addition, certain spells and effects function differently
+      against it, as noted below. • A magical attack that deals electricity
+      damage deals half damage to the golem. Additionally, for 1d4+1 rounds the
+      golem gains the benefits of haste and goes berserk. The uncontrolled golem
+      goes on a rampage, attacking the nearest living creature or smashing an
+      object smaller than itself if no creature is within reach; it then moves
+      on to spread more destruction. The golem comes back under the control of
+      its creator when the duration ends. • A transmute metal to wood spell
+      reduces the robot golem's damage reduction by 5 and its natural armor
+      bonus by 9 for 1d4 rounds. • A robot golem is affected normally by rust
+      attacks, such as those of a rust monster or a rusting grasp spell.
+  - name: Rend Construct (Ex)
+    description: >-
+      This functions as the rend special ability, except the robot golem can
+      rend only other constructs.
+  - name: Shockwave (Ex)
+    description: >-
+      A robot golem can release a pulse of electrical energy held within its
+      nonfunctioning batteries as a standard action once every 1d4 rounds. This
+      pulse is a 30-foot-radius spread that deals 8d6 points of electricity
+      damage to all creatures in its area of effect (Reflex DC 19 half). The
+      save DC is Constitution-based and includes a +2 racial bonus.
+Description:
+  - >-
+    When robots are damaged beyond the abilities of Numerian technologists to
+    repair, salvages sometimes animate their frames via magic rather than
+    science.
+  - >-
+    What results is more of a walking mechanical corpse that lacks the
+    intelligence and vulnerabilities of a true robot.
+  - >-
+    The arcanists of the Technic League often employ these magically animated
+    constructs to combat rogue robots or those under the control of their
+    enemies.
+  - >-
+    Construction A robot golem's body used to be a Large robot, but is now
+    nonfunctional. Any major damage on the intended body must be repaired prior
+    to animation.
+  - >-
+    Robot Golem CL 14th; Price 72,000 gp Construction Requirements Craft
+    Construct, geas/quest, limited wish, make whole, shatter, creator must be
+    caster level 13th; Skill Craft (mechanical) DC 20; Cost 36,000 gp
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6090'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

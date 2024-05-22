@@ -1,0 +1,98 @@
+Name: Cult Deacon
+CR: '4'
+XP: '1200'
+Race: Human
+Class: cleric of Mog-Lathar 3/rogue 2
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '7'
+Senses:
+  - Perception +10
+AC: 16, touch 14, flat-footed 12
+AC_Mods: (+2 armor, +3 Dex, +1 dodge)
+HP: '41'
+HD: (5d8+15)
+Saves: Fort +5, Ref +7, Will +5
+Fort: '5'
+Ref: '7'
+Will: '5'
+DefensiveAbilities: evasion
+Speed: 30 ft.
+Melee:
+  - mwk spider-leg sickle +7 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 3/day (DC 11, 2d6), sneak attack +1d6
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 3rd; concentration +5)
+  values:
+    - label: 5/day
+      value: copycat (3 rounds), touch of evil (1 round)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-cure moderate wounds,
+  graceAPG, invisibilityD   1st-disguise selfD, divine favor, entropic shield,
+  protection from good   0 (at will)-bleed (DC 12), detect magic, light,
+  resistance
+SpellDomains: Evil, Trickery
+AbilityScores:
+  - 13
+  - 16
+  - 14
+  - 8
+  - 14
+  - 10
+BaseAtk: '3'
+CMB: '4'
+CMD: '18'
+Feats:
+  - Deceitful
+  - Dodge
+  - Improved Initiative
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Bluff +8
+  - Craft (alchemy) +3
+  - Disable Device +8
+  - Disguise +8
+  - Intimidate +4
+  - Knowledge (religion) +5
+  - Perception +10
+  - Sense Motive +6
+  - Stealth +11
+Languages:
+  - Common
+SQ: rogue talent (finesse rogue), trapfinding +1
+Source: The House On Hook Street
+IsTemplate: '0'
+BeforeCombat: >-
+  If given time to prepare, the cult deacon casts protection from evil and
+  divine favor.
+DuringCombat: >-
+  The cult deacon uses the copycat domain ability to provide additional
+  protection, and then moves to flank opponents, using grace if necessary to
+  avoid attacks of opportunity.
+Morale: The fanatical cultist fights to the death.
+Gear: >-
+  potion of invisibility, scrolls of cure moderate wounds (3), antitoxin, doses
+  of blue whinnis poison (3), vermin repellent (2)
+OtherGear: >-
+  leather armor, masterwork spider-leg sickle, amulet of natural armor +1,
+  silver holy symbol of Mog-Lathar, 18 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7554'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

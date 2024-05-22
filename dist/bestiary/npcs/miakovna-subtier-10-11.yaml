@@ -1,0 +1,167 @@
+Name: Miakovna Subtier 10-11
+CR: '13'
+XP: '25600'
+Race: lamia matriarch
+Class: sorcerer 5
+MonsterSource: Pathfinder RPG Bestiary 2 175
+Alignment: LE
+Size: Large
+Type: monstrous humanoid
+SubType: (shapechanger)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +4
+AC: 27, touch 14, flat-footed 22
+AC_Mods: (+4 armor, +5 Dex, +9 natural, -1 size)
+HP: '173'
+HD: (17 HD; 12d10+5d6+90)
+Saves: Fort +10, Ref +14, Will +16
+Fort: '10'
+Ref: '14'
+Will: '16'
+Immune: mind-affecting effects
+SR: '24'
+Speed: 40 ft., climb 40 ft., swim 40 ft.
+Melee:
+  - >-
+    +1 spell storing scimitar +16/+11/+6 (1d6+6/15-20 plus 1 wisdom drain on
+    first hit each round), +1 spell storing whip +15/+10 (1d3+6 nonlethal)
+  - touch +18 (1d4 Wisdom drain)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: Wisdom drain
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +20)
+  values:
+    - label: At Will
+      value: charm monster (DC 22), ventriloquism (DC 19)
+    - label: 3/day
+      value: >-
+        deep slumber (DC 21), dream, major image (DC 21), mirror image,
+        suggestion (DC 21)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +19)
+  values:
+    - label: 5th (4/day)
+      value: flame strike (DC 23), waves of fatigue (DC 23)
+    - label: 4th (8/day)
+      value: cure critical wounds, stoneskin, unholy blight (DC 22)
+    - label: 3rd (8/day)
+      value: >-
+        glyph of warding (DC 21), haste, inflict serious wounds (DC 21), eagle's
+        splendor, slow (DC 21)
+    - label: 2nd (8/day)
+      value: acid arrow, blur, bull's strength, cure moderate wounds, invisibility
+    - label: 1st (8/day)
+      value: >-
+        alarm, divine favor, identify, mage armor, magic missile, shield of
+        faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 18), dancing lights, daze (DC 18), detect magic, ghost sound
+        (DC 18), mage hand, mending, prestidigitation
+AbilityScores:
+  - 20
+  - 21
+  - 21
+  - 14
+  - 18
+  - 26
+BaseAtk: '14'
+CMB: '20'
+CMD: 35 (can't be tripped)
+Feats:
+  - Double Slice
+  - Eschew Materials
+  - Exotic Weapon Proficiency (whip)
+  - Extend Spell
+  - Improved Critical (scimitar)
+  - Improved Two-Weapon Fighting
+  - Quicken Spell
+  - Quicken Spell-Like Ability (mirror image)
+  - Two-Weapon Fighting
+  - Weapon Focus (scimitar)
+Skills:
+  - Acrobatics +9
+  - Bluff +25
+  - Climb +13
+  - Diplomacy +13
+  - Disguise +13
+  - Intimidate +23
+  - Knowledge (arcana) +21
+  - Knowledge (religion) +21
+  - Linguistics +4
+  - Spellcraft +21
+  - Swim +13
+  - Use Magic Device +21
+RacialMods: +4 Bluff, +4 Use Magic Device
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+  - Shoanti
+  - Thassilonian
+SQ: >-
+  arcane bond (ring), bloodline arcana (+1 DC for  metamagic spells that
+  increase spell level), change shape (fixed Medium humanoid form; alter self ),
+  metamagic adept (1/day)
+Source: PFS S3-26
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Energy Drain (Su)
+    description: >-
+      A lamia matriarch drains 1d4 points of Wisdom each time she hits with her
+      melee touch attack. The first time each round that she strikes a foe with
+      a melee weapon, she also drains 1 point of Wisdom. A DC 22 Will save
+      negates the Wisdom drain. Unlike with other kinds of ability drain
+      attacks, a lamia matriarch does not heal damage when she uses her Wisdom
+      drain. The save DC is Charisma-based.
+Gender: Female
+Bloodline: Arcane
+BeforeCombat: >-
+  Miakovna casts mage armor daily. As soon as she is warned by one of her alarm
+  spells going off, she casts invisibility and slithers up to the top of the
+  northeastern pillar. She then casts the following spells in order: stoneskin,
+  shield of faith, bull's strength, eagle's splendor, blur, extended divine
+  favor, and extended haste. If she hears the PCs attempting to enter the
+  chamber before she is prepared, she creates a major image as described above
+  and continues preparing, using her ventriloquism spell-like ability to throw
+  her voice elsewhere in the room as she casts spells, and recasting major image
+  as needed to keep the distraction going.
+DuringCombat: >-
+  Once all her spells are in place, she casts quickened mirror image and then
+  targets the PCs with debilitating spells from atop the statue. When she feels
+  they have been sufficiently softened, she draws her whip and drops down to
+  attack with both weapons, using the whip to trip opponents at range while
+  slashing at closer foes with her scimitar. She stays in melee until she loses
+  50 or more hit points, at which point she recasts invisibility and slithers
+  around the room to hide her position while healing and recasting protective
+  spells. When faced with one particularly overpowering foe, Miakovna uses charm
+  monster or suggestion to get the PC to leave combat.
+Morale: >-
+  When reduced to 30 or fewer hit points, Miakovna attempts to flee, swimming
+  straight across the pool and racing up through the levels of the temple
+  complex. As soon as she is out of sight of the PCs, she uses change shape,
+  hoping that if the PCs catch her in this form, they'll assume it is another
+  distraction and leave her.
+Gear: potion of protection from energy (fire)
+OtherGear: >-
+  +1 spell storing scimitar (inflict serious wounds), +1 spell storing whip
+  (inflict serious wounds), amulet of natural armor +1, ring of counterspells
+  (invisibility purge), silver holy symbol, 700 gp worth of diamond dust
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6758'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

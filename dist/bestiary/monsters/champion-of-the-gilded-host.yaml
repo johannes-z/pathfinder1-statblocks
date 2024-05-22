@@ -1,0 +1,129 @@
+Name: Champion Of The Gilded Host
+CR: '18'
+XP: '153600'
+Alignment: 'N'
+Size: Colossal
+Type: construct
+SubType: (colossusB4, mythicMA)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +11
+Aura: blazing courage (30 ft.), selective antimagic (30 ft.)
+AC: 32, touch 3, flat-footed 31
+AC_Mods: (+1 Dex, +29 natural, -8 size)
+HP: '273'
+HD: (19d10+169)
+Saves: Fort +6, Ref +7, Will +7
+Fort: '6'
+Ref: '7'
+Will: '7'
+DR: 10/epic
+Immune: construct traits
+Speed: 50 ft., climb 50 ft., swim 50 ft.
+Melee:
+  - >-
+    2 slams +30 (3d8+19/19-20) or stomp (6d8+28 plus pinning stomp and
+    suppressing stomp)
+Space: 30 ft.
+Reach: 30 ft.
+SpecialAttacks: mythic power (7/day, surge +1d10), mythic quickening
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +14)
+  values:
+    - label: 3/day
+      value: extended good hope
+    - label: 1/day
+      value: extended vengeful outrageUM (DC 16)
+AbilityScores:
+  - 48
+  - 13
+  - —
+  - 7
+  - 12
+  - 11
+BaseAtk: '19'
+CMB: '46'
+CMD: 57 (can't be tripped)
+Feats:
+  - Cleave[M]
+  - Combat Reflexes[M]
+  - Critical Focus
+  - Great Cleave
+  - Improved Critical[M] (slam)
+  - Improved Vital Strike
+  - Power Attack[M]
+  - Stand Still
+  - Toughness
+  - Vital Strike
+Skills:
+  - Climb +27
+  - Intimidate +9
+  - Perception +11
+  - Swim +27
+Languages:
+  - Vudrani
+SQ: >-
+  alternate form, blessing of the Gilded Host, mythic creation, mythic
+  resilience
+Environment: any land
+Organization: solitary or legion (1 plus 10-100 human fighters of 5th-8th level)
+Treasure: none
+Description_Visual: >-
+  This towering humanoid creature is made almost entirely of gold and radiates a
+  warm light.
+Source: Lost Treasures
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alternate Form (Ex)
+    description: >-
+      As a full-round action, a gold colossus can take the form of an immense
+      war monument. Its DR in this form increases to 20/epic, and its aura of
+      blazing courage's radius increases to 1,000 feet. While in this form, it
+      can't attack.
+  - name: Aura of Blazing Courage (Su)
+    description: >-
+      A gold colossus constantly radiates a warm aura of bravery. Allies within
+      30 feet of a gold colossus gain the benefits of bless and remove fear.
+  - name: Blessing of the Gilded Host (Su)
+    description: >-
+      Once per week, a gold colossus can bless an army using the rules for mass
+      combat (Pathfinder RPG Ultimate Campaign 234), granting the army a +2
+      bonus to its Offensive Modifier and on Morale checks until the end of its
+      next battle or for 1 week, whichever comes first.
+  - name: Selective Antimagic Aura (Su)
+    description: >-
+      Spells with the compulsion or teleportation descriptor are unaffected by
+      this field.
+  - name: Suppressing Stomp (Su)
+    description: >-
+      Whenever a gold colossus deals stomp damage to a target, it reduces the
+      target's damage reduction and spell resistance by 2 for 1 minute. Each
+      stomp thereafter increases the reduction by 2 (maximum reduction of 10)
+      and resets the duration.
+Description:
+  - >-
+    Individually, the component pieces of the Champion of the Gilded Host have
+    the same strong magic aura as the intact construct, but possess no
+    noteworthy abilities of their own. Any piece with a joint may flex
+    occasionally, but without any purpose or significant force. When the pieces
+    are brought within 100 feet of one another, they reassemble themselves to
+    create a golden colossus. Long-forgotten command words keyed to each piece
+    are able to shrink it to a fraction of its full size.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6620'
+UniqueMonster: '0'
+MR: '7'
+Mythic: '1'
+MT: '0'

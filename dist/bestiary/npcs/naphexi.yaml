@@ -1,0 +1,141 @@
+Name: Naphexi
+CR: '17'
+XP: '102400'
+Race: ancient black dragon
+MonsterSource: Pathfinder RPG Bestiary 4 116, Pathfinder RPG Bestiary 93
+Alignment: CE
+Size: Huge
+Type: plant
+SubType: (augmented dragon, water)
+Init: '3'
+Senses:
+  - dragon senses
+  - Perception +23
+Aura: frightful presence (300 ft., DC 25)
+AC: 39, touch 7, flat-footed 39
+AC_Mods: (-1 Dex, +32 natural, -2 size)
+HP: '297'
+HD: (22d8+198)
+Saves: Fort +22, Ref +12, Will +18
+Fort: '22'
+Ref: '12'
+Will: '18'
+DefensiveAbilities: poisonous blood
+DR: 15/magic
+Immune: >-
+  acid, disease, mind-affecting effects, paralysis, poison, polymorph, sleep,
+  stunning
+SR: '28'
+Speed: 50 ft., fly 190 ft. (poor), swim 50 ft.
+Melee:
+  - >-
+    bite +34 (2d8+19 plus 4d6 acid), 2 claws +33 (2d6+13), tail slap +31
+    (2d6+19), 2 wings +31 (1d8+6)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  acid pool (50-ft. radius, 20d6 acid), acidic bite, breath weapon (100-ft.
+  line, DC 30, 20d6 acid), create spawn, crush (Small creatures, DC 30, 2d8+19),
+  poison spore cloud
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 22nd; concentration +26)
+  values:
+    - label: Constant
+      value: speak with animals (reptiles only)
+    - label: At Will
+      value: darkness, insect plague, plant growth
+    - label: 1/day
+      value: corrupt water
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: cloudkill (DC 19), hold monster (DC 19)
+    - label: 4th (7/day)
+      value: black tentacles (2), contagion (DC 18)
+    - label: 3rd (7/day)
+      value: dispel magic, hold person (DC 17), nondetection, stinking cloud (DC 17)
+    - label: 2nd (7/day)
+      value: blur, detect thoughts (DC 16), invisibility, summon swarm, web (DC 16)
+    - label: 1st (7/day)
+      value: alarm, endure elements, grease, magic missile, obscuring mist
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 14), mage hand, mending,
+        message, open/close (DC 14), prestidigitation, read magic
+AbilityScores:
+  - 37
+  - 8
+  - 29
+  - 18
+  - 21
+  - 18
+BaseAtk: '22'
+CMB: '37'
+CMD: 46 (50 vs. trip)
+Feats:
+  - Alertness
+  - Combat Expertise
+  - Flyby Attack
+  - Greater Vital Strike
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Vital Strike
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics -1 (+7 when jumping)
+  - Bluff +18
+  - Climb +27
+  - Fly +16
+  - Intimidate +29
+  - Knowledge (arcana
+  - nature) +29
+  - Perception +23
+  - Sense Motive +23
+  - Spellcraft +29
+  - Stealth +22
+  - Swim +46
+  - Use Magic Device +29
+Languages:
+  - Common
+  - Draconic
+  - Giant
+  - Goblin
+  - Orc
+  - Sylvan
+SQ: >-
+  fungal metabolism, rejuvenation, speak with reptiles, swamp stride, water
+  breathing
+Source: AP 119
+IsTemplate: '0'
+DuringCombat: >-
+  Naphexi is as cruel as she is lazy, and prefers to kill with as little effort
+  as possible on her part. She loves holding victims helpless with hold monster
+  or black tentacles, and then subjecting them to cloudkill or her breath
+  weapon's acid pool. If forced to engage, she alternates between using Flyby
+  Attack with her bite and crashing among her foes to deliver full attacks.
+Morale: >-
+  Naphexi is a fanatic, but not eager to sacrifice the body she has just
+  finished transmuting into a beautiful reflection of her god. She attempts to
+  flee to the Pestilent Palace if reduced below 50 hit points, and harries the
+  PCs once they enter the Deeper Reaches. She does not retreat a second time,
+  however.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: fungal|
+AgeCategory: ancient
+CompanionFamiliarLink: '0'
+id: '11508'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

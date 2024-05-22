@@ -1,0 +1,83 @@
+Name: Hand Of Nethys
+CR: 1/2
+XP: '200'
+Race: Crawling hand
+MonsterSource: Pathfinder RPG Bestiary 2 59
+Alignment: NE
+Size: Diminutive
+Type: undead
+Init: '0'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft.
+  - Perception +4
+AC: 14, touch 14, flat-footed 14
+AC_Mods: (+4 size)
+HP: '9'
+HD: (1d8+5)
+Saves: Fort +2, Ref +0, Will +2
+Fort: '2'
+Ref: '0'
+Will: '2'
+Immune: undead traits
+Speed: 40 ft., climb 40 ft.
+Melee:
+  - claw +5 (1d1+1 plus grab)
+Space: 1 ft.
+Reach: 0 ft.
+SpecialAttacks: grab (Medium), mark quarry, strangle
+AbilityScores:
+  - 13
+  - 11
+  - —
+  - 2
+  - 11
+  - 14
+BaseAtk: '0'
+CMB: '-4 (+0 grapple)'
+CMD: '7'
+Feats:
+  - Toughness
+Skills:
+  - Climb +9
+  - Perception +4
+  - Stealth +12
+  - Survival +4
+RacialMods: +4 Survival
+Languages:
+  - Common (can't speak)
+Source: PFS S3-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Mark Quarry (Su)
+    description: >-
+      A crawling hand is assigned a quarry by anointing the hand with a drop of
+      the intended quarry's blood. If the hand has no current quarry, it
+      automatically gains the next creature it damages as its quarry. Once
+      attuned to a target, it becomes aware of the target's location as if under
+      the effect of a continuous locate creature spell. The hand gains a +1
+      bonus on all attack rolls, damage rolls, and skill checks made to seek out
+      and destroy the marked quarry. The mark quarry ability lasts until the
+      quarry or the hand is slain.
+  - name: Strangle (Ex)
+    description: >-
+      An opponent grappled by a crawling hand cannot speak or cast spells with
+      verbal components.
+DuringCombat: >-
+  The crawling hands attempt to strangle any obvious spellcasters first, then
+  target the nearest creatures with their claw attacks.
+Morale: The crawling hands fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5907'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

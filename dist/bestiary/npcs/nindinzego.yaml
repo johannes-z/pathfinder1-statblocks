@@ -1,0 +1,110 @@
+Name: Nindinzego
+CR: '6'
+XP: '2400'
+Race: decapus
+MonsterSource: Pathfinder RPG Bestiary 171, Pathfinder RPG Bestiary 2 77
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +16
+AC: 19, touch 13, flat-footed 16
+AC_Mods: (+3 Dex, +6 natural)
+HP: '76'
+HD: (8d8+40)
+Saves: Fort +6, Ref +5, Will +9; -4 vs. fear effects
+Fort: '6'
+Ref: '5'
+Will: '9'
+Save_Mods: '-4 vs. fear effects'
+DR: 5/magic
+Immune: poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '17'
+Weaknesses: sense of doom
+Speed: 10 ft., climb 30 ft., fly 20 ft. (good)
+Melee:
+  - bite +10 (1d6+4), 2 claws +10 (1d4+4), tentacles +10 (2d4+4 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (2d4+6), smite good 1/day
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +10)
+  values:
+    - label: Constant
+      value: minor image (DC 14)
+    - label: 3/day
+      value: darkness, poison (DC 16)
+    - label: 1/day
+      value: desecrate, unholy blight (DC 16)
+AbilityScores:
+  - 18
+  - 17
+  - 19
+  - 14
+  - 13
+  - 14
+BaseAtk: '6'
+CMB: +10 (+14 grapple)
+CMD: 23 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Improved Initiative
+  - Iron Will
+  - Toughness
+Skills:
+  - Acrobatics +14
+  - Bluff +13
+  - Climb +23
+  - Fly +18
+  - Knowledge (religion) +13
+  - Perception +16
+  - Stealth +14
+  - Use Magic Device +13
+Languages:
+  - Abyssal
+  - Aklo
+  - Varisian
+SQ: sound mimicry (voices), tentacles
+Source: AP 49
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Sense of Doom (Ex)
+    description: >-
+      The sense of doom that fills Nindinzego's alien mind causes it to take a
+      -4 penalty on saving throws against fear effects. In addition, each time
+      it rolls a natural 1 on an attack roll or saving throw, and each time it
+      takes a critical hit, it becomes shaken for the following round, taking a
+      &#8211;2 penalty on all d20 rolls for that duration.
+DuringCombat: >-
+  Nindinzego is a powerful melee combatant, but its sense of doom prevents it
+  from immediately swooping in to fight foes in melee. Instead, it hovers near
+  the ceiling so it can use unholy blight and its wand of scorching ray for the
+  first few rounds of combat, flying in to cast poison on the most
+  heavily-armored foe. It retreats into the air to use its wand for 1d3 rounds
+  after each time its sense of doom activates.
+Morale: >-
+  If reduced to 7 or fewer hit points, Nindinzego spends its next turn shrieking
+  into the air, "Father! Help! Faaaathhhherrrr! Pazuzu!" If the creature
+  survives this round, it continues to fight thereafter to the death.
+Gear: wand of scorching ray (30 charges)
+OtherGear: circlet of persuasion
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-fiend|advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1829'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

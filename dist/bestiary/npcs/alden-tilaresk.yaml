@@ -1,0 +1,108 @@
+Name: Alden Tilaresk
+CR: '4'
+XP: '1200'
+Race: half-elf
+Class: rogue 1/sorcerer 4
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +9
+AC: 13, touch 13, flat-footed 10
+AC_Mods: (+2 Dex, +1 dodge)
+HP: '31'
+HD: (5 HD; 4d6+1d8+10)
+Saves: Fort +2, Ref +5, Will +3; +2 vs. enchantments
+Fort: '2'
+Ref: '5'
+Will: '3'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: fated (+1)
+Immune: sleep
+Speed: 30 ft.
+Melee:
+  - mwk dagger +3 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +1d6
+SpellLikeAbilities:
+  header: Sorcerer Spell-Like Abilities (CL 4th; concentration +7)
+  values:
+    - label: 6/day
+      value: touch of destiny (+2)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 4th; concentration +7)
+  values:
+    - label: 2nd (4/day)
+      value: mirror image
+    - label: 1st (7/day)
+      value: alarm, identify, magic missile, shield
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, mage hand, message, read magic
+AbilityScores:
+  - 10
+  - 15
+  - 12
+  - 14
+  - 8
+  - 16
+BaseAtk: '2'
+CMB: '2'
+CMD: '15'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Skill Focus (Intimidate)
+Skills:
+  - Bluff +7
+  - Intimidate +14
+  - Knowledge (arcana) +10
+  - Knowledge (history) +10
+  - Perception +9
+  - Spellcraft +10
+Languages:
+  - Common
+  - Elven
+  - Thassilonian
+  - Varisian
+SQ: >-
+  bloodline arcana (gain luck bonus on saves when casting personal-range
+  spells), elf blood, trapfinding +1
+Source: AP 133
+IsTemplate: '0'
+Gender: Male
+Bloodline: destined
+BeforeCombat: >-
+  If he has a chance before a fight, Alden uses his wand of mage armor on
+  himself.
+DuringCombat: >-
+  Alden casts mirror image on the first round of combat, followed by shield on
+  the second. Thereafter he remains mobile and attacks with magic missile,
+  recasting  mirror image whenever he's down to only one image left.
+Morale: >-
+  Alden has wholeheartedly embraced the order's tenets, and he is too proud to
+  back down from a fight.
+Gear: cloak of the hedge wizard (illusion)UE, wand of mage armor (40 charges)
+OtherGear: >-
+  mwk dagger, spell component pouch, silver holy symbol of the Peacock Spirit
+  worth 25 gp, 4 pp, 9 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11879'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,76 @@
+Name: Orcus Golem
+CR: '6'
+XP: '2400'
+Race: Stone Guardian Golem
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +0
+AC: 21, touch 11, flat-footed 20
+AC_Mods: (+1 Dex, +10 natural)
+HP: '54'
+HD: (6d10+20)
+Saves: Fort +2, Ref +3, Will +2
+Fort: '2'
+Ref: '3'
+Will: '2'
+DefensiveAbilities: moderate fortification
+Immune: construct traits
+Resist: cold 5, fire 5, electricity 5
+Speed: 20 ft.
+Speed_Mod: dimensional step
+Melee:
+  - 2 slams +13 (1d8+7)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 25
+  - 13
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '6'
+CMB: '13'
+CMD: '24'
+SQ: ring link
+Source: Rappan Athuk-Level 10C
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dimensional Step (Su)
+    description: >-
+      As a move action, an Orcus golem can teleport itself and up to 50 pounds
+      of gear up to 100 feet. It can continue to take its normal actions for the
+      round when it reaches its destination. Otherwise, this ability functions
+      as the dimension door spell.
+  - name: Moderate Fortification (Ex)
+    description: >-
+      An Orcus golem has a 50% chance to ignore additional damage caused by
+      critical hits or sneak attacks.
+  - name: Ring Link (Su)
+    description: >-
+      An Orcus golem is linked to a magic ring. The construct never attacks any
+      creature that wears this ring, nor any creatures within 10 ft. of the
+      ringwearer, unless one of those creatures attacks the ringwearer first.
+  - name: See Invisibility (Su)
+    description: >-
+      An Orcus golem constantly sees invisible creatures and objects, as per the
+      spell see invisibility.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12229'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,76 @@
+Name: Giant Bee Troop
+CR: '7'
+XP: '3200'
+Race: Giant Bee Troop
+Alignment: 'N'
+Size: Medium
+Type: vermin
+SubType: (troop)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+AC: 20, touch 12, flat-footed 18
+AC_Mods: (+2 Dex, +8 natural)
+HP: '84'
+HD: (13d8+26)
+Saves: Fort +10, Ref +6, Will +6
+Fort: '10'
+Ref: '6'
+Will: '6'
+DefensiveAbilities: troop traits
+Immune: mind-affecting effects
+Weaknesses: vulnerable to smoke
+Speed: 20 ft., fly 60 ft. (good)
+Melee:
+  - troop (3d6+2 plus poison)
+Space: 20 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 15
+  - 14
+  - 15
+  - —
+  - 14
+  - 9
+BaseAtk: '9'
+CMB: '11'
+CMD: 23 (can't be tripped)
+Skills:
+  - Fly +6
+Source: AP 123
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Troop-injury; save Fort DC 18; frequency 1/round for 6 rounds; effect 1d6
+      Str; cure 2 consecutive saves.
+  - name: Vulnerable to Smoke (Ex)
+    description: >-
+      Smoke from particularly smoky fires or effects (such as that caused by a
+      pyrotechnics spell) causes a giant bee troop to become nauseated if it
+      fails a DC 14 Fortitude save. This condition persists as long as the troop
+      remains in the smoke, plus 1d4 rounds.
+DuringCombat: >-
+  The bees adjust the shape of their troop so as to include as many foes as
+  possible within their area.
+Morale: >-
+  While defending their hives, the giant bees are fearless and fight to the
+  death, though they flee if attacked while nauseated by smoke. Outside the
+  hive, they're less aggressive, and the troop withdraws if reduced to 20 hit
+  points or fewer.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11652'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,106 @@
+Name: Eastapiron
+CR: '15'
+XP: '51200'
+Race: tomb giant
+Class: fighter 2
+MonsterSource: Pathfinder RPG Bestiary 6 136
+Alignment: NE
+Size: Large
+Type: humanoid
+SubType: (giant)
+Init: '4'
+Senses:
+  - darkvision 60 ft., deathwatch, detect undead, low-light vision
+  - Perception +24
+AC: 30, touch 12, flat-footed 27
+AC_Mods: (+8 armor, +3 Dex, +10 natural, -1 size)
+HP: '176'
+HD: (15 HD; 13d8+2d10+107)
+HP_Mods: fossil golem armor
+Saves: Fort +21, Ref +13, Will +15; +1 vs. fear
+Fort: '21'
+Ref: '13'
+Will: '15'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: negative energy affinity, rock catching
+Immune: death effects, paralysis
+Speed: 40 ft. (30 ft. in armor)
+Melee:
+  - +1 frost scythe +24/+19/+14 (2d6+20/19-20/x4 plus energy drain and 1d6 cold)
+  - 2 slams +18 (1d6+6 plus energy drain)
+Ranged:
+  - rock +10 (1d8+6)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: energy drain (1 level, DC 18), rock throwing (120 ft.)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +14)
+  values:
+    - label: Constant
+      value: deathwatch, detect undead
+    - label: 3/day
+      value: corpse stitcher, sculpt corpse APG (DC 13)
+    - label: 1/day
+      value: animate dead, control undead (DC 19)
+AbilityScores:
+  - 36
+  - 19
+  - 24
+  - 15
+  - 23
+  - 14
+BaseAtk: '11'
+CMB: +25 (+29 trip)
+CMD: 39 (41 vs. trip)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Critical Focus
+  - Greater Trip
+  - Improved Critical (scythe)
+  - Improved Iron Will
+  - Improved Trip
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+Skills:
+  - Climb +14
+  - Craft (sculpture) +11
+  - Heal +14
+  - Knowledge (religion) +17
+  - Perception +24
+  - Stealth +8
+  - Survival +16
+Languages:
+  - Common
+  - Giant
+  - Necril
+SQ: sinister synergy
+Source: AP 144
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Male
+DuringCombat: >-
+  Eastapiron delights in tripping foes and skewering them with attacks of
+  opportunity. If the tomb giants with him are both defeated, or if his fossil
+  golem armor is reduced to fewer than 50 hit points, he uses a swift action to
+  order the golem to remove itself and fight independently.
+Morale: Eastapiron fights to the death.
+Gear: >-
+  +2 fossil golem armor, +1 frost scythe, 3 rocks, cloak of resistance +3, mwk
+  sculpting tools, 331 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12759'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

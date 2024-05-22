@@ -1,0 +1,157 @@
+Name: Eukalia
+CR: '9'
+XP: '6400'
+Race: Fungus queen
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea Bestiary 12'
+Alignment: CE
+Size: Medium
+Type: plant
+SubType: (extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +18
+AC: 23, touch 13, flat-footed 20
+AC_Mods: (+3 Dex, +10 natural)
+HP: '114'
+HD: (12d8+60)
+Saves: Fort +13, Ref +7, Will +7
+Fort: '13'
+Ref: '7'
+Will: '7'
+DR: 10/cold iron or good
+Immune: electricity, plant traits
+Resist: acid 10, cold 10
+SR: '20'
+Speed: 20 ft.
+Melee:
+  - 2 claws +14 (1d6+5), 4 tentacles +12 (1d4+2 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  compel plants, constrict (1d4+5), create spawn, energy drain (1 level, DC 23),
+  sporepod
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +16)
+  values:
+    - label: Constant
+      value: detect good, tongues
+    - label: At Will
+      value: veil (DC 23, self only)
+    - label: 3/day
+      value: charm monster (DC 21), detect thoughts (DC 19), suggestion (DC 19)
+    - label: 1/day
+      value: dominate person (DC 22), mind fog (DC 22), slow (DC 20)
+AbilityScores:
+  - 21
+  - 17
+  - 21
+  - 18
+  - 16
+  - 24
+BaseAtk: '9'
+CMB: +14 (+18 grapple)
+CMD: '27'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Disguise)
+Skills:
+  - Bluff +19
+  - Disguise +25
+  - Knowledge (dungeoneering) +10
+  - Knowledge (planes) +10
+  - Perception +18
+  - Sense Motive +15
+  - Use Magic Device +19
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Orvian
+  - Undercommon
+  - tongues
+  - telepathy 100 ft.
+SQ: plant empathy +23
+Source: PFS S5-05
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Compel Plants (Su)
+    description: >-
+      A fungus queen's mind-affecting powers and spell-like abilities (and
+      spells, should the fungus queen gain the ability to cast them) affect
+      plant creatures (but not mindless plant creatures) as if they weren't
+      immune to mind-affecting effects.
+  - name: Create Spawn (Su)
+    description: >-
+      A creature that would normally be slain by a fungus queen's energy drain
+      attack is not killed- instead, it immediately loses all negative levels
+      imparted by the fungus queen and transforms into a fungus-infested minion
+      of the queen. Such creatures gain the fungoid simple template (granting it
+      all of the plant traits, telepathy 100 ft. with other fungoid creatures,
+      and the chaotic evil alignment), which must be removed using heal, limited
+      wish, miracle, or wish before the end of the scenario, otherwise the
+      character is removed from Pathfinder Society Organized Play. Fungoid
+      creatures are under the control of the fungus creature that created them,
+      and remain enslaved until their mistress is destroyed or until they are
+      cured of the infestation. A fungus queen can communicate telepathically
+      with her fungoid spawn at any range as long as they are on the same plane,
+      and may have a number of Hit Dice worth of enslaved spawn totaling no more
+      than twice her own Hit Dice; any spawn she creates that would exceed this
+      limit become free-willed fungoid creatures. A fungus queen may free an
+      enslaved spawn in order to enslave a new spawn, but once freed, a fungoid
+      creature cannot be enslaved again (although it can still be influenced by
+      the fungus queen's compel plants and plant empathy abilities).
+  - name: Energy Drain (Su)
+    description: >-
+      A fungus queen's energy drain functions identically to that of a succubus
+      (Bestiary 68). Creatures killed by this attack do not die&#8211;they
+      instead become infested with the fungus queen's spores (see Create Spawn).
+      The save DC is Charisma-based.
+  - name: Plant Empathy (Ex)
+    description: >-
+      This ability functions as the druid's wild empathy, save that a fungus
+      queen can use this ability only on plant creatures. A fungus queen gains a
+      +4 racial bonus on this check. Mindless plant creatures are imparted a
+      modicum of implanted intelligence when a fungus queen uses this ability,
+      allowing her to train such creatures as guardians.
+  - name: Sporepod (Su)
+    description: >-
+      As a standard action, a fungus queen can cause a Medium pod of fungal
+      material to burst out of the ground at any point within 60 feet of her
+      current location. Once created, a sporepod cannot move. If the fungus
+      queen travels more than 120 feet from a sporepod, it is destroyed. A
+      fungus queen can maintain a number of sporepods equal to her Charisma
+      modifier (7 for the typical fungus queen). As a move action, she can
+      instantaneously travel to one of her sporepods as if using transport via
+      plants. She can also choose to spread out her tentacle attacks among her
+      sporepods, attacking a creature within 5 feet of any sporepod with a
+      tentacle&#8211; she is still limited to making only four tentacle attacks
+      as part of a full-attack action, or one as a standard action. A sporepod
+      is an object that has an AC of 15 and 20 hit points; damage dealt to a
+      sporepod does not harm the fungus queen.
+BeforeCombat: Eukalia hides in plain sight using veil.
+DuringCombat: >-
+  Eukalia strikes through her sporepods and with magic, only closing into melee
+  range if necessary.
+Morale: >-
+  Eukalia attempts to flee with judicious use of her sporepod ability if reduced
+  to 25 hp or less.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8021'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,157 @@
+Name: Jazradan
+CR: '18'
+XP: '153600'
+Race: human (Azlanti) ghost
+Class: arcanist 16
+MonsterSource: Pathfinder RPG Bestiary 144, Pathfinder RPG Advanced Class Guide 8
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, human, incorporeal)
+Init: '8'
+Senses:
+  - darkvision 60 ft., discern lies, true seeing
+  - Perception +30
+AC: 29, touch 24, flat-footed 25
+AC_Mods: (+5 armor, +10 deflection, +4 Dex)
+HP: '234'
+HD: (16d6+176)
+Saves: Fort +19, Ref +13, Will +17
+Fort: '19'
+Ref: '13'
+Will: '17'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: gaze, magical control, undead traits
+SR: '18'
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +12 (17d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  arcane reservoir (8/19), arcanist exploits (bloodline development [destined],
+  dimensional slide, greater spell resistance, potent magic, quick study,
+  redirect spell, see magic, spell resistance), consume spells, corrupting gaze
+  (DC 28), malevolence (DC 28), telekinesis (DC 28)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 16th; concentration +24)
+  values:
+    - label: 13/day
+      value: >-
+        touch of destiny (+1) Arcanist Spell-Like Abilities (CL 16th;
+        concentration +24)
+    - label: At Will
+      value: detect magic
+SpellsPrepared: >-
+  Arcanist Spells Prepared (CL 16th; concentration +24)  8th (3/day)-greater
+  possessionOA (DC 26), temporal stasis (DC 28)  7th (5/day)-mage's sword,
+  reverse gravity  6th (5/day)-disintegrate (DC 28), greater dispel magic, wall
+  of iron  5th (5/day)-cone of cold (DC 23), smug narcissismUM (DC 23),
+  suffocationAPG (DC 23), waves of fatigue  4th (6/day)-black tentacles,
+  dimensional anchor, mindwipeOA (DC 22), wall of ice (DC 22)  3rd
+  (6/day)-dispel magic, fireball (DC 21), force punchUM (DC 21), slow (DC 23) 
+  2nd (6/day)-glitterdust (DC 20), mirror image, scorching ray, spectral hand,
+  web (DC 20)  1st (6/day)-mage armor, magic missile, shield, shocking grasp,
+  true strike  0 (at will)-acid splash, arcane mark, detect magic, light, mage
+  hand, message, open/close (DC 20), prestidigitation, read magic
+AbilityScores:
+  - —
+  - 18
+  - —
+  - 26
+  - 17
+  - 31
+BaseAtk: '8'
+CMB: '12'
+CMD: '32'
+Feats:
+  - Empower Spell
+  - Expanded Preparation
+  - Greater Spell Focus (transmutation)
+  - Improved Initiative
+  - Piercing Spell
+  - Quicken Spell
+  - Spell Focus (transmutation)
+  - Spell Penetration
+  - Spell PerfectionAPG (disintegrate)
+Skills:
+  - Bluff +18
+  - Diplomacy +18
+  - Fly +12
+  - Intimidate +29
+  - Knowledge (arcana
+  - history
+  - local
+  - planes) +27
+  - Knowledge (dungeoneering
+  - engineering) +19
+  - Perception +30
+  - Sense Motive +14
+  - Spellcraft +27
+  - Stealth +23
+  - Use Magic Device +29
+RacialMods: +8 Perception, +8 Stealth
+Languages:
+  - Aboleth
+  - Abyssal
+  - Azlanti
+  - Celestial
+  - Elven
+  - Ghol-Gan
+  - Infernal
+  - Thassilonian
+SQ: ghost trappings
+Source: AP 126
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ghostly Trappings (Su)
+    description: >-
+      As a ghost, Jazradan clings to the extravagant regalia of Azlanti
+      rulership that he wore in life. Jazradan is always considered to be
+      equipped with a headband of mental prowess +4 (Int, Cha), robes of the
+      archmagi (black), a helm of governance, and a spellbook and spell
+      component pouch, despite his current existence as a ghost. Inherent
+      Bonuses While alive, Jazradan used wish spells to increase his ability
+      scores. He has a +4 inherent bonus to his Charisma and Intelligence scores
+      and a +3 inherent bonus to his Dexterity and Wisdom scores. This increases
+      his Challenge Rating by 1.
+  - name: Rejuvenation (Su)
+    description: >-
+      Jazradan's spirit refuses to accept the fall of Azlant. In order to put
+      Jazradan to rest, the veiled master Ochymua must be slain, after which the
+      shattered continent must be scoured of all projection pads still
+      delivering Jazradan's final message to the people of dead Azlant. Only
+      then can Jazradan's soul be put to rest, finally accepting the fate of
+      lost Azlant.
+Gender: Male
+Bloodline: destined
+BeforeCombat: >-
+  Jazradan casts mirror image and shield if given advance warning of combat. If
+  caught unprepared, he uses the time stop effect of his helm to prepare.
+DuringCombat: >-
+  In combat, Jazradan focuses on long-lasting debilitation. He attempts to use
+  greater possession against weak-willed targets. He summons a mage's sword to
+  deal damage while casting disintegration against nonspellcasters and greater
+  possession against weak-willed targets. Jazradan takes special joy in
+  outpacing enemy spellcasters, using his redirect spell arcanist exploit to
+  show his mastery.
+Morale: >-
+  Jazradan has no fear of death and fights until defeated, using his
+  rejuvenation ability to return.
+Gear: helm of governance (see the sidebar on page 55), robe of the archmagi (black)
+OtherGear: headband of mental prowess +4 (Int, Cha), spellbook, spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11732'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,97 @@
+Name: The Grogrisant
+CR: '16'
+XP: '76800'
+Race: The Grogrisant
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+SubType: (mythic)
+Init: +12M
+Senses:
+  - darkvision 120 ft., low-light vision, scent
+  - Perception +21
+Aura: blazing mane (60 ft., DC 20)
+AC: 33, touch 33, flat-footed 31
+AC_Mods: (+2 Dex, +23 natural, -2 size)
+HP: '285'
+HD: (18d10+186)
+Saves: Fort +20, Ref +13, Will +14
+Fort: '20'
+Ref: '13'
+Will: '14'
+DR: 10/epic and piercing
+Immune: disease, fire, light effects, poison
+Resist: acid 10, electricity 10
+Speed: 50 ft., climb 30 ft.
+Melee:
+  - bite +26 (3d6+15/19-20), 2 claws +26 (1d8+10)
+Space: 15 ft.
+Reach: 10 ft.
+SpecialAttacks: mythic power (6/day, surge +1d8), powerful bite
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +19)
+  values:
+    - label: Constant
+      value: nondetection, pass without trace
+    - label: At Will
+      value: dancing lights, fire shield, sunbeam (DC 16)
+AbilityScores:
+  - 30
+  - 15
+  - 24
+  - 6
+  - 23
+  - 13
+BaseAtk: '18'
+CMB: +30 (+32 sunder)
+CMD: 42 (44 vs. sunder, 46 vs. trip)
+Feats:
+  - Great Fortitude
+  - Improved Initiative[M]
+  - Improved Sunder
+  - Improved Vital Strike
+  - Iron Will[M]
+  - Power Attack
+  - Skill Focus (Perception
+  - Stealth)
+  - Vital Strike[M]
+Skills:
+  - Acrobatics +2 (+10 when jumping)
+  - Climb +22
+  - Perception +21
+  - Stealth +18
+Languages:
+  - Sphinx (can't speak)
+SQ: pure bodyMA, quick recoveryMA, shrug it offMA
+Source: AP 132
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blazing Mane (Su)
+    description: >-
+      When in an area of normal or brighter light, the grogrisant's golden mane
+      blazes like the sun. Creatures more than 60 feet away treat the beast as
+      having total concealment due to the dazzling brilliance, and any creature
+      within 60 feet that looks at the grogrisant must succeed at a DC 20
+      Fortitude save or be permanently blinded. Creatures can avert their eyes
+      as if this were a gaze attack.
+  - name: Powerful Bite (Ex)
+    description: >-
+      The grogrisant's bite attack applies 1-1/2 times its Strength modifier on
+      damage rolls and threatens a critical hit on a roll of 19-20.
+  - name: Shimmering Coat (Su)
+    description: The grogrisant adds its natural armor bonus to its touch AC.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11858'
+UniqueMonster: '0'
+Variant: '0'
+MR: '6'
+Mythic: '1'
+MT: '0'

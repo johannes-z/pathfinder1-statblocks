@@ -1,0 +1,88 @@
+Name: Ebon Acolytus
+CR: '7'
+XP: '3200'
+Race: Ebon Acolytus
+MonsterSource: 'Pathfinder Adventure Path #30 82'
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 20, touch 8, flat-footed 20
+AC_Mods: (-1 Dex, +12 natural, -1 size)
+HP: '79'
+HD: (9d10+30)
+Saves: Fort +3, Ref +2, Will +3
+Fort: '3'
+Ref: '2'
+Will: '3'
+Immune: construct traits
+Speed: 30 ft.
+Melee:
+  - dagger +14 (1d6+9/19-20)
+  - 2 slams +14 (1d6+6)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: prostration, sacrifice
+AbilityScores:
+  - 22
+  - 8
+  - 10
+  - 10
+  - 11
+  - 1
+BaseAtk: '9'
+CMB: '16'
+CMD: '25'
+Source: PFS S4-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Prostration (Ex)
+    description: >-
+      As a standard action, an ebon acolytus can attempt to force any creature
+      it is currently grappling into a sacrificial position. The construct must
+      make an additional combat maneuver check against its target to reposition
+      it into an advantageous position. If it succeeds, and the victim remains
+      grappled at the beginning of the construct's next round, the ebon acolytus
+      may make use of its sacrifice ability. An ebon acolytus gains a +2 bonus
+      on its combat maneuver check for the purposes of making this check if it
+      is adjacent to an altar or similar site of ceremonial bloodletting.
+  - name: Sacrifice (Su)
+    description: >-
+      As a full-round action, an ebon acolytus may make a coup de grace attack
+      with its dagger against any target currently grappled into place by means
+      of its prostration ability. The target is affected by the coup de grace
+      attack and must make a Fortitude saving throw (DC 10 + damage dealt) or
+      die as normal. If the target is killed by this attack, its soul is sent
+      straight to the plane of the being to which the altar is dedicated,
+      regardless of alignment, and cannot be raised from the dead except by a
+      cleric sworn to the same deity or by a miracle or wish spell. A creature
+      under the effects of a protection from evil spell-ora similar spell that
+      opposes the alignment of the god the ebon acolytus is crafted to
+      serve&#8211;may be resurrected as normal.
+BeforeCombat: >-
+  The ebon acolytus stands inert in the chapel access until it is attacked or
+  until the safe house is damaged.
+DuringCombat: >-
+  The ebon acolytus attempts to grapple the nearest intruder, using its
+  prostration ability to put victims into a position where they can be
+  sacrificed to Lissala. The stone dais in this room does not count as an altar
+  for the purpose of the ebon acolytus's prostration ability.
+Morale: The ebon acolytus pursues intruders relentlessly and fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7652'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

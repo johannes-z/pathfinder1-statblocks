@@ -1,0 +1,170 @@
+Name: Lord Naphrathoth, Fallen Empyreal Commander
+CR: '18'
+XP: '153600'
+Race: empyreal angel
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (angel, extraplanar, good, lawful)
+Init: '8'
+Senses:
+  - darkvision 60 ft., deathsight 60 ft., low-light vision
+  - Perception +28
+Aura: aura of death (DC 23), aura of evil (DC 25), protective aura
+AC: 28, touch 14, flat-footed 23
+AC_Mods: (+5 Dex, +14 natural, -1 size| +4 deflection vs. good)
+HP: '175'
+HD: (13d10+78)
+Saves: Fort +16 (+20 vs. poison), Ref +13, Will +8; +4 resistance vs. good
+Fort: +16 (+20 vs. poison)
+Ref: '13'
+Will: '8'
+Save_Mods: +4 resistance vs. good
+DR: 10/evil
+Immune: >-
+  ability damage, ability drain, acid, cold, death effects, evil spells,
+  negative energy, petrification
+Resist: electricity 10, fire 10
+SR: '26'
+Speed: 40 ft., fly 70 ft. (good)
+Melee:
+  - >-
+    +1 brilliant energy unholy greatsword +25/+20/+15 (2d6+17 plus 2d6 vs.
+    good/19-20 ) or 2 slams +23 (1d8+16 plus energy drain)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  death knell (CL 13th, 4/day), energy drain (DC 23), greater death knell (DC
+  23, 1/month), unholy blast (DC 21, 15d6 plus blindness)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; melee touch +24, ranged touch +18)
+  values:
+    - label: Constant
+      value: detect good
+    - label: At Will
+      value: >-
+        aid, bestow curse (DC 20), contagion (DC 20), continual flame, discern
+        lies (DC 21), dispel magic, fear (DC 21), invisibility (self only),
+        plane shift (DC 22), unholy blight (DC 21)
+    - label: 5/day
+      value: inflict moderate wounds (DC 19)
+    - label: 3/day
+      value: >-
+        blade barrier (DC 23), flame strike (DC 22), inflict serious wounds (DC
+        20), scorching ray (3 rays)
+    - label: 1/day
+      value: harm (DC 22), slay living (DC 22)
+AbilityScores:
+  - 32
+  - 20
+  - 22
+  - 18
+  - 18
+  - 24
+BaseAtk: '13'
+CMB: '25'
+CMD: '40'
+Feats:
+  - Alertness
+  - Blind-Fight
+  - Cleave
+  - Great Fortitude
+  - Improved Initiative
+  - Power Attack
+  - Weapon Focus (greatsword)
+Skills:
+  - Diplomacy +23
+  - Fly +23
+  - Heal +20
+  - Intimidate +20
+  - Knowledge (planes) +20
+  - Knowledge (religion) +17
+  - Perception +28
+  - Sense Motive +24
+  - Stealth +17
+  - Survival +20
+RacialMods: +4 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - truespeech
+Source: Rappan Athuk-Level 14A
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Death (Su)
+    description: >-
+      Deathleeches radiate an unnerving aura of death and destruction. Undead
+      recognize this aura and the powerful necromantic energy that it
+      represents. Mindless undead do not attack a deathleech unless attacked
+      first. Intelligent undead with Hit Dice at least equal to the deathleech's
+      total Hit Dice plus class levels must succeed on a DC 23 Will save to
+      attack a deathleech. Once it makes a successful save, that undead creature
+      never again has to make a save to attack that same deathleech. Intelligent
+      undead with more Hit Dice than the deathleech are unaffected by this aura.
+      This aura radiates in a 5-foot radius around the deathleech creature. The
+      save DC is Charismabased.
+  - name: Aura of Evil (Su)
+    description: >-
+      Naphrathoth radiates an aura in a 30 ft. radius spread around his form.
+      Any non-good creature in this area must succeed on a DC 25 Will save or be
+      overcome with awe and unable to attack him that round. Good creatures
+      within the area must make a successful DC 25 Will save or be unable to
+      even look at Naphrathoth for one day. An affected good creature functions
+      as if blinded (as the blindness spell) when attacking Naphrathoth. On a
+      successful save, a creature is immune to Naphrathoth's aura of evil for
+      one day. The save DC is Charisma-based and includes a +2 bonus.
+  - name: Death Knell (Su)
+    description: >-
+      Once per day for each 3 Hit Dice plus class levels (if any) a deathleech
+      has, it can draw forth the ebbing life force of a creature to fuel its own
+      power. This functions as a death knell spell with a caster level equal to
+      the deathleech's total Hit Dice plus class levels (if any).
+  - name: Deathsight (Su)
+    description: >-
+      A deathleech can determine the condition of creatures near death within 30
+      feet. (This range doubles for every 10 HD a deathleech has.) This
+      functions as a deathwatch spell with a caster level equal to the
+      deathleech's Hit Dice. This ability is always on, but can be suppressed or
+      negated. A deathleech can restart it again as a free action on its next
+      turn.
+  - name: Greater Death Knell (Su)
+    description: >-
+      Once per month for each 8 Hit Dice plus class levels (if any) a deathleech
+      has, it musters enough negative energy to perform a greater death knell.
+      This ability functions as a death knell spell, except the hit points and
+      Strength gained are permanent. If the target succeeds on its Will save,
+      the deathleech actually loses 1d8 hit points permanently and takes 2
+      points of Strength drain. A deathleech can only ever gain a number of hit
+      points equal to three times its Hit Dice from using this ability. It can
+      never gain more than 6 Strength points from this ability. Naphrathoth has
+      used this ability to gain 6 points of Strength and 15 permanent hit
+      points, and now may only drain 24 more hit points and gain the temporary
+      caster level.
+  - name: Unholy Blast (Su)
+    description: >-
+      Once per day, Naphrathoth can increase the radiance of his form and
+      release it in a cone-shaped blast to a range of 60 ft. that deals 15d6
+      points of damage and blinds any creature in the area (as the blindness
+      spell) for 3d6 minutes. Affected creatures can make a successful DC 22
+      Reflex save to halve the damage and avoid being blinded. The save DC is
+      Constitution-based.
+Gender: Male
+Gear: +1 brilliant energy unholy greatsword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: deathleech|corrupted|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12346'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

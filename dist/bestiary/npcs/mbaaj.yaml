@@ -1,0 +1,125 @@
+Name: Mbaaj
+CR: '5'
+XP: '1600'
+Race: Kuru
+Class: oracle of the Dark Tapestry 6
+MonsterSource: >-
+  Pathfinder Campaign Setting: Isles of the Shackles 51, Pathfinder RPG Advanced
+  Player's Guide 42, Pathfinder RPG Ultimate Magic 54
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (kuru)
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +6
+AC: 16, touch 11, flat-footed 16
+AC_Mods: (+4 armor, +1 deflection, +1 natural)
+HP: '60'
+HD: (6d8+30)
+Saves: Fort +7, Ref +4, Will +5
+Fort: '7'
+Ref: '4'
+Will: '5'
+Weaknesses: light sensitivity
+Speed: 20 ft.
+Melee:
+  - mwk club +9 (1d6+6), bite +4 (1d6+2 plus cannibalistic vitality)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 6th; concentration +8)
+  values:
+    - label: 3rd (3/day)
+      value: inflict serious wounds, searing light, tongues
+    - label: 2nd (6/day)
+      value: >-
+        death knell (DC 14), dust of twilightAPG, inflict moderate wounds,
+        spiritual weapon
+    - label: 1st (7/day)
+      value: >-
+        command (DC 13), doom (DC 13), entropic shield (DC 13), inflict light
+        wounds, murderous commandUM (DC 13), ray of sickeningUM (DC 13)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 12), create water, detect magic, guidance, purify food and
+        drink, resistance, sparkAPG
+AbilityScores:
+  - 19
+  - 10
+  - 20
+  - 10
+  - 10
+  - 14
+BaseAtk: '4'
+CMB: '8'
+CMD: '19'
+Feats:
+  - Combat Casting
+  - Lightning Reflexes
+  - Weapon Focus (bite)
+Skills:
+  - Heal +6
+  - Intimidate +8
+  - Knowledge (planes) +4
+  - Knowledge (religion) +4
+  - Linguistics +1
+  - Perception +6
+  - Sense Motive +8
+  - Spellcraft +4
+  - Stealth +4
+Languages:
+  - Common
+  - Kuru
+SQ: >-
+  blood courage, oracle's curse (clouded vision), revelations (gift of madness,
+  interstellar void)
+Source: PFS S6-06
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Courage (Ex)
+    description: >-
+      Once per day when a kuru makes a saving throw against a fear effect, he
+      can roll the saving throw twice and take the better result. He must decide
+      to use this ability before the saving throw is attempted.
+  - name: Cannibalistic Vitality (Ex)
+    description: >-
+      When a kuru hits a living creature with its bite attack, he gains 1
+      temporary hit point by ingesting the target's blood. This ability has no
+      effect against creatures that do not have blood.
+BeforeCombat: Mbaaj casts entropic shield.
+DuringCombat: >-
+  Mbaaj relies on his followers to engage the PCs in melee so he can hang back
+  and use his ranged spells and special abilities on foes. He focuses his
+  attacks on suspected spellcasters first before drawing his club and charging
+  the PCs. If he sees a PC drop to below 0 hit points, he gleefully casts death
+  knell.
+Morale: >-
+  If Mbaaj is reduced to fewer than 20 hit points, he retreats and drinks his
+  potions of cure light wounds. Once out of healing potions, he fights to the
+  death to honor the Blood Queen.
+Gear: potions of cure light wounds (3)
+OtherGear: >-
+  , mwk hide armor, mwk club, amulet of natural armor +1, ring of protection +1,
+  wooden unholy symbol (worth 1 gp), 10 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not affected by the kuru surrogate's blood link ability, Mbaaj's
+  statistics are hp 45; Fort +5; Melee club +7 (1d6+3), bite +2 (1d6+1 plus
+  cannibalistic vitality); Str 15, Con 16; CMB +6, CMD 17.
+AgeCategory: Adult
+Mystery: Dark TapestryUM
+CompanionFamiliarLink: '0'
+id: '7881'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

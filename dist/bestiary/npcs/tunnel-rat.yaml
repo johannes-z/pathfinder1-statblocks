@@ -1,0 +1,95 @@
+Name: Tunnel Rat
+CR: '5'
+XP: '1600'
+Race: gnome
+Class: ranger 6
+Alignment: 'N'
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +12
+AC: 19, touch 15, flat-footed 15
+AC_Mods: (+4 armor, +3 Dex, +1 dodge, +1 size)
+HP: '49'
+HD: (6d10+12)
+Saves: Fort +6, Ref +8, Will +3; +2 vs. illusions
+Fort: '6'
+Ref: '8'
+Will: '3'
+Save_Mods: +2 vs. illusions
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Immune: poison
+Speed: 20 ft.
+Melee:
+  - mwk dagger +9/+4 (1d3+1/19-20)
+Ranged:
+  - +1 light crossbow +12 (1d6+1/19-20)
+  - mwk dagger +11/+6 (1d3+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  +1 on attack rolls against goblinoid and reptilian humanoids, favored enemy
+  (elves +2, goblinoids +4)
+SpellsPrepared: Ranger Spells Prepared (CL 3rd; concentration +4)   1st-alarm, delay poison
+AbilityScores:
+  - 12
+  - 16
+  - 12
+  - 12
+  - 13
+  - 10
+BaseAtk: '6'
+CMB: '6'
+CMD: '20'
+Feats:
+  - Dodge
+  - Endurance
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Reload
+  - Weapon Focus (light crossbow)
+Skills:
+  - Acrobatics +8 (+4 when jumping)
+  - Climb +6
+  - Knowledge (dungeoneering) +10
+  - Knowledge (nature) +10
+  - Knowledge (engineering) +4
+  - Perception +12
+  - Stealth +15
+  - Survival +10
+Languages:
+  - Common
+  - Gnome
+  - Sylvan
+SQ: >-
+  favored terrain (underground +2), hunter's bond (companion), track +3, wild
+  empathy +6
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The ranger casts delay poison.
+DuringCombat: The ranger uses Precise Shot to help allies in melee.
+Gear: >-
+  +1 flaming arrows (6), potion of barkskin, potion of cure moderate wounds,
+  smokesticks (2)
+OtherGear: >-
+  masterwork chain shirt, +1 light crossbow with 20 bolts, masterwork dagger,
+  167 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without delay poison, the ranger's statistics are Immune none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3769'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

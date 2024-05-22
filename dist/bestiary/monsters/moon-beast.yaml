@@ -1,0 +1,135 @@
+Name: Moon-Beast
+CR: '11'
+XP: '12800'
+Alignment: CE
+Size: Large
+Type: aberration
+Init: '7'
+Senses:
+  - blindsight 90 ft.
+  - Perception +21
+AC: 25, touch 13, flat-footed 21
+AC_Mods: (+3 Dex, +1 dodge, +12 natural, -1 size)
+HP: '133'
+HD: (14d8+70)
+Saves: Fort +9, Ref +9, Will +15
+Fort: '9'
+Ref: '9'
+Will: '15'
+DefensiveAbilities: amorphous
+DR: 10/piercing or slashing
+Immune: cold, gaze attacks, illusions, poison
+Resist: electricity 30
+SR: '22'
+Speed: 50 ft., climb 20 ft.
+Speed_Mod: air walk
+Melee:
+  - 2 claws +15 (1d6+6), 4 tentacles +11 (1d6+3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rend (2 tentacles, 1d6+9 plus Wisdom drain)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +18)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At Will
+      value: detect thoughts (DC 19)
+    - label: 3/day
+      value: >-
+        charm monster (DC 21), dispel magic, dominate person (DC 22), shadow
+        conjuration (DC 21), shadow evocation (DC 22), veil (DC 23)
+    - label: 1/day
+      value: >-
+        confusion (DC 21), major image (DC 20), mirage arcana (DC 22), plane
+        shift (self only)
+AbilityScores:
+  - 22
+  - 17
+  - 20
+  - 19
+  - 18
+  - 25
+BaseAtk: '10'
+CMB: '17'
+CMD: '31'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Weapon Focus (tentacle)
+Skills:
+  - Climb +14
+  - Diplomacy +14
+  - Intimidate +24
+  - Knowledge (arcana) +11
+  - Knowledge (planes) +18
+  - Perception +21
+  - Sense Motive +18
+  - Spellcraft +21
+  - Stealth +24
+  - Use Magic Device +21
+RacialMods: +8 Stealth
+Languages:
+  - Aklo (cannot speak)
+  - telepathy 300 ft.
+SQ: compression, no breath
+Environment: any land
+Organization: solitary, pair, or cabal (3-5)
+Treasure: double
+Description_Visual: >-
+  This creature has a pale, froglike appearance with clawed hands, no eyes, a
+  wide mouth, and a snout ending in pink tentacles.
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Wisdom Drain (Su)
+    description: >-
+      A creature that takes rend damage from a moon-beast must succeed at a DC
+      22 Will save or take 1d4 points of Wisdom drain. A moon-beast heals 5
+      points of damage for each point of Wisdom it drains in this manner. If it
+      drains a victim to 0 Wisdom, the moon-beast gains the effects of a heal
+      spell. The save DC is Constitution-based.
+Description:
+  - >-
+    Moon-beasts have no voice or eyes, yet they "see" more than most and can
+    project their thoughts into the very minds of those they wish to communicate
+    with. These monstrosities hail not from any physical moon, but rather from
+    the shared satellite of all slumbering minds in the Dimension of Dream
+    beyond the wall of sleep. Here, the moon-beasts raise stone cities on the
+    oily shores of night-black seas found upon the dark side of the dreaming
+    moon, from which they launch long, dark galleys crewed by not-quite-human
+    slaves that sail through the void of space down to the seas of the Dimension
+    of Dream to seek new slaves and stranger, more sinister wares.
+  - >-
+    Moon-beasts are slavers, first and foremost. They use their spell-like
+    abilities to curb rebellion or to quickly gain minions, but much prefer
+    using physical and mental regimens of torment and reconditioning to break
+    the spirit of their captives. They often work with the denizens of Leng, a
+    metaphysically nearby dimension of nightmare and madness, although as often
+    as not these planar neighbors serve the moon-beasts merely as slaves.
+  - >-
+    Worshipers of ageless entities from beyond the stars, moon-beasts are often
+    compelled to travel to the Material Plane for strange and frightening
+    causes, not the least of which is gathering suitable sacrifices for their
+    mysterious and demanding lords.
+  - A moon-beast is 9 feet long and weighs 800 pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '2142'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

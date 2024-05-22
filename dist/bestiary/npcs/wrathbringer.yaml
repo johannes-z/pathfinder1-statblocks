@@ -1,0 +1,126 @@
+Name: Wrathbringer
+CR: '8'
+XP: '4800'
+Race: Fungus leshy
+Class: skald 7
+MonsterSource: Pathfinder RPG Bestiary 3 177, Pathfinder RPG Advanced Class Guide 49
+Alignment: NE
+Size: Small
+Type: plant
+SubType: (leshy, shapechanger)
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +13
+AC: 19, touch 12, flat-footed 17
+AC_Mods: (+7 armor, +2 Dex, -1 rage, +1 size)
+HP: '110'
+HD: (9d8+70)
+HP_Mods: fast healing 2
+Saves: >-
+  Fort +15, Ref +6, Will +8; +4 vs. bardic performance, language-dependent, and
+  sonic, -1 vs. anger or rage
+Fort: '15'
+Ref: '6'
+Will: '8'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic, -1 vs. anger or rage
+DefensiveAbilities: ferocity, uncanny dodge
+Immune: electricity, sonic, plant traits
+Speed: 50 ft. (45 ft. in armor)
+Melee:
+  - bite +14 (2d6+7), 2 claws +14 (1d3+7)
+Ranged:
+  - puffball +10 (1 plus spores)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  rage powers (atavism totem*, lesser atavism  totem*), raging song 17
+  rounds/day (inspired rage, song of marching, song of strength), spell kenning
+  1/day, spores
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: Constant
+      value: pass without trace
+SpellsKnown:
+  header: Skald Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (2/day)
+      value: good hope, haste
+    - label: 2nd (4/day)
+      value: >-
+        cure moderate wounds, gallant inspirationAPG (DC 16), glitterdust (DC
+        16), heroism
+    - label: 1st (5/day)
+      value: >-
+        comprehend languages, expeditious retreat, hideous laughter (DC 15),
+        remove fear, saving finaleAPG
+    - label: 0 (at will)
+      value: >-
+        dancing lights, know direction, mage hand, message, prestidigitation,
+        summon instrument
+AbilityScores:
+  - 20
+  - 15
+  - 22
+  - 9
+  - 12
+  - 18
+BaseAtk: '6'
+CMB: '10'
+CMD: '21'
+Feats:
+  - Blind-Fight
+  - Improved Natural Attack (bite)
+  - Nature's Wrath
+  - Scribe Scroll
+  - Skald's Vigor
+  - Toughness
+Skills:
+  - Acrobatics +7 (+11 when jumping)
+  - Perception +13
+  - Perform (oratory) +12
+  - Perform (percussion) +19
+  - Stealth +9 (+13 in swamps and underground)
+  - Survival +4 (+8 in swamps and underground)
+RacialMods: +4 Stealth and Survival in swamps and underground
+Languages:
+  - Druidic
+  - Sylvan
+  - plantspeech (fungi)
+SQ: >-
+  bardic knowledge +3, change shape (Small fungus; tree shape), lore master
+  1/day, rage powers, verdant burst, versatile performances (oratory,
+  percussion)
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: The Wrathbringer casts good hope and expeditious retreat.
+DuringCombat: >-
+  The Wrathbringer casts haste, uses raging song to inspire an atavistic fury in
+  his allies, and then enters melee. He uses gallant inspiration and saving
+  finale when his allies need assistance.
+Gear: >-
+  +1 black dragonhide breastplate, belt of giant strength +2, fungal slippers*,
+  mwk drums
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When the Wrathbringer is not using his inspired rage and isn't under the
+  effects of expeditious retreat and good hope, his statistics are AC 20, touch
+  13, flat-footed 18 (+7 armor, +2 Dex, +1 size); hp 101 (8d8+61); no fast
+  healing; Fort +12, Ref +4, Will +8; Speed 15 ft.; Melee bite +11 (1d8+4), 2
+  claws +11 (1d3+4); Str 18, Con 20; CMB +9; Skills Acrobatics +5 (+1 when
+  jumping), other skills all 2 lower.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8973'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

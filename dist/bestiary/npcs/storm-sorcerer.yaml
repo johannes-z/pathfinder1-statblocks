@@ -1,0 +1,111 @@
+Name: Storm Sorcerer
+CR: '5'
+XP: '1600'
+Race: elf
+Class: sorcerer 6
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '6'
+Senses:
+  - low-light vision
+  - Perception +4
+AC: 18, touch 14, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, +2 Dex, +1 dodge)
+HP: '35'
+HD: (6d6+12)
+Saves: Fort +4, Ref +5, Will +7; +2 vs. enchantments
+Fort: '4'
+Ref: '5'
+Will: '7'
+Save_Mods: +2 vs. enchantments
+Immune: sleep
+Resist: electricity 10
+Speed: 30 ft.
+Melee:
+  - spear +2 (1d8-1/x3)
+Ranged:
+  - mwk longbow +6 (1d8/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: 6/day
+      value: elemental ray (1d6+3 electricity)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 3rd (4/day)
+      value: lightning bolt (DC 17)
+    - label: 2nd (6/day)
+      value: gust of wind (DC 16), scorching ray (electricity), spectral hand
+    - label: 1st (7/day)
+      value: >-
+        burning hands (electricity; DC 15), mage armor, magic missile, obscuring
+        mist, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        acid splash (electricity), dancing lights, detect magic, light, mage
+        hand, ray of frost (electricity), read magic
+AbilityScores:
+  - 8
+  - 15
+  - 12
+  - 12
+  - 12
+  - 16
+BaseAtk: '3'
+CMB: '2'
+CMD: '16'
+Feats:
+  - Dodge
+  - Eschew Materials
+  - Improved Initiative
+  - Spell Focus (evocation)
+Skills:
+  - Fly +10
+  - Knowledge (arcana) +9
+  - Linguistics +2
+  - Perception +4
+  - Spellcraft +10 (+12 to identify magic item properties)
+Languages:
+  - Auran
+  - Common
+  - Draconic
+  - Elven
+SQ: >-
+  bloodline arcana (change energy damage spells to electricity), elven magic,
+  weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: elemental (air)
+BeforeCombat: The sorcerer casts mage armor.
+DuringCombat: >-
+  The sorcerer favors his electricity spells, casting lightning bolt or
+  scorching ray, or using his spectral hand to deliver shocking grasp attacks.
+  He prefers ranged combat, using a scroll of fly or levitate to avoid opponents
+  on the ground.
+Gear: scroll of fly, scroll of gaseous form, scroll of levitate
+OtherGear: >-
+  masterwork longbow with 20 arrows, spear, cloak of resistance +1, ring of
+  protection +1, 375 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor, the sorcerer's base statistics are AC 14, touch 14,
+  flat-footed 11.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3808'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

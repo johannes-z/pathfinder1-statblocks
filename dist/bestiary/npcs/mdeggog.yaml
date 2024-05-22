@@ -1,0 +1,142 @@
+Name: M'deggog
+CR: '15'
+XP: '51200'
+Race: Intellect devourer
+Class: sorcerer 11
+MonsterSource: Pathfinder RPG Bestiary 180
+Alignment: CE
+Size: Small
+Type: aberration
+Init: '12'
+Senses:
+  - blindsight 60 ft., detect magic
+  - Perception +31
+AC: 33, touch 20, flat-footed 24
+AC_Mods: (+4 armor, +8 Dex, +1 dodge, +5 natural, +4 shield, +1 size)
+HP: '208'
+HD: (19 HD; 8d8+11d6+129)
+Saves: Fort +12, Ref +15, Will +16
+Fort: '12'
+Ref: '15'
+Will: '16'
+DefensiveAbilities: unusual anatomy (25%)
+DR: 10/adamantine and magic
+Immune: fire, mind-affecting effects
+Resist: cold  20, electricity 20, sonic 20
+SR: '23'
+Weaknesses: vulnerability to protection from evil
+Speed: 40 ft.
+Melee:
+  - 4 claws +20 (1d4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: body thief, long limbs (+10 ft.), sneak attack +3d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +14)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At will
+      value: >-
+        confusion (DC 20, single target only), daze monster (DC 18, no HD
+        limit), inflict serious wounds (DC 19), invisibility, reduce size (as
+        reduce person but self only)
+    - label: 3/day
+      value: >-
+        cure moderate wounds, globe of invulnerability Bloodline Spell-Like
+        Abilities (CL 11th; concentration +17)
+    - label: 9/day
+      value: acidic ray (1d6+5 acid)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +17)
+  values:
+    - label: 5th (5/day)
+      value: dominate person (DC 21), feeblemind (DC 21), telekinesis
+    - label: 4th (7/day)
+      value: black tentacles, charm monster (DC 20), dimension door, wall of fire
+    - label: 3rd (7/day)
+      value: >-
+        clairaudience/clairvoyance, dispel magic, fireball (DC 19), suggestion
+        (DC 19), tongues
+    - label: 2nd (8/day)
+      value: >-
+        blur, detect thoughts (DC 18), false life, scorching ray, see
+        invisibility, spider climb
+    - label: 1st (8/day)
+      value: >-
+        alarm, enlarge person (DC 17), mage armor, magic missile, shield, true
+        strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, ghost sound (DC 16), mage hand, open/close,
+        read magic, ray of frost, resistance, touch of fatigue (DC 16)
+AbilityScores:
+  - 10
+  - 26
+  - 21
+  - 20
+  - 12
+  - 22
+BaseAtk: '11'
+CMB: '10'
+CMD: 29 (33 vs. trip)
+Feats:
+  - Combat Casting
+  - Craft Construct
+  - Dodge
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Iron Will
+  - Lightning Reflexes
+  - Silent Spell
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Bluff +36
+  - Craft (alchemy) +27
+  - Disguise +14
+  - Knowledge (dungeoneering) +27
+  - Knowledge (local) +27
+  - Perception +31
+  - Sense Motive +20
+  - Stealth +42
+  - Use Magic Device +28
+Languages:
+  - Undercommon (cannot speak)
+  - telepathy 100 ft.
+SQ: bloodline arcana
+Source: AP 40
+IsTemplate: '0'
+Bloodline: Aberrant
+BeforeCombat: >-
+  M'deggog casts false life and mage armor every day. Once the Kaava Bush-Devil
+  is slain, M'deggog prepares for combat by casting blur, shield, and see
+  invisibility.
+DuringCombat: >-
+  When not inhabiting a body, M'deggog must cast all of its sorcerer spells
+  using the Silent Spell metamagic feat. As a result, it cannot cast any of its
+  5th-level spells when it is outside a vessel. Once out of the derhii's body,
+  M'deggog uses invisibility to avoid attacks and move around the room casting
+  spells. If forced into melee combat, M'deggog uses invisibility to make sneak
+  attacks or casts inflict serious wounds using the extended reach of its long
+  limbs.
+Morale: >-
+  Although a genius, M'deggog does not recognize its fallibility and fights to
+  the death, confident that it will triumph in the end.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1058'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

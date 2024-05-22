@@ -1,0 +1,114 @@
+Name: Earth Yai
+CR: '13'
+XP: '25600'
+Race: Earth Yai
+MonsterSource: 'Pathfinder Adventure Path #53 88'
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (giant, native, oni, shapechanger)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +17
+AC: 29, touch 15, flat-footed 23
+AC_Mods: (+6 Dex, +14 natural, -1 size)
+HP: '184'
+HD: (16d10+96)
+HP_Mods: regeneration 5 (acid or fire)
+Saves: Fort +16, Ref +11, Will +14
+Fort: '16'
+Ref: '11'
+Will: '14'
+SR: '24'
+Speed: 50 ft., fly 50 ft. (good)
+Melee:
+  - greatclub +23/+18/+13/+8 (2d8+12)
+  - 2 slams +23 (1d10+8)
+Ranged:
+  - stony missile +21 (3d6 plus Awesome Blow)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: spiky skin
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +18)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: darkness, invisibility (self only), passwall (stone only)
+    - label: 3/day
+      value: spike stones (DC 16), stone shape, stone tell
+    - label: 1/day
+      value: >-
+        earthquake, repel metal or stone, transmute mud to rock (DC 17),
+        transmute rock to mud (DC 17)
+AbilityScores:
+  - 27
+  - 22
+  - 23
+  - 12
+  - 14
+  - 15
+BaseAtk: '16'
+CMB: '25'
+CMD: '41'
+Feats:
+  - Combat Reflexes
+  - Improved Precise Shot
+  - Intimidating Prowess
+  - Iron Will
+  - Pinpoint Targeting
+  - Point-Blank Shot
+  - Power Attack
+  - Precise Shot
+Skills:
+  - Bluff +21
+  - Fly +27
+  - Intimidate +29
+  - Knowledge (arcana) +20
+  - Perception +21
+  - Sense Motive +21
+  - Stealth +21 (+29 in rocky terrain)
+RacialMods: +8 Stealth in rocky terrain
+Languages:
+  - Common
+  - Giant
+SQ: change shape (Medium or Large humanoid; alter self or giant form I)
+Source: AP 54
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Spiky Skin (Ex)
+    description: >-
+      An earth yai may grow spikes from its stony skin at will as a free action.
+      These spikes are treated as armor spikes that deal 1d10 points of damage.
+  - name: Stony Missile (Su)
+    description: >-
+      As a swift action, an earth yai can fire an incredibly dense stone from
+      its third eye. This attack has a range of 200 feet, with no range
+      increment, and deals 3d6 points of bludgeoning damage. Upon striking the
+      target, the stone immediately makes an Awesome Blow attempt against the
+      target using the earth yai's CMB.
+DuringCombat: >-
+  The earth yai cast earthquake to collapse the bridge, dropping attackers into
+  the moat and burying them beneath the rubble. If enemies attempt to fly over
+  the moat, the yai cast repel metal or stone to drive them back, and fire stony
+  missiles at any remaining foes.
+Morale: >-
+  If one of the earth yai is slain, the other takes to the air and flees the
+  city.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2487'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

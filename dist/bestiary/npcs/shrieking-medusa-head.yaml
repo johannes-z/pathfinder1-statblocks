@@ -1,0 +1,77 @@
+Name: Shrieking Medusa Head
+CR: '4'
+XP: '1200'
+Race: screaming medusa heads
+MonsterSource: 'Pathfinder Adventure Path #43 83, Pathfinder RPG Bestiary 294'
+Alignment: NE
+Size: Small
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+AC: 19, touch 14, flat-footed 16
+AC_Mods: (+3 Dex, +7 natural, +1 size)
+HP: '34'
+HD: (4d8+16)
+Saves: Fort +5, Ref +4, Will +6
+Fort: '5'
+Ref: '4'
+Will: '6'
+Immune: undead traits
+Speed: fly 40 ft. (perfect)
+Melee:
+  - bite +8 (1d4+4 plus petrifying bite)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: scream
+AbilityScores:
+  - 18
+  - 16
+  - —
+  - —
+  - 15
+  - 19
+BaseAtk: '3'
+CMB: '6'
+CMD: 19 (can't be tripped)
+Feats:
+  - Flyby AttackB
+Skills:
+  - Fly +11
+Source: AP 44
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Petrifying Bite (Su)
+    description: >-
+      Creatures bitten by a shrieking medusa head must make a DC 16 Fortitude
+      save or turn to stone for 1d4 rounds. Targets immune to poison are immune
+      to this effect. The save DC is Charisma-based.
+  - name: Scream (Su)
+    description: >-
+      Once every 1d4 rounds, a shrieking medusa head can open its jaw and emit a
+      bone-chilling scream. Each creature within 30 feet must make a DC 16 Will
+      save or be shaken for 1d4 rounds. This is a sonic mind-affecting fear
+      effect. Whether or not the save is successful, an affected creature is
+      immune to the same head's scream for 24 hours.
+DuringCombat: >-
+  On the first round of combat, one of the medusa heads screams while the other
+  bites the closest opponent. They alternate screaming to affect as many foes as
+  possible while trying to turn foes to stone with their petrifying bites.
+Morale: The medusa heads fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1605'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

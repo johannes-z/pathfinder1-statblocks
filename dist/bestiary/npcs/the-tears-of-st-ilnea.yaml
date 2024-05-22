@@ -1,0 +1,100 @@
+Name: The Tears Of St. Ilnea
+CR: '14'
+XP: '38400'
+Race: water elemental
+MonsterSource: Pathfinder RPG Bestiary 169, 127
+Alignment: LG
+Size: Huge
+Type: outsider
+SubType: (elemental, extraplanar, native, water)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+AC: 31, touch 21, flat-footed 22
+AC_Mods: (+4 deflection, +8 Dex, +1 dodge, +10 natural, -2 size)
+HP: '200'
+HD: (16d10+112)
+Saves: Fort +20, Ref +22, Will +10
+Fort: '20'
+Ref: '22'
+Will: '10'
+DR: 10/-
+Immune: disease, elemental traits
+Resist: acid 10, cold 10, electricity 10
+SR: '25'
+Speed: 20 ft., fly 40 ft. (good), swim 90 ft.
+Melee:
+  - 2 slams +26 (4d8+12/19-20)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  drench, smite evil 1/day (+1 attack and AC, +16 damage), vortex (DC 30), water
+  mastery
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +17)
+  values:
+    - label: 3/day
+      value: holy aura (DC 19), protection from evil
+    - label: 1/day
+      value: >-
+        aid, bless, cure serious wounds, detect evil, dispel evil, hallow, holy
+        word (DC 18), mass charm monster (DC 19), neutralize poison, quickened
+        holy smite (DC 15), remove disease
+AbilityScores:
+  - 34
+  - 26
+  - 23
+  - 12
+  - 13
+  - 13
+BaseAtk: '16'
+CMB: +30 (+32 bull rush)
+CMD: 53 (55 vs. bull rush)
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Bull Rush
+  - Improved Critical (slam)
+  - Improved Natural Attack (slam)
+  - Power Attack
+  - Quicken Spell-Like Ability (holy smite)
+  - Toughness
+Skills:
+  - Acrobatics +27
+  - Escape Artist +27
+  - Fly +8
+  - Knowledge (planes) +20
+  - Perception +20
+  - Sense Motive +20
+  - Stealth +19
+  - Swim +39
+Languages:
+  - Aquan
+  - Celestial
+Source: AP 107
+IsTemplate: '0'
+DuringCombat: >-
+  The Tears uses detect evil at the start of anything that looks like combat to
+  ensure that those it faces are evil, but if it's attacked, it fights back,
+  starting  with holy word (a much swifter method of determining which foes are
+  evil). The Tears then casts holy aura and quickened holy smite, then moves to
+  attack foes in melee. The elemental does not pursue foes more than 30 feet
+  from the pool's outer edges.
+Morale: The Tears of St. Ilnea fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: half-celestial|
+AgeCategory: elder
+CompanionFamiliarLink: '0'
+id: '8432'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

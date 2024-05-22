@@ -1,0 +1,104 @@
+Name: Cultist of the Indomitable Sea
+CR: '5'
+XP: '1600'
+Race: Human
+Class: cleric of Dagon 3/rogue (thug) 3
+MonsterSource: Pathfinder RPG Advanced Player's Guide 135
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '7'
+Senses:
+  - Perception +8
+AC: 18, touch 13, flat-footed 15
+AC_Mods: (+4 armor, +3 Dex, +1 natural)
+HP: '51'
+HD: (6d8+21)
+Saves: Fort +8, Ref +7, Will +6
+Fort: '8'
+Ref: '7'
+Will: '6'
+DefensiveAbilities: evasion
+Speed: 30 ft.
+Melee:
+  - +1 sickle +9 (1d6+3)
+Ranged:
+  - mwk light crossbow +9 (1d8+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  brutal beating* (1 round), channel negative energy 2/day (DC 10, 2d6),
+  frightening*, sneak attack +2d6
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 3rd; concentration +5)
+  values:
+    - label: 5/day
+      value: touch of evil (1 round)
+    - label: 5/day
+      value: icicle (1d6+1 cold damage)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 3rd; concentration +5) 2nd-fog cloudD, silence (DC
+  14), spiritual weapon 1st-command (DC 13), divine favor, magic weapon,
+  obscuring mistD 0 (at will)-bleed (DC 12), create water, guidance, virtue
+SpellDomains: Evil, Water
+AbilityScores:
+  - 13
+  - 16
+  - 14
+  - 10
+  - 14
+  - 8
+BaseAtk: '4'
+CMB: '5'
+CMD: '18'
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Power Attack
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Intimidate +8
+  - Knowledge (local) +6
+  - Knowledge (religion) +8
+  - Linguistics +4
+  - Perception +8
+  - Sense Motive +8
+  - Spellcraft +6
+  - Stealth +11
+  - Swim +9
+Languages:
+  - Abyssal
+  - Common
+SQ: rogue talents (finesse rogue)
+Source: AP 46
+IsTemplate: '0'
+BeforeCombat: A cultist casts magic weapon and divine favor before combat.
+DuringCombat: >-
+  The cultists flank with one another to make sneak attacks, taking turns to use
+  their icicle spell-like abilities or cast spells such as command, spiritual
+  weapon, or silence on spellcasters.
+Morale: The fanatical cultists fight to the death.
+Gear: potion of cure moderate wounds
+OtherGear: >-
+  masterwork chain shirt, masterwork light crossbow with 10 bolts, masterwork
+  sickle, amulet of natural armor +1, cleric's vestments, gold unholy symbol of
+  Dagon (worth 50 gp), 9 gp
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: thug
+CompanionFamiliarLink: '0'
+id: '1691'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

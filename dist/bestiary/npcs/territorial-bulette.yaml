@@ -1,0 +1,88 @@
+Name: Territorial Bulette
+CR: '8'
+XP: '4800'
+Race: bulette
+MonsterSource: Pathfinder RPG Bestiary 294, 39
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+Init: '8'
+Senses:
+  - darkvision 60 ft., low-light vision, scent, tremorsense 60 ft.
+  - Perception +13
+AC: 26, touch 12, flat-footed 22
+AC_Mods: (+4 Dex, +14 natural, -2 size)
+HP: '100'
+HD: (8d10+56)
+Saves: Fort +13, Ref +10, Will +7
+Fort: '13'
+Ref: '10'
+Will: '7'
+Speed: 40 ft., burrow 20 ft.
+Melee:
+  - bite +15 (2d8+12/19-20) and 2 claws +14 (2d6+8)
+Space: 15 ft.
+Reach: 10 ft.
+SpecialAttacks: leap, savage bite
+AbilityScores:
+  - 27
+  - 19
+  - 24
+  - 2
+  - 19
+  - 10
+BaseAtk: '8'
+CMB: '18'
+CMD: 32 (36 vs. trip)
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Skill Focus (Perception)
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +11 (+19 jumping)
+  - Perception +11
+RacialMods: +4 on Acrobatics checks made to jump
+Source: PFS 8-03
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Leap (Ex)
+    description: >-
+      A bulette can perform a special kind of pounce attack by jumping into
+      combat. When a bulette charges, it can make a DC 20 Acrobatics check to
+      jump into the air and land next to its enemies. If it makes the Acrobatics
+      check, it can follow up with four claw attacks against foes in reach, but
+      cannot make a bite attack.
+  - name: Savage Bite (Ex)
+    description: >-
+      A bulette's bite is particularly dangerous. It applies 1-1/2 times its
+      Strength modifier to damage inflicted with its bite attack, and threatens
+      a critical hit on a 19-20.
+BeforeCombat: >-
+  The bulettes wait under the cave floor until the PCs are about a third of the
+  way into the cavern, then burrow up to attack.
+DuringCombat: >-
+  One of the bulettes attacks in the first round, attempting to burrow up into
+  the middle of the PCs and cause the party to split up. The second bulette
+  waits until the second round, when it bursts from the ground to attack
+  whichever PC is farthest from its mate. The bulettes prefer halfling targets
+  above all others.
+Morale: >-
+  The aggressive bulettes have little regard for their own safety and fight to
+  the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8599'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

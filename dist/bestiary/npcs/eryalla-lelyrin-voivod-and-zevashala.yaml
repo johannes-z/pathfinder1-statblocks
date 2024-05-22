@@ -1,0 +1,161 @@
+Name: Eryalla, Lelyrin, Voivod, And Zevashala
+CR: '10'
+XP: '9600'
+Race: alu-demon submissive 5
+MonsterSource: Tome of Horrors Complete 154, Plot & Poison 73
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '3'
+Senses:
+  - darkvision 120 ft.
+  - Perception +17
+AC: 23, touch 14, flat-footed 19
+AC_Mods: (+3 armor, +3 Dex, +1 dodge, +6 natural)
+HP: '124'
+HD: (11 HD; 6d10+5d10+66)
+Saves: Fort +14, Ref +13, Will +10; +5 vs. sleep and fatigue
+Fort: '14'
+Ref: '13'
+Will: '10'
+Save_Mods: +5 vs. sleep and fatigue
+DefensiveAbilities: beauty of blood, evasion, mock obedience, pain is pleasure, tirelessness
+DR: 5/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '16'
+Speed: 30 ft., fly 50 ft. (average)
+Melee:
+  - mwk ranseur +19/+14/+9 (2d4+9/x3)
+  - 2 claws +19 (1d6+6 plus vampiric claws)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: shield the mistress
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 3/day
+      value: >-
+        charm person (DC 15), detect thoughts (DC 16), disguise self (DC 15),
+        suggestion (DC 17)
+    - label: 1/day
+      value: dimension door
+AbilityScores:
+  - 22
+  - 16
+  - 21
+  - 14
+  - 13
+  - 18
+BaseAtk: '11'
+CMB: '18'
+CMD: '34'
+Feats:
+  - Dodge
+  - Endurance
+  - Great Fortitude
+  - Mobility
+  - Spring Attack
+  - Toughness
+Skills:
+  - Bluff +20
+  - Escape Artist +19
+  - Fly +19
+  - Knowledge (planes) +18
+  - Perception +17
+  - Perform (sing) +10
+  - Sense Motive +17
+  - Stealth +19
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+SQ: mistress (Delvahine), mistress said so
+Source: RotRL-AE-Sins of the Saviors
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Beauty of Blood (Ex)
+    description: >-
+      Submissives are immune to bleed damage, and take 1 fewer point of damage
+      from all slashing attacks.
+  - name: Mistress (Ex)
+    description: >-
+      The succubus Delvahine is the mistress to all four of these alu-demon
+      submissives. If any of these alu-demons ever willingly disobeys Delvahine
+      or willingly allows her to come to harm, they lose all of their
+      supernatural abilities save for their vampiric claws, and take a permanent
+      -6 penalty on all saving throws against enchantment effects. If Delvahine
+      dies, these penalties apply as well.
+  - name: Mistress Said So (Su)
+    description: >-
+      The alu-demon submissives gain a +1 morale bonus on all attack rolls,
+      saving throws, skill checks, and ability checks.
+  - name: Mock Obedience (Su)
+    description: >-
+      Any time an alu-demon submissive is affected by a charm or compulsion
+      effect, she may make a second saving throw to break its hold at any time
+      as an immediate action.
+  - name: Pain is Pleasure (Ex)
+    description: >-
+      An alu-demon submissive has damage reduction 5/&#8211; against nonlethal
+      damage.
+  - name: Shield the Mistress (Ex)
+    description: >-
+      Whenever Delvahine would be hit by a ranged attack or melee attack and the
+      alu-demon submissive is within 5 feet of Delvahine, the submissive may
+      make a DC 20 Reflex save to be hit by the attack instead. If Delvahine is
+      forced to make a Reflex save against an effect that normally allows a
+      Reflex save for half damage, the submissive may make that Reflex save
+      against the effect to take the full damage from the effect while
+      preventing any of that damage from harming the mistress. Evasion does not
+      protect the submissive from this particular damage. The submissive must be
+      aware of the attack and cannot be flat-footed in order to use this
+      ability. She can attempt to shield the mistress against up to 8 attacks
+      per round.
+  - name: Tirelessness (Ex)
+    description: >-
+      A submissive gains a +5 bonus on saving throws against sleep and fatigue
+      effects.
+  - name: Vampiric Claws (Su)
+    description: >-
+      Each time an alu-demon damages a foe with her claw attack, she gains
+      temporary hit points equal to the amount of damage she inflicted. She
+      cannot gain more hit points in one strike than her target's current hit
+      points + the target's Constitution score (which is enough to kill the
+      target). These temporary hit points vanish in 1 hour.
+Gender: Female
+DuringCombat: >-
+  The alu-demons start combat by using suggestion on heavily armored foes,
+  suggesting that those foes take off their armor and gear so the demons can
+  "get a better look at them." They then attempt to use charm person against any
+  foes who resist this initial suggestion. They avoid melee as long as they can,
+  hovering just out of reach of non-flying foes and using their ranseurs. If one
+  alu-demon is forced into melee, the others join their sister, one flanking the
+  foe and the others standing directly behind their sisters to attack with the
+  ranseur via reach so all four can attack one target at a time.
+Morale: >-
+  If reduced to fewer than 50 hit points, an alu-demon uses dimension door to
+  travel to area H7 and takes up a protective position at her mistress's side.
+  If that alu-demon has a charmed PC, she takes that PC with her when she
+  retreats. Delvahine may or may not offer her children and their new pets
+  healing.
+Gear: >-
+  masterwork ranseur, belt of mighty constitution +2, bracers of armor +3,
+  jewelry worth 8,000 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3267'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

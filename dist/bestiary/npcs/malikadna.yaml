@@ -1,0 +1,119 @@
+Name: Malikadna
+CR: '3'
+XP: '800'
+Race: human
+Class: witch 4
+MonsterSource: Pathfinder RPG Advanced Player's Guide 65
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '-1'
+Senses:
+  - Perception +7
+AC: 13, touch 9, flat-footed 13
+AC_Mods: (+4 armor, -1 Dex)
+HP: '22'
+HD: (4d6+8)
+Saves: Fort +3, Ref +0, Will +7
+Fort: '3'
+Ref: '0'
+Will: '7'
+Speed: 30 ft.
+Melee:
+  - quarterstaff -1 (1d6-3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hexes (cackle, evil eye, misfortune)
+SpellsPrepared: >-
+  Witch Spells Prepared (CL 4th; concentration +9) 2nd-hideous laughter (DC 17),
+  lesser restoration, summon monster II 1st-cause fear (DC 16), cure light
+  wounds (2), mage armor, ray of enfeeblement (DC 16) 0-dancing lights, mending,
+  message, touch of fatigue (DC 15)
+AbilityScores:
+  - 5
+  - 9
+  - 10
+  - 20
+  - 16
+  - 12
+BaseAtk: '2'
+CMB: '-1'
+CMD: '8'
+Feats:
+  - Brew Potion
+  - Great Fortitude
+  - Toughness
+Skills:
+  - Acrobatics +4
+  - Bluff +5
+  - Heal +10
+  - Intimidate +8
+  - Knowledge (arcana) +12
+  - Knowledge (religion) +9
+  - Perception +7
+  - Sense Motive +5
+  - Spellcraft +12
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Infernal
+  - Polyglot
+  - Sylvan
+SQ: witch's familiar (monkey named Thaltaki)
+Source: AP 37
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cackle (Su)
+    description: >-
+      As a move action that does not provoke an attack of opportunity, Malikadna
+      can cackle madly. Any creature within 30 feet that is under the effects of
+      her evil eye or misfortune hex has the duration of that effect extended by
+      1 round.
+  - name: Evil Eye (Su)
+    description: >-
+      As a standard action that does not provoke an attack of opportunity,
+      Malikadna can use the evil eye to cause a visible foe within 30 feet to
+      take a -2 penalty on one of the following (Malikadna's choice): AC,
+      ability checks, attack rolls, saving throws, or skill checks. This effect
+      lasts for 8 rounds. A DC 17 Will save reduces this duration to 1 round.
+      This is a mind-affecting effect.
+  - name: Misfortune (Su)
+    description: >-
+      As a standard action that does not provoke an attack of opportunity,
+      Malikadna can cause a creature within 30 feet to suffer grave misfortune
+      for 1 round. Anytime the creature makes an ability check, attack roll,
+      saving throw, or skill check, it must roll twice and take the worse
+      result. A DC 17 Will save negates this effect. A single creature cannot be
+      targeted by this ability more than once per day. Witch's Familiar A witch
+      forms a close bond with a familiar, a creature that teaches her magic and
+      helps to guide her along her path. Instead of a spellbook, Malikadna must
+      commune with her familiar each day to prepare her spells. A witch's
+      familiar otherwise functions like the wizard's arcane bond class feature.
+Gender: Female
+BeforeCombat: Malikadna casts mage armor before entering into combat.
+DuringCombat: >-
+  Malikadna prefers to avoid melee combat, instead using her spells and hexes to
+  support the cannibals in a fight. If confronted on her own, she tries to use
+  hideous laughter or cause fear to minimize attacks, but as soon as she takes
+  damage, she uses her wand of vampiric touch to damage foes and heal her own
+  damage.
+Morale: Malikadna fights to the death.
+Gear: wand of vampiric touch (8 charges)
+OtherGear: quarterstaff
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: old
+CompanionFamiliarLink: '0'
+id: '903'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

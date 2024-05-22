@@ -1,0 +1,128 @@
+Name: Goti Runecaster
+CR: '7'
+XP: '3200'
+Race: half-troll spriggan
+Class: sorcerer 5
+MonsterSource: Advanced Bestiary 143, Pathfinder RPG Bestiary 2 257
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (giant, gnome)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +8
+AC: 21, touch 12, flat-footed 19
+AC_Mods: (+4 armor, +2 Dex, +1 natural, +4 shield)
+HP: '76'
+HD: (9 HD; 4d8+5d6+41)
+HP_Mods: fast healing 2
+Saves: Fort +10, Ref +4, Will +5
+Fort: '10'
+Ref: '4'
+Will: '5'
+DefensiveAbilities: rock catching
+Resist: acid 10
+Speed: 30 ft.
+Melee:
+  - mwk heavy pick +10 (1d6+4/x4)
+Ranged:
+  - mwk heavy crossbow +8 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: rock throwing (60 ft.), sneak attack +2d6
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 5th; concentration +7)
+  values:
+    - label: 5/day
+      value: >-
+        elemental ray (1d6+2 acid) Spriggan Spell-Like Abilities (CL 4th;
+        concentration +7)
+    - label: At Will
+      value: flare (DC 13), scare (DC 15), shatter (DC 15)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +7)
+  values:
+    - label: 2nd (5/day)
+      value: acid arrow, create pit* (DC 14), scorching ray (acid)
+    - label: 1st (7/day)
+      value: burning hands (acid; DC 13), mage armor, magic missile, shield, vanish*
+    - label: 0 (at will)
+      value: >-
+        acid splash, daze (DC 12), detect magic, detect poison, read magic,
+        spark*
+AbilityScores:
+  - 18
+  - 14
+  - 16
+  - 13
+  - 10
+  - 14
+BaseAtk: '5'
+CMB: '9'
+CMD: '21'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Eschew Materials
+  - Great Fortitude
+  - Martial Weapon Proficiency (heavy pick)
+  - Toughness
+Skills:
+  - Climb +6
+  - Craft (alchemy) +9
+  - Disable Device +4
+  - Intimidate +7
+  - Knowledge (arcana) +9
+  - Linguistics +3
+  - Perception +8
+  - Sleight of Hand +4
+  - Spellcraft +9
+  - Stealth +4
+  - Use Magic Device +8
+Languages:
+  - Aklo
+  - Common
+  - Giant
+  - Gnome
+  - Skald
+SQ: >-
+  bloodline arcana (change energy damage spells to acid), size alteration,
+  spriggan magic, spriggan skills
+Source: AP 50
+IsTemplate: '0'
+Gender: Male
+Bloodline: Elemental (earth)
+BeforeCombat: Goti casts mage armor and shield before combat.
+DuringCombat: >-
+  On the first round of combat, Goti drinks his potion of eagle's splendor
+  (thereby increasing the save DCs of his spells). He attacks opponents with
+  spells for as long as possible. In melee combat, Goti uses Arcane Strike to
+  make his pick magical and increase its damage, and maneuvers to make sneak
+  attacks against foes.
+Morale: >-
+  If reduced to fewer than 15 hit points, Goti uses his fugitive's grenade to
+  flee. He may return at a later time to continue harassing the party. If
+  cornered and unable to escape, Goti uses his size alteration ability to change
+  his size to Large and renews his attacks on his foes, fighting to the death.
+Gear: >-
+  fugitive's grenade (see page 60), potion of eagle's splendor, scroll of
+  animate dead, wand of command undead (11 charges), deathblade poison (1 dose)
+OtherGear: masterwork heavy crossbow with 20 bolts, masterwork heavy pick
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without his spells, Goti's statistics are AC 13, touch 12, flat-footed 11.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1880'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

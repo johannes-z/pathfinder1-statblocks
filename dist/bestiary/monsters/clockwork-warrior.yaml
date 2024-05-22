@@ -1,0 +1,94 @@
+Name: Clockwork Warrior
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '-2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception -1
+AC: 14, touch 8, flat-footed 14
+AC_Mods: (-2 Dex, +6 natural)
+HP: '42'
+HD: (4d10+20)
+HP_Mods: self-repair 3 (acid, cold, fire)
+Saves: Fort +1, Ref -1, Will +0
+Fort: '1'
+Ref: '-1'
+Will: '0'
+Immune: construct traits
+Speed: 20 ft.
+Melee:
+  - 2 slams +8 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 18
+  - 6
+  - —
+  - —
+  - 8
+  - 10
+BaseAtk: '4'
+CMB: '8'
+CMD: '16'
+Environment: any
+Organization: squad (2-12)
+Treasure: none
+Description_Visual: >-
+  This creature appears as man-sized automaton with oversized hands and a stiff,
+  shambling gait.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Repair (Ex)
+    description: >-
+      A clockwork warrior regains 3 hit points per round. Damage dealt from
+      acid, cold, or fire effects cannot be self-repaired. If reduced to 0 or
+      less hit points, it regains 1 hit point per round (but still cannot repair
+      damage caused by acid, cold, or fire effects).
+Description:
+  - >-
+    Clockwork warriors are constructed from a wide range of materials but take
+    the same general form of a 6-foot tall humanoid. In battle, clockwork
+    warriors rely on relentless waves of attacks to overwhelm their foes. They
+    are far too slow to engage faster units and generally serve as the primary
+    defensive troops for a clockwork colony. Clockwork warriors are usually
+    formed of cast-off equipment and detritus scavenged from battlefields.
+  - >-
+    They all feature a "nervous system" of thin steel wires that controls their
+    individual pieces. Tiny clockworks that look much like metallic cockroaches
+    infest the warrior, working to repair damage sustained by this construct.
+    Acid, fire, and cold effects destroy these maintenance clockworks thus
+    preventing the warrior from repairing. Unlike clockwork swarms (see below),
+    the clockworks that repair the warrior lack the intelligence and
+    sophistication to tackle any other task.
+  - >-
+    When facing an enemy, clockwork warriors typically move forward and attempt
+    to immobilize and kill quickly dispatch their foes. Warriors are designed to
+    take advantage of their great strength, often utilizing grapple and bull
+    rush attacks to overwhelm foes.
+  - >-
+    Credit Clockworks and the Brain Gear first appeared in G1 Siege of Durgam's
+    Folly by Mike Mearls (©2001, Necromancer Games, Inc.).
+  - Copyright Notice Authors Mike Mearls and Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2318'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

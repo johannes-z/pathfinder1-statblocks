@@ -1,0 +1,85 @@
+Name: Ubashki Lynx
+CR: '6'
+XP: '2400'
+Race: Ubashki Lynx
+MonsterSource: 'Pathfinder Campaign Setting: Lost Kingdoms 20'
+Alignment: NE
+Size: Large
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 17, touch 12, flat-footed 14
+AC_Mods: (+3 Dex, +5 natural, -1 size)
+HP: '60'
+HD: (8d8+24)
+Saves: Fort +4, Ref +7, Will +7
+Fort: '4'
+Ref: '7'
+Will: '7'
+Immune: undead traits
+Weaknesses: vulnerable to fire
+Speed: 30 ft.
+Melee:
+  - bite +11 (2d6+5 plus ubashki rot), 2 claws +10 (1d8+5)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: piercing howl, rake (2 claws +10, 1d8+5)
+AbilityScores:
+  - 21
+  - 17
+  - —
+  - 2
+  - 12
+  - 15
+BaseAtk: '6'
+CMB: '12'
+CMD: 25 (29 vs. trip)
+Feats:
+  - Improved Initiative
+  - Lightning Reflexes
+  - Toughness
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +9
+  - Climb +10
+  - Perception +6
+  - Stealth +8
+RacialMods: +4 Acrobatics, +4 Stealth
+Source: AP 81
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Piercing Howl (Su)
+    description: >-
+      When an ubashki lynx howls, all creatures except other undead within a
+      300-foot spread must succeed at a DC 16 Will save or be frightened for 1d4
+      rounds. This is a sonic, mind-affecting effect. Whether or not the save is
+      successful, an affected creature is immune to the same ubashki lynx's
+      piercing howl for 24 hours. The save DC is Charisma-based.
+  - name: Ubashki Rot (Su)
+    description: >-
+      Curse and disease-bite; save Fort DC 16; onset 1 hour; frequency 1/day;
+      effect 1d6 Str and 1d6 Wis; cure &#8211;. Ubashki rot is both a curse and
+      a disease and can only be cured if the curse is first removed, at which
+      point the disease can be magically removed. Even after the curse element
+      of ubashki rot is lifted, a creature suffering from it cannot recover
+      naturally over time. Anyone casting a conjuration (healing) spell on the
+      afflicted creature must succeed at a DC 20 caster level check, or the
+      spell is wasted and the healing has no effect. The save DC is
+      Charisma-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6026'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

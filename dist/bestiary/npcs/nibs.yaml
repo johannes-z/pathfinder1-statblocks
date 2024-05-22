@@ -1,0 +1,146 @@
+Name: Nibs
+CR: '14'
+XP: '38400'
+Race: gnome
+Class: druid (urban druid) 13
+MonsterSource: Pathfinder RPG Bestiary 2 286, Pathfinder RPG Advanced Player's Guide 101
+Alignment: NE
+Size: Small
+Type: vermin
+SubType: (augmented humanoid, gnome)
+Init: '8'
+Senses:
+  - blindsight 30 ft., darkvision 60 ft., low-light vision
+  - Perception +31
+AC: 24, touch 20, flat-footed 20
+AC_Mods: (+4 armor, +4 Dex, +5 insight, +1 size)
+HP: '153'
+HD: (13d8+91)
+HP_Mods: fast healing 14
+Saves: >-
+  Fort +15, Ref +12, Will +15; +2 vs. illusions, divinations, and enchantment
+  effects
+Fort: '15'
+Ref: '12'
+Will: '15'
+Save_Mods: +2 vs. illusions, divinations, and enchantment effects
+DefensiveAbilities: defensive training, worm that walks traits
+DR: 15/-
+Immune: charm, compulsion, critical hits, disease, flanking, paralysis, poison, sleep
+Speed: 20 ft.
+Melee:
+  - slam +14 (1d4 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  discorporate, grab (Medium), hatred, squirming embrace, tenacious, warding
+  rune (6 rounds, DC 21), wild shape 3/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 13th; concentration +18)
+  values:
+    - label: 8/day
+      value: >-
+        blast rune (1d6+6 energy damage, 13 rounds) Gnome Spell-Like Abilities
+        (CL 13th; concentration +13)
+    - label: 1/day
+      value: dancing lights, ghost sound, prestidigitation, speak with animals
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 13th; concentration +18)  7th-creeping doom (DC 23),
+  lesser planar bindingD  6th-fire seeds, guards and wardsD, wall of stone 
+  5th-baleful polymorph (DC 20), fire snakeAPG (DC 20), insect plague, lesser
+  planar bindingD (DC 21), wall of thorns  4th-air walk, dimensional anchorD,
+  dispel magic, flame strike (DC 19), freedom of movement, rusting grasp 
+  3rd-burrowUM (DC 18), glyph of wardingD, greater magic fang, meld into stone,
+  poison (2, DC 18)  2nd-aspect of the bearAPG, barkskin, bull's strength, fog
+  cloud, resist energy, secret pageD  1st-arcane lockD, decompose corpseUM (DC
+  16), feather stepAPG (DC 16), longstrider, pass without trace, produce flame,
+  ray of sickeningUM (DC 16)  0 (at will)-detect magic, purify food and drink
+  (DC 15), read magic, sparkAPG (DC 15)
+SpellDomains: Rune (WardsAPG subdomain)
+AbilityScores:
+  - 10
+  - 18
+  - 21
+  - 10
+  - 20
+  - 10
+BaseAtk: '9'
+CMB: +8 (+16 grapple)
+CMD: '31'
+Feats:
+  - Combat Casting
+  - DiehardB
+  - Improved Initiative
+  - Lightning Reflexes
+  - Natural Spell
+  - Scribe Scroll
+  - Spell Focus (conjuration)
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Climb +10
+  - Diplomacy +2
+  - Knowledge (history
+  - local
+  - nature) +8
+  - Perception +31
+  - Profession (librarian) +13
+  - Sense Motive +13
+  - Spellcraft +16
+  - Stealth +20
+  - Survival +13
+RacialMods: +10 Perception, +2 Profession (librarian), +8 Sense Motive, +8 Stealth
+Languages:
+  - Common
+  - Druidic
+  - Gnome
+  - Sylvan
+SQ: >-
+  a thousand faces, lorekeeper, nature sense, resist temptation, wild empathy
+  +13
+Source: AP 131
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ravenous Appetite (Ex)
+    description: >-
+      Nibs can consume leather, paper, parchment, and wood at a phenomenal rate.
+      Her natural attacks and swarm damage ignore the first 5 points of hardness
+      on such materials. Each round she deals swarm damage to a creature, she
+      can attempt a special grapple combat maneuver against that creature as a
+      free action. If successful, she deals her swarm damage to one book,
+      scroll, or similar object in that creature's possession, selected at
+      random.
+Gender: Female
+BeforeCombat: >-
+  When Nibs first hears trouble, she casts barkskin, burrow, freedom of
+  movement, greater magic fang, pass without trace, and resist energy (fire) on
+  herself. She then lays a blast rune just north of the stairwell door and
+  another four blast runes throughout the room.
+DuringCombat: >-
+  Nibs activates her warding rune on the first creature that triggers a blast
+  rune. She delights in flooding the stairs with vermin, such as with creeping
+  doom and insect plague. Otherwise she uses her spells to blast foes and grabs
+  hold of spellcasters to consume their scrolls.
+Morale: >-
+  If reduced to 40 hit points or clearly outclassed, Nibs leaps out the window
+  and tries to burrow to safety.
+Gear: >-
+  +2 leather armor, belt of mighty constitution +2, cloak of resistance +2,
+  headband of inspired wisdom +2, sapphire worth 1,000 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: worm that walks|
+AgeCategory: Adult
+ClassArchetypes: urban druid
+CompanionFamiliarLink: '0'
+id: '11818'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,154 @@
+Name: Nightmare Owb
+CR: '7'
+XP: '3200'
+Race: Nightmare Owb
+MonsterSource: Pathfinder RPG Bestiary 4 204, 210
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar);
+Init: '12'
+Senses:
+  - darkvision 120 ft., see in darkness
+  - Perception +13
+Aura: fear aura (60-foot radius ft., DC 19), frightful presence (30 ft., DC 19)
+AC: 19, touch 19, flat-footed 10
+AC_Mods: (+8 Dex, +1 dodge)
+HP: '76'
+HD: (8d10+32)
+HP_Mods: regeneration 5 (good spells and weapons, silver)
+Saves: Fort +10, Ref +10, Will +8; +4 vs. illusion.
+Fort: '10'
+Ref: '10'
+Will: '8'
+Save_Mods: +4 vs. illusion.
+DR: 5/good or silver
+Immune: cold
+Weaknesses: light sensitivity
+Speed: 5 ft., fly 60 ft. (perfect)
+Melee:
+  - 2 claws +12 (1d8+4 plus 1d6 cold)
+Ranged:
+  - burning cold +16 (3d6 cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: burning cold, curse of darkness, night terrors
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +13)
+  values:
+    - label: Constant
+      value: blur, protection from good
+    - label: At Will
+      value: deeper darkness, detect thoughts (DC 17), dust of twilightAPG (DC 17)
+    - label: 5/day
+      value: shadow stepAPG
+    - label: 3/day
+      value: dream, nightmare (DC 20), suggestion (DC 18)
+    - label: 1/day
+      value: plane shift (self only, to or from the Shadow Plane only), shadow walk
+AbilityScores:
+  - 18
+  - 26
+  - 19
+  - 13
+  - 15
+  - 20
+BaseAtk: '8'
+CMB: '12'
+CMD: '32'
+Feats:
+  - Dodge
+  - Flyby Attack
+  - Improved Initiative
+  - Point-Blank Shot
+Skills:
+  - Bluff +14
+  - Diplomacy +13
+  - Fly +20
+  - Intimidate +13
+  - Knowledge (planes) +12
+  - Perception +13
+  - Sense Motive +13
+  - Spellcraft +12
+  - Stealth +23
+RacialMods: +4 Intimidate, +4 Stealth
+Languages:
+  - Dark Folk (can't speak)
+  - telepathy 100 ft.
+SQ: feign death (DC 19)
+Source: PFS S5-99
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Burning Cold (Su)
+    description: >-
+      As a standard action, an owb can conjure a ball of flickering flames and
+      hurl it at an opponent. The flames can be thrown as a ranged touch attack
+      at a range of 120 feet with no range increment, and deal 3d6 points of
+      cold damage.
+  - name: Curse of Darkness (Su)
+    description: >-
+      With a touch, an owb can make bright light unbearable to the victim. Any
+      creature touched must succeed at a DC 19 Fortitude save or gain the light
+      blindness weakness. This ability also robs the victim of its coloration,
+      leaving the creature and its equipment in washed-out shades of gray. This
+      effect can be removed with break enchantment or remove curse, unless the
+      target has the dark folk subtype, in which case the effect can only be
+      removed by wish or similar magic. The save DC is Charisma-based.
+  - name: Feign Death (Ex)
+    description: >-
+      Whenever a nightmare creature is unconscious, it appears dead. A conscious
+      nightmare creature can also make itself appear dead as an immediate
+      action. Any creature that physically interacts with a nightmare creature
+      feigning death must succeed at a DC 19 Heal check or Will saving throw to
+      recognize it is actually alive.
+  - name: Illusion Resistance (Ex)
+    description: >-
+      A nightmare creature automatically disbelieves illusions (no saving throw
+      required) and has a +4 bonus on saving throws to resist illusion effects.
+  - name: Frightful Presence (Su)
+    description: >-
+      This ability activates when the nightmare creature charges, attacks during
+      a surprise round, or succeeds at a DC 15 Intimidate or Perform check. Its
+      frightful presence has a range of 30 feet.
+  - name: Fear Aura (Su)
+    description: >-
+      All creatures within a 60-foot radius that see or hear a nightmare
+      creature must succeed at a Will save or be shaken for as long as they are
+      within the aura. Whether or not the save is successful, that creature
+      cannot be affected again by the same nightmare creature's fear aura for 24
+      hours. This is a mind-affecting fear affect.
+  - name: Night Terrors (Su)
+    description: >-
+      Once a nightmare owb enters a target's mind with its dream or nightmare
+      spell-like ability, it can attempt to control the target's dream. If the
+      target fails a Will saving throw, it remains asleep and trapped in the
+      dream world with the nightmare creature. Thereafter, the nightmare
+      creature controls all aspects of the dream. Each hour that passes, the
+      target can attempt another saving throw to try to awaken (it automatically
+      awakens after 8 hours or if the nightmare creature releases it). The
+      target takes 1d4 points of Charisma damage each hour it is trapped in the
+      dream; if it takes any Charisma damage, it is fatigued and unable to
+      regain arcane spells for the next 24 hours. The target dies if this
+      Charisma damage equals or exceeds its actual Charisma score.
+DuringCombat: >-
+  The owb uses its spell-like abilities to extinguish the PCs' light sources and
+  attack from the cover of darkness.
+Morale: >-
+  If reduced to 20 or fewer hit points, the owb retreats to heal its wounds
+  before attacking again. If the PCs do not seem impeded by darkness, it instead
+  fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8154'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

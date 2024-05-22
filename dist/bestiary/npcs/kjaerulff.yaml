@@ -1,0 +1,120 @@
+Name: Kjaerulff
+CR: '8'
+XP: '4800'
+Race: frost giant
+Class: sorcerer 2
+MonsterSource: Pathfinder RPG Bestiary 149
+Alignment: CE
+Size: Large
+Type: humanoid
+SubType: (cold, giant)
+Init: '-3'
+Senses:
+  - low-light vision
+  - Perception +23
+AC: 19, touch 6, flat-footed 19
+AC_Mods: (+4 armor, -3 Dex, +9 natural, -1 size)
+HP: '86'
+HD: (16 HD; 14d8+2d6+16)
+Saves: Fort +10, Ref +1, Will +11
+Fort: '10'
+Ref: '1'
+Will: '11'
+DefensiveAbilities: rock catching
+Immune: cold
+Weaknesses: venerable, vulnerable to fire
+Speed: 40 ft.
+Melee:
+  - greataxe +16/+11/+6 (3d6+9/3)
+  - 2 slams +16 (1d8+6)
+Ranged:
+  - rock +8 (1d8+9)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rock throwing (120 ft.)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 2nd; concentration +6)
+  values:
+    - label: 7/day
+      value: cold steel* (1 round)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 2nd; concentration +6)
+  values:
+    - label: 1st (5/day)
+      value: enlarge person, mage armor, obscuring mist
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, ray of frost, read magic
+AbilityScores:
+  - 22
+  - 5
+  - 12
+  - 17
+  - 19
+  - 18
+BaseAtk: '11'
+CMB: +18 (+22 overrun)
+CMD: 25 (27 vs. overrun)
+Feats:
+  - Arcane Strike
+  - Blind-Fight
+  - Charge Through*
+  - Eschew Materials
+  - Greater Overrun
+  - Improved Overrun
+  - Intimidating Prowess
+  - Martial Weapon Proficiency (greataxe)
+  - Power Attack
+Skills:
+  - Bluff +15
+  - Climb +15
+  - Intimidate +29
+  - Knowledge (arcana) +16
+  - Perception +23
+  - Spellcraft +16
+  - Stealth +9 (+13 in snow)
+Languages:
+  - Common
+  - Draconic
+  - Erutaki
+  - Giant
+  - Hallit
+Source: AP 51
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Venerable (Ex)
+    description: >-
+      Kjaerulff is of venerable age. The resulting adjustments to his ability
+      scores decreases his CR by -2.
+Gender: Male
+Bloodline: Boreal*
+BeforeCombat: Kjaerulff casts mage armor before confronting any strangers.
+DuringCombat: >-
+  Kjaerulff casts obscuring mist over his opponents, then charges into combat to
+  overrun foes with his Charge Through feat. He uses Arcane Strike and cold
+  steel to make his axe into a +1 frost greataxe, focusing his attacks on
+  spellcasters. If disarmed, he uses his wand of elemental touch to make cold
+  attacks with his slams.
+Morale: >-
+  If reduced to fewer than 40 hit points, Kjaerulff casts enlarge person and
+  uses Power Attack. He pursues enemies until they are in sight of the road but
+  does not follow them onto it. As long as intruders are trespassing in the
+  barrow-lands, he never surrenders, fighting to the death to protect this
+  sacred ground.
+Gear: scroll of ventriloquism, wand of elemental touch* (12 charges)
+OtherGear: greataxe, gold-plated astrolabe (worth 500 gp)
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: venerable
+CompanionFamiliarLink: '0'
+id: '1896'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

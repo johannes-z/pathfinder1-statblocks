@@ -1,0 +1,101 @@
+Name: Mole
+CR: '5'
+XP: '1600'
+Race: Human
+Class: bard 6
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +8
+AC: 16, touch 12, flat-footed 16
+AC_Mods: (+4 armor, +2 Dex)
+HP: '37'
+HD: (6d8+6)
+Saves: >-
+  Fort +4, Ref +8, Will +5 (+3 vs. mind-affecting); +4 vs. bardic performance,
+  language-dependent, and sonic
+Fort: '4'
+Ref: '8'
+Will: +5 (+3 vs. mind-affecting)
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - +1 rapier +7 (1d6+1/18-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 17 rounds/day (countersong, distraction, fascinate [DC 16],
+  inspire competence +2, inspire courage +2, suggestion [DC 16])
+SpellsKnown:
+  header: Bard Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 2nd (4/day)
+      value: >-
+        anonymous interactionACG (DC 15), detect thoughts (DC 15), honeyed
+        tongueAPG, misdirection
+    - label: 1st (5/day)
+      value: >-
+        charm person (DC 14), disguise self, heightened awarenessACG,
+        innocenceAPG
+    - label: 0 (at will)
+      value: >-
+        detect magic, ghost sound (DC 13), light, lullaby (DC 13), mage hand,
+        message
+AbilityScores:
+  - 10
+  - 14
+  - 13
+  - 14
+  - 8
+  - 16
+BaseAtk: '4'
+CMB: '4'
+CMD: '16'
+Feats:
+  - Skill Focus (Perform [sing])
+  - Steadfast Personality
+  - Stealthy
+  - Weapon Finesse
+Skills:
+  - Diplomacy +14
+  - Disguise +12
+  - Escape Artist +13
+  - Knowledge (nobility) +14
+  - Linguistics +11
+  - Perception +8
+  - Perform (dance) +12
+  - Perform (sing) +15
+  - Sleight of Hand +11
+  - Stealth +13
+Languages:
+  - Common
+  - Dwarven
+  - Elven
+  - Gnoll
+  - Gnome
+  - Goblin
+  - Halfling
+  - Orc
+  - Undercommon
+SQ: bardic knowledge +3, lore master 1/day, versatile performances (dance, sing)
+Source: Villain Codex
+IsTemplate: '0'
+Gear: mithral chain shirt, +1 rapier, cloak of resistance +1, scroll of geomessage*
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '9057'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

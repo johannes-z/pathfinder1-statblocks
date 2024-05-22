@@ -1,0 +1,138 @@
+Name: Candlestone Courtier
+CR: '12'
+XP: '19200'
+Alignment: NE
+Size: Medium
+Type: fey
+Init: '9'
+Senses:
+  - low-light vision, see in darkness
+  - Perception +25
+AC: 26, touch 20, flat-footed 16
+AC_Mods: (+9 Dex, +1 dodge, +4 natural, +2 shield)
+HP: '161'
+HD: (19d6+95)
+Saves: Fort +11, Ref +20, Will +14
+Fort: '11'
+Ref: '20'
+Will: '14'
+DR: 10/cold iron
+SR: '23'
+Speed: 30 ft.
+Melee:
+  - +1 keen rapier +20/+15 (1d6+4/15-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: spellthrust
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 19th; concentration +25)
+  values:
+    - label: Constant
+      value: misdirection, see invisibility
+    - label: At Will
+      value: >-
+        disfiguring touchUM (DC 18), disguise self, faerie fire, touch of
+        idiocy, whispering wind
+    - label: 3/day
+      value: excruciating deformationUM (DC 19), major image (DC 19), sands of timeUM
+    - label: 1/day
+      value: ethereal jaunt, phantom steed, shadow walk
+AbilityScores:
+  - 16
+  - 29
+  - 20
+  - 16
+  - 17
+  - 23
+BaseAtk: '9'
+CMB: +12 (+16 trip)
+CMD: 32 (34 vs. trip)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Dodge
+  - Greater Trip
+  - Improved Trip
+  - Mobility
+  - Spring Attack
+  - Weapon Finesse
+  - Weapon Focus (rapier)
+  - Whirlwind Attack
+Skills:
+  - Acrobatics +30
+  - Bluff +27
+  - Diplomacy +15
+  - Disguise +20
+  - Escape Artist +20
+  - Knowledge (dungeoneering
+  - history
+  - local
+  - nature
+  - nobility
+  - planes) +10
+  - Perception +25
+  - Perform (dance) +15
+  - Sense Motive +15
+  - Sleight of Hand +15
+  - Stealth +30
+  - Use Magic Device +28
+Languages:
+  - Aklo
+  - Common
+  - Sylvan
+  - Terran
+  - Undercommon
+SQ: fey bargain
+Environment: any underground (Darklands)
+Organization: solitary, pair, or delegation (3-6)
+Treasure: standard (+1 keen rapier, +1 buckler, other treasure)
+Description_Visual: >-
+  This willowy, lavender-skinned stranger looks like he is dressed for an
+  extravagant ball, and carries himself with a dancer's grace.
+Source: Andoran Birthplace Of Freedom
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fey Bargain (Su)
+    description: >-
+      Once per week, a Candlestone courtier can grant a limited wish or a
+      permanent +2 inherent bonus to one ability score. In exchange, the
+      bargainer is cursed to be carried off in its dreams each night by the
+      courtier to a never-ending fey ball that, while pleasant as often as not,
+      affects the dreamer as nightmare, requiring a saving throw each night
+      (Will DC 21 negates). The DC to remove this curse is reduced by 4 if the
+      courtier is killed, and a successful coup de grace on the courtier with a
+      cold iron weapon automatically ends the curse. Ending the curse also ends
+      any noninstantaneous effects of the bargain. A creature can have only one
+      fey bargain at a time.
+  - name: Spellthrust (Su)
+    description: >-
+      When a courtier threatens a critical hit, it can trigger a spell-like
+      ability with a range of touch against the target. If the critical hit is
+      confirmed, the target must save twice, using the lower result.
+Description:
+  - >-
+    Candlestone courtiers are emissaries of Queen Frilogarma and the Court of
+    Ether. Venturing up from their Darklands domain, they make deals to the
+    benefit of their queen, forge secret alliances with citizens of foreign
+    lands, and inveigle mortals into endless revels in the inverted fey city
+    while sapping the vitality of their victims to sate their alien appetites.
+    Candlestone courtiers prefer to employ trickery and extortion over direct
+    violence, but don't shy away from a fight if it is the fastest way to get
+    what they want.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6920'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

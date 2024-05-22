@@ -1,0 +1,94 @@
+Name: Bonepick
+CR: '4'
+XP: '1200'
+Race: wikkawak
+MonsterSource: 'Pathfinder Campaign Setting: Classic Monsters Revisited 8'
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid)
+Init: '3'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +12
+AC: 19, touch 13, flat-footed 16
+AC_Mods: (+3 armor, +3 Dex, +3 natural)
+HP: '39'
+HD: (6d8+12)
+Saves: Fort +4, Ref +8, Will +3
+Fort: '4'
+Ref: '8'
+Will: '3'
+Resist: cold 5
+Speed: 30 ft.
+Melee:
+  - ogre hookUE +9 (1d10+7/x3)
+Ranged:
+  - javelin +7 (1d6+5)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +5)
+  values:
+    - label: At Will
+      value: pass without trace (self only)
+    - label: 3/day
+      value: quench
+AbilityScores:
+  - 20
+  - 17
+  - 15
+  - 12
+  - 13
+  - 12
+BaseAtk: '4'
+CMB: '9'
+CMD: '22'
+Feats:
+  - Intimidating Prowess
+  - Nimble Moves
+  - Power Attack
+Skills:
+  - Climb +9
+  - Intimidate +12
+  - Perception +12
+  - Stealth +16
+  - Survival +8
+RacialMods: +4 Perception, +4 Stealth
+Languages:
+  - Giant
+  - Goblin
+  - Skald
+SQ: thuggery
+Source: AP 68
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Thuggery (Ex)
+    description: Intimidate and Stealth are always class skills for wikkawaks.
+Gender: Male
+DuringCombat: >-
+  Bonepick casts quench to extinguish any light sources that opponents are
+  carrying, then attacks enemies with his ogre hook. He focuses his assault on
+  the weakest-looking foes, alternating his attacks with Intimidate checks to
+  demoralize his opponents.
+Morale: >-
+  A loner by nature, Bonepick does not seek help from the ice trolls and fights
+  to the death.
+Gear: >-
+  mwk studded leather, javelins (3), ogre hookUE, necklace of severed fingers,
+  75 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4313'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

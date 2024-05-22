@@ -1,0 +1,130 @@
+Name: Apparition
+CR: '7'
+XP: '3200'
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '6'
+Senses:
+  - darkvision 60 ft., lifesense
+  - Perception +14
+Aura: unnatural aura (30 ft.)
+AC: 15, touch 15, flat-footed 13
+AC_Mods: (+2 Dex, +3 deflection)
+HP: '52'
+HD: (7d8+21)
+Saves: Fort +5, Ref +4, Will +8
+Fort: '5'
+Ref: '4'
+Will: '8'
+DefensiveAbilities: incorporeal, channel resistance +2
+Immune: undead traits
+Weaknesses: resurrection vulnerability, sunlight powerlessness
+Speed: fly 60 ft. (perfect)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, spectral strangulation
+AbilityScores:
+  - —
+  - 14
+  - —
+  - 10
+  - 13
+  - 16
+BaseAtk: '5'
+CMB: '7'
+CMD: '20'
+Feats:
+  - Blind-Fight
+  - Improved Initiative
+  - Iron Will
+  - Skill Focus (Perception)
+Skills:
+  - Fly +10
+  - Intimidate +13
+  - Knowledge (religion) +10
+  - Perception +14
+  - Stealth +12
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: standard
+Description_Visual: >-
+  This translucent and skeletal creature is clothed in tattered rags. Its eyes
+  burn with a crimson light.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      A humanoid slain by an apparition becomes an apparition itself in 1d4
+      rounds. Spawn so created are less powerful than typical apparitions, and
+      suffer a -2 penalty on all d20 rolls and checks. They also receive -2 hp
+      per HD, and a -2 penalty to the Will save DC of their spectral
+      strangulation ability. Spawn are under the command of the apparition that
+      created them and remain enslaved until its death, at which point they lose
+      their spawn penalties and become full-fledged and free-willed apparitions.
+      They do not possess any of the abilities they had in life.
+  - name: Resurrection Vulnerability (Su)
+    description: >-
+      A raise dead or similar spell cast on an apparition destroys it (Will
+      negates). Using the spell in this way does not require a material
+      component.
+  - name: Spectral Strangulation (Su)
+    description: >-
+      An apparition attacks an opponent by implanting a suggestion in the
+      victim's mind, convincing it that it is being strangled by the
+      apparition's bony claws. The apparition must be on the same plane as the
+      target creature to use this ability. The target of the spectral
+      strangulation feels the bony, claw-like fingers of the apparition at its
+      throat-even through armor. The target must succeed on a DC 16 Will save to
+      disbelieve the suggestion. A creature that successfully saves cannot be
+      affected again by the same apparition's suggestion for one day. On a
+      failed save, the victim must immediately succeed on a DC 16 Fortitude save
+      or die from fright due to heart failure. If the Fortitude save succeeds,
+      the victim acts as if affected by a fear spell for 1d4 rounds. A creature
+      protected by magic circle against evil or protection from evil cannot be
+      affected by an apparition's spectral strangulation. This is a
+      mind-affecting fear effect. The save DCs are Charisma-based.
+  - name: Sunlight Powerlessness (Ex)
+    description: >-
+      Apparitions on the Material Plane are utterly powerless in natural
+      sunlight (not merely a daylight spell) and flee from it. An apparition
+      caught in sunlight cannot attack and is staggered.
+Description:
+  - >-
+    Apparitions are undead spirits of creatures that died as the result of an
+    accident. The twist of fate that ended their life prematurely has driven
+    them totally and completely to the side of evil. An apparition is often
+    mistaken for a ghost or spectre. Apparitions hate all living creatures and
+    attack them on sight. Apparitions are ethereal creatures and they exist
+    mainly on the Ethereal Plane.
+  - An apparition looks much like it did in life.
+  - >-
+    An apparition has no physical attacks and attacks by fear alone. By
+    implanting a suggestion in a victim's mind, it attempts to actually scare
+    the life out of its opponent. Once the apparition selects a target, it uses
+    its spectral strangulation ability. If overpowered or if it fails in its
+    attempt to slay a living creature, the apparition flees back to the Ethereal
+    Plane.
+  - >-
+    Credit The Apparition originally appeared in the First Edition Fiend Folio
+    (© TSR/Wizards of the Coast, 1981) and is used by permission.
+  - >-
+    Copyright Notice Authors Scott Greene and Clark Peterson, based on original
+    material by Underworld Oracle.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1860'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

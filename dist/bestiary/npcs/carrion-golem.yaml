@@ -1,0 +1,81 @@
+Name: Carrion Golem
+CR: '4'
+XP: '1200'
+Race: Carrion Golem
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '1'
+Senses:
+  - blindsense 10 ft., darkvision 60 ft., low-light vision
+  - Perception +0
+Aura: foul stench (DC 12, 1 round)
+AC: 17, touch 11, flat-footed 16
+AC_Mods: (+1 Dex, +6 natural)
+HP: '42'
+HD: (4d10+20)
+Saves: Fort +1, Ref +2, Will +1
+Fort: '1'
+Ref: '2'
+Will: '1'
+DR: 5/bludgeoning or slashing
+Immune: construct traits, magic
+Speed: 30 ft.
+Melee:
+  - 2 slams +7 (1d8+3 plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: plague carrier
+AbilityScores:
+  - 17
+  - 12
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '4'
+CMB: '7'
+CMD: '18'
+Source: PFS S3-08
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Foul Stench (Ex)
+    description: >-
+      This functions as the stench ability, but causes affected creatures to be
+      nauseated rather than sickened.
+  - name: Immune to Magic (Ex)
+    description: >-
+      A carrion golem is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against the creature, as noted below. &#8226; Gentle repose
+      causes a carrion golem to become stiff and helpless for 1d4 rounds if it
+      fails a Will save against the spell. &#8226; Animate dead causes the
+      various parts of the golem's body to shudder and tear, dealing 1d6 points
+      of damage per caster level to the golem (no save). &#8226; Any magical
+      attack that deals cold or fire damage slows a carrion golem (as the slow
+      spell) for 2d6 rounds (no save). &#8226; Any magical attack that deals
+      electricity damage hastes a carrion golem (as the haste spell) for 2d6
+      rounds.
+  - name: Plague Carrier (Ex)
+    description: >-
+      When a carrion golem is created, its creator infects it with a specific
+      disease. The carrion golem can then infect those it strikes with its slams
+      with this disease-most carrion golems inflict filth fever. The save DC is
+      Constitution-based and includes a +2 racial bonus. Filth Fever:
+      Slam&#8211;injury; save Fortitude DC 14; onset 1d3 days; frequency 1/day;
+      effect 1d3 Dex damage and 1d3 Str damage; cure 2 consecutive saves.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5914'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

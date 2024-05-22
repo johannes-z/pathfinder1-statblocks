@@ -1,0 +1,173 @@
+Name: The Master Of Heresy
+CR: '15'
+XP: '51200'
+Race: vishkanya
+Class: psychic 13
+MonsterSource: Pathfinder RPG Bestiary 3 290, 281; Pathfinder RPG Occult Adventures 60
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (vishkanya)
+Init: '10'
+Senses:
+  - low-light vision
+  - Perception +21
+AC: 33, touch 18, flat-footed 26
+AC_Mods: (+4 armor, +1 deflection, +6 Dex, +1 dodge, +7 natural, +4 shield)
+HP: '194'
+HD: (13d6+146)
+Saves: Fort +15, Ref +13, Will +14; +13 vs. poison
+Fort: '15'
+Ref: '13'
+Will: '14'
+Save_Mods: +13 vs. poison
+DefensiveAbilities: poison resistance
+Speed: 30 ft., fly 40 ft. (average)
+Melee:
+  - +3 defending spear +9/+4 (1d8+3/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  phrenic amplifications (biokinetic healing, defensive prognostication,
+  mindshield, synaptic shock), phrenic pool (11 points)
+SpellLikeAbilities:
+  header: Psychic Spell-Like Abilities (CL 13th; concentration +20)
+  values:
+    - label: 1/day
+      value: detect thoughts (DC 12), telepathic bond
+SpellsKnown:
+  header: Psychic Spells Known (CL 13th;  concentration +20)
+  values:
+    - label: 6th (5/day)
+      value: contingency, disintegrate (DC 23), legend lore
+    - label: 5th (7/day)
+      value: contact other plane, overland flight, retrocognitionOA, wall of force
+    - label: 4th (7/day)
+      value: >-
+        black tentacles, confusion (DC 21), dimension door, greater
+        invisibility, mind probeOA (DC 21)
+    - label: 3rd (8/day)
+      value: >-
+        dispel magic, displacement, id insinuation IIOA (DC 20), mind thrust
+        IIIOA (DC 20), slow (DC 20)
+    - label: 2nd (8/day)
+      value: >-
+        augury, blindness/deafness (DC 19), false life, hypercognitionOA, resist
+        energy, silence (DC 19)
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 18), comprehend languages, feather fall, mage armor,
+        magic missile, shield
+    - label: 0 (at will)
+      value: >-
+        arcane mark, detect magic, ghost sound (DC 17), light, mage hand,
+        prestidigitation, read magic, stabilize, telekinetic projectileOA
+AbilityScores:
+  - 11
+  - 22
+  - 26
+  - 24
+  - 16
+  - 13
+BaseAtk: '6'
+CMB: '6'
+CMD: '24'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Empower Spell
+  - Expanded Phrenic Pool
+  - Improved Initiative
+  - Quicken Spell
+  - Toughness
+Skills:
+  - Acrobatics +19
+  - Craft (bookbinding) +21
+  - Escape Artist +8
+  - Fly +17
+  - Knowledge (arcana) +23
+  - Knowledge (planes) +23
+  - Knowledge (religion) +23
+  - Linguistics +15
+  - Perception +21
+  - Sense Motive +19
+  - Spellcraft +23
+  - Stealth +8
+Languages:
+  - Aklo
+  - Azlanti
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Halfling
+  - Infernal
+  - Jistka
+  - Strix
+  - Sylvan
+  - Undercommon
+  - Varisian
+  - Vishkanya
+SQ: >-
+  detect thoughts, Geryon's favored, illuminating answers (maximum 3), memory
+  palace (religion), mnemonic cache (70 pages/90 minutes), poison use, superior
+  automatic writing, telepathic bond, toxic
+Source: AP 107
+IsTemplate: '0'
+SpecialAbilities:
+  - name: s Favored (Ex)
+    description: >-
+      The Master of Heresy is one of the favored minions of the archdevil
+      Geryon, and he has been granted potent boons as a reward. These boons
+      include the advanced creature template, a +5 increase to natural armor
+      over that granted by the advanced creature template, and ability scores
+      generated with a 20-point buy. In addition, the Master of Heresy has
+      resources equal to that of a 13th-level PC. Together, these benefits
+      increase his final CR to 15.
+Gender: Male
+BeforeCombat: >-
+  The Master of Heresy casts false life, mage armor, and shield on himself
+  before combat.
+DuringCombat: >-
+  The Master of Heresy casts greater invisibility at the start of combat. If at
+  a later point he realizes foes can see invisible creatures, he casts
+  displacement on himself as soon as possible. The Master prefers to let his
+  allies fight in combat, but keeps his +3 defending spear in hand, allocating
+  its entire +3 enhancement bonus to his Armor Class. Remaining at range, the
+  Master uses magic for battlefield control, casting wall of force or black
+  tentacles to prevent enemies from fleeing or from providing support to each
+  other. He generally waits a few rounds to start hitting foes with his
+  offensive spells, so that he has a chance to observe the enemy in combat and
+  thus make educated decisions about what sorts of attacks might work the best
+  against specific targets. Once foes engage him in melee, he casts silence on
+  himself to disrupt enemy spellcasting and communications, then continues using
+  his offensive spells against foes. The Master views making attacks with his
+  spear as a waste of his potential as a psychic.
+Morale: >-
+  If reduced to 30 hit points or fewer, the Master of Heresy's contingency
+  activates and sends him via dimension door to area D8, where he recruits the
+  aid of Lictor Clandegar before returning with these reinforcements to take up
+  the fight again in area D9 (he drinks his potions of cure serious wounds along
+  the way). Beyond this, the Master of Heresy fights to the death.
+Gear: potions of cure serious wounds (4)
+OtherGear: >-
+  +3 defending spear, belt of mighty constitution +6, cloak of resistance +3,
+  headband of vast intelligence +4, ring of protection +1, greater talisman of
+  freedomOA, greater talisman of life's breathOA, key to the door in area D1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8442'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'
+PsychicDiscipline: lore

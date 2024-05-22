@@ -1,0 +1,183 @@
+Name: The Curator
+CR: '14'
+XP: '38400'
+Race: human
+Class: transmuter 13
+MonsterSource: Pathfinder RPG Bestiary 144
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, incorporeal)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+AC: 26, touch 18, flat-footed 26
+AC_Mods: (+4 armor, +8 deflection, +4 shield)
+HP: '178'
+HD: (13d6+130)
+Saves: Fort +17, Ref +9, Will +16
+Fort: '17'
+Ref: '9'
+Will: '16'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +5 (14d6/3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  corrupting touch (DC 24), intense spells (+6 damage), malevolence (DC 24),
+  telekinesis (DC 24), spell stealing (DC 24)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +20)
+  values:
+    - label: At Will
+      value: change shape (beast shape III/ elemental body II, 13 rounds/day)
+    - label: 10/day
+      value: telekinetic fist (1d4+6 bludgeoning)
+SpellsPrepared: >-
+  Spells Prepared (CL 13th; concentration +20)  7th-quickened dispel magic,
+  prismatic spray, reverse gravity (2)  6th-chain lightning (DC 23),
+  disintegrate (DC 24), flesh to stone (2, DC 24), quickened glitterdust (DC
+  19)  5th-baleful polymorph (3, DC 23), hungry pitAPG (DC 22), extended mass
+  reduce person (DC 23), quickened shield  4th-black tentacles, extended haste,
+  ice storm, mnemonic enhancer (2), shout (DC 21), wall of fire  3rd-dispel
+  magic, fireball (DC 20), lightning bolt (DC 20), pain strikeAPG (DC 20), slow
+  (2, DC 21), twilight knifeAPG, wind wall  2nd-blindness/deafness (DC 19),
+  flaming sphere (DC 19), extended mage armor, pyrotechnics (DC 20), scorching
+  ray, shatter, whispering wind (2)  1st-burning hands (DC 18), erase, grease
+  (DC 19), magic missile (2), ray of enfeeblement (DC 18), reduce person (2, DC
+  19)  0 (at will)-detect magic, light, mage hand, mending
+AbilityScores:
+  - —
+  - 11
+  - —
+  - 24
+  - 17
+  - 26
+BaseAtk: '6'
+CMB: '6'
+CMD: 24 (cannot be tripped)
+Feats:
+  - Extend Spell
+  - Great Fortitude
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Iron Will
+  - Lightning Reflexes
+  - Quicken Spell
+  - Scribe Scroll
+  - Spell Focus (transmutation)
+  - Spell Penetration
+  - Toughness
+Skills:
+  - Fly +24
+  - Knowledge (arcana) +23
+  - Knowledge (nobility) +23
+  - Knowledge (planes) +23
+  - Linguistics +23
+  - Perception +19
+  - Profession (librarian) +19
+  - Sense Motive +19
+  - Spellcraft +23
+  - Use Magic Device +21
+Languages:
+  - Abyssal
+  - Aboleth
+  - Aklo
+  - Aquan
+  - Auran
+  - Celestial
+  - Cyclops
+  - Draconic
+  - Dwarven
+  - Elven
+  - Giant
+  - Gnome
+  - Goblin
+  - Ignan
+  - Infernal
+  - Necril
+  - Orc
+  - Orvian
+  - Sylvan
+  - Terran
+  - Thassilonian
+SQ: >-
+  Thassilonian specialist (transmutation), arcane bond (ring), physical
+  enhancement +3
+Source: AP 65
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Rejuvenation (Su)
+    description: >-
+      The Curator's remains are located in area C10. In order to lay him to
+      rest, these remains must be brought to the surface and set before the one
+      remaining spire of Guiltspur that protrudes aboveground. This causes the
+      Curator's ghost to manifest amid a swirling vortex of dust over his
+      remains-he glances around in anguish and despair as he realizes that the
+      time of Thassilon has truly moved on. Within a few seconds, the vortex of
+      air grinds his remains away to dust and his spirit is released to seek its
+      reward or punishment in the afterlife. (Divination or other magical
+      investigation is likely required to discover this method of putting the
+      ghost to rest.)
+  - name: Spell Stealing (Su)
+    description: >-
+      Once per round as a free action whenever any of the Curator's spell
+      effects affect a spellcaster, he can attempt to steal one of that
+      spellcaster's prepared spells or unused spell slots. The target can resist
+      this attack with a successful DC 24 Will save. If the save fails, one
+      random prepared spell or unused spell slot of the highest spell level
+      available to the caster is expended for the day as if it had been used,
+      but without any other effect save for healing the Curator damage equal to
+      twice the spell level stolen. The save DC is Charisma-based. Thassilonian
+      Specialization The Curator is a Thassilonian specialist, which allows him
+      to prepare the bonus transmutation spell granted by his school
+      specialization twice rather than once. He treats enchantment and illusion
+      spells as if they were not on the wizard spell list. Further details on
+      this form of school specialization can be found on page 17 of Pathfinder
+      Campaign Setting: Inner Sea Magic.
+Gender: Male
+ProhibitedSchools: enchantment, illusion
+BeforeCombat: The Curator casts quickened shield and extended mage armor before attacking.
+DuringCombat: >-
+  The Curator casts extended haste and quickened glitterdust on the first round
+  of combat, then follows up by favoring spells that cause lengthy or permanent
+  problems to the PCs rather than attempting to simply hurt them&#8211;he wants
+  to stop the PCs in their tracks with flesh to stone, baleful polymorph, or
+  blindness/ deafness if possible. If a lower-level spell is particularly
+  effective, he uses mnemonic enhancer to recall it. He's also fond of splitting
+  up the party by using spells like hungry pit or wall of fire to control the
+  battlefield, and of forcing the PCs to stumble into new rooms before they
+  might be ready. The Curator knows how all of the dangers in the Silent Halls
+  work, and does his best to try to lure the PCs into those dangers.
+Morale: >-
+  The Curator knows that if he dies, he merely returns in 2d4 days. He fights
+  until destroyed without remorse, but if reduced to fewer than 75 hit points,
+  he knows that he's running out of time in the short term, and at this point
+  does his best to lure the PCs into peril to distract them, preferring to use
+  malevolence in the attempt to possess a PC and then force that PC to go find
+  an untriggered encounter or unsprung trap.
+Gear: >-
+  cloak of resistance +3, headband of mental prowess +2 (Int, Cha; grants ranks
+  in Perception)&#8211;both ghostly objects can be found in their physical form
+  in area C10
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: old
+CompanionFamiliarLink: '0'
+id: '3695'
+UniqueMonster: '0'
+ThassilonianSpecialization: transmutation
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

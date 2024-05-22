@@ -1,0 +1,91 @@
+Name: Amphisbaena
+CR: '7'
+XP: '3200'
+Race: amphisbaena
+MonsterSource: Tome of Horrors Revised 12
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+Init: '2'
+Senses:
+  - all-around vision, darkvision 60 ft., low-light  vision, scent
+  - Perception +8
+AC: 21, touch 10, flat-footed 19
+AC_Mods: (+2 Dex, +11 natural, -2 size)
+HP: '85'
+HD: (9d10+36)
+Saves: Fort +9, Ref +10, Will +4
+Fort: '9'
+Ref: '10'
+Will: '4'
+DefensiveAbilities: split
+Immune: petrification
+Resist: cold 10
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee:
+  - 2 bite +14 (2d6+6 plus poison)
+Space: 15 ft.
+Reach: 10 ft.
+AbilityScores:
+  - 22
+  - 14
+  - 17
+  - 2
+  - 13
+  - 4
+BaseAtk: '9'
+CMB: '17'
+CMD: 29 (can't be tripped)
+Feats:
+  - Lightning Reflexes
+  - Lunge
+  - Skill Focus (Stealth)
+  - Toughness
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +14 (+10 jump)
+  - Climb +14
+  - Perception +12
+  - Stealth +8
+  - Swim +14
+Source: AP 39
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Around Vision (Ex)
+    description: An amphisbaena sees in all directions at once. It cannot be flanked.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 17; frequency 1/round for 4 rounds; effect 1d3
+      Con; cure 1 save.
+  - name: Split (Ex)
+    description: >-
+      An amphisbaena functions normally even if cut in half. If dealt a critical
+      hit with a slashing weapon, the creature is cut in half but continues to
+      function as two separate creatures, each with half the original
+      amphisbaena's current hit points (rounded down). Once split, an
+      amphisbaena cannot be split again. If left alone for 1 minute, the split
+      amphisbaena can rejoin its two halves and become a single whole creature
+      again (add the two creatures' hit points together). If one of the split
+      creatures is slain, the amphisbaena can regrow the lost portion over the
+      course of a few weeks.
+DuringCombat: >-
+  The amphisbaena ignores anyone who comes even to the very edge of this vast
+  pool, but swiftly moves to attack anything that enters the water&#8211;it
+  prefers larger targets over smaller ones, given the option.
+Morale: The amphisbaena fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '986'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

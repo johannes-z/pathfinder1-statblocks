@@ -1,0 +1,135 @@
+Name: Condria
+CR: '12'
+XP: '19200'
+Race: medusa
+Class: sorcerer 8
+Alignment: LE
+Size: Medium
+Type: monstrous humanoid
+Init: '8'
+Senses:
+  - all-around vision, darkvision 60 ft.
+  - Perception +13
+AC: 22, touch 15, flat-footed 17
+AC_Mods: (+4 armor, +4 Dex, +1 dodge, +3 natural)
+HP: '192'
+HD: (16 HD; 8d10+8d6+120)
+Saves: Fort +10, Ref +12, Will +12
+Fort: '10'
+Ref: '12'
+Will: '12'
+Speed: 30 ft.
+Melee:
+  - >-
+    snake bite +16/+11/+6 (1d4+1 plus poison) or dagger  +16/+11/+6
+    (1d4+1/19-20)
+Ranged:
+  - >-
+    +1 shocking burst longbow +18/+13/+8 (1d8+2/x3 plus 1d6  electricity plus
+    1d10 electricity on successful critical hit)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: petrifying gaze
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 8th; concentration +13)
+  values:
+    - label: At will
+      value: woodland stride
+    - label: 5/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 8th; concentration +13)
+  values:
+    - label: 4th (4/day)
+      value: dimension door
+    - label: 3rd (6/day)
+      value: deep slumber, fly, slow
+    - label: 2nd (7/day)
+      value: glitterdust, hideous laughter, invisibility, scorching ray
+    - label: 1st (8/day)
+      value: >-
+        charm person, entangle, mage armor, magic missile, shield, true strike
+        0-bleed, daze, detect magic, flare, mage hand, prestidigitation, ray of
+        frost, read magic
+AbilityScores:
+  - 12
+  - 18
+  - 22
+  - 12
+  - 11
+  - 20
+BaseAtk: '12'
+CMB: '13'
+CMD: '29'
+Feats:
+  - Combat Casting
+  - Deadly Aim
+  - Dodge
+  - Eschew Materials
+  - Improved Initiative
+  - Mobility
+  - Point-Blank Shot
+  - Precise Shot
+  - Shot on the Run
+  - Spell Penetration
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (longbow)
+Skills:
+  - Bluff +16
+  - Diplomacy +13
+  - Disguise +11
+  - Fly +15
+  - Intimidate +16
+  - Knowledge (nature) +7
+  - Perception +13
+  - Spellcraft +10
+  - Stealth +15
+Languages:
+  - Common
+SQ: add all special qualities here, listed alphabetically
+Source: PFS S1-46
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Around Vision (Ex)
+    description: >-
+      A medusa's snake-hair allows her to see in all directions. Medusas gain a
+      +4 racial bonus on Perception checks and cannot be flanked.
+  - name: Petrifying Gaze (Su)
+    description: >-
+      Turn to stone permanently, 30 feet, Fortitude DC 19 negates. The save DC
+      is Charisma-based.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 20; frequency 1/round for 6 rounds; effect 1d3
+      Str; cure 2 consecutive saves. The save DC is Constitution-based.
+Gender: Female
+Bloodline: Fey
+BeforeCombat: Condria is invisible when combat begins.
+DuringCombat: >-
+  She maneuvers from location to location, observing the PCs and psychically
+  animating her petrified servants. If detected or if she can place herself in a
+  position to affect more than three PCs with her petrifying gaze, Condria
+  becomes visible (probably by casting slow on her enemies). She uses dimension
+  door and invisibility to disappear from combat, repositioning herself for a
+  deadly attack.
+Morale: >-
+  Condria does not flee, protecting her home to the death. If she is killed,
+  Narven's curse reforms her mortal body at area M4 24 hours later. She cannot
+  leave the Maze of the Open Road under any circumstances.
+Gear: bracers of armor +4, +1 shocking burst longbow
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4263'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

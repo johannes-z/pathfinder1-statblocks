@@ -1,0 +1,87 @@
+Name: Shadow Rat
+CR: 1/2
+XP: '200'
+Race: Shadow Rat
+MonsterSource: Tome of Horrors Complete 504
+Alignment: NE
+Size: Tiny
+Type: undead
+Init: '2'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +8
+AC: 14, touch 14, flat-footed 12
+AC_Mods: (+2 Dex, +2 size)
+HP: '5'
+HD: (1d8+1)
+Saves: Fort +1, Ref +2, Will +3
+Fort: '1'
+Ref: '2'
+Will: '3'
+DefensiveAbilities: incorporeal form, shadow blend
+Immune: undead traits
+Speed: 40 ft., climb 15 ft.
+Melee:
+  - bite +4 (1d3-2 plus 1d2 Strength damage and disease)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+AbilityScores:
+  - 6
+  - 15
+  - —
+  - 2
+  - 12
+  - 13
+BaseAtk: '0'
+CMB: '0'
+CMD: 8 (12 vs. trip)
+Feats:
+  - Skill Focus (Perception)
+  - Weapon FinesseB
+Skills:
+  - Climb +10
+  - Perception +8
+  - Stealth +14
+RacialMods: +4 Stealth; uses Dex to modify Climb
+Source: AP 91
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Bite-injury; save Fort DC 11, onset 1d3 days, frequency
+      1/day, effect 1d3 Dex damage and 1d3 Con damage, cure 2 consecutive saves.
+      The save DC is Charisma-based.
+  - name: Incorporeal Form (Su)
+    description: >-
+      As a standard action a shadow rat can assume an incorporeal form. It can
+      maintain this form for up to 1 hour per day. In this form, the shadow rat
+      gains the incorporeal subtype and has AC 15, touch 15, flat-footed 13 (+1
+      deflection, +2 Dex, +2 size). The shadow rat can still bite corporeal
+      opponents while in its incorporeal form, but its attack deals only
+      Strength damage and doesn't cause hit point damage or disease.
+  - name: Shadow Blend (Su)
+    description: >-
+      In any condition of illumination other than bright light, a shadow rat can
+      disappear into the shadows as a move action, giving it total concealment
+      (50% miss chance). Artificial illumination, even a light or continual
+      flame spell, does not negate this ability; a daylight spell, however,
+      does.
+  - name: Strength Damage (Su)
+    description: >-
+      A shadow rat deals Strength damage to living foes it bites. A creature
+      reduced to 0 Strength does not die but cannot move and is unconscious.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6762'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,109 @@
+Name: Yrldak
+CR: '10'
+XP: '9600'
+Race: norn
+MonsterSource: Pathfinder RPG Bestiary 3 202
+Alignment: LN
+Size: Large
+Type: fey
+Init: '10'
+Senses:
+  - low-light vision, true seeing
+  - Perception +19
+AC: 24, touch 15, flat-footed 23
+AC_Mods: (+6 armor, +1 Dex, +5 insight, +3 natural, -1 size)
+HP: '138'
+HD: (12d6+96)
+HP_Mods: regeneration 5 (cold iron)
+Saves: Fort +14, Ref +11, Will +14
+Fort: '14'
+Ref: '11'
+Will: '14'
+DefensiveAbilities: death ward, fated
+DR: 10/cold iron
+Immune: cold
+Resist: acid 15, electricity 15, fire 15
+SR: '21'
+Speed: 40 ft. (30 ft. with armor)
+Melee:
+  - shears +17/+12 (1d8+12/15-20 plus energy drain), touch +7 (energy drain)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: energy drain (1 level, DC 21), shift fate
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: Constant
+      value: death ward, tongues, true seeing
+    - label: At Will
+      value: >-
+        bestow curse (DC 18), divination, greater dispel magic, wind walk (self
+        only)
+    - label: 1/day
+      value: maze, moment of prescience, phantasmal killer (DC 19)
+AbilityScores:
+  - 25
+  - 12
+  - 26
+  - 17
+  - 18
+  - 21
+BaseAtk: '6'
+CMB: '14'
+CMD: '30'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - DiehardB
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+Skills:
+  - Bluff +12
+  - Craft (cloth) +10
+  - Heal +6
+  - Intimidate +17
+  - Knowledge (all) +11
+  - Perception +19
+  - Perform (oratory) +12
+  - Sense Motive +19
+  - Use Magic Device +16
+Languages:
+  - Common
+  - Giant
+  - Sylvan
+  - tongues
+SQ: change shape (humanoid; alter self or giant form II), sister seeking
+Source: Fey Revisited
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Shears (Su)
+    description: >-
+      Yrldak's shears function as a +5 keen scimitar when she wields them,
+      instead of as a +5 mithral keen speed scimitar like the shears wielded by
+      fully grown norns.
+  - name: Sister Seeking (Su)
+    description: >-
+      An immature norn separated from her sisters has an innate ability to
+      locate them across any distance on the same plane. The norn can sense when
+      she is facing in the direction of one or both of her sisters, as well as
+      in which direction they are moving. This sense does not grant a norn the
+      ability to assess distance to her sisters. Once the norn rejoins one or
+      both of her sisters, she loses this ability.
+Gear: +2 hide armor, shears
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4404'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

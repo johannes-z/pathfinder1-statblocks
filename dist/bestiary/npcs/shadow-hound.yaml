@@ -1,0 +1,92 @@
+Name: Shadow Hound
+CR: '2'
+XP: '600'
+Race: Reduced HD shadow mastiff
+MonsterSource: Pathfinder RPG Bonus Bestiary 16
+Alignment: NE
+Size: Small
+Type: outsider
+SubType: (evil)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 16, touch 14, flat-footed 13
+AC_Mods: (+3 Dex, +2 natural, +1 size)
+HP: '25'
+HD: (3d10+9)
+Saves: Fort +6, Ref +6, Will +2
+Fort: '6'
+Ref: '6'
+Will: '2'
+DefensiveAbilities: shadow blend
+Speed: 50 ft.
+Melee:
+  - bite +6 (1d4+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bay
+AbilityScores:
+  - 15
+  - 17
+  - 16
+  - 4
+  - 12
+  - 13
+BaseAtk: '3'
+CMB: '4'
+CMD: '17'
+Feats:
+  - Improved Initiative
+  - Power Attack
+Skills:
+  - Perception +7
+  - Stealth +13
+  - Survival +7
+Languages:
+  - Common (cannot speak)
+Source: PFS S2-11
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bay (Su)
+    description: >-
+      When a shadow mastiff howls or barks, all creatures except evil outsiders
+      within a 300-foot spread must succeed on a DC 13 Will save or become
+      panicked for 1d4 rounds. This is a sonic, mind-affecting fear effect. A
+      creature that successfully saves cannot be affected by the same mastiff's
+      bay for 24 hours. The save DC is Charisma-based and includes a +1 racial
+      bonus.
+  - name: Shadow Blend (Su)
+    description: >-
+      In any condition of illumination other than full daylight, a shadow
+      mastiff disappears into the shadows, giving it concealment. Artificial
+      illumination, even a light or continual flame spell, does not negate this
+      ability. A daylight spell, however, does. A shadow mastiff can suspend or
+      resume this ability as a free action.
+BeforeCombat: >-
+  The shadow hound lurks behind one of the room's larger crates, waiting to be
+  fed. When the PCs enter, it doesn't recognize their scent and initiates combat
+  with its bay ability.
+DuringCombat: >-
+  Frenzied, the hound deactivates its shadow blend ability as it attacks the
+  PCs. The hound pursues the intruders to the length of its chain. If reduced
+  below 10 hp, it activates its shadow blend and continues fighting while
+  remaining in whatever shadows it can find among the room's clutter.
+Morale: >-
+  The shadow hound fights to the death, and howls loudly and relentlessly if the
+  PCs move beyond its reach.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5543'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

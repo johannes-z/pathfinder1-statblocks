@@ -1,0 +1,113 @@
+Name: Zahur
+CR: '7'
+XP: '3200'
+Race: human
+Class: sorcerer 8
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception -1
+AC: 16, touch 12, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, +1 Dex)
+HP: '62'
+HD: (8d6+32)
+Saves: Fort +5, Ref +4, Will +6
+Fort: '5'
+Ref: '4'
+Will: '6'
+Resist: electricity 10
+Speed: 30 ft.
+Melee:
+  - dagger +4 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 8th; concentration +13)
+  values:
+    - label: 8/day
+      value: elemental ray (1d6+4 electricity)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 8th; concentration +13)
+  values:
+    - label: 4th (4/day)
+      value: solid fog
+    - label: 3rd (6/day)
+      value: fireball (DC 20), haste, protection from energy
+    - label: 2nd (7/day)
+      value: fly, fog cloud, invisibility, scorching ray (electricity)
+    - label: 1st (8/day)
+      value: >-
+        burning hands (DC 18 [electricity]), feather fall, mage armor, shield,
+        magic missile, shocking grasp,
+    - label: 0 (at will)
+      value: >-
+        light, detect magic, detect poison, mage hand, message,
+        prestidigitation, ray of frost (DC 17), read magic
+AbilityScores:
+  - 10
+  - 13
+  - 14
+  - 12
+  - 8
+  - 21
+BaseAtk: '4'
+CMB: '4'
+CMD: '16'
+Feats:
+  - Combat Casting
+  - Empower Spell
+  - Eschew Materials
+  - Greater Spell Focus (evocation)
+  - Maximize Spell
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Bluff +16
+  - Knowledge (arcana) +12
+  - Knowledge (planes) +12
+  - Spellcraft +12
+Languages:
+  - Common
+  - Osiriani
+SQ: bloodline arcana
+Source: PFS S2-20
+IsTemplate: '0'
+Gender: Male
+Bloodline: Elemental (air)
+BeforeCombat: >-
+  Zahur casts mage armor at the start of each day. When preparing to ambush the
+  PCs, he casts shield, fly, invisibility, and protection from energy (cold,
+  fire, and acid).
+DuringCombat: >-
+  Zahur starts by casting solid fog to hinder the PCs' movement, then uses his
+  elemental rays, empowered scorching rays, fireballs, and maximized magic
+  missiles to bring down his opponents. He remains aloft using flight to try to
+  stay out of melee.
+Morale: >-
+  If reduced to 10 hit points or fewer, Zahur attempts to retreat invisibly and
+  flees Sothis.
+Gear: >-
+  potion of cure moderate wounds, scroll of see invisibility, scrolls of summon
+  monster II (2)
+OtherGear: >-
+  dagger, cloak of resistance +1, headband of alluring charisma +2, ring of
+  protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without his mage armor, Zahur's statistics are AC 12, touch 12, flat-footed 11
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5676'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

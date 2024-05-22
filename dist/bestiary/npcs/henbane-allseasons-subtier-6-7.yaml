@@ -1,0 +1,182 @@
+Name: Henbane Allseasons Subtier 6-7
+CR: '10'
+XP: '9600'
+Race: dryad
+Class: inquisitor of Shyka 9
+MonsterSource: Pathfinder RPG Advanced Player's Guide 38, Pathfinder RPG Bestiary 116
+Alignment: CN
+Size: Medium
+Type: fey
+Init: '12'
+Senses:
+  - low-light vision
+  - Perception +22
+Aura: aura of madness (30 ft., DC 19, 9 rounds/day)
+AC: 24, touch 17, flat-footed 17
+AC_Mods: (+4 armor, +7 Dex, +3 natural)
+HP: '130'
+HD: (15 HD; 6d6+9d8+69)
+Saves: Fort +15, Ref +17, Will +18
+Fort: '15'
+Ref: '17'
+Will: '18'
+DR: 5/cold iron
+Resist: fire 20
+Weaknesses: tree dependent
+Speed: 30 ft.
+Melee:
+  - mwk living steel heavy mace +14/+9 (1d8+2)
+Ranged:
+  - >-
+    +1 composite longbow +17/+17/+12 (1d8+3/x3) or +1 composite longbow +19/+14
+    (1d8+3/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bane (9 rounds/day), judgment 3/day (2 simultaneous)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: Constant
+      value: speak with plants
+    - label: At Will
+      value: entangle (DC 14), tree shape, wood shape (1 lb. only) (DC 15)
+    - label: 3/day
+      value: tree stride
+    - label: 1/day
+      value: >-
+        suggestion (DC 16) Domain Spell-Like Abilities (CL 9th; concentration
+        +14)
+    - label: 8/day
+      value: >-
+        vision of madness (+/-4) Inquisitor Spell-Like Abilities (CL 9th;
+        concentration +14)
+    - label: At Will
+      value: detect alignment, discern lies (9 rounds/day)
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 9th; concentration +14)
+  values:
+    - label: 3rd (4/day)
+      value: dimensional anchor, dispel magic, heroism, hunter's eyeAPG
+    - label: 2nd (5/day)
+      value: >-
+        blistering invectiveUC (DC 17), hold person (DC 17), invisibility,
+        spiritual weapon
+    - label: 1st (7/day)
+      value: >-
+        command (DC 16), cure light wounds, shield of faith, true strike,
+        wrathAPG
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 15), create water, detect magic, guidance, read
+        magic
+SpellDomains: Madness
+AbilityScores:
+  - 14
+  - 24
+  - 16
+  - 14
+  - 21
+  - 16
+BaseAtk: '9'
+CMB: '11'
+CMD: '28'
+Feats:
+  - Deadly Aim
+  - Enfilading Fire
+  - Escape Route
+  - Great Fortitude
+  - Manyshot
+  - Point-blank Shot
+  - Precise Shot
+  - Precise Strike
+  - Rapid Shot
+  - Stealthy
+  - Toughness
+Skills:
+  - Climb +13
+  - Craft (sculpture) +13 (+19 when affecting wood)
+  - Escape Artist +26
+  - Handle Animal +15
+  - Intimidate +27
+  - Knowledge (arcana) +13
+  - Knowledge (nature) +17
+  - Knowledge (planes) +13
+  - Perception +24
+  - Sense Motive +28
+  - Spellcraft +14
+  - Stealth +31
+  - Survival +16
+Languages:
+  - Common
+  - Elven
+  - Sylvan
+  - speak with plants
+SQ: monster lore +5, solo tactics, stern gaze +4, track +4, tree meld, woodcraft
+Source: PFS S7-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Tree of Ages (Su)
+    description: >-
+      Henbane can restore life to wooden objects, transforming them into
+      constructs of living wood that serve as her allies. Up to three times per
+      day as a swift action, she can create up to three wooden allies (see stat
+      block below). Each of these allies remains animated for one minute, until
+      she uses this ability again, or until it is reduced to 0 hit points.
+  - name: Tree Meld (Su)
+    description: >-
+      A dryad can meld with any tree, similar to how the spell meld into stone f
+      unctions. She can remain melded with a tree as long as she wishes.
+  - name: Tree Dependent (Su)
+    description: >-
+      Henbane must stay within 300 yards of locations and times that are
+      connected to the strange tree of branching paths of time to which she is
+      bound. If she strays more than 300 yards away from such a location, she is
+      sickened. Every hour thereafter, she must make a DC 15 Fortitude save to
+      resist becoming nauseated for an hour. Henbane carries four soothe syrups
+      to stave off the effects while she is away from her metaphysical tree,
+      which she does not need to use during this scenario.
+  - name: Woodcraft (Ex)
+    description: >-
+      A dryad has a +6 racial bonus to Craft checks involving wood, and is
+      always treated as if she had masterwork artisan's woodworking tools when
+      making such checks.
+Gender: Female
+BeforeCombat: Henbane casts heroism and resist energy (fire) and on herself.
+DuringCombat: >-
+  Henbane prefers to avoid direct confrontation by frightening potential foes
+  into seeing matters from her perspective. If combat seems becomes unavoidable,
+  she uses her animate wood ability to create allies out of the surrounding
+  tower and uses her wooden allies for her teamwork feats. She combines spells
+  and archery to hamper her foes and pick them off one at a time.
+Morale: >-
+  If reduced to 20 hit points or less, Henbane casts invisibility on herself and
+  sneaks down the tower with the temporal essence she has collected so far.
+Gear: >-
+  potion of cure serious wounds, ring of delayed doom (3 charges), soothe
+  syrupAPG (4)
+OtherGear: >-
+  +1 darkleaf cloth studded leatherUE, +1 composite longbow (+2 Str), mwk living
+  steel heavy maceUE, belt of incredible dexterity +2, cloak of elvenkind,
+  efficient quiver, empty vial (10), 3 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without heroism, Henbane's statistics are Fort +13, Ref +15, Will +16; Melee
+  mwk ironwood heavy mace +12/+7 (1d8+2), Ranged +1 composite longbow
+  +15/+15/+10 (1d8+3/x3); Skills Climb +11, Craft (sculpture) +11 (+17 when
+  affecting wood), Escape Artist +24, Handle Animal +13, Intimidate +25,
+  Knowledge (arcana) +11, Knowledge (nature) +15, Knowledge (planes) +11,
+  Perception +22, Sense Motive +26, Spellcraft +12, Stealth +29, Survival +14
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12733'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

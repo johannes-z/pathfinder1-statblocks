@@ -1,0 +1,132 @@
+Name: Lucky Mage
+CR: '10'
+XP: '9600'
+Race: halfling
+Class: sorcerer 11
+Alignment: 'N'
+Size: Small
+Type: humanoid
+SubType: (halfling)
+Init: '3'
+Senses:
+  - Perception +13
+AC: 21, touch 16, flat-footed 17
+AC_Mods: (+4 armor, +1 deflection, +3 Dex, +1 dodge, +1 natural, +1 size)
+HP: '63'
+HD: (11d6+22)
+Saves: Fort +9, Ref +11, Will +10; +2 vs. fear
+Fort: '9'
+Ref: '11'
+Will: '10'
+Save_Mods: +2 vs. fear
+DefensiveAbilities: fated +3
+Immune: fire (120 points)
+Speed: 20 ft.
+Melee:
+  - mwk longspear +5 (1d6-2/x3)
+Ranged:
+  - mwk light crossbow +10 (1d6/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: it was meant to be (1/day)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 11th; concentration +16)
+  values:
+    - label: 8/day
+      value: touch of destiny (+5)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +16)
+  values:
+    - label: 5th (5/day)
+      value: break enchantment, interposing hand, teleport
+    - label: 4th (7/day)
+      value: >-
+        bestow curse (DC 19), dimension door, freedom of movement, greater
+        invisibility
+    - label: 3rd (7/day)
+      value: >-
+        dispel magic, fireball (DC 18), hold person (DC 18), protection from
+        energy, ray of exhaustion (DC 18)
+    - label: 2nd (7/day)
+      value: >-
+        acid arrow, blindness/deafness (DC 17), blur, scorching ray, see
+        invisibility, spider climb
+    - label: 1st (8/day)
+      value: >-
+        alarm, charm person (DC 16), floating disk, mage armor, magic missile,
+        true strike
+    - label: 0 (at will)
+      value: >-
+        arcane mark, detect magic, light, mage hand, message, prestidigitation,
+        ray of frost, read magic, resistance
+AbilityScores:
+  - 6
+  - 16
+  - 12
+  - 13
+  - 10
+  - 21
+BaseAtk: '5'
+CMB: '2'
+CMD: '23'
+Feats:
+  - Combat Casting
+  - Combat Expertise
+  - Defensive Combat Training
+  - Dodge
+  - Eschew Materials
+  - Great Fortitude
+  - Lightning Reflexes
+  - Mobility
+Skills:
+  - Acrobatics +5 (+1 when jumping)
+  - Bluff +13
+  - Climb +0
+  - Fly +9
+  - Knowledge (arcana) +9
+  - Knowledge (history) +9
+  - Perception +13
+  - Spellcraft +10
+Languages:
+  - Common
+  - Gnome
+  - Halfling
+SQ: >-
+  bloodline arcana (gains a luck bonus to saves when casting personal-range
+  spells)
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: destined
+BeforeCombat: >-
+  The sorcerer casts freedom of movement, mage armor, and protection from energy
+  (fire).
+DuringCombat: >-
+  The sorcerer uses interposing hand or hold person to keep opponents from
+  reaching her while she uses ranged attack spells such as fireball and ray of
+  exhaustion.
+Gear: >-
+  potion of cure moderate wounds, potion of cure serious wounds, potion of
+  eagle's splendor, potion of fly, potion of invisibility, wand of shield (44
+  charges)
+OtherGear: >-
+  masterwork light crossbow with 10 bolts, masterwork longspear, amulet of
+  natural armor +1, cloak of resistance +2, headband of alluring charisma +2,
+  ring of protection +1, 649 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor and protection from energy, the sorcerer's statistics are
+  AC 17, touch 16, flat-footed 13; Immune none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3812'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

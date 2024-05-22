@@ -1,0 +1,133 @@
+Name: Bear Priest
+CR: '7'
+XP: '3200'
+Race: half-orc
+Class: skald (totemic skald) 8
+MonsterSource: Pathfinder RPG Advanced Class Guide 49, 117
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '0'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +8
+AC: 17, touch 9, flat-footed 17
+AC_Mods: (+3 armor, +5 natural, -1 rage)
+HP: '87'
+HD: (8d8+48)
+Saves: >-
+  Fort +13, Ref +3, Will +11; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '13'
+Ref: '3'
+Will: '11'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: orc ferocity
+Speed: 40 ft.
+Melee:
+  - >-
+    mwk greataxe +11/+6 (1d12+6/x3) or mwk chakram +10/+5 (1d8+4) or bite +10
+    (1d4+4), 2 claws +10 (1d6+4)
+Ranged:
+  - mwk chakram +7 (1d8+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  rage powers (animal fury, beast totemAPG, lesser beast totemAPG, scent, song
+  of the beast), raging song 21 rounds/day (move action; inspired rage, song of
+  marching, song of strength)
+SpellLikeAbilities:
+  header: Skald Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 2/day
+      value: charm animal (bears only) (DC 15)
+SpellsKnown:
+  header: Skald Spells Known (CL 8th; concentration +12)
+  values:
+    - label: 3rd (3/day)
+      value: confusion (DC 17), cure serious wounds, haste
+    - label: 2nd (5/day)
+      value: blindness/deafness (DC 16), darkness, mirror image, sound burst (DC 16)
+    - label: 1st (5/day)
+      value: >-
+        cause fear (DC 15), cure light wounds, expeditious retreat, saving
+        finaleAPG (DC 15), vanishAPG (DC 15)
+    - label: 0 (at will)
+      value: >-
+        daze (DC 14), detect magic, mending, message, sparkAPG (DC 14), summon
+        instrument
+AbilityScores:
+  - 18
+  - 10
+  - 22
+  - 8
+  - 12
+  - 18
+BaseAtk: '6'
+CMB: '10'
+CMD: '19'
+Feats:
+  - Extra Rage PowerAPG (3)
+  - Lingering Performance
+  - Scribe Scroll
+Skills:
+  - Climb +8
+  - Intimidate +15
+  - Knowledge (geography and nature) +7
+  - Perception +8
+  - Perform (oratory and percussion) +15
+  - Spellcraft +3
+RacialMods: +2 Intimidate
+Languages:
+  - Common
+  - Orc
+SQ: >-
+  animal focus (bearACG), bardic knowledge +4, lore master 1/ day, orc blood,
+  rage powers, totem empathy +12, versatile performances (oratory, percussion),
+  wild shape
+Source: PFS 8-07
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  The priest drinks a potion of barkskin. If aware of imminent danger, she casts
+  mirror image and expeditious retreat. The effects of these spells are included
+  in her statistics.
+DuringCombat: >-
+  The priest activates her inspired rage raging song, applying its effects to
+  herself and her allies. These effects include granting her allies the effects
+  of song of the beast and animal fury. She then casts haste before rushing in
+  to battle, reserving her other spells for if the PCs prove particularly
+  troublesome to defeat in melee.
+Morale: >-
+  The bear priest retreats if brought below 30 hit points, planning to return
+  later for her revenge.
+Gear: >-
+  potion of barkskin, potion of cure serious wounds, scroll of glitterdust,
+  scroll of see invisibility, wand of blur (18 charges), war paint of the
+  terrible visageUE
+OtherGear: >-
+  +1 defiant (human) bone studded leatherUE, mwk chakramUE, mwk greataxe, cloak
+  of resistance +1, 59 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without raging song and her spells, the bear  priest's statistics are Senses
+  darkvision 60 ft.; AC 15, touch 10, flat-footed 15; hp 55; Fort +9, Will +8;
+  Speed 30 ft.; Melee +9/+4 mwk greataxe (1d12+3/x3) or mwk chakram +8/+3
+  (1d8+2); Ranged mwk chakram +6 (1d8+2); Str 14, Con 14; CMB +8; CMD 18; Skills
+  Climb +6
+AgeCategory: Adult
+ClassArchetypes: totemic skald
+CompanionFamiliarLink: '0'
+id: '8747'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

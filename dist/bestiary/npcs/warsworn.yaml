@@ -1,0 +1,99 @@
+Name: Warsworn
+CR: '16'
+XP: '76800'
+Race: Warsworn
+MonsterSource: 'Pathfinder Adventure Path #35 88'
+Alignment: NE
+Size: Gargantuan
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +27
+Aura: frightful presence (60 ft., DC 26)
+AC: 29, touch 9, flat-footed 26
+AC_Mods: (+3 Dex, +20 natural, -4 size)
+HP: '243'
+HD: (18d8+162)
+Saves: Fort +15, Ref +11, Will +17
+Fort: '15'
+Ref: '11'
+Will: '17'
+DefensiveAbilities: channel resistance +4
+DR: 10/bludgeoning and magic
+Immune: undead traits
+Speed: 40 ft.
+Melee:
+  - 4 slams +21 (2d6+12 plus energy drain)
+Ranged:
+  - 1 scrap ball +12 (2d6+12/19-20)
+Space: 20 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  energy drain (1 level, DC 26), haunt armor, haunt weapons, trample (2d6+18; DC
+  31)
+AbilityScores:
+  - 34
+  - 17
+  - —
+  - 9
+  - 22
+  - 25
+BaseAtk: '13'
+CMB: '29'
+CMD: 42 (can't be tripped)
+SQ: >-
+  absorb  Feats Awesome Blow, Blind-Fight, Greater Overrun, Improved Bull Rush,
+  Improved Overrun, Lightning Reflexes, Power Attack, Step Up, Strike Back 
+  Skills Climb +33, Fly +0, Perception +27, Stealth +0, Swim +30  Languages
+  Common (cannot speak)
+Source: AP 72
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Absorb (Su)
+    description: >-
+      A warsworn can consume any creature with -1 or fewer hit points that is
+      dying by moving into the same space. Doing so immediately kills the
+      creature and heals the warsworn by an amount equal to the creature's
+      Constitution score. This ability cannot heal a warsworn beyond its maximum
+      number of hit points. Nonliving creatures or completely dead corpses
+      cannot be absorbed. Absorbed corpses cannot be resurrected by any effect
+      short of a miracle or wish spell until the warsworn that consumed them is
+      destroyed.
+  - name: Haunt Armor (Sp)
+    description: >-
+      Three times per day, a warsworn can violently take control of a suit of
+      heavy armor or its wearer. This limited form of possession manifests much
+      like the violent thrust effect of the spell telekinesis. A warsworn can
+      only target a suit of heavy armor with this effect or a creature wearing a
+      suit of heavy armor. Creatures affected by protection from evil are immune
+      to this effect. The effect is CL 18th.
+  - name: Haunt Weapons (Sp)
+    description: >-
+      Three times per day, a warsworn can animate a number of unattended weapons
+      as per the spell animate objects. A warsworn can animate a number of
+      Medium or smaller weapons equal to its Charisma bonus (typically 7) for up
+      to 10 minutes. (Most weapons sized for Medium creatures are considered
+      Tiny or Small animated objects.) These weapons must be within 50 feet of
+      the warsworn and are all animated at once. This effect only affects
+      weapons and no other type of object. Each weapon animated by this effect
+      appears to be wielded by ghostly hands. Aside from being able to be
+      individually destroyed or dispelled as per normal animated objects, any
+      object animated by this effect can also be damaged by channel energy as if
+      it were an undead creature. Creatures affected by protection from evil are
+      immune to this effect. The effect is CL 18th.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4642'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

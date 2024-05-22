@@ -1,0 +1,176 @@
+Name: Ochymua
+CR: '19'
+XP: '204800'
+Race: Veiled master
+Class: sorcerer 5
+MonsterSource: Pathfinder RPG Bestiary 6 270
+Alignment: LE
+Size: Large
+Type: aberration
+SubType: (aquatic, shapechanger)
+Init: '12'
+Senses:
+  - darkvision 120 ft.
+  - Perception +29
+Aura: mucus cloud (30 ft., DC 27)
+AC: 32, touch 21, flat-footed 24
+AC_Mods: (+4 deflection, +8 Dex, +11 natural, -1 size)
+HP: '283'
+HD: (21 HD; 5d6+16d8+194)
+Saves: Fort +15, Ref +16, Will +19
+Fort: '15'
+Ref: '16'
+Will: '19'
+DefensiveAbilities: fated (+1)
+Immune: electricity, mind-affecting effects
+Resist: cold 20
+SR: '25'
+Speed: 10 ft., swim 80 ft.
+Melee:
+  - >-
+    bite +18 (2d6+5 plus consume memory and slime), 2 claws +18 (1d6+5 plus
+    slime), 4 tentacles +13 touch (2d6 electricity plus thoughtlance)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with tentacles and claws)
+SpecialAttacks: delayed suggestion
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +30)
+  values:
+    - label: Constant
+      value: mage armor
+    - label: At Will
+      value: >-
+        detect thoughts (DC 22), dominate person (DC 26), hypnotic pattern (DC
+        22), illusory wall (DC 24), mirage arcana (DC 25), persistent image (DC
+        25), programmed image (DC 26), project image (DC 27), veil (DC 26)
+    - label: 3/day
+      value: >-
+        quickened dominate person (DC 26), dominate monster (DC 30), geas/quest
+        (DC 27), mass suggestion (DC 27) Bloodline Spell-Like Abilities (CL
+        17th; concentration +27)
+    - label: 13/day
+      value: touch of destiny (+2)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 17th; concentration +27)
+  values:
+    - label: 8th (5/day)
+      value: maze, moment of prescience
+    - label: 7th (7/day)
+      value: prismatic spray (DC 27), spell turning, symbol of stunning (DC 29)
+    - label: 6th (8/day)
+      value: >-
+        enemy hammerAPG (DC 26), symbol of fear (DC 27), symbol of persuasion
+        (DC 28)
+    - label: 5th (8/day)
+      value: >-
+        fickle windsUM, greater oneiric horrorOA (DC 25), symbol of pain (DC
+        26), teleport
+    - label: 4th (8/day)
+      value: >-
+        dimensional anchor, enervation, greater invisibility, symbol of
+        slowingUM (DC 25)
+    - label: 3rd (8/day)
+      value: explosive runes, fly, haste, protection from energy
+    - label: 2nd (9/day)
+      value: >-
+        blindness/deafness (DC 22), blur, mirror image, resist energy, scorching
+        ray, symbol of mirroringUM (DC 22)
+    - label: 1st (9/day)
+      value: >-
+        alarm, charm person (DC 22), comprehend languages, magic missile,
+        shield, silent image (DC 21)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, daze (DC 21), detect magic, mage hand,
+        message, prestidigitation, read magic, touch of fatigue (DC 20)
+AbilityScores:
+  - 20
+  - 26
+  - 28
+  - 27
+  - 21
+  - 30
+BaseAtk: '14'
+CMB: '20'
+CMD: '42'
+Feats:
+  - Arcane Strike
+  - Bouncing Spell
+  - Combat Casting
+  - Combat Expertise
+  - Eschew MaterialsB
+  - Extend Spell
+  - Improved Initiative
+  - Lightning Reflexes
+  - Persistent Spell
+  - Quicken Spell
+  - Quicken Spell-Like Ability (dominate person)
+  - Spell Focus (enchantment)
+Skills:
+  - Acrobatics +8 (+0 when jumping)
+  - Bluff +29
+  - Knowledge (arcana
+  - history) +32
+  - Knowledge (local
+  - nature) +29
+  - Perception +29
+  - Sense Motive +26
+  - Spellcraft +32
+  - Stealth +28
+  - Swim +37
+  - Use Magic Device +34
+Languages:
+  - Aboleth
+  - Abyssal
+  - Aklo
+  - Aquan
+  - Azlanti
+  - Draconic
+  - Elven
+  - Thassilonian
+  - Undercommon
+  - telepathy 300 ft.
+SQ: >-
+  bloodline arcana, change shape (any Small or Medium form; greater polymorph),
+  runemastery, swift transformation
+Source: AP 126
+IsTemplate: '0'
+Bloodline: destined
+BeforeCombat: >-
+  Ochymua starts its day by casting moment of prescience. In preparation for
+  combat, it casts fickle winds, fly, haste, mirror image, and shield. If
+  alerted to the PCs, Ochymua also casts protection from energy, resist energy,
+  and spell turning, keyed to elements and spells it knows the PCs are fond of
+  employing in combat.
+DuringCombat: >-
+  The veiled master starts combat by employing its scroll of time stop, using
+  the extra rounds to cast any spells listed in Before Combat that it was unable
+  to cast in advance. It then sets up illusions of itself or other prominent
+  NPCs to further confound enemies when time resumes. Ochymua attempts to
+  dominate impressionable foes, turning them against their allies, while
+  delaying martial foes with maze.
+Morale: >-
+  Ochymua yearns to see its people restored and humanity laid low. If reduced
+  below 200 hit points, Ochymua attempts to cast quickened dominate person
+  against a divine caster, commanding the enslaved target to heal it. It fights
+  until reduced to 40 hit points or fewer, at which point it retreats using
+  teleport to the entrance of the Doomsday Stores to regroup.
+Gear: scroll of time stop
+OtherGear: >-
+  headband of mental prowess +4 (Int, Cha), ring of freedom of movement, ring of
+  protection +4
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11733'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

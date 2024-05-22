@@ -1,0 +1,113 @@
+Name: Midnight Peddler
+CR: '6'
+XP: '2400'
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (extraplanar)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +16
+AC: 16, touch 11, flat-footed 15
+AC_Mods: (+1 Dex, +1 dodge, +5 natural)
+HP: '52'
+HD: (7d10+14)
+Saves: Fort +6, Ref +6, Will +9
+Fort: '6'
+Ref: '6'
+Will: '9'
+Speed: 20 ft.
+Melee:
+  - touch +7 (death chill)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death chill
+AbilityScores:
+  - 11
+  - 13
+  - 15
+  - 16
+  - 18
+  - 15
+BaseAtk: '7'
+CMB: '7'
+CMD: '19'
+Feats:
+  - Alertness
+  - Dodge
+  - Great Fortitude
+  - Improved Initiative
+Skills:
+  - Bluff +12
+  - Craft (wood) +12
+  - Diplomacy +8
+  - Knowledge (history) +9
+  - Knowledge (local) +9
+  - Knowledge (planes) +12
+  - Perception +16
+  - Profession (peddler) +10
+  - Sense Motive +16
+  - Survival +10
+Languages:
+  - Common
+  - Celestial
+  - Abyssal
+  - Terran
+SQ: divination, plane shift
+Environment: any land
+Organization: solitary
+Treasure: none (see text)
+Description_Visual: >-
+  This creature appears as a normal human, cloaked in a long gray hooded robe. A
+  long protruding, sharp jaw can be seen under the hood.  He moves with a
+  shuffling gait, pushing a wooden cart that squeaks as it rolls along.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Chill (Su)
+    description: >-
+      The touch of the midnight peddler deals 1d4 negative levels to a living
+      creature. The DC is 15 for the Fortitude save to remove a negative level.
+      The save DC is Constitution-based. The midnight peddler gains 5 temporary
+      hit points for each negative level bestowed.
+  - name: Divination (Su)
+    description: >-
+      The peddler provides advice and answers correctly any one question asked
+      of him by any creature who buys something from his cart. This ability
+      functions similar to a divination spell (caster level 12th).
+  - name: Plane Shift (Su)
+    description: >-
+      The midnight peddler can plane shift (as the spell) to any inner or outer
+      plane as a move action. His cart (and any non-living matter contained
+      therein) shifts with him. This ability otherwise functions as the spell of
+      the same name.
+Description:
+  - >-
+    The midnight peddler wanders city streets and is normally only encountered
+    on fog-covered nights. He is first detected by the audible squeaking of the
+    cart he pushes, the sound growing louder as he draws closer. The sound can
+    be heard at a range of 300 feet with a successful DC 12 Perception check.
+    The midnight peddler moves with a slow gait as he pushes his wooden cart.
+    The contents of his cart vary each time he visits the Material Plane, but at
+    any given time, he has available any item listed in the Pathfinder
+    Roleplaying Game (see the Equipment section) with a value of 50 gp or less.
+  - >-
+    The midnight peddler shuns combat. If forced into battle, he uses his death
+    chill ability at first opportunity and then plane shifts away.
+  - Copyright Notice Author Scott Greene.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2814'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

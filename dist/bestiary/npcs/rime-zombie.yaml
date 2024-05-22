@@ -1,0 +1,79 @@
+Name: Rime Zombie
+CR: '6'
+XP: '2400'
+Race: Young frost giant cold
+MonsterSource: Pathfinder RPG Bestiary 149, 288, 295; page 20
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (cold, giant)
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +2
+AC: 19, touch 10, flat-footed 19
+AC_Mods: (+9 natural)
+HP: '82'
+HD: (15d8+15)
+Saves: Fort +5, Ref +5, Will +11
+Fort: '5'
+Ref: '5'
+Will: '11'
+DR: 5/bludgeoning
+Immune: cold, undead traits
+Weaknesses: vulnerability to fire
+Speed: 40 ft.
+Melee:
+  - 2 slams +18 (1d6+7 plus 1d6 cold)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 25
+  - 11
+  - —
+  - —
+  - 14
+  - 11
+BaseAtk: '11'
+CMB: '18'
+CMD: '28'
+Feats:
+  - ToughnessB
+SQ: staggered
+Source: PFS S2-05
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Staggered (Ex)
+    description: >-
+      Zombies have poor reflexes and can only perform a single move action or
+      standard action each round. A zombie can move up to its speed and attack
+      in the same round as a charge action. A cold zombie loses the staggered
+      special quality when in cold environments. Additionally, even in a cold
+      environment, a cold zombie is staggered for 1 round if it takes any fire
+      damage. This effect does not stack with the zombie's normal staggered
+      special quality; for example, if a cold zombie is in a warm environment
+      and takes fire damage, it is still only staggered.
+BeforeCombat: >-
+  The rime zombies are invisible and have been ordered to wait for all of the
+  PCs to enter the engine room before attacking.
+DuringCombat: >-
+  The rime zombies are dumb brutes and always simply attack the closest target.
+  The engine room is frigid, around 20º F, so the rime zombies are not staggered
+  as combat begins (see below).
+Morale: The rime zombies fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: '@zombie|'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4708'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

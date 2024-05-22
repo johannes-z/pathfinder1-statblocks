@@ -1,0 +1,129 @@
+Name: Widow Creeper
+CR: '13'
+XP: '25600'
+Alignment: 'N'
+Size: Large
+Type: plant
+Init: '4'
+Senses:
+  - darkvision 60 ft., low-light vision, plantsense 120 ft.
+  - Perception +19
+AC: 28, touch 9, flat-footed 28
+AC_Mods: (+19 natural, -1 size)
+HP: '178'
+HD: (17d8+102)
+Saves: Fort +15, Ref +7, Will +8
+Fort: '15'
+Ref: '7'
+Will: '8'
+DR: 15/magic and slashing
+Immune: plant traits
+Speed: 30 ft., climb 20 ft.
+Melee:
+  - 2 tentacles +20 (2d8+8 plus grab)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with tentacles)
+SpecialAttacks: entangle, fluid drain
+AbilityScores:
+  - 27
+  - 10
+  - 21
+  - 2
+  - 12
+  - 6
+BaseAtk: '12'
+CMB: +21 (+25 grapple)
+CMD: 31 (43 vs. trip)
+Feats:
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Perception
+  - Stealth)
+  - Toughness
+  - Weapon Focus (tentacle)
+Skills:
+  - Climb +21
+  - Perception +19
+  - Stealth +5 (+17 in forests)
+RacialMods: +12 Stealth in forests
+SQ: improved woodland stride
+Environment: temperate forests
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This creature resembles a monstrous spider about twice the size of a human
+  constructed of weeds, vines, and leaves. Two writhing tentacles sprout from
+  its spider-like body, each ending in a sharpened point. An hourglass-shaped
+  pattern of leaves and brush can be seen on its back.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Control Plants (Su)
+    description: A widow creeper can use control plants, as the spell (caster level 17th).
+  - name: Entangle (Su)
+    description: >-
+      As a standard action, up to a number of times per day equal to its
+      Constitution modifier (minimum 1), a widow creeper can fire a mass of
+      sticky, clinging vines and weeds to a range of 60 feet at a single target.
+      This requires the widow creeper to succeed on a ranged touch attack with a
+      +11 bonus to hit. A creature hit by the vines is entangled. An entangled
+      creature can break free and move half its normal speed by using a
+      full-round action to make a DC 23 Escape Artist check or a DC 23 Strength
+      check. The check DCs are Constitution-based.
+  - name: Fluid Drain (Ex)
+    description: >-
+      A widow creeper can suck brain fluids from a living creature by making a
+      successful grapple check. If it pins the foe, it drains brain fluid,
+      dealing 1d4 points of Constitution damage and 1 point of Intelligence
+      damage each round that it maintains the hold.
+  - name: Improved Woodland Stride (Su)
+    description: >-
+      A widow creeper can move through any sort of undergrowth (natural thorns,
+      briars, overgrown areas, and similar terrain) at its normal speed without
+      taking damage or suffering other impairment. This includes thorns, briars,
+      and overgrown areas that are magically manipulated to impede motion.
+  - name: Plantsense (Ex)
+    description: >-
+      A widow creeper can automatically pinpoint the location of anything within
+      120 feet that is in contact with vegetation.
+Description:
+  - >-
+    Widow creepers are spider-like plant creatures that make their lairs deep in
+    tangled forests. They constantly harass woodsmen, foresters, and denizens of
+    the forests from their weed-like webs which they spin high in the tree tops.
+    Widow creepers spend much of their time in their nests, venturing forth only
+    to feed, and even then, they rarely venture far from their lair. They prefer
+    to lure potential prey to them by rustling nearby leaves or underbrush. A
+    widow creeper sustains itself on a diet of brain fluid and blood. Corpses
+    drained of blood and fluids are left where they fall; the widow creeper does
+    not devour the flesh, bones, or muscle of its prey. A widow creeper is 8
+    feet tall and looks like a giant black widow formed from leaves, weeds, and
+    tangled brush. It is dark greenish-brown in color. Two long, sinewy
+    vine-like tentacles protrude from its body and aid the creature in capturing
+    and securing its prey. A widow creeper utters no sounds and cannot speak any
+    known languages. Widow creepers are ambush hunters, waiting in their
+    vine-like webs for a creature to pass nearby. When a potential meal comes
+    close to its nest the widow creeper leaps from hiding and attacks. It uses
+    its tentacles to either slash its foe or grapple it. Against a grappled foe,
+    a widow creeper stabs one of its long tentacles into the opponent's head and
+    attempts to drain its brain fluids. While grappling a foe, the widow creeper
+    uses its control plants and entangle attacks to keep any other opponents at
+    bay. Copyright Notice Author Scott Greene.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3428'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

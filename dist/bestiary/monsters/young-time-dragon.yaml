@@ -1,0 +1,135 @@
+Name: Young Time Dragon
+CR: '11'
+XP: '12800'
+Alignment: 'N'
+Size: Large
+Type: dragon
+Init: '9'
+Senses:
+  - detect magic, dragon senses, see in darkness
+  - Perception +18
+AC: 21, touch 11, flat-footed 19
+AC_Mods: (+2 Dex, +10 natural, -1 size)
+HP: '149'
+HD: (13d12+65)
+Saves: Fort +13, Ref +10, Will +10
+Fort: '13'
+Ref: '10'
+Will: '10'
+Immune: cold, paralysis, sleep, staggered
+Speed: 50 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +20 (2d6+10), 2 claws +20 (1d8+7), 2 wings +17 (1d6+3), tail slap +17
+    (1d8+10)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (40-ft. cone, 6d10 electricity, DC 21)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +13)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At will
+      value: share memoryUM
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 1st; concentration +3)
+  values:
+    - label: 1st (4/day)
+      value: erase, mage armor
+    - label: 0 (at will)
+      value: mage hand, message, read magic, resistance
+AbilityScores:
+  - 24
+  - 15
+  - 20
+  - 15
+  - 14
+  - 15
+BaseAtk: '13'
+CMB: '21'
+CMD: 33 (37 vs. trip)
+Feats:
+  - Cleave
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Knowledge [history])
+  - Weapon Focus (bite)
+  - Weapon Focus (claw)
+Skills:
+  - Diplomacy +18
+  - Fly +12
+  - Knowledge (arcana) +18
+  - Knowledge (planes) +18
+  - Knowledge (religion) +18
+  - Knowledge (history) +24
+  - Perception +18
+  - Spellcraft +18
+Languages:
+  - Common
+  - Draconic
+  - Elven
+SQ: immortal, no breath, read the threads, starflight
+Environment: vacuum
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This dragon's cracked scales creak with frightening, patient power. Some of
+  its horns are ancient and brittle, others new and pristine.
+Group: Outer Dragon
+Source: PFRPG Bestiary 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Immortal (Ex)
+    description: Time dragons age, but don't die from old age.
+  - name: Read the Threads (Su)
+    description: >-
+      A time dragon gains a racial bonus on initiative checks equal to its age
+      category. In addition, a time dragon is immune to the staggered condition.
+  - name: Alien Presence (Su)
+    description: >-
+      A creature that fails its saving throw against a time dragon's alien
+      presence is staggered for 5d6 rounds (or stunned if it has 4 Hit Dice or
+      fewer).
+  - name: Shifting Breath (Su)
+    description: >-
+      Instead of a cone of electricity, an old or older time dragon can use its
+      breath weapon to displace creatures in time. Each creature in the cone
+      must succeed at a Will save or be shifted forward in time a number of
+      rounds equal to 1/2 the dragon's age category (DC equal to breath weapon).
+      For an affected creature, it's as if no time passed. Creatures that
+      succeed at their saves are staggered for 1 round.
+  - name: Second Chance (Su)
+    description: >-
+      Three times per day as an immediate action, an ancient or older time
+      dragon can force a creature (including itself) to reroll any d20 roll. The
+      target must use the result of the second roll.
+  - name: Time Travel (Su)
+    description: >-
+      Up to three times in its life, a great wyrm time dragon can travel to any
+      point in time, taking with it a number of willing creatures equal to its
+      Charisma modifier.
+Description:
+  - >-
+    Guardians of history, time dragons are the most powerful of the outer
+    dragons. Watchers and waiters, time dragons guard the universe against those
+    that would interfere with the natural temporal order.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: young
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5188'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

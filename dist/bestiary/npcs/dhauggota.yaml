@@ -1,0 +1,122 @@
+Name: Dhauggota
+CR: '10'
+XP: '9600'
+Race: gutaki (variant devilfish)
+Class: sorcerer 8
+MonsterSource: 'Pathfinder RPG Bestiary 2 88, Pathfinder #7 81'
+Alignment: NE
+Size: Large
+Type: magical beast
+SubType: (aquatic)
+Init: '9'
+Senses:
+  - low-light vision, see in darkness
+  - Perception +10
+AC: 24, touch 15, flat-footed 19
+AC_Mods: (+4 armor, +1 deflection, +5 Dex, +5 natural, -1 size)
+HP: '128'
+HD: (13 HD; 5d10+8d6+73)
+Saves: Fort +12, Ref +13, Will +10
+Fort: '12'
+Ref: '13'
+Will: '10'
+Resist: cold 10
+Speed: 10 ft., swim 40 ft., jet 240 ft.
+Melee:
+  - tentacles +10 (3d6+3 plus grab)
+Space: 10 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  dehydrating attack* (1d6+4, 6/day), savage bite (+10 melee, 2d6+3/18-20 plus
+  poison), unholy blood (DC 16)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 8th; concentration +11)
+  values:
+    - label: 6/day
+      value: dehydrating attack* (1d6+4)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 8th; concentration +11)
+  values:
+    - label: 4th (3/day)
+      value: summon monster IV
+    - label: 3rd (6/day)
+      value: aqueous orb* (DC 16), lightning bolt (DC 16), ray of exhaustion (DC 16)
+    - label: 2nd (7/day)
+      value: blur, darkness, scorching ray, slipstream* (DC 15)
+    - label: 1st (7/day)
+      value: >-
+        chill touch (DC 14), expeditious retreat, hydraulic push*, mage armor,
+        magic missile, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 13), detect magic, mage hand, ray of frost, read
+        magic, resistance, touch of fatigue (DC 13)
+AbilityScores:
+  - 14
+  - 20
+  - 19
+  - 12
+  - 12
+  - 17
+BaseAtk: '9'
+CMB: +12 (+16 grapple)
+CMD: 28 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Silent Spell
+  - Toughness
+Skills:
+  - Knowledge (arcana) +10
+  - Knowledge (planes) +4
+  - Perception +10
+  - Spellcraft +10
+  - Stealth +13
+  - Swim +16
+  - Use Magic Device +12
+Languages:
+  - Abyssal
+  - Aklo
+  - Aquan
+  - Common
+SQ: aquatic adaptation*, bloodline arcana, water dependency
+Source: AP 46
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Savage bite-injury; save Fort DC 16; frequency 1/ round for 6 rounds;
+      effect 1d2 Str; cure 2 consecutive saves.
+Gender: Female
+Bloodline: Aquatic*
+BeforeCombat: Dhauggota casts blur and mage armor before entering combat.
+DuringCombat: >-
+  Dhauggota targets opponents with lightning bolt and other ranged spells. If a
+  foe in the water appears to be unable to breathe or swim well, she targets it
+  with ray of exhaustion before moving in to attack with her tentacles and
+  savage bite.
+Morale: >-
+  Dhauggota flees into the depths of the lake using her jet ability if reduced
+  to fewer than 30 hit points.
+OtherGear: headband of alluring charisma +2, ring of protection +1
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1698'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

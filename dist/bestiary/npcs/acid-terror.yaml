@@ -1,0 +1,125 @@
+Name: Acid Terror
+CR: '12'
+XP: '19200'
+Race: human
+Class: sorcerer 9/dragon disciple 4
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +12
+AC: 24, touch 15, flat-footed 21
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 dodge, +5 natural)
+HP: '108'
+HD: (9d6+4d12+48)
+Saves: Fort +9, Ref +10, Will +11;
+Fort: '9'
+Ref: '10'
+Will: '11'
+Resist: acid 10
+Speed: 30 ft.
+Melee:
+  - 2 claws +10 (1d6+3 plus 1d6 acid), bite +10 (1d6+4)
+  - quarterstaff +10/+5 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (30-foot cone, 13d6 acid, DC 22, 2/day), claws (2, 1d6+3 plus
+  1d6 acid, magic, 9 rounds/day), dragon bite
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +18)
+  values:
+    - label: 6th (4/day)
+      value: acid fog, form of the dragon I
+    - label: 5th (6/day)
+      value: cloudkill (DC 23), feeblemind (DC 22), spell resistance
+    - label: 4th (7/day)
+      value: black tentacles, confusion (DC 21), dimension door, fear (DC 20)
+    - label: 3rd (7/day)
+      value: >-
+        displacement, fly, hold person (DC 20), stinking cloud (DC 21),
+        suggestion (DC 20)
+    - label: 2nd (8/day)
+      value: >-
+        acid arrow, glitterdust (DC 20), hideous laughter (DC 19), invisibility,
+        resist energy, web (DC 20)
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 18), color spray (DC 17), mage armor, magic missile,
+        reduce person (DC 17), silent image (DC 17)
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, daze (DC 17), detect magic, mage hand,
+        message, open/close, ray of frost, read magic
+AbilityScores:
+  - 16
+  - 14
+  - 15
+  - 10
+  - 8
+  - 22
+BaseAtk: '7'
+CMB: '10'
+CMD: '25'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Greater Spell Focus (conjuration)
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Quicken Spell
+  - Spell Focus (conjuration)
+  - Spell Focus (enchantment)
+  - Toughness
+Skills:
+  - Climb +4
+  - Fly +6
+  - Intimidate +19
+  - Knowledge (arcana) +8
+  - Linguistics +1
+  - Perception +12
+  - Spellcraft +7
+  - Stealth +9
+Languages:
+  - Common
+  - Draconic
+SQ: blood of dragons, bloodline arcana (acid spells deal +1 damage per die)
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: draconic (green)
+BeforeCombat: >-
+  As soon as she suspects combat is imminent, the dragon disciple casts mage
+  armor and spell resistance.
+DuringCombat: >-
+  The dragon disciple prefers to keep her distance, and starts combat by casting
+  quickened web followed by acid fog. She then casts fly, black tentacles, acid
+  arrow, feeblemind, and cloudkill, with judicious uses of Quickened Spell.
+Gear: >-
+  potion of cure serious wounds, potion of delay poison, wand of detect thoughts
+  (15 charges)
+OtherGear: >-
+  quarterstaff, amulet of natural armor +1, belt of mighty constitution +2,
+  cloak of resistance +2, hat of disguise, headband of alluring charisma +2,
+  ring of protection +2, 800 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor, the dragon disciple's statistics are AC 20, touch 15,
+  flat-footed 17.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3885'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

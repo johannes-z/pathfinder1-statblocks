@@ -1,0 +1,93 @@
+Name: Disciple Of Dark Water
+CR: '2'
+XP: '600'
+Race: Lizardfolk
+Class: cleric of Kelizandri 2
+MonsterSource: Pathfinder RPG Bestiary 195
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (reptilian)
+Init: '0'
+Senses:
+  - Perception +1
+AC: 18, touch 10, flat-footed 18
+AC_Mods: (+3 armor, +5 natural)
+HP: '20'
+HD: (4d8+2)
+Saves: Fort +6, Ref +2, Will +4
+Fort: '6'
+Ref: '2'
+Will: '4'
+Speed: 30 ft., swim 15 ft.
+Melee:
+  - mwk trident +6 (1d8+4), bite +0 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 12, 1d6), destructive smite (+1, 4/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 2nd; concentration +3)
+  values:
+    - label: 4/day
+      value: icicle (1d6+1 cold)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 2nd; concentration +3)   1st-cure light wounds,
+  endure elements, entropic shield, true strikeD   0 (at will)-bleed (DC 11),
+  create water, light, resistance
+SpellDomains: Destruction, Water
+AbilityScores:
+  - 17
+  - 10
+  - 10
+  - 12
+  - 13
+  - 12
+BaseAtk: '2'
+CMB: '5'
+CMD: '15'
+Feats:
+  - Lightning Reflexes
+  - Power Attack
+Skills:
+  - Acrobatics +4
+  - Climb +7
+  - Handle Animal +7
+  - Knowledge (religion) +5
+  - Sense Motive +7
+  - Spellcraft +7
+  - Swim +12
+RacialMods: +4 Acrobatics
+Languages:
+  - Draconic
+  - Polyglot
+SQ: hold breath
+Source: Ire Of The Storm
+IsTemplate: '0'
+BeforeCombat: >-
+  Each morning the disciples cast endure elements on themselves to navigate the
+  dungeon's extreme climates. If they hear combat nearby, they cast entropic
+  shield.
+DuringCombat: >-
+  Daruthek's disciples attack with destructive smite and tridents or hurl
+  icicles at distant opponents. They use little strategy, pausing to heal
+  themselves only if reduced to fewer than half their hit points.
+Morale: The disciples fight to the death.
+Gear: scroll of spiritual weapon
+OtherGear: >-
+  +1 leather armor, mwk trident, silver unholy symbol of Kelizandri (worth 25
+  gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8394'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

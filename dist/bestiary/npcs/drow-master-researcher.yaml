@@ -1,0 +1,139 @@
+Name: Drow Master Researcher
+CR: '8'
+XP: 3,6000
+Race: drow
+Class: sorcerer 9
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (elf )
+Init: '1'
+Senses:
+  - darkvision 120 ft.
+  - Perception +5
+AC: 12, touch 12, flat-footed 11
+AC_Mods: (+1 deflection, +1 Dex)
+HP: '45'
+HD: (9d6)
+Saves: Fort +4, Ref +7, Will +9; +2 vs. enchantment
+Fort: '4'
+Ref: '7'
+Will: '9'
+Save_Mods: +2 vs. enchantment
+Immune: sleep
+SR: '15'
+Weaknesses: light blindness
+Speed: 30 ft., fly 30 ft. (good)
+Melee:
+  - mwk dagger +4 (1d4-1/19-20 plus poison)
+Ranged:
+  - hand crossbow +5 (1d4/19-20 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th)
+  values:
+    - label: 1/day
+      value: dancing lights, darkness, faerie fire
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 9th)  4th (5)-dimension door, greater
+    invisibility, solid fog, summon monster IV  3rd (7)-deep slumber, dispel
+    magic, haste, slow  2nd (6)-false life, invisibility, knock, locate object,
+    make whole  1st (8)-charm person, comprehend languages, detect secret doors,
+    erase, identify, magic missile
+  values:
+    - label: 0 (at will)
+      value: >-
+        detect magic, detect poison, light, mage hand, mending, message,
+        open/close, read magic
+AbilityScores:
+  - 8
+  - 12
+  - 10
+  - 14
+  - 14
+  - 20
+BaseAtk: '4'
+CMB: '3'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Empower Spell
+  - Eschew Materials
+  - Lightning Reflexes
+  - Silent Spell
+  - Skill Focus (Knowledge [arcana])
+  - Skill Focus (Stealth)
+Skills:
+  - Appraise +7
+  - Diplomacy +7
+  - Fly +5
+  - Intimidate +11
+  - Knowledge (arcana) +17
+  - Knowledge (nobility) +4
+  - Knowledge (planes) +7
+  - Knowledge (religion) +4
+  - Linguistics +3
+  - Perception +5
+  - Spellcraft +14
+  - Stealth +5
+  - Survival +3
+  - Use Magic Device +9
+Languages:
+  - Elven
+  - Ancient Orisiani
+  - Undercommon,
+SQ: bloodline power (arcane bond, dagger), metamagic adept 2/ day, poison use
+Source: PFS S1-32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison Use (Ex)
+    description: >-
+      Drow are skilled in the use of poison and never risk accidentally
+      poisoning themselves. The master researchers do not carry any poison.
+Gender: Female
+Bloodline: arcane
+BeforeCombat: >-
+  The master researchers cast false life on themselves every day (this is
+  already included in the above hit point totall). If expecting combat, they
+  casts invisibility, followed by castings of summon monster IV every round to
+  summon a hound archon (for the irony of using a lawful good archon against her
+  enemies amuses them). Their first casting of summon monster IV is the bonus
+  spell from their arcane bond daggers (which doesn't count toward the spells
+  per day listed above).
+DuringCombat: >-
+  If the researchers are not invisible at the start of combat, they cast
+  invisibility. One then casts haste on the drow captain, the other casts summon
+  monster IV if she hasn't done so once or twice already, with the first
+  researcher following up with a summoning of her own. If the captain is having
+  a hard time defeating the PCs, the researchers cast greater invisibility and
+  false life on the captain, slow on their enemies, then turn invisible again
+  and continue to cast either false life on the captain or another summon
+  monster every round, saving one 4th-level spell slot.
+Morale: >-
+  If the captain is defeated and it looks like the PCs are going to be able to
+  kill the researchers, they cast dimension door to teleport out of the pyramid
+  and onto the floor of the cavern directly underneath it, then cast
+  invisibility and try to escape back into the Darklands. If prevented from
+  using dimension door, they cast charm person to gain temporary allies and try
+  to fly "down" the floor tunnel and team up with the demon in area 5.
+Gear: potion of cure moderate wounds, mwk dagger, hand crossbow, bolts (20)
+OtherGear: >-
+  headband of alluring charisma +2, bundle of scrolls with notes about the
+  pyramid's warding magic (written in Undercommon), 200 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4139'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

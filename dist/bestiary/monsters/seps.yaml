@@ -1,0 +1,97 @@
+Name: Seps
+CR: '11'
+XP: '12800'
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +17
+AC: 26, touch 10, flat-footed 24
+AC_Mods: (+2 Dex, +16 natural, -2 size)
+HP: '147'
+HD: (14d10+70)
+Saves: Fort +14, Ref +11, Will +6
+Fort: '14'
+Ref: '11'
+Will: '6'
+DefensiveAbilities: acid blood
+Immune: acid, poison
+Speed: 30 ft.
+Melee:
+  - bite +23 (3d8+15/19-20 plus poison)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: poison
+AbilityScores:
+  - 30
+  - 14
+  - 21
+  - 2
+  - 11
+  - 11
+BaseAtk: '14'
+CMB: '26'
+CMD: 38 (can't be tripped)
+Feats:
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+  - Weapon Focus (bite)
+Skills:
+  - Perception +17
+  - Stealth +11
+RacialMods: +4 Perception, +4 Stealth
+SQ: liquefaction
+Environment: temperate or warm deserts or forests
+Organization: solitary or nest (2-5)
+Treasure: incidental (acid-proof items)
+Description_Visual: >-
+  This giant armored snake has large fangs, dripping with venom that hisses when
+  it spatters on the ground.
+Source: PFRPG Bestiary 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid Blood (Ex)
+    description: >-
+      A metal, wooden, or natural weapon that deals piercing or slashing damage
+      to a seps takes 4d6 points of acid damage unless the weapon's wielder
+      succeeds at a DC 22 Reflex save at the listed DC. The DC is
+      Constitution-based.
+  - name: Liquefaction (Su)
+    description: >-
+      Any creature killed by seps poison dissolves into an acidic liquid that
+      deals 2d6 points of acid damage per round to anything in its square
+      (including the dead creature's equipment).
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 22; frequency 1/round for 10 rounds; effect 1d8
+      acid damage and 1d4 Con drain; cure 2 consecutive saves.
+Description:
+  - >-
+    A seps is an exotic snake-like creature whose powerful jaws contain acidic
+    venom so potent that it quickly dissolves prey into liquid. An adult seps is
+    30 feet long and weighs 1,500 pounds.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5347'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

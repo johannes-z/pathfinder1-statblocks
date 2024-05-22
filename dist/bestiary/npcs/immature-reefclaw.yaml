@@ -1,0 +1,89 @@
+Name: Immature Reefclaw
+CR: 1/2
+XP: '200'
+Race: reefclaw
+MonsterSource: Pathfinder RPG Bestiary 2 234, 293
+Alignment: CN
+Size: Tiny
+Type: aberration
+SubType: (aquatic)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +6
+AC: 15, touch 13, flat-footed 12
+AC_Mods: (+3 Dex, +2 size)
+HP: '9'
+HD: (2d8)
+Saves: Fort +0, Ref +3, Will +4
+Fort: '0'
+Ref: '3'
+Will: '4'
+DefensiveAbilities: ferocity
+Resist: cold 5
+Speed: 5 ft., swim 40 ft.
+Melee:
+  - 2 claws (1d3-2 plus grab and poison)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: death frenzy, constrict (1d3-2)
+AbilityScores:
+  - 6
+  - 17
+  - 10
+  - 5
+  - 12
+  - 13
+BaseAtk: '1'
+CMB: '-3 (+5 grapple)'
+CMD: 10 (can't be tripped)
+Feats:
+  - Improved Initiative
+Skills:
+  - Perception +6
+  - Swim +6
+Languages:
+  - Common (can't speak)
+SQ: amphibious
+Source: PFS S3-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Frenzy (Su)
+    description: >-
+      When a reefclaw is killed, its body spasms horrifically. Immediately upon
+      dying, the reefclaw makes a full attack against a creature it threatens.
+      If more than one creature is within reach, roll randomly for each attack
+      to determine the target (which may be another reefclaw).
+  - name: Grab (Ex)
+    description: >-
+      A reefclaw can use its grab ability on a target of any size. Reefclaws
+      have a +8 racial bonus on grapple checks; this bonus replaces the normal
+      +4 bonus a creature with grab receives.
+  - name: Poison (Ex)
+    description: >-
+      Claw-injury; save Fort DC 11; frequency 1/round for 4 rounds; effect 1d2
+      Str; cure 1 save. The save DC is Constitution-based.
+BeforeCombat: >-
+  The reefclaws wait until the entire party has entered the chamber or one of
+  their foes has its back turned before they attack, surrounding their enemies
+  to block the exit.
+DuringCombat: >-
+  Silently drifting from the watery recesses of the southernmost chamber, they
+  pounce from the water and grab their prey.
+Morale: The reefclaws fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: young|
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '5903'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

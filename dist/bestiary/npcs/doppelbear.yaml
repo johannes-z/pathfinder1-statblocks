@@ -1,0 +1,84 @@
+Name: Doppelbear
+CR: '1'
+XP: '400'
+Race: Doppelbear
+Alignment: NE
+Size: Medium
+Type: animal
+SubType: (daemon)
+Init: '-1'
+Senses:
+  - low-light vision, scent
+  - Perception +3
+AC: 9, touch 9, flat-footed 9
+AC_Mods: (-1 Dex)
+HP: '13'
+HD: (3d8)
+Saves: Fort +3, Ref +2, Will +0
+Fort: '3'
+Ref: '2'
+Will: '0'
+DefensiveAbilities: unusual anatomy
+Speed: 30 ft.
+Melee:
+  - slam +3 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 12
+  - 8
+  - 10
+  - 3
+  - 9
+  - 10
+BaseAtk: '2'
+CMB: '3'
+CMD: '12'
+Feats:
+  - Endurance
+  - Self-Sufficient
+Skills:
+  - Climb +13
+  - Heal +1
+  - Perception +3
+  - Survival +2
+  - Swim +1 (+5 to resist nonlethal damage from exhaustion)
+SQ: daemonic osmosis, morph
+Source: 'Rappan Athuk-Area 31: The Face in the Forest'
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Daemonic Osmosis (Su)
+    description: >-
+      If a doppelbear spends at least 24 hours watching a mark (or just being
+      within 50 feet of him) it may permanently gain a feat that the mark has
+      used, even if the doppelbear does not meet the requirements.
+      Alternatively, it may gain one 0-level or 1st-level spell that the mark
+      casts during that time as a spell-like ability (CL 3rd), usable 3 times a
+      day. This effect uses the creature's Charisma to determine the spell's DC.
+      This ability can be used only to obtain spells with a material component
+      worth less than 5 gp. Once daemonic osmosis is used on a mark, the ability
+      only functions if used on the same mark.
+  - name: Morph (Su)
+    description: >-
+      A doppelbear begins to change into a facestealer the first time it uses
+      its daemonic osmosis ability, taking on the appearance of its mark over a
+      period of 3 days.
+  - name: Unusual Anatomy (Ex)
+    description: >-
+      Doppelbears have a 25% chance to treat any critical hits they suffer as a
+      normal hit.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12473'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

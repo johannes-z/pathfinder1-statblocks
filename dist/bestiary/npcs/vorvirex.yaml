@@ -1,0 +1,112 @@
+Name: Vorvirex
+CR: '11'
+XP: '12800'
+Race: young umbral dragon
+MonsterSource: >-
+  Pathfinder Player Companion: Monster Summoner's Handbook 19, Pathfinder RPG
+  Bestiary 2 102
+Alignment: CE
+Size: Large
+Type: dragon
+SubType: (extraplanar, fire)
+Init: '5'
+Senses:
+  - dragon senses
+  - Perception +17
+AC: 26, touch 10, flat-footed 25
+AC_Mods: (+4 armor, +1 Dex, +12 natural, -1 size)
+HP: '104'
+HD: (11d12+33)
+Saves: Fort +10, Ref +8, Will +10
+Fort: '10'
+Ref: '8'
+Will: '10'
+DefensiveAbilities: negative energy affinity
+DR: 5/-
+Immune: cold, death effects, fire, negative energy, paralysis, sleep
+Speed: 40 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +15 (2d6+7/19-20 plus 3d6 fire), 2 claws +15 (1d8+5 plus 3d6 fire),
+    tail slap +13 (1d8+7 plus 3d6 fire), 2 wings +13 (1d6+2 plus 3d6 fire)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (40-ft. cone, 6d8 negative energy, Reflex DC 18 half)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +14)
+  values:
+    - label: At Will
+      value: darkness
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 1st; concentration +4)
+  values:
+    - label: 1st (4/day)
+      value: alarm, mage armor
+    - label: 0 (at will)
+      value: daze (DC 13), detect magic, mage hand, message
+AbilityScores:
+  - 21
+  - 12
+  - 17
+  - 16
+  - 17
+  - 16
+BaseAtk: '11'
+CMB: '17'
+CMD: 28 (32 vs. trip)
+Feats:
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Bluff +17
+  - Diplomacy +17
+  - Fly +9
+  - Knowledge (arcana
+  - local
+  - planes) +17
+  - Perception +17
+  - Sense Motive +17
+  - Stealth +11
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Ignan
+SQ: ghost bane, umbral scion
+Source: PFS 8-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ghost Bane (Su)
+    description: Vorvirex's physical attacks deal damage to incorporeal creatures normally.
+  - name: Umbral Scion (Ex)
+    description: >-
+      Vorvirex has negative energy affinity and is immune to energy drain and
+      death effects.
+BeforeCombat: Vorvirex casts entropic shield and mage armor on himself.
+DuringCombat: >-
+  Vorvirex engages the PCs from a distance using his breath weapon and sticking
+  to the air. If facing opponents with superior ranged abilities, he instead
+  lands and uses his natural attacks.
+Morale: >-
+  If Azhghazara is slain and Vorvirex is reduced to 15 or fewer hit points, he
+  attempts to flee across the chasm and into the Plane of Fire.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: fiery|
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '11618'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

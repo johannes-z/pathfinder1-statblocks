@@ -1,0 +1,153 @@
+Name: Brahlim
+CR: '6'
+XP: '1600'
+Race: fossegrim
+MonsterSource: Pathfinder RPG Bestiary 4 288, 114
+Alignment: NE
+Size: Medium
+Type: fey
+SubType: (aquatic)
+Init: '7'
+Senses:
+  - low-light vision
+  - Perception +19
+AC: 19, touch 14, flat-footed 15
+AC_Mods: (+3 Dex, +1 dodge, +5 natural)
+HP: '65'
+HD: (10d6+30)
+Saves: Fort +6, Ref +10, Will +9
+Fort: '6'
+Ref: '10'
+Will: '9'
+DR: 5/cold iron
+Speed: 30 ft., swim 40 ft., water walk
+Melee:
+  - 2 slams +9 (2d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: drowning touch, enchanting music
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +14)
+  values:
+    - label: Constant
+      value: water walk
+    - label: At Will
+      value: create water
+    - label: 3/day
+      value: aqueous orbAPG (DC 18), hydraulic torrentAPG
+    - label: 1/day
+      value: control water (DC 19)
+AbilityScores:
+  - 10
+  - 17
+  - 17
+  - 12
+  - 14
+  - 21
+BaseAtk: '5'
+CMB: '5'
+CMD: '19'
+Feats:
+  - Alertness
+  - Dodge
+  - Improved Initiative
+  - Weapon Finesse
+  - Weapon Focus (slam)
+Skills:
+  - Bluff +18
+  - Diplomacy +9
+  - Knowledge (geography) +5
+  - Knowledge (nature) +10
+  - Perception +19
+  - Perform (sing) +9
+  - Perform (string instruments) +24
+  - Sense Motive +19
+  - Sleight of Hand +7
+  - Stealth +16
+  - Swim +25
+RacialMods: +4 Perform (string instruments), +4 Swim
+Languages:
+  - Common
+  - Sylvan
+SQ: transparency, treasure form
+Source: PFS S6-21
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Drowning Touch (Su)
+    description: >-
+      A fossegrim can flood the lungs of a creature that is willing, is
+      helpless, is affected by its enchanted music ability, touches it while
+      it's in treasure form, or is touched by it (traditionally by kissing the
+      creature on the lips). If the target cannot breathe water, it cannot hold
+      its breath and immediately begins to drown slowly. On its turn, the target
+      can attempt a DC 18 Fortitude save to cough up this water; if it fails, it
+      falls unconscious at 0 hp. On the next round, a fallen target must attempt
+      another DC 18 Fortitude save, dropping to -1 hit points and dying if it
+      fails; on the next round it must attempt to save again or lose 1d6 hit
+      points. On the first successful save, the water clears from the target's
+      lungs and the target stabilizes. The save DC is Constitution-based.
+  - name: Enchanting Music (Su)
+    description: >-
+      As a full-round action, a fossegrim can play a musical stringed instrument
+      (usually a harp or violin) and target a single creature within 45 feet
+      that can hear and see the fossegrim with an effect identical to the
+      unnatural lustUM spell (CL 9th; DC 20 Will save negates). This action
+      provokes attacks of opportunity. If the target touches or kisses the
+      fossegrim, the fey can affect the target with its drowning touch ability.
+      This is a sonic mind-affecting compulsion effect. The save DC is
+      Charisma-based.
+  - name: Transparency (Su)
+    description: >-
+      When underwater, a fossegrim's body becomes transparent, effectively
+      rendering it invisible. It can become visible or transparent at will as a
+      free action.
+  - name: Treasure Form (Su)
+    description: >-
+      As a standard action when completely underwater, a fossegrim can create an
+      illusion causing it to resemble a Medium pile of gold and silver coins,
+      glittering jewels, and valuable art objects. If a fossegrim speaks, moves,
+      attacks, or uses any of its special abilities or spell-like abilities
+      while in treasure form, the illusion dissipates. A successful DC 20 Will
+      save is required to disbelieve this illusion. If a living creature within
+      the fossegrim's melee reach touches or physically interacts with the
+      illusion, the fossegrim reaches out to kiss or otherwise touch that
+      creature, automatically affecting the creature with its drowning touch
+      ability. The fossegrim can maintain this illusion indefinitely and can
+      revert to its normal natural form as a free action. This is a
+      mind-affecting illusion (glamer) effect. The save DC to disbelieve is
+      Charisma-based.
+Gender: Male
+BeforeCombat: >-
+  If Brahlim detects the PCs before they detect him, he lies at the bottom of
+  the pool using his treasure form ability and waits for them to approach. If
+  the PCs leave without investigating the "treasure" at the bottom of the pool,
+  he uses his enchanting music ability to bring them closer.
+DuringCombat: >-
+  Brahlim tries to separate the PCs, using aqueous orb and hydraulic torrent to
+  push some PCs away, and using his slam attacks on creatures under the effects
+  of his enchanting music to deliver his drowning touch. He uses his underwater
+  invisibility to his advantage.
+Morale: >-
+  Brahlim agreed to guard the approach to the duergar settlement, but he does
+  not have any particular loyalty to the draugr. He surrenders when reduced to
+  17 hit points or fewer, offering the PCs the treasure at the bottom of the
+  pool as well as the information he knows about the duergar in exchange for his
+  life (see Development below).
+Gear: wand of cure moderate wounds (25 charges)
+OtherGear: mwk harp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7974'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

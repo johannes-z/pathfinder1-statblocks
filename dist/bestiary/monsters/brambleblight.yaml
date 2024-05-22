@@ -1,0 +1,195 @@
+Name: Brambleblight
+CR: '7'
+XP: '3200'
+Alignment: 'N'
+Size: Large
+Type: plant
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision, plantsense 120 ft.
+  - Perception +10
+Aura: blight (40 ft., DC 19)
+AC: 20, touch 12, flat-footed 17
+AC_Mods: (+3 Dex, +8 natural, -1 size)
+HP: '85'
+HD: (10d8+40)
+Saves: Fort +11, Ref +6, Will +5
+Fort: '11'
+Ref: '6'
+Will: '5'
+DefensiveAbilities: thorny
+Immune: plant traits
+Speed: 20 ft.
+Melee:
+  - 2 slams +13 (2d6+7)
+Ranged:
+  - 4 thorns +10 (1d6+7)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: animate brambles, rain of thorns
+AbilityScores:
+  - 25
+  - 16
+  - 18
+  - 6
+  - 14
+  - 8
+BaseAtk: '7'
+CMB: '15'
+CMD: 28 (can't be tripped)
+Feats:
+  - Combat Reflexes
+  - Improved Initiative
+  - Power Attack
+  - Stand Still
+  - Weapon Focus (thorns)
+Skills:
+  - Perception +10
+  - Stealth +7 (+19 in forests)
+RacialMods: +12 Stealth in forests
+Languages:
+  - Sylvan
+SQ: bramble infestation, improved woodland stride
+Environment: temperate or warm forests or underground
+Organization: solitary
+Treasure: incidental
+Description_Visual: >-
+  Two long vines covered in sharp thorns protrude from what appears to be a
+  massive rotting bundle of barbs that's topped with a heap of berry-red eyes.
+Source: AP 92
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Animate Brambles (Su)
+    description: >-
+      As a standard action, a brambleblight can animate any of the dead, thorny
+      brambles created by its bramble infestation ability. For 1 minute, the
+      animated bramble (see page 85) then attacks as though it were a Large
+      animated object. The animated bramble is under the control of the
+      brambleblight, which can change the animated bramble's target as a move
+      action. The brambleblight can instead cause the brambles to entwine around
+      creatures as if by the entangle spell (the brambles are considered to be
+      covered in thorns). This effect lasts for 1 hour.
+  - name: Blight Aura (Su)
+    description: >-
+      A brambleblight radiates a palpable aura of rot and decay in a 40-foot
+      radius. Living creatures entering the aura must succeed at a DC 19
+      Fortitude save or be sickened for 1 round. A creature of the animal, fey,
+      or plant type that fails its save is nauseated for 1 round and sickened
+      for 1 minute thereafter. If a creature succeeds at this saving throw, it
+      is immune to this effect for 24 hours. In addition, any plant creature
+      entering this aura takes 1d6 points of damage each round it is within the
+      area (Fortitude DC 19 half). Creatures that are immune to disease are
+      immune to this aura, and the resist nature's lure class feature applies to
+      the aura's effects. The save DC is Constitution-based.
+  - name: Bramble Infestation (Su)
+    description: >-
+      A brambleblight can devastate its surroundings, creating an area of dead,
+      thorny brambles. To do so, the brambleblight must root itself in the
+      ground and remain motionless for 24 hours. Over the next day, all plants
+      that are not creatures in a 40-foot radius around the brambleblight sprout
+      thorny brambles, then wither and die. This infestation of brambles
+      persists and nothing grows in this area for as long as the brambleblight
+      remains in the area. If the brambleblight leaves the area, normal growth
+      returns after 1 week.
+  - name: Improved Woodland Stride (Ex)
+    description: >-
+      A brambleblight can move through any sort of undergrowth (such as natural
+      thorns, briars, overgrown areas, and similar terrain) at its normal speed
+      without taking damage or suffering other impairments. However, it can also
+      move without harm or impediment through thorns, briars, and overgrown
+      areas that are magically manipulated to impede motion.
+  - name: Plantsense (Ex)
+    description: >-
+      A brambleblight can automatically pinpoint the location of anything within
+      120 feet that is in contact with vegetation.
+  - name: Rain of Thorns (Ex)
+    description: >-
+      With a snap of its thorny vines, a brambleblight can loose a volley of
+      four thorns as a standard action (make an attack roll for each thorn).
+      This attack has a range of 120 feet with no range increment. All targets
+      must be within 30 feet of each other. A brambleblight can launch up to 36
+      thorns in any 24-hour period.
+  - name: Thorny (Ex)
+    description: >-
+      A brambleblight's surface is covered in a host of thorns. A creature that
+      strikes a brambleblight with a natural weapon, a melee weapon without
+      reach, or an unarmed strike takes 1d6 points of piercing damage. Creatures
+      that grapple a brambleblight automatically take 1d6 points of piercing
+      damage each round they maintain the grapple.
+Description:
+  - >-
+    A stain on the land it infests, a brambleblight slowly alters its
+    environment, infecting the local vegetation with sickness through its blight
+    aura. When the native vegetation dies, the area becomes choked with slashing
+    plants tangled together much like a giant briar patch. It is within this
+    prickly terrain that the brambleblight dwells. Where most would find
+    themselves at the mercy of the hungry barbs found within this thorn-filled
+    region, the brambleblight traverses this area with ease. A brambleblight is
+    a deviant thing of decay, a tangle of rotting vegetation rising in a roughly
+    pyramidal heap, crowned with an asymmetrical cluster of berry-red eyes. Its
+    main body resembles a bundle of fetid mulch with several thorn-covered
+    branches spilling forth like the intestines of a gutted pig. These branches
+    provide the plant with locomotion akin to that of a slithering serpent.
+  - >-
+    A brambleblight typically covers an area about 10 feet in diameter. From the
+    creature's base to its crown of crimson eyes, it piles upon itself to a
+    height of no more than 10 feet. A brambleblight weighs about 500 pounds.
+  - Ecology
+  - >-
+    Brambleblights are not native to Golarion. They're believed by some scholars
+    to be a terrible amalgamation of elements from the First World whose sole
+    purpose is to spread decay and rot. The brambleblight attacks with its two
+    primary vines, both covered in thousands of pricking barbs that shred
+    exposed flesh. While the creature prefers to savor the decay of those who
+    close in and succumb to its blight aura, it does have the means to defeat
+    enemies who keep a safe distance. Besides the ability to fling dagger-sized
+    thorns, the plant can also control the many barbed branches that make up its
+    briar patch. While the brambleblight can animate only one branch at a time,
+    that branch attacks independently until either it is destroyed, the
+    brambleblight is slain, or the brambleblight moves out of controlling range.
+  - >-
+    Thankfully, brambleblights are not long-lived creatures. Brambleblights tend
+    to live no longer than 5 years; if they survive long enough to reach this
+    age, they attempt to spread up to a dozen seeds in the hope that at least a
+    few of them take root and grow to maturity. The last 6 months of a
+    brambleblight's life are spent feeding on as much prey as possible in order
+    to store up the energy needed to form seeds. These seeds grow along a
+    specialized tendril that allows the brambleblight to fling its seeds
+    hundreds of feet away in a manner similar to its rain of thorns special
+    attack, though with a much greater range. A brambleblight dies shortly after
+    releasing its seeds.
+  - Habitat & Society
+  - >-
+    While brambleblights prosper in the mutable realm of the First World where
+    they originated, they fare well in only a few environments on the Material
+    Plane. They seem to shun brightly lit places and thrive in dim and dank
+    locations such as deep forests, where the thick canopy shields the forest
+    floor from the sun's rays. They also tend to lair near caves and other
+    underground locations. They are rarely found in open plains or forests with
+    thin canopies because these areas tend to spend long periods exposed to
+    sunlight.
+  - >-
+    Brambleblights have no interest in others of their kind, and they must
+    continually maintain their altered environments. They are thus reluctant to
+    move to a new area unless their current location is completely depleted of
+    prey. If a brambleblight uproots itself and moves on to another area, the
+    region it blighted soon returns to its previous state. Likewise, when a
+    brambleblight is killed, its tended patch withers and dies within days,
+    eventually giving way once again to native vegetation.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6893'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

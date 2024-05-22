@@ -1,0 +1,115 @@
+Name: Ngara
+CR: '12'
+XP: '19200'
+Race: spirit naga
+Class: sorcerer 3
+MonsterSource: Pathfinder RPG Bestiary 213
+Alignment: CE
+Size: Large
+Type: aberration
+Init: '11'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+AC: 33, touch 20, flat-footed 25
+AC_Mods: (+4 armor, +7 Dex, +3 deflection, +1 dodge, +9 natural, -1 size)
+HP: '136'
+HD: (13 HD; 10d8+3d6+81)
+Saves: Fort +10, Ref +13, Will +13
+Fort: '10'
+Ref: '13'
+Will: '13'
+Speed: 40 ft., swim 20 ft.
+Melee:
+  - 1 bite +12 (3d6+7)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: charming gaze (DC 22)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +17)
+  values:
+    - label: At will
+      value: fleeting glance (10 rounds/day)
+    - label: 10/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +17)
+  values:
+    - label: 5th (4/day)
+      value: cone of cold (DC 22)
+    - label: 4th (6/day)
+      value: cure critical wounds, dimension door, poison (DC 21)
+    - label: 3rd (8/day)
+      value: deep slumber (DC 22), dispel magic, fireball (DC 20), water breathing
+    - label: 2nd (8/day)
+      value: >-
+        acid arrow, detect thoughts (DC 19), hideous laughter (DC 21),
+        invisibility, whispering wind
+    - label: 1st (8/day)
+      value: >-
+        cure light wounds, divine favor, entangle (DC 18), mage armor, magic
+        missile, shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 17), daze (DC 19), detect magic, guidance, mage hand, message,
+        open/close, ray of frost, read magic
+AbilityScores:
+  - 20
+  - 24
+  - 23
+  - 12
+  - 17
+  - 24
+BaseAtk: '8'
+CMB: '14'
+CMD: 35 (can't be tripped)
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Extend Spell
+  - Improved Initiative
+  - Lightning Reflexes
+  - Quicken Spell
+Skills:
+  - Bluff +23
+  - Knowledge (nature) +10
+  - Perception +19
+  - Spellcraft +11
+  - Stealth +19
+  - Swim +23
+Languages:
+  - Abyssal
+  - Common
+SQ: woodland stride
+Source: AP 34
+IsTemplate: '0'
+Gender: Female
+Bloodline: Fey
+BeforeCombat: >-
+  Ngara casts mage armor every day and uses shield of faith before battle
+  (quickening it on the first round of combat if necessary).
+DuringCombat: >-
+  The naga prefers to stay 20 or so feet away from foes to minimize melee
+  attacks and maximize her charming gaze; she casts her spells at range and uses
+  dimension door to retreat out of melee when needed. When melee is unavoidable,
+  she casts quickened divine favor and then uses Arcane Strike on all following
+  rounds.
+Morale: Ngara fights to the death.
+Gear: headband of mental prowess +2 (Charisma and Wisdom)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '816'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

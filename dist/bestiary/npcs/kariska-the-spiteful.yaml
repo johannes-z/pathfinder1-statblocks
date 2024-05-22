@@ -1,0 +1,131 @@
+Name: Kariska The Spiteful
+CR: '7'
+XP: '3200'
+Race: serpentfolk mummy
+Class: sorcerer 2
+MonsterSource: Pathfinder RPG Bestiary 210, Pathfinder RPG Bestiary 2 242
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +16
+Aura: despair (30 ft., paralyzed for 1d4 rounds, Will DC 18 negates)
+AC: 21, touch 13, flat-footed 18
+AC_Mods: (+2 armor, +3 Dex, +6 natural)
+HP: '76'
+HD: (6d8+2d6+42)
+Saves: Fort +7, Ref +6, Will +11
+Fort: '7'
+Ref: '6'
+Will: '11'
+DR: 5/
+Immune: undead traits
+SR: '18'
+Weaknesses: vulnerable to fire
+Speed: 20 ft.
+Melee:
+  - slam +8 (1d8+2 plus mummy rot), bite +3 (1d6+2 plus  poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: claws (2, 1d4+2, 7 rounds/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: At will
+      value: disguise self (DC 15), ventriloquism
+    - label: 1/day
+      value: blur, mirror image, suggestion (DC 17)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 2nd; concentration +6)
+  values:
+    - label: 1st (5/day)
+      value: magic missile, ray of enfeeblement (DC 15)
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), detect magic, read magic, touch of fatigue
+        (DC 14)
+AbilityScores:
+  - 15
+  - 17
+  - —
+  - 16
+  - 15
+  - 18
+BaseAtk: '5'
+CMB: '7'
+CMD: '20'
+Feats:
+  - Eschew Materials
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Toughness
+  - Weapon Focus (slam)
+Skills:
+  - Appraise +7
+  - Bluff +15
+  - Escape Artist +11
+  - Knowledge (arcana) +14
+  - Knowledge (religion) +9
+  - Perception +16
+  - Sense Motive +13
+  - Spellcraft +14
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Undercommon
+  - telepathy 100 ft.
+SQ: >-
+  bloodline arcana (energy spells that match bloodline energy deal +1 point of
+  damage per die)
+Source: PFS S3-14
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Despair (Su)
+    description: >-
+      All creatures within a 30-foot radius that see a mummy must succeed at a
+      DC 18 Will save or be paralyzed by fear for 1d4 rounds. Whether or not the
+      save is successful, that creature cannot be affected again by the same
+      mummy's despair ability for 24 hours. This is a paralysis and
+      mind-affecting fear effect. The save DC is Charisma-based.
+  - name: Mummy Rot (Su)
+    description: >-
+      Curse and disease-slam; save Fort DC 18; onset 1 minute; frequency 1/day;
+      effect 1d6 Con and 1d6 Cha; cure &#8211;. Mummy rot is both a curse and a
+      disease and can only be cured if the curse is first removed, at which
+      point the disease can be magically removed. Even after the curse element
+      of mummy rot is lifted, a creature suffering from it cannot recover
+      naturally over time. Anyone casing a conjuration (healing) spell on the
+      afflicted creature must succeed at a DC 20 caster level check or the spell
+      is wasted and the healing has no effect. Anyone who dies from mummy rot
+      turns to dust and cannot be raised without resurrection or greater magic.
+      The save DC is Charisma base.
+  - name: Poison (Ex)
+    description: >-
+      Bite&#8211;Injury; save Fort DC 13; frequency 1/round for 6 rounds; effect
+      1d2 Str; cure 2 saves.
+Gender: Female
+Bloodline: Draconic (green)
+DuringCombat: >-
+  Kariska begins combat by using her mirror image spell-like ability. She then
+  casts ray of enfeeblement on the strongest looking combatants who are not
+  paralyzed by her despair aura before making other attacks.
+Morale: The mummy fights until destroyed.
+Gear: bracers of armor +2, cloak of resistance +1, 1,000 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6150'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

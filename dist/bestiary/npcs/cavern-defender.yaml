@@ -1,0 +1,109 @@
+Name: Cavern Defender
+CR: '4'
+XP: '1200'
+Race: half-elf
+Class: druid 5
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +11
+AC: 20, touch 13, flat-footed 17
+AC_Mods: (+5 armor, +2 Dex, +1 dodge, +2 shield)
+HP: '31'
+HD: (5d8+5)
+Saves: >-
+  Fort +6, Ref +6, Will +9; +2 vs. enchantments, +4 vs. fey and plant-targeted
+  effects
+Fort: '6'
+Ref: '6'
+Will: '9'
+Save_Mods: +2 vs. enchantments, +4 vs. fey and plant-targeted effects
+Speed: 20 ft.
+Melee:
+  - quarterstaff +2 (1d6-1)
+  - sickle +2 (1d6-1)
+Ranged:
+  - mwk sling +6 (1d4-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: wild shape 1/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: 7/day
+      value: acid dart
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 5th; concentration +9)   3rd-spike growth (2, DC
+  17), stone shapeD   2nd-barkskin, bear's endurance, soften earth and stoneD,
+  summon swarm   1st-cure light wounds, magic stoneD, obscuring mist,
+  shillelagh, speak with animals   0 (at will)-create water, guidance, know
+  direction, light
+SpellDomains: Earth
+AbilityScores:
+  - 8
+  - 14
+  - 13
+  - 12
+  - 18
+  - 10
+BaseAtk: '3'
+CMB: '2'
+CMD: '15'
+Feats:
+  - Dodge
+  - Lightning Reflexes
+  - Natural Spell
+  - Skill Focus (Survival)
+Skills:
+  - Climb +1
+  - Fly +4
+  - Handle Animal +6
+  - Heal +10
+  - Knowledge (dungeoneering) +6
+  - Knowledge (nature) +11
+  - Perception +11
+  - Spellcraft +7
+  - Survival +15
+Languages:
+  - Common
+  - Druidic
+  - Elven
+  - Undercommon
+SQ: >-
+  elf blood, nature bond (Earth domain), nature sense, trackless step, wild
+  empathy +5, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The druid casts spike growth twice per day to protect her position, using
+  stone shape if necessary to limit any viable approaches to her.
+DuringCombat: >-
+  The druid wild shapes into a small flying animal at the first opportunity to
+  escape melee. On subsequent rounds, she casts soften earth and stone and spike
+  growth to distort the terrain beneath her enemies. She intersperses these
+  spells with speak with animals and summoning spells to call flying creatures
+  to harass those enemies. Once her spells are exhausted, she uses acid dart.
+Gear: wand of cure light wounds (50 charges), alchemist's fire (3)
+OtherGear: >-
+  +1 hide armor, heavy wooden shield, masterwork sling with 20 bullets,
+  quarterstaff, sickle, cloak of resistance +1, backpack, healer's kit, holly
+  and mistletoe, silk rope (50 ft.), spell component pouch, 91 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3659'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

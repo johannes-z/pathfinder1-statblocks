@@ -1,0 +1,79 @@
+Name: Repair Drone
+CR: '2'
+XP: '600'
+Race: clockwork servant
+MonsterSource: Pathfinder RPG Bestiary 3 56
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (robot)
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +4
+AC: 14, touch 12, flat-footed 12
+AC_Mods: (+2 Dex, +2 natural)
+HP: '31'
+HD: (2d10+20)
+HP_Mods: fast healing 2
+Saves: Fort +0, Ref +2, Will +0
+Fort: '0'
+Ref: '2'
+Will: '0'
+Immune: construct traits
+Weaknesses: vulnerable to critical hits, vulnerable to electricity
+Speed: 30 ft.
+Melee:
+  - slam +6 (1d4+6)
+Ranged:
+  - net +4 (entangle)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 19
+  - 14
+  - —
+  - 10
+  - 11
+  - 1
+BaseAtk: '2'
+CMB: '6'
+CMD: '18'
+Feats:
+  - Skill Focus (Knowledge [engineering])
+Skills:
+  - Disable Device +6
+  - Knowledge (engineering) +8
+  - Perception +4
+Languages:
+  - Androffan
+SQ: repair robot
+Source: AP 85
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Net (Ex)
+    description: >-
+      A repair drone's net is constructed from polymer mesh-this functions as a
+      normal net, save that it has 10 hit points and can be burst with a
+      successful DC 27 Strength check. A polymer mesh net is worth 50 gp.
+  - name: Repair Robot (Ex)
+    description: >-
+      As a standard action that does not provoke an attack of opportunity, a
+      repair drone can repair damage dealt to either itself or an adjacent
+      robot, healing the target of 1d10 points of damage.
+Gear: polymer mesh nets (5)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6270'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

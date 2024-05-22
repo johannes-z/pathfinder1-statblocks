@@ -1,0 +1,83 @@
+Name: Deep Tiger Anemone
+CR: '13'
+XP: '25600'
+Race: giant sea anemone
+MonsterSource: Pathfinder RPG Bestiary 3 238
+Alignment: 'N'
+Size: Colossal
+Type: vermin
+SubType: (aquatic)
+Init: '2'
+Senses:
+  - blindsight 30 ft.
+  - Perception +0
+AC: 19, touch 4, flat-footed 17
+AC_Mods: (+2 Dex, +15 natural, -8 size)
+HP: '275'
+HD: (19d8+190)
+Saves: Fort +21, Ref +8, Will +6
+Fort: '21'
+Ref: '8'
+Will: '6'
+DefensiveAbilities: amorphous
+DR: 15/slashing
+Immune: gaze attacks, mind-affecting effects, poison, vision-based effects
+Speed: 10 ft.
+Melee:
+  - tentacles +20 (8d6+21 plus grab and poison)
+Space: 30 ft.
+Reach: 30 ft.
+SpecialAttacks: >-
+  fast swallow, poison, swallow whole (4d6+21 bludgeoning damage, AC 17, 27 hp),
+  water jet
+AbilityScores:
+  - 38
+  - 14
+  - 30
+  - —
+  - 10
+  - 2
+BaseAtk: '14'
+CMB: +36 (+40 grapple)
+CMD: 48 (can't be tripped)
+Feats:
+  - Whirlwind AttackB
+Skills:
+  - Stealth +10
+RacialMods: +24 Stealth
+SQ: anchored, sightless
+Source: AP 59
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Tentacle-injury; save Fort DC 29; frequency 1/ round for 6 rounds; effect
+      1d6 Strength drain and 1d6 Dexterity drain; cure 2 consecutive saves.
+  - name: Water Jet (Ex)
+    description: >-
+      Once every 1d4 rounds as a swift action, a deep tiger anemone can draw
+      large quantities of surrounding water into its body and then expel the
+      water at high pressure. It makes a single combat maneuver check against
+      all creatures within 30 feet&#8211;those whose CMD this roll equals or
+      exceeds are pushed back to a maximum distance of 30 feet from the anemone.
+      This forced movement does not provoke attacks of opportunity.
+DuringCombat: >-
+  The deep tiger anemone lashes out at all available targets, using its
+  Whirlwind Attack feat to great effect. It only attempts to grab and eat one
+  target per round.
+Morale: The deep tiger anemone fights to the death, but does not pursue foes.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3158'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

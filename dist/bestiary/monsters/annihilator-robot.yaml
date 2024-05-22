@@ -1,0 +1,124 @@
+Name: Annihilator Robot
+CR: '16'
+XP: '76800'
+Alignment: 'N'
+Size: Gargantuan
+Type: construct
+SubType: (robot)
+Init: '6'
+Senses:
+  - darkvision 120 ft., low-light vision, tremorsense 60 ft.
+  - Perception +24
+AC: 31, touch 9, flat-footed 28
+AC_Mods: (+2 Dex, +1 dodge, +22 natural, -4 size)
+HP: '250'
+HD: (20d10+60 plus 80 hp force field)
+Saves: Fort +8, Ref +8, Will +7
+Fort: '8'
+Ref: '8'
+Will: '7'
+DefensiveAbilities: hardness 10
+Immune: cold, construct traits
+Resist: electricity 30, fire 30
+Weaknesses: vulnerable to critical hits, vulnerable to electricity
+Speed: 50 ft., climb 30 ft.
+Speed_Mod: booster jets
+Melee:
+  - 2 claws +28 (2d6+12/19-20)
+Ranged:
+  - 2 integrated chain guns +19 (8d6/4)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: combined arms, plasma lance, suppressing fire
+AbilityScores:
+  - 34
+  - 15
+  - —
+  - 14
+  - 13
+  - 1
+BaseAtk: '20'
+CMB: '36'
+CMD: 53 (61 vs. trip)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Deadly Aim
+  - Dodge
+  - Great Fortitude
+  - Improved Critical (chain gun)
+  - Improved Initiative
+  - Mobility
+  - Skill Focus (Acrobatics)
+  - Weapon Focus (chain gun)
+Skills:
+  - Acrobatics +28 (+36 when jumping)
+  - Climb +20
+  - Intimidate +15
+  - Perception +24
+  - Sense Motive +24
+Languages:
+  - Common
+  - Hallit
+Environment: any (Numeria)
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This towering, scorpion-like construct makes tortured shrieks as it moves, its
+  metallic weapons thrumming with otherworldly energy.
+Group: Robot
+Source: Inner Sea Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Booster Jets (Ex)
+    description: >-
+      As a swift action up to 10 times per hour, an annihilator robot can gain a
+      fly speed of 60 feet (poor maneuverability) for a duration of 1 minute.
+  - name: Chain Guns (Ex)
+    description: >-
+      These advanced firearms have a range increment of 200 feet, automatically
+      reload as a free action, and never misfire. An annihilator's core can
+      process scrap metal into new ammunition, effectively giving the
+      annihilator infinite ammo with these weapons.
+  - name: Combined Arms (Ex)
+    description: >-
+      When taking a full attack action, an annihilator can attack with melee and
+      ranged integrated weapons simultaneously.
+  - name: Plasma Lance (Ex)
+    description: >-
+      As a standard action once every 3 rounds, an annihilator may fire a
+      120-foot-long line of plasma from its tail. All creatures in this area
+      take 20d6 points of plasma damage (Reflex DC 22 halves). The save DC is
+      Intelligence-based.
+  - name: Suppressing Fire (Ex)
+    description: >-
+      As a standard action, an annihilator can use its chain guns to fire in a
+      100-foot cone. When it does so, it makes a single chain gun attack against
+      every target in this area.
+Description:
+  - >-
+    The first known annihilator rampaged through western Numeria in 4709 ar,
+    destroying dozens of towns and villages before retreating with more than a
+    dozen prisoners into the Felldales. Since then, increasing numbers of these
+    immense and devastating robots have been spotted in the region. Annihilators
+    seem driven to destroy structures and slaughter living foes, yet they often
+    gather up the dying and unconscious from battlefields-their purpose for
+    keeping these battered but still-living prisoners is unknown.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6279'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,133 @@
+Name: Zahra
+CR: '7'
+XP: '3200'
+Race: undine
+Class: bard (arcane duelist) 7/fighter 1
+MonsterSource: Pathfinder RPG Advanced Player's Guide 80, Pathfinder RPG Bestiary 2 275
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 20, touch 14, flat-footed 16
+AC_Mods: (+6 armor, +3 Dex, +1 dodge)
+HP: '63'
+HD: (8 HD; 7d8+1d10+23)
+Saves: Fort +5, Ref +8, Will +5
+Fort: '5'
+Ref: '8'
+Will: '5'
+Resist: cold 5
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - +1 scorpion whip** +11/+6 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 18 rounds/day (bladethirst*, distraction, fascinate,
+  inspire competence +3, inspire courage +2, rallying cry*)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +10)
+  values:
+    - label: 1/day
+      value: hydraulic push*
+SpellsKnown:
+  header: Bard Spells Known (CL 7th; concentration +9)
+  values:
+    - label: 3rd (1/day)
+      value: displacement, haste
+    - label: 2nd (4/day)
+      value: cat's grace, glitterdust (DC 14), heroism, mirror image
+    - label: 1st (5/day)
+      value: >-
+        comprehend languages, cure light wounds, detect secret doors,
+        expeditious retreat, grease (DC 13)
+    - label: 0 (at will)
+      value: >-
+        detect magic, ghost sound, know direction, light, read magic, summon
+        instrument
+AbilityScores:
+  - 10
+  - 17
+  - 12
+  - 13
+  - 10
+  - 14
+BaseAtk: '6'
+CMB: '6'
+CMD: '20'
+Feats:
+  - Arcane StrikeB
+  - Combat CastingB
+  - Combat Expertise
+  - DisruptiveB
+  - Dodge
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (whip)
+Skills:
+  - Diplomacy +10
+  - Intimidate +10
+  - Knowledge (arcana) +11
+  - Knowledge (history) +11
+  - Knowledge (planes) +11
+  - Perform (act) +12
+  - Perform (dance) +12
+  - Swim +7
+  - Use Magic Device +12
+Languages:
+  - Aquan
+  - Common
+  - Keleshite
+SQ: arcane bond (whip), psychosis
+Source: PFS S2-18
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Psychosis (Ex)
+    description: >-
+      Zahra is afflicted with the psychosis insanity, shifting her alignment
+      from neutral good to chaotic evil and granting her a +10 bonus on Bluff
+      checks to hide her insanity.
+Gender: Female
+BeforeCombat: >-
+  When the secret door to area 4d opens, Zahra prepares for intruders by casting
+  heroism, cat's grace and haste, in that order. If she has time, she also casts
+  heroism and displacement on Moukadeem, using her arcane bond to cast the
+  additional 3rd-level spell.
+DuringCombat: >-
+  One the first round of combat, Zahra uses her bladethirst bardic performance
+  to give her scorpion whip the shock special property. She acts as support for
+  Moukadeem, using her whip from distance either to deal direct damage or to
+  trip and disarm those attacking him outright, and buffing his defenses as much
+  as she can with her spells. Whenever possible, Zahra uses her Arcane Strike
+  feat to boost the damage output with her whip.
+Morale: >-
+  If cured of her insanity during combat, Zahra surrenders immediately. If she
+  remains insane and Moukadeem falls in battle, she flies into a rage, casting
+  no more spells and making full attacks each round. While afflicted with
+  psychosis, Zahra fights to the death.
+Gear: >-
+  +2 chain shirt, +1 scorpion whip, ring of sustenance, journal (written in
+  Aquan)
+Note: >-
+  * See the Advanced Player's Guide.<br>** See the Pathfinder
+  Companion:Adventurer's Armory.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: arcane duelist
+CompanionFamiliarLink: '0'
+id: '5656'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,107 @@
+Name: Akkuret
+CR: '3'
+XP: '800'
+Race: faceless stalker
+MonsterSource: Pathfinder RPG Bestiary 2 122
+Alignment: CE
+Size: Medium
+Type: aberration
+SubType: (shapechanger)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+AC: 16, touch 13, flat-footed 13
+AC_Mods: (+3 Dex, +3 natural)
+HP: '34'
+HD: (4d8+16)
+Saves: Fort +5, Ref +4, Will +6
+Fort: '5'
+Ref: '4'
+Will: '6'
+DR: 5/piercing or slashing
+Speed: 30 ft.
+Melee:
+  - mwk scimitar +8 (1d6+4/18-20), slam +2 (1d6+4 plus grab)
+Space: 5 ft.
+Reach: 10 ft.
+SpecialAttacks: sneak attack +1d6, blood drain (1 Constitution)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +8)
+  values:
+    - label: Constant
+      value: tongues
+AbilityScores:
+  - 18
+  - 17
+  - 18
+  - 13
+  - 15
+  - 16
+BaseAtk: '3'
+CMB: +7 (+11 grapple)
+CMD: '20'
+Feats:
+  - Combat Reflexes
+  - Deceitful
+Skills:
+  - Bluff +9
+  - Disguise +13 (+23 when using change shape)
+  - Escape Artist +18
+  - Sleight of Hand +7
+  - Stealth +10
+Languages:
+  - Aquan
+  - Common
+  - tongues
+SQ: change shape (Medium humanoid, alter self ), compression*, faceless
+Source: PFS S2-21
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      Akkuret can assume the form of a Medium humanoid at will but requires 10
+      uninterrupted minutes to alter his body. Performing this transformation is
+      somewhat painful, but the faceless stalker can maintain his new form
+      indefinitely once he has achieved it. Akkuret can change back to his true
+      form as a swift action and gains a +2 morale bonus on attack rolls, damage
+      rolls, skill checks, and saving throws for 1 round after he does so.
+      Akkuret retains his own innate abilities when he assumes his new form and
+      does not gain any of those belonging to the creature he mimics. He gains a
+      +10 bonus on Disguise checks when they are used in conjunction with this
+      ability.
+  - name: Faceless (Su)
+    description: >-
+      In its natural form, a faceless stalker has no discernible facial
+      features. It gains a +4 bonus on saving throws made to resist attacks or
+      effects that target the senses. This includes gaze attacks, odor-based
+      attacks, sonic attacks and similar attacks. This bonus does not apply to
+      illusions.
+Gender: Male
+DuringCombat: >-
+  Akkuret reverts to his true shape on the first round of combat, gaining the
+  benefits described below in the process. Instead of engaging foes toe-to-toe,
+  Akkuret prefers to stay 10 feet away from all combatants in order to gain
+  attacks of opportunity against them as they approach. In an effort to delay
+  the PCs, Akkuret fights defensively, sacrificing his damage output for a
+  greater chance at survival. Whenever possible, he feints in order to gain a
+  sneak attack against a foe the following round.
+Morale: Fanatically devoted to Chalfon, Akkuret fights to the death.
+Gear: potion of cure light wounds
+OtherGear: masterwork scimitar, 45 gp
+Note: '* See the Pathfinder RPG Bestiary 2.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5689'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

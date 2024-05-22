@@ -1,0 +1,156 @@
+Name: The Hidden Beast
+CR: '15'
+XP: '51200'
+Race: decapus
+Class: sorcerer 10
+MonsterSource: Pathfinder RPG Bestiary 270, Pathfinder RPG Bestiary 2 77
+Alignment: CE
+Size: Large
+Type: undead
+SubType: (augmented aberration)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +45
+AC: 33, touch 18, flat-footed 27
+AC_Mods: (+3 deflection, +5 Dex, +1 dodge, +11 natural, +4 shield, -1 size)
+HP: '267'
+HD: (24 HD; 14d8+10d6+169)
+HP_Mods: fast healing 5
+Saves: Fort +17, Ref +17, Will +23
+Fort: '17'
+Ref: '17'
+Will: '23'
+DefensiveAbilities: channel resistance +4
+DR: 10/magic and silver
+Immune: undead traits
+Resist: cold 10, electricity 10
+Weaknesses: vampire weaknesses
+Speed: 10 ft., climb 30 ft.
+Melee:
+  - >-
+    bite +22 (1d8+8), tentacles +22 (3d6+8/19-20 plus grab), slam +22 (1d6+8
+    plus energy drain)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  blood drain (1d4 Con), children of the night, constrict (3d6+12), create
+  spawn, dominate (DC 27), energy drain (2 levels, DC 22)
+SpellLikeAbilities:
+  header: Decapus Spell-Like Abilities (CL 6th; concentration +11)
+  values:
+    - label: At Will
+      value: >-
+        minor image (DC 16) Bloodline Spell-Like Abilities (CL 10th;
+        concentration +15)
+    - label: 8/day
+      value: grave touch (5 rounds)
+    - label: 1/day
+      value: grasp of the dead (10d6 slashing, DC 20)
+SpellsKnown:
+  header: Spells Known (CL 10th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: telekinesis (DC 20)
+    - label: 4th (6/day)
+      value: animate dead, dimension door, phantasmal killer (DC 21)
+    - label: 3rd (7/day)
+      value: dispel magic, displacement, lightning bolt (DC 18), vampiric touch
+    - label: 2nd (7/day)
+      value: >-
+        blindness/deafness (DC 17), false life, minor image (DC 19), mirror
+        image, scorching ray
+    - label: 1st (8/day)
+      value: >-
+        alarm, chill touch (DC 16), magic missile, ray of enfeeblement (DC 16),
+        shield, ventriloquism
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, detect magic, ghost sound (DC 17), mage
+        hand, message, open/close, prestidigitation, read magic
+AbilityScores:
+  - 26
+  - 21
+  - —
+  - 12
+  - 15
+  - 20
+BaseAtk: '15'
+CMB: +24 (+28 grapple)
+CMD: 43 (can't be tripped)
+Feats:
+  - Alertness
+  - Arcane Strike
+  - Bleeding Critical
+  - Combat Reflexes Critical Focus
+  - Dodge
+  - Eschew Materials
+  - Extend Spell
+  - Great Fortitude
+  - Greater Spell Focus (illusion)
+  - Improved Critical (tentacles)
+  - Improved Initiative
+  - Improved Natural Attack (tentacles)
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Silent Spell
+  - Spell Focus (illusion)
+  - Still Spell
+  - Toughness
+Skills:
+  - Bluff +40
+  - Climb +33
+  - Perception +45
+  - Sense Motive +28
+  - Stealth +36
+Languages:
+  - Aklo
+SQ: >-
+  bloodline arcana (corporeal undead affected by humanoid-affecting spells),
+  change shape (dire bat or wolf, beast shape II), gaseous form, shadowless,
+  sound mimicry (voices), spider climb, tentacles
+Source: RotRL-AE-Spires of Xin-Shalast
+IsTemplate: '0'
+Gender: Male
+Bloodline: undead
+BeforeCombat: >-
+  The Hidden Beast casts extended false life on itself every day and places a
+  silent mental alarm at each of the room entrances. It uses its ring of
+  invisibility to remain invisible at all times.
+DuringCombat: >-
+  The Hidden Beast concentrates on maintaining the illusion of the undead
+  speaker, hoping the PCs waste at least a round fighting it while its vampire
+  minions move into position around them. The creature uses ventriloquism to
+  disguise its actual location, taking the first few rounds of combat to cast
+  displacement, mirror image, and shield on itself. The Hidden Beast is fond of
+  using telekinesis to disarm foes, but it generally starts its offense by
+  casting phantasmal killer or lightning bolt. It avoids melee combat unless it
+  can engage a foe one-on-one.
+Morale: >-
+  If reduced to 0 hit points, the Hidden Beast automatically assumes gaseous
+  form and attempts to escape through the fissures in and around the dais in the
+  center of this room. These narrow fissures lead down 30 feet to a circular
+  cavern, 20 feet in diameter, that serves as the Hidden Beast's "coffin." Once
+  at rest here, it rematerializes and is helpless. It regains 1 hit point after
+  1 hour, then it is no longer helpless and resumes healing at the rate of 5 hit
+  points per round from its fast healing. Once fully healed, it seeks out the
+  PCs for swift and brutal revenge, losing sight of all other tasks until it
+  succeeds at this quest.
+Gear: ring of invisibility, Sihedron ring
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: vampire|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3284'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

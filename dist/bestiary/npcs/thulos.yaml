@@ -1,0 +1,176 @@
+Name: Thulos
+CR: '24'
+XP: '1228800'
+Race: taiga giant
+Class: necromancer 16
+Alignment: CN
+Size: Huge
+Type: undead
+SubType: (giant)
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +45
+Aura: fear (60-ft. radius, DC 32)
+AC: 32, touch 16, flat-footed 28
+AC_Mods: (+8 armor, +4 deflection, +3 Dex, +1 dodge, +8 natural, -2 size)
+HP: '356'
+HD: (31 HD; 15d8+16d6+233)
+Saves: Fort +17, Ref +15, Will +26
+Fort: '17'
+Ref: '15'
+Will: '26'
+DefensiveAbilities: channel resistance +4, rejuvenation, rock catching
+DR: 15/bludgeoning and magic
+Immune: cold, electricity, enchantment and illusion spells, undead traits
+Speed: 40 ft.
+Melee:
+  - 2 slams +26 (1d8+9)
+  - +3 unholy scythe +30/+25/+20/+15 (3d6+16/19-20/x4)
+  - touch +21 (1d8+14/19-20 plus paralyzing touch)
+Ranged:
+  - rock +21 (2d6+15)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  channel negative energy (DC 25, 12/day), intense spells (+8 damage),
+  paralyzing touch (DC 32), rock throwing (140 ft.)
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 16th; concentration +25)
+  values:
+    - label: 12/day
+      value: >-
+        grave touch (8 rounds) Gluttonous Tome Spell-Like Abilities (CL 31st;
+        concentration +40)
+    - label: At Will
+      value: detect undead, gentle repose
+    - label: 3/day
+      value: false life, empowered ray of enfeeblement (DC 20)
+    - label: 1/day
+      value: bestow curse (DC 22)
+SpellsPrepared: >-
+  Necromancer Spells Prepared (CL 16th; concentration +25)  8th-create greater
+  undead, horrid wilting (DC 29), moment of prescience, symbol of death (2, DC
+  29), temporal stasis  7th-finger of death (DC 28), greater teleport, plane
+  shift (DC 26), reverse gravity, waves of exhaustion (2)  6th-chain lightning
+  (DC 25), circle of death (DC 27), eyebite (2, DC 27), planar binding (DC 25),
+  shadow walk (DC 25), true seeing  5th-cloudkill (DC 24), cone of cold (DC 24),
+  magic jar (2, DC 26), symbol of pain (DC 26), telekinesis, telepathic bond,
+  teleport, wall of force  4th-bestow curse (2, DC 25), black tentacles,
+  enervation (3), greater invisibility, phantasmal killer (DC 23), wall of fire 
+  3rd-displacement, fireball (DC 22), fly, haste, lightning bolt (DC 22), slow
+  (DC 22), tongues, vampiric touch (2)  2nd-blindness/deafness (2, DC 23), ghoul
+  touch (DC 23), glitterdust (DC 21), scorching ray, see invisibility, shatter,
+  spectral hand, spider climb  1st-burning hands (DC 20), chill touch (DC 22),
+  expeditious retreat, grease, magic missile (3), ray of enfeeblement (2, DC
+  22), true strike  0 (at will)-bleed (2, DC 21), detect magic, disrupt undead,
+  mage hand, read magic
+AbilityScores:
+  - 29
+  - 16
+  - —
+  - 28
+  - 21
+  - 25
+BaseAtk: '19'
+CMB: '30'
+CMD: '48'
+Feats:
+  - Alertness
+  - Cleave
+  - Combat Reflexes
+  - Command Undead
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Critical Focus
+  - Dodge
+  - Greater Spell Focus (necromancy)
+  - Improved Channel
+  - Improved Critical (scythe)
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Scribe Scroll
+  - Self-Sufficient
+  - Shot on the RunB
+  - Spell Focus (necromancy)
+  - Spell Penetration
+  - Vital Strike
+  - Weapon Focus (scythe)
+Skills:
+  - Climb +14
+  - Fly +22
+  - Heal +29
+  - Intimidate +35
+  - Knowledge (arcana) +37
+  - Knowledge (dungeoneering) +37
+  - Knowledge (geography) +37
+  - Knowledge (history) +37
+  - Knowledge (local) +37
+  - Knowledge (planes) +37
+  - Knowledge (religion) +42
+  - Perception +45
+  - Sense Motive +40
+  - Spellcraft +43
+  - Stealth +21 (+27 in undergrowth)
+  - Survival +19
+  - Use Magic Device +30
+RacialMods: +8 Perception, +8 Sense Motive, +8 Stealth (+14 in undergrowth)
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Common
+  - Giant
+  - Infernal
+  - Necril
+  - Thassilonian
+SQ: >-
+  arcane bond (+3 unholy scythe), life sight (30 feet, 16 rounds/day), spirit
+  summoning
+Source: AP 66
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Spirit Summoning (Su)
+    description: >-
+      Once per day, a taiga giant may perform a 10-minute ritual to tap into the
+      power and insight of his ancestral spirits. These spirits provide a +4
+      deflection bonus to AC, immunity to enchantment and illusion spells, and
+      one of the following spell effects: bless, endure elements, protection
+      from evil, protection from good, or see invisibility. The effects of a
+      spirit summoning persist for 24 hours. Thassilonian Specialization Thulos
+      is a Thassilonian specialist, which allows him to prepare the bonus
+      transmutation spell granted by his school specialization twice rather than
+      once. He treats abjuration and enchantment spells as if they were not on
+      the wizard spell list. Further details on this form of school
+      specialization can be found on page 17 of Pathfinder Campaign Setting:
+      Inner Sea Magic.
+Gender: Male
+ProhibitedSchools: abjuration, enchantment
+Gear: >-
+  scrolls of harm (CL 16th; 3), wand of dispel magic (32 charges), wand of
+  stoneskin (CL 10th, 19 charges)
+OtherGear: >-
+  +3 unholy scythe, Black Book, Bone Grimoire, bracers of armor +8, headband of
+  mental prowess (+4 Int, Cha), Kardosian Codex, pale lavender ellipsoid ioun
+  stone, ring of protection +4, crushed black pearls worth 500 gp each (4; for
+  circle of death), eye ointment worth 1,250 gp (for true seeing), sapphires
+  worth 100 gp each (6; for magic jar), forked rod attuned to the Negative
+  Energy Plane (for plane shift), spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: lich|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3859'
+UniqueMonster: '0'
+ThassilonianSpecialization: necromancy
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

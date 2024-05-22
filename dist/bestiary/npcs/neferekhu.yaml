@@ -1,0 +1,127 @@
+Name: Neferekhu
+CR: '5'
+XP: '1600'
+Race: undead
+Alignment: NE
+Size: Tiny
+Type: undead
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +13
+Aura: hateful glare (30 ft., DC 16)
+AC: 18, touch 14, flat-footed 16
+AC_Mods: (+4 armor, +2 Dex, +2 size)
+HP: '52'
+HD: (7d8+21)
+Saves: Fort +5, Ref +4, Will +8
+Fort: '5'
+Ref: '4'
+Will: '8'
+DefensiveAbilities: channel resistance +4
+Immune: undead traits
+Speed: 5 ft.
+Melee:
+  - bite +9 (1d6 plus curse)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 3rd (4/day)
+      value: blindness/deafness (DC 18), inflict serious wounds (DC 18)
+    - label: 2nd (6/day)
+      value: >-
+        dread boltUM (DC 16), hold person (DC 16), inflict moderate wounds (DC
+        17)
+    - label: 1st (7/day)
+      value: >-
+        bane (DC 15), doom (DC 16), inflict light wounds (DC 16), murderous
+        commandUM (DC 15), ray of sickeningUM (DC 16)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), detect magic, guidance, mending, read magic, resistance,
+        virtue
+AbilityScores:
+  - 10
+  - 15
+  - —
+  - 15
+  - 16
+  - 17
+BaseAtk: '5'
+CMB: '5'
+CMD: 15 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Spell Focus (necromancy)
+  - Still Spell
+  - Weapon FinesseB
+Skills:
+  - Intimidate +13
+  - Knowledge (arcana
+  - religion) +8
+  - Knowledge (history
+  - nobility) +6
+  - Perception +13
+  - Sense Motive +13
+  - Spellcraft +12
+Languages:
+  - Abyssal
+  - Ancient Osiriani
+  - Common
+  - Osiriani
+SQ: gilded cage
+Source: AP 80
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Curse (Su)
+    description: >-
+      Any creature struck by Neferekhu's bite attack must succeed at a DC 16
+      Will save or take a -4 penalty on attack rolls, saving throws, ability
+      checks, and skill checks. This curse remains until removed. The save DC is
+      Charisma-based.
+  - name: Gilded Cage (Ex)
+    description: >-
+      Neferekhu is housed within a small golden cage etched with mystic sigils
+      and soaked in alchemical reagents. The cage has hardness 10 and 10 hit
+      points and provides Neferekhu with a +4 armor bonus to her AC. Small or
+      larger creatures can carry Neferekhu in their space without penalty. A
+      short length of chain is affixed to the cage, allowing a creature to wield
+      her in combat as an improvised flail; doing so allows Neferekhu to make a
+      free bite against the target on a successful hit. Alternatively, Neferekhu
+      can cast spells while being wielded in this way, but this is considered
+      violent motion while casting. While being wielded, Neferekhu can be
+      attacked only with disarm or sunder combat maneuvers against the creature
+      wielding her. When not carried by another character, Neferekhu can only
+      roll around clumsily with a speed of 5 feet.
+  - name: Hateful Glare (Su)
+    description: >-
+      Neferekhu's transformation into a hate-fueled severed head has amplified
+      her disquieting presence. Any living creature within 30 feet must roll
+      twice on attack rolls, saving throws, and skill checks and take the worse
+      result. A successful DC 16 Will save negates this effect. Spells Neferekhu
+      casts spells as a 6th-level oracle.
+Gender: Female
+DuringCombat: >-
+  Neferekhu targets her opponents with ranged spells, particularly
+  blindness/deafness, dread bolt, hold person, and ray of sickening. She casts
+  murderous command on healthy young warriors while encouraging her skeletal
+  overseers to engage enemy spellcasters.
+Morale: Neferekhu craves the oblivion of death and fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5969'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

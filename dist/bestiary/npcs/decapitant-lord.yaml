@@ -1,0 +1,140 @@
+Name: Decapitant Lord
+CR: '14'
+XP: '38400'
+Race: svathurim dullahan
+MonsterSource: Pathfinder RPG Monster Codex 76, Pathfinder RPG Bestiary 2 111
+Alignment: NE
+Size: Huge
+Type: undead
+SubType: (augmented monstrous humanoid, cold)
+Init: '8'
+Senses:
+  - blindsight 60 ft.
+  - Perception +26
+Aura: frightful presence (30 ft., DC 24)
+AC: 29, touch 12, flat-footed 25
+AC_Mods: (+7 armor, +4 Dex, +10 natural, -2 size)
+HP: '190'
+HD: (20d8+100)
+HP_Mods: fast healing 5
+Saves: Fort +12, Ref +12, Will +17
+Fort: '12'
+Ref: '12'
+Will: '17'
+DefensiveAbilities: channel resistance +4, rejuvenation
+Immune: cold, undead traits
+SR: '25'
+Weaknesses: vulnerable to fire
+Speed: 50 ft.
+Melee:
+  - >-
+    +1 keen lance +25/+20/+15 (2d6+16/19-20/x3 plus 1d6 sonic), 2 hooves +18
+    (1d8+5)
+  - 2 slams +23 (1d8+10), 2 hooves +18 (1d8+5)
+Ranged:
+  - head +17 (1d8+10 plus tenpin toss)
+Space: 15 ft.
+Reach: 10 ft. (20 ft. with lance)
+SpecialAttacks: >-
+  death's demand, natural jouster, stormlance, tenpin toss, thunderous trample
+  (DC 24), trample (1d8+15, DC 30)
+AbilityScores:
+  - 31
+  - 18
+  - —
+  - 10
+  - 16
+  - 18
+BaseAtk: '15'
+CMB: +27 (+31 bull rush, +31 overrun)
+CMD: 41 (43 vs. bull rush, 43 vs. overrun, 53 vs. trip)
+Feats:
+  - Charge Through
+  - Great Fortitude
+  - Improved Bull Rush
+  - Improved Initiative
+  - Improved Overrun
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+  - Weapon Focus (lance)
+Skills:
+  - Acrobatics +16 (+24 when jumping)
+  - Intimidate +27
+  - Knowledge (religion) +10
+  - Perception +26
+  - Sense Motive +16
+  - Stealth +8
+Languages:
+  - Common
+  - Giant
+SQ: mooncharger, undersized weapons
+Source: AP 94
+IsTemplate: '0'
+SpecialAbilities:
+  - name: s Demand (Su)
+    description: >-
+      The Decapitant Lord searches endlessly for a replacement for his name,
+      often demanding one that belongs to a future victim, though it never
+      satisfies him. Once per day as a standard action, the Decapitant Lord can
+      place death's demand on a target within 60 feet (Fortitude DC 24 negates).
+      If the Decapitant Lord knows and speaks the target's name, the target
+      takes a -2 penalty on the save. If the victim fails the save, it becomes
+      staggered for 1d6 rounds. For the next 24 hours (or until the Decapitant
+      Lord is slain), all critical threats against the victim are automatically
+      confirmed. Finally, the victim automatically fails all Constitution checks
+      to stabilize while dying. This is a mind-affecting curse effect. The save
+      DC is Charisma-based.
+  - name: Mooncharger (Su)
+    description: >-
+      When charging, running, or taking a double move, the Decapitant Lord
+      strides across open air as if he were using air walk. He is never tired by
+      this action, but can't trample while using this ability.
+  - name: Rejuvenation (Su)
+    description: >-
+      If killed, the Decapitant Lord's physical form reconstitutes itself in 2d4
+      days. The only way to permanently destroy the Decapitant Lord is to lay
+      the haunt in area T14 permanently to rest.
+  - name: Stormlance (Su)
+    description: >-
+      The Decapitant Lord is proficient with all weapons in the spear fighter
+      weapon group. When he wields such a weapon, it deals an additional 1d6
+      points of sonic damage and gains the keen weapon special ability.
+  - name: Tenpin Toss (Su)
+    description: >-
+      The Decapitant Lord can seize his severed head by the horns and hurl it as
+      a ranged weapon that deals 1d8 points of damage, with a range increment of
+      40 feet. On a successful hit, the Decapitant Lord can attempt a trip
+      combat maneuver check against the target as part of the attack. This trip
+      attack does not provoke an attack of opportunity. If the check is
+      successful, the target is knocked prone and is staggered for 1 round. The
+      Decapitant Lord's head is not harmed during this attack and returns to him
+      as if it had the returning weapon special ability.
+Gender: Male
+DuringCombat: >-
+  The Decapitant Lord prefers to charge, taking advantage of his belt of
+  thunderous charging to increase his damage output, though if enemies use brace
+  weapons, he reassesses the risks of charging. With his mooncharger ability and
+  reach, he can run over difficult terrain and still reach creatures on the
+  ground. He uses his tenpin toss ability to set a target up for a thunderous
+  trample.
+Morale: >-
+  Bound to Skirkatla for eternity, the Decapitant Lord fights until destroyed;
+  his body rejuvenates 2d4 days later.
+Gear: +3 chain shirt, +1 lance, belt of thunderous chargingUE
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: old
+CompanionFamiliarLink: '0'
+id: '6945'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

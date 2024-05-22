@@ -1,0 +1,95 @@
+Name: Advanced Shriezyx
+CR: '5'
+XP: '1600'
+Race: shriezyx
+MonsterSource: 'Pathfinder Campaign Setting: Magnimar, City of Monuments 60'
+Alignment: CE
+Size: Medium
+Type: aberration
+Init: '9'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +13
+AC: 21, touch 15, flat-footed 16
+AC_Mods: (+5 Dex, +6 natural)
+HP: '52'
+HD: (7d8+21)
+Saves: Fort +7, Ref +7, Will +8
+Fort: '7'
+Ref: '7'
+Will: '8'
+DefensiveAbilities: ferocity
+Immune: mind-affecting effects
+Weaknesses: fear of fire, vulnerable to fire
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - bite +10 (1d6+3 plus poison), 4 claws +10 (1d4+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: slowing toxin, web (+10 ranged, DC 16, 7 hp)
+AbilityScores:
+  - 17
+  - 21
+  - 16
+  - 7
+  - 16
+  - 6
+BaseAtk: '5'
+CMB: '8'
+CMD: 23 (35 vs. trip)
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Step Up
+  - Weapon Finesse
+Skills:
+  - Climb +21
+  - Perception +13
+Languages:
+  - Thassilonian
+Source: AP 61
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear of Fire (Ex)
+    description: >-
+      A shriezyx within 30 feet of a fire the size of a torch or larger becomes
+      shaken as long as it remains within that range. If damaged by fire, a
+      shriezyx must make a successful Will save (DC equals the amount of fire
+      damage dealt) or become frightened for 1 round.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 14; frequency 1/round for 6 rounds; effect 1d2
+      Str; cure 1 save.
+  - name: Slowing Toxin (Su)
+    description: >-
+      A shriezyx's web is coated with a toxin that deadens the nerves on
+      contact. Any creature struck by a shriezyx's web must succeed at a DC 14
+      Fortitude save or become slowed (as per the spell) for 1 minute. Each
+      round, a victim may attempt a new DC 14 Fortitude save to end the effect
+      early. This toxin fades quickly from spun webs-it can only affect targets
+      on the round the web is spun. Existing webs, while they remain sticky and
+      tangled, do not have this slowing effect. The save DC is
+      Constitution-based.
+DuringCombat: >-
+  The shriezyx work together, using their webs at first to slow down enemies and
+  then ganging up to flank foes still able to reach them. Any creature that uses
+  fire against them earns both monsters' wrath, and assuming they can avoid
+  becoming frightened, they focus all their attacks on these foes to the
+  exclusion of others.
+Morale: The shriezyx fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3349'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

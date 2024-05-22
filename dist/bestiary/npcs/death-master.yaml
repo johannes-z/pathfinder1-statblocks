@@ -1,0 +1,133 @@
+Name: Death Master
+CR: '16'
+XP: '76800'
+Race: half-elf
+Class: cleric of urgathoa 5/evoker 5/mystic theurge 7
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +28
+AC: 28, touch 13, flat-footed 28
+AC_Mods: (+12 armor, +3 deflection, +3 natural)
+HP: '182'
+HD: (5d8+5d6+7d6+100)
+Saves: Fort +14, Ref +7, Will +20; +2 vs. enchantments
+Fort: '14'
+Ref: '7'
+Will: '20'
+Save_Mods: +2 vs. enchantments
+Immune: charm monster, fireball, lightning bolt, sleep
+Speed: 20 ft.
+Melee:
+  - +1 heavy mace +10/+5 (1d8+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 4/day (DC 11, 3d6), hand of the acolyte (8/day),
+  intense spells (+2 damage)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; concentration +10)
+  values:
+    - label: 8/day
+      value: >-
+        bleeding touch (2 rounds) Evoker Spell-Like Abilities (CL 5th;
+        concentration +8)
+    - label: 6/day
+      value: force missile (1d4+2)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 12th; concentration +17)  6th-antimagic fieldD,
+  heal, word of recall  5th-flame strike (3, DC 20), slay livingD (DC 20), wall
+  of stone  4th-death wardD, dimensional anchor, freedom of movement, spell
+  immunity, unholy blight (DC 19)  3rd-contagion (2, DC 18), dispel magicD,
+  invisibility purge, prayer, summon monster III  2nd-cure moderate wounds (2),
+  death knellD (DC 17), hold person (DC 17), silence (DC 17), spiritual weapon 
+  1st-cause fearD (DC 16), cure light wounds (3), deathwatch, entropic shield,
+  obscuring mist  0 (at will)-bleed (DC 15), detect poison, mending, stabilize  
+  Evoker Spells Prepared (CL 12th; concentration +15; 15% spell failure) 
+  6th-forceful hand, freezing sphere (DC 19), mislead  5th-stilled dimension
+  door, telekinesis, wall of force (2)  4th-black tentacles, fire shield,
+  stilled fireball, greater invisibility  3rd-displacement, fireball (DC 16),
+  fly, haste, invisibility sphere, lightning bolt (DC 16)  2nd-false life,
+  flaming sphere (DC 15), gust of wind (DC 15), invisibility, mirror image,
+  misdirection  1st-comprehend languages, expeditious retreat, feather fall,
+  magic missile (2), unseen servant  0 (at will)-dancing lights, detect magic,
+  mage hand, read magic
+SpellDomains: Death, Magic
+AbilityScores:
+  - 12
+  - 10
+  - 18
+  - 16
+  - 20
+  - 8
+BaseAtk: '8'
+CMB: '9'
+CMD: '22'
+Feats:
+  - Arcane Armor Mastery
+  - Arcane Armor Training
+  - Combat Casting
+  - Command Undead
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Extra Channel
+  - Improved Initiative
+  - Scribe Scroll
+  - Skill Focus (Perception)
+  - Still Spell
+  - Toughness
+Skills:
+  - Heal +13
+  - Intimidate +9
+  - Knowledge (arcana) +16
+  - Knowledge (planes) +16
+  - Knowledge (dungeoneering) +11
+  - Knowledge (history) +11
+  - Knowledge (local) +11
+  - Knowledge (religion) +11
+  - Perception +28
+  - Ride +0
+  - Spellcraft +16
+Languages:
+  - Abyssal
+  - Common
+  - Elven
+  - Infernal
+  - Undercommon
+SQ: >-
+  aura, arcane bond (staff of swarming insects), combined spells (4th), elf
+  blood
+Source: NPC Codex
+IsTemplate: '0'
+ProhibitedSchools: abjuration, enchantment
+BeforeCombat: >-
+  The mystic theurge casts deathwatch, false life, freedom of movement, and
+  spell immunity.
+DuringCombat: The mystic theurge casts attack and slaying spells.
+Gear: staff of swarming insects
+OtherGear: >-
+  +3 mithral full plate, +1 heavy mace, amulet of natural armor +3, belt of
+  mighty constitution +4, cloak of resistance +3, hat of disguise, headband of
+  mental prowess +4 (Int, Wis), ring of protection +3, 5,838 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without false life and spell immunity, the theurge's statistics are hp 168;
+  Immune sleep.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3902'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

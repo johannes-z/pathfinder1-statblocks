@@ -1,0 +1,114 @@
+Name: The Infernal Crocodile
+CR: '17'
+XP: '102400'
+Race: dire crocodile
+MonsterSource: Pathfinder RPG Bestiary 51, 171
+Alignment: NE
+Size: Gargantuan
+Type: outsider
+SubType: (augmented animal, native)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +35
+AC: 32, touch 8, flat-footed 30
+AC_Mods: (+2 Dex, +24 natural, -4 size)
+HP: '275'
+HD: (22d8+176)
+Saves: Fort +21, Ref +15, Will +13
+Fort: '21'
+Ref: '15'
+Will: '13'
+DR: 10/magic
+Immune: poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '28'
+Speed: 20 ft., fly 40 ft. (good), swim 30 ft.
+Speed_Mod: sprint
+Melee:
+  - >-
+    bite +27 (3d6+14/19-20 plus grab), 2 claws +27 (2d6+14), tail slap +21
+    (4d8+7)
+Space: 20 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  death roll (3d6+14 plus trip), smite good 1/day (+6 attack and AC, +22
+  damage), swallow whole (3d6+14 damage, AC 22, 27 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 22th; concentration +28)
+  values:
+    - label: 3/day
+      value: darkness, quickened poison (DC 20), unholy aura
+    - label: 1/day
+      value: >-
+        blasphemy (DC 23), contagion (DC 20), desecrate, destruction (DC 23),
+        horrid wilting (DC 24), summon monster IX (fiends only), unhallow,
+        unholy blight (DC 20)
+AbilityScores:
+  - 39
+  - 14
+  - 27
+  - 13
+  - 18
+  - 23
+BaseAtk: '16'
+CMB: +34 (+38 grapple)
+CMD: 46 (50 vs. trip)
+Feats:
+  - Critical Focus
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Iron Will
+  - Quicken Spell-Like Ability (poison)
+  - Run
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+  - Staggering Critical
+  - Weapon Focus (bite)
+  - Weapon Focus (claw)
+Skills:
+  - Acrobatics +27 (+23 when jumping)
+  - Climb +39
+  - Fly +25
+  - Intimidate +28
+  - Knowledge (planes) +12
+  - Perception +35
+  - Stealth +21 (+29 in water)
+  - Survival +15
+  - Swim +22
+RacialMods: +8 Stealth in water
+Languages:
+  - Infernal
+  - Russian
+SQ: hold breath
+Source: AP 72
+IsTemplate: '0'
+DuringCombat: >-
+  The Infernal Crocodile casts unholy aura on itself on the first round of
+  combat, then lunges from the pool to attack the closest opponent. It seeks the
+  most dangerous-looking good foe, particularly one wearing a holy symbol of a
+  good deity, and makes a full attack with its smite good ability. It continues
+  making full attacks if possible, combined with quickened poison spells. If
+  surrounded, the Infernal Crocodile takes flight and casts blasphemy or horrid
+  wilting on its foes before returning to melee combat. It saves its destruction
+  spell-like ability for use against a single particularly dangerous opponent.
+Morale: >-
+  When reduced to 125 hit points or fewer, the Infernal Crocodile casts summon
+  monster IX to summon 1d3 barbed devils to aid it in battle. Thereafter, the
+  Infernal Crocodile fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: half-fiend|awakened|advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4641'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

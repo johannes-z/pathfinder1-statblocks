@@ -1,0 +1,106 @@
+Name: Saintly Knight
+CR: '8'
+XP: '4800'
+Race: half-orc
+Class: paladin of iomedae 9
+Alignment: LG
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '-1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+Aura: courage (10 ft.), resolve (10 ft.)
+AC: 21, touch 9, flat-footed 21
+AC_Mods: (+10 armor, -1 Dex, +2 shield)
+HP: '72'
+HD: (9d10+18)
+Saves: Fort +10, Ref +5, Will +12
+Fort: '10'
+Ref: '5'
+Will: '12'
+DefensiveAbilities: orc ferocity
+Immune: charm, disease, fear
+Resist: fire 10
+Speed: 20 ft.
+Melee:
+  - +1 lance +14/+9 (1d8+5/x3)
+  - +1 heavy mace +14/+9 (1d8+5)
+Ranged:
+  - mwk heavy crossbow +9 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with lance)
+SpecialAttacks: >-
+  channel positive energy (DC 16, 5d6), smite evil 3/day (+2 attack and AC, +9
+  damage)
+SpellLikeAbilities:
+  header: Paladin Spell-Like Abilities (CL 9th; concentration +11)
+  values:
+    - label: At Will
+      value: detect evil
+SpellsPrepared: >-
+  Paladin Spells Prepared (CL 6th; concentration +8)   2nd-resist energy, zone
+  of truth   1st-divine favor, lesser restoration, protection from evil
+AbilityScores:
+  - 18
+  - 8
+  - 12
+  - 10
+  - 13
+  - 15
+BaseAtk: '9'
+CMB: '13'
+CMD: '22'
+Feats:
+  - Iron Will
+  - Mounted Combat
+  - Ride-By Attack
+  - Skill Focus (Perception)
+  - Spirited Charge
+Skills:
+  - Handle Animal +6
+  - Intimidate +4
+  - Knowledge (history) +1
+  - Knowledge (religion) +5
+  - Perception +9
+  - Ride +5 (+7 to stay in the saddle)
+Languages:
+  - Common
+  - Orc
+SQ: >-
+  aura, code of conduct, divine bond (mount), lay on hands (4d6, 6/day), mercies
+  (frightened, shaken, staggered), orc blood, weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The paladin casts resist energy (fire) unless he expects damage from a
+  different energy type. He applies silversheen to his weapon if he expects to
+  fight devils or lycanthropes.
+DuringCombat: >-
+  The paladin uses Ride-By Attack and Spirited Charge, preferring to attack the
+  opposing leader. When on foot, he uses his mace. If facing a powerful foe, he
+  drinks his potions.
+Gear: >-
+  potion of bull's strength, potion of delay poison, potion of shield of faith,
+  silversheen
+OtherGear: >-
+  +1 full plate, masterwork heavy steel shield, +1 heavy mace, +1 lance,
+  masterwork heavy crossbow with 10 bolts, cloak of resistance +1, military
+  saddle, 297 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without resist energy, the paladin's statistics are Resist none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3752'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

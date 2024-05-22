@@ -1,0 +1,234 @@
+Name: Deserach The Demilich
+CR: '27'
+XP: '3276800'
+Race: awakened demilich
+Class: wizard 15/archwizard 10
+Alignment: NE
+Size: Tiny
+Type: undead
+Init: '15'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +38
+AC: 37, touch 33, flat-footed 29
+AC_Mods: (+7 Dex, +4 deflection, +1 dodge, +4 natural, +9 profane, +2 size)
+HP: '350'
+HD: (15d6+10d6+225 plus 50)
+Saves: Fort +26, Ref +26, Will +34
+Fort: '26'
+Ref: '26'
+Will: '34'
+DefensiveAbilities: channel resistance +5, rejuvenation, unholy grace
+DR: 20/-
+Immune: acid, cold, electricity, magic, polymorph, undead traits
+Weaknesses: torpor, vorpal susceptibility
+Speed: fly 40 ft. (perfect)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: >-
+  archwizardry (4/day), bypass spell resistance, devour soul, hand of the
+  apprentice (+25, 16/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 25th; ranged touch +19)
+  values:
+    - label: Constant
+      value: true seeing
+    - label: At Will
+      value: >-
+        alter self, astral projection, create greater undead, create undead,
+        death knell, enervation, greater bestow curse (DC 25), greater dispel
+        magic, harm, summon monster I-IX, telekinesis (DC 24), wail of the
+        banshee (20-ft.-radius spread centered on the demilich; DC 28), weird
+        (DC 28)
+    - label: 2/day
+      value: greater planar ally
+    - label: 3/day
+      value: quickened summon monster VI
+SpellsPrepared: >-
+  Spells Prepared (CL 25th; melee touch +12, ranged touch +19)  10th-empowered
+  maximized silent delayed blast fireball (DC 32), empowered maximized horrid
+  wilting (DC 33), empowered maximized polar ray  9th-mage's disjunction (x2),
+  power word kill, prismatic sphere (DC 32), time stop, wish  8th-charm monster
+  (DC 31), greater shout (DC 31), polar ray, horrid wilting (DC 33), polymorph
+  any object (DC 31), prismatic wall (DC 31)  7th-delayed blast fireball (DC
+  32), finger of death (DC 32), grasping hand, greater teleport, mass hold
+  person (DC 30), reverse gravity  6th-acid fog, chain lightning (DC 31), flesh
+  to stone (DC 29), greater dispel magic (x2), mislead (DC 29) 5th-baneful
+  polymorph (DC 28), cloud kill (DC 28), cone of cold (DC 30), dominate person
+  (DC 28) (x2), teleport, wall of force  4th-black tentacles (DC 27), confusion
+  (DC 27), dimension door, fire shield, greater invisibility, ice storm (DC 29),
+  lesser globe of invulnerability  3rd-clairaudience/clairvoyance, dispel magic,
+  fireball (x2) (DC 28), lightning bolt (DC 28), slow (DC 26), stinking cloud
+  (DC 26)  2nd-blur, darkness (x2), scorching ray (x2), touch of idiocy (x2) 
+  1st-charm person (DC 24), magic missile, obscuring mist, protection from good,
+  ray of enfeeblement (DC 24), shield, sleep (DC 24), unseen servant  0-detect
+  magic, mage hand, open close, read magic
+AbilityScores:
+  - 10
+  - 25
+  - —
+  - 36
+  - 28
+  - 28
+BaseAtk: '12'
+CMB: '17'
+CMD: '50'
+Feats:
+  - Ability Focus (devour soul)
+  - Defensive Combat Training
+  - Dodge
+  - Empower SpellB
+  - Eschew MaterialsB
+  - Flyby AttackB
+  - Greater Spell Focus (evocation)
+  - Greater Spell Focus (necromancy)
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Maximize SpellB
+  - Mobility
+  - Quicken Spell-like Ability (summon monster)B
+  - Scribe ScrollB
+  - Silent SpellB
+  - Skill Focus (Knowledge [arcana])
+  - Skill Focus (Spellcraft)
+  - Spell Focus (evocation)
+  - Spell Focus (necromancy)
+  - Spell Penetration
+  - Still SpellB
+  - Toughness
+Skills:
+  - Bluff +34
+  - Diplomacy +34
+  - Intimidate +34
+  - Fly +47
+  - Knowledge (arcana) +46
+  - Knowledge (dungeoneering) +41
+  - Knowledge (history) +41
+  - Knowledge (local) +21
+  - Knowledge (nature) +41
+  - Knowledge (planes) +41
+  - Knowledge (religion) +41
+  - Linguistics +41
+  - Perception +38
+  - Sense Motive +41
+  - Spellcraft +52
+  - Stealth +40
+  - Use Magic Device +42
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Draconic
+  - Giant
+  - Infernal
+SQ: >-
+  arcane bond (none current), arcane servant, detect expertise, epic crafter,
+  metamagic enhancement (-3 levels), overcome school restriction, perfect
+  automatic still spell, phylactery transference, selective targets, shaped
+  area, spellcasting master, spell echo
+Source: Rappan Athuk-Level 9A
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blessing of Orcus (Ex)
+    description: >-
+      The power of Orcus imbues Deserach with several advantages. First the
+      demilich can cast spells as a 15th-level wizard/10th-level archwizard and
+      can also cast three spells equivalent to 10th level spells: empowered
+      maximized silent delayed blast fireball, empowered maximized horrid
+      wilting, empowered maximized polar ray. The blessing of Orcus grants
+      Deserach several spell-like abilities, and has allowed Deserach to retain
+      most of the skills (including their ranks) and feats the lich possessed as
+      a 25th level spellcaster. The abilities perfect automatic still spell and
+      phylactery transference result from Orcus's blessing.
+  - name: Devour Soul (Su)
+    description: >-
+      As a standard action with a range of 300 ft., a demilich can imprison the
+      soul of a living creature within one of 10 special gems embedded in its
+      skull. If the target succeeds at a DC 28 Fortitude save, it gains two
+      permanent negative levels. If it fails, its soul is immediately drawn into
+      one of the gems in the demilich's skull. The soul remains trapped within
+      the gem, visible as but a gleam except under true seeing. The soulless
+      body corrupts and decays rapidly, reducing to dust in a single round. As
+      long as the dead creature's soul remains trapped in the gemstone, it
+      cannot be restored to life via any means save direct divine intervention.
+      Gems with souls trapped in them can be retrieved from a destroyed
+      demilich, at which point they can either be crushed to release any souls
+      within to their afterlife or used in the place of the usual material
+      components to restore the soul and body with resurrection or true
+      resurrection. After 24 hours, the demilich can choose to consume any soul
+      trapped in a gem, healing it 1d6 hit points per Hit Die of the soul, at
+      which point only miracle or wish can restore the dead creature to life.
+      The save DC is Charisma-based, and includes a +2 bonus for the Ability
+      Focus feat.
+  - name: Greater Bestow Curse (Sp)
+    description: >-
+      This spell-like ability functions like bestow curse, but can have one of
+      the following effects: -12 to one ability score; -6 to two ability scores;
+      -8 penalty on attack rolls, saves, and checks; or a 25% chance to act
+      normally. This ability is treated as a 6th-level spell.
+  - name: Immunity to Magic (Su)
+    description: >-
+      A demilich is immune to any spell or spell-like ability that allows spell
+      resistance. In addition, certain spells function differently against the
+      creature, as noted below. A dispel evil spell deals 2d6 points of damage,
+      with no saving throw. Holy smite affects a demilich normally. A power word
+      kill spoken by an ethereal caster deals 50 points of damage to the
+      demilich if it fails a Fortitude save (with a DC determined as though the
+      spell allowed a saving throw). A shatter spell deals 1d6 points of damage
+      per two caster levels (maximum 10d6), with no saving throw.
+  - name: Perfect Automatic Still Spell (Ex)
+    description: >-
+      Deserach can cast all the spells she knows with the still spell feat
+      without increasing their level or casting time.
+  - name: Phylactery Transference (Su)
+    description: >-
+      Headbands, belts, rings, cloaks and other wearable items kept in close
+      association with the demilich's phylactery transfer all their benefits to
+      the demilich no matter how far apart the demilich and the phylactery are
+      located. The standard limits on types of items utilized simultaneously
+      still apply. The bonuses granted from the items in the demilich's treasure
+      are already included in its statblock. This ability also allows Deserach
+      to use the shadowstaff.
+  - name: Rejuvenation (Su)
+    description: >-
+      A destroyed demilich reforms in 2d6 days. To permanently destroy a
+      demilich, holy water must be poured over its remains within the area of a
+      hallow spell. To complete the destruction, holy word or dispel evil must
+      be cast. If the caster succeeds at a caster level check with a DC equal to
+      10 + the demilich's Hit Dice, the demilich is permanently destroyed.
+  - name: Telekinetic Storm (Su)
+    description: >-
+      As a special use of its telekinesis spelllike ability, a demilich can
+      churn up its treasure, dust, bones, and other loose debris in the area
+      into a whirling storm about its skull. The storm obscures vision as a fog
+      cloud within a 20 ft. spread centered on the demilich's skull. Creatures
+      within the storm take 12d6 points of damage per round on the demilich's
+      turn (Reflex DC 20 for half damage). The demilich can maintain the storm
+      indefinitely by concentrating.
+  - name: Torpor (Ex)
+    description: >-
+      A demilich takes no actions against intruders unless its remains or
+      treasure are disturbed.
+  - name: Unholy Grace (Su)
+    description: >-
+      A demilich gains a bonus on saves and a profane bonus to AC equal to its
+      Charisma modifier.
+  - name: Vorpal Susceptibility (Ex)
+    description: Vorpal weapons of any kind ignore a demilich's damage reduction.
+Gender: Female
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12148'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

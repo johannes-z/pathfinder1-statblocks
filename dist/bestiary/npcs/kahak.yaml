@@ -1,0 +1,97 @@
+Name: Kahak
+CR: '11'
+XP: '12800'
+Race: rogue nuckelavee
+MonsterSource: Pathfinder RPG Monster Codex 248, Pathfinder RPG Bestiary 3 203
+Alignment: CE
+Size: Large
+Type: fey
+SubType: (aquatic)
+Init: '9'
+Senses:
+  - low-light vision
+  - Perception +17
+Aura: frightful presence (30 ft., DC 20)
+AC: 25, touch 19, flat-footed 15
+AC_Mods: (+9 Dex, +1 dodge, +6 natural, -1 size)
+HP: '104'
+HD: (11d6+66)
+Saves: Fort +9, Ref +18, Will +10
+Fort: '9'
+Ref: '18'
+Will: '10'
+DefensiveAbilities: evasion, improved uncanny dodge
+DR: 10/cold iron
+Immune: disease, poison
+Speed: 50 ft., swim 50 ft.
+Melee:
+  - >-
+    +1 keen rapier +11 (1d6+7/15-20), bite +10 (1d8+6 plus disease), 2 hooves +5
+    (1d6+3 plus disease)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (30-ft. cone, 10d6 damage plus disease, Reflex DC 21 half,
+  usable every 1d4 rounds), sneak attack +5d6, trample (1d6+9, DC 21)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +14)
+  values:
+    - label: 3/day
+      value: control water, diminish plants, obscuring mist
+AbilityScores:
+  - 22
+  - 28
+  - 22
+  - 13
+  - 17
+  - 21
+BaseAtk: '5'
+CMB: '12'
+CMD: 32 (36 vs. trip)
+Feats:
+  - Dodge
+  - Lightning Reflexes
+  - Lightning Stance
+  - Mobility
+  - Spring Attack
+  - Toughness
+  - Wind Stance
+Skills:
+  - Acrobatics +23 (+31 when jumping)
+  - Escape Artist +23
+  - Intimidate +16
+  - Knowledge (nature) +15
+  - Perception +17
+  - Stealth +19
+  - Swim +28
+Languages:
+  - Aklo
+  - Common
+  - Sylvan
+SQ: amphibious, rogue talents (fast stealth, lethal infection), undersized weapons
+Source: Tombs Of Golarion
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Lethal Infection (Su)
+    description: >-
+      When Kahak makes a successful sneak attack with a natural weapon, he can
+      forgo any number of sneak attack dice to increase the initial save DC of
+      his disease by an equal number. This is a rogue talent that affects sneak
+      attack.
+Gender: Male
+Gear: +1 keen rapier
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6828'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

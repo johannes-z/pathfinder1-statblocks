@@ -1,0 +1,136 @@
+Name: Zarmangarof
+CR: '15'
+XP: '51200'
+Race: very old black dragon
+MonsterSource: Pathfinder RPG Bestiary 92
+Alignment: CE
+Size: Huge
+Type: dragon
+SubType: (water)
+Init: '4'
+Senses:
+  - dragon senses
+  - Perception +31
+Aura: frightful presence (270 ft., DC 23)
+AC: 43, touch 8, flat-footed 43
+AC_Mods: (+4 armor, +27 natural, +4 shield, -2 size)
+HP: '250'
+HD: (20d12+120)
+Saves: Fort +18, Ref +12, Will +16
+Fort: '18'
+Ref: '12'
+Will: '16'
+DR: 15/magic
+Immune: acid, paralysis, sleep
+SR: '26'
+Speed: 60 ft., fly 200 ft. (poor), swim 60 ft.
+Melee:
+  - >-
+    bite +29 (2d8+15 plus 2d6 acid), 2 claws +28 (2d6+10), tail slap +26
+    (2d6+15), 2 wings +26 (1d8+5)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  acidic bite, breath weapon (100-ft. line, DC 26, 18d6 acid), crush (Small
+  creatures, DC 26, 2d8+15)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +23)
+  values:
+    - label: Constant
+      value: speak with animals (reptiles only)
+    - label: At Will
+      value: darkness (90-ft. radius), plant growth
+    - label: 1/day
+      value: corrupt water
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 9th; concentration +12)
+  values:
+    - label: 4th (4/day)
+      value: hallucinatory terrain (DC 17), phantasmal killer (DC 17)
+    - label: 3rd (7/day)
+      value: major image (DC 16), slow (DC 16), suggestion (DC 16)
+    - label: 2nd (7/day)
+      value: glitterdust (DC 15), mirror image, web (DC 15), whispering wind
+    - label: 1st (7/day)
+      value: >-
+        alarm, mage armor, ray of enfeeblement (DC 14), shield, silent image (DC
+        14)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 13), dancing lights, detect magic, ghost sound (DC 13), mage
+        hand, message, open/close, prestidigitation
+AbilityScores:
+  - 31
+  - 10
+  - 23
+  - 16
+  - 19
+  - 16
+BaseAtk: '20'
+CMB: '32'
+CMD: 42 (46 vs. trip)
+Feats:
+  - Alertness
+  - Combat Expertise
+  - Greater Vital Strike
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Vital Strike
+  - Weapon Focus (bite)
+Skills:
+  - Fly +15
+  - Handle Animal +23
+  - Intimidate +26
+  - Knowledge (arcana) +26
+  - Knowledge (history) +26
+  - Perception +31
+  - Sense Motive +6
+  - Spellcraft +26
+  - Stealth +21
+  - Swim +41
+Languages:
+  - Aklo
+  - Boggard
+  - Draconic
+  - Thassilonian
+SQ: speak with reptiles, swamp stride, water breathing
+Source: Curse Of The Crimson Throne Chapter 6
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: Zarmangarof casts mage armor, mirror image, and shield before combat.
+DuringCombat: >-
+  Zarmangarof is under a geas to serve as Sabina's mount and is charmed to be an
+  ally to Queen Ileosa and her minions. These magical effects ensure his
+  cooperation, and he follows Sabina's commands via her Ride skill as demanded,
+  but since he doesn't speak Common and Sabina doesn't speak Draconic, they have
+  limited communication. While he would rather stay in the air and use magic and
+  acid against foes on the ground, he lands as directed by his rider. Once melee
+  begins, each  time Sabina attempts a Ride check to render Zarmangarof
+  flat-footed, the dragon gets to attempt a free Sense Motive check opposed by
+  the result of Sabina's Ride check to realize what she's up to. In any event,
+  once the dragon is reduced to fewer than 100 hit points, his frustration gets
+  the better of him anyway and he turns on Sabina in anger. Once the dragon
+  lashes out at Sabina, he immediately takes a -3 penalty to each of his ability
+  scores from the geas. If, at any time, the charm monster effect on the dragon
+  is dispelled, he takes to the air and uses breath weapons and magic against
+  the PCs and Sabina alike unless he feels confident that he can finish the
+  party off without putting himself in danger.
+Morale: Zarmangarof fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: very old
+CompanionFamiliarLink: '0'
+id: '8696'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

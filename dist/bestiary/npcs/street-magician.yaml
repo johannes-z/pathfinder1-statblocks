@@ -1,0 +1,99 @@
+Name: Street Magician
+CR: '1'
+XP: '400'
+Race: gnome
+Class: enchanter 2
+Alignment: CN
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '1'
+Senses:
+  - low-light vision
+  - Perception +2
+AC: 13, touch 13, flat-footed 11
+AC_Mods: (+1 Dex, +1 dodge, +1 size)
+HP: '14'
+HD: (2d6+5)
+Saves: Fort +2, Ref +1, Will +2; +2 vs. illusions
+Fort: '2'
+Ref: '1'
+Will: '2'
+Save_Mods: +2 vs. illusions
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Speed: 20 ft.
+Melee:
+  - dagger +3 (1d3+1/19-20)
+Ranged:
+  - light crossbow +4 (1d6/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: +1 on attack rolls against goblinoid and reptilian humanoids
+SpellLikeAbilities:
+  header: Gnome Spell-Like Abilities (CL 2nd; concentration +3)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound, prestidigitation, speak with animals Arcane
+        School Spell-Like Abilities (CL 2nd; concentration +4)
+    - label: 5/day
+      value: dazing touch
+SpellsPrepared: >-
+  Enchanter Spells Prepared (CL 2nd; concentration +4)  1st-charm person (DC
+  13), color spray (DC 14), grease, sleep (DC 13)  0 (at will)-dancing lights,
+  ghost sound (2, DC 13), mage hand
+AbilityScores:
+  - 12
+  - 13
+  - 14
+  - 15
+  - 8
+  - 12
+BaseAtk: '1'
+CMB: '1'
+CMD: '13'
+Feats:
+  - Dodge
+  - Scribe Scroll
+Skills:
+  - Bluff +3
+  - Knowledge (arcana) +6
+  - Knowledge (geography) +6
+  - Knowledge (history) +6
+  - Knowledge (local) +7
+  - Perception +2
+  - Spellcraft +6
+Languages:
+  - Common
+  - Dwarven
+  - Gnome
+  - Halfling
+SQ: arcane bond (amulet), enchanting smile
+Source: NPC Codex
+IsTemplate: '0'
+ProhibitedSchools: abjuration, necromancy
+DuringCombat: >-
+  The wizard casts color spray, then casts grease between himself and foes. If
+  threatened, he drinks his potion of invisibility.
+Gear: >-
+  potions of cure light wounds (2), scrolls of disguise self (2), scrolls of
+  expeditious retreat (2), scroll of invisibility, scrolls of obscuring mist
+  (2), alchemist's fire (2), thunderstones (2)
+OtherGear: >-
+  dagger, light crossbow with 10 masterwork bolts, brooch of shielding (10
+  charges), smokesticks (2), spellbook, 67 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3823'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

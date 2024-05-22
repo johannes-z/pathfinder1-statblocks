@@ -1,0 +1,135 @@
+Name: Thunder Behemoth
+CR: '18'
+XP: '153600'
+Alignment: 'N'
+Size: Colossal
+Type: magical beast
+SubType: (behemoth, earth)
+Init: '-2'
+Senses:
+  - blindsense 60 ft., darkvision 60 ft., tremorsense 60 ft.
+  - Perception +27
+AC: 35, touch 0, flat-footed 35
+AC_Mods: (-2 Dex, +35 natural, -8 size)
+HP: '337'
+HD: (25d10+200)
+HP_Mods: regeneration 20
+Saves: Fort +22, Ref +12, Will +12
+Fort: '22'
+Ref: '12'
+Will: '12'
+DefensiveAbilities: unstoppable
+DR: 15/epic
+Immune: >-
+  ability damage, acid, aging, bleed, disease, energy drain, fire,
+  mind-affecting effects, negative levels, paralysis, permanent wounds,
+  petrification, poison, polymorph
+SR: '29'
+Weaknesses: vulnerable to miracles and wishes
+Speed: 30 ft., burrow 30 ft.
+Melee:
+  - >-
+    bite +33 (4d6+16 plus grab), gore +33 (4d6+16), 2 stomps +28 (2d8+8 plus
+    trip)
+Ranged:
+  - 4 rocks +15 (3d6+24 plus stun)
+Space: 30 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  fast swallow, mighty roar, rock spitting, ruinous, swallow whole (4d6+24
+  bludgeoning and 4d6 fire damage, AC 27, 33 hp), trample (2d8+24, DC 38)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +22)
+  values:
+    - label: 3/day
+      value: earthquake (DC 20)
+AbilityScores:
+  - 43
+  - 6
+  - 26
+  - 3
+  - 14
+  - 15
+BaseAtk: '25'
+CMB: +49 (+53 bull rush, grapple, overrun, or sunder)
+CMD: 57 (59 vs. bull rush, overrun, or sunder, 61 vs. trip)
+Feats:
+  - Awesome Blow
+  - Cleave
+  - Great Cleave
+  - Greater Bull Rush
+  - Greater Overrun
+  - Greater Sunder
+  - Improved Bull Rush
+  - Improved Overrun
+  - Improved Sunder
+  - Iron Will
+  - Lunge
+  - Power Attack
+  - Snatch
+Skills:
+  - Perception +27
+  - Survival +14
+  - Swim +20
+RacialMods: +10 Perception
+Languages:
+  - Aklo (cannot speak)
+Environment: any land
+Organization: solitary or pair
+Treasure: none
+Description_Visual: >-
+  This enormous beast has rocky, armored plates on its body. Elaborate horns
+  crown its horrific head.
+Group: Behemoth
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Mighty Roar (Su)
+    description: >-
+      Every 1d4 rounds as a standard action, a thunder behemoth can issue a
+      mighty roar in a 60-foot cone that duplicates the effect of an empowered
+      greater shout (Fortitude DC 30 half ). This is a sonic effect. The save DC
+      is Constitution-based.
+  - name: Rock Spitting (Ex)
+    description: >-
+      A thunder behemoth can spit rocks from the essentially inexhaustible store
+      in its gizzard. It can spit up to four rocks as a standard action, with a
+      range increment of 60 feet. A creature that is critically hit by one of
+      these rocks must make a DC 38 Fortitude save to resist being stunned for 1
+      round. The save DC is Strength-based.
+  - name: Swallow Whole (Ex)
+    description: >-
+      A thunder behemoth has five stomachs and can shunt a swallowed victim into
+      any one of them (usually choosing an empty stomach).
+Description:
+  - >-
+    Thunder behemoths walk the land as little more than roving appetites, driven
+    by an all-consuming hunger to devour every animal, plant, and even building
+    in sight. They indiscriminately gorge their five seemingly bottomless
+    stomachs on forests and jungles, collapse mine and mountain alike in search
+    of ore, and raze settlements and strongholds for the cowering morsels
+    within.
+  - >-
+    Thunder behemoths are sent by the gods to destroy wicked cities, raze great
+    temples or monuments that offend divine eyes, and otherwise act as
+    instruments of divine wrath on the surface of a world or just below it. The
+    days before a thunder behemoth arrives are fraught with minor but unnerving
+    earthquakes, mass exoduses of burrowing animals to the surface, and an
+    increase in fallen trees and sinkholes.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '1986'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

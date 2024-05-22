@@ -1,0 +1,72 @@
+Name: Wolf Plague Zombie
+CR: '1'
+XP: '400'
+Race: wolf
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 13, touch 11, flat-footed 12
+AC_Mods: (+1 Dex, +2 natural)
+HP: '16'
+HD: (3d8+3)
+Saves: Fort +1, Ref +2, Will +3
+Fort: '1'
+Ref: '2'
+Will: '3'
+Immune: undead traits
+Speed: 50 ft.
+Melee:
+  - bite +4 (1d6+2 plus disease), slam +4 (1d6+2  plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death burst
+AbilityScores:
+  - 15
+  - 13
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '2'
+CMB: '4'
+CMD: '15'
+Feats:
+  - Toughness
+SQ: staggered
+Source: PFS S1-43
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Burst (Ex)
+    description: >-
+      When a plague zombie dies, it explodes in a burst of decay. All creatures
+      adjacent to the plague zombie are exposed to its plague as if struck by a
+      slam attack and must make a Fortitude save or contract palepox.
+  - name: Disease (Su)
+    description: A plague zombie's natural attacks carry the palepox disease.
+BeforeCombat: >-
+  The wolf plague zombies continue to attack the lumberjacks until the PCs
+  engage them.
+DuringCombat: >-
+  The wolf plague zombies charge the nearest threat and fight mindlessly,
+  attacking the most recent enemy to damage them.
+Morale: The zombies fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: plague@zombie|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4235'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

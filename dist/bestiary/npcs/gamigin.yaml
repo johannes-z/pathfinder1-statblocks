@@ -1,0 +1,138 @@
+Name: Gamigin
+CR: '16'
+XP: '76800'
+Race: ice devil
+Class: sorcerer 3
+MonsterSource: Pathfinder RPG Bestiary 77
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +27
+AC: 34, touch 16, flat-footed 30
+AC_Mods: (+3 deflection, +4 Dex, +18 natural, -1 size)
+HP: '243'
+HD: (17 HD; 14d10+3d6+156)
+HP_Mods: regeneration 5 (good weapons or good spells)
+Saves: Fort +21, Ref +17, Will +17
+Fort: '21'
+Ref: '17'
+Will: '17'
+DR: 10/good
+Immune: cold, fire, poison
+Resist: acid 10
+SR: '24'
+Speed: 40 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    +1 returning frost spear +22/+17/+12 (2d6+10/19-20/x3 plus 1d6 cold and
+    slow), bite +15 (2d6+3), tail +15 (3d6+3 plus slow)
+Ranged:
+  - +1 returning frost spear +20 (2d6+10/19-20/x3 plus 1d6 cold and slow)
+Space: 10 ft.
+Reach: 10 ft.
+SpellLikeAbilities:
+  header: Ice Devil Spell-Like Abilities (CL 13th; concentration +20)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: >-
+        cone of cold (DC 22), ice storm, greater teleport (self plus 50 lbs. of
+        objects only), persistent image (DC 22), wall of ice (DC 21)
+    - label: 1/day
+      value: >-
+        summon (level 4, 2 bone devils 50%) Bloodline Spell-Like Abilities (CL
+        3rd; concentration +10)
+    - label: 10/day
+      value: corrupting touch (1 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 3rd; concentration +10)
+  values:
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 20), disguise self (DC 18), obscuring mist, protection
+        from good
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, mage hand, message, prestidigitation
+AbilityScores:
+  - 23
+  - 19
+  - 26
+  - 27
+  - 24
+  - 24
+BaseAtk: '15'
+CMB: '22'
+CMD: '39'
+Feats:
+  - Combat Reflexes
+  - Empower Spell-Like Ability (ice storm)
+  - Eschew Materials
+  - Improved Critical (spear)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Power Attack
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (spear)
+Skills:
+  - Acrobatics +24 (+28 when jumping)
+  - Bluff +27
+  - Diplomacy +27
+  - Disguise +24
+  - Fly +20
+  - Intimidate +27
+  - Knowledge (history) +28
+  - Knowledge (local) +28
+  - Knowledge (planes) +28
+  - Knowledge (religion) +28
+  - Perception +27
+  - Sense Motive +27
+  - Stealth +20
+  - Use Magic Device +27
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: bloodline arcana (+2 DC for charm spells), infernal resistances
+Source: RotRL-AE-Spires of Xin-Shalast
+IsTemplate: '0'
+Gender: Male
+Bloodline: infernal
+BeforeCombat: >-
+  Just before he starts a fight, Gamigin attempts to summon 2d4 bone devils to
+  aid him.
+DuringCombat: >-
+  Gamigin lets summoned devils engage foes in melee while he wreaks havoc with
+  mobility, using wall of ice to break up enemy tactics. Cone of cold, ice
+  storm, and charm person are favorites to use at range, but once he's engaged
+  in melee he abandons his spell-like abilities and focuses his anger on obvious
+  healers before moving on to other enemies.
+Morale: >-
+  Gamigin has lived for thousands of years by knowing when he's outclassed, but
+  he's never been confronted here in Xin-Shalast. He cuts it close to the edge
+  as a result, fleeing to a distant hideout via greater teleport only if reduced
+  to fewer than 20 hit points. He does not return to Xin-Shalast anytime soon if
+  he escapes in this manner.
+Gear: +1 returning frost spear, Sihedron ring
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3286'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,139 @@
+Name: Gnarlwood
+CR: '11'
+XP: '12800'
+Alignment: NE
+Size: Huge
+Type: plant
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +17
+Aura: unhallowed aura (20 ft.)
+AC: 24, touch 8, flat-footed 24
+AC_Mods: ', +16 natural, -2 size)'
+HP: '147'
+HD: (14d8+84)
+Saves: Fort +15, Ref +6, Will +6
+Fort: '15'
+Ref: '6'
+Will: '6'
+DR: 10/slashing and good
+Immune: plant traits
+SR: '22'
+Weaknesses: vulnerability to fire
+Speed: 30 ft.
+Melee:
+  - 4 claws +18 (2d6+9)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: rend (2 claws, 4d6+13)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th)
+  values:
+    - label: 3/day
+      value: >-
+        animate dead, blight (DC 18), crushing despair (DC 17), desecrate, death
+        knell (DC 15), detect evil, detect good, protection from good, unhallow
+    - label: 1/day
+      value: dispel good (DC 18), slay living (DC 18), unholy blight (DC 17)
+    - label: 1/week
+      value: blasphemy (DC 20)
+AbilityScores:
+  - 29
+  - 10
+  - 23
+  - 6
+  - 14
+  - 16
+BaseAtk: '10'
+CMB: '21'
+CMD: '31'
+Feats:
+  - Alertness
+  - Cleave
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Perception)
+  - Weapon Focus (claw)
+Skills:
+  - Perception +17
+  - Stealth +2 (+18 in forests)
+RacialMods: +16 Stealth in forests
+Languages:
+  - Abyssal
+  - Sylvan
+Environment: temperate forests
+Organization: solitary or band (2-4 plus 1d6 skeletons or zombies per gnarlwood)
+Treasure: incidental
+Description_Visual: >-
+  This creature resembles a treant but instead of the kindly, gentle face of the
+  tree-folk its face is twisted into a grim scowl. Its deep-set eyes and jagged
+  mouth give it an almost skull-like grimace and its four twisted arms are
+  tipped in sharp woody claws. Its leaves are deep green, almost black, and have
+  ghostly white markings on them. Behind it, the skeletal remains of unfortunate
+  animals shamble through the undergrowth.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Like Abilities (Sp)
+    description: >-
+      With its animate dead spell-like ability a gnarlwood can animate any
+      corpse within 60 feet. Because of their arboreal habitat, most gnarlwoods
+      are accompanied by animal zombies and skeletons.
+  - name: Unhallowed Aura (Su)
+    description: >-
+      A gnarlwood emanates an unhallow spell in a 20-foot radius centered on
+      itself. Thus, a gnarlwood is constantly protected as by a magic circle
+      from good, and the DC to resist positive channeled energy within 20 feet
+      of it is reduced by 4 (at the same time the DC to resist negative
+      channeled energy within 20 feet of a gnarlwood gain a +4 bonus). This aura
+      can be dispelled or negated, but the gnarlwood can restart it again as a
+      free action on its next turn.
+Description:
+  - >-
+    Gnarlwoods are grown from the seeds of treants that had the misfortune of
+    sprouting in land cursed by an unhallow spell. The good nature of the treant
+    is subverted by the very nourishment it gains from the earth, and the evil
+    of the spell suffuses into its every fiber. Most gnarlwoods die before they
+    are much larger than twiggy saplings, since few creatures of nature can
+    survive on a diet of pure evil. Those that do survive grow into menacing,
+    twisted mockeries of treants, with four knobby arms that end in cruel barbed
+    claws. Gnarlwoods are spiteful, hateful things that seek to destroy
+    everything they see. Bereft of any compassion, gnarlwoods tear through
+    forests accompanied by the shambling corpses of its victims, rending and
+    clawing anything that moves. Some evil druidic temples secluded deep in
+    ancient forests are protected by entire groves of gnarlwoods. Unfortunately
+    for the worshippers, not even they are spared the psychotic wrath of the
+    gnarlwood. A gnarlwood usually begins combat with its protection from good
+    in effect (especially when facing good-aligned opponents) and normally sends
+    its minions (if any) into battle to distract or soften up its foes. In the
+    first round it attempts to use its slay living spell-like ability against a
+    creature it deems highly susceptible (usually a wizard or sorcerer since
+    they have poor Fortitude saves). In the next round it assaults its opponents
+    with its claws, rending any opponent it hits with at least two of its claws.
+    It sprinkles combat with its spell-like abilities throughout. During battle,
+    if possible, it tries to keep any undead minions it has with it within the
+    confines of its unhallowed aura so enemy clerics find it hard to affect them
+    with their channel energy ability. A gnarlwood constantly howls and wails
+    during battle and always fights to the death. Copyright Notice Author Erica
+    Balsley.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2641'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

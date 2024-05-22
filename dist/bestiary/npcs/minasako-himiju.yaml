@@ -1,0 +1,170 @@
+Name: Minasako Himiju
+CR: '8'
+XP: '4800'
+Race: human
+Class: witch 8
+MonsterSource: Advanced Player's Guide 65, Pathfinder RPG Bestiary 3 216
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+AC: 21, touch 15, flat-footed 17
+AC_Mods: (+4 Dex, +1 insight, +6 natural)
+HP: '70'
+HD: (8d6+40)
+HP_Mods: fast healing 5
+Saves: Fort +6, Ref +6, Will +10
+Fort: '6'
+Ref: '6'
+Will: '10'
+DefensiveAbilities: channel resistance +4
+DR: 5/silver and slashing
+Immune: undead traits
+Resist: cold 10, fire 10
+Weaknesses: light sensitivity, penanggalen weaknesses
+Speed: fly 60 ft. (good)
+Melee:
+  - bite +8 (1d6+4 plus disease), slam +8 (1d4+4 plus grab and wither)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blood drain (1d4 Constitution), create spawn, disease (DC 17, filth fever),
+  hexes (DC 18; cackle, charm [2 steps, 4 rounds], evil eye [-4, 7 rounds],
+  misfortune [2 rounds], slumber [8 rounds])
+SpellsPrepared: >-
+  Witch Spells Prepared (CL 8th; concentration +12)   4th-black tentacles,
+  enervation, spite*   3rd-bestow curse (DC 17), ray of exhaustion (DC 17),
+  vampiric touch (x2)   2nd-blindness/deafness (DC 16), false life, glitterdust
+  (DC 16), pox pustules* (DC 16)   1st-burning hands (DC 15), mage armor,
+  obscuring mist, ray of enfeeblement (DC 15), reduce person (DC 15)   0 (at
+  will)-bleed (DC 14), daze (DC 14), detect magic, touch of fatigue (DC 14)
+AbilityScores:
+  - 18
+  - 18
+  - —
+  - 18
+  - 14
+  - 18
+BaseAtk: '4'
+CMB: +8 (+12 grapple)
+CMD: '22'
+Feats:
+  - Ability Focus (wither)
+  - Eschew Materials
+  - Flyby Attack
+  - Improved Familiar
+  - Iron Will
+Skills:
+  - Bluff +14
+  - Craft (alchemy) +11
+  - Diplomacy +8
+  - Fly +16
+  - Intimidate +12
+  - Knowledge (arcana) +18
+  - Knowledge (history) +15
+  - Knowledge (local) +12
+  - Knowledge (nature) +15
+  - Perception +14
+  - Profession (cook) +11
+  - Sense Motive +10
+  - Spellcraft +11
+  - Stealth +12
+RacialMods: >-
+  +8 Bluff, +8 Fly, +8 Knowledge (arcana), +8 Perception, +8 Sense Motive, +8
+  Stealth
+Languages:
+  - Common
+  - Minkaian
+  - Sylvan
+  - Tien
+  - Vudrani
+SQ: separate, witch's familiar (beheaded named Kiyaga)
+Source: PFS S3-15
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      When a penanggalen slays a female humanoid via blood drain who had at
+      least 10 Hit Dice in life, that slain humanoid rises as a manananggal at
+      the next sunset. This manananggal is under the command of the penanggalen
+      who created it, and remains enslaved until that penanggalen's destruction.
+      A penanggalen may have enslaved spawn totalling no more than twice its own
+      Hit Dice; any spawn it creates that would exceed this limit become
+      free-willed undead.
+  - name: Hexes (Su)
+    description: >-
+      A penanggalen witch can use one of her hexes at will on any creature
+      within 30 feet. Using a hex is a standard action (unless otherwise noted)
+      that does not provoke an attack of opportunity. See the Advanced Player's
+      Guide for specific hex descriptions.
+  - name: Melee (Su)
+    description: >-
+      A penanggalen's bite and slam attacks count as magical for the purposes of
+      overcoming damage reduction.
+  - name: Penanggalen Weaknesses (Su)
+    description: >-
+      In addition to light sensitivity, a penanggalen is staggered while outside
+      of her human body and exposed to direct sunlight.
+  - name: Separate (Su)
+    description: >-
+      During the day, a penanggalen has the same appearance as she did in life,
+      and does not detect as undead (though she is still an undead creature). At
+      night, she can detach her head and entrails as a full-round action. Her
+      physical but now hollow body exists as dead flesh, and can be destroyed if
+      it suffers damage equal to the penanggalen's normal hit point total.
+      Before a penanggalen can return to her body, she must soak her entrails in
+      vinegar for 1 hour-she can then reattach to her body, at which point any
+      damage done to the body immediately heals (although damage the penanggalen
+      herself suffered remains). A penanggalen whose body is destroyed can never
+      again walk the day in living form, but is otherwise unharmed (save for no
+      longer having a safe way to travel in direct sunlight). When a penanggalen
+      wears her body, she cannot use her natural attacks, her fly speed, or any
+      of her special penanggalen attacks.
+  - name: Wither (Su)
+    description: >-
+      A penanggalen's entrails drip with a foul bile that blisters and weakens
+      living flesh. Any creature that is damaged by a penanggalen's slam attack
+      must succeed at a DC 20 Fortitude save or take 1d4 Dexterity and 1d4
+      Charisma damage.
+Gender: Female
+BeforeCombat: >-
+  If aware the PCs are coming sometime that day, Minasako casts spite (with
+  vampiric touch) and mage armor. If she knows the PCs are close, she applies
+  her dust of emulation to use her scroll without a chance of failure. Finally
+  she may instruct her familiar, Kiyaga, to float above the door near the
+  ceiling so that he might go unnoticed and surprise the PCs.
+DuringCombat: >-
+  Minasako targets witches and females as a priority, but not to the exclusion
+  of common sense. She uses spells and abilities that lower saving throws and AC
+  (such as bestow curse and evil eye) to bring her blood drain and wither
+  abilities to bear. Spells such as black tentacles and glitterdust provide
+  crowd control, and her familiar can deliver both touch spells and hexes when
+  required.
+Morale: >-
+  She fights until destroyed to protect her lower half, but if it is destroyed
+  she considers flight (out to the balcony if it is night) when reduced to 18 or
+  fewer hit points.
+Gear: dust of emulation*, scroll of protection from good
+OtherGear: dusty rose prism ioun stone, 17 pp, 5 gp
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: penanggalen|
+AgeCategory: Adult
+Patron: Plague
+CompanionFamiliarLink: '6159'
+id: '6158'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

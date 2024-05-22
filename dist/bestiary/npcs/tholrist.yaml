@@ -1,0 +1,122 @@
+Name: Tholrist
+CR: '6'
+XP: '2400'
+Race: ghast
+Class: cleric of Yamasoth 5
+MonsterSource: Pathfinder RPG Bestiary 146, 294
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +16
+Aura: stench (10 ft. radius, DC 15, sickened for 1d6+4 minutes)
+AC: 25, touch 16, flat-footed 20
+AC_Mods: (+5 armor, +1 deflection, +4 Dex, +1 dodge, +4 natural)
+HP: '64'
+HD: (7d8+33)
+Saves: Fort +8, Ref +8, Will +13
+Fort: '8'
+Ref: '8'
+Will: '13'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +10 (1d6+6 plus disease and paralysis), 2 claws +10 (1d4+6 plus
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 7/day (DC 16, 3d6), paralysis (1d4+1 rounds, DC 15)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; concentration +11)
+  values:
+    - label: 9/day
+      value: fury of the AbyssAPG
+    - label: 9/day
+      value: touch of evil (2 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 5th; concentration +11)   3rd-bestow curse (DC 19),
+  blindness/deafness (DC 19), rageD   2nd-aid, align weaponD (evil only), hold
+  person (DC 18), resist energy (DC 18), silence (DC 18)   1st-cause fear (DC
+  17), command (DC 17), divine favor, doom (DC 17), protection from goodD,
+  shield of faith   0 (at will)-bleed (DC 16), detect magic, guidance, read
+  magic
+SpellDomains: DemonAPG, Evil
+AbilityScores:
+  - 22
+  - 20
+  - —
+  - 14
+  - 22
+  - 18
+BaseAtk: '4'
+CMB: '10'
+CMD: '27'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Lightning Reflexes
+  - Quick Channel
+Skills:
+  - Acrobatics +11
+  - Diplomacy +9
+  - Knowledge (planes) +9
+  - Knowledge (religion) +10
+  - Perception +16
+  - Stealth +14
+Languages:
+  - Abyssal
+  - Aklo
+  - Thassilonian
+SQ: aura
+Source: PFS S4-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 15; onset 1 day; frequency 1/day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at
+      the next midnight. A humanoid who becomes a ghoul in this way retains none
+      of the abilities it possessed in life. It is not under the control of any
+      other ghouls, but it hungers for the flesh of the living and behaves like
+      a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as
+      a ghast.
+Gender: Male
+BeforeCombat: >-
+  As if he hears the PCs outside of his chamber, Tholrist prepares for battle by
+  casting divine favor and resist energy on himself, and casts aid, rage, and
+  shield of faith on one of his ghoul minions before hiding behind the altar.
+DuringCombat: >-
+  Once combat begins, Tholrist uses cause fear on the most obvious martial
+  character, and targets any obvious casters with blindness/deafness, following
+  up by casting command or hold person to hinder the PCs' approach. If PCs get
+  close enough for melee, he attacks with his claws and bite, augmented by his
+  fury of the Abyss domain ability. He uses spells when appropriate&#8211;such
+  as to hinder a strong PC with bestow curse or to target casters with silence.
+  Tholrist uses his channel energy ability, augmented with Quick Channel, to
+  quickly heal himself and his minions rather than attacking the party unless he
+  is surrounded by three or more PCs. Tholrist ignores any creatures he
+  successfully paralyzes until the battle is over.
+Morale: >-
+  Knowing he is cursed to remain in this chamber forever and clearly insane
+  after all the intervening years, Tholrist fights until destroyed.
+OtherGear: +1 mithral chain shirt, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7618'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

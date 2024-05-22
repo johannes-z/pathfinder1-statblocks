@@ -1,0 +1,77 @@
+Name: Iron Archer
+CR: '14'
+XP: '38400'
+Race: iron golem
+MonsterSource: Pathfinder RPG Bestiary 162
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +0
+AC: 32, touch 10, flat-footed 31
+AC_Mods: (+1 Dex, +22 natural, -1 size)
+HP: '151'
+HD: (22d10+30)
+Saves: Fort +7, Ref +8, Will +7
+Fort: '7'
+Ref: '8'
+Will: '7'
+DR: 15/adamantine
+Immune: construct traits, magic
+Speed: 30 ft.
+Melee:
+  - 2 slams +34 (2d10+19/19-20)
+Ranged:
+  - arrows of wrath +22/+17/+12/+7 touch (3d6/3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: arrows of wrath, breath weapon (DC 21), powerful blows
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +15)
+  values:
+    - label: Constant
+      value: air walk, see invisibility
+AbilityScores:
+  - 36
+  - 13
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '22'
+CMB: '36'
+CMD: '47'
+Source: RotRL-AE-Sins of the Saviors
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Arrows of Wrath (Su)
+    description: >-
+      When the iron archer attacks with its bow, it fires arrow-shaped bolts of
+      energy. These arrows deal 3d6 points of damage on a hit. On the first
+      round of combat, these arrows deal fire damage. On the second round, they
+      deal electricity damage. On the third they deal cold damage. On the fourth
+      round, they switch back to fire and the cycle repeats. If the iron archer
+      ceases to use its arrows (to make a melee attack, for example), the cycle
+      restarts with fire arrows the next time it fires.
+DuringCombat: >-
+  The iron archer focuses its attacks on opponents who get past it into the
+  corridor to the exclusion of all others, until the target is dead or flees. If
+  no opponent gets past it, the iron archer focuses on flying foes.
+Morale: The iron archer fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3273'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

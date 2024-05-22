@@ -1,0 +1,116 @@
+Name: Kalamuk
+CR: '9'
+XP: '6400'
+Race: pukwudgie
+Class: cleric of Urgathoa 4
+MonsterSource: Pathfinder RPG Bestiary 3 223
+Alignment: NE
+Size: Small
+Type: monstrous humanoid
+SubType: (shapechanger)
+Init: '8'
+Senses:
+  - darkvision 60 ft., deathwatch, detect good, detect magic
+  - Perception +15
+AC: 25, touch 16, flat-footed 20
+AC_Mods: (+5 armor, +4 Dex, +1 dodge, +4 natural, +1 size)
+HP: '123'
+HD: (13 HD; 4d8+9d10+56)
+Saves: Fort +11, Ref +11, Will +14
+Fort: '11'
+Ref: '11'
+Will: '14'
+Immune: poison
+Speed: 30 ft.
+Melee:
+  - +1 heavy mace +16/+11/+6 (1d6+3) or 2 claws +12 (1d4+1 plus poison)
+Ranged:
+  - 2 quills +13 (1d4+1 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 8/day (DC 17, 2d6), poison, sneak attack +3d6, spawn
+  undead
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: Constant
+      value: deathwatch, detect good, detect magic
+    - label: At will
+      value: command undead (DC 17), produce flame
+    - label: 3/day
+      value: >-
+        animate dead, death knell (DC 17), invisibility, ray of enfeeblement (DC
+        16), scare (DC 17)
+    - label: 1/day
+      value: nondetection Domain Spell-Like Abilities (CL 4th; concentration +6)
+    - label: 5/day
+      value: bleeding touch (2 rounds), touch of evil (2 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 4th; concentration +6) 2nd-death knellD (DC 14),
+  desecrate, spiritual weapon, summon monster II 1st-bane (DC 13), divine favor,
+  obscuring mist, protection from goodD, sanctuary (DC 13) 0 (at will)-bleed (DC
+  12), detect magic, guidance, resistance
+SpellDomains: Death, Evil
+AbilityScores:
+  - 14
+  - 18
+  - 19
+  - 15
+  - 14
+  - 20
+BaseAtk: '12'
+CMB: '13'
+CMD: '28'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Mobility
+  - Skill Focus (Knowledge [religion])
+  - Weapon Finesse
+  - Weapon Focus (quill)
+Skills:
+  - Bluff +15
+  - Heal +15
+  - Knowledge (arcana) +14
+  - Knowledge (religion) +24
+  - Perception +15
+  - Spellcraft +18
+  - Stealth +15
+Languages:
+  - Common
+  - Draconic
+  - Infernal
+SQ: change shape (porcupine; beast shape II), quills
+Source: AP 140
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If Kalamuk knows the PCs are coming, she casts summon monster II to conjure a
+  Small fire elemental.
+DuringCombat: >-
+  Kalamuk casts spiritual weapon on the first round of combat and then moves to
+  flank with the elemental if it is present. If reduced to fewer than 70 hit
+  points, she casts sanctuary, followed by divine favor. She then drinks a
+  potion of cure moderate wounds before resuming the fight.
+Morale: >-
+  If reduced to fewer than 20 hit points, Kalamuk flees and abandons the Bastion
+  of Light entirely.
+Gear: potions of cure moderate wounds (2)
+OtherGear: +1 chain shirt, +1 heavy mace, unholy symbol of Urgathoa
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12159'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

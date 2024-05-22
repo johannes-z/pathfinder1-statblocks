@@ -1,0 +1,92 @@
+Name: Mummified Crocodile
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Large
+Type: undead
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +8
+AC: 14, touch 10, flat-footed 13
+AC_Mods: (+1 Dex, +4 natural, -1 size)
+HP: '19'
+HD: (3d8+6)
+Saves: Fort +5, Ref +4, Will +2
+Fort: '5'
+Ref: '4'
+Will: '2'
+DR: 2/-
+Immune: undead traits
+Speed: 20 ft., swim 30 ft.
+Speed_Mod: sprint
+Melee:
+  - bite +5 (1d8+4 plus grab), tail slap +0 (1d12+2)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: death roll, servant's curse (DC 13)
+AbilityScores:
+  - 19
+  - 12
+  - —
+  - 1
+  - 12
+  - 14
+BaseAtk: '2'
+CMB: '7'
+CMD: 18 (22 vs. trip)
+Feats:
+  - Skill Focus (Stealth)
+  - Skill Focus (Perception)
+Skills:
+  - Perception +8
+  - Stealth +4 (+12 in water)
+  - Swim +16
+RacialMods: +8 Stealth in water
+Environment: warm ruins
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This clothed wrapped reptile lunges out of the placid water with shocking
+  speed. Its jaw gapes open in a roar, its powerful tail lashing behind.
+Source: AP 81
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Roll (Ex)
+    description: >-
+      When grappling a foe of its size or smaller, a crocodile can perform a
+      death roll upon making a successful grapple check. As it clings to its
+      foe, it tucks in its legs and rolls rapidly, twisting and wrenching its
+      victim. The crocodile deals its bite damage and knocks the creature prone.
+      If successful, the crocodile maintains its grapple.
+  - name: Sprint (Ex)
+    description: >-
+      Once per minute a crocodile may sprint, increasing its land speed to 40
+      feet for 1 round.
+Description:
+  - >-
+    Crocodiles are depicted in many ways in ancient Osirion, but most often they
+    are shown in association with the River Sphinx and, more importantly, with
+    the god Sobek. Mummified crocodiles are common in crypts that are no farther
+    from the river than a single day's walk. Many mummif ied crocodiles have
+    baby crocodiles placed on their backs or in their mouths, representing how
+    live crocodiles transport and care for their young.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: mummified animal|
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6038'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

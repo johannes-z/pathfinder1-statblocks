@@ -1,0 +1,108 @@
+Name: Barrid Isen
+CR: '7'
+XP: '3200'
+Race: demon-blooded tiefling
+Class: sorcerer 8
+MonsterSource: 'Pathfinder Player Companion: Blood of Fiends 20'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+AC: 17, touch 12, flat-footed 15
+AC_Mods: (+4 armor, +2 Dex, +1 natural)
+HP: '62'
+HD: (8d6+32)
+Saves: Fort +6, Ref +6, Will +9; +2 vs. poison
+Fort: '6'
+Ref: '6'
+Will: '9'
+Save_Mods: +2 vs. poison
+Resist: cold 5, electricity 5, fire 5
+Speed: 30 ft.
+Melee:
+  - 2 claws +7 (1d6+3 plus 1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 1/day
+      value: shatter (DC 16)
+SpellsKnown:
+  header: Spells Known (CL 8th; concentration +12)
+  values:
+    - label: 4th (4/day)
+      value: summon monster IV
+    - label: 3rd (6/day)
+      value: dispel magic, fireball (DC 17), rage
+    - label: 2nd (7/day)
+      value: acid arrow, bull's strength, mirror image, scorching ray
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 15), cause fear (DC 15), expeditious retreat, mage
+        armor, magic missile, summon monster I
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, dancing lights, detect magic, ghost sound (DC
+        14), mage hand, prestidigitation, read magic
+AbilityScores:
+  - 16
+  - 14
+  - 14
+  - 10
+  - 8
+  - 18
+BaseAtk: '4'
+CMB: '7'
+CMD: '19'
+Feats:
+  - Combat Casting
+  - Craft Wondrous Item
+  - Eschew Materials
+  - Iron Will
+  - Toughness
+Skills:
+  - Bluff +15
+  - Disable Device +4
+  - Perception +9
+Languages:
+  - Abyssal
+  - Common
+SQ: bloodline arcana (summoned creatures gain DR 4/good)
+Source: AP 74
+IsTemplate: '0'
+Gender: Male
+Bloodline: abyssal
+BeforeCombat: Barrid casts mage armor and bull's strength before combat.
+DuringCombat: >-
+  Barrid starts combat by casting summon monster IV to summon 1d3 dretches. He
+  then hangs back to attack the PCs with spells, casting rage on himself if they
+  manage to engage him in melee. He fights defensively, backing toward the
+  northern edge before he commands the aurochs to tug at the bridge supports to
+  destroy the bridge.
+Morale: >-
+  Barrid flees to the citadel by using his wand if reduced to fewer than 20 hit
+  points&#8211;the PCs should encounter him again in area F3, where he fights to
+  the death. If he hasn't ordered the aurochs to destroy the bridge yet, he does
+  so just before he flees.
+Gear: potion of cure moderate wounds, wand of dimension door (9 charges)
+OtherGear: amulet of natural armor +1, cloak of resistance +2, 125 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4907'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

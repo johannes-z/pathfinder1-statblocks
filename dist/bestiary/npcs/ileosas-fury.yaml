@@ -1,0 +1,127 @@
+Name: Ileosa's Fury
+CR: '12'
+XP: '19200'
+Race: Erinyes devil
+Class: fighter 4
+MonsterSource: Pathfinder RPG Bestiary 75
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '9'
+Senses:
+  - darkvision 60 ft., see in darkness, true seeing
+  - Perception +16
+AC: 27, touch 14, flat-footed 23
+AC_Mods: (+7 armor, +3 Dex, +1 dodge, +6 natural)
+HP: '166'
+HD: (13d10+95)
+Saves: Fort +18, Ref +17, Will +11 (+1 vs. fear)
+Fort: '18'
+Ref: '17'
+Will: +11 (+1 vs. fear)
+DR: 5/good
+Immune: bleed, fire, poison
+Resist: acid 10, cold 10
+SR: '19'
+Speed: 30 ft., fly 50 ft. (good)
+Melee:
+  - +1 flaming returning trident +22/+17/+12 (1d8+10/19-20 plus 1d6 fire)
+Ranged:
+  - +1 flaming returning trident +24 (1d8+10/19-20 plus 1d6 fire)
+  - rope +22 touch (entangle)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +19)
+  values:
+    - label: Constant
+      value: true seeing
+    - label: At Will
+      value: >-
+        fear (single target) (DC 21), greater teleport (self plus 50 lbs. of
+        objects only), minor image (DC 19), unholy blight (DC 21)
+    - label: 1/day
+      value: summon (level 3, 2 bearded devils 50%)
+AbilityScores:
+  - 24
+  - 28
+  - 24
+  - 12
+  - 18
+  - 24
+BaseAtk: '13'
+CMB: '20'
+CMD: '40'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (trident)
+  - Iron Will
+  - Mobility
+  - Point-Blank Shot
+  - Power Attack
+  - Precise Shot
+  - Rapid Shot
+  - Shot on the Run
+  - Weapon Focus (trident)
+  - Weapon Specialization (trident)
+Skills:
+  - Acrobatics +21
+  - Bluff +19
+  - Diplomacy +16
+  - Escape Artist +12
+  - Fly +19
+  - Intimidate +19
+  - Knowledge (planes) +7
+  - Knowledge (religion) +7
+  - Perception +16
+  - Sense Motive +10
+  - Stealth +15
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: armor training 1, entangle, Everdawn infusion
+Source: Curse Of The Crimson Throne Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Everdawn Infusion (Ex)
+    description: >-
+      The furies have bathed in the Everdawn Pool recently. As a result, they
+      can teleport in the Sunken Queen without restriction, modify their hit
+      point totals with their Charisma modifiers rather than their Constitution
+      modifiers, and are immune to bleed effects.
+DuringCombat: >-
+  The furies prefer to fight in melee, wielding their tridents two-handed and
+  using Power Attack, but each round one of them hits the largest group of
+  enemies she can with an unholy blight; if their foes prove resistant to this
+  tactic, the erinyes instead joins her companions in melee. If a single foe
+  proves particularly troublesome, the four devils target that foe with fear
+  spells, hoping at least one of the spells will take effect-but keep in mind
+  the furies are forewarned of the PCs's abilities and won't  bother trying to
+  cast fear on a paladin or other character they know is immune to this effect.
+  They generally use their rope attacks against clerics or other healers. They
+  avoid using their summon devil spell-like ability, saving that for emergencies
+  or for a fight at Ileosa's side.
+Morale: Bound by contract, the furies fight to the death.
+Gear: >-
+  +1 chainmail, +1 flaming returning trident, cloak of resistance +1, silk rope
+  (50 ft.)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8705'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

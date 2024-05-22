@@ -1,0 +1,154 @@
+Name: Echo Of Deskari
+CR: '22'
+XP: '614400'
+Race: derakni
+MonsterSource: 'Pathfinder Campaign Setting: The Worldwound 43'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, mythicMA)
+Init: +20M/+0
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +38
+Aura: unholy aura (DC 23)
+AC: 39, touch 21, flat-footed 31
+AC_Mods: (+4 deflection, +8 Dex, +18 natural, -1 size)
+HP: '430'
+HD: (20d10+320)
+HP_Mods: fast healing 15
+Saves: Fort +22, Ref +20, Will +15
+Fort: '22'
+Ref: '20'
+Will: '15'
+DR: 10/epic and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '33'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    +4 brilliant energy scythe +33/+28/+23/+18 (2d6+19/19-20/x5), bite +24
+    (1d4+5 plus poison), sting +24 (1d8+5 plus poison)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  Abyssal scythe, drone, mythic power (8/day, surge +1d10), swarm master,
+  swarm-infested
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: Constant
+      value: unholy aura (DC 23)
+    - label: At Will
+      value: >-
+        blasphemy (DC 22), contagion (DC 19), greater teleport (self plus 50
+        lbs. of objects only), gust of wind
+    - label: 3/day
+      value: enervation, quickened summon swarm
+    - label: 1/day
+      value: >-
+        imprisonment (DC 24), insect plague, summon (level 9, 1d3 mariliths,
+        75%)
+AbilityScores:
+  - 30
+  - 27
+  - 30
+  - 13
+  - 25
+  - 20
+BaseAtk: '20'
+CMB: +31 (+33 bull rush)
+CMD: 53 (55 vs. bull rush)
+Feats:
+  - Flyby Attack
+  - Improved Bull Rush
+  - Improved Critical[M] (scythe)
+  - Improved Initiative[M]
+  - Improved Iron Will
+  - Iron Will[M]
+  - Lunge
+  - Power Attack
+  - Quicken Spell-Like Ability (summon swarm)
+  - Toughness[M]
+Skills:
+  - Acrobatics +31
+  - Fly +33
+  - Knowledge (religion) +24
+  - Perception +38
+  - Sense Motive +30
+  - Stealth +27
+  - Survival +30
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+  - word of Deskari
+SQ: death throes, dual initiative
+Source: AP 78
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Abyssal Scythe (Su)
+    description: >-
+      The Favored of Deskari can, as an immediate action, manifest a +4
+      brilliant energy scythe in his hands. Unlike a normal brilliant energy
+      weapon, this weapon can harm living and nonliving creatures equally well.
+      This scythe vanishes if it ever leaves the Favored's grip.
+  - name: Death Throes (Su)
+    description: >-
+      When the Favored of Deskari is slain, his body splits open to unleash a
+      short-lived explosion of ravenous flesh-eating locusts that immediately
+      fill a 30-foot-radius spread. All creatures in this area take 10d6 points
+      of slashing damage and take 10 points of bleed damage from the wounds-a
+      successful DC 30 Reflex save halves the damage and negates the bleed
+      damage. This attack penetrates damage reduction as if it were an epic evil
+      magic weapon. The save DC is Constitution-based.
+  - name: Drone (Su)
+    description: >-
+      By buzzing its wings as a free action, whether in flight or not, the
+      Favored of Deskari creates a 60-foot-radius aura of droning sound. Any
+      non-demon that begins its turn in this area must succeed at a DC 25 Will
+      save or become confused for 1d4 rounds, affected as if by mythic
+      confusion. A mythic creature that succeeds at this save is immune to the
+      drone for 24 hours. This is a mind-affecting sonic effect that demons are
+      immune to. The save DC is Charisma-based.
+  - name: Poison (Su)
+    description: >-
+      Bite or sting&#8211;injury; save Fort DC 30; frequency 1/round for 10
+      rounds; effect 1d6 Con drain and staggered for 1 round; cure 3 consecutive
+      saves. This poison can affect creatures that are normally immune to
+      poison, although such creatures gain a +4 bonus on their saving throws
+      against the effect. The save DC is Constitution-based. Swarm-Infested (Su)
+      The Echo of Deskari is immune to damage and effects caused by swarms. It
+      can direct the actions of any mindless swarm within 90 feet as a free
+      action. Any swarm it creates via its spell-like abilities deals triple the
+      normal amount of swarm damage; this damage penetrates damage reduction as
+      if it were an epic evil magic weapon.
+  - name: Word of Deskari (Su)
+    description: >-
+      The Echo of Deskari can communicate with all vermin, and they follow his
+      commands unerringly if they are nonintelligent.
+DuringCombat: >-
+  The Echo of Deskari begins combat by attempting to cast imprisonment on a PC
+  who looks frail, then follows that up by attempting to summon mariliths. After
+  that, it attacks foes in melee. It uses blasphemy if it is surrounded by foes
+  and is being overwhelmed, hoping to banish some foes for a time back to the
+  Material Plane.
+Morale: The Echo of Deskari fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5719'
+UniqueMonster: '0'
+Variant: '0'
+MR: '8'
+Mythic: '1'
+MT: '0'

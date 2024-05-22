@@ -1,0 +1,97 @@
+Name: Noble Salamander
+CR: '12'
+XP: '19200'
+Race: salamander
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (extraplanar, fire)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +26
+AC: 20, touch 10, flat-footed 19
+AC_Mods: (+1 Dex, +10 natural, -1 size)
+HP: '172'
+HD: (15d10+90)
+Saves: Fort +15, Ref +10, Will +7
+Fort: '15'
+Ref: '10'
+Will: '7'
+DR: 15/magic
+Immune: fire
+Weaknesses: vulnerability to cold
+Speed: 20 ft.
+Melee:
+  - >-
+    longspear +24/+19/+14 (2d6+10 plus 1d8 fire/x3), tail  slap +16 (2d8+3 plus
+    1d8 fire and grab)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with tail)
+SpecialAttacks: constrict (2d8+7 plus 1d8 fire), heat
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th)
+  values:
+    - label: 3/day
+      value: >-
+        burning hands (DC 12), fireball (DC 14), flaming sphere (DC 13), wall of
+        fire (DC 15)
+    - label: 1/day
+      value: dispel magic, summon monster VII (Huge fire elemental)
+AbilityScores:
+  - 24
+  - 12
+  - 22
+  - 14
+  - 15
+  - 13
+BaseAtk: '15'
+CMB: '23'
+CMD: 34 (can't be tripped)
+Feats:
+  - Cleave
+  - Great Cleave
+  - Improved Iron Will
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Perception)
+  - Skill Focus (Craft [weaponsmithing])
+  - Vital Strike
+Skills:
+  - Acrobatics +19
+  - Bluff +19
+  - Craft (weaponsmithing) +30
+  - Intimidate +19
+  - Knowledge (planes) +20
+  - Perception +26
+  - Sense Motive +20
+  - Stealth +15
+RacialMods: +4 Craft (armorsmithing, blacksmithing, and weaponsmithing)
+Languages:
+  - Common
+  - Ignan
+Source: Rappan Athuk-Level 10
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Heat (Ex)
+    description: >-
+      A noble salamander generates so much heat that its mere touch deals an
+      additional 1d8 points of fire damage. A salamander's metallic weapons also
+      conduct this heat.
+Gear: +3 longspear
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12202'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

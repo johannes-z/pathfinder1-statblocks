@@ -1,0 +1,136 @@
+Name: The Risen Lord
+CR: '21'
+XP: '409600'
+Race: ancient red dragon
+MonsterSource: Advanced Bestiary 88, Pathfinder RPG Bestiary 98
+Alignment: CE
+Size: Gargantuan
+Type: undead
+SubType: (augmented dragon, incorporeal)
+Init: '5'
+Senses:
+  - darkvision 60 ft., dragon senses, smoke vision
+  - Perception +34
+Aura: fire (10 ft., 2d6 fire damage), frightful presence (300 ft., DC 27)
+AC: 13, touch 13, flat-footed 12
+AC_Mods: (+6 deflection, +1 Dex, -4 size)
+HP: '287'
+HD: (25d8+175)
+Saves: Fort +14, Ref +11, Will +22
+Fort: '14'
+Ref: '11'
+Will: '22'
+DefensiveAbilities: channel resistance +3, incorporeal
+DR: 15/ magic
+Immune: fire, paralysis, sleep, undead traits
+SR: '30'
+Weaknesses: vulnerable to fire
+Speed: fly 250 ft. (perfect)
+Melee:
+  - >-
+    bite +15 (1d8 Strength drain), 2 claws +15 (1d8 Strength  drain), tail slap
+    +13 (1d8 Strength drain), 2 wings +13 (1d8  Strength drain)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, DC 28, 20d10 fire), command shadows, create spawn,
+  manipulate flames, melt stone, tail sweep (1d8 Strength drain)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 25th; concentration +31)
+  values:
+    - label: At will
+      value: >-
+        detect magic, find the path, pyrotechnics (DC 18), suggestion (DC 19),
+        wall of fire
+    - label: 3/day
+      value: quickened suggestion (DC 18), quickened wall of fire
+SpellsKnown:
+  header: >-
+    Spells Known (CL 15th; concentration +18)  7th (4)-control undead (DC 20),
+    finger of death (DC 20)  6th (7)-disintegrate (DC 19), repulsion (DC 19),
+    shadow walk  5th (7)-dominate person (DC 18), telekinesis, teleport, wall of
+    force  4th (7)-black tentacles, charm monster (DC 17), greater invisibility,
+    resilient sphere (DC 17)  3rd (7)-dispel magic, displacement, haste,
+    vampiric touch  2nd (8)-cat's grace, eagle's splendor, false life, scorching
+    ray, spectral hand  1st (8)-alarm, mage armor, magic missile, ray of
+    enfeeblement (DC 14), shield
+  values:
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 13), ghost sound (DC 13), mage hand, open/close,
+        prestidigitation, read magic, resistance, touch of fatigue (DC 13)
+AbilityScores:
+  - 39
+  - 12
+  - —
+  - 16
+  - 23
+  - 22
+BaseAtk: '18'
+CMB: '23'
+CMD: 53 (can't be tripped)
+Feats:
+  - Combat Expertise
+  - Flyby Attack
+  - Improved Initiative
+  - Improved Iron Will
+  - Improved Lightning Reflexes
+  - Iron Will
+  - Lightning Reflexes
+  - Multiattack
+  - Quicken Spell
+  - Quicken Spell-Like Ability (suggestion
+  - wall of fire)
+  - Silent Spell
+  - Toughness
+Skills:
+  - Bluff +31
+  - Fly +31
+  - Intimidate +34
+  - Knowledge (arcana) +31
+  - Knowledge (religion) +31
+  - Perception +34
+  - Stealth +17
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Dwarven
+  - Giant
+  - Orc
+SQ: shadow slip
+Source: Undead Revisited
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Shadows (Su)
+    description: >-
+      The Risen Lord can automatically command all normal shadows within 30 feet
+      as a free action. Shadows never attack the Risen Lord unless compelled.
+  - name: Create Spawn (Su)
+    description: >-
+      Any creature that is drained to 0 Strength by the Risen Lord dies. One
+      round later, the creature's body spawns a shadow (if the creature had 8 or
+      fewer Hit Dice) or a greater shadow (if the creature had 9 Hit Dice or
+      more).
+  - name: Shadow Slip (Su)
+    description: >-
+      At will as a move action, the Risen Lord may shadow slip-this functions
+      identically to the spell dimension door, save that the starting point and
+      destination must lie in darkness or dim light.
+Gender: Male
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: dread shadow|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1723'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

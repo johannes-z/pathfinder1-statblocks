@@ -1,0 +1,109 @@
+Name: Mad Seeress
+CR: '7'
+XP: '3200'
+Race: Human
+Class: skald (spell warrior) 8
+MonsterSource: Pathfinder RPG Advanced Class Guide 49, 116
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +1
+AC: 18, touch 13, flat-footed 15
+AC_Mods: (+5 armor, +2 Dex, +1 dodge)
+HP: '79'
+HD: (8d8+40)
+Saves: >-
+  Fort +12, Ref +7, Will +8; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '12'
+Ref: '7'
+Will: '8'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: improved uncanny dodge
+Speed: 30 ft.
+Melee:
+  - +1 shock longspear +13/+8 (1d8+7/x3 plus 1d6 electricity)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  rage power (spirit totem +9, 1d4+3), raging song 20 rounds/day (move action;
+  enhance weapons, song of marching, song of strength)
+SpellsKnown:
+  header: Skald Spells Known (CL 8th; concentration +11)
+  values:
+    - label: 3rd (3/day)
+      value: confusion (DC 16), haste, phantom steed
+    - label: 2nd (5/day)
+      value: dousing rain*, gallant inspirationAPG, heroism, reinvigorating wind*
+    - label: 1st (5/day)
+      value: >-
+        feather fall, grease (DC 14), liberating commandUC, remove fear, saving
+        finaleAPG
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 13), message,
+        prestidigitation, read magic
+AbilityScores:
+  - 18
+  - 14
+  - 16
+  - 10
+  - 8
+  - 16
+BaseAtk: '6'
+CMB: '12'
+CMD: '23'
+Feats:
+  - Arcane Strike
+  - Dodge
+  - Improved Counterspell
+  - Improved Initiative
+  - Power Attack
+  - Toughness
+Skills:
+  - Acrobatics +4 (+8 when jumping)
+  - Knowledge (arcana) +17
+  - Knowledge (nature) +17
+  - Knowledge (religion) +17
+  - Perform (oratory) +16
+  - Perform (percussion instruments) +16
+  - Ride +4
+Languages:
+  - Common
+SQ: >-
+  bardic knowledge +4, greater counterspell, lore master 1/day, rage powers,
+  versatile performance (oratory, percussion)
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The mad seeress casts heroism, drinks her potion of bear's endurance, and
+  activates raging song, using enhance weapons to make her and her allies'
+  weapons +1 shock weapons.
+Gear: potion of bear's endurance
+OtherGear: >-
+  +1 mithral chain shirt, mwk longspear, belt of giant strength +2, cloak of
+  resistance +1, hand drum, 90 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without heroism, potion of bear's endurance, and enhanced weapons,  the mad
+  seeress's statistics are Senses Perception -1; hp 63; Fort +8, Ref +5, Will
+  +6; Speed 30 ft.; Melee mwk longspear +11/+6 (1d8+6/x3); Con 12; CMB +10;
+  Skills all 2 lower.
+AgeCategory: Adult
+ClassArchetypes: spell warrior
+CompanionFamiliarLink: '0'
+id: '9007'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

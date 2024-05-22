@@ -1,0 +1,114 @@
+Name: High Sire
+CR: '11'
+XP: '12800'
+Race: half-elf
+Class: summoner 12
+MonsterSource: Advanced Player's Guide 54
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +2
+AC: 18, touch 10, flat-footed 17
+AC_Mods: (+8 armor)
+HP: '69'
+HD: (12d8+12)
+Saves: Fort +5, Ref +5, Will +9; +2 vs. enchantments
+Fort: '5'
+Ref: '5'
+Will: '9'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: greater shield ally
+Immune: sleep
+Speed: 30 ft., fly 40 ft. (good)
+Melee:
+  - mwk sickle +9/+4 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: maker's call 2/day, transposition
+SpellLikeAbilities:
+  header: Summoner Spell-Like Abilities (CL 12th; concentration +19)
+  values:
+    - label: 10/day
+      value: summon monster VI
+SpellsKnown:
+  header: Summoner Spells Known (CL 12th; concentration +19)
+  values:
+    - label: 4th (4/day)
+      value: >-
+        greater evolution surgeAPG (DC 21), overland flight, purified
+        callingAPG, transmogrifyAPG
+    - label: 3rd (6/day)
+      value: dimension door, greater magic fang, rejuvenate eidolonAPG, wall of fire
+    - label: 2nd (7/day)
+      value: barkskin, bull's strength, cat's grace, haste, invisibility
+    - label: 1st (7/day)
+      value: >-
+        expeditious retreat, mage armor, magic fang, shield, unfetterAPG (DC
+        18), ventriloquism (DC 18)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, detect magic, mage hand, message, open/close (DC 17), read
+        magic
+AbilityScores:
+  - 9
+  - 10
+  - 11
+  - 12
+  - 10
+  - 24
+BaseAtk: '9'
+CMB: '8'
+CMD: '18'
+Feats:
+  - Extra EvolutionUM (3)
+  - Improved Initiative
+  - Resilient Eidolon
+  - Skill Focus (Knowledge [planes])
+  - Toughness
+Skills:
+  - Fly +12
+  - Knowledge (arcana) +14
+  - Knowledge (nobility) +5
+  - Knowledge (planes) +20
+  - Linguistics +8
+  - Perception +2
+  - Spellcraft +9
+  - Use Magic Device +11
+RacialMods: +2 Perception
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - ''
+  - Elven Ignan
+  - Infernal
+SQ: arcane training, bond senses (12 rds.), eidolon, elf blood, life bond
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  He casts overland flight and invisibility on himself and mage armor, greater
+  magic fang, barkskin, bull's strength, cat's grace, and greater evolution
+  surge (spell resistance and grab [bite]) on his eidolon.
+Gear: lesser reach metamagic rodAPG, wand of lesser rejuvenate eidolon (4 charges)
+OtherGear: >-
+  +2 elven chain, mwk sickle, cloak of resistance +1, headband of alluring
+  charisma +2, society ring*, spell component pouch, 4 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: old
+CompanionFamiliarLink: '9026'
+id: '9025'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,135 @@
+Name: Gloomwing
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Large
+Type: outsider
+SubType: (extraplanar)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +8
+Aura: weakness pheromone (30 ft., DC 13, 1d2 Str damage)
+AC: 19, touch 12, flat-footed 16
+AC_Mods: (+3 Dex, +7 natural, -1 size)
+HP: '32'
+HD: (5d10+5)
+Saves: Fort +5, Ref +4, Will +5
+Fort: '5'
+Ref: '4'
+Will: '5'
+Speed: 5 ft., fly 40 ft. (average)
+Melee:
+  - 2 claws +7 (1d6), bite +7 (1d8)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: confusion (DC 13, 6 rounds), pheromone call
+AbilityScores:
+  - 11
+  - 16
+  - 13
+  - 2
+  - 12
+  - 10
+BaseAtk: '5'
+CMB: '6'
+CMD: 19 (27 vs. trip)
+Feats:
+  - Flyby Attack
+  - Hover
+  - Weapon Finesse
+Skills:
+  - Fly +6
+  - Perception +8
+  - Stealth +6 (+10 in dim light or darkness)
+RacialMods: +4 Stealth to hide in dim light or darkness
+SQ: implant egg
+Environment: Plane of Shadow
+Organization: solitary
+Treasure: none (ivory mandibles worth 100 gp each)
+Description_Visual: >-
+  This creature looks like a giant moth. Its body and wings are black with
+  spiraled patterns of silver. Two large black antennae protrude from its head.
+  Eight legs run the length of its body, each ending in a pearly-white claw. Its
+  mouth has two large pearly-white mandibles.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Confusion (Su)
+    description: >-
+      The coloration on the gloomwing's back and wings provide it with
+      protection against some predators. Any creature viewing the gloomwing from
+      above must succeed on a DC 13 Will save or be confused for 6 rounds. The
+      save DC is Constitution-based.
+  - name: Implant Egg (Ex)
+    description: >-
+      As a standard action, a female gloomwing can lay eggs inside a slain
+      creature of Small or larger size. The young emerge about 2 weeks later as
+      a tenebrous worms (see that entry), literally devouring the host from
+      inside. While implanted, a body cannot be raised or resurrected except by
+      the casting of a true resurrection, wish, or miracle, If remove disease or
+      heal is cast on the body, the eggs are destroyed and the body can be
+      raised normally.
+  - name: Pheromone Call (Ex)
+    description: >-
+      Each round a gloomwing emits its weakness pheromone there is a 20% chance
+      that 1d4 additional gloomwings arrive in the area and join the battle.
+      This is not a summoning spell or spell-like ability; the gloomwings can
+      detect the pheromone and are automatically drawn to it.
+  - name: Weakness Pheromone (Ex)
+    description: >-
+      After the first round of combat, a gloomwing can emit a scent in a 30-foot
+      radius as a free action that deals 1d2 points of Strength damage to any
+      living, non-vermin creature (except gloomwings) in the area. An affected
+      creature can make a successful DC 13 Fortitude save each round it remains
+      in the area to negate the effects. On a successful save, that creature
+      cannot be affected again by the same gloomwing's weakness pheromone for 24
+      hours. The pheromone ceases when the gloomwing dies. Strength damage dealt
+      by a gloomwing's pheromone heals faster than normal (1 point per hour
+      rather that 1 point per night of rest). The save DC is Constitution-based.
+Description:
+  - >-
+    The gloomwing is native to the Plane of Shadow and is often summoned to the
+    Material Plane by spellcasters to act as a guardian. On occasion, a
+    gloomwing slips through a tear in the fabric of the planes and enters the
+    Material Plane on its own.
+  - >-
+    The gloomwing is the adult stage of the tenebrous worm (see that entry).
+    Female gloomwings lay their eggs in the bodies of slain victims.
+  - >-
+    In 12 days, these eggs hatch, releasing 4-10 tenebrous worms. The ivory
+    mandibles of a gloomwing can be pried or broken from its carcass and sold
+    for 100 gp each.
+  - >-
+    Gloomwings are aggressive creatures and fight from the air. They hover and
+    flitter about an opponent, biting with their mandibles and slashing with
+    their claws (they attack only with their two front claws; the other claws
+    are too weak to be effective in combat). After the first round of combat, a
+    gloomwing secretes a pheromone that calls other gloomwings in the area to
+    its aid. The pheromone also acts as a weakening agent against non-insect
+    creatures in the area.
+  - >-
+    Credit The Gloomwing originally appeared in the First Edition Monster Manual
+    II (© TSR/Wizards of the Coast, 1983) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Gary
+    Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2640'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

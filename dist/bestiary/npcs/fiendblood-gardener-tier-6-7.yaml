@@ -1,0 +1,90 @@
+Name: Fiendblood Gardener Tier 6-7
+CR: '3'
+XP: '800'
+Race: human
+Class: ex-druid 5
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +11
+AC: 15, touch 10, flat-footed 15
+AC_Mods: (+5 armor)
+HP: '37'
+HD: (5d8+15)
+Saves: Fort +5, Ref +3, Will +7
+Fort: '5'
+Ref: '3'
+Will: '7'
+Speed: 30 ft.
+Melee:
+  - mwk sickle +5 (1d6+1)
+  - unarmed strike +4 (1d6+1 plus disease)
+Ranged:
+  - mwk sling +4 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: disease
+AbilityScores:
+  - 12
+  - 10
+  - 12
+  - 10
+  - 16
+  - 12
+BaseAtk: '3'
+CMB: '4'
+CMD: '14'
+Feats:
+  - Improved Initiative
+  - Improved Unarmed Strike
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Bluff +5
+  - Handle Animal +8
+  - Heal +7
+  - Knowledge (nature) +7
+  - Perception +11
+  - Survival +7
+Languages:
+  - Common
+  - Druidic
+Source: PFS S1-43
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: Any PC injured by a gardener's unarmed strike risks palepox infection.
+Gender: Female
+BeforeCombat: >-
+  If the gardeners hear the PCs approaching, they move to the center of the
+  field and load their slings. Should the PCs approach stealthily, the gardeners
+  are tending the flowers in randomly determined locations around the field. The
+  gardeners are all infected with palepox.
+DuringCombat: >-
+  The gardeners attempt to lure the PCs into the flamebloom field, hoping to
+  infect them. If forced into melee, they use their garden tools (sickles) to
+  fend off the attackers. They throw tanglefoot bags at any PCs attempting to
+  flee the field, should the PCs uncover the flowers' contagious nature.
+Gear: potion of cure moderate wounds, tanglefoot bag (2)
+OtherGear: >-
+  +1 hide shirt, club, masterwork sickle, masterwork sling with 10 bullets,
+  masterwork gardening tools, shovel, silken rope
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Con 14, Cha 13
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4240'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

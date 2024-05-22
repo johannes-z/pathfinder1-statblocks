@@ -1,0 +1,103 @@
+Name: Strix Archer
+CR: '7'
+XP: '3200'
+Race: Strix
+Class: ranger 8
+MonsterSource: Pathfinder RPG Advanced Race Guide 200
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (strix)
+Init: +4 (+8 forest)
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +12 (+16 forest)
+AC: 21, touch 14, flat-footed 17
+AC_Mods: (+5 armor, +4 Dex, +2 natural)
+HP: '72'
+HD: (8d10+24)
+Saves: Fort +9, Ref +10, Will +5; +2 vs. illusion spells or effects
+Fort: '9'
+Ref: '10'
+Will: '5'
+Save_Mods: +2 vs. illusion spells or effects
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - longsword +10/+5 (1d8+2/19-20)
+Ranged:
+  - +1 composite longbow +13/+8 (2d6+3/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: combat style (archery), favored enemy (humans +4, lawful outsiders +2), hatred
+SpellsPrepared: >-
+  Ranger Spells Prepared (CL 5th; concentration +6)   2nd-barkskin   1st-gravity
+  bowAPG, pass without trace
+AbilityScores:
+  - 15
+  - 18
+  - 12
+  - 8
+  - 13
+  - 8
+BaseAtk: '8'
+CMB: '10'
+CMD: '24'
+Feats:
+  - Deadly Aim
+  - Endurance
+  - Great Fortitude
+  - Iron Will
+  - Point-Blank Shot
+  - Rapid Shot
+  - Toughness
+Skills:
+  - Fly +14
+  - Knowledge (nature) +10
+  - Perception +12 (+14 in dim light or darkness
+  - +16 forest)
+  - Stealth +14 (+16 in dim light or darkness
+  - +18 forest)
+  - Survival +12 (+16 forest)
+Languages:
+  - Strix
+SQ: >-
+  favored terrain (forest +4, plains +2), hunter's bond (companions), nocturnal,
+  suspicious, swift tracker, track +4, wild empathy +7, woodland stride
+Source: AP 101
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Hatred (Ex)
+    description: Strix receive a +1 bonus on attack rolls against humans.
+  - name: Nocturnal (Ex)
+    description: >-
+      Strix gain a +2 racial bonus on Perception and Stealth checks in dim light
+      or darkness.
+  - name: Suspicious (Ex)
+    description: >-
+      Strix receive a +2 racial bonus on saving throws against illusion spells
+      or effects.
+BeforeCombat: The archers cast gravity bow and barkskin.
+DuringCombat: >-
+  These archers prefer to stay at range,  abandoning full attacks when needed to
+  do so. They focus their attacks on humans first and other foes second, using
+  Deadly Aim to increase their damage.
+Morale: The archers fight to the death.
+Gear: potion of cure serious wounds, potion of haste
+OtherGear: >-
+  +1 chain shirt, +1 composite longbow (+2 Str) with 20 arrows, human slaying
+  arrow, longsword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7578'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

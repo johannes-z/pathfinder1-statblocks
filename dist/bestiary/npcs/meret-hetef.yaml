@@ -1,0 +1,124 @@
+Name: Meret-Hetef
+CR: '5'
+XP: '1600'
+Race: human
+Class: bard 6
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +10
+AC: 17, touch 11, flat-footed 16
+AC_Mods: (+4 armor, +1 Dex, +2 shield)
+HP: '54'
+HD: (6d8+24)
+Saves: >-
+  Fort +4, Ref +6, Will +8; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '4'
+Ref: '6'
+Will: '8'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - mwk sickle +5 (1d6)
+Ranged:
+  - dagger +5 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 17 rounds/day (countersong, distraction, fascinate [DC 16],
+  inspire competence +2, inspire courage +2, suggestion [DC 16])
+SpellsKnown:
+  header: Bard Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 2nd (4/day)
+      value: cat's grace, glitterdust (DC 16), sound burst (DC 15), summon monster II
+    - label: 1st (5/day)
+      value: >-
+        detect secret doors, grease (DC 15), hideous laughter (DC 14), summon
+        monster I
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 13), light, mage hand, message, read magic
+AbilityScores:
+  - 10
+  - 12
+  - 15
+  - 14
+  - 12
+  - 16
+BaseAtk: '4'
+CMB: '4'
+CMD: '15'
+Feats:
+  - Augment Summoning
+  - Iron Will
+  - Spell Focus (conjuration)
+  - Toughness
+Skills:
+  - Intimidate +10
+  - Knowledge (arcana) +14
+  - Knowledge (dungeoneering) +10
+  - Knowledge (history) +10
+  - Knowledge (local) +10
+  - Knowledge (religion) +10
+  - Linguistics +6
+  - Perception +10
+  - Perform (act) +12
+  - Perform (oratory) +12
+  - Spellcraft +10
+  - Stealth +10
+  - Use Magic Device +12
+Languages:
+  - Abyssal
+  - Ancient Osiriani
+  - Common
+  - Kelish
+  - Osiriani
+SQ: bardic knowledge +3, lore master 1/day, versatile performance (act, oratory)
+Source: AP 80
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Before confronting opponents, Meret-Hetef casts cat's grace and invisibility
+  (from her wand) on herself.
+DuringCombat: >-
+  Meret-Hetef uses her bardic performance to inspire courage in her minions,
+  then casts summon monster II to conjure 1d3 fiendish dogs. On subsequent
+  rounds, she remains invisible and summons more allies, using her lesser book
+  of extended summoning if necessary. Only if her location is discovered does
+  Meret-Hetef reveal herself, casting offensive spells such as sound burst or
+  hideous laughter.
+Morale: >-
+  Meret-Hetef is terribly sensible. If all of her minions are killed or captured
+  or she is reduced below 20 hit points, she retreats, using her scroll of
+  expeditious retreat if possible. If unable to flee, Meret-Hetef fights to the
+  death.
+Gear: >-
+  potion of cure moderate wounds, scroll of expeditious retreat, wand of
+  invisibility (11 charges)
+OtherGear: >-
+  +1 studded leather, +1 buckler, dagger, mwk sickle, lesser book of extended
+  summoningUE (evil), backpack, bedroll, belt pouch, spell component pouch, gold
+  funerary mask (worth 50 gp), lapis lazuli bracelets (2, worth 35 gp each), 17
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without cat's grace, Meret-Hetef's statistics are AC 15, touch 9, flat-footed
+  15; Reflex +4; Dex 8; Skills Stealth +8.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5971'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

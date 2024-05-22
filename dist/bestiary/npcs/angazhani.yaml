@@ -1,0 +1,106 @@
+Name: Angazhani
+CR: '9'
+XP: '6400'
+Race: Angazhani
+MonsterSource: 'Pathfinder Campaign Setting: Heart of the Jungle 58'
+Alignment: CE
+Size: Large
+Type: magical beast
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision, scent, see invisibility
+  - Perception +11
+AC: 24, touch 12, flat-footed 21
+AC_Mods: (+4 armor, +3 Dex, +8 natural, -1 size)
+HP: '114'
+HD: (12d10+48)
+Saves: Fort +12, Ref +11, Will +8
+Fort: '12'
+Ref: '11'
+Will: '8'
+DR: 10/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '19'
+Speed: 30 ft., climb 30 ft. (40-ft. base)
+Melee:
+  - >-
+    mwk throwing axe +16/+11/+6 (1d8+5), 3 mwk throwing  axes +16 (1d8+2), bite
+    +11 (1d8+2) or bite +16 (1d8+5), 4  claws +16 (1d6+5 plus rend)
+Ranged:
+  - 4 mwk throwing axes +16 (1d8+5)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: rend (4 claws, 1d6+7)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th, concentration +16)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At Will
+      value: deeper darkness, dimension door, dispel magic
+    - label: 3/day
+      value: dominate monster (DC 21), fear (DC 16)
+AbilityScores:
+  - 21
+  - 17
+  - 18
+  - 12
+  - 14
+  - 14
+BaseAtk: '12'
+CMB: '18'
+CMD: '31'
+Feats:
+  - Cleave
+  - Combat Reflexes
+  - Iron Will
+  - Multiweapon Fighting
+  - Power Attack
+  - Weapon Focus (throwing axe)
+Skills:
+  - Climb +20
+  - Intimidate +11
+  - Knowledge (religion) +14
+  - Perception +11
+  - Stealth +6
+  - Survival +11
+Languages:
+  - Abyssal
+  - Common
+  - Polyglot
+SQ: martial training
+Source: PFS S5-20
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Martial Training (Ex)
+    description: >-
+      Because of their high intelligence, angazhani are proficient with light
+      and medium armors, simple weapons, and one martial weapon of choice.
+BeforeCombat: >-
+  The angazhani wait for the PCs to approach the ambush area. When the PCs
+  arrive, one of the angazhani uses its dimension door ability to take the other
+  angazhani into combat.
+DuringCombat: >-
+  The angazhani attempt to defeat their opponents as quickly as possible,
+  resorting to brutal melee tactics against the least armored opponents first.
+Morale: >-
+  As soon as the tobongo guardian uses its shake the earth ability, the
+  angazhani attempt to flee using dimension door.
+Gear: masterwork hide armor, masterwork throwing axes (8), leather axe harness
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: High Girallon
+id: '8111'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

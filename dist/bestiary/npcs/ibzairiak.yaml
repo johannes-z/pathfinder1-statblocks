@@ -1,0 +1,120 @@
+Name: Ibzairiak
+CR: '10'
+XP: '9600'
+Race: young adult black dragon
+MonsterSource: Pathfinder RPG Bestiary 92
+Alignment: CE
+Size: Large
+Type: dragon
+SubType: (water)
+Init: '6'
+Senses:
+  - dragon senses
+  - Perception +12
+AC: 27, touch 13, flat-footed 24
+AC_Mods: (+2 Dex, +1 dodge, +15 natural, -1 size)
+HP: '126'
+HD: (12d12+48)
+Saves: Fort +12, Ref +10, Will +10
+Fort: '12'
+Ref: '10'
+Will: '10'
+DR: 5/magic
+Immune: acid, paralysis, sleep
+SR: '21'
+Speed: 60 ft., fly 200 ft. (poor), swim 60 ft.
+Melee:
+  - >-
+    bite +17 (2d6+8), 2 claws +17 (1d8+6), tail slap +12 (1d8+8), 2 wings +12
+    (1d6+3)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (80-ft. line, DC 20, 10d6 acid)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +13)
+  values:
+    - label: Constant
+      value: speak with animals (reptiles only)
+    - label: At Will
+      value: darkness (50-ft. radius)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 1st; concentration +2)
+  values:
+    - label: 1st (4/day)
+      value: alarm, silent image
+    - label: 0 (at will)
+      value: dancing lights, detect magic, ghost sound (DC 11), message
+AbilityScores:
+  - 21
+  - 14
+  - 19
+  - 12
+  - 15
+  - 12
+BaseAtk: '12'
+CMB: '18'
+CMD: 31 (35 vs. trip)
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Improved Vital Strike
+  - Mobility
+  - Skill Focus (Stealth)
+  - Vital Strike
+Skills:
+  - Acrobatics +2 (+14 when jumping)
+  - Bluff +16
+  - Climb +14
+  - Fly +11
+  - Intimidate +16
+  - Knowledge (arcana
+  - local) +10
+  - Sense Motive +11
+  - Spellcraft +10
+  - Stealth +19
+  - Swim +22
+Languages:
+  - Common
+  - Draconic
+SQ: speak with reptiles, spry, swamp stride, water breathing
+Source: AP 116
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Spry (Ex)
+    description: >-
+      Ibzairiak is faster and leaner than most young adult black dragons,
+      increasing his Dexterity score by 2 but lowering his Strength score by an
+      equal amount.
+Gender: Male
+BeforeCombat: >-
+  Ibzairiak loves guile and misdirection. He casts alarm each day on the stairs
+  leading up to his lair. If alerted to a trespasser, he bellows a threat but
+  quietly hides in one corner of the room, out of view of the stairs, and casts
+  silent image to create an illusion of himself sitting in his pool. He hopes
+  intruders will waste resources attacking this illusion before he strikes.
+DuringCombat: >-
+  Ibzairiak hates a fair fight. He begins any confrontation by unleashing his
+  breath weapon and then casting darkness to confuse and terrify his opponents.
+  He takes advantage of his speed and reach to strike with a powerful bite and
+  then fall back, even dragging  a fight with especially tenacious foes into the
+  courtyard. If he injures an opponent so badly that it seems a single melee
+  attack might drop her, he ceases attacks against that foe and bellows, "Flee,
+  whelp, to nurse the wounds the Scar-Maker gave you." If a gravely injured foe
+  chooses to fight on, the dragon shows no mercy.
+Morale: Ibzairiak arrogantly fights to the death.
+Gear: amulet of mighty fists
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: young
+CompanionFamiliarLink: '0'
+id: '11166'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

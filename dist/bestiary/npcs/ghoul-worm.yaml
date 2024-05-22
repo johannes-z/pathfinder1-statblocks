@@ -1,0 +1,70 @@
+Name: Ghoul Worm
+CR: '7'
+XP: '3200'
+Race: Ghoul Worm
+Alignment: NE
+Size: Huge
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +18
+AC: 21, touch 9, flat-footed 20
+AC_Mods: (+1 Dex, +12 natural, -2 size)
+HP: '90'
+HD: (12d8+36)
+Saves: Fort +8, Ref +7, Will +5
+Fort: '8'
+Ref: '7'
+Will: '5'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 30 ft., burrow 20 ft.
+Melee:
+  - bite +14 (2d6+7 plus grab and disease), slam +14 (1d8+7  plus paralysis)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  disease, paralysis (1d6 rounds, DC 18, elves are immune to this effect),
+  swallow whole (2d6+10 bludgeoning damage, AC 16, 9 hp)
+AbilityScores:
+  - 25
+  - 13
+  - —
+  - 3
+  - 4
+  - 14
+BaseAtk: '9'
+CMB: +18 (+22 grapple)
+CMD: 29 (can't be tripped)
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Perception)
+  - Toughness
+Skills:
+  - Perception +18
+Source: PFS S2-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 18; onset 1 day; frequency 1 day;
+      effect 1d3 Str damage and 1d3 Dex damage; cure 2 consecutive saves.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5755'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

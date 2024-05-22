@@ -1,0 +1,84 @@
+Name: Writhing Reed
+CR: '10'
+XP: '9600'
+Race: stranglereed
+MonsterSource: Pathfinder RPG Bestiary 5 180, 237
+Alignment: 'N'
+Size: Large
+Type: aberration
+SubType: (plant, aquatic)
+Init: '8'
+Senses:
+  - low-light vision
+  - Perception +9
+AC: 22, touch 13, flat-footed 18
+AC_Mods: (+4 Dex, +9 natural, -1 size)
+HP: '138'
+HD: (12d8+84)
+HP_Mods: fast healing 5
+Saves: Fort +15, Ref +10, Will +4
+Fort: '15'
+Ref: '10'
+Will: '4'
+DefensiveAbilities: all-around vision
+DR: 5/slashing
+Immune: plant traits
+Resist: acid 10
+Weaknesses: vulnerability to fire
+Speed: 15 ft., climb 10 ft., swim 20 ft.
+Melee:
+  - 2 tendrils +18 (2d8+9 plus grab), bite +17 (1d8+9)
+Space: 10 ft.
+Reach: 10 ft. (5 ft. with bite)
+SpecialAttacks: constrict (2d8+9), grab, pull (tendril, 5 ft.), strangle, suffocate
+AbilityScores:
+  - 29
+  - 18
+  - 25
+  - 1
+  - 10
+  - 6
+BaseAtk: '9'
+CMB: +19 (+23 grapple)
+CMD: 33 (can't be tripped)
+Feats:
+  - Improved Initiative
+  - Lightning Reflexes
+  - Lunge
+  - Skill Focus (Stealth)
+  - Stealthy
+  - Weapon Focus (tendril)
+Skills:
+  - Climb +17
+  - Escape Artist +6
+  - Perception +9
+  - Stealth +14
+  - Swim +17
+SQ: >-
+  deformities (spasms), freeze (patch of reeds), mutations (fast healing,
+  increased speed, land adaptation [the stranglereed loses its water dependency
+  special quality], resistance)
+Source: AP 141
+IsTemplate: '0'
+BeforeCombat: The writhing reed hides among the overgrowth to ambush the PCs.
+DuringCombat: >-
+  The writhing reed targets the foes that make the most noise. If none of the
+  PCs are being particularly noisy, it attacks a PC with a high armor check
+  penalty.
+Morale: The writhing reed fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: mutant|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12410'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,85 @@
+Name: Deathcap Jumper
+CR: '6'
+XP: '2400'
+Race: fungal crawler
+MonsterSource: Pathfinder RPG Bestiary 2 127
+Alignment: 'N'
+Size: Medium
+Type: aberration
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +8
+AC: 19, touch 15, flat-footed 14
+AC_Mods: (+4 Dex, +1 dodge, +4 natural)
+HP: '67'
+HD: (9d8+27)
+Saves: Fort +6, Ref +9, Will +7
+Fort: '6'
+Ref: '9'
+Will: '7'
+DefensiveAbilities: plant defenses
+Immune: mind-affecting effects, paralysis, poison, polymorph effects, sleep, stunning
+Speed: 20 ft., climb 40 ft.
+Melee:
+  - bite +10 (1d6+4 plus poison), 2 claws +10 (1d4+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: leap
+AbilityScores:
+  - 18
+  - 19
+  - 17
+  - 2
+  - 13
+  - 7
+BaseAtk: '6'
+CMB: '10'
+CMD: '25'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Lightning Reflexes
+  - Mobility
+  - Step Up
+Skills:
+  - Acrobatics +12 (+20 jump)
+  - Climb +12
+  - Perception +8
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Leap (Ex)
+    description: >-
+      A fungal crawler can perform a special kind of pounce attack by jumping
+      into combat. When a fungal crawler charges, it can make a DC 20 Acrobatics
+      check to jump into the air and land next to its enemies. If it makes the
+      Acrobatics check, it can follow up with four claw attacks against foes in
+      reach, but it cannot make a bite attack.
+  - name: Plant Defenses (Ex)
+    description: >-
+      A fungal crawler is part plant, and shares many of the immunities that
+      plant creatures possess. A fungal crawler is immune to mind-affecting
+      effects, paralysis, poison, polymorph effects, sleep, and stunning.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 17; frequency 1/round for 4 rounds; effect 1d2
+      Str and 1d2 Con; cure 1 save.
+DuringCombat: The fungal crawlers use their leap ability to attack intruders en masse.
+Morale: The fungal crawlers fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1047'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

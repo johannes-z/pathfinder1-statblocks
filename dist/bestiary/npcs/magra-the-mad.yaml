@@ -1,0 +1,112 @@
+Name: Magra The Mad
+CR: '6'
+XP: '2400'
+Race: orc
+Class: oracle 7
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42, Pathfinder RPG Bestiary 222
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (orc)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 18, touch 12, flat-footed 16
+AC_Mods: (+6 armor, +1 Dex, +1 dodge)
+HP: '70'
+HD: (7d8+35)
+Saves: Fort +5, Ref +3, Will +7
+Fort: '5'
+Ref: '3'
+Will: '7'
+DefensiveAbilities: ferocity
+Weaknesses: light sensitivity
+Speed: 20 ft.
+Melee:
+  - greataxe +6 (1d12+1/x3)
+Ranged:
+  - javelin +6 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 7th; concentration +9)
+  values:
+    - label: 3rd (4/day)
+      value: >-
+        bestow curse (DC 15), cure serious wounds, magic vestment, summon
+        monster III
+    - label: 2nd (7/day)
+      value: aid, cure moderate wounds, fog cloud, shield other, silence (DC 14)
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 13), command (DC 13), cure light wounds, doom (DC 13),
+        enlarge person (DC 13) sanctuary (DC 13), shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 12), create water, detect magic, guidance, read magic,
+        resistance, stabilize
+AbilityScores:
+  - 12
+  - 13
+  - 16
+  - 8
+  - 10
+  - 14
+BaseAtk: '5'
+CMB: '6'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Diehard
+  - Dodge
+  - Iron Will
+  - Toughness
+Skills:
+  - Heal +10
+  - Intimidate +12
+  - Perception +10
+Languages:
+  - Common
+  - Orc
+SQ: >-
+  oracle's curse (clouded vision), revelations (battlecry [+1, 2/day], combat
+  healer 1/day, resiliency), weapon familiarity
+Source: PFS S4-25
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Magra has already cast shield other on Kogan. If the PCs failed to surprise
+  the wily orc, he also casts sanctuary on himself before he attempts his
+  extortion (not reflected in his stat block).
+DuringCombat: >-
+  If one of the PCs fights Kogan, during the fight Magra skulks into one of the
+  side tunnels and casts healing spells to heal the damage he sustains through
+  shield other. If the PCs fight all of the orcs, Magra uses his highest level
+  summon monster spell to create a barrier between himself and the PCs. He then
+  casts a silence spell on Kogan to hamper spellcasting PCs before ducking back
+  into a side tunnel to heal his wounds from shield other. If need be, he also
+  casts healing spells on Kogan while attempting to stay out of the PCs' sight.
+  As a last resort, Magra uses his offensive spells.
+Morale: >-
+  Magra fights until reduced below 0 hit points, at which point he attempts to
+  flee to the east, heal the worst of his wounds, and escape into the labyrinth
+  of tunnels.
+Gear: potions of cure moderate wounds (2)
+OtherGear: masterwork breastplate, greataxe, javelin, belt of mighty constitution +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: battle
+CompanionFamiliarLink: '0'
+id: '7754'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

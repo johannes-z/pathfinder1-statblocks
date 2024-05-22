@@ -1,0 +1,139 @@
+Name: Urdefhan Skirmisher
+CR: '11'
+XP: '12800'
+Race: Urdefhan
+Class: fighter 5/rogue 5
+MonsterSource: Pathfinder RPG Bestiary 2 276
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '4'
+Senses:
+  - darkvision 120 ft.
+  - Perception +17
+AC: 25, touch 17, flat-footed 20
+AC_Mods: (+6 armor, +2 deflection, +4 Dex, +1 dodge, +2 natural)
+HP: '135'
+HD: (13 HD; 8d10+5d8+70)
+Saves: Fort +14, Ref +14, Will +4; +1 vs. fear
+Fort: '14'
+Ref: '14'
+Will: '4'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1, evasion, negative energy affinity, trap sense +1, uncanny dodge
+DR: 5/good or silver
+Immune: death effects, disease, fear, level drain
+Resist: acid 10
+SR: '14'
+Speed: 30 ft.
+Melee:
+  - +1 rhoka +20/+15/+10 (1d8+10/18-20), bite  +12 (1d4+3 plus 2 Str damage)
+Ranged:
+  - +1 composite longbow +16/+11/+6 (1d8+7/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blood drain (1 Con), sneak attack +3d6 (plus 3 bleed), strength damage (DC
+  15), weapon training (heavy blades +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd, concentration +6)
+  values:
+    - label: At will
+      value: feather fall
+    - label: 3/day
+      value: align weapon, death knell (DC 15), ray of enfeeblement (DC 14)
+AbilityScores:
+  - 23
+  - 18
+  - 19
+  - 12
+  - 13
+  - 16
+BaseAtk: '11'
+CMB: '17'
+CMD: '34'
+Feats:
+  - Dodge
+  - Great Fortitude
+  - Lightning Reflexes
+  - Lightning Stance
+  - Mobility
+  - Spring Attack
+  - Toughness
+  - Weapon Focus (rhoka)
+  - Weapon Specialization (rhoka)
+  - Wind Stance
+Skills:
+  - Acrobatics +15
+  - Climb +15
+  - Escape Artist +15
+  - Intimidate +14
+  - Knowledge (dungeoneering) +9
+  - Perception +17
+  - Ride +17
+  - Stealth +20
+  - Use Magic Device +16
+Languages:
+  - Aklo
+  - Orvian
+  - Undercommon
+SQ: >-
+  armor training 1, daemonic pact (DC 15), rogue talents (assault leader*,
+  bleeding attack +3), trapfinding +2
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Daemonic Pact (Su)
+    description: >-
+      Urdefhans are infused with daemonic energy; as an immediate action, an
+      urdefhan can attempt to allow this energy to consume its soul (50% chance
+      of success per attempt). If it succeeds, the urdefhan dies and releases a
+      5-foot-radius burst of negative energy that deals 2d6 points of damage (DC
+      15 Reflex half ). The save DC is Constitution-based.
+  - name: Negative Energy Affinity (Ex)
+    description: >-
+      An urdefhan is alive, but it reacts to positive and negative energy as if
+      it were undead- positive energy harms it, while negative energy heals it.
+  - name: Strength Damage (Su)
+    description: >-
+      An urdefhan's bite drains vitality, turning the skin and muscle around the
+      wound transparent and causing 2 points of Strength damage unless the
+      target succeeds on a DC 15 Fortitude save. The flesh remains transparent
+      until the Strength damage is healed, but this transparency does not have
+      any other effects. The save DC is Constitution-based.
+BeforeCombat: >-
+  Before springing an ambush, the urdefhans drink their potions of shield of
+  faith.
+DuringCombat: >-
+  The urdefhans target opponents with ranged sneak attacks from behind their
+  arrowslits. They rely on Wind Stance and Lightning Stance to avoid ranged
+  attacks as they move among the stone slabs. Once joined in melee, however,
+  they work together, circling around with Spring Attack and Mobility to flank
+  foes and make sneak attacks. Rather than kill intruders, the urdefhans try to
+  take captives and drag them to the holding pens at area A5.
+Morale: >-
+  The urdefhans fight to the death, triggering their daemonic pact to escape
+  capture or control in an explosion of negative energy that may also heal their
+  nearby allies.
+Gear: +1 arrows (10), potion of inflict serious wounds, potion of shield of faith
+OtherGear: +2 chain shirt, +1 composite longbow (+6 Str) with 10 arrows, +1 rhoka
+Note: '* See Pathfinder RPG Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without their potions, the urdefhans statistics are AC 23, touch 15,
+  flat-footed 18.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1446'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

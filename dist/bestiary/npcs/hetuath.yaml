@@ -1,0 +1,97 @@
+Name: Hetuath
+CR: '3'
+XP: '800'
+Race: kasatha
+Class: fighter 3
+MonsterSource: Pathfinder RPG Bestiary 4 174, Pathfinder RPG Bestiary 2 291
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (augmented kasatha)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +5
+AC: 20, touch 17, flat-footed 13
+AC_Mods: (+4 Dex, +3 dodge, +3 natural)
+HP: '30'
+HD: (3d10+9)
+Saves: Fort +5, Ref +6, Will +3 (+1 vs. fear)
+Fort: '5'
+Ref: '6'
+Will: +3 (+1 vs. fear)
+DefensiveAbilities: bravery +1, channel resistance +4, defensive training, rejuvenation
+DR: 5/magic and slashing
+Immune: cold, electricity, magic missile, undead traits
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - >-
+    mwk short sword +7 (1d6+4/19-20), mwk short sword +7 (1d6+2/19-20), 2 slams
+    +2 (1d6+2)
+Ranged:
+  - javelin +7 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 19
+  - 18
+  - —
+  - 8
+  - 12
+  - 12
+BaseAtk: '3'
+CMB: '7'
+CMD: '24'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Toughness
+  - Two-Weapon Fighting
+  - Weapon Focus (short sword)
+Skills:
+  - Climb +8
+  - Perception +5
+  - Stealth +8
+Languages:
+  - Kasatha
+SQ: >-
+  armor training 1, deathlink, desert runner, desert stride, jumper,
+  multi-armed, stalker
+Source: AP 85
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Deathlink (Su)
+    description: >-
+      Hetuath possesses a unique ability that allows him to see through the eye
+      sockets of any of his seven undead tribesmen and to give simple commands
+      to them while doing so. This ability has a maximum range of 1 mile, and as
+      long as he's looking through the eye sockets of a skeleton, he remains
+      fully aware of his own surroundings but can take no other action. He can
+      end a link with a skeleton instantaneously.
+  - name: Rejuvenation (Ex)
+    description: >-
+      Even if completely destroyed, an undead kasatha rejuvenates after a period
+      of 26 hours passes, its bones reconstituting from nothing if need be to
+      carry on its undead existence. This perpetual cycle of eternal unlife
+      persists until the habitat module's sky is reactivated or the remains of a
+      defeated kasatha are put in an area where the rays of the rising sun can
+      strike them.
+Gear: javelins (2), mwk short sword, mwk short sword, cloak of resistance +1, 40 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: juju zombie|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6272'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

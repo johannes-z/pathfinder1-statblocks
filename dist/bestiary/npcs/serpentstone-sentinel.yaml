@@ -1,0 +1,75 @@
+Name: Serpentstone Sentinel
+CR: '15'
+XP: '51200'
+Race: stone golem
+MonsterSource: Pathfinder RPG Bestiary 163
+Alignment: 'N'
+Size: Huge
+Type: construct
+Init: '-2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 30, touch 6, flat-footed 30
+AC_Mods: (-2 Dex, +26 natural, -2 size)
+HP: '150'
+HD: (20d10+40)
+Saves: Fort +6, Ref +4, Will +6
+Fort: '6'
+Ref: '4'
+Will: '6'
+DR: 10/adamantine
+Immune: construct traits, magic
+Speed: 20 ft.
+Melee:
+  - 2 slams +27 (4d8+9)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: breath weapon (60-foot cone, turn to stone, Fortitude DC 20 negates)
+AbilityScores:
+  - 28
+  - 7
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '20'
+CMB: '31'
+CMD: '39'
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      A serpentstone sentinel can use its breath weapon once every 1d4+1 rounds
+      to create a 60-foot cone of green gas. Those caught in the area of the gas
+      can attempt a DC 20 Fortitude save to resist the effects, but those who
+      fail the save are immediately petrified. This petrification is
+      temporary-each round, a petrified creature can attempt a new DC 20
+      Fortitude save to recover from the petrification as long as it is not
+      caught within the area of effect of the golem's breath weapon a second
+      time while petrified. A creature exposed to the golem's breath a second
+      time while already petrified becomes permanently petrified, and can no
+      longer attempt to make additional Fortitude saves to recover naturally.
+      The save DC is Constitution-based.
+DuringCombat: >-
+  Upon activation, the sentinel attacks anyone present in the courtyard,
+  petrifying opponents with its breath weapon. The sentinel is confined to this
+  area and does not pursue anyone beyond the gates or farther into the fortress.
+Morale: The sentinel fights until destroyed or commanded to stop.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1457'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,129 @@
+Name: Temporal Crawler
+CR: '6'
+XP: '2400'
+Alignment: 'N'
+Size: Medium
+Type: magical beast
+SubType: (time)
+Init: '8'
+Senses:
+  - darkvision, 60ft, low-light vision
+  - Perception +10
+AC: 17, touch 15, flat-footed 17
+AC_Mods: (+4 Dex, +1 insight, +2 natural)
+HP: '45'
+HD: (6d10+12)
+Saves: Fort +7, Ref +9, Will +3
+Fort: '7'
+Ref: '9'
+Will: '3'
+DefensiveAbilities: foresight
+Immune: temporal magic
+Speed: 40 ft., climb 20ft.
+Melee:
+  - bite +8 (1d6+3 plus paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: paralysis (1d4+4 rounds DC 14), slowing webs
+AbilityScores:
+  - 15
+  - 19
+  - 15
+  - 6
+  - 13
+  - 10
+BaseAtk: '6'
+CMB: '8'
+CMD: 22 (34 vs. trip)
+Feats:
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+Skills:
+  - Climb +15
+  - Perception +10
+  - Stealth +12
+Environment: Elemental Plane of Time
+Organization: solitary or cluster (2-5)
+Treasure: none
+Description_Visual: >-
+  A six-foot long hairy, gray spider crawls forth. An hourglass-shaped patch of
+  silver fur dominates its back. Light bounces of its silverymetallic mandibles
+  while its multiple eyes glow bright red.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Slowing Webs (Ex)
+    description: >-
+      The web of a temporal crawler emanates a slow effect (as the slow spell,
+      caster level 6th) that affects all creatures within 10 feet of the web.
+      Affected creatures can make a successful DC 15 Fortitude save the round
+      they are affected to negate the effects. Creatures are slowed as long as
+      they stay within 10 feet of a web. The slow effects can be counterspelled
+      with the successful casting of a haste spell if the caster makes a
+      successful caster level check (DC 16) before casting the haste spell. The
+      save DC is Constitution-based. A temporal crawler can fire a web up to
+      four times per day. This is similar to an attack with a net but has a
+      maximum range of 50 feet, with a range increment of 10 feet, and is
+      effective against targets up to one size category larger than the temporal
+      crawler. An entangled creature can attempt a DC 19 Escape Artist check or
+      burst it with a DC 19 Strength check. Both are standard actions. The check
+      DCs are both Constitution-based and the Strength check DC includes a +4
+      racial bonus. Temporal crawlers often create sticky sheets of webbing up
+      to 20 feet square. Approaching creatures must make a successful DC 20
+      Perception check to notice a web; otherwise they stumble into it and
+      become trapped as though by a successful web attack. Attempts to escape or
+      burst the webbing gain a +5 bonus if the trapped creature has something to
+      walk on or grab while pulling free. Each 5-foot section has 10 hit points,
+      and sheet webs have damage reduction 5/ magic.
+  - name: Foresight (Su)
+    description: >-
+      A temporal crawler can see a few seconds into the future. This ability
+      prevents a temporal crawler from being surprised, caught flat-footed, or
+      flanked. It also grants the temporal crawler an insight bonus to AC equal
+      to its Wisdom bonus. This ability can be negated, but the temporal crawler
+      can restart it as a free action on its next turn.
+  - name: Immunity to Temporal Magic (Ex)
+    description: >-
+      Temporal crawlers are immune to all time-related spells and effects
+      (including time stop, temporal stasis, and the like).
+Description:
+  - >-
+    Temporal crawlers are man-sized spiders from the Elemental Plane of Time.
+    Upon close inspection, it appears that the hourglass-shaped markings along
+    its back are animated and sand appears to shift from one chamber to the
+    other. If a temporal crawler is slain, the silver hourglass on its back
+    fades to gray and the "sand" inside stops flowing.
+  - >-
+    How temporal crawlers first arrived on the Material Plane is unknown but
+    sages believe they jumped through a portal to this plane opened by a time
+    elemental or time flayer (see their entry in this book).
+  - >-
+    These extraplanar creatures are carnivorous and prey on the flesh of living
+    creatures. They build their lairs near populated areas where the food supply
+    is more than adequate. Temporal crawlers hunt day or night, but prefer to
+    leave their webs at night when they have an easier time corralling their
+    prey.
+  - >-
+    Temporal crawlers spend most of their time hunting on the Material Plane
+    where prey is easiest to catch. They spin their webs in locations frequented
+    by living creatures and lie in wait. When its prey enters a 10- foot area
+    around its webs and is slowed, the temporal crawler rushes out and attacks.
+    If it can paralyze its prey with its bite, the temporal crawler cocoons it
+    in its web. A creature killed is cocooned and stored as food.
+  - Copyright Notice Author Scott Greene.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3101'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,172 @@
+Name: Servant Of Lao Shu Po
+CR: '8'
+XP: '4800'
+Race: ratfolk
+Class: inquisitor of Lao Shu Po 9
+MonsterSource: Pathfinder RPG Advanced Player's Guide 38, Pathfinder RPG Bestiary 3 231
+Alignment: 'N'
+Size: Small
+Type: humanoid
+SubType: (ratfolk)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +16
+AC: 18, touch 14, flat-footed 15
+AC_Mods: (+4 armor, +2 Dex, +1 dodge, +1 size)
+HP: '80'
+HD: (9d8+36)
+Saves: Fort +9, Ref +7, Will +10
+Fort: '9'
+Ref: '7'
+Will: '10'
+Speed: 20 ft.
+Melee:
+  - mwk spear +10/+5 (1d6+3/x3)
+Ranged:
+  - mwk dagger +10 (1d3+2/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bane (9 rounds/day), swarming
+SpellLikeAbilities:
+  header: Inquisitor Spell-Like Abilities (CL 9th; concentration +11)
+  values:
+    - label: 5/day
+      value: touch of darkness (4 rounds)
+    - label: At Will
+      value: detect alignment 9 rounds/day-discern lies
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 9th; concentration +8)
+  values:
+    - label: 3rd (3/day)
+      value: deeper darkness, heroism, prayer, ward the faithfulAPG
+    - label: 2nd (5/day)
+      value: >-
+        confessAPG (DC 14), cure moderate wounds (DC 14), flames of the
+        faithfulAPG (DC 14), silence (DC 14)
+    - label: 1st (6/day)
+      value: bless, divine favor, expeditious retreat, shield of faith, wrathAPG
+    - label: 0 (at will)
+      value: >-
+        brandAPG (DC 12), detect magic, detect poison, guidance, read magic,
+        siftAPG
+SpellDomains: Darkness
+AbilityScores:
+  - 14
+  - 14
+  - 16
+  - 12
+  - 14
+  - 8
+BaseAtk: '6'
+CMB: '7'
+CMD: '20'
+Feats:
+  - Dodge
+  - Iron Will
+  - Lightning Reflexes
+  - Lookout
+  - Outflank
+  - Power Attack
+  - Precise Strike
+  - Skill Focus (Stealth)
+Skills:
+  - Bluff +11
+  - Craft (alchemy) +3
+  - Intimidate +15
+  - Knowledge (religion) +5
+  - Perception +16
+  - Sense Motive +18
+  - Spellcraft +11
+  - Stealth +20
+  - Survival +6
+  - Use Magic Device +10
+RacialMods: >-
+  +2 Craft (alchemy), +4 Handle Animal to influence rodents, +2 Perception, +2
+  Use Magic Device
+Languages:
+  - Common
+  - Tien
+SQ: >-
+  cunning initiativeAPG, eyes of darkness (4 rounds/day), judgment (2, 3/day),
+  monster loreAPG +2, solo tactics, stern gazeAPG, trackAPG +4
+Source: PFS S3-22
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bane (Su)
+    description: >-
+      The inquisitor can imbue one weapon she holds with the bane weapon special
+      ability as a swift action. She must select one creature type when she uses
+      this ability (and a subtype if the creature type selected is humanoid or
+      outsider). Once selected, the type can be changed as a swift action. This
+      ability only functions while the inquisitor wields the weapon. If dropped
+      or taken, the weapon resumes granting this ability if it is returned to
+      the inquisitor before the duration expires. The 9 rounds per day this
+      ability may be used need not be consecutive.
+  - name: Judgment (Su)
+    description: >-
+      Three times per day, the inquisitor can pronounce judgment upon her foes
+      as a swift action. Starting when the judgment is made, the inquisitor
+      receives a bonus or special ability based on the type of judgment she
+      made. When pronouncing judgment, the inquisitor can choose two judgments
+      simultaneously, expending only a single use of the power. The inquisitor
+      must participate in the combat to gain these bonuses. If the inquisitor is
+      either frightened, panicked, paralyzed, stunned, unconscious, or otherwise
+      prevented from participating in the combat, the ability does not end, but
+      the bonuses do not resume until she can participate in the combat again.
+      Justice: This judgment spurs the inquisitor to seek justice, granting a +2
+      sacred bonus on all attack rolls. Protection: This judgment surrounds the
+      inquisitor with a protective aura, granting a +2 sacred bonus to her Armor
+      Class.
+  - name: Solo Tactics (Ex)
+    description: >-
+      All of the inquisitor's allies are treated as if they possessed the same
+      teamwork feats as the inquisitor for the purpose of determining whether
+      the inquisitor receives a bonus from her teamwork feats. Her allies do not
+      receive any bonuses from these feats unless they actually possess the
+      feats themselves. The allies' positioning and actions must still meet the
+      prerequisites listed in the teamwork feat for the inquisitor to receive
+      the listed bonus.
+  - name: Swarming (Ex)
+    description: >-
+      Ratfolk are used to living and fighting communally, and are adept at
+      swarming foes for their own gain and their foes' detriment. Up to two
+      ratfolk can share the same square at the same time. If two ratfolk in the
+      same square attack the same foe, they are considered to be flanking that
+      foe as if they were in two opposite squares.
+Gender: Female
+BeforeCombat: >-
+  If she has time to prepare for combat, the inquisitor drinks her potion of
+  barkskin, casts heroism, and reads a scroll of false life (Use Magic Device DC
+  22). Then she casts deeper darkness on a pebble and puts it in her pocket to
+  mask the effect.
+DuringCombat: >-
+  At the start of combat, the servant of Lao Shu Po activates her justice and
+  protection judgments as a swift action, and then pulls the pebble out of her
+  pocket and drops it, relying on her eyes of darkness domain power to see
+  through the dark. She withdraws as her special vision expires, attacking her
+  foes as they leave the area of magical darkness. The servant of Lao Shu Po
+  prefers to attack lightly-armored targets and makes heavy use of her bane
+  special attack.
+Morale: >-
+  Dedicated to her goddess and the Undying Empress, the servant of Lao Shu Po
+  fights to the death.
+Gear: potion of barkskin, potion of cure moderate wounds, scrolls of false life (2)
+OtherGear: >-
+  masterwork chain shirt, masterwork dagger, masterwork spear, belt of mighty
+  constitution +2, spell component pouch, silver holy symbol of Lao Shu Po
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6668'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

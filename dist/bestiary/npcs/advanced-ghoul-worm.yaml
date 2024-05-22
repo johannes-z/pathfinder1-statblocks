@@ -1,0 +1,71 @@
+Name: Advanced Ghoul Worm
+CR: '8'
+XP: '4800'
+Race: Advanced Ghoul Worm
+Alignment: NE
+Size: Huge
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +20
+AC: 23, touch 9, flat-footed 22
+AC_Mods: (+1 Dex, +14 natural, -2 size)
+HP: '105'
+HD: (14d8+42)
+Saves: Fort +8, Ref +7, Will +8
+Fort: '8'
+Ref: '7'
+Will: '8'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 30 ft., burrow 20 ft.
+Melee:
+  - bite +15 (2d6+7 plus grab and disease), slam +15 (1d8+7  plus paralysis)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  disease, paralysis (1d6 rounds, DC 19, elves are immune to this effect),
+  swallow whole (2d6+10 bludgeoning damage acid damage, AC 17, 9 hp)
+AbilityScores:
+  - 25
+  - 13
+  - —
+  - 3
+  - 4
+  - 14
+BaseAtk: '10'
+CMB: +19 (+23 grapple)
+CMD: 30 (can't be tripped)
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Perception)
+  - Toughness
+Skills:
+  - Perception +20
+Source: PFS S2-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 19; onset 1 day; frequency 1 day;
+      effect 1d3 Str damage and 1d3 Dex damage; cure 2 consecutive saves.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5756'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

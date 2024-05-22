@@ -1,0 +1,119 @@
+Name: Sozothala
+CR: '11'
+XP: '12800'
+Race: serpentfolk ghast
+Class: necromancer 9
+MonsterSource: Pathfinder RPG Bestiary 146, 294
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+Aura: stench (10 ft., DC 17, sickened for 1d6+4 minutes)
+AC: 25, touch 17, flat-footed 20
+AC_Mods: (+2 deflection, +5 Dex, +4 natural, +4 shield)
+HP: '160'
+HD: (14 HD; 5d8+9d6+107)
+Saves: Fort +10, Ref +9, Will +14
+Fort: '10'
+Ref: '9'
+Will: '14'
+DefensiveAbilities: channel resistance +4
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +14 (1d6+6 plus disease and paralysis), 2 claws +14 (1d4+6 plus
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy (DC 20, 8/day), paralysis (1d4+1 rounds, DC 19)
+SpellLikeAbilities:
+  header: Necromancer Spell-Like Abilities (CL 9th; concentration +14)
+  values:
+    - label: 8/day
+      value: grave touch (4 rounds)
+SpellsPrepared: >-
+  Necromancer Spells Prepared (CL 9th; concentration +14) 5th-quickened shield,
+  waves of fatigue (2) 4th-animate dead, bestow curse (DC 19), fear (DC 19),
+  wall of fire (DC 19) 3rd-dispel magic, fly, lightning bolt (DC 18), ray of
+  exhaustion (DC 18), vampiric touch 2nd-blindness/deafness (DC 17), command
+  undead, darkness, false life, scorching ray, touch of idiocy (DC 17)
+  1st-alarm, charm person (DC 16), magic missile (3), ray of enfeeblement (2, DC
+  16) 0 (at will)-bleed (DC 15), detect magic, mage hand, message, touch of
+  fatigue (DC 15)
+AbilityScores:
+  - 22
+  - 20
+  - —
+  - 20
+  - 18
+  - 22
+BaseAtk: '7'
+CMB: '13'
+CMD: '30'
+Feats:
+  - Ability Focus (paralysis)
+  - Arcane Strike
+  - Combat Casting
+  - Combat Reflexes
+  - Command Undead
+  - Improved Initiative
+  - Quicken Spell
+  - Scribe Scroll
+  - Weapon Focus (claws
+  - bite)
+Skills:
+  - Acrobatics +11
+  - Climb +15
+  - Intimidate +15
+  - Knowledge (arcana) +22
+  - Knowledge (history) +22
+  - Knowledge (religion) +22
+  - Perception +21
+  - Spellcraft +22
+  - Stealth +22
+  - Swim +15
+Languages:
+  - Aklo
+  - Azlanti
+  - Common
+  - Necril
+  - Orvian
+  - Undercommon
+SQ: arcane bond (wand), life sight (10 feet, 9 rounds/day)
+Source: AP 39
+IsTemplate: '0'
+Gender: Male
+ProhibitedSchools: Conjuration, Illusion
+BeforeCombat: Sozothala casts false life before combat.
+DuringCombat: >-
+  Sozothala relies on his undead to enter melee and thus give him time to attack
+  the PCs from afar; he casts quickened shield on the first round of combat,
+  then uses spells like waves of fatigue or fear that won't harm his undead when
+  they're mixed in among the PCs. In melee, he prefers to fight with his bite
+  and claws, using vampiric touch as soon as he's reduced to fewer than 100 hit
+  points.
+Morale: Sozothala fights until destroyed.
+Gear: scroll of create undead (CL 15th), wand of enervation (10 charges)
+OtherGear: >-
+  ring of protection +2, onyx gems worth 600 gp, spellbooks (containing all
+  spells prepared, plus feeblemind, plus 5 more spells of each level from 1st to
+  5th of your choice)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1000'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

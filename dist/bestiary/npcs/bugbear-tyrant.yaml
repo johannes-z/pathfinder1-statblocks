@@ -1,0 +1,103 @@
+Name: Bugbear Tyrant
+CR: '13'
+XP: '25600'
+Race: bugbear
+Class: antipaladin (fearmonger) 12
+MonsterSource: Pathfinder RPG Advanced Player's Guide 118, see page 20
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid)
+Init: '1'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +11
+Aura: cowardice (10 ft.), despair (10 ft.), vengeance (10 ft.)
+AC: 27, touch 12, flat-footed 26
+AC_Mods: (+11 armor, +1 deflection, +1 Dex, +4 natural)
+HP: '136'
+HD: (15 HD; 3d8+12d10+57)
+Saves: Fort +15, Ref +11, Will +11
+Fort: '15'
+Ref: '11'
+Will: '11'
+Immune: disease
+Speed: 30 ft.
+Melee:
+  - +2 falchion +22/+17/+12 (2d4+9/18-20)
+Ranged:
+  - mwk javelin +16 (1d6+5)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy (DC 18, 6d6), smite good 4/day (+2 attack and AC, +12
+  damage)
+SpellLikeAbilities:
+  header: Antipaladin Spell-Like Abilities (CL 12th; concentration +14)
+  values:
+    - label: At Will
+      value: detect good
+SpellsPrepared: >-
+  Antipaladin Spells Prepared (CL 9th; concentration +11)   3rd-isolate* (DC
+  15)   2nd-corruption resistanceAPG, litany of wardingUC, scare (DC 14)  
+  1st-disguise self, litany of slothUC, litany of weaknessUC
+AbilityScores:
+  - 20
+  - 12
+  - 16
+  - 12
+  - 8
+  - 15
+BaseAtk: '14'
+CMB: '19'
+CMD: '30'
+Feats:
+  - Cruel Opportunist
+  - Dazzling Display
+  - Hurtful
+  - Intimidating Prowess
+  - Pile On
+  - Power Attack
+  - Visceral Threat
+  - Weapon Focus (falchion)
+Skills:
+  - Intimidate +26
+  - Perception +11
+  - Stealth +15
+Languages:
+  - Abyssal
+  - Common
+  - Goblin
+SQ: >-
+  cruelties (dazed, frightened, panicked*), feed on fear* (6 hp), fiendish boon
+  (weapon +3, 2/day), stalker
+Source: Monster Codex
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: The bugbear tyrant uses disguise self to get close to unsuspecting enemies.
+DuringCombat: >-
+  Using the fear effects at his disposal, the bugbear tyrant increases his
+  damage with Cruel Opportunist and Hurtful, while regaining hit points using
+  his feed on fear ability. The tyrant cares little about the lives of those he
+  fights alongside; if he must retreat, he allows his allies to die.
+Gear: elixir of oppression*, potion of cure moderate wounds
+OtherGear: >-
+  +2 full plate, +2 falchion, mwk javelins (2), amulet of natural armor +1,
+  boots of striding and springing, cloak of resistance +1, ring of protection
+  +1, 973 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: fearmonger
+CompanionFamiliarLink: '0'
+id: '6406'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

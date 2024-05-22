@@ -1,0 +1,151 @@
+Name: Shybbahla Tier 8-9
+CR: '10'
+XP: '9600'
+Race: pairaka div
+Class: bard 4
+MonsterSource: 'Pathfinder Adventure Path #20 84'
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (div, evil, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +21
+AC: 24, touch 16, flat-footed 18
+AC_Mods: (+6 Dex, +8 natural)
+HP: '123'
+HD: (9d10+4d8+56)
+Saves: >-
+  Fort +8, Ref +16, Will +15; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '8'
+Ref: '16'
+Will: '15'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DR: 10/good
+Immune: disease, fire, poison
+Resist: acid 10, electricity 10
+SR: '23'
+Speed: 30 ft., fly 50 ft. (good)
+Melee:
+  - 2 claw +18 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  lustful dreams, summon swarm, bardic performance 19 rounds/day (countersong,
+  distraction, fascinate, inspire competence +2, inspire courage +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +22)
+  values:
+    - label: At will
+      value: >-
+        charm monster (DC 22), detect good, detect magic, dimension door,
+        misdirection
+    - label: 1/day
+      value: summon (level 3, 1d4 dorus 50%)
+SpellsKnown:
+  header: Bard Spells Known (CL 4th; concentration +13)
+  values:
+    - label: 2nd (3/day)
+      value: detect thoughts (DC 21), enthrall (DC 22)
+    - label: 1st (6/day)
+      value: alarm, cause fear (DC 21), grease, hideous laughter (DC 21)
+    - label: 0 (at will)
+      value: >-
+        daze (DC 20), ghost sound, lullaby, mage hand, prestidigitation,
+        resistance
+AbilityScores:
+  - 16
+  - 22
+  - 18
+  - 14
+  - 20
+  - 28
+BaseAtk: '12'
+CMB: '15'
+CMD: '31'
+Feats:
+  - Ability Focus (lustful dreams)
+  - Deceitful
+  - Flyby Attack
+  - Hover
+  - Nimble Moves
+  - Spell Focus (enchantment)
+  - Weapon Finesse
+Skills:
+  - Bluff +29
+  - Diplomacy +25
+  - Disguise +29
+  - Fly +14
+  - Intimidate +25
+  - Knowledge (local) +11
+  - Knowledge (planes) +11
+  - Perception +21
+  - Perform (sing) +16
+  - Sense Motive +21
+  - Stealth +22
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Infernal
+  - telepathy 100 ft.
+SQ: >-
+  bardic knowledge +2, versatile performance (sing), change shape (any Small or
+  Medium animal or humanoid; polymorph)
+Source: PFS S2-09
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Pairakas carry two diseases: bubonic plague, which they inflict with their
+      claws, and the shakes, which can infect any creature that comes into
+      contact with them (via a grapple or willing contact). The save DCs of both
+      diseases are Constitution-based. Bubonic Plague: Claws-injury; save Fort
+      DC 18; onset 1 day; frequency 1/day; effect 1d4 Con damage and 1 Cha
+      damage and target is fatigued; cure 2 consecutive saves. Shakes:
+      Touch&#8211;contact; save Fort DC 18; onset 1 day; frequency 1/day; effect
+      1d8 Dex damage; cure 2 consecutive saves.
+  - name: Lustful Dreams (Su)
+    description: >-
+      Pairakas can torment sleeping creatures. While intelligent creatures
+      sleep, pairakas can slip into their minds and twist their dreams to lusty
+      nocturnal visions. The victim must be asleep for the pairaka to use this
+      ability and the pairaka must be within 100 feet. If the victim fails a DC
+      25 Will save, it experiences vivid hallucinations of a lurid nature that
+      leave it breathless and fatigued upon waking. The victim, even a depraved
+      soul, rarely considers the sexual nature of these dreams enjoyable and the
+      images exploit any number of taboos the pairaka suspects he might harbor.
+      The save is Charisma-based. Creatures that do not sleep or dream are
+      immune to this effect.
+Gender: Female
+BeforeCombat: >-
+  Shybbahla assumes the form of a lithe, young human woman, and attempts to
+  charm or otherwise fool the PCs into joining the mercenaries in her mock
+  sacrifice.
+DuringCombat: >-
+  If the PCs discover her ruse or otherwise initiate combat, Shybbahla flies out
+  of their reach and attempts to summon dorus (see page 15) to aid her. If this
+  tactic fails, she uses her summon swarm ability against the PCs. After
+  weakening them in this manner, she makes hit-and-run attacks from the air,
+  ever trying to stay out of reach and using cause fear and hideous laughter to
+  remove particularly threatening foes from the fray.
+Morale: >-
+  Fearful of Ahriman's wrath, Shybbahla harasses and attacks the PCs as long as
+  they remain in the ruins. She fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5523'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

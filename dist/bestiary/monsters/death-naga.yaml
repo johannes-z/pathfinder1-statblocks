@@ -1,0 +1,139 @@
+Name: Death Naga
+CR: '12'
+XP: '19200'
+Alignment: LE
+Size: Large
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+AC: 24, touch 18, flat-footed 16
+AC_Mods: (+4 deflection, +3 Dex, +1 dodge, +7 natural, -1 size)
+HP: '85'
+HD: (12d8+48)
+Saves: Fort +8, Ref +9, Will +11
+Fort: '8'
+Ref: '9'
+Will: '11'
+DefensiveAbilities: infernal blessing
+Immune: undead immunities
+Speed: 40 ft.
+Melee:
+  - bite +15 (1d8+4), sting +12 (2d4+4 plus poison)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with sting)
+SpecialAttacks: atrophic breath (DC 22)
+SpellsKnown:
+  header: Spells Known (CL 9th; melee touch +12, ranged touch +11)
+  values:
+    - label: 4th (5/day)
+      value: greater invisibility, stoneskin
+    - label: 3rd (7/day)
+      value: displacement, haste, lightning bolt (DC 17)
+    - label: 2nd (7/day)
+      value: cat's grace, command undead, scorching ray, web
+    - label: 1st (7/day)
+      value: >-
+        mage armor, magic missile, ray of enfeeblement (DC 15), shield, silent
+        image
+    - label: 0 (At will)
+      value: >-
+        daze (DC 15), detect magic, ghost sound, light, mage hand, open/close,
+        ray of frost, read magic
+AbilityScores:
+  - 19
+  - 17
+  - —
+  - 16
+  - 17
+  - 19
+BaseAtk: '9'
+CMB: '14'
+CMD: 32 (can't be tripped)
+Feats:
+  - Ability Focus (atrophic breath)
+  - Alertness
+  - Combat Casting
+  - Dodge
+  - Eschew MaterialsB
+  - Lightning Reflexes
+  - Stealthy
+Skills:
+  - Bluff +13
+  - Diplomacy +13
+  - Escape Artist +17
+  - Intimidate +13
+  - Knowledge (arcana) +15
+  - Perception +17
+  - Sense Motive +17
+  - Spellcraft +15
+  - Stealth +17
+Languages:
+  - Common
+  - Infernal
+Environment: any underground
+Organization: solitary or nest (2-4)
+Treasure: standard
+Description_Visual: >-
+  A death naga is an undead snake covered in rotting or tattered scales flowing
+  down its sinuous body from its humanoid head. A horrible stench emanates from
+  the naga's snake body as its tattered skin is a husk containing rotted organs
+  and entrails. Their eyes are missing, hollow voids in their female faces. A
+  few lack flesh completely and appear as skeletal snakes with leering skull
+  heads. Many have loose vertebrae jutting from the tips of their tails to
+  create bone rattles.
+Group: Naga
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Atrophic Breath (Su)
+    description: >-
+      Once every 1d4 rounds, death nagas can blast opponents with a 60-ft. cone
+      of deteriorating negative energy. The blast deals 12d6 points of unholy
+      and negative energy damage (half of each). In addition, those within the
+      cone gain one negative level. A Refl ex DC 22 save halves the damage and
+      prevents the negative level. Undead remain unharmed within the cone but
+      gain 2d4x5 temporary hit points for 1 hour. The save DC is Charisma-based.
+  - name: Infernal Blessing (Su)
+    description: >-
+      A death naga adds her Charisma modifier as a deflection bonus to her armor
+      class.
+  - name: Naga Venin Poison (Ex)
+    description: >-
+      Sting-injury; save DC 20 Fort; frequency 1 round (2d4 rounds); effect 1d2
+      Constitution damage; cure 2 consecutive saves. Spells Death nagas cast
+      spells as 9th-level sorcerers with access to the divine domains of Death
+      and Destruction as sorcerer spells.
+Description:
+  - >-
+    Death nagas are what remains of dark or spirit nagas slain by powerful
+    negative energy. It is unknown why or how these nagas return as undead
+    versions of their former selves. They often dominate ruins and remote
+    regions using zombies and skeleton minions. Death nagas often ally
+    themselves with powerful undead. Death nagas speak Common and any languages
+    known in life.
+  - Credit
+  - Original author Gary Schotter & Jeff Harkness
+  - >-
+    Originally appearing in Splinters of Faith Adventure 10: Remorse of Life (©
+    Frog God Games/ Gary Schotter & Jeff Harkness, 2011)
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5013'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

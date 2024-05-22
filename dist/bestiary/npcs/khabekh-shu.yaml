@@ -1,0 +1,137 @@
+Name: Khabekh-Shu
+CR: '9'
+XP: '6400'
+Race: human
+Class: sorcerer 10
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +4
+AC: 23, touch 15, flat-footed 19
+AC_Mods: (+4 armor, +1 deflection, +3 Dex, +1 dodge, +4 shield)
+HP: '89'
+HD: (10d6+52)
+Saves: Fort +7, Ref +8, Will +10
+Fort: '7'
+Ref: '8'
+Will: '10'
+Resist: cold 5, fire 5
+Speed: 30 ft.
+Melee:
+  - mwk dagger +6 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 10th; concentration +13)
+  values:
+    - label: At Will
+      value: aurora borealisAPG (20 HD, DC 18, 10 rounds/day)
+    - label: 6/day
+      value: minute meteorsAPG (1d4+5 fire, DC 18)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +13)
+  values:
+    - label: 5th (3/day)
+      value: cone of cold (DC 19)
+    - label: 4th (5/day)
+      value: >-
+        call lightning storm (fire damage, increased damage outdoors at night,
+        DC 18), charm monster (DC 17), scrying (DC 17)
+    - label: 3rd (7/day)
+      value: blink, fly, lightning bolt (DC 17), vampiric touch
+    - label: 2nd (7/day)
+      value: >-
+        acid arrow, defensive shockUM, false life, glitterdust (DC 15),
+        scorching ray
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 15), mage armor, magic missile, ray of enfeeblement
+        (DC 14), shield, unseen servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, guidance, detect magic, mage hand, message, ray of frost,
+        read magic, resistance, touch of fatigue (DC 13)
+AbilityScores:
+  - 10
+  - 16
+  - 14
+  - 12
+  - 8
+  - 16
+BaseAtk: '5'
+CMB: '5'
+CMD: '20'
+Feats:
+  - Combat Casting
+  - Deceitful
+  - Dodge
+  - Eschew Materials
+  - Iron Will
+  - Spell Focus (evocation)
+  - Toughness
+  - Troth of the Forgotten Pharaoh (see page 19)
+Skills:
+  - Bluff +12
+  - Disguise +12 (+22 with disguise self)
+  - Fly +10 (+15 with fly)
+  - Intimidate +10
+  - Knowledge (arcana) +9
+  - Knowledge (nature) +9
+  - Linguistics +2
+  - Perception +4
+  - Spellcraft +9
+Languages:
+  - Ancient Osiriani
+  - Common
+  - Osiriani
+  - Sphinx
+SQ: >-
+  bloodline arcana (dazzled for 1 round per spell level on a failed save vs.
+  evocation), voidwalkerAPG
+Source: AP 81
+IsTemplate: '0'
+Gender: Male
+Bloodline: starsoulAPG
+BeforeCombat: >-
+  Khabekh-shu casts false life and mage armor every day. Before combat, he casts
+  defensive shock and shield.
+DuringCombat: >-
+  Khabekh-shu varies his tactics based on the situation, but he tends to start
+  combat by casting blink, followed with his most powerful spells, such as cone
+  of cold, call lightning storm, lightning bolt, scorching ray, and so on.
+Morale: >-
+  Khabekh-shu tries to avoid capture at all costs, fleeing back to the cultists'
+  camp if unmasked or reduced to fewer than 25 hit points. He reserves one spell
+  slot to cast fly to escape, only using his scroll of teleport if he has
+  recovered  the Mask of the Forgotten Pharaoh. If killed or captured,
+  Khabekh-shu triggers his Troth of the Forgotten Pharaoh feat, immolating his
+  body to avoid capture.
+Gear: >-
+  potions of undetectable alignment (2), scrolls of dream (2), scroll of
+  fireball,  scroll of teleport, wand of disguise self (38 charges)
+OtherGear: >-
+  mwk dagger, cloak of resistance +2, ring of protection +1, sleeves of many
+  garmentsUE, gold funerary mask (worth 50 gp), silver mirror (worth 1,000 gp),
+  278 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his spells, Khabekh-shu's statistics are AC 15, touch 15, flat-footed
+  11; hp 74.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6022'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

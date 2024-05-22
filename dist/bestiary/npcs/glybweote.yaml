@@ -1,0 +1,115 @@
+Name: Glybweote
+CR: '10'
+XP: '9600'
+Race: imentesh protean
+MonsterSource: Pathfinder RPG Bestiary 2 214
+Alignment: CN
+Size: Large
+Type: outsider
+SubType: (chaotic, extraplanar, protean, shapechanger)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +20
+AC: 18, touch 12, flat-footed 15
+AC_Mods: (+3 Dex, +6 natural, -1 size)
+HP: '123'
+HD: (13d10+52)
+Saves: Fort +12, Ref +7, Will +14
+Fort: '12'
+Ref: '7'
+Will: '14'
+Speed: 40 ft., fly 60 ft. (poor)
+Melee:
+  - 2 claw +20 (2d6+8 plus grab)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: pounce, rake (2 claw +20, 2d6+8 plus grab), roar (DC 19), sneak attack +4d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: Constant
+      value: detect law, tongues
+    - label: At Will
+      value: >-
+        dimension door (self plus 50 lbs. of objects only), make whole, major
+        creation, shatter (DC 17), shrink item
+    - label: 3/day
+      value: chaos hammer (DC 19), dispel magic, slow (DC 18)
+    - label: 1/day
+      value: >-
+        break enchantment, dispel law (DC 20), haste, polymorph any object (DC
+        23)
+AbilityScores:
+  - 26
+  - 17
+  - 18
+  - 23
+  - 18
+  - 21
+BaseAtk: '13'
+CMB: +22 (+26 grapple)
+CMD: 35 (39 vs. trip)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Improved Feint
+  - Improved Initiative
+  - Iron Will
+  - Multiattack
+  - Persuasive
+Skills:
+  - Acrobatics +19
+  - Bluff +21
+  - Diplomacy +25
+  - Disable Device +16
+  - Fly -3
+  - Intimidate +25
+  - Knowledge (arcana) +22
+  - Knowledge (nature) +19
+  - Knowledge (planes) +22
+  - Knowledge (religion) +19
+  - Perception +20
+  - Sense Motive +20
+  - Stealth +15
+  - Swim +7
+Languages:
+  - Abyssal
+  - Protean
+  - tongues
+SQ: change shape (greater polymorph)
+Source: PFS S4-20
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Glybweote only prepares for combat by casting haste when she hears the PCs
+  returning from areas C2 and C3. Her statistics reflect her abilities in sphinx
+  form.
+DuringCombat: >-
+  Glybweote attempts to catch a PC off guard with a sneak attack and her form's
+  pounce ability before using her androsphinx form's roar ability to disable as
+  many PCs as possible. She either continues to roar or attacks any active PCs.
+  If reduced to 40 hp or less, the protean reverts back to her natural form as a
+  free action, benefiting from a CL 13th heal effect in the process, before
+  resuming the fight.
+Morale: >-
+  Krune bound Glybweote to the Runevault with the task of protecting the true
+  adamantine rune plates until his return. As a result, she fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not in the form of a sphinx, Glybweote has the base statistics of a
+  normal imentesh protean presented in the Pathfinder RPG Bestiary 2.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7728'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

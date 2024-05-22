@@ -1,0 +1,107 @@
+Name: Olaf Kvaran
+CR: '4'
+XP: '1200'
+Race: human
+Class: barbarian 4/oracle 1
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +6
+AC: 15, touch 11, flat-footed 14
+AC_Mods: (+4 armor, +2 deflection, +1 Dex, -2 rage)
+HP: '64'
+HD: (5 HD; 4d12+1d8+29)
+Saves: Fort +8, Ref +2, Will +5 (+1 vs. traps)
+Fort: '8'
+Ref: '2'
+Will: +5 (+1 vs. traps)
+DefensiveAbilities: trap sense +1, uncanny dodge
+Speed: 30 ft.
+Melee:
+  - +1 greataxe +10 (1d12+8/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: rage (12 rounds/day), rage powers (moment of clarity, surprise accuracy +2)
+SpellsKnown:
+  header: Oracle Spells Known (CL 1st; concentration +3)
+  values:
+    - label: 1st (4/day)
+      value: cause fear (DC 13), cure light wounds, shield of faith
+    - label: 0 (at will)
+      value: bleed (DC 12), guidance, resistance, virtue
+AbilityScores:
+  - 21
+  - 12
+  - 18
+  - 8
+  - 10
+  - 14
+BaseAtk: '4'
+CMB: '9'
+CMD: '18'
+Feats:
+  - Diehard
+  - Endurance
+  - Power Attack
+  - Toughness
+Skills:
+  - Acrobatics +5
+  - Climb +7
+  - Intimidate +10
+  - Perception +6
+  - Profession (sailor) +5
+  - Survival +6
+  - Swim +9
+Languages:
+  - Aklo
+  - Common
+  - Skald
+SQ: >-
+  fast movement, oracle's curse (tongues), revelations (erase from timeUM [DC
+  12, 1 round, 1/day])
+Source: PFS S4-09
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  If Olaf is aware of the PCs' approach, he casts shield of faith and drinks his
+  potion of fly (the former has already been included in his statistics).
+DuringCombat: >-
+  Olaf begins combat by casting cause fear on the closest PC, then enters rage
+  as a free action. He fights recklessly to ensure the Pathfinders don't foil
+  his plan, since that would usher in the end of the world. When reduced to
+  fewer than half his total hit points, he uses his moment of clarity rage power
+  to cast cure light wounds, relying on his Diehard feat to keep him up should
+  the loss of his raging Constitution bonus reduce him to 0 or fewer hit points
+  while casting the spell.
+Morale: >-
+  Olaf is insane with delusions of his own importance and the necessity of
+  protecting Michellia, and he fights to the death to prevent her rescue.
+Gear: >-
+  potion of cure moderate wounds, potion of fly, potion of protection from
+  arrows
+OtherGear: mwk hide armor, +1 greataxe, wooden holy symbol of Groetus
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not under the effects of shield of faith and not raging, Olaf's
+  statistics are AC 15, touch 11, flat-footed 14; hp 56; Fort +6, Will +3; Melee
+  +1 greataxe +8 (1d8+5/x3); Str 17, Con 14; CMB +7, CMD 18; Skills Climb +5,
+  Swim +7.
+AgeCategory: Adult
+Mystery: timeUM
+CompanionFamiliarLink: '0'
+id: '7663'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,114 @@
+Name: Scrapyard Robot
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (robot)
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +5
+AC: 14, touch 9, flat-footed 14
+AC_Mods: (-1 Dex, +5 natural)
+HP: '42'
+HD: (4d10+20)
+Saves: Fort +1, Ref +0, Will +1
+Fort: '1'
+Ref: '0'
+Will: '1'
+DefensiveAbilities: hardness 5
+Immune: construct traits
+Weaknesses: fall to pieces, vulnerable to critical hits,  vulnerable to electricity
+Speed: 30 ft.
+Melee:
+  - slam +7 (1d4+4)
+  - rotary saw +8 (2d4+4/x3)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 17
+  - 8
+  - —
+  - 5
+  - 10
+  - 1
+BaseAtk: '4'
+CMB: '7'
+CMD: 16 (20 vs. trip)
+Feats:
+  - Power Attack
+  - Weapon Focus (rotary saw)
+Skills:
+  - Knowledge (engineering) +2
+  - Perception +5
+Languages:
+  - Common
+  - Hallit
+SQ: repair, staggered
+Environment: any ruin (Numeria)
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  Frayed wires and broken-off protrusions sprout from mechanical construct', and
+  one of its salvaged arms ends in a spinning blade.
+Group: Robot
+Source: Numeria Land Of Fallen Stars
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fall to Pieces (Ex)
+    description: >-
+      Attacks and effects that deal more than 25% of a scrapyard robot's maximum
+      hit points in damage (10 hit points for a standard scrapyard robot) impair
+      one of the robot's components. Determine which subsystem randomly by
+      rolling 1d6. If the subsystem has already been impaired, there is no
+      further effect. 1 CPU: The robot is confused (Pathfinder RPG Core Rulebook
+      566) 2 Fractured Plating: Reduce the robot's natural armor bonus by 3. 3
+      Power Core: Attacks against the robot with natural weapons, unarmed
+      strikes, or metal weapons deal 1d6 points of electricity damage to the
+      attacker, and the robot's slam attack deals an additional 1d6 points of
+      electricity damage. The robot shuts down from power loss in 1d4+1 rounds.
+      4 Rotary Saw: The robot loses its rotary saw attack. 5 Servos: The robot's
+      speed is reduced to 15 feet and its CMD against trip combat maneuvers is
+      reduced by 8. 6 Sensors: The robot is blinded.
+  - name: Repair (Ex)
+    description: >-
+      A scrapyard robot can use the inactive bodies of other robots to repair
+      damage to itself. Doing so restores 10 hit points and removes one
+      condition imparted by its fall to pieces ability per 8-hour period of
+      uninterrupted work. Eight hours of repair expends all salvageable parts
+      from 1 Medium robot. For each size category a scrapped robot is above
+      Medium, the scrapyard robot can perform another 8 hours of repairs using
+      that robot's parts. For each size category smaller than Medium scrapped
+      robots are, the scrapyard robot requires twice as many robots to complete
+      8 hours of work.
+  - name: Staggered (Ex)
+    description: >-
+      The poor construction of a scrapyard robot allows it to take only a single
+      move or standard action each round. In effect, it always has the staggered
+      condition. A scrapyard robot can move up to its speed and attack in the
+      same round as a charge action.
+Description:
+  - >-
+    Pieced together from broken technology, these constructs lack the balance to
+    stand upright, the motor control to use their hands (if they have any), and
+    the intelligence possessed by advanced robots, but they still retain a
+    halting consciousness and the ability to obey simple commands.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6101'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

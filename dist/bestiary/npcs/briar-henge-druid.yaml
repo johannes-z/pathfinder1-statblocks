@@ -1,0 +1,93 @@
+Name: Briar Henge Druid
+CR: 1/2
+XP: '200'
+Race: Half-elf
+Class: druid 1
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +7
+AC: 15, touch 11, flat-footed 14
+AC_Mods: (+4 armor, +1 Dex)
+HP: '11'
+HD: (1d8+3)
+Saves: Fort +4, Ref +1, Will +4; +2 vs. enchantments
+Fort: '4'
+Ref: '1'
+Will: '4'
+Save_Mods: +2 vs. enchantments
+Speed: 20 ft.
+Melee:
+  - quarterstaff +2 (1d6+3)
+  - shillelagh +3 (2d6+4)
+Ranged:
+  - dart +1 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: enlarge (5/day)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 1st; concentration +3)  1st-enlarge personD,
+  produce flame, shillelagh  0 (at will)-detect poison, know direction, mending
+SpellDomains: Plant (Growth subdomain*)
+AbilityScores:
+  - 14
+  - 12
+  - 15
+  - 8
+  - 15
+  - 10
+BaseAtk: '0'
+CMB: '2'
+CMD: '13'
+Feats:
+  - Improved Initiative
+  - Skill Focus (Perception)
+Skills:
+  - Knowledge (nature) +5
+  - Perception +7
+  - Spellcraft +3
+  - Survival +8
+RacialMods: +2 Perception
+Languages:
+  - Common
+  - Druidic
+  - Elven
+SQ: >-
+  elf blood, nature bond (Plant domain [Growth subdomain*]), nature sense, wild
+  empathy +1
+Source: PFS S3-05
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Enlarge (Su)
+    description: >-
+      As a swift action, a Briar Henge druid can enlarge herself for 1 round, as
+      if she were the target of the enlarge person spell.
+BeforeCombat: >-
+  If the druids hear enemies approaching or hear combat elsewhere in Briar
+  Henge, they cast shillelagh and produce flame in anticipation of an attack.
+DuringCombat: >-
+  If caught unprepared, the druids begin combat by casting shillelagh. In
+  subsequent rounds, they use their enlarge domain power and rush into melee.
+Morale: The Briar Henge druids fight until slain.
+Gear: potion of cure light wounds, scroll of barkskin
+OtherGear: masterwork hide armor, darts (4), quarterstaff
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5895'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,125 @@
+Name: Moukadeem
+CR: '11'
+XP: '12800'
+Race: noble marid
+MonsterSource: Pathfinder RPG Bestiary 142
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (extraplanar, water)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+AC: 23, touch 14, flat-footed 18
+AC_Mods: (+4 Dex, +1 dodge, +9 natural, -1 size)
+HP: '147'
+HD: (14d10+70)
+Saves: Fort +10, Ref +13, Will +11
+Fort: '10'
+Ref: '13'
+Will: '11'
+Speed: 20 ft., swim 60 ft.
+Melee:
+  - 2 slams +19 (2d6+6)
+  - mwk trident +20/+15/+10 (2d6+9)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  vortex (1/10 minutes, 10-50 ft. tall, 1d8+4 damage, DC 23), water mastery,
+  water's fury (DC 21)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +23)
+  values:
+    - label: Constant
+      value: detect evil, detect good, detect magic, water walk
+    - label: At Will
+      value: >-
+        create water, invisibility, plane shift (willing targets to elemental
+        planes, Astral Plane, or Material Plane only), purify food and drink
+        (liquids only), quench
+    - label: 5/day
+      value: control water, gaseous form, obscuring mist, water breathing
+    - label: 3/day
+      value: cone of cold (DC 18), ice storm, see invisibility
+    - label: 1/day
+      value: >-
+        elemental swarm (water elementals only), permanent image (DC 19),
+        persistent image (DC 18) 1/year-grant 1 wish (to non-genies only;
+        already cast)
+AbilityScores:
+  - 23
+  - 19
+  - 18
+  - 14
+  - 15
+  - 16
+BaseAtk: '14'
+CMB: '21'
+CMD: '36'
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Great Fortitude
+  - Improved InitiativeB
+  - Improved Natural Attack (slams)
+  - Power Attack
+  - Toughness
+Skills:
+  - Craft (jewelry) +19
+  - Diplomacy +20
+  - Knowledge (planes) +19
+  - Perception +19
+  - Sense Motive +19
+  - Spellcraft +19
+  - Stealth +17
+  - Swim +31
+Languages:
+  - Aquan
+  - Auran
+  - Common
+  - Ignan
+  - Terran
+  - telepathy 100 ft.
+SQ: >-
+  change shape (water elemental, humanoid or giant, alter self, elemental body
+  III, or giant form I), psychosis
+Source: PFS S2-18
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Psychosis (Ex)
+    description: >-
+      Moukadeem is filled with hatred for the world, and plots to destroy
+      everything and everyone around him. He has become chaotic evil and has a
+      +10 competence bonus on Bluff checks to hide his insanity.
+Gender: Male
+BeforeCombat: >-
+  When the secret door to his chamber opens, Moukadeem casts see invisibility
+  and obscuring mist.
+DuringCombat: >-
+  Moukadeem lashes out violently at the PCs, using cone of cold, elemental
+  swarm, and ice storm as long as he has the room to safely cast. When the PCs
+  engage him in melee, he resorts to physical attacks. If the PCs specifically
+  avoid dealing lethal damage to Zahra or attempt to cure her insanity, give
+  Moukadeem a DC 20 Sense Motive check each round to realize this. If he
+  succeeds, he begins attacking her, recognizing that the PCs want her alive.
+Morale: >-
+  Moukadeem cannot flee the lantern vault due to the dimensional anchor and
+  fights to the death.
+Gear: masterwork trident
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5659'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

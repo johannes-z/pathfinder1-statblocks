@@ -1,0 +1,174 @@
+Name: Fungal Lampad
+CR: '6'
+XP: '2400'
+Race: lampad
+MonsterSource: Pathfinder RPG Bestiary 4 116, 178
+Alignment: CN
+Size: Medium
+Type: plant
+SubType: (augmented fey)
+Init: '4'
+Senses:
+  - darkvision 90 ft., low-light vision
+  - Perception +15
+Aura: insane beauty (30 ft., DC 18)
+AC: 21, touch 19, flat-footed 17
+AC_Mods: (+5 deflection, +4 Dex, +2 natural)
+HP: '66'
+HD: (7d8+42)
+Saves: Fort +8, Ref +9, Will +8
+Fort: '8'
+Ref: '9'
+Will: '8'
+DefensiveAbilities: poisonous blood
+DR: 5/cold iron
+Immune: disease, mind-affecting effects, paralysis, poison, polymorph, sleep, stunning
+Speed: 20 ft.
+Melee:
+  - mwk dagger +8 (1d4+2/19-20)
+Ranged:
+  - mwk sling +8 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, poison spore cloud, weep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +12)
+  values:
+    - label: At Will
+      value: meld into stone, stone tell
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 5th; concentration +8)   3rd-spike growth (DC 16),
+  stone shape   2nd-spider climb, stone callAPG (2)   1st-cure light wounds,
+  faerie fire, magic stone (2)   0 (at will)-detect magic, detect poison, light,
+  mending
+AbilityScores:
+  - 14
+  - 19
+  - 22
+  - 14
+  - 17
+  - 21
+BaseAtk: '3'
+CMB: '5'
+CMD: '24'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Point-Blank Shot
+  - Weapon Finesse
+Skills:
+  - Acrobatics +4 (+0 to jump)
+  - Craft (alchemy) +12
+  - Diplomacy +13
+  - Knowledge (dungeoneering) +9
+  - Knowledge (nature) +12
+  - Linguistics +3
+  - Perception +15
+  - Perform (sing) +9
+  - Sense Motive +15
+  - Spellcraft +9
+  - Stealth +14
+Languages:
+  - Aklo
+  - Common
+  - Skald
+  - Sylvan
+  - Undercommon
+SQ: fungal metabolism, guarded, rejuvenation
+Source: PFS S9-03
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Ex)
+    description: >-
+      A creature killed by Constitution damage from a fungal creature's poison
+      spore cloud transforms into a fungal spawn over a period of 24 hours. A
+      plant growth spell halves the transformation time, and a diminish plants
+      spell doubles it. A blight spell destroys the fungal spores and prevents
+      the corpse's transformation, but spells that remove disease are
+      ineffective against the growing spores. Once a creature fully transforms
+      into a fungal spawn, the corpse from which it grew is destroyed. A fungal
+      spawn gains the fungal creature template, but it loses all class levels
+      and memories of the base creature from which it was spawned. If the base
+      creature has 1 or fewer racial Hit Dice and normally has class levels, use
+      a 1st-level warrior version of it as the base creature. The fungal spawn
+      awakens as a free-willed being that knows all it needs to know (including
+      language) in order to use its abilities and survive. Although it bears no
+      allegiance to the fungal creature that created it, the new fungal creature
+      immediately recognizes other fungal creatures as its own kind.
+  - name: Fungal Metabolism (Ex)
+    description: A fungal lampad breathes, but does not eat or sleep.
+  - name: Guarded (Su)
+    description: >-
+      A lampad adds her Charisma modifier as a deflection bonus to her Armor
+      Class.
+  - name: Insane Beauty (Su)
+    description: >-
+      This ability affects all humanoids within 30 feet who are viewing a lampad
+      in conditions brighter than dim light. Those who look directly upon the
+      lampad must succeed at a DC 18 Will save or gain the confused condition
+      for 1d6 rounds, as per the confusion spell. A creature that succeeds at
+      the save is immune to the same lampad's insane beauty for 24 hours. A
+      lampad can suppress or resume this ability as a free action. The save DC
+      is Charisma-based.
+  - name: Poison Spore Cloud (Ex)
+    description: >-
+      Once per day, a fungal creature can release a choking cloud of spores in a
+      15-foot-radius spread that lingers in the air for 10 rounds. This cloud
+      functions as an inhaled poison. Any breathing creature in the cloud must
+      succeed at a Fortitude save or inhale the spores. A creature that remains
+      in the area of the spore cloud must continue to attempt Fortitude saves
+      against its effects. Fungal Spores: Poison-inhaled; save Fort DC 18;
+      frequency 1/round for 6 rounds; effect 1d2 Con damage and fatigued for 1
+      minute; cure 2 consecutive saves.
+  - name: Poisonous Blood (Ex)
+    description: >-
+      A fungal creature's blood and flesh are ingested poisons. Any creature
+      that makes a bite attack against a fungal creature, swallows one whole, or
+      otherwise ingests part of one must succeed at a Fortitude save or be
+      afflicted by the poison. Fungal Blood or Flesh: Poison-ingested; save Fort
+      DC 18; frequency 1/minute for 6 minutes; effect 1 Str damage, 1 Dex
+      damage, and nauseated for 1 minute; cure 2 consecutive saves.
+  - name: Rejuvenation (Ex)
+    description: >-
+      A fungal creature gains all the sustenance it requires from contact with
+      moist natural earth, but it must rejuvenate itself as often and for as
+      long as humans need sleep. As long as it is in contact with moist natural
+      earth, a resting fungal creature regains hit points as though it were
+      undergoing complete bed rest and long term care (4 hit points per Hit Die
+      for each day of rest). The fungal creature can engage in light activity
+      during rejuvenation, but any strenuous activity (like fighting, running,
+      or casting a spell) prevents it from regaining hit points for that day.
+      Complete bed rest doesn't increase the amount of healing a fungal creature
+      gains from rejuvenation. Spells A lampad casts spells as a 5th-level druid
+      but can't swap out prepared spells to cast summon spells.
+  - name: Weep (Su)
+    description: >-
+      As a standard action, a lampad can unsettle those near her when she cries.
+      Any creature within 30 feet who can hear a lampad weeping becomes shaken
+      for 1 minute unless it succeeds at a DC 18 Will saving throw. This ability
+      can't cause a creature to become frightened or panicked. This is a
+      mind-affecting fear effect that relies on audible components. The save DC
+      is Charisma-based.
+Gender: Female
+DuringCombat: >-
+  The lampad uses her weep special ability first and then uses her spells to
+  support her allies. She uses spider climb to avoid melee but tries to stay
+  within range of her insane beauty ability.
+Morale: The lampad fights to the death.
+Gear: mwk dagger, mwk sling with 20 bullets
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: fungal|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12738'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

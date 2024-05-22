@@ -1,0 +1,65 @@
+Name: Dire Wolf Plague Zombie
+CR: '3'
+XP: '800'
+Race: dire wolf
+Alignment: NE
+Size: Large
+Type: undead
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 13, touch 10, flat-footed 12
+AC_Mods: (+1 Dex, +3 natural, -1 size)
+HP: '38'
+HD: (7d8+7)
+Saves: Fort +2, Ref +3, Will +5
+Fort: '2'
+Ref: '3'
+Will: '5'
+Immune: undead traits
+Speed: 50 ft.
+Melee:
+  - bite +9 (1d8+5 plus disease), slam +9 (1d8+5 plus disease)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: death burst
+AbilityScores:
+  - 21
+  - 13
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '5'
+CMB: '11'
+CMD: '22'
+Feats:
+  - Toughness
+SQ: staggered
+Source: PFS S1-43
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Burst (Ex)
+    description: >-
+      When a plague zombie dies, it explodes in a burst of decay. All creatures
+      adjacent to the plague zombie are exposed to its plague as if struck by a
+      slam attack and must make a Fortitude save or contract palepox.
+  - name: Disease (Su)
+    description: A plague zombie's natural attacks carry the palepox disease.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: plague@zombie|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4236'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

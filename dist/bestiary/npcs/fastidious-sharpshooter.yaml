@@ -1,0 +1,101 @@
+Name: Fastidious Sharpshooter
+CR: '7'
+XP: '3200'
+Race: gnome
+Class: fighter 8
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +10
+AC: 23, touch 17, flat-footed 20
+AC_Mods: (+6 armor, +3 deflection, +3 Dex, +1 size)
+HP: '76'
+HD: (8d10+28)
+Saves: Fort +9, Ref +5, Will +4; +2 vs. illusions, +2 vs. fear
+Fort: '9'
+Ref: '5'
+Will: '4'
+Save_Mods: +2 vs. illusions, +2 vs. fear
+DefensiveAbilities: bravery +2, defensive training (+4 dodge bonus to AC vs. giants)
+Speed: 25 ft.
+Melee:
+  - mwk glaive +10/+5 (1d8/x3)
+  - short sword +9/+4 (1d4/19-20)
+Ranged:
+  - mwk light crossbow +13/+13/+8 (1d6+3/17-20)
+  - mwk light crossbow with +1 frost bolts +13/+13/+8 (1d6+4+1d6 cold/17-20)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with glaive)
+SpecialAttacks: >-
+  +1 on attack rolls against goblinoid and reptilian humanoids, weapon training
+  (crossbows +1)
+SpellLikeAbilities:
+  header: Gnome Spell-Like Abilities (CL 8th; concentration +9)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound (DC 11), prestidigitation, speak with
+        animals
+AbilityScores:
+  - 10
+  - 16
+  - 16
+  - 8
+  - 14
+  - 12
+BaseAtk: '8'
+CMB: '7'
+CMD: '23'
+Feats:
+  - Deadly Aim
+  - Fleet
+  - Improved Critical (light crossbow)
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Reload
+  - Rapid Shot
+  - Weapon Focus (light crossbow)
+  - Weapon Specialization (light crossbow)
+Skills:
+  - Perception +10
+  - Profession (soldier) +8
+  - Sense Motive +7
+Languages:
+  - Common
+  - Gnome
+  - Sylvan
+SQ: armor training 2
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The fighter drinks her potion of shield of faith.
+DuringCombat: >-
+  The fighter drinks her potion of haste and launches full attacks with
+  screaming bolts.
+Gear: >-
+  +1 frost bolts (8), potion of haste, potion of shield of faith (CL 7th),
+  screaming bolts (2)
+OtherGear: >-
+  mithral breastplate, masterwork glaive, masterwork light crossbow with 40
+  bolts, short sword, sunrods (2), 27 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without shield of faith, the fighter's statistics are AC 20, touch 14,
+  flat-footed 17; CMD 20.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3682'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

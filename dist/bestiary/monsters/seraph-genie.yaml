@@ -1,0 +1,140 @@
+Name: Seraph Genie
+CR: '8'
+XP: '4800'
+Alignment: NG
+Size: Large
+Type: outsider
+SubType: (extraplanar, fire)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +15
+AC: 20, touch 14, flat-footed 15
+AC_Mods: (+4 Dex, +1 dodge, +6 natural, -1 size)
+HP: '95'
+HD: (10d10+40)
+Saves: Fort +7, Ref +11, Will +9
+Fort: '7'
+Ref: '11'
+Will: '9'
+Immune: fire
+Weaknesses: vulnerability to cold
+Speed: 40 ft., fly 30 ft. (perfect)
+Melee:
+  - >-
+    mwk scimitar +14/+9 (1d8+4 plus 1d6 fire) or 2 slams +13 (1d8+4 plus 1d6
+    fire)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: fire burst, heat
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; melee touch +13, ranged touch +13)
+  values:
+    - label: Constant
+      value: detect evil, detect magic
+    - label: At Will
+      value: >-
+        flame blade, plane shift (willing targets to elemental planes, Astral
+        Plane, or Material Plane only), produce flame, pyrotechnics (DC 15)
+    - label: 3/day
+      value: >-
+        fireball (DC 16), flame strike (DC 18), invisibility (self only), see
+        invisibility, wall of fire
+    - label: 1/day
+      value: fire storm (DC 21), wish (to non-genies only)
+AbilityScores:
+  - 19
+  - 18
+  - 18
+  - 14
+  - 15
+  - 17
+BaseAtk: '10'
+CMB: '15'
+CMD: '30'
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Improved InitiativeB
+  - Mobility
+  - Power Attack
+Skills:
+  - Craft (any one) +15
+  - Diplomacy +16
+  - Fly +23
+  - Knowledge (planes) +15
+  - Perception +15
+  - Sense Motive +15
+  - Spellcraft +15
+  - Stealth +13
+Languages:
+  - Celestial
+  - Common
+  - Ignan
+  - telepathy 100 ft.
+Environment: any (Plane of Fire)
+Organization: solitary, pair, company (3-6), or band (7-12)
+Treasure: standard (masterwork scimitar, other treasure)
+Description_Visual: >-
+  This creature resembles a ten foot tall human with brick-red skin and
+  coal-black hair, long and braided.
+Group: Genie
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fire Burst (Su)
+    description: >-
+      Once every 1d4 rounds as a standard action, a seraph can emit a blast of
+      elemental fire in a 30-foot-radius burst. Creatures in the area take 8d6
+      points of fire damage. A successful DC 19 Reflex save reduces the damage
+      by half. The save DC is Constitution-based.
+  - name: Heat (Ex)
+    description: >-
+      A seraph generates so much heat that its mere touch deals an additional
+      1d6 points of fire damage. A seraph's metallic weapons also conduct this
+      heat. A seraph can start or stop this ability as a free action once per
+      round on its turn.
+Description:
+  - >-
+    The seraphs are genies from the Plane of Fire, and the sworn enemies of the
+    efreet. A violent war between the two genie races has spanned centuries and
+    spilled into an uncountable number of planes. Any encounter between a seraph
+    and an efreeti sparks a battle that only ends when one or the other is
+    killed. Those that aid the efreeti are treated by seraphs as if they were
+    efreeti themselves; no mercy is shown in battle to an ally of the hated fire
+    genies. The seraphs often align themselves with djinn as they both share the
+    efreeti as a common enemy.
+  - >-
+    A seraph prefers to use its spell-like abilities over melee weapons in
+    combat, often allowing its opponents to move in close so the seraph can
+    unleash its fire burst. A seraph facing overwhelming odds in battle attempts
+    to flee; covering its escape by turning invisible or erecting a wall of fire
+    between itself and its enemies. When battling efreet, a seraph often employs
+    cold-based magic weapons such as frost scimitars and icy burst spears.
+  - A typical seraph stands 10 feet tall and weighs about 1,500 pounds.
+  - >-
+    Some seraphs are noble, known as beys or caliphs. A noble seraph has 14 Hit
+    Dice and gains the following spell-like abilities: 3/day-fire seeds, heat
+    metal; 1/day- elemental swarm (fire elementals only), greater invisibility.
+    A noble seraph's caster level for its spell-like abilities is 16th. Noble
+    seraphs are CR 10.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4952'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

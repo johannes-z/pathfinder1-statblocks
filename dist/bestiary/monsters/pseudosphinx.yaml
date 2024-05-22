@@ -1,0 +1,105 @@
+Name: Pseudosphinx
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Tiny
+Type: magical beast
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +11
+AC: 15, touch 14, flat-footed 13
+AC_Mods: (+2 Dex, +1 natural, +2 size)
+HP: '16'
+HD: (3d10)
+Saves: Fort +3, Ref +5, Will +6
+Fort: '3'
+Ref: '5'
+Will: '6'
+DR: 5/magic
+SR: '13'
+Speed: 20 ft., fly 30 ft. (average)
+Melee:
+  - bite +2 (1d3-3), 2 claws +2 (1d2-3)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: aided insight
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +6)
+  values:
+    - label: Constant
+      value: comprehend languages
+    - label: At Will
+      value: detect magic, detect secret doors
+    - label: 3/day
+      value: burning hands, cause fear, identify, vanish
+AbilityScores:
+  - 5
+  - 14
+  - 11
+  - 9
+  - 16
+  - 12
+BaseAtk: '3'
+CMB: '3'
+CMD: '10'
+Feats:
+  - Alertness
+  - Iron Will
+Skills:
+  - Fly +6
+  - Perception +11
+  - Sense Motive +5
+Languages:
+  - Common
+  - Sphinx
+Environment: warm deserts
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This small creature has the body of a housecat, the wings of a falcon, and the
+  head of a monkey.
+Source: Familiar Folio
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aided Insight (Su)
+    description: >-
+      Once per day, a pseudosphinx can tap into the wisdom of its ancestors to
+      answer a question for another creature. To do so, the pseudosphinx
+      attempts a Wisdom check, gaining a bonus on the check equal to the
+      querent's level and treating the result of the check as the result of an
+      appropriate Knowledge check. The pseudosphinx must be touching the querent
+      to use this ability.
+Description:
+  - >-
+    Pseudosphinxes are cat-sized, fairylike creatures thought to be distant
+    cousins to the larger and better-known true sphinxes. They most resemble
+    gynosphinxes, though the pseudosphinxes' monkeylike heads and tiny bodies
+    ensure that the two species are never confused for each other. A typical
+    pseudosphinx is 2 feet long and weighs 10 pounds.
+  - >-
+    Pseudosphinxes are rarely found in groups, and scholars are unsure whether
+    to attribute their cryptic origins to elusive demeanors or amnesic memories.
+    Whether they're the misbegotten progeny of generations of lesser sphinxes or
+    the result of some magical experiment in the same deserts where sphinxes are
+    found, none can say.
+  - >-
+    A pseudosphinx can serve as the familiar for a 7th-level spellcaster with
+    the Improved Familiar feat.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6736'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

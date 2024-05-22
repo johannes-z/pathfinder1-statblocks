@@ -1,0 +1,133 @@
+Name: Diurgez Broodlord
+CR: '24'
+XP: '1228800'
+Race: balor lord
+Class: rogue 8
+MonsterSource: Pathfinder RPG Bestiary 58
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil)
+Init: '14'
+Senses:
+  - darkvision 60 ft., low-light vision, true seeing
+  - Perception +48
+Aura: flaming body, unholy aura (DC 28)
+AC: 41, touch 24, flat-footed 30
+AC_Mods: (+4 deflection, +10 Dex, +1 dodge, +16 natural, +1 shield, -1 size)
+HP: '546'
+HD: (28 HD; 20d10+8d8+400)
+Saves: Fort +32, Ref +26 (+2 vs. traps), Will +27
+Fort: '32'
+Ref: +26 (+2 vs. traps)
+Will: '27'
+DefensiveAbilities: evasion, improved uncanny dodge
+DR: 15/cold iron and good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+SR: '31'
+Speed: 40 ft., fly 90 ft. (good)
+Melee:
+  - >-
+    +5 defending vorpal battleaxe +39/+34/+29/+24 (2d6+16/19-20/x3), master's
+    lash +39/+34/+29 (1d4+16/19-20 plus 1d6 fire)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with whip)
+SpecialAttacks: sneak attack +4d6, swarm-infested
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +30)
+  values:
+    - label: Constant
+      value: true seeing, unholy aura (DC 28)
+    - label: At Will
+      value: >-
+        dominate monster (DC 29), greater dispel magic, greater teleport (self
+        plus 50 lbs. of gear only), power word stun, telekinesis (DC 25)
+    - label: 1/day
+      value: >-
+        blasphemy (DC 27), fire storm (DC 28), implosion (DC 29), summon (level
+        9, any 1 CR 19 or lower demon 100%)
+AbilityScores:
+  - 33
+  - 30
+  - 38
+  - 24
+  - 28
+  - 30
+BaseAtk: '26'
+CMB: '38'
+CMD: '63'
+Feats:
+  - Combat Expertise
+  - Critical Focus
+  - Dodge
+  - Double Slice
+  - Greater Feint
+  - Greater Two-Weapon Fighting
+  - Improved Critical (battleaxe)
+  - Improved Critical (whip)
+  - Improved Feint
+  - Improved Initiative
+  - Improved Two-Weapon Fighting
+  - Staggering Critical
+  - Two-Weapon Defense
+  - Two-Weapon Fighting
+Skills:
+  - Acrobatics +38 (+42 when jumping)
+  - Bluff +38
+  - Disable Device +41
+  - Fly +43
+  - Intimidate +41
+  - Knowledge (arcana) +35
+  - Knowledge (local) +38
+  - Knowledge (planes) +38
+  - Perception +48
+  - Sense Motive +40
+  - Spellcraft +35
+  - Stealth +37
+  - Survival +31
+  - Use Magic Device +41
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - tongues
+SQ: >-
+  death throes, rogue talents (bleeding attack +4, combat trick, resiliency,
+  surprise attack), trap sense +2, trapfinding +4, vorpal strike, whip mastery
+Source: AP 78
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Infested (Su)
+    description: >-
+      Diurgez is immune to damage and effects caused by swarms, and can elect to
+      exclude swarms from taking any damage from his energy-based attacks. He
+      can direct the actions of any mindless swarm within 90 feet as a free
+      action. Three times per day as a swift action, he can expel a fiendish
+      advanced tick swarm from his body; the swarm appears in any four
+      contiguous 10-foot squares adjacent to him, has a fly speed of 50 ft.
+      (perfect), and lasts until it is slain.
+Gender: Male
+DuringCombat: >-
+  Diurgez releases a swarm of ticks each round during the first 3 rounds, and is
+  fond of holding victims within these swarms' confines via telekinesis. He
+  doesn't bother making attacks against foes unless they manage to actually
+  damage him, at which point he stops playing around and uses his deadly weapons
+  to their full effect.
+Morale: Diurgez fights to the death.
+Gear: +5 defending battleaxe, master's lash
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5717'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

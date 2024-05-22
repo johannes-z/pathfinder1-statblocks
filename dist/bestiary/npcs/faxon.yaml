@@ -1,0 +1,100 @@
+Name: Faxon
+CR: '4'
+XP: '1200'
+Race: tiefling
+Class: witch 5
+MonsterSource: Pathfinder RPG Bestiary 264, Pathfinder RPG Advanced Player's Guide 65
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +5
+AC: 15, touch 14, flat-footed 11
+AC_Mods: (+1 armor, +3 Dex, +1 dodge)
+HP: '30'
+HD: (5d6+10)
+Saves: Fort +3, Ref +5, Will +5
+Fort: '3'
+Ref: '5'
+Will: '5'
+Resist: cold 5, electricity 5, fire 5
+Speed: 30 ft.
+Melee:
+  - morningstar +1 (1d8-1)
+Ranged:
+  - heavy crossbow +6 (1d10+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hexes (disguise [5 hours], evil eye [-2, 7 rounds], misfortune [1 round])
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th, concentration +5)
+  values:
+    - label: 1/day
+      value: darkness
+SpellsPrepared: >-
+  Witch Spells Prepared (CL 5th; concentration +9)   3rd-bestow curse (DC 17),
+  vampiric touch   2nd-blindness/deafness (DC 16), burning gazeAPG, fog cloud  
+  1st-burning hands (DC 15), charm person (DC 15), command (DC 15), inflict
+  light wounds (DC 15)   0 (at will)-dancing lights, guidance, resistance, spark
+AbilityScores:
+  - 8
+  - 16
+  - 13
+  - 18
+  - 10
+  - 10
+BaseAtk: '2'
+CMB: '1'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Combat Expertise
+  - Dodge
+Skills:
+  - Bluff +7
+  - Disguise +5
+  - Knowledge (arcana) +12
+  - Knowledge (planes) +12
+  - Perception +5
+  - Stealth +10
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Draconic
+  - Hallit
+  - Infernal
+  - Undercommon
+SQ: fiendish sorcery, witch's familiar (scorpion named Nox)
+Source: AP 73
+IsTemplate: '0'
+Gender: Male
+DuringCombat: >-
+  Faxon opens combat by casting blindness/ deafness on any obvious healer, and
+  then bestow curse on the most heavily armored foe to reduce his Strength score
+  by 6. He follows this up with his other offensive spells and hexes, casting
+  vampiric touch once he drops below 20 hit points.
+Morale: Faxon fights to the death.
+Gear: wand of cure moderate wounds (9 charges)
+OtherGear: >-
+  morningstar, heavy crossbow with +1 bolts (12), bracers of armor +1, cloak of
+  resistance +1, key to area N4, key for chest in area N4, 29 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Patron: Animals
+CompanionFamiliarLink: '0'
+id: '4833'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

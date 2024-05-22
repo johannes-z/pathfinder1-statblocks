@@ -1,0 +1,152 @@
+Name: Overlord Robot
+CR: '20'
+XP: '307200'
+Race: Aggregate Unity  robot
+MonsterSource: 'Pathfinder Campaign Setting: Technology Guide 59, see page 70'
+Alignment: LE
+Size: Large
+Type: construct
+SubType: (robot, mythicMA)
+Init: +26M/+6, dual initiative
+Senses:
+  - >-
+    all-around vision, blindsight 30 ft., darkvision 120 ft., low-light vision,
+    see in darkness, see invisibility
+  - Perception +38
+Aura: unholy aura (DC 26)
+AC: 44, touch 22, flat-footed 35
+AC_Mods: (+7 Dex, +4 deflection, +2 dodge, +22 natural, -1 size)
+HP: '397'
+HD: (25d10+135 plus 100 point force field)
+Saves: Fort +14, Ref +23, Will +20
+Fort: '14'
+Ref: '23'
+Will: '20'
+DefensiveAbilities: hardness 20
+Immune: cold, construct traits
+Speed: 50 ft., fly 30 ft. (good)
+Melee:
+  - +3 vorpal battleaxe +38/+33/+28/+23 (2d6+18/19-20/x3), 2 claws +35 (1d8+15)
+Ranged:
+  - integrated laser rifle +31 touch (3d6+4/19-20 fire)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  bleeding strike, combined arms, gravity bomb, mythic power (8/day, surge
+  +1d10), sneak attack +2d6  Spell-like Abilities (CL 20th; concentration +28) 
+  1/day-see Unity
+AbilityScores:
+  - 33
+  - 25
+  - —
+  - 34
+  - 22
+  - 26
+BaseAtk: '25'
+CMB: '37'
+CMD: '56'
+Feats:
+  - Alertness
+  - Combat Expertise
+  - Combat Reflexes
+  - Craft Cybernetics
+  - Craft Robot
+  - Craft Technological Arms and Armor
+  - Craft Technological Item
+  - Critical Focus
+  - Deadly Aim
+  - Dodge[M]
+  - Exotic Weapon Proficiency (firearms
+  - heavy weaponry)
+  - Flyby Attack
+  - Great Fortitude
+  - Improved Critical (battleaxe)
+  - Improved Critical (integrated laser cannon)
+  - Improved Initiative[M]
+  - Iron Will
+  - Lightning Reflexes[M]
+  - Mobility
+  - Power Attack
+  - Staggering Critical
+  - Toughness[M]
+  - Technologist
+Skills:
+  - Acrobatics +32
+  - Bluff +31
+  - Craft (mechanical) +35
+  - Diplomacy +28
+  - Disable Device +30
+  - Fly +37
+  - Heal +28
+  - Intimidate +36
+  - Knowledge (arcana
+  - geography
+  - history
+  - planes
+  - religion) +35
+  - Knowledge (engineering) +40
+  - Linguistics +35
+  - Perception +38
+  - Perform (oratory) +28
+  - Sense Motive +38
+  - Spellcraft +32
+  - Use Magic Device +28
+Languages:
+  - Abyssal
+  - Aklo
+  - Androffan
+  - Aquan
+  - Auran
+  - Celestial
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Giant
+  - Gnome
+  - Halfling
+  - Hallit
+  - Ignan
+  - Infernal
+  - Lashunta
+  - Orc
+  - Terran
+Source: AP 90
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Combined Arms (Ex)
+    description: >-
+      When taking a full-attack action, the overlord robot can attack with its
+      claws, battleaxe, and integrated laser rifle simultaneously.
+  - name: Gravity Bomb (Ex)
+    description: >-
+      As a swift action once every 1d4 rounds, the overlord robot can fire a
+      purple bolt of force from its eye. This bolt has a range of 120 feet and
+      explodes on impact, dealing 20d6 points of force damage to creatures in a
+      30-foot radius (Reflex DC 29 half). Creature that fail this save are
+      encapsulated in a sphere of force, as resilient sphere, for 1d6 rounds
+      (Fortitude DC 29 negates). The save DCs are Dexterity-based.
+BeforeCombat: The overlord robot casts unholy aura on itself.
+DuringCombat: >-
+  The overlord robot relies on its physical attacks rather than spell-like
+  abilities. It uses its gravity bomb as often as possible, as well as Deadly
+  Aim and Power Attack. If foes are hitting it too often, the overlord swaps out
+  the use of Power Attack for Combat Expertise and begins to use Flyby Attacks
+  to try to limit full attacks against itself.
+Morale: The overlord robot fights until destroyed.
+Gear: Large +3 vorpal battleaxe, intuition facet
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6719'
+UniqueMonster: '1'
+Variant: '0'
+MR: '8'
+Mythic: '1'
+MT: '0'

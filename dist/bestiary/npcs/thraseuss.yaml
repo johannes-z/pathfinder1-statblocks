@@ -1,0 +1,113 @@
+Name: Thraseuss
+CR: '12'
+XP: '19200'
+Race: shadow demon
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar, incorporeal)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+AC: 18, touch 18, flat-footed 14
+AC_Mods: (+4 Dex, +4 deflection)
+HP: '102'
+HD: (12d10+36)
+Saves: Fort +7, Ref +14, Will +12
+Fort: '7'
+Ref: '14'
+Will: '12'
+DefensiveAbilities: incorporeal
+DR: 10/good or cold iron
+Immune: cold, electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '17'
+Speed: fly 40 ft. (perfect)
+Melee:
+  - bite +16 (1d8+4), 2 claws +16 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: natural attacks +1d6 cold, pounce
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: At will
+      value: >-
+        deeper darkness, fear (DC 18), greater teleport (self only), telekinesis
+        (DC 19)
+    - label: 3/day
+      value: shadow conjuration, shadow evocation (DC 19)
+    - label: 1/day
+      value: magic jar (DC 19), summon (level 3, 1 shadow demon 50%)
+AbilityScores:
+  - —
+  - 19
+  - 17
+  - 16
+  - 15
+  - 19
+BaseAtk: '12'
+CMB: '16'
+CMD: '30'
+Feats:
+  - Blind-fight
+  - Combat Reflexes
+  - Flyby Attack
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+Skills:
+  - Acrobatics +19
+  - Bluff +19
+  - Diplomacy +16
+  - Fly +27
+  - Intimidate +9
+  - Knowledge (local) +18
+  - Knowledge (planes) +18
+  - Perception +20
+  - Sense Motive +17
+  - Stealth +19 Racial Modifiers +8 Perception
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+SQ: shadow blend, sprint, sunlight powerlessness
+Source: Sword of Air-Chapter 5
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Shadow Blend (Su)
+    description: >-
+      During any conditions other than bright light, a shadow demon can
+      disappear into the shadows as a move-equivalent action, effectively
+      becoming invisible. Artificial illumination or light spells of 2nd level
+      or lower do not negate this ability.
+  - name: Sprint (Ex)
+    description: >-
+      Once per minute, a shadow demon increase its fly speed to 240 feet for 1
+      round.
+  - name: Sunlight Powerlessness (Ex)
+    description: >-
+      A shadow demon is utterly powerless in bright light or natural sunlight
+      and flees from it. A shadow demon caught in such light cannot attack and
+      can take only a single move or standard action. A shadow demon that is
+      possessing a creature using magic jar is not harmed by sunlight, but if it
+      is struck by a sunbeam or sunburst spell while possessing a creature, the
+      shadow demon is driven out of its host automatically.
+Gear: Hand of Knem Koth
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12671'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,129 @@
+Name: Slime Demodand
+CR: '13'
+XP: '25600'
+Alignment: CE
+Size: Medium
+Type: Outsider
+SubType: (chaotic, demodand, evil, extraplanar)
+Init: '4'
+Senses:
+  - darkvision 120 ft.
+  - Perception +22
+Aura: stench (DC 21, 2d6 rounds)
+AC: 28, touch 14, flat-footed 24
+AC_Mods: (+4 Dex, +14 natural)
+HP: '136'
+HD: (13d10+65)
+Saves: Fort +13, Ref +8, Will +10
+Fort: '13'
+Ref: '8'
+Will: '10'
+DR: 10/good and magic
+Immune: acid, poison, mindaffecting effects
+Resist: cold 10, fire 10
+SR: '24'
+Speed: 40 ft., fly 50 ft. (average)
+Melee:
+  - 2 claws +22 (1d6+8 plus 1d6 acid), bite +21 (1d8+8 plus 1d6 acid)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: enslime
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th)
+  values:
+    - label: At will
+      value: >-
+        detect good, detect magic, detect thoughts (DC 16), fear (DC 18),
+        gaseous form, invisibility (self only), magic circle against good, see
+        invisibility, tongues
+    - label: 3/day
+      value: acid fog, dispel magic, fog cloud, ray of enfeeblement
+    - label: 1/day
+      value: summon (level 6, 1d4 tarry demodands 50%; or 1 slime demodand 20%)
+AbilityScores:
+  - 26
+  - 18
+  - 20
+  - 14
+  - 14
+  - 18
+BaseAtk: '13'
+CMB: '21'
+CMD: '35'
+Feats:
+  - Alertness
+  - Cleave
+  - Critical Focus
+  - Great Cleave
+  - Power Attack
+  - Sickening Critical
+  - Weapon Focus (claws)
+Skills:
+  - Acrobatics +12
+  - Bluff +20
+  - Fly +14
+  - Knowledge (arcana) +18
+  - Knowledge (planes) +18
+  - Perception +22
+  - Sense Motive +8
+  - Spellcraft +18
+  - Stealth +20
+  - Survival +18
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+SQ: slimy hide
+Environment: any (Tarterus)
+Organization: solitary or troupe (2-5)
+Treasure: standard
+Description_Visual: >-
+  This creature looks to be about 6 or 7 feet tall. It appears as a bloated,
+  slimy, black humanoid with large bat-like wings protruding from its shoulders.
+  Its skin constantly drips and oozes a thick white-gray mucus. It has thick
+  elephantine legs and long, powerful arms that end in razorsharp talons.
+Group: Demodand
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Enslime (Ex)
+    description: >-
+      If a slime demodand hits an opponent with all of its natural attacks in
+      the same round, it deals an extra 1d6 points of acid damage (in addition
+      to the acid damage dealt by its natural attacks).
+  - name: Slimy Hide (Ex)
+    description: >-
+      A slime demodand's hide is covered in acidic slime. Creatures attacking it
+      unarmed or with natural weapons take 1d6 points of acid damage each time
+      one of their attacks hits.
+Description:
+  - >-
+    Known as the middle class of the demodand race, slime demodands are as evil
+    as their lesser relatives, the tarry demodands. They delight in torturing
+    creatures of lesser skill and rank than themselves. A typical slime demodand
+    stands 6 feet tall and weighs 500 pounds. The slime demodand attacks with
+    its claws and bite in combat. It often opens combat with a ray of
+    enfeeblement targeted against the physically strongest (or perceived
+    physically strongest) opponent. Credit The Slime Demodand originally
+    appeared in the First Edition Monster Manual II (© TSR/Wizards of the Coast,
+    1983) and is used by permission. Copyright Notice Author Scott Greene, based
+    on original material by Gary Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2428'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

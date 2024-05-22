@@ -1,0 +1,122 @@
+Name: Blightspawn of Ghlaunder
+CR: '5'
+XP: '1600'
+Alignment: CE
+Size: Medium
+Type: aberration
+Init: '8'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +13
+Aura: stagnation (20 ft., DC 16)
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+4 Dex, +4 natural)
+HP: '52'
+HD: (7d8+21)
+HP_Mods: fast healing 3
+Saves: Fort +5, Ref +8, Will +8
+Fort: '5'
+Ref: '8'
+Will: '8'
+DR: 5/magic
+Immune: acid, cold, poison
+Speed: 30 ft., climb 30 ft., fly 50 ft. (average)
+Melee:
+  - sting +10 (2d6+7/19-20 plus attach and poison)
+Space: 5 ft.
+Reach: 10 ft.
+SpecialAttacks: blood drain (1d2 Con), stagnation gaze
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +7)
+  values:
+    - label: Constant
+      value: freedom of movement, pass without trace
+    - label: 1/day
+      value: >-
+        bestow curse (DC 16), blur, contagion (DC 16), diminish plants, gust of
+        wind, hold monster (DC 17)
+AbilityScores:
+  - 21
+  - 18
+  - 16
+  - 7
+  - 16
+  - 15
+BaseAtk: '5'
+CMB: +10 (+14 to maintain a grapple)
+CMD: 24 (32 vs. trip)
+Feats:
+  - Flyby Attack
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+Skills:
+  - Climb +13
+  - Fly +14
+  - Perception +13
+Languages:
+  - Aklo (cannot speak)
+SQ: no breath
+Environment: '?'
+Organization: '?'
+Treasure: '?'
+Description_Visual: >-
+  This human-sized, mosquitolike creature has a long, flexible proboscis that
+  ends in a murderous stinger.
+Source: The Feast Of Ravenmoor
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Su)
+    description: >-
+      Sting-injury; save Fort DC 16; frequency 1/round for 6 rounds; effect 1d4
+      Wisdom damage and confusion for 1 round; cure 2 saves. The save DC is
+      Constitution-based.
+  - name: Stagnation Aura (Su)
+    description: >-
+      A blightspawn's stagnation aura causes lethargy and torpor in those who
+      approach it, sapping energy and speed. When a creature comes within 20
+      feet of a blightspawn, it must make a DC 16 Will save to avoid being
+      affected as per the spell slow, for as long as the creature remains within
+      the blightspawn's aura and for an additional 1d3 rounds after leaving it.
+      Once a creature successfully saves against the aura, it is immune to that
+      particular blightspawn's aura for 24 hours; otherwise, re-entering the
+      aura forces a creature to save again. In addition, this aura fouls liquids
+      of all types within the area. A creature that drinks anything in a
+      blightspawn's aura (including potions and alchemical elixirs) must make a
+      DC 14 Fortitude save or be nauseated for 1d3 rounds. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    The blightspawn of Ghlaunder are found most often in places where the
+    Gossamer King's cult is strong, for these creatures must gestate in the body
+    of one of the parasite god's true believers. To the faithful of Ghlaunder,
+    being host to an immature blightspawn is a great honor, for when the monster
+    bursts from the body of its host, the host's consciousness lives on in some
+    way in the blightspawn's mind, almost as if the host had reincarnated into
+    the monster. That cultists who die giving hideous birth to a blightspawn
+    cannot be resurrected lends a bit of weight to this notion, even if the
+    blightspawn themselves have nothing to say on the topic. A cultist carrying
+    an immature blightspawn functions normally in all ways until the creature
+    emerges (typically upon the cultist's death, or at the culmination of
+    certain vile rituals)-except that until then, the cultist can pass on new
+    blightspawn to his or her children. A blightspawn's gestation can last for
+    decades, and in cases in which a child is separated from infected parents,
+    the child might live her entire life without knowing the truth of what
+    awaits her upon death. When a blightspawn emerges from its host, it is
+    immediately fully grown, although its gore-wet wings cannot be used for
+    flight for 1d4 rounds after emerging.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1890'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

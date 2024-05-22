@@ -1,0 +1,128 @@
+Name: Greater Apocalypse Locust
+CR: '14'
+XP: '38400'
+Race: apocalypse locust
+MonsterSource: Pathfinder RPG Bestiary 4 12
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (evil, extraplanar, mythicMA)
+Init: '6'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +22
+AC: 29, touch 13, flat-footed 25
+AC_Mods: (+2 Dex, +2 dodge, +16 natural, -1 size)
+HP: '212'
+HD: (16d10+124)
+Saves: Fort +14, Ref +9, Will +13
+Fort: '14'
+Ref: '9'
+Will: '13'
+DR: 10/epic
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '25'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - 2 pincers +26 (2d6+12 plus grab), sting +27 (1d6+12 plus poison)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  Abyssal torment, breath weapon (30-ft. line, 6d6 fire damage plus accursed
+  brand, Will DC 22 negates, usable every 1d4 rounds), constrict (1d8+18),
+  maddening buzz, mythic power (6/day, surge +1d8), powerful pincers
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +18)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At Will
+      value: >-
+        blight (DC 19), greater dispel magic, greater teleport (self plus 50
+        lbs. of objects only), telekinesis (DC 19)
+    - label: 1/day
+      value: creeping doom
+AbilityScores:
+  - 34
+  - 14
+  - 18
+  - 15
+  - 17
+  - 19
+BaseAtk: '16'
+CMB: '29'
+CMD: '43'
+Feats:
+  - DodgeM
+  - Flyby Attack
+  - Improved Initiative
+  - Improved Natural Attack (pincer)
+  - Lightning ReflexesM
+  - Multiattack
+  - Power AttackM
+  - Weapon Focus (pincer)
+Skills:
+  - Acrobatics +21
+  - Bluff +23
+  - Fly +23
+  - Intimidate +23
+  - Knowledge (religion) +21
+  - Perception +22
+  - Stealth +17
+  - Survival +22
+Languages:
+  - Abyssal
+Source: AP 78
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Abyssal Torment (Su)
+    description: >-
+      If a victim takes ability damage from a greater apocalypse locust's
+      poison, it suffers wracking pain and takes a -4 penalty on attack rolls,
+      skill checks, and ability checks until the damage is healed.
+  - name: Accursed Brand (Su)
+    description: >-
+      A creature that fails its saving throw against a greater apocalypse
+      locust's breath weapon has his flesh branded by the fire and suffers
+      hallucinations for 24 hours. During this time, the victim becomes
+      tainted&#8211; good-aligned clerics and all druids, monks, and paladins
+      are treated as if they'd temporarily broken their codes of conduct.
+      Characters who have a class that's restricted to a good alignment or
+      lawful alignment are treated as ex-members of that class for 24 hours.
+      Atonement instantly ends this effect.
+  - name: Maddening Buzz (Su)
+    description: >-
+      As long as three or more apocalypse locusts live and churn their wings,
+      any creature within a range of 100 feet + 10 feet per apocalypse locust
+      must succeed at a DC 22 Will save or become confused (CL equals 14 +
+      number of apocalypse locusts present). This is a sonic mind-affecting
+      effect. The save DC is Charisma-based.
+  - name: Poison (Ex)
+    description: >-
+      Sting&#8211;injury; save Fort DC 22; frequency 1/round for 6 rounds;
+      effect 1 Con plus Abyssal torment; cure 2 consecutive saves.
+  - name: Powerful Pincers (Ex)
+    description: A greater apocalypse locust's pincers are primary attacks.
+DuringCombat: >-
+  The greater apocalypse locusts each begin the battle by casting creeping doom
+  on their foes. In melee, they coordinate their attacks on paladins first,
+  seeking obvious worshipers of good deities if no such targets are apparent. At
+  range, they are fond of using telekinesis to disarm foes.
+Morale: The greater apocalypse locusts fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5706'
+UniqueMonster: '0'
+Variant: '0'
+MR: '6'
+Mythic: '1'
+MT: '0'

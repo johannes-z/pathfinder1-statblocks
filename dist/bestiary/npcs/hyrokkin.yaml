@@ -1,0 +1,112 @@
+Name: Hyrokkin
+CR: '13'
+XP: '25600'
+Race: fire giant
+MonsterSource: Pathfinder RPG Bestiary 171, 148
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (fire, giant, native)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +20
+AC: 28, touch 9, flat-footed 28
+AC_Mods: (+10 armor, +9 natural, -1 size)
+HP: '172'
+HD: (15d8+105)
+Saves: Fort +16, Ref +6, Will +10
+Fort: '16'
+Ref: '6'
+Will: '10'
+DefensiveAbilities: rock catching
+DR: 10/magic
+Immune: fire, poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '24'
+Weaknesses: vulnerable to cold
+Speed: 30 ft., fly 80 ft. (good)
+Melee:
+  - bite +22 (1d8+11), 2 claws +21 (1d6+11)
+Ranged:
+  - rock +12 (1d8+16 plus 1d6 fire)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: heated rock, rock throwing (120 ft.), smite good
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +17)
+  values:
+    - label: 3/day
+      value: darkness, poison (DC 15), unholy aura
+    - label: 1/day
+      value: >-
+        blasphemy (DC 19), contagion (DC 16), desecrate, horrid wilting (DC 20),
+        unhallow, unholy blight (DC 16)
+AbilityScores:
+  - 33
+  - 13
+  - 25
+  - 12
+  - 16
+  - 14
+BaseAtk: '11'
+CMB: +23 (+25 overrun, +25 sunder)
+CMD: 34 (36 vs. overrun, 36 vs. sunder)
+Feats:
+  - Cleave
+  - Great Cleave
+  - Improved Overrun
+  - Improved Sunder
+  - Iron Will
+  - Martial Weapon Proficiency (greatsword)
+  - Power Attack
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +10
+  - Climb +12
+  - Fly +15
+  - Intimidate +20
+  - Knowledge (local) +10
+  - Knowledge (nobility) +10
+  - Knowledge (planes) +10
+  - Perception +20
+  - Stealth +6
+Languages:
+  - Common
+  - Giant
+  - Infernal
+Source: AP 95
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If aware of imminent combat, Hyrokkin casts unholy aura on herself and the
+  temple priest, and then activates her ring of invisibility so she can surprise
+  intruders.
+DuringCombat: >-
+  Hyrokkin begins combat by casting horrid wilting before switching to melee
+  attacks. She prefers tearing apart a weak opponent as a show of strength
+  before moving on to a strong one. She saves her smite good ability to use on
+  the opponent that shows her the most resilience. She casts blasphemy if she
+  thinks her opponents are much weaker than she, and unholy blight if she thinks
+  at least two opponents are weak enough to be killed by it.
+Morale: >-
+  If Hyrokkin brought to 40 hp or below, she flees to her mother's room (area
+  F4) for help.
+Gear: potions of cure serious wounds (3)
+OtherGear: +2 half-plate, ring of invisibility
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-fiend|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7017'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

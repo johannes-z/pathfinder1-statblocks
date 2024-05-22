@@ -1,0 +1,89 @@
+Name: War Wisp
+CR: '8'
+XP: '4800'
+Race: will-o'-wisp
+MonsterSource: Pathfinder RPG Bestiary 277
+Alignment: NE
+Size: Small
+Type: aberration
+SubType: (air)
+Init: '14'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+AC: 27, touch 27, flat-footed 16
+AC_Mods: (+5 deflection, +10 Dex, +1 dodge, +1 size)
+HP: '60'
+HD: (11d8+11)
+Saves: Fort +4, Ref +13, Will +10
+Fort: '4'
+Ref: '13'
+Will: '10'
+DefensiveAbilities: natural invisibility
+Immune: magic
+Speed: fly 50 ft. (perfect)
+Melee:
+  - shock +19/+14 touch (3d8 electricity)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: lightning form
+AbilityScores:
+  - 1
+  - 31
+  - 12
+  - 15
+  - 16
+  - 14
+BaseAtk: '8'
+CMB: '2'
+CMD: '28'
+Feats:
+  - Alertness
+  - Blind-Fight
+  - Dodge
+  - Flyby Attack
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Acrobatics +24
+  - Bluff +13
+  - Escape Artist +24
+  - Fly +34
+  - Perception +21
+  - Sense Motive +5
+  - Stealth +28
+Languages:
+  - Aklo
+  - Common
+SQ: feed on fear
+Source: PFS S4-10
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Lightning Form (Ex)
+    description: >-
+      Twice per day, a war wisp can transform into lightning as a standard
+      action and instantly travel in a straight line to a distance of up to 50
+      feet, rematerializing in the new location as a free action. This movement
+      does not provoke attacks of opportunity. Creatures in this line take 7d6
+      points of electrical damage and are staggered for 1 round (a successful DC
+      16 Reflex save halves the damage and negates the staggered condition). The
+      save DC is Constitution-based.
+DuringCombat: >-
+  The war wisps are immune to the various glyphs and traps in the room and try
+  to lure the PCs into triggering them.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7670'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

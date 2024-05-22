@@ -1,0 +1,209 @@
+Name: Vermlek
+CR: '3'
+XP: '800'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '-1'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft., scent
+  - Perception +8
+AC: 15, touch 9, flat-footed 15
+AC_Mods: (+3 armor, -1 Dex, +3 natural)
+HP: '30'
+HD: (4d10+8)
+Saves: Fort +8, Ref +0, Will +5
+Fort: '8'
+Ref: '0'
+Will: '5'
+DefensiveAbilities: abandon flesh, flesh armor, negative energy affinity
+DR: 5/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '14'
+Speed: 30 ft., burrow 20 ft.
+Melee:
+  - longsword +6 (1d8+2/19-20), bite +1 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: inhabit body
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +4)
+  values:
+    - label: 3/day
+      value: mass inflict light wounds (DC 16), spider climb
+    - label: 1/day
+      value: gentle repose, summon (level 2, 1d4 dretches, 50%)
+AbilityScores:
+  - 15
+  - 9
+  - 14
+  - 12
+  - 13
+  - 12
+BaseAtk: '4'
+CMB: +6 (+10 grapple)
+CMD: '15'
+Feats:
+  - Deceitful
+  - Great Fortitude
+Skills:
+  - Bluff +10
+  - Disguise +10 (+18 when inhabiting a corpse)
+  - Escape Artist +6 (+14 when not inhabiting a corpse)
+  - Knowledge (religion) +8
+  - Perception +8
+  - Sense Motive +8
+  - Use Magic Device +8
+RacialMods: >-
+  +8 Disguise when inhabiting a corpse, +8 Escape Artist when not inhabiting a
+  corpse
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+Environment: any (Abyss; battlefields and graveyards)
+Organization: solitary or nest (2-20)
+Treasure: standard
+Description_Visual: >-
+  A corpulent man reels on his feet as if drunk, but a closer inspection reveals
+  the horrific truth-he's not so much reeling as he is seething from within, as
+  if his internal organs were coiling and writhing like a knot of greased
+  snakes. Suddenly, with a hideous retching and tearing sound, the man's face
+  blooms out like a rotten flower and a pallid, five-jawed worm extrudes itself
+  from the ragged hole in the neck where, only a moment before, a head sat.
+Group: Demon
+Source: Book of the Damned V2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Abandon Flesh (Su)
+    description: >-
+      As a swift action, a vermlek can abandon an inhabited body, crawling
+      hideously out of its host and leaving behind an empty sack of skin and
+      bits of gristle. In so doing, it absorbs much of the body's flesh to heal
+      itself, restoring 2d6+3 hit points. A vermlek cannot later reclaim this
+      body with its inhabit body ability.
+  - name: Flesh Armor (Su)
+    description: >-
+      When a vermlek wears a humanoid body (see inhabit body, below), it treats
+      the dead flesh and muscle as armor and gains a +3 armor bonus to its AC.
+  - name: Inhabit Body (Su)
+    description: >-
+      A vermlek can crawl into the body of any dead Medium humanoid, consuming
+      and replacing the bulk of the humanoid's skeleton and internal organs as
+      it does so. This process takes 1d4 rounds for the vermlek to complete,
+      during which it is considered flat-footed. Once the process is complete,
+      the vermlek appears for all practical purposes to be a living but
+      hideously obese version of the previous humanoid-it gains a +8 racial
+      bonus on Disguise checks to appear as a normal humanoid while wearing a
+      dead body in this manner, but does not gain any of the abilities that the
+      dead creature possessed in life, including natural attacks, unusual
+      movement types, or bonuses to natural armor. It loses its own burrow speed
+      while inhabiting a body, but gains the ability to wield weapons or wear
+      armor shaped for humanoids (although note that the armor bonus granted by
+      wearing armor does not stack with the bonus granted by the vermlek's flesh
+      armor ability).
+  - name: Negative Energy Affinity (Ex)
+    description: >-
+      A vermlek is healed by negative energy and harmed by positive energy as if
+      it were an undead creature.
+Description:
+  - >-
+    The hideous vermlek demon is one of the lower-ranking members of the demon
+    race, barely above the dretch in power but remarkably more ambitious and
+    intelligent than its pudgy lesser kin. They wriggle and crawl in nauseating
+    numbers in many Abyssal battlefields or graveyards, impatiently awaiting a
+    chance to find a humanoid body to inhabit. Outside of a host body, a vermlek
+    appears like a fatheaded worm with four long tails, each of which ends in a
+    wriggling nest of long filaments. In this form, the vermlek cannot wield
+    weapons, and its bite and spell-like abilities are its only offensive
+    options. A typical vermlek is 7 feet long (with its filaments giving it a
+    further 3 feet of length) and weighs 90 pounds.
+  - >-
+    Ecology Vermleks form from the souls of those who habitually violated the
+    dead in life, such as graverobbers, necromancers, and necrophiles.
+  - >-
+    On the Abyss, the vermleks are countless in number. A single sinful soul can
+    spawn dozens if not hundreds of these demons in much the same way that the
+    body the soul leaves behind spawns maggots. A newly formed vermlek can flop
+    and writhe through the stinking Abyssal necropolises and swamps and
+    boneyards for eons before it finds a body to inhabit, but it's much more
+    common for a vermlek to be "harvested" by a more powerful demon for use in a
+    battle. Vermleks harvested in this manner are carried in huge steel cages on
+    the backs of enormous fiendish beasts of burden, such as retrievers, and
+    either sold to powerful Material Plane spellcasters or used in battle
+    against humanoid foes. The classic use for vermleks in such cases is to open
+    the cages containing the worm demons after an initial skirmish or battle so
+    that they can slither out onto the battlefield and claim bodies from the
+    dead, thus recycling the carrion for use in the next battle to come. As
+    vermleks can only inhabit the bodies of humanoids, this tactic isn't as
+    common on the Abyss (where demons typically fight themselves or other
+    outsiders), but in regions of Golarion where demons hold sway, such as the
+    Worldwound or Tanglebriar, their use can be a particularly demoralizing form
+    of psychological combat.
+  - >-
+    The process by which a vermlek inhabits and controls a dead humanoid is
+    partially biological, partially necromantic.
+  - >-
+    A vermlek's body is boneless and exceptionally elastic-it can wriggle into a
+    body through the mouth, a wound, or any other opening in less than a minute,
+    eating the bones and organs within with noisy rapidity. It then settles into
+    the cavity thus created, extending its four tails down into the torso and
+    eventually into the hollowed arms and legs of its host, whereupon the
+    filaments at the tips of these tails weave through nerves and muscle like a
+    puppet's strings.
+  - >-
+    The vermlek can immediately use the body to move about, wield weapons,
+    speak, and otherwise interact with society.
+  - >-
+    The creature can control the coiling and wriggling of its body to keep its
+    host appearing humanoid, but it can do little about the size of its
+    body-humanoids inhabited by a vermlek always look hideously obese. Worse,
+    the host body, which remains dead, rots normally-a vermlek that does not
+    maintain its body's freshness with gentle repose must abandon the rotting
+    flesh 7 days after inhabiting it to seek out a new host.
+  - >-
+    Vermleks know that a keen eye that peers into the mouth of a host can
+    quickly undo their deceptions, and as a result they tend to mutter or mumble
+    when speaking to keep from opening their mouths too wide. Many use veils,
+    helms, or scarves to hide their mouths. When confronted in combat, though, a
+    vermlek in a host body quickly abandons its disguise, extending its hideous
+    worm head out through the host's mouth to give itself a secondary bite
+    attack-doing so ruins the host body for further disguise purposes.
+  - >-
+    Habitat & Society Vermleks can often be found at the sites of vast
+    battlefields on the Abyss where wars with humanoids (fiendish, celestial, or
+    otherwise) have occurred. These sites are particularly common on Kurnugia,
+    where the fiendish gnolls of Lamashtu constantly bicker and war with one
+    another, and on Ishiar, where the fiendish human pirates and scoundrels that
+    dwell upon that ocean's islands wage eternal war. These demons generally
+    spawn in Abyssal realms like Everglut, Uligor, and the Spiral Path, where
+    demon lords associated with the dead or worms rule, and they can be found in
+    great number in those regions' vast graveyards and necropolises.
+  - >-
+    Although they are often used as disposable infantry in mass battles,
+    vermleks themselves have little taste for such activities and, left to their
+    own desires, prefer to live in hiding among humanoids on the Material Plane
+    if they can find their way into that realm. A vermlek fortunate enough to
+    find itself on the Material Plane enjoys disguising itself as a laborer,
+    gravedigger, dungsweeper, or any other lowclass role in which it can blend
+    in while still having access to the city's dead. A vermlek's ghoulish and
+    taboo lusts are only magnified by its creation, and on the Material Plane,
+    the arrival of one of these filthy demons in a society almost always
+    presages a sudden upswing in scandalously violent or distasteful crime.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1076'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

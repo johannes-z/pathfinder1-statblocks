@@ -1,0 +1,99 @@
+Name: Zadendi
+CR: '5'
+XP: '1600'
+Race: half-elf
+Class: cleric of Shax 5/rogue 1
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +8
+AC: 20, touch 15, flat-footed 17
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 dodge, +1 shield)
+HP: '49'
+HD: (6d8+23)
+Saves: Fort +6, Ref +5, Will +6; +2 vs. enchantment
+Fort: '6'
+Ref: '5'
+Will: '6'
+Save_Mods: +2 vs. enchantment
+Speed: 30 ft.
+Melee:
+  - +1 dagger +8 (1d4+4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 3/day (DC 12, 3d6), destructive smite (+2, 5/day),
+  sneak attack +1d6
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; concentration +7)
+  values:
+    - label: 5/day
+      value: inspiring word (2 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 5th; concentration +7)   3rd-animate dead, magic
+  vestmentD, searing light   2nd-cure moderate wounds, enthrallD (DC 14), hold
+  person (DC 14), silence (DC 14), spiritual weapon   1st-cause fear (DC 13),
+  cure light wounds, divine favorD, obscuring mist, shield of faith   0 (at
+  will)-bleed (DC 12), detect magic, guidance, light
+SpellDomains: Destruction, Nobility
+AbilityScores:
+  - 16
+  - 14
+  - 15
+  - 8
+  - 14
+  - 10
+BaseAtk: '3'
+CMB: '6'
+CMD: '19'
+Feats:
+  - Dodge
+  - Skill Focus (Stealth)
+  - Power Attack
+  - Toughness
+Skills:
+  - Bluff +8
+  - Knowledge (nobility) +3
+  - Knowledge (religion) +6
+  - Perception +8
+  - Stealth +12
+Languages:
+  - Common
+SQ: profane gift (+2 Con from Avalexi), trapfinding +1
+Source: Dawn Of The Scarlet Sun
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Zadendi casts magic vestment and shield of faith on herself.
+DuringCombat: >-
+  Zadendi is expecting a single target, and does her best to quickly slay that
+  target as long as she believes her victim to be alone.
+Morale: >-
+  As soon as Zadendi realizes that she's been ambushed, she backs out of the
+  alley (and out of the area of the silence) as soon as she can in order to use
+  her magic. She continues her fighting retreat until brought below 20 hit
+  points, at which point she puts all of her energy into escaping. Clever PCs
+  can let her "escape," and if they do, they can trail her all the way to the
+  shrine if the Scarlet Son has fled already (thus forcing Zadendi to flee on
+  foot).
+Gear: >-
+  masterwork studded leather, buckler, +1 dagger, cloak of elvenkind, brass key
+  in the shape of a holy symbol of Sarenrae (key to the Old Shrine)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3091'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

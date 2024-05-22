@@ -1,0 +1,112 @@
+Name: Geryon Cultist
+CR: '9'
+XP: '6400'
+Race: Human
+Class: cleric of Geryon 3/monk 7
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +13
+AC: 25, touch 20, flat-footed 22
+AC_Mods: (+2 deflection, +2 Dex, +1 dodge, +3 monk, +5 natural, +2 Wis)
+HP: '85'
+HD: (10d8+37)
+Saves: Fort +10, Ref +8, Will +10; +2 vs. enchantments
+Fort: '10'
+Ref: '8'
+Will: '10'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: evasion, Geryon's blessing
+Immune: disease
+Speed: 50 ft.
+Melee:
+  - unarmed strike +13/+8 (2d6+5)
+  - unarmed strike flurry of blows +13/+13/+8 (2d6+5)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 2/day (DC 10, 2d6), flurry of blows, stunning fist
+  (8/day, DC 17)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 3rd; concentration +5)
+  values:
+    - label: 5/day
+      value: icicle (1d6+1 cold), strength surge (+1)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-bull's strengthD, cure
+  moderate wounds, silence (DC 14)   1st-cure light wounds (2), enlarge personD
+  (DC 13), shield of faith   0 (at will)-bleed (DC 12), create water, detect
+  magic, mending
+SpellDomains: Strength, Water
+AbilityScores:
+  - 20
+  - 14
+  - 14
+  - 10
+  - 14
+  - 8
+BaseAtk: '7'
+CMB: +14 (+16 disarm, +16 trip)
+CMD: 32 (34 vs. disarm, 34 vs. trip)
+Feats:
+  - Combat Reflexes
+  - Deflect Arrows
+  - Dodge
+  - Extra Ki
+  - Improved Disarm
+  - Improved Trip
+  - Improved Unarmed Strike
+  - Mobility
+  - Stunning Fist
+  - Toughness
+  - Weapon Focus (unarmed strike)
+Skills:
+  - Acrobatics +13
+  - Knowledge (arcana) +8
+  - Knowledge (history) +8
+  - Knowledge (planes) +8
+  - Knowledge (religion) +8
+  - Perception +13
+  - Stealth +13
+Languages:
+  - Common
+SQ: >-
+  fast movement, high jump, ki pool (7 points; cold iron, magic, silver),
+  maneuver training, slow fall 30 ft., wholeness of body (7 hit points)
+Source: AP 107
+IsTemplate: '0'
+SpecialAbilities:
+  - name: s Blessing (Ex)
+    description: >-
+      The cultists' infernal patron, Geryon, has blessed them with thick, scaly
+      skin, granting them a +5 natural armor bonus.
+BeforeCombat: >-
+  The cultists cast bull's strength and shield of faith on themselves before
+  entering combat.
+DuringCombat: >-
+  The cultists open combat by each attempting to cast silence on PCs, starting
+  with obvious spellcasters. They then move in to attack in melee, using
+  Stunning Fist on their first attack each round and making disarm attempts on
+  their second attack each round if facing foes who wield weapons. When a
+  cultist is reduced to 25 or fewer hit points, he retreats from battle to cast
+  healing magic on himself before returning to the fight.
+Morale: Cultists of Geryon fight to the death.
+Gear: monk's robe
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8440'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

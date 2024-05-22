@@ -1,0 +1,128 @@
+Name: Rezlarabren
+CR: '11'
+XP: '12800'
+Race: adult brine dragon
+Alignment: LN
+Size: Large
+Type: dragon
+SubType: (extraplanar, water)
+Init: '4'
+Senses:
+  - dragon senses
+  - Perception +20
+Aura: frightful presence (180 ft., DC 20)
+AC: 27, touch 9, flat-footed 27
+AC_Mods: (+18 natural, -1 size)
+HP: '147'
+HD: (14d12+56)
+Saves: Fort +13, Ref +11, Will +14
+Fort: '13'
+Ref: '11'
+Will: '14'
+DR: 5/magic
+Immune: acid, dragon traits, paralysis, sleep
+SR: '22'
+Speed: 60 ft., fly 200 ft. (poor), swim 60 ft.
+Melee:
+  - >-
+    bite +23 (2d6+15), 2 claws +23 (1d8+10), tail slap +18 (1d8+15), 2 wings +18
+    (1d6+5)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (80-ft. line, 12d6 acid damage, Reflex DC 21 half, usable every
+  1d4 rounds)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +17)
+  values:
+    - label: At Will
+      value: >-
+        control water, obscuring mist, speak with animals (fish only), water
+        breathing
+SpellsKnown:
+  header: Spells Known (CL 7th; concentration +10)
+  values:
+    - label: 3rd (5/day)
+      value: aqueous orbAPG (DC 16), sleet storm (DC 16)
+    - label: 2nd (7/day)
+      value: alter self, invisibility, slipstreamAPG
+    - label: 1st (7/day)
+      value: >-
+        color spray (DC 14), feather fall, flare burstAPG (DC 14), ray of
+        enfeeblement (DC 14), touch of the seaAPG
+    - label: 0 (at will)
+      value: >-
+        detect magic, detect poison, mage hand, open/ close, prestidigitation,
+        read magic, resistance
+AbilityScores:
+  - 30
+  - 11
+  - 19
+  - 19
+  - 16
+  - 17
+BaseAtk: '14'
+CMB: '25'
+CMD: 35 (39 vs. trip)
+Feats:
+  - Hover
+  - Improved Initiative
+  - Improved Vital Strike
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Bluff +20
+  - Diplomacy +20
+  - Fly +11
+  - Heal +20
+  - Knowledge (arcana) +21
+  - Knowledge (nature) +21
+  - Perception +20
+  - Sense Motive +20
+  - Survival +20
+  - Swim +35
+Languages:
+  - Aquan
+  - Azlanti
+  - Common
+  - Draconic
+  - Skald
+SQ: water breathing
+Source: Dragons Unleashed
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  In an effort to keep the exact location of her lair hidden from outsiders,
+  Rezlarabren often patrols its outskirts, hoping to preemptively strike against
+  enemies. If she sees a viking ship or detects the presence of a dragonslayer,
+  she casts invisibility to approach undetected.
+DuringCombat: >-
+  Once she has initially wounded her quarries with an initial attack using
+  aqueous orb, sleet storm, or her breath weapon (if her foes were lined up for
+  such an attack), Rezlarabren fights with a furious vengeance, targeting a
+  single opponent at a time until all her enemies are dead, only relenting if
+  surrounded. She prefers to fight while hovering to make such brief retreats
+  possible, but isn't afraid to alight on a ship's deck if it means she can more
+  quickly dispatch her foes.
+Morale: >-
+  If reduced to fewer than half of her hit points, Rezlarabren attempts to
+  escape and return to her lair. However, if fighting vikings from the Lands of
+  the Linnorm Kings, she becomes more enraged with each successive wound and
+  fights fiercely to the death if necessary.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '4459'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

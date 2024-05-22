@@ -1,0 +1,165 @@
+Name: Isawyn
+CR: '10'
+XP: '9600'
+Race: human
+Class: bard (Chelish diva) 10
+MonsterSource: Pathfinder Campaign Setting Inner Sea Magic 32
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +0
+AC: 22, touch 13, flat-footed 19
+AC_Mods: (+7 armor, +2 Dex, +1 dodge, +2 shield)
+HP: '108'
+HD: (10d8+60)
+Saves: >-
+  Fort +7, Ref +9, Will +9; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '7'
+Ref: '9'
+Will: '9'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - +1 keen rapier +10/+5 (1d6+2/15-20)
+Ranged:
+  - mwk composite shortbow +10/+5 (1d6+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 26 rounds/day (move action, countersong, devastating aria,
+  distraction, fascinate, inspire courage +2, inspire greatness, scathing
+  tirade, suggestion)
+SpellsKnown:
+  header: Bard Spells Known (CL 10th; concentration +14)
+  values:
+    - label: 4th (2/day)
+      value: dimension door, dominate person (DC 18)
+    - label: 3rd (4/day)
+      value: confusion (DC 17), crushing despair (DC 17), dispel magic, haste
+    - label: 2nd (5/day)
+      value: >-
+        cure moderate wounds, detect thoughts (DC 16), invisibility, sound burst
+        (DC 16), whispering wind
+    - label: 1st (6/day)
+      value: >-
+        animate rope, cure light wounds, disguise self (DC 15), unseen servant,
+        ventriloquism (DC 15)
+    - label: 0 (at will)
+      value: light, mage hand, mending, open/close, prestidigitation, read magic
+AbilityScores:
+  - 12
+  - 14
+  - 18
+  - 8
+  - 10
+  - 18
+BaseAtk: '7'
+CMB: '8'
+CMD: '21'
+Feats:
+  - Arcane Strike
+  - Dodge
+  - Iron Will
+  - Skill Focus (Perform [sing])
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +17
+  - Bluff +23
+  - Fly +17
+  - Diplomacy +17
+  - Intimidate +17
+  - Knowledge (local) +7
+  - Knowledge (nobility) +7
+  - Linguistics +6
+  - Perform (dance) +17
+  - Perform (oratory) +17
+  - Perform (sing) +23
+  - Sense Motive +23
+  - Sleight of Hand +11
+Languages:
+  - Common
+  - Gnome
+  - Goblin
+  - Infernal
+  - Polyglot
+SQ: >-
+  costume proficiency, famous, jack-of-all-trades (use any skill), prima donna,
+  versatile performance (sing, dance, oratory)
+Source: AP 59
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Devastating Aria (Su)
+    description: >-
+      By spending 1 round of bardic performance as a standard action, Isawyn can
+      direct a burst of sound at a target within 30 feet. This deals 1d4+10
+      points of sonic damage to an object, or half this amount to a living
+      creature. Bardic Performance&#8211;Scathing
+  - name: Tirade (Su)
+    description: >-
+      To affect a creature with a scathing tirade, Isawyn must be within 30 feet
+      of the target, who must be able to see and hear her. The targeted creature
+      becomes frightened (Will DC 19 reduces the effect to the shaken condition)
+      for as long as Isawyn continues the performance plus 1d4 rounds. This is a
+      mind-affecting fear effect.
+  - name: Costume Proficiency (Ex)
+    description: >-
+      Isawyn is proficient with medium armor and can cast bard spells while
+      wearing medium armor without incurring arcane spell failure chance.
+  - name: Famous (Ex)
+    description: >-
+      Isawyn gains a +3 bonus on Bluff and Intimidate checks made in and around
+      certain parts of central Cheliax&#8211;this ability is of little use to
+      her at this time.
+  - name: Prima Donna (Ex)
+    description: >-
+      Isawyn can expend an extra round of bardic performance to gain a +2 bonus
+      on Perform checks or save DCs to her countersong, fascinate, and scathing
+      tirade bardic performances.
+Gender: Female
+BeforeCombat: >-
+  Isawyn casts unseen servant at the start of every day. She drinks a potion of
+  bear's endurance just before combat.
+DuringCombat: >-
+  Isawyn activates her bardic performance to inspire courage, then casts
+  invisibility and uses haste and healing magic to aid Gorebeard and any
+  summoned monsters. She uses her unseen servant to open and close doors, pick
+  up fallen weapons, and otherwise do small tasks during combat to keep
+  opponents on their toes and force them to waste time with move actions to
+  counter these minor inconveniences. She targets the most heavily armored foe
+  with dominate person and orders that person to strip out of his armor, drop
+  his weapons, and then stand patiently in the corner of the room. If the battle
+  turns bad, she risks ordering the dominated person to attack her enemies with
+  his bare hands. If a foe looks like he's only a few points away from being
+  knocked unconscious, Isawyn uses devastating aria to try to knock him out with
+  the damage it causes.
+Morale: >-
+  Isawyn doesn't want to die here; she casts dimension door to escape into the
+  surrounding slums if reduced to fewer than 15 hit points. Isawyn holds
+  grudges, however, and having heard of the PCs' infamous grudge against
+  Harrigan, she seeks him out and joins him in defending his island if she can
+  escape.
+Gear: potions of bear's endurance (2)
+OtherGear: >-
+  +1 glamered breastplate, +1 buckler, +1 keen rapier, masterwork composite
+  shortbow with 20 arrows, spell component pouch, 92 pp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: Chelish diva
+CompanionFamiliarLink: '0'
+id: '3148'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

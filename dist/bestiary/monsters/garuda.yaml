@@ -1,0 +1,124 @@
+Name: Garuda
+CR: '9'
+XP: '6400'
+Alignment: CG
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +20
+AC: 19, touch 15, flat-footed 14
+AC_Mods: (+5 Dex, +4 natural)
+HP: '115'
+HD: (11d10+55)
+Saves: Fort +8, Ref +12, Will +9
+Fort: '8'
+Ref: '12'
+Will: '9'
+DR: 10/evil or magic
+SR: '21'
+Speed: 30 ft., fly 80 ft. (good)
+Melee:
+  - >-
+    bite +16 (1d6+3), 2 claws +16 (1d4+3), 2 talons +16 (1d4+3), 2 wings +11
+    (1d4+1)
+Ranged:
+  - +1 shock longbow +17/+12/+7 (1d8+4/x3 plus 1d6 electricity)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hatred, swooping pounce, talon or wing
+SpellsKnown:
+  header: Spells Known (CL 7th; concentration +10)
+  values:
+    - label: 3rd (5/day)
+      value: displacement, haste
+    - label: 2nd (7/day)
+      value: alter self, protection from arrows, see invisibility
+    - label: 1st (7/day)
+      value: grease (DC 14), mage armor, shield, shocking grasp, true strike
+    - label: 0 (at will)
+      value: >-
+        detect magic, detect poison, light, mage hand, mending, message,
+        prestidigitation
+AbilityScores:
+  - 16
+  - 21
+  - 20
+  - 15
+  - 14
+  - 17
+BaseAtk: '11'
+CMB: '14'
+CMD: '29'
+Feats:
+  - Deadly Aim
+  - Manyshot
+  - Point-Blank Shot
+  - Power Attack
+  - Precise Shot
+  - Rapid Shot
+  - Weapon FinesseB
+Skills:
+  - Acrobatics +19
+  - Fly +23
+  - Intimidate +21
+  - Perception +20
+  - Sense Motive +20
+  - Spellcraft +13
+  - Stealth +19
+  - Survival +13
+RacialMods: +4 Intimidate, +4 Perception, +4 Sense Motive
+Languages:
+  - Common
+  - Garuda
+Environment: tropical hills and mountains
+Organization: solitary, pair, or aerie (3-6)
+Treasure: double (+1 shock composite longbow [+3 Str], other treasure)
+Description_Visual: >-
+  This winged creature has clawed hands and bird's talons. Large, glinting eyes
+  and a serrated beak dominate its avian face.
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Hatred (Ex)
+    description: >-
+      Garudas receive a +1 racial bonus on attack and damage rolls against nagas
+      and other serpentine monsters of the aberration type. Spells Garudas cast
+      spells as 7th-level sorcerers.
+  - name: Swooping Pounce (Ex)
+    description: >-
+      When a garuda makes a diving aerial charge, it can make a full attack with
+      its natural weapons.
+  - name: Talon or Wing (Ex)
+    description: >-
+      A garuda cannot use its wing attacks while flying, and cannot use its
+      talon attacks while not flying.
+Description:
+  - >-
+    Garudas are noble, birdlike creatures that inhabit rugged hills. While they
+    remain detached from humanoid societies, they are impetuous and gallant,
+    often serving as protectors of nearby communities.
+  - >-
+    Most garudas stand around 6 feet tall with a wingspan of 15 feet and weigh
+    approximately 150 pounds.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2072'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

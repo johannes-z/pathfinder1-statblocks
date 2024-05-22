@@ -1,0 +1,64 @@
+Name: Wolf
+CR: '1'
+XP: '400'
+Race: Wolf
+Alignment: 'N'
+Size: Medium
+Type: animal
+Init: '2'
+Senses:
+  - low-light vision, scent
+  - Perception +8
+AC: 14, touch 12, flat-footed 12
+AC_Mods: (+2 Dex, +2 natural)
+HP: '13'
+HD: (currently 11, 2d8+4)
+Saves: Fort +5, Ref +5, Will +1
+Fort: '5'
+Ref: '5'
+Will: '1'
+Speed: 50 ft.
+Melee:
+  - bite +2 (1d6+1 plus trip)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 13
+  - 15
+  - 15
+  - 2
+  - 12
+  - 6
+BaseAtk: '1'
+CMB: +2 (+6 trip)
+CMD: 14 (18 vs. trip)
+Feats:
+  - Skill Focus (Perception)
+Skills:
+  - Perception +8
+  - Stealth +6
+  - Survival +1 (+5 scent tracking)
+RacialMods: +4 when tracking by scent
+Source: Crypt Of The Everflame
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Trip (Ex)
+    description: >-
+      A wolf can attempt to trip its opponent as a free action without provoking
+      an attack of opportunity if it hits with its bite. If the attempt fails,
+      the wolf is not tripped in return.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4045'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

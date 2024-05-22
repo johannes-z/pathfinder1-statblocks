@@ -1,0 +1,167 @@
+Name: Asmoden
+CR: '13'
+XP: '25600'
+Race: huecuva
+Class: oracle 11
+MonsterSource: >-
+  Pathfinder RPG Bestiary 4 60, Pathfinder RPG Bestiary 3 150, Pathfinder RPG
+  Advanced Player's Guide 42
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '8'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft., low-light vision
+  - Perception +24
+Aura: faithlessness (30 ft.)
+AC: 29, touch 18, flat-footed 25
+AC_Mods: (+8 armor, +4 deflection, +4 Dex, +3 natural)
+HP: '200'
+HD: (14d8+138)
+HP_Mods: fast healing 5
+Saves: >-
+  Fort +12, Ref +10, Will +15; +2 vs. channel and positive energy effects; +6
+  vs. channeled positive energy
+Fort: '12'
+Ref: '10'
+Will: '15'
+Save_Mods: +2 vs. channel and positive energy effects+6 vs. channeled positive energy
+DefensiveAbilities: ability healing
+DR: 5/magic or silver
+Immune: undead traits
+SR: '23'
+Weaknesses: missing arm
+Speed: 60 ft.
+Melee:
+  - +2 human-bane mithral longsword +22/+17 (1d8+11/17-20 plus 2d6 vs. human)
+  - claw +14 (1d4+7 plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: disease
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +9)
+  values:
+    - label: At Will
+      value: dimension door (within sacred site only)
+    - label: 3/day
+      value: alarm, knock
+    - label: 1/day
+      value: >-
+        arcane lock, augury, clairaudience/clairvoyance, commune, dismissal (DC
+        21), forbiddance, guards and wards, hold portal
+SpellsKnown:
+  header: Oracle Spells Known (CL 11th; concentration +17)
+  values:
+    - label: 5th (5/day)
+      value: >-
+        flame strike (DC 21), mass inflict light wounds (DC 21), slay living (DC
+        21), spell resistance
+    - label: 4th (7/day)
+      value: >-
+        fear (DC 20), freedom of movement, inflict critical wounds (DC 20),
+        order's wrath (DC 20), poison (DC 20)
+    - label: 3rd (7/day)
+      value: >-
+        animate dead, blindness/deafness (DC 19), contagion (DC 19), deeper
+        darkness, dispel magic, inflict serious wounds (DC 19)
+    - label: 2nd (8/day)
+      value: >-
+        bull's strength, death knell (DC 18), false life, hold person (DC 18),
+        inflict moderate wounds (DC 18), silence (DC 18), sound burst (DC 18)
+    - label: 1st (8/day)
+      value: >-
+        cause fear (DC 17), command (DC 17), divine favor, doom (DC 17), inflict
+        light wounds (DC 17), sanctuary (DC 17), shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 16), detect magic, guidance, light, mending, read magic,
+        resistance, stabilize, virtue
+AbilityScores:
+  - 19
+  - 18
+  - —
+  - 6
+  - 16
+  - 22
+BaseAtk: '10'
+CMB: '19'
+CMD: '32'
+Feats:
+  - Command Undead
+  - Extend Spell
+  - Improved Critical (longsword)
+  - Improved Initiative
+  - Martial Weapon Proficiency (longsword)
+  - Quicken Spell
+  - Weapon Focus (claw)
+  - Weapon Focus (longsword)
+Skills:
+  - Acrobatics +4 (+16 to jump)
+  - Linguistics +0
+  - Perception +24
+  - Perform (percussion instruments) +19
+  - Sense Motive +8
+  - Spellcraft +6
+  - Survival +9
+RacialMods: +5 Perception, +5 Sense Motive
+Languages:
+  - Common
+  - Infernal
+  - Necril
+SQ: >-
+  blessed life, divine swiftness, false humanity, oracle's curse (clouded
+  vision), revelations (armor of bones, bleeding wounds, death's touch, undead
+  servitude), sacred site
+Source: AP 100
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Missing Arm (Ex)
+    description: >-
+      Asmoden is missing his left arm, and thus must drop or sheathe his
+      longsword in order to make claw attacks. He can use Still Spell to cast
+      spells while wielding his sword. During any round in which Asmoden's
+      missing arm is visible to him, the huecuva must succeed at a DC 25 Will
+      save to avoid being staggered. If a PC forcefully presents the arm to
+      Asmoden (this is a move action), the huecuva takes a -5 penalty on this
+      Will save that round. If Asmoden reclaims his arm, it reattaches
+      instantly; he not only loses this special weakness, but also is healed of
+      4d6+20 points of damage and gains a second claw attack.
+Gender: Male
+BeforeCombat: >-
+  Asmoden casts spell resistance, false life, desecrate (the possessed bells
+  function as an altar for this spell's effects), bull's strength, and shield of
+  faith before combat&#8211;most likely as soon as he sees the wall of force or
+  hellfire column below deactivate because one or both infernal engines have
+  shut down. He also activates his armor of bones ability before combat.
+DuringCombat: >-
+  Asmoden casts quickened divine favor on the first round of combat (these
+  effects are included in his statistics above). On following rounds, he uses
+  Quicken Spell as needed to cast any other before-combat spells he hasn't yet
+  cast. He prefers to hang back to cast spells at range, but if forced into
+  melee, he uses Power Attack and focuses his wrath on human foes if possible.
+  He casts mass inflict light wounds whenever a herecite is brought below 30 hit
+  points to heal his allies or harm intruders. If brought below 50 hit points,
+  he casts sanctuary and uses inflict spells to heal himself before returning to
+  combat.
+Morale: >-
+  Asmoden fights until destroyed, confident that the Devil's Bells will
+  rejuvenate him (see Development below).
+Gear: crown of swords
+OtherGear: +2 human-bane mithral longsword, 985 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: divine guardian|
+AgeCategory: Adult
+Mystery: bones
+CompanionFamiliarLink: '0'
+id: '7522'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,128 @@
+Name: Young Magma Dragon
+CR: '8'
+XP: '4800'
+Alignment: CN
+Size: Medium
+Type: dragon
+SubType: (extraplanar, fire)
+Init: '6'
+Senses:
+  - dragon senses
+  - Perception +14
+AC: 22, touch 12, flat-footed 20
+AC_Mods: (+2 Dex, +10 natural)
+HP: '85'
+HD: (9d12+27)
+Saves: Fort +11, Ref +8, Will +10
+Fort: '11'
+Ref: '8'
+Will: '10'
+Immune: fire, paralysis, sleep
+Weaknesses: vulnerable to cold
+Speed: 40 ft., fly 150 ft. (average)
+Melee:
+  - bite +17 (1d8+12 plus 3 fire), 2 claws +17 (1d6+8), 2 wings +12 (1d4+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: breath weapon (30-ft. cone, 6d6 fire, DC 17)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +10)
+  values:
+    - label: At Will
+      value: burning hands (DC 12)
+SpellsKnown:
+  header: Spells Known (CL 1st; concentration +2)
+  values:
+    - label: 1st (4/day)
+      value: flare burst* (DC 12), grease (DC 12)
+    - label: 0 (at will)
+      value: bleed (DC 11), detect magic, open/close, spark*
+AbilityScores:
+  - 21
+  - 14
+  - 17
+  - 14
+  - 14
+  - 13
+BaseAtk: '9'
+CMB: '14'
+CMD: 26 (30 vs. trip)
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Acrobatics +11 (+15 jump)
+  - Climb +17
+  - Fly +14
+  - Intimidate +13
+  - Perception +14
+  - Sense Motive +14
+  - Stealth +14
+  - Swim +17
+Languages:
+  - Common
+  - Draconic
+  - Ignan
+SQ: superheated
+Environment: any mountains or underground (Plane of Fire)
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  Between this dragon's jet-black scales run glowing rivulets of lava, and veins
+  aglow with heat shine in the membranes of its wings.
+Group: Primal Dragon
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Magma Tomb (Su)
+    description: >-
+      Once per day, a great wyrm magma dragon can spit lava onto a target within
+      120 feet, dealing damage normally for its breath weapon. This magma cools
+      instantly-it does not continue doing damage at this point but does entrap
+      the victim (see universal monster rules in appendix; DC equals the
+      dragon's breath weapon save DC, 3d6 minutes, hardness 8, hp 45).
+  - name: Magma Breath (Su)
+    description: >-
+      Three times per day, an ancient or older magma dragon can breathe a cone
+      of lava instead of fire. The damage is unchanged, but the magma clings to
+      those it damages, dealing half damage each round thereafter for 1d3
+      rounds. After this magma cools, it crumbles to dust. Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      A magma dragon gains the following spell-like abilities, usable at will
+      (unless indicated otherwise) on reaching the listed age category. Very
+      young-burning hands; Juvenile-scorching ray; Adult- wall of fire; Old-fire
+      shield (warm shield, constant); Ancient-delayed blast fireball (3/day);
+      Great wyrm-wall of lava*.
+  - name: Superheated (Su)
+    description: >-
+      At young age and older, a magma dragon's bite attack deals additional fire
+      damage equal to its age category.
+Description:
+  - >-
+    Temperamental and prone to violent outbursts, magma dragons are regarded by
+    most other dragons as dangerously insane-an assumption that, more often than
+    not, proves correct. One can rarely predict a magma dragon's state of mind
+    until it either attacks or attempts to engage in conversation. For their
+    part, magma dragons can justify all of their actions-they just rarely feel
+    the need to do so.
+Note: '* This spell is from the Pathfinder RPG Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: young
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Young Magma Dragon
+id: '1179'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

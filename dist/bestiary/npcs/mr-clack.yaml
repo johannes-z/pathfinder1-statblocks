@@ -1,0 +1,82 @@
+Name: Mr. Clack
+CR: '12'
+XP: '19200'
+Race: spiny eurypterid
+MonsterSource: 'Pathfinder #37 78'
+Alignment: 'N'
+Size: Huge
+Type: vermin
+SubType: (aquatic)
+Init: '6'
+Senses:
+  - low-light vision, tremorsense 30 ft.
+  - Perception +3
+AC: 27, touch 10, flat-footed 25
+AC_Mods: (+2 Dex, +17 natural, -2 size)
+HP: '184'
+HD: (16d8+112)
+Saves: Fort +17, Ref +7, Will +8
+Fort: '17'
+Ref: '7'
+Will: '8'
+DefensiveAbilities: spiny carapace
+Immune: mind-affecting effects
+Speed: 10 ft., swim 40 ft.
+Melee:
+  - 2 claws +20 (2d6+10/19-20), sting +20 (1d6+10 plus poison)
+Space: 15 ft.
+Reach: 15 ft. (20 ft. with sting)
+SpecialAttacks: rend (2 claws, 2d6+15)
+AbilityScores:
+  - 30
+  - 14
+  - 24
+  - —
+  - 17
+  - 6
+BaseAtk: '12'
+CMB: '24'
+CMD: 36 (48 vs. trip)
+Feats:
+  - Improved Critical (claws)B
+  - Improved Initiative B
+  - Improved Natural Attack (claws) B
+Skills:
+  - Swim +18
+SQ: amphibious
+Source: AP 59
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 25; frequency 1/round for 6 rounds; effect 1d4
+      Con and 1d2 Dex; cure 2 consecutive saves.
+  - name: Spiny Carapace (Ex)
+    description: >-
+      Any creature that attacks Mr. Clack with a light weapon, unarmed strike,
+      or natural attack takes 1d6 points of piercing damage from the
+      eurypterid's spiny carapace. A creature that grapples or is grappled by
+      Mr. Clack takes 2d6 points of piercing damage per round the grapple is
+      maintained.
+DuringCombat: >-
+  Mr. Clack attacks anyone it notices approaching its den. Note that anyone who
+  climbs down into the sinkhole (or, for that matter, bumps the edge of the
+  railing) is in reach of the eurypterid's sting attack. With its tremorsense,
+  Mr. Clack can lash out through the hole at anyone in or adjacent to area D9a.
+Morale: Mr. Clack is too big to pursue foes out of it den. It fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3163'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,91 @@
+Name: Bandit Scout
+CR: '2'
+XP: '600'
+Race: Human
+Class: rogue 3
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '3'
+Senses:
+  - Perception +9
+AC: 15, touch 13, flat-footed 12
+AC_Mods: (+2 armor, +3 Dex)
+HP: '20'
+HD: (3d8+3)
+Saves: Fort +2, Ref +6, Will +1
+Fort: '2'
+Ref: '6'
+Will: '1'
+DefensiveAbilities: evasion, trap sense +1
+Speed: 30 ft.
+Melee:
+  - dagger +3 (1d4+1/19-20)
+Ranged:
+  - mwk composite shortbow +6 (1d6+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +2d6
+AbilityScores:
+  - 13
+  - 17
+  - 12
+  - 14
+  - 10
+  - 8
+BaseAtk: '2'
+CMB: '3'
+CMD: '16'
+Feats:
+  - Point-Blank Shot
+  - Skill Focus (Perception)
+  - Stealthy
+Skills:
+  - Acrobatics +9
+  - Appraise +8
+  - Bluff +5
+  - Climb +9
+  - Disable Device +11
+  - Disguise +5
+  - Escape Artist +11
+  - Knowledge (local) +8
+  - Perception +9
+  - Sleight of Hand +9
+  - Stealth +11
+  - Swim +7
+Languages:
+  - Common
+  - Elven
+  - Halfling
+SQ: rogue talents (surprise attack), trapfinding +1
+Source: PFS S3-04
+IsTemplate: '0'
+BeforeCombat: >-
+  If combat looks imminent, the scouts hiding in the trees drink their potions
+  of feather fall.
+DuringCombat: >-
+  The scouts concentrate ranged fire on flatfooted PCs during the first few
+  rounds of combat. If no flat-footed targets remain, they switch to their
+  daggers and move to flank the PCs.
+Morale: The bandits flee if Urso is slain.
+Gear: potion of feather fall, potion of pass without trace, tanglefoot bag
+OtherGear: >-
+  leather armor, dagger, masterwork composite shortbow with 20 arrows, universal
+  solvent, climber's kit, , grappling hook, silk rope (50. ft), masterwork
+  thieves' tools, 53 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5866'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

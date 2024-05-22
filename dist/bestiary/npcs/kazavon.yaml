@@ -1,0 +1,152 @@
+Name: Kazavon
+CR: '25'
+XP: '1638400'
+Race: human
+Class: fighter 1/eldritch knight 4
+MonsterSource: Pathfinder RPG Bestiary 294, 94
+Alignment: LE
+Size: Medium
+Type: dragon
+SubType: (earth)
+Init: '5'
+Senses:
+  - Perception +43
+AC: 36, touch 20, flat-footed 31
+AC_Mods: (+11 armor, +5 deflection, +5 Dex, +5 natural)
+HP: '441'
+HD: (33 HD; 5d10+28d12+232)
+Saves: Fort +27, Ref +22, Will +26
+Fort: '27'
+Ref: '22'
+Will: '26'
+DefensiveAbilities: death transformation, fortification 75%
+DR: 20/magic
+SR: '36'
+Speed: 30 ft.
+Melee:
+  - >-
+    +5 keen unholy wounding adamantine spiked chain +50/+45/+40/+35
+    (2d4+21/19-20)
+  - +5 wounding armor spikes +49/+44/+39/+34 (1d6+16)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 28th; concentration +38)
+  values:
+    - label: At Will
+      value: >-
+        create water, ghost sound (DC 20), hallucinatory terrain (DC 24), minor
+        image (DC 22), mirage arcana (DC 25), veil (DC 26), ventriloquism (DC
+        21)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 20th; concentration +30)
+  values:
+    - label: 9th (7/day)
+      value: gate, shapechange, time stop
+    - label: 8th (7/day)
+      value: binding (DC 28), demand (DC 28), maze
+    - label: 7th (7/day)
+      value: plane shift (DC 27), project image (DC 27), greater teleport
+    - label: 6th (8/day)
+      value: chain lightning (DC 26), greater dispel magic, geas/quest
+    - label: 5th (8/day)
+      value: >-
+        contact other plane, feeblemind (DC 25), telekinesis (DC 25), wall of
+        force
+    - label: 4th (8/day)
+      value: >-
+        black tentacles, charm monster (DC 24), detect scrying, greater
+        invisibility
+    - label: 3rd (8/day)
+      value: displacement, haste, keen edge, nondetection
+    - label: 2nd (9/day)
+      value: >-
+        darkness, detect thoughts (DC 22), false life, glitterdust (DC 22),
+        mirror image
+    - label: 1st (9/day)
+      value: alarm, grease, mage armor, magic missile, shield
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 20), detect magic, detect poison, light, mage
+        hand, mending, open/close (DC 20), prestidigitation
+AbilityScores:
+  - 32
+  - 20
+  - 25
+  - 26
+  - 25
+  - 30
+BaseAtk: '33'
+CMB: +44 (+48 disarm, +48 trip)
+CMD: 64 (66 vs. disarm, 66 vs. trip)
+Feats:
+  - Arcane Armor Mastery
+  - Arcane Armor Training
+  - Arcane Strike
+  - Combat Expertise
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Critical Focus
+  - Eschew Materials
+  - Exotic Weapon Proficiency (spiked chain)
+  - Greater Disarm
+  - Greater Trip
+  - Improved Disarm
+  - Improved Trip
+  - Iron Will
+  - Power Attack
+  - Quicken Spell
+  - Staggering Critical
+  - Still Spell
+  - Weapon Focus (spiked chain)
+Skills:
+  - Fly +40 all other skills listed in his draconic form stats
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Giant
+  - Infernal
+  - Necril
+  - Orc
+  - Shadowtongue
+  - Shoanti
+  - Undercommon
+  - Varisian
+Source: Curse Of The Crimson Throne Chapter Appendix
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Transformation (Ex)
+    description: >-
+      If reduced to 0 hit points, Kazavon immediately transforms into his
+      draconic form, destroying his armor in the process. The transformation
+      takes place quickly and fully heals him, but leaves Kazavon staggered for
+      2d4 rounds.
+Gender: Male
+DuringCombat: >-
+  Kazavon relies on his spells for ranged combat and, if he can, generally takes
+  a few rounds at the start of a battle to cast mirror image and shield. He
+  doesn't bother with haste unless he's fighting alongside allies. If reduced to
+  200 hit points or fewer, he casts time stop, and then casts black tentacles,
+  greater invisibility, and wall of force to regain battlefield dominance. In
+  melee, he always uses Power Attack.
+Morale: Kazavon fights to the death in human form (but see death transformation)
+Gear: >-
+  +5 spiked heavy fortification mithral breastplate, +5 keen unholy wounding
+  adamantine spiked chain, amulet of natural armor +5, ring of protection +5
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: Human Form
+id: '8712'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

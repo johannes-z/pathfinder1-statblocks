@@ -1,0 +1,128 @@
+Name: Cruel Instructor
+CR: '8'
+XP: '4800'
+Race: human
+Class: bard 9
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +9
+AC: 12, touch 12, flat-footed 11
+AC_Mods: (+1 deflection, +1 Dex)
+HP: '44'
+HD: (9d8)
+Saves: >-
+  Fort +3, Ref +7, Will +8; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '3'
+Ref: '7'
+Will: '8'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: misdirection
+Speed: 30 ft.
+Melee:
+  - mwk club +6/+1 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 24 rounds/day (move action; countersong, dirge of doom,
+  distraction, fascinate, inspire competence +3, inspire courage +2, inspire
+  greatness, suggestion)
+SpellsKnown:
+  header: Bard Spells Known (CL 9th; concentration +13)
+  values:
+    - label: 3rd (4/day)
+      value: >-
+        clairaudience/clairvoyance, dispel magic, illusory script (DC 19),
+        secret page
+    - label: 2nd (5/day)
+      value: eagle's splendor, enthrall (DC 18), misdirection, tongues
+    - label: 1st (6/day)
+      value: >-
+        cure light wounds (DC 17), disguise self, erase, hypnotism (DC 17),
+        undetectable alignment
+    - label: 0 (at will)
+      value: daze (DC 16), detect magic, light, mage hand, message, read magic
+AbilityScores:
+  - 8
+  - 12
+  - 10
+  - 14
+  - 14
+  - 18
+BaseAtk: '6'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Arcane Strike
+  - Catch Off-Guard
+  - Scribe Scroll
+  - Silent Spell
+  - Skill Focus (Perform [oratory])
+  - Still Spell
+Skills:
+  - Appraise +10
+  - Bluff +14
+  - Intimidate +10
+  - Knowledge (arcana) +15
+  - Knowledge (dungeoneering) +10
+  - Knowledge (engineering) +10
+  - Knowledge (geography) +10
+  - Knowledge (local) +10
+  - Knowledge (nature) +10
+  - Knowledge (nobility) +10
+  - Knowledge (religion) +10
+  - Knowledge (history) +18
+  - Knowledge (planes) +13
+  - Linguistics +8
+  - Perception +9
+  - Perform (keyboard) +14
+  - Perform (oratory) +21
+  - Profession (educator) +6
+  - Sense Motive +9
+  - Spellcraft +14
+  - Stealth +13
+  - Use Magic Device +18
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Elven
+  - Draconic
+  - Dwarven
+SQ: >-
+  bardic knowledge +4, lore master 1/day, versatile performance (keyboard,
+  oratory)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The bard casts eagle's splendor. He typically has misdirection in place during
+  the day.
+DuringCombat: Weak in melee, the bard uses wands and scrolls from a distance.
+Gear: >-
+  potion of cure moderate wounds, potions of mage armor (2), scrolls of bestow
+  curse (2), scrolls of command (4), scroll of fly, scroll of gust of wind,
+  scrolls of lightning bolt (2), wand of scorching ray (50 charges)
+OtherGear: masterwork club, ring of protection +1, 75 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without eagle's splendor, the bard's statistics are Bard Spells Known reduce
+  spell DCs by 2; Cha 14; Skills Bluff +12, Intimidate +8, Perform (keyboard)
+  +12, Perform (oratory) +19, Use Magic Device +16.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3624'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,91 @@
+Name: Doomsday Knight
+CR: '2'
+XP: '600'
+Race: Human
+Class: antipaladin of Rovagug 3
+MonsterSource: Pathfinder RPG Advanced Player's Guide 118
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +1
+Aura: cowardice (10 ft.)
+AC: 17, touch 11, flat-footed 16
+AC_Mods: (+5 armor, +1 Dex, +1 shield)
+HP: '27'
+HD: (3d10+6)
+Saves: Fort +6, Ref +4, Will +4
+Fort: '6'
+Ref: '4'
+Will: '4'
+Immune: disease
+Speed: 20 ft.
+Melee:
+  - mwk dwarven waraxe +7 (1d10+3/x3) or mwk throwing axe +7 (1d6+3)
+Ranged:
+  - mwk throwing axe +5 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  cruelty (fatigued), smite good 1/day (+2 attack and AC, +3 damage), touch of
+  corruption 3/day (1d6, DC 13)
+SpellLikeAbilities:
+  header: Antipaladin Spell-Like Abilities (CL 3rd; concentration +5)
+  values:
+    - label: At Will
+      value: detect good
+AbilityScores:
+  - 16
+  - 12
+  - 13
+  - 10
+  - 8
+  - 15
+BaseAtk: '3'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Coordinated Defense
+  - Exotic Weapon Proficiency (dwarven waraxe)
+  - Step Up
+Skills:
+  - Bluff +6
+  - Disguise +6
+  - Perception +1
+  - Ride +4
+  - Sense Motive +3
+  - Stealth +2
+Languages:
+  - Common
+  - Osiriani
+Source: PFS S6-19
+IsTemplate: '0'
+BeforeCombat: >-
+  The knights have each consumed one of their remaining potions of endure
+  elements.
+DuringCombat: >-
+  The knights fight shoulder-to-shoulder, using their Step-Up feat in order to
+  push their foes into confined spaces. They use detect good to find viable
+  targets to smite.
+Morale: The Doomsday Knights fight to death.
+Gear: potion of cure moderate wounds, potion of endure elements
+OtherGear: >-
+  mwk scale mail, mwk light steel shield, mwk dwarven waraxe, mwk throwing axe,
+  antitoxin
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7964'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

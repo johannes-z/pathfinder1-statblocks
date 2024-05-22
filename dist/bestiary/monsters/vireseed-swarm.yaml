@@ -1,0 +1,78 @@
+Name: Vireseed Swarm
+CR: '5'
+XP: '1600'
+Alignment: 'N'
+Size: Fine
+Type: plant
+SubType: (swarm)
+Init: '1'
+Senses:
+  - blindsense 60 ft.
+  - Perception +0
+AC: 19, touch 19, flat-footed 18
+AC_Mods: (+1 Dex, +8 size)
+HP: '51'
+HD: (7d8+35)
+Saves: Fort +9, Ref +3, Will +2
+Fort: '9'
+Ref: '3'
+Will: '2'
+DefensiveAbilities: swarm traits
+Immune: plant traits, weapon damage
+Weaknesses: vulnerable to fire
+Speed: 5 ft., fly 30 ft. (perfect)
+Melee:
+  - swarm (2d6 plus infestation)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: distraction (DC 17)
+AbilityScores:
+  - 1
+  - 13
+  - 18
+  - —
+  - 10
+  - 13
+BaseAtk: '5'
+CMB: '-'
+CMD: '-'
+Skills:
+  - Climb +3
+  - Fly +9
+  - Perception +0
+RacialMods: modifies Climb with Dexterity
+Environment: any
+Organization: solitary, flight (2-4 swarms), or cloud (5-7 swarms)
+Treasure: none
+Description_Visual: >-
+  A wave of wing-like seedpods whips through the air, each tipped by a miniscule
+  thorn and propelled by a rapidly lashing tendril.
+Group: Vireseed
+Source: AP 39
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Infestation (Ex)
+    description: >-
+      Swarm-injury; save Fort DC 17; onset immediate; frequency 1/round for 3
+      rounds; effect 1 Con damage; cure applying flame to the infested character
+      deals 1d6 points of fire damage but immediately destroys the infestation;
+      blight, reduce plants, and remove disease also automatically destroy the
+      infestation. (See page 245 of the GameMastery Guide for more details on
+      infestations.)
+Description:
+  - A swarm of vireseeds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1016'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

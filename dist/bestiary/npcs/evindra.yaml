@@ -1,0 +1,144 @@
+Name: Evindra
+CR: '10'
+XP: '9600'
+Race: nereid
+MonsterSource: Tome of Horrors Revised 276-278
+Alignment: CN
+Size: Medium
+Type: fey
+SubType: (aquatic, water)
+Init: '9'
+Senses:
+  - low-light vision
+  - Perception +21
+Aura: beguiling aura
+AC: 25, touch 25, flat-footed 15
+AC_Mods: (+5 deflection, +9 Dex, +1 dodge)
+HP: '126'
+HD: (12d6+84)
+Saves: Fort +11, Ref +17, Will +14
+Fort: '11'
+Ref: '17'
+Will: '14'
+DefensiveAbilities: transparency
+DR: 10/cold iron
+Immune: cold, poison
+SR: '21'
+Weaknesses: shawl
+Speed: 30 ft., swim 60 ft.
+Melee:
+  - poison touch +10 (poison)
+Ranged:
+  - poison spray +15 (poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: drowning kiss
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: At will
+      value: >-
+        control water, suggestion (only against creatures fascinated by her
+        beguiling aura)
+    - label: 1/day
+      value: summon monster VI (water elemental only)
+AbilityScores:
+  - 11
+  - 29
+  - 24
+  - 14
+  - 22
+  - 21
+BaseAtk: '6'
+CMB: '15'
+CMD: '31'
+Feats:
+  - Ability Focus (poison)
+  - Agile Maneuvers
+  - Defensive Combat Training
+  - Dodge
+  - Mobility
+  - Weapon Finesse
+Skills:
+  - Bluff +20
+  - Escape Artist +24
+  - Knowledge (nature) +17
+  - Perception +21
+  - Perform (sing) +20
+  - Sense Motive +21
+  - Stealth +24
+  - Swim +23
+Languages:
+  - Aquan
+  - Common
+  - Sylvan
+SQ: >-
+  amphibious, change shape (medium water elemental, elemental body II),
+  unearthly grace
+Source: AP 35
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Beguiling Aura (Su)
+    description: >-
+      Any creature who is sexually attracted to women runs the risk of being
+      beguiled by a nereid if he or she looks upon her beauty from a distance of
+      30 feet or less. Creatures who fail a DC 21 Will save are immediately
+      fascinated. The nereid may use her suggestion spell-like ability at will
+      against creatures that are fascinated by her beguiling aura. This is a
+      mind-affecting compulsion effect. The save DC is Charisma-based.
+  - name: Drowning Kiss (Su)
+    description: >-
+      A nereid can flood the lungs of a willing, helpless, or fascinated
+      creature by touching him (traditionally by kissing him on the lips). The
+      target immediately begins to drown if he cannot breathe water. On his
+      turn, the kissed creature can attempt to cough up this supernatural water
+      by succeeding on a DC 23 Fortitude save; otherwise he begins to drown
+      (Pathfinder RPG Core Rulebook 445). Each round the drowning continues, the
+      victim may attempt a new DC 23 Fortitude save to cough up the water. The
+      save DC is Constitution-based.
+  - name: Poison (Ex)
+    description: >-
+      Touch or spray (range 30 ft.)-contact; save Fort DC 23; frequency 1/round
+      for 6 rounds; effect 1d2 Con plus blindness; cure 2 consecutive saves.
+  - name: Shawl (Ex)
+    description: >-
+      A nereid's shawl (hardness 2, hp 6), contains a portion of her life force.
+      If the shawl is ever destroyed, the nereid takes 1d6 points of
+      Constitution drain per hour until she dies. The nereid can craft a new
+      shawl from water by making a DC 25 Will save, but each attempt takes 1d4
+      hours to complete. Attempts to destroy or steal the shawl should be
+      treated as sunder or disarm attempts.
+  - name: Transparency (Su)
+    description: >-
+      When underwater, a nereid's body becomes transparent, effectively
+      rendering her invisible. She can become visible or transparent at will as
+      a free action.
+  - name: Unearthly Grace (Su)
+    description: >-
+      A nereid adds her Charisma modifier as a racial bonus on all her saving
+      throws, and as a deflection bonus to her Armor Class as long as she wears
+      no armor.
+Gender: Female
+DuringCombat: >-
+  Evindra casts summon monster VI to conjure a water elemental on the first
+  round of combat, then retreats into the water and uses poison against the PCs.
+  If this tactic proves unworkable, she assumes the form of a water elemental to
+  attack physically.
+Morale: >-
+  If reduced to 30 hit points or fewer, Evindra attempts to flee into the nearby
+  pool to hide.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '858'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

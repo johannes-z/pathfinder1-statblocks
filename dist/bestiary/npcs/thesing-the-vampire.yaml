@@ -1,0 +1,118 @@
+Name: Thesing the Vampire
+CR: '11'
+XP: '12800'
+Race: human
+Class: rogue 7/expert 3
+MonsterSource: Pathfinder RPG Bestiary 270
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +25
+AC: 31, touch 15, flat-footed 27
+AC_Mods: (+5 armor, +1 deflection, +3 Dex, +1 dodge, +7 natural, +4 shield)
+HP: '102'
+HD: (10d8+50)
+HP_Mods: fast healing 5
+Saves: Fort +8, Ref +12, Will +8
+Fort: '8'
+Ref: '12'
+Will: '8'
+DefensiveAbilities: channel resistance +4, evasion, trap sense +2, uncanny dodge
+DR: 10/magic and silver
+Immune: undead traits
+Resist: cold 10, electricity 10
+Weaknesses: vampire weaknesses
+Speed: 30 ft.
+Melee:
+  - +3 rapier +15/+10 (1d6+7/18-20), slam +6 (1d4+4 plus  energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blood drain, children of the night, create spawn,  dominate (DC 19), energy
+  drain (2 levels, DC 19), sneak attack +4d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +8)
+  values:
+    - label: 3/day
+      value: bleed (DC 14)
+    - label: 2/day
+      value: shield
+AbilityScores:
+  - 18
+  - 17
+  - —
+  - 13
+  - 10
+  - 19
+BaseAtk: '7'
+CMB: '11'
+CMD: '26'
+Feats:
+  - Alertness
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Skill Focus (Perform [act])
+  - Skill Focus (Perform [sing])
+  - Spring Attack
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (rapier)
+Skills:
+  - Bluff +25
+  - Disguise +17
+  - Intimidate +17
+  - Knowledge (local) +14
+  - Knowledge (nobility) +14
+  - Linguistics +5
+  - Perception +25
+  - Perform (act) +23
+  - Perform (sing) +23
+  - Ride +15
+  - Sense Motive +0
+  - Stealth +23
+Languages:
+  - Common
+  - Infernal
+SQ: >-
+  change shape (dire bat or wolf, beast shape II), gaseous  form, rogue talents
+  (major magic [shield], minor magic [bleed],  weapon training), shadowless,
+  spider climb, trapfinding
+Source: AP 30
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: Thesing casts shield on himself before entering combat.
+DuringCombat: >-
+  Thesing attacks with his rapier in one hand and a secondary attack with his
+  slam. He makes full uses of his stealth and the ability to become gaseous to
+  flee combat and go into hiding every few rounds, only to spring out of the
+  shadows to sneak attack a victim over and over.
+Morale: >-
+  If reduced to 0 hp, Thesing becomes gaseous and flees to area N8. If
+  confronted there, the vampire fights to the death.
+Gear: >-
+  +1 chain shirt, amulet of natural armor +1, belt of incredible dexterity +2,
+  cloak of resistance +1, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: vampire
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '492'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

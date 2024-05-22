@@ -1,0 +1,168 @@
+Name: Shensen
+CR: '11'
+XP: '12800'
+Race: half-elf
+Class: bard (Dawnflower dervish) 8/fighter 4
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea Magic 34'
+Alignment: CG
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '6'
+Senses:
+  - low-light vision
+  - Perception +12
+AC: 27, touch 19, flat-footed 20
+AC_Mods: (+6 armor, +2 deflection, +6 Dex, +1 dodge, +2 natural)
+HP: '106'
+HD: (12 HD; 8d8+4d10+44)
+Saves: >-
+  Fort +8, Ref +13, Will +8 (+1 vs. fear); +2 vs. enchantments; +4 vs. bardic
+  performance, language-dependent, and sonic; +4 morale bonus vs. charm and fear
+  effects
+Fort: '8'
+Ref: '13'
+Will: +8 (+1 vs. fear)
+Save_Mods: >-
+  +2 vs. enchantments; +4 vs. bardic performance, language-dependent, and
+  sonic+4 morale bonus vs. charm and fear effects
+Immune: sleep
+Speed: 30 ft., swim 60 ft.
+Melee:
+  - >-
+    +1 flaming burst mithral scimitar +22/+17 (1d6+15/15-20 plus 1d6 fire) or
+    mwk whip +15/+10 (1d3+6 nonlethal)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 24 rounds/day (move action; countersong, distraction,
+  fascinate [DC 20], inspire competence +6, inspire courage +4, suggestion [DC
+  20])
+SpellsKnown:
+  header: Bard Spells Known (CL 8th; concentration +14)
+  values:
+    - label: 3rd (3/day)
+      value: confusion (DC 19), cure serious wounds, glibness
+    - label: 2nd (6/day)
+      value: >-
+        blindness/deafness (DC 18), detect thoughts (DC 18), invisibility,
+        suggestion (DC 18)
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 17), cure light wounds, disguise self, grease,
+        undetectable alignment (DC 17)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, mage hand, mending, prestidigitation, read
+        magic
+AbilityScores:
+  - 10
+  - 22
+  - 14
+  - 14
+  - 9
+  - 22
+BaseAtk: '10'
+CMB: '14'
+CMD: '29'
+Feats:
+  - Arcane Strike
+  - Dervish Dance
+  - Dodge
+  - Improved Critical (scimitar)
+  - Iron Will
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (scimitar)
+  - Weapon Specialization (scimitar)
+  - Wind Stance
+Skills:
+  - Diplomacy +21
+  - Knowledge (local) +9
+  - Knowledge (nobility) +9
+  - Knowledge (religion) +11
+  - Linguistics +7
+  - Perception +12
+  - Perform (dance) +21
+  - Perform (sing) +21
+  - Spellcraft +17
+  - Swim +23
+Languages:
+  - Aquan
+  - Common
+  - Elven
+  - Infernal
+  - Tengu
+SQ: >-
+  armor training 1, battle dance, elf blood, meditative whirl, poison use,
+  reincarnated, spinning spellcaster, versatile performances (dance, sing)
+Source: AP 100
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Battle Dance (Ex)
+    description: >-
+      When Shensen uses bardic performance to inspire courage or inspire
+      greatness, the bonuses granted are doubled but apply only to her (these
+      bonuses are already adjusted accordingly in her special attacks above).
+      All other functions of bardic performance function normally.
+  - name: Meditative Whirl (Ex)
+    description: >-
+      Once per day when using battle dance, Shensen can spend a move action to
+      apply the Quicken Spell metamagic feat to any cure spell she is about to
+      cast (effectively spending a move action and a swift action to cast the
+      spell); this does not alter the spell's level. Reincarnated Shensen was
+      born a drow noble but was reincarnated into an aquatic half-elf; she
+      retains her +2 bonuses to Intelligence, Wisdom, and Charisma from her
+      birth heritage, and a +2 bonus to Dexterity from her current incarnation.
+      She also retains proficiency with the hand crossbow and poison use, but
+      rarely uses such weapons or tactics. She's lost all other drow abilities
+      as the result of the reincarnation.
+  - name: Spinning Spellcaster (Ex)
+    description: >-
+      Shensen gains a +4 bonus on concentration checks to cast spells
+      defensively.
+Gender: Female
+BeforeCombat: Shensen casts undetectable alignment every day.
+DuringCombat: >-
+  Shensen opens a fight by using her rod of wonder, always eager to see what
+  fate has in store, then stows the rod before moving on to casting ranged
+  spells or entering melee combat. She uses her wand of haste once it appears
+  she has to engage in melee combat, then activates her battle dance and Arcane
+  Strike abilities (her attacks above have been adjusted to account for these
+  bonuses) and prefers to remain mobile in combat, making full attacks only if
+  surrounded. She relies on her spells and her wand of sound burst for ranged
+  combat. She occasionally brings her rod of wonder back into the fight,
+  sometimes a bit too often, intrigued and delighted as she is by the rod's
+  random effects. Her bardic performances do not bolster allies, and as such she
+  generally takes on a more aggressive role in battle, rather than a support
+  function.
+Morale: >-
+  Shensen fights to the death if allies are in danger, but otherwise flees
+  combat if reduced to 25 hit points or fewer&#8211;with the exception of
+  combats involving apes or gorilla-like foes, in which case she'll flee combat
+  if reduced to 50 hit points or less. Because there's nothing more frightening
+  than an angry gorilla.
+Gear: >-
+  potion of fly (2), rod of wonder, wand of haste (10 charges), wand of sound
+  burst (14 charges)
+OtherGear: >-
+  +2 mithral chain shirt, +1 flaming burst mithral scimitar, mwk whip, amulet of
+  natural armor +2, belt of incredible dexterity +4, headband of alluring
+  charisma +4, pearl of the sirines, ring of feather falling, ring of protection
+  +2, earrings, noble's clothes, 74 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: Dawnflower dervish
+CompanionFamiliarLink: '0'
+id: '7524'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

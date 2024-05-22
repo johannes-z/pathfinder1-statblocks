@@ -1,0 +1,163 @@
+Name: Adult Brass Dragon
+CR: '11'
+XP: '12800'
+Alignment: CG
+Size: Large
+Type: dragon
+SubType: (fire)
+Init: '5'
+Senses:
+  - blindsense 60 ft., dragon senses
+  - Perception +24
+Aura: frightful presence (180 ft., DC 20)
+AC: 28, touch 10, flat-footed 27
+AC_Mods: (+1 Dex, +18 natural, -1 size)
+HP: '161'
+HD: (14d12+70)
+Saves: Fort +14, Ref +10, Will +12
+Fort: '14'
+Ref: '10'
+Will: '12'
+DR: 5/magic
+Immune: fire, paralysis, sleep
+SR: '22'
+Weaknesses: vulnerability to cold
+Speed: 60 ft., burrow 30 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +20 (2d6+10), 2 claws +20 (1d8+7), 2 wings +15 (1d6+3), tail slap +15
+    (1d8+10)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: breath weapon (80-ft. line, DC 22, 12d4 fire), desert wind, sleep breath
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th)
+  values:
+    - label: At will
+      value: endure elements, speak with animals, suggestion (DC 18)
+SpellsKnown:
+  header: Spells Known (CL 7th)
+  values:
+    - label: 3rd (5/day)
+      value: hold person (DC 18), tongues
+    - label: 2nd (7/day)
+      value: alter self, detect thoughts (DC 15), see invisibility
+    - label: 1st (7/day)
+      value: alarm, charm person (DC 16), protection from evil, shield, ventriloquism
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, detect magic, ghost sound (DC 13), mage
+        hand, message, prestidigitation
+AbilityScores:
+  - 25
+  - 12
+  - 21
+  - 16
+  - 17
+  - 16
+BaseAtk: '14'
+CMB: '22'
+CMD: 33 (37 vs. trip)
+Feats:
+  - Alertness
+  - Flyby Attack
+  - Hover
+  - Greater Spell Focus (enchant)
+  - Improved Initiative
+  - Power Attack
+  - Spell Focus (enchant)
+Skills:
+  - Bluff +20
+  - Diplomacy +20
+  - Fly +12
+  - Heal +20
+  - Linguistics +20
+  - Perception +24
+  - Sense Motive +24
+  - Spellcraft +20
+  - Survival +20
+Languages:
+  - Common
+  - Draconic
+  - plus any 14 others
+SQ: move sand
+Environment: warm deserts
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  A crest of horns sweeps back from the head of this dragon, leading to a long
+  neck and serpentine brass body.
+Group: Metallic Dragon
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Desert Wind (Su)
+    description: >-
+      A juvenile or older brass dragon can call up the desert wind to serve him.
+      This functions as gust of wind, but any creature in its path must make a
+      Fortitude save or be blinded for 1d4 rounds by the sand. The save DC for
+      this effect is equal to the dragon's breath weapon DC.
+  - name: Fire Aura (Su)
+    description: >-
+      An old or older brass dragon is surrounded by an aura of intense heat. All
+      creatures within 5 feet of the dragon take 1d6 points of fire damage at
+      the beginning of the dragon's turn. An ancient brass dragon's aura extends
+      to 10 feet. A great wyrm's damage increases to 2d6. A brass dragon can
+      suppress or activate this aura at will as a free action.
+  - name: Move Sand (Sp)
+    description: >-
+      A young or older brass dragon can move sand to excavate ruins or hide
+      treasures. This functions as move earth, but it only affects sand. The
+      dragon uses his HD in place of his caster level for this effect. This is
+      equivalent to a 5th-level spell.
+  - name: Sandstorm (Su)
+    description: >-
+      An ancient or older brass dragon can create a powerful sandstorm once per
+      day as a full-round action. This storm has a radius of 1 mile and lasts
+      for 1 minute per age category of the dragon. This functions as a sandstorm
+      (Pathfinder RPG Core Rulebook 431), except that it is also accompanied by
+      windstorm-level winds.
+  - name: Sleep Breath (Su)
+    description: >-
+      Instead of a line of fire, a brass dragon can breathe a cone of sleep gas.
+      Creatures within the cone must succeed on a Will save or fall asleep for
+      1d6 rounds plus 1 round per age category of the dragon. Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      A brass dragon gains the following spell-like abilities, usable at will
+      upon reaching the listed age category. Very young-speak with animals;
+      Juvenile- endure elements; Adult-suggestion; Old-control winds;
+      Ancient-control weather; Great wyrm-whirlwind.
+  - name: Summon Djinni (Sp)
+    description: >-
+      This ability, usable by a great wyrm brass dragon once per day, works like
+      a summon monster spell, except that it summons one noble djinni. This
+      ability is the equivalent of a 9th-level spell. Age Category S pecial
+      Abilities C aster Level Wyrmling Fire subtype, sleep breath - Very young
+      speak with animals - Young Move sand 1st Juvenile Desert wind, endure
+      elements 3rd Young adult DR 5/magic, spell resistance 5th Adult frightful
+      presence, suggestion 7th Mature adult DR 10/magic 9th Old Fire aura,
+      control winds 11th Very old DR 15/magic 13th Ancient Sandstorm, control
+      weather 15th Wyrm DR 20/magic 17th Great wyrm Summon djinni, whirlwind
+      19th
+Description:
+  - >-
+    Consummate conversationalists, brass dragons prefer to talk instead of
+    fight. Brass dragons lair near humanoid settlements, where they can hear the
+    most recent news and gossip.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Adult Brass Dragon
+id: '129'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

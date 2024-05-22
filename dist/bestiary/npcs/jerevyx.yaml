@@ -1,0 +1,107 @@
+Name: Jerevyx
+CR: '8'
+XP: '4800'
+Race: harpy
+Class: sorcerer 2/dragon disciple 3
+MonsterSource: Pathfinder RPG Bestiary 172
+Alignment: LE
+Size: Medium
+Type: monstrous humanoid
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 21, touch 13, flat-footed 18
+AC_Mods: (+4 armor, +2 Dex, +1 dodge, +4 natural)
+HP: '101'
+HD: (12 HD; 7d10+2d6+3d12+38)
+Saves: Fort +9, Ref +9, Will +11
+Fort: '9'
+Ref: '9'
+Will: '11'
+Resist: electricity 5
+Speed: 20 ft., fly 80 ft. (average)
+Melee:
+  - 2 talons +13 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  captivating song (DC 18), claws (2, 1d4+3, treated as magic weapons, 8 rounds
+  per day), dragon bite (1d6+5), breath weapon (60-ft. line, 5d6 electricity
+  damage, Reflex DC 17 half, usable 1/day)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 4th; concentration +9)
+  values:
+    - label: 2nd (4/day)
+      value: elemental touch* (DC 17) resist energy
+    - label: 1st (8/day)
+      value: mage armor, magic missile, shocking grasp, true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, daze (DC 15), detect magic, resistance, spark* (DC 15),
+        touch of fatigue (DC 15)
+AbilityScores:
+  - 16
+  - 14
+  - 14
+  - 10
+  - 10
+  - 21
+BaseAtk: '10'
+CMB: '13'
+CMD: '26'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Flyby Attack
+  - Great Fortitude
+  - Improved Initiative
+  - Skill Focus (Bluff)
+  - Toughness
+Skills:
+  - Bluff +14
+  - Fly +17
+  - Intimidate +18
+  - Knowledge (arcana) +10
+  - Linguistics +1
+  - Perception +6
+  - Perform (sing) +7
+Languages:
+  - Common
+  - Draconic
+SQ: bloodline arcana
+Source: PFS S3-04
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Female
+Bloodline: Draconic (blue)
+BeforeCombat: Jerevyx casts mage armor on herself before battle (included in her stats).
+DuringCombat: >-
+  Jerevyx activates her draconic claws and casts elemental touch (see Special
+  Abilities below), then flies down to attack the nearest PC, attempting a
+  full-attack action with both claws, both talons, and her dragon bite on the
+  following round. She uses her breath weapon if she can hit multiple PCs
+  without hurting her allies.
+Morale: Jerevyx fights to the death to protect her hoard.
+Gear: >-
+  amulet of natural armor +1, cloak of resistance +1, gold circlet and jewelry
+  worth 450 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor active, Jerevyx has the following statistics: AC 17,
+  flat-footed 14
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5873'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

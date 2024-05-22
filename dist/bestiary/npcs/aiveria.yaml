@@ -1,0 +1,157 @@
+Name: Aiveria
+CR: '14'
+XP: '38400'
+Race: stone maiden
+Class: bard 10
+MonsterSource: Tome of Horrors Complete 572
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (earth, elemental, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +3
+AC: 31, touch 14, flat-footed 27
+AC_Mods: (+7 armor, +3 Dex, +1 dodge, +10 natural)
+HP: '210'
+HD: (20 HD; 10d10+10d8+110)
+Saves: >-
+  Fort +15, Ref +15, Will +19; +4 vs. bardic performance, language-dependent,
+  and sonic
+Fort: '15'
+Ref: '15'
+Will: '19'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: one with the earth
+DR: 10/magic
+Immune: earth magic, elemental traits
+Weaknesses: veil
+Speed: 30 ft., burrow 30 ft.
+Melee:
+  - +2 keen scimitar +26/+21/+16/+11 (1d6+11/15-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  animate rocks, bardic performance 30 rounds/ day (move action; countersong,
+  dirge of doom [DC 23], distraction, fascinate [DC 23], inspire competence +3,
+  inspire courage +2, inspire greatness, suggestion [DC 23]), earth mastery
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +18)
+  values:
+    - label: At Will
+      value: >-
+        magic stone, meld into stone, soften earth and stone, spike stones (DC
+        22), stone shape, stone tell, transmute mud to rock, transmute rock to
+        mud
+    - label: 3/day
+      value: move earth
+    - label: 1/day
+      value: iron body, wall of stone
+SpellsKnown:
+  header: Bard Spells Known (CL 10th; concentration +18)
+  values:
+    - label: 4th (3/day)
+      value: dimension door, hold monster (DC 22)
+    - label: 3rd (5/day)
+      value: confusion (DC 21), cure serious wounds, haste, slow (DC 21)
+    - label: 2nd (6/day)
+      value: >-
+        blindness/deafness (DC 20), invisibility, mirror image, sound burst (DC
+        20), suggestion (DC 20)
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 19), cure light wounds, feather fall, grease (DC 19),
+        silent image (DC 19)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 18), mage hand, message,
+        prestidigitation (DC 18)
+AbilityScores:
+  - 22
+  - 16
+  - 20
+  - 13
+  - 16
+  - 26
+BaseAtk: '17'
+CMB: '23'
+CMD: '37'
+Feats:
+  - Arcane Strike
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Power Attack
+  - Spring Attack
+  - Weapon Focus (scimitar)
+Skills:
+  - Acrobatics +26
+  - Knowledge (arcana) +24
+  - Knowledge (planes) +24
+  - Perform (act) +31
+  - Perform (oratory) +31
+  - Perform (sing) +21
+  - Spellcraft +24
+  - Stealth +26
+Languages:
+  - Common
+  - Terran
+SQ: >-
+  bardic knowledge +5, jack-of-all-trades (use any skill), lore master 1/day,
+  stone glide, versatile performance (act, oratory, sing)
+Source: AP 83
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Animate Rocks (Su)
+    description: >-
+      A stone maiden can animate rocks within 180 feet at will, controlling up
+      to two rocks at a time. These animated rocks are posted as guardians in
+      area J1.
+  - name: Earth Mastery (Ex)
+    description: >-
+      A stone maiden gains a +1 bonus on attack and damage rolls if both she and
+      her foe are touching the ground. If an opponent is airborne or waterborne,
+      the stone maiden takes a -4 penalty on attack and damage rolls.
+  - name: Immunity to Earth Magic (Ex)
+    description: >-
+      A stone maiden is immune to all spells and spell-like abilities with the
+      earth descriptor, including spells of the Earth domain. She is also immune
+      to the supernatural abilities of creatures that possess the Earth subtype.
+  - name: Stone Glide (Su)
+    description: >-
+      This functions as the earth elemental's earth glide ability, except the
+      stone maiden can move through stone, dirt, crystal, and metal.
+  - name: One with the Earth (Ex)
+    description: >-
+      A stone maiden is so closely tied with the earth that any damage she takes
+      from the natural attacks of a creature with the Earth subtype or a
+      creature made primarily from stone or earth (such as a stone golem or clay
+      golem) is treated as nonlethal damage.
+  - name: Veil (Su)
+    description: >-
+      Each stone maiden is mystically bound to her veil and never lets it out of
+      her possession. If she is ever more than 1,000 feet from it, she takes a
+      &#8211;4 penalty to Strength, Dexterity, and Constitution, and dies within
+      4d6 hours, crumbling to dust. If her veil is destroyed (hardness 3, hp
+      10), she dies in 1 minute. A stone maiden's veil does not radiate magic.
+Gender: Female
+Gear: +3 mithral glamered chain shirt, +2 keen scimitar
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6229'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

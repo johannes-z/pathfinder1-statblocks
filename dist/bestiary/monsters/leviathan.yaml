@@ -1,0 +1,155 @@
+Name: Leviathan
+CR: '19'
+XP: '204800'
+Alignment: 'N'
+Size: Colossal
+Type: magical beast
+Init: '-2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +27
+AC: 30, touch 0, flat-footed 30
+AC_Mods: (-2 Dex, +30 natural, -8 size)
+HP: '310'
+HD: (20d10+200)
+Saves: Fort +24, Ref +10, Will +12
+Fort: '24'
+Ref: '10'
+Will: '12'
+DR: 20/magic
+Immune: cold, electricity
+Resist: fire 20, sonic 20
+SR: '30'
+Speed: swim 60 ft.
+Melee:
+  - bite +34 (6d6+22/19-20), tail slap +29 (4d6+11)
+Space: 30 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  capsize, smashing breach, swallow whole (6d8+22 acid damage, AC 25, 31 hp),
+  tail storm, whale song
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: 3/day
+      value: control weather, summon nature's ally IX (aquatic animals only)
+AbilityScores:
+  - 54
+  - 6
+  - 30
+  - 18
+  - 18
+  - 21
+BaseAtk: '20'
+CMB: '50'
+CMD: 58 (can't be tripped)
+Feats:
+  - Augment SummoningB
+  - Critical Focus
+  - Diehard
+  - Endurance
+  - Great Fortitude
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Swim)
+  - Staggering Critical
+Skills:
+  - Knowledge (any one) +24
+  - Knowledge (local) +24
+  - Knowledge (nature) +24
+  - Perception +27
+  - Stealth +5
+  - Swim +59
+Languages:
+  - Aquan
+SQ: hold breath
+Environment: any oceans
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This is a tremendous sea creature, resembling a whale of gigantic proportions.
+  Its humped back stands like a mountain, and its massive eye is nearly as large
+  as a sailing ship. Its cavernous blowhole spews forth a jet of water like a
+  cyclone.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Smashing Breach (Ex)
+    description: >-
+      As a full-round action, a leviathan can make a special charge attack
+      against creatures on the surface of the water. At the end of its charge,
+      the leviathan breaches, then slams down onto the target with incredible
+      force. Any Huge or smaller creatures in the leviathan's space must make a
+      DC 30 Reflex save or take 4d8+33 points of bludgeoning damage and be
+      forced into the nearest square that is adjacent to the whale. This breach
+      automatically attempts to capsize any boats caught wholly or partially in
+      this area. The save DC is Constitution-based.
+  - name: Tail Storm (Ex)
+    description: >-
+      As a full-round action, a leviathan can raise its massive tail and bring
+      it crashing down into the water, causing a massive wave that sinks ships
+      in the area. The resulting wave fans out from the leviathan's tail in a
+      100-foot cone. Huge or small er ships caught in the area and within 10
+      feet of the leviathan's tail automatically sink. Creatures in the water
+      and within 10 feet of the leviathan's tail take 4d6+22 points bludgeoning
+      damage. A successful DC 42 Reflex save reduces the damage by half.
+      Additionally, a creature that fails its save is pushed 6d6 x 10 feet away.
+      Huge or smaller ships more than 10 feet away within the area must succeed
+      on a Profession (sailor) check or capsize. The DC of this check is 42,
+      decreasing by 5 for every 10 feet from the leviathan a ship is. The DC
+      increases by a cumulative +5 for each size smaller than Huge a ship is.
+      The save and base check DC is Strength-based.
+  - name: Whale Song (Su)
+    description: >-
+      As a swift action, a leviathan can unleash a song that is so deep and of
+      such low frequency that the vibrations alone have adverse effects on
+      living creatures. Any living creature within 100 feet of a singing
+      leviathan must succeed on a DC 30 Fortitude save or be stunned for 1d6
+      rounds. A creature that succeeds on its save is unaffected by that
+      leviathan's whale song for one day. This song is more felt than heard, and
+      can be detected by creatures up to 10 miles away. Creatures capable of
+      detecting extremely low-frequency sounds (e.g. dolphins, whales, other
+      leviathans) can detect this song up to 100 miles away. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    Legend holds that there is but one leviathan in every ocean in the world,
+    each creature being the undisputed sovereign of its domain. Smaller
+    leviathans control the seas, whilst the tiniest-still massive by any
+    measure-lurk in a few secluded bays within the lonelier parts of the world.
+    Completely unopposed by any other creature, they dominate their realms. When
+    a leviathan grows to such size that it can no longer be supported by its
+    territory, it challenges another larger in size, seeking to gain mastery of
+    its sea or ocean. Failure in this challenge results in death but if it
+    overcomes its rival, the leviathan assumes sovereignty of the domain.
+    Battles between these titanic creatures are an awesome sight to behold, for
+    tidal waves and hurricanes erupt, devastating nearby coastal settlements.
+  - Leviathans are over 500 feet long and weigh many hundreds of tons.
+  - >-
+    Leviathans are seldom stirred to anger and only attack to defend themselves
+    from opponents who can truly harm them-a rare occurrence indeed. They strike
+    with their massive tail or by biting. A leviathan is so immense that it
+    cannot bite any creature smaller than Huge; such small prey is simply
+    swallowed whole. Any enemy flanking a leviathan from behind is attacked with
+    a devastating tail slap or subjected to the leviathan's tail storm attack.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4991'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

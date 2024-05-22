@@ -1,0 +1,142 @@
+Name: Vordakai
+CR: '12'
+XP: '19200'
+Race: cyclops atrophied
+Class: wizard 9
+MonsterSource: Pathfinder Bestiary 188
+Alignment: NE
+Size: Large
+Type: undead
+SubType: (augmented)
+Init: '4'
+Senses:
+  - darkvision 120 ft., low-light vision, true seeing
+  - Perception +41
+AC: 26, touch 11, flat-footed 26
+AC_Mods: (+4 armor, +2 deflection, +7 natural, +4 shield, -1 size)
+HP: '175'
+HD: (19 HD; 10d8+9d6+99)
+Saves: Fort +14, Ref +11, Will +19
+Fort: '14'
+Ref: '11'
+Will: '19'
+DefensiveAbilities: channel resistance +4
+DR: 15/bludgeoning and magic
+Immune: cold, electricity, undead traits
+Weaknesses: atrophied
+Speed: 30 ft.
+Melee:
+  - touch +15 (1d8+9/19-20 plus paralysis)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: channel negative energy (DC 17, 8/day), paralysis (permanent, DC 25)
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 9th; concentration +14)
+  values:
+    - label: 8/day
+      value: grave touch (4 rounds)
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 9th; concentration +14) 5th-dominate person (DC
+  21), quickened shield, waves of fatigue 4th-bestow curse (DC 19), dimension
+  door (2), phantasmal killer (DC 19) 3rd-dispel magic, displacement, suggestion
+  (DC 19), tongues, vampiric touch 2nd-blindness/deafness (DC 17), detect
+  thoughts (2, DC 17), false life, ghoul touch (DC 17), resist energy 1st-charm
+  person (DC 17), chill touch, comprehend languages, grease, mage armor, ray of
+  enfeeblement (2, DC 16) 0 (at will)-arcane mark, bleed (DC 15), detect magic,
+  read magic, touch of fatigue (DC 15)
+AbilityScores:
+  - 21
+  - 10
+  - —
+  - 20
+  - 17
+  - 16
+BaseAtk: '11'
+CMB: '17'
+CMD: '29'
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Defensive Combat Training
+  - Great Fortitude
+  - Improved Critical (touch)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Quicken Spell
+  - Scribe Scroll
+  - Spell Focus (enchantment)
+  - Toughness
+  - Vital Strike
+Skills:
+  - Fly +20
+  - Intimidate +25
+  - Knowledge (arcana) +27
+  - Knowledge (planes) +18
+  - Knowledge (religion) +27
+  - Perception +41
+  - Sense Motive +33
+  - Spellcraft +27
+  - Use Magic Device +13
+Languages:
+  - Abyssal
+  - Cyclops
+  - Giant
+  - Infernal
+  - tongues
+SQ: flash of insight, arcane bond (raven), life sight (10 feet, 9 rounds/day)
+Source: AP 33
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Atrophied Lich (Ex)
+    description: >-
+      A lich that remains immobile and insensible for extended periods of time
+      (as Vordakai did after he was imprisoned in his tomb just prior to
+      Earthfall 10,000 years ago) can grow atrophied. The exact effects of
+      atrophy vary from lich to lich. In Vordakai's case, his effective wizard
+      level has declined from 20th to 9th. Note that these are not negative
+      levels-Vordakai must earn back the lost XP normally. More troubling to the
+      lich is the fact that until he achieves at least 11th level as a lich, his
+      phylactery is unusable&#8211;if he is destroyed, he crumbles to dust,
+      forever dead.
+Gender: Male
+ProhibitedSchools: evocation, transmutation
+BeforeCombat: >-
+  Before engaging in combat, Vordakai casts false life, mage armor, and tongues
+  on himself.
+DuringCombat: >-
+  Vordakai casts quickened shield on the first round of combat (adjust his AC
+  down by 4 if the PCs attack him before he acts as a result) and activates the
+  oculus's true seeing as he casts waves of fatigue against the largest group of
+  foes. He trusts to his damage reduction to protect him from most damage, using
+  his spells and channeling negative energy in melee. He resorts to his touch
+  attack against foes who seem to be able to hurt him easily. When he's reduced
+  to fewer than 60 hit points, he uses dimension door to retreat to area W19,
+  whereupon he uses his touch and negative energy to heal all of his damage,
+  then uses dimension door to return to this room to begin the fight anew.
+Morale: >-
+  Vordakai is not willing to abandon his lair to intruders&#8211; as a result,
+  he does not flee from combat in this chamber, and it is here that his ultimate
+  fate shall be decided.
+Gear: >-
+  cloak of resistance +3, headband of mental prowess (+2 Int, +2 Cha, grants
+  ranks in Knowledge [planes]), oculus of Abaddon, ring of protection +2, soul
+  jar, phylactery (worth 3,500 gp if sold as an art object but worth
+  considerably more to Vordakai)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: lich
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '708'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

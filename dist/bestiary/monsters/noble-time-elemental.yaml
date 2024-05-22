@@ -1,0 +1,202 @@
+Name: Noble Time Elemental
+CR: '14'
+XP: '38400'
+Alignment: 'N'
+Size: Large
+Type: outsider
+SubType: (elemental, extraplanar, time)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +33
+AC: 25, touch 19, flat-footed 19
+AC_Mods: (+5 Dex, +1 dodge, +4 insight, +6 natural, -1 size)
+HP: '190'
+HD: (20d10+80)
+Saves: Fort +10, Ref +19, Will +18
+Fort: '10'
+Ref: '19'
+Will: '18'
+DefensiveAbilities: foresight
+DR: 15/-
+Immune: elemental traits, temporal magic
+SR: '25'
+Speed: fly 20 ft. (perfect)
+Melee:
+  - 2 slams +24 (2d6+4)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  alter age 1/day (Fort DC 24), multi-manifestation, temporal displacement 3/day
+  (20 minutes, Fort DC 24)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: 1/day
+      value: time stop (DC 21)
+AbilityScores:
+  - 18
+  - 20
+  - 18
+  - 18
+  - 18
+  - 15
+BaseAtk: '20'
+CMB: '25'
+CMD: '45'
+Feats:
+  - Combat Expertise
+  - Dodge
+  - Flyby Attack
+  - Improved Initiative
+  - Improved Natural Attack (slam)
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Perception)
+  - Weapon Finesse
+Skills:
+  - Diplomacy +22
+  - Fly +34
+  - Knowledge (arcana) +27
+  - Knowledge (history) +27
+  - Knowledge (local) +27
+  - Knowledge (planes) +27
+  - Perception +33
+  - Sense Motive +27
+  - Stealth +24
+  - Survival +27
+SQ: time jaunt (Will DC 24) Languages telepathy 100 ft.
+Environment: Plane of Time
+Organization: >-
+  solitary, troupe (noble plus 1-2 common time elementals), or court (royal plus
+  1-2 nobles and 1-4 common time elementals)
+Treasure: none
+Description_Visual: >-
+  This creature appears as a formless cloud of yellowish-red vapor or dust about
+  5 feet in diameter.
+Group: Elemental
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alter Age (Su)
+    description: >-
+      Once per day, a noble time elemental can age a creature simply by touching
+      it (this requires a melee touch attack). If successful, the target must
+      succeed on a Fortitude save or advance forward one aging step (from
+      adulthood to middle age, from middle age to old, from old to venerable,
+      and so on). If a character ages, he takes all the effects to his physical
+      ability scores, but does not gain any of the bonuses to his mental ability
+      scores. A venerable creature affected by this ability dies (from massive
+      cell death) and cannot be restored to life by mortal magic. The save DC is
+      Constitution-based. Alternately, a time elemental can use its alter age
+      ability to reduce a character's age. If the target is unwilling, the time
+      elemental must succeed on a melee touch attack. An unwilling target can
+      make a Fortitude save to avoid the effects. If the save fails, the target
+      ages one age step backwards (from middle age to adulthood for example) and
+      gains all bonuses to physical ability scores from his new age (simply flip
+      the penalties listed on the aging table into an equal numbered bonus). A
+      character that regresses in age does not reduce its mental ability scores.
+      This ability does not affect a character that has died from old age. A
+      time elemental can also use this ability to age vegetable matter 10-200
+      years (older or younger) or mineral matter 100-2,000 years (older or
+      younger). Royal time elementals can use this ability twice per day.
+  - name: Cell Death (Ex)
+    description: >-
+      Damage dealt by a time elemental's slam attack does not heal naturally
+      (but it can still be healed magically). Additionally, a creature slain by
+      a time elemental can only be raised through the successful casting of a
+      miracle, true resurrection, or wish spell.
+  - name: Foresight (Su)
+    description: >-
+      A time elemental can see a few seconds into the future. This ability
+      prevents it from being surprised, caught flat-footed, or flanked. It also
+      grants the time elemental an insight bonus to AC equal to its Wisdom
+      bonus. This ability can be negated, but the time elemental can restart it
+      as a free action on its next turn.
+  - name: Immunity to Temporal Magic (Ex)
+    description: >-
+      Time elementals are immune to all time-related spells and effects
+      (including time stop, temporal stasis, and the like). Note, the time stop
+      ability of the noble and royal time elementals can affect those time
+      elementals of lesser power (i.e., a noble can affect a common and a royal
+      can affect a noble or common). Multi-Manifestation (Su) A time elemental
+      exists in several other dimensions at any given time. As a standard
+      action, it can bring forth 1d4 of these manifestations to its current
+      locale in order to gain multiple attacks that round. Treat each
+      manifestation as a separate time elemental with hit points equal to the
+      time elemental's current hit points. A manifestation cannot use any of the
+      supernatural or spell-like abilities of the time elemental (a
+      manifestation does however gain the time elemental's foresight ability). A
+      time elemental cannot have more than four manifestations present at one
+      time. Because each manifestation is a part of the time elemental that
+      called them, a successful attack on the time elemental or any of its
+      manifestations deals an equal amount of damage to them all.
+  - name: Summon Time Elementals (Sp)
+    description: >-
+      Once per day, a royal time elemental can attempt to summon 1d4 common time
+      elementals with a 70% chance of success or 1-2 noble time elementals with
+      a 30% chance of success. This ability is the equivalent of a 9th-level
+      spell.
+  - name: Temporal Displacement (Su)
+    description: >-
+      By making a melee touch attack against a foe, a noble or royal time
+      elemental can remove that creature from the current time stream if it
+      fails a Fortitude save. The save is Constitution-based. On a failed save,
+      the creature disappears in a flash of white energy. For a number of
+      minutes equal to the time elemental's Hit Dice, the displaced creature is
+      effectively nonexistent. No form of magic, effect, or force can detect or
+      aid such a creature. A displaced creature can attempt a Wisdom check (DC
+      equal to the initial Fort DC) on its turn to break the effects and end the
+      displacement. The save is Constitution-based. When the effect ends, the
+      creature reappears in the same space it was in before being displaced. If
+      the space is occupied when the creature returns, it is shunted aside to
+      the first open space and takes no damage. A noble or royal time elemental
+      can use this ability three times per day.
+  - name: Time Jaunt (Su)
+    description: >-
+      A time elemental can slip through the time stream and appear anywhere on
+      the same plane of existence as if by greater teleport. This ability
+      transports the time elemental and up to four other creatures within a
+      30-foot radius. Unwilling creatures can attempt a Will save to avoid being
+      carried away. This ability is otherwise similar to the spell of the same
+      name (caster level equal to the elemental's HD). The save DC is
+      Constitution-based.
+  - name: Time Stop (Sp)
+    description: >-
+      Noble and royal time elementals can create an effect identical to a time
+      stop spell once per day (caster level equals the time elemental's HD).
+Description:
+  - >-
+    Time elementals are creatures from a plane most sages are unaware even
+    exists. A time elemental is a powerful creature formed of pure time and
+    matter such as is unknown to even the most learned of sages. It is unknown
+    how or why time elementals enter the Material Plane, as they cannot be
+    summoned using the standard summoning spells. Time elementals attack by
+    forming misty or smoky arms from their forms and lashing at opponents or by
+    spraying a fine mist onto their opponents so as to induce aging. Against
+    particularly powerful opponents, a time elemental uses its alter age ability
+    or (if of the royal sort) summons additional time elementals to its aid.
+    Credit The Time Elemental originally appeared in the First Edition Monster
+    Manual II (© TSR/Wizards of the Coast, 1983) and is used by permission.
+    Copyright Notice Author Scott Greene, based on original material by Gary
+    Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2572'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

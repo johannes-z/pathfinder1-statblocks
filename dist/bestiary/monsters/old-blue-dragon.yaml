@@ -1,0 +1,148 @@
+Name: Old Blue Dragon
+CR: '16'
+XP: '76800'
+Alignment: LE
+Size: Gargantuan
+Type: dragon
+SubType: (earth)
+Init: '3'
+Senses:
+  - dragon senses
+  - Perception +27
+Aura: electricity (10ft., 1d6 electricity), frightful presence (240 ft., DC 24)
+AC: 31, touch 5, flat-footed 31
+AC_Mods: (-1 Dex, +26 natural, -4 size)
+HP: '250'
+HD: (20d12+120)
+Saves: Fort +18, Ref +11, Will +16
+Fort: '18'
+Ref: '11'
+Will: '16'
+DR: 10/magic
+Immune: electricity, paralysis, sleep
+SR: '27'
+Speed: 40 ft., burrow 20 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +27 (4d6+15/19-20), 2 claws +26 (2d8+10), 2 wings +24 (2d6+5), tail
+    slap +24 (2d8+15)
+Space: 20 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (120-ft. line, DC 26, 16d8 electricity), crush (Medium
+  creatures, DC 26, 4d6+15), desert thirst (DC 26), mirage, tail sweep (Small
+  creatures, DC 26, 2d6+15)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +24)
+  values:
+    - label: At will
+      value: >-
+        ghost sound (DC 14), hallucinatory terrain (DC 18), minor image (DC 16),
+        ventriloquism (DC 15)
+SpellsKnown:
+  header: Spells Known (CL 9th; concentration +13)
+  values:
+    - label: 4th (5/day)
+      value: dimension door, enervation
+    - label: 3rd (7/day)
+      value: dispel magic, haste, vampiric touch
+    - label: 2nd (7/day)
+      value: darkness, invisibility, resist energy, shatter
+    - label: 1st (7/day)
+      value: alarm, mage armor, shield, true strike, unseen servant
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 14), detect magic, light, mage hand, mending,
+        read magic, resistance
+AbilityScores:
+  - 31
+  - 8
+  - 23
+  - 18
+  - 19
+  - 18
+BaseAtk: '20'
+CMB: '34'
+CMD: 43 (47 vs. trip)
+Feats:
+  - Combat Casting
+  - Dazzling Display
+  - Deadly Stroke
+  - Extend Spell
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Multiattack
+  - Shatter Defenses
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +27
+  - Fly +8
+  - Intimidate +27
+  - Knowledge (arcana) +27
+  - Knowledge (geography) +27
+  - Knowledge (local) +27
+  - Perception +27
+  - Spellcraft +27
+  - Stealth +10
+  - Survival +27
+Languages:
+  - Auran
+  - Common
+  - Draconic
+  - Giant
+  - Ignan
+SQ: sound imitation
+Environment: warm deserts
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  With scales the color of the desert sky, this large, serpentine dragon moves
+  with an unsettling grace.
+Group: Chromatic Dragon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Desert Thirst (Su)
+    description: >-
+      A blue dragon can cast create water at will (CL 20). Alternatively, it can
+      destroy an equal amount of liquid in a 10-foot burst. Unattended liquids
+      are instantly reduced to sand. Liquid-based magic items (such as potions)
+      and items in a creature's possession must succeed on a Will save (DC 26)
+      or be destroyed.
+  - name: Electricity Aura (Su)
+    description: >-
+      An old blue dragon is surrounded by an aura of electricity. Creatures
+      within 10 feet take 1d6 points of electricity damage at the beginning of
+      the dragon's turn.
+  - name: Mirage (Su)
+    description: >-
+      An old blue dragon can make itself appear to be in two places at once as a
+      free action for 20 rounds per day. This ability functions as project image
+      but the dragon can use its breath weapon through the mirage.
+  - name: Sound Imitation (Ex)
+    description: >-
+      A very young or older blue dragon can mimic any voice or sound it has
+      heard by making a successful Bluff check against a listener's Sense Motive
+      check.
+Description:
+  - >-
+    Blue dragons are consummate schemers and obsessively orderly. In combat,
+    blue dragons prefer to surprise foes if possible, and are not above
+    retreating if the odds turn against them. They prefer to lair near those
+    that they control, sometimes even within the confines of a city.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: old
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1531'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

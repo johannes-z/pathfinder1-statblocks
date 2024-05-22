@@ -1,0 +1,100 @@
+Name: Aspis Sorcerer Subtier 5-6
+CR: '3'
+XP: '800'
+Race: half-elf
+Class: sorcerer 4
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '1'
+Senses:
+  - low-light vision
+  - Perception +2
+AC: 16, touch 12, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, +1 Dex)
+HP: '28'
+HD: (4d6+12)
+Saves: Fort +3, Ref +2, Will +4; +2 vs. enchantments
+Fort: '3'
+Ref: '2'
+Will: '4'
+Save_Mods: +2 vs. enchantments
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - sickle +1 (1d6-1 plus trip) or dagger +1 (1d4-1/19-20)
+Ranged:
+  - mwk light crossbow +4 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: 7/day
+      value: elemental ray (1d6+2 fire)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 4th; concentration +8)
+  values:
+    - label: 2nd (4/day)
+      value: slow (DC 16)
+    - label: 1st (7/day)
+      value: burning hands (fire) (DC 15), grease, mage armor, protection from good,
+    - label: 0 (at will)
+      value: arcane mark, daze (DC 14), mage hand, message, read magic, resistance
+AbilityScores:
+  - 8
+  - 13
+  - 14
+  - 12
+  - 10
+  - 18
+BaseAtk: '2'
+CMB: '3'
+CMD: '13'
+Feats:
+  - Agile Maneuvers
+  - Combat Casting
+  - Eschew Materials
+Skills:
+  - Bluff +11
+  - Knowledge (arcana) +8
+  - Perception +2
+  - Spellcraft +8
+  - Use Magic Device +11
+RacialMods: +2 Perception
+Languages:
+  - Common
+  - Elven
+  - Infernal
+SQ: bloodline arcana, elf blood
+Source: PFS S3-Special
+IsTemplate: '0'
+Gender: Female
+Bloodline: Elemental (fire)
+BeforeCombat: >-
+  The sorcerer casts mage armor and protection from good if she suspects she'll
+  be in combat.
+DuringCombat: >-
+  The sorcerer hangs back, using grease and slow to hinder PCs who move around a
+  lot, then using her burning hands and firing her crossbow.
+Morale: If she is dropped to fewer than 10 hit points, the sorcerer attempts to flee.
+OtherGear: >-
+  masterwork light crossbow with 20 bolts, dagger, sickle, ring of protection
+  +1, 57 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without mage armor, the sorcerer has AC 12, touch 12, flat-footed 11.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6822'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

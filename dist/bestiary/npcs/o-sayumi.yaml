@@ -1,0 +1,145 @@
+Name: O-sayumi
+CR: '12'
+XP: '19200'
+Race: human
+Class: bard (lotus geisha) 13
+MonsterSource: Dragon Empires Primer 22
+Alignment: NG
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +15
+AC: 20, touch 15, flat-footed 15
+AC_Mods: (+4 armor, +4 Dex, +1 dodge, +1 shield)
+HP: '75'
+HD: (13d8+13)
+Saves: Fort +5, Ref +14, Will +7
+Fort: '5'
+Ref: '14'
+Will: '7'
+Speed: 30 ft.
+Melee:
+  - +1 defending fighting fan* +15/+10 (1d4+1/x3)
+  - >-
+    +1 defending fighting fan* +13/+8 (1d4+1/x3) and mwk fighting fan* +13/+8
+    (1d4/x3)
+Ranged:
+  - +2 shuriken +15/+10 (1d2+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 32 rounds/day (swift action, countersong, dirge of doom,
+  distraction, fascinate, inspire competence +4, inspire courage +3, inspire
+  greatness, soothing performance, suggestion), enrapturing performance (swift
+  action)
+SpellsKnown:
+  header: Bard Spells Known (CL 13th; concentration +17)
+  values:
+    - label: 5th (1/day)
+      value: mass suggestion (DC 21)
+    - label: 4th (4/day)
+      value: >-
+        break enchantment, hold monster (DC 20), modify memory (DC 20), zone of
+        silence
+    - label: 3rd (5/day)
+      value: >-
+        charm monster (DC 19), cure serious wounds, dispel magic, displacement,
+        good hope
+    - label: 2nd (6/day)
+      value: >-
+        calm emotions (DC 18), detect thoughts (DC 16), enthrall (DC 18), sound
+        burst (DC 16), tongues
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 17), cure light wounds, disguise self, hideous laughter
+        (DC 17), hypnotism (DC 17), unseen servant
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze (DC 16), detect magic, ghost sound (DC 14), lullaby
+        (DC 16), summon instrument
+AbilityScores:
+  - 10
+  - 18
+  - 12
+  - 14
+  - 8
+  - 19
+BaseAtk: '9'
+CMB: '9'
+CMD: '24'
+Feats:
+  - Dodge
+  - Eschew Materials
+  - Greater Spell Focus (enchantment)
+  - Improved Two-Weapon Fighting
+  - Lightning Reflexes
+  - Spell Focus (enchantment)
+  - Two-Weapon Defense
+  - Two-Weapon Fighting
+  - Weapon Finesse
+  - Weapon Focus (fighting fan*)
+Skills:
+  - Acrobatics +20**
+  - Bluff +20**
+  - Diplomacy +20**
+  - Disguise +14
+  - Escape Artist +14
+  - Fly +20**
+  - Knowledge (arcana) +12
+  - Knowledge (history) +18
+  - Knowledge (local) +18
+  - Knowledge (nobility) +18
+  - Perception +15
+  - Perform (dance) +20
+  - Perform (sing) +20
+  - Perform (string) +20
+  - Sense Motive +20**
+  - Sleight of Hand +13
+  - Spellcraft +11
+  - Stealth +13
+Languages:
+  - Aquan
+  - Common
+  - Minkaian
+  - Tien
+SQ: >-
+  jack-of-all-trades (use any skill), versatile performance (dance, sing,
+  string)
+Source: AP 53
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Enrapturing Performance (Su)
+    description: See below.
+Gender: Female
+BeforeCombat: If expecting combat, O-Sayumi drinks a potion of mage armor.
+DuringCombat: >-
+  O-Sayumi tries to avoid combat if possible, preferring to support her allies
+  with her bardic performance and spells from a distance, but she is more than
+  capable of defending herself with her two fighting fans if necessary.
+Morale: O-Sayumi flees if reduced to fewer than 50 hit points.
+Gear: potion of invisibility, potions of mage armor (2)
+OtherGear: >-
+  +1 defending fighting fan*, masterwork fighting fan*, +2 shuriken (5),
+  headdress of alluring charisma +4 (as headband of alluring charisma), samisen
+  of oracular vision (see page 61)
+Note: >-
+  * See Ultimate Combat.<br>** These skill bonuses are from O-Sayumi's versatile
+  performance ability.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: lotus geisha
+CompanionFamiliarLink: '0'
+id: '2342'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

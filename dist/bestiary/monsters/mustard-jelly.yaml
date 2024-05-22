@@ -1,0 +1,124 @@
+Name: Mustard Jelly
+CR: '7'
+XP: '3200'
+Alignment: 'N'
+Size: Large
+Type: ooze
+Init: '0'
+Senses:
+  - blindsight 60 ft.
+  - Perception +19
+Aura: poison aura (10 ft., DC 21)
+AC: 17, touch 9, flat-footed 17
+AC_Mods: ', +8 natural, -1 size)'
+HP: '105'
+HD: (10d8+60)
+Saves: Fort +9, Ref +3, Will +3
+Fort: '9'
+Ref: '3'
+Will: '3'
+DefensiveAbilities: divide, energy absorption
+DR: 5/magic
+Immune: gaze attacks, paralysis, poison, polymorph, sleep, stunning, visual effects
+Resist: cold 10
+SR: '18'
+Speed: 30 ft.
+Melee:
+  - slam +9 (2d4+3 plus 1d4 acid)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: acid, constrict (2d4+3 plus 1d4 acid)
+AbilityScores:
+  - 15
+  - 10
+  - 22
+  - 10
+  - 10
+  - 10
+BaseAtk: '7'
+CMB: '10'
+CMD: 20 (can't be tripped)
+Feats:
+  - Cleave
+  - Power Attack
+  - Skill Focus (Perception)
+  - Vital Strike
+  - Weapon Focus (slam)
+Skills:
+  - Perception +19
+  - Stealth +9
+Environment: temperate marshes
+Organization: solitary
+Treasure: none
+Description_Visual: This creature appears to be a yellowish-brown amoeba.
+Group: Jelly
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid (Ex)
+    description: >-
+      A mustard jelly secretes a digestive acid that dissolves only flesh. Any
+      melee hit deals acid damage.
+  - name: Divide (Ex)
+    description: >-
+      A mustard jelly can, as a standard action, split itself into two identical
+      jellies, each with half of the original's current hit points (round down).
+      A jelly with 10 hit points or less cannot divide itself. When divided,
+      each jelly moves faster than the original (base speed 40 feet per round).
+  - name: Energy Absorption (Ex)
+    description: >-
+      A mustard jelly is immune to electrical effects and magic missiles. If
+      targeted by an electricity effect (including area effects) or a magic
+      missile spell, the mustard jelly gains temporary hit points equal to the
+      amount of damage it would have otherwise sustained. These temporary hit
+      points last for 1 hour.
+  - name: Poison Aura (Ex)
+    description: >-
+      The mustard jelly exudes an aura of poison in a 10-foot radius centered on
+      it that slows (as the slow spell) any creature in the area as long as it
+      remains in the area and for 1d4 rounds afterward if it fails a DC 21
+      Fortitude save. A new save must be made each round a creature is within 10
+      feet of the mustard jelly. The save DC is Constitution-based.
+Description:
+  - >-
+    Mustard jelly appears to be a yellowish-brown form of the ochre jelly and is
+    thought to be a distant relative of said creature. However, the mustard
+    jelly is far more dangerous than its supposed relative because it is
+    intelligent.
+  - >-
+    The mustard jelly gives off a faint odor of mustard plants to a range of 20
+    feet. Though it possesses intelligence, a mustard jelly cannot speak.
+  - >-
+    A mustard jelly attacks by forming a pseudopod from its body and either
+    slashing or enveloping its foes. Mustard jellies prefer to attack from
+    ambush or where they have the upper hand on an opponent. If combat goes
+    against a mustard jelly, it does not hesitate to flee, though often it uses
+    this tactic to lure unsuspecting foes in closer.
+  - >-
+    A mustard jelly's natural weapons are treated as magic weapons for the
+    purpose of overcoming damage reduction.
+  - >-
+    Credit The Mustard Jelly originally appeared in the First Edition Monster
+    Manual II (© TSR/Wizards of the Coast, 1983) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Gary
+    Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2702'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

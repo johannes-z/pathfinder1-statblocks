@@ -1,0 +1,126 @@
+Name: The Dark Rider
+CR: '12'
+XP: '19200'
+Race: dullahan
+MonsterSource: Pathfinder RPG Bestiary 2 111
+Alignment: LE
+Size: Medium
+Type: undead
+Init: '7'
+Senses:
+  - blindsight 60 ft.
+  - Perception +21
+Aura: frightful presence (30 ft., DC 22),
+AC: 27, touch 11, flat-footed 26
+AC_Mods: (+12 armor, +1 Dex, +4 natural)
+HP: '142'
+HD: (15d8+75)
+HP_Mods: fast healing 5
+Saves: Fort +10, Ref +8, Will +12
+Fort: '10'
+Ref: '8'
+Will: '12'
+DefensiveAbilities: channel resistance +4
+Immune: undead traits
+SR: '22'
+Speed: 20 ft.
+Melee:
+  - >-
+    spine flail +17/+12/+7 (1d8+7/19-20 plus 1d6 cold), +2 handaxe +17/+12
+    (1d6+7/19-20/3 plus 1d6 cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  behead, chilling blade, death's calling (DC 22), hurl head, recruit hound,
+  summon mount
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +20)
+  values:
+    - label: Constant
+      value: air walk, tongues
+AbilityScores:
+  - 23
+  - 17
+  - —
+  - 14
+  - 16
+  - 21
+BaseAtk: '11'
+CMB: '17'
+CMD: '30'
+Feats:
+  - Combat Reflexes
+  - Double Slice
+  - Improved Initiative
+  - Improved Two-Weapon Fighting
+  - Mounted Combat
+  - Ride-By Attack
+  - Spirited Charge
+  - Two-Weapon Fighting
+Skills:
+  - Intimidate +23
+  - Perception +21
+  - Ride +13
+  - Sense Motive +21
+  - Stealth +16
+  - Survival +18
+Languages:
+  - Thassilonian
+  - Undercommon
+  - tongues
+Source: AP 63
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Behead (Ex)
+    description: >-
+      Any creature reduced to negative hit points by one of the Dark Rider's
+      weapon attacks must succeed at a DC 23 Fortitude save or be beheaded.
+      Beheading instantly slays the victim, and its head automatically tumbles
+      down to the Dark Rider's side to attach to his armor via a stained leather
+      cord. The Save DC is Strength-based.
+  - name: Hurl Head (Su)
+    description: >-
+      As a standard action up to once every 1d4 rounds, the dark rider may hurl
+      any severed head up to 30 feet. The head explodes on contact into a
+      20-foot burst of negative energy, dealing 10d6 points of negative energy
+      damage (Reflex DC 22 half) to all creatures in the area of effect. The
+      save DC is Charisma-based.
+  - name: Recruit Hound (Su)
+    description: >-
+      Any creature slain by the Dark Rider must succeed at a DC 22 Will save or
+      be immediately returned to life as a shadow mastiff-one of the dullahan's
+      hounds. The creature's soul remains trapped, cognizant of its fate and
+      able to recognize former companions but unable to directly defy the
+      dullahan's orders. As long as this shadow mastiff lives, the soul cannot
+      be restored to life via raise dead or other effects. The save DC is
+      Charisma-based.
+  - name: Summon Mount (Su)
+    description: >-
+      As a standard action, the Dark Rider can summon a unique mount with the
+      statistics given below.
+Gender: Male
+DuringCombat: >-
+  The Dark Rider prefers to fight from horseback, making frequent use of Mounted
+  Combat and Spirited Charge to lash at foes with his spine flail. If forced to
+  dismount, he maneuvers so that he can make full attacks. He uses his hurl head
+  ability against foes who cluster or try to stay at range.
+Morale: >-
+  The Dark Rider has no fear of death. He fights until destroyed, at which point
+  his body disintegrates and sinks into the ground, leaving behind only his
+  armor and gear. His mount immediately dies and fades into nothingness.
+Gear: +3 full plate, +2 handaxe, spine flail, three severed heads
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3515'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

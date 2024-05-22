@@ -1,0 +1,101 @@
+Name: Mistress Of The Fen
+CR: '12'
+XP: '19200'
+Race: water orm
+MonsterSource: Bestiary 2 280
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+SubType: (aquatic)
+Init: '4'
+Senses:
+  - darkvision 120 ft., low-light vision
+  - Perception +13
+AC: 26, touch 12, flat-footed 22
+AC_Mods: (+4 Dex, +14 natural, -2 size)
+HP: '157'
+HD: (15d10+75)
+HP_Mods: swamp healing 5
+Saves: Fort +14, Ref +13, Will +8
+Fort: '14'
+Ref: '13'
+Will: '8'
+DefensiveAbilities: elusive
+Immune: cold, poison
+Resist: electricity 20, fire 20
+Speed: 20 ft., swim 50 ft.
+Melee:
+  - bite +21 (4d6+8/19-20 plus grab and poison), tail slap +16 (2d8+4)
+Space: 15 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: swallow whole (3d6+12 bludgeoning damage, AC 17, 15 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +15)
+  values:
+    - label: At Will
+      value: control water, freedom of movement
+    - label: 5/day
+      value: diminish plants, plant growth
+    - label: 3/day
+      value: command plants, thorn bodyAPG, wall of thorns
+    - label: 1/day
+      value: hydraulic torrentAPG
+AbilityScores:
+  - 26
+  - 18
+  - 21
+  - 4
+  - 13
+  - 11
+BaseAtk: '15'
+CMB: +25 (+27 bull rush, +29 grapple)
+CMD: 39 (41 vs. bull rush, 43 vs. trip)
+Feats:
+  - Awesome Blow
+  - Critical Focus
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Improved Iron Will
+  - Iron Will
+  - Power Attack
+  - Sickening Critical
+Skills:
+  - Perception +13
+  - Stealth +9 (+17 in swamps)
+  - Swim +16
+RacialMods: +4 Perception, +8 Stealth in swamps
+Languages:
+  - Aquan (can't speak)
+SQ: amphibious, water travel
+Source: Mystery Monsters Revisited
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Elusive (Su)
+    description: See page 280 of Pathfinder RPG Bestiary 2.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 22; frequency 1/round for 6 rounds; effect 1d3
+      Con and 1d3 Dex; cure 2 consecutive saves.
+  - name: Swamp Healing (Su)
+    description: >-
+      As long as she is in a swamp, bog, or other wetland, the Mistress of the
+      Fen gains fast healing 5.
+  - name: Water Travel (Su)
+    description: See page 280 of Pathfinder RPG Bestiary 2.
+Gender: Female
+Note: APG See Advanced Player's Guide.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3719'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

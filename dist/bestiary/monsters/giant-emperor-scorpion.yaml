@@ -1,0 +1,86 @@
+Name: Giant Emperor Scorpion
+CR: '11'
+XP: '12800'
+Alignment: 'N'
+Size: Gargantuan
+Type: vermin
+Init: '1'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +5
+AC: 24, touch 7, flat-footed 23
+AC_Mods: (+1 Dex, +17 natural, -4 size)
+HP: '142'
+HD: (15d8+75)
+Saves: Fort +14, Ref +6, Will +6
+Fort: '14'
+Ref: '6'
+Will: '6'
+DefensiveAbilities: ferocity
+Immune: mind-affecting effects
+Speed: 50 ft., burrow 10 ft.
+Melee:
+  - 2 claws +18 (2d6+11 plus grab), sting +18 (2d6+11 plus poison)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: ambush pit, constrict (2d6+11), poison, pounce
+AbilityScores:
+  - 33
+  - 13
+  - 20
+  - —
+  - 12
+  - 2
+BaseAtk: '11'
+CMB: +26 (+30 grapple)
+CMD: 37 (49 vs. trip)
+Skills:
+  - Climb +15
+  - Perception +5
+  - Stealth -3 (+1 in deserts)
+RacialMods: +4 Climb, +4 Perception, +8 Stealth (+12 in deserts)
+Environment: warm deserts
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This massive scorpion erupts from the sand, its giant pincers snapping and its
+  tail stinger swaying threateningly.
+Group: Scorpion
+Source: PFRPG Bestiary 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ambush Pit (Ex)
+    description: >-
+      A giant emperor scorpion can spend 1 minute digging itself into the soil
+      or other ground debris. It then waits for its tremorsense to detect prey.
+      When a creature comes within range, it can erupt from the ground as a free
+      action as part of a charge, allowing it to use its pounce ability. When
+      dug in, the scorpion has improved cover granting it a +10 bonus on Stealth
+      checks.
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 22; frequency 1/round for 6 rounds; effect 1d4
+      Str and 1d4 Dex; cure 1 save. The save DC is Constitution-based.
+Description:
+  - >-
+    A giant emperor scorpion is an ambush predator, burying itself in soil or
+    sand until prey approaches.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5340'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

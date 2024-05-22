@@ -1,0 +1,111 @@
+Name: Balimar
+CR: '10'
+XP: '9600'
+Race: soulbound doll
+Class: summoner 9
+MonsterSource: Advanced Player's Guide 54, Pathfinder Bestiary 2 255
+Alignment: NE
+Size: Tiny
+Type: construct
+Init: '8'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception -1
+AC: 25, touch 16, flat-footed 21
+AC_Mods: (+6 armor, +4 Dex, +1 natural, +2 shield, +2 size)
+HP: '77'
+HD: (12 HD; 3d10+9d8+21)
+Saves: Fort +6, Ref +12, Will +10
+Fort: '6'
+Ref: '12'
+Will: '10'
+DR: 2/magic
+Immune: construct traits
+Weaknesses: susceptible to mind-affecting effects
+Speed: 20 ft.
+Melee:
+  - +1 dagger +11/+6 (1d2/19-20)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +13)
+  values:
+    - label: 5/day
+      value: summon monster V
+    - label: 3/day
+      value: light, mage hand, open/close, prestidigitation
+    - label: 1/day
+      value: levitate, inflict serious wounds (DC 15)
+SpellsKnown:
+  header: >-
+    Summoner Spells Known (CL 9th; concentration +11)  3rd (3)-displacement,
+    magic circle against law, rejuvenate eidolon*, wall of ice (DC 15)  2nd
+    (5)-bull's strength, glitterdust (DC 14), haste, see invisibility  1st
+    (6)-magic fang, protection from good, reduce person (DC 13), shield, unseen
+    servant  0-daze, detect magic, light, mending, read magic, resistance
+  values: []
+AbilityScores:
+  - 9
+  - 18
+  - —
+  - 13
+  - 8
+  - 15
+BaseAtk: '9'
+CMB: '11'
+CMD: '20'
+Feats:
+  - Combat Casting
+  - Extend Spell
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Bluff +5
+  - Knowledge (arcana) +10
+  - Knowledge (nobility) +14
+  - Spellcraft +10
+  - Stealth +12
+  - Use Magic Device +15
+Languages:
+  - Common
+  - Varisian
+SQ: >-
+  bond senses, life link, maker's call, shield ally, soul focus, strings,
+  transposition
+Source: The Harrowing
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Strings (Ex)
+    description: >-
+      Balimar and Balio spent millennia bound together by puppet strings. They
+      cannot move more than 5 feet away from one another, but may occupy the
+      same square without penalty. Consequently, Balimar benefits from his
+      shield ally class ability at all times (already figured into his stats).
+Gender: Male
+DuringCombat: >-
+  Balimar leaves physical combat to Balio, using his spells to buff and heal his
+  eidolon as needed and flinging fireballs from his wand.
+Morale: >-
+  If reduced to less than half his total hit points, Balimar apologizes for
+  antagonizing the PCs and offers to write them a new play to accentuate their
+  individual talents.
+Gear: wand of fireball (CL 10th, 13 charges)
+OtherGear: +2 chain shirt, +1 dagger, 348 gp
+Note: '* See Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '1778'
+id: '1777'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,89 @@
+Name: Gnoll Ravager
+CR: '11'
+XP: '12800'
+Race: Gnoll
+Class: antipaladin of Lamashtu 10
+MonsterSource: Advanced Player's Guide 118
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (gnoll)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +1
+Aura: cowardice (10 ft.), despair (10 ft.)
+AC: 21, touch 10, flat-footed 21
+AC_Mods: (+10 armor, +1 natural)
+HP: '122'
+HD: (12 HD; 2d8+10d10+46)
+Saves: Fort +16, Ref +5, Will +12
+Fort: '16'
+Ref: '5'
+Will: '12'
+Immune: disease
+Speed: 20 ft.
+Melee:
+  - +1 human-bane falchion +19/+14/+9 (2d4+10/15-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy (DC 16, 5d6), smite good 4/day (+1 attack and AC, +10
+  damage)
+SpellLikeAbilities:
+  header: Antipaladin Spell-Like Abilities (CL 10th; concentration +11)
+  values:
+    - label: At Will
+      value: detect good
+SpellsPrepared: >-
+  Antipaladin Spells Prepared (CL 7th; concentration +8)   2nd-bull's strength  
+  1st-doom (DC 12), litany of slothUC, protection from good
+AbilityScores:
+  - 23
+  - 10
+  - 18
+  - 6
+  - 12
+  - 13
+BaseAtk: '11'
+CMB: '17'
+CMD: '27'
+Feats:
+  - Cleave
+  - Great Cleave
+  - Improved Critical (falchion)
+  - Iron Will
+  - Power Attack
+  - Weapon Focus (falchion)
+Skills:
+  - Intimidate +16
+Languages:
+  - Gnoll
+SQ: >-
+  cruelties (fatigued, nauseated, staggered), fiendish boon (weapon +2, 2/day),
+  touch of corruption (6/day, 5d6)
+Source: Monster Codex
+IsTemplate: '0'
+BeforeCombat: The ravager casts bull's strength on himself.
+Gear: potion of cure moderate wounds
+OtherGear: >-
+  +1 full plate, +1 human-bane falchion, belt of mighty constitution +2, cloak
+  of resistance +1, 125 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bull's strength, the ravager's base statistics are Melee +1 human-bane
+  falchion +17/+12/+7 (2d4+7/15&#8211;20); Str 19; CMB +15; CMD 25.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6499'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

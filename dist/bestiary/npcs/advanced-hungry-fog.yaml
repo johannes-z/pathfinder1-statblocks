@@ -1,0 +1,90 @@
+Name: Advanced Hungry Fog
+CR: '7'
+XP: '3200'
+Race: Advanced Hungry Fog
+MonsterSource: Pathfinder RPG Bestiary 3 290, 152
+Alignment: 'N'
+Size: Huge
+Type: ooze
+Init: '-1'
+Senses:
+  - Perception -3
+Aura: bewitching brume (10 ft., DC 10)
+AC: 9, touch 7, flat-footed 9
+AC_Mods: (-1 Dex, +2 natural, -2 size)
+HP: '73'
+HD: (7d8+42)
+Saves: Fort +8, Ref +1, Will -1
+Fort: '8'
+Ref: '1'
+Will: '-1'
+DefensiveAbilities: gaseous, negative energy affinity
+DR: 10/ magic
+Immune: acid, electricity, sonic, ooze traits
+Resist: cold 10
+Weaknesses: vulnerability to wind
+Speed: fly 15 ft. (perfect)
+Melee:
+  - touch +5 (6d6 negative energy)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: enveloping mists (3d6 negative energy and staggered, DC 21)
+AbilityScores:
+  - —
+  - 8
+  - 22
+  - —
+  - 5
+  - 5
+BaseAtk: '5'
+CMB: '7'
+CMD: 16 (can't be tripped)
+Skills:
+  - Fly +3
+Source: PFS 8-24
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bewitching Brume (Su)
+    description: >-
+      Any creature within 10 feet of a hungry fog or currently being affected by
+      its enveloping mists must succeed on a DC 10 Will save at the start of
+      that creature's turn or become shaken for 1 round at the half-glimpsed
+      shapes of phantoms floating within the fog. This is a mind-affecting fear
+      effect. The save DC is Charisma-based.
+  - name: Enveloping Mists (Ex)
+    description: >-
+      A hungry fog can engulf foes who fail a Reflex save, as per the engulf
+      universal monster rule. A creature engulfed by a hungry fog does not gain
+      the pinned condition and may move normally-such a creature is not in
+      danger of suffocating, but as long as it begins its turn engulfed, it is
+      staggered in addition to the damage the attack causes. The save DC to
+      avoid the enveloping mists is Constitution-based.
+  - name: Gaseous (Ex)
+    description: >-
+      A hungry fog has a body composed of eerie mist. It can pass through small
+      holes or narrow openings, even mere cracks, but cannot enter water or
+      other liquid. It has no Strength score, and cannot manipulate objects as a
+      result.
+  - name: Vulnerable to Wind (Ex)
+    description: >-
+      A hungry fog is treated as a Tiny creature for the purposes of determining
+      the effects high wind has upon it.
+DuringCombat: >-
+  The fog floats over and engulfs the PCs. If damaged for more than half its hit
+  points, it flies upwards and attacks using its reach.
+Morale: Starving and mindless, the hungry fog fights until killed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11611'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

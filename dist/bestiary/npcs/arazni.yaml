@@ -1,0 +1,205 @@
+Name: Arazni
+CR: '26'
+XP: '2457600'
+Race: human
+Class: wizard 20/marshal 8
+MonsterSource: Pathfinder RPG Bestiary 188, Pathfinder RPG Mythic Adventures 38
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, human)
+Init: '19'
+Senses:
+  - arcane sight, darkvision 60 ft., see invisibility
+  - Perception +40
+Aura: fear (60 ft., DC 30)
+AC: 44, touch 22, flat-footed 38
+AC_Mods: (+6 armor, +5 deflection, +6 Dex, +1 insight, +10 natural, +6 shield)
+HP: '359'
+HD: (20d6+287)
+Saves: Fort +22, Ref +20, Will +24
+Fort: '22'
+Ref: '20'
+Will: '24'
+DefensiveAbilities: >-
+  channel resistance +4, fortification 50%, freedom of movement, hard to kill,
+  mythic saving throws, rejuvenation, unstoppable
+DR: 15/bludgeoning and magic
+Immune: cold, electricity, undead traits
+Speed: 30 ft., fly 40 ft. (good)
+Melee:
+  - +5 throwing rapier +23/+18 (1d6+12/18-20)
+  - touch +18 (1d8+10 negative energy plus paralyzing touch)
+Ranged:
+  - +5 throwing rapier +22 (1d6+12/18-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  abundant casting, arcane metamastery (2 spell slots), archmage arcana (arcane
+  surge), fight on, force of will, hand of the apprentice (17/day), inspire
+  minions, marshal's order (advance), metamagic mastery (7/day), mythic power
+  (18/day, surge +1d10), paralyzing touch (DC 30), surge of inspiration, words
+  of valor
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 20th; concentration +34)   9th-gate (2), meteor
+  swarm (2, DC 33), time stopM, wishM   8th-quickened charm monster (2, DC 32),
+  horrid wilting (2, DC 33), mass charm monster (DC 36), mind blank  
+  7th-quickened dispel magic (2), greater teleport, prismatic sprayM (DC 31),
+  spell turning (2)   6th-antimagic fieldM, disintegrate (DC 30), greater dispel
+  magic, greater heroism, leashed shacklesUM (DC 30), mass eagle's splendor,
+  quickened scorching ray   5th-feeblemind (DC 33), overland flight, telekinesis
+  (2, DC 29), quickened true strike (3)   4th-detect scrying, dimension door,
+  fear (DC 29), greater invisibility, shout (2, DC 28), terrible remorseUM (DC
+  32)   3rd-fireballM (3, DC 27), greater magic weapon, halt undead (DC 28),
+  hasteM, heroismM   2nd-arcane lock, false life, mirror image, resist energy
+  (2), see invisibility, spectral hand, whispering wind   1st-disguise self,
+  feather fall, mage armorM, magic missile (2), protection from good, shield,
+  true strike   0 (at will)-detect magic, ghost sound (DC 24), mage hand,
+  open/close
+AbilityScores:
+  - 24
+  - 22
+  - —
+  - 39
+  - 18
+  - 31
+BaseAtk: '10'
+CMB: '18'
+CMD: '39'
+Feats:
+  - Arcane Strike[M]
+  - Craft Wondrous Item
+  - Dual Path[M]
+  - Empower Spell
+  - Extend Spell
+  - Greater Spell Focus (enchantment)
+  - Improved Initiative
+  - Iron Will
+  - Leadership
+  - Lightning Reflexes
+  - Martial Weapon Proficiency (rapier)
+  - Mythic Spell Lore[M]
+  - Persistent Spell
+  - Quicken Spell
+  - Scribe Scroll
+  - Spell Focus[M] (enchantment)
+  - Spell Focus (necromancy)
+  - Spell PerfectionAPG (fireball)
+  - Toughness
+Skills:
+  - Acrobatics +7
+  - Appraise +19
+  - Bluff +12
+  - Climb +8
+  - Craft (alchemy) +19
+  - Diplomacy +31
+  - Disguise +24
+  - Escape Artist +7
+  - Fly +19
+  - Handle Animal +12
+  - Heal +5
+  - Intimidate +34
+  - Knowledge (arcana
+  - dungeoneering
+  - engineering
+  - history
+  - local
+  - nobility
+  - planes
+  - religion) +38
+  - Knowledge (geography
+  - nature) +32
+  - Linguistics +27
+  - Perception +40
+  - Ride +7
+  - Sense Motive +19
+  - Spellcraft +38
+  - Stealth +35
+  - Survival +5
+  - Swim +8
+  - Use Magic Device +31
+RacialMods: +8 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Abyssal
+  - Aklo
+  - Ancient Osiriani
+  - Aquan
+  - Auran
+  - Azlanti
+  - Celestial
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Giant
+  - Gnoll
+  - Gnome
+  - Goblin
+  - Halfling
+  - Ignan
+  - Infernal
+  - Kelish
+  - Orc
+  - Osiriani
+  - Sylvan
+  - Terran
+  - Undercommon
+SQ: >-
+  amazing initiative, arcane bond (rapier), divine source (Evil, Nobility
+  [Leadership], Protection [Defense]), exceptional resources, permanent spells,
+  recuperation
+Source: AP 142
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Exceptional Resources (Ex)
+    description: >-
+      Arazni has the wealth of a 20th-level PC rather than an NPC. This
+      increases her CR by 1. She used some of this wealth to acquire the
+      following books to gain inherent bonuses to her ability scores: manual of
+      gainful exercise +5, manual of quickness in action +4, tome of clear
+      thought +5, and tome of leadership and influence +5. Permanent Spells
+      Using permanency, Arazni gave herself the constant effects of arcane
+      sight, resistance, and see invisibility. A contingency effect casts harm
+      on her if she's brought below 100 hit points.
+Gender: Female
+BeforeCombat: >-
+  Every day, Arazni casts detect scrying, false life, greater magic weapon,
+  mythic mage armor, and overland flight on herself, using her arcane
+  metamastery path ability to gain the benefit of Extend Spell with each.
+DuringCombat: >-
+  Arazni begins combat by casting time stop and then casts spell turning, mind
+  blank, greater invisibility, haste, and resist energy on herself, in that
+  order. She uses her spells efficiently, such as by casting meteor swarm to
+  clear out assembled defenders.
+Morale: >-
+  Arazni's goal is not to slay Tar-Baphon-as she knows that such a victory would
+  be temporary without access to his phylactery-but instead to provoke the
+  volatile tyrant into unleashing the Radiant Fire onto her and his troops. As
+  such, she doesn't back down or retreat from fighting him.
+Gear: >-
+  lesser maximize metamagic rod, pearls of power (2, 3rd level), rod of
+  absorption, scroll of greater scrying, scroll of teleport, scroll of tongues,
+  wand of inflict light wounds (48 charges)
+OtherGear: >-
+  +5 arrow deflection mithral buckler, +1 throwing rapier, amulet of natural
+  armor +5, belt of physical might +6 (Str, Dex), cloak of resistance +5, dusty
+  rose prism ioun stone, eyes of the eagle, handy haversack, headband of mental
+  superiority +6, pale green prism ioun stone, ring of freedom of movement, ring
+  of protection +5, traveling spellbook with all sorcerer/wizard spells, diamond
+  worth 25,000 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: lich|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12521'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '1'
+MT: '8'

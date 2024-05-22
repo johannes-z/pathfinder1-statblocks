@@ -1,0 +1,133 @@
+Name: Hungerer
+CR: '15'
+XP: '51200'
+Alignment: CE
+Size: Huge
+Type: monstrous humanoid
+Init: '5'
+Senses:
+  - darkvision 90 ft., low-light vision
+  - Perception +28
+Aura: stench (30 ft., DC 25)
+AC: 31, touch 10, flat-footed 29
+AC_Mods: (+1 Dex, +1 dodge, +21 natural, -2 size)
+HP: '220'
+HD: (21d10+105)
+Saves: Fort +12, Ref +15, Will +18
+Fort: '12'
+Ref: '15'
+Will: '18'
+DR: 10/cold iron and piercing
+Immune: acid, poison
+Resist: electricity 10, fire 10
+SR: '26'
+Speed: 10 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    bite +29 (2d8+10/19-20/x4 plus 2d6 acid damage and 2 Wisdom drain), 2 claws
+    +29 (1d8+10 plus 2 Wisdom drain)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: devastating bite, vile spew
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +19)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: grease (DC 15), major image (DC 17), ventriloquism (DC 15)
+    - label: 3/day
+      value: >-
+        charm monster (DC 18), gust of wind (DC 16), quickened stinking cloud
+        (DC 17), suggestion (DC 17)
+    - label: 1/day
+      value: deep slumber (DC 17), mass charm monster (DC 22), mirror image
+AbilityScores:
+  - 30
+  - 13
+  - 20
+  - 13
+  - 18
+  - 19
+BaseAtk: '21'
+CMB: '33'
+CMD: 45 (can't be tripped)
+Feats:
+  - Critical Focus
+  - Dodge
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Power Attack
+  - Quicken Spell-Like Ability (stinking cloud)
+  - Staggering Critical
+  - Vital Strike
+Skills:
+  - Fly +32
+  - Intimidate +28
+  - Perception +28
+  - Sense Motive +25
+  - Stealth +17
+Languages:
+  - Abyssal
+  - Common
+  - Giant
+  - Thassilonian
+Environment: cold mountains
+Organization: solitary or feast (2-5)
+Treasure: standard
+Description_Visual: >-
+  A hideous mound of shuddering, pustule-encrusted flesh, this bloated
+  creature's gaping maw is filled with terrible teeth.
+Group: Lamia-kin
+Source: RotRL-AE-Appendix
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Devastating Bite (Ex)
+    description: >-
+      A hungerer's bite deals x4 damage on a successful critical hit. If this
+      damage is enough to reduce a victim to negative hit points, the victim
+      must succeed at a DC 30 Fortitude save to avoid being decapitated, bitten
+      in half, or otherwise instantly killed by the horrific wound. The save DC
+      is Strength-based.
+  - name: Vile Spew (Su)
+    description: >-
+      Whenever a hungerer takes damage, the resulting wound spews a great gout
+      of vile blood and acid. Any creature adjacent to a hungerer when it is
+      wounded takes 2d6 points of acid damage (Reflex DC 25 negates). The save
+      DC is Constitution-based.
+  - name: Wisdom Drain (Su)
+    description: >-
+      A hungerer drains 2 points of Wisdom each time it strikes a foe with its
+      bite or claw attacks. Unlike with other kinds of ability drain attacks, a
+      hungerer does not heal any damage when it uses its Wisdom drain.
+Description:
+  - >-
+    Once regular lamias, these hideously deformed creatures are the result of
+    terrible fleshwarping experiments that have rarely been repeated since the
+    fall of Thassilon. The heads and torsos of these creatures are nearly 10
+    feet in diameter, and a typical hungerer weighs about 20,000 pounds.
+  - >-
+    Hungerers are unnatural creatures, re-released into the world with Karzoug's
+    awakening. These terrors live in constant pain and serve as living
+    embodiments of hunger, insatiable in their constant quests for sustenance.
+    Although they prefer to tear and rend living flesh, hungerers can consume
+    almost any organic material, and might even gnaw on stone or metal without
+    ill effect when nothing else is available.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3299'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

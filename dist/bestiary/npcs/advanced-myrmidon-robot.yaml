@@ -1,0 +1,137 @@
+Name: Advanced Myrmidon Robot
+CR: '12'
+XP: '19200'
+Race: Advanced Myrmidon Robot
+MonsterSource: >-
+  Pathfinder Campaign Setting: Inner Sea Bestiary 45, Pathfinder RPG Bestiary
+  294
+Alignment: 'N'
+Size: Large
+Type: construct
+SubType: (robot)
+Init: '8'
+Senses:
+  - darkvision 60 ft., low-light vision, superior optics
+  - Perception +22
+AC: 29, touch 13, flat-footed 25
+AC_Mods: (+4 Dex, +16 natural, -1 size)
+HP: '167'
+HD: (15d10+30 plus 55 hp force field)
+Saves: Fort +10, Ref +14, Will +12
+Fort: '10'
+Ref: '14'
+Will: '12'
+DefensiveAbilities: hardness 10, resilient
+Immune: cold, construct traits
+Weaknesses: vulnerable to critical hits, vulnerable to electricity
+Speed: 20 ft., fly 90 ft. (perfect)
+Melee:
+  - >-
+    2 claws +24 (1d6+10 plus grab), 2 quantum lashes +24 touch (1d10
+    force/19-20)
+Ranged:
+  - integrated laser rifle +18 touch (2d10 fire)
+Space: 10 ft.
+Reach: 5 ft. (20 ft. with quantum lash)
+SpecialAttacks: combined arms, constrict (1d6+10), rockets
+AbilityScores:
+  - 31
+  - 19
+  - —
+  - 16
+  - 18
+  - 5
+BaseAtk: '15'
+CMB: +26 (+30 grapple)
+CMD: 40 (can't be tripped)
+Feats:
+  - Combat Reflexes
+  - Flyby Attack
+  - Great Fortitude
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+  - Point-Blank Shot
+  - Precise Shot
+Skills:
+  - Acrobatics +19
+  - Fly +28
+  - Knowledge (engineering) +21
+  - Perception +22
+  - Sense Motive +22
+Languages:
+  - Androffan
+  - Common
+  - Hallit
+Source: AP 89
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Combined Arms (Ex)
+    description: >-
+      When taking a full-attack action, a myrmidon robot can attack with melee
+      and ranged integrated weapons simultaneously.
+  - name: Force Field (Ex)
+    description: >-
+      A shimmering field of energy encases the myrmidon, granting it 55 bonus
+      hit points. All damage dealt to the robot is deducted from these hit
+      points first. As long as the force field is active, the myrmidon is immune
+      to critical hits. This force field has fast healing 12, but once its hit
+      points are reduced to 0, the force field shuts down and doesn't reactivate
+      for 24 hours.
+  - name: Integrated Laser Rifle (Ex)
+    description: >-
+      A myrmidon's eye is an integrated laser rifleTG. It cannot make iterative
+      attacks with this weapon. The laser rifle can be targeted by effects that
+      target manufactured weapons (such as sunder attempts). It doesn't provoke
+      an attack of opportunity when used in melee combat (and cannot be
+      harvested for use outside of the robot's body).
+  - name: Quantum Lash (Ex)
+    description: >-
+      The robot's two facial tentacles are primary melee attacks with a reach of
+      20 feet. They deal force damage; this damage is not modified by Strength
+      and cannot be improved via Power Attack. A quantum lash that strikes a
+      force effect has a chance to disrupt the effect. Against a magical force
+      effect (such as a wall of force), the myrmidon attempts a special caster
+      level check (with a bonus of +11) as if it were casting dispel magic
+      against the effect. Against a robot's force field or a force effect
+      granted by a technological item, the creature struck can resist having the
+      force effect negated with a successful DC 20 Fortitude save-failure
+      indicates that the force effect is negated for 1d10 rounds. If a robot's
+      force field is suppressed in this way, it returns with the same number of
+      hit points it had when it was deactivated. The save DC is
+      Intelligence-based.
+  - name: Resilient (Ex)
+    description: Myrmidon robots receive a +3 racial bonus on all saving throws.
+  - name: Rockets (Ex)
+    description: >-
+      As a standard action, a myrmidon can fire a rocket to a range of 800 feet.
+      A rocket explodes on impact in a 30-foot-radius burst, dealing 6d6 points
+      of bludgeoning damage to all creatures in the area (Reflex DC 20 half).
+      The robot carries a maximum of five rockets at any one time, and can
+      replenish fired rockets at a rate of one per 12 hours, crafting new
+      rockets from scrap metal and other collected components. The save DC is
+      Intelligence-based.
+  - name: Superior Optics (Ex)
+    description: >-
+      A myrmidon robot sees invisible creatures or objects as if they were
+      visible.
+DuringCombat: >-
+  The myrmidon focuses its attacks on targets wielding the highest number of
+  technological items first, as it's been ordered by the League to capture such
+  victims before any others.
+Morale: The myrmidon fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6608'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

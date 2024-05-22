@@ -1,0 +1,92 @@
+Name: Petrifern
+CR: 1/6
+XP: '65'
+Alignment: 'N'
+Size: Diminutive
+Type: plant
+Init: '-1'
+Senses:
+  - blindsight 30 ft.
+  - Perception -2
+AC: 15, touch 13, flat-footed 15
+AC_Mods: (-1 Dex, +2 natural, +4 size)
+HP: '5'
+HD: (1d8+1)
+Saves: Fort +3, Ref -1, Will -2
+Fort: '3'
+Ref: '-1'
+Will: '-2'
+DefensiveAbilities: toxic secretion
+Immune: plant traits
+Speed: 20 ft.
+Space: 1 ft.
+Reach: 0 ft.
+AbilityScores:
+  - 2
+  - 9
+  - 13
+  - —
+  - 6
+  - 9
+BaseAtk: '0'
+CMB: '-5'
+CMD: '1'
+SQ: petrify
+Environment: any forests
+Organization: solitary, bundle (2-14), or hive (15-60)
+Treasure: none
+Description_Visual: >-
+  This tiny, unassuming tree is shaped like a miniature person, with branches
+  for arms and roots for feet.
+Source: Familiar Folio
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Petrify (Ex)
+    description: >-
+      A petrifern can petrify itself as a standard action in order to defend
+      itself from predators. When it does so, the petrifern's natural armor
+      bonus to AC increases by 5, it gains resistance 10 to cold and fire, and
+      it can take 20 on Stealth checks to appear as a sprout or fallen tree
+      branch. While petrified, the petrifern can't move or take any actions. A
+      petrifern can remain petrified indefinitely, and can cease its
+      petrification as a standard action.
+  - name: Toxic Secretion (Ex)
+    description: >-
+      Petriferns secrete a bitter toxin meant to make them distasteful to
+      predators. Once per day when a creature touches a petrifern, the plant can
+      release its toxin, causing the attacker to become sickened for 1d4 rounds
+      if it fails a DC 11 Fortitude saving throw. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    The petrifern is an unusual plant creature that resembles a small
+    humanoid-shaped fern, and is able to walk about on its roots. It has the
+    unusual ability to petrify itself at will, hardening its branches and leaves
+    to resemble those of a plant that has been fossilized by natural means. A
+    petrifern's chemical makeup not only allows it to petrify itself, but also
+    doubles as a toxin that the plant can emit from its foliage when it senses
+    danger.
+  - >-
+    Like all plants, petriferns subsist on sunlight, oxygen, and water. But
+    unlike most flora, they can relocate themselves to ensure they always
+    receive an abundance of nutrients. Once rooted, a petrifern typically
+    petrifies itself until either the nearby soil is depleted of nutrients or
+    external factors cause it to seek sustenance elsewhere.
+  - Petriferns reach a maximum height of 1 foot and weigh up to 3 pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6739'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

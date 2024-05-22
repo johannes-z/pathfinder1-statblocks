@@ -1,0 +1,80 @@
+Name: Giant Whiptail Centipede
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Huge
+Type: vermin
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +4
+AC: 15, touch 8, flat-footed 14
+AC_Mods: (+7 natural, -2 size)
+HP: '38'
+HD: (4d8+20)
+Saves: Fort +9, Ref +1, Will +1
+Fort: '9'
+Ref: '1'
+Will: '1'
+Immune: mind-affecting effects
+Speed: 40 ft., climb 40 ft.
+Melee:
+  - bite +8 (2d6+7 plus poison), tail slap +3 (1d3 nonlethal plus trip)
+Space: 15 ft.
+Reach: 15 ft. (20 ft. with tail slap)
+AbilityScores:
+  - 25
+  - 11
+  - 21
+  - —
+  - 10
+  - 2
+BaseAtk: '3'
+CMB: '12'
+CMD: 22 (can't be tripped)
+Skills:
+  - Climb +15
+  - Perception +4
+  - Stealth +0
+RacialMods: +4 Perception, +8 Stealth
+SQ: compression
+Environment: temperate or warm forests or underground
+Organization: solitary, pair, or colony (3-6)
+Treasure: none
+Description_Visual: >-
+  An elephantine centipede scurries about, its double tail lashing angrily
+  behind it.
+Group: Centipede
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 17; frequency 1/round for 6 rounds; effect 1d4
+      Dex; cure 1 save. The save DC is Constitution-based.
+  - name: Tail Slap (Ex)
+    description: >-
+      A giant whiptail centipede's tail slap deals nonlethal damage and gains no
+      bonus from its Strength score on damage dealt.
+Description:
+  - >-
+    Whiptail centipedes are carrion eaters, though corpses large enough to
+    satiate them are a rarity. Corpses of Huge or larger creatures left to rot
+    often attract whiptail centipedes, who viciously defend their bounty against
+    any who would intrude upon their lairs.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Centipede, Whiptail (Giant)
+id: '1128'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

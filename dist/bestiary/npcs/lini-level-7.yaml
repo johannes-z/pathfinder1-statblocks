@@ -1,0 +1,112 @@
+Name: Lini Level 7
+CR: '7'
+XP: '3200'
+Race: gnome
+Class: druid 7
+Alignment: 'N'
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '1'
+Senses:
+  - low-light vision
+  - Perception +16
+AC: 20, touch 13, flat-footed 19
+AC_Mods: (+4 armor, +1 deflection, +1 Dex, +3 natural, +1 size)
+HP: '56'
+HD: (7d8+21)
+Saves: >-
+  Fort +9, Ref +4, Will +10; +2 vs. illusions, +4 vs. fey and plant-targeted
+  effects
+Fort: '9'
+Ref: '4'
+Will: '10'
+Save_Mods: +2 vs. illusions, +4 vs. fey and plant-targeted effects
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Speed: 20 ft.
+Melee:
+  - +1 sickle +5 (1d4-1)
+Ranged:
+  - sling +7 (1d3-2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: +1 on attack rolls against goblinoid and reptilian humanoids, wild shape 3/day
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +10)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound (DC 14), prestidigitation, speak with
+        animals
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 7th; concentration +11)   4th-dispel magic, ice
+  storm   3rd-daylight, neutralize poison, remove disease (DC 18)  
+  2nd-barkskin, bull's strength, flaming sphere (DC 16), spider climb  
+  1st-entangle (2, DC 15), goodberry, speak with animals (2)   0 (at
+  will)-detect magic, know direction, light, resistance
+AbilityScores:
+  - 6
+  - 12
+  - 16
+  - 12
+  - 18
+  - 16
+BaseAtk: '5'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Augment Summoning
+  - Natural Spell
+  - Self-Sufficient
+  - Spell Focus (conjuration)
+Skills:
+  - Craft (jewelry) +3
+  - Handle Animal +13
+  - Heal +14
+  - Knowledge (geography) +11
+  - Knowledge (nature) +13
+  - Perception +16
+  - Spellcraft +11
+  - Survival +13
+Languages:
+  - Common
+  - Druidic
+  - Gnome
+  - Goblin
+  - Sylvan
+SQ: >-
+  nature bond (animal companion, snow leopard named Droogami*), nature sense,
+  trackless step, wild empathy +10, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  Lini casts goodberry at the start of each day. Before combat, she casts
+  barkskin on herself and bull's strength and greater magic fang on her animal
+  companion.
+DuringCombat: Lini avoids melee, sending in her animal companion.
+Gear: >-
+  goodberries (5), potion of eagle's splendor, scrolls of call lightning (2),
+  wand of cure moderate wounds (32 charges), wand of greater magic fang (7
+  charges), wand of produce flame (43 charges), acid
+OtherGear: >-
+  +2 leather armor, +1 sickle, sling with 10 bullets, cloak of resistance +1,
+  druid's vestments, headband of inspired wisdom +2, ring of protection +1, belt
+  pouch, mistletoe, spell component pouch, stick collection, sunrods (2), trail
+  rations (2), 113 gp
+Note: '* Use the level 7 small cat on page 305 for animal companion stats.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without barkskin, Lini's statistics are AC 17, touch 13, flat-footed 16.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3972'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

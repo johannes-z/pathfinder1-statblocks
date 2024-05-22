@@ -1,0 +1,137 @@
+Name: Fire Yai
+CR: '15'
+XP: '51200'
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (fire, giant, native, oni, shapechanger)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +23
+AC: 29, touch 10, flat-footed 28
+AC_Mods: (+8 armor, +1 Dex, +11 natural, -1 size)
+HP: '229'
+HD: (17d10+136)
+HP_Mods: regeneration 5 (acid or cold)
+Saves: Fort +18, Ref +10, Will +15
+Fort: '18'
+Ref: '10'
+Will: '15'
+Immune: fire
+SR: '26'
+Weaknesses: vulnerability to cold
+Speed: 40 ft., fly 60 ft. (good)
+Speed_Mod: 30 ft., fly 40 ft. (good) in armor
+Melee:
+  - +1 katana* +27/+22/+17/+12 (2d6+16/18-20) or 2 slams +26 (1d10+10)
+Ranged:
+  - fiery missile +19 touch (4d6 fire plus burn)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: burn (2d6, DC 26), smoke form
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +17)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: darkness, invisibility (self only), scorching ray
+    - label: 3/day
+      value: >-
+        charm monster (DC 16), deep slumber (DC 15), fireball (DC 15), fire
+        shield (warm shield only), wall of fire
+    - label: 1/day
+      value: incendiary cloud (DC 20)
+AbilityScores:
+  - 31
+  - 16
+  - 26
+  - 14
+  - 17
+  - 15
+BaseAtk: '17'
+CMB: +28 (+30 vs. overrun)
+CMD: 41 (43 vs. overrun)
+Feats:
+  - Cleave
+  - Combat Reflexes
+  - Great Cleave
+  - Improved Initiative
+  - Improved Overrun
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Bluff +22
+  - Craft (weapons) +12
+  - Craft (armor) +12
+  - Diplomacy +11
+  - Disguise +11
+  - Fly +19
+  - Intimidate +22
+  - Knowledge (arcana) +14
+  - Perception +23
+  - Sense Motive +23
+  - Spellcraft +11
+  - Use Magic Device +14
+Languages:
+  - Common
+  - Giant
+SQ: change shape (Medium or Large humanoid; alter self or giant form I)
+Environment: temperate or warm hills or mountains
+Organization: >-
+  solitary, band (1 plus 4-8 fire giants), tribe (1 plus 20-30 fire giants), or
+  dynasty (1 plus 2-20 other oni)
+Treasure: standard (+1 banded mail, +1 katana*, other treasure)
+Description_Visual: >-
+  This fanged, three-eyed giant rages in its finely crafted armor, its skin as
+  red as a smoldering ember.
+Group: Oni
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fiery Missile (Su)
+    description: >-
+      As a swift action, a fire yai can launch a bolt of fire from its third
+      eye. This attack has a range of 180 feet with no range increment.
+  - name: Smoke Form (Sp)
+    description: >-
+      As a standard action, a fire yai can turn into a cloud of smoke. This
+      functions like gaseous form, except the cloud has the properties of the
+      smoke cloud from a pyrotechnics spell (Fort DC 26 negates the effects of
+      the smoke cloud). The fire yai can end this ability as a standard action.
+Description:
+  - >-
+    Fire yai prefer to live in luxury-an orderly and well-built abode is
+    essential. Even a lone fire yai prefers to build or inhabit a fortified
+    stone dwelling in its territory, and surrounds itself with as many luxuries
+    as it can acquire. Vain, greedy, and brutal, fire yai are the most impulsive
+    of their kind-several tales tell of clever heroes taunting fire yai to act
+    rashly. They rarely let challenges pass uncontested and react quickly to
+    squelch any threat to their rule.
+  - >-
+    While many fire yai seek out tribes of fire giants to infiltrate and rule,
+    not all follow this compulsion. Capable of assuming the form of many types
+    of humanoid, some fire yai seek to subtly invade and eventually rule entire
+    nations of humanoids from within.
+  - A fire yai is 16 feet tall and weighs 7,000 pounds.
+Note: '* See Ultimate Combat.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '2152'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

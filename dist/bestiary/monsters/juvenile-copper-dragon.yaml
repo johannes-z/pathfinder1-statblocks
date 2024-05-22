@@ -1,0 +1,117 @@
+Name: Juvenile Copper Dragon
+CR: '9'
+XP: '6400'
+Alignment: CG
+Size: Medium
+Type: dragon
+SubType: (earth)
+Init: '6'
+Senses:
+  - dragon senses
+  - Perception +17
+AC: 25, touch 12, flat-footed 23
+AC_Mods: (+2 Dex, +13 natural)
+HP: '115'
+HD: (11d12+44)
+Saves: Fort +11, Ref +9, Will +10
+Fort: '11'
+Ref: '9'
+Will: '10'
+DefensiveAbilities: uncanny dodge
+Immune: acid, paralysis, sleep
+Speed: 40 ft., fly 150 ft. (average)
+Speed_Mod: climb stone
+Melee:
+  - bite +16 (1d8+7/19-20), 2 claws +16 (1d6+5/19-20), 2 wings +11 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: breath weapon (60-ft. line, DC 19, 8d6 acid), slow breath
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +14)
+  values:
+    - label: At will
+      value: grease (DC 14), hideous laughter (DC 15)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 3rd; concentration +6)
+  values:
+    - label: 1st (6/day)
+      value: alarm, magic missile, silent image (DC 14)
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 13), light, message, read magic
+AbilityScores:
+  - 21
+  - 14
+  - 19
+  - 16
+  - 17
+  - 16
+BaseAtk: '11'
+CMB: +16 (+18 trip)
+CMD: 28 (34 vs. trip)
+Feats:
+  - Combat Expertise
+  - Improved Critical (bite
+  - claw)
+  - Improved Initiative
+  - Improved Trip
+  - Power Attack
+Skills:
+  - Bluff +17
+  - Craft (traps) +21
+  - Diplomacy +17
+  - Fly +16
+  - Perception +17 (+21 vs. traps)
+  - Perform (comedy) +14
+  - Sense Motive +17
+  - Stealth +16
+  - Use Magic Device +17
+Languages:
+  - Common
+  - Draconic
+  - Gnome
+  - Halfling
+SQ: trap master
+Environment: warm hills
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  Bright, shining copper scales run from the horn-crowned head to the ridged
+  tail of this long-winged dragon.
+Group: Metallic Dragon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Climb Stone (Ex)
+    description: >-
+      A copper dragon can climb on stone surfaces as though using the spider
+      climb spell.
+  - name: Slow Breath (Su)
+    description: >-
+      Instead of a line of acid, a copper dragon can breathe a cone of slowing
+      gas. Those in the cone must make a Fortitude save or be slowed (as per the
+      spell slow) for 1d6 rounds plus 1 round per age category of the dragon.
+  - name: Trap Master(Ex)
+    description: >-
+      A juvenile or older copper dragon receives a +1 bonus per age category on
+      Craft (traps) and Perception checks made to locate a trap. Upon becoming a
+      mature adult, he can also use Disable Device to disarm magic traps as if
+      he had the rogue's Trapfinding class feature.
+Description:
+  - >-
+    This whimsical dragon spends most of its time in combat trying to annoy and
+    frustrate its enemies.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: juvenile
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1581'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

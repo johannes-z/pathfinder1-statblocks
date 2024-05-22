@@ -1,0 +1,137 @@
+Name: Ptenoneph
+CR: '14'
+XP: '38400'
+Race: human
+Class: sorcerer 13
+MonsterSource: Pathfinder RPG Bestiary 144
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 23, touch 19, flat-footed 21
+AC_Mods: (+4 armor, +7 deflection, +1 Dex, +1 dodge)
+HP: '165'
+HD: (13d6+117)
+Saves: Fort +11, Ref +5, Will +7
+Fort: '11'
+Ref: '5'
+Will: '7'
+DefensiveAbilities: channel resistance +4, fated (+3), incorporeal
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +6 (12d6 (DC 23)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: malevolence (DC 23), telekinesis (DC 23), thought-draining gaze
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 13th; concentration +20)
+  values:
+    - label: 10/day
+      value: touch of destiny (+6)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 13th; concentration +20)
+  values:
+    - label: 6th (5/day)
+      value: flesh to stone (DC 23), mislead (DC 23), move earth
+    - label: 5th (7/day)
+      value: >-
+        break enchantment, contact other plane, dominate person (DC 22),
+        telekinesis (DC 22)
+    - label: 4th (7/day)
+      value: >-
+        dimension door, freedom of movement, lesser geas (DC 21), shout (DC 21),
+        stone shape
+    - label: 3rd (8/day)
+      value: >-
+        dispel magic, lightning bolt (DC 20), nondetection, protection from
+        energy, suggestion (DC 20)
+    - label: 2nd (8/day)
+      value: >-
+        blur, detect thoughts (DC 19), mirror image, obscure object, scorching
+        ray, whispering wind
+    - label: 1st (8/day)
+      value: alarm, endure elements, erase (DC 18), mage armor, magic missile, shield
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, detect magic, detect poison, light, mage
+        hand, mending, message, read magic
+AbilityScores:
+  - —
+  - 13
+  - —
+  - 14
+  - 8
+  - 24
+BaseAtk: '6'
+CMB: '7'
+CMD: '25'
+Feats:
+  - Combat Casting
+  - Craft Construct
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Dodge
+  - Eschew Materials
+  - Quicken Spell
+  - Toughness
+Skills:
+  - Bluff +23
+  - Fly +9
+  - Knowledge (arcana) +18
+  - Knowledge (planes) +15
+  - Perception +7
+  - Spellcraft +18
+  - Stealth +9
+Languages:
+  - Ancient Osiriani
+  - Auran
+  - Terran
+SQ: bloodline arcana
+Source: AP 83
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Thought Draining Gaze (Su)
+    description: >-
+      Ptenoneph's death, caused by his own failed attempt to drain his thoughts
+      into a canopic jar, grant him a ravenous hunger for new thoughts that he
+      can drink in through his eyes. This manifests as a gaze attack with a
+      range of 30 feet that deals 1d4 points of Intelligence drain (Will DC 23
+      negates). The save DC is Charisma-based.
+Gender: Male
+Bloodline: destined
+BeforeCombat: >-
+  In the unlikely event that Ptenoneph has a chance to prepare for combat, he
+  casts mage armor and shield. (Since he's unlikely to be able to do so, these
+  bonuses are not calculated into his stat block.)
+DuringCombat: >-
+  Ptenoneph favors magic over other attacks, but also wants to preserve PCs so
+  he can interrogate them. He uses dominate person and suggestion to try to
+  compel the PCs to cease attacking and follow his commands. Against foes who
+  are particularly resistant to mind-affecting effects, he resorts instead to
+  flesh to stone. On the first 2 rounds of combat, he casts quickened mage armor
+  and quickened shield. If faced with someone who wears the Mask of the
+  Forgotten Pharaoh or otherwise bears the visage of Hakotep, Ptenoneph becomes
+  enraged and overwhelmed with memories of his old master. In this case, he
+  abandons spellcasting and focuses his corrupting touch attacks on that target.
+Morale: Ptenoneph fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6221'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

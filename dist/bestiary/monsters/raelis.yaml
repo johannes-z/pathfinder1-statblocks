@@ -1,0 +1,238 @@
+Name: Raelis
+CR: '10'
+XP: '9600'
+Alignment: CG
+Size: Large
+Type: outsider
+SubType: (azata, chaotic, extraplanar, good)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +16
+AC: 24, touch 14, flat-footed 19
+AC_Mods: (+4 Dex, +1 dodge, +10 natural, -1 size)
+HP: '138'
+HD: (12d10+60)
+Saves: Fort +9, Ref +12, Will +10
+Fort: '9'
+Ref: '12'
+Will: '10'
+DR: 10/cold iron and evil
+Immune: electricity, petrification, rune mastery
+Resist: cold 10, fire 10
+Speed: 50 ft., fly 120 ft. (good)
+Melee:
+  - 2 slams +19 (2d8+7 plus stun)
+Space: 10 ft.
+Reach: 10 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: Constant
+      value: freedom of movement, nondetection
+    - label: At Will
+      value: alter self
+    - label: 3/day
+      value: dimension door, modify memory (DC 17)
+    - label: 1/day
+      value: greater teleport (self plus 50 lbs. of objects only), plane shift
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +16)
+  values:
+    - label: 6th (3/day)
+      value: >-
+        greater glyph of warding (DC 21), shadow walk, symbol of fear (DC 21),
+        symbol of persuasion (DC 21)
+    - label: 5th (5/day)
+      value: seeming, symbol of pain (DC 20), symbol of sleep (DC 20)
+    - label: 4th (7/day)
+      value: confusion (DC 18), greater invisibility, scrying (DC 18)
+    - label: 3rd (7/day)
+      value: >-
+        beast shape I, explosive runes (DC 18), glyph of warding (DC 18), haste,
+        illusory script (DC 18), lightning bolt (DC 17), sepia snake sigil (DC
+        18), suggestion (DC 17)
+    - label: 2nd (7/day)
+      value: >-
+        detect thoughts (DC 16), hypnotic pattern (DC 16), invisibility,
+        scorching ray, see invisibility
+    - label: 1st (7/day)
+      value: >-
+        erase, feather fall, hypnotism, silent image (DC 15), ventriloquism (DC
+        15)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, detect magic, detect poison, light, mage
+        hand, message, prestidigitation, read magic
+AbilityScores:
+  - 24
+  - 19
+  - 20
+  - 18
+  - 15
+  - 19
+BaseAtk: '12'
+CMB: +20 (+24 grapple)
+CMD: 34 (36 vs. grapple)
+Feats:
+  - Greater Grapple
+  - Improved Grapple
+  - Improved Unarmed Strike
+  - Power Attack
+  - Weapon Finesse
+  - Weapon Focus (slam)
+Skills:
+  - Acrobatics +18 (+26 when jumping)
+  - Bluff +18
+  - Fly +20
+  - Knowledge (geography) +15
+  - Knowledge (history) +15
+  - Knowledge (planes) +18
+  - Perception +16
+  - Perform (oratory) +15
+  - Spellcraft +18
+  - Stealth +14
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - truespeech
+SQ: mutable polymorph, word caller
+Environment: any (Elysium)
+Organization: solitary, pair, or band (3-6)
+Treasure: standard
+Description_Visual: >-
+  This lithe, bronze-skinned celestial wanders the worlds ceaselessly, seeking
+  tales of wonder and heroism.
+Group: Azata
+Source: AP 66
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Mutable Polymorph (Su)
+    description: >-
+      When using spells with the polymorph descriptor, raelises have an uncanny
+      amount of control over their target shape. While they still cannot use the
+      spells to transform into specific individuals, they can control the skin
+      tone, the hair color, the general body shape, and even the gender of the
+      creature they transform into, granting them a +20 bonus on Disguise checks
+      instead of the usual +10. This is a free action made as part of the
+      spellcasting.
+  - name: Rune Mastery (Ex)
+    description: >-
+      Raelises are masters of all magic based on runes or symbols. They
+      automatically add explosive runes, glyph of warding, greater glyph of
+      warding, sepia snake sigil, and all symbol spells to their list of spells
+      known and increase the DC for these spells by 1. Additionally, raelises
+      are immune to magical traps and effects that utilize runes or symbols,
+      such as sepia snake sigil and explosive runes. Spells A raelis casts
+      spells as a 12th-level sorcerer. It has no sorcerer bloodline and does not
+      gain any other sorcerer class abilities.
+  - name: Stun (Ex)
+    description: >-
+      A raelis's iron-hard fist delivers a powerful, stunning blow. A creature
+      struck by this attack must succeed at a DC 23 Fortitude save or be dazed
+      for 1 round. If the attack is a critical hit and the target fails its
+      save, the creature is instead stunned for 1d4 rounds. The save DC is
+      Strength-based.
+  - name: Word Caller (Su)
+    description: >-
+      Raelises automatically sense the presence and basic topic of any books,
+      scrolls, or other writings within 50 feet. By spending a standard action,
+      they gain a deeper understanding of the text, treating up to 100 pages of
+      nonmagical writing as if they had read it, or treating one magical spell
+      or scroll as if they had read it and successfully made a successful
+      Spellcraft check to understand it.
+Description:
+  - >-
+    Formed from the souls of authors, artists, and storytellers, raelises travel
+    to the farthest corners of Golarion and beyond searching for epic stories,
+    poems, and simple tall tales. As they travel and quest for ever more obscure
+    tales, they strive to make the world a brighter place-setting wrongs right
+    or acting as agents for divine beings.
+  - >-
+    Though raelises appear to be frail, they possess a wiry strength and
+    long-fingered hands ideally suited for the brawling and wrestling they enjoy
+    so much. Deep brown or gray eyes dominate their expressive faces, and smiles
+    and laughter come easy to their lips. Newly formed raelises have fair skin,
+    but it slowly darkens over the centuries as they spend long hours exposed to
+    the sun and elements. A raelis stands 9 feet tall and weighs close to 1,000
+    pounds.
+  - Ecology
+  - >-
+    The lust for new tales and stories drives raelises to the mortal planes more
+    often than most of their azata brethren.
+  - >-
+    Unable to just stand idly by, raelises aid mortals more frequently than do
+    other azatas, though they almost always do so disguised as humans or
+    sometimes even common or familiar animals. Raelises prefer to avoid physical
+    confrontation when dealing with mortals, but don't hesitate to inf luence
+    events in other ways. A raelis might travel from town to town spreading
+    tales and news to encourage rebellion in a poorly run kingdom, or insinuate
+    itself into an invader's army to sow dissension. Often a raelis's inf luence
+    isn't felt until it is long gone, as raelises use their powers to bend minds
+    in subtle ways to plant the seeds of change.
+  - >-
+    Essentially gender neuter in their natural form, raelises have an
+    androgynous beauty to their lean, sculpted bodies. When altering their
+    physical form via alter self or other magical abilities, they can choose to
+    take on male or female forms. Younger raelises often have a preferred
+    gender, but as they get older, raelises choose their gender based on mood or
+    as the task in front of them demands. They occasionally tryst with mortals,
+    though their lack of stable gender identity sometimes leads to confusion.
+  - >-
+    Ironically, bards and storytellers are the mortals least likely to receive
+    the aid of a raelis azata. Raelises almost universally believe the best
+    mortal works are born of strife and crisis. Shielding a known storyteller
+    from the trials of life could very well prevent the greatest epics from
+    being written. Exactly how far they are willing to let things go is a matter
+    of preference and a frequent topic of debate among their kind. Raelises like
+    to compare the trials and suffering of storytellers to the fire and anvil
+    that forges a great sword. Raelises do not enjoy this suffering, however,
+    and those who deliberately abuse or murder a storyteller while a raelis is
+    near discover swift justice after the fact.
+  - >-
+    Traveling is raelises' second love; they pride themselves on their knowledge
+    of obscure back roads and trails. While they all have favored trails,
+    raelises consider it a bad omen to make the exact same journey twice and
+    they go long distances out of their way to avoid doing so. After eons
+    exploring in this manner, the average raelis becomes a living atlas.
+  - >-
+    Though competent flyers, raelises prefer to walk or even run when they
+    travel. Even on the coldest and hottest of days they travel with their feet
+    bare. They love the feel of grass or even mud between their long toes, and
+    pass time reciting stories they have collected, getting a feel for the flow
+    of the verse and the rhythm of the words. Raelises can run for days at a
+    time without stopping to rest or even sleep, crossing great distances or
+    just scouting all available roads and trails in an area.
+  - Habitat & Society
+  - >-
+    Their ability to travel discretely and their familiarity with the cities and
+    geography of Golarion make raelises excellent spies and agents for deities
+    with similar interests. While they avoid long-lasting alliances, raelises
+    have much in common with the Empyreal Lord Sinashakti and often find
+    themselves exchanging favors with him. Less frequently, they strike bargains
+    with Cayden Cailean or even Desna in exchange for small favors or
+    information.
+  - >-
+    Though many raelises are poets and storytellers, they value the stories
+    mortals create. Few raelises worry overmuch about the accuracy of any given
+    story-they are more interested in the art of the telling rather than the
+    veracity of the tale. Some raelises even prefer the most outlandish tall
+    tales and outright fabrications, as long as the exaggeration furthers the
+    story.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3860'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

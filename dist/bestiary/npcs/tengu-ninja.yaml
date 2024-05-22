@@ -1,0 +1,100 @@
+Name: Tengu Ninja
+CR: '3'
+XP: '800'
+Race: Tengu
+Class: ninja 4
+MonsterSource: Pathfinder RPG Bestiary 263, Pathfinder RPG Ultimate Combat 13
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (tengu)
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +9
+AC: 16, touch 14, flat-footed 12
+AC_Mods: (+2 armor, +4 Dex)
+HP: '29'
+HD: (4d8+8)
+Saves: Fort +2, Ref +8, Will +1
+Fort: '2'
+Ref: '8'
+Will: '1'
+DefensiveAbilities: uncanny dodge
+Speed: 30 ft.
+Melee:
+  - mwk wakizashi +8 (1d6+1/18-20), bite +2 (1d3)
+  - dagger +7 (1d4+1/19-20), bite +2 (1d3)
+Ranged:
+  - blowgun +7 (1d2 plus poison)
+  - dagger +7 (1d4+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +2d6
+AbilityScores:
+  - 12
+  - 18
+  - 12
+  - 13
+  - 10
+  - 13
+BaseAtk: '3'
+CMB: '7'
+CMD: '18'
+Feats:
+  - Agile Maneuvers
+  - Weapon Finesse
+Skills:
+  - Acrobatics +11
+  - Climb +10
+  - Disguise +9
+  - Escape Artist +11
+  - Intimidate +8
+  - Knowledge (local) +7
+  - Linguistics +9
+  - Perception +9
+  - Sleight of Hand +11
+  - Stealth +15 (+16 when stationary)
+Languages:
+  - Common
+  - Skald
+  - Tengu
+  - Tien
+SQ: >-
+  gifted linguist, ki pool (3), ninja tricks (surprise attack, vanishing trick),
+  no trace +1, poison use, swordtrained
+Source: AP 50
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Vanishing Trick (Su)
+    description: >-
+      As a swift action, a ninja can disappear for 1 round per level. This
+      ability functions as invisibility. Using this ability uses up 1 ki point.
+BeforeCombat: The ninja drink their potions of blur before attacking.
+DuringCombat: >-
+  The ninja fire blowgun darts poisoned with deathblade poison on the first
+  round of combat, before drawing their wakizashi and leaping to attack,
+  flanking foes where possible.
+Morale: The ninja fight to the death.
+Gear: >-
+  potion of blur, potion of disguise self, blue whinnis poison (2 doses),
+  deathblade poison (1 dose)
+OtherGear: >-
+  leather armor, blowgun and 10 darts, daggers (3), masterwork wakizashi (see
+  sidebar on page 27), climber's kit, 50-ft. silk rope with grappling hook,
+  shinobi shozoku (see sidebar on page 27)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1871'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

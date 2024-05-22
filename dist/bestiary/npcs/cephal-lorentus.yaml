@@ -1,0 +1,113 @@
+Name: Cephal Lorentus
+CR: '8'
+XP: '4800'
+Race: human
+Class: wizard 7
+MonsterSource: Advanced Bestiary 105
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (human)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +1
+AC: 20, touch 12, flat-footed 20
+AC_Mods: (+4 armor, +2 deflection, +4 shield)
+HP: '66'
+HD: (7d6+42)
+Saves: Fort +6, Ref +2, Will +8
+Fort: '6'
+Ref: '2'
+Will: '8'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - +1 dagger +6 (1d4+3/19-20), bite +0 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: brain consumption, command zombies, hand of the apprentice (5/day)
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 7th; concentration +9)  4th-fire shield 
+  3rd-fireball (DC 15), fly  2nd-acid arrow, glitterdust (DC 14), mirror image,
+  scorching ray  1st-burning hands (DC 13), mage armor, magic missile (2),
+  shield  0 (at will)-bleed (DC 12), dancing lights, message, touch of fatigue
+  (DC 12)
+AbilityScores:
+  - 14
+  - 11
+  - —
+  - 14
+  - 12
+  - 18
+BaseAtk: '3'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Craft Wondrous Item
+  - Improved Initiative
+  - Iron Will
+  - Scribe Scroll
+  - Toughness
+Skills:
+  - Handle Animal +11
+  - Knowledge (arcana) +12
+  - Knowledge (geography) +12
+  - Knowledge (nature) +12
+  - Survival +8
+Languages:
+  - Common
+  - Draconic
+  - Giant
+  - Hallit
+  - Sylvan
+SQ: arcane bond (dagger)
+Source: AP 33
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Brain Consumption (Ex)
+    description: >-
+      If Cephal deals damage with his bite attack against a helpless or pinned
+      living foe, the bitten creature must make a DC 15 Fortitude save or be
+      reduced to a negative hit point total equal to 1 lower than his current
+      Constitution as Cephal begins to consume the victim's brain. If Cephal
+      bites a foe who already has negative hit points, he automatically kills
+      the foe by eating his brain. The save DC is Strength-based.
+  - name: Command Zombies (Su)
+    description: >-
+      Cephal can automatically command all normal zombies within 30 feet as a
+      free action. Normal zombies never attack Cephal unless compelled.
+Gender: Male
+BeforeCombat: >-
+  Cephal casts fly, mage armor, shield, and fire shield if he has a chance to do
+  so before combat begins. He then flies to the cavern ceiling to use the
+  stalactites as cover.
+DuringCombat: >-
+  Cephal remains near the ceiling as long as possible, targeting his magic at
+  spellcasters and characters using ranged weapons. He casts glitterdust on
+  those making ranged attacks. If he depletes his ranged attacks and hand of the
+  apprentice uses, he swoops down to finish the fight with his dagger and bite
+  attacks.
+Morale: Cephal fights until destroyed.
+Gear: >-
+  +1 dagger, ring of protection +2, spell component pouch, spellbook (contains
+  all cantrips and currently prepared spells)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: dread zombie|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '707'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,136 @@
+Name: Nobunobu
+CR: '11'
+XP: '12800'
+Race: atamahuta
+MonsterSource: 'Pathfinder Adventure Path #51 86'
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (giant, native, oni, shapechanger)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +24
+AC: 25, touch 10, flat-footed 24
+AC_Mods: (+7 armor, +1 Dex, +8 natural, -1 size)
+HP: '147'
+HD: (14d10+70)
+HP_Mods: regeneration 5 (acid or fire)
+Saves: Fort +14, Ref +5, Will +12
+Fort: '14'
+Ref: '5'
+Will: '12'
+DefensiveAbilities: ward off distractions
+DR: 10/adamantine
+SR: '22'
+Speed: 30 ft., fly 40 ft. (good)
+Melee:
+  - monk's spade* +20/+20/+15/+10 (1d8+10)
+Ranged:
+  - javelin +14 (1d8+7)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: double weapon mastery, spellstrike
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +14)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: 3/day
+      value: >-
+        chill touch (DC 14), dimension door, fireball (DC 16), haste, rage,
+        shocking grasp
+    - label: 1/day
+      value: black tentacles, stoneskin, wall of fire
+AbilityScores:
+  - 25
+  - 12
+  - 20
+  - 13
+  - 16
+  - 17
+BaseAtk: '14'
+CMB: +22 (+24 sunder)
+CMD: 33 (35 vs. sunder)
+Feats:
+  - Cleave
+  - Combat Casting
+  - Improved Initiative
+  - Improved Sunder
+  - Power Attack
+  - Spell Penetration
+  - Vital Strike
+Skills:
+  - Bluff +20
+  - Disguise +20
+  - Fly -2
+  - Intimidate +20
+  - Knowledge (planes) +18
+  - Perception +24
+  - Sense Motive +20
+  - Spellcraft +18
+Languages:
+  - Giant
+  - Minkaian
+  - Orc
+  - Tien
+SQ: change shape (Large humanoid, giant form I)
+Source: AP 53
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Double Weapon Mastery (Ex)
+    description: >-
+      While making a full attack, an atamahuta controls its arms with both heads
+      and does not take a penalty on attack or damage rolls for attacking with a
+      double weapon.
+  - name: Spellstrike (Su)
+    description: >-
+      An atamahuta can imbue its weapon with magical properties using its
+      spell-like abilities. Whenever an atamahuta casts a spell with a range of
+      "touch" from its spell-like abilities, it can deliver the spell through
+      any weapon it is holding as part of a free melee attack at its highest
+      base attack bonus as part of casting its spell. If successful, this melee
+      attack deals its normal damage as well as inflicts the effects of the
+      spell. This attack uses the weapon's normal critical threat range, but the
+      spell effect deals only double damage on a successful critical hit, while
+      the weapon damage uses the weapon's normal critical multiplier. An
+      atamahuta cannot make a full attack during the same round that it uses a
+      spell-like ability unless another effect would allow it to do so.
+  - name: Ward Off Distractions (Ex)
+    description: >-
+      An atamahuta uses one of its heads to defend against attacks while the
+      other is using a spell-like ability, giving it a +4 bonus to AC against
+      attacks of opportunity while casting.
+Gender: Male
+BeforeCombat: >-
+  The atamahuta drink their potions of fly and cast stoneskin before entering
+  combat.
+DuringCombat: >-
+  The oni cast haste on the first round of combat. Each round, one of them jumps
+  down into the courtyard (the equivalent of a charge), while the one still
+  above casts fireball, black tentacles, or wall of fire to hinder defenders.
+  Once both oni are in the courtyard, they attack the closest foes, channeling
+  their spell-like abilities through their weapons with their spellstrike
+  ability and attempting to sunder the weapons of powerful opponents.
+Morale: >-
+  If reduced to 75 hit points or fewer, an atamahuta casts rage on himself and
+  his partner and they continue attacking. Thereafter, they fight savagely to
+  the death.
+Gear: potions of fly (2)
+OtherGear: kusari gusoku*, javelins (5), monk's spade*
+Note: '* See Ultimate Combat.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2338'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,137 @@
+Name: The Star Seed
+CR: '19'
+XP: '204800'
+Race: The Star Seed
+Alignment: NE
+Size: Large
+Type: plant
+SubType: (aquatic, evil, Great Old One)
+Init: '15'
+Senses:
+  - blindsight 60 ft., low-light vision
+  - Perception +34
+Aura: unspeakable presence (300 ft., DC 28)
+AC: 38, touch 20, flat-footed 37
+AC_Mods: (+1 Dex, +10 insight, +18 natural, -1 size)
+HP: '348'
+HD: (24d8+240)
+HP_Mods: fast healing 15
+Saves: Fort +24, Ref +11, Will +17
+Fort: '24'
+Ref: '11'
+Will: '17'
+DefensiveAbilities: all-around vision, amorphous
+DR: 15/ slashing
+Immune: >-
+  ability damage, aging, cold, death effects, disease, energy drain,
+  mind-affecting effects, paralysis, petrification, plant traits, poison
+Resist: acid 20, fire 20
+SR: '30'
+Speed: 30 ft.
+Melee:
+  - 4 tentacles +29 (3d6+12/19-20 plus dread decay and grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  constrict (3d6+18), create seeded, dread decay, fungal snares, insanity (DC
+  28), powerful tentacles,
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 19th; concentration +25)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At Will
+      value: animate dead, dream, greater dispel magic, nightmare (DC 21)
+    - label: 3/day
+      value: control plants (DC 24), demand (DC 24)
+    - label: 1/day
+      value: horrid wilting (DC 24), symbol of insanity (DC 24)
+AbilityScores:
+  - 35
+  - 12
+  - 30
+  - 16
+  - 25
+  - 23
+BaseAtk: '18'
+CMB: '31'
+CMD: '52'
+Feats:
+  - Combat Reflexes
+  - Critical Focus
+  - Greater Vital Strike
+  - Improved Critical (tentacle)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Staggering Critical
+  - Stunning Critical
+  - Vital Strike
+Skills:
+  - Climb +18
+  - Knowledge (arcana
+  - geography
+  - nature) +23
+  - Perception +34
+  - Spellcraft +27
+  - Swim +21
+Languages:
+  - Aklo
+  - Common
+  - telepathy 100 ft.
+SQ: amphibious, compression, no breath, returning Great Old One
+Source: AP 114
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Seeded (Su)
+    description: >-
+      Any creatures killed by the Star Seed rise as seeded creatures in 1d10
+      rounds. (See page 90 of Pathfinder Adventure Path #113: What Grows Within
+      for more information on seeded creatures.)
+  - name: Dread Decay (Su)
+    description: >-
+      The Star Seed's tentacles inflict a horrible affliction that withers the
+      flesh, digesting the victims with alarming speed. This withering begins
+      when the tentacle deals damage and continues for 4 rounds thereafter. Each
+      round the rot persists, the target must succeed at a DC 29 Fortitude save
+      or take 2 points of Constitution damage and 2 points of Strength damage.
+      If the target succeeds at two consecutive saving throws, the effect is
+      cured. Heal also ends the effect.
+  - name: Fungal Snares (Ex)
+    description: >-
+      As a standard action, the Star Seed can shoot out streams of sickly fungus
+      that can snag targets at a range of 60 feet. The Star Seed can fire three
+      of these each round and must make a successful ranged touch attack to hit
+      a target. Targets struck take 3d6 points of damage and are subject to grab
+      and dread decay.
+  - name: Powerful Tentacles (Ex)
+    description: The Star Seed's tentacle attacks are treated as primary natural attacks.
+  - name: Returning Great Old One (Ex)
+    description: >-
+      The Star Seed is a merger of Xhamen-Dor and Count Lowls. Until Count Lowls
+      is forever subsumed into the Great Old One, the Star Seed isn't a full
+      Great Old One. However, it gains all of the benefits from the Great Old
+      One subtype (Pathfinder RPG Bestiary 4 306) save for immortality and
+      mythic.
+  - name: Unspeakable Presence (Su)
+    description: >-
+      Failing a DC 28 Will save against the Star Seed's unspeakable presence
+      causes a victim to become nauseated for 1d2 rounds and sickened for an
+      additional 1d4 rounds. The save DC is Charisma-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11099'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,78 @@
+Name: Shadow
+CR: '3'
+XP: '800'
+Race: Shadow
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +8
+AC: 15, touch 15, flat-footed 12
+AC_Mods: (+2 deflection, +2 Dex, +1 dodge)
+HP: '16'
+HD: (3d8+6)
+Saves: Fort +3, Ref +3, Will +5; channel resistance +2
+Fort: '3'
+Ref: '3'
+Will: '5'
+Save_Mods: channel resistance +2
+DefensiveAbilities: incorporeal
+Immune: undead traits
+Speed: fly 40 ft. (good)
+Melee:
+  - incorporeal touch +4 (1d6 Str)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, Strength damage
+AbilityScores:
+  - —
+  - 14
+  - —
+  - 6
+  - 12
+  - 14
+BaseAtk: '2'
+CMB: '4'
+CMD: '15'
+Feats:
+  - Dodge
+  - Skill Focus (Perception)
+Skills:
+  - Fly +11
+  - Perception +8
+  - Stealth +8 (+12 in dim light
+  - +4 in bright light)
+RacialMods: +4 in dim light, -4 in bright light
+Languages:
+  - Common (cannot speak)
+SQ: create spawn
+Source: Crypt Of The Everflame
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      A humanoid creature killed by a shadow's Strength damage attack becomes a
+      shadow under the control of its killer in 1d4 rounds.
+  - name: Strength Damage (Su)
+    description: >-
+      A shadow's touch deals 1d6 points of Strength damage to a living creature.
+      This is a negative energy effect. A creature dies if this Strength damage
+      equals or exceeds its actual Strength score.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4049'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

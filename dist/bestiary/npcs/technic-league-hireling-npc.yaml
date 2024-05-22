@@ -1,0 +1,106 @@
+Name: Technic League Hireling Npc
+CR: '3'
+XP: '800'
+Race: Human
+Class: rogue 4
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +8
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+3 armor, +4 Dex, +1 shield)
+HP: '25'
+HD: (4d8+4)
+Saves: Fort +5, Ref +9, Will +1
+Fort: '5'
+Ref: '9'
+Will: '1'
+DefensiveAbilities: evasion, trap sense +1, uncanny dodge
+Speed: 30 ft.
+Melee:
+  - dagger +4 (1d4+1/19-20)
+Ranged:
+  - dagger +7 (1d4+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +2d6
+AbilityScores:
+  - 13
+  - 18
+  - 12
+  - 14
+  - 8
+  - 10
+BaseAtk: '3'
+CMB: '4'
+CMD: '18'
+Feats:
+  - Alertness
+  - Deft Hands
+  - Great Fortitude
+Skills:
+  - Acrobatics +11
+  - Appraise +7
+  - Bluff +7
+  - Climb +8
+  - Disable Device +15 (+14 vs. electronic devices)
+  - Escape Artist +11
+  - Knowledge (engineering) +6
+  - Knowledge (local) +6
+  - Perception +8
+  - Sense Motive +8
+  - Sleight of Hand +13
+  - Stealth +11
+  - Survival +3
+  - Swim +5
+Languages:
+  - Common
+  - Giant
+  - Hallit
+  - Orc
+SQ: >-
+  implanted tracker chip, rogue talents (ledge walker, trap spotter),
+  trapfinding +2
+Source: Numeria Land Of Fallen Stars
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Pick (Ex)
+    description: >-
+      This electronic lockpick allows the user to attempt Disable Device checks
+      against electronic devices and grants its user a +1 competence bonus on
+      the check. Thieves' tools do not apply to Disable Device checks against
+      electronic devices. An e-pick has 10 charges; using the e-pick as part of
+      a Disable Device check consumes one charge. An e-pick weighs 1 pound and
+      is worth 100 gp.
+  - name: Implanted Tracker Chip (Ex)
+    description: >-
+      This chip allows its carrier to be tracked remotely with a chipfinder (see
+      Pathfinder Campaign Setting: Technology Guide). Finding evidence of it
+      requires a full-round search of the carrier and a successful DC 30
+      Perception check. Extracting the chip requires a slashing weapon and deals
+      1 point of damage to the carrier.
+Gear: >-
+  potions of cure light wounds [2], potion of delay poison, acid [2],
+  alchemist's fire, antitoxin, smokesticks [2], mwk studded leather, mwk
+  buckler, dagger, cloak of resistance +1, backpack, black e-pick, climber's
+  kit, crowbar, everburning torch, grappling hook, magnifying glass, masterwork
+  thieves' tools, signal whistle, silk rope [100 ft.], sunrod [2], tindertwig
+  [4], waterskin
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6105'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

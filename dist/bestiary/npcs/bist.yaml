@@ -1,0 +1,119 @@
+Name: Bist
+CR: '9'
+XP: '6400'
+Race: halfling
+Class: rogue 3/sorcerer 4/arcane trickster 3
+Alignment: 'N'
+Size: Small
+Type: humanoid
+SubType: (halfling)
+Init: '5'
+Senses:
+  - Perception +8
+AC: 25, touch 17, flat-footed 19
+AC_Mods: (+4 armor, +5 Dex, +1 dodge, +4 shield, +1 size)
+HP: '75'
+HD: (10 HD; 7d6+3d8+34)
+Saves: Fort +6, Ref +12, Will +8; +2 vs. fear
+Fort: '6'
+Ref: '12'
+Will: '8'
+Save_Mods: +2 vs. fear
+DefensiveAbilities: evasion, fated (+1), trap sense +1
+Speed: 20 ft.
+Melee:
+  - +1 rapier +13 (1d4+2/15-20)
+  - mwk dagger +12 (1d3+1/19-20)
+Ranged:
+  - +1 shortbow +12 (1d4+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: impromptu sneak attack 1/day, sneak attack +3d6
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 7th; concentration +9)
+  values:
+    - label: 5/day
+      value: touch of destiny (+2)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +9)
+  values:
+    - label: 3rd (4/day)
+      value: haste, keen edge
+    - label: 2nd (7/day)
+      value: blur, hideous laughter (DC 14), invisibility
+    - label: 1st (7/day)
+      value: >-
+        alarm, charm person (DC 13), disguise self, grease, magic missile,
+        shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, ghost sound (DC 12), mage hand, message, ray
+        of frost, read magic
+AbilityScores:
+  - 12
+  - 20
+  - 14
+  - 8
+  - 10
+  - 14
+BaseAtk: '5'
+CMB: '5'
+CMD: '21'
+Feats:
+  - Arcane Armor Training
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (rapier)
+Skills:
+  - Acrobatics +16
+  - Climb +8
+  - Disable Device +15
+  - Escape Artist +13
+  - Knowledge (arcana) +6
+  - Perception +8
+  - Stealth +16
+  - Swim +8
+Languages:
+  - Common
+  - Halfling
+SQ: >-
+  bloodline arcana (luck bonus on saves when casting personal-range spells),
+  ranged legerdemain, rogue talent (finesse rogue), trapfinding +1
+Source: AP 106
+IsTemplate: '0'
+Gender: Female
+Bloodline: destined
+BeforeCombat: >-
+  Before the boat approaches the docks, Bist casts blur and shield on herself
+  and keen edge on her rapier.
+DuringCombat: >-
+  Bist casts haste on herself and her companions on the first round of combat,
+  then supports  the battle from range with her spells, arrows, and touch of
+  destiny. She uses hideous laughter and grease against opponents who approach
+  the boat before she joins in melee, staying as close as she can to Mr. Thope.
+Morale: >-
+  Bist is loyal to Sethic's coin, not to the paraduke himself. If reduced to
+  fewer than 20 hit points, Bist casts invisibility and attempts to flee.
+Gear: potion of cure moderate wounds, wand of scorching ray (10 charges)
+OtherGear: >-
+  +2 leather armor, +1 rapier, +1 shortbow with 20 arrows, mwk dagger, belt of
+  incredible dexterity +2, key to strongbox in area B7, sunrods (6), thieves'
+  tools
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8357'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

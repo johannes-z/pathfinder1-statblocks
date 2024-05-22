@@ -1,0 +1,114 @@
+Name: Juvenile Blue Dragon
+CR: '10'
+XP: '9600'
+Alignment: LE
+Size: Large
+Type: dragon
+SubType: (earth)
+Init: '5'
+Senses:
+  - dragon senses
+  - Perception +17
+Aura: frightful presence (120 ft., DC 18)
+AC: 24, touch 10, flat-footed 23
+AC_Mods: (+1 Dex, +14 natural, -1 size)
+HP: '126'
+HD: (12d12+48)
+Saves: Fort +12, Ref +9, Will +10
+Fort: '12'
+Ref: '9'
+Will: '10'
+Immune: electricity, paralysis, sleep
+Speed: 40 ft., burrow 20 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +18 (2d6+9), 2 claws +17 (1d8+6), 2 wings +15 (1d6+3), tail slap +15
+    (1d8+9)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (80-ft. line, DC 20, 8d8 electricity), desert thirst (DC 20)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +14)
+  values:
+    - label: At will
+      value: ghost sound (DC 12), minor image (DC 14)
+SpellsKnown:
+  header: Spells Known (CL 1st; concentration +3)
+  values:
+    - label: 1st (4/day)
+      value: mage armor, true strike
+    - label: 0 (at will)
+      value: detect magic, mage hand, read magic, resistance
+AbilityScores:
+  - 23
+  - 12
+  - 19
+  - 14
+  - 15
+  - 14
+BaseAtk: '12'
+CMB: '19'
+CMD: 30 (34 vs. trip)
+Feats:
+  - Combat Casting
+  - Dazzling Display
+  - Improved Initiative
+  - Multiattack
+  - Shatter Defenses
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +17
+  - Fly +10
+  - Intimidate +17
+  - Knowledge (local) +17
+  - Perception +17
+  - Spellcraft +17
+  - Stealth +12
+  - Survival +17
+Languages:
+  - Auran
+  - Common
+  - Draconic
+Environment: warm deserts
+Organization: solitary
+Treasure: triple SQ sound imitation
+Description_Visual: >-
+  With scales the color of the desert sky, this large, serpentine dragon moves
+  with an unsettling grace.
+Group: Chromatic Dragon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Desert Thirst (Su)
+    description: >-
+      A blue dragon can cast create water at will (CL 12). Alternatively, it can
+      destroy an equal amount of liquid in a 10-foot burst. Unattended liquids
+      are instantly reduced to sand. Liquid-based magic items (such as potions)
+      and items in a creature's possession must succeed on a Will save (DC 20)
+      or be destroyed.
+  - name: Sound Imitation (Ex)
+    description: >-
+      A very young or older blue dragon can mimic any voice or sound it has
+      heard by making a successful Bluff check against a listener's Sense Motive
+      check.
+Description:
+  - >-
+    Blue dragons are consummate schemers and obsessively orderly. In combat,
+    blue dragons prefer to surprise foes if possible, and are not above
+    retreating if the odds turn against them. They prefer to lair near those
+    that they control, sometimes even within the confines of a city.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: juvenile
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1528'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

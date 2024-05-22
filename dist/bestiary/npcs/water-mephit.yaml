@@ -1,0 +1,75 @@
+Name: Water Mephit
+CR: '3'
+XP: '800'
+Race: Water Mephit
+Alignment: 'N'
+Size: Small
+Type: outsider
+SubType: (water)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 17, touch 14, flat-footed 14
+AC_Mods: (+2 Dex, +1 dodge, +3 natural, +1 size)
+HP: '19'
+HD: (3d10+3)
+HP_Mods: fast healing 2
+Saves: Fort +2, Ref +5, Will +3
+Fort: '2'
+Ref: '5'
+Will: '3'
+DR: 5/magic
+Speed: 30 ft., fly 40 ft. (average), swim 30 ft.
+Melee:
+  - +1 dagger +6 (1d3+2/19-20), or 2 claws +0 (1d3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: breath weapon (15-foot cone, 1d8 acid, Reflex DC 13 for half, every 4 rounds)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; ranged touch +6)
+  values:
+    - label: 1/hour
+      value: acid arrow
+    - label: 1/day
+      value: stinking cloud (DC 15), summon (level 2, 1 mephit of the same type 25%)
+AbilityScores:
+  - 13
+  - 15
+  - 12
+  - 6
+  - 11
+  - 14
+BaseAtk: '3'
+CMB: '3'
+CMD: '16'
+Feats:
+  - Dodge
+  - Improved Initiative
+Skills:
+  - Bluff +8
+  - Fly +10
+  - Perception +6
+  - Stealth +12
+  - Swim +9
+Languages:
+  - Aquan
+  - Common
+Source: The Lost City of Barakus-Level 1
+IsTemplate: '0'
+Gear: +1 dagger
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12916'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

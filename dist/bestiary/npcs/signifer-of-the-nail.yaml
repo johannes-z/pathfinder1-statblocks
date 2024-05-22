@@ -1,0 +1,103 @@
+Name: Signifer Of The Nail
+CR: '6'
+XP: '2400'
+Race: Human
+Class: sorcerer 6/Hellknight Signifer 1
+MonsterSource: 'Pathfinder Campaign Setting: Paths of Prestige 28'
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +1
+Aura: aura of lawPOP
+AC: 21, touch 11, flat-footed 20
+AC_Mods: (+10 armor, +1 Dex)
+HP: '51'
+HD: (7 HD; 6d6+1d8+24)
+Saves: Fort +4, Ref +3, Will +7; +2 vs. poison, +2 vs. visual effects
+Fort: '4'
+Ref: '3'
+Will: '7'
+Save_Mods: +2 vs. poison, +2 vs. visual effects
+Resist: fire 5
+Speed: 20 ft.
+Melee:
+  - +1 halberd +5 (1d10+2/x3)
+Ranged:
+  - mwk light crossbow +5 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: 6/day
+      value: corrupting touch (3 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 3rd (4/day)
+      value: hold person (DC 16)
+    - label: 2nd (6/day)
+      value: bull's strength, flaming sphere (DC 16), scorching ray
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 16), magic missile, protection from good, shield,
+        summon monster I
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 13), daze (DC 13), light, message, ray of frost,
+        read magic
+AbilityScores:
+  - 12
+  - 13
+  - 14
+  - 8
+  - 12
+  - 16
+BaseAtk: '3'
+CMB: '4'
+CMD: '15'
+Feats:
+  - Arcane Armor Training
+  - Eschew Materials
+  - Light Armor Proficiency
+  - Medium Armor Proficiency
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Intimidate +9
+  - Knowledge (planes) +4
+  - Sense Motive +7
+  - Spellcraft +7
+Languages:
+  - Common
+SQ: bloodline arcana (+2 DC for charm spells), signifer maskPOP
+Source: Castles Of The Inner Sea
+IsTemplate: '0'
+Bloodline: infernal
+BeforeCombat: >-
+  A Hellknight signifer casts shield on herself if she senses she may soon enter
+  battle.
+DuringCombat: >-
+  Should their charms and safeguards fail them, Hellknight signifers use
+  evocation spells to deadly effect, zealously launching scorching rays and
+  magic missiles at their foes.
+Gear: potions of cure light wounds (2), scroll of fireball, scroll of invisibility
+OtherGear: +1 full plate, +1 halberd, mwk light crossbow
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4470'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

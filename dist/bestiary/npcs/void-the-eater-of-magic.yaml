@@ -1,0 +1,218 @@
+Name: Void, The Eater Of Magic
+CR: '18'
+XP: '153600'
+Race: drow noble
+Class: sorcerer 15/archwizard 3
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '4'
+Senses:
+  - darkvision 120 ft.
+  - Perception +7
+AC: 23, touch 17, flat-footed 19
+AC_Mods: (+4 armor, +3 deflection, +4 Dex, +2 natural)
+HP: '83'
+HD: (3d6+15d6+15)
+Saves: >-
+  Fort +7 (+11 vs. polymorph, petrification, and transmutation);  Ref +10, Will
+  +11 (+13 vs. enchantment)
+Fort: +7 (+11 vs. polymorph
+Ref: petrification
+Will: and transmutation)   +10,  +11 (+13 vs. enchantment)
+DefensiveAbilities: protean resistances
+Immune: >-
+  critical hits, disease, fear, poison, positive and negative energy, sleep,
+  soul magic
+Resist: acid 10
+SR: '31'
+Weaknesses: light blindness, soulless
+Speed: 30 ft.
+Melee:
+  - unarmed strike +7 (1d3-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: abyssal stare (DC 32)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; ranged touch +12)
+  values:
+    - label: Constant
+      value: detect magic, unseen servant (100 ft. range)
+    - label: At will
+      value: >-
+        dancing lights, faerie fire, feather fall, levitate, reality wrinkle (15
+        rounds/day)
+    - label: 1/day
+      value: divine favor, dispel magic, spatial tear, suggestion (DC 24)
+    - label: 14/day
+      value: protoplasm
+SpellsKnown:
+  header: Spells Known (CL 18th; melee touch +7, ranged touch +12)
+  values:
+    - label: 9th (4/day)
+      value: mage's disjunction
+    - label: 8th (6/day)
+      value: polymorph any object (DC 31), power word, stun
+    - label: 7th (8/day)
+      value: >-
+        greater polymorph (DC 30)B, power word blind, reverse gravity (DC 30),
+        spell turning
+    - label: 6th (8/day)
+      value: >-
+        antimagic field, disintegrate (DC 29)B, greater dispel magic, major
+        curse (DC 27)UM
+    - label: 5th (8/day)
+      value: >-
+        baleful polymorph (DC 28), break enchantment, major creationB,
+        telekinesis (DC 28), wall of force
+    - label: 4th (8/day)
+      value: >-
+        acid pit (DC 25)APG, black tentacles (DC 25), confusion (DC 25) B,
+        greater invisibility, stoneskin
+    - label: 3rd (9/day)
+      value: >-
+        dispel magic, displacement, gaseous formB, protection from energy,
+        vampiric touch
+    - label: 2nd (9/day)
+      value: >-
+        alter self, blurB, eagle's splendor, see invisibility, spectral hand,
+        touch of idiocy
+    - label: 1st (9/day)
+      value: >-
+        entropic shieldB, grease, mage armor, magic missile, protection from
+        good, shield
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 19), daze (DC 17), detect magic, mage hand,
+        mending, open/close, resistance, touch of fatigue (DC 19)
+AbilityScores:
+  - 8
+  - 18
+  - 12
+  - 14
+  - 10
+  - 32
+BaseAtk: '8'
+CMB: '7'
+CMD: '24'
+Feats:
+  - Ability Focus (abyssal stare)B
+  - Combat Casting
+  - Enlarge SpellB
+  - Eschew MaterialsB
+  - Extend Spell
+  - Greater Spell Focus (abjuration)
+  - Greater Spell Focus (transmutation)
+  - Scribe ScrollB
+  - Skill Focus (Knowledge [arcana])
+  - Skill Focus (Spellcraft)
+  - Spell Focus (abjuration)
+  - Spell Focus (transmutation)B
+  - Spell Penetration
+Skills:
+  - Bluff +19
+  - Fly +11
+  - Intimidate +23
+  - Knowledge (arcana) +25
+  - Knowledge (nature) +6
+  - Knowledge (planes) +10
+  - Knowledge (religion) +6
+  - Linguistics +6
+  - Perception +7
+  - Sense Motive +5
+  - Spellcraft +25
+  - Stealth +8
+  - Use Magic Device +34
+RacialMods: +4 Intimidate
+Languages:
+  - Abyssal
+  - Common
+  - Elf
+  - Undercommon
+SQ: >-
+  arcane servant, augmented ability (Void has cast wish to raise his Charisma 1
+  point), bloodline arcana (+4 to dispel transmutation or creation spells, not
+  included above), bound soul, detect expertise, divine exclusion, forgo
+  materials, metamagic enhancement, vessel of Orcus
+Source: Rappan Athuk-Level 15
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Abyssal Stare (Su)
+    description: >-
+      As a standard action a soulless creature can stare into the eyes of
+      another living being within 30 ft. and force it to confront the infinite,
+      empty void beyond death. Targets who fail a Will save (DC 10 +1/2 soulless
+      HD + Charisma modifier) waver in their will to survive and take a -4
+      penalty to all saves and skill and ability checks for 1d4 rounds. Divine
+      casters are particularly disturbed. They must succeed on a caster level
+      check (20 + spell level) to cast a divine spell while under the effect of
+      abyssal stare or the spell is lost. Creatures affected by abyssal stare
+      are immune to other uses of the stare for 24 hours. This is a
+      mindaffecting, fear effect.
+  - name: Arcane Servant (Su)
+    description: >-
+      All archwizards of 2nd and higher level are treated as if they have a
+      permanent unseen servant near them at all times. The servant can go no
+      further than 100 ft., but otherwise confer to the rules of normal unseen
+      servants. If destroyed, the servant reappears the following round.
+  - name: Bound Soul (Ex)
+    description: >-
+      The soul of a soulless creature resides in a special prison in the Abyss.
+      This soul cannot return to the base creature without the permission of
+      Orcus. A soulless creature cannot be raised or resurrected, nor do these
+      spells have any effect on a soulless creature. Detect Expertise All of a
+      3rd level archwizards detect spells are treated as if using the Detect
+      Expertise feat. In addition, the archwizard gains information one round
+      earlier than normal, if the detect is round-dependent. At 6th level, the
+      archwizard gains information 2 rounds earlier.
+  - name: Divine Exclusion (Ex)
+    description: >-
+      The soulless creature has no connection to the divine. A soulless creature
+      cannot take levels in any divine class, cast divine spells, or use magic
+      items constructed with spells found only on a divine caster's spell list.
+      Forgo Materials A first level archwizard no longer needs mundane material
+      components to fuel his spells, and acts as if he has the Eschew Materials
+      feat. The archwizard may cast any spell with a material component cost of
+      up to 10 gp per archwizard level without needing the actual component.
+  - name: Metamagic Enhancement (Su)
+    description: >-
+      An archwizard is a master at manipulating magical forces. At first level,
+      he reduces the cost of any metamagic feat known by one level less than
+      standard i.e. a first level archwizard casts a spell with the Empower feat
+      at one spell slot higher than the original spell. The metamagic
+      enhancement can only be applied to one enhancement per spell. This ability
+      does not affect the Heighten Spell feat. At 5th level and 10th level, the
+      adjusted level is reduced one additional spell level. Spellcasting Master
+      At 2nd level, the archwizard gains a +5 insight bonus to Knowledge
+      (arcana), Spellcraft, and Use Magic Device.
+  - name: Vessel of Orcus (Su)
+    description: >-
+      By manipulating an imprisoned soul Orcus can possess a soulless creature,
+      enabling the demon lord to see and hear through the soulless creature's
+      body.
+Gender: Male
+Bloodline: ProteanAPG
+Gear: >-
+  staff of abjuration (10 charges), rod of negation, scroll of break enchantment
+  (CL 15th), scroll of greater dispel magic (CL 18th), scroll of mage's
+  disjunction
+OtherGear: >-
+  cloak of Charisma +6 (as headband), ring of protection +3, spell component
+  pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: soulless|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12379'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

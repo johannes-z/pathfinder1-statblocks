@@ -1,0 +1,149 @@
+Name: Cizmekris
+CR: '10'
+XP: '9600'
+Race: polymorphed bone devil
+Class: inquisitor of Asmodeus 3
+MonsterSource: Pathfinder RPG Bestiary 74, Pathfinder RPG Advanced Player's Guide 38
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '13'
+Senses:
+  - Perception +24
+AC: 17, touch 17, flat-footed 12
+AC_Mods: (+2 deflection, +5 Dex)
+HP: '123'
+HD: (13 HD; 10d10+3d8+55)
+Saves: Fort +14, Ref +13, Will +10
+Fort: '14'
+Ref: '13'
+Will: '10'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - +1 flaming heavy mace +18/+13/+8 (1d6+8 plus 1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: judgment 1/day
+SpellLikeAbilities:
+  header: Bone Devil Spell-Like Abilities (CL 12th; concentration +18)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: >-
+        dimensional anchor, greater teleport (self plus 50 lbs. of objects
+        only), invisibility (self only), major image (DC 19), wall of ice (DC
+        19)
+    - label: 3/day
+      value: quickened invisibility (self only)
+    - label: 1/day
+      value: >-
+        summon (level 4, 1 bone devil 35%) Inquisitor Spell-Like Abilities (CL
+        3rd; concentration +7)
+    - label: At Will
+      value: detect alignment
+    - label: 7/day
+      value: copycat (3 rounds)
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 3rd; concentration +7)
+  values:
+    - label: 1st (4/day)
+      value: burst bondsAPG (DC 15), command (DC 15), divine favor, shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), brandAPG (DC 14), detect magic, guidance, read magic,
+        resistance
+SpellDomains: Trickery
+AbilityScores:
+  - 21
+  - 21
+  - 18
+  - 18
+  - 19
+  - 22
+BaseAtk: '12'
+CMB: '19'
+CMD: '34'
+Feats:
+  - Alertness
+  - Combat Reflexes
+  - Deceitful
+  - Improved Initiative
+  - Multiattack
+  - Outflank
+  - Power Attack
+  - Quicken Spell-Like Ability (invisibility)
+Skills:
+  - Bluff +26
+  - Disguise +26
+  - Fly +31
+  - Intimidate +23
+  - Knowledge (planes) +13
+  - Knowledge (religion) +14
+  - Perception +24
+  - Sense Motive +25
+  - Spellcraft +20
+  - Stealth +21
+  - Use Magic Device +19
+Languages:
+  - Azlanti
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+SQ: monster lore +4, solo tactics, stern gaze +1, track +1
+Source: AP 99
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Cizmekris attempts to summon a bone devil. If he has the chance, he casts
+  divine favor and shield of faith.
+DuringCombat: >-
+  Cizmekris starts combat by casting invisibility on himself in the first round,
+  then uses a major image to make himself appear elsewhere in the area, hoping
+  to draw off enemy resources, wasting them on the illusion. Once battle begins
+  in earnest, he moves into melee with his mace, fighting with allies so he can
+  use his Outflank feat to gain a +4 flanking bonus on his attacks. He always
+  uses Power Attack when flanking a foe. (Since his allies    don't actually
+  have Outflank, the feat allows his allies to take attacks of opportunity when
+  Cizmekris confirms a critical hit, but he can't take attacks of opportunity in
+  response to his allies' critical hits.) Cizmekris relies on walls of ice to
+  block off attackers that use ranged weapons or ranged spells against him so he
+  can focus exclusively on fighting up close. Cizmekris has no method to exit
+  his polymorphed condition himself in this adventure, but if the PCs manage to
+  dispel the effect (the polymorph any object functions at caster level 15th),
+  they face the bone devil in his true form.
+Morale: >-
+  If reduced to 20 hit points or fewer, Cizmekris uses a quickened invisibility
+  to vanish, then retreats into the Kintargo Opera House to heal: the board room
+  (area E8), the archives (area F6), and the vault (area G12) all contain
+  healing supplies, and Cizmekris makes for the closest one. Once he's healed,
+  he searches for surviving allies, preferring to seek out Jilia in her coffin
+  (area H2) in the subbasement, and then returns with Jilia at his side to
+  launch a new attack. Cizmekris has been ordered to remain in the opera house
+  until the PCs are dead, and so the best he can do in a hopeless battle is to
+  hide in the building; if the bone devil can simply outwait the PCs or force
+  them to retreat, his orders allow him to teleport back to the temple of
+  Asmodeus to report to Corinstian Grivenner. Should this occur, you'll need to
+  incorporate the bone devil into the next adventure yourself, as Hell's Rebels
+  assumes he is defeated in "Dance of the Damned."
+Gear: >-
+  +1 flaming heavy mace, ring of counterspells (dispel magic), wand of sculpt
+  corpseAPG (19 charges),
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: Disguised As Barzillai
+id: '7176'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

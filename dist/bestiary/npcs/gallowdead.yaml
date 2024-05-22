@@ -1,0 +1,119 @@
+Name: Gallowdead
+CR: '14'
+XP: '38400'
+Race: human
+Class: fighter 13
+MonsterSource: Dungeons of Golarion 21
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+Aura: whispers (30 ft.)
+AC: 32, touch 13, flat-footed 29
+AC_Mods: (+12 armor, +2 Dex, +1 dodge, +2 natural, +5 shield)
+HP: '170'
+HD: (17 HD; 4d8+13d10+81)
+Saves: Fort +12, Ref +7, Will +8; +3 vs. fear
+Fort: '12'
+Ref: '7'
+Will: '8'
+Save_Mods: +3 vs. fear
+DefensiveAbilities: bravery +3, channel resistance +4
+DR: 10/ bludgeoning and magic
+Immune: cold, undead traits
+Speed: 30 ft.
+Melee:
+  - +3 longsword +24/+19/+14/+9 (1d8+25/17-20)
+Ranged:
+  - chain of the dead +18 (8d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: weapon training (heavy blades +3, bows +2, pole arms +1)
+AbilityScores:
+  - 20
+  - 15
+  - —
+  - 8
+  - 10
+  - 16
+BaseAtk: '16'
+CMB: '21'
+CMD: '34'
+Feats:
+  - Bleeding Critical
+  - Cleave
+  - Combat Reflexes
+  - Critical Focus
+  - Dodge
+  - Greater Shield Focus
+  - Greater Weapon Focus (longsword)
+  - Greater Weapon Specialization (longsword)
+  - Improved Critical (longsword)
+  - Improved Initiative
+  - Power Attack
+  - Shield Focus
+  - Stand Still
+  - Step Up
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (longsword)
+  - Weapon Specialization (longsword)
+Skills:
+  - Intimidate +19
+  - Perception +19
+  - Sense Motive +16
+Languages:
+  - Common
+SQ: armor training 3
+Source: AP 48
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Chain of the Dead (Su)
+    description: >-
+      As a standard action, a gallowdead can use its chain to attack its
+      enemies. This acts as a ranged touch attack against any foe within 20
+      feet. If the attack hits, the target takes 1d6 points of damage for every
+      2 Hit Dice possessed by the gallowdead, to a maximum of 10d6. In addition,
+      if the attack hits, the gallowdead can make a free combat maneuver check
+      against its target with a +4 racial bonus. If the check succeeds, the
+      target becomes grappled, but the gallowdead does not gain the grappled
+      condition in this case. The gallowdead can make a free combat maneuver
+      check each round to maintain its grip on the victim, but cannot take any
+      of the special grapple actions against the victim if the check is a
+      success.
+  - name: Whispers (Ex)
+    description: >-
+      A gallowdead constantly whispers vile secrets and blasphemous chants. Any
+      creature within 30 feet of a whispering gallowdead must make a DC 21 Will
+      save or become sickened for 1d4 rounds. Shaken creatures that fail this
+      saving throw become nauseated by the secrets revealed. Each round, an
+      affected creature may make a new Will save to recover from the effect-once
+      a creature recovers from a gallowdead's whispers, it is immune to this
+      ability for 24 hours. Each additional overlapping whisper aura from
+      additional gallowdead increases the save DC by +2. The save DC is
+      Charisma-based.
+DuringCombat: >-
+  Gallowdead always use Power Attack (included in stat block). They fight with
+  single-minded purpose, focusing their attacks against one foe at a time before
+  moving on to the next target.
+Morale: The gallowdead fight until destroyed.
+Gear: +3 full plate, +1 heavy steel shield, +3 longsword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: gallowdead|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1805'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

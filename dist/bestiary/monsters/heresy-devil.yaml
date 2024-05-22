@@ -1,0 +1,206 @@
+Name: Heresy Devil
+CR: '12'
+XP: '19200'
+Alignment: LE
+Size: Huge
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '3'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +21
+AC: 29, touch 7, flat-footed 29
+AC_Mods: (+4 armor, -1 Dex, +18 natural, -2 size)
+HP: '175'
+HD: (13d10+104)
+HP_Mods: fast healing 5
+Saves: Fort +17, Ref +3, Will +13
+Fort: '17'
+Ref: '3'
+Will: '13'
+DR: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '22'
+Speed: 10 ft., fly 40 ft. (perfect)
+Melee:
+  - 2 slams +18 (2d8+7), bite +18 (2d6+7)
+Ranged:
+  - searing word +10 (3d6)
+Space: 15 ft.
+Reach: 5 ft.
+SpecialAttacks: blasphemous bile, summon devil
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th)
+  values:
+    - label: At will
+      value: >-
+        deathwatch, greater teleport (self plus 50 lbs. of objects only),
+        illusory script (DC 17), mage hand, major image (DC 17), message
+    - label: 3/day
+      value: >-
+        contagion (DC 19), deeper darkness, dispel good, dispel magic,
+        invisibility purge, magic circle against good, speak with dead (DC 18),
+        telekinesis (DC 20), stinking cloud (DC 17), summon monster V, unholy
+        blight (DC 19), zone of silence
+    - label: 1/day
+      value: blasphemy (DC 20), legend lore, mislead, unhallow
+AbilityScores:
+  - 24
+  - 8
+  - 24
+  - 22
+  - 21
+  - 20
+BaseAtk: '13'
+CMB: '18'
+CMD: '37'
+Feats:
+  - Diehard
+  - Endurance
+  - Great Fortitude
+  - Improved Initiative
+  - Persuasive
+  - Toughness
+Skills:
+  - Bluff +21
+  - Diplomacy +25
+  - Fly +8
+  - Intimidate +17
+  - Knowledge (arcana) +22
+  - Knowledge (history) +19
+  - Knowledge (planes) +22
+  - Knowledge (religion) +22
+  - Perception +21
+  - Perform (oratory) +18
+  - Profession (librarian) +10
+  - Sense Motive +21
+  - Spellcraft +22
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - Infernal
+SQ: corpulence, devil summoner, throne of skulls
+Environment: Hell
+Organization: solitary, pair, or lecture (3-8)
+Treasure: standard
+Description_Visual: >-
+  Seemingly fused with a monstrous throne of iron skulls, this impossibly
+  corpulent being floats several feet off the ground. Trappings cut in mockery
+  of holy vestments do little to cover the thing's pallid, leaking rolls of
+  blister-pocked girth. Worthless, clublike hands waggle like maggots, directing
+  a cloud of weathered scrolls and blasphemous tomes that orbit its bulk. Barely
+  distinguishable amid its mound of chins squints a pair of glassy black eyes,
+  riding above a disproportionately wide mouth curled into a perpetually
+  lecherous grin.
+Group: Devil
+Source: Book of the Damned V1
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Corpulence (Ex)
+    description: >-
+      Ayngavhauls are greasy and grossly obese. This extraordinary bulk provides
+      them with a +10 bonus on their combat maneuver defense.
+  - name: Blasphemous Bile (Su)
+    description: >-
+      30-ft. line, once every 1d4 hours; damage 4d6 acid, Reflex DC 23 half.
+      Those struck by this bile find themselves drenched in liquid corruption so
+      profound it impedes the power of non-evil divine magic for 10 minutes. Any
+      non-evil divine spellcaster who casts a spell targeting a creature soaked
+      in an ayngavhaul's bile must make a DC 23 caster level check or have the
+      spell fail. A creature affected by this bile may wash off the sludge by
+      spending a round and using at least a gallon of fluid to cleanse itself.
+      The save DC is Constitution-based.
+  - name: Devil Summoner (Su)
+    description: >-
+      Ayngavhauls know the secrets of all breeds of devils, utilizing such
+      leverage in the summoning of their kind. Any devil within 30 feet of an
+      ayngavhaul has half again the normal chance of having a fiend respond to
+      its summon devil ability. For example, an osyluth's usual 35% chance to
+      summon another bone devil increases to 52% when within 30 feet of an
+      ayngavhaul. Summoning bonuses provided by multiple ayngavahuls do not
+      stack. Ayngavahuls are immune to this ability, from both themselves and
+      others of their kind.
+  - name: Searing Word (Su)
+    description: >-
+      An ayngavhaul can speak words of torment, giving them shape and sending
+      them streaking toward their enemies in the form of diabolical sigils. Any
+      good-aligned creature struck by one of these infernal words takes 3d6
+      points of hellfire damage (half fire, half evil energy); nongood creatures
+      take half damage. These words cannot affect creatures affected by
+      protection from evil or within an area of magical silence.
+  - name: Summon Devil (Sp)
+    description: >-
+      Once per day an ayngavhaul can attempt to summon 2d6 imps, 1d4 bearded
+      devils, or 2 bone devils with an 80% chance of success, or a contract
+      devil (see Pathfinder Adventure Path volume #12) with a 45% chance of
+      success. This ability is the equivalent of a 6th-level spell.
+  - name: Throne of Skulls (Su)
+    description: >-
+      All ayngavhauls hover upon fearsome infernal thrones. These thrones grant
+      the devils their fly speed and a +4 armor bonus. Should an ayngavhaul be
+      grappled or knocked down, it is unseated from its throne and loses these
+      benefits. An ayngavhaul has telepathic command over its throne and may
+      call its conveyance back and reseat itself as a full-round action.
+Description:
+  - >-
+    Bloated scholars of despair, ayngavhauls collect, create, and spread
+    heresies and apocrypha, sowing disbelief and corruption to all who would
+    seek their foul wisdom. Ironically among the most humanlike, yet still most
+    repulsive breeds of devilkind, these corpulent blasphemers are barely even
+    able to move without the aid of their profane floating thrones. Although
+    their bloated forms make them considerably less of a threat than their
+    brethren physically, they speak maledictions foul enough to agonize those
+    who hear them, yet even with such powers of vicious wisdom, their true
+    strength lies in their envenomed words and temptations of the mind. Their
+    centuries of research grant them great leverage over their diabolical kin,
+    and few devils dare not obey the summons of these hellish scholars.
+    Ayngavhauls are roughly ovular in form, their def lated girths about 10 feet
+    tall with their rolls of wet gristle spreading over 13 feet wide. Off their
+    thrones, these devils weigh approximately 2,300 pounds, though the eldest
+    can weigh considerably more. Ecology Ayngavhauls' bloated girths make them
+    slaves to their repulsive physical forms. All ayngavhauls, even the newly
+    formed, are monstrously obese, trapped within prisons of their own leaking,
+    diabolical flesh. To aid them, though, the forges of Phlegethon create
+    terrifying thrones empowered by infernal magics. These foul chariots hold
+    their corpulent masters aloft, serving as both vehicles and sources of
+    profane protection. Each throne of skulls is bound to a specific ayngavhaul,
+    dissolving into a pile of ashes and a breath of searing iron dust should its
+    master be destroyed. Habitat & Society The majority of ayngavhuals frequent
+    the grim libraries of Hell, particularly the mired museums of Stygia; the
+    Fallen Fastness of Dis; and Betzebbul, the palace of Baalzebul, in Cocytus.
+    Within these heretical storehouses and academies of evil, these grotesque
+    devils rewrite the histories of countless worlds to obscure truths and skew
+    the past toward the desires of Hell. Grotesque curators of a sort,
+    individual ayngavhauls take great pride in specializing in fields none of
+    their brethren have ever thought to focus their studies upon-the more
+    obscure and blasphemous, the better. Thus, while one devil might spend eons
+    learning all there is to know of linnorm frost poisons, another might
+    research the nuances of Azlanti voice tearing. Each seeks to promote its
+    particular field of research above all others, sowing its knowledge among
+    their blasphemous works, minions, and summoners who might put such foul
+    wisdom to the most sinister uses. They prove incessantly paranoid that the
+    works of their brethren might be outstripping their own discoveries, or that
+    others in related fields might be stealing their research, thus proving both
+    suspicious of their kindred and intimately familiar with the works of other
+    infernal scholars. As such, a single ayngavhaul might begrudgingly point a
+    summoner in search of specific information toward a diabolical expert,
+    though these knowledge-obsessed fiends never reveal their secrets without
+    demanding a price.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Devil, Heresy
+id: '411'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

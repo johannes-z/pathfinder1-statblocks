@@ -1,0 +1,112 @@
+Name: Giant-Killer
+CR: '10'
+XP: '9600'
+Race: gnome
+Class: ranger 11
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +18
+AC: 24, touch 15, flat-footed 21
+AC_Mods: (+6 armor, +1 deflection, +2 Dex, +1 dodge, +3 natural, +1 size)
+HP: '116'
+HD: (11d10+51)
+Saves: Fort +12, Ref +10, Will +6; +2 vs. illusions
+Fort: '12'
+Ref: '10'
+Will: '6'
+Save_Mods: +2 vs. illusions
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants), evasion
+Immune: poison
+Resist: fire 20
+Speed: 20 ft.
+Melee:
+  - >-
+    +1 gnome hooked hammer +13/+8/+3 (1d6+3/19-20/x3), mwk gnome hooked hammer
+    +13 (1d4+2/19-20/x4)
+  - mwk longspear +15/+10/+5 (1d6+3/x3)
+Ranged:
+  - mwk composite longbow +15/+10/+5 (1d6+2/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  +1 on attack rolls against goblinoid and reptilian humanoids, favored enemy
+  (earth outsiders +2, giants +6, oozes +2)
+SpellsPrepared: >-
+  Ranger Spells Prepared (CL 8th; concentration +10)   3rd-cure moderate
+  wounds   2nd-barkskin, bear's endurance   1st-delay poison, entangle, resist
+  energy
+AbilityScores:
+  - 14
+  - 14
+  - 18
+  - 10
+  - 14
+  - 10
+BaseAtk: '11'
+CMB: '12'
+CMD: '26'
+Feats:
+  - Dodge
+  - Double Slice
+  - Endurance
+  - Improved Critical (gnome hooked hammer)
+  - Lunge
+  - Mobility
+  - Power Attack
+  - Two-Weapon Fighting
+  - Two-Weapon Rend
+  - Vital Strike
+Skills:
+  - Acrobatics +17 (+13 when jumping)
+  - Climb +8
+  - Knowledge (dungeoneering) +5
+  - Knowledge (local) +5
+  - Knowledge (geography) +8
+  - Knowledge (nature) +8
+  - Linguistics +1
+  - Perception +18
+  - Stealth +19
+  - Survival +16
+  - Swim +8
+Languages:
+  - Common
+  - Giant
+  - Gnome
+SQ: >-
+  favored terrain (mountain +2, underground +4), hunter's bond (companions),
+  quarry, swift tracker, track +5, wild empathy +11, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The ranger casts barkskin, bear's endurance, delay poison, and resist energy
+  (fire).
+DuringCombat: If facing multiple opponents with reach, the ranger uses Lunge.
+Gear: potion of invisibility, scroll of cure serious wounds
+OtherGear: >-
+  +2 chain shirt, +1/masterwork gnome hooked hammer, masterwork composite
+  longbow (+3 Str) with 20 arrows, boots of elvenkind, cloak of resistance +1,
+  ring of protection +1, 630 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without barkskin, bear's endurance, delay poison, and resist energy, the
+  ranger's statistics are hp 94; Fort +10; AC 21, touch 15, flat-footed 18;
+  Immune none; Resist none; Con 14.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3774'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

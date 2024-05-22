@@ -1,0 +1,111 @@
+Name: Dire Rat Megaswarm
+CR: '5'
+XP: '1600'
+Alignment: 'N'
+Size: Small
+Type: animal
+SubType: (megaswarm)
+Init: '7'
+Senses:
+  - low-light vision, scent
+  - Perception +11
+AC: 14, touch 14, flat-footed 11
+AC_Mods: (+3 Dex, +1 size)
+HP: '52'
+HD: (8d8+8 plus 8)
+Saves: Fort +9, Ref +9, Will +3
+Fort: '9'
+Ref: '9'
+Will: '3'
+DefensiveAbilities: half damage from piercing weapons
+Speed: 40 ft., climb 20 ft., swim 20 ft.
+Melee:
+  - swarm (2d6 plus disease)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: disease, distraction (DC 15)
+AbilityScores:
+  - 10
+  - 17
+  - 13
+  - 2
+  - 13
+  - 4
+BaseAtk: '6'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Toughness
+Skills:
+  - Climb +11
+  - Perception +11
+  - Stealth +14
+  - Swim +11
+RacialMods: uses Dex to modify Climb and Swim
+Environment: any urban
+Organization: solitary, pack (2-4 megaswarms), infestation (7-12 megaswarms)
+Treasure: none
+Description_Visual: >-
+  A squirming horde of vicious rats the size of small dogs streams forward. They
+  have coarse, spiky fur, feral eyes, and jagged, yellowed teeth. They surge
+  ahead in a roiling mass of filth and stench.
+Group: Megaswarm
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Swarm-injury; save DC 15 Fort; onset 1d3 days; frequency
+      1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
+      The save DC is Constitution-based.
+  - name: Megaswarm Traits (Ex)
+    description: >-
+      Megaswarms are not so called because of the size of the swarm but rather
+      the size of the creatures that compose the swarm. Unlike normal swarms,
+      megaswarms are composed of Small creatures which are usually a megafauna
+      version of a normal swarm and otherwise behave in a swarmlike manner.
+      There are usually around 100 creatures in a megaswarm. The net effect is
+      that they take only half damage from piercing weapons but take normal
+      damage from other weapons. In addition when the swarm is reduced to 0 hit
+      points or lower and breaks up, unless the damage was dealt by
+      area-affecting attacks, then 2d6 surviving members of the megaswarm
+      continue their attack, though now only as individual creatures. Otherwise,
+      a megaswarm conforms to all of the other swarm traits as described in the
+      Pathfinder Roleplaying Game Bestiary.
+Description:
+  - >-
+    Much like a swarm of ordinary rats, a dire rat swarm is composed of a
+    teeming mass of disease-ridden dire rats intent on feeding on whatever they
+    can catch. A dire rat swarm usually exists in abandoned ruins or city dumps
+    where there is a plentiful food supply and a lack of significant predators.
+  - >-
+    A dire rat swarm seeks to overrun and attack any warm-blooded prey it
+    encounters. It typically ignores undead and other creatures that are not
+    warm-blooded.
+  - Credit
+  - Original author Greg A. Vaughan
+  - >-
+    Originally appearing in Slumbering Tsar (© Frog God Games/ Greg A. Vaughan,
+    2012)
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5006'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

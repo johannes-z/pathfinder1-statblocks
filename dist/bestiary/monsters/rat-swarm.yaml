@@ -1,0 +1,82 @@
+Name: Rat Swarm
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Tiny
+Type: animal
+Init: '6'
+Senses:
+  - low-light vision, scent
+  - Perception +8
+AC: 14, touch 14, flat-footed 12
+AC_Mods: (+2 Dex, +2 size)
+HP: '16'
+HD: (3d8+3)
+Saves: Fort +4, Ref +5, Will +2
+Fort: '4'
+Ref: '5'
+Will: '2'
+Speed: 15 ft., climb 15 ft., swim 15 ft.
+Melee:
+  - swarm (1d6 plus disease)
+Space: 10 ft.
+Reach: 0 ft.
+AbilityScores:
+  - 2
+  - 15
+  - 13
+  - 2
+  - 13
+  - 2
+BaseAtk: '2'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Improved Initiative
+  - Skill Focus (Perception)
+Skills:
+  - Balance +6
+  - Climb +10
+  - Perception +8
+  - Stealth +14
+  - Swim +10
+RacialMods: uses Dex to modify Climb and Swim
+Environment: any
+Organization: solitary, pack (2-5 swarms), or infestation (6-12 swarms)
+Treasure: none
+Description_Visual: >-
+  A squirming, roiling mass of squeaking rats draws closer, teeth flashing and
+  claws scratching everything in its path.
+Group: Rat
+Source: PFRPG Bestiary
+IsTemplate: '0'
+Description:
+  - >-
+    A rat swarm typically consists of a biting, roiling mass of hundreds of
+    disease-ridden rats driven to uncharacteristic heights of aggression by
+    fantastic and overwhelming hunger. In such numbers, they become voracious
+    hunters, capable of killing a full-grown human with hundreds of bites. Rat
+    swarms are often found in the sewers of large human settlements.
+  - Rat swarms surround and attack any warm-blooded prey in their path.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Rat, Swarm
+id: '300'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'
+SubType: (swarm)
+DefensiveAbilities: swarm traits
+SpecialAttacks: disease, distraction (DC 12)
+SpecialAbilities: {}
+SpellLikeAbilities: {}
+SpellsKnown: {}

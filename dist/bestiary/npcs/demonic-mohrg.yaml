@@ -1,0 +1,105 @@
+Name: Demonic Mohrg
+CR: '12'
+XP: '19200'
+Race: Demonic Mohrg
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (extraplanar)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +22
+AC: 26, touch 17, flat-footed 19
+AC_Mods: (+6 Dex, +1 dodge, +9 natural)
+HP: '171'
+HD: (18d8+90)
+Saves: Fort +10, Ref +14, Will +12
+Fort: '10'
+Ref: '14'
+Will: '12'
+DR: 10/magic
+Immune: undead traits
+Resist: acid 10, cold 10,  electricity 10, fire 10
+SR: '23'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - 2 slams +21 (2d8+8/19-20), bite +21 (1d6+8), tongue +16  (paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, paralysis (1d4 minutes, DC 25), possession, smite good 1/day
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +22)
+  values:
+    - label: 3/day
+      value: darkness, poison (DC 18), unholy aura (DC 22)
+    - label: 1/day
+      value: >-
+        blasphemy (DC 21), contagion (DC 18), desecrate, horrid wilting (DC 22),
+        summon monster IX (fiends only), unhallow, unholy blight (DC 18)
+AbilityScores:
+  - 26
+  - 23
+  - —
+  - 13
+  - 12
+  - 18
+BaseAtk: '13'
+CMB: '21'
+CMD: '38'
+Feats:
+  - Ability Focus (paralysis)
+  - Dodge
+  - Improved Critical (slams)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Mobility
+  - Spring Attack
+  - Toughness
+  - Vital Strike
+Skills:
+  - Acrobatics +24
+  - Bluff +22
+  - Fly +31
+  - Intimidate +25
+  - Perception +22
+  - Sense Motive +22
+  - Stealth +27
+Languages:
+  - Abyssal
+  - Common
+Source: Undead Revisited
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Possession (Su)
+    description: >-
+      A demonic mohrg's fiendish spirit can attempt to leap into another host
+      when it is destroyed. At this point, the demonic mohrg can attempt to
+      possess any one creature within 30 feet to which it has line of sight as
+      an immediate action. The targeted creature can resist being possessed if
+      it makes a DC 23 Will save. If it fails, the demonic mohrg possesses that
+      target as if via magic jar, but with no duration for the effect and
+      without the need for a receptacle. Typically, the demonic spirit lies low
+      if it successfully possesses a new host, waiting until the right moment to
+      seize control of the host and start a new chain of horrific murders. In
+      this way, a demonic spirit can jump from host to host, for each time its
+      host is executed, it rises anew as a demonic mohrg. The possessing spirit
+      can be driven from a living host with a successful dispel chaos or dispel
+      evil spell, instantly destroying the spirit and ending the cycle, but such
+      tactics have no effect on the creature after it has animated an executed
+      body as a demonic mohrg. The save DC is Charisma-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1720'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

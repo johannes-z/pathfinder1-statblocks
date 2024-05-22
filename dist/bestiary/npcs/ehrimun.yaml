@@ -1,0 +1,131 @@
+Name: Ehrimun
+CR: '14'
+XP: '38400'
+Race: ghoul
+Class: necromancer 14
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft., life sight 20 ft. (14 rounds/day)
+  - Perception +22
+AC: 24, touch 18, flat-footed 18
+AC_Mods: (+4 armor, +2 deflection, +5 Dex, +1 dodge, +2 natural)
+HP: '152'
+HD: (16 HD; 2d8+14d6+94)
+Saves: Fort +10, Ref +11, Will +17
+Fort: '10'
+Ref: '11'
+Will: '17'
+DefensiveAbilities: channel resistance +2
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +13 (1d6+1 plus disease and paralysis), 2 claws +13  (1d6+1 plus
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  power over undead 8/day (DC 21), paralysis  (1d4+1 rounds, DC 15, elves are
+  immune)
+SpellLikeAbilities:
+  header: Necromancer Spell-Like Abilities (CL 14th)
+  values:
+    - label: 8/day
+      value: grave touch
+SpellsKnown:
+  header: >-
+    Spells Known (CL 14th)  7th-quickened dispel magic, finger of death (DC 24) 
+    6th-circle of death (DC 23), quickened false life, summon monster IV 
+    5th-magic jar (DC 22), quickened shield, teleport, telekinesis (DC 20),
+    waves of fatigue  4th-arcane eye, black tentacles, contagion (DC 21), fear
+    (DC 21), stoneskin, summon monster IV  3rd-dispel magic, fireball (DC 18),
+    gaseous form, haste, stinking cloud (DC 18), vampiric touch  2nd-acid arrow,
+    blindness/deafness (DC 19), cat's grace, detect thoughts (DC 17), extended
+    mage armor (already cast), resist energy  1st-chill touch, expeditious
+    retreat, feather fall, grease (DC 16), obscuring mist, protection from good,
+    reduce person (DC 16)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, light, mage hand, read magic
+AbilityScores:
+  - 13
+  - 20
+  - —
+  - 20
+  - 16
+  - 18
+BaseAtk: '8'
+CMB: '9'
+CMD: '33'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Command Undead
+  - Defensive Combat Training
+  - Dodge
+  - Extend Spell
+  - Greater Spell Focus (necromancy)
+  - Quicken Spell
+  - Scribe Scroll
+  - Spell Focus (necromancy)
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +6
+  - Climb +6
+  - Fly +17
+  - Intimidate +10
+  - Knowledge (arcana) +24
+  - Knowledge (dungeoneering) +24
+  - Knowledge (religion) +24
+  - Linguistics +14
+  - Perception +22
+  - Spellcraft +24
+  - Stealth +23
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Dwarven
+  - Elven
+  - Gnome
+  - Goblin
+  - Gug
+  - Necril
+  - Orvian
+  - Osiriani
+  - Undercommon
+SQ: contingency
+Source: Classic Horrors
+IsTemplate: '0'
+SpecialAbilities: []
+Gender: Male
+ProhibitedSchools: enchantment, illusion
+BeforeCombat: >-
+  Ehrimun summons a minion and casts stoneskin, cat's grace, and protection from
+  good.
+DuringCombat: >-
+  Ehrimun leads with circle of death to eliminate many foes, then uses area
+  spells to eliminate survivors.
+Morale: Ehrimun relies on his contingency to save him from destruction.
+Gear: wand of fly (25 charges)
+OtherGear: >-
+  staff (arcane bond), belt of incredible dexterity +2, cloak of resistance +2,
+  ring of protection +2, diamond worth 1,500 gp, diamond dust worth 750 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '450'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

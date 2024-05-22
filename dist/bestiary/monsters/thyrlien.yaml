@@ -1,0 +1,129 @@
+Name: Thyrlien
+CR: '4'
+XP: '1200'
+Alignment: CG
+Size: Small
+Type: outsider
+SubType: (azata, chaotic, extraplanar, good, shapechanger)
+Init: '6'
+Senses:
+  - darkvision 60 ft., detect evil, detect magic, low-light vision
+  - Perception +11
+AC: 16, touch 13, flat-footed 14
+AC_Mods: (+2 Dex, +3 natural, +1 size)
+HP: '39'
+HD: (6d10+6)
+HP_Mods: fast healing 1 (see below)
+Saves: Fort +3, Ref +7, Will +7; +4 vs. poison
+Fort: '3'
+Ref: '7'
+Will: '7'
+Save_Mods: +4 vs. poison
+DR: 5/evil
+Immune: electricity, petrification
+Resist: cold  10, fire 10
+SR: '15'
+Speed: 20 ft., fly 40 ft. (good)
+Melee:
+  - bite +9 (1d3-1 plus poison), 2 wings +4 (1d4-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: favored enemy (evil outsiders +2, vermin +2), poison, starlight blast
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +8)
+  values:
+    - label: Constant
+      value: detect evil, detect magic
+    - label: 3/day
+      value: cure light wounds, locate creature, magic missile, message
+    - label: 1/day
+      value: blindness/deafness (DC 15), neutralize poison, true strike
+AbilityScores:
+  - 9
+  - 15
+  - 12
+  - 12
+  - 15
+  - 14
+BaseAtk: '6'
+CMB: '4'
+CMD: '16'
+Feats:
+  - Flyby Attack
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Acrobatics +11
+  - Fly +8
+  - Knowledge (planes) +10
+  - Knowledge (religion) +10
+  - Perception +11
+  - Perform (any one) +11
+  - Stealth +15
+  - Survival +11
+Languages:
+  - Celestial
+  - Draconic
+  - Infernal
+  - truespeech
+SQ: change shape (giant moth [use giant wasp stats]; vermin shape IIUM)
+Environment: any (Elysium)
+Organization: solitary, pair, or squad (3-5)
+Treasure: standard
+Description_Visual: >-
+  This fey-looking humanoid is colored in shades of gray. Its wings are
+  decorated with colored motes resembling a starry night sky.
+Group: Azata
+Source: Inner Sea Gods
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fast Healing (Ex)
+    description: >-
+      A thyrlien has fast healing 1 only when outside under a night sky (whether
+      the sky is cloudy or clear).
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 14; frequency 1/round for 6 rounds; effect 1d3
+      Str; cure 2 consecutive saves.
+  - name: Starlight Blast (Su)
+    description: >-
+      As a standard action once every 1d4 rounds, a thyrlien can tap into
+      Desna's divine radiance and unleash a blast of holy twilight in a 5-foot
+      burst. All creatures in this area take 2d4 points of holy damage, plus 1
+      point for each step their alignment deviates from chaotic good. For
+      example, a chaotic neutral or neutral good creature would take 2d4+1
+      points of damage, a neutral creature would take 2d4+2 points of damage,
+      and a lawful evil creature would take 2d4+4 points of damage. A DC 14
+      Reflex save negates this damage. Chaotic good creatures are unaffected by
+      this ability. The save DC is Constitution-based.
+Description:
+  - A thyrlien is a unique type of azata created by Desna.
+  - >-
+    Intended as rare warrior counterparts to lyrakien, thyrlien are tasked with
+    watching over nighttime travelers. Specifically hunting the servants of
+    Lamashtu and Ghlaunder, thyrlien wander lonely roads and dark alleys, hoping
+    to confront or counter the dark things that so often hunt such ominous
+    spots. Superficially humanoid, a thyrlien's attacks reveal its nonhuman
+    origins. Venomous saliva coats mouth and its delicate-looking wings are
+    actually as stiff as wood and have razor sharp edges. A thyrlien is skilled
+    at tracking using conventional and magical methods and is savvy to the ways
+    of its chosen prey. These servants of the goddess of luck stand about 2 feet
+    tall and weigh around 15 pounds.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5987'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

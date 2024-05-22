@@ -1,0 +1,129 @@
+Name: Targotha
+CR: '15'
+XP: '51200'
+Alignment: 'N'
+Size: Huge
+Type: aberration
+Init: '1'
+Senses:
+  - blindsense 120 ft., darkvision 60 ft.
+  - Perception +16
+AC: 28, touch 10, flat-footed 26
+AC_Mods: (+1 Dex, +1 dodge, +18 natural, -2 size)
+HP: '253'
+HD: (22d8+154)
+Saves: Fort +16, Ref +10, Will +15
+Fort: '16'
+Ref: '10'
+Will: '15'
+DefensiveAbilities: all-around vision, slippery
+Immune: acid, electricity, poison
+Resist: cold 20, fire 20
+Speed: 10 ft., swim 50 ft.
+Melee:
+  - >-
+    bite +25 (3d6+11 plus poison), 2 razor fins +25  (2d6+11/19-20), tail slap
+    +20 (2d8+16 plus bull rush)
+Ranged:
+  - jolt +15 touch (12d6 electricity plus stun)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  volatile breath (60-ft. cone, 15d6 fire or confusion, Reflex DC 28 half or
+  Fortitude DC 23 negates, usable every 2d4 rounds)
+AbilityScores:
+  - 33
+  - 13
+  - 24
+  - 2
+  - 14
+  - 13
+BaseAtk: '16'
+CMB: '29'
+CMD: 41 (can't be tripped)
+Feats:
+  - Blind-Fight
+  - Critical Focus
+  - Dodge
+  - Great Fortitude
+  - Improved Critical (razor fins)
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Mobility
+  - Spring Attack
+  - Staggering Critical
+  - Vital Strike
+Skills:
+  - Perception +16
+  - Swim +33
+Environment: any swamp (tar seeps)
+Organization: solitary, pair, or pack (3-6)
+Treasure: none
+Description_Visual: >-
+  This eyeless, eel-like beast has a menacing mouth and sharp fins running down
+  its long, black-and-orange body.
+Source: Numeria Land Of Fallen Stars
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Jolt (Ex)
+    description: >-
+      A targotha stores electrical potential that it can expend as a ranged
+      touch attack with a range of 240 feet and no range increment. Using this
+      ability within oil or tar reduces its range to 30 feet. A targotha cannot
+      use this ability in water. A jolt deals 12d6 points of electricity damage,
+      and the target is stunned for 1d4 rounds (Fortitude 28 negates the stun
+      effect). It can use this ability once every 1d4+1 rounds, during which the
+      targotha cannot ignite its volatile breath. The save DC is
+      Constitution-based.
+  - name: Razor Fins (Ex)
+    description: >-
+      A targotha's razor fins threaten a critical hit on a 19 or 20, augmented
+      to 17-20 by its Improved Critical feat.
+  - name: Slippery (Ex)
+    description: >-
+      A targotha secretes a thick mucus that allows it to move gracefully
+      through viscous fluids like tar and oil. This mucus dissolves away
+      adhesives (such as sovereign glue, tanglefoot bags, and webs) in 1d4
+      rounds. Additionally, all combat maneuver checks to grapple a targotha
+      automatically fail. The targotha automatically succeeds at any combat
+      maneuver checks and Escape Artist checks to escape a grapple or a pin.
+  - name: Tail Slap (Ex)
+    description: >-
+      A targotha adds 1-1/2 its Strength modifier on damage rolls for its tail
+      slap. It can attempt a bull rush combat maneuver against a creature struck
+      by its tail slap as a free action without provoking attacks of
+      opportunity. The targotha can't move as part of this bull rush.
+  - name: Volatile Breath (Ex)
+    description: >-
+      A targotha can breathe a cone of flammable gas as a breath weapon. As a
+      swift action, it can ignite the gas with its jolt ability. When ignited,
+      the gas explodes, dealing 15d6 points of fire damage in the area of the
+      cone (Reflex DC 28 half). If not ignited, the gas confuses all creatures
+      in the area of effect that breathe it in before the gas dissipates at the
+      start of the targotha's next turn. This confusion last for 1d4 rounds
+      (Fortitude DC 23 negates). The save DCs are Constitution-based, and the
+      confusion save DC has a -5 racial penalty.
+Description:
+  - >-
+    Before the great starship crashed on Golarion, it traveled the stars,
+    collecting all manner of strange specimens. One of the oddest varieties were
+    targothas, which came from a lush planet rich in oil and tar where local
+    fauna evolved to live in that world's tarry seas.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6103'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,148 @@
+Name: Mythic Ice Devil
+CR: '16'
+XP: '76800'
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful, mythic)
+Init: +15M
+Senses:
+  - all-around vision, darkvision 60 ft., see in darkness
+  - Perception +27
+Aura: fear (10 ft., DC 24)
+AC: 38, touch 14, flat-footed 33
+AC_Mods: (+5 Dex, +24 natural, -1 size)
+HP: '221'
+HD: (14d10+144)
+HP_Mods: regeneration 5 (good spells, good weapons)
+Saves: Fort +15, Ref +14, Will +12
+Fort: '15'
+Ref: '14'
+Will: '12'
+DefensiveAbilities: cold logic
+DR: 10/epic and good
+Immune: cold, fire, poison
+Resist: acid 10
+SR: '27'
+Speed: 40 ft., fly 60 ft. (good), ice burrowing 30 ft.
+Melee:
+  - >-
+    +2 frost spear +23/+18/+13 (2d6+12/x3 plus 1d6 cold plus ice shards plus
+    slow), bite +15 (2d6+3), tail slap +15 (1d8+3 plus slow)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  entrap (DC 23, 1d10 rounds, hardness 5, hp 10), favored enemy +6, mythic power
+  (6/day, surge +1d8), pounce
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +20)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: >-
+        cone of cold (DC 22), ice storm, greater teleport (self plus 50 lbs. of
+        objects only), persistent image (DC 22), wall of ice (DC 21)
+    - label: 1/day
+      value: summon (level 4, 2 bone devils 50%)
+AbilityScores:
+  - 25
+  - 21
+  - 22
+  - 25
+  - 22
+  - 24
+BaseAtk: '14'
+CMB: '22'
+CMD: '37'
+Feats:
+  - Alertness
+  - Cleave
+  - Combat ReflexesM
+  - Improved InitiativeM
+  - Iron WillM
+  - Power Attack
+  - Weapon Focus (spear)
+Skills:
+  - Acrobatics +22
+  - Bluff +24
+  - Diplomacy +24
+  - Fly +13
+  - Intimidate +21
+  - Knowledge (planes) +24
+  - Knowledge (any three others) +21
+  - Perception +27
+  - Sense Motive +27
+  - Spellcraft +21
+  - Stealth +18
+  - Survival +23
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+Environment: any (Hell)
+Organization: >-
+  solitary, team (2-3), council (4-10), or contingent (1-3 ice devils, 2-6
+  horned devils, and 1-4 bone devils)
+Treasure: standard (+2 frost spear, other treasure)
+Description_Visual: >-
+  Frozen barbs cover the almost skeletal form of this mantis-like creature, and
+  its icy eyes shine with fiendish intelligence.
+Group: Devil
+Source: Mythic Adventures
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cold Logic (Su)
+    description: >-
+      When a mythic ice devil's spell resistance protects it from a
+      mind-affecting effect, it can expend one use of mythic power as an
+      immediate action to turn that effect upon its source, as if using spell
+      turning.
+  - name: Favored Enemy (Ex)
+    description: >-
+      A mythic ice devil can expend one use of mythic power to gain a +6 favored
+      enemy bonus against one type of creature for 1 hour, as if it were a
+      14th-level ranger.
+  - name: Ice Burrowing (Ex)
+    description: >-
+      This ability works like the burrow ability, but only through ice and snow
+      (including magical ice such as a wall of ice).
+  - name: Ice Shards (Su)
+    description: >-
+      A mythic ice devil's ice-tipped spear embeds jagged shards of
+      supernaturally cold ice in its target. This functions as bleed (1d6),
+      except the damage is cold damage. Dealing 5 or more points of fire damage
+      to the target removes all ice shards. Creatures with the fire subtype are
+      immune to this ability.
+  - name: Slow (Su)
+    description: >-
+      A hit from a mythic ice devil's tail or spear induces numbing cold. The
+      opponent must succeed at a DC 23 Fortitude save or be affected as though
+      by a slow spell for 1d6 rounds. This effect comes from the devil, not its
+      weapon; it is not a quality possessed by the spear itself. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    A mythic ice devil is a master of strategy, able to adapt to the nature of
+    its opponents and turn its enemy's attacks back at them. Its lean form and
+    upright posture sets it apart from the stockier non-mythic ice devils.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4864'
+UniqueMonster: '0'
+MR: '6'
+Mythic: '1'
+MT: '0'

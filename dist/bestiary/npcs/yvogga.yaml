@@ -1,0 +1,106 @@
+Name: Yvogga
+CR: '3'
+XP: '800'
+Race: tiefling
+Class: summoner 4
+MonsterSource: Pathfinder RPG Bestiary 264, Pathfinder RPG Advanced Player's Guide 54
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception -1
+AC: 17, touch 13, flat-footed 14
+AC_Mods: (+4 armor, +3 Dex)
+HP: '25'
+HD: (4d8+4)
+Saves: Fort +2, Ref +4, Will +3
+Fort: '2'
+Ref: '4'
+Will: '3'
+DefensiveAbilities: shield ally
+Resist: cold 5, electricity 5, fire 5
+Speed: 30 ft.
+Melee:
+  - longspear +3 (1d8/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +6)
+  values:
+    - label: 1/day
+      value: darkness Summoner Spell-Like Abilities (CL 4th; concentration +6)
+    - label: 5/day
+      value: summon monster II
+SpellsKnown:
+  header: Summoner Spells Known (CL 4th; concentration +6)
+  values:
+    - label: 2nd (2/day)
+      value: bull's strength, invisibility
+    - label: 1st (4/day)
+      value: lesser rejuvenate eidolonAPG, mage armor, magic mouth, sleep (DC 13)
+    - label: 0 (at will)
+      value: arcane mark, detect magic, mage hand, mending, message, read magic
+AbilityScores:
+  - 10
+  - 16
+  - 13
+  - 14
+  - 8
+  - 14
+BaseAtk: '3'
+CMB: '3'
+CMD: '16'
+Feats:
+  - Deceitful
+  - Extra Evolution
+Skills:
+  - Bluff +10
+  - Disguise +8
+  - Intimidate +6
+  - Linguistics +6
+  - Spellcraft +9
+  - Stealth +5
+  - Use Magic Device +8
+Languages:
+  - Common
+  - Elven
+  - Infernal
+  - Orc
+  - Varisian
+SQ: bond senses (4 rounds/day), eidolon, fiendish sorcery, life link
+Source: Daughters Of Fury
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Yvogga has already cast mage armor on herself and invisibility on her eidolon.
+DuringCombat: >-
+  Yvogga orders her orc minions to take the front line as she clambers up the
+  slope in this room to evade the PCs. From there, she casts darkness in the
+  center of the room if the PCs are relying on light to see; otherwise, she
+  summons monsters and casts sleep on the strongest PCs. She resorts to bull's
+  strength and her longspear only if cornered in melee.
+Morale: >-
+  If her orc comrades are slain and the wolf dispatched, or if her eidolon is
+  defeated, Yvogga sees that the fight is clearly not going to end in her favor.
+  She drops her weapon and surrenders.
+Gear: scrolls of summon monster II (2), scrolls of summon monster III (2)
+OtherGear: >-
+  longspear, vest of escapeUE, courtier's outfit, amethyst necklace worth 50 gp,
+  25 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '6797'
+id: '6796'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

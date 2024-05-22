@@ -1,0 +1,227 @@
+Name: Veiled Master
+CR: '14'
+XP: '38400'
+Alignment: LE
+Size: Large
+Type: aberration
+SubType: (aquatic, shapechanger)
+Init: '10'
+Senses:
+  - darkvision 120 ft.
+  - Perception +23
+AC: 30, touch 15, flat-footed 24
+AC_Mods: (+4 armor, +6 Dex, +11 natural, -1 size)
+HP: '200'
+HD: (16d8+128)
+HP_Mods: fast healing 10
+Saves: Fort +13, Ref +13, Will +14
+Fort: '13'
+Ref: '13'
+Will: '14'
+Immune: electricity, mind-affecting effects
+Resist: cold 20
+SR: '25'
+Speed: 10 ft., swim 80 ft.
+Melee:
+  - >-
+    bite +17 (2d6+6 plus consume memory and slime), 2 claws +17 (1d6+6 plus
+    slime), 4 tentacles +12 touch (2d6+3 electricity plus thoughtlance)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with claws and tentacles)
+SpecialAttacks: delayed suggestion, mucus cloud
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +26)
+  values:
+    - label: Constant
+      value: mage armor
+    - label: At Will
+      value: >-
+        detect thoughts (DC 18), dominate person (DC 21), hypnotic pattern (DC
+        18), illusory wall (DC 20), mirage arcana (DC 21), persistent image (DC
+        21), programmed image (DC 22), project image (DC 23), veil (DC 22)
+    - label: 3/day
+      value: >-
+        dominate monster (DC 25), quickened dominate person (DC 21), geas/quest
+        (DC 22), mass suggestion (DC 22)
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 12th; concentration +18)   6th (4)-symbol of
+    persuasion (DC 23)   5th (6)-symbol of pain (DC 22), teleport   4th
+    (7)-dimension door, phantasmal killer (DC 20), symbol of slowingUM (DC 21)  
+    3rd (7)-clairaudience/clairvoyance, explosive runes (DC 20), hold person (DC
+    19), secret page   2nd (8)-blindness/deafness (DC 18), invisibility,
+    levitate, symbol of mirroringUM (DC 19), touch of idiocy   1st (8)-charm
+    person (DC 17), comprehend languages, erase (DC 17), ray of enfeeblement (DC
+    17), silent image (DC 17)
+  values:
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, daze (DC 16), detect magic, ghost sound (DC
+        16), mage hand, message, read magic, touch of fatigue
+AbilityScores:
+  - 22
+  - 22
+  - 27
+  - 21
+  - 19
+  - 22
+BaseAtk: '12'
+CMB: '19'
+CMD: 35 (can't be tripped)
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Combat Expertise
+  - Eschew MaterialsB
+  - Extend Spell
+  - Improved Initiative
+  - Lightning Reflexes
+  - Quicken Spell
+  - Quicken Spell-Like Ability (dominate person)
+Skills:
+  - Knowledge (arcana) +21
+  - Knowledge (history) +21
+  - Knowledge (nature) +21
+  - Perception +23
+  - Sense Motive +20
+  - Spellcraft +24
+  - Stealth +21
+  - Swim +33
+  - Use Magic Device +22
+Languages:
+  - Aboleth
+  - Aklo
+  - Aquan
+  - Azlanti
+  - Undercommon
+  - telepathy 300 ft.
+SQ: >-
+  change shape (any Small or Medium form; greater polymorph), runemastery, swift
+  transformation
+Environment: any water (Golarion's oceans)
+Organization: solitary or shoal (1 veiled master and 2-8 aboleths)
+Treasure: triple
+Description_Visual: >-
+  This monstrosity has a six-eyed face and six long tentacles- four ending in
+  glowing spheres and two in what look like hands.
+Source: Inner Sea Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Consume Memory (Su)
+    description: >-
+      When a veiled master bites a creature, it consumes some of that creature's
+      memories. The creature bitten must succeed at a DC 24 Fortitude save or
+      gain one negative level. A veiled master heals 5 points of damage each
+      time it grants a negative level in this way, and also learns some of the
+      target creature's memories (subject to the GM's discretion). This is a
+      mind-affecting effect. A veiled master can suppress this ability as a free
+      action. The save DC is Charisma-based.
+  - name: Delayed Suggestion (Sp)
+    description: >-
+      Whenever a veiled master successfully uses dominate person or dominate
+      monster on a creature, it can also implant a delayed suggestion that
+      triggers when dominate effect ends. Typically, this suggestion (which
+      functions as a spell-like ability, CL 20th, Will DC 19 negates) is for the
+      previously dominated creature to seek out the veiled master again and
+      submit to a new domination attempt, but sometimes, a veiled master
+      implants other suggestions (such as a suggestion to attack the first
+      person it sees).
+  - name: Mucus Cloud (Ex)
+    description: >-
+      While underwater, a veiled master exudes a cloud of transparent slime in a
+      30-foot-radius spread. All creatures in this area must succeed at a DC 26
+      Fortitude save each round or lose the ability to breathe air (but gain the
+      ability to breathe water) for 24 hours. Renewed contact with this mucus
+      cloud and failing another save extends the effect for another 24 hours.
+      The save DC is Constitution-based.
+  - name: Runemastery (Ex)
+    description: >-
+      A veiled master is particularly skilled at casting spells that create
+      magical writing, such as explosive runes, secret page, or any spell with
+      the word "symbol" in its name. It never requires material components or
+      focus components when casting such spells, and the save DC of any of these
+      spells increases by 1. A veiled master's symbol spells are difficult to
+      disarm-the Disable Device DC for these symbols increases by 2.
+  - name: Slime (Ex)
+    description: >-
+      A creature hit by any of a veiled master's bite or claw attacks must
+      succeed at a DC 26 Fortitude save or have its skin and flesh transform
+      into a clear, slimy membrane over the course of 1d4 rounds. The creature's
+      new "flesh" is soft and tender, reducing its Constitution score by 4 as
+      long as the condition persists. If the creature's flesh isn't kept moist,
+      it dries quickly and the victim takes 1d12 points of damage every 10
+      minutes. Remove disease and similar effects can restore an afflicted
+      creature to normal, but immunity to disease offers no protection from this
+      attack. The save DC is Constitution-based. Spells A veiled master can cast
+      spells as a 12th-level sorcerer.
+  - name: Swift Transformation (Su)
+    description: A veiled master can use its change shape ability as a swift action.
+  - name: Thoughtlance (Su)
+    description: >-
+      Four of a veiled master's tentacles end in glowing spheres of light. These
+      spheres deal 2d6 points of electricity damage on a touch attack, and also
+      blast a creature's mind with waves of mental energy-a creature touched by
+      one of these tentacles (regardless of whether the touch deals electricity
+      damage) must succeed at a DC 24 Will save or be staggered for 1 round.
+      Additional touches increase the duration by 1 round. While a creature is
+      staggered in this manner, it must make concentration checks to cast spells
+      as if it were experiencing extremely violent motion while casting (DC = 20
+      + spell level). The save DC is Charisma-based.
+Description:
+  - >-
+    The aboleths are among the oldest of Golarion's denizens, creatures that can
+    trace back their presence in the deepest reaches of the world's oceans to
+    times far before humanity came to dwell upon the globe- or before even most
+    deities themselves turned their attentions to this tiny sphere of water and
+    stone. In those ancient times, elder forces and eldritch entities knew of
+    the world. While they were not gods as are known today, even they were
+    dismissed and ignored by the aboleth race, for the aboleths knew that what
+    the gods could accomplish, so could they, given time. And the aboleths have
+    always had time.
+  - >-
+    During the era of ancient Azlant, when the aboleths manipulated humanity
+    like puppets, some of their kind walked among their pets in disguise,
+    veiling themselves with magic to appear as humanoids. These were the veiled
+    masters, and if one were to make the foolish attempt at imposing human
+    constructions on this alien race, the veiled masters would be considered the
+    nobility among aboleth-kind. In truth, while the aboleths do treat the
+    veiled masters with utmost respect and defer to their decisions, they are
+    not regarded as the rulers of the race- even stranger and more dangerous
+    entities rule over the veiled masters in the deepest trenches below the sea.
+  - >-
+    Aboleths are without a doubt skilled at domination and illusion, but the
+    veiled masters are the true experts of the arcane. It is they who engineered
+    the deceptions and manipulations of ancient Azlant's culture. Their hidden
+    gifts and subtle coaxings did much to encourage humanity's first rise to
+    glory in that age, and many of Azlant's nations had veiled masters walking
+    among them, whispering into their leaders' ears. The people
+  - >-
+    knew the veiled masters as powerful wizards, and there were murmurs that the
+    mysterious cabal was more than human, but few suspected the truth for very
+    long. The veiled masters handled such suspicions by doing violence to the
+    bodies and minds of those who proved too curious. It was the veiled masters
+    who first learned of Azlant's growing hubris-of their beliefs that they were
+    greater than their patrons. At first, their punishments were minor, yet to
+    the veiled masters' surprise and frustration, these acts only strengthened
+    humanity's resolve. In the end, Earthfall was the answer, and as Azlant sank
+    below the waves, the veiled masters retreated to the depths as well, content
+    for now that the devastation above would serve as a lesson that would never
+    be forgotten.
+  - >-
+    Today, the veiled masters live on. They walk among the humanoid races again,
+    watching and waiting. The time to teach a new lesson draws ever closer.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3590'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

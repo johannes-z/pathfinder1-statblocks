@@ -1,0 +1,103 @@
+Name: Collector Robot
+CR: '3'
+XP: '800'
+Race: Collector Robot
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (robot)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +8
+AC: 16, touch 13, flat-footed 13
+AC_Mods: (+3 Dex, +3 natural)
+HP: '31'
+HD: (2d10+20)
+Saves: Fort +0, Ref +6, Will +2
+Fort: '0'
+Ref: '6'
+Will: '2'
+DefensiveAbilities: all-around vision, hardness 10, reactive gyros
+Immune: construct traits
+Weaknesses: vulnerable to critical hits and electricity
+Speed: 10 ft., fly 60 ft. (perfect)
+Melee:
+  - 2 slams +5 (1d4+3 plus grab)
+Ranged:
+  - integrated stun gun +5 (1d8 nonlethal)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: integrated stun gun, integrated tracking
+AbilityScores:
+  - 17
+  - 17
+  - —
+  - 12
+  - 14
+  - 1
+BaseAtk: '2'
+CMB: '5'
+CMD: '18'
+Feats:
+  - Improved Initiative
+Skills:
+  - Fly +11
+  - Perception +8
+  - Stealth +5
+  - Survival +4 (+8 to follow or identify tracks)
+RacialMods: +4 Perception, +4 Survival to follow or identify tracks
+Languages:
+  - Androffan
+SQ: adaptive tracker
+Source: PFS S6-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adaptive Tracker (Ex)
+    description: >-
+      As a full-round action, a collector robot can adapt itself to any
+      environment in which it travels, granting it a +2 bonus on initiative
+      checks and Knowledge (geography), Perception, Stealth, and Survival checks
+      while in that kind of terrain.
+  - name: Integrated Stun Gun (Ex)
+    description: >-
+      A collector robot has an integrated stun gun slung beneath its body. This
+      weapon uses a powerful sonic amplifier to produce powerful low-frequency
+      blasts of energy that pummel targets. This weapon has a range increment of
+      20 feet, and it deals 1d8 points of nonlethal damage. On a critical hit,
+      the robot can attempt a free trip combat maneuver (CMB +12) against the
+      target, which does not provoke attacks of opportunity.
+  - name: Integrated Tracking (Ex)
+    description: >-
+      A collector robot has integrated systems that allow it to tag and track
+      creatures. As a full- round action, a collector robot can implant a
+      tracker chipTG into the body of a target that it is grappling or a
+      helpless target. Once implanted, the tracker chip is activated and the
+      collector robot's chipfinder can detect the presence of the implanted
+      tracker chip within 1 mile. It uses a signal to locate the tracker chips,
+      and this signal can be blocked by 1 foot of metal, 5 feet of stone, or 20
+      feet of organic matter. A tracker chip can be removed with a sharp tool.
+      Doing so deals 1 point of damage. Once an implanted tracker chip is
+      removed from the body (or remains in a body after it dies) it retains
+      enough energy to continue to be detected by the collector robot's sensors
+      for 1 week.
+  - name: Reactive Gyros (Ex)
+    description: >-
+      The rotors that grant a collector robot flight also provide quick
+      reactions to threats and external stimuli, granting it a +3 racial bonus
+      on Reflex saves.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7860'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

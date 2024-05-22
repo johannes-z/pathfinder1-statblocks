@@ -1,0 +1,132 @@
+Name: Rasper
+CR: '15'
+XP: '51200'
+Race: Tiefling
+Class: cleric of Deskari 14
+MonsterSource: Pathfinder RPG Bestiary 264
+Alignment: CE
+Size: Medium
+Type: vermin
+SubType: (augmented outsider, native)
+Init: '4'
+Senses:
+  - blindsight 30 ft., darkvision 60 ft.
+  - Perception +20
+AC: 36, touch 26, flat-footed 32
+AC_Mods: (+6 armor, +4 deflection, +4 Dex, +8 insight, +4 shield)
+HP: '178'
+HD: (14d8+112)
+HP_Mods: fast healing 15
+Saves: Fort +15, Ref +10, Will +17
+Fort: '15'
+Ref: '10'
+Will: '17'
+DefensiveAbilities: worm that walks traits
+DR: 15/-
+Immune: disease, paralysis, poison, sleep
+Resist: cold 5, electricity 5, fire 5
+SR: '26'
+Speed: 30 ft.
+Melee:
+  - slam +9 (1d4-1 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 3/day (DC 17, 7d6), destructive aura (+7, 14
+  rounds/day), destructive smite (+7, 11/day), discorporate, squirming embrace,
+  tenacious, weapon master (14 rounds/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 14th; concentration +22)
+  values:
+    - label: 11/day
+      value: >-
+        battle rage (+7 damage) Tiefling Spell-Like Abilities (CL 14th,
+        concentration +14)
+    - label: 1/day
+      value: darkness
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 14th; concentration +22)  7th-blasphemy (DC 25),
+  disintegrateD (DC 25), mass cure serious wounds, repulsion (DC 25)  6th-blade
+  barrierD (DC 24), greater dispel magic, heal (2), word of recall (DC 24) 
+  5th-quickened divine favor, flame strike (DC 23), insect plague, shoutD (DC
+  23), spell resistance  4th-air walk, divine powerD, cure critical wounds,
+  dimensional anchor, poison (DC 22), sending, unholy blight (DC 22) 
+  3rd-blindness/deafness (DC 21), cure serious wounds, dispel magic,
+  invisibility purge, magic vestment, protection from energy, searing light 
+  2nd-bear's endurance, cure moderate wounds (3), hold person (DC 20), resist
+  energy, spiritual weaponD  1st-command (DC 19), cure light wounds (3),
+  sanctuary (DC 19), shield of faith, true strikeD  0 (at will)-bleed (DC 18),
+  detect magic, mending, stabilize
+SpellDomains: Destruction, War
+AbilityScores:
+  - 8
+  - 19
+  - 22
+  - 12
+  - 26
+  - 10
+BaseAtk: '10'
+CMB: +9 (+13 grapple)
+CMD: 39 (35 vs. grapple)
+Feats:
+  - Craft Wondrous Item
+  - Lightning Reflexes
+  - Mounted Combat
+  - Quicken Spell
+  - Ride-By Attack
+  - Skill Focus (Ride)
+  - Toughness
+Skills:
+  - Bluff +2
+  - Knowledge (religion) +18
+  - Perception +20
+  - Ride +20
+  - Sense Motive +16
+  - Spellcraft +18
+  - Stealth +14
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+SQ: fiendish sorcery, profane gift (+2 Wis),
+Source: AP 78
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Profane Gift (Su)
+    description: >-
+      Each of these clerics has used planar ally to contact a succubus to gain
+      her profane gift-a profane bonus to Wisdom.
+BeforeCombat: >-
+  Each rasper casts air walk, bear's endurance, shield of faith, and spell
+  resistance on herself before combat, and casts magic vestment on her buckler.
+  One of the raspers casts sending to alert Areelu that the PCs are attacking
+  just before combat begins.
+DuringCombat: >-
+  Each rasper directs her dragon to breathe acid as often as possible,
+  supporting these attacks with ranged magic. Melee is a tactic of last resort,
+  but if the PCs attempt to enter area F2, the raspers and their dragons swiftly
+  move to engage in melee there to prevent the activation of the phase door to
+  area F3. Raspers are fond of using their selective metamagic rods to render
+  themselves and their allies immune to blade barriers and flame strikes.
+Morale: >-
+  If reduced to 50 or fewer hit points, a rasper casts word of recall to retreat
+  to area F17, whereupon she heals herself and then moves to area F21 to stay at
+  Areelu's side to protect her. A rasper fights to the death when doing so.
+OtherGear: >-
+  +4 leather armor, mwk buckler, headband of inspired wisdom +6, selective
+  metamagic rodUE
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5716'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

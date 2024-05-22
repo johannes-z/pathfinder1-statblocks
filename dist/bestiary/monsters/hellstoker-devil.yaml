@@ -1,0 +1,141 @@
+Name: Hellstoker Devil
+CR: '5'
+XP: '1600'
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +8
+AC: 19, touch 11, flat-footed 18
+AC_Mods: (+1 Dex, +8 natural)
+HP: '37'
+HD: (5d10+10)
+Saves: Fort +3, Ref +5, Will +6
+Fort: '3'
+Ref: '5'
+Will: '6'
+DefensiveAbilities: fiery body, oily hide
+DR: 5/good and silver
+Immune: fire, poison
+Resist: acid 10,  cold 10
+SR: '16'
+Speed: 30 ft.
+Melee:
+  - longspear +7 (1d8+3/x3) or 2 claws +7 (1d6+2)
+Ranged:
+  - ranged touch +6 (bellows)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with longspear)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: At will
+      value: >-
+        magic circle against good, greater teleport (self plus 50 pounds of
+        objects only)
+    - label: 1/day
+      value: >-
+        maximized burning hands (DC 11), summon (level 5, 2d8 lemures 50% or 1
+        hellstoker 35%)
+AbilityScores:
+  - 15
+  - 13
+  - 15
+  - 6
+  - 10
+  - 10
+BaseAtk: '5'
+CMB: '7'
+CMD: '18'
+Feats:
+  - Iron Will
+  - Maximize Spell-like Abilities (burning hands)
+  - Power Attack
+Skills:
+  - Climb +10
+  - Escape Artist +11
+  - Intimidate +8
+  - Perception +8
+  - Survival +8
+RacialMods: +10 Escape Artist
+Languages:
+  - Infernal
+  - telepathy 100 ft.
+Environment: any (Hell)
+Organization: solitary, team (4-7), or retinue (8-13)
+Treasure: standard
+Description_Visual: >-
+  This man-sized creature has loosely hanging, rubbery flesh, grayishblack in
+  color, and its entire body is smeared with a yellowish-brown mucus. Its head
+  is ovoid, devoid of hair, and sports upward curving horns. A hardened ridge of
+  bone runs from its brow, across the top of its head, and disappears into its
+  spine. Its long, serpentine tail is dark grayish-red.
+Group: Devil
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bellows (Ex)
+    description: >-
+      A hellstoker can use its burning hands to light its bellows as a standard
+      action. This allows the hellstoker to fire a jet of flame from its bellows
+      in a line to a range of 30 feet, once per round as a standard action. It
+      must make a successful ranged touch attack to hit a foe. A creature hit by
+      the fire takes 1d8 points of fire damage and must succeed on a DC 15
+      Reflex save or catch on fire.
+  - name: Fiery Body (Ex)
+    description: >-
+      The oil coating a hellstoker's body is highly flammable. As such, a
+      hellstoker hit with a fire effect bursts into flames. This deals no damage
+      to the hellstoker, and deals 1d6 points of fire damage to any creature
+      touching or grappling the hellstoker. The fire burns for 10 rounds before
+      extinguishing. This does not damage the hellstoker's oily hide; therefore,
+      it still retains its racial bonus to Escape Artist checks (see oily hide
+      below), and it can be caught on fire again.
+  - name: Oily Hide (Ex)
+    description: >-
+      Hellstokers do not secrete oil naturally, but their constant contact with
+      it leaves them coated with a thick layer of the substance at all times.
+      This grants hellstokers a +10 racial bonus to Escape Artist checks
+      (included in the statistics block). The oil cannot be washed off or
+      removed. Additionally, if a hellstoker is hit with a fire effect, it
+      bursts into flames. See the hellstoker's fiery body above for details.
+Description:
+  - >-
+    Hellstokers (or marnasoths) maintain the oil, made from the flesh of
+    mortals, in the infernal boilers located on the lowest region of Hell. They
+    are rarely encountered anywhere else, though on occasion a team or retinue
+    of hellstokers enters the Material Plane in search of fuel. Most just wait
+    for the foolhardy mortals that enjoy plane-hopping to pop into their realm
+    where any number of devils finish them off, leaving their rotting carcasses
+    to the hellstokers. When fuel is running low and the hellstokers are short
+    on mortals, they form bands that hunt down and kill the least ranking devils
+    (such as lemures), tossing their slain bodies into the boilers.
+  - >-
+    Hellstokers attack using their longspears or natural weapons. They sometimes
+    use burning hands to set one another on fire, or they use it to ignite the
+    oil in their bellows. When outnumbered, hellstokers usually use burning
+    hands against their foes and then teleport away to safety.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: longspear, bellows
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2474'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

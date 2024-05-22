@@ -1,0 +1,105 @@
+Name: Azuretta
+CR: '1'
+XP: '400'
+Race: half-elf
+Class: bard 2
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +3
+AC: 14, touch 12, flat-footed 12
+AC_Mods: (+2 armor, +2 Dex)
+HP: '15'
+HD: (2d8+2)
+Saves: Fort +0, Ref +5, Will +4; +2 vs. enchantment
+Fort: '0'
+Ref: '5'
+Will: '4'
+Save_Mods: +2 vs. enchantment
+Speed: 30 ft.
+Melee:
+  - mwk whip +1 (1d3-1 nonlethal), dagger +0 (1d4-1/19-20)
+Ranged:
+  - dagger +3 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 9 rounds/day (countersong, distraction, fascinate, inspire
+  courage +1)
+SpellsKnown:
+  header: Bard Spells Known (CL 2nd; concentration +5)
+  values:
+    - label: 1st (3/day)
+      value: charm person (DC 15), innocence*, sleep (DC 15)
+    - label: 0 (at will)
+      value: daze (DC 14), ghost sound, lullaby (DC 14), message, read magic
+AbilityScores:
+  - 8
+  - 14
+  - 10
+  - 13
+  - 12
+  - 17
+BaseAtk: '1'
+CMB: '0'
+CMD: '12'
+Feats:
+  - Skill Focus (bluff)
+  - Spell Focus (enchantment)
+Skills:
+  - Acrobatics +6 (+2 jump)
+  - Bluff +11
+  - Climb +0
+  - Diplomacy +8
+  - Disguise +8
+  - Escape Artist +6
+  - Perception +3
+  - Perform (dance) +8
+  - Sense Motive +5
+  - Sleight of Hand +6
+  - Stealth +7
+RacialMods: +2 Perception
+Languages:
+  - Common
+  - Elven
+  - Varisian
+SQ: bardic knowledge +1, versatile performance (dance), elf blood
+Source: PFS S2-13
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Azuretta attempts to charm a PC to act as her protector if she suspects an
+  impending combat.
+DuringCombat: >-
+  Azuretta prefers not to fight alone, knowing that her true strength is
+  augmenting her allies' attacks. If alone, she casts sleep on as many PCs as
+  possible and attempts to flee. If fighting with an ally, she inspires courage
+  and works to provide a flank if possible.
+Morale: >-
+  If Azuretta is the murderer, she fights to the death. If she is innocent, she
+  attempts to flee from the onset of the battle, and surrenders completely if
+  brought below 5 hp.
+Gear: >-
+  potion of invisibility, scroll of cure light wounds (2), wand of disguise self
+  (5 charges), acid flask
+OtherGear: leather armor, masterwork whip, dagger (4), perfume, 21 gp
+Note: '* See Advanced Player''s Guide'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5597'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

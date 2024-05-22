@@ -1,0 +1,97 @@
+Name: Derro Vampire Spawn
+CR: '5'
+XP: '1600'
+Race: Derro vampire spawn
+Class: rogue 1
+MonsterSource: Pathfinder RPG Bestiary 70, Pathfinder RPG Monster Codex 244
+Alignment: CE
+Size: Small
+Type: undead
+SubType: (augmented humanoid, derro)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 19, touch 13, flat-footed 17
+AC_Mods: (+2 armor, +2 Dex, +4 natural, +1 size)
+HP: '34'
+HD: (4d8+17)
+HP_Mods: fast healing 2
+Saves: Fort +5, Ref +5, Will +7
+Fort: '5'
+Ref: '5'
+Will: '7'
+DefensiveAbilities: channel resistance +2
+DR: 5/silver
+Immune: undead traits
+Resist: cold 10, electricity 10
+SR: '14'
+Weaknesses: resurrection vulnerability, vampire weaknesses, vulnerability to sunlight
+Speed: 20 ft.
+Speed_Mod: spider climb
+Melee:
+  - slam +5 (1d3 plus energy drain)
+Ranged:
+  - +1 aklys +6 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blood drain, dominate (DC 16), energy drain (1 level, DC 16), sneak attack
+  +2d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +7)
+  values:
+    - label: At Will
+      value: darkness, ghost sound (DC 14)
+    - label: 1/day
+      value: daze (DC 14), sound burst (DC 16)
+AbilityScores:
+  - 11
+  - 15
+  - —
+  - 10
+  - 5
+  - 18
+BaseAtk: '2'
+CMB: '1'
+CMD: '13'
+Feats:
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Weapon Finesse
+Skills:
+  - Acrobatics +17
+  - Intimidate +9
+  - Perception +7
+  - Stealth +21
+Languages:
+  - Aklo
+  - Undercommon
+SQ: gaseous form, madness, poison use, shadowless, trapfinding +1
+Source: AP 135
+IsTemplate: '0'
+DuringCombat: >-
+  Each round, one of the four derro vampires attempts to hook a drunkard and
+  start the process of unraveling his chains, as detailed on page 13. The other
+  three derros focus their attacks on other PCs, ganging up as they can to flank
+  foes. A PC in the process of pulling a dangling drunkard to safety is
+  considered to be flat-footed against a derro's sneak attack.
+Morale: >-
+  The derro vampires fight until destroyed. If destroyed, a derro vampire
+  reverts to gaseous form and retreats to its coffin in area A9.
+Gear: mwk leather armor, +1 aklysUC
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11915'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

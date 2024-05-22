@@ -1,0 +1,118 @@
+Name: Menotheguro
+CR: '8'
+XP: '4800'
+Race: Aboleth
+Class: necromancer 3
+MonsterSource: Pathfinder RPG Bestiary 8
+Alignment: LE
+Size: Huge
+Type: aberration
+SubType: (aquatic)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +18
+Aura: mucus cloud (5 ft., DC 19)
+AC: 23, touch 12, flat-footed 20
+AC_Mods: (+1 deflection, +3 Dex, +11 natural, -2 size)
+HP: '112'
+HD: (11 HD; 8d8+3d6+66)
+Saves: Fort +8, Ref +8, Will +13
+Fort: '8'
+Ref: '8'
+Will: '13'
+Speed: 10 ft., swim 60 ft.
+Melee:
+  - 4 tentacles +13 (1d6+7 plus slime)
+Space: 15 ft.
+Reach: 15 ft.
+SpellLikeAbilities:
+  header: Aboleth Spell-Like Abilities (CL 16th; concentration +19)
+  values:
+    - label: At Will
+      value: >-
+        hypnotic pattern (DC 15), illusory wall (DC 17), mirage arcana (DC 18),
+        persistent image (DC 18), programmed image (DC 19), project image (DC
+        19), veil (DC 19)
+    - label: 3/day
+      value: >-
+        dominate monster (DC 22) Necromancer Spell-Like Abilities (CL 3rd;
+        concentration +7)
+    - label: 7/day
+      value: grave touch (1 round)
+SpellsPrepared: >-
+  Necromancer Spells Prepared (CL 3rd; concentration +7)  2nd-command undead (DC
+  16), false life, invisibility  1st-chill touch (DC 15), magic missile (2), ray
+  of enfeeblement (DC 15)  0 (at will)-bleed (DC 14), detect magic,
+  prestidigitation, read magic
+AbilityScores:
+  - 24
+  - 16
+  - 20
+  - 18
+  - 18
+  - 16
+BaseAtk: '7'
+CMB: '16'
+CMD: 30 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Craft Wondrous Item
+  - Eschew Materials
+  - Improved Initiative
+  - Lightning Reflexes
+  - Scribe Scroll
+  - Weapon Focus (tentacle)
+Skills:
+  - Bluff +14
+  - Knowledge (arcana) +18
+  - Knowledge (geography) +15
+  - Knowledge (history) +15
+  - Knowledge (religion) +18
+  - Perception +18
+  - Spellcraft +18
+  - Swim +29
+Languages:
+  - Aboleth
+  - Aklo
+  - Azlanti
+  - Common
+  - Elven
+  - Infernal
+SQ: arcane bond (ring of protection +1), power over undead
+Source: AP 99
+IsTemplate: '0'
+ProhibitedSchools: conjuration, transmutation
+BeforeCombat: Menotheguro casts false life on itself before entering combat.
+DuringCombat: >-
+  The aboleth would prefer to capture PCs alive, since it can then kill them at
+  its leisure and use the interaction of their souls with the Drowned Eye's
+  necromantic energies to further fuel its work. If it manages to dominate a
+  foe, it prefers to command the foe to simply lay down arms rather than risk
+  her escaping control by forcing her to attack her allies.
+Morale: >-
+  Menotheguro isn't interested in risking its life for its project. If reduced
+  to fewer than 50 hit points, it casts invisibility and attempts to flee. The
+  monster swims as quickly as it can out to sea to seek depths where it is more
+  comfortable, and if the PCs allow it to escape, it does not return to
+  antagonize Acisazi.
+Gear: >-
+  pale blue rhomboid ioun stone, ring of protection +1 (worn on the tip of a
+  tentacle), spellbook (strips of preserved seaweed inscribed with runes
+  containing all prepared spells)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7168'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

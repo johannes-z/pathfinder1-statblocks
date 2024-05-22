@@ -1,0 +1,128 @@
+Name: Sartoss
+CR: '6'
+XP: '2400'
+Race: serpentfolk
+Class: cleric of Kro'akoth 4
+MonsterSource: Pathfinder RPG Bestiary 2 242
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '9'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +14
+AC: 20, touch 17, flat-footed 15
+AC_Mods: (+2 deflection, +5 Dex, +3 natural)
+HP: '85'
+HD: (9 HD; 5d10+4d8+40)
+Saves: Fort +11, Ref +10, Will +12
+Fort: '11'
+Ref: '10'
+Will: '12'
+Immune: mind-affecting effects, paralysis, poison
+SR: '19'
+Speed: 30 ft.
+Melee:
+  - >-
+    +1 rapier +12/+7 (1d6+3/18-20), +1 rapier +12 (1d6+2/18-20), bite +8 (1d6+1
+    plus poison)
+  - +1 rapier +14/+9 (1d6+3/18-20), bite +8 (1d6+1 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 8/day (DC 17, 2d6)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +9)
+  values:
+    - label: At Will
+      value: disguise self (humanoid form only, DC 16), ventriloquism
+    - label: 1/day
+      value: >-
+        blur, dominate person (DC 20), major image, mirror image, suggestion (DC
+        18) Domain Spell-Like Abilities (CL 4th; concentration +8)
+    - label: 7/day
+      value: fire bolt (1d6+2 fire)
+    - label: 7/day
+      value: copycat (4 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 4th; concentration +8)  2nd-bull's strength, cure
+  moderate wounds, hold person (DC 16), produce flameD  1st-bless, burning
+  handsD (DC 15), cure light wounds, protection from good, shield of faith  0
+  (at will)-bleed (DC 14), detect magic, read magic, stabilize
+SpellDomains: Fire, Trickery
+AbilityScores:
+  - 14
+  - 20
+  - 19
+  - 18
+  - 19
+  - 20
+BaseAtk: '8'
+CMB: '10'
+CMD: '27'
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Martial Weapon Proficiency (rapier)
+  - Two-Weapon Fighting
+  - Weapon Finesse
+Skills:
+  - Acrobatics +10
+  - Bluff +12
+  - Diplomacy +12
+  - Escape Artist +18
+  - Heal +11
+  - Knowledge (arcana) +16
+  - Knowledge (planes
+  - religion) +11
+  - Perception +14
+  - Sense Motive +13
+  - Spellcraft +14
+  - Use Magic Device +14
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Draconic
+  - Ignan
+  - Undercommon
+  - telepathy 100 ft.
+Source: The Emerald Spire
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 18; frequency 1/round for 6 rounds; effect 1d2
+      Str; cure 2 saves.
+Gender: Male
+BeforeCombat: >-
+  If he knows the PCs are coming, Sartoss casts bull's strength and shield of
+  faith on himself, and protection from good on the constrictor.
+DuringCombat: >-
+  Sartoss attempts to sow confusion in the party by using dominate person,
+  suggestion, and hold person.
+Morale: >-
+  If alone, Sartoss tries to flee through the secret door. If the battle goes
+  poorly, he leaves via the gate in area G10.
+Gear: >-
+  Fangs of Kro'akoth (two +1 rapiers), pearl of power (1st), gold holy symbol of
+  Kro'akoth (worth 600 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bull's strength and shield of faith, Sartoss's statistics are AC 18,
+  touch 15, flat-footed 13; Melee +1 rapier +12/+7 (1d6+1/18&#8211;20), +1
+  rapier +12 (1d6+1/18&#8211;20), bite +8 (1d6 plus poison) or +1 rapier +14/+9
+  (1d6+1/18&#8211;20), bite +8 (1d6 plus poison); Str 10; CMB +8; CMD 23.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6118'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

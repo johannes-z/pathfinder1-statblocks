@@ -1,0 +1,86 @@
+Name: Azlanti Monolith
+CR: '16'
+XP: '76800'
+Race: Iron Golem
+MonsterSource: Pathfinder RPG Bestiary 162
+Alignment: 'N'
+Size: Huge
+Type: construct
+Init: '-2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 31, touch 6, flat-footed 31
+AC_Mods: (-2 Dex, +25 natural, -2 size)
+HP: '155'
+HD: (21d10+40)
+Saves: Fort +7, Ref +5, Will +7
+Fort: '7'
+Ref: '5'
+Will: '7'
+DR: 15/adamantine
+Immune: construct traits, magic
+Speed: 20 ft.
+Melee:
+  - 2 cold iron slams +36 (4d12+27/19-20)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: breath weapon, cold iron, powerful blows
+AbilityScores:
+  - 47
+  - 7
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '18'
+CMB: '34'
+CMD: '43'
+Source: PFS S2-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      As a free action once every 1d4+1 rounds, an iron golem can exhale a
+      10-foot cube of poisonous gas. This gas cloud persists for 1 round; any
+      creature within the area when the golem creates it (as well as any
+      creature that passes through the cloud during the remainder of that round)
+      is exposed to the cloud's poisonous effects. This poison is magically
+      created each time the golem uses this power. Breath weapon-inhaled; save
+      Fort 19; frequency 1/round for 4 rounds; effect 1d4 Constitution damage;
+      cure 2 saves. The save DC is Constitution-based. Cold Iron This iron golem
+      is constructed from cold iron, meaning its slam attacks count as cold iron
+      weapons.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      An iron golem is immune to spells and spell-like abilities that allow
+      spell resistance. Certain spells and effects function differently against
+      it, as noted below. &#8226; A magical attack that deals electricity damage
+      slows an iron golem (as the slow spell) for 3 rounds, with no saving
+      throw. &#8226; A magical attack that deals fire damage breaks any slow
+      effect affecting the golem, and heals 1 point of damage for every 3 points
+      of damage the attack would otherwise deal. If the amount of healing would
+      cause the golem to exceed its full normal hit points, it gains any excess
+      as temporary hit points. The iron golem gets no saving throw against fire
+      effects. &#8226; An iron golem is affected normally by rust attacks, such
+      as those of a rust monster or a rusting grasp spell.
+  - name: Powerful Blows (Ex)
+    description: >-
+      An iron golem inflicts one and a half times its Strength modifier and
+      threatens a critical hit on a 19&#8211;20 with its slam attacks.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4620'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

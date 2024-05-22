@@ -1,0 +1,224 @@
+Name: Ogonthunn
+CR: '19'
+XP: '204800'
+Race: Veiled master
+Class: loremaster 5
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea Bestiary 56'
+Alignment: LE
+Size: Large
+Type: aberration
+SubType: (aquatic, shapechanger)
+Init: '11'
+Senses:
+  - darkvision 120 ft.
+  - Perception +29
+AC: 34, touch 19, flat-footed 25
+AC_Mods: (+4 armor, +7 Dex, +2 dodge, +1 insight, +11 natural, -1 size)
+HP: '356'
+HD: (21 HD; 16d8+5d6+267)
+Saves: Fort +19, Ref +17, Will +18
+Fort: '19'
+Ref: '17'
+Will: '18'
+Immune: electricity, mind-affecting effects
+Resist: cold 20
+SR: '25'
+Speed: 10 ft., swim 80 ft.
+Melee:
+  - >-
+    bite +21 (2d6+5 plus consume memory and slime), 2 claws +21 (1d6+5 plus
+    slime), 4 tentacles +16 touch (2d6+2 plus thoughtlance)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with claws and tentacles)
+SpecialAttacks: delayed suggestion, mucus cloud
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +29)
+  values:
+    - label: Constant
+      value: mage armor
+    - label: At Will
+      value: >-
+        detect thoughts (DC 21), dominate person (DC 24), hypnotic pattern (DC
+        21), illusory wall (DC 23), mirage arcana (DC 24), persistent image (DC
+        24), programmed image (DC 25), project image (DC 26), veil (DC 25)
+    - label: 3/day
+      value: >-
+        dominate monster (DC 28), quickened dominate person (DC 24), geas/quest,
+        mass suggestion (DC 25)
+SpellsKnown:
+  header: Spells Known (CL 17th; concentration +26)
+  values:
+    - label: 8th (5/day)
+      value: symbol of death (DC 27), symbol of insanity (DC 27)
+    - label: 7th (7/day)
+      value: symbol of stunning (DC 26), symbol of weakness (DC 26), vision
+    - label: 6th (7/day)
+      value: chain lightning (DC 25), mislead, symbol of persuasion (DC 25)
+    - label: 5th (8/day)
+      value: mind fog (DC 24), overland flight, symbol of pain (DC 24), teleport
+    - label: 4th (8/day)
+      value: >-
+        arcane eye, charm monster (DC 23), dimension door, phantasmal killer (DC
+        23)
+    - label: 3rd (8/day)
+      value: dispel magic, explosive runes, hold person (DC 22), vampiric touch
+    - label: 2nd (8/day)
+      value: >-
+        blindness/deafness (DC 21), false life, invisibility, levitate, touch of
+        idiocy
+    - label: 1st (9/day)
+      value: >-
+        charm person (DC 20), comprehend languages, erase, magic missile, ray of
+        enfeeblement (DC 20)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, daze (DC 19), detect magic, ghost sound (DC
+        19), message, prestidigitation, read magic, touch of fatigue (DC 19)
+AbilityScores:
+  - 20
+  - 24
+  - 32
+  - 23
+  - 19
+  - 28
+BaseAtk: '14'
+CMB: '20'
+CMD: '40'
+Feats:
+  - Arcane Strike
+  - Craft Wondrous Item
+  - Dazing Spell
+  - Deceitful
+  - Dodge
+  - Extend Spell
+  - Improved Initiative
+  - Lightning Reflexes
+  - Quicken Spell
+  - Quicken Spell-Like Ability (dominate person)
+  - Skill Focus (Knowledge [arcana])
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +0 (-8 when jumping)
+  - Bluff +35
+  - Disguise +34
+  - Fly +27
+  - Knowledge (arcana) +37
+  - Knowledge (geography) +22
+  - Knowledge (nature) +22
+  - Perception +29
+  - Sense Motive +26
+  - Spellcraft +31 (+41 when identifying items)
+  - Stealth +8
+  - Swim +38
+  - Use Magic Device +34
+SQ: >-
+  change shape (any Small or Medium form; greater polymorph), greater lore, lore
+  +2, runemastery, secrets (applicable knowledge, dodge trick, secret health),
+  swift transformation, true lore
+Source: AP 66
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Consume Memory (Su)
+    description: >-
+      When Ogonthunn bites a creature, it consumes memories. The creature bitten
+      must succeed at a DC 27 Fortitude save or gain 1 negative level. Ogonthunn
+      heals 5 points of damage each time it grants a negative level in this way,
+      and also learns some of the target creature's memories (subject to the
+      GM's discretion). This is a mind-affecting effect. Ogonthunn can suppress
+      this ability as a free action. The save DC is Charisma-based.
+  - name: Delayed Suggestion (Sp)
+    description: >-
+      Whenever Ogonthunn successfully uses dominate person or dominate monster
+      on a creature, it can implant a delayed suggestion that triggers when the
+      dominate effect ends. This suggestion (which functions as a spell-like
+      ability, CL 20th, Will DC 22 negates) is for the creature to put its gear
+      somewhere safe and then spend the next 20 hours attempting to track down
+      Ogonthunn and present itself to the veiled master to be re-dominated.
+  - name: Mucus Cloud (Ex)
+    description: >-
+      While underwater, Ogonthunn exudes a cloud of transparent slime in a
+      30-foot-radius spread. Every creature in this area must succeed at a DC 29
+      Fortitude save each round or lose the ability to breathe air (but gain the
+      ability to breathe water) for 24 hours. Renewed contact with this mucus
+      cloud and failing another save extends the effect for another 24 hours.
+      The save DC is Constitution-based.
+  - name: Runemastery (Ex)
+    description: >-
+      Ogonthunn is particularly skilled at casting spells that create magical
+      writing, such as explosive runes, secret page, or any spell with the word
+      "symbol" in its name. It never requires material components or focus
+      components when casting such spells, and the save DC of any of these
+      spells increases by 1. Ogonthunn's symbol spells are difficult to
+      disarm-the Disable Device DC for these symbols increases by 2.
+  - name: Slime (Ex)
+    description: >-
+      A creature hit by Ogonthunn's bite or claw attacks must succeed at a DC 29
+      Fortitude save or its skin and flesh transform into a clear, slimy
+      membrane over the course of 1d4 rounds. The creature's new "flesh" is soft
+      and tender, reducing its Constitution score by 4 as long as the condition
+      persists. If the creature's flesh isn't kept moist, it dries quickly and
+      the victim takes 1d12 points of damage every 10 minutes. Remove disease
+      and similar effects can restore an afflicted creature to normal, but
+      immunity to disease offers no protection from this attack. The save DC is
+      Constitution-based. Spells Ogonthunn can cast spells as a 17th-level
+      sorcerer.
+  - name: Swift Transformation (Su)
+    description: Ogonthunn can use its change shape ability as a swift action.
+  - name: Thoughtlance (Su)
+    description: >-
+      Four of Ogonthunn's tentacles end in glowing spheres of light. These
+      spheres deal 2d6 points of electricity damage on a successful touch
+      attack, and also blast the targeted creature's mind with waves of mental
+      energy&#8211;a creature touched by one of these tentacles (regardless of
+      whether the touch deals electricity damage) must succeed at a DC 27 Will
+      save or be staggered for 1 round. Additional touches increase the duration
+      by 1 round. While a creature is staggered in this manner, it must attempt
+      concentration checks to cast spells as if it were experiencing extremely
+      violent motion while casting (DC = 20 + spell level). The save DC is
+      Charisma-based.
+BeforeCombat: >-
+  Ogonthunn casts extended false life every day. If the veiled master suspects
+  it will be confronting foes, it places symbols on the walls of its lair. If it
+  wishes to capture victims alive to interrogate them (as is the case the first
+  time it notices the PCs are drawing near), it uses a symbol of weakness, a
+  symbol of persuasion, and a symbol of pain. If it wishes to destroy intruders
+  (as is the case if the PCs return at a later point after fleeing a battle), it
+  uses a symbol of death, a symbol of insanity, and a symbol of stunning.
+DuringCombat: >-
+  If possible, Ogonthunn begins combat from hiding, casting combat spells
+  through a projected image. It casts mind fog first, followed in subsequent
+  rounds by dominate monster and dominate person attacks. Foes that seem
+  difficult to dominate are instead targeted with phantasmal killers, chain
+  lightning, magic missiles, and rays of enfeeblement, often enhanced via
+  metamagic. Since so many of its spells rely on sight, Ogonthunn prefers to
+  save blindness/deafness for particularly frustrating foes who find ways to
+  avoid being dominated or succumbing to symbols. When facing foes in melee,
+  Ogonthunn uses Arcane Strike to gain a +4 bonus on attack damage rolls, unless
+  it is brought below 120 hit points, in which case it augments its attacks with
+  quickened vampiric touch.
+Morale: >-
+  If reduced to fewer than 50 hit points, Ogonthunn uses teleport to flee (using
+  mislead to escape in the short term if it must relocate physically to a
+  location where teleportation works). After 24 hours, it returns to Xin, fully
+  healed, to seek revenge.
+Gear: >-
+  spellguard bracersUE, ioun stones (dusty rose, orange prism, pale green prism,
+  pale lavender ellipsoid, pink and green sphere), ring of evasion, ring of
+  telekinesis, bejeweled armbands and rings worth 20,000 gp in all
+Note: UE See Pathfinder RPG Ultimate Equipment.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3858'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

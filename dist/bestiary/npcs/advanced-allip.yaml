@@ -1,0 +1,96 @@
+Name: Advanced Allip
+CR: '7'
+XP: '3200'
+Race: allip
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+Aura: babble (60 ft., DC 24)
+AC: 22, touch 20, flat-footed 17
+AC_Mods: (+7 deflection, +5 Dex)
+HP: '115'
+HD: (10d8+70)
+Saves: Fort +10, Ref +8, Will +11
+Fort: '10'
+Ref: '8'
+Will: '11'
+DefensiveAbilities: incorporeal, channel resistance +2
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - incorporeal touch +12/+7 (1d4 Wisdom damage)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: touch of insanity (DC 22)
+AbilityScores:
+  - —
+  - 20
+  - —
+  - 19
+  - 19
+  - 24
+BaseAtk: '7'
+CMB: '12'
+CMD: '34'
+Feats:
+  - Ability Focus (babble)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Skill Focus (Profession)
+  - Weapon Finesse
+Skills:
+  - Fly +22
+  - Intimidate +18
+  - Knowledge (dungeoneering) +14
+  - Knowledge (engineering) +14
+  - Perception +14
+  - Profession (construction) +13
+  - Stealth +14
+Languages:
+  - Abyssal
+  - Common
+SQ: madness
+Source: Rappan Athuk-Level 14B
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Babble (Su)
+    description: >-
+      An allip constantly mutters and whines to itself, creating a hypnotic
+      effect. All sane creatures within 60 ft. of the allip must succeed on a DC
+      22 Will save or be fascinated for 2d4 rounds. While a target is
+      fascinated, the allip can approach without breaking the effect, but an
+      attack by the allip breaks the effect. This is a sonic, mind-affecting
+      compulsion effect. Creatures that successfully save cannot be affected by
+      the same allip's babble for 24 hours. The save DC is Charisma-based.
+  - name: Madness (Su)
+    description: >-
+      Anyone targeting an allip with thought detection, mind control, or
+      telepathic ability makes direct contact with its tortured mind and takes
+      1d4 points of Wisdom damage.
+  - name: Touch of Insanity (Su)
+    description: >-
+      The touch of an allip deals 1d4 points of Wisdom damage. A successful
+      critical hit causes 1d4 points of Wisdom damage and 1 point of Wisdom
+      drain (instead of double Wisdom damage). On each successful attack, an
+      allip gains 5 temporary hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12357'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

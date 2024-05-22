@@ -1,0 +1,121 @@
+Name: Caller
+CR: '9'
+XP: '6400'
+Race: Half-elf
+Class: arcanist (occultist) 10
+MonsterSource: Pathfinder RPG Advanced Class Guide 8, 78
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '6'
+Senses:
+  - low-light vision
+  - Perception +2
+AC: 20, touch 12, flat-footed 18
+AC_Mods: (+4 armor, +2 Dex, +4 shield)
+HP: '72'
+HD: (10d6+35)
+Saves: Fort +6, Ref +7, Will +9; +2 vs. enchantment
+Fort: '6'
+Ref: '7'
+Will: '9'
+Save_Mods: +2 vs. enchantment
+Immune: sleep
+Speed: 30 ft.
+Speed_Mod: fly 60 ft. (good)
+Melee:
+  - mwk sickle +6 (1d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  arcane reservoir (8/13), arcanist exploits (counterspell, potent magic, school
+  understanding [teleportationAPG]), consume spells (2/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: 1/day
+      value: augury
+    - label: 1/week
+      value: contact other plane
+SpellsPrepared: >-
+  Spells Prepared (CL 10th; concentration +15)   5th (3/day)-summon monster V  
+  4th (5/day)-dimension door, wall of blindness/ deafnessACG (DC 19)   3rd
+  (5/day)-fly, stinking cloud (DC 19), summon monster III   2nd (5/day)-alter
+  self, false life, glitterdust (DC 18), scorching ray,   1st (6/day)-grease,
+  mage armor, shield, silent image (DC 16), ventriloquism (DC 16)   0 (at
+  will)-acid splash, arcane mark, dancing lights, ghost sound (DC 15), mage
+  hand, message, open/ close, prestidigitation, touch of fatigue (DC 15)
+AbilityScores:
+  - 8
+  - 14
+  - 12
+  - 20
+  - 10
+  - 14
+BaseAtk: '5'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Augment Summoning
+  - Evolved Summoned Monster
+  - Improved Counterspell
+  - Improved Initiative
+  - Skill Focus (Diplomacy)
+  - Spell Focus (conjuration)
+Skills:
+  - Appraise +13
+  - Diplomacy +18
+  - Fly +19
+  - Knowledge (arcana
+  - planes) +18
+  - Knowledge (local) +9
+  - Knowledge (nobility
+  - religion) +12
+  - Linguistics +9
+  - Perception +2
+  - Spellcraft +18
+  - Use Magic Device +15
+RacialMods: +2 Perception
+Languages:
+  - Abyssal
+  - Auran
+  - Common
+  - Draconic
+  - Elven
+  - Ignan
+  - Infernal
+SQ: >-
+  arcane training, conjurer's focus (summon monster V, 10 minutes), elf blood,
+  shift 5/day (25 ft.)
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  Early each day, the caller casts mage armor and false life. Before combat, he
+  casts fly and shield.
+DuringCombat: >-
+  The caller keeps to the air and uses shift and dimension door to escape a
+  direct confrontation, relying on his summoned allies to win the fight for him.
+Gear: wand of invisibility (4 charges)
+OtherGear: >-
+  mwk sickle, cloak of resistance +2, headband of vast intelligence +2, society
+  ring*, spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his spells, the caller's statistics are AC 12, touch 12, flat-footed
+  10; hp 57 (10d6+20); Speed no fly speed; Skills Fly +10.
+AgeCategory: Adult
+ClassArchetypes: occultist
+CompanionFamiliarLink: '0'
+id: '9024'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

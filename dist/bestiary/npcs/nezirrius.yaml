@@ -1,0 +1,133 @@
+Name: Nezirrius
+CR: '17'
+XP: '102400'
+Race: ankou
+MonsterSource: 'Pathfinder RPG Bestiary 4 10, Pathfinder Campaign Setting: Demons Revisited 30'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (augmented fey, extraplanar)
+Init: '12'
+Senses:
+  - blindsense 120 ft., darkvision 60 ft., low-light vision
+  - Perception +22
+AC: 34, touch 21, flat-footed 22
+AC_Mods: (+12 Dex, +13 natural, -1 size)
+HP: '175'
+HD: (14d6+126)
+Saves: Fort +12, Ref +21, Will +14
+Fort: '12'
+Ref: '21'
+Will: '14'
+DR: 10/cold iron and magic
+Immune: poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '28'
+Speed: fly 90 ft. (perfect)
+Melee:
+  - >-
+    bite +20 (1d8+10), 2 claws +20 (1d6+10), tail slap +15 (1d8+6 plus bleed), 2
+    wings +15 (1d6+6 plus bleed)
+Ranged:
+  - stalker's crossbow +22/+17 (2d6+3/17-20)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bleed (2d6), cold iron killer, shadow doubles, smite good 1/day, sneak attack
+  +3d6
+SpellLikeAbilities:
+  header: Ankou Spell-Like Abilities (CL 15th, concentration +24)
+  values:
+    - label: At Will
+      value: deeper darkness, ray of exhaustion (DC 22), silence (self only)
+    - label: 3/day
+      value: dimensional anchor, greater teleport, true seeing
+    - label: 1/day
+      value: >-
+        circle of death (DC 25), discern location, prismatic spray (DC 26)
+        Half-Invidiak Spell-Like Abilities (CL 14th, concentration +23)
+    - label: 3/day
+      value: darkness, shadow conjuration (DC 23), unholy aura (DC 27)
+    - label: 1/day
+      value: >-
+        blasphemy (DC 26), blur, greater teleport, magic jar (DC 24), unholy
+        blight (DC 23)
+AbilityScores:
+  - 26
+  - 34
+  - 26
+  - 19
+  - 21
+  - 29
+BaseAtk: '7'
+CMB: '16'
+CMD: 38 (can't be tripped)
+Feats:
+  - Deadly Aim
+  - Point-Blank Shot
+  - Rapid Reload (light crossbow)
+  - Rapid Shot
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (light crossbow)
+Skills:
+  - Acrobatics +29
+  - Bluff +26
+  - Fly +35
+  - Intimidate +26
+  - Knowledge (local) +21
+  - Knowledge (planes) +21
+  - Knowledge (religion) +21
+  - Perception +22
+  - Sense Motive +22
+  - Stealth +25
+Languages:
+  - Common
+  - Sylvan
+  - can't speak
+  - telepathy 100 ft.
+SQ: ghostly form
+Source: AP 76
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ghostly Form (Su)
+    description: >-
+      Nezirrius can become incorporeal (including all of her gear) for 14 rounds
+      per day as a swift action- returning to solid form is a free action. The
+      rounds per day need not be consecutive. This ability cannot be activated
+      in areas of bright light, a
+BeforeCombat: Nezirrius activates true seeing and blur.
+DuringCombat: >-
+  Nezirrius begins combat with a sneak attack delivered via her crossbow, then
+  focuses her following attacks on the same target, making rapid shots if she
+  can. As soon as a group of enemies are in the right formation, she uses
+  prismatic spray on them. She saves blasphemy for when she's surrounded by
+  foes, then switches to melee attacks thereafter. If she's aiding the PCs in a
+  fight against Minagho, Nezirrius uses dimensional anchor to prevent the lilitu
+  from fleeing before moving in to flank with a PC to make a full attack on her
+  ex-employer. For her part, Minagho focuses her attacks on Nezirrius in this
+  case, so enraged is she at this betrayal.
+Morale: >-
+  Nezirrius teleports away to safety if reduced to fewer than 40 hit points.
+  Each time after she recovers, she attempts to slay her enemy again and again,
+  using discern location to find out where they are.
+Gear: 10 +1 human-bane bolts, 10 +1 elf-bane arrows, 10 +1 good-outsider-bane arrows
+OtherGear: >-
+  stalker's crossbow with 20 bolts, amulet of mighty fists +2, ring of spell
+  storing (cure critical wounds, cure light wounds)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: half-invidiak|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5410'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,148 @@
+Name: Yua Subtier 6-7
+CR: '8'
+XP: '4800'
+Race: elf
+Class: oracle 7
+MonsterSource: Pathfinder RPG Bestiary 144, Pathfinder RPG Advanced Player's Guide 42
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, elf, incorporeal)
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +14
+AC: 23, touch 17, flat-footed 21
+AC_Mods: (+6 armor, +5 deflection, +2 Dex)
+HP: '76'
+HD: (7d8+42)
+Saves: Fort +7, Ref +4, Will +4; +2 vs. enchantments
+Fort: '7'
+Ref: '4'
+Will: '4'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: sleep, undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - spectral katana +9 touch (8d6+6) or corrupting touch +7 touch (8d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: spectral weapon
+SpellsKnown:
+  header: Oracle Spells Known (CL 7th; concentration +12)
+  values:
+    - label: 3rd (5/day)
+      value: >-
+        blindness/deafness, inflict serious wounds (DC 18), invisibility purge,
+        magic vestment
+    - label: 2nd (7/day)
+      value: >-
+        darkness, fog cloud, inflict moderate wounds (DC 17), instant armorAPG,
+        weapon of aweAPG
+    - label: 1st (8/day)
+      value: >-
+        bane (DC 16), deathwatch, divine favor, enlarge person, entropic shield,
+        inflict light wounds (DC 16), protection from good
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), create water, detect magic, guidance, light, mending,
+        read magic
+AbilityScores:
+  - —
+  - 14
+  - —
+  - 12
+  - 8
+  - 20
+BaseAtk: '5'
+CMB: '7'
+CMD: '22'
+Feats:
+  - Combat Casting
+  - Extra Revelation
+  - Silent Spell
+  - Toughness
+  - Weapon Focus (katana)
+Skills:
+  - Bluff +6
+  - Fly +15
+  - Intimidate +15
+  - Knowledge (religion) +9
+  - Linguistics +5
+  - Perception +14 (+17 on checks that do not rely on hearing)
+  - Ride +5
+  - Sense Motive +9
+  - Spellcraft +7
+  - Stealth +17
+RacialMods: +10 Perception, +8 Stealth, +2 Spellcraft to identify magic item properties
+Languages:
+  - Common
+  - Elven
+  - Minkaian
+  - Orc
+  - Tien
+SQ: >-
+  elven magic, oracle's curse (deaf), revelations (combat healer, skill at arms,
+  surprising charge, war sight)
+Source: PFS 8-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Combat Healer (Su)
+    description: >-
+      Yua's combat healer revelation works with inflict spells rather than cure
+      spells.
+  - name: Corrupting Touch (Su)
+    description: >-
+      By passing part of her incorporeal body through a foe's body as a standard
+      action, Yua deals 8d6 points of damage (DC 19 Fortititude half). This
+      damage is not negative energy-it manifests in the form of physical wounds
+      and aches from supernatural aging. Creatures immune to magical aging are
+      immune to this damage, but otherwise the damage bypasses all forms of
+      damage reduction. Eastern Armor Training Yua may use instant armor to
+      summon a suit of steel lamellar armor instead of banded mail.
+  - name: Rejuvenation (Su)
+    description: >-
+      In most cases, it's difficult to destroy a ghost through simple combat:
+      the "destroyed" spirit restores itself in 2d4 days. Even the most powerful
+      spells are usually only temporary solutions. The only way to permanently
+      destroy Yua is to cremate her body and send her ashes to a resting place
+      that her spirit deems acceptable, such as to her family or to the
+      Ossuaries of the Fallen in Vigil.
+  - name: Spectral Weapon (Su)
+    description: >-
+      Yua can use her corrupting touch through a spectral version of the +1
+      katana she wielded in life. When she does so, she may add her Charisma
+      bonus to damage rolls and augment her corrupting touch with any effect
+      that would augment a weapon. This attack uses the critical threat range of
+      corrupting touch, rather than that of a katana.
+Gender: Female
+BeforeCombat: >-
+  Yua casts instant armor to create a suit of steel lamellar armor around her
+  body. The bonuses of this spell are factored into her statistics. Note that
+  while this spell is active, she cannot pass through walls.
+DuringCombat: >-
+  Yua attacks her foes with her spectral katana. She uses her combat healer
+  revelation to heal herself during the fight. If the fight starts to go poorly
+  for her, she casts darkness, hoping to force her foes to retreat and buy
+  herself time to heal.
+Morale: >-
+  Trusting in her rejuvenation to restore her to unlife, Yua fights until
+  destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+Mystery: Battle
+CompanionFamiliarLink: '0'
+id: '8842'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

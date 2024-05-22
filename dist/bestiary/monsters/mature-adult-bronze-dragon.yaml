@@ -1,0 +1,141 @@
+Name: Mature Adult Bronze Dragon
+CR: '14'
+XP: '38400'
+Alignment: LG
+Size: Huge
+Type: dragon
+SubType: (water)
+Init: '4'
+Senses:
+  - dragon senses
+  - Perception +30
+Aura: frightful presence (210 ft., DC 24)
+AC: 31, touch 8, flat-footed 31
+AC_Mods: ', +23 natural, -2 size)'
+HP: '207'
+HD: (18d12+90)
+Saves: Fort +16, Ref +11, Will +16
+Fort: '16'
+Ref: '11'
+Will: '16'
+DR: 10/magic
+Immune: electricity, paralysis, sleep
+SR: '25'
+Speed: 40 ft., fly 200 ft. (poor)
+Speed_Mod: swim 60 ft.
+Melee:
+  - >-
+    bite +25 (2d8+13), 2 claws +25 (2d6+9), tail slap +23 (2d6+13), 2 wings +23
+    (1d8+4)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (100-ft. line, DC 24, 14d6 electricity), crush (2d8+13, DC 24),
+  repulsion breath
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +23)
+  values:
+    - label: At will
+      value: create food and water, fog cloud, speak with animals
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 9th; concentration +14)
+  values:
+    - label: 4th (5/day)
+      value: ice storm, solid fog
+    - label: 3rd (7/day)
+      value: dispel magic, heroism, slow (DC 18)
+    - label: 2nd (7/day)
+      value: blur, gust of wind, invisibility, mirror image
+    - label: 1st (8/day)
+      value: alarm, mage armor, obscuring mist, shield, true strike
+    - label: 0 (at will)
+      value: >-
+        detect magic, light, mage hand, mending, message, read magic,
+        resistance, prestidigitation
+AbilityScores:
+  - 29
+  - 10
+  - 21
+  - 20
+  - 21
+  - 20
+BaseAtk: '18'
+CMB: '29'
+CMD: 39 (43 vs. trip)
+Feats:
+  - Alertness
+  - Cleave
+  - Flyby Attack
+  - Hover
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Diplomacy +26
+  - Fly +13
+  - Handle Animal +23
+  - Intimidate +26
+  - Knowledge (arcana) +26
+  - Knowledge (geography) +26
+  - Perception +30
+  - Sense Motive +30
+  - Spellcraft +26
+  - Stealth +13
+  - Swim +38
+RacialMods: +8 Swim
+Languages:
+  - Aquan
+  - Common
+  - Draconic
+  - Elven
+  - Gnome
+  - 1 more
+SQ: >-
+  change shape (animal or humanoid, polymorph), water breathing, wave mastery
+  (70 min)
+Environment: temperate coastlines
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This sleek dragon is covered in dull metallic scales that range in color from
+  shining bronze to mottled blue.
+Group: Metallic Dragon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Repulsion Breath (Su)
+    description: >-
+      Instead of a line of electricity, a bronze dragon can breathe a cone of
+      repulsion gas. Targets must make a Will save or be compelled to do nothing
+      but move away from the dragon for 1d6 rounds plus 1 round per age
+      category. This is a mind-affecting compulsion effect.
+  - name: Water Breathing (Ex)
+    description: >-
+      A bronze dragon breathes water and can use its breath weapon, spells, and
+      abilities underwater.
+  - name: Wave Mastery (Su)
+    description: >-
+      For up to 10 minutes per age category per day, a juvenile bronze dragon,
+      along with creatures or vessels within 50 feet, can move at twice its
+      normal speed in water.
+Description:
+  - >-
+    Bronze dragons have been known to ally with travelers and adventurers if the
+    cause and reward is right and just.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1575'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

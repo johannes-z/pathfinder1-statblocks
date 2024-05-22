@@ -1,0 +1,72 @@
+Name: Giant Pestilential Dire Rat
+CR: '2'
+XP: '600'
+Race: Giant Pestilential Dire Rat
+Alignment: 'N'
+Size: Large
+Type: animal
+Init: '1'
+Senses:
+  - low-light vision, scent
+  - Perception +9
+AC: 12, touch 10, flat-footed 11
+AC_Mods: (+1 Dex, +2 natural, -1 size)
+HP: '38'
+HD: (4d8+20)
+Saves: Fort +8, Ref +5, Will +2
+Fort: '8'
+Ref: '5'
+Will: '2'
+Speed: 40 ft., climb 20 ft., swim 20 ft.
+Melee:
+  - bite +8 (1d8+9 plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: disease, vomit pestilence (3/day, 60 ft. cone, DC 17 Fort resists)
+AbilityScores:
+  - 22
+  - 13
+  - 20
+  - 2
+  - 13
+  - 4
+BaseAtk: '3'
+CMB: '10'
+CMD: 21 (25 vs. trip)
+Feats:
+  - Ability Focus (Filth Fever)
+  - Skill Focus (Perception)
+Skills:
+  - Climb +10
+  - Perception +9
+  - Stealth +2
+  - Swim +10
+Source: Rappan Athuk-Level 3C
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Bite-injury; save Fort DC 19; onset 1d3 days; frequency
+      1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
+      The save DC is Constitution-based.
+  - name: Vomit Pestilence (Ex)
+    description: >-
+      The pestilential rat can vomit forth a spray of disgusting pestilence
+      3/day. The spray is coneshaped, with a range and final width of 60 ft.
+      Anyone in the area of the spray must make a DC 17 Fortitude save or
+      contract the Pestilence.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12066'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,88 @@
+Name: Shadow
+CR: '3'
+XP: '800'
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +8
+AC: 15, touch 15, flat-footed 12
+AC_Mods: (+2 deflection, +2 Dex, +1 dodge)
+HP: '19'
+HD: (3d8+6)
+Saves: Fort +3, Ref +3, Will +4
+Fort: '3'
+Ref: '3'
+Will: '4'
+DefensiveAbilities: incorporeal, channel resistance +2
+Immune: undead traits
+Speed: fly 40 ft. (good)
+Melee:
+  - incorporeal touch +4 (1d6 Strength damage)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn
+AbilityScores:
+  - —
+  - 14
+  - —
+  - 6
+  - 12
+  - 15
+BaseAtk: '2'
+CMB: '4'
+CMD: '17'
+Feats:
+  - Dodge
+  - Skill Focus (Perception)
+Skills:
+  - Fly +11
+  - Perception +8
+  - Stealth +8 (+12 in dim light
+  - +4 in bright light)
+RacialMods: +4 Stealth in dim light (-4 in bright light)
+Environment: any
+Organization: solitary, pair, gang (3-6), or swarm (7-12)
+Treasure: standard
+Description_Visual: >-
+  Barely seen out of the corner of the eye, this wisp of shadow is vaguely
+  humanoid in outline and writhes with unholy life.
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      A humanoid creature killed by a shadow's Strength damage becomes a shadow
+      under the control of its killer in 1d4 rounds.
+  - name: Strength Damage (Su)
+    description: >-
+      A shadow's touch deals 1d6 points of Strength damage to a living creature.
+      This is a negative energy effect. A creature dies if this Strength damage
+      equals or exceeds its actual Strength score.
+Description:
+  - >-
+    The sinister shadow skirts the border between the gloom of darkness and the
+    harsh truth of light. The shadow prefers to haunt ruins where civilization
+    has moved on, where it hunts living creatures foolish enough to stumble into
+    its territory. The shadow is an undead horror, and as such has no goals or
+    outwardly visible motivations other than to sap life and vitality from
+    living beings.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Shadow
+id: '314'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

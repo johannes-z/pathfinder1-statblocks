@@ -1,0 +1,100 @@
+Name: Killik
+CR: '1'
+XP: '400'
+Race: human
+Class: cleric of Besmara 2
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +3
+AC: 15, touch 12, flat-footed 13
+AC_Mods: (+3 armor, +2 Dex)
+HP: '15'
+HD: (2d8+2)
+Saves: Fort +4, Ref +2, Will +6
+Fort: '4'
+Ref: '2'
+Will: '6'
+Speed: 30 ft.
+Melee:
+  - rapier +2 (1d6+1/18-20)
+Ranged:
+  - light crossbow +3 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 2/day (DC 10, 1d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 2nd; concentration +5)
+  values:
+    - label: 6/day
+      value: copycat (2 rounds)
+    - label: 6/day
+      value: battle rage (+1 damage)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 2nd; concentration +5)  1st-cure light wounds (2),
+  disguise selfD, sanctuary (DC 14)  0 (at will)-create water, detect magic,
+  detect poison, light
+SpellDomains: Trickery, War
+AbilityScores:
+  - 13
+  - 14
+  - 12
+  - 10
+  - 17
+  - 8
+BaseAtk: '1'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Combat Casting
+  - Deceitful
+Skills:
+  - Bluff +5
+  - Disguise +1
+  - Heal +10
+  - Knowledge (religion) +4
+  - Profession (sailor) +7
+  - Sense Motive +7
+  - Spellcraft +4
+  - Swim +2
+Languages:
+  - Common
+SQ: aura
+Source: PFS S2-13
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  If Killik suspects an impending combat, he casts sanctuary on himself and
+  attempts to talk his way out of any conflict.
+DuringCombat: >-
+  Killik prefers fighting from range with his crossbow, but channels negative
+  energy if surrounded. If he fights with an ally, Killik stays close enough to
+  his companion to heal them should they need assistance. If forced into melee
+  combat, Killik uses his battle rage and copycat domain powers to boost his
+  defenses and damage output.
+Morale: >-
+  Killik fights to the death if he is Marzack's accomplice. If he is innocent of
+  the crime, he attempts to buy his freedom as a term of surrender if brought
+  below 6 hp.
+Gear: potion of cure moderate wounds, scroll of gentle repose
+OtherGear: >-
+  masterwork studded leather, rapier, light crossbow, healer's kit, silver holy
+  symbol, 25 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5599'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

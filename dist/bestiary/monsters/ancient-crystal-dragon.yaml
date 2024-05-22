@@ -1,0 +1,164 @@
+Name: Ancient Crystal Dragon
+CR: '15'
+XP: '51200'
+Alignment: CG
+Size: Huge
+Type: dragon
+SubType: (earth, extraplanar)
+Init: '4'
+Senses:
+  - dragon senses, tremorsense 120 ft.
+  - Perception +29
+Aura: frightful presence (300 ft., DC 28)
+AC: 37, touch 8, flat-footed 37
+AC_Mods: (+29 natural, -2 size)
+HP: '283'
+HD: (21d12+147)
+Saves: Fort +21, Ref +14, Will +17
+Fort: '21'
+Ref: '14'
+Will: '17'
+DefensiveAbilities: ray reflection
+DR: 15/magic
+Immune: paralysis, sleep, sonic
+SR: '26'
+Speed: 60 ft., burrow 30 ft., climb 30 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +30 (2d8+15/19-20), 2 claws +29 (2d6+10), tail slap +27 (2d6+15), 2
+    wings +27 (1d8+5)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (50-ft. cone, DC 27, 20d4 sonic, DC 27), crush
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 21st; concentration +29)
+  values:
+    - label: At Will
+      value: color spray (DC 19), glitterdust (DC 20), rainbow pattern (DC 22)
+    - label: 3/day
+      value: prismatic spray (DC 25), stone to flesh (DC 24)
+SpellsKnown:
+  header: Spells Known (CL 9th;  concentration +17)
+  values:
+    - label: 4th (6/day)
+      value: dimension door, phantasmal killer (DC 22)
+    - label: 3rd (8/day)
+      value: displacement, lightning bolt (DC 21), major image (DC 21)
+    - label: 2nd (8/day)
+      value: >-
+        blindness/deafness (DC 20), invisibility, minor image (DC 20), mirror
+        image
+    - label: 1st (8/day)
+      value: alarm, feather fall, magic aura, silent image (DC 19), unseen servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, detect poison, ghost sound, mage hand,
+        message, read magic, touch of fatigue
+AbilityScores:
+  - 31
+  - 10
+  - 25
+  - 20
+  - 21
+  - 26
+BaseAtk: '21'
+CMB: '33'
+CMD: 43 (47 vs. trip)
+Feats:
+  - Deceitful
+  - Great Fortitude
+  - Greater Vital Strike
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Vital Strike
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +36
+  - Climb +42
+  - Disguise +33
+  - Fly +16
+  - Intimidate +32
+  - Knowledge (dungeoneering) +29
+  - Knowledge (geography) +29
+  - Perception +29
+  - Sense Motive +29
+  - Stealth +16
+  - Survival +29
+Languages:
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Terran
+  - Undercommon
+SQ: razor sharp
+Environment: any underground (Plane of Earth)
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This brilliantly colored dragon has scales, teeth, and claws made of
+  multicolored crystal, and its wings are sheets of flexible glass.
+Group: Primal Dragon
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Razor Sharp (Sp)
+    description: All of a crystal dragon's natural attacks deal slashing damage.
+  - name: Ray Reflection (Ex)
+    description: >-
+      An ancient crystal dragon's scales reflect ray spells back upon the ray's
+      source if the ray fails to overcome the dragon's spell resistance.
+  - name: Scintillating Aura (Su)
+    description: >-
+      A great wyrm crystal dragon radiates an aura of scintillating color from
+      its jeweled scales to a radius of 60 feet. All within this area must make
+      a Will save each round to avoid being stunned (if the victim has 15 or
+      fewer Hit Dice) or confused (if the victim has more than 15 Hit Dice) for
+      1 round. The save DC is equal to the dragon's breath weapon save DC. This
+      is a mind-affecting effect. The dragon can activate or suppress this aura
+      as a free action. Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      A crystal dragon gains the following spell-like abilities, usable at will
+      (unless indicated otherwise) upon reaching the listed age category. Very
+      young-color spray; Juvenile-glitterdust; Adult-rainbow pattern; Old- stone
+      to flesh (3/day); Ancient-prismatic spray (3/day); Great wyrm-imprisonment
+      (1/day).
+  - name: Tremorsense (Ex)
+    description: >-
+      Crystal dragons do not gain tremorsense until juvenile age (30 ft.),
+      improving at adult (60 ft.) and old (120 ft.).
+Description:
+  - >-
+    Crystal dragons are generally good-natured, though their incredible vanity
+    sometimes causes them to seem aloof and cocky. Any perceived insult against
+    its appearance is all but assured to send a crystal dragon into a rage-which
+    is a problem, as most crystal dragons are prone to seeing insults even where
+    none are intended. Crystal dragons prefer underground lairs, and often go
+    for decades or even centuries without emerging from their extensive cavern
+    lairs onto the surface world above.
+  - >-
+    Crystal dragons tend to be exacting and even obsessive-compulsive, their
+    personalities mirroring the precise and ordered nature of the facets of
+    their scales. A crystal dragon's lair is a well-ordered place-these dragons
+    find the very idea of the classic sprawl of a dragon's hoard to be shameful.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: ancient
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Ancient Crystal Dragon
+id: '1178'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,120 @@
+Name: Ratch Mamby
+CR: '4'
+XP: '1200'
+Race: ratling
+Class: sorcerer 3
+MonsterSource: Pathfinder RPG Bestiary 4 226
+Alignment: CE
+Size: Tiny
+Type: magical beast
+Init: '1'
+Senses:
+  - darkvision 60 ft., detect magic, low-light vision
+  - Perception +8
+AC: 19, touch 14, flat-footed 17
+AC_Mods: (+4 armor, +1 Dex, +1 dodge, +1 natural, +2 size)
+HP: '41'
+HD: (6 HD; 3d6+3d10+15)
+Saves: Fort +7, Ref +6, Will +7
+Fort: '7'
+Ref: '6'
+Will: '7'
+DefensiveAbilities: evasion
+Immune: disease, poison
+Speed: 30 ft., burrow 10 ft., climb 20 ft., swim 30 ft.
+Melee:
+  - bite +4 (1d3-2 plus bleed)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: bleed (1), long limbs (5 ft.), sneak attack +1d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: Constant
+      value: >-
+        detect magic, read magic, speak with animals (rodents only), spider
+        climb, tongues
+    - label: 3/day
+      value: cause fear (DC 14), dimension door, invisibility (self only)
+    - label: 1/day
+      value: summon swarm (rat swarm only)
+    - label: 1/week
+      value: >-
+        commune (only when serving as a familiar; 6 questions) Bloodline
+        Spell-Like Abilities (CL 3rd; concentration +6)
+    - label: 6/day
+      value: acidic ray (1d6+1 acid)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 3rd; concentration +6)
+  values:
+    - label: 1st (6/day)
+      value: enlarge person (DC 14), mage armor, magic missile, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        disrupt undead, flare (DC 13), mage hand, mending, touch of fatigue (DC
+        13)
+AbilityScores:
+  - 6
+  - 13
+  - 15
+  - 14
+  - 14
+  - 17
+BaseAtk: '4'
+CMB: '3'
+CMD: 12 (16 vs. trip)
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Mobility
+Skills:
+  - Acrobatics +5
+  - Bluff +8
+  - Climb +6
+  - Knowledge (history) +5
+  - Knowledge (local) +5
+  - Knowledge (planes) +5
+  - Perception +8
+  - Sense Motive +5
+  - Spellcraft +8
+  - Stealth +15
+  - Swim +6
+Languages:
+  - Abyssal
+  - Aklo
+  - Dark Folk
+  - speak with animals (rodents only)
+  - tongues
+SQ: bloodline arcana (+50% duration on polymorphs), scroll use
+Source: AP 109
+IsTemplate: '0'
+Gender: Male
+Bloodline: aberrant
+BeforeCombat: >-
+  Ratch cast mage armor before coming up to the surface from the safety of his
+  warren, and its effects are still in place.
+DuringCombat: >-
+  Ratch orders the dire rats to attack, supporting them with spells and flanking
+  with them.
+Morale: >-
+  If Ratch Mamby feels the fight turning against him, he either tries to parley
+  or dives for the fissure at the room's center and disappears within to hide in
+  safety.
+Gear: brooch of shielding
+OtherGear: cloak of resistance +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '1'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8518'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,114 @@
+Name: Seductive Enchanter
+CR: '7'
+XP: '3200'
+Race: elf
+Class: enchanter 8
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '7'
+Senses:
+  - low-light vision
+  - Perception +9
+AC: 19, touch 14, flat-footed 16
+AC_Mods: (+4 armor, +1 deflection, +3 Dex, +1 natural)
+HP: '40'
+HD: (8d6+10)
+Saves: Fort +4, Ref +6, Will +8; +2 vs. enchantments
+Fort: '4'
+Ref: '6'
+Will: '8'
+Save_Mods: +2 vs. enchantments
+Immune: sleep
+Speed: 30 ft.
+Melee:
+  - rapier +4 (1d6/18-20)
+Ranged:
+  - dagger +7 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: aura of despair (8 rounds/day)
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 7/day
+      value: dazing touch
+SpellsPrepared: >-
+  Enchanter Spells Prepared (CL 8th; concentration +12)   4th-confusion (DC 19),
+  dimension door, greater invisibility, phantasmal killer (DC 18)   3rd-deep
+  slumber (DC 18), dispel magic, hold person (DC 18), phantom steed, suggestion
+  (DC 18)   2nd-alter self, daze monster (DC 17), hideous laughter (DC 17),
+  invisibility, resist energy   1st-charm person (2, DC 16), color spray (DC
+  15), mage armor, shield, ventriloquism (DC 15)   0 (at will)-daze (DC 15),
+  mage hand, resistance, touch of fatigue (DC 14)
+AbilityScores:
+  - 10
+  - 16
+  - 12
+  - 18
+  - 8
+  - 12
+BaseAtk: '4'
+CMB: '4'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Craft Wand
+  - Improved Initiative
+  - Iron Will
+  - Scribe Scroll
+  - Spell Focus (enchantment)
+Skills:
+  - Acrobatics +8
+  - Bluff +9
+  - Diplomacy +6
+  - Knowledge (arcana) +15
+  - Knowledge (local) +11
+  - Knowledge (nobility) +11
+  - Perception +9
+  - Perform (dance) +4
+  - Sense Motive +3
+  - Spellcraft +15 (+17 identify magic item properties)
+Languages:
+  - Common
+  - Draconic
+  - Elven
+  - Gnome
+  - Orc
+  - Sylvan
+SQ: arcane bond (viper), elven magic, enchanting smile, weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+ProhibitedSchools: divination, necromancy
+BeforeCombat: The wizard casts mage armor.
+DuringCombat: >-
+  The wizard uses charm person, confusion, and suggestion to turn opponents
+  against each other. By casting greater invisibility on herself, she can remain
+  hidden while she manipulates her targets. She uses her wand of touch of idiocy
+  against enemy spellcasters.
+Gear: >-
+  potion of cure moderate wounds, potion of invisibility, scroll of dispel
+  magic, scroll of suggestion, wand of charm person (20 charges), wand of fox's
+  cunning (10 charges), wand of touch of idiocy (10 charges)
+OtherGear: >-
+  dagger, rapier, amulet of natural armor +1, cloak of resistance +1, ring of
+  protection +1, spellbook, 303 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor, the wizard's statistics are AC 15, touch 14, flat-footed
+  12.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3829'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

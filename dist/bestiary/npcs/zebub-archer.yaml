@@ -1,0 +1,114 @@
+Name: Zebub Archer
+CR: '10'
+XP: '9600'
+Race: Accuser devil
+Class: rogue 9
+MonsterSource: Pathfinder RPG Bestiary 2 84
+Alignment: LE
+Size: Small
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+AC: 23, touch 17, flat-footed 17
+AC_Mods: (+4 armor, +5 Dex, +1 dodge, +2 natural, +1 size)
+HP: '123'
+HD: (13 HD; 9d8+4d10+61)
+Saves: Fort +10, Ref +17, Will +5
+Fort: '10'
+Ref: '17'
+Will: '5'
+DefensiveAbilities: evasion, improved uncanny dodge, trap sense +3
+DR: 5/good or silver
+Immune: fire, poison
+Resist: acid 10, cold 10
+Speed: 20 ft., fly 60 ft. (perfect)
+Melee:
+  - bite +13 (1d6+2 plus 1d6 acid plus poison)
+Ranged:
+  - +2 composite longbow +21/+16 (1d6+4/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: disease, sneak attack +5d6 plus 5 bleed
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +10)
+  values:
+    - label: At Will
+      value: >-
+        greater teleport (self plus 50 lbs. of objects only), invisibility (self
+        only)
+    - label: 3/day
+      value: grease, summon swarm, whispering wind
+    - label: 1/day
+      value: summon (level 3, 1 zebub or 1d4 lemures, 40%)
+AbilityScores:
+  - 15
+  - 24
+  - 16
+  - 9
+  - 13
+  - 14
+BaseAtk: '10'
+CMB: '11'
+CMD: '29'
+Feats:
+  - Dazzling Display
+  - Deadly Aim
+  - Dodge
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Shot
+  - Shatter Defenses
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (longbow)
+Skills:
+  - Acrobatics +23
+  - Bluff +9
+  - Disable Device +25
+  - Intimidate +14
+  - Fly +24
+  - Knowledge (planes) +7
+  - Perception +17
+  - Sense Motive +13
+  - Stealth +27
+Languages:
+  - Celestial
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: >-
+  infernal eye, rogue talents (bleeding attack +5, combat trick, finesse rogue,
+  weapon training), trapfinding +4
+Source: AP 101
+IsTemplate: '0'
+BeforeCombat: The zebubs have invisibility active at all times.
+DuringCombat: >-
+  The zebub archers take turns using Dazzling  Display to permit their comrades
+  to use Shatter Defenses, thus gaining sneak attacks with their shots. One
+  zebub per round uses grease on the platform below&#8211;a character who falls
+  prone while adjacent to the edge must succeed at a DC 12 Reflex save or fall
+  into the pit below.
+Morale: >-
+  A zebub reduced to fewer than 40 hp teleports to area A9 to join Odexidie; a
+  zebub in Odexidie's presence fights to the death.
+Gear: >-
+  +1 studded leather, +2 composite longbow (+2 Str) with 6 +1 unholy arrows and
+  14 mithral arrows
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7568'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,114 @@
+Name: Bunyip
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Medium
+Type: magical beast
+SubType: (aquatic)
+Init: '3'
+Senses:
+  - darkvision 60 ft., keen scent, low-light vision
+  - Perception +11
+AC: 17, touch 13, flat-footed 14
+AC_Mods: (+3 Dex, +3 natural)
+HP: '42'
+HD: (5d10+15)
+Saves: Fort +7, Ref +7, Will +3
+Fort: '7'
+Ref: '7'
+Will: '3'
+Speed: swim 50 ft.
+Melee:
+  - bite +8 (2d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: frenzy, roar, vorpal bite
+AbilityScores:
+  - 14
+  - 16
+  - 17
+  - 2
+  - 11
+  - 7
+BaseAtk: '5'
+CMB: '7'
+CMD: '20'
+Feats:
+  - Iron Will
+  - Skill Focus (Perception)
+  - Weapon Focus (bite)
+Skills:
+  - Perception +11
+  - Swim +11
+RacialMods: modifies Swim with Str or Dex
+Environment: temperate aquatic
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This aquatic creature resembles a cross between a seal and a shark.  Its front
+  half is that of a black seal while its rear section is that of a grayish-black
+  shark.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Frenzy (Ex)
+    description: >-
+      A bunyip that detects blood in the water goes into a killing frenzy, as do
+      all other bunyips within a 90-foot radius. Frenzied bunyips attack until
+      either they or their opponents are dead. A frenzied bunyip can make one
+      extra attack when making a full attack action. The attack is made using
+      the creature's full base attack. Additionally, it gains a +1 bonus on
+      attack rolls and a +1 dodge bonus to AC and Reflex saves (none of which
+      are included in the statistic block above). A frenzied bunyip's swim speed
+      increases by 10 feet (to 60 feet). This frenzy lasts for 1 minute (10
+      rounds) and can only be used once per encounter.
+  - name: Keen Scent (Ex)
+    description: >-
+      Bunyips can notice creatures by scent in a 90-foot radius and detect blood
+      in the water at ranges of up to one-half mile.
+  - name: Roar (Su)
+    description: >-
+      When a bunyip roars, all creatures with 4 or less HD within a 100-foot
+      spread must succeed on a DC 15 Will save or become panicked for 2d4
+      rounds. This is a sonic, mindaffecting fear effect. Whether or not the
+      save is successful, an affected creature is immune to the roar of that
+      bunyip for one day. The save DC is Constitution-based.
+  - name: Vorpal Bite (Ex)
+    description: >-
+      If a bunyip scores a natural 20 on its attack roll and confirms the
+      critical hit, it severs one of the opponent's extremities (roll 1d6: 1-3
+      arm, 4-6 leg; 50% chance of either right or left).
+Description:
+  - >-
+    The bunyip is about 6 feet long, though specimens of up to 10 feet long have
+    been encountered.
+  - >-
+    Bunyips do not attack creatures larger than themselves, except in
+    self-defense or if they detect blood in the water. They begin combat using
+    their powerful roar and then bite opponents who do not succumb to the
+    fear-inducing effects of their roar.
+  - >-
+    Credit The Bunyip originally appeared in the First Edition Fiend Folio (©
+    TSR/Wizards of the Coast, 1981) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Dermot
+    Jackson.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2289'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

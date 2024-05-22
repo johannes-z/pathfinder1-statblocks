@@ -1,0 +1,103 @@
+Name: Bodak Priest
+CR: '11'
+XP: '12800'
+Race: bodak
+Class: cleric of Orcus 6
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (extraplanar)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+AC: 23, touch 15, flat-footed 18
+AC_Mods: (+4 Dex, +1 dodge, +8 natural)
+HP: '168'
+HD: (10d8+6d8+80 plus 16)
+Saves: Fort +13, Ref +11, Will +20
+Fort: '13'
+Ref: '11'
+Will: '20'
+DR: 10/cold iron
+Immune: electricity, undead traits
+Resist: acid 10, fire 10
+Weaknesses: vulnerability to sunlight
+Speed: 20 ft.
+Melee:
+  - 2 slams +13 (1d8+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel energy (3d6, DC 20, 10/day), death gaze (DC 20)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 6th; melee touch +12)
+  values:
+    - label: 11/day
+      value: bleeding touch (3 rounds), touch of evil (3 rounds)
+SpellsPrepared: >-
+  Spells Prepared (CL 6th; melee touch +12, ranged touch +13)  3rd-bestow curse
+  (DC 21) (x2), contagion (DC 21), magic circle against goodD, prayer 
+  2nd-bull's strength, death knellD (DC 20), dread bolt (DC 20)UM, desecrate,
+  hold person (DC 20), shatter (DC 20)  1st-bane (DC 19), divine favor,
+  murderous command (DC 19)UM, protection from goodD, ray of sickening (DC
+  19)UM, shield of faith  0 (at will)-bleed (DC 18), guidance, read magic,
+  resistance
+SpellDomains: Death, Evil
+AbilityScores:
+  - 13
+  - 18
+  - —
+  - 8
+  - 26
+  - 20
+BaseAtk: '11'
+CMB: '12'
+CMD: '27'
+Feats:
+  - Dodge
+  - Extra Channel
+  - Improved Channel
+  - Improved Initiative
+  - Lightning Reflexes
+  - Mobility
+  - Toughness
+  - Weapon Focus (slam)
+Skills:
+  - Intimidate +16
+  - Knowledge (planes) +7
+  - Knowledge (religion) +10
+  - Perception +19
+  - Spellcraft +8
+  - Stealth +1
+Languages:
+  - Common
+Source: Rappan Athuk-Level 14B
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Gaze (Su)
+    description: >-
+      1d4 negative levels, 30 ft.; Fortitude DC 20 negates. The save DC is
+      Charisma-based. A humanoid slain by a bodak's death gaze rises as a bodak
+      24 hours later. This is a death effect.
+  - name: Vulnerability to Sunlight (Ex)
+    description: >-
+      Bodaks loathe sunlight, for its merest touch burns their impure flesh.
+      Each round of exposure to direct sunlight deals 2d6 points of damage to a
+      bodak.
+Gender: Male
+Gear: holy symbol of Orcus, spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12353'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

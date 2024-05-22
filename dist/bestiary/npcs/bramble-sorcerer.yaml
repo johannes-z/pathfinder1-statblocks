@@ -1,0 +1,106 @@
+Name: Bramble Sorcerer
+CR: '4'
+XP: '1200'
+Race: half-elf
+Class: sorcerer 5
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +7
+AC: 18, touch 13, flat-footed 15
+AC_Mods: (+4 armor, +2 Dex, +1 dodge, +1 natural)
+HP: '30'
+HD: (5d6+10)
+Saves: Fort +3, Ref +6, Will +4; +2 vs. enchantments
+Fort: '3'
+Ref: '6'
+Will: '4'
+Save_Mods: +2 vs. enchantments
+Resist: acid 5, fire 10
+Speed: 30 ft.
+Melee:
+  - mwk light mace +3 (1d6)
+  - 2 claws +2 (1d4)
+Ranged:
+  - mwk light crossbow +5 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: claws (2, 1d4, treated as magic, 7 rounds/day)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (5/day)
+      value: acid arrow, mirror image, resist energy
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 15), charm person (DC 15), mage armor, magic missile, ray
+        of enfeeblement (DC 15)
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, ghost sound (DC 14), mage hand, message, read
+        magic
+AbilityScores:
+  - 10
+  - 14
+  - 12
+  - 13
+  - 8
+  - 18
+BaseAtk: '2'
+CMB: '2'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Lightning Reflexes
+  - Skill Focus (Use Magic Device)
+Skills:
+  - Intimidate +10
+  - Knowledge (arcana) +7
+  - Perception +7
+  - Spellcraft +7
+  - Use Magic Device +13
+Languages:
+  - Common
+  - Draconic
+  - Elven
+SQ: bloodline arcana (acid spells deal +1 damage per die), elf blood
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: draconic (green)
+BeforeCombat: The sorcerer casts mage armor and resist energy (fire).
+DuringCombat: >-
+  The sorcerer casts mirror image, then entangles opponents with his wand of
+  entangle (using the Use Magic Device skill). He uses one of his scrolls of
+  levitate to avoid melee combat, and casts cause fear to remove opponents
+  threatening him.
+Gear: >-
+  potion of cure moderate wounds, potion of invisibility, scrolls of levitate
+  (2), scroll of ray of exhaustion, scroll of silent image, wand of entangle (20
+  charges), smokestick
+OtherGear: >-
+  masterwork light crossbow with 10 bolts, masterwork light mace, cloak of
+  resistance +1, 190 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor and resist energy, the sorcerer's statistics are AC 14,
+  touch 13, flat-footed 11; Resist acid 5.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3807'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

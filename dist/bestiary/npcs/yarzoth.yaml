@@ -1,0 +1,155 @@
+Name: Yarzoth
+CR: '6'
+XP: '2400'
+Race: serpentfolk
+Class: cleric of Ydersius 4
+MonsterSource: Into the Darklands 56
+Alignment: NE
+Size: Medium
+Type: monstrous humanoid
+Init: '6'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +13
+AC: 20, touch 17, flat-footed 13
+AC_Mods: (+6 Dex, +1 dodge, +3 natural)
+HP: '72'
+HD: (9 HD; 5d10+4d8+27)
+Saves: Fort +8, Ref +11, Will +13
+Fort: '8'
+Ref: '11'
+Will: '13'
+Immune: mind-affecting effects, paralysis, poison
+SR: '19'
+Speed: 30 ft.
+Melee:
+  - bite +14 (1d6+1 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 7/day (DC 16, 2d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 4th; concentration +9)
+  values:
+    - label: 8/day
+      value: >-
+        inspiring word (2 rounds), touch of evil (2 rounds) Serpentfolk
+        Spell-Like Abilities (CL 9th; concentration +8)
+    - label: At will
+      value: disguise self (DC 15), ventriloquism
+    - label: 1/day
+      value: >-
+        blur, dominate person (DC 18), major image, mirror image, suggestion (DC
+        17)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 4th; concentration +9) 2nd-cure moderate wounds,
+  enthrallD (DC 17), sound burst (DC 17), summon monster II 1st-command (DC 16),
+  cure light wounds (2), divine favorD, hide from undead (DC 16), summon monster
+  I 0 (at will)-create water, detect magic, purify food and water, read magic
+SpellDomains: Evil, Nobility
+AbilityScores:
+  - 12
+  - 23
+  - 17
+  - 16
+  - 20
+  - 18
+BaseAtk: '8'
+CMB: '9'
+CMD: '26'
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Dodge
+  - Scribe Scroll
+  - Weapon Finesse
+Skills:
+  - Acrobatics +11
+  - Bluff +9
+  - Disguise +9
+  - Escape Artist +14
+  - Knowledge (arcana) +11
+  - Knowledge (history) +11
+  - Knowledge (religion) +11
+  - Linguistics +10
+  - Perception +13
+  - Sense Motive +13
+  - Spellcraft +11
+  - Swim +9
+  - Use Magic Device +13
+RacialMods: +8 Escape Artist, +4 Use Magic Device
+Languages:
+  - Aklo
+  - Azlanti
+  - Common
+  - Draconic
+  - Halfling
+  - Polyglot
+  - Undercommon
+  - Varisian
+  - telepathy 100 ft.
+Source: AP 37
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 17; frequency 1/round for 6 rounds; effect 1d2
+      Str; cure 2 consecutive saves.
+Gender: Female
+DuringCombat: >-
+  Yarzoth uses dominate person to attempt to dominate one of the PCs on the
+  first round of combat while ordering her skeletons to attack. If she dominates
+  a PC, she orders that character to come to her side and defend her from harm.
+  While the dominated PC and skeletons keep the other PCs busy, Yarzoth casts
+  blur and then mirror image. Next she uses summon monster II to summon 1d3
+  fiendish vipers, then summon monster I to summon one more. When combat finally
+  seems inevitable, she casts divine favor and then attacks. She uses inspiring
+  word on herself or allies if they seem to be having a particularly hard time
+  hitting the PCs, and touch of evil on PCs that seem to be hitting her or her
+  allies easily.
+Morale: >-
+  If Yarzoth is reduced to fewer than 30 hit points, she touches the lips on the
+  statue of Zura with a bloodied hand and gains the benefit of gaseous form. She
+  then flees up through the hole in the ceiling to area Z9. Once there, she
+  dismisses the effect, returning to solid form. The next round she casts
+  disguise self to assume the form of one of the Jenivere's other castaways
+  (preferably a woman, either Aerys or Sasha), and on the third round she uses
+  major image to create an illusion of her dead body, throat cut, lying on the
+  floor. Yarzoth hopes that if she can get these deceptions in place by the time
+  the PCs arrive, they'll be confronted with the unexpected appearance of an old
+  friend who seems to have just killed the evil serpentfolk. (If all of the
+  castaways are actually with the PCs when Yarzoth fled, she of course disguises
+  herself as someone else.) Yarzoth cries out for help if the PCs don't arrive
+  soon&#8211;but also takes the chance to cast healing spells on herself as
+  well. If the PCs fall for the deception, Yarzoth explains that they can exit
+  the inner sanctum by smearing blood on the image of Zura there&#8211;she hopes
+  that the PCs will unwittingly take her under their wing and help her escape to
+  the mainland. Of course, by now she also realizes that she's underestimated
+  the PCs, and she remains ready to attack the instant they see through her
+  trickery. This time, if she's reduced to fewer than 15 hit points, she turns
+  gaseous again and attempts to flee the complex altogether via the vents in the
+  roof of area Z7&#8211;if she escapes in this manner, she goes into hiding in
+  the jungle and stalks the PCs, hoping to strike at them again to get back her
+  research if she can. In this case, you can use Yarzoth as a recurring villain
+  as you see fit.
+Gear: >-
+  potion of water breathing, scrolls of augury (2), scroll of comprehend
+  languages, scrolls of cure moderate wounds (2), scroll of find traps, scrolls
+  of lesser restoration (2), scroll of remove disease
+OtherGear: >-
+  ring of mind shielding, spell component pouch, unholy symbol of Ydersius,
+  waterproof scroll tube (worth 250 gp; can hold up to 20 scrolls), 18 pp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '910'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

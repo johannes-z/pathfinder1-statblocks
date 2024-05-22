@@ -1,0 +1,122 @@
+Name: Exemplar
+CR: '7'
+XP: '3200'
+Race: church grim
+MonsterSource: Tome of Horrors Complete 106
+Alignment: LG
+Size: Small
+Type: outsider
+SubType: (extraplanar, incorporeal)
+Init: '3'
+Senses:
+  - darkvision 60 ft., know alignment, low-light vision
+  - Perception +16
+AC: 17, touch 17, flat-footed 14
+AC_Mods: (+3 deflection, +3 Dex, +1 size)
+HP: '67'
+HD: (9d10+18)
+Saves: Fort +8, Ref +9, Will +7
+Fort: '8'
+Ref: '9'
+Will: '7'
+DefensiveAbilities: incorporeal, rejuvenation
+DR: 10/evil
+Speed: fly 40 ft. (perfect)
+Melee:
+  - incorporeal bite +13 touch (1d8 plus 1d4 Wisdom)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: howl, Wisdom damage
+AbilityScores:
+  - —
+  - 17
+  - 15
+  - 12
+  - 15
+  - 16
+BaseAtk: '9'
+CMB: '11'
+CMD: '24'
+Feats:
+  - Alertness
+  - Combat Reflexes
+  - Iron Will
+  - Lunge
+  - Vital Strike
+Skills:
+  - Fly +25
+  - Intimidate +15
+  - Knowledge (religion) +13
+  - Perception +16
+  - Sense Motive +16
+  - Stealth +19
+  - Survival +14
+Languages:
+  - Common (can't speak)
+SQ: limited domain, soul defender
+Source: AP 104
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Howl (Su)
+    description: >-
+      When Exemplar howls, all evil creatures within his limited domain (see
+      below) must succeed at a DC 17 Will save or be panicked for 2d4 rounds.
+      This is a sonic mind-affecting fear effect. Good or neutral creatures are
+      unaffected by the howl as long as they are not there to attack Valor's
+      Fastness or steal from the dead interred there. Whether or not the save is
+      successful, a creature cannot be affected by Exemplar's howl again for 24
+      hours. The save DC is Charisma-based.
+  - name: Know Alignment (Su)
+    description: >-
+      Exemplar automatically knows the alignment of any creature that enters
+      Valor's Fastness. This ability can be suppressed, but Exemplar can
+      reactivate it the following round as a free action. This ability cannot be
+      extended beyond the limits of Exemplar's domain.
+  - name: Limited Domain (Ex)
+    description: >-
+      Exemplar is sworn to protect the grounds of Valor's Fastness. He can
+      freely wander through the courtyard and first floor of the temple (areas
+      H3 through H13), but he cannot move beyond these boundaries.
+  - name: Rejuvenation (Su)
+    description: >-
+      Exemplar cannot be destroyed through simple combat. If slain, Exemplar
+      restores himself in 24 hours, reappearing in Valor's Fastness. The only
+      way to permanently destroy Exemplar is to raze Valor's Fastness to the
+      ground and cast desecrate or unhallow on the fountain in the church's
+      courtyard (area H3).
+  - name: Soul Defender (Su)
+    description: >-
+      Exemplar's sacred duty is to defend the bodies and souls of those buried
+      within Valor's Fastness. Any attempts to cast animate dead or similar
+      spells to create undead within Exemplar's domain require the caster to
+      succeed at a DC 20 caster level check. If the check fails, the spell
+      fizzles away just as if it had been cast.
+  - name: Wisdom Damage (Su)
+    description: >-
+      Exemplar's incorporeal bite deals 1d8 points of damage and 1d4 points of
+      Wisdom damage to a target. A successful DC 16 Fortitude save negates the
+      Wisdom damage. On each successful attack that deals Wisdom damage,
+      Exemplar gains 5 temporary hit points. The save DC is Constitution-based.
+Gender: Male
+DuringCombat: >-
+  Exemplar identifies evil threats with his know alignment ability and then uses
+  his howl ability to panic as many enemies as possible, hopefully attracting
+  reinforcements from the fortress as well. In melee, he first targets evil
+  divine spellcasters.
+Morale: Exemplar fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8228'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,123 @@
+Name: Emissary From Beyond
+CR: '12'
+XP: '19200'
+Race: Vespergaunt
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea Bestiary 58'
+Alignment: NE
+Size: Medium
+Type: ooze
+Init: '6'
+Senses:
+  - all-around vision, blindsight 60 ft., true seeing
+  - Perception +22
+Aura: madness (60 ft., DC 21)
+AC: 20, touch 12, flat-footed 18
+AC_Mods: (+2 Dex, +8 natural)
+HP: '195'
+HD: (17d8+119)
+Saves: Fort +14, Ref +9, Will +9
+Fort: '14'
+Ref: '9'
+Will: '9'
+DefensiveAbilities: amorphous
+DR: 10/aligned
+Immune: ooze traits
+SR: '23'
+Weaknesses: light sensitivity
+Speed: 10 ft., fly 60 ft. (perfect)
+Melee:
+  - 2 slams +21 (2d8+8 plus siphon spirit)
+Space: 5 ft.
+Reach: 10 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 17th; concentration +20)
+  values:
+    - label: Constant
+      value: tongues, true seeing
+    - label: At Will
+      value: deeper darkness
+    - label: 3/day
+      value: contact other plane 1/month-wish
+AbilityScores:
+  - 27
+  - 14
+  - 24
+  - 15
+  - 15
+  - 16
+BaseAtk: '12'
+CMB: '20'
+CMD: 32 (can't be tripped)
+Feats:
+  - Alertness
+  - Combat Reflexes
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Persuasive
+  - Power Attack
+  - Weapon Focus (slam)
+Skills:
+  - Diplomacy +10
+  - Fly +15
+  - Intimidate +17
+  - Knowledge (planes) +19
+  - Perception +22
+  - Sense Motive +12
+  - Stealth +12
+Languages:
+  - tongues
+  - telepathy 100 ft.
+SQ: no breath
+Source: Doom Comes To Dustpawn
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Madness (Su)
+    description: >-
+      Any creature within a 60-foot radius of the vespergaunt must succeed at a
+      DC 21 Will save or be confused for 1d4 rounds. Once a creature
+      successfully saves, it cannot be affected by the Emissary's aura again for
+      24 hours. As a free action, the Emissary can suppress its aura. This is a
+      mind-affecting effect. The save DC is Charisma-based.
+  - name: Damage Reduction (Su)
+    description: >-
+      The vespergaunt's DR is bypassed by any weapons that are chaos-, evil-,
+      good-, or law-aligned.
+  - name: Siphon Spirit (Su)
+    description: >-
+      Any creature touched by the Emissary from Beyond must succeed at a DC 21
+      Will save or gain 1 negative level as the Emissary rips away a portion of
+      its soul. A divine spellcaster gains an additional negative level with
+      each failed save. The victim must save anew each time it is touched, and a
+      character killed by this attack disintegrates completely except for its
+      eyes and strands of brain matter, which become part of the Emissary. Only
+      powerful magic such as miracle or wish can resurrect a creature slain in
+      this manner.
+DuringCombat: >-
+  The vespergaunt has already used its greatest weapon (its monthly wish) to
+  trigger the unnatural twilight and transformations in the Dustpawn environs,
+  but it is still a dangerous foe. It begins combat by casting deeper darkness
+  and tries to remain in the spell's area at all times if possible, but as it
+  has no ranged options in combat, it can be lured out of the darkness by
+  forcing it to exit the spell's area to make attacks. The monster focuses its
+  attacks on divine spellcasters.
+Morale: >-
+  After traveling for so long to reach its destination, the alien does not
+  consider flight or surrender to be a viable option. It fights to the death,
+  even if it's been crippled by the destruction of the orrery of distant worlds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4425'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,131 @@
+Name: Taniniver
+CR: '18'
+XP: '153600'
+Alignment: NE
+Size: Huge
+Type: dragon
+Init: '4'
+Senses:
+  - darkvision 120 ft., deathwatch
+  - Perception +26
+Aura: frightful presence (180 ft., DC 25)
+AC: 33, touch 8, flat-footed 33
+AC_Mods: (+25 natural, -2 size)
+HP: '270'
+HD: (20d12+140)
+Saves: Fort +21, Ref +12, Will +15
+Fort: '21'
+Ref: '12'
+Will: '15'
+DefensiveAbilities: negative energy affinity
+DR: 15/good and magic
+Immune: paralysis, sleep, visual effects
+Resist: acid 30, cold 30, electricity 30, fire 30
+SR: '29'
+Speed: 30 ft., fly 200 ft. (clumsy)
+Melee:
+  - >-
+    bite +30 (4d6+11 plus disease), 2 claws +30 (2d8+11 plus disease), tail slap
+    +24 (2d8+5 plus disease)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, 1d6 Str drain plus mummy rot, Fortitude DC 27
+  negates, usable every 1d4 rounds)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +25)
+  values:
+    - label: Constant
+      value: deathwatch
+    - label: 3/day
+      value: animate dead, inflict serious wounds (DC 18)
+    - label: 1/day
+      value: eyebite (DC 21), horrid wilting (DC 23), symbol of pain (DC 20)
+AbilityScores:
+  - 33
+  - 11
+  - 25
+  - 18
+  - 17
+  - 20
+BaseAtk: '20'
+CMB: '33'
+CMD: 43 (can't be tripped)
+Feats:
+  - Cleave
+  - Combat Reflexes
+  - Critical Focus
+  - Great Fortitude
+  - Improved Initiative
+  - Power Attack
+  - Sickening Critical
+  - Vital Strike
+  - Weapon Focus (bite)
+  - Weapon Focus (claw)
+Skills:
+  - Bluff +28
+  - Fly -12
+  - Heal +26
+  - Intimidate +28
+  - Knowledge (arcana) +27
+  - Knowledge (religion) +27
+  - Perception +26
+  - Sense Motive +26
+  - Spellcraft +27
+  - Stealth +15
+  - Use Magic Device +28
+Languages:
+  - Common
+  - Draconic
+  - Undercommon
+Environment: any land or underground
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This legless, winged, white-eyed dragon is covered in patches of diseased
+  flesh, squirming with maggots and oozing pus.
+Source: PFRPG Bestiary 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Ex)
+    description: >-
+      A taniniver's breath weapon is a hideous gray cloud of disease particles.
+      Any creature in the area must succeed at a DC 27 Fortitude save or
+      contract mummy rot (Pathfinder RPG Bestiary 210). The disease is
+      contracted immediately (the onset period does not apply) and is an
+      instantaneous effect. Ongoing saving throws against the disease use the
+      dragon's breath weapon DC. The save DC is Constitution-based.
+  - name: Disease (Ex)
+    description: >-
+      A taniniver's natural attacks infect its opponent with a random disease
+      from the following list: blinding sickness, bubonic plague, cackle fever,
+      leprosy, mindfire, or shakes. The initial saving throw against these
+      diseases uses the breath weapon's DC.
+Description:
+  - >-
+    Taninivers are a degenerate race of diseased dragons. A taniniver's body is
+    alive but constantly rotting. Wracked by never-ending pain, with the stench
+    of its own decaying flesh so strong it nearly overwhelms the vile creature's
+    enhanced senses, the foul taniniver spends most of its time in magical
+    research to reverse the progression of its diseases or, failing that, to
+    stave off further deterioration. Taninivers often ally with cults of undeath
+    or dragonkind.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5370'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

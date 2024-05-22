@@ -1,0 +1,111 @@
+Name: Garden Guardian
+CR: '7'
+XP: '3200'
+Race: janni genie
+MonsterSource: Pathfinder RPG Bestiary 4 116, Pathfinder RPG Bestiary 141
+Alignment: NE
+Size: Medium
+Type: plant
+SubType: (outsider, native)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +14
+AC: 23, touch 12, flat-footed 21
+AC_Mods: (+7 armor, +1 Dex, +1 dodge, +3 natural, +1 shield)
+HP: '80'
+HD: (9d8+27)
+Saves: Fort +9, Ref +7, Will +5
+Fort: '9'
+Ref: '7'
+Will: '5'
+DefensiveAbilities: poisonous blood
+Immune: disease, mind-affecting effects, paralysis, poison, polymorph, sleep, stunning
+Resist: fire 10
+Weaknesses: worldbound
+Speed: 30 ft. (20 ft. in armor), fly 5 ft. (perfect)
+Melee:
+  - +1 scimitar +16/+11 (1d6+6/15-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: poison spore cloud
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +9)
+  values:
+    - label: 3/day
+      value: invisibility (self only), speak with animals
+    - label: 2/day
+      value: change size
+    - label: 1/day
+      value: create food and water
+AbilityScores:
+  - 20
+  - 13
+  - 16
+  - 14
+  - 15
+  - 13
+BaseAtk: '9'
+CMB: '14'
+CMD: '26'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (scimitar)
+  - Improved Initiative
+  - Mobility
+  - Weapon Focus (scimitar)
+Skills:
+  - Appraise +14
+  - Craft (weapons) +12
+  - Fly +17
+  - Perception +14
+  - Ride +6
+  - Sense Motive +14
+  - Spellcraft +14
+  - Stealth +9
+Languages:
+  - Common
+  - Sylvan
+  - Terran
+  - Vudrani
+  - telepathy 100 ft.
+SQ: elemental endurance, fungal metabolism, rejuvenation
+Source: Curse Of The Crimson Throne Chapter 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Worldbound (Ex)
+    description: >-
+      The garden guardians are transformed jann that have been bound to the
+      Material Plane by Vudrani magic. As a result, they do not have the ability
+      to use ethereal jaunt or plane shift as spell-like abilities. Because of
+      their unique nature, they also lack the create spawn ability possessed by
+      most fungal creatures.
+BeforeCombat: >-
+  The garden guardians become invisible as soon as they hear anything or anyone
+  approaching the area they protect.
+DuringCombat: >-
+  These fungal creatures open combat with their poison spore clouds, following
+  that up with melee attacks. They avoid using their change size ability to
+  increase their own size so as to maintain more mobility on the ledge, but
+  don't hesitate to reduce the size of particularly strong foes.
+Morale: >-
+  The fungal janni fight to the death, pursuing foes throughout the entire
+  cavern (but not into area D24, area D25 or the palace above).
+Gear: +1 chainmail, mwk light steel shield, +1 scimitar
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: fungal|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8654'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

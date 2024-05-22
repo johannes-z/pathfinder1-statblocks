@@ -1,0 +1,93 @@
+Name: Rumawa Shaman
+CR: '2'
+XP: '600'
+Race: Mwangi-Zenji
+Class: sorcerer 3
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (mwangi-zenji)
+Init: '6'
+Senses:
+  - Perception +1
+AC: 17, touch 12, flat-footed 15
+AC_Mods: (+4 armor, +2 Dex, +1 natural)
+HP: '19'
+HD: (3d6+6)
+Saves: Fort +2, Ref +3, Will +3
+Fort: '2'
+Ref: '3'
+Will: '3'
+Resist: cold 10
+Speed: 30 ft., swim 60 ft.
+Melee:
+  - >-
+    +1 shortspear +2 (1d6+1 plus Arcane Strike) or mwk club +1  (1d6 plus Arcane
+    Strike)
+Ranged:
+  - +1 shortspear +4 (1d6+1) or ray +3 (by spell)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: elemental ray (1d6+1 cold, 4/day)
+SpellsKnown:
+  header: Spells Known (CL 3rd)
+  values:
+    - label: 1st (6/day)
+      value: >-
+        burning hands (cold damage) (DC 12), mage armor (already cast), magic
+        missile, ray of enfeeblement (DC 12) 0-detect poison, detect magic,
+        ghost sound, message, prestidigitation
+AbilityScores:
+  - 10
+  - 14
+  - 12
+  - 11
+  - 10
+  - 13
+BaseAtk: '1'
+CMB: '1'
+CMD: '13'
+Feats:
+  - Arcane Strike
+  - Eschew Materials
+  - Improved Initiative
+  - Toughness
+Skills:
+  - Craft (alchemy) +4
+  - Fly +6
+  - Intimidate +6
+  - Knowledge (arcana) +4
+  - Spellcraft +4
+  - Use Magic Device +5
+Languages:
+  - Polyglot
+SQ: cantrips
+Source: PFS S1-34
+IsTemplate: '0'
+Gender: Male
+Bloodline: elemental (water)
+BeforeCombat: The shaman casts mage armor on himself.
+DuringCombat: The shaman hangs back, using his ranged attack spells on the PCs.
+Morale: >-
+  The shaman fights until reduced to 4 hit points or less, at which points he
+  attempts to flee.
+Gear: potion of cure light wounds
+OtherGear: >-
+  crocodile skull headdress (+1 amulet of natural armor), masterwork club, +1
+  shortspear
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: AC 13, touch 12, flat-footed 11 (+2 Dex, +1 natural)
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4163'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

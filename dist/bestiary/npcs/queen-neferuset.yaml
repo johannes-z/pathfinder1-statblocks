@@ -1,0 +1,166 @@
+Name: Queen Neferuset
+CR: '17'
+XP: '102400'
+Race: human
+Class: oracle 17
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42, Pathfinder RPG Bestiary 4 196
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, human)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+Aura: frightful presence (30 ft., DC 16, 1d6 rounds)
+AC: 31, touch 27, flat-footed 27
+AC_Mods: (+10 armor, +3 deflection, +3 Dex, +1 dodge, +4 natural)
+HP: '216'
+HD: (17d8+136)
+Saves: Fort +14, Ref +13, Will +17
+Fort: '14'
+Ref: '13'
+Will: '17'
+DR: 5/-
+Immune: undead traits
+SR: '29'
+Weaknesses: vulnerable to electricity
+Speed: 20 ft.
+Melee:
+  - slam +14 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: burst of vengeance, dust stroke
+SpellsKnown:
+  header: Oracle Spells Known (CL 17th; concentration +23)
+  values:
+    - label: 8th (4/day)
+      value: >-
+        greater planar ally, mass inflict critical wounds (DC 26), orb of the
+        voidUM (DC 26), reverse gravity
+    - label: 7th (6/day)
+      value: >-
+        blasphemy (DC 24), destruction (DC 25), insanity (DC 23), mass inflict
+        serious wounds (DC 25), word of chaos (DC 24)
+    - label: 6th (7/day)
+      value: >-
+        antilife shell, harm (DC 24), mass inflict moderate wounds (DC 24),
+        plague stormUM (DC 24), planar binding (DC 22)
+    - label: 5th (7/day)
+      value: >-
+        feeblemind (DC 21), flame strike (DC 22), insect plague, major curseUM
+        (DC 23), mass inflict light wounds (DC 23), spell resistance (DC 21)
+    - label: 4th (7/day)
+      value: >-
+        black tentacles, chaos hammer (DC 21), dismissal (DC 20), fleshworm
+        infestationUM (DC 20), inflict critical wounds (DC 22), unholy blight
+        (DC 21)
+    - label: 3rd (7/day)
+      value: >-
+        blindness/deafness (DC 21), dispel magic, inflict serious wounds (DC
+        21), invisibility purge, tongues, water walk
+    - label: 2nd (8/day)
+      value: >-
+        death knell (DC 20), desecrate, dust of twilightAPG (DC 18), inflict
+        moderate wounds (DC 20), oracle's burdenAPG (DC 20), silence (DC 18),
+        spiritual weapon
+    - label: 1st (8/day)
+      value: >-
+        deathwatch, divine favor, doom (DC 19), entropic shield, inflict light
+        wounds (DC 19), obscuring mist, sanctuary (DC 17)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 18), detect magic, detect poison, guidance, mending, read
+        magic, resistance, sparkAPG, virtue
+AbilityScores:
+  - 14
+  - 16
+  - —
+  - 10
+  - 14
+  - 22
+BaseAtk: '12'
+CMB: '14'
+CMD: '31'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Extra Revelation
+  - Greater Spell Focus (necromancy)
+  - Improved Initiative
+  - Improved Natural AttackB (slam)
+  - Iron Will
+  - Lightning Reflexes
+  - Spell Focus (evocation)
+  - Spell Focus (necromancy)
+  - ToughnessB
+Skills:
+  - Knowledge (arcana) +17
+  - Knowledge (planes) +15
+  - Knowledge (religion) +15
+  - Spellcraft +20
+  - Stealth +25
+  - Use Magic Device +23
+Languages:
+  - Abyssal
+  - Aklo
+  - Ancient Osiriani
+  - Auran
+  - Common
+  - tongues
+SQ: >-
+  oracle's curse (tongues), revelations (brain drain [17d4, DC 24, 4/day], cloak
+  of darkness [+10 armor, +8 Stealth, 17 hours/day], dweller in darkness, gift
+  of madness [DC 24, 17 rounds, 9/day], interstellar void [17d6, DC 24, 2/day],
+  wings of darkness)
+Source: AP 84
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Neferuset uses her wand of deeper darkness in area E13, casts spell
+  resistance, and activates her cloak of darkness revelation.
+DuringCombat: >-
+  Neferuset lets her neshmaal allies engage opponents directly while she casts
+  orb of the void. She then tries to disrupt spellcasters by using feeblemind
+  and her gift of madness revelation, utilizing her bouncing metamagic rod when
+  she thinks her target has a strong defense against her spell. If the battle
+  turns in her enemies' favor, she casts destruction against the foe who appears
+  to be the greatest threat, followed by reverse gravity. If forced into melee
+  combat, Neferuset employs her wings of darkness revelation to fly out of reach
+  and casts antilife shell to prevent living foes from approaching her.
+Morale: >-
+  If reduced to 0 hit points, Neferuset is not actually destroyed. Two hours
+  after her destruction, the canopic jar of unlife in area E14 begins
+  regenerating her undead body. When she regains full strength, Neferuset
+  pursues those who dared to attempt to destroy her, or joins her husband in
+  area E34.
+Gear: >-
+  greater bouncing metamagic rodUE, scroll of dust form, scroll of implosion,
+  wand of deeper darkness (10 charges)
+OtherGear: >-
+  belt of incredible dexterity +2, cloak of resistance +3, headband of alluring
+  charisma +2, ring of protection +3, gold bracelets set with a purple corundum
+  and an unusually large black opal (worth 3,250 gp each), red deshret crown
+  capped by a gold hooded cobra with small rubies for eyes (worth 2,200 gp),
+  gold earrings set with tiny  black star sapphires (worth 2,000 gp for the
+  set), gold pectoral necklace set with black pearls (worth 14,750 gp), 10 black
+  gemstones of various types (worth 50 gp each), powdered lead and platinum
+  (worth 250 gp), silver dust (worth 25 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: mummified|
+AgeCategory: Adult
+Mystery: Dark TapestryUM
+CompanionFamiliarLink: '0'
+id: '6254'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

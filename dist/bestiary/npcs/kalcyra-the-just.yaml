@@ -1,0 +1,122 @@
+Name: Kalcyra The Just
+CR: '6'
+XP: '2400'
+Race: dwarf
+Class: inquisitor of Torag 7
+MonsterSource: Pathfinder RPG Advanced Player's Guide 38
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 21, touch 12, flat-footed 21
+AC_Mods: (+7 armor, +2 deflection, +2 shield)
+HP: '70'
+HD: (7d8+35)
+Saves: >-
+  Fort +10, Ref +4, Will +10; +1 vs. fear, +2 vs. poison, spells, and spell-like
+  abilities
+Fort: '10'
+Ref: '4'
+Will: '10'
+Save_Mods: +1 vs. fear, +2 vs. poison, spells, and spell-like abilities
+DefensiveAbilities: defensive training
+Speed: 20 ft.
+Melee:
+  - +1 morningstar +11 (1d8+5)
+Ranged:
+  - repeating light crossbow +8 (1d8+2/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bane (7 rounds/day), hatred, judgment 3/day
+SpellLikeAbilities:
+  header: Inquisitor Spell-Like Abilities (CL 7th; concentration +10)
+  values:
+    - label: At Will
+      value: >-
+        detect alignment 7 rounds/day-discern lies Domain Spell-Like Abilities
+        (CL 7th; concentration +10)
+    - label: 6/day
+      value: resistant touch (+2)
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 7th; concentration +10)
+  values:
+    - label: 3rd (2/day)
+      value: litany of righteousnessUC, retributionAPG (DC 16)
+    - label: 2nd (4/day)
+      value: >-
+        blistering invectiveUC (DC 15), confessAPG (DC 15), flames of the
+        faithfulAPG (DC 15), hold person (DC 15)
+    - label: 1st (5/day)
+      value: >-
+        bless, command (DC 14), divine favor, lock gazeUC (DC 14), protection
+        from evil
+    - label: 0 (at will)
+      value: >-
+        acid splash, brandAPG (DC 13), daze (DC 13), guidance, siftAPG,
+        stabilize
+SpellDomains: Protection
+AbilityScores:
+  - 14
+  - 10
+  - 16
+  - 8
+  - 17
+  - 10
+BaseAtk: '5'
+CMB: '10'
+CMD: 19 (23 vs. bull rush and trip)
+Feats:
+  - Combat Casting
+  - Duck And Cover
+  - Power Attack
+  - Shake It Off
+  - Skill Focus (Intimidate)
+  - Toughness
+Skills:
+  - Appraise -2 (+0 to assess nonmagical metals or gemstones)
+  - Diplomacy +10
+  - Intimidate +16
+  - Knowledge (religion) +8
+  - Perception +12 (+14 to notice unusual stonework)
+  - Sense Motive +16
+  - Spellcraft +4
+Languages:
+  - Common
+  - Dwarven
+SQ: monster lore +3, solo tactics, stern gaze +3, track +3
+Source: AP 104
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Kalcyra casts divine favor and protection from evil on herself before battle,
+  and then bless (which affects the foo dogs as well).
+DuringCombat: >-
+  Kalcyra begins combat by casting blistering invective while the foo dogs
+  attack. She prefers to stay out of melee combat, using her spells to
+  debilitate her foes from a distance. If pressed into melee combat, Kalcyra
+  casts flames of the faithful and activates her bane ability, then on the next
+  round pronounces a judgment-usually destruction, justice, or resistance.
+Morale: Believing she has a divine mandate, Kalcyra fights to the death.
+Gear: potion of cure serious wounds, potion of spider climb
+OtherGear: >-
+  +1 chainmail, +1 buckler, +1 morningstar, repeating light crossbow with 10
+  bolts, iron holy symbol of Torag, 28 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8221'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

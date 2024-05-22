@@ -1,0 +1,136 @@
+Name: Mythic Bone Devil
+CR: '11'
+XP: '12800'
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful, mythic)
+Init: +13M
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +19
+Aura: fear (5 ft., DC 19, 1d6 rounds)
+AC: 29, touch 14, flat-footed 24
+AC_Mods: (+5 Dex, +15 natural, -1 size)
+HP: '145'
+HD: (10d10+90)
+Saves: Fort +12, Ref +12, Will +7
+Fort: '12'
+Ref: '12'
+Will: '7'
+DR: 10/epic and good
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '22'
+Speed: 40 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    bite +16 (1d8+7), 2 claws +16 (1d8+7 plus bleed), sting +16 (3d4+7 plus
+    bleed and poison)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  bleed (1d6), bone eruption, mythic power (4/day, surge +1d8), pain blast,
+  pounce, rend (2 claws, 1d8+10)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: >-
+        dimensional anchor, greater teleport (self plus 50 lbs. of objects
+        only), invisibility (self only), major image (DC 17), wall of ice
+    - label: 3/day
+      value: quickened invisibility (self only)
+    - label: 1/day
+      value: summon (level 4, 1 bone devil 35%)
+AbilityScores:
+  - 25
+  - 21
+  - 20
+  - 16
+  - 15
+  - 18
+BaseAtk: '10'
+CMB: '18'
+CMD: '33'
+Feats:
+  - Alertness
+  - Combat ReflexesM
+  - Improved InitiativeM
+  - Iron Will
+  - Quicken Spell-Like Ability (invisibility)
+Skills:
+  - Bluff +17
+  - Diplomacy +17
+  - Fly +20
+  - Intimidate +17
+  - Knowledge (planes) +16
+  - Perception +19
+  - Sense Motive +19
+  - Spellcraft +16
+  - Stealth +14
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+Environment: any (Hell)
+Organization: solitary, pair, or inquisition (3-10)
+Treasure: standard
+Description_Visual: >-
+  Horns crown the skull of this winged, skeletal creature, and its long claws
+  twitch like spider legs.
+Group: Devil
+Source: Mythic Adventures
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bone Eruption (Su)
+    description: >-
+      As a standard action, a mythic bone devil can expend two uses of mythic
+      power to call to the bones of all enemies within a 20-foot-radius burst.
+      The bones shudder and twist within each creature, dealing 10d6 points of
+      damage and giving each creature the sickened condition for 1d6 rounds. A
+      successful DC 20 Fortitude save halves the damage and negates the sickened
+      condition. If this damage kills a creature, some of its bones tear free
+      from its body and fuse with the bone devil, healing it for 1d6 points of
+      damage per Hit Die of the slain creature. Creatures immune to critical
+      hits are immune to this ability. The save DC is Constitution-based.
+  - name: Pain Blast (Su)
+    description: >-
+      Once per round as a free action, a bone devil can stimulate extreme pain
+      in one creature within its reach. The creature takes a -4 penalty on
+      attack rolls, skill checks, and ability checks until the start of the
+      devil's next turn or until it moves at least 60 feet away from the devil.
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 20; frequency 1/round for 6 rounds; effect 1d3
+      Str damage; cure 2 consecutive saves. The save DC is Constitution-based.
+Description:
+  - >-
+    Forged from the souls of the first heretics and blasphemers, mythic devils
+    have an ancient legacy of torture and using secrets to lure mortal
+    diabolists into temptation. A mythic bone devil leads Hell's inquisitors in
+    the efforts to root out disobedience among other devils. The authority it
+    wields is even more powerful than its formidable magic, and it commands
+    respect and fear from even pit fiends and dukes of Hell.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4863'
+UniqueMonster: '0'
+MR: '4'
+Mythic: '1'
+MT: '0'

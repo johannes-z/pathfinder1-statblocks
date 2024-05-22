@@ -1,0 +1,102 @@
+Name: Adamantine Clan Gargoyle
+CR: '12'
+XP: '19200'
+Race: Gargoyle
+Class: cleric of Unity 8
+MonsterSource: Pathfinder RPG Bestiary 137, see page 58
+Alignment: LE
+Size: Medium
+Type: monstrous humanoid
+SubType: (earth)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 29, touch 17, flat-footed 24
+AC_Mods: (+6 armor, +2 deflection, +4 Dex, +1 dodge, +6 natural)
+HP: '139'
+HD: (13 HD; 5d10+8d8+73)
+Saves: Fort +14, Ref +14, Will +17
+Fort: '14'
+Ref: '14'
+Will: '17'
+DR: 10/magic
+Resist: acid 10
+Speed: 40 ft., fly 60 ft. (average)
+Melee:
+  - >-
+    bite +9 (1d6+1), claw +9 (1d6+1),gore +9 (1d4+1), +2 battleaxe +16/+11/+6
+    (1d8+5/19-20/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: master's yoke (1/day), read minds (8 rounds/day)
+SpellLikeAbilities:
+  header: Cleric Spell-Like Abilities (CL 8th; concentration +5)
+  values:
+    - label: At Will
+      value: lore keeper
+    - label: 6/day
+      value: touch of law
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 8th; concentration +11)   4th-cure critical wounds,
+  freedom of movement, order's wrathD (DC 17)   3rd-blindness/deafness (DC 16),
+  cure serious wounds (2), irradiateTG (DC 16), seek thoughtsD, APG (DC 16)  
+  2nd-cure moderate wounds (2), detect thoughtsD (DC 15), protection from
+  technologyTG, spiritual weapon   1st-charm personD (DC 14), cure light wounds
+  (4), divine favor   0 (at will)-create water, guidance, mending, stabilize
+SpellDomains: Slavery, Thought
+AbilityScores:
+  - 17
+  - 18
+  - 20
+  - 6
+  - 17
+  - 5
+BaseAtk: '11'
+CMB: '14'
+CMD: '31'
+Feats:
+  - Dodge
+  - Improved Critical (battleaxe)
+  - Improved Initiative
+  - Improved Natural Armor
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+Skills:
+  - Fly +12
+  - Knowledge (religion) +7
+  - Perception +12
+Languages:
+  - Common
+  - Terran
+SQ: freeze
+Source: AP 90
+IsTemplate: '0'
+BeforeCombat: The gargoyles cast freedom of movement before combat begins.
+DuringCombat: >-
+  Each gargoyle casts spiritual weapon on the first round of combat, then casts
+  divine favor on the second round, after which the gargoyles focus on melee
+  attacks. A gargoyle heals itself or an ally once reduced to fewer than 40 hit
+  points, unless the PCs seem to be about to fall themselves, in which case they
+  press on the fight.
+Morale: An adamantine clan gargoyle fights to the death.
+Gear: >-
+  +2 chain shirt, +2 battleaxe, amulet of natural armor +1, belt of mighty
+  constitution +2, cloak of resistance +2, ring of protection +2, orange access
+  cardTG
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6715'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

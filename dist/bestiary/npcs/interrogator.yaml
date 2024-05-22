@@ -1,0 +1,98 @@
+Name: Interrogator
+CR: '4'
+XP: '1200'
+Race: Human
+Class: inquisitor of Abadar 5
+MonsterSource: Pathfinder RPG Advanced Player's Guide 38
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +11
+AC: 19, touch 13, flat-footed 16
+AC_Mods: (+6 armor, +3 Dex)
+HP: '36'
+HD: (5d8+10)
+Saves: Fort +5, Ref +4, Will +7
+Fort: '5'
+Ref: '4'
+Will: '7'
+Speed: 30 ft. (20 ft. in armor)
+Melee:
+  - morningstar +3 (1d8)
+Ranged:
+  - +1 repeating light crossbow +7 (1d8+3/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bane (5 rounds/day), judgment 2/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; concentration +8)
+  values:
+    - label: 6/day
+      value: touch of law Inquisitor Spell-Like Abilities (CL 5th; concentration +8)
+    - label: At Will
+      value: detect alignment, discern lies (5 rounds/day)
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 5th; concentration +8)
+  values:
+    - label: 2nd (3/day)
+      value: escape alarm*, spiritual weapon, weapon of aweAPG (DC 15)
+    - label: 1st (5/day)
+      value: cause fear (DC 14), divine favor, expeditious retreat, magic weapon
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 13), brandAPG (DC 13), detect magic, light,
+        siftAPG
+SpellDomains: Law
+AbilityScores:
+  - 10
+  - 16
+  - 13
+  - 8
+  - 16
+  - 12
+BaseAtk: '3'
+CMB: '3'
+CMD: '16'
+Feats:
+  - Deadly Aim
+  - Lookout
+  - Point-Blank Shot
+  - Precise Shot
+  - Skill Focus (Intimidate)
+Skills:
+  - Bluff +9
+  - Heal +11
+  - Intimidate +14
+  - Perception +11
+  - Sense Motive +13
+  - Stealth +8
+Languages:
+  - Common
+SQ: monster lore +3, solo tactics, stern gaze +2, track +2
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: The interrogator casts weapon of awe on her light crossbow.
+Gear: >-
+  mwk breastplate, +1 repeating light crossbow with 50 bolts, morningstar,
+  pliability elixir*, guard's kit*, 12 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without weapon of awe, the interrogator's statistics are Ranged +1 repeating
+  light crossbow +7 (1d8+1/19-20).
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8830'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

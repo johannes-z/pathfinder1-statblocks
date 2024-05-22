@@ -1,0 +1,106 @@
+Name: Roiling Steam Mephit
+CR: '5'
+XP: '1600'
+Race: steam mephit
+MonsterSource: Pathfinder RPG Bestiary 202
+Alignment: 'N'
+Size: Small
+Type: outsider
+SubType: (fire)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +11
+AC: 20, touch 15, flat-footed 16
+AC_Mods: (+3 Dex, +1 dodge, +5 natural, +1 size)
+HP: '52'
+HD: (8d10+8)
+HP_Mods: fast healing 2
+Saves: Fort +5, Ref +9, Will +6
+Fort: '5'
+Ref: '9'
+Will: '6'
+DR: 5/magic
+Immune: fire
+Weaknesses: vulnerability to cold
+Speed: 30 ft., fly 40 ft. (average)
+Melee:
+  - 2 claws +11 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: breath weapon (15-foot cone, DC 15, 1d10 fire plus sickened)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +13)
+  values:
+    - label: 1/hour
+      value: blur, obscuring mist
+AbilityScores:
+  - 15
+  - 17
+  - 12
+  - 6
+  - 11
+  - 14
+BaseAtk: '8'
+CMB: '9'
+CMD: '23'
+Feats:
+  - Dodge
+  - Great Fortitude
+  - Improved Initiative
+  - Mobility
+Skills:
+  - Bluff +13
+  - Fly +16
+  - Perception +11
+  - Stealth +18
+Languages:
+  - Common
+  - Ignan
+Source: PFS 8-11
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Boiling Rain (Su)
+    description: >-
+      Once per day, an advanced steam mephit can create a rainstorm of boiling
+      water in a 20-foot-square area. Living creatures within the area take 2d10
+      points of fire damage (Fortitude DC 14 half; caster level 11th). This
+      ability is the equivalent of a 2nd-level spell.
+  - name: Breath Weapon (Su)
+    description: >-
+      An advanced steam mephit's breath weapon is a cone of steam that deals
+      1d10 fire damage. The scalding water also causes living creatures to be
+      sickened for 3 rounds. A Reflex save halves the damage and negates the
+      sickened effect. Fast Healing An advanced steam mephit's fast healing only
+      works in boiling water or steam. Steam Attacks Despite dealing fire
+      damage, an advanced steam mephit's special attacks do not burn away the
+      fog created by its obscuring mist spell-like ability unless the mephit
+      wishes to do so.
+BeforeCombat: >-
+  If the mephits hear conflict, they hide in this area and cast blur on
+  themselves if combat seems imminent.
+DuringCombat: >-
+  The mephits use a combination of their breath weapons, boiling rain, and
+  hit-and-run claw attacks to harass their foes. A mephit uses obscuring mist if
+  it's under serious threat from ranged attacks.
+Morale: >-
+  Once the PCs defeat one of the mephits, the other mephit only fights until
+  reduced to 30 or fewer hit points before surrendering or fleeing. The mephits
+  attempt to escape the combat earlier if it's clear their foes are unharmed by
+  fire damage.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '9069'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

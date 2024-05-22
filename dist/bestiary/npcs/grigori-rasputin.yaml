@@ -1,0 +1,178 @@
+Name: Grigori Rasputin
+CR: '17'
+XP: '102400'
+Race: human
+Class: oracle 18
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '0'
+Senses:
+  - true seeing
+  - Perception +13
+Aura: unholy aura (DC 22)
+AC: 32, touch 22, flat-footed 32
+AC_Mods: (+10 armor, +4 deflection, +4 insight, +4 luck [touch only], +4 natural)
+HP: '192'
+HD: (18d8+108)
+Saves: >-
+  Fort +16, Ref +12, Will +20; +4 vs. death effects, domination, mind-affecting
+  effects, and possession
+Fort: '16'
+Ref: '12'
+Will: '20'
+Save_Mods: +4 vs. death effects, domination, mind-affecting effects, and possession
+DefensiveAbilities: stitched soul
+SR: 25 vs. good
+Speed: 30 ft.
+Melee:
+  - mwk dagger +13/+8/+3 (1d4-1/19-20)
+Ranged:
+  - mwk Nagant M1895 revolver +14/+9/+4 (1d8/x4)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 18th; concentration +26)
+  values:
+    - label: 9th (3/day)
+      value: astral projection, miracle (DC 27)
+    - label: 8th (6/day)
+      value: >-
+        fire storm (DC 26), mass cure critical wounds, moment of prescience,
+        stormboltsAPG (DC 26)
+    - label: 7th (7/day)
+      value: >-
+        blasphemy (DC 25), destruction (DC 25), ethereal jaunt, mass cure
+        serious wounds, regenerate, reverse gravity (DC 25), vision, waves of
+        ecstasyUM (DC 25)
+    - label: 6th (7/day)
+      value: >-
+        antilife shell, blade barrier (DC 24), harm (DC 24), heal, mass cure
+        moderate wounds, project image
+    - label: 5th (7/day)
+      value: >-
+        contact other plane, flame strike (DC 23), greater forbid actionUM (DC
+        23), mass cure light wounds, slay living (DC 23), telekinesis, true
+        seeing
+    - label: 4th (8/day)
+      value: >-
+        cure critical wounds, divine power, freedom of movement, scrying,
+        sending, terrible remorseUM (DC 22), unholy blight (DC 22)
+    - label: 3rd (8/day)
+      value: >-
+        bestow curse (DC 21), blindness/deafness (DC 21),
+        clairaudience/clairvoyance, cure serious wounds, dispel magic, searing
+        light
+    - label: 2nd (8/day)
+      value: >-
+        cure moderate wounds, death knell (DC 20), dread boltUM (DC 20),
+        enthrall (DC 20), hold person (DC 20), levitate, minor image (DC 20),
+        silence (DC 20), spectral hand
+    - label: 1st (8/day)
+      value: >-
+        command (DC 19), cure light wounds, entropic shield, forbid actionUM (DC
+        19), murderous commandUM (DC 19), remove sicknessUM (DC 19), unseen
+        servant
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 18), detect magic, detect poison, ghost sound (DC 18),
+        guidance, light, mage hand, read magic, resistance, stabilize, virtue
+AbilityScores:
+  - 9
+  - 11
+  - 19
+  - 14
+  - 17
+  - 26
+BaseAtk: '13'
+CMB: '12'
+CMD: '30'
+Feats:
+  - Combat Casting
+  - Craft Wondrous Item
+  - DiehardB
+  - Ectoplasmic SpellAPG B
+  - Expanded ArcanaAPG (2)
+  - Great Fortitude
+  - Iron Will
+  - Lightning Reflexes
+  - Persuasive
+  - Quicken Spell
+  - Toughness
+Skills:
+  - Bluff +25
+  - Diplomacy +30
+  - Intimidate +25
+  - Knowledge (arcana) +15
+  - Knowledge (nobility) +10
+  - Knowledge (planes) +12
+  - Knowledge (religion) +20
+  - Perception +13
+  - Sense Motive +16
+  - Spellcraft +15
+  - Use Magic Device +25
+Languages:
+  - Church Slavonic
+  - Common
+  - Russian
+SQ: >-
+  oracle's curse (haunted), revelations (ectoplasmic armor [+10, 18 hours/day],
+  project psyche, shroud of retribution [3/day, 1d8+9], spectral spells [4/day],
+  spirit walk [2/day, 18 rounds], sure soul [+4])
+Source: AP 71
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Stitched Soul (Su)
+    description: >-
+      Rasputin's soul is stitched to his body with threads of fate, and he
+      clings tenaciously to life. He gains Diehard as a bonus feat. In addition,
+      when first reduced to a number of negative hit points equal to or greater
+      than his current Con score, Rasputin dies, but he springs back to life 1d4
+      rounds later as if the target of a resurrection spell. If killed a second
+      time, the Mad Monk again comes back to life 1d6 rounds later, as if the
+      target of a raise dead spell (upon his return, he loses 50% of his
+      remaining unused spell slots as if they had been used to cast spells).
+      Only after Rasputin is slain for a third time do his soul's stitches
+      finally unravel from his corpse, releasing his malignant spirit into the
+      ether.
+Gender: Male
+BeforeCombat: >-
+  Within the Thrice-Tenth presbytery (area H6), Rasputin enjoys the benefits of
+  the World Engine's unholy aura and insight bonus to his AC. When faced with
+  combat, Rasputin activates his ectoplasmic armor revelation and casts entropic
+  shield, freedom of movement, levitate, moment of prescience, and true seeing.
+  Once enemies are in sight, he casts antilife shell and spectral hand to enable
+  him to use touch attacks beyond the field's perimeter.
+DuringCombat: >-
+  Under the protection of his antilife shell, Rasputin attempts to hinder
+  opponents with reverse gravity and waves of ecstasy and turn foes against each
+  other with terrible remorse and murderous command, before laying waste with
+  such deadly effects as blade barrier, blasphemy, destruction, harm,
+  stormbolts, and unholy blight. If wounded, Rasputin casts quickened cure
+  spells while continuing to target enemies with offensive spells.
+Morale: >-
+  On the precipice of claiming his mother's mythic power, Rasputin relies on his
+  stitched soul to preserve his life, and fights to the death again and again
+  until slain permanently.
+Gear: >-
+  mwk dagger, mwk Nagant M1895 revolver (see page 65) with 21 metal cartridges,
+  amulet of natural armor +4, belt of physical perfection +2, cassock of the
+  Black Monk (see page 60), headband of mental prowess +4 (Wis, Cha)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: middle age
+Mystery: occult (see page 68)
+CompanionFamiliarLink: '0'
+id: '4440'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

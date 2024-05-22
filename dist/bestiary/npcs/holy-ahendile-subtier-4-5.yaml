@@ -1,0 +1,110 @@
+Name: Holy Ahendile Subtier 4-5
+CR: '5'
+XP: '1600'
+Race: human
+Class: sorcerer (Razmiran priest) 6
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea Magic 38'
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +0
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex)
+HP: '35'
+HD: (6d6+12)
+Saves: Fort +4, Ref +5, Will +6
+Fort: '4'
+Ref: '5'
+Will: '6'
+Resist: cold 5, fire 5
+Speed: 30 ft.
+Melee:
+  - mwk dagger +3 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 6th; concentration +10)
+  values:
+    - label: 7/day
+      value: minute meteors (1d4+3 fire, DC 17)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +10)
+  values:
+    - label: 3rd (4/day)
+      value: lightning bolt (DC 18), remove disease (DC 17)
+    - label: 2nd (6/day)
+      value: acid arrow, aid, flaming sphere (DC 17)
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 16), mage armor, magic missile, ray of enfeeblement
+        (DC 15)
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), daze (DC 14), detect magic,
+        prestidigitation, read magic, resistance
+AbilityScores:
+  - 8
+  - 14
+  - 13
+  - 12
+  - 10
+  - 18
+BaseAtk: '3'
+CMB: '2'
+CMD: '17'
+Feats:
+  - Defensive Combat Training
+  - False Casting
+  - False Focus
+  - Magical Aptitude
+  - Spell Focus (evocation)
+Skills:
+  - Bluff +13
+  - Knowledge (arcana) +6
+  - Knowledge (local) +2
+  - Sleight of Hand +5
+  - Spellcraft +12
+  - Use Magic Device +15
+Languages:
+  - Common
+  - Hallit
+SQ: false piety, lay healer
+Source: PFS S5-01
+IsTemplate: '0'
+Gender: Female
+Bloodline: starsoulAPG
+BeforeCombat: Holy Ahendile casts mage armor on herself.
+DuringCombat: >-
+  Holy Ahendile uses her spells liberally to disable and damage her enemies. She
+  uses her wand of cure moderate wounds to heal her allies, though she uses her
+  False  Casting feat to hide the true nature of her healing magic.
+Morale: >-
+  If reduced to fewer than 15 hit points, she uses her wand to heal herself. If
+  unable to heal herself or convinced that she has lost, Ahendile orders her
+  surviving thugs to cover her retreat.
+Gear: >-
+  potion of invisibility, scroll of bear's endurance, scroll of levitate, scroll
+  of scare, wand of cure moderate wounds (12 charges)
+OtherGear: >-
+  mwk dagger, aegis of recoveryAPG, cloak of resistance +1, silver unholy symbol
+  of Razmir, 18 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: Razmiran priest
+CompanionFamiliarLink: '0'
+id: '8003'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,118 @@
+Name: Derghodaemon
+CR: '12'
+XP: '19200'
+Race: Derghodaemon
+MonsterSource: Tome of Horrors Revised 80
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (daemon, evil, extraplanar)
+Init: '5'
+Senses:
+  - all-around vision, darkvision 60 ft., detect magic, see invisibility
+  - Perception +28
+Aura: feeblemind (DC 20)
+AC: 27, touch 14, flat-footed 22
+AC_Mods: (+5 Dex, +13 natural, -1 size)
+HP: '161'
+HD: (14d10+84)
+Saves: Fort +15, Ref +14, Will +7
+Fort: '15'
+Ref: '14'
+Will: '7'
+DR: 10/good
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+SR: '23'
+Speed: 40 ft.
+Melee:
+  - 5 claws +21 (1d6+8/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rend (2 claws, 1d8+12 plus 2 Constitution damage)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +15)
+  values:
+    - label: Constant
+      value: detect magic, see invisibility
+    - label: At will
+      value: greater teleport (self plus 50 lbs. of objects only)
+    - label: 3/day
+      value: fear (DC 17), quickened summon swarm
+    - label: 1/day
+      value: >-
+        creeping doom, insect plague, summon daemon (level 4, 1 derghodaemon
+        30%)
+AbilityScores:
+  - 27
+  - 20
+  - 22
+  - 7
+  - 17
+  - 16
+BaseAtk: '14'
+CMB: '23'
+CMD: '38'
+Feats:
+  - Cleave
+  - Critical Focus
+  - Improved Critical (claws)
+  - Power Attack
+  - Quicken Spell-Like Ability (summon swarm)
+  - Sickening Critical
+  - Vital Strike
+Skills:
+  - Intimidate +20
+  - Perception +28
+  - Sense Motive +20
+  - Stealth +18
+Languages:
+  - Abyssal
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: swarmwalking
+Source: AP 34
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Around Vision (Ex)
+    description: >-
+      A derghodaemon's multiple eyes grant it a +8 racial bonus on Perception
+      checks. It cannot be flanked.
+  - name: Feeblemind Aura (Su)
+    description: >-
+      By grinding and clicking its mandibles and chitinous plates together (a
+      free action), a derghodaemon can affect all creatures within 30 feet as if
+      by a feeblemind spell. Daemons are immune to this effect, but all other
+      creatures must make a DC 20 Will save to resist the effects. A subject
+      that succumbs to this effect remains affected by it as long as the
+      derghodaemon continues to maintain the aura and the subject remains within
+      30 feet of the derghodaemon. Once either condition ends, a victim of this
+      effect can attempt a new DC 20 Will save once per hour to recover from the
+      effect; otherwise, it can be cured by a heal, limited wish, miracle, or
+      wish spell. A derghodaemon cannot use its spelllike abilities or its gnaw
+      attack in any round in which it uses its feeblemind aura. This is a sonic
+      mind-affecting effect. The save DC is Charisma-based.
+  - name: Swarmwalking (Su)
+    description: A derghodaemon is immune to damage or distraction effects caused by swarms
+DuringCombat: >-
+  The derghodaemon attempts to summon another of its kind on the first round of
+  combat and then casts insect plague and creeping doom on the following rounds,
+  supplementing its swarm creation each round with quickened summon swarm
+  attacks. It changes to melee attacks if surrounded.
+Morale: The derghodaemon fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '827'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,114 @@
+Name: Iramine
+CR: '8'
+XP: '4800'
+Race: elf
+Class: fighter 1/evoker 5/eldritch knight 3
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (elf )
+Init: '7'
+Senses:
+  - low-light vision
+  - Perception +9
+AC: 23, touch 13, flat-footed 20
+AC_Mods: (+6 armor, +3 Dex, +4 shield)
+HP: '69'
+HD: (9 HD; 5d6+4d10+31)
+Saves: Fort +7, Ref +6, Will +6; +2 vs. enchantments
+Fort: '7'
+Ref: '6'
+Will: '6'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: blur (20% miss chance)
+Speed: 30 ft.
+Melee:
+  - +1 elven curve blade +11/+6 (1d10+7/18-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: intense spells (+2 damage)
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 5th; concentration +4)
+  values:
+    - label: 5/day
+      value: force missile (1d4+2)
+SpellsPrepared: >-
+  Spells Prepared (CL 7th, concentration +9; 10% spell failure) 4th-ice storm
+  (+2 damage) 3rd-fireball (+2 damage, DC 17), lightning bolt (+2 damage, DC 17)
+  2nd-blur (already cast), scorching ray (2, +2 damage), web (DC 15) 1st-chill
+  touch (DC 13), magic missile (3, +2 damage), shield (already cast) 0 (at
+  will)-dancing lights, detect magic, light, read magic
+AbilityScores:
+  - 16
+  - 16
+  - 12
+  - 14
+  - 10
+  - 8
+BaseAtk: '6'
+CMB: '9'
+CMD: '22'
+Feats:
+  - Greater Spell Focus (evocation)
+  - Improved Initiative
+  - Scribe Scroll
+  - Spell Focus (evocation)
+  - Still Spell
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (elven curve blade)
+  - Weapon Specialization (elven curve blade)
+Skills:
+  - Climb +7
+  - Knowledge (arcana) +11
+  - Knowledge (history) +11
+  - Knowledge (planes) +9
+  - Perception +9
+  - Spellcraft +14 (+16 identify magic item properties)
+  - Survival +5
+  - Swim +7
+SQ: >-
+  arcane bond (ring of counterspells), diverse training, elven magic, weapon
+  familiarity
+Source: City of Golden Death
+IsTemplate: '0'
+Gender: Female
+ProhibitedSchools: Illusion, Transmutation
+BeforeCombat: >-
+  Iramine has already cast false life from her wand. The moment she hears combat
+  in area L, Iramine casts blur and shield (already reflected in her
+  statistics).
+DuringCombat: >-
+  Iramine starts combat by casting web, followed by ice storm and fireball. She
+  uses her arcane bonded ring to cast an additional ice storm later in the
+  battle. If forced into melee combat, Iramine uses Vital Strike with her curve
+  blade.
+Morale: >-
+  If she is reduced to fewer than 30 hit points, Iramine uses the jewel of
+  everlasting gold (see page 30) to transform herself into a Huge fire
+  elemental. Iramine then fights to the death.
+Gear: potion of cure serious wounds, wand of false life (CL 3rd; 8 charges)
+OtherGear: >-
+  +2 mithral chain shirt, +1 elven curve blade, cloak of resistance +1, jewel of
+  everlasting gold (see page 30), ring of counterspells (contains dispel magic),
+  spell component pouch, spellbook (contains all of the above spells plus all
+  0-level spells, alarm, dispel magic, hold person, invisibility, levitate, and
+  true strike), key to Xin-Grafar
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+BaseStatistics: >-
+  Without her spells, Iramine has the following statistics: AC 19, touch 13,
+  flat-footed 16; hp 61; no miss chance
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '697'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

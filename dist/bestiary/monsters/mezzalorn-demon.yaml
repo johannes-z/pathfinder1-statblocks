@@ -1,0 +1,152 @@
+Name: Mezzalorn Demon
+CR: '11'
+XP: '12800'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +18
+AC: 27, touch 14, flat-footed 22
+AC_Mods: (+5 Dex, +13 natural, -1 size)
+HP: '138'
+HD: (12d10+72)
+Saves: Fort +14, Ref +15, Will +7
+Fort: '14'
+Ref: '15'
+Will: '7'
+DR: 10/cold iron
+Immune: electricity, poison
+Resist: acid 10,  cold 10, fire 10
+SR: '22'
+Speed: 10 ft., fly 50 ft. (good)
+Melee:
+  - sting +16 (2d6+4 plus poison), 2 claws +16 (1d6+4 plus  grab)
+Space: 10 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: At will
+      value: >-
+        chaos hammer (DC 17), greater teleport (self plus 50 pounds of objects
+        only)
+    - label: 3/day
+      value: blasphemy (DC 20), unholy blight (DC 17)
+    - label: 1/day
+      value: >-
+        word of chaos (DC 20), summon (level 4, 4d10 dretches, 1d4 babaus, 1
+        mezzalorn 35%)
+AbilityScores:
+  - 18
+  - 21
+  - 23
+  - 13
+  - 16
+  - 16
+BaseAtk: '12'
+CMB: +17 (+21 grapple)
+CMD: 32 (36 vs. trip)
+Feats:
+  - Ability Focus (poison)
+  - Blind-Fight
+  - Cleave
+  - Lightning Reflexes
+  - Power Attack
+  - Weapon Finesse
+Skills:
+  - Bluff +17
+  - Escape Artist +20
+  - Fly +11
+  - Intimidate +18
+  - Knowledge (planes) +16
+  - Perception +18
+  - Stealth +16
+  - Survival +18
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+SQ: pheromones
+Environment: any (Abyss)
+Organization: solitary, cluster (2-4), or nest (5-10)
+Treasure: standard
+Description_Visual: >-
+  This creature looks like a cross between a giant red-banded wasp and a
+  grotesque olive-skinned humanoid. It has the body of a giant wasp, complete
+  with stinger and wings. The creature possesses two human-like arms that end in
+  wicked claws. Its human-like head sports a mouth filled with fangs and two
+  small horns that jut from its head.
+Group: Demon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Pheromones (Ex)
+    description: >-
+      When reduced to half or less of its normal hit points, a mezzalorn
+      releases a pheromone that heightens the aggression of all other mezzalorns
+      within a 50-foot radius. Affected mezzalorns gain a +2 morale bonus on
+      attack and damage rolls for the rest of the encounter.
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 22; frequency 1/round for 6 rounds; effect 1d2
+      Dex; cure 2 consecutive saves. The save DC is Constitution-based and
+      includes a +2 bonus from the mezzalorn's Ability Focus feat.
+Description:
+  - >-
+    Mezzalorns (or wasp demons as they are called by otherworlders) are entities
+    akin to the fly or stirge demons. They spend most of their time flying high
+    above the Abyssal planes scouring the lands for food or patrolling a demon
+    lord's domain if they are in the service of such a demon. When serving under
+    a demon lord or one of his generals, mezzalorns are often utilized as shock
+    troops or first-assault troops in war.
+  - >-
+    Mezzalorns are thoroughly evil and despise all non-demons, attacking them on
+    sight. Slain creatures are carried back to their lair and distributed among
+    the inhabitants of the nest. Among demonkind they despise stirge demons with
+    an unbridled hatred and always attack them on sight, fighting to the death
+    when battling them. Slain stirge demons are not eaten by wasp demons (they
+    dislike their smell, and as such dislike their taste even more), but are
+    completely and utterly destroyed, their bodies being torn to pieces or
+    injected with so much venom as to liquefy their internals.
+  - >-
+    A mezzalorn makes its lair in rocky outcroppings or in underground burrows
+    and tunnels on the various abyssal planes. They generally avoid the less
+    hospitable planes composed of acids, oozes, slimes, waters, or vapors as
+    they require a solid surface on which to build their nests. A nest is
+    composed of just about anything a mezzalorn can find and carry: bones,
+    debris, refuse, weapons, and so on.
+  - >-
+    A mezzalorn stands as tall as a human and is about 10 feet long. Its body is
+    dark with red bands and ends in a golden stinger. Its legs resemble those of
+    a giant wasp and are covered in fine hairs and bristles. Its human-like
+    visage is copper and sports matted dark hair. Its horns are black.
+  - >-
+    Mezzalorn tactics are simple and straightforward: fly into battle, sting a
+    foe repeatedly until it dies. Often a mezzalorn grabs a foe, flies upward
+    away from the opponent's allies, and stings its grappled victim until it
+    dies, dropping the carcass without thought or care before wading back into
+    the battle. Mezzalorn's hate stirge demons and fly demons and attack them on
+    sight.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2445'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

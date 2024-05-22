@@ -1,0 +1,135 @@
+Name: Black Ice
+CR: '16'
+XP: '76800'
+Race: gnome
+Class: illusionist 10/shadowdancer 7
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +20
+AC: 23, touch 17, flat-footed 20
+AC_Mods: (+4 armor, +3 deflection, +2 Dex, +1 dodge, +2 natural, +1 size)
+HP: '147'
+HD: (10d6+7d8+78)
+Saves: Fort +12, Ref +15, Will +15; +2 vs. illusions
+Fort: '12'
+Ref: '15'
+Will: '15'
+Save_Mods: +2 vs. illusions
+DefensiveAbilities: >-
+  defensive roll, defensive training (+4 dodge bonus to AC vs. giants), evasion,
+  greater invisibility, improved uncanny dodge, slippery mind
+DR: 10/adamantine (100 points)
+Speed: 30 ft.
+Melee:
+  - staff of frost +10/+5 (1d4-2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: +1 on attack rolls against goblinoid and reptilian humanoids
+SpellLikeAbilities:
+  header: Gnome Spell-Like Abilities (CL 17th; concentration +19)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound, prestidigitation, speak with animals Arcane
+        School Spell-Like Abilities (CL 10th; concentration +15)
+    - label: At Will
+      value: invisibility field (10 rounds/day)
+    - label: 8/day
+      value: >-
+        blinding ray Shadowdancer Spell-Like Abilities (CL 7th; concentration
+        +9)
+    - label: 3/day
+      value: shadow illusion (DC 13)
+    - label: 2/day
+      value: shadow call (DC 16)
+SpellsPrepared: >-
+  Illusionist Spells Prepared (CL 10th; concentration +15)  5th-feeblemind (DC
+  20), nightmare (DC 23), shadow evocation (DC 23), teleport  4th-charm monster
+  (DC 19), greater invisibility, phantasmal killer (DC 22), solid fog,
+  stoneskin  3rd-blink, displacement, fly, major image (DC 21), slow (DC 18) 
+  2nd-acid arrow, darkness, hypnotic pattern (DC 20), invisibility (2), resist
+  energy  1st-charm person (DC 16), color spray (DC 19), feather fall, mage
+  armor, magic missile (2), shield  0 (at will)-daze (DC 15), ghost sound (DC
+  18), mage hand, ray of frost
+AbilityScores:
+  - 6
+  - 14
+  - 16
+  - 20
+  - 10
+  - 14
+BaseAtk: '10'
+CMB: '7'
+CMD: '23'
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Fleet (2)
+  - Greater Spell Focus (illusion)
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Scribe Scroll
+  - Spell Focus (illusion)
+  - Toughness
+Skills:
+  - Acrobatics +20
+  - Bluff +20
+  - Craft (alchemy) +7
+  - Diplomacy +20
+  - Fly +17
+  - Knowledge (arcana) +23
+  - Knowledge (dungeoneering) +13
+  - Knowledge (geography) +13
+  - Knowledge (planes) +23
+  - Perception +20
+  - Perform (dance) +8
+  - Spellcraft +23
+  - Stealth +24
+  - Swim +2
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Gnome
+  - Sylvan
+SQ: >-
+  arcane bond (staff of frost), extended illusions (+5 rounds), hide in plain
+  sight, rogue talents (combat trick, fast stealth), shadow jump (80 feet/day),
+  summon shadow
+Source: NPC Codex
+IsTemplate: '0'
+ProhibitedSchools: divination, necromancy
+BeforeCombat: The shadowdancer casts mage armor and stoneskin.
+DuringCombat: >-
+  The shadowdancer casts greater invisibility and shield, then harries his foes
+  with phantasmal killer, hypnotic pattern, and spells from his staff of frost.
+Gear: restorative ointment (5 applications), staff of frost (10 charges)
+OtherGear: >-
+  amulet of natural armor +2, cloak of resistance +4, headband of vast
+  intelligence +2, ring of protection +3, diamond dust (worth 500 gp), 3,800 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor and stoneskin, the shadowdancer's statistics are AC 19,
+  touch 17, flat-footed 16; DR none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3910'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

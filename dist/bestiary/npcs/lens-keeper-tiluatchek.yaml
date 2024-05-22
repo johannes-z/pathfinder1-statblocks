@@ -1,0 +1,151 @@
+Name: Lens-Keeper Tiluatchek
+CR: '15'
+XP: '51200'
+Race: Intellect devourer
+Class: sorcerer 12
+Alignment: CE
+Size: Small
+Type: aberration
+Init: '11'
+Senses:
+  - blindsight 60 ft., detect magic
+  - Perception +21
+AC: 27, touch 18, flat-footed 20
+AC_Mods: (+7 Dex, +5 natural, +4 shield, +1 size)
+HP: '233'
+HD: (20 HD; 8d8+12d6+140+15 temporary)
+Saves: Fort +12, Ref +13, Will +16
+Fort: '12'
+Ref: '13'
+Will: '16'
+DefensiveAbilities: invisibility, mirror image
+DR: 10/adamantine and magic
+Immune: fire
+Resist: cold 20, electricity 20, sonic  20
+SR: '23'
+Weaknesses: vulnerability to protection from evil
+Speed: 30 ft.
+Melee:
+  - 4 claws +20 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: acidic ray (1d6+6 acid, 12/day), body thief, sneak attack +3d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +17)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At will
+      value: >-
+        confusion (DC 23, single target only), daze monster (DC 21, no HD
+        limit), inflict serious wounds (DC 22), invisibility, reduce size (as
+        reduce person but self only)
+    - label: 3/day
+      value: cure moderate wounds, globe of invulnerability
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +21)
+  values:
+    - label: 6th (4/day)
+      value: mass suggestion (DC 27)
+    - label: 5th (6/day)
+      value: cone of cold (DC 24), feeblemind (DC 26), teleport
+    - label: 4th (7/day)
+      value: >-
+        black tentacles, charm monster (DC 25), fire shield, phantasmal killer
+        (DC 23)
+    - label: 3rd (8/day)
+      value: >-
+        fireball (DC 22), fly, gentle repose, hold person (DC 24), nondetection,
+        tongues
+    - label: 2nd (8/day)
+      value: >-
+        bear's endurance, eagle's splendor, false life, mirror image, scorching
+        ray, see invisibility
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 22), disguise self (DC 20), enlarge person, magic
+        missile, shield, unseen servant
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, detect poison, ghost sound (DC 19), mage
+        hand, mending, open/close, prestidigitation, resistance
+AbilityScores:
+  - 12
+  - 25
+  - 23
+  - 18
+  - 14
+  - 28
+BaseAtk: '12'
+CMB: '12'
+CMD: '29'
+Feats:
+  - Combat Casting
+  - Empower Spell
+  - Eschew Materials
+  - Extend Spell
+  - Greater Spell Focus (enchantment)
+  - Improved Initiative
+  - Quicken Spell
+  - Silent Spell
+  - Spell Focus (enchantment)
+  - Still Spell
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Bluff +40
+  - Craft (alchemy) +17
+  - Diplomacy +22
+  - Disguise +29
+  - Fly +20
+  - Knowledge (arcana) +15
+  - Knowledge (history) +15
+  - Knowledge (local) +12
+  - Perception +21
+  - Sense Motive +20
+  - Spellcraft +22
+  - Stealth +23
+  - Use Magic Device +25
+Languages:
+  - Orvian
+  - Undercommon (cannot speak)
+  - telepathy  100 ft.
+SQ: bloodline arcana, long limbs (+10 ft.), unusual anatomy (25%)
+Source: Lost Cities Of Golarion
+IsTemplate: '0'
+Bloodline: Aberrant
+BeforeCombat: >-
+  Tiluatchek keeps false life active at all times. If expecting a fight, it
+  casts bear's endurance, eagle's splendor, invisibility, mirror image,
+  resistance, and shield. It always prefers to fight in a host body rather than
+  its natural form.
+DuringCombat: >-
+  If not already in a host, it tries to use its body thief ability. It favors
+  neutralizing threats with enchantments over direct conflict. In its natural
+  form, Tiluatchek cannot speak, and must use Silent Spell to cast.
+Morale: >-
+  If reduced below 50 hit points, Tiluatchek teleports away and devises a new
+  plan of attack.
+Gear: >-
+  (only if encountered in a host body) ring of protection +2, rod of splendor,
+  unguent of timelessness (2), 5,000 gp of luxury goods
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  If not given time to cast the spells listed in its Before Combat section,
+  Tiluatchek's stats are: AC 23, flat-footed 16; hp 178; Fort +11, Ref +12, Will
+  +16; acidic ray 10/day; concentration and save DCs reduced by 2; Con 19, Cha
+  24; Bluff +38, Diplomacy +20, Disguise +27, Use Magic Device +23
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1404'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,173 @@
+Name: Ruthazek, Nascent Demon Lord
+CR: '23'
+XP: '820000'
+Race: Ruthazek, Nascent Demon Lord
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft., detect good,  detect law, true seeing
+  - Perception +35
+Aura: rage (60 ft., DC 28), unholy aura (DC 23)
+AC: 41, touch 16, flat-footed 38
+AC_Mods: (+11 armor, +4 deflection, +3 Dex, +14 natural, -1 size)
+HP: '481'
+HD: (26d10+338)
+Saves: Fort +32, Ref +17, Will +25
+Fort: '32'
+Ref: '17'
+Will: '25'
+DefensiveAbilities: freedom of movement
+Immune: charm and compulsion effects, death effects, electricity, poison
+Resist: acid 30, cold 30, fire 30
+SR: '34'
+Speed: 40 ft., climb 40 ft., fly 40 ft. (good)
+Speed_Mod: base speed 60 ft. without armor
+Melee:
+  - >-
+    +3 unholy falchion +40/+35/+30/+25  (2d6+21/15-20), bite +32 (1d8+6), 2
+    claws  +32 (1d6+6)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: abyssal roar, rend (2 claws, 1d6+12)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +25)
+  values:
+    - label: Constant
+      value: >-
+        detect good, detect law, freedom of movement, true seeing, unholy aura
+        (DC 23)
+    - label: At will
+      value: >-
+        desecrate, dominate animal (DC 18), greater dispel magic, greater
+        teleport, telekinesis (DC 20), unholy blight (DC 19)
+    - label: 3/day
+      value: >-
+        baleful polymorph (DC 20), bestow curse (DC 19), insanity (DC 22),
+        reincarnate (into charau-ka only)
+    - label: 1/day
+      value: awaken, animal shapes, summon demons, symbol of insanity (DC 23)
+AbilityScores:
+  - 34
+  - 17
+  - 36
+  - 18
+  - 23
+  - 21
+BaseAtk: '26'
+CMB: '39'
+CMD: '56'
+Feats:
+  - Bleeding Critical
+  - Combat Reflexes
+  - Critical Focus
+  - Flyby Attack
+  - Greater Vital Strike
+  - Improved Bull Rush
+  - Improved Critical (falchion)
+  - Improved Initiative
+  - Improved Sunder
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Climb +17
+  - Fly +31
+  - Handle Animal +34
+  - Intimidate +34
+  - Knowledge (nature) +33
+  - Knowledge (planes) +33
+  - Perception +35
+  - Sense Motive +35
+  - Stealth +25
+  - Swim +35
+  - Use Magic Device +34
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - telepathy  300 ft.
+SQ: nascent demon lord traits
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Abyssal Roar (Su)
+    description: >-
+      Once every 1d4 rounds as a standard action, Ruthazek can unleash a
+      thunderous roar. This blast of unholy sound fills a 90-foot radius burst
+      centered on Ruthazek. Demons within this area (including Ruthazek) are
+      healed of 6d6 points of damage. All other creatures in the area take 20d6
+      points of sonic damage and are staggered and deafened for 1 round. A DC 36
+      Reflex save halves the sonic damage and negates the staggered and deafened
+      effects. The save DC is Constitution-based.
+  - name: Aura of Rage (Su)
+    description: >-
+      Ruthazek exudes an aura of jungle madness that has different effects on
+      allies or enemies within 60 feet of the nascent demon lord. Any creature
+      within this area must make a DC 28 Will save each round to avoid being
+      overwhelmed with rage for 1 round. While under the effects of this aura of
+      rage, a creature can take no action other than to physically attack the
+      closest creature-spellcasting, the use of supernatural abilities, and any
+      other act other than assault with a melee or ranged weapon is not
+      possible; the creature also gains a +4 unholy bonus on all damage done
+      with weapons and is immune to further mind-affecting effects other than
+      the aura of rage. If Ruthazek is aware of an ally in this area, he can
+      reflexively alter the effects of his aura of rage for that creature so
+      that the aura instead grants a +4 unholy bonus to Strength and
+      Constitution. This is a mind-affecting effect. The save DC is
+      Charisma-based. Nascent Demon Lord Traits A nascent demon lord is a
+      powerful demon that has not yet made the full transition from unique demon
+      to full demon lord of an Abyssal realm. Their traits are summarized here.
+      &#8226; Immunity to death effects, electricity, charm and compulsion
+      effects, and poison. &#8226; Resistance to acid 30, cold 30, and fire 30.
+      &#8226;
+  - name: Summon (Sp)
+    description: >-
+      Nascent demon lords can summon any demon or combination of demons whose
+      total combined CR is 20 or lower once per day. This ability always works,
+      and is equivalent to a 9th-level spell. &#8226; Telepathy 300 ft. &#8226;
+      A nascent demon lord's natural weapons, as well as any weapons it wields,
+      are treated as chaotic, epic, and evil for the purpose of resolving damage
+      reduction. &#8226; Nascent demon lords can grant spells to their
+      worshipers. Granting spells does not require any specific action on the
+      nascent demon lord's behalf. All nascent demon lords grant access to the
+      domains of Chaos and Evil&#8211;in addition, they grant access to two
+      other domains and a favored weapon that vary according to the nascent
+      demon lords' themes and interests.
+DuringCombat: >-
+  Ruthazek never enters combat without a small army of demons at his side; he
+  prefers to fight alongside nalfeshnees, vrocks, and glabrezus, in a
+  combination that equals a CR 20 threat&#8211;usually, these are demons he's
+  conjured with his ability to summon demons. If he can, he summons demonic aid
+  several rounds before he fears a fight is imminent. Otherwise, it is his first
+  action in combat. Once he has allies, Ruthazek opens with a roar, then moves
+  so that his aura of rage can affect as many targets as possible. Ruthazek
+  tends to rely upon his spell-like abilities in combat until enemies move up to
+  him, at which point he makes full attacks with his weapons. His hatred of
+  goodaligned divine spellcasters is exceeded only by his loathing of worshipers
+  of Angazhan&#8211;faced with a choice, he attacks these foes to the exclusion
+  of others unless faced with an obviously overwhelming danger.
+Morale: >-
+  Ruthazek flees combat if reduced to fewer than 100 hit points by teleporting
+  to safety&#8211;he only fights to the death if confronted in Usaro, his deep
+  Mwangi lair.
+Gear: heavy fortification +5 breastplate, +3 unholy falchion
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1465'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

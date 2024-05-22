@@ -1,0 +1,88 @@
+Name: Belhelmel
+CR: '3'
+XP: '800'
+Race: Belhelmel
+Alignment: NE
+Size: Medium
+Type: magical beast
+SubType: (daemon)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+2 Dex, +4 natural)
+HP: '28'
+HD: (3d8+12 plus 3)
+Saves: Fort +7, Ref +5, Will +3
+Fort: '7'
+Ref: '5'
+Will: '3'
+Speed: 30 ft.
+Speed_Mod: climb 30 ft.
+Melee:
+  - bite +5 (1d6+4 plus creeping necrosis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: daemonic glare, strangle
+AbilityScores:
+  - 16
+  - 15
+  - 18
+  - 3
+  - 15
+  - 14
+BaseAtk: '2'
+CMB: '5'
+CMD: 17 (21 vs. trip)
+Feats:
+  - Nimble Moves
+  - Toughness
+Skills:
+  - Acrobatics +4
+  - Climb +7
+  - Stealth +7
+  - Survival +2
+SQ: fondness for flesh
+Source: 'Rappan Athuk-Area 31: The Face in the Forest'
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Creeping Necrosis (Su)
+    description: >-
+      Type disease-injury; save DC 14; onset 1 day; effect 1 Str damage and 1
+      Dex damage and 1 Con damage as the flesh dies and peels away from the
+      bones; frequency 1/day; cure 2 consecutive saves; Special burning the
+      infected area with at least 2 points of fire damage within an hour of
+      infection reduces the save DC to 6.
+  - name: Daemonic Glare (Su)
+    description: >-
+      A belhelmel can stun its prey with its deep, unblinking eyes. As a
+      standard action, the belhelmel can attempt to stagger a single target
+      within 30 feet unless the target makes a DC14 Will save. The DC is
+      Constitution-based. This is a mind-affecting effect.
+  - name: Fondness for Flesh (Ex)
+    description: >-
+      If a sizable amount of fresh meat is available, the belhelmel has a 50%
+      chance at the start of its turn of breaking off its attack and proceeding
+      to the food instead (dead or unconscious creatures are considered food as
+      well). It continues to eat for 2 rounds per pound of flesh (up to 5
+      pounds) or until attacked.
+  - name: Strangle (Ex)
+    description: >-
+      By crushing the victim's windpipe between its long fingers, the belhelmel
+      can deliver a coup de grace using its natural weapon.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12467'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

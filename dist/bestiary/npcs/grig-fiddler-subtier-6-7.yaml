@@ -1,0 +1,112 @@
+Name: Grig Fiddler Subtier 6-7
+CR: '6'
+XP: '2400'
+Race: Grig
+Class: bard 5
+MonsterSource: Pathfinder RPG Bestiary 2 147
+Alignment: NE
+Size: Tiny
+Type: fey
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +9
+AC: 20, touch 18, flat-footed 14
+AC_Mods: (+2 armor, +5 Dex, +1 dodge, +2 size)
+HP: '36'
+HD: (6 HD; 1d6+5d8+11)
+Saves: >-
+  Fort +2, Ref +11, Will +6; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '2'
+Ref: '11'
+Will: '6'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DR: 5/cold iron
+SR: '16'
+Speed: 30 ft., fly 40 ft. (average)
+Melee:
+  - short sword +10 (1d3-1/19-20)
+Ranged:
+  - mwk longbow +11 (1d4-1/x3)
+Space: 2 1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: >-
+  bardic performance 18 rounds/day (countersong, distraction, fascinate [DC 18],
+  inspire competence +2, inspire courage +2), fiddle
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +15)
+  values:
+    - label: 3/day
+      value: >-
+        disguise self, entangle (DC 17), invisibility (self only), pyrotechnics
+        (DC 18)
+SpellsKnown:
+  header: Bard Spells Known (CL 5th; concentration +11)
+  values:
+    - label: 2nd (4/day)
+      value: heroism, mirror image, sound burst (DC 18)
+    - label: 1st (6/day)
+      value: >-
+        lesser confusion (DC 17), cure light wounds, hideous laughter (DC 17),
+        saving finaleAPG (DC 17)
+    - label: 0 (at will)
+      value: >-
+        detect magic, light, mage hand, open/close (DC 16), prestidigitation,
+        resistance
+AbilityScores:
+  - 9
+  - 21
+  - 13
+  - 12
+  - 11
+  - 22
+BaseAtk: '3'
+CMB: '6'
+CMD: '16'
+Feats:
+  - Dodge
+  - Lingering Performance
+  - Weapon Finesse
+Skills:
+  - Acrobatics +14 (+18 to jump)
+  - Bluff +15
+  - Diplomacy +15
+  - Escape Artist +14
+  - Fly +18
+  - Perception +9
+  - Perform (string instruments) +15
+  - Stealth +22
+  - Survival +6
+Languages:
+  - Common
+  - Gnome
+  - Sylvan
+SQ: bardic knowledge +2, lore master 1/day, versatile performance (string)
+Source: PFS S7-02
+IsTemplate: '0'
+BeforeCombat: >-
+  The grig fiddler casts invisibility and mirror image on himself, and heroism
+  on two of the quicklings. She positions herself behind cover.
+DuringCombat: >-
+  The grig uses inspire courage, and then uses his offensive spells against the
+  PCs. If an ally fails a saving throw, he casts saving finale.  orale The grig
+  flees or surrenders if he is reduced to 10 hit points or fewer or if he is
+  alone.
+Gear: potion of cure moderate wounds
+OtherGear: mwk longbow, short sword, leather armor, headband of alluring charisma +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12736'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

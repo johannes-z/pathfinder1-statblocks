@@ -1,0 +1,142 @@
+Name: Akazerath
+CR: '17'
+XP: '102400'
+Race: old red dragon
+MonsterSource: Pathfinder RPG Bestiary 98
+Alignment: CE
+Size: Gargantuan
+Type: dragon
+SubType: (fire)
+Init: '3'
+Senses:
+  - >-
+    blindsense 60 ft., darkvision 120 ft., low-light vision, see invisibility,
+    smoke vision
+  - Perception +28
+Aura: fire (10 ft., 1d6 fire), frightful presence (240 ft., DC 24)
+AC: 36, touch 5, flat-footed 36
+AC_Mods: (-1 Dex, +27 natural, +4 shield, -4 size)
+HP: '283'
+HD: (21d12+147)
+Saves: Fort +19, Ref +11, Will +16
+Fort: '19'
+Ref: '11'
+Will: '16'
+DR: 10/adamantine (110 points), 10/magic
+Immune: fire, paralysis, sleep
+Resist: cold 20, electricity 20
+SR: '28'
+Weaknesses: vulnerable to cold
+Speed: 40 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +29 (4d6+18/19-20), 2 claws +29 (2d8+12), 2 wings +27 (2d6+6), tail
+    slap +27 (2d8+18)
+Space: 20 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, 16d10 fire damage, Reflex DC 27 half, usable every
+  1d4 rounds), crush (4d6+18, DC 27), manipulate flames, tail sweep (2d6+18, DC
+  27)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 21st; concentration +25)
+  values:
+    - label: At Will
+      value: detect magic, pyrotechnics (DC 16), suggestion (DC 17), wall of fire
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11st; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: hold monster (DC 19), waves of fatigue
+    - label: 4th (7/day)
+      value: fire shield, solid fog, stoneskin
+    - label: 3rd (7/day)
+      value: dispel magic, displacement, haste, ray of exhaustion (DC 17)
+    - label: 2nd (7/day)
+      value: >-
+        glitterdust (DC 16), invisibility, mirror image, see invisibility, touch
+        of idiocy
+    - label: 1st (7/day)
+      value: >-
+        grease (DC 15), magic missile, ray of enfeeblement (DC 15), shield,
+        unseen servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, flare (DC 14), ghost sound (DC 14), mage
+        hand, message, open/close, prestidigitation, read magic
+AbilityScores:
+  - 35
+  - 8
+  - 25
+  - 18
+  - 19
+  - 18
+BaseAtk: '21'
+CMB: '37'
+CMD: 46 (50 vs. trip)
+Feats:
+  - Critical Focus
+  - Flyby Attack
+  - Greater Vital Strike
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Staggering Critical
+  - Stunning Critical
+  - Vital Strike
+Skills:
+  - Appraise +22
+  - Bluff +28
+  - Diplomacy +28
+  - Fly +9
+  - Intimidate +28
+  - Knowledge (arcana) +28
+  - Knowledge (local) +18
+  - Perception +28
+  - Sense Motive +23
+  - Spellcraft +28
+  - Stealth +11
+Languages:
+  - Auran
+  - Common
+  - Draconic
+  - Giant
+  - Ignan
+  - Orc
+Source: AP 96
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Akazerath casts mirror image, see invisibility, shield, and stoneskin on
+  himself before battle.
+DuringCombat: >-
+  Akazerath casts displacement and haste on himself and Volstus at the beginning
+  of combat, and fire shield (warm shield) on himself. The dragon uses his
+  breath weapon at range while the Storm Tyrant uses his spell-like abilities.
+  Once they enter melee combat, Akazerath makes Flyby Attacks with his bite
+  while Volstus make Ride-By Attacks.
+Morale: >-
+  Dominated by Volstus, Akazerath is bound to unquestioningly obey his master in
+  combat, fighting to the death if so ordered. If freed from the influence of
+  the Orb of Red Dragonkind, however, the demoralized dragon is likely to flee
+  any opponent that has even the slightest chance of defeating him.
+Gear: >-
+  major ring of energy resistance (cold), major ring of energy resistance
+  (electricity), Huge exotic military saddle, diamond dust (worth 500 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: old
+CompanionFamiliarLink: '0'
+id: '7050'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

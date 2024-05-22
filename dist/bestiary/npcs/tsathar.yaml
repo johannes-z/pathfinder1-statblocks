@@ -1,0 +1,118 @@
+Name: Tsathar
+CR: '2'
+XP: '600'
+Race: Tsathar
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+SubType: (aquatic)
+Init: '6'
+Senses:
+  - darkvision 90 ft., scent
+  - Perception +9
+AC: 18, touch 12, flat-footed 16
+AC_Mods: (+2 armor, +2 Dex, +4 natural)
+HP: '13'
+HD: (2d10+2)
+Saves: Fort +1, Ref +5, Will +4
+Fort: '1'
+Ref: '5'
+Will: '4'
+DefensiveAbilities: slimy
+Weaknesses: light blindness
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - >-
+    shortspear +3 (1d6+1) or kukri +3 (1d4+1/18-20) or 2 claws +3 (1d6+1), and
+    bite +3 (1d4+1)
+Ranged:
+  - shortspear +4 (1d6+1) or net +4 touch (entangled)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: leap, summon hydrodaemon
+AbilityScores:
+  - 13
+  - 14
+  - 12
+  - 12
+  - 12
+  - 10
+BaseAtk: '2'
+CMB: '3'
+CMD: 15 (27 vs. grapple)
+Feats:
+  - Skill Focus (Perception)B
+  - Improved Initiative
+Skills:
+  - Acrobatics +3 (+17 long jumping
+  - +27 high jumping)
+  - Climb +5
+  - Escape Artist +15
+  - Perception +9
+  - Stealth +6
+  - Swim +14
+RacialMods: >-
+  +12 Escape Artist, +14 Acrobatics when long jumping or +24 Acrobatics when
+  high jumping
+Languages:
+  - Abyssal
+  - Tsathar
+SQ: amphibious, implant
+Source: Sword of Air-Chapter 8
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Implant (Ex)
+    description: >-
+      Tsathar are sexless, reproducing by injecting eggs into living hosts. An
+      egg can be implanted only into a helpless host creature. The host must be
+      of Small size or larger. Giant frogs, bred for this very purpose, are the
+      most common host. Implanting an egg requires one minute to perform.
+      Accompanying the egg is an anaesthetizing poison that causes the host to
+      fall unconscious for the two-week gestation period of the egg unless the
+      host succeeds on a DC 20 Fortitude saving throw; this save DC includes a
+      +8 racial bonus. If the save succeeds, the host remains conscious, but is
+      violently ill (-10 penalty on attack rolls, saving throws, ability checks,
+      and skill checks) 24 hours before the eggs hatch. When the eggs mature,
+      the young tsathar emerges from the host, killing it in the process. A
+      remove disease spell rids the victim any implanted eggs. A DC 20 Heal
+      check can be attempted to surgically extract an egg from a host. If the
+      check fails, the healer can try again, but each attempt (successful or
+      not) deals 1d6 points of damage to the patient.
+  - name: Leap (Ex)
+    description: >-
+      Tsathar are incredible jumpers, able to leap up to 30 feet horizontally or
+      10 feet vertically. They have a +14 racial bonus on horizontal jumps, or
+      +24 on vertical jumps, and they do not need to make a 10-foot minimum
+      running start before jumping to avoid doubling the jumping DCs. Tsathar
+      can always take 10 when making an Acrobatics check to jump. When a tsathar
+      begins its round by jumping next to an opponent it can make a full attack
+      in the same round. A tsathar wearing medium or heavy armor or carrying a
+      medium or heavy load cannot use this ability.
+  - name: Summon Hydrodaemon (Sp)
+    description: >-
+      A tsathar with at least five levels of cleric can, once per day, attempt
+      to summon a hydrodaemon (q.v.) with a 40% chance of success. This ability
+      is the equivalent of a 4th-level spell.
+  - name: Slimy (Ex)
+    description: >-
+      Because tsathar continuously cover themselves with muck and slime, they
+      are difficult to grapple. Webs, magic or otherwise, do not affect tsathar,
+      and they usually can wriggle free from most other forms of confinement.
+      This grants them a +12 racial bonus to their CMD to escape grapples, and
+      to their Escape Artist checks.
+Gear: leather armor, shortspear, kukri, net
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12818'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

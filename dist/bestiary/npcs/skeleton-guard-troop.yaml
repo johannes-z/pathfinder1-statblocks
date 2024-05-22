@@ -1,0 +1,76 @@
+Name: Skeleton Guard Troop
+CR: '7'
+XP: '3200'
+Race: troop
+MonsterSource: Pathfinder RPG Bestiary 251, 250; Pathfinder RPG Bestiary 6 265
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (troop)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 20, touch 13, flat-footed 17
+AC_Mods: (+4 armor, +3 Dex, +2 natural, +1 shield)
+HP: '82'
+HD: (11d8+33)
+HP_Mods: fast healing 5
+Saves: Fort +6, Ref +6, Will +7
+Fort: '6'
+Ref: '6'
+Will: '7'
+DefensiveAbilities: channel resistance +4, deathless, troop traits
+DR: 5/bludgeoning
+Immune: cold, undead traits
+Speed: 30 ft.
+Melee:
+  - troop (3d6+5)
+Space: 20 ft.
+Reach: 5 ft.
+SpecialAttacks: volley
+AbilityScores:
+  - 20
+  - 17
+  - —
+  - —
+  - 11
+  - 17
+BaseAtk: '8'
+CMB: '13'
+CMD: 26 (can't be tripped)
+Feats:
+  - Improved InitiativeB
+Source: AP 142
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Volley (Ex)
+    description: >-
+      A skeleton guard troop can fire a volley of arrows as a standard action.
+      This attack takes the form of up to two lines with a range of 100 feet.
+      These lines can start from the corner of any square in the troop's space.
+      Each creature in any of these lines takes 3d6 points of piercing damage
+      (Reflex DC 18 half). The save DC is Dexterity-based.
+DuringCombat: >-
+  The skeleton guard troop shoots volleys at creatures approaching the
+  barricades. As soon as a creature reaches the barricade, or when otherwise
+  commanded by Warden Ossua, the skeleton guard troop rushes from behind cover
+  to swarm over its foes.
+Morale: The skeleton guard troop fights until it is destroyed.
+Gear: chain shirts (2d6), short swords (2d6), shortbows (2d6)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: bloody@skeleton|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12502'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

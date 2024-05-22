@@ -1,0 +1,110 @@
+Name: Qadiran Assassin Subtier 5-6
+CR: '3'
+XP: '800'
+Race: Human
+Class: rogue (poisoner) 4
+MonsterSource: Pathfinder RPG Advanced Player's Guide 134
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +8
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+4 armor, +4 Dex)
+HP: '25'
+HD: (4d8+4)
+Saves: Fort +1, Ref +8, Will +2
+Fort: '1'
+Ref: '8'
+Will: '2'
+DefensiveAbilities: evasion, uncanny dodge
+Speed: 30 ft.
+Melee:
+  - mwk short sword +8 (1d6+2/19-20 plus lasting poison)
+Ranged:
+  - dart +8 (1d4+2 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +2d6
+AbilityScores:
+  - 14
+  - 18
+  - 10
+  - 13
+  - 12
+  - 8
+BaseAtk: '3'
+CMB: '7'
+CMD: '19'
+Feats:
+  - Agile Maneuvers
+  - Weapon Finesse
+  - Weapon Focus (dart)
+Skills:
+  - Acrobatics +11
+  - Bluff +6
+  - Climb +9
+  - Disguise +6
+  - Escape Artist +11
+  - Knowledge (local) +8
+  - Perception +8
+  - Sense Motive +8
+  - Sleight of Hand +11
+  - Stealth +11
+Languages:
+  - Common
+  - Qadiran
+SQ: master poisoner, poison use, rogue talents (surprise attack, lasting poison)
+Source: PFS S3-Special
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Lasting Poison (Ex)
+    description: >-
+      A rogue with this talent can apply poison to a weapon in such a way that
+      it is effective for two successful attacks instead of one. The poison has
+      a reduced effect, however, and saves made against the poison receive a +2
+      circumstance bonus. Applying poison in this way requires a full-round
+      action, or a standard action if the rogue has the swift poison talent.
+  - name: Master Poisoner (Ex)
+    description: >-
+      A poisoner can use Craft (alchemy) to change the type of a poison. Doing
+      so requires 1 hour of work with an alchemist's lab and a Craft (alchemy)
+      skill check with a DC equal to the poison's DC. If successful, the
+      poison's type changes to contact, ingested, inhaled, or injury. If the
+      check fails, the poison is ruined. The poisoner also receives a bonus on
+      Craft (alchemy) skill checks when working with poison equal to 1/2 her
+      rogue level. This ability replaces trap sense.
+  - name: Poison (Ex)
+    description: >-
+      Large scorpion poison-injury; save Fort DC 17; frequency 1/round for 6
+      rounds; effect 1d2 Str; cure 1 save.
+BeforeCombat: >-
+  The assassins stealthily approach behind opponents, attempting to poison them
+  with darts before entering melee.
+DuringCombat: >-
+  The assassins attempts to maneuver into flanking positions, using Acrobatics
+  checks to navigate around the furniture.
+Morale: >-
+  If an assassin's allies fall and she drops to fewer than 7 hit points, the
+  assassin attempts to flee. If caught, the captured assassin attempts to kill
+  herself before she can be forced to talk.
+Gear: Large scorpion poison (3 doses)
+OtherGear: +1 studded leather, dart, masterwork short sword, 315 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: poisoner
+CompanionFamiliarLink: '0'
+id: '6857'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,111 @@
+Name: Black Spot
+CR: 1/2
+XP: '200'
+Alignment: NE
+Size: Tiny
+Type: magical beast
+SubType: (aquatic)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +0
+AC: 15, touch 13, flat-footed 14
+AC_Mods: (+1 Dex, +2 natural, +2 size)
+HP: '5'
+HD: (1d10)
+Saves: Fort +2, Ref +3, Will +0
+Fort: '2'
+Ref: '3'
+Will: '0'
+DefensiveAbilities: stability
+Immune: mind-affecting effects
+Resist: cold 5
+Speed: 20 ft., swim 20 ft.
+Melee:
+  - bite +4 (1d3-5), spines -2 (1d2-5 plus curse)
+Space: 2 1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: leaping charge
+AbilityScores:
+  - 1
+  - 13
+  - 10
+  - —
+  - 10
+  - 15
+BaseAtk: '1'
+CMB: '0'
+CMD: 5 (13 vs. bull rush or trip)
+Feats:
+  - Weapon Finesse
+Skills:
+  - Acrobatics +9
+  - Swim +3
+RacialMods: +8 Acrobatics
+Languages:
+  - none
+SQ: amphibious
+Environment: temperate or warm oceans or coastlines
+Organization: solitary, pair, or cluster (2-5)
+Treasure: none
+Description_Visual: >-
+  The spines of this sizable sea urchin bristle, revealing a strange, multipart
+  beak gnashing in their midst.
+Group: Sea Urchin
+Source: AP 56
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Curse (Su)
+    description: >-
+      Instead of poison, the spines of black spots bear what is for some a minor
+      annoyance, but for sailors nearly a death sentence. The save DC is
+      Charisma-based. Spines-injury; save Fort DC 13; onset 1 round; frequency
+      constant; effect target takes a -10 penalty on Swim checks and cannot hold
+      its breath. If forced underwater, the target must save each round (Core
+      Rulebook 445) or drown.
+  - name: Leaping Charge (Ex)
+    description: >-
+      A black spot ignores rough terrain and gaps less than 10 feet wide when
+      charging. Additionally, its charges do no provoke attacks of opportunity.
+  - name: Spines (Ex)
+    description: >-
+      A black spot's spines can swivel to face any approaching creature. Any
+      creature that attacks a black spot urchin with an unarmed strike or a
+      natural attack is automatically attacked by the black spot's spines as an
+      immediate action. If the spines hit, they can curse the target as well.
+  - name: Stability (Ex)
+    description: >-
+      All giant urchins and similar creatures-like black spots-receive a +8
+      bonus to CMD when resisting a bull rush or trip attempt.
+Description:
+  - >-
+    Though not actually intelligent, black spots are terrifyingly adept at
+    locating prey and potential threats, leaping forth from tide pools in great
+    bounds to skewer their victims. However, the true danger of a black spot
+    urchin comes not from its gnashing, star-shaped beak or its needle-pointed
+    spines, but rather from its weird magical nature.
+  - >-
+    Instead of simply poisoning those it punctures, a black spot urchin in fact
+    curses them, inhibiting their ability to swim. How exactly black spots came
+    by such a strange ability and what they gain from drowning their victims
+    days or even years after first encountering them are anyone's guess, but
+    sailors stung by one of the beasts often refuse to go to sea again for fear
+    of their lives.
+  - >-
+    A black spot urchin is typically several feet in diameter, but is mostly
+    made of its long spines and so weighs only a few pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2879'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

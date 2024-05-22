@@ -1,0 +1,120 @@
+Name: The Headless Lord
+CR: '11'
+XP: '12800'
+Race: ogre  undead lord
+Class: fighter 6
+MonsterSource: Pathfinder RPG Bestiary 289, Tome of Horrors Complete 748
+Alignment: NE
+Size: Large
+Type: undead
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+Aura: desecration (20-ft. radius)
+AC: 28, touch 11, flat-footed 26
+AC_Mods: (+10 armor, +2 Dex, +7 natural, -1 size)
+HP: '126'
+HD: (12 HD; 6d8+6d10+66)
+Saves: Fort +14, Ref +9, Will +10; +2 vs. fear
+Fort: '14'
+Ref: '9'
+Will: '10'
+Save_Mods: +2 vs. fear
+DefensiveAbilities: bravery +2 channel resistance +4
+DR: 10/magic
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - >-
+    runechill hatchet +21/+16 (1d8+15/19-20/x3), runechill hatchet +21/+16
+    (1d8+10/19-20/x3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: create spawn, quick strikes, weapon training (axes +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: 1/day
+      value: darkness, fear (DC 18), summon (level 5, 9 human fast zombies)
+AbilityScores:
+  - 31
+  - 15
+  - —
+  - 10
+  - 14
+  - 18
+BaseAtk: '10'
+CMB: '21'
+CMD: '33'
+Feats:
+  - Cleave
+  - Command Undead
+  - Great Fortitude
+  - Improved Bull Rush
+  - Improved Critical (handaxe)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+  - Two-Weapon Fighting
+  - Weapon Focus (handaxe)
+  - Weapon Specialization (handaxe)
+Skills:
+  - Climb +21
+  - Intimidate +19
+  - Perception +17
+Languages:
+  - Giant
+  - undead telepathy 100 ft.
+SQ: armor training 1, headless
+Source: RotRL-AE-Fortress of the Stone Giants
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Undead (Su)
+    description: >-
+      The headless lord can use its Command Undead feat seven times per day to
+      command any type of zombie as if it were a 12th-level cleric.
+  - name: Create Spawn (Su)
+    description: >-
+      A creature slain by the Headless Lord rises in 1d4 minutes as a fast
+      zombie under the Headless Lord's control.
+  - name: Desecration Aura (Su)
+    description: >-
+      The Headless Lord constantly projects a 20-foot-radius aura that functions
+      as a desecrate spell.
+  - name: Headless (Ex)
+    description: >-
+      Although the Headless Lord lacks a head, it can still hear and see and
+      speak as if it had one.
+  - name: Undead Telepathy (Su)
+    description: >-
+      The Headless Lord can communicate telepathically with any other undead
+      creature within 100 feet. It can use this telepathic communication to
+      direct mindless undead as a free action.
+Gender: Male
+DuringCombat: >-
+  The Headless Lord orders its four hill giant zombies to attack as soon as foes
+  enter this room, or if it sees someone outside preparing to use ranged
+  attacks. The Headless Lord casts fear on the PCs once it can catch at least
+  three of them in the area of effect. It summons nine fast zombies to help
+  flank foes, block charges, or provide cover, keeping as many as it can within
+  its aura of desecration.
+Morale: The Headless Lord fights until destroyed.
+Gear: +1 full plate, runechill hatchets (2)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: fast zombie|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3257'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

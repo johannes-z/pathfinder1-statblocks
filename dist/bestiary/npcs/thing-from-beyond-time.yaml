@@ -1,0 +1,100 @@
+Name: Thing From Beyond Time
+CR: '18'
+XP: '-'
+Race: hound of tindalos
+MonsterSource: Pathfinder RPG Bestiary 2 292, 158
+Alignment: NE
+Size: Gargantuan
+Type: outsider
+SubType: (evil, extraplanar)
+Init: '10'
+Senses:
+  - darkvision 120 ft.
+  - Perception +26
+AC: 33, touch 13, flat-footed 26
+AC_Mods: (+6 Dex, +1 dodge, +20 natural, -4 size)
+HP: '280'
+HD: (16d10+192)
+Saves: Fort +21, Ref +18, Will +12
+Fort: '21'
+Ref: '18'
+Will: '12'
+DR: 10/magic
+Immune: mind-affecting effects, poison
+Speed: 40 ft.
+Speed_Mod: air walk
+Melee:
+  - >-
+    bite +29 (8d6+17/19-20), 2 claws +29 (4d6+17), tongue +24 (2d8+8 plus 1d4
+    Wisdom drain)
+Space: 20 ft.
+Reach: 15 ft.
+SpecialAttacks: ripping gaze
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At Will
+      value: fog cloud, invisibility, locate creature
+    - label: 3/day
+      value: >-
+        dimensional anchor, discern location, greater scrying (DC 22), haste,
+        slow (DC 18)
+AbilityScores:
+  - 45
+  - 22
+  - 32
+  - 20
+  - 25
+  - 20
+BaseAtk: '16'
+CMB: '37'
+CMD: 54 (58 vs. trip)
+Feats:
+  - Ability Focus (ripping gaze)
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Natural Attack (bite)
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Acrobatics +25
+  - Intimidate +24
+  - Knowledge (arcana) +24
+  - Knowledge (engineering) +21
+  - Knowledge (geography) +21
+  - Knowledge (history) +21
+  - Knowledge (planes) +24
+  - Perception +26
+  - Sense Motive +26
+  - Stealth +13
+  - Survival +26
+Languages:
+  - Aklo
+SQ: angled entry, otherworldly mind
+Source: AP 138
+IsTemplate: '0'
+DuringCombat: >-
+  The Thing from Beyond Time casts haste on itself on the first round of combat.
+  It then attacks the PCs, casting slow on them as soon as it can catch all of
+  them in the area of effect.
+Morale: The Thing from Beyond Time fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11983'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

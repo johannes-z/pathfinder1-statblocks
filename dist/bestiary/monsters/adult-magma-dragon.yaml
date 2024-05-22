@@ -1,0 +1,148 @@
+Name: Adult Magma Dragon
+CR: '12'
+XP: '19200'
+Alignment: CN
+Size: Large
+Type: dragon
+SubType: (extraplanar, fire)
+Init: '5'
+Senses:
+  - dragon senses
+  - Perception +22
+Aura: frightful presence (180 ft., DC 20)
+AC: 29, touch 10, flat-footed 28
+AC_Mods: (+1 Dex, +19 natural, -1 size)
+HP: '172'
+HD: (15d12+75)
+Saves: Fort +16, Ref +10, Will +15
+Fort: '16'
+Ref: '10'
+Will: '15'
+DR: 5/magic
+Immune: fire, paralysis, sleep
+SR: '23'
+Weaknesses: vulnerable to cold
+Speed: 40 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +22 (2d6+12/19-20 plus 6 fire), 2 claws +22 (1d8+8/19-20), tail slap
+    +17 (1d8+12), 2 wings +17 (1d6+4)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (40-ft. cone, 12d6 fire, DC 22)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +18)
+  values:
+    - label: At Will
+      value: burning hands (DC 14), scorching ray, wall of fire
+SpellsKnown:
+  header: Spells Known (CL 7th; concentration +10)
+  values:
+    - label: 3rd (5/day)
+      value: dispel magic, fireball (DC 16)
+    - label: 2nd (7/day)
+      value: >-
+        dust of twilight*, flaming sphere (DC 15), glitterdust (DC 15),
+        pyrotechnics (DC 15)
+    - label: 1st (7/day)
+      value: feather fall, flare burst* (DC 14), grease (DC 14), shield, true strike
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 13), detect magic, detect poison, open/ close, read magic,
+        spark*, touch of fatigue
+AbilityScores:
+  - 27
+  - 12
+  - 21
+  - 18
+  - 18
+  - 17
+BaseAtk: '15'
+CMB: '24'
+CMD: 35 (39 vs. trip)
+Feats:
+  - Great Fortitude
+  - Improved Critical (bite)
+  - Improved Critical (claws)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Iron Will
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Acrobatics +16 (+20 jump)
+  - Climb +26
+  - Escape Artist +16
+  - Fly +13
+  - Intimidate +21
+  - Perception +22
+  - Sense Motive +22
+  - Sleight of Hand +16
+  - Stealth +15
+  - Swim +26
+Languages:
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Ignan
+SQ: superheated
+Environment: any mountains or underground (Plane of Fire)
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  Between this dragon's jet-black scales run glowing rivulets of lava, and veins
+  aglow with heat shine in the membranes of its wings.
+Group: Primal Dragon
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Magma Tomb (Su)
+    description: >-
+      Once per day, a great wyrm magma dragon can spit lava onto a target within
+      120 feet, dealing damage normally for its breath weapon. This magma cools
+      instantly-it does not continue doing damage at this point but does entrap
+      the victim (see universal monster rules in appendix; DC equals the
+      dragon's breath weapon save DC, 3d6 minutes, hardness 8, hp 45).
+  - name: Magma Breath (Su)
+    description: >-
+      Three times per day, an ancient or older magma dragon can breathe a cone
+      of lava instead of fire. The damage is unchanged, but the magma clings to
+      those it damages, dealing half damage each round thereafter for 1d3
+      rounds. After this magma cools, it crumbles to dust. Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      A magma dragon gains the following spell-like abilities, usable at will
+      (unless indicated otherwise) on reaching the listed age category. Very
+      young-burning hands; Juvenile-scorching ray; Adult- wall of fire; Old-fire
+      shield (warm shield, constant); Ancient-delayed blast fireball (3/day);
+      Great wyrm-wall of lava*.
+  - name: Superheated (Su)
+    description: >-
+      At young age and older, a magma dragon's bite attack deals additional fire
+      damage equal to its age category.
+Description:
+  - >-
+    Temperamental and prone to violent outbursts, magma dragons are regarded by
+    most other dragons as dangerously insane-an assumption that, more often than
+    not, proves correct. One can rarely predict a magma dragon's state of mind
+    until it either attacks or attempts to engage in conversation. For their
+    part, magma dragons can justify all of their actions-they just rarely feel
+    the need to do so.
+Note: '* This spell is from the Pathfinder RPG Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Adult Magma Dragon
+id: '1180'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

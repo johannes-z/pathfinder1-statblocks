@@ -1,0 +1,110 @@
+Name: Lady Mischanna
+CR: '10'
+XP: '9600'
+Race: knight gaunt
+Class: antipaladin 8
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+Aura: cowardice, despair, evil (10 ft.)
+AC: 30, touch 11, flat-footed 29
+AC_Mods: (+10 armor, +1 Dex, +4 natural, +5 shield)
+HP: '106'
+HD: (8d10+24 plus 4d8+12 plus 8)
+Saves: Fort +13, Ref +7, Will +16
+Fort: '13'
+Ref: '7'
+Will: '16'
+Immune: undead traits
+Resist: cold 10
+SR: '14'
+Speed: 20 ft.
+Melee:
+  - >-
+    nine lives stealer +18/+13/+8 (1d8+6 plus bleed/17-20), 2 claws +14 (1d4+3
+    plus bleed)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bleed (1d4), channel negative energy 3/ day (DC 17, 4d6), cruelties (DC 17;
+  dazed, staggered), fiendish boon 1/day (weapon +2, 8 min./day), smite good
+  3/day (antipaladin; +3 to hit, +8 to damage), smite good 1/day (knight gaunt;
+  +3 to hit, +12 to damage), touch of corruption 7/day (4d6 damage)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th)
+  values:
+    - label: At will
+      value: detect good
+SpellsPrepared: >-
+  Spells Prepared (CL 5th)  2nd-invisibility, vestment of the championUM  
+  1st-command (DC 14), death knell (DC 14)
+AbilityScores:
+  - 16
+  - 12
+  - —
+  - 11
+  - 16
+  - 17
+BaseAtk: '11'
+CMB: +14 (+16 to sunder)
+CMD: 25 (27 vs. sunder)
+Feats:
+  - Cleave
+  - Improved Critical (longsword)
+  - Improved Sunder
+  - Power Attack
+  - Shield Focus
+  - Weapon Focus (longsword)
+Skills:
+  - Bluff +9
+  - Diplomacy +5
+  - Intimidate +16
+  - Perception +12
+  - Ride +2
+  - Sense Motive +8
+  - Stealth +3
+Languages:
+  - Common
+SQ: unholy resilience, weapon attunement
+Source: Sword of Air-Chapter 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Smite Good (Su)
+    description: >-
+      Once per day, a knight gaunt can smite good. As a swift action, the knight
+      gaunt chooses one target within sight. If this target is good, the knight
+      gaunt adds its Charisma bonus on its attack rolls and adds its Hit Dice on
+      all damage rolls made against that target. If the target is an outsider
+      with the good subtype or a good-aligned creature with levels of cleric of
+      paladin, the bonus to damage on the first successful attack is doubled.
+      Regardless of the target, smite good attacks automatically bypass any DR
+      the creature might possess. Additionally, the knight gaunt gains a
+      deflection bonus equal to its Charisma bonus to AC against attacks made by
+      the target of the smite. The smite good remains in effect until the target
+      of the smite is dead or until 24 hours have passed.
+  - name: Weapon Attunement (Su)
+    description: >-
+      A knight gaunt gains a +1 bonus on attack rolls and damage rolls with any
+      melee weapon it wields. Additionally, it gains the bleed special attack
+      with any melee weapon it wields.
+Gender: Female
+Gear: +1 full plate, +2 heavy steel shield, nine lives stealer
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12607'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

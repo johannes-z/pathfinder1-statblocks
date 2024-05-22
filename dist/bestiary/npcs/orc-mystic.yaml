@@ -1,0 +1,92 @@
+Name: Orc Mystic
+CR: '2'
+XP: '600'
+Race: Orc
+Class: cleric 3
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (orc)
+Init: '-1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+AC: 15, touch 9, flat-footed 15
+AC_Mods: (+6 armor, -1 Dex)
+HP: '20'
+HD: (3d8+3)
+Saves: Fort +5, Ref +1, Will +5
+Fort: '5'
+Ref: '1'
+Will: '5'
+DefensiveAbilities: ferocity
+Weaknesses: light sensitivity
+Speed: 20 ft.
+Melee:
+  - battleaxe +5 (1d8+3/x3)
+Ranged:
+  - javelin +1 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 12, 2d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 3rd; concentration +4)
+  values:
+    - label: 4/day
+      value: copycat (3 rounds), touch of evil (1 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 3rd; concentration +4)   2nd-bull's strength,
+  invisibilityD   1st-bane (DC 12), magic weapon, murderous commandUM (DC 12),
+  protection from goodD   0 (at will)-bleed (DC 11), detect magic, guidance,
+  read magic
+SpellDomains: Evil, Trickery
+AbilityScores:
+  - 17
+  - 8
+  - 12
+  - 8
+  - 13
+  - 12
+BaseAtk: '2'
+CMB: '5'
+CMD: '14'
+Feats:
+  - Combat Casting
+  - Skill Focus (Stealth)
+Skills:
+  - Knowledge (religion) +4
+  - Perception +2
+  - Stealth +4
+Languages:
+  - Common
+  - Orc
+SQ: weapon familiarity
+Source: Monster Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The mystic casts bull's strength on one ally and magic weapon on one ally's
+  weapon.
+DuringCombat: >-
+  After casting invisibility on himself, the mystic gets into an advantageous
+  position while his allies battle the enemy. He typically casts bane first,
+  followed by murderous command, targeting whichever opponent looks the
+  strongest.
+Gear: scroll of sound burst, scroll of summon monster II
+OtherGear: >-
+  breastplate, battleaxe, javelins (4), cloak of resistance +1, wooden holy
+  symbol, 135 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6561'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

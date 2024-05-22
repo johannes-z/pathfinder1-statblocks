@@ -1,0 +1,93 @@
+Name: Snorri Stone-Eye
+CR: '4'
+XP: '1200'
+Race: draugr captain
+Class: fighter 1
+MonsterSource: Pathfinder RPG Bestiary 2 110
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (water)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+AC: 18, touch 10, flat-footed 14
+AC_Mods: (+4 armor, +4 Dex, +4 natural, -4 squeezing)
+HP: '39'
+HD: (4 HD; 3d8+1d10+21)
+Saves: Fort +7, Ref +5, Will +5
+Fort: '7'
+Ref: '5'
+Will: '5'
+DR: 5/bludgeoning or slashing
+Immune: undead traits
+Resist: fire 10
+Weaknesses: squeezing
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - mwk greataxe +8 (1d12+10/x3 plus energy drain)
+  - slam +6 (1d10+10 plus energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: energy drain (1 level, DC 15)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: 3/day
+      value: obscuring mist
+AbilityScores:
+  - 25
+  - 18
+  - —
+  - 14
+  - 14
+  - 18
+BaseAtk: '3'
+CMB: '10'
+CMD: '24'
+Feats:
+  - Power Attack
+  - Toughness
+  - Weapon Focus (greataxe)
+Skills:
+  - Climb +13
+  - Intimidate +11
+  - Perception +9
+  - Profession (sailor) +9
+  - Stealth +10
+  - Swim +19
+Languages:
+  - Aquan
+  - Common
+  - Giant
+  - Skald (cannot speak)
+Source: AP 50
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: As soon as he hears movement on the deck above, Snorri casts obscuring mist.
+DuringCombat: >-
+  Snorri swings his greataxe at the closest foe, attempting to drain levels from
+  his living foes.
+Morale: >-
+  Snorri fights until destroyed, pursuing opponents for as far as his chain will
+  reach.
+Gear: >-
+  masterwork chain shirt, masterwork greataxe, nacreous gray sphere ioun stone
+  (Pathfinder Campaign Setting: Seekers of Secrets 45; provides immunity to
+  magical aging and protects the wearer from ability score penalties from aging)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1867'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

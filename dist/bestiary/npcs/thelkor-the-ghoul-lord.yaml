@@ -1,0 +1,120 @@
+Name: Thelkor The Ghoul Lord
+CR: '6'
+XP: '2400'
+Race: Ghoul
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+Aura: desecration aura
+AC: 19, touch 13, flat-footed 16
+AC_Mods: (+3 Dex, +6 natural)
+HP: '42'
+HD: (5d8+20)
+Saves: Fort +5, Ref +4, Will +7; +4 vs. channeled energy
+Fort: '5'
+Ref: '4'
+Will: '7'
+Save_Mods: +4 vs. channeled energy
+DefensiveAbilities: channel resistance +4
+DR: 5/magic
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +6 (1d6+3 plus disease and paralysis), and 2 claws +6 (1d6+3 plus
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, disease, paralysis (1d4+1 elves are immune, DC 16)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th)
+  values:
+    - label: 1/day
+      value: darkness, fear (DC 18), summon undead (7 HD)
+AbilityScores:
+  - 17
+  - 17
+  - —
+  - 15
+  - 16
+  - 18
+BaseAtk: '3'
+CMB: '6'
+CMD: '19'
+Feats:
+  - Cleave
+  - Command Undead (7/day
+  - DC 16)
+  - Power Attack
+  - Weapon Finesse
+Skills:
+  - Acrobatics +8
+  - Climb +11
+  - Intimidate +12
+  - Knowledge (arcana) +8
+  - Knowledge (religion) +9
+  - Perception +10
+  - Stealth +8
+  - Swim +5
+Languages:
+  - Common
+  - undead telepathy 100 ft.
+Source: The Lost City of Barakus-Level 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Undead (Ex)
+    description: >-
+      Undead lords Command Undead as the feat, even if they do not meet the
+      prerequisites for it. Thelkor may only command ghouls and ghasts.
+  - name: Create Spawn (Su)
+    description: >-
+      A creature slain by Thelkor rises in 1d4 minutes as a ghoul (or ghast, if
+      it has 4 or more HD). Spawn are under Thelkor's control.
+  - name: Desecration Aura (Su)
+    description: >-
+      Thelkor constantly projects an aura in a 20-foot radius that functions as
+      a permanent desecrate spell. Undead within the area (including the undead
+      lord) gain a +1 profane bonus to attack rolls, damage rolls, and saves. In
+      addition, all channel checks made in the area suffer a -3 profane penalty.
+      Summoned or created undead that appear in the area gain +1 hit points per
+      HD.
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 16; onset 1 day; frequency 1/day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at
+      the next midnight. A humanoid who becomes a ghoul in this way retains none
+      of the abilities it possessed in life. It is not under the control of any
+      other ghouls, but it hungers for the flesh of the living and behaves like
+      a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as
+      a ghast.
+  - name: Summon Undead (Sp)
+    description: >-
+      Once per day, Thelkor can summon a total number of HD worth of ghouls or
+      ghasts equal to his HD x 1-1/2. Thelkor cannot summon an undead creature
+      that has more HD than he does.
+  - name: Undead Telepathy (Su)
+    description: >-
+      Thelkor can communicate telepathically with any other undead within 100
+      feet, including mindless undead such as zombies and skeletons.
+Gear: the helm of power (see the Appendix)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: undead lord|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '15929'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

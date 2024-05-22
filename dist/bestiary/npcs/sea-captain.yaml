@@ -1,0 +1,115 @@
+Name: Sea Captain
+CR: '7'
+XP: '3200'
+Race: halfling
+Class: druid 8
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (halfling)
+Init: '7'
+Senses:
+  - Perception +15
+AC: 26, touch 14, flat-footed 23
+AC_Mods: (+7 armor, +3 Dex, +3 natural, +2 shield, +1 size)
+HP: '61'
+HD: (8d8+22)
+Saves: Fort +9, Ref +7, Will +12; +2 vs. fear, +4 vs. fey and plant-targeted effects
+Fort: '9'
+Ref: '7'
+Will: '12'
+Save_Mods: +2 vs. fear, +4 vs. fey and plant-targeted effects
+Speed: 15 ft.
+Melee:
+  - mwk scimitar +11/+6 (1d4+3/18-20)
+Ranged:
+  - mwk sling +11/+6 (1d3+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: wild shape 3/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 8/day
+      value: lightning lord
+    - label: 7/day
+      value: storm burst
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 8th; concentration +12)   4th-control water, flame
+  strike (DC 18), freedom of movement, sleet stormD   3rd-call lightningD (DC
+  17), greater magic fang, protection from energy, quench, wind wall  
+  2nd-barkskin, bull's strength, fog cloudD, gust of wind (DC 16), warp wood  
+  1st-cure light wounds (4), endure elements, obscuring mist   0 (at
+  will)-create water, detect magic, flare (DC 14), light
+SpellDomains: Weather
+AbilityScores:
+  - 16
+  - 16
+  - 12
+  - 10
+  - 18
+  - 10
+BaseAtk: '6'
+CMB: '8'
+CMD: '21'
+Feats:
+  - Improved Initiative
+  - Natural Spell
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +1 (-3 when jumping)
+  - Climb +8
+  - Fly +6
+  - Handle Animal +5
+  - Heal +11
+  - Knowledge (nature) +10
+  - Perception +15
+  - Spellcraft +7
+  - Survival +13
+  - Swim +5
+Languages:
+  - Common
+  - Druidic
+  - Goblin
+  - Halfling
+SQ: >-
+  nature bond (Weather domain), nature sense, trackless step, wild empathy +8,
+  woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The druid casts barkskin and bull's strength.
+DuringCombat: >-
+  The druid is well aware of his physical shortcomings, and wild shapes into a
+  Medium air elemental the first chance he gets to escape melee combat. Once at
+  a safe altitude, he casts wind wall and freedom of movement. If still
+  threatened, he casts offensive spells such as flame strike or sleet storm, or
+  uses his Weather domain spell-like abilities. If targeted by spellcasters, he
+  casts fog cloud to obscure vision. If forced into melee, he casts greater
+  magic fang before wild shaping into a Huge animal (preferably a triceratops or
+  an orca).
+Gear: scroll of owl's wisdom, alchemist's fire (3), thunderstone
+OtherGear: >-
+  +1 dragonhide breastplate, masterwork heavy wooden shield, masterwork
+  scimitar, masterwork sling with 20 bullets, cloak of resistance +1, headband
+  of inspired wisdom +2, grappling hook, healer's kit, holly and mistletoe, silk
+  rope (50 ft.), spell component pouch, 22 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without barkskin and bull's strength, the druid's statistics are AC 23, touch
+  14, flat-footed 20; Melee mwk scimitar +11/+6 (1d4+1/18&#8211;20); Ranged mwk
+  sling +11/+6 (1d3+1); Str 12; CMB +6; CMD 19; Skills Climb +6, Swim +3.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3662'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

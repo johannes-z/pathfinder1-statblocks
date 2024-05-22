@@ -1,0 +1,102 @@
+Name: Tilsitari
+CR: '5'
+XP: '1600'
+Race: soulsliver
+Class: rogue 3
+MonsterSource: Pathfinder RPG Bestiary 4 250
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (extraplanar, shapechanger)
+Init: '8'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +10
+AC: 17, touch 15, flat-footed 12
+AC_Mods: (+4 Dex, +1 dodge, +2 natural)
+HP: '50'
+HD: (6 HD; 3d8+3d10+21)
+HP_Mods: fast healing 1
+Saves: Fort +7, Ref +10, Will +3
+Fort: '7'
+Ref: '10'
+Will: '3'
+DefensiveAbilities: evasion, trap sense +1
+Resist: acid 5, fire 5
+Weaknesses: vulnerable to sonic
+Speed: 40 ft.
+Melee:
+  - +1 short sword +8 (1d6+4/19-20), +1 short sword +8 (1d6+2/19-20)
+  - 2 slams +4 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death throes, sneak attack +2d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +6)
+  values:
+    - label: 3/day
+      value: mage hand, open/close (DC 13), silent image (DC 14)
+    - label: 1/day
+      value: mirror image
+AbilityScores:
+  - 16
+  - 19
+  - 16
+  - 9
+  - 12
+  - 17
+BaseAtk: '5'
+CMB: '8'
+CMD: '23'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Two-Weapon Fighting
+  - Weapon Finesse
+Skills:
+  - Acrobatics +13 (+17 when jumping)
+  - Bluff +12 (+20 to mimic sounds listened to for at least 10 minutes
+  - including accents and speech patterns)
+  - Disguise +12 (+16 when using change shape)
+  - Perception +10
+  - Sense Motive +10
+  - Stealth +13
+RacialMods: +4 Disguise when using change shape
+Languages:
+  - Aklo
+  - Common
+SQ: >-
+  change shape (any humanoid; alter self), compression, mirror travel, perfect
+  copy, rogue talent (finesse rogue), sound mimicry (voices), trapfinding +1
+Source: AP 110
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Hoping to get the drop on her enemies, Tilsitari watches from the safety of a
+  mirror before attacking. To sow confusion, Tilsitari assumes the guise of one
+  of the PCs before emerging.
+DuringCombat: >-
+  If other creatures are present during the fight, Tilsitari attempts to get
+  into flanking position in order to deliver sneak attacks. To help with
+  defense, she  uses her mirror image spell-like ability as she attacks with
+  both of her short swords.
+Morale: >-
+  If reduced to 20 hit points or fewer, Tilsitari retreats into a mirror (if
+  possible) and travels to another mirror in Fort Hailcourse to allow her fast
+  healing to mend any wounds before going after the PCs again.
+Gear: +1 short swords (2), amulet of natural armor +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8562'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,92 @@
+Name: Horse Thing
+CR: '11'
+XP: '12800'
+Race: warsworn
+MonsterSource: Pathfinder RPG Bestiary 4 272
+Alignment: CE
+Size: Huge
+Type: undead
+Init: '2'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +23
+Aura: frightful presence (30 ft., DC 22), unnatural aura
+AC: 25, touch 10, flat-footed 23
+AC_Mods: (+2 Dex, +15 natural, -2 size)
+HP: '152'
+HD: (16d8+80)
+Saves: Fort +9, Ref +9, Will +14
+Fort: '9'
+Ref: '9'
+Will: '14'
+DefensiveAbilities: channel resistance +4
+DR: 10/bludgeoning and magic
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - 4 hooves +19 (1d8+9 plus energy drain)
+Space: 15 ft.
+Reach: 5 ft.
+SpecialAttacks: absorb dying beast, energy drain (1 level, DC 22), trample (2d6+13, DC 27)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +20)
+  values:
+    - label: 3/day
+      value: telekinesis (violent thrust only, DC 19)
+AbilityScores:
+  - 28
+  - 15
+  - —
+  - 2
+  - 19
+  - 19
+BaseAtk: '12'
+CMB: +23 (+25 bull rush, +27 overrun)
+CMD: 35 (37 vs. bull rush or overrun, can't be tripped)
+Feats:
+  - Awesome Blow
+  - Blind-Fight
+  - Greater Overrun
+  - Improved Bull Rush
+  - Improved Overrun
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+Skills:
+  - Perception +23
+SQ: profane magic
+Source: AP 142
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Absorb Dying Beast (Su)
+    description: >-
+      The horse thing can consume any dying animal or magical beast by moving
+      into that creature's space. This immediately kills the creature, absorbs
+      it into the horse thing, and restores a number of hit points to the horse
+      thing equal to the absorbed creature's Constitution score. Absorbed
+      corpses can't be resurrected by any effect short of a miracle or wish
+      spell until the horse thing that consumed them is destroyed.
+  - name: Profane Magic (Su)
+    description: >-
+      Protection from evil blocks attacks from the horse thing's spell-like
+      abilities.
+DuringCombat: >-
+  The horse thing attempts to trample as many foes as possible as it lurches
+  forward then lashes out with its hooves. It uses telekinesis only if it can't
+  reach its opponents in melee.
+Morale: The horse thing fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12503'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

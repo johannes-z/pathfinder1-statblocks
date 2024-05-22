@@ -1,0 +1,174 @@
+Name: Erich Zann
+CR: '15'
+XP: '51200'
+Race: human
+Class: bard (mute musician) 16
+MonsterSource: 'Pathfinder Campaign Setting: Horror Realms 9'
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '-1'
+Senses:
+  - Perception +21
+AC: 13, touch 13, flat-footed 13
+AC_Mods: (+4 deflection, -1 Dex)
+HP: '75'
+HD: (16d8)
+Saves: >-
+  Fort +5, Ref +11, Will +12; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '5'
+Ref: '11'
+Will: '12'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: dulled horror
+Speed: 30 ft.
+Melee:
+  - +1 dagger +10/+5/+0 (1d4-2/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 39 rounds/day (swift action; ceaseless performance,
+  countersong, dirge of doom, distraction, fascinate [DC 23], inspire courage
+  +3, inspire greatness, maddening harmonics, soothing performance, suggestion
+  [DC 23], symphony of silence)
+SpellsKnown:
+  header: Bard Spells Known (CL 16th; concentration +23)
+  values:
+    - label: 6th (1/day)
+      value: deadly finaleAPG (DC 21), irresistible dance (DC 21)
+    - label: 5th (4/day)
+      value: greater heroism, mislead, stunning finaleAPG (DC 20), summon monster V
+    - label: 4th (5/day)
+      value: >-
+        heroic finaleAPG (DC 19), hold monster (DC 19), greater invisibility,
+        summon monster IV, virtuoso performanceUM
+    - label: 3rd (6/day)
+      value: >-
+        blink, crushing despair (DC 18), cure serious wounds, dispel magic,
+        haste
+    - label: 2nd (6/day)
+      value: >-
+        allegroUM, cacophonous callAPG (DC 17), cure moderate wounds,
+        glitterdust (DC 17), mirror image, sound burst (DC 17)
+    - label: 1st (7/day)
+      value: >-
+        chord of shardsUM (DC 16), forced quietUM (DC 16), hideous laughter (DC
+        16), saving finaleAPG (DC 16), timely inspirationAPG (DC 16), vanishAPG
+        (DC 16)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 15), lullaby (DC 15),
+        message, summon instrument
+AbilityScores:
+  - 4
+  - 9
+  - 7
+  - 13
+  - 15
+  - 21
+BaseAtk: '12'
+CMB: '9'
+CMD: '22'
+Feats:
+  - Eschew MaterialsB
+  - Great Fortitude
+  - Improved Dirge of Doom
+  - Lightning Reflexes
+  - Lingering Performance
+  - Skill Focus (Perform [string instruments])
+  - Toughness
+Skills:
+  - Knowledge (dungeoneering) +22
+  - Knowledge (local) +28
+  - Knowledge (planes) +22
+  - Perception +21
+  - Perform (string instruments) +30
+  - Sense Motive +21
+  - Spellcraft +20
+  - Stealth +18
+  - Use Magic Device +20
+Languages:
+  - Aklo
+  - English
+  - French
+  - German
+  - can't speak
+SQ: >-
+  eldritch caesura, lore master 2/day, masterpieces (At the Heart of It AllUM,
+  Fugue de Rue d'Auseil [see page 63], Legato Piece on the Infernal BargainUM),
+  mute
+Source: AP 114
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ceaseless Performance (Su)
+    description: >-
+      Zann can continue to take a free action to maintain his bardic performance
+      even while confused, cowering in fear, dazed, nauseated, panicked,
+      paralyzed, petrified, silenced, staggered, stunned, or unconscious. Even
+      if he is killed, he can continue to take a free action to maintain his
+      performance as long as he has rounds remaining. Only the utter destruction
+      of the Zann's body (such as via destruction or disintegrate or reducing
+      the bard to -70 hit points) causes the performance to end.
+  - name: Maddening Harmonics (Su)
+    description: >-
+      Zann can create a performance so baffling and discordant that it usurps
+      all thought within a 30-foot radius with chaos and entropy. Zann can
+      select which creatures in this area are affected by the maddening
+      harmonics and which are not. All targeted creatures within this area must
+      succeed at a Will saving throw (DC 23) or be confused for as long as they
+      can hear the performance. If a creature succeeds at its saving throw, it
+      is immune to this ability for 24 hours. This performance relies on audible
+      components.
+  - name: Symphony of Silence (Su)
+    description: >-
+      Zann's music muffles all other sounds within a 30-foot radius. All
+      creatures in the area of effect gain a +5 bonus on all saving throws
+      against sonic attacks or language-dependent effects. Symphony of silence
+      relies on audible components.
+  - name: Dulled Horror (Ex)
+    description: >-
+      Zann gains a +4 bonus on saving throws against confusion, fear, insanity
+      effects, and the supernatural abilities of aberrations.
+  - name: Eldritch Caesura (Su)
+    description: >-
+      Zann can insert unsettling silences into his otherworldly music by
+      spending 1 additional round of bardic performance per round. This
+      supernatural technique impossibly blurs the line between music and light,
+      transmitting audible performances and sonic bard spells through most
+      barriers save lead. This allows the music and sonic spells to affect
+      creatures across planar boundaries (including creatures on the Ethereal
+      Plane or Shadow Plane), vacuums, and areas of magical silence.
+  - name: Mute (Ex)
+    description: >-
+      Erich Zann is unable to speak. Language-dependent effects (including
+      Perform [oratory]) require him to be able to use telepathy, nonverbal
+      languages, or writing to communicate. He can't use Perform (sing) or speak
+      languages, though he can still create audible bardic performances by means
+      of a musical instrument. Zann can provide verbal and somatic components
+      for spells he casts via his violin.
+Gender: Male
+DuringCombat: >-
+  Erich Zann uses his spells and abilities to bolster the PCs and help protect
+  them from the horrors of Carcosa.
+Morale: >-
+  Erich is timid when personally confronted with combat. His actions are largely
+  based on how his companions fare in the fight.
+Gear: +1 dagger, ring of protection +4, tunic of careful castingUE, 48 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: venerable
+ClassArchetypes: mute musician
+CompanionFamiliarLink: '0'
+id: '11103'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

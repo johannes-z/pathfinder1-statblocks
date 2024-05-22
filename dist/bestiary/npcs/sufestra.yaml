@@ -1,0 +1,116 @@
+Name: Sufestra
+CR: '12'
+XP: '19200'
+Race: medusa
+Class: cleric of Mestama 8
+MonsterSource: Pathfinder RPG Bestiary 201
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '6'
+Senses:
+  - darkvision 60 ft., all-around vision
+  - Perception +15
+AC: 26, touch 13, flat-footed 23
+AC_Mods: (+9 armor, +2 Dex, +1 dodge, +4 natural)
+HP: '168'
+HD: (16 HD; 8d10+8d8+88)
+Saves: Fort +13, Ref +10, Will +18
+Fort: '13'
+Ref: '10'
+Will: '18'
+DR: 10/adamantine (130 points from stoneskin)
+Speed: 20 ft.
+Melee:
+  - >-
+    +1 frost punching dagger +17/+12/+7 (1d4+3/x3 plus 1d6 cold), snake bite +11
+    (1d4+1 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 7/day (DC 18, 4d6), petrifying gaze (DC 18)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: At Will
+      value: charming smile (8 rounds, DC 14), master's illusion (8 rounds/day)
+    - label: 7/day
+      value: copycat (8 rounds), dazing touch
+SpellsPrepared: >-
+  Spells Prepared (CL 8th; concentration +12)   4th-confusionD (DC 18), cure
+  critical wounds, freedom of movement, sending   3rd-cure serious wounds,
+  dispel magic, protection from energy, speak with dead (DC 17), suggestionD (DC
+  17)   2nd-cure moderate wounds (2), hold person (DC 16), invisibilityD,
+  status   1st-charm personD (DC 15), command (DC 15), cure light wounds (3),
+  sanctuary (DC 15)   0 (at will)-bleed (DC 14), create water, detect magic,
+  read magic
+SpellDomains: Charm, Trickery
+AbilityScores:
+  - 14
+  - 15
+  - 20
+  - 10
+  - 18
+  - 18
+BaseAtk: '14'
+CMB: '16'
+CMD: '29'
+Feats:
+  - Combat Casting
+  - Deceitful
+  - Defensive Combat Training
+  - Dodge
+  - Improved Initiative
+  - Improved Natural Armor
+  - Iron Will
+  - Selective Channeling
+Skills:
+  - Bluff +21
+  - Diplomacy +13
+  - Disguise +21
+  - Knowledge (planes) +7
+  - Knowledge (religion) +8
+  - Linguistics +8
+  - Perception +15
+Languages:
+  - Abyssal
+  - Common
+  - Elven
+  - Giant
+  - Thassilonian
+  - Varisian
+Source: AP 64
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Every morning at dawn, Sufestra casts status on the two vrocks in area A21.
+  Once that status spell alerts her to combat, she prepares for battle by using
+  a dose of stone salve on herself to gain stoneskin, and 1 dose each on the
+  hill giant and redcap to gain two allies eager to earn their lives back. She
+  ends her preparation by casting freedom of movement, protection from energy
+  (fire), and invisibility on herself.
+DuringCombat: >-
+  If possible, Sufestra hopes to have her giant and redcap minions deal with the
+  PCs. She remains invisible during the first few rounds of combat, moving to
+  cast healing spells on the most wounded ally each round. Once they're
+  defeated, or once she's discovered, she casts confusion on as many PCs as
+  possible (which also exposes the PCs to her gaze attack), then channels
+  negative energy on the following rounds to wear the PCs down.
+Morale: Sufestra fights to the death.
+Gear: >-
+  +3 chainmail, +1 frost punching dagger, doomsday key, stone salve (4 doses),
+  gold unholy symbol of Mestama worth 230 gp, precious necklace worth 2,500 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3534'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

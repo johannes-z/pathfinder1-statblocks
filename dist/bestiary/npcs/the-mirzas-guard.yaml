@@ -1,0 +1,104 @@
+Name: The Mirza's Guard
+CR: '2'
+XP: '600'
+Race: human
+Class: monk 2
+MonsterSource: Advanced Bestiary 76
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '3'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +8
+AC: 19, touch 17, flat-footed 15
+AC_Mods: (+3 Dex, +1 dodge, +2 natural, +3 Wis)
+HP: '19'
+HD: (2d8+6)
+Saves: Fort +5, Ref +6, Will +6
+Fort: '5'
+Ref: '6'
+Will: '6'
+DefensiveAbilities: channel resistance +2, evasion
+Immune: undead traits
+Speed: 40 ft., climb 40 ft.
+Melee:
+  - >-
+    2 claw +4 (1d6+2 plus paralysis), bite +4 (1d6+2 plus disease  and
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  command ghouls, create spawn, disease, flurry of blows, paralysis (1d4+1
+  rounds, DC 13; elves are immune to this effect), stunning fist (2/day, DC 14)
+AbilityScores:
+  - 15
+  - 16
+  - —
+  - 10
+  - 17
+  - 14
+BaseAtk: '1'
+CMB: '3'
+CMD: '20'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Unarmed Strike
+  - Scorpion Style
+  - Stunning Fist
+  - Weapon Finesse
+Skills:
+  - Acrobatics +8 (+12 jump)
+  - Climb +18
+  - Escape Artist +8
+  - Perception +8
+  - Stealth +8
+  - Survival +13
+RacialMods: +8 Climb, +8 Survival
+Languages:
+  - Ancient Osiriani
+Source: PFS S2-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Ghouls (Su)
+    description: >-
+      A dread ghoul can automatically command all normal ghouls within 30 feet
+      as a free action. Normal ghouls never attack a dread ghoul unless
+      compelled.
+  - name: Create Spawn (Su)
+    description: >-
+      Any creature killed by a dread ghoul that is not subsequently eaten rises
+      at the next midnight as a dread ghoul. The new dread ghoul is not under
+      the control of its creator.
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 13; onset 1 day; frequency 1/day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves.
+Gender: Male
+BeforeCombat: >-
+  The Mirza's Guards wait patiently hidden behind the four northernmost
+  sarcophagi in the chamber, awaiting the signal from their leader.
+DuringCombat: >-
+  The dread ghouls surround the PCs, trying to paralyze their foes. Once they
+  have paralyzed a PC, they divert their attacks to the next mobile PC.
+Morale: >-
+  The dread ghouls have guarded their master for millennia, and do not hesitate
+  in their commitment now. They fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: dread ghoul|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4719'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

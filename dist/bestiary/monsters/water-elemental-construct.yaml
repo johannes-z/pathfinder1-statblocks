@@ -1,0 +1,143 @@
+Name: Water Elemental Construct
+CR: '13'
+XP: '25600'
+Alignment: 'N'
+Size: Huge
+Type: construct
+SubType: (elemental, extraplanar, water)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 27, touch 15, flat-footed 20
+AC_Mods: (+7 Dex, +12 natural, -2 size)
+HP: '205'
+HD: (30d10+40)
+Saves: Fort +10, Ref +17, Will +10
+Fort: '10'
+Ref: '17'
+Will: '10'
+DefensiveAbilities: water mastery
+DR: 10/adamantine
+Immune: construct traits, elemental traits, magic
+Speed: 30 ft., swim 120 ft.
+Melee:
+  - 2 slams +39 (2d8+11)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: drench, engulf (DC 36)
+AbilityScores:
+  - 33
+  - 24
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '30'
+CMB: '43'
+CMD: '60'
+Skills:
+  - Swim +19
+Environment: Plane of Water
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  A humanoid creature composed entirely of water and about 9 feet tall moves
+  silently across the ground, leaving trails of water in its path. Its watery
+  head contain no discernable features.
+Group: Elemental Construct
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Drench (Ex)
+    description: >-
+      A water elemental construct's touch puts out torches, campfires, exposed
+      lanterns, and other open flames of nonmagical origin if these are of Large
+      size or smaller. The construct can dispel magical fire it touches as
+      dispel magic (caster level equal's the elemental construct's HD).
+  - name: Engulf (Ex)
+    description: >-
+      A water elemental construct can simply engulf Large or smaller creatures
+      in its path as a standard action. It cannot make a slam attack during a
+      round in which it engulfs. The water elemental construct merely has to
+      move over the opponents, affecting as many as it can cover. Opponents can
+      make attacks of opportunity against the construct, but if they do so they
+      are not entitled to a saving throw. Those who do not attempt attacks of
+      opportunity can attempt a DC 36 Reflex save to avoid being engulfed- on a
+      success, they are pushed back or aside (opponent's choice) as the
+      construct moves forward. Engulfed creatures are in danger of suffocating,
+      and are trapped within its body until they are no longer pinned. The save
+      DC is Strength-based.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A water elemental construct is immune to any spell or spell-like ability
+      that allows spell resistance. In addition, certain spells and effects
+      function differently against the creature, as noted below. A control water
+      spell or cold effect slows a water elemental construct for 2d6 rounds with
+      no saving throw. A horrid wilting spell deals 1d8 points of damage per
+      caster level to a water elemental construct. The elemental construct can
+      attempt a Fortitude save (DC 18 + caster's relevant ability modifier) for
+      half damage. A create water spell heals 1d4 points of damage on the
+      construct for each 2 gallons of water created.
+  - name: Water Mastery (Ex)
+    description: >-
+      A water elemental construct gains a +2 bonus on attack and damage rolls if
+      both it and its foe are touching water. If the opponent or the elemental
+      construct is touching the ground, the elemental construct takes a -4
+      penalty on attack and damage rolls. (These modifiers are not included in
+      the statistics block.)
+Description:
+  - >-
+    Water elemental constructs are rare elemental constructs (perhaps as rare or
+    rarer than fire elemental constructs) found in the palaces of the Water
+    Elemental Princes or in the service of a powerful spellcaster or water
+    deity. The are usually given the task of keeping secret or guarding an area
+    underwater as this is their native environment and they do not function well
+    outside of it. A water elemental construct is a humanoid, 9 feet tall,
+    composed of water. No discernable features can be seen on its head, though
+    sometimes the face of an elemental spirit seems to appear randomly somewhere
+    on its form. A water elemental construct crashes down on its opponents with
+    watery fists before attempting to grab a foe and stuff it into its watery
+    form. An engulfed foe is held until it drowns; thereafter, the elemental
+    construct expels the creature's corpse onto the ground. Elemental constructs
+    are used by powerful mages as servants, bodyguards, and assassins. An
+    elemental construct, like any other automaton follows any order or command
+    given to it to the best of its ability. An elemental construct's creator can
+    command it if the construct is within 60 feet and can see and hear its
+    creator. If not commanded, an elemental construct usually follows its last
+    instruction to the best of its ability, though if attacked it returns the
+    attack. The creator can give the elemental construct a simple command to
+    govern its actions in his or her absence. The elemental construct's creator
+    can order the construct to obey the commands of another person (who might in
+    turn place the elemental construct under someone else's control, and so on),
+    but the elemental construct's creator can always resume control over his
+    creation by commanding the elemental construct to obey him alone. Each
+    elemental construct appears as a humanoid creature about 9 feet tall and is
+    composed entirely of its native element. Construction An elemental
+    construct's body is formed completely of one of the four elements air,
+    earth, fire, or water. The materials must be the finest quality or purest
+    form taken from the respective plane and mixed with rare oils, powders, and
+    other ingredients totaling 5,000 gp. ELEMENTAL CONSTRUCT CL 17th; Price
+    200,000 gp Requirements Craft Construct (see the Bestiary), geas/ quest,
+    limited wish, two spells of 4th level or higher with the appropriate
+    elemental descriptor, creator must be caster level 17th; Skill Craft
+    (sculptures) DC 20; Cost 102,500 gp Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2577'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

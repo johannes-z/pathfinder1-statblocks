@@ -1,0 +1,139 @@
+Name: Demon-Blooded Sorcerer
+CR: '17'
+XP: '102400'
+Race: half-orc
+Class: sorcerer 18
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 22, touch 13, flat-footed 19
+AC_Mods: (+5 armor, +2 Dex, +1 dodge, +4 natural)
+HP: '152'
+HD: (18d6+87)
+Saves: Fort +11, Ref +9, Will +13; +4 vs. poison
+Fort: '11'
+Ref: '9'
+Will: '13'
+Save_Mods: +4 vs. poison
+DefensiveAbilities: orc ferocity
+DR: 10/adamantine (150 points)
+Resist: electricity 10
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - 2 claws +12 (1d6+3 plus 1d6 fire)
+  - +1 flaming greataxe +13/+8 (1d12+5/x3 plus 1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: claws (2, 1d6+7 plus 1d6 fire, treated as magic weapons, 7 rounds/day)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 18th; concentration +25)
+  values:
+    - label: 9th (3/day)
+      value: meteor swarm
+    - label: 8th (5/day)
+      value: incendiary cloud (DC 27), summon monster VIII, unholy aura
+    - label: 7th (7/day)
+      value: >-
+        delayed blast fireball (DC 24), greater teleport, power word blind,
+        reverse gravity
+    - label: 6th (7/day)
+      value: acid fog, chain lightning (DC 23), transformation, true seeing
+    - label: 5th (7/day)
+      value: >-
+        cloudkill (DC 24), cone of cold (DC 22), dismissal (DC 22), feeblemind
+        (DC 22), summon monster V
+    - label: 4th (7/day)
+      value: >-
+        black tentacles, confusion (DC 21), dimension door, phantasmal killer
+        (DC 21), stoneskin
+    - label: 3rd (8/day)
+      value: dispel magic, fly, gaseous form, rage, slow (DC 20)
+    - label: 2nd (8/day)
+      value: >-
+        acid arrow, bull's strength, darkness, false life, mirror image,
+        scorching ray
+    - label: 1st (8/day)
+      value: >-
+        burning hands (DC 18), cause fear (DC 18), enlarge person (DC 18),
+        grease, ray of enfeeblement (DC 18), shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 17), daze (DC 17), detect magic, light, mage
+        hand, message, ray of frost, read magic
+AbilityScores:
+  - 16
+  - 14
+  - 14
+  - 8
+  - 12
+  - 24
+BaseAtk: '9'
+CMB: '12'
+CMD: '25'
+Feats:
+  - Augment Summoning
+  - Combat Casting
+  - Dodge
+  - Empower Spell
+  - Eschew Materials
+  - Extend Spell
+  - Great Fortitude
+  - Greater Spell Focus (conjuration)
+  - Improved Initiative
+  - Quicken Spell
+  - Spell Focus (conjuration)
+  - Toughness
+Skills:
+  - Fly +6
+  - Intimidate +14
+  - Knowledge (arcana) +3
+  - Knowledge (planes) +5
+  - Linguistics +0
+  - Perception +10
+  - Spellcraft +3
+Languages:
+  - Abyssal
+  - Common
+  - Orc
+SQ: >-
+  added summonings, bloodline arcana (summoned creatures gain DR 9/good), orc
+  blood, strength of the Abyss, weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: abyssal
+BeforeCombat: The sorcerer casts false life and stoneskin.
+DuringCombat: >-
+  The sorcerer casts summon monster VIII to summon a hezrou, then alternates
+  between casting area damage spells and summoning other demons. If he knows he
+  is fighting good-aligned opponents, he casts unholy aura.
+Gear: >-
+  potions of cure serious wounds (2), potion of haste, scroll of greater dispel
+  magic, wand of shield (20 charges)
+OtherGear: >-
+  +1 flaming greataxe, amulet of natural armor +4, bracers of armor +5, cloak of
+  resistance +1, headband of alluring charisma +4, ring of counterspells,
+  diamond dust (worth 500 gp), eye ointment for true seeing (worth 500 gp),
+  4,480 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without false life and stoneskin, the sorcerer's statistics are hp 137; DR
+  none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3819'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

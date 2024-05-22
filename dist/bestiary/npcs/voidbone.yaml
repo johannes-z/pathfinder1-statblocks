@@ -1,0 +1,125 @@
+Name: Voidbone
+CR: '12'
+XP: '19200'
+Race: bloody bones
+MonsterSource: Advanced Bestiary 213, Pathfinder RPG Bestiary 6 49
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '10'
+Senses:
+  - darkvision 60 ft., lifesense
+  - Perception +20
+AC: 30, touch 25, flat-footed 22
+AC_Mods: (+6 Dex, +2 dodge, +5 natural, +7 profane)
+HP: '161'
+HD: (14d8+98)
+Saves: Fort +9, Ref +17, Will +12
+Fort: '9'
+Ref: '17'
+Will: '12'
+DefensiveAbilities: channel resistance +4, obscuring energy, strong resistance
+DR: 10/bludgeoning, 5/good
+Immune: undead traits
+Resist: positive energy 10
+Speed: 60 ft.
+Melee:
+  - >-
+    bite +20 (1d8+10 plus 1d6 negative energy, bleed, and energy drain), 2 claws
+    +20 (1d8+10/19-20 plus 1d6 negative energy and bleed)
+Ranged:
+  - searing darkness +16 touch (7d8 negative energy)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bleed (1d6), energy drain (1 level, DC 24), mirror jump (DC 24), negative
+  energy attacks, rend (2 claws, 1d8+15), searing darkness
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +17)
+  values:
+    - label: At will
+      value: dimension door (via reflective surfaces only)
+    - label: 3/day
+      value: mass inflict moderate wounds (DC 23)
+AbilityScores:
+  - 31
+  - 23
+  - —
+  - 14
+  - 16
+  - 25
+BaseAtk: '10'
+CMB: '20'
+CMD: '45'
+Feats:
+  - Improved Critical (claw)
+  - Improved Initiative
+  - Intimidating Prowess
+  - Lunge
+  - Power Attack
+  - Skill Focus (Intimidate)
+  - Stealthy
+Skills:
+  - Acrobatics +20
+  - Climb +27
+  - Escape Artist +24
+  - Intimidate +38
+  - Perception +20
+  - Stealth +27
+Languages:
+  - Razatlani
+SQ: hide in plain sight, unholy grace
+Source: AP 143
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Negative Energy Attacks (Su)
+    description: >-
+      A voidbones deals an additional 1d6 points of negative energy damage with
+      its natural attacks. Its natural attacks are treated as evil-aligned
+      weapons for the purpose of damage reduction.
+  - name: Obscuring Energy (Su)
+    description: >-
+      Flickering shadows and wisps of black smoke surround a voidbones, granting
+      it concealment (20% miss chance). When the voidbones stands still, the
+      shadows grow stronger and it benefits from total concealment (50% miss
+      chance).
+  - name: Searing Darkness (Su)
+    description: >-
+      Three times per day as a standard action, a voidbones can blast a creature
+      with a dark ray of negative energy as a ranged touch attack. This ability
+      has a range of 240 feet and deals 7d8 points of negative energy damage.
+      This ray instead restores double this amount to undead creatures.
+  - name: Strong Resistance (Su)
+    description: >-
+      If a voidbones takes enough positive energy damage in a single attack to
+      destroy it (such as from a cleric's channeled energy), it can attempt a
+      Will save (the DC is equal to the damage dealt by that attack) to reduce
+      the damage taken by half. Against other effects that can banish or destroy
+      a voidbones outright, it can attempt a Will save, even if that effect
+      normally wouldn't allow a save. If the effect normally allows a save, the
+      voidbones rolls twice and uses the better result, and on a success, the
+      voidbones is unaffected by the effect.
+DuringCombat: >-
+  The voidbones prefer to flank foes in melee, abandoning foes who are bleeding
+  to move on to other enemies. They use their searing darkness ability against
+  foes they can't reach in melee.
+Morale: >-
+  A voidbones reduced to fewer than 50 hit points uses its mirror jump ability
+  to flee, then waits to ambush the PCs the next time a PC approaches a mirror
+  anywhere in Tumbaja Mountain.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: negative energy-charged|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12713'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

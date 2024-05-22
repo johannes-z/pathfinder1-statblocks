@@ -1,0 +1,144 @@
+Name: Natsiel
+CR: '11'
+XP: '12800'
+Race: human
+Class: sorcerer 10
+MonsterSource: 'Pathfinder Campaign Setting: Demons Revisited 54'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (humanoid, human, native)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 19, touch 14, flat-footed 15
+AC_Mods: (+4 armor, +4 Dex, +1 natural)
+HP: '122'
+HD: (10d6+85)
+Saves: Fort +12, Ref +9, Will +11
+Fort: '12'
+Ref: '9'
+Will: '11'
+DR: 5/magic
+Immune: poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '22'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - +1 human-bane rhoka sword +10 (1d8+8/18-20), bite +5 (1d6+5)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: claws (2, 1d6, treated as magic weapons, 8 rounds/day), passion, smite good
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: 3/day
+      value: charm monster (DC 18), darkness
+    - label: 1/day
+      value: detect thoughts (DC 17), dominate person (DC 20), unholy blight (DC 19)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: feeblemind (DC 20)
+    - label: 4th (6/day)
+      value: dimension door, greater invisibility, stoneskin
+    - label: 3rd (7/day)
+      value: fly, haste, hold person (DC 18), rage
+    - label: 2nd (7/day)
+      value: >-
+        bull's strength, false life, mirror image, scorching ray, touch of
+        idiocy
+    - label: 1st (8/day)
+      value: >-
+        cause fear (DC 16), mage armor, magic missile, protection from good,
+        reduce person (DC 16), shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, dancing lights, detect magic, ghost sound (DC
+        15), mage hand, mending, message, prestidigitation
+AbilityScores:
+  - 18
+  - 18
+  - 20
+  - 12
+  - 10
+  - 20
+BaseAtk: '5'
+CMB: '9'
+CMD: '23'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Craft Wondrous Item
+  - Eschew Materials
+  - Exotic Weapon Proficiency (rhoka sword)
+  - Great Fortitude
+  - Iron Will
+  - Toughness
+Skills:
+  - Acrobatics +14
+  - Bluff +18
+  - Knowledge (local) +6
+  - Perception +10
+  - Spellcraft +14
+Languages:
+  - Abyssal
+  - Common
+SQ: >-
+  bloodline arcana (summoned creatures gain DR 4/good), change shape, strength
+  of the Abyss
+Source: AP 100
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Passion (Su)
+    description: >-
+      Natsiel drains energy from a mortal she lures into an act of
+      passion-unwilling victims must be grappled before she can use this
+      ability. The passion bestows 1 negative level. She can use this ability up
+      to 10 times a day; removing 1 of these negative levels requires a
+      successful DC 20 Fortitude save.
+Bloodline: Abyssal
+BeforeCombat: Natsiel casts false life at the start of every day, as well as mage armor.
+DuringCombat: >-
+  Natsiel casts greater invisibility on the first round of combat, then
+  stoneskin, shield and bull's strength over the next few rounds (or once the
+  alarm is raised, either by Strea in room A3 or by hearing PCs hammering on the
+  doors to the north from area A8). She relies on her green hags to distract
+  foes while casting these spells, then switches over to spells like feeblemind,
+  dominate person, scorching ray, and magic missile. If she enters melee combat,
+  she tries to cast haste first. In any event, she always uses Arcane Strike to
+  bolster her damage (this +3 bonus on damage rolls is calculated into her
+  attacks above). Once her greater invisibility spell is about to expire (or as
+  soon after it's dispelled), she casts mirror image.
+Morale: >-
+  If reduced to 30 or fewer hit points, Natsiel uses dimension door to teleport
+  out of the area to the city above, then flees to the Church of Asmodeus to
+  offer her aid to Barzillai Thrune in destroying the PCs. Barzillai doesn't
+  trust Natsiel that much, but knows that he can use as many allies as he can
+  secure. He agrees to provide healing to the half-succubus and to assign her
+  several erinyes devils as minions. Natsiel can make additional attacks on the
+  PCs for the remainder of the adventure as you see fit, and could even be part
+  of the final retaliatory attack on the PCs during the celebration at the end
+  of the adventure (see page 62).
+Gear: >-
+  +1 human-bane rhoka sword, amulet of mighty fists +1, belt of mighty
+  constitution +2, boots of elvenkind, cloak of resistance +2, key (unlocks all
+  doors in the area), 775 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-succubus|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7500'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

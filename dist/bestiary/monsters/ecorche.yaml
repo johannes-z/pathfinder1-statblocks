@@ -1,0 +1,116 @@
+Name: Ecorche
+CR: '16'
+XP: '76800'
+Alignment: CE
+Size: Large
+Type: undead
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +25
+Aura: frightful presence (60 ft., DC 26)
+AC: 30, touch 14, flat-footed 25
+AC_Mods: (+5 Dex, +16 natural, -1 size)
+HP: '209'
+HD: (22d8+110)
+HP_Mods: fast healing 5
+Saves: Fort +12, Ref +12, Will +15
+Fort: '12'
+Ref: '12'
+Will: '15'
+DefensiveAbilities: channel resistance +2
+DR: 15/good and silver
+Immune: acid, undead traits
+Speed: 30 ft.
+Melee:
+  - 2 claws +27 (3d6+11/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: bleed (1 Con drain), rend (2 claws, 3d6+11 plus bleed and seize skin)
+AbilityScores:
+  - 32
+  - 20
+  - —
+  - 9
+  - 11
+  - 21
+BaseAtk: '16'
+CMB: '28'
+CMD: '43'
+Feats:
+  - Awesome Blow
+  - Blinding Critical
+  - Combat Reflexes
+  - Critical Focus
+  - Improved Bull Rush
+  - Improved Critical (claw)
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Stand Still
+  - Weapon Focus (claw)
+Skills:
+  - Disguise +30
+  - Perception +25
+  - Stealth +26
+Languages:
+  - Common
+SQ: wear skin
+Environment: any land
+Organization: solitary or gang (2-4)
+Treasure: none
+Description_Visual: >-
+  This brawny creature has had its skin completely flensed from its form,
+  revealing the violent pulsing of its massive, exposed muscles.
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Seize Skin (Su)
+    description: >-
+      Whenever an ecorche damages a target with its rend ability, the target
+      must succeed at a DC 25 Fortitude save to resist being skinned alive.
+      Those who fail the save become staggered and take 1 point of Constitution
+      drain per round. Both of these effects are permanent but can be removed
+      with a regenerate or heal spell (or 1 round of regeneration). The ecorche
+      can use its wear skin ability to don a skin stolen in this way as a
+      full-round action. The save DC is Dexterity-based.
+Description:
+  - >-
+    The bodyguards and spies of undead masterminds, ecorches appear as gory
+    giants with musculatures overdeveloped by infusions of necromantic toxins
+    and grafts of reanimated sinew. Although its natural form possesses no skin,
+    an ecorche can steal the flesh of another creature, flaying its victim in
+    mere seconds and leaving it in unimaginable shock and pain with only moments
+    to seek aid before perishing. Yet this gruesome act of violence is only the
+    first stage of the chaos an ecorche spreads with its violence.
+  - >-
+    An ecorche possesses incredible control over its gruesome form, allowing it
+    to compress its body into the skin of a much smaller creature. Wearing such
+    grisly garb, these terrors walk among the living, doing the bidding of their
+    terrible masters or searching for more inf luential individuals to murder,
+    skin, and impersonate. If an ecorche's unholy nature is revealed, the
+    monster is quick to dispose of its nowuseless disguise, bursting from the
+    suit of flesh and exposing its terrible form to the unprepared, few of whom
+    can withstand such unabashed gore.
+  - >-
+    An ecorche stands approximately 8-1/2 feet tall and weighs upward of 600
+    pounds.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2056'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

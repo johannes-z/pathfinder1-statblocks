@@ -1,0 +1,130 @@
+Name: The Gray Friar
+CR: '14'
+XP: '38400'
+Race: huecuva
+Class: cleric of urgathoa 11
+MonsterSource: Pathfinder RPG Bonus Bestiary 12, Pathfinder RPG Bestiary 294, and page 15
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+Aura: faithless (30 ft.)
+AC: 31, touch 16, flat-footed 28
+AC_Mods: (+8 armor, +3 deflection, +3 Dex, +7 natural)
+HP: '185'
+HD: (14d8+123)
+Saves: Fort +15, Ref +10, Will +18
+Fort: '15'
+Ref: '10'
+Will: '18'
+DR: 5/magic or silver
+Immune: undead traits
+Speed: 20 ft.
+Melee:
+  - >-
+    2 claws +18 (1d6+7 plus 2d6 vs. good creatures plus disease) or mwk dagger
+    +17/+12 (1d4+6/19-20)
+Ranged:
+  - mwk dagger +17 (1d4+6/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 10/day (DC 28, 8d6), scythe of evil (5 rounds, 1/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 11th; concentration +17)
+  values:
+    - label: 9/day
+      value: >-
+        bleeding touch (5 rounds), touch of evil (5 rounds) Spell-Like Abilities
+        (CL 3rd; concentration +8)
+    - label: 3/day
+      value: disguise self
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 11th; concentration +17) 6th-antilife shell, create
+  undeadD, harm (DC 22) 5th-flame strike (DC 21), righteous might, slay livingD
+  (DC 21), true seeing 4th-blessing of fervorAPG, divine power, freedom of
+  movement, inflict critical wounds, unholy blightD (DC 20) 3rd-animate deadD,
+  blindness/deafness (DC 19), inflict serious wounds (DC 19), invisibility
+  purge, magic vestment, prayer 2nd-death knellD (DC 18), graceAPG, hold person
+  (DC 18), inflict moderate wounds (DC 18), resist energy, silence (DC 18),
+  spiritual weapon 1st-cause fearD (DC 17), command (DC 17), curse water, doom
+  (2, DC 17), entropic shield, shield of faith 0 (at will)-bleed (DC 16), detect
+  magic, read magic, resistance
+SpellDomains: Death, Evil
+AbilityScores:
+  - 18
+  - 18
+  - —
+  - 12
+  - 22
+  - 20
+BaseAtk: '10'
+CMB: '14'
+CMD: '31'
+Feats:
+  - Channel Smite
+  - Combat Casting
+  - Extra Channel
+  - Improved Channel
+  - Improved Initiative
+  - Toughness
+  - Weapon Focus (claw)
+Skills:
+  - Knowledge (religion) +18
+  - Perception +20
+  - Sense Motive +20
+  - Spellcraft +15
+  - Stealth +5
+Languages:
+  - Common
+  - Necril
+SQ: death's embrace
+Source: AP 48
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Claw-injury; save Fort DC 16; onset 1d3 days; frequency 1 day; effect 1d3
+      Dex damage and 1d3 Con damage; cure 2 consecutive saves.
+  - name: Faithless (Su)
+    description: >-
+      The huecuva and all undead creatures within 30 feet receive a +2 profane
+      bonus on Will saves made to resist channeled energy and any effects based
+      on that ability. This bonus stacks with channel resistance.
+Gender: Male
+BeforeCombat: >-
+  The Gray Friar casts magic vestment every day. Before combat, he casts freedom
+  of movement, shield of faith, entropic shield, and antilife shell.
+DuringCombat: >-
+  The Gray Friar stays outside the fray to bolster and heal his allies and
+  damage foes with channeled negative energy and spells. If forced into melee,
+  the Gray Friar casts divine power and righteous might before making
+  debilitating claw attacks, using his Channel Smite feat to infuse his already
+  unholy attacks with even more powerful necrotic energies.
+Morale: The Gray Friar fights until destroyed.
+Gear: scroll of destruction
+OtherGear: >-
+  masterwork breastplate, masterwork dagger, +1 unholy amulet of mighty fists,
+  phylactery of negative channeling, 20 onyx gems worth 50 gp each, silver
+  unholy symbol of Urgathoa, 73 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|shrine-blessed|
+BaseStatistics: >-
+  Without his spells, the Gray Friar's statistics are AC 26, touch 13,
+  flat-footed 23.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1803'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

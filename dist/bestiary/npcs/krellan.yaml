@@ -1,0 +1,149 @@
+Name: Krellan
+CR: '16'
+XP: '76800'
+Race: shadow giant
+Class: inquisitor of Zon-Kuthon 6
+MonsterSource: >-
+  Pathfinder Campaign Setting: Inner Sea Bestiary 15, Pathfinder RPG Advanced
+  Player's Guide 38
+Alignment: LE
+Size: Large
+Type: humanoid
+SubType: (extraplanar, giant)
+Init: '6'
+Senses:
+  - darkvision 120 ft., low-light vision
+  - Perception +21 (+25 in dim light)
+AC: 31, touch 12, flat-footed 28
+AC_Mods: (+7 armor, +3 Dex, +12 natural, -1 size)
+HP: '287'
+HD: (25d8+175)
+Saves: Fort +23, Ref +13, Will +14
+Fort: '23'
+Ref: '13'
+Will: '14'
+DefensiveAbilities: rock catching, shadow cloak 3/day
+Speed: 30 ft.
+Melee:
+  - spiked chain +28/+23/+18/+13 (2d6+16/19-20 plus energy drain)
+  - 2 slams +28 (1d8+11 plus energy drain)
+Ranged:
+  - rock +21 (1d8+16/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: bane (6 rounds/day), energy drain (1 level, DC 22), rock throwing (180 ft.)
+SpellLikeAbilities:
+  header: Inquisitor Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: At Will
+      value: detect alignment
+    - label: 6/day
+      value: touch of darkness (3 rounds) 6 rounds/day-discern lies
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 2nd (4/day)
+      value: >-
+        castigateAPG (DC 15), corruption resistanceAPG, flames of the
+        faithfulAPG, see invisibility
+    - label: 1st (5/day)
+      value: command (DC 14), cure light wounds, true strike, wrathAPG
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 13), brandAPG (DC 13), detect magic, guidance,
+        read magic
+SpellDomains: Darkness
+AbilityScores:
+  - 32
+  - 17
+  - 24
+  - 14
+  - 17
+  - 17
+BaseAtk: '18'
+CMB: +30 (+32 bull rush, +32 disarm, +32 trip)
+CMD: 43 (45 vs. bull rush, 45 vs. disarm, 45 vs. trip)
+Feats:
+  - Blind-Fight
+  - Cleave
+  - Combat Expertise
+  - Combat Reflexes
+  - Improved Bull Rush
+  - Improved Critical (spiked chain)
+  - Improved Critical (rock)
+  - Improved Disarm
+  - Improved Trip
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Outflank
+  - Power Attack
+  - Shake It Off
+  - Vital Strike
+Skills:
+  - Bluff +16
+  - Climb +21
+  - Diplomacy +16
+  - Intimidate +19
+  - Knowledge (arcana) +10
+  - Knowledge (engineering) +14
+  - Knowledge (planes) +15
+  - Knowledge (religion) +15
+  - Perception +21 (+25 in dim light)
+  - Sense Motive +19
+  - Stealth +19 (+27 in dim light)
+  - Survival +16
+Languages:
+  - Aklo
+  - Common
+  - Giant
+  - Shadowtongue
+SQ: >-
+  cunning initiative, judgment 2/day, militant, monster lore +3, solo tactics,
+  stern gaze, track +3
+Source: AP 96
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Militant (Ex)
+    description: >-
+      A shadow giant is proficient in all simple weapons, all martial weapons,
+      and one exotic weapon of its choice; Krellan chose the spiked chain.
+  - name: Shadow Cloak (Ex)
+    description: >-
+      Because of her connection with the Plane of Shadow, as a move action in
+      any illumination other than direct sunlight, Krellan can cloak herself in
+      moving shadows that act as the blur spell for 1d6+6 rounds. She can use
+      this ability three times per day.
+Gender: Female
+BeforeCombat: >-
+  Krellan uses detect alignment to scan opponents, then casts corruption
+  resistance to protect herself from the most likely alignment-based attacks. If
+  needed, she casts see invisibility as well.
+DuringCombat: >-
+  On the first round of combat, Krellan pronounces judgment as a swift action
+  (likely destruction or justice, though she switches to healing or protection
+  as needed), activates her shadow cloak as a move action, then casts flames of
+  the faithful on her spiked chain. On the following round, she activates her
+  bane ability and attacks, using her spiked chain to trip or disarm foes and
+  taking advantage of her Outflank and Shake It Off feats.
+Morale: >-
+  Krellan's true loyalties lie elsewhere, and she is not willing to lay down her
+  life for the Storm Tyrant. If reduced to fewer than 70 hit points, she
+  activates her shadow cloak and attempts to flee. If she escapes, she might
+  reappear later in the adventure to further harass the PCs.
+Gear: potion of cure serious wounds
+OtherGear: +1 etherealness breastplate, spiked chain, cloud engineer badge (see page 28)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7036'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

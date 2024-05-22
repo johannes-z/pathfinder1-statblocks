@@ -1,0 +1,114 @@
+Name: Scarhorn
+CR: '14'
+XP: '38400'
+Race: Old Black Dragon
+MonsterSource: Pathfinder RPG Bestiary 92
+Alignment: CE
+Size: Huge
+Type: dragon
+SubType: (water)
+Init: '4'
+Senses:
+  - blindsense 60 ft., darkvision 120 ft., dragon senses
+  - Perception +25
+Aura: frightful presence (240 ft., DC 25)
+AC: 32, touch 8, flat-footed 32
+AC_Mods: (+24 natural, -2 size)
+HP: '225'
+HD: (18d12+108)
+Saves: Fort +17, Ref +11, Will +15
+Fort: '17'
+Ref: '11'
+Will: '15'
+DR: 10/magic
+Immune: acid, paralysis, sleep
+SR: '25'
+Speed: 60 ft., fly 200 ft. (poor), swim 60 ft.
+Melee:
+  - >-
+    bite +25 (2d8+13/19-20 plus 2d6 acid), 2 claws +25 (2d6+9), 2 wings +20
+    (1d8+4), tail slap +20 (2d6+13)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  acidic bite, breath weapon (100-ft. line, 16d6 acid, Reflex DC 25 for half,
+  usable every 1d4 rounds), crush (2d8+13, DC 25)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +21)
+  values:
+    - label: Constant
+      value: speak with reptiles
+    - label: At Will
+      value: darkness, plant growth
+    - label: 1/day
+      value: corrupt water
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 7th; concentration +10)   3rd (5)-beast shape I,
+    dispel magic   2nd (7)-alter self, command undead (DC 15), locate object  
+    1st (7)-alarm, charm person (DC 14), comprehend languages, shield, true
+    strike
+  values:
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 13), mage hand, mending,
+        prestidigitation, read magic
+AbilityScores:
+  - 29
+  - 10
+  - 23
+  - 16
+  - 19
+  - 16
+BaseAtk: '18'
+CMB: '29'
+CMD: 39 (43 vs. trip)
+Feats:
+  - Combat Expertise
+  - Critical Focus
+  - Flyby Attack
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Power Attack
+  - Sickening Critical
+  - Vital Strike
+Skills:
+  - Appraise +24
+  - Fly +13
+  - Intimidate +24
+  - Knowledge (arcana) +24
+  - Knowledge (geography) +21
+  - Linguistics +9
+  - Perception +25
+  - Spellcraft +24
+  - Stealth +13
+  - Swim +38
+Languages:
+  - Aklo
+  - Aquan
+  - Common
+  - Draconic
+  - Giant
+  - Thassilonian
+  - Varisian
+SQ: swamp stride, water breathing
+Source: Sandpoint, Light Of The Lost Coast
+IsTemplate: '0'
+Gender: Female
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: old
+CompanionFamiliarLink: '0'
+AlternateNameForm: Auhlzodrue
+id: '16009'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,104 @@
+Name: Roaghaz
+CR: '4'
+XP: '1200'
+Race: kobold
+Class: sorcerer 5
+MonsterSource: Pathfinder RPG Bestiary 183
+Alignment: LE
+Size: Small
+Type: humanoid
+SubType: (reptilian)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 18, touch 13, flat-footed 16
+AC_Mods: (+4 armor, +2 Dex, +1 natural, +1 size)
+HP: '30'
+HD: (5d6+10)
+Saves: Fort +3, Ref +4, Will +6
+Fort: '3'
+Ref: '4'
+Will: '6'
+Weaknesses: light sensitivity; Resist acid 5
+Speed: 30 ft.
+Melee:
+  - dagger +1 (1d3-2/19-20), bite +1 (1d4-2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: claws (2, 1d3-2, treated as magic weapons, 6 rounds/day)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +8)
+  values:
+    - label: 2nd (5/day)
+      value: acid arrow, mirror image, resist energy
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 14), chill touch (DC 14), mage armor, magic missile,
+        reduce person (DC 14)
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 13), daze (DC 13), read magic, resistance, touch
+        of fatigue (DC 13)
+AbilityScores:
+  - 6
+  - 15
+  - 12
+  - 12
+  - 8
+  - 16
+BaseAtk: '2'
+CMB: '-1'
+CMD: '11'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Improved Initiative
+  - Iron Will
+Skills:
+  - Craft (traps) +9
+  - Intimidate +9
+  - Knowledge (arcana) +7
+  - Perception +7
+  - Spellcraft +7
+RacialMods: +2 Craft (traps), +2 Perception
+Languages:
+  - Common
+  - Draconic
+SQ: >-
+  bloodline arcana (energy spells that match bloodline energy deal +1 damage per
+  die), crafty
+Source: The Dragon's Demand
+IsTemplate: '0'
+Gender: Male
+Bloodline: draconic (green)
+BeforeCombat: Roaghaz casts mage armor.
+DuringCombat: >-
+  Roaghaz employs the boulders for cover while his kobold bodyguards engage the
+  PCs. He tries to use his wand of web early to prevent too many PCs from
+  getting into the room, then casts his ranged spells until forced into melee.
+  When that seems inevitable, he casts mirror image and remains mobile as he
+  tries to stay out of reach of weapons while casting spells. He uses his cloak
+  of fangs to bite in the first 5 rounds of melee. If Nighttail is with the PCs,
+  Roaghaz is furious to see the traitorous kobold, and has his guards focus
+  their attacks exclusively on her until she is slain.
+Morale: >-
+  Roaghaz fights to the death. If the PCs manage to capture him, he rants of how
+  mighty Lord Aeteperax is, and how death and destruction await all of them.
+Gear: scrolls of glitterdust (2), wand of web (5 charges)
+OtherGear: dagger, cloak of fangsUE, key to armory (area B12), key to chests
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4686'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,108 @@
+Name: Tartuk
+CR: '4'
+XP: '1200'
+Race: kobold
+Class: sorcerer 5
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (reptilian)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +1
+AC: 18, touch 12, flat-footed 17
+AC_Mods: (+1 armor, +1 Dex, +1 natural, +4 shield, +1 size)
+HP: '22'
+HD: (5d6+5)
+Saves: Fort +1, Ref +2, Will +3
+Fort: '1'
+Ref: '2'
+Will: '3'
+Speed: 30 ft.
+Melee:
+  - mwk cold iron sickle +4 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (5/day)
+      value: detect thoughts (DC 16), invisibility, minor image (DC 16)
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 15), identify, shield, silent image (DC 15), unseen
+        servant
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, mage hand, message, prestidigitation
+AbilityScores:
+  - 8
+  - 12
+  - 11
+  - 14
+  - 8
+  - 18
+BaseAtk: '2'
+CMB: '0'
+CMD: '11'
+Feats:
+  - Alertness
+  - Arcane Strike
+  - Eschew Materials
+  - Improved Initiative
+  - Silent Spell
+Skills:
+  - Appraise +5
+  - Bluff +12
+  - Fly +0
+  - Knowledge (arcana) +7
+  - Knowledge (geography) +3
+  - Knowledge (religion) +4
+  - Perception +1
+  - Sense Motive +1
+  - Spellcraft +10
+  - Stealth +0
+  - Survival +4
+Languages:
+  - Common
+  - Draconic
+  - Gnome
+  - Undercommon
+SQ: >-
+  arcane bond (raven familiar named Tickbiter), bloodline  arcana, crafty,
+  metamagic adept 1/day
+Source: AP 31
+IsTemplate: '0'
+Gender: Male
+Bloodline: arcane
+BeforeCombat: >-
+  Tartuk casts shield as soon as he knows he'll be meeting with the PCs or hears
+  the commotion of approaching kobolds. He casts unseen servant every day as
+  well.
+DuringCombat: >-
+  Tartuk uses his wand and cause fear against enemies unless forced into melee,
+  in which case he uses Arcane Strike to increase damage done with his sickle
+  (this damage bonus is included in the stats above).
+Morale: Tartuk fights to the death, almost as if on some level he seeks it.
+Gear: wand of magic missile (CL 3rd, 28 charges)
+OtherGear: >-
+  masterwork cold iron sickle, bracers of armor +1, personal journal (see
+  Treasure below)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+BaseStatistics: >-
+  Without shield and Arcane Strike, Tartuk's stats are: AC 14, flat-footed 13;
+  Melee mwk cold iron sickle +3 (1d4&#8211;1)
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '517'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

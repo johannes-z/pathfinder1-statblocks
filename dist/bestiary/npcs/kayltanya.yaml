@@ -1,0 +1,182 @@
+Name: Kayltanya
+CR: '15'
+XP: '51200'
+Race: human
+Class: aristocrat 2/rogue 4/Red Mantis assassin 10
+MonsterSource: 'Pathfinder Campaign Setting: The Inner Sea World Guide 282'
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +22
+AC: 33, touch 21, flat-footed 27
+AC_Mods: (+6 armor, +5 deflection, +5 Dex, +1 dodge, +5 natural, +1 shield)
+HP: '159'
+HD: (16d8+84)
+Saves: Fort +11, Ref +15, Will +10
+Fort: '11'
+Ref: '15'
+Will: '10'
+DefensiveAbilities: evasion, fading, red shroud, trap sense +1, uncanny dodge
+Speed: 30 ft.
+Melee:
+  - >-
+    +5 shocking burst sawtooth sabre +19/+14/+9 (1d8+12/17-20 plus 1d6
+    electricity), +5 shock sawtooth sabre +19/+14 (1d8+10/17-20 plus 1d6
+    electricity)
+Ranged:
+  - mwk dagger +18 (1d4+3/19-20 plus large scorpion venom)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: prayer attack, sneak attack +6d6
+SpellLikeAbilities:
+  header: Red Mantis Assassin Spell-Like Abilities (CL 10th; concentration +12)
+  values:
+    - label: 3/day
+      value: mantis doom
+    - label: 1/day
+      value: summon mantis
+SpellsKnown:
+  header: Red Mantis Assassin Spells Known (CL 10th; concentration +12)
+  values:
+    - label: 4th (1/day)
+      value: dimension door, greater invisibility
+    - label: 3rd (3/day)
+      value: displacement, fly, haste, secret page
+    - label: 2nd (5/day)
+      value: >-
+        bear's endurance, bull's strength, cat's grace, mirror image, see
+        invisibility
+    - label: 1st (6/day)
+      value: disguise self, feather fall, jump, reduce person (DC 13), true strike
+AbilityScores:
+  - 16
+  - 22
+  - 20
+  - 10
+  - 8
+  - 14
+BaseAtk: '11'
+CMB: '14'
+CMD: '36'
+Feats:
+  - Alertness
+  - Dodge
+  - Exotic Weapon Proficiency (sawtooth sabre)
+  - Great Fortitude
+  - Greater Weapon Focus (sawtooth sabre)
+  - Greater Weapon Specialization (sawtooth sabre)
+  - Improved Critical (sawtooth sabre)
+  - Improved Two-Weapon Fighting
+  - Iron Will
+  - Two-Weapon Defense
+  - Two-Weapon Fighting
+  - Weapon Finesse
+  - Weapon Focus (sawtooth sabre)
+  - Weapon Specialization (sawtooth sabre)
+Skills:
+  - Acrobatics +25
+  - Bluff +21
+  - Diplomacy +13
+  - Intimidate +21
+  - Knowledge (local) +11
+  - Knowledge (religion) +7
+  - Perception +22
+  - Sense Motive +22
+  - Stealth +25
+Languages:
+  - Common
+SQ: >-
+  mantis form, resurrection sense, rogue talents (finesse rogue, weapon
+  training), trapfinding +2
+Source: Curse Of The Crimson Throne Chapter Appendix
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fading (Su)
+    description: >-
+      Up to five times a day, Kayltanya can become ethereal for an instant as
+      she is attacked by a weapon or is forced to attempt a Reflex saving throw.
+      She must choose to activate this ability before the weapon's attack roll
+      or the spell's effects are adjudicated. This grants her a 50% chance to
+      avoid taking damage from the attack or effect.
+  - name: Mantis Doom (Sp)
+    description: >-
+      Kayltanya can cast creeping doom as a spell-like ability three times per
+      day. This version of the spell summons swarms of venomous praying
+      mantises, but the effects are otherwise the same as the spell.
+  - name: Mantis Form (Su)
+    description: >-
+      Once per day as a standard action, Kayltanya can transform into a
+      blood-red giant praying mantis, as if using vermin shape IIUM (CL 10th).
+      In addition to the normal adjustments to Strength, Dexterity, and natural
+      armor provided by this spell effect, she gains the giant mantis's 60 feet
+      of darkvision, as well as its grab, lunge, mandibles, and sudden strike
+      extraordinary abilities, but not its immunity to mind-affecting effects or
+      its racial modifiers on Perception or Stealth checks. If she wields a
+      magical sawtooth sabre in her hand when she transforms, the magical
+      enhancements for that weapon apply to her corresponding claw attack-if she
+      wields two of them, then the enhancements from each weapon apply to a
+      different claw attack. She gains DR 10/ good in mantis form, and her
+      mandibles impose 1 negative level on a hit (she gains 5 temporary hit
+      points each time she inflicts a negative level in this way). A successful
+      DC 25 Fortitude save removes this negative level.
+  - name: Prayer Attack (Su)
+    description: >-
+      A successful DC 19 Will save resists the effects of Kayltanya's prayer
+      attack. See page 145 for more details on this signature Red Mantis
+      assassination style.
+  - name: Red Shroud (Su)
+    description: >-
+      Kayltanya's red shroud persists for 10 rounds when she activates it-she
+      can use this ability 5 times per day. See page 145 for more details on
+      this Red Mantis defense.
+  - name: Resurrection Sense (Su)
+    description: >-
+      Kayltanya senses if a creature she has slain within the last year has been
+      restored to life, as long as they are both on the same plane.
+  - name: Summon Mantis (Sp)
+    description: >-
+      Once per day, Kayltanya can summon an advanced fiendish giant mantis, 1d3
+      fiendish giant mantises, or 1d4+1 giant mantises, as per summon monster V.
+      She can mentally direct the actions of these summoned vermin as a free
+      action. All mantises summoned by this spell-like ability are blood red,
+      and gain no racial bonus on Stealth checks in forests.
+Gender: Female
+BeforeCombat: >-
+  As soon as the castle alarm is raised, Kayltanya coats her two sabres with
+  doses of oil of greater magic weapon +5. Before combat begins, she casts
+  bear's endurance, cat's grace, and bull's strength, then drinks a potion of
+  barkskin +5 and a potion of shield of faith +5.
+DuringCombat: >-
+  When combat begins, Kayltanya casts greater invisibility, then moves to a new
+  location and casts haste on the second round, affecting herself and as many
+  allies as possible. On the third round, she summons 1d3 fiendish giant praying
+  mantises into the battle, placing them in flanking positions around intruders.
+  She throws poisoned daggers if a PC is within 10 feet; otherwise, she moves to
+  strike with her sabres. She assumes mantis  form before entering combat if
+  there's room for her size increase. She holds off using mantis doom until she
+  is sure she can use it to kill off a wounded PC.
+Morale: Kayltanya fights to the death.
+Gear: >-
+  mask of the mantis, oil of greater magic weapon +5 (3), potion of barkskin +5
+  (2), potion of shield of faith +5 (3), large scorpion venom (10)
+OtherGear: >-
+  +3 studded leather, +1 shock sawtooth sabreUE, +1 shocking burst sawtooth
+  sabreUE, mwk daggers (10), 55 pp, 5 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8710'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

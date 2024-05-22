@@ -1,0 +1,95 @@
+Name: Fangwood Bandersnatch
+CR: '15'
+XP: '51200'
+Race: lesser bandersnatch
+MonsterSource: Pathfinder RPG Bestiary 3 32
+Alignment: NE
+Size: Huge
+Type: magical beast
+Init: '9'
+Senses:
+  - blindsense 120 ft., darkvision 120 ft., low-light vision, scent
+  - Perception +19
+AC: 31, touch 13, flat-footed 26
+AC_Mods: (+5 Dex, +18 natural, -2 size)
+HP: '230'
+HD: (20d10+120)
+HP_Mods: fast healing 10
+Saves: Fort +18, Ref +17, Will +9
+Fort: '18'
+Ref: '17'
+Will: '9'
+DefensiveAbilities: quill defense
+Immune: fear, paralysis, poison, sleep
+Speed: 60 ft., climb 20 ft.
+Melee:
+  - >-
+    bite +29 (2d6+11 plus grab), 2 claws +29 (1d8+11/19-20), tail slap +24
+    (2d6+5/x3 plus pain)
+Ranged:
+  - 4 quills +23 (1d8+11/19-20)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with tail slap)
+SpecialAttacks: >-
+  bounding charge, brutal tail, gaze (DC 26), lash out, pain (DC 25), pounce,
+  rake (4 claws, +29, 1d8+11/19-20), rend (2 claws, 1d8+16)
+AbilityScores:
+  - 32
+  - 21
+  - 23
+  - 2
+  - 13
+  - 16
+BaseAtk: '20'
+CMB: +33 (+37 grapple)
+CMD: 48 (54 vs. trip)
+Feats:
+  - Bleeding Critical
+  - Combat Reflexes
+  - Critical Focus
+  - Improved Critical (claw
+  - quill)
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Skill Focus (Stealth)
+  - Tiring Critical
+Skills:
+  - Acrobatics +21 (+33 when jumping)
+  - Climb +19
+  - Perception +19
+  - Stealth +20 (+32 in forests)
+  - Survival +1 (+21 when tracking)
+RacialMods: >-
+  +8 Acrobatics, +10 Perception, +4 Stealth (+12 in forests), +20 Survival when
+  tracking
+SQ: planar acclimation, relentless tracker
+Source: d20pfsrd
+IsTemplate: '0'
+BeforeCombat: >-
+  The bandersnatch hides if it hears strangers approach, taking advantage of the
+  thick foliage of its den.
+DuringCombat: >-
+  In dense foliage like that in this den and the forest above, the bandersnatch
+  relies on its bounding charge, pounce, and rake abilities to attack quickly,
+  then fall back out of sight. In more open terrain (such as the rest of the
+  palace) it instead harries prey with its quills.
+Morale: >-
+  If reduced below 60 hit points, the bandersnatch flees to let its fast healing
+  restore its strength. Afterward, it stalks the PCs once again, attacking when
+  they seem distracted.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11502'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

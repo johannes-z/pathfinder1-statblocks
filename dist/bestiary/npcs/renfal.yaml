@@ -1,0 +1,151 @@
+Name: Renfal
+CR: '17'
+XP: '102400'
+Race: cloud giant
+Class: cleric of gozreh 8
+MonsterSource: Pathfinder RPG Bestiary 144, 147
+Alignment: 'N'
+Size: Huge
+Type: undead
+SubType: (augmented humanoid, incorporeal)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +28
+AC: 15, touch 15, flat-footed 13
+AC_Mods: (+5 deflection, +2 Dex, -2 size)
+HP: '236'
+HD: (24 HD; 16d8+8d8+128)
+Saves: Fort +21, Ref +9, Will +19
+Fort: '21'
+Ref: '9'
+Will: '19'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: undead traits
+Resist: electricity 10
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +18 touch (17d6, Fort DC 27 half)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  channel positive energy 8/day (DC 19, 4d6), frightful moan (DC 27),
+  telekinesis, vehemence (DC 27), wind blast 9/day
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +21)
+  values:
+    - label: At Will
+      value: levitate (self plus 2,000 lbs.), obscuring mist
+    - label: 3/day
+      value: >-
+        dancing lights, ghost sound (DC 15), minor image (DC 17), soften earth
+        and stone, whispering wind
+    - label: 1/day
+      value: fog cloud Domain Spell-Like Abilities (CL 8th; concentration +14)
+    - label: At Will
+      value: lightning lord (8 bolts/day)
+    - label: 9/day
+      value: storm burst (1d6+4 nonlethal)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 8th; concentration +14)  4th-sending, sleet stormD,
+  spell immunity, spiritual allyAPG  3rd-call lightningD (DC 19), dispel magic,
+  helping hand, prayer, protection from energy  2nd-aid, eagle's splendor, hold
+  person (DC 18), silence (DC 18), spiritual weapon, wind wallD  1st-bless,
+  command (DC 17), deathwatch, endure elements, entropic shield, sanctuary (DC
+  17), whispering windD  0 (at will)-create water, detect magic, guidance, read
+  magic
+SpellDomains: Air (WindAPG subdomain), Weather
+AbilityScores:
+  - —
+  - 15
+  - —
+  - 14
+  - 22
+  - 20
+BaseAtk: '18'
+CMB: '22'
+CMD: '37'
+Feats:
+  - Awesome Blow
+  - Cleave
+  - Craft Wondrous Item
+  - Great Cleave
+  - Improved Bull Rush
+  - Improved Initiative
+  - Improved Overrun
+  - Intimidating Prowess
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Knowledge [engineering])
+  - Skill Focus (Perform [string instruments])
+Skills:
+  - Craft (alchemy) +15
+  - Diplomacy +18
+  - Fly +6
+  - Intimidate +18
+  - Knowledge (arcana) +15
+  - Knowledge (engineering) +20
+  - Knowledge (religion) +15
+  - Perception +28
+  - Perform (string instruments) +22
+  - Spellcraft +15
+  - Stealth +7
+Languages:
+  - Auran
+  - Common
+  - Giant
+SQ: frightener, oversized weapon
+Source: AP 96
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Frightener (Su)
+    description: >-
+      Renfal's unique personality manifests even in death. He gains the use of
+      the following spell-like abilities three times per day: dancing lights,
+      ghost sound, minor image, soften earth and stone, and whispering wind. He
+      can manifest these effects in areas related to his emotions throughout
+      Ironcloud Keep and Ashpeak's caldera (including areas E5, F26, F32, F41,
+      and F51), even if he doesn't have line of effect. This ability originally
+      appeared on page 25 of Pathfinder Campaign Setting: Classic Horrors
+      Revisited.
+  - name: Rejuvenation (Su)
+    description: >-
+      Renfal can't be permanently laid to rest or destroyed until Ironcloud Keep
+      is out of the hands of the Storm Tyrant. If Volstus is killed and control
+      of the cloud castle is returned to Renfal, the cloud giant is finally free
+      to pass on to the afterlife.
+  - name: Vehemence (Su)
+    description: >-
+      Renfal's connection to Ironcloud Keep is so powerful that he possesses a
+      measure of mastery over objects in the cloud castle. Once per round,
+      Renfal can possess a Large or smaller object, giving it life as an
+      animated object with a CR no higher than 15. If the target object is being
+      held by a creature, the object can attempt a DC 27 Will save using its
+      bearer's saving throw bonus to resist possession. If the animated object
+      is destroyed, Renfal reappears in its space and cannot possess another
+      object for 1d4 rounds. This ability originally appeared on page 26 of
+      Classic Horrors Revisited.
+Gender: Male
+DuringCombat: >-
+  Renfal avoids combat as much as possible. If forced to fight, he relies almost
+  exclusively on the massive damage his corrupting touch can inflict on the
+  living, coupled with any spells that might be of use.
+Morale: >-
+  Tied to Ironcloud Keep as long as it remains under the control of the Storm
+  Tyrant, Renfal rejuvenates in 2d4 days if destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7051'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

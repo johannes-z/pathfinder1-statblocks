@@ -1,0 +1,133 @@
+Name: Chernobue
+CR: '12'
+XP: '19200'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, evil, extraplanar, qlippoth)
+Init: '4'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +18
+Aura: misfortune (30 ft.)
+AC: 27, touch 13, flat-footed 23
+AC_Mods: (+4 Dex, +14 natural, -1 size)
+HP: '150'
+HD: (12d10+84)
+Saves: Fort +15, Ref +10, Will +11
+Fort: '15'
+Ref: '10'
+Will: '11'
+DR: 10/lawful
+Immune: cold, poison, mind-affecting effects
+Resist: acid 10, electricity 10, fire 10
+SR: '23'
+Weaknesses: light vulnerability
+Speed: 40 ft.
+Melee:
+  - >-
+    2 slams +19 (1d6+8/19-20 plus 1 Con damage), bite +19  (2d6+8 plus poison),
+    2 tentacles +14 (1d6+4)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with slams and tentacles)
+SpecialAttacks: horrific appearance (DC 20)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: Constant
+      value: air walk, arcane sight
+    - label: At will
+      value: chaos hammer (DC 18), darkness
+    - label: 3/day
+      value: confusion (DC 18), quickened darkness, dispel magic, protection from law
+    - label: 1/day
+      value: plane shift (DC 21)
+AbilityScores:
+  - 26
+  - 18
+  - 24
+  - 13
+  - 17
+  - 19
+BaseAtk: '12'
+CMB: '21'
+CMD: 35 (39 vs. trip)
+Feats:
+  - Blind-Fight
+  - Improved Critical (slam)
+  - Lightning Reflexes
+  - Power Attack
+  - Quicken Spell-Like Ability (darkness)
+  - Vital Strike
+Skills:
+  - Acrobatics +19 (+23 jump)
+  - Escape Artist +19
+  - Intimidate +19
+  - Knowledge (planes) +16
+  - Perception +18
+  - Sense Motive +18
+  - Stealth +15
+Languages:
+  - Abyssal
+  - telepathy 100 ft.
+Environment: any (the Abyss)
+Organization: solitary, pair, or gang (3-6)
+Treasure: standard
+Description_Visual: >-
+  This slippery, writhing mass of tentacles and stalked mouths has one huge
+  hideous eye and a fanged maw for a belly.
+Group: Qlippoth
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Misfortune (Su)
+    description: >-
+      A chernobue radiates an aura of evil malaise to a radius of 30 feet. All
+      lawful or good creatures in this area take a -1 penalty on attack rolls
+      and weapon damage rolls. Lawful good creatures take a -3 penalty and upon
+      first entering the aura must make a DC 20 Fortitude save or be sickened
+      for as long as they remain in the area. This ability is Charisma-based.
+  - name: Horrific Appearance (Su)
+    description: >-
+      Creatures that succumb to a chernobue's horrific appearance become
+      paralyzed with disgust for 2d6 rounds; a paralyzed creature gets a new
+      save each round to recover from the effect, provided he is no longer aware
+      of the chernobue or within 30 feet of it.
+  - name: Light Vulnerability (Ex)
+    description: >-
+      A chernobue within an area of bright light takes 1 point of Constitution
+      damage per minute it remains in the area.
+  - name: Poison (Su)
+    description: >-
+      Bite-injury; save Fort DC 23; frequency 1/round for 6 rounds; effect 1d2
+      Con drain; cure 1 save. The thick, orange poison injected by a chernobue
+      is semi-alive. As soon as the poisoned victim is cured of the poison (by
+      making a save, being targeted with an effect like neutralize poison, or
+      enduring the full duration of the poison), the orange fluid bursts from
+      the victim's body, causing 1d6 Charisma damage and rendering the victim
+      unconscious for 2d6 rounds unless he makes a final DC 23 Fortitude save.
+      The save DC is Constitution-based.
+Description:
+  - >-
+    The chernobue is a living manifestation of the vile fecundity of the Abyss-a
+    monstrous, alien pregnancy made flesh. By infecting creatures with the
+    Abyssal taint they carry, they spread pain and misfortune wherever they flop
+    and writhe-and with their plane shift ability, they are ready to spread
+    their filth throughout the multiverse. A chernobue is 13 feet long and
+    weighs 500 pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Qlippoth, Chernobue
+id: '1323'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

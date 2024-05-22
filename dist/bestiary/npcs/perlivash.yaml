@@ -1,0 +1,104 @@
+Name: Perlivash
+CR: '2'
+XP: '600'
+Race: faerie dragon
+MonsterSource: Pathfinder RPG Bonus Bestiary 9
+Alignment: CG
+Size: Tiny
+Type: dragon
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +8
+AC: 18, touch 16, flat-footed 14
+AC_Mods: (+3 Dex, +1 dodge, +2 natural, +2 size)
+HP: '22'
+HD: (3d12+3)
+Saves: Fort +4, Ref +6, Will +5
+Fort: '4'
+Ref: '6'
+Will: '5'
+Immune: paralysis, sleep
+SR: '13'
+Speed: 30 ft., fly 60 ft. (perfect), swim 30 ft.
+Melee:
+  - bite +4 (1d3-1)
+Space: 2 1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: breath weapon
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +6)
+  values:
+    - label: 3/day
+      value: greater invisibility (self only)
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 3rd; concentration +6)  1st (6)-grease (DC 14),
+    silent image (DC 14), sleep (DC 14)
+  values:
+    - label: 0 (at will)
+      value: dancing lights, flare (DC 13), ghost sound, mage hand, open/close
+AbilityScores:
+  - 9
+  - 17
+  - 13
+  - 16
+  - 14
+  - 16
+BaseAtk: '3'
+CMB: '4'
+CMD: 14 (18 vs. trip)
+Feats:
+  - Acrobatic
+  - Dodge
+Skills:
+  - Acrobatics +8
+  - Bluff +9
+  - Diplomacy +9
+  - Fly +23
+  - Perception +8
+  - Sense Motive +8
+  - Stealth +17
+  - Swim +13
+  - Use Magic Device +9
+Languages:
+  - Common
+  - Draconic
+  - Elven
+  - Sylvan
+  - telepathy 100 ft.
+Source: AP 31
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      5-foot cone, euphoria for 1d6 rounds, DC 12 Fortitude negates. Affected
+      creatures are staggered, sickened, and immune to fear effects for the
+      duration of the euphoria. A faerie dragon can use this breath weapon once
+      every 1d4 rounds. The save DC is Constitution-based.
+Gender: Male
+BeforeCombat: Perlivash casts greater invisibility before combat.
+DuringCombat: >-
+  The faerie dragon prefers to defeat foes by using his spell-like abilities and
+  breath weapon to confuse and disorient creatures, hopefully causing them to
+  flee the area or giving Perlivash himself a chance to flee. He only resorts to
+  his bite when he fears that letting a foe live would lead to a greater evil.
+Morale: >-
+  Perlivash flees if brought below 10 hit points, unless a friend is in peril,
+  in which case he only flees if he can bring his friend with
+  him&#8211;otherwise, he fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '510'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

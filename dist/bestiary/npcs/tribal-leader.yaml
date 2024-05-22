@@ -1,0 +1,128 @@
+Name: Tribal Leader
+CR: '12'
+XP: '19200'
+Race: human
+Class: bard 13
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - see invisibility
+  - Perception +10
+AC: 21, touch 13, flat-footed 18
+AC_Mods: (+6 armor, +2 Dex, +1 dodge, +2 shield)
+HP: '78'
+HD: (13d8+16)
+Saves: >-
+  Fort +5, Ref +10, Will +8; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '5'
+Ref: '10'
+Will: '8'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - +2 spear +14/+9 (1d8+5/19-20/x3)
+Ranged:
+  - +2 spear +14/+9 (1d8+4/19-20/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 32 rounds/day (swift action; countersong, dirge of doom,
+  distraction, fascinate, inspire competence +4, inspire courage +3, inspire
+  greatness, soothing performance, suggestion)
+SpellsKnown:
+  header: Bard Spells Known (CL 13th; concentration +17)
+  values:
+    - label: 5th (1/day)
+      value: mass suggestion (DC 19), nightmare (DC 19)
+    - label: 4th (4/day)
+      value: >-
+        cure critical wounds (DC 18), hallucinatory terrain (DC 18), speak with
+        plants, summon monster IV
+    - label: 3rd (5/day)
+      value: >-
+        fear (DC 17), haste (DC 17), see invisibility, slow (DC 17), speak with
+        animals
+    - label: 2nd (6/day)
+      value: cat's grace, invisibility, rage, silence (DC 16), tongues
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 15), comprehend languages, expeditious retreat, grease,
+        hideous laughter (DC 15), ventriloquism (DC 15)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, flare (DC 14), ghost sound (DC 14), light, mage hand,
+        message
+AbilityScores:
+  - 14
+  - 14
+  - 12
+  - 10
+  - 10
+  - 19
+BaseAtk: '9'
+CMB: '11'
+CMD: '24'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (spear)
+  - Persuasive
+  - Point-Blank Shot
+  - Power Attack
+  - Vital Strike
+  - Weapon Focus (spear)
+Skills:
+  - Bluff +16
+  - Diplomacy +6
+  - Intimidate +6
+  - Knowledge (arcana) +10
+  - Knowledge (dungeoneering) +10
+  - Knowledge (religion) +10
+  - Knowledge (geography) +15
+  - Knowledge (nature) +15
+  - Perception +10
+  - Perform (dance) +20
+  - Perform (oratory) +20
+  - Perform (percussion) +20
+  - Sense Motive +10
+  - Spellcraft +10
+  - Stealth +14
+  - Use Magic Device +15
+Languages:
+  - Common
+SQ: >-
+  bardic knowledge +6, jack-of-all-trades (use any skill), lore master 2/day,
+  versatile performance (oratory, percussion, dance)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The bard casts expeditious retreat and see invisibility.
+DuringCombat: >-
+  The bard uses hallucinatory terrain to befuddle and confuse enemies. To aid
+  her side, she casts summon monster IV. She targets casters with silence and
+  other combatants with slow, using her wand of magic missiles to aid in dealing
+  damage.
+Gear: >-
+  scrolls of bull's strength (2), scroll of fog cloud, scroll of web, wand of
+  magic missile (CL 5th, 50 charges)
+OtherGear: >-
+  +3 studded leather, +1 buckler, +2 spear, headband of alluring Charisma +2, 8
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3628'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

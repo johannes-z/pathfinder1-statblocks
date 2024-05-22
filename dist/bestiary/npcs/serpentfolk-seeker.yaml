@@ -1,0 +1,122 @@
+Name: Serpentfolk Seeker
+CR: '7'
+XP: '3200'
+Race: Serpentfolk
+Class: fighter 2/sorcerer 2
+MonsterSource: Pathfinder RPG Bestiary 2 242
+Alignment: NE
+Size: Medium
+Type: monstrous humanoid
+Init: '6'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +13
+AC: 23, touch 16, flat-footed 17
+AC_Mods: (+4 armor, +6 Dex, +3 natural)
+HP: '83'
+HD: (9 HD; 7d10+2d6+38)
+Saves: Fort +10, Ref +10, Will +10; +1 vs. fear
+Fort: '10'
+Ref: '10'
+Will: '10'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1
+Immune: mind-affecting effects, paralysis, poison
+SR: '19'
+Speed: 30 ft.
+Melee:
+  - +1 shotel +11/+6 (1d8+2/19-20/x3), bite +4 (1d6 plus poison)
+Ranged:
+  - dart +14 (1d4+1 plus deathblade poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: claws (1d4+1, 8 rounds/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +9)
+  values:
+    - label: At will
+      value: disguise self (DC 18), ventriloquism
+    - label: 1/day
+      value: >-
+        blur, dominate person (DC 20), major image (DC 18), mirror image,
+        suggestion (DC 20)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 2nd; concentration +7)
+  values:
+    - label: 1st (6/day)
+      value: burning hands (DC 16), mage armor
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, flare (DC 15), ray of frost, read magic
+AbilityScores:
+  - 13
+  - 23
+  - 19
+  - 18
+  - 13
+  - 20
+BaseAtk: '8'
+CMB: '14'
+CMD: '25'
+Feats:
+  - Agile Maneuvers
+  - Combat Reflexes
+  - Eschew Materials
+  - Exotic Weapon Proficiency (shotel)
+  - Great Fortitude
+  - Improved Critical (shotel)
+  - Iron Will
+  - Weapon Focus (shotel)
+Skills:
+  - Acrobatics +15
+  - Craft (alchemy) +13
+  - Disguise +12 (+22 with disguise self )
+  - Escape Artist +12
+  - Knowledge (arcana) +13
+  - Perception +13
+  - Spellcraft +13
+  - Stealth +18
+  - Use Magic Device +14
+Languages:
+  - Aklo
+  - Azlanti
+  - Draconic
+  - Necril
+  - Undercommon
+  - telepathy 100 ft.
+SQ: bloodline arcana
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 18; frequency 1/round for 6 rounds; effect 1d2
+      Str; cure 2 saves.
+Bloodline: draconic (red)
+BeforeCombat: The serpentfolk cast blur, mage armor, and mirror image before combat.
+DuringCombat: >-
+  The serpentfolk try to keep opponents at bay with spells and poisoned darts.
+  In melee, they try to single out one opponent at a time.
+Morale: >-
+  If the serpentfolk have not found Juliver, they flee when reduced to fewer
+  than 50 hit points, or when one of them is slain. If they have captured
+  Juliver, they fight to the death, trying to kill her first to keep their
+  secret safe.
+Gear: >-
+  +1 shotel*, darts (10), deathblade poison (3 doses)  *The shotel is a downward
+  curving sword that provides a +1 bonus on attack rolls against opponents with
+  light shields, heavy shields, or bucklers (Adventurer's Armory 5).
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1043'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

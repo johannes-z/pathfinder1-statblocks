@@ -1,0 +1,106 @@
+Name: Zanathura Prophet
+CR: '7'
+XP: '3200'
+Race: Morlock
+Class: oracle 6
+MonsterSource: Pathfinder RPG Bestiary 209, Pathfinder RPG Advanced Player's Guide 42
+Alignment: NE
+Size: Large
+Type: monstrous humanoid
+Init: '6'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +5
+AC: 20, touch 13, flat-footed 18
+AC_Mods: (+5 armor, +2 deflection, +2 Dex, +2 natural, -1 size)
+HP: '85'
+HD: (9 HD; 6d8+3d10+42)
+Saves: Fort +7, Ref +10, Will +13
+Fort: '7'
+Ref: '10'
+Will: '13'
+Immune: disease, poison
+Weaknesses: light blindness
+Speed: 40 ft., climb 30 ft.
+Melee:
+  - +1 morningstar +12/+7 (2d6+6), bite +6 (1d6+3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: leap attack, sneak attack +1d6, swarming
+SpellsKnown:
+  header: Oracle Spells Known (CL 6th; concentration +7)
+  values:
+    - label: 3rd (3/day)
+      value: inflict serious wounds (DC 14), magic vestment, prayer
+    - label: 2nd (5/day)
+      value: darkness, fog cloud, inflict moderate wounds (DC 13), spiritual weapon
+    - label: 1st (7/day)
+      value: >-
+        cure light wounds, divine favor, enlarge person (DC 12), inflict light
+        wounds (DC 12), remove fear, shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 11), create water, detect poison, guidance, resistance,
+        stabilize, virtue
+AbilityScores:
+  - 18
+  - 15
+  - 17
+  - 5
+  - 18
+  - 13
+BaseAtk: '7'
+CMB: '13'
+CMD: '26'
+Feats:
+  - Combat Casting
+  - Improved Initiative
+  - Improved Natural Armor
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Acrobatics +12 (+16 to jump)
+  - Climb +24
+  - Knowledge (religion) +3
+  - Perception +5
+  - Stealth +3 (+7 in caverns),
+RacialMods: +8 Acrobatics, +16 Climb, +4 Stealth in caverns
+Languages:
+  - Undercommon
+SQ: >-
+  expert climber, oracle's curse (clouded vision), revelations (surprising
+  charge 1/day, war sight)
+Source: AP 117
+IsTemplate: '0'
+BeforeCombat: >-
+  Before the battle begins, the prophet casts magic vestment on his armor, and
+  before rushing into combat, he also casts enlarge person, prayer, and shield
+  of faith.
+DuringCombat: >-
+  The prophet casts spiritual weapon-creating phantom fangs to attack
+  enemies-then darkness before closing to melee combat. He moves among the
+  morlock troop, benefiting from his swarming racial ability while sharing their
+  space.
+Morale: The prophet is a fanatic and fights to the death.
+Gear: potions of bear's endurance (2), potions of cure moderate wounds (2)
+OtherGear: +1 chain shirt, +1 morningstar, headband of alluring charisma +2, 42 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his spells, the prophet's statistics are Init +7; AC 19, flat-footed
+  16; Fort +6, Will +12; Melee +1 morningstar +11 (1d8+4), bite +5 (1d4+1); Str
+  16, Dex 17, CMB +10; CMD 23; Skills Climb +22, Stealth +7.
+AgeCategory: Adult
+Mystery: battle
+CompanionFamiliarLink: '0'
+id: '11207'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

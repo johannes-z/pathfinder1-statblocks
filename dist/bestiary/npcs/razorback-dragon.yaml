@@ -1,0 +1,97 @@
+Name: Razorback Dragon
+CR: '8'
+XP: '4800'
+Race: Razorback Dragon
+Alignment: CN
+Size: Large
+Type: dragon
+SubType: (augmented animal)
+Init: '2'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft., low-light vision, scent
+  - Perception +11
+Aura: stench (30 ft., DC 19, 5 rounds)
+AC: 20, touch 11, flat-footed 18
+AC_Mods: (+2 Dex, +9 natural, -1 size)
+HP: '112'
+HD: (9d12+54)
+Saves: Fort +11, Ref +8, Will +9
+Fort: '11'
+Ref: '8'
+Will: '9'
+DefensiveAbilities: ferocity
+Immune: paralysis, sleep
+Resist: fire 10
+Speed: 30 ft., fly 40 ft. (good)
+Melee:
+  - bite +14 (2d6+6), 2 claws +14 (1d6+6), tail slap +9 (1d8+3)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (30-ft. cone, once every 1d4 rounds, 3d6 acid damage and speed
+  penalty, Reflex DC 19 half)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +10)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: obscuring mist
+    - label: 1/day
+      value: sound burst (DC 13), stinking cloud (DC 14)
+AbilityScores:
+  - 23
+  - 14
+  - 21
+  - 2
+  - 17
+  - 12
+BaseAtk: '9'
+CMB: +17 (+19 bull rush)
+CMD: 29 (31 vs. bull rush, 33 vs. trip)
+Feats:
+  - Awesome Blow
+  - Flyby Attack
+  - Improved Bull Rush
+  - Power Attack
+  - Toughness
+Skills:
+  - Fly +16
+  - Perception +11
+  - Stealth +5
+Source: We Be 5uper Goblins
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      Once every 1d4 rounds as a standard action, the razorback dragon can belch
+      a 30-foot cone of sticky, caustic slop. All creatures in the area of
+      effect take 3d6 points of acid damage and reduce all movement speeds by
+      1d6x5 feet; creatures whose speed is reduced to 0 is glued in place,
+      unable to move from its current location. A successful DC 19 Reflex save
+      negates this speed penalty and reduces the acid damage by half. Speed
+      penalties from the razorback dragon's breath weapon are cumulative. The
+      save DC is Constitution-based.
+  - name: Stench (Ex)
+    description: The razorback dragon's stench has no effect on goblinoids.
+DuringCombat: >-
+  Once he decides to attack, Squealy Nord descends in a fuming cloud of mist,
+  roaring and posturing for a full round before unleashing his stinking cloud
+  ability and breath weapon. If enemies remain, he lashes out with natural
+  weapons.
+Morale: Nord flees if reduced below 30 hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11839'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

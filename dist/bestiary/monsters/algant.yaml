@@ -1,0 +1,120 @@
+Name: Algant
+CR: '7'
+XP: '3200'
+Alignment: NG
+Size: Huge
+Type: plant
+SubType: (aquatic)
+Init: '2'
+Senses:
+  - blindsense 60 ft., tremorsense 120 ft.
+  - Perception +11
+AC: 20, touch 10, flat-footed 18
+AC_Mods: (+2 Dex, +10 natural, -2 size)
+HP: '95'
+HD: (10d8+50)
+Saves: Fort +12, Ref +5, Will +7
+Fort: '12'
+Ref: '5'
+Will: '7'
+DR: 10/slashing
+Immune: plant traits
+Weaknesses: vulnerability to fire
+Speed: 10 ft., swim 30 ft.
+Melee:
+  - slam +12 (2d6+10/19-20 plus grab)
+Space: 15 ft.
+Reach: 10 ft.
+AbilityScores:
+  - 25
+  - 14
+  - 21
+  - 12
+  - 15
+  - 12
+BaseAtk: '7'
+CMB: +16 (+20 grapple)
+CMD: '28'
+Feats:
+  - Alertness
+  - Endurance
+  - Improved Critical (slam)B
+  - Iron Will
+  - Power Attack
+  - Swim-By Attack
+Skills:
+  - Diplomacy +7
+  - Intimidate +7
+  - Knowledge (nature) +7
+  - Perception +11
+  - Sense Motive +8
+  - Stealth +1 (+17 in native environs)
+  - Swim +15
+RacialMods: +16 Stealth in native environment
+Languages:
+  - Algant
+  - Aquan
+  - Common
+SQ: amphibious, animate plants, double damage against objects, plantspeech
+Environment: any freshwater
+Organization: solitary or patch (2-7)
+Treasure: standard
+Description_Visual: A large tentacle rises from this gigantic mass of seaweed.
+Group: Plant Guardian
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Engulf (Ex)
+    description: >-
+      An algant can simply engulf Huge or smaller creatures in its path as a
+      standard action. It cannot make a slam attack during the round in which it
+      engulfs. The algant merely has to move over the opponents, affecting as
+      many as it can cover. Opponents can make attacks of opportunity against
+      the creature, but if they do so they are not entitled to a saving throw.
+      Those who do not attempt attacks of opportunity can attempt a DC 22 Reflex
+      save to avoid being engulfed-in a success, they are pushed back or aside
+      (opponent's choice) as the creature moves forward. Engulfed creatures are
+      subject to an automatic slam attack each round, gain the pinned condition,
+      are in danger of drowning, and are trapped within the algant's body until
+      they are no longer pinned. The save DC is Strength-based.
+  - name: Animate Plants (Sp)
+    description: >-
+      A plant guardian can animate any plants of the same type within 180 feet
+      at will, controlling up to two such plants at a time. It takes 1 full
+      round for the plant to uproot itself, after which it moves at a speed of
+      10 feet and fights as a plant of the same type as the one animating it
+      (exceptions are noted in each entry below), gaining the plant guardian's
+      vulnerability to fire. If the plant guardian that animated it terminates
+      the animation, moves out of range, or is incapacitated, the plant
+      immediately takes root wherever it is and returns to its normal state.
+  - name: Double Damage against Objects (Ex)
+    description: >-
+      A plant guardian or animated tree that makes a full attack against an
+      object or structure deals double damage.
+  - name: Plantspeech (Ex)
+    description: >-
+      A plant guardian has the ability to converse with plants as if subject to
+      a continual speak with plants spell, and most plants greet them with an
+      attitude of friendly or helpful.
+Description:
+  - >-
+    The algants are the plant guardians of the water. An algant resembles a
+    large mass of algae and dwells in freshwater.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5031'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,157 @@
+Name: Choral Angel
+CR: '6'
+XP: '2400'
+Alignment: NG
+Size: Small
+Type: outsider
+SubType: (angel, extraplanar, good)
+Init: '7'
+Senses:
+  - darkvision 60 ft., detect evil
+  - Perception +16
+Aura: protective aura
+AC: 19, touch 14, flat-footed 16
+AC_Mods: (+3 Dex, +5 natural, +1 size)
+HP: '68'
+HD: (8d10+24)
+Saves: Fort +6, Ref +9, Will +9; +4 vs. poison, +4 resistance vs. evil
+Fort: '6'
+Ref: '9'
+Will: '9'
+Save_Mods: +4 vs. poison, +4 resistance vs. evil
+DR: 5/evil
+Immune: acid, cold, petrification
+Resist: electricity 10, fire 10
+SR: '17'
+Speed: 40 ft., fly 60 ft. (good)
+Melee:
+  - slam +10 (1d3+1)
+Ranged:
+  - piercing hymn +12 (2d6 sonic plus deafen)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: countersong, harmonize
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +11)
+  values:
+    - label: Constant
+      value: detect evil
+    - label: At Will
+      value: >-
+        aid, dispel evil (DC 18), dispel magic, ghost sound (DC 13),
+        invisibility (self only), plane shift (DC 18), remove curse, remove
+        disease, remove fear
+    - label: 3/day
+      value: cure moderate wounds, sculpt sound (DC 16), sound burst (DC 15)
+AbilityScores:
+  - 13
+  - 16
+  - 15
+  - 16
+  - 16
+  - 17
+BaseAtk: '8'
+CMB: '8'
+CMD: '21'
+Feats:
+  - Alertness
+  - Great Fortitude
+  - Improved Initiative
+  - Toughness
+Skills:
+  - Acrobatics +14
+  - Diplomacy +14
+  - Escape Artist +11
+  - Fly +20
+  - Knowledge (planes) +14
+  - Knowledge (religion) +14
+  - Perception +16
+  - Perform (sing) +14
+  - Sense Motive +16
+Languages:
+  - Celestial
+  - Draconic
+  - Infernal
+  - truespeech
+Environment: any good-aligned plane
+Organization: solitary, duet, or ensemble (3-8)
+Treasure: standard
+Description_Visual: >-
+  This celestial looks like a miniature human wearing a long, sheer robe that
+  matches her broad, platinum wings. Her silver hair slowly ripples through the
+  air of its own volition, highlighting the angel's serene expression.
+Group: Angel
+Source: Chronicle Of The Righteous
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Countersong (Su)
+    description: >-
+      A choral angel can attempt a Perform (sing) check to counter magic effects
+      that depend on sound. This ability functions as the bard ability of the
+      same name.
+  - name: Harmonize (Sp)
+    description: >-
+      When choral angels work together, they can use their complementary voices
+      to create mystical harmonies. Two or more choral angels within 60 feet of
+      one another can use calm emotions or heroism as a spell-like ability, four
+      or more choral angels can use shout, and six or more choral angels can use
+      greater heroism or holy word. Only the choral angel who actually uses the
+      spell-like ability in question must take a standard action to achieve this
+      effect-the other choral angels need only take swift actions during the
+      same round.
+  - name: Piercing Hymn (Su)
+    description: >-
+      As a standard action, a choral angel can launch a concentrated blast of
+      sonic energy from its mouth. This attack has a range of 90 feet with no
+      range increment. Any creature struck by a choral angel's piercing hymn
+      must succeed at a DC 17 Fortitude save or be deafened for 1d4 minutes. The
+      save DC is Charisma-based.
+Description:
+  - >-
+    Choral angels are vocalists of unparalleled talent, and their singing fill
+    the halls of good deities with soaring hymns and solemn chants. They
+    manifest from the souls of the pious dead who possessed exceptional musical
+    talent and pure spirits in life. Sometimes, mortals who did not possess
+    musical talent but instead held a deep and abiding appreciation for the arts
+    are gifted with this form upon ascending to the good-aligned planes after
+    death. While choral angels are not soldiers and prefer to avoid combat,
+    which many of their angelic brethren relish, these celestials can defend
+    themselves with their puissant voices when need be, creating powerful
+    magical effects that resonate with the purity in their hearts to overcome
+    foes.
+  - >-
+    Choral angels sometimes support astral devas in their duties by visiting the
+    Material Plane bearing messages for mortals. These messages are inevitably
+    good in nature, and it is a joyous event when a choral angel appears to a
+    mortal. If the celestials expect danger or opposition during their visit,
+    they travel in groups called ensembles, and use their harmonizing voices to
+    spread the word of their patron as well as to bolster their allies in
+    battle. If particularly vexed or pressed, an ensemble of choral angels can
+    use their harmonies to devastating effect, obliterating their foes with
+    powerful chants drawn from Elysium or hymns dedicated to the powers of
+    Heaven.
+  - >-
+    Most choral angels stand only 3-1/2 feet tall, and their svelte frames weigh
+    a meager 40 pounds. Their hair is always of a metallic sheen resembling that
+    of rare natural minerals and ores such as platinum, gold, and silver, though
+    some of the oldest choral angels posses hair that glimmers perpetually like
+    emeralds, sapphires, or diamonds.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4413'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

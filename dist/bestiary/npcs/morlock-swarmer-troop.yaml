@@ -1,0 +1,95 @@
+Name: Morlock Swarmer Troop
+CR: '7'
+XP: '3200'
+Race: Morlock Swarmer Troop
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+SubType: (troop)
+Init: '5'
+Senses:
+  - darkvision 120 ft.
+  - Perception +2
+AC: 18, touch 16, flat-footed 12
+AC_Mods: (+5 Dex, +1 dodge, +2 natural)
+HP: '85'
+HD: (9d10+36)
+Saves: Fort +6, Ref +11, Will +10
+Fort: '6'
+Ref: '11'
+Will: '10'
+DefensiveAbilities: troop traits
+Weaknesses: light blindness
+Speed: 40 ft., climb 30 ft.
+Melee:
+  - troop (4d6+3)
+Space: 15 ft.
+Reach: 5 ft.
+SpecialAttacks: leap attack, swarming
+AbilityScores:
+  - 17
+  - 21
+  - 16
+  - 5
+  - 14
+  - 6
+BaseAtk: '9'
+CMB: '12'
+CMD: '28'
+Feats:
+  - Acrobatic
+  - Dodge
+  - Iron Will
+  - Mobility
+  - Toughness
+Skills:
+  - Acrobatics +18 (+22 when jumping)
+  - Climb +25
+  - Stealth +11 (+15 in caverns)
+RacialMods: +8 Acrobatics, +16 Climb, +4 Stealth in caverns
+Languages:
+  - Undercommon
+SQ: expert climber
+Source: AP 117
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Expert Climber (Ex)
+    description: >-
+      A morlock swarmer troop can cling to cave walls and even ceilings as long
+      as the surface has hand- and footholds. In effect, the troop is treated as
+      constantly being under a nonmagical version of the spell spider climb,
+      save that it cannot cling to smooth surfaces. This ability doubles the +8
+      racial bonus on Climb checks normally afforded creatures that have a climb
+      speed.
+  - name: Leap Attack (Ex)
+    description: >-
+      As a standard action, a morlock swarmer troop that succeeds at an
+      Acrobatics check can move as per the results of that check, making either
+      a long jump or a high jump as normal. The troop must move horizontally in
+      a straight line during its jump. This movement does not provoke attacks of
+      opportunity. When using this ability, the morlock swarmer troop can deal
+      troop damage to any creature it is adjacent to over the course of the
+      jump. This does not allow the morlock swarmer troop to deal troop damage
+      to a creature more than once per round.
+  - name: Swarming (Ex)
+    description: >-
+      Much of the morlock swarmer troop's damage comes from sneak attacks made
+      by its constituent members as they climb over one another, confusing their
+      prey. Against creatures that cannot be flanked or that are immune to
+      critical hits, sneak attacks, or precision-based damage, the morlock
+      swarmer troop's attack damage is reduced to 2d6.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11220'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

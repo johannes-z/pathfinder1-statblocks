@@ -1,0 +1,109 @@
+Name: Origa
+CR: '10'
+XP: '9600'
+Race: ogre mage
+Class: fighter 2
+MonsterSource: Pathfinder RPG Bestiary 221
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (giant, native, oni, shapechanger)
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +15
+AC: 25, touch 15, flat-footed 19
+AC_Mods: (+5 armor, +6 Dex, +5 natural, -1 size)
+HP: '127'
+HD: (10d10+72)
+HP_Mods: regeneration 5 (fire or acid)
+Saves: Fort +16, Ref +8, Will +12 (+1 vs. fear)
+Fort: '16'
+Ref: '8'
+Will: +12 (+1 vs. fear)
+SR: '21'
+Speed: 40 ft., fly 60 ft. (good)
+Melee:
+  - mwk greatsword +16/+11 (3d6+9/19-20)
+Ranged:
+  - +1 shock composite longbow +17/+12 (2d6+6/x3 plus 1d6 electricity)
+Space: 10 ft.
+Reach: 10 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: darkness, invisibility
+    - label: 1/day
+      value: >-
+        charm monster (DC 18), cone of cold (DC 19), deep slumber (DC 17),
+        gaseous form
+AbilityScores:
+  - 22
+  - 23
+  - 25
+  - 14
+  - 18
+  - 19
+BaseAtk: '10'
+CMB: '17'
+CMD: '33'
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Manyshot
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Shot
+  - Weapon Focus (longbow)
+Skills:
+  - Acrobatics +6 (+10 when jumping)
+  - Bluff +14
+  - Disguise +14
+  - Fly +12
+  - Intimidate +17
+  - Knowledge (arcana) +13
+  - Perception +15
+  - Sense Motive +15
+  - Spellcraft +12
+  - Survival +16
+  - Use Magic Device +14
+Languages:
+  - Common
+  - Giant
+  - Undercommon
+SQ: change shape (small, medium, and large humanoid; alter self or giant form I)
+Source: AP 118
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Origa casts invisibility on herself before approaching any potential conflict.
+DuringCombat: >-
+  Origa attacks from a distance while her ogre hunters engage enemies. She opens
+  combat invisibly with a volley of arrows easily mistaken for lightning
+  strikes. Origa has developed an uncharacteristic fondness for her ogre scouts,
+  and won't use her cone of cold unless she's sure she won't hit one of them.
+Morale: >-
+  Having no intention of dying for a band of ogres, Origa retreats to the main
+  camp for reinforcements if her scouts fall. She leaves the valley entirely if
+  all her minions are slain and she is reduced below 30 hit points.
+Gear: potion of displacement
+OtherGear: >-
+  +1 mithral chain shirt, +1 shock composite longbow (+5 Str) with 30 arrows,
+  mwk greatsword, belt of incredible dexterity +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11467'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

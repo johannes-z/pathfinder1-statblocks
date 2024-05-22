@@ -1,0 +1,119 @@
+Name: Antaios Subtier 6-7
+CR: '8'
+XP: '4800'
+Race: living topiary
+MonsterSource: 'Pathfinder Adventure Path #47 80'
+Alignment: 'N'
+Size: Large
+Type: plant
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +9
+AC: 21, touch 12, flat-footed 18
+AC_Mods: (+3 Dex, +9 natural, -1 size)
+HP: '103'
+HD: (9d8+63)
+Saves: Fort +14, Ref +6, Will +4
+Fort: '14'
+Ref: '6'
+Will: '4'
+DR: 5/slashing
+Immune: plant traits
+Speed: 30 ft.
+Melee:
+  - 2 slams +15 (2d6+9)
+Space: 10 ft.
+Reach: 10 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +5)
+  values:
+    - label: Constant
+      value: pass without trace
+    - label: 3/day
+      value: hedge stride (see below)
+AbilityScores:
+  - 29
+  - 16
+  - 23
+  - 8
+  - 12
+  - 11
+BaseAtk: '6'
+CMB: '16'
+CMD: 29 (33 vs. trip)
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Power Attack
+  - Toughness
+  - Weapon Focus (slam)
+Skills:
+  - Escape Artist +11
+  - Perception +9
+  - Stealth +8 (+14 in undergrowth)
+RacialMods: +8 Escape Artist, +2 Stealth (+8 in undergrowth)
+Languages:
+  - Common
+  - Sylvan (cannot speak)
+SQ: assimilate, brambles, flame retardant, move through hedge, sculpt shape
+Source: PFS S4-14
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Assimilate (Ex)
+    description: >-
+      As a full-round action, a living topiary can consume any undergrowth or
+      bushy plant matter it is currently touching and then incorporate that
+      matter into its own form. The topiary can do this at a rate of 5 cubic
+      feet per round, healing 1d8 points of damage when it does so. If the
+      living topiary is at maximum hit points this ability has no effect.
+  - name: Brambles (Ex)
+    description: >-
+      Living topiaries with this ability are made out of plants with deadly
+      thorns. Those with this ability deal 1d8 points of piercing damage with
+      their attacks (rather than 1d6 bludgeoning).
+  - name: Hedge Stride (Sp)
+    description: >-
+      This ability functions as tree stride, but rather than allowing for
+      teleportation from tree to tree, it permits the living topiary to teleport
+      from one area of brush or hedges to another area of similar vegetation
+      within 1,500 feet. A living topiary can use this ability three times per
+      day.
+  - name: Move Through Hedges (Ex)
+    description: >-
+      A living topiary may move through any solid object made of brambles or
+      thick, porous plants without penalty. It must begin and end its turn
+      outside of the object.
+  - name: Sculpt Shape (Ex)
+    description: >-
+      As a standard action, a living topiary can alter itself to take on the
+      basic form of any creature. The change is purely cosmetic, and does not
+      change its size, grant it any special powers, or alter its abilities.
+BeforeCombat: >-
+  Antaios is confused and disturbed by the morning's violence, and sits quietly
+  until it detects intruders in the shop.
+DuringCombat: >-
+  Antaios attacks the closest target, using Power Attack until its attacks miss
+  twice. It then either moves on to attack the next nearest target or stops
+  using Power Attack.
+Morale: >-
+  Once Antaios falls to fewer than half its full normal hit points, it attempts
+  to assimilate the nearest 5 cubic feet of plant material in order to heal its
+  wounds. It retreats to a corner and takes total defense if reduced to one
+  quarter its total hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7686'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

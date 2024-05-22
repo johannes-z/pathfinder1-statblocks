@@ -1,0 +1,110 @@
+Name: Wall Warden
+CR: '12'
+XP: '19200'
+Race: mudlord
+Class: fighter 4
+MonsterSource: Pathfinder RPG Bestiary 4 195, Pathfinder RPG Bestiary 144
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (augmented outsider, earth, elemental, incorporeal, water)
+Init: '9'
+Senses:
+  - darkvision 60 ft., tremorsense 30 ft.
+  - Perception +26
+AC: 19, touch 19, flat-footed 13
+AC_Mods: (+3 deflection, +5 Dex, +1 dodge)
+HP: '105'
+HD: (13 HD; 9d8+4d10+43)
+Saves: Fort +13, Ref +12, Will +8
+Fort: '13'
+Ref: '12'
+Will: '8'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: elemental traits, undead traits
+SR: '23'
+Weaknesses: vulnerable to magic
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +18 (12d6, Fortitude DC 19 half)
+Ranged:
+  - ectoplasm ball +18 touch (corrupting touch and blindness)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: malevolence (DC 21), telekinesis (stone only, DC 19)
+AbilityScores:
+  - —
+  - 20
+  - —
+  - 8
+  - 15
+  - 16
+BaseAtk: '13'
+CMB: '18'
+CMD: 32 (can't be tripped)
+Feats:
+  - Ability Focus (malevolence)
+  - Blind-Fight
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lunge
+  - Mobility
+  - Skill Focus (Stealth)
+  - Spring Attack
+Skills:
+  - Acrobatics +17
+  - Escape Artist +17
+  - Fly +13
+  - Perception +26
+  - Sense Motive +14
+  - Stealth +31
+RacialMods: +8 Perception, +8 Stealth
+Languages:
+  - Necril
+  - Terran
+Source: AP 142
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ectoplasm Ball (Su)
+    description: >-
+      A wall warden can throw a ball of ectoplasm up to 30 feet at an opponent's
+      face as a ranged touch attack. It if hits, the target takes damage as
+      though from the wall warden's corrupting touch and is blinded. Each round
+      on its turn, the target can attempt a DC 19 Reflex save as a free action;
+      if successful, the target shakes off the ectoplasm and is no longer
+      blinded. The target or an adjacent creature can wipe off the ectoplasm as
+      a standard action. The save DC is Charisma-based.
+  - name: Vulnerable to Magic (Ex)
+    description: >-
+      Despite a wall warden's incorporeal nature, a transmute mud to rock spell
+      deals 1d6 points of damage per caster level to any wall warden in the area
+      and automatically staggers it for 2d6 rounds.
+DuringCombat: >-
+  A wall warden prefers to take over a host body using its malevolence ability,
+  keeping this puppet as a hostage and using telekinesis to hurl rocks at other
+  foes. If unsuccessful at possessing a living enemy, it adopts a hit-and-run
+  approach, using its Spring Attack feat to dive  between walls and attack with
+  its ectoplasm ball and corrupting touch.
+Morale: >-
+  A wall warden reduced to fewer than 25 hit points flees, but it lurks nearby
+  and lunges out again whenever its targets are injured or distracted. A wounded
+  wall warden that attacks in this way fights until destroyed. After it
+  rejuvenates, the wall warden resumes its patrols of the Catacombs once again.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12516'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

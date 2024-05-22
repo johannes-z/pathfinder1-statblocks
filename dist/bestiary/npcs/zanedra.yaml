@@ -1,0 +1,118 @@
+Name: Zanedra
+CR: '10'
+XP: '9600'
+Race: human
+Class: summoner 11
+MonsterSource: Pathfinder RPG Advanced Player's Guide 54
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +10
+AC: 23, touch 12, flat-footed 21
+AC_Mods: (+3 armor, +2 Dex, +4 natural, +4 shield)
+HP: '119'
+HD: (11d8+66)
+Saves: Fort +9, Ref +7, Will +10
+Fort: '9'
+Ref: '7'
+Will: '10'
+DefensiveAbilities: shield ally
+DR: 10/adamantine (110 points)
+Speed: 30 ft.
+Melee:
+  - mwk dagger +9/+4 (1d4/19-20)
+Ranged:
+  - +1 frost hand crossbow +11 (1d4+1/19-20 plus 1d6 cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Summoner Spell-Like Abilities (CL 11th; concentration +15)
+  values:
+    - label: 7/day
+      value: summon monster VI
+SpellsKnown:
+  header: Summoner Spells Known (CL 11th; concentration +15)
+  values:
+    - label: 4th (3/day)
+      value: dismissal (DC 18), hold monster (DC 18), teleport
+    - label: 3rd (5/day)
+      value: dispel magic, fly, rejuvenate eidolonAPG, stoneskin
+    - label: 2nd (5/day)
+      value: barkskin, bear's endurance, create pitAPG (DC 16), haste, resist energy
+    - label: 1st (6/day)
+      value: >-
+        endure elements, feather fall, mount, lesser rejuvenate eidolonAPG,
+        protection from law, shield
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, mage hand, mending, read magic
+AbilityScores:
+  - 10
+  - 14
+  - 18
+  - 12
+  - 8
+  - 18
+BaseAtk: '8'
+CMB: '8'
+CMD: '20'
+Feats:
+  - Deadly Aim
+  - Improved Initiative
+  - Iron Will
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Reload (hand crossbow)
+  - Toughness
+Skills:
+  - Fly +16
+  - Knowledge (religion) +15
+  - Perception +10
+  - Survival +10
+Languages:
+  - Abyssal
+  - Common
+  - Hallit
+SQ: aspect, bond senses 11 rounds/day, life link, maker's call, transposition
+Source: AP 75
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Zanedra casts barkskin, bear's endurance, shield, and stoneskin on herself.
+DuringCombat: >-
+  Zanedra orders Svennarobeth into melee combat, but hangs back, casting haste
+  on the first round of combat and then supporting her eidolon with ranged magic
+  like hold monster, create pit, or summon monster VI (her favorite creatures to
+  summon with this spell are 1d3 babaus). She steps in to heal her eidolon
+  whenever it drops below 40 hit points.
+Morale: >-
+  Zanedra teleports to the Ivory Sanctum if reduced to fewer than 20 hit points.
+  If Svennarobeth still lives, the eidolon is instantly returned to the Abyss.
+  Zanedra then seeks out Jerribeth to report to her&#8211;at your discretion,
+  the glabrezu may slay Zanedra and leave her mutilated body somewhere on
+  display in the Ivory Sanctum for the PCs to eventually discover, or she may
+  task Zanedra with seeking the PCs out and finishing the job of murdering them.
+  In either case, Jerribeth reports to Xanthir Vang, who then sends a retriever
+  to abduct one of the PCs' allies, as detailed on page 55.
+Gear: potions of cure moderate wounds (4), scrolls of planar binding (2)
+OtherGear: >-
+  +1 leather armor, +1 frost hand crossbow with 20 bolts, mwk dagger, cloak of
+  resistance +2, diamond dust for stoneskin worth 500 gp, silver unholy symbol
+  of Baphomet worth 25 gp, iron key to chest in area K4, silk pouch containing
+  320 pp and six pearls worth 100 gp each
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '5115'
+id: '5114'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

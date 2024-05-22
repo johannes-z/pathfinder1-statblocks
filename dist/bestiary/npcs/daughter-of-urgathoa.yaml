@@ -1,0 +1,120 @@
+Name: Daughter Of Urgathoa
+CR: '8'
+XP: '4800'
+Race: Daughter Of Urgathoa
+MonsterSource: 'Pathfinder Campaign Setting: The Inner Sea World Guide 309'
+Alignment: NE
+Size: Large
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+Aura: desecrate (20-ft. radius)
+AC: 24, touch 15, flat-footed 21
+AC_Mods: (+3 deflection, +3 Dex, +9 natural, -1 size)
+HP: '115'
+HD: (11d8+66)
+Saves: Fort +9, Ref +7, Will +11
+Fort: '9'
+Ref: '7'
+Will: '11'
+DefensiveAbilities: channel resistance +4
+Immune: undead traits
+Resist: fire 10
+Speed: fly 40 ft. (perfect)
+Melee:
+  - great claw +16 (2d6+9/x4 plus disease), claw +16 (1d8+9)
+Space: 10 ft.
+Reach: 10 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +16)
+  values:
+    - label: Constant
+      value: desecrate (centered on self)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 6th; concentration +9)   3rd-contagion (DC 16),
+  dispel magicD, inflict serious wounds (DC 16), locate object   2nd-death
+  knellD (DC 15), inflict moderate wounds (DC 15), resist energy, silence (DC
+  15), spiritual weapon   1st-cause fearD (DC 14), command (DC 14), divine
+  favor, obscuring mist, shield of faith  0-bleed (DC 13), detect magic,
+  guidance, resistance
+SpellDomains: Death, Magic
+AbilityScores:
+  - 27
+  - 17
+  - —
+  - 18
+  - 16
+  - 21
+BaseAtk: '8'
+CMB: '17'
+CMD: '30'
+Feats:
+  - Ability Focus (disease)
+  - Combat Casting
+  - Combat Reflexes
+  - Improved Initiative
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Acrobatics +14
+  - Bluff +16
+  - Fly +23
+  - Intimidate +19
+  - Knowledge (religion) +18
+  - Perception +17
+  - Sense Motive +17
+  - Spellcraft +18
+  - Stealth +0
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+  - Necril
+Source: AP 142
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Desecrate (Sp)
+    description: >-
+      The bonuses granted from the daughter of Urgathoa's constant desecrate
+      spell-like ability (which is always centered on herself) are already
+      calculated into the stats above.
+  - name: Disease (Su)
+    description: >-
+      Bubonic Plague: Great claw-injury; save Fortitude DC 20; onset immediate;
+      frequency 1/day; effect 1d4 Con damage and target is fatigued; cure 2
+      consecutive saves. The save DC is Charisma-based.
+  - name: Great Claw (Ex)
+    description: >-
+      One of the daughter's hands is a tremendous scythe-shaped claw. This
+      attack deals x4 damage on a critical hit, and is treated as an evil weapon
+      for the purpose of bypassing damage reduction. Spells A daughter of
+      Urgathoa casts spells as a 6th-level cleric. Although she selects two
+      domains to determine bonus spells, she does not gain any domain powers.
+BeforeCombat: >-
+  If she expects combat, a daughter of Urgathoa casts resist energy (fire) and
+  shield of faith.
+DuringCombat: >-
+  A daughter of Urgathoa casts spiritual weapon before entering melee,
+  retreating only to cast inflict spells on undead allies who become badly
+  injured.
+Morale: Proud and fearless, the daughters of Urgathoa fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+BaseStatistics: >-
+  Without her spells, a daughter of Urgathoa's statistics are AC 21, touch 12,
+  flat-footed 18.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12508'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

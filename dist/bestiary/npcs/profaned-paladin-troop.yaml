@@ -1,0 +1,131 @@
+Name: Profaned Paladin Troop
+CR: '13'
+XP: '25600'
+Race: Profaned Paladin Troop
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (troop)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +25
+AC: 27, touch 13, flat-footed 24
+AC_Mods: (+5 armor, +2 Dex, +1 dodge, +6 natural, +3 shield) (+5 deflection vs. good)
+HP: '190'
+HD: (20d8+100)
+Saves: Fort +11, Ref +10, Will +16
+Fort: '11'
+Ref: '10'
+Will: '16'
+DefensiveAbilities: troop traits
+DR: 5/bludgeoning
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - troop (4d6+6)
+Space: 20 ft.
+Reach: 5 ft.
+SpecialAttacks: arrow barrage (DC 22), smite good
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +13)
+  values:
+    - label: 3/day
+      value: quickened blindness/deafness (DC 18), quickened silence (DC 17)
+AbilityScores:
+  - 22
+  - 14
+  - —
+  - 10
+  - 14
+  - 21
+BaseAtk: '15'
+CMB: '21'
+CMD: 34 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Dodge
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Lightning Reflexes
+  - Missile Shield
+  - Mobility
+  - Shield Focus
+  - Spell Focus (necromancy)
+Skills:
+  - Climb +19
+  - Intimidate +18
+  - Knowledge (religion) +13
+  - Perception +25
+  - Sense Motive +15
+  - Stealth +25
+SQ: variable genesis
+Source: AP 144
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Arrow Barrage (Ex)
+    description: >-
+      A profaned paladin troop can fire a barrage of arrows as a standard
+      action. This attack takes the form of up to four lines with ranges of 110
+      feet. These lines can start from the corner of any square in the troop's
+      space. All creatures in any of these lines takes 4d6 points of piercing
+      damage (Reflex DC 22 half). The save DC is Dexterity-based.
+  - name: Smite Good (Su)
+    description: >-
+      A profaned paladin troop gains a +5 deflection bonus to AC against good
+      creatures and a +20 bonus on troop damage rolls against good creatures.
+      Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      The profaned paladin troop's spell-like abilities come from individuals
+      within the troop and are cast as such; since the action of one member does
+      not significantly change the troop's overall actions, these spell-like
+      abilities are treated as quickened. Variable Genesis The curators of
+      Fallowdeep's undead hordes each used their own techniques for preserving
+      and reanimating the soldiers. Each troop of profaned paladins gains one of
+      the following benefits.
+  - name: Alchemical Reanimation (Ex)
+    description: >-
+      The troop consists largely of Moloum's alchemically animated undead, all
+      of which expel toxic chemicals when harmed. The troop is immune to acid
+      damage. If a creature damages the troop with a natural attack, unarmed
+      strike, or non-reach melee weapon, that creature takes 2d6 acid damage and
+      must succeed at a DC 25 Fortitude save or be sickened for 1 round. The
+      save DC is Charisma-based.
+  - name: Petrified Preservation (Ex)
+    description: >-
+      The troop consists largely of petrified creatures that Aeonte unpetrified,
+      killed, and then animated as undead. The process leaves the creatures'
+      bones petrified and durable, giving the troop DR 10/- instead of DR
+      5/bludgeoning.
+  - name: Unholy Ward (Su)
+    description: >-
+      The troop consists largely of Klrau's blasphemous creations protected by
+      Baalzebul's hellish power. The troop is immune to fire damage and gains a
+      +4 resistance bonus on saving throws.
+DuringCombat: >-
+  The troop favors melee combat, casting silence or blindness to hinder
+  spellcasting foes as it marches forward into a good position. Against flying
+  or distant foes, the troop fires arrow barrages while maneuvering into a more
+  advantageous position.
+Morale: >-
+  The troop generally fights until destroyed, but if the current situation has
+  it at a clear disadvantage, the troop makes a tactical retreat to find a
+  better position to continue the fight later.
+Gear: +1 chain shirt (1d6), +1 longsword (1d6), mwk shortbows (1d6)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12760'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,118 @@
+Name: Cave Wizard
+CR: '8'
+XP: '4800'
+Race: dwarf
+Class: evoker 9
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '3'
+Senses:
+  - Perception +12
+AC: 15, touch 10, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, -1 Dex, +1 natural)
+HP: '92'
+HD: (9d6+58)
+Saves: Fort +8, Ref +2, Will +9; +2 vs. poison, spells, and spell-like abilities
+Fort: '8'
+Ref: '2'
+Will: '9'
+Save_Mods: +2 vs. poison, spells, and spell-like abilities
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Immune: fire (108 points)
+Speed: 20 ft.
+Melee:
+  - battleaxe +5 (1d8+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  +1 on attack rolls against goblinoid and orc humanoids, intense spells (+4
+  damage)
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: At Will
+      value: elemental wall (9 rounds/day)
+    - label: 7/day
+      value: force missile (1d4+4)
+SpellsPrepared: >-
+  Evoker Spells Prepared (CL 9th; concentration +13)   5th-cone of cold (DC 20),
+  transmute rock to mud   4th-empowered acid arrow, greater invisibility,
+  resilient sphere (DC 19), stone shape   3rd-dispel magic, fireball (DC 18),
+  gaseous form, ray of exhaustion (DC 17), stinking cloud (DC 17)   2nd-acid
+  arrow, bear's endurance, protection from energy, scorching ray, spider climb,
+  summon swarm   1st-burning hands (2, DC 16), color spray (DC 15), feather
+  fall, mage armor, ray of enfeeblement (DC 15)   0 (at will)-acid splash,
+  dancing lights, detect magic, mage hand
+AbilityScores:
+  - 12
+  - 8
+  - 20
+  - 18
+  - 16
+  - 8
+BaseAtk: '4'
+CMB: '5'
+CMD: 15 (19 vs. bull rush or trip)
+Feats:
+  - Combat Casting
+  - Empower Spell
+  - Improved Initiative
+  - Scribe Scroll
+  - Spell Focus (evocation)
+  - Spell Penetration
+  - Toughness
+Skills:
+  - Appraise +15 (+17 to assess nonmagical metals or gemstones)
+  - Climb +4
+  - Craft (alchemy) +12
+  - Fly +6
+  - Knowledge (arcana) +16
+  - Knowledge (dungeoneering) +16
+  - Knowledge (engineering) +12
+  - Perception +12 (+14 to notice unusual stonework)
+  - Sense Motive +4
+  - Spellcraft +16
+Languages:
+  - Common
+  - Dwarven
+  - Goblin
+  - Terran
+  - Undercommon
+SQ: arcane bond (bat)
+Source: NPC Codex
+IsTemplate: '0'
+ProhibitedSchools: enchantment, necromancy
+BeforeCombat: >-
+  The wizard casts bear's endurance, mage armor, and protection from energy
+  (fire).
+DuringCombat: >-
+  The wizard casts greater invisibility, then uses transmute rock to mud to trap
+  foes. He casts area damage spells at trapped targets and uses stinking cloud
+  and resilient sphere to hinder those who escape the mud.
+Gear: >-
+  potion of cure moderate wounds, scroll of clairaudience/clairvoyance, scroll
+  of solid fog, scroll of stinking cloud, scroll of stone shape
+OtherGear: >-
+  battleaxe, amulet of natural armor +1, headband of vast intelligence +2, ring
+  of protection +1, spellbook, 665 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bear's endurance, mage armor, and protection from energy (fire), the
+  wizard's statistics are AC 11, touch 10, flat-footed 11; hp 74; Fort +6;
+  Immune none; Con 16.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3830'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

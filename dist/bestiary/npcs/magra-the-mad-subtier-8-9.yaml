@@ -1,0 +1,121 @@
+Name: Magra The Mad Subtier 8-9
+CR: '9'
+XP: '6400'
+Race: orc
+Class: oracle 10
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42, Pathfinder RPG Bestiary 222
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (orc)
+Init: '1'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft.
+  - Perception +13
+AC: 19, touch 12, flat-footed 17
+AC_Mods: (+7 armor, +1 Dex, +1 dodge)
+HP: '98'
+HD: (10d8+50)
+Saves: Fort +6, Ref +4, Will +9
+Fort: '6'
+Ref: '4'
+Will: '9'
+DefensiveAbilities: ferocity
+Weaknesses: light sensitivity
+Speed: 20 ft.
+Melee:
+  - greataxe +9/+4 (1d12+1/x3)
+Ranged:
+  - javelin +8/+3 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Oracle Spells Known (CL 10th; concentration +12)
+  values:
+    - label: 5th (3/day)
+      value: mass cure light wounds (DC 17), righteous might, summon monster V
+    - label: 4th (5/day)
+      value: >-
+        chaos hammer (DC 16), cure critical wounds, freedom of movement, wall of
+        fire
+    - label: 3rd (6/day)
+      value: >-
+        bestow curse (DC 15), cure serious wounds, invisibility purge, magic
+        vestment, summon monster III
+    - label: 2nd (7/day)
+      value: >-
+        aid, cure moderate wounds, fog cloud, shield other, silence (DC 14),
+        sound burst (DC 14)
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 13), command (DC 13), cure light wounds, doom (DC 13),
+        enlarge person (DC 13), sanctuary (DC 13), shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 12), create water, detect magic, detect poison, guidance, read
+        magic, resistance, stabilize, virtue
+AbilityScores:
+  - 12
+  - 13
+  - 16
+  - 8
+  - 10
+  - 15
+BaseAtk: '7'
+CMB: '8'
+CMD: '20'
+Feats:
+  - Combat Casting
+  - Diehard
+  - Dodge
+  - Iron Will
+  - Toughness
+  - Weapon Focus (greataxe)
+Skills:
+  - Heal +13
+  - Intimidate +15
+  - Perception +13
+Languages:
+  - Common
+  - Orc
+SQ: >-
+  oracle's curse (clouded vision), revelations (battlecry [+2, 3/ day], combat
+  healer 1/day, resiliency), weapon familiarity
+Source: PFS S4-25
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Magra has already cast shield other on Kogan. If the PCs failed to surprise
+  the wily orc, he also casts sanctuary on himself before he attempts his
+  extortion (not reflected in his stat block).
+DuringCombat: >-
+  If one of the PCs fights Kogan, during the fight Magra skulks into one of the
+  side tunnels and casts healing spells to heal the damage he sustains through
+  shield other. If the PCs fight all of the orcs, Magra uses his highest level
+  summon monster spell to create a barrier between himself and the PCs. He then
+  casts a silence spell on Kogan to hamper spellcasting PCs before ducking back
+  into a side tunnel to heal his wounds from shield other. If need be, he also
+  casts healing spells on Kogan while attempting to stay out of the PCs' sight.
+  As a last resort, Magra uses his offensive spells.
+Morale: >-
+  Magra fights until reduced below 0 hit points, at which point he attempts to
+  flee to the east, heal the worst of his wounds, and escape into the labyrinth
+  of tunnels.
+Gear: potions of cure moderate wounds (2)
+OtherGear: +1 breastplate, greataxe, javelin, belt of mighty constitution +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: battle
+CompanionFamiliarLink: '0'
+id: '7756'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

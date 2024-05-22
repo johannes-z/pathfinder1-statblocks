@@ -1,0 +1,122 @@
+Name: Teka
+CR: '10'
+XP: '9600'
+Race: charau-ka
+Class: cleric of Lamashtu 9
+MonsterSource: 'World Guide: The Inner Sea 308'
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (charau-ka)
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +8
+Aura: aura of madness (30 ft., DC 18, 9 rounds/day)
+AC: 28, touch 18, flat-footed 24
+AC_Mods: (+6 armor, +3 deflection, +3 Dex, +1 dodge, +2 natural, +2 shield, +1 size)
+HP: '74'
+HD: (12d8+21)
+Saves: Fort +8, Ref +9, Will +7
+Fort: '8'
+Ref: '9'
+Will: '7'
+Weaknesses: paranoid
+Speed: 20 ft., climb 30 ft.
+Melee:
+  - +1 flaming club +13/+8 (1d4+4 plus 1d6 fire), bite +7  (1d3+1)
+Ranged:
+  - magic stone +14/+8 (1d6+4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 5/day (DC 18, 5d6), might of the gods (+9, 9
+  rounds/day), shrieking frenzy (see page 51), thrown weapon mastery (see page
+  51)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: 7/day
+      value: vision of madness (+/-4)
+    - label: 7/day
+      value: strength surge (+4)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 9th; concentration +13)  5th-mass cure light
+  wounds, righteous mightD  4th-confusionD (DC 18), cure critical wounds,
+  freedom of movement, unholy blight (DC 18)  3rd-bestow curse (DC 17),
+  blindness/deafness (DC 17), cure serious wounds, rageD, searing light 
+  2nd-death knell (DC 16), hold person (DC 16), silence (DC 16), sound burst (DC
+  16), spiritual weapon, touch of idiocyD  1st-bane (DC 15), cure light wounds,
+  doom (DC 15), enlarge personD, magic stone, shield of faith  0 (at will)-bleed
+  (DC 14), detect poison, read magic, resistance
+SpellDomains: Madness, Strength
+AbilityScores:
+  - 16
+  - 16
+  - 12
+  - 8
+  - 18
+  - 14
+BaseAtk: '8'
+CMB: '10'
+CMD: '28'
+Feats:
+  - Combat Casting
+  - Defensive Combat Training
+  - Dodge
+  - Improved Channel
+  - Scribe Scroll
+  - Selective Channeling
+  - Throw AnythingB
+Skills:
+  - Climb +12
+  - Knowledge (religion) +4
+  - Perception +8
+  - Sense Motive +8
+  - Stealth +12
+Languages:
+  - Abyssal
+  - Polyglot
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Paranoid (Ex)
+    description: >-
+      Teka suffers from paranoia as a result of the vault's midnight spores.
+      Teka takes a -4 penalty on Will saves and Charisma-based skill checks,
+      cannot receive benefit from or attempt the Aid Another action, and cannot
+      willingly accept aid (including healing) from another creature unless he
+      makes a DC 22 Will save.
+Gender: Male
+BeforeCombat: Teka casts magic stone and shield of faith before combat.
+DuringCombat: >-
+  Teka casts spells and makes ranged attacks while his boggards engage foes in
+  melee. He casts silence on any obvious spellcasters. He channels negative
+  energy (using Selective Channeling on the boggards) and activates his aura of
+  madness if enemies break through the boggards' line. If pressed into melee
+  combat himself, Teka casts righteous might.
+Morale: >-
+  If reduced to fewer than 25 hit points, or if all of the boggards are killed,
+  Teka flees to area H8 to join the Kaava Bush-Devil.
+Gear: scroll of cure serious wounds, scroll of flame strike
+OtherGear: >-
+  +2 hide armor, masterwork heavy wooden shield, +1 flaming club, copper armband
+  (worth 30 gp), spell component pouch, bone holy symbol of Lamashtu
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his spells, Teka has: AC 25, touch 15, flat-footed 21; Ranged rock +13
+  (1d4+3/19&#8211;20).
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1055'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,153 @@
+Name: Jathyl
+CR: '10'
+XP: '9600'
+Race: dryad
+Class: sorcerer 6
+MonsterSource: Pathfinder RPG Bestiary 116, 144
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented fey, incorporeal)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +28
+AC: 23, touch 23, flat-footed 18
+AC_Mods: (+8 deflection, +5 Dex)
+HP: '150'
+HD: (12 HD; 6d8+6d6+102)
+Saves: Fort +14, Ref +12, Will +17
+Fort: '14'
+Ref: '12'
+Will: '17'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: undead traits
+Weaknesses: tree dependent
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +11 (10d6, Fort DC 24 half )
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: influence (DC 24), telekinesis (DC 24)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +14)
+  values:
+    - label: Constant
+      value: speak with plants
+    - label: At Will
+      value: entangle (DC 19), tree shape, wood shape (1 lb. only)
+    - label: 3/day
+      value: charm person (DC 19), quench, tree stride
+    - label: 1/day
+      value: plant growth Bloodline Spell-Like Abilities (CL 6th; concentration +14)
+    - label: 11/day
+      value: tanglevine*
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +14)
+  values:
+    - label: 3rd (5/day)
+      value: lightning bolt (DC 21)
+    - label: 2nd (7/day)
+      value: barkskin, invisibility, magic mouth
+    - label: 1st (8/day)
+      value: >-
+        entangle (DC 19), erase, magic aura, magic missile, true strike, unseen
+        servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, ghost sound, mage hand, mending, message,
+        prestidigitation
+AbilityScores:
+  - —
+  - 21
+  - —
+  - 16
+  - 20
+  - 26
+BaseAtk: '6'
+CMB: '11'
+CMD: '29'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Iron Will
+  - Iron Will
+  - Stealthy
+  - Weapon Finesse
+Skills:
+  - Bluff +17
+  - Climb +9
+  - Craft (sculpture) +12
+  - Escape Artist +13
+  - Fly +22
+  - Handle Animal +14
+  - Knowledge (nature) +9
+  - Perception +28
+  - Sense Motive +14
+  - Spellcraft +12
+  - Stealth +32
+  - Survival +11
+RacialMods: +6 Craft (wood), +8 Perception, +8 Stealth
+Languages:
+  - Common
+  - Elven
+  - Sylvan
+  - Vudrani
+  - speak with plants
+SQ: photosynthesis*, tree meld, wild empathy, woodcraft
+Source: PFS S2-16
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Influence (Su)
+    description: >-
+      Jathyl was once the ruler and protector of her forest, and she maintains a
+      commanding air. Once per round, as a standard action, she may control one
+      living creature as per the spell dominate monster, with a range of 30
+      feet. She may only dominate one creature at a time, and any creature that
+      successfully saves is immune to her influence for 24 hours. Variant Dryad
+      Because of her dedication to the protection of her forest, Jathyl's
+      spell-like abilities are different from those of a standard dryad, and she
+      considers druid spells as being on her spell list for purposes of using
+      spell completion and command word magic items. Additionally, she may sense
+      any part of here tree at any range, as long as it is on the same plane, or
+      unless a protection from evil spell wards it.
+Gender: Female
+Bloodline: Verdant*
+BeforeCombat: Jathyl prepares for battle by casting invisibility.
+DuringCombat: >-
+  Jathyl is driven by passions, not tactical calculations. Using feathers (e.g.,
+  arrows, summoned angels, or birds), disfiguring any part of her tree, or
+  channeling positive energy enrages Jathyl. She focuses her wrath on such
+  transgressors, taking unnecessary risks to punish them. Jathyl opens with
+  plant growth and entangle if necessary to drive the PCs away from her tree.
+  Otherwise, she begins combat with a lightning bolt, then fights in melee with
+  her corrupting touch attack. She employs telekinesis (violent thrust) to hurl
+  away any annoying weapons. She starts the battle supremely confident of her
+  mastery over the situation, not hesitating to stand toe-to-toe with the
+  party's warriors. However, if any PC successfully casts ghostbane dirge, uses
+  a ghost touch weapon, or reduces her to half her normal hit points before she
+  drops any PC, she attempts to dominate that PC with influence, turning him
+  against his allies.
+Morale: >-
+  Jathyl fights until destroyed. As she dies, she whispers, "Your corpses will
+  burn when I return from death." Her body dissolves into a pinpoint of ghostly
+  light that drifts toward the temple and into the roots of her tree.
+Gear: wand of stone shape (42 charges)
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5636'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

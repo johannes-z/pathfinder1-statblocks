@@ -1,0 +1,224 @@
+Name: Siabrae
+CR: '15'
+XP: '51200'
+Race: Female old human siabrae
+Class: druid 14
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '3'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +32
+AC: 27, touch 11, flat-footed 27
+AC_Mods: (+6 armor, +2 deflection, -1 Dex, +10 natural)
+HP: '178'
+HD: (14d8+112)
+Saves: Fort +15, Ref +5, Will +16; +4 vs. fey and plant-targeted effects
+Fort: '15'
+Ref: '5'
+Will: '16'
+Save_Mods: +4 vs. fey and plant-targeted effects
+DefensiveAbilities: blighted rebirth, channel resistance +4
+DR: 10/adamantine and bludgeoning
+Immune: fire, poison, undead traits
+Resist: acid 20
+Speed: 20 ft., burrow 30 ft.
+Speed_Mod: earth glide
+Melee:
+  - >-
+    +2 defending quarterstaff +13/+8 (1d6+3), gore +11 (1d8+1 plus petrification
+    [DC 23])
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: blightbond, blight mastery, wild shape 6/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 14th; concentration +21)
+  values:
+    - label: 10/day
+      value: acid dart (1d6+7 acid)
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 14th; concentration +21)  7th-quickened contagion
+  (DC 20), creeping doom (DC 24), elemental body IVD (earth only), fire storm
+  (DC 24)  6th-antilife shell, quickened barkskin, greater dispel magic,
+  stoneskinD, stone tell,  5th-animal growth (DC 22), baleful polymorph (DC 22),
+  quickened entangle (DC 18), transmute rock to mud, wall of stoneD  4th-blight
+  (DC 21), dispel magic, freedom of movement, extended greater magic fang,
+  rusting grasp, spike stonesD (DC 21)  3rd-extended bull's strength, call
+  lightning (DC 20), contagion (DC 20), meld into stone, poison (DC 20),
+  extended spider climb, stone shapeD  2nd-extended longstrider, flaming sphere
+  (2, DC 19), fog cloud, heat metal (DC 19), soften earth and stoneD, tree
+  shape  1st-entangle (2, DC 18), faerie fire, magic stoneD, obscuring mist,
+  produce flame (2)  0 (at will)-detect magic, flare (DC 17), guidance, light
+SpellDomains: earth
+AbilityScores:
+  - 12
+  - 9
+  - —
+  - 12
+  - 24
+  - 22
+BaseAtk: '10'
+CMB: '11'
+CMD: '26'
+Feats:
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Defensive Combat Training
+  - Extend Spell
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+  - Quicken Spell
+  - Toughness
+Skills:
+  - Intimidate +16
+  - Knowledge (nature) +20
+  - Knowledge (planes) +11
+  - Knowledge (religion) +18
+  - Perception +32
+  - Sense Motive +32
+  - Stealth +22
+  - Survival +9
+RacialMods: +8 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Common
+  - Druidic
+  - Sylvan
+SQ: >-
+  a thousand faces, nature bond (Earth domain), nature sense, trackless step,
+  wild empathy +20, woodland stride,
+Environment: any blighted land
+Organization: solitary or circle (2-8 siabraes plus 3-12 undead minions)
+Treasure: >-
+  NPC gear (+2 wild hide armor, +2 defending quarterstaff, headband of mental
+  prowess +2 [Wis, Cha], ring of protection +2)
+Description_Visual: >-
+  This petrified skeleton is clad in rotting furs. Stone antlers grow from the
+  crown of its skull, and its eyes are polished white orbs.
+Source: The Worldwound
+IsTemplate: '1'
+Description:
+  - >-
+    When the Worldwound opened, the druids of the Green Faith fought longer and
+    harder than any other Sarkorian citizen against the rising demon tide. Those
+    druids who stubbornly (or faithfully) refused to flee their sacred lands
+    managed something that few others in Sarkoris did- they prevented the
+    wholesale invasion and corruption of their land from demonic influence, but
+    only at a terrible cost. They took the corruption into themselves, and
+    today, these druids exist as blighted, undead parodies of their former
+    selves. Known as siabraes, these powerful druids have embraced undeath,
+    bolstered with the strength of the wounded-but-still-living world beneath
+    their feet, and fight not only against demonic trespass into their realm,
+    but against all living creatures, for they are filled with bitterness and
+    hatred for their brethren, whom they regard as cowards. The Green Faith was
+    meant to die, the siabraes believe, for the truth and glory of the
+    Stonewilds to emerge.
+  - >-
+    Siabraes do not form spontaneously; they arise only when a druid of
+    sufficient power (at least 11th level) willingly gives her spirit over to
+    undeath in a horrific ritual that must occur at the heart of necromantically
+    empowered standing stones. Some druids are initially unwilling participants
+    in these rituals-captives brought to the stones by elder siabraes to
+    increase their numbers. To date, no druid has ultimately been able to resist
+    this eldritch transformation with any other recourse than pure death.
+    Siabraes may exist elsewhere, but only in the northern Worldwound are they
+    encountered in significant number.
+  - Creating a Siabrae
+  - >-
+    "Siabrae" is an acquired template that can be added to any creature with at
+    least 11 levels of druid (hereafter referred to as the base creature). A
+    siabrae never has the blight druid archetype (Pathfinder RPG Advanced
+    Player's Guide 98); its transition from a member of the Green Faith takes it
+    into this dismal new unlife via a different path. A siabrae retains all the
+    base creature's statistics and special abilities except as noted here.
+  - 'CR: Same as the base creature +2.'
+  - 'Alignment: Neutral evil.'
+  - >-
+    Type: The creature's type changes to undead with the earth subtype. Do not
+    recalculate HD, BAB, or saves.
+  - >-
+    Armor Class: A siabrae has a +10 natural armor bonus or the creature's
+    normal bonus, whichever is better.
+  - >-
+    Hit Dice: Change the creature's racial Hit Dice to d8s. All Hit Dice derived
+    from class levels are unchanged. As undead, siabraes use their Charisma
+    modifier to determine bonus hit points (instead of Constitution).
+  - >-
+    Defensive Abilities: A siabrae gains darkvision 60 feet, tremorsense 60
+    feet, channel resistance +4, DR 10/ adamantine and bludgeoning, and immunity
+    to fire (in addition to all those granted by its undead traits). The siabrae
+    also gains the following defensive ability.
+  - >-
+    Blighted Rebirth (Su): When a siabrae is destroyed, it may attempt a DC 20
+    Fortitude save to avoid destruction. The siabrae automatically makes this
+    saving throw if it is in contact with blighted or diseased terrain (such as
+    most of the Worldwound's terrain). A successful save causes the siabrae's
+    body to crumble to dust, as the blighted earth absorbs its essence. Its
+    enduring essence begins forming a new body in a random location within 1d10
+    miles (this new location must contain a mass of unworked stone large enough
+    for the siabrae's body to form within). This process takes 1d10 days, after
+    which the siabrae emerges from the stone with a peal of thunder, though
+    without its gear.
+  - >-
+    Speed: A siabrae gains a burrow speed equal to its land speed, and the earth
+    glide universal monster ability.
+  - >-
+    Melee: A siabrae grows a pair of stony antlers from its skull that grant it
+    a gore attack that deals damage based on the siabrae's size, but as if it
+    were one size category larger than its actual size. This gore attack is
+    always a primary attack, even when the siabrae also uses weapons. If the
+    siabrae wishes, it can retain these antlers in any form it assumes via wild
+    shape. Shards of the stony antlers break off in wounds-a siabrae's antlers
+    constantly replenish themselves as these shards break off. A creature
+    damaged by a siabrae's gore attack must make a successful Fortitude save (DC
+    = 10 + 1/2 the siabrae's HD + the siabrae's Charisma modifier) or turn to
+    stone permanently.
+  - >-
+    Special Attacks: A siabrae retains all the special attacks of the base
+    creature. If it had the ability to use wild shape, it retains this ability,
+    but it can assume only the form of creatures that cannot fly. Any form it
+    assumes (via wild shape or polymorph effects) or any creature it summons
+    appears malnourished, diseased, or even in an advanced state of decay,
+    although these are cosmetic effects; they do not impact actual game
+    statistics. In addition, a siabrae gains the following special attacks. The
+    save DC for any of these attacks is equal to 10 + 1/2 the siabrae's HD + the
+    siabrae's Charisma modifier.
+  - >-
+    Blight Mastery (Su): Any of a siabrae's spell or effects that would normally
+    be restricted to affecting animals can also affect undead animals.
+  - >-
+    Blightbond (Ex): A siabrae has an unholy bond with the blighted earth. It
+    loses any animal companion or access to domains it had from its druidic
+    nature bond ability. In place of nature bond, the siabrae's close ties to
+    the blighted landscape grant it one of the following cleric domains: Animal,
+    Death, Destruction, Earth, Madness, or Repose. This ability otherwise
+    functions the same as nature bond.
+  - >-
+    Abilities: Str +2, Wis +2, Cha +2. Being undead, a siabrae has no
+    Constitution score.
+  - 'Feats: A siabrae gains Toughness as a bonus feat.'
+  - >-
+    Skills: A siabrae gains a +8 racial bonus on Perception, Sense Motive, and
+    Stealth checks. A siabrae always treats Intimidate, Knowledge (planes),
+    Knowledge (religion), Sense Motive, and Stealth as class skills. Otherwise,
+    a siabrae's skills are the same as the base creature.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4678'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

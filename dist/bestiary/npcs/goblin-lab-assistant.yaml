@@ -1,0 +1,80 @@
+Name: Goblin Lab Assistant
+CR: '1'
+XP: '400'
+Race: Goblin
+Class: expert 3
+MonsterSource: Pathfinder RPG Bestiary 156
+Alignment: NE
+Size: Small
+Type: humanoid
+SubType: (goblinoid)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +5
+AC: 16, touch 14, flat-footed 13
+AC_Mods: (+2 armor, +3 Dex, +1 size)
+HP: '13'
+HD: (3d8)
+Saves: >-
+  Fort +1, Ref +4, Will +2; +4 Reflex to avoid catching on fire or to put self
+  out when on fire
+Fort: '1'
+Ref: '4'
+Will: '2'
+Save_Mods: +4 Reflex to avoid catching on fire or to put self out when on fire
+Speed: 30 ft.
+Melee:
+  - torch +4 (1d2 plus 1d4+1 fire)
+  - mwk dogslicer +4 (1d4/19-20)
+Ranged:
+  - alchemist's fire +6 (1d6+1d4 fire)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 11
+  - 16
+  - 10
+  - 9
+  - 8
+  - 9
+BaseAtk: '2'
+CMB: '1'
+CMD: '14'
+Feats:
+  - 'Burn! Burn! Burn! '
+  - Fire Hand
+Skills:
+  - Acrobatics +9
+  - Craft (alchemy) +5
+  - Disable Device +9
+  - Perception +5
+  - Ride +7
+  - Stealth +17
+  - Survival +5
+Languages:
+  - Goblin
+Source: PFS S4-01
+IsTemplate: '0'
+BeforeCombat: >-
+  If aware of intruders, the lab assistants light torches for weapons and hide
+  among the chamber's rubble.
+DuringCombat: The goblins hurl alchemist's fire and burn intruders with lit torches.
+Morale: These lab assistants flee if Yarak is defeated.
+Gear: alchemist's fire (5), tindertwigs (10)
+OtherGear: leather armor, masterwork dogslicer, burnt and filthy lab apron, torches (3)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7609'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

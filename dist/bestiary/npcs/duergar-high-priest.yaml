@@ -1,0 +1,115 @@
+Name: Duergar High Priest
+CR: '12'
+XP: '19200'
+Race: Duergar
+Class: cleric 13
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '0'
+Senses:
+  - darkvision 120 ft.
+  - Perception +18
+AC: 31, touch 14, flat-footed 31
+AC_Mods: (+9 armor, +4 deflection, +8 natural)
+HP: '101'
+HD: (13d8+39)
+Saves: Fort +10, Ref +4, Will +13; +2 vs. spells
+Fort: '10'
+Ref: '4'
+Will: '13'
+Save_Mods: +2 vs. spells
+Immune: paralysis, phantasms, poison
+Weaknesses: light sensitivity
+Speed: 20 ft.
+Speed_Mod: freedom of movement
+Melee:
+  - +1 heavy mace +12/+7 (1d8+2)
+Ranged:
+  - mwk light crossbow +10 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 17, 7d6)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +14)
+  values:
+    - label: 1/day
+      value: >-
+        enlarge person (self only), invisibility (self only), ironskin* Domain
+        Spell-Like Abilities (CL 13th; concentration +18)
+    - label: 8/day
+      value: copycat (13 rounds), dazing touch
+    - label: At Will
+      value: >-
+        charming smile (13 rounds/day, DC 16), master's illusion (13 rounds/day,
+        DC 21)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 13th; concentration +18)  7th-blasphemy (DC 22),
+  insanityD (DC 22)  6th-blade barrier (DC 21), harm (DC 21), misleadD (DC 21) 
+  5th-break enchantment (DC 20), breath of life, charm monsterD (DC 20), slay
+  living (DC 20), wall of stone (DC 20)  4th-cure critical wounds, divine power,
+  freedom of movement, heroismD, spell immunity, unholy blight (DC 19) 
+  3rd-bestow curse (DC 18), dispel magic, invisibility purge, stone shape,
+  suggestionD (DC 18), wind wall  2nd-control vermin* (DC 17), hold person (2,
+  DC 17), invisibilityD, sound burst (DC 17), spiritual weapon  1st-bane (DC
+  16), charm personD (DC 16), cure light wounds, divine favor, doom (DC 16),
+  shield of faith (2)  0 (at will)-detect magic, guidance, resistance, virtue
+SpellDomains: Charm, Trickery
+AbilityScores:
+  - 13
+  - 10
+  - 14
+  - 8
+  - 20
+  - 12
+BaseAtk: '9'
+CMB: '10'
+CMD: 21 (25 vs. bull rush or trip)
+Feats:
+  - Combat Casting
+  - Gray Dwarf Magic (ironskin)
+  - Giant Steps
+  - Innate Flexibility
+  - Tough as Iron
+  - Toughness
+  - Weapon Focus (heavy mace)
+Skills:
+  - Knowledge (religion) +8
+  - Perception +18
+  - Spellcraft +9
+Languages:
+  - Common
+  - Dwarven
+  - Undercommon
+SQ: slow and steady, stability
+Source: Monster Codex
+IsTemplate: '0'
+BeforeCombat: The high priest casts freedom of movement, ironskin, and shield of faith.
+DuringCombat: >-
+  The high priest first provides magical support, then uses enlarge person and
+  enters combat.
+Gear: scroll of cure critical wounds
+OtherGear: >-
+  +3 chainmail, +1 heavy mace, mwk light crossbow with 20 bolts, amulet of
+  natural armor +2, headband of inspired wisdom +2, ring of protection +1,
+  silver unholy symbol, spell component pouch, 321 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not under the effects of freedom of movement, ironskin, and shield of
+  faith, the high priest's statistics are AC 22, touch 11, flat-footed 22; Speed
+  no freedom of movement.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6427'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

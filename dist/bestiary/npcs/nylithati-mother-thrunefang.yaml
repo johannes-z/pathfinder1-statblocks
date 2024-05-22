@@ -1,0 +1,100 @@
+Name: Nylithati (Mother Thrunefang)
+CR: '4'
+XP: '1200'
+Race: lacedon
+Class: cleric of Ydersius 3
+MonsterSource: Pathfinder RPG Bestiary 146
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+AC: 17, touch 14, flat-footed 15
+AC_Mods: (+2 deflection, +2 Dex, +3 natural)
+HP: '45'
+HD: (5d8+23)
+Saves: Fort +6, Ref +4, Will +9
+Fort: '6'
+Ref: '4'
+Will: '9'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - >-
+    2 claws +6 (1d6+3 plus paralysis), bite +6 (1d6+3 plus disease and
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 6/day (DC 14, 2d6), disease (DC 14), paralysis (DC 14)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 3rd; concentration +6)
+  values:
+    - label: 6/day
+      value: inspiring word (1 round), touch of chaos
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 3rd; concentration +6) 2nd-darkness, enthrallD (DC
+  14), spiritual weapon 1st-cause fear (DC 14), divine favorD, obscuring mist,
+  shield of faith 0 (at will)-bleed (DC 13), detect magic, guidance, mending
+SpellDomains: Chaos, Nobility
+AbilityScores:
+  - 17
+  - 15
+  - —
+  - 17
+  - 16
+  - 16
+BaseAtk: '3'
+CMB: '6'
+CMD: '20'
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Toughness
+Skills:
+  - Bluff +6
+  - Climb +8
+  - Intimidate +9
+  - Knowledge (arcana) +9
+  - Knowledge (engineering) +6
+  - Knowledge (nobility) +9
+  - Knowledge (religion) +9
+  - Perception +9
+  - Stealth +8
+  - Swim +19
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+  - Polyglot
+Source: AP 37
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Nylithati casts shield of faith on herself if she can before entering combat
+  or responding to the sounds of battle in area V27.
+DuringCombat: >-
+  Nylithati opens combat by casting darkness. She then lurks in the darkness
+  while she casts spiritual weapon, cause fear, and finally divine favor before
+  attacking. If outnumbered by more than three foes, she channels negative
+  energy&#8211;she also uses channeled negative energy to heal her lacedon
+  allies whenever one is damaged.
+Morale: Nylithati fights until destroyed.
+Gear: amulet of natural armor +1, ring of swimming
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '906'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

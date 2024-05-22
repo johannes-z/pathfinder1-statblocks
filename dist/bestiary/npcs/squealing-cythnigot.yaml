@@ -1,0 +1,104 @@
+Name: Squealing Cythnigot
+CR: '3'
+XP: '800'
+Race: HD cythnigot
+MonsterSource: Pathfinder RPG Bestiary 2 221
+Alignment: CE
+Size: Small
+Type: outsider
+SubType: (chaotic, evil, extraplanar, qlippoth)
+Init: '0'
+Senses:
+  - darkvision 60 ft., detect law, detect magic
+  - Perception +7
+AC: 12, touch 11, flat-footed 12
+AC_Mods: (+1 natural, +1 size)
+HP: '32'
+HD: (5d10+5)
+Saves: Fort +1, Ref +6, Will +3
+Fort: '1'
+Ref: '6'
+Will: '3'
+DR: 5/cold iron or lawful
+Immune: cold, poison, mindaffecting
+Resist: acid 10, fire 10
+Speed: 40 ft., fly 60 ft. (good)
+Melee:
+  - bite +9 (1d8+4 plus spores)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: horrific appearance (10 feet, DC 12)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +4)
+  values:
+    - label: Constant
+      value: detect law, detect magic, fly
+    - label: 1/day
+      value: soften earth and stone, warp wood
+    - label: 1/week
+      value: commune (six questions)
+AbilityScores:
+  - 16
+  - 10
+  - 11
+  - 11
+  - 8
+  - 7
+BaseAtk: '5'
+CMB: '7'
+CMD: 17 (25 vs. trip)
+Feats:
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+Skills:
+  - Acrobatics +5 (+9 jump)
+  - Fly +17
+  - Knowledge (nature) +5
+  - Knowledge (planes) +8
+  - Perception +7
+  - Stealth +12
+Languages:
+  - Abyssal
+  - telepathy (touch)
+Source: The Feast Of Ravenmoor
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Horrific Appearance (Su)
+    description: >-
+      As a standard action, the squealing cythnigot can adopt a hideous stance
+      that causes any creature within 10 feet to become sickened for 1 round if
+      it fails a DC 10 Will save. This is a mind-affecting gaze attack. The save
+      DC is Charisma-based.
+  - name: Spores (Su)
+    description: >-
+      A creature bitten by a cythnigot must make a DC 12 Fortitude save or
+      become infested by quickly growing, semi-animate tangles of fungal
+      growths-doing so causes the victim to become entangled. As a standard
+      action, an entangled character can try to rip the tendrils free; this
+      requires a DC 12 Fortitude save. Plant creatures take a &#8211;4 penalty
+      on saves against this effect. The effects of multiple bites do not stack.
+      This is a disease effect; the save DC is Constitution-based.
+DuringCombat: >-
+  The cythnigot attacks whoever is closest&#8211;be that target a PC or a
+  villager&#8211;unless a creature attacks it, in which case it attacks the foe
+  that seems to be able to do the most damage to it.
+Morale: >-
+  Once reduced below 11 hit points, the cythnigot flees by flying away into the
+  southern swamps.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1888'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

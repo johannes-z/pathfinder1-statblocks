@@ -1,0 +1,86 @@
+Name: Xicorax
+CR: '-'
+XP: '0'
+Race: Air mephit familiar
+MonsterSource: Pathfinder RPG Bestiary 202
+Alignment: 'N'
+Size: Small
+Type: outsider
+SubType: (air)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 21, touch 14, flat-footed 18
+AC_Mods: (+2 Dex, +1 dodge, +7 natural, +1 size)
+HP: '27'
+HD: (8 HD)
+HP_Mods: fast healing 2 (gusty and windy areas only)
+Saves: Fort +3, Ref +5, Will +6
+Fort: '3'
+Ref: '5'
+Will: '6'
+DefensiveAbilities: improved evasion
+DR: 5/magic
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee:
+  - 2 claws +6 (1d3+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (15-ft. cone, 1d8 slashing damage, DC 13 Reflex half, usable
+  every 4 rounds), deliver touch spells
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +8)
+  values:
+    - label: 1/hour
+      value: blur
+    - label: 1/day
+      value: gust of wind (DC 14), summon (level 2, 1 air mephit 25%)
+AbilityScores:
+  - 13
+  - 15
+  - 12
+  - 9
+  - 11
+  - 14
+BaseAtk: '4'
+CMB: '4'
+CMD: '17'
+Feats:
+  - Dodge
+  - Improved Initiative
+Skills:
+  - Bluff +8
+  - Fly +23
+  - Perception +6
+  - Stealth +12
+Languages:
+  - Common
+  - Auran
+SQ: empathic link, share spells, speak with master
+Source: AP 57
+IsTemplate: '0'
+DuringCombat: >-
+  Xicorax casts blur and attempts to summon another air mephit. He stays near
+  Morton, using his breath weapon and claws against any attackers. The open air
+  and decks of both the Dryad's Grave and the PCs' ship counts as gusty areas
+  for the purposes of Xicorax's fast healing.
+Morale: >-
+  Xicorax flees back to the Dryad's Grave if reduced to fewer than 15 hit
+  points. If Morton is slain, Xicorax flies into the sky, never to return.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '3063'
+id: '3064'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

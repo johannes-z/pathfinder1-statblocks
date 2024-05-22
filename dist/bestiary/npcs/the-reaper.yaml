@@ -1,0 +1,115 @@
+Name: The Reaper
+CR: '10'
+XP: '9600'
+Race: human
+Class: cleric of urgathoa 9
+MonsterSource: Pathfinder RPG Bestiary 144
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (humanoid, human, incorporeal)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +24
+AC: 27, touch 17, flat-footed 15
+AC_Mods: (+11 armor, +5 deflection, +1 Dex)
+HP: '111'
+HD: (9d8+63)
+Saves: Fort +12, Ref +6, Will +11
+Fort: '12'
+Ref: '6'
+Will: '11'
+DefensiveAbilities: >-
+  channel resistance +4, death's embrace, entropic shield, incorporeal,
+  rejuvenation
+Immune: spell immunity, undead traits
+Resist: acid 20, fire 20
+SR: '21'
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +8 touch (10d6, DC 19)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 8/day (DC 19, 5d6), death's kiss 7/day, draining
+  touch, malevolence (DC 21), weapon master (9 rounds/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: 7/day
+      value: battle rage (+4)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 9th; concentration +13)   5th-slay livingD (DC 21),
+  spell resistance   4th-dimensional anchor, enervationD, sickening spiritual
+  weapon (DC 16), spell immunity   3rd-animate dead, contagion (DC 19), dispel
+  magic, magic vestmentD, resist energy (communal)UC   2nd-death knell (DC 18),
+  graceAPG, hold person (DC 16), outbreak* (DC 18), resist energy, spiritual
+  weaponD   1st-bless, cause fearD (DC 17), command (DC 15), doom (DC 17),
+  entropic shield, protection from good   0 (at will)-bleed (DC 15), detect
+  magic, guidance, resistance
+SpellDomains: Death (UndeadAPG subdomain), War
+AbilityScores:
+  - —
+  - 14
+  - —
+  - 12
+  - 18
+  - 20
+BaseAtk: '6'
+CMB: '8'
+CMD: '23'
+Feats:
+  - Ability Focus (malevolence)
+  - Greater Spell Focus (necromancy)
+  - Heavy Armor Proficiency
+  - Sickening Spell
+  - Spell Focus (necromancy)
+  - Toughness
+Skills:
+  - Bluff +14
+  - Diplomacy +17
+  - Fly +10
+  - Perception +24
+  - Sense Motive +16
+  - Stealth +10
+RacialMods: +8 Perception, +8 Stealth
+Languages:
+  - Common
+  - Infernal
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The Reaper casts entropic shield, communal resist energy, resist energy,
+  resistance, spell resistance,  and spell immunity on herself and magic
+  vestment on her armor. She adjusts her energy resistances based on the energy
+  types she knows her foes use. She casts either spell immunity against a spell
+  she knows her foes often use or command undead .
+DuringCombat: >-
+  The Reaper uses contagion to spread as much disease as possible and fights to
+  the death, knowing she will rejuvenate. She makes free use of her malevolence
+  ability to cause confusion and hesitation, confident that heroes are highly
+  unlikely to strike down their own just to reach her.
+Gear: >-
+  +1 ghost touch full plate, headband of inspired wisdom +2, silver unholy
+  symbol of Urgathoa
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+BaseStatistics: >-
+  Without her spells, the Reaper's statistics are Fort +11, Ref +5, Will +10;
+  Defensive Abilities no entropic shield; Immune no spell immunity; Resist no
+  resistances; Spell Resistance no SR.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8873'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

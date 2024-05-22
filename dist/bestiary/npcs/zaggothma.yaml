@@ -1,0 +1,138 @@
+Name: Zaggothma
+CR: '13'
+XP: '25600'
+Race: Immature neothelid
+Alignment: CE
+Size: Large
+Type: aberration
+Init: '6'
+Senses:
+  - blindsight 100 ft., trace teleport 60 ft.
+  - Perception +25
+AC: 33, touch 11, flat-footed 31
+AC_Mods: (+2 Dex, +22 natural, -1 size)
+HP: '150'
+HD: (20d8+60)
+Saves: Fort +11, Ref +10, Will +16
+Fort: '11'
+Ref: '10'
+Will: '16'
+DR: 10/cold iron
+SR: '24'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - 4 tongues +20 (1d8+6/19-20 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  breath weapon (50 ft. cone, 12d10 acid, DC 23 Reflex save for half, once every
+  1d4 rounds), mind thrust, psychic crush, swallow whole (1d6+6 plus 2d6 acid,
+  AC 21, hp 15)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: >-
+        detect thoughts (DC 17), charm monster (DC 19),
+        clairvoyance/clairaudience, suggestion (DC 18), telekinesis (DC 20),
+        teleport, poison (DC 19)
+    - label: 3/day
+      value: quickened suggestion (DC 18)
+SpellsKnown:
+  header: Spells Known (CL 10th; ranged touch +16)
+  values:
+    - label: 5th (4/day)
+      value: cone of cold (DC 22)
+    - label: 4th (6/day)
+      value: greater invisibility, scrying (DC 19)
+    - label: 3rd (7/day)
+      value: dispel magic, fireball (DC 20), ray of exhaustion (DC 18)
+    - label: 2nd (8/day)
+      value: >-
+        blindness/deafness (DC 17), false life, protection from arrows,
+        scorching ray
+    - label: 1st (8/day)
+      value: >-
+        mage armor, magic missile, ray of enfeeblement (DC 16), shield, true
+        strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, bleed, detect magic, ghost sound (DC 15), mage
+        hand, prestidigitation, ray of frost, resistance
+AbilityScores:
+  - 22
+  - 15
+  - 16
+  - 16
+  - 15
+  - 21
+BaseAtk: '15'
+CMB: +22 (+26 grapple)
+CMD: 34 (can't be tripped)
+Feats:
+  - Arcane Strike
+  - Great Fortitude
+  - Greater Spell Focus (evocation)
+  - Improved Critical (tongue)
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Quicken Spell
+  - Quicken Spell-Like Ability (suggestion)
+  - Spell Focus (evocation)
+Skills:
+  - Bluff +25
+  - Climb +29
+  - Diplomacy +25
+  - Fly +4
+  - Intimidate +28
+  - Knowledge (arcana) +25
+  - Perception +25
+  - Spellcraft +25
+Languages:
+  - Aklo
+  - Terran
+  - Undercommon
+  - telepathy 100 ft.
+Source: Rappan Athuk-Level 11
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Mind Thrust (Su)
+    description: >-
+      As a standard action up to three times a day, Zoggothma can deliver a
+      massive blast of mental energy at any one target within 60 ft., inflicting
+      13d10 points of damage. A successful DC 25 Will save negates the effect.
+      This effect can only harm creatures with Intelligence scores. This is a
+      mind-affecting effect. The save DC is Charismabased.
+  - name: Psychic Crush (Su)
+    description: >-
+      As a standard action up to three times a day, Zoggothma can attempt to
+      crush the mind of a single creature within 60 ft. The target must make a
+      DC 25 Will save or collapse, becoming unconscious and dying at -1 hit
+      points. If the target succeeds on the save, it takes 6d6 points of damage
+      and is sickened for 1 round. This is a mindaffecting effect. The save DC
+      is Charisma-based.
+  - name: Trace Teleport (Ex)
+    description: >-
+      Zaggothma telepathically and reflexively learns the mental coordinates of
+      the destination of all creatures that teleport within 60 ft. of it,
+      gaining an awareness of the location equivalent to "seen casually." This
+      knowledge fades and is lost after 1 minute. This power does not grant any
+      environmental information about the conditions of the destination.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12235'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

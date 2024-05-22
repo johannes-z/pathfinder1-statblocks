@@ -1,0 +1,84 @@
+Name: The Bird
+CR: '5'
+XP: '1600'
+Race: giant vulture
+MonsterSource: Pathfinder RPG Bestiary 2 291, Pathfinder RPG Bestiary 3 284
+Alignment: NE
+Size: Large
+Type: undead
+SubType: (augmented animal)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +10
+AC: 21, touch 12, flat-footed 18
+AC_Mods: (+3 Dex, +9 natural, -1 size)
+HP: '27'
+HD: (5d8+5)
+Saves: Fort +3, Ref +4, Will +6
+Fort: '3'
+Ref: '4'
+Will: '6'
+DefensiveAbilities: channel resistance +4
+DR: 5/magic and slashing
+Immune: cold, electricity, magic missile, undead traits
+Resist: fire 10
+Speed: 30 ft., fly 50 ft. (clumsy)
+Melee:
+  - bite +11 (1d8+8), slam +10 (1d6+8)
+Space: 10 ft.
+Reach: 10 ft.
+AbilityScores:
+  - 26
+  - 17
+  - —
+  - 2
+  - 15
+  - 11
+BaseAtk: '3'
+CMB: '12'
+CMD: '25'
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Toughness
+  - Weapon Focus (bite)
+Skills:
+  - Climb +16
+  - Fly +0
+  - Perception +17
+RacialMods: +8 Climb, +8 Perception
+Source: PFS S6-15
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fearsome Legend (Ex)
+    description: >-
+      As a unique creature drawn from the collective subconscious, the Bird
+      gains a permanent +4 increase to its Charisma score and does not inflict
+      diseases with its bite attack.
+BeforeCombat: >-
+  The Bird lurks under the dark water until it spots any iridescent light that
+  might be coming from its prey.
+DuringCombat: >-
+  The Bird relentlessly pursues the Worm, attacking anything that comes between
+  it and its prey.
+Morale: >-
+  The Bird fights until destroyed, or until it consumes the Worm, dead or alive.
+  Once it consumes the Worm, the Bird continues to fight only if attacked.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: juju zombie|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7935'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

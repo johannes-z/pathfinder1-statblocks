@@ -1,0 +1,115 @@
+Name: Mythic Young Red Dragon
+CR: '12'
+XP: '19200'
+Alignment: CE
+Size: Large
+Type: dragon
+SubType: (fire, mythic)
+Init: +10M
+Senses:
+  - >-
+    blindsense 60 ft., darkvision 120 ft., low-light vision, smoke vision, x-ray
+    vision
+  - Perception +15
+AC: 27, touch 10, flat-footed 26
+AC_Mods: (+1 Dex, +17 natural, -1 size)
+HP: '165'
+HD: (11d12+94)
+HP_Mods: fast healing 5
+Saves: Fort +11, Ref +8, Will +10
+Fort: '11'
+Ref: '8'
+Will: '10'
+DefensiveAbilities: dragon blood (1d6 fire), fortification (50%)
+DR: 10/epic
+Immune: dragon traits, fire, paralysis, sleep
+Weaknesses: vulnerable to cold
+Speed: 40 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +18 (2d6+10 plus grab), 2 claws +18 (1d8+8 plus grab), tail slap +13
+    (1d8+12), 2 wings +13 (1d6+4)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (40-ft. cone, 6d10 fire, Reflex DC 19 half, usable every 1d4
+  rounds), lingering breath (2d6 fire, 5 rounds), mythic power (5/day, surge
+  +1d8), swallow whole (1d6 bludgeoning and 1d6 fire damage, AC 18, 16 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +13)
+  values:
+    - label: At Will
+      value: detect magic
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 1st; concentration +3)  1st (3)-shield, true
+    strike
+  values:
+    - label: 0 (at will)
+      value: mage hand, message, prestidigitation, read magic
+AbilityScores:
+  - 27
+  - 12
+  - 19
+  - 12
+  - 13
+  - 14
+BaseAtk: '11'
+CMB: +20 (+24 grapple)
+CMD: 31 (35 vs. trip)
+Feats:
+  - Cleave
+  - Improved InitiativeM
+  - Improved Vital Strike
+  - Iron WillM
+  - Power AttackM
+  - Vital Strike
+Skills:
+  - Appraise +15
+  - Bluff +16
+  - Fly +9
+  - Intimidate +16
+  - Perception +15
+  - Sense Motive +15
+  - Stealth +11
+Languages:
+  - Common
+  - Draconic
+SQ: dragon cantrips
+Environment: warm mountains
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  A ruddy glow emanates from beneath this dragon's red, gem-encrusted scales,
+  like lava visible between cracks of cooling stone.
+Group: Dragon
+Source: Mythic Adventures
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Smoke Vision (Ex)
+    description: >-
+      A very young red dragon can see perfectly in smoky conditions (such as
+      those created by pyrotechnics).
+Description:
+  - >-
+    A young mythic red dragon is the offspring of an older mythic dragon,
+    inheriting its power and rage. It tends to gorge itself on livestock, then
+    sleep for nearly a year, only to repeat this cycle when it awakens again.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: young
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4868'
+UniqueMonster: '0'
+MR: '5'
+Mythic: '1'
+MT: '0'

@@ -1,0 +1,136 @@
+Name: The Shade
+CR: '13'
+XP: '25600'
+Race: human
+Class: bard 9/technomancer 4
+MonsterSource: 'Pathfinder Campaign Setting: Technology Guide 14'
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '9'
+Senses:
+  - darkvision 120 ft.
+  - Perception +0
+AC: 28, touch 14, flat-footed 24
+AC_Mods: (+8 armor, +4 Dex, +4 natural, +2 shield)
+HP: '158'
+HD: (13 HD; 9d8+4d6+100)
+HP_Mods: fast healing 10
+Saves: >-
+  Fort +10, Ref +12, Will +10; +4 vs. bardic performance, language-dependent,
+  and sonic
+Fort: '10'
+Ref: '12'
+Will: '10'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: nanite infused
+Speed: 30 ft.
+Melee:
+  - reconditioned timeworn monowhip +13/+8 touch (2d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 23 rounds/day (move action; countersong, dirge of doom [DC
+  17], distraction, fascinate [DC 17], inspire competence +3, inspire courage
+  +2, inspire greatness, suggestion [DC 17])
+SpellsKnown:
+  header: Bard Spells Known (CL 12th; concentration +15)
+  values:
+    - label: 4th (3/day)
+      value: >-
+        dance of a hundred cutsUM, dimension door, greater invisibility, hold
+        monster (DC 17)
+    - label: 3rd (5/day)
+      value: confusion (DC 16), cure serious wounds, dischargeTG, haste, irradiateTG
+    - label: 2nd (6/day)
+      value: >-
+        alter self, cure moderate wounds, cacophonous callAPG (DC 15), mirror
+        image, sound burst (DC 15)
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 14), cure light wounds, detect secret doors, grease (DC
+        14), saving finaleAPG, vanishAPG
+    - label: 0 (at will)
+      value: >-
+        dancing lights, mage hand, mending, message, open/close,
+        prestidigitation (DC 13)
+AbilityScores:
+  - 8
+  - 20
+  - 22
+  - 12
+  - 10
+  - 17
+BaseAtk: '8'
+CMB: '7'
+CMD: '22'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Exotic Weapon Proficiency (firearm)
+  - Improved Initiative
+  - Iron Will
+  - Skill Focus (Knowledge [engineering])
+  - Technologist
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +19
+  - Bluff +19
+  - Diplomacy +11
+  - Disable Device +16 (+20 vs. technology)
+  - Disguise +19
+  - Escape Artist +19
+  - Knowledge (engineering) +27 (+31 vs technology)
+  - Linguistics +0 (+4 vs. technology)
+  - Perform (act) +19
+  - Perform (sing) +19
+  - Sense Motive +19
+  - Spellcraft +17
+Languages:
+  - Common
+SQ: >-
+  arcane battery, bardic knowledge +4, efficient construction, lore master
+  1/day, recondition (hard light shield, monowhip), recycle technology, study
+  technology, technic spell mastery (irradiate), technical expertise, versatile
+  performance (sing, act)
+Source: AP 89
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Nanite Infused (Ex)
+    description: >-
+      The Shade's exposure to specialized nanites has granted her the following
+      benefits: +6 natural armor bonus, +6 Dex, +6 Con, fast healing 10, and
+      darkvision 120 ft. This increases her CR by 1.
+Gender: Female
+DuringCombat: >-
+  The Shade uses inspire courage to bolster herself and her champions at the
+  start of any fight. If the PCs intervene, the Shade casts greater invisibility
+  on herself, following that up with haste and dance of a hundred cuts so she
+  can move about quickly, hitting foes with her monowhip while never remaining
+  in one place for long. She always uses Arcane Strike to augment her attacks
+  with her monowhip. She casts healing magic on herself whenever she's reduced
+  to 80 hit points or fewer.
+Morale: >-
+  The Shade uses dimension door to escape combat if reduced to hit points or
+  fewer, then flees back to the Technic League compound. If she escapes,
+  increase the PCs' Notoriety by 10.
+Gear: >-
+  +2 elven chain chainmail, timewornTG hard light shieldTG, timewornTG
+  monowhipTG, blue access cardTG, carrier's badges (5), commsetTG
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6601'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

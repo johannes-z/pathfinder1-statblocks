@@ -1,0 +1,113 @@
+Name: Blood Bush
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Small
+Type: plant
+Init: '0'
+Senses:
+  - blindsight 30 ft., low-light vision
+  - Perception +1
+AC: 18, touch 11, flat-footed 18
+AC_Mods: ', +7 natural, +1 size)'
+HP: '57'
+HD: (6d8+30)
+Saves: Fort +10, Ref +2, Will +3
+Fort: '10'
+Ref: '2'
+Will: '3'
+Immune: electricity
+Resist: cold 10, fire 10
+Weaknesses: vulnerable to sonic
+Speed: 0 ft.
+Melee:
+  - tendril +7 (1d4+2)
+Ranged:
+  - flower dart +5 (1d2+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: flower dart, implant
+AbilityScores:
+  - 15
+  - 10
+  - 20
+  - —
+  - 12
+  - 9
+BaseAtk: '4'
+CMB: '5'
+CMD: '15'
+Environment: temperate forests
+Organization: solitary, cluster (2-4)
+Treasure: none
+Description_Visual: >-
+  This creature appears as a 3-foot tall flowering bush with a thick trunk and
+  small whip-like branches. Each branch is topped with a blood-red flower and
+  deep, rich green leaves.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Flower Dart (Ex)
+    description: >-
+      As a standard action, a blood bush can launch a barrage of six flower
+      darts (make an attack roll for each dart). This attack has a range of 40
+      feet with no range increment. All targets must be within 30 feet of each
+      other. The creature can launch only 30 such darts in one day.
+  - name: Implant (Ex)
+    description: >-
+      A creature hit by one of the blood bush's flower darts is implanted with
+      one of its seeds. A seed quickly germinates as follows: Round Effect First
+      DC 18 Will save or flee in fear for 1d6 rounds Third Paralysis for 1d4+2
+      rounds; DC 18 Fortitude negates Fifth Wounding: 1 point of Constitution
+      damage per minute until the seed is removed or destroyed.A seed can be
+      removed safely up to 5 rounds after implantation with a successful DC 18
+      Heal check or by cutting it from the victim (dealing 1d2 points of
+      damage); otherwise only a remove disease spell destroys an implanted seed.
+      The save DCs and check DC are Constitution-based.
+  - name: Sonic Vulnerability (Ex)
+    description: >-
+      A blood bush that is subjected to a sonic-based attack or effect (such as
+      a shout spell) loses its blindsight ability and is effectively blinded (as
+      the blindness spell) for a 1d4+6 rounds.
+Description:
+  - >-
+    The blood bush is a fell plant creature cursed by a wizard in times past. It
+    is named for its blood-red flowers and its thorny blood-red seeds. A blood
+    bush is sometimes referred to as a "grave marker plant" because a creature
+    that encounters it, and fails to see the danger this sinister plant
+    presents, rarely lives to tell about it. A blood bush can only be grown from
+    a seed that has germinated inside the warm body of a Small or larger animal.
+    Roots from the germinating seed kill the host and use the nutrients provided
+    to grow rapidly into a deadly plant. A number of nobles use this horrid
+    plant as a deterrent against thieves and robbers, sometimes creating entire
+    hedges of these plants. A blood bush appears as a flowering bush about 3
+    feet tall. Its thick trunk quickly splits off into many smaller, whip-like
+    branches, each topped with a blood-red flower surrounded by deep green
+    leaves. Blood bush seeds can be sold for about 20 gp each on the open
+    market; collecting them and living to earn the money they bring is not the
+    easiest of tasks. When a blood bush detects a warm-blooded creature within
+    20 feet, it fires a volley of flower darts at the creature, attempting to
+    implant it with its seeds. A creature that dies from the blood bush's seed
+    implantation rapidly decomposes, and a new blood bush springs up in the area
+    within four days. Living creatures within 5 feet of a blood bush are slashed
+    and cut with its four whip-like tendrils. Copyright Notice Authors Scott
+    Greene and Lance Hawvermale.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2267'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

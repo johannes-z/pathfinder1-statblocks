@@ -1,0 +1,162 @@
+Name: Ogg'gggol
+CR: '10'
+XP: '9600'
+Race: Cerebric fungus
+Class: oracle 9
+MonsterSource: >-
+  Advanced Player's Guide 42, Pathfinder Society Scenario #35: Voice in the Void
+  16
+Alignment: 'N'
+Size: Medium
+Type: plant
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +23
+Aura: unsettling appearance (60 ft., DC 17)
+AC: 26, touch 15, flat-footed 25
+AC_Mods: (+6 armor, +3 deflection, +1 Dex, +1 insight, +5 natural)
+HP: '119'
+HD: (13d8+61)
+HP_Mods: fast healing 2
+Saves: Fort +12, Ref +5, Will +14; +4 vs. disease
+Fort: '12'
+Ref: '5'
+Will: '14'
+Save_Mods: +4 vs. disease
+DefensiveAbilities: otherworldly mind
+Immune: disease, plant traits, sickened
+Resist: cold 5
+Weaknesses: vulnerable to light, sonic
+Speed: 30 ft.
+Melee:
+  - bite +12 (1d6+3), 2 tendrils +10 (1d4+1 plus pull)
+Space: 5 ft.
+Reach: 5 ft. (15 ft. with tendrils)
+SpecialAttacks: pull (tendril, 5 ft.), star-shriek
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +9)
+  values:
+    - label: Constant
+      value: detect thoughts (DC 17)
+    - label: At will
+      value: touch of madness (DC 17)
+    - label: 3/day
+      value: calm emotions (DC 17), touch of idiocy (DC 17)
+SpellsKnown:
+  header: Oracle Spells Known (CL 9th; concentration +14)
+  values:
+    - label: 4th (5/day)
+      value: >-
+        black tentacles, divine power, inflict critical wounds (DC 19),
+        spiritual ally*
+    - label: 3rd (7/day)
+      value: >-
+        blindness/deafness (DC 18), inflict serious wounds (DC 18), invisibility
+        purge, searing light, tongues
+    - label: 2nd (7/day)
+      value: >-
+        bull's strength, dust of twilight* (DC 17), hold person (DC 17), inflict
+        moderate wounds (DC 17), resist energy, silence (DC 17)
+    - label: 1st (8/day)
+      value: >-
+        command (DC 16), divine favor, entropic shield, inflict light wounds (DC
+        16), obscuring mist, sanctuary (DC 16), shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), detect magic, guidance, light, read magic, resistance,
+        stabilize, virtue
+AbilityScores:
+  - 16
+  - 12
+  - 16
+  - 18
+  - 24
+  - 20
+BaseAtk: '9'
+CMB: '12'
+CMD: 26 (32 vs. trip)
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Extra Revelation*
+  - Great Fortitude
+  - Improved Initiative
+  - Multiattack
+  - Toughness
+Skills:
+  - Diplomacy +17
+  - Knowledge (arcana) +20
+  - Knowledge (planes) +20
+  - Knowledge (religion) +14
+  - Perception +23
+  - Sense Motive +23
+  - Spellcraft +20
+  - Stealth +19
+Languages:
+  - telepathy 100 ft.
+SQ: >-
+  oracle's curse (wasting), revelations (brain drain [9d4, DC 19, 2/day], cloak
+  of darkness [+6/+4, 9 hours/day], interstellar void [9d6 DC 19, 1/day], read
+  the tapestry)
+Source: AP 46
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Otherworldly Mind (Ex)
+    description: >-
+      Any creature attempting to contact a cerebric fungus's mind or read its
+      thoughts with a divination spell or similar ability must make a DC 19 Will
+      save or be overwhelmed by the alien thoughts in the creature's head. Those
+      who fail take 1d6 points of nonlethal damage and are confused for 1d6
+      rounds, and their spell immediately ends. The save is Charisma-based and
+      includes a +2 racial bonus. Star-Shriek (Ex) When distressed, a cerebric
+      fungus can unleash a shrill scream of madness and despair that echoes the
+      cold, dark void between the stars. All creatures (except other cerebric
+      fungi) within 30 feet must make a DC 15 Will save or be nauseated for 1d4
+      rounds. This ability can be used once per day as a full-round action. This
+      is a sonic, mind-affecting effect. The save DC is Constitution-based.
+  - name: Touch of Madness (Sp)
+    description: >-
+      A cerebric fungus may daze one living creature by making a successful
+      touch attack. If the target creature does not make a successful DC 17 Will
+      save, its mind is clouded and it takes no action for 1 round per caster
+      level. The dazed subject is not stunned (so attackers get no special
+      advantage against it). This is a mind-affecting enchantment, equivalent to
+      a 2nd-level spell.
+  - name: Unsettling Appearance (Su)
+    description: >-
+      A cerebric fungus constantly scans the minds of those nearby, projecting
+      around itself a confusing collage of images gleaned from their thoughts.
+      Creatures within 60 feet that can see the fungus must succeed on a DC 17
+      Will save or take a -2 penalty on attack rolls while looking at the
+      fungus. This is a mind-affecting phantasm. The save is Charisma-based.
+BeforeCombat: >-
+  Ogg'gggol activates its cloak of darkness and casts bull's strength, entropic
+  shield, and shield of faith before combat.
+DuringCombat: >-
+  If attacked, Ogg'gggol looses its star-shriek before casting spiritual ally
+  and black tentacles. It continues attacking with its spells and oracle
+  revelations as long as it can. If forced into melee combat, Ogg'gggol casts
+  divine favor and attacks with its tendrils, pulling opponents closer to bite
+  or hit with touch attacks.
+Morale: >-
+  Ogg'gggol has never experienced death, so it fights until killed to savor the
+  new experience.
+Gear: dusty rose prism ioun stone, ring of sustenance
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: Dark Tapestry (Ultimate Magic 54)
+CompanionFamiliarLink: '0'
+id: '1700'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

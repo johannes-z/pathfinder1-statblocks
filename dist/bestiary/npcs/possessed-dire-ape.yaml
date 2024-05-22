@@ -1,0 +1,94 @@
+Name: Possessed Dire Ape
+CR: '3'
+XP: '800'
+Race: Possessed Dire Ape
+MonsterSource: Pathfinder RPG Bestiary 17
+Alignment: CE
+Size: Large
+Type: animal
+Init: '6'
+Senses:
+  - low-light vision, scent
+  - Perception +20
+AC: 15, touch 11, flat-footed 13
+AC_Mods: (+2 Dex, +4 natural, -1 size)
+HP: '30'
+HD: (4d8+12)
+Saves: Fort +5, Ref +9, Will +7
+Fort: '5'
+Ref: '9'
+Will: '7'
+SR: '17'
+Weaknesses: sunlight vulnerability
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - bite +10 (1d6+4), 2 claws +10 (1d4+4)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rend (2 claws, 1d4+6)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: At will
+      value: >-
+        deeper darkness, fear (DC 18), greater teleport (self only), telekinesis
+        (DC 19)
+    - label: 3/day
+      value: shadow conjuration (DC 18), shadow evocation (DC 19)
+    - label: 1/day
+      value: magic jar (DC 19), summon (level 3, 1 shadow demon 50%)
+AbilityScores:
+  - 19
+  - 15
+  - 16
+  - 14
+  - 14
+  - 19
+BaseAtk: '7'
+CMB: '12'
+CMD: '24'
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Improved Initiative
+  - Lightning Reflexes
+Skills:
+  - Acrobatics +12
+  - Bluff +14
+  - Climb +12
+  - Knowledge (local) +12
+  - Knowledge (planes) +12
+  - Perception +20
+  - Sense Motive +12
+  - Stealth +8
+Source: AP 38
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Sunlight Vulnerability (Ex)
+    description: >-
+      A shadow demon that is possessing a creature using magic jar is not harmed
+      by sunlight, but if it is struck by a sunbeam or sunray spell while
+      possessing a creature, the shadow demon is driven out of its host
+      automatically.
+DuringCombat: >-
+  The possessed dire ape begins by casting fear at its opponents. Then,
+  relishing in its physical body, it forgoes further spellcasting and leaps into
+  combat, rending with its bite and claws.
+Morale: >-
+  The possessed ape fights to the death, at which point the shadow demon exits
+  the ape's body and attacks the PCs.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '945'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

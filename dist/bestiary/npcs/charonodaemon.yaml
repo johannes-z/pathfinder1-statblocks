@@ -1,0 +1,91 @@
+Name: Charonodaemon
+CR: '9'
+XP: '6400'
+Race: Charonodaemon
+MonsterSource: The Tome of Horrors Complete 134
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (daemon, evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft., detect magic, see invisibility
+  - Perception +15
+AC: 24, touch 13, flat-footed 21
+AC_Mods: (+3 Dex, +11 natural)
+HP: '105'
+HD: (10d10+50)
+Saves: Fort +12, Ref +12, Will +5
+Fort: '12'
+Ref: '12'
+Will: '5'
+DR: 10/good
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+SR: '19'
+Speed: 40 ft.
+Melee:
+  - quarterstaff +15/+10 (1d6+5)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: fear gaze (30 ft, DC 19 Will save or affected as by fear spell)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: Constant
+      value: detect magic, see invisibility
+    - label: At Will
+      value: >-
+        deeper darkness, desecrate, greater teleport (self plus skiff only),
+        plane shift (self plus skiff only)
+    - label: 1/day
+      value: summon (level 4, 1d4 hydrodaemons or 1 charonadaemon 35%)
+AbilityScores:
+  - 21
+  - 16
+  - 21
+  - 15
+  - 15
+  - 18
+BaseAtk: '10'
+CMB: '15'
+CMD: '28'
+Feats:
+  - Improved Initiative
+  - Improved Sunder
+  - Lightning Reflexes
+  - Persuasive
+  - Power Attack
+Skills:
+  - Bluff +17
+  - Diplomacy +21
+  - Intimidate +21
+  - Knowledge (planes) +15
+  - Perception +15
+  - Sense Motive +15
+  - Stealth +16
+  - Survival +15
+Languages:
+  - Abyssal
+  - Common
+  - Daemonic
+  - Infernal
+  - telepathy 100 ft.
+SQ: alter self
+Source: Sword of Air-Chapter 5
+IsTemplate: '0'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12687'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

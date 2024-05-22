@@ -1,0 +1,167 @@
+Name: Meladaemon Shock Trooper
+CR: '14'
+XP: '38400'
+Race: meladaemon
+Class: sorcerer 6
+MonsterSource: Pathfinder RPG Bestiary 2 69
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (daemon, evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft., detect good, detect magic, see  invisibility
+  - Perception +27
+Aura: consumptive aura (20 ft.)
+AC: 31, touch 17, flat-footed 23
+AC_Mods: (+7 Dex, +1 dodge, +10 natural, +4 shield, -1 size)
+HP: '244'
+HD: (20 HD; 14d10+6d6+146)
+Saves: Fort +15, Ref +18, Will +20;
+Fort: '15'
+Ref: '18'
+Will: '20'
+DR: 10/good
+Immune: acid, critical hits, death effects, disease, poison, sneak attacks
+Resist: cold 10, electricity 10, fire 10
+SR: '22'
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - bite +24 (2d8+5/19-20 plus disease), 2 claws +23 (2d6+5  plus hunger)
+Ranged:
+  - ray +23 touch (by spell)
+Space: 10 ft.
+Reach: 10 ft. (15 ft. with melee touch attacks)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +18)
+  values:
+    - label: Constant
+      value: detect good, detect magic, fly, see invisibility
+    - label: At will
+      value: >-
+        fear (DC 21), deeper darkness, greater teleport (self plus 50 lbs. of
+        objects only)
+    - label: 3/day
+      value: blight (DC 22), diminish plants, quickened magic missile
+    - label: 1/day
+      value: >-
+        horrid wilting (DC 25), waves of fatigue Bloodline Spell-Like Abilities
+        (CL 6th; concentration +13)
+    - label: 10/day
+      value: acidic ray (1d6+3 acid)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +13)
+  values:
+    - label: 3rd (5/day)
+      value: lightning bolt (DC 20)
+    - label: 2nd (7/day)
+      value: blur, ghoul touch (DC 19), see invisibility
+    - label: 1st (8/day)
+      value: enlarge person, magic missile, shield, shocking grasp, true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 17), detect magic, ghost sound (DC 17), ray of
+        frost, read magic, touch of fatigue (DC 17)
+AbilityScores:
+  - 20
+  - 25
+  - 24
+  - 20
+  - 18
+  - 24
+BaseAtk: '17'
+CMB: '23'
+CMD: '41'
+Feats:
+  - Blind-Fight
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Critical (bite)
+  - Iron Will
+  - Quicken Spell-Like Ability (magic missile)
+  - Weapon Finesse
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +26
+  - Fly +20
+  - Heal +11
+  - Intimidate +26
+  - Knowledge (arcana) +24
+  - Knowledge (planes) +24
+  - Knowledge (religion) +24
+  - Perception +27
+  - Sense Motive +23
+  - Spellcraft +24
+  - Stealth +22
+  - Survival +23
+  - Use Magic Device +26
+Languages:
+  - Abyssal
+  - Aklo
+  - Draconic
+  - Infernal
+  - Orvian
+  - Undercommon
+  - telepathy 100 ft.
+SQ: bloodline arcana
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Consumptive Aura (Su)
+    description: >-
+      A meladaemon radiates an aura of hunger to a radius of 20 feet. Every
+      round a creature begins its turn within this aura, it must succeed on a DC
+      24 Fortitude save or take 1d6 nonlethal damage and become fatigued from
+      extreme hunger. Creatures that do not need to eat are immune to this
+      effect. The save DC is Constitution-based.
+  - name: Disease (Ex)
+    description: >-
+      Daemonic wasting: Bite-injury; save Fort DC 24; onset 1 day; frequency
+      1/day; effect 1d4 Con and 1d4 Cha damage; cure 2 consecutive saves. The
+      save DC is Constitution-based.
+  - name: Hunger (Su)
+    description: >-
+      A meladaemon's claw attacks deal an additional 1d6 points of nonlethal
+      damage as it causes sudden pangs of horrific hunger in its foe. Creatures
+      that do not need to eat are immune to this effect.
+Gender: Male
+Bloodline: Aberrant
+BeforeCombat: >-
+  If alerted to combat with the urdefhan raiders in area A1 or the
+  proto-shoggoth in area A2, the meladaemon shock trooper casts blur and shield
+  before combat.
+DuringCombat: >-
+  The meladaemon opens battle by casting waves of fatigue on groups of PCs
+  trying to storm the ramps, followed by rays of exhaustion from his wand. While
+  the urdefhans fire on attackers from behind the barricades, the meladaemon
+  takes to the air and targets foes with horrid wilting, lightning bolt, and
+  quickened magic missile. If the PCs seem about to break through a barricade,
+  the meladaemon attempts to repel them with fear. If forced into melee, he uses
+  his long limbs to deliver touch spells, followed by attacks with his bite and
+  claws.
+Morale: >-
+  If reduced to fewer than 80 hit points, the meladaemon teleports to areas A7
+  and A8 to sound the alarm before returning to the fight 3 rounds later, at
+  which point he fights to the death.
+Gear: wand of ray of exhaustion (20 charges)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without shield, the meladaemon's statistics are AC 27, touch 17, flat-footed
+  19.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1448'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

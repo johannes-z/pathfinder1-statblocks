@@ -1,0 +1,130 @@
+Name: Deadly Mandrake
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Tiny
+Type: plant
+Init: '4'
+Senses:
+  - low-light vision, tremorsense 60 ft.
+  - Perception +7
+AC: 17, touch 16, flat-footed 13
+AC_Mods: (+4 Dex, +1 natural, +2 size)
+HP: '16'
+HD: (3d8+3)
+Saves: Fort +4, Ref +5, Will +2
+Fort: '4'
+Ref: '5'
+Will: '2'
+DR: 5/cold iron
+Immune: plant traits
+SR: '13'
+Speed: 30 ft., burrow 10 ft.
+Melee:
+  - 2 claws +8 (1d2-2)
+Space: 1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: death scream
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th)
+  values:
+    - label: At will
+      value: dancing lights, ghost sound (DC 13), prestidigitation (DC 13)
+    - label: 3/day
+      value: lesser confusion (DC 14), hypnotism (DC 14)
+    - label: 1/day
+      value: hallucinatory terrain (DC 17), sleep (DC 14)
+AbilityScores:
+  - 6
+  - 18
+  - 13
+  - 10
+  - 13
+  - 16
+BaseAtk: '2'
+CMB: '4'
+CMD: '12'
+Feats:
+  - Alertness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +5
+  - Escape Artist +5
+  - Knowledge (nature) +1
+  - Perception +7
+  - Perform (sing) +4
+  - Sense Motive +3
+  - Stealth +16 (+24 in vegetation)
+RacialMods: +8 in vegetation
+Languages:
+  - Common
+  - Sylvan
+Environment: temperate forests
+Organization: solitary or grove (2-6)
+Treasure: standard
+Description_Visual: >-
+  This creature appears as a tiny humanoid, brownish-green in color with a large
+  flowering plant growing from its head.
+Group: Mandrake
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Scream (Su)
+    description: >-
+      Once per minute, a deadly mandrake may scream as a full-round action. The
+      scream lasts until the beginning of its next turn. All creatures within 40
+      feet of the deadly mandrake when it begins its scream, as well as those
+      that end their turn within the area, must succeed on a DC 14 Fortitude
+      save. (This save is only required once per scream.) Creatures under the
+      effects of a fear effect take a -2 penalty on this save. Creatures that
+      make their save are sickened for 1d2 rounds. Those that fail their save
+      take 20 points of damage. If a screaming mandrake is damaged during a
+      scream, it must make a Will save (DC 15 + damage taken) to maintain the
+      scream; otherwise it ends. This is a sonic death effect. The save DC is
+      Charisma-based.
+Description:
+  - >-
+    Deadly mandrakes are mischievous plant creatures believed to be part plant
+    and part fey. They relish in playing tricks on those passing through their
+    domain. These tricks are always more playful than harmful, at least to the
+    deadly mandrake. Most such tricks take the form of lights or weird sounds
+    meant to distract and confuse travelers.
+  - >-
+    Deadly mandrakes sustain themselves on a diet of tree bark, leaves, and
+    berries, and are most active during the day. At night they burrow into the
+    ground to rest. Often times, a deadly mandrake burrows just far enough into
+    the ground to cover its body, leaving the flower on top of its head exposed.
+    Little else is known of these creatures thus far.
+  - >-
+    Deadly mandrakes, despite their name, are generally inoffensive unless
+    disturbed. If disturbed or forced into battle, deadly mandrakes use their
+    death scream immediately in an attempt to end the confrontation as quickly
+    as possible. Creatures that resist are subjected to sleep, lesser confusion,
+    or hypnotism. They can attack with their claws if needed, but rarely do so.
+  - >-
+    Any deadly mandrake killed has a 1% chance of returning in 1d4 days as a
+    mandragora. If the deadly mandrake's body is doused with demon ichor (from a
+    demon CR 6 or above), or a deadly mandrake is killed by a demon CR 6 or
+    above, the chance rises to 10%. Using a deadly mandrake in the alchemical
+    creation of a mandragora lowers the Craft (alchemy) DC from 25 to 20. (See
+    the Pathfinder Roleplaying Game Bestiary 2 "Mandragora", for details on the
+    mandragora and the creation of a mandragora.)
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5005'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

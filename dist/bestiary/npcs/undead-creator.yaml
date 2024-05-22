@@ -1,0 +1,129 @@
+Name: Undead Creator
+CR: '10'
+XP: '9600'
+Race: human
+Class: necromancer 11
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +4
+AC: 16, touch 11, flat-footed 15
+AC_Mods: (+4 armor, +1 Dex, +1 natural)
+HP: '100'
+HD: (11d6+59)
+Saves: Fort +10, Ref +6, Will +10
+Fort: '10'
+Ref: '6'
+Will: '10'
+Resist: fire 30
+Speed: 30 ft.
+Melee:
+  - mwk dagger +6 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy (DC 17, 8/day)
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 11th; concentration +16)
+  values:
+    - label: 8/day
+      value: grave touch (5 rounds)
+SpellsPrepared: >-
+  Necromancer Spells Prepared (CL 11th; concentration +16)   6th-create undead,
+  eyebite (DC 23)   5th-baleful polymorph (DC 20), magic jar (DC 22), teleport,
+  waves of fatigue   4th-animate dead, enervation, fear (DC 21), solid fog, wall
+  of fire   3rd-blink, fireball (DC 18), fly, ray of exhaustion (DC 20),
+  vampiric touch (2)   2nd-blindness/deafness (DC 19), false life, resist
+  energy, see invisibility, scare (DC 19), scorching ray   1st-alarm, burning
+  hands (DC 16), cause fear (DC 18), detect undead, expeditious retreat, mage
+  armor, magic missile   0 (at will)-bleed (DC 17), detect magic, read magic,
+  touch of fatigue (DC 17)
+AbilityScores:
+  - 10
+  - 12
+  - 16
+  - 20
+  - 8
+  - 14
+BaseAtk: '5'
+CMB: '5'
+CMD: '16'
+Feats:
+  - Brew Potion
+  - Combat Casting
+  - Command Undead
+  - Craft Wondrous Item
+  - Greater Spell Focus (necromancy)
+  - Improved Channel
+  - Improved Initiative
+  - Iron Will
+  - Scribe Scroll
+  - Spell Focus (necromancy)
+  - Toughness
+Skills:
+  - Craft (alchemy) +19
+  - Fly +5
+  - Heal +4
+  - Intimidate +7
+  - Knowledge (arcana) +19
+  - Knowledge (dungeoneering) +13
+  - Knowledge (engineering) +13
+  - Knowledge (geography) +13
+  - Knowledge (history) +13
+  - Knowledge (local) +13
+  - Knowledge (nature) +13
+  - Knowledge (nobility) +13
+  - Knowledge (planes) +13
+  - Knowledge (religion) +18
+  - Perception +4
+  - Spellcraft +19
+Languages:
+  - Aklo
+  - Common
+  - Dwarven
+  - Elven
+  - Goblin
+  - Infernal
+SQ: arcane bond (rat), life sight (10 feet, 11 rounds/day)
+Source: NPC Codex
+IsTemplate: '0'
+ProhibitedSchools: enchantment, illusion
+BeforeCombat: >-
+  The wizard casts mage armor, false life, resist energy (fire), and see
+  invisibility.
+DuringCombat: >-
+  The wizard casts solid fog on a group of enemies, then casts wall of fire in a
+  circle (focused inward) around the solid fog. As opponents leave the fog, he
+  attacks them directly with eyebite and enervation. He might cast fear to drive
+  opponents through the wall of fire, or cast fireball on a group of opponents
+  grouped together.
+Gear: >-
+  potions of cure moderate wounds (2), potion of displacement, potion of
+  invisibility, robe of bones
+OtherGear: >-
+  masterwork dagger, amulet of natural armor +1, belt of mighty constitution +2,
+  cloak of resistance +2, goggles of night, headband of vast intelligence +2,
+  spellbook, crystal for magic jar (worth 100 gp), onyx gems (worth 300 gp), 623
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without false life, mage armor, resist energy, and see invisibility, the
+  wizard's statistics are Senses darkvision 60 ft.; AC 12, touch 11, flat-footed
+  11; hp 85; Resist none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3832'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

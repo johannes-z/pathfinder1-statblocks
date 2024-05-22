@@ -1,0 +1,121 @@
+Name: Skull Ripper
+CR: '9'
+XP: '6400'
+Alignment: CN
+Size: Large
+Type: construct
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +1
+Aura: dread visage (30 ft., DC 18)
+AC: 24, touch 12, flat-footed 21
+AC_Mods: (+3 Dex, +12 natural, -1 size)
+HP: '112'
+HD: (15d10+30)
+Saves: Fort +5, Ref +10, Will +6
+Fort: '5'
+Ref: '10'
+Will: '6'
+DR: 5/adamantine
+Immune: construct traits
+Resist: cold 10
+SR: '20'
+Speed: 40 ft., climb 40 ft.
+Melee:
+  - 2 claws +20 (2d6+6/19-20 plus grab), sting +20 (1d10+6 plus poison)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: behead, constrict 2d6+9
+AbilityScores:
+  - 22
+  - 16
+  - —
+  - 5
+  - 13
+  - 12
+BaseAtk: '15'
+CMB: +22 (+26 grapple)
+CMD: 35 (47 vs. trip)
+Feats:
+  - Bleeding Critical
+  - Combat Reflexes
+  - Critical Focus
+  - Improved Critical (claw)
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Vital Strike
+Skills:
+  - Climb +19
+  - Stealth +15
+Languages:
+  - Thassilonian (cannot speak)
+Environment: any
+Organization: solitary, pair, or nest (3-8)
+Treasure: standard
+Description_Visual: >-
+  This chittering, scorpion-shaped monstrosity appears to be made of a hideous
+  mix of chitinous limbs and human skulls.
+Source: RotRL-AE-Appendix
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Behead (Ex)
+    description: >-
+      A skull ripper is an expert at collecting its favorite trophies-skulls.
+      Once it has pinned a foe, it can attempt to behead the victim with a
+      single gut-wrenching rip of its claws. This attempt is made as part of the
+      grapple check to maintain an existing pin, and if successful, deals 4d6+18
+      points of damage to the victim. If this damage is enough to bring the
+      target below 0 hit points, the victim must succeed at a DC 23 Fortitude
+      save to resist having its head torn from its body, which results in
+      instant death for most creatures. The save DC is Strength-based.
+  - name: Dread Visage (Su)
+    description: >-
+      All creatures within 30 feet that can see a skull ripper must make a DC 18
+      Will save at the start of their turn in order to avoid becoming frightened
+      for 1 round. If the victim recognizes any of the heads affixed to the
+      skull ripper's body as having once belonged to friends or allies, that
+      victim takes a -4 penalty on the save. A creature that succeeds at the
+      save is immune to the dread visage of that particular skull ripper for 24
+      hours. This is a mind-affecting fear effect. The save DC is
+      Charisma-based.
+  - name: Poison (Su)
+    description: >-
+      Sting-injury; save Fort DC 17; frequency 1/round for 6 rounds; effect 1d4
+      Dex; cure 2 consecutive saves. The save DC is Constitution-based.
+Description:
+  - >-
+    Skull rippers were once guardians of the dead, the grim custodians of the
+    great ossuaries of Thassilon. Although most skull rippers are discovered in
+    ancient tombs and sepulchers, occasionally a geological upheaval or massive
+    flood destroys a given catacomb or leaves a skull ripper stranded. In these
+    cases, the construct emerges and ventures forth into the world above,
+    harvesting skulls and causing widespread panic as it searches for a new tomb
+    to guard.
+  - Construction
+  - >-
+    A skull ripper is made from the carcasses of dead vermin and skulls, either
+    harvested by the creator or purchased from shady adventurers for roughly 500
+    gp in total.
+  - SKULL RIPPER
+  - CL 13th; Price 30,500 gp
+  - CONSTRUCTION
+  - >-
+    Requirements Craft Construct, animate dead, fear, geas/ quest, keen edge,
+    limited wish; Skill Heal or Knowledge (engineering) DC 15; Cost 15,500 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3372'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

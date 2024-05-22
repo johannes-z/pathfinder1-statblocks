@@ -1,0 +1,90 @@
+Name: Oread Bandit
+CR: '2'
+XP: '600'
+Race: Oread
+Class: rogue 3
+MonsterSource: Pathfinder RPG Bestiary 2 205
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 16, touch 11, flat-footed 15
+AC_Mods: (+4 armor, +1 Dex, +1 natural)
+HP: '26'
+HD: (3d8+9)
+Saves: Fort +3, Ref +4, Will +1
+Fort: '3'
+Ref: '4'
+Will: '1'
+DefensiveAbilities: evasion, trap sense +1
+Speed: 20 ft.
+Melee:
+  - mwk heavy mace +6 (1d8+4)
+Ranged:
+  - light crossbow +3 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +2d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +2)
+  values:
+    - label: 1/day
+      value: magic stone
+AbilityScores:
+  - 17
+  - 13
+  - 14
+  - 12
+  - 10
+  - 8
+BaseAtk: '2'
+CMB: '5'
+CMD: '16'
+Feats:
+  - Cleave
+  - Power Attack
+  - Stony Step
+Skills:
+  - Acrobatics +6 (+2 when jumping)
+  - Appraise +7
+  - Bluff +5
+  - Climb +8
+  - Disable Device +7
+  - Escape Artist +6
+  - Perception +6
+  - Sense Motive +6
+  - Stealth +6
+Languages:
+  - Common
+  - Ignan
+  - Terran
+SQ: granite skinARG, rogue talent (combat trick), trapfinding +1
+Source: PFS 8-23
+IsTemplate: '0'
+DuringCombat: >-
+  The bandits fight in pairs, attempting to flank an opponent. They use Cleave
+  whenever the opportunity presents itself.
+Morale: When only one bandit remains, that bandit attempts to flee.
+Gear: potion of cure light wounds
+OtherGear: >-
+  mwk chain shirt, mwk heavy mace, light crossbow with 20 bolts, thieves' tools,
+  traveler's outfit
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11544'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

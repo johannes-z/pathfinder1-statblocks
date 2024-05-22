@@ -1,0 +1,187 @@
+Name: Nazith-Yol
+CR: '16'
+XP: '76800'
+Race: serpentfolk
+Class: transmuter 13
+MonsterSource: Pathfinder RPG Bestiary 2 242
+Alignment: NE
+Size: Medium
+Type: monstrous humanoid
+Init: '11'
+Senses:
+  - darkvision 60 ft., detect  magic, scent
+  - Perception +25
+AC: 31, touch 23, flat-footed 23
+AC_Mods: (+4 armor, +5 deflection, +7 Dex, +1 dodge, +4 natural)
+HP: '229'
+HD: (18 HD; 5d10+13d6+157)
+Saves: Fort +17, Ref +21, Will +20
+Fort: '17'
+Ref: '21'
+Will: '20'
+DR: 10/adamantine
+Immune: fire (120 points), mind-affecting effects, paralysis, poison
+SR: '28'
+Speed: 30 ft.
+Melee:
+  - rod of the viper +13/+8/+3 (1d8+2 plus poison),  bite +9 (1d6+3 plus poison)
+  - +1 dagger +12/+7/+2 (1d4+1/19-20), bite +9 (1d6+3  plus poison)
+Ranged:
+  - ray +19 ranged touch (by spell)
+  - +1 dagger +19 (1d4+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 13th; concentration +22)
+  values:
+    - label: At will
+      value: change shape (beast shape III/elemental body II, 13 rounds/day)
+    - label: 12/day
+      value: >-
+        telekinetic fist (1d4+6 bludgeoning) Serpentfolk Spell-Like Abilities
+        (CL 18th; concentration +20)
+    - label: At will
+      value: disguise self (humanoid only, DC 13), ventriloquism (DC 13)
+    - label: 1/day
+      value: >-
+        blur, dominate person (DC 17), major image (DC 15), mass suggestion (DC
+        18), mirror image, suggestion (DC 15), teleport
+SpellsPrepared: >-
+  Spells Prepared (CL 13th; concentration +22)  7th-empowered cone of cold (DC
+  26), form of the dragon II, prismatic spray (DC 26)  6th-chain lightning (DC
+  25), disintegrate (DC 25), globe of invulnerability, quickened spectral hand 
+  5th-baleful polymorph (DC 24), empowered fireball (DC 24), fire snake* (DC
+  24), hold monster (DC 24), quickened magic missile, extended stoneskin 
+  4th-dimension door, enervation (2), extended protection from energy, resilient
+  sphere (DC 23), empowered scorching ray, extended slow (DC 23)  3rd-dispel
+  magic (2), extended false life, fly, lightning bolt (DC 22), ray of exhaustion
+  (DC 22), vampiric touch  2nd-acid arrow, alter self, extended mage armor,
+  ghoul touch (DC 21), glitterdust (DC 21), touch of idiocy (2)  1st-chill touch
+  (DC 20), expeditious retreat, magic missile (2), shield, shocking grasp (2),
+  unseen servant  0 (at will)-acid splash, mage hand, message, ray of frost,
+  touch of fatigue (DC 19)
+AbilityScores:
+  - 10
+  - 24
+  - 22
+  - 28
+  - 19
+  - 14
+BaseAtk: '11'
+CMB: '11'
+CMD: '34'
+Feats:
+  - Combat Casting
+  - Craft Rod
+  - Dodge
+  - Empower Spell
+  - Extend Spell
+  - Great Fortitude
+  - Improved Initiative
+  - Lightning Reflexes
+  - Quicken Spell
+  - Scribe Scroll
+  - Toughness
+  - Weapon Focus (ray)
+Skills:
+  - Acrobatics +11
+  - Bluff +20
+  - Disguise +20 (+30 with disguise self )
+  - Escape Artist +27
+  - Fly +22
+  - Knowledge (arcana) +30
+  - Knowledge (history) +30
+  - Knowledge (nobility) +30
+  - Knowledge (planes) +30
+  - Knowledge (religion) +30
+  - Perception +25
+  - Sense Motive +22
+  - Spellcraft +30
+  - Stealth +28
+  - Use Magic Device +24
+Languages:
+  - Abyssal
+  - Aklo
+  - Azlanti
+  - Celestial
+  - Cyclops
+  - Draconic
+  - Infernal
+  - Necril
+  - Polyglot
+  - Undercommon
+  - read magic
+  - telepathy 100 ft.
+SQ: arcane bond (rod of the viper), physical enhancement +3
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Exceptional Resources (Ex)
+    description: >-
+      As an elder from the height of their glorious empire, an Amphisbaenian
+      Rite serpentfolk has the wealth of a PC rather than an NPC. This equipment
+      increases his CR by 1.
+  - name: Permanent Spells (Ex)
+    description: >-
+      Through the arcane rituals of the ancient serpentfolk empire, an
+      Amphisbaenian Rite serpentfolk has had the following spells made permanent
+      on himself: detect magic, greater magic fang, read magic, and telepathic
+      bond (between Nazith-Yol and Nylla-Jas).
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 25; frequency 1/round for 6 rounds; effect 1d2
+      Str; cure 2 saves.
+Gender: Male
+ProhibitedSchools: Divination, Illusion
+BeforeCombat: >-
+  An Amphisbaenian Rite serpentfolk applies his physical enhancement to his
+  Constitution score and casts extended false life and extended mage armor on
+  himself everyday. If alerted to intruders in the temple, he casts extended
+  protection from energy (fire) and extended stoneskin. If he has enough time
+  before combat, he also casts fly and shield.
+DuringCombat: >-
+  On the first round of combat, Nazith-Yol casts quickened magic missile and
+  globe of invulnerability. He then casts extended slow on his opponents and
+  commands the siege serpents to close ranks and defend against anyone trying to
+  reach him. From this position of safety, he uses area effect spells against
+  grouped enemies and rays against individual foes, as well as quickened
+  spectral hand to deliver touch spells at range. If opponents engage him in
+  melee combat, he protects himself with a resilient sphere, casting blur and
+  mirror image before emerging to fight with his rod of the viper.
+Morale: >-
+  If reduced to fewer than 115 hit points, Nazith-Yol uses his telepathic bond
+  with his partner Nylla-Jas in area B14 and requests that she activate her ring
+  of friend shield. Nazith-Yol fights until he has fewer than 60 hit points
+  remaining, at which point he uses his change shape ability to take the form of
+  a Medium earth elemental, earth gliding to area B14 to join Nylla-Jas.
+  Thereafter, he makes a last stand by her side, teleporting with her back to
+  Sverenagati if all seems lost.
+Gear: potion of cure moderate wounds, potion of invisibility
+OtherGear: >-
+  +1 dagger, rod of the viper, amulet of natural armor +1, cloak of resistance
+  +4, headband of vast intelligence +4 (Knowledge [religion] and Sense Motive),
+  deep red sphere ioun stone, ring of friend shield (Nazith-Yol and Nylla-Jas
+  each have one ring of the pair), ring of protection +5, spellbook (contains
+  all prepared spells, all 0-level spells, plus permanency and 1d6 additional
+  spells of 1st through 6th level), spell component pouch, diamond dust (worth
+  1,000 gp), 98 gp
+Note: '* See Pathfinder RPG Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced
+BaseStatistics: >-
+  Without his spells, an Amphisbaenian Rite serpentfolk's statistics are AC 27,
+  touch 23, flat-footed 19; hp 211; no DR or fire immunity.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1458'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,134 @@
+Name: Toishihebi
+CR: '15'
+XP: '51200'
+Race: mature adult forest dragon
+Alignment: CE
+Size: Huge
+Type: dragon
+SubType: (earth)
+Init: '4'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +25
+Aura: frightful presence (210 ft., DC 21),
+AC: 32, touch 8, flat-footed 32
+AC_Mods: (+24 natural, -2 size)
+HP: '237'
+HD: (19d12+114)
+Saves: Fort +17, Ref +13, Will +16
+Fort: '17'
+Ref: '13'
+Will: '16'
+DR: 5/adamantine
+Immune: dragon traits, paralysis, sleep
+Speed: 40 ft., burrow 20 ft., climb 30 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +27 (2d8+15), 2 claws +27 (2d6+10), gore +27 (2d6+10), tail slap +25
+    (2d6+5)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite and gore)
+SpecialAttacks: >-
+  breath weapon (50-ft. cone, 14d6 piercing, Reflex DC 25 half, usable every 1d4
+  rounds), crush
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 19th; concentration +22)
+  values:
+    - label: At Will
+      value: blight (DC 18), entangle (DC 14), pass without trace
+SpellsKnown:
+  header: Spells Known (CL 9th; concentration +12)
+  values:
+    - label: 4th (4/day)
+      value: arcane eye, charm monster (DC 17)
+    - label: 3rd (7/day)
+      value: keen edge, stinking cloud (DC 16), wind wall
+    - label: 2nd (7/day)
+      value: fog cloud, hideous laughter (DC 15), obscure object, touch of idiocy
+    - label: 1st (7/day)
+      value: >-
+        alarm, grease, hypnotism (DC 14), magic missile, ray of enfeeblement (DC
+        14)
+    - label: 0 (at will)
+      value: >-
+        acid splash, daze (DC 13), detect magic, ghost sound (DC 13), mage hand,
+        read magic, resistance, touch of fatigue (DC 13)
+AbilityScores:
+  - 31
+  - 10
+  - 22
+  - 16
+  - 17
+  - 16
+BaseAtk: '19'
+CMB: '31'
+CMD: 41 (45 vs. trip)
+Feats:
+  - Flyby Attack
+  - Hover
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Stealthy
+  - Vital Strike
+Skills:
+  - Acrobatics +19
+  - Bluff +25
+  - Climb +22
+  - Diplomacy +25
+  - Escape Artist +2
+  - Fly +5
+  - Intimidate +25
+  - Knowledge (arcana) +20
+  - Knowledge (nature) +20
+  - Perception +25
+  - Sense Motive +15
+  - Spellcraft +15
+  - Stealth +24
+Languages:
+  - Draconic
+  - Sylvan
+  - Minkaian
+  - Tien
+SQ: change shape, sound imitation, woodland stride
+Source: Dragons Unleashed
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Toishihebi uses charm monster to gain an upper hand whenever possible. He
+  tries to scout out enemies first with arcane eye, and attacks only if the odds
+  are favorable. When possible, he hides inside a fog cloud and uses his
+  blindsight to direct his breath weapon. As Hiyuke, he sometimes tries to trick
+  samurai with his keen edge spell, mimicking the sharpening of their blade with
+  a "magic" whetstone and selling this service as a permanent effect.
+DuringCombat: >-
+  In the open, Toishihebi tries to stay away from melee combat, using his breath
+  weapon and spells as much as possible. He retreats once his spells are
+  depleted, unless he thinks he can finish his enemies in a hand-to-hand fight.
+  When posing as Hiyuke, he prefers to flee from superior foes rather than
+  reveal his true nature.
+Morale: >-
+  Toishihebi withdraws if he cannot defeat his foes. He fights to the bitter end
+  only in defense of his hoard.
+Gear: >-
+  quarterstaff, knife grinder's tools, haversack with provisions, peasant's
+  outfit, wicker hat, pouch containing coins and trinkets worth 10 gp in total
+  (as Hiyuke only)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: mature adult
+CompanionFamiliarLink: '0'
+id: '4464'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

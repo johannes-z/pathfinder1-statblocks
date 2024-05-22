@@ -1,0 +1,116 @@
+Name: Vonraig Subtier 6-7
+CR: '6'
+XP: '2400'
+Race: dhampir
+Class: oracle 7
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (dhampir)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +4
+AC: 20, touch 13, flat-footed 17
+AC_Mods: (+6 armor, +3 Dex, +1 shield)
+HP: '53'
+HD: (7d8+1d10+14)
+Saves: >-
+  Fort +2, Ref +5, Will +7; +2 racial bonus on saving throws against disease and
+  mind-affecting effects
+Fort: '2'
+Ref: '5'
+Will: '7'
+Save_Mods: +2 racial bonus on saving throws against disease and mind-affecting effects
+DefensiveAbilities: negative energy affinity, resist level drain
+Weaknesses: light sensitivity
+Speed: 30 ft.
+Melee:
+  - mwk shortspear +5 (1d6-1) or +1 dagger +5 (1d4/19-20)
+Ranged:
+  - mwk shortspear +9 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +11)
+  values:
+    - label: 3/day
+      value: detect undead
+SpellsKnown:
+  header: Oracle Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (5/day)
+      value: animate dead, dispel magic, inflict serious wounds, invisibility purge
+    - label: 2nd (7/day)
+      value: >-
+        darkness, false life, inflict moderate wounds, levitate, minor image,
+        sound burst (DC 16), spiritual weapon
+    - label: 1st (7/day)
+      value: >-
+        bane (DC 15), command (DC 15), cure light wounds, doom (DC 15), cause
+        fear (DC 15), inflict light wounds, shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), detect magic, ghost sound, guidance, light, mage hand,
+        read magic, resistance, sparkAPG
+AbilityScores:
+  - 8
+  - 16
+  - 8
+  - 12
+  - 15
+  - 18
+BaseAtk: '5'
+CMB: '5'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Great Fortitude
+  - Improved Initiative
+  - Toughness
+Skills:
+  - Bluff +13
+  - Craft (alchemy) +6
+  - Diplomacy +13
+  - Intimidate +13
+  - Knowledge (history) +8
+  - Knowledge (religion) +6
+  - Perception +4
+  - Sense Motive +9
+  - Spellcraft +11
+RacialMods: +2 Bluff, +2 Perception
+Languages:
+  - Common
+  - Osiriani
+SQ: >-
+  oracle's curse (haunted), revelations (armor of bones, death's touch, soul
+  siphon)
+Source: PFS S5-99
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Vonraig uses his armor of bones revelation and casts false life. These are
+  already calculated into his stats.
+DuringCombat: >-
+  Aware that he has a glass jaw, Vonraig prefers to have his hirelings lead the
+  charge while he supports them with spells.
+Morale: Vonraig attempts to flee or surrender if reduced to 10 or fewer hit points.
+Gear: >-
+  light steel shield, mwk shortspear, +1 dagger, headband of alluring charisma
+  +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: bones
+CompanionFamiliarLink: '0'
+id: '8158'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

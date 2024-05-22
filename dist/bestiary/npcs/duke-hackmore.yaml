@@ -1,0 +1,104 @@
+Name: Duke Hackmore
+CR: '12'
+XP: '19200'
+Race: Demonic Knight
+MonsterSource: The Tome of Horrors Complete 193
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, evil, extraplanar)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +26
+Aura: fear (30 ft., DC 18)
+AC: 31, touch 14, flat-footed 31
+AC_Mods: (+8 armor, +9 natural, +4 profane)
+HP: '94'
+HD: (9d10+45)
+Saves: Fort +11, Ref +4, Will +10
+Fort: '11'
+Ref: '4'
+Will: '10'
+DR: 10 cold iron or magic
+SR: '23'
+Speed: 20 ft. (30 ft. base)
+Melee:
+  - +1 anarchic longsword +17/+12 (1d8+7/19-20) or 2 slams +15 (1d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: breath of unlife, create spawn,
+SpellLikeAbilities:
+  header: 'Spell-Like Abilities (CL 20th):'
+  values:
+    - label: At Will
+      value: detect magic, see invisibility, wall of ice (DC 18)
+    - label: 2/day
+      value: dispel magic
+    - label: 1/day
+      value: >-
+        fireball (DC 17), symbol of pain (DC 19), symbol of fear (DC 20), summon
+        (level 9, 1d4 shadow demons, 1 vrock or marilith, 2 glabrezus or hezrous
+        50%)
+AbilityScores:
+  - 22
+  - 13
+  - 20
+  - 18
+  - 18
+  - 18
+BaseAtk: '9'
+CMB: '15'
+CMD: '30'
+Feats:
+  - Alertness
+  - Blind-Fight
+  - Cleave
+  - Power Attack
+  - Weapon Focus (longsword)
+Skills:
+  - Bluff +16
+  - Climb +12
+  - Diplomacy +16
+  - Intimidate +16
+  - Knowledge (planes) +16
+  - Perception +26
+  - Sense Motive +18
+  - Spellcraft +13
+  - Stealth +7
+  - Survival +16
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Common
+Source: Sword of Air-Chapter 5
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath of Unlife (Su)
+    description: >-
+      Once every 1d4 rounds, the demonic knight can exhale a blast of negative
+      energy in a 10-foot cone. Creatures in the area must succeed on a DC 20
+      Reflex save or take 2d4 points of Strength damage. A creature reduced to
+      Strength 0 by a demonic knight dies. The save DC is Constitution-based.
+  - name: Create Spawn (Su)
+    description: >-
+      Any humanoid slain by a demonic knight's breath of unlife becomes a shadow
+      demon in 2d4 rounds. Spawn are under the command of the demonic knight
+      that created them and remain enslaved until its death. They do not possess
+      any of the abilities they had in life.
+Gear: masterwork half-plate, +1 anarchic longsword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12746'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

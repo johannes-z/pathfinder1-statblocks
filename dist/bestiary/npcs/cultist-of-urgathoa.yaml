@@ -1,0 +1,85 @@
+Name: Cultist Of Urgathoa
+CR: '2'
+XP: '600'
+Race: Human
+Class: cleric of Urgathoa 3
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '0'
+Senses:
+  - Perception +3
+AC: 19, touch 12, flat-footed 19
+AC_Mods: (+7 armor, +2 deflection)
+HP: '26'
+HD: (3d8+9)
+Saves: Fort +7, Ref +1, Will +6
+Fort: '7'
+Ref: '1'
+Will: '6'
+Speed: 20 ft.
+Melee:
+  - +1 scythe +6 (2d4+3/x4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 12, 2d6)
+SpellLikeAbilities:
+  header: Cleric Spell-Like Abilities (CL 3rd; concentration +6)
+  values:
+    - label: 6/day
+      value: battle rage (+1), bleeding touch (1 round)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-cure moderate wounds,
+  hold person (DC 15), spiritual weaponD   1st-cure light wounds, divine favor,
+  magic weaponD, shield of faith   0 (at will)-bleed (DC 13), detect magic,
+  light, stabilize
+SpellDomains: Death, War
+AbilityScores:
+  - 13
+  - 10
+  - 15
+  - 8
+  - 16
+  - 12
+BaseAtk: '2'
+CMB: '3'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Great Fortitude
+  - Weapon Focus (scythe)
+Skills:
+  - Heal +8
+  - Knowledge (arcana) +4
+  - Spellcraft +4
+Languages:
+  - Common
+Source: Curse Of The Crimson Throne Chapter 2
+IsTemplate: '0'
+BeforeCombat: Before engaging in combat, a cultist casts magic weapon and shield of faith.
+DuringCombat: >-
+  On the first round of combat, a cultist casts divine favor. The cultist then
+  engages in melee in the following rounds. He uses healing magic on himself if
+  brought to fewer than 6 hit points, saving hold person and spiritual weapon
+  for use against foes at range.
+Morale: A cultist of Urgathoa fights to the death.
+Gear: potion of cure light wounds (4)
+OtherGear: >-
+  +1 breastplate, scythe, prison key (unlocks door into and cells within area
+  G6), silver holy symbol of Urgathoa
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8643'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

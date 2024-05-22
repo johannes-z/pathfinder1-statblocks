@@ -1,0 +1,111 @@
+Name: Forgotten Pharaoh Cultist
+CR: '5'
+XP: '1600'
+Race: Human
+Class: fighter 4/sorcerer 2
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +4
+AC: 18, touch 11, flat-footed 17
+AC_Mods: (+3 armor, +1 Dex, +4 shield)
+HP: '50'
+HD: (6 HD; 4d10+2d6+17)
+Saves: Fort +7, Ref +3, Will +5 (+1 vs. fear)
+Fort: '7'
+Ref: '3'
+Will: +5 (+1 vs. fear)
+DefensiveAbilities: bravery +1
+Speed: 30 ft.
+Melee:
+  - mwk falchion +11 (2d4+8/18-20)
+Ranged:
+  - +1 heavy crossbow +7 (1d10+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 2nd; concentration +3)
+  values:
+    - label: 4/day
+      value: touch of destiny (+1)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 2nd; concentration +3)
+  values:
+    - label: 1st (5/day)
+      value: shield, true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, guidance, read magic, touch of fatigue (DC
+        11)
+AbilityScores:
+  - 18
+  - 13
+  - 14
+  - 8
+  - 10
+  - 12
+BaseAtk: '5'
+CMB: '9'
+CMD: '20'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Outflank
+  - Power Attack
+  - Toughness
+  - Weapon Focus (falchion)
+  - Weapon Specialization (falchion)
+  - Troth of the Forgotten Pharaoh (see page 19)
+Skills:
+  - Acrobatics +5
+  - Climb +8
+  - Intimidate +6
+  - Knowledge (arcana) +3
+  - Knowledge (history) +3
+  - Linguistics +0
+  - Perception +4
+Languages:
+  - Ancient Osiriani
+  - Common
+  - Osiriani
+SQ: >-
+  armor training 1, bloodline arcana (gain luck bonus on saving throws when
+  casting personal-range spells)
+Source: AP 81
+IsTemplate: '0'
+Bloodline: destined
+BeforeCombat: The cultists cast shield before combat.
+DuringCombat: >-
+  The cultists work together as a team to take advantage of their Outflank
+  teamwork feat. They make Power Attacks with their falchions, preferring melee
+  combat to spellcasting, though if the opportunity presents itself, or if they
+  are having trouble hitting opponents, they cast true strike (which does not
+  incur a spell failure chance). If need be, the cultists cast magic weapon on
+  their falchions from their scrolls.
+Morale: >-
+  The cultists fight to the death, which triggers their Troth of the Forgotten
+  Pharaoh feat, destroying their bodies. If knocked unconscious or capture seems
+  inevitable, a cultist activates his Troth of the Forgotten Pharaoh feat as an
+  immediate action to avoid capture and questioning.
+Gear: potion of heroism, scrolls of magic missile (2), scrolls of magic weapon (2)
+OtherGear: >-
+  studded leather, +1 heavy crossbow with 20 bolts, mwk falchion, cloak of
+  resistance +1, gilt wooden funerary mask (worth 25 gp), 23 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6023'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

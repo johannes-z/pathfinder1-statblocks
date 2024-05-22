@@ -1,0 +1,133 @@
+Name: Xiangnuer
+CR: '11'
+XP: '12800'
+Race: adult underworld dragon
+MonsterSource: Pathfinder RPG Bestiary 3 102
+Alignment: LE
+Size: Large
+Type: dragon
+SubType: (fire)
+Init: '4'
+Senses:
+  - dragon senses, smoke vision
+  - Perception +20
+Aura: frightful presence (180 ft., DC 20)
+AC: 28, touch 9, flat-footed 28
+AC_Mods: (+19 natural, -1 size)
+HP: '161'
+HD: (14d12+70)
+Saves: Fort +14, Ref +9, Will +12
+Fort: '14'
+Ref: '9'
+Will: '12'
+DR: 5/magic
+Immune: fire, paralysis, sleep
+SR: '22'
+Weaknesses: vulnerability to cold
+Speed: 40 ft., burrow 40 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +22 (2d6+12), 2 claws +22 (1d8+8/19-20), gore +21 (1d8+12), tail slap
+    +16 (1d8+12)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite and gore)
+SpecialAttacks: adamantine claws, breath weapon (80-ft. line, 12d6 fire damage, DC 22)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +17)
+  values:
+    - label: At Will
+      value: soften earth and stone, spike stones (DC 17), stone shape
+SpellsKnown:
+  header: Spells Known (CL 5th; concentration +8)
+  values:
+    - label: 2nd (5/day)
+      value: flaming sphere (DC 15), scorching ray
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 14), cause fear (DC 14) magic missile, ray of
+        enfeeblement (DC 14)
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 13), detect magic, flare (DC 13), read magic,
+        resistance
+AbilityScores:
+  - 27
+  - 10
+  - 21
+  - 16
+  - 17
+  - 16
+BaseAtk: '14'
+CMB: '23'
+CMD: 33 (37 vs. trip)
+Feats:
+  - Improved Critical (claws)
+  - Improved Initiative
+  - Improved Natural Armor
+  - Lunge
+  - Skill Focus (Stealth)
+  - Weapon Focus (bite
+  - claw)
+Skills:
+  - Appraise +20
+  - Bluff +20
+  - Climb +25
+  - Fly +11
+  - Intimidate +20
+  - Knowledge (dungeoneering
+  - geography) +20
+  - Perception +20
+  - Stealth +19
+Languages:
+  - Common
+  - Draconic
+  - Ignan
+  - Terran
+SQ: change shape, underworld burrower
+Source: PFS S3-20
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adamantine Claws (Ex)
+    description: >-
+      The claws of an underworld dragon are made of adamantine, and have the
+      qualities of a weapon made form that material.
+  - name: Change Shape (Su)
+    description: >-
+      Xiangnuer can assume any humanoid form three times per day as if using
+      polymorph.
+  - name: Smoke Vision (Ex)
+    description: >-
+      Xiangnuer can see perfectly in smoky conditions (such as those created by
+      pyrotechnics).
+  - name: Underworld Burrower (Ex)
+    description: >-
+      Xiangnuer gains a 10-foot bonus to her burrow speed. This is already
+      reflected in her statistics.
+Gender: Female
+BeforeCombat: >-
+  Before burrowing up to the landing, Xiangnuer casts detect magic and
+  suppresses her frightful presence.
+DuringCombat: >-
+  Should the PCs engage Xiangnuer, she no longer suppresses her frightful
+  presence and immediately uses her breath weapon. In later rounds she wades
+  into melee, using Lunge to extend her reach whenever needed.
+Morale: >-
+  Xiangnuer's primary goal is to add new treasures to her hoard. If reduced
+  below 40 hit points, she realizes the PCs are no easy score and attempts to
+  flee by flying away at full speed, finding a spot in the shadows, and
+  burrowing deep within Round Mountain.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '6654'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

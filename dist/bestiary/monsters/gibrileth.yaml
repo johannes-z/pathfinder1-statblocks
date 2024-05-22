@@ -1,0 +1,135 @@
+Name: Gibrileth
+CR: '11'
+XP: '12800'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '8'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +25
+AC: 25, touch 13, flat-footed 21
+AC_Mods: (+4 Dex, +12 natural, -1 size)
+HP: '137'
+HD: (11d10+77)
+Saves: Fort +14, Ref +9, Will +10
+Fort: '14'
+Ref: '9'
+Will: '10'
+DefensiveAbilities: amorphous
+DR: 10/good
+Immune: acid, disease, electricity, poison
+Resist: cold 10, fire 10
+SR: '22'
+Speed: 10 ft., fly 40 ft. (good)
+Melee:
+  - >-
+    +1 scorpion whip +18/+13/+8 (1d6+8/18-20 plus disease), bite +12 (1d8+3 plus
+    disease)
+Ranged:
+  - tumor +14 (2d6 acid plus disease)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with whip)
+SpecialAttacks: disease (see page 29), whip specialist
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +16)
+  values:
+    - label: At Will
+      value: >-
+        contagion (DC 17), grease (DC 14), greater teleport (self plus 50 lbs.
+        of objects only), unholy blight (DC 17)
+    - label: 3/day
+      value: stinking cloud (DC 16)
+    - label: 1/day
+      value: summon (level 4, 1 gibrileth 35%), waves of fatigue
+AbilityScores:
+  - 24
+  - 19
+  - 24
+  - 13
+  - 16
+  - 17
+BaseAtk: '11'
+CMB: +19 (+23 trip)
+CMD: 35 (37 vs. trip)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Greater Trip
+  - Improved Initiative
+  - Improved Trip
+  - Lightning Reflexes
+Skills:
+  - Fly +20
+  - Knowledge (dungeoneering) +15
+  - Knowledge (planes) +15
+  - Perception +25
+  - Sense Motive +17
+  - Stealth +14
+  - Survival +17
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+SQ: tumors
+Environment: any (Abyss)
+Organization: solitary, pair, or infection (3-8)
+Treasure: standard (+1 scorpion whip, other treasure)
+Description_Visual: >-
+  This flying, bulbous, tumor-riddled mass has numerous arms, no legs, and a
+  leering, three-eyed face.
+Group: Demon
+Source: The Worldwound
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Tumors (Su)
+    description: >-
+      As a swift action, a gibrileth can rip a grapefruit-sized tumor from its
+      body with one of its many arms and throw it as a splash weapon with a
+      range increment of 20 feet. A direct hit deals 2d6 points of acid damage,
+      and deals 1d4 points of acid splash damage to all creatures within 5 feet
+      of the target. A creature can avoid the splash damage with a successful DC
+      22 Reflex save. The save DC is Constitution-based.
+  - name: Whip Specialist (Ex)
+    description: A gibrileth does not provoke attacks of opportunity when using a whip.
+Description:
+  - >-
+    Gibrileths are known as filth demons because their appearance is so vile
+    that even other demons find them appalling-including some hezrous. A
+    gibrileth's body is composed almost entirely of quivering, globular, acidic
+    tumors, save for its batlike wings and the nest of spindly, atrophied arms
+    growing from the top of its body. It can walk with a clumsy gait, using its
+    long arms, but it prefers to be on the wing. These creatures enjoy spreading
+    nausea and sickness, either via their spell-like abilities or through
+    violence-in fact, they are one of the primary sources of demonplague
+    throughout the Worldwound. Gibrileths particularly relish the taste of
+    partially liquefied, diseased flesh, and many keep infected victims in pens
+    like cattle for periodic snacking, allowing their sickness to season them
+    properly before feeding. Gibrileths rise from the souls of mortals who
+    deliberately encourage the spread of disease or sickness, many of whom died
+    of disease themselves.
+  - >-
+    A gibrileth is approximately 10 feet in diameter, with a wingspan of 16
+    feet. These foul, bloated demons typically weigh about 2,400 pounds.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4668'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,118 @@
+Name: Sivit
+CR: '10'
+XP: '9600'
+Race: darksphinx
+MonsterSource: The Book of Fiends 156
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (evil, extraplanar)
+Init: '3'
+Senses:
+  - darkvision 60 ft., detect magic, read magic, see invisibility
+  - Perception +18
+AC: 24, touch 12, flat-footed 21
+AC_Mods: (+3 armor, +3 Dex, +8 natural, +1 shield, -1 size)
+HP: '126'
+HD: (11d10+66)
+Saves: Fort +13, Ref +6, Will +11
+Fort: '13'
+Ref: '6'
+Will: '11'
+DR: 10/good
+Immune: poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '22'
+Speed: 40 ft., fly 60 ft. (poor)
+Melee:
+  - >-
+    +1 kukri +16/+11/+6 (1d6+7/15-20), +1 kukri +16 (1d6+7/15-20), tail slap +11
+    (1d6+3)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: pounce, rake (2 claws +16, 1d6+6)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +15)
+  values:
+    - label: Constant
+      value: comprehend languages, detect magic, read magic, see invisibility
+    - label: 3/day
+      value: clairaudience/clairvoyance, darkness, poison (DC 19)
+    - label: 1/day
+      value: >-
+        desecrate, dispel magic, legend lore, locate object, remove curse,
+        unholy blight (DC 19)
+    - label: 1/week
+      value: >-
+        symbol of fear (DC 21), symbol of pain (DC 20), symbol of sleep (DC 20),
+        symbol of stunning (DC 22)
+AbilityScores:
+  - 23
+  - 16
+  - 23
+  - 22
+  - 19
+  - 20
+BaseAtk: '11'
+CMB: '18'
+CMD: 31 (35 vs. trip)
+Feats:
+  - Dazzling Display
+  - Double Slice
+  - Improved Critical (kukri)
+  - Two-Weapon Defense
+  - Two-Weapon Fighting
+  - Weapon Focus (kukri)
+Skills:
+  - Acrobatics +17
+  - Bluff +19
+  - Diplomacy +19
+  - Fly +11
+  - Heal +15
+  - Knowledge (engineering) +17
+  - Knowledge (planes) +20
+  - Perception +18
+  - Sense Motive +18
+  - Stealth +13
+  - Survival +18
+  - Use Magic Device +16
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - Sphinx
+  - Vudrani
+  - comprehend languages
+Source: Curse Of The Crimson Throne Chapter 3
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Sivit has already used her four symbols, as indicated in the text of the
+  encounters.
+DuringCombat: >-
+  Sivit starts combat by casting unholy blight, then moves in to attack foes in
+  melee, to pouncing and raking on the first round of battle. Against ranged
+  foes, she relies on her wand of magic missile.
+Morale: >-
+  Sivit fights to the death, but cannot pursue foes beyond the Vivified
+  Labyrinth's borders.
+Gear: >-
+  wand of dimension door (19 charges), wand of magic missile (CL 9th, 18
+  charges)
+OtherGear: +1 leather armor, +1 kukris (2)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8657'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

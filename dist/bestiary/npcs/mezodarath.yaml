@@ -1,0 +1,97 @@
+Name: Mezodarath
+CR: '3'
+XP: '800'
+Race: bugbear
+Class: cleric of lamashtu 1
+MonsterSource: Pathfinder RPG Bestiary 294, 38
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid)
+Init: '0'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +10
+AC: 16, touch 10, flat-footed 16
+AC_Mods: (+3 armor, +3 natural)
+HP: '26'
+HD: (4 HD; 3d8+1d8+9)
+Saves: Fort +5, Ref +3, Will +5
+Fort: '5'
+Ref: '3'
+Will: '5'
+Resist: cold 5, fire 5
+SR: '8'
+Speed: 30 ft.
+Melee:
+  - mwk falchion +7 (2d4+6/18-20)
+Ranged:
+  - javelin +2 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: smite good 1/day, channel negative energy 4/day (DC 11, 1d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 1st; concentration +3)
+  values:
+    - label: 5/day
+      value: strength surge (+1), vision of madness (+/-1)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 1st; concentration +3)   1st-bane (DC 13), doom (DC
+  13), enlarge personD (DC 13)   0 (at will)-bleed (DC 12), guidance, stabilize
+SpellDomains: Madness, Strength
+AbilityScores:
+  - 18
+  - 11
+  - 15
+  - 10
+  - 14
+  - 13
+BaseAtk: '2'
+CMB: '6'
+CMD: '16'
+Feats:
+  - Selective Channeling
+  - Skill Focus (Perception)
+Skills:
+  - Intimidate +7
+  - Perception +10
+  - Sense Motive +7
+  - Stealth +8
+RacialMods: +4 Intimidate, +4 Stealth
+Languages:
+  - Common
+  - Goblin
+SQ: stalker
+Source: Gallows Of Madness
+IsTemplate: '0'
+BeforeCombat: >-
+  Mezodarath uses his strength surge spell-like ability on his nearest goblin
+  ally.
+DuringCombat: >-
+  Mezodarath channels negative energy once before casting bane. He casts doom on
+  a creature affected by his first spell before wading into melee, and then uses
+  his vision of madness domain power, if possible. He smites any PCs who are
+  obviously good, such as paladins.
+Morale: >-
+  Mezodarath is convinced that he will herald a new  age of greatness for
+  goblinoids in Isger. He fights to the death to defend this vision.
+Gear: potion of cure moderate wounds
+OtherGear: >-
+  studded leather, javelin, mwk falchion, three fused rubies worth a total of 79
+  gp, wooden unholy symbol of Lamashtu
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: fiendish|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8486'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

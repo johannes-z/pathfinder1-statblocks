@@ -1,0 +1,116 @@
+Name: Kandamereus
+CR: '14'
+XP: '38400'
+Race: mummy
+Class: cleric of Groetus (Groetus) 11
+MonsterSource: Pathfinder RPG Bestiary 210
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +27
+Aura: despair (30 ft., paralyzed for 1d4 rounds, Will DC 18 negates)
+AC: 31, touch 14, flat-footed 30
+AC_Mods: (+5 armor, +3 deflection, +1 Dex, +10 natural, +2 shield)
+HP: '229'
+HD: (19d8+106)
+Saves: Fort +16, Ref +11, Will +21
+Fort: '16'
+Ref: '11'
+Will: '21'
+DR: 5/-
+Immune: undead traits
+SR: '23'
+Weaknesses: vulnerable to fire
+Speed: 30 ft.
+Melee:
+  - slam +21 (2d6+10 plus mummy rot)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  aura of madness (DC 20, 11 rounds/day), channel negative energy 7/day (DC 19,
+  6d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 11th; concentration +16)
+  values:
+    - label: 8/day
+      value: touch of darkness (5 rounds), vision of madness (+/-5)
+SpellsPrepared: >-
+  Spells Prepared (CL 11th; concentration +16)   6th-antilife shell, phantasmal
+  killerD (DC 21)   5th-slay living (DC 20), spell resistance, summon monster V,
+  summon monster VD (summons 1d3 shadows)   4th-chaos hammer (DC 19), confusionD
+  (DC 19), divine power, sending, unholy blight (DC 19)   3rd-deeper darknessD,
+  dispel magic (2), invisibility purge, meld into stone, protection from
+  energy   2nd-blindness/deafnessD (DC 17, only to cause blindness), death knell
+  (DC 17), hold person (DC 17), shatter, silence (DC 17), spiritual weapon  
+  1st-command (DC 16), divine favor, lesser confusionD (DC 16), obscuring mist,
+  protection from law, sanctuary (DC 16), shield of faith   0 (at will)-bleed
+  (DC 15), detect magic, light, mending
+SpellDomains: Darkness, Madness
+AbilityScores:
+  - 24
+  - 12
+  - —
+  - 10
+  - 20
+  - 18
+BaseAtk: '14'
+CMB: '21'
+CMD: '32'
+Feats:
+  - Ability Focus (despair)
+  - Blind-Fight
+  - Combat Casting
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Improved Natural Attack (slam)
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+  - Vital Strike
+Skills:
+  - Knowledge (planes) +18
+  - Knowledge (religion) +18
+  - Perception +27
+  - Sense Motive +13
+Languages:
+  - Thassilonian
+SQ: eyes of darkness (5 rounds/day)
+Source: AP 64
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Kandamereus casts shield of faith, spell resistance, and invisibility purge
+  before combat if he gets the chance.
+DuringCombat: >-
+  Kandamereus casts antilife shell at the start of combat&#8211;if he's fighting
+  with the PCs, he makes sure to be in a position where this spell won't impede
+  his living allies. He then focuses on casting summon monster V for the first
+  few rounds, following up with his ranged damage spells or spells from his
+  doomsday staff. If attacked in melee, he uses touch of darkness to cloud the
+  vision of those attacking him before he attacks with slams and inflict wound
+  spells.
+Morale: Once combat begins, Kandamereus fights until destroyed.
+Gear: doomsday staff
+OtherGear: >-
+  bracers of armor +5, cloak of resistance +3, ring of force shield, mithral and
+  opal holy symbol of Groetus worth 800 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: Groetus
+CompanionFamiliarLink: '0'
+id: '3541'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

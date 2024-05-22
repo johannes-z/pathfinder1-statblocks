@@ -1,0 +1,113 @@
+Name: Xan
+CR: '12'
+XP: '19200'
+Race: vanth
+MonsterSource: Pathfinder RPG Bestiary 4 221
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (extraplanar, psychopomp)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision, spiritsense
+  - Perception +25
+Aura: fear (30 ft., DC 20)
+AC: 25, touch 15, flat-footed 20
+AC_Mods: (+3 armor, +5 Dex, +7 natural)
+HP: '147'
+HD: (14d10+70)
+Saves: Fort +14, Ref +11, Will +15
+Fort: '14'
+Ref: '11'
+Will: '15'
+DR: 10/adamantine
+Immune: death effects, disease, poison
+Resist: cold 10, electricity 10
+SR: '23'
+Speed: 30 ft., fly 50 ft. (average)
+Melee:
+  - Red Reaper +21/+16/+11 (2d4+10/x4)
+  - 2 claws +15 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +12)
+  values:
+    - label: At Will
+      value: >-
+        deathwatch, detect undead, greater teleport (self plus 50 lbs. of
+        objects only), quickened invisibility (self only), siftAPG
+    - label: 3/day
+      value: >-
+        bestow curse (DC 17), locate creature, nondetection, rebukeAPG (DC 17),
+        searing light, wrathAPG
+    - label: 1/day
+      value: true seeing
+AbilityScores:
+  - 22
+  - 20
+  - 21
+  - 15
+  - 23
+  - 17
+BaseAtk: '14'
+CMB: '20'
+CMD: '35'
+Feats:
+  - Alertness
+  - Cleave
+  - Hover
+  - Improved Vital Strike
+  - Power Attack
+  - Quicken Spell-Like Ability (invisibility)
+  - Vital Strike
+Skills:
+  - Acrobatics +11
+  - Bluff +18
+  - Disguise +15
+  - Fly +13
+  - Knowledge (history) +16
+  - Knowledge (local
+  - planes) +13
+  - Knowledge (religion) +16
+  - Perception +25
+  - Sense Motive +25
+  - Stealth +18
+  - Survival +11
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Infernal
+  - Kelish
+SQ: change shape (any humanoid; alter self), reaper's scythe, spirit touch
+Source: AP 129
+IsTemplate: '0'
+BeforeCombat: >-
+  Xan prefers to strike from invisibility after spending time observing and
+  evaluating his foes. He resumes his natural form and summons his scythe, if
+  necessary, before attacking.
+DuringCombat: >-
+  Xan prefers misdirection in combat, using quickened invisibility and moving to
+  strike from unexpected directions using Power Attack and Vital Strike. He
+  despises foes that use the same tricks against him, relying on true seeing to
+  counter such tactics.
+Morale: Fanatical in his work, Xan fights until slain.
+Gear: >-
+  Red Reaper (+1 conductive mithral scythe), bracers of armor +3, red leather
+  mask
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11786'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

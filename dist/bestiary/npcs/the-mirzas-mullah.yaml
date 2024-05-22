@@ -1,0 +1,117 @@
+Name: The Mirza's Mullah
+CR: '4'
+XP: '1200'
+Race: human
+Class: cleric of ahriman 4
+MonsterSource: Advanced Bestiary 76
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '1'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +8
+AC: 19, touch 11, flat-footed 18
+AC_Mods: (+6 armor, +1 Dex, +2 natural)
+HP: '39'
+HD: (4d8+16)
+Saves: Fort +6, Ref +2, Will +8
+Fort: '6'
+Ref: '2'
+Will: '8'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 20 ft., climb 20 ft.
+Melee:
+  - >-
+    bite +7 (1d6+4 plus disease and paralysis) and 2 claws +7  (1d6+4 plus
+    paralysis)
+  - +1 heavy mace +9 (1d8+5) and bite +2 (1d6+2 plus disease  and paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 5/day (DC 14, 2d6), command ghouls, create spawn,
+  destructive smite 7/day (+2 dmg), disease, paralysis (1d4+1 rounds, DC 14,
+  elves are immune to this effect), spontaneous casting (inflict spells)
+SpellLikeAbilities:
+  header: >-
+    Domain Spell-Like Abilities (CL 4th, concentration +8)  7/day?-touch of
+    darkness (2 rounds)
+  values: []
+SpellsPrepared: >-
+  Spells Prepared (CL 4th, concentration +8)  2nd-blindness/deafnessD (DC 16,
+  blindness only), death knell (DC 16), hold person (DC 16), spiritual weapon 
+  1st-bane (DC 15), cause fear (DC 15), entropic shield, divine favor, true
+  strikeD  0 (at will)-bleed (DC 14), detect magic, resistance, virtue
+SpellDomains: Darkness, Destruction
+AbilityScores:
+  - 19
+  - 12
+  - —
+  - 12
+  - 19
+  - 14
+BaseAtk: '3'
+CMB: '7'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Toughness
+  - Weapon Focus (heavy mace)
+Skills:
+  - Climb +16
+  - Knowledge (religion) +8
+  - Perception +8
+  - Spellcraft +8
+  - Survival +12
+RacialMods: +8 Climb, +8 Survival
+Languages:
+  - Ancient Osiriani
+SQ: aura
+Source: PFS S2-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Ghouls (Su)
+    description: >-
+      A dread ghoul can automatically command all normal ghouls within 30 feet
+      as a free action. Normal ghouls never attack a dread ghoul unless
+      compelled.
+  - name: Create Spawn (Su)
+    description: >-
+      Any creature killed by a dread ghoul and that is not subsequently eaten
+      rises at the next midnight as a dread ghoul. The new dread ghoul is not
+      under the control of its creator.
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 14; onset 1 day; frequency 1/day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves.
+Gender: Male
+BeforeCombat: >-
+  The Mullah lies immobile on the ground and feigns mortal injury to lure PCs
+  toward him. When the first PC approaches within 10 feet, he rolls over and
+  channels negative energy.
+DuringCombat: >-
+  The Mullah casts defensively for as long as he can safely do so, allowing his
+  minions to fight melee, and healing them as needed with channeled negative
+  energy. If forced into close combat, however, the Mullah fights with his mace.
+Morale: >-
+  The Mullah can think of no greater honor than being destroyed serving his lord
+  and the great div Ahriman. He fights until destroyed.
+Gear: breastplate, desert robes and turban, +1 heavy mace, unholy symbol
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: dread ghoul|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4720'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

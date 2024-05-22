@@ -1,0 +1,104 @@
+Name: Dust Digger
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Large
+Type: aberration
+Init: '0'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +8
+AC: 16, touch 9, flat-footed 16
+AC_Mods: ', +7 natural, -1 size)'
+HP: '27'
+HD: (5d8+5)
+Saves: Fort +2, Ref +1, Will +4
+Fort: '2'
+Ref: '1'
+Will: '4'
+Speed: 10 ft., burrow 10 ft.
+Melee:
+  - 5 tentacles +8 (1d6+3 plus grab) and bite +8 (2d6+3)
+Space: 10 ft.
+Reach: 10 ft. (5 ft. with bite)
+SpecialAttacks: sinkhole, swallow whole (1d6+3 plus 1d8 acid damage, AC 13, 10 hp)
+AbilityScores:
+  - 16
+  - 10
+  - 13
+  - 2
+  - 11
+  - 10
+BaseAtk: '3'
+CMB: +7 (+11 grapple)
+CMD: 17 (can't be tripped)
+Feats:
+  - Improved Natural Attack (bite)
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+Skills:
+  - Perception +8
+  - Stealth +5 (+17 sandy terrain)
+RacialMods: +12 Stealth in sandy terrain
+SQ: earth glide
+Environment: warm desert
+Organization: solitary, gang (4-8), or colony (9-20)
+Treasure: none
+Description_Visual: >-
+  This creature looks like a man-sized sandy brown starfish with five long
+  tentacles ringing a central maw lined with sharpened teeth and fangs.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Earth Glide (Ex)
+    description: >-
+      A dust digger can glide through sand, loose soil, or other loosely packed
+      earth as easily as a fish swims through water. Its burrowing leaves behind
+      no tunnel or hole, nor does it create any ripple or signs of its presence.
+      A move earth spell cast on an area containing a burrowing dust digger
+      flings the creature back 30 feet, stunning it for 1 round unless it
+      succeeds on a Fortitude save.
+  - name: Sinkhole (Ex)
+    description: >-
+      A buried dust digger can deflate its body as a free action, causing the
+      sand above it to slide toward its maw. A creature standing on a space
+      occupied by a buried dust digger when it deflates is immediately subjected
+      to the dust digger's tentacle attacks.
+Description:
+  - Dust diggers are nocturnal desert carnivores about 10 feet in diameter.
+  - >-
+    The creature spends most of its life buried under sand and dirt, waiting for
+    potential prey to wander too close or actually wander over the area where a
+    dust digger is buried.
+  - >-
+    A dust digger inflates its body with air, buries itself under a thin lair of
+    sand or dirt, and waits for its prey to pass nearby. When a living creature
+    walks over a dust digger, the creature deflates its body and folds its arms
+    around the victim, attempting to shove the prey into its mouth.
+  - >-
+    Credit The Dust Digger originally appeared in the First Edition module I3
+    Pharaoh (© TSR/Wizards of the Coast, 1982) and later in the First Edition
+    Monster Manual II (© TSR/Wizards of the Coast, 1983) and is used by
+    permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Tracy
+    and Laura Hickman.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2550'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

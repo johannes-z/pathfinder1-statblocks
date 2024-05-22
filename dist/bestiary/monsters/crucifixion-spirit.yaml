@@ -1,0 +1,140 @@
+Name: Crucifixion Spirit
+CR: '11'
+XP: '12800'
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +26
+AC: 19, touch 19, flat-footed 15
+AC_Mods: (+5 deflection, +3 Dex, +1 dodge, +0 natural)
+HP: '142'
+HD: (15d8+75)
+Saves: Fort +10, Ref +10, Will +15
+Fort: '10'
+Ref: '10'
+Will: '15'
+DefensiveAbilities: incorporeal
+Immune: channel energy, undead traits
+SR: '22'
+Speed: fly 50 ft. (perfect)
+Melee:
+  - incorporeal touch +14 (1d8 plus paralysis)
+Ranged:
+  - touch +14 (crucify soul)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: crucify soul, paralysis (1d4 rounds, DC 24)
+AbilityScores:
+  - —
+  - 17
+  - —
+  - 15
+  - 18
+  - 20
+BaseAtk: '11'
+CMB: '14'
+CMD: 30 (can't be tripped)
+Feats:
+  - Ability Focus (paralysis)
+  - Alertness
+  - Blind-Fight
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+Skills:
+  - Escape Artist +18
+  - Fly +29
+  - Intimidate +23
+  - Perception +26
+  - Sense Motive +26
+  - Stealth +19
+Environment: any
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This entity appears as a gaunt and translucent humanoid with puncture injuries
+  to both wrists and both feet. Its face is twisted in eternal pain and its eyes
+  flicker with a reddish glow.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Crucify Soul (Su)
+    description: >-
+      Five times per day as an attack action a crucifixion spirit can point at a
+      single living target within 60 feet and crucify its soul. This requires
+      the crucifixion spirit to succeed at a ranged touch attack. If successful,
+      the target's soul is ripped from its body, which collapses in a heap on
+      the ground. The target's soul appears as a translucent copy of the victim
+      and is suspended above the spot its body collapsed, crucified in midair to
+      a translucent, "X" shaped structure, the soul held in place by translucent
+      spikes or nails. The victim is not dead and is visible to all those
+      viewing it. A crucified soul cannot be attacked or affected by anything,
+      cannot take any actions (other than trying to escape, see below), and
+      experiences excruciating pain that deals 2 negative levels to it in the
+      round it is crucified, and one negative level each round thereafter. The
+      Fortitude save to remove a negative level has a DC of 22. The save DCs are
+      Charisma-based. A crucifixion spirit does not need to concentrate on this
+      ability for it to continue to affect a target. It can direct attacks
+      against a different opponent. A crucified creature can attempt to escape
+      each round by making a DC 22 Will save. If successful, the creature's soul
+      is freed from its torment and returns to its body in the same round. The
+      target is stunned for one round, but afterwards can act normally. A
+      creature slain with this ability cannot be returned to life except through
+      the casting of a wish, miracle, or true resurrection spell. Even then,
+      there is a 50% chance that such magic fails. If the check fails, the
+      creature cannot be restored to life by mortal magic.
+  - name: Immune Channel Energy (Ex)
+    description: >-
+      A crucifixion spirit takes no damage from the channel energy ability, and
+      is not affected by effects that mimic channel energy or are based on the
+      channel energy ability (such as turn undead and command undead).
+Description:
+  - >-
+    Crucifixion spirits are the ghostly remains of living beings executed
+    through crucifixion. Their soul having not entirely departed the Material
+    Plane, has risen to seek vengeance on the living, particularly clerics or
+    other divine spellcasters whom they blame for forsaking them and allowing
+    them to die in such a ghastly manner.
+  - >-
+    Crucifixion spirits are most often encountered within 1,000 feet of the
+    place of their execution, though some are found haunting burial grounds
+    (presumably the place where their fleshly body was laid to rest). Their only
+    purpose seems to be to torment and kill any that cross their path.
+  - >-
+    They hold no memories of their former life, save the pain and suffering they
+    endured at their time of execution, and they want all those they encounter
+    to share in this pain.
+  - >-
+    A crucifixion spirit engages any living creature that enters its territory.
+    It has no qualms about attacking creatures much larger or stronger than it.
+    In combat, the crucifixion spirit's hatred for clerics and divine
+    spellcasters becomes apparent as they are usually the first ones to feel the
+    effects of its crucify soul ability. A crucified soul is left to die and the
+    crucifixion spirit turns its attention to another opponent. A crucifixion
+    spirit attacks until it is destroyed or its foes are slain or driven off.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2406'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

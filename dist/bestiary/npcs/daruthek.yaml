@@ -1,0 +1,139 @@
+Name: Daruthek
+CR: '6'
+XP: '2400'
+Race: lizardfolk
+Class: oracle 5
+MonsterSource: >-
+  Advanced Bestiary 139, Pathfinder RPG Bestiary 195, Pathfinder RPG Advanced
+  Player's Guide 42
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (reptilian)
+Init: '1'
+Senses:
+  - blindsight 30 ft., Perception +1
+AC: 25, touch 13, flat-footed 24
+AC_Mods: (+7 armor, +2 deflection, +1 Dex, +5 natural)
+HP: '50'
+HD: (7d8+19)
+Saves: Fort +7, Ref +6, Will +9
+Fort: '7'
+Ref: '6'
+Will: '9'
+Immune: fatigue
+Speed: 20 ft. (15 ft. in armor), fly 30 ft. (perfect), swim 15 ft.
+Melee:
+  - +1 spear +7 (1d8+4/x3), bite +1 (1d4+1)
+Ranged:
+  - light crossbow +5 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: 1/day
+      value: gaseous form
+SpellsKnown:
+  header: Oracle Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (5/day)
+      value: >-
+        cure moderate wounds, gust of wind (DC 16), resist energy, sound burst
+        (DC 16)
+    - label: 1st (7/day)
+      value: >-
+        alter windsAPG (DC 15), cause fear (DC 15), cure light wounds, inflict
+        light wounds (DC 15), obscuring mist, protection from good
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), create water, detect magic, detect poison, guidance, read
+        magic
+AbilityScores:
+  - 14
+  - 12
+  - 13
+  - 10
+  - 12
+  - 18
+BaseAtk: '4'
+CMB: '6'
+CMD: '19'
+Feats:
+  - Flyby Attack
+  - Iron Will
+  - Lightning ReflexesB
+  - Toughness
+Skills:
+  - Acrobatics +2 (-6 when jumping)
+  - Diplomacy +12
+  - Fly +14
+  - Knowledge (planes) +7
+  - Knowledge (religion) +7
+  - Linguistics +1
+  - Spellcraft +7
+  - Stealth +2
+  - Swim +7
+RacialMods: +4 Acrobatics
+Languages:
+  - Auran
+  - Polyglot
+SQ: >-
+  hold breath, oracle's curse (lame), revelations (invisibility, lightning
+  breath)
+Source: Ire Of The Storm
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Air Mastery (Ex)
+    description: >-
+      Airborne creatures take a -1 penalty on attack rolls and damage rolls
+      against Daruthek.
+  - name: Elemental Body (Ex)
+    description: >-
+      Each time Daruthek is subject to bleed damage, precision damage, poison,
+      paralysis, sleep, or a stunning effect, there is a 25% chance that the
+      effect or additional damage is negated.
+  - name: Wind Blast (Su)
+    description: >-
+      Once every 1d4 rounds, Daruthek can breathe a 60-foot cone of wind. Every
+      creature within this area that is not flying must succeed at a DC 14
+      Acrobatics or Strength check or fall prone. A flying creature that fails
+      is instead blown away from Daruthek, moving a distance equal to 5 feet per
+      point by which it failed the check. If the creature encounters a large
+      object during this movement, it takes 1d6 points of damage per 5 feet the
+      object prevented it from moving. The save DC is Constitution-based.
+Gender: Male
+BeforeCombat: >-
+  Daruthek casts protection from good and drinks a potion of bull's strength
+  once the storm seeds are destroyed and the storm engine's barrier falls.
+DuringCombat: >-
+  Daruthek uses his lightning breath early to target opponents before his
+  cultists close to melee, then relies on sound burst and flyby attacks with his
+  spear to harry small groups of enemies. If his cultists die, he uses obscuring
+  mist to blind opponents, relying on his blindsight to target them with
+  attacks. The oracle keeps a cause fear spell in his +1 spell-storing
+  breastplate, and targets the first creature who strikes him in melee.
+Morale: Daruthek and his minions fight to the death.
+Gear: potion of bull's strength (2), potion of cure moderate wounds (2)
+OtherGear: +1 spell-storing breastplate, +1 spear, light crossbow with 20 bolts
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: air-infused|
+BaseStatistics: >-
+  Without a potion of bull's strength or casting protection from good, Daruthek
+  statistics are AC 23 (touch 11, flat-footed 22); Fort +5, Ref +4, Will +7, +1
+  spear +5 (1d8+1/x3), bite -1 (1d4); Str 10; CMB +4, CMD 15; Skills Swim +5.
+AgeCategory: Adult
+Mystery: wind
+CompanionFamiliarLink: '0'
+id: '8396'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

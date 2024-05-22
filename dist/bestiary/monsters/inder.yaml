@@ -1,0 +1,163 @@
+Name: Inder
+CR: '23'
+XP: '820000'
+Alignment: 'N'
+Size: Huge
+Type: outsider
+SubType: (elemental, extraplanar, fire)
+Init: '17'
+Senses:
+  - darkvision 60 ft.
+  - Perception +50
+Aura: searing heat (30 ft., DC 37)
+AC: 34, touch 22, flat-footed 20
+AC_Mods: (+13 Dex, +1 dodge, +12 natural, -2 size)
+HP: '500'
+HD: (40d10+280)
+Saves: Fort +31, Ref +35, Will +22
+Fort: '31'
+Ref: '35'
+Will: '22'
+DR: 15/-
+Immune: elemental traits, fire
+SR: '34'
+Weaknesses: vulnerability to cold
+Speed: 60 ft.
+Melee:
+  - 2 slams +51 (4d6+12 plus burn)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: burn (4d6, DC 37), command fire elementals (DC 37)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; melee touch +50, ranged touch +51)
+  values:
+    - label: At will
+      value: >-
+        detect magic, dispel magic, greater teleport (self plus 50 lbs. of
+        objects only), heat metal (DC 19), scorching ray
+    - label: 3/day
+      value: fire storm (DC 25), fireball (DC 20), flame strike (DC 22), wall of fire
+    - label: 1/day
+      value: >-
+        incendiary cloud (DC 25), summon (level 9, 1d2 elder fire elementals,
+        1d4 greater fire elementals, 1d4 efreet, or 4-8 salamanders 100%)
+AbilityScores:
+  - 35
+  - 37
+  - 24
+  - 22
+  - 24
+  - 24
+BaseAtk: '40'
+CMB: '54'
+CMD: '78'
+Feats:
+  - Blind-Fight
+  - Cleave
+  - Combat Expertise
+  - Combat Reflexes
+  - Critical Focus
+  - Dodge
+  - Great Cleave
+  - Great Fortitude
+  - Improved Initiative
+  - Improved Vital Strike
+  - Iron Will
+  - Lightning Stance
+  - Lunge
+  - Mobility
+  - Power Attack
+  - Spring Attack
+  - Vital Strike
+  - Weapon Finesse
+  - Whirlwind Attack
+  - Wind Stance
+Skills:
+  - Acrobatics +56
+  - Climb +52
+  - Diplomacy +47
+  - Escape Artist +53
+  - Intimidate +50
+  - Knowledge (arcana) +49
+  - Knowledge (planes) +49
+  - Knowledge (religion) +49
+  - Perception +50
+  - Sense Motive +50
+  - Stealth +48
+  - Survival +47
+Languages:
+  - Aquan
+  - Auran
+  - Common
+  - Ignan
+  - Terran
+  - telepathy 100 ft.
+Environment: any (Plane of Fire)
+Organization: solitary or band (Inder plus 2-4 greater fire elementals)
+Treasure: triple standard
+Description_Visual: >-
+  This creature appears to be a 20-foot tall column of fire, vaguely humanoid in
+  shape.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Elementals (Su)
+    description: >-
+      As a standard action, an elemental lord can attempt to gain control of any
+      elemental creature of the same element within 100 feet. Elementals receive
+      a Will save to negate the effect. The DC for this Will save is equal to 10
+      + 1/2 the elemental lord's + its Charisma modifier. Elementals that make
+      their save are immune to the command of that elemental lord for one day.
+      Elementals that fail their saves fall under the elemental lord's control,
+      obeying its commands to the best of their ability. An elemental lord does
+      not need to concentrate to maintain control over commanded elementals.
+      Once commanded, an elemental serves until either it dies, the elemental
+      lord dies, the elemental lord dismisses it, or the summoning magic ends
+      (if the elemental was summoned). An elemental lord can command any number
+      of elementals, so long as their total Hit Dice do not exceed twice the
+      elemental lord's Hit Dice. If an elemental creature is under the control
+      of another creature, the elemental lord can attempt an opposed Charisma
+      check to gain control of the elemental.
+  - name: Searing Heat (Ex)
+    description: >-
+      Any creature that starts its turn within 30 feet of Inder must succeed on
+      a DC 37 Fortitude save or take 2d8 points of fire damage. Anyone striking
+      Inder with a natural weapon or unarmed strike takes 4d6 points of fire
+      damage (DC 37 Reflex save for half). A creature that grapples Inder or is
+      grappled by Inder takes 4d6 points of fire damage each round the grapple
+      persists (DC 37 Reflex save for half). The save DCs are
+      Constitution-based.
+Description:
+  - >-
+    Inder rules over fire elementals and makes his home within a massive fiery
+    lake on the Plane of Fire. He is attended by 4 elder fire elementals who
+    serve in his court as advisors. Other fire-based creatures such as efreet,
+    azer, and lesser fire elementals serve him in the court in minor roles.
+    Inder also keeps a large retinue of female fire-based creatures as his
+    harem, having over thirty wives at last count.
+  - >-
+    Inder rarely engages in battle, preferring to let his fire elementals fight
+    for him. If forced however, he opens with a fireball, incendiary cloud, and
+    fire storm, before summoning creatures to his aid. When facing a large
+    number of opponents, he often rides a red dragon of largest size into
+    battle.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+AlternateNameForm: Lord Of Fire Elementals
+id: '4816'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,126 @@
+Name: Naximarra
+CR: '14'
+XP: '38400'
+Race: adult red dragon
+MonsterSource: Pathfinder RPG Bestiary 98
+Alignment: CE
+Size: Huge
+Type: dragon
+SubType: (fire)
+Init: '4'
+Senses:
+  - blindsense 60 ft., darkvision 120 ft., dragon senses, smoke vision
+  - Perception +20
+Aura: fire (5 ft., 1d6 fire), frightful presence (180 ft., DC 21, 5d6 rounds)
+AC: 33, touch 8, flat-footed 33
+AC_Mods: (+21 natural, +4 shield, -2 size)
+HP: '212'
+HD: (17d12+102)
+Saves: Fort +16, Ref +10, Will +15
+Fort: '16'
+Ref: '10'
+Will: '15'
+DR: 5/magic
+Immune: dragon traits, fire, paralysis, sleep
+Resist: cold 20
+SR: '25'
+Weaknesses: vulnerable to cold
+Speed: 40 ft., fly 200 ft. (poor)
+Melee:
+  - >-
+    bite +25 (2d8+15), 2 claws +25 (2d6+10), tail slap +23 (2d6+15), 2 wings +23
+    (1d8+5)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (50-ft. cone, 12d10 fire, Reflex DC 24 half, usable every 1d4
+  rounds), crush (2d8+15, Reflex DC 24)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 17th; concentration +20)
+  values:
+    - label: At Will
+      value: detect magic, pyrotechnics (DC 15), suggestion (DC 16)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +10)
+  values:
+    - label: 3rd (5/day)
+      value: beast shape I, major image (DC 16)
+    - label: 2nd (7/day)
+      value: detect thoughts (DC 15), invisibility, spontaneous immolationUC (DC 15)
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 14), ray of enfeeblement (DC 14), shield, true strike,
+        ventriloquism (DC 14)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, flare (DC 13), ghost sound (DC 13), mage hand, message,
+        prestidigitation, read magic
+AbilityScores:
+  - 31
+  - 10
+  - 23
+  - 16
+  - 17
+  - 16
+BaseAtk: '17'
+CMB: '29'
+CMD: 39 (43 vs. trip)
+Feats:
+  - Greater Vital Strike
+  - Improved Initiative
+  - Improved Iron Will
+  - Improved Vital Strike
+  - Iron Will
+  - Multiattack
+  - Persuasive
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Appraise +14
+  - Bluff +20
+  - Diplomacy +25
+  - Fly +10
+  - Intimidate +25
+  - Knowledge (arcana) +20
+  - Knowledge (local) +10
+  - Perception +20
+  - Sense Motive +20
+  - Spellcraft +20
+  - Stealth +12
+  - Use Magic Device +15
+Languages:
+  - Common
+  - Draconic
+  - Giant
+  - Orc
+Source: AP 94
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Prior to meeting the PCs, or if expecting combat, Naximarra casts shield.
+DuringCombat: >-
+  If her frightful presence is not already active, Naximarra activates the
+  ability as a free action on the first round of combat, then blasts opponents
+  with her breath weapon and takes flight. She casts spontaneous immolation
+  followed with pyrotechnics to debilitate a large number of foes before
+  landing, focusing her attacks on a single opponent to reduce the opposition
+  and improve her odds.
+Morale: >-
+  Naximarra has no interest in dying, and tries to withdraw and flee if reduced
+  to fewer than 70 hit points.
+Gear: scrolls of dominate person (2)
+OtherGear: major ring of cold resistance
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '6949'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

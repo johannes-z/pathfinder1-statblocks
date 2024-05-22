@@ -1,0 +1,109 @@
+Name: Gnaeus Gnaru
+CR: '7'
+XP: '3200'
+Race: dhampir
+Class: magus 8
+MonsterSource: Pathfinder RPG Bestiary 2 89, Pathfinder RPG Ultimate Magic 9
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (dhampir)
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +10
+AC: 17, touch 13, flat-footed 14
+AC_Mods: (+2 Dex, +1 dodge, +4 shield)
+HP: '79'
+HD: (8d8+40)
+Saves: Fort +10, Ref +7, Will +7; +2 vs. disease and mind-affecting effects
+Fort: '10'
+Ref: '7'
+Will: '7'
+Save_Mods: +2 vs. disease and mind-affecting effects
+DefensiveAbilities: negative energy affinity, resist level drain
+Weaknesses: light sensitivity
+Speed: 30 ft.
+Melee:
+  - Silverfang +12/+7 (1d6+6/18-20)
+Ranged:
+  - mwk composite longbow +9/+4 (1d8+5/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: improved spell combat, spell combat (-2 attack, +2 concentration), spellstrike
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +8)
+  values:
+    - label: 3/day
+      value: detect undead
+SpellsPrepared: >-
+  Spells Prepared (CL 8th; concentration +10)   3rd-displacement, vampiric
+  touch   2nd-bear's endurance, bull's strength, invisibility, scorching ray,
+  spider climb   1st-burning hands (DC 13), chill touch (DC 13), magic missile,
+  shield, shocking grasp  0 (at will)-dancing lights, detect magic, mage hand,
+  prestidigitation, ray of frost
+AbilityScores:
+  - 20
+  - 14
+  - 16
+  - 14
+  - 10
+  - 10
+BaseAtk: '6'
+CMB: '11'
+CMD: '24'
+Feats:
+  - Arcane Strike
+  - Dodge
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+Skills:
+  - Bluff +2
+  - Knowledge (arcana) +9
+  - Knowledge (nobility) +6
+  - Perception +10
+  - Spellcraft +13
+  - Use Magic Device +11
+Languages:
+  - Common
+  - Infernal
+  - Shadowtongue
+SQ: >-
+  arcane pool (6 points, +2), knowledge pool, magus arcana (arcane accuracy,
+  empowered magic), medium armor proficiency, spell recall
+Source: AP 62
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Gnaeus casts bear's endurance, bull's strength, and shield if he can before
+  combat.
+DuringCombat: >-
+  Gnaeus feels vulnerable without his armor (which remains in his mistress's
+  collection for now), so he casts invisibility and then displacement before he
+  sets himself up for a good attack against the least-armored target. If he's
+  not been able to cast his three preparatory spells, Gnaeus casts them as well
+  before making his first attack. He uses arcane pool to enhance his first
+  attack with shocking burst.
+Morale: >-
+  Gnaeus surrenders if the charm monster effect in place on him is dispelled;
+  otherwise, he fights to the death.
+Gear: wand of detect secret doors (11 charges)
+OtherGear: >-
+  Silverfang, masterwork composite longbow with 20 arrows, cloak of resistance
+  +1, spell component pouch, spellbook, 1 week of iron rations and water
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3379'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

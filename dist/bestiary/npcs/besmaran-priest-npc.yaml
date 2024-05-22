@@ -1,0 +1,86 @@
+Name: Besmaran Priest Npc
+CR: '4'
+XP: '1200'
+Race: human
+Class: cleric of Besmara 5
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception +3
+AC: 17, touch 12, flat-footed 15
+AC_Mods: (+5 armor, +1 Dex, +1 dodge)
+HP: '33'
+HD: (5d8+7)
+Saves: Fort +5, Ref +2, Will +7
+Fort: '5'
+Ref: '2'
+Will: '7'
+Speed: 30 ft.
+Melee:
+  - mwk rapier +4 (1d6/18-20)
+  - sap +3 (1d6 nonlethal)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel positive energy 5/day (DC 14, 3d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; concentration +8)
+  values:
+    - label: 6/day
+      value: icicle (1d6+2 cold damage)
+    - label: 6/day
+      value: storm burst (1d6+2 nonlethal damage)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 5th; concentration +8)   3rd-remove disease, water
+  breathingD   2nd-aid, cure moderate wounds, fog cloudD   1st-bless, cure light
+  wounds, deathwatch, obscuring mistD, remove fear   0 (at will)-create water,
+  purify food and drink, read magic, stabilize
+SpellDomains: Water, Weather
+AbilityScores:
+  - 10
+  - 13
+  - 12
+  - 10
+  - 16
+  - 14
+BaseAtk: '3'
+CMB: '3'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Improved Initiative
+  - Mobility
+Skills:
+  - Diplomacy +10
+  - Knowledge (religion) +8
+  - Sense Motive +9
+  - Spellcraft +6
+  - Swim +1
+Languages:
+  - Common
+SQ: aura
+Source: Isles Of The Shackles
+IsTemplate: '0'
+Gender: Female
+Gear: >-
+  +1 chain shirt, masterwork rapier, sap, potions of cure light wounds [5], wand
+  of cure moderate wounds [9 charges], wand of bull's strength [8 charges], holy
+  water [2 flasks], other treasure
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8354'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

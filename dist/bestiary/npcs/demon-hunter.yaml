@@ -1,0 +1,127 @@
+Name: Demon Hunter
+CR: '19'
+XP: '204800'
+Race: human
+Class: paladin 20
+Alignment: LG
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+Aura: >-
+  courage (10 ft.), faith (10 ft.), justice (10 ft.), resolve (10 ft.),
+  righteousness (10 ft.)
+AC: 30, touch 14, flat-footed 30
+AC_Mods: (+14 armor, +4 deflection, +2 natural)
+HP: '214'
+HD: (20d10+100)
+Saves: Fort +23, Ref +14, Will +19
+Fort: '23'
+Ref: '14'
+Will: '19'
+DR: 10/evil
+Immune: charm, compulsion, disease, fear, poison
+Resist: electricity 30, fire 30
+Speed: 30 ft.
+Melee:
+  - +4 cold iron evil outsider-bane greatsword +32/+27/+22/+17 (2d6+14/17-20)
+Ranged:
+  - +1 shortbow +21/+16/+11/+6 (1d6+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel positive energy (DC 23, 60 points), smite evil 7/day (+3 attack and
+  AC, +20 damage, banish evil outsiders)
+SpellLikeAbilities:
+  header: Paladin Spell-Like Abilities (CL 20th; concentration +23)
+  values:
+    - label: At Will
+      value: detect evil
+SpellsPrepared: >-
+  Paladin Spells Prepared (CL 17th; concentration +20)   4th-break enchantment,
+  death ward, dispel evil   3rd-daylight (2), greater magic weapon, prayer  
+  2nd-delay poison, eagle's splendor (2), protection from energy (2)  
+  1st-divine favor (3), lesser restoration (2)
+AbilityScores:
+  - 24
+  - 10
+  - 17
+  - 12
+  - 8
+  - 16
+BaseAtk: '20'
+CMB: '27'
+CMD: '41'
+Feats:
+  - Critical Focus
+  - Extra Lay on Hands
+  - Great Fortitude
+  - Improved Critical (greatsword)
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Stunning Critical
+  - Toughness
+  - Weapon Focus (greatsword)
+Skills:
+  - Climb +7
+  - Diplomacy +11
+  - Heal +7
+  - Intimidate +13
+  - Knowledge (arcana) +6
+  - Knowledge (planes) +21
+  - Linguistics +3
+  - Perception +19
+  - Survival +2
+  - Swim +7
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Infernal
+SQ: >-
+  aura, code of conduct, divine bond (weapon +6, 4/day), holy champion, lay on
+  hands (60 points, 15/day), mercies (dazed, nauseated, poisoned, sickened,
+  staggered, stunned)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The paladin casts delay poison and protection from energy (electricity and
+  fire) on herself, and greater magic weapon on her greatsword.
+DuringCombat: >-
+  The paladin targets the most powerful creature present or an obviously demonic
+  target. She uses her divine bond to add the brilliant energy, holy, keen, and
+  speed special abilities to her greatsword as appropriate, and uses mercies to
+  counteract any negative conditions or afflictions she gains.
+Gear: >-
+  +1 evil outsider-bane arrows (5), +1 evil outsider-bane holy arrows (5), +1
+  holy arrows (5), potions of fly (2)
+OtherGear: >-
+  +5 full plate, +1 cold iron evil outsider-bane greatsword, +1 shortbow with 20
+  arrows, amulet of natural armor +2, belt of physical might +4 (Str, Con),
+  boots of striding and springing, cloak of resistance +3, goggles of night,
+  phylactery of faithfulness, ring of protection +4, 4,760 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without delay poison, greater magic weapon, and protection from energy, the
+  paladin's statistics are Immune charm, compulsion, disease, fear; Resist none;
+  Melee +1 cold iron evil outsider-bane greatsword +29/+24/+19/+14
+  (2d6+11/17&#8211;20).
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3763'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

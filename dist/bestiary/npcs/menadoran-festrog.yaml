@@ -1,0 +1,89 @@
+Name: Menadoran Festrog
+CR: '4'
+XP: '1200'
+Race: Menadoran Festrog
+Alignment: NE
+Size: Large
+Type: undead
+SubType: (Hungry Are the Dead 30)
+Init: '4'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +6
+AC: 18, touch 9, flat-footed 18
+AC_Mods: (+4 armor, +5 natural, -1 size)
+HP: '42'
+HD: (5d8+20)
+Saves: Fort +4, Ref +3, Will +5
+Fort: '4'
+Ref: '3'
+Will: '5'
+DefensiveAbilities: diseased pustules
+Immune: undead traits
+Speed: 20 ft. (35 ft. on all fours)
+Melee:
+  - bite +7 (1d6+5 plus feed and trip), 2 claws +7 (1d6+5)
+Space: 10 ft.
+Reach: 10 ft.
+AbilityScores:
+  - 21
+  - 11
+  - —
+  - 2
+  - 12
+  - 17
+BaseAtk: '3'
+CMB: '9'
+CMD: 19 (23 vs. trip)
+Feats:
+  - Improved Initiative
+  - Lightning Reflexes
+  - RunB
+  - Toughness
+Skills:
+  - Climb +6
+  - Perception +6
+  - Survival +3
+Languages:
+  - Common
+SQ: four-footed run
+Source: AP 45
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Diseased Pustules (Su)
+    description: >-
+      A creature that damages a festrog with a slashing or piercing natural
+      weapon, light weapon, or one-handed weapon is sprayed with foul, diseased
+      pus from the creature's boils. The target must make a DC 15 Fortitude save
+      or be sickened for 1d6 rounds from this effect. Anyone who becomes
+      sickened from this effect is also exposed to filth fever (DC 15 Fortitude
+      save negates). The save DC is Charisma-based.
+  - name: Feed (Su)
+    description: >-
+      When a festrog inflicts bite damage on a living creature, the festrog
+      feeds on the creature's flesh and gains 5 temporary hit points.
+      Four-Footed
+  - name: Run (Ex)
+    description: >-
+      If a festrog doesn't hold or carry anything in its hands, it can run on
+      all fours. This increases its speed to 50 feet.
+DuringCombat: >-
+  The festrog charges the closest enemy, attempting to trip and feed on its
+  victim.
+Morale: The festrog fights until destroyed.
+Gear: hide armor
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1636'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,117 @@
+Name: Gresaril's Ghost
+CR: '7'
+XP: '3200'
+Race: green hag
+MonsterSource: Pathfinder RPG Bestiary 144, 167
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '1'
+Senses:
+  - Perception +23
+AC: 15, touch 15, flat-footed 14
+AC_Mods: (+4 deflection, +1 Dex)
+HP: '76'
+HD: (9d8+36)
+Saves: Fort +9, Ref +4, Will +7
+Fort: '9'
+Ref: '4'
+Will: '7'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +6 (7d6, Fort. DC  18 half )
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  corrupting gaze (30 ft., 2d10 plus 1d4 Cha damage, Fort. DC 18 negates Cha
+  damage)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: Constant
+      value: pass without trace, tongues, water breathing
+    - label: At Will
+      value: >-
+        alter self, dancing lights, ghost sound (DC 14), invisibility,
+        pyrotechnics (DC 16), tree shape, whispering wind
+AbilityScores:
+  - —
+  - 12
+  - —
+  - 15
+  - 13
+  - 18
+BaseAtk: '6'
+CMB: '6'
+CMD: '21'
+Feats:
+  - Alertness
+  - Blind-Fight
+  - Combat Casting
+  - Deceitful
+  - Great Fortitude
+Skills:
+  - Bluff +15
+  - Disguise +18
+  - Fly +9
+  - Knowledge (arcana) +14
+  - Perception +23
+  - Sense Motive +12
+  - Stealth +21
+RacialMods: +8 Perception, +8 Stealth
+Languages:
+  - Aklo
+  - Common
+  - Giant
+SQ: mimicry
+Source: PFS S1-50
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Corrupting Gaze (Su)
+    description: >-
+      Gresaril is disfigured through violence, and has a gaze attack with a
+      range of 30 feet that causes 2d10 damage and 1d4 Charisma damage
+      (Fortitude save negates Charisma damage but not physical damage).
+  - name: Corrupting Touch (Su)
+    description: >-
+      All ghosts gain this incorporeal touch attack. By passing part of her
+      incorporeal body through a foe's body as a standard action, Gresaril
+      inflicts 7d6 damage. This damage is not negative energy-it manifests in
+      the form of physical wounds and aches from supernatural aging. Creatures
+      immune to magical aging are immune to this damage, but otherwise the
+      damage bypasses all forms of damage reduction. A Fortitude save halves the
+      damage taken.
+  - name: Mimicry (Ex)
+    description: Gresaril can imitate the sounds of almost any animal found near her lair.
+  - name: Rejuvenation (Su)
+    description: >-
+      If destroyed, Gresaril restores herself in 2d4 days. The only way to
+      permanently destroy Gresaril is to put the dying curse to rest by slaying
+      Tylaca and Aelzeldra.
+Gender: Female
+DuringCombat: >-
+  Gresaril begins combat using her corrupting gaze ability on the PC who holds
+  her fragment. In the following rounds, she lashes out at the nearest PC with
+  her corrupting touch.
+Morale: >-
+  Enraged and bitter, Gresaril fights until destroyed. Once destroyed, she
+  repossesses the fragment and emerges from it again at midnight in 2d4 days.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4501'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

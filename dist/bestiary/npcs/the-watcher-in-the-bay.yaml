@@ -1,0 +1,173 @@
+Name: The Watcher In The Bay
+CR: '24'
+XP: '1228800'
+Race: The Watcher In The Bay
+Alignment: CE
+Size: Gargantuan
+Type: aberration
+SubType: (aquatic)
+Init: '20'
+Senses:
+  - >-
+    all-around vision, darkvision 60 ft., low-light vision, see in darkness,
+    true seeing
+  - Perception +65
+Aura: unspeakable presence (300 ft., DC 33)
+AC: 42, touch 26, flat-footed 32
+AC_Mods: (+10 Dex, +10 insight, +16 natural, -4 size)
+HP: '518'
+HD: (28d8+392)
+HP_Mods: fast healing 20
+Saves: Fort +23, Ref +21, Will +25
+Fort: '23'
+Ref: '21'
+Will: '25'
+DefensiveAbilities: amorphous, insanity
+DR: 10/epic and lawful
+Immune: >-
+  ability damage, ability drain, aging, cold, death effects, disease, energy
+  drain, mind-affecting effects, paralysis, and petrification
+Resist: acid 30, sonic 30
+SR: '35'
+Speed: 50 ft., swim 80 ft., air walk
+Melee:
+  - bite +29 (4d8+12 plus grab), 5 tentacles +29 (2d6+18/19-20 plus grab)
+Space: 20 ft.
+Reach: 20 ft. (40 ft. with tentacles)
+SpecialAttacks: >-
+  constrict (2d6+18), fast swallow, swallow whole (1d8 Cha drain, AC 18, 51 hp),
+  transformation
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +29)
+  values:
+    - label: Constant
+      value: air walk, nondetection
+    - label: At Will
+      value: >-
+        control plants (DC 27), control weather, greater dispel magic,
+        hallucinatory terrain (DC 23), nightmare (DC 24)
+    - label: 3/day
+      value: demand (DC 27), quickened feeblemind (DC 24), quickened wall of thorns
+    - label: 1/day
+      value: tsunamiAPG, vortexAPG (DC 26)
+AbilityScores:
+  - 34
+  - 30
+  - 39
+  - 21
+  - 26
+  - 29
+BaseAtk: '21'
+CMB: +37 (+39 bull rush, +41 grapple)
+CMD: 67 (69 vs. bull rush can't be tripped)
+Feats:
+  - Awesome Blow
+  - Combat Reflexes
+  - Critical Focus
+  - Greater Vital Strike
+  - Improved Bull Rush
+  - Improved Critical (tentacle)
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Power Attack
+  - Quicken Spell-Like Ability (feeblemind
+  - wall of thorns)
+  - Skill Focus (Perception)
+  - Staggering Critical
+  - Vital Strike
+Skills:
+  - Escape Artist +41
+  - Knowledge (arcana
+  - nature
+  - religion) +33
+  - Perception +65
+  - Spellcraft +36
+  - Stealth +29
+  - Swim +51
+  - Use Magic Device +37
+RacialMods: +20 Perception
+Languages:
+  - Aklo
+  - Aquan
+  - Sylvan
+  - telepathy 200 ft.
+SQ: >-
+  always watching, amphibious, compression, otherworldly insight, powerful
+  tentacles
+Source: AP 114
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Always Watching (Ex)
+    description: >-
+      The Watcher in the Bay has extraordinary vision, granting it a +20 bonus
+      on Perception checks and the effects of true seeing at all times. This
+      effect cannot be dispelled or suppressed. The Watcher can see into and out
+      of water with perfect ease, and its vision is never impaired by water. It
+      can see underwater as far as it can see on land, regardless of the water's
+      level of obscurity. Water never provides cover from the Watcher in the
+      Bay. As a free action, the Watcher can shift its vision to view the world
+      through the eyes of any mutant created by its transformation ability,
+      provided the mutant is within 10 miles of the Watcher. The Watcher in the
+      Bay can determine the location of all mutants it has created within this
+      10-mile radius as if via status.
+  - name: Insanity (Ex)
+    description: >-
+      Any creature that attempts to interact directly with the Watcher in the
+      Bay's thoughts (such as via detect thoughts or telepathy) must succeed at
+      a DC 33 Will save or be driven permanently insane (as per insanity, or the
+      insanity rules on page 250 of the Pathfinder RPG GameMastery Guide, in
+      which case this save DC is also the starting DC for the save to recover
+      from the insanity). When the Watcher uses its telepathy to communicate
+      with creatures, this ability doesn't activate unless the watcher focuses
+      its mind on one opponent as a standard action. The save DC is
+      Charisma-based.
+  - name: Otherworldly Insight (Ex)
+    description: >-
+      The Watcher gains a +10 insight bonus on initiative checks and to its AC
+      and CMD.
+  - name: Powerful Tentacles (Ex)
+    description: >-
+      The Watcher's tentacles are a primary attack, and the Watcher adds 1-1/2
+      times its Strength bonus to damage rolls with the tentacles.
+  - name: Swallow Whole (Su)
+    description: >-
+      A creature swallowed by the Watcher suffers Charisma drain. Each round the
+      Watcher inflicts Charisma drain in this manner, it regains 5 hit points
+      per point of Charisma drained. A creature drained to 0 Charisma is
+      transformed (see Transformation).
+  - name: Transformation (Su)
+    description: >-
+      When a swallowed creature is drained to 0 Charisma by the Watcher, it
+      instantly transforms into a hideous, warped mockery of its previous form.
+      The swallowed creature gains the mutant template (Pathfinder RPG Bestiary
+      5 180), and its alignment becomes chaotic evil. When a creature gains the
+      template, all Charisma drain inflicted on the creature by the Watcher's
+      swallow whole attack is healed. The Watcher can regurgitate a transformed
+      mutant as an immediate action. A mutant created in this manner is
+      free-willed, but regards the Watcher as its mother and obeys the Watcher's
+      commands without question when they are given. These mutants are immune to
+      the Watcher's unspeakable presence.
+  - name: Unspeakable Presence (Su)
+    description: >-
+      The Watcher in the Bay emanates an aura that inflicts intense mental
+      anguish and torment on all creatures within 300 feet that can see and hear
+      the Watcher. Any subjected creature must succeed at a DC 33 Will save or
+      become staggered by this anguish for 1 round. A creature that successfully
+      saves against the Watcher's unspeakable presence in 2 consecutive rounds
+      is immune to the Watcher's unspeakable presence for 24 hours. The save DC
+      is Charisma-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11105'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

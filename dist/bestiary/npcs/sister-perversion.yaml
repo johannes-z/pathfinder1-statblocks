@@ -1,0 +1,203 @@
+Name: Sister Perversion
+CR: '20'
+XP: '307200'
+Race: seraptis
+Class: bard 7/trickster 4
+MonsterSource: >-
+  Pathfinder Campaign Setting: Lords of Chaos 58, Pathfinder RPG Mythic
+  Adventures 44
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: +18M
+Senses:
+  - darkvision 60 ft., deathwatch, true seeing
+  - Perception +35
+Aura: gaze of despair (30 ft., DC 27), unholy aura (DC 28)
+AC: 39, touch 20, flat-footed 33
+AC_Mods: (+9 armor, +4 deflection, +6 Dex, +10 natural)
+HP: '400'
+HD: (22 HD; 15d10+7d8+287)
+Saves: >-
+  Fort +22, Ref +16, Will +19; +4 vs. bardic performance, language-dependent,
+  and sonic
+Fort: '22'
+Ref: '16'
+Will: '19'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: bloodless, evasion, hard to kill
+DR: 10/cold iron and good
+Immune: electricity, poison, bleed
+Resist: acid 10, cold 10, fire 10
+SR: '26'
+Speed: 50 ft.
+Melee:
+  - >-
+    +5 keen scythe +33/+28/+23/+18 (2d4+17/x4), 2 claws +26 (1d6+4 plus grab),
+    gore +26 (2d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 26 rounds/day (move action; countersong, distraction,
+  fascinate, inspire competence +3, inspire courage +2, suggestion), compelling
+  domination, fleet charge, menacing whisper, mythic power (11/day, surge +1d8),
+  mythic spellcasting, ravenous embrace
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +25)
+  values:
+    - label: Constant
+      value: deathwatch, true seeing, unholy aura (DC 28)
+    - label: At Will
+      value: >-
+        crushing despair (DC 24), dispel magic, greater teleport (self plus 50
+        lbs. of objects only), telekinesis (DC 25)
+    - label: 3/day
+      value: confusion (DC 24), demand (DC 28), dominate person (DC 25), fly
+    - label: 1/day
+      value: >-
+        symbol of insanity (DC 28), summon (level 5, 1 seraptis 20% or 1
+        glabrezu 40%)
+SpellsKnown:
+  header: Bard Spells Known (CL 7th; concentration +17)
+  values:
+    - label: 3rd (3/day)
+      value: confusionM (DC 23), dispel magicM
+    - label: 2nd (6/day)
+      value: alter self, gallant inspirationAPG, invisibilityM, suggestionM (DC 22)
+    - label: 1st (7/day)
+      value: >-
+        alarm, charm person (DC 21), grease (DC 21), undetectable alignment,
+        unseen servant
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 20), mage hand, message,
+        prestidigitation (DC 20)
+AbilityScores:
+  - 26
+  - 23
+  - 32
+  - 18
+  - 17
+  - 30
+BaseAtk: '20'
+CMB: '28'
+CMD: '48'
+Feats:
+  - Ability Focus (dominate person)
+  - Arcane Strike
+  - Bleeding Critical
+  - Combat Expertise
+  - Combat Reflexes
+  - Critical Focus
+  - Improved Initiative[M]
+  - Iron Will[M]
+  - Multiattack
+  - Power Attack
+  - Toughness
+Skills:
+  - Diplomacy +34
+  - Intimidate +34
+  - Knowledge (engineering) +15
+  - Knowledge (geography) +15
+  - Knowledge (local) +31
+  - Knowledge (nobility) +31
+  - Knowledge (planes) +31
+  - Knowledge (religion) +31
+  - Perception +35
+  - Perform (dance) +34
+  - Perform (sing) +34
+  - Stealth +30
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+SQ: >-
+  amazing initiative, bardic knowledge +3, enhanced ability (Cha), lore master
+  1/day, recuperation, subtle magic, versatile performance (dance, sing)
+Source: AP 78
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bloodless (Ex)
+    description: >-
+      Sister Perversion is immune to bleed effects and to attacks that utilize
+      blood drain to function.
+  - name: Compelling Domination (Su)
+    description: >-
+      When Sister Perversion uses dominate person (as a spell or spell-like
+      ability), its victims do not actively resist the control and do not gain a
+      new saving throw when ordered to take actions against their nature unless
+      those actions are obviously self-destructive, in which case the victim
+      does get a new saving throw with a +2 bonus to escape the effects of the
+      domination.
+  - name: Gaze of Despair (Su)
+    description: >-
+      Sister Perversion's gaze fills the minds of those within 30 feet with
+      overwhelming and soul-crushing despair. Anyone who fails a DC 27 Will save
+      upon being exposed to her gaze immediately takes 1d6 points of Charisma
+      drain and is staggered for 1d6 rounds. If the Charisma drain would
+      normally reduce a creature's Charisma to 0, that creature instead succumbs
+      to overwhelming suicidal urges and attempts to end its life by the most
+      convenient method at hand, subject to GM discretion. (In most cases, this
+      effect causes a creature to make a coup de grace attempt on itself, but if
+      a more dramatic method of self-destruction is available, the creature
+      takes that action.) Once a creature reaches this suicidal state of
+      despair, it remains in that state until its Charisma score is restored to
+      its normal maximum-if methods of restoring lost Charisma are not
+      available, the suicidal victim must be restrained at all times to prevent
+      attempts to kill itself. This is a mind-affecting effect. The save DC is
+      Charisma-based.
+  - name: Grab (Ex)
+    description: >-
+      Sister Perversion gains a cumulative +4 bonus on grapple attempts for each
+      successive claw attack that hits in a single round, provided the claw
+      attacks all hit the same target. If she grabs a foe, she can use her
+      ravenous embrace.
+  - name: Ravenous Embrace (Su)
+    description: >-
+      Once per round, a creature grappling or grappled by Sister Perversion can
+      be attacked by the ravenous, toothed wounds that decorate her arms. These
+      teeth bite and chew, automatically dealing 4d6+12 points of damage each
+      round&#8211;in addition, the wounds caused by the ravenous embrace cause
+      2d6 points of bleed damage and 1d4 points of Strength drain as the
+      seraptis drinks away the victim's blood and other vital fluids. As long as
+      the seraptis is within 30 feet of a foe suffering bleed damage from her
+      ravenous embrace, the blood that flows from the victim writhes through the
+      air into the seraptis's arm maws, healing the seraptis by an amount equal
+      to the amount caused by that round's bleed effect.
+Gender: Female
+BeforeCombat: >-
+  Sister Perversion casts a mental alarm three times per day on the balcony
+  outside the door to her room, and undetectable alignment on herself every day.
+DuringCombat: >-
+  Once released from Nocticula's control, Sister Perversion is stunned for the
+  first round of combat. After this, she immediately teleports elsewhere in Iz
+  to prepare for combat by casting fly and invisibility, then uses demand to
+  contact a PC to suggest that PC should undress and cast aside all of his or
+  her equipment. Sister Perversion then casts mythic invisibility on herself and
+  returns to attack, starting the fight with dominate person and mythic
+  confusion and switching to melee attacks once her foes are scattered and
+  distracted by her mind-controlling magic (or sooner if it becomes apparent her
+  enemies are resistant or immune to these tactics).
+Morale: >-
+  Sister Perversion fights to the death rather than face punishment for failure
+  from Mistress Anemora.
+Gear: >-
+  +5 mithral chain shirt, +5 keen scythe, dimensional shackles, ring of evasion,
+  assorted jewelry worth a total of 4,400 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5710'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '1'
+MT: '4'

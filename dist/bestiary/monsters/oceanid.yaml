@@ -1,0 +1,147 @@
+Name: Oceanid
+CR: '7'
+XP: '3200'
+Alignment: CN
+Size: Medium
+Type: fey
+SubType: (water)
+Init: '8'
+Senses:
+  - darkvision 120 ft., low-light vision, tremorsense 30 ft. (in water only)
+  - Perception +16
+AC: 21, touch 15, flat-footed 16
+AC_Mods: (+4 Dex, +1 dodge, +6 natural)
+HP: '76'
+HD: (9d6+45)
+HP_Mods: fast healing 10 (in salt water only)
+Saves: Fort +8, Ref +10, Will +10
+Fort: '8'
+Ref: '10'
+Will: '10'
+DR: 10/cold iron
+Immune: acid
+Resist: cold 30
+Weaknesses: vulnerable to fire, water dependency, water magic
+Speed: 20 ft., swim 80 ft.
+Melee:
+  - slam +6 (1d4+3)
+Ranged:
+  - waterspout +8 (7d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: water telekinesis
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +14)
+  values:
+    - label: Constant
+      value: speak with animals (sea creatures only)
+    - label: At will
+      value: >-
+        control water, create water, purify food and drink (water only), water
+        breathing (up to 9 creatures at a time)
+    - label: 3/day
+      value: >-
+        control winds, summon nature's ally V (sea creatures or water elementals
+        only)
+    - label: 1/day
+      value: control weather
+AbilityScores:
+  - 14
+  - 19
+  - 20
+  - 14
+  - 19
+  - 21
+BaseAtk: '4'
+CMB: '6'
+CMD: '26'
+Feats:
+  - Combat Casting
+  - Defensive Combat Training
+  - Dodge
+  - Improved Initiative
+  - Mobility
+Skills:
+  - Diplomacy +17
+  - Handle Animal +14
+  - Intimidate +14
+  - Knowledge (nature) +14
+  - Perception +16
+  - Sense Motive +16
+  - Stealth +16
+  - Swim +22
+Languages:
+  - Aquan
+  - Common
+  - Sylvan
+  - speak with animals (sea creatures only)
+SQ: waveglide
+Environment: any oceans
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This beautiful woman is clad only in sea foam and her long, white hair, which
+  cascades over her body.
+Source: PFRPG Bestiary 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Water Dependency (Ex)
+    description: >-
+      An oceanid can survive out of the water for 1 hour per point of
+      Constitution. After this limit, she takes 1 point of Constitution damage
+      each hour until immersed in salt water.
+  - name: Water Magic (Su)
+    description: >-
+      An oceanid can use her spell-like abilities only when she is in the ocean
+      or within 1 mile of the ocean.
+  - name: Water Telekinesis (Su)
+    description: >-
+      When immersed in water, an oceanid can manipulate water to affect
+      creatures and objects within 500 feet that are in contact with the same
+      body of water. This functions as the combat maneuver form of the
+      telekinesis spell (caster level 9th, combat maneuver bonus +14), including
+      the need to maintain concentration. This ability also allows her to create
+      a small waterspout as a standard action once per round, striking an
+      opponent within 100 feet with a blast of water as a ranged attack that
+      deals 7d6 points of bludgeoning damage.
+  - name: Waveglide (Su)
+    description: >-
+      An oceanid can create waves and currents to double or halve the speed of
+      creatures or objects traveling on the surface of the water, affecting up
+      to 100 contiguous 5-foot squares in a shapeable area (typically enough for
+      one warship or two small sailing ships). This ability has a range of 1,000
+      feet, requires line of effect to some part of the area, and lasts as long
+      as the oceanid concentrates. An unwilling target can ignore the effect for
+      1 round by succeeding at a DC 19 Will saving throw. The save DC is
+      Charisma-based.
+Description:
+  - >-
+    Aquatic kin of nymphs and dryads, oceanids are fey bound to the sea. They
+    can live in lakes, rivers, or oceans, but truly thrive only in salt water.
+    The mood of an oceanid can change with little warning-they are quick to love
+    and even quicker to anger. An oceanid can be quite helpful toward mortals
+    and their vessels- particularly if the mortals indulge her extreme vanity.
+    Though silver-tongued people skilled at flattery might earn her help, they
+    might also be lured away to join the oceanid under the sea until she grows
+    bored with them. When an oceanid is in the water, the lower half of her body
+    transforms into a pillar of water, allowing her to swim at incredible speed.
+    When she leaves the water, this water pillar transforms into humanoid legs.
+    However, most oceanids consider walking a chore, and avoid it when possible.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5316'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

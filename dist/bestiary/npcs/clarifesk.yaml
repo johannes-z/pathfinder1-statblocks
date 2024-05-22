@@ -1,0 +1,102 @@
+Name: Clarifesk
+CR: '4'
+XP: '1200'
+Race: gillman
+Class: cleric of Zura 5
+MonsterSource: 'Pathfinder Campaign Setting: The Inner Sea World Guide 310'
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (aquatic)
+Init: '2'
+Senses:
+  - Perception +3
+AC: 18, touch 12, flat-footed 16
+AC_Mods: (+6 armor, +2 Dex)
+HP: '41'
+HD: (5d8+15)
+Saves: >-
+  Fort +6, Ref +5, Will +6; +2 vs. non-aboleth enchantments and -2 vs. aboleth
+  enchantments
+Fort: '6'
+Ref: '5'
+Will: '6'
+Save_Mods: +2 vs. non-aboleth enchantments and -2 vs. aboleth enchantments
+DefensiveAbilities: enchantment resistance
+Weaknesses: water dependent
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - +1 rapier +6 (1d6+3/18-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 5/day (DC 14, 3d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; concentration +7)
+  values:
+    - label: 5/day
+      value: battle rage (+2), bleeding touch (2 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 5th; concentration +7)   3rd-dispel magic, vampiric
+  touchD   2nd-cure moderate wounds, hold person (DC 14), sound burst (DC 14),
+  spiritual weaponD   1st-cause fearD (DC 13), command (DC 13), cure light
+  wounds (2), shield of faith   0 (at will)-bleed (DC 12), detect magic,
+  guidance, resistance
+SpellDomains: BloodAPG, MurderAPG
+AbilityScores:
+  - 14
+  - 14
+  - 15
+  - 8
+  - 14
+  - 14
+BaseAtk: '3'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Brew Potion
+  - Lightning Reflexes
+  - Weapon Finesse
+Skills:
+  - Knowledge (religion) +3
+  - Perception +3
+  - Sense Motive +6
+  - Spellcraft +4
+  - Swim +6
+Languages:
+  - Aboleth
+  - Common
+SQ: amphibious
+Source: AP 122
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Upon being alerted to the presence of intruders, Clarifesk drinks her potion
+  of bull's strength.
+DuringCombat: >-
+  If one of her gillman protectors is adjacent to her, Clarifesk utilizes her
+  battle rage ability to bolster the creature's attacks. She uses hold person
+  and command to interrupt the PCs' actions and casts sound burst to catch as
+  many of the PCs in its radius as possible.
+Morale: Clarifesk is a fanatic and fights to the death.
+Gear: potion of bear's endurance, potion of bull's strength
+OtherGear: >-
+  mithral chainmail, +1 rapier, spell component pouch, wooden holy symbol of
+  Zura
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: >-
+  Without her potion of bull's strength, Clarifesk's statistics are Melee +1
+  rapier +4 (1d6+1/18-20); Str 10; CMB +3; CMD 15; Skills Swim +4.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11638'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,127 @@
+Name: Abrikandilu Berserker
+CR: '6'
+XP: '2400'
+Race: Abrikandilu
+Class: barbarian 3
+MonsterSource: 'Pathfinder Campaign Setting: The Worldwound 42'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +16
+AC: 15, touch 10, flat-footed 13
+AC_Mods: (+2 Dex, +5 natural, -2 rage)
+HP: '79'
+HD: (8 HD; 5d10+3d12+27)
+Saves: Fort +10, Ref +7, Will +7
+Fort: '10'
+Ref: '7'
+Will: '7'
+DefensiveAbilities: uncanny dodge, trap sense +1
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Weaknesses: hatred of mirrors
+Speed: 40 ft.
+Melee:
+  - bite +14 (1d6+6 plus mutilation), 2 claws +14 (1d4+6)
+Ranged:
+  - improvised weapon +10 (1d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: destructive attacks, mutilation, rage (9 rounds/day), rage powers (1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +5)
+  values:
+    - label: 3/day
+      value: cause fear (DC 11), shatter (DC 12)
+    - label: 1/day
+      value: summon (level 1, 1 abrikandilu 50%)
+AbilityScores:
+  - 23
+  - 15
+  - 16
+  - 8
+  - 12
+  - 11
+BaseAtk: '8'
+CMB: +14 (+16 sunder)
+CMD: 24 (26 vs. sunder)
+Feats:
+  - Improved Sunder
+  - Iron Will
+  - Power Attack
+  - Throw AnythingB
+  - Vital Strike
+Skills:
+  - Acrobatics +10 (+14 when jumping)
+  - Appraise +7
+  - Climb +17
+  - Disable Device +13
+  - Perception +16
+RacialMods: +4 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+SQ: fast movement
+Source: PFS S5-13
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Destructive Attacks (Ex)
+    description: >-
+      An abrikandilu's natural attacks can threaten and confirm critical hits
+      against objects. In addition, they gain a +5 racial bonus on Strength
+      checks made to break or destroy objects.
+  - name: Mutilation (Su)
+    description: >-
+      An abrikandilu's bite causes hideous, ugly wounds that not only mar beauty
+      but supernaturally diminish a creature's sense of self-worth. A creature
+      bitten by an abrikandilu must succeed at a DC 15 Fortitude save or gain a
+      -1 penalty on all Charisma-based checks. This penalty can stack as high as
+      a -5 penalty with multiple bites and failed saves. This lasts even after
+      the wounds are healed; the penalty decreases by 1 point every 24 hours.
+      This is a curse effect. The save DC is Constitution-based.
+  - name: Hatred of Mirrors (Ex)
+    description: >-
+      An abrikandilu loathes the sight of its own reflection. Using a mirror
+      grants a +5 bonus on Intimidate checks against an abrikandilu. An
+      abrikandilu adjacent to a mirror or attacked by a mirror-carrying creature
+      (at the GM's discretion, some shields could be considered mirrors) must
+      attempt a DC 15 Will save at the start of its turn. If it fails, it must
+      focus all of its actions that round on attempts to destroy the mirror.
+BeforeCombat: >-
+  One berserker noisily begins breaking apart the control panels as the other
+  one inspects its surroundings.
+DuringCombat: >-
+  The abrikandilu berserker on the platform takes cover behind the control panel
+  and continues to damage it, redirecting its attacks to nearby enemies. The
+  other abrikandilu defends the stairs, throwing hunks of rubble and metal at
+  distant foes. The demons delight in breaking smaller weapons, wands, and
+  potions.
+Morale: >-
+  After decades of stasis, the demons are itching for a chance to destroy
+  something. They fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not raging, the abrikandilu demon's statistics are AC 17, touch 12,
+  flat-footed 15; hp 63; Fort +8, Will +5; Melee bite +12 (1d6+4 plus
+  mutilation), 2 claws +12 (1d4+4); Str 19, Con 12; CMB +12, CMD 24; Skills
+  Climb +15.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8077'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

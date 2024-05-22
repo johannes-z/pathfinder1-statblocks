@@ -1,0 +1,129 @@
+Name: Advanced Nightprowler
+CR: '13'
+XP: '25600'
+Race: nightprowler
+MonsterSource: 'Pathfinder Adventure Path #102: Breaking the Bones of Hell 90'
+Alignment: CE
+Size: Large
+Type: undead
+SubType: (extraplanar, nightshade)
+Init: '10'
+Senses:
+  - darksense 30 ft., darkvision 60 ft., detect magic, low-light vision, scent
+  - Perception +25
+Aura: desecrating aura (30 ft.)
+AC: 28, touch 16, flat-footed 21
+AC_Mods: (+6 Dex, +1 dodge, +12 natural, -1 size)
+HP: '179'
+HD: (18d8+98)
+Saves: Fort +12, Ref +16, Will +17
+Fort: '12'
+Ref: '16'
+Will: '17'
+DR: 10/good and silver
+Immune: cold, undead traits
+SR: '24'
+Weaknesses: light aversion
+Speed: 50 ft.
+Melee:
+  - >-
+    bite +23 (3d6+11/19-20 plus creeping dark and grab), 2 claws +23 (1d8+11
+    plus creeping dark)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  channel negative energy (7d6, DC 26, 7/day), creeping dark, rake (2 claws +23,
+  1d6+11), shadowpounce
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +17)
+  values:
+    - label: Constant
+      value: detect magic, greater magic fang
+    - label: At Will
+      value: deeper darkness, unholy blight (DC 18)
+    - label: 3/day
+      value: contagion (DC 18), dispel magic, quickened invisibility
+    - label: 1/day
+      value: >-
+        air walk, confusion (DC 18), cone of cold (DC 19), haste, hold monster
+        (DC 19), summon (level 4, 2 shadows)
+AbilityScores:
+  - 27
+  - 22
+  - —
+  - 14
+  - 19
+  - 19
+BaseAtk: '13'
+CMB: '22'
+CMD: 39 (43 vs. trip)
+Feats:
+  - Combat Reflexes
+  - Command Undead
+  - Dodge
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Quicken Spell-Like Ability (invisibility)
+  - Skill Focus (Stealth)
+Skills:
+  - Acrobatics +27 (+35 when jumping)
+  - Climb +29
+  - Knowledge (religion) +23
+  - Perception +25
+  - Stealth +29 (+37 in dim light and darkness)
+  - Survival +25
+RacialMods: +8 Stealth in dim light and darkness
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+  - telepathy 100 ft.
+Source: AP 143
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Creeping Dark (Su)
+    description: >-
+      The nightprowlers' natural attacks leave a stain of dark shadows that
+      linger in and around the wound, known as the creeping dark-this condition
+      can be resisted with a successful DC 23 Fortitude save. If the victim
+      fails, it becomes staggered for 1 round, after which the creeping dark
+      affects the victim further by preventing healing and hampering vision. A
+      character attempting to use magical healing on a creature damaged by a
+      nightprowler's creeping dark must succeed at a DC 26 caster level check,
+      or the healing has no effect on the injured creature. As long as a
+      creature suffers the creeping dark, its vision is obscured with shadows as
+      well-all creatures gain a 20% miss chance from attacks by the victim. The
+      creeping dark is a curse effect that lasts until removed or until all
+      damage to the victim is healed. The save DC is Charisma-based.
+  - name: Shadowpounce (Su)
+    description: >-
+      Nightprowlers have the pounce ability, and when they use this ability,
+      they can also make rake attacks. Up to three times per day when a
+      nightprowler pounces from an area of dim illumination, it generates a
+      shimmering aura of false images that grants it a 50% miss chance, as if
+      under the effects of a displacement spell, for 1d4 rounds.
+BeforeCombat: The nightprowlers cast invisibility if they suspect intruders.
+DuringCombat: >-
+  One nightprowler casts haste on itself and its allies while the others attack
+  with their shadowpounce. They thereafter alternate using their channeled
+  negative energy, spell-like abilities, and physical attacks to keep their foes
+  off-balance.
+Morale: Relentlessly fierce and bloodthirsty, the nightprowlers fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12715'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

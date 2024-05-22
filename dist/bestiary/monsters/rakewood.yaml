@@ -1,0 +1,103 @@
+Name: Rakewood
+CR: '9'
+XP: '6400'
+Alignment: 'N'
+Size: Large
+Type: plant
+Init: '0'
+Senses:
+  - blindsight 60 ft., tremorsense 60 ft.
+  - Perception +9
+AC: 24, touch 9, flat-footed 24
+AC_Mods: (+15 natural, -1 size)
+HP: '115'
+HD: (11d8+66)
+Saves: Fort +13, Ref +3, Will +4
+Fort: '13'
+Ref: '3'
+Will: '4'
+DR: 10/slashing or piercing
+Immune: plant traits
+Speed: 20 ft.
+Melee:
+  - 3 slams +16 (1d8+8 plus grab), bite +16 (2d6+8/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: spores, swallow whole (3d6 acid damage, AC 17, 11 hp)
+AbilityScores:
+  - 26
+  - 10
+  - 23
+  - 1
+  - 12
+  - 11
+BaseAtk: '8'
+CMB: +17 (+21 grapple)
+CMD: 27 (can't be tripped)
+Feats:
+  - Cleave
+  - Improved Critical (bite)
+  - Power Attack
+  - Step Up
+  - Weapon Focus (bite
+  - slam)
+Skills:
+  - Perception +9
+  - Stealth +5 (+13 in undergrowth)
+RacialMods: +8 Stealth in undergrowth
+Environment: temperate forests
+Organization: solitary or grove (2-5)
+Treasure: incidental
+Description_Visual: >-
+  Poking up through the leaf litter is a rounded hump of green, woody fungus.
+  Waving in the air are three dull brown tendrils oozing a foul-smelling sap.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Spores (Ex)
+    description: >-
+      As a standard action once every 1d6 rounds, a rakewood can release a cloud
+      of deadly spores in a 20-foot-radius burst. Creatures caught in the cloud
+      must succeed on a DC 21 Fortitude save or be paralyzed for 2d4 rounds.
+      Creatures succeeding their save are sickened for 1d4 rounds instead. The
+      cloud lasts for 1 round before dispersing. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    A rakewood is a barely sentient plant creature that lives deep within
+    old-growth forests. It consists of a filthy, spheroid fungal mass with a
+    ring of three brown tendrils at the top. The tendrils surround a
+    sphincter-like mouth lined with razor-sharp spiny teeth. Although it can
+    move of its own accord through the use of finger-like cilia at its base, a
+    rakewood rarely moves once it has settled itself. Rakewoods live on decaying
+    plant matter, and generally they are content to let the world go by as the
+    soak up nutrients from the leaf litter. In less productive seasons such as
+    winter, rakewoods supplement their diet with animal flesh.
+  - >-
+    Rakewoods are about 10 feet long and weigh 1,000 pounds. Coloration can vary
+    from rakewood to rakewood, but most are dark green in color and covered in
+    various fungi and molds. When at rest, a rakewood's tendrils appear to be
+    tree roots or large, thick vines.
+  - >-
+    A rakewood enters combat by releasing its cloud of paralytic spores. Any
+    opponents left standing are then pummeled with its slam attacks. A grappled
+    or paralyzed opponent is pulled into its maw to be swallowed.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5038'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

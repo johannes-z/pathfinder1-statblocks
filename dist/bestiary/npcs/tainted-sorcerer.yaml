@@ -1,0 +1,108 @@
+Name: Tainted Sorcerer
+CR: '3'
+XP: '800'
+Race: gnome
+Class: sorcerer 4
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '1'
+Senses:
+  - low-light vision
+  - Perception +2
+AC: 13, touch 12, flat-footed 12
+AC_Mods: (+1 armor, +1 Dex, +1 size)
+HP: '28'
+HD: (4d6+12)
+Saves: Fort +3, Ref +2, Will +6; +2 vs. illusions
+Fort: '3'
+Ref: '2'
+Will: '6'
+Save_Mods: +2 vs. illusions
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Speed: 20 ft.
+Melee:
+  - mwk spear +5 (1d6+1/x3)
+Ranged:
+  - light crossbow +4 (1d6/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  +1 on attack rolls against goblinoid and reptilian humanoids, long limbs (+5
+  ft.)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: 7/day
+      value: >-
+        acidic ray (1d6+2 acid) Gnome Spell-Like Abilities (CL 4th;
+        concentration +8)
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound (DC 15), prestidigitation, speak with
+        animals
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 4th; concentration +8)
+  values:
+    - label: 2nd (4/day)
+      value: alter self
+    - label: 1st (7/day)
+      value: enlarge person (DC 16), reduce person (DC 16), shield, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), detect magic, mage hand, read magic, touch
+        of fatigue (DC 14)
+AbilityScores:
+  - 12
+  - 13
+  - 14
+  - 8
+  - 10
+  - 18
+BaseAtk: '2'
+CMB: '2'
+CMD: '13'
+Feats:
+  - Eschew Materials
+  - Iron Will
+  - Spell Focus (transmutation)
+Skills:
+  - Bluff +8
+  - Craft (alchemy) +5
+  - Disguise +5
+  - Perception +2
+  - Use Magic Device +8
+Languages:
+  - Common
+  - Gnome
+  - Sylvan
+SQ: bloodline arcana (+50% duration on polymorph spells), gnome magic
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: aberrant
+DuringCombat: >-
+  The sorcerer casts shield, targets approaching enemies with acidic ray, then
+  uses her long limbs ability to deliver touch spells. In melee, she casts
+  enlarge person on herself and attacks with her spear.
+Gear: >-
+  potion of spider climb, scrolls of cat's grace (2), scroll of slow, acid,
+  tanglefoot bag
+OtherGear: >-
+  light crossbow with 10 bolts, masterwork spear, bracers of armor +1,
+  collection of dolls' heads, 28 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3806'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

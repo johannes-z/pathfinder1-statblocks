@@ -1,0 +1,111 @@
+Name: Leucrotta
+CR: '5'
+XP: '1600'
+Race: Leucrotta
+MonsterSource: Pathfinder Adventure Path volume 17
+Alignment: CE
+Size: Large
+Type: magical beast
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +10
+AC: 18, touch 10, flat-footed 17
+AC_Mods: (+1 Dex, +8 natural, -1 size)
+HP: '57'
+HD: (6d10+24)
+Saves: Fort +9, Ref +6, Will +4
+Fort: '9'
+Ref: '6'
+Will: '4'
+Immune: disease, poison
+Speed: 80 ft., climb 50 ft.
+Melee:
+  - bite +10 (2d6+7), 2 hooves +5 (1d6+2)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: lure, powerful bite
+AbilityScores:
+  - 21
+  - 12
+  - 18
+  - 11
+  - 14
+  - 17
+BaseAtk: '6'
+CMB: '12'
+CMD: 23 (27 vs. trip)
+Feats:
+  - Improved Initiative
+  - Skill Focus (Bluff)
+  - Skill Focus (Stealth)
+Skills:
+  - Bluff +16
+  - Climb +13
+  - Stealth +11
+Languages:
+  - Common
+SQ: voice mimicry
+Source: AP 32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Lure (Su)
+    description: >-
+      At any point that the leucrotta's targets are unaware of it (for example,
+      if the leucrotta is hiding or concealed in darkness), the leucrotta can
+      call out to the targets, who must be in line of sight and within 60 feet.
+      When the leucrotta calls out, the targets must make a DC 16 Will save or
+      fall under the effects of a suggestion to approach the sound of the
+      leucrotta's voice. This effect functions identically to a mass suggestion
+      spell with a caster level equal to the leucrotta's Hit Dice. A creature
+      that saves cannot be affected again by the same leucrotta's lure for 24
+      hours. The lure is a language-dependant effect, and if the leucrotta uses
+      the victim's name during the lure, the victim suffers a -4 penalty on his
+      saving throw. This is a sonic mindaffecting charm effect. The save DC is
+      Charisma-based.
+  - name: Powerful Bite (Ex)
+    description: >-
+      A leucrotta's bite attack always applies 1.5 times its Strength modifier
+      to damage and threatens a critical hit on a roll of 19&#8211;20. Against
+      objects, a leucrotta's bite treats the object as having a hardness of 5
+      less than the object's actual hardness rating.
+  - name: Voice Mimicry (Ex)
+    description: >-
+      A leucrotta can perfectly imitate the voice of any creature it has heard
+      talking. It makes a Bluff check when using voice mimicry&#8211;listeners
+      may oppose this Bluff with Sense Motive checks to see through the mimicry,
+      although if the listener isn't familiar with the voice of the person being
+      mimicked, he suffers a &#8211;8 penalty on his Sense Motive check to
+      oppose the leucrotta's Bluff. Leucrottas find it difficult to mimic the
+      voices of creatures more than one size category smaller or larger than
+      themselves and take a &#8211;8 penalty on their Bluff checks to mimic the
+      voices of such smaller or larger creatures.
+BeforeCombat: >-
+  If the monster is able to remain undetected, it stalks the PCs for several
+  minutes after they enter the hex until it can learn their names. Ideally, it
+  waits until the PCs split up, but otherwise it attempts to lure the PCs into
+  an ambush by calling from a nearby crag in a frightened woman's voice, calling
+  on as many of the PCs by name as it can to come aid it.
+DuringCombat: >-
+  Once it has sprung its trap, the leucrotta charges the nearest opponent with
+  its bite attack, kicking any other combatant who tries to intervene.
+Morale: >-
+  While cruel and evil, the leucrotta is not stupid. If it is reduced to 25 hit
+  points or fewer, it jumps up higher into the rocks (requiring a DC 20 Climb
+  check to follow) and flees to its lair to recover. It later follows the PCs to
+  try again to lure them to their deaths, one at a time.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '671'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

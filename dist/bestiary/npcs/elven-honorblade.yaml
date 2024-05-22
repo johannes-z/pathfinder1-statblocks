@@ -1,0 +1,105 @@
+Name: Elven Honorblade
+CR: '10'
+XP: '9600'
+Race: elf
+Class: paladin 11
+Alignment: LG
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +11
+Aura: courage (10 ft.), justice (10 ft.), resolve (10 ft.)
+AC: 22, touch 15, flat-footed 18
+AC_Mods: (+6 armor, +1 deflection, +3 Dex, +1 dodge, +1 natural)
+HP: '76'
+HD: (11d10+11)
+Saves: Fort +10, Ref +9, Will +9; +2 vs. enchantments
+Fort: '10'
+Ref: '9'
+Will: '9'
+Save_Mods: +2 vs. enchantments
+Immune: charm, disease, fear, poison, sleep
+Resist: fire 20
+Speed: 30 ft.
+Melee:
+  - +1 elven curve blade +15/+10/+5 (1d10+5/15-20)
+Ranged:
+  - mwk longbow +15/+10/+5 (1d8/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel positive energy (DC 17, 6d6), smite evil 4/day (+2 attack and AC, +11
+  damage)
+SpellLikeAbilities:
+  header: Paladin Spell-Like Abilities (CL 11th; concentration +13)
+  values:
+    - label: At Will
+      value: detect evil
+SpellsPrepared: >-
+  Paladin Spells Prepared (CL 8th; concentration +10)   3rd-prayer   2nd-delay
+  poison, resist energy   1st-bless, divine favor, lesser restoration
+AbilityScores:
+  - 17
+  - 16
+  - 10
+  - 13
+  - 8
+  - 14
+BaseAtk: '11'
+CMB: '14'
+CMD: '29'
+Feats:
+  - Combat Expertise
+  - Dodge
+  - Improved Critical (elven curve blade)
+  - Mobility
+  - Spring Attack
+  - Whirlwind Attack
+Skills:
+  - Diplomacy +10
+  - Heal +3
+  - Knowledge (nature) +3
+  - Perception +11
+  - Stealth +12
+  - Survival +4
+Languages:
+  - Common
+  - Elven
+  - Sylvan
+SQ: >-
+  aura, code of conduct, divine bond (weapon +3, 2/day), elven magic, lay on
+  hands (5d6, 7/day), mercies (poisoned, sickened, staggered), weapon
+  familiarity
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The paladin casts delay poison and resist energy (fire).
+DuringCombat: >-
+  The paladin uses Mobility, Spring Attack, and Whirlwind Attack to engage and
+  destroy multiple opponents at once. He normally uses his divine bond to give
+  his weapon the flaming and holy special abilities, but if his foes are spread
+  out, he gives it speed instead.
+Gear: >-
+  +2 chain shirt, +1 elven curve blade, masterwork longbow with 20 arrows,
+  amulet of natural armor +1, belt of giant strength +2, cloak of resistance +1,
+  ring of protection +1, silver holy symbol, 319 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without resist energy, the paladin's statistics are Immune charm, disease,
+  fear, sleep; Resist none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3754'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

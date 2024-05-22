@@ -1,0 +1,149 @@
+Name: Fulsome Queen
+CR: '15'
+XP: '51200'
+Race: omox
+Class: oracle 6
+MonsterSource: Pathfinder RPG Bestiary 2 79, Pathfinder RPG Advanced Player's Guide 42
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (aquatic, chaotic, demon, evil)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +36
+AC: 34, touch 20, flat-footed 24
+AC_Mods: (+4 armor, +6 Dex, +1 dodge, +10 natural)
+HP: '237'
+HD: (19 HD; 13d10+6d8+139)
+Saves: Fort +17, Ref +14, Will +19
+Fort: '17'
+Ref: '14'
+Will: '19'
+DR: 10/good
+Immune: >-
+  acid, critical hits, disease, electricity, paralysis, poison, polymorph,
+  sleep, stunning
+Resist: cold 10, electricity 10
+SR: '23'
+Speed: 40 ft., climb 20 ft., swim 80 ft.
+Melee:
+  - 2 slams +29 (1d6+11/19-20 plus 3d6 acid and grab)
+Ranged:
+  - slime +23 (1d6 plus 3d6 acid and entangle)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: balefire, smothering
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: At Will
+      value: >-
+        create water, greater teleport (self plus 50 lbs. of objects only),
+        liquid leap, telekinesis (DC 21)
+    - label: 3/day
+      value: control water, gaseous form, poison (DC 20), stinking cloud (DC 19)
+    - label: 1/day
+      value: acid fog, summon (level 4, 1 omox 30% or 1d4 babaus 35%)
+SpellsKnown:
+  header: Oracle Spells Known (CL 6th; concentration +12)
+  values:
+    - label: 3rd (4/day)
+      value: >-
+        blindness/deafness (DC 19), inflict serious wounds (DC 19), vermin shape
+        I
+    - label: 2nd (7/day)
+      value: >-
+        bull's strength, inflict moderate wounds (DC 18), resist energy, sound
+        burst (DC 18)
+    - label: 1st (8/day)
+      value: >-
+        cure light wounds, divine favor, endure elements, inflict light wounds
+        (DC 17), sanctuary (DC 17), shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 16), detect magic, guidance, mending, read magic, resistance,
+        stabilize
+AbilityScores:
+  - 32
+  - 23
+  - 24
+  - 17
+  - 23
+  - 23
+BaseAtk: '17'
+CMB: +28 (+32 grapple)
+CMD: 45 (49 vs. grapple)
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (slams)
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+  - Mobility
+  - Spring Attack
+  - Weapon Focus (slams)
+Skills:
+  - Acrobatics +28 (+32 when jumping)
+  - Climb +41
+  - Escape Artist +44
+  - Fly +24
+  - Knowledge (arcana) +25
+  - Knowledge (dungeoneering) +17
+  - Perception +36
+  - Stealth +28 (+38 when submerged)
+  - Swim +41
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+SQ: >-
+  amorphous, amphibious, compression, oracle's curse (clouded vision),
+  revelations (balefire, demonhide)
+Source: AP 76
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Balefire (Su)
+    description: >-
+      The Fulsome Queen's balefire oracle revelation allows her to burn her foes
+      with eldritch fires drawn from the Abyss itself once per day. As a
+      standard action, she causes one target within 30 feet to become wreathed
+      in flames, taking 6d6 points of fire damage (Reflex DC 19 half).
+  - name: Demonhide (Su)
+    description: >-
+      The Fulsome Queen's demonhide oracle revelation grants her a +4 armor
+      bonus.
+Gender: Female
+BeforeCombat: >-
+  The Fulsome Queen casts shield of faith and bull's strength before combat if
+  she has the chance.
+DuringCombat: >-
+  The Fulsome Queen attempts to summon demonic aid on the first round of combat,
+  then uses her various cloud spells to try to exert control over the
+  battlefield. She prefers to use her magic at range, and if she is forced into
+  melee, she casts sanctuary. Once in melee, she uses her slam attacks instead
+  of her spells.
+Morale: >-
+  The Fulsome Queen teleports to the far side of Colyphyr to recover from her
+  wounds if reduced to 30 hit points or fewer. About 16 hours later, she returns
+  to stealthily explore the mines, hoping to find them now emptied of enemies,
+  but she avoids engaging any who nearly slew her if she can.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+Mystery: outer riftsISM
+CompanionFamiliarLink: '0'
+id: '5416'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

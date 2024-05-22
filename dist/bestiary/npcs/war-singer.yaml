@@ -1,0 +1,87 @@
+Name: War Singer
+CR: '3'
+XP: '800'
+Race: Human
+Class: skald 4
+MonsterSource: Pathfinder RPG Advanced Class Guide 49
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +6
+AC: 15, touch 10, flat-footed 14
+AC_Mods: (+3 armor, +1 Dex, +2 shield, -1 rage)
+HP: '33'
+HD: (4d8+12)
+Saves: Fort +6, Ref +2, Will +5; +4 well-versed
+Fort: '6'
+Ref: '2'
+Will: '5'
+Save_Mods: +4 well-versed
+DefensiveAbilities: uncanny dodge
+Speed: 30 ft.
+Melee:
+  - +1 battleaxe +9 (1d8+6/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  rage powers (inspire ferocityAPG, reckless abandonAPG), raging song 11/day
+  (inspired rage, song of marching)
+SpellsKnown:
+  header: Skald Spells Known (CL 4th; concentration +6)
+  values:
+    - label: 2nd (2/day)
+      value: glitterdust (DC 14), hold person (DC 14)
+    - label: 1st (4/day)
+      value: comprehend languages, cure light wounds, expeditious retreat, vanishAPG
+    - label: 0 (at will)
+      value: >-
+        detect magic, ghost sound (DC 12), light, mage hand, read magic, summon
+        instrument
+AbilityScores:
+  - 20
+  - 13
+  - 14
+  - 10
+  - 8
+  - 14
+BaseAtk: '3'
+CMB: '8'
+CMD: '18'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Extra Rage Power
+  - Scribe Scroll
+Skills:
+  - Climb +7
+  - Intimidate +8
+  - Perception +6
+  - Perform (percussion
+  - wind) +7
+  - Perform (sing) +9
+  - Swim +10
+Languages:
+  - Common
+SQ: bardic knowledge +2, versatile performance (sing)
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: He uses inspired rage, granting reckless abandon.
+Gear: mwk studded leather, heavy wooden shield, +1 battleaxe, drum, horn, 8 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '9002'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

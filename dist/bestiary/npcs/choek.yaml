@@ -1,0 +1,83 @@
+Name: Choek
+CR: '15'
+XP: '51200'
+Race: id ooze
+MonsterSource: Pathfinder RPG Bestiary 166
+Alignment: 'N'
+Size: Huge
+Type: ooze
+Init: '1'
+Senses:
+  - blindsight 60 ft.
+  - Perception -3
+AC: 5, touch 5, flat-footed 5
+AC_Mods: (-3 Dex, -2 size)
+HP: '312'
+HD: (16d8+240)
+Saves: Fort +19, Ref +2, Will +2
+Fort: '19'
+Ref: '2'
+Will: '2'
+Immune: cold, fire, mind-affecting effects, ooze traits
+Speed: 20 ft.
+Melee:
+  - 3 slams +24 (2d6+13/19-20 plus 2d6 acid and grab)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: acid, constrict (2d6+13 plus 2d6 acid)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +13)
+  values:
+    - label: At Will
+      value: confusion (DC 11)
+    - label: 3/day
+      value: quickened confusion (DC 11)
+AbilityScores:
+  - 36
+  - 5
+  - 38
+  - 5
+  - 5
+  - 5
+BaseAtk: '12'
+CMB: '27'
+CMD: '34'
+Feats:
+  - Improved Critical (slam)
+  - Improved Initiative
+  - Power Attack
+  - Quicken Spell-Like Ability (confusion)
+  - Skill Focus (Stealth)
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (slam)
+Skills:
+  - Stealth +11
+Languages:
+  - Androffan
+SQ: transparent
+Source: AP 90
+IsTemplate: '0'
+DuringCombat: >-
+  Choek's spell-like abilities are not particularly potent, but the id ooze
+  still uses quickened confusion each round for the first 3 rounds of combat,
+  resorting to its normal confusion attacks only when desperate and facing foes
+  it can't engage in melee.
+Morale: >-
+  Choek fights to the death, but if its opponents call for a truce at any time,
+  the id ooze relents&#8211;it doesn't hold grudges.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6716'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

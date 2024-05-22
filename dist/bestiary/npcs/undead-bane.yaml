@@ -1,0 +1,133 @@
+Name: Undead Bane
+CR: '16'
+XP: '76800'
+Race: human
+Class: ranger 9/ sorcerer 1/arcane archer 7
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '9'
+Senses:
+  - Perception +22
+AC: 26, touch 17, flat-footed 21
+AC_Mods: (+6 armor, +1 deflection, +4 Dex, +1 dodge, +1 insight, +3 natural)
+HP: '138'
+HD: (9d10+1d6+7d10+43)
+Saves: Fort +16, Ref +17, Will +11
+Fort: '16'
+Ref: '17'
+Will: '11'
+DefensiveAbilities: evasion
+Speed: 30 ft.
+Melee:
+  - +1 short sword +17/+12/+7/+2 (1d6+1/19-20)
+Ranged:
+  - >-
+    +2 flaming shock shortbow +24/+19/+14/+9 (1d6+2/x3 plus 1d6 electricity and
+    1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  enhance arrows (distance, elemental, elemental burst, magic), favored enemy
+  (humans +2, undead +4), imbue arrow, phase arrow (1/day), seeker arrow (2/day)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 6th; concentration +8)
+  values:
+    - label: 5/day
+      value: touch of destiny
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +8; arcane spell failure 20%)
+  values:
+    - label: 3rd (3/day)
+      value: slow (DC 15)
+    - label: 2nd (6/day)
+      value: false life, mirror image
+    - label: 1st (7/day)
+      value: burning hands (DC 13), detect undead, silent image (DC 13), true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, disrupt undead, light, mage hand, message, open/ close,
+        resistance
+SpellsPrepared: >-
+  Ranger Spells Prepared (CL 6th; concentration +8)   2nd-barkskin, snare  
+  1st-alarm, entangle, resist energy
+AbilityScores:
+  - 10
+  - 20
+  - 14
+  - 8
+  - 14
+  - 14
+BaseAtk: '16'
+CMB: '16'
+CMD: '34'
+Feats:
+  - Deadly Aim
+  - Dodge
+  - Endurance
+  - Eschew Materials
+  - Great Fortitude
+  - Greater Vital Strike
+  - Improved Initiative
+  - Improved Vital Strike
+  - Manyshot
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Shot
+  - Vital Strike
+  - Weapon Focus (shortbow)
+Skills:
+  - Climb +12
+  - Heal +15
+  - Intimidate +12
+  - Knowledge (religion) +9
+  - Perception +22
+  - Stealth +17
+  - Survival +15
+  - Swim +12
+Languages:
+  - Common
+SQ: >-
+  bloodline arcana (gains a luck bonus on saves when casting personal-range
+  spells), evasion, favored terrain (forest +2, underground +4), hunter's bond
+  (companions), swift tracker, track +4, wild empathy +11, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: destined
+BeforeCombat: >-
+  The arcane archer casts barkskin and uses her wand of shield. She prepares
+  frost burst arrows using her enhance arrows ability.
+DuringCombat: >-
+  Preferring to stay out of the reach and sight of powerful enemies, the arcane
+  archer casts fly and greater invisibility on herself, takes flight, and pelts
+  her enemies with arrows from relative safety.
+Gear: >-
+  +1 ghost touch arrows (10), +1 undead-bane arrows (10), potion of cure
+  moderate wounds, potion of cure serious wounds, potion of lesser restoration,
+  potion of remove disease, scrolls of greater invisibility (2), scrolls of
+  invisibility (2), wand of fly (10 charges), wand of shield (20 charges), holy
+  water (10)
+OtherGear: >-
+  +2 chain shirt, +2 flaming shock shortbow with 20 arrows, +1 short sword,
+  amulet of natural armor +1, belt of physical might +2 (Dex, Con), cloak of
+  resistance +2, dusky rose prism ioun stone, efficient quiver, ring of feather
+  fall, ring of protection +1, 238 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without barkskin, the arcane archer's statistics are AC 24, touch 17,
+  flat-footed 19
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3844'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,123 @@
+Name: Serpentfolk Temple Guard
+CR: '12'
+XP: '19200'
+Race: Degenerate serpentfolk
+Class: cleric of Ydersius 8/fighter 2
+MonsterSource: Pathfinder RPG Bestiary 2 242
+Alignment: NE
+Size: Medium
+Type: monstrous humanoid
+Init: '4'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +21
+AC: 27, touch 10, flat-footed 27
+AC_Mods: (+10 armor, +7 natural)
+HP: '157'
+HD: (15 HD; 7d10+8d8+83)
+Saves: Fort +16, Ref +6, Will +14; +1 vs. fear
+Fort: '16'
+Ref: '6'
+Will: '14'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1
+Immune: mind-affecting effects, paralysis, poison
+SR: '25'
+Speed: 20 ft.
+Melee:
+  - +1 heavy flail +21/+16/+11 (1d10+10/17-20), bite +16  (1d6+5 plus poison)
+Ranged:
+  - +1 composite longbow +14/+9/+4 (1d8+7/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 5/day (DC 16, 4d6), scythe of evil (4 rounds, 1/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 7/day
+      value: >-
+        touch of evil (4 rounds), venomous stare (1d6+4 nonlethal damage plus
+        fascinated for 1 round, DC 18 Will save negates)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 8th; concentration +12)  4th-divine power, freedom
+  of movement, poisonD (DC 18), unholy blight (DC 18)  3rd-blindness/deafness
+  (DC 17), dispel magic, greater magic fangD (2), protection from energy 
+  2nd-align weaponD, hold person (DC 16), silence (DC 16), sound burst (2, DC
+  16)  1st-bane (DC 15), command (DC 15), divine favor (2), entropic shield,
+  protection from goodD  0 (at will)-bleed (DC 14), detect magic, guidance,
+  resistance
+SpellDomains: Evil, Scalykind
+AbilityScores:
+  - 22
+  - 10
+  - 18
+  - 8
+  - 18
+  - 10
+BaseAtk: '13'
+CMB: '19'
+CMD: '29'
+Feats:
+  - Cleave
+  - Combat Casting
+  - Extra Channel
+  - Great Fortitude
+  - Improved Channel
+  - Improved Critical (heavy flail)
+  - Improved Initiative
+  - Power Attack
+  - Toughness
+  - Weapon Focus (heavy flail)
+Skills:
+  - Knowledge (engineering) +4
+  - Knowledge (religion) +5
+  - Perception +21
+  - Spellcraft +12
+RacialMods: +4 Perception
+Languages:
+  - Aklo
+  - telepathy 100 ft.
+SQ: serpent companion (viper snake)
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 21; frequency 1/round for 6 rounds; effect 1d2
+      Str; cure 2 consecutive saves.
+BeforeCombat: >-
+  The temple guards cast greater magic fang on themselves and their serpent
+  companions every day. If alerted to enemies, they cast freedom of movement and
+  entropic shield before combat.
+DuringCombat: >-
+  The temple guards use their wands of venomous bolt to fire poisoned arrows
+  from range, as well as spells such as blindness/deafness, hold person, and
+  unholy blight. They target spellcasters with silence and cast sound burst on
+  warriors to leave them vulnerable to the thessalhydra's attacks. In melee,
+  they cast divine power before attacking with their flails and poisonous bites.
+  They cast poison on foes within reach and send their viper serpent companions
+  to flank opponents and attempt to poison them with their bites.
+Morale: The temple guards fight to the death.
+Gear: potion of cure serious wounds, wand of venomous bolt* (8 charges)
+OtherGear: >-
+  +2 half-plate, +1 heavy flail, +1 composite longbow (+6 Str) with 20 arrows,
+  spell component pouch, unholy symbol of Ydersius
+Note: '* See Pathfinder RPG Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without greater magic fang, the serpentfolk temple guards have Melee bite +14
+  (1d6+3 plus poison).
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1456'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

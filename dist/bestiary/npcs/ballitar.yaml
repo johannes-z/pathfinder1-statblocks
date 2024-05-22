@@ -1,0 +1,116 @@
+Name: Ballitar
+CR: '9'
+XP: '6400'
+Race: wayang
+Class: illusionist 10
+MonsterSource: Pathfinder RPG Bestiary 4 274
+Alignment: CN
+Size: Small
+Type: humanoid
+SubType: (wayang)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 19, touch 16, flat-footed 15
+AC_Mods: (+3 armor, +1 deflection, +3 Dex, +1 dodge, +1 size)
+HP: '37'
+HD: (10d6)
+Saves: Fort +4, Ref +6, Will +7; +2 vs. shadow spells
+Fort: '4'
+Ref: '6'
+Will: '7'
+Save_Mods: +2 vs. shadow spells
+Speed: 20 ft.
+Melee:
+  - dagger +8 (1d3+2/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Illusionist School Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: At Will
+      value: invisibility field (10 rounds/day)
+    - label: 7/day
+      value: blinding ray
+SpellsPrepared: >-
+  Illusionist Spells Prepared (CL 10th; concentration +14)   5th-prying eyes,
+  shadow evocation (DC 20), telekinesis (DC 19)   4th-confusion (DC 18),
+  extended displacement, phantasmal killer (DC 18), shadow conjuration (2)  
+  3rd-dispel magic, haste, major image (DC 17), slow (DC 17), vampiric touch
+  (2)   2nd-blur, detect thoughts (DC 16), extended endure elements (2), minor
+  image (DC 16), mirror image   1st-color spray (3, DC 15), feather fall,
+  shield, silent image (DC 15)   0 (at will)-detect magic, ghost sound (DC 14),
+  mage hand, prestidigitation
+AbilityScores:
+  - 14
+  - 16
+  - 8
+  - 18
+  - 10
+  - 10
+BaseAtk: '5'
+CMB: '6'
+CMD: '21'
+Feats:
+  - Combat Casting
+  - Craft Wondrous Item
+  - Dodge
+  - Extend Spell
+  - Great Fortitude
+  - Improved Great Fortitude
+  - Scribe Scroll
+  - Skill Focus (Stealth)
+Skills:
+  - Knowledge (arcana) +17
+  - Knowledge (local) +17
+  - Knowledge (planes) +17
+  - Perception +12
+  - Spellcraft +17
+  - Stealth +25
+Languages:
+  - Common
+  - Draconic
+  - Goblin
+  - Shadowtongue
+  - Shae
+  - Wayang
+SQ: >-
+  arcane bond (amulet of spell cunning), extended illusions (5 rounds), light
+  and dark, shadow magic
+Source: AP 137
+IsTemplate: '0'
+Gender: Male
+ProhibitedSchools: conjuration, evocation
+BeforeCombat: >-
+  Ballitar keeps an extended endure elements spell going at all times and casts
+  prying eyes every day to scout the area. This tactic does little to calm his
+  nerves, since the dangerous creatures he's seen in the area frighten him.
+DuringCombat: >-
+  In combat, Ballitar's only goal is to escape and survive. He casts extended
+  displacement on the first round of combat, then mirror image after that,
+  moving at all times to escape a battle. He uses haste to speed his flight or
+  slow to hamper pursuit as needed, and he casts shield as soon as it's apparent
+  he won't be able to avoid battle.
+Morale: >-
+  Ballitar begs for his life if reduced to fewer than 20 hit points and no
+  avenue of escape seems likely.
+Gear: wand of magic missile (CL 5th, 15 charges)
+OtherGear: >-
+  dagger, amulet of spell cunningAPG, bracers of armor +3, ring of protection
+  +1, spell component pouch, spellbook, 34 gp, 18 sp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11959'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

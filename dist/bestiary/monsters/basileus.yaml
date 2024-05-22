@@ -1,0 +1,147 @@
+Name: Basileus
+CR: '15'
+XP: '51200'
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, herald, lawful)
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision, see in darkness
+  - Perception +23
+AC: 28, touch 16, flat-footed 22
+AC_Mods: (+6 Dex, +12 natural)
+HP: '200'
+HD: (16d10+112)
+Saves: Fort +12, Ref +18, Will +16
+Fort: '12'
+Ref: '18'
+Will: '16'
+DR: 10/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '26'
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee:
+  - touch +19 (1d8+8)
+  - 5 slams +24 (1d8+8 plus grab)
+Space: 5 ft.
+Reach: 5 ft. (15 ft. with slam)
+SpecialAttacks: terror, terror shape
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +23)
+  values:
+    - label: At will
+      value: >-
+        cloudkill (DC 22), false vision, greater teleport (self plus 50 lbs. of
+        objects only), mirage arcana (DC 22), persistent image (DC 22),
+        scorching ray
+    - label: 3/day
+      value: >-
+        crushing despair (DC 21), dimensional anchor (DC 21), ethereal jaunt,
+        greater dispel magic, greater invisibility, legend lore, nightmare (DC
+        22), phantasmal killer (DC 21), true seeing
+    - label: 1/day
+      value: >-
+        geas/quest, grant 1 wish (to mortals only), summon (level 5, 2 bone
+        devils 75%)
+AbilityScores:
+  - 26
+  - 22
+  - 25
+  - 26
+  - 19
+  - 25
+BaseAtk: '16'
+CMB: +24 (+28 grapple)
+CMD: '40'
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Deceitful
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Lightning Reflexes
+  - Persuasive
+Skills:
+  - Acrobatics +22
+  - Bluff +30
+  - Diplomacy +38
+  - Disguise +30
+  - Fly +14
+  - Intimidate +38
+  - Knowledge (arcana) +24
+  - Knowledge (history
+  - nobility) +16
+  - Knowledge (planes) +27
+  - Perception +23
+  - Perform (oratory) +23
+  - Sense Motive +23
+  - Sleight of Hand +22
+  - Spellcraft +27
+  - Stealth +25
+RacialMods: +8 Diplomacy, +8 Intimidate
+Languages:
+  - Abyssal
+  - Aklo
+  - Aquan
+  - Celestial
+  - Common
+  - Draconic
+  - Elven
+  - Giant
+  - Infernal
+  - Undercommon
+  - tongues
+  - telepathy 100 ft.
+SQ: veil of forms
+Environment: any (Hell)
+Organization: solitary
+Treasure: double
+Description_Visual: >-
+  This comely man is clad in fine silken robes. His eyes smolder with infernal
+  flames.
+Source: Inner Sea Gods
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Gaze (Su)
+    description: >-
+      Death (if 6 HD or less) or 6d6 damage and panicked for 2d4 rounds (7 HD or
+      more), range 30 feet, Will DC 25 negates the death or panicked effect.
+      This gaze is a mind-affecting fear effect that causes its targets to
+      perceive Basileus as the most terrifying thing that it can imagine. The
+      save DC is Charisma-based.
+  - name: Terror Shape (Su)
+    description: >-
+      While using his gaze ability, Basileus manifests one to five monstrous
+      limbs that can make slam attacks.
+  - name: Veil of Forms (Su)
+    description: >-
+      All creatures see Basileus as a powerful and attractive member of their
+      own race. While using this ability, Basileus's gaze ability is suppressed.
+      He can activate or suppress this ability as a free action.
+Description:
+  - >-
+    An infernal paradox at once wondrous and terrifying, tempting and
+    blasphemous, Basileus serves as the herald of Asmodeus and the harbinger of
+    Hell's will. Few who have met him survive the experience unchanged, for he
+    is the very word of Hell.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5980'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,76 @@
+Name: Gate Guardian
+CR: '9'
+XP: '6400'
+Race: stone golem
+MonsterSource: Pathfinder RPG Bestiary 163
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 23, touch 8, flat-footed 23
+AC_Mods: (-1 Dex, +15 natural, -1 size)
+HP: '85'
+HD: (10d10+30)
+Saves: Fort +3, Ref +2, Will +3
+Fort: '3'
+Ref: '2'
+Will: '3'
+DR: 10/adamantine
+Immune: construct traits, magic
+Speed: 20 ft.
+Melee:
+  - 2 slams +17 (2d6+8)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: slow
+AbilityScores:
+  - 26
+  - 9
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '10'
+CMB: '19'
+CMD: '28'
+Source: PFS S5-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A stone golem is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against the creature, as noted below. &#8226; A transmute rock
+      to mud spell slows a stone golem (as the slow spell) for 2d6 rounds, with
+      no saving throw, while transmute mud to rock heals all of its lost hit
+      points. &#8226; A stone to flesh spell does not actually change the
+      golem's structure but negates its damage reduction and immunity to magic
+      for 1 full round.
+  - name: Slow (Su)
+    description: >-
+      A stone golem can use a slow effect, as the spell, as a free action once
+      every 3 rounds. The effect has a range of 10 feet in a burst centered on
+      the golem and a duration of 5 rounds, requiring a DC 15 Will save to
+      negate. The save DC is Constitution-based.
+DuringCombat: >-
+  The guardian is mindless and attacks the closest foe or the one that did the
+  most damage to it on the previous round.
+Morale: The guardian fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8142'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

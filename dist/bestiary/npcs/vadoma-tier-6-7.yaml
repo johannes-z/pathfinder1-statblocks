@@ -1,0 +1,110 @@
+Name: Vadoma Tier 6-7
+CR: '6'
+XP: '2400'
+Race: human
+Class: sorcerer 7
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception +0
+AC: 21, touch 13, flat-footed 19
+AC_Mods: (+4 armor, +1 deflection, +1 Dex, +1 dodge, +4 shield)
+HP: '59'
+HD: (7d6+35)
+Saves: Fort +5, Ref +4, Will +6
+Fort: '5'
+Ref: '4'
+Will: '6'
+Immune: magic missile
+Speed: 60 ft.
+Melee:
+  - quarterstaff +2 (1d6-1),
+Ranged:
+  - light crossbow +4 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: grave touch (3 rounds, 7/day)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (5/day)
+      value: ray of exhaustion (DC 19), slow (DC 17), vampiric touch
+    - label: 2nd (7/day)
+      value: false life, ghoul touch (DC 18), spectral hand
+    - label: 1st (6/day)
+      value: >-
+        cause fear (DC 17), chill touch (DC 17), grease (DC 15), ray of
+        enfeeblement (DC 17), shield (already cast)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 16), daze (DC 14), detect magic, disrupt undead (DC 16),
+        light, mage hand, touch of fatigue (DC 16)
+AbilityScores:
+  - 8
+  - 13
+  - 14
+  - 12
+  - 10
+  - 18
+BaseAtk: '3'
+CMB: '2'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Greater Spell Focus (necromancy)
+  - Improved Initiative
+  - Spell Focus (necromancy)
+  - Toughness
+Skills:
+  - Bluff +14
+  - Intimidate +14
+  - Knowledge (arcana) +11
+  - Knowledge (religion) +11
+Languages:
+  - Common
+  - Elven
+SQ: bloodline arcana
+Source: PFS S1-51
+IsTemplate: '0'
+Gender: Female
+Bloodline: Undead
+BeforeCombat: >-
+  Vadoma saw the PCs coming and set up an ambush. She cast mage armor, false
+  life (+7 hit points), and expeditious retreat from scrolls (expeditious
+  retreat ends 9 rounds after combat begins).
+DuringCombat: >-
+  Vadoma stays in the back, trying to hit the goblins' target with ray of
+  exhaustion and slow. If a PC gets into melee combat with her, she uses
+  vampiric touch to recover hit points and then cause fear to force the PC away
+  from her.
+Morale: >-
+  Vadoma fights until reduced to fewer than 10 hit points, then uses her scroll
+  of gaseous form to escape.
+Gear: >-
+  necklace of fireballs (type I), potions of cure light wounds (2), scrolls of
+  color spray (2), scrolls of expeditious retreat (2), scroll of gaseous form,
+  scroll of mage armor, scrolls of sleep (2)
+OtherGear: >-
+  light crossbow with 10 bolts, cloak of resistance +1, ring of protection +1,
+  quarterstaff
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: AC 13, flat-footed 11; hp 52; lose immunity to magic missile; Speed 30 ft.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4522'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

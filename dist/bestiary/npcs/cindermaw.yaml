@@ -1,0 +1,116 @@
+Name: Cindermaw
+CR: '14'
+XP: '38400'
+Race: purple worm
+MonsterSource: Advanced Bestiary 139, Pathfinder RPG Bestiary 230
+Alignment: 'N'
+Size: Gargantuan
+Type: magical beast
+SubType: (fire)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision, tremorsense 60 ft.
+  - Perception +18
+AC: 31, touch 7, flat-footed 30
+AC_Mods: (+1 Dex, +24 natural, -4 size)
+HP: '216'
+HD: (16d10+128)
+HP_Mods: fire healing 1
+Saves: Fort +18, Ref +11, Will +6
+Fort: '18'
+Ref: '11'
+Will: '6'
+DefensiveAbilities: elemental body
+Immune: fire
+Weaknesses: vulnerable to cold
+Speed: 30 ft., burrow 20 ft., firewalk 30 ft., swim 10 ft.
+Melee:
+  - >-
+    bite +26 (4d8+13/19-20 plus 1d6 fire and grab), sting +26 (2d8+13 plus 1d6
+    fire)
+Space: 20 ft.
+Reach: 15 ft.
+SpecialAttacks: fire breath, heat (1d6 fire), poison, swallow whole (4d8+18, AC 22, 21 hp)
+AbilityScores:
+  - 37
+  - 12
+  - 27
+  - 5
+  - 8
+  - 14
+BaseAtk: '16'
+CMB: +33 (+35 bull rush, +37 grapple)
+CMD: 44 (46 vs. bull rush, can't be tripped)
+Feats:
+  - Awesome Blow
+  - Critical Focus
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Iron Will
+  - Power Attack
+  - Staggering Critical
+  - Weapon Focus (bite)
+  - Weapon Focus (sting)
+Skills:
+  - Perception +18
+  - Swim +21
+Source: Curse Of The Crimson Throne Chapter 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Elemental Body (Ex)
+    description: >-
+      Each time Cindermaw is exposed to a bleed, precision damage, poison,
+      paralysis, seep, or stunning effect, it has a 25% chance to avoid that
+      effect.
+  - name: Fire Breath (Su)
+    description: >-
+      Cindermaw can breathe out a 30-foot cone of fire once every 1d4 rounds,
+      dealing 8d6 points of fire damage to all in the area of effect. A
+      successful DC 26 Reflex saving throw halves this damage. The save DC is
+      Constitution-based.
+  - name: Fire Healing (Ex)
+    description: >-
+      Cindermaw regains 1 hit point for each full round it remains in contact
+      with a fire at least one size category smaller than itself. When struck by
+      a magical fire effect, Cindermaw regains 1 hit point for every 10 points
+      of damage that the fire effect would otherwise deal.
+  - name: Firewalk (Su)
+    description: >-
+      Cindermaw can climb an object on fire as though it had a climb speed of 30
+      feet. It can also fly at this speed with perfect maneuverability as long
+      as it remains in contact with fire, and can walk on flames at its highest
+      speed as per air walk.
+  - name: Heat (Su)
+    description: Each of Cindermaw's attacks deals an extra 1d6 points of fire damage.
+DuringCombat: >-
+  When Cindermaw tires of toying with the PCs, it burrows up directly in their
+  midst. Unfortunately, Cindermaw has recently fed. On the first round of
+  combat, it breathes fire on the most densely packed group of PCs. It then
+  attacks with its bite and sting on the second round of combat. It does not try
+  to swallow foes whole immediately-instead, it bites and moves on. Once the PCs
+  deal more than 100 points of damage to the worm (or once it has breathed fire
+  twice), it abandons this tactic and begins attempting to swallow victims.
+  Alternatively, a character can tempt the worm into swallowing her by
+  attempting a Bluff check to appear particularly appetizing and worth the risk
+  of a stomach ache; she takes a -10 penalty on the check due to the bluff's
+  far-fetched believability. Cindermaw can oppose this check with a Sense Motive
+  check.
+Morale: >-
+  Cindermaw retreats if it takes more than 80 points of damage in all from cold
+  attacks, or as soon as it is reduced to fewer than 50 hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|fire infused|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8668'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

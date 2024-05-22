@@ -1,0 +1,156 @@
+Name: Arisen Sorcerer
+CR: '19'
+XP: '204800'
+Race: human
+Class: sorcerer 20
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +16
+AC: 30, touch 17, flat-footed 27
+AC_Mods: (+4 armor, +4 deflection, +2 Dex, +1 dodge, +9 natural)
+HP: '217'
+HD: (20d6+145)
+Saves: >-
+  Fort +16, Ref +11, Will +18; +4 morale bonus vs. undead spells and spell-like
+  abilities
+Fort: '16'
+Ref: '11'
+Will: '18'
+Save_Mods: +4 morale bonus vs. undead spells and spell-like abilities
+DR: 5/-
+Immune: cold, nonlethal damage, paralysis, sleep
+Speed: 30 ft.
+Melee:
+  - quarterstaff +9/+4 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 20th; concentration +28)
+  values:
+    - label: 11/day
+      value: grave touch (10 rounds)
+    - label: 3/day
+      value: grasp of the dead (20d6 slashing, DC 28)
+    - label: 1/day
+      value: incorporeal form (20 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 20th; concentration +28)
+  values:
+    - label: 9th (6/day)
+      value: >-
+        energy drain (DC 29), imprisonment (DC 27), power word kill, wail of the
+        banshee (DC 29)
+    - label: 8th (7/day)
+      value: >-
+        create greater undead, horrid wilting (DC 28), polar ray, protection
+        from spells
+    - label: 7th (7/day)
+      value: >-
+        finger of death (DC 27), mass hold person (DC 25), prismatic spray,
+        waves of exhaustion
+    - label: 6th (7/day)
+      value: >-
+        circle of death (DC 26), create undead, flesh to stone (DC 24), undeath
+        to death (DC 26)
+    - label: 5th (7/day)
+      value: >-
+        cloudkill (DC 23), cone of cold (DC 23), dominate person (DC 23),
+        teleport, waves of fatigue
+    - label: 4th (8/day)
+      value: >-
+        animate dead, contagion (DC 24), crushing despair (DC 22), solid fog,
+        wall of ice (DC 22)
+    - label: 3rd (8/day)
+      value: >-
+        dispel magic, fireball (DC 21), gaseous form, ray of exhaustion (DC 23),
+        vampiric touch
+    - label: 2nd (8/day)
+      value: >-
+        blindness/deafness (DC 22), false life, invisibility, mirror image,
+        scorching ray, spectral hand
+    - label: 1st (8/day)
+      value: >-
+        chill touch (DC 21), mage armor, magic missile, ray of enfeeblement (DC
+        21), shield, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 20), detect magic, disrupt undead, ghost sound
+        (DC 18), prestidigitation, ray of frost, read magic, touch of fatigue
+        (DC 20)
+AbilityScores:
+  - 8
+  - 14
+  - 20
+  - 10
+  - 12
+  - 27
+BaseAtk: '10'
+CMB: '9'
+CMD: '26'
+Feats:
+  - Blind-Fight
+  - Combat Casting
+  - Dodge
+  - Empower Spell
+  - Eschew Materials
+  - Great Fortitude
+  - Greater Spell Focus (necromancy)
+  - Improved Initiative
+  - Iron Will
+  - Mobility
+  - Quicken Spell
+  - Silent Spell
+  - Spell Focus (necromancy)
+  - Still Spell
+  - Toughness
+Skills:
+  - Fly +10
+  - Intimidate +21
+  - Knowledge (arcana) +13
+  - Knowledge (religion) +13
+  - Perception +16
+  - Spellcraft +13
+  - Use Magic Device +21
+Languages:
+  - Common
+SQ: >-
+  bloodline arcana (corporeal undead affected by humanoid-affecting spells), one
+  of us
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: undead
+BeforeCombat: The sorcerer casts false life and mage armor.
+DuringCombat: >-
+  The sorcerer casts energy drain, power word kill, and wail of the banshee. She
+  may deter opponents with solid fog, waves of exhaustion, or her grasp of the
+  dead ability.
+Gear: >-
+  scrolls of darkvision (2), scrolls of fly (2), scroll of see invisibility,
+  wand of cure moderate wounds (25 charges)
+OtherGear: >-
+  quarterstaff, amulet of natural armor +4, belt of mighty constitution +6,
+  cloak of resistance +3, headband of alluring charisma +6, ring of protection
+  +4, robe of bones, diamonds for protection from spells (worth 1,500 gp), onyx
+  gems (worth 2,000 gp), 4,650 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without false life and mage armor, the sorcerer's statistics are AC 26, touch
+  17, flat-footed 23; hp 202.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3821'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

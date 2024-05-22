@@ -1,0 +1,114 @@
+Name: Lorelu
+CR: '7'
+XP: '3200'
+Race: halfling
+Class: rogue 6
+MonsterSource: Pathfinder RPG Bestiary 144
+Alignment: NE
+Size: Small
+Type: undead
+SubType: (augmented humanoid, halfling, incorporeal)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+AC: 20, touch 20, flat-footed 15
+AC_Mods: (+4 deflection, +4 Dex, +1 dodge, +1 size)
+HP: '60'
+HD: (6d8+30)
+Saves: Fort +7, Ref +10, Will +6
+Fort: '7'
+Ref: '10'
+Will: '6'
+DefensiveAbilities: >-
+  channel resistance +4, evasion, incorporeal, rejuvenation, trap sense +2,
+  uncanny dodge
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +9 (7d6, Fort DC 17 half)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: consume life, sneak attack +3d6
+AbilityScores:
+  - —
+  - 18
+  - —
+  - 14
+  - 12
+  - 19
+BaseAtk: '4'
+CMB: '7'
+CMD: '22'
+Feats:
+  - Combat Expertise
+  - Dodge
+  - Improved Feint
+  - Iron Will
+  - Weapon Finesse
+Skills:
+  - Acrobatics +15
+  - Bluff +13
+  - Climb +6
+  - Diplomacy +13
+  - Disguise +13
+  - Escape Artist +13
+  - Fly +14
+  - Perception +20
+  - Profession (gambler) +10
+  - Sense Motive +10
+  - Sleight of Hand +13
+  - Stealth +25
+Languages:
+  - Common
+  - Halfling
+  - Infernal
+  - Varisian
+SQ: >-
+  rogue talents (combat trick, finesse rogue, honeyed wordsAPG 2/day),
+  trapfinding +3
+Source: AP 98
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Consume Life (Su)
+    description: >-
+      As a standard action once every 1d4 rounds, Lorelu can make a touch attack
+      to reach into a creature's head and absorb portions of that creature's
+      vitality, dealing 1d3 points of ability damage to a randomly determined
+      physical ability score (roll a d6: 1-2 = Strength, 3&#8211;4 = Dexterity,
+      5&#8211;6 = Constitution) and causing the creature to become staggered for
+      1 round. Lorelu gains 5 temporary hit points each time she uses this
+      ability; these temporary hit points last for a maximum of 1 hour but do
+      not stack. A successful DC 17 Fortitude save reduces the ability damage to
+      1 point and negates the staggered effect. The save DC is Charisma-based.
+  - name: Rejuvenation (Su)
+    description: >-
+      Lorelu's mortal remains must be exposed to the light of the rising sun in
+      order to bring peace to her restless spirit.
+Gender: Female
+DuringCombat: >-
+  Lorelu uses her ability to consume life as often as she can, taking advantage
+  of the rounds in between to set up combat positioning so that in following
+  rounds she can use Improved Feint to add her sneak attack damage to her
+  corrupting touch (note that even then, a creature can attempt a DC 17
+  Fortitude save to reduce this 10d6 points of damage by half).
+Morale: >-
+  Lorelu fights until destroyed, but cannot pursue foes out of area C11. If foes
+  attempt to attack her from outside the room, she simply retreats into a wall
+  or floor to await an opportunity to attack once again.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7152'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

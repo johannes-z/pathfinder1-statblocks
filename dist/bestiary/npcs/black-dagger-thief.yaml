@@ -1,0 +1,105 @@
+Name: Black Dagger Thief
+CR: '3'
+XP: '800'
+Race: Tiefling
+Class: rogue 4
+MonsterSource: Pathfinder RPG Bestiary 264
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+4 armor, +4 Dex)
+HP: '33'
+HD: (4d8+12)
+Saves: Fort +3, Ref +8, Will +0
+Fort: '3'
+Ref: '8'
+Will: '0'
+DefensiveAbilities: evasion, trap sense +1, uncanny dodge
+Resist: cold 5, electricity 5, fire 5
+Speed: 30 ft.
+Melee:
+  - mwk short sword +5 (1d6+1/19-20 plus black whinnis)
+  - dagger +4 (1d4+1/19-20)
+Ranged:
+  - dagger +7 (1d4+1/19-20 plus black whinnis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +2d6 plus 2 bleed
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +3)
+  values:
+    - label: 1/day
+      value: darkness
+AbilityScores:
+  - 12
+  - 18
+  - 14
+  - 15
+  - 8
+  - 8
+BaseAtk: '3'
+CMB: '4'
+CMD: '18'
+Feats:
+  - Combat Expertise
+  - Feint Partner
+  - Improved Feint
+Skills:
+  - Acrobatics +11
+  - Bluff +8
+  - Climb +10
+  - Disable Device +13
+  - Disguise +6
+  - Escape Artist +11
+  - Knowledge (local) +9
+  - Perception +6
+  - Sense Motive +4
+  - Sleight of Hand +9
+  - Stealth +23
+Languages:
+  - Common
+  - Dwarven
+  - Halfling
+  - Infernal
+SQ: rogue talents (bleeding attack +2, combat trick), trapfinding +2
+Source: AP 105
+IsTemplate: '0'
+BeforeCombat: >-
+  The Black Daggers have poisoned their short swords and one dagger each with
+  black whinnis, and they drink their elixirs of hiding in preparation for
+  battle.
+DuringCombat: >-
+  The Black Daggers stick to the shadows at first and throw poisoned daggers at
+  intruders. If these tactics don't drive off the trespassers, the thieves
+  launch a more lethal assault, using their Feint Partner teamwork feat to bluff
+  opponents and make sneak attacks.
+Morale: >-
+  If Donara and one of the Black Daggers are knocked unconscious or killed, the
+  remaining thief flees to area E.
+Gear: >-
+  elixir of hiding, potion of cure light wounds, black whinnis (2; see page 18),
+  smokesticks (2), tanglefoot bag
+OtherGear: >-
+  +1 studded leather, daggers (5), mwk short sword, antitoxin, climber's kit,
+  thieves' tools, 55 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8313'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

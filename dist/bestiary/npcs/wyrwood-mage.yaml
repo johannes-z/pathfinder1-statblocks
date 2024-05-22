@@ -1,0 +1,125 @@
+Name: Wyrwood Mage
+CR: '12'
+XP: '19200'
+Race: Wyrwood
+Class: wizard 13
+MonsterSource: Pathfinder RPG Bestiary 4 280
+Alignment: 'N'
+Size: Small
+Type: construct
+Init: '8'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +14
+AC: 26, touch 17, flat-footed 22
+AC_Mods: (+4 armor, +2 deflection, +4 Dex, +1 natural, +4 shield, +1 size)
+HP: '104'
+HD: (13d6+56)
+HP_Mods: fast healing 5
+Saves: Fort +9, Ref +11, Will +14
+Fort: '9'
+Ref: '11'
+Will: '14'
+DefensiveAbilities: arcane reinforcement
+Immune: construct traits
+Resist: fire 10
+Speed: 30 ft., fly 40 ft. (good)
+Melee:
+  - dagger +7/+2 (1d3/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hand of the apprentice (7/day)
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 13th; concentration +17)  7th-mass hold person (DC
+  21)  6th-chain lightning (DC 22), greater dispel magic  5th-hold monster (DC
+  19), overland flight, waves of fatigue, wall of force  4th-ball lightningAPG
+  (DC 20), black tentacles, dimension door (2), wall of fire  3rd-dispel magic,
+  fireball (2, DC 19), lightning bolt (DC 19), slow (DC 17)  2nd-acid arrow,
+  flaming sphere (DC 18), mirror image, scorching ray (2)  1st-burning hands (DC
+  17), feather fall, mage armor, magic missile (2), shield  0 (at will)-arcane
+  mark, daze (DC 14), prestidigitation, ray of frost
+AbilityScores:
+  - 10
+  - 18
+  - —
+  - 20
+  - 13
+  - 10
+BaseAtk: '6'
+CMB: '5'
+CMD: '21'
+Feats:
+  - Combat Casting
+  - Great Fortitude
+  - Greater Spell Focus (evocation)
+  - Improved Initiative
+  - Iron Will
+  - Maximize Spell
+  - Scribe Scroll
+  - Spell Focus (evocation)
+  - Toughness
+  - Widen Spell
+Skills:
+  - Acrobatics +17
+  - Fly +27
+  - Knowledge (arcana) +21
+  - Perception +14
+  - Spellcraft +21
+  - Stealth +21
+  - Use Magic Device +13
+Languages:
+  - Draconic
+  - Dwarven
+  - Elven
+  - Gnome
+  - Orc
+  - Razatlani
+SQ: >-
+  arcane bond (ring of protection +2), metamagic mastery (3/day), programmed
+  spells
+Source: AP 143
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Arcane Reinforcement (Ex)
+    description: >-
+      A wyrwood mage is made from magically grown material that grants it
+      several benefits. The wyrwood gains fast healing 5 and fire resistance 10.
+      It can see through all types of fog and smoke, and it is treated as two
+      size categories larger when determining bonus hit points based on its
+      size.
+  - name: Programmed Spells (Ex)
+    description: >-
+      A wyrwood mage is specifically programmed with a number of spells equal to
+      its Intelligence modifier. The wyrwood mage can prepare these programmed
+      spells without referring to a spellbook, and other creatures can attempt
+      to learn a programmed spell from a destroyed wyrwood mage as though its
+      body were a spellbook. These wyrwood mages are programmed with fireball,
+      greater dispel magic, mass hold person, overland flight, and wall of fire.
+BeforeCombat: A wyrwood mage casts mage armor, overland flight, and shield.
+DuringCombat: >-
+  A wyrwood mage keeps it distance using flight, harrying its foes with spells
+  or its wand. It uses its metamagic mastery ability to maximize or widen a
+  casting of fireball or lightning bolt when necessary to catch multiple
+  opponents.
+Morale: A wyrwood mage fights until destroyed.
+Gear: >-
+  scroll of expeditious retreat, scroll of grease, scroll of hypnotism, scrolls
+  of invisibility (2), scroll of obscuring mist, wand of fireball (16 charges)
+OtherGear: >-
+  dagger, amulet of natural armor +1, belt of incredible dexterity +2, cloak of
+  resistance +3, ring of protection +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12701'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

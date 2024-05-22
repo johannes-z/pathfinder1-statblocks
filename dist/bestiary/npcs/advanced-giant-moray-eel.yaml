@@ -1,0 +1,86 @@
+Name: Advanced Giant Moray Eel
+CR: '5'
+XP: '1600'
+Race: giant moray eel
+Alignment: 'N'
+Size: Large
+Type: animal
+SubType: (aquatic)
+Init: '8'
+Senses:
+  - low-light vision
+  - Perception +9
+AC: 23, touch 13, flat-footed 19
+AC_Mods: (+4 Dex, +10 natural, -1 size)
+HP: '66'
+HD: (7d8+35)
+Saves: Fort +10, Ref +11, Will +5
+Fort: '10'
+Ref: '11'
+Will: '5'
+Speed: Swim 30 ft.
+Melee:
+  - bite +13 (2d6+11 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: gnaw
+AbilityScores:
+  - 26
+  - 18
+  - 20
+  - 1
+  - 16
+  - 12
+BaseAtk: '5'
+CMB: '14'
+CMD: '26'
+Feats:
+  - Improved Initiative
+  - Lightning Reflexes
+  - Skill Focus (Stealth)
+  - Weapon Focus (bite)
+Skills:
+  - Escape Artist +12
+  - Perception +9
+  - Stealth +10
+  - Swim +16
+RacialMods: +8 Escape Artist
+Source: PFS S1-31
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Gnaw (Ex)
+    description: >-
+      If a giant moray begins a round with a grabbed foe, it inflicts automatic
+      bite damage (2d6+9 points of damage). A giant moray eel possesses a second
+      set of jaws in its throat that aid in swallowing-it can make a second bite
+      attack (+11 attack, 1d6+4) against a foe it has already grabbed.
+  - name: Grab (Ex)
+    description: >-
+      If the giant moray eel hits with its bite, it deals normal damage and
+      attempts to start a grapple as a free action without provoking an attack
+      of opportunity. Grab works only against opponents at least one size
+      category smaller than the creature. The creature has the option to conduct
+      the grapple normally, or simply use the part of its body it used in the
+      grab to hold the opponent. If it chooses to do the latter, it takes a -20
+      penalty on its CMB check to make and maintain the grapple, but does not
+      gain the grappled condition itself. Each successful grapple check it makes
+      during successive rounds automatically deals the damage indicated for the
+      attack that established the hold.
+DuringCombat: The eels attack whomever the skum tell them to.
+Morale: The eels flee if brought below 5 hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4128'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

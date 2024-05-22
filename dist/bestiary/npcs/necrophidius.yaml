@@ -1,0 +1,77 @@
+Name: Necrophidius
+CR: '3'
+XP: '800'
+Race: Necrophidius
+MonsterSource: Pathfinder RPG Bestiary 2 196
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 15, touch 13, flat-footed 12
+AC_Mods: (+3 Dex, +2 natural)
+HP: '36'
+HD: (3d10+20)
+Saves: Fort +1, Ref +4, Will +1
+Fort: '1'
+Ref: '4'
+Will: '1'
+DR: 5/bludgeoning
+Immune: construct traits
+Speed: 30 ft.
+Melee:
+  - bite +6 (1d8+4 plus paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: dance of death
+AbilityScores:
+  - 16
+  - 17
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '3'
+CMB: '6'
+CMD: 19 (can't be tripped)
+Skills:
+  - Stealth +15
+RacialMods: +12 Stealth
+Source: Godsmouth Heresy
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dance of Death (Ex)
+    description: >-
+      A necrophidius can entrance opponents by swaying back and forth. Creatures
+      within 30 feet who can see this must succeed on a DC 15 Will save or be
+      dazed for 2d4 rounds. This is a mind-affecting compulsion effect. The save
+      DC is Constitution-based and includes a +4 racial bonus.
+  - name: Paralysis (Su)
+    description: >-
+      A living creature bitten by a necrophidius must succeed on a DC 13
+      Fortitude save or be paralyzed for 1d6 minutes. The save DC is
+      Constitution-based and includes a +2 racial bonus.
+BeforeCombat: >-
+  The necrophidius uses Stealth to sneak up on intruders as it crawls out of the
+  pit.
+DuringCombat: >-
+  The necrophidius uses its dance of death ability to daze opponents before
+  attacking.
+Morale: The necrophidius fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1071'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

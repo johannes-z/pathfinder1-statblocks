@@ -1,0 +1,104 @@
+Name: Russian Rifle Troop
+CR: '11'
+XP: '12800'
+Race: Russian Rifle Troop
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (human, troop)
+Init: '3'
+Senses:
+  - Perception +23
+AC: 24, touch 14, flat-footed 20
+AC_Mods: (+3 Dex, +1 dodge, +10 natural)
+HP: '152'
+HD: (16d8+80)
+Saves: Fort +11, Ref +13, Will +8
+Fort: '11'
+Ref: '13'
+Will: '8'
+DefensiveAbilities: gas masks, troop traits
+Speed: 30 ft.
+Melee:
+  - troop +20 (4d6+8)
+Space: 20 ft.
+Reach: 5 ft.
+SpecialAttacks: fusillade (DC 23), grenade volley (DC 21)
+AbilityScores:
+  - 26
+  - 17
+  - 18
+  - 11
+  - 12
+  - 11
+BaseAtk: '12'
+CMB: '20'
+CMD: '34'
+Feats:
+  - Ability Focus (fusillade)
+  - Combat Reflexes
+  - Dodge
+  - Great Fortitude
+  - Iron Will
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+  - Toughness
+Skills:
+  - Climb +15
+  - Craft (firearms) +4
+  - Knowledge (engineering) +1
+  - Perception +23
+  - Profession (soldier) +6
+  - Stealth +10
+  - Survival +8
+Languages:
+  - Russian
+Source: AP 71
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fusillade (Ex)
+    description: >-
+      Rifle troops can fire a fusillade of rifle bullets as a standard action.
+      This attack takes the form of up to four lines with a range of 200 feet.
+      These lines can start from the corner of any square in the troop's space.
+      All creatures in one of these lines' areas of effect take 6d10+6 points of
+      bludgeoning and piercing damage (Reflex DC 23 for half). The save DC is
+      Dexterity-based, and includes the bonus from the troop's Ability Focus
+      feat.
+  - name: Gas Masks (Ex)
+    description: >-
+      The soldiers of a rifle troop are all equipped with gas masks. This makes
+      the troop immune to inhaled poisons and other nonmagical airborne attacks
+      that require breathing, and grants it a +2 bonus on saving throws against
+      magical cloud or gas attacks.
+  - name: Grenade Volley (Ex)
+    description: >-
+      Rifle troops are equipped with grenades. As a move action, a rifle troop
+      can target a single square up to 60 feet away with a volley of
+      fragmentation grenades. A volley deals 12d6 points of piercing and
+      slashing damage in a 30-foot-radius burst (Reflex DC 21 for half). The
+      save DC is Dexterity-based.
+DuringCombat: >-
+  These troops are veterans of the Great War, and even when faced with fantastic
+  foes (such as armored, sword-wielding, or spellcasting PCs), these hardened
+  soldiers maintain a steely resolve, concentrating their rifle fusillades on
+  flying opponents or supernatural threats, or readying actions to launch
+  grenade volleys at charging opponents. In the absence of armor, troops seek
+  any scrap of cover they can earn&#8211;particularly trenches, fortifications,
+  and walls.
+Morale: A troop disperses when reduced to 0 hit points or fewer.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4427'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

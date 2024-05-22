@@ -1,0 +1,140 @@
+Name: Mythic Very Old Green Dragon
+CR: '20'
+XP: '307200'
+Alignment: LE
+Size: Gargantuan
+Type: dragon
+SubType: (air, mythic)
+Init: '-1'
+Senses:
+  - blindsense 60 ft., darkvision 120 ft., low-light vision, greensight
+  - Perception +32
+Aura: frightful presence (270 ft., DC 26)
+AC: 41, touch 5, flat-footed 41
+AC_Mods: (-1 Dex, +36 natural, -4 size)
+HP: '342'
+HD: (21d12+206)
+HP_Mods: fast healing 5
+Saves: Fort +18, Ref +11, Will +18
+Fort: '18'
+Ref: '11'
+Will: '18'
+DefensiveAbilities: dragon blood (2d6 acid)
+DR: 15/epic and magic
+Immune: acid, dragon traits, paralysis, poison, sleep
+SR: '31'
+Speed: 40 ft., fly 250 ft. (clumsy), swim 40 ft.
+Melee:
+  - >-
+    bite +30 (4d6+19/18-20 plus grab), 2 claws +30 (2d8+13/18-20), tail slap +28
+    (2d8+19), 2 wings +28 (2d6+6)
+Space: 20 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, 18d6 acid damage, Reflex DC 26 half, usable every
+  1d4 rounds), crush, delirious breath, dragon fury (2d6 acid), mythic power
+  (8/day, surge +1d10), swallow whole (2d6 bludgeoning and 2d6 acid damage, AC
+  24, 34 hp), tail sweep (DC 26, 2d6+19)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 21st; concentration +27)
+  values:
+    - label: At Will
+      value: >-
+        arcane eye, charm person (DC 17), entangle (DC 17), plant growth,
+        suggestion (DC 19)
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 11th; concentration +17)  5th (5)-polymorph,
+    teleport  4th (7)-dimension door, ice storm, scrying (DC 20)  3rd (7)-dispel
+    magic, displacement, haste  2nd (8)-alter self, detect thoughts (DC 18),
+    locate object, mirror image, see invisibility  1st (8)-magic missile,
+    shield, silent image (DC 17), summon monster I, ventriloquism (DC 17)
+  values: []
+AbilityScores:
+  - 37
+  - 8
+  - 23
+  - 18
+  - 19
+  - 22
+BaseAtk: '21'
+CMB: +38 (+42 grapple)
+CMD: 47 (51 vs. trip)
+Feats:
+  - Alertness
+  - Blinding Critical
+  - Cleave
+  - Critical FocusM
+  - Flyby Attack
+  - Great Cleave
+  - Improved Critical (bite)M
+  - Improved Critical (claws)M
+  - Iron WillM
+  - Multiattack
+  - Power Attack
+Skills:
+  - Fly +9
+  - Knowledge (arcana
+  - local
+  - and naturel) +28
+  - Perception +32
+  - Sense Motive +6
+  - Spellcraft +28
+  - Stealth +11
+  - Survival +28
+  - Swim +45
+  - Use Magic Device +30
+Languages:
+  - Common
+  - Draconic
+  - Elven
+  - Giant
+  - Sylvan
+SQ: camouflage, dragon cantrips, trackless step, water breathing, woodland stride
+Environment: temperate forests
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  Strange shapes dart about within the acrid fog surrounding this green-scaled
+  dragon, and a large horn rises from its snout.
+Group: Dragon
+Source: Mythic Adventures
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Camouflage (Ex)
+    description: >-
+      The dragon can use Stealth to hide in any sort of natural terrain, even if
+      the terrain does not grant cover or concealment.
+  - name: Delirious Breath (Su)
+    description: >-
+      Creatures who fail their saves against the dragon's breath weapon are
+      either confused or nauseated for 1 round. The dragon chooses which effect
+      to apply when it uses its breath weapon, and it can use only one effect
+      per breath.
+  - name: Water Breathing (Ex)
+    description: >-
+      A green dragon can breathe underwater indefinitely and can freely use its
+      breath weapon, spells, and other abilities while submerged.
+Description:
+  - >-
+    A mythic green dragon embodies the confusion and fear of becoming lost in a
+    strange forest. It stalks its prey with surprising stealth and subterfuge,
+    preferring the taste of terrified, maddened creatures.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: very old
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4867'
+UniqueMonster: '0'
+MR: '8'
+Mythic: '1'
+MT: '0'

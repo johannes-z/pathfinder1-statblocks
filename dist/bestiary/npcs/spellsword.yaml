@@ -1,0 +1,132 @@
+Name: Spellsword
+CR: '15'
+XP: '51200'
+Race: elf
+Class: bard 16
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +15
+AC: 21, touch 13, flat-footed 18
+AC_Mods: (+8 armor, +3 Dex)
+HP: '91'
+HD: (16d8+16)
+Saves: >-
+  Fort +6, Ref +13, Will +10; +2 vs. enchantments, +4 vs. bardic performance,
+  language-dependent, and sonic
+Fort: '6'
+Ref: '13'
+Will: '10'
+Save_Mods: +2 vs. enchantments, +4 vs. bardic performance, language-dependent, and sonic
+Immune: sleep
+Speed: 30 ft.
+Melee:
+  - +2 elven curve blade +18/+13/+8 (1d10+6/15-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 39 rounds/day (swift action; countersong, dirge of doom,
+  distraction, fascinate, frightening tune, inspire competence +5, inspire
+  courage +3, inspire greatness, inspire heroics, soothing performance,
+  suggestion)
+SpellsKnown:
+  header: Bard Spells Known (CL 16th; concentration +21)
+  values:
+    - label: 6th (1/day)
+      value: greater shout (DC 21), project image (DC 21)
+    - label: 5th (4/day)
+      value: >-
+        greater dispel magic, mind fog (DC 20), mirage arcana (DC 20), shadow
+        evocation (DC 20)
+    - label: 4th (5/day)
+      value: >-
+        dimension door, dominate person (DC 19), freedom of movement, greater
+        invisibility, shadow conjuration (DC 19)
+    - label: 3rd (6/day)
+      value: >-
+        charm monster (DC 18), dispel magic, haste (DC 18), scrying (DC 18),
+        slow (DC 18)
+    - label: 2nd (6/day)
+      value: >-
+        alter self, glitterdust (DC 17), mirror image, pyrotechnics (DC 17),
+        silence (DC 17), suggestion (DC 17)
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 16), expeditious retreat, grease, hideous laughter (DC
+        16), silent image (DC 16), unseen servant
+    - label: 0 (at will)
+      value: dancing lights, detect magic, light, mage hand, read magic, resistance
+AbilityScores:
+  - 16
+  - 16
+  - 12
+  - 10
+  - 10
+  - 20
+BaseAtk: '12'
+CMB: +15 (+17 sunder)
+CMD: 28 (30 vs. sunder)
+Feats:
+  - Arcane Strike
+  - Bleeding Critical
+  - Cleave
+  - Critical Focus
+  - Improved Critical (elven curve blade)
+  - Improved Sunder
+  - Power Attack
+  - Weapon Focus (elven curve blade)
+Skills:
+  - Knowledge (arcana) +12
+  - Knowledge (dungeoneering) +12
+  - Knowledge (local) +12
+  - Knowledge (nature) +12
+  - Knowledge (planes) +12
+  - Knowledge (religion) +12
+  - Perception +15
+  - Perform (dance) +24
+  - Perform (oratory) +24
+  - Perform (string) +22
+  - Perform (wind) +22
+  - Spellcraft +13 (+15 to identify magic item properties)
+  - Stealth +24
+  - Use Magic Device +18
+Languages:
+  - Common
+  - Elven
+SQ: >-
+  bardic knowledge +8, elven magic, jack-of-all-trades (use any skill, all
+  skills are class skills), lore master 2/day, versatile performance (dance,
+  oratory, string, wind), weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+DuringCombat: >-
+  The bard attacks with his wand of fireball and shadow evocation spells from a
+  distance, then casts either greater invisibility or mirror image on himself
+  before entering melee. He augments himself and allies with haste and his
+  bardic performance abilities. He then makes melee attacks, stopping to cast
+  spells when necessary.
+Gear: >-
+  scroll of teleport, wand of cure moderate wounds (50 charges), wand of
+  fireball (50 charges)
+OtherGear: >-
+  +2 shadow elven chain, +2 elven curve blade, belt of giant strength +4,
+  headband of alluring charisma +2, 345 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3631'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

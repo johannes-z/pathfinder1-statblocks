@@ -1,0 +1,101 @@
+Name: Rigzarreth
+CR: '7'
+XP: '600'
+Race: forlarren
+Class: druid 5
+MonsterSource: Pathfinder RPG Bestiary 2 125
+Alignment: ME
+Size: Medium
+Type: fey
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +17
+AC: 16, touch 13, flat-footed 13
+AC_Mods: (+3 Dex, +3 natural)
+HP: '68'
+HD: (9 HD; 4d6+5d8+32)
+Saves: Fort +8, Ref +10, Will +12; +4 vs. fey and plant-targeted effects
+Fort: '8'
+Ref: '10'
+Will: '12'
+Save_Mods: +4 vs. fey and plant-targeted effects
+DR: 5/cold iron
+Weaknesses: remorse
+Speed: 30 ft.
+Melee:
+  - 2 claws +9 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: wild shape 1/day
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th)
+  values:
+    - label: 3/day
+      value: summon swarm
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 5th; concentration +9)   3rd-beast shape ID (animals
+  only), call lightning (DC 11), spike growth (DC 11)   2nd-barkskin, bear's
+  endurance, cat's grace, hold animalD (DC 10)   1st-cure light wounds (2),
+  magic fangD, obscuring mist, speak with animals   0 (at will)-create water,
+  guidance, know direction, light
+SpellDomains: Animal (Fur subdomainAPG)
+AbilityScores:
+  - 14
+  - 17
+  - 16
+  - 4
+  - 18
+  - 7
+BaseAtk: '5'
+CMB: '7'
+CMD: '20'
+Feats:
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Perception)
+  - Weapon Finesse
+  - Weapon Focus (claw)
+Skills:
+  - Acrobatics +10
+  - Knowledge (nature) +3
+  - Perception +17
+  - Stealth +10
+  - Survival +10
+Languages:
+  - Common
+  - Druidic
+  - Sylvan
+SQ: >-
+  nature bond (Animal domain), nature sense, predator's grace (7/day), trackless
+  step, wild empathy +3, woodland stride
+Source: Tears At Bitter Manor
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If she's aware that the party is coming soon and has time to prepare,
+  Rigzarreth casts barkskin, bear's endurance, and cat's grace on herself.
+  (These aren't included in her statistics.) If the party draws near, she casts
+  call lightning, spike growth, and magic fang.
+DuringCombat: >-
+  If Rigzarreth doesn't have enough time to prepare, she casts barkskin and call
+  lightning in the first 2 rounds of combat while avoiding the PCs. She draws
+  the PCs to the leechroots in order to elicit their aid in combat.
+Morale: >-
+  Rigzarreth places very little value on her life, and defends her grove to the
+  death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5785'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

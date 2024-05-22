@@ -1,0 +1,74 @@
+Name: Vampiric Ooze
+CR: '8'
+XP: '4800'
+Race: Vampiric Ooze
+MonsterSource: Tome of Horrors Complete 463
+Alignment: CE
+Size: Large
+Type: undead
+Init: '-1'
+Senses:
+  - blindsight 60 ft.
+  - Perception +3
+AC: 4, touch 4, flat-footed 4
+AC_Mods: (-5 Dex, -1 size)
+HP: '54'
+HD: (12d8)
+Saves: Fort +3, Ref -1, Will +3
+Fort: '3'
+Ref: '-1'
+Will: '3'
+DefensiveAbilities: split (cold and electricity, 10 hp)
+Immune: cold, electricity, ooze traits, undead traits
+Weaknesses: sunlight vulnerability
+Speed: 10 ft., climb 10 ft.
+Melee:
+  - slam +10 (2d4+3 plus energy drain and grab)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (2d4+3), create spawn, energy drain (1 level, DC 15)
+AbilityScores:
+  - 15
+  - 1
+  - —
+  - —
+  - 1
+  - 8
+BaseAtk: '9'
+CMB: +12 (+16 grapple)
+CMD: 17 (can't be tripped)
+Feats:
+  - Improved InitiativeB
+  - ToughnessB
+Skills:
+  - Climb +10
+  - Perception +3
+RacialMods: +8 Perception
+Source: PFS S4-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      Any humanoid slain by a vampiric ooze becomes a zombie in 1d4 rounds.
+      Spawn are under the command of the vampiric ooze that created them and
+      remain enslaved until death. They do not possess any of the abilities they
+      had in life.
+  - name: Sunlight Vulnerability (Ex)
+    description: >-
+      Exposing a vampiric ooze to direct sunlight staggers it on the first round
+      and it is destroyed utterly in the next round if it cannot escape.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7617'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

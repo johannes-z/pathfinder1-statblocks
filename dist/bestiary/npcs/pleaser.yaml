@@ -1,0 +1,141 @@
+Name: Pleaser
+CR: '12'
+XP: '19200'
+Race: succubus
+MonsterSource: Pathfinder RPG Bestiary 68
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar, mythicMA)
+Init: '6'
+Senses:
+  - darkvision 60 ft., detect good
+  - Perception +27
+AC: 27, touch 16, flat-footed 21
+AC_Mods: (+6 Dex, +11 natural)
+HP: '190'
+HD: (12d10+124)
+Saves: Fort +11, Ref +14, Will +14
+Fort: '11'
+Ref: '14'
+Will: '14'
+DR: 10/epic and cold iron or epic and good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+SR: '31'
+Speed: 30 ft., fly 50 ft. (average)
+Melee:
+  - 2 claws +18 (1d4+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  consume soul, energy drain, mythic power (4/day, surge +1d8), penetrating
+  enchantments, profane gift, soul trapping, sneak attack +6d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +23)
+  values:
+    - label: Constant
+      value: detect good, tongues
+    - label: At Will
+      value: >-
+        charm monster (DC 25), detect thoughts (DC 23), ethereal jaunt (self
+        plus 50 lbs. of objects only), vampiric touch
+    - label: 1/day
+      value: dominate person (DC 26), summon (level 3, 1 babau 50%)
+SpellsPrepared: >-
+  Spells Prepared (CL 12th; concentration +23)   7th-simulacrum   6th-flesh to
+  stone (DC 27), mass suggestion (DC 27)   5th-mind fog
+AbilityScores:
+  - 17
+  - 22
+  - 24
+  - 24
+  - 18
+  - 33
+BaseAtk: '12'
+CMB: '18'
+CMD: '31'
+Feats:
+  - Agile Maneuvers
+  - Combat Expertise[M]
+  - Greater Feint
+  - Improved Feint
+  - Iron Will[M]
+  - Weapon Finesse
+Skills:
+  - Acrobatics +21
+  - Bluff +34
+  - Craft (sculpture) +22
+  - Diplomacy +26
+  - Disguise +26
+  - Fly +21
+  - Intimidate +26
+  - Knowledge (varies) +19
+  - Perception +27
+  - Perform (dance) +23
+  - Profession (courtesan) +16
+  - Sense Motive +19
+  - Stealth +21
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Hallit
+  - telepathy 100 ft.
+  - tongues
+SQ: >-
+  change shape (alter self, Small or Medium humanoid), simple arcane
+  spellcasting
+Source: AP 78
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Consume Soul (Su)
+    description: >-
+      As a standard action, a mythic succubus can consume a soul stored in a
+      gemstone she carries. Doing so affects her as if by a heal spell (CL 15th)
+      and grants her a +4 profane bonus to her Charisma for 1 minute.
+  - name: Penetrating Enchantments (Su)
+    description: >-
+      A mythic succubus's enchantment spell-like abilities and spells can affect
+      creatures normally immune to mind-affecting effects of any sort, but such
+      creatures gain a +4 bonus on saving throws to resist these effects.
+  - name: Soul Trapping (Su)
+    description: >-
+      If a mythic succubus kills a creature, she can attempt to trap its soul in
+      a gemstone she carries as an immediate action, affecting the soul as if by
+      the spell soul bind. A successful DC 27 Will save negates this effect. If
+      the creature being targeted was slain by the mythic succubus's energy
+      drain attack, it receives no saving throw to resist this effect. The save
+      DC is Charisma-based.
+DuringCombat: >-
+  One Pleaser uses mind fog at the start of combat, while the others immediately
+  use mass suggestion to try to convince the enemies to assume subservient or
+  humiliating positions and to remain in those positions for the duration.
+  Pleasers are fond of turning such victims to stone via flesh to stone. In
+  combat, they use mind control to prevent enemies from coordinating defense so
+  they can focus on fewer targets at once in melee, much preferring to flank
+  foes or feint to get in more sneak attacks.
+Morale: >-
+  A Pleaser attempts to flee combat if reduced below 40 hit points, offering her
+  profane gift or her specific information as a bribe or payment for freedom if
+  captured.
+Gear: >-
+  black sapphires (one worth 20,000 gp, one worth 15,000 gp, and two worth
+  10,000 gp each)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5709'
+UniqueMonster: '0'
+Variant: '0'
+MR: '4'
+Mythic: '1'
+MT: '0'

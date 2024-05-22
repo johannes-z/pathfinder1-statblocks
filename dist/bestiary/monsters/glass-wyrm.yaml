@@ -1,0 +1,131 @@
+Name: Glass Wyrm
+CR: '12'
+XP: '19200'
+Alignment: 'N'
+Size: Large
+Type: dragon
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +24
+AC: 26, touch 11, flat-footed 24
+AC_Mods: (+2 Dex, +15 natural, -1 size)
+HP: '168'
+HD: (16d12+64)
+Saves: Fort +14, Ref +12, Will +11
+Fort: '14'
+Ref: '12'
+Will: '11'
+DefensiveAbilities: reflective hide (DC 22), spell reflection
+DR: 10/magic and bludgeoning
+Immune: paralysis, sleep
+Weaknesses: vulnerability to sonic spells
+Speed: 30 ft.
+Melee:
+  - bite +21 (2d6+9/19-20), 2 claws +21 (1d8+6), tail slap  +19 (1d8+9)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (40 ft. cone, DC 22, 12d6 piercing and slashing)
+AbilityScores:
+  - 23
+  - 14
+  - 19
+  - 10
+  - 12
+  - 12
+BaseAtk: '16'
+CMB: '23'
+CMD: 35 (39 vs. trip)
+Feats:
+  - Alertness
+  - Cleave
+  - Critical Focus
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Diplomacy +20
+  - Escape Artist +18
+  - Knowledge (planes) +19
+  - Perception +24
+  - Sense Motive +24
+  - Stealth +16
+Languages:
+  - Draconic
+  - Undercommon
+Environment: underground
+Organization: solitary, pair, or family (3-5)
+Treasure: double standard
+Description_Visual: >-
+  This creature appears to be formed of crystal or glass. Its scales are
+  semi-transparent and appear razor-sharp. Its head is angular with two
+  blade-like horns swept back across its crown. A glass fin-like crest starts
+  near the base of its skull, runs down the center of its back and tapers off as
+  it reaches the monster's tail. Its large wings are translucent and the sound
+  of grating glass can be heard as the beast moves.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      A glass wyrm's breath weapon is a 40 ft. cone of razor-sharp shards of
+      glass.
+  - name: Reflective Hide (Ex)
+    description: >-
+      Any mundane or magical light source brought within 30 feet of a glass wyrm
+      causes the light to be reflected as a burst that blinds all creatures
+      within 30 feet for 1d6+4 rounds. A creature can attempt a DC 22 Fortitude
+      save to negate the blinding effect. This otherwise operates like a gaze
+      attack. The save DC is Constitution-based.
+  - name: Spell Reflection (Ex)
+    description: >-
+      Any spell or spell-like ability that allows spell resistance and targets a
+      glass wyrm (or includes it in its area of effect) is reflected back on the
+      caster if the glass wyrm successfully resists the spell or effect. The
+      original caster becomes the spell's target (or its point of origin in the
+      case of area spells). A reflected spell can be resisted normally by the
+      caster (and any other creatures affected). A glass wyrm cannot reflect a
+      sonic-based spell or spell-like ability, even if it allows resistance.
+Description:
+  - >-
+    Glass wyrms are relatives of other dragons and are believed to have their
+    origin on another plane of existence. They make their home beneath the
+    surface world and enjoy the relative solitude of the underground world.
+  - >-
+    Their lairs normally consist of a maze of twisting and winding corridors
+    meant to confuse and befuddle trespassers. Their lairs are littered with
+    scores and scores of gemstones and broken glass (thought to come from the
+    glass wyrm's scales).
+  - >-
+    Glass wyrms sustain themselves on a diet of gemstones and natural minerals,
+    and rarely eat meat (though their draconic heritage does occasionally rise
+    to the surface thereby instilling the taste for such things in them).
+  - >-
+    In battle a glass wyrm relies on their breath weapon and natural attacks,
+    switching between them as the battle warrants. Powerful foes are always
+    targeted first and subjected to the monster's breath weapon. Some glass
+    wyrms keep torches or other light sources scattered about their labyrinthine
+    lairs so they can use their reflective hide to blind trespassers and enter
+    combat quickly before their opponents can react.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2638'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

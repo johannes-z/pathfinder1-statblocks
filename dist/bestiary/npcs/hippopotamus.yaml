@@ -1,0 +1,83 @@
+Name: Hippopotamus
+CR: '5'
+XP: '1600'
+Race: Hippopotamus
+MonsterSource: Heart of the Jungle 60
+Alignment: 'N'
+Size: Large
+Type: animal
+Init: '4'
+Senses:
+  - low-light vision, scent
+  - Perception +8
+AC: 17, touch 9, flat-footed 17
+AC_Mods: (+8 natural, -1 size)
+HP: '66'
+HD: (7d8+35)
+Saves: Fort +10 (+12 vs. nonmagical disease), Ref +5, Will +2
+Fort: +10 (+12 vs. nonmagical disease)
+Ref: '5'
+Will: '2'
+Speed: 40 ft.
+Melee:
+  - bite +13 (2d8+12)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: capsize
+AbilityScores:
+  - 26
+  - 10
+  - 20
+  - 2
+  - 10
+  - 5
+BaseAtk: '5'
+CMB: '14'
+CMD: '24'
+Feats:
+  - Alertness
+  - Improved Initiative
+  - Power Attack
+  - Weapon Focus (bite)
+Skills:
+  - Intimidate +1
+  - Perception +8
+  - Sense Motive +0
+  - Stealth +0 (+10 underwater)
+  - Swim +13
+RacialMods: +10 Stealth when underwater
+SQ: blood sweat, hold breath
+Source: AP 38
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Sweat (Ex)
+    description: >-
+      A hippopotamus excretes a reddish-tinged oil that protects its skin from
+      both the sun and bacteria. It suffers no harm from being in hot
+      environments (up to 140 degrees Fahrenheit) and gains a +2 on Fortitude
+      saves to resist nonmagical diseases.
+  - name: Capsize (Ex)
+    description: >-
+      A hippopotamus can attempt to capsize a boat or ship of its size or
+      smaller by ramming it as a charge attack and making a combat maneuver
+      check. The DC of this check is 25, or the result of the boat captain's
+      Profession (sailor) check, whichever is higher.
+  - name: Hold Breath (Ex)
+    description: >-
+      A hippopotamus can hold its breath for a number of rounds equal to four
+      times its Constitution score before it risks drowning.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '944'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

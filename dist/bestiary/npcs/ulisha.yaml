@@ -1,0 +1,108 @@
+Name: Ulisha
+CR: 1/2
+XP: '200'
+Race: Ulisha
+MonsterSource: bard 1
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '1'
+Senses:
+  - Perception -1
+AC: 15, touch 11, flat-footed 14
+AC_Mods: (+3 armor, +1 Dex, +1 shield)
+HP: '9'
+HD: (1d8+1)
+Saves: Fort +1, Ref +3, Will +1
+Fort: '1'
+Ref: '3'
+Will: '1'
+DefensiveAbilities: orc ferocity
+Speed: 30 ft.
+Melee:
+  - Silverhex +1 (1d6)
+Ranged:
+  - light crossbow +1 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 6 rounds/day (countersong, distraction, fascinate [DC 12],
+  inspire courage +1)
+SpellsKnown:
+  header: Bard Spells Known (CL 1st; concentration +3)
+  values:
+    - label: 1st (2/day)
+      value: comprehend languages, cure light wounds
+    - label: 0 (at will)
+      value: detect magic, know direction, mending, read magic
+AbilityScores:
+  - 10
+  - 12
+  - 13
+  - 17
+  - 8
+  - 14
+BaseAtk: '0'
+CMB: '0'
+CMD: '11'
+Feats:
+  - Skill Focus (Knowledge [history])
+Skills:
+  - Intimidate +4
+  - Knowledge (arcana) +8
+  - Knowledge (geography) +8
+  - Knowledge (history) +11
+  - Knowledge (local) +8
+  - Knowledge (nature) +8
+  - Knowledge (nobility) +8
+  - Knowledge (religion) +8
+  - Linguistics +7
+  - Perform (oratory) +6
+  - Survival +0
+RacialMods: +2 Intimidate
+Languages:
+  - Azlanti
+  - Common
+  - Draconic
+  - Giant
+  - Hallit
+  - Orc
+SQ: bardic knowledge +1, orc blood
+Source: The Silverhex Chronicles
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If Ulisha is warned she attempts to talk the PCs into planning an ambush. If
+  the PCs did not arrive before the assassins, she has already used one of her
+  first-level spells, half of her rounds of bardic performance, and her orc
+  ferocity.
+DuringCombat: >-
+  Ulisha she supports any allies using her inspire courage bardic performance
+  and her healing magic. If the PCs arrive after the assassins do, Ulisha treats
+  the new arrivals as allies for the purposes of her bardic performance.
+Morale: >-
+  So long as the PCs are still fighting alongside her, Ulisha fights until
+  incapacitated. If the PCs flee or are defeated with little chance of her
+  winning, she retreats.
+Gear: >-
+  scroll of cure light wounds, wand of identify (8 charges), wand of comprehend
+  languages (6 charges), wand of expeditious retreat (6 charges)
+OtherGear: >-
+  studded leather, buckler, Silverhex (+1 spell storing alchemical silver
+  sickle), light crossbow with 10 bolts, 4 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6419'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

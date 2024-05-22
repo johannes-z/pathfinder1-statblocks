@@ -1,0 +1,97 @@
+Name: Acolyte of Achaekek
+CR: '4'
+XP: '1200'
+Race: Troglodyte
+Class: cleric of Achaekek 4
+MonsterSource: Pathfinder RPG Bestiary 267
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (reptilian)
+Init: '1'
+Senses:
+  - darkvision 90 ft.
+  - Perception +3
+Aura: stench (30 ft., DC 12, 10 rounds)
+AC: 17, touch 11, flat-footed 16
+AC_Mods: (+1 Dex, +6 natural)
+HP: '37'
+HD: (6d8+10)
+Saves: Fort +8, Ref +2, Will +7
+Fort: '8'
+Ref: '2'
+Will: '7'
+Speed: 30 ft.
+Melee:
+  - +1 shortspear +7 (1d6+3), claw +1 (1d4+1), bite +1 (1d4+1)
+  - 2 claws +6 (1d4+2), bite +6 (1d6+2)
+Ranged:
+  - javelin +5 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 13, 2d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 4th; concentration +7)
+  values:
+    - label: 6/day
+      value: bleeding touch (2 rounds)
+    - label: 6/day
+      value: battle rage (+2 damage)
+SpellsPrepared: >-
+  Spells Prepared (CL 4th; concentration +7)  2nd-aid, cure moderate wounds,
+  hold person (DC 15), spiritual weaponD  1st-bane (DC 14), cure light wounds,
+  divine favor, doom (DC 14), magic weaponD  0 (at will)-bleed (DC 13), guidance
+  (DC 13), resistance, virtue
+SpellDomains: Death, War
+AbilityScores:
+  - 14
+  - 13
+  - 12
+  - 8
+  - 16
+  - 13
+BaseAtk: '4'
+CMB: '6'
+CMD: '17'
+Feats:
+  - Combat Casting
+  - Nimble Moves
+  - Selective Channeling
+Skills:
+  - Knowledge (religion) +3
+  - Sense Motive +8
+  - Spellcraft +4
+  - Stealth +6 (+10 in rocky areas)
+Languages:
+  - Draconic
+Source: AP 39
+IsTemplate: '0'
+BeforeCombat: An acolyte casts magic weapon on its shortspear before combat begins.
+DuringCombat: >-
+  An acolyte casts aid and spiritual weapon in the first few rounds of combat,
+  then divine favor before entering melee. It relies upon its wand of sound
+  burst against foes at range or who cluster in groups. It drinks its potion of
+  invisibility if reduced to fewer than 15 hit points, then uses healing magic
+  on itself before resuming combat.
+Morale: An acolyte fights to the death.
+Gear: >-
+  potion of cure light wounds, potion of invisibility, wand of sound burst (19
+  charges)
+OtherGear: >-
+  javelins (5), +1 shortspear, wooden holy symbol of Achaekek, spell component
+  pouch, 28 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '996'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

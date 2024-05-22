@@ -1,0 +1,98 @@
+Name: Mill Worker
+CR: '4'
+XP: '1200'
+Race: Human
+Class: rogue 5
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +9
+AC: 18, touch 15, flat-footed 13
+AC_Mods: (+3 armor, +4 Dex, +1 dodge)
+HP: '46'
+HD: (5d8+20)
+Saves: Fort +3, Ref +8, Will +2
+Fort: '3'
+Ref: '8'
+Will: '2'
+DefensiveAbilities: evasion, trap sense +1, uncanny dodge
+Speed: 30 ft.
+Melee:
+  - mwk punching dagger +7 (1d4+1/x3), mwk punching  dagger +7 (1d4/x3)
+  - mwk punching dagger +9 (1d4+1/x3)
+Ranged:
+  - >-
+    mwk composite shortbow +8 (1d6+1/x3 plus poison  [dhat-gunchi paste; DC 14;
+    1/rd. for 4 rds.; 1 Con and 1d2  Wis, 1 save])
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +3d6
+AbilityScores:
+  - 12
+  - 18
+  - 14
+  - 10
+  - 13
+  - 8
+BaseAtk: '3'
+CMB: '4'
+CMD: '19'
+Feats:
+  - Dodge
+  - Nimble Moves
+  - Toughness
+  - Two-Weapon Fighting
+  - Weapon Finesse
+  - Weapon Focus (punching dagger)
+Skills:
+  - Acrobatics +12
+  - Bluff +7
+  - Climb +9
+  - Craft (cloth) +5
+  - Diplomacy +5
+  - Disable Device +14
+  - Perception +9
+  - Sense Motive +9
+  - Sleight of Hand +12
+  - Stealth +12
+Languages:
+  - Vudrani
+SQ: rogue talents (finesse rogue, weapon training), trapfinding +2, uncanny dodge
+Source: Cult Of The Ebon Destroyers
+IsTemplate: '0'
+BeforeCombat: >-
+  If alerted to intruders, the cultists hide among the looms and drink their
+  potions of invisibility. They each coat an arrowhead with poison and ready
+  their bows.
+DuringCombat: >-
+  The mill workers use the area's disordered state to their advantage, using
+  Nimble Moves to move easily through the difficult terrain in the chamber. They
+  work in teams of two, using the confined space to flank and sneak attack
+  opponents.
+Morale: >-
+  The mill workers fight until reduced below 12 hit points, then retreat through
+  area A2 to A3.
+Gear: >-
+  potion of cure moderate wounds, potion of invisibility, dhat-gunchi paste (3
+  doses)
+OtherGear: >-
+  masterwork studded leather, masterwork punching daggers (2), masterwork
+  composite shortbow (+1 Str) with 20 arrows, masterwork thieves' tools, 25 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1473'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

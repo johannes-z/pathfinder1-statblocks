@@ -1,0 +1,133 @@
+Name: Ancient Gravedigger
+CR: '10'
+XP: '9600'
+Race: Ghoul
+Class: oracle 10
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+AC: 22, touch 14, flat-footed 18
+AC_Mods: (+4 armor, +1 deflection, +4 Dex, +3 natural)
+HP: '112'
+HD: (12d8+58)
+Saves: Fort +8, Ref +8, Will +13
+Fort: '8'
+Ref: '8'
+Will: '13'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - >-
+    +1 bite +14 (1d6+6 plus disease and paralysis), 2 +1 frost claws +15 (1d6+6
+    plus 1d6 cold, disease, and paralysis)
+Ranged:
+  - rock +13/+8 (2d4+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  disease (DC 15), paralysis (1d4+1 rounds, DC 15, elves are immune to this
+  effect)
+SpellsKnown:
+  header: Oracle Spells Known (CL 10th; concentration +14)
+  values:
+    - label: 5th (3/day)
+      value: flame strike (DC 19), mass inflict light wounds, stoneskin
+    - label: 4th (6/day)
+      value: >-
+        divine power, inflict critical wounds, summon monster IV, wall of stone
+        (DC 18)
+    - label: 3rd (7/day)
+      value: >-
+        animate dead, blindness/deafness (DC 17), dispel magic, inflict serious
+        wounds, meld into stone
+    - label: 2nd (7/day)
+      value: >-
+        darkness, desecrate, hold person (DC 16), inflict moderate wounds,
+        spiritual weapon, stone callAPG
+    - label: 1st (7/day)
+      value: >-
+        command (DC 15), entropic shield, inflict light wounds, liberating
+        commandUC, magic stone, obscuring mist, shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), create water, detect magic, detect poison, guidance,
+        mending, read magic, resistance, sparkAPG
+AbilityScores:
+  - 20
+  - 18
+  - —
+  - 15
+  - 14
+  - 18
+BaseAtk: '8'
+CMB: +13 (+17 trip)
+CMD: 27 (31 vs. bull rush, 33 vs. trip)
+Feats:
+  - Combat Reflexes
+  - Extra Rage
+  - Greater Trip
+  - Improved Natural Armor
+  - Improved Trip
+  - Power Attack
+  - Quick Draw
+  - Weapon Focus (claw)
+Skills:
+  - Bluff +16
+  - Diplomacy +19
+  - Intimidate +19
+  - Perception +17
+  - Spellcraft +17
+  - Stealth +18
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Terran
+  - Undercommon
+  - tongues (understands only)
+SQ: >-
+  oracle's curse (tongues [Aklo]), revelations (crystal sight, earth glide, rock
+  throwing, stone stability)
+Source: Monster Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The ancient gravedigger prepares for combat by quaffing potions of greater
+  magic fang and mage armor. He uses earth glide and crystal sight to observe
+  foes fighting his underlings before he attacks.
+DuringCombat: >-
+  The ancient gravedigger prefers to fight at range, relying on summoned
+  creatures, flame strike, and spiritual weapon to deal damage while he uses
+  earth glide and crystal sight to take cover from the fray. If he must enter
+  melee, the gravedigger fights viciously.
+Gear: potion of greater magic fang, potion of mage armor
+OtherGear: >-
+  belt of giant strength +2, cloak of resistance +1, frost amulet of mighty
+  fists, ring of protection +1, throwing stones (10), onyx gems (worth 1,000 gp
+  total), silver dust (worth 25 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without greater magic fang and mage armor, the ancient gravedigger's
+  statistics are AC 18, touch 15, flat-footed 14; Melee bite +13 (1d6+5 plus
+  disease and paralysis), 2 frost claws +14 (1d6+5 plus 1d6 cold, disease, and
+  paralysis).
+AgeCategory: Adult
+Mystery: stone
+CompanionFamiliarLink: '0'
+id: '6452'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,82 @@
+Name: Inquisitor Troop
+CR: '9'
+XP: '6400'
+Race: Inquisitor Troop
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human, troop)
+Init: '6'
+Senses:
+  - Perception +22
+AC: 22, touch 13, flat-footed 20
+AC_Mods: (+9 armor, +2 Dex, +1 profane)
+HP: '114'
+HD: (12d8+60)
+HP_Mods: fast healing 5
+Saves: Fort +10, Ref +6, Will +14
+Fort: '10'
+Ref: '6'
+Will: '14'
+DefensiveAbilities: judgment of protection, troop traits
+Speed: 20 ft.
+Melee:
+  - troop (3d6+5)
+Space: 20 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 20
+  - 15
+  - 19
+  - 10
+  - 18
+  - 13
+BaseAtk: '9'
+CMB: '14'
+CMD: '27'
+Feats:
+  - Combat Reflexes
+  - Great Fortitude
+  - Improved Iron Will
+  - Iron Will
+  - Skill Focus (Perception)
+  - Toughness
+Skills:
+  - Knowledge (religion) +12
+  - Perception +22
+Languages:
+  - Common
+  - Infernal
+SQ: cunning initiative, fast healing, protect ally
+Source: AP 100
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cunning Initiative (Ex)
+    description: An inquisitor troop adds its Wisdom bonus to its initiative checks.
+  - name: Judgment of Protection (Su)
+    description: An inquisitor troop gains a +1 profane bonus to its armor class.
+  - name: Fast Healing (Sp)
+    description: >-
+      An inquisitor troop's fast healing is a reflection of the fact that each
+      round, some of the inquisitors in the troop cast cure light wounds spells
+      on wounded members. Not all inquisitors in a troop use this ability
+      simultaneously, and they can only grant fast healing to the troop for up
+      to 10 rounds per day. Activating this ability is a free action that does
+      not provoke an attack of opportunity.
+  - name: Protect Ally (Ex)
+    description: See dottari troop above.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7546'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

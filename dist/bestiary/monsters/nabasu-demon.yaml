@@ -1,0 +1,159 @@
+Name: Nabasu Demon
+CR: '10'
+XP: '9600'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +31
+Aura: paralysis (10-ft., DC 24)
+AC: 30, touch 12, flat-footed 29
+AC_Mods: (+1 Dex, +1 dodge, +18 natural)
+HP: '175'
+HD: (13d10+104)
+Saves: Fort +16, Ref +5, Will +11
+Fort: '16'
+Ref: '5'
+Will: '11'
+DR: 10/cold iron or good
+Immune: death effects, electricity paralysis, poison
+Resist: acid 10, cold 10, fire 10
+SR: '21'
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - 2 claws +20 (1d6+7), bite +20 (1d8+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death gaze 10/day (DC 18), sneak attack +2d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th)
+  values:
+    - label: At will
+      value: >-
+        deeper darkness (10-ft. radius), greater teleport (self plus 50 pounds
+        of objects only)
+    - label: 3/day
+      value: enervation, silence (DC 14), vampiric touch
+    - label: 1/day
+      value: regenerate, summon (level 4, 1 mature nabasu 30% or 2d4 ghouls 60%)
+AbilityScores:
+  - 25
+  - 13
+  - 26
+  - 14
+  - 16
+  - 15
+BaseAtk: '13'
+CMB: '20'
+CMD: '32'
+Feats:
+  - Alertness
+  - Combat Expertise
+  - Dodge
+  - Flyby Attack
+  - Great Cleave
+  - Improved Initiative
+  - Power Attack
+Skills:
+  - Escape Artist +14
+  - Fly +17
+  - Intimidate +15
+  - Knowledge (arcana) +15
+  - Knowledge (planes) +18
+  - Perception +31
+  - Stealth +17 (+25 in shadowy areas)
+  - Survival +16
+RacialMods: +8 Perception, +8 Stealth in shadowy areas
+Languages:
+  - Abyssal
+  - Common
+  - plus one more
+  - telepathy 100 ft.
+SQ: plane shift
+Environment: any (Abyss)
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This creature is tall and thin with large, leathery, scaled, bat-like wings.
+  Its skin is stretched tightly over its bones to the point that its underlying
+  muscles can be seen clearly. Its skin is pale gray. Its hands end in long
+  fingers tipped with razor-sharp talons. Its mouth is filled with tusk-like
+  teeth, dominated by two overgrown tusks that jut upward from its bottom jaw.
+  Its eyes glow with an eerie yellow light.
+Group: Demon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Gaze (Su)
+    description: >-
+      Once per day per growth point (minimum 1/day for a demonling, 10/day for a
+      mature nabasu), a nabasu can use its death gaze for a full round. Living
+      creatures within 20 feet must succeed on a Fortitude save or gain a
+      negative level. A humanoid slain in this manner transforms into a ghoul in
+      1d4 rounds under the control of the nabasu that created it. The save DC is
+      Charisma-based. If the nabasu dies, any ghouls under its control become
+      free-willed.
+  - name: Plane Shift (Su)
+    description: >-
+      Three times per day a nabasu demonling can shift to the Material Plane,
+      and a mature nabasu can shift between the Abyss and the Material Plane or
+      back. This transports the nabasu and up to six other creatures provided
+      they all link hands with the nabasu. It is otherwise similar to the spell
+      of the same name (CL 10th for the demonling and CL 13th for the mature
+      nabasu).
+  - name: Feed (Su)
+    description: >-
+      When a nabasu creates a ghoul with its gaze attack, it gains a growth
+      point. It gains a bonus equal to its growth point total on attack rolls,
+      CMB rolls, saving throws, caster level checks, and skill checks. Its
+      maximum hit points increase by 10 for each growth point it gains and its
+      caster level increases by 1. For every 2 growth points, its natural armor
+      bonus, SR, and CR increases by +1. Each time it gains a growth point, the
+      nabasu demonling makes a DC 30 caster level check-success indicates it
+      becomes a mature nabasu. At 10 growth points, a demonling automatically
+      becomes a mature nabasu.
+  - name: Paralysis Aura (Su)
+    description: >-
+      As a free action, once per day, a mature nabasu can release a paralysis
+      arua in a 10-ft. radius. Creatures in the area must succeed on a DC 24
+      Fort save or be paralyzed for 1d6+4 rounds. Demons are immune to this
+      aura. The save DC is Constitution-based.
+Description:
+  - >-
+    Nabasu (both plural and singular form) are one of the most malign of
+    demonkind. They derive great pleasure from torturing and killing (albeit
+    slowly) other creatures. Unlike other demons, a nabasu spends a portion of
+    its life on the Material Plane. Those that reach the demonling stage in
+    their growing process travel to the Material Plane where they feed on
+    humanoids in order to continue their maturity. Once a nabasu reaches
+    maturity, it returns to the Abyss to spend the rest of its immortal
+    existence there. A nabasu (demonling or mature) stands 7 feet tall and
+    weighs about 700 pounds. Nabasu prefer to attack with their claws and bite
+    so they can watch their opponents die a slow and very painful death. A
+    nabasu fights until either it or its opponent is dead, and it never shows
+    mercy to an opponent in battle. Credit The Nabasu originally appeared in the
+    First Edition Monster Manual II (© TSR/Wizards of the Coast, 1983) and is
+    used by permission. Copyright Notice Author Scott Greene, based on original
+    material by Gary Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2447'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

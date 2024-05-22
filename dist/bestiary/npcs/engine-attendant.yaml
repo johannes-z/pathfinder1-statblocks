@@ -1,0 +1,123 @@
+Name: Engine Attendant
+CR: '12'
+XP: '19200'
+Race: lunarma
+Class: sorcerer 9
+MonsterSource: Pathfinder RPG Bestiary 4 185, Ultimate Magic 73
+Alignment: CN
+Size: Medium
+Type: aberration
+Init: '6'
+Senses:
+  - all-around vision, darkvision 60 ft., low-light vision
+  - Perception +12
+AC: 27, touch 13, flat-footed 24
+AC_Mods: (+4 armor, +2 Dex, +1 dodge, +6 natural, +4 shield)
+HP: '170'
+HD: (18 HD; 9d8+9d6+99)
+Saves: Fort +13, Ref +8, Will +14
+Fort: '13'
+Ref: '8'
+Will: '14'
+DefensiveAbilities: barbed carapace
+Immune: cold, poison
+Resist: electricity 5, fire 5
+Speed: ft., fly 60 ft. (good)
+Melee:
+  - 3 claws +13 (1d8+3 plus grab), bite +13 (1d6+3)
+Ranged:
+  - timeworn mindrender +12 touch (1 negative level)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with claws)
+SpecialAttacks: >-
+  breath weapon (30-ft. line, 2d6 acid damage plus recurring damage, Reflex DC
+  19 for half, usable every 1d4 rounds), constrict (1d8+3), implant eggs
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 9th; concentration +12)
+  values:
+    - label: 6/day
+      value: black motesUM
+    - label: 3/day
+      value: voidfieldUM
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 9th; concentration +12)
+  values:
+    - label: 4th (4/day)
+      value: call lightning storm (DC 17), greater make wholeTG, resilient sphere
+    - label: 3rd (7/day)
+      value: blink, gaseous form, irradiateTG (DC 16), lightning bolt (DC 16)
+    - label: 2nd (7/day)
+      value: >-
+        detect thoughts (DC 15), glitterdust (DC 15), invisibility, make whole,
+        mirror image
+    - label: 1st (7/day)
+      value: >-
+        alarm, floating disc (DC 14), mage armor, magic missile, shield, unseen
+        servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, detect magic, light, mage hand, mending,
+        message, open/close
+AbilityScores:
+  - 16
+  - 14
+  - 21
+  - 9
+  - 10
+  - 16
+BaseAtk: '10'
+CMB: '13'
+CMD: '26'
+Feats:
+  - Arcane Strike
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Exotic Weapon Proficiency (firearms)
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Skill Focus (Knowledge [engineering])
+  - Technologist
+Skills:
+  - Fly +18
+  - Knowledge (engineering) +26
+  - Perception +12
+Languages:
+  - Aklo (can't speak)
+  - telepathy 120 ft.
+SQ: bloodline arcana, no breath
+Source: AP 88
+IsTemplate: '0'
+Bloodline: Void-TouchedUM
+BeforeCombat: >-
+  The lunarma casts mage armor and shield on itself before entering combat. It
+  casts unseen servant daily (mostly to aid it in manipulating small elements in
+  the ship).
+DuringCombat: >-
+  The lunarma prefers to utilize its spells from range, but in combat it attacks
+  with its tentacles and mindrender (when it attacks with the mindrender, it
+  gives up a tentacle attack). The creature generally tries to remain out of
+  reach from foes but in reach with its tentacles so it doesn't provoke attacks
+  of opportunity when it fires the weapon in combat. It uses its unseen servant
+  to pick up and retrieve objects dropped by the PCs if the opportunity arises.
+Morale: >-
+  The engine attendant doesn't pursue foes out of the wreck, but fights to the
+  death and chases PCs relentlessly for the honor of its rotting home as long as
+  intruders remain inside of it.
+Gear: timeworn mindrenderTG (10 charges)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6474'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

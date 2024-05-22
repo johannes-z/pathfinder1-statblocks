@@ -1,0 +1,94 @@
+Name: Tiefling Thugs
+CR: 1/3
+XP: '135'
+Race: Tiefling
+Class: expert 1
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +4
+AC: 15, touch 12, flat-footed 13
+AC_Mods: (+3 armor, +2 Dex)
+HP: '5'
+HD: (1d8+1)
+Saves: Fort +1, Ref +2, Will +2
+Fort: '1'
+Ref: '2'
+Will: '2'
+Resist: cold 5, electricity 5, fire 5
+Speed: 30 ft.
+Melee:
+  - light mace +2 (1d6-1)
+Ranged:
+  - light crossbow +2 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 1st)
+  values:
+    - label: 1/day
+      value: darkness
+AbilityScores:
+  - 8
+  - 15
+  - 12
+  - 13
+  - 10
+  - 7
+BaseAtk: '0'
+CMB: '-1'
+CMD: '11'
+Feats:
+  - Weapon Finesse
+Skills:
+  - Acrobatics +5
+  - Bluff +4
+  - Disable Device +5
+  - Escape Artist +5
+  - Perception +4
+  - Sense Motive +4
+  - Stealth +7
+Languages:
+  - Common
+  - Halfling
+  - Infernal
+Source: AP 25
+IsTemplate: '0'
+BeforeCombat: >-
+  If the tieflings are aware of the PCs, they line up far from the door and load
+  their crossbows. If it is night and they can see the intruders are bringing
+  light, one of them uses darkness on the west end of the room (this means that
+  if the PCs' light source would normally provide dim light in that area, it
+  becomes darkness, which the tieflings can see through with their darkvision).
+DuringCombat: >-
+  The tieflings fight at range for as long as possible, then draw their maces
+  and try to flank for the remainder of the battle. They try to make as much
+  noise as possible, hoping to get the attention of the lookout in area B3c. If
+  the PCs carry light, one of the tieflings uses darkness to lower the light
+  level so they can make ranged attacks out of the darkness.
+Morale: >-
+  If two tieflings are killed, the other two try to head for the northwest
+  stairs to warn the others in area G2. They specifically call out, "Get the
+  mummies! We need help!"
+Gear: >-
+  studded leather armor, light mace, 20 bolts, dagger, simple thieves' tools (-2
+  penalty on checks), 20 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '7'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

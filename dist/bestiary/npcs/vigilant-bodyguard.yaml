@@ -1,0 +1,90 @@
+Name: Vigilant Bodyguard
+CR: '2'
+XP: '600'
+Race: human
+Class: monk 3
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception +10
+AC: 20, touch 16, flat-footed 18
+AC_Mods: (+4 armor, +1 Dex, +1 dodge, +4 Wis)
+HP: '20'
+HD: (3d8+3)
+Saves: Fort +4, Ref +4, Will +7; +2 vs. enchantments
+Fort: '4'
+Ref: '4'
+Will: '7'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: evasion
+Speed: 40 ft.
+Melee:
+  - unarmed strike +5 (1d6+2)
+  - nunchaku +4 (1d6+2)
+  - unarmed strike flurry of blows +3/+3 (1d6+2)
+Ranged:
+  - shuriken +3 (1d2+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: flurry of blows, stunning fist (3/day, DC 15)
+AbilityScores:
+  - 14
+  - 13
+  - 12
+  - 10
+  - 19
+  - 8
+BaseAtk: '2'
+CMB: '5'
+CMD: '20'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Improved Unarmed Strike
+  - Stunning Fist
+  - Weapon Focus (unarmed strike)
+Skills:
+  - Acrobatics +7 (+11 when jumping)
+  - Climb +6
+  - Intimidate +5
+  - Perception +10
+  - Sense Motive +10
+  - Stealth +7
+  - Survival +5
+  - Swim +6
+SQ: fast movement, maneuver training
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The monk drinks her potion of owl's wisdom to enhance her AC and Perception,
+  as well as a potion of mage armor.
+DuringCombat: >-
+  The monk uses a flurry of blows to make disarm attempts with her nunchaku. If
+  protecting someone, she uses Stunning Fist before withdrawing with her charge.
+Gear: >-
+  potions of cure light wounds (3), potion of mage armor, potion of magic
+  weapon, potion of owl's wisdom, smokesticks (3)
+OtherGear: dagger, nunchaku, shuriken (20), bracers of armor +1, 30 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without owl's wisdom and mage armor, the monk's statistics are Senses
+  Perception +8; AC 15, touch 14, flat-footed 13; Wis 15; CMD 18; Skills
+  Perception +8, Sense Motive +8, Survival +3.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3726'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

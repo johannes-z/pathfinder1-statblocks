@@ -1,0 +1,125 @@
+Name: Ognathooga
+CR: '15'
+XP: '51200'
+Race: Mother of Oblivion
+MonsterSource: Rise of the Runelords Anniversary Edition 406
+Alignment: CE
+Size: Gargantuan
+Type: outsider
+SubType: (aquatic, native)
+Init: '4'
+Senses:
+  - all-around vision, darkvision 60 ft.
+  - Perception +22
+AC: 30, touch 6, flat-footed 30
+AC_Mods: (+24 natural, -4 size)
+HP: '232'
+HD: (15d10+150)
+Saves: Fort +19, Ref +11, Will +9
+Fort: '19'
+Ref: '11'
+Will: '9'
+DR: 15/cold iron and magic
+Immune: death effects, mind affecting effects, petrification, polymorph
+Resist: acid 20, cold 20
+SR: '26'
+Speed: 20 ft., swim 60 ft.
+Melee:
+  - bite +24 (2d8+13/19-20 plus energy drain), 4 tentacles +19 (2d6+6 plus grab)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: breath of madness, constrict (2d6+11), energy drain (2 levels, DC 22)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +20)
+  values:
+    - label: Constant
+      value: invisibility purge
+    - label: At Will
+      value: death knell (DC 17), prayer
+    - label: 3/day
+      value: >-
+        demand (DC 23), dimensional anchor, divination, dominate person (DC 20),
+        greater command (DC 20)
+    - label: 1/day
+      value: commune, dream, unhallow
+AbilityScores:
+  - 37
+  - 10
+  - 31
+  - 25
+  - 18
+  - 20
+BaseAtk: '15'
+CMB: +32 (+36 grapple)
+CMD: 42 (can't be tripped)
+Feats:
+  - Awesome Blow
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Acrobatics +18 (+14 when jumping)
+  - Intimidate +23
+  - Knowledge (arcana) +25
+  - Knowledge (history) +22
+  - Knowledge (nature) +22
+  - Knowledge (planes) +25
+  - Knowledge (religion) +22
+  - Perception +22
+  - Sense Motive +22
+  - Spellcraft +25
+  - Stealth +6
+  - Survival +19
+  - Swim +36
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - Infernal
+  - Thassilonian
+  - Undercommon
+Source: AP 65
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath of Madness (Su)
+    description: >-
+      Ognathooga can exhale a cloud of foul-smelling, narcotic breath as a
+      standard action once every minute. This black smoke fills a 60-foot cone.
+      All creatures in the area take 1d6 points of Wisdom damage and become
+      confused for 1d6 rounds (a successful DC 27 Will save halves the Wisdom
+      damage and negates the confusion effect). This is a mind-affecting poison
+      effect. The save DC is Constitution-based.
+DuringCombat: >-
+  Ognathooga starts combat by attempting to dominate one of the PCs while
+  herself remaining hidden mostly underwater. If she manages to dominate the PC,
+  she uses her control to lure the rest of the party any way she can into the
+  waters of the lake, where she then risks losing control of her dominated
+  minion by ordering it to attack its allies. She uses demand and other
+  spell-like abilities to try to scatter the PCs, so that she can then swim in
+  and attack them one at a time. Note that while in the area of effect of the
+  abysium reactor, two of her abilities (transdimensional tentacles and warp
+  dimensions) do not work-Ognathooga is unlikely to pursue the PCs beyond area
+  D6, but if she does, these abilities (detailed in full on page 406 of Rise of
+  the Runelords Anniversary Edition) function normally.
+Morale: >-
+  If brought below 75 hit points, Ognathooga retreats to area D3. If encountered
+  there, she fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3698'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

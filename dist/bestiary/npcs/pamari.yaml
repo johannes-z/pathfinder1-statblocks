@@ -1,0 +1,102 @@
+Name: Pamari
+CR: '3'
+XP: '800'
+Race: ifrit
+Class: sorcerer 4
+MonsterSource: Pathfinder RPG Bestiary 2 160
+Alignment: CN
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 17, touch 13, flat-footed 14
+AC_Mods: (+4 armor, +3 Dex)
+HP: '28'
+HD: (4d6+12)
+Saves: Fort +2, Ref +4, Will +4
+Fort: '2'
+Ref: '4'
+Will: '4'
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - dagger +1 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: fire ray (1d6+2 fire, 7/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: 1/day
+      value: burning hands (DC 15)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 4th; concentration +8)
+  values:
+    - label: 2nd (4/day)
+      value: scorching ray
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 15), enlarge person (DC 15), magic missile, ray of
+        enfeeblement (DC 15)
+    - label: 0 (at will)
+      value: >-
+        acid splash, daze (DC 14), flare (DC 14), read magic, resistance, touch
+        of fatigue (DC 14)
+AbilityScores:
+  - 8
+  - 16
+  - 13
+  - 10
+  - 10
+  - 18
+BaseAtk: '2'
+CMB: '1'
+CMD: '14'
+Feats:
+  - Eschew Materials
+  - Improved Initiative
+  - Toughness
+Skills:
+  - Diplomacy +8
+  - Knowledge (planes) +4
+  - Spellcraft +6
+Languages:
+  - Common
+  - Ignan
+Source: PFS 8-2
+IsTemplate: '0'
+Gender: Female
+Bloodline: efreetiUM
+BeforeCombat: >-
+  Pamari casts mage armor on herself. The effects of this spell are included in
+  her statistics.
+DuringCombat: >-
+  Pamari tries to keep her distance, attacking enemies with ranged spells. If
+  she is reduced to 10 hit points or fewer, she uses her scroll of mirror image
+  and tries to heal herself with her potion of cure moderate wounds.
+Morale: >-
+  If Jathune falls unconscious and Pamari is reduced to 8 hit points or fewer,
+  she attempts to flee, surrendering if fleeing seems unlikely to succeed.
+Gear: >-
+  potion of cure moderate wounds, scroll of create pitAPG, scroll of mirror
+  image, scroll of see invisibility, wand of mage armor (CL 3rd, 10 charges)
+OtherGear: dagger, courtier's outfit, 20 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without mage armor, Pamari's statistics are AC 13, flat-footed 10.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11548'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

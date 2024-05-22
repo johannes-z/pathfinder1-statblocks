@@ -1,0 +1,136 @@
+Name: Onenphexia
+CR: '12'
+XP: '19200'
+Race: cyclops
+Class: oracle 10
+MonsterSource: Pathfinder RPG Bestiary 52, Pathfinder RPG Advanced Player's Guide 42
+Alignment: NE
+Size: Large
+Type: humanoid
+SubType: (giant)
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +16
+AC: 26, touch 13, flat-footed 25
+AC_Mods: (+6 armor, +3 deflection, +1 Dex, +7 natural, -1 size)
+HP: '175'
+HD: (20d8+85)
+Saves: >-
+  Fort +15, Ref +11, Will +16; +2 vs. death effects, disease, mind- affecting
+  effects, poison, sleep, and stunning
+Fort: '15'
+Ref: '11'
+Will: '16'
+Save_Mods: >-
+  +2 vs. death effects, disease, mind- affecting effects, poison, sleep, and
+  stunning
+DefensiveAbilities: ferocity
+Speed: 40 ft.
+Melee:
+  - +2 scythe +21/+16/+11 (2d6+9/x4)
+Ranged:
+  - mwk heavy crossbow +15 (2d8/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: channel negative energy 7/day (command undead only, DC 19)
+SpellsKnown:
+  header: Oracle Spells Known (CL 10th; concentration +14)
+  values:
+    - label: 5th (3/day)
+      value: >-
+        greater forbid actionUM (DC 19), mass inflict light wounds (DC 20), slay
+        living (DC 20), telekinesis
+    - label: 4th (6/day)
+      value: >-
+        fear (DC 19), freedom of movement, inflict critical wounds (DC 19),
+        unholy blight (DC 18)
+    - label: 3rd (7/day)
+      value: >-
+        animate dead, contagion (DC 18), dispel magic, inflict serious wounds
+        (DC 18), wrathful mantleAPG
+    - label: 2nd (7/day)
+      value: >-
+        desecrate, false life, hold person (DC 16), inflict moderate wounds (DC
+        17), levitate, minor image (DC 16), oracle's burdenAPG (DC 17), silence
+        (DC 16)
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 16), divine favor, doom (DC 16), hide from undead (DC
+        15), inflict light wounds (DC 16), murderous commandUM (DC 15), shield
+        of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), detect magic, ghost sound (DC 14), guidance, light, mage
+        hand, mending, purify food and drink, read magic, sparkAPG, virtue
+AbilityScores:
+  - 21
+  - 12
+  - 17
+  - 8
+  - 19
+  - 18
+BaseAtk: '14'
+CMB: +20 (+22 bull rush)
+CMD: 34 (36 vs. bull rush)
+Feats:
+  - Combat Casting
+  - Command UndeadB
+  - Extra Revelation (2)
+  - Improved Bull Rush
+  - Improved Initiative
+  - Lightning Reflexes
+  - Martial Weapon Proficiency (scythe)
+  - Power Attack
+  - Spell Focus (necromancy)
+  - Weapon Focus (scythe)
+Skills:
+  - Diplomacy +12
+  - Heal +12
+  - Intimidate +12
+  - Knowledge (religion) +10
+  - Perception +16
+  - Sense Motive +12
+  - Spellcraft +10
+Languages:
+  - Common
+  - Cyclops
+  - Giant
+SQ: >-
+  flash of insight, oracle's curse (haunted), revelations (armor of bones, near
+  death, raise the dead 2/day [4 rounds], soul siphon 1/day [4 minutes, 10 hp],
+  undead servitude)
+Source: AP 94
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Onenphexia activates her armor of bones revelation and casts false life,
+  shield of faith, and wrathful mantle at the first sign of trouble.
+DuringCombat: >-
+  Onenphexia casts greater forbid action to prevent foes from attacking, then
+  targets them with contagion, slay living, unholy blight, and the like. She
+  employs her soul siphon revelation against well-armed opponents and targets
+  spellcasters with hold person and silence. She also uses telekinesis to push
+  enemies out of the room and into the chasm outside (area T17). Onenphexia can
+  also summon a fast zombie minion with her raise the dead revelation to protect
+  her flank or dispatch fallen enemies.
+Morale: Onenphexia fights to the death.
+Gear: >-
+  +2 scythe, mwk heavy crossbow with 10 bolts, headband of mental prowess +4
+  (Wis, Cha), ioun torchUE
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: bones
+CompanionFamiliarLink: '0'
+id: '6948'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

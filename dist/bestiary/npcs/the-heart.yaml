@@ -1,0 +1,103 @@
+Name: The Heart
+CR: '8'
+XP: '4800'
+Race: Tenebrous tendriculos
+MonsterSource: Pathfinder RPG Bestiary 2 259, The Tome of Horrors Complete 737
+Alignment: NE
+Size: Huge
+Type: outsider
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +7
+AC: 25, touch 7, flat-footed 25
+AC_Mods: (-1 Dex, +18 natural, -2 size)
+HP: '94'
+HD: (9d8+54)
+HP_Mods: regeneration 10 (midnight mirror shard)
+Saves: Fort +12, Ref +4, Will +4
+Fort: '12'
+Ref: '4'
+Will: '4'
+Immune: acid, plant traits
+Weaknesses: light blindness
+Speed: 20 ft.
+Melee:
+  - bite +12 (3d6+8 plus 2d6 acid and grab), 2 tentacles +7 (1d8+4 plus grab)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  bristles (DC 20), paralysis (3d6 rounds, DC 20), swallow whole (2d6 acid
+  damage plus paralysis, AC 19, 9 hp)
+AbilityScores:
+  - 26
+  - 9
+  - 22
+  - 3
+  - 8
+  - 5
+BaseAtk: '6'
+CMB: +16 (+20 grapple)
+CMD: 25 (can't be tripped)
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Stealth)
+Skills:
+  - Perception +7
+  - Stealth +1 (+9 in undergrowth)
+RacialMods: +8 Stealth in undergrowth
+Languages:
+  - Shadowtongue (cannot speak)
+Source: The Midnight Mirror
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bristles (Ex)
+    description: >-
+      A tenebrous creature's head is covered in many small filaments that inject
+      a deadly poison into any living creature that comes into contact with
+      them. An opponent attacking a tenebrous creature with natural weapons or
+      unarmed attacks must succeed at a DC 20 Reflex save or contact the many
+      bristles that cover the tenebrous creature's head and be subjected to its
+      poison. On a failed Reflex save, the opponent is paralyzed for 1d4 rounds.
+      Immediately after the paralysis wears off, the opponent must succeed at a
+      DC 20 Fortitude save or take 2d6 Str damage. A neutralize poison spell
+      removes the effects of the poison and, if cast before an opponent makes
+      its Fortitude save, prevents the need for such. Creatures with resistance
+      to poison receive their normal bonus on their saving throws, and creatures
+      immune to poison are unaffected by a tenebrous creature's bristles.
+  - name: Regeneration (Ex)
+    description: >-
+      Only damage dealt by a shard of the midnight mirror can suppress the
+      Heart's regeneration ability. If the Heart would normally be killed by a
+      different effect, it returns to life and full health after 1d4 hours.
+BeforeCombat: >-
+  The Heart is aware of everything that happens within the midnight mirror and
+  cannot be surprised.
+DuringCombat: >-
+  The Heart is immobile and nearly mindless, so it fights using only rudimentary
+  tactics, biting PCs and striking them with its tentacles until they leave its
+  courtyard.
+Morale: >-
+  The Heart is inexorably connected to the demiplane of the midnight mirror and
+  has no alternative but to fight until destroyed. If the Heart is reduced to 0
+  or fewer hit points while its regeneration ability still functions, it takes
+  1d4 hours to regenerate to its full capabilities and does not actively attack
+  or waylay the PCs in any way during this time.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2763'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

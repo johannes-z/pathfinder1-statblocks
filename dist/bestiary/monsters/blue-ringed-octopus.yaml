@@ -1,0 +1,87 @@
+Name: Blue-Ringed Octopus
+CR: 1/2
+XP: '200'
+Alignment: 'N'
+Size: Tiny
+Type: animal
+SubType: (aquatic)
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +1
+AC: 17, touch 17, flat-footed 12
+AC_Mods: (+5 Dex, +2 size)
+HP: '4'
+HD: (1d8)
+Saves: Fort +2, Ref +7, Will +1
+Fort: '2'
+Ref: '7'
+Will: '1'
+DefensiveAbilities: ink cloud
+Speed: 20 ft., swim 30 ft., jet 60 ft.
+Melee:
+  - bite +7 (1d2-1 plus poison), tentacles +5 (grab)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+AbilityScores:
+  - 8
+  - 21
+  - 10
+  - 2
+  - 13
+  - 3
+BaseAtk: '0'
+CMB: +3 (+7 grapple)
+CMD: 12 (can't be tripped)
+Feats:
+  - MultiattackB
+  - Weapon Finesse
+Skills:
+  - Escape Artist +15
+  - Stealth +25
+  - Swim +13
+RacialMods: +10 Escape Artist, +8 Stealth Special Attacks poison
+Environment: temperate or cold aquatic
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  Presented here are the base animal statistics for all of the most commonly
+  used familiars-of course, these statistics can also be used for normal animals
+  as well. Small animals like these use Dexterity to modify Climb and Swim
+  checks.
+Group: Familiar
+Source: Ultimate Magic
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ink Cloud (Ex)
+    description: >-
+      While within water, an octopus can emit a 5-foot-radius sphere of ink once
+      per minute as a swift action. This ink provides total concealment and
+      persists for 1 minute.
+  - name: Jet (Ex)
+    description: >-
+      The octopus can jet 60 feet in a straight line as a fullround action. This
+      does not provoke attacks of opportunity.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 10; frequency 1/round for 6 rounds; effect 1
+      Str; cure 1 save.
+Description:
+  - >-
+    Blue-ringed octopuses are aquatic animals capable of a surprising amount of
+    cunning. They cannot survive out of water.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1782'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

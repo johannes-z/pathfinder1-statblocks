@@ -1,0 +1,89 @@
+Name: Fiendblood Gardener
+CR: 1/2
+XP: '200'
+Race: human
+Class: ex-druid 2
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +7
+AC: 12, touch 10, flat-footed 12
+AC_Mods: (+2 armor)
+HP: '13'
+HD: (2d8+4)
+Saves: Fort +4, Ref +2, Will +5
+Fort: '4'
+Ref: '2'
+Will: '5'
+Speed: 30 ft.
+Melee:
+  - mwk sickle +3 (1d6+1)
+  - unarmed strike +2 (1d3+1 nonlethal plus disease)
+Ranged:
+  - sling +1 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: disease
+AbilityScores:
+  - 12
+  - 10
+  - 12
+  - 10
+  - 15
+  - 12
+BaseAtk: '1'
+CMB: '2'
+CMD: '12'
+Feats:
+  - Improved Initiative
+  - Lightning Reflexes
+Skills:
+  - Bluff +2
+  - Handle Animal +5
+  - Heal +6
+  - Knowledge (nature) +4
+  - Perception +7
+  - Survival +7
+Languages:
+  - Common
+  - Druidic
+Source: PFS S1-43
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: Any PC injured by a gardener's unarmed strike risks palepox infection.
+Gender: Male
+BeforeCombat: >-
+  If the gardeners hear the PCs approaching, they move to the center of the
+  field and load their slings. Should the PCs approach stealthily, the gardeners
+  are tending the flowers in randomly determined locations around the field. The
+  gardeners are all infected with palepox.
+DuringCombat: >-
+  The gardeners attempt to lure the PCs into the flamebloom field, hoping to
+  infect them. If forced into melee, they use their garden tools (sickles) to
+  fend off the attackers. They throw tanglefoot bags at any PCs attempting to
+  flee the field, should the PCs uncover the flowers' contagious nature.
+Morale: The gardeners fight to the death.
+Gear: potion of cure light wounds, tanglefoot bag
+OtherGear: >-
+  masterwork leather armor, masterwork sickle, sling with 10 bullets, masterwork
+  gardening tools, shovel, silk rope (50 ft.)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Con 14, Cha 13
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4238'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

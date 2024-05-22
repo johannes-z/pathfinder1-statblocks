@@ -1,0 +1,104 @@
+Name: Losoni
+CR: '4'
+XP: '1200'
+Race: dryad
+Class: swashbuckler 2
+MonsterSource: Pathfinder RPG Bestiary 116, Pathfinder RPG Advanced Class Guide 56
+Alignment: CG
+Size: Medium
+Type: fey
+Init: '6'
+Senses:
+  - low-light vision
+  - Perception +10
+AC: 19, touch 16, flat-footed 13
+AC_Mods: (+6 Dex, +3 natural)
+HP: '50'
+HD: (8 HD; 6d6+2d10+18)
+Saves: Fort +4, Ref +14, Will +7
+Fort: '4'
+Ref: '14'
+Will: '7'
+DefensiveAbilities: charmed life 3/day
+DR: 5/cold iron
+Weaknesses: tree dependent
+Speed: 30 ft.
+Melee:
+  - greenwoodUE terbutjeUE +13 (1d8+6/19-20)
+Ranged:
+  - greenwoodUE longbow +13 (1d8/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: deeds (derring-do, dodging panache, opportune parry and riposte), panache (5)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +11)
+  values:
+    - label: Constant
+      value: speak with plants
+    - label: At Will
+      value: entangle (DC 16), tree shape, wood shape (1 lb. only)
+    - label: 3/day
+      value: charm person (DC 16), deep slumber (DC 17), tree stride
+    - label: 1/day
+      value: suggestion (DC 17)
+AbilityScores:
+  - 14
+  - 23
+  - 15
+  - 12
+  - 15
+  - 20
+BaseAtk: '5'
+CMB: '7'
+CMD: '23'
+Feats:
+  - Point-Blank Shot
+  - Slashing Grace
+  - Weapon Focus (longbow)
+  - Weapon Focus (terbutje)
+Skills:
+  - Acrobatics +15
+  - Bluff +14
+  - Climb +10
+  - Craft (sculpture) +10
+  - Escape Artist +15
+  - Knowledge (geography) +10
+  - Knowledge (nature) +10
+  - Perception +10
+  - Stealth +15
+Languages:
+  - Common
+  - Elven
+  - Sylvan
+  - speak with plants
+SQ: >-
+  clonal tree stride, swashbuckler finesse, tree meld, wild empathy +17,
+  woodcraft
+Source: AP 103
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Clonal Tree Stride (Su)
+    description: >-
+      Rather than being bonded to a single tree, Losoni is bonded to the entire
+      clonal colony of titan aspen that supports the Court of Spears. Because
+      the titan aspen is a single organism, Losoni can use his tree stride
+      spell-like ability to enter one trunk of the titan aspen, teleport to
+      another trunk in the colony, and emerge from the new trunk, all as a move
+      action rather than as a full-round action.
+Gender: Male
+Gear: greenwoodUE longbow with 20 arrows, greenwoodUE terbutjeUE
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7802'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

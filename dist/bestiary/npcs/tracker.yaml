@@ -1,0 +1,107 @@
+Name: Tracker
+CR: '6'
+XP: '2400'
+Race: Elf
+Class: hunter 7
+MonsterSource: Pathfinder RPG Advanced Class Guide 26
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +13
+AC: 21, touch 14, flat-footed 17
+AC_Mods: (+4 armor, +4 Dex, +3 natural)
+HP: '56'
+HD: (7d8+21)
+Saves: Fort +6, Ref +9, Will +3; +2 vs. enchantments
+Fort: '6'
+Ref: '9'
+Will: '3'
+Save_Mods: +2 vs. enchantments
+Immune: sleep
+Speed: 30 ft.
+Melee:
+  - mwk elven curve blade +7 (1d10+1/18-20)
+Ranged:
+  - +1 composite longbow +11 (2d6+2/19-20x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Hunter Spells Known (CL 7th; concentration +8)
+  values:
+    - label: 3rd (1/day)
+      value: greater chameleon strideACG, strong jawAPG, summon nature's ally III
+    - label: 2nd (3/day)
+      value: >-
+        barkskin, hunter's eyeAPG, stone callAPG, summon nature's ally II,
+        versatile weaponAPG
+    - label: 1st (5/day)
+      value: >-
+        aspect of the falconAPG, gravity bowAPG, residual trackingAPG (2),
+        resist energy, tireless pursuitAPG
+    - label: 0 (at will)
+      value: >-
+        create water, flare (DC 11), know direction, light, purify food and
+        drink, stabilize
+AbilityScores:
+  - 12
+  - 18
+  - 12
+  - 12
+  - 13
+  - 8
+BaseAtk: '5'
+CMB: '6'
+CMD: '20'
+Feats:
+  - Coordinated Shot
+  - Deadly Aim
+  - Lookout
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Shot
+  - Toughness
+Skills:
+  - Acrobatics +10
+  - Escape Artist +10
+  - Handle Animal +9
+  - Perception +13
+  - Ride +13
+  - Stealth +18
+  - Survival +11
+RacialMods: +2 Perception
+Languages:
+  - Common
+  - Elven
+  - Sylvan
+SQ: >-
+  animal companion (tiger), animal focus (7 minutes/day), elven magic, hunter
+  tactics, improved empathic link, nature training, track +3, wild empathy +6,
+  woodland stride
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  A tracker casts aspect of the falcon, barkskin, and gravity bow on himself and
+  strong jaw on his tiger.
+Gear: wand of cure light wounds (20 charges)
+OtherGear: >-
+  mwk chain shirt, +1 composite longbow (+1 Str), mwk elven curve blade, cloak
+  of elvenkind, 30 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '8972'
+id: '8971'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

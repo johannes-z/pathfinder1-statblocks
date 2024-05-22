@@ -1,0 +1,89 @@
+Name: Decapus
+CR: '3'
+XP: '800'
+Race: Decapus
+MonsterSource: Tome of Horrors Revised 93
+Alignment: CE
+Size: Medium
+Type: aberration
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 15, touch 11, flat-footed 14
+AC_Mods: (+1 Dex, +4 natural)
+HP: '26'
+HD: (4d8+8)
+Saves: Fort +3, Ref +2, Will +6
+Fort: '3'
+Ref: '2'
+Will: '6'
+Speed: 10 ft., climb 30 ft.
+Melee:
+  - 9 tentacles +5 (1d4+2 plus grab)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with tentacles)
+SpecialAttacks: constrict (1d4+2)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +6)
+  values:
+    - label: At will
+      value: minor image (DC 13)
+AbilityScores:
+  - 14
+  - 13
+  - 15
+  - 10
+  - 11
+  - 12
+BaseAtk: '3'
+CMB: +5 (+9 grapple)
+CMD: 16 (can't be tripped)
+Feats:
+  - Iron Will
+  - Power Attack
+Skills:
+  - Climb +17
+  - Escape Artist +8
+  - Perception +7
+  - Stealth +8
+Languages:
+  - Decapus
+SQ: sound imitation, uncanny climber
+Source: AP 38
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Sound Imitation (Ex)
+    description: >-
+      A decapus can mimic any creature it has previously encountered with near
+      total accuracy, though it cannot mimic humanoid speech for more than two
+      or three words at a time. A DC 13 Will save detects the ruse. The save DC
+      is Charisma-based.
+  - name: Uncanny Climber (Su)
+    description: >-
+      A decapus can climb with ease, as if using spider climb. It can use the
+      accelerated climb action to cover any distance up to four times its climb
+      speed, with each check allowing it to climb a distance equal to its climb
+      speed. Climbing a distance equal to or less than its climb speed is a
+      move-equivalent action.
+DuringCombat: >-
+  The decapus hangs on to the side of the pit with one tentacle and attacks with
+  the rest, but it can only use three tentacles at a time against a single foe.
+  It makes no distinction between the PCs and the charau-ka, attacking whoever
+  is within its reach.
+Morale: The decapus flees back into the pit if reduced to 8 hit points or fewer.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '952'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

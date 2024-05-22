@@ -1,0 +1,87 @@
+Name: Fire Giant Zyphus Zombie
+CR: '7'
+XP: '3200'
+Race: Fire Giant Zyphus Zombie
+Alignment: NE
+Size: Large
+Type: undead
+SubType: (fire)
+Init: '-2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 18, touch 7, flat-footed 18
+AC_Mods: (+8 armor, -2 Dex, +3 natural, -1 size)
+HP: '93'
+HD: (17d8+17)
+Saves: Fort +5, Ref +5, Will +10
+Fort: '5'
+Ref: '5'
+Will: '10'
+DR: 5/slashing
+Immune: fire, undead traits
+Weaknesses: vulnerability to cold
+Speed: 30 ft.
+Melee:
+  - slam +23 (1d8+16)
+Space: 10 ft.
+Reach: 10 ft.
+AbilityScores:
+  - 33
+  - 7
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '12'
+CMB: '22'
+CMD: '30'
+Feats:
+  - Toughness
+Source: PFS S1-49
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Staggered (Ex)
+    description: >-
+      Zombies have poor reflexes and can only perform a single move action or
+      standard action each round. A zombie can move up to its speed and attack
+      in the same round as a charge action.
+  - name: Zyphus Rot (Su)
+    description: >-
+      When a Zyphus zombie kills a living creature and feeds on it, the zombie
+      passes on a magical disease called Zyphus rot that causes the victim to
+      quickly animate and rise as a zombie in 1d4 minutes. Once risen, the new
+      zombie no longer carries Zyphus rot and can't pass it to another living
+      creature. A corpse can be "cured" of Zyphus rot by receiving a cure
+      disease spell prior to reanimation. A Zyphus zombie cannot be cured of the
+      disease unless the artifact that caused it is destroyed. Any creature with
+      more than 10 HD is immune to the effects of Zyphus rot. Zyphus rot only
+      affects corporeal creatures (other than undead) that have a skeletal
+      system.
+BeforeCombat: >-
+  The zombie stands in the northeast hallway of the crypt. Once he hears the
+  PCs, he moves down the 10-foot-wide hallway toward A2, but stops at the pit
+  (T3). Having already stepped into the pit once, he knows not to try to cross
+  it.
+DuringCombat: >-
+  Should the PCs spot the zombie and ignore him, he wanders north and comes at
+  the PCs from another angle (he will not cross T3). He attacks the first PC he
+  sees and mindlessly bludgeons her until she's unconscious before shifting to
+  the next nearest PC.
+Morale: The zombie fights until destroyed.
+Gear: half-plate
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4491'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

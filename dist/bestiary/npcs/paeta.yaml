@@ -1,0 +1,107 @@
+Name: Paeta
+CR: '10'
+XP: '9600'
+Race: phase spider
+Class: rogue 8
+MonsterSource: Pathfinder RPG Bestiary 226
+Alignment: NE
+Size: Large
+Type: magical beast
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +19
+AC: 24, touch 19, flat-footed 17
+AC_Mods: (+3 deflection, +6 Dex, +1 dodge, +5 natural, -1 size)
+HP: '133'
+HD: (14 HD; 6d10+8d8+64)
+Saves: Fort +11, Ref +17, Will +6
+Fort: '11'
+Ref: '17'
+Will: '6'
+DefensiveAbilities: ethereal jaunt, evasion, improved uncanny dodge, trap sense +2
+Speed: 40 ft., climb 20 ft.
+Melee:
+  - bite +18 (2d6+7 plus poison and grab)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: ethereal ambush, poison, sneak attack +4d6
+SpellLikeAbilities:
+  header: Rogue Spell-Like Abilities (CL 8th, concentration +9)
+  values:
+    - label: 3/day
+      value: message
+    - label: 2/day
+      value: alarm
+AbilityScores:
+  - 20
+  - 22
+  - 18
+  - 12
+  - 15
+  - 8
+BaseAtk: '12'
+CMB: +18 (+22 grapple)
+CMD: 38 (50 vs. trip)
+Feats:
+  - Ability Focus (poison)
+  - Dodge
+  - Improved Initiative
+  - Lunge
+  - Skill Focus (Stealth)
+  - Weapon Finesse
+  - Weapon Focus (bite)
+  - Wind Stance
+Skills:
+  - Acrobatics +23 (+27 when jumping)
+  - Climb +30
+  - Intimidate +16
+  - Knowledge (local) +5
+  - Knowledge (planes) +5
+  - Linguistics +5
+  - Perception +19
+  - Sleight of Hand +23
+  - Stealth +25
+Languages:
+  - Aklo
+  - Common
+  - Cyclops
+SQ: >-
+  rogue talents (finesse rogue, major magic, minor magic, surprise attack),
+  trapfinding +4
+Source: AP 58
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 19; frequency 1/round for 8 rounds; effect 1d2
+      Con; cure 2 consecutive saves.
+Gender: Female
+BeforeCombat: >-
+  Paeta casts alarm on the tower's main doors and the stairs to area B30 every
+  day.
+DuringCombat: >-
+  Paeta uses her ethereal ambush ability to make poisoned sneak attacks,
+  repeating this tactic on as many intruders as possible to weaken or kill them.
+  She then grabs a physically weaker opponent and drags the victim up the tower
+  wall to use as a bargaining chip to force the others to do her bidding.
+Morale: >-
+  Paeta has no wish to die in Haetanga's service. If reduced to 30 hit points or
+  fewer, she flees to the Ethereal Plane and reports to her mistress, who likely
+  comes to investigate the PCs herself soon afterward.
+Gear: ring of protection +3
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3123'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

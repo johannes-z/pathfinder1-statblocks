@@ -1,0 +1,145 @@
+Name: Uggoth
+CR: '8'
+XP: '4800'
+Alignment: CE
+Size: Medium
+Type: aberration
+Init: '6'
+Senses:
+  - darkvision 60 ft., detect thoughts
+  - Perception +16
+AC: 22, touch 13, flat-footed 19
+AC_Mods: (+2 Dex, +1 dodge, +9 natural)
+HP: '67'
+HD: (9d8+27)
+Saves: Fort +6, Ref +7, Will +12
+Fort: '6'
+Ref: '7'
+Will: '12'
+DefensiveAbilities: spell reflection
+DR: 10/cold iron
+SR: '19'
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - 2 claws +10 (1d4+4), 4 tentacles +10 (1d6+4 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: mind thrust
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: >-
+        charm person (DC 16), detect thoughts (DC 17), hypnotic pattern (DC 17),
+        suggestion (DC 18)
+    - label: 1/day
+      value: charm monster (DC 20), mass suggestion (DC 21), plane shift (DC 22)
+AbilityScores:
+  - 19
+  - 15
+  - 17
+  - 19
+  - 19
+  - 21
+BaseAtk: '6'
+CMB: +10 (+14 grapple)
+CMD: '23'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+Skills:
+  - Bluff +14
+  - Diplomacy +14
+  - Intimidate +17
+  - Knowledge (any one) +13
+  - Knowledge (arcana) +16
+  - Perception +16
+  - Sense Motive +13
+  - Spellcraft +12
+  - Swim +12
+  - Use Magical Device +9
+Languages:
+  - Aquan
+  - Common
+  - Draconic
+  - Undercommon
+SQ: water breathing
+Environment: any underground
+Organization: solitary or gang (2-4)
+Treasure: standard
+Description_Visual: >-
+  This hideous humanoid creature has the lower torso of an octopus and the upper
+  torso of a human. Two long tentacles protrude from each side of the creature's
+  body, just beneath its arms. Its head, while vaguely human, is hairless and
+  features an elongated skull.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Mind Thrust (Su)
+    description: >-
+      Three times per day, a uggoth can unleash a blast of mental energy at a
+      single target within 40 feet. The blast deals 8d6 points of damage to a
+      single target if it fails a DC 24 Will save. This is a mind-affecting
+      effect. The save DC is Charisma-based.
+  - name: Spell Reflection (Su)
+    description: >-
+      Any spell that fails to overcome a uggoth's spell resistance is reflected
+      back on the caster who becomes the target of the spell. Area spells still
+      affect the area around the uggoth, but the portion that would affect it is
+      reflected back on the caster.
+  - name: Tentacles (Ex)
+    description: A uggoth's tentacles are always primary attacks for the creature.
+Description:
+  - >-
+    Uggoths are subterranean creatures once bent on destruction and expanding
+    their own realm from the underworld to the surface world. Legends say the
+    uggoth race was formed when a band of ancient humans offended their gods and
+    were forever cursed. Scholars cannot verify or disprove this origin myth.
+  - >-
+    Uggoths dwell in great underground cities, most of which are built and
+    maintained by slave labor. Once an ambitious race with desires to rule both
+    underground and aboveground, uggoths now spend most of their time lounging
+    in their homes or in public places within the uggoth cities partaking of
+    various dream-inducing narcotics. They are still very active in trade,
+    usually trading with other evil-aligned subterranean races. In exchange for
+    various foods, manufactured weapons, and spices, the uggoth receive slaves,
+    exotic herbs, and the like.
+  - >-
+    Uggoths stand between 6 and 7 feet tall and weigh 160 to 180 pounds. Their
+    humanoid flesh is dark amber and leathery to the touch. Their lower torsos
+    are even darker amber fading to black near the tips of the tentacles.
+    Uggoths live for 150 years typically.
+  - >-
+    A uggoth attack with its mind thrust attack in an effort to dispatch its
+    enemies as quickly and efficiently as possible. Creatures that survive are
+    attacked with various spell-like abilities and slashed or grabbed by the
+    creature's tentacles. Opponents that are killed are usually devoured on the
+    spot or carried back to the uggoth's dwelling and eaten later or fed to the
+    young. Opponents that show promise as slaves are captured instead of killed.
+    Potential slaves are carted back to the uggoth's city and placed in a public
+    slave pen where they are eventually sold to the highest bidder. Occasionally
+    the city's overseer allows the uggoth to keep captured slaves.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5090'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

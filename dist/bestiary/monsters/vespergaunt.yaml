@@ -1,0 +1,124 @@
+Name: Vespergaunt
+CR: '12'
+XP: '19200'
+Alignment: NE
+Size: Medium
+Type: ooze
+Init: '6'
+Senses:
+  - all-around vision, blindsight 60 ft., true seeing
+  - Perception +22
+Aura: madness (60 ft., DC 21)
+AC: 20, touch 12, flat-footed 18
+AC_Mods: (+2 Dex, +8 natural)
+HP: '195'
+HD: (17d8+119)
+Saves: Fort +14, Ref +9, Will +9
+Fort: '14'
+Ref: '9'
+Will: '9'
+DefensiveAbilities: amorphous,
+DR: 10/aligned
+Immune: ooze traits
+SR: '23'
+Weaknesses: light sensitivity
+Speed: 10 ft., fly 60 ft. (perfect)
+Melee:
+  - 2 slams +21 (2d8+8 plus siphon spirit)
+Space: 5 ft.
+Reach: 10 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 17th; concentration +20)
+  values:
+    - label: Constant
+      value: tongues, true seeing
+    - label: At Will
+      value: deeper darkness
+    - label: 3/day
+      value: contact other plane 1/month-wish
+AbilityScores:
+  - 27
+  - 14
+  - 24
+  - 15
+  - 15
+  - 16
+BaseAtk: '12'
+CMB: '20'
+CMD: 32 (can't be tripped)
+Feats:
+  - Alertness
+  - Combat Reflexes
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Persuasive
+  - Power Attack
+  - Weapon Focus (slam)
+Skills:
+  - Diplomacy +10
+  - Fly +15
+  - Intimidate +17
+  - Knowledge (planes) +19
+  - Perception +22
+  - Sense Motive +12
+  - Stealth +12
+Languages:
+  - tongues
+  - telepathy 100 ft.
+SQ: no breath
+Environment: any (Aucturn)
+Organization: solitary or convocation (2-4)
+Treasure: none
+Description_Visual: >-
+  This amorphous mass of eyes, tentacles, and green vapor vaguely resembles a
+  jumble of rotten brain matter.
+Source: Inner Sea Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Madness (Su)
+    description: >-
+      Any creature within a 60-foot radius of the vespergaunt must succeed at a
+      DC 21 save or be confused for 1d4 rounds. Once a creature successfully
+      saves, it cannot be affected by the same vespergaunt's aura again for 24
+      hours. As a free action, the vespergaunt can suppress its aura. This is a
+      mind-affecting effect. The save DC is Charisma-based.
+  - name: Damage Reduction (Su)
+    description: >-
+      A vespergaunt's damage reduction is bypassed by any weapons that are
+      chaos-, evil-, good-, or law-aligned.
+  - name: Siphon Spirit (Su)
+    description: >-
+      Any creature touched by a vespergaunt must succeed at a DC 21 Will save or
+      gain 1 negative level as the vespergaunt rips away a portion of its soul.
+      A divine spellcaster gains an additional negative level with each failed
+      save. The victim must save anew each time it is touched, and a character
+      killed by this attack disintegrates completely except for its eyes and
+      strands of brain matter, which become part of the vespergaunt. Only
+      powerful magic such as miracle or wish can resurrect a creature slain in
+      this manner.
+Description:
+  - >-
+    Often called "heresy oozes," vespergaunts are emissaries and tools of the
+    horrible god-things of the Dark Tapestry. Found primarily on Aucturn,
+    vespergaunts act as spiritual conduits for those attempting to contact the
+    Great Old Ones, collecting and relaying those prayers deemed worthy while
+    also preparing inhabited worlds for the coming of the Dominion of the Black.
+    A typical vespergaunt is 8 feet tall and 6 feet wide, and weighs just 50
+    pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3591'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

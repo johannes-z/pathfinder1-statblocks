@@ -1,0 +1,111 @@
+Name: Forgefiend
+CR: '10'
+XP: '9600'
+Race: Forgefiend
+MonsterSource: 'Pathfinder Adventure Path: Rise of the Runelords Anniversary Edition 409'
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (earth, extraplanar)
+Init: '6'
+Senses:
+  - see in darkness
+  - Perception +15
+AC: 25, touch 11, flat-footed 23
+AC_Mods: (+2 Dex, +14 natural, -1 size)
+HP: '137'
+HD: (11d10+77)
+Saves: Fort +14, Ref +5, Will +10
+Fort: '14'
+Ref: '5'
+Will: '10'
+Immune: fire, poison
+Resist: acid 10, cold 10
+Speed: 20 ft., burrow 20 ft., earth glide
+Melee:
+  - bite +17 (2d6+7 plus rend armor), bite +17 (1d6+7), 2 claws +17 (1d6+7)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: adamantine bite, searing spew
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +12)
+  values:
+    - label: Constant
+      value: pass without trace
+    - label: At Will
+      value: major image (DC 15), passwall, shatter (DC 14), stone shape
+    - label: 3/day
+      value: >-
+        deeper darkness, dimensional anchor, flesh to stone (DC 18), quickened
+        produce flame, wall of fire, wall of stone
+AbilityScores:
+  - 24
+  - 14
+  - 25
+  - 15
+  - 12
+  - 15
+BaseAtk: '11'
+CMB: +19 (+23 sunder)
+CMD: 31 (33 vs. sunder)
+Feats:
+  - Combat Reflexes
+  - Greater SunderB
+  - Improved Initiative
+  - Improved Iron Will
+  - Improved SunderB
+  - Iron Will
+  - Quicken Spell-Like Ability (produce flame)
+  - Vital Strike
+Skills:
+  - Acrobatics +16 (+12 when jumping)
+  - Climb +21
+  - Craft (traps) +16
+  - Disable Device +16
+  - Knowledge (dungeoneering) +16
+  - Perception +15
+  - Sense Motive +15
+  - Stealth +12
+Languages:
+  - Common
+  - Dwarven
+  - Infernal
+  - Terran
+Source: AP 118
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adamantine Bite (Ex)
+    description: >-
+      A forgefiend's bite attacks are treated as adamantine for the purposes of
+      overcoming damage reduction.
+  - name: Rend Armor (Ex)
+    description: >-
+      When a forgefiend hits with a bite attack, it chews any armor worn by the
+      target-this grants the forgefiend a free sunder attempt against armor worn
+      by the target if the victim fails a DC 22 Reflex save. A forgefiend also
+      gains Greater Sunder and Improved Sunder as bonus feats. The save DC is
+      Strength-based.
+  - name: Searing Spew (Ex)
+    description: >-
+      A forgefiend can belch forth a searing pile of slag from its body maw as a
+      standard action once every 1d4 rounds. This blob of molten metal affects
+      any 10-foot-square area adjacent to the forgefiend. Any creature in this
+      area takes 14d6 points of fire damage (Reflex DC 22 half). The slag
+      quickly cools, forming a rugged pile of worthless scrap and misshapen
+      metal that is treated as difficult terrain and crumbles to powder in 1
+      hour. The save DC is Constitution-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11480'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

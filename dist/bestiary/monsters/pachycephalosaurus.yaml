@@ -1,0 +1,97 @@
+Name: Pachycephalosaurus
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Large
+Type: animal
+Init: '2'
+Senses:
+  - low-light vision, scent
+  - Perception +8
+AC: 17, touch 11, flat-footed 15
+AC_Mods: (+2 Dex, +6 natural, -1 size)
+HP: '37'
+HD: (5d8+15)
+Saves: Fort +7, Ref +6, Will +2
+Fort: '7'
+Ref: '6'
+Will: '2'
+Speed: 40 ft.
+Melee:
+  - slam +8 (2d6+9)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: clobbering charge
+AbilityScores:
+  - 22
+  - 15
+  - 17
+  - 2
+  - 12
+  - 5
+BaseAtk: '3'
+CMB: '10'
+CMD: '22'
+Feats:
+  - Improved Bull Rush
+  - Power Attack
+  - Run
+Skills:
+  - Perception +8
+  - Stealth +2
+Environment: warm or temperate plains
+Organization: solitary or pair
+Treasure: none
+Description_Visual: >-
+  This bipedal reptile has a rounded, dome-like head adorned with bony frills
+  and ridges.
+Group: Dinosaur
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Clobbering Charge (Ex)
+    description: >-
+      When a pachycephalosaurus hits a target with its slam attack at the end of
+      a charge, it can initiate a bull rush as a free action to move the struck
+      target back in the same direction as the dinosaur's charge. The
+      pachycephalosaurus cannot move with the target of the bull rush. If a
+      pachycephalosaurus scores a critical hit against a creature with its slam
+      attack at the end of a charge, it also staggers the target for 1 round. If
+      the victim succeeds at a DC 18 Fortitude save, the stagger effect is
+      negated, but the victim still suffers the effects of the dinosaur's bull
+      rush attempt. The save DC is Strength-based.
+Description:
+  - >-
+    A pachycephalosaurus is a normally peaceful dinosaur that grows irate and
+    violent during mating season or when its herd is intruded upon by potential
+    predators. The dinosaur's skull has a distinctive dome-shaped crown
+    surrounded by numerous bony horns- this, combined with the dinosaur's
+    powerful, compact neck, allows it to make battering-ram-like charges capable
+    of inf licting great damage.
+  - Pachycephalosauruses grow to a length of 15 feet and weigh 1,400 pounds.
+  - Pachycephalosaurus Companions
+  - >-
+    Starting Statistics: Size Medium; Speed 30 ft.; AC +3 natural armor; Attack
+    gore (1d8); Ability Scores Str 15, Dex 16, Con 13, Int 2, Wis 12, Cha 5.
+  - >-
+    7th-Level Advancement: Size Large; AC +2 natural armor; Attack gore (1d10);
+    Ability Scores Str +8, Dex -2, Con +4; Special Qualities clobbering charge.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '1'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2024'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

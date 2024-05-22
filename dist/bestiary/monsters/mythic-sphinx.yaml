@@ -1,0 +1,139 @@
+Name: Mythic Sphinx
+CR: '10'
+XP: '9600'
+Alignment: 'N'
+Size: Large
+Type: magical beast
+SubType: (mythic)
+Init: '5'
+Senses:
+  - darkvision 60 ft., detect magic, low-light vision, see invisibility
+  - Perception +21
+AC: 25, touch 10, flat-footed 24
+AC_Mods: (+1 Dex, +15 natural, -1 size)
+HP: '142'
+HD: (12d10+76)
+Saves: Fort +11, Ref +9, Will +10
+Fort: '11'
+Ref: '9'
+Will: '10'
+DR: 10/epic
+Resist: electricity 30, fire 30
+SR: '21'
+Speed: 40 ft., fly 60 ft. (poor)
+Melee:
+  - 2 claws +18 (2d8+7/18-20)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  mythic power (4/day, surge +1d8), pounce, rake (2 claws +18, 2d8+7/18-20),
+  riddle, sphinx's curse
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +17)
+  values:
+    - label: Constant
+      value: >-
+        comprehend languages, detect magic, read magic, see invisibility,
+        tongues
+    - label: At Will
+      value: statue (self only)
+    - label: 3/day
+      value: clairaudience/clairvoyance, feeblemind (DC 20)
+    - label: 1/day
+      value: greater dispel magic, legend lore, locate object, remove curse
+    - label: 1/week
+      value: >-
+        any one of the following: symbol of fear (DC 21), symbol of pain (DC
+        20), symbol of persuasion (DC 21), symbol of sleep (DC 20), symbol of
+        stunning (DC 22); all symbols last for 1 week maximum
+AbilityScores:
+  - 24
+  - 13
+  - 16
+  - 18
+  - 19
+  - 21
+BaseAtk: '12'
+CMB: '20'
+CMD: 31 (35 vs. trip)
+Feats:
+  - Alertness
+  - Combat Casting
+  - Hover
+  - Improved Critical (claws)M
+  - Improved Initiative
+  - Iron WillM
+Skills:
+  - Bluff +15
+  - Diplomacy +15
+  - Fly +7
+  - Intimidate +15
+  - Knowledge (any two) +6
+  - Perception +21
+  - Sense Motive +19
+  - Spellcraft +12
+Languages:
+  - Common
+  - Draconic
+  - Sphinx
+  - comprehend languages
+  - read magic
+  - tongues
+Environment: warm deserts and hills
+Organization: solitary, pair, or cult (3-6)
+Treasure: double
+Description_Visual: >-
+  This woman has the upper body of a human queen, the lower body of a lion, a
+  snake-headed tail, and great eagle wings.
+Group: Sphinx
+Source: Mythic Adventures
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Riddle (Su)
+    description: >-
+      A mythic sphinx can expend one use of mythic power to ask a riddle of up
+      to 12 creatures within 100 feet. Each creature is compelled (Will DC 21
+      negates) to give an answer within 1 minute (creatures in combat when the
+      sphinx uses this ability gain a +4 bonus on the saving throw). The sphinx
+      gets a +4 bonus on attack rolls, damage rolls, and saving throws against
+      any creature that refuses to answer (via a successful saving throw), can't
+      answer (including if it's in an area of silence), answers incorrectly, or
+      flees the sphinx instead of answering. The bonuses from failing to solve
+      the riddle last for 24 hours. The need to answer is a compulsion,
+      mind-affecting, language-dependent enchantment effect. The save DC is
+      Charisma-based. Sphinx's
+  - name: Curse (Su)
+    description: >-
+      A mythic sphinx can expend one use of mythic power when it damages an
+      opponent with a claw attack to curse its opponent with bleeding wounds
+      (Will DC 21 negates). Whenever a cursed target takes piercing or slashing
+      damage, it takes 1d6 points of bleed damage every round for the next 1d6
+      rounds. This bleed damage stacks with itself and with all other bleed
+      effects. A creature that strikes the killing blow against a mythic sphinx
+      must succeed at a saving throw or become cursed (this requires no uses of
+      mythic power from the sphinx). The save DC is Charisma-based.
+Description:
+  - >-
+    A mythic sphinx is often given a task by a deity, such as watching over a
+    city, testing a great mortal hero, or guarding an artifact. She is gifted
+    with magic to compel obedience and curse those who would defy her commands
+    or interfere with her task.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4896'
+UniqueMonster: '0'
+MR: '4'
+Mythic: '1'
+MT: '0'

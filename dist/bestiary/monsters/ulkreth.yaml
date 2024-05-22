@@ -1,0 +1,209 @@
+Name: Ulkreth
+CR: '15'
+XP: '51200'
+Alignment: CE
+Size: Gargantuan
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '0'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +30
+AC: 30, touch 6, flat-footed 30
+AC_Mods: (+24 natural, -4 size)
+HP: '229'
+HD: (17d10+136)
+Saves: Fort +18, Ref +5, Will +12
+Fort: '18'
+Ref: '5'
+Will: '12'
+DefensiveAbilities: rock catching
+DR: 10/cold iron and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Speed: 30 ft., climb 20 ft., fly 50 ft. (clumsy)
+Melee:
+  - >-
+    gore +23 (2d8+10 plus 1d6 piercing), 4 slams +24 (2d6+10/19-20 plus 1d6
+    piercing)
+Ranged:
+  - 4 rocks +14 (3d6+10)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  boulder barrage, ground pounder, punch through, rend (2 slams, 6d6+15), rock
+  throwing (120 ft.), trample (3d6+10, DC 28), wrecker
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +17)
+  values:
+    - label: At Will
+      value: greater teleport (self plus 50 lbs. of objects only), shatter (DC 14)
+    - label: 3/day
+      value: move earth
+    - label: 1/day
+      value: earthquake, summon (level 5, 1 ulkreth or 1 omox 40%)
+AbilityScores:
+  - 30
+  - 11
+  - 26
+  - 7
+  - 14
+  - 15
+BaseAtk: '17'
+CMB: +31 (+35 overrun, +35 sunder)
+CMD: 43 (45 vs. overrun, 45 vs. sunder)
+Feats:
+  - Charge ThroughAPG
+  - Greater Overrun
+  - Greater Sunder
+  - Improved Critical (slams)
+  - Improved Overrun
+  - Improved Sunder
+  - Power Attack
+  - 'Sundering StrikeAPG '
+  - Weapon Focus (slams)
+Skills:
+  - Climb +28
+  - Intimidate +22
+  - Knowledge (engineering) +18
+  - Perception +30
+  - Swim +23
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+Environment: any (Abyss)
+Organization: solitary or crew (2-4 ulkreths)
+Treasure: standard
+Description_Visual: >-
+  This towering monstrosity is clad in cracked boulders, jagged shards of rock,
+  spars of crooked metal, and shredded steel. Four immense arms end in rocky
+  fists, and bony wings protrude from its back.
+Group: Demon
+Source: AP 73
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Boulder Barrage (Ex)
+    description: >-
+      An ulkreth can hurl up to four rocks as a full-round action or two rocks
+      as a standard action. If rocks are available (as when the ulkreth uses its
+      ground pounder ability to create rubble) it can pick up a single rock as a
+      swift action, two rocks as a move action, or four rocks as a full-round
+      action. If an ulkreth has a rock in each hand, it cannot use its rock
+      catching ability.
+  - name: Ground Pounder (Ex)
+    description: >-
+      As a standard action, an ulkreth can strike the ground with its powerful
+      fists, turning the area within a 10-foot radius into dense rubble
+      (Pathfinder RPG Core Rulebook 412). Any creatures in this area at the time
+      must succeed at a DC 26 Reflex save or fall prone. An ulkreth's movement
+      is not slowed by the rubble it creates.
+  - name: Punch Through (Ex)
+    description: >-
+      An ulkreth can use a full-attack action to make its gore and slam attacks
+      against the same opponent. The ulkreth then totals the damage from all
+      hits before applying any damage reduction or hardness.
+  - name: Wrecker (Su)
+    description: An ulkreth's rend special attack deals double damage to objects.
+Description:
+  - >-
+    Ulkreths are among the mightiest servants of the demon lord Xoveron, the
+    Horned Prince of gargoyles and lord of ruination. They exist solely to
+    destroy, carrying out his will of devastation to cities and civilization
+    throughout the planes, tearing down monuments and buildings in the name of
+    their unholy patron. Ulkreths are 25 feet tall and weigh 10 tons.
+  - Ecology
+  - >-
+    Ulkreth demons form from the souls of mortals who spread wanton destruction
+    and vandalism, burning and tearing down what others have labored long to
+    build up. Small-scale vandals do not earn damnation for simple graffiti and
+    petty breakage; ulkreths arise from those who devoted their lives to
+    bringing ruin forge their own chain of condemnation with every new act of
+    malicious deconstruction. Some do so by targeting grand works of art,
+    stately monuments, cathedrals, libraries, and historical edifices,
+    destroying not just physical structures but also the artistic and cultural
+    legacy of their own people, or of other cultures living among them. These
+    targets are singled out for defacement as a sign of the vandal's hate. The
+    pinnacle of vandalism, however, is attained by those who not only cause
+    damage to property but also murder via their sabotage-collapsing mines and
+    trapping miners to die choking in the dark; breaching dams and dikes to
+    unleash deadly floodwaters that wreak devastation; or bombing, burning, or
+    otherwise destroying homes, businesses, and other gathering places. Whether
+    done as an anarchic political statement, for revenge upon those who owned
+    the buildings, or for pure psychotic joy at watching the world crumble,
+    these are the blackest-hearted vandals of all.
+  - >-
+    The level of destruction perpetrated by mortals in life is important to
+    their lord Xoveron because while his will is bent on the ruination of every
+    civilization, tearing down the literal and figurative structures that hold
+    society together, he is still only a minor demon lord. His power is
+    insufficient to endow every servant with great abilities. Lesser vandals
+    simply do not rate a major investment of his lordly power, and if made into
+    demons at all, may be consigned to eternity as mere dretches, or as fiendish
+    gargoyles rather than actual demons. It is only those whose acts of
+    destruction are truly heinous that inspire him to transform them into
+    ulkreths.
+  - >-
+    Ulkreth demons are unusual, however, in that they can also be formed not
+    from one soul but from many, especially in the case of gangs that once
+    worked together as mortals in their acts of destruction. These joint-souled
+    ulkreths are, if anything, even more savage and destructive than their
+    fellows, as the different soul fragments bound together struggle for
+    mastery, trying to show their dominance by wreaking greater mayhem than
+    their rivals.
+  - >-
+    Ulkreths do not need to eat or drink, but they enjoy chewing and swallowing
+    powdered stone and shattered glass, twisted metal and splintered wood. They
+    consume the detritus of their destruction as a ritual of satisfaction after
+    their rampages. Some say they gain sustenance from these shattered remains
+    and claim that if ulkreths are prevented from destroying for too long, they
+    can actually waste away and die of starvation, though planar scholars know
+    that outsiders don't need to eat to live. Ulkreths cannot reproduce
+    biologically and are propagated only by the transformation of new souls into
+    ulkreths.
+  - Habitat & Society
+  - >-
+    Most ulkreths inhabit the endless ruins of Ghahazi, the hearth of their
+    master Xoveron. There they tend groves of fiendish treants that wait amidst
+    the ruins, crumbling foundation stones with their defiled roots even as they
+    stand ready to batter and smash at the ulkreths' command. Flights of
+    fiendish gargoyles wheel constantly overhead, making aeries of the shattered
+    spires of the Horned Prince's city and flocking ahead of the ulkreths when
+    they march. Xoveron often barters the service of his ulkreths with other
+    demon lords or their generals, especially in siege situations where demonic
+    teleportation is of no avail and defenses must be breached with naked
+    strength. Ulkreths may be kept back as artillery, but they chafe under
+    efforts to suppress their urges to sunder and smash and have often been
+    known to abandon their orders and wade directly into a fray or smash down
+    gates and walls with their bare fists.
+  - >-
+    On the Material Plane, the cultists of Xoveron and his gargoyle minions
+    stand sentinel against the encroachment of civilization, ready to foil its
+    ambitious reach towards eternity. When his minions report cities growing too
+    great, too lovely, or too proud, Xoveron tempts mortals with a gluttonous
+    hunger for power and a jealous pride and rage toward their fellows that
+    drives them to call forth a ulkreth demon. Mortal gargoyles can sense the
+    presence of one of their master's favored servants and flock to its side to
+    swoop hooting and screeching overhead as the wrecker commences a reign of
+    terror. Of course, ulkreths are notoriously indiscriminate about their
+    destruction, and those summoning them must be very careful not to become
+    casualties of the ulkreth's rampage.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4841'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

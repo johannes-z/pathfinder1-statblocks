@@ -1,0 +1,159 @@
+Name: The Angel Knight
+CR: '25'
+XP: '1638400'
+Race: solar angel
+Class: paladin 5
+MonsterSource: Pathfinder RPG Bestiary 12
+Alignment: LG
+Size: Large
+Type: outsider
+SubType: (angel, extraplanar, good)
+Init: '8'
+Senses:
+  - >-
+    darkvision 60 ft., detect evil, detect snares and pits, low-light vision,
+    true seeing
+  - Perception +34
+Aura: courage (10 ft.), protective aura
+AC: 46, touch 13, flat-footed 42
+AC_Mods: (+14 armor, +3 Dex, +1 dodge, +19 natural, -1 size| +4 deflection vs. evil)
+HP: '582'
+HD: (27d10+434)
+HP_Mods: regeneration 15 (evil artifacts, effects and spells)
+Saves: Fort +43, Ref +23, Will +37; +4 resistance vs. evil, +4 vs. poison
+Fort: '43'
+Ref: '23'
+Will: '37'
+Save_Mods: +4 resistance vs. evil, +4 vs. poison
+DR: 15/epic and evil
+Immune: acid, cold, disease, fear, petrification
+Resist: electricity 10, fire 10
+SR: '34'
+Speed: 35 ft., fly 150 ft. (good)
+Melee:
+  - +2 holy vorpal longsword +42/+37/+32/+27 (2d6+16/17-20 plus 2d6 vs. evil)
+  - slam +35 (2d8+7)
+Ranged:
+  - +5 composite longbow +35/+30/+25/+20 (2d6+19/x3 plus slaying arrow)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  channel positive energy 5/day (DC 21, 3d6), smite evil 2/day (+9 attack and
+  AC, +27 damage)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +29)
+  values:
+    - label: Constant
+      value: detect evil, detect snares and pits, discern lies (DC 23), true seeing
+    - label: At Will
+      value: >-
+        aid, animate objects, commune, continual flame, dimensional anchor,
+        greater dispel magic, holy smite (DC 23), imprisonment (DC 28),
+        invisibility (self only), lesser restoration, remove curse, remove
+        disease, remove fear, resist energy, speak with dead (DC 22), summon
+        monster VII, waves of fatigue
+    - label: 3/day
+      value: >-
+        blade barrier (DC 25), earthquake, heal, mass charm monster (DC 27),
+        permanency, resurrection, waves of exhaustion
+    - label: 1/day
+      value: >-
+        greater restoration, power word blind, power word kill, power word stun,
+        prismatic spray, wish
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 20th; concentration +29)   9th-etherealness, mass
+  heal, miracle, overwhelming presenceUM (DC 28), storm of vengeance (DC 28)  
+  8th-fire storm (DC 27), holy aura (2), mass cure critical wounds (2)  
+  7th-destruction (DC 26), dictum, ethereal jaunt, holy word (DC 26),
+  regenerate   6th-banishment (DC 25), heroes' feast, mass cure moderate wounds,
+  undeath to death (DC 25), word of recall   5th-break enchantment, breath of
+  life (DC 24), dispel evil, plane shift (DC 24), righteous might, symbol of
+  sleep (DC 24)   4th-cure critical wounds (2), death ward, dismissal (DC 23),
+  freedom of movement, neutralize poison   3rd-cure serious wounds, daylight,
+  invisibility purge, magic circle against evil, prayer, wind wall   2nd-align
+  weapon, bear's endurance, bull's strength, consecrate, cure moderate wounds,
+  eagle's splendor   1st-bless, cure light wounds (2), divine favor, entropic
+  shield, shield of faith (2)   0 (at will)-detect magic, purify food and drink
+  (DC 19), stabilize, virtue  Paladin Spells Prepared (CL 2nd; concentration
+  +11)   1st-bless weapon (3), knight's callingAPG (DC 20)
+AbilityScores:
+  - 38
+  - 18
+  - 40
+  - 23
+  - 29
+  - 28
+BaseAtk: '27'
+CMB: +42 (+44 bull rush)
+CMD: 57 (59 vs. bull rush)
+Feats:
+  - Cleave
+  - Critical Focus
+  - Deadly Aim
+  - Dodge
+  - Great Fortitude
+  - Improved Bull Rush
+  - Improved Critical (longsword)
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Power Attack
+  - Staggering Critical
+  - Toughness
+Skills:
+  - Craft (armor) +31
+  - Diplomacy +34
+  - Fly +28
+  - Heal +22
+  - Intimidate +32
+  - Knowledge (history) +31
+  - Knowledge (nature) +31
+  - Knowledge (nobility) +19
+  - Knowledge (planes) +31
+  - Knowledge (religion) +31
+  - Perception +34
+  - Sense Motive +34
+  - Spellcraft +31
+  - Stealth +22
+  - Survival +34
+Languages:
+  - Celestial
+  - Draconic
+  - Infernal
+  - truespeech
+SQ: >-
+  change shape (alter self), divine bond (weapon +1, 1/ day), lay on hands
+  11/day (2d6), mercy (sickened), strike of the Angel Knight
+Source: AP 108
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Slaying Arrow (Su)
+    description: >-
+      The Angel Knight's bow needs no ammunition, and automatically creates a
+      slaying arrow of the Angel Knight's choice when drawn. Spells The Angel
+      Knight can cast divine spells as if she were a 20th-level cleric. She does
+      not gain access to domains or other cleric abilities.
+  - name: Strike of the Angel Knight (Su)
+    description: >-
+      The Angel Knight adds an amount equal to her racial Hit Dice to the damage
+      of her smite evil ability.
+Gender: Female
+Gear: >-
+  +5 mithral full plate, +2 holy vorpal longsword, +5 composite longbow (+14
+  Str), belt of physical might +6 (Str, Con)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8476'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

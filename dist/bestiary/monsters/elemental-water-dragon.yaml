@@ -1,0 +1,151 @@
+Name: Elemental Water Dragon
+CR: '18'
+XP: '153600'
+Alignment: NE
+Size: Huge
+Type: outsider
+SubType: (elemental, extraplanar, water)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +28
+AC: 27, touch 11, flat-footed 24
+AC_Mods: (+3 Dex, +16 natural, -2 size)
+HP: '252'
+HD: (24d10+120)
+Saves: Fort +13, Ref +17, Will +15
+Fort: '13'
+Ref: '17'
+Will: '15'
+DefensiveAbilities: water mastery
+DR: 10/magic and silver
+Immune: elemental traits
+Speed: 40 ft., fly 100 ft. (poor), swim 90 ft.
+Melee:
+  - >-
+    bite +32 (2d8+13), 2 claws +32 (2d6+9), 2 wings +29 (1d8+9), tail slap +29
+    (2d6+13)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: breath weapon (50 ft. cone, DC 29, 14d8 fire), capsize, drench
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: 1/day
+      value: control water
+AbilityScores:
+  - 29
+  - 16
+  - 20
+  - 10
+  - 12
+  - 10
+BaseAtk: '24'
+CMB: '35'
+CMD: 51 (55 vs. trip)
+Feats:
+  - Ability Focus (breath weapon)
+  - Blind-Fight
+  - Cleave
+  - Flyby Attack
+  - Great Cleave
+  - Hover
+  - Multiattack
+  - Power Attack
+  - Snatch
+  - Vital Strike
+  - Weapon Focus (bite)
+  - Weapon Focus (claw)
+Skills:
+  - Fly +21
+  - Intimidate +27
+  - Knowledge (nature) +27
+  - Knowledge (planes) +27
+  - Perception +28
+  - Survival +28
+  - Swim +21
+Languages:
+  - Aquan
+  - Common
+SQ: transparency
+Environment: Plane of Water
+Organization: solitary
+Treasure: double standard
+Description_Visual: >-
+  This creature resembles a massive dragon composed entirely of water. Its wings
+  slosh and drip water as it moves them. Its great mouth opens into a maw of
+  inky darkness. Water drips from its fangs.
+Group: Elemental Dragon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      The breath weapon of an elemental water dragon is a 50 ft. cone of
+      superheated steam. This breath weapon is effective both on the surface and
+      underwater.
+  - name: Capsize (Ex)
+    description: >-
+      An elemental water dragon can attempt to capsize a boat or ship by ramming
+      it as a charge attack and making a CMB check. The DC of this check is 25,
+      or the result of the boat captain's Profession (sailor) check, whichever
+      is higher. For each size category larger than the elemental water dragon's
+      size, it takes a cumulative -10 penalty on this CMB check.
+  - name: Drench (Ex)
+    description: >-
+      The elemental water dragon's touch puts out torches, campfires, exposed
+      lanterns, and other open flames of nonmagical origin if these are of Large
+      size or smaller. The creature can dispel magical fire it touches as dispel
+      magic (caster level equals elemental's HD).
+  - name: Water Mastery (Ex)
+    description: >-
+      An elemental water dragon gains a +1 bonus on attack and damage rolls if
+      both it and its foes are touching water. If the opponent or elemental
+      water dragon is touching the ground, the elemental water dragon takes a -4
+      penalty on attack and damage rolls. (These modifiers are not included in
+      the statistics block.)
+  - name: Transparency (Ex)
+    description: >-
+      When submerged, an elemental water dragon is effectively invisible (DC 35
+      Perception check when near the surface only) until it attacks.
+Description:
+  - >-
+    From the Plane of Water comes the elemental water dragon (also called water
+    wyrm by some sages). They make their homes in the deep oceans of the
+    Material Plane and are rarely found far away from large expanses of water.
+    An elemental water dragon is composed entirely of water and commands respect
+    from the more intelligent sea creatures as well as those humanoids that ply
+    their trade upon the waters. Elemental water dragons are evil and take great
+    pleasure in demanding sacrifice from those that dare enter their realm. If
+    the sacrifice placates the dragon, it lets the creature pass unabated;
+    otherwise, it attacks with all of its might and most often destroys those
+    that offend it or fail to appease its desires. Water dragons take great
+    pleasure in capsizing and sinking ships. Particularly evil water dragons may
+    accept a sacrifice and then sink the ship of those that crossed its path
+    anyway. On occasion, a group of skum or other evil aquatic creatures can be
+    found allied with an elemental water dragon, but this alliance is usually
+    short-lived and often shaky. It generally ends with the elemental water
+    dragon feeding on its former allies. Elemental water dragons prefer to fight
+    in or near water where they can use their transparency and water mastery
+    abilities to full advantage. They prefer to attack from ambush, often lying
+    in wait for their opponents and then springing from the waves to assault
+    their foes. Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2581'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

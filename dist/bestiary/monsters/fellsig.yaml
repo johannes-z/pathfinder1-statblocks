@@ -1,0 +1,120 @@
+Name: Fellsig
+CR: '3'
+XP: '800'
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (fire)
+Init: '0'
+Senses:
+  - darkvision 60 ft., tremorsense 30 ft.
+  - Perception +9
+AC: 15, touch 10, flat-footed 15
+AC_Mods: (+5 natural)
+HP: '27'
+HD: (5d8+5)
+Saves: Fort +2, Ref +1, Will +5
+Fort: '2'
+Ref: '1'
+Will: '5'
+DefensiveAbilities: molten heart
+Immune: fire, undead traits
+Weaknesses: vulnerable to cold
+Speed: 20 ft.
+Melee:
+  - slam +6 (1d4+4 plus burn)
+Ranged:
+  - lava ball +3 ranged touch (1d6 fire plus burn)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: burn (1d6, DC 13), eruption, lava ball
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +6)
+  values:
+    - label: 5/day
+      value: pyrotechnics
+    - label: 3/day
+      value: burning hands (DC 12)
+AbilityScores:
+  - 16
+  - 10
+  - —
+  - 8
+  - 13
+  - 12
+BaseAtk: '3'
+CMB: +6 (+8 bull rush)
+CMD: 16 (18 vs. bull rush)
+Feats:
+  - Blind-Fight
+  - Improved Bull Rush
+  - Power Attack
+Skills:
+  - Craft (any) +6
+  - Intimidate +9
+  - Perception +9
+Languages:
+  - Dwarven
+  - Ignan
+Environment: any mountains or underground
+Organization: solitary, pair, or flow (3-8)
+Treasure: standard
+Description_Visual: >-
+  This squat figure's rough-hewn visage is frozen in a mask of pain, while the
+  cracks in its dark stone body glow with a fiery inner heat.
+Source: Andoran Birthplace Of Freedom
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Lava Ball (Su)
+    description: >-
+      As a full-round action, a fellsig can regurgitate a ball of lava into its
+      fist and hurl it with a range increment of 30 feet. Any creature struck
+      must succeed at a DC 13 Reflex save or catch fire and take 1d6 points of
+      fire damage at the start of its turn for an additional 1d4 rounds. The
+      save DC is Charisma-based.
+  - name: Molten Heart (Ex)
+    description: >-
+      Beneath the slabs of igneous rock that compose a fellsig's body are organs
+      of superheated rock and fumes. A creature that confirms a critical hit
+      against a fellsig in melee is struck by a jet of flaming ash that deals
+      2d6 points of fire damage (Reflex DC 13 half).
+Description:
+  - >-
+    First created in catastrophic event known as the Rending, the molten undead
+    known as fellsigs have wandered Darkmoon Vale for centuries. When Droskar's
+    Crag erupted and buried entire dwarven settlements under choking ash,
+    boiling mud, noxious fumes, and seething magma, the violence and suffering
+    caused many of the
+  - >-
+    volcano's victims to rise after death, cursed to visit their own fiery
+    deaths upon the living. Fellsigs are made up of the very materials that took
+    their lives, and their existence is a constant reminder of all that was lost
+    in the fiery cataclysm of the Rending. Most fellsigs are morose creatures,
+    bemoaning the destruction of their homeland and carrying on a shadowy
+    imitation of their former lives amid the scorched ruins they inhabit. The
+    sight of life and joy often enrages them with vindictive jealousy for those
+    spared the fellsigs' own cruel fate.
+  - >-
+    Fellsigs have sympathy for those exhibiting obvious signs of burn damage,
+    however, and using the Diplomacy skill can sometimes convince these stony,
+    smoldering monsters to aid such creatures. Similarly, fellsigs hold no
+    special hatred for creatures of the fire subtype, and on occasion they can
+    be convinced to serve such creatures as guards or even artisans, though such
+    alliances are tenuous at best.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6925'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

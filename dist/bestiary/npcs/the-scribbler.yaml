@@ -1,0 +1,161 @@
+Name: The Scribbler
+CR: '14'
+XP: '38400'
+Race: Azlanti human
+Class: cleric of Lamashtu 12/ fighter 2
+MonsterSource: Advanced Bestiary 60
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (chaotic, evil, human)
+Init: '7'
+Senses:
+  - Perception +20
+AC: 27, touch 18, flat-footed 23
+AC_Mods: (+9 armor, +4 deflection, +3 Dex, +1 dodge, +0 natural)
+HP: '150'
+HD: (14 HD; 12d8+2d10+82)
+HP_Mods: fast healing 5
+Saves: Fort +15, Ref +7, Will +18; +1 vs. fear
+Fort: '15'
+Ref: '7'
+Will: '18'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: ability healing, bravery +1, freedom of movement
+DR: 10/adamantine
+Immune: disease, mind-affecting effects, poison
+SR: '26'
+Speed: 40 ft. (60 ft. base)
+Melee:
+  - fanged falchion +19/+14/+9 (2d4+9/15-20)
+Ranged:
+  - +1 cold iron returning dagger +15/+10/+5 (1d4+5/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 5/day (DC 18, 6d6), might of the gods (+12, 12
+  rounds/day)
+SpellLikeAbilities:
+  header: Divine Guardian Spell-Like Abilities (CL 14th; concentration +16)
+  values:
+    - label: At Will
+      value: dimension door (limited to Lamashtu's shrine)
+    - label: 3/day
+      value: alarm, knock
+    - label: 1/day
+      value: >-
+        arcane lock, augury, clairaudience/clairvoyance, commune, dismissal,
+        forbiddance, guards and wards, hold portal Domain Spell-Like Abilities
+        (CL 12th; concentration +20)
+    - label: At Will
+      value: master's illusion (12 rounds/day)
+    - label: 11/day
+      value: copycat (12 rounds), strength surge (+6)
+SpellsPrepared: >-
+  Spells Prepared (CL 12th; concentration +20)  6th-heal, quickened spiritual
+  weapon, stoneskinD, summon monster VI  5th-quickened divine favor, extended
+  greater magic weapon, righteous mightD, quickened shield of faith, spell
+  resistance  4th-confusionD (DC 22), cure critical wounds, divine power,
+  freedom of movement, extended magic vestment, poison (DC 22) 
+  3rd-blindness/deafness (DC 21), cure serious wounds (2), dispel magic,
+  nondetectionD, protection from energy, summon monster III  2nd-bear's
+  endurance, bull's strength, cure moderate wounds (2), gentle repose, hold
+  person (DC 20), invisibilityD  1st-command (DC 19), cure light wounds (2),
+  disguise selfD (DC 19), obscuring mist, protection from good, sanctuary (DC
+  19)  0 (at will)-bleed (DC 18), light, guidance, read magic
+SpellDomains: Strength, Trickery
+AbilityScores:
+  - 18
+  - 16
+  - 19
+  - 12
+  - 26
+  - 14
+BaseAtk: '11'
+CMB: '15'
+CMD: '33'
+Feats:
+  - Craft Magic Arms and Armor
+  - Dodge
+  - Extend Spell
+  - Improved Critical (falchion)
+  - Iron Will
+  - Power Attack
+  - Quicken Spell
+  - Skill Focus (Bluff)
+  - Toughness
+  - Weapon Focus (falchion)
+Skills:
+  - Bluff +15
+  - Intimidate +12
+  - Knowledge (arcana
+  - planes
+  - religion) +11
+  - Perception +20
+  - Perform (oratory) +9
+  - Sense Motive +13
+  - Spellcraft +11
+Languages:
+  - Abyssal
+  - Thassilonian
+SQ: blessed life, sacred site
+Source: RotRL-AE-Sins of the Saviors
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ability Healing (Ex)
+    description: >-
+      The Scribbler heals 1 point of ability damage per round in each damaged
+      ability score.
+  - name: Blessed Life (Ex)
+    description: >-
+      The Scribbler does not age or breathe and does not require food, drink, or
+      sleep.
+  - name: Divine Swiftness (Ex)
+    description: >-
+      The Scribbler gains a +4 bonus on initiative checks and his base speed is
+      60 feet (or 40 feet when wearing his +1 breastplate).
+  - name: Sacred Site (Ex)
+    description: >-
+      The Scribbler is bound to the shrine of Lamashtu (areas A1-A10), and has
+      been charged by the goddess of nightmares herself with keeping the site
+      sacred and free from intruders and heretics. Should the Scribbler ever
+      move beyond these areas, he loses the divine guardian template and his
+      spellcasting ability until he atones and reenters the site within 1 week.
+      Otherwise, he loses the template permanently and takes 6d6 points of
+      Constitution drain as his body adjusts to the loss.
+Gender: Male
+BeforeCombat: >-
+  Every day, the Scribbler wards the complex by casting alarm and guards and
+  wards. He also casts nondetection, extended magic vestment, and extended
+  greater magic weapon every day after finishing his daily prayers to Lamashtu.
+  If he has time just before combat begins, he casts stoneskin, spell
+  resistance, freedom of movement, bull's strength, and bear's endurance.
+DuringCombat: >-
+  The Scribbler starts combat by casting summon monster VI to summon 1d3 babaus.
+  While these summoned monsters engage his foes, he casts righteous might and
+  quickened divine favor. He then enters combat, casting a quickened spiritual
+  weapon on that round to attack a spellcaster or healer.
+Morale: >-
+  The Scribbler uses dimension door to retreat to the hallway outside of area
+  A10 if brought below 10 hit points, then hides inside his lair and heals his
+  wounds before returning to continue a fight with intruders. If confronted in
+  area A10, he fights to the death.
+Gear: >-
+  +1 breastplate, fanged falchion, +1 cold iron returning dagger, headband of
+  inspired wisdom +2, 750 gp in diamond dust
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: divine guardian|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3260'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

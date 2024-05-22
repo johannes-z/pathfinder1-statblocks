@@ -1,0 +1,115 @@
+Name: Juvenile Brass Dragon
+CR: '8'
+XP: '4800'
+Alignment: CG
+Size: Medium
+Type: dragon
+SubType: (fire)
+Init: '6'
+Senses:
+  - blindsense 60 ft., dragon senses
+  - Perception +19
+AC: 24, touch 12, flatfooted 22
+AC_Mods: (+2 Dex, +12 natural)
+HP: '105'
+HD: (10d12+40)
+Saves: Fort +11, Ref +9, Will +9;
+Fort: '11'
+Ref: '9'
+Will: '9'
+Immune: fire, paralysis, sleep
+Weaknesses: Vulnerability to cold
+Speed: 60 ft., burrow 30 ft., fly 150 ft. (average)
+Melee:
+  - bite +15 (1d8+7), 2 claws +15 (1d6+5), 2 wings +10 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (60-ft. line, DC 19, 8d4 fire), desert wind, sleep breath
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +12)
+  values:
+    - label: At will
+      value: endure elements, speak with animals
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 3rd, concentration +5)
+  values:
+    - label: 1st (6/day)
+      value: charm person (DC 14), comprehend languages, shield
+    - label: 0 (at will)
+      value: arcane mark, dancing lights, detect magic, mage hand, message
+AbilityScores:
+  - 21
+  - 14
+  - 19
+  - 14
+  - 15
+  - 14
+BaseAtk: '10'
+CMB: '15'
+CMD: 27 (31 vs. trip)
+Feats:
+  - Alertness
+  - Flyby Attack
+  - Hover
+  - Improved Initiative
+  - Spell Focus (Enchantment)
+Skills:
+  - Bluff +15
+  - Diplomacy +15
+  - Fly +15
+  - Heal +15
+  - Linguistics +15
+  - Perception +19
+  - Sense Motive +19
+  - Spellcraft +15
+Languages:
+  - Common
+  - Draconic
+  - and 11 others
+SQ: Move Sand
+Environment: warm deserts
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  A crest of horns sweeps back from the head of this dragon, leading to a long
+  neck and serpentine brass body.
+Group: Metallic Dragon
+Source: d20pfsrd
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Desert Wind (Su)
+    description: >-
+      A juvenile or older brass dragon can call up the desert wind to serve him.
+      This functions as gust of wind, but any creature in its path must make a
+      Fortitude save (DC 19) or be blinded for 1d4 rounds by the sand.
+  - name: Move Sand (Su)
+    description: >-
+      A young or older brass dragon can move sand to excavate ruins or hide
+      treasures. This functions as move earth, but it only affects sand. The
+      dragon uses his HD in place of his caster level for this effect. This is
+      equivalent to a 5th-level spell.
+  - name: Sleep Breath (Su)
+    description: >-
+      Instead of a line of fire, a brass dragon can breathe a cone of sleep gas.
+      Creatures within the cone must succeed on a Will save or fall asleep for
+      1d6+4 rounds.
+Description:
+  - >-
+    Consummate conversationalists, brass dragons prefer to talk instead of
+    fight. Brass dragons lair near humanoid settlements, where they can hear the
+    most recent news and gossip.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: juvenile
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1564'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

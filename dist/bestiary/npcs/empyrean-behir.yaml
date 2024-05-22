@@ -1,0 +1,116 @@
+Name: Empyrean Behir
+CR: '9'
+XP: '6400'
+Race: behir
+MonsterSource: Advanced Bestiary 111, Pathfinder RPG Bestiary 34
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+SubType: (air)
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +9
+AC: 23, touch 11, flat-footed 20
+AC_Mods: (+2 Dex, +12 natural, -2 size)
+HP: '95'
+HD: (10d10+40)
+Saves: Fort +11, Ref +12, Will +6
+Fort: '11'
+Ref: '12'
+Will: '6'
+DefensiveAbilities: elemental body
+Immune: electricity
+Speed: 40 ft., climb 20 ft.
+Speed_Mod: fly 40 ft. (perfect)
+Melee:
+  - bite +14 (2d6+6 plus grab)
+Space: 15 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  air-infused breath weapon (special, see below), behir breath weapon (20-foot
+  line, 7d6 electricity damage, Reflex DC 19 for half, usable every 1d4 rounds),
+  constrict (2d6+6), rake (6 claws +14, 1d4+4), swallow whole (2d8+6 bludgeoning
+  damage, AC 16, 10 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +12)  1/day?-gaseous form
+  values: []
+AbilityScores:
+  - 19
+  - 16
+  - 19
+  - 5
+  - 16
+  - 14
+BaseAtk: '10'
+CMB: +16 (+20 grapple)
+CMD: 29 (can't be tripped)
+Feats:
+  - Alertness
+  - Cleave
+  - Great Cleave
+  - Lightning ReflexesB
+  - Power Attack
+  - Weapon Focus (bite)
+Skills:
+  - Climb +11
+  - Fly +18
+  - Perception +9
+  - Stealth +7
+RacialMods: Fly +8
+Languages:
+  - Common
+SQ: airborne
+Source: PFS S2-05
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Airborne (Ex)
+    description: >-
+      When in flight, an empyrean behir gains a +1 morale bonus on attack and
+      damage rolls with ranged attacks. Air-Infused
+  - name: Breath Weapon (Su)
+    description: >-
+      Once every 1d4 rounds, an empyrean behir can breathe a 60-foot-long cone
+      of wind that mimics a terrible windstorm. Every creature within this area
+      that is not flying must succeed on a DC 17 Acrobatics or Strength check or
+      fall prone. A flying creature that fails a DC 17 Fly check is blown away
+      from the empyrean behir, moving a distance equal to 5 feet per point by
+      which it failed the check. If the blown creature encounters a large object
+      (such as a wall) during this movement, it takes 1d6 points of damage per 5
+      feet the object prevented it from moving.
+  - name: Elemental Body (Ex)
+    description: >-
+      Empyrean behirs possess some of the qualities of air elementals. Each time
+      an empyrean behir is exposed to a poison, paralysis, sleep, or stun
+      effect, it has a 25% chance to avoid it. In addition, there is a 25%
+      chance that a sneak attack or critical hit deals no extra damage.
+  - name: Grab (Ex)
+    description: >-
+      An empyrean behir's grab attack works against creatures of any size
+      category. It can constrict the same round it establishes a hold. On any
+      round thereafter that it maintains its hold, the empyrean behir can choose
+      to rake the grappled target or swallow it whole.
+DuringCombat: >-
+  The behirs immediately take to the air, hitting the PCs with their breath
+  weapons whenever possible and swooping in to attack the weakest PCs who attack
+  Skelg from range.
+Morale: >-
+  If reduced to less than 10 hit points, the behirs throw themselves at the
+  locked door from which they entered the arena, screeching and thrashing in
+  pain and terror.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: air-infused|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4705'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

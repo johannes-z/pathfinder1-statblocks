@@ -1,0 +1,119 @@
+Name: Melianse
+CR: '4'
+XP: '1200'
+Race: nixie
+Class: sorcerer 5
+MonsterSource: Pathfinder Bonus Bestiary 15
+Alignment: 'N'
+Size: Small
+Type: fey
+SubType: (aquatic)
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +9
+AC: 18, touch 18, flat-footed 12
+AC_Mods: (+1 deflection, +5 Dex, +1 dodge, +1 size)
+HP: '43'
+HD: (7d6+19)
+Saves: Fort +3, Ref +9, Will +7
+Fort: '3'
+Ref: '9'
+Will: '7'
+DR: 5/cold iron
+Resist: cold 10
+SR: '12'
+Speed: 20 ft., swim 30 ft.
+Melee:
+  - short sword +9 (1d4-2/19-20)
+Ranged:
+  - light crossbow +9 (1d6-2/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Racial Spell-Like Abilities (CL 12th; concentration +19)
+  values:
+    - label: 3/day
+      value: charm person (DC 18)
+    - label: 1/day
+      value: >-
+        water breathing Sorcerer Spell-Like Abilities (CL 5th; concentration
+        +12)
+    - label: 10/day
+      value: elemental ray
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 5th; concentration +12) 2nd (6)-blur, daze monster
+    (DC 19), scorching ray (cold damage) 1st (8)-burning hands (DC 18, cold
+    damage), hypnotism (DC 18), mage armor, magic missile, obscuring mist
+  values:
+    - label: 0 (At will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 17), message, ray of
+        frost, read magic
+AbilityScores:
+  - 6
+  - 20
+  - 15
+  - 14
+  - 10
+  - 24
+BaseAtk: '3'
+CMB: '0'
+CMD: '17'
+Feats:
+  - Alertness
+  - Dodge
+  - Eschew Materials
+  - Weapon Finesse
+  - Weapon Focus (ray)
+Skills:
+  - Bluff +14
+  - Craft (basketweaving) +9
+  - Escape Artist +12
+  - Fly +0
+  - Perception +9
+  - Perform (Sing) +14
+  - Sense Motive +9
+  - Spellcraft +9
+  - Stealth +16
+  - Swim +13
+Languages:
+  - Aquan
+  - Common
+  - Sylvan
+SQ: amphibious, bloodline arcana, wild empathy +15
+Source: AP 32
+IsTemplate: '0'
+Gender: Female
+Bloodline: Elemental (water)
+BeforeCombat: Melianse casts mage armor every day.
+DuringCombat: >-
+  Melianse casts blur on the first round of combat, and casts grease from her
+  wand on the shore if anyone approaches her pool. She focuses most of her
+  attacks on Corax, hoping that if she removes their leader, the other loggers
+  will run away. Against the PCs, she attacks the obvious leader (if any) or the
+  most dangerous-looking character for the same reason. She targets spellcasters
+  with magic missile to disrupt their spells.
+Morale: >-
+  When reduced to 15 hit points or fewer, Melianse uses her last charm person to
+  charm one of her opponents, casts water breathing on that person, and retreats
+  beneath the pool, bringing her new "friend" to use as a hostage for future
+  negotiation.
+Gear: wand of grease (29 charges)
+OtherGear: light crossbow with 10 bolts, short sword, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '662'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

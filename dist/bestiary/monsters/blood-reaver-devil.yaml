@@ -1,0 +1,146 @@
+Name: Blood Reaver Devil
+CR: '8'
+XP: '4800'
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '2'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +14
+Aura: siphoning aura (Fort DC 19)
+AC: 24, touch 12, flat-footed 22
+AC_Mods: (+2 Dex, +12 natural)
+HP: '94'
+HD: (9d10+45)
+HP_Mods: regeneration 5 (good, silver)
+Saves: Fort +8, Ref +8, Will +8
+Fort: '8'
+Ref: '8'
+Will: '8'
+DR: 10/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '19'
+Speed: 40 ft.
+Melee:
+  - barbed dire flail +16/+11 (2d6+9/19-20 plus stun) or 2  claws +15 (2d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: At will
+      value: >-
+        greater teleport (self plus 50 pounds of objects only), invisibility
+        (self only), wall of fire
+    - label: 1/day
+      value: >-
+        lightning bolt (DC 15), summon (level 6, 2d10 lemures 50% or 1 blood
+        reaver 35%)
+AbilityScores:
+  - 23
+  - 15
+  - 21
+  - 14
+  - 14
+  - 14
+BaseAtk: '9'
+CMB: '15'
+CMD: '27'
+Feats:
+  - Cleave
+  - Great Cleave
+  - Improved Critical (dire flail)
+  - Power Attack
+  - Weapon Focus (barbed dire flail)
+Skills:
+  - Bluff +14
+  - Diplomacy +14
+  - Intimidate +14
+  - Knowledge (planes) +14
+  - Perception +14
+  - Sense Motive +14
+  - Stealth +14
+  - Survival +14
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+  - telepathy 100 ft.
+Environment: any (Hell)
+Organization: solitary, team (2-4), or squad (5-9)
+Treasure: standard
+Description_Visual: >-
+  This tall reddish-bronze colored humanoid has leathery flesh and gleaming,
+  gold eyes. Its hands end in blood-stained claws, and a long snake-like and
+  forked tail trails behind it. The smell of fresh blood hangs in the air. It
+  wields a wicked dual-headed flail.
+Group: Devil
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Siphoning Aura (Su)
+    description: >-
+      Blood reavers can radiate an aura in a 20-foot radius as a free action
+      that causes a creature to bleed from its mouth, nose, eyes, and ears.
+      Affected creatures must succeed on a DC 19 Fortitude save each round or
+      take 1 point of Constitution damage from blood loss. The save DC is
+      Constitution-based.
+  - name: Stun (Su)
+    description: >-
+      Whenever a blood reaver hits with a dire flail attack, the opponent must
+      succeed on a DC 20 Fortitude save or be stunned for 1 round. The save DC
+      is Strength-based. This ability is a function of the blood reaver, not the
+      dire flail.
+Description:
+  - >-
+    Blood reavers, also known as garugins, are dangerous and vile creatures that
+    stalk the Hells searching for mortal plane jumpers. They believe no living
+    mortal has the right to step into Hell; the only mortals that should be in
+    Hell are the ones whose souls are corrupted in the afterlife or evil mortals
+    that deserve to be there through actions and sins committed while still
+    alive. All other mortals are trespassers and should be dealt with
+    accordingly.
+  - >-
+    Blood reavers have a neutral relationship with most other devils; they can
+    take them or leave them. They do seem to have a good rapport with bone
+    devils, perhaps because the wicked bone devil is just as evil and corrupt as
+    they are or perhaps because the bone devil shows no mercy when dispatching
+    an enemy.
+  - >-
+    A blood reaver stands 8 feet tall and is never without its special barbed
+    dire flail. The heads are wickedly crafted with oversized and strongly
+    curved barbs so they do as much tissue damage as possible when they hit.
+  - >-
+    Blood reavers despise mortals and attack them on sight. They prefer to hide
+    or stand nearby while invisible and let their siphoning aura drain a person
+    of its blood, though the telltale sign that something is wrong is when the
+    victim's eyes, ears, nose, and mouth begin to bleed for no apparent reason.
+  - >-
+    In combat, they attack with their barbed flails, relentlessly hammering away
+    at their enemies and freely unloading with walls of fire to separate allies
+    from one another. Being immune to fire, the blood reaver simply walks
+    through the wall and attacks the creature standing on the other side.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: barbed dire flail
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2471'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

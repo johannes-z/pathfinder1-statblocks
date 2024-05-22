@@ -1,0 +1,91 @@
+Name: Advanced Festrog
+CR: '2'
+XP: '600'
+Race: Advanced Festrog
+MonsterSource: Pathfinder RPG Bestiary 3 290, 115; see page 24
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +8
+AC: 18, touch 13, flat-footed 15
+AC_Mods: (+3 Dex, +5 natural)
+HP: '13'
+HD: (2d8+4)
+Saves: Fort +2, Ref +3, Will +6
+Fort: '2'
+Ref: '3'
+Will: '6'
+Immune: undead traits
+Speed: 30 ft.
+Speed_Mod: four-footed run
+Melee:
+  - bite +6 (1d6+5 plus feed), 2 claws +7 (1d4+5)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: charging trip, diseased pustules, feed
+AbilityScores:
+  - 21
+  - 17
+  - —
+  - 14
+  - 16
+  - 15
+BaseAtk: '1'
+CMB: '6'
+CMD: 19 (23 vs. trip)
+Feats:
+  - Weapon Focus (claw)
+Skills:
+  - Climb +10
+  - Intimidate +7
+  - Perception +8
+  - Sense Motive +8
+  - Stealth +8
+  - Survival +5
+Languages:
+  - Common
+Source: PFS S6-12
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Charging Trip (Ex)
+    description: >-
+      A festrog that hits with its bite after making a charge attack on all
+      fours can attempt to trip its opponent (+4 bonus). This trip does not
+      provoke attacks of opportunity.
+  - name: Diseased Pustules (Ex)
+    description: >-
+      When a festrog takes damage from a piercing or slashing weapon, some of
+      its boils rupture, squirting the attacker with puslike fluids. The noxious
+      secretions carry a potent contact disease that causes those infected to
+      break out into painful necrotic boils. Necrotic Boils: Disease-contact;
+      save Fort DC 13; onset 1 day; frequency 1/day; effect 1d4 Con; cure 1
+      save.
+  - name: Feed (Su)
+    description: >-
+      Every time a festrog makes a successful bite attack, it feeds on its
+      opponent's flesh and gains 5 temporary hit points. The festrog cannot have
+      more than 5 temporary hit points gained by this ability at one time.
+      Four-Footed
+  - name: Run (Ex)
+    description: >-
+      A festrog can run on all fours at speed of 50 feet if it doesn't hold or
+      carry anything in its hands. When running on all fours, it is treated as
+      if it had the Run feat.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7916'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

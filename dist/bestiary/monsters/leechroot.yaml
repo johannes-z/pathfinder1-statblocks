@@ -1,0 +1,112 @@
+Name: Leechroot
+CR: '4'
+XP: '1200'
+Alignment: NE
+Size: Large
+Type: undead
+Init: '-1'
+Senses:
+  - darkvision 60 ft., tremorsense 30 ft.
+  - Perception +3
+AC: 18, touch 8, flat-footed 18
+AC_Mods: (-1 Dex, +10 natural, -1 size)
+HP: '32'
+HD: (5d8+10)
+Saves: Fort +3, Ref +0, Will +7
+Fort: '3'
+Ref: '0'
+Will: '7'
+DefensiveAbilities: bloodthirst, channel resistance +2
+DR: 5/slashing
+Immune: undead traits
+Speed: 5 ft., burrow 5 ft.
+Melee:
+  - 2 roots +7 (1d6+5 plus bleed and grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: bleed (2), bloody sap, drag under
+AbilityScores:
+  - 20
+  - 8
+  - —
+  - —
+  - 17
+  - 15
+BaseAtk: '3'
+CMB: +9 (+13 grapple)
+CMD: 18 (can't be tripped)
+Skills:
+  - Stealth +11
+RacialMods: +16 Stealth
+SQ: earth barrier
+Environment: any forest
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This tangle of rotten, lifeless roots resembles a mess of bodily organs, its
+  visceral tendrils grasping for sustenance.
+Source: Tears At Bitter Manor
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bloodthirst (Su)
+    description: >-
+      A leechroot can absorb blood directly from its victims' cuts. The
+      leechroot gains fast healing equal to the number of creatures with the
+      bleed condition it is grappling (if any).
+  - name: Bloody Sap (Su)
+    description: >-
+      The viscous resin that exudes from a leechroot's tentacles is infused with
+      negative energy, preventing both natural and magical healing. The DC of
+      any Heal check to stop the bleeding caused by a leechroot's attacks is
+      increased by 2. Casting a cure spell on a creature bleeding because of a
+      leechroot's attacks requires a successful caster level check (DC 15 + the
+      spell's level) or the spell has no effect on the bleeding creature.
+  - name: Drag Under (Ex)
+    description: >-
+      As part of an action to maintain a grapple, a leechroot can move the
+      grappled creature up to 5 feet (within the leechroot's reach) and bury it
+      partway into the ground. The buried creature is pinned and can't receive
+      help to break free from the grapple. A buried opponent that escapes the
+      grapple remains pinned unless it spends a move action to dig itself free
+      and it succeeds at a DC 10 Strength check.
+  - name: Earth Barrier (Ex)
+    description: >-
+      A leechroot burrowing 5 feet below the surface is partially visible, can
+      make attacks using its normal reach, and gains concealment and partial
+      cover. It can be uprooted with a successful drag maneuver. It can burrow
+      back under the earth as a move action that provokes attacks of
+      opportunity.
+Description:
+  - >-
+    The brutal Goblinblood Wars created the first leechroot, which emerged from
+    the remains of plants drowned in the blood-drenched soils of Chitterwood. A
+    chaotic intertwining of rotten roots, this monstrosity quickly spread its
+    curse by soaking other dead plants in its sap. Moving underground,
+    leechroots dispersed to forests all over Avistan, reaching as far as the
+    Shudderwood in Ustalav.
+  - >-
+    A leechroot is driven solely by its thirst for blood. It hides below the
+    earth while waiting for prey and snatches victims with its razor-sharp
+    tentacles, feeding directly from their wounds. The absorbed blood mutates
+    into a thick red sap that runs through the leechroot's body.
+  - >-
+    An adult leechroot averages 12 feet across (not including its root
+    appendages) and weighs 700 pounds.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5803'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

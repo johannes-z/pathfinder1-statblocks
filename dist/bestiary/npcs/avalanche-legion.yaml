@@ -1,0 +1,119 @@
+Name: Avalanche Legion
+CR: '11'
+XP: '12800'
+Race: Avalanche Legion
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (earth, elemental, extraplanar, troop)
+Init: '3'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +25
+Aura: quake aura (5 ft., DC 23)
+AC: 25, touch 9, flat-footed 25
+AC_Mods: (-1 Dex, +16 natural)
+HP: '168'
+HD: (16d10+80)
+Saves: Fort +17, Ref +4, Will +12
+Fort: '17'
+Ref: '4'
+Will: '12'
+DefensiveAbilities: troop traits
+DR: 10/-
+Immune: elemental traits
+Speed: 20 ft., burrow 20 ft.
+Speed_Mod: earth glide
+Melee:
+  - troop (4d6+12)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: avalanche (4d6+12; DC 23), volley
+AbilityScores:
+  - 34
+  - 8
+  - 21
+  - 10
+  - 11
+  - 11
+BaseAtk: '16'
+CMB: '28'
+CMD: 37 (can't be tripped)
+Feats:
+  - Great Fortitude
+  - Improved Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Run
+  - Skill Focus (Intimidate)
+  - Skill Focus (Perception)
+  - Step Up
+Skills:
+  - Acrobatics +18
+  - Appraise +16
+  - Climb +31
+  - Intimidate +25
+  - Knowledge (planes) +19
+  - Perception +25
+Languages:
+  - Terran
+Source: PFS 8-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Avalanche (Ex)
+    description: >-
+      As a full-round action an avalanche legion can move up to twice its speed
+      and overrun creatures in its path. This ability is identical to the
+      trample universal monster rule, except the damage dealt is equal to the
+      avalanche legion's troop attack (and creatures damaged by this ability are
+      automatically affected by the avalanche legion's quake aura). Each
+      creature occupying the avalanche legion's space or reach when it ends its
+      movement takes an additional 2d6+6 points of damage.
+  - name: Earth Glide (Ex)
+    description: >-
+      A burrowing avalanche legion can pass through stone, dirt, or almost any
+      other sort of earth except metal as easily as a fish swims through water.
+      If protected against fire damage, it can even glide through lava. This
+      burrowing leaves behind no tunnel or hole, nor does it create any ripple
+      or other sign of its presence. A move earth spell cast on an area
+      containing a burrowing avalanche legion flings the elemental back 30 feet,
+      stunning the creature for 1 round unless it succeeds at a DC 15 Fortitude
+      save.
+  - name: Quake Aura (Su)
+    description: >-
+      An avalanche legion upturns and shatters natural earth or stone terrain
+      within its space and in all adjacent spaces. This causes the space an
+      avalanche legion occupies and all adjacent spaces to be treated as
+      difficult terrain to creatures without the earth glide ability. A creature
+      that ends its turn adjacent to an avalanche legion must succeed at a
+      Reflex save (DC 23) or fall prone.
+  - name: Volley (Ex)
+    description: >-
+      An avalanche legion troop can hurl a volley of rocks as a standard action.
+      This attack takes the form of up to four lines with a range of 100 feet.
+      These lines can start from the corner of any square in the troops space.
+      All creatures in any of these lines take 4d8 points of bludgeoning damage
+      (Reflex DC 19 half). The save DC is Dexterity-based and includes a +2
+      racial bonus.
+BeforeCombat: >-
+  An avalanche legion uses its earth glide ability  to travel below the ground
+  and surprises enemies by erupting from below them.
+DuringCombat: >-
+  An avalanche stays focused on a single opponent, moving only to keep the
+  opponent within its space until that foe is dead.
+Morale: An avalanche legion is absolutely loyal to Ayrzul and fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11615'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

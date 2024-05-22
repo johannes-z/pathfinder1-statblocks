@@ -1,0 +1,108 @@
+Name: Ostengo
+CR: '1'
+XP: '400'
+Race: tiefling
+Class: sorcerer 2
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+AC: 15, touch 11, flat-footed 14
+AC_Mods: (+3 armor, +1 natural, +1 Dex)
+HP: '15'
+HD: (2d6+6)
+Saves: Fort +2, Ref +1, Will +4
+Fort: '2'
+Ref: '1'
+Will: '4'
+Resist: cold 5, electricity 5, fire 5
+Speed: 30 ft.
+Melee:
+  - dagger +0 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 2nd)
+  values:
+    - label: 5/day
+      value: corrupting touch (melee touch +0, target shaken for 1 round)
+SpellsKnown:
+  header: Spells Known (CL 2nd; 15% spell failure)
+  values:
+    - label: 1st (5/day)
+      value: >-
+        charm person (DC 15), magic missile 0-acid splash, bleed, daze (DC 12),
+        mage hand, open/close
+AbilityScores:
+  - 8
+  - 12
+  - 14
+  - 15
+  - 12
+  - 13
+BaseAtk: '1'
+CMB: '0'
+CMD: '11'
+Feats:
+  - Eschew Materials
+  - Skill Focus (Stealth)
+Skills:
+  - Bluff +7
+  - Diplomacy +5
+  - Intimidate +5
+  - Knowledge (arcana) +6
+  - Perception +2
+  - Spellcraft +6
+  - Stealth +8
+Languages:
+  - Common
+  - Halfling
+  - Infernal
+SQ: cantrips, infernal sorcery
+Source: AP 25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Variant Tiefling Ability (Ex)
+    description: >-
+      Ostengo has a +1 natural armor bonus to his Armor Class. This replaces the
+      normal tiefling darkness spell-like ability.
+Gender: Male
+Bloodline: infernal
+DuringCombat: >-
+  Ostengo does his best to play up his disturbing appearance; if he can trick
+  enemies into a panic by convincing them they face a mummy, he'll play the
+  part. Further, attempts to use fire against him are unlikely to do much damage
+  at this low level due to his resistance. He uses charm person to take
+  weak-willed creatures out of the fight (suggesting that the charmed person go
+  home for more potions or try to convince his friends to stop fighting) and
+  magic missile to damage hard-to-hit targets. When he runs out of 1st-level
+  spells he relies on acid splash and daze in the same manner, and uses bleed on
+  fallen opponents that any PC healers try to stabilize.
+Morale: >-
+  If reduced to 5 hp or fewer (or if only two of his thug guards are still
+  alive), Ostengo flees into area G4 and closes the door behind him. On his next
+  turn he uses a tanglefoot bag to seal the door behind him for 2d4 rounds (it's
+  a DC 17 Strength check to break open the sealed door) even if this means he
+  traps his allies on the same side of the door as the PCs. He then flees to
+  warn the other Bastards and join his brother in defending the lair.
+Gear: tanglefoot bag, potion of cure light wounds
+OtherGear: masterwork studded leather armor, dagger, 50 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '8'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,217 @@
+Name: Geryon
+CR: '29'
+XP: '6560000'
+Alignment: LE
+Size: Huge
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '9'
+Senses:
+  - >-
+    darkvision 60 ft., detect good, detect magic, see invisibility, see in
+    darkness
+  - Perception +49
+AC: 46, touch 29, flat-footed 41
+AC_Mods: (+5 Dex, +17 natural, -2 size, +7 insight, +9 profane)
+HP: '612'
+HD: (35d10+420)
+HP_Mods: regeneration 10 (good, silver)
+Saves: Fort +25, Ref +24, Will +28
+Fort: '25'
+Ref: '24'
+Will: '28'
+DR: 20/good and silver
+Immune: fire, poison
+Resist: acid 10,  cold 10
+SR: '40'
+Speed: 20 ft., fly 50 ft. (average)
+Melee:
+  - 2 claws +48 (2d8+14 plus grab), sting +48 (4d8+14/19-  20 plus poison)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: fear gaze (30 ft., Will DC 36), rend (claws, 2d8+21)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 28th)
+  values:
+    - label: Constant
+      value: detect good, detect magic, read magic, see invisibility
+    - label: At Will
+      value: >-
+        blasphemy (DC 26), daylight, desecrate, geas/ quest (DC 25), greater
+        dispel magic, greater invisibility (DC 23), greater teleport (self plus
+        50 pounds of objects only), ice storm, locate object, magic circle
+        against good, shapechange, tongues, unholy aura (DC 27), unhallow (DC
+        24), wall of ice (DC 23)
+    - label: 3/day
+      value: >-
+        summon (level 9, 4d10 lemures or nupperibos, 2d8 bearded devils, 2d4
+        bone devils or barbed devils, 2 ghaddar devils or pit fiends 100%)
+    - label: 1/day
+      value: raise dead, symbol of pain (DC 24), wish
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 28th)
+  values:
+    - label: 9th (7/day)
+      value: imprisonment (DC 28), mass hold monster (DC 28), time stop
+    - label: 8th (7/day)
+      value: horrid wilting (DC 27), prismatic wall (DC 27), scintillating pattern
+    - label: 7th (7/day)
+      value: delayed blast fireball (DC 26), power word blind, spell turning
+    - label: 6th (7/day)
+      value: disintegrate (DC 25), mass suggestion (DC 25), shadow walk (DC 25)
+    - label: 5th (8/day)
+      value: false vision, feeblemind (DC 24), passwall, wall of stone (DC 24)
+    - label: 4th (8/day)
+      value: >-
+        bestow curse (DC 23), confusion (DC 23), crushing despair (DC 23),
+        phantasmal killer (DC 23)
+    - label: 3rd (8/day)
+      value: >-
+        displacement, hold person (DC 22), lightning bolt (DC 22), major image
+        (DC 22)
+    - label: 2nd (8/day)
+      value: >-
+        blur (DC 21), continual flame, darkness, hypnotic pattern (DC 21),
+        misdirection (DC 21)
+    - label: 1st (9/day)
+      value: >-
+        burning hands (DC 20), color spray (DC 20), hold portal, shocking grasp,
+        ventriloquism (DC 20)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, daze (DC 19), detect poison, detect magic, flare (DC 19),
+        ghost sound, mending, open/ close, read magic
+AbilityScores:
+  - 39
+  - 21
+  - 35
+  - 26
+  - 24
+  - 29
+BaseAtk: '35'
+CMB: +51 (+55 grapple)
+CMD: 82 (can't be tripped)
+Feats:
+  - Alertness
+  - Bleeding Critical
+  - Cleave
+  - Combat Casting
+  - Critical Focus
+  - Extend Spell
+  - Enlarge Spell
+  - Great Fortitude
+  - Improved Critical (sting)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Iron Will
+  - Maximize Spell
+  - Power Attack
+  - Quicken Spell- Like Ability (ice storm)
+  - Vital Strike
+  - Weapon Focus (claw)
+  - Weapon Focus (sting)
+Skills:
+  - Appraise +43
+  - Bluff +47
+  - Diplomacy +47
+  - Escape Artist +40
+  - Fly +39
+  - Intimidate +47
+  - Knowledge (arcana) +46
+  - Knowledge (planes) +46
+  - Knowledge (religion) +43
+  - Perception +49
+  - Sense Motive +49
+  - Spellcraft +46
+  - Stealth +35
+  - Survival +42
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Daemonic
+  - Draconic
+  - Giant
+  - Goblin
+  - Ignan
+  - Infernal
+  - Terran
+  - telepathy  100 ft.
+Environment: any (Hell)
+Organization: solitary or troupe (Geryon plus 2-5 bone devils or barbed devils)
+Treasure: triple standard
+Description_Visual: >-
+  This towering creature has the upper torso of a humanoid with paw-like hands,
+  blue-furred arms, dark hair, and piercing black eyes, and the lower torso of a
+  massive black and gold banded snake.
+Group: Devil
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear Gaze (Su)
+    description: >-
+      A creature that successfully saves cannot be affected again by Geryon's
+      gaze for one day. The save DC is Charisma-based.
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 39; frequency 1/round for 10 rounds; effect 1d6
+      Con; cure 3 consecutive saves. The save DC is Constitution-based. Bull's
+      Horn: Geryon carries a great horn made of bone. As a full-round action, he
+      can blow this horn and summon 5d4 fiendish minotaurs. The minotaurs appear
+      immediately and act on his turn. They remain and do his bidding until
+      their death. This horn can be blown three times per week. Good-aligned
+      creatures touching the horn take 5d6 points of electricity damage each
+      round they touch it (no save).
+Description:
+  - >-
+    Geryon, the Great Serpent, rules Hell's fifth plane. His fortress, a large
+    iron citadel located in the heart of a great city, is situated at the center
+    of his plane. Geryon often leaves his fortress to wander the city, but
+    rarely ever journeys beyond the city's gates. The city is a large, dark
+    place filled with all manner of filth, waste, and creatures. Geryon is one
+    of the most powerful arch-devils (by physical standards) and enjoys
+    displaying his physical prowess to any who would watch, often destroying pit
+    fiends or minor dukes for sheer pleasure and entertainment. While he is
+    weaker than other arch-devils (in station and overall power), he has allied
+    himself with Mephistopheles and as such is feared by many. For all of Hell's
+    inhabitants know, if any can wrest the throne of Hell from Asmodeus, it is
+    Mephistopheles, and Geryon wants to make sure he is on the winning side when
+    the time comes to challenge the current Overlord.
+  - Geryon is 20 feet tall and 30 feet long. He weighs about 8,000 pounds.
+  - >-
+    Geryon attacks with his massive fists and poisonous tail in combat. One of
+    his favorite tactics is to grab an opponent and sting it to death with his
+    tail.
+  - >-
+    Servants of Geryon Followers of Geryon are evil humanoids that revere
+    serpents, some clans and tribes of lizardfolk, and several inphidian
+    communities. Devout followers of Geryon are called Serpent Masters and must
+    sign a pact of evil with Geryon. Serpent Masters can receive spells from
+    Geryon and are granted access to two of the following domains: Evil, Law,
+    and Strength.
+  - >-
+    Credit Geryon originally appeared in the First Edition Monster Manual (©
+    TSR/Wizards of the Coast, 1977) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Gary
+    Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: Bull's Horn
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2511'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

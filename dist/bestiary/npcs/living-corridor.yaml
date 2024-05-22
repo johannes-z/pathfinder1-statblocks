@@ -1,0 +1,70 @@
+Name: Living Corridor
+CR: '19'
+XP: '204800'
+Race: Living Corridor
+Alignment: 'N'
+Size: Gargantuan
+Type: construct
+Init: '0'
+Senses:
+  - blindsense 30 ft.
+  - Perception +0
+AC: 31, touch 6, flat-footed 31
+AC_Mods: (+25 natural, -4 size)
+HP: '225'
+HD: (30d10+60)
+HP_Mods: fast healing 20
+Saves: Fort +10, Ref +10, Will +10
+Fort: '10'
+Ref: '10'
+Will: '10'
+Immune: bull rush, construct traits, overrun, trip
+Resist: cold 20, electricity 20, fire 20, sonic 20
+SR: '30'
+Weaknesses: pain
+Speed: 0 ft.
+Melee:
+  - crush +36 (2d10+15 plus grab)
+Space: 20 ft.
+Reach: 0 ft.
+SpecialAttacks: closed passage, constrict (2d10+15)
+AbilityScores:
+  - 30
+  - 10
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '30'
+CMB: +44 (+48 to grapple)
+CMD: 54 (immune to bull rush, overrun, and trip)
+Source: Sword of Air-Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Closed Passage (Ex)
+    description: >-
+      A living corridor attacks the first creature that enters it, closing in
+      around it instinctively like a sphincter. As long as the living corridor
+      maintains the grapple on its opponent, other creatures cannot enter the
+      corridor or pass through its opponent's space.
+  - name: Vulnerability to Pain (Ex)
+    description: >-
+      Although a living corridor has enormous recuperative powers, it still
+      feels pain, and does not willingly injure itself. Thus, the easiest way to
+      move past it is to brace injurious objects along its length to prevent it
+      from using its crush and constrict attacks.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12754'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

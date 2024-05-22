@@ -1,0 +1,93 @@
+Name: Nightmare
+CR: '5'
+XP: '1600'
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (evil, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 19, touch 11, flat-footed 17
+AC_Mods: (+2 Dex, +8 natural, -1 size)
+HP: '51'
+HD: (6d10+18)
+Saves: Fort +8, Ref +7, Will +3
+Fort: '8'
+Ref: '7'
+Will: '3'
+Speed: 40 ft., fly 90 ft. (good)
+Melee:
+  - bite +9 (1d4+4), 2 hooves +4 (1d6+2 plus 1d4 fire)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: smoke
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th)
+  values:
+    - label: 1/day
+      value: (self plus 1 rider only)-plane shift
+AbilityScores:
+  - 18
+  - 15
+  - 16
+  - 13
+  - 13
+  - 12
+BaseAtk: '6'
+CMB: '11'
+CMD: 23 (27 vs. trip)
+Feats:
+  - Alertness
+  - Improved Initiative
+  - Run
+Skills:
+  - Fly +13
+  - Intimidate +10
+  - Knowledge (planes) +10
+  - Perception +12
+  - Sense Motive +12
+  - Stealth +7
+  - Survival +10
+Languages:
+  - Abyssal
+  - Infernal
+Environment: any (Abaddon)
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This eerie horse-like creature's skin is an inky blackness. Fire spurts from
+  its hair and nostrils, and its hooves spray sparks.
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Smoke (Su)
+    description: >-
+      In battle, a nightmare exhales smoke that chokes and blinds foes, filling
+      a 15-foot cone each round as a free action. Anyone in the cone must
+      succeed on a DC 16 Fortitude save or become sickened until 1d6 minutes
+      after leaving the area. This smoke acts as obscuring mist for the purposes
+      of concealment. The smoke persists for 1 round. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    Nightmares are flaming harbingers of death. They allow only the most evil of
+    creatures to ride them, and are never mere mounts, but rather willing
+    partners in destruction.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Nightmare
+id: '280'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

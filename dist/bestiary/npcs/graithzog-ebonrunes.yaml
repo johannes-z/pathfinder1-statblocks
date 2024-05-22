@@ -1,0 +1,116 @@
+Name: Graithzog Ebonrunes
+CR: '19'
+XP: '204800'
+Race: rune giant
+Class: fighter 2
+MonsterSource: Bestiary 2 130
+Alignment: LE
+Size: Gargantuan
+Type: humanoid
+SubType: (giant)
+Init: '0'
+Senses:
+  - low-light vision
+  - Perception +31
+AC: 30, touch 6, flat-footed 30
+AC_Mods: (+9 armor, +15 natural, -4 size)
+HP: '302'
+HD: (20d8+2d10+200)
+Saves: Fort +18, Ref +6, Will +20; +1 vs. fear
+Fort: '18'
+Ref: '6'
+Will: '20'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1
+Immune: cold, electricity, fire
+Speed: 35 ft.
+Melee:
+  - >-
+    mwk cold iron greatsword +30/+25/+20/+15 (4d6+22/17-  20), 2 slams +28
+    (2d6+15)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: command giants, runes, spark shower
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +24)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At will
+      value: charm person (DC 15), suggestion (DC 17)
+    - label: 3/day
+      value: dominate person (DC 19), mass charm monster (DC 22)
+    - label: 1/day
+      value: demand (DC 22), true seeing
+AbilityScores:
+  - 41
+  - 11
+  - 28
+  - 14
+  - 23
+  - 18
+BaseAtk: '17'
+CMB: '36'
+CMD: '46'
+Feats:
+  - Awesome Blow
+  - Cleave
+  - Critical Focus
+  - Great Cleave
+  - Greater Bull Rush
+  - Improved Bull Rush
+  - Improved Critical (greatsword)
+  - Improved Vital Strike
+  - Iron Will
+  - Power Attack
+  - Staggering Critical
+  - Vital Strike
+  - Weapon Focus (greatsword)
+Skills:
+  - Acrobatics +17
+  - Craft (weapons) +27
+  - Knowledge (history) +13
+  - Knowledge (nobility) +13
+  - Perception +31
+Languages:
+  - Common
+  - Giant
+  - Terran
+  - Thassilonian
+Source: Lost Cities Of Golarion
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Giant (Su)
+    description: >-
+      A rune giant gains a +4 racial bonus on the save DC of charm or compulsion
+      effects used against giants.
+  - name: Runes (Ex)
+    description: >-
+      As a free action, whenever a rune giant uses its spark shower or
+      spell-like abilities, it can cause the runes on its body to flash with
+      light. All creatures within 10 feet of the giant must make a DC 24
+      Fortitude save or be blinded for 1 round. The saving throw is
+      Charisma-based.
+  - name: Spark Shower (Su)
+    description: >-
+      As a standard action, a rune giant can cause a shower of sparks to erupt
+      out of one of the runes on its body. These sparks function as a breath
+      weapon (30-ft. cone; 10d6 fire and 10d6 electricity damage; Reflex DC 29
+      half; usable once every 1d4 rounds). The save DC is Constitution-based.
+Gender: Male
+Gear: masterwork full plate, masterwork cold iron greatsword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1409'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

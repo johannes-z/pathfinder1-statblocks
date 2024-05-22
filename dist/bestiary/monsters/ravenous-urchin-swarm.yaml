@@ -1,0 +1,100 @@
+Name: Ravenous Urchin Swarm
+CR: '2'
+XP: '600'
+Alignment: NE
+Size: Tiny
+Type: vermin
+SubType: (aquatic, swarm)
+Init: '1'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +1
+AC: 15, touch 13, flat-footed 14
+AC_Mods: (+1 Dex, +2 natural, +2 size)
+HP: '18'
+HD: (4d8)
+Saves: Fort +4, Ref +2, Will +2
+Fort: '4'
+Ref: '2'
+Will: '2'
+Immune: mind-affecting effects,
+Resist: cold 5
+Speed: 10 ft., swim 20 ft.
+Melee:
+  - swarm +6 (2d6 plus poison)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: distraction (DC 14), jet, underfoot
+AbilityScores:
+  - 1
+  - 13
+  - 10
+  - —
+  - 13
+  - 9
+BaseAtk: '3'
+CMB: '2'
+CMD: 7 (can't be tripped)
+Feats:
+  - Weapon Finesse
+Skills:
+  - Acrobatics +9
+  - Swim +3
+RacialMods: Acrobatics +8,
+SQ: amphibious
+Environment: any coastlines or water
+Organization: solitary, pool (2-5), or red tide (11-20)
+Treasure: none
+Description_Visual: >-
+  A wave of swift-moving spines rushes forward-a roiling tide of dangerously
+  fast sea urchins.
+Group: Sea Urchin
+Source: AP 56
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Jet (Ex)
+    description: >-
+      While underwater, a ravenous urchin swarm can jet as a full-round action
+      at a speed of 70 feet. It must move in a straight line, but does not
+      provoke attacks of opportunity while jetting.
+  - name: Poison (Ex)
+    description: >-
+      Swarm-injury; save Fort DC 12; frequency 1/round for 6 rounds; effect 1d2
+      Dex and reduce movement speed by 10 feet (to a minimum of 5 feet); cure 1
+      save. The venom of ravenous urchin swarms stiffens muscles and locks
+      joints into painful configurations. The save DC is Constitution-based.
+  - name: Underfoot (Ex)
+    description: >-
+      Each time a creature moves through a space occupied by a ravenous urchin
+      swarm or starts its movement in such a space, it runs the risk of a
+      ravenous urchin moving underfoot. The creature must succeed at a DC 13
+      Reflex save or take 1 point of damage plus poison. Additionally, the
+      affected creature's movement speed is reduced by half because its foot is
+      wounded. This movement penalty lasts for 24 hours, until the creature is
+      successfully treated with a DC 15 Heal check, or until it receives at
+      least 1 point of magical healing. A charging or running creature must
+      immediately stop if it steps on a ravenous urchin. Any creature moving at
+      half its speed or slower can pick its way through a tidal pool of ravenous
+      urchins (but not a ravenous urchin swarm) with no trouble. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    Unlike most urchins, the creatures that make up the infamous urchin swarms
+    are capable of propelling themselves beneath the waves at furious speeds,
+    creating a dangerous threat to pearl divers and other aquatic
+    creatures-often one that's dismissed as a myth until it's far too late.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2880'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

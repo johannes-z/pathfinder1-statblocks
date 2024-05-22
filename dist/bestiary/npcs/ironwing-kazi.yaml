@@ -1,0 +1,113 @@
+Name: Ironwing Kazi
+CR: '10'
+XP: '9600'
+Race: griffon
+MonsterSource: Pathfinder RPG Bestiary 294, 168
+Alignment: NG
+Size: Large
+Type: magical beast
+SubType: (mythicMA)
+Init: '4'
+Senses:
+  - darkvision 60 ft., greensightMA 60 ft., low-light vision, scent
+  - Perception +14
+AC: 26, touch 13, flat-footed 22
+AC_Mods: (+4 Dex, +13 natural, -1 size)
+HP: '144'
+HD: (9d10+95)
+Saves: Fort +11, Ref +12, Will +9
+Fort: '11'
+Ref: '12'
+Will: '9'
+DefensiveAbilities: deflect attacks, fortificationMA
+DR: 5/epic
+Resist: fire 30
+Speed: 30 ft., fly 80 ft. (average)
+Melee:
+  - +1 bite +17 (1d6+8), 2 +1 talons +16 (1d6+8/18-20)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  mythic powerMA (5/day, +1d8 surge), pounce, power dive, rake (2 +1 claws +8,
+  1d4+8)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +10)
+  values:
+    - label: Constant
+      value: detect evil
+AbilityScores:
+  - 24
+  - 19
+  - 20
+  - 9
+  - 18
+  - 12
+BaseAtk: '9'
+CMB: '17'
+CMD: 31 (35 vs. trip)
+Feats:
+  - Flyby Attack
+  - Hover
+  - Iron Will[M]
+  - Lightning Reflexes[M]
+  - Weapon Focus[M] (bite)
+Skills:
+  - Acrobatics +14
+  - Fly +8
+  - Perception +14
+Languages:
+  - Common (cannot speak)
+SQ: Barrowood senses, legendary talons, longevityMA
+Source: AP 106
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Barrowood Senses (Su)
+    description: >-
+      As a dedicated defender of the Barrowood, Ironwing Kazi has the
+      greensightMA ability and detect evil as a constant spell-like ability.
+  - name: Deflect Attacks (Ex)
+    description: >-
+      Once per round, when Ironwing Kazi or her rider is hit by a melee or
+      ranged attack, she can attempt a melee attack with a +16 attack bonus to
+      deflect the attack with one of her wings. If the result equals or exceeds
+      the result from the opponent's attack roll, Kazi or her rider is
+      unaffected by the attack (as if the attack had missed).
+  - name: Legendary Talons (Ex)
+    description: >-
+      Ironwing Kazi's talons are as sharp as the most masterfully forged sword,
+      and have a critical threat range of 18-20.
+  - name: Power Dive (Ex)
+    description: >-
+      When flying, Ironwing Kazi can move up to four times her speed when she
+      charges. If her charge begins 40 or more feet above her target, her first
+      attack deals double the normal amount of damage. Kazi must be flying
+      downward at an angle of 45 degrees or steeper to use this ability.
+Gender: Female
+BeforeCombat: >-
+  Vlasko casts greater magic fang on Kazi every day, and freedom of movement and
+  resist energy (fire) before they enter combat.
+DuringCombat: >-
+  Kazi loves to power dive at her opponents, especially pesky spellcasters and
+  ranged combatants. Preferring hit-and-run tactics, she settles only when she
+  has the tactical advantage or as part of some desperate gambit to defeat a
+  spellcaster.
+Morale: >-
+  Kazi is nearly fearless, and would not hesitate to fight to the death, but she
+  has sworn an oath to protect and defend Vlasko, so she retreats if he is
+  reduced to 20 hit points or fewer.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8367'
+UniqueMonster: '1'
+Variant: '0'
+MR: '5'
+Mythic: '1'
+MT: '0'

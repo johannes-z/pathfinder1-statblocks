@@ -1,0 +1,121 @@
+Name: Great Ghul
+CR: '10'
+XP: '9600'
+Race: ghul
+MonsterSource: >-
+  Pathfinder RPG Bestiary 3 125, Pathfinder Campaign Setting: Dark Markets, A
+  Guide to Katapesh 63
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (shapechanger)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+AC: 24, touch 16, flat-footed 18
+AC_Mods: (+5 Dex, +1 dodge, +8 natural)
+HP: '138'
+HD: (12d8+84)
+Saves: Fort +10, Ref +11, Will +12
+Fort: '10'
+Ref: '11'
+Will: '12'
+DR: 10/cold iron and good
+Immune: undead traits
+Resist: fire 10
+Speed: 40 ft., climb 20 ft.
+Melee:
+  - bite +17 (1d6+8), 2 claws +17 (1d4+8/19-20 plus bleed)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bleed 1, create spawn, cursed claws, rend (2 claws, 1d6+8), warp metal
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +17)
+  values:
+    - label: 1/day
+      value: greater invisibility (self only)
+AbilityScores:
+  - 26
+  - 20
+  - —
+  - 18
+  - 19
+  - 22
+BaseAtk: '9'
+CMB: '17'
+CMD: '33'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (claws)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+Skills:
+  - Bluff +18
+  - Climb +31
+  - Disguise +21
+  - Intimidate +21
+  - Perception +19
+  - Sense Motive +19
+  - Stealth +20
+  - Survival +16
+Languages:
+  - Abyssal
+  - Ancient Osiriani
+  - Necril
+  - Terran
+SQ: >-
+  change shape (any humanoid, ghul, or hyena; does not detect as undead in
+  living forms; polymorph), genie-kin
+Source: AP 83
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      Any humanoid slain by a great ghul becomes a ghoul on the next moonrise.
+      Likewise, a slain janni becomes a ghul and a slain genie becomes a great
+      ghul. Blessing or destroying the body (such as with acid or fire) prevents
+      this reanimation.
+  - name: Cursed Claws (Ex)
+    description: >-
+      A great ghul's claws count as both cold iron and magic for the purpose of
+      bypassing damage reduction. Genie-Kin (Ex) For all race-related effects
+      (such as a ranger's favored enemy), a great ghul is considered a genie
+      (and thus a chaotic outsider and an evil outsider) even though its type is
+      undead.
+  - name: Warp Metal (Su)
+    description: >-
+      As a standard action, a great ghul may warp and deform any one metal
+      object within 20 feet. This functions like warp wood, but affects only
+      metal objects that fail a DC 22 Fortitude save. Armor or shields lose half
+      their bonus to AC (enhancement bonuses are unaffected), and weapons are
+      rendered useless except as improvised clubs. Other objects, such as doors,
+      are rendered useless for their function. The transformation lasts 1
+      minute, after which the affected metal reverts to its normal state. The
+      save DC is Charisma-based.
+DuringCombat: >-
+  The great ghuls cast greater invisibility on themselves on the first round of
+  combat, then move forward to attack foes. They prefer to fight divine
+  spellcasters first, teaming up on foes like clerics or paladins in an attempt
+  to deny the PCs healing while simultaneously taking out the PCs who pose the
+  greatest threat to them.
+Morale: The great ghuls fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6225'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

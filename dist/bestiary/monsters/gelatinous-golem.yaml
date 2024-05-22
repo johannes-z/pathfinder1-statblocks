@@ -1,0 +1,128 @@
+Name: Gelatinous Golem
+CR: '10'
+XP: '9600'
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +19
+AC: 24, touch 10, flat-footed 23
+AC_Mods: (+1 Dex, +14 natural, -1 size)
+HP: '114'
+HD: (13d10+30 plus 13)
+Saves: Fort +6, Ref +7, Will +6
+Fort: '6'
+Ref: '7'
+Will: '6'
+DR: 10/bludgeoning and magic
+Immune: construct traits, electricity, magic
+Speed: 30 ft.
+Melee:
+  - 2 slams +19 (2d6+6 plus 2d6 acid and paralysis)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: acid, engulf, paralysis (3d6 rounds, DC 16)
+AbilityScores:
+  - 22
+  - 12
+  - —
+  - 3
+  - 11
+  - 1
+BaseAtk: '8'
+CMB: '15'
+CMD: '26'
+Feats:
+  - Great Fortitude
+  - Iron Will
+  - Lighting Reflexes
+  - Power Attack
+  - Skill Focus (Perception)
+  - Toughness
+  - Weapon Focus (slam)
+Skills:
+  - Perception +19
+SQ: transparent
+Environment: any
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This automaton looks like a humanoid-shaped semi-transparent amoeba. Small
+  indentions appear to serve as the creature's eyes. No other facial features
+  are present.
+Group: Golem
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid (Ex)
+    description: A gelatinous golem's acid does not harm metal or stone.
+  - name: Engulf (Ex)
+    description: >-
+      A gelatinous golem can try to wrap an opponent up to one size smaller than
+      itself in its body as a standard action. The gelatinous golem attempts a
+      grapple that does not provoke an attack of opportunity. If it wins the
+      grapple the gelatinous golem establishes a hold. Attacks that hit an
+      engulfing gelatinous golem deal half their damage to the golem and half to
+      the engulfed victim. An engulfed opponent is subjected to the gelatinous
+      golem's paralysis and acid each round it remains trapped. A trapped
+      opponent can do nothing other than attempt to escape. Further, an engulfed
+      foe must hold its breath or begin drowning (see the Core Rulebook for the
+      drowning rules). While engulfing an opponent, a gelatinous golem is not
+      considered grappled and can move and attack normally.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A gelatinous golem is immune to any spell or spell-like ability that
+      allows spell resistance. In addition, certain spells and effects function
+      differently against the creature, as noted below. A cone of cold spell
+      slows it (as the slow spell) for 2d6 rounds, with no saving throw. An acid
+      fog spell heals all of its lost hit points.
+  - name: Transparent (Ex)
+    description: >-
+      A gelatinous golem is hard to see, even under ideal conditions, and it
+      takes a DC 15 Perception check to notice one. Creatures who fail to notice
+      a gelatinous golem and walk into it are automatically grappled (if the
+      golem chooses to grapple the opponent).
+Description:
+  - >-
+    Gelatinous golems are the creation of Jubilex the Faceless Lord or rather
+    the invention of Jubilex and the creation of his priests. Formed of dead and
+    preserved gelatinous cubes and infused with a spark of intelligence, these
+    monsters are used by many of his priests as temple and tomb guardians. They
+    share a link with ooze golems in that they co-exist in temples dedicated to
+    The Faceless Lord. Like most golems, these automatons follow the orders of
+    their creator, but being intelligent, they understand more complex
+    instructions and can carry out more difficult tasks that ordinary constructs
+    cannot. A gelatinous golem stands 8 feet tall and weighs 600 pounds. A
+    gelatinous golem cannot speak or make any vocal noise. It walks and moves
+    with a slow and clumsy gait. A gelatinous golem attacks by smashing its
+    opponents with its fists that exude an anesthetizing slime. Paralyzed
+    opponents are ignored if other opponents continue attacking the golem. If
+    all opponents are paralyzed, the golem carries out the commands of its
+    creator (whether it is to kill such creatures, leave them alone, or some
+    other such command). Construction A gelatinous golem's body is formed from a
+    single dead gelatinous cube of Large or larger size and treated with a
+    mixture of rare chemicals worth 1,000 gp. GELATINOUS GOLEM CL 12th; Price
+    85,000 gp Requirements Craft Construct, acid fog, geas/quest, limited wish,
+    polymorph any object, creator must be caster level 12th; Skill Craft
+    (sculptures) DC 17; Cost 43,000 Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2647'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

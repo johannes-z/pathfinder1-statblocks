@@ -1,0 +1,183 @@
+Name: Thriae Dancer
+CR: '6'
+XP: '2400'
+Alignment: LN
+Size: Medium
+Type: monstrous humanoid
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 19, touch 13, flat-footed 16
+AC_Mods: (+3 Dex, +6 natural)
+HP: '60'
+HD: (8d10+16)
+Saves: Fort +6, Ref +9, Will +7; +4 vs. mind-affecting effects
+Fort: '6'
+Ref: '9'
+Will: '7'
+Save_Mods: +4 vs. mind-affecting effects
+Immune: poison, sonic
+Resist: acid 10
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - mwk glaive +12/+7 (1d10+3/x3), sting +10 (1d8+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: inspiring dance, poison
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +11)
+  values:
+    - label: Constant
+      value: detect secret doors
+    - label: At Will
+      value: lullaby (DC 13)
+    - label: 3/day
+      value: calm emotions (DC 14), charm person (DC 14), hypnotism (DC 14)
+    - label: 1/day
+      value: deep slumber (DC 16), suggestion (DC 16)
+AbilityScores:
+  - 15
+  - 16
+  - 15
+  - 12
+  - 13
+  - 16
+BaseAtk: '8'
+CMB: '10'
+CMD: '23'
+Feats:
+  - Combat Reflexes
+  - Great Fortitude
+  - Improved Initiative
+  - Weapon Focus (glaive)
+Skills:
+  - Acrobatics +11
+  - Diplomacy +11
+  - Fly +11
+  - Perception +10
+  - Perform (dance) +11
+  - Sleight of Hand +6
+  - Stealth +12
+Languages:
+  - Common
+  - Thriae
+Environment: any
+Organization: solitary, duet, trio, or troupe (4-8)
+Treasure: standard (mwk glaive, 3 doses of merope, other treasure)
+Description_Visual: >-
+  This elegant half-woman, half-bee wields a glaive and is clad in flowing,
+  gauzy garments. A veil covers most of her face, revealing only seductive,
+  unnaturally beautiful eyes.
+Group: Thriae
+Source: AP 81
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Inspiring Dance (Su)
+    description: >-
+      Three times per day as a standard action, a thriae dancer can consume a
+      dose of merope (honey from the thriae queen) to channel her connection to
+      the natural world into an awe-inspiring dance. This dance may have a
+      variety of effects depending on which of the following performances she
+      chooses. Once she has begun, the thriae dancer may maintain her dance as a
+      free action, and the effects of the dance persist as long as the thriae
+      performs her dance. A thriae dancer can dance for a number of rounds equal
+      to her Hit Dice before becoming fatigued. After that, if she continues
+      dancing for that same number of rounds, she becomes exhausted. A thriae
+      dancer may switch between performances as a swift action. Targets must be
+      within 60 feet and able to see the thriae dancer in order to be affected
+      by her dance. This is a mind-affecting effect. Dance of Fervor: This
+      performance affects all non-thriae creatures within its range with the
+      effects of both confusion and rage (Will DC 17 negates). When this effect
+      ends, affected creatures are fatigued for a number of rounds equal to the
+      length of time they were affected by the dance of fervor. A creature may
+      not be affected by the same thriae dancer's dance of fervor more than once
+      in 24 hours. The save DC is Charisma-based. Dance of Grace: This
+      performance grants all thriae within its range (including the dancer) a +1
+      insight bonus to AC and on Reflex saving throws. This bonus increases to
+      +2 if three or more thriae dancers are performing a dance of grace within
+      range of the target. Dance of Passion: This performance grants all thriae
+      within its range (including the dancer) a +1 insight bonus on attack and
+      damage rolls. This bonus increases to +2 if three or more thriae dancers
+      are performing a dance of passion within range of the target.
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 16; frequency 1/round for 6 rounds; effect 1d3
+      Str; cure 1 save.
+Description:
+  - >-
+    For as stoic and pragmatic as the thriae may be, they do appreciate art,
+    grace, and beauty. This is exemplified not only by their ornately crafted
+    weapons, armor, and jewelry, but also by their renowned dancers. These
+    talented individuals are the most honored performers of their race, and they
+    grace the halls and temple chambers of every thriae colony.
+  - >-
+    While all thriae can be considered the epitome of alien grace and charm,
+    thriae dancers are always among the most beautiful of their kind. They are
+    typically 6 feet tall and weigh 140 pounds.
+  - Ecology
+  - >-
+    Other races may scoff at the fact that thriae dancers seemingly rely on
+    merope consumption in order to channel their mystical power into their
+    dances, but there is much more to this act than one might realize. A thriae
+    dancer's reliance on merope to execute her awesome performances is akin to a
+    ballerina's reliance on her specialized shoes-while a ballet can be
+    performed without them, the final result lacks a certain amount of finish
+    without this integral element. So too does a thriae dancer's use of merope
+    enhance her performance, with the potent serum pushing her body to its
+    utmost limits. As the merope courses through a dancer, she channels her
+    mysterious art into a spiritual energy capable of thrusting viewers to
+    previously unknown heights of pleasure, awe, and sorrow. It's true that
+    thriae are a stoic, nigh-unf linching race, but in the middle of a thriae
+    dancer's performance, it's rare to see any thriae witnesses unmoved by such
+    a powerful spectacle.
+  - Habitat & Society
+  - >-
+    Like all thriae, a dancer's role in the colony is chosen for her during
+    adolescence, and she's thereafter cared for and trained by elder members
+    from the same occupation until ready to perform on her own. A dancer's
+    training takes many years of concentrated effort and tutelage from her
+    superiors, during which time she's permitted to see no one but her fellow
+    dancers. Thriae seers reason that dancers must be completely virginal in
+    order for them to channel only the purest forms of nature's secrets. All
+    training takes place within a special temple room in the thriae colony,
+    where incense derived from merope is burned constantly to ensure the
+    dancers' focus is sustained for hours on end.
+  - >-
+    Dancers train in troupes, and most performances are choreographed group
+    pieces performed once a month in the colony's largest hall, with an audience
+    of thriae from all parts of the colony and caste system. The buzz of wings
+    and even the sound of twitching antennae become muted as thriae soldiers,
+    seers, and workers eagerly witness the highly spiritual dance ceremony.
+  - >-
+    Drones-those humanoid men inducted into thriae society-are not permitted to
+    witness thriae dances, as to behold such beauty would surely drive them
+    irreparably mad.
+  - >-
+    Only the most talented and coveted thriae dancers are permitted to perform
+    alone-there's typically only one such dancer in the entire colony, though
+    some colonies might host a pair of honored performers. The solo or duet
+    performances of these honored individuals are considered sacred affairs, and
+    are typically attended only by the queen and upper class thriae such as
+    seers, royal consorts, and generals. Venerated by their peers, these dancers
+    are known as thriae terpsichoreans, and occupy the upper echelons of thriae
+    society. Thriae terpsichoreans typically have levels in bard, are at least
+    CR 9, and have access to the following spell-like abilities: 3/day-heroism,
+    suggestion; 1/ day-zone of silence.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6043'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

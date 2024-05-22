@@ -1,0 +1,135 @@
+Name: Baku
+CR: '8'
+XP: '4800'
+Alignment: 'N'
+Size: Medium
+Type: magical beast
+Init: '9'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +16
+AC: 15, touch 15, flat-footed 10
+AC_Mods: (+5 Dex, +0 natural)
+HP: '95'
+HD: (10d10+40)
+Saves: Fort +11, Ref +12, Will +8
+Fort: '11'
+Ref: '12'
+Will: '8'
+DR: 10/cold iron
+Immune: mind-affecting effects, sleep
+SR: '19'
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee:
+  - 2 claws +15 (1d4+2), gore +15 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: mental drain
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +17)
+  values:
+    - label: At Will
+      value: invisibility, lullaby, sleep (DC 18)
+    - label: 3/day
+      value: deep slumber (DC 20), dream
+    - label: 1/day
+      value: ethereal jaunt, modify memory (DC 21)
+AbilityScores:
+  - 14
+  - 21
+  - 18
+  - 15
+  - 16
+  - 25
+BaseAtk: '10'
+CMB: '12'
+CMD: 27 (31 vs. trip)
+Feats:
+  - Alertness
+  - Flyby Attack
+  - Improved Initiative
+  - Iron Will
+  - Weapon Finesse
+Skills:
+  - Diplomacy +15
+  - Fly +18
+  - Perception +16
+  - Sense Motive +13
+  - Spellcraft +8
+  - Stealth +16
+Languages:
+  - Aklo
+  - Celestial
+  - Common
+SQ: dream claws
+Environment: any
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This floating creature has long brown fur. Its face features a pair of long
+  tusks and a curious elongated trunk for a snout.
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dream Claws (Ex)
+    description: >-
+      A baku's claws are treated as cold iron and magic for purposes of
+      overcoming damage reduction.
+  - name: Dream Eating (Su)
+    description: >-
+      A baku can feed upon the dreams of any single sleeping creature within 100
+      feet. Alternatively, the baku can feed upon the dreams of a creature that
+      it manages to contact with its dream spell-like ability. A creature can
+      resist this effect with a DC 22 Will save. When a baku feeds in this way,
+      it can elect to consume only nightmares or all dreams. If it only consumes
+      nightmares, the target creature is immune to the effects of the nightmare
+      spell, the dream haunting ability of the night hag, and other similar
+      attacks for that period of sleep. If the baku instead feeds on all of the
+      creature's dreams, that creature is fatigued upon waking and does not gain
+      any benefits it would have received from sleep, such as natural healing or
+      the ability to regain spells after resting. This is a mind-affecting sleep
+      effect. The save DC is Charisma-based.
+  - name: Mental Drain (Su)
+    description: >-
+      When a baku attacks with a claw, it can choose, as a swift action, to deal
+      1d4 points of Intelligence damage on that attack. A DC 22 Will save
+      negates this ability damage. The save DC is Charisma-based.
+Description:
+  - >-
+    Bizarre creatures that feed on thoughts, bakus stay hidden from humanoids
+    and feed on their creativity and dreams as well as their fears and
+    nightmares. Bakus rarely encounter others of their kind, living largely
+    solitary lives. Some sages speculate the creatures are not born, but rather
+    spontaneously manifest as if spun from dreams, nightmares, and creative
+    thoughts. Bakus are about 5 feet long and weigh 100 pounds.
+  - >-
+    Bakus dislike feeding on thoughts concerning themselves, and tend to cease
+    when their target begins thinking of the baku. For this reason, bakus keep
+    hidden in settlements, floating in the evening air above bedrooms and
+    boarding houses, siphoning sustenance from the dreaming populace. Bakus
+    themselves do not sleep.
+  - >-
+    Given their connection to dreams and nightmares, bakus are mortal enemies of
+    night hags. Though usually calm and gentle creatures, bakus that encounter
+    night hags dedicate themselves to hunting them down and ridding the world of
+    their dark inf luence. A baku uses its ethereal jaunt spell-like ability to
+    fight night hags as they inf lict nightmares on their victims.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1980'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

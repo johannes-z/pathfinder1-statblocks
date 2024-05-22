@@ -1,0 +1,140 @@
+Name: Maven Mosslight
+CR: '10'
+XP: '9600'
+Race: human
+Class: sorcerer 9
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid,  incorporeal)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+AC: 19, touch 19, flat-footed 15
+AC_Mods: (+3 Dex, +1 dodge, +5 deflection)
+HP: '94'
+HD: (9d6+63)
+Saves: Fort +8, Ref +8, Will +7
+Fort: '8'
+Ref: '8'
+Will: '7'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: undead traits
+Resist: cold 20
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +7 (10d6, Fort  DC 19 half )
+Ranged:
+  - elemental ray +7 (1d6+4 cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: elemental blast,  telekinesis (CL 12th, Will DC 19)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 9th)
+  values:
+    - label: 8/day
+      value: elemental ray
+    - label: 1/day
+      value: elemental blast
+SpellsKnown:
+  header: Spells Known (CL 9th)
+  values:
+    - label: 4th (5/day)
+      value: bestow curse (DC 19), elemental body*, solid fog
+    - label: 3rd (7/day)
+      value: >-
+        protection from energy, ray of exhaustion (DC 18), stinking cloud (DC
+        18), water breathing
+    - label: 2nd (7/day)
+      value: >-
+        command undead (DC 17), gust of wind (DC 17), invisibility (DC 17),
+        scorching ray*, summon swarm
+    - label: 1st (8/day)
+      value: >-
+        animate rope, burning hands* (DC 16), cause fear (DC 16), hold portal,
+        sleep (DC 16), silent image (DC 16) 0-acid splash, bleed (DC 15),
+        dancing lights, detect magic, ghost sound (DC 15), open/close, message,
+        prestidigitation
+AbilityScores:
+  - —
+  - 16
+  - —
+  - 12
+  - 13
+  - 21
+BaseAtk: '4'
+CMB: '4'
+CMD: '23'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+  - Mobility
+  - Toughness
+Skills:
+  - Bluff +12
+  - Fly +8
+  - Intimidate +14
+  - Knowledge (arcana) +7
+  - Knowledge (local) +2
+  - Knowledge (nature) +9
+  - Knowledge (nobility) +6
+  - Perception +21
+  - Stealth +15
+RacialMods: +8 Perception, +8 Stealth
+Languages:
+  - Common
+  - Hallit
+SQ: grave trappings
+Source: Classic Horrors
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Corrupting Touch (Su)
+    description: >-
+      By passing part of its incorporeal body through a foe's body as a standard
+      action, Maven inflicts 10d6 damage. This damage is not negative energy-it
+      manifests in the form of physical wounds and aches from supernatural
+      aging. Creatures immune to magical aging are immune to this damage, but
+      otherwise the damage bypasses all forms of damage reduction. A Fortitude
+      save (DC 19) halves the damage inflicted.
+  - name: Grave Trappings (Su)
+    description: >-
+      Maven bears a ghostly lantern that sheds an unnerving glow. This light
+      functions like a candle of invocation, causing all evil creatures that
+      come within 30 feet of Maven to gain a +2 morale bonus on attack rolls,
+      saving throws, and skill checks. Once per day she can use the candle to
+      summon 1d4 will-o'-wisps. Maven can interact with the lantern as though it
+      were incorporeal. If Maven is destroyed, the lantern is destroyed as well,
+      and reforms with her upon rejuvenating.
+  - name: Rejuvenation (Su)
+    description: >-
+      If "destroyed" through combat, Maven restores herself in 2d4 days. She can
+      only be put to rest if her sunken, fish-eaten remains and the richly
+      interred corpse of Lady Sylnia Whitchaste have their places swapped.
+  - name: Telekinesis (Su)
+    description: >-
+      Maven can use telekinesis as a standard action once every 1d4 rounds
+      (caster level 12th).
+Gender: Female
+Bloodline: elemental (water)
+Gear: lantern of souls (grave trappings)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost
+OffenseNote: '* These spells deal cold damage and have the water subtype.'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '446'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

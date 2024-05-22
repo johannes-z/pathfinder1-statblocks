@@ -1,0 +1,137 @@
+Name: Magaav Commander
+CR: '9'
+XP: '6400'
+Race: Greater host devil
+Class: fighter (phalanx soldier) 3
+MonsterSource: >-
+  Pathfinder Campaign Setting: Princes of Darkness, Book of the Damned, Vol. 1
+  58, Pathfinder RPG Advanced Player's Guide 105
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '4'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +15
+AC: 30, touch 15, flat-footed 25
+AC_Mods: (+4 armor, +4 Dex, +1 dodge, +8 natural, +3 shield)
+HP: '107'
+HD: (10 HD; 7d10+3d10+53)
+Saves: Fort +13, Ref +10, Will +7
+Fort: '13'
+Ref: '10'
+Will: '7'
+DR: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '17'
+Speed: 20 ft., fly 50 ft. (average)
+Melee:
+  - >-
+    +1 adamantine bardiche* +18/+13 (1d10+8/17-20), 2 claws +12 (1d6+3 plus
+    infernal wound)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with bardiche)
+SpecialAttacks: >-
+  breath weapon (5-ft., sickened for 1d4 rounds, Fort DC 18 negates, usable
+  3/day every 1d4 rounds), master grappler, phalanx fighting*, rend (2 claws,
+  1d6+10 plus infernal wound)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +11)
+  values:
+    - label: At Will
+      value: greater teleport (self plus 50 lbs. of objects only)
+    - label: 1/day
+      value: summon (level 3, 1d2 gaavs, 60%)
+AbilityScores:
+  - 24
+  - 19
+  - 20
+  - 13
+  - 14
+  - 9
+BaseAtk: '10'
+CMB: '17'
+CMD: 32 (33 vs. bull rush, drag, overrun, trample, and trip)
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Hover
+  - Improved Critical (bardiche*)
+  - Iron Will
+  - Mobility
+  - Shield Focus
+Skills:
+  - Acrobatics +16
+  - Fly +16
+  - Intimidate +12
+  - Knowledge (planes) +12
+  - Perception +15
+  - Stealth +16
+Languages:
+  - Celestial
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: shared senses, stand firm*
+Source: AP 60
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      Three times per day, a magaav can exhale a noxious cloud of reeking
+      corruption upon a creature within 5 feet. The target must succeed at a DC
+      18 Fortitude save or be sickened for 1d4 rounds. A creature that
+      successfully saves cannot be affected by the same magaav's breath weapon
+      for 24 hours. This is a poison effect.
+  - name: Infernal Wound (Su)
+    description: >-
+      The damage a magaav deals with its claws or rend inflicts persistent
+      wounds that cause 1 point of bleed damage. Bleed damage caused by an
+      infernal wound is particularly difficult to stanch-a successful DC 18 Heal
+      check stops the damage, and any attempt to heal a creature suffering from
+      an infernal wound must succeed at a DC 18 caster level check or the spell
+      does not function. Success indicates the healing works normally and stops
+      all bleed effects on the victim.
+  - name: Master Grappler (Ex)
+    description: >-
+      A magaav can wield a weapon in both hands and still attempt to grapple. If
+      it's not wielding a weapon, a magaav gains a +4 bonus on combat maneuver
+      checks to grapple. A magaav does not provoke an attack of opportunity when
+      attempting to grapple.
+  - name: Shared Senses (Su)
+    description: >-
+      All host devils (gaavs and magaavs) within 100 feet of each other share
+      the same senses. If one individual perceives something, all others within
+      range are immediately aware of it. It is still possible for a magaav to be
+      surprised or flat-footed even if other host devils within range are not.
+BeforeCombat: The magaav commander drinks its potion of invisibility before combat.
+DuringCombat: >-
+  The magaav commander uses telepathy and shared senses to direct the attacks of
+  the murder magaavs, while attacking foes with its bardiche and claws, or
+  grappling enemies with its spiked armor.
+Morale: >-
+  If all of the murder magaavs are slain, the magaav commander teleports back to
+  the Abrogail's Fury to report failure. Otherwise, it fights to the death.
+Gear: feather tokens (anchor, 2), feather token (whip), potion of invisibility
+OtherGear: >-
+  masterwork spiked chain shirt, masterwork heavy wooden shield, +1 adamantine
+  bardiche*, belt of giant strength +2
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: phalanx soldier
+CompanionFamiliarLink: '0'
+id: '3301'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

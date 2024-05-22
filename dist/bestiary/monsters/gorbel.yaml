@@ -1,0 +1,105 @@
+Name: Gorbel
+CR: 1/2
+XP: '200'
+Alignment: 'N'
+Size: Small
+Type: aberration
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +8
+AC: 17, touch 13, flat-footed 15
+AC_Mods: (+2 Dex, +4 natural, +1 size)
+HP: '11'
+HD: (2d8+2)
+Saves: Fort +1, Ref +2, Will +2
+Fort: '1'
+Ref: '2'
+Will: '2'
+DefensiveAbilities: all-around vision
+DR: 5/slashing or piercing
+Immune: flanking
+Weaknesses: explosion
+Speed: 5 ft., fly 60 ft. (average)
+Melee:
+  - >-
+    2 claws +3 (1d4+1 plus grab), bite +3 (1d6+1) Special Abilities grab and
+    bite
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 12
+  - 14
+  - 12
+  - 8
+  - 9
+  - 8
+BaseAtk: '1'
+CMB: +1 (+5 grapple)
+CMD: 13 (can't be tripped)
+Feats:
+  - Flyby Attack
+Skills:
+  - Fly +9
+  - Perception +8
+  - Stealth +11
+RacialMods: +4 Perception
+Languages:
+  - Aklo
+Environment: warm forests
+Organization: solitary or swarm (2-10)
+Treasure: none
+Description_Visual: >-
+  This bizarre creature is a small orb with reddish skin. Atop its round body
+  are six eyestalks, each ending in a sapphire-colored eye. Dangling beneath its
+  body are two stubby legs that end in claws.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Explosion (Ex)
+    description: >-
+      When a gorbel is hit with a weapon, spell, or effect that deals piercing
+      or slashing damage, it must succeed on a Fortitude save (DC 10 + damage
+      taken) or instantly explode, dealing 1d4 points of damage to all creatures
+      within 5 feet. This instantly kills the gorbel. Creatures in the affected
+      area can attempt a DC 12 Reflex save to reduce the damage by half. The
+      save DC is Constitution-based.
+  - name: Grab and Bite (Ex)
+    description: >-
+      A gorbel can bite a grappled opponent as a swift action with a +4 attack
+      bonus.
+Description:
+  - >-
+    The gorbel is a strange creature approximately 3 feet in diameter. Its
+    reddish skin is a thin but tough and rubbery membrane. The spherical body of
+    a gorbel is highly elastic and filled to near bursting with a lighter-than
+    air flammable gas that smells of rotten eggs (sulfur). A gorbel eats,
+    breathes, and excretes through an aperture best described as a mouth. This
+    mouth is lined with a ring of sharp teeth that face inward to help it force
+    food into its gullet. Gorbels primarily attack with their claws, only
+    resorting to biting after they have latched onto their prey. A gorbel will
+    attack and try to eat whatever it thinks is edible - generally including
+    anything that moves that is smaller than the gorbel. Its strange metabolic
+    processes instill it with an almost insatiable hunger. Credit The Gorbel
+    originally appeared in the First Edition Fiend Folio (© TSR/ Wizards of the
+    Coast, 1981) and is used by permission. Copyright Notice Author Scott
+    Greene, based on original material by Andrew Key.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2658'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

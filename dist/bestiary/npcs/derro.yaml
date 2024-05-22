@@ -1,0 +1,95 @@
+Name: Derro
+CR: '3'
+XP: '800'
+Race: Derro
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (derro)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 17, touch 13, flat-footed 15
+AC_Mods: (+2 armor, +2 Dex, +2 natural, +1 size)
+HP: '25'
+HD: (3d8+12)
+Saves: Fort +5, Ref +3, Will +6
+Fort: '5'
+Ref: '3'
+Will: '6'
+SR: '14'
+Weaknesses: vulnerability to sunlight
+Speed: 20 ft.
+Melee:
+  - short sword +5 (1d4)
+Ranged:
+  - repeating light crossbow +5 (1d8/19-20 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +1d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd)
+  values:
+    - label: At will
+      value: darkness, ghost sound (DC 13)
+    - label: 1/day
+      value: daze (DC 13), sound burst (DC 15)
+AbilityScores:
+  - 11
+  - 14
+  - 18
+  - 10
+  - 5
+  - 16
+BaseAtk: '2'
+CMB: '1'
+CMD: '13'
+Feats:
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Perception +0
+  - Stealth +9
+Languages:
+  - Aklo
+  - Undercommon
+SQ: madness, poison use
+Source: PFS S1-30
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Madness (Ex)
+    description: >-
+      Derros use their Charisma modifier on Will saves instead of their Wisdom
+      modifier, and are immune to insanity and confusion effects. Only a miracle
+      or wish can remove a derro's madness. If this occurs, the derro gains 6
+      points of Wisdom and loses 6 points of Charisma. Poison Weapon-injury;
+      save Fort DC 14; frequency 1/round for 4 rounds; effect 1d2 Strength
+      damage; cure 1 save.
+  - name: Poison Use (Ex)
+    description: >-
+      Derro are not at risk of poisoning themselves when handling poison. They
+      use Medium spider venom to poison their crossbow bolts, and generally
+      carry 10 prepoisoned bolts at all times.
+  - name: Vulnerability to Sunlight (Ex)
+    description: >-
+      A derro takes 1 point of Con damage for every hour it is exposed to
+      sunlight.
+Gear: >-
+  leather armor, short sword, repeating light crossbow with 10 poison bolts, 300
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4114'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

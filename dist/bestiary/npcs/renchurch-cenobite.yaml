@@ -1,0 +1,111 @@
+Name: Renchurch Cenobite
+CR: '10'
+XP: '9600'
+Race: human
+Class: cleric of urgathoa 10
+MonsterSource: Pathfinder RPG Bestiary 2 291 and page 15
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+AC: 26, touch 15, flat-footed 24
+AC_Mods: (+8 armor, +3 deflection, +2 Dex, +3 natural)
+HP: '128'
+HD: (10d8+80)
+Saves: Fort +11, Ref +7, Will +11; +2 vs. good creatures
+Fort: '11'
+Ref: '7'
+Will: '11'
+Save_Mods: +2 vs. good creatures
+DefensiveAbilities: channel resistance +4
+DR: 5/magic and slashing
+Immune: cold, electricity, magic missile, undead traits
+Resist: fire 10
+Speed: 20 ft.
+Melee:
+  - +2 scythe +15/+10 (2d4+9/19-20/x4)
+  - slam +12 (1d6+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 7/day (DC 21, 5d6), killing blowAPG 1/day (5 bleed),
+  whispering evilAPG (10 rounds, DC 19)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: 7/day
+      value: bleeding touch (5 rounds), touch of evil (5 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 10th; concentration +14)  5th-flame strike (DC 19),
+  slay living (DC 19), suffocationD, APG (DC 19)  4th-divine power, freedom of
+  movement, greater magic weapon, unholy blightD (DC 18)  3rd-animate dead,
+  contagion (DC 17), dispel magic, keen edgeD, magic vestment  2nd-death knellD
+  (DC 16), eagle's splendor, hold person (DC 16), silence (DC 16), sound burst
+  (DC 16), spiritual weapon  1st-bane (DC 15), cause fearD (DC 15), command (DC
+  15), doom (DC 15), obscuring mist, shield of faith  0 (at will)-bleed (DC 14),
+  detect magic, read magic, resistance
+SpellDomains: Death (Murder subdomainAPG), Evil (Daemon subdomainAPG)
+AbilityScores:
+  - 21
+  - 14
+  - —
+  - 10
+  - 19
+  - 18
+BaseAtk: '7'
+CMB: '12'
+CMD: '27'
+Feats:
+  - Channel Smite
+  - Combat Casting
+  - Command Undead
+  - Improved Channel
+  - Improved InitiativeB
+  - Lightning Reflexes
+  - ToughnessB
+  - Weapon Focus (scythe)
+Skills:
+  - Climb +10
+  - Knowledge (religion) +13
+  - Perception +14
+  - Spellcraft +13
+Languages:
+  - Common
+Source: AP 48
+IsTemplate: '0'
+BeforeCombat: >-
+  The clerics cast greater magic weapon and magic vestment every day. Before
+  combat, they also cast bull's strength, eagle's splendor, keen edge, and
+  shield of faith.
+DuringCombat: >-
+  The clerics cast divine power on the first round of combat, then concentrate
+  on damaging opponents with channeled negative energy and spells such as flame
+  strike, slay living, suffocation, and unholy blight.
+Morale: The cenobites fight until destroyed.
+Gear: >-
+  +1 breastplate, +1 scythe, robe of bones, 10 onyx gems worth 50 gp each, spell
+  component pouch, unholy symbol of Urgathoa
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: unhallowed|juju zombie|
+BaseStatistics: >-
+  Without their spells, the clerics' statistics are AC 22, touch 12, flat-footed
+  20; hp 108; Fort +9; Melee +1 scythe +12/+7 (2d4+5/x4), or slam +10 (1d6+4);
+  Str 17, Cha 14; CMB +10; CMD 25; channel negative energy (DC 19).
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1801'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

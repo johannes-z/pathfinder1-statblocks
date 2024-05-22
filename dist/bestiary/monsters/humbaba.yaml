@@ -1,0 +1,126 @@
+Name: Humbaba
+CR: '19'
+XP: '204800'
+Alignment: CN
+Size: Colossal
+Type: monstrous humanoid
+Init: '7'
+Senses:
+  - darkvision 120 ft., true seeing
+  - Perception +32
+Aura: prismatic aura (30 ft., DC 26)
+AC: 34, touch 2, flat-footed 34
+AC_Mods: (+8 armor, +24 natural, -8 size)
+HP: '341'
+HD: (22d10+220)
+HP_Mods: fast healing 10
+Saves: Fort +17, Ref +16, Will +22
+Fort: '17'
+Ref: '16'
+Will: '22'
+Immune: blindness, death effects, fire, sonic
+SR: '30'
+Speed: 60 ft. (40 ft. in armor)
+Melee:
+  - longsword +29/+24/+19/+14 (6d6+22/17-20) or 2 slams +29 (2d8+15)
+Ranged:
+  - rock +18 (2d8+22)
+Space: 30 ft.
+Reach: 30 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, 20d6 fire, DC 31, usable every 1d4 rounds), rock
+  throwing (180 ft.)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +25)
+  values:
+    - label: Constant
+      value: true seeing
+    - label: 3/day
+      value: greater shout (DC 23)
+    - label: 1/day
+      value: destruction (DC 22), earthquake (DC 23), power word stun
+AbilityScores:
+  - 41
+  - 16
+  - 30
+  - 11
+  - 24
+  - 21
+BaseAtk: '22'
+CMB: +45 (+47 bull rush)
+CMD: 58 (60 vs. bull rush)
+Feats:
+  - Awesome Blow
+  - Cleave
+  - Critical Focus
+  - Improved Bull Rush
+  - Improved Critical (longsword)
+  - Improved Initiative
+  - Intimidating Prowess
+  - Iron Will
+  - Power Attack
+  - Staggering Critical
+  - Vital Strike
+Skills:
+  - Climb +34
+  - Intimidate +45
+  - Perception +32
+  - Survival +32
+Languages:
+  - Abyssal
+  - Common
+  - Giant
+Environment: any forests
+Organization: solitary
+Treasure: standard (masterwork half-plate, longsword, other treasure)
+Description_Visual: >-
+  This towering, horned, lion-faced giant has long, braided hair and is
+  outfitted in various pieces of plate armor.
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Prismatic Aura (Su)
+    description: >-
+      As a swift action once per day, a humbaba can activate its prismatic aura.
+      Doing so causes brilliant light to radiate from the humbaba to a radius of
+      30 feet. Each round at the start of the humbaba's turn, roll 1d8 and
+      consult the table of prismatic spray effects on page 325 of the Core
+      Rulebook to determine the color and effect of the light (reroll results of
+      8). If a creature begins its turn in the prismatic aura's area, it must
+      make the appropriate saving throw (DC 26) against that effect. Once
+      activated, a humbaba's prismatic aura lasts for 7 rounds. The save DC is
+      Charisma-based.
+Description:
+  - >-
+    Humbabas are monstrous humanoids of tremendous size and power that prowl the
+    forgotten places of the world. Although a humbaba has the body of a
+    powerful, muscular human, its face is a twisted mockery that seems more
+    leonine than human. They often braid portions of their manes or otherwise
+    decorate them with skulls and weapons, and prefer to wear half-plate armor
+    and fight with longswords.
+  - >-
+    The first humbabas were once the favored minions of the demon lord Pazuzu.
+    In those days, humbabas had magnificent birdlike wings. But when the
+    mightiest of the humbabas dared to attack Pazuzu in an ill-conceived attempt
+    to claim the demon lord's throne, Pazuzu punished the entire humbaba race by
+    stripping them of their wings and casting them into the Material Plane.
+    There they now dwell, forever denied the skies and cursed to live lonely
+    lives, incapable of forming even the barest of friendships or alliances with
+    others of their kind.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '2099'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

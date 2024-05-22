@@ -1,0 +1,107 @@
+Name: Advanced Skull Ripper
+CR: '11'
+XP: '12800'
+Race: skull ripper
+MonsterSource: Rise of the Runelords Anniversary Edition 415
+Alignment: CN
+Size: Large
+Type: construct
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +3
+Aura: dread visage (30 ft., DC 22)
+AC: 28, touch 14, flat-footed 23
+AC_Mods: (+5 Dex, +14 natural, -1 size)
+HP: '147'
+HD: (18d10+48)
+Saves: Fort +6, Ref +13, Will +9
+Fort: '6'
+Ref: '13'
+Will: '9'
+DR: 5/adamantine
+Immune: construct traits
+Resist: cold 10
+SR: '22'
+Speed: 40 ft., climb 40 ft.
+Melee:
+  - 2 claws +25 (2d6+8/19-20 plus grab), sting +25 (1d10+8 plus poison)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: behead
+AbilityScores:
+  - 26
+  - 20
+  - —
+  - 9
+  - 17
+  - 16
+BaseAtk: '18'
+CMB: +27 (+31 grapple)
+CMD: 42 (54 vs. trip)
+Feats:
+  - Bleeding Critical
+  - Combat Reflexes
+  - Critical Focus
+  - Improved Critical (claws)
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Toughness
+  - Vital Strike
+Skills:
+  - Climb +21
+  - Stealth +20
+Languages:
+  - Thassilonian (cannot speak)
+Source: AP 65
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Behead (Ex)
+    description: >-
+      A skull ripper is an expert at collecting its favorite trophies: skulls.
+      Once it has pinned a foe, it can attempt to behead the victim with its
+      claws. This attempt is made as part of the grapple check to maintain an
+      existing pin, and if successful, deals 4d6+18 points of damage to the
+      victim. If this damage is enough to bring the foe to fewer than 0 hit
+      points, the victim must succeed at a DC 27 Fortitude save to resist having
+      his head torn from his body; failure results in instant death for most
+      creatures. The save DC is Strength-based.
+  - name: Dread Visage (Su)
+    description: >-
+      A skull ripper's fearsome appearance is such that all creatures within 30
+      feet that can see the skull ripper must succeed at a DC 22 Will save at
+      the start of their turn or be frightened for 1 round. If the victim
+      recognizes any of the heads affixed to the skull ripper's body as having
+      once belonged to friends or allies, that victim takes a -4 penalty on the
+      save. A character that succeeds at the save is immune to the dread visage
+      of that particular skull ripper for 24 hours. This is a mind-affecting
+      fear effect. The save DC is Charisma-based.
+  - name: Poison (Su)
+    description: >-
+      Sting-injury; save Fort DC 18; frequency 1/round for 6 rounds; effect 1d4
+      Dex; cure 2 consecutive saves. The save DC is Constitution-based.
+DuringCombat: >-
+  The two skull rippers lurk in the shadows near the north and west doors,
+  attacking as soon as anyone comes within reach. Each focuses on the same foe
+  if possible, moving to flank if there's room. They pursue foes until heavily
+  wounded (see Morale), even up into Jubbek's Halls above.
+Morale: >-
+  A skull ripper retreats to area C1 if reduced to fewer than 50 hit points.
+  Confronted there, a skull ripper fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3696'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

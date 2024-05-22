@@ -1,0 +1,119 @@
+Name: Storm Prophet
+CR: '8'
+XP: '4800'
+Race: dwarf
+Class: sorcerer 7/dragon disciple 2
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 19, touch 12, flat-footed 18
+AC_Mods: (+4 armor, +1 deflection, +1 Dex, +3 natural)
+HP: '80'
+HD: (7d6+2d12+40)
+Saves: Fort +9, Ref +5, Will +7; +2 vs. poison, spells, and spell-like abilities
+Fort: '9'
+Ref: '5'
+Will: '7'
+Save_Mods: +2 vs. poison, spells, and spell-like abilities
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Resist: electricity 5
+Speed: 20 ft.
+Melee:
+  - +1 warhammer +11 (1d8+7/x3)
+  - 2 claws +11 (1d6+6) and bite +10 (1d6+9)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  +1 on attack rolls against goblinoid and orc humanoids, dragon bite, claws (2,
+  1d4+4, magic, 5 rounds/day)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 8th; concentration +10)
+  values:
+    - label: 4th (3/day)
+      value: greater invisibility
+    - label: 3rd (5/day)
+      value: fly, heroism, lightning bolt (DC 15)
+    - label: 2nd (7/day)
+      value: false life, protection from arrows, resist energy, scorching ray
+    - label: 1st (7/day)
+      value: >-
+        enlarge person (DC 13), mage armor, magic missile, magic weapon, shield,
+        shocking grasp
+    - label: 0 (at will)
+      value: >-
+        arcane mark, detect magic, detect poison, ghost sound (DC 12), light,
+        mage hand, message, resistance
+AbilityScores:
+  - 22
+  - 12
+  - 16
+  - 10
+  - 10
+  - 14
+BaseAtk: '4'
+CMB: '10'
+CMD: 22 (26 vs. bull rush or trip)
+Feats:
+  - Arcane Armor Mastery
+  - Arcane Armor Training
+  - Combat Casting
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Initiative
+  - Power Attack
+  - Weapon Focus (claws)
+Skills:
+  - Bluff +7
+  - Climb +6
+  - Diplomacy +5
+  - Intimidate +6
+  - Knowledge (arcana) +8
+  - Knowledge (geography) +1
+  - Knowledge (nature) +1
+  - Linguistics +1
+  - Perception +10 (+12 to notice unusual stonework)
+  - Perform (oratory) +3
+  - Survival +2
+Languages:
+  - Common
+  - Draconic
+  - Dwarven
+SQ: blood of dragons, bloodline arcana (electricity spells deal +1 damage per die)
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: draconic (blue)
+BeforeCombat: >-
+  The dragon disciple drinks his potion of bull's strength, and casts false life
+  and mage armor.
+DuringCombat: >-
+  At range, the dragon disciple casts lighting bolt and scorching ray. If forced
+  into melee, he casts heroism and greater invisibility first.
+Gear: potion of bull's strength, potion of cure moderate wounds
+OtherGear: >-
+  +1 warhammer, amulet of natural armor +1, cloak of resistance +1, headband of
+  alluring charisma +2, ring of protection +1, 138 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bull's strength, false life, and mage armor, the dragon disciple's
+  statistics are AC 15, touch 12, flat-footed 14; hp no temporary hit points;
+  Melee +1 warhammer +9 (1d8+5/x3) or bite +8 (1d6+6), 2 claws +9 (1d6+4); Str
+  18; CMB +8; CMD 20 (24 vs. bull rush or trip); Skills Climb +4.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3884'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

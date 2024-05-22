@@ -1,0 +1,110 @@
+Name: Chaos Beast
+CR: '7'
+XP: '3200'
+Race: Chaos Beast
+Alignment: CN
+Size: Medium
+Type: outsider
+SubType: (chaotic, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 20, touch 13, flat-footed 17
+AC_Mods: (+7 armor, +2 Dex, +1 dodge)
+HP: '85'
+HD: (9d10+36)
+Saves: Fort +9, Ref +8, Will +7
+Fort: '9'
+Ref: '8'
+Will: '7'
+Immune: critical hits, transformation
+SR: '17'
+Speed: 20 ft.
+Melee:
+  - 2 claws +13 (1d6+3 plus corporeal instability)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 16
+  - 15
+  - 16
+  - 10
+  - 12
+  - 10
+BaseAtk: '9'
+CMB: '12'
+CMD: '25'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Mobility
+  - Toughness
+  - Weapon Focus (claw)
+Skills:
+  - Acrobatics +14 (+10 jump)
+  - Climb +15
+  - Escape Artist +14
+  - Perception +13
+  - Stealth +14
+  - Swim +15
+Source: Carrion Hill
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Corporeal Instability (Su)
+    description: >-
+      Claw-contact; save Fort DC 17; effect amorphous body and 1 Wisdom drain
+      per round (see below); cure corporeal instability can only be cured with
+      magic (such as greater restoration, heal, remove curse, restoration, or
+      heal). Corporeal instability is a curse effect. The save DC is
+      Constitution-based. A blow from a chaos beast against a living creature
+      can cause a terrible transformation. The creature must succeed on a
+      Fortitude save or become a spongy, amorphous mass. Unless the victim
+      manages to control the effect (see below), its shape melts, flows,
+      writhes, and boils. An affected creature is unable to hold or use any
+      item. Clothing, armor, rings, and helmets become useless. Large items worn
+      or carried&#8211;armor, backpacks, even shirts&#8211;hamper more than
+      help, reducing the victim's Dexterity score by 4. Soft or misshapen feet
+      and legs reduce speed to 10 feet or one-quarter normal, whichever is less.
+      Searing pain courses along the nerves, so intense that the victim cannot
+      act coherently. The victim cannot cast spells or use magic items, and it
+      attacks blindly, unable to distinguish friend from foe (&#8211;4 penalty
+      on attack rolls and a 50% miss chance, regardless of the attack roll). A
+      victim can temporarily regain its own shape by taking a standard action to
+      attempt a DC 15 Will save (this check DC does not vary for a chaos beast
+      with different Hit Dice or ability scores). A success reestablishes the
+      creature's normal form for 1 minute. Spells that change the victim's shape
+      (such as alter self, beast shape, elemental body, and polymorph), do not
+      remove the curse, but hold the creature in a stable form (which might not
+      be its own form, depending on the spell) and prevent additional Wisdom
+      drain for the duration of the spell; shapechange or stoneskin has a
+      similar effect. The victim takes 1 point of Wisdom drain from mental shock
+      every round that it ends its turn in an amorphous shape; the creature
+      permanently becomes a chaos beast if this Wisdom drain equals or exceeds
+      its actual Wisdom score.
+  - name: Immunity to Transformation (Ex)
+    description: >-
+      No mortal magic can permanently affect or fix a chaos beast's form.
+      Effects such as polymorphing or petrification force the creature into a
+      new shape, but at the start of its next turn, it immediately returns to
+      its mutable form as a free action.
+DuringCombat: >-
+  The chaos beast attacks one creature until it succumbs to corporeal
+  instability, then changes to another target and repeats this process. It
+  leaves the area once all its opponents are amorphous.
+Morale: The chaos beast tries to flee if brought below 30 hp.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4069'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

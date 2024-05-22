@@ -1,0 +1,128 @@
+Name: Dimensional Slug
+CR: '10'
+XP: '9600'
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+Init: '2'
+Senses:
+  - blindsight 60 ft.
+  - Perception +10
+AC: 25, touch 7, flat-footed 24
+AC_Mods: (-2 Dex, +1 dodge, +18 natural, -2 size)
+HP: '126'
+HD: (12d10+60)
+Saves: Fort +15, Ref +6, Will +7
+Fort: '15'
+Ref: '6'
+Will: '7'
+DefensiveAbilities: ethereal jaunt
+DR: 10/slashing or piercing
+Immune: acid
+Weaknesses: vulnerability to salt
+Speed: 20 ft.
+Melee:
+  - tongue +20 (2d10+10 plus 2d8 acid)
+Ranged:
+  - spit +8 (12d6 acid)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: crush, ethereal ambush
+AbilityScores:
+  - 31
+  - 6
+  - 20
+  - 4
+  - 12
+  - 10
+BaseAtk: '12'
+CMB: '24'
+CMD: 33 (can't be tripped)
+Feats:
+  - DodgeB
+  - Endurance
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Stealth)
+Skills:
+  - Climb +14
+  - Perception +10
+  - Stealth +1
+SQ: malleable
+Environment: any underground
+Organization: solitary
+Treasure: none
+Description_Visual: This gigantic brownish-gray slug drips acid from its shimmering form.
+Group: Slug
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Crush (Ex)
+    description: >-
+      A dimensional slug can rear up and fall on its opponents, affecting as
+      many Medium or smaller size opponents as it can cover. Opponents in the
+      affected area must succeed on a DC 26 Reflex save or be pinned,
+      automatically taking 2d8+15 points of bludgeoning damage during the next
+      round unless the creature moves off them. If the creature chooses to
+      maintain the pin, it must succeed at a combat maneuver check as normal.
+      Pinned foes take damage from the crush each round if they don't escape.
+      The save DC is Strength-based.
+  - name: Ethereal Ambush (Ex)
+    description: >-
+      A dimensional slug that attacks foes on the Material Plane in a surprise
+      round can take a full round of actions if it begins the combat by phasing
+      into the Material Plane from the Ethereal Plane.
+  - name: Ethereal Jaunt (Su)
+    description: >-
+      A dimensional slug can shift from the Ethereal Plane to the Material Plane
+      as a free action, and shift back again as a move action (or as part of a
+      move action). The ability is otherwise identical to ethereal jaunt (CL
+      15th).
+  - name: Spit Acid (Ex)
+    description: >-
+      A dimensional slug can spit acid at an opponent within 60 feet (no range
+      increment). With a successful ranged touch attack, the target takes 12d6
+      points of acid damage (no save).
+  - name: Malleable (Ex)
+    description: >-
+      A dimensional slug's body is very malleable, allowing it to fit into
+      narrow areas with ease. A dimensional slug takes no penalty to its speed
+      or checks when squeezing in an area that is one size category smaller than
+      its actual size (10 feet wide for most dimensional slugs). A dimensional
+      slug can squeeze normally through an area two size categories smaller than
+      its actual size (5 feet wide for most dimensional slugs).
+  - name: Vulnerability to Salt (Ex)
+    description: >-
+      A handful of salt burns a dimensional slug as if the salt were a flask of
+      acid, causing 1d6 points of damage per use.
+Description:
+  - >-
+    Dimensional slugs are offshoots of giant slugs that now dwell in the
+    Ethereal Plane. They feed upon the detritus, which is sometimes drawn into
+    the ether, and occasionally shift themselves into the Material Plane to
+    feed. These creatures detest phase spiders and attack them on sight.
+  - >-
+    A dimensional slug commonly attacks by spraying acid and crushing its
+    opponents. If combat is going poorly for a dimensional slug, it shifts back
+    to the Ethereal Plane.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5063'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

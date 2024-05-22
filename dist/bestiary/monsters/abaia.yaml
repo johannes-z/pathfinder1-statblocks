@@ -1,0 +1,124 @@
+Name: Abaia
+CR: '10'
+XP: '9600'
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+SubType: (aquatic)
+Init: '3'
+Senses:
+  - arcane sight, darkvision 60 ft., low-light vision
+  - Perception +19
+AC: 25, touch 11, flat-footed 22
+AC_Mods: (+3 Dex, +14 natural, -2 size)
+HP: '147'
+HD: (14d10+70)
+Saves: Fort +14, Ref +12, Will +8
+Fort: '14'
+Ref: '12'
+Will: '8'
+SR: 21 (in water only)
+Speed: 20 ft., swim 80 ft.
+Melee:
+  - bite +21 (3d6+8/19-20 plus grab), tail slap +15 (2d6+4 plus grab)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: constrict (2d6+12), endless coils
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +17)
+  values:
+    - label: Constant
+      value: arcane sight, speak with animals
+    - label: At Will
+      value: control water, hydraulic torrentAPG, rainbow pattern (DC 17)
+    - label: 1/day
+      value: control weather
+AbilityScores:
+  - 26
+  - 16
+  - 21
+  - 17
+  - 14
+  - 17
+BaseAtk: '14'
+CMB: +24 (+28 grapple)
+CMD: 37 (can't be tripped)
+Feats:
+  - Critical Focus
+  - Improved Critical (bite)
+  - Iron Will
+  - Power Attack
+  - Staggering Critical
+  - Vital Strike
+  - Weapon Focus (bite)
+Skills:
+  - Knowledge (arcana) +17
+  - Knowledge (nature) +17
+  - Perception +19
+  - Spellcraft +17
+  - Stealth +12 (+24 in water)
+  - Swim +16
+RacialMods: +12 Stealth in water
+Languages:
+  - Aquan
+  - Sylvan
+  - speak with animals
+SQ: eldritch gizzard, wave rider
+Environment: warm lakes
+Organization: solitary
+Treasure: standard (particularly staves and wands)
+Description_Visual: >-
+  This multi-eyed eel's brightly colored markings shift in complex,
+  ever-changing patterns.
+Source: PFRPG Bestiary 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Eldritch Gizzard (Su)
+    description: >-
+      An abaia can activate arcane spell trigger items as if it were a
+      14th-level sorcerer. It can store items in a special compartment within
+      its stomach and activate them as if it were holding them. It can swallow
+      or regurgitate an item as a standard action.
+  - name: Endless Coils (Ex)
+    description: >-
+      As a full-round action, an abaia can attempt a single combat maneuver
+      check to grapple up to two Large or four Medium or smaller creatures
+      within its reach. Any targets successfully grabbed take constrict damage.
+      The abaia only needs to succeed at one grapple check to maintain a grapple
+      against multiple opponents.
+  - name: Wave Rider (Su)
+    description: >-
+      An abaia moving onto land brings a sheath of water with it, allowing it to
+      swim on land. Its swim speed drops by 10 feet at the start of its turn if
+      it is out of the water, and the sheath dissipates entirely when the
+      abaia's swim speed reaches 20 feet. An abaia wave riding on land retains
+      its spell resistance but loses its bonus to Stealth.
+Description:
+  - >-
+    Originally from the primal world of the fey, an abaia protects lakes and
+    their surroundings from exploitation, in particular by magic and
+    overfishing. It favors waters with a mystical nature or supernatural
+    properties. An abaia ignores creatures that take only what they need from
+    the lake and otherwise show proper respect to the waters. Those that abuse
+    an abaia's lake risk capsized boats, floods, torrential rains, and even
+    direct attacks. After sinking a vessel, an abaia searches the wreckage for
+    magical treasure.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5134'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

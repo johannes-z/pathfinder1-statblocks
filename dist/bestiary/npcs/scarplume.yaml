@@ -1,0 +1,103 @@
+Name: Scarplume
+CR: '3'
+XP: '800'
+Race: strix
+Class: sorcerer 4
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea World Guide 313'
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (strix)
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +1
+AC: 18, touch 13, flat-footed 15
+AC_Mods: (+4 armor, +3 Dex, +1 natural)
+HP: '24'
+HD: (4d6+8)
+Saves: Fort +3, Ref +6, Will +3; +2 vs. illusions
+Fort: '3'
+Ref: '6'
+Will: '3'
+Save_Mods: +2 vs. illusions
+Resist: fire 10
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - mwk spiked gauntlet +4 (1d4+1)
+Ranged:
+  - dart +5 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hatred
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 4th; concentration +5)
+  values:
+    - label: 4/day
+      value: elemental ray (1d6+2 fire)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 4th; concentration +5)
+  values:
+    - label: 2nd (3/day)
+      value: scorching ray
+    - label: 1st (7/day)
+      value: burning hands (DC 12), disguise self, mage armor, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        arcane mark, daze (DC 11), detect poison, ghost sound (DC 11), mage
+        hand, ray of frost
+AbilityScores:
+  - 12
+  - 17
+  - 14
+  - 10
+  - 8
+  - 12
+BaseAtk: '2'
+CMB: '3'
+CMD: '16'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Lightning Reflexes
+Skills:
+  - Disguise +5
+  - Fly +8
+  - Knowledge (arcana) +4
+  - Perception +1 (+3 in dim light or darkness)
+  - Spellcraft +4
+  - Stealth +5 (+7 in dim light or darkness)
+Languages:
+  - Common
+  - Strix
+SQ: >-
+  bloodline arcana (change energy damage spells to match bloodline energy),
+  nocturnal, suspicious
+Source: AP 97
+IsTemplate: '0'
+Gender: Female
+Bloodline: elemental (fire)
+BeforeCombat: Scarplume casts mage armor on herself.
+DuringCombat: >-
+  Scarplume takes to the air and fires off a few scorching rays and elemental
+  rays to test interlopers. She resorts to her spiked gauntlet only as a last
+  resort, preferring to keep to the air as long as possible. Scarplume targets
+  humans in favor of all other foes.
+Morale: Scarplume fights to the death.
+Gear: potion of cure light wounds
+OtherGear: darts (5), mwk spiked gauntlet, amulet of natural armor +1, 45 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7075'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

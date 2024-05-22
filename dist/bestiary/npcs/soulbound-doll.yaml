@@ -1,0 +1,90 @@
+Name: Soulbound Doll
+CR: '2'
+XP: '600'
+Race: Soulbound Doll
+MonsterSource: 'Pathfinder Adventure Path #7 84'
+Alignment: NE
+Size: Tiny
+Type: construct
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +3
+AC: 14, touch 14, flat-footed 12
+AC_Mods: (+2 Dex, +2 size)
+HP: '19'
+HD: (3d10+3)
+Saves: Fort +1, Ref +3, Will +1
+Fort: '1'
+Ref: '3'
+Will: '1'
+DR: 2/magic
+Immune: construct traits
+Weaknesses: mind-affecting effects
+Speed: 20 ft.
+Melee:
+  - dagger +3 (1d2-2/19-20 plus poison)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +2)
+  values:
+    - label: 3/day
+      value: light, mage hand, open/close, prestidigitation
+    - label: 1/day
+      value: inflict serious wounds (DC 12), levitate
+AbilityScores:
+  - 7
+  - 14
+  - —
+  - 11
+  - 10
+  - 9
+BaseAtk: '3'
+CMB: '3'
+CMD: '11'
+Feats:
+  - Improved Initiative
+  - Toughness
+Skills:
+  - Perception +3
+  - Stealth +13
+Languages:
+  - Aklo
+SQ: soul focus
+Source: AP 37
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Affecting Effect Weakness (Ex)
+    description: >-
+      The weakened conviction of a soulbound doll's soul makes it susceptible to
+      mind-affecting effects, despite its construct traits.
+  - name: Soul Focus (Su)
+    description: >-
+      The soul bound to a doll lives within a focus integrated into the doll, a
+      gem hidden in the doll's chest. As long as this soul focus remains intact,
+      it can be built into another doll for the soul to animate, using the same
+      cost as for creating a new construct. Once bound into the soul focus, the
+      soul continues to learn, and so if later put into a new doll body, the
+      soul retains its personality and memories. Regardless of its construction,
+      a soul focus has hardness 8, 12 hit points, and a Break DC of 20.
+  - name: Poison (Ex)
+    description: >-
+      The dolls' daggers are constantly poisoned with venom as long as the dolls
+      exist and wield them (Medium spider venom-injury; save Fort DC 14;
+      frequency 1/round for 4 rounds; effect 1d2 Str, cure 1 save).
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '909'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

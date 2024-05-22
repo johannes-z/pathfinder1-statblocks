@@ -1,0 +1,237 @@
+Name: Vilsteth
+CR: '16'
+XP: '76800'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '8'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +36
+AC: 30, touch 14, flat-footed 26
+AC_Mods: (+4 Dex, +16 natural)
+HP: '225'
+HD: (18d10+126)
+Saves: Fort +18, Ref +10, Will +14
+Fort: '18'
+Ref: '10'
+Will: '14'
+DR: 10/cold iron and good
+Immune: electricity, mind-affecting effects, poison
+Resist: acid 10, cold 10, fire 10
+SR: '27'
+Speed: 30 ft.
+Melee:
+  - 2 claws +24 (2d6+6), gore +24 (2d6+6 plus 1d4 Wis), tail slap +19 (1d8+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  idolatry, labyrinthine mindtrap, mindrender, powerful charge (gore, 4d6+12),
+  rend (2 claws, 2d6+9), unspeakable truth
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +24)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At Will
+      value: >-
+        enter imageAPG, greater teleport (self plus 50 lbs. of objects only),
+        meld into stone, possess objectUM, ventriloquism (DC 17)
+    - label: 3/day
+      value: >-
+        charm monster (DC 20), quickened dominate person (DC 21), stone shape,
+        vengeful outrageUM (DC 22)
+    - label: 1/day
+      value: >-
+        mass suggestion (DC 22), statue, summon (level 7, 1 shachathAP75 or 1d3
+        succubi 50%), symbol of persuasion (DC 22)
+AbilityScores:
+  - 22
+  - 19
+  - 24
+  - 23
+  - 16
+  - 23
+BaseAtk: '18'
+CMB: '24'
+CMD: '38'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Deceitful
+  - Greater Vital Strike
+  - Improved Initiative
+  - Improved Vital Strike
+  - Persuasive
+  - Quicken Spell-Like Ability (dominate person)
+  - Vital Strike
+Skills:
+  - Bluff +31
+  - Craft (sculpture
+  - stonemasonry) +18
+  - Diplomacy +31
+  - Disguise +31
+  - Intimidate +31
+  - Knowledge (engineering
+  - history
+  - local
+  - nobility
+  - religion) +15
+  - Perception +36
+  - Perform (oratory) +15
+  - Sense Motive +28
+  - Spellcraft +16
+  - Stealth +25
+  - Use Magic Device +14
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - can't speak
+  - telepathy 100 ft.
+SQ: change shape (Medium humanoid; polymorph), no breath
+Environment: any (Abyss)
+Organization: solitary, pair, or conspiracy (3-12)
+Treasure: standard
+Description_Visual: >-
+  This fiend seems carved from weathered ivory, and runes and symbols of power
+  cover its pale flesh. Its eyes glow an eerie yellow, and horns curl from its
+  eerie, mouthless head.
+Group: Demon
+Source: AP 77
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Idolatry (Su)
+    description: >-
+      When a vilsteth uses enter image, meld into stone, possess object, or
+      statue to assume the appearance of a public or religious monument (either
+      by entering or controlling an existing object or by taking the semblance
+      of one), it can make itself an object of worship and adoration. This
+      functions as sympathy (DC 25, CL 18th) upon either a single creature
+      within 30 feet or all creatures of the chosen type or alignment within 30
+      feet. Any creature that fails its saving throw against this effect must
+      attempt an additional DC 25 Will save after spending 24 hours within 30
+      feet of the object of worship. If the targeted creature fails this second
+      save, it's affected as if under a permanent mind fog effect with respect
+      to the vilsteth. This is a curse effect and cannot be dispelled (although
+      dispel chaos or dispel evil can remove this effect, as does break
+      enchantment).
+  - name: Labyrinthine Mindtrap (Su)
+    description: >-
+      Whenever a vilsteth is targeted with a divination or mind-affecting
+      effect, including effects that simply facilitate mental communication, the
+      caster's mind is entrapped within the twisted corridors and pathways of
+      the vilsteth's intellect, causing the caster to become dazed (Will DC 25
+      negates). Each round on the victim's turn, it can attempt a new saving
+      throw to escape this mind trap, ending its turn, but each failed save
+      deals 1 point of Intelligence, Wisdom, and Charisma drain to the creature.
+      A creature that successfully saves against this effect is immune to the
+      same vilsteth's labyrinthine mindtrap for 24 hours.
+  - name: Mindrender (Su)
+    description: >-
+      When a vilsteth hits with both claw attacks and rends its target, it gains
+      a +4 profane bonus on its gore attack for that turn. In addition, if the
+      vilsteth's gore attack hits, the target is affected by the vilsteth's
+      labyrinthine mindtrap ability, even if the targeted creature already
+      successfully saved against that ability in the last 24 hours.
+  - name: Unspeakable Truth (Su)
+    description: >-
+      A vilsteth is surrounded by a mantle of misinformation. Creatures within
+      30 feet are affected by a curse that manifests the next time they attempt
+      to share information about the vilsteth, including things they have
+      observed the demon saying or doing. This curse affects the creature as
+      fumbletongueUM (Will DC 25 negates). A successful save negates the curse,
+      but if the target fails the save, this curse manifests every time that
+      target attempts to talk about the vilsteth. This curse is a mind-affecting
+      compulsion effect and can't be dispelled or suppressed with protection
+      from evil. A vilsteth can order creatures affected by charm or compulsion
+      effects that it creates to share information about it without triggering
+      the curse.
+Description:
+  - >-
+    Vilsteth demons, also known as corruption demons, are calved from the
+    essence of the demon lord Baphomet's realm of the Ivory Labyrinth. Vilsteths
+    form from the souls of corrupt and deceitful politicians, priests, and power
+    brokers-those who in life abused and misused whatever ephemeral power they
+    wielded. The defining sin of these souls was pride, fueled by vanity and a
+    desire for adulation and ever-greater authority to be wielded in whatever
+    selfish way they saw fit, coupled with a furious envy of anyone more
+    beloved, respected, or feared than they. Vilsteths epitomize these traits,
+    and can often be found lurking in monuments dedicated to important political
+    figures or disguised within statues of prominent saints and heroes. In their
+    natural form, vilsteths are over 7 feet tall and weigh 400 pounds.
+  - Ecology
+  - >-
+    Like all demons, vilsteths aren't born in a biological sense. Instead, the
+    souls of corrupt mortals find their way to Baphomet's Ivory Labyrinth after
+    judgment, and in there gradually transform into these crooked beings. From
+    their positions of power, the sinful souls that birth vilsteths manifested
+    every kind of malfeasance, from pecuniary greed to self-indulgence of
+    gluttony, sloth, and lust in life, but the common thread is always the
+    arrogation of the self over the state or church or whatever organization
+    upon which they presided, coupled with a narcissistic smugness that their
+    pride and pleasures were of greater import than any other consideration. Of
+    course, these sinful leaders' cynical pragmatism demanded that they keep
+    their perverted proclivities secret, as they knew those beneath them would
+    never understand, so each spun an ever-expanding labyrinth of lies to keep
+    their corruption under cover. Some succeeded, living out their days shrouded
+    in their sinister secrets; others failed spectacularly, leading to
+    dissolution, schism, treason, social collapse, and revolution when the
+    extent of the awful truth finally surfaced. Whether their sins were ever
+    exposed, however, their corrupted pride and devious secrecy drew their souls
+    into the Abyss and the Ivory Labyrinth of Baphomet, where they formed into
+    vilsteth demons.
+  - >-
+    Vilsteths do not eat or drink in the usual sense. Their faces are like ivory
+    masks-unmoving, impassive, and implacable, with only the glow of their amber
+    eyes to mark their attention. Instead, they are emotional parasites, feeding
+    on the reactions of others, sowing confusion and suffering and feasting upon
+    the psychic residue that follows. Likewise, they do not speak with voices
+    that humans might understand. Their communication is purely telepathic, from
+    a subtle whisper to a psychic scream, echoing down the corridors of the
+    minds of those to whom they "speak" and pushing them, whether gently or
+    urgently, toward acts of sabotage, sedition, and sin of every kind.
+  - Habitat & Society
+  - >-
+    Corruption demons are often solitary creatures who work independently on
+    their schemes, though they sometimes summon lesser demons of like talents to
+    further their pernicious agendas of subversion. They amass vast monetary
+    wealth for common bribery and for lavish parties hosted by their minions in
+    order to tempt and corrupt the unwary and the unwise. They encourage and
+    inspire artists and sculptors to raise great monuments and masterworks for
+    their own glory, and through these graven images they spy and speak and
+    exercise a quiet dominion upon the great and small alike, working through
+    prominent and respected leaders to delude the masses and subvert the common
+    good.
+  - >-
+    When vilsteths are encountered outside of the Abyss, these demons are often
+    found in places where Baphomet's cults hold power. In rural areas, such
+    cults may form around insular villages that have abandoned the traditional
+    gods of hunt and harvest, trading them for a predatory faith hidden from the
+    eyes of outsiders. In urban settlements, cultic cells and clandestine rites
+    conducted behind masks and veils work together to suborn existing
+    governmental, legal, and cultural authorities. Vilsteth demons may visit
+    Baphomet's faithful in either milieu, acting as ambassadors and agents
+    provocateur, often sitting in judgment of those who have violated the cult's
+    confidentiality and helping to design and implement their agendas for
+    anarchy and societal upheaval.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5567'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

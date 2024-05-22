@@ -1,0 +1,73 @@
+Name: Giant Emperor Scorpion
+CR: '11'
+XP: '12800'
+Race: Giant Emperor Scorpion
+MonsterSource: Pathfinder Bestiary 242
+Alignment: 'N'
+Size: Gargantuan
+Type: vermin
+Init: '-1'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +4
+AC: 19, touch 5, flat-footed 19
+AC_Mods: (-1 Dex, +14 natural, -4 size)
+HP: '184'
+HD: (16d8+112)
+Saves: Fort +17, Ref +4, Will +5
+Fort: '17'
+Ref: '4'
+Will: '5'
+Immune: mind-affecting effects
+Speed: 50 ft.
+Melee:
+  - 2 claw +21 (2d6+13 plus grab), sting +21 (2d6+13 plus poison)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: constrict (2d6+13)
+AbilityScores:
+  - 37
+  - 8
+  - 25
+  - —
+  - 10
+  - 2
+BaseAtk: '12'
+CMB: +29 (+33 grapple)
+CMD: 38 (50 vs. trip)
+Skills:
+  - Climb +17
+  - Perception +4
+  - Stealth +3
+Source: PFS S2-08
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 27; frequency 1/round for 6 rounds; effect 1d2
+      Strength damage; cure 1 save. The save DC is Constitution-based and
+      includes a +2 racial bonus.
+BeforeCombat: >-
+  The scorpion waits just outside the hole, anticipating the PCs' approach with
+  tremorsense.
+DuringCombat: >-
+  The scorpion ambushes the first creature to emerge from the hole, attacking a
+  single target each round. It changes targets only when the one falls
+  unconscious or it takes damage from another foe, in which case it attacks the
+  nearest target that injured it during the previous round.
+Morale: The scorpion fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5515'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

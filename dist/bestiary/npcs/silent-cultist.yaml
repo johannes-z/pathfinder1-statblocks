@@ -1,0 +1,92 @@
+Name: Silent Cultist
+CR: '1'
+XP: '400'
+Race: Human
+Class: cleric of Norgorber 1/rogue 1
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +6
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex)
+HP: '15'
+HD: (2d8+3)
+Saves: Fort +3, Ref +4, Will +4
+Fort: '3'
+Ref: '4'
+Will: '4'
+Speed: 30 ft.
+Melee:
+  - mwk short sword +3 (1d6+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 11, 1d6), sneak attack +1d6, sudden shift
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 1st; concentration +3)
+  values:
+    - label: 5/day
+      value: bleeding touch (1 round)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 1st; concentration +3)   1st-cause fearD (DC 13),
+  command (DC 13), shield of faith   0 (at will)-bleed (DC 12), detect magic,
+  read magic
+SpellDomains: Death, Trickery (DeceptionAPG subdomain)
+AbilityScores:
+  - 12
+  - 15
+  - 13
+  - 8
+  - 14
+  - 12
+BaseAtk: '0'
+CMB: '1'
+CMD: '13'
+Feats:
+  - Blind-Fight
+  - Weapon Finesse
+Skills:
+  - Acrobatics +5
+  - Bluff +5
+  - Disguise +5
+  - Knowledge (local) +4
+  - Knowledge (religion) +4
+  - Perception +6
+  - Sleight of Hand +5
+  - Stealth +5
+Languages:
+  - Common
+SQ: trapfinding +1
+Source: AP 127
+IsTemplate: '0'
+BeforeCombat: >-
+  If the cultists notice the PCs approaching, they cast shield of faith on
+  themselves.
+DuringCombat: >-
+  The cultists cast shield of faith on themselves and hope to coax the PCs into
+  the narrow hallway to surround them, even using command to make them approach.
+  They make liberal use of their sudden shift ability to surround opponents and
+  employ their smoke sticks to blind enemies while they rely on their
+  Blind-Fight feat.
+Morale: The cultists fight to the death.
+Gear: >-
+  potions of cure light wounds (2), potion of hide from animals, smokesticks
+  (2), tindertwigs (5)
+OtherGear: mwk chain shirt, mwk short sword, silver unholy symbol of Norgorber, 5 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11748'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

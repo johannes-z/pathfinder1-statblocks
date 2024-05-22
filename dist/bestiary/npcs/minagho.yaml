@@ -1,0 +1,196 @@
+Name: Minagho
+CR: '16'
+XP: '76800'
+Race: lilitu
+Class: rogue 6
+MonsterSource: 'Pathfinder Campaign Setting: The Worldwound 48'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '1'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +29
+AC: 32, touch 16, flat-footed 26
+AC_Mods: (+6 armor, +5 Dex, +1 dodge, +10 natural)
+HP: '329'
+HD: (23 HD; 17d10+6d8+209)
+Saves: Fort +8, Ref +12, Will +7; +2 vs. traps
+Fort: '8'
+Ref: '12'
+Will: '7'
+Save_Mods: +2 vs. traps
+DefensiveAbilities: evasion, profane grace, trap sense +2, uncanny dodge
+DR: 10/cold iron and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '28'
+Weaknesses: Baphomet's displeasure
+Speed: 60 ft., fly 60 ft. (good)
+Melee:
+  - 4 claws +23 (2d8+12/19-20), 2 tail slaps +18 (1d6+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create husk, husk link, sneak attack +3d6, swift claws
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +17)
+  values:
+    - label: Constant
+      value: fly, tongues, true seeing
+    - label: At Will
+      value: >-
+        charm monster (DC 24), detect thoughts (DC 22), greater teleport (self
+        plus 50 lbs. of objects only), suggestion (DC 23), telekinesis (DC 25)
+    - label: 3/day
+      value: persistent image, seeming (DC 25)
+    - label: 1/day
+      value: demand (DC 28), dominate monster (DC 29), project image (DC 27)
+    - label: 1/week
+      value: binding (DC 28), wish (granted to a mortal humanoid only)
+AbilityScores:
+  - 30
+  - 24
+  - 32
+  - 21
+  - 21
+  - 30
+BaseAtk: '21'
+CMB: '21'
+CMD: '47'
+Feats:
+  - Ability Focus (branding)
+  - Blinding Critical
+  - Combat Reflexes
+  - Critical Focus
+  - Deceitful
+  - Dodge
+  - Improved Critical (claw)
+  - Improved Initiative
+  - Mobility
+  - Power Attack
+  - Quicken Spell-Like Ability (charm monster)
+  - Spring Attack
+Skills:
+  - Acrobatics +23
+  - Bluff +38
+  - Diplomacy +26
+  - Disguise +30
+  - Fly +35
+  - Intimidate +26
+  - Knowledge (local
+  - religion) +21
+  - Knowledge (planes) +7
+  - Linguistics +1
+  - Perception +29
+  - Sense Motive +21
+  - Stealth +23
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Common
+  - Draconic
+  - Hallit
+  - telepathy 100 ft.
+  - tongues
+SQ: >-
+  change shape (Small or Medium humanoid, alter self), profane wishcraft,
+  trapfinding +3
+Source: AP 76
+IsTemplate: '0'
+SpecialAbilities:
+  - name: s Displeasure (Su)
+    description: >-
+      Minagho currently suffers from a powerful effect placed on her via a
+      miracle by Baphomet: she has 10 permanent negative levels and is in
+      constant minor pain until she can convince the demon lord to forgive her
+      for allowing the PCs to destroy the Kenabres wardstone fragment. As long
+      as she suffers from these negative levels, she takes a -10 penalty on many
+      rolls and her hit points are reduced by 50&#8211;these penalties are
+      incorporated into the stats above. This weakness reduces her CR by 4, to
+      CR 16. As long as she suffers this effect, she loses her branding, profane
+      grace, and profane pact abilities, along with her quickened charm monster
+      and her unholy aura spell-like abilities. Only by earning back Baphomet's
+      favor are the negative levels are removed; should that happen, Minagho
+      regains her lost abilities, and she is restored to a CR 20 foe&#8211; see
+      page 48 of The Worldwound for further details on these currently
+      unavailable lilitu powers.
+  - name: Create Husk (Su)
+    description: >-
+      Once per day as a swift action, when Minagho deals enough damage with a
+      weapon, spell, or spell-like ability to kill a humanoid within 30 feet,
+      she can opt to transform that slain humanoid into a husk. A successful DC
+      26 Fortitude save negates this effect, allowing the victim to die
+      normally. A humanoid transformed into a husk withers away into an immobile
+      and desiccated corpse, but does not actually die&#8211;in this state, the
+      creature remains aware of its surroundings but cannot take any action. A
+      husk is essentially treated as an object with hardness 15 and 60 hit
+      points. If a husk is destroyed, the effect ends and the body dies. This is
+      a curse effect&#8211;removing this curse restores the victim to life at a
+      number of negative hit points equal to the creature's Constitution &#8211;
+      1; a husk restored to life in this way has 1 round to stabilize or be
+      saved before it dies. Minagho can maintain 10 husks at a time. If she
+      creates one too many husks, a previously created husk is released and
+      immediately dies. Minagho currently keeps six other husks in her portable
+      hole, but she must remove one from this extradimensional space before she
+      can use her husk link ability. Her current favored husk is the body of the
+      famous heroine Yaniel, which she keeps in an armoire in her lair (see page
+      15). Her other husks are various other crusaders&#8211;you can customize
+      these husks into specific characters if you wish. The save DC is
+      Charisma-based.
+  - name: Husk Link (Su)
+    description: >-
+      By spending a minute in blasphemous contact with a husk she's created,
+      Minagho can establish a supernatural link to that husk. As long as she and
+      that husk remain on the same plane, divination spells reveal the linked
+      husk's alignment to be the same as Minagho's (chaotic evil). The husk link
+      allows her to use her change self ability to assume a husk's original
+      form&#8211;when she does, she gains a +20 bonus on Disguise checks made to
+      impersonate that person. If Minagho takes enough damage to be slain while
+      having an active husk link, the husk takes the killing blow's damage
+      instead and is destroyed, instantly severing that link; if Minagho is
+      disguised in the husk's original form, she instantly reverts to her true
+      form.
+  - name: Profane Wishcraft (Su)
+    description: >-
+      A creature that accepts a wish from Minagho immediately becomes chaotic
+      evil unless it succeeds at a DC 26 Will save. A creature that becomes
+      chaotic evil in this way gains the benefits of a good hope spell for 24
+      hours, followed by the effects of crushing despair for 1d6 days (these
+      spell effects function at CL 17th). The save DC is Charisma-based.
+  - name: Swift Claws (Ex)
+    description: >-
+      When Minagho makes a full-round attack action, she can attack twice with
+      each of her claws, for a total of four attacks per round.
+Gender: Female
+DuringCombat: >-
+  Until the final confrontation at the end of this adventure, Minagho prefers to
+  torment the PCs. She doesn't attempt to kill, but rather to vex and humiliate.
+  She may attempt to disarm them via telekinesis and abscond with a valued
+  weapon, use domination to set a PC against the party, or even use binding on a
+  PC if she has the time. The tactics she uses once she seeks to finish the PCs
+  off are detailed in the adventure.
+Morale: >-
+  Minagho uses greater teleport to escape after spending a few rounds tormenting
+  PCs early on, but in the final battle she knows it's her last chance to make
+  things right with Baphomet and fights to the death.
+Gear: dust of disappearance (3), potions of cure serious wounds (2)
+OtherGear: >-
+  +3 heavy fortification studded leather, amulet of mighty fists +2, portable
+  hole, ring of spell storing (cure critical wounds, cure light wounds)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5423'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

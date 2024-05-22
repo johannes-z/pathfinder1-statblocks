@@ -1,0 +1,112 @@
+Name: Slave Master
+CR: '8'
+XP: '4800'
+Race: Human
+Class: bard (court bard) 9
+MonsterSource: Pathfinder RPG Advanced Player's Guide 81
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +13
+AC: 19, touch 12, flat-footed 17
+AC_Mods: (+5 armor, +2 Dex, +2 shield)
+HP: '87'
+HD: (9d8+43)
+Saves: >-
+  Fort +9, Ref +10, Will +7; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '9'
+Ref: '10'
+Will: '7'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - mwk short sword +10/+5 (1d6/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 25 rounds/day (move action; countersong, distraction,
+  fascinate [DC 19], glorious epic [DC 19], inspire greatness, mockery -3,
+  satire -2, suggestion [DC 19])
+SpellsKnown:
+  header: Bard Spells Known (CL 9th; concentration +14)
+  values:
+    - label: 3rd (4/day)
+      value: charm monster (DC 20), crushing despair (DC 20), dispel magic, haste
+    - label: 2nd (5/day)
+      value: >-
+        cacophonous callAPG (DC 19), calm emotions (DC 19), enthrall (DC 19),
+        heroism, hold person (DC 19)
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 18), cure light wounds, hideous laughter (DC 17),
+        memory lapseAPG (DC 18), vanishAPG
+    - label: 0 (at will)
+      value: >-
+        detect magic, flare (DC 15), know direction, resistance, summon
+        instrument, unwitting allyAPG (DC 17)
+AbilityScores:
+  - 10
+  - 14
+  - 14
+  - 12
+  - 8
+  - 20
+BaseAtk: '6'
+CMB: '8'
+CMD: '18'
+Feats:
+  - Combat Casting
+  - Great Fortitude
+  - Greater Spell Focus (enchantment)
+  - Spell Focus (enchantment)
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Appraise +15
+  - Intimidate +19
+  - Knowledge (local
+  - nobility) +17
+  - Linguistics +10
+  - Perception +13
+  - Perform (act
+  - oratory) +19
+  - Use Magic Device +19
+Languages:
+  - Abyssal
+  - Common
+  - Goblin
+  - Infernal
+  - Orc
+  - Undercommon
+SQ: heraldic expertise +4, versatile performances (act, oratory), wide audience
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: The slave master casts heroism and activates his wand of false life.
+Gear: hand of the mage, wand of false life (10 charges)
+OtherGear: >-
+  +1 mithral chain shirt, +1 light wooden shield, mwk short sword, headband of
+  alluring charisma +2, 83 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without heroism and false life, the  slave master's statistics are hp 79; Fort
+  +7, Ref +8, Will +5; Melee mwk short sword +8/+3 (1d6/19-20); CMB +6; Skills
+  all 2 lower.
+AgeCategory: Adult
+ClassArchetypes: court bard
+CompanionFamiliarLink: '0'
+id: '8811'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

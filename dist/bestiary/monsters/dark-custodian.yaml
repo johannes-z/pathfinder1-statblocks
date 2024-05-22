@@ -1,0 +1,166 @@
+Name: Dark Custodian
+CR: '9'
+XP: '6400'
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '7'
+Senses:
+  - darkvision 60 ft., lifesense 60 ft.
+  - Perception +25
+Aura: unnatural aura (30 ft.)
+AC: 16, touch 16, flat-footed 12
+AC_Mods: (+2 deflection, +3 Dex, +1 dodge)
+HP: '91'
+HD: (14d8+28)
+Saves: Fort +6, Ref +7, Will +11
+Fort: '6'
+Ref: '7'
+Will: '11'
+DefensiveAbilities: channel resistance +4, incorporeal
+Immune: undead traits
+Weaknesses: sunlight powerlessness
+Speed: fly 80 ft. (perfect)
+Melee:
+  - incorporeal touch +13 (1d8 plus energy drain and incorporeal grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: devour, energy drain (1 level, DC 19), silence of the grave
+AbilityScores:
+  - 20
+  - 16
+  - —
+  - 14
+  - 14
+  - 15
+BaseAtk: '10'
+CMB: +15 (+19 grapple)
+CMD: '31'
+Feats:
+  - Blind-Fight
+  - Dodge
+  - Improved Initiative
+  - Mobility
+  - Skill Focus (Perception)
+  - Spring Attack
+  - Weapon Finesse
+Skills:
+  - Fly +28
+  - Intimidate +19
+  - Knowledge (religion) +19
+  - Perception +25
+  - Spellcraft +19
+  - Stealth +20
+Languages:
+  - Abyssal
+  - Common
+  - Infernal
+Environment: any
+Organization: solitary, gang (2-4), or swarm (6-11)
+Treasure: none
+Description_Visual: >-
+  A dark robed and hooded figure moves across the floor effortlessly, almost as
+  if floating. Its hands are tucked away in the sleeves of its cassock, and
+  where its face should be is only the blackness of the pit.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Devour (Su)
+    description: >-
+      Any living creature that is pinned by a dark custodian's grapple gains two
+      negative levels per round that the hold is maintained rather than the
+      standard one negative level of its energy drain. Any creature slain by the
+      dark custodian's energy drain is left a steaming, bloody skeleton, all of
+      its soft tissues having been consumed by the undead.
+  - name: Incorporeal Grab (Su)
+    description: >-
+      If a dark custodian hits with an incorporeal touch, it can then attempt to
+      start a grapple as a free action without provoking an attack of
+      opportunity. During the course of this grapple, the dark custodian becomes
+      partially corporeal and its opponent becomes partially incorporeal. This
+      has no game effect other than allowing the dark custodian to use its
+      Strength bonus in its CMB. If it wins the grapple, it establishes a hold
+      at which point its opponent becomes completely incorporeal, as well, along
+      with the dark custodian. The dark custodian automatically begins to devour
+      the held opponent each round he is held. The opponent remains incorporeal
+      until he manages to break the grapple at which time he becomes immediately
+      corporeal. If this occurs within a solid object, the opponent is
+      forcefully ejected from the object's nearest surface, and the opponent
+      takes 1d6 points of damage in the process. The dark custodian must then
+      try to hit with its incorporeal touch attack again to try to reestablish
+      the grapple. Once the dark custodian has an opponent pinned, it attempts
+      to drag him away to devour him in peace.
+  - name: Lifesense (Su)
+    description: >-
+      A dark custodian notices and locates living creatures within 60 feet, just
+      as if it possessed the blindsight ability. It also senses the strength of
+      their life force automatically, as if it had cast deathwatch. Walls less
+      than 5 feet thick are no impediment to this ability.
+  - name: Silence of the Grave (Su)
+    description: >-
+      As a standard action a dark custodian can use its silence of the grave
+      ability. This creates a silence effect as the spell in a 20-foot radius
+      for 7 rounds. This silent zone acts as a desecrate spell giving the dark
+      custodian a +1 profane bonus on attack rolls, damage rolls and saving
+      throws, as well as, imposing a -3 profane penalty on turn checks. Any
+      living creature within the area of affect must succeed on a DC 19 Will
+      save or become dazed for 1 round. A new save is allowed each round. This
+      is a sonic mind-affecting compulsion effect. Because it takes place in an
+      area of silence, it cannot be counteracted by bardic music. A creature
+      that successfully saves cannot be affected by the daze effect of the same
+      dark custodian's silence of the grave for 24 hours. The save DC is
+      Charisma-based.
+  - name: Sunlight Powerlessness (Ex)
+    description: >-
+      Dark custodians are powerless in natural sunlight (not merely a daylight
+      spell) and flee from it. A dark custodian caught in sunlight cannot attack
+      and can take only a single move action or attack action in a round.
+  - name: Unnatural Aura (Su)
+    description: >-
+      Animals, whether wild or domesticated, can sense the unnatural presence of
+      a dark custodian at a distance of 30 feet. They do not willingly approach
+      nearer than that and panic if forced to do so; they remain panicked as
+      long as they are within that range.
+Description:
+  - >-
+    Dark custodians are the undead remains of evil clerics tasked to remain
+    behind after death and guard the sacred places of their vile worship. They
+    hate all living things and seek to devour any who come within their guarded
+    precincts. They do not require these feedings for sustenance but rather
+    merely take pleasure in the carnage and brutality.
+  - >-
+    A dark custodian's true form is hidden beneath its ghostly burnoose with a
+    lightless black void where its face should be. Only in combat are its hands
+    seen, appearing pale with thickened, clawlike nails. They understand the
+    languages they knew in life, but cannot speak.
+  - >-
+    A dark custodian prefers to attack from ambush, leaping through a solid wall
+    to make an incorporeal grab before dragging its prey back through with it.
+    When attacking in groups they usually surround their prey and use their
+    silence of the grave abilities before trying to grab and drag individual
+    opponents in different directions to be consumed.
+  - Credit
+  - Original author Greg A. Vaughan
+  - >-
+    Originally appearing in Slumbering Tsar (© Frog God Games/ Greg A. Vaughan,
+    2012)
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4774'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

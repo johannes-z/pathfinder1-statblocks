@@ -1,0 +1,131 @@
+Name: Kisegar
+CR: '8'
+XP: '4800'
+Race: duergar
+Class: hunter (verminous hunter) 9
+MonsterSource: Pathfinder RPG Bestiary 117, Pathfinder RPG Advanced Class Guide 26, 98
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '3'
+Senses:
+  - darkvision 120 ft.
+  - Perception +11
+AC: 20, touch 13, flat-footed 17
+AC_Mods: (+7 armor, +3 Dex)
+HP: '80'
+HD: (9d8+36)
+Saves: Fort +9, Ref +9, Will +8; +2 vs. spells and spell-like abilities
+Fort: '9'
+Ref: '9'
+Will: '8'
+Save_Mods: +2 vs. spells and spell-like abilities
+Immune: paralysis, phantasms, poison
+Weaknesses: light sensitivity
+Speed: 40 ft., climb 30 ft.
+Melee:
+  - mwk dwarven waraxe +7/+2 (1d10/x3)
+Ranged:
+  - +1 corrosive heavy crossbow +11 (1d10+1/19-20 plus 1d6 acid)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +8)
+  values:
+    - label: 1/day
+      value: enlarge person (self only), invisibility (self only)
+SpellsKnown:
+  header: Hunter Spells Known (CL 9th; concentration +12)
+  values:
+    - label: 3rd (4/day)
+      value: >-
+        air geyserACG (DC 16), cure moderate wounds (2), meld into stone, summon
+        nature's ally III
+    - label: 2nd (5/day)
+      value: >-
+        control verminMC (DC 15), gust of wind (DC 15), spider climb, summon
+        nature's ally II, wind wall
+    - label: 1st (6/day)
+      value: >-
+        alarm, entangle (DC 14), faerie fire, goodberry, resist energy, summon
+        nature's ally I
+    - label: 0 (at will)
+      value: >-
+        create water, detect poison, guidance, know direction, purify food and
+        drink (DC 13), virtue
+AbilityScores:
+  - 10
+  - 16
+  - 16
+  - 8
+  - 16
+  - 8
+BaseAtk: '6'
+CMB: '6'
+CMD: 19 (23 vs. bull rush or trip)
+Feats:
+  - Coordinated Defense
+  - Coordinated Maneuvers
+  - Deadly Aim
+  - Iron Will
+  - Outflank
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Reload
+  - Weapon Focus (heavy crossbow)
+Skills:
+  - Acrobatics +5 (+1 when jumping)
+  - Climb +5
+  - Handle Animal +7
+  - Knowledge (dungeoneering
+  - geography) +7
+  - Perception +11
+  - Ride +8
+  - Spellcraft +7
+  - Stealth +12
+  - Survival +11
+RacialMods: +8 Climb, +4 Stealth
+Languages:
+  - Common
+  - Dwarven
+  - Undercommon
+SQ: >-
+  animal companion (giant beetle named Chen), animal focus (9 minutes/day,
+  double), bonus trick (1), hunter tactics, improved empathic link, nature
+  training, slow and steady, stability, swarm stride, swift tracker, track +4,
+  wild empathy +8
+Source: AP 118
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Given warning of a threat, Kisegar casts greater longstrider followed by
+  spider climb.
+DuringCombat: >-
+  Kisegar usually assumes the beetle animal aspect, granting her and Chen a +4
+  increase to their natural armor bonuses. She prefers to fight at range, either
+  clinging to tunnel ceilings with spider climb or using Chen as cover. She
+  casts summon nature's ally III to summon giant spiders if enemies close in.
+Morale: >-
+  Kisegar is a practical woman, fighting from a distance and surrendering the
+  moment combat seems to turn against her.
+Gear: >-
+  +1 breastplate, +1 corrosive heavy crossbow with 20 bolts, mwk dwarven waraxe,
+  spell component pouch, 18 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without her spells, Kisegar's statistics are Speed 20 ft.; Skills Climb -3.
+AgeCategory: Adult
+ClassArchetypes: verminous hunter
+CompanionFamiliarLink: '11474'
+id: '11473'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

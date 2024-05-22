@@ -1,0 +1,121 @@
+Name: Feast-o'-Marrow
+CR: '14'
+XP: '38400'
+Race: ghast
+Class: cleric of Urgathoa 13
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +25
+Aura: stench (10 ft., DC 18, 1d6+4 minutes)
+AC: 31, touch 16, flat-footed 25
+AC_Mods: (+9 armor, +5 Dex, +1 dodge, +6 natural)
+HP: '200'
+HD: (15d8+133)
+Saves: Fort +17, Ref +11, Will +20
+Fort: '17'
+Ref: '11'
+Will: '20'
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - >-
+    +3 unholy scythe +17/+12 (2d4+9/19-20/x4), bite +9  (1d6+2 plus disease and
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 12/day (DC 23, 7d6), disease (ghoul fever, DC 18),
+  paralysis (DC 18), scythe of evil (6 rounds, 2/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 13th; concentration +20)
+  values:
+    - label: 10/day
+      value: bleeding touch (6 rounds)
+    - label: 10/day
+      value: touch of evil (6 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 13th; concentration +20)  7th-blasphemy (DC 24)D,
+  destruction (DC 24), summon monster VII  6th-antilife shell, create undeadD,
+  harm (DC 23), planar ally  5th-commune, flame strike (DC 22), extended greater
+  magic weapon, slay living (DC 22)D, spell resistance  4th-air walk, freedom of
+  movement, lesser planar ally, extended magic vestment, poison (DC 21), unholy
+  blight (DC 21)D  3rd-animate deadD, bestow curse (DC 20), contagion (DC 20),
+  dispel magic (2), meld into stone, prayer  2nd-augury, bull's strength,
+  darkness, death knell (DC 19)D, desecrate, spiritual weapon, sound burst (DC
+  19)  1st-bane (DC 18), bless, command (DC 18), divine favor, protection from
+  goodD, shield of faith, sanctuary (DC 18)  0 (at will)-bleed (DC 17), detect
+  magic, guidance, read magic
+SpellDomains: Death, Evil
+AbilityScores:
+  - 19
+  - 20
+  - —
+  - 16
+  - 0
+  - 24
+BaseAtk: '10'
+CMB: '14'
+CMD: '30'
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Dodge
+  - Extend Spell
+  - Extra Channel
+  - Improved Critical (scythe)
+  - Toughness
+  - Vital Strike
+Skills:
+  - Diplomacy +20
+  - Intimidate +20
+  - Knowledge (arcana) +11
+  - Knowledge (engineering) +8
+  - Knowledge (religion) +21
+  - Perception +25
+  - Spellcraft +15
+  - Stealth +17
+Languages:
+  - Common
+  - Dwarven
+  - Necril
+  - Terran
+  - Undercommon
+SQ: death's embrace
+Source: Dungeons Of Golarion
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Feast-o'-Marrow casts extended greater magic weapon and extended magic
+  vestment on himself every day.
+DuringCombat: >-
+  Feast-o'-Marrow prefers to let his minions engage in melee combat at the start
+  of a fight, giving him a chance to cast antilife shell and then the luxury of
+  casting other spells to bolster his own strengths or to attack the PCs at
+  range. Before entering melee combat, he takes the time to cast freedom of
+  movement, prayer, bull's strength, divine favor, and shield of faith if he has
+  the chance.
+Morale: >-
+  Feast-o'-Marrow fights until destroyed, confident until the last possible
+  moment that Urgathoa will keep him safe.
+Gear: >-
+  +1 mithral breastplate, +1 unholy scythe, amulet of natural armor +2, cloak of
+  resistance +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1769'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

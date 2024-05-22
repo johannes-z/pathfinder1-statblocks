@@ -1,0 +1,82 @@
+Name: The Lurker
+CR: '4'
+XP: '1200'
+Race: otyugh
+MonsterSource: Pathfinder RPG Bestiary 223
+Alignment: 'N'
+Size: Large
+Type: aberration
+Init: '0'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +9
+AC: 17, touch 9, flat-footed 17
+AC_Mods: (+8 natural, -1 size)
+HP: '39'
+HD: (6d8+12)
+Saves: Fort +3, Ref +2, Will +6
+Fort: '3'
+Ref: '2'
+Will: '6'
+Immune: disease
+Speed: 20 ft.
+Melee:
+  - bite +7 (1d8+4 plus disease), 2 tentacles +3 (1d6+2 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: corpse spew
+AbilityScores:
+  - 18
+  - 10
+  - 13
+  - 5
+  - 13
+  - 6
+BaseAtk: '4'
+CMB: +9 (+13 grapple)
+CMD: '19'
+Feats:
+  - Alertness
+  - Toughness
+  - Weapon Focus (tentacle)
+Skills:
+  - Acrobatics +0 (-4 when jumping)
+  - Perception +9
+  - Sense Motive +3
+  - Stealth +2 (+10 in underwater)
+RacialMods: +8 Stealth underwater
+Languages:
+  - Common
+Source: AP 128
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Corpse Spew (Ex)
+    description: >-
+      The Lurker can vomit a shower of rotting meat and bones in a 20-foot cone.
+      Each creature caught in this cone must succeed at a DC 14 Fortitude save
+      or be nauseated for 1d4 rounds. A creature caught in this cone must also
+      attempt a save against the Lurker's ghoul fever (Pathfinder RPG Bestiary
+      146), as if the otyugh had bitten it.
+  - name: Disease (Su)
+    description: >-
+      The Lurker's bite attack exposes creatures to ghoul fever, as if the
+      target had been bitten by a ghoul.
+DuringCombat: >-
+  The Lurker is fairly thoughtless and spoiled. It attacks any intruders, and
+  uses its corpse spew ability only if reduced below 20 hit points.
+Morale: The Lurker fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11760'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

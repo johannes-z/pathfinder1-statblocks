@@ -1,0 +1,117 @@
+Name: Bone Cobbler
+CR: '4'
+XP: '1200'
+Alignment: CE
+Size: Medium
+Type: aberration
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 16, touch 13, flat-footed 13
+AC_Mods: (+2 Dex, +1 dodge, +3 natural)
+HP: '32'
+HD: (5d8+10)
+Saves: Fort +3, Ref +3, Will +6
+Fort: '3'
+Ref: '3'
+Will: '6'
+Speed: 30 ft.
+Melee:
+  - 2 light hammers +7 (1d4+3) or 2 claws +6 (1d3+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  animate bones, bonestripping, breath weapon (60-ft. radius, slow for 1 minute,
+  Fort DC 14, usable every 1d4+1 rounds)
+AbilityScores:
+  - 16
+  - 15
+  - 15
+  - 12
+  - 14
+  - 12
+BaseAtk: '3'
+CMB: '6'
+CMD: '19'
+Feats:
+  - Dodge
+  - Two-Weapon Fighting
+  - Weapon Focus (light hammer)
+Skills:
+  - Climb +11
+  - Perception +10
+  - Stealth +10
+  - Survival +10
+Languages:
+  - Aklo
+  - Common
+Environment: any
+Organization: solitary or gang (2-5)
+Treasure: standard
+Description_Visual: >-
+  This creature appears as a tattered and desiccated humanoid with grayish flesh
+  drawn tight over its bones. Its eyes are hollow sockets of darkness and its
+  clothes are rags.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Animate Bones (Su)
+    description: >-
+      Once per day, a bone cobbler can animate up to 5 skeletal statues within
+      30 feet as a standard action. These creatures fight as skeletons (see
+      Pathfinder Roleplaying Game Bestiary), though their forms and structures
+      do not necessarily have to resemble humanoids (or anything remotely
+      humanoid). This ability otherwise functions similar to an animate dead
+      spell (caster level 7th).
+  - name: Bonestripping (Ex)
+    description: >-
+      A bone cobbler can rapidly strip all the flesh from a Medium creature in 3
+      minutes using its claws and hammers. For each size category larger than
+      Medium a corpse is, add 1 minute to the time it takes the bone cobbler to
+      strip the corpse. For each size category smaller than Medium a corpse is,
+      reduce the time by 1 minute (to a minimum of 1 minute). Once stripped, the
+      bone cobbler devours the flesh and collects the victim's bones to use in
+      its "sculptures". A creature slain in this manner can only be brought back
+      to life by a miracle, wish, or true resurrection spell. Two-Weapon
+  - name: Fighting (Ex)
+    description: >-
+      In combination with its natural abilities, a bone cobbler's Two-Weapon
+      Fighting feat allows it to attack with both of its weapons at no penalty
+      to attack or damage.
+Description:
+  - >-
+    The bone cobbler is a tattered and desiccated humanoid and is often mistaken
+    for a zombie at ranges greater than 10 feet. The bone cobbler is a malign
+    and evil creature (thought to be from another plane or dimension of
+    existence) that delights in slaying its opponents and stripping the flesh
+    from their bones. Bone cobblers take the skeletal remains of those they kill
+    and combine them with other bones in their lair. From these bones they
+    sculpt and form weird humanoid or half-humanoid skeletal statues.
+  - Bone cobblers stand 6 feet tall.
+  - >-
+    The bone cobbler attacks living creatures with its hammers. Slain creatures
+    are stripped clean, their flesh and muscle devoured by the bone cobbler for
+    sustenance and their bones carted away by the bone cobbler to be used in its
+    abominable creations.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: 2 light hammers
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2277'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,98 @@
+Name: Wrath Priest
+CR: '7'
+XP: '3200'
+Race: half-orc
+Class: cleric of rovagug 8
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +5
+AC: 20, touch 10, flat-footed 20
+AC_Mods: (+9 armor, +1 natural)
+HP: '71'
+HD: (8d8+32)
+Saves: Fort +8, Ref +2, Will +8; +2 resistance vs. good
+Fort: '8'
+Ref: '2'
+Will: '8'
+Save_Mods: +2 resistance vs. good
+DefensiveAbilities: orc ferocity
+Immune: fire (96 points)
+Speed: 20 ft.
+Melee:
+  - +1 greataxe +12/+7 (1d12+9/x3)
+Ranged:
+  - javelin +6/+1 (1d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 4/day (DC 15, 4d6), destructive aura (+4, 8
+  rounds/day), destructive smite (+4, 5/day), scythe of evil (4 rounds, 1/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 8th; concentration +10)
+  values:
+    - label: 5/day
+      value: touch of evil (4 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 8th; concentration +10)   4th-chaos hammer (DC 16),
+  divine power, unholy blightD (DC 16)   3rd-invisibility purge, prayer,
+  protection from energy (DC 15), rageD   2nd-align weaponD (evil weapons only),
+  bull's strength, darkness, spiritual weapon (2)   1st-bane (DC 13), divine
+  favor, entropic shield, protection from good, shield of faith, true strikeD  
+  0 (at will)-bleed (DC 12), guidance, light, resistance
+SpellDomains: Destruction, Evil
+AbilityScores:
+  - 18
+  - 10
+  - 14
+  - 8
+  - 14
+  - 12
+BaseAtk: '6'
+CMB: '10'
+CMD: '20'
+Feats:
+  - Heavy Armor Proficiency
+  - Power Attack
+  - Toughness
+  - Weapon Focus (greataxe)
+Skills:
+  - Intimidate +7
+  - Perception +5
+  - Spellcraft +3
+Languages:
+  - Common
+  - Orc
+SQ: aura, orc blood, weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The cleric casts protection from energy (fire).
+DuringCombat: >-
+  The cleric casts divine power and shield of faith at the start of combat, then
+  closes to melee distance. If combat starts and he cannot reach any opponents
+  on the first round, he casts chaos hammer or unholy blight. If fighting
+  creatures he knows are good, he uses his scythe of evil ability on his
+  greataxe. If he has allies, he casts prayer.
+Gear: potions of cure serious wounds (2), alchemist's fire (2)
+OtherGear: >-
+  +1 half-plate, +1 greataxe, javelins (5), amulet of natural armor +1, wooden
+  unholy symbol, 184 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3642'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

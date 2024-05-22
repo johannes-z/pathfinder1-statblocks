@@ -1,0 +1,78 @@
+Name: Dimension Deer
+CR: '2'
+XP: '600'
+Race: Dimension Deer
+Alignment: NE
+Size: Medium
+Type: animal
+SubType: (daemon)
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +12
+AC: 18, touch 15, flat-footed 13
+AC_Mods: (+4 Dex, +1 dodge, +3 natural)
+HP: '15'
+HD: (2d8+6)
+Saves: Fort +6, Ref +7, Will +4
+Fort: '6'
+Ref: '7'
+Will: '4'
+Speed: 15 ft.
+Melee:
+  - gore +4 (1d6+3) and 2 hooves +2 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th)
+  values:
+    - label: At will
+      value: dimension door (self only)
+AbilityScores:
+  - 16
+  - 18
+  - 16
+  - 2
+  - 18
+  - 14
+BaseAtk: '1'
+CMB: '4'
+CMD: 19 (23 vs. trip)
+Feats:
+  - Dimensional Agility
+  - Dodge
+  - Multiattack
+Skills:
+  - Acrobatics +4 (+8 jump)
+  - Disguise +7
+  - Perception +12
+  - Stealth +8 (+12 in forests)
+  - Swim +7
+RacialMods: +4 Perception, +4 Stealth, +4 Disguise
+SQ: bloodied assault
+Source: 'Rappan Athuk-Area 31: The Face in the Forest'
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bloodied Assault (Ex)
+    description: >-
+      If the dimension deer is reduced below 10 hp in combat and no enemies are
+      within 5 feet, it spends each turn using dimension door to appear right
+      next to the closest foe. It does not do so intelligently and simply
+      attempts to use the spell to travel in a direct line to its foe. If this
+      square is unavailable (because the foe is up a tree or hiding behind an
+      object), the spell fails as per its description
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12480'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

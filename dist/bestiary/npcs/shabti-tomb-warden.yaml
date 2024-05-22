@@ -1,0 +1,126 @@
+Name: Shabti Tomb Warden
+CR: '12'
+XP: '19200'
+Race: Shabti
+Class: oracle 13
+MonsterSource: Pathfinder RPG Bestiary 5 227, Pathfinder RPG Advanced Player's Guide 42
+Alignment: LN
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '7'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft.
+  - Perception +0
+AC: 25, touch 13, flat-footed 22
+AC_Mods: (+8 armor, +3 Dex, +4 natural)
+HP: '140'
+HD: (13d8+78)
+Saves: Fort +10, Ref +9, Will +12
+Fort: '10'
+Ref: '9'
+Will: '12'
+DefensiveAbilities: immune to undeath, resist level drain
+Speed: 30 ft.
+Melee:
+  - +1 ghost touch halberd +20/+15/+10 (1d10+8/19- 20/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 13th; concentration +18)
+  values:
+    - label: 1/day
+      value: suggestion (DC 18)
+SpellsKnown:
+  header: Oracle Spells Known (CL 13th; concentration +18)
+  values:
+    - label: 6th (4/day)
+      value: blade barrier (DC 21), mass cure moderate wounds, heal, greater heroism
+    - label: 5th (7/day)
+      value: >-
+        mass cure light wounds, major curseUM (DC 21), slay living (DC 21),
+        telekinesis (DC 20), wall of stone
+    - label: 4th (7/day)
+      value: >-
+        cure critical wounds, death ward, dismissal (DC 19), divine power,
+        freedom of movement, spiritual allyAPG
+    - label: 3rd (7/day)
+      value: >-
+        cure serious wounds, daylight, dispel magic, heroism, invisibility
+        purge, meld into stone
+    - label: 2nd (7/day)
+      value: >-
+        align weapon, cure moderate wounds, hold person (DC 17), make whole,
+        resist energy, lesser restoration, spiritual weapon
+    - label: 1st (8/day)
+      value: >-
+        command (DC 16), comprehend languages, cure light wounds, detect undead,
+        remove fear, shield of faith, unseen servant
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 16), create water, detect magic, guidance, light, mending,
+        purify food and drink, read magic, stabilize
+AbilityScores:
+  - 20
+  - 17
+  - 18
+  - 8
+  - 10
+  - 20
+BaseAtk: '13'
+CMB: '14'
+CMD: '27'
+Feats:
+  - Improved Critical (halberd)
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Quicken Spell
+  - Spell Focus (necromancy)
+  - Toughness
+  - Weapon Focus (halberd)
+Skills:
+  - Diplomacy +13
+  - Knowledge (history) +6
+  - Knowledge (nobility) +6
+  - Sense Motive +16
+  - Spellcraft +15
+Languages:
+  - Celestial
+SQ: >-
+  immortal, oracle's curse (clouded vision), past-life knowledge, revelations
+  (ancestral weaponUM, phantom touchUM, spirit of the warriorUM, spirit
+  shieldUM), shattered soul
+Source: AP 131
+IsTemplate: '0'
+BeforeCombat: >-
+  When a tomb warden emerges, it does so having already summoned its ancestral
+  weapon and activated its spirit of the warrior and spirit shield abilities.
+DuringCombat: >-
+  The tomb warden uses its first turn to cast combat enhancing spells such as
+  quickened shield of  faith and greater heroism. It then uses a combination of
+  weapon attacks and harmful spells to dispatch intruders.
+Morale: The tomb wardens fight to the death.
+Gear: bracelet of second chancesUE (only one warden)
+OtherGear: cloak of resistance +2, headband of alluring charisma +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not under the effects of spirit of the warrior and spirit shield, the
+  tomb warden's statistics are Init +5; AC 11, touch 11, flat-footed 10; hp 114;
+  Fort +8, Ref +7; Melee +1 ghost touch halberd +14/+9 (1d10+5/x3); BAB +9, CMB
+  +12, CMD 23.
+AgeCategory: Adult
+Mystery: Ancestor
+CompanionFamiliarLink: '0'
+id: '11817'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

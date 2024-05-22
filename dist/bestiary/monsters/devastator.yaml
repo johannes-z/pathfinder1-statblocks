@@ -1,0 +1,211 @@
+Name: Devastator
+CR: '22'
+XP: '614400'
+Alignment: CE
+Size: Gargantuan
+Type: construct
+SubType: (extraplanar, mythicMA)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +34
+Aura: corruption (60 ft.), unholy aura (DC 24)
+AC: 44, touch 20, flat-footed 38
+AC_Mods: (+4 deflection, +6 Dex, +24 natural, +4 profane, -4 size)
+HP: '365'
+HD: (30d10+200)
+Saves: Fort +14, Ref +20, Will +18
+Fort: '14'
+Ref: '20'
+Will: '18'
+DefensiveAbilities: absorb good magic, unchanging
+DR: 15/ adamantine and epic
+Immune: acid, cold, construct traits, electricity, fire
+SR: '33'
+Speed: 50 ft., burrow 30 ft., fly 60 ft. (average)
+Melee:
+  - >-
+    4 blasphemous weapons +45 (2d8+18/19-20), 2 wings +40 (2d6+11/19-20 plus
+    bleed)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  bleed (2d6), destroyer, display of Strength, farwalker (2), mythic power
+  (10/day, surge +1d10), rend (2 blasphemous weapons, 2d8+27)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +26)
+  values:
+    - label: Constant
+      value: unholy aura (DC 24)
+    - label: At Will
+      value: blade barrier, dimensional anchor
+    - label: 3/day
+      value: blasphemy (DC 23), plane shift
+    - label: 1/day
+      value: destruction (DC 23), earthquake, implosion (DC 25)
+AbilityScores:
+  - 37
+  - 23
+  - —
+  - 15
+  - 18
+  - 22
+BaseAtk: '30'
+CMB: +47 (+49 bull rush)
+CMD: 71 (73 vs. bull rush)
+Feats:
+  - Awesome Blow
+  - Blind-Fight[M]
+  - Cleave
+  - Combat Reflexes[M]
+  - Critical Focus[M]
+  - Great Cleave
+  - Improved Bull Rush
+  - Improved Critical (blasphemous weapon)
+  - Improved Critical (wing)
+  - Power Attack
+  - Staggering Critical
+  - Toughness[M]
+  - Vital Strike
+  - Weapon Focus (blasphemous weapon)
+  - Weapon Focus (wing)
+Skills:
+  - Acrobatics +21
+  - Climb +28
+  - Fly +18
+  - Intimidate +36
+  - Knowledge (planes) +17
+  - Perception +34
+Languages:
+  - Abyssal
+  - Celestial
+SQ: always a chance, extra mythic power, mythic sight (2)
+Environment: any (Abyss)
+Organization: solitary, pair, or catastrophe (3-13)
+Treasure: standard
+Description_Visual: >-
+  Steel wings like two tower-sized razor blades arc from this mechanized
+  horror's back. Each of its four monstrous limbs ends in an implement of
+  brutality. Its smoldering aura scorches the air, sizzling and crackling with
+  impossible energies that defy reality.
+Source: AP 78
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Absorb Good Magic (Su)
+    description: >-
+      The twisted angelic essence held prisoner inside each devastator allows
+      these terrifying war machines to harness the energies most commonly
+      employed by their natural enemies. Whenever a creature targets a
+      devastator with a spell with the good descriptor, the caster must make a
+      successful DC 30 caster level check or the spell is absorbed by the
+      devastator and has no effect. If the devastator is in the area of effect
+      of such a spell and the caster level check fails, the devastator absorbs
+      the entire spell and leaves all other targets unaffected. A devastator
+      gains 5 temporary hit points for every spell level of the spell absorbed.
+      These temporary hit points disappear after 1 hour.
+  - name: Aura of Corruption (Su)
+    description: >-
+      A devastator emanates an aura that bolsters chaotic evil outsiders. Any
+      such creature with 15 or more Hit Dice within 60 feet of a devastator
+      gains a +10 enhancement bonus to Strength and Charisma. In addition, the
+      creature's spell resistance increases by 5. If such a creature doesn't
+      already possess spell resistance, it gains spell resistance equal to 11 +
+      its CR.
+  - name: Blasphemous Weapons (Ex)
+    description: >-
+      Each of a devastator's wicked weapons and its razor-sharp wings are
+      treated as +5 unholy weapons that deal bludgeoning, piercing, and slashing
+      damage and count as chaotic and evil for the purpose of overcoming damage
+      reduction.
+Description:
+  - >-
+    Terrifying, cruel machines forged from Abyssal steel, devastators are
+    central figures in any demonic host's world-razing armies. These skyscraping
+    metal goliaths are capable of driving the mad throngs of demons surrounding
+    them to unthinkable feats of savagery and decimating even the mightiest of
+    angelic choruses. In an unholy act of supreme irony, devastators derive
+    their power from the souls of those goodly outsiders who fall in their
+    attacks against the Abyss, and the war machines are capable of transforming
+    virtue and piety into corrupt energy that fuels their fury. Few have
+    witnessed these massive engines of unfettered chaos and destruction and
+    lived to speak of the experience, but those few who have gazed into the maw
+    of one of these metal monstrosities are forever changed.
+  - >-
+    These towering abominations hold a special place in the nightmares of holy
+    champions and pure-hearted priests. Faith and the divine favors crusaders
+    rely upon in order to squint into the evil gaze of demonkind affords them
+    nothing against a devastator, which is capable of absorbing such divine
+    energies for its own perverted use. Devastators stand 40 feet tall and weigh
+    upwards of 40 tons.
+  - Ecology
+  - >-
+    Said to be one of the demon lord Haagenti's vile creations, devastators were
+    built to serve as guardians and war machines for Abyssal hordes. Such a
+    construction is no mere tower of metal, however, since the final step in the
+    creation of a devastator calls for the battered body of an angel (or other
+    powerful good outsider) whose spirit has been shattered and utterly
+    corrupted. Such a fallen angel is kept on the brink of death as it is lashed
+    to the devastator's dread frame, and when the engine is finally activated,
+    any semblance of righteousness is forever drained from the defeated
+    celestial's screaming spirit. In this way, a devastator's body acts as both
+    a war machine and a brutal cage.
+  - >-
+    A devastator is painstakingly crafted by hundreds of miserable fiendish
+    dretches, and is wrought of strange metals and materials found in only the
+    deepest, darkest realms of the Abyss. The angelic soul that fuels the
+    construct is the inheritor of an existence of impotent rage, anguish, and
+    humiliation. Some reports claim that the innards of a devastator are more
+    murderous and gnashing than its fearsome exterior, and the unholy
+    ministrations carried out from within the machine defy any mortal definition
+    of torture. The ultimate fate of the twisted angel caged within remains a
+    mystery. Some scholars suppose the angel must surrender to some sort of
+    respite in death. Others whisper fearfully of the unquiet essence that might
+    rise from the broken cage of a devastator-an avenging angel that is filled
+    with dire hatred for the world and that stalks the souls it once swore to
+    protect.
+  - Habitat & Society
+  - >-
+    These sinister machines of pure destruction are all imbued with the
+    corrupted life essence of at least one angel-now twisted into a demented
+    thing filled with the unwholesome urge to sow ruin and agony among its
+    former brethren. Devastators are most often deployed as the guardians of
+    important causeways between the Abyss and invaded territory on other worlds,
+    but occasionally they are assigned to act as the bodyguards or favored toys
+    of particularly powerful demon lords who enjoy having these smoldering
+    monstrosities around in case of a holy raid on their stronghold.
+  - >-
+    When a new Abyssal incursion is launched against a virgin world, a
+    devastator usually leads the advance force, wreaking untold havoc and
+    redefining destruction for the uninitiated civilizations it touches. Three
+    devastators patrol the Worldwound, hunting parties of crusaders and any
+    other strike forces that might seek to seal off this rift to the Abyss. Each
+    of the three is unique in its appearance and armaments. Those few crusaders
+    who have survived encounters with the devastators have invented nicknames to
+    better identify them and share intelligence on how to combat or avoid them.
+    The Grinning Grinder is the most active and infamous at present, but some
+    (clerics especially) fear Faith-Breaker more. The third-Fury Engine-
+    terrified crusaders for many years, but it is rumored that the crimson
+    devastator was destroyed in a suicidal assault by a chorus of angels some 30
+    years ago. Some, however, claim Fury Engine's fate is more involved,
+    whispering that the angels captured the devastator and then secreted the
+    construct to a remote location on some deserted, lonely plane of existence.
+    There, the angels toil tirelessly in hopes of saving the tormented soul of a
+    powerful planetar trapped within the devastator's hellish interior.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5728'
+UniqueMonster: '0'
+MR: '8'
+Mythic: '1'
+MT: '0'

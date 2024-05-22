@@ -1,0 +1,114 @@
+Name: Mestamorga
+CR: '12'
+XP: '19200'
+Race: night hag
+MonsterSource: Pathfinder RPG Bestiary 171, 215
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +18
+AC: 29, touch 17, flat-footed 22
+AC_Mods: (+7 Dex, +12 natural)
+HP: '130'
+HD: (9d10+81)
+Saves: Fort +16, Ref +12, Will +12
+Fort: '16'
+Ref: '12'
+Will: '12'
+DR: 10/cold iron and magic
+Immune: charm, cold, fear, fire, poison, sleep
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '24'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - bite +16 (2d6+7 plus disease), 2 claw +16 (1d4+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: dream haunting
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: Constant
+      value: detect chaos, detect evil, detect good, detect law, detect magic
+    - label: At Will
+      value: >-
+        deep slumber (DC 17), invisibility, magic missile, ray of enfeeblement
+        (DC 15)
+    - label: At will
+      value: (with heartstone)-etherealness, soul bind
+    - label: 3/day
+      value: darkness, poison (DC 18)
+    - label: 1/day
+      value: contagion (DC 17), desecrate, unholy blight (DC 18)
+AbilityScores:
+  - 25
+  - 24
+  - 26
+  - 20
+  - 18
+  - 19
+BaseAtk: '9'
+CMB: '16'
+CMD: '33'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Deceitful
+  - Mounted Combat
+  - Toughness
+Skills:
+  - Bluff +18
+  - Diplomacy +13
+  - Disguise +18
+  - Fly +23
+  - Intimidate +16
+  - Knowledge (arcana) +14
+  - Knowledge (planes) +17
+  - Perception +18
+  - Ride +19
+  - Sense Motive +18
+  - Spellcraft +17
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Infernal
+SQ: heartstone, change shape (alter self )
+Source: PFS S2-08
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Bite-Injury; save Fort DC 22; onset immediate; frequency 1/day; effect 1d6
+      Con damage (target must save a 2nd time or 1 point of the damage is drain
+      instead); cure 2 consecutive saves.
+Gender: Female
+BeforeCombat: >-
+  Mestamorga remains disguised as Illayna as long as possible, hoping to avoid
+  combat.
+DuringCombat: >-
+  If attacked or if her ruse is uncovered, Mestamorga fights viciously with her
+  physical attacks, relying on her spell-like abilities if outnumbered in melee
+  or faced with a foe she cannot hit. When the night hag resorts to using magic,
+  she begins with unholy blight, followed by invisibility and deep slumber.
+Morale: If reduced below 40 hp, Mestamorga attempts to become ethereal and escape.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-fiend|advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5507'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

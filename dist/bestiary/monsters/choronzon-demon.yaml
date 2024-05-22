@@ -1,0 +1,153 @@
+Name: Choronzon Demon
+CR: '18'
+XP: '153600'
+Alignment: CE
+Size: Huge
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +39
+Aura: confusion (10 ft., DC 24)
+AC: 32, touch 10, flat-footed 30
+AC_Mods: (+2 Dex, +22 natural, -2 size)
+HP: '290'
+HD: (20d10+180)
+Saves: Fort +23, Ref +14, Will +10
+Fort: '23'
+Ref: '14'
+Will: '10'
+DR: 10/cold iron and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '29'
+Speed: 40 ft.
+Melee:
+  - bite +30 (2d8+11/19-20), 2 claws +29 (1d8+11 plus daze)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  breath weapon (40-ft. cone, 10d6 damage, Fort DC 29 half, usable every 1d4
+  rounds), daze (claw attack, Fort DC 31 negates, dazed 1d3 rounds)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: At will
+      value: >-
+        cause fear (DC 15), greater teleport (self plus 50 pounds of objects
+        only), true seeing
+    - label: 3/day
+      value: chaos hammer (DC 18), unholy aura (DC 22), unholy blight (DC 18)
+    - label: 1/day
+      value: >-
+        word of chaos (DC 21), summon (level 5, 1d4 hezrous, 1d4 nalfeshnees, or
+        2d4 vrocks 35%)
+AbilityScores:
+  - 33
+  - 15
+  - 29
+  - 12
+  - 14
+  - 18
+BaseAtk: '20'
+CMB: '33'
+CMD: '45'
+Feats:
+  - Awesome Blow
+  - Cleave
+  - Great Fortitude
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Perception)
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +27
+  - Climb +34
+  - Escape Artist +25
+  - Intimidate +27
+  - Perception +39
+  - Sense Motive +25
+  - Survival +22
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - telepathy 100 ft.
+Environment: any (Abyss)
+Organization: solitary or band (choronzon plus 6-11 vrocks)
+Treasure: standard
+Description_Visual: >-
+  This creature stands at least 20 feet tall with a huge, muscular body. Its
+  massive arms and legs end in wicked claws. Its rounded, squat head, sits atop
+  an extremely thick, almost nonexistent neck. The creature's gaping maw is
+  filled with sharp fangs. Two large swept back horns jut from its head just
+  above its rounded eyes.
+Group: Demon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Confusion (Su)
+    description: >-
+      A creature that successfully saves cannot be affected again by that
+      choronzon's aura of confusion for one day. Other demons are immune to the
+      choronzon's aura of confusion. The save DC is Charisma-based.
+  - name: Breath Weapon (Su)
+    description: >-
+      Once every 1d4 rounds, a choronzon can breathe forth a cone of bluish gas
+      in a 40-foot cone. The gas lingers in the area for 1d2 rounds before
+      dispersing. A creature killed by a choronzon's breath weapon has its body
+      break apart into its individual protons, neutrons, and electrons.
+      Creatures killed in this manner can only be restored to life by a miracle,
+      wish, or true resurrection spell. The save DC is Constitution-based.
+Description:
+  - >-
+    Choronzons are the demons of confusion, dispersion, and ultimate chaos. They
+    are huge behemoths seemingly bred for war and battle, though most rarely
+    take part in the Abyssal wars that rage between the planes. Choronzons
+    prefer to use their talents on weak-minded creatures such as those that
+    inhabit the Material planes, and as such, they are usually encountered
+    there. These demons derive great pleasure in laying waste to villages and
+    towns and even small kingdoms (if the mood strikes them).
+  - >-
+    Amongst demonkind, choronzons are both feared and hated. A great enmity
+    exists between balors and choronzons that scholars and lorekeepers can
+    document, but cannot determine the source of the hatred between these two
+    demonic races.
+  - A choronzon stands about 20 feet tall and weighs about 9,000 pounds.
+  - >-
+    Its scaly flesh is bluish-black and its eyes are crimson. Its horns are
+    darker than the rest of its body and the creature's claws are pitch black.
+    Its teeth are dull ivory in color.
+  - >-
+    A choronzon begins combat by surrounding itself with its aura of confusion
+    and then unleashing its breath weapon at its foes. Creatures surviving
+    either attack are subjected to its word of chaos. Opponents that continue to
+    press the battle are met with a mix of physical attacks and spell-like
+    abilities. When it uses its Power Attack feat, a choronzon usually takes a
+    -8 penalty on its attack rolls in order to gain a +8 bonus on its damage
+    rolls.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2435'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

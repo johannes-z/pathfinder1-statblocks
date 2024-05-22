@@ -1,0 +1,146 @@
+Name: Very Old Gray Dragon
+CR: '14'
+XP: '36400'
+Alignment: NE
+Size: Huge
+Type: dragon
+SubType: (water)
+Init: '4'
+Senses:
+  - dragon senses
+  - Perception +28
+Aura: frightful presence (270 ft., DC 22)
+AC: 36, touch 8, flat-footed 36
+AC_Mods: (+28 natural, -2 size)
+HP: '237'
+HD: (19d12+114)
+Saves: Fort +17, Ref +13, Will +17
+Fort: '17'
+Ref: '13'
+Will: '17'
+Immune: paralysis, sleep
+SR: '25'
+Speed: 60 ft., fly 200 ft. (average), swim 40 ft.
+Melee:
+  - >-
+    2 claws +27 (2d6+10), bite +28 (2d8+15/19-20), 2 wings +25 (1d8+5), tail
+    slap +25 (2d6+15)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: breath weapon (100-ft. line, 18d6 fire; DC 25 Ref half)
+SpellsKnown:
+  header: Spells Known (CL 11th; melee touch +27, ranged touch +17)
+  values:
+    - label: 5th (4/day)
+      value: cloudkill (DC 18), telekinesis
+    - label: 4th (6/day)
+      value: dimension door, greater invisibility, scrying (DC 17)
+    - label: 3rd (7/day)
+      value: >-
+        dispel magic, gaseous form, protection from energy, ray of exhaustion
+        (DC 16)
+    - label: 2nd (7/day)
+      value: >-
+        blur, eagle's splendor, gust of wind (DC 15), locate object, mirror
+        image
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 14), magic missile, protection from good, obscuring
+        mist, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, detect magic, light, mage hand, ray of
+        frost, read magic, resistance, touch of fatigue (DC 14)
+AbilityScores:
+  - 31
+  - 10
+  - 23
+  - 17
+  - 19
+  - 17
+BaseAtk: '19'
+CMB: '31'
+CMD: 41 (45 vs. trip)
+Feats:
+  - Alertness
+  - Cleave
+  - Flyby Attack
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +25
+  - Fly +18
+  - Intimidate +25
+  - Knowledge (local) +25
+  - Perception +30
+  - Sense Motive +30
+  - Spellcraft +25
+  - Stealth +14
+  - Swim +40
+Languages:
+  - Aquan
+  - Common
+  - Draconic
+  - Giant  Special Abilities
+Environment: warm coastlines
+Organization: solitary
+Treasure: triple standard
+Description_Visual: Steam emanates from the nostrils and mouth of this slate gray dragon.
+Group: Dragon
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: A gray dragon's breath weapon is a superheated line of steam.
+  - name: Change Shape (Su)
+    description: >-
+      A young or older gray dragon can take any animal or humanoid form 3/day as
+      if using polymorph.
+  - name: Corrupt Water (Sp)
+    description: >-
+      Once per day an adult or older gray dragon can stagnate 10 cubic feet of
+      still water, making it foul and unable to support water-breathing life.
+      The ability spoils liquids containing water. Liquid-based magic items
+      (such as potions) and items in a creature's possession must succeed on a
+      Will save (DC 19) or become ruined. This ability is the equivalent of a
+      1st-level spell. Its range is 180 ft. Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      A gray dragon gains the following spell-like abilities, usable at will
+      upon reaching the listed age category. • Young-fog cloud; •
+      Juvenile-create water; • Old-control winds; • Ancient-control water;
+  - name: Water Breathing (Ex)
+    description: >-
+      A gray dragon breathes water and can use its breath weapon, spells, and
+      abilities underwater.
+Description:
+  - >-
+    Gray dragons are evil dragons that inhabit mountains and hills near
+    coastlines. They have little regard for other races and often enslave others
+    to do their bidding. Adult and older gray dragons are rarely found without a
+    retinue of humanoid slaves. Gray dragons mate for life and a single mated
+    pair often terrorizes nearby villages, laying waste to those that oppose the
+    dragon's will.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: very old
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4800'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

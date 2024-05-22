@@ -1,0 +1,126 @@
+Name: Incomplete Tzitzimitl
+CR: '17'
+XP: '102400'
+Race: tzitzimitl
+MonsterSource: Pathfinder RPG Bestiary 3 276
+Alignment: NE
+Size: Huge
+Type: undead
+Init: '8'
+Senses:
+  - arcane sight, darkvision 60 ft., true seeing
+  - Perception +27
+AC: 32, touch 12, flat-footed 28
+AC_Mods: (+4 Dex, +20 natural, -2 size)
+HP: '256'
+HD: (19d8+171)
+HP_Mods: fast healing 10
+Saves: Fort +14, Ref +10, Will +16
+Fort: '14'
+Ref: '10'
+Will: '16'
+DefensiveAbilities: channel resistance +2, light to dark
+DR: 15/bludgeoning and good
+Immune: cold, electricity, undead traits
+Resist: fire 15
+SR: '28'
+Speed: 5 ft., fly 60 ft. (good)
+Melee:
+  - bite +25 (2d8+19 plus 3d6 electricity and energy drain)
+Ranged:
+  - eye beam +16 touch (8d6 electricity and 8d6 force)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: eclipse, energy drain (2 levels, DC 27)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +24)
+  values:
+    - label: Constant
+      value: arcane sight, fly, true seeing
+    - label: At Will
+      value: bestow curse (DC 22), deeper darkness
+    - label: 3/day
+      value: animate dead, contagion (DC 22), greater teleport, haste
+    - label: 1/day
+      value: wail of the banshee (DC 27)
+AbilityScores:
+  - 37
+  - 19
+  - —
+  - 18
+  - 21
+  - 26
+BaseAtk: '14'
+CMB: +29 (+31 bull rush)
+CMD: 43 (45 vs. bull rush)
+Feats:
+  - Awesome Blow
+  - Combat Reflexes
+  - Hover
+  - Improved Bull Rush
+  - Improved Initiative
+  - Point-Blank Shot
+  - Power Attack
+  - Precise Shot
+  - Toughness
+  - Vital Strike
+Skills:
+  - Fly +26
+  - Knowledge (arcana
+  - nature
+  - religion) +26
+  - Perception +27
+  - Sense Motive +27
+  - Spellcraft +26
+  - Survival +27
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Razatlani
+Source: AP 143
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Eclipse (Su)
+    description: >-
+      Any creatures in the area of an incomplete tzitzimitl's deeper darkness
+      when it is created take 8d6 points of cold damage (Fortitude DC 27 half).
+      A creature that takes damage from this effect becomes staggered for as
+      long as it remains in the area of darkness and for 1d4 rounds after it
+      leaves it. The save DC is Charisma-based.
+  - name: Eye Beam (Su)
+    description: >-
+      As a standard action, the incomplete tzitzimitl can fire a glowing beam of
+      force from its eyes at a range of 100 feet as a ranged touch attack
+      dealing 8d6 points of force damage and 8d6 points of electricity damage.
+  - name: Light to Dark (Su)
+    description: >-
+      Once per day as an immediate action, the incomplete tzitzimitl can convert
+      a positive energy effect that affects it into negative energy. Doing so
+      transforms the entire effect, such that it affects other creatures in the
+      effect as well. A tzitzimitl can transform channeled positive energy in
+      this way even if the positive energy would not otherwise harm it.
+DuringCombat: >-
+  The tzitzimitl casts haste and moves closer to intruders on the first round of
+  combat. It thereafter casts wail of the banshee, then attacks with its bites
+  and eye beams.
+Morale: >-
+  The tzitzimitl fights until reduced to fewer than 100 hit points, at which
+  point it retreats long enough for its fast healing to restore it before
+  seeking  out the PCs again. When it renews its attack, the tzitzimitl fights
+  until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12710'
+UniqueMonster: '1'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

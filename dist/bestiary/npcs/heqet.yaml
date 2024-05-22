@@ -1,0 +1,143 @@
+Name: Heqet
+CR: '13'
+XP: '25600'
+Race: human
+Class: cleric of Areshkagal 13
+MonsterSource: Pathfinder RPG Bestiary 4 286
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+AC: 31, touch 16, flat-footed 29
+AC_Mods: (+8 armor, +4 deflection, +2 Dex, +2 natural, +5 shield)
+HP: '154'
+HD: (15d8+83)
+Saves: Fort +14, Ref +11, Will +18
+Fort: '14'
+Ref: '11'
+Will: '18'
+DefensiveAbilities: channel resistance +5
+DR: 5/slashing
+Immune: undead traits
+Resist: electricity 20
+SR: '25'
+Speed: 20 ft.
+Melee:
+  - rod of the viper +17/+12 (1d8+6/19-20)
+  - slam +14 (1d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 8/day (DC 21, 7d6), fury of the Abyss (+6, 7/day),
+  scythe of evil (6 rounds, 2/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 13th; concentration +17)
+  values:
+    - label: 7/day
+      value: lightning arc (1d6+6 electricity)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 13th; concentration +17)  7th-blasphemyD (DC 21),
+  destruction (DC 23)  6th-chain lightningD (DC 20), harm (DC 22), summon
+  monster VI  5th-dispel goodD (DC 19), major curseUM (DC 21), slay living (DC
+  21), spell resistance  4th-divine power, freedom of movement, inflict critical
+  wounds (DC 20), spell immunity, spit venomUM (DC 18), unholy blightD (DC 18) 
+  3rd-blindness/deafness (DC 19), gaseous formD, inflict serious wounds (DC 19),
+  invisibility purge, magic vestment, wrathful mantleAPG  2nd-dread boltUM (DC
+  16), hold person (DC 16), resist energy, shard of chaosUM (DC 16), silence (DC
+  16), wind wallD  1st-deathwatch, doomD (DC 17), entropic shield, murderous
+  commandUM (DC 15), ray of sickeningUM (DC 17), shield of faith  0 (at
+  will)-bleed (DC 16), detect magic, guidance, read magic
+SpellDomains: Air, Evil (Demon subdomainAPG)
+AbilityScores:
+  - 18
+  - 14
+  - —
+  - 10
+  - 18
+  - 16
+BaseAtk: '10'
+CMB: '14'
+CMD: '30'
+Feats:
+  - Combat Casting
+  - Extra Channel
+  - Greater Spell Focus (necromancy)
+  - Improved Channel
+  - Improved Critical (heavy mace)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Spell Focus (necromancy)
+  - ToughnessB
+  - Weapon Focus (heavy mace)
+Skills:
+  - Knowledge (history) +8
+  - Knowledge (planes) +8
+  - Knowledge (religion) +8
+  - Linguistics +4
+  - Perception +20
+  - Sense Motive +12
+  - Spellcraft +16
+Languages:
+  - Abyssal
+  - Common
+  - Osiriani
+SQ: lost soul bond
+Source: AP 82
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Lost Soul Bond (Su)
+    description: >-
+      Heqet is magically bound to the bodaks in area K26 and can sense their
+      presence and general condition as if she were casting a status spell. By
+      concentrating, Heqet can see through the eyes of any of the bodaks. In
+      addition, she is empowered whenever one of the bodaks is destroyed,
+      gaining 10 temporary hit points, a +2 profane bonus to her Strength score,
+      and a +1 profane bonus to her channel resistance. Currently, one of the
+      bodaks has been destroyed (the bonuses she received from that bodak's
+      destruction are already included in her statistics). If the other five
+      bodaks are destroyed, she gains 50 additional temporary hit points, an
+      additional +10 bonus to her Strength (giving her a +5 profane bonus on her
+      melee attack rolls and damage rolls), and an additional +5 profane bonus
+      to her channel resistance.
+Gender: Female
+BeforeCombat: >-
+  Heqet can sense what the bodaks in area K26 experience and see through their
+  eyes. As soon as they fall under attack, she casts magic vestment on her
+  shield and freedom of movement. Based on the PCs' tactics, she also casts
+  resist energy against a suitable energy type and spell immunity against
+  appropriate spells (such as holy smite, searing light, and undeath to death).
+  Once all of the bodaks have been destroyed or the PCs appear to be heading
+  toward her tomb, Heqet casts shield of faith, spell resistance, and wrathful
+  mantle.
+DuringCombat: >-
+  Heqet casts summon monster VI just before breaking through the secret door (or
+  on the first round of combat) to summon 1d3 babau allies. She immediately
+  targets the nearest enemy (or anyone openly displaying the holy symbol of a
+  good-aligned deity) with destruction, followed by her most powerful spells,
+  including blasphemy, chain lightning, and unholy blight. If pressed into melee
+  combat, Heqet casts divine power and transforms her rod of the viper into a
+  serpent.
+Morale: Heqet fights until destroyed.
+Gear: scroll of blade barrier
+OtherGear: >-
+  +2 breastplate, mwk heavy steel shield, rod of the viper, adamantine and
+  platinum unholy symbol of Areshkagal (worth 500 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: zombie lord|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6076'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

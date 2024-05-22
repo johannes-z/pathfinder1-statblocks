@@ -1,0 +1,137 @@
+Name: Egzimora
+CR: '9'
+XP: '6400'
+Race: green hag
+Class: sorcerer 7
+MonsterSource: Pathfinder RPG Bestiary 167
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '7'
+Senses:
+  - darkvision 90 ft.
+  - Perception +20
+AC: 24, touch 13, flat-footed 21
+AC_Mods: (+3 Dex, +11 natural)
+HP: '112'
+HD: (16 HD; 9d10+7d6+39)
+Saves: Fort +9, Ref +11, Will +13; +2 vs. poison and sleep
+Fort: '9'
+Ref: '11'
+Will: '13'
+Save_Mods: +2 vs. poison and sleep
+SR: '16'
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - 2 claws +16 (1d4+4 plus weakness [DC 18])
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: Constant
+      value: pass without trace, tongues, water breathing
+    - label: At will
+      value: >-
+        alter self, dancing lights, ghost sound (DC 14), invisibility,
+        pyrotechnics (DC 16), tree shape, whispering wind Bloodline Spell-Like
+        Abilities (CL 7th; concentration +11)
+    - label: 7/day
+      value: tanglevine (+11)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (5/day)
+      value: speak with plants, stinking cloud (DC 17), suggestion (DC 18)
+    - label: 2nd (7/day)
+      value: barkskin, scorching ray, summon swarm, touch of idiocy
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 16), endure elements, entangle (DC 15), magic missile,
+        ray of enfeeblement (DC 15), shocking grasp
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), daze (DC 15), detect magic, ray of frost,
+        read magic, touch of fatigue (DC 14)
+AbilityScores:
+  - 18
+  - 16
+  - 14
+  - 15
+  - 15
+  - 18
+BaseAtk: '12'
+CMB: '16'
+CMD: '29'
+Feats:
+  - Acrobatic Steps
+  - Alertness
+  - Blind- Fight
+  - Combat Casting
+  - Deceitful
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Initiative
+  - Nimble Moves
+  - Spell Focus (enchantment)
+Skills:
+  - Bluff +26
+  - Disguise +22
+  - Knowledge (arcana) +14
+  - Knowledge (nature) +14
+  - Perception +20
+  - Sense Motive +10
+  - Stealth +21
+  - Swim +18
+Languages:
+  - Aklo
+  - Common
+  - Giant
+SQ: bloodline arcana, mimicry, photosynthesis
+Source: AP 39
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Photosynthesis (Ex)
+    description: >-
+      Egzimora can feed upon nature's raw essence. Her need to eat and sleep is
+      reduced as if she were wearing a ring of sustenance, and she gains a +2
+      racial bonus on saving throws made against poison and sleep effects.
+  - name: Tanglevine (Sp)
+    description: >-
+      As a standard action, Egzimora can create a 15-foot-long, animated vine
+      that springs from her hand. This vine lasts for 1 round and can be used to
+      make a single disarm, steal, or trip combat maneuver, using her sorcerer
+      level plus her Charisma modifier in place of her normal CMB. Verdant
+      Bloodline The verdant bloodline may be found on page 141 of the Pathfinder
+      RPG Advanced Player's Guide.
+Gender: Female
+Bloodline: verdant
+BeforeCombat: Egzimora casts barkskin before combat.
+DuringCombat: >-
+  Egzimora reverts to her true form so she can use her claws in combat. If
+  reduced to fewer than 80 hit points, she attempts to escape by becoming
+  invisible, then takes up a position where she can utilize her spells at range
+  without facing foes in melee.
+Morale: >-
+  If reduced to fewer than 25 hit points, she flees entirely, only to seek out
+  the PCs' camp at a later date to try to lure one of them or their allies away
+  to a hideous fate.
+Gear: >-
+  potions of cure moderate wounds (2), potion of resist energy (fire), wand of
+  bestow curse (9 charges), wand of lightning bolt (23 charges)
+OtherGear: elixir of love, 45 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '989'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

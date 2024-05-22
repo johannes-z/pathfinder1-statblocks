@@ -1,0 +1,110 @@
+Name: Lissalan Cultist
+CR: '4'
+XP: '1200'
+Race: Human
+Class: cleric of Lissala 3/fighter 2
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +8
+AC: 18, touch 10, flat-footed 18
+AC_Mods: (+6 armor, +2 shield)
+HP: '51'
+HD: (5 HD; 3d8+2d10+23)
+Saves: Fort +9, Ref +1, Will +4; +1 vs. fear
+Fort: '9'
+Ref: '1'
+Will: '4'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1
+Speed: 20 ft.
+Melee:
+  - mwk flail +8 (1d8+2)
+Ranged:
+  - mwk light crossbow +5 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 14, 2d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 3rd; concentration +4)
+  values:
+    - label: 4/day
+      value: touch of evil (1 rounds)
+    - label: 4/day
+      value: blast rune (1d6+1 energy damage, 3 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 3rd; concentration +4)   2nd-aid, align weapon
+  (evil only)   1st-cure light wounds, divine favor, entropic shield, protection
+  from good   0 (at will)-bleed (DC 11), detect magic, read magic, resistance
+SpellDomains: Rune, Evil
+AbilityScores:
+  - 14
+  - 10
+  - 16
+  - 10
+  - 13
+  - 12
+BaseAtk: '4'
+CMB: '6'
+CMD: '16'
+Feats:
+  - Channel Smite
+  - Combat Casting
+  - Improved Channel
+  - Improved Initiative
+  - Scribe Scroll
+  - Toughness
+  - Weapon Focus (flail)
+Skills:
+  - Knowledge (arcana) +5
+  - Knowledge (history) +5
+  - Knowledge (religion) +7
+  - Linguistics +4
+  - Perception +8
+  - Spellcraft +5
+Languages:
+  - Common
+  - Thassilonian
+SQ: aura
+Source: PFS S3-26
+IsTemplate: '0'
+BeforeCombat: >-
+  If alerted to approaching enemies, the cultists wait until they can hear the
+  PCs on the stairs and cast aid, entropic shield, and protection from good, in
+  that order.
+DuringCombat: >-
+  To begin, two cultists take positions facing the stairs and engage the PCs in
+  combat with their crossbows. The other two position themselves along the wall
+  on either side of the staircase exit and lay down blast runes in the four
+  squares directly in front of the stairs, renewing them as needed if the party
+  does not take the bait and rush into action. Once the PCs are in the room, all
+  four cultists cast divine favor and engage the party in melee. The cultists
+  use the Channel Smite feat with each attack they make until they are out of
+  channeling attempts.
+Morale: >-
+  After losing half their hit points, the cultists cast cure light wounds on
+  themselves. If reduced to 10 or fewer hit points, they drink their potions.
+  Otherwise, the cultists fight to the death in defense of their goddess's holy
+  site.
+Gear: potion of cure moderate wounds, scroll of dispel magic, unholy water (2)
+OtherGear: >-
+  masterwork breastplate, masterwork heavy steel shield, masterwork flail,
+  masterwork light crossbow, spell component pouch, wooden holy symbol
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6752'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

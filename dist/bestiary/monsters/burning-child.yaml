@@ -1,0 +1,126 @@
+Name: Burning Child
+CR: '10'
+XP: '9600'
+Alignment: CN
+Size: Small
+Type: undead
+SubType: (fire)
+Init: '7'
+Senses:
+  - Perception +17
+Aura: elemental aura (fire, DC 17), frightful presence (60 ft., DC 21)
+AC: 17, touch 15, flat-footed 13
+AC_Mods: (+3 Dex, +1 dodge, +2 natural, +1 size)
+HP: '150'
+HD: (15d8+75)
+Saves: Fort +9, Ref +12, Will +11
+Fort: '9'
+Ref: '12'
+Will: '11'
+DefensiveAbilities: channel resistance +4, final embrace
+Immune: fire, undead traits
+Weaknesses: vulnerable to cold
+Speed: 40 ft.
+Melee:
+  - slam +10 (1d4-2 plus burn)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, 10d6 fire damage, Reflex DC 21 half), burn (2d8,
+  DC 21)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +15)
+  values:
+    - label: Constant
+      value: elemental auraAPG (fire only; DC 17), fire trailARG (DC 17)
+    - label: At Will
+      value: burning hands (DC 16), scorching ray (DC 16)
+    - label: 3/day
+      value: quickened fireball (DC 17)
+AbilityScores:
+  - 6
+  - 17
+  - —
+  - 10
+  - 15
+  - 18
+BaseAtk: '7'
+CMB: '14'
+CMD: '17'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Lightning Reflexes
+  - Quicken Spell-Like Ability (fireball)
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Escape Artist +18
+  - Intimidate +19
+  - Perception +17
+  - Sense Motive +17
+Languages:
+  - Common
+SQ: binary state
+Environment: temperate plains
+Organization: unique
+Treasure: none
+Description_Visual: >-
+  The smell of scorched flesh accompanies this small child, who appears to be
+  made entirely of dust and smoldering ash.
+Source: Belkzen Hold Of The Orc Hordes
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Binary State (Su)
+    description: >-
+      Most of the time the Burning Child is in a passive state, during which
+      he's incorporeal and invisible, though his soft sobs and the scent of
+      burning flesh allow a creature to pinpoint his location with a successful
+      DC 30 Perception check. If the Burning Child comes across a battle, the
+      chance he enters his active state is equal to 1% per creature fighting (to
+      a maximum of 100%). While active, the Burning Child is corporeal and
+      visible. After 1d4 hours without being attacked or seeing conflict, the
+      Burning Child reenters his passive state.
+  - name: Breath Weapon (Su)
+    description: >-
+      The Burning Child can use his breath weapon only when in his active state,
+      and only once each time he becomes active.
+  - name: Final Embrace (Ex)
+    description: >-
+      If the Burning Child is destroyed, he reforms in 2d4 days. He can be
+      permanently destroyed only when active, by a humanoid embracing and
+      calming him. This requires succeeding at DC 28 Diplomacy checks for 3
+      consecutive rounds.
+Description:
+  - >-
+    Born from the traumatic death of an abducted human child at the hands of orc
+    alchemists seeking to unlock the mysteries of his sorcerous bloodline and
+    convert him into a weapon, the Burning Child has haunted a wide stretch of
+    wasteland in eastern Belkzen for centuries.
+  - >-
+    First seen during the battle that bears his name, the Burning Child
+    continues to wander in an endless search for his parents, constantly
+    reliving the terrifying experience of his first fiery death. While in his
+    passive state, he's little more than disembodied sobbing and the scent of
+    burning flesh. But when he happens upon the scene of a battle, the memory of
+    his agonizing death pushes him to manifest, and he wanders into the fray
+    crying out for rescue, all the while unintentionally sowing devastation as
+    the uncontrollable energies coursing through him spill out of his unstable
+    form.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6783'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

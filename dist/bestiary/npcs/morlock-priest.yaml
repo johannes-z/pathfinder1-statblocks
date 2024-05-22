@@ -1,0 +1,102 @@
+Name: Morlock Priest
+CR: '6'
+XP: '2400'
+Race: morlock
+Class: cleric of Mestama 5
+MonsterSource: Pathfinder RPG Bestiary 209
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '9'
+Senses:
+  - darkvision 120 ft., scent
+  - Perception +9
+AC: 23, touch 18, flat-footed 18
+AC_Mods: (+4 armor, +3 deflection, +5 Dex, +1 natural)
+HP: '59'
+HD: (3d10+5d8+21)
+Saves: Fort +6, Ref +11, Will +11
+Fort: '6'
+Ref: '11'
+Will: '11'
+Immune: disease, poison
+Weaknesses: light blindness
+Speed: 40 ft., climb 30 ft.
+Melee:
+  - +1 darkwood club +9/+4 (1d6+3), bite +3 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 2/day (DC 11, 3d6), leap attack, sneak attack +1d6,
+  swarming
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: 7/day
+      value: touch of chaos
+    - label: 7/day
+      value: copycat (5 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 5th; concentration +9)  3rd-deeper darkness, magic
+  circle against law D, meld into stone  2nd-aid, darkness, invisibility D,
+  silence  1st-bane (DC 15), disguise self D, doom (DC 15), protection from
+  good, shield of faith (already cast)  0 (at will)-bleed, detect magic,
+  guidance, resistance
+SpellDomains: Chaos, Trickery
+AbilityScores:
+  - 14
+  - 21
+  - 13
+  - 10
+  - 18
+  - 8
+BaseAtk: '6'
+CMB: '8'
+CMD: '26'
+Feats:
+  - Combat Casting
+  - Improved Initiative
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Acrobatics +14 (+18 jump)
+  - Climb +22
+  - Knowledge (religion) +6
+  - Perception +9
+  - Spellcraft +10
+  - Stealth +16 (+20 in caverns)
+RacialMods: +4 Stealth in caverns, +8 Acrobatics, +16 Climb
+Languages:
+  - Undercommon
+SQ: aura, expert climber
+Source: PFS S2-14
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  After the priest signals the attack by hurling the head, he drops back to cast
+  defensive spells, starting with shield of faith (already figured into his stat
+  block), then protection from good.
+DuringCombat: >-
+  The priest tries to hold back to cast spells to aid his companions, targeting
+  any obvious enemy spellcasters with spells like silence, bane, and doom. He
+  reserves his touch of chaos ability for those enemies getting too close and
+  saves his darkness spells to counter any light-based attacks.
+Morale: >-
+  If dropped below 15 hit points, he attempts to flee by casting meld into
+  stone.
+Gear: +1 studded leather, +1 darkwood club
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5609'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

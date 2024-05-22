@@ -1,0 +1,156 @@
+Name: Soul Reaper
+CR: '15'
+XP: '51200'
+Alignment: NE
+Size: Large
+Type: undead
+Init: '8'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +30
+AC: 29, touch 13, flat-footed 25
+AC_Mods: (+4 Dex, +16 natural, -1 size)
+HP: '231'
+HD: (22d8+132)
+Saves: Fort +14, Ref +13, Will +18
+Fort: '14'
+Ref: '13'
+Will: '18'
+DefensiveAbilities: channel resistance +4, inseparable weapon
+DR: 15/silver and magic
+Immune: undead traits
+SR: '26'
+Speed: 40 ft.
+Melee:
+  - +1 scythe +25/+20/+15/+10 (2d6+13/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: soul slash
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 22nd)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At Will
+      value: desecrate, unholy blight (DC 19)
+    - label: 1/day
+      value: blindness/deafness (DC 17), symbol of pain (DC 20), unholy aura (DC 23)
+AbilityScores:
+  - 27
+  - 19
+  - —
+  - 18
+  - 21
+  - 20
+BaseAtk: '16'
+CMB: '25'
+CMD: '39'
+Feats:
+  - Cleave
+  - Critical Focus
+  - Great Cleave
+  - Great Fortitude
+  - Improved Critical (scythe)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (scythe)
+Skills:
+  - Climb +33
+  - Diplomacy +14
+  - Intimidate +30
+  - Knowledge (arcana) +29
+  - Knowledge (religion) +29
+  - Perception +30
+  - Sense Motive +30
+  - Stealth +25
+  - Survival +18
+SQ: inseparable weapon
+Environment: any
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This sinister figure appears shrouded in a long, black hooded robe. Its face
+  is hidden from view and its long wickedly-curved claws are deathly black in
+  color. It grips a gleaming, silver-bladed scythe in its claws.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Soul Slash (Su)
+    description: >-
+      If a soul reaper scores a critical hit with its scythe, the target must
+      succeed on a DC 26 Fortitude save or have its soul torn from its body and
+      pulled into the soul reaper's scythe. If the save succeeds, the victim
+      takes an extra 3d6 points of damage. A soul reaper's scythe can hold a
+      number of souls equal to its Charisma bonus (four souls for a typical soul
+      reaper). This effect is similar to a trap the soul spell. The save DC is
+      Charisma-based. A creature's soulless body collapses into a desiccated
+      husk, and in one day crumbles to dust. To reclaim a captured soul, the
+      reaper must be destroyed and its scythe shattered on consecrated ground.
+      When the scythe is shattered, all souls trapped are released and seek
+      their original body (if it's been less than one day since the body was
+      killed). Creatures without a body are left to wander in spirit form but
+      can be returned to life through the successful casting of a miracle, wish,
+      or true resurrection spell.
+  - name: Inseparable Weapon (Su)
+    description: >-
+      A soul reaper has a mystic and magical connection to its scythe. If
+      separated from its scythe (if the soul reaper is disarmed, for example)
+      and within 100 feet of it, it may summon it to its hands as a move action.
+      If an opponent is holding the weapon when the reaper summons it, that
+      opponent must succeed on a DC 26 Strength check or the weapon flies from
+      its hands to the soul reaper. The check DC is Charisma-based.
+Description:
+  - >-
+    Soul reapers are vile undead with a fierce hatred for the living. They exist
+    only to kill, and take great pleasure in slaying any living creature they
+    encounter. They kill without guilt, without feeling or remorse, and without
+    emotion; drinking the soul of their victim to insure it never returns to
+    life.
+  - >-
+    Soul reapers have no ties to the land of the living, in that they have
+    always existed and have always been. Their origins are unknown, but
+    speculation says they stepped from the great void at the beginning of
+    creation. It is thought that only six or seven of these creatures exist (and
+    most living beings are thankful of that).
+  - >-
+    Soul reapers are 12-foot tall humanoid creatures shrouded in long, black
+    hooded cloaks. Though they are corporeal creatures, their form is either
+    shrouded in utter darkness or formed of the stuff of shadows.
+  - >-
+    No discernible facial features are visible under the hood. The creature's
+    hands end in wicked claws of inky blackness that are always clutched tightly
+    around its gleaming, sharp scythe. These creatures never speak and no one
+    knows if they even can (and if they could, what would one say to a soul
+    reaper?) Soul reapers haunt civilized lands searching for the next victim
+    who will fall prey to the deadly scythe and its soul-draining powers. When
+    it encounters a living creature, the soul reaper casts unholy aura on
+    itself.
+  - >-
+    It then pinpoints an enemy spellcaster and uses its deafness ability, or
+    selects the most powerful foe (its best guess) and hits it with blindness.
+  - >-
+    Invisible opponents are no match for the soul reaper and it often targets
+    them first, just to show them that they cannot hide from its deadly blade.
+  - >-
+    When it closes to melee, the soul reaper uses a full attack with its scythe
+    against its closest opponent.
+  - Copyright Notice Author Scott Greene.
+Gear: +1 scythe
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3029'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

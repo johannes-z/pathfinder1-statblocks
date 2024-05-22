@@ -1,0 +1,213 @@
+Name: Obcisidaemon
+CR: '19'
+XP: '204800'
+Alignment: NE
+Size: Gargantuan
+Type: outsider
+SubType: (daemon, evil, extraplanar)
+Init: '4'
+Senses:
+  - darkvision 60 ft., deathwatch, true seeing
+  - Perception +30
+Aura: scorched earth (60 ft.)
+AC: 34, touch 10, flat-footed 30
+AC_Mods: (+4 Dex, +24 natural, -4 size)
+HP: '319'
+HD: (22d10+198)
+Saves: Fort +22, Ref +11, Will +18
+Fort: '22'
+Ref: '11'
+Will: '18'
+DR: 15/good and silver
+Immune: acid, death effects, disease, poison
+Resist: cold 30, electricity 30, fire 30
+SR: '30'
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - >-
+    +1 unholy halberd +30/+25/+20/+15 (4d8+16/x3 plus inherit soul), bite +28
+    (2d8+15)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: cloak of souls
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +27)
+  values:
+    - label: Constant
+      value: deathwatch, true seeing
+    - label: At Will
+      value: cloudkill (DC 22), greater teleport (self plus 50 lbs. of objects only)
+    - label: 3/day
+      value: >-
+        destruction (DC 24), fire storm (DC 25), incendiary cloud (DC 25),
+        quickened spell turning
+    - label: 1/day
+      value: >-
+        mass hold person (DC 24), meteor swarm (DC 26), summon (level 9, 1
+        purrodaemon 50%)
+AbilityScores:
+  - 30
+  - 19
+  - 28
+  - 13
+  - 21
+  - 24
+BaseAtk: '22'
+CMB: '36'
+CMD: '50'
+Feats:
+  - Bleeding Critical
+  - Cleave
+  - Critical Focus
+  - Great Cleave
+  - Greater Vital Strike
+  - Improved Vital Strike
+  - Power Attack
+  - Quicken Spell-Like Ability (spell turning)
+  - Staggering Critical
+  - Vital Strike
+  - Weapon Focus (halberd)
+Skills:
+  - Bluff +32
+  - Fly +23
+  - Intimidate +32
+  - Knowledge (history) +15
+  - Knowledge (planes) +15
+  - Perception +30
+  - Sense Motive +30
+  - Spellcraft +26
+Languages:
+  - Abyssal
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+Environment: any (Abaddon)
+Organization: solitary, pair, or holocaust (3-6)
+Treasure: standard (+1 unholy halberd, other treasure)
+Description_Visual: >-
+  This massive fiend has thick claws like a lion's, the broad wings of an eagle,
+  and the legs of a massive canine. Its face is that of a three-eyed wolf with
+  the jaws of a saber-toothed tiger. While two of the thing's eye sockets are
+  merely empty holes that trickle blood, the middle eye glows a sickly yellow. A
+  cloud of globular soul-stuff cloaks the creature's hulking body, bits dripping
+  loosely from its barbwire-covered arms.
+Source: Horsemen Of The Apocalypse
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cloak of Souls (Su)
+    description: >-
+      An obcisidaemon is surrounded by a dark cloud of souls it has consumed,
+      often resembling a tattered, ethereal cloak. When an obcisidaemon
+      successfully captures a soul with its inherit soul ability, the soul
+      becomes a part of its cloak of souls, taking up one soul slot. An
+      obcisidaemon has a number of soul slots equal to its Charisma modifier
+      (usually 7). An obcisidaemon can consume a soul as a swift action to
+      achieve a particular effect. When a soul within this cloak is consumed by
+      the obcisidaemon, it is immolated as though by the destruction spell.
+      Destroying the daemon frees the souls in its cloak, though this does not
+      return the deceased creatures to life. Any attempt to resurrect a body
+      whose soul is trapped in a cloak of souls requires a DC 28 caster level
+      check. Failure results in the spell having no effect, while success tears
+      the victim's soul free from the cloak and returns the creature to life as
+      normal. If the daemon is in an unholy location, such as that created by
+      the unhallow spell, the DC of this caster level check increases by +2. The
+      caster level check DC is Charisma-based. An obcisidaemon can achieve one
+      of the following effects by consuming a single soul. • Increase the DC of
+      the next spell-like ability the obcisidaemon uses that round by +1. • Give
+      the obcisidaemon 3d6 temporary hit points for 1 hour. • Increase the
+      damage of the obcisidaemon's next melee attack that round by +1d6 hit
+      points.
+  - name: Inherit Soul (Su)
+    description: >-
+      Whenever an obcisidaemon kills a creature with its halberd, that creature
+      must immediately make a DC 31 Fortitude save or be consumed by the
+      daemon's cloak of souls. This is a death effect. If the cloak cannot
+      consume this soul without exceeding its number of soul slots, the daemon
+      can release a soul as a free action in order to make room for the new
+      soul, otherwise, the killed creature automatically succeeds at its save
+      and its soul is not absorbed. The save DC is Constitution-based.
+  - name: Scorched Earth (Su)
+    description: >-
+      A creature that dies within 60 feet of an obcisidaemon must immediately
+      make a DC 28 Fortitude save to prevent its body from being utterly
+      consumed in unholy fire equivalent to the destruction spell. The save DC
+      is Charisma-based.
+Description:
+  - >-
+    The obcisidaemon personifies the darkest elements of war. Obcisidaemons
+    strip away the veneer of honor and battlefield glory, leaving only the
+    brutal and violent pragmatism at its core, and then divest it of any
+    humanity to reveal naught but scorched earth and genocide. Ref lecting the
+    disgraceful values of ethnic cleansing, depopulation, and all other forms of
+    the clinical, systematic obliteration of civilian populations, obcisidaemons
+    are among the most powerful members of daemonkind. These paragons of
+    inhumanity arrive in the heart of great cities and leave only wastelands of
+    rubble and ashes in their wake. Where an obcisidaemon walks, not even the
+    ghosts of the dead remain to lament the destruction, for the daemon wipes
+  - >-
+    out not only innocent individuals, but also their entire histories and
+    bloodlines, ensuring that no future exists for its victims in any sense of
+    the word.
+  - >-
+    Obcisidaemons stand 25 feet tall, have a wingspan of 30 feet, and weigh over
+    15,000 pounds.
+  - Ecology
+  - >-
+    When a mortal commits a true act of genocide in life and goes to Abaddon in
+    death, it has a chance of forming into an obcisidaemon if it survives long
+    enough as a member of the hunted. Such individuals rarely have trouble
+    managing the unforgiving wastes, as they are willing to destroy any and all
+    possible allies in order to ensure their own survival, making betrayal an
+    impossibility and solitude an inevitability. This vicious soul eventually
+    develops into an obcisidaemon-a lone, wandering mass of slaughter that acts
+    as a harbinger of undiscriminating and unforgiving death to all who dare
+    stand in its path. In life, the soul of an obcisidaemon perhaps only desired
+    to kill a particular chosen population; as an obcisidaemon, however, the
+    being seeks the obliteration of all mortals.
+  - >-
+    Peculiar to an obcisidaemon is the cloak of souls that seems to drip from
+    its enormous body, a symbol of its destructive abilities that provides
+    onlookers an idea as to the sheer scope of its murderous capabilities. When
+    an obcisidaemon lays slaughter to entire populations, it does not feast on
+    all of the souls at once, instead capturing victims for later use. When the
+    fiend needs to unleash a particularly potent rampage upon a resistant
+    population, it consumes its reserve souls in order to strengthen its powers
+    and ensure its success in total annihilation.
+  - Habitat & Society
+  - >-
+    Devoted to the wanton, systematic slaughter of mortals, most obcisidaemons
+    serve Szuriel, the Horseman of War, who shares similar ideals. In her
+    service, an obcisidaemon functions as a high-ranking officer at the head of
+    an army of purrodaemons, so skilled are the harbingers of genocide at
+    managing the pragmatic art of organized massacres. Sometimes, an amassed
+    group of obcisidaemons instead trails behind an invading daemonic army, so
+    as to ensure that no trace of the butchered mortals remains but ashes and
+    salted earth. Obcisidaemons not only ensure that all life perishes, but that
+    the land is thereafter uninhabitable by any other creatures as well.
+    Occasionally, an obcisidaemon serves Apollyon, occupying a similar role at
+    the head of a titanic flight of leukodaemons, sowing disease and clouds of
+    poison across miles of terrain in its passing.
+  - >-
+    Some obcisidaemons serve no particular member of the Four, instead choosing
+    to function as independent agents of genocide. These beings wander from
+    plane to plane, laying waste to one civilization after another. Some
+    obcisidaemons intentionally spread their true names to the Material Plane,
+    hoping for a foolish evil summoner to call upon them, knowing that no mere
+    mortal could control their awesome power. Most such summoners end up among
+    the first souls devoured and consumed into the cloud of tormented spirits
+    that cloaks the now-rampaging obcisidaemon.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1939'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

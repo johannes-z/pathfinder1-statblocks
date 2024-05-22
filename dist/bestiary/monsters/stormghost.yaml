@@ -1,0 +1,216 @@
+Name: Stormghost
+CR: '15'
+XP: '51200'
+Alignment: CE
+Size: Large
+Type: monstrous humanoid
+Init: '10'
+Senses:
+  - >-
+    all-around vision, darkvision 90 ft., low-light vision, scent, see in
+    darkness, see in fog
+  - Perception +22
+Aura: static aura (5 ft., 2d6 electricity)
+AC: 28, touch 16, flat-footed 21
+AC_Mods: (+6 Dex, +1 dodge, +12 natural, -1 size)
+HP: '212'
+HD: (17d10+119)
+HP_Mods: regeneration 5 (acid)
+Saves: Fort +12, Ref +16, Will +12
+Fort: '12'
+Ref: '16'
+Will: '12'
+Immune: disease, electricity, poison
+Resist: cold 10, fire 10
+Speed: 50 ft., climb 30 ft.
+Melee:
+  - bite +24 (1d8+8), 2 claws +24 (1d8+8/19-20 plus 1d6 electricity)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with claws)
+SpecialAttacks: impaling leap, sneak attack +3d6, static blast
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +14)
+  values:
+    - label: At Will
+      value: alter winds, fog cloud, jump
+    - label: 3/day
+      value: deeper darkness, greater invisibility, gust of wind (DC 15), ice storm
+    - label: 1/day
+      value: control weather, plague stormUM (DC 19), siroccoAPG (DC 19)
+AbilityScores:
+  - 27
+  - 23
+  - 24
+  - 11
+  - 14
+  - 16
+BaseAtk: '17'
+CMB: '26'
+CMD: 43 (47 vs. trip)
+Feats:
+  - Acrobatic Steps
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (claws)
+  - Improved Initiative
+  - Mobility
+  - Nimble Moves
+  - Power Attack
+  - Spring Attack
+Skills:
+  - Acrobatics +20 (+28 when jumping)
+  - Climb +24
+  - Perception +22
+  - Stealth +22 (+26 in icy or snowy areas)
+  - Survival +20
+RacialMods: +4 Stealth in icy or snowy areas
+Languages:
+  - Triaxian
+Environment: cold mountains
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  Matching the color of snow and ice, this menacing creature stands on four
+  pointed legs like those of an insect. A conical head ringed with tiny eyes and
+  sporting gnashing teeth sits atop this creature's humanoid torso.
+Source: AP 70
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adaptive Camouflage (Ex)
+    description: >-
+      A stormghost's hide shifts coloration over time to match that of its
+      environment. Choose a ranger favored terrain type. A stormghost gains a +4
+      racial bonus on Stealth checks within that terrain type. A stormghost
+      moving into a different terrain type must remain there for 1d4 weeks
+      before the racial bonus applies to the new terrain type.
+  - name: Impaling Leap (Ex)
+    description: >-
+      As a standard action, a stormghost can jump into the air and land on a
+      single target at least one size category smaller than itself, using its
+      spiky legs to impale the victim. The target must succeed at a DC 25 Reflex
+      save or it takes 4d8+12 points of piercing damage and is pinned. If the
+      stormghost chooses to maintain the pin, it must succeed at a combat
+      maneuver check as normal. Pinned foes take damage each from the impaling
+      leap each round if they don't escape. The save DC is Constitution-based.
+  - name: See in Fog (Ex)
+    description: A stormghost can see in fog and foglike conditions without penalty.
+  - name: Static Aura (Su)
+    description: >-
+      A stormghost can surround itself with crackling electricity that leaps
+      from its body, affecting nearby creatures. All creatures within 5 feet of
+      the stormghost take 2d6 points of electricity damage at the beginning of
+      the stormghost's turn.
+  - name: Static Blast (Su)
+    description: >-
+      As a standard action, a stormghost can focus its static charge into a
+      bolt, releasing it in a 40-foot line that deals 6d6 points of electricity
+      damage. A successful DC 25 Reflex save halves this damage. A stormghost
+      can use its static blast once every 1d4 rounds. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    Bestial hunters that prowl the mountains of Triaxus, stormghosts are a
+    deadly threat to all creatures that stumble across their path. Triaxians
+    attributed the name stormghost to these creatures because of their ability
+    to conjure malignant weather and attack unseen. Stormghosts typically attack
+    in remote mountainous areas, leaping down on their victims from cliff sides
+    and ambushing them in blind mountain passes. Constantly in search of food,
+    stormghosts are excellent hunters and trackers. These predators are
+    completely unafraid of engaging with any target, and thus pose a risk to the
+    humanoids of the planet- and even the dragons. As with Triaxians,
+    stormghosts' appearances vary depending on the season. Thankfully,
+    stormghosts are extremely rare, but the creatures live exceedingly long
+    lives. A stormghost's regeneration diminishes long-term degradation of its
+    body, allowing it to live for over 2,000 years. A stormghost stands nearly 8
+    feet tall in its regular posture, but can extend its legs to reach up to 14
+    feet. Formed of muscled flesh and hardened chitin, a stormghost weighs
+    roughly 1,500 pounds.
+  - Ecology
+  - >-
+    Stormghosts are apex predators in Triaxus's hills and mountains; a few even
+    make their way to the lowlands. A stormghost is ephemeral like a phantom,
+    and its coloration and ability to become invisible give rise to part of its
+    common name, as victims are typically unaware of the creature's presence
+    until it is far too late. It can also call down storms and banks of fog-the
+    source of the other part of its common name-and can even conjure darkness.
+    Stormghosts themselves, however, can see through fog and darkness, and
+    possess other specialized senses. While the creatures have no recognizable
+    nose, they are capable of tracking their prey by scent using a specialized
+    sensory organ found on the lower part of their torsos. This organ picks up
+    faint chemical signatures with such accuracy that a stormghost can
+    differentiate between two creatures of the same type and recall with perfect
+    detail an individual creature's signature for years after first encountering
+    it.
+  - >-
+    As with all successful hunters, stormghosts' senses and tenacity make them
+    difficult to evade. These traits, in addition to their superior stamina,
+    help stormghosts doggedly hunt down prey that initially escapes their
+    clutches. Exceptionally single-minded, stormghosts live to hunt and hate
+    losing their quarry, and they persistently pursue their fleeing prey,
+    foregoing sleep and ignoring other victims that might be easier to take
+    down-even if they're ravenous-in order to make their desired kill.
+  - >-
+    Stormghosts undergo a change during Triaxus's transitional seasons, shifting
+    their coloration to match their environment. In the winter, stormghosts have
+    an icy white hide that allows them to better conceal themselves in the snow.
+    As summer comes and the planet begins to thaw, stormghosts' hides darken and
+    a splotched coloration of grays and browns emerges. This coloration allows
+    them to hide themselves in the mountainous terrain in which they live.
+  - Habitat & Society
+  - >-
+    Stormghosts are solitary creatures that despise sharing their hunting
+    grounds with other creatures, especially other stormghosts. When another
+    predator begins hunting in the same region as a stormghost, the stormghost
+    shifts its predation to that creature, tracking it down and consuming it.
+    The exception to this is when another stormghost trespasses upon its hunting
+    grounds. While the stormghost still tracks down and kills its competition as
+    it would another creature, it does not consume the rival stormghost, finding
+    the flesh of its own kind completely unpalatable, and instead
+    ritualistically butchers its competitor and leaves the corpse as a sign that
+    this territory is already claimed.
+  - >-
+    Stormghosts are exceedingly rare; fewer than 1,000 have been spotted,
+    according to records kept by dragonriders of the Skyfire Mandate. Many of
+    these sightings, made safely from the back of a dragonkin, are believed to
+    be of the same stormghost, leading many scholars to estimate that the
+  - >-
+    population might be much smaller, with a few at most living in the Parapet
+    Mountains. A naturalist in Preita recently published a journal detailing his
+    journey in search for evidence of a stormghost, as tales of these and other
+    vicious beasts are fashionable in the cosmopolitan cities of the Allied
+    Territories. In this journal, he postulates that stormghosts are aliens from
+    another world in the solar system, or perhaps beyond. Their long lives,
+    regenerative capabilities, robust physical form, yet low population numbers
+    suggest this hypothesis is plausible.
+  - >-
+    Although this researcher clearly lacks a greater understanding of worlds
+    beyond Triaxus, his findings on the otherworldly origins of stormghosts are
+    indeed quite accurate. On a planet in a nearby solar system, stormghosts
+    were grown in facilities to be biological probes deployed on specific
+    planets for 2,000 years before they would be retrieved. During their time on
+    those worlds, they are tasked, compelled by their very genesis and the urge
+    of every cell, to kill and consume organic life. Over the course of their
+    lives, a gland within their torsos at the base of the neck collects samples
+    of every kill. These samples can be collected by the stormghost's creators
+    and analyzed. What they are searching for is anyone's guess, but the number
+    of stormghosts on Triaxus suggests these unknown creators seek a
+    comprehensive collection of dragons and dragonkind.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4396'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

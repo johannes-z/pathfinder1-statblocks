@@ -1,0 +1,129 @@
+Name: Aspis Consortium Commander
+CR: '13'
+XP: '25600'
+Race: human
+Class: rogue 9/aspis agent 4
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception +15
+AC: 21, touch 16, flat-footed 16
+AC_Mods: (+5 armor, +1 deflection, +5 Dex)
+HP: '110'
+HD: (13d8+48)
+Saves: Fort +8, Ref +15, Will +7
+Fort: '8'
+Ref: '15'
+Will: '7'
+DefensiveAbilities: evasion, improved uncanny dodge, trap sense +5
+Speed: 30 ft.
+Melee:
+  - +1 rapier +15/+10 (1d6+1/18-20), mwk whip  +16/+11 (1d3 nonlethal)
+Ranged:
+  - mwk light crossbow +15 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +6d6
+SpellLikeAbilities:
+  header: Rogue Spell-Like Abilities (CL 9th, concentration +10)
+  values:
+    - label: 3/day
+      value: detect magic
+AbilityScores:
+  - 10
+  - 20
+  - 14
+  - 13
+  - 8
+  - 14
+BaseAtk: '9'
+CMB: +9 (+13 disarm)
+CMD: 25 (27 vs. disarm)
+Feats:
+  - Combat Expertise
+  - Dazzling Display
+  - Exotic Weapon Proficiency (whip)
+  - Greater Disarm
+  - Improved Disarm
+  - Iron Will
+  - Skill Focus (Intimidate)
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (whip)
+Skills:
+  - Acrobatics +21
+  - Appraise +14
+  - Bluff +15
+  - Climb +10
+  - Craft (traps) +10
+  - Diplomacy +11
+  - Disable Device +21
+  - Intimidate +24
+  - Knowledge (arcana) +5
+  - Knowledge (history) +12
+  - Knowledge (local) +5
+  - Perception +15
+  - Sense Motive +7
+  - Sleight of Hand +11
+  - Stealth +13
+Languages:
+  - Common
+  - Polyglot
+SQ: >-
+  agency secrets (bonus feat, shrunken smuggle), ambush trap, mask alignment,
+  rogue talents (finesse rogue, minor magic, quick disable, trap spotter),
+  trapfinding +6
+Source: Inner Sea NPC Codex
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ambush Trap (Ex)
+    description: >-
+      The Aspis Consortium commander can specially rig a mechanical trap he has
+      either crafted or bypassed by exceeding its Disable Device DC by 10. This
+      trap can then be triggered by the Aspis Consortium commander as a move
+      action as long as he is adjacent to the trap. He adds his trap sense bonus
+      (+5) to the trap's Perception DC and the trap's attack rolls, and adds his
+      sneak attack damage (+6d6) to the trap's damage if the target is
+      flat-footed or otherwise denied its Dexterity bonus to AC.
+  - name: Mask Alignment (Su)
+    description: >-
+      As a standard action, the Aspis Consortium commander can alter his
+      alignment aura to deceive effects that detect alignment. He may choose to
+      be detected as any specific alignment of his choice or as no alignment.
+      This affects only alignment detection, not effects that cause harm or that
+      are otherwise based on alignment. This effect lasts until the Aspis
+      Consortium commander dismisses it or until he changes his alignment aura
+      again.
+  - name: Shrunken Smuggle (Sp)
+    description: >-
+      The Aspis Consortium commander can use shrink item once per day as a
+      4th-level caster. While an item is shrunk in this way, it is also affected
+      as nondetection. This effect ends when the item returns to its proper
+      size.
+Gear: >-
+  feather token (whip), potion of barkskin +3, potion of cure serious wounds,
+  potion of fly
+OtherGear: >-
+  +1 mithral chain shirt, +1 rapier, mwk light crossbow with 20 bolts, mwk whip,
+  belt of incredible dexterity +2, cloak of resistance +2, figurine of wondrous
+  power (silver raven), handy haversack, ring of feather falling, ring of
+  protection +1, everburning torch, sunrods (2), mwk thieves' tools, silver
+  Aspis Consortium badge (worth 25 gp), pearls (4, worth 100 gp each), 553 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5453'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

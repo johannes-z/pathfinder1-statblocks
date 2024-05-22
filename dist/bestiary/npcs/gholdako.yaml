@@ -1,0 +1,92 @@
+Name: Gholdako
+CR: '10'
+XP: '9600'
+Race: Gholdako
+MonsterSource: 'Pathfinder Campaign Setting: Isles of the Shackles 49'
+Alignment: NE
+Size: Large
+Type: undead
+SubType: (giant)
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +19
+AC: 25, touch 9, flat-footed 25
+AC_Mods: (+4 armor, +12 natural, -1 size)
+HP: '127'
+HD: (15d8+60)
+Saves: Fort +9, Ref +5, Will +10
+Fort: '9'
+Ref: '5'
+Will: '10'
+DefensiveAbilities: channel resistance +3
+DR: 5/good
+Immune: undead traits
+Resist: cold 10, fire 10
+Speed: 30 ft.
+Melee:
+  - bite +17 (1d8+7), 2 claws +18 (2d8+7/19-20 plus disease)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: blinding breath
+AbilityScores:
+  - 25
+  - 10
+  - —
+  - 10
+  - 13
+  - 19
+BaseAtk: '11'
+CMB: +19 (+21 bull rush)
+CMD: 29 (31 vs. bull rush)
+Feats:
+  - Awesome Blow
+  - Cleave
+  - Critical Focus
+  - Great Cleave
+  - Improved Bull Rush
+  - Improved Critical (claws)
+  - Power Attack
+  - Weapon Focus (claws)
+Skills:
+  - Intimidate +22
+  - Knowledge (history) +8
+  - Perception +19
+  - Sense Motive +11
+  - Stealth +11
+Languages:
+  - Cyclops
+Source: AP 58
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blinding Breath (Su)
+    description: >-
+      Once every 1d4 rounds, a gholdako can exhale its noxious breath in a
+      20-foot cone, permanently blinding any creatures in the affected area
+      unless they succeed at a DC 21 Fortitude save. The save DC is
+      Charisma-based.
+  - name: Disease (Ex)
+    description: >-
+      Seaside Rot: Claw-injury; save Fort DC 21; onset 1 minute; frequency
+      1/day; effect 1d4 Str damage and 1d4 Dex damage; cure 2 consecutive saves.
+DuringCombat: >-
+  The gholdakos use their blinding breath to blind opponents, then make Awesome
+  Blows or bull rush attacks to push foes into the Eye's slow effect and make it
+  easier for them to slay intruders.
+Morale: The gholdakos fight until destroyed.
+Gear: hide armor
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3130'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

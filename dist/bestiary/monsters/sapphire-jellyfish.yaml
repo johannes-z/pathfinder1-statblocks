@@ -1,0 +1,87 @@
+Name: Sapphire Jellyfish
+CR: '11'
+XP: '12800'
+Alignment: 'N'
+Size: Huge
+Type: vermin
+SubType: (aquatic)
+Init: '4'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft.
+  - Perception +1
+AC: 24, touch 12, flat-footed 20
+AC_Mods: (+4 Dex, +12 natural, -2 size)
+HP: '138'
+HD: (12d8+84)
+Saves: Fort +15, Ref +8, Will +5
+Fort: '15'
+Ref: '8'
+Will: '5'
+DefensiveAbilities: amorphous,
+DR: 10/piercing or slashing
+Immune: electricity, mind-affecting effects
+Speed: swim 30 ft.
+Melee:
+  - 4 tentacles +15 (1d8+8 plus poison)
+Space: 15 ft.
+Reach: 20 ft.
+SpecialAttacks: electricity blast
+AbilityScores:
+  - 26
+  - 19
+  - 24
+  - —
+  - 12
+  - 1
+BaseAtk: '9'
+CMB: '19'
+CMD: 33 (can't be tripped)
+Skills:
+  - Swim +16
+SQ: compression
+Environment: warm or temperate oceans
+Organization: solitary, pack (2-3), or bloom (4-7)
+Treasure: none
+Description_Visual: >-
+  This tremendous, translucent jellyfish glows with blue internal light, and the
+  water around its bell vibrates with an electrical charge.
+Group: Jellyfish
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Electricity Blast (Ex)
+    description: >-
+      Once every 1d6 rounds as a standard action, a sapphire jellyfish can
+      discharge a 20-foot-radius blast of electricity, dealing 8d6 points of
+      electricity damage (DC 23 Reflex half). Any creature that takes damage
+      from this electricity must also make a DC 23 Fortitude save or be
+      staggered for 1d4 rounds. The save DC is Constitution-based
+  - name: Poison (Ex)
+    description: >-
+      Tentacle-injury; save Fort DC 23; frequency 1/round for 6 rounds; effect
+      1d4 Dex and 1d4 Con; cure 2 consecutive saves. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    Like other giant jellyfish, a sapphire jellyfish is an active hunter. It
+    stores powerful electrical charges in its domelike bell, which is 16 feet in
+    diameter. Its sensory tentacles can trail for twice that length, but the
+    dangerous toxic tentacles are positioned within about 20 feet of the
+    creature's bell.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '2104'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,144 @@
+Name: Glower
+CR: '8'
+XP: '4800'
+Race: human
+Class: inquisitor of Norgorber 4/rogue 2/Gray Gardener 3
+MonsterSource: >-
+  Pathfinder RPG Advanced Player's Guide 38, Pathfinder Campaign Setting: Paths
+  of Prestige 24
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +11
+AC: 20, touch 11, flat-footed 20
+AC_Mods: (+7 armor, +2 deflection, -1 Dex, +2 shield)
+HP: '66'
+HD: (9d8+22)
+Saves: Fort +8, Ref +4, Will +11
+Fort: '8'
+Ref: '4'
+Will: '11'
+DefensiveAbilities: evasion
+Speed: 30 ft.
+Melee:
+  - +1 jurist short sword +11/+6 (1d6+4/19-20)
+Ranged:
+  - composite longbow +5/+0 (1d8+3/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bane (7 rounds/day), judgment 3/day (2 simultaneous), sneak attack +2d6
+SpellLikeAbilities:
+  header: Inquisitor Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: At Will
+      value: detect alignment
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 2nd (4/day)
+      value: >-
+        confessAPG (DC 15), death knell (DC 15), hold person (DC 15), spiritual
+        weapon
+    - label: 1st (5/day)
+      value: cure light wounds, expeditious retreat, shield of faith, true strike
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 13), brandAPG (DC 13), daze (DC 13), detect magic, light,
+        siftAPG
+SpellDomains: Conversion inquisitionUM
+AbilityScores:
+  - 16
+  - 8
+  - 14
+  - 12
+  - 16
+  - 10
+BaseAtk: '6'
+CMB: '9'
+CMD: '18'
+Feats:
+  - Blind-Fight
+  - Combat Casting
+  - Combat Reflexes
+  - Improved Iron Will
+  - Iron Will
+  - Lookout
+  - Weapon Finesse
+  - Weapon Focus (short sword)
+Skills:
+  - Acrobatics +10
+  - Bluff +11 (+14 to conceal her identity)
+  - Climb +7
+  - Diplomacy +11
+  - Disable Device +4
+  - Disguise +8 (+11 to conceal her identity)
+  - Intimidate +14
+  - Knowledge (local) +9
+  - Perception +11
+  - Ride +4
+  - Sense Motive +18
+  - Spellcraft +9
+  - Stealth +10
+  - Survival +11
+  - Swim +7
+Languages:
+  - Common
+  - Elven
+SQ: >-
+  monster lore +3, rogue talent (finesse rogue), solo tactics, stern gaze +3,
+  track +2, trapfinding +1
+Source: AP 111
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Anonymity (Ex)
+    description: >-
+      Glower receives a morale bonus equal to her Gray Gardener class level on
+      Bluff and Disguise checks to conceal her identity.
+  - name: Dramatic Interrogation (Ex)
+    description: >-
+      If Glower threatens a helpless creature, she gains a +5 competence bonus
+      on Diplomacy, Intimidate, and Perform checks to influence creatures that
+      have a starting attitude of hostile, unfriendly, friendly, or helpful
+      toward the helpless creature, including the helpless creature itself.
+  - name: Harsh Judgment (Su)
+    description: >-
+      Glower can pronounce judgment on her enemies. This ability functions like
+      the inquisitor judgment ability, except Glower can choose only the
+      destruction, piercing, purity, and smiting judgments. For the purpose of
+      determining the bonuses provided by these judgments, Glower's inquisitor
+      levels and Gray Gardener levels stack.
+Gender: Female
+BeforeCombat: >-
+  Knowing that an interrogation can go bad quickly, Glower casts shield of faith
+  before approaching the PCs.
+DuringCombat: >-
+  Glower targets the weakest-looking opponent with her bane ability and
+  judgments, then casts death knell once that opponent falls. She attempts to
+  incapacitate strong enemies with hold person.
+Morale: Emboldened by her authority, Glower does not retreat and fights to the death.
+Gear: potion of fly, wand of cure light wounds (14 charges), tanglefoot bags (2)
+OtherGear: >-
+  +1 mithral breastplate, +1 light steel shield, +1 juristUE short sword,
+  composite longbow (+3 Str) with 20 arrows, silver unholy symbol of Norgorber,
+  spell component pouch, thieves' tools, 20 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without shield of faith, Glower's statistics are as follows: AC 18, touch 9,
+  flat-footed 18.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8756'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

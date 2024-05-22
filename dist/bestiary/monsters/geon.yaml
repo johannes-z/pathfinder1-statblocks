@@ -1,0 +1,123 @@
+Name: Geon
+CR: '9'
+XP: '6400'
+Alignment: 'N'
+Size: Large
+Type: outsider
+SubType: (earth, elemental, extraplanar)
+Init: '-1'
+Senses:
+  - darkvison 60ft.
+  - Perception +12
+AC: 22, touch 8, flat-footed 22
+AC_Mods: (-1 Dex, +14 natural, -1 size)
+HP: '92'
+HD: (8d10+48)
+Saves: Fort +12, Ref +1, Will +7
+Fort: '12'
+Ref: '1'
+Will: '7'
+DR: 5/-
+Immune: elemental traits
+Resist: fire 5
+SR: '20'
+Speed: 20 ft.
+Melee:
+  - 2 slams +15 (2d8+7)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: animate boulders
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th)
+  values:
+    - label: At will
+      value: stone shape
+    - label: 1/day
+      value: >-
+        move earth, passwall, transmute rock to mud (DC 16), wall of stone (DC
+        16)
+AbilityScores:
+  - 25
+  - 9
+  - 22
+  - 10
+  - 12
+  - 13
+BaseAtk: '8'
+CMB: +16 (+20 bull rush)
+CMD: 25 (29 vs. bull rush)
+Feats:
+  - Greater Bull Rush
+  - Improved Bull Rush
+  - Power Attack
+  - Weapon Focus (slam)
+Skills:
+  - Appraise +11
+  - Knowledge (planes) +11
+  - Climb +17
+  - Perception +12
+  - Stealth +8 (+14 in stony environs)
+  - Survival +12
+RacialMods: +2 Stealth (+8 in stony environs)
+Languages:
+  - Common
+  - Terran
+SQ: freeze
+Environment: Elemental Plane of Earth
+Organization: solitary, gang (2-5), or colony (5-8)
+Treasure: standard
+Description_Visual: >-
+  An immense boulder-like creature emerges from the earth. It props itself upon
+  two large legs and feet, which also seem to serve as the creatures hands. Two
+  large recesses on its surface function as eyes and its moth stretches wide.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Animate Boulders (Sp)
+    description: >-
+      A geon can animate rocks within 180 feet at will, controlling up to two
+      rocks at a time. Boulders move at a speed of 10 feet and fight as a geon
+      in all respects. Animated boulders lose their ability to move if the geon
+      that animated them is incapacitated or moves out of range. The ability is
+      otherwise similar to liveoak (caster level 15th), but affects rocks rather
+      than trees. Animated boulders have the same vulnerability to cold that a
+      geon has.
+Description:
+  - >-
+    Geons are natives of the Elemental Plane of Earth. They are sometimes
+    summoned by powerful spellcasters to do their bidding, usually acting as
+    protectors or guardians. Some, however, find their way to the Material Plane
+    on their own when a portal between the two planes opens. On the Material
+    Plane, geons are found in mountains, barren hills, and other rocky
+    environments.
+  - >-
+    Most geons have been given a task by an earth god and live to faithfully
+    carry out that task.
+  - >-
+    A geon's voice is low and rumbling, sounding like stones grinding together
+    whenever the creature speaks.
+  - >-
+    Geons shun combat if possible, using their special abilities to hide in the
+    surrounding earth. If the geon has a task and that task is threatened, the
+    guardian does not hesitate to enter combat or use its abilities to animate
+    boulders to attack its foes and create walls of stone to contain them.
+  - Copyright Notice Authors Scott Greene and Clark Peterson.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2626'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,139 @@
+Name: Diabolical Charmer
+CR: '14'
+XP: '38400'
+Race: human
+Class: sorcerer 15
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +12
+AC: 21, touch 15, flat-footed 18
+AC_Mods: >-
+  (+4 armor, +2 deflection, +2 Dex, +1 dodge, +2 natural)(+2 deflection vs.
+  good)
+HP: '85'
+HD: (15d6+30)
+Saves: Fort +7, Ref +11, Will +15; +4 vs. poison
+Fort: '7'
+Ref: '11'
+Will: '15'
+Save_Mods: +4 vs. poison
+DR: 10/adamantine (150 points)
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - mwk quarterstaff +7/+2 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 15th; concentration +21)
+  values:
+    - label: 9/day
+      value: corrupting touch (7 rounds)
+    - label: 1/day
+      value: hellfire (15d6 fire, DC 23)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 15th; concentration +21)
+  values:
+    - label: 7th (4/day)
+      value: delayed blast fireball (DC 24), greater teleport, summon monster VII
+    - label: 6th (7/day)
+      value: >-
+        disintegrate (DC 22), globe of invulnerability, mass suggestion (DC 22),
+        planar binding (devils/fiendish creatures only, DC 22)
+    - label: 5th (7/day)
+      value: >-
+        cone of cold (DC 22), dismissal (DC 21), dominate person (DC 21),
+        polymorph, wall of force
+    - label: 4th (7/day)
+      value: >-
+        black tentacles, charm monster (DC 22), dimension door, stoneskin, wall
+        of fire
+    - label: 3rd (7/day)
+      value: >-
+        dispel magic, fireball (DC 20), hold person (DC 19), suggestion (DC 19),
+        vampiric touch
+    - label: 2nd (8/day)
+      value: >-
+        acid arrow, darkness, false life, invisibility, scorching ray, web (DC
+        18)
+    - label: 1st (8/day)
+      value: >-
+        burning hands (DC 18), charm person (DC 19), magic missile, protection
+        from good, shield, true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 16), daze (DC 16), detect magic, open/close,
+        prestidigitation, ray of frost, read magic, touch of fatigue (DC 16)
+AbilityScores:
+  - 8
+  - 14
+  - 10
+  - 12
+  - 14
+  - 23
+BaseAtk: '7'
+CMB: '6'
+CMD: '21'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Extend Spell
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Lightning Reflexes
+  - Persuasive
+  - Quicken Spell
+  - Spell Focus (evocation)
+  - Spell Penetration
+Skills:
+  - Bluff +19
+  - Diplomacy +23
+  - Fly +10
+  - Intimidate +23
+  - Knowledge (arcana) +9
+  - Knowledge (planes) +6
+  - Perception +12
+  - Spellcraft +9
+Languages:
+  - Common
+  - Infernal
+SQ: bloodline arcana (+2 DC for charm spells), infernal resistances, on dark wings
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: infernal
+BeforeCombat: The sorcerer casts false life and stoneskin, and uses her wand of mage armor.
+DuringCombat: >-
+  The sorcerer uses hellfire on the first round of combat, then uses controlling
+  spells like dominate person, or damaging attacks such as black tentacles or
+  cone of cold.
+Gear: >-
+  potions of cure serious wounds (2), scrolls of invisibility (2), scroll of
+  nondetection, wand of mage armor (20 charges)
+OtherGear: >-
+  masterwork quarterstaff, amulet of natural armor +2, cloak of resistance +2,
+  headband of alluring charisma +4, ring of counterspells, ring of protection
+  +2, diamond dust (worth 500 gp), 1,675 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without false life, mage armor, and stoneskin, the sorcerer's statistics are
+  AC 17, touch 15, flat-footed 14; hp 70; DR none.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3816'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

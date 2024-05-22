@@ -1,0 +1,103 @@
+Name: Speaker For The Deep
+CR: '13'
+XP: '25600'
+Race: chuul
+MonsterSource: Pathfinder RPG Bestiary 46
+Alignment: CE
+Size: Large
+Type: undead
+SubType: (aquatic, augmented aberration)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +28
+AC: 24, touch 12, flat-footed 21
+AC_Mods: (+3 Dex, +12 natural, -1 size)
+HP: '189'
+HD: (18d8+108)
+HP_Mods: fast healing 5
+Saves: Fort +11, Ref +9, Will +14; +4 vs. mind-affecting effects
+Fort: '11'
+Ref: '9'
+Will: '14'
+Save_Mods: +4 vs. mind-affecting effects
+DefensiveAbilities: channel resistance +4
+DR: 5/ bludgeoning or slashing
+Immune: poison
+Resist: cold 10, electricity 10
+Weaknesses: transformed
+Speed: 30 ft., climb 30 ft., swim 20 ft.
+Melee:
+  - >-
+    2 claws +22 (2d6+9 plus grab and seedborne consumption), 2 tendrils +16
+    (1d8+4 plus grab and seedborne consumption)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with tendrils)
+SpecialAttacks: >-
+  constrict (2d6+9), death burst, entrapping tendrils, insidious mind, paralytic
+  tentacles, seedborne consumption (DC 24)
+AbilityScores:
+  - 29
+  - 16
+  - —
+  - 10
+  - 16
+  - 21
+BaseAtk: '13'
+CMB: +23 (+27 grapple)
+CMD: 36 (40 vs. trip)
+Feats:
+  - Alertness
+  - Blind-Fight
+  - Combat Reflexes
+  - Improved Initiative
+  - Improved Vital Strike
+  - Skill Focus (Stealth)
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (claw)
+Skills:
+  - Climb +17
+  - Intimidate +16
+  - Knowledge (nature) +8
+  - Perception +28
+  - Sense Motive +17
+  - Stealth +26
+  - Swim +30
+Languages:
+  - Common
+  - telepathy 100 ft. (seeded creatures only)
+SQ: amphibious, seer of the Star Seed
+Source: AP 113
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Seer of the Star Seed (Ex)
+    description: >-
+      The Speaker for the Deep has a +10 racial bonus to its Charisma,
+      representing ages of unquestioned authority and self-delusion.
+BeforeCombat: >-
+  The Speaker for the Deep remains hidden below the surface of the water until
+  prey comes within its reach or until one of its fungoid sirens is slain.
+DuringCombat: >-
+  Intent on providing its master with new minds with which to grow stronger, the
+  Speaker endeavors to grapple and infest its foes rather than destroy them
+  outright.
+Morale: >-
+  Confident that it serves Xhamen-Dor's will and wanting to make its master
+  happy, the Speaker for the Deep fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|seeded|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '9088'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,152 @@
+Name: Slavish
+CR: '20'
+XP: '307200'
+Race: human
+Class: sorcerer 19
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +32
+Aura: fear aura (60 ft., DC 29)
+AC: 34, touch 18, flat-footed 30
+AC_Mods: (+4 armor, +4 deflection, +4 Dex, +8 natural, +4 shield)
+HP: '240'
+HD: (19d6+152 plus 19)
+Saves: Fort +14, Ref +12, Will +15
+Fort: '14'
+Ref: '12'
+Will: '15'
+DefensiveAbilities: +4 vs. poison, channel resistance +4, moment of prescience, rejuvenation
+DR: 15/bludgeoning and magic
+Immune: cold, electricity, undead traits
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - touch +13/+8 (1d8+9 plus paralyzing touch)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: paralyzing touch (DC 27)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 19th; melee touch +13)
+  values:
+    - label: 11/day
+      value: corrupting touch (9 rounds)
+    - label: 2/day
+      value: hellfire (19d6 fire, DC 27)
+SpellsKnown:
+  header: Spells Known (CL 19th; melee touch +13, ranged touch +13)
+  values:
+    - label: 9th (4/day)
+      value: dominate monster (DC 27), meteor swarm (DC 27), time stop
+    - label: 8th (7/day)
+      value: moment of prescience*, polar ray, power word stun, sunburst (DC 26)
+    - label: 7th (7/day)
+      value: >-
+        greater teleport, prismatic spray (DC 25), sequester (DC 25), spell
+        turning
+    - label: 6th (7/day)
+      value: >-
+        chain lightning (DC 24), flesh to stone (DC 24), planar binding
+        (devils/fiendish only), summon monster VI
+    - label: 5th (7/day)
+      value: >-
+        baleful polymorph (DC 23), dominate person (DC 23), feeblemind (DC 23),
+        mind fog (DC 23), summon monster V
+    - label: 4th (8/day)
+      value: >-
+        charm monster (DC 22), enervation, lesser globe of invulnerability,
+        phantasmal killer, stone shape
+    - label: 3rd (8/day)
+      value: fireball (DC 21), fly, haste, hold person (DC 21), suggestion (DC 21)
+    - label: 2nd (8/day)
+      value: >-
+        acid arrow, detect thoughts, fog cloud, resist energy, scorching ray,
+        touch of idiocy
+    - label: 1st (8/day)
+      value: >-
+        alarm, mage armor*, magic missile, protection from good, ray of
+        enfeeblement, shield*
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights (DC 18), detect magic, ghost sound (DC 18),
+        light, mage hand, message, read magic, touch of fatigue *Already cast
+AbilityScores:
+  - 10
+  - 18
+  - —
+  - 15
+  - 14
+  - 27
+BaseAtk: '9'
+CMB: '9'
+CMD: '27'
+Feats:
+  - Ability Focus (fear aura)
+  - Combat Casting
+  - Craft Staff
+  - Craft Wand
+  - Craft Wondrous Item
+  - Eschew MaterialsB
+  - Extend SpellB
+  - Improved Initiative
+  - Iron WillB
+  - Lightning Reflexes
+  - Quicken Spell
+  - Skill Focus (Perception)
+  - Spell PenetrationB
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Bluff +21
+  - Diplomacy +21
+  - Fly +17
+  - Intimidate +21
+  - Knowledge (arcana) +24
+  - Perception +32
+  - Sense Motive +10
+  - Spellcraft +24
+  - Stealth +22
+  - Use Magic Device +27
+RacialMods: +8 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Common
+  - Elven
+  - Infernal
+SQ: bloodline arcana, infernal resistances, on dark wings
+Source: Rappan Athuk-Level 10A
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Rejuvenation (Su)
+    description: >-
+      When Slavish is destroyed, his phylactery (see below) immediately begins
+      to rebuild his body nearby. This process takes 1d10 days - if the body is
+      destroyed before that time passes, the phylactery merely starts the
+      process anew. After this time passes, Slavish wakens fully healed (albeit
+      without any gear it left behind on its old body), with a burning need for
+      revenge against those who previously destroyed it.
+Gender: Male
+Bloodline: Infernal
+Gear: staff of harming (10 charges)
+OtherGear: >-
+  ring of protection +4, amulet of natural armor +3, belt of incredible
+  dexterity +4, headband of alluring charisma +6
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: lich|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12211'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

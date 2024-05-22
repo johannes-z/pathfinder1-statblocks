@@ -21,6 +21,10 @@ async function extractStatblocks(filename: string, destination: string) {
 
   const monsters = tsv2JSON(text).reduce((monsters: { [key: string]: Monster }, monster: MonsterRaw) => {
     delete monster.FullText
+    for (const key in monster) {
+      if (!monster[key])
+        delete monster[key]
+    }
     monster.AbilityScores = monster.AbilityScores
       ?.split(/,\s+/g)
       .map((ability: string) => {
@@ -66,9 +70,9 @@ async function extractStatblocks(filename: string, destination: string) {
 
 await extractStatblocks(
   './assets/monster_bestiary_full.tsv',
-  './public/bestiary/monsters',
+  './dist/bestiary/monsters',
 )
 await extractStatblocks(
   './assets/npcs.tsv',
-  './public/bestiary/npcs',
+  './dist/bestiary/npcs',
 )

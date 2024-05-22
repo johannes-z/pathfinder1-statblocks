@@ -1,0 +1,145 @@
+Name: Yosiduin
+CR: '10'
+XP: '9600'
+Race: elf
+Class: antipaladin (seal-breaker) 11
+MonsterSource: >-
+  Pathfinder RPG Advanced Player's Guide 118, Pathfinder Campaign Setting: Inner
+  Sea Combat 43
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '0'
+Senses:
+  - low-light vision
+  - Perception +13
+Aura: death (10 ft.), grave (10 ft., DC 19), rebirth (10 ft.)
+AC: 23, touch 11, flat-footed 23
+AC_Mods: (+12 armor, +1 deflection)
+HP: '120'
+HD: (11d10+55)
+Saves: Fort +16, Ref +9, Will +13; +2 vs. enchantments
+Fort: '16'
+Ref: '9'
+Will: '13'
+Save_Mods: +2 vs. enchantments
+Immune: disease, sleep
+Speed: 30 ft. (20 ft. in armor)
+Melee:
+  - +1 grayflame spell-storing warhammer +17/+17/+12/+7 (1d8+7/x3)
+Ranged:
+  - mwk dagger +12 (1d4+4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy (DC 19, 6d6), smite good 4/day (+4 attack and AC, +11
+  damage)
+SpellLikeAbilities:
+  header: Antipaladin Spell-Like Abilities (CL 11th; concentration +15)
+  values:
+    - label: At Will
+      value: detect good
+SpellsPrepared: >-
+  Antipaladin Spells Prepared (CL 8th; concentration +12)  3rd-vampiric touch 
+  2nd-eagle's splendor, silence (DC 16)  1st-death knell (DC 15), inflict light
+  wounds (DC 15), protection from law
+AbilityScores:
+  - 18
+  - 10
+  - 16
+  - 14
+  - 10
+  - 18
+BaseAtk: '11'
+CMB: '15'
+CMD: '26'
+Feats:
+  - Dazzling Display
+  - Dreadful Carnage
+  - Furious Focus
+  - Power Attack
+  - Toughness
+  - Weapon Focus (warhammer)
+Skills:
+  - Bluff +18
+  - Craft (taxidermy) +9
+  - Intimidate +18
+  - Perception +13
+  - Sense Motive +7
+  - Stealth +1
+RacialMods: +2 Perception, +2 Spellcraft to identify magic item properties
+Languages:
+  - Celestial
+  - Common
+  - Elven
+  - Gnome
+SQ: >-
+  corpse rider (weapon +3, 2/day), cruelties (diseased, sickened, staggered),
+  elven magic, touch of corruption 9/day (5d6)
+Source: AP 141
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Death (Su)
+    description: >-
+      A seal-breaker radiates an aura that causes undead creatures within 10
+      feet to gain a +2 profane bonus on all saving throws.
+  - name: Aura of the Grave (Su)
+    description: >-
+      A seal-breaker is constantly surrounded by the chill of death. Mindless
+      undead within 10 feet of the seal-breaker don't attack him unless directly
+      ordered to, and even then only after succeeding at a DC 19 Will save. The
+      save DC is Charisma-based.
+  - name: Aura of Rebirth (Su)
+    description: >-
+      If a living creature is slain within 10 feet of a seal-breaker, at the
+      start of his next turn the seal-breaker can spend two uses of his smite
+      good ability as a standard action to summon the spirit of a dead murderer
+      to reanimate the corpse as a mohrg. The mohrg immediately rises and
+      attacks the seal-breaker's foes, acting under the antipaladin's command.
+      After 1 minute, the mohrg's soul leaves the body, which collapses, again
+      lifeless.
+  - name: Corpse Rider (Su)
+    description: >-
+      This ability functions as the weapon bond of an antipaladin's fiendish
+      boon ability.
+Gender: Male
+BeforeCombat: >-
+  Yosiduin uses his corpse rider ability to grant his warhammer the speed
+  special ability. He casts eagle's splendor on himself and drinks his potion of
+  bear's endurance. His warhammer contains the vampiric touch spell.
+DuringCombat: >-
+  Yosiduin prefers to face good foes in melee, smiting them before making full
+  attacks. He keeps two uses of his smite good in reserve, however, as he enjoys
+  animating fallen enemies as mohrgs with his aura of rebirth.
+Morale: >-
+  As he knows that Vigil is doomed, Yosiduin fights fanatically and meets his
+  death with satisfaction.
+Gear: potion of bear's endurance, potions of cure serious wounds (3)
+OtherGear: >-
+  +3 full plate, +1 grayflameUE spell-storing warhammer, mwk daggers (3), belt
+  of giant strength +2, cloak of resistance +2, ring of protection +1, silver
+  unholy symbol in the shape of a skull, wooden holy symbol in the shape of an
+  upright rapier on a red field (to bypass the constructs in areas G2 and G13),
+  keys to all doors in the Redoubt of the Red Crusader
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his preparations, Yosiduin's statistics are hp 98; Fort +12, Ref +7,
+  Will +11; Melee +1 grayflame spell-storing warhammer +17/+12/+7 (1d8+7/x3);
+  Con 12,  Cha 14; Bluff +16, Intimidate +16. In addition, the DCs of his spells
+  and auras and the attack bonus from smite good all decrease by 2.
+AgeCategory: Adult
+ClassArchetypes: seal-breaker
+CompanionFamiliarLink: '0'
+id: '12416'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

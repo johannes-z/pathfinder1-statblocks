@@ -1,0 +1,96 @@
+Name: Mandragloire
+CR: '13'
+XP: '25600'
+Race: mandragora
+MonsterSource: Pathfinder RPG Bestiary 171, Pathfinder RPG Bestiary 2 185
+Alignment: CE
+Size: Small
+Type: outsider
+SubType: (plant)
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +23
+AC: 31, touch 16, flat-footed 26
+AC_Mods: (+5 Dex, +15 natural, +1 size)
+HP: '126'
+HD: (11d8+77)
+Saves: Fort +13, Ref +10, Will +6
+Fort: '13'
+Ref: '10'
+Will: '6'
+DR: 5/magic
+Immune: plant traits
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '24'
+Weaknesses: vulnerable to supernatural darkness
+Speed: 40 ft., burrow 10 ft., climb 40 ft., fly 80 ft. (good)
+Melee:
+  - bite +15 (1d6+4 plus grab), 2 slams +14 (1d4+4 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: blood drain (1d2 con), poison, shriek, smite good
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +6)
+  values:
+    - label: 3/day
+      value: darkness, quickened poison (DC 17)
+    - label: 1/day
+      value: blasphemy (DC 20), contagion (DC 16), desecrate, unholy blight (DC 17)
+AbilityScores:
+  - 19
+  - 20
+  - 22
+  - 10
+  - 17
+  - 12
+BaseAtk: '8'
+CMB: +11 (+15 grapple)
+CMD: '26'
+Feats:
+  - Lightning Reflexes
+  - Quicken Spell-Like Ability (poison)
+  - Skill Focus (Perception)
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +5 (+9 to jump)
+  - Climb +23
+  - Fly +25
+  - Perception +23
+  - Stealth +23 (+31 in vegetation)
+  - Survival +14
+  - Swim +15
+RacialMods: +8 Stealth in vegetation
+Languages:
+  - Abyssal
+  - Common
+Source: d20pfsrd
+IsTemplate: '0'
+DuringCombat: >-
+  The mandragloires know all too well they are small and fragile compared to
+  many denizens of the Pestilent Palace, and rely on cunning and patience to win
+  the day. The soften up prey with hit-and-run tactics, combing their flight and
+  quickened poison spell-like ability, then follow in hiding, giggling eerily.
+  Only once their opponents are weakened or panicked do they finally attack,
+  unleashing their shriek and blasphemy to further scatter enemies.
+Morale: >-
+  The mandragloires flee back into hiding if reduced below 20 hit points, and
+  avoid such dangerous enemies in the future.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-fiend|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11503'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,93 @@
+Name: Giant Spider
+CR: '1'
+XP: '400'
+Race: Giant Spider
+Alignment: 'N'
+Size: Medium
+Type: vermin
+Init: '3'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +4
+AC: 14, touch 13, flat-footed 11
+AC_Mods: (+3 Dex, +1 natural)
+HP: '16'
+HD: (3d8+3)
+Saves: Fort +4, Ref +4, Will +1
+Fort: '4'
+Ref: '4'
+Will: '1'
+Immune: mind-affecting effects
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - bite +1 (1d6 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: web (+5 ranged, DC 12, hp 3)
+AbilityScores:
+  - 11
+  - 17
+  - 12
+  - —
+  - 10
+  - 2
+BaseAtk: '2'
+CMB: '2'
+CMD: '15'
+Skills:
+  - Climb +16
+  - Perception +4 (+8 in webs)
+  - Stealth +7 (+11 in webs)
+RacialMods: +4 Perception, +4 Stealth (+8 in webs), +16 Climb
+Source: PFS S1-30
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 14; frequency 1/round for 4 rounds; effect 1d2
+      Strength damage; cure 1 save.
+  - name: Web (Ex)
+    description: >-
+      Creatures with the web ability can use webs to support themselves and up
+      to one additional creature of the same size. In addition, such creatures
+      can throw a web up to eight times per day. This is similar to an attack
+      with a net but has a maximum range of 50 feet, with a range increment of
+      10 feet, and is effective against targets up to one size category larger
+      than the web spinner. An entangled creature can escape with a successful
+      Escape Artist check or burst the web with a Strength check. Both are
+      standard actions with a DC equal to 10 + 1/2 creature's HD + creature's
+      Con modifier. Attempts to burst a web by those caught in it suffer a
+      &#8211;4 penalty. Web spinners can create sheets of sticky webbing up to
+      three times their size. They usually position these sheets to snare flying
+      creatures but can also try to trap prey on the ground. Approaching
+      creatures must succeed on a DC 20 Perception check to notice a web;
+      otherwise they stumble into it and become trapped as though by a
+      successful web attack. Attempts to escape or burst the webbing gain a +5
+      bonus if the trapped creature has something to walk on or grab while
+      pulling free. Each 5-foot-square section of web has a number of hit points
+      equal to the Hit Dice of the creature that created it and DR 5/&#8211;. A
+      creature can move across its own web at its climb speed and
+BeforeCombat: >-
+  The giant spider is 20 feet off the ground in the northwest corner of the
+  room. She's hiding when the PCs enter the room (DC 21 Perception check to
+  spot). She only attacks once all of the PCs are down in the pit.
+DuringCombat: >-
+  The giant spider is mindless and simply sees an opportunity for food. Once all
+  of the PCs are down in the pit, she webs the first one she sees and then
+  attacks the rest.
+Morale: The giant spider fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4102'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

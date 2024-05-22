@@ -1,0 +1,104 @@
+Name: Delbera Axebringer
+CR: '7'
+XP: '3200'
+Race: dwarf
+Class: cleric of torag 6
+MonsterSource: Pathfinder RPG Bestiary 144
+Alignment: LG
+Size: Medium
+Type: undead
+SubType: (humanoid, dwarf, incorporeal)
+Init: '-1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +11
+AC: 15, touch 15, flat-footed 15
+AC_Mods: (+6 deflection, -1 Dex)
+HP: '54'
+HD: (6d8+24)
+Saves: Fort +10, Ref +3, Will +10; +2 vs. poison, spells, and spell-like abilities
+Fort: '10'
+Ref: '3'
+Will: '10'
+Save_Mods: +2 vs. poison, spells, and spell-like abilities
+DefensiveAbilities: channel resistance +4, defensive training, incorporeal, rejuvenation
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +3 touch (7d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel positive energy 6/day (DC 16, 3d6), hatred, telekinesis (DC 16)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: At Will
+      value: mending
+    - label: 6/day
+      value: artificer's touch (1d6+3), resistant touch (+2)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 6th; concentration +9)   3rd-daylight, dispel
+  magic, protection from energyD, summon monster III   2nd-hold person (DC 15),
+  lesser restoration, silence (DC 15), spiritual weapon, wood shapeD (DC 15)  
+  1st-command (DC 14), divine favor, protection from chaos, sanctuaryD (DC 14),
+  shield of faith   0 (at will)-guidance, read magic, stabilize, virtue
+SpellDomains: Artifice, Protection
+AbilityScores:
+  - —
+  - 8
+  - —
+  - 10
+  - 17
+  - 16
+BaseAtk: '4'
+CMB: '3'
+CMD: 16 (20 vs. bull rush and trip)
+Feats:
+  - Channel Smite
+  - Craft Magic Arms and Armor
+  - Skill Focus (Craft [weapons])
+Skills:
+  - Appraise +0
+  - Craft (armor) +4
+  - Craft (mechanical) +4
+  - Craft (weapons) +10
+  - Fly +7
+  - Heal +8
+  - Knowledge (religion) +7
+  - Perception +11
+  - Stealth +7
+RacialMods: >-
+  +8 Perception, +8 Stealth, +2 Appraise to assess nonmagical metals or
+  gemstones, +2 Perception to notice unusual stonework
+Languages:
+  - Common
+  - Dwarven
+Source: Down The Blighted Path
+IsTemplate: '0'
+BeforeCombat: Delbera's ghost casts shield of faith whenever someone approaches.
+DuringCombat: >-
+  If combat erupts, Delbera casts summon monster III to call a lantern archon,
+  then uses hold person, telekinesis, and her corrupting touch to thin out
+  opponents' ranks.
+Morale: >-
+  Delbera's ghost fights without fear, and cannot leave the burial chamber. If
+  destroyed, she returns in 2d4 days or until Firebrand is returned to her.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+BaseStatistics: >-
+  Without shield of faith cast, Delbera's statistics are AC 12, touch 12,
+  flat-footed 12.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7828'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

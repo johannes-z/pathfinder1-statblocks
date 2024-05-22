@@ -1,0 +1,123 @@
+Name: Caught
+CR: '2'
+XP: '600'
+Race: kitsune
+Class: bard 3
+MonsterSource: Pathfinder RPG Advanced Race Guide 192
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (shapechanger)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +5
+AC: 18, touch 12, flat-footed 16
+AC_Mods: (+5 armor, +2 Dex, +1 shield)
+HP: '23'
+HD: (3d8+6)
+Saves: >-
+  Fort +1, Ref +6, Will +3; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '1'
+Ref: '6'
+Will: '3'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - rapier +3 (1d6+1/18-20), bite -2 (1d4)
+Ranged:
+  - mwk shortbow +5 (1d6+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 12 rounds/day (countersong, distraction, fascinate [DC 15],
+  inspire competence +2, inspire courage +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: 3/day
+      value: dancing lights (DC 15)
+SpellsKnown:
+  header: Bard Spells Known (CL 3rd; concentration +7)
+  values:
+    - label: 1st (4/day)
+      value: >-
+        cause fear (DC 15), charm person (DC 16), hideous laughter (DC 16),
+        innocenceAPG
+    - label: 0 (at will)
+      value: >-
+        daze (DC 15), detect magic, light, lullaby (DC 15), open/close, read
+        magic
+AbilityScores:
+  - 12
+  - 15
+  - 10
+  - 12
+  - 8
+  - 18
+BaseAtk: '2'
+CMB: '3'
+CMD: '15'
+Feats:
+  - Realistic Likeness
+  - Toughness
+Skills:
+  - Acrobatics +3
+  - Disguise +10
+  - Knowledge (nature) +8
+  - Knowledge (planes) +8
+  - Perception +5
+  - Perform (comedy) +10
+  - Stealth +7
+  - Use Magic Device +10
+RacialMods: +2 Acrobatics
+Languages:
+  - Aklo
+  - Common
+  - Sylvan
+SQ: bardic knowledge +1, change shape, versatile performance (comedy)
+Source: PFS S6-15
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Charisma Increase (Ex)
+    description: >-
+      Caught once bet a djinni that the kitsune could tell a joke so exquisite
+      that it would make a will-o'-wisp weep with mirth. The djinni granted
+      Caught a single wish after the deed, and the bard asked to be even more
+      dashingly handsome, resulting in a permanent +1 inherent bonus to his
+      Charisma score.
+Gender: Male
+BeforeCombat: >-
+  Caught takes advantage of the distraction caused by his trap to drink his
+  potion of spider climb.
+DuringCombat: >-
+  Caught uses tanglefoot bags, sleep arrows, and spells such as cause fear and
+  hideous laughter to neutralize opponents. If targeted with ranged weapons, he
+  activates his catching cape.
+Morale: >-
+  Caught flees from any melee attackers, seeking refuge on the ceiling or
+  elsewhere in the archives if possible. If reduced to below 9 hp, Caught
+  graciously surrenders and promises his vanquishers that their names will live
+  forever in story and song.
+Gear: >-
+  potion of cure light wounds, potion of spider climb, sleep arrows (2),
+  tanglefoot bag
+OtherGear: >-
+  mwk chain shirt, mwk buckler, rapier, mwk shortbow with 20 arrows, catching
+  capeUE, 20 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7931'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

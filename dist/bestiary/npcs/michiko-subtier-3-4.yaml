@@ -1,0 +1,154 @@
+Name: Michiko Subtier 3-4
+CR: '6'
+XP: '2400'
+Race: elf
+Class: antipaladin of fumeiyoshi 5
+MonsterSource: Pathfinder RPG Bestiary 3 138, Pathfinder RPG Advanced Player's Guide 118
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, elf)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +11
+Aura: cowardice (10 ft.), sacrilegious aura (30 ft., DC 17)
+AC: 23, touch 12, flat-footed 21
+AC_Mods: (+7 armor, +2 Dex, +4 natural)
+HP: '77'
+HD: (7d10+45)
+Saves: Fort +16, Ref +10, Will +12; +2 vs. enchantments
+Fort: '16'
+Ref: '10'
+Will: '12'
+Save_Mods: +2 vs. enchantments
+DefensiveAbilities: channel resistance +4, rejuvenation
+DR: 10/ magic
+Immune: sleep, cold, electricity, fire, undead traits
+SR: '17'
+Speed: 20 ft.
+Melee:
+  - >-
+    +1 frost katana +14 (1d8+10/18-20 plus 2d6 cold) or mwk naginata +12
+    (1d8+9/x4 plus 1d6 cold) or mwk wakizashi +12 (1d6+7/18-20 plus 1d6 cold)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with naginata)
+SpecialAttacks: >-
+  channel destruction (1d6 cold), channel negative energy 3/day (DC 17, 3d6),
+  devastating blast (2d6 cold, DC 17, 3/day), smite good 2/day (+5 attack and
+  AC, +5 damage), undead mastery (25 HD, DC 17)
+SpellLikeAbilities:
+  header: Antipaladin Spell-Like Abilities (CL 5th; concentration +10)
+  values:
+    - label: At Will
+      value: detect good
+SpellsPrepared: >-
+  Antipaladin Spells Prepared (CL 2nd; concentration +7)  1st-command (DC 16),
+  doom (DC 16), protection from good
+AbilityScores:
+  - 20
+  - 14
+  - —
+  - 14
+  - 12
+  - 20
+BaseAtk: '5'
+CMB: '10'
+CMD: '22'
+Feats:
+  - Dazzling Display
+  - Improved Initiative
+  - Mounted Combat
+  - Ride-by Attack
+  - Power Attack
+  - Toughness
+  - Weapon Focus (katana)
+Skills:
+  - Bluff +9
+  - Intimidate +21
+  - Knowledge (religion) +8
+  - Linguistics +3
+  - Perception +11
+  - Ride +14
+  - Sense Motive +9
+RacialMods: +2 Perception, +2 Spellcraft to identify magic item properties
+Languages:
+  - Common
+  - Elven
+  - Minkaian
+  - Orc
+  - Tien
+SQ: >-
+  cruelty (shaken), elven magic, fiendish boon (weapon +1, 1/day), graveknight
+  armor, phantom mount, ruinous  revivification (cold), touch of corruption
+  7/day (2d6)
+Source: PFS 8-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Channel Destruction (Su)
+    description: >-
+      Any weapon Michiko wields seethes with energy and deals an additional 1d6
+      points of cold damage.
+  - name: Devastating Blast (Su)
+    description: >-
+      Three times per day, Michiko may unleash a 30-foot cone of ice as a
+      standard action. This blast deals 2d6 points of cold damage (DC 17 Reflex
+      half). Eastern Weapon Training Akina's training allows her to treat
+      katana, naginata, and wakizashi as martial weapons.
+  - name: Phantom Mount (Su)
+    description: >-
+      Once per hour, Michiko can summon a skeletal horse similar to a phantom
+      steed. This mount is more real than a typical phantom steed, and can carry
+      one additional rider. The mount's powers are based on her total Hit Dice
+      rather than caster level. A graveknight's mount looks distinctive and
+      always appears the same each time it is summoned. If the mount is
+      destroyed, it can be summoned again with full hit points 1 hour later.
+  - name: Rejuvenation (Su)
+    description: >-
+      One day after a graveknight is destroyed, its armor begins to rebuild the
+      undead horror's body. This process takes 1d10 days-if the body is
+      destroyed before that time passes, the armor merely starts the process
+      anew. After this time has elapsed, the graveknight wakens fully healed.
+  - name: Ruinous Revivification (Su)
+    description: >-
+      At the time of its creation, a graveknight chooses one of the following
+      energy types: acid, cold, electricity, or fire. This choice influences
+      several of its special abilities. Michiko chose cold.
+  - name: Undead Mastery (Su)
+    description: >-
+      As a standard action, Michiko can attempt to bend any undead creature
+      within 50 feet to her will. The targeted undead must succeed at a Will
+      save or fall under her control. This control is permanent for
+      unintelligent undead; an undead with an Intelligence score is allowed an
+      additional save every day to break free. A creature that successfully
+      saves cannot be affected again by her undead mastery for 24 hours. Michiko
+      can control up to 25 HD worth of undead; if she exceeds this number, the
+      excess from earlier uses of the ability becomes uncontrolled, as per
+      animate dead.
+Gender: Female
+BeforeCombat: Michiko summons a phantom mount and prepares for battle.
+DuringCombat: >-
+  Michiko attacks with her katana, focusing on frightened opponents and those
+  who display holy symbols of good deities first.
+Morale: >-
+  Michiko's hatred for the living and trust in her armor to revive her undead
+  form drive her to fight until she is destroyed.
+OtherGear: >-
+  +1 lamellar (steel) armorUE, +1 katanaUE, mwk naginataUE, mwk wakizashiUE, 130
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: graveknight|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8839'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

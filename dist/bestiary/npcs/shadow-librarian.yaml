@@ -1,0 +1,141 @@
+Name: Shadow Librarian
+CR: '15'
+XP: '51200'
+Race: human
+Class: sorcerer 12
+MonsterSource: Pathfinder RPG Bestiary 4 238
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (augmented humanoid, human)
+Init: '11'
+Senses:
+  - darkvision 120 ft., low-light vision, see in darkness
+  - Perception +1
+AC: 24, touch 18, flat-footed 16
+AC_Mods: (+4 armor, +7 Dex, +1 dodge, +2 natural)
+HP: '92'
+HD: (12d6+48)
+Saves: Fort +6, Ref +11, Will +11
+Fort: '6'
+Ref: '11'
+Will: '11'
+DefensiveAbilities: incorporeal step, shadow blend
+DR: 15/ magic
+Resist: cold 20, electricity 20
+SR: '21'
+Speed: 30 ft.
+Melee:
+  - >-
+    mwk dagger +7/+2 (1d4/19-20), touch +1 (1d6/1 Con damage, Fort DC 23
+    negates)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: cloying gloom burst
+SpellLikeAbilities:
+  header: Shadow Creature Spell-Like Abilities (CL 12th; concentration +19)
+  values:
+    - label: At Will
+      value: ray of sickeningUM (DC 18)
+    - label: 3/day
+      value: shadow conjuration, shadow stepUM
+    - label: 1/day
+      value: >-
+        greater shadow conjuration, shadow walk (DC 24) Sorcerer Spell-Like
+        Abilities (CL 12th; concentration +19)
+    - label: 10/day
+      value: shadowstrike (1d4+8 nonlethal)
+    - label: 1/day
+      value: enveloping darkness
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +19)
+  values:
+    - label: 6th (4/day)
+      value: chain lightning (DC 23), shadow walk (DC 25)
+    - label: 5th (6/day)
+      value: cone of cold (DC 22), persistent image (DC 24), shadow evocation (DC 24)
+    - label: 4th (7/day)
+      value: >-
+        greater invisibility, hallucinatory terrain (DC 23), phantasmal killer
+        (DC 23), shadow conjuration
+    - label: 3rd (8/day)
+      value: >-
+        deeper darkness, displacement, fly, lightning bolt (DC 20), major image
+        (DC 22)
+    - label: 2nd (8/day)
+      value: >-
+        blur, darkvision, hideous laughter (DC 19), invisibility, locate object,
+        minor image (DC 21)
+    - label: 1st (8/day)
+      value: >-
+        mage armor, magic missile, ray of enfeeblement (DC 18), shield, silent
+        image (DC 20), unseen servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, flare (DC 17), ghost sound (DC 19),
+        mending, prestidigitation, ray of frost, read magic, touch of fatigue
+        (DC 17)
+AbilityScores:
+  - 10
+  - 24
+  - 14
+  - 15
+  - 12
+  - 24
+BaseAtk: '6'
+CMB: '6'
+CMD: '24'
+Feats:
+  - Arcane Strike
+  - Craft Wondrous Item
+  - Dodge
+  - Eschew Materials
+  - Greater Spell Focus (illusion)
+  - Improved Initiative
+  - Iron Will
+  - Spell Focus (illusion)
+  - Toughness
+Skills:
+  - Knowledge (arcana) +15
+  - Knowledge (history) +12
+  - Knowledge (planes) +12
+  - Knowledge (religion) +12
+  - Spellcraft +15
+  - Stealth +28
+Languages:
+  - Azlanti
+  - Giant
+  - Infernal
+  - Thassilonian
+SQ: planar thinning, shadow well, touch attack
+Source: AP 136
+IsTemplate: '0'
+Gender: Female
+Bloodline: shadow
+BeforeCombat: The librarian casts mage armor on herself.
+DuringCombat: >-
+  The librarian spends the first rounds of combat preparing defenses, starting
+  with greater invisibility and following with fly and shield before casting
+  offensive spells against her foes. If her greater invisibility is removed or
+  she realizes her foes can see her, she casts displacement.
+Morale: The librarian fights to the death.
+Gear: spellguard bracersUE
+OtherGear: >-
+  mwk dagger, amulet of natural armor +2, belt of incredible dexterity +4, robe
+  of arcane heritageAPG
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: shadow lord|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11948'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

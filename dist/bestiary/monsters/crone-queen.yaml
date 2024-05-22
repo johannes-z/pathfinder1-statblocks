@@ -1,0 +1,232 @@
+Name: Crone Queen
+CR: '15'
+XP: '51200'
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (cold)
+Init: '9'
+Senses:
+  - blizzard sight, darkvision 60 ft., lifesense
+  - Perception +32
+Aura: fear aura (30 ft., DC 25)
+AC: 30, touch 16, flat-footed 24
+AC_Mods: (+4 armor, +5 Dex, +1 dodge, +10 natural)
+HP: '209'
+HD: (22d8+110)
+HP_Mods: fast healing 10
+Saves: Fort +13, Ref +14, Will +18
+Fort: '13'
+Ref: '14'
+Will: '18'
+DefensiveAbilities: channel resistance +4
+DR: 10/cold iron and slashing
+Immune: cold, undead traits
+SR: '26'
+Weaknesses: frozen heart, vulnerable to fire
+Speed: 30 ft.
+Melee:
+  - ice staff +24/+19/+14/+9 (1d6+10 plus 1d6 cold and energy drain)
+  - 2 claws +21 (1d6+5 plus 1d6 cold and energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  cold, energy drain (2 levels, DC 25), hexesAPG (blight, frostfootISM,
+  hoarfrostUM, ice tombUM, misfortune), ice staff, unearthly cold
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 19th; concentration +23)
+  values:
+    - label: Constant
+      value: mage armor
+    - label: At Will
+      value: >-
+        frost fallUC (DC 16), ice missile (as magic missile, but deals cold
+        damage), obscuring mist, screechAPG (DC 17)
+    - label: 3/day
+      value: >-
+        bestow curse (DC 17), crushing despair (DC 18), ice storm, unshakable
+        chillUM (DC 16), wall of ice (DC 18)
+    - label: 1/day
+      value: cone of cold (DC 19), freezing sphere (DC 20), polar ray
+AbilityScores:
+  - 21
+  - 20
+  - —
+  - 19
+  - 17
+  - 18
+BaseAtk: '16'
+CMB: '21'
+CMD: '37'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Dodge
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Lunge
+  - Mobility
+  - Power Attack
+  - Toughness
+Skills:
+  - Intimidate +29
+  - Knowledge (arcana) +29
+  - Knowledge (history) +26
+  - Knowledge (nobility) +26
+  - Perception +32
+  - Sense Motive +32
+  - Spellcraft +29
+  - Stealth +30
+Languages:
+  - Common
+  - Draconic
+  - Russian
+  - Skald
+  - Sylvan
+Environment: cold ruins
+Organization: solitary, coven (3-6), or court (12-14)
+Treasure: double
+Description_Visual: >-
+  A cold, hateful light burns in the eye sockets of this corpselike creature,
+  whose withered skin is stretched over its icy bones. It wears the tattered
+  raiments of ancient royalty, and a crown of jagged icicles juts from its head.
+Source: AP 72
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blizzard Sight (Su)
+    description: >-
+      A crone queen can see normally in natural or magical rain, sleet, hail,
+      fog, snowstorms, blizzards, and similar weather conditions.
+  - name: Cold (Ex)
+    description: >-
+      A crone queen's body generates intense cold, dealing 1d6 points of cold
+      damage with its touch. Creatures attacking a crone queen with unarmed
+      strikes or natural weapons take this same cold damage each time one of
+      their attacks hits.
+  - name: Frozen Heart (Su)
+    description: >-
+      A crone queen's frozen heart contains a tiny portion of Baba Yaga's life,
+      and binds the crone queen to Baba Yaga's will. As a free action, Baba Yaga
+      can command a crone queen as dominate monster (CL 20th). If a crone
+      queen's frozen heart is somehow removed before the creature is destroyed,
+      the crone queen loses its fast healing, spell resistance, and unearthly
+      cold ability.
+  - name: Hexes (Su)
+    description: >-
+      A crone queen can use the following hexes as a 20th-level witch: blight,
+      frostfootISM, hoarfrostUM, ice tombUM, and misfortune. The save DC is 24
+      to negate or resist and is Intelligence-based.
+  - name: Ice Staff (Su)
+    description: >-
+      As a free action, a crone queen can create a magic staff out of
+      supernaturally hard ice that functions as a +3 frost quarterstaff and
+      allows the crone queen to use her energy drain attack with the staff. The
+      ice staff melts away instantly if it leaves the crone queen's hands.
+  - name: Unearthly Cold (Su)
+    description: >-
+      A crone queen's spell-like abilities and supernatural abilities that deal
+      cold damage are horrendously cold. Half the cold damage caused by these
+      effects comes from an otherworldly power and is not subject to being
+      reduced by resistance or immunity to cold-based attacks.
+Description:
+  - >-
+    When one of Baba Yaga's chosen daughters has served her 100-year tenure as
+    queen of Irrisen, the Queen of Witches comes to replace her with another
+    daughter. Ostensibly, the deposed daughter joins her mother in the Dancing
+    Hut and goes on to bigger and better things far beyond the bounds of Irrisen
+    and Golarion, but the true fate of the queens of Irrisen remains a mystery
+    to most. In fact, these former queens never leave the confines of the
+    Dancing Hut-drained of their vitality and power by Baba Yaga and imprisoned
+    deep inside the hut's innermost chambers, these daughters become crone
+    queens, undead mockeries of the powerful witches they once were.
+  - >-
+    The crone queens are unique creatures, each one a former queen of Irrisen.
+    They are bound to the Hall of Thrones inside the Dancing Hut, where Baba
+    Yaga has erected a throne for each deposed queen. Currently there are only
+    12 crone queens, though the Hall of Thrones holds 14 royal seats. One throne
+    sits ready for the current queen, Elvanna, when her reign is over, and the
+    other is left empty-the throne of Tashanna, Baba Yaga's ninth daughter and
+    the only queen to escape the fate shared by her sisters.
+  - >-
+    As a crone queen ages, the long years take their toll on the necromantic
+    energies animating the unliving husk of her body, and movement and activity
+    become more difficult. Although their powers have not diminished with age,
+    the oldest crone queens rarely leave their frozen thrones; less interested
+    in vengeance, they instead spend the long centuries reliving the memories of
+    their former lives. It takes a significant effort to rouse them from their
+    dreamlike reveries, but once awakened, the eldest crone queens are dangerous
+    foes indeed.
+  - The Deposed Queens
+  - >-
+    Twelve of Baba Yaga's daughters sit enthroned inside the Dancing Hut,
+    fueling their mother's extended lifespan. Besides the abilities presented in
+    the stat block above, each crone queen possesses additional unique
+    abilities. Over the centuries, the first eight queens of Irrisen- Jadwiga,
+    Morgannan, Urvalane, Pjallarane, Aelena, Harcatha, Sascha, and Karina-have
+    gradually withdrawn into themselves, and now rarely move or interact with
+    the world at all, but in general, the older the crone queen, the more
+    powerful her unique abilities are. If any of these crone queens are awoken
+    from their torpor, they should receive additional abilities in line with
+    their age.
+  - >-
+    The four most recent queens remain active, full of hatred and a thirst for
+    vengeance. Their unique abilities are detailed below.
+  - >-
+    Betyrina: The twelfth queen of Irrisen, Betyrina, was known for her vanity
+    and conceit. It is said that, during her reign, no room in Whitethrone's
+    Royal Palace was without a mirror, so the queen could enjoy a constant view
+    of her own ref lection. Next to Yelizaveta, Betyrina is perhaps the
+    best-preserved crone queen, and though she is still clearly an undead
+    creature, she takes great pains to keep her hair carefully coiffed and her
+    200-year-old gown as clean and tidy as possible. Betyrina can cast
+    strangling hair (Ultimate Magic 240) as a spell-like ability three times per
+    day, and smug narcissism (Ultimate Magic 238) as a spell-like ability once
+    per day.
+  - >-
+    Kseniya: A skilled conjurer herself, Irrisen's eleventh queen, Kseniya,
+    founded an academy for conjurers and summoners known as the Bloodstone
+    Conservatory. Kseniya was also famous for trying to take her own life when
+    Baba Yaga came for her at the end of her reign. She was unsuccessful, and
+    the scars of her attempted suicide are still visible on her shrunken wrists.
+    Kseniya can cast control summoned creature (Ultimate Magic 212) and terrible
+    remorse (Ultimate Magic 243) as spell-like abilities three times per day.
+  - >-
+    Velikas: The reign of Velikas, tenth queen of Irrisen, was marked by a
+    lethal epidemic of chillbane fever that swept across the land and devastated
+    the population of the city of Algidheart.
+  - >-
+    Velikas is still a carrier of this original potent strain of chillbane fever
+    and can cast epidemic (Ultimate Magic 218) as a spell-like ability once per
+    day, infecting the target with virulent chillbane fever.
+  - >-
+    Virulent chillbane fever-inhaled or injury; save Fortitude DC 23; onset 1
+    day; frequency 1/day; effect 1d6 Con damage and target is shaken and
+    fatigued, target must make a second Fortitude save or 1 point of the damage
+    is drain instead and target is exhausted instead of fatigued; cure 2
+    consecutive saves.
+  - >-
+    Yelizaveta: Irrisen's thirteenth queen, Yelizaveta is the most recently
+    deposed and best preserved of the crone queens, having died only 100 years
+    ago, and her hatred and spite toward her mother is still fresh. Yelizaveta
+    can cast vengeful outrage (Ultimate Magic 246) as a spell-like ability once
+    per day.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4660'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

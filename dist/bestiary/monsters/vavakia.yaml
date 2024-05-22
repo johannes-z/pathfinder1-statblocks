@@ -1,0 +1,218 @@
+Name: Vavakia
+CR: '18'
+XP: '153600'
+Alignment: CE
+Size: Huge
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '2'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +34
+Aura: frightful presence (60 ft., DC 25), unholy aura (DC 24)
+AC: 35, touch 14, flat-footed 33
+AC_Mods: (+8 armor, +4 deflection, +2 Dex, +13 natural, -2 size)
+HP: '297'
+HD: (18d10+198)
+Saves: Fort +22, Ref +8, Will +18
+Fort: '22'
+Ref: '8'
+Will: '18'
+DR: 15/cold iron and good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+SR: '29'
+Speed: 40 ft. (60 ft. without armor), fly 60 ft. (average)
+Melee:
+  - +1 unholy ranseur +28/+23/+18/+13 (3d6+17/x3)
+  - >-
+    bite +27 (3d6+11 plus smoking wound), 2 claws +27 (1d8+11),  tail slap +27
+    (2d8+16 plus stun)
+Space: 15 ft.
+Reach: 15 ft.; 30 ft. with ranseur
+SpecialAttacks: breath weapon, trample (1d8+16, DC 30)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +24)
+  values:
+    - label: Constant
+      value: true seeing, unholy aura (DC 24)
+    - label: At will
+      value: >-
+        enervation, greater teleport (self plus 50 lbs. of objects only),
+        telekinesis (DC 21)
+    - label: 3/day
+      value: blasphemy (DC 23), quickened enervation, power word stun (DC 24)
+    - label: 1/day
+      value: earthquake, summon (level 6, 1 marilith, 40%, or 1d3 nalfeshnees, 60%)
+AbilityScores:
+  - 32
+  - 14
+  - 33
+  - 18
+  - 21
+  - 23
+BaseAtk: '18'
+CMB: '31'
+CMD: 47 (51 vs. trip)
+Feats:
+  - Awesome Blow
+  - Greater Vital Strike
+  - Improved Bull Rush
+  - Improved Iron Will
+  - Improved Vital Strike
+  - Iron Will
+  - Power Attack
+  - Quicken Spell-Like Ability (enervation)
+  - Vital Strike
+Skills:
+  - Bluff +27
+  - Fly +16
+  - Intimidate +27
+  - Knowledge (arcana) +25
+  - Knowledge (planes) +25
+  - Perception +34
+  - Sense Motive +26
+  - Spellcraft +25
+  - Stealth +20
+  - Swim +26
+RacialMods: +8 Perception, +8 Stealth
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+Environment: any (Abyss)
+Organization: solitary, pair, or warband (1 vavakia plus 2-4 hezrous and 2-8 vrocks)
+Treasure: standard (+2 breastplate, +1 unholy ranseur, other treasure)
+Description_Visual: >-
+  This reptilian monstrosity is larger than a bull elephant. With the lower body
+  of a spine-backed quadrupedal dinosaur, complete with spiked tail, the demonic
+  creature has the upper body of a muscular humanoid. Its powerful arms wield an
+  immense ranseur while tremendous draconic wings unfurl from its back. The
+  creature's head-part dragon, part saurian, part demon-is a nightmare of horns
+  and fangs and cruel, glowing eyes.
+Group: Demon
+Source: Book of the Damned V2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      Once every 1d4 rounds, a vavakia can breathe out a 60-foot cone of green
+      fire that seems to writhe and coil with the tortured shapes of a thousand
+      screaming ghosts. This green fire is akin to vomiting up the countless
+      souls the vavakia has consumed, and these souls consume flesh as surely as
+      they consume sanity. A creature struck by this breath weapon takes 20d6
+      points of damage (DC 30 Reflex half )-this damage manifests as blackened,
+      melted flesh and skin but is treated as raw profane power. Evil creatures
+      take half damage from the breath weapon, but good creatures who take any
+      damage from a vavakia's breath weapon are automatically staggered for 1
+      round by the hideous sensation. In addition, any living creature that
+      takes damage from a vavakia's breath weapon must also make a DC 30
+      Fortitude save to avoid suffering 1d8 points of Wisdom drain as her sanity
+      slips away into madness. Immediately after the vavakia expels this green
+      "soulfire," the wailing flames flow in reverse back into the demon's
+      gullet through its open maw. This heals the vavakia 1d8 points of damage
+      for each creature that was damaged by its breath weapon. The Wisdom drain
+      element of this breath weapon is a mind-affecting effect. The save DC is
+      Constitution-based.
+  - name: Smoking Wound (Su)
+    description: >-
+      The wounds caused by a vavakia's fangs result in tremendous and eerie
+      wounds. Rather than blood, wisps of green smoke constantly weep from a
+      vavakia's bite wound-a grim manifestation of the demon's effect on a
+      mortal soul. Each time a vavakia bites a creature, it bestows two negative
+      levels-the wounds continue to smoke as long as the victim suffers those
+      negative levels. The smoking wounds cause the victim to become sickened
+      because of the hideous sensation and rank smell of the vapors. An effect
+      that removes this sickened condition only temporarily causes the wounds to
+      stop smoking-they begin smoking again in 1d6 rounds and persist as long as
+      the victim suffers from the associated negative levels. Nonliving
+      creatures bitten by a vavakia are immune to its energy-draining bite and
+      do not exhibit smoking wounds. The Fortitude save to remove these negative
+      levels is DC 25. The save DC is Charisma-based.
+  - name: Stun (Ex)
+    description: >-
+      A creature struck by a vavakia's tail slap must make a DC 30 Fortitude
+      save or be stunned for 1 round. On a critical hit, the stun effect lasts
+      for 1d4 rounds on a failed save, and 1 round on a successful save. The
+      save DC is Constitution-based.
+Description:
+  - >-
+    Vavakias are immense demons of great power. Saurian in shape, appetite, and
+    destructive power, they are most often encountered on the Material Plane not
+    as demons conjured by spellcasters to serve, but as violent invaders come to
+    the world through tears in reality or portals to the deeper rifts. On the
+    Material Plane, a single vavakia is a formidable presence, for the strange
+    demons are driven to feed on living souls and spread destruction-roles they
+    were built to excel at.
+  - >-
+    A vavakia demon measures 30 feet in length and stands 15 feet tall, weighing
+    in at 6,000 pounds. Vavakias form on the Abyss from particularly cruel
+    mortal souls who, in life, practiced the vile act of extracting, enslaving,
+    and even consuming other souls. When such a sinful creature arrives on the
+    Abyss, it brings with it partially absorbed fragments of souls from its
+    victims, resulting in a horrific transformation into one of the Abyss's most
+    dangerous forms of demonic life.
+  - >-
+    Ecology The first vavakias were created eons ago by Lamashtu, who was
+    unsatisfied with the raw physical might and monstrous shape of many of her
+    earliest demonic minions.
+  - >-
+    In those early days, before she had become a deity, Lamashtu was already
+    quite interested in the method by which the Abyss transformed the souls of
+    sinful mortals into demons.
+  - >-
+    When she learned that this process had first been triggered by the daemons,
+    she was at once intrigued and enraged- intrigued because she knew that
+    anything the Horsemen of the Apocalypse could do, she could do, and enraged
+    at the idea that she owed her very existence to the curiosity of a daemonic
+    lord. Of course, Lamashtu herself rose from the Abyss spontaneously, shortly
+    after the daemons first "taught" the Abyss how to process sinful souls, but
+    that difference meant little to the Mother of Monsters. Fueled by this rage,
+    she waged war against Abaddon for many years and captured two Horsemen of
+    the Apocalypse-predecessors of those who hold those titles now. She murdered
+    one of them, and forced from the other the secret method of manipulating
+    souls and the Abyss before murdering him as well. Both murdered Horsemen
+    were soon replaced on Abaddon, but by that point Lamashtu's wrath had been
+    spent and all that remained was her own curiosity.
+  - >-
+    Most of Lamashtu's earliest attempts to create demonic life were hideous
+    failures, but even in these failures Lamashtu found joy and delight. It
+    wasn't until the demon used her own body as an incubator to shape and then
+    eventually birth the first vavakias that she had her first real success.
+    Lamashtu's early work in creating and manipulating the Abyss in this manner
+    may have much to do with her resulting rise in power to the position of
+    Queen of Demons-had not her escalating war with Pazuzu forced her attentions
+    away from this hideous form of "art," there's no telling what other strange
+    demonic races she might have birthed upon the world. Now that she is a true
+    goddess, Lamashtu's interests expand far beyond the "curiosities" of the
+    Abyss, and she has little time or desire to wallow in her home plane's
+    fecund properties. Of course, other demon lords throughout the Abyss are
+    eager to learn these secrets, but to date, none have managed to duplicate
+    Lamashtu's feats of creation.
+  - >-
+    In any event, the vavakias themselves have proven a phenomenal success, and
+    are among the Abyss's most dangerous demonic races today.
+  - >-
+    Habitat & Society Although they were originally created to serve as
+    powerful, living weapons of war, the vavakias have long since established
+    their own presence on the Abyss as warlords and conquerors.
+  - >-
+    While some pledge their service to powerful demon lords, most vavakias rule
+    small empires of their own in the Abyss, typically in remote corners
+    infested with swamps, jungles, and other primeval terrains.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1079'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

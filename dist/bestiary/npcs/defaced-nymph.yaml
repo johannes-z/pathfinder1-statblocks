@@ -1,0 +1,132 @@
+Name: Defaced Nymph
+CR: '10'
+XP: '9600'
+Race: nymph
+MonsterSource: Pathfinder RPG Bestiary 217, 294, Advanced Bestiary 34
+Alignment: CN
+Size: Medium
+Type: fey
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +15
+Aura: baleful gaze (DC 20), blinding beauty (30 ft., DC 20)
+AC: 29, touch 25, flat-footed 23
+AC_Mods: (+9 deflection, +5 Dex, +1 dodge, +4 natural)
+HP: '108'
+HD: (8d6+80)
+Saves: Fort +11, Ref +11, Will +10
+Fort: '11'
+Ref: '11'
+Will: '10'
+DR: 10/cold iron, 5/-
+Resist: acid 5, cold 5, electricity 5, fire 5,  sonic 5
+Speed: 20 ft., swim 10 ft.
+Melee:
+  - torturous touch +9 touch (2d6 plus 1d6 Dexterity plus  convulsions)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: agonized wail, baleful gaze, torturous touch, stunning glance (DC 20)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +14)
+  values:
+    - label: 1/day
+      value: dimension door
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 7th; concentration +13)  4th-air walk, flame strike
+  (DC 18)  3rd-call lightning (DC 17), poison (DC 17), spike growth 
+  2nd-barkskin, flame blade, resist energy, tree shape  1st-charm animal (DC
+  15), endure elements, entangle (DC 15), obscuring mist, produce flame 
+  0-detect magic, guidance, light, stabilize
+AbilityScores:
+  - 16
+  - 21
+  - 28
+  - 20
+  - 19
+  - 23
+BaseAtk: '4'
+CMB: '7'
+CMD: '32'
+Feats:
+  - Combat Casting
+  - DiehardB
+  - Dodge
+  - EnduranceB
+  - Mobility
+  - ToughnessB
+  - Weapon Finesse
+Skills:
+  - Acrobatics +16 (+28 jump)
+  - Bluff +17
+  - Escape Artist +16
+  - Intimidate +22
+  - Knowledge (nature) +16
+  - Knowledge (planes) +13
+  - Perception +15
+  - Perform (string) +17
+  - Sense Motive +15
+  - Stealth +16
+  - Swim +22
+Languages:
+  - Aklo
+  - Aquan
+  - Common
+  - Draconic
+  - Giant
+  - Sylvan
+Source: AP 36
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Agonized Wail (Su)
+    description: >-
+      As a standard action, a defaced nymph can emit an agonized wail that
+      affects all creatures within 120 feet-this wail causes those who
+      experience it to become shaken (Will DC 20 negates) as long as they remain
+      within 120 feet of the defaced nymph. A successful save renders a creature
+      immune to that defaced nymph's agonized wail for 1 minute. This is a
+      mind-affecting fear effect. The save DC is Charisma-based.
+  - name: Baleful Gaze (Su)
+    description: >-
+      Any creature within 60 feet of a defaced nymph must succeed on a DC 20
+      Fortitude save or take 1d4 points of Strength, Constitution, and Charisma
+      drain. Whatever the result of the saving throw, the creature cannot be
+      affected by the same defaced nymph's baleful gaze again for 1 minute. The
+      save DC is Charisma-based.
+  - name: Torturous Touch (Su)
+    description: >-
+      A defaced nymph can make a touch attack to cause hideous, painful wounds
+      to rip open in the target's body. This touch causes 2d6 points of slashing
+      damage and 1d6 points of Dexterity damage, and causes the touched creature
+      to fall prone in a fit of convulsions (during which the creature is
+      helpless) for 1d4 rounds. A DC 20 Fortitude save negates the Dexterity
+      damage and the convulsive fit. The save DC is Charisma-based.
+Gender: Female
+BeforeCombat: >-
+  If a defaced nymph has the opportunity before battle, she casts air walk and
+  barkskin.
+DuringCombat: >-
+  A defaced nymph uses her baleful gaze on the first round of combat, then
+  activates her blinding beauty, saving her stunning glance to use against
+  non-humanoid foes or creatures that manage to engage her in melee. She prefers
+  to hang back and cast spells on foes, using her agonized wail if she's
+  surrounded.
+Morale: >-
+  A defaced nymph fights to the death, as if eager for release from her painful
+  existence.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|broken soul|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '889'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

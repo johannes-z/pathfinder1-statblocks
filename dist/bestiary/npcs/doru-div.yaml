@@ -1,0 +1,101 @@
+Name: Doru Div
+CR: '2'
+XP: '600'
+Race: Doru Div
+MonsterSource: 'Pathfinder Adventure Path #19 80'
+Alignment: NE
+Size: Tiny
+Type: outsider
+SubType: (div, evil, extraplanar)
+Init: '3'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +7
+AC: 18, touch 15, flat-footed 15
+AC_Mods: (+3 Dex, +3 natural, +2 size)
+HP: '16'
+HD: (3d10)
+Saves: Fort +1, Ref +6, Will +4
+Fort: '1'
+Ref: '6'
+Will: '4'
+DR: 5/cold iron or good
+Immune: fire, poison
+Resist: acid 10,  electricity 10
+SR: '10'
+Speed: 20 ft., fly 40 ft. (perfect)
+Melee:
+  - bite +9 (1d4-1 plus poison)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th)
+  values:
+    - label: At will
+      value: detect good, detect magic, invisibility
+    - label: 2/day
+      value: charm person (DC 13), minor image (DC 13)
+    - label: 1/day
+      value: suggestion (DC 15)
+AbilityScores:
+  - 8
+  - 17
+  - 10
+  - 10
+  - 12
+  - 14
+BaseAtk: '3'
+CMB: '4'
+CMD: '13'
+Feats:
+  - Weapon Finesse
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +8
+  - Fly +19
+  - Knowledge (arcana) +4
+  - Knowledge (planes) +4
+  - Perception +7
+  - Sense Motive +7
+  - Spellcraft +6
+  - Stealth +17
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Infernal
+  - telepathy 100 ft.
+Source: PFS S2-09
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save DC 13; frequency 1/round for 6 rounds; effect 1 Wisdom
+      damage; cure 1 save; the save DC is Constitution-based and includes a +2
+      racial bonus.
+BeforeCombat: >-
+  The dorus remain within the jar, awaiting release. They maintain invisibility
+  until their first opportunity to strike.
+DuringCombat: >-
+  The divs bite at the nearest PC under the cover of invisibility, then use
+  suggestion to encourage the PCs to abandon the combat. They become invisible
+  when not biting or casting other spells.
+Morale: >-
+  The dorus retreat invisibly if they take more than 5 points of damage, but
+  they circle back around and attack whenever the PCs enter a new combat. If
+  another div is present, they fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5527'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

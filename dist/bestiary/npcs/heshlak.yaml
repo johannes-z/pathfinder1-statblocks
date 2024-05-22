@@ -1,0 +1,176 @@
+Name: Heshlak
+CR: '6'
+XP: '2400'
+Race: human
+Class: fighter 2/inquisitor of Lissala 5
+MonsterSource: Advanced Player's Guide 38
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '5'
+Senses:
+  - Perception +11
+AC: 21, touch 14, flat-footed 17
+AC_Mods: (+5 armor, +4 Dex, +2 shield)
+HP: '63'
+HD: (7 HD; 2d10+5d8+26)
+Saves: Fort +9, Ref +5, Will +5; +1 vs. fear
+Fort: '9'
+Ref: '5'
+Will: '5'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1
+Speed: 30 ft.
+Melee:
+  - +1 agile whip +11 (1d3+5)
+  - mwk scimitar +7 (1d6+1/18-20)
+Ranged:
+  - heavy crossbow +9 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bane (5 rounds/day)
+SpellLikeAbilities:
+  header: Inquisitor Spell-Like Abilities (CL 5th; concentration +6)
+  values:
+    - label: 4/day
+      value: blast rune (1d6+2 energy damage, 5 rounds) 5 rounds/day-discern lies
+    - label: At Will
+      value: detect alignment
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 5th; concentration +5)
+  values:
+    - label: 2nd (2/day)
+      value: detect thoughts (DC 13), flames of the faithfulAPG, spiritual weapon
+    - label: 1st (5/day)
+      value: bane (DC 12), bless, command (DC 12), cure light wounds
+    - label: 0 (at will)
+      value: acid splash, daze (DC 11), light, read magic, resistance, stabilize
+SpellDomains: Rune
+AbilityScores:
+  - 12
+  - 18
+  - 14
+  - 8
+  - 13
+  - 10
+BaseAtk: '5'
+CMB: '9'
+CMD: '20'
+Feats:
+  - Agile Maneuvers
+  - Combat Reflexes
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (whip)
+  - Whip Mastery
+  - Improved Whip Mastery
+  - Tandem Trip
+Skills:
+  - Intimidate +12
+  - Knowledge (religion) +5
+  - Linguistics +2
+  - Perception +11
+  - Sense Motive +13
+  - Survival +11
+Languages:
+  - Common
+  - Shoanti
+  - Skald
+  - Thassilonian
+  - Varisian
+SQ: >-
+  cunning initiative, detect alignment, judgment 2/day, monster lore +1, solo
+  tactics, stern gaze, track +2
+Source: PFS S3-26
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bane (Su)
+    description: >-
+      Heshlak can imbue one of her weapons with the bane weapon special ability
+      as a swift action. She must select one creature type when she uses this
+      ability (and a subtype if the creature type is humanoid or outsider). Once
+      selected, the type can be changed as a swift action. This ability lasts
+      for a number of rounds per day equal to her inquisitor level. These rounds
+      do not need to be consecutive.
+  - name: Improved Whip Mastery (Ex)
+    description: >-
+      When wielding a whip, Heshlak threatens an area equal to her natural reach
+      plus 5 feet.
+  - name: Judgments (Su)
+    description: >-
+      Heshlak can pronounce judgment on her foes as a swift action. Starting
+      when the judgment is made, she receives a bonus or special ability based
+      on the type of judgment made. Once activated, this ability lasts until the
+      combat ends, at which point all of the bonuses immediately end. She must
+      participate in the combat to gain these bonuses. If she is frightened,
+      panicked, paralyzed, stunned, unsconscious, or otherwise prevented from
+      participating in combat, the ability does not end, but the bonuses do not
+      resume until she can participate in the combat again. When Heshlak uses
+      this ability, she must select one type of judgment to make. As a swift
+      action, she can change this judgment to another type. The two judgment
+      types Heshlak uses in this combat are as follows: Destruction: Heshlak is
+      filled with divine wrath, gaining a +2 profane bonus on all weapon damage
+      rolls. Protection: Heshlak is surrounded by a protective aura, granting a
+      +2 profane bonus to Armor Class.
+  - name: Solo Tactics (Ex)
+    description: >-
+      All of Heshlak's allies are treated as if they possessed the same teamwork
+      feats as her for the purpose of determining whether Heshlak receives a
+      bonus from her teamwork feats. Her allies do not receive any bonuses from
+      these feats unless they actually posses the feats themselves. The allies'
+      positioning and actions must still meet the prerequisities listed in the
+      teamwork feat for Heshlak to receive the listed bonus.
+  - name: Tandem Trip (Ex)
+    description: >-
+      Whenever Heshlak makes a trip attempt against an enemy who is threatened
+      by an ally with this feat, she may roll twice and take the better result.
+  - name: Whip Mastery (Ex)
+    description: >-
+      Heshlak does not provoke attacks of opportunity when making attacks with a
+      whip. Additionally, she can deal lethal damage with a whip, but can still
+      deal nonlethal damage when she chooses. Finally, she can deal damage with
+      a whip despite a creature's armor bonus or natural armor bonus.
+Gender: Female
+BeforeCombat: >-
+  If warned of the PCs' approach, Heshlak casts bless on herself and the
+  cultists, drinks her potion of cat's grace, and casts flames of the faithful
+  on her whip, granting it the flaming burst weapon special property for 6
+  rounds (caster level +1 round as a transmutation spell).
+DuringCombat: >-
+  Once the PCs are in range, Heshlak casts spiritual weapon on a spellcaster,
+  pronounces a judgment of destruction against the party, and moves forward to
+  threaten any PC entering the room with her whip. She tries to stay out of the
+  PCs' reach, letting cultists engage them while using her whip's reach to
+  dominate the floor, expending a swift action to activate her bane ability,
+  selecting the most common humanoid subtype among the Pathfinders. She
+  positions herself to have multiple PCs within 10 feet, if possible, and uses
+  her action each round to either strike a target of the subtype of her bane
+  ability or to make trip attacks. She gleefully takes attacks of opportunity
+  against anyone within range who provokes them. If attacked, she trips her
+  assailant and steps away, laying into them with the whip if trapped.
+  Confronted by multiple assailants at once, she switches her judgment to
+  protection and lashes about her as best she can.
+Morale: >-
+  Heshlak refuses to surrender. If brought below 15 hit points, and a PC is
+  between her and the opening to the  central well, she attempts a bull rush to
+  knock her enemy and herself into the shaft for a 60-foot drop.
+Gear: potion of cat's grace, potion of cure serious wounds
+OtherGear: >-
+  +1 mithral shirt, heavy steel shield, +1 agile whip, masterwork scimitar,
+  heavy crossbow with 10 bolts, spell component pouch, wooden holy symbol
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6753'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

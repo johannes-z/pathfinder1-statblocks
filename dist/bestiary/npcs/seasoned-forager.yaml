@@ -1,0 +1,97 @@
+Name: Seasoned Forager
+CR: '2'
+XP: '600'
+Race: Human
+Class: hunter 3
+MonsterSource: Pathfinder RPG Advanced Class Guide 26
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +8
+AC: 17, touch 14, flat-footed 13
+AC_Mods: (+3 armor, +4 Dex)
+HP: '23'
+HD: (3d8+6)
+Saves: Fort +4, Ref +7, Will +3
+Fort: '4'
+Ref: '7'
+Will: '3'
+Speed: 30 ft.
+Melee:
+  - short sword +2 (1d6/19-20)
+  - dagger +2 (1d4/19-20)
+Ranged:
+  - mwk longbow +8 (1d8/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Hunter Spells Known (CL 3rd; concentration +5)
+  values:
+    - label: 1st (4/day)
+      value: >-
+        ant haulAPG (DC 13), cloak of shadeAPG (DC 13), detect animals or
+        plants, goodberry, summon nature's ally I
+    - label: 0 (at will)
+      value: >-
+        create water, detect poison, guidance, know direction, purify food and
+        drink (DC 12), stabilize
+AbilityScores:
+  - 10
+  - 18
+  - 13
+  - 10
+  - 15
+  - 12
+BaseAtk: '2'
+CMB: '2'
+CMD: '16'
+Feats:
+  - Animal Affinity
+  - Coordinated Shot
+  - Point-Blank Shot
+  - Precise Shot
+  - Weapon Focus (longbow)
+Skills:
+  - Climb +5
+  - Handle Animal +9
+  - Heal +8
+  - Perception +8
+  - Ride +12
+  - Stealth +10
+  - Survival +8
+  - Swim +4
+Languages:
+  - Common
+SQ: >-
+  animal companion (mountain lion), animal focus (3 minutes/ day), hunter
+  tactics, nature training, track +1, wild empathy +4
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: The forager drinks a potion of cat's grace.
+DuringCombat: >-
+  The forager sends out his companion to keep enemies busy and peppers foes with
+  arrows.
+Gear: potion of cat's grace
+OtherGear: +1 leather armor, dagger, mwk longbow, short sword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without the aid of a potion of cat's grace, the forager's statistics are Init
+  +2, AC 15, touch 12, flat-footed 13; Ref +5; Ranged mwk longbow +6 (1d8/x3);
+  Dex 14; Skills Ride +10, Stealth +8.
+AgeCategory: Adult
+CompanionFamiliarLink: '8992'
+id: '8991'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

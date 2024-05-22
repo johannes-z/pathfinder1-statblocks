@@ -1,0 +1,127 @@
+Name: Marok
+CR: '10'
+XP: '9600'
+Race: human
+Class: sorcerer 10
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (augmented human)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +13
+AC: 23, touch 13, flat-footed 20
+AC_Mods: (+4 armor, +2 Dex, +1 dodge, +2 natural, +4 shield)
+HP: '117'
+HD: (10d6+80)
+HP_Mods: fast healing 5
+Saves: Fort +5, Ref +9, Will +12; +4 vs. mind-affecting effects
+Fort: '5'
+Ref: '9'
+Will: '12'
+Save_Mods: +4 vs. mind-affecting effects
+DefensiveAbilities: channel resistance +4
+DR: 5/ bludgeoning or slashing
+Resist: cold 10, electricity 10, fire 5
+Weaknesses: transformed
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - >-
+    +1 longspear +7 (1d8+2/x3), 2 tendrils +1 (1d6+1 plus grab and seedborne
+    consumption)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with tendrils)
+SpecialAttacks: >-
+  death burst, entrapping tendrils, insidious mind, seedborne consumption (DC
+  22)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 10th; concentration +17)
+  values:
+    - label: 10/day
+      value: minute meteors
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +17)
+  values:
+    - label: 5th (4/day)
+      value: lightning arcUM (DC 22)
+    - label: 4th (6/day)
+      value: black tentacles, call lightning storm (DC 21), dimension door
+    - label: 3rd (8/day)
+      value: blink, fireball (DC 20), haste, lightning bolt (DC 20)
+    - label: 2nd (8/day)
+      value: >-
+        eagle's splendor, flaming sphere (DC 19), glitterdust (DC 19), resist
+        energy, scorching ray
+    - label: 1st (8/day)
+      value: >-
+        ear-piercing screamUM (DC 18), endure elements, grease, mage armor,
+        magic missile, unseen servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, dancing lights, detect magic, disrupt undead,
+        drenchUM (DC 17), mage hand, message, read magic
+AbilityScores:
+  - 12
+  - 14
+  - —
+  - 12
+  - 16
+  - 24
+BaseAtk: '5'
+CMB: +6 (+10 grapple)
+CMD: '19'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Empower Spell
+  - Eschew Materials
+  - Improved Initiative
+  - Lightning Reflexes
+  - Mobility
+  - Toughness
+Skills:
+  - Climb +9
+  - Knowledge (arcana) +14
+  - Knowledge (planes) +11
+  - Perception +13
+  - Spellcraft +14
+Languages:
+  - Common
+  - Kelish
+  - telepathy 100 ft. (seeded creatures only)
+SQ: aurora borealis
+Source: AP 113
+IsTemplate: '0'
+Gender: Male
+Bloodline: starsoulAPG
+BeforeCombat: >-
+  Marok casts mage armor and uses his wand of shield on himself before entering
+  combat.
+DuringCombat: >-
+  Marok remains at a distance and rains down empowered offensive spells upon his
+  foes, heedless of any collateral damage he may inflict upon his allies.
+Morale: >-
+  With all concept of mortality lost to the seedborne consumption, Marok fights
+  until destroyed.
+Gear: wand of shield (34 charges)
+OtherGear: >-
+  +1 longspear, cloak of resistance +2, headband of alluring charisma +2, spell
+  component pouch, 235 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: seeded|
+BaseStatistics: Without his spells, Marok's statistics are AC 15, touch 13, flat-footed 12.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '9081'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

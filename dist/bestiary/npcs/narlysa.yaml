@@ -1,0 +1,129 @@
+Name: Narlysa
+CR: '10'
+XP: '9600'
+Race: witchfire
+MonsterSource: Pathfinder RPG Bestiary 2 292, 284
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '12'
+Senses:
+  - darkvision 60 ft.
+  - Perception +18
+AC: 28, touch 28, flat-footed 19
+AC_Mods: (+9 deflection, +8 Dex, +1 dodge)
+HP: '135'
+HD: (10d8+90)
+Saves: Fort +12, Ref +13, Will +12
+Fort: '12'
+Ref: '13'
+Will: '12'
+DefensiveAbilities: incorporeal, witchbolt
+Immune: electricity, undead traits
+Speed: fly 50 ft. (perfect)
+Melee:
+  - incorporeal touch +15 touch (8d6 fire plus witchbolt)
+Ranged:
+  - witchbolt +15 (8d6 fire plus witchbolt)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +18)
+  values:
+    - label: At Will
+      value: >-
+        dancing lights, disguise self, ghost sound (DC 19), invisibility,
+        defensive shockUM, ray of enfeeblement (DC 20)
+    - label: 1/day
+      value: summon (level 4, 2 will-o'-wisps 50%)
+AbilityScores:
+  - —
+  - 26
+  - —
+  - 21
+  - 20
+  - 29
+BaseAtk: '7'
+CMB: '15'
+CMD: '35'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Lightning Reflexes
+  - Mobility
+Skills:
+  - Bluff +19 (+27 to mimic sounds [including accents and speech patterns
+  - if a voice mimic] listened to for at least 10 minutes)
+  - Fly +29
+  - Intimidate +22
+  - Knowledge (arcana) +15
+  - Knowledge (nature) +15
+  - Perception +18
+  - Sense Motive +18
+  - Spellcraft +18
+  - Stealth +21
+Languages:
+  - Aklo
+  - Auran
+  - Boggard
+  - Common
+  - Giant
+  - Polyglot
+SQ: sound mimicry (animal noises)
+Source: Seers Of The Drowned City
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Witchbolt (Su)
+    description: >-
+      Narlysa's close association with storms has infused her undead incarnation
+      with flickering green electricity rather than flames. Damage from her
+      witchbolts deals electricity damage rather than the usual fire damage from
+      a normal witchfire, and while she is not immune to fire damage herself,
+      she is immune to electricity damage. Any creature damaged by her witchbolt
+      must succeed at a DC 24 Will save or become shrouded in sickly green
+      tendrils of electricity. While this eerie energy deals no additional
+      damage, the affected creature glows as per faerie fire and becomes
+      sickened. While under the effects of the witchbolt, the victim gains
+      vulnerability to electricity. This effect persists for 10 minutes and can
+      be ended early by break enchantment, miracle, remove curse, or wish
+      (effective CL 11th). Any creature entering the same square as Narlysa or
+      striking her with a melee attack must succeed at a DC 24 Will save or
+      become shrouded in witchbolts. This ability otherwise functions as the
+      typical witchflame ability as detailed on page 284 of Pathfinder RPG
+      Bestiary 2.
+BeforeCombat: >-
+  If Narlysa hears combat in area G1, she attempts to summon two will-o'-wisps
+  to aid her.
+DuringCombat: >-
+  Narlysa uses flight to stay at range, and she casts defensive shock on the
+  first round of combat. She hurls witchbolts while staying out of melee combat,
+  periodically using a ray of enfeeblement on enemies who hit hard in melee or
+  are wearing heavy armor (so that the reduction in strength could well encumber
+  such foes).
+Morale: >-
+  Narlysa uses invisibility and takes advantage of her incorporeal body to flee
+  combat if reduced to fewer than 15 hit points, but she emerges to fight until
+  destroyed if it becomes apparent that the PCs intend to leave the cave with
+  the thunderbird's egg. If confronted elsewhere (such as after she's been
+  recruited to the Stormreaders to replace a fallen hag), the witchfire flees
+  combat if reduced to 15 or fewer hit points, returning to her caves here to
+  rest and recover. Whether or not she seeks revenge against the PCs at a later
+  date is left for you to decide.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8783'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

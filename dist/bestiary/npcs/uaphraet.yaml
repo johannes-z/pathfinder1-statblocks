@@ -1,0 +1,102 @@
+Name: Uaphraet
+CR: '4'
+XP: '1200'
+Race: hound archon
+MonsterSource: Pathfinder RPG Bestiary 19
+Alignment: LG
+Size: Medium
+Type: outsider
+SubType: (archon, extraplanar, good, lawful)
+Init: '4'
+Senses:
+  - darkvision 60 ft., detect evil, low-light vision, scent
+  - Perception +10
+Aura: aura of menace (DC 16), magic circle against evil
+AC: 19, touch 10, flat-footed 19
+AC_Mods: (+9 natural| +2 deflection vs. evil)
+HP: '39'
+HD: (6d10+6)
+Saves: Fort +7, Ref +6, Will +4; +4 vs. poison, +2 resistance vs. evil
+Fort: '7'
+Ref: '6'
+Will: '4'
+Save_Mods: +4 vs. poison, +2 resistance vs. evil
+DR: 10/evil
+Immune: electricity, petrification
+SR: '15'
+Speed: 40 ft.
+Melee:
+  - bite +8 (1d8+2), slam +8 (1d4+2)
+  - mwk khopesh +9/+4 (1d8+2/19-20), bite +3 (1d8+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: mournful howl
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +7)
+  values:
+    - label: Constant
+      value: detect evil, magic circle against evil
+    - label: At Will
+      value: aid, continual flame, message
+    - label: 3/day
+      value: sound burst (DC 13)
+AbilityScores:
+  - 15
+  - 10
+  - 13
+  - 10
+  - 13
+  - 12
+BaseAtk: '6'
+CMB: '8'
+CMD: '18'
+Feats:
+  - Exotic Weapon Proficiency (khopesh)
+  - Improved Initiative
+  - Power Attack
+Skills:
+  - Acrobatics +9
+  - Intimidate +10
+  - Perception +10
+  - Sense Motive +10
+  - Stealth +9
+  - Survival +10
+Languages:
+  - Ancient Osiriani
+  - Celestial
+  - Draconic
+  - Infernal
+  - truespeech
+SQ: change shape (beast shape II), honor bound
+Source: Heaven Unleashed
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Honor Bound (Ex)
+    description: >-
+      Uaphraet remains true to his word even millennia after he promised to
+      protect the fort. As long as the Basin of Elemental Corruption remains an
+      active threat, the archon loses his greater teleport spell-like ability
+      and he cannot travel more than 1 mile from the site he swore to defend.
+  - name: Mournful Howl (Sp)
+    description: >-
+      Because he is so distraught with his failure to protect his friends
+      millennia ago, Uaphraet can unleash a great wail of despair so loud that
+      it can stun his enemies. He gains sound burst as a spell-like ability he
+      can cast three times per day.
+Gender: Male
+Gear: mwk khopesh, cloak of resistance +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8347'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,148 @@
+Name: Ghalcor Subtier 8-9
+CR: '11'
+XP: '12800'
+Race: allip
+Class: oracle 10
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42, Pathfinder RPG Bestiary 3 12
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+Aura: babble (60 ft., DC 18)
+AC: 20, touch 20, flat-footed 16
+AC_Mods: (+6 deflection, +3 Dex, +1 dodge)
+HP: '147'
+HD: (4d8+10d8+84)
+Saves: Fort +10, Ref +9, Will +12
+Fort: '10'
+Ref: '9'
+Will: '12'
+DefensiveAbilities: channel resistance +2, incorporeal
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - incorporeal touch +13 (1d4 Wisdom damage/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: babble, touch of insanity (DC 18)
+SpellsKnown:
+  header: Oracle Spells Known (CL 10th; concentration +16)
+  values:
+    - label: 5th (4/day)
+      value: >-
+        greater command (DC 21), lesser planar binding (DC 21), mass inflict
+        light wounds (DC 21)
+    - label: 4th (6/day)
+      value: >-
+        confusion (DC 20), dismissal (DC 20), inflict critical wounds (DC 20),
+        terrible remorseUM (DC 20),
+    - label: 3rd (7/day)
+      value: >-
+        bestow curse (DC 19), borrow fortuneAPG, inflict serious wounds (DC 19),
+        invisibility purge, vermin shape IUM
+    - label: 2nd (8/day)
+      value: >-
+        desecrate, graceAPG, inflict moderate wounds (DC 18), oracle's burdenAPG
+        (DC 18), resist energy, sound burst (DC 18)
+    - label: 1st (8/day)
+      value: >-
+        bane (DC 17), doom (DC 17), endure elements, inflict light wounds (DC
+        17), murderous commandUM (DC 17), protection from law, sanctuary (DC 17)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 16), create water, detect magic, guidance, light, mending,
+        read magic, resistance, virtue
+AbilityScores:
+  - —
+  - 16
+  - —
+  - 13
+  - 13
+  - 22
+BaseAtk: '10'
+CMB: '13'
+CMD: '30'
+Feats:
+  - Ability Focus (touch of insanity)
+  - Combat Casting
+  - Dodge
+  - Improved Critical (incorporeal touch)
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+Skills:
+  - Disable Device +10
+  - Fly +18
+  - Intimidate +19
+  - Knowledge (engineering) +11
+  - Knowledge (planes) +14
+  - Knowledge (religion) +14
+  - Perception +14
+  - Sense Motive +9
+  - Spellcraft +14
+  - Stealth +13
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+SQ: >-
+  madness, oracle's curse (wrecker), relentless compulsion, revelations
+  (balefire, planar haze, unearthly terrain)
+Source: PFS S5-13
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Balefire (Su)
+    description: >-
+      Ghalcor's balefire oracle revelation allows him to burn his foes with
+      eldritch fires drawn from the Abyss itself twice per day. As a standard
+      action, he causes one target within 30 feet to become wreathed in flames;
+      the target takes 10d6 points of fire damage and is staggered for 1 round
+      (Reflex DC 21 half and negate staggered).
+  - name: Planar Haze (Su)
+    description: >-
+      As a swift action, Ghalcor can fill an area with a fog cloud, like the
+      spell of the same name, except it originates at the center of the spell
+      effect and cannot expand beyond the spell's area.
+  - name: Relentless Compulsion (Su)
+    description: >-
+      Ghalcor constantly tries to recalculate how he failed and why,
+      relentlessly pursuing a perfect solution that is just out of reach. Thus,
+      he's adept at predicting failure allowing him to re-roll any one d20 roll
+      and taking the higher result, even after knowing the results.
+  - name: Wrecker (Su)
+    description: >-
+      Any held objects by Ghalcor gain the broken condition when he attempts to
+      use or equip them but regain their actual condition if employed by anyone
+      else. If a held item is restored to unbroken condition, it becomes broken
+      again the following round.
+Gender: Male
+BeforeCombat: >-
+  Ghalcor casts resist energy (fire) as soon as he detects intruders in his
+  tower. He then waits just inside the  room's floor and casts invisibility
+  purge when he hears the doors to area A4 open.
+DuringCombat: >-
+  Ghalcor babbles and attacks any living creature, focusing on priests of
+  good-aligned gods because they remind him of his life's work and tragic
+  demise. He uses spells like confusion and greater command to slow down
+  attackers.
+Morale: Ghalcor fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+Mystery: outer riftsISWG
+CompanionFamiliarLink: '0'
+id: '8076'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

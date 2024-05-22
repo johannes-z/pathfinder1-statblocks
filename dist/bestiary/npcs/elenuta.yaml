@@ -1,0 +1,122 @@
+Name: Elenuta
+CR: '4'
+XP: '1200'
+Race: fetchling
+Class: sorcerer 5
+MonsterSource: Pathfinder RPG Bestiary 2 123
+Alignment: CN
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +1
+AC: 13, touch 13, flat-footed 11
+AC_Mods: (+1 deflection, +2 Dex)
+HP: '35'
+HD: (5d6+15)
+Saves: Fort +3, Ref +3, Will +3
+Fort: '3'
+Ref: '3'
+Will: '3'
+DefensiveAbilities: shadow blending
+Resist: cold 5, electricity 5
+Speed: 30 ft.
+Melee:
+  - quarterstaff +1 (1d6-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: shadowstrike (6/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th, concentration +9)
+  values:
+    - label: 1/day
+      value: disguise self (humanoid only)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (5/day)
+      value: blindness/deafness (DC 18), darkvision, hideous laughter (DC 16)
+    - label: 1st (7/day)
+      value: >-
+        cause fear (DC 17), mage armor, magic missile, obscuring mist, ray of
+        enfeeblement (DC 17)
+    - label: 0 (at will)
+      value: >-
+        detect magic, daze (DC 14), ghost sound (DC 14), mage hand, message,
+        resistance
+AbilityScores:
+  - 8
+  - 15
+  - 14
+  - 12
+  - 8
+  - 18
+BaseAtk: '2'
+CMB: '1'
+CMD: '14'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Greater Spell Focus (necromancy)
+  - Spell Focus (necromancy)
+Skills:
+  - Bluff +12
+  - Knowledge (arcana) +7
+  - Knowledge (planes) +3
+  - Perception +1
+  - Stealth +9
+Languages:
+  - Aklo
+  - Common
+SQ: nighteye*
+Source: The Midnight Mirror
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Shadow Blending (Ex)
+    description: >-
+      Attacks against a fetchling in dim light have a 50% miss chance instead of
+      the normal 20% miss chance. This ability does not grant total concealment;
+      it just increases the miss chance.
+  - name: Shadowstrike (Sp)
+    description: >-
+      Elenuta can make a melee touch attack as a standard action that deals
+      1d4+2 points of nonlethal damage and dazzles the target for 1 minute.
+      Creatures with low-light vision or darkvision are not dazzled by this
+      ability.
+Gender: Female
+Bloodline: shadow*
+BeforeCombat: >-
+  If Elenuta has time before combat starts, she casts mage armor and uses her
+  last remaining scroll of false life.
+DuringCombat: >-
+  Elenuta casts obscuring mist to grant herself concealment and uses targeted
+  spells such as blindness/ deafness, cause fear, and ray of enfeeblement
+  against foes at range. If approached in melee, she uses her shadowstrike
+  bloodline power until she has expended all its daily uses, before attacking
+  with her quarterstaff.
+Morale: >-
+  Elenuta believes the PCs to be the Heart's latest trick and fights to the
+  death, knowing that the midnight mirror gives no quarter when its minions
+  attack.
+Gear: >-
+  potions of cure light wounds (2), potion of invisibility, scroll of false
+  life, wand of magic missile (CL 5th, 12 charges)
+OtherGear: quarterstaff, ring of protection +1
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2760'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,119 @@
+Name: Khala
+CR: '17'
+XP: '102400'
+Race: Khala
+MonsterSource: 'Pathfinder Campaign Setting: Irrisen, Land of Eternal Winter 59'
+Alignment: CE
+Size: Large
+Type: dragon
+SubType: (cold)
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +30
+AC: 31, touch 15, flat-footed 25
+AC_Mods: (+6 Dex, +16 natural, -1 size)
+HP: '261'
+HD: (18d12+144)
+Saves: Fort +19, Ref +17, Will +16
+Fort: '19'
+Ref: '17'
+Will: '16'
+Immune: cold, disease, magic paralysis and sleep
+Resist: acid 10, electricity 10
+Weaknesses: vulnerable to fire
+Speed: 30 ft., fly 90 ft. (good)
+Melee:
+  - 3 bites +26 (2d10+9/19-20 plus disease), tail +26 (2d8+9 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. line, 16d6 cold damage plus encased in ice, Reflex DC 27
+  half, usable every 1d4 rounds), constrict (2d6+8), rend (2 bites, 2d10+13)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +23)
+  values:
+    - label: 3/day
+      value: >-
+        empowered ice storm, fire shield (chill shield only), incendiary cloud
+        (DC 25, deals cold damage), suggestion (DC 19)
+    - label: 1/day
+      value: control weather, polar ray
+AbilityScores:
+  - 28
+  - 22
+  - 27
+  - 22
+  - 21
+  - 25
+BaseAtk: '18'
+CMB: +28 (+32 grapple)
+CMD: 38 (can't be tripped)
+Feats:
+  - Alertness
+  - Critical Focus
+  - Empower Spell-Like Ability (ice storm)
+  - Flyby Attack
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Staggering Critical
+  - Stunning Critical
+Skills:
+  - Appraise +27
+  - Bluff +28
+  - Diplomacy +28
+  - Fly +29
+  - Intimidate +28
+  - Knowledge (geography) +27
+  - Knowledge (local) +27
+  - Knowledge (nature) +27
+  - Perception +30
+  - Sense Motive +30
+  - Stealth +23
+  - Survival +26
+Languages:
+  - Abyssal
+  - Draconic
+  - Giant
+  - Hallit
+  - Russian
+  - Skald
+SQ: tenacious grapple
+Source: AP 72
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      Every 1d4 rounds, the khala can fire a jet of frigid liquid up to 60 feet
+      in a straight line from one of its three mouths, dealing 16d6 points of
+      cold damage to the target (Reflex DC 27 for half). Even if this save is
+      successful, the target must succeed at a DC 27 Fortitude save or be
+      encased in ice. A trapped creature must succeed at a DC 25 Strength check
+      or a DC 26 Escape Artist check to break free. Attempting to break free of
+      the ice is a full-round action.
+  - name: Disease (Su)
+    description: >-
+      Chillbane Fever: bite-injury; save Fort DC 27; onset 1 day; frequency
+      1/day; effect 1d4 Con damage and target is sickened and fatigued; cure 2
+      consecutive saves.
+  - name: Tenacious Grapple (Ex)
+    description: >-
+      A khala does not gain the grappled condition if it grapples a foe with its
+      tail.
+Gear: ring of sustenance
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4649'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

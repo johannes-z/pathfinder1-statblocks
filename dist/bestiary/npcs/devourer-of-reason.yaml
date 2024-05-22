@@ -1,0 +1,126 @@
+Name: Devourer Of Reason
+CR: '3'
+XP: '800'
+Race: Ghoul
+Class: sorcerer (wildblooded) 3
+MonsterSource: Pathfinder RPG Bestiary 146, Pathfinder RPG Ultimate Magic 70
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +11
+AC: 15, touch 13, flat-footed 12
+AC_Mods: (+3 Dex, +2 natural)
+HP: '42'
+HD: (5 HD; 2d8+3d6+23)
+Saves: Fort +5, Ref +4, Will +9
+Fort: '5'
+Ref: '4'
+Will: '9'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Resist: cold 5, fire 5
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +3 (1d6+1 plus disease and paralysis), 2 claws +3 (1d4+1 plus
+    paralysis)
+  - mwk dagger +4 (1d4+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: paralysis (1d4+1 rounds, DC 15, elves are immune to this effect)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 3rd; concentration +7)
+  values:
+    - label: 7/day
+      value: black motes
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 3rd; concentration +7)
+  values:
+    - label: 1st (6/day)
+      value: disguise self, magic missile, shocking grasp, unseen servant
+    - label: 0 (at will)
+      value: acid splash, dancing lights, detect magic, mage hand, ray of frost
+AbilityScores:
+  - 13
+  - 17
+  - —
+  - 17
+  - 16
+  - 18
+BaseAtk: '2'
+CMB: '3'
+CMD: '16'
+Feats:
+  - Arcane Strike
+  - Brain Eater
+  - Combat Casting
+  - Eschew Materials
+Skills:
+  - Acrobatics +8
+  - Bluff +12
+  - Climb +9
+  - Perception +11
+  - Spellcraft +10
+  - Stealth +11
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Sylvan
+SQ: voidwalker
+Source: PFS S3-07
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Black Motes (Sp)
+    description: >-
+      As a standard action, the Devourer of Reason can summon a rain of tiny
+      meteorites that fall in a 5-foot column, 30 feet high, with a range of 30
+      feet. The meteors deal 1d4+1 points of cold damage (DC 15 Reflex negates).
+  - name: Bloodline Arcana (Su)
+    description: >-
+      Whenever the Devourer of Reason casts an evocation spell, it may select
+      one affected target that fails its save to suffer the choking airlessness
+      of the void, silencing it (as silence, but affecting only the target) for
+      1 round.
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 15; onset 1 day; frequency 1 day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at
+      the next midnight; a humanoid of 4 Hit Dice or more rises as a ghast.
+  - name: Voidwalker (Ex)
+    description: The Devourer of Reason gains low-light vision and resist cold and fire 5.
+Bloodline: Void-touched
+BeforeCombat: >-
+  When it realizes that the adventurers are making their way up to the vault,
+  the Devourer of Reason uses its web scroll on the floor just inside the
+  vault's entrance (it must make a DC 4 caster level check to successfully use
+  the scroll because its caster level is lower than the scroll's), drinks its
+  potion of invisibility, and hides in the corner, waiting to attack the first
+  creature with its back turned.
+DuringCombat: >-
+  The Devourer of Reason targets clustered opponents with burning hands, and
+  tries to take out divine casters first, silencing them with its bloodline
+  arcana power.
+Morale: The Devourer of Reason fights until destroyed.
+Gear: potion of invisibility, scrolls of web (2), wand of burning hands (16 charges)
+OtherGear: masterwork dagger, disguise kit, 384 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: wildblooded
+CompanionFamiliarLink: '0'
+id: '5909'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

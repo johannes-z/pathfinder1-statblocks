@@ -1,0 +1,73 @@
+Name: Darkforest Anemone
+CR: '6'
+XP: '2400'
+Race: giant sea anemone
+MonsterSource: Pathfinder RPG Bestiary 3 238
+Alignment: 'N'
+Size: Huge
+Type: vermin
+SubType: (aquatic)
+Init: '2'
+Senses:
+  - blindsight 30 ft.
+  - Perception +0
+AC: 18, touch 10, flat-footed 16
+AC_Mods: (+2 Dex, +8 natural, -2 size)
+HP: '76'
+HD: (9d8+36)
+Saves: Fort +10, Ref +5, Will +3
+Fort: '10'
+Ref: '5'
+Will: '3'
+DefensiveAbilities: amorphous
+Immune: gaze attacks, mind-affecting effects, poison, vision-based effects
+Speed: 5 ft.
+Melee:
+  - tentacles +9 (2d8+7 plus grab and poison)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  constrict (2d8+7), poison, swallow whole (2d6+7 bludgeoning damage, AC 14, 7
+  hp)
+AbilityScores:
+  - 20
+  - 15
+  - 18
+  - —
+  - 10
+  - 2
+BaseAtk: '6'
+CMB: +13 (+17 grapple)
+CMD: 25 (can't be tripped)
+Skills:
+  - Stealth +2
+SQ: anchored, camouflage, sightless
+Source: AP 57
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Camouflage (Ex)
+    description: >-
+      When at rest, a darkforest anemone looks like a bed of kelp or seaweed. As
+      a result, a DC 20 Perception check is required to notice it before it
+      attacks for the first time. Anyone with ranks in Survival or Knowledge
+      (nature) can use either of those skills instead of Perception to notice
+      the anemone.
+  - name: Poison (Ex)
+    description: >-
+      Tentacles-injury; save Fort DC 18; frequency 1/ round for 6 rounds; effect
+      1d3 Dex; cure 2 consecutive saves.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3067'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

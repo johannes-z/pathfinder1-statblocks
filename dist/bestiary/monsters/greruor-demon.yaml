@@ -1,0 +1,141 @@
+Name: Greruor Demon
+CR: '10'
+XP: '9600'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +27
+AC: 27, touch 15, flat-footed 24
+AC_Mods: (+3 Dex, +12 natural, -1 size, +3 profane)
+HP: '115'
+HD: (10d10+60)
+Saves: Fort +13, Ref +10, Will +5
+Fort: '13'
+Ref: '10'
+Will: '5'
+DR: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold  10, fire 10
+SR: '21'
+Speed: 40 ft.
+Melee:
+  - bite +16 (2d6+7) or tongue +16 (grab) or ranseur  +16/+11 (2d6+10/x3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: acid and fire spittle
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At Will
+      value: >-
+        confusion (DC 18), deeper darkness, hold person (DC 16), detect good,
+        shatter (DC 15)
+    - label: 2/day
+      value: blasphemy (DC 21)
+    - label: 1/day
+      value: summon (level 9, 1 greruor 35%)
+AbilityScores:
+  - 24
+  - 17
+  - 22
+  - 14
+  - 14
+  - 16
+BaseAtk: '10'
+CMB: +18 (+22 grapple)
+CMD: '34'
+Feats:
+  - Alertness
+  - Cleave
+  - Improved Initiative
+  - Improved Sunder
+  - Power Attack
+Skills:
+  - Acrobatics +3 (+23 jump)
+  - Climb +20
+  - Escape Artist +24
+  - Intimidate +16
+  - Knowledge (planes) +15
+  - Perception +27
+  - Sense Motive +19
+  - Stealth +12
+  - Survival +15
+RacialMods: +8 Escape Artist, +8 Perception, +20 Acrobatics to jump
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+Environment: any (Abyss)
+Organization: solitary, pair, or troupe (3-6)
+Treasure: standard
+Description_Visual: >-
+  This creature appears as a massive, squat and bloated frog-like creature with
+  arms in place of its forelegs. Two large horns protrude above deep sunken
+  eyes.
+Group: Demon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid and Fire Spittle (Ex)
+    description: >-
+      Once every 1d4 rounds, a greruor can spit a 30-ft. long line of acid that
+      deals 4d4 points of acid damage. On the greruor's next turn, the acid
+      ignites and the opponent bursts into flames taking 1d6 points of fire
+      damage per round until extinguished. A successful DC 21 Reflex save halves
+      the acid damage and prevents the creature from catching fire. The save DC
+      is Constitution-based.
+Description:
+  - >-
+    Greruors serve in the infernal armies of several demon lords, particularly
+    Tsathogga. They are strong, powerful, and brutal demons that delight in
+    inflicting pain on others. They are extremely loyal and follow orders
+    without question. Some greater demons, like nalfeshnees and glabrezus,
+    relish the flesh of greruors' legs and often organize hunting parties to
+    track and slay the frog demons. The greruors however are not the weak-minded
+    brutes they appear to be and often win such confrontations using their
+    deadly ranseurs and their large numbers to turn back their opponents.
+  - >-
+    A greruor appears as a massive, squat, bloated, frog-like demon with arms in
+    place of its forelegs. Its wide, frog-like head has two 3-foot long horns
+    protruding just above its deep, sunken eyes. It moves by hopping on its rear
+    legs. Its arms end in talons which are usually clutched around the greruor's
+    deadly ranseur. Its huge mouth sports razor-sharp teeth of a dull gray
+    color. The greruor stands about 8 feet tall when on all fours.
+  - In combat, they stand on their hind legs and attack with their ranseur.
+  - >-
+    The greruor's flesh is greenish-brown mottled with red or gray. Its skin
+    constantly oozes and secretes a thick, mucus-like clear slime that is slick
+    to the touch.
+  - >-
+    Greruors enjoy combat and seek it wherever they can find it. Normally they
+    rely on their natural attacks, spittle, and weapons to fell opponents. If
+    outmatched, they use confusion to disorient opponents, followed closely by
+    shatter. Grabbed opponents are often held in the mouth of one greruor while
+    another stabs the victim with its ranseur.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+Gear: ranseur
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2442'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

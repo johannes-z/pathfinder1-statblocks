@@ -1,0 +1,148 @@
+Name: Risen Magga
+CR: '17'
+XP: '102400'
+Race: black magga
+MonsterSource: >-
+  Rise of the Runelords Anniversary Edition 406; Pathfinder RPG Bestiary 2 291,
+  292
+Alignment: CE
+Size: Gargantuan
+Type: undead
+SubType: (aquatic)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+AC: 38, touch 9, flat-footed 35
+AC_Mods: (+3 Dex, +29 natural, -4 size)
+HP: '217'
+HD: (15d8+150)
+Saves: Fort +14, Ref +12, Will +17; +6 vs. channeled positive energy
+Fort: '14'
+Ref: '12'
+Will: '17'
+Save_Mods: +6 vs. channeled positive energy
+DefensiveAbilities: all-around vision, channel resistance +4
+DR: 15/cold iron and magic and slashing
+Immune: cold, electricity, magic missile, petrification, polymorph, undead traits
+Resist: acid 20, fire 10
+SR: '26'
+Speed: 20 ft., swim 60 ft.
+Melee:
+  - >-
+    bite +26 (2d8+19/19-20 plus energy drain), slam +26 (3d6+19), 4 tentacles
+    +21 (2d6+10 plus grab)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: breath of madness, constrict (2d6+19), energy drain (2 levels, DC 24)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +22)
+  values:
+    - label: Constant
+      value: invisibility purge
+    - label: At Will
+      value: death knell (DC 19), prayer
+    - label: 3/day
+      value: >-
+        demand (DC 25), dimensional anchor, divination, dominate person (DC 22),
+        greater command (DC 22)
+    - label: 1/day
+      value: commune, dream, unhallow
+AbilityScores:
+  - 45
+  - 16
+  - —
+  - 29
+  - 22
+  - 24
+BaseAtk: '11'
+CMB: +34 (+36 bull rush, +38 grapple)
+CMD: 45 (47 vs. bull rush, can't be tripped)
+Feats:
+  - Awesome Blow
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+  - Vital Strike
+Skills:
+  - Acrobatics +21
+  - Climb +25
+  - Intimidate +25
+  - Knowledge (arcana) +27
+  - Knowledge (history) +24
+  - Knowledge (nature) +24
+  - Knowledge (planes) +24
+  - Knowledge (religion) +24
+  - Perception +21
+  - Sense Motive +21
+  - Spellcraft +27
+  - Stealth +9
+  - Survival +21
+  - Swim +43
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - Thassilonian
+SQ: transdimensional tentacles, warp dimensions
+Source: AP 138
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath of Madness (Su)
+    description: >-
+      Risen Magga does not use her breath of madness ability in this battle, as
+      it does not function underwater.
+  - name: Transdimensional Tentacles (Su)
+    description: >-
+      Risen Black Magga's tentacles allow her to see into and infiltrate the
+      Ethereal Plane and the Shadow Plane while she is on the Material Plane.
+      This allows her not only to be aware of these planes and the creatures
+      there, but also to shift her tentacles through these planes to attack
+      their inhabitants. She can even phase her tentacles in and out of
+      existence, effectively reaching through walls and other solid barriers to
+      attack foes on the other side, provided that area is not warded by
+      dimensional lock or a similar effect. She can grapple foes with her
+      tentacles normally, but she cannot pull grappled foes or objects through
+      planes as her tentacles shift between them.
+  - name: Warp Dimensions (Su)
+    description: >-
+      Risen Magga's presence distorts the dimensions of reality. A creature that
+      attempts to utilize a teleportation effect while within 300 feet of Risen
+      Magga must succeed at a DC 21 caster level check or the effect fails. If
+      the effect fails, the creature that attempted to create that effect must
+      succeed at a DC 27 Fortitude save or be nauseated for 1d6 rounds. The save
+      DC is Constitution-based.
+DuringCombat: >-
+  Risen Magga attacks first by attempting to cast dominate person on any PC who
+  seems like a divine spellcaster; she avoids casting greater command if foes
+  take shelter in the area of silence that covers the platform. She primarily
+  focuses on physical attacks against foes and can even use her transdimensional
+  tentacles to attack foes through the ceiling of areas A4-A12 in Zinlun's tomb
+  (as long as the entrance is open and the dimensional anchor effect over the
+  place is inactive), since there's only 10 to 15 feet of stone between the
+  ceilings of these rooms and the lake bed above.
+Morale: >-
+  Risen Black Maga fights until destroyed but does not pursue foes beyond a
+  1,000-foot radius of area A1.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: juju zombie|advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11979'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

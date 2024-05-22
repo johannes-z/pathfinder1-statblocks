@@ -1,0 +1,90 @@
+Name: Nirmathi Skirmishers Troop
+CR: '8'
+XP: '4800'
+Race: Nirmathi Skirmishers Troop
+Alignment: CG
+Size: Medium
+Type: humanoid
+SubType: (human, troop)
+Init: '8'
+Senses:
+  - Perception +18
+AC: 21, touch 14, flat-footed 17
+AC_Mods: (+7 armor, +4 Dex)
+HP: '104'
+HD: (11d8+50)
+Saves: Fort +9, Ref +13, Will +7
+Fort: '9'
+Ref: '13'
+Will: '7'
+DefensiveAbilities: troop traits
+Speed: 40 ft.
+Melee:
+  - troop (2d6+5)
+Space: 20 ft.
+Reach: 5 ft.
+SpecialAttacks: skirmishers
+AbilityScores:
+  - 20
+  - 19
+  - 19
+  - 10
+  - 14
+  - 13
+BaseAtk: '8'
+CMB: '13'
+CMD: '27'
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Skill Focus (Perception)
+  - Toughness
+Skills:
+  - Knowledge (local
+  - nature) +8
+  - Perception +18
+  - Stealth +6
+Languages:
+  - Common
+SQ: favored enemy, skirmishers
+Source: Lands Of Conflict
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Favored Enemy (Ex)
+    description: >-
+      Nirmathi skirmishers spend their training studying the techniques of their
+      hated enemy, the Molthuni Imperial Army, and specifically learning how to
+      defeat its troops in their Nirmathi homeland. This training and hatred
+      grant the Nirmathi skirmishers troop a +2 bonus on Perception checks,
+      troop melee damage, and damage rolls when facing Molthuni troop units.
+      Their training also grants the Nirmathi skirmishers troop a +3 bonus on
+      all Knowledge (local) and Knowledge (nature) checks. The bonuses on
+      Knowledge checks are calculated into the troop's stat block.
+  - name: Skirmishers (Ex)
+    description: >-
+      Nirmathi skirmishers are effective and versatile hit-and-run troops. This
+      lowers the troop's AC by 2 and its troop melee damage by one die, but
+      increases its movement by 10 feet (these effects have already been
+      calculated into the troop's stat block). Additionally, as a standard
+      action, the troop can make a ranged attack similar to a volley. This
+      attack can take the form of up to two lines starting from the corner of
+      any square in the troop's space. This attack's range is 50 feet. All
+      creatures in these lines take 3d6+5 points of piercing damage (Reflex DC
+      19 half). The save DC is Dexterity-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11114'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

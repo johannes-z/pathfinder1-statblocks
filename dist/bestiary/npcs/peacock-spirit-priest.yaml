@@ -1,0 +1,98 @@
+Name: Peacock Spirit Priest
+CR: '8'
+XP: '4800'
+Race: Human
+Class: cleric of the Peacock Spirit 9
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +9
+AC: 22, touch 11, flat-footed 21
+AC_Mods: (+8 armor, +1 Dex, +3 natural)
+HP: '80'
+HD: (9d8+36)
+Saves: Fort +10, Ref +8, Will +11
+Fort: '10'
+Ref: '8'
+Will: '11'
+Speed: 30 ft. (20 ft. in armor)
+Melee:
+  - mwk lucerne hammer +11/+6 (1d12+4)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with lucerne hammer)
+SpecialAttacks: channel negative energy 3/day (DC 14, 5d6), scythe of evil (4 rounds, 1/day)
+SpellLikeAbilities:
+  header: Cleric Spell-Like Abilities (CL 9th; concentration +12)
+  values:
+    - label: At Will
+      value: master's illusion (9 rounds/day)
+    - label: 6/day
+      value: copycat (9 rounds), touch of evil (4 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 9th; concentration +12)   5th-dispel goodD, flame
+  strike (DC 18)   4th-air walk, cure critical wounds, unholy blightD (DC 17)  
+  3rd-cure serious wounds (2), magic circle against goodD, searing light (2)  
+  2nd-bull's strength, cure moderate wounds (3), hold person (DC 15),
+  invisibilityD   1st-command (DC 14), cure light wounds (2), divine favor,
+  protection from goodD, sanctuary (DC 14)   0 (at will)-bleed (DC 13), create
+  water, light, stabilize
+SpellDomains: Evil, Trickery
+AbilityScores:
+  - 16
+  - 12
+  - 14
+  - 8
+  - 16
+  - 10
+BaseAtk: '6'
+CMB: +9 (+11 sunder)
+CMD: 20 (22 vs. sunder)
+Feats:
+  - Combat Casting
+  - Improved Sunder
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+  - Weapon Focus (lucerne hammer)
+Skills:
+  - Knowledge (religion) +5
+  - Perception +9
+  - Sense Motive +9
+  - Spellcraft +8
+Languages:
+  - Common
+Source: AP 136
+IsTemplate: '0'
+BeforeCombat: >-
+  A Peacock Spirit priest drinks a potion of barkskin +3 before battle if
+  possible.
+DuringCombat: >-
+  Encountered in small numbers, Peacock Spirit priests open fights with flame
+  strike and unholy blight. In larger groups, they hang back and cast sanctuary,
+  followed by air walk, bull's strength, and divine favor before entering
+  combat. A priest casts invisibility on himself if he's reduced to 30 or fewer
+  hit points and then takes time to cast healing spells on himself and retreat
+  to a better tactical position before reengaging in combat.
+Morale: A Peacock Spirit priest fights to the death while protecting the temple.
+Gear: potions of barkskin +3 (2)
+OtherGear: >-
+  +2 chainmail, mwk lucerne hammerAPG, cloak of resistance +2, golden holy
+  symbol of Peacock Spirit worth 150 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11941'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

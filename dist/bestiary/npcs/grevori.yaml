@@ -1,0 +1,136 @@
+Name: Grevori
+CR: '15'
+XP: '51200'
+Race: calikang
+Class: fighter 3
+MonsterSource: 'Pathfinder Campaign Setting: The Inner Sea World Guide 307'
+Alignment: LN
+Size: Large
+Type: monstrous humanoid
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +22
+AC: 30, touch 13, flat-footed 26
+AC_Mods: (+3 armor, +3 Dex, +1 dodge, +12 natural, +2 shield, -1 size)
+HP: '227'
+HD: (18d10+129)
+HP_Mods: fast healing 5
+Saves: Fort +17, Ref +13, Will +13 (+1 vs. fear)
+Fort: '17'
+Ref: '13'
+Will: +13 (+1 vs. fear)
+DefensiveAbilities: bravery +1, defensive slam, energy absorption, suspend animation
+Immune: electricity, mind-affecting effects, negative energy
+SR: '26'
+Speed: 30 ft.
+Melee:
+  - >-
+    +1 warhammer +24/+19/+14/+9 (2d6+10/19-20/x3), +1 warhammer +24
+    (2d6+10/19-20/x3), 2 injection syringes +23 (1d8+10/19-20 plus disease), 2
+    slams +21 (1d6+4)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. line, 14d6 energy damage, Reflex DC 24 half, usable
+  1/day), disease
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +16)
+  values:
+    - label: Constant
+      value: air walk, magic weapon, true seeing, water walk
+    - label: 3/day
+      value: lightning bolt (DC 17)
+    - label: 1/day
+      value: chain lightning (DC 20)
+AbilityScores:
+  - 29
+  - 17
+  - 24
+  - 8
+  - 12
+  - 19
+BaseAtk: '18'
+CMB: '28'
+CMD: '42'
+Feats:
+  - Critical Focus
+  - Dodge
+  - Double Slice
+  - Great Fortitude
+  - Improved Critical (warhammer)
+  - Improved Initiative
+  - Iron Will
+  - Multiweapon Fighting
+  - Staggering Critical
+  - Vital Strike
+  - Weapon Focus (warhammer)
+Skills:
+  - Intimidate +25
+  - Perception +22
+  - Use Magic Device +16
+Languages:
+  - Common
+  - Giant
+SQ: armor training 1
+Source: Wardens Of The Reborn Forge
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      A calikang can choose what kind of energy damage its breath weapon
+      inflicts when it uses this ability, choosing from acid, cold, electricity,
+      fire, or sonic energy. Calikangs are particularly adept at using
+      electricity in this manner, and deal 1 additional point of damage per die
+      (+14 for most calikangs) when they elect to inflict electricity damage
+      with their breath weapon.
+  - name: Defensive Slam (Ex)
+    description: >-
+      A calikang gains a cumulative +1 shield bonus to its AC for each of its
+      arms that does not wield a manufactured weapon, to a maximum of +4 for
+      four hands. A calikang can make slam attacks with these arms without
+      losing this AC bonus.
+  - name: Disease (Ex)
+    description: >-
+      Eidite Sickness: Injection syringe-injury; save Fort DC 20; onset 1d3
+      days; frequency 1/day; effect see page 19; cure 2 consecutive saves.
+  - name: Energy Absorption (Su)
+    description: >-
+      A spell that inflicts energy damage that is defeated by the calikang's SR
+      or immunity to electricity is absorbed into its body, healing it for an
+      amount of damage equal to the absorbed spell's caster level and granting
+      an additional daily use of its breath weapon.
+  - name: Suspend Animation (Su)
+    description: >-
+      As a full-round action, a calikang can enter a state of suspended
+      animation, freezing in place and becoming motionless. It remains aware of
+      its surroundings. In this state, the calikang is immune to disease,
+      inhaled toxins, poison, starvation, and thirst, and receives a +4 bonus on
+      all Fortitude saves. The calikang can exit this state as an immediate
+      action&#8211;if it does so to attack a foe or initiate combat, it gains a
+      +4 insight bonus on its initiative check.
+Gender: Male
+DuringCombat: >-
+  Grevori uses the eidite injectors hanging from the ceiling as weapons against
+  foes in addition to his warhammers, concentrating on attacking as many nearby
+  creatures as he can.
+Morale: >-
+  Grevori is not foolish, and knows that his association with Gurstweld is one
+  of convenience at best. If reduced to fewer than 25 hit points, he lays down
+  his arms and surrenders to the PCs.
+Gear: warhammers (2), bracers of armor +3
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5442'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

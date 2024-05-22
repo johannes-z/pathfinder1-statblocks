@@ -1,0 +1,193 @@
+Name: Vrykolakas
+CR: '10'
+XP: '9600'
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+Aura: pestilent aura (5 ft., DC 21)
+AC: 23, touch 15, flat-footed 18
+AC_Mods: (+4 Dex, +1 dodge, +8 natural)
+HP: '115'
+HD: (10d8+70)
+HP_Mods: fast healing 5
+Saves: Fort +9, Ref +9, Will +11
+Fort: '9'
+Ref: '9'
+Will: '11'
+DefensiveAbilities: channel resistance +4
+Immune: undead traits
+Weaknesses: vulnerability to fire
+Speed: 40 ft., climb 20 ft.
+Melee:
+  - 2 claws +13 (1d6+6 plus energy drain), bite +13 (1d6+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: horrid visage, energy drain (1 level, DC 21), rend (2 claws, 1d6+9)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: 3/day
+      value: charm animal (DC 17), disguise self (DC 17), fear (DC 20)
+AbilityScores:
+  - 22
+  - 19
+  - —
+  - 7
+  - 18
+  - 23
+BaseAtk: '7'
+CMB: '13'
+CMD: '28'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Lightning Reflexes
+  - Stealthy
+  - Toughness
+Skills:
+  - Climb +14
+  - Disguise +6
+  - Perception +17
+  - Stealth +21
+RacialMods: +8 Disguise when impersonating its former living self
+Languages:
+  - Common
+SQ: feed, feral possession
+Environment: any
+Organization: solitary
+Treasure: Value standard
+Description_Visual: >-
+  Slinking forth on bent limbs and gnarled claws, this twisted abomination bears
+  a resemblance to a starved, plague-ridden ape, its form bestial and bent, with
+  pallid skin stretched unnaturally over knotted bone. Yet its visage holds a
+  greater terror, for amid fangs and milky eyes linger the withered features of
+  a living corpse.
+Source: AP 29
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      Any humanoid creature that is slain by a vrykolakas's natural attacks
+      becomes a vrykolakas itself in 1d4 days if not blessed and properly
+      buried. A blessing might entail either the spell bless or a more mundane
+      consecration. A vrykolakas's spawn are free-willed and wild, typically
+      remembering nothing of their moment of death and caring nothing for the
+      vrykolakas that killed them. They do not possess any of the abilities they
+      had in life.
+  - name: Feral Possession (Ex)
+    description: >-
+      Upon being reduced to 0 hit points, a vrykolakas's spirit attempts to
+      possess any animal within 100 feet. This ability is similar to the spell
+      magic jar but does not require a receptacle and has a duration equal to 1
+      hour for every Hit Die the vrykolakas possesses. The target must make a DC
+      21 Will save or be possessed. If the possession fails, the vrykolakas
+      immediately dies. If the possession succeeds, the animal immediately
+      retreats to the vrykolakas's grave, where it attempts to bury itself in
+      the earth. If left uninterrupted for 1d4 days, the animal transforms into
+      a new vrykolakas with all the same statistics as the original. If
+      discovered and slain during this time, both the animal and the vrykolakas
+      spirit are destroyed. The save DC is Charisma-based.
+  - name: Pestilent Aura (Su)
+    description: >-
+      All creatures that come within 5 feet of a vrykolakas must save to resist
+      contracting bubonic plague. Any creature that successfully saves against a
+      vrykolakas's pestilent aura cannot be affected by the aura of that same
+      vrykolakas for 24 hours. The save DC is Charisma-based. Bubonic Plague:
+      aura-inhaled; save Fort DC 21; onset 1 day; frequency 1/day; effect 1d4
+      Con damage and 1 Cha damage and target is fatigued; cure 2 consecutive
+      saves.
+Description:
+  - >-
+    A restless and savage form of undead, the vrykolakas knows only rage and
+    relishes the suffering of those who failed it in life. Reanimated corpses of
+    wicked and vengeful souls denied even the basic burial rites, these
+    unreasoning vampire-kin unleash their wrath against the living,
+    indiscriminately spreading disease and death among all in their paths. Their
+    bitterness at their own disgraced ends drives them to a loathing of all life
+    and a jealous desire to see all other living creatures fall to their same
+    level of profanity and debasement. Such hardly proves a conscious plot,
+    though, but rather a fundamental instinct. Thus, a single vrykolakas can
+    devastate an entire village, potentially spawning a host of new vrykolakas
+    from their victims. A vrykolakas (the name both singular and plural) appears
+    as a terrible, bestial corruption of the being it was in life. Twisted by
+    rage and undeath into an animalistic shape, these undead bear the taint of
+    death, their bodies lean to the appearance of starvation and pocked with
+    evidence of rot and disease. Hunched and twisted, a vrykolakas's bent spine
+    is the same length it was in life if straightened, but the feral posture of
+    most cause them to slump to a mere 4-1/2 to 5 feet tall. The wasting of
+    death also greatly decreases the corpse's weight, reducing even hearty men
+    to at least 20 or 30 pounds less than they weighed in life. Ecology Despite
+    its savage and decayed appearance, a vrykolakas often passes through towns
+    and villages undeterred, due to its supernatural ability to disguise itself.
+    With the ability to cloak its terrible shape, a vrykolakas typically appears
+    little different than it did in life. Death removes much of the living
+    corpse's sense of who it was, though, so vrykolakas rarely reconstruct their
+    original appearances with complete accuracy. Thus, family and acquaintances
+    often notice the resemblance, but do not readily identify a vrykolakas as
+    the resurrected individual. A vrykolakas thrives upon disease and death,
+    drawing its vigor from those humanoids it passes near. It walks among the
+    living merely to infect them with its grave taint, passing on the subtle
+    corruption of death. Its mere touch drains the life from a victim as well,
+    stealing from its very essence. A vrykolakas's favored victims typically
+    come from among its former family members and friends, which it pursues with
+    only half a memory of any previous connection, yet a lingering malice, as
+    such former companions failed to prevent its accursed fate. A vrykolakas is
+    uniquely bound to the place where it died or its body was originally
+    interred. It must return to this site every Starday and bury itself amid the
+    earth or stones to rest for 24 hours. A vrykolakas is entirely helpless
+    during this period and can be easily destroyed if it can be located. The
+    vampire-kin understand this weakness, though, and go to great lengths to
+    avoid being followed to their resting places. Habitat & Society Vrykolakas
+    typically appear near or in rural areas close to their graves. They walk the
+    open streets of villages and hamlets during daylight hours, avoiding direct
+    interaction and attention, all the while infecting those nearby and robbing
+    them of their vitality. By night they seek to take their revenge more
+    overtly, wreaking havoc upon the community, destroying food and property,
+    attacking and smothering people in their beds, stealing valuables, and
+    generally terrorizing people. Many rural superstitions and prejudices
+    against strangers stem from tales of vrykolakas, slipping quietly into town
+    or lurking at the edges of a community, spreading death and despair among
+    the innocent. The Greek Vampire The vrykolakas (pronounced "vree-
+    KO-la-kahss") is an undead creature from Greek folklore. Synonymous with
+    revenants, these terrors manifest as humans that have returned from the
+    grave to perform some act before they can peacefully rest. Many stories of
+    the vrykolakas are not of horrid, evil undead, but of deceased persons
+    attempting to return to their former lives, such as the shoemaker who
+    returned from the grave to mend his children's shoes, carry water, and chop
+    firewood. The more vengeful type of vrykolakas gained stronger belief in
+    Greece after the arrival of Slavic immigrants, who brought with them tales
+    of blood-drinking vampires and werewolves. The word vrykolakas itself
+    borrows from Slavic, derived from the Bulgarian word vukodlak, vuk meaning
+    "wolf " and dlaka meaning "fur." This suggests that vrykolakas were somehow
+    associated with werewolves, most likely due to the Slavic belief that
+    werewolves became vampires after they died. A person could become a
+    vrykolakas in a variety of ways. The most common involve a person being evil
+    and immoral, an excommunication from the church, or improper burial rites.
+    Some thought that eating the meat of a sheep that had been killed or wounded
+    by a wolf or a werewolf would turn a person into a vrykolakas. A cat or
+    other animal jumping over a dead body could also result in its evil return.
+    Curses, such as "may the ground not receive thee," would also condemn the
+    recipient to undeath as a vrykolakas. Many also believed that a vrykolakas
+    would knock at your door and call your name, but could only do so once. If
+    one answered the door, he would die shortly thereafter, and become a
+    vrykolakas. For this reason, the superstition that one should not answer the
+    door until the second knock still exists in some Greek villages.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '482'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

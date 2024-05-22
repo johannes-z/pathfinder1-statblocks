@@ -1,0 +1,115 @@
+Name: Vescavor Swarm
+CR: '5'
+XP: '1600'
+Race: Vescavor Swarm
+MonsterSource: 'Pathfinder Campaign Setting: Lost Kingdoms 50'
+Alignment: CE
+Size: Diminutive
+Type: outsider
+SubType: (chaotic, evil, extraplanar, swarm)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+Aura: gibber (15 ft.)
+AC: 19, touch 17, flat-footed 16
+AC_Mods: (+3 Dex, +2 natural, +4 size)
+HP: '47'
+HD: (5d10+20)
+Saves: Fort +7, Ref +9, Will +2
+Fort: '7'
+Ref: '9'
+Will: '2'
+Immune: poison, swarm traits, weapon damage
+Resist: fire 10, electricity 10
+SR: '16'
+Speed: 30 ft., fly 40 ft. (good)
+Melee:
+  - swarm (2d6 plus distraction)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: distraction (DC 15), ravenous, traumatizing
+AbilityScores:
+  - 7
+  - 17
+  - 16
+  - 4
+  - 13
+  - 12
+BaseAtk: '5'
+CMB: '4'
+CMD: 12 (can't be tripped)
+Feats:
+  - Blind-Fight
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Fly +21
+  - Perception +9
+  - Stealth +23
+Languages:
+  - Abyssal
+Source: PFS S5-20
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Gibber (Su)
+    description: >-
+      Vescavors yammer the endless chorus of the Abyss. Any creature within 15
+      feet of a vescavor swarm or inside it must succeed at a DC 15 Will save or
+      be confused for 1 round. This is a mind-affecting compulsion insanity
+      effect. A creature that saves cannot be affected by the same vescavor
+      swarm's gibbering for 24 hours. The save DC is Constitution-based.
+  - name: Ravenous (Ex)
+    description: >-
+      Vescavors can devour nearly anything, with the exception of adamantine. If
+      the swarm attacks an object or structure, the vescavors ignore its
+      hardness if it is made of any substance other than adamantine.
+      Additionally, every round that a creature is in the same space as the
+      swarm, the vescavors begin devouring one object on the creature. The
+      object takes half its maximum hit points in damage and gains the broken
+      condition. If the vescavors attack an object with the broken condition, it
+      is destroyed. An attended or magic object must succeed at a DC 15 Reflex
+      save to negate this effect. The save DC is Constitution-based.
+  - name: Traumatizing (Su)
+    description: >-
+      Vescavors embody the meanest depravities of the Outer Rifts, and walking
+      among them is akin to being trapped in the Abyss itself. Any creature that
+      spends more than 3 rounds inside a vescavor swarm must succeed at a DC 13
+      Will save or become schizophrenic (Pathfinder RPG GameMastery Guide 250),
+      which imparts a -4 penalty on all Wisdom and Charismabased skill checks.
+      The creature is also unable to take 10 or take 20 on checks as it loses
+      its ability to tell the difference between what is real and what is not.
+      Each time the creature finds itself in a stressful situation (such as
+      combat), it must succeed at a DC 16 Will save or become confused for 1d6
+      rounds. This condition lasts until it is removed by greater restoration,
+      heal, limited wish, miracle, or wish. It is also possible to remove this
+      condition after several weeks, though that is not an option in this
+      scenario.
+BeforeCombat: >-
+  The vescavor swarms are spread throughout the camp, busily devouring
+  everything they find- structures included.
+DuringCombat: >-
+  The swarms move in on the PCs attempting to satiate their ravenous appetite. A
+  semi-intelligent vescavor swarm generally attacks the nearest PCs, but it also
+  tries to catch as many PCs as possible in its chaotic chorus. Unless the
+  derakni is present to direct them or the PCs continue to fight, the vescavors
+  do not pursue fleeing enemies farther than 50 feet from the camp.
+Morale: >-
+  Driven by the derakni and the need to feed, the swarms fight until destroyed
+  or allowed to consume more of the camp for at least 5 minutes, at which point
+  they meander back to the Worldwound.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8108'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

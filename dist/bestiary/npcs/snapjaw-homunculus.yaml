@@ -1,0 +1,80 @@
+Name: Snapjaw Homunculus
+CR: '2'
+XP: '600'
+Race: homunculus
+MonsterSource: Pathfinder RPG Bestiary 176
+Alignment: NE
+Size: Tiny
+Type: construct
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +4
+AC: 16, touch 16, flat-footed 12
+AC_Mods: (+3 Dex, +1 dodge, +2 size)
+HP: '16'
+HD: (3d10)
+Saves: Fort +1, Ref +6, Will +2
+Fort: '1'
+Ref: '6'
+Will: '2'
+Immune: construct traits
+Speed: 20 ft., fly 50 ft. (good)
+Melee:
+  - bite +5 (1d6/x3 plus poison)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: dislocating jaw
+AbilityScores:
+  - 10
+  - 17
+  - —
+  - 10
+  - 12
+  - 7
+BaseAtk: '3'
+CMB: '4'
+CMD: '15'
+Feats:
+  - Dodge
+  - Lightning Reflexes
+Skills:
+  - Fly +11
+  - Perception +4
+  - Stealth +14
+Languages:
+  - Common (cannot speak)
+  - telepathic link
+Source: AP 44
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dislocating Jaw (Ex)
+    description: >-
+      A snapjaw homunculus's jaws can open very wide, giving its bite attack a
+      x3 critical multiplier.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 13; frequency 1/minute for 60 minutes; effect
+      sleep for 1 minute; cure 1 save.
+DuringCombat: >-
+  The snapjaw homunculi attack intruders with their bear trap jaws. If an
+  opponent succumbs to their poison, they switch to a new enemy.
+Morale: >-
+  If reduced to fewer than 8 hit points, the snapjaw homunculi flee through the
+  trapdoor to join their master, Grine.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1599'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

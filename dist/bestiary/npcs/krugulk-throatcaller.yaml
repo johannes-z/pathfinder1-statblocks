@@ -1,0 +1,96 @@
+Name: Krugulk Throatcaller
+CR: '4'
+XP: '1200'
+Race: boggard
+Class: cleric of Gogunta 3
+MonsterSource: Pathfinder RPG Bestiary 37
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (boggard)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +6
+AC: 16, touch 11, flat-footed 15
+AC_Mods: (+1 Dex, +2 armor, +3 natural)
+HP: '26'
+HD: (3d8+9)
+Saves: Fort +4, Ref +2, Will +5
+Fort: '4'
+Ref: '2'
+Will: '5'
+Speed: 20 ft., swim 30 ft.
+Melee:
+  - mwk morningstar +6 (1d8+3), tongue -1 touch (sticky tongue)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 12, 2d6), terrifying croak (DC 14)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 3rd; concentration +5)
+  values:
+    - label: 5/day
+      value: bleeding touch (1 round), touch of evil (1 round)
+SpellsPrepared: >-
+  Cleric of Gogunta Spells Prepared (CL 3rd; concentration +5)   2nd-bull's
+  strength, death knellD (DC 14), spiritual weapon   1st-bane (DC 13), doom (DC
+  13), inflict light wounds (DC 13), protection from goodD   0 (at will)-bleed
+  (DC 12), guidance, resistance, virtue
+SpellDomains: Death, Evil
+AbilityScores:
+  - 14
+  - 12
+  - 13
+  - 8
+  - 15
+  - 12
+BaseAtk: '2'
+CMB: '4'
+CMD: '14'
+Feats:
+  - Toughness
+  - Weapon Focus (morningstar)
+Skills:
+  - Acrobatics +2 (+18 when jumping)
+  - Perception +6
+  - Stealth +2 (+10 in swamps)
+  - Swim +11
+Languages:
+  - Boggard
+SQ: hold breath, swamp stride
+Source: AP 63
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Krugulk casts protection from good on himself in the last few seconds before
+  starting combat if he can.
+DuringCombat: >-
+  The boggard chief starts by casting doom, then spiritual weapon. He prefers to
+  hang back and cast spells like bull's strength and guidance on his giant
+  dragonfly, and singles out particularly effective PCs for his bane spell. He
+  doesn't hesitate to cast death knell on a fallen ally if the opportunity
+  presents itself.
+Morale: >-
+  Krugulk knows his position in the tribe is dependant on shows of strength, and
+  fights to the death as long as other boggards are still alive to witness it.
+  If all the other boggards are struck down, he immediately flees for the
+  tribe's camp, preparing tales of how he "heroically defeated the monsters that
+  ambushed his group" to explain the suspicious loss of his hunting party.
+Gear: >-
+  leather armor, masterwork morningstar, belt of incredible Dexterity +2, amber
+  necklace worth 300 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3504'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

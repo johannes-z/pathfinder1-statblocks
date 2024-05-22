@@ -1,0 +1,121 @@
+Name: Pirate Bomber
+CR: '9'
+XP: '6400'
+Race: Human
+Class: alchemist 10
+MonsterSource: Pathfinder RPG Advanced Player's Guide 26
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - low-light vision, see invisibility
+  - Perception +17
+AC: 24, touch 16, flat-footed 18
+AC_Mods: (+2 armor, +6 Dex, +6 natural)
+HP: '93'
+HD: (10d8+45)
+Saves: Fort +11, Ref +15, Will +7
+Fort: '11'
+Ref: '15'
+Will: '7'
+Immune: fire, poison
+Speed: 30 ft.
+Melee:
+  - mwk spiked gauntlet +16/+11 (1d4 plus poison)
+Ranged:
+  - bomb +17/+12 (5d6+4 acid or fire)
+  - Rapid Shot +15/+15/+10 (5d6+4 acid or fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bomb 14/day (5d6+4 acid or fire, DC 19)
+AbilityScores:
+  - 10
+  - 22
+  - 14
+  - 18
+  - 10
+  - 8
+BaseAtk: '7'
+CMB: '7'
+CMD: '23'
+Feats:
+  - Brew Potion
+  - Exotic Weapon Proficiency (one siege engine)
+  - Iron Will
+  - Point-Blank Shot
+  - Rapid Shot
+  - Throw Anything
+  - Weapon Finesse
+  - Weapon Focus (bomb)
+Skills:
+  - Craft (alchemy) +19
+  - Knowledge (arcana) +19
+  - Knowledge (engineering) +16
+  - Knowledge (local) +11
+  - Perception +17
+  - Profession (sailor) +10
+  - Sleight of Hand +21
+  - Spellcraft +19
+  - Stealth +18
+  - Swim +12
+Languages:
+  - Common
+  - Dwarven
+  - Elven
+  - Osiriani
+  - Polyglot
+SQ: >-
+  alchemy (alchemy crafting +10, identify potions), mutagen (+4/-2, +2 natural,
+  100 minutes), discoveries (acid bomb, dispelling bomb, fast bombs, force bomb
+  [5d4+4 force plus knock prone], precise bombs [4 squares]), poison use, swift
+  alchemy, swift poisoning
+Source: AP 60
+IsTemplate: '0'
+BeforeCombat: >-
+  The pirate bombers drink their extracts of false life everyday. When they hear
+  the sounds of combat in area F2, they drink their mutagens and extracts of
+  barkskin, heroism, protection from energy, see invisibility, cat's grace, and
+  keen senses.
+DuringCombat: >-
+  The pirate bombers drink their extracts of haste on the first round of combat,
+  using Rapid Shot to throw additional bombs. They use force bombs to immobilize
+  enemies or dispelling bombs against spellcasters. The bombers drink extracts
+  of dragon's breath or vomit swarm to use against groups of enemies. If
+  cornered in melee combat, the pirate bombers use their swift poisoning ability
+  to apply giant wasp poison to their spiked gauntlets.
+Morale: If reduced to fewer than 20 hit points, a pirate bomber flees.
+Gear: >-
+  potion of invisibility, giant wasp poison (4 doses), liquid ice* (2), mutagen
+  (Dex), thunderstones (2)
+OtherGear: >-
+  masterwork spiked gauntlet, bracers of armor +2, alchemist's kit*, formula
+  book (contains all prepared formulae), 40 gp
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without their extracts and mutagens, the pirate bombers' statistics are AC 14,
+  touch 12, flat-footed 12; hp 78; Fort +9, Ref +9, Will +6; Melee mwk spiked
+  gauntlet +10/+5 (1d4 plus poison); Ranged bomb +11/+6 (5d6+4 fire); Dex 14,
+  Wis 12; CMD 19; Skills &#8211;2 to all skills, Perception +14.
+ExtractsPrepared: >-
+  Alchemist Extracts Prepared (CL 10th)   4th-arcane eye, dragon's breath* (DC
+  18)   3rd-cure serious wounds, haste, heroism, protection from energy  
+  2nd-barkskin, cat's grace, false life, see invisibility, vomit swarm*  
+  1st-bomber's eye*, cure light wounds, expeditious retreat, jump, keen senses*,
+  true strike
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3307'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

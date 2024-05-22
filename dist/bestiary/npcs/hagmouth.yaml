@@ -1,0 +1,91 @@
+Name: Hagmouth
+CR: '13'
+XP: '25600'
+Race: crag linnorm
+MonsterSource: Pathfinder RPG Bestiary 190
+Alignment: CE
+Size: Gargantuan
+Type: dragon
+Init: '7'
+Senses:
+  - darkvision 120 ft., low-light vision, scent, true seeing
+  - Perception +22
+Aura: stench (30 ft., DC 22, 10 rounds)
+AC: 28, touch 9, flat-footed 25
+AC_Mods: (+3 Dex, +19 natural, -4 size)
+HP: '172'
+HD: (15d12+75)
+HP_Mods: regeneration 10 (cold iron)
+Saves: Fort +16, Ref +12, Will +13
+Fort: '16'
+Ref: '12'
+Will: '13'
+DefensiveAbilities: freedom of movement
+DR: 15/cold iron
+Immune: curse effects, fire, mind-affecting effects, paralysis, poison, sleep
+SR: '25'
+Speed: 30 ft., fly 50 ft. (clumsy), swim 30 ft.
+Melee:
+  - bite +23 (2d8+12/19-20 plus poison), 2 claws +23 (1d8+12)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  breath weapon (120-ft. line, 15d8 fire damage, Reflex DC 22 half, usable every
+  1d4 rounds), death curse
+AbilityScores:
+  - 34
+  - 16
+  - 21
+  - 5
+  - 18
+  - 21
+BaseAtk: '15'
+CMB: '31'
+CMD: 44 (can't be tripped)
+Feats:
+  - Blind-Fight
+  - Cleave
+  - Combat Reflexes
+  - Great Fortitude
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Power Attack
+Skills:
+  - Fly +7
+  - Perception +22
+  - Swim +38
+Languages:
+  - Aklo
+  - Draconic
+  - Necril
+Source: AP 48
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 22; frequency 1/round for 10 rounds; effect 2d6
+      fire damage and 1d4 Con drain; cure 2 consecutive saves.
+Gender: Male
+DuringCombat: >-
+  Hagmouth uses his breath weapon on opponents before attacking with his claws
+  and poisoned bite. He clumsily takes to the air if surrounded, attempting to
+  scatter foes with his breath weapon before landing to attack again.
+Morale: >-
+  Hagmouth has not survived as long as he has by foolishly throwing away his
+  life in battle. If reduced to fewer than 70 hit points, he flees.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1794'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

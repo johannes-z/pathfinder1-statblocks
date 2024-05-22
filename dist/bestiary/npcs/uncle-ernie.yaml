@@ -1,0 +1,140 @@
+Name: Uncle Ernie
+CR: '17'
+XP: '102400'
+Race: Very old blue dragon
+Alignment: LE
+Size: Gargantuan
+Type: dragon
+SubType: (earth)
+Init: '3'
+Senses:
+  - dragon senses
+  - Perception +29
+Aura: electricity aura (10 ft), frightful presence (270 ft., DC 25)
+AC: 34, touch 5, flat-footed 34
+AC_Mods: (-1 Dex, +29 natural, -4 size)
+HP: '275'
+HD: (22d12+132)
+Saves: Fort +19, Ref +12, Will +17
+Fort: '19'
+Ref: '12'
+Will: '17'
+DR: 15/magic
+Immune: electricity, paralysis, sleep
+SR: '28'
+Speed: 40 ft., burrow 20 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +30 (4d6+16/19-20) and 2 claws +29 (2d8+11) and tail slap +27 (2d8+16)
+    and 2 wings +27 (2d6+5)
+Space: 20 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  breath weapon (120 ft. line, DC 27, 18d8 electricity), crush (Medium
+  creatures, DC 27, 4d6+16), desert thirst (DC 27), mirage, tail sweep (Small
+  creatures, DC 27, 2d6+16)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 22nd)
+  values:
+    - label: At Will
+      value: >-
+        create water, ghost sound (DC 14), hallucinatory terrain (DC 18), minor
+        image (DC 16), ventriloquism (DC 15)
+SpellsKnown:
+  header: Spells Known (CL 11th; melee touch +30, ranged touch +17)
+  values:
+    - label: 5th (4/day)
+      value: hold monster (DC 19), persistent image (DC 19)
+    - label: 4th (7/day)
+      value: dimension door, enervation, stoneskin
+    - label: 3rd (7/day)
+      value: dispel magic, displacement, haste, vampiric touch
+    - label: 2nd (7/day)
+      value: darkness, false life, invisibility, resist energy, shatter (DC 16)
+    - label: 1st (7/day)
+      value: alarm, mage armor, shield, true strike, unseen servant
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 14), detect magic, light, mage hand, mending,
+        message, read magic, resistance
+AbilityScores:
+  - 33
+  - 8
+  - 23
+  - 18
+  - 19
+  - 18
+BaseAtk: '22'
+CMB: '37'
+CMD: 46 (50 vs. trip)
+Feats:
+  - Combat Casting
+  - Dazzling Display
+  - Deadly Stroke
+  - Extend Spell
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Multiattack
+  - Shatter Defenses
+  - Silent Spell
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +29
+  - Fly +10
+  - Intimidate +29
+  - Knowledge (arcana) +29
+  - Knowledge (geography) +29
+  - Knowledge (local) +29
+  - Perception +29
+  - Spellcraft +29
+  - Stealth +12
+  - Survival +29
+Languages:
+  - Auran
+  - Common
+  - Draconic
+  - Giant
+  - Infernal
+SQ: mirage, sound imitation
+Source: Sword of Air-Chapter 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Desert Thirst (Su)
+    description: >-
+      A blue dragon can cast create water at will (CL 22). Alternatively, it can
+      destroy an equal amount of liquid in a 10 ft. burst. Unattended liquids
+      are instantly reduced to sand. Liquid-based magic items (such as potions)
+      and items in a creature's possession must succeed on a Will save (DC 27)
+      or be destroyed.
+  - name: Electricity Aura (Su)
+    description: >-
+      A very old blue dragon is surrounded by an aura of electricity. Creatures
+      within 10 ft. take 1d6 points of electricity damage at the beginning of
+      the dragon's turn.
+  - name: Mirage (Su)
+    description: >-
+      A very old blue dragon can make itself appear to be in two places at once
+      as a free action for 22 rounds per day. This ability functions as project
+      image but the dragon can use its breath weapon through the mirage.
+  - name: Sound Imitation (Ex)
+    description: >-
+      A very young or older blue dragon can mimic any voice or sound it has
+      heard by making a successful Bluff check against a listener's Sense Motive
+      check.
+Gender: Male
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: very old
+CompanionFamiliarLink: '0'
+id: '12554'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

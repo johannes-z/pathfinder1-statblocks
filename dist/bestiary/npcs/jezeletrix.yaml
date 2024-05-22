@@ -1,0 +1,153 @@
+Name: Jezeletrix
+CR: '8'
+XP: '4800'
+Race: vulpinal agathion
+MonsterSource: The Great Beyond 62
+Alignment: CE
+Size: Small
+Type: outsider
+SubType: (agathion, extraplanar, good)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +14
+AC: 22, touch 13, flat-footed 20
+AC_Mods: (+4 armor, +2 Dex, +5 natural, +1 size)
+HP: '100'
+HD: (8d10+56)
+Saves: Fort +8, Ref +10, Will +9; +4 vs. poison
+Fort: '8'
+Ref: '10'
+Will: '9'
+Save_Mods: +4 vs. poison
+DR: 5/-
+Immune: electricity, petrification
+Resist: acid 5, cold 10, fire 5, sonic 10
+SR: '16'
+Weaknesses: tormented
+Speed: 20 ft.
+Melee:
+  - >-
+    2 claws +11 (1d3+2), bite +11 (1d4+2) or torturous touch +11 touch (2d6 plus
+    1d6 Dex plus pain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: agonized wail, baleful gaze, pounce, torturous touch
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +0)
+  values:
+    - label: Constant
+      value: detect evil, mage armor, speak with animals, tongues
+    - label: 3/day
+      value: >-
+        invisibility (self only), remove disease, teleport (self plus 50 lbs. of
+        objects only)
+    - label: 1/day
+      value: >-
+        charm monster (DC 16), dispel evil, flame arrow, holy smite (DC 16),
+        major image (DC 15)
+AbilityScores:
+  - 14
+  - 15
+  - 23
+  - 18
+  - 16
+  - 15
+BaseAtk: '8'
+CMB: '9'
+CMD: '21'
+Feats:
+  - Combat Reflexes
+  - Diehard
+  - Endurance
+  - Improved Initiative
+  - Lightning Reflexes
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +13
+  - Bluff +13
+  - Intimidate +10
+  - Knowledge (arcana) +16
+  - Knowledge (planes) +19
+  - Perception +14
+  - Perform (oratory) +13
+  - Sense Motive +14
+  - Spellcraft +15
+  - Stealth +17
+  - Use Magic Device +13
+RacialMods: +8 Intimidate
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - speak with animals
+  - tongues
+SQ: bardic knowledge, lay on hands
+Source: AP 28
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Agonized Wail (Su)
+    description: >-
+      As a standard action, Jezeletrix can unleash a terrifying shriek. This
+      affects all creatures with fewer than 8 Hit Dice within a 120-foot burst.
+      Affected creatures must make a DC 16 Will save or become shaken until they
+      move more than 120 feet away from Jezeletrix. Those who successfully save
+      are immune to this attack for 1 minute. This is a mind-affecting fear
+      effect. The save DC is Charisma-based.
+  - name: Baleful Gaze (Su)
+    description: >-
+      Any creature within 60 feet who meets Jezeletrix's gaze must succeed on a
+      DC 16 Fortitude save or take 1d4 points of Strength drain, 1d4 points of
+      Constitution drain, and 1d4 points of Charisma drain. Whatever the result
+      of the saving throw, a creature cannot be affected by the same broken
+      soul's baleful gaze more than once per minute. The save DC is
+      Charisma-based.
+  - name: Bardic Knowledge (Ex)
+    description: >-
+      Jezeletrix gains a +4 bonus on all Knowledge checks, and can make
+      Knowledge checks untrained.
+  - name: Lay on Hands (Su)
+    description: >-
+      Once per day, Jezeletrix can heal 4d6 points of damage by touch (a
+      standard action, unless she targets herself, in which case it's a swift
+      action). This ability otherwise functions like the paladin's lay on hands
+      ability.
+  - name: Torturous Touch (Su)
+    description: >-
+      As a standard action, Jezeletrix can attempt this touch attack. The
+      creature touched must succeed on a DC 16 Fortitude save or take 2d6 points
+      of slashing damage and 1d6 points of Dexterity damage. In addition, the
+      touched creature collapses to the ground in pain, falling prone and
+      writhing on the ground, helpless, for 1d4 rounds. All of these effects are
+      negated with a successful save. The save DC is Charisma-based.
+  - name: Tormented (Ex)
+    description: >-
+      Jezeletrix takes a -10 penalty on concentration checks due to her wracking
+      pain. Her wracking pains have also removed her vulpinal calm emotions
+      aura.
+BeforeCombat: If she hears intruders approaching her den, Jezeletrix becomes invisible.
+DuringCombat: >-
+  Jezeletrix lost all of her gear, and without something to use flame arrow on,
+  she opens combat with holy smite, followed by charm monster, in an attempt to
+  neutralize the most heavily armored PC. She saves her agonized wail to use
+  whenever she's surrounded, and in melee abandons her spells to focus on using
+  her torturous touch.
+Morale: Jezeletrix fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: broken soul|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '428'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

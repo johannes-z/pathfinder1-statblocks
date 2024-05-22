@@ -1,0 +1,118 @@
+Name: Ilquis
+CR: '6'
+XP: '2400'
+Race: Lurker in light
+Class: sorcerer 1
+MonsterSource: Pathfinder RPG Bestiary 2 180
+Alignment: NE
+Size: Small
+Type: fey
+SubType: (extraplanar)
+Init: '9'
+Senses:
+  - low-light vision
+  - Perception +13
+AC: 19, touch 16, flat-footed 14
+AC_Mods: (+5 Dex, +3 natural, +1 size)
+HP: '68'
+HD: (9d6+37)
+Saves: Fort +6, Ref +11, Will +10
+Fort: '6'
+Ref: '11'
+Will: '10'
+DefensiveAbilities: blend with light
+DR: 5/cold iron
+Immune: blindness
+Speed: 30 ft., fly 30 ft. (average)
+Melee:
+  - +1 dagger +11 (1d3+2/19-20 plus poison)
+  - 2 claws +10 (1d3+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +3d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +13)
+  values:
+    - label: At Will
+      value: dancing lights, flare (DC 15), ghost sound (DC 15), light, mage hand
+    - label: 3/day
+      value: >-
+        daylight, blindness/deafness (DC 17) Bloodline Spell-Like Abilities (CL
+        1st; concentration +6)
+    - label: 8/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 1st; concentration +6)
+  values:
+    - label: 1st (5/day)
+      value: charm person (DC 16), color spray (DC 16)
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, open/close, prestidigitation
+AbilityScores:
+  - 13
+  - 20
+  - 19
+  - 16
+  - 14
+  - 21
+BaseAtk: '4'
+CMB: '4'
+CMD: '19'
+Feats:
+  - Deceitful
+  - Eschew Materials
+  - Flyby Attack
+  - Improved Initiative
+  - Persuasive
+  - Weapon Finesse
+Skills:
+  - Acrobatics +16
+  - Bluff +18
+  - Diplomacy +7
+  - Disguise +7
+  - Escape Artist +16
+  - Fly +18
+  - Intimidate +7
+  - Knowledge (arcana) +14
+  - Knowledge (planes) +11
+  - Perception +13
+  - Spellcraft +11
+  - Stealth +20
+  - Survival +10
+Languages:
+  - Aklo
+  - Common
+  - Sylvan
+SQ: >-
+  daylight door, poison use, ritual gate, bloodline arcana (+2 DC for compulsion
+  spells)
+Source: The Midnight Mirror
+IsTemplate: '0'
+Bloodline: Fey
+BeforeCombat: >-
+  If Ilquis has time to prepare for battle, he casts daylight and hides within
+  the bright illumination the spell provides.
+DuringCombat: >-
+  Ilquis is invisible in bright light, a fact he uses to his tactical advantage.
+  He casts blindness/deafness on rogues and spellcasters, then begins to sneak
+  attack while vocally taunting the party.
+Morale: >-
+  If reduced to fewer than 15 hit points, Ilquis uses his daylight door ability
+  to escape.
+Gear: scroll of continual flame, wand of dominate person (CL 10th, 3 charges)
+OtherGear: +1 dagger, 348 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2757'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

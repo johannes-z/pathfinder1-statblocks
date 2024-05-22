@@ -1,0 +1,123 @@
+Name: Cactant
+CR: '6'
+XP: '2400'
+Alignment: CG
+Size: Huge
+Type: plant
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +14
+AC: 19, touch 10, flat-footed 17
+AC_Mods: (+2 Dex, +9 natural, -2 size)
+HP: '76'
+HD: (9d8+36)
+Saves: Fort +10, Ref +5, Will +7
+Fort: '10'
+Ref: '5'
+Will: '7'
+DR: 10/slashing
+Immune: plant traits
+Weaknesses: vulnerability to fire
+Speed: 30 ft.
+Melee:
+  - 2 slams +11 (1d8+7 plus bleed)
+Ranged:
+  - rock +7 (2d6+10)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: bleed (1d4), needles, needle storm, rock throwing (150 ft.)
+AbilityScores:
+  - 25
+  - 14
+  - 19
+  - 12
+  - 15
+  - 12
+BaseAtk: '6'
+CMB: '15'
+CMD: '27'
+Feats:
+  - Alertness
+  - Cleave
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Perception)
+Skills:
+  - Diplomacy +5
+  - Intimidate +5
+  - Knowledge (nature) +5
+  - Perception +14
+  - Sense Motive +7
+  - Stealth +1
+  - Survival +6
+Languages:
+  - Cactant
+  - Common
+  - Sylvan
+SQ: animate plants, double damage against objects, plantspeech
+Environment: warm deserts
+Organization: solitary or grove (2-7)
+Treasure: standard
+Description_Visual: >-
+  This creature appears to be a gigantic animated cactus covered in many sharp
+  needles.
+Group: Plant Guardian
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Animate Plants (Sp)
+    description: >-
+      A plant guardian can animate any plants of the same type within 180 feet
+      at will, controlling up to two such plants at a time. It takes 1 full
+      round for the plant to uproot itself, after which it moves at a speed of
+      10 feet and fights as a plant of the same type as the one animating it
+      (exceptions are noted in each entry below), gaining the plant guardian's
+      vulnerability to fire. If the plant guardian that animated it terminates
+      the animation, moves out of range, or is incapacitated, the plant
+      immediately takes root wherever it is and returns to its normal state.
+  - name: Double Damage against Objects (Ex)
+    description: >-
+      A plant guardian or animated tree that makes a full attack against an
+      object or structure deals double damage.
+  - name: Plantspeech (Ex)
+    description: >-
+      A plant guardian has the ability to converse with plants as if subject to
+      a continual speak with plants spell, and most plants greet them with an
+      attitude of friendly or helpful.
+  - name: Needles (Ex)
+    description: >-
+      The body and limbs of a cactant are covered in the characteristic needles
+      of a cactus, and deal 1d4 bleed damage with a slam attack. Any creature
+      grappling a cactant or attacking it with a natural weapon automatically
+      takes bleed damage.
+  - name: Needle Storm (Ex)
+    description: >-
+      Once per round as a standard action, a cactant can release a hail of
+      needles in a 30-foot-radius burst. Creatures caught in the area take 7d6
+      points of piercing damage and 2d4 bleed damage. A successful DC 18 Reflex
+      save reduces the damage by half and negates the bleed damage. A cactant
+      can use this ability once every 1d4 rounds, and no more than five times
+      per day. The save DC is Constitution-based.
+Description:
+  - >-
+    The cactants are the plant guardians of hot, dry deserts. A cactant
+    resembles a large saguaro cactus with thick arms.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5033'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

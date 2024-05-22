@@ -1,0 +1,186 @@
+Name: Hakotep I
+CR: '19'
+XP: '204800'
+Race: human
+Class: sorcerer 18
+MonsterSource: see page 84
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (human)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+Aura: great despair (30 ft., DC 27)
+AC: 37, touch 16, flat-footed 34
+AC_Mods: (+4 armor, +3 deflection, +2 Dex, +1 dodge, +13 natural, +4 shield)
+HP: '260'
+HD: (18d6+195)
+Saves: Fort +18, Ref +14, Will +17
+Fort: '18'
+Ref: '14'
+Will: '17'
+DefensiveAbilities: channel resistance +4, rejuvenation
+DR: 10/-
+Immune: cold, electricity, undead traits
+Resist: fire 10
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - flail of kings +19/+14 (1d8+10/19-20 plus insidious mummy rot)
+  - slam +17 (1d6+12 plus insidious mummy rot)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel rot, insidious mummy rot (DC 27), sandstorm wrath 3/day (12d8 fire and
+  slashing, DC 27), undead mastery (DC 27)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 18th; concentration +26)
+  values:
+    - label: 11/day
+      value: elemental ray (1d6+9 electricity)
+    - label: 2/day
+      value: elemental blast (18d6 electricity, DC 27)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 18th; concentration +26)
+  values:
+    - label: 9th (3/day)
+      value: meteor swarm (DC 29)
+    - label: 8th (6/day)
+      value: polar ray, stormboltsAPG (DC 29), summon monster VIII (elementals only)
+    - label: 7th (7/day)
+      value: >-
+        deflectionAPG, elemental body IV, mass hold person (DC 26), prismatic
+        spray (DC 27)
+    - label: 6th (7/day)
+      value: >-
+        chain lightning (DC 27), elemental body III, siroccoAPG (DC 26), tar
+        poolUC (DC 24)
+    - label: 5th (7/day)
+      value: >-
+        cone of cold (DC 25), elemental body II, mind fog (DC 24), sonic
+        thrustUM (DC 25), wall of force
+    - label: 4th (8/day)
+      value: >-
+        ball lightningAPG (DC 25), boneshatter (see page 15, DC 22), crushing
+        despair (DC 23), elemental body I, enervation
+    - label: 3rd (8/day)
+      value: >-
+        elemental auraAPG (DC 24), howling agonyUM (DC 21), lightning bolt (DC
+        24), protection from energy, vampiric touch
+    - label: 2nd (8/day)
+      value: >-
+        blindness/deafness (DC 20), bull's strength, false life, hideous
+        laughter (DC 21), mirror image, scorching ray (electricity)
+    - label: 1st (8/day)
+      value: >-
+        burning hands (electricity, DC 21), mage armor, magic missile, shield,
+        shocking grasp, unseen servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 18), detect magic, ghost sound (DC 18), mage
+        hand, prestidigitation (DC 18), ray of frost, read magic, touch of
+        fatigue (DC 18)
+AbilityScores:
+  - 26
+  - 14
+  - —
+  - 12
+  - 10
+  - 26
+BaseAtk: '9'
+CMB: '17'
+CMD: '33'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Elemental Focus (electricity)
+  - Eschew MaterialsB
+  - Greater Spell Focus (evocation)
+  - Improved Critical (flail)
+  - Improved InitiativeB
+  - Iron Will
+  - Lightning ReflexesB
+  - Quicken Spell
+  - Spell Focus (evocation)
+  - Spell Focus (enchantment)
+  - Spell Penetration
+  - ToughnessB
+Skills:
+  - Fly +14
+  - Intimidate +28
+  - Knowledge (arcana) +14
+  - Knowledge (nobility) +11
+  - Knowledge (religion) +14
+  - Perception +21
+  - Sense Motive +29
+  - Spellcraft +14
+  - Stealth +10
+Languages:
+  - Ancient Osiriani
+  - Auran
+SQ: >-
+  bloodline arcana (change energy damage spells to electricity), elemental
+  movement
+Source: AP 84
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Rejuvenation (Su)
+    description: >-
+      One day after Hakotep is destroyed, the necromantic energies within him
+      begin to rebuild his body. This process takes 1d10 days. If the body is
+      destroyed before that time passes, the process starts anew. After this
+      time, Hakotep awakens fully healed. The normal methods for permanently
+      destroying a mummy lord are insufficient to counteract Hakotep's
+      rejuvenation. Only by placing the Mask of the Forgotten Pharaoh on
+      Hakotep's dead body (thus rejoining Hakotep's ka with the other fragments
+      of his soul) can the Sky Pharaoh be permanently destroyed (see Concluding
+      the Adventure on page 54).
+Gender: Male
+Bloodline: elemental (air)
+BeforeCombat: >-
+  Hakotep casts mage armor and false life on himself every day. As soon as the
+  stone block in area E21 is opened, Hakotep casts bull's strength, mirror
+  image, and shield.
+DuringCombat: >-
+  Hakotep orders two of his shield guardians to guard him (all attacks against
+  Hakotep take a &#8211;2 penalty for each golem adjacent to him) while the
+  other two engage opponents in melee. Thereafter, Hakotep concentrates his
+  attacks on the wearer of the Mask of the Forgotten Pharaoh, preferring to use
+  evocation spells he can cast at range, such as meteor swarm, polar ray,
+  prismatic spray, and chain lighting, while taking advantage of the metamagic
+  abilities of his crook and flail of kings.
+Morale: >-
+  The first time Hakotep takes damage in combat, he activates one of his shield
+  guardians' shield other abilities. If reduced to 100 hit points or fewer,
+  Hakotep casts tar pool to entangle as many of the PCs as possible, or casts
+  mass hold person to slow them down. He then flies to reposition himself in the
+  eastern portion of the room, ordering his shield guardian bodyguards to
+  accompany him, and continues throwing spells at opponents. If reduced to 50
+  hit points or fewer, Hakotep directs him golems to cover his retreat while he
+  flees to the temple of Set (area E9). There, Hakotep kneels before the altar
+  and beseeches Set for aid: "Father of Darkness! Would you deny your beloved
+  our throne? We call for your aid!" Set does not answer this prayer, and
+  Hakotep makes his final stand in the temple, fighting until destroyed.
+Gear: scroll of reverse gravity, scroll of time stop
+OtherGear: >-
+  amulet of natural armor +4, cloak of resistance +4, crook and flail of kings
+  (+2 thundering flail, see page 61), khepresh of refuge (see page 61), gold and
+  emerald necklace (amulet keyed to shield guardians in area E24, worth 20,000
+  gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: mummy lord|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6253'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

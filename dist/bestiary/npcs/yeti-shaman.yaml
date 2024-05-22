@@ -1,0 +1,118 @@
+Name: Yeti Shaman
+CR: '12'
+XP: '19200'
+Race: yeti
+Class: druid 9
+MonsterSource: The Tome of Horrors Complete 656 "Yeti"
+Alignment: 'N'
+Size: Large
+Type: monstrous humanoid
+SubType: (cold)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +22
+AC: 14, touch 10, flat-footed 13
+AC_Mods: (+1 Dex, +4 natural, -1 size)
+HP: '101'
+HD: (4d10+8 plus 9d8+18 plus 13)
+Saves: Fort +9, Ref +8, Will +15; +4 vs. fey and plant-targeted effects
+Fort: '9'
+Ref: '8'
+Will: '15'
+Save_Mods: +4 vs. fey and plant-targeted effects
+Immune: cold, poison
+Weaknesses: vulnerability to fire
+Speed: 40 ft.
+Melee:
+  - 2 claws +12 (1d6+3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: cold, frightful gaze (DC 14), squeeze, wild shape 3/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 9th; concentration +12)
+  values:
+    - label: 9/day
+      value: lightning lord
+    - label: 6/day
+      value: storm burst (1d6+4 nonlethal damage)
+SpellsPrepared: >-
+  Spells Prepared (CL 9th; melee touch +12, ranged touch +10):   5th-ice stormD,
+  summon nature's ally V   4th-ball lightning (DC 17), sleet stormD, summon
+  nature's ally IV   3rd-call lightningD (DC 16), cure moderate wounds, dominate
+  animal (DC 16), summon nature's ally III, wind wall   2nd-animal messenger,
+  aspect of the bearAPG, fog cloudD, fog cloud, lesser restoration, summon
+  nature's ally II   1st-affect normal fog#, alter winds (DC 14), obscuring
+  mistD, pass without trace, speak with animals, summon nature's ally I   0 (at
+  will)-create water, guidance, guidance, virtue
+SpellDomains: Weather
+AbilityScores:
+  - 17
+  - 12
+  - 15
+  - 8
+  - 17
+  - 14
+BaseAtk: '10'
+CMB: +14 (+18 to grapple)
+CMD: '25'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Endurance
+  - Iron Will
+  - Powerful Shape
+  - Rending Claws
+  - Toughness
+Skills:
+  - Climb +11
+  - Diplomacy +5
+  - Handle Animal +11
+  - Intimidate +13
+  - Knowledge (geography) +7
+  - Knowledge (nature) +9
+  - Perception +22
+  - Sense Motive +5
+  - Survival +18
+RacialMods: +4 Perception, +12 to Stealth in snow
+Languages:
+  - Druidic
+  - Giant
+SQ: trackless step, wild empathy +11, woodland stride
+Source: Sword of Air-Chapter 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cold (Ex)
+    description: >-
+      A yeti's body generates intense cold, dealing 1d6 points of damage to
+      those that contact it for at least 1 round.
+  - name: Frightful Gaze (Su)
+    description: >-
+      Creatures within 30 ft. that meet the eyes of a yeti must succeed on a DC
+      14 Will save or stand paralyzed in fear (treat as a hold person spell) for
+      3 rounds. The save DC is Charisma-based. An affected creature does not
+      receive a saving throw each round to break the effects. This is a
+      mind-affecting compulsion effect. A creature that successfully saves
+      cannot be affected again by the frightful gaze of that yeti for one day.
+  - name: Squeeze (Ex)
+    description: >-
+      A yeti that makes a successful grapple check against a Medium or smaller
+      opponent pulls the opponent against its body and squeezes it with both
+      arms, dealing 2d6+6 points of damage and d6 points of cold damage each
+      round.
+Gender: Male
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12499'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

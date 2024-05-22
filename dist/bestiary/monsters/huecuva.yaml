@@ -1,0 +1,108 @@
+Name: Huecuva
+CR: '2'
+XP: '600'
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +5
+Aura: faithless (30 ft.)
+AC: 17, touch 12, flat-footed 15
+AC_Mods: (+2 Dex, +5 natural)
+HP: '16'
+HD: (3d8+3)
+Saves: Fort +2, Ref +3, Will +4
+Fort: '2'
+Ref: '3'
+Will: '4'
+DR: 5/magic or silver
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - 2 claws +4 (1d6+1 plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd)
+  values:
+    - label: 3/day
+      value: disguise self
+AbilityScores:
+  - 13
+  - 14
+  - —
+  - 4
+  - 12
+  - 12
+BaseAtk: '2'
+CMB: '3'
+CMD: '15'
+Feats:
+  - Improved Initiative
+  - Weapon Focus (claw)
+Skills:
+  - Perception +5
+  - Stealth +7
+Environment: any
+Organization: solitary, pair, or cloister (5-10)
+Treasure: standard
+Description_Visual: >-
+  This rotting and decaying humanoid is dressed in defiled and tattered priestly
+  vestments. Worms crawl and slither into and out of its eye sockets, rib cage,
+  and other decaying areas of its rotting form.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Claw-injury; save Fort DC 12; onset 1d3 days; frequency
+      1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
+      The save DC is Charisma-based.
+  - name: Faithless (Su)
+    description: >-
+      The huecuva and all undead creatures within 30 feet receive a +2 profane
+      bonus on Will saves made to resist channeled energy and any effects based
+      off that ability. This bonus stacks with channel resistance.
+Description:
+  - >-
+    Huecuva are the undead spirits of good clerics who were unfaithful to their
+    god and turned to the path of evil before death. As punishment for their
+    transgression, their god condemned them to roam the earth as the one
+    creature all good-aligned clerics despise - undead. Huecuva resemble robed
+    skeletons and are often mistaken for such creatures.
+  - >-
+    A huecuva attacks with its claws, raking and slashing at its opponents. It
+    attacks relentlessly until either it or its opponent is dead. During combat,
+    if a good-aligned cleric attempts to turn a huecuva and fails, the huecuva
+    concentrates all attacks on that cleric, ignoring all other opponents until
+    the cleric or the huecuva is dead.
+  - >-
+    A huecuva's natural weapons are treated as magic weapons for the purpose of
+    overcoming damage reduction.
+  - >-
+    Credit The Huecuva originally appeared in the First Edition Fiend Folio (©
+    TSR/Wizards of the Coast, 1981) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by
+    Underworld Oracle.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2689'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

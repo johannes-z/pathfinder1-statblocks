@@ -1,0 +1,96 @@
+Name: Shadow Sea Serpent
+CR: '13'
+XP: '25600'
+Race: sea serpent
+Alignment: 'N'
+Size: Gargantuan
+Type: outsider
+SubType: (aquatic, augmented magical beast)
+Init: '6'
+Senses:
+  - darkvision 120 ft., low-light vision
+  - Perception +8
+AC: 25, touch 8, flat-footed 23
+AC_Mods: (+2 Dex, +17 natural, -4 size)
+HP: '187'
+HD: (15d10+105)
+Saves: Fort +16, Ref +13, Will +7
+Fort: '16'
+Ref: '13'
+Will: '7'
+DefensiveAbilities: elusive, shadow blend
+Immune: cold
+Resist: cold 15, electricity 15, fire 30 DR 10/magic
+SR: '18'
+Speed: 20 ft., swim 60 ft.
+Melee:
+  - bite +23 (4d8+22/19-20 plus grab), tail slap +18 (3d6+6 plus grab)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  capsize, constrict (3d6+18), swallow whole (4d8+18 bludgeoning damage, AC 18,
+  hp 18)
+AbilityScores:
+  - 34
+  - 14
+  - 25
+  - 2
+  - 11
+  - 11
+BaseAtk: '15'
+CMB: +31 (+35 to grapple)
+CMD: 43 (can't be tripped)
+Feats:
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Stealthy
+Skills:
+  - Perception +8
+  - Stealth +13
+  - Swim +20
+Source: Sword of Air-Chapter 5
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Capsize (Ex)
+    description: >-
+      A sea serpent can attempt to capsize a boat or ship of its size or smaller
+      by ramming it as a charge attack and making a combat maneuver check. The
+      DC of this check is 25 or the result of the boat captain's Profession
+      (sailor) check, whichever is higher.
+  - name: Elusive (Su)
+    description: >-
+      Sea serpents have long been the stuff of maritime legends, but despite
+      countless attempts to hunt them, they are rarely encountered unless they
+      wish it. As a full-round action while in water, a sea serpent can move up
+      to its run speed (300 ft.) without leaving any trace of its passing
+      (identical in effect to a pass without trace). An elusive sea serpent
+      gains a +40 circumstance bonus to its Stealth check. In addition, except
+      when in combat, a sea serpent is considered to be under the effects of a
+      nondetection spell. Both of these spell effects are at caster level 20th
+      and cannot be dispelled.
+  - name: Shadow Blend (Ex)
+    description: >-
+      In any illumination other than bright light, a shadow elemental blends
+      into the shadows, giving it concealment (20% miss chance). A shadow
+      elemental can suspend or resume this ability as a free action.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: shadow|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12745'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

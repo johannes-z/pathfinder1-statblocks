@@ -1,0 +1,110 @@
+Name: Drow Pyramid Guard
+CR: '7'
+XP: '3200'
+Race: drow
+Class: fighter 8
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '7'
+Senses:
+  - darkvision 120 ft.
+  - Perception +12
+AC: 23, touch 13, flat-footed 20
+AC_Mods: (+9 armor, +3 Dex, +1 shield)
+HP: '52'
+HD: (8d10+8)
+Saves: Fort +7, Ref +6, Will +5; +2 vs. enchantment, +2 vs. fear
+Fort: '7'
+Ref: '6'
+Will: '5'
+Save_Mods: +2 vs. enchantment, +2 vs. fear
+Immune: sleep
+SR: '14'
+Weaknesses: light blindness
+Speed: 30 ft., fly 30 ft. (good)
+Melee:
+  - +1 rapier +14/+9 (1d6+7/15-20)
+Ranged:
+  - hand crossbow +11 (1d4/19-20 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th)
+  values:
+    - label: 1/day
+      value: dancing lights, darkness, faerie fire
+AbilityScores:
+  - 16
+  - 16
+  - 10
+  - 10
+  - 14
+  - 10
+BaseAtk: '8'
+CMB: '11'
+CMD: '24'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Disruptive
+  - Improved Critical (rapier)
+  - Improved Initiative
+  - Stand Still
+  - Toughness
+  - Weapon Focus (rapier)
+  - Weapon Specialization (rapier)
+Skills:
+  - Climb +3
+  - Fly +1
+  - Intimidate +4
+  - Knowledge (dungeoneering) +4
+  - Perception +12
+  - Stealth +3
+  - Survival +6
+Languages:
+  - Elven
+  - Undercommon
+SQ: poison use, armor training +2, bravery +2, weapon training (light blades +1),
+Source: PFS S1-32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison Use (Ex)
+    description: >-
+      Drow are skilled in the use of poison and never risk accidentally
+      poisoning themselves. The drow in this adventure use Medium spider
+      venom-injury; save Fort DC 14; frequency 1/round for 4 rounds; effect 1d2
+      Str; cure 1 save.
+Gender: Male
+BeforeCombat: >-
+  If they have time to prepare for the PCs arrival, they lurk on top of the
+  northeastern cluster of stalagmites, cast darkness in their area, and ready
+  their hand crossbows to shoot poisoned bolts once the PCs come into view.
+DuringCombat: >-
+  The guards are trained in dealing with magic, and try to get into melee range
+  with spellcasters so they can interrupt them. They also try to stand near PCs
+  who want to be mobile, using their Stand Still feel to slow their enemies
+  down.
+Morale: >-
+  The guards know Jevana will kill them if they let anyone into the pyramid, and
+  fight to the death.
+Gear: >-
+  mwk rapier, hand crossbow, potion of cure moderate wounds, Medium spider venom
+  (2), bolts (20)
+OtherGear: +1 full plate, buckler, cloak of resistance +1, 50 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4137'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

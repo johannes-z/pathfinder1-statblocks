@@ -1,0 +1,72 @@
+Name: Burning Hag Skeleton
+CR: '5'
+XP: '1600'
+Race: green hag
+MonsterSource: Pathfinder RPG Bestiary 167, 250
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 15, touch 13, flat-footed 13
+AC_Mods: (+1 deflection, +2 Dex, +2 natural)
+HP: '58'
+HD: (9d8+9)
+Saves: Fort +4, Ref +5, Will +6
+Fort: '4'
+Ref: '5'
+Will: '6'
+DR: 5/bludgeoning
+Immune: fire, undead traits
+Weaknesses: vulnerable to cold
+Speed: 30 ft.
+Melee:
+  - 2 claws +10 (1d4+4 plus 1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: fiery aura (1d6 fire)
+AbilityScores:
+  - 19
+  - 14
+  - —
+  - —
+  - 10
+  - 12
+BaseAtk: '6'
+CMB: '10'
+CMD: '22'
+Feats:
+  - Improved InitiativeB
+SQ: fiery death
+Source: PFS 8-06
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fiery Aura (Ex)
+    description: >-
+      Creatures adjacent to a burning hag skeleton take 1d6 points of fire
+      damage at the start of their turn. Anyone striking a burning skeleton with
+      an unarmed strike or natural attack takes 1d6 points of fire damage.
+  - name: Fiery Death (Su)
+    description: >-
+      A burning hag skeleton explodes into a burst of flame when it dies. Anyone
+      adjacent to the skeleton when it is destroyed takes 4d6 points of fire
+      damage (Reflex DC 15 negates).
+Gear: ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: burning@skeleton|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8746'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

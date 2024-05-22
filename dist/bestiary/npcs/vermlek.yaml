@@ -1,0 +1,126 @@
+Name: Vermlek
+CR: '3'
+XP: '800'
+Race: Vermlek
+MonsterSource: 'Pathfinder Campaign Setting: Lords of Chaos 54'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '-1'
+Senses:
+  - blindsense 30 ft., darkvision 60 ft., scent
+  - Perception +8
+AC: 15, touch 9, flat-footed 15
+AC_Mods: (+3 armor, -1 Dex, +3 natural)
+HP: '30'
+HD: (4d10+8)
+Saves: Fort +8, Ref +0, Will +5
+Fort: '8'
+Ref: '0'
+Will: '5'
+DefensiveAbilities: abandon flesh, flesh armor, negative energy affinity
+DR: 5/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '14'
+Speed: 30 ft., burrow 20 ft.
+Melee:
+  - scythe +6 (2d4+3/x4) and bite +1 (1d6+1)
+  - flail +6 (1d8+3) and bite +1 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: inhabit body
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +4)
+  values:
+    - label: 3/day
+      value: mass inflict light wounds (DC 16), spider climb
+    - label: 1/day
+      value: gentle repose, summon (level 2, 1d4 dretches, 50%)
+AbilityScores:
+  - 15
+  - 9
+  - 14
+  - 12
+  - 13
+  - 12
+BaseAtk: '4'
+CMB: +6 (+10 grapple)
+CMD: '15'
+Feats:
+  - Deceitful
+  - Great Fortitude
+Skills:
+  - Bluff +10
+  - Disguise +10 (+18 when inhabiting a corpse)
+  - Escape Artist +6 (+14 when not inhabiting a corpse)
+  - Knowledge (religion) +8
+  - Perception +8
+  - Sense Motive +8
+  - Use Magic Device +8
+RacialMods: >-
+  +8 Disguise when inhabiting a corpse, +8 Escape Artist when not inhabiting a
+  corpse
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+Source: PFS S5-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Abandon Flesh (Su)
+    description: >-
+      As a swift action, a vermlek can abandon an inhabited body, crawling
+      hideously out of its host and leaving behind an empty sack of skin and
+      bits of gristle. In so doing, it absorbs much of the body's flesh to heal
+      itself, restoring 2d6+3 hit points. A vermlek cannot reclaim this body
+      with its inhabit body ability.
+  - name: Flesh Armor (Su)
+    description: >-
+      When a vermlek wears a humanoid body (see inhabit body, below), it treats
+      the dead flesh and muscle as armor, gaining a +3 armor bonus to its AC.
+  - name: Inhabit Body (Su)
+    description: >-
+      A vermlek can crawl into the body of any dead Medium humanoid, consuming
+      and replacing the bulk of the humanoid's skeleton and internal organs as
+      it does so. This process takes 1d4 rounds for the vermlek to complete,
+      during which it's considered flat-footed. Once the process is complete,
+      the vermlek appears for all practical purposes to be a living but
+      hideously obese version of the previous humanoid-it gains a +8 racial
+      bonus on Disguise checks to appear as a normal humanoid while wearing a
+      dead body in this manner, but does not gain any of the abilities that the
+      dead creature possessed in life, including natural attacks, unusual
+      movement types, or bonuses to natural armor. It loses its own burrow speed
+      while inhabiting a body, but gains the ability to wield weapons or wear
+      armor shaped for humanoids (although note that the armor bonus granted by
+      wearing armor does not stack with the bonus granted by the vermlek's flesh
+      armor ability).
+  - name: Negative Energy Affinity (Ex)
+    description: >-
+      A vermlek is healed by negative energy and harmed by positive energy as if
+      it were an undead creature.
+DuringCombat: >-
+  The vermleks telepathically command the two armed humans to attack the PCs.
+  The demons then approach, wielding the barely-conscious peasants' bodies as
+  shields to gain partial cover. The vermleks use mass inflict light wounds to
+  harm the PCs and heal each other.
+Morale: >-
+  The vermleks use the abandon flesh ability to revert to their natural form if
+  brought to 10 hp or below. If later reduced to 8 or fewer hp, a vermlek
+  burrows to safety.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8005'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

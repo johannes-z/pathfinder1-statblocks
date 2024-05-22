@@ -1,0 +1,93 @@
+Name: Yeti Queen
+CR: '8'
+XP: '4800'
+Race: yeti
+Class: barbarian 5
+Alignment: 'N'
+Size: Large
+Type: monstrous humanoid
+SubType: (cold)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +22
+AC: 15, touch 10, flat-footed 14
+AC_Mods: (+1 Dex, +5 natural, -1 size)
+HP: '77'
+HD: (4d10+8 plus 5d12+10 plus 5)
+Saves: Fort +7, Ref +6, Will +6
+Fort: '7'
+Ref: '6'
+Will: '6'
+DefensiveAbilities: improved uncanny dodge, trap sense +1
+Immune: cold
+Weaknesses: vulnerability to fire
+Speed: 50 ft.
+Melee:
+  - 2 claws +13 (1d8+5)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: cold, frightful gaze (DC 12), rage (14 rounds/day), squeeze
+AbilityScores:
+  - 20
+  - 12
+  - 14
+  - 8
+  - 12
+  - 15
+BaseAtk: '9'
+CMB: +15 (+19 to grapple)
+CMD: '26'
+Feats:
+  - Alertness
+  - Improved Natural Armor
+  - Improved Natural Attack (claw)
+  - Intimidating Prowess
+  - Vital Strike
+Skills:
+  - Climb +15
+  - Intimidate +12
+  - Perception +22
+  - Sense Motive +7
+  - Survival +10
+RacialMods: +4 Perception, +12 to Stealth in snow
+Languages:
+  - Giant
+SQ: fast movement, rage powers (auspicious markUC, guarded lifeAPG)
+Source: Sword of Air-Chapter 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cold (Ex)
+    description: >-
+      A yeti's body generates intense cold, dealing 1d6 points of damage to
+      those that contact it for at least 1 round.
+  - name: Frightful Gaze (Su)
+    description: >-
+      Creatures within 30 ft. that meet the eyes of a yeti must succeed on a DC
+      12 Will save or stand paralyzed in fear (treat as a hold person spell) for
+      3 rounds. The save DC is Charisma-based. An affected creature does not
+      receive a saving throw each round to break the effects. This is a
+      mind-affecting compulsion effect. A creature that successfully saves
+      cannot be affected again by the frightful gaze of that yeti for one day.
+  - name: Squeeze (Ex)
+    description: >-
+      A yeti that makes a successful grapple check against a Medium or smaller
+      opponent pulls the opponent against its body and squeezes it with both
+      arms, dealing 2d6+6 points of damage and d6 points of cold damage each
+      round.
+Gender: Female
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12497'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

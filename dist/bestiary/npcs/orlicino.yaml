@@ -1,0 +1,106 @@
+Name: Orlicino
+CR: '5'
+XP: '1600'
+Race: tiefling
+Class: ranger 6
+MonsterSource: Pathfinder RPG Bestiary 264
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: +4 (+6 underground)
+Senses:
+  - darkvision 60 ft.
+  - Perception +10 (+12 underground)
+AC: 20, touch 13, flat-footed 17
+AC_Mods: (+7 armor, +3 Dex)
+HP: '55'
+HD: (6d10+18)
+Saves: Fort +7, Ref +9, Will +3
+Fort: '7'
+Ref: '9'
+Will: '3'
+Resist: cold 5, electricity 5, fire 5
+Speed: 20 ft.
+Melee:
+  - mwk greatsword +8/+3 (2d6+1/19-20)
+Ranged:
+  - +1 longbow +12/+7 (1d8+2/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: favored enemy (humans +4, lawful outsiders +2)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +5)
+  values:
+    - label: 1/day
+      value: darkness
+SpellsPrepared: Ranger Spells Prepared (CL 3rd; concentration +4)   1st-alarm, gravity bowAPG
+AbilityScores:
+  - 13
+  - 18
+  - 14
+  - 10
+  - 12
+  - 8
+BaseAtk: '6'
+CMB: '7'
+CMD: '21'
+Feats:
+  - Deadly Aim
+  - Endurance
+  - Point Blank Master
+  - Point-Blank Shot
+  - Precise Shot
+  - Weapon Focus (longbow)
+Skills:
+  - Bluff +1
+  - Climb +7
+  - Intimidate +8
+  - Perception +10 (+12 underground)
+  - Stealth +12 (+14 underground)
+  - Survival +10
+  - Swim +7
+RacialMods: +2 Bluff, +2 Stealth
+Languages:
+  - Common
+  - Infernal
+SQ: >-
+  favored terrain (underground +2), hunter's bond (companions), track +3, wild
+  empathy +5
+Source: PFS S3-26
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Orlicino casts gravity bow as soon as he becomes aware of the PCs' approach,
+  increasing the damage dealt by his bow by one size category (2d6) for 3
+  minutes. He then climbs to the top of the fountain and readies an arrow to
+  fire at the first person down the staircase.
+DuringCombat: >-
+  Orlicino uses a move action on the first round and every second round
+  following to activate his hunter's bond for his teammates' benefit, targeting
+  any human among the PCs. Every other round (or if lacking a suitable human
+  target) he makes full attacks using Deadly Aim. He uses his bow as long as
+  possible, even if enemies climb onto the fountain to engage him in melee, as
+  his Point Blank Mastery feat allows him to make ranged attacks with his
+  longbow without provoking attacks of opportunity.
+Morale: >-
+  Orlicino does not run until Lyone has surrendered, fled, or been killed, in
+  which case Orlicino runs for the balcony and attempts to climb up the interior
+  of the well.
+Gear: potion of cure serious wounds
+OtherGear: +1 breastplate, +1 longbow with 40 arrows, masterwork greatsword, 25 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6747'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,169 @@
+Name: Lypso
+CR: '23'
+XP: '820000'
+Alignment: 'N'
+Size: Huge
+Type: outsider
+SubType: (elemental, extraplanar, water)
+Init: '11'
+Senses:
+  - darkvision 60 ft.
+  - Perception +50
+AC: 32, touch 16, flat-footed 24
+AC_Mods: (+7 Dex, +1 dodge, +16 natural, -2 size)
+HP: '540'
+HD: (40d10+320)
+Saves: Fort +32, Ref +31, Will +22
+Fort: '32'
+Ref: '31'
+Will: '22'
+DR: 15/-
+Immune: elemental traits
+SR: '34'
+Speed: 30 ft., swim 100 ft.
+Melee:
+  - 2 slams +55 (4d6+16/19-20)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: command water elementals (DC 37), drench, vortex (DC 46), water mastery
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; melee touch +54, ranged touch +45)
+  values:
+    - label: At will
+      value: >-
+        control water (DC 23), create water, detect magic, dispel magic, fog
+        cloud, greater teleport (self plus 50 lbs. of objects only)
+    - label: 3/day
+      value: cone of cold (DC 22), horrid wilting (DC 25), ice storm
+    - label: 1/day
+      value: >-
+        summon (level 9, 1d2 elder water elementals, 1d4 greater water
+        elementals, 1d4 marid, or 20-40 sahuagin 100%)
+AbilityScores:
+  - 43
+  - 25
+  - 27
+  - 22
+  - 24
+  - 24
+BaseAtk: '40'
+CMB: '58'
+CMD: '76'
+Feats:
+  - Blind-Fight
+  - Cleave
+  - Combat Expertise
+  - Critical Focus
+  - Dodge
+  - Great Cleave
+  - Great Fortitude
+  - Improved Bull Rush
+  - Improved Critical (slam)
+  - Improved Initiative
+  - Improved Sunder
+  - Improved Vital Strike
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Power Attack
+  - Spring Attack
+  - SwimBy Attack
+  - Vital Strike
+  - Weapon Focus (slam)
+Skills:
+  - Acrobatics +50
+  - Diplomacy +47
+  - Escape Artist +47
+  - Intimidate +50
+  - Knowledge (arcana) +49
+  - Knowledge (planes) +49
+  - Knowledge (religion) +49
+  - Perception +50
+  - Sense Motive +50
+  - Stealth +42
+  - Survival +47
+  - Swim +67
+Languages:
+  - Aquan
+  - Auran
+  - Common
+  - Ignan
+  - Terran
+  - telepathy 100 ft.
+Environment: any (Plane of Water)
+Organization: solitary or band (Lypso plus 2-4 greater water elementals)
+Treasure: triple standard
+Description_Visual: >-
+  This massive creature appears to be a gigantic crashing wave. No other
+  features are discernible on its form.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Elementals (Su)
+    description: >-
+      As a standard action, an elemental lord can attempt to gain control of any
+      elemental creature of the same element within 100 feet. Elementals receive
+      a Will save to negate the effect. The DC for this Will save is equal to 10
+      + 1/2 the elemental lord's + its Charisma modifier. Elementals that make
+      their save are immune to the command of that elemental lord for one day.
+      Elementals that fail their saves fall under the elemental lord's control,
+      obeying its commands to the best of their ability. An elemental lord does
+      not need to concentrate to maintain control over commanded elementals.
+      Once commanded, an elemental serves until either it dies, the elemental
+      lord dies, the elemental lord dismisses it, or the summoning magic ends
+      (if the elemental was summoned). An elemental lord can command any number
+      of elementals, so long as their total Hit Dice do not exceed twice the
+      elemental lord's Hit Dice. If an elemental creature is under the control
+      of another creature, the elemental lord can attempt an opposed Charisma
+      check to gain control of the elemental.
+  - name: Drench (Ex)
+    description: >-
+      Lypso's touch puts out nonmagical flames of Large size or smaller. He can
+      dispel magical fire he touches as dispel magic (CL 20th).
+  - name: Vortex (Su)
+    description: >-
+      Lypso can create a whirlpool as a standard action, at will. This ability
+      functions identically to the whirlwind special attack, but can only form
+      underwater and cannot leave the water.
+  - name: Water Mastery (Ex)
+    description: >-
+      Lypso gains a +1 bonus on attack and damage rolls if both he and his
+      opponent are touching water. If the opponent or Lypso is touching the
+      ground, Lypso takes a -4 penalty on attack and damage rolls. These
+      modifiers apply to bull rush and overrun maneuvers, whether Lypso is
+      initiating or resisting these kinds of attacks.
+Description:
+  - >-
+    Lypso rules over water elementals and those who call the Plane of Water
+    home. His lair is a massive cavern deep within the Plane of Water. His court
+    consists of water elementals, water weirds, and marid. His most trusted
+    advisor is a marid of ancient age and power. Lypso keeps an "aviary" of
+    water mephitis for his amusement as well. Legends tell of a great enmity
+    between Lypso and Inder, the Lord of Fire Elementals, and that a great
+    elemental war is brewing between the two. This same legend reveals that
+    Lypso and Inder are brothers. Whether this is truth or not is currently
+    unknown.
+  - >-
+    In combat, Lypso uses his vortex attack and horrid wilting attack to begin
+    battle. Creatures that survive are subjected to his ice storm ability as
+    well as a pummeling by his powerful slam attacks. If outclassed, Lypso
+    summons water creatures, or a small army of sahuagin to his aid.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+AlternateNameForm: Lord Of Water Elementals
+id: '4817'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

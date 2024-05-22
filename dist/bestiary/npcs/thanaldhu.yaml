@@ -1,0 +1,110 @@
+Name: Thanaldhu
+CR: '7'
+XP: '3200'
+Race: Faceless stalker
+Class: rogue 3
+MonsterSource: Pathfinder RPG Bestiary 2 122
+Alignment: CE
+Size: Medium
+Type: aberration
+SubType: (shapechanger)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +13
+AC: 22, touch 15, flat-footed 18
+AC_Mods: (+3 armor, +1 deflection, +4 Dex, +4 natural)
+HP: '71'
+HD: (8d8+35)
+Saves: Fort +5, Ref +8, Will +7
+Fort: '5'
+Ref: '8'
+Will: '7'
+DefensiveAbilities: evasion, trap sense +1
+DR: 5/piercing or slashing
+Speed: 30 ft.
+Melee:
+  - mwk longsword +12 (1d8+6/19-20), slam +6 (1d6+3 plus grab)
+  - 2 slams +11 (1d6+6 plus grab)
+Ranged:
+  - mwk light crossbow +10 (1d8/19-20)
+Space: 5 ft.
+Reach: 10 ft.
+SpecialAttacks: blood drain (1 Con), sneak attack +4d6 plus 4 bleed
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +10)
+  values:
+    - label: Constant
+      value: tongues
+AbilityScores:
+  - 22
+  - 19
+  - 16
+  - 15
+  - 15
+  - 20
+BaseAtk: '5'
+CMB: +11 (+15 when grappling)
+CMD: '26'
+Feats:
+  - Combat Reflexes
+  - Deceitful
+  - Improved Initiative
+  - Toughness
+Skills:
+  - Acrobatics +9
+  - Bluff +18
+  - Disguise +22 (+32 when using change shape)
+  - Escape Artist +20
+  - Knowledge (local) +10
+  - Perception +13
+  - Sleight of Hand +12
+  - Stealth +15
+  - Survival +10
+  - Use Magic Device +16
+RacialMods: +4 Disguise, +8 Escape Artist
+Languages:
+  - Aboleth
+  - Aquan
+  - Common
+  - tongues
+SQ: >-
+  change shape (Medium humanoid; alter self), compression, faceless, rogue
+  talent (bleeding attack +4), trapfinding +1
+Source: AP 122
+IsTemplate: '0'
+BeforeCombat: >-
+  If the PCs follow Thanaldhu into the government house, it uses Stealth to hide
+  behind one of the pillars on the balcony of the building's second floor. When
+  one of the PCs gets within 30 feet, Thanaldhu fires its crossbow from cover
+  for a sneak attack. The ugothol prefers to target PCs it knows to be divine
+  spellcasters first.
+DuringCombat: >-
+  Initially, Thanaldhu prefers to stay on the move, keeping distance from the
+  PCs and firing upon them with its crossbow. Thanaldhu closes for melee combat
+  when it's most tactically advantageous, such as catching an opponent unaware
+  so it can benefit from flanking.
+Morale: >-
+  Thanaldhu knows that failure in this important mission means a fate worse than
+  death at the hands of its aboleth master, and it fights to the death.
+Gear: oil of darkness, potions of cure moderate wounds (2)
+OtherGear: >-
+  +1 glamered leather armor, mwk light crossbow with 25 bolts, mwk longsword,
+  boots of elvenkind, bottles of messagesAPG (2), dust of tracelessness, ring of
+  protection +1, wayfinder, belt pouch, flint and steel, mirror, spyglass,
+  waterskin
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11643'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

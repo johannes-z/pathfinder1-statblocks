@@ -1,0 +1,124 @@
+Name: Urdefhan Guard
+CR: '8'
+XP: '4800'
+Race: Urdefhan
+Class: fighter 5
+MonsterSource: Pathfinder RPG Bestiary 2 276
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '7'
+Senses:
+  - darkvision 120 ft.
+  - Perception +13
+AC: 21, touch 13, flat-footed 18
+AC_Mods: (+6 armor, +3 Dex, +2 natural)
+HP: '104'
+HD: (8d10+61)
+Saves: Fort +13, Ref +7, Will +6; +1 vs. fear
+Fort: '13'
+Ref: '7'
+Will: '6'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1, negative energy affinity
+DR: 5/ good or silver
+Immune: death effects, disease, fear, level drain
+Resist: acid 10
+SR: '14'
+Speed: 30 ft.
+Melee:
+  - mwk rhoka sword +16/+11 (1d8+10/18-20), bite +8  (1d4+2 plus 2 Str)
+Ranged:
+  - mwk composite longbow +12/+7 (1d8+5/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blood drain (1 Con), strength damage (DC 17), weapon training (heavy blades
+  +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd, concentration +5)
+  values:
+    - label: At will
+      value: feather fall
+    - label: 3/day
+      value: align weapon, death knell (DC 14), ray of enfeeblement (DC 13)
+AbilityScores:
+  - 21
+  - 16
+  - 22
+  - 12
+  - 15
+  - 14
+BaseAtk: '8'
+CMB: '13'
+CMD: '26'
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Mounted Archery
+  - Mounted Combat
+  - Toughness
+  - Weapon Focus (rhoka sword)
+  - Weapon Specialization (rhoka sword)
+Skills:
+  - Intimidate +13
+  - Knowledge (dungeoneering) +8
+  - Knowledge (planes) +8
+  - Perception +13
+  - Ride +12
+  - Sense Motive +7
+  - Survival +7
+Languages:
+  - Aklo
+  - Orvian
+  - Undercommon
+SQ: armor training 1, daemonic pact (DC 17)
+Source: AP 41
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Daemonic Pact (Su)
+    description: >-
+      Urdefhans are infused with daemonic energy; as an immediate action, an
+      urdefhan can attempt to allow this energy to consume its soul (50% chance
+      of success per attempt). If it succeeds, the urdefhan dies and releases a
+      5-foot-radius burst of negative energy that deals 2d6 points of damage (DC
+      17 Reflex half). The save DC is Constitution-based.
+  - name: Negative Energy Affinity (Ex)
+    description: >-
+      An urdefhan is alive, but it reacts to positive and negative energy as if
+      it were undead- positive energy harms it, while negative energy heals it.
+  - name: Strength Damage (Su)
+    description: >-
+      An urdefhan's bite drains vitality, turning the skin and muscle around the
+      wound transparent and causing 2 points of Strength damage unless the
+      target succeeds on a DC 17 Fortitude save. The flesh remains transparent
+      until the Strength damage is healed, but this does not have any other
+      effects. The save DC is Constitution-based.
+DuringCombat: >-
+  The urdefhans fire arrows at enemies while the skavelings make flyby attacks.
+  If knocked from their mounts, the urdefhans draw their rhoka swords and
+  attack.
+Morale: >-
+  The urdefhans pursue intruders for as long as they can see them. If three
+  guards are slain, the fourth immediately retreats, flying to area F1 to inform
+  the other urdefhans of the patrol's fate.
+Gear: +1 arrows (10), potion of inflict serious wounds
+OtherGear: >-
+  +1 scale mail, masterwork composite longbow (+5 Str) with 10 arrows,
+  masterwork rhoka sword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1418'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

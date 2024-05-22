@@ -1,0 +1,88 @@
+Name: Koruvus
+CR: '3'
+XP: '800'
+Race: goblin
+Class: fighter 2
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception -1
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+2 Dex, +4 natural)
+HP: '26'
+HD: (2d10+11)
+HP_Mods: fast healing 1
+Saves: Fort +8, Ref +2, Will -1; +1 vs. fear
+Fort: '8'
+Ref: '2'
+Will: '-1'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1
+Immune: acid, mind-affecting effects, paralysis, poison
+Speed: 30 ft.
+Melee:
+  - >-
+    +1 longsword +4 (1d8+4/19-20), silver dagger +3 (1d4+1/19-20), mwk handaxe
+    +3 (1d6+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: breath weapon
+AbilityScores:
+  - 17
+  - 15
+  - 16
+  - 3
+  - 8
+  - 10
+BaseAtk: '2'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Great Fortitude
+  - Toughness
+  - Two-Weapon Fighting
+Skills:
+  - Intimidate +5
+  - Ride +6
+  - Stealth +6
+Languages:
+  - Goblin
+Source: RotRL-AE-Burnt Offerings
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      Once every 1d4 rounds, Koruvus can spew a 20-foot-long line of
+      foul-smelling and acidic blood from his mouth. Any creatures in this area
+      take 2d4 points of acid damage (Reflex DC 13 half). A creature that takes
+      damage from the acid must also make a DC 13 Fortitude save or be nauseated
+      for 1 round. The save DCs are Constitution-based.
+Gender: Male
+DuringCombat: >-
+  Koruvus takes his duty as guardian of this chamber seriously, and immediately
+  attacks anyone who enters the room. He uses his breath weapon on the first
+  round of combat, then moves in to engage the largest, most dangerous-looking
+  foe with his weapons.
+Morale: >-
+  Koruvus fights to the death, and pursues foes all the way to the Glassworks or
+  the catacombs' exit if necessary before returning here.
+Gear: +1 longsword, silver dagger, masterwork handaxe
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3208'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

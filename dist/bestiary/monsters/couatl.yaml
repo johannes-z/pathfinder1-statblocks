@@ -1,0 +1,132 @@
+Name: Couatl
+CR: '10'
+XP: '9600'
+Alignment: LG
+Size: Large
+Type: outsider
+SubType: (native)
+Init: '7'
+Senses:
+  - darkvision 60 ft., detect chaos/evil/good/law
+  - Perception +23
+AC: 22, touch 13, flat-footed 18
+AC_Mods: (+3 Dex, +1 dodge, +9 natural, -1 size)
+HP: '126'
+HD: (12d10+60)
+Saves: Fort +9, Ref +13, Will +14
+Fort: '9'
+Ref: '13'
+Will: '14'
+Speed: 20 ft., fly 60 ft. (good)
+Melee:
+  - bite +16 (1d8+7 plus grab and poison)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (1d8+7)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th)
+  values:
+    - label: Constant
+      value: detect chaos, detect evil, detect good, detect law
+    - label: At will
+      value: >-
+        detect thoughts (DC 15), ethereal jaunt (CL 16th), invisibility, plane
+        shift (DC 20)
+SpellsKnown:
+  header: Spells Known (CL 9th)
+  values:
+    - label: 4th (4/day)
+      value: charm monster (DC 17), freedom of movement
+    - label: 3rd (7/day)
+      value: gaseous form, magic circle against evil, summon monster III
+    - label: 2nd (7/day)
+      value: cure moderate wounds, eagle's splendor, scorching ray, silence (DC 15)
+    - label: 1st (7/day)
+      value: >-
+        endure elements, mage armor, obscuring mist, protection from chaos, true
+        strike
+    - label: 0 (at will)
+      value: >-
+        daze, disrupt undead, light, obscuring mist, ray of frost, read magic,
+        resistance, stabilize
+AbilityScores:
+  - 20
+  - 16
+  - 20
+  - 17
+  - 19
+  - 17
+BaseAtk: '12'
+CMB: +18 (+22 grapple)
+CMD: 32 (can't be tripped)
+Feats:
+  - Alertness
+  - Dodge
+  - Empower Spell
+  - Eschew MaterialsB
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+Skills:
+  - Acrobatics +18
+  - Bluff +9
+  - Diplomacy +18
+  - Fly +20
+  - Knowledge (arcana) +9
+  - Knowledge (religion) +12
+  - Perception +23
+  - Sense Motive +15
+  - Spellcraft +15
+  - Survival +16
+  - Use Magic Device +18
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - telepathy 100 ft.
+Environment: warm forests
+Organization: solitary, pair, or flight (3-6)
+Treasure: standard
+Description_Visual: >-
+  This great serpent has multicolored wings and eyes that glimmer with intense
+  awareness.
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Injury-bite; save Fortitude DC 16; frequency 1/ minute for 10 minutes;
+      effect 1d4 Str; cure 2 consecutive saves. The DC is Constitution-based.
+Description:
+  - >-
+    Couatls are servants of lawful and good deities, though some operate
+    independently of any greater being. Respected and admired for their wisdom
+    and beauty, they try to steer mortals onto the right path and use their
+    powers to fight evil, particularly those known to shift between the planes.
+  - >-
+    Some couatls are viewed as benevolent gods by isolated societies, and while
+    most couatls cringe at the thought of pretending to be a god, they allow
+    such misconceptions to continue since they allow the couatls to guide and
+    coax these societies onto paths of peace and cooperation with their
+    neighbors. A couatl is about 12 feet long, with a wingspan of about 15 feet.
+    It weighs 1,800 pounds.
+  - >-
+    As native outsiders, couatls must eat. They prefer the same foods as true
+    snakes, such as mammals and birds, though they have been known to eat evil
+    humanoids.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Couatl
+id: '66'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

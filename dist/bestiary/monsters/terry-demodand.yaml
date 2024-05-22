@@ -1,0 +1,136 @@
+Name: Terry Demodand
+CR: '10'
+XP: '9600'
+Alignment: CE
+Size: Medium
+Type: Outsider
+SubType: (chaotic, demodand, evil, extraplanar)
+Init: '5'
+Senses:
+  - darkvision 120 ft.
+  - Perception +19
+AC: 27, touch 15, flat-footed 22
+AC_Mods: (+5 Dex, +12 natural)
+HP: '104'
+HD: (11d10+44)
+Saves: Fort +11, Ref +8, Will +10
+Fort: '11'
+Ref: '8'
+Will: '10'
+DR: 10/good and magic
+Immune: acid, poison, mindaffecting effects
+Resist: cold 10, fire 10
+SR: '21'
+Speed: 40 ft., fly 60 ft. (average)
+Melee:
+  - 2 claws +19 (1d6+7 plus grab), bite +18 (1d8+7)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: adhesive, rage
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th)
+  values:
+    - label: At will
+      value: >-
+        detect good, detect magic, detect thoughts (DC 15), fear (DC 17),
+        gaseous form, invisibility (self only), magic circle against good, see
+        invisibility, tongues
+    - label: 3/day
+      value: dispel magic, fog cloud, ray of enfeeblement
+    - label: 1/day
+      value: chaos hammer (DC 17), summon (level 4, 1d2 tarry demodands 40%)
+AbilityScores:
+  - 24
+  - 20
+  - 19
+  - 12
+  - 12
+  - 16
+BaseAtk: '11'
+CMB: +18 (+26 grapple)
+CMD: '33'
+Feats:
+  - Alertness
+  - Cleave
+  - Great Cleave
+  - Iron Will
+  - Power Attack
+  - Weapon Focus (claws)
+Skills:
+  - Bluff +17
+  - Fly +13
+  - Knowledge (arcana) +15
+  - Knowledge (planes) +15
+  - Perception +19
+  - Sense Motive +12
+  - Stealth +19
+  - Survival +15
+Languages:
+  - Abyssal
+  - Common
+Environment: any (Tarterus)
+Organization: solitary or troupe (2-5)
+Treasure: standard
+Description_Visual: >-
+  This creature appears as a tall, powerful gray-skinned humanoid with green
+  eyes and a long, oval, amphibious head. Two large, dull gray batlike wings
+  sprout from its shoulders. Its hands end in blackened claws.
+Group: Demodand
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adhesive (Ex)
+    description: >-
+      A tarry demodand exudes a thick tar-like substance that acts as a powerful
+      adhesive, holding fast any creatures or items touching it. A tarry
+      demodand has a +4 racial bonus on grapple checks due to its tarry
+      secretions in addition to that provided by its grab ability. A weapon that
+      strikes a tarry demodand is stuck fast unless the wielder succeeds on a DC
+      19 Reflex save. A successful DC 19 Strength check is needed to pry it off.
+      The save DC and check DC are Constitution-based. Strong alcohol dissolves
+      the adhesive. A pint of wine or a similar liquid weakens it, but the tarry
+      demodand can still grapple normally. A tarry demodand can dissolve its
+      adhesive at will, and the substance breaks down 1 minute after the
+      creature dies.
+  - name: Rage (Ex)
+    description: >-
+      A tarry demodand that takes damage in combat has a 50% chance of flying
+      into a berserk rage the following round, clawing and biting madly until
+      either it or its opponent is dead. It gains +4 Strength and -4 AC. The
+      creature cannot end its rage voluntarily. While raging, make the following
+      adjustments to the tarry demodand's statistics: AC 23, touch 11,
+      flat-footed 18; CMB +20 (+28 grapple); CMD 35; Melee 2 claws +21 melee
+      (1d6+9), bite +20 melee (1d8+9); Str 28
+Description:
+  - >-
+    The cruel and malevolent tarry demodands wander the planes of Tarterus as
+    soldiers and warriors in the mighty demodand armies. They are often employed
+    by the shaggy demodands to battle daemons, demons, and devils. Tarry
+    demodands care little for anything and attack just about anything weaker
+    than them. A typical tarry demodand stands 7 feet tall and weighs about 420
+    pounds. The tarry demodand attacks with its claws and bite, though it
+    usually opens combat using its spell-like abilities. Should it fly into a
+    rage, it attacks relentlessly until its opponent is slain. Any creature that
+    becomes stuck to the tarry demodand is shredded by its wicked claws. Credit
+    The Tarry Demodand originally appeared in the First Edition Monster Manual
+    II (© TSR/Wizards of the Coast, 1983) and is used by permission. Copyright
+    Notice Author Scott Greene, based on original material by Gary Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2429'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

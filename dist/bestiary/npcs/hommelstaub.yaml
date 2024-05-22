@@ -1,0 +1,149 @@
+Name: Hommelstaub
+CR: '2'
+XP: '600'
+Race: atomie
+Class: oracle 2
+MonsterSource: >-
+  Pathfinder RPG Bestiary 3 28, Pathfinder RPG Advanced Player's Guide 42, and
+  page 72
+Alignment: CE
+Size: Diminutive
+Type: fey
+SubType: (cold)
+Init: '6'
+Senses:
+  - low-light vision
+  - Perception +10
+AC: 16, touch 16, flat-footed 14
+AC_Mods: (+2 Dex, +4 size)
+HP: '24'
+HD: (4 HD; 2d6+2d8+8)
+Saves: Fort +2, Ref +5, Will +9
+Fort: '2'
+Ref: '5'
+Will: '9'
+DR: 2/cold iron
+Immune: cold
+Resist: fire 10
+Weaknesses: vulnerable to fire
+Speed: 15 ft., fly 50 ft. (good)
+Melee:
+  - sickle +8 (1d2 plus numbing cold)
+  - wintry touch +8 (1d6+1 cold)
+Ranged:
+  - sling with magic stone +9 (1d6+1 plus numbing cold)
+  - sling +8 (1 plus numbing cold)
+Space: 1 ft.
+Reach: 0 ft.
+SpecialAttacks: numbing cold (DC 13), sneak attack +1d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +10)
+  values:
+    - label: Constant
+      value: speak with animals
+    - label: At Will
+      value: dancing lights, reduce person (DC 15)
+    - label: 3/day
+      value: invisibility (self only)
+    - label: 1/day
+      value: shrink item
+SpellsKnown:
+  header: Oracle Spells Known (CL 2nd; concentration +6)
+  values:
+    - label: 1st (5/day)
+      value: >-
+        endure elements, inflict light wounds (DC 15), magic stone, summon
+        monster I
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, read magic, resistance
+AbilityScores:
+  - 10
+  - 14
+  - 15
+  - 15
+  - 16
+  - 18
+BaseAtk: '2'
+CMB: '0'
+CMD: '10'
+Feats:
+  - Extra RevelationAPG
+  - Improved InitiativeB
+  - Weapon Finesse
+Skills:
+  - Acrobatics +8 (+4 when jumping)
+  - Bluff +8
+  - Escape Artist +8
+  - Fly +18
+  - Intimidate +10
+  - Knowledge (nature) +6
+  - Perception +10
+  - Sense Motive +8
+  - Spellcraft +9
+  - Stealth +20
+  - Survival +8
+  - Use Magic Device +8
+Languages:
+  - Abyssal
+  - Common
+  - Giant
+  - Sylvan
+  - speak with animals
+SQ: >-
+  oracle's curse (lame), revelations (snow sight, wintry touch 7/day [1d6+1
+  cold])
+Source: AP 67
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Snow Sight (Su)
+    description: >-
+      Hommelstaub can see through falling snow and sleet without taking any
+      penalties on Perception checks as long as he there is enough light for him
+      to see normally.
+  - name: Wintry Touch (Su)
+    description: >-
+      As a standard action 7 times per day, Hommelstaub can perform a melee
+      touch attack that deals 1d6+1 points of cold damage.
+Gender: Male
+BeforeCombat: >-
+  If he has time to prepare, Hommelstaub uses his scroll of resist energy and
+  casts magic stone on three pebbles to hurl with his sling.
+DuringCombat: >-
+  Hommelstaub turns invisible and flies upward to hide in the falling snow,
+  where his snow sight grants him a superior view of the camp. He then throws a
+  thunderstone, smashing it against an armored enemy or the side of an igloo to
+  deafen his opponents and warn Teb Knotten and his sprite allies (see
+  Development, below). Hommelstaub hurls bottles of liquid ice to snuff out any
+  enemy fire sources, and casts summon monster I to summon fiendish eagles to
+  attack opponents while he uses his sling. If drawn into melee combat,
+  Hommelstaub casts reduce person on his attackers before making sneak attacks
+  with inflict light wounds or his wintry touch.
+Morale: >-
+  If reduced to fewer than 15 hit points, Hommelstaub retreats back into the
+  falling snow to drink his potion of cure moderate wounds. Thereafter, he
+  fights to the death, though if Teb Knotten is dead, he might try to flee
+  through the winter portal back to Irrisen instead.
+Gear: >-
+  potion of cure moderate wounds, scroll of remove curse, scroll of resist
+  energy (fire), liquid iceUE (3), thunderstones (2)
+OtherGear: sickle, sling, 64 gp
+Note: >-
+  POTN See People of the North.  UE See Ultimate Equipment.  APG See Advanced
+  Player's Guide.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: winter-touched|
+AgeCategory: Adult
+Mystery: winterPOTN
+CompanionFamiliarLink: '0'
+id: '4008'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

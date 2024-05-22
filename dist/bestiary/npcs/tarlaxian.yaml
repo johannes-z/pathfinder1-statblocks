@@ -1,0 +1,95 @@
+Name: Tarlaxian
+CR: '18'
+XP: '153600'
+Race: tarn linnorm "runt"
+MonsterSource: Pathfinder RPG Bestiary 192
+Alignment: CE
+Size: Gargantuan
+Type: dragon
+SubType: (aquatic)
+Init: '12'
+Senses:
+  - all-around vision, darkvision 120 ft., low-light vision, scent, true seeing
+  - Perception +36
+AC: 35, touch 14, flat-footed 27
+AC_Mods: (+8 Dex, +21 natural, -4 size)
+HP: '279'
+HD: (18d12+162)
+HP_Mods: regeneration 15 (cold iron)
+Saves: Fort +20, Ref +21, Will +18
+Fort: '20'
+Ref: '21'
+Will: '18'
+DefensiveAbilities: freedom of movement
+DR: 15/cold iron
+Immune: >-
+  acid, curse effects, flanking, mind-affecting effects, paralysis, poison,
+  sleep effects
+SR: '29'
+Speed: 40 ft., fly 100 ft. (average), swim 80 ft.
+Melee:
+  - >-
+    2 bites +26 (2d8+12/19-20 plus poison), 2 claws +26 (1d8+12), tail +21
+    (2d6+6 plus grab)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: breath weapon (DC 28), constrict (tail, 2d6+18), death curse (DC 26)
+AbilityScores:
+  - 34
+  - 26
+  - 28
+  - 7
+  - 25
+  - 27
+BaseAtk: '18'
+CMB: +34 (+38 grapple)
+CMD: 52 (can't be tripped)
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Improved Bull Rush
+  - Improved Critical (bites)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Fly +23
+  - Perception +36
+  - Stealth +17
+  - Swim +41
+Languages:
+  - Aklo
+  - Draconic
+  - Sylvan
+SQ: amphibious, flight
+Source: AP 36
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Su)
+    description: >-
+      Bite-injury; save Fort DC 28; frequency 1/round for 10 rounds; effect 4d6
+      acid damage and 1d6 Con drain; cure 3 consecutive saves. The save DC is
+      Constitution-based.
+Gender: Male
+DuringCombat: >-
+  Although small for a tarn linnorm, Tarlaxian is still rather enormous&#8211;if
+  he notices anyone approaching the House, he bursts from the still waters of
+  the lake to roar a challenge and then attacks.
+Morale: Tarlaxian fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '885'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

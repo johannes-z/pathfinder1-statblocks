@@ -1,0 +1,133 @@
+Name: Vorr
+CR: '16'
+XP: '76800'
+Race: human
+Class: bloodrager 16
+MonsterSource: Pathfinder RPG Bestiary 2 181, Pathfinder RPG Advanced Class Guide 15
+Alignment: 'N'
+Size: Large
+Type: humanoid
+SubType: (human, shapechanger)
+Init: '5'
+Senses:
+  - low-light vision, scent
+  - Perception +21
+AC: 32, touch 10, flat-footed 31
+AC_Mods: (+8 armor, +2 deflection, +1 Dex, +14 natural, -2 rage, -1 size)
+HP: '273'
+HD: (16d10+176)
+Saves: >-
+  Fort +24, Ref +11, Will +15 (+4 vs. enchantments); +2 bonus vs. spells cast by
+  self or an ally
+Fort: '24'
+Ref: '11'
+Will: +15 (+4 vs. enchantments)
+Save_Mods: +2 bonus vs. spells cast by self or an ally
+DefensiveAbilities: blood sanctuary, improved uncanny dodge, indomitable will
+DR: 10/silver, 4/-
+Resist: cold 10, draconic resistances
+Speed: 40 ft. (30 ft. in armor), fly 60 ft. (good)
+Speed_Mod: dragon wings
+Melee:
+  - +3 greataxe +29/+24/+19/+14 (3d6+18/19-20/x3)
+  - bite +20 (2d6+5), 2 claws +20 (2d6+5 plus 1d6 cold and grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  blood casting, breath weapon (16d6 cold, 30ft. cone, DC 27, 2/day), claws,
+  curse of lycanthropy (DC 15), greater bloodrage (46 rounds/day)
+SpellsKnown:
+  header: Bloodrager Spells Known (CL 16th; concentration +18)
+  values:
+    - label: 4th (1/day)
+      value: >-
+        black tentacles, enervation, fear (DC 16), stoneskin, wall of ice (DC
+        16)
+    - label: 3rd (2/day)
+      value: >-
+        haste, heroism, keen edge, lightning bolt (DC 15), vampiric touch, wind
+        wall
+    - label: 2nd (4/day)
+      value: >-
+        bear's endurance, bull's strength, false life, ghoul touch (DC 14),
+        mirror image, resist energy, see invisibility
+    - label: 1st (4/day)
+      value: >-
+        blurred movementACG, chill touch (DC 13), enlarge person (DC 13), line
+        in the sandACG, long armACG, shield, true strike
+AbilityScores:
+  - 31
+  - 13
+  - 29
+  - 10
+  - 14
+  - 15
+BaseAtk: '16'
+CMB: +27 (+31 grapple)
+CMD: '38'
+Feats:
+  - Eschew Materials
+  - Extra Rage
+  - Great Fortitude
+  - Greater Vital Strike
+  - Improved Critical (greataxe)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Reckless Rage
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (greataxe)
+Skills:
+  - Climb +18
+  - Fly +0
+  - Intimidate +21
+  - Knowledge (nobility) +16
+  - Perception +21
+  - Survival +21
+  - Swim +22
+RacialMods: +4 Swim
+Languages:
+  - Common
+SQ: >-
+  change shape (human, hybrid, and grizzly bear; polymorph), dragon form, fast
+  movement, lycanthropic empathy (+4 with bears and dire bears)
+Source: AP 132
+IsTemplate: '0'
+Gender: Male
+Bloodline: draconic
+BeforeCombat: Vorr prepares for combat by casting mirror image and stoneskin on himself.
+DuringCombat: >-
+  Vorr opens most confrontations with his breath weapon, then uses black
+  tentacles and wall of ice to isolate ranged combatants and spellcasters so he
+  can focus his attacks on warriors and other "powerful" threats. If reduced
+  below 150 hit points, he attempts to recover with the use of false life or
+  vampiric touch.
+Morale: Vorr fights to the death.
+OtherGear: >-
+  +2 breastplate, +3 greataxe, amulet of natural armor +2, belt of physical
+  might +2 (Str, Con), cloak of resistance +3, ring of protection +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: natural werebear|
+BaseStatistics: >-
+  When not raging, Vorr's stats are AC 30, touch 12, flat-footed 29, hp 225,
+  Fort +21, Will +12; Melee +3 greataxe +26/+21/+16/+11 (3d6+13/19-20/x3) or
+  bite +17 (2d6+3), 2 claws +17 (2d6+3 plus grab); Str 25, Con 23; CMB +24 (+28
+  grapple); CMD 37; Skills Climb +15, Swim +19
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: Hybrid Form
+id: '11851'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

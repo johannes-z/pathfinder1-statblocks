@@ -1,0 +1,171 @@
+Name: Aeonte
+CR: '15'
+XP: '51200'
+Race: mythic medusa
+Class: oracle 9
+MonsterSource: >-
+  Pathfinder RPG Mythic Adventures 209, Pathfinder RPG Bestiary 3 216,
+  Pathfinder RPG Advanced Player's Guide 42
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (augmented monstrous humanoid, mythic)
+Init: '12'
+Senses:
+  - darkvision 60 ft.
+  - Perception +36
+AC: 34, touch 18, flat-footed 26
+AC_Mods: (+8 Dex, +16 natural)
+HP: '294'
+HD: (18d8+204)
+HP_Mods: fast healing 5
+Saves: Fort +16, Ref +19, Will +16
+Fort: '16'
+Ref: '19'
+Will: '16'
+DefensiveAbilities: all-around vision, channel resistance +4, freedom of movement
+DR: 10/epic, silver, and slashing
+Immune: undead traits
+Resist: acid 10, cold 10, fire 10
+Weaknesses: light sensitivity, penanggalen weaknesses
+Speed: fly 60 ft. (good)
+Melee:
+  - >-
+    bite +23 (1d6+8 plus disease), slam +23 (1d4+8 plus grab and wither), 2
+    snake bites +23 (1d6+8 plus poison)
+Ranged:
+  - >-
+    +1 merciful composite longbow +24/+19/+14 (1d8+3 x3/nonlethal plus 1d6
+    nonlethal and poison)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with snake bite)
+SpecialAttacks: >-
+  blood drain (1d4 Con), create spawn, disease (filth fever, DC 29), mythic
+  power (5/day, surge +1d6), petrifying gaze (DC 24), poison weapons, unpetrify,
+  wither (DC 29)
+SpellsKnown:
+  header: Oracle Spells Known (CL 9th; concentration +19)
+  values:
+    - label: 4th (6/day)
+      value: >-
+        control water, freedom of movement, inflict critical wounds (DC 24),
+        wall of stone
+    - label: 3rd (8/day)
+      value: >-
+        animate dead, inflict serious wounds (DC 23), invisibility purge, meld
+        into stone, stone shape
+    - label: 2nd (9/day)
+      value: >-
+        eagle's splendor, hold person (DC 22), inflict moderate wounds (DC 22),
+        make whole, resist energy, stone callAPG
+    - label: 1st (9/day)
+      value: >-
+        command (DC 21), deathwatch, divine favor, hide from undead (DC 21),
+        inflict light wounds (DC 21), magic stone, restore corpseUM
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 20), create water, detect magic, detect poison, guidance,
+        light, mending, read magic
+AbilityScores:
+  - 14
+  - 26
+  - —
+  - 18
+  - 19
+  - 30
+BaseAtk: '15'
+CMB: +17 (+21 grapple)
+CMD: '35'
+Feats:
+  - Combat Reflexes
+  - Deadly Aim
+  - Eschew Materials
+  - Extra Mythic Power[M]
+  - Improved Initiative
+  - Improved Precise Shot
+  - Point-Blank Shot
+  - Precise Shot
+  - Weapon Finesse[M]
+Skills:
+  - Appraise +15
+  - Bluff +32
+  - Craft (sculpture) +13
+  - Disguise +22
+  - Fly +27
+  - Intimidate +25
+  - Knowledge (dungeoneering) +15
+  - Knowledge (history
+  - planes
+  - religion) +18
+  - Perception +36
+  - Sense Motive +27
+  - Spellcraft +15
+  - Stealth +30
+  - Swim +10
+RacialMods: +8 Bluff, +8 Fly, +12 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Abyssal
+  - Common
+  - Dwarven
+  - Iblydan
+  - Orc
+  - Terran
+SQ: >-
+  oracle's curse (tongues [Abyssal, Terran]), revelations (acid skin, crystal
+  sight, earth glide), separate
+Source: AP 144
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Snake bite; save Fort DC 24; frequency 1/round for 6 rounds; effect 1d4
+      Con damage; cure 2 consecutive saves. The save DC is Charisma-based.
+      Separated Until she recovers her body, Aeonte is unable to attack with her
+      longbow.
+  - name: Unpetrify Legions (Su)
+    description: >-
+      Aeonte can return a petrified creature to life (as if using stone to
+      flesh) for 1 minute; this process takes 3 rounds of concentration while in
+      contact with the creature, though Aeonte can perform this as a standard
+      action on a creature within 30 feet by expending one use of mythic power.
+      The creature is under her control (as if using dominate monster) and
+      reverts to a statue at the end of this time. If Aeonte expends an
+      additional use of mythic power, she can unpetrify up to three creatures
+      within range simultaneously, or if she expends three uses of mythic power,
+      the creature remains unpetrified for 24 hours instead of 1 minute. This
+      ability modifies a mythic medusa's unpetrify ability and replaces the
+      summon snake ability.
+Gender: Female
+BeforeCombat: >-
+  Aeonte casts eagle's splendor, freedom of movement, and invisibility purge.
+  She also casts resist energy against any energy types she's seen the PCs use
+  (this is not reflected in her statistics).
+DuringCombat: >-
+  Aeonte prefers to fight from above, striking with her snakes and using her
+  gaze to petrify her opponents. She descends to bludgeon softer targets.
+Morale: >-
+  Once her cetus is defeated and she is reduced to 75 hit points or fewer,
+  Aeonte uses her earth glide ability to flee Fallowdeep.
+Gear: scroll of sending (2)
+OtherGear: +1 merciful composite longbow (+2 Str) with 60 arrows
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: penanggalen|
+BaseStatistics: >-
+  Without her spells, Aeonte's stats are hp 248; Fort +14; Cha 26; Skills Bluff
+  +30, Disguise +20, Intimidate +23. Reduce the save DCs of her spells and
+  abilities by 2.
+AgeCategory: Adult
+Mystery: Stone
+CompanionFamiliarLink: '0'
+id: '12769'
+UniqueMonster: '0'
+Variant: '0'
+MR: '3'
+Mythic: '1'
+MT: '0'

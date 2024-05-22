@@ -1,0 +1,89 @@
+Name: Quarrygeist
+CR: '7'
+XP: '3200'
+Race: gearghost
+MonsterSource: Pathfinder RPG Bestiary 4 123
+Alignment: CE
+Size: Small
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +15
+AC: 20, touch 15, flat-footed 16
+AC_Mods: (+3 Dex, +1 dodge, +5 natural, +1 size)
+HP: '88'
+HD: (10d8+30)
+Saves: Fort +6, Ref +8, Will +10
+Fort: '6'
+Ref: '8'
+Will: '10'
+DefensiveAbilities: channel resistance +4, rejuvenation
+DR: 5/-
+Immune: undead traits
+Speed: fly 40 ft. (perfect)
+Melee:
+  - 2 slams +9 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +12)
+  values:
+    - label: At Will
+      value: detect magic, expeditious excavationAPG, telekinesis
+    - label: 3/day
+      value: create pitAPG (DC 15)
+AbilityScores:
+  - 12
+  - 17
+  - —
+  - 15
+  - 16
+  - 17
+BaseAtk: '7'
+CMB: '7'
+CMD: '21'
+Feats:
+  - Dodge
+  - Flyby Attack
+  - Improved Initiative
+  - Lightning Reflexes
+  - Skill Focus (Stealth)
+Skills:
+  - Craft (traps) +19
+  - Disable Device +12
+  - Fly +18
+  - Knowledge (engineering) +9
+  - Perception +15
+  - Profession (miner) +10
+  - Spellcraft +12
+  - Stealth +26
+RacialMods: +8 Craft (traps)
+Languages:
+  - Aklo
+  - Common
+  - Undercommon
+SQ: create trap, resetter
+Source: AP 117
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Trap (Su)
+    description: >-
+      A quarrygeist can use its create trap ability only to recreate natural
+      calamities, such as landslides or rockfalls. These function as traps with
+      proximity triggers.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11191'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

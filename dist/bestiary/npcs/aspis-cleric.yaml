@@ -1,0 +1,92 @@
+Name: Aspis Cleric
+CR: 1/2
+XP: '200'
+Race: half-orc
+Class: cleric of Gorum 1
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (orc)
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+AC: 17, touch 10, flat-footed 17
+AC_Mods: (+7 armor)
+HP: '10'
+HD: (1d8+2)
+Saves: Fort +3, Ref +0, Will +4
+Fort: '3'
+Ref: '0'
+Will: '4'
+DefensiveAbilities: orc ferocity
+Speed: 20 ft.
+Melee:
+  - greatsword +5 (2d6+5/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel positive energy 4/day (DC 11 [13 to damage undead], 1d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 1st; concentration +3)
+  values:
+    - label: 5/day
+      value: touch of glory (+1)
+    - label: 5/day
+      value: battle rage (+1 damage)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 1st; concentration +3)   1st-bane (DC 13), entropic
+  shield, magic weaponD   0 (at will)-bleed (DC 12), resistance, stabilize
+SpellDomains: Glory, War
+AbilityScores:
+  - 16
+  - 10
+  - 13
+  - 8
+  - 15
+  - 12
+BaseAtk: '0'
+CMB: '3'
+CMD: '13'
+Feats:
+  - Weapon Focus (greatsword)
+Skills:
+  - Intimidate +5
+RacialMods: +2 Intimidate
+Languages:
+  - Common
+  - Orc
+SQ: aura (faint chaotic), orc blood, weapon familiarity
+Source: PFS S3-Special
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  The cleric has used his touch of glory ability on himself to increase his
+  chances of success when intimidating foes, and has also cast entropic shield
+  on himself and magic weapon on his weapon.
+DuringCombat: >-
+  The cleric enters a battle rage, wades into combat, and fights furiously,
+  using spells like bane and doom to hinder foes while attacking with his melee
+  weapon. If necessary he uses his positive energy to heal himself or allies.
+Morale: >-
+  Unwilling to admit defeat so quickly, the cleric only retreats if his allies
+  fall and he is the only one left.
+Gear: spiked banded mail, greatsword, 40 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  If the cleric doesn't have time to cast his spells upon himself before battle,
+  he has the following statistics:  Melee greatsword +4 (2d6+4/19&#8211;20);
+  Intimidate +4.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6811'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

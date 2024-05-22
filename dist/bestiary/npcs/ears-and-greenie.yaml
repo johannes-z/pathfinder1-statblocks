@@ -1,0 +1,72 @@
+Name: Ears And Greenie
+CR: '1'
+XP: '400'
+Race: hungry flesh
+MonsterSource: Pathfinder RPG Bestiary 4 152
+Alignment: 'N'
+Size: Medium
+Type: ooze
+Init: '-3'
+Senses:
+  - blindsight 30 ft., scent
+  - Perception -5
+AC: 9, touch 7, flat-footed 9
+AC_Mods: (-3 Dex, +2 natural)
+HP: '15'
+HD: (2d8+6)
+HP_Mods: regeneration 3 (acid or fire)
+Saves: Fort +3, Ref -3, Will -5
+Fort: '3'
+Ref: '-3'
+Will: '-5'
+DefensiveAbilities: amorphous
+Immune: ooze traits
+Speed: 20 ft., swim 20 ft.
+Melee:
+  - slam +3 (1d4+3 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (1d4+3)
+AbilityScores:
+  - 14
+  - 5
+  - 16
+  - —
+  - 1
+  - 1
+BaseAtk: '1'
+CMB: +3 (+7 grapple)
+CMD: 10 (can't be tripped)
+SQ: compression, reactive regeneration, slime trail
+Source: PFS 8-22
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Reactive Regeneration (Ex)
+    description: >-
+      Whenever a hungry flesh takes piercing or slashing damage, it regenerates
+      3 hit points.
+  - name: Slime Trail (Ex)
+    description: >-
+      A hungry flesh leaves behind a trail of slime that acts as a grease spell
+      (DC 14). The slime dries up after 1 minute. The save DC is
+      Constitution-based.
+DuringCombat: >-
+  The hungry fleshes attack the nearest creature that is not a goblin or a
+  hungry flesh. If a PC falls unconscious, the greedy creatures switch targets,
+  attracted to the nearest moving PC.
+Morale: The hungry fleshes mindlessly fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11534'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

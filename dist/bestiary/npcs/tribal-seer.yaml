@@ -1,0 +1,115 @@
+Name: Tribal Seer
+CR: '5'
+XP: '1600'
+Race: half-orc
+Class: diviner 6
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '8'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +7
+AC: 16, touch 12, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, +1 Dex)
+HP: '41'
+HD: (6d6+18)
+Saves: Fort +5, Ref +4, Will +7
+Fort: '5'
+Ref: '4'
+Will: '7'
+DefensiveAbilities: orc ferocity
+Speed: 30 ft.
+Melee:
+  - mwk falchion +3 (2d4-1/18-20)
+Ranged:
+  - light crossbow +4 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 6th; concentration +10)
+  values:
+    - label: 7/day
+      value: diviner's fortune (+3)
+SpellsPrepared: >-
+  Diviner Spells Prepared (CL 6th; concentration +10)  
+  3rd-clairaudience/clairvoyance, deep slumber (DC 18), haste (DC 17), hold
+  person (DC 18)   2nd-flaming sphere (DC 16), fox's cunning, pyrotechnics (DC
+  16), see invisibility, touch of idiocy   1st-charm person (DC 16), detect
+  undead, mage armor, magic missile, shield   0 (at will)-dancing lights, detect
+  magic, detect poison, message
+AbilityScores:
+  - 8
+  - 12
+  - 14
+  - 18
+  - 13
+  - 10
+BaseAtk: '3'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Brew Potion
+  - Combat Casting
+  - Improved Initiative
+  - Scribe Scroll
+  - Spell Focus (enchantment)
+Skills:
+  - Diplomacy +3
+  - Heal +5
+  - Intimidate +6
+  - Knowledge (arcana) +11
+  - Knowledge (geography) +8
+  - Knowledge (history) +8
+  - Knowledge (local) +8
+  - Knowledge (nature) +8
+  - Knowledge (religion) +9
+  - Perception +7
+  - Sense Motive +3
+  - Spellcraft +12
+  - Survival +3
+Languages:
+  - Auran
+  - Common
+  - Draconic
+  - Dwarven
+  - Giant
+  - Orc
+SQ: arcane bond (falchion), forewarned, orc blood, weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+ProhibitedSchools: illusion, necromancy
+BeforeCombat: >-
+  The wizard casts mage armor and see invisibility. If she has a few rounds to
+  prepare, she casts fox's cunning on herself and uses her wand of enlarge
+  person on her allies.
+DuringCombat: >-
+  The wizard casts haste on her allies, hold person on her most dangerous
+  opponent, and touch of idiocy on a spellcaster.
+Gear: >-
+  potions of cat's grace (2), potions of cure light wounds (2), potion of cure
+  moderate wounds, potion of protection from arrows, scroll of comprehend
+  languages, scrolls of mage armor (2), scroll of mount, wand of enlarge person
+  (20 charges)
+OtherGear: >-
+  light crossbow with 20 bolts, masterwork falchion, cloak of resistance +1,
+  ring of protection +1, spellbook, 239 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor, the wizard's statistics are AC 12, touch 12, flat-footed
+  11.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3827'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

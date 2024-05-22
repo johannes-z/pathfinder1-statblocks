@@ -1,0 +1,124 @@
+Name: Makko And Chiyo-Hai
+CR: '10'
+XP: '9600'
+Race: ogre mage
+Class: monk (hungry ghost monk) 4
+MonsterSource: Pathfinder RPG Bestiary 221, Pathfinder RPG Advanced  Player's Guide 110
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (giant, native, oni, shapechanger)
+Init: '9'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +17
+AC: 25, touch 20, flat-footed 19
+AC_Mods: (+5 Dex, +1 dodge, +1 monk, +5 natural, -1 size, +4 Wis)
+HP: '152'
+HD: (12 HD; 8d10+4d8+88)
+HP_Mods: regeneration 5 (acid or fire)
+Saves: Fort +17, Ref +11, Will +16; +2 vs. enchantment
+Fort: '17'
+Ref: '11'
+Will: '16'
+Save_Mods: +2 vs. enchantment
+DefensiveAbilities: evasion
+SR: '19'
+Speed: 50 ft., fly 60 ft. (average)
+Melee:
+  - unarmed strike +19/+14/+9 (2d6+9)
+  - unarmed strike flurry of blows +18/+18/+13/+8 (2d6+9)
+Ranged:
+  - mwk composite longbow +16/+11/+6 (2d6+8/x3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: flurry of blows, punishing kickAPG (6/day, DC 16)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +12)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: darkness, invisibility
+    - label: 1/day
+      value: >-
+        charm monster (DC 21), cone of cold (DC 22), deep slumber (DC 20),
+        gaseous form
+AbilityScores:
+  - 26
+  - 21
+  - 25
+  - 14
+  - 18
+  - 16
+BaseAtk: '11'
+CMB: '21'
+CMD: '41'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Improved Unarmed Strike
+  - Iron Will
+  - Mobility
+  - Punishing Kick
+  - Spring Attack
+  - Whirlwind Attack
+Skills:
+  - Acrobatics +20 (+24 jump)
+  - Bluff +14
+  - Disguise +14
+  - Fly +10
+  - Intimidate +18
+  - Knowledge (arcana) +10
+  - Perception +17
+  - Sense Motive +15
+  - Spellcraft +12
+  - Stealth +12
+  - Use Magic Device +12
+Languages:
+  - Common
+  - Giant
+  - Polyglot
+SQ: >-
+  change shape (Small, Medium, or Large humanoid; alter self or giant form I),
+  fast movement, flight, ki pool (6 points, magic), maneuver training, slow fall
+  20 ft., still mind
+Source: AP 40
+IsTemplate: '0'
+Gender: Male and Female
+BeforeCombat: >-
+  If they hear the sounds of combat in area H1, Makko and Chiyo-hai turn
+  invisible and fly, hovering near the ceiling to await intruders.
+DuringCombat: >-
+  If the intruders are bunched together, the ogre mages begin combat by casting
+  cones of cold to catch as many foes as possible. They use invisibility and
+  darkness to confuse opponents, striking with surprise and using Spring Attack
+  to avoid counterattacks. They use flurry of blows against single foes to take
+  them out of combat as soon as possible. If surrounded or cornered, they use
+  Whirlwind Attack to strike as many opponents as possible.
+Morale: >-
+  The ogre mages' goal of personal aggrandizement is far more important to them
+  than any loyalty to the Maka-Yika. If brought below 50 hit points, they cast
+  gaseous form and flee into the ruins. But if one of them is slain, the
+  surviving sibling howls in rage and fights to the death.
+OtherGear: >-
+  masterwork composite longbow (+8 Str) with 20 arrows, amulet of mighty fists
+  +1, copper armband (worth 30 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: hungry ghost monk
+CompanionFamiliarLink: '0'
+id: '1053'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

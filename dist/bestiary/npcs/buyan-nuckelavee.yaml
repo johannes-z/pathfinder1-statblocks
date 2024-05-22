@@ -1,0 +1,111 @@
+Name: Buyan Nuckelavee
+CR: '11'
+XP: '12800'
+Race: nuckelavee
+MonsterSource: Pathfinder RPG Bestiary 3 203
+Alignment: NE
+Size: Large
+Type: fey
+SubType: (aquatic)
+Init: '7'
+Senses:
+  - low-light vision
+  - Perception +22
+Aura: frightful presence (30 ft., DC 21)
+AC: 25, touch 17, flat-footed 17
+AC_Mods: (+7 Dex, +1 dodge, +8 natural, -1 size)
+HP: '152'
+HD: (16d6+96)
+Saves: Fort +11, Ref +17, Will +13
+Fort: '11'
+Ref: '17'
+Will: '13'
+DR: 10/cold iron
+Immune: disease, fire, poison
+Speed: 50 ft., swim 50 ft.
+Melee:
+  - >-
+    mwk longsword +14/+9 (1d8+9/19-20), bite +11 (1d8+3), 2 hooves +11 (1d6+3
+    plus disease), tresses +11 (2d6+3 plus staggering touch)
+Space: 10 ft.
+Reach: 5 ft. (15 ft. with tresses)
+SpecialAttacks: >-
+  breath weapon (30-ft. cone, 10d6 damage plus disease, Reflex DC 24 half,
+  usable every 1d4 rounds), trample (1d6+9, DC 24)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +12)
+  values:
+    - label: 3/day
+      value: control water, diminish plants, obscuring mist
+    - label: 1/day
+      value: summon nature's ally VI (water elementals only)
+AbilityScores:
+  - 22
+  - 24
+  - 22
+  - 13
+  - 17
+  - 17
+BaseAtk: '8'
+CMB: '15'
+CMD: 33 (37 vs. trip)
+Feats:
+  - Acrobatic Steps
+  - Dodge
+  - Mobility
+  - Multiattack
+  - Nimble Moves
+  - Spring Attack
+  - Vital Strike
+  - Wind Stance
+Skills:
+  - Acrobatics +26 (+34 when jumping)
+  - Escape Artist +26
+  - Intimidate +19
+  - Knowledge (nature) +20
+  - Perception +22
+  - Stealth +22
+  - Swim +33
+Languages:
+  - Aklo
+  - Sylvan
+SQ: amphibious, undersized weapons
+Source: AP 72
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Mortasheen: Contact or injury-bite; save Fort DC 24; onset immediate;
+      frequency 1/day; effect 1d4 Con damage and fatigue; cure 2 consecutive
+      saves. Animals take a &#8211;2 penalty on their saves.
+  - name: Staggering Touch (Su)
+    description: >-
+      A creature that takes damage from a Buyan nuckelavee's tresses must
+      succeed at a DC 21 Fortitude save or be staggered for 1 round by
+      overwhelming feelings of desire and shame. This is a mind-affecting
+      effect. The save DC is Charisma-based.
+  - name: Tresses (Su)
+    description: >-
+      A Buyan nuckelavee's long, seaweed-like hair is strong and capable of
+      making powerful primary natural attacks.
+DuringCombat: >-
+  The nuckelavees use their breath weapons, then use Spring Attack and Vital
+  Strike to attack with their tresses, keeping mobile and away from
+  counterattacks until their breath weapons recharge.
+Morale: The nuckelavees fight to the death.
+Gear: mwk longsword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4646'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,122 @@
+Name: Nihil The Ashbringer
+CR: '13'
+XP: '25600'
+Race: ashmede devil
+MonsterSource: The Book of Fiends 146
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '7'
+Senses:
+  - aura sight, darkvision 60 ft., detect magic, see in darkness
+  - Perception +19
+Aura: fear (30 ft., DC 19)
+AC: 30, touch 14, flat-footed 27
+AC_Mods: (+2 deflection, +3 Dex, +16 natural, -1 size)
+HP: '175'
+HD: (13d10+104)
+HP_Mods: fast healing 3
+Saves: Fort +16, Ref +7, Will +11
+Fort: '16'
+Ref: '7'
+Will: '11'
+DR: 10/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+SR: '24'
+Speed: 40 ft., fly 60 ft. (average)
+Melee:
+  - +1 unholy scythe +21/+16/+11 (2d6+11/19-20/x4), 2 wings +14 (1d6+3)
+Space: 10 ft.
+Reach: 10 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +15)
+  values:
+    - label: Constant
+      value: aura sightACG, detect magic
+    - label: At Will
+      value: >-
+        charm person (DC 14), dispel magic, greater teleport (self plus 50 lbs.
+        of objects only)
+    - label: 3/day
+      value: blasphemy (DC 20), greater invisibility, polymorph, prying eyes
+    - label: 1/day
+      value: >-
+        chain lightning (DC 19), discern location, forcecage (DC 20), horrid
+        wilting (DC 21), summon (level 4, 1 barbed devil 50%)
+AbilityScores:
+  - 24
+  - 16
+  - 26
+  - 17
+  - 17
+  - 17
+BaseAtk: '13'
+CMB: +21 (+25 sunder)
+CMD: 36 (38 vs. sunder)
+Feats:
+  - Flyby Attack
+  - Greater Sunder
+  - Improved Critical (scythe)
+  - Improved Initiative
+  - Improved Sunder
+  - Power Attack
+  - Weapon Focus (scythe)
+Skills:
+  - Bluff +19
+  - Diplomacy +19
+  - Fly +17
+  - Intimidate +19
+  - Knowledge (nobility) +12
+  - Knowledge (planes) +13
+  - Perception +19
+  - Sense Motive +19
+  - Stealth +15
+  - Survival +19
+Languages:
+  - Celestial
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+Source: Curse Of The Crimson Throne Chapter 5
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear Aura (Su)
+    description: A creature that succumbs to Nihil's fear aura cowers in fear for 1 round.
+Gender: Female
+BeforeCombat: >-
+  As soon as she receives reports that the castle is being invaded by the PCs,
+  Nihil uses prying eyes to explore Scarwall's heights in search of the
+  intruders. If she finds them, she watches their tactics to familiarize herself
+  with their capabilities. As soon as it looks like the PCs are about to reach
+  this chamber, she casts greater invisibility and attempts to summon a barbed
+  devil to augment her defenses.
+DuringCombat: >-
+  When Nihil attacks, any minions she has nearby attempt to isolate individuals
+  and wear them down before switching to other targets, letting Nihil make as
+  many final kills as possible. As soon as the PCs are all within this chamber,
+  she casts blasphemy, followed in the next 2 rounds by horrid wilting and chain
+  lightning. If one PC in particular seems to be far more dangerous than others
+  (such as a heavily armored fighter with weapons that can penetrate her damage
+  reduction), she uses forcecage to separate that character from the battle to
+  be dealt with later.
+Morale: >-
+  Nihil is unable to flee as long as she remains a spirit anchor, and thus
+  fights to the death.
+Gear: +1 unholy scythe, ring of protection +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8691'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

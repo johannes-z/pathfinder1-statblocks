@@ -1,0 +1,92 @@
+Name: Gray Nisp
+CR: '8'
+XP: '4800'
+Race: Gray Nisp
+MonsterSource: Tome of Horrors III 100
+Alignment: CN
+Size: Large
+Type: fey
+SubType: (aquatic)
+Init: '3'
+Senses:
+  - keen scent, low-light vision
+  - Perception +19
+AC: 20, touch 12, flat-footed 17
+AC_Mods: (+3 Dex, +8 natural, -1 size)
+HP: '97'
+HD: (13d6+52)
+Saves: Fort +8, Ref +11, Will +8
+Fort: '8'
+Ref: '11'
+Will: '8'
+Speed: 30 ft., swim 60 ft.
+Melee:
+  - bite +12 (1d8+6), 2 claws +12 (1d6+6)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rend (2 claws, 1d6+9)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +10)
+  values:
+    - label: At will
+      value: >-
+        confusion (DC 16), detect thoughts (DC 14), ghost sound (DC 12), hold
+        monster (DC 17), slow (DC 15)
+AbilityScores:
+  - 22
+  - 17
+  - 18
+  - 5
+  - 11
+  - 14
+BaseAtk: '6'
+CMB: '13'
+CMD: '26'
+Feats:
+  - Cleave
+  - Combat Reflexes
+  - Power Attack
+  - Skill Focus (Perception)
+  - Stealthy
+  - Weapon Focus (claw)
+  - Weapon Focus (bite)
+Skills:
+  - Escape Artist +20
+  - Perception +19
+  - Stealth +16
+  - Swim +26
+Languages:
+  - Aquan
+SQ: water dependency
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Keen Scent (Ex)
+    description: >-
+      A gray nisp can notice creatures by scent in a 180-foot radius underwater
+      and can detect blood in the water at a range of up to a mile.
+  - name: Water Dependency (Ex)
+    description: >-
+      Gray nisps can survive out of the water for 1 hour per point of
+      Constitution. Beyond this limit, a gray nisp runs the risk of suffocation,
+      as if it were drowning.
+DuringCombat: >-
+  When the PCs first arrive, one nisp targets the lead character with hold
+  monster while the other targets the characters in the rear with confusion. The
+  nisps then burst from concealment and attack in a blood frenzy.
+Morale: The gray nisps fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1039'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,98 @@
+Name: Toy Golem
+CR: '5'
+XP: '1600'
+Race: Clockwork variant junk golem
+MonsterSource: Pathfinder RPG Bestiary 4 304, 132
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (clockwork)
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 21, touch 11, flat-footed 19
+AC_Mods: (-1 Dex, +2 dodge, +10 natural)
+HP: '53'
+HD: (6d10+20)
+HP_Mods: clockwork repair
+Saves: Fort +2, Ref +3, Will +2
+Fort: '2'
+Ref: '3'
+Will: '2'
+DR: 5/adamantine
+Immune: construct traits, magic
+Weaknesses: vulnerable to electricity
+Speed: 30 ft.
+Melee:
+  - 2 slams +10 (1d6+4 plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: disease
+AbilityScores:
+  - 18
+  - 9
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '6'
+CMB: '10'
+CMD: '21'
+Feats:
+  - Improved InitiativeB
+  - Lightning ReflexesB
+SQ: difficult to create, discorporate, swift reactions, winding
+Environment: '?'
+Organization: '?'
+Treasure: '?'
+Description_Visual: This amalgam of mechanical toys clacks and whirs.
+Group: Golem
+Source: Tombs Of Golarion
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Clockwork Repair (Ex)
+    description: >-
+      The toy golem has fast healing 2 when in an area with a high concentration
+      of clockwork parts, such as Mutalib's workshop or the area created by a
+      similar golem's discorporate ability.
+  - name: Disease (Ex)
+    description: >-
+      Tetanus: Slam-injury; save Fort DC 13; onset 1d6 days; frequency 1/day;
+      effect 1d4 Dex damage. Each time a victim takes Dexterity damage from
+      tetanus, there's a 50% chance its jaw muscles stiffen, preventing speech
+      and the use of spells with verbal components for 24 hours; cure 2
+      consecutive saves. The save DC is Constitution-based.
+Description:
+  - >-
+    A toy golem is 6 feet tall and weighs about 450 pounds; each component toy
+    is only 1 foot tall and weighs 1-1/2 pounds. The components that make up the
+    golem are capable of winding one another up if they can reach each other.
+  - Construction
+  - >-
+    A toy golem requires approximately 300 tiny clockwork components worth a
+    total of 1,000 gp.
+  - TOY GOLEM
+  - CL 7th; Price 16,000 gp
+  - Construction
+  - >-
+    Requirements Craft Construct, lesser geas, false life, minor creation,
+    creator must be at least caster level 7th; Skill Craft (clockwork) DC 17;
+    Cost 8,500 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6832'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

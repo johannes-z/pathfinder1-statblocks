@@ -1,0 +1,90 @@
+Name: Miglargu
+CR: '16'
+XP: '76800'
+Race: froghemoth
+MonsterSource: Pathfinder RPG Bestiary 136, 171
+Alignment: NE
+Size: Huge
+Type: outsider
+SubType: (native)
+Init: '6'
+Senses:
+  - all-around vision, blindsight 30 ft., darkvision 60 ft.
+  - Perception +29
+AC: 30, touch 10, flat-footed 28
+AC_Mods: (+2 Dex, +20 natural, -2 size)
+HP: '216'
+HD: (16d8+144)
+Saves: Fort +14, Ref +9, Will +12
+Fort: '14'
+Ref: '9'
+Will: '12'
+DR: 10/magic
+Immune: electricity (partial), poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '27'
+Weaknesses: slowed by electricity
+Speed: 20 ft., fly 40 ft. (good), swim 30 ft.
+Melee:
+  - >-
+    bite +22 (2d6+12/19-20 plus grab), 4 tentacles +20 (1d8+6 plus grab), tongue
+    +20 (1d4+6 plus grab)
+Space: 15 ft.
+Reach: 15 ft. (30 ft. with tongue)
+SpecialAttacks: >-
+  constrict (tentacle, 1d6+12), smite good, swallow whole (3d6+12 damage, AC 20,
+  hp 21)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +18)
+  values:
+    - label: 3/day
+      value: darkness, poison (DC 16), unholy aura (DC 20)
+    - label: 1/day
+      value: >-
+        blasphemy (DC 19), contagion (DC 15), desecrate, horrid wilting (DC 20),
+        unhallow, unholy blight (DC 16)
+AbilityScores:
+  - 34
+  - 15
+  - 28
+  - 4
+  - 15
+  - 15
+BaseAtk: '12'
+CMB: +26 (+30 grapple)
+CMD: '38'
+Feats:
+  - Cleave
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Lunge
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+Skills:
+  - Perception +29
+  - Stealth +19 (+27 in marshes)
+  - Survival +21
+  - Swim +20
+RacialMods: +8 Perception, +8 Stealth in marshes
+Languages:
+  - Abyssal
+Source: The Moonscar
+IsTemplate: '0'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: half-fiend|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3360'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,226 @@
+Name: Emperor of Scales
+CR: '15'
+XP: '51200'
+Alignment: CE
+Size: Huge
+Type: outsider
+SubType: (chaotic, evil, native)
+Init: '11'
+Senses:
+  - all-around vision, darkvision 60 ft., scent
+  - Perception +26
+Aura: frightful presence (60 ft., DC 25), maddening hiss (100 ft., DC 25)
+AC: 30, touch 15, flat-footed 23
+AC_Mods: (+7 Dex, +15 natural, -2 size)
+HP: '225'
+HD: (18d10+126)
+HP_Mods: regeneration 5 (electricity)
+Saves: Fort +19, Ref +13, Will +15
+Fort: '19'
+Ref: '13'
+Will: '15'
+DR: 15/good and silver
+Immune: acid, fire, mind-affecting effects, paralysis, poison, vorpal weapons
+SR: '26'
+Speed: 30 ft., climb 30 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    bite +24 (2d8+8/19-20 plus poison and grab), 8 snakebites  +22 (1d6+4 plus
+    poison)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with snakebites)
+SpecialAttacks: acidic gore, poison, swallow whole (2d8+12 plus poison, AC 17, 22 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +21)
+  values:
+    - label: Constant
+      value: fly
+    - label: At will
+      value: poison (DC 20), teleport
+    - label: 3/day
+      value: >-
+        accelerate poison* (DC 18), blindness/deafness (DC 18), blur, dominate
+        person (DC 21), major image (DC 19), mirror image, suggestion (DC 19)
+    - label: 1/day
+      value: >-
+        chaos hammer (DC 20), dream, mass suggestion (DC 22), nightmare (DC 21),
+        unholy blight (DC 20)
+AbilityScores:
+  - 26
+  - 24
+  - 23
+  - 13
+  - 19
+  - 22
+BaseAtk: '18'
+CMB: +28 (+32 grapple)
+CMD: 45 (can't be tripped)
+Feats:
+  - Combat Reflexes
+  - Great Fortitude
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Snatch
+  - Toughness
+Skills:
+  - Bluff +27
+  - Climb +16
+  - Escape Artist +22
+  - Fly +20
+  - Knowledge (history) +12
+  - Knowledge (planes) +12
+  - Knowledge (religion) +12
+  - Perception +26
+  - Sense Motive +22
+  - Spellcraft +19
+  - Stealth +16
+  - Use Magic Device +21
+RacialMods: +4 Escape Artist, +4 Perception, +4 Stealth, +4 Use Magic Device
+Languages:
+  - Abyssal
+  - Aklo
+  - Azlanti (does not speak)
+  - telepathy  100 ft.
+SQ: command snakes
+Environment: any
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  The air fills with the sound of hissing snakes as a giant, severed snake's
+  head floats into view, with a gaping mouth and twin fangs dripping virulent
+  poison. Its eyes are milky and blind, but its forked tongue constantly tests
+  the air for fresh scents. Below the head, where a body should be, numerous
+  hissing serpents thrash like tendrils of torn flesh. Blood drips from the
+  severed head, sizzling as it burns like acid through anything it touches.
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acidic Gore (Su)
+    description: >-
+      The Emperor of Scales' giant severed head continually drips blood and gore
+      that burn like acid. Any creature within 10 feet of the Emperor of Scales
+      must make a DC 25 Reflex save or be sprayed by droplets of acidic blood,
+      taking 2d6 points of acid damage. The save DC is Constitution-based.
+  - name: Command Snakes (Ex)
+    description: >-
+      As a free action, the Emperor of Scales can command any snake or serpent
+      with the animal or magical beast type, as the dominate animal spell. The
+      target can resist the command with a DC 25 Will save.
+  - name: Immunity to Vorpal Weapons (Ex)
+    description: >-
+      The Emperor of Scales is essentially a giant head with no body. As a
+      result, its head cannot be severed, and vorpal weapons have no additional
+      effect on it.
+  - name: Maddening Hiss (Su)
+    description: >-
+      The Emperor of Scales' numerous snake heads constantly hiss in a maddening
+      cacophony as a free action. Any creature within 100 feet of the Emperor of
+      Scales must make a DC 25 Will save or be confused for 1 round. This is a
+      mind-affecting compulsion insanity effect. A creature that saves cannot be
+      affected by the Emperor of Scales' maddening hiss for 24 hours. The save
+      DC is Charisma-based.
+  - name: Poison (Ex)
+    description: >-
+      Bite or swallow-injury; save Fort DC 25; frequency 1/round for 10 rounds;
+      effect 2d6 acid and 1d4 Str; cure 2 consecutive saves; snakebite-injury;
+      save Fort DC 20; frequency 1/round for 6 rounds; effect 1d2 Con; cure 2
+      consecutive saves.
+Description:
+  - >-
+    In the earliest days of the Age of Serpents, when the great serpentfolk
+    empire was young, the serpentfolk were ruled by a single, powerful
+    priest-king. When Ydersius took his rightful place as god of the
+    serpentfolk, he exalted this priest-king above all others, raising the king
+    up to become his foremost servant and herald. With his original name long
+    lost to memory, the first king of the serpentfolk empire became known as the
+    Emperor of Scales.
+  - >-
+    With Ydersius's still-living head entombed beneath the earth and his
+    mindless body endlessly wandering the Darklands, the Emperor of Scales is
+    the snake-god's primary representative on Golarion. Unable to take direct
+    action on his own, Ydersius relies upon his herald to enact his will on the
+    Material Plane. The Emperor of Scales embodies the fall of the mighty
+    serpentfolk empire from its previous heights, and personifies the rage of
+    Ydersius himself, trapped and sundered into two lesser parts. But he also
+    represents the god's immortality, for even in defeat Ydersius was not slain,
+    and even without a body, the Emperor of Scales still serves.
+  - >-
+    The Emperor of Scales does not speak, but it can communicate telepathically.
+    Snakes and serpents of all kinds and sizes flock to the Emperor of Scales,
+    who can enslave them to his will. The Emperor of Scales appears as a giant
+    snake's head about 20 feet long, and weighs close to 5 tons. His serpentine
+    tendrils extend another 15 feet behind and around his head.
+  - >-
+    Ecology When Ydersius was whole and walked Golarion as the god of the
+    serpentfolk empire, the Emperor of Scales appeared as a giant serpentfolk
+    warrior clad in golden scale armor who strode across ancient battlefields
+    wielding spells and blade with equal precision. When Ydersius was beheaded
+    by the Azlanti heroine Savith and cast down, the Emperor of Scales suffered
+    his own mutilation. In a sympathetic ref lection of his master's fate, the
+    Emperor's head tore itself free from his body, growing to monstrous size
+    while his humanoid body quickly withered away. His eyes clouded over,
+    blinding the herald, but the tendrils of flesh that once attached his head
+    to his body transformed into a multitude of hissing, poisonous vipers. The
+    Emperor of Scales has kept that form since, but the faithful of Ydersius
+    believe that when the snake-god is restored, so too will his herald return
+    to his original form and once more lead the serpentfolk armies to victory.
+  - >-
+    Originally born on Golarion, the Emperor of Scales is a native outsider. He
+    sleeps like any normal creature, and when not called upon to serve, spends
+    most of his time in a dream-filled torpor, much like the severed head of
+    Ydersius himself. Unlike other native outsiders, however, the Emperor of
+    Scales does not need to eat. As he no longer has a body to process and
+    digest food, he gains sustenance from his divine link with Ydersius. On
+    other planes, the Emperor of Scales gains the extraplanar subtype, and
+    requires neither food nor sleep.
+  - >-
+    Habitat & Society At the height of Ydersius's power, the Emperor of Scales
+    divided his time between Golarion and Ydersius's planar realm, the pocket
+    plane of Sydrixus deep in the unending chaos of the Maelstrom. Since
+    Ydersius's defeat, that realm has been closed to both the god and his
+    servants, and like Ydersius, the Emperor of Scales has been confined to the
+    Material Plane. In the millennia since, the Emperor of Scales has traveled
+    throughout the Material Plane, alternately searching the Darklands of
+    Golarion for the sundered skull and body of Ydersius, or sleeping for
+    centuries, dreaming of his master's restoration and return.
+  - >-
+    The Emperor of Scales has been encountered numerous times over the ages in
+    various abandoned cities of the ancient serpentfolk, both on Golarion, and
+    some say, on other worlds as well. Powerful priests of Ydersius have been
+    known to wake the Emperor of Scales when they find him and request his aid.
+    Such alliances are usually short-lived, however, as the herald inevitably
+    moves on in search of his lost master.
+  - >-
+    The Emperor of Scales is known to work with demons on occasion, though those
+    fiends serving Abraxas are viewed as enemies, and the herald does not
+    hesitate to attack and destroy them, returning them to their Abyssal realm.
+  - >-
+    In his original form, the Emperor of Scales frequently mated with mortal
+    serpentfolk and left behind countless semidivine progeny. What happened to
+    these paragons of the serpentfolk race after the fall of the serpentfolk
+    empire is unknown, although many powerful serpentfolk priests claim descent
+    from the herald to bolster their own inf luence. These days, exceptionally
+    large or particularly strong snakes are said to be the brood of the Emperor
+    of Scales, remnants of his serpentine tendrils that were severed in battle
+    and took on a life of their own. Whether or not these claims are true is of
+    little importance-certainly the Emperor of Scales himself seems unconcerned
+    with such potential offspring.
+Note: '* See Pathfinder RPG Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1468'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

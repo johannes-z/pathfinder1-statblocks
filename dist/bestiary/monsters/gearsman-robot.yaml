@@ -1,0 +1,114 @@
+Name: Gearsman Robot
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (robot)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +1
+AC: 20, touch 11, flat-footed 19
+AC_Mods: (+1 Dex, +9 natural)
+HP: '42'
+HD: (4d10+20)
+Saves: Fort +1, Ref +2, Will +2
+Fort: '1'
+Ref: '2'
+Will: '2'
+DefensiveAbilities: hardness 10
+Immune: construct traits
+Weaknesses: vulnerable to critical hits, vulnerable to electricity
+Speed: 20 ft.
+Melee:
+  - slam +9 (1d4+7)
+  - mwk spear +10 (1d8+5/x3 plus 1d6 electricity)
+Ranged:
+  - mwk spear +6 (1d8+6/x3)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 20
+  - 13
+  - —
+  - 10
+  - 13
+  - 1
+BaseAtk: '4'
+CMB: '9'
+CMD: '20'
+Feats:
+  - Combat Reflexes
+  - Power Attack
+Skills:
+  - Craft (any one) +8
+  - Disable Device +8
+  - Perception +8
+  - Profession (any one) +7
+  - Sense Motive +8
+Languages:
+  - Common
+  - Hallit
+SQ: adaptive learning, charge weapon, self-repair
+Environment: any (Numeria)
+Organization: solitary, pair, or squad (3-12)
+Treasure: standard (masterwork spear, other treasure)
+Description_Visual: >-
+  Made of what appears to be burnished brass, this construct resembles a suit of
+  armor with a glowing glass orb for an eye.
+Group: Robot
+Source: Inner Sea Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adaptive Learning (Ex)
+    description: >-
+      A gearsman has a number of skill points equal to 4 + its Int modifier per
+      Hit Die, and treats Craft and Profession as class skills beyond those
+      possessed by all robots. In addition, a gearsman has a number of bonus
+      skill ranks equal to its Hit Dice that can be reprogrammed to apply to any
+      skill-these ranks cannot be split among multiple skills and must all apply
+      to one skill. A gearsman may change what skill these bonus ranks apply to
+      up to once per day by concentrating for 1 minute, during which time it can
+      take no other actions. Rather than spend these bonus ranks on a skill, a
+      gearsman can choose to devote them to weapon knowledge, gaining
+      proficiency with a single weapon instead of bonus ranks in a skill. All
+      gearsmen are automatically proficient with all simple weapons.
+  - name: Charge Weapon (Ex)
+    description: >-
+      Any metal melee weapon wielded by a gearsman becomes charged with
+      electricity and deals +1d6 points of electricity damage on a hit.
+      Self-Repair (Ex) A gearsman's nanites heal it of damage at the rate of a
+      number of hit points per hour equal to its Hit Dice (4 hit points per hour
+      for most gearsmen). Up to once per day, as a full-round action, it can
+      heal any robot it touches of 4d6 points of damage-if a gearsman uses this
+      ability on itself, it automatically heals the maximum amount: 24 points of
+      damage.
+Description:
+  - >-
+    Of all the impossible artifacts of Silver Mount, none has been a greater
+    boon to the Technic League than the fabled gearsmen. For reasons known only
+    to themselves, many of these robots serve the artificers of the Technic
+    League as shock troops and guards, performing their tasks with mechanical
+    detachment and coldly logical efficiency. Yet they serve a purpose beyond
+    Numeria, disobeying their putative masters whenever orders contradict their
+    mysterious internal directives. When questioned about their lapses, a
+    gearsman answers only with endlessly patient silence.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6280'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

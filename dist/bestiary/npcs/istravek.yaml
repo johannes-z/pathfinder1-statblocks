@@ -1,0 +1,150 @@
+Name: Istravek
+CR: '18'
+XP: '153600'
+Race: ancient black dragon
+MonsterSource: Pathfinder RPG Bestiary 92, Pathfinder RPG Bestiary 2 230
+Alignment: NE
+Size: Huge
+Type: undead
+SubType: (water)
+Init: '4'
+Senses:
+  - >-
+    arcane sight, blindsense 120 ft., darkvision 240 ft., dragon senses, true
+    seeing
+  - Perception +44
+Aura: cowering fear, frightful presence (300 ft., DC 28)
+AC: 41, touch 11, flat-footed 41
+AC_Mods: (+3 deflection, +30 natural, -2 size)
+HP: '297'
+HD: (22d8+154)
+Saves: Fort +21, Ref +14, Will +21; +2 resistance vs. good
+Fort: '21'
+Ref: '14'
+Will: '21'
+Save_Mods: +2 resistance vs. good
+DefensiveAbilities: channel resistance +4, soul ward (22 hp)
+DR: 15/good
+Immune: acid, undead traits
+SR: '29'
+Speed: 60 ft., fly 200 ft. (poor), swim 60 ft.
+Melee:
+  - >-
+    bite +34 (2d8+19/19-20 plus 4d6 acid), 2 claws +33 (2d6+13/19-20), tail slap
+    +31 (2d6+19/19-20), 2 wings +31 (1d8+6/19-20)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  acid pool (50-ft. radius, 20d6 acid), acidic bite, breath weapon (100-ft.
+  line, 20d6 acid plus 2 negative levels, Reflex DC 28 half), corrupt water,
+  crush (Small, DC 28, 2d8+19), soul consumption (DC 28), soul magic
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 22nd; concentration +29)
+  values:
+    - label: Constant
+      value: speak with animals (reptiles only)
+    - label: At Will
+      value: darkness (100 ft.), insect plague, plant growth
+SpellsKnown:
+  header: >-
+    Sorcerer Spells Known (CL 16th; concentration +23)   8th-horrid wilting (DC
+    25)   7th-finger of death (DC 24), greater teleport   6th-acid fog, greater
+    dispel magic, true seeing   5th-baleful polymorph (DC 22), telekinesis (DC
+    22), transmute rock to mud (DC 22), waves of fatigue   4th-acid pitAPG (DC
+    21), black tentacles, fear (DC 21), remove curse   3rd-gaseous form, haste,
+    hold person (DC 20), ray of exhaustion (DC 20)   2nd-acid arrow,
+    blindness/deafness (DC 19), blur, false life, invisibility   1st-cause fear
+    (DC 18), ear-piercing screamUM (DC 18),  expeditious retreat, hold portal,
+    protection from good   0-acid splash, arcane mark, bleed (DC 17), detect
+    magic, mage hand, message, ray of frost, read magic, touch of fatigue (DC
+    17)
+  values: []
+AbilityScores:
+  - 37
+  - 10
+  - —
+  - 22
+  - 25
+  - 24
+BaseAtk: '22'
+CMB: '37'
+CMD: 50 (54 vs. trip)
+Feats:
+  - Alertness
+  - Combat Expertise
+  - Flyby Attack
+  - Greater Spell PenetrationB
+  - Greater Vital Strike
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Stealth)
+  - Spell PenetrationB
+  - Vital Strike
+  - Weapon Focus (bite)
+Skills:
+  - Fly +17
+  - Handle Animal +29
+  - Intimidate +40
+  - Knowledge (arcana
+  - geography
+  - history
+  - nature) +31
+  - Perception +44
+  - Sense Motive +9
+  - Spellcraft +31
+  - Stealth +31
+  - Swim +46
+  - Use Magic Device +32
+RacialMods: +8 Intimidate, +8 Perception, +8 Stealth
+Languages:
+  - Common
+  - Draconic
+  - Giant
+  - Necril
+  - Orc
+  - Razatlani
+SQ: arcane plates, swamp stride, water breathing
+Source: AP 143
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Arcane Plates (Su)
+    description: >-
+      While wearing his golden plating, Istravek's natural attacks count as
+      magic for the purpose of bypassing DR and striking incorporeal creatures.
+      Istravek treats his sorcerer level as 2 higher for the purposes of
+      determining spells per day, spells known, and effective level of
+      spellcasting. Once per week, he can replace one of his spells known with
+      any other spell on the sorcerer spell list of the same level. The plating
+      also grants him Spell Penetration and Greater Spell Penetration as bonus
+      feats. It crumbles to dust if removed.
+  - name: Permanent Spells (Sp)
+    description: >-
+      Istravek has used permanency to gain the effects of arcane sight and
+      resistance.
+Gender: Male
+BeforeCombat: Istravek casts both protection from good and true seeing.
+DuringCombat: >-
+  Istravek keeps to higher ground as best as he can. He uses spells like acid
+  fog and black tentacles to block the pyramid's exit, intent on keeping his
+  foes inside, then casts baleful polymorph and horrid wilting on them. Istravek
+  resorts to physical combat only if he has no other way to prevent a foe from
+  slipping out of the pyramid.
+Morale: Istravek fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: ravener|
+AgeCategory: ancient
+CompanionFamiliarLink: '0'
+id: '12716'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

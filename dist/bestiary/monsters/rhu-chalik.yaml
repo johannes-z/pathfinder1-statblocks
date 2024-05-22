@@ -1,0 +1,219 @@
+Name: Rhu-Chalik
+CR: '6'
+XP: '2400'
+Alignment: CE
+Size: Small
+Type: aberration
+Init: '7'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +10
+AC: 18, touch 14, flat-footed 15
+AC_Mods: (+4 armor, +3 Dex, +1 size)
+HP: '68'
+HD: (8d8+32)
+HP_Mods: fast healing 2
+Saves: Fort +6, Ref +5, Will +8
+Fort: '6'
+Ref: '5'
+Will: '8'
+DefensiveAbilities: all-around vision
+Immune: cold, disease
+Speed: 5 ft., fly 60 ft. (perfect)
+Melee:
+  - 4 tendrils +10 (1d4+1 plus pain touch)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: pain touch, project terror, void transmission
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +12)
+  values:
+    - label: Constant
+      value: mage armor
+    - label: At Will
+      value: detect thoughts (DC 14), invisibility, share memoryUM (DC 14)
+    - label: 1/day
+      value: modify memory (DC 16)
+AbilityScores:
+  - 12
+  - 16
+  - 19
+  - 13
+  - 14
+  - 15
+BaseAtk: '6'
+CMB: '6'
+CMD: '19'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Bluff +8
+  - Diplomacy +8
+  - Fly +13
+  - Intimidate +10
+  - Perception +10
+  - Sense Motive +7
+  - Stealth +15
+  - Use Magic Device +10
+Languages:
+  - Aklo
+  - telepathy 100 ft.
+SQ: compression, no breath
+Environment: any
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  Thin tendrils trail from this misshapen sphere. A gray orb hangs beneath the
+  creature like a bulging lidless eye.
+Source: AP 86
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Pain Touch (Ex)
+    description: >-
+      A rhu-chalik secretes an enzyme that coats its tendrils. When this enzyme
+      comes into contact with a living creature, it causes excruciating pain.
+      Any creature that comes into contact with the enzyme must succeed at a DC
+      18 Fortitude save or take a -2 penalty on attack rolls, ability checks,
+      and skill checks for 1d4 rounds. If a creature is affected by multiple
+      pain touch attacks, the duration stacks but the penalty doesn't. Creatures
+      that are immune to pain effects are immune to this ability. The save DC is
+      Charisma-based.
+  - name: Project Terror (Su)
+    description: >-
+      As a standard action, a rhu-chalik can harness the fears of any creature
+      it has successfully used detect thoughts on within the last minute. This
+      effect creates visions of that creature's most terrible nightmares in the
+      target's mind; the target must succeed at a DC 16 Will save or be
+      frightened and take 1d4 points of Wisdom damage. The save DC is
+      Charisma-based.
+  - name: Void Transmission (Su)
+    description: >-
+      If a creature takes an amount of Wisdom damage from the rhu-chalik's
+      project terror ability that equals or exceeds the creature's Wisdom score,
+      the creature falls unconscious as normal. At that point, the rhu-chalik
+      can take 10 minutes to copy and absorb the creature's entire consciousness
+      and send that consciousness through the void of space to its waiting
+      masters. If the creature's Wisdom damage is healed and the creature is
+      revived prior to the end of this process, this effect fails. If the
+      creature's Wisdom damage is healed after its consciousness is successfully
+      transmitted, the creature awakes disoriented, and takes a -2 penalty on
+      attack rolls, ability checks, and skill checks for 24 hours. This effect
+      otherwise doesn't harm the target, as the target's consciousness isn't
+      eliminated, only duplicated and transmitted.
+Description:
+  - >-
+    A rhu-chalik, also called a void wanderer, is an alien entity that scouts
+    for a nebulous collection of space conquerors known as the Dominion of the
+    Black. In addition to ambitions for dominating the universe, they also
+    engage in a curious pursuit: collecting the memories of interesting
+    creatures in the universe into a vast repository of knowledge in hopes of
+    unraveling every secret of existence.
+  - >-
+    Though they are theoretically capable of traversing the vastness of space to
+    make it to Golarion on their own, the rhu-chaliks encountered here arrived
+    on the crashed spaceship Divinity. Years before Divinity crashed onto
+    Golarion, the ship's crew discovered rhu-chaliks in a distant galaxy and
+    became intrigued with their unique form. They collected a few specimens and
+    set about observing the enigmatic creatures. Unknown to the scientists,
+    these aliens had allowed their own capture in order to travel to far-f lung
+    galaxies where they could explore the thoughts, dreams, and knowledge of
+    thousands upon thousands of races the universe over. The rhu-chaliks kept
+    their strange abilities secret onboard the ship, content to travel in
+    dormancy until the Divinity encountered the Dominion of the Black, at which
+    point the creatures shredded the minds of their scientist wardens. Later, as
+    the ship crashed on Golarion, the creatures seeped from the vessel and began
+    their exploration of this new world flush with sentient life.
+  - A rhu-chalik is approximately 3 feet across and weighs only 30 pounds.
+  - Ecology
+  - >-
+    Rhu-chaliks' anatomy is as alien as their motives. The creatures resemble
+    spongy masses of jet-black tissue, with lidless, pupil-less, grayish-white
+    eyes at their center and four thin tendrils extending from their mass.
+    Rhu-chaliks can hover in atmosphere or float in the dead vacuum of space;
+    they don't need to breathe. They're capable of remaining motionless for
+    decades, and some claim that their life spans may outlast even the stars
+    themselves.
+  - >-
+    It's assumed that rhu-chaliks are the least powerful of their strange race
+    and exist merely to transmit the minds of interesting creatures they
+    encounter far into the depths of their masters' domain-a starless void
+    beyond the edge of the universe. Those few who have studied rhu-chaliks and
+    survived with their minds intact theorize that these creatures are carefully
+    sculpted to suit their task, and it's likely that their original form has
+    been drastically altered by millennia of specialized breeding into their
+    current dread incarnation. There is no existing information about how these
+    creatures procreate, and it is assumed that they are artificially crafted by
+    their dark masters.
+  - >-
+    Void wanderers don't feed in the traditional sense, and they lack a mouth or
+    any other orifice that can accept food. Some records retrieved from Divinity
+    suggest that the creatures use their tendrils to absorb nutrients through
+    osmosis, but this is incorrect. Rhu-chaliks maintain their bodily form and
+    sustain their lengthy lifespans by feeding off the thoughts and fears of
+    sentient beings. Every emotion has a different flavor to these creatures,
+    and since their feedings are harmless to the sources of their meals, many
+    rhu-chaliks have been observed to dine continuously from the same mind
+    endlessly, prodding different emotions to elicit a new taste as if they were
+    ordering a new course at a banquet.
+  - Habitat & Society
+  - >-
+    Rhu-chaliks are the lesser cogs of a collective of star-spanning overlords
+    far beyond the powers of Golarion. Rhu-chaliks serve as scouts and traveling
+    collectors that wander through civilizations in search of minds that they
+    can twist with fear and agony. Their ultimate goal is to copy the minds of
+    those they encounter and send the consciousnesses beyond the stars to their
+    masters.
+  - >-
+    As observers, rhu-chaliks prefer to maintain stealth for as long as
+    possible. These small creatures can compress their spongy bodies into a
+    fraction of their normal size, and then lodge themselves into tight hiding
+    spots so that they can sift through the thoughts of nearby sentient
+    creatures. If discovered, rhu-chaliks leave their hiding places, but they
+    are quick to return once they're confident that they can reestablish
+    secrecy.
+  - >-
+    Millions of these strange horrors are cast out from their dark domain every
+    moment, hurtling through space until they encounter some alien race or world
+    not yet probed by the dark masters of their native space. From their far-f
+    lung redoubt, rhu-chaliks observe the churning cosmos,
+  - >-
+    gathering every speck of information and every thought ever birthed by the
+    minds of a thousand races of alien species.
+  - >-
+    In the dark space from which they hail, catalogs of entire civilizations
+    hang in a surreal miasma of misplaced minds shrieking out in disembodied
+    agony for all eternity, with their every desire, fear, secret, and scrap of
+    understanding exposed like raw nerves for invasive perusal. The creatures
+    who survive having their consciousnesses copied and transmitted are often
+    unaware of the transmission, and little realize that their most private
+    moments will be pored over endlessly by alien minds.
+  - >-
+    Rhu-chaliks serve their masters tirelessly, and are as patient as they are
+    long-lived. They rarely make an uncalculated move, and seek only the most
+    prized intellects to cast into the dark beyond for their master's
+    delectations. When exploring distant worlds, rhu-chaliks are not social
+    beings, and they avoid other rhu-chaliks in hopes that their predations
+    won't cause too much overlap in the mind collection clouds of their masters.
+    However, back in their native space, rhu-chaliks number in the billions, and
+    the creatures feed off a countless number of disembodied minds.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '6331'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

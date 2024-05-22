@@ -1,0 +1,144 @@
+Name: The Suture
+CR: '12'
+XP: '19200'
+Race: dretch
+MonsterSource: Pathfinder RPG Bestiary 60
+Alignment: CE
+Size: Small
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar, mythicMA)
+Init: '6'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +12
+Aura: pain (30 ft., DC 23)
+AC: 28, touch 13, flat-footed 26
+AC_Mods: (+2 Dex, +15 natural, +1 size)
+HP: '132'
+HD: (2d10+121)
+HP_Mods: fast healing 15
+Saves: Fort +14, Ref +2, Will +12
+Fort: '14'
+Ref: '2'
+Will: '12'
+DefensiveAbilities: reflect death, rejuvenation
+DR: 10/epic and cold iron or epic and good
+Immune: electricity, pain, poison
+Resist: acid 10, cold 10, fire 10
+SR: '23'
+Weaknesses: Worldwound-bound
+Speed: 20 ft.
+Melee:
+  - 2 claws +6 (1d4+3), bite +6 (1d4+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  dampen mythic power, mythic power (10/day, surge +1d12), simple divine
+  spellcasting
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 2nd; concentration +4)
+  values:
+    - label: 1/day
+      value: >-
+        cause fear (DC 13), stinking cloud (DC 15), summon (level 1, 1 dretch
+        35%)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 2nd; concentration +9)  7th-blasphemy (DC 24), word
+  of chaos (DC 24)  6th-harm (DC 23)  4th-sending
+AbilityScores:
+  - 16
+  - 14
+  - 28
+  - 9
+  - 25
+  - 15
+BaseAtk: '2'
+CMB: '4'
+CMD: '16'
+Feats:
+  - Combat Casting
+  - Great Fortitude[M]
+  - Improved Initiative
+  - Iron Will
+  - Skill FocusM (Stealth)
+  - Toughness[M]
+Skills:
+  - Bluff +7
+  - Knowledge (local) +4
+  - Knowledge (planes) +4
+  - Perception +12
+  - Stealth +14
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+SQ: death throes
+Source: AP 78
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Pain (Su)
+    description: >-
+      The Suture's body is constantly wracked with pain, causing all living
+      non-outsiders within a 30-foot spread to writhe in sympathetic agony as
+      well. At the start of any round in which a creature is in this area, it
+      must succeed at a DC 23 Fortitude save or be staggered by the pain for 1
+      round. Once a creature succeeds at this saving throw, it is immune to the
+      Suture's aura of pain for 24 hours. The save DC is Charisma-based, and
+      includes a +10 racial bonus.
+  - name: Dampen Mythic Power (Su)
+    description: >-
+      The Suture's presence impedes the function of mythic power other than his
+      own. All mythic creatures within a 30-foot spread of the Suture take a -2
+      penalty on all attack rolls, skill checks, saving throws, and ability
+      checks (no save). All costs for expending uses of mythic power are doubled
+      while in this area.
+  - name: Death Throes (Su)
+    description: >-
+      If the Suture is slain, his body explodes in a blast of red lightning,
+      filling a 30-foot-radius spread and dealing 20d6 points electricity damage
+      to all creatures in the area of effect. A successful DC 20 Reflex save
+      halves this damage. The save DC is Constitution-based.
+  - name: Reflect Death (Ex)
+    description: >-
+      The Suture is immune to death effects, and any death effect that
+      specifically targets him is automatically reflected back in full at the
+      target, as if via spell turning (this ability also affects supernatural
+      death effects).
+  - name: Rejuvenation (Su)
+    description: >-
+      The Suture cannot be permanently slain as long as the Worldwound remains
+      open. If killed by any method, he returns to life at the place he died (or
+      in the closest available space able to support his weight; see also
+      Worldwound-Bound, below). Long-term effects that disable him, such as
+      flesh to stone, imprisonment, or temporal stasis, automatically fail after
+      24 hours, releasing him from the condition with no further harm. If the
+      Worldwound is closed, he immediately perishes forever. Worldwound-Bound
+      (Ex) If the Suture ever travels farther than 100 miles from Threshold, he
+      immediately dies (triggering his death throes). When he rejuvenates, he
+      appears at a random location within a 10-mile radius of Threshold. Travel
+      to other planes triggers this death, with the exception of entering the
+      Rasping Rifts at Threshold. Entering an extradimensional pocket (such as
+      that created by rope trick or a portable hole) does not trigger a death.
+DuringCombat: >-
+  The Suture relies on blasphemy and word of chaos at first, then focuses his
+  feeble melee attacks on those who lie senseless as a result. Otherwise, he
+  spends the duration of every battle attempting to hide and avoid being hurt if
+  possible, simpering and whining all the while.
+Morale: >-
+  The Suture knows that death holds no permanence, but does not enjoy dying. He
+  attempts to flee and hide if reduced to fewer than 100 hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5715'
+UniqueMonster: '1'
+Variant: '0'
+MR: '10'
+Mythic: '1'
+MT: '0'

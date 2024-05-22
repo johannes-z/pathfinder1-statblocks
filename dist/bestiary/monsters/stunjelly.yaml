@@ -1,0 +1,100 @@
+Name: Stunjelly
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Large
+Type: ooze
+Init: '0'
+Senses:
+  - blindsight 60 ft.
+  - Perception -5
+AC: 9, touch 9, flat-footed 9
+AC_Mods: (-1 size, +0 natural)
+HP: '42'
+HD: (4d8+24)
+Saves: Fort +7, Ref +1, Will -4
+Fort: '7'
+Ref: '1'
+Will: '-4'
+DefensiveAbilities: camouflage
+Immune: ooze traits
+Speed: 10 ft.
+Melee:
+  - slam +3 (1d6+1 plus 1d6 acid plus paralysis)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  corrosion, engulf (DC 13, 1d6 acid and paralysis), paralysis (3d6 rounds, DC
+  18)
+AbilityScores:
+  - 12
+  - 10
+  - 22
+  - —
+  - 1
+  - 1
+BaseAtk: '3'
+CMB: '5'
+CMD: 15(can't be tripped)
+Environment: underground
+Organization: solitary
+Treasure: incidental
+Description_Visual: >-
+  What appears to be a section of the wall comes to life, revealing a slightly
+  translucent protoplasmic creature.
+Group: Jelly
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid (Ex)
+    description: >-
+      A stunjelly secretes a digestive acid that dissolves organic material
+      quickly, but does not affect metal or stone. Any melee hit deals acid
+      damage, and the opponent's clothing and armor (non-metal only) take the
+      same amount of damage unless they succeed on DC 18 Reflex save. A wooden
+      weapon that strikes a stunjelly takes 1d6 acid damage unless it succeeds
+      on a DC 18 Reflex save. If a stunjelly remains in contact with a wooden
+      object for 1 full round, it inflicts 18 points of damage (no save) to the
+      object. The save DCs are Constitution-based.
+  - name: Camouflage (Ex)
+    description: >-
+      Since a stunjelly looks like normal stone when at rest, it takes a DC 20
+      Perception check to notice it before it attacks. Anyone with ranks in
+      Survival or Knowledge (dungeoneering) can use one of those skills instead
+      of Perception to notice the stunjelly. Dwarves can use stonecunning to
+      notice a stunjelly.
+  - name: Corrosion (Ex)
+    description: >-
+      An opponent that is being engulfed by a stunjelly suffers a -4 penalty on
+      Reflex saves made to resist acid damage applying to clothing and armor.
+Description:
+  - >-
+    Stunjellies are distant relatives of the dungeon-dwelling gelatinous cube.
+    It appears as a section of ordinary wall and covers an area of at least 10
+    square feet, and is 2-1/2 to 5 feet thick. A stunjelly is gray in color and
+    slightly translucent. It gives off a mild vinegar odor that can be detected
+    at a range of 5 feet (DC 15 Perception check). When a target moves within 5
+    feet of a stunjelly, it attacks with its slam attack. Any creature paralyzed
+    by a stunjelly is engulfed and devoured. Credit The Stunjelly originally
+    appeared in the First Edition Fiend Folio (© TSR/Wizards of the Coast, 1981)
+    and is used by permission. Copyright Notice Author Scott Greene, based on
+    original material by Neville White.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2703'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

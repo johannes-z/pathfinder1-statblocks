@@ -1,0 +1,90 @@
+Name: Black Unicorn
+CR: '3'
+XP: '800'
+Race: Black Unicorn
+Alignment: CE
+Size: Large
+Type: magical beast
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +12
+Aura: magic circle against good
+AC: 17, touch 12, flat-footed 14
+AC_Mods: (+3 Dex, +5 natural, -1 size)
+HP: '42'
+HD: (4d10+20)
+Saves: Fort +9, Ref +7, Will +6; +2 resistance vs. good
+Fort: '9'
+Ref: '7'
+Will: '6'
+Save_Mods: +2 resistance vs. good
+Immune: charm, compulsion, poison
+Speed: 60 ft.
+Melee:
+  - gore +8 (1d8+5) and 2 hooves +3 (1d4+2)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: powerful charge (gore, 2d8+8)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; melee touch +8)
+  values:
+    - label: At will
+      value: detect good (as free action), flare (DC 17)
+    - label: 3/day
+      value: inflict light wounds
+    - label: 1/day
+      value: >-
+        inflict moderate wounds, greater teleport (within its forest territory),
+        contagion (DC 21)
+AbilityScores:
+  - 20
+  - 17
+  - 21
+  - 10
+  - 21
+  - 24
+BaseAtk: '4'
+CMB: '10'
+CMD: '23'
+Feats:
+  - Alertness
+  - Skill Focus (Survival)
+Skills:
+  - Acrobatics +8 (+20 jump)
+  - Perception +12
+  - Sense Motive +7
+  - Stealth +8
+  - Survival +10
+RacialMods: +4 Stealth, +3 survival in forests
+SQ: magical strike, wild empathy +17
+Source: The Lost City of Barakus-Wilderness Locations
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Magic Circle against Good (Su)
+    description: >-
+      This ability continually duplicates the effect of the spell. The black
+      unicorn cannot suppress this ability.
+  - name: Magical Strike (Ex)
+    description: >-
+      The black unicorn's gore attack is treated as a magic evil weapon for the
+      purposes of damage reduction.
+  - name: Wild Empathy (Su)
+    description: >-
+      This works like the druid's wild empathy class feature, except the black
+      unicorn has a +6 racial bonus on the check.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12888'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

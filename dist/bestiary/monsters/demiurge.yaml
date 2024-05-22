@@ -1,0 +1,109 @@
+Name: Demiurge
+CR: '6'
+XP: '2400'
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+Aura: unnatural aura (30 ft.)
+AC: 16, touch 16, flat-footed 14
+AC_Mods: (+2 Dex, +4 deflection, +0 natural)
+HP: '68'
+HD: (8d8+32)
+Saves: Fort +6, Ref +6, Will +8
+Fort: '6'
+Ref: '6'
+Will: '8'
+DefensiveAbilities: incorporeal
+Immune: undead traits
+SR: '17'
+Weaknesses: vulnerability to iron
+Speed: fly 40 ft. (good)
+Melee:
+  - incorporeal touch +8 (1d4 cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: soul touch, transfixing gaze
+AbilityScores:
+  - —
+  - 15
+  - —
+  - 14
+  - 14
+  - 18
+BaseAtk: '6'
+CMB: '8'
+CMD: '18'
+Feats:
+  - Alertness
+  - Combat Reflexes
+  - Improved Initiative
+  - Lightning Reflexes
+Skills:
+  - Bluff +10
+  - Fly +16
+  - Intimidate +14
+  - Perception +14
+  - Sense Motive +14
+  - Stealth +12
+  - Survival +9
+Environment: any
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This entity appears as a humanoid with sunken nose, hollow eye sockets, and
+  sickly pale white, semi-transparent flesh. Its hair is unkempt and dirty, and
+  its clothes are nothing more than rags that hang loosely from its translucent
+  form.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Soul Touch (Su)
+    description: >-
+      A demiurge can damage a creature's soul by moving through a space occupied
+      by the creature. This is a standard action that does not provoke an attack
+      of opportunity. The target can resist the attack by succeeding on a DC 18
+      Will save. If the save fails, the target dies as the shock of unlife
+      permeates its soul. If the save succeeds, that creature cannot be affected
+      again by the same demiurge's soul touch for one day. This is a death
+      effect. The save DC is Charisma-based.
+  - name: Transfixing Gaze (Su)
+    description: >-
+      Any creature within 30 feet meeting the demiurge's gaze must succeed on a
+      DC 18 Will save or be transfixed for one minute as if affected by a hold
+      person spell (caster level 10th). An affected creature can attempt a new
+      save each round to break the effects.
+  - name: Vulnerability to Iron (Ex)
+    description: >-
+      A cold iron weapon ignores the demiurge's incorporeal state and deals
+      normal damage.
+Description:
+  - >-
+    The demiurge is the undead spirit of an evil human returned from the grave
+    with a wrathful vengeance against all living creatures that enter its
+    domain. The demiurge is very territorial, usually haunting an area of up to
+    three square miles from its place of death.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2426'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,117 @@
+Name: Dreadweed
+CR: '8'
+XP: '4800'
+Alignment: CE
+Size: Medium
+Type: plant
+Init: '7'
+Senses:
+  - low-light vision, tremorsense 60 ft.
+  - Perception +9
+Aura: enervating aura (10 ft., DC 19)
+AC: 22, touch 14, flat-footed 18
+AC_Mods: (+3 Dex, +1 dodge, +8 natural)
+HP: '76'
+HD: (8d8+40)
+Saves: Fort +11, Ref +5, Will +4
+Fort: '11'
+Ref: '5'
+Will: '4'
+DefensiveAbilities: negative energy affinity
+DR: 10/magic or good
+Immune: plant traits
+Speed: 30 ft.
+Melee:
+  - bite +10 (1d8+4 plus poison)
+Ranged:
+  - 4 vines +10 (1d6+4 plus 1d4 negative energy plus pull)
+Space: 5 ft.
+Reach: 5 ft. (20 ft. with vine)
+SpecialAttacks: enervating ray, pull (vine, 5 ft.)
+AbilityScores:
+  - 18
+  - 17
+  - 21
+  - 4
+  - 14
+  - 15
+BaseAtk: '6'
+CMB: +10 (+14 with pull)
+CMD: '24'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Weapon Focus (vine)
+Skills:
+  - Perception +9
+  - Stealth +10
+Environment: any temperate or warm land
+Organization: solitary or cluster (2-8)
+Treasure: incidental
+Description_Visual: This humanoid figure appears to be comprised of a tangle of roots and vines.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Enervating Aura (Su)
+    description: >-
+      Negative energy weeps from a dreadweed's form. Living creatures in the
+      area take 2d6 points of negative energy damage each round. A successful DC
+      19 Fortitude save negates the damage that round. A new save must be made
+      each round. The save DC is Constitution-based.
+  - name: Enervating Ray (Su)
+    description: >-
+      Once per round and no more than three times per day, as a standard action,
+      a dreadweed can fire a ray of negative energy at a single target to a
+      range of 30 feet. This ray functions as an enervation spell (CL 8th). Each
+      time a dreadweed uses this ray, it suppresses its enervating aura for 1d4
+      rounds.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save DC 19 Fort; frequency 1/round for 6 rounds; effect 1d4
+      Con damage; cure 1 save. The save DC is Constitution-based.
+  - name: Vines (Ex)
+    description: >-
+      A dreadweed can extend up to four vines from its body at a time, launching
+      them to a maximum range of 20 feet. A dreadweed's attacks with its vines
+      resolve as ranged touch attacks. These vines are quite strong, but can be
+      severed by any amount of slashing damage (a vine is AC 20).If a dreadweed
+      uses its pull ability to pull a target within reach of its bite attack, it
+      can immediately make a free bite attack with a +4 bonus on its attack roll
+      against that target.
+Description:
+  - >-
+    A dreadweed is a strange plant creature that grows on unholy ground. Infused
+    with negative energy, it feeds on any living creature it encounters. A
+    dreadweed never stops growing as long as it is able to find food, so in the
+    right cursed soil these plants can grow to truly monstrous proportions. At
+    rest, a dreadweed resembles a matted, chaotic tangle of vines and
+    undergrowth, filled with old sticks, briars, thistles, and nettles. Once
+    roused, however, the dreadweed pulls together into a vaguely humanoid shape
+    and emits a chilling aura that saps the life from living creatures.
+  - A dreadweed is about 6 feet tall but only weighs 75 pounds.
+  - >-
+    A dreadweed attacks with its vine-like tentacles, tearing at its prey and
+    injecting a powerful poisonous sap with its bite attack. It often attacks in
+    ambush, leaping towards its victim in a swirl of lashes. During battle, a
+    dreadweed can focus its negative energy aura into a powerful ray that
+    further damages its foes.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4809'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

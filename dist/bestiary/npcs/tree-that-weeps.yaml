@@ -1,0 +1,112 @@
+Name: Tree That Weeps
+CR: '14'
+XP: '38400'
+Race: quickwood
+MonsterSource: Tome of Horrors Revised 302
+Alignment: 'N'
+Size: Huge
+Type: plant
+Init: '3'
+Senses:
+  - darkvision 120 ft., tremorsense 60 ft., oaksight
+  - Perception +35
+AC: 29, touch 7, flat-footed 29
+AC_Mods: (-1 Dex, +22 natural, -2 size)
+HP: '210'
+HD: (20d8+120)
+Saves: Fort +18, Ref +5, Will +8
+Fort: '18'
+Ref: '5'
+Will: '8'
+DefensiveAbilities: spell absorption
+Immune: electricity, fire, plant traits
+SR: '25'
+Speed: 10 ft.
+Melee:
+  - bite +23 (2d6+10/19-20), 6 roots +21 (1d6+5/19-20 plus pull)
+Space: 5 ft.
+Reach: 15 ft. (60 ft. with root)
+SpecialAttacks: pull (30 feet)
+AbilityScores:
+  - 31
+  - 8
+  - 23
+  - 12
+  - 15
+  - 18
+BaseAtk: '15'
+CMB: '27'
+CMD: '36'
+Feats:
+  - Alertness
+  - Awesome Blow
+  - Critical Focus
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Skill Focus (Perception)
+  - Staggering Critical
+Skills:
+  - Knowledge (nature) +21
+  - Perception +35
+  - Sense Motive +4
+  - Stealth +14 (+16 in forests)
+Languages:
+  - Common
+  - Sylvan
+Source: AP 35
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear Aura (Su)
+    description: >-
+      As long as the quickwood retains energy it has absorbed from a spell (see
+      spell absorption), it can release that energy as a swift action to create
+      a fear aura with a radius of 10 feet per level of the spell it absorbed
+      and released. All creatures in this aura must make a DC 24 Will save or
+      become panicked. The fear aura lasts until the end of the quickwood's next
+      turn. This is a mind-affecting fear effect. The save DC is Charisma-based.
+  - name: Oaksight (Su)
+    description: >-
+      A quickwood may observe the area surrounding any oak tree within 360 feet
+      as if using clairaudience/ clairvoyance. It can use this ability on any
+      number of oak trees in the area. Although the quickwood does not need line
+      of sight to establish this link, if it does have line of sight to even a
+      single oak tree, it cannot be flanked.
+  - name: Roots (Ex)
+    description: >-
+      A quickwood has dozens of long roots, but can only attack with up to six
+      of them in any given round. If the quickwood uses its pull ability to pull
+      a target within reach of its bite attack, it can immediately make a free
+      bite attack with a +4 bonus on its attack roll against that target.
+  - name: Spell Absorption (Su)
+    description: >-
+      If a quickwood's spell resistance protects it from being affected by a
+      spell, the quickwood absorbs that spell's energy into its body. It can
+      then release this energy to create a fear aura (see above). The quickwood
+      cannot absorb another spell's energy while it contains a previously
+      absorbed spell's energy. As long as a quickwood is storing spell energy,
+      attempts to overcome its spell resistance receive a +5 bonus on the roll.
+DuringCombat: >-
+  The Tree That Weeps already has a 5th-level spell stored in its body from a
+  previous fight, and unleashes its energy on the first round of combat to
+  create a fear aura once foes come within 40 feet of it. It then uses its roots
+  to attack foes and pull them close so it can bite them.
+Morale: The Tree That Weeps fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '854'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,120 @@
+Name: Kiryena Subtier 4-5
+CR: '4'
+XP: '1200'
+Race: human
+Class: witch (winter witch) 5
+MonsterSource: >-
+  Pathfinder RPG Advanced Class Guide 65, Pathfinder Campaign Setting: Inner Sea
+  Magic 43
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +5
+AC: 15, touch 11, flat-footed 14
+AC_Mods: (+4 armor, +1 Dex)
+HP: '40'
+HD: (5d6+20)
+Saves: Fort +5, Ref +3, Will +5
+Fort: '5'
+Ref: '3'
+Will: '5'
+Resist: cold 5
+Speed: 30 ft.
+Melee:
+  - dagger +1 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hexes (evil eye [-2, 7 rounds], healing [cure moderate], misfortune [1 round])
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: Constant
+      value: endure elements (cold only)
+SpellsPrepared: >-
+  Witch Spells Prepared (CL 5th; concentration +9)   3rd-sleet storm, spit
+  venomUM (DC 17)   2nd-blindness/deafness (DC 16), cure moderate wounds, false
+  life   1st-frostbiteUM, icicle daggerUM, mage armor, unshakable chillUM (DC
+  17)   0 (at will)-daze (DC 14), detect magic, message, ray of frost
+AbilityScores:
+  - 8
+  - 13
+  - 12
+  - 18
+  - 10
+  - 14
+BaseAtk: '2'
+CMB: '1'
+CMD: '12'
+Feats:
+  - Combat Casting
+  - Elemental Focus (cold)
+  - Extra Hex
+  - Great Fortitude
+Skills:
+  - Appraise +5
+  - Bluff +7
+  - Diplomacy +7
+  - Heal +4
+  - Knowledge (arcana) +12
+  - Knowledge (nature) +8
+  - Knowledge (planes) +8
+  - Perception +5
+  - Sense Motive +5
+  - Spellcraft +12
+  - Use Magic Device +6
+Languages:
+  - Common
+  - Giant
+  - Hallit
+  - Skald
+SQ: familiar (raven named Zemyana)
+Source: PFS S6-18
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cold Flesh (Ex)
+    description: >-
+      A winter witch gains endure elements as a constant, spell-like ability,
+      but only against cold temperatures. At 4th level, she gains cold
+      resistance 5, making her comfortable in near-freezing temperatures. This
+      replaces the witch's 4th-level hex. Ice Magic When a winter witch casts a
+      spell with the cold descriptor, the save DC of the spell increases by 1.
+      She cannot learn or cast spells with the fire descriptor.
+Gender: Female
+BeforeCombat: >-
+  Kiryena casts mage armor and false life before heading into the cave. As soon
+  as she detects the PCs, she casts icicle dagger.
+DuringCombat: >-
+  Kiryena uses sleet storm to hamper the PCs, saving blindness/deafness and spit
+  venom to debilitate the most threatening PCs. She uses her healing hex to
+  revive her allies if they fall unconscious.
+Morale: >-
+  If she is reduced to 10 hit points or fewer and she cannot heal herself, she
+  retreats, ordering the ice troll and lieutenant to cover her retreat, then
+  follow her.
+Gear: wand of ill omenAPG (25 charges), wand of see invisibility (13 charges)
+OtherGear: >-
+  dagger, boots of the winterlands, cloak of resistance +1, courtier's outfit
+  (with jewels), 32 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor and false life, Kiryena's statistics are AC 11, touch 11,
+  flat-footed 10; hp 30.
+AgeCategory: Adult
+ClassArchetypes: winter witch
+Patron: WinterUM
+CompanionFamiliarLink: '0'
+id: '7960'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

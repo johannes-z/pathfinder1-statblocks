@@ -1,0 +1,117 @@
+Name: Trickster Mage
+CR: '7'
+XP: '3200'
+Race: gnome
+Class: sorcerer 8
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +10
+AC: 16, touch 14, flat-footed 13
+AC_Mods: (+2 armor, +2 Dex, +1 dodge, +1 size)
+HP: '46'
+HD: (8d6+16)
+Saves: Fort +3, Ref +4, Will +10; +2 vs. illusions
+Fort: '3'
+Ref: '4'
+Will: '10'
+Save_Mods: +2 vs. illusions
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Speed: 20 ft.
+Melee:
+  - sickle +3 (1d4-2)
+Ranged:
+  - mwk light crossbow +8 (1d6/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: +1 on attack rolls against goblinoid and reptilian humanoids
+SpellLikeAbilities:
+  header: Gnome Spell-Like Abilities (CL 8th; concentration +12)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound (DC 15), prestidigitation, speak with
+        animals Bloodline Spell-Like Abilities (CL 8th; concentration +12)
+    - label: 7/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 8th; concentration +12)
+  values:
+    - label: 4th (4/day)
+      value: phantasmal killer (DC 21)
+    - label: 3rd (6/day)
+      value: deep slumber (DC 19), major image (DC 20), suggestion (DC 19)
+    - label: 2nd (7/day)
+      value: >-
+        hideous laughter (DC 18), hypnotic pattern (DC 19), mirror image,
+        scorching ray
+    - label: 1st (7/day)
+      value: >-
+        charm person (DC 15), color spray (DC 18), entangle (DC 15), magic
+        missile, shield, ventriloquism (DC 18)
+    - label: 0 (at will)
+      value: >-
+        daze (DC 16), detect magic, flare (DC 14), mage hand, message, ray of
+        frost, read magic, touch of fatigue (DC 14)
+AbilityScores:
+  - 6
+  - 14
+  - 12
+  - 12
+  - 14
+  - 18
+BaseAtk: '4'
+CMB: '1'
+CMD: '14'
+Feats:
+  - Dodge
+  - Eschew Materials
+  - Greater Spell Focus (illusion)
+  - Iron Will
+  - Mobility
+  - Spell Focus (illusion)
+Skills:
+  - Bluff +12
+  - Knowledge (arcana) +8
+  - Knowledge (nature) +5
+  - Perception +10
+  - Spellcraft +8
+  - Use Magic Device +11
+Languages:
+  - Common
+  - Elven
+  - Gnome
+  - Sylvan
+SQ: bloodline arcana (+2 DC for compulsion spells), gnome magic, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: fey
+DuringCombat: >-
+  The sorcerer casts mirror image, then attempts to control or humiliate
+  opponents with charm person, hideous laughter, suggestion, or his wand of
+  grease.
+Gear: >-
+  potion of cure moderate wounds, screaming bolts (3), wand of grease (20
+  charges), wand of invisibility (21 charges)
+OtherGear: >-
+  masterwork light crossbow with 10 bolts, sickle, bracers of armor +2, book of
+  pressed fairy wings, 168 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3810'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

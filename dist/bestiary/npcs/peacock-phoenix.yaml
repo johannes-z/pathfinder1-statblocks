@@ -1,0 +1,111 @@
+Name: Peacock Phoenix
+CR: '13'
+XP: '25600'
+Race: thunderbird
+MonsterSource: 'Pathfinder Campaign Setting: Planes of Power 56, Pathfinder RPG Bestiary 2 264'
+Alignment: LE
+Size: Gargantuan
+Type: outsider
+SubType: (fire, magical beast, native)
+Init: '12'
+Senses:
+  - darkvision 60 ft., low-light vision, stormsight
+  - Perception +21
+Aura: storm aura (100 ft., DC 24)
+AC: 27, touch 12, flat-footed 21
+AC_Mods: (+5 Dex, +1 dodge, +15 natural, -4 size)
+HP: '175'
+HD: (14d10+98)
+Saves: Fort +16, Ref +14, Will +10
+Fort: '16'
+Ref: '14'
+Will: '10'
+DefensiveAbilities: evasion, fiery blood
+Immune: electricity, fire, sonic
+Weaknesses: vulnerability to cold
+Speed: 60 ft., fly 120 ft. (good)
+Melee:
+  - bite +19 (2d8+9/19-20), 2 claws +19 (2d6+9/19-20 plus grab)
+Ranged:
+  - thunderbolt +15 touch (6d6 electricity and 6d6 sonic)
+Space: 20 ft.
+Reach: 20 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. line, 5d6 fire, Reflex DC 24 half, usable every minute),
+  thunderbolt (6d6 electricity and 6d6 sonic)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +11)
+  values:
+    - label: At Will
+      value: control weather
+AbilityScores:
+  - 28
+  - 21
+  - 25
+  - 12
+  - 18
+  - 11
+BaseAtk: '14'
+CMB: +27 (+31 grapple)
+CMD: '43'
+Feats:
+  - Critical Focus
+  - Dodge
+  - Improved Critical (bite)
+  - Improved Critical (claw)
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+Skills:
+  - Acrobatics +22
+  - Fly +20
+  - Intimidate +14
+  - Knowledge (planes) +15
+  - Perception +21
+  - Perform (sing) +14
+  - Sense Motive +18
+Languages:
+  - Auran
+  - Ignan
+  - Thassilonian
+SQ: element-infused abilities (breath weapon, evasion, fiery blood, quickness)
+Source: AP 135
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      The peacock phoenix can exhale a 60- foot line of fire as a standard
+      action once every minute. This breath weapon inflicts 5d6 points of fire
+      damage to all creatures in the area of effect-a successful DC 24 Reflex
+      save halves the damage. Element-Infused Abilities As an element-infused
+      creature, the peacock phoenix possesses several potent abilities-its fiery
+      breath weapon, its evasion defensive ability, its fiery blood (see below),
+      and a supernatural quickness that increases its speed and grants it a
+      bonus to its initiative checks (these adjustments have been built in to
+      the stat block above).
+  - name: Fiery Blood (Ex)
+    description: >-
+      Any creature that damages the peacock phoenix with a slashing or piercing
+      melee weapon is sprayed with boiling blood that deals 3d4 points of fire
+      damage. Creatures using reach weapons are not subject to this damage.
+DuringCombat: >-
+  The peacock phoenix seeks out Sorshen and tries to attack her at first, using
+  its breath weapon or thunderbolt ability before closing to attack in melee. If
+  a PC attacks the creature, it instead focuses its wrath on that target.
+Morale: The peacock phoenix fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: fire infused|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11923'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

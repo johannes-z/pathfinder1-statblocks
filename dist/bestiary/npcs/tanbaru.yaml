@@ -1,0 +1,124 @@
+Name: Tanbaru
+CR: '4'
+XP: '1200'
+Race: spirit oni
+MonsterSource: Pathfinder RPG Bestiary 3 209
+Alignment: LE
+Size: Tiny
+Type: outsider
+SubType: (oni, native)
+Init: '8'
+Senses:
+  - darkvision 60 ft., detect magic
+  - Perception +9
+AC: 18, touch 16, flat-footed 14
+AC_Mods: (+4 Dex, +2 natural, +2 size)
+HP: '37'
+HD: (5d10+10)
+HP_Mods: fast healing 2
+Saves: Fort +3, Ref +8, Will +5
+Fort: '3'
+Ref: '8'
+Will: '5'
+Speed: 10 ft., fly 30 ft. (good)
+Melee:
+  - bite +11 (1d4), gore +11 (1d4 plus poison)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: poison
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +11)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: invisibility (self only), mage hand
+    - label: 3/day
+      value: >-
+        command (DC 14), ear-piercing screamUM (DC 14), lesser confusion (DC
+        14), obscuring mist
+    - label: 1/day
+      value: darkness, deep slumber (DC 16), dispel magic, mirror image, stone shape
+    - label: 1/week
+      value: commune (CL 12th, 6 questions), permanent image (DC 19)
+AbilityScores:
+  - 10
+  - 19
+  - 14
+  - 15
+  - 12
+  - 17
+BaseAtk: '5'
+CMB: '7'
+CMD: '17'
+Feats:
+  - Ability Focus (poison)
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Bluff +11
+  - Fly +20
+  - Knowledge (arcana) +10
+  - Knowledge (local) +10
+  - Perception +9
+  - Sense Motive +9
+  - Spellcraft +10
+  - Stealth +20
+Languages:
+  - Common
+  - Dwarven
+  - Tien
+SQ: mask symbiosis
+Source: PFS S6-21
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Mask Symbiosis (Ex)
+    description: >-
+      A spirit oni can be worn as a mask by a willing Small or Medium creature.
+      While worn in this way, the wearer can see through the oni's eyes and
+      speak through its mouth, although the wearer retains its own senses and
+      voice. The spirit oni remains a separate creature, and must detach from
+      its host's face (as a move action) if it wishes to take any action of its
+      own (including attacking or using a spell-like ability). While a spirit
+      oni is worn as a mask, it grants a +2 insight bonus on its host's
+      Perception checks.
+  - name: Poison (Ex)
+    description: >-
+      Gore-injury; save Fort DC 16; frequency 1/round for 6 rounds; effect 1d3
+      Cha; cure 2 consecutive saves.
+Gender: Male
+BeforeCombat: >-
+  Tanbaru uses his at-will invisibility to remain invisible and attaches himself
+  to the face of an iron statue.
+DuringCombat: >-
+  Tanbaru directs one of the two iron sculptures that have been specially
+  designed to animate with his guidance. If the PCs destroy that sculpture, he
+  flies over to the other sculpture that he can animate and directs it instead.
+  He does not use his own offensive spell-like abilities, because such actions
+  would break his invisbility. Animating the iron sculptures to attack the PCs
+  does not break his invisbiliity.
+Morale: >-
+  If the PCs defeat the duergar sentinels, Tanbaru drops his invisibility and
+  attempts to parley (see Development). If the PCs destroy the sculptures that
+  Tanbaru can animate before they defeat the duergar, he flies invisibly above
+  the fray and waits. After the combat, he offers the PCs assistance in
+  navigating the fortress (see Development). If the PCs refuse his offer, he is
+  suddenly overcome with rage. He curses at them in Tien and begins a new
+  combat. He uses any remaining iron statues to fight the PCs, and then attacks
+  them with his spell-like abilities (except permanent image, which he cast
+  earlier in the week). In this second combat, Tanburu fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7978'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

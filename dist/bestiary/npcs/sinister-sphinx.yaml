@@ -1,0 +1,100 @@
+Name: Sinister Sphinx
+CR: '16'
+XP: '76800'
+Race: hieracosphinx
+MonsterSource: >-
+  Pathfinder RPG Monster Codex 248; Pathfinder RPG Bestiary 171, 294; Pathfinder
+  RPG Bestiary 3 253
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (magical beast, native)
+Init: '12'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +36
+AC: 27, touch 18, flat-footed 18
+AC_Mods: (+8 Dex, +1 dodge, +9 natural, -1 size)
+HP: '243'
+HD: (18d10+144)
+Saves: Fort +18, Ref +19, Will +13
+Fort: '18'
+Ref: '19'
+Will: '13'
+DefensiveAbilities: evasion, improved uncanny dodge
+DR: 10/ magic
+Immune: poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '27'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - bite +26 (2d8+9/19-20), 2 claws +26 (1d6+9)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: pounce, shriek, smite good, sneak attack +9d6 plus 9 bleed
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +11)
+  values:
+    - label: 3/day
+      value: darkness, poison (DC 17), unholy aura (DC 21)
+    - label: 1/day
+      value: >-
+        blasphemy (DC 20), contagion (DC 17), desecrate, horrid wilting (DC 21),
+        summon monster IX (fiends only), unhallow, unholy blight (DC 17)
+AbilityScores:
+  - 28
+  - 26
+  - 24
+  - 12
+  - 21
+  - 16
+BaseAtk: '18'
+CMB: '28'
+CMD: 47 (51 vs. trip)
+Feats:
+  - Cleave
+  - Dodge
+  - Flyby Attack
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Natural Attack (bite)
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Perception)
+  - Toughness
+Skills:
+  - Acrobatics +29
+  - Fly +31
+  - Intimidate +21
+  - Knowledge (planes) +19
+  - Perception +36
+  - Sense Motive +23
+  - Stealth +25
+Languages:
+  - Sphinx
+Source: AP 138
+IsTemplate: '0'
+DuringCombat: >-
+  Each sinister sphinx casts blasphemy on the first round of combat, followed by
+  horrid wilting if they can avoid catching each other in the area of effect.
+  They then turn to physical attacks, focusing on the same foe to maximize sneak
+  attacks.
+Morale: >-
+  The sinister sphinxes pursue foes throughout the Court of Amendment and fight
+  to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: half-fiend|advanced|rogue|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11981'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,152 @@
+Name: Xiomorn
+CR: '14'
+XP: '38400'
+Alignment: LN
+Size: Medium
+Type: outsider
+SubType: (earth, elemental, extraplanar)
+Init: '8'
+Senses:
+  - darkvision 60 ft., tremorsense 120 ft.
+  - Perception +23
+AC: 28, touch 19, flat-footed 19
+AC_Mods: (+8 Dex, +1 dodge, +9 natural)
+HP: '200'
+HD: (16d10+112)
+HP_Mods: fast healing 5
+Saves: Fort +12, Ref +18, Will +14
+Fort: '12'
+Ref: '18'
+Will: '14'
+DR: 10/adamantine and bludgeoning
+Immune: elemental traits
+SR: '25'
+Speed: 40 ft., climb 40 ft.
+Melee:
+  - 4 claws +24 (2d4+6/19-20 plus crystallization)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: crystal burst, crystallization (DC 25), rend (2 claws, 2d4+9)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +23)
+  values:
+    - label: At Will
+      value: >-
+        dispel magic, greater teleport (self plus 50 lbs. of objects only),
+        shatter (DC 19), statue, stone shape, stone tell
+    - label: 3/day
+      value: >-
+        command stone (DC 26), flesh to stone (DC 23), spike stones (DC 21),
+        wall of stone
+    - label: 1/day
+      value: summon monster VII (earth elementals only), symbol of scryingUM
+AbilityScores:
+  - 22
+  - 27
+  - 25
+  - 27
+  - 18
+  - 24
+BaseAtk: '16'
+CMB: +22 (+24 sunder)
+CMD: 41 (43 vs. sunder)
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (claw)
+  - Improved Sunder
+  - Mobility
+  - Power Attack
+  - Spring Attack
+  - Weapon Finesse
+Skills:
+  - Acrobatics +20 (+24 when jumping)
+  - Climb +30
+  - Craft (sculptures) +15
+  - Disable Device +24
+  - Heal +20
+  - Knowledge (arcana) +27
+  - Knowledge (dungeoneering) +24
+  - Knowledge (planes) +27
+  - Knowledge (geography) +24
+  - Knowledge (nature) +24
+  - Perception +23
+  - Sense Motive +23
+  - Spellcraft +27
+  - Stealth +27
+  - Use Magic Device +26
+RacialMods: +4 Acrobatics when jumping
+Languages:
+  - Terran
+  - telepathy 300 ft.
+SQ: item mastery
+Environment: any
+Description_Visual: >-
+  This towering, spindly, four-armed entity appears to be made of stone and
+  crystal, yet it moves with a fluid grace.
+Source: The Emerald Spire
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Stone (Sp)
+    description: >-
+      This ability functions as dominate monster, equivalent of a 9th-level
+      spell, but only on creatures with the earth subtype or constructs made out
+      of stone. When used against a construct, this ability overcomes any spell
+      resistance, but the effects last for only 1 round per level.
+  - name: Crystal Burst (Su)
+    description: >-
+      As a standard action once every 1d4 rounds, a xiomorn can create an
+      explosion of razor-sharp crystals at a range of up to 120 feet. These
+      crystals fill a 30-foot-radius burst and deal 12d6 points of piercing and
+      slashing damage (Reflex DC 25 half). The save DC is Constitution-based.
+  - name: Crystallization (Su)
+    description: >-
+      A creature struck by a xiomorn's claw must succeed at a DC 25 Fortitude
+      save or take 1 point of Dexterity drain. On a critical hit, the claw deals
+      2 points of Dexterity drain on a failed save. As long as a creature
+      suffers any of this drain, portions of its body appear as living green
+      crystal and it gains the earth creature subtype. A creature drained to 0
+      Dexterity in this manner transforms into a green crystal statue, as if
+      affected by flesh to stone. The save DC is Constitution-based.
+  - name: Item Mastery (Ex)
+    description: >-
+      A xiomorn can always activate spell trigger and spell completion items as
+      if the spell were on its class list. For the purposes of crafting magic
+      items or constructs, it is treated as though it possessed all item
+      creation feats.
+Description:
+  - >-
+    Organization solitary, pair, or cabal (3-6 plus 4-12 pechs and 2-6 earth
+    elementals)
+  - Treasure double
+  - >-
+    The xiomorns consist of two castes: the mythic Vault Builders and the
+    non-mythic Vault Keepers. The Vault Builders ruled over their less powerful
+    counterparts, but both are among the most ancient forms of life-primeval
+    elemental beings who travel to raw, new worlds upon the Material Plane,
+    pursuing strange ecological experiments into the nature of life. The worlds
+    these enigmatic beings have visited possess strange ruins in remote regions
+    and immense, vault-like caverns deep underground where ecologies that
+    shouldn't exist flourish. Xiomorns have little interest in protecting a
+    world's indigenous life, except as necessary for their experiments' goals,
+    and often war against such races when native empires encroach upon the
+    xiomorns' experimental realms.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: 'NULL'
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+AlternateNameForm: Vault Keeper
+id: '6138'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

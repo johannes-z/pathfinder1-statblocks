@@ -1,0 +1,143 @@
+Name: Slag Worm
+CR: '20'
+XP: '307200'
+Alignment: 'N'
+Size: Gargantuan
+Type: outsider
+SubType: (earth, elemental, extraplanar, fire)
+Init: '2'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +35
+Aura: intense heat (10 ft., DC 30, 4d6 fire)
+AC: 36, touch 8, flat-footed 34
+AC_Mods: (+2 Dex, +28 natural, -4 size)
+HP: '348'
+HD: (24d10+192 plus 24)
+Saves: Fort +18, Ref +18, Will +20
+Fort: '18'
+Ref: '18'
+Will: '20'
+DefensiveAbilities: fire absorption
+DR: 15/adamantine
+Immune: fire, elemental traits
+Weaknesses: susceptible to rust, vulnerability to cold
+Speed: 30 ft., burrow 30 ft.
+Melee:
+  - bite +36 (6d10+22/19-20 plus grab)
+Space: 20 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  deafening roar, intense heat, swallow whole (4d6 plus 4d6 fire damage, AC 24,
+  34 hp)
+AbilityScores:
+  - 41
+  - 14
+  - 26
+  - 18
+  - 19
+  - 10
+BaseAtk: '24'
+CMB: +43 (+45 bull rush, +47 grapple)
+CMD: 55 (57 vs. bull rush, can't be tripped)
+Feats:
+  - Alertness
+  - Cleave
+  - Great Cleave
+  - Great Fortitude
+  - Improved Bull Rush
+  - Improved Critical (bite)
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+  - Vital Strike
+  - Weapon Focus (bite)
+Skills:
+  - Appraise +28
+  - Bluff +27
+  - Climb +39
+  - Intimidate +27
+  - Knowledge (dungeoneering) +31
+  - Knowledge (engineering) +31
+  - Knowledge (planes) +31
+  - Perception +35
+  - Sense Motive +35
+  - Survival +31
+Languages:
+  - Ignan
+  - Terran
+Environment: any (Elemental Plane of Earth, Elemental Plane of Fire, Plane of Molten Skies)
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This massive wormlike creature of burnt iron and glistening hematite grinds
+  with the roar of the forge. Its fanged lamprey like mouth opens to reveal the
+  molten fires burning in its gut.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Deafening Roar (Su)
+    description: >-
+      Whenever a slag worm moves at least half of its speed in a single round it
+      creates a grinding roar of metal on metal from its body. Creatures within
+      50 feet that hear this grinding roar must succeed on a DC 30 Fortitude
+      save or be deafened for 2d4 rounds. The save DC is Constitution-based.
+  - name: Intense Heat (Ex)
+    description: >-
+      A slag worm's body generates intense heat. Anything within 10 feet of its
+      body takes 4d6 points of fire damage each round. A DC 30 Fortitude save
+      reduces the damage by half. Any weapon that strikes a slag worm must
+      succeed on a DC 30 Fortitude save or melt into slag. (Magic weapons gain
+      their enhancement bonus to their save.) A creature striking a slag worm
+      with a natural attack or unarmed takes the same 4d6 points of damage each
+      time an attack hits. The save DCs are Constitution-based.
+  - name: Fire Absorption (Ex)
+    description: >-
+      Fire deals no damage to a slag worm. Instead, the slag worm absorbs the
+      effect and heals 1 point of damage for each 3 points the effect would
+      otherwise deal. If the amount of healing would cause the slag worm to
+      exceed its full normal hit points, it gains any excess as temporary hit
+      points.
+  - name: Susceptible to Rust (Ex)
+    description: >-
+      Attacks that cause rusting (such as a rusting grasp spell or the touch of
+      a rust monster) deal 2d6 points of damage to a slag worm.
+Description:
+  - >-
+    Slag worms burrow endlessly through the elemental Plane of Earth, Elemental
+    Plane of Fire, and Plane of Molten Skies, occasionally forcing through weak
+    points into the material planes where they burrow deep beneath the earth,
+    devouring raw iron deposits to keep their internal furnaces burning. Because
+    of this they have been known to devour entire companies of heavily armored
+    dwarves and orcs, mistaking their gear for a new vein of naturally occurring
+    iron salts.
+  - >-
+    Slag worms average about 40 feet long and weigh about 60,000 pounds, though
+    specimens as large as 100 feet or more have been rumored to exist. Its
+    massive form radiates abysmal heat and when the worm opens its maw, fires
+    can be seen burning and raging in its interior. They are intelligent
+    creatures (more so than their appearance of a big dumb worm would lead one
+    to believe) and can speak though they rarely choose to converse with other
+    races.
+  - >-
+    A slag worm erupts from the ground seeking to eat anything wearing iron,
+    steel, or other metal armor or equipment. It attacks such creatures with a
+    great ferocity, generally disregarding other enemies until the worm is
+    heavily injured or forced away by magic.
+  - Copyright Notice Author Scott Greene.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3017'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

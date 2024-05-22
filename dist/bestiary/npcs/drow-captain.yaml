@@ -1,0 +1,115 @@
+Name: Drow Captain
+CR: '10'
+XP: '9600'
+Race: drow
+Class: fighter 11
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (elf )
+Init: '7'
+Senses:
+  - darkvision 120 ft.
+  - Perception +12
+AC: 27, touch 14, flat-footed 24
+AC_Mods: (+10 armor, +1 deflection, +3 Dex, +1 natural, +2 shield)
+HP: '71'
+HD: (11d10+11)
+Saves: Fort +7, Ref +6, Will +5; +2 vs. enchantment, +3 vs. fear
+Fort: '7'
+Ref: '6'
+Will: '5'
+Save_Mods: +2 vs. enchantment, +3 vs. fear
+Immune: sleep
+SR: '17'
+Weaknesses: light blindness
+Speed: 30 ft., fly 30 ft. (good)
+Melee:
+  - +1 rapier +19/+14/+9 (1d6+8/15-20)
+Ranged:
+  - hand crossbow +15 (1d4+1/19-20 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th)
+  values:
+    - label: 1/day
+      value: dancing lights, darkness, faerie fire
+AbilityScores:
+  - 16
+  - 16
+  - 10
+  - 10
+  - 14
+  - 10
+BaseAtk: '11'
+CMB: '14'
+CMD: '28'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Critical Focus
+  - Disruptive
+  - Greater Weapon Focus (rapier)
+  - Improved Critical (rapier)
+  - Improved Initiative
+  - Stand Still
+  - Step Up
+  - Toughness
+  - Weapon Focus (rapier)
+  - Weapon Specialization (rapier)
+Skills:
+  - Climb +6
+  - Fly +5
+  - Intimidate +5
+  - Knowledge (dungeoneering) +5
+  - Knowledge (nobility) +1
+  - Perception +12
+  - Stealth +7
+  - Survival +6
+Languages:
+  - Elven
+  - Undercommon,
+SQ: >-
+  poison use, armor training +3, bravery +3, weapon training (light blades +2,
+  crossbows +1),
+Source: PFS S1-32
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison Use (Ex)
+    description: >-
+      Drow are skilled in the use of poison and never risk accidentally
+      poisoning themselves. The drow in this adventure use Medium spider
+      venom-Injury; save Fort DC 14; frequency 1/round for 4 rounds; effect 1d2
+      Str; cure 1 save.
+Gender: Male
+BeforeCombat: >-
+  Given time, the captain poisons his blade with Medium spider venom and casts
+  darkness in the room to hinder light-dependent enemies.
+DuringCombat: >-
+  The captain's goal is to keep anyone from getting to the researchers. If
+  someone gets past him, he moves to intercept them, using Stand Still and Step
+  Up to slow or keep up with his opponents. Remember that his Critical Focus
+  feat gives him a +4 bonus on confirming critical threats.
+Morale: >-
+  The captain fights to the death, for his life is forfeit if a researcher is
+  killed and he survives.
+Gear: +1 rapier, potion of cure moderate wounds, Medium spider venom (2), bolts (20)
+OtherGear: >-
+  +1 full plate, +1 buckler, ring of protection +1, amulet of natural armor +1,
+  100 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4141'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

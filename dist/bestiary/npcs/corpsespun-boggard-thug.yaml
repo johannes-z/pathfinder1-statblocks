@@ -1,0 +1,105 @@
+Name: Corpsespun Boggard Thug
+CR: '8'
+XP: '4800'
+Race: boggard
+Class: fighter 5
+MonsterSource: Pathfinder RPG Bestiary 37, Tome of Horrors II 202
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, boggard)
+Init: '1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +7
+AC: 21, touch 11, flat-footed 20
+AC_Mods: (+6 armor, +1 Dex, +4 natural)
+HP: '79'
+HD: (8 HD; 3d8+5d10+37)
+Saves: Fort +10, Ref +5, Will +3; +1 vs. fear
+Fort: '10'
+Ref: '5'
+Will: '3'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1, channel resistance +2,
+DR: 5/ magic
+Immune: undead traits
+Speed: 20 ft., swim 30 ft.
+Melee:
+  - >-
+    mwk flail +14/+9 (1d8+7), tongue  +6 touch (sticky tongue plus spider 
+    transfer)
+  - >-
+    slam +11 (1d6+6 plus spider transfer),  tongue +6 touch (sticky tongue plus 
+    spider transfer)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  spider spray (20-ft. cone, 3d6 swarm damage plus distraction plus poison,
+  Reflex DC 14 for half, usable every 1d4 rounds), spider transfer, terrifying
+  croak, weapon training (flails +1)
+AbilityScores:
+  - 19
+  - 12
+  - —
+  - 1
+  - 13
+  - 16
+BaseAtk: '7'
+CMB: '11'
+CMD: '22'
+Feats:
+  - Lightning Reflexes
+  - Power Attack
+  - Stealthy
+  - Step Up
+  - Toughness
+  - Weapon Focus (flail)
+  - Weapon Specialization (flail)
+Skills:
+  - Acrobatics +3 (+15 when jumping)
+  - Escape Artist +1
+  - Perception +7
+  - Stealth +3 (+11 in swamps or webs)
+  - Swim +10
+SQ: armor training 1, swamp stride
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Swarm-injury; save Fort DC 14; frequency 1/round for 4 rounds; effect 1d4
+      Strength damage; cure 1 save.
+  - name: Spider Spray (Ex)
+    description: >-
+      As the corpsespun sarcosuchus above, except the save DC is 14. In
+      addition, if the corpsespun boggard has not yet used its terrifying croak
+      in the last hour, it can do so as a free action while using its spider
+      spray ability.
+  - name: Spider Transfer (Ex)
+    description: >-
+      As the corpsespun sarcosuchus above. Anyone hit by the boggard's sticky
+      tongue is subject to this ability each round as long as it is attached to
+      the boggard's tongue.
+DuringCombat: >-
+  The corpsespun boggards use their spider sprays and terrifying croaks before
+  entering melee combat with their morningstars. They have no strategy other
+  than attacking the nearest foe.
+Morale: The boggards fight until destroyed.
+OtherGear: masterwork breastplate, masterwork flail, copper armband (worth 30 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: corpsespun|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1050'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

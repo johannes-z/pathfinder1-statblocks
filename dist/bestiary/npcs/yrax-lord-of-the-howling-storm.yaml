@@ -1,0 +1,132 @@
+Name: Yrax, Lord Of The Howling Storm
+CR: '14'
+XP: '38400'
+Race: very old white dragon
+MonsterSource: Pathfinder RPG Bestiary 100
+Alignment: CE
+Size: Huge
+Type: dragon
+SubType: (cold)
+Init: '4'
+Senses:
+  - dragon senses, see invisibility, snow vision
+  - Perception +25
+Aura: cold (10 ft., 1d6 cold damage), frightful presence (270 ft., DC 21)
+AC: 34, touch 8, flat-footed 34
+AC_Mods: (+26 natural, -2 size)
+HP: '237'
+HD: (19d12+114)
+Saves: Fort +17, Ref +11, Will +14
+Fort: '17'
+Ref: '11'
+Will: '14'
+DR: 15/magic
+Immune: cold, dragon traits, paralysis, sleep
+Resist: acid 20, electricity 20, fire 20
+SR: '25'
+Weaknesses: vulnerable to fire
+Speed: 60 ft., burrow 30 ft., fly 200 ft. (poor), swim 60 ft.
+Melee:
+  - >-
+    bite +27 (2d8+15/19-20), 2 claws +27 (2d6+10), tail slap +22 (2d6+15), 2
+    wings +22 (1d8+5)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (50-ft. cone, 18d4 cold damage, Reflex DC 25 half, usable every
+  1d4 rounds), crush (2d8)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 19th; concentration +21)
+  values:
+    - label: At Will
+      value: fog cloud, gust of wind (DC 14)
+    - label: 3/day
+      value: freezing fog (DC 18)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +9)
+  values:
+    - label: 3rd (4/day)
+      value: displacement, ice spearsISM (DC 15)
+    - label: 2nd (7/day)
+      value: mirror image, resist energy, see invisibility
+    - label: 1st (7/day)
+      value: >-
+        alarm, ray of enfeeblement (DC 13), snowballPOTN (DC 13), true strike,
+        unseen servant
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, mage hand, message, prestidigitation, ray of
+        frost, read magic
+AbilityScores:
+  - 31
+  - 10
+  - 23
+  - 14
+  - 17
+  - 14
+BaseAtk: '19'
+CMB: '31'
+CMD: 41 (45 vs. trip)
+Feats:
+  - Craft Construct
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Flyby Attack
+  - Greater Vital Strike
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Fly +14
+  - Heal +25
+  - Intimidate +24
+  - Knowledge (arcana) +14
+  - Knowledge (geography) +14
+  - Knowledge (history) +14
+  - Knowledge (nobility) +15
+  - Linguistics +6
+  - Perception +25
+  - Sense Motive +25
+  - Stealth +14
+  - Swim +18
+Languages:
+  - Aklo
+  - Aquan
+  - Draconic
+  - Triaxian
+SQ: ice shape, icewalking
+Source: AP 70
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  If aware of intruders in the palace, Yrax casts resist energy (acid,
+  electricity, and fire) and see invisibility on himself. Once the alarm on the
+  antechamber doors goes off, Yrax casts mirror image.
+DuringCombat: >-
+  Yrax lets out a deafening roar and activates his frightful presence while
+  creating a freezing fog around intruders entering the sanctum, followed by a
+  blast of his breath weapon. Yrax casts displacement as soon as possible
+  thereafter to protect himself against ranged attacks. Depending on the tactics
+  of those facing him, Yrax might swoop over opponents and use Flyby Attack and
+  Greater Vital Strike with his bite attacks. If brought to fewer than 125 hit
+  points, Yrax lands and makes full attacks against his most troublesome foe.
+Morale: >-
+  Here at the seat of his power, Yrax considers retreat only when reduced to 40
+  hit points or fewer, and then only if he has a good chance of getting away.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '1'
+Land: '1'
+AgeCategory: very old
+CompanionFamiliarLink: '0'
+id: '4392'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,93 @@
+Name: Lustspawn
+CR: '2'
+XP: '600'
+Race: Lustspawn
+MonsterSource: Pathfinder RPG Bestiary 2 246
+Alignment: NE
+Size: Medium
+Type: aberration
+Init: '5'
+Senses:
+  - darkvision 60 ft., sin-scent
+  - Perception +6
+AC: 14, touch 12, flat-footed 12
+AC_Mods: (+1 Dex, +1 dodge, +2 natural)
+HP: '16'
+HD: (3d8+3)
+Saves: Fort +2, Ref +2, Will +3
+Fort: '2'
+Ref: '2'
+Will: '3'
+Immune: mind-affecting effects
+SR: '13'
+Speed: 40 ft.
+Melee:
+  - 2 claws +3 (1d4+1), bite +3 (1d6+1 plus sinful bite)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 13
+  - 13
+  - 12
+  - 10
+  - 11
+  - 16
+BaseAtk: '2'
+CMB: '3'
+CMD: '15'
+Feats:
+  - Dodge
+  - Improved Initiative
+Skills:
+  - Intimidate +9
+  - Perception +6
+  - Stealth +7
+  - Survival +6
+Languages:
+  - Thassilonian
+SQ: martial proficiency
+Source: Godsmouth Heresy
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Martial Proficiency (Ex)
+    description: >-
+      Sinspawn are proficient in all simple and martial weapons, armor, and
+      shields (except tower shields). Sin-Scent (Su) Sinspawn can smell the
+      presence of creatures whose nature reflects the sinspawn's sin. For
+      example, lustspawn can scent creatures that are especially desirous or
+      lustful, at the GM's discretion.
+  - name: Sinful Bite (Su)
+    description: >-
+      A creature bitten by a lustspawn is overwhelmed with lust (DC 14 Will save
+      negates). These unfettered impulses and emotions are so powerful that the
+      target becomes sickened for 1d6 minutes. An affected target that is bitten
+      a second time is staggered if it fails its saving throw. Additional failed
+      saves increase the duration of this effect but do not increase its
+      severity. Calm emotions, remove curse, or break enchantment negates the
+      effects of sinful bite. The save DC is Charisma-based.
+DuringCombat: >-
+  Against a single foe, the lustspawn tries to take its enemy alive, bringing
+  its victim back to the House of Lust to have its way with it before feeding on
+  the still-living victim. Against multiple enemies, the lustspawn focuses its
+  attacks on the character with the highest Charisma. Once an enemy falls, the
+  lustspawn must make a DC 15 Will save or it immediately begins to feed on its
+  fallen victim, automatically inflicting bite damage every round and ignoring
+  other opponents for 1d4 rounds.
+Morale: >-
+  The lustspawn flees back to the House of Lust if reduced to fewer than 8 hit
+  points. If cornered there, it fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1066'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

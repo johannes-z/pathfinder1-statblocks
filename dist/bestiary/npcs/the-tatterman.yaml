@@ -1,0 +1,136 @@
+Name: The Tatterman
+CR: '5'
+XP: '1600'
+Race: doppelganger
+Class: sorcerer 3
+MonsterSource: Pathfinder RPG Bestiary 4 204, Pathfinder RPG Bestiary 89
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+SubType: (shapechanger)
+Init: '5'
+Senses:
+  - darkvision 120 ft.
+  - Perception +12
+Aura: fear (60 ft., DC 17), frightful presence (30 ft., DC 17)
+AC: 20, touch 16, flat-footed 15
+AC_Mods: (+1 deflection, +4 Dex, +1 dodge, +4 natural)
+HP: '56'
+HD: (7 HD; 3d6+4d10+24)
+HP_Mods: regeneration 5 (good spells and weapons, silver)
+Saves: Fort +7, Ref +9, Will +10; +4 vs. illusion effects
+Fort: '7'
+Ref: '9'
+Will: '10'
+Save_Mods: +4 vs. illusion effects
+DefensiveAbilities: illusion resistance, protection from good
+DR: 5/good or silver
+Immune: charm, sleep
+Speed: 30 ft., fly 10 ft. (perfect)
+Melee:
+  - +1 war razor +9 (1d4+4/19-20)
+  - 2 claws +3 (1d8+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: night terrors (DC 17)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +23)
+  values:
+    - label: Constant
+      value: protection from good
+    - label: At Will
+      value: detect thoughts (DC 17)
+    - label: 3/day
+      value: dream, nightmare (DC 20), suggestion (DC 17)
+    - label: 1/day
+      value: >-
+        shadow walk (DC 20) Bloodline Spell-Like Abilities (CL 3rd;
+        concentration +8)
+    - label: 8/day
+      value: lullaby
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 3rd; concentration +8)
+  values:
+    - label: 1st (7/day)
+      value: cause fear (DC 16), hypnotism (DC 16), sleep (DC 16), vanishAPG (DC 16)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), detect magic, ghost sound (DC 15), mage hand, touch of
+        fatigue (DC 15)
+AbilityScores:
+  - 16
+  - 19
+  - 16
+  - 15
+  - 16
+  - 21
+BaseAtk: '5'
+CMB: '8'
+CMD: '24'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Great Fortitude
+  - Lucid Dreamer
+Skills:
+  - Bluff +16
+  - Diplomacy +8
+  - Disguise +13
+  - Fly +12
+  - Intimidate +9
+  - Knowledge (arcana) +6
+  - Knowledge (planes) +7
+  - Perception +12
+  - Sense Motive +10
+  - Spellcraft +8
+  - Stealth +15
+  - Use Magic Device +10
+RacialMods: >-
+  +4 Bluff (+20 while using change shape), +4 Disguise (+20 while using change
+  shape), +4 Intimidate, +4 Stealth
+Languages:
+  - Aklo
+  - Common
+  - Hallit
+SQ: change shape (alter self), feign death (DC 17), mimicry, perfect copy
+Source: AP 109
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Anchored to Consciousness (Su)
+    description: >-
+      The Tatterman is directly tied to Ulver Zandalus and his consciousness.
+      For the most part, the Tatterman is locked away in the Dimension of
+      Dreams, and can influence only Zandalus's thoughts. The Tatterman can't
+      manifest on the Material Plane while Zandalus is conscious, but when the
+      cult leader sleeps, the Tatterman can haunt the halls of Briarstone
+      Asylum. If Zandalus is killed, the Tatterman can freely walk the waking
+      world.
+  - name: Nightmare Transformation (Su)
+    description: >-
+      Any humanoid slain by the Tatterman's nightmare spell-like ability returns
+      to life 1 hour later as a vile creature. If the creature's Charisma score
+      is equal to or higher than its Constitution score, it transforms into a
+      doppelganger. If its Charisma score is lower than its Constitution score,
+      it transforms into a ghoul. A humanoid who becomes a doppelganger or ghoul
+      in this way retains none of the abilities it had in life. The creature is
+      not under the control of the Tatterman, but its alignment changes to evil
+      and it behaves like a normal doppelganger or ghoul in all respects.
+Bloodline: dreamspunAPG
+Gear: +1 war razorISWG, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: nightmare|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8521'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

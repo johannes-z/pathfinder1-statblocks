@@ -1,0 +1,135 @@
+Name: Gathuspia
+CR: '13'
+XP: '25600'
+Race: night hag
+Class: witch 8
+MonsterSource: Pathfinder RPG Bestiary 215; Pathfinder RPG Advanced Player's Guide 65
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+AC: 32, touch 17, flat-footed 25
+AC_Mods: (+4 armor, +6 Dex, +1 dodge, +11 natural)
+HP: '192'
+HD: (16 HD; 8d10+8d6+120)
+Saves: Fort +16, Ref +12, Will +16
+Fort: '16'
+Ref: '12'
+Will: '16'
+DR: 10/cold iron and magic
+Immune: charm, cold, fire, fear, sleep
+SR: '24'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    +1 unholy dagger +19/+14/+9 (1d4+7/17-20), bite +13 (2d6+3), claw +13
+    (1d4+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  dream haunting, hexes (evil eye [-4, 9 rounds], flight [feather fall at will,
+  levitate 1/day, fly 8 minutes/day], healing [cure moderate], misfortune [2
+  rounds], slumber [8 rounds])
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +13)
+  values:
+    - label: Constant
+      value: detect chaos, detect evil, detect good, detect law, detect magic
+    - label: At Will
+      value: >-
+        deep slumber (DC 18), etherealness, invisibility, magic missile, ray of
+        enfeeblement (DC 16), soul bind (DC 24)
+SpellsPrepared: >-
+  Spells Prepared (CL 8th; concentration +14)   4th-confusion (DC 20), cure
+  serious wounds, dimension door   3rd-contagion (DC 19), lightning bolt (DC
+  19), stinking cloud (DC 19), vampiric touch   2nd-blindness/deafness (DC 18),
+  command undead (DC 18), hold person (DC 18), see invisibility, web (DC 18)  
+  1st-charm person (DC 17), command (DC 17), cure light wounds, mage armor, ray
+  of enfeeblement (2, DC 17)   0 (at will)-bleed (DC 16), light, message, touch
+  of fatigue (DC 16)
+AbilityScores:
+  - 23
+  - 23
+  - 22
+  - 22
+  - 14
+  - 21
+BaseAtk: '12'
+CMB: '18'
+CMD: '35'
+Feats:
+  - Bleeding Critical
+  - Combat Casting
+  - Critical Focus
+  - Dodge
+  - Improved Critical (dagger)
+  - Improved Initiative
+  - Toughness
+  - Vital Strike
+Skills:
+  - Bluff +24
+  - Disguise +21
+  - Fly +33
+  - Intimidate +24
+  - Knowledge (arcana) +25
+  - Knowledge (planes) +25
+  - Perception +21
+  - Sense Motive +21
+  - Spellcraft +25
+  - Stealth +25
+  - Swim +10
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Infernal
+SQ: >-
+  change shape (any humanoid, alter self ), heartstone, witch's familiar (spider
+  named Seleste)
+Source: AP 64
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  Gathuspia casts invisibility and mage armor before entering combat, and
+  activates her flight hex to increase her combat mobility.
+DuringCombat: >-
+  Gathuspia spends the first few rounds of combat using her magic to soften up
+  foes, with lightning bolt and confusion in particular to disrupt and damage,
+  and stinking cloud and web to reduce their mobility. Once she's got the PCs
+  relatively split up, she swoops in to make melee attacks, using Vital Strike
+  with her bite on the first round of combat. She knows her Armor Class is good,
+  but faced against foes who are able to hit her and penetrate her damage
+  reduction, she retreats back to range and relies on magic missiles and other
+  magic. She tries to capture the souls of any slain PCs as soon as possible
+  using soul bind, and if she manages to capture three (and thus fills all three
+  soul jars), she leaves the battle by returning to the ethereal plane, content
+  with her prizes for now.
+Morale: >-
+  Gathuspia is unlike many of the other outsiders who serve Ardathanatus in that
+  she hasn't been called here by his magic&#8211;her alliance with the elf is on
+  her own terms. While she values his aid and hopes he succeeds at his mission
+  since that will only increase the number of souls she can harvest, she's not
+  so blindly devoted to his cause that she would lay down her life for him. If
+  reduced to 40 or fewer hit points, she attempts to escape by using
+  etherealness and does not return.
+OtherGear: +1 unholy dagger, heartstone, soul jars (3)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Patron: plague
+CompanionFamiliarLink: '0'
+id: '3540'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

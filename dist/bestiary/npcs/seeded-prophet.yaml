@@ -1,0 +1,136 @@
+Name: Seeded Prophet
+CR: '10'
+XP: '9600'
+Race: human
+Class: oracle 10
+MonsterSource: see page 90, Pathfinder RPG Advanced Player's Guide 42
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (augmented human)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 22, touch 15, flat-footed 20
+AC_Mods: (+5 armor, +2 Dex, +3 deflection, +2 natural)
+HP: '58'
+HD: (10d8+10)
+HP_Mods: fast healing 5
+Saves: Fort +5, Ref +7, Will +9; +4 vs. mind-affecting effects
+Fort: '5'
+Ref: '7'
+Will: '9'
+Save_Mods: +4 vs. mind-affecting effects
+DefensiveAbilities: channel resistance +4
+DR: 5/ bludgeoning or slashing
+Resist: cold 10, electricity 10
+Weaknesses: transformed
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - >-
+    +1 spear +12/+7 (1d8+7/x3), 2 tendrils +6 (1d6+2 plus grab and seedborne
+    consumption)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with tendrils)
+SpecialAttacks: >-
+  death burst, entrapping tendrils, insidious mind, seedborne consumption (DC
+  20)
+SpellsKnown:
+  header: Oracle Spells Known (CL 10th; concentration +16)
+  values:
+    - label: 5th (4/day)
+      value: feeblemind (DC 21), mass inflict light wounds (DC 23), true seeing
+    - label: 4th (6/day)
+      value: >-
+        aura of doomUM (DC 22), black tentacles, inflict critical wounds (DC
+        22), unholy blight (DC 20)
+    - label: 3rd (7/day)
+      value: >-
+        bestow curse (DC 21), blindness/deafness (DC 21), inflict serious wounds
+        (DC 21), invisibility purge, tongues
+    - label: 2nd (8/day)
+      value: >-
+        bull's strength, dread boltUM (DC 18), dust of twilightAPG (DC 18),
+        inflict moderate wounds (DC 20), shatter (DC 18), undetectable alignment
+        (DC 18)
+    - label: 1st (8/day)
+      value: >-
+        bless, divine favor, entropic shield, inflict light wounds (DC 19),
+        murderous commandUM (DC 17), ray of sickeningUM (DC 19), shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 18), create water, detect magic, detect poison, guidance,
+        mending, read magic, resistance, sparkAPG (DC 16)
+AbilityScores:
+  - 18
+  - 14
+  - —
+  - 12
+  - 10
+  - 22
+BaseAtk: '7'
+CMB: +11 (+15 grapple)
+CMD: '23'
+Feats:
+  - Cleave
+  - Greater Spell Focus (necromancy)
+  - Improved Initiative
+  - Lunge
+  - Power Attack
+  - Spell Focus (necromancy)
+Skills:
+  - Climb +11
+  - Diplomacy +10
+  - Disguise +14
+  - Intimidate +19
+  - Knowledge (arcana) +9
+  - Knowledge (history) +8
+  - Knowledge (planes) +14
+  - Knowledge (religion) +9
+  - Spellcraft +14
+  - Stealth +14
+Languages:
+  - Aklo
+  - Auran
+  - Common
+  - Kelish
+  - telepathy 100 ft. (seeded creatures only)
+  - tongues (understand)
+SQ: >-
+  oracle's curse (tongues), revelations (cloak of darknessUM, gift of madnessUM,
+  wings of darknessUM)
+Source: AP 113
+IsTemplate: '0'
+BeforeCombat: The seeded prophet casts shield of faith.
+DuringCombat: >-
+  The seeded prophet first casts aura of doom and then unholy blight to weaken
+  its foes. It then attacks from a distance with spells such as feeblemind and
+  black tentacles. If forced into melee, the seeded prophet attacks with its +1
+  spear and tendrils, attempting to infest its opponent with seedborne
+  consumption.
+Morale: >-
+  The seeded prophet has no concern for its own existence, and thus fights to
+  the death.
+Gear: scroll of flame strike, scroll of major curse
+OtherGear: +1 chain shirt, +1 spear, cloak of resistance +2, 548 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: seeded|
+BaseStatistics: >-
+  Without shield of faith, the seeded prophet's statistics are AC 19, touch 12,
+  flat-footed 17.
+AgeCategory: Adult
+Mystery: dark tapestry
+CompanionFamiliarLink: '0'
+id: '9073'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,154 @@
+Name: Andrexiel, The Copper Sphinx
+CR: '14'
+XP: '38400'
+Race: gynosphinx
+Class: oracle 9
+MonsterSource: >-
+  Pathfinder RPG Advanced Player's Guide 42, Pathfinder RPG Bestiary 257,
+  Advanced Bestiary 169
+Alignment: 'N'
+Size: Large
+Type: magical beast
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +23
+AC: 25, touch 10, flat-footed 24
+AC_Mods: (+1 Dex, +15 natural, -1 size)
+HP: '211'
+HD: (21 HD; 12d10+9d8+105)
+Saves: Fort +16, Ref +12, Will +18
+Fort: '16'
+Ref: '12'
+Will: '18'
+DefensiveAbilities: light fortification
+Resist: fire 10
+Speed: 30 ft., fly 50 ft. (poor)
+Melee:
+  - 2 claw +25 (1d6+7/19-20)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  brain drain (2/day, DC 20 Will negates, 9d4), pounce, rake (2 claws +17,
+  2d6+6)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +18)
+  values:
+    - label: Constant
+      value: comprehend languages, detect magic, read magic, see invisibility
+    - label: At Will
+      value: ''
+    - label: 1/week
+      value: >-
+        any one of the following: symbol of fear (DC 22), symbol of pain (DC
+        21), symbol of persuasion (DC 22), symbol of sleep (DC 22), symbol of
+        stunning (DC 23); all symbols last for 1 week maximum
+    - label: 3/day
+      value: clairaudience/clairvoyance
+    - label: 1/day
+      value: dispel magic, legend lore, locate object, remove curse
+SpellsKnown:
+  header: Oracle Spells Known (CL 9th; concentration +15)
+  values:
+    - label: 4th (5/day)
+      value: discern lies, inflict critical wounds (DC 20), legend lore, sending
+    - label: 3rd (7/day)
+      value: >-
+        blindness/deafness (DC 19), dispel magic, glyph of warding, inflict
+        serious wounds, locate object
+    - label: 2nd (8/day)
+      value: >-
+        hold person (DC 18), inflict moderate wounds (DC 18), resist energy,
+        silence, tongues, zone of truth (DC 18)
+    - label: 1st (8/day)
+      value: >-
+        bane (DC 17), deathwatch, entropic shield, identify, inflict light
+        wounds (DC 17), obscuring mist, sanctuary (DC 17)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 16), detect magic, guidance, mending, read magic, resistance,
+        stabilize, virtue
+AbilityScores:
+  - 24
+  - 13
+  - 20
+  - 16
+  - 23
+  - 23
+BaseAtk: '18'
+CMB: '26'
+CMD: 37 (41 vs. trip)
+Feats:
+  - Alertness
+  - Combat Casting
+  - Flyby Attack
+  - Hover
+  - Improved Critical (claw)
+  - Improved Initiative
+  - Improved Natural Armor
+  - Improved Natural Attack (claw)
+  - Iron Will
+  - Skill Focus (Fly)
+  - Weapon Focus (claw)
+Skills:
+  - Bluff +17
+  - Craft (alchemy) +7
+  - Diplomacy +22
+  - Fly +12
+  - Intimidate +17
+  - Knowledge (arcana) +16
+  - Knowledge (geography) +16
+  - Knowledge (history) +16
+  - Knowledge (local) +16
+  - Knowledge (nature) +16
+  - Knowledge (planes) +16
+  - Knowledge (religion) +16
+  - Perception +23
+  - Sense Motive +26
+  - Spellcraft +19
+Languages:
+  - Common
+  - Draconic
+  - Ignan
+  - Kelish
+  - Osiriani
+  - Sphinx
+SQ: oracle's curse (clouded vision), revelations (brain drain, lore keeper)
+Source: PFS S2-22
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Brain Drain (Su)
+    description: >-
+      Andrexiel can take a standard action to violently probe the mind of a
+      single intelligent enemy within 100 feet. The target receives a Will save
+      to negate the effect and immediately knows the source of this harmful
+      mental prying. Those who fail this save are wracked with pain, taking 1d4
+      points of damage per oracle level. After successfully attacking with this
+      ability, Andrexiel may use a full-round action to sort through the jumble
+      of stolen thoughts and memories to make a single Knowledge check using the
+      victim's skill bonus. The randomly stolen thoughts remain in her mind for
+      a number of rounds equal to her Charisma modifier. Treat the knowledge
+      gained as if she had used detect thoughts. This is a mind-affecting
+      effect.
+  - name: Light Fortification (Ex)
+    description: >-
+      When a critical hit or sneak attack is scored on Andrexiel, there is a 25%
+      chance that the critical hit or sneak attack is negated and damage is
+      instead rolled normally.
+Gender: Female
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: Lore
+CompanionFamiliarLink: '0'
+id: '5702'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

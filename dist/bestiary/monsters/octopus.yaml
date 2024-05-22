@@ -1,0 +1,90 @@
+Name: Octopus
+CR: '1'
+XP: '400'
+Alignment: 'N'
+Size: Small
+Type: animal
+SubType: (aquatic)
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +1
+AC: 15, touch 14, flat-footed 12
+AC_Mods: (+3 Dex, +1 natural, +1 size)
+HP: '13'
+HD: (2d8+4)
+Saves: Fort +5, Ref +6, Will +1
+Fort: '5'
+Ref: '6'
+Will: '1'
+DefensiveAbilities: ink cloud
+Speed: 20 ft., swim 30 ft., jet 200 ft.
+Melee:
+  - bite +5 (1d3+1 plus poison), tentacles +3 (grab)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 12
+  - 17
+  - 14
+  - 2
+  - 13
+  - 3
+BaseAtk: '1'
+CMB: +1 (+5 grapple)
+CMD: 14 (can't be tripped)
+Feats:
+  - MultiattackB
+  - Weapon Finesse
+Skills:
+  - Escape Artist +13
+  - Stealth +20
+  - Swim +9
+RacialMods: +8 Stealth, +10 Escape Artist
+Environment: temperate or cold ocean
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  Eight tentacles, each adorned with rows of countless suckers, unfurl from the
+  barrel-shaped body of this large-eyed creature.
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ink Cloud (Ex)
+    description: >-
+      An octopus can emit a 10-foot-radius sphere of ink once per minute as a
+      free action. The ink provides total concealment in water, and persists for
+      1 minute.
+  - name: Jet (Ex)
+    description: >-
+      An octopus can jet backward once per round as a full-round action, at a
+      speed of 200 feet. It must move in a straight line while jetting, and does
+      not provoke attacks of opportunity when it does so.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1
+      Str; cure 1 save.
+Description:
+  - >-
+    The octopus is a cunning animal capable of using complex tactics to get
+    food. Octopus Companions Starting Statistics: Size Small; AC +1 natural;
+    Speed 20 ft., swim 30 ft., jet 200 ft.; Attack bite (1d3), tentacles (grab);
+    Ability Scores Str 12, Dex 17, Con 14, Int 2, Wis 12, Cha 3; Special
+    Qualities low-light vision, ink cloud. 4th-Level Advancement: Attack bite
+    (1d3 plus poison); Ability Scores Str +2, Con +2.
+CharacterFlag: '0'
+CompanionFlag: '1'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Octopus
+id: '284'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

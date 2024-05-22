@@ -1,0 +1,145 @@
+Name: Nysrock Demon
+CR: '13'
+XP: '25600'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +34
+AC: 25, touch 11, flat-footed 23
+AC_Mods: (+2 Dex, +14 natural, -1 size)
+HP: '202'
+HD: (15d10+120)
+Saves: Fort +19, Ref +11, Will +9
+Fort: '19'
+Ref: '11'
+Will: '9'
+DR: 10/cold iron and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '24'
+Speed: 40 ft.
+Melee:
+  - bite +22 (2d6+7 plus grab), sting +22 (2d4+7 plus  poison)
+Ranged:
+  - spit +16 (poison)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (2d6+10)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th)
+  values:
+    - label: At will
+      value: >-
+        greater dispel magic, greater teleport (self plus 50 pounds of objects
+        only), unholy blight (DC 18)
+    - label: 3/day
+      value: blasphemy (DC 21), chaos hammer (DC 18)
+    - label: 1/day
+      value: summon (level 4, 2d4 babaus or 1 nysrock 35%)
+AbilityScores:
+  - 24
+  - 14
+  - 26
+  - 16
+  - 19
+  - 18
+BaseAtk: '15'
+CMB: +23 (+27 grapple)
+CMD: 35 (can't be tripped)
+Feats:
+  - Ability Focus (poison)
+  - Alertness
+  - Cleave
+  - Combat Casting
+  - Great Fortitude
+  - Power Attack
+  - Weapon Focus (bite)
+  - Weapon Focus (sting)
+Skills:
+  - Bluff +22
+  - Escape Artist +20
+  - Intimidate +22
+  - Knowledge (planes) +21
+  - Perception +34
+  - Sense Motive +26
+  - Spellcraft +21
+  - Stealth +16
+  - Survival +22
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+Environment: any (Abyss)
+Organization: solitary or gang (2-4)
+Treasure: standard
+Description_Visual: >-
+  This creature looks like a 14-foot long cobra with a demonic humanoid head and
+  blackish-blue scales. Two downward-curving horns jut from the sides of its
+  head. Its tail ends in a barbed stinger. A leathery hood flares from its neck.
+Group: Demon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Sting or spit-injury or contact; save Fort DC 27; frequency 1/round for 6
+      rounds; effect 1d4 Con damage; cure 2 consecutive saves. The save DC is
+      Constitution-based with a +2 bonus for the nysrock's Ability Focus feat.
+Description:
+  - >-
+    Nysrocks are believed to be somehow related to nagas, or are in fact nagas
+    themselves warped through ancient and demonic dark magic into their current
+    form. Whatever their origin, nysrocks are thoroughly evil and contemptible
+    caring for no one other than themselves.
+  - >-
+    Nysrocks are often found in the courts of various demon lords serving as
+    advisors and counselors. Their cunning intellects are used to full effect by
+    their masters in weaving battle plans and plots and intrigues against rival
+    lords and enemies.
+  - >-
+    Rumors abound as of late (supposedly from an eyewitness who lived to tell
+    the tale) of an abyssal plane ruled by a massive nysrock at least 40 feet
+    long. Its palace is a network of underground tunnels populated with all
+    manner of snakes, fiendish serpents, and intelligent and cunning reptiles of
+    all shapes and sizes.
+  - >-
+    A nysrock ranges in size from 14 to 16 feet long and weigh 350 to 450
+    pounds. Its scales are blackish-blue and its eyes are golden and glint with
+    a cunning spark. Its barbed tail is jet black and oozes a vile smelling
+    poison when the creature is threatened.
+  - >-
+    A nysrock flares its hood before it enters combat as a warning to its
+    opponents. Those that press combat are met with a vicious bite and venomous
+    tail sting. A creature that is bitten is grabbed and wrapped in the
+    monster's coils. A nysrock derives great pleasure in repeatedly stinging a
+    grappled foe. Once a grappled foe expires, the nysrock releases its hold and
+    consumes it whole so long as it faces no more enemies (nysrocks aren't
+    stupid and do not ignore other enemies in order to feed).
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2449'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,148 @@
+Name: Jackal Prince
+CR: '16'
+XP: '76800'
+Race: meladaemon
+MonsterSource: Pathfinder RPG Bestiary 2 69
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (daemon, evil, extraplanar)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +25
+Aura: consumptive aura (20 ft., DC 26)
+AC: 32, touch 16, flat-footed 26
+AC_Mods: (+4 armor, +6 Dex, +12 natural)
+HP: '243'
+HD: (18d10+144)
+HP_Mods: fast healing 5
+Saves: Fort +18, Ref +14, Will +15
+Fort: '18'
+Ref: '14'
+Will: '15'
+DR: 10/good
+Immune: acid, death effects, disease, poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+SR: '27'
+Speed: 30 ft., fly 60 ft. (average)
+Melee:
+  - >-
+    Ravenous Blade +27/+22/+17/+12 (2d4+12/18-20 plus 1d6 nonlethal and 1
+    nonlethal bleed), bite +21 (2d6+3 plus disease)
+  - 2 claws +26 (1d10+7/19-20 plus hunger), bite +26 (2d6+7 plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: corrupted weapons, disease, hunger
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +22)
+  values:
+    - label: Constant
+      value: true seeing
+    - label: At Will
+      value: >-
+        feast of ashesAPG (DC 18), greater teleport (self plus 50 lbs. of
+        objects only)
+    - label: 3/day
+      value: >-
+        bestow curse (DC 20), contagion (DC 20), dispel good (DC 21),
+        displacement
+    - label: 1/day
+      value: >-
+        horrid wilting (DC 24), summon (level 8, meladaemonB2 45%), unholy aura
+        (DC 24), waves of exhaustion (DC 23)
+AbilityScores:
+  - 25
+  - 22
+  - 24
+  - 16
+  - 18
+  - 25
+BaseAtk: '18'
+CMB: '25'
+CMD: '41'
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Improved Critical (claws)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+  - Weapon Focus (bite)
+  - Weapon Focus (claw)
+Skills:
+  - Bluff +28
+  - Diplomacy +16
+  - Fly +10
+  - Knowledge (arcana
+  - history) +15
+  - Knowledge (planes) +24
+  - Perception +25
+  - Sense Motive +25
+  - Spellcraft +24
+  - Stealth +27
+  - Survival +15
+  - Use Magic Device +24
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+Source: Feast Of Dust
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Consumptive Aura (Su)
+    description: >-
+      Like a normal meladaemon, the Jackal Prince radiates an aura of hunger to
+      a radius of 20 feet. Every round a creature begins its turn within this
+      aura, it must succeed at a DC 26 Fortitude save or take 1d6 points of
+      nonlethal damage and become fatigued from extreme hunger. Creatures that
+      don't need to eat are immune to this effect. The save DC is
+      Constitution-based.
+  - name: Corrupted Weapons (Su)
+    description: >-
+      The Jackal Prince's natural weapons-as well as any weapons he
+      wields&#8211;are treated as evil for the purpose of overcoming damage
+      reduction.
+  - name: Disease (Su)
+    description: >-
+      Daemonic Wasting: bite&#8211;injury; save Fort DC 26; onset 1 day;
+      frequency 1 day; effect 1d4 Con and 1d4 Cha damage; cure 2 consecutive
+      saves.
+  - name: Hunger (Su)
+    description: >-
+      The Jackal Prince's claw attacks and attacks with the Ravenous Blade deal
+      an extra 2d6 points of nonlethal damage as it causes terrible pangs of
+      hunger. Creatures that don't need to eat are immune to this additional
+      damage.
+Gender: Male
+BeforeCombat: >-
+  If aware of an imminent attack, the Jackal Prince casts displacement and
+  devours a fruit from the Tree of Desolation, gaining fast healing 2.
+DuringCombat: >-
+  The Jackal Prince begins combat with waves of exhaustion to weaken his foes.
+  He then uses another of his powerful spell-like abilities before closing to
+  melee range and allowing his aura to further weaken anyone not affected by his
+  previous effects. The Jackal Prince tries to grapple weak characters and
+  impale them on the Tree of Desolation.
+Morale: Unwilling to give up now, the Jackal Prince fights to the death.
+Gear: >-
+  +2 leather, Ravenous Blade (+2 wounding falchion; see sidebar on page 57),
+  minor ring of energy resistance (acid), ring of evasion
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7208'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

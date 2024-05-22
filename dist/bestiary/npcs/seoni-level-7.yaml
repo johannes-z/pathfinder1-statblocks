@@ -1,0 +1,108 @@
+Name: Seoni Level 7
+CR: '7'
+XP: '3200'
+Race: human
+Class: sorcerer 7
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +3
+AC: 25, touch 15, flat-footed 22
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 dodge, +2 natural, +4 shield)
+HP: '41'
+HD: (7d6+14)
+Saves: Fort +3, Ref +4, Will +6
+Fort: '3'
+Ref: '4'
+Will: '6'
+Speed: 30 ft.
+Melee:
+  - quarterstaff +3 (1d6)
+Ranged:
+  - dagger +5 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +12)
+  values:
+    - label: 3rd (5/day)
+      value: dispel magic, haste, lightning bolt (DC 20)
+    - label: 2nd (7/day)
+      value: glitterdust (DC 17), invisibility, scorching ray, web (DC 17)
+    - label: 1st (8/day)
+      value: >-
+        burning hands (DC 18), enlarge person (DC 16), identify, mage armor,
+        magic missile, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, disrupt undead, flare (DC 17), light,
+        prestidigitation, read magic
+AbilityScores:
+  - 10
+  - 14
+  - 12
+  - 10
+  - 13
+  - 21
+BaseAtk: '3'
+CMB: '3'
+CMD: '18'
+Feats:
+  - Alertness
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Extend Spell
+  - Greater Spell Focus (evocation)
+  - Improved Initiative
+  - Spell Focus (evocation)
+Skills:
+  - Bluff +15
+  - Climb +3
+  - Knowledge (planes) +10
+  - Perception +3
+  - Sense Motive +3
+  - Spellcraft +10
+Languages:
+  - Common
+  - Varisian
+SQ: >-
+  arcane bond (familiar, blue-tailed skink lizard named Dragon), bloodline
+  arcana (+1 DC for metamagic spells that increase spell level), metamagic adept
+  (2/day)
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: arcane
+BeforeCombat: >-
+  Seoni casts mage armor and extended shield (using her metamagic adept ability)
+  before the start of the encounter.
+DuringCombat: >-
+  In combat, Seoni serves as artillery from range, blasting foes with magic
+  missile, lightning bolt, and scorching ray.
+Gear: >-
+  potion of cat's grace, potions of cure light wounds (3), scroll of fireball,
+  scroll of fly, wand of magic missile (CL 3rd, 50 charges)
+OtherGear: >-
+  dagger, quarterstaff, amulet of natural armor +2, headband of alluring
+  charisma +2, ring of protection +2, backpack, trail rations (4), 44 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor and shield, Seoni's statistics are AC 17, touch 15,
+  flat-footed 14.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3990'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

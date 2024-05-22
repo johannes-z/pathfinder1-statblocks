@@ -1,0 +1,210 @@
+Name: Suspiridaemon
+CR: '7'
+XP: '3200'
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (daemon, evil, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+Aura: thin air
+AC: 20, touch 14, flat-footed 16
+AC_Mods: (+3 Dex, +1 dodge, +6 natural)
+HP: '85'
+HD: (9d10+36)
+Saves: Fort +9, Ref +9, Will +8
+Fort: '9'
+Ref: '9'
+Will: '8'
+DR: 10/good or silver
+Immune: acid, disease, death effects, poison
+Resist: cold 10, electricity 10, fire 10, sonic 30
+SR: '18'
+Speed: 30 ft.
+Melee:
+  - 2 claws +13 (1d4+4), tongue +8 (1d6+6/19-20 plus grab)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with tongue)
+SpecialAttacks: concussive gasp, constrict (1d6+6), strangle, suffocate
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: At Will
+      value: death knell (DC 16), ghoul touch (DC 16), ray of enfeeblement
+    - label: 3/day
+      value: stinking cloud (DC 17), vampiric touch (DC 17)
+    - label: 1/day
+      value: cloudkill (DC 19), summon (level 4, 1d3 lacridaemons 35%)
+AbilityScores:
+  - 19
+  - 17
+  - 18
+  - 14
+  - 15
+  - 18
+BaseAtk: '9'
+CMB: +13 (+17 grapple)
+CMD: '27'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Great Fortitude
+  - Improved Critical (tongue)
+  - Improved Initiative
+Skills:
+  - Climb +16
+  - Diplomacy +16
+  - Intimidate +16
+  - Knowledge (nature) +14
+  - Knowledge (planes) +14
+  - Perception +14
+  - Sense Motive +14
+  - Stealth +15
+Languages:
+  - Abyssal
+  - Draconic
+  - Infernal (cannot speak)
+  - telepathy 100 ft.
+SQ: no breath
+Environment: any (Abaddon)
+Organization: solitary, gang (2-4), or mob (5-9)
+Treasure: standard
+Description_Visual: >-
+  This tall, three-legged fiend possesses an avian body and head, save for its
+  gangly arms, which end in thin, clawlike fingers. Its scrawny neck is adorned
+  with three thick iron rings, and a grotesquely long, barbed tongue resembling
+  an octopus's tentacle winds out of its oversized beak. Burst blood vessels
+  fill the creature's wide eyes, and reddish speckled blotches cover its
+  cyanotic flesh.
+Source: Horsemen Of The Apocalypse
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Concussive Gasp (Su)
+    description: >-
+      Once per day, a suspiridaemon can inhale with such sudden force as to
+      evacuate the air in its proximity, causing a sudden wave of air pressure
+      from the implosion. Every creature within 30 feet must make a DC 18
+      Fortitude save or take 5d6 points of sonic damage and become sickened for
+      1d4 rounds. Any creature that makes a successful save takes only half
+      damage and is not sickened. A suspiridaemon cannot perform this ability if
+      it is currently grappling a creature with its tongue. The save DC is
+      Constitution-based.
+  - name: Strangle (Ex)
+    description: >-
+      Suspiridaemons have an unerring talent for seizing their victims by the
+      neck. A creature that is grappled by a suspiridaemon cannot speak or cast
+      spells with verbal components.
+  - name: Suffocate (Ex)
+    description: >-
+      A creature affected by the daemon's strangle ability cannot breathe and
+      must hold its breath. Because of the daemon's thin air aura, this can
+      quickly render an opponent unconscious.
+  - name: Thin Air (Su)
+    description: >-
+      A suspiridaemon's aura makes the air around it difficult to breathe.
+      Creatures that need to breathe can only hold their breath half as long as
+      normal while within this aura, and suffer from altitude sickness as if in
+      a low peak or high pass (see Altitude Zones, Core Rulebook 430).
+Description:
+  - >-
+    Horrid fiends whose very presence makes the air difficult to breathe,
+    suspiridaemons personify death by suffocation. Discolored and blotched like
+    the stagnant blood of a suffocated corpse, a suspiridaemon enjoys nothing
+    more than the last choked gasp of a victim as it wraps its tongue around the
+    creature's throat. While a suspiridaemon does not normally breathe, its body
+    is nonetheless convulsive and twitchy; coupled with its utterly silent
+    demeanor, they excel at slow, gruesome kills while hiding in the shadows.
+    The only time a suspiridaemon makes a noticeable noise is when it suddenly
+    loosens the binds around its neck and inhales a booming breath, the sudden
+    loss of air enough to make foes fall ill.
+  - Ecology
+  - >-
+    A suspiridaemon arises from an evil soul that died by suffocation, drowning,
+    or execution by hanging. Each individual suspiridaemon bears the mark of its
+    particular manner of mortal death-usually in the form of the bruised or
+    mangled flesh of its throat-and the large iron collars around its neck hide
+    such shameful reminders of life, though the suspiridaemon itself is often
+    unaware of this. A suspiridaemon comes into being with the rings already
+    bound around its throat, so that it never witnesses the aff lictions that
+    sent it to Abaddon in the first place. It is thought that should the collars
+    around a suspiridaemon's throat ever be broken, the fiend's head would crook
+    clumsily downward, allowing the monster to see wounds that might remind it
+    of the terrible death it endured in its past existence.
+  - >-
+    Suspiridaemons pride themselves on the number of souls they have deprived of
+    life by strangulation, and this amount often corresponds to the number of
+    iron rings a suspiridaemon wears on its body. While most suspiridaemons are
+    relatively weak compared to their daemonic kin, a particularly skillful
+    individual who is talented at crafting as well as killing can construct iron
+    collars adorned with gem slots, items that give the suspiridaemon the
+    ability to contain the souls of its victims in the rings for trade in the
+    soul markets of Abaddon. When a suspiridaemon is slain, its iron rings
+    disintegrate into ash, and any gems held within are shattered as well,
+    freeing the trapped souls.
+  - >-
+    A suspiridaemon generally uses stealth when confronting foes. Unleashing its
+    long, winding tongue from a dark corner, one of these fiends will strangle
+    an unwary foe in isolation from the rest of the creature's party. When in
+    combat, a suspiridaemon greatly prefers to kill its enemies by its own hands
+    or its barbed tongue, using its arcane abilities and other daemonic gifts to
+    wear down or sow discord into a group of opponents. To a suspiridaemon,
+    there is no act more appreciable than choking the life from a victim, and
+    bringing the creature close to hear its final, distorted gasp.
+  - >-
+    A suspiridaemon prefers to take souls from creatures who are on the verge of
+    death, but aren't quite there yet; the fiend gazes at its victim's expiring
+    face, drawing the dying creature's soul out of it with a solemn suspension
+    of the daemon's normal twitching and convulsing. Those who have witnessed a
+    suspiridaemon draw the life from a creature claim that the fiend almost
+    seems to be inhaling fresh air for the first time as the victim's physical
+    shell expires, and for the briefest moment, the monster appears to breathe
+    normally. The eerie spectacle ends as quickly as it begins, however, as the
+    suspiridaemon sets its gaze upon its next victim, preparing its vicious
+    tongue for another attack.
+  - Habitat & Society
+  - >-
+    While many daemons dedicate their loyalty to one of the Horsemen or some
+    other power within Abaddon, either based on their origins, historical ties,
+    or environmental circumstances, no such proclivities exist for
+    suspiridaemons. Suspiridaemons avoid operating under masters whenever
+    possible, preferring more individualistic careers of murder and destruction.
+    They tend to work well with other daemons when forced into doing so, though
+    the more daring individuals tend to stray from Abaddon and gravitate toward
+    population centers on other planes to stalk prey as they please.
+    Suspiridaemons traversing the multiverse in a pack regularly take their
+    small hunting parties into the wilderness around smaller settlements,
+    ravenous in their pursuit of those who stray from the protective gazes of
+    allies. While their killing tactics are as ruthless as any other daemon,
+    suspiridaemons' murders are particularly shrouded in a cold manner of
+    sincere and solemn contemplation, their grisly crimes against souls veiled
+    in a mist of contempt toward the living as well as hatred for themselves.
+    Some speculate that this self-hatred might be connected to the lingering
+    doubts as to their origins, the itch beneath their iron collars that reminds
+    them of their own past mortality. Whatever the cause of their self-doubt,
+    the feeling does not seem to bother most other daemons, who generally view
+    suspiridaemons as useful companions whether inside or outside of Abaddon.
+    Piscodaemons and sangudaemons in particular consider them among the most
+    ideal lesser daemons to command.
+  - >-
+    Suspiridaemons cannot speak, and rarely use their powers of telepathy to
+    communicate, simply nodding discreetly when given a task by a more powerful
+    daemon. This silent subservience only adds to other daemons' general
+    appreciation of their humble and disturbing demeanors, though most are sure
+    to keep the strangling fiends at a distance.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1942'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

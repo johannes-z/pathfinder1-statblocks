@@ -1,0 +1,110 @@
+Name: Vemerak
+CR: '14'
+XP: '38400'
+Race: Vemerak
+MonsterSource: Pathfinder RPG Bestiary 2 278
+Alignment: CE
+Size: Huge
+Type: aberration
+Init: '7'
+Senses:
+  - darkvision 60 ft., tremorsense 30 ft.
+  - Perception +23
+Aura: spore cloud (30 ft.)
+AC: 29, touch 11, flat-footed 26
+AC_Mods: (+3 Dex, +18 natural, -2 size)
+HP: '195'
+HD: (17d8+119)
+Saves: Fort +13, Ref +8, Will +13
+Fort: '13'
+Ref: '8'
+Will: '13'
+DR: 5/-
+Immune: acid, disease, electricity, mind-affecting, poison
+Resist: sonic 20
+SR: '25'
+Speed: 40 ft., burrow 20 ft., climb 40 ft.
+Melee:
+  - >-
+    bite +22 (2d6+11), 2 claws +22 (1d8+11 plus grab), 3  tentacles +19 (1d6+5
+    plus grab)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  breath weapon (90-foot line, 14d8 acid damage, DC 24 half, once every 1d4
+  rounds), constrict (claws 1d8+11 or tentacles 1d6+5), earthquake
+AbilityScores:
+  - 32
+  - 17
+  - 23
+  - 5
+  - 16
+  - 22
+BaseAtk: '12'
+CMB: +25 (+27 bull rush, +29 grapple)
+CMD: 38 (40 vs. bull rush, 50 vs. trip)
+Feats:
+  - Awesome Blow
+  - Great Fortitude
+  - Improved Bull Rush
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Toughness
+  - Weapon Focus (bite)
+  - Weapon Focus (claws)
+Skills:
+  - Climb +19
+  - Perception +23
+Languages:
+  - Aklo
+Source: AP 41
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      A vemerak's acidic breath weapon has no effect on inorganic or undead
+      material. If the breath weapon deals damage to a living, fleshy creature,
+      the acid creates a transparent cloud of foul-smelling vapor that fills
+      that creature's space and persists for 1 round. Any creature that is
+      within the cloud or passing through it must make a DC 24 Fortitude save or
+      be nauseated for 1d4 rounds. This cloud is a poison effect. The save DCs
+      are Constitution-based.
+  - name: Earthquake (Su)
+    description: >-
+      As a full-round action, a vemerak can burrow its tentacles, legs, and
+      mouth into the ground-this action does not provoke attacks of opportunity.
+      At the start of the next round, it creates an effect identical to an
+      earthquake spell (CL 17th). A vemerak can maintain this zone of trembling
+      earth indefinitely, as long as it continues to take full-round actions to
+      maintain the effect.
+  - name: Spore Cloud (Su)
+    description: >-
+      A unique form of magic-resistant mold grows upon the body of a vemerak.
+      This mold is the source of the vemerak's spell resistance. When the
+      vemerak moves, the mold exudes a cloud of spores in a 30-foot radius that
+      acts as a targeted greater dispel magic spell (CL 17th) against the
+      highest caster level magical effect the cloud touches as part of the
+      vemerak's move that turn.
+DuringCombat: >-
+  The vemerak attacks at range with its breath weapon. As opponents draw closer,
+  the vemerak creates an earthquake, then makes full attacks at any creatures
+  within range, hoping to grab and constrict them.
+Morale: >-
+  The vemerak attempts to flee into the canyons if reduced to fewer than 40 hit
+  points, using its breath weapon to deter pursuit.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1410'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

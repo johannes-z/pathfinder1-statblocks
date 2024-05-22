@@ -1,0 +1,86 @@
+Name: Elder Polyp
+CR: '12'
+XP: '19200'
+Race: great sea anemone
+MonsterSource: Tome of Horrors III 10
+Alignment: 'N'
+Size: Huge
+Type: vermin
+Init: '5'
+Senses:
+  - blindsight 40 ft., darkvision 60 ft.
+  - Perception +9
+AC: 27, touch 9, flat-footed 26
+AC_Mods: (+1 Dex, +18 natural, -2 size)
+HP: '161'
+HD: (17d8+85)
+Saves: Fort +15, Ref +8, Will +6
+Fort: '15'
+Ref: '8'
+Will: '6'
+DR: 10/slashing or piercing
+Immune: acid, mind-affecting effects
+Speed: 10 ft.
+Melee:
+  - 4 tentacles +18 (1d8+8 plus grab and poison)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: acid spray, gnashing maw, swallow whole (6d8 acid damage, AC 19, 16 hp)
+AbilityScores:
+  - 27
+  - 12
+  - 20
+  - —
+  - 13
+  - 2
+BaseAtk: '12'
+CMB: +22 (+26 grapple)
+CMD: 33 (can't be tripped)
+Feats:
+  - Improved InitiativeB
+  - Lightning ReflexesB
+Skills:
+  - Perception +9
+  - Stealth -3
+RacialMods: +8 Perception, +4 Stealth
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid Spray (Ex)
+    description: >-
+      Once per hour, an elder polyp can eject the contents of its stomach,
+      including any creatures it has swallowed. This action creates a 30-foot
+      cone of acid that deals 12d6 points of acid damage (DC 23 Reflex save for
+      half ). Once a polyp uses this attack, it must wait 1 hour before using it
+      again. The save DC is Constitution-based.
+  - name: Gnashing Maw (Ex)
+    description: >-
+      As a free action, an elder polyp can transfer a creature grappled by its
+      tentacles to its toothed mouth and attempt to swallow that creature whole.
+      Creatures in the polyp's mouth take 2d6+12 points of damage from the
+      polyp's bite.
+  - name: Poison (Ex)
+    description: >-
+      Tentacle-injury; save Fort DC 23; frequency 1/ round for 6 rounds; effect
+      1d4 Dexterity damage; cure 2 consecutive saves.
+DuringCombat: >-
+  The elder polyp uses its acid spray on approaching foes, then strikes at
+  multiple foes with its tentacles, attempting to draw them into its gnashing
+  maw and swallow them whole.
+Morale: The elder polyp fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1048'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

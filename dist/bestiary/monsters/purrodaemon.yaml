@@ -1,0 +1,126 @@
+Name: Purrodaemon
+CR: '18'
+XP: '153600'
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (daemon, evil, extraplanar)
+Init: '10'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +26
+Aura: fear (15 ft., DC 24), unholy aura
+AC: 35, touch 19, flat-footed 29
+AC_Mods: (+4 deflection, +6 Dex, +16 natural, -1 size)
+HP: '294'
+HD: (19d10+190)
+Saves: Fort +25, Ref +21, Will +14
+Fort: '25'
+Ref: '21'
+Will: '14'
+DR: 10/good and silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+SR: '29'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - +2 wounding halberd 2d8+18/19-20/x3, bite +24 (1d8+5)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: weapon steep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +23)
+  values:
+    - label: Constant
+      value: true seeing, unholy aura (DC 23)
+    - label: At Will
+      value: greater teleport (self plus 50 lbs. of objects only)
+    - label: 3/day
+      value: chain lightning (DC 21), cone of cold (DC 20), flame strike (DC 20)
+    - label: 1/day
+      value: summon (level 5, 2 derghodaemons 50%)
+AbilityScores:
+  - 32
+  - 23
+  - 30
+  - 17
+  - 18
+  - 21
+BaseAtk: '19'
+CMB: '31'
+CMD: '51'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Greater Vital Strike
+  - Improved CriticalB (halberd)
+  - Improved Initiative
+  - Improved Sunder
+  - Improved Vital Strike
+  - Lunge
+  - Power Attack
+  - Quick Draw
+  - Vital Strike
+  - Weapon FocusB (halberd)
+Skills:
+  - Acrobatics +28
+  - Bluff +21
+  - Diplomacy +17
+  - Fly +16
+  - Intimidate +27
+  - Knowledge (planes) +25
+  - Perception +26
+  - Sense Motive +26
+  - Spellcraft +23
+  - Stealth +24
+  - Survival +17
+Languages:
+  - Abyssal
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+Environment: any (Abaddon)
+Organization: solitary, patrol (2-5), or unit (6-12)
+Treasure: standard
+Description_Visual: >-
+  Dozens of weapons pierce this massive monster's body. Red eyes glow with
+  wickedness in its vulture-like head.
+Group: Daemon
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Weapon Steep (Su)
+    description: >-
+      A purrodaemon can sheathe a weapon in its flesh as a swift action. This
+      does no damage to the daemon. If a weapon remains sheathed in its body for
+      at least 24 hours, the weapon absorbs some of its essence and gains
+      magical enhancements. A purrodaemon can have up to a dozen weapons lodged
+      in its body at a time, but only one can possess magical enhancements at a
+      time. The total enhancements cannot exceed a +4 effective enhancement-most
+      purrodaemons opt to create +2 wounding weapons in this manner. A weapon's
+      enhancements vanish as soon as the purrodaemon dies or releases the
+      weapon. A purrodaemon gains Weapon Focus and Improved Critical as bonus
+      feats as long as it wields a weapon benefiting from its weapon steep
+      ability.
+Description:
+  - >-
+    Deacons of War, purrodaemons ravage the planes as generals of massive
+    battles. They employ creative tactics and never launch an assault without
+    carefully looking over the plans or surveying the battlefield themselves. A
+    purrodaemon is 12 feet tall and weighs 1,300 pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Daemon, Purrodaemon
+id: '1149'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

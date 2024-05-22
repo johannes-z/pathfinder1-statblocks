@@ -1,0 +1,120 @@
+Name: Island Guardian
+CR: '12'
+XP: '19200'
+Race: boruta
+MonsterSource: >-
+  Pathfinder RPG Bestiary 294, Pathfinder RPG Monster Codex 247, Pathfinder
+  Adventure Path #44: Trial of the Beast 84
+Alignment: 'N'
+Size: Medium
+Type: plant
+Init: '8'
+Senses:
+  - low-light vision
+  - Perception +24
+AC: 25, touch 13, flat-footed 22
+AC_Mods: (+2 Dex, +1 dodge, +12 natural)
+HP: '175'
+HD: (14d8+70)
+Saves: Fort +14, Ref +8, Will +9
+Fort: '14'
+Ref: '8'
+Will: '9'
+Immune: electricity, plant traits
+Speed: 30 ft.
+Melee:
+  - 2 claws +15 (1d4+5 plus grounding curse)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +12)
+  values:
+    - label: Constant
+      value: pass without trace
+    - label: At Will
+      value: entangle (DC 16)
+    - label: 3/day
+      value: command plants (DC 19)
+    - label: 1/day
+      value: summon nature's ally V (1 shambling mound only)
+SpellsPrepared: >-
+  Spells Prepared (CL 14th; concentration +19)   5th-baleful polymorph (DC 22)  
+  4th-rusting grasp, spike stones (DC 21)   3rd-call lightning (2, DC 20), plant
+  growth, summon nature's ally III   2nd-fog cloud, soften earth and stone, tree
+  shape, wood shape (DC 19)   1st-calm animals, detect animals or plants,
+  goodberry, magic fang, speak with animals   0-create water, detect magic,
+  detect poison, know direction, mending
+AbilityScores:
+  - 21
+  - 19
+  - 20
+  - 17
+  - 21
+  - 24
+BaseAtk: '10'
+CMB: '15'
+CMD: '30'
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Improved Iron Will
+  - Mobility
+  - Natural Spell
+Skills:
+  - Acrobatics +21
+  - Knowledge (nature) +20
+  - Perception +24
+  - Stealth +21
+  - Survival +21
+Languages:
+  - Common
+  - Sylvan
+SQ: treespeech, wild shape, woodland stride
+Source: AP 124
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Electric Fortitude (Ex)
+    description: >-
+      Borutas take no damage from electricity. Instead, any electricity attack
+      used against a boruta temporarily increases its Constitution score by 1d4
+      points. The boruta loses these temporary points at the rate of 1 per hour.
+  - name: Grounding Curse (Su)
+    description: >-
+      Any living creature that takes damage from a boruta's claws must succeed
+      at a DC 22 Fortitude save or have hundreds of tiny seed pods injected into
+      its body. These seeds grow rapidly; they explode through the victim's skin
+      on its next turn, dealing 1d6 points of damage and entangling it as
+      runners and vines grow from its flesh and root themselves in the ground.
+      The victim cannot move unless it succeeds at a DC 10 Strength check to
+      tear the plants from the ground, but doing so also deals 1d4 points of
+      damage to the victim. This effect lasts for 10 minutes. Remove curse,
+      blight, diminish plants, and similar spells instantly end this effect. The
+      save DC is Constitution-based.
+  - name: Treespeech (Ex)
+    description: >-
+      A boruta has the ability to converse with plants as if subject to a
+      continual speak with plants spell, and most plants greet them with an
+      attitude of friendly or helpful.
+  - name: Wild Shape (Su)
+    description: >-
+      A boruta can use wild shape four times per day as a 11th-level druid. In
+      any form a boruta takes, its appearance remains plantlike, with wooden
+      features and leaves rather than fur or feathers.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|druid|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11679'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

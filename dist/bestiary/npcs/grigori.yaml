@@ -1,0 +1,111 @@
+Name: Grigori
+CR: '5'
+XP: '1600'
+Race: human
+Class: bard 6
+Alignment: CN
+Size: Medium
+Type: humanoid
+Init: '2'
+Senses:
+  - Perception +8
+AC: 19, touch 13, flat-footed 16
+AC_Mods: (+5 armor, +2 Dex, +1 dodge, +1 shield)
+HP: '45'
+HD: (6d8+18)
+Saves: >-
+  Fort +3, Ref +7, Will +4; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '3'
+Ref: '7'
+Will: '4'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - +1 rapier +7 (1d6+1/18-20)
+Ranged:
+  - shortbow +6 (1d6/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance (8 rounds/day, standard action), countersong, distraction,
+  fascinate, inspire competence +2, inspire courage +2, suggestion)
+SpellsKnown:
+  header: Bard Spells Known (CL 6th; concentration +10)
+  values:
+    - label: 2nd (4/day)
+      value: >-
+        calm emotions (DC 16), detect thoughts (DC 16), enthrall (DC 16),
+        invisibility
+    - label: 1st (5/day)
+      value: >-
+        charm person (DC 15), expeditious retreat, grease (DC 15), hideous
+        laughter (DC 15)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze (DC 14), detect magic, ghost sound (DC 14), lullaby
+        (DC 14), read magic
+AbilityScores:
+  - 10
+  - 14
+  - 12
+  - 13
+  - 8
+  - 18
+BaseAtk: '4'
+CMB: '4'
+CMD: '17'
+Feats:
+  - Dodge
+  - Skill Focus (Perform [Oratory])
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Disguise +13
+  - Escape Artist +10
+  - Knowledge (local) +13
+  - Perception +8
+  - Perform (Comedy) +13
+  - Perform (Oratory) +13
+  - Sense Motive +8
+  - Stealth +10
+Languages:
+  - Common
+  - Hallit
+SQ: >-
+  bardic knowledge +3, lore master 1/day, versatile performance (oratory,
+  comedy), well-versed
+Source: AP 32
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Grigori drinks one of his potions of undetectable alignment before any
+  confrontation with the PCs.
+DuringCombat: >-
+  If the PCs attack him, Grigori casts calm emotions on them while he tries to
+  rally the townsfolk to his aid. In combat, he casts grease on the PCs' weapons
+  and hideous laughter on his attackers. He is not above using charm person to
+  gain allies and bodyguards from among the townsfolk.
+Morale: >-
+  If reduced to 20 hit points or fewer, Grigori flees town (using invisibility
+  or expeditious retreat, if necessary), only to return again later to continue
+  his campaign against the PCs.
+Gear: >-
+  potion of cure light wounds, potion of cure moderate wounds, potion of
+  undetectable alignment (3), scroll of scare, scroll of sound burst, caltrops
+OtherGear: +1 chain shirt, masterwork buckler, +1 rapier, shortbow with 20 arrows, 132 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '656'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

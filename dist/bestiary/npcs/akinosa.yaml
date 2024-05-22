@@ -1,0 +1,153 @@
+Name: Akinosa
+CR: '11'
+XP: '12800'
+Race: aranea
+Class: sorcerer 7
+MonsterSource: Pathfinder RPG Bestiary 2 30
+Alignment: NE
+Size: Medium
+Type: magical beast
+SubType: (shapechanger)
+Init: '8'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +10
+AC: 26, touch 15, flat-footed 21
+AC_Mods: (+4 armor, +4 Dex, +1 dodge, +3 natural, +4 shield)
+HP: '125'
+HD: (12 HD; 5d10+7d6+74)
+Saves: Fort +13, Ref +14, Will +9
+Fort: '13'
+Ref: '14'
+Will: '9'
+Weaknesses: opium addict
+Speed: 50 ft., climb 30 ft., fly 60 ft. (good) (cannot run or charge)
+Melee:
+  - bite +12 (1d6-1 plus poison)
+  - dagger of venom +13/+8 (1d4/19-20)
+Ranged:
+  - mwk blowgun +13 (1d2 plus Medium spider venom)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: long limbs (+5 ft.), poison (DC 15), web (+12 ranged, DC 15, 5 hp)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 12th; concentration +17)
+  values:
+    - label: 8/day
+      value: acidic ray (1d6+3 acid)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +17)
+  values:
+    - label: 6th (3/day)
+      value: chain lightning (DC 21)
+    - label: 5th (6/day)
+      value: baleful polymorph (DC 20), interposing hand
+    - label: 4th (7/day)
+      value: dimension door, scrying (DC 19), stone shape
+    - label: 3rd (7/day)
+      value: fly, haste, lightning bolt (DC 18), slow (DC 18), tongues
+    - label: 2nd (7/day)
+      value: >-
+        acid arrow, blur, false life, mirror image, scorching ray, see
+        invisibility
+    - label: 1st (8/day)
+      value: >-
+        burning hands (DC 16), charm person (DC 16), enlarge person, mage armor,
+        magic missile, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, ghost sound (DC 15), mage hand, message, ray
+        of frost, read magic, resistance, touch of fatigue (DC 15)
+AbilityScores:
+  - 8
+  - 18
+  - 18
+  - 12
+  - 14
+  - 21
+BaseAtk: '8'
+CMB: '7'
+CMD: '22'
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Eschew Materials
+  - Improved Initiative
+  - Lightning Reflexes
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +13
+  - Climb +14
+  - Escape Artist +8
+  - Fly +12
+  - Intimidate +12
+  - Knowledge (arcana) +12
+  - Knowledge (dungeoneering) +5
+  - Perception +10
+  - Spellcraft +8
+  - Stealth +9
+Languages:
+  - Common
+  - Sylvan
+  - Tien
+SQ: >-
+  bloodline arcana (+50% duration on polymorphs), change shape (humanoid, alter
+  self )
+Source: AP 52
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Opium Addict (Ex)
+    description: >-
+      Akinosa is addicted to opium (see the sidebar on page 29). While under the
+      effects of the drug, he gains +1d8 temporary hit points and a +2
+      alchemical bonus on Fortitude saves for 1 hour, but he is also fatigued.
+      In addition, he has taken 2 points of Constitution damage and 2 points of
+      Wisdom damage from the drug (already reflected in the stat block).
+Gender: Male
+Bloodline: Aberrant
+BeforeCombat: >-
+  Akinosa casts false life and mage armor every day. If alerted to the presence
+  of intruders, Akinosa sends out his guards from the Open Web (area A8b) and
+  casts scrying to determine the point of attack. He then positions his elite
+  defenders, the Gossamer (area A10b), between the attack and himself. Before
+  combat, Akinosa casts blur, fly, mirror image, and shield.
+DuringCombat: >-
+  Akinosa casts haste on the first round of combat. If encountered in his lair,
+  Akinosa plays his drums of panic (see area A9b) to scare away foes, then
+  drinks from his flask of endless sake in the hope of getting a beneficial
+  potion. Akinosa uses fly or dimension door to move around in combat and avoid
+  melee, instead using his wand of lightning bolt and casting his toughest
+  spells, including chain lightning and baleful polymorph. Akinosa enjoys
+  polymorphing his enemies into rats, an animal considered unlucky by many in
+  Tian Xia. If engaged in melee combat, Akinosa casts interposing hand for cover
+  and attacks with his dagger of venom.
+Morale: >-
+  Akinosa is likely to believe that any attackers are agents of Munasukaru and
+  fears capture accordingly. If reduced to 20 hit points or fewer, Akinosa casts
+  dimension door to flee to safety, gathering whatever followers he has left to
+  launch a counterattack.
+Gear: wand of lightning bolt (23 charges), Medium spider venom (4 doses)
+OtherGear: >-
+  dagger of venom, masterwork blowgun with 10 darts, cloak of resistance +2,
+  flask of endless sake (see page 60), silver sake drinking bowl (worth 110 gp),
+  magnificently carved hardwood ball medallion depicting the world being
+  devoured by an imperial dragon (worth 50 gp), silver mirror worth 1,000 gp
+  (focus for scrying spell), 2 doses of opium (worth 50 gp total), keys to all
+  locks in the aboveground levels of the House of the Withered Blossoms
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1929'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

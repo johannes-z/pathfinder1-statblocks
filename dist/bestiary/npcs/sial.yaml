@@ -1,0 +1,121 @@
+Name: Sial
+CR: '11'
+XP: '12800'
+Race: human
+Class: unchained summoner 12
+MonsterSource: Pathfinder RPG Pathfinder Unchained 25
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +1
+AC: 19, touch 13, flat-footed 18
+AC_Mods: (+6 armor, +2 deflection, +1 Dex, +4 shield)
+HP: '93'
+HD: (12d8+36)
+Saves: Fort +8, Ref +5, Will +9
+Fort: '8'
+Ref: '5'
+Will: '9'
+DefensiveAbilities: greater shield ally
+Speed: 20 ft., fly 60 ft. (good)
+Melee:
+  - +2 vicious spiked chain +10/+5 (2d4+1 plus 2d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: maker's call 2/day, transposition
+SpellLikeAbilities:
+  header: Summoner Spell-Like Abilities (CL 12th; concentration +17)
+  values:
+    - label: 8/day
+      value: summon monster VI
+SpellsKnown:
+  header: Summoner Spells Known (CL 12th; concentration +17)
+  values:
+    - label: 4th (4/day)
+      value: >-
+        acid pitAPG (DC 20), charm monster (DC 19), dimension door, greater
+        invisibility
+    - label: 3rd (5/day)
+      value: dispel magic, fly, haste, rejuvenate eidolonAPG
+    - label: 2nd (6/day)
+      value: >-
+        barkskin, blur, create pitAPG (DC 18), resist energy, lesser restore
+        eidolonUM (DC 18)
+    - label: 1st (7/day)
+      value: >-
+        endure elements, grease (DC 16), protection from chaos, ray of
+        sickeningUM (DC 16), lesser rejuvenate eidolonAPG, shield
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, mage hand, mending, read magic
+AbilityScores:
+  - 8
+  - 12
+  - 14
+  - 10
+  - 13
+  - 20
+BaseAtk: '9'
+CMB: '8'
+CMD: '21'
+Feats:
+  - Arcane Strike
+  - Augment Summoning
+  - Craft Magic Arms and Armor
+  - Exotic Weapon Proficiency (spiked chain)
+  - Great Fortitude
+  - Scribe Scroll
+  - Spell Focus (conjuration)
+Skills:
+  - Diplomacy +15
+  - Fly +11
+  - Knowledge (planes) +11
+  - Knowledge (religion) +11
+  - Sense Motive +11
+Languages:
+  - Common
+SQ: bond senses (12 rounds/day), eidolon (unchained), life link
+Source: Curse Of The Crimson Throne Chapter Appendix
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Sial casts endure elements on himself each morning. If he suspects combat is
+  looming, he casts fly and shield on himself.
+DuringCombat: >-
+  Sial starts combat by casting greater invisibility on himself, and then uses
+  his magic to create various pits and place swaths of grease to control the
+  battlefield as long as he can do so without significantly inconveniencing his
+  allies. If he fights with many allies, he instead switches to support tactics,
+  starting with haste and then moving among his allies to augment them with
+  barkskin, greater invisibility, and resist energy as appropriate. He avoids
+  using his spiked chain if possible, saving it to make attacks against foes who
+  are already wounded and might be dropped by a single blow from the vicious
+  weapon.
+Morale: >-
+  If Sial's hit points fall below 15, he uses his scroll of teleport to flee
+  back to his home in Nidal. He spends a few days recovering, but then secures
+  two new scrolls of teleport to return to the scene of the battle to track down
+  those who defeated him, seeking revenge.
+Gear: >-
+  scroll of dimensional anchor, scroll of dispel magic, scroll of lesser planar
+  binding, scroll of teleport
+OtherGear: >-
+  +2 chain shirt, +2 vicious spiked chain, bone house (Pathfinder Campaign
+  Setting: Artifacts & Legends 57) ring of protection +2, 187 gp, 5 sp, 1 cp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '8718'
+id: '8716'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

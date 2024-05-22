@@ -1,0 +1,186 @@
+Name: Queen Elvanna
+CR: '20'
+XP: '307200'
+Race: human (Jadwiga)
+Class: witchAPG (winter witchISM) 10/ winter witchPOP 10
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '9'
+Senses:
+  - blizzard sightPOP, true seeing
+  - Perception +28
+AC: 36, touch 23, flat-footed 30
+AC_Mods: (+8 armor, +5 deflection, +5 Dex, +1 dodge, +2 insight, +5 natural)
+HP: '232'
+HD: (20 HD; 20d6+160)
+Saves: Fort +16, Ref +18, Will +23
+Fort: '16'
+Ref: '18'
+Will: '23'
+DefensiveAbilities: death ward, freedom of movement, ice bodyUM
+DR: 10/adamantine (130 points)
+Immune: cold
+Resist: fire 20
+SR: '32'
+Speed: 30 ft., fly 40 ft. (good)
+Melee:
+  - Winter's Reach +12/+7 (1d6+2 plus 1d6 cold)
+Ranged:
+  - touch +15 (by spell)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  hexes (agony [20 rounds], blight [200 feet], cackle, death curse, evil eye
+  [-4, 13 rounds], frostfootISM, frozen caressISM, hoarfrostUM, ice tombUM,
+  natural disaster, numbing chillPOP), ice magicISM, inexorable coldPOP,
+  unearthly coldPOP, unnatural coldPOP, winter hexPOP
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +25)
+  values:
+    - label: 10/day
+      value: sculpt ice and snowPOP
+SpellsPrepared: >-
+  Witch Spells Prepared (CL 20th; concentration +30)  9th-foresight, mass
+  suffocationAPG (DC 29), polar midnightUM (CL 21st, DC 32), wail of the banshee
+  (DC 29)  8th-destruction (DC 28), moment of prescience, polar ray (CL 21st),
+  stormboltsAPG (DC 28)  7th-chain lightning (DC 27), harm (DC 27), heal, mass
+  hold person (DC 27), waves of ecstasyUM (DC 27)  6th-greater dispel magic,
+  flesh to stone (DC 26), freezing sphere (CL 21st, DC 29), mass suggestion (DC
+  26), true seeing, unwilling shieldAPG  5th-baleful polymorph (DC 25), cone of
+  cold (CL 21st, DC 28), dominate person (DC 25), feeblemind (DC 25), major
+  curse (DC 25), mind fog (DC 25)  4th-charm monster (DC 24), crushing despair
+  (DC 24), death ward, greater false lifeUM, phantasmal killer (2, DC 24) 
+  3rd-bestow curse (DC 23), dispel magic, howling agonyUM (DC 23), ice spears
+  (CL 21st, DC 26)*, lightning bolt (DC 23), vampiric touch     2nd-death knell
+  (DC 22), detect thoughts (DC 22), disfiguring touchUM (DC 23), feast of
+  ashesAPG (DC 22), flurry of snowballs* (CL 21st, DC 25), frost fall (CL 21st,
+  DC 25)UC, spectral hand  1st-charm person (DC 21), chill touch (DC 21), ill
+  omenAPG, lock gazeUC (DC 21), obscuring mist, snowball* (CL 21st, DC 24),
+  unshakable chillUM (CL 21st, DC 24)  0 (at will)-detect magic, detect poison,
+  message, ray of frost (CL 21st)
+AbilityScores:
+  - 8
+  - 20
+  - 21
+  - 30
+  - 19
+  - 21
+BaseAtk: '10'
+CMB: '9'
+CMD: '32'
+Feats:
+  - Accursed HexUM
+  - AlertnessB
+  - Combat Casting
+  - Craft Staff
+  - Dodge
+  - Elemental FocusAPG (cold)
+  - Greater Elemental FocusAPG (cold)
+  - Improved Initiative
+  - Iron Will
+  - Split HexUM
+  - Split Major HexUM
+  - Toughness
+Skills:
+  - Appraise +13
+  - Bluff +28
+  - Craft (alchemy) +23
+  - Fly +26
+  - Intimidate +30
+  - Knowledge (arcana) +33
+  - Knowledge (history) +33
+  - Knowledge (local) +33
+  - Knowledge (nature) +33
+  - Knowledge (nobility) +33
+  - Knowledge (planes) +33
+  - Perception +28
+  - Sense Motive +31
+  - Spellcraft +33
+  - Swim +3
+  - Use Magic Device +28
+Languages:
+  - Abyssal
+  - Aklo
+  - Aquan
+  - Draconic
+  - Giant
+  - Hallit
+  - Infernal
+  - Russian
+  - Skald
+  - Sylvan
+  - tongues
+SQ: >-
+  cold fleshISM, exceptional resources, freeze and thawPOP (10/ day),
+  hyperboreal patronagePOP, iceglidePOP, inherent bonuses, winter witchcraftPOP,
+  witch's familiar (raven named Svoboda)
+Source: AP 72
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Exceptional Resources (Ex)
+    description: >-
+      As a daughter of Baba Yaga, Elvanna holds mythic potential in her veins.
+      As a result, her ability scores were generated using a 20-point build. In
+      addition, as queen of Irrisen, Elvanna has access to all of that realm's
+      resources, and she has the wealth of a PC rather than an NPC. These
+      advantages increase her CR by +1.
+  - name: Inherent Bonuses (Ex)
+    description: >-
+      Through the study of magical tomes such as a manual of gainful exercise
+      and a manual of quickness of action, Elvanna has a +5 inherent bonus to
+      her Dexterity and Constitution scores.
+Gender: Female
+BeforeCombat: >-
+  Elvanna casts greater false life and moment of prescience every day. She uses
+  her cauldron of seeing to scry the entrance to the Witch Queen's Kurgan, and
+  so has warning when anyone enters the kurgan. When invaders reach area M5,
+  Elvanna uses the Icecrown of Irrisen to summon three elder ice elementals to
+  defend her and uses Winter's Reach to cast ice body. She then casts death
+  ward, foresight, and true seeing, and applies her flying ointment and stone
+  salve.
+DuringCombat: >-
+  When opponents first enter the inner sanctum, Elvanna activates her boots of
+  speed and uses the Icecrown to cast overwhelming presence while her allies
+  engage foes. She casts unwilling shield on a fighter or rogue, and uses polar
+  midnight, mass hold person, and waves of ecstasy to control the battlefield.
+  Thereafter, Elvanna casts offensive spells to harm her opponents as much as
+  possible, making use of the Icecrown, Winter's Reach, and her own prepared
+  spells as necessary.
+Morale: >-
+  Elvanna is aware that her survival depends upon her success in this battle.
+  She knows her fate if Baba Yaga is freed, and as a result fights to the death
+  to defeat the PCs and complete her ritual.
+Gear: >-
+  flying ointmentUE (2 uses), potion of good hope, potions of protection from
+  energy (electricity, CL 10th, 2), stone salve (3 ounces), wand of cure serious
+  wounds (39 charges)
+OtherGear: >-
+  amulet of natural armor +5, belt of mighty constitution +4, boots of speed,
+  bracers of armor +8, cackling hag's blouseUE, cauldron of seeingUE with
+  telepathy, cloak of resistance +5, headband of inspired wisdom +4, Icecrown of
+  Irrisen (see page 62), deep red sphere ioun stone, orange prism ioun stone,
+  greater rime metamagic rodUE, ring of freedom of movement, ring of protection
+  +5, robe of componentsUE, Winter's Reach (+3 icy burst quarterstaff, see page
+  63), royal outfit (worth 500 gp), spell component pouch, Tashanna's journal
+  (see page 63), two platinum and sapphire rings (worth 5,000 gp each), belt
+  pouch holding 37 pp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+OffenseNote: '* See Pathfinder Adventure Path #67 72-73.'
+AgeCategory: venerable
+ClassArchetypes: winter witchISM
+Patron: winterUM
+CompanionFamiliarLink: '0'
+id: '4656'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

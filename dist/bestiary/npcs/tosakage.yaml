@@ -1,0 +1,97 @@
+Name: Tosakage
+CR: '12'
+XP: '19200'
+Race: nue
+MonsterSource: Pathfinder RPG Bestiary 3 204
+Alignment: NE
+Size: Large
+Type: magical beast
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +20
+AC: 27, touch 16, flat-footed 20
+AC_Mods: (+6 Dex, +1 dodge, +11 natural, -1 size)
+HP: '161'
+HD: (14d10+84)
+Saves: Fort +15, Ref +15, Will +11
+Fort: '15'
+Ref: '15'
+Will: '11'
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +21 (2d6+8 plus energy drain), bite +21 (1d4+8 plus poison), 2 claws
+    +21 (1d6+8)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: energy drain (2 levels, DC 19), pounce
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +14)
+  values:
+    - label: 3/day
+      value: contagion (DC 16), hold person (DC 15)
+    - label: 1/day
+      value: nightmare (DC 17), shout (DC 16), waves of fatigue
+AbilityScores:
+  - 26
+  - 23
+  - 22
+  - 11
+  - 21
+  - 14
+BaseAtk: '14'
+CMB: '23'
+CMD: 40 (44 vs. trip)
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Mobility
+  - Skill Focus (Stealth)
+Skills:
+  - Climb +15
+  - Perception +20
+  - Stealth +23
+Languages:
+  - Tien
+SQ: cloud form
+Source: AP 53
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Cloud Form (Su)
+    description: >-
+      Tosakage can change into the form of a 10-foot black cloud or back to his
+      normal form as a standard action. A nue in cloud form is otherwise treated
+      as if under the effects of gaseous form, except that it obscures vision
+      like fog cloud.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 23; frequency 1/round for 6 rounds; effect 1d4
+      Strength; cure 2 consecutive saves.
+Gender: Male
+DuringCombat: >-
+  Tosakage attacks intruders with shout and waves of fatigue before pouncing
+  into combat. He casts hold person on spellcasters while he tries to bite and
+  uses his energy drain ability against those who engage him in melee combat.
+Morale: >-
+  If reduced to fewer than 75 hit points, Tosakage retreats to area G6 to join
+  his master.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2332'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

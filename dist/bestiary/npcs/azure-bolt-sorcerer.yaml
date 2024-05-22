@@ -1,0 +1,129 @@
+Name: Azure Bolt Sorcerer
+CR: '12'
+XP: '19200'
+Race: human
+Class: sorcerer 13
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - see invisibility
+  - Perception +11
+AC: 22, touch 15, flat-footed 19
+AC_Mods: (+4 armor, +2 deflection, +2 Dex, +1 dodge, +3 natural)
+HP: '141'
+HD: (13d6+93)
+Saves: Fort +10, Ref +10, Will +9
+Fort: '10'
+Ref: '10'
+Will: '9'
+Resist: electricity 10
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - 2 claws +7 (1d6+1 plus 1d6 electricity)
+  - mwk morningstar +8/+3 (1d8+1)
+Ranged:
+  - mwk javelin +9 (1d6+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  claws (2, 1d4+1 plus 1d6 electricity, treated as magic weapons, 8 rounds/day),
+  breath weapon (60-foot line, 13d6 electricity, DC 21, 1/day)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 13th; concentration +18)
+  values:
+    - label: 6th (4/day)
+      value: acid fog, chain lightning (DC 23), form of the dragon I
+    - label: 5th (7/day)
+      value: >-
+        cone of cold (DC 22), feeblemind (DC 20), overland flight, spell
+        resistance
+    - label: 4th (7/day)
+      value: >-
+        black tentacles, charm monster (DC 19), dimension door, fear (DC 19),
+        ice storm
+    - label: 3rd (7/day)
+      value: fireball (DC 20), fly, haste, lightning bolt (DC 20), slow (DC 18)
+    - label: 2nd (7/day)
+      value: >-
+        bear's endurance, false life, gust of wind (DC 19), resist energy,
+        scorching ray, see invisibility
+    - label: 1st (8/day)
+      value: >-
+        grease, mage armor, magic missile, ray of enfeeblement (DC 16), shield,
+        shocking grasp
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 15), detect magic, flare (DC 17), light, mage
+        hand, mending, ray of frost, read magic
+AbilityScores:
+  - 12
+  - 14
+  - 18
+  - 10
+  - 8
+  - 21
+BaseAtk: '6'
+CMB: '7'
+CMD: '22'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Greater Spell Focus (evocation)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Maximize Spell
+  - Mobility
+  - Quick Draw
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Bluff +12
+  - Fly +10
+  - Intimidate +20
+  - Knowledge (arcana) +7
+  - Linguistics +1
+  - Perception +11
+  - Spellcraft +7
+Languages:
+  - Common
+  - Draconic
+SQ: bloodline arcana (electricity spells deal +1 damage per die)
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: draconic (blue)
+BeforeCombat: >-
+  The sorcerer casts bear's endurance, false life, fly, mage armor, and see
+  invisibility.
+DuringCombat: >-
+  The sorcerer prefers to fight with her electricity spells, such as chain
+  lightning and lightning bolt, and saves her breath weapon until her foes are
+  lined up so she can catch as many as possible in its effect. She uses spells
+  such as black tentacles, grease, and ice storm to hinder her opponents. If
+  forced into melee combat, the sorcerer casts haste and form of the dragon I.
+Gear: potions of cure serious wounds (2), wand of vampiric touch (10 charges)
+OtherGear: >-
+  masterwork javelins (2), masterwork morningstar, amulet of natural armor +1,
+  bag of holding (type I), cloak of resistance +2, headband of alluring charisma
+  +2, ring of protection +2, 1,839 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without bear's endurance, false life, fly, and mage armor, the sorcerer's
+  statistics are AC 18, touch 15, flat-footed 15; hp 126; Fort +8; Speed 30 ft.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3814'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

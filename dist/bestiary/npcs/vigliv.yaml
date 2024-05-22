@@ -1,0 +1,168 @@
+Name: Vigliv
+CR: '19'
+XP: '204800'
+Race: norn
+MonsterSource: Advanced Bestiary 60, Pathfinder RPG Bestiary 3 202
+Alignment: CN
+Size: Large
+Type: fey
+SubType: (chaotic)
+Init: '22'
+Senses:
+  - >-
+    all-around vision, blindsight 120 ft., darkvision 60 ft., greater arcane
+    sight, low-light vision, true seeing
+  - Perception +37
+AC: 35, touch 23, flat-footed 33
+AC_Mods: (+7 armor, +2 Dex, +12 insight, +5 natural, -1 size)
+HP: '270'
+HD: (20d6+200)
+HP_Mods: fast healing 5, regeneration 10 (cold iron)
+Saves: Fort +18, Ref +16, Will +23
+Fort: '18'
+Ref: '16'
+Will: '23'
+DefensiveAbilities: >-
+  ability healing, death ward, fated, foresight, mind blank, never surprised or
+  flat-footed
+DR: 15/cold iron
+Immune: cold, disease, mind-affecting effects, poison
+Resist: acid 30, electricity 30, fire 30
+SR: '29'
+Speed: 55 ft.
+Melee:
+  - shears +21/+21/+16 (1d8+12/15-20 plus energy drain)
+  - touch +16 (energy drain)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: energy drain (2 levels, DC 32), shift fate, snip thread (DC 32)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +30)
+  values:
+    - label: Constant
+      value: >-
+        death ward, foresight, greater arcane sight, mind blank, tongues, true
+        seeing
+    - label: At Will
+      value: >-
+        bestow curse (DC 26), dimension door (within Grandmother's Cauldron
+        only), divination, greater dispel magic, geas/quest, tree stride,
+        vision, wind walk (self only)
+    - label: 3/day
+      value: alarm, knock
+    - label: 1/day
+      value: >-
+        arcane lock, augury, banishment (DC 28), clairaudience/clairvoyance,
+        commune, dismissal (DC 26), forbiddance (DC 28), guards and wards (DC
+        28), hold portal, maze, moment of prescience, quickened phantasmal
+        killer (DC 26), power word kill, repulsion (DC 29), screen (DC 30), time
+        stop, weird (DC 31)
+AbilityScores:
+  - 25
+  - 14
+  - 30
+  - 21
+  - 28
+  - 35
+BaseAtk: '10'
+CMB: '18'
+CMD: '42'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - DiehardB
+  - Great Fortitude
+  - Improved Great Fortitude
+  - Improved Initiative
+  - Improved Iron Will
+  - Improved Lightning Reflexes
+  - Iron Will
+  - Lightning Reflexes
+  - Quicken Spell-Like Ability (phantasmal killer)
+Skills:
+  - Bluff +25
+  - Craft (cloth) +18
+  - Heal +14
+  - Intimidate +32
+  - Knowledge (arcana) +25
+  - Knowledge (geography) +28
+  - Knowledge (history) +25
+  - Knowledge (nature) +28
+  - Knowledge (planes) +25
+  - Knowledge (religion) +25
+  - Perception +37
+  - Perform (oratory) +20
+  - Sense Motive +37
+  - Use Magic Device +25
+Languages:
+  - Cimmerian
+  - Proto-Indo-European
+  - Russian
+  - Sarmatian
+  - Scythian
+  - Sylvan
+  - tongues
+SQ: >-
+  aura, blessed life, change shape (humanoid; alter self or giant form II),
+  divine swiftness, sacred site
+Source: AP 72
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Ability Healing (Ex)
+    description: >-
+      Vigliv heals 1 point of ability damage per round in each damaged ability
+      score.
+  - name: Aura (Ex)
+    description: >-
+      Vigliv has an aura as if she were a 20-HD aligned outsider for the purpose
+      of detect chaos effects.
+  - name: Blessed Life (Ex)
+    description: >-
+      Vigliv does not age or breathe, and she does not require food, drink, or
+      sleep.
+  - name: Divine Swiftness (Ex)
+    description: >-
+      Vigliv gains a +4 bonus on initiative rolls and her base speed is 80 feet
+      (55 feet in her hide armor).
+  - name: Sacred Site (Ex)
+    description: >-
+      Vigliv is bound to Grandmother's Cauldron (area A) and was charged by the
+      ancient goddess who invested her with power with protecting the grotto
+      from harm and preventing intrusion. Should Vigliv ever leave the grotto,
+      she loses the divine guardian template unless she atones and reenters the
+      site within 1 week. Otherwise, she loses the template permanently and
+      takes 6d6 points of Constitution drain as the years catch up to her.
+BeforeCombat: >-
+  Before revealing herself to visitors to the grotto, Vigliv casts moment of
+  prescience.
+DuringCombat: >-
+  Vigliv attempts to avoid combat, but if forced into it, she tries to
+  incapacitate and overcome her foes with spells such as bestow curse, maze,
+  repulsion, and time stop  Only if she takes more than 100 points of damage
+  does she revert to quickened phantasmal killer, power word kill, weird, and
+  her snip thread ability.
+Morale: >-
+  Vigliv always to tries avoid combat by using dimension door or tree stride to
+  jump to one of her rowan's many saplings, using the time she gains to plot her
+  retaliation and prepare with spells such as forbiddance and guards and wards.
+  Destroying the rowan tree does not harm Vigliv, but she is likely to exact
+  retribution on those responsible. If forced into combat and unable to escape,
+  Vigliv fights to the bitter end, trying to snip the threads of as many of her
+  opponents as possible.
+Gear: +3 hide armor, shears, golden thread (worth 10,000 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: divine guardian|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4657'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

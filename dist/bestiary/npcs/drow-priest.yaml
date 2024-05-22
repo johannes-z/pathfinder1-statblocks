@@ -1,0 +1,112 @@
+Name: Drow Priest
+CR: '5'
+XP: '1600'
+Race: Drow noble
+Class: cleric 5
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '5'
+Senses:
+  - darkvision 120 ft.
+  - Perception +11
+AC: 24, touch 13, flat-footed 23
+AC_Mods: (+9 armor, +2 deflection, +1 Dex, +2 shield)
+HP: '31'
+HD: (5d8+5)
+Saves: Fort +5, Ref +2, Will +8; +2 vs. enchantment
+Fort: '5'
+Ref: '2'
+Will: '8'
+Save_Mods: +2 vs. enchantment
+Immune: sleep
+SR: '16'
+Weaknesses: light blindness
+Speed: 20 ft.
+Melee:
+  - mwk flail +4 (1d8)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 7/day (DC 14, 3d6), hand of the acolyte (7/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: dancing lights, deeper darkness, faerie fire, feather fall, levitate
+    - label: 1/day
+      value: >-
+        dispel magic, divine favor, suggestion (DC 15) Domain Spell-Like
+        Abilities (CL 5th; concentration +9)
+    - label: 7/day
+      value: touch of evil (2 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 5th; concentration +9)  3rd-chain of perditionUC,
+  dispel magicD, protection from energy  2nd-align weaponD (evil only), dread
+  boltUM (DC 16), hold person (DC 16), spiritual weapon  1st-cure light wounds,
+  entropic shield, murderous commandUM (DC 15), protection from goodD, shield of
+  faith  0 (at will)-bleed (DC 14), detect magic, detect poison, read magic
+SpellDomains: Evil, Magic
+AbilityScores:
+  - 10
+  - 12
+  - 12
+  - 14
+  - 18
+  - 15
+BaseAtk: '3'
+CMB: '3'
+CMD: '14'
+Feats:
+  - Combat Casting
+  - Extra Channel
+  - Improved Initiative
+Skills:
+  - Bluff +3
+  - Diplomacy +6
+  - Intimidate +7
+  - Knowledge (arcana) +6
+  - Knowledge (history) +6
+  - Knowledge (nobility) +6
+  - Knowledge (religion) +10
+  - Perception +11
+  - Sense Motive +12
+Languages:
+  - Abyssal
+  - Common
+  - Elven
+  - Undercommon
+SQ: poison use
+Source: Monster Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The priest casts shield of faith on herself. She prefers to let her minions do
+  the fighting, and has them stand between her and any approaching foes.
+DuringCombat: >-
+  The priest channels negative energy at groups of foes and uses single-target
+  spells against her most dangerous opponent (typically starting with hold
+  person so her allies can surround the hapless target).
+Gear: >-
+  potion of invisibility, potion of owl's wisdom, scroll of cure moderate
+  wounds, scroll of cure serious wounds, scroll of magic weapon
+OtherGear: mwk full plate, heavy steel shield, mwk flail, spell component pouch, 167 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without shield of faith, the drow's statistics are AC 22, touch 11,
+  flat-footed 21.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6412'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

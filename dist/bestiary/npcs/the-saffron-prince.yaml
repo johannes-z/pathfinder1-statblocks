@@ -1,0 +1,130 @@
+Name: The Saffron Prince
+CR: '14'
+XP: '38400'
+Race: Dorvae
+Class: mesmerist 7
+MonsterSource: Pathfinder RPG Bestiary 4 62, Pathfinder RPG Occult Adventures 38
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil)
+Init: '5'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +30
+AC: 28, touch 16, flat-footed 22
+AC_Mods: (+4 armor, +5 Dex, +1 dodge, +8 natural)
+HP: '209'
+HD: (20 HD; 7d8+13d10+107)
+Saves: Fort +12, Ref +19, Will +21
+Fort: '12'
+Ref: '19'
+Will: '21'
+DR: 10/good
+Immune: mind-affecting effects, poison
+SR: '22'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - 2 claws +25 (3d8+6/19-20 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bold stare (disorientation, psychic inception), hypnotic stare (-2), manifold
+  tricks (2 tricks), mental potency (+1), mesmerist tricks 9/day (compel
+  alacrity, mask misery, mesmeric mirror, spectral smoke), painful stare (+3 or
+  +2d6), writhing snakes
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +17)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At Will
+      value: detect thoughts (DC 18)
+    - label: 3/day
+      value: bestow curse (DC 20), dimension door
+    - label: 1/day
+      value: feeblemind (DC 21), lesser geas (DC 20)
+SpellsKnown:
+  header: Mesmerist Spells Known (CL 7th; concentration +13)
+  values:
+    - label: 3rd (2/day)
+      value: crushing despair (DC 19), displacement
+    - label: 2nd (5/day)
+      value: >-
+        blindness/deafness (DC 18), glitterdust (DC 18), haunting mistsUM (DC
+        18), invisibility
+    - label: 1st (6/day)
+      value: >-
+        color spray (DC 17), command (DC 17), mental blockOA (DC 17), murderous
+        commandUM (DC 17), ray of sickeningUM (DC 17)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, detect psychic significanceOA, ghost sound
+        (DC 16), mage hand, open/close (DC 16)
+AbilityScores:
+  - 22
+  - 21
+  - 20
+  - 19
+  - 12
+  - 22
+BaseAtk: '18'
+CMB: +23 (+27 grapple)
+CMD: '40'
+Feats:
+  - Agile Maneuvers
+  - Dodge
+  - Flyby Attack
+  - Improved Critical (claw)
+  - Improved Sidestep
+  - Intimidating Glance
+  - Mobility
+  - Sidestep
+  - Skill Focus (Perception)
+  - Weapon Focus (claw)
+Skills:
+  - Acrobatics +28
+  - Bluff +32
+  - Diplomacy +29
+  - Fly +22
+  - Intimidate +29
+  - Knowledge (planes) +27
+  - Knowledge (religion) +27
+  - Perception +30
+  - Sense Motive +24
+  - Spellcraft +17
+  - Stealth +28
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Common
+  - Infernal
+  - telepathy 50 ft.
+SQ: consummate liar +3, touch treatment 9/day (moderate)
+Source: AP 113
+IsTemplate: '0'
+BeforeCombat: If it expects combat, the Saffron Prince casts displacement on itself.
+DuringCombat: >-
+  The Saffron Prince uses its hypnotic stare and spells to disable dangerous
+  foes before turning its deadly natural attacks against vulnerable enemies.
+Morale: >-
+  If reduced to 40 or fewer hit points, the Saffron Prince attempts to escape
+  via dimension door. Once it has recovered or spies the PCs in a moment of
+  weakness, it attacks again and fights until slain.
+Gear: Unspeakable One's Vestments, golden crown (worth 4,000 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '9087'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

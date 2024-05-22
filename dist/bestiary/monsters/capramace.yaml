@@ -1,0 +1,106 @@
+Name: Capramace
+CR: '7'
+XP: '3200'
+Alignment: 'N'
+Size: Large
+Type: aberration
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 18, touch 10, flat-footed 17
+AC_Mods: (+1 Dex, +8 natural, -1 size)
+HP: '76'
+HD: (9d8+45)
+Saves: Fort +9, Ref +6, Will +8
+Fort: '9'
+Ref: '6'
+Will: '8'
+Speed: 50 ft.
+Melee:
+  - bite +12 (1d8+7 plus disease), 2 hooves +7 (1d6+3)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: disease, rage call
+AbilityScores:
+  - 24
+  - 13
+  - 18
+  - 1
+  - 14
+  - 5
+BaseAtk: '6'
+CMB: +14 (+16 bull rush)
+CMD: 25 (27 vs. bull rush)
+Feats:
+  - Great Fortitude
+  - Improved Bull Rush
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+Skills:
+  - Climb +14
+  - Perception +10
+Environment: temperate plains
+Organization: solitary, pack (2-11), or herd (12-25)
+Treasure: none
+Description_Visual: >-
+  This twisted amalgamation of human and goat sports a backward-facing torso,
+  four stubby hooves, and an empty-eyed expression on its coppery-red face.
+Source: Wardens Of The Reborn Forge
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Waste Trembles: Bite-injury; save Fort DC 19; onset 1d3 days; frequency 1
+      day; effect 1d3 Str and 1d3 Dex damage, target must succeed at a second
+      Fort save or be drained of 1 point of each type of ability damage instead;
+      cure 2 consecutive saves.
+  - name: Rage Call (Su)
+    description: >-
+      Once per day as a standard action, a capramace can open its mouth and emit
+      a horrible, earpiercing scream to call for its herd. Maintaining a rage
+      call on any round after the first round is a free action and there is no
+      limit to the duration of a sustained rage call. Non-capramaces within 120
+      feet that fail a DC 18 Fortitude saving throw are deafened for as long as
+      the capramace maintains its call and for 1d4 minutes afterward. Any other
+      capramaces within 1 mile can hear this high-pitched cry regardless of
+      external noise conditions, and they instinctively react by sprinting to
+      the capramace in need, moving as fast as possible toward the capramace for
+      as long as it maintains its rage call. A capramace moving toward the
+      source of a rage call is treated as though it possessed the Run feat. Any
+      capramace that comes within 60 feet of another capramace's rage call goes
+      wild with fear and anger, stomping about and attacking the nearest
+      creature in sight for as long as the rage call lasts. Sound-mitigating
+      effects such as silence or a muzzle of suppression (see page 26) can
+      prevent a capramace from performing its rage call, as can effects that
+      suffocate a capramace. Similarly, a capramace with the deafened condition
+      cannot be affected by the rage cry of another capramace. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    Capramaces are wild, monstrous beasts native to the Mana Wastes. While their
+    exact origins are unknown, scholars speculate that they are an unholy
+    abomination resulting from some combination of goat, human, and the Mana
+    Wastes' mutative energies. Farmers must be careful when removing them from
+    farmlands for fear of startling them and awakening their terrible, deafening
+    screams. Brave inhabitants of remote Mana Wastes settlements sometimes use
+    capramaces as work animals, but most regard this a foolish endeavor at best.
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '5446'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,116 @@
+Name: Ancient Magma Elemental
+CR: '15'
+XP: '51200'
+Race: magma elemental
+MonsterSource: Pathfinder RPG Bestiary 2 119
+Alignment: 'N'
+Size: Huge
+Type: outsider
+SubType: (earth, elemental, extraplanar, fire)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +26
+AC: 31, touch 7, flat-footed 31
+AC_Mods: (-1 Dex, +24 natural, -2 size)
+HP: '231'
+HD: (22d10+110)
+Saves: Fort +18, Ref +12, Will +10
+Fort: '18'
+Ref: '12'
+Will: '10'
+DR: 10/-
+Immune: >-
+  bleed, critical hits, fire, flanking, paralysis, poison, precision damage,
+  sleep, stunning
+Weaknesses: vulnerability to cold
+Speed: 20 ft., burrow 20 ft.
+Speed_Mod: earth glide
+Melee:
+  - 2 slams +29 (3d8+9/19-20 plus burn)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: breath weapon (DC 26), burn (3d8, DC 24), lava puddle
+AbilityScores:
+  - 28
+  - 8
+  - 21
+  - 12
+  - 13
+  - 13
+BaseAtk: '22'
+CMB: +33 (+37 bull rush, overrun)
+CMD: 42 (44 vs. bull rush and overrun)
+Feats:
+  - Cleave
+  - Greater Bull Rush
+  - Greater Overrun
+  - Improved Bull Rush
+  - Improved Critical (slam)
+  - Improved Initiative
+  - Improved Overrun
+  - Improved Vital Strike
+  - Iron Will
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Climb +34
+  - Intimidate +26
+  - Knowledge (dungeoneering
+  - planes) +26
+  - Perception +26
+  - Sense Motive +26
+  - Stealth +16
+Languages:
+  - Ignan
+Source: PFS 8-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      As a standard action, an ancient magma elemental can breathe a 60-foot
+      cone of incandescent cinders. Every creature in the area takes 15d6 fire
+      damage, and the cinders cling to and blind affected creatures as
+      glitterdust for 2d6 rounds. With a successful DC 26 Reflex save, a target
+      halves the damage, negates the blinding effect, and reduces the duration
+      of the sparkling outline effect to 1 round. An ancient magma elemental can
+      use this ability once every 1d6 rounds. The save DC is Constitution-based.
+  - name: Burn (Ex)
+    description: >-
+      A magma elemental's burn DC includes a -2 racial penalty, as its fires
+      don't burn quite as hot as true elemental flame.
+  - name: Earth Glide (Ex)
+    description: >-
+      A burrowing magma elemental can pass through dirt, lava, stone, or almost
+      any other sort of earth except metal as easily as a fish swims through
+      water. Its burrowing leaves behind no tunnel or hole, nor does it create
+      any ripple, though the area it passes through feels warm for 1 round
+      afterward and often retains a strangely smooth texture, as if the stone
+      had been polished. A move earth spell cast on an area containing a
+      burrowing magma elemental flings the elemental back 30 feet, stunning the
+      creature for 1 round unless it succeeds on a DC 15 Fortitude save.
+  - name: Lava Puddle (Su)
+    description: >-
+      Once per day as a full-round action, a magma elemental can vomit forth a
+      puddle of lava that fills its space to a depth of 2-3 inches and counts as
+      difficult terrain. Any creature that moves through this puddle of lava
+      takes 2d6 points of fire damage. This damage continues for 1d3 rounds
+      after the creature leaves the lava pool, although then it only deals 1d6
+      points of fire damage per round. The lava puddle solidifies and is safe to
+      touch after 22 rounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: elder
+CompanionFamiliarLink: '0'
+id: '11617'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

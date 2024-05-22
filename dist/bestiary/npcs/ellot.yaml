@@ -1,0 +1,84 @@
+Name: Ellot
+CR: '9'
+XP: '6400'
+Race: festering spirit
+MonsterSource: Pathfinder RPG Bestiary 4 288, 98
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '11'
+Senses:
+  - darkvision 60 ft.
+  - Perception +15
+Aura: stench (DC 16, 10 rounds)
+AC: 22, touch 22, flat-footed 14
+AC_Mods: (+4 deflection, +7 Dex, +1 dodge)
+HP: '76'
+HD: (9d8+36)
+Saves: Fort +7, Ref +10, Will +9
+Fort: '7'
+Ref: '10'
+Will: '9'
+DefensiveAbilities: channel resistance +2, incorporeal
+Immune: undead traits
+Speed: fly 40 ft. (good)
+Melee:
+  - incorporeal touch +13 (1d4 Con damage plus slime)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, slime (DC 18), trample (1 Con damage plus slime, DC 18)
+AbilityScores:
+  - —
+  - 24
+  - —
+  - 6
+  - 16
+  - 19
+BaseAtk: '6'
+CMB: '13'
+CMD: '28'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Flyby Attack
+  - Improved Initiative
+  - Mobility
+Skills:
+  - Fly +11
+  - Perception +15
+  - Stealth +19
+SQ: ghost touch
+Source: AP 140
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Distracting Babble (Su)
+    description: >-
+      As a swift action, Ellot can mutter in a manner other creatures find
+      distracting. All creatures within 30 feet must succeed at a DC 18 Will
+      save or take a -2 penalty to AC for 1 round. Creatures that successfully
+      save cannot be affected by Ellot's distracting babble for 24 hours. This
+      is a sonic, mind-affecting effect. The save DC is Charisma-based.
+DuringCombat: >-
+  The festering spirit attempts to trample as many of the PCs as possible. If a
+  PC is particularly effective against the festering spirit, it ceases its
+  trampling and instead focuses on that PC with its incorporeal touch attacks.
+Morale: >-
+  If reduced to fewer than 15 hit points, the festering spirit retreats back
+  into the ceiling to sulk and moan about how badly the PCs hurt it.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12158'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

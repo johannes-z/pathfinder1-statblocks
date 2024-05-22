@@ -1,0 +1,188 @@
+Name: Ancient Bronze Dragon
+CR: '18'
+XP: '153600'
+Alignment: LG
+Size: Gargantuan
+Type: dragon
+SubType: (water)
+Init: '3'
+Senses:
+  - dragon senses
+  - Perception +38
+Aura: electricity aura, frightful presence (300 ft., DC 29)
+AC: 37, touch 5, flat-footed 37
+AC_Mods: (-1 Dex, +32 natural, -4 size)
+HP: '324'
+HD: (24d12+168)
+Saves: Fort +21, Ref +13, Will +21
+Fort: '21'
+Ref: '13'
+Will: '21'
+DR: 15/magic
+Immune: electricity, paralysis, sleep
+SR: '29'
+Speed: 40 ft., fly 250 ft. (clum.), sw. 60 ft.
+Melee:
+  - >-
+    bite +32 (4d6+18/19-20), 2 claws +32 (2d8+12/19-20), 2 wings +30 (2d6+6),
+    tail slap +30 (2d8+18)
+Space: 20 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  br. weapon (120-ft. line, DC 29, 20d6 elect.), crush, repul. breath, tail
+  sweep, vortex
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 24th)
+  values:
+    - label: At will
+      value: >-
+        control water, create food and water, detect thoughts (DC 19), fog
+        cloud, speak with animals
+SpellsKnown:
+  header: Spells Known (CL 15th)
+  values:
+    - label: 7th (5/day)
+      value: spell turning, statue
+    - label: 6th (7/day)
+      value: greater dispel magic, mass suggestion (DC 23), mislead
+    - label: 5th (7/day)
+      value: dismissal, interposing hand, mind fog, teleport
+    - label: 4th (7/day)
+      value: dimension door, ice storm, solid fog, stoneskin
+    - label: 3rd (7/day)
+      value: dispel magic, heroism, slow (DC 20), suggestion
+    - label: 2nd (8/day)
+      value: blur, gust of wind, invisibility, mirror image, web
+    - label: 1st (8/day)
+      value: alarm, mage armor, obscuring mist, shield, true strike
+    - label: 0 (at will)
+      value: detect magic, light, message, resistance, 2 more
+AbilityScores:
+  - 35
+  - 8
+  - 25
+  - 24
+  - 25
+  - 24
+BaseAtk: '24'
+CMB: '40'
+CMD: 49 (53 vs. trip)
+Feats:
+  - Alertness
+  - Cleave
+  - Flyby Attack
+  - Great Cleave
+  - Hover
+  - Improved Critical (bite
+  - claw)
+  - Improved Initiative
+  - Improved Vital Strike
+  - Multiattack
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Diplomacy +34
+  - Fly +10
+  - Handle Animals +31
+  - Heal +34
+  - Intimidate +34
+  - Knowledge (arcana
+  - geography
+  - history) +34
+  - Perception +38
+  - Sense Motive +38
+  - Spellcraft +34
+  - Stealth +14
+  - Swim +47
+Languages:
+  - Aquan
+  - Common
+  - Draconic
+  - Elven
+  - Gnome
+  - 3 more
+SQ: change shape, water breathing, wave mastery
+Environment: temperate coastlines
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  This sleek dragon is covered in dull metallic scales that range in color from
+  shining bronze to mottled blue.
+Group: Metallic Dragon
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      A young or older bronze dragon can take any animal or humanoid form 3/day
+      as if using polymorph.
+  - name: Electricity Aura (Su)
+    description: >-
+      An old or older bronze dragon has an aura of electricity. All creatures
+      within 5 feet take 1d6 points of electricity damage at the start of the
+      dragon's turn. An ancient dragon's aura is 10 feet. A great wyrm's damage
+      increases to 2d6. A bronze dragon can suppress this aura at will.
+  - name: Repulsion Breath (Su)
+    description: >-
+      Instead of a line of electricity, a bronze dragon can breathe a cone of
+      repulsion gas. Targets must make a Will save or be compelled to do nothing
+      but move away from the dragon for 1d6 rounds plus 1 round per age
+      category. This is a mind-affecting compulsion effect. Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      A bronze dragon gains the following spell-like abilities, usable at will
+      upon reaching the listed age category. Very young-speak with animals;
+      Juvenile-create food and water; Adult-fog cloud; Old-detect thoughts;
+      Ancient-control water; Great wyrm-control weather.
+  - name: Tidal Wave (Su)
+    description: >-
+      A great wyrm bronze dragon can cause the sea to rise up and crush his
+      enemies once per day as a standard action. This affects an area of
+      coastline 120 feet in length and targets all creatures within 40 feet of
+      the shore-treat the targets as if struck by an avalanche (Pathfinder RPG
+      Core Rulebook 429). Treat all creatures as if they were in the bury zone.
+      The save DC to halve this damage is equal to the dragon's breath weapon
+      DC. Those who fail their saves take full damage and are drawn 60 feet off
+      shore and deposited 20 feet under the surface on the round after the wave
+      hits.
+  - name: Vortex (Ex)
+    description: >-
+      Once per day, an ancient or older bronze dragon can create a vortex as a
+      standard action, just like an elder water elemental (see page 127). A
+      bronze dragon can maintain this vortex for 1 round per age category.
+  - name: Water Breathing (Ex)
+    description: >-
+      A bronze dragon breathes water and can use its breath weapon, spells, and
+      abilities underwater.
+  - name: Wave Mastery (Su)
+    description: >-
+      For up to 10 minutes per age category per day, a juvenile bronze dragon,
+      along with creatures or vessels within 50 feet, can move at twice its
+      normal speed in water. Age Category S pecial Abilities C aster Level
+      Wyrmling Immunity to electricity, - repulsion breath, water breathing Very
+      young Speak with animals - Young Change shape 1st Juvenile Wave mastery,
+      create food and water 3rd Young adult DR 5/magic, spell resistance 5th
+      Adult frightful presence, fog cloud 7th Mature adult DR 10/magic 9th Old
+      Electricity aura, detect thoughts 11th Very old DR 15/magic 13th Ancient
+      Vortex, control water 15th Wyrm DR 20/magic 17th Great wyrm Tidal wave,
+      control weather 19th
+Description:
+  - >-
+    Bronze dragons have been known to ally with travelers and adventurers if the
+    cause and reward is right and just.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: ancient
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Ancient Bronze Dragon
+id: '133'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

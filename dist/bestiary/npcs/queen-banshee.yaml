@@ -1,0 +1,123 @@
+Name: Queen Banshee
+CR: '20'
+XP: '307200'
+Race: banshee
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '15'
+Senses:
+  - darkvision 60 ft., hear heartbeat
+  - Perception +31
+AC: 29, touch 29, flat-footed 17
+AC_Mods: (+7 deflection, +11 Dex, +1 dodge)
+HP: '331'
+HD: (26d8+182)
+Saves: Fort +15, Ref +21, Will +22
+Fort: '15'
+Ref: '21'
+Will: '22'
+DefensiveAbilities: incorporeal
+Immune: undead traits
+Weaknesses: sunlight powerlessness
+Speed: fly 60 ft. (perfect)
+Melee:
+  - incorporeal touch +30 (14d6 negative energy + terror)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: great wail (DC 32 Fort), terror (DC 32 Will)
+AbilityScores:
+  - —
+  - 32
+  - —
+  - 18
+  - 20
+  - 25
+BaseAtk: '19'
+CMB: '30'
+CMD: '48'
+Feats:
+  - Ability Focus (terror)
+  - Ability Focus (wail)
+  - Alertness
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Spring Attack
+  - Step Up
+  - Weapon Focus (melee touch attack)
+  - Wind Stance
+Skills:
+  - Bluff +20
+  - Diplomacy +20
+  - Fly +40
+  - Intimidate +35
+  - Knowledge (geography) +20
+  - Knowledge (history) +30
+  - Knowledge (local) +19
+  - Knowledge (nature) +10
+  - Knowledge (planes) +10
+  - Knowledge (religion) +22
+  - Perception +31
+  - Sense Motive +30
+  - Spellcraft +13
+  - Stealth +26
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Common
+  - Elven
+  - Infernal
+Source: Sword of Air-Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Great Wail (Su)
+    description: >-
+      Once per round, a queen banshee may wail as a full-round action. The wail
+      lasts until the beginning of her next turn. All creatures within 40 feet
+      of the banshee when she begins her wail, as well as all creatures that end
+      their turn within that radius, must make a DC 32 Fortitude save. (This
+      save is only required once per wail.) Creatures under the effects of a
+      fear effect take a -4 penalty on this save. Creatures that make their save
+      are sickened for 1d6 rounds. Those that fail take 200 points of damage (as
+      if affected by a CL 20th wail of the banshee). If a wailing banshee is
+      damaged during a wail, she must make a Will save (DC 5 + damage taken) to
+      maintain the wail; otherwise it ends. This is a sonic death effect.
+      Banshee wails are supernaturally powerful, and penetrate the effect of any
+      spell of 3rd level or lower that creates silence. The save DC is
+      Charisma-based.
+  - name: Hear Heartbeat (Ex)
+    description: >-
+      A banshee can sense the beating hearts of living creatures within 60 feet,
+      as if it had the blindsight ability.
+  - name: Terror (Su)
+    description: >-
+      A creature damaged by the banshee's touch attack must make a DC 32 Will
+      save. Failure means that the victim cowers in fear for 1d3 rounds. If a
+      target is protected against fear by a dispellable effect (such as heroes'
+      feast or mind blank), the banshee's touch attempts to dispel one such
+      effect with greater dispel magic (CL 20th). Negative energy damage caused
+      by a banshee's touch can only harm the living; it cannot heal undead. This
+      is a mind-affecting fear effect. The save DC is Charisma-based.
+Gender: Female
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12801'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

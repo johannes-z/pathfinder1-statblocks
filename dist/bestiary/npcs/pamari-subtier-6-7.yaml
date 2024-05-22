@@ -1,0 +1,112 @@
+Name: Pamari Subtier 6-7
+CR: '6'
+XP: '2400'
+Race: ifrit
+Class: sorcerer 7
+MonsterSource: Pathfinder RPG Bestiary 2 160
+Alignment: CN
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+4 armor, +3 Dex, +1 dodge)
+HP: '48'
+HD: (7d6+21)
+Saves: Fort +4, Ref +6, Will +6
+Fort: '4'
+Ref: '6'
+Will: '6'
+Resist: fire 10
+Speed: 30 ft.
+Melee:
+  - dagger +2 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: fire ray (1d6+3 fire, 7/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +11)
+  values:
+    - label: 1/day
+      value: burning hands (DC 16)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (5/day)
+      value: dispel magic, fireball (DC 18), fly
+    - label: 2nd (7/day)
+      value: >-
+        create pitAPG (DC 16), glitterdust (DC 16), scorching ray, summon
+        monster II
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 16), enlarge person (DC 15), feather fall, magic
+        missile, ray of enfeeblement (DC 15), vanishAPG (DC 14)
+    - label: 0 (at will)
+      value: >-
+        acid splash, daze (DC 14), flare (DC 14), prestidigitation, read magic,
+        resistance, touch of fatigue (DC 14)
+AbilityScores:
+  - 8
+  - 16
+  - 13
+  - 10
+  - 10
+  - 18
+BaseAtk: '3'
+CMB: '2'
+CMD: '16'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Elemental Focus
+  - Eschew Materials
+  - Improved Initiative
+  - Toughness
+Skills:
+  - Diplomacy +7
+  - Fly +7
+  - Knowledge (planes) +8
+  - Spellcraft +8
+Languages:
+  - Common
+  - Ignan
+Source: PFS 8-23
+IsTemplate: '0'
+Gender: Female
+Bloodline: efreetiUM
+BeforeCombat: >-
+  Pamari casts mage armor on herself. The effects of this spell are included in
+  her statistics.
+DuringCombat: >-
+  Pamari casts her spells from afar. She begins with a fireball if she can catch
+  multiple enemies within the blast. If someone attempts to close the distance,
+  she either casts fly or mirror image or blocks them with a spell like create
+  pit. If the PCs hit Jathune with a debilitating spell effect, Pamari casts
+  dispel magic to try and get rid of it.
+Morale: >-
+  If Jathune falls unconscious and Pamari is reduced to 12 hit points or fewer,
+  she attempts to flee, surrendering if fleeing seems unlikely to succeed.
+Gear: >-
+  potion of cure serious wounds, scroll of see invisibility, wand of mage armor
+  (CL 3rd, 10 charges), wand of mirror image (7 charges)
+OtherGear: dagger, cloak of resistance +1, courtier's outfit, 30 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without mage armor, Pamari's statistics are AC 14, flat-footed 10.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11550'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

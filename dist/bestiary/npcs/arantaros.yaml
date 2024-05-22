@@ -1,0 +1,136 @@
+Name: Arantaros
+CR: '20'
+XP: '307200'
+Race: ancient blue dragon
+MonsterSource: Pathfinder RPG Bestiary 94, Pathfinder RPG Bestiary 2 230
+Alignment: LE
+Size: Gargantuan
+Type: undead
+SubType: (earth)
+Init: '3'
+Senses:
+  - blindsense 120 ft., darkvision 240 ft.
+  - Perception +42
+Aura: >-
+  cowering fear, electricity (10 ft., 2d6 electricity), frightful presence (300
+  ft., DC 30)
+AC: 41, touch 9, flat-footed 41
+AC_Mods: (+4 deflection, -1 Dex, +32 natural, -4 size)
+HP: '324'
+HD: (24d8+216)
+Saves: Fort +22, Ref +15, Will +21
+Fort: '22'
+Ref: '15'
+Will: '21'
+DefensiveAbilities: channel resistance +4, soul ward (24 hp)
+DR: 15/good
+Immune: electricity, undead traits
+SR: '31'
+Speed: 40 ft., burrow 20 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +35 (4d6+21/19-20), 2 claws +34 (2d8+14), tail slap +32 (2d8+21), 2
+    wings +32 (2d6+7)
+Space: 20 ft.
+Reach: 15 ft. (20 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (120-ft. line, 20d8 electricity plus 2 negative levels, Reflex
+  DC 32 half, usable every 1d4 rounds), crush, desert thirst (DC 30), mirage,
+  storm breath (DC 30, 20d8 electricity), tail sweep
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 24th; concentration +32)
+  values:
+    - label: At Will
+      value: >-
+        ghost sound (DC 18), hallucinatory terrain (DC 22), minor image (DC 20),
+        veil, ventriloquism
+SpellsKnown:
+  header: >-
+    Spells Known (CL 16th; concentration +24)   6th-analyze dweomer, true
+    seeing   5th-contact other plane, magic jar (DC 23), nightmare (DC 23),
+    sending   4th-arcane eye, discern lies (DC 22), freedom of movement, greater
+    false lifeUM, greater invisibility, stoneskin   3rd-arcane sight,
+    displacement, gaseous form, haste, heroism, nondetection, seek thoughtsAPG
+    (DC 21)   2nd-ablative barrierUC, aid, alter self, barkskin, eagle's
+    splendor, kinetic reverberation (DC 20)UC, transmute potion to poisonAPG  
+    1st-comprehend languages, crafter's fortuneAPG, expeditious retreat,
+    identify, illusion of calm (DC 19)UC, shield, true strike
+  values: []
+AbilityScores:
+  - 39
+  - 8
+  - —
+  - 24
+  - 25
+  - 26
+BaseAtk: '24'
+CMB: '42'
+CMD: 55 (59 vs. trip)
+Feats:
+  - Ability Focus (breath weapon)
+  - Brew Potion
+  - Combat Casting
+  - Extend Spell
+  - Hover
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Multiattack
+  - Skill Focus (Craft [alchemy])
+  - Toughness
+  - Weapon Focus (bite)
+Skills:
+  - Appraise +31
+  - Bluff +32
+  - Craft (alchemy) +37
+  - Diplomacy +32
+  - Disguise +23
+  - Fly +12
+  - Intimidate +43
+  - Knowledge (arcana) +34
+  - Knowledge (geography) +19
+  - Knowledge (history) +31
+  - Knowledge (planes) +19
+  - Perception +42
+  - Sense Motive +34
+  - Spellcraft +34
+  - Stealth -5
+  - Use Magic Device +20
+Languages:
+  - Abyssal
+  - Ancient Osiriani
+  - Common
+  - Draconic
+  - Dwarven
+  - Gnoll
+  - Osiriani
+  - Terran
+SQ: alchemical spellcasting
+Source: Undead Unleashed
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alchemical Spellcasting (Su)
+    description: >-
+      Arantaros's extensive experience with alchemy and his bargain with
+      Haagenti have altered his spellcasting ability. Arantaros can
+      spontaneously cast spells as a 16th-level sorcerer, but uses the
+      alchemist's extracts per day progression (adjusted by his Charisma
+      modifier) to determine how many spells he knows, and he can learn only
+      spells from the alchemist spell list.
+Gender: Male
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+TemplatesApplied: ravener|
+AgeCategory: ancient
+CompanionFamiliarLink: '0'
+id: '6335'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

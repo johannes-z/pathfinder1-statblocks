@@ -1,0 +1,103 @@
+Name: Groaning Spirit
+CR: '7'
+XP: '3200'
+Race: Groaning Spirit
+MonsterSource: The Tome of Horrors Complete 357
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '7'
+Senses:
+  - darkvision 60 ft., lifesense
+  - Perception +20
+Aura: fear (30 ft., DC 19), unnatural aura (30 ft.)
+AC: 17, touch 17, flat-footed 14
+AC_Mods: (+4 deflection, +3 Dex)
+HP: '85'
+HD: (10d8+40)
+Saves: Fort +7, Ref +6, Will +10
+Fort: '7'
+Ref: '6'
+Will: '10'
+DefensiveAbilities: channel resistance +4, incorporeal
+Immune: cold, electricity, undead traits
+SR: '18'
+Weaknesses: vulnerability to dispel evil
+Speed: fly 30 ft. (perfect)
+Melee:
+  - incorporeal touch +11 (1d8 plus chill touch)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: keening
+AbilityScores:
+  - —
+  - 17
+  - —
+  - 16
+  - 16
+  - 18
+BaseAtk: '7'
+CMB: '7'
+CMD: '24'
+Feats:
+  - Ability Focus (keening)
+  - Alertness
+  - Blind-Fight
+  - Improved Initiative
+  - Weapon Focus (incorporeal touch)
+Skills:
+  - Bluff +14
+  - Fly +24
+  - Intimidate +17
+  - Knowledge (religion) +16
+  - Perception +20
+  - Sense Motive +20
+  - Stealth +16
+Languages:
+  - Common
+  - Elven
+  - Gnome
+  - Sylvan
+Source: Sword of Air-Chapter 6
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Chill Touch (Su)
+    description: >-
+      Damage caused by the groaning spirit's touch attack is considered negative
+      energy and sends a chilling cold through an opponent's body. Any creature
+      touched must succeed on a DC 19 Fortitude save or suffer 1 point of
+      Strength drain. Groaning spirits are the bane of other undead, and any
+      undead they touch (except other groaning spirits) must succeed on a DC 19
+      Will save or flee in fear for 2d6 rounds. The save DCs are Charisma-based.
+  - name: Keening (Su)
+    description: >-
+      Once per day, at night only, a groaning spirit can release a death wail
+      audible to a range of 1 mile. All creatures within 30 feet that hear this
+      must make a successful DC 21 Will save or be affected as per the wail of
+      the banshee spell. Those that make their save still take 3d6+7 points of
+      damage. The save DC is Charisma-based and includes a +2 bonus from the
+      groaning spirit's Ability Focus feat.
+  - name: Lifesense (Su)
+    description: A groaning spirit can sense all living creatures up to 5 miles away.
+  - name: Vulnerability to Dispel Evil (Ex)
+    description: >-
+      If a dispel evil spell (the second effect requiring a touch attack) is
+      used against a groaning spirit the creature must succeed on a Will save
+      (DC 15 + caster's relevant ability score modifier) or be destroyed
+      immediately.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12749'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,85 @@
+Name: Advanced Giant Crab
+CR: '3'
+XP: '800'
+Race: giant crab
+Alignment: 'N'
+Size: Medium
+Type: vermin
+SubType: (aquatic)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 20, touch 13, flat-footed 17
+AC_Mods: (+3 Dex, +7 natural)
+HP: '25'
+HD: (3d8+12)
+Saves: Fort +7, Ref +3, Will +2
+Fort: '7'
+Ref: '3'
+Will: '2'
+Immune: mind-affecting effects
+Speed: 30 ft., swim 20 ft.
+Melee:
+  - 2 claws +6 (1d4+4 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (1d4+4)
+AbilityScores:
+  - 18
+  - 16
+  - 18
+  - —
+  - 14
+  - 6
+BaseAtk: '2'
+CMB: '6'
+CMD: '19'
+Skills:
+  - Perception +6
+  - Swim +12
+SQ: water dependency
+Source: PFS S1-31
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Constrict (Ex)
+    description: >-
+      A giant crab can crush an opponent, dealing bludgeoning damage, after
+      making a successful grapple check (in addition to any other effects caused
+      by a successful check, including additional damage).
+  - name: Grab (Ex)
+    description: >-
+      If a giant crab hits with its claws, it deals normal damage and attempts
+      to start a grapple as a free action without provoking an attack of
+      opportunity. Grab works only against opponents at least one size category
+      smaller than the creature. The creature has the option to conduct the
+      grapple normally, or simply use the part of its body it used in the grab
+      to hold the opponent. If it chooses to do the latter, it takes a -20
+      penalty on its CMB check to make and maintain the grapple, but does not
+      gain the grappled condition itself. If a giant crab does not constrict,
+      each successful grapple check it makes during successive rounds
+      automatically deals the damage indicated for the attack that established
+      the hold. Otherwise, it deals constriction damage as well.
+  - name: Water Dependency (Ex)
+    description: >-
+      Giant crabs can survive out of the water for 1 hour per point of
+      Constitution. Beyond this limit, a giant crab runs the risk of
+      suffocation, as if it were drowning.
+DuringCombat: The giant crabs are mindless vermin and attack the nearest opponent.
+Morale: The giant crabs fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4123'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

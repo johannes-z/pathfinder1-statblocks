@@ -1,0 +1,105 @@
+Name: Diabolist
+CR: '6'
+XP: '2400'
+Race: Tiefling
+Class: sorcerer 7
+MonsterSource: Pathfinder RPG Bestiary 264
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '3'
+Senses:
+  - darkvision 120 ft., low-light vision, see in darkness
+  - Perception +0
+AC: 23, touch 13, flat-footed 20
+AC_Mods: (+4 armor, +3 Dex, +2 natural, +4 shield) (+2 deflection against good)
+HP: '41'
+HD: (7d6+14)
+Saves: Fort +5, Ref +7, Will +7; +2 bonus vs. poison
+Fort: '5'
+Ref: '7'
+Will: '7'
+Save_Mods: +2 bonus vs. poison
+Resist: cold 5, electricity 5, fire 5
+Speed: 30 ft.
+Melee:
+  - mwk light mace +3 (1d6-1)
+Ranged:
+  - mwk heavy crossbow +7 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +10)
+  values:
+    - label: 1/day
+      value: darkness Bloodline Spell-Like Abilities (CL 7th; concentration +11)
+    - label: 7/day
+      value: corrupting touch (3 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (5/day)
+      value: fireball (DC 18), pain strikeAPG (DC 18), suggestion (DC 17)
+    - label: 2nd (7/day)
+      value: alter self, blur, flaming sphere (DC 17), scorching ray
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 16), charm person (DC 17), mage armor, magic missile,
+        protection from good, shield
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 14), daze (DC 14), flare (DC 15), mage hand,
+        message, resistance
+AbilityScores:
+  - 8
+  - 16
+  - 13
+  - 14
+  - 10
+  - 16
+BaseAtk: '3'
+CMB: '2'
+CMD: '17'
+Feats:
+  - Armor of the Pit
+  - Eschew Materials
+  - Fiend SightARG (2)
+  - Skill Focus (Bluff)
+  - Spell Focus (evocation)
+Skills:
+  - Bluff +16
+  - Intimidate +11
+  - Knowledge (arcana
+  - religion) +8
+  - Knowledge (religion) +6
+  - Spellcraft +12
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Infernal
+SQ: beguiling liar, bloodline arcana, fiendish sorcery
+Source: Villain Codex
+IsTemplate: '0'
+Bloodline: infernal
+BeforeCombat: She casts mage armor, protection from good and shield.
+Gear: wand of darkness (11 charges), unholy water (2)
+OtherGear: >-
+  mwk heavy crossbow with 10 bolts, mwk light mace, headband of alluring
+  charisma +2, silver unholy symbol, 25 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8885'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

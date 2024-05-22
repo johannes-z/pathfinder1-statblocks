@@ -1,0 +1,129 @@
+Name: Kane Phyros
+CR: '10'
+XP: '9600'
+Race: Half-elf
+Class: sorcerer 11
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +15
+AC: 24, touch 16, flat-footed 17
+AC_Mods: (+4 armor, +6 Dex, +1 dodge, +3 natural)
+HP: '74'
+HD: (11d6+33)
+Saves: Fort +10, Ref +12, Will +9
+Fort: '10'
+Ref: '12'
+Will: '9'
+DefensiveAbilities: stormchild
+Resist: electricity 5, sonic 5
+Speed: fly 60 ft. (perfect)
+Melee:
+  - shortspear +5 (1d6), slam +1 (1d6)
+Ranged:
+  - +1 longbow +13 (1d8+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: whirlwind (10-30 ft. high, 1d6 damage, DC 10)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 11th; concentration +15)
+  values:
+    - label: 7/day
+      value: thunderstaff
+    - label: 1/day
+      value: thunderbolt (11d6, DC 19)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: elemental body II, lightning arcUM (DC 20), overland flight
+    - label: 4th (7/day)
+      value: ball lightningAPG (DC 19), ice storm, shout (DC 19), solid fog
+    - label: 3rd (7/day)
+      value: >-
+        elemental auraAPG (DC 18), haste, hold person (DC 17), lightning bolt
+        (DC 18), wind wall
+    - label: 2nd (7/day)
+      value: >-
+        cat's grace, elemental speechAPG, gust of wind (DC 16), protection from
+        arrows, resist energy, see invisibility
+    - label: 1st (7/day)
+      value: >-
+        alter windsAPG (DC 15), comprehend languages, mage armor, obscuring
+        mist, shocking grasp, vanishAPG (DC 15)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze (DC 14), drenchUM (DC 14), flare (DC 14), ghost
+        sound (DC 14), joltUM, mage hand, mending, prestidigitation
+AbilityScores:
+  - 10
+  - 22
+  - 14
+  - 12
+  - 8
+  - 18
+BaseAtk: '5'
+CMB: '5'
+CMD: '21'
+Feats:
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Initiative
+  - Martial Weapon Proficiency (longbow)
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Shot
+  - Skill Focus (Perception)
+  - Weapon Focus (longbow)
+Skills:
+  - Fly +14
+  - Intimidate +17
+  - Perception +15
+  - Profession (soldier) +9
+  - Use Magic Device +13
+Languages:
+  - Common
+  - Elven
+  - Kelish
+SQ: >-
+  bloodline arcana (+1 to save DC of spells with electricity or sonic
+  descriptor), elf blood
+Source: AP 130
+IsTemplate: '0'
+Bloodline: Stormborn
+BeforeCombat: >-
+  Kane maintains his mage armor and protection from arrow spells while on duty.
+  If he expects trouble, he casts haste on the honor guard and cat's grace and
+  elemental body II on himself, transforming into a darkly roiling air
+  elemental.
+DuringCombat: >-
+  Kane flies into the skies and activates his thunderstaff ability to grant his
+  longbow the shocking burst special ability, then attempts to pick off enemies
+  from the sky. Once this ability wears off in 2 rounds, he switches to
+  lightning arc, ball lightning, and lightning bolt before reactivating it.
+Morale: Kane attempts to flee if reduced below 20 hit points.
+Gear: pearl of power (2nd level)
+OtherGear: +1 longbow, shortspear, cloak of resistance +3
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+BaseStatistics: >-
+  Without his spells cast, Kane's statistics are AC 12, tough 12, flat-footed
+  10; Ref +8; Speed 30 ft.; Ranged +1 longbow +9 (1d8+1/x3); Special Attacks
+  loses whirlwind; Dex 22; CMD 17; Skills Fly +2.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11799'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,101 @@
+Name: Vrock Ritualist
+CR: '13'
+XP: '25600'
+Race: Half-orc
+Class: cleric of Lamashtu 14
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +4
+AC: 25, touch 14, flat-footed 25
+AC_Mods: (+9 armor, +4 deflection, +2 natural)
+HP: '150'
+HD: (14d8+84)
+Saves: Fort +13, Ref +6, Will +13
+Fort: '13'
+Ref: '6'
+Will: '13'
+DefensiveAbilities: orc ferocity
+Speed: 30 ft. (20 ft. in armor)
+Melee:
+  - +1 flaming heavy mace +13/+8 (1d8+2 plus 1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 5/day (DC 19, 7d6), chaos blade (7 rounds, 2/day),
+  scythe of evil (7 rounds, 2/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 14th; concentration +18)
+  values:
+    - label: 7/day
+      value: touch of chaos
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 14th; concentration +18)   7th-blasphemyD (DC 21),
+  destruction (DC 21), symbol of weakness (DC 21)   6th-blade barrier (DC 20),
+  heal (2), planar binding (demons only)D (DC 20)   5th-dispel good (2), dispel
+  lawD, slay living (DC 19)   4th-air walk, chaos hammerD (DC 18), lesser planar
+  ally (2), poison (2, DC 18)   3rd-bestow curse (DC 17), blindness/deafness (2,
+  DC 17), contagion (DC 17), rageD, summon monster III   2nd-align weapon (evil
+  only)D, cure moderate wounds (2), hold person (2, DC 16), silence (DC 16)  
+  1st-command (3, DC 15), protection from good, protection from lawD, shield of
+  faith   0 (at will)-bleed (DC 14), detect magic, sparkAPG (DC 14), stabilize
+SpellDomains: Chaos, Evil (DemonAPG subdomain)
+AbilityScores:
+  - 12
+  - 10
+  - 18
+  - 8
+  - 18
+  - 15
+BaseAtk: '10'
+CMB: '11'
+CMD: '25'
+Feats:
+  - Alignment Channel
+  - Channel Smite
+  - Craft Magic Arms and Armor
+  - Improved Initiative
+  - Lightning Reflexes
+  - Toughness
+  - Weapon Focus (heavy mace)
+Skills:
+  - Intimidate +4
+  - Knowledge (planes
+  - religion) +9
+RacialMods: +2 Intimidate
+Languages:
+  - Common
+  - Orc
+SQ: fury of the abyss, orc blood
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: The vrock ritualist casts shield of faith.
+DuringCombat: >-
+  The ritualist keeps her distance, summoning allies as needed while using
+  spells such as blindness and bestow curse to assail her foes. She turns to
+  melee attacks as a last resort.
+Gear: >-
+  +3 chainmail, +1 flaming heavy mace, amulet of natural armor +2, belt of
+  mighty constitution +2, headband of inspired wisdom +2, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without shield of faith, the ritualist's statistics are AC 22, touch 11,
+  flat-footed 22.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8882'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,166 @@
+Name: Onyst
+CR: '24'
+XP: '1230000'
+Alignment: 'N'
+Size: Huge
+Type: outsider
+SubType: (earth, elemental, extraplanar)
+Init: '2'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +49
+AC: 37, touch 11, flat-footed 34
+AC_Mods: (+2 Dex, +1 dodge, +26 natural, -2 size)
+HP: '660'
+HD: (40d10+440)
+Saves: Fort +35, Ref +24, Will +21
+Fort: '35'
+Ref: '24'
+Will: '21'
+DR: 15/-
+Immune: elemental traits
+SR: '35'
+Speed: 30 ft., burrow 30 ft.
+Speed_Mod: earth glide
+Melee:
+  - 2 slams +58 (4d8+19/19-20)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: command earth elementals (DC 36), earth mastery
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; melee touch +57, ranged touch +40)
+  values:
+    - label: At will
+      value: >-
+        detect magic, dispel magic, greater teleport (self plus 50 lbs. of
+        objects only), soften earth and stone, stone shape
+    - label: 3/day
+      value: flesh to stone (DC 22), move earth, wall of stone (DC 21)
+    - label: 1/day
+      value: >-
+        earthquake (DC 24), summon (level 9, 1d2 elder earth elementals, 1d4
+        greater earth elementals, 1d4 shaitan, or 4-8 xorn 100%)
+AbilityScores:
+  - 49
+  - 14
+  - 32
+  - 20
+  - 22
+  - 22
+BaseAtk: '40'
+CMB: '61'
+CMD: '74'
+Feats:
+  - Awesome Blow
+  - Blind-Fight
+  - Cleave
+  - Critical Focus
+  - Dodge
+  - Great Cleave
+  - Great Fortitude
+  - Greater Bull Rush
+  - Greater Overrun
+  - Greater Sunder
+  - Improved Bull Rush
+  - Improved Critical (slam)
+  - Improved Overrun
+  - Improved Sunder
+  - Improved Vital Strike
+  - Iron Will
+  - Lunge
+  - Power Attack
+  - Vital Strike
+  - Weapon Focus (slam)
+Skills:
+  - Climb +62
+  - Diplomacy +46
+  - Intimidate +46
+  - Knowledge (arcana) +48
+  - Knowledge (dungeoneering) +48
+  - Knowledge (planes) +48
+  - Knowledge (religion) +45
+  - Perception +49
+  - Sense Motive +49
+  - Stealth +37
+  - Survival +49
+Languages:
+  - Aquan
+  - Auran
+  - Common
+  - Ignan
+  - Terran
+  - telepathy 100 ft.
+Environment: any (Plane of Earth)
+Organization: solitary or band (Onyst plus 2-4 greater earth elementals)
+Treasure: triple standard
+Description_Visual: >-
+  This 15-foot tall hulking humanoid appears to have been chiseled from stone.
+  Its face is mostly featureless though dark recesses seem to function as eyes.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Elementals (Su)
+    description: >-
+      As a standard action, an elemental lord can attempt to gain control of any
+      elemental creature of the same element within 100 feet. Elementals receive
+      a Will save to negate the effect. The DC for this Will save is equal to 10
+      + 1/2 the elemental lord's + its Charisma modifier. Elementals that make
+      their save are immune to the command of that elemental lord for one day.
+      Elementals that fail their saves fall under the elemental lord's control,
+      obeying its commands to the best of their ability. An elemental lord does
+      not need to concentrate to maintain control over commanded elementals.
+      Once commanded, an elemental serves until either it dies, the elemental
+      lord dies, the elemental lord dismisses it, or the summoning magic ends
+      (if the elemental was summoned). An elemental lord can command any number
+      of elementals, so long as their total Hit Dice do not exceed twice the
+      elemental lord's Hit Dice. If an elemental creature is under the control
+      of another creature, the elemental lord can attempt an opposed Charisma
+      check to gain control of the elemental.
+  - name: Earth Glide (Ex)
+    description: >-
+      Onyst can pass through stone, dirt, or almost any other sort of earth
+      except metal as easily as a fish swims through water. If protected against
+      fire damage, he can even glide through lava. His burrowing leaves behind
+      no tunnel or hole, nor does it create any ripple or other sign of his
+      presence. A move earth spell cast on an area containing him flings him
+      back 30 feet, stunning him for 1 round unless he succeeds on a DC 15
+      Fortitude save.
+  - name: Earth Mastery (Ex)
+    description: >-
+      Onyst gains a +1 bonus on attack and damage rolls if both he and his foe
+      are touching the ground. If an opponent is airborne or waterborne, Onyst
+      takes a -4 penalty on attack and damage rolls. These modifiers apply to
+      bull rush and overrun maneuvers, whether Onyst is initiating or resisting
+      these kinds of attacks. (These modifiers are not included in the
+      statistics block.)
+Description:
+  - >-
+    Onyst makes his home in a gigantic complex of caverns hollowed into the side
+    of an enormous mountain of stone on the Plane of Earth. He is constantly
+    attended by various earth elementals, stone giants, and xorn. He has a blue
+    dragon of advanced age; some say the dragon serves as advisor and counsel,
+    others say it is nothing more than a pet.
+  - >-
+    In battle, Onyst likes to pound his foes with his enormous fists. Creatures
+    that prove meddlesome are turned to stone and then pulverized, their remains
+    scattered to the winds.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+AlternateNameForm: Lord Of Earth Elementals
+id: '4818'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

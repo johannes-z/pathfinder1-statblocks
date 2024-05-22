@@ -1,0 +1,94 @@
+Name: Battle Mage
+CR: '2'
+XP: '600'
+Race: elf
+Class: wizard 3
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +5
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex)
+HP: '19'
+HD: (3d6+6)
+Saves: Fort +2, Ref +3, Will +3; +2 vs. enchantments
+Fort: '2'
+Ref: '3'
+Will: '3'
+Save_Mods: +2 vs. enchantments
+Immune: sleep
+Speed: 30 ft.
+Melee:
+  - mwk rapier +3 (1d6/18-20)
+Ranged:
+  - mwk longbow +4 (1d8+1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hand of the apprentice (6/day)
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 3rd; concentration +6)   2nd-mirror image,
+  scorching ray   1st-magic missile, shield, shocking grasp   0 (at will)-daze
+  (DC 13), detect magic, light, resistance
+AbilityScores:
+  - 12
+  - 15
+  - 12
+  - 17
+  - 10
+  - 8
+BaseAtk: '1'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Combat Casting
+  - Point-Blank Shot
+  - Scribe Scroll
+Skills:
+  - Acrobatics +4
+  - Climb +2
+  - Knowledge (arcana) +9
+  - Knowledge (history) +7
+  - Perception +5
+  - Spellcraft +9 (+11 to identify magic item properties)
+  - Stealth +4
+Languages:
+  - Common
+  - Draconic
+  - Elven
+  - Orc
+  - Sylvan
+SQ: arcane bond (rapier), elven magic, weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The wizard uses her wand to cast mage armor.
+DuringCombat: >-
+  The wizard attacks with scorching ray, her longbow, and hand of the
+  apprentice. If forced into melee, she casts mirror image and obscuring mist.
+Gear: >-
+  potion of cure moderate wounds, scroll of glitterdust, scroll of invisibility,
+  scroll of magic weapon, scrolls of mirror image (2), scroll of obscuring mist,
+  scroll of protection from evil, scroll of scorching ray, wand of mage armor
+  (20 charges)
+OtherGear: masterwork longbow with 20 arrows, masterwork rapier, spellbook, 113 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor, the wizard's statistics are AC 12, touch 12, flat-footed
+  10.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3824'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

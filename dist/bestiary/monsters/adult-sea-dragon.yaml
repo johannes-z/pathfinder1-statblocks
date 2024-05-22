@@ -1,0 +1,153 @@
+Name: Adult Sea Dragon
+CR: '12'
+XP: '19200'
+Alignment: CG
+Size: Huge
+Type: dragon
+SubType: (water)
+Init: '4'
+Senses:
+  - dragon senses
+  - Perception +27
+Aura: frightful presence (180 ft., DC 22)
+AC: 28, touch 8, flat-footed 28
+AC_Mods: ', +20 natural, -2 size)'
+HP: '172'
+HD: (15d12+75)
+Saves: Fort +16, Ref +11, Will +14
+Fort: '16'
+Ref: '11'
+Will: '14'
+DR: 5/magic
+Immune: electricity, paralysis, sleep
+SR: '23'
+Speed: 40 ft., fly 200 ft. (poor), swim 80 ft.
+Melee:
+  - >-
+    bite +22 (2d8+12), 2 claws +22 (2d6+8), gore +21 (2d6+12), tail slap +19
+    (2d6+12)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite and gore)
+SpecialAttacks: >-
+  breath weapon (50-ft. cone, 12d6 fire damage, DC 22), crush (DC 22, 2d8+12),
+  torrent breath
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +20)
+  values:
+    - label: At Will
+      value: call lightning (DC 18), create water, hydraulic push*
+SpellsKnown:
+  header: Spells Known (CL 7th; concentration +12)
+  values:
+    - label: 3rd (5/day)
+      value: hold person (DC 18), sleet storm
+    - label: 2nd (7/day)
+      value: gust of wind (DC 17), mirror image, see invisibility
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 16), chill touch, color spray (DC 16), expeditious
+        retreat, sleep (DC 16)
+    - label: 0 (at will)
+      value: >-
+        acid splash, daze (DC 15), detect magic, mage hand, ray of frost, read
+        magic, resistance
+AbilityScores:
+  - 27
+  - 10
+  - 21
+  - 20
+  - 21
+  - 20
+BaseAtk: '15'
+CMB: '25'
+CMD: 35 (39 vs. trip)
+Feats:
+  - Alertness
+  - Great Fortitude
+  - Improved Initiative
+  - Lightning Reflexes
+  - Lunge
+  - Multiattack
+  - Weapon Focus (bite and claw)
+Skills:
+  - Diplomacy +23
+  - Fly +10
+  - Intimidate +23
+  - Knowledge (arcana) +23
+  - Knowledge (geography) +23
+  - Knowledge (nature) +23
+  - Perception +27
+  - Sense Motive +27
+  - Stealth +10
+  - Survival +23
+  - Swim +34
+Languages:
+  - Aquan
+  - Auran
+  - Celestial
+  - Common
+  - Draconic
+  - Elven
+SQ: change shape, unfettered swimmer, water breathing
+Environment: any water
+Organization: solitary
+Treasure: triple
+Description_Visual: >-
+  The long, undulating body of this serpentine dragon rolls and bends with
+  scales the color of the ocean's waves.
+Group: Imperial Dragon
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      A young or older sea dragon can assume any humanoid form three times per
+      day as if using polymorph.
+  - name: Sea Strider (Su)
+    description: >-
+      Three times per day as a standard action, an old or older sea dragon can
+      move from one body of water to another as if using the teleport spell
+      (self only).
+  - name: Tidal Wave (Su)
+    description: >-
+      Once per day, a great wyrm sea dragon can create a tidal wave. This
+      ability is the same as the bronze dragon's ability of the same name
+      (Bestiary 104).
+  - name: Torrent Breath (Su)
+    description: >-
+      Instead of a cone of super-heated steam, a very young or older sea dragon
+      can breathe a line of pressurized water twice the length of the sea
+      dragon's cone breath weapon. This line deals bludgeoning damage.
+  - name: Unfettered Swimmer (Su)
+    description: >-
+      A juvenile sea dragon gains a 10-foot bonus to its swim speed. The sea
+      dragon's swim speed continues to increase by an additional 10 feet every
+      two age categories. Furthermore, while swimming, the sea dragon is treated
+      as if under the effects of the spell freedom of movement.
+Description:
+  - >-
+    Infused with the power of waves and storms, sea dragons- or jiaolungs, as
+    they are known in many lands-are draconic protectors of oceans and their
+    creatures. Possessing tempestuous natures, sea dragons wander widely,
+    sometimes claiming thousands of miles of ocean and coastlines as their
+    protectorates.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+OffenseNote: '* See the Advanced Player''s Guide.'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2040'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,144 @@
+Name: Khenpathes
+CR: '15'
+XP: '51200'
+Race: bonepowder ghoul
+MonsterSource: Midgard Bestiary 51
+Alignment: NE
+Size: Small
+Type: undead
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +22
+AC: 17, touch 17, flat-footed 11
+AC_Mods: (+5 Dex, +1 dodge, +1 size)
+HP: '178'
+HD: (17d8+102)
+Saves: Fort +11, Ref +12, Will +12
+Fort: '11'
+Ref: '12'
+Will: '12'
+DefensiveAbilities: amorphous, channel resistance +4
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - bite +18 (1d6 plus 1d3 Str and paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: coalesce, gravedust, whirlwind of bones
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 17th; concentration +23)
+  values:
+    - label: At Will
+      value: >-
+        chill touch (DC 17), deeper darkness, dispel magic, ray of enfeeblement
+        (DC 17)
+    - label: 3/day
+      value: blindness/deafness (DC 18), empowered enervation
+    - label: 1/day
+      value: energy drain (DC 25)
+AbilityScores:
+  - 10
+  - 20
+  - —
+  - 19
+  - 15
+  - 22
+BaseAtk: '12'
+CMB: '16'
+CMD: '27'
+Feats:
+  - Agile Maneuvers
+  - Dodge
+  - Empower Spell-Like Ability (enervation)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Mobility
+  - Spring Attack
+  - Stealthy
+  - Weapon Finesse
+Skills:
+  - Bluff +16
+  - Climb +15
+  - Diplomacy +13
+  - Disguise +15
+  - Escape Artist +18
+  - Fly +19
+  - Intimidate +19
+  - Knowledge (arcana) +20
+  - Knowledge (dungeoneering) +19
+  - Knowledge (history) +15
+  - Knowledge (religion) +20
+  - Perception +22
+  - Stealth +30
+RacialMods: +8 Escape Artist, +4 Stealth
+Languages:
+  - Ancient Osiriani
+  - Draconic
+  - Dwarven
+  - Undercommon
+SQ: dusty form, hide in plain sight
+Source: AP 84
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Coalesce (Su)
+    description: >-
+      Once a bonepowder ghoul has drained 5 or more points of Strength or has
+      inflicted level drain via enervation, it can assume the form of a Small
+      humanoid as a free action. It can maintain this form for no more than 10
+      minutes before it collapses back into its dusty form. When coalesced, a
+      bonepowder ghoul can manipulate objects and make physical attacks.
+  - name: Dusty Form (Su)
+    description: >-
+      A bonepowder ghoul's normal form is a pile of powdered bone. In this form,
+      it can't make bite attacks, nor can it manipulate objects, but it can cast
+      spells and use spell-like abilities and its other special attacks. The
+      damage it takes from physical attacks is reduced by 50% while it's in its
+      dusty form.
+  - name: Gravedust (Su)
+    description: >-
+      As a standard action once every 3 rounds, a bonepowder ghoul can project a
+      40-foot cone of grave dust. All creatures in the area must succeed at a DC
+      24 Fortitude save or take 1d6 points of Strength damage and become
+      infected with ghoul fever (see page 146 of Pathfinder RPG Bestiary, except
+      that this version of the disease has a DC 24 save to resist it). The
+      bonepowder ghoul gains a temporary bonus to Strength equal to the total
+      points of Strength damage dealt. This bonus lasts for 10 minutes per 5
+      ability points drained or until the next time the ghoul projects a cone of
+      gravedust. The save DC is Charisma-based.
+  - name: Paralysis (Su)
+    description: >-
+      Those hit by a bonepowder ghoul's physical attacks must succeed at a DC 24
+      Fortitude save or become paralyzed for 1d4+1 rounds. The save DC is
+      Charisma-based.
+  - name: Whirlwind of Bones (Su)
+    description: >-
+      Once per day as a standard action, a bonepowder ghoul in dusty form can
+      create a small cyclone of whirling teeth and bone fragments. All living
+      creatures within 20 feet of a bonepowder ghoul's whirlwind take 2d12
+      points of slashing damage (no save) and 1d6 points of Strength drain
+      (Fortitude DC 24 negates). The save DC is Charisma-based.
+Gender: Male
+DuringCombat: >-
+  Khenpathes starts his assault in dusty form by using his whirlwind of bones
+  ability, then expels gravedust into area E17, followed by empowered enervation
+  rays. He continues to target foes with his spell-like abilities, alternating
+  his attacks with more gravedust and empowered enervation.
+Morale: >-
+  Zealously committed to serving Hakotep, Khenpathes fights until utterly
+  destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6250'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

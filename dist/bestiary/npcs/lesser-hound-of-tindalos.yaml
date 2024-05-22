@@ -1,0 +1,117 @@
+Name: Lesser Hound Of Tindalos
+CR: '5'
+XP: '1600'
+Race: Lesser Hound Of Tindalos
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar)
+Init: '8'
+Senses:
+  - darkvision 120 ft.
+  - Perception +14
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+4 Dex, +4 natural)
+HP: '52'
+HD: (7d10+14)
+Saves: Fort +7, Ref +9, Will +6
+Fort: '7'
+Ref: '9'
+Will: '6'
+DR: 5/magic
+Immune: mind-affecting effects, poison
+Speed: 40 ft.
+Melee:
+  - bite +11 (2d6+2), 2 claws +11 (1d8+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: ripping gaze
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +8)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At Will
+      value: fog cloud, locate creature
+    - label: 3/day
+      value: >-
+        dimensional anchor, discern location, greater scrying (DC 19),
+        invisibility
+AbilityScores:
+  - 14
+  - 19
+  - 14
+  - 14
+  - 19
+  - 13
+BaseAtk: '7'
+CMB: '9'
+CMD: '23'
+Feats:
+  - Blind-Fight
+  - Improved Initiative
+  - Vital Strike
+  - Weapon Finesse
+Skills:
+  - Acrobatics +13 (+17 jump)
+  - Intimidate +10
+  - Knowledge (arcana) +11
+  - Knowledge (geography) +11
+  - Knowledge (planes) +11
+  - Perception +14
+  - Sense Motive +13
+  - Stealth +14
+  - Survival +13
+Languages:
+  - Aklo
+SQ: angled entry, otherworldly mind
+Source: PFS S5-16
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Angled Entry (Su)
+    description: >-
+      Lesser hounds of Tindalos may use greater teleport (self only) once per
+      round as a swift action and plane shift (self only) 3/day as a standard
+      action (caster level 7th). This ability is otherwise identical to the
+      angled entry ability of a regular hound of Tindalos.
+  - name: Otherworldly Mind (Ex)
+    description: >-
+      Any non-outsider attempting to read the thoughts of a hound of Tindalos or
+      communicate with it telepathically takes 5d4 points of nonlethal damage
+      and must make a DC 16 Will save or become confused for 2d4 rounds. This is
+      a mind-affecting effect. The save DC is Charisma-based.
+  - name: Ripping Gaze (Su)
+    description: >-
+      5d4 slashing damage, 30 feet, Fortitude DC 16 negates. A creature that
+      succeeds on its save is immune to that hound's gaze for 24 hours. This
+      ability is otherwise identical to the ripping gaze ability of a regular
+      hound of Tindalos.
+BeforeCombat: >-
+  The hound of Tindalos casts invisibility on itself then lurks in the temple,
+  analyzing the PCs. If the akata or undead attack, the hound immediately joins
+  the fight; otherwise, it waits for the PCs to study the temple and strikes
+  when their guard is down.
+DuringCombat: >-
+  The hound of Tindalos attacks from invisibility, appearing only when it can
+  subject the PCs to its ripping gaze. The hound makes use of its angled entry
+  ability to leap around the room, attack from unexpected angles, and avoid
+  retaliation.
+Morale: >-
+  If reduced to 10 or fewer hit points, the hound of Tindalos casts plane shift
+  to escape. It returns after a few rounds and remains invisible, stalking the
+  PCs. If discovered, it flees again and does not come back until the PCs leave.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8086'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,134 @@
+Name: Eynemb Subtier 4-5
+CR: '6'
+XP: '2400'
+Race: wayang
+Class: bard (shadow puppeteer) 7
+MonsterSource: Pathfinder RPG Bestiary 4 274, Pathfinder RPG Advanced Race Guide 210
+Alignment: LE
+Size: Small
+Type: humanoid
+SubType: (wayang)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +12
+AC: 16, touch 14, flat-footed 14
+AC_Mods: (+2 armor, +1 deflection, +2 Dex, +1 size)
+HP: '42'
+HD: (7d8+7)
+Saves: >-
+  Fort +2, Ref +7, Will +5; +4 vs. bardic performance, language-dependent, and
+  sonic; +2 vs. shadow spells
+Fort: '2'
+Ref: '7'
+Will: '5'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic+2 vs. shadow spells
+Speed: 20 ft.
+Melee:
+  - rapier +5 (1d4-1/18-20)
+Ranged:
+  - mwk shortbow +10 (1d4-1/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 19 rounds/day (move action; countersong, distraction,
+  fascinate [DC 16], shadow puppets, shadow servant, suggestion [DC 16])
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +10)
+  values:
+    - label: 1/day
+      value: ghost sound (DC 13), pass without trace, ventriloquism (DC 14)
+SpellsKnown:
+  header: Bard Spells Known (CL 7th; concentration +10)
+  values:
+    - label: 3rd (2/day)
+      value: crushing despair (DC 16), major image (DC 16)
+    - label: 2nd (4/day)
+      value: daze monster (DC 15), mirror image, misdirection, sound burst (DC 15)
+    - label: 1st (5/day)
+      value: >-
+        cause fear (DC 14), charm person (DC 14), lesser confusion (DC 14),
+        silent image (DC 14), ventriloquism (DC 14)
+    - label: 0 (at will)
+      value: >-
+        daze (DC 13), detect magic, ghost sound (DC 13), light, mage hand, read
+        magic
+AbilityScores:
+  - 8
+  - 15
+  - 10
+  - 16
+  - 10
+  - 16
+BaseAtk: '5'
+CMB: '3'
+CMD: '16'
+Feats:
+  - Improved Initiative
+  - Point-Blank Shot
+  - Precise Shot
+  - Weapon Focus (shortbow)
+Skills:
+  - Acrobatics +12
+  - Bluff +13
+  - Diplomacy +13
+  - Disguise +13
+  - Intimidate +13
+  - Knowledge (arcana) +16
+  - Knowledge (planes) +16
+  - Linguistics +9
+  - Perception +12
+  - Perform (act) +13
+  - Perform (comedy) +10
+  - Perform (oratory) +13
+  - Sense Motive +13
+  - Stealth +18
+RacialMods: +2 Perception, +2 Stealth
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Gnome
+  - Infernal
+  - Minatan
+  - Shadowtongue
+  - Wayang
+SQ: >-
+  bardic knowledge +3, light and dark, lore master 1/day, shadow magic, shadow
+  play, versatile performances (act, oratory)
+Source: PFS 8-14
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Eynemb casts mirror image on himself and uses his shadow puppets ability to
+  summon a shadowy fiendish constrictor snake (DC 16 Will save to treat as 20%
+  real; see page 17) before interrupting the festival.
+DuringCombat: >-
+  While letting his giant snake do the fighting, Eynemb casts crushing despair
+  and daze monster on those  PCs who seem like obvious fighters. He summons
+  another constrictor snake when the first one is destroyed, and he otherwise
+  tries to use the nearby rocks as cover from the PCs. He also calls the PCs the
+  "true puppets" of the wayangs and their "silly ritual."
+Morale: >-
+  Eynemb surrenders if reduced to 12 or fewer hit points, calling off his
+  shadows in the process. It's unlikely the PCs have time to properly
+  interrogate him, as after 3 rounds of combat, the ritual disruption creates a
+  more pressing concern (see encounter B2).
+Gear: wand of charm person (CL 7th, 8 charges)
+OtherGear: mwk shortbow, rapier, bracers of armor +2, ring of protection +1, 20 arrows
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: shadow puppeteer
+CompanionFamiliarLink: '0'
+id: '11120'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

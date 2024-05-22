@@ -1,0 +1,120 @@
+Name: Yangethe
+CR: '9'
+XP: '6400'
+Race: Yangethe
+MonsterSource: The Dragon's Demand 63
+Alignment: CE
+Size: Large
+Type: aberration
+Init: '4'
+Senses:
+  - darkvision 120 ft., Perception +19
+AC: 23, touch 13, flat-footed 19
+AC_Mods: (+4 Dex, +10 natural, -1 size)
+HP: '115'
+HD: (11d8+66)
+Saves: Fort +9, Ref +9, Will +12
+Fort: '9'
+Ref: '9'
+Will: '12'
+DR: 10/slashing or piercing
+Immune: cold, fear, mind-affecting effects
+SR: '20'
+Speed: 40 ft.
+Melee:
+  - 2 claws +14 (1d6+7), 4 tentacles +13 (1d6+3 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: feeding tentacles
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +13)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At Will
+      value: darkness, telekinesis (DC 18), tree shape
+    - label: 3/day
+      value: fear (DC 17), quickened true strike
+    - label: 1/day
+      value: >-
+        demand (DC 21), psychic blast (DC 18) 1/year-interplanetary teleportUM
+        (self plus 50 lbs. of objects only)
+AbilityScores:
+  - 24
+  - 18
+  - 22
+  - 17
+  - 21
+  - 17
+BaseAtk: '8'
+CMB: +16 (+20 grapple)
+CMD: 40 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Combat Expertise
+  - Lightning Reflexes
+  - Multiattack
+  - Quicken Spell-Like Ability (true strike)
+  - Weapon Focus (tentacles)
+Skills:
+  - Knowledge (arcana) +14
+  - Knowledge (geography) +14
+  - Knowledge (engineering) +17
+  - Perception +19
+  - Sense Motive +16
+  - Spellcraft +17
+  - Use Magic Device +14
+Languages:
+  - Aklo
+  - telepathy 60 ft.
+SQ: no breath
+Source: AP 88
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Feeding Tentacles (Su)
+    description: >-
+      As a standard action as part of maintaining a grapple, a yangethe can use
+      its mouth tentacles to feed on a helpless or grappled creature by making a
+      +14 melee touch attack. If it hits, the feeding tentacles siphon away the
+      victim's emotions and deal 1d4 points of Charisma drain. The yangethe
+      heals 5 points of damage for every point of Charisma it drains in this
+      manner. As long as a creature continues to suffer this Charisma drain,
+      each time it attempts to sleep it is affected by a nightmare spell (CL
+      10th, DC 20), experiencing terrifying dreams in which it relives the
+      feeling of being fed upon over and over. All effects from the feeding
+      tentacles are mind-affecting effects.
+  - name: Psychic Blast (Sp)
+    description: >-
+      This spell-like ability functions as confusion, and also deals 10d6 points
+      of nonlethal damage when it first affects foes (Will DC 21 half). This
+      ability is the equivalent of a 5th-level spell.
+BeforeCombat: The yangethe disguises itself with tree shape.
+DuringCombat: >-
+  A yangethe remains in hiding while new prey approaches, hoping that the lure
+  of bodies is enough to draw victims within range of a psychic blast. Once the
+  majority of foes come within range, the yangethe uses psychic blast and then
+  follows that up by moving to attack. It uses quickened true strike whenever it
+  only makes one attack in a round, and uses fear to try to scare off additional
+  foes but tries to keep at least one victim close by to try to capture. If foes
+  escape (or if they avoid the lure of treasure and move on), the yangethe uses
+  demand shortly thereafter to suggest one of the visitors return to loot the
+  body alone.
+Morale: >-
+  If reduced to fewer than 20 hit points, a yangethe teleports away to a distant
+  planet in another galaxy to recover&#8211;it may seek to return to the Scar of
+  the Spider in a year, but harbors no need for revenge against the PCs.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6464'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

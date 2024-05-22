@@ -1,0 +1,142 @@
+Name: Witch-doll Golem
+CR: '11'
+XP: '12800'
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 25, touch 9, flat-footed 25
+AC_Mods: ', +16 natural, -1 size)'
+HP: '107'
+HD: (14d10+30)
+Saves: Fort +4, Ref +4, Will +4
+Fort: '4'
+Ref: '4'
+Will: '4'
+DefensiveAbilities: resist magic
+DR: 10/adamantine
+Immune: construct traits, magic
+Speed: 30 ft.
+Melee:
+  - 2 slams +21 (2d10+8) or needle +21/+16/+11 (2d6+12/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: extra damage against foe, find target, linked attack, witch-doll link
+AbilityScores:
+  - 26
+  - 10
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '14'
+CMB: '23'
+CMD: '33'
+Environment: any
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This bizarre construct appears to be crafted from stuffed human skin, with
+  large button like platters in place of eye holes and crude stitching forming a
+  pinched mouth. Knots of humanoid hair top its head and it is dressed in a
+  patchwork of ill fitting clothes. Large needles and pins pierce the creature
+  where a humanoid's vital organs would be.
+Group: Golem
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Extra Damage Against Foe (Su)
+    description: >-
+      When it successfully establishes a witch-doll link, a witch-doll golem
+      deals an extra 1d8 points of damage against its programmed target each
+      time one of its attacks hits.
+  - name: Find Target (Sp)
+    description: >-
+      When ordered to find its programmed target, a witch-doll golem does so
+      unerringly, as though guided by discern location.
+  - name: Linked Attack (Su)
+    description: >-
+      When a witch-doll golem successfully establishes a witchdoll link, any
+      damage taken by the witch-doll golem from any source other than the linked
+      host deals half its damage to the golem and half its damage to the linked
+      target so long as they are within 60 feet of each other. Only the linked
+      target can successfully attack a witchdoll golem and not take "linked
+      damage". Attacks that don't damage a witch-doll golem (because of its
+      immunities or its damage reduction) likewise deal no damage to the linked
+      target. Attacks that damage the linked target do not damage the witchdoll
+      golem (the link it establishes is one way). Healing (or repair in the case
+      of the witch-doll golem) is not passed through the link. A witch-doll
+      golem cannot be programmed to attack itself in order to damage its
+      programmed target. Witch-Doll
+  - name: Link (Su)
+    description: >-
+      A witch-doll golem can establish an invisible link between itself and its
+      programmed target by making a successful melee attack against its
+      programmed target. If successful, the opponent can attempt a DC 19
+      Fortitude save to resist the link. The save DC is Constitution-based and
+      includes a +2 racial bonus. A witch-doll link is broken if the witch-doll
+      golem is destroyed, the target dies, or the witch-doll golem is programmed
+      with a new target. A witch-doll golem cannot establish this link with any
+      other creature other than its programmed target.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A witch-doll golem is immune to any spell or spell-like ability that
+      allows spell resistance. In addition, certain spells function differently
+      against the creature, as noted below. A confusion spell slows it (as the
+      slow spell) for 2d6 rounds, with no saving throw. A mending spell heals
+      2d6 hit points.
+  - name: Resist Magic (Ex)
+    description: >-
+      A witch-doll golem gains a +4 bonus on all saving throws against any spell
+      or spell-like ability or effect cast by its programmed target (provided
+      the effect gets past its immunity to magic). The witch-doll does not have
+      to be linked to its target to gain this bonus.
+Description:
+  - >-
+    The witch-doll golem is a horrific hunter/assassin crafted in the likeness
+    of a spellcaster's chosen foe. Witch-doll golems are designed to enact some
+    vengeance on behalf of its creator and are thus made from some of the foe's
+    personal effects (hair, blood, bit of skin, fingernail clippings, etc.). It
+    may be re-programmed should the witch-doll golem's master find a new enemy.
+    The master merely adds new personal effects to the golem and fills it with
+    new commands. The witch-doll golem then follows these commands mindlessly
+    until it or its target is destroyed. Note that the witch-doll golem can only
+    have one programmed target at one time. A witch-doll golem stands twice the
+    height of a human and weighs about 1,000 pounds. A witch-doll golem cannot
+    speak. When facing its programmed target, the witch-doll immediately
+    attempts to establish a witch-doll link by pummeling the target with its
+    fists or stabbing it with one of the needles in its body. It relentlessly
+    attacks its foe with a ferocity unseen in most mindless automatons. Against
+    other foes, the golem employs its fists and needles while attempting to keep
+    its programmed target within range. Construction A witch-doll golem is made
+    from a patchwork of cloth, leather, rags, and other miscellaneous materials
+    totaling 1,000 gp, all haphazardly stitched together. The creator of a
+    witchdoll golem must have a physical part of the programmed target and use
+    it in the construction of the witch-doll golem. This physical part can be a
+    piece of hair, fingernail clippings, a few drops of blood, a piece of skin,
+    and so on. WITCH-DOLL GOLEM CL 13th; Price 42,200 Requirements Craft
+    Construct, discern location, geas/quest, limited wish, polymorph any object,
+    telepathy, creator must be caster level 13th; Skill Craft (sowing) DC 18;
+    Cost 21,600 gp Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2656'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

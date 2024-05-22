@@ -1,0 +1,100 @@
+Name: Death Chanter
+CR: '6'
+XP: '2400'
+Race: Human
+Class: necromancer 7
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +8
+AC: 24, touch 13, flat-footed 22
+AC_Mods: (+4 armor, +1 deflection, +2 Dex, +3 natural, +4 shield)
+HP: '60'
+HD: (7d6+33)
+HP_Mods: Defensive Abilities blur, mirror image DR 10/adamantine
+Saves: Fort +4, Ref +5, Will +7
+Fort: '4'
+Ref: '5'
+Will: '7'
+Speed: 30 ft.
+Speed_Mod: fly 60 ft. (good)
+Melee:
+  - dagger +2 (1d4-1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: School Spell-Like Abilities (CL 7th; concentration +11)
+  values:
+    - label: 7/day
+      value: grave touch (3 rounds)
+SpellsPrepared: >-
+  Necromancer Spells Prepared (CL 7th; concentration +11)   4th-animate dead,
+  contagion (DC 20), empowered scorching ray   3rd-fireball, haste, ray of
+  exhaustion (DC 19), vampiric touch   2nd-blindness/deafness, false life,
+  scorching ray (2), spectral hand   1st-chill touch (DC 17), mage armor, magic
+  missile (3), shield   0 (at will)-bleed, light, resistance, touch of fatigue
+  (DC 16)
+AbilityScores:
+  - 8
+  - 14
+  - 13
+  - 18
+  - 12
+  - 10
+BaseAtk: '3'
+CMB: '2'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Empower Spell
+  - Greater Spell Focus (necromancy)
+  - Improved Initiative
+  - Scribe Scroll
+  - Spell Focus (necromancy)
+  - Toughness
+Skills:
+  - Bluff +6
+  - Fly +12
+  - Heal +8
+  - Knowledge (arcana
+  - religion) +14
+  - Perception +8
+  - Spellcraft +14
+  - Stealth +9
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Elven
+  - Infernal
+SQ: arcane bond (wand of enervation), power over undead
+Source: Villain Codex
+IsTemplate: '0'
+ProhibitedSchools: enchantment, illusion
+BeforeCombat: >-
+  The death chanter casts false life, mage armor, shield and spectral hand and
+  uses his potion and scrolls.
+Gear: >-
+  potion of barkskin (CL 6th), scroll of blur, scroll of fly, scroll of mirror
+  image, scroll of stoneskin, bonded wand of enervation (7 charges), tanglefoot
+  bags (2)
+OtherGear: dagger, cloak of resistance +1, ring of protection +1, Pallid Chant, 128 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8868'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

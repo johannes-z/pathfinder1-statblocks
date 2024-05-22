@@ -1,0 +1,156 @@
+Name: Avaric
+CR: '15'
+XP: '51200'
+Race: human (Pureblooded Azlanti) vampire
+Class: aristocrat 1/mesmerist (spirit walker) 13
+MonsterSource: >-
+  Pathfinder Campaign Setting: The Inner Sea World Guide 12, Pathfinder RPG
+  Bestiary 270, Pathfinder RPG Occult Adventures 38, 97
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, human)
+Init: '11'
+Senses:
+  - darkvision 60 ft.
+  - Perception +31
+AC: 33, touch 16, flat-footed 29
+AC_Mods: (+9 armor, +2 deflection, +3 Dex, +1 dodge, +8 natural)
+HP: '205'
+HD: (14d8+139)
+HP_Mods: fast healing 5
+Saves: Fort +16, Ref +21, Will +24
+Fort: '16'
+Ref: '21'
+Will: '24'
+DefensiveAbilities: channel resistance +4
+DR: 10/magic and silver
+Immune: undead traits
+Resist: cold 10, electricity 10
+Weaknesses: vampire weaknesses
+Speed: 30 ft. (20 ft. in armor)
+Melee:
+  - +3 keen rapier +20/+15 (1d6+10/15-20)
+  - slam +11 (1d4+2 plus energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blood drain, bold stares (disorientation, sapped magic, susceptibility),
+  children of the night, create spawn, dominate (DC 25), energy drain (2 levels,
+  DC 25), hypnotic stare (-3), manifold tricks (4 tricks), mesmerist tricks
+  14/day (astounding avoidance, compel alacrity, gift of will, mesmeric mirror,
+  misdirection, psychosomatic surge, vision of blood [DC 24]), painful stare (+6
+  or +4d6)
+SpellsKnown:
+  header: Mesmerist Spells Known (CL 13th; concentration +21)
+  values:
+    - label: 5th (2/day)
+      value: mind fog (DC 23), phantasmal webAPG (DC 23)
+    - label: 4th (5/day)
+      value: >-
+        enervation, greater command (DC 22), hold monster (DC 22), major curseUM
+        (DC 23)
+    - label: 3rd (6/day)
+      value: >-
+        glibness, nondetection, ray of exhaustion (DC 22), see invisibility,
+        vampiric touch
+    - label: 2nd (7/day)
+      value: >-
+        detect thoughts (DC 20), enthrall (DC 20), false life, invisibility,
+        touch of idiocy
+    - label: 1st (7/day)
+      value: >-
+        beguiling giftAPG (DC 19), command (DC 19), disguise self, hypnotism (DC
+        19), ray of enfeeblement (DC 20), unseen servant
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 19), detect magic, mage hand, open/close (DC 18),
+        prestidigitation, read magic
+AbilityScores:
+  - 21
+  - 24
+  - —
+  - 17
+  - 14
+  - 27
+BaseAtk: '9'
+CMB: '14'
+CMD: '34'
+Feats:
+  - Alertness
+  - Bleeding Stare
+  - Combat Expertise
+  - Combat Reflexes
+  - Command Undead
+  - Dodge
+  - Fencing Grace
+  - Improved Feint
+  - Improved Initiative
+  - Lightning Reflexes
+  - Power Attack
+  - Spell Focus (necromancy)
+  - Toughness
+  - Weapon Finesse
+  - Weapon Focus (rapier)
+Skills:
+  - Acrobatics +4
+  - Bluff +33
+  - Diplomacy +25
+  - Disguise +21
+  - Knowledge (history
+  - local
+  - nobility) +16
+  - Perception +31
+  - Sense Motive +31
+  - Spellcraft +20
+  - Stealth +29
+  - Use Magic Device +25
+RacialMods: +8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Azlanti
+  - Draconic
+  - Ghol-Gan
+  - Giant
+  - Infernal
+SQ: >-
+  change shape (dire bat or wolf, beast shape II), continued animation, gaseous
+  form, glib lie (DC 28), shadowless, spider climb, undead inception
+Source: AP 114
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  At the start of the day, Avaric implants the mesmeric mirror trick in himself
+  and the vision of blood trick in his two bodyguards in area B14. If given
+  forewarning, Avaric casts false life, see invisibility, and dons his mask of
+  the mesmeristOA if not already wearing it. The adjustment for false life has
+  not been included in this stat block.
+DuringCombat: >-
+  He uses greater command and hold person to eliminate dangerous melee threats
+  before closing in to deal with spellcasters with his rapier and his sapped
+  magic bold stare. If outmatched, he uses enervation to make the fight costly
+  for his enemies.
+Morale: >-
+  If reduced to 50 hp, Avaric casts invisibility and becomes gaseous in order to
+  get to the dungeon and area B24 specifically. Once inside, he attempts to
+  recover his vigor with fast healing.
+Gear: >-
+  +3 glamered breastplate, +3 keen rapier, amulet of natural armor +2, belt of
+  incredible dexterity +4, cloak of resistance +4, headband of alluring charisma
+  +4, mask of the mesmeristOA, ring of protection +2, keys to areas B5 and B11,
+  630 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: spirit walker
+CompanionFamiliarLink: '0'
+id: '11087'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

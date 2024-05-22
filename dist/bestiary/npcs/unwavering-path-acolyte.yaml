@@ -1,0 +1,144 @@
+Name: Unwavering Path Acolyte
+CR: '11'
+XP: '12800'
+Race: Axiomite
+Class: oracle 6
+MonsterSource: Pathfinder RPG Advanced Player's Guide 42, Pathfinder RPG Bestiary 2 36
+Alignment: LN
+Size: Medium
+Type: outsider
+SubType: (extraplanar, lawful)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +25
+AC: 27, touch 15, flat-footed 22
+AC_Mods: (+6 armor, +4 Dex, +1 dodge, +6 natural)
+HP: '152'
+HD: (6d8+10d10+70)
+HP_Mods: regeneration 5 (chaotic or magic)
+Saves: Fort +11, Ref +15, Will +22
+Fort: '11'
+Ref: '15'
+Will: '22'
+DR: 10/chaotic
+Immune: disease, electricity, mind-affecting effects
+Resist: cold 10, fire 10
+SR: '19'
+Speed: 30 ft., fly 30 ft. (good)
+Melee:
+  - +1 axiomatic longspear +22/+17/+12 (1d8+11/x3 plus 2d6 vs. chaotic)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with longspear)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +16)
+  values:
+    - label: 3/day
+      value: >-
+        dispel chaos, haste, hold monster (DC 22), lightning bolt (DC 20),
+        empowered order's wrath (DC 21), telekinesis, true strike
+    - label: 1/day
+      value: summon (level 6, 1 zelekhut, see text), true seeing
+SpellsKnown:
+  header: Oracle Spells Known (CL 6th; concentration +13)
+  values:
+    - label: 3rd (5/day)
+      value: cure serious wounds, protection from energy, sands of timeUM
+    - label: 2nd (7/day)
+      value: >-
+        cure moderate wounds, gentle repose (DC 19), graceAPG, hold person (DC
+        19)
+    - label: 1st (8/day)
+      value: >-
+        command (DC 18), cure light wounds, divine favor, forbid actionUM (DC
+        18), memory lapseAPG (DC 18), sanctuary (DC 18)
+    - label: 0 (at will)
+      value: detect magic, guidance, light, mending, read magic, stabilize, virtue
+AbilityScores:
+  - 25
+  - 19
+  - 18
+  - 19
+  - 22
+  - 25
+BaseAtk: '14'
+CMB: '21'
+CMD: '36'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Empower Spell-Like Ability (order's wrath)
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Mobility
+  - Spring Attack
+Skills:
+  - Craft (weaving) +15
+  - Diplomacy +26
+  - Fly +7
+  - Knowledge (arcana
+  - history
+  - nature) +14
+  - Knowledge (planes) +23
+  - Perception +25
+  - Sense Motive +25
+  - Spellcraft +23
+  - Stealth +20
+  - Survival +23
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+SQ: >-
+  crystalline dust form, oracle's curse (clouded vision), revelations (erase
+  from timeUM, time flickerUM), unwavering blade
+Source: PFS 8-25
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Crystalline Dust Form (Su)
+    description: >-
+      An axiomite can shift between its solid body and one made of golden,
+      crystalline dust as a free action once per round. In dust form, the
+      axiomite looks like a shifting mass of glowing mathematical symbols and
+      equations. In this form it can fly and gains the incorporeal quality; it
+      can use spell-like abilities but cannot make physical attacks. In its
+      solid form, an axiomite cannot fly. Both shapes are the axiomite's true
+      form, and it does not revert to a different form if killed. A true seeing
+      spell reveals both forms simultaneously.
+  - name: Summon Inevitable (Sp)
+    description: >-
+      Once per day, four axiomites can join hands to summon a single zelekhut
+      inevitable with 100% chance of success as a full-round action.
+  - name: Unwavering Blade (Su)
+    description: >-
+      Any weapon an Unwavering Path acolyte wields (including its longspear) is
+      treated as a +1 axiomatic weapon in addition to its other qualities.
+      Weapons retain this quality for 1 round after the axiomite releases the
+      weapon.
+BeforeCombat: An Unwavering Path acolyte casts true seeing before combat begins.
+DuringCombat: >-
+  The acolytes provide various forms of support to Vector, such as pinning down
+  troublesome melee combatants, performing hit-and-run tactics, blasting enemies
+  with empowered order's wrath, or even providing the inevitable healing. If
+  harried by a vexing opponent, an acolyte attempts to erase the creature using
+  its erase from time revelation.
+OtherGear: +2 chain shirt, mwk longspear, cloak of resistance +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+Mystery: timeUM
+CompanionFamiliarLink: '0'
+id: '11624'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

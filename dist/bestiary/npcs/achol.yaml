@@ -1,0 +1,128 @@
+Name: Achol
+CR: '13'
+XP: '25600'
+Race: couatl
+MonsterSource: Pathfinder RPG Bestiary 4 24, 60; Pathfinder RPG Bestiary 49
+Alignment: LG
+Size: Large
+Type: outsider
+SubType: (aquatic, chaotic, native)
+Init: '11'
+Senses:
+  - >-
+    darkvision 60 ft., detect chaos, detect evil, detect good, detect law,
+    low-light vision
+  - Perception +29
+AC: 26, touch 13, flat-footed 22
+AC_Mods: (+3 Dex, +1 dodge, +13 natural, -1 size)
+HP: '174'
+HD: (12d10+108)
+HP_Mods: fast healing 5
+Saves: Fort +14, Ref +13, Will +15
+Fort: '14'
+Ref: '13'
+Will: '15'
+DefensiveAbilities: ability healing
+DR: 5/-
+Immune: disease, mind-affecting effects, poison
+Resist: acid 5, cold 5, electricity 5, fire 5, sonic 5
+Speed: 20 ft., fly 50 ft. (good), swim 30 ft.
+Melee:
+  - torturous touch +17 (2d6 plus 1d6 Dex damage and convulsions)
+  - bite +17 (1d8+9 plus grab and poison)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: agonized wail (DC 21), baleful gaze (DC 21), constrict (1d8+9), poison
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +4)
+  values:
+    - label: Constant
+      value: detect chaos, detect evil, detect good, detect law
+    - label: At Will
+      value: >-
+        detect thoughts (DC 17), dimension door (within sacred site only),
+        ethereal jaunt (CL 16th), invisibility, plane shift (DC 22)
+    - label: 3/day
+      value: alarm, knock
+    - label: 1/day
+      value: >-
+        arcane lock, augury, clairaudience/ clairvoyance, commune, dismissal (DC
+        20), guards and wards, hold portal
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 9th; concentration +4)
+  values:
+    - label: 4th (5/day)
+      value: charm monster (DC 19), unholy blight (DC 19)
+    - label: 3rd (7/day)
+      value: dispel magic, lightning bolt (DC 18), slow (DC 18)
+    - label: 2nd (7/day)
+      value: >-
+        blindness/deafness (DC 17), cure moderate wounds, scorching ray, silence
+        (DC 17)
+    - label: 1st (8/day)
+      value: burning hands (DC 16), grease, magic missile, shield, true strike
+    - label: 0 (at will)
+      value: >-
+        arcane mark, create water, detect magic, disrupt undead, ghost sound (DC
+        15), guidance, mage hand, read magic
+AbilityScores:
+  - 22
+  - 16
+  - 26
+  - 11
+  - 21
+  - 21
+BaseAtk: '12'
+CMB: +19 (+23 grapple)
+CMD: 33 (can't be tripped)
+Feats:
+  - Alertness
+  - DiehardB
+  - Dodge
+  - Empower Spell
+  - EnduranceB
+  - Eschew MaterialsB
+  - Great FortitudeB
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - ToughnessB
+Skills:
+  - Acrobatics +3 (-1 when jumping)
+  - Bluff +14
+  - Diplomacy +14
+  - Fly +12
+  - Intimidate +13
+  - Knowledge (arcana
+  - religion) +10
+  - Perception +29
+  - Sense Motive +12
+  - Spellcraft +12
+  - Stealth +14
+  - Swim +14
+RacialMods: +8 Intimidate, +5 Perception, +5 Sense Motive
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - telepathy 100 ft.
+SQ: amphibious, blessed life, divine swiftness, sacred site, torturous touch
+Source: AP 124
+IsTemplate: '0'
+Gender: Male
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: divine guardian|broken soul|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11681'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

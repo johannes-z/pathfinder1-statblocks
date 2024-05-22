@@ -1,0 +1,98 @@
+Name: Enchantress
+CR: '2'
+XP: '600'
+Race: Gnome
+Class: sorcerer 3
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +2
+AC: 17, touch 13, flat-footed 15
+AC_Mods: (+4 armor, +2 Dex, +1 size)
+HP: '22'
+HD: (3d6+9)
+Saves: Fort +3, Ref +3, Will +3; +2 vs. illusions
+Fort: '3'
+Ref: '3'
+Will: '3'
+Save_Mods: +2 vs. illusions
+DefensiveAbilities: defensive training
+Speed: 20 ft.
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: hatred
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd; concentration +6)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound (DC 14), prestidigitation, speak with
+        animals Bloodline Spell-Like Abilities (CL 3rd; concentration +6)
+    - label: 6/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 3rd; concentration +6)
+  values:
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 15), color spray (DC 15), entangle (DC 14), magic
+        missile
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze (DC 16), detect magic, ghost sound (DC 14), ray of
+        frost
+AbilityScores:
+  - 6
+  - 14
+  - 15
+  - 12
+  - 10
+  - 17
+BaseAtk: '1'
+CMB: '-2'
+CMD: '10'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Spell Focus (enchantment)
+Skills:
+  - Bluff +9
+  - Knowledge (nature) +9
+  - Perception +2
+  - Spellcraft +7
+RacialMods: +2 Perception
+Languages:
+  - Common
+  - Gnome
+  - Goblin
+  - Sylvan
+SQ: gnome magic, woodland stride
+Source: Villain Codex
+IsTemplate: '0'
+Bloodline: fey
+BeforeCombat: The enchantress activates her wand of mage armor.
+Gear: >-
+  potion of barkskin, potion of resist energy (fire), scroll of fireball, scroll
+  of hide bruises*, scroll of summon monster II, wand of mage armor (10
+  charges), thunderstone
+OtherGear: elixir of vision, 70 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without mage armor, the enchantress's statistics are AC 13, flat-footed 11.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8801'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

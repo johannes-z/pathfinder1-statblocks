@@ -1,0 +1,113 @@
+Name: Ironwing Squad Sergeant
+CR: '4'
+XP: '1200'
+Race: Hobgoblin
+Class: hunter 5
+MonsterSource: Pathfinder RPG Bestiary 175, Pathfinder RPG Advanced Class Guide 26
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+AC: 21, touch 13, flat-footed 18
+AC_Mods: (+5 armor, +3 Dex, +2 natural, +1 shield)
+HP: '41'
+HD: (5d8+15)
+Saves: Fort +7, Ref +8, Will +3
+Fort: '7'
+Ref: '8'
+Will: '3'
+Speed: 30 ft.
+Melee:
+  - mwk longsword +7 (1d8+4/19-20), mwk light pick +6 (1d4+2/x4)
+Ranged:
+  - composite longbow +6 (1d8+3/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellsKnown:
+  header: Hunter Spells Known (CL 5th; concentration +6)
+  values:
+    - label: 2nd (2/day)
+      value: >-
+        barkskin, flaming sphere (DC 13), hold animal (DC 13), summon nature's
+        ally II
+    - label: 1st (5/day)
+      value: >-
+        animal messenger, cure light wounds, resist energy, speak with animals,
+        summon nature's ally I
+    - label: 0 (at will)
+      value: >-
+        detect magic, detect poison, flare (DC 11), guidance, mending,
+        resistance
+AbilityScores:
+  - 18
+  - 16
+  - 14
+  - 10
+  - 13
+  - 8
+BaseAtk: '3'
+CMB: '7'
+CMD: '20'
+Feats:
+  - Outflank
+  - Spirit of the Corps
+  - Two-Weapon Defense
+  - Two-Weapon Fighting
+  - Weapon Focus (longsword)
+Skills:
+  - Climb +9
+  - Handle Animal +7
+  - Intimidate +7
+  - Knowledge (geography) +7
+  - Knowledge (nature) +5
+  - Perception +9
+  - Stealth +6
+  - Survival +9
+RacialMods: +4 Stealth
+Languages:
+  - Common
+  - Goblin
+SQ: >-
+  animal companion (roc), animal focus (5 minutes/day), hunter tactics, improved
+  empathic link, nature training, track +2, wild empathy +4, woodland stride
+Source: AP 116
+IsTemplate: '0'
+BeforeCombat: >-
+  Before a fight, the sergeants chug their fervor juice to gain the ferocity
+  ability, cast barkskin on themselves, and use animal focus (bull) to gain a
+  bonus to Strength.
+DuringCombat: >-
+  The Ironwing Squad works closely together, flanking tough-looking enemies and
+  directing their rocs to harry spellcasters and ranged opponents.
+Morale: >-
+  Loyal to each other and the Ironfang Legion, these sergeants fight until
+  slain.
+Gear: fervor juiceMC (2), smokesticks (2), thunderstones (2)
+OtherGear: >-
+  +1 chain shirt, composite longbow (+3 Str) with 20 arrows, mwk light pick, mwk
+  longsword, cloak of resistance +1, backpack, belt pouch, blanket, flint and
+  steel, holly and mistletoe, mess kitUE, spell component pouch, tindertwigs
+  (5), trail rations (5), waterskin, 11 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  : Without barkskin or animal focus, Ironwing Squad sergeants' statistics are
+  AC 18, flat-footed 15; Melee mwk longsword +6 (1d8+3/19-20), mwk light pick +5
+  (1d4+1/x4); Str 16; CMB +6; CMD 19; Skills Climb +9.
+AgeCategory: Adult
+CompanionFamiliarLink: '11160'
+id: '11159'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

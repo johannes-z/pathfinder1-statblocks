@@ -1,0 +1,92 @@
+Name: Black Milk Mother
+CR: '7'
+XP: '3200'
+Race: gnoll
+MonsterSource: Pathfinder RPG Bestiary 155, Pathfinder RPG Bestiary 2 204
+Alignment: CE
+Size: Large
+Type: humanoid
+SubType: (giant, gnoll)
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +5
+AC: 16, touch 9, flat-footed 16
+AC_Mods: (+7 natural, -1 size)
+HP: '105'
+HD: (10d8+60)
+Saves: Fort +12, Ref +3, Will +5
+Fort: '12'
+Ref: '3'
+Will: '5'
+Weaknesses: light sensitivity
+Speed: 30 ft.
+Melee:
+  - bite +15 (1d6+13)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: vile spawn
+AbilityScores:
+  - 29
+  - 10
+  - 21
+  - 6
+  - 11
+  - 6
+BaseAtk: '7'
+CMB: '17'
+CMD: '27'
+Feats:
+  - Improved Natural Armor
+  - Improved Natural Attack (bite)
+  - Iron Will
+  - Power Attack
+  - Toughness
+Skills:
+  - Perception +8
+  - Survival +8
+Languages:
+  - Abyssal
+  - Gnoll
+SQ: deformities (oversized maw, light sensitive)
+Source: Broken Chains
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Vile Spawn (Su)
+    description: >-
+      Once per month, the Black Milk Mother may, as a full-round action, give
+      birth to its monstrous brood. When it does so, a vile, watery, black fluid
+      spews from its body in a 10-foot radius, coating the ground as well as any
+      creatures or objects in the area. Any creature that comes in contact with
+      the fluid must succeed at a DC 20 Fortitude save or be nauseated for 1d4
+      rounds. The following round, 1d3 advanced hyenas emerge from the
+      creature's putrid womb. The save DC is Constitution-based.
+Gender: Female
+BeforeCombat: >-
+  The Black Milk Mother begins combat chained the back wall. So long as it
+  remains shackled, it cannot move beyond 15 feet from the chain's anchor point
+  on the southern wall, and must wait for opponents to come within reach before
+  striking.
+DuringCombat: >-
+  The foul creature furiously gnashes at opponents with its powerful jaws,
+  tugging wildly at its chains. Each round, the Black Milk Mother uses its move
+  action to try to break free (Strength DC 35) and attack. If it lasts 4 rounds
+  while fighting the PCs, it suddenly begins convulsing. For the next 2 rounds,
+  it fights defensively, and then gives birth to its vile spawn.
+Morale: The Black Milk Mother fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|ogrekin|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4336'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

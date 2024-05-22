@@ -1,0 +1,146 @@
+Name: Avahzi Serafian
+CR: '8'
+XP: '4800'
+Race: elf
+Class: cleric of Mammon 7/diabolist 2
+MonsterSource: Princes of Darkness 44
+Alignment: LE
+Size: Medium
+Type: humanoid
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +6
+AC: 24, touch 16, flat-footed 21
+AC_Mods: (+8 armor, +3 Dex, +3 deflection, +1 shield)
+HP: '69'
+HD: (9 HD; 7d8+2d6+27)
+Saves: Fort +8, Ref +6, Will +10; +2 vs. enchantments
+Fort: '8'
+Ref: '6'
+Will: '10'
+Save_Mods: +2 vs. enchantments
+Immune: sleep
+Resist: acid 10
+Weaknesses: damned
+Speed: 20 ft.
+Melee:
+  - +1 shortspear +6/+1 (1d6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel hellfire, channel negative energy 5/day  (4d6, Will DC 15)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 7th)
+  values:
+    - label: 7/day
+      value: acid dart, touch of evil
+SpellsKnown:
+  header: >-
+    Spells Known (CL 9th; concentration +13)  5th-flame strike (DC 19), wall of
+    stoneD  4th-air walk, cure critical wounds, freedom of movement, unholy
+    blightD (DC 18)  3rd-bestow curse (DC 17), dispel magic, magic vestment,
+    stone shapeD, summon monster III  2nd-bear's endurance, extended shield of
+    faith, resist energy, soften earth and stoneD, sound burst, status 
+    1st-command (DC 15), cure light wounds (2), divine favor, protection from
+    goodD, sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, light, purify food and drink
+SpellDomains: Earth, Evil
+AbilityScores:
+  - 8
+  - 16
+  - 14
+  - 12
+  - 18
+  - 14
+BaseAtk: '6'
+CMB: '5'
+CMD: '21'
+Feats:
+  - Channel Smite
+  - Combat Casting
+  - Command Undead
+  - Extend Spell
+  - Selective Channeling
+Skills:
+  - Knowledge (planes) +13
+  - Knowledge (religion) +13
+  - Spellcraft +13
+Languages:
+  - Common
+  - Elven
+  - Infernal
+SQ: >-
+  elven magic, imp companion, infernal bargain, infernal  charisma +2,
+  spontaneous casting (inflict spells)
+Source: AP 28
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Damned (Ex)
+    description: >-
+      If Avahzi is slain, her soul immediately travels to Hell. A character who
+      attempts to return her to life must make a DC 12 caster level check or the
+      spell fails.
+  - name: Infernal Charisma (Ex)
+    description: >-
+      Avahzi gains a +2 bonus on all Charismabased checks when interacting with
+      devils.
+  - name: Infernal Bargain (Ex)
+    description: >-
+      Avahzi can halve the price of servitude when she casts planar ally (or a
+      similar spell) by successfully making an opposed Charisma check against a
+      called (but not summoned) devil.
+  - name: Channel Hellfire (Su)
+    description: >-
+      As a free action twice per day, Avahzi can alter a spell she casts that
+      deals energy damage so that it instead deals hellfire damage. Spells
+      altered in this way gain the lawful and evil descriptors. Hellfire damage
+      is half fire damage and half damage from unholy energy. Evil-aligned
+      creatures and creatures with the evil subtype take no damage from the
+      unholy energy part of hellfire damage, but good-aligned creatures and
+      creatures with the good subtype take double damage from the unholy energy.
+      Protection from evil prevents all damage caused by the unholy damage
+      portion of hellfire, but offers no protection from the fire damage.
+Gender: Female
+BeforeCombat: >-
+  Avahzi casts status on two randomly determined thieves every morning (often
+  one stationed in area E1 and one in F1), along with magic vestment on her
+  armor. The status effects serve as early warnings-if the PCs kill or harm one
+  of these thieves, Avahzi knows to prepare. If she has time to prepare for a
+  battle (such as if she notices intruders entering area F7), she casts air
+  walk, bear's endurance, freedom of movement, and shield of faith on herself.
+DuringCombat: >-
+  Avahzi hangs back in battle as long as she can, using her ranged spells to
+  blast foes. She moves out into area F7 as soon as possible, and takes care to
+  try to position herself so that she's between the PCs and the doors to F12 at
+  all times (see Morale, below).
+Morale: >-
+  If reduced to 20 or fewer hit points, Avahzi casts wall of stone between
+  herself and the PCs to block off their easy access to area F12. She then flees
+  to that area, casts sanctuary and resist energy (fire), and trusts to this to
+  allow her a desperate flight through area F13. She hopes to race to the center
+  of the Nessian Spiral, reach Liebdaga, and beg his aid before the PCs reach
+  him themselves- how far she gets is left up to you. Base Statistics hp 51;
+  Fort +6; Con 10
+Gear: >-
+  scroll of sending, wand of cure moderate wounds (15 charges), wand of
+  spiritual weapon (7 charges)
+OtherGear: >-
+  masterwork breastplate, light steel shield, +1 shortspear, headband of
+  inspired wisdom +2, gold holy symbol worth 120 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '430'
+id: '429'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

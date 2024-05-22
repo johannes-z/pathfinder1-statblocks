@@ -1,0 +1,93 @@
+Name: Shoreline Cleric
+CR: '3'
+XP: '800'
+Race: half-elf
+Class: cleric of gozreh 4
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +9
+AC: 19, touch 12, flat-footed 17
+AC_Mods: (+5 armor, +2 Dex, +2 natural)
+HP: '25'
+HD: (4d8+4)
+Saves: Fort +5, Ref +3, Will +8; +2 vs. enchantments
+Fort: '5'
+Ref: '3'
+Will: '8'
+Save_Mods: +2 vs. enchantments
+Immune: sleep
+Speed: 30 ft.
+Melee:
+  - trident +2 (1d8-1)
+Ranged:
+  - shortbow +5 (1d6/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel positive energy 4/day (DC 13, 2d6), wooden fist (+2, 7 rounds/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: 7/day
+      value: storm burst (1d6+2 nonlethal damage)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 4th; concentration +8)   2nd-barkskin, hold person
+  (2, DC 16), summon monster II   1st-cause fear (DC 15), cure light wounds,
+  endure elements, entangle (DC 15), entropic shield   0 (at will)-bleed (2, DC
+  14), guidance, light
+SpellDomains: Plant, Weather
+AbilityScores:
+  - 8
+  - 14
+  - 13
+  - 10
+  - 18
+  - 12
+BaseAtk: '3'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Deadly Aim
+  - Martial Weapon Proficiency (shortbow)
+  - Skill Focus (Stealth)
+Skills:
+  - Heal +8
+  - Knowledge (nature) +2
+  - Knowledge (religion) +5
+  - Perception +9
+  - Sense Motive +8
+  - Stealth +7
+Languages:
+  - Common
+  - Elven
+SQ: aura, elf blood
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The cleric casts barkskin.
+DuringCombat: >-
+  The cleric casts entropic shield, then uses hold person, entangle, and bane
+  arrows.
+Gear: +1 human-bane arrows (2), +1 orc-bane arrow, potion of cure moderate wounds
+OtherGear: >-
+  +1 chain shirt, shortbow with 20 arrows, trident, anchor feather token, wooden
+  holy symbol, 256 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without barkskin, her statistics are AC 17, touch 12, flat-footed 15.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3639'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,101 @@
+Name: Dust Ghoul
+CR: '8'
+XP: '4800'
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+AC: 21, touch 13, flat-footed 18
+AC_Mods: (+3 Dex, +8 natural)
+HP: '102'
+HD: (12d8+48)
+Saves: Fort +9, Ref +9, Will +10
+Fort: '9'
+Ref: '9'
+Will: '10'
+DefensiveAbilities: channel resistance +4
+Speed: 40 ft., fly 40 ft. (perfect), burrow 20 ft.
+Melee:
+  - bite +16 (2d6+6), 2 claws +16 (1d8+6/19-20x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: animate dust, augmented critical, earth mastery, paralyzing shriek
+AbilityScores:
+  - 22
+  - 16
+  - —
+  - 14
+  - 14
+  - 16
+BaseAtk: '9'
+CMB: '15'
+CMD: '28'
+Feats:
+  - Great Fortitude
+  - Improved Initiative
+  - Lightning Reflexes
+  - Toughness
+  - Weapon Focus (bite) Weapon Focus (claw)
+Skills:
+  - Acrobatics +15 (+19 jump)
+  - Climb +21
+  - Fly +16
+  - Intimidate +18
+  - Knowledge (planes) +12
+  - Perception +17
+  - Stealth +18
+Languages:
+  - Common
+Environment: Plane of Molten Skies
+Organization: solitary, gang (2-5), or pack (6-12)
+Treasure: none
+Description_Visual: >-
+  This monster appears as a dust-covered creature with decaying flesh pulled
+  tight over its humanoid frame. Its teeth are pointed fangs and its hands end
+  in wicked, dirt-covered and blood-soaked claws.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities: {}
+Description:
+  - >-
+    When a humanoid creature dies on the Parched Expanse on the Plane of Molten
+    Skies (see City of Brass by Necromancer Games), there is a good chance it
+    returns from the afterlife as a dust ghoul-an undead flesh-eating creature
+    composed of dust and earth. Dust ghouls haunt the Parched Expanse, preying
+    on unwary travelers who linger too long in their hunting grounds. These
+    creatures savor the taste of human flesh and devour such a kill with great
+    ferocity. Dust ghouls predicate their arrival by animating dust into ghostly
+    humanoids that immediately move to grapple potential prey. Dust ghouls then
+    move in (often swooping in from above) and attempt to paralyze their foes
+    with their shriek. Prey is then torn to pieces by the dust ghouls using its
+    claws and fangs. If a dust ghoul is slain, it crumbles into a pile of dust.
+    Copyright Notice Authors Scott Greene and Casey Christofferson.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Ghoul
+id: '2628'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'
+SubType: (air, earth, extraplanar)
+Immune: undead traits
+SQ: limited flight
+Group: Ghoul
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+BaseStatistics: 'NULL'
+SpellLikeAbilities: {}
+SpellsKnown: {}

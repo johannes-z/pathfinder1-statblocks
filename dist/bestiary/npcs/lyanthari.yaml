@@ -1,0 +1,164 @@
+Name: Lyanthari
+CR: '17'
+XP: '102400'
+Race: Daughter of Urgathoa
+Class: inquisitor of Urgathoa 13
+MonsterSource: >-
+  Pathfinder Campaign Setting: Inner Sea World Guide 309, Pathfinder RPG
+  Advanced Player's Guide 38
+Alignment: NE
+Size: Large
+Type: undead
+Init: '12'
+Senses:
+  - darkvision 60 ft.
+  - Perception +32
+Aura: desecrate (20 ft.)
+AC: 33, touch 16, flat-footed 30
+AC_Mods: (+8 armor, +4 deflection, +3 Dex, +9 natural, -1 size)
+HP: '313'
+HD: (24d8+205)
+Saves: Fort +19, Ref +11, Will +21
+Fort: '19'
+Ref: '11'
+Will: '21'
+DefensiveAbilities: channel resistance +4, stalwart
+Immune: undead traits
+Speed: fly 40 ft. (perfect)
+Melee:
+  - >-
+    great claw +28 (3d6+12/19-20/x4 plus disease and 2d6 vs. good), claw +28
+    (1d8+12 plus 2d6 vs. good)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: greater bane (13 rounds/day), judgment 5/day (2 simultaneous)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +18)
+  values:
+    - label: Constant
+      value: >-
+        desecrate (centered on self) Inquisitor Spell-Like Abilities (CL 13th;
+        concentration +18)
+    - label: At Will
+      value: detect alignment, discern lies (13 rounds/day)
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 13th; concentration +18)
+  values:
+    - label: 5th (2/day)
+      value: mass ghostbane dirge (DC 20), resounding blow APG (DC 20)
+    - label: 4th (4/day)
+      value: divine power, greater invisibility, stoneskin, unholy blight (DC 19)
+    - label: 3rd (5/day)
+      value: >-
+        dispel magic, keen edge, locate object, magic circle against good, speak
+        with dead (DC 18)
+    - label: 2nd (6/day)
+      value: >-
+        detect thoughts (DC 17), invisibility, perceive cues APG, resist energy,
+        see invisibility
+    - label: 1st (7/day)
+      value: >-
+        ear-piercing scream UM (DC 16), inflict light wounds (DC 16),
+        interrogation UM (DC 16), know the enemy UM, shield of faith, true
+        strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, brand APG (DC 15), create water, detect poison, light, read
+        magic Inquisition Persistence UM
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 6th; concentration +11)  3rd-bestow curse (DC 18),
+  inflict serious wounds (DC 18), invisibility purge, magic vestment D 
+  2nd-bull's strength D, darkness, death knell (DC 17), inflict moderate wounds
+  (DC 17), silence (DC 17)  1st-command (DC 16), comprehend languages, divine
+  favor (2), identify D, obscuring mist  0 (at will)-detect magic, mending,
+  guidance, resistance
+SpellDomains: D Domain spell
+AbilityScores:
+  - 32
+  - 16
+  - —
+  - 20
+  - 20
+  - 24
+BaseAtk: '17'
+CMB: '30'
+CMD: '44'
+Feats:
+  - Ability Focus (disease)
+  - Combat Casting
+  - Combat Reflexes
+  - Critical Focus
+  - Escape Route
+  - Greater Vital Strike
+  - Improved Critical (claw)
+  - Improved Initiative
+  - Improved Natural Attack (great claw)
+  - Improved Vital Strike
+  - Lookout
+  - Outflank
+  - Power Attack
+  - Shake It Off
+  - Staggering Critical
+  - Step Up
+  - Vital Strike
+Skills:
+  - Acrobatics +12
+  - Bluff +34
+  - Diplomacy +22
+  - Fly +23
+  - Intimidate +40
+  - Knowledge (arcana
+  - dungeoneering
+  - planes) +20
+  - Knowledge (religion) +32
+  - Perception +32
+  - Sense Motive +38
+  - Spellcraft +20
+  - Stealth +23
+  - Survival +20
+Languages:
+  - Abyssal
+  - Common
+  - Hallit
+  - Necril
+  - Orc
+SQ: >-
+  inner strength, monster lore +5, relentless footing, solo tactics, stern gaze
+  +6, track +6
+Source: AP 144
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Bubonic Plague: Great claw-injury; save Fortitude DC 24; onset immediate;
+      frequency 1/day; effect 1d4 Con damage and fatigued; cure 2 consecutive
+      saves.
+  - name: Great Claw (Ex)
+    description: >-
+      One of Lyanthari's hands is a tremendous scythe-shaped claw. This attack
+      deals x4 damage on a critical hit and is treated as an evil weapon for the
+      purpose of overcoming damage reduction.
+BeforeCombat: Lyanthari casts keen edge and shield of faith.
+DuringCombat: >-
+  Lyanthari activates her protection and purity judgments before engaging in
+  melee combat, using her bane ability and Greater Vital Strike to scythe
+  through foes.
+Morale: >-
+  Lyanthari tries to escape if reduced to 50 or fewer hit points, returning to
+  stalk her foes after she has recovered.
+Gear: +2 breastplate, unholy amulet of mighty fists, 450 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12771'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

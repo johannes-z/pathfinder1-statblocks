@@ -1,0 +1,110 @@
+Name: Varpnall
+CR: '11'
+XP: '12800'
+Race: otyugh
+MonsterSource: Pathfinder RPG Bestiary 223,  Advanced Bestiary 194
+Alignment: 'N'
+Size: Huge
+Type: aberration
+Init: '5'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +17
+AC: 22, touch 9, flat-footed 21
+AC_Mods: (+1 Dex, +13 natural, -2 size)
+HP: '159'
+HD: (11d8+110)
+Saves: Fort +12, Ref +4, Will +10
+Fort: '12'
+Ref: '4'
+Will: '10'
+Immune: disease
+Speed: 20 ft.
+Melee:
+  - >-
+    bite +16 (2d8+10 plus disease), 2 tentacles +14 (2d6+5 plus  disease and
+    grab)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: constrict (tentacle, 2d6+5), disease cloud, diseased, diseased flesh
+AbilityScores:
+  - 30
+  - 12
+  - 28
+  - 9
+  - 17
+  - 10
+BaseAtk: '8'
+CMB: '20'
+CMD: '31'
+Feats:
+  - Improved Initiative
+  - Multiattack
+  - Toughness
+  - Vital Strike
+  - Improved Natural Attack (bite
+  - tentacles)
+Skills:
+  - Escape Artist +15
+  - Perception +17
+  - Stealth +7 (+15 in lair)
+Languages:
+  - Common
+  - Infernal
+SQ: carrier, quick incubation
+Source: AP 30
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Carrier (Ex)
+    description: >-
+      Although he is immune to the debilitating effects of disease, Varpnall can
+      still carry infections and continues to do so regardless of magical
+      healing.
+  - name: Diseased (Ex)
+    description: >-
+      Varpnall is swimming in pestilence. His attacks, breath, and flesh all
+      carry disease. Any time Varpnall strikes a foe with his bite or a
+      tentacle, he exposes the victim to two diseases: filth fever and leprosy.
+      The creature struck must make two DC 24 Fortitude saves, one against each
+      disease, to resist infection. These diseases function similarly to those
+      of the same name listed on page 557 of the Pathfinder RPG Core Rulebook.
+      The save DCs for all of these diseases is Constitution-based.
+  - name: Disease Cloud (Ex)
+    description: >-
+      Varpnall's diseased breath fills an invisible 30-foot-radius cloud around
+      him. All breathing creatures in this area must make two DC 24 Fortitude
+      saves to avoid contracting bubonic plague and mindfire.
+  - name: Diseased Flesh (Ex)
+    description: >-
+      Any creature that uses a bite attack against Varpnall or consumes any of
+      the otyugh's flesh is exposed to blinding sickness. A DC 24 Fortitude save
+      negates the infection.
+  - name: Quick Incubation (Su)
+    description: >-
+      Any diseases inflicted by Varpnall have no onset time-the first effects of
+      the diseases manifest immediately.
+Gender: Male
+DuringCombat: >-
+  Varpnall is quick to anger, but not quick to attack. If he has to move to
+  attack a foe, he uses Vital Strike with his bite attack, then proceeds with
+  standard full attacks on following rounds.
+Morale: >-
+  Varpnall surrenders if brought below 30 hp, waving his tentacles in fear and
+  staggering back into a corner as he begs for mercy. He'll give up all of his
+  treasure if necessary to purchase his life from the PCs.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|plague bearer|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '485'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

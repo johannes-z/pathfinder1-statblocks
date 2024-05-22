@@ -1,0 +1,109 @@
+Name: Moon-beast Guardian
+CR: '14'
+XP: '38400'
+Race: moon-beast
+MonsterSource: Pathfinder RPG Bestiary 3 195
+Alignment: CE
+Size: Large
+Type: aberration
+Init: '7'
+Senses:
+  - blindsight 90 ft.
+  - Perception +34
+AC: 29, touch 13, flat-footed 25
+AC_Mods: (+3 Dex, +1 dodge, +16 natural, -1 size)
+HP: '199'
+HD: (21d8+105)
+Saves: Fort +12, Ref +12, Will +18
+Fort: '12'
+Ref: '12'
+Will: '18'
+DR: 10/piercing or slashing
+Immune: cold, gaze attacks, illusions, poison
+Resist: electricity 30
+SR: '25'
+Speed: 50 ft., climb 20 ft., air walk
+Melee:
+  - 2 claws +21 (1d6+6), 4 tentacles +19 (1d6+3)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rend (2 tentacles, 1d6+9 plus Wisdom drain)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +21)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At Will
+      value: detect thoughts (DC 19)
+    - label: 3/day
+      value: >-
+        charm monster (DC 22), quickened dispel magic, dominate person (DC 24),
+        shadow conjuration (DC 22), shadow evocation (DC 22), veil (DC 23)
+    - label: 1/day
+      value: >-
+        confusion (DC 23), major image (DC 20), mirage arcana (DC 22), plane
+        shift (self only)
+AbilityScores:
+  - 22
+  - 17
+  - 20
+  - 19
+  - 18
+  - 25
+BaseAtk: '15'
+CMB: '22'
+CMD: '36'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Multiattack
+  - Quicken Spell- Like Ability (dispel magic)
+  - Skill Focus (Perception)
+  - Weapon Focus (tentacles)
+  - Weapon Focus (claws)
+Skills:
+  - Climb +14
+  - Diplomacy +18
+  - Intimidate +31
+  - Knowledge (arcana) +14
+  - Knowledge (planes) +25
+  - Perception +34
+  - Sense Motive +25
+  - Spellcraft +28
+  - Stealth +31
+  - Use Magic Device +28
+RacialMods: +8 Stealth
+Languages:
+  - Aklo (cannot speak)
+  - telepathy 300 ft.
+SQ: compression, no breath
+Source: The Moonscar
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Wisdom Drain (Su)
+    description: >-
+      A creature that takes rend damage from a moon-beast guardian must succeed
+      at a DC 25 Will save or take 1d4 points of Wisdom drain. A moon-beast
+      heals 5 points of damage for each point of Wisdom it drains in this
+      manner. If it drains a victim to 0 Wisdom, the moon-beast gains the
+      effects of a heal spell.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3362'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

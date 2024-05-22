@@ -1,0 +1,100 @@
+Name: Panivenn
+CR: '5'
+XP: '1600'
+Race: human
+Class: sorcerer 6
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '3'
+Senses:
+  - Perception -1
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+4 armor, +3 Dex, +1 dodge)
+HP: '35'
+HD: (6d6+12)
+Saves: Fort +3, Ref +5, Will +4
+Fort: '3'
+Ref: '5'
+Will: '4'
+DefensiveAbilities: +2 vs. poison
+Resist: fire 5
+Speed: 30 ft.
+Melee:
+  - +1 swordbreaker dagger +4 (1d4+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: 6/day
+      value: corrupting touch (3 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +9)
+  values:
+    - label: 3rd (4/day)
+      value: vampiric touch
+    - label: 2nd (6/day)
+      value: glitterdust (DC 15), flaming sphere (DC 15) scorching ray
+    - label: 1st (7/day)
+      value: alarm, grease, mage armor, protection from good, shocking grasp
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 13), detect magic, flare (DC 13), light, mending,
+        open/close
+AbilityScores:
+  - 10
+  - 16
+  - 12
+  - 13
+  - 8
+  - 16
+BaseAtk: '3'
+CMB: +3 (+8 disarm, +12 disarm vs. bladed weapons)
+CMD: 17 (19 vs. disarm)
+Feats:
+  - Combat Casting
+  - Combat Expertise
+  - Dodge
+  - Eschew Materials
+  - Exotic Weapon Proficiency (swordbreaker dagger)
+  - Improved Disarm
+Skills:
+  - Acrobatics +9
+  - Knowledge (arcana) +10
+  - Spellcraft +10
+  - Use Magic Device +12
+Languages:
+  - Common
+  - Infernal
+SQ: bloodline arcana (+2 DC for charm spells), infernal resistances
+Source: PFS S3-24
+IsTemplate: '0'
+Gender: Male
+Bloodline: infernal
+BeforeCombat: >-
+  Panivenn starts each day by casting mage armor. If he is alerted to the PCs'
+  approach, he casts protection from good and readies scorching ray to target
+  the first creature that passes through the doors.
+DuringCombat: >-
+  Panivenn uses flaming sphere and scorching ray to fight the PCs from range,
+  reserving melee combat to disarm opponents with his swordbreaker dagger.
+Morale: Panivenn fights to the death.
+Gear: potions of cure moderate wounds (2), scrolls of align weapon (2)
+OtherGear: +1 swordbreaker daggerAPG, skeleton key
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6694'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

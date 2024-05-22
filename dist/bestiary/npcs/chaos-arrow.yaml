@@ -1,0 +1,144 @@
+Name: Chaos Arrow
+CR: '19'
+XP: '204800'
+Race: gnome
+Class: rogue 6/ sorcerer 4/arcane archer 10
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '11'
+Senses:
+  - low-light vision, see invisibility
+  - Perception +26
+AC: 31, touch 21, flat-footed 24
+AC_Mods: (+7 armor, +3 deflection, +6 Dex, +1 dodge, +3 natural, +1 size)
+HP: '140'
+HD: (6d8+4d6+10d10+40)
+Saves: Fort +13, Ref +21, Will +13; +2 vs. illusions
+Fort: '13'
+Ref: '21'
+Will: '13'
+Save_Mods: +2 vs. illusions
+DefensiveAbilities: >-
+  defensive training (+4 dodge bonus to AC vs. giants), evasion, trap sense +2,
+  uncanny dodge
+Speed: 20 ft.
+Melee:
+  - dagger +17/+12/+7/+2 (1d3/19-20)
+Ranged:
+  - >-
+    +2 frost shock shortbow +27/+22/+17/+12 (1d4+2/x3 plus 1d6 cold and 1d6
+    electricity)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  +1 on attack rolls against goblinoid and reptilian humanoids, arrow of death,
+  enhance arrows (aligned, distance, elemental, elemental burst, magic), imbue
+  arrow, phase arrow (3/day), seeker arrow (4/day), sneak attack +3d6
+SpellLikeAbilities:
+  header: Gnome Spell-Like Abilities (CL 20th; concentration +24)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound, prestidigitation, speak with animals
+        Bloodline Spell-Like Abilities (CL 11th; concentration +15)
+    - label: 7/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +15; arcane spell failure 10%)
+  values:
+    - label: 5th (4/day)
+      value: cloudkill (DC 19), teleport
+    - label: 4th (7/day)
+      value: confusion (DC 20), greater invisibility, shout (DC 18)
+    - label: 3rd (7/day)
+      value: explosive runes, haste, heroism, stinking cloud (DC 17)
+    - label: 2nd (7/day)
+      value: >-
+        darkvision, glitterdust (DC 16), rope trick, see invisibility, web (DC
+        16)
+    - label: 1st (7/day)
+      value: >-
+        color spray (DC 16), entangle (DC 15), expeditious retreat, magic
+        missile, reduce person (DC 15), true strike
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), detect magic, flare (DC 14), light, mage hand, message,
+        prestidigitation, ray of frost, read magic
+AbilityScores:
+  - 10
+  - 24
+  - 14
+  - 10
+  - 13
+  - 18
+BaseAtk: '16'
+CMB: '15'
+CMD: '36'
+Feats:
+  - Deadly Aim
+  - Dodge
+  - Eschew Materials
+  - Improved Initiative
+  - Mobility
+  - Pinpoint Targeting
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Shot
+  - Shot on the Run
+  - Vital Strike
+  - Weapon Focus (shortbow)
+Skills:
+  - Bluff +27
+  - Craft (bows) +8
+  - Disguise +13
+  - Knowledge (local) +8
+  - Knowledge (nature) +8
+  - Perception +26
+  - Spellcraft +8
+  - Stealth +34
+  - Swim +8
+  - Use Magic Device +12
+Languages:
+  - Common
+  - Gnome
+SQ: >-
+  bloodline arcana (+2 DC for compulsion spells), rogue talents (bleeding attack
+  +3, combat trick, surprise attack), trapfinding +3, woodland stride
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: fey
+BeforeCombat: >-
+  The arcane archer casts see invisibility and haste. She prepares flaming burst
+  arrows as her enhance arrows ability.
+DuringCombat: >-
+  A arcane archer uses imbue arrows to fire off cloudkill, stinking cloud, and
+  entangle from a distance
+Gear: >-
+  +1 dwarf-bane arrows (10), +1 elf-bane arrows (10), +1 human-bane arrows (10),
+  +1 holy arrows (5), +1 unholy arrows (5), dust of illusion, potions of cure
+  serious wounds (3)
+OtherGear: >-
+  +3 mithral chain shirt, +2 frost shock shortbow with 20 arrows, daggers (3),
+  amulet of natural armor +3, belt of physical might +4 (Dex, Con), cloak of
+  resistance +3, deck of illusions, efficient quiver, hat of disguise, headband
+  of alluring charisma +2, ring of protection +3, rope of climbing, 621 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without see invisibility, the arcane archer's statistics are Senses low-light
+  vision; Perception +26.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3845'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

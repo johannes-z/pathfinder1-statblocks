@@ -1,0 +1,82 @@
+Name: Cask Creature
+CR: '3'
+XP: '800'
+Race: Cask Creature
+Alignment: 'N'
+Size: Medium
+Type: ooze
+SubType: (aquatic)
+Init: '0'
+Senses:
+  - blindsight 30 ft.
+  - Perception -5
+Aura: stench (10 ft., DC 17)
+AC: 14, touch 10, flat-footed 14
+AC_Mods: (+4 natural)
+HP: '38'
+HD: (4d8+20)
+Saves: Fort +6, Ref +1, Will -4
+Fort: '6'
+Ref: '1'
+Will: '-4'
+Immune: cold, electricity, ooze traits
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee:
+  - slam +6 (1d8+4 plus poison and grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (1d8+4)
+AbilityScores:
+  - 16
+  - 10
+  - 20
+  - —
+  - 1
+  - 1
+BaseAtk: '3'
+CMB: +6 (+10 grapple)
+CMD: 16 (can't be tripped)
+Skills:
+  - Climb +11
+  - Swim +11
+SQ: amphibious, camouflage
+Source: Sword of Air-Chapter 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Camouflage (Ex)
+    description: >-
+      Since a cask creature looks like normal sludge when at rest, a DC 20
+      Perception check is required to notice it before it attacks for the first
+      time. Anyone with ranks in Survival or Knowledge (dungeoneering) can use
+      either of those skills instead of Perception to notice the ooze.
+  - name: Cold Immunity (Ex)
+    description: >-
+      A cask creature hit by a cold-based attack takes no damage. However, if
+      the amount of damage it would have otherwise taken exceeds its
+      Constitution score, the cask creature is slowed (as the slow spell) for
+      1d6 rounds.
+  - name: Poison (Ex)
+    description: >-
+      contact; save DC 17 Fort; frequency 1/round for 6 rounds; effect 1d3 Dex
+      damage and 1d3 Con damage; cure 2 consecutive saves. The save DC is
+      Constitution-based.
+  - name: Stench Aura (Ex)
+    description: >-
+      Creatures entering the area must succeed on a DC 17 Fortitude save or be
+      sickened for as long as they remain in the area and for 1d4 rounds after
+      leaving it. The save DC is Constitution-based.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12664'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

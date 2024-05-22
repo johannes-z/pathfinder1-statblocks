@@ -1,0 +1,108 @@
+Name: Iophanite
+CR: '4'
+XP: '1200'
+Race: Iophanite
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea Gods 293'
+Alignment: LG
+Size: Medium
+Type: outsider
+SubType: (angel, extraplanar, fire, good, lawful)
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +12
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+3 Dex, +1 dodge, +4 natural| +2 deflection vs. evil)
+HP: '37'
+HD: (5d10+10)
+Saves: Fort +6, Ref +7, Will +1; +4 vs. poison, +4 resistance vs. evil
+Fort: '6'
+Ref: '7'
+Will: '1'
+Save_Mods: +4 vs. poison, +4 resistance vs. evil
+DR: 5/magic
+Immune: fire, petrification
+Resist: acid 5, cold 5, electricity 5
+SR: '15'
+Weaknesses: vulnerable to cold
+Speed: fly 40 ft. (perfect)
+Melee:
+  - 2 blades +8 (1d8+1 plus burn)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: burn (1d6 fire, DC 14), radiance
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +7)
+  values:
+    - label: Constant
+      value: protection from evil
+    - label: At Will
+      value: know direction, mage hand
+    - label: 3/day
+      value: burning hands (DC 12), expeditious retreat
+    - label: 1/day
+      value: scorching ray
+AbilityScores:
+  - 12
+  - 17
+  - 14
+  - 10
+  - 11
+  - 13
+BaseAtk: '5'
+CMB: '6'
+CMD: 20 (can't be tripped)
+Feats:
+  - Dodge
+  - Mobility
+  - Weapon Finesse
+Skills:
+  - Acrobatics +8
+  - Fly +11
+  - Intimidate +9
+  - Knowledge (geography) +8
+  - Knowledge (planes) +8
+  - Knowledge (religion) +5
+  - Perception +12
+RacialMods: +4 Perception
+Languages:
+  - Celestial
+  - Infernal
+  - truespeech
+SQ: shield form
+Source: AP 104
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Radiance (Sp)
+    description: >-
+      An iophanite usually glows with a golden light equivalent to that of a
+      candle. In battle, the angel's glow increases, filling the area within 5
+      feet. An iophanite can suppress or resume this glow as a free action.
+      Additionally, as a standard action, an iophanite can intensify this glow
+      to reproduce the effects of a flare spell at will. A creature can resist
+      this effect with a successful DC 13 Fortitude save, though evil creatures
+      take a -4 penalty on their saves. The save DC is Charisma-based.
+  - name: Shield Form (Su)
+    description: >-
+      Once per day, an iophanite can transform into a +1 spiked light steel
+      shield sized for a Small or Medium creature. An iophanite cannot
+      communicate or use any of their other abilities while in this form. Once
+      transformed, an iophanite cannot change back for 24 hours, though a break
+      enchantment spell can end the transformation early. An iophanite regains
+      full hit points upon shifting back into their normal form. If the shield
+      is destroyed, the iophanite is killed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8231'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

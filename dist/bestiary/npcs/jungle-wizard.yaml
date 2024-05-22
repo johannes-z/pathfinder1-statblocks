@@ -1,0 +1,113 @@
+Name: Jungle Wizard
+CR: '4'
+XP: '1200'
+Race: elf
+Class: transmuter 5
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '7'
+Senses:
+  - low-light vision
+  - Perception +7
+AC: 18, touch 13, flat-footed 15
+AC_Mods: (+4 armor, +3 Dex, +1 natural)
+HP: '28'
+HD: (5d6+8)
+Saves: Fort +2, Ref +6, Will +5; +2 vs. enchantments
+Fort: '2'
+Ref: '6'
+Will: '5'
+Save_Mods: +2 vs. enchantments
+Immune: sleep
+Speed: 30 ft.
+Melee:
+  - mwk longsword +3 (1d8/19-20)
+Ranged:
+  - shortbow +5 (1d6/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: 7/day
+      value: telekinetic fist (1d4+2 bludgeoning)
+SpellsPrepared: >-
+  Transmuter Spells Prepared (CL 5th; concentration +9)   3rd-beast shape I,
+  empowered burning hands (DC 16), displacement   2nd-invisibility, spider
+  climb, summon swarm, web (DC 16)   1st-burning hands (DC 16), feather fall,
+  grease, mage armor, obscuring mist   0 (at will)-dancing lights, ghost sound
+  (DC 14), mage hand, touch of fatigue (DC 14)
+AbilityScores:
+  - 10
+  - 16
+  - 13
+  - 18
+  - 12
+  - 8
+BaseAtk: '2'
+CMB: '2'
+CMD: '15'
+Feats:
+  - Empower Spell
+  - Improved Initiative
+  - Lightning Reflexes
+  - Scribe Scroll
+  - Spell Focus (evocation)
+Skills:
+  - Acrobatics +7
+  - Climb +3
+  - Fly +7
+  - Knowledge (arcana) +12
+  - Knowledge (geography) +10
+  - Knowledge (history) +9
+  - Knowledge (nature) +11
+  - Perception +7
+  - Spellcraft +12 (+14 to identify magic item properties)
+  - Survival +4
+  - Swim +1
+Languages:
+  - Common
+  - Draconic
+  - Elven
+  - Gnoll
+  - Goblin
+  - Orc
+SQ: arcane bond (monkey), elven magic, physical enhancement +2, weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+ProhibitedSchools: divination, enchantment
+BeforeCombat: >-
+  The wizard casts mage armor. When she prepares spells, she uses physical
+  enhancement to increase her Constitution. She studies the combat area for the
+  best places to use spells like grease and web, then hides in ambush.
+DuringCombat: >-
+  The wizard casts web on her opponents or in their path (especially if there is
+  a pit or ravine present). She casts summon swarm into the web. If trapped
+  opponents are escaping from the web, she casts empowered burning hands on
+  them.
+Gear: >-
+  potion of cure moderate wounds, potions of pass without trace (2), scroll of
+  cat's grace, scroll of pyrotechnics, scroll of stinking cloud, scroll of web
+OtherGear: >-
+  masterwork longsword, shortbow with 20 arrows, amulet of natural armor +1,
+  spellbook, 104 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor, the wizard's statistics are AC 14, touch 13, flat-footed
+  11.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3826'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

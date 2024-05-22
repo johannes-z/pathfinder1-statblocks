@@ -1,0 +1,86 @@
+Name: Goblin Chief Effigy
+CR: '5'
+XP: '1600'
+Race: Animated object
+MonsterSource: Pathfinder RPG Bestiary 14
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception -5
+AC: 14, touch 8, flat-footed 14
+AC_Mods: (-1 Dex, +6 natural, -1 size)
+HP: '52'
+HD: (4d10+30)
+Saves: Fort +1, Ref +0, Will -4
+Fort: '1'
+Ref: '0'
+Will: '-4'
+DefensiveAbilities: hardness 5
+Immune: construct traits
+Speed: 20 ft.
+Melee:
+  - 2 slams +9 (1d8+6 plus burn)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: burn (1d6 fire, DC 12), trample (1d8+9, DC 18)
+AbilityScores:
+  - 22
+  - 8
+  - —
+  - —
+  - 1
+  - 1
+BaseAtk: '4'
+CMB: '11'
+CMD: '20'
+SQ: >-
+  Construction Points (additional attack, burn, fireworks, trample), flaws
+  (haunted, slower)
+Source: We Be Goblins Free
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fireworks (Ex)
+    description: >-
+      The goblins who made the effigy stuffed fireworks into their creation. Now
+      that the effigy is animated, the goblin-made monstrosity can use these
+      fireworks as a weapon. With each movement, spinning pinwheels and gouts of
+      sparks erupt from the effigy. Once every round, a random creature within
+      10 feet of the effigy takes 2d6 points of fire damage from these
+      constantly erupting fireworks. This damage is halved if the target of the
+      attack succeeds at a DC 15 Reflex save.
+  - name: Haunted (Ex)
+    description: >-
+      The goblin chief effigy is haunted by the spirit of the cannibalistic
+      goblin Vorka. It takes damage from positive energy as if it were an undead
+      creature and can be detected by detect undead.
+  - name: Slower (Ex)
+    description: >-
+      The goblin chief effigy's construction is slapdash, in the typical goblin
+      style. This lack of careful engineering reduces the effigy's movement to
+      20 feet.
+DuringCombat: >-
+  The goblin chief effigy is an engine of destruction. It crashes around in the
+  dell outside the cave, attacking anything that moves. To close the gap between
+  itself and any targets, it rushes over, hoping to catch goblins in its trample
+  attack. Once it is adjacent to any goblins, it smashes them with its burning
+  slams and tries to stay close to multiple targets so its fireworks have the
+  chance to affect the greatest number of targets.
+Morale: Mindless and destructive, the goblin chief effigy fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7002'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,196 @@
+Name: Xanderghul
+CR: '17'
+XP: '102400'
+Race: human (pureblood Azlanti)
+Class: illusionist 15
+MonsterSource: Pathfinder RPG Bestiary 4 238
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (augmented humanoid, human)
+Init: '7'
+Senses:
+  - arcane sight, darkvision 60 ft., low-light vision, see invisibility
+  - Perception +12
+AC: 31, touch 21, flat-footed 24
+AC_Mods: (+7 armor, +3 deflection, +7 Dex, +1 insight, +3 natural)
+HP: '220'
+HD: (15d6+165)
+Saves: Fort +17, Ref +15, Will +16; +8 vs. mind-affecting effects
+Fort: '17'
+Ref: '15'
+Will: '16'
+Save_Mods: +8 vs. mind-affecting effects
+DefensiveAbilities: contingency, enshrined, shadow blend
+DR: 10/magic
+Resist: cold 15, electricity 15
+SR: '23'
+Speed: 30 ft.
+Melee:
+  - >-
+    +3 axiomatic spell storing lucerne hammer +14/+9 (1d12+9 plus 2d6 vs.
+    chaotic)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with lucerne hammer)
+SpellLikeAbilities:
+  header: Illusionist Spell-Like Abilities (CL 15th; concentration +24)
+  values:
+    - label: At Will
+      value: invisibility field (15 rounds/day)
+    - label: 12/day
+      value: blinding ray
+SpellsPrepared: >-
+  Illusionist Spells Prepared (CL 15th; concentration +24)  8th-demand (DC 27),
+  quickened greater invisibility (DC 25), mind blank, scintillating pattern (2) 
+  7th-quickened displacement, mage's sword, prismatic spray (2, DC 26), project
+  image (2, DC 28)  6th-greater dispel magic, mass suggestion (DC 25), quickened
+  mirror image (2), mislead (2, DC 27), programmed image (DC 27)  5th-dismissal
+  (DC 24), hold monster (DC 24), quickened magic missile (2), seeming (DC 26),
+  shadow evocation (2, DC 26), wall of force  4th-charm monster (DC 23),
+  confusion (DC 23), greater invisibility (2), illusory wall (DC 25), mindwipeOA
+  (3, DC 23), shadow conjuration  3rd-dispel magic, fireball (2, DC 22),
+  illusory script (DC 24), lightning bolt (2, DC 22), major image (2, DC 24),
+  nondetection, suggestion (2, DC 22), vampiric touch (2)  2nd-blur,
+  invisibility (3), minor image (2, DC 23), resist energy, touch of idiocy (2) 
+  1st-disguise self, magic missile (4), ray of enfeeblement (DC 20), shield,
+  silent image (2, DC 22)  0 (at will)-arcane mark, dancing lights,
+  prestidigitation, read magic
+AbilityScores:
+  - 18
+  - 24
+  - 28
+  - 29
+  - 15
+  - 25
+BaseAtk: '7'
+CMB: '11'
+CMD: '32'
+Feats:
+  - Craft Construct
+  - Craft Magic Arms and Armor
+  - Craft Wand
+  - Craft Wondrous Item
+  - Deceitful
+  - Eschew Materials
+  - Greater Spell Focus (illusion)
+  - Iron Will
+  - Martial Weapon Proficiency (lucerne hammer)
+  - Quicken Spell
+  - Scribe Scroll
+  - Spell Focus (illusion)
+  - Toughness
+Skills:
+  - Acrobatics +22
+  - Bluff +26
+  - Craft (alchemy) +27
+  - 'Craft (clothing) +12 '
+  - Craft (tattoos) +12
+  - Craft (weapons) +12
+  - Disguise +21
+  - Fly +20
+  - Intimidate +17
+  - Knowledge (arcana) +27
+  - Knowledge (history
+  - planes
+  - religion) +22
+  - Perception +12
+  - Sense Motive +12
+  - Spellcraft +27
+  - Use Magic Device +22
+Languages:
+  - Aboleth
+  - Azlanti
+  - Draconic
+  - Giant
+  - Infernal
+  - Necril
+  - Shoanti
+  - Thassilonian
+  - Varisian
+SQ: >-
+  arcane bond (+3 axiomatic spell storing lucerne hammer), deific, exceptional
+  statistics, extended illusions (7 rounds), permanent spells, runelink, shadow
+  gear
+Source: AP 136
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Contingency (Sp)
+    description: >-
+      If an active displacement spell on him ends, a new displacement spell is
+      cast on him. Deific Xanderghul can grant divine spells. This does not
+      require any specific action on his behalf. He grants access to the domains
+      of Evil, Law, and Trickery and to the subdomains of Deception and Tyranny.
+      His symbol is a peacock feather with an eye inside, and his favored weapon
+      is the lucerne hammerUE.
+  - name: Enshrined (Ex)
+    description: >-
+      As long as the Peacock Shrine in area O3 remains active, if Xanderghul is
+      slain, his body and shadow gear vanish, only to be restored in area O3
+      after 1 minute. Being restored in this manner otherwise functions as true
+      resurrection. If Xanderghul is slain while this Peacock Shrine is
+      inactive, he dies normally and his shadow gear dissipates into nothing.
+  - name: Exceptional Statistics (Ex)
+    description: >-
+      Xanderghul's ability scores were generated using a 25-point buy, and he
+      has a +5 inherent bonus to all six ability scores. This increases his
+      final CR to 17.
+  - name: Permanent Spells (Sp)
+    description: >-
+      Xanderghul has these permanent spells: arcane sight, see invisibility, and
+      tongues.
+  - name: Runelink (Ex)
+    description: >-
+      Xanderghul's mind is linked to a rune that allows him to commnicate with
+      his minion Tuirziaz. If this rune is destroyed (see area M10), Xanderghul
+      gains one permanent negative level. As long as he has this negative level,
+      he also takes a -8 penalty on concentration checks.
+  - name: Shadow Gear (Su)
+    description: >-
+      Xanderghul carries shadowy duplicates of his favorite possessions,
+      including a Sihedron Tome. These items function normally in all ways, save
+      that if Xanderghul is killed, the items vanish along with his body. The
+      Sihedron Tome functions as Xanderghul's spellbook, and it contains all of
+      his prepared spells as well as all sorcerer/ wizard spells (save those of
+      the schools of conjuration and transmutation) from the Pathfinder RPG Core
+      Rulebook (at your discretion, it might contain more spells than these).
+      The Sihedron Tome allows Xanderghul to prepare additional spells as if his
+      Intelligence score were 6 points higher.
+Gender: Male
+ProhibitedSchools: conjuration, transmutation
+BeforeCombat: Xanderghul casts mind blank and nondetection.
+DuringCombat: >-
+  Xanderghul avoids melee combat if possible and engages the PCs through a
+  projected image if he can. Otherwise, he casts quickened greater invisibility
+  and mage's sword the first round, quickened displacement and prismatic spray
+  the second round, and quickened mirror image and prismatic spray again on the
+  third round. He casts quickened magic missile combined with other combat
+  spells over the following rounds.
+Morale: >-
+  As long as the Peacock Shrine in area O3 remains active, Xanderghul fearlessly
+  fights to the death. If this shrine is destroyed, though, Xanderghul sees the
+  folly of resistance, and his pride finally breaks if he's reduced to 20 or
+  fewer hit points. He promises to help the PCs if they spare his life.
+Gear: >-
+  all shadow, +3 axiomatic spell storing lucerne hammerUE (currently contains
+  touch of idiocy), amulet of natural  armor +3, belt of mighty constitution +6,
+  bracers of armor +7, cloak of resistance +3, crystal ball, deep red sphere
+  ioun stone, dusty rose prism ioun stone, handy haversack, headband of mental
+  prowess +4 (Int, Cha, grants ranks in Acrobatics and Use Magic Device), ring
+  of protection +3, ring of wizardry III, Sihedron Tome
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: shadow|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11951'
+UniqueMonster: '0'
+ThassilonianSpecialization: AG illusion
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

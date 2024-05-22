@@ -1,0 +1,132 @@
+Name: Ara Verennie
+CR: '12'
+XP: '19200'
+Race: human
+Class: sorcerer 11
+MonsterSource: Pathfinder RPG Bestiary 144
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, incorporeal)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+AC: 27, touch 19, flat-footed 24
+AC_Mods: (+4 armor, +6 deflection, +2 Dex, +1 dodge, +4 shield)
+HP: '126'
+HD: (11d6+88)
+Saves: Fort +9, Ref +5, Will +8; +4 vs. poison
+Fort: '9'
+Ref: '5'
+Will: '8'
+Save_Mods: +4 vs. poison
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: undead traits
+Resist: fire 10
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +5 (12d6; DC 21)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: corrupting gaze (DC 21), malevolence (DC 21),  telekinesis (DC 21)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 11th; concentration +17)
+  values:
+    - label: 7/day
+      value: corrupting touch
+    - label: 1/day
+      value: hellfire (DC 19)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 11th; concentration +17)
+  values:
+    - label: 5th (5/day)
+      value: dismissal, dominate person (DC 19), summon monster V
+    - label: 4th (7/day)
+      value: charm monster (DC 20), dimension door, summon monster IV, wall of fire
+    - label: 3rd (7/day)
+      value: >-
+        dispel magic, fireball (DC 17), fly, stinking cloud (DC 19), suggestion
+        (DC 17)
+    - label: 2nd (8/day)
+      value: >-
+        acid arrow, glitterdust (DC 18), invisibility, scorching ray, summon
+        monster II, web (DC 18)
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 17), grease (DC 17), mage armor, magic missile,
+        protection from good, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, detect poison, ghost sound (DC 14), light,
+        mage hand, message, prestidigitation, read magic
+AbilityScores:
+  - —
+  - 14
+  - —
+  - 14
+  - 12
+  - 22
+BaseAtk: '5'
+CMB: '5'
+CMD: '24'
+Feats:
+  - Augment Summoning
+  - Combat Casting
+  - Craft Magic Arms and Armor
+  - Dodge
+  - Eschew Materials
+  - Extend Spell
+  - Greater Spell Focus (conjuration)
+  - Spell Focus (conjuration)
+  - Toughness
+Skills:
+  - Bluff +20
+  - Fly +17
+  - Intimidate +20
+  - Knowledge (arcana) +16
+  - Knowledge (planes) +9
+  - Perception +9
+  - Spellcraft +16
+  - Stealth +10
+Languages:
+  - Common
+  - Infernal
+SQ: bloodline arcana
+Source: AP 30
+IsTemplate: '0'
+Gender: Female
+Bloodline: infernal
+BeforeCombat: >-
+  Ara casts mage armor, shield, protection from good, and invisibility as soon
+  as she realizes someone intrudes upon her lair.
+DuringCombat: >-
+  Ara doesn't engage the PCs directly at first. She remains invisible and uses
+  her summoning spells to summon numerous Medium earth elementals that look like
+  skeletal Hellknights to attack the PCs. She attempts to use malevolence on the
+  most attractive PC if she can arrange to be alone in a room with that
+  character&#8211;if successful, she poses as the PC for as long as possible to
+  learn what she can about the PCs before reporting to Chammady in hopes of
+  being granted leave to take her hijacked body through the well of many worlds
+  to experience Hell. If discovered, she prefers to use her spells and
+  corrupting gaze at range, using her flight to stay out of melee.
+Morale: >-
+  Ara fights until destroyed, but unless the dagger is removed from her body and
+  her remains are returned to Paralictor Chard, she rejuvenates in 2d4 days and
+  resumes her blasphemies.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '494'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

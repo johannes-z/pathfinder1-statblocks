@@ -1,0 +1,125 @@
+Name: Igni
+CR: '14'
+XP: '38400'
+Race: human
+Class: antipaladin of orcus 12
+Alignment: LG
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, incorporeal)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +21
+Aura: cowardice (10 ft.), despair (10 ft.)
+AC: 29, touch 16, flat-footed 28
+AC_Mods: (+10 armor, +5 deflection, +1 Dex, +3 shield)
+HP: '154'
+HD: (12d10+60 plus 12)
+Saves: Fort +13, Ref +10, Will +14
+Fort: '13'
+Ref: '10'
+Will: '14'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - >-
+    +4 ghost touch longsword +18/+13/+8 (1d8+5/19-20)  or corrupting touch +13
+    (12d6, DC 13)
+Ranged:
+  - +2 ghost touch longbow +15/+10/+5 (1d8+2/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  aura of vengeance (10 ft.), channel negative energy (DC 21, 6d6, 8/day),
+  corrupting gaze, cruelty (paralyzed, frightened, sickened, staggered),
+  frightful moan, smite good (4/day, +5 attack and AC, +12 damage), telekinesis,
+  touch of corruption (6d6, 11/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: At will
+      value: detect good
+SpellsPrepared: >-
+  Spells Prepared (CL 12th; melee touch +12)  3rd-bestow curse (DC 18), defile
+  armor  2nd-blindness/deafness, eagle's splendor, hold person (DC 17) 
+  1st-bane, command (DC 16), doom, inflict light wounds (DC 16)
+AbilityScores:
+  - —
+  - 12
+  - .nan
+  - 14
+  - 13
+  - 20
+BaseAtk: '12'
+CMB: '13'
+CMD: '29'
+Feats:
+  - Endurance
+  - Improved Initiative
+  - Power Attack
+  - Run
+  - Skill Focus (Knowledge [religion])B
+  - Toughness
+  - Weapon Focus (longsword)
+Skills:
+  - Bluff +13
+  - Craft (sculpture) +13
+  - Handle Animal +16
+  - Heal +13
+  - Knowledge (religion) +16
+  - Perception +21
+  - Stealth +9
+  - Sense Motive +12
+RacialMods: + 8 Perception, Stealth
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+SQ: fiendish bond (weapon +2, 2/day), ghostly possessions, unholy resilience
+Source: Rappan Athuk-Level 13
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Corrupting Gaze (Su)
+    description: >-
+      The ghost is disfigured through age or violence, and has a gaze attack
+      with a range of 30 feet that causes 2d10 damage and 1d4 Charisma damage
+      (Fortitude save negates Charisma damage but not physical damage).
+  - name: Ghostly Possessions (Su)
+    description: >-
+      A side effect of Igni's transformation was to imbue his armor and weapons
+      with the ghost touch enhancement. However, Igni's gear is also considered
+      incorporeal so only creatures on the ethereal plane can hold or wear
+      Igni's sword, bow and armor.
+  - name: Frightful Moan (Su)
+    description: >-
+      The ghost died in the throes of crippling terror. It can emit a frightful
+      moan as a standard action. All living creatures within a 30-foot spread
+      must succeed on a Will save or become panicked for 2d4 rounds. This is a
+      sonic mind-affecting fear effect. A creature that successfully saves
+      against the moan cannot be affected by the same ghost's moan for 24 hours.
+  - name: Telekinesis (Su)
+    description: >-
+      The ghost's death involved great physical trauma. The ghost can use
+      telekinesis as a standard action once every 1d4 rounds (caster level 12th
+      or equal to the ghost's HD, whichever is higher).
+Gear: >-
+  +1 ghost touch full plate, +1 ghost touch heavy steel shield, +4 ghost touch
+  longsword, +2 ghost touch longbow, 12 +1 ghost touch arrows
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12304'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

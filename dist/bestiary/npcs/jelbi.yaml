@@ -1,0 +1,142 @@
+Name: Jelbi
+CR: '10'
+XP: '9600'
+Race: gnome
+Class: bard 11
+Alignment: CG
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +15
+AC: 23, touch 14, flat-footed 20
+AC_Mods: (+6 armor, +2 Dex, +1 dodge, +3 shield, +1 size)
+HP: '122'
+HD: (11d8+55)
+Saves: >-
+  Fort +6, Ref +9, Will +9; +2 vs. illusions, +4 vs. bardic   performance,
+  language-dependent, and sonic, +4 vs. poison and fear
+Fort: '6'
+Ref: '9'
+Will: '9'
+Save_Mods: >-
+  +2 vs. illusions, +4 vs. bardic   performance, language-dependent, and sonic,
+  +4 vs. poison and fear
+DefensiveAbilities: defensive training
+Speed: 20 ft.
+Melee:
+  - mwk longsword +10/+5 (1d6-1/19-20)
+Ranged:
+  - +1 composite shortbow +11/+6 (1d4/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 28 rounds/day (move action; countersong, dirge of doom,
+  distraction, fascinate [DC 19], inspire competence +4, inspire courage +3,
+  inspire greatness, suggestion [DC 19]), hatred
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +15)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound (DC 15), prestidigitation, speak with
+        animals
+SpellsKnown:
+  header: Bard Spells Known (CL 11th; concentration +15)
+  values:
+    - label: 4th (3/day)
+      value: dimension door, dominate person (DC 18), greater invisibility
+    - label: 3rd (5/day)
+      value: dispel magic, haste, purging finaleAPG (DC 17), slow (DC 17)
+    - label: 2nd (5/day)
+      value: >-
+        cure moderate wounds, glitterdust (DC 16), hold person (DC 16), mirror
+        image, suggestion (DC 16)
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 15), cure light wounds, grease, hideous laughter (DC
+        15), saving finaleAPG (DC 15), vanishAPG (DC 16)
+    - label: 0 (at will)
+      value: >-
+        detect magic, lullaby (DC 14), open/close (DC 14), prestidigitation,
+        read magic, summon instrument
+AbilityScores:
+  - 8
+  - 14
+  - 16
+  - 12
+  - 8
+  - 18
+BaseAtk: '8'
+CMB: '7'
+CMD: '19'
+Feats:
+  - Arcane Strike
+  - Craft Wand
+  - Dodge
+  - Extra Performance
+  - Iron Will
+  - Toughness
+Skills:
+  - Acrobatics +18
+  - Craft (musical instruments) +15
+  - Knowledge (geography) +13
+  - Knowledge (history) +13
+  - Knowledge (local) +16
+  - Knowledge (nature) +14
+  - Linguistics +6
+  - Perception +15
+  - Perform (dance) +18
+  - Perform (string instruments) +18
+  - Perform (wind instruments) +18
+Languages:
+  - Common
+  - Elven
+  - Gnome
+  - Infernal
+  - Sylvan
+  - Varisian
+SQ: >-
+  bardic knowledge +5, gnome magic, jack-of-all-trades, lore master 2/day,
+  versatile performances (dance, string, wind)
+Source: AP 107
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Jelbi's statistics above include the effects of Nedowyn's heroes' feast.
+DuringCombat: >-
+  Jelbi starts an audible bardic performance to inspire courage in herself and
+  allies and casts greater invisibility. She casts haste as early in the combat
+  as she can to affect all of the Fearless Crows, then moves on to use her
+  offensive spells against opponents. If her greater invisibility ends, Jelbi
+  casts it again unless she's out of 4th-level spell slots, in which case she
+  casts mirror image instead. In melee combat, she always uses Arcane Strike,
+  but she's ready to cast purging finale to get allies back in a fight or saving
+  finale if an ally fails an important saving throw, restarting her inspire
+  courage bardic performance on her next action.
+Morale: >-
+  Jelbi fights to the death unless she's the last one standing, in which case
+  she flees Barleybridge.
+Gear: >-
+  wand of break enchantment (4 charges), wand of confusion (CL 10th, 15
+  charges), wand of cure serious wounds (8 charges)
+OtherGear: >-
+  +2 chain shirt, +2 buckler, +1 composite shortbow with 20 arrows, mwk
+  longsword, satchel containing menus from 54 different Inner Sea taverns, 140
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8435'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

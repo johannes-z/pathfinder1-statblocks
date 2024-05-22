@@ -1,0 +1,127 @@
+Name: Lord Sun-Warrior
+CR: '15'
+XP: '51200'
+Race: couatl
+Alignment: LG
+Size: Large
+Type: outsider
+SubType: (native)
+Init: '7'
+Senses:
+  - darkvision 60 ft., detect chaos/evil/good/law
+  - Perception +32
+AC: 28, touch 13, flat-footed 24
+AC_Mods: (+3 Dex, +1 dodge, +15 natural, -1 size)
+HP: '230'
+HD: (20d10+120)
+Saves: Fort +14, Ref +17, Will +19
+Fort: '14'
+Ref: '17'
+Will: '19'
+Immune: mind-affecting effects
+Speed: 20 ft., fly 60 ft. (average)
+Melee:
+  - bite +26 (2d6+10 plus grab and poison)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: constrict (2d6+10)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +15)
+  values:
+    - label: Constant
+      value: detect chaos, detect evil, detect good, detect law
+    - label: At Will
+      value: >-
+        alter self, detect thoughts (DC 18), ethereal jaunt (CL 18th),
+        invisibility, plane shift (DC 23) 1/year-wish (CL 20th)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 12th; concentration +18)
+  values:
+    - label: 6th (4/day)
+      value: chain lightning (DC 22)
+    - label: 5th (6/day)
+      value: breath of life, flame strike (DC 21)
+    - label: 4th (7/day)
+      value: charm monster (DC 20), freedom of movement, lesser geas
+    - label: 3rd (7/day)
+      value: gaseous form, hold person, magic circle against evil, summon monster III
+    - label: 2nd (8/day)
+      value: >-
+        cure moderate wounds, eagle's splendor, glitterdust (DC 18), scorching
+        ray, silence (DC 18)
+    - label: 1st (8/day)
+      value: >-
+        endure elements, mage armor, obscuring mist, protection from chaos, true
+        strike
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze, detect magic, disrupt undead, light, ray of frost,
+        read magic, resistance, stabilize
+AbilityScores:
+  - 24
+  - 17
+  - 22
+  - 19
+  - 20
+  - 23
+BaseAtk: '20'
+CMB: +28 (+32 grapple)
+CMD: 42 (can't be tripped)
+Feats:
+  - Alertness
+  - Diehard
+  - Dodge
+  - Empower Spell
+  - Eschew MaterialsB
+  - Flyby Attack
+  - Great Fortitude
+  - Improved Initiative
+  - Improved Natural Attack (bite)
+  - Iron Will
+  - Lightning Reflexes
+Skills:
+  - Acrobatics +26 (+22 when jumping)
+  - Bluff +19
+  - Diplomacy +29
+  - Fly +24
+  - Knowledge (arcana) +14
+  - Knowledge (planes) +17
+  - Knowledge (religion) +17
+  - Perception +32
+  - Sense Motive +32
+  - Spellcraft +27
+  - Survival +25
+  - Use Magic Device +26
+Languages:
+  - Celestial
+  - Common
+  - Draconic
+  - Elven
+  - Polyglot
+  - telepathy 100 ft.
+Source: Mythical Monsters Revisited
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Injury-bite; save Fortitude DC 22; frequency 1/ minute for 10 minutes;
+      effect 1d4 Str; cure 2 consecutive saves. The DC is Constitution-based.
+      Spells Sun-Warrior casts spells as a 12th-level sorcerer, and can cast
+      spells from the cleric list as well as from those normally available to a
+      sorcerer. Cleric spells are considered arcane spells for couatls, meaning
+      Sun-Warrior does not need a divine focus to cast them.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1949'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,116 @@
+Name: Advanced Hydrodaemon
+CR: '11'
+XP: '12800'
+Race: hydrodaemon
+MonsterSource: Pathfinder RPG Bestiary 2 67
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (aquatic, daemon, evil, extraplanar)
+Init: '3'
+Senses:
+  - darkvision 60 ft., detect magic
+  - Perception +23
+AC: 25, touch 12, flat-footed 22
+AC_Mods: (+3 Dex, +13 natural, -1 size)
+HP: '147'
+HD: (14d10+70)
+Saves: Fort +14, Ref +14, Will +4
+Fort: '14'
+Ref: '14'
+Will: '4'
+DR: 10/cold iron or silver
+Immune: acid, death effects, disease, poison, waters of the River Styx
+Resist: cold 10, electricity  10, fire 10
+SR: '22'
+Speed: 30 ft., fly 40 ft. (average; see glide, below), swim 60 ft.
+Melee:
+  - bite +18 (1d8+5 plus grab), 2 claws +18 (1d6+5)
+Ranged:
+  - sleep spittle +16 ranged touch (sleep)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rake (2 claws +8, 1d6+5)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +11)
+  values:
+    - label: Constant
+      value: detect magic, water walk
+    - label: At Will
+      value: acid arrow, deeper darkness
+    - label: 3/day
+      value: >-
+        control water, greater teleport (self plus 50 lbs. of objects only),
+        summon monster V (Large water elemental only)
+    - label: 1/day
+      value: desecrate, summon (level 3, 1 hydrodaemon 50%)
+AbilityScores:
+  - 20
+  - 16
+  - 20
+  - 9
+  - 11
+  - 14
+BaseAtk: '14'
+CMB: +20 (+22 bull rush, +24 grapple)
+CMD: 33 (35 vs. bull rush)
+Feats:
+  - Cleave
+  - Improved Bull Rush
+  - Lightning Reflexes
+  - Point-Blank Shot
+  - Power Attack
+  - Precise Shot
+  - Skill Focus (Perception)
+Skills:
+  - Fly +14
+  - Intimidate +13
+  - Knowledge (planes) +12
+  - Perception +23
+  - Sense Motive +13
+  - Stealth +10
+  - Swim +26
+Languages:
+  - Abyssal
+  - Infernal
+  - telepathy 100 ft.
+SQ: amphibious, glide
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Glide (Ex)
+    description: >-
+      A hydrodaemon can launch itself into the air and glide along for 1 minute,
+      gaining a fly speed of 40 feet with average maneuverability. While
+      gliding, the hydrodaemon gains the pounce ability.
+  - name: Sleep Spittle (Su)
+    description: >-
+      A hydrodaemon can spit at a single target within 20 feet, making a ranged
+      touch attack as a standard action. A target hit by this spittle must
+      succeed on a DC 22 Will save or fall asleep for 6 rounds. The save DC is
+      Constitution-based.
+DuringCombat: >-
+  The hydrodaemons cling to the sides of the chasm and use their sleep spittle
+  to attack intruders by surprise. Any opponents who succumb to the spittle are
+  pushed over the edge, soon followed by a hydrodaemon gliding down into the
+  chasm to feed on the fallen foe. The rest leap forward to attack with bite,
+  claw, and rake attacks.
+Morale: >-
+  The hydrodaemons jump into the chasm to seek refuge in the subterranean lake
+  if reduced to 50 hit points or fewer.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1450'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

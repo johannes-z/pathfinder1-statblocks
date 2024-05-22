@@ -1,0 +1,115 @@
+Name: Brass Golem
+CR: '14'
+XP: '38400'
+Alignment: 'N'
+Size: Huge
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +1
+AC: 30, touch 8, flat-footed 30
+AC_Mods: (+22 natural, -2 size)
+HP: '150'
+HD: (20d10+40)
+Saves: Fort +6, Ref +6, Will +7
+Fort: '6'
+Ref: '6'
+Will: '7'
+DR: 15/adamantine
+Immune: construct traits, fire, magic
+Speed: 40 ft.
+Melee:
+  - >-
+    brass falchion +29 (3d6+11/18-20 plus 2d6 fire), slam +29 (2d6+11 plus 2d6
+    fire)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: breath weapon (DC 20), heat (2d6 fire)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 17th; concentration +12)
+  values:
+    - label: Constant
+      value: see invisibility
+AbilityScores:
+  - 32
+  - 11
+  - —
+  - —
+  - 13
+  - 1
+BaseAtk: '20'
+CMB: '33'
+CMD: '43'
+SQ: death throes, brass falchion
+Environment: any
+Organization: solitary or watch (2-4)
+Treasure: none
+Description_Visual: >-
+  This towering brass statue, built to resemble an evil horned humanoid, carries
+  a gigantic curved sword in its metal fists.
+Group: Golem
+Source: PFRPG Bestiary 3
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Brass Falchion (Ex)
+    description: >-
+      A brass golem's falchion deals damage as a Huge falchion, but is actually
+      a primary natural attack, not a manufactured weapon, and cannot be
+      disarmed.
+  - name: Breath Weapon (Su)
+    description: >-
+      As a free action once every 1d4 rounds, a brass golem can expel a cloud of
+      smoke and cinders that fills a 20-foot cube. This functions as an
+      incendiary cloud that persists for 1d6 rounds, dealing 6d6 points of fire
+      damage (DC 20 Reflex for half). The save DC is Constitution-based.
+  - name: Death Throes (Ex)
+    description: >-
+      A brass golem explodes when it is destroyed. All creatures within 30 feet
+      of the golem take 12d8 points of fire damage (DC 20 Reflex for half). The
+      save DC is Constitution-based.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A brass golem is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against the creature. • A magical attack that deals cold
+      damage slows a brass golem (as per the slow spell) for 1d6 rounds, with no
+      saving throw. • A magical attack that deals fire damage breaks any slow
+      effect on the golem and heals 1 point of damage for each 3 points of
+      damage the attack would otherwise deal. If the amount of healing would
+      cause the golem to exceed its full normal hit points, it gains any excess
+      as temporary hit points. A brass golem gets no save against fire effects.
+Description:
+  - >-
+    Implacable automatons of elemental fire and extraplanar brass, brass golems
+    stand sentinel over the palaces, treasuries, and harems of their creators.
+    Brass golems are 24 feet tall and weigh 18,000 pounds.
+  - Construction
+  - >-
+    Crafting a brass golem requires 18,000 pounds of brass, cast with several
+    rare mineral solutions and ore compounds that cost at least 20,000 gp.
+  - BRASS GOLEM
+  - CL 17th; Price 180,000 gp
+  - Construction
+  - >-
+    Requirements Craft Construct, geas/quest, incendiary cloud, limited wish,
+    see invisibility, creator must be caster level 17th; Skill Craft (armor) or
+    Craft (blacksmithing) DC 22; Cost 100,000 gp
+Gender: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '2083'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

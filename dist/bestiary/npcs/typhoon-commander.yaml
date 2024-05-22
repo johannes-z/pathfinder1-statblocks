@@ -1,0 +1,132 @@
+Name: Typhoon Commander
+CR: '13'
+XP: '25600'
+Race: Ogre mage
+Class: inquisitor of Fumeiyoshi 5
+MonsterSource: Pathfinder RPG Bestiary 221, Pathfinder RPG Advanced Player's Guide 38
+Alignment: LE
+Size: Large
+Type: outsider
+SubType: (giant, native, oni, shapechanger)
+Init: '11'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +18
+AC: 28, touch 15, flat-footed 24
+AC_Mods: (+8 armor, +2 deflection, +4 Dex, +5 natural, -1 size)
+HP: '188'
+HD: (13 HD; 8d10+5d8+122)
+HP_Mods: regeneration 5 (acid or fire)
+Saves: Fort +19, Ref +9, Will +15
+Fort: '19'
+Ref: '9'
+Will: '15'
+SR: '19'
+Speed: 30 ft., fly 40 ft. (average)
+Melee:
+  - +2 naginata** +22/+17/+12 (2d6+15/x4)
+Ranged:
+  - mwk composite longbow +15/+10/+5 (2d6+9/x3)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with naginata)
+SpecialAttacks: bane (5 rounds/day), destructive smite (+2, 6/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +11)
+  values:
+    - label: Constant
+      value: fly
+    - label: At Will
+      value: darkness, invisibility
+    - label: 1/day
+      value: >-
+        charm monster (DC 16), cone of cold (DC 17), deep slumber (DC 15),
+        gaseous form Inquisitor Spell-Like Abilities (CL 5th; concentration +8)
+    - label: At Will
+      value: detect alignment, discern lies (5 rounds/day)
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 5th; concentration +7)
+  values:
+    - label: 2nd (3/day)
+      value: confess* (DC 14), detect thoughts (DC 14), see invisibility
+    - label: 1st (5/day)
+      value: command (DC 13), cure light wounds, divine favor, shield of faith
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 12), brand* (DC 12), detect magic, resistance,
+        sift*
+SpellDomains: Destruction
+AbilityScores:
+  - 28
+  - 19
+  - 28
+  - 14
+  - 16
+  - 15
+BaseAtk: '11'
+CMB: +21 (+23 trip)
+CMD: 37 (39 vs. trip)
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Improved Initiative
+  - Improved Trip
+  - Iron Will
+  - Lightning Reflexes
+  - Outflank*
+  - Weapon Focus (naginata**)
+Skills:
+  - Bluff +18
+  - Disguise +18
+  - Fly +14
+  - Intimidate +20
+  - Knowledge (arcana) +10
+  - Knowledge (local) +10
+  - Knowledge (planes) +10
+  - Perception +18
+  - Sense Motive +18
+  - Spellcraft +10
+  - Stealth +8
+  - Survival +10
+Languages:
+  - Common
+  - Giant
+  - Minkaian
+  - Tien
+SQ: >-
+  change shape (Small, Medium, or Large humanoid; alter self or giant form I),
+  cunning initiative, flight, judgment 2/day, monster lore +3, solo tactics,
+  stern gaze, track +2
+Source: AP 54
+IsTemplate: '0'
+BeforeCombat: >-
+  A Typhoon commander always casts see invisibility before going on its guard
+  shift, making sure to renew it every hour. Before combat, a commander also
+  casts shield of faith.
+DuringCombat: >-
+  Each commander generally relies on charm monster or deep slumber to subdue
+  most would-be troublemakers. Against stronger opponents, a commander turns
+  invisible, flying above combat if necessary, and invokes its justice judgment
+  ability, granting itself a +1 profane bonus on attack rolls before imbuing its
+  naginata with the bane weapon special ability.
+Morale: >-
+  A Typhoon commander fights to the death, unwilling to face the wrath of
+  Anamurumon or the Jade Regent should it flee.
+Gear: >-
+  +3 do-maru**, +2 naginata**, masterwork composite longbow (+9 Str) with 20
+  arrows
+Note: '* See the Advanced Player''s Guide.<br>** See Ultimate Combat.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2480'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

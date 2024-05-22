@@ -1,0 +1,112 @@
+Name: Thora Petska
+CR: '3'
+XP: '800'
+Race: guardian doll
+MonsterSource: 'Pathfinder Campaign Setting: Irrisen, Land of Winter 58'
+Alignment: NE
+Size: Tiny
+Type: construct
+SubType: (cold)
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +5
+AC: 16, touch 15, flat-footed 13
+AC_Mods: (+3 Dex, +1 natural, +2 size)
+HP: '22'
+HD: (4d10)
+Saves: Fort +1, Ref +4, Will +2
+Fort: '1'
+Ref: '4'
+Will: '2'
+DR: 5/magic
+Immune: cold, construct traits
+SR: '14'
+Weaknesses: susceptible to mind-affecting effects, vulnerable to fire
+Speed: 30 ft.
+Melee:
+  - doll's dagger +10 (1d2-1/19-20 plus 1d6 cold and paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +4)
+  values:
+    - label: At Will
+      value: ray of frost
+    - label: 3/day
+      value: >-
+        alarm, charm person (DC 11), light, mage hand, open/ close,
+        prestidigitation
+    - label: 1/day
+      value: frost fallUC (DC 12), levitate
+AbilityScores:
+  - 8
+  - 17
+  - —
+  - 13
+  - 12
+  - 10
+BaseAtk: '4'
+CMB: '5'
+CMD: '11'
+Feats:
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Escape Artist +5
+  - Linguistics +3
+  - Perception +5
+  - Stealth +15
+Languages:
+  - Common
+  - Hallit
+  - Skald
+SQ: soul focus
+Source: AP 67
+IsTemplate: '0'
+SpecialAbilities:
+  - name: s Dagger (Su)
+    description: >-
+      The dagger wielded by a guardian doll is treated as a masterwork weapon
+      and deals 1d6 points of cold damage in addition to its normal damage.
+      Those struck by the dagger must succeed at a DC 12 Fortitude save or be
+      paralyzed by the supernatural cold of the weapon for 1d4 rounds. If the
+      guardian doll is destroyed, its weapon becomes a useless child's toy. The
+      save DC is Charisma-based.
+  - name: Soul Focus (Su)
+    description: >-
+      Thora's soul is bound within the doll's gemstone eye. As long as this soul
+      focus remains intact, it can be used to animate another doll, using the
+      same cost as creating a new construct. Once bound into the soul focus, the
+      soul continues to learn. If it is put into a new doll body, the soul
+      retains its personality and memories from its previous bodies. A soul
+      focus has hardness 8, 12 hit points, and a break DC of 20. Susceptible to
+      Mind-Affecting
+  - name: Effects (Ex)
+    description: >-
+      Like a soulbound doll, a guardian doll is susceptible to mind-affecting
+      effects. However, because of the singular purpose with which it is imbued,
+      its saves against such effects are made with a +1 racial bonus.
+Gender: Female
+DuringCombat: >-
+  Thora casts levitate to rise into the air so she can more safely cast spells,
+  using charm person to create allies to prevent others from attacking her. If
+  forced into melee combat, she casts frostfall and then attacks with her doll's
+  dagger, hoping to catch paralyzed opponents in the supernaturally chilled area
+  of the spell.
+Morale: Thora fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4007'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

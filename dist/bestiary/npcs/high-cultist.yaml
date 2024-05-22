@@ -1,0 +1,124 @@
+Name: High Cultist
+CR: '6'
+XP: '2400'
+Race: Aasimar
+Class: sorcerer 7
+MonsterSource: Pathfinder RPG Bestiary 7
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (native)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +3
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex)
+HP: '41'
+HD: (7d6+14)
+Saves: Fort +4, Ref +7, Will +6
+Fort: '4'
+Ref: '7'
+Will: '6'
+DefensiveAbilities: fated (+2)
+Resist: acid 5, cold 5, electricity 5
+Speed: 30 ft.
+Melee:
+  - sickle +3 (1d6)
+Ranged:
+  - mwk light crossbow +6 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Aasimar Spell-Like Abilities (CL 7th; concentration +11)
+  values:
+    - label: 2/day
+      value: >-
+        daylight, searing light Bloodline Spell-Like Abilities (CL 7th;
+        concentration +11)
+    - label: 7/day
+      value: touch of destiny (+3)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (5/day)
+      value: >-
+        lightning bolt (DC 17), protection from energy, unadulterated loathingUM
+        (DC 18)
+    - label: 2nd (7/day)
+      value: >-
+        blur, demand offeringOA (DC 17), detect thoughts (DC 16), touch of
+        idiocy
+    - label: 1st (7/day)
+      value: >-
+        alarm, cause fear (DC 15), charm person (DC 16), color spray (DC 15),
+        mage armor, magic missile
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), dancing lights, daze (DC 15), detect magic,
+        ghost sound (DC 14), message
+AbilityScores:
+  - 10
+  - 14
+  - 13
+  - 12
+  - 10
+  - 18
+BaseAtk: '3'
+CMB: '3'
+CMD: '15'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Heavenly Radiance
+  - Improved Initiative
+  - Lightning Reflexes
+  - Spell Focus (enchantment)
+Skills:
+  - Bluff +14
+  - Diplomacy +6
+  - Disguise +14
+  - Intimidate +14
+  - Perception +3
+  - Spellcraft +7
+  - Use Magic Device +10
+RacialMods: +2 Diplomacy, +2 Perception
+Languages:
+  - Celestial
+  - Common
+  - Halfling
+SQ: bloodline arcana (gain luck bonus on saves when casting personal-range spells)
+Source: AP 129
+IsTemplate: '0'
+Bloodline: destined
+BeforeCombat: >-
+  The high cultists cast mage armor each day. A high cultist who anticipates
+  combat casts protection from energy of a type that seems most helpful (usually
+  fire).
+DuringCombat: >-
+  Although high cultists prefer to turn enemies into pawns with charm person,
+  they attempt to quickly dispatch powerful foes with lightning bolt, magic
+  missile, and searing light. High cultists shun melee and cast unadulterated
+  loathing to compel melee fighters to keep their distance, or drink a potion of
+  invisibility to sneak away to a better tactical position.
+Morale: High cultists fight to the death.
+Gear: potion of cure moderate wounds,  potion of invisibility
+OtherGear: >-
+  mwk light crossbow with 20 bolts, sickle, cloak of resistance +1, cult tunic,
+  mirror, ritual bellOA
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without mage armor, a high cultist's statistics are AC 12, flat-footed 10.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11783'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

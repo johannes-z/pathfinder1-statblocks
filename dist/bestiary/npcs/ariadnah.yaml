@@ -1,0 +1,154 @@
+Name: Ariadnah
+CR: '18'
+XP: '102400'
+Race: human
+Class: witch 16
+MonsterSource: Pathfinder RPG Bestiary 188, Pathfinder RPG Advanced Player's Guide 65
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, human)
+Init: '8'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +30
+Aura: fear (60 ft., DC 24)
+AC: 28, touch 19, flat-footed 24
+AC_Mods: (+4 armor, +5 deflection, +4 Dex, +5 natural)
+HP: '186'
+HD: (16d6+128)
+Saves: Fort +15, Ref +15, Will +17
+Fort: '15'
+Ref: '15'
+Will: '17'
+DefensiveAbilities: channel resistance +4, rejuvenation
+DR: 15/bludgeoning and magic
+Immune: cold, electricity, polymorph, undead traits
+Speed: 30 ft.
+Melee:
+  - +2 quarterstaff +10/+5 (1d6+2)
+  - touch +8 (1d8+8 negative energy plus paralyzing touch)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  hexes (agonyAPG, cackleAPG, evil eyeAPG, flightAPG, misfortuneAPG,
+  nightmaresAPG, retributionAPG, slumberAPG, speak in dreamsUM), paralyzing
+  touch (DC 26)
+SpellLikeAbilities:
+  header: Witch Spell-Like Abilities (CL 16th; concentration +25)
+  values:
+    - label: At Will
+      value: feather fall (self only), fly (self only)
+    - label: 9/day
+      value: speak in dreamsUM
+    - label: 1/day
+      value: levitate (self only)
+SpellsPrepared: >-
+  Witch Spells Prepared (CL 16th; concentration +25)   8th-horrid wilting (DC
+  27), greater possessionOA (DC 27), maze   7th-bouncing flesh to stone (2, DC
+  25), mass hold person (DC 26), waves of exhaustion   6th-cloak of dreamsAPG
+  (DC 25), greater dispel magic, bouncing major curseUM (DC 24), mass festerAPG
+  (DC 25)   5th-baleful polymorph (DC 24), cloudkill (DC 24), dominate person
+  (DC 24), feeblemind (2, DC 24), major curseUM (DC 24)   4th-heightened bestow
+  curse (DC 23), enervation (2), greater false lifeUM, spiteAPG, wall of
+  blindness/ deafnessACG (DC 23)   3rd-arcane sight, bouncing blindness/deafness
+  (2, DC 21), dispel magic (2), tongues   2nd-false life, glitterdust (DC 21),
+  see invisibility, vomit swarmAPG, web (2, DC 21)   1st-charm person (DC 20),
+  ear-piercing screamUM (2, DC 20), ill omenAPG (2), long armACG, mage armor   0
+  (at will)-bleed (DC 19), detect magic, read magic, touch of fatigue (DC 19)
+AbilityScores:
+  - 10
+  - 18
+  - —
+  - 28
+  - 16
+  - 23
+BaseAtk: '8'
+CMB: '8'
+CMD: '27'
+Feats:
+  - Ability Focus (paralyzing touch)
+  - Bouncing Spell
+  - Combat Casting
+  - Heighten Spell
+  - Improved Familiar
+  - Improved Initiative
+  - Lightning Reflexes
+  - Preferred SpellAPG(harm)
+  - Toughness
+Skills:
+  - Bluff +22
+  - Intimidate +21
+  - Knowledge (arcana
+  - history
+  - nature
+  - planes
+  - religion) +24
+  - Perception +30
+  - Sense Motive +26
+  - Spellcraft +28
+  - Stealth +31
+  - Swim +4
+  - Use Magic Device +21
+RacialMods: +8 Perception, +8 Sense Motive, +8 Stealth
+Languages:
+  - Abyssal
+  - Aklo
+  - Common
+  - Draconic
+  - Giant
+  - Halfling
+  - Hallit
+  - Infernal
+  - Kelish
+  - Sylvan
+SQ: exceptional resources, witch's familiar (ratling named Yonah)
+Source: AP 114
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Exceptional Resources (Ex)
+    description: >-
+      Ariadnah has the wealth of a PC rather than an NPC. This increases her CR
+      by 1.
+Gender: Female
+BeforeCombat: >-
+  Ariadnah casts arcane sight, cloak of dreams, greater false life, and mage
+  armor before combat. She also casts true seeing from a scroll. These spell
+  effects are included in her statistics block, except for the amount of
+  temporary hit points received from greater false life. You must roll to
+  determine this.
+DuringCombat: >-
+  Ariadnah first uses maze on obvious divine spellcasters and then, using
+  greater possession, attempts to possess the nearest enemy wearing the least
+  amount of armor. If reduced to less than half her total hit points, she
+  spontaneously casts harm on herself using one of her 7th- or 8th-level spell
+  slots.
+Morale: >-
+  Ariadnah fights to the death, trusting that the PCs are too preoccupied with
+  the threat of Hastur to hunt down her phylactery.
+Gear: scroll of true seeing
+OtherGear: >-
+  +2 quarterstaff, belt of incredible dexterity +6, cloak of resistance +4,
+  headband of mental prowess +6 (Int, Cha), ring of freedom of movement, ring of
+  protection +5
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: lich|
+BaseStatistics: >-
+  Without the effects of the spells cast as listed in Before Combat, Ariadnah's
+  statistics are as follows: AC 24, touch 19, flat-footed 20 (+5 deflection, +4
+  Dex, +5 natural).
+AgeCategory: middle age
+Patron: ancestors
+CompanionFamiliarLink: '11101'
+id: '11100'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

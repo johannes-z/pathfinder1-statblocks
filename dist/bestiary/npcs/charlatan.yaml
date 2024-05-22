@@ -1,0 +1,94 @@
+Name: Charlatan
+CR: '3'
+XP: '800'
+Race: human
+Class: rogue 4
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +8
+AC: 16, touch 12, flat-footed 14
+AC_Mods: (+4 armor, +2 Dex)
+HP: '21'
+HD: (4d8)
+Saves: Fort +1, Ref +6, Will +2
+Fort: '1'
+Ref: '6'
+Will: '2'
+DefensiveAbilities: evasion, trap sense +1, uncanny dodge
+Speed: 30 ft.
+Melee:
+  - mwk rapier +3 (1d6-1/18-20)
+Ranged:
+  - light crossbow +5 (1d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +2d6
+SpellLikeAbilities:
+  header: Rogue Spell-Like Abilities (CL 4th, concentration +5)
+  values:
+    - label: 3/day
+      value: prestidigitation
+    - label: 2/day
+      value: disguise self
+AbilityScores:
+  - 8
+  - 14
+  - 10
+  - 13
+  - 12
+  - 18
+BaseAtk: '3'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Combat Expertise
+  - Deceitful
+  - Improved Feint
+Skills:
+  - Bluff +13
+  - Diplomacy +11
+  - Disable Device +9
+  - Disguise +13
+  - Heal +3
+  - Knowledge (local) +8
+  - Perception +8
+  - Perform (sing) +9
+  - Sense Motive +8
+  - Sleight of Hand +9
+  - Stealth +9
+  - Use Magic Device +11
+Languages:
+  - Common
+  - Elven
+SQ: rogue talents (major magic, minor magic), trapfinding +2
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: Using Bluff or Disguise, the rogue avoids combat.
+DuringCombat: The rogue uses Improved Feint to make sneak attacks while trying to escape.
+Gear: >-
+  potion of cure moderate wounds, scroll of bless, scroll of burning hands,
+  scroll of cure light wounds, scroll of magic missile, alchemist's fire (2),
+  holy water, thunderstone
+OtherGear: >-
+  +1 studded leather, light crossbow with 10 bolts, masterwork rapier, disguise
+  kit, everburning torch, healer's kit, thieves' tools, wizard's spellbook,
+  wooden holy symbol, 129 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3787'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

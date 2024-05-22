@@ -1,0 +1,101 @@
+Name: Crystallise
+CR: '13'
+XP: '25600'
+Race: crystallis
+MonsterSource: Tome of Horrors Complete 131
+Alignment: 'N'
+Size: Large
+Type: outsider
+SubType: (earth, elemental, extraplanar)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+AC: 29, touch 12, flat-footed 26
+AC_Mods: (+3 Dex, +17 natural, -1 size)
+HP: '175'
+HD: (14d10+98)
+Saves: Fort +16, Ref +14, Will +7
+Fort: '16'
+Ref: '14'
+Will: '7'
+DR: 10/-
+Immune: disintegration, earth, elemental traits, petrification
+Speed: 30 ft., burrow 30 ft.
+Melee:
+  - 2 claws +22 (4d8+9 plus 1d6 bleed)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: crystalline claws, petrification cloud
+AbilityScores:
+  - 28
+  - 16
+  - 25
+  - 14
+  - 16
+  - 14
+BaseAtk: '14'
+CMB: +24 (+28 sunder)
+CMD: 39 (41 vs. sunder)
+Feats:
+  - Greater Sunder
+  - Improved Initiative
+  - Improved Natural Attack (claws)
+  - Improved Sunder
+  - Lightning Reflexes
+  - Power Attack
+  - Vital Strike
+Skills:
+  - Bluff +19
+  - Intimidate +19
+  - Knowledge (dungeoneering) +19
+  - Knowledge (geography) +19
+  - Knowledge (planes) +19
+  - Perception +20
+  - Sense Motive +20
+  - Stealth +16
+Languages:
+  - Terran
+Source: AP 66
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Crystalline Claws (Ex)
+    description: >-
+      A crystallis's claws overcome damage reduction and hardness as if they
+      were adamantine, but crumble to powder if removed or upon the creature's
+      death.
+  - name: Immunity to Earth (Ex)
+    description: >-
+      A crystallis is immune to natural attacks and supernatural abilities from
+      creatures of the earth subtype, and to all spells with the earth
+      descriptor. They are also immune to disintegration effects.
+  - name: Petrification Cloud (Su)
+    description: >-
+      Once every 1d4+1 rounds, a crystallis can breathe forth a cloud of orange
+      smoke as a free action. This cloud fills a 10-foot cube adjacent to the
+      crystallis and lasts for 1 round before dispersing. A living creature that
+      enters the cloud must succeed at a DC 24 Fortitude save or be petrified,
+      transforming into a crystalline statue. The save DC is Constitution-based.
+DuringCombat: >-
+  Both elder crystallises breath out petrification clouds on the first round,
+  trying to catch as many enemies within as they can, then breathe again as
+  often as they can. They prefer to focus attacks on the same foe, starting with
+  the strongest-looking characters first since they know spellcasters will have
+  problems with the noqual in the walls.
+Morale: The crystallises fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: elder
+CompanionFamiliarLink: '0'
+id: '3855'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,112 @@
+Name: Grave Risen
+CR: '4'
+XP: '1200'
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +10
+AC: 15, touch 12, flat-footed 13
+AC_Mods: (+2 Dex, +3 natural)
+HP: '42'
+HD: (5d8+15 plus 5)
+Saves: Fort +4, Ref +3, Will +6
+Fort: '4'
+Ref: '3'
+Will: '6'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - 2 claws +6 (1d4+2 plus blood poisoning)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th)
+  values:
+    - label: 1/day
+      value: animate dead
+AbilityScores:
+  - 14
+  - 15
+  - —
+  - 13
+  - 14
+  - 16
+BaseAtk: '3'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Improved Initiative
+  - Toughness
+  - Weapon Focus (claw)
+Skills:
+  - Acrobatics +7
+  - Climb +10
+  - Escape Artist +7
+  - Perception +10
+  - Stealth +10
+Environment: any
+Organization: solitary or troupe (1 grave risen plus 2-5 zombies)
+Treasure: none
+Description_Visual: >-
+  This rotting, worm-ridden corpse is draped in tattered and loosely fitting
+  rags and dented and armor. Blackened eye sockets serve as its eyes, and the
+  stench of death clings to its body. Its nails are long and filthy, caked with
+  dirt and soil from the grave.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Poisoning (Ex)
+    description: >-
+      A creature hit by a claw attack must succeed on a DC 15 Fortitude save or
+      contract blood poisoning. This deals 1 point of Constitution damage to the
+      victim per minute until the victim dies or the blood poisoning is healed.
+      A neutralize poison or remove disease spell rids the victim of blood
+      poisoning, as does a DC 15 Heal check. Multiple wounds to the same foe do
+      not result in multiple instances of blood poisoning. The save DC and check
+      DC are both Charisma-based.
+Description:
+  - >-
+    Grave risen are rotting undead creatures that upon first glance resemble
+    zombies. They are created from a normal corpse in an area where the blood of
+    a spellcaster is spilled and permeates the ground. The blood fuses with a
+    corpse which sometimes animates as a grave risen. These creatures rarely
+    wander far from the area where they were risen, preferring the stench of
+    death and the serenity of death that lingers in the air.
+  - >-
+    Grave risen have no love for the living and attack living creatures on
+    sight. Living creatures slain by a grave risen are clawed and mutilated and
+    then buried in a shallow grave by the grave risen as a mockery of its own
+    current existence.
+  - >-
+    Grave risen do not speak or communicate; only occasionally loosing guttural
+    tones from their rotting vocal organs.
+  - >-
+    Since grave risen are rarely encountered anywhere but cemeteries, burial
+    grounds, or the like, they usually begin combat by animating corpses and
+    sending them against their aggressors. After animating corpses, the grave
+    risen attempts to down its foes with its filthy claws. Slain foes are
+    destroyed (as detailed above) and are not consumed by a grave risen.
+  - Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2663'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

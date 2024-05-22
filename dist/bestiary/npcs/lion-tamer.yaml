@@ -1,0 +1,131 @@
+Name: Lion Tamer
+CR: '14'
+XP: '38400'
+Race: gnome
+Class: bard 15
+Alignment: CN
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '3'
+Senses:
+  - low-light vision
+  - Perception +15
+AC: 23, touch 16, flat-footed 20
+AC_Mods: (+6 armor, +2 deflection, +3 Dex, +1 natural, +1 size)
+HP: '86'
+HD: (15d8+15)
+Saves: >-
+  Fort +6, Ref +13, Will +10; +2 vs. illusions, +4 vs. bardic performance,
+  language-dependent, and sonic
+Fort: '6'
+Ref: '13'
+Will: '10'
+Save_Mods: +2 vs. illusions, +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Speed: 20 ft.
+Melee:
+  - +1 shock whip +17/+12/+7 (1d2+1 nonlethal plus 1d6 electricity)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with whip)
+SpecialAttacks: >-
+  +1 on attack rolls against goblinoid and reptilian humanoids, bardic
+  performance 38 rounds/day (swift action; countersong, dirge of doom,
+  distraction, fascinate, frightening tune, inspire competence +5, inspire
+  courage +3, inspire greatness, inspire heroics, soothing performance,
+  suggestion)
+SpellLikeAbilities:
+  header: Gnome Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: 1/day
+      value: dancing lights, ghost sound, prestidigitation, speak with animals
+SpellsKnown:
+  header: Bard Spells Known (CL 15th; concentration +21)
+  values:
+    - label: 5th (4/day)
+      value: greater heroism, mass suggestion (DC 21), mislead, summon monster V
+    - label: 4th (5/day)
+      value: >-
+        cure critical wounds (DC 20), dominate person (DC 20), greater
+        invisibility, summon monster IV
+    - label: 3rd (6/day)
+      value: >-
+        charm monster (DC 19), glibness, haste (DC 19), speak with animals,
+        summon monster III
+    - label: 2nd (7/day)
+      value: >-
+        animal trance (DC 18), cat's grace, mirror image, pyrotechnics (DC 18),
+        rage, summon monster II
+    - label: 1st (7/day)
+      value: >-
+        animate rope, charm person (DC 17), disguise self, hideous laughter (DC
+        17), summon monster I, ventriloquism (DC 18)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze (DC 16), flare (DC 16), mage hand, mending,
+        prestidigitation
+AbilityScores:
+  - 10
+  - 16
+  - 10
+  - 13
+  - 10
+  - 22
+BaseAtk: '11'
+CMB: +13 (+17 disarm or trip)
+CMD: 25 (27 vs. disarm or trip)
+Feats:
+  - Agile Maneuvers
+  - Combat Expertise
+  - Greater Disarm
+  - Greater Trip
+  - Improved Disarm
+  - Improved Trip
+  - Weapon Finesse
+  - Weapon Focus (whip)
+Skills:
+  - Knowledge (arcana) +13
+  - Knowledge (local) +15
+  - Knowledge (nature) +15
+  - Perception +15
+  - Perform (comedy) +24
+  - Perform (dance) +24
+  - Perform (oratory) +24
+  - Perform (wind) +24
+  - Profession (showman) +4
+  - Stealth +24
+  - Use Magic Device +18
+Languages:
+  - Common
+  - Gnome
+  - Sylvan
+SQ: >-
+  bardic knowledge +7, jack-of-all-trades (use any skill), lore master 2/day,
+  versatile performance (comedy, dance, oratory, wind), weapon familiarity
+Source: NPC Codex
+IsTemplate: '0'
+DuringCombat: >-
+  The bard casts greater invisibility on himself, and sends forth summoned
+  creatures and trained lions.
+Gear: >-
+  potion of invisibility, scroll of bull's strength, scroll of cat's grace, wand
+  of cure moderate wounds (50 charges)
+OtherGear: >-
+  +2 chain shirt, +1 shock whip, amulet of natural armor +1, cloak of resistance
+  +1, headband of alluring charisma +4, ring of protection +2, trained lion, 349
+  gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3630'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

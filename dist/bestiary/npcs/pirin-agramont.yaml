@@ -1,0 +1,121 @@
+Name: Pirin Agramont
+CR: '8'
+XP: '4800'
+Race: half-elf
+Class: sorcerer 9
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '6'
+Senses:
+  - low-light vision
+  - Perception +2
+AC: 19, touch 14, flat-footed 16
+AC_Mods: (+4 armor, +1 deflection, +2 Dex, +1 dodge, +1 natural)
+HP: '70'
+HD: (9d6+36)
+Saves: Fort +8, Ref +6, Will +7; +2 vs. enchantments
+Fort: '8'
+Ref: '6'
+Will: '7'
+Save_Mods: +2 vs. enchantments
+Resist: fire 20
+Speed: 30 ft.
+Melee:
+  - mwk sickle +7 (1d6-1)
+  - mwk dagger +7 (1d4-1/19-20)
+Ranged:
+  - +1 light crossbow +7 (1d8+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: 7/day
+      value: elemental ray (1d6+4 fire)
+    - label: 1/day
+      value: elemental blast (9d6 fire, DC 18)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 9th; concentration +13)
+  values:
+    - label: 4th (5/day)
+      value: black tentacles, elemental body I, stoneskin
+    - label: 3rd (7/day)
+      value: fly, hold person (DC 17), protection from energy, slow (DC 17)
+    - label: 2nd (7/day)
+      value: >-
+        invisibility, levitate, protection from arrows, resist energy, scorching
+        ray
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 15), grease, mage armor, magic missile, protection
+        from good, reduce person (DC 15)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, daze (DC 14), detect magic, mage hand, message, open/close,
+        read magic, resistance
+AbilityScores:
+  - 8
+  - 14
+  - 14
+  - 12
+  - 10
+  - 18
+BaseAtk: '4'
+CMB: '3'
+CMD: '17'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Eschew Materials
+  - Great Fortitude
+  - Improved Initiative
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Bluff +16
+  - Fly +10
+  - Intimidate +11
+  - Perception +2
+  - Spellcraft +13
+  - Use Magic Device +16
+RacialMods: +2 Perception
+Languages:
+  - Common
+  - Elven
+  - Infernal
+SQ: bloodline arcana, elf blood
+Source: The Ruby Phoenix Tournament
+IsTemplate: '0'
+Gender: Female
+Bloodline: Elemental (fire)
+BeforeCombat: >-
+  Pirin casts mage armor at the start of each day. She casts protection from
+  arrows if she has time before the start of combat.
+DuringCombat: >-
+  The sorcerer uses fly if it would be advantageous, then resorts to offensive
+  spells such as black tentacles, burning hands, and her elemental blast
+  bloodline power. If she begins to take significant damage, she casts stoneskin
+  and invisibility.
+Gear: >-
+  potion of cure serious wounds, wand of ray of enfeeblement (CL 6th, 14
+  charges)
+OtherGear: >-
+  +1 light crossbow with 20 bolts, masterwork dagger, masterwork sickle, amulet
+  of natural armor +1, cloak of resistance +1, ring of protection +1, 97 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2366'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

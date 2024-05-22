@@ -1,0 +1,102 @@
+Name: Electrified Steam Lizard
+CR: '3'
+XP: '800'
+Race: elementally infused shocker lizard
+MonsterSource: 'Pathfinder Campaign Setting: Planes of Power 56, Pathfinder RPG Bestiary 248'
+Alignment: 'N'
+Size: Small
+Type: outsider
+SubType: (air, fire, native)
+Init: '7'
+Senses:
+  - darkvision 60 ft., electricity sense, low-light vision
+  - Perception +7
+AC: 17, touch 14, flat-footed 14
+AC_Mods: (+3 Dex, +3 natural, +1 size)
+HP: '22'
+HD: (3d10+6)
+Saves: Fort +5, Ref +6, Will +1
+Fort: '5'
+Ref: '6'
+Will: '1'
+Immune: electricity, fire
+Speed: 40 ft., climb 20 ft., fly 30 ft., swim 20 ft.
+Melee:
+  - bite +6 (1d4+2 plus 1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: shock, steam burst
+AbilityScores:
+  - 14
+  - 17
+  - 15
+  - 6
+  - 11
+  - 6
+BaseAtk: '3'
+CMB: '4'
+CMD: 17 (21 vs. trip)
+Feats:
+  - Improved Initiative
+  - Skill Focus (Stealth)
+Skills:
+  - Climb +7
+  - Perception +7
+  - Stealth +18
+  - Swim +10
+RacialMods: +2 Perception, +4 Stealth
+Languages:
+  - Auran
+  - Ignan
+Source: PFS 8-10
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Electricity Sense (Ex)
+    description: >-
+      Electrified steam lizards automatically detect any electrical discharges
+      within 100 feet.
+  - name: Shock (Su)
+    description: >-
+      Electrified steam lizards can deliver an electrical shock to a single
+      opponent within 5 feet. This attack deals 1d8 points of nonlethal
+      electricity damage to living opponents (Reflex DC 13 half). This save DC
+      is Constitution-based. Additionally, if two or more lizards are within 20
+      feet of each other, they can work together to create a lethal shock once
+      every 1d4 rounds. This effect has a radius of 20 feet, centered on any one
+      contributing lizard. All creatures within that radius take 2d8 points of
+      lethal electricity damage for each lizard contributing to the shock, to a
+      maximum of 12d8. A Reflex save (DC = 10 + the number of lizards
+      contributing) halves the damage.
+  - name: Steam Burst (Su)
+    description: >-
+      Electrified steam lizards can let forth a burst of superheated steam. This
+      ability functions as the shock ability in all ways, except that it deals
+      nonlethal fire damage. If a group of steam lizards works together to
+      create a lethal blast, the steam persists in the area for a number of
+      rounds equal to the number of participating lizards. The steam does not
+      deal ongoing damage, but it obscures sight as per obscuring mist. The
+      limitation of once every 1d4 rounds applies to both the cooperative shock
+      ability and the steam burst; the lizards may use one of these two
+      abilities once every 1d4 rounds.
+DuringCombat: >-
+  The lizard flies through the air, attacking the PCs with its shock or steam
+  burst abilities. If a PC closes to melee with the lizard, it switches to its
+  bite attack.
+Morale: >-
+  If the lizard is reduced to 5 hit points or fewer, it attempts to flee to
+  report back to the Concordance.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '9061'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

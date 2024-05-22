@@ -1,0 +1,95 @@
+Name: Morlock Vessel
+CR: '8'
+XP: '4800'
+Race: Morlock
+Class: barbarian 6
+MonsterSource: Pathfinder RPG Bestiary 209
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '9'
+Senses:
+  - darkvision 120 ft., scent
+  - Perception +10
+AC: 19, touch 13, flat-footed 14
+AC_Mods: (+5 armor, +4 Dex, +1 dodge, +1 natural, -2 rage)
+HP: '127'
+HD: (9 HD; 3d10+6d12+69)
+Saves: Fort +13, Ref +12, Will +8
+Fort: '13'
+Ref: '12'
+Will: '8'
+DefensiveAbilities: improved uncanny dodge, trap sense +2
+Immune: disease, poison
+Weaknesses: light blindness
+Speed: 50 ft., climb 30 ft.
+Melee:
+  - mwk greatclub +16/+11 (1d10+9), bite +10 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  leap attack, rage (19 rounds/day), rage powers (raging climber +6, raging
+  leaper +6, superstition +3), sneak attack +1d6, swarming
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +11)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At will
+      value: >-
+        confusion (DC 17, single target only), daze monster (DC 15, no HD
+        limit), inflict serious wounds (DC 16), invisibility, reduce size (as
+        reduce person but self only)
+    - label: 3/day
+      value: cure moderate wounds, globe of invulnerability
+AbilityScores:
+  - 22
+  - 21
+  - 24
+  - 7
+  - 12
+  - 6
+BaseAtk: '9'
+CMB: '15'
+CMD: '29'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Initiative
+  - Lightning Reflexes
+  - Lunge
+Skills:
+  - Acrobatics +16 (+24 jump)
+  - Climb +32
+  - Perception +10
+  - Stealth +12 (+16 in caverns)
+  - Survival +7
+Languages:
+  - Undercommon
+SQ: expert climber, fast movement
+Source: AP 41
+IsTemplate: '0'
+DuringCombat: The morlocks rage, using their swarming ability to flank foes.
+Morale: >-
+  The morlocks fight to the death, at which point the intellect devourers that
+  were controlling them leave the bodies and attack.
+Gear: +1 hide armor, masterwork greatclub
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not raging, the morlocks' statistics are AC 21, touch 15, flat-footed 16;
+  hp 109; Fort +11, Will +6; Melee mwk greatclub +14/+9 (1d10+6), bite +9
+  (1d6+2); Str 18, Con 20; CMB +13, Skills Climb +30
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1414'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

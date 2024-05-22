@@ -1,0 +1,126 @@
+Name: Nemhain
+CR: '15'
+XP: '51200'
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '12'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 26, touch 26, flat-footed 17
+AC_Mods: (+7 deflection, +8 Dex, +1 dodge)
+HP: '225'
+HD: (18d8+144)
+HP_Mods: regeneration 5 (electricity or good)
+Saves: Fort +13, Ref +14, Will +20
+Fort: '13'
+Ref: '14'
+Will: '20'
+DefensiveAbilities: channel resistance +4, incorporeal
+Immune: cold, undead traits
+Resist: acid 10, fire 10
+Speed: fly 30 ft. (perfect)
+Melee:
+  - incorporeal touch +21 (3d8 plus 1d6 Con drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bound spirits
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +22)
+  values:
+    - label: 3/day
+      value: harm (DC 23), slay living (DC 22), telekinesis
+    - label: 1/day
+      value: antilife shell (DC 23), wall of force
+AbilityScores:
+  - —
+  - 26
+  - —
+  - 21
+  - 25
+  - 25
+BaseAtk: '13'
+CMB: '21'
+CMD: '39'
+Feats:
+  - Agile Maneuvers
+  - Combat Reflexes
+  - Dodge
+  - Flyby Attack
+  - Improved Initiative
+  - Iron Will
+  - Lunge
+  - Mobility
+  - Toughness
+Skills:
+  - Bluff +25
+  - Diplomacy +25
+  - Fly +37
+  - Intimidate +28
+  - Knowledge (arcana) +26
+  - Knowledge (religion) +26
+  - Sense Motive +28
+  - Spellcraft +26
+  - Stealth +29
+Languages:
+  - Common
+  - telepathy 100 ft.
+SQ: rejuvenation
+Environment: any
+Organization: solitary (+1d4 bound spirits)
+Treasure: standard
+Description_Visual: >-
+  This floating, ghostly figure's visage constantly shifts between that of a
+  comely, smiling human and a desiccated corpse.  Around it swirl less
+  substantial humanoid forms.
+Source: Tomb Of The Iron Medusa
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bound Spirits (Su)
+    description: >-
+      A nemhain is surrounded by a whirling cloud of spirits bound to her-often,
+      these are the spirits of close relatives or friends she had in life. As a
+      swift action, she can direct these bound spirits to strike at any creature
+      within 30 feet as a +21 ranged touch attack. These spirits may be used to
+      cause damage as if she had touched the target with her incorporeal touch,
+      or they can be used to deliver a harm or slay living effect-if used to
+      deliver one of these spell-like abilities as a swift action, that use
+      counts against the number of times per day she can use that spell-like
+      ability. The nemhain can also send these spirits up to 1 mile away to act
+      as scouts at a fly speed of 60 feet (perfect)-she can observe and listen
+      through them, but as long as they do not share her space, she cannot use
+      them to deliver ranged touch attacks. These spirits are impervious to
+      almost all attacks and magic, save the following: protection from evil
+      prevents bound spirits from harming persons so protected; dispel evil,
+      raise dead, or resurrection causes the spirits to vanish and be useless to
+      the nemhain for 1 hour; true resurrection makes them useless for 24 hours.
+  - name: Rejuvenation (Su)
+    description: >-
+      All nemhains are tied to a ritual object used in their creation. This
+      object is typically a Large statue, pillar, or monolith. Until this object
+      is destroyed, a destroyed nemhain automatically rejuvenates back to full
+      health 1d4 days after it is destroyed.
+Description:
+  - >-
+    A nemhain is formed when a soul deliberately assumes undead status as a
+    means of protecting a person, object, place, or ideal. Often, a devoted
+    priest or ally volunteers for transformation into a nemhain in order to
+    continue protecting her master even beyond her death. The blasphemous
+    rituals used to create nemhains are believed to have been lost.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '1624'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,102 @@
+Name: Cultist Of Hastur
+CR: '3'
+XP: '800'
+Race: Human
+Class: cleric of Hastur 1/rogue 3
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '7'
+Senses:
+  - Perception +9
+AC: 21, touch 16, flat-footed 17
+AC_Mods: (+5 armor, +3 Dex, +2 deflection, +1 dodge)
+HP: '28'
+HD: (4d8+7)
+Saves: Fort +4, Ref +6, Will +5; +2 vs. mind-affecting effects
+Fort: '4'
+Ref: '6'
+Will: '5'
+Save_Mods: +2 vs. mind-affecting effects
+DefensiveAbilities: evasion, trap sense +1
+Speed: 30 ft.
+Melee:
+  - mwk rapier +6 (1d6+1/18-20)
+Ranged:
+  - mwk dagger +6 (1d4+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 4/day (DC 11, 1d6), sneak attack +2d6
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 1st; concentration +3)
+  values:
+    - label: 5/day
+      value: touch of chaos
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 1st; concentration +3)   1st-cure light wounds,
+  protection from lawD, shield of faith   0 (at will)-detect magic, guidance,
+  read magic
+SpellDomains: Chaos, VoidHA
+AbilityScores:
+  - 12
+  - 16
+  - 13
+  - 8
+  - 14
+  - 12
+BaseAtk: '2'
+CMB: '3'
+CMD: '17'
+Feats:
+  - Combat Casting
+  - Dodge
+  - Improved Initiative
+  - Weapon Finesse
+Skills:
+  - Acrobatics +9
+  - Bluff +6
+  - Diplomacy +5
+  - Knowledge (local) +3
+  - Knowledge (religion) +3
+  - Perception +9
+  - Sense Motive +6
+  - Spellcraft +6
+  - Stealth +9
+  - Use Magic Device +8
+Languages:
+  - Common
+SQ: rogue talent (finesse rogue), trapfinding +1
+Source: AP 110
+IsTemplate: '0'
+BeforeCombat: If the cultists hear the PCs approaching, they cast shield of faith.
+DuringCombat: >-
+  The cultists attempt to flank their opponents in order to make use of sneak
+  attack. Since using channel energy would affect their companions, they hold
+  off from using that resource until it is tactically sound.
+Morale: >-
+  Afraid of Melisenn's wrath if they let the PCs delve too deeply into Iris
+  Hill, the cultists fight to the death. Once only one cultist remains in the
+  fight, that cultist uses channel energy with reckless abandon.
+Gear: potion of cure moderate wounds, potion of vanish
+OtherGear: >-
+  +1 chain shirt, mwk dagger, mwk rapier, silver unholy symbol of Hastur, spell
+  component pouch, 400 gp worth of jewelry and fine clothing
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without shield of faith, the cultists' base statistics are AC 19, touch 14,
+  flat-footed 15.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8573'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,187 @@
+Name: Ashfallen
+CR: '18'
+XP: '153600'
+Race: denizen of Leng
+Class: sorcerer 14
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, evil, extraplanar)
+Init: '13'
+Senses:
+  - darkvision 60 ft.
+  - Perception +32
+AC: 31, touch 17, flat-footed 24
+AC_Mods: (+5 armor, +6 Dex, +1 dodge, +9 natural)
+HP: '224'
+HD: (10d10+14d6+120)
+HP_Mods: planar fast healing 5
+Saves: Fort +19, Ref +20, Will +20
+Fort: '19'
+Ref: '20'
+Will: '20'
+DefensiveAbilities: no breath, unusual anatomy
+Immune: poison
+Resist: cold 30, electricity 30
+SR: '19'
+Speed: 40 ft.
+Melee:
+  - bite +23 (1d6+1 plus Dexterity drain), 2 claws +23 (1d4+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: dreamshaper 1/day (DC 28), sneak attack +5d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: Constant
+      value: tongues
+    - label: 3/day
+      value: >-
+        detect thoughts (DC 23), hypnotic pattern (DC 23), levitate, minor image
+        (DC 23)
+    - label: 1/day
+      value: >-
+        locate object, plane shift (self only) Bloodline Spell-Like Abilities
+        (CL 14th)
+    - label: 14/day
+      value: lullaby (DC 21)
+SpellsKnown:
+  header: Spells Known (CL 14th; melee touch +23, ranged touch +23)
+  values:
+    - label: 7th (5/day)
+      value: mass hold person (DC 28)
+    - label: 6th (7/day)
+      value: eyebite (DC 27), legend lore, shadow walkB
+    - label: 5th (8/day)
+      value: baleful polymorph (DC 26), dreamB, nightmare (DC 26), teleport
+    - label: 4th (8/day)
+      value: >-
+        charm monster (DC 25), crushing despair (DC 25), dimension door,
+        divinationB, greater invisibilty
+    - label: 3rd (9/day)
+      value: >-
+        arcane sight, deep slumberB (DC 24), dispel magic, nondetection (DC 24),
+        suggestion (DC 24)
+    - label: 2nd (9/day)
+      value: >-
+        alter self, auguryB, bear's endurance, detect thoughts (DC 23),
+        glitterdust (DC 23), touch of idiocy
+    - label: 1st (9/day)
+      value: >-
+        anticipate perilUM (DC 22), comprehend languages, identify, magic
+        missile, sleepB (DC 22), unseen servant
+    - label: 0 (at will)
+      value: >-
+        arcane mark, detect magic, detect poison, disrupt undead, light, mage
+        hand, mending, open/close, prestidigitation
+AbilityScores:
+  - 12
+  - 22
+  - 21
+  - 24
+  - 21
+  - 32
+BaseAtk: '17'
+CMB: '18'
+CMD: '35'
+Feats:
+  - Ability Focus (Dexterity drain)
+  - AlertnessB
+  - Deceitful
+  - Dimensional Agility
+  - Dodge
+  - Eschew MaterialsB
+  - Greater Spell Penetration
+  - Improved Initiative
+  - Magical Aptitude
+  - Persuasive
+  - Skill Focus (Sense Motive)B
+  - Skill Focus (Linguistics)
+  - Spell Penetration
+  - Weapon Finesse
+Skills:
+  - Bluff +36
+  - Diplomacy +33
+  - Disable Device +16
+  - Disguise +27 (+31 as Medium humanoid)
+  - Intimidate +28
+  - Knowledge (arcana) +30
+  - Knowledge (planes) +30
+  - Knowledge (religion) +17
+  - Linguistics +34
+  - Perception +32
+  - Profession (sailor) +13
+  - Sense Motive +30
+  - Sleight of Hand +25
+  - Spellcraft +30
+  - Stealth +26
+  - Use Magic Device +38
+RacialMods: +4 Disguise as Medium humanoid
+Languages:
+  - Aboleth
+  - Abyssal
+  - Aklo
+  - Aquan
+  - Auran
+  - Celestial
+  - Common
+  - Daemonic
+  - Dark Folk
+  - Draconic
+  - 'Drow Sign '
+  - Elven
+  - Giant
+  - Goblin
+  - Ignan
+  - Infernal
+  - Protean
+  - Shae
+  - Sylvan
+  - Terran
+  - Undercommon
+  - Yithian
+  - tongues
+SQ: bloodline arcana, combat precognition (+2 Init)
+Source: Rappan Athuk-Level 14B
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dexterity Drain (Su)
+    description: >-
+      The otherworldly teeth and tongues of a denizen of Leng deal 1d6 points of
+      Dexterity drain with a bite. Constructs, elementals, and other creatures
+      that do not possess flesh are immune to this effect. A successful DC 19
+      Fortitude save reduces the Dex drain to 1 point. The save DC is
+      Constitution-based.
+  - name: Planar Fast Healing (Su)
+    description: >-
+      A denizen of Leng maintains a connection to Leng at all times, and when
+      away from Leng, it has fast healing 5. It loses this ability on Leng or i
+      n areas where planar connections do not function. If killed, a denizen's
+      body dissolves into nothingness. Ashfallen maintains his connection as
+      long as he wears the warden ring.
+  - name: Unusual Anatomy (Ex)
+    description: >-
+      A denizen's internal anatomy varies from individual to individual, and has
+      a 50% chance to treat any critical hit or sneak attack against it as a
+      normal hit.
+Gender: Male
+Bloodline: Dreamspun
+Gear: cube of force
+OtherGear: >-
+  amulet of natural armor +3, cloak of resistance +3, bracers of armor +5, deck
+  of many things, headband of mental superiority +4, warden ring
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12355'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,101 @@
+Name: Marrow
+CR: '5'
+XP: '1600'
+Race: hobgoblin
+Class: necromancer 6
+MonsterSource: Pathfinder RPG Bestiary 175
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (goblinoid)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +5
+AC: 18, touch 14, flat-footed 14
+AC_Mods: (+3 Dex, +1 dodge, +4 shield)
+HP: '53'
+HD: (6d6+30)
+Saves: Fort +6, Ref +6, Will +7
+Fort: '6'
+Ref: '6'
+Will: '7'
+Speed: 30 ft.
+Melee:
+  - dagger +4 (1d4+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 5/day (DC 13)
+SpellLikeAbilities:
+  header: Necromancer Spell-Like Abilities (CL 6th; concentration +8)
+  values:
+    - label: 5/day
+      value: grave touch (3 rounds)
+SpellsPrepared: >-
+  Necromancer Spells Prepared (CL 6th; concentration +8)   3rd-hold person (DC
+  15), lightning bolt (DC 15), vampiric touch   2nd-blindness/deafness (DC 14),
+  command undead (DC 14), daze monster (DC 14), ghoul touch (DC 14), shatter (DC
+  14)   1st-cause fear (DC 13), charm person (DC 13), magic missile (2),
+  shield   0 (at will)-bleed (DC 12), light, mending, touch of fatigue (DC 12)
+AbilityScores:
+  - 12
+  - 16
+  - 16
+  - 15
+  - 8
+  - 10
+BaseAtk: '3'
+CMB: '4'
+CMD: '18'
+Feats:
+  - Command Undead
+  - Craft Wand
+  - Dodge
+  - Iron Will
+  - Scribe Scroll
+  - Toughness
+Skills:
+  - Bluff +6
+  - Heal +5
+  - Knowledge (arcana) +8
+  - Perception +5
+  - Spellcraft +8
+  - Stealth +7
+Languages:
+  - Common
+  - Goblin
+  - Hallit
+  - Orc
+SQ: arcane bond (dagger), power over undead
+Source: AP 86
+IsTemplate: '0'
+Gender: Female
+ProhibitedSchools: conjuration, illusion
+BeforeCombat: Marrow casts shield on herself.
+DuringCombat: >-
+  Marrow relies on her zombies to engage the enemy in melee, allowing her to
+  hang back and use her ranged spells on foes. She switches to her wands once
+  her spells are exhausted, and does her best to stay mobile in a battle and out
+  of melee entirely&#8211;her dagger is only for last resorts. She prefers to
+  use her channeled negative energy for healing her precious undead minions.
+Morale: Marrow fights to the death.
+Gear: >-
+  potions of cure moderate wounds (2), wand of ray of enfeeblement (34 charges),
+  wand of ray of exhaustion (18 charges), wand of scorching ray (16 charges),
+  gas grenades (2, see page 62), soothe (4 doses, see page 63)
+OtherGear: dagger, cloak of resistance +1, 48 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6318'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

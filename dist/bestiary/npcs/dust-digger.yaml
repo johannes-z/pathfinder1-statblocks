@@ -1,0 +1,85 @@
+Name: Dust Digger
+CR: '4'
+XP: '1200'
+Race: Dust Digger
+MonsterSource: Pathfinder RPG Bestiary 2 112
+Alignment: 'N'
+Size: Large
+Type: aberration
+Init: '4'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +5
+AC: 16, touch 9, flat-footed 16
+AC_Mods: (+7 natural, -1 size)
+HP: '42'
+HD: (5d8+20)
+Saves: Fort +5, Ref +1, Will +4
+Fort: '5'
+Ref: '1'
+Will: '4'
+Speed: 10 ft., burrow 20 ft.
+Melee:
+  - bite +5 (1d8+3 plus grab), 5 tentacles +3 (1d4+1 plus grab)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: sinkhole, swallow whole (2d8+4 bludgeoning, AC 13, 4 hp)
+AbilityScores:
+  - 17
+  - 11
+  - 18
+  - 2
+  - 11
+  - 10
+BaseAtk: '3'
+CMB: '7'
+CMD: '17'
+Feats:
+  - Improved Initiative
+  - Multiattack
+  - Skill Focus (Stealth)
+Skills:
+  - Perception +5
+  - Stealth +5 (+13 in ambush)
+RacialMods: +8 Stealth in ambush
+Source: PFS S2-09
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Sinkhole (Ex)
+    description: >-
+      A dust digger can burrow into sand, loose soil, or dirt to lie in ambush
+      just under the surface. When it feels (via tremorsense) prey walk into a
+      square it threatens, it can deflate its body as an immediate action,
+      causing the sand and other loose soil above to shift and slide. All
+      creatures who were standing in the dust digger's reach must make a DC 15
+      Reflex save or become entangled as long as they remain in the dust
+      digger's reach. All creatures who were standing at least partially in the
+      dust digger's actual space must make a DC 15 Reflex save or become
+      entangled and fall prone-if such a creature makes this save, it
+      immediately moves to the closest adjacent unoccupied square. If this
+      results in more than a 5-foot move, the creature moves that distance and
+      then falls prone. The save DC is Strength-based.
+BeforeCombat: >-
+  The dust diggers lie beneath the sand, waiting to ambush the first living
+  thing to pass by.
+DuringCombat: >-
+  The dust diggers begin combat by activating their sinkhole ability. On all
+  subsequent rounds, they attack any creature in reach, hoping to grab and
+  swallow as many as they can. If all creatures move out of reach, the dust
+  diggers burrow beneath the sand to pursue.
+Morale: The dust diggers are hungry and fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5518'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

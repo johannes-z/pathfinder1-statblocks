@@ -1,0 +1,123 @@
+Name: Pershpia
+CR: '8'
+XP: '4800'
+Race: human
+Class: bard 8
+MonsterSource: Advanced Bestiary 86
+Alignment: NE
+Size: Medium
+Type: undead
+SubType: (human)
+Init: '3'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +13
+AC: 23, touch 15, flat-footed 19
+AC_Mods: (+6 armor, +1 deflection, +3 Dex, +1 dodge, +2 natural)
+HP: '87'
+HD: (8d8+48)
+Saves: >-
+  Fort +7, Ref +9, Will +8; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '7'
+Ref: '9'
+Will: '8'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DefensiveAbilities: channel resistance +4
+Immune: undead traits
+Speed: 30 ft., climb 30 ft.
+Melee:
+  - >-
+    bite +9 (1d6+3 plus paralysis), 2 claws +9 (1d6+3 plus paralysis) or +1
+    scorpion whip +10/+5 (1d6+4/18-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 23 rounds/day (move action; countersong, dirge of doom [DC
+  19], distraction, fascinate [DC 19], inspire competence +3, inspire courage
+  +2, suggestion [DC 19]), command ghouls, create spawn, paralysis (1d4+1
+  rounds, DC 14)
+SpellsKnown:
+  header: Bard Spells Known (CL 8th; concentration +13)
+  values:
+    - label: 3rd (3/day)
+      value: charm monster (DC 19), haste, slow (DC 18)
+    - label: 2nd (5/day)
+      value: >-
+        fleshy facadeMC (DC 17), glitterdust (DC 17), invisibility, suggestion
+        (DC 18)
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 17), expeditious retreat, grease (DC 16), magic aura,
+        undetectable alignment
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 15), mage hand,
+        open/close, read magic
+AbilityScores:
+  - 16
+  - 16
+  - —
+  - 14
+  - 14
+  - 20
+BaseAtk: '6'
+CMB: '9'
+CMD: '24'
+Feats:
+  - Arcane Strike
+  - Deceitful
+  - Dodge
+  - Mobility
+  - Spell Focus (enchantment)
+Skills:
+  - Bluff +14
+  - Climb +10
+  - Diplomacy +12
+  - Disguise +14
+  - Knowledge (local) +13
+  - Knowledge (planes) +13
+  - Perception +13
+  - Perform (act) +16
+  - Perform (oratory) +16
+  - Sense Motive +9
+  - Spellcraft +13
+  - Stealth +13
+  - Survival +10
+  - Use Magic Device +16
+RacialMods: +8 Survival
+Languages:
+  - Common
+  - Infernal
+SQ: bardic knowledge +4, lore master 1/day, versatile performance (act, oratory)
+Source: Feast Of Dust
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Ghouls (Su)
+    description: >-
+      As a free action, Pershpia can automatically command all normal ghouls
+      within 30 feet (as per the command undead spell). Normal ghouls never
+      attack a dread ghoul unless compelled.
+  - name: Create Spawn (Su)
+    description: >-
+      Any creature killed by Pershpia rises the following midnight as a dread
+      ghoul. The new dread ghoul is not under her control. A protection from
+      evil or gentle repose spell cast on the corpse prevents this.
+Gender: Female
+Gear: +2 chain shirt, +1 scorpion whip, ring of protection +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: dread ghoul|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7186'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

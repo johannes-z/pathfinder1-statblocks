@@ -1,0 +1,119 @@
+Name: Ovonda And Ultor
+CR: '14'
+XP: '38400'
+Race: sayona
+Class: antipaladin 4
+MonsterSource: Pathfinder RPG Bestiary 4 231, Pathfinder RPG Advanced Player's Guide 118
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 60 ft., lifesense
+  - Perception +25
+Aura: cowardice (10 ft.)
+AC: 28, touch 18, flat-footed 20
+AC_Mods: (+7 Dex, +1 dodge, +10 natural)
+HP: '249'
+HD: (21 HD; 17d8+4d10+151)
+HP_Mods: fast healing 5
+Saves: Fort +23, Ref +22, Will +24
+Fort: '23'
+Ref: '22'
+Will: '24'
+DefensiveAbilities: channel resistance +4
+Immune: undead traits
+Resist: cold 30
+Speed: 30 ft.
+Melee:
+  - >-
+    bite +26 (2d6+4 plus bleed and paralysis), 2 claws +26 (2d6+4 plus bleed and
+    paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  absorb blood, blood drain (1d4 Con), channel negative energy 4/day (DC 19,
+  2d6), fear cone (60 ft., DC 25), paralysis (1d4 rounds, DC 25), smite good
+  2/day (+7 attack and AC, +4 damage), staggering gaze
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +19)
+  values:
+    - label: 3/day
+      value: >-
+        command undead (DC 19), dominate person (DC 22), fog cloud, gaseous
+        form, invisibility Antipaladin Spell-Like Abilities (CL 4th;
+        concentration +11)
+    - label: At Will
+      value: detect good
+SpellsPrepared: >-
+  Antipaladin Spells Prepared (CL 1st; concentration +8)  1st-inflict light
+  wounds (DC 18), protection from good
+AbilityScores:
+  - 15
+  - 24
+  - —
+  - 14
+  - 12
+  - 25
+BaseAtk: '16'
+CMB: '18'
+CMD: '36'
+Feats:
+  - Dodge
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+  - Outflank
+  - Power Attack
+  - Spring Attack
+  - Vital Strike
+  - Weapon Finesse
+  - Weapon Focus (bite)
+  - Weapon Focus (claw)
+Skills:
+  - Bluff +31
+  - Diplomacy +16
+  - Disguise +31
+  - Knowledge (nobility) +10
+  - Perception +25
+  - Sense Motive +25
+  - Stealth +27
+Languages:
+  - Abyssal
+  - Azlanti
+  - Giant
+  - Infernal
+  - Necril
+SQ: create spawn, cruelty (fatigued), living form, touch of corruption 9/day (2d6)
+Source: AP 114
+IsTemplate: '0'
+Gender: Male and Female
+BeforeCombat: >-
+  If they're forewarned of inevitable combat and a surprise attack opportunity
+  is unlikely, the sayonas apply poison to their claws.
+DuringCombat: >-
+  The twins choose a target to whom they apply their smite good and power attack
+  with their claws and bite. If a grapple for blood drain is called for, they
+  use their tentacle cloaksUE.
+Morale: >-
+  If reduced to 50 hit points or fewer, a twin attempts to flee. Using gaseous
+  form to retreat to their tombs is a possibility.
+Gear: tentacle cloakUE, black lotus extract
+OtherGear: >-
+  amulet of mighty fists +2, ring of mind shielding, sleeves of many garmentsUE,
+  matching gold and emerald rings (worth 2,300 gp each)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11088'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

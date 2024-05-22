@@ -1,0 +1,122 @@
+Name: Lem Level 7
+CR: '7'
+XP: '3200'
+Race: halfling
+Class: bard 7
+Alignment: CG
+Size: Small
+Type: humanoid
+SubType: (halfling)
+Init: '2'
+Senses:
+  - Perception +4
+AC: 20, touch 15, flat-footed 17
+AC_Mods: (+5 armor, +1 deflection, +2 Dex, +1 dodge, +1 size)
+HP: '63'
+HD: (7d8+28)
+Saves: >-
+  Fort +8, Ref +11, Will +9; +2 vs. fear, +4 vs. bardic performance,
+  language-dependent, and sonic
+Fort: '8'
+Ref: '11'
+Will: '9'
+Save_Mods: +2 vs. fear, +4 vs. bardic performance, language-dependent, and sonic
+Speed: 20 ft.
+Melee:
+  - +1 short sword +11 (1d4/19-20)
+Ranged:
+  - sling +10 (1d3-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 27 rounds/day (move action; countersong, distraction,
+  fascinate, inspire competence +3, inspire courage +2, suggestion)
+SpellsKnown:
+  header: Bard Spells Known (CL 7th; concentration +12)
+  values:
+    - label: 3rd (2/day)
+      value: deep slumber (DC 18), haste
+    - label: 2nd (4/day)
+      value: heroism, invisibility, silence (DC 17), suggestion (DC 17)
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 16), grease, hideous laughter (DC 16), remove fear,
+        silent image (DC 16)
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 15), light, mage hand,
+        prestidigitation
+AbilityScores:
+  - 8
+  - 14
+  - 14
+  - 14
+  - 10
+  - 20
+BaseAtk: '5'
+CMB: '5'
+CMD: '17'
+Feats:
+  - Dodge
+  - Extra Performance
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +12 (+8 when jumping)
+  - Bluff +17
+  - Climb +3
+  - Diplomacy +17
+  - Knowledge (arcana) +17
+  - Knowledge (nobility) +17
+  - Perception +4
+  - Perform (comedy) +17
+  - Perform (wind) +19
+  - Sense Motive +12
+  - Stealth +15
+Languages:
+  - Common
+  - Elven
+  - Goblin
+  - Halfling
+SQ: bardic knowledge +3, lore master 1/day, versatile performance (comedy, wind)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: Lem casts heroism before the start of the encounter.
+DuringCombat: >-
+  Lem knows he is best in a supporting role, and tries to stay out of melee if
+  possible. Instead, he uses his bardic performance ability to inspire courage
+  in his companions. In cases where a single enemy presents a particularly large
+  threat to Lem or his companions, the bard uses his offensive spells on that
+  target. Against larger groups of foes, he bolsters his allies with the likes
+  of haste and heroism.
+Gear: >-
+  potion of cure serious wounds, scroll of charm monster, scroll of comprehend
+  languages, scroll of glitterdust, wand of cure light wounds (50 charges), wand
+  of dispel magic (11 charges), caltrops
+OtherGear: >-
+  +2 studded leather, +1 short sword, sling with 10 bullets, cloak of resistance
+  +1, headband of alluring charisma +2, lesser extend metamagic rod, ring of
+  feather falling, ring of protection +1, universal solvent (2), backpack,
+  bedroll, hooded lantern, masterwork flute, scroll case, silk rope (50 ft.),
+  smokestick, spell component pouch, trail rations (2), waterskin, 42 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without heroism, Lem's statistics are Senses Perception +2; Fort +6, Ref +9,
+  Will +7; Melee +1 short sword +9 (1d4/19&#8211;20); Ranged sling +8
+  (1d3&#8211;1); CMB +3; Skills Acrobatics +10 (+6 when jumping), Bluff +15,
+  Climb +1, Diplomacy +15, Knowledge (arcana, nobility) +15, Perception +2,
+  Perform (comedy) +15, Perform (wind) +17, Sense Motive +10, Stealth +13.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3966'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

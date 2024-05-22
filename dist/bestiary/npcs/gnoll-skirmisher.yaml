@@ -1,0 +1,111 @@
+Name: Gnoll Skirmisher
+CR: '9'
+XP: '6400'
+Race: gnoll
+Class: gunslinger 4/rogue 3
+MonsterSource: >-
+  Pathfinder RPG Bestiary 155, Pathfinder Campaign Setting: Inner Sea Bestiary
+  28, Pathfinder RPG Ultimate Combat 9
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (gnoll)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +13
+AC: 22, touch 14, flat-footed 18
+AC_Mods: (+5 armor, +2 Dex, +2 dodge, +3 natural)
+HP: '79'
+HD: (9 HD; 5d8+4d10+31)
+Saves: Fort +11, Ref +9, Will +4
+Fort: '11'
+Ref: '9'
+Will: '4'
+DefensiveAbilities: acidic pustules (DC 17), evasion, trap sense +1
+DR: 10/cold iron
+Immune: disease, poison
+SR: '20'
+Speed: 20 ft.
+Melee:
+  - mwk longspear +10/+5 (1d8+3/x3), slam +9 (1d6+2 plus disease)
+Ranged:
+  - +1 blunderbuss +12 (1d8+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: disease, sneak attack +2d6
+AbilityScores:
+  - 15
+  - 15
+  - 17
+  - 10
+  - 15
+  - 6
+BaseAtk: '7'
+CMB: '9'
+CMD: '23'
+Feats:
+  - Dodge
+  - Extra GritUC
+  - GunsmithingUC
+  - Mobility
+  - Power Attack
+  - Deft ShootistUC
+  - Leaping ShotUC
+Skills:
+  - Acrobatics +11 (+7 when jumping)
+  - Climb +11
+  - Perception +13
+  - Ride +11
+  - Stealth +11
+  - Survival +13
+Languages:
+  - Gnoll
+SQ: >-
+  deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick
+  clear, utility shot), deformities (deformed leg), grit (4), gunsmith,
+  mutations (acidic pustules, disease), nimble +1, rogue talents (bleeding
+  attack +2), trapfinding +1
+Source: Wardens Of The Reborn Forge
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acidic Pustules (Ex)
+    description: >-
+      A gnoll skirmisher is covered in necrotic pustules that burst at the
+      slightest touch. Whenever a creature deals piercing or slashing damage to
+      the Mana Wastes mutant, all creatures adjacent to the gnoll take 1d4
+      points of acid damage (Reflex DC 17 negates) as the mutant gnoll's boils
+      and blisters pop and spray about. The save DC is Constitution-based.
+  - name: Disease (Su)
+    description: >-
+      Anyone who lives with mana fever for a week straight without dying becomes
+      immune to the disease, but also becomes a Mana Wastes mutant. Mana fever:
+      Injury-slam; save Fort DC 17; onset 1d4 minutes; frequency 1 day; effect
+      1d3 Con damage, 1d3 Cha drain; cure 2 consecutive saves.
+DuringCombat: >-
+  The gnolls switch between firing bullets and pellets against single targets,
+  resorting to slam and spear attacks if their enemies force them into melee
+  combat.
+Morale: >-
+  The gnolls know that they have little means of escape and fear punishment from
+  Gurstweld if they fail their mission, and thus fight to the death.
+Gear: fuse grenadesUE (2)
+OtherGear: >-
+  +1 chain shirt, +1 blunderbussUE with 10 paper alchemical cartridgesUE (5
+  bullets and 5 pellets), masterwork longspear
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: mana wastes mutant|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5439'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

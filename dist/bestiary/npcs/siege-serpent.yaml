@@ -1,0 +1,100 @@
+Name: Siege Serpent
+CR: '14'
+XP: '38400'
+Race: amphisbaena
+MonsterSource: Pathfinder RPG Bestiary 2 25, Advanced Bestiary 250
+Alignment: 'N'
+Size: Huge
+Type: construct
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision, scent, allaround vision
+  - Perception +14
+AC: 29, touch 13, flat-footed 24
+AC_Mods: (+5 Dex, +16 natural, -2 size)
+HP: '128'
+HD: (16d10+40)
+Saves: Fort +10, Ref +15, Will +9
+Fort: '10'
+Ref: '15'
+Will: '9'
+DefensiveAbilities: split
+DR: 10/-
+Immune: construct traits, electricity, petrification
+Resist: acid 10, cold 10, fire 10
+Weaknesses: metal body
+Speed: 40 ft., climb 40 ft., swim 40 ft.
+Melee:
+  - 2 bites +24 (4d6+10 plus poison)
+Space: 15 ft.
+Reach: 10 ft.
+SpecialAttacks: body blades, enlarged attacks, poison
+AbilityScores:
+  - 30
+  - 20
+  - —
+  - —
+  - 18
+  - 1
+BaseAtk: '16'
+CMB: '28'
+CMD: 43 (can't be tripped)
+Feats:
+  - Ability Focus (poison)B
+Skills:
+  - Acrobatics +15 (+19 jump)
+  - Climb +28
+  - Perception +14
+  - Stealth +1
+  - Swim +18
+RacialMods: +10 Acrobatics, +10 Climb, +10 Perception, +4 Stealth
+SQ: sprint
+Source: AP 42
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Body Blades (Ex)
+    description: >-
+      Spikes and blades cover the siege serpent's body. When another creature
+      attacks it with handheld or natural weapons, the attacker takes 1d8 points
+      of slashing and piercing damage. Incorporeal creatures and creatures using
+      weapons with exceptional reach do not take this damage. A siege serpent
+      also deals 1d8 points of piercing and slashing damage to a grabbed
+      opponent with each successful grapple check.
+  - name: Enlarged Attacks (Ex)
+    description: >-
+      Each of the siege serpent's bite attacks deal damage as it were two size
+      categories larger.
+  - name: Metal Body (Ex)
+    description: >-
+      Beneath its skin, a siege serpent is largely composed of metal. It counts
+      as a ferrous creature for the purposes of rusting grasp and other spells
+      that have special effects on metal.
+  - name: Sprint (Ex)
+    description: >-
+      Once per hour, a siege serpent can move up to 10 times its normal speed
+      when it charges.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 20; frequency 1/round for 6 rounds; effect 1d3
+      Con; cure 1 save.
+DuringCombat: >-
+  The siege serpents move to protect Nazith- Yol, lashing out at anyone
+  attempting to move past them to attack the wizard. They employ bite and
+  grapple attacks whenever possible to bring their body blades to bear.
+Morale: The siege serpents fight until commanded to stop or until they are destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|war machine|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1459'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

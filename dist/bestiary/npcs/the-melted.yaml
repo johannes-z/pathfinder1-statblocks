@@ -1,0 +1,90 @@
+Name: The Melted
+CR: '5'
+XP: '1600'
+Race: undigested
+MonsterSource: Pathfinder RPG Bestiary 5 258
+Alignment: NE
+Size: Tiny
+Type: undead
+SubType: (swarm)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +5
+AC: 19, touch 16, flat-footed 15
+AC_Mods: (+3 Dex, +1 dodge, +3 natural, +2 size)
+HP: '54'
+HD: (12d8)
+Saves: Fort +6, Ref +9, Will +9
+Fort: '6'
+Ref: '9'
+Will: '9'
+DefensiveAbilities: amorphous, swarm traits
+Immune: undead traits
+Resist: acid 10
+Speed: 30 ft., climb 20 ft., swim 20 ft.
+Melee:
+  - swarm (3d6 plus digest and distraction)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: digest, distraction (DC 16), grasping clutches
+AbilityScores:
+  - 4
+  - 16
+  - —
+  - 3
+  - 9
+  - 11
+BaseAtk: '9'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Dodge
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Mobility
+Skills:
+  - Climb +17
+  - Perception +5
+  - Stealth +17
+  - Swim +14
+Languages:
+  - Common (can't speak)
+Source: AP 134
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Digest (Ex)
+    description: >-
+      A Melted does not do as much acid damage with its digest attack as a
+      normal undigested swarm. A target that takes swarm damage from it is
+      spattered with acidic slime and must succeed at a DC 16 Reflex save or
+      take 1d6 points of acid damage at the start of its turn for 1d4 rounds. An
+      affected creature can attempt a new save as a full-round action. Washing
+      off the acid grants a +4 bonus to this save. The save DC is
+      Constitution-based.
+  - name: Grasping Clutches (Ex)
+    description: >-
+      A creature that takes swarm damage from the Melted is grabbed and held by
+      the swarm's dozens of clutching hands, gaining the entangled condition. In
+      order to move more than 5 feet away from the Melted, a character entangled
+      in this way must succeed at a DC 15 combat maneuver check or Escape Artist
+      check as part of the move action taken to try to escape the swarm's
+      grasping clutches.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: swarm|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11901'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,90 @@
+Name: Plague Angel
+CR: '7'
+XP: '3200'
+Race: Human
+Class: antipaladin 8
+MonsterSource: Pathfinder RPG Advanced Player's Guide 118
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +8
+AC: 22, touch 11, flat-footed 21
+AC_Mods: (+9 armor, +1 Dex, +2 natural)
+HP: '80'
+HD: (8d10+32)
+Saves: Fort +11, Ref +6, Will +9
+Fort: '11'
+Ref: '6'
+Will: '9'
+DefensiveAbilities: corruption resistance (good, 10)
+Immune: disease
+Speed: 30 ft. (20 ft. in armor)
+Melee:
+  - mwk scythe +14/+9 (2d4+6/19-20/x4)
+Ranged:
+  - mwk composite longbow +10/+5 (1d8+4/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy (DC 17, 4d6), smite good 3/day (+3 attack and AC, +8
+  damage)
+SpellLikeAbilities:
+  header: Antipaladin Spell-Like Abilities (CL 8th; concentration +11)
+  values:
+    - label: At Will
+      value: detect good
+SpellsPrepared: >-
+  Antipaladin Spells Prepared (CL 5th; concentration +8)   2nd-corruption
+  resistanceAPG, silence   1st-death knell (DC 14), murderous commandUM (DC 14)
+AbilityScores:
+  - 18
+  - 12
+  - 14
+  - 8
+  - 10
+  - 16
+BaseAtk: '8'
+CMB: '12'
+CMD: '23'
+Feats:
+  - Improved Critical (scythe)
+  - Reap the Infirm
+  - Power Attack
+  - Toughness
+  - Weapon Focus (scythe)
+Skills:
+  - Acrobatics -4
+  - Bluff +10
+  - Intimidate +10
+  - Perception +8
+Languages:
+  - Common
+SQ: >-
+  aura of cowardice, aura of despair, aura of evil, channel negative energy,
+  cruelties (diseased, sickened), fiendish boon (fiendish bison servant), touch
+  of corruption 7/day, unholy resilience
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: She applies pallid suspension to her scythe.
+Gear: potions of barkskin (2), pallid suspension*
+OtherGear: >-
+  mwk full plate, mwk composite longbow (+4 Str) with 20 arrows, mwk scythe,
+  headband of alluring charisma +2, silver unholy symbol of Urgathoa, 207 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8866'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

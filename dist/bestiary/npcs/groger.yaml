@@ -1,0 +1,96 @@
+Name: Groger
+CR: '6'
+XP: '2400'
+Race: remacera
+MonsterSource: 'Pathfinder Campaign Setting: The First World, Realm of the Fey 63'
+Alignment: CN
+Size: Large
+Type: fey
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +14
+AC: 18, touch 11, flat-footed 15
+AC_Mods: (+1 Dex, +1 dodge, +7 natural, -1 size)
+HP: '85'
+HD: (10d6+50)
+Saves: Fort +8, Ref +8, Will +8
+Fort: '8'
+Ref: '8'
+Will: '8'
+DR: 10/cold iron
+Resist: acid 10, cold 10, fire 10
+Speed: 40 ft.
+Melee:
+  - bite +13 (1d8+12 plus 2d6 sonic)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: new growth, reincarnation
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +6)
+  values:
+    - label: 3/day
+      value: plant growth
+AbilityScores:
+  - 26
+  - 13
+  - 20
+  - 10
+  - 13
+  - 13
+BaseAtk: '5'
+CMB: '14'
+CMD: 26 (can't be tripped)
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Mobility
+  - Spring Attack
+  - Weapon Focus (bite)
+Skills:
+  - Acrobatics +14 (+18 when jumping)
+  - Climb +21
+  - Diplomacy +9
+  - Knowledge (history) +7
+  - Linguistics +2
+  - Perception +14
+  - Perform (sing) +7
+  - Stealth +10
+Languages:
+  - Common
+  - First Speech
+  - Draconic
+Source: AP 119
+IsTemplate: '0'
+SpecialAbilities:
+  - name: New Growth (Su)
+    description: >-
+      As a standard action, a remacera can force any creature within 400 feet to
+      attempt a DC 16 Fortitude saving throw. If the target fails, it takes 5d6
+      points of damage and is sickened for 1d4 rounds as several tiny, larval
+      remaceras suddenly burrow out of its skin. Once outside their host, the
+      newborn remaceras are harmless, and attempt only to escape. The save DC is
+      Charisma-based.
+  - name: Reincarnation (Su)
+    description: >-
+      Any creature that dies prior to fully recovering from wounds inflicted by
+      a remacera is immediately subject to the effects of the spell reincarnate,
+      except that it does not matter whether the soul is willing and the effect
+      is instantaneous rather than taking 1 hour. A slain remacera is subject to
+      the same effect, save that it reappears 1d20 miles from where it died.
+Gender: Male
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11496'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

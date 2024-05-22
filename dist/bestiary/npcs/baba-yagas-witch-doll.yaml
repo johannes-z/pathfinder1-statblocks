@@ -1,0 +1,101 @@
+Name: Baba Yaga's Witch-Doll
+CR: '16'
+XP: '76800'
+Race: witch-doll golem
+MonsterSource: Tome of Horrors Complete 343
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 29, touch 9, flat-footed 29
+AC_Mods: (+20 natural, -1 size)
+HP: '145'
+HD: (21d10+30)
+Saves: Fort +7, Ref +7, Will +7
+Fort: '7'
+Ref: '7'
+Will: '7'
+DefensiveAbilities: target magic defense
+DR: 10/adamantine
+Immune: construct traits, magic
+Speed: 30 ft.
+Melee:
+  - needle +28/+23/+18/+13 (2d6+12/19-20)
+  - 2 slams +28 (2d10+8)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: find target, linked attack, target focus, witch-doll link
+AbilityScores:
+  - 26
+  - 10
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '21'
+CMB: '30'
+CMD: '40'
+Source: AP 72
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Find Target (Sp)
+    description: >-
+      A witch-doll golem can unerringly find its linked target, as though guided
+      by discern location (CL 15th).
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A witch-doll golem is immune to any spell or spell-like ability that
+      allows spell resistance. In addition, certain spells function differently
+      against the creature, as noted below. &#8226; A confusion spell slows it
+      (as the slow spell) for 2d6 rounds, with no saving throw. &#8226; A
+      mending spell heals 2d6 hit points."
+  - name: Linked Attack (Su)
+    description: >-
+      When a witch-doll golem successfully establishes a witch-doll link, any
+      damage taken by the witch-doll golem from any source other than the linked
+      target deals half its damage to the golem and half its damage to the
+      linked target as long as the golem and the linked target are within 60
+      feet of each other. Only the linked target can successfully attack a
+      witch-doll golem and not take "linked damage." Attacks that don't damage a
+      witch-doll golem (because of its immunities or its damage reduction)
+      likewise deal no damage to the linked target. Attacks that damage the
+      linked target do not damage the witch-doll golem (the link it establishes
+      is one way). Healing (or repair in the case of the witch-doll golem) is
+      not passed through the link. A witch-doll golem cannot attack itself in
+      order to damage its linked target.
+  - name: Target Focus (Su)
+    description: >-
+      A witch-doll golem deals an extra 2d10 points of damage with its slam
+      attacks against its linked target.
+  - name: Target Magic Defense (Ex)
+    description: >-
+      A witch-doll golem gains a +8 bonus on all saving throws against any spell
+      or spell-like ability or effect cast by its linked target (provided the
+      effect gets past the golem's immunity to magic). Witch-Doll
+  - name: Link (Su)
+    description: >-
+      With a successful melee attack, a witch-doll golem can establish an
+      invisible link between itself and a chosen target. The target must succeed
+      at a DC 22 Fortitude save to resist the link. A witch-doll link is broken
+      if the witch-doll golem is destroyed or the linked target dies. A
+      witch-doll golem can only have one witch-doll link at any given time. The
+      save DC is Constitution-based and includes a +2 racial bonus.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4648'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

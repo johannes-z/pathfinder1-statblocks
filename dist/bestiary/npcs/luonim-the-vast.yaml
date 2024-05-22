@@ -1,0 +1,166 @@
+Name: Luonim The Vast
+CR: '9'
+XP: '6400'
+Race: gnome
+Class: sorcerer 6/bloatmage 4
+MonsterSource: 'Pathfinder Campaign Setting: City of Strangers 60'
+Alignment: CN
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '0'
+Senses:
+  - low-light vision
+  - Perception +4
+AC: 22, touch 12, flat-footed 22
+AC_Mods: (+4 armor, +1 deflection, +2 natural, +4 shield, +1 size)
+HP: '91'
+HD: (10d6+56)
+Saves: Fort +7, Ref +3, Will +9; +2 vs. illusions
+Fort: '7'
+Ref: '3'
+Will: '9'
+Save_Mods: +2 vs. illusions
+DefensiveAbilities: corpulence
+Weaknesses: hemophilia
+Speed: 15 ft.
+Melee:
+  - mwk dagger +5 (1d3-2/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Gnome Spell-Like Abilities (CL 10th; concentration +14)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound (DC 14), prestidigitation, speak with
+        animals Bloodline Spell-Like Abilities (CL 10th; concentration +14)
+    - label: 7/day
+      value: laughing touch
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +14)
+  values:
+    - label: 5th (3/day)
+      value: cone of cold (DC 22)
+    - label: 4th (6/day)
+      value: fire shield, poison (DC 18), shout (DC 21)
+    - label: 3rd (7/day)
+      value: deep slumber (DC 21), fireball (DC 20), fly, summon monster III
+    - label: 2nd (7/day)
+      value: >-
+        flaming sphere (DC 19), glitterdust (DC 16), hideous laughter (DC 20),
+        invisibility, web (DC 16)
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 18), comprehend languages, entangle (DC 15), identify,
+        mage armor, magic missile
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 14), detect magic, light, mage hand, message,
+        prestidigitation, read magic, resistance
+AbilityScores:
+  - 6
+  - 10
+  - 18
+  - 12
+  - 14
+  - 18
+BaseAtk: '5'
+CMB: '2'
+CMD: '13'
+Feats:
+  - Bloatmage Initiate
+  - Combat Casting
+  - Empower Spell
+  - Eschew Materials
+  - Spell Focus (evocation)
+  - Toughness
+Skills:
+  - Craft (alchemy) +9
+  - Knowledge (arcana) +11
+  - Knowledge (history) +4
+  - Knowledge (local) +4
+  - Linguistics +3
+  - Perception +4
+  - Spellcraft +14
+Languages:
+  - Common
+  - Draconic
+  - Dwarven
+  - Gnome
+  - Sylvan
+  - Thassilonian
+SQ: >-
+  bloat (2/day, 4), blood pool, bloodline arcana (+2 DC for compulsion spells),
+  woodland stride
+Source: AP 63
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Bloat (Su)
+    description: >-
+      Luonim can exert himself as a free action to gain 1d6 blood points twice
+      per day (see Blood Pool, below). Bloatmage Initiate By undergoing
+      elaborate rituals and gruesome rites to increase the amount of blood in
+      his body, Luonim can draw upon additional magical reserves. This feat
+      allows Luonim to cast evocation spells at +1 caster level, but the
+      resulting bloating encumbers him as if he had a medium load.
+  - name: Blood Pool (Su)
+    description: >-
+      Luonim has 4 blood points, representing his capacity to draw upon excess
+      blood in his body to fuel his sorcerous magic. He can spend blood points
+      at the time of casting to cast a spell without using that spell's spell
+      slot. Retaining a spell slot in this manner costs a number of blood points
+      equal to the spell's level. Luonim can push himself via his bloat ability
+      in order to gain a number of extra blood points, but such exertion is a
+      dangerous gamble. If his current number of blood points is greater than 4
+      blood points but less than or equal to 8 blood points, he gains the
+      sickened condition. If he exceeds 8 blood points, he immediately flies
+      into a homicidal rage, striking out randomly with his most damaging
+      attacks and abilities at friends and foes alike for 1d6 rounds or until
+      his blood points are reduced to 0 (whichever comes first). At the end of
+      the rage, his blood points drop to 0 and his hit points drop to -1.
+  - name: Corpulence (Ex)
+    description: >-
+      Luonim is so fat that his rolls of blood-laden flesh grant him a +1
+      natural armor bonus.
+  - name: Hemophilia (Ex)
+    description: >-
+      Bloatmages are particularly susceptible to bleed effects, and the DC of
+      any Heal check made to stop a bleed effect is 5 higher than normal.
+      Anytime Luonim suffers a wound that causes bleed damage, he loses 1 blood
+      point, but he does not lose additional blood points for taking ongoing
+      bleed damage.
+Gender: Male
+Bloodline: fey
+BeforeCombat: >-
+  Luonim casts mage armor at the start of each day, using a point from his blood
+  pool that he then regains by applying his fortifying leeches. He uses a charge
+  from his wand of shield as soon as he fears combat is nearing.
+DuringCombat: >-
+  The gnome bloatmage starts combat by casting invisibility using 2 points from
+  his blood pool, then casts fly to move about the room while the PCs deal with
+  the centrifuge. While invisible, he casts fire shield on himself, then casts
+  summon monster III spells for a few more rounds to summon lantern archons to
+  harass the PCs. Once he's confident the PCs have their hands full, he begins
+  hammering the PCs with shouts, fireballs, and cones of cold. He makes use of
+  his blood pool each round to maximize his spells available.
+Morale: Luonim is out of his mind, and fights to the death.
+Gear: potions of cure moderate wounds (3), wand of shield (CL 10th, 11 charges)
+OtherGear: >-
+  masterwork dagger, amulet of natural armor +1, fortifying leeches, ring of
+  protection +1, spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3511'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

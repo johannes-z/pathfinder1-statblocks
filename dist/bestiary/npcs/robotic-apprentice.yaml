@@ -1,0 +1,104 @@
+Name: Robotic Apprentice
+CR: '9'
+XP: '6400'
+Race: clockwork mage
+MonsterSource: Pathfinder RPG Bestiary 4 32
+Alignment: 'N'
+Size: Medium
+Type: construct
+SubType: (robot)
+Init: '9'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +17
+AC: 23, touch 15, flat-footed 18
+AC_Mods: (+5 Dex, +8 natural)
+HP: '117'
+HD: (15d10+35)
+Saves: Fort +9, Ref +14, Will +11
+Fort: '9'
+Ref: '14'
+Will: '11'
+DefensiveAbilities: hardness 10
+Immune: construct traits
+Weaknesses: vulnerable to critical hits, vulnerable to electricity
+Speed: 30 ft.
+Melee:
+  - 4 slams +18 (1d6+3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: electromagnetic casting, wand magic
+SpellsKnown:
+  header: >-
+    Conjuration Spells Known (CL 9th; concentration +4)   3rd (1)-stinking cloud
+    (DC 8)   2nd (3)-glitterdust (DC 7), web (DC 7)
+  values:
+    - label: 1st (at will)
+      value: grease, summon monster I
+AbilityScores:
+  - 16
+  - 21
+  - —
+  - 10
+  - 14
+  - 1
+BaseAtk: '15'
+CMB: '18'
+CMD: '33'
+Feats:
+  - Combat Casting
+  - Great Fortitude
+  - Improved Initiative
+  - Improved Natural Attack (slams)
+  - Iron Will
+  - Lightning Reflexes
+  - Power Attack
+  - Toughness
+Skills:
+  - Knowledge (arcana) +5
+  - Knowledge (engineering) +5
+  - Knowledge (geography) +5
+  - Perception +17
+Languages:
+  - Androffan
+  - Common
+Source: AP 87
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Electromagnetic Casting (Su)
+    description: >-
+      A robotic apprentice infuses its spells with electromagnetic energy. A
+      creature targeted by a robotic apprentice's spell or within the area of a
+      robotic apprentice's spell when it is cast takes 1d6 points of electricity
+      damage and 1d6 points of force damage in addition to experiencing the
+      effects of the spell, regardless of whether the creature succeeds or fails
+      its saving throw (or whether a saving throw is allowed).
+DuringCombat: >-
+  The apprentices use web to block the exit from this room and perhaps catch a
+  few PCs, then use stinking cloud and glitterdust against foes to try to
+  minimize reprisals. A robot isn't above casting grease on itself to aid it in
+  moving through its own web spell if needed. The apprentices prefer to refrain
+  from entering melee until they outnumber foes capable of fighting back, and
+  focus their attacks on spellcasters first. The apprentices attempt to
+  immobilize and detain foes rather than kill them, hoping to deliver enemies
+  stripped of gear and   bound with rolls of ion tapeTG to their master's
+  personal laboratory in the dungeon.
+Morale: >-
+  The robotic apprentices fight until destroyed, but do not pursue foes out of
+  this room.
+Gear: cloak of resistance +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6360'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

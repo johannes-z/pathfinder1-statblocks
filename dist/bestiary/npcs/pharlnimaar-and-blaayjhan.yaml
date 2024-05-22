@@ -1,0 +1,156 @@
+Name: Pharlnimaar And Blaayjhan
+CR: '15'
+XP: '51200'
+Race: Elder thing
+Class: psychic 13
+MonsterSource: Pathfinder RPG Bestiary 4 85, Pathfinder RPG Occult Adventures 60
+Alignment: LN
+Size: Medium
+Type: aberration
+SubType: (aquatic)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +29
+AC: 27, touch 13, flat-footed 24
+AC_Mods: (+4 armor, +3 Dex, +10 natural)
+HP: '229'
+HD: (20 HD; 13d6+7d8+153)
+Saves: Fort +16, Ref +11, Will +21
+Fort: '16'
+Ref: '11'
+Will: '21'
+DefensiveAbilities: all-around vision
+Immune: cold
+Resist: fire 10
+Speed: 30 ft., fly 20 ft. (clumsy), swim 40 ft.
+Melee:
+  - 5 tentacles +14 (1d4+1 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  constrict (1d4+1), phrenic amplifications (intense focusOA, mindtouchOA,
+  overpowering mindOA, space-rending spellOA), phrenic pool (10 points)
+SpellLikeAbilities:
+  header: Psychic Spell-Like Abilities (CL 13th; concentration +22)
+  values:
+    - label: 1/day
+      value: detect thoughts (DC 16), telepathic bond
+SpellsKnown:
+  header: Psychic Spells Known (CL 13th; concentration +22)
+  values:
+    - label: 6th (5/day)
+      value: enemy hammerAPG (DC 25), legend lore, mind thrust VIOA (DC 27)
+    - label: 5th (8/day)
+      value: >-
+        mental barrier IVOA, retrocognitionOA, synapse overloadOA (DC 26),
+        teleport
+    - label: 4th (8/day)
+      value: >-
+        locate creature, mind probeOA (DC 25), resilient sphere (DC 23), scrying
+        (DC 25), stoneskin
+    - label: 3rd (8/day)
+      value: >-
+        deep slumber (DC 22), dispel magic, heroism, telekinetic maneuverOA,
+        vampiric touch
+    - label: 2nd (8/day)
+      value: >-
+        false life, hypercognitionOA, ironskin, mirror image, resist energy,
+        spider climb
+    - label: 1st (9/day)
+      value: >-
+        comprehend languages, detect thoughts (DC 22), ear-piercing screamUM (DC
+        20), mage armor, magic missile, vanishAPG (DC 20)
+    - label: 0 (at will)
+      value: >-
+        daze (DC 19), detect magic, detect psychic significanceOA, ghost sound
+        (DC 19), mage hand, read magic, resistance, stabilize, telekinetic
+        projectileOA
+AbilityScores:
+  - 13
+  - 16
+  - 23
+  - 29
+  - 18
+  - 17
+BaseAtk: '11'
+CMB: +14 (+18 grapple)
+CMD: 25 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Combat Expertise
+  - Combat Reflexes
+  - Endurance
+  - Great Fortitude
+  - Greater Spell Focus (divination)
+  - Improved Initiative
+  - Iron Will
+  - Spell Focus (divination)
+  - Toughness
+Skills:
+  - Acrobatics +9
+  - Appraise +12
+  - Bluff +9
+  - Climb +3
+  - Diplomacy +9
+  - Disable Device +23
+  - Disguise +5
+  - Escape Artist +5
+  - Fly +20
+  - Heal +26
+  - Intimidate +28
+  - Knowledge (arcana) +34
+  - Perception +29
+  - Ride +5
+  - Sense Motive +29
+  - Spellcraft +34
+  - Stealth +24
+  - Survival +29
+  - Swim +21
+  - Use Magic Device +25
+Languages:
+  - Aklo
+  - Aquan
+  - Auran
+  - Celestial
+  - Elder Thing
+  - Ignan
+  - Mi-go
+  - Necril
+  - Terran
+  - Yithian
+SQ: >-
+  amphibious, detect thoughts, hibernation, illuminating answers (maximum 4),
+  limited starflight, memory palace (arcana), mnemonic cache (70 pages/90
+  minutes), no breath, superior automatic writing, telepathic bond
+Source: AP 114
+IsTemplate: '0'
+BeforeCombat: >-
+  Prior to combat, the master archivists cast heroism, ironskin, and mage armor.
+  These benefits are included in this stat block.
+DuringCombat: >-
+  Against the shoggoth, the archivists take on a support role and cast spells on
+  the PCs to assist them. Afterward, they spend 2 points from their phrenic pool
+  on intense focus to help overcome the shoggoth's spell resistance.
+Morale: The archivists retreat if reduced to 40 hit points or fewer.
+Gear: prophet's pectoralUE, scarlet and blue sphere ioun stone (Spellcraft)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: >-
+  Without the effects of the spells mentioned in Before Combat, the elder
+  things' statistics are AC 19, flat-footed 16; Fort +14, Ref +9, Will +19.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: '2'
+id: '11090'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'
+PsychicDiscipline: lore

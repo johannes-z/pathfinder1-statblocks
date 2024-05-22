@@ -1,0 +1,144 @@
+Name: Ziguch The Seventh Facet
+CR: '15'
+XP: '51200'
+Race: xiomorn vault keeper
+MonsterSource: >-
+  Pathfinder RPG Bestiary 294, Pathfinder Module: The Emerald Spire Superdungeon
+  158
+Alignment: LN
+Size: Medium
+Type: outsider
+SubType: (earth, elemental, extraplanar)
+Init: '10'
+Senses:
+  - darkvision 60 ft., tremorsense 120 ft.
+  - Perception +25
+AC: 32, touch 21, flat-footed 21
+AC_Mods: (+10 Dex, +1 dodge, +11 natural)
+HP: '232'
+HD: (16d10+144)
+HP_Mods: fast healing 5
+Saves: Fort +14, Ref +20, Will +16
+Fort: '14'
+Ref: '20'
+Will: '16'
+DR: 10/adamantine, 10/bludgeoning
+Immune: elemental traits
+SR: '25'
+Speed: 40 ft.
+Speed_Mod: climb 40 ft.
+Melee:
+  - 4 claws +26 (2d4+8/19-20 plus crystallization)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: crystal burst, crystallization (DC 27), rend (2 claws, 2d4+12)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +25)
+  values:
+    - label: At Will
+      value: >-
+        dispel magic, greater teleport (self plus 50 lbs. of objects only),
+        shatter (DC 21), statue, stone shape, stone tell
+    - label: 3/day
+      value: >-
+        command stone (DC 28), flesh to stone (DC 25), spike stones (DC 23),
+        wall of stone
+    - label: 1/day
+      value: summon monster VII (earth elementals only), symbol of scryingUM
+AbilityScores:
+  - 26
+  - 31
+  - 29
+  - 31
+  - 22
+  - 28
+BaseAtk: '16'
+CMB: +24 (+26 sunder)
+CMD: 45 (47 vs. sunder)
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Improved Critical (claw)
+  - Improved Sunder
+  - Mobility
+  - Power Attack
+  - Spring Attack
+  - Weapon Finesse
+Skills:
+  - Acrobatics +22 (+26 when jumping)
+  - Climb +32
+  - Craft (alchemy) +29
+  - Craft (sculpture) +17
+  - Disable Device +26
+  - Heal +22
+  - Knowledge (arcana
+  - planes) +29
+  - Knowledge (dungeoneering
+  - engineering
+  - geography
+  - nature) +26
+  - Perception +25
+  - Sense Motive +25
+  - Spellcraft +29
+  - Stealth +29
+  - Use Magic Device +28
+Languages:
+  - Terran
+  - telepathy 300 ft.
+SQ: item mastery
+Source: AP 120
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Command Stone (Sp)
+    description: >-
+      This ability functions as dominate monster, equivalent to a 9th-level
+      spell, but only on creatures with the earth subtype or constructs made of
+      stone. When used against a construct, this ability overcomes any spell
+      resistance, but these effects last 1 round per caster level.
+  - name: Crystal Burst (Su)
+    description: >-
+      As a standard action once every 1d4 rounds, a xiomorn can create an
+      explosion of razor-sharp crystals at a range of 120 feet. These crystals
+      fill a 30-foot-radius burst and deal 12d6 points of piercing and slashing
+      damage (Reflex DC 27 half). The save DC is Charisma-based.
+  - name: Crystallization (Su)
+    description: >-
+      A creature struck by a xiomorn's claw must succeed at a DC 27 Fortitude
+      save or take 1 point of Dexterity drain. On a critical hit, the claw deals
+      2 points of Dexterity drain on a failed save. As long as the creature
+      suffers any of this drain, portions of its body appear as living green
+      crystal and it gains the earth creature subtype. A creature whose
+      Dexterity score is drained to 0 in this manner transforms into a green
+      crystal statue, as if affected by flesh to stone. The save DC is
+      Charisma-based.
+  - name: Item Mastery (Ex)
+    description: >-
+      A xiomorn can always activate spell trigger and spell completion items as
+      if the spell were on its class list. For the purposes of crafting magic
+      items or constructs, it is treated as though it had all item creation
+      feats.
+DuringCombat: >-
+  Ziguch relies on flesh to stone and its wand of enervation to subdue rather
+  than kill, reverting to its claws and crystal burst attack only if
+  overwhelmed.
+Morale: >-
+  Ziguch fights because it is compelled to. If the PCs slay the immortal ichor
+  first, or break the dominate monster effect over Ziguch, the xiomorn parleys
+  for peace.
+Gear: wand of enervation (13 charges)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11562'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

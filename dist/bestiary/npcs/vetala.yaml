@@ -1,0 +1,99 @@
+Name: Vetala
+CR: '8'
+XP: '4800'
+Race: human
+Class: expert 8
+MonsterSource: Pathfinder RPG Bestiary 144
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, incorporeal)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +8
+AC: 17, touch 17, flat-footed 15
+AC_Mods: (+5 deflection, +1 Dex, +1 dodge)
+HP: '84'
+HD: (8d8+48)
+Saves: Fort +7, Ref +5, Will +8
+Fort: '7'
+Ref: '5'
+Will: '8'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +7 (8d6, Fort DC 19 half )
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th; concentration +13)
+  values:
+    - label: 1/day
+      value: animate dead
+AbilityScores:
+  - —
+  - 13
+  - —
+  - 10
+  - 11
+  - 20
+BaseAtk: '6'
+CMB: '7'
+CMD: '23'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Fly +9
+  - Intimidate +16
+  - Knowledge (history) +8
+  - Knowledge (religion) +8
+  - Perception +8
+  - Sense Motive +8
+  - Stealth +9
+SQ: corpse possession
+Source: Cult Of The Ebon Destroyers
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Corpse Possession (Su)
+    description: >-
+      This functions as the malevolence ghost ability, except a vetala can only
+      possess a corpse or zombie of the vetala's size or smaller. A mindless
+      zombie receives no saving throw against this ability. The possessed body
+      functions as a zombie, except that it doesn't have the staggered special
+      quality. When the host body takes damage, the vetala also takes half
+      damage. While possessing a body, the vetala takes damage as if it were
+      still incorporeal: it's immune to nonmagical attacks, and damage that is
+      neither a force effect nor from an incorporeal creature is halved again
+      (one-quarter damage). The vetala cannot use its corrupting touch while
+      possessing a body. The host body is under the effect of a gentle repose
+      spell while the vetala possesses it.
+BeforeCombat: The vetala has animated 16 zombies as guards.
+DuringCombat: >-
+  The vetala inhabits a corpse to protect itself, possessing a new zombie if the
+  PCs destroy its current host. It attacks using its withering gaze while
+  keeping zombies between it and attackers. If the PCs destroy more than eight
+  zombies, the vetala animates eight more. If the PCs destroy all the zombies,
+  the vetala continues attacking with its corrupting touch.
+Morale: The vetala fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1477'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

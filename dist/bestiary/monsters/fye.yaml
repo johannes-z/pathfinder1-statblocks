@@ -1,0 +1,111 @@
+Name: Fye
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '2'
+Senses:
+  - darkvision 60 ft.
+  - Perception +2
+Aura: despair (10 ft, DC 15)
+AC: 15, touch 15, flat-footed 13
+AC_Mods: (+3 deflection, +2 Dex, +0 natural)
+HP: '30'
+HD: (4d8+12)
+Saves: Fort +4, Ref +3, Will +6
+Fort: '4'
+Ref: '3'
+Will: '6'
+DefensiveAbilities: incorporeal
+Immune: undead traits
+Speed: fly 50 ft. (perfect)
+Melee:
+  - incorporeal touch +5 (1d6 plus possession)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: possession
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th)
+  values:
+    - label: At will
+      value: detect thoughts (DC 15)
+    - label: 3/day
+      value: cause fear (DC 14)
+    - label: 1/day
+      value: feeblemind (DC 18)
+AbilityScores:
+  - —
+  - 17
+  - —
+  - —
+  - 14
+  - 16
+BaseAtk: '3'
+CMB: '5'
+CMD: '18'
+Skills:
+  - Fly +10
+Environment: any
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This creature resembles a translucent humanoid whose face is contorted and
+  twisted as if frozen in an eternal scream, though it makes no sound.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Despair (Su)
+    description: >-
+      A fye continually emanates an aura of despair in a 10-foot radius. Any
+      creature within or entering this area must succeed on a DC 15 Will save or
+      take a -2 penalty on attack rolls, saving throws, ability and skill
+      checks, and weapon damage rolls for as long as they remain within the
+      area. A creature that successfully saves is immune to the aura of despair
+      of that fye for one day. The save DC is Charisma-based.
+  - name: Possession (Su)
+    description: >-
+      Once per round by making a successful incorporeal touch attack, a fye can
+      merge its body with a creature on the Material Plane. This ability is
+      similar to a magic jar spell, except that it does not require a
+      receptacle. The target can resist the possession by succeeding on a DC 15
+      Will save. If the save fails, the fye disappears and enters the target's
+      body. The save DC is Charisma-based.
+Description:
+  - >-
+    When a traumatic event occurs within the vicinity of a temple or other holy
+    place, energy often lingers in the area polluting and contaminating an
+    object or the ground itself. This sometimes leads to the formation of a
+    mindless entity-the fye. A fye has no memories because it was never alive,
+    nor does it feel emotions toward any creature living, dead, or undead. Fye
+    do not communicate nor reason, they simply exist. Though it is not bound to
+    the area where it was created, a fye rarely moves more than 100 feet or so
+    away from its "birthplace". A fye appears as a translucent humanoid about 6
+    feet tall whose lower torso tapers off around the knees into vaporous
+    nothingness. Its face always has the appearance that the creature is
+    screaming or howling though it never utters any sound. A fye usually does
+    not enter combat unless it is directly approached or molested. In combat, a
+    fye uses its cause fear spell-like ability against its closest target,
+    followed in the next round by its feeblemind ability. If opponents continue
+    to harass the fye it uses its incorporeal touch and possession ability.
+    Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2612'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

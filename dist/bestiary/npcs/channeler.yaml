@@ -1,0 +1,109 @@
+Name: Channeler
+CR: '6'
+XP: '2400'
+Race: Human
+Class: medium (relic channeler) 7
+MonsterSource: Pathfinder RPG Occult Adventures 30, 93
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +9
+AC: 23, touch 13, flat-footed 21
+AC_Mods: (+6 armor, +1 deflection, +2 Dex, +4 shield)
+HP: '56'
+HD: (7d8+21)
+Saves: Fort +4, Ref +5, Will +5
+Fort: '4'
+Ref: '5'
+Will: '5'
+Weaknesses: taboo (eschew divine power)
+Speed: 50 ft., fly 40 ft. (good)
+Melee:
+  - mwk dagger +6 (1d4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: arcane surge, archmage arcana, seance boon (+2 spell damage), shared seance
+SpellsKnown:
+  header: Spells Known (CL 7th; concentration +14)
+  values:
+    - label: 3rd (2/day)
+      value: fireball (DC 17), fly
+    - label: 2nd (4/day)
+      value: alter self, greater oneiric horrorOA (DC 16), haste, knock
+    - label: 1st (5/day)
+      value: >-
+        disguise self, expeditious retreat, grease (DC 15), obscuring mist,
+        shield, silent image (DC 15)
+    - label: 0 (at will)
+      value: >-
+        detect magic, grave wordsOA, guidance, light, mage hand, message,
+        open/close, prestidigitation
+AbilityScores:
+  - 10
+  - 14
+  - 13
+  - 12
+  - 8
+  - 18
+BaseAtk: '5'
+CMB: '5'
+CMD: '18'
+Feats:
+  - Arcane Armor Mastery
+  - Arcane Armor Training
+  - Improved Initiative
+  - Spirit Focus (archmage)
+  - Toughness
+Skills:
+  - Acrobatics -1 (+7 when jumping)
+  - Bluff +14
+  - Diplomacy +14
+  - Disguise +11
+  - Fly +6
+  - Intimidate +14
+  - Knowledge (arcana
+  - planes
+  - religion) +8
+  - Knowledge (nobility) +5
+  - Linguistics +8
+  - Perception +9
+  - Spellcraft +8
+  - Use Magic Device +8
+Languages:
+  - Common
+  - Draconic
+  - Ignan
+SQ: >-
+  apport relic 1/day (+5 ft.), channeled spirit (archmage, 1 influence),
+  connection channel, connection specialty, object reading, powerful bond,
+  relics (6), spirit bonus +2, spirit surge 1d6
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: A channeler casts expeditious retreat, shield, and fly.
+Gear: potion of cure light wounds, alchemist's fire (2), smokesticks (2)
+OtherGear: >-
+  mwk agile breastplateAPG, mwk dagger, mwk kukri, animal mask*, cloak of
+  resistance +1, ring of protection +1, legendary spirit relics (6), mwk
+  thieves' tools, signet ring, silver unholy symbol, spell component pouch
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without spells, a channeler's statistics are AC 19, touch 13, flat-footed 17;
+  Speed no fly speed; Skills Acrobatics -1 (-5 when jumping), Fly -1.
+AgeCategory: Adult
+ClassArchetypes: relic channeler
+CompanionFamiliarLink: '0'
+id: '9022'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

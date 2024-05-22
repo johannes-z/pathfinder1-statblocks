@@ -1,0 +1,69 @@
+Name: Zombie Pegasus
+CR: '2'
+XP: '600'
+Race: Pegasus
+MonsterSource: Pathfinder RPG Bestiary 225, 288
+Alignment: NE
+Size: Large
+Type: undead
+Init: '1'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +0
+AC: 13, touch 10, flat-footed 12
+AC_Mods: (+1 Dex, +3 natural, -1 size)
+HP: '33'
+HD: (6d8+6)
+Saves: Fort +2, Ref +3, Will +5
+Fort: '2'
+Ref: '3'
+Will: '5'
+DR: 5/slashing
+Immune: undead traits
+Speed: 60 ft., fly 120 ft. (clumsy)
+Melee:
+  - bite +8 (1d3+5), 2 hooves +3 (1d6+2), slam +8 (1d8+5)
+Space: 10 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 20
+  - 13
+  - —
+  - —
+  - 10
+  - 10
+BaseAtk: '4'
+CMB: '10'
+CMD: 21 (25 vs. trip)
+Feats:
+  - Toughness
+Skills:
+  - Fly -9
+SQ: staggered
+Source: PFS S4-05
+IsTemplate: '0'
+BeforeCombat: >-
+  Once the pegasus spots the PCs, it takes to the skies. Any character who
+  attempts to use a ranged attack against it becomes its first target.
+DuringCombat: >-
+  Because the zombie pegasus is staggered, once it lands it's unlikely it will
+  be able to take off again. It fights mindlessly, using full-attack actions
+  when able, and attempting to again take to the skies if no immediate threats
+  are within range.
+Morale: The pegasi fight until they are destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: zombie|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7639'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

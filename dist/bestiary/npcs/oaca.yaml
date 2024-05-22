@@ -1,0 +1,130 @@
+Name: Oaca
+CR: '10'
+XP: '9600'
+Race: Dandasuka
+Class: bard 8
+MonsterSource: Pathfinder RPG Bestiary 3 225
+Alignment: LE
+Size: Small
+Type: outsider
+SubType: (native, rakshasa, shapechanger)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +15
+AC: 22, touch 18, flat-footed 15
+AC_Mods: (+6 Dex, +1 dodge, +4 natural, +1 size)
+HP: '147'
+HD: (14 HD; 8d8+6d10+78)
+Saves: >-
+  Fort +9, Ref +17, Will +13; +4 vs. bardic performance, language-dependent, and
+  sonic
+Fort: '9'
+Ref: '17'
+Will: '13'
+Save_Mods: +4 vs. bardic performance, language-dependent, and sonic
+DR: 5/good or piercing
+SR: '25'
+Speed: 30 ft., climb 20 ft.
+Melee:
+  - bite +15 (1d6+2 plus bleed), 2 claws +15 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 27 rounds/day (move action; countersong, dirge of doom,
+  distraction, fascinate [DC 17], inspire competence +3, inspire courage +2,
+  suggestion [DC 17]), bleed (1d4), detect thoughts (DC 16), sneak attack +1d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +8)
+  values:
+    - label: 1/day
+      value: clairaudience/clairvoyance
+SpellsKnown:
+  header: Bard Spells Known (CL 8th; concentration +11)
+  values:
+    - label: 3rd (3/day)
+      value: clairaudience/clairvoyance, gaseous form, jester's jauntAPG (DC 16)
+    - label: 2nd (5/day)
+      value: minor image (DC 15), mirror image, sound burst (DC 15), whispering wind
+    - label: 1st (5/day)
+      value: >-
+        charm person (DC 14), lesser confusion (DC 14), feather fall, hideous
+        laughter (DC 14), unseen servant
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, lullaby (DC 13), read magic, resistance,
+        summon instrument Sorcerer Spells Known (CL 2nd; concentration +5)
+    - label: 1st (5/day)
+      value: shield, vanishAPG (DC 14)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 13), ghost sound (DC 13), message, prestidigitation, ray of
+        frost
+AbilityScores:
+  - 15
+  - 22
+  - 20
+  - 12
+  - 14
+  - 16
+BaseAtk: '12'
+CMB: '13'
+CMD: '30'
+Feats:
+  - Combat Reflexes
+  - Dodge
+  - Extra Performance
+  - Improved Natural Armor
+  - Improved Natural Attack (claw)
+  - Mobility
+  - Skill Focus (Stealth)
+Skills:
+  - Bluff +20
+  - Climb +10
+  - Disguise +11
+  - Escape Artist +19
+  - Knowledge (local) +18
+  - Perception +15
+  - Perform (comedy) +20
+  - Perform (wind instruments) +20
+  - Sense Motive +15
+  - Sleight of Hand +19
+  - Stealth +29
+  - Use Magic Device +16
+RacialMods: +4 Bluff, +8 Disguise
+Languages:
+  - Common
+  - Infernal
+  - Undercommon
+SQ: >-
+  bardic knowledge +4, change shape (any humanoid; alter self), lore master
+  1/day, versatile performances (comedy, wind)
+Source: AP 130
+IsTemplate: '0'
+BeforeCombat: >-
+  Oaca does everything to pass themself off as a harmless and nervous halfling,
+  not because they don't want a fight, but because they love the look of
+  surprise when they catch opponents unaware.
+DuringCombat: >-
+  Oaca prefers to open any fight by using jester's jaunt to throw one enemy
+  outside before beginning their bardic performance of cruel jokes and barbs.
+  The dandasuka prefers to attack with tooth and claw, but casts mirror image if
+  reduced below 100 hit points.
+Morale: Oaca fights to the death.
+Gear: silent metamagic rod, wand of acid arrow (47 charges)
+OtherGear: house keys, emerald brooch (worth 400 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11794'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

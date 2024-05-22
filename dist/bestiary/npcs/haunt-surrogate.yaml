@@ -1,0 +1,129 @@
+Name: Haunt Surrogate
+CR: '9'
+XP: '6400'
+Race: caustic stalker
+MonsterSource: 'Pathfinder Module: The Emerald Spire Superdungeon 153'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (air, elemental)
+Init: '12'
+Senses:
+  - darkvision 60 ft.
+  - Perception +15
+AC: 23, touch 23, flat-footed 14
+AC_Mods: (+8 Dex, +1 dodge, +4 profane)
+HP: '115'
+HD: (10d10+60)
+Saves: Fort +12, Ref +15, Will +5
+Fort: '12'
+Ref: '15'
+Will: '5'
+DefensiveAbilities: amorphous, haunted form
+DR: 5/-
+Immune: elemental traits, acid
+Weaknesses: vulnerable to wind
+Speed: fly 40 ft. (perfect)
+Melee:
+  - 2 slams +18 (1d10 plus 1d10 negative energy plus chemical burn)
+Ranged:
+  - energy bolt +15 (5d6 energy)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (15 ft. cone, 5d6 acid plus poison, Reflex DC 20 for half,
+  usable every 1d4 rounds), chemical burn (1d10 acid, DC 20)
+AbilityScores:
+  - —
+  - 27
+  - 20
+  - 5
+  - 14
+  - 11
+BaseAtk: '10'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Mobility
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Fly +29
+  - Perception +15
+  - Stealth +21
+Languages:
+  - Auran
+SQ: misty form
+Source: PFS 8-04
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      In addition to taking acid damage, any creature harmed by a caustic
+      stalker's breath weapon must succeed at an additional DC 20 Fortitude
+      saving throw or be affected by caustic creep poison. Caustic
+      Creep-inhaled; save Fort DC 20; frequency 1/round for 4 rounds; effect 1d4
+      Con; cure 2 consecutive saves. The save DC is Constitution-based.
+  - name: Chemical Burn (Su)
+    description: >-
+      Any creature struck by the caustic stalker, or that strikes it with a
+      natural weapon or unarmed attack, is affected as if by the burn special
+      attack, but takes acid damage instead of fire damage. The chemical burn
+      persists for multiple rounds, just as a normal burn, but can be ended
+      early if the affected creature is doused in at least 1 gallon of liquid
+      (requiring a full-round action from the victim or another creature) or
+      fully submerges itself in water.
+  - name: Energy Bolt (Su)
+    description: >-
+      A haunt surrogate can fire a bolt of energy as a standard action. This
+      ranged touch attack has a maximum range of 100 feet and no range
+      increment, and it deals 5d6 points of damage. When activating this
+      ability, the surrogate chooses whether to deal acid or electricity damage.
+  - name: Haunted Form (Su)
+    description: >-
+      Despite being alive, a haunt surrogate is healed by negative energy and
+      harmed by positive energy as if it were an undead creature. It also gains
+      a +4 profane bonus to its AC.
+  - name: Misty Form (Su)
+    description: >-
+      A caustic stalker's body is composed of a semisolid chemical mist similar
+      to thick foam. The caustic stalker does not have a Strength score and
+      cannot manipulate or wear solid objects. This form grants it the amorphous
+      defensive ability, and enables it to move through areas as small as 1 inch
+      in diameter with no reduction to its speed. A caustic stalker cannot enter
+      water or other fluids, and is treated as a creature two size categories
+      smaller than its actual size (Tiny for most caustic stalkers) for the
+      purposes of how wind affects it.
+  - name: Vulnerable to Wind (Ex)
+    description: >-
+      A caustic stalker takes damage every round that it's exposed to stronger
+      than moderate winds: 1d6 points of damage for strong winds, 2d6 points of
+      damage for severe winds, and an additional 1d6 points of damage for each
+      wind force category beyond severe (Pathfinder RPG Core Rulebook 439). Gust
+      of wind is considered severe wind for this ability. A caustic stalker
+      cannot use its breath weapon while being affected by stronger than
+      moderate winds and for 1 minute afterward.
+DuringCombat: >-
+  A surrogate uses its breath weapon on the first round of combat, affecting as
+  many different creatures as possible. It attacks with slam thereafter, using
+  its breath weapon as it becomes available. One aspect flies above the combat,
+  arcing electricity at spellcasters and archers. If an aspect is reduced to 30
+  hp or less, it flies up and switches to arcing electricity.
+Morale: Isirah's aspects fight until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8733'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

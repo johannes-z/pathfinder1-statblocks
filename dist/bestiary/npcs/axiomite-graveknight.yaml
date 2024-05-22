@@ -1,0 +1,118 @@
+Name: Axiomite Graveknight
+CR: '10'
+XP: '9600'
+Race: axiomite
+MonsterSource: Pathfinder RPG Bestiary 2 36, Pathfinder RPG Bestiary 3 138
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (augmented outsider, extraplanar, lawful)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +28
+Aura: sacrilegious aura (30 ft., DC 22)
+AC: 28, touch 15, flat-footed 23
+AC_Mods: (+3 armor, +4 Dex, +1 dodge, +10 natural)
+HP: '155'
+HD: (10d8+100)
+HP_Mods: regeneration 5 (chaotic or magic)
+Saves: Fort +12, Ref +13, Will +18
+Fort: '12'
+Ref: '13'
+Will: '18'
+DefensiveAbilities: channel resistance +4, rejuvenation
+DR: 10/chaotic and magic
+Immune: acid, cold, electricity, undead traits
+Resist: fire 10
+SR: '21'
+Speed: 30 ft., fly 30 ft. (good)
+Melee:
+  - >-
+    +1 adamantine short sword +21/+16 (1d6+11/19-20 plus 2d6 acid), slam +15
+    (1d4+6)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel destruction (2d6 acid), devastating  blast (6d6 acid, DC 22, 3/day),
+  seditious weapons, undead mastery (50 HD, DC 22)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +16)
+  values:
+    - label: 3/day
+      value: >-
+        dispel chaos, empowered order's wrath (DC 21), haste, hold monster (DC
+        22), lightning bolt (DC 20), telekinesis (DC 22), true strike
+    - label: 1/day
+      value: true seeing
+AbilityScores:
+  - 27
+  - 19
+  - —
+  - 23
+  - 24
+  - 24
+BaseAtk: '10'
+CMB: '18'
+CMD: '33'
+Feats:
+  - Dodge
+  - Empower Spell-Like Ability (order's wrath)
+  - Improved Initiative
+  - Iron Will
+  - Mobility
+  - Mounted CombatB
+  - Ride-by AttackB
+  - ToughnessB
+Skills:
+  - Bluff +20
+  - Craft (calligraphy) +17
+  - Diplomacy +20
+  - Fly +8
+  - Intimidate +15
+  - Knowledge (history
+  - local
+  - nobility) +16
+  - Knowledge (planes) +19
+  - Perception +28
+  - Ride +12
+  - Sense Motive +20
+  - Spellcraft +19
+  - Stealth +17
+  - Survival +20
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - Undercommon
+SQ: >-
+  crystalline dust form, graveknight armor, phantom mount, ruinous
+  revivification (acid)
+Source: AP 131
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Seditious Weapons (Su)
+    description: >-
+      An axiomite graveknight can infect others with its destructive
+      mathematics, treating any weapon it wields as a chaotic weapon for the
+      purpose of bypassing damage reduction and negating regeneration.
+OtherGear: mwk parade armorUE, +1 adamantine short sword
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: graveknight|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11823'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

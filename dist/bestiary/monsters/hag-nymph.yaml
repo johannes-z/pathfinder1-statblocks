@@ -1,0 +1,161 @@
+Name: Hag Nymph
+CR: '10'
+XP: '9600'
+Alignment: CE
+Size: Medium
+Type: fey
+Init: '5'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +16
+AC: 25, touch 21, flat-footed 19
+AC_Mods: (+1 dodge, +5 Dex, +4 natural, +5 profane)
+HP: '75'
+HD: (10d6+40)
+Saves: Fort +12, Ref +17, Will +15
+Fort: '12'
+Ref: '17'
+Will: '15'
+DR: 10/cold iron
+Resist: cold 10, fire 10
+SR: '21'
+Speed: 30 ft.
+Melee:
+  - 2 claws +11 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: profane beauty, spells
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; melee touch +10, ranged touch +10)
+  values:
+    - label: Constant
+      value: detect good, detect magic
+    - label: At Will
+      value: alter self, inflict light wounds (DC 16)
+    - label: 3/day
+      value: inflict serious wounds (DC 18)
+    - label: 1/day
+      value: baleful polymorph (DC 20), summon (level 7, 1d3 shadow demons 50%)
+SpellsKnown:
+  header: Spells Known (CL 10th; melee touch +10, ranged touch +10)
+  values:
+    - label: 5th (4/day)
+      value: beast shape III
+    - label: 4th (6/day)
+      value: bestow curse (DC 19), greater invisibility
+    - label: 3rd (7/day)
+      value: fly, haste (DC 18), lightning bolt (DC 18)
+    - label: 2nd (7/day)
+      value: >-
+        blindness/deafness (DC 17), fog cloud, ghoul touch (DC 17), spider climb
+        (DC 17)
+    - label: 1st (8/day)
+      value: >-
+        cause fear (DC 16), charm person (DC 16), chill touch (DC 16), disguise
+        self, ray of enfeeblement (DC 16)
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 15), daze (DC 15), flare (DC 15), ghost sound (DC
+        15), open/close, prestidigitation (DC 15), read magic, touch of fatigue
+        (DC 15)
+AbilityScores:
+  - 15
+  - 21
+  - 18
+  - 16
+  - 17
+  - 21
+BaseAtk: '5'
+CMB: '10'
+CMD: '28'
+Feats:
+  - Agile Maneuvers
+  - Combat Casting
+  - Dodge
+  - Weapon Finesse
+  - Weapon Focus (claw)
+Skills:
+  - Bluff +18
+  - Diplomacy +16
+  - Escape Artist +18
+  - Handle Animal +11
+  - Intimidate +15
+  - Knowledge (nature) +12
+  - Knowledge (planes) +13
+  - Perception +16
+  - Sense Motive +16
+  - Stealth +18
+Languages:
+  - Common
+  - Draconic
+  - Giant
+  - Sylvan
+SQ: profane grace
+Environment: temperate and cold forests
+Organization: solitary or coven (3 hag nymphs)
+Treasure: standard
+Description_Visual: >-
+  This hideous, bent crone has sickly green skin, thin dark green hair and hands
+  that end in wicked claws with filthy nails.
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Profane Beauty (Su)
+    description: >-
+      This ability affects all humanoids within 30 feet of a hag nymph. Those
+      who look directly at a hag nymph must succeed on a DC 20 Fortitude save or
+      take 2d4 points of Strength damage. A hag nymph can suppress or resume
+      this ability as a free action. A creature that saves or fails its save
+      cannot be affected by the same hag nymph's profane beauty for one day. The
+      save DC is Charisma-based.
+  - name: Profane Grace (Su)
+    description: >-
+      A hag nymph adds her Charisma modifier as a racial bonus on all her saving
+      throws, and as a profane bonus to her Armor Class. Spells A hag nymph
+      casts spells as a 10th-level sorcerer, and does not need any material
+      components.
+Description:
+  - >-
+    The true origins of the hag nymph are cloaked in secrecy. Tales speak of a
+    band of nymphs that blasphemed their goddess and were punished for dare
+    offending her. Other legends say the hag nymph is the resulting offspring of
+    a demon and nymph. Regardless, these creatures are vile and evil and take
+    great pleasure in tormenting others.
+  - >-
+    Hag nymphs live deep within dark forests in huts composed of mud and timber.
+    These huts are well constructed and littered with the rotting remains of
+    creatures they devour. Hag nymphs relish the taste of humanoid flesh, but
+    sustain themselves on a diet of forest animals when humanoids are scarce.
+    Forays under the cover of darkness into towns on the edge of the forest are
+    not unheard of. In such raids, children are the most likely victims as they
+    are easier to carry away.
+  - >-
+    Hag nymphs stand 6 feet tall and weigh 150 pounds. Their frames are somewhat
+    emaciated, almost corpse-like in appearance. Their clothes usually carry the
+    bloodstains of previous victims. Hag nymphs live for 150 years.
+  - >-
+    Hag nymphs attack from range bombarding their foes with an array of spells.
+    Slain opponents are dragged to the hag nymph's lair and devoured at her
+    leisure. Occasionally hag nymphs seek to capture rather than kill their
+    opponents. Such opponents are taken prisoner and used as slaves by the hag
+    nymphs, performing manual labor for them or being used as blood sacrifices
+    in dark rituals.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4973'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

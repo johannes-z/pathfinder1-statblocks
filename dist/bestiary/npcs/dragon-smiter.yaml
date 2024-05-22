@@ -1,0 +1,102 @@
+Name: Dragon Smiter
+CR: '12'
+XP: '19200'
+Race: human
+Class: paladin of iomedae 13
+Alignment: LG
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +9
+Aura: courage (10 ft.), justice (10 ft.), resolve (10 ft.)
+AC: 23, touch 11, flat-footed 22
+AC_Mods: (+11 armor, +1 Dex, +1 natural)
+HP: '115'
+HD: (13d10+39)
+Saves: Fort +13, Ref +10, Will +10
+Fort: '13'
+Ref: '10'
+Will: '10'
+Immune: charm, disease, fear
+Speed: 20 ft.
+Melee:
+  - +1 dragon bane greatsword +21/+16/+11 (2d6+10/19-20)
+Ranged:
+  - mwk heavy crossbow +15 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel positive energy (DC 17, 7d6), smite evil 5/day (+1 attack and AC, +13
+  damage)
+SpellLikeAbilities:
+  header: Paladin Spell-Like Abilities (CL 13th; concentration +14)
+  values:
+    - label: At Will
+      value: detect evil
+SpellsPrepared: >-
+  Paladin Spells Prepared (CL 10th; concentration +11)   3rd-prayer  
+  2nd-eagle's splendor, resist energy   1st-bless (2), divine favor (2)
+AbilityScores:
+  - 22
+  - 12
+  - 14
+  - 10
+  - 8
+  - 13
+BaseAtk: '13'
+CMB: '19'
+CMD: '30'
+Feats:
+  - Cleave
+  - Great Cleave
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Lunge
+  - Power Attack
+  - Vital Strike
+  - Weapon Focus (greatsword)
+Skills:
+  - Diplomacy +9
+  - Heal +7
+  - Knowledge (arcana) +8
+  - Knowledge (religion) +8
+  - Linguistics +1
+  - Perception +9
+  - Sense Motive +7
+Languages:
+  - Common
+  - Draconic
+SQ: >-
+  aura, code of conduct, divine bond (weapon +3, 3/day), lay on hands (6d6,
+  7/day), mercies (frightened, paralyzed, shaken, staggered)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The paladin casts resist energy against the breath weapon energy type of
+  dragons he expects to fight.
+DuringCombat: >-
+  The paladin casts eagle's splendor to improve his smite and divine grace. He
+  uses Improved Vital Strike and Lunge to land solid hits on creatures with
+  reach.
+Gear: +1 dragon-bane bolts (5), potion of displacement
+OtherGear: >-
+  +2 full plate, +1 dragon bane greatsword, masterwork heavy crossbow with 10
+  bolts, amulet of natural armor +1, belt of giant strength +2, cloak of
+  resistance +2, silver holy symbol, 1,044 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3756'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

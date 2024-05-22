@@ -1,0 +1,151 @@
+Name: Onthooth
+CR: '13'
+XP: '25600'
+Race: Aboleth
+Class: psychic 10
+MonsterSource: Pathfinder RPG Bestiary 8, Pathfinder RPG Occult Adventures 60
+Alignment: LE
+Size: Huge
+Type: aberration
+SubType: (aquatic)
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +23
+Aura: mucus cloud (5 ft., DC 20)
+AC: 23, touch 12, flat-footed 19
+AC_Mods: (+4 Dex, +11 natural, -2 size)
+HP: '189'
+HD: (18 HD; 10d6+8d8+118)
+Saves: Fort +13, Ref +11, Will +17
+Fort: '13'
+Ref: '11'
+Will: '17'
+Speed: 10 ft., swim 60 ft.
+Melee:
+  - 4 tentacles +17 (1d6+7 plus slime and 1d6 electricity)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  painful reminder (2d6, 7/day), phrenic amplifications (focused force,
+  overpowering mind, undercast surge), phrenic pool (11 points)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +20)
+  values:
+    - label: At Will
+      value: >-
+        hypnotic pattern (DC 16), illusory wall (DC 18), mirage arcana (DC 19),
+        persistent image (DC 19), programmed image (DC 20), project image (DC
+        21), veil (DC 20)
+    - label: 3/day
+      value: >-
+        dominate monster (DC 23) Psychic Spell-Like Abilities (CL 10th;
+        concentration +16)
+    - label: 1/day
+      value: detect thoughts (DC 15), telepathic bond
+SpellsKnown:
+  header: Psychic Spells Known (CL 10th; concentration +16)
+  values:
+    - label: 5th (4/day)
+      value: synapse overloadOA (DC 21), wall of force
+    - label: 4th (6/day)
+      value: >-
+        black tentacles, freedom of movement, id insinuation IIIOA (DC 20), mass
+        pain strikeAPG (DC 20), mind thrust IVOA (DC 20)
+    - label: 3rd (7/day)
+      value: dispel magic, force punchUM (DC 19), heroism, vampiric touch
+    - label: 2nd (8/day)
+      value: >-
+        blur, hold person (DC 18), pain strikeAPG (DC 18), resist energy, see
+        invisibility
+    - label: 1st (8/day)
+      value: >-
+        comprehend languages, ear-piercing screamUM (DC 17), mage armor, magic
+        missile, murderous commandUM (DC 17), persuasive goadUM (DC 17)
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, detect magic, know direction, mage hand,
+        mending, open/close (DC 16), prestidigitation, read magic
+AbilityScores:
+  - 22
+  - 18
+  - 22
+  - 23
+  - 15
+  - 19
+BaseAtk: '11'
+CMB: '19'
+CMD: 33 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Expanded Arcana
+  - Expanded Phrenic Pool
+  - Great Fortitude
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Quicken Spell
+  - Weapon Focus (tentacle)
+Skills:
+  - Acrobatics +4 (-4 when jumping)
+  - Bluff +25
+  - Intimidate +25
+  - Knowledge (arcana) +27
+  - Knowledge (dungeoneering
+  - history
+  - local) +20
+  - Perception +23
+  - Sense Motive +16
+  - Spellcraft +27
+  - Swim +25
+  - Use Magic Device +22
+Languages:
+  - Aboleth
+  - Aklo
+  - Aquan
+  - Azlanti
+  - Cyclops
+  - Draconic
+  - Elven
+  - Undercommon
+SQ: live on (3d6, 7/day), power from pain (maximum 2), telepathic bond
+Source: AP 123
+IsTemplate: '0'
+BeforeCombat: >-
+  Onthooth prepares its lair for intruders with many illusions, as described in
+  area D5 on page 54. When a fight is imminent, Onthooth casts blur, freedom of
+  movement, heroism, mage armor, and see invisibility if it has the time.
+  Onthooth also casts resist energy three times, selecting the energy types that
+  the PCs have been using the most while fighting the skum and faceless stalker
+  minions in the temple.
+DuringCombat: >-
+  When Onthooth is fighting in its own lair, in the first few rounds of combat
+  it casts spells with a range of touch through an illusory double created by
+  project image. Onthooth avoids melee combat, casting spells and swimming away
+  to keep at distance until only one or two foes remain. Each round, if
+  possible, Onthooth uses a swift action either to heal itself with its live on
+  ability, to deal damage with painful reminder, or to cast quickened magic
+  missile or another 1st-level spell.
+Morale: >-
+  When reduced to 30 hit points or fewer, Onthooth proposes a truce (see
+  Campaign Role on page 63). If the PCs decline, the aboleth attempts a fighting
+  retreat.
+Gear: >-
+  +1 shock amulet of mighty fists, deep red sphere ioun stone, headband of
+  twisted intellect (see page 54), iridescent spindle ioun stone
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11662'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'
+PsychicDiscipline: pain

@@ -1,0 +1,155 @@
+Name: Pallid Mask
+CR: '17'
+XP: '102400'
+Race: aberration
+Alignment: CE
+Size: Medium
+Type: aberration
+SubType: (chaotic, evil)
+Init: '9'
+Senses:
+  - darkvision 60 ft.
+  - Perception +31
+AC: 30, touch 16, flat-footed 24
+AC_Mods: (+5 Dex, +1 dodge, +14 natural)
+HP: '275'
+HD: (22d8+176)
+Saves: Fort +16, Ref +14, Will +19
+Fort: '16'
+Ref: '14'
+Will: '19'
+DefensiveAbilities: phantom of truth, rejuvenation
+DR: 10/lawful
+Immune: critical hits, disease, mind-affecting effects, poison
+Resist: acid 20, cold 20
+SR: '28'
+Speed: 30 ft.
+Melee:
+  - +3 quarterstaff +24/+19/+14/+9 (1d6+10)
+  - reality leech +21 touch (1d6 Cha drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: horrific revelation (DC 28), reality leech (DC 28), sneak attack +6d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 17th; concentration +24)
+  values:
+    - label: Constant
+      value: air walk, detect thoughts (DC 19), tongues
+    - label: At Will
+      value: >-
+        confusion (DC 21), detect magic, entropic shield, greater teleport (self
+        plus 50 lbs. of objects only), hideous laughter (DC 19)
+    - label: 3/day
+      value: >-
+        charm monster (DC 21), dimension door, displacement, greater dispel
+        magic, hold person (DC 19), mislead (DC 23), nondetection
+    - label: 1/day
+      value: >-
+        phantasmal killer (DC 21), yellow sign (DC 26, Pathfinder Adventure Path
+        #110 72)
+AbilityScores:
+  - 20
+  - 21
+  - 24
+  - 23
+  - 22
+  - 25
+BaseAtk: '16'
+CMB: '21'
+CMD: '37'
+Feats:
+  - Combat Casting
+  - Combat Expertise
+  - Combat Reflexes
+  - Dodge
+  - Great Fortitude
+  - Greater Feint
+  - Improved Feint
+  - Improved Initiative
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Acrobatics +19
+  - Bluff +32
+  - Diplomacy +32
+  - Intimidate +32
+  - Knowledge (arcana) +28
+  - Knowledge (nobility) +31
+  - Knowledge (planes
+  - religion) +17
+  - Perception +31
+  - Sense Motive +31
+  - Spellcraft +31
+  - Use Magic Device +18
+Languages:
+  - Abyssal
+  - Aklo
+  - Celestial
+  - Common
+  - Infernal
+  - Undercommon
+  - telepathy 100 ft.
+Source: AP 114
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Herald of the Yellow King (Sp)
+    description: >-
+      The Pallid Mask can use his yellow sign spell-like ability to inscribe the
+      Yellow Sign on his own body. He can conceal this symbol within the folds
+      of his robe, and reveal it once again as a move action. Creatures under
+      the effect of a charm or compulsion spell cast by the Pallid Mask take a
+      -4 penalty on their saving throws to resist the effects of the yellow
+      sign.
+  - name: Horrific Revelation (Su)
+    description: >-
+      As a swift action, the Pallid Mask can reveal a horrific truth to a single
+      creature within 60 feet. The target must succeed at a DC 28 Will save or
+      become confused and babble incoherently for 1 round as its mind reels at
+      the terrible revelation. A creature that successfully saves against this
+      ability is immune to this effect for 24 hours. This is a mind-affecting,
+      language-dependent effect, and the save DC is Charisma-based.
+  - name: Phantom of Truth (Su)
+    description: >-
+      The Pallid Mask's deceptions transcend truth and reality. He is immune to
+      alignment-based spells and any spell or effect that would force him to
+      tell the truth. Additionally, the Pallid Mask gains Bluff, Diplomacy, and
+      Sense Motive as class skills.
+  - name: Reality Leech (Ex)
+    description: >-
+      The Pallid Mask's touch steals the very essence of reality from his
+      victims. Creatures struck by the Pallid Mask's touch attack take 1d6
+      points of Charisma drain and become less real, appearing faintly
+      translucent and shadowy. Attacks from such creatures deal half their
+      normal damage, and spells cast by an affected creature that do not deal
+      damage have a 50% chance of affecting their targets. Creatures struck by
+      the Pallid Mask remain unreal for 2d4 rounds. A successful DC 28 Will save
+      negates the Charisma drain and reduces the duration of this effect to 1
+      round. A creature whose Charisma score is reduced to 0 by this effect dies
+      and becomes permanently and entirely unreal. The creature functions in all
+      ways as a permanent image (CL 15), and cannot be raised or resurrected
+      until a wish, limited wish, or miracle spell is used to return its
+      physical form. The illusory creature can continue to move and speak, but
+      has no memory of its former life, and cannot travel farther than 30 feet
+      from the place it died.
+  - name: Rejuvenation (Su)
+    description: >-
+      If killed in Carcosa, the Pallid Mask reforms in the parasitic city in 1d4
+      days.
+Gender: Male
+Gear: +3 quarterstaff
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11104'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

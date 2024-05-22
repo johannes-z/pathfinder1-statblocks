@@ -1,0 +1,107 @@
+Name: Andretti Kriegler
+CR: '4'
+XP: '1200'
+Race: human
+Class: cleric of Ghlaunder 5
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +3
+AC: 14, touch 13, flat-footed 13
+AC_Mods: (+1 armor, +2 Dex, +1 dodge)
+HP: '41'
+HD: (5d8+15)
+Saves: Fort +5, Ref +3, Will +7
+Fort: '5'
+Ref: '3'
+Will: '7'
+Speed: 30 ft.
+Melee:
+  - +1 spear +3 (1d8/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 5/day (DC 14, 3d6)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 5th; concentration +8)
+  values:
+    - label: 6/day
+      value: lightning arc (1d6+2 electricity), touch of evil (2 rounds)
+SpellsPrepared: >-
+  Spells Prepared (CL 5th; concentration +8)  3rd-gaseous formD, magic vestment,
+  summon monster III  2nd-cure moderate wounds, hold person (DC 15), spiritual
+  weapon, wind wallD  1st-command (DC 14), cure light wounds (2), protection
+  from goodD, sanctuary (DC 14)  0 (at will)-bleed (DC 13), guidance, light,
+  mending
+SpellDomains: Air, Evil
+AbilityScores:
+  - 8
+  - 14
+  - 12
+  - 10
+  - 17
+  - 14
+BaseAtk: '3'
+CMB: '2'
+CMD: '15'
+Feats:
+  - Brew Potion
+  - Dodge
+  - Skill Focus (Bluff)
+  - Toughness
+Skills:
+  - Bluff +10
+  - Craft (alchemy) +6
+  - Knowledge (arcana) +4
+  - Knowledge (religion) +6
+  - Sense Motive +7
+  - Spellcraft +5
+Languages:
+  - Common
+Source: The Feast Of Ravenmoor
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  When the ritual begins just after midnight, Kriegler casts magic vestment on
+  his robes&#8211;at a duration of 5 hours, this effect lasts until just a few
+  minutes after the sacrifice is completed.
+DuringCombat: >-
+  Kriegler casts sanctuary on himself on the first round of combat, then follows
+  up by casting summon monster III to conjure 1d3 fiendish giant spiders and
+  drinking his potion of shield of faith soon thereafter. He casts wind wall
+  between himself and the PCs and then protection from good before he begins
+  casting spells like spiritual weapon and hold person. If the PCs can engage
+  him in melee before this point, he'll switch to his spells earlier. He resorts
+  to his spear only as a last resort, since he's not strong enough for melee
+  combat to be a viable tactic. Kriegler uses channeled negative energy whenever
+  he's surrounded&#8211;he doesn't particularly care whether this catches some
+  of his cultists in the area of effect, but does try to move to exclude them if
+  given the chance.
+Morale: >-
+  If reduced to fewer than 15 hit points, Kriegler casts gaseous form and flees
+  into the surrounding maze to find a hiding spot where he can return to solid
+  form and heal before returning to the fight, at which point he fights to the
+  death&#8211;but the fight doesn't end with his death. As soon as he's reduced
+  to negative hit points or otherwise defeated, the blightspawn growing inside
+  of him bursts from his body&#8211;see The Blightspawn Birth below.
+Gear: >-
+  potions of cure light wounds (3), potions of shield of faith +2 (2), blue
+  whinnis poison (3 doses), antitoxin (2)
+OtherGear: +1 spear, manor keys, mosquito mask, white robes, silver unholy symbol
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1889'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

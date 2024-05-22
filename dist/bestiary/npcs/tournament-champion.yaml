@@ -1,0 +1,128 @@
+Name: Tournament Champion
+CR: '12'
+XP: '19200'
+Race: Half-elf
+Class: bard 7/sorcerer 2/arcane archer 4
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (elf, human)
+Init: '7'
+Senses:
+  - low-light vision
+  - Perception +25
+AC: 21, touch 15, flat-footed 17
+AC_Mods: (+6 armor, +1 deflection, +4 Dex)
+HP: '86'
+HD: (7d8+2d6+4d10+22)
+Saves: >-
+  Fort +6, Ref +15, Will +11; +2 vs. enchantments, +4 vs. bardic performance,
+  language-dependent, and sonic
+Fort: '6'
+Ref: '15'
+Will: '11'
+Save_Mods: +2 vs. enchantments, +4 vs. bardic performance, language-dependent, and sonic
+Speed: 30 ft.
+Melee:
+  - mwk rapier +11/+6 (1d6/18-20)
+Ranged:
+  - +2 longbow +21/+16 (1d8+2/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 19 rounds/day (move action; countersong, distraction,
+  fascinate, inspire competence +3, inspire courage +2, suggestion), enhance
+  arrows (elemental, magic), imbue arrow, seeker arrow (1/day).
+SpellsKnown:
+  header: Bard Spells Known (CL 10th; concentration +13)
+  values:
+    - label: 4th (1/day)
+      value: greater invisibility, shout (DC 17)
+    - label: 3rd (4/day)
+      value: >-
+        charm monster (DC 16), crushing despair (DC 16), cure serious wounds (DC
+        16), deep slumber (DC 16)
+    - label: 2nd (5/day)
+      value: cat's grace, eagle's splendor, invisibility, shatter, silence (DC 15)
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 14), feather fall, grease, lesser confusion (DC 14),
+        unseen servant
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, flare (DC 13), mage hand, mending,
+        prestidigitation Sorcerer Spells Known (CL 2nd; concentration +5; arcane
+        spell failure 20%)
+    - label: 1st (5/day)
+      value: magic missile, true strike
+    - label: 0 (at will)
+      value: arcane mark, daze (DC 13), ghost sound (DC 13), open/close, read magic
+AbilityScores:
+  - 10
+  - 24
+  - 13
+  - 8
+  - 12
+  - 16
+BaseAtk: '10'
+CMB: '10'
+CMD: '28'
+Feats:
+  - Deadly Aim
+  - Eschew Materials
+  - Far Shot
+  - Manyshot
+  - Point-Blank Shot
+  - Precise Shot
+  - Rapid Shot
+  - Skill Focus (Perception)
+  - Weapon Focus (longbow)
+Skills:
+  - Knowledge (geography) +6
+  - Knowledge (local
+  - nobility) +8
+  - Perception +25
+  - Perform (oratory
+  - sing) +19
+  - Spellcraft +3
+  - Swim +0
+  - Use Magic Device +7
+Languages:
+  - Common
+  - Elven
+SQ: >-
+  arcane bond (+2 longbow), bardic knowledge +3, bloodline arcana (+1 DC for
+  spells with metamagic feats that increase spell level), elf blood, lore master
+  1/day, versatile performance (oratory, sing)
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: arcane
+BeforeCombat: >-
+  The arcane archer casts cat's grace and drinks her potion of haste. She
+  typically prepares shock arrows as her enhance arrows ability.
+DuringCombat: >-
+  The archer's favorite tactic is to cast greater invisibility, then make shots
+  from a distance using true strike.
+Gear: +1 human-bane arrow (2), +1 magical beast-bane arrow (4), potion of haste
+OtherGear: >-
+  +2 chain shirt, +2 longbow with 40 arrows, masterwork rapier, belt of
+  incredible dexterity +2, cloak of resistance +1, lesser bracers of archery,
+  ring of protection +1, 309 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without cat's grace, the arcane archer's statistics are Init +5; Ref +13;
+  Ranged +2 longbow +19/+14 (1d8+2/x3); Dex 20; CMD 26.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3843'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

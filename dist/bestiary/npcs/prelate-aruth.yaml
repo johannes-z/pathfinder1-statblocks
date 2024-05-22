@@ -1,0 +1,118 @@
+Name: Prelate Aruth
+CR: '13'
+XP: '25600'
+Race: human
+Class: cleric of zon-kuthon 12
+MonsterSource: Pathfinder RPG Bestiary 5 176
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (humanoid, human)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+Aura: great despair (30 ft., DC 23)
+AC: 32, touch 16, flat-footed 30
+AC_Mods: (+10 armor, +4 deflection, +1 Dex, +1 dodge, +6 natural)
+HP: '165'
+HD: (12d8+108)
+Saves: Fort +17, Ref +7, Will +15
+Fort: '17'
+Ref: '7'
+Will: '15'
+DefensiveAbilities: channel resistance +4, death's embrace, freedom of movement, rejuvenation
+DR: 10/-
+Immune: cold, electricity, undead traits
+SR: '24'
+Speed: 20 ft.
+Speed_Mod: air walk
+Melee:
+  - +2 keen spiked chain +15/+10 (2d4+8/19-20 plus insidious mummy rot)
+  - slam +8 (1d6+2 plus insidious mummy rot)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 10/day (DC 23, 6d6), channel rot, insidious mummy rot,
+  sandstorm wrath (8d8 fire and slashing, DC 23), undead mastery (DC 23)
+SpellLikeAbilities:
+  header: Cleric Spell-Like Abilities (CL 12th; concentration +17)
+  values:
+    - label: 8/day
+      value: bleeding touch (6 rounds), touch of darkness (6 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 12th; concentration +17)   6th-blade barrier (DC
+  21), create undeadD, harm (DC 21)   5th-plane shift (DC 20), slay livingD (3,
+  DC 20), spell resistance   4th-air walk, freedom of movement, poison (DC 19),
+  shadow conjurationD, unholy blight (DC 19)   3rd-animate dead, bestow curse
+  (DC 18), deeper darknessD, dispel magic (2), invisibility purge  
+  2nd-blindness/deafness (blindness only)D (DC 17), hold person (2, DC 17),
+  resist energy, sound burst (DC 17), spiritual weapon   1st-command (3, DC 16),
+  obscuring mistD, sanctuary (2, DC 16), shield of faith   0 (at will)-bleed (DC
+  15), light, mending, read magic
+SpellDomains: Darkness, Death
+AbilityScores:
+  - 18
+  - 13
+  - —
+  - 12
+  - 20
+  - 24
+BaseAtk: '9'
+CMB: '13'
+CMD: '25'
+Feats:
+  - Blind-Fight
+  - Combat Casting
+  - Command Undead
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Dodge
+  - Improved Initiative
+  - Selective Channeling
+  - Toughness
+Skills:
+  - Intimidate +30
+  - Knowledge (religion) +16
+  - Perception +20
+  - Sense Motive +13
+  - Spellcraft +16
+  - Stealth +5
+Languages:
+  - Common
+  - Shadowtongue
+SQ: eyes of darkness (6 rounds/day)
+Source: Curse Of The Crimson Throne Chapter 5
+IsTemplate: '0'
+BeforeCombat: >-
+  Prelate Aruth casts air walk, freedom of movement, shield of faith, and spell
+  resistance.
+DuringCombat: >-
+  Prelate Aruth prefers to cast spells in melee combat, favoring slay living and
+  other touch spells, but does cast spiritual weapon on the first round of a
+  fight,  targeting an enemy healer. If he kills a PC and feels he has the upper
+  hand in combat, the prelate isn't above gloating and taking actions in combat
+  that are more for cruelty's sake (such as animating a fallen PC into a zombie)
+  than tactically sound, but when facing dangerous foes, he makes a fighting
+  retreat toward area F11 so he can gain the support of the bishop therein.
+Morale: The prelate fights until destroyed but does not pursue foes out of the donjon.
+Gear: >-
+  +4 chainmail, +2 keen spiked chain, cloak of resistance +2, headband of mental
+  prowess +2 (Wis, Cha), pouch of two dozen onyx gems (worth 2,800 gp total),
+  iron unholy symbol of Zon-Kuthon
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: mummy lord|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8694'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

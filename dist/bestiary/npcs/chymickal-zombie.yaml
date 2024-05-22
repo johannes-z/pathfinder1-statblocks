@@ -1,0 +1,97 @@
+Name: Chymickal Zombie
+CR: '2'
+XP: '600'
+Race: human
+Class: monk 2
+MonsterSource: Pathfinder RPG Bestiary 2 291
+Alignment: LE
+Size: Medium
+Type: undead
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 18, touch 15, flat-footed 15
+AC_Mods: (+3 Dex, +2 Wis, +3 natural)
+HP: '15'
+HD: (2d8+3)
+Saves: Fort +2, Ref +6, Will +5
+Fort: '2'
+Ref: '6'
+Will: '5'
+DefensiveAbilities: channel resistance +4, evasion
+DR: 5/ magic and slashing
+Immune: cold, electricity, magic missile, undead traits
+Resist: fire 10
+Weaknesses: alchemical dependence
+Speed: 30 ft.
+Melee:
+  - slam +5 (1d6+6)
+  - flurry of blows +4/+4 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: flurry of blows, stunning fist (2/day, DC 13)
+AbilityScores:
+  - 18
+  - 17
+  - —
+  - 10
+  - 15
+  - 8
+BaseAtk: '1'
+CMB: '5'
+CMD: '20'
+Feats:
+  - Acrobatic Steps
+  - Combat Reflexes
+  - Improved Grapple
+  - Improved InitiativeB
+  - Improved Unarmed Strike
+  - Nimble Moves
+  - Stunning Fist
+  - ToughnessB
+Skills:
+  - Acrobatics +8
+  - Climb +16
+  - Escape Artist +8
+  - Perception +7
+  - Stealth +8
+  - Swim +8
+Languages:
+  - Common
+Source: AP 44
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alchemical Dependence (Su)
+    description: >-
+      Chymickal zombies are dependent on an alchemical elixir to keep their
+      brains preserved and functioning. A chymickal zombie must inject itself
+      with this elixir at least once per week. Failure to do so results in the
+      loss of 1d4 points of Intelligence per week. This Intelligence loss is
+      permanent and cannot be restored, but further Intelligence loss can be
+      prevented with a new injection of the elixir. Once the chymickal zombie's
+      Intelligence reaches 0, it loses all of its chymickal zombie abilities and
+      becomes a normal zombie in all ways.
+DuringCombat: >-
+  The zombies use their Nimble Moves and Acrobatic Steps feats to move without
+  hindrance through the room. They attack with flurries of blows, and use
+  stunning fist to stun opponents and drag them beneath the water to drown.
+Morale: >-
+  If reduced to 5 hit points or fewer, the zombies try to flee and warn Vorkstag
+  and Grine.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: '@zombie|juju,'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1600'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

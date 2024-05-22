@@ -1,0 +1,97 @@
+Name: Ghoul Huntsmaster
+CR: '7'
+XP: '3200'
+Race: Ghoul
+Class: ranger 6
+Alignment: CE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +14
+AC: 20, touch 15, flat-footed 15
+AC_Mods: (+3 armor, +5 Dex, +2 natural)
+HP: '80'
+HD: (8 HD; 2d8+6d10+38)
+Saves: Fort +9, Ref +10, Will +8
+Fort: '9'
+Ref: '10'
+Will: '8'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
+Speed: 40 ft.
+Melee:
+  - >-
+    +1 bite +13 (1d6+3 plus disease and paralysis), 2 +1 claws +14 (1d8+3 plus
+    paralysis)
+Ranged:
+  - mwk composite longbow +13/+8 (1d8+2/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  combat style (archery), disease (DC 15), favored enemy (elves +2, humans +4),
+  paralysis (1d4+1 rounds, DC 15, elves are immune to this effect)
+SpellsPrepared: >-
+  Ranger Spells Prepared (CL 3rd; concentration +6)   1st-longstrider, magic
+  fang
+AbilityScores:
+  - 15
+  - 20
+  - —
+  - 13
+  - 16
+  - 18
+BaseAtk: '7'
+CMB: '9'
+CMD: '24'
+Feats:
+  - Corpse Companion
+  - Endurance
+  - Improved Natural Attack (claw)
+  - Point-Blank Shot
+  - Rapid Shot
+  - Weapon Finesse
+  - Weapon Focus (claw)
+Skills:
+  - Acrobatics +13 (+17 when jumping)
+  - Climb +13
+  - Disable Device +13
+  - Perception +14
+  - Stealth +16
+  - Survival +14
+  - Swim +9
+Languages:
+  - Common
+  - Undercommon
+SQ: >-
+  favored terrain (underground +2), hunter's bond (animal), track +3, wild
+  empathy +10
+Source: Monster Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The huntsmaster casts longstrider and uses his wand of greater magic fang on
+  himself as well as on his animal companion.
+Gear: >-
+  +1 human-bane arrows (3), +1 seeking arrows (2), potion of inflict moderate
+  wounds, wand of greater magic fang (12 charges)
+OtherGear: mwk studded leather, mwk composite longbow with 50 arrows, 42 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without longstrider and greater magic fang, the huntsmaster's statistics are
+  Speed 30 ft.; Melee bite +12 (1d6+2 plus disease and paralysis), 2 claws +13
+  (1d8+2 plus paralysis).
+AgeCategory: Adult
+CompanionFamiliarLink: '6449'
+id: '6448'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

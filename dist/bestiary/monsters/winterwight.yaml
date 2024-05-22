@@ -1,0 +1,127 @@
+Name: Winterwight
+CR: '17'
+XP: '102400'
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (cold)
+Init: '10'
+Senses:
+  - darkvision 60 ft.
+  - Perception +27
+Aura: cold (10 ft.)
+AC: 32, touch 16, flat-footed 26
+AC_Mods: (+6 Dex, +16 natural)
+HP: '270'
+HD: (20d8+180)
+HP_Mods: fast healing 10
+Saves: Fort +15, Ref +14, Will +16
+Fort: '15'
+Ref: '14'
+Will: '16'
+DefensiveAbilities: channel resistance +4
+DR: 15/bludgeoning and good
+Immune: cold, undead traits
+SR: '28'
+Weaknesses: vulnerability to fire
+Speed: 30 ft.
+Melee:
+  - bite +30 (2d8+15 plus blightfire), 2 claws +30 (2d6+15  plus blightfire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: rend (2 claws 2d8+22)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 17th; concentration +26)
+  values:
+    - label: Constant
+      value: air walk
+    - label: At will
+      value: >-
+        cone of cold (DC 24), dimension door, greater dispel magic, sleet storm,
+        wall of ice
+    - label: 3/day
+      value: polar ray
+    - label: 1/day
+      value: control weather
+AbilityScores:
+  - 40
+  - 23
+  - —
+  - 11
+  - 18
+  - 29
+BaseAtk: '15'
+CMB: '30'
+CMD: '46'
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Critical Focus
+  - Greater Vital Strike
+  - Improved Initiative
+  - Improved Vital Strike
+  - Lightning Reflexes
+  - Power Attack
+  - Staggering Critical
+  - Vital Strike
+Skills:
+  - Acrobatics +26
+  - Intimidate +32
+  - Perception +27
+  - Stealth +29
+Languages:
+  - Common
+Environment: any cold land
+Organization: solitary, pair, or incursion (3-6)
+Treasure: standard
+Description_Visual: >-
+  Human-sized and of a deathly blue color, this long-taloned skeletal creature
+  is partially encased in jagged sheets of ice.
+Source: PFRPG Bestiary 2
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Cold (Su)
+    description: >-
+      Winterwights are surrounded by a 10-foot radius of deathly chill. Any
+      creatures within this area during the winterwight's turn takes 2d10 points
+      of cold damage. All creatures of the cold subtype within this area
+      (including the winterwight) are treated as having fast healing 10.
+  - name: Blightfire (Su)
+    description: >-
+      Whenever a winterwight damages a creature with a bite or claw, the wound
+      erupts with tongues of black fire. For the next 5 rounds, the victim must
+      make a DC 29 Fortitude saving throw at the start of its turn or take 1d6
+      points of Constitution drain. The winterwight gains 10 temporary hit
+      points each time the creature fails a saving throw against blightfire. A
+      creature cannot be affected by more than one instance of blightfire at a
+      time. The save DC is Charisma-based.
+Description:
+  - >-
+    The winterwight is an undead horror born from the coldest depths of the
+    negative energy plane. Infused with the dark, cold magic that permeates this
+    realm of death, the winterwight takes the form of a skeleton coated in armor
+    of jagged ice.
+  - >-
+    Though it resembles an ordinary skeleton from a distance, the winterwight's
+    frame is much sturdier than the average humanoid's, its frozen armor
+    intertwining with its bone structure to form an incredibly hardy chassis.
+    Sometimes called hatewraiths because of their insatiable lust for suffering,
+    these frozen horrors are often found in areas that suffer from magical cold
+    or frozen climates.
+  - Winterwights are 7 feet tall and weigh 250 pounds.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+LinkText: Winterwight
+id: '1394'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

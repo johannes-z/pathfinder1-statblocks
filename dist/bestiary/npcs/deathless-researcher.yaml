@@ -1,0 +1,116 @@
+Name: Deathless Researcher
+CR: '6'
+XP: '2400'
+Race: Wight
+Class: sorcerer 5
+MonsterSource: Pathfinder RPG Bestiary 276
+Alignment: LE
+Size: Medium
+Type: undead
+Init: '5'
+Senses:
+  - darkvision 60 ft., deathwatch
+  - Perception +12
+AC: 19, touch 11, flat-footed 18
+AC_Mods: (+4 armor, +3 Dex, +4 natural)
+HP: '95'
+HD: (9 HD; 5d6+4d8+60)
+Saves: Fort +7, Ref +3, Will +10
+Fort: '7'
+Ref: '3'
+Will: '10'
+Immune: undead traits
+Resist: cold 5
+Weaknesses: resurrection vulnerability
+Speed: 30 ft.
+Melee:
+  - slam +8 (1d4+3 plus energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, energy drain (1 level, DC 17)
+SpellLikeAbilities:
+  header: Bloodline Spell-Like Abilities (CL 5th; concentration +10)
+  values:
+    - label: 8/day
+      value: grave touch (2 rounds)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 5th; concentration +10)
+  values:
+    - label: 2nd (5/day)
+      value: false life, spectral hand, touch of idiocy
+    - label: 1st (8/day)
+      value: >-
+        chill touch (DC 16), ear-piercing screamUM (DC 16), mage armor, magic
+        missile, protection from good
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 15), dancing lights, daze (DC 15), detect magic,
+        disrupt undead
+AbilityScores:
+  - 14
+  - 12
+  - —
+  - 15
+  - 15
+  - 20
+BaseAtk: '5'
+CMB: '7'
+CMD: '18'
+Feats:
+  - Blind-Fight
+  - Combat Casting
+  - Eschew Materials
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Weapon Focus (slam)
+Skills:
+  - Acrobatics +5
+  - Craft (leather) +9
+  - Heal +8
+  - Intimidate +12
+  - Knowledge (arcana) +14
+  - Knowledge (religion) +14
+  - Perception +12
+  - Stealth +16
+RacialMods: +8 Stealth
+Languages:
+  - Aklo
+  - Common
+  - Necril
+SQ: bloodline arcana (corporeal undead affected by humanoid-affecting spells)
+Source: AP 140
+IsTemplate: '0'
+Bloodline: undead
+BeforeCombat: A deathless researcher casts mage armor and false life.
+DuringCombat: >-
+  A deathless researcher takes cover and attacks from a distance with spells
+  such as spectral hand, touch of idiocy, or magic missile. If pressed into
+  melee, a researcher resorts to slam attacks. As the researchers are
+  academically curious about the potency of the traps and undead experiments
+  elsewhere within the Bastion of Light, a researcher attempts to injure or
+  debilitate as many PCs as possible rather than eliminate the PCs one at a
+  time.
+Morale: >-
+  A deathless researcher fights until destroyed. If the PCs flee into another
+  part of the Bastion of Light, a researcher doesn't pursue, but waits to see
+  whether the other dangers in the cathedral overwhelm the PCs.
+Gear: brooch of shielding, potion of inflict serious wounds
+OtherGear: deathwatch eyesUE
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without mage armor and false life, the deathless researcher's statistics are
+  AC 15, touch 11, flat-footed 14; hp 85.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12154'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

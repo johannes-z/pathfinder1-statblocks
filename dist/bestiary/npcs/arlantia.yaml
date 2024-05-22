@@ -1,0 +1,174 @@
+Name: Arlantia
+CR: '18'
+XP: '153600'
+Race: dryad
+Class: cleric of cyth-v'sug 15
+MonsterSource: Pathfinder RPG Bestiary 6 46, Pathfinder RPG Bestiary 116
+Alignment: CE
+Size: Medium
+Type: fey
+Init: '9'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +26
+Aura: aura of decay
+AC: 36, touch 19, flat-footed 31
+AC_Mods: (+6 armor, +4 deflection, +4 Dex, +1 dodge, +11 natural)
+HP: '277'
+HD: (21d8+183)
+Saves: Fort +25, Ref +22, Will +25
+Fort: '25'
+Ref: '22'
+Will: '25'
+DefensiveAbilities: evasion, fungal rejuvenation
+DR: 10/ cold iron, 10/good
+Immune: disease, paralysis, poison, polymorph
+Resist: cold 10, electricity 10
+SR: '29'
+Speed: 30 ft., fly 40 ft. (perfect)
+Melee:
+  - spiteful scimitar +21/+16/+11 (1d6+7/15-20)
+Ranged:
+  - thorn throw +14 (1d4+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy 9/day (DC 24, 8d6), parasitic bond, scythe of evil (7
+  rounds, 2/day), wooden fists (+7, 9 rounds/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +13)
+  values:
+    - label: Constant
+      value: speak with plants
+    - label: At Will
+      value: >-
+        quickened dominate monster (blighted fey only; DC 26), entangle (DC 15),
+        scrying (DC 21), sending, tree shape, wood shape (1 lb. only)
+    - label: 3/day
+      value: charm person (DC 15), deep slumber (DC 17), tree stride
+    - label: 1/day
+      value: >-
+        suggestion (DC 17) Domain Spell-Like Abilities (CL 15th; concentration
+        +21)
+    - label: 9/day
+      value: touch of evil (7 rounds)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 15th; concentration +21)  8th- control plantsD,
+  mass inflict critical wounds (DC 24)  7th-blasphemyD (DC 23), bouncing harm
+  (DC 22), word of chaos (DC 23)  6th-blade barrier (DC 22), greater dispel
+  magic, harmD (DC 22), heal (2)    5th-greater command (DC 21), flame strike
+  (DC 21), true seeing, wall of stone, wall of thornsD (2)  4th-cure critical
+  wounds (2), dismissal (DC 20), poisonD (DC 20), sending, unholy blight (DC
+  20)  3rd-contagionD (DC 19), dispel magic, bouncing hold person (DC 18),
+  invisibility purge, protection from energy (2)  2nd-barkskinD, calm emotions
+  (DC 18), darkness, bouncing doom (2, DC 17), hold person (DC 18), silence (DC
+  18)  1st-bane (DC 17), cause fear (DC 17), command (DC 17), entangleD (DC 17),
+  obscuring mist, protection from good, shield of faith  0 (at will)-detect
+  magic, detect poison, guidance, read magic
+SpellDomains: Evil, Plant (Decay subdomain)
+AbilityScores:
+  - 20
+  - 21
+  - 25
+  - 14
+  - 22
+  - 24
+BaseAtk: '14'
+CMB: '19'
+CMD: '35'
+Feats:
+  - Bouncing Spell
+  - Channel Smite
+  - Combat Casting
+  - Craft Wondrous Item
+  - Dodge
+  - Extra Channel
+  - Great Fortitude
+  - Improved Critical (scimitar)
+  - Improved Initiative
+  - Improved Natural Armor
+  - Lightning Reflexes
+  - Quicken Spell (dominate monster)
+  - ToughnessB
+Skills:
+  - Acrobatics +22
+  - Diplomacy +20
+  - Escape Artist +17
+  - Fly +17
+  - Intimidate +22
+  - Knowledge (nature) +17
+  - Knowledge (religion) +15
+  - Linguistics +8
+  - Perception +26
+  - Sense Motive +19
+  - Stealth +6
+RacialMods: +2 Knowledge (nature), +2 Perception, +2 Stealth
+Languages:
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Infernal
+  - Sylvan
+  - speak with plants
+SQ: >-
+  blighted unity, child of the blight, tainted blood, thorn throw, tree meld,
+  wild empathy +16, woodcraft
+Source: AP 119
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Glaistig Pretender (Su)
+    description: >-
+      Arlantia has performed numerous rituals on herself using Gendowyn's blood,
+      trying to invest her with the glaistig's godlike nature. While her efforts
+      have yet to grant her mythic power, she has gained a permanent +6 bonus to
+      Charisma and a +2 natural armor bonus to her AC.
+  - name: Harbinger of the Blight (Su)
+    description: >-
+      The Darkblight came to Golarion through Arlantia's infected body, and she
+      retains a near-divine mastery over the fungal matter. She can cast
+      quickened dominate monster, but only on creatures with the blighted fey
+      template. She can also use scry and sending at will as spell-like
+      abilities, but only in landscapes infested with the Darkblight. In any
+      area infused with the Darkblight, she can command the fungus to carry her
+      aloft, granting her a fly speed of 40 feet (perfect).
+Gender: Female
+BeforeCombat: >-
+  Arlantia watches the PCs' approach through her hive mind and scrying, and
+  casts protection from energy on herself to resist their preferred spells. She
+  casts shield of faith once the PCs enter her domain.
+DuringCombat: >-
+  Arlantia attacks without mercy, casting greater dispel magic to shut down any
+  preparations, then mass inflict critical wounds, blasphemy, and harm. If her
+  enemies manage to engage her in melee as she flies throughout Arhlantu, she
+  uses her scythe of evil ability to add the unholy special ability to her
+  scimitar before attacking. She casts heal on herself whenever she drops below
+  150 hit points. Arlantia knows her aura of decay will destroy the mindslaver
+  mold controlling Taurgreth, so she activates it only if he dies or is freed
+  from her control.
+Morale: Arlantia fights to the death.
+Gear: potions of cure serious wounds (3)
+OtherGear: >-
+  +2 light fortification glamered chain shirt, spiteful scimitar, amulet of
+  natural armor +3, belt of mighty constitution +6, cloak of resistance +5,
+  headband of inspired wisdom +2, ring of evasion, onyx unholy symbol of
+  Cyth-V'sug (worth 500 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: blighted|
+BaseStatistics: >-
+  Without shield of faith, Arlantia's statistics are AC 32, touch 15,
+  flat-footed 27.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11506'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

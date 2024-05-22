@@ -1,0 +1,122 @@
+Name: Skiff Golem
+CR: '11'
+XP: '12800'
+Alignment: 'N'
+Size: Huge
+Type: construct
+SubType: (extraplanar)
+Init: '-2'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 21, touch 6, flat-footed 21
+AC_Mods: (-2 Dex, +15 natural, -2 size)
+HP: '122'
+HD: (15d10+40)
+Saves: Fort +5, Ref +3, Will +5
+Fort: '5'
+Ref: '3'
+Will: '5'
+DR: 10/adamantine
+Immune: construct traits (+40 hp), magic
+Resist: fire 20
+Speed: 40 ft., swim 50 ft.
+Melee:
+  - quarterstaff +23/+18/+13 (2d6+15 plus paralysis)
+Space: 15 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  breath weapon (30-ft. cone, 7d6 electricity damage; DC 17 Ref half, usable
+  five times/day), man overboard, paralysis (2d4 rounds, DC 17)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th)
+  values:
+    - label: 1/day
+      value: passwall, summon (level 8, 1d4 charonadaemons 35%)
+AbilityScores:
+  - 31
+  - 6
+  - —
+  - —
+  - 11
+  - 11
+BaseAtk: '15'
+CMB: '27'
+CMD: 35 (can't be tripped)
+Skills:
+  - Swim +18
+Languages:
+  - Abyssal
+  - Common
+  - Infernal (cannot speak any)
+Environment: any (lower planes)
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This unusual river skiff is constructed of finely-crafted wood. On the bow of
+  the ship stands a statue of a skeletal figure dressed in a hooded black robe.
+  Its hand clutches a long staff.
+Group: Golem
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A skill golem is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against the creature, as noted: Warp wood or wood shape slows
+      a skiff golem (as the slow spell) for 2d6 rounds (no save). A magical
+      attack that deals cold damage breaks any slow effect on the skiff golem
+      and heals 1 point of damage for every 3 points of damage the attack would
+      otherwise deal. If the amount of healing would cause the golem to exceed
+      its full normal hit points, it gains any excess as temporary hit points. A
+      skiff golem gets no saving throw against attacks that deal cold damage.
+      Repel wood drives the skiff golem back 30 feet and deals 2d12 points of
+      damage to it (no save). Ironwood heals a skiff golem of all its lost hit
+      points.
+  - name: Man Overboard (Ex)
+    description: >-
+      A skiff golem can rock itself violently back and forth as a move action,
+      causing all those onboard to fall into the water (which if on the River
+      Styx could be a very bad thing indeed). A creature can attempt to maintain
+      its footing and grab onto the skiff golem by succeeding on a DC 27
+      Acrobatics check. The check DC is Strength-based.
+Description:
+  - >-
+    Crafted by Charon, the Boatman of the Lower Planes and his servants, these
+    creatures serve as an automated means of transportation across the Styx. A
+    rider's destination need merely be whispered in the golem's ear and payment
+    dropped into a nearby container on the skiff. When these conditions are met,
+    the skiff sets out immediately at full speed, polling across water and land
+    alike with otherworldly determination.
+  - >-
+    If attacked, or if travelers attempt to board the skiff without first
+    paying, a skiff golem attacks with its ebon staff and breath weapon (the
+    skeletal figure pivots to face its opponents). If it manages to paralyze an
+    opponent with its staff, it attempts to knock that foe from its skiff into
+    the waiting waters. If threatened with destruction, the skiff golem summons
+    several charonadaemons to its aid or makes haste to retreat, poling thru
+    rock, stone, magical obstructions, water and fire if necessary.
+  - Construction
+  - >-
+    The construction of a skiff golem is a closely guarded secret, known only to
+    Charon and some of his most loyal servants.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+VariantParent: 'NULL'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4966'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

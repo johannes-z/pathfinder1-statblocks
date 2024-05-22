@@ -1,0 +1,112 @@
+Name: Drow Demonic Champion
+CR: '9'
+XP: '6400'
+Race: Drow
+Class: antipaladin 10
+MonsterSource: Pathfinder RPG Advanced Player's Guide 118
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '5'
+Senses:
+  - darkvision 120 ft.
+  - Perception +11
+Aura: cowardice (10 ft.), despair (10 ft.)
+AC: 25, touch 11, flat-footed 24
+AC_Mods: (+10 armor, +1 Dex, +4 shield)
+HP: '79'
+HD: (10d10+20)
+Saves: Fort +11, Ref +7, Will +9; +2 vs. enchantments
+Fort: '11'
+Ref: '7'
+Will: '9'
+Save_Mods: +2 vs. enchantments
+Immune: sleep, disease
+SR: '16'
+Weaknesses: light blindness
+Speed: 20 ft.
+Melee:
+  - +1 scimitar +16/+11 (1d6+5/15-20)
+Ranged:
+  - heavy crossbow +12 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  channel negative energy (DC 18, 5d6), smite good 4/day (+3 attack and AC, +10
+  damage)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th; concentration +3)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, darkness, faerie fire Antipaladin Spell-Like Abilities
+        (CL 10th; concentration +13)
+    - label: At Will
+      value: detect good
+SpellsPrepared: >-
+  Antipaladin Spells Prepared (CL 7th; concentration +10)  3rd-litany of
+  sightUC  2nd-invisibility, silence (DC 15)  1st-litany of slothUC, murderous
+  commandUM (DC 14), protection from good
+AbilityScores:
+  - 18
+  - 12
+  - 12
+  - 12
+  - 8
+  - 16
+BaseAtk: '10'
+CMB: '14'
+CMD: '25'
+Feats:
+  - Channel Smite
+  - Improved Critical (scimitar)
+  - Improved Initiative
+  - Shield Focus
+  - Weapon Focus (scimitar)
+Skills:
+  - Acrobatics +0
+  - Climb +3
+  - Intimidate +11
+  - Perception +11
+  - Stealth +8
+Languages:
+  - Elven
+  - Undercommon
+SQ: >-
+  cruelties (dazed, nauseated, sickened, staggered), fiendish boon (weapon +2,
+  2/day), poison use, touch of corruption 8/day (5d6)
+Source: Monster Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The demonic champion casts invisibility and protection from good on herself,
+  then uses her scroll of defile armor on her full plate. She prefers to use her
+  fiendish boon ability to grant her scimitar the anarchic, flaming, unholy, or
+  vicious weapon special ability.
+DuringCombat: >-
+  The demonic champion uses smite good and Channel Smite with her scimitar
+  attacks to harm foes, or uses her cruelties and touch of corruption to disable
+  opponents. She casts silence to interfere with spellcasters employing ranged
+  spells against her.
+Gear: >-
+  potion of cure serious wounds, potion of delay poison, potion of haste, scroll
+  of defile armorAPG, scroll of invisibility, acid (2), alchemist's fire (2),
+  antitoxin
+OtherGear: >-
+  +1 full plate, +1 heavy steel shield, +1 scimitar, heavy crossbow with 10 mwk
+  bolts, belt of giant strength +2, 69 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6413'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

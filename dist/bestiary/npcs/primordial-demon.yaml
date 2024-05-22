@@ -1,0 +1,113 @@
+Name: Primordial Demon
+CR: '11'
+XP: '12800'
+Race: Primordial Demon
+Alignment: CE
+Size: Huge
+Type: outsider
+SubType: (chaotic, demon, devil, extraplanar, incorporeal)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +19
+AC: 25, touch 13, flat-footed 24
+AC_Mods: (+4 deflection, +1 Dex, +12 natural, -2 size)
+HP: '147'
+HD: (14d10+70)
+Saves: Fort +9, Ref +12, Will +13
+Fort: '9'
+Ref: '12'
+Will: '13'
+DefensiveAbilities: incorporeal
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '22'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - 4 tendrils +21 (1d8+8/19-20 plus grab)
+Space: 15 ft.
+Reach: 15 ft.; 30 ft. with tendrils
+SpecialAttacks: psychic implosion (DC 21, 8d6 psychic damage)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +15)
+  values:
+    - label: At Will
+      value: phantasmal killer (DC 18), modify memory (DC 18), nightmare (DC 19)
+    - label: 1/day
+      value: weird (DC 23)
+AbilityScores:
+  - 26
+  - 13
+  - 20
+  - 15
+  - 18
+  - 19
+BaseAtk: '14'
+CMB: '24'
+CMD: '39'
+Feats:
+  - Bleeding Critical
+  - Critical Focus
+  - Improved Critical (tendrils)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Multiattack
+  - Weapon Focus (tendrils)
+Skills:
+  - Bluff +17
+  - Diplomacy +17
+  - Fly +14
+  - Intimidate +17
+  - Knowledge (planes) +17
+  - Knowledge (religion) +14
+  - Perception +19
+  - Sense Motive +19
+  - Spellcraft +17
+  - Stealth +8
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - tongues
+  - telepathy 100 ft.
+SQ: dream form
+Source: PFS S1-40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dream Form (Su)
+    description: >-
+      A primordial demon has no physical form and only exists in the
+      subconscious realm of dreams. Because it exists only as thought and
+      concept, it can neither leave this realm nor exist in any other plane,
+      realm, or reality. Any creature slain by a primordial demon does not die
+      in the material plane. Instead, the individual falls unconscious and is
+      forced from the dream realm (see above).
+  - name: Psychic Implosion (Su)
+    description: >-
+      As a full-round action, a primordial demon can constrict his tendrils to
+      psychically rend the mind of a grappled victim. The attack deals 8d6
+      points of psychic damage, though the victim may attempt a DC 21 Will save
+      for half damage. The save DC is Charisma-based.
+DuringCombat: >-
+  The primordial demon begins combat by using its weird ability on all of the
+  PCs. Starting on the second round, it attacks a single target each round with
+  its tendrils, grappling when possible and then using its psychic implosion
+  ability until that target is "killed" and ejected from the dream
+  realm&#8211;it then selects another target, likely the one dealing the most
+  damage to it, and hits that target and so on.
+Morale: The primordial demon fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4220'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

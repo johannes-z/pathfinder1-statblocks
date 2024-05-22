@@ -1,0 +1,141 @@
+Name: Haunted Robot
+CR: '15'
+XP: '51200'
+Race: warden robot
+MonsterSource: 'Pathfinder Adventure Path #87 88, Pathfinder RPG Bestiary 294'
+Alignment: NE
+Size: Huge
+Type: construct
+SubType: (robot)
+Init: '9'
+Senses:
+  - all-around vision, blindsight 30 ft., darkvision 60 ft., low-light vision
+  - Perception +29
+Aura: infrasonic field (30 ft., DC 21)
+AC: 26, touch 13, flat-footed 21
+AC_Mods: (+5 Dex, +13 natural, -2 size)
+HP: '214'
+HD: (18d10+40 plus 75 hp force field)
+Saves: Fort +6, Ref +13, Will +10
+Fort: '6'
+Ref: '13'
+Will: '10'
+DefensiveAbilities: hardness 10, reactive armor, resilient
+Immune: construct traits
+Weaknesses: haunted, vulnerable to critical hits and electricity
+Speed: 30 ft.
+Melee:
+  - 2 slams +26 (2d6+10/19-20)
+Ranged:
+  - 2 integrated sonic disruptor +21 touch (3d8/19-20 plus sonic)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: combined arms, dazzler, infested, integrated sonic disruptor
+AbilityScores:
+  - 30
+  - 20
+  - —
+  - 15
+  - 18
+  - 5
+BaseAtk: '18'
+CMB: +30 (+32 bull rush)
+CMD: 45 (47 vs. bull rush)
+Feats:
+  - Alertness
+  - Deadly Aim
+  - Improved Bull Rush
+  - Improved Critical (integrated sonic disruptor)
+  - Improved Critical (slam)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Nimble Moves
+  - Power Attack
+Skills:
+  - Acrobatics +23
+  - Climb +31
+  - Perception +29
+  - Sense Motive +29
+Languages:
+  - Androffan
+Source: AP 89
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Combined Arms (Ex)
+    description: >-
+      As part of a full-attack action, a warden robot can attack with both its
+      melee and ranged integrated weapons.
+  - name: Dazzler (Ex)
+    description: >-
+      As a standard action, a warden robot can target a single creature with a
+      beam of strobing light that functions as a gaze attack with a range of 60
+      feet. The target must succeed at a DC 17 Fortitude save or be blinded for
+      2d4 rounds. Creatures that successfully save are instead dazzled for 1d4
+      rounds. Creatures with light blindness or light sensitivity take a -4
+      penalty on the saving throw. This is a light effect; the save DC is
+      Intelligence-based.
+  - name: Force Field (Ex)
+    description: >-
+      A shimmering field of energy encases this robot, granting it 75 bonus hit
+      points. All damage dealt to this robot is deducted from these hit points
+      first. As long as the force field is active, the robot is immune to
+      critical hits. This force field has fast healing 15, but once its hit
+      points are reduced to 0, the force field shuts down and doesn't reactivate
+      for 24 hours.
+  - name: Haunted (Su)
+    description: >-
+      The unquiet spirit of the gnome druid Jarin Sogron haunts this robot. As a
+      result, the robot takes damage from positive energy as if it were an
+      undead creature and can be detected by detect undead.
+  - name: Infested (Ex)
+    description: >-
+      This robot is infested with yellow mold. Every round the robot takes an
+      action or takes damage, the mold fills a 10-foot radius around the robot
+      with poison spores (Core Rulebook 416). Sunlight renders the mold dormant,
+      and once the robot takes a total of 25 points of fire damage, the mold
+      growing on it is burned away.
+  - name: Infrasonic Field (Ex)
+    description: >-
+      Warden robots constantly emit powerful sound waves at a frequency below
+      normal hearing. These vibrations can debilitate living beings within 30
+      feet. Such creatures must succeed at DC 17 Fortitude save or fall prone
+      and be nauseated for 1d4 rounds. A warden robot can suppress or resume
+      this ability as a free action. This is a sonic effect, and the save DC is
+      Intelligence-based.
+  - name: Integrated Sonic Disruptor (Ex)
+    description: >-
+      A warden robot's arms contain built-in ranged weapons that emit focused
+      sound waves in 100-foot rays that deal 2d8 points of sonic damage.
+  - name: Reactive Armor (Ex)
+    description: >-
+      A warden robot is covered in a special shell that reacts explosively to
+      powerful strikes. Due to this covering, a warden robot gains light
+      fortification (25% chance to negate critical hits and sneak attacks). When
+      the armor negates a critical hit from a melee weapon, the attacker takes
+      an amount of fire damage equal to half of the damage dealt to the robot.
+      Attackers using reach or ranged weapons avoid this damage.
+  - name: Resilient (Ex)
+    description: Warden robots receive a +3 racial bonus on all saving throws.
+DuringCombat: >-
+  The robot follows Jarin's impulses and has assumed the druid's alignment, and
+  as it attacks it proclaims the PCs to be fit only for fertilizer. The robot is
+  entangled on the first round of the fight, but automatically rips free from
+  its roots at the start of the second round&#8211;it doesn't pursue foes from
+  this room. If the positioning is right, the robot tries to bull rush foes over
+  the edge of the pit into area G4.
+Morale: The haunted robot fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6609'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

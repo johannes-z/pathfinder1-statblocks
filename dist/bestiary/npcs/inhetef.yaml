@@ -1,0 +1,159 @@
+Name: Inhetef
+CR: '16'
+XP: '76800'
+Race: human
+Class: inquisitor of Sekhmet 15
+MonsterSource: Pathfinder RPG Bestiary 4 268, Pathfinder RPG Advanced Player's Guide 38
+Alignment: CE
+Size: Medium
+Type: undead
+SubType: (augmented humanoid, human)
+Init: '13'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +42
+AC: 32, touch 17, flat-footed 29
+AC_Mods: (+7 armor, +4 deflection, +3 Dex, +8 natural)
+HP: '161'
+HD: (15d8+90)
+HP_Mods: fast healing 5
+Saves: Fort +15, Ref +12, Will +19
+Fort: '15'
+Ref: '12'
+Will: '19'
+DefensiveAbilities: channel resistance +4, stalwart
+DR: 5/wood and piercing
+Immune: undead traits
+Resist: cold 10, electricity 10, fire 10, sonic 10
+Weaknesses: vampire weaknesses
+Speed: 20 ft.
+Melee:
+  - +2 vicious battleaxe +19/+14/+9 (1d8+6/19-20/x3 plus 2d6), claw +10 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  blood drain (1d4 Con and 1d4 Wis), dominate (DC 21), exploit weakness, greater
+  bane (+4d6, 15 rounds/day), telekinesis (DC 21)
+SpellLikeAbilities:
+  header: Inquisitor Spell-Like Abilities (CL 15th; concentration +21)
+  values:
+    - label: 9/day
+      value: fire bolt (1d6+7 fire)
+    - label: At Will
+      value: detect alignment 15 rounds/day-discern lies
+SpellsKnown:
+  header: Inquisitor Spells Known (CL 15th; concentration +19)
+  values:
+    - label: 5th (4/day)
+      value: >-
+        flame strike (DC 21), greater command (DC 21), mass inflict light wounds
+        (DC 22), unwilling shieldAPG (DC 22)
+    - label: 4th (5/day)
+      value: >-
+        divine power, freedom of movement, greater invisibility, hold monster
+        (DC 20)
+    - label: 3rd (6/day)
+      value: >-
+        burst of speedUC, coordinated effortAPG, festerAPG (DC 20), inflict
+        serious wounds (DC 20), prayer
+    - label: 2nd (7/day)
+      value: >-
+        blistering invectiveUC (DC 18), death knell (DC 19), flames of the
+        faithfulAPG, inflict moderate wounds (DC 19), invisibility, spiritual
+        weapon
+    - label: 1st (7/day)
+      value: >-
+        bane (DC 17), command (DC 17), inflict light wounds (DC 18), protection
+        from good, shield of faith, true strike
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, guidance, read magic, resistance, siftAPG
+SpellDomains: Fire
+AbilityScores:
+  - 18
+  - 16
+  - —
+  - 12
+  - 22
+  - 19
+BaseAtk: '11'
+CMB: +15 (+17 bull rush)
+CMD: 33 (35 vs. bull rush)
+Feats:
+  - AlertnessB
+  - Combat Casting
+  - Combat Reflexes
+  - Coordinated Maneuvers
+  - Duck and Cover
+  - Improved Bull Rush
+  - Improved Critical (battleaxe)
+  - Improved InitiativeB
+  - Iron Will
+  - Lightning ReflexesB
+  - Outflank
+  - Paired Opportunists
+  - Power Attack
+  - Skill FocusB (Intimidate)
+  - Skill FocusB (Perception)
+  - Spell Focus (necromancy)
+  - Swap Places
+  - Toughness
+  - Weapon Focus (battleaxe)
+Skills:
+  - Acrobatics +15
+  - Climb +19
+  - Intimidate +35
+  - Knowledge (religion) +19
+  - Perception +42
+  - Sense Motive +43
+  - Stealth +26
+  - Use Magic Device +19
+Languages:
+  - Ancient Osiriani
+  - Infernal
+  - telepathy 60 ft.
+SQ: >-
+  cunning initiative, judgment (2, 5/day), monster lore +6, solo tactics, spider
+  climb, stern gaze, swarm form, track +7
+Source: AP 84
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  Inhetef casts freedom of movement and shield of faith on himself before
+  combat.
+DuringCombat: >-
+  Inhetef activates his destruction and justice judgments in the first round,
+  and attempts to dominate one of his attackers to create another ally. In
+  subsequent rounds, Inhetef casts divine power and flames of the faithful on
+  his battleaxe, and enters melee combat after activating his greater bane
+  ability. If surrounded, Inhetef casts unwilling shield on one of his enemies,
+  and if given the opportunity, he uses telekinesis to push opponents into the
+  lava pool. If a baykok's infused arrow paralyzes a PC, Inhetef must succeed at
+  a DC 23 Will save to resist the overwhelming urge to rush to the helpless PC
+  and drain her blood&#8211;he hasn't fed properly in ages. With his shoes of
+  the firewalker and spider climb ability, Inhetef can move through most places
+  in the Fire Crypt with little trouble.
+Morale: >-
+  Inhetef fights until reduced to 0 hit points, at which point he assumes bat
+  swarm form and flees toward his sarcophagus in area D5. If the wall hasn't
+  been broken down, he changes into a centipede swarm and crawls through tiny
+  cracks in the wall nearby. Once in his sarcophagus, Inhetef is helpless for 1
+  hour until he regains 1 hit point.
+Gear: >-
+  +2 horn lamellarUE, +2 vicious battleaxe, cloak of resistance +2, shoes of the
+  firewalkerUE, gold unholy symbol of Sekhmet (worth 50 gp)
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: nosferatu|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6247'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

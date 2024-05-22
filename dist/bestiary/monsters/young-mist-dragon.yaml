@@ -1,0 +1,150 @@
+Name: Young Mist Dragon
+CR: '7'
+XP: '3200'
+Alignment: 'N'
+Size: Large
+Type: dragon
+SubType: (air, fire, water)
+Init: '1'
+Senses:
+  - dragon senses, mist vision
+  - Perception +20
+AC: 21, touch 10, flat-footed 20
+AC_Mods: (+1 Dex, +11 natural, -1 size)
+HP: '95'
+HD: (10d12+30)
+Saves: Fort +10, Ref +8, Will +10
+Fort: '10'
+Ref: '8'
+Will: '10'
+Immune: fire, paralysis, sleep
+Weaknesses: vulnerability to cold
+Speed: 40 ft., fly 200 ft. (poor), swim 20 ft.
+Melee:
+  - >-
+    bite +14 (2d6+7), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail slap +12
+    (1d8+7)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with bite)
+SpecialAttacks: breath weapon (cone, Fort DC 18, 3d6 fire plus blindness)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: At will
+      value: create water
+AbilityScores:
+  - 21
+  - 12
+  - 17
+  - 16
+  - 17
+  - 16
+BaseAtk: '10'
+CMB: '16'
+CMD: 27 (31 vs. trip)
+Feats:
+  - Alertness
+  - Flyby Attack
+  - Hover
+  - Multiattack
+  - Wingover
+Skills:
+  - Bluff +16
+  - Diplomacy +16
+  - Fly +8
+  - Knowledge (arcana) +16
+  - Knowledge (nature) +16
+  - Perception +20
+  - Sense Motive +20
+  - Spellcraft +16
+  - Swim +26
+Languages:
+  - Auran
+  - Aquan
+  - Common
+  - Draconic
+  - Ignan
+SQ: mist form, water breathing
+Environment: temperate and warm forests and aquatic
+Organization: solitary or clan (2-5)
+Treasure: triple standard
+Description_Visual: >-
+  This great dragon has a ridge of swept-back horns encircling its head with two
+  larger and longer horns just above its eyes dominating the others. A ridge of
+  similar smaller horns runs the length of its back from its shoulders to its
+  tail. Its body is long, snake-like, and semi-material. It possesses no visible
+  wings. Its scaled body is grayish-white.
+Group: Dragon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Boiling Bite (Su)
+    description: >-
+      At old age, a mist dragon's bite deals an additional 2d6 points of fire
+      damage. An ancient dragon's damage increases to 4d6, and a great wrym's to
+      6d6.
+  - name: Breath Weapon (Su)
+    description: >-
+      A mist dragon's breath weapon is a cone of cloudy scalding vapor. In still
+      air, the vapor lingers for 1d4 rounds and forms a cloud that covers a
+      radius equal to the cone's length; on the second round, the vapor
+      condenses into a heated smothering fog that deals 1d6 points of fire
+      damage to creatures each round they remain in the area (Fortitude save
+      halves this damage). The fog also blinds creatures (as the blindness
+      spell) that fail the save as long as they remain within in the cloud and
+      for 2 rounds after they leave the area.
+  - name: Mist Form (Su)
+    description: >-
+      As a standard action, a juvenile or older mist dragon can assume gaseous
+      form, but it can remain gaseous indefinitely and has a fly speed of 20
+      feet with perfect maneuverability. A great wyrm mist dragon's abilities
+      while in mist form improve drastically. As a standard action a great wyrm
+      mist dragon in mist form can make a single melee attack of its choice at
+      its highest attack bonus. This attack deals normal damage. As a full-round
+      action, a great wyrm mist dragon in mist form can attack with its breath
+      weapon.
+  - name: Mist Vision (Ex)
+    description: >-
+      A very young mist dragon can see perfectly in foggy conditions (such as
+      those created by fog cloud or obscuring mist). Spell-like Abilities A mist
+      dragon gains the following spelllike abilities, usable at will upon
+      reaching the listed age category. Young-create water; Juvenile-fog cloud;
+      Adult-wind wall; Old-solid fog; Ancient-control winds; Great Wyrm-control
+  - name: water Water Breathing (Ex)
+    description: >-
+      A very young or older mist dragon can breathe underwater indefinitely and
+      can freely use its breath weapon, spells, and other abilities while
+      submerged.
+Description:
+  - >-
+    Mist dragons are relatively passive (for dragons) and reclusive, preferring
+    to spend their time away from most other races (including other mist
+    dragons). Mist dragons make their lairs near large sources of water such as
+    waterfalls, lakes, and seashores. A mist dragon resembles a gold dragon in
+    shape and size. Its scales are shiny-blue white as a hatchling and gradually
+    darken to a blue-gray color with metallic silver splotches. Mist dragons
+    usually spend their days moving from place to place in mist form. If
+    threatened or angered, a mist dragon assumes solid form and attacks using
+    its breath weapon, claws, and bite. Credit The Mist Dragon originally
+    appeared in the First Edition Monster Manual II (© TSR/Wizards of the Coast,
+    1983) and is used by permission. Copyright Notice Author Scott Greene, based
+    on original material by Gary Gygax.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: young
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2533'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

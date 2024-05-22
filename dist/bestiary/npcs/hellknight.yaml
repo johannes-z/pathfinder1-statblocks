@@ -1,0 +1,118 @@
+Name: Hellknight
+CR: '10'
+XP: '9600'
+Race: human
+Class: fighter 5/hellknight 6
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +7
+AC: 28, touch 12, flat-footed 26
+AC_Mods: (+10 armor, +2 Dex, +6 shield)
+HP: '92'
+HD: (11d10+27)
+Saves: Fort +9, Ref +6, Will +5 (+5 vs. fear, +2 vs. charm)
+Fort: '9'
+Ref: '6'
+Will: +5 (+5 vs. fear, +2 vs. charm)
+DefensiveAbilities: bravery +1, force of will (+2, +4)
+Speed: 30 ft.
+Melee:
+  - +1 cruel morningstar +16/+11/+6 (1d8+6/19-20)
+Ranged:
+  - mwk dagger +14 (1d4+2/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: smite chaos 2/day (+2 attack and AC, +6 damage), weapon training (flail +1)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th)
+  values:
+    - label: At will
+      value: detect chaos
+    - label: 5/day
+      value: discern lies Domain Spell-Like Abilities (CL 6th; concentration +7)
+    - label: 4/day
+      value: touch of law
+AbilityScores:
+  - 14
+  - 14
+  - 13
+  - 8
+  - 12
+  - 15
+BaseAtk: '11'
+CMB: '13'
+CMD: '25'
+Feats:
+  - Critical Focus
+  - Improved Critical (morningstar)
+  - Intimidating Prowess
+  - Shield Focus
+  - Sickening Critical
+  - Skill Focus (Intimidate)
+  - Step Up
+  - Toughness
+  - Weapon Focus (morningstar)
+  - Weapon Specialization (morningstar)
+Skills:
+  - Intimidate +16
+  - Knowledge (local) +7
+  - Knowledge (planes) +4
+  - Perception +7
+  - Sense Motive +7
+Languages:
+  - Common
+SQ: >-
+  armor training 1, disciplines (fearsomeness 2/day, pentamic faith), Hellknight
+  armor 2, Order of the Godclaw
+Source: Inner Sea NPC Codex
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Detect Chaos (Sp)
+    description: >-
+      This ability functions like a paladin's detect evil ability, save that it
+      detects chaos.
+  - name: Disciplines (Ex)
+    description: >-
+      The Hellknight has access to two disciplines. Fearsomeness: Twice per day,
+      the Hellknight can use the Intimidate skill to cause a creature within 10
+      feet to become frightened instead of shaken. Pentamic Faith: The
+      Hellknight gains all granted powers of the Law domain (but not domain
+      spells), treating his Hellknight level as his cleric level.
+  - name: Force of Will (Ex)
+    description: >-
+      The Hellknight gains a +2 bonus on Will saves against spells with the
+      charm descriptor and a +4 bonus against spells with the fear descriptor.
+  - name: Hellknight Armor (Ex)
+    description: >-
+      The Hellknight wears a special type of masterwork full plate called
+      Hellknight plate armor. While wearing this armor, he reduces the armor
+      check penalty by 2, increases the maximum Dexterity bonus allowed by 2,
+      and moves at full speed.
+  - name: Smite Chaos (Su)
+    description: >-
+      This functions as the paladin's smite evil ability, but against
+      chaotic-aligned creatures. This ability is twice as effective against
+      outsiders with the chaotic subtype, chaotic-aligned aberrations, and fey.
+Gear: potions of bull's strength (2), potion of cure serious wounds, potion of haste
+OtherGear: >-
+  +1 hellknight plateISWG, +1 tower shield, +1 cruel morningstarUE, mwk dagger,
+  cloak of resistance +1, 460 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5474'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,101 @@
+Name: Greater Galvos
+CR: '10'
+XP: '9600'
+Race: galvo
+MonsterSource: Pathfinder RPG Bestiary 4 288, 120
+Alignment: NE
+Size: Medium
+Type: magical beast
+SubType: (aquatic)
+Init: '6'
+Senses:
+  - blindsense 60 ft., darkvision 60 ft., low-light vision
+  - Perception +21
+AC: 27, touch 17, flat-footed 20
+AC_Mods: (+6 Dex, +1 dodge, +10 natural)
+HP: '157'
+HD: (15d10+75)
+Saves: Fort +14, Ref +15, Will +8
+Fort: '14'
+Ref: '15'
+Will: '8'
+DefensiveAbilities: swarmlike
+DR: 10/slashing
+Immune: electricity
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - >-
+    bite +21 (1d6+5 plus 2d6 electricity), 2 slams +21 (1d6+5 plus 2d6
+    electricity)
+Ranged:
+  - eel dart +21 touch (1d6+5 plus 1d6 electricity)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with slam)
+AbilityScores:
+  - 21
+  - 23
+  - 20
+  - 11
+  - 16
+  - 12
+BaseAtk: '15'
+CMB: '18'
+CMD: 37 (can't be tripped)
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Dodge
+  - Point-Blank Shot
+  - Power Attack
+  - Precise Shot
+  - Vital Strike
+  - Weapon Finesse
+Skills:
+  - Perception +21
+  - Stealth +17
+  - Swim +23
+Languages:
+  - Aquan (can't speak)
+SQ: amphibious, compression, varied attack
+Source: PFS 8-20
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Eel Dart (Ex)
+    description: >-
+      A galvo can launch one of its component eels like a dart up to 30 feet as
+      a ranged touch attack. An eel dart deals a number of points of damage
+      equal to 1d6 + the galvo's Strength modifier plus 1d6 points of
+      electricity damage.
+  - name: Swarmlike (Ex)
+    description: >-
+      A galvo has no discernible anatomy and is not subject to critical hits or
+      flanking. It is also immune to any physical spell or effect that targets a
+      specific number of creatures (including single-target spells such as
+      disintegrate). Mind-affecting effects that target a single creature
+      function normally against a galvo, since the creature's individual
+      components share a hive mind. A galvo takes half again as much damage
+      (+50%) from damaging area effects such as fireball and splash weapons.
+  - name: Varied Attack (Ex)
+    description: >-
+      A galvo's slam attack deals both bludgeoning and slashing damage since the
+      creature is formed completely of biting eels.
+DuringCombat: >-
+  The galvos attack lightly armored PCs first, switching to a new target if a PC
+  proves resistant to electricity.
+Morale: Filled with consuming hatred, the galvos fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11520'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

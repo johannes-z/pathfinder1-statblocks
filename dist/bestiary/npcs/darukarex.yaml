@@ -1,0 +1,165 @@
+Name: Darukarex
+CR: '11'
+XP: '12800'
+Race: contract devil
+MonsterSource: Pathfinder RPG Bestiary 3 76
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (devil, evil, extraplanar, lawful)
+Init: '11'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +24
+AC: 26, touch 18, flat-footed 18
+AC_Mods: (+7 Dex, +1 dodge, +8 natural)
+HP: '147'
+HD: (14d10+70)
+Saves: Fort +9, Ref +16, Will +16
+Fort: '9'
+Ref: '16'
+Will: '16'
+DR: 10/good
+Immune: fire, mind-affecting effects, poison
+Resist: acid 10, cold 10
+SR: '22'
+Speed: 30 ft.
+Melee:
+  - binding contract (whip) +22/+17/+12 (1d4+8/x3 plus grab), gore +13 (2d6+2)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with binding contract)
+SpecialAttacks: binding contract, impale (2d8+6)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +21)
+  values:
+    - label: Constant
+      value: tongues
+    - label: At Will
+      value: >-
+        arcane mark, charm person (DC 18), detect thoughts (DC 20), dimension
+        door, erase, honeyed tongueAPG, illusory script (DC 20), lesser geas,
+        major image (DC 20), sending
+    - label: 3/day
+      value: >-
+        analyze dweomer (DC 23), arcane eye, break enchantment, charm monster
+        (DC 21), fly, greater command (DC 22), greater teleport (self plus 50
+        lbs. of objects only), hold monster (DC 21), mage's private sanctum,
+        mass cacophonous callAPG (DC 22), scorching ray, true seeing, vision
+    - label: 1/day
+      value: >-
+        contact other plane, dismissal (DC 22), geas/quest, plane shift (DC 24),
+        spell turning, summon (level 5, 1d4 erinyes 50%), symbol of pain (DC 22)
+AbilityScores:
+  - 18
+  - 25
+  - 20
+  - 20
+  - 25
+  - 25
+BaseAtk: '14'
+CMB: +18 (+20 disarm, +20 trip)
+CMD: 36 (38 vs. disarm, 38 vs. trip)
+Feats:
+  - Combat Expertise
+  - Dodge
+  - Improved Disarm
+  - Improved Initiative
+  - Improved Trip
+  - Mobility
+  - Persuasive
+Skills:
+  - Bluff +27
+  - Diplomacy +31
+  - Intimidate +28
+  - Knowledge (arcana) +20
+  - Knowledge (nobility) +13
+  - Knowledge (planes) +22
+  - Knowledge (religion) +13
+  - Linguistics +23
+  - Perception +24
+  - Profession (scribe) +21
+  - Sense Motive +24
+  - Sleight of Hand +24
+  - Spellcraft +23
+Languages:
+  - Abyssal
+  - Aklo
+  - Aquan
+  - Celestial
+  - Common
+  - Draconic
+  - Dwarven
+  - Elven
+  - Giant
+  - Gnoll
+  - Gnome
+  - Goblin
+  - Halfling
+  - Ignan
+  - Infernal
+  - Orc
+  - Sylvan
+  - Terran
+  - Undercommon
+  - telepathy 100 ft.
+  - tongues
+SQ: infernal contract, infernal investment
+Source: Hell Unleashed
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Binding Contract (Su)
+    description: >-
+      Darukarex is surrounded by a gentle whirlwind of parchments. At
+      Darukarex's will, these parchments fuse together into a long whip, which
+      he can use to attack, disarm, and trip foes. The binding contract
+      functions as +1 whip, except that unlike a normal whip, it always deals
+      lethal damage and doesn't provoke attacks of opportunity when used.
+      Darukarex adds his Wisdom modifier instead of his Strength modifier to
+      attack and damage rolls with his binding contract. When the binding
+      contract hits its mark, it wraps around the target, providing Darukarex
+      with a free grapple attempt. If he succeeds at the grapple attempt, the
+      restrained creature is considered grappled, though Darukarex is not.
+      Additionally, Darukarex takes only a -10 penalty on his CMB check to
+      maintain the grapple in subsequent rounds, instead of the normal &#8211;20
+      penalty. If Darukarex is disarmed, he can produce a new binding contract
+      as an immediate action.
+  - name: Impale (Ex)
+    description: >-
+      As a swift action, Darukarex can impale an opponent grappled by his
+      binding contract, dealing 2d8+6 points of piercing damage.
+  - name: Infernal Contract (Su)
+    description: >-
+      As a full-round action, Darukarex can produce an infernal contract for a
+      single living mortal creature. This contract can grant a wide range of
+      abilities and effects. To receive any of these bonuses, however, the
+      mortal must sign its true name upon the document of its own free will.
+      Upon doing so, that mortal's soul is sworn to the contract devil,
+      condemning the soul to an eternity of servitude in Hell. Only a miracle or
+      wish can restore such a damned creature to life, and if anyone casts a
+      spell for that purpose, Darukarex automatically gains the benefits of a
+      discern location spell with the caster as the target. Breaking a contract
+      with Darukarex is difficult and dangerous (see page 29 for more on such
+      contracts).
+  - name: Infernal Investment (Su)
+    description: >-
+      Darukarex can use greater scrying at will upon any creature that has
+      signed one of his infernal contracts. The target creature always fails its
+      save against the devil's scrying attempt&#8211;this ability otherwise
+      functions at caster level 20th.
+Gender: Male
+Gear: circlet of persuasion, horn of goodness/evil, ring of mind shielding
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7062'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

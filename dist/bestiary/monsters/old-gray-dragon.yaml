@@ -1,0 +1,139 @@
+Name: Old Gray Dragon
+CR: '13'
+XP: '25600'
+Alignment: NE
+Size: Huge
+Type: dragon
+SubType: (water)
+Init: '4'
+Senses:
+  - dragon senses
+  - Perception +26
+Aura: frightful presence (240 ft., DC 21)
+AC: 33, touch 8, flat-footed 33
+AC_Mods: (+25 natural, -2 size)
+HP: '212'
+HD: (17d12+102)
+Saves: Fort +16, Ref +12, Will +14
+Fort: '16'
+Ref: '12'
+Will: '14'
+Immune: paralysis, sleep
+SR: '24'
+Speed: 60 ft., fly 200 ft. (average), swim 40 ft.
+Melee:
+  - >-
+    2 claws +24 (2d6+9), bite +25 (2d8+13/19-20), 2 wings +22 (1d8+4), tail slap
+    +22 (2d6+13)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: breath weapon (100-ft. line, 16d6 fire; DC 24 Ref half)
+SpellsKnown:
+  header: Spells Known (CL 9th; melee touch +24, ranged touch +15)
+  values:
+    - label: 4th (4/day)
+      value: dimension door, greater invisibility
+    - label: 3rd (7/day)
+      value: dispel magic, gaseous form, protection from energy
+    - label: 2nd (7/day)
+      value: blur, eagle's splendor, locate object, mirror image
+    - label: 1st (7/day)
+      value: >-
+        burning hands (DC 14), magic missile, protection from good, obscuring
+        mist, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, detect magic, light, mage hand, ray of
+        frost, read magic, resistance
+AbilityScores:
+  - 29
+  - 10
+  - 23
+  - 17
+  - 19
+  - 17
+BaseAtk: '17'
+CMB: '28'
+CMD: 38 (42 vs. trip)
+Feats:
+  - Alertness
+  - Cleave
+  - Flyby Attack
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Lightning Reflexes
+  - Multiattack
+  - Power Attack
+  - Weapon Focus (bite)
+Skills:
+  - Bluff +23
+  - Fly +16
+  - Intimidate +23
+  - Knowledge (local) +23
+  - Perception +28
+  - Sense Motive +28
+  - Spellcraft +23
+  - Stealth +12
+  - Swim +37
+Languages:
+  - Aquan
+  - Common
+  - Draconic
+  - Giant    Special Abilities
+Environment: warm coastlines
+Organization: solitary
+Treasure: triple standard
+Description_Visual: Steam emanates from the nostrils and mouth of this slate gray dragon.
+Group: Dragon
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: A gray dragon's breath weapon is a superheated line of steam.
+  - name: Change Shape (Su)
+    description: >-
+      A young or older gray dragon can take any animal or humanoid form 3/day as
+      if using polymorph.
+  - name: Corrupt Water (Sp)
+    description: >-
+      Once per day an adult or older gray dragon can stagnate 10 cubic feet of
+      still water, making it foul and unable to support water-breathing life.
+      The ability spoils liquids containing water. Liquid-based magic items
+      (such as potions) and items in a creature's possession must succeed on a
+      Will save (DC 19) or become ruined. This ability is the equivalent of a
+      1st-level spell. Its range is 180 ft. Spell-Like
+  - name: Abilities (Sp)
+    description: >-
+      A gray dragon gains the following spell-like abilities, usable at will
+      upon reaching the listed age category. • Young-fog cloud; •
+      Juvenile-create water; • Old-control winds; • Ancient-control water;
+  - name: Water Breathing (Ex)
+    description: >-
+      A gray dragon breathes water and can use its breath weapon, spells, and
+      abilities underwater.
+Description:
+  - >-
+    Gray dragons are evil dragons that inhabit mountains and hills near
+    coastlines. They have little regard for other races and often enslave others
+    to do their bidding. Adult and older gray dragons are rarely found without a
+    retinue of humanoid slaves. Gray dragons mate for life and a single mated
+    pair often terrorizes nearby villages, laying waste to those that oppose the
+    dragon's will.
+Gender: 'NULL'
+ProhibitedSchools: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: old
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+FocusedSchool: 'NULL'
+id: '4799'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

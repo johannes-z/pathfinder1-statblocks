@@ -1,0 +1,107 @@
+Name: Illaghri
+CR: '14'
+XP: '38400'
+Race: corpsespinner
+MonsterSource: Tome of Horrors II 32
+Alignment: 'N'
+Size: Huge
+Type: magical beast
+SubType: (extraplanar)
+Init: '8'
+Senses:
+  - astralsense, darkvision 60 ft., lowlight  vision
+  - Perception +12
+AC: 29, touch 12, flat-footed 25
+AC_Mods: (+4 Dex, +17 natural, -2 size)
+HP: '190'
+HD: (20d10+80)
+Saves: Fort +15, Ref +16, Will +8
+Fort: '15'
+Ref: '16'
+Will: '8'
+Speed: 40 ft., climb 20 ft.
+Melee:
+  - bite +23 (2d8+7/19-20 plus  poison)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: create corpsespun, web (+24 ranged, DC 27, 20 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 16th; concentration +16)
+  values:
+    - label: 3/day
+      value: quickened dimension door
+    - label: 1/day
+      value: plane shift (self only, to Astral Plane or Material Plane only)
+AbilityScores:
+  - 20
+  - 18
+  - 16
+  - 7
+  - 15
+  - 10
+BaseAtk: '20'
+CMB: '27'
+CMD: 41 (53 vs. trip)
+Feats:
+  - Ability Focus (poison)
+  - Combat Reflexes
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Natural Attack (bite)
+  - Power Attack
+  - Quicken Spell-Like Ability (dimension door)
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+  - Toughness
+Skills:
+  - Climb +17
+  - Perception +12
+  - Stealth +20
+Languages:
+  - Aklo
+Source: AP 40
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Astralsense (Su)
+    description: >-
+      A corpsespinner can automatically detect the location of anything within
+      200 feet of it on the Astral Plane.
+  - name: Create Corpsespun (Su)
+    description: >-
+      Creatures that are slain by a corpsespinner's poison but not devoured rise
+      as a corpsespun creature in 1 hour (Tome of Horrors II 202).
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 25; frequency 1/round for 4 rounds; effect 1d6
+      Intelligence damage; if this damage equals or exceed the creature's actual
+      Intelligence score, the creature goes comatose and dies 1 hour later,
+      rising as a corpsespun; cure 2 consecutive saves.
+  - name: Web (Ex)
+    description: >-
+      As the standard ability, but with a range of 80 ft. In addition, the DC to
+      escape or burst the webs includes a +4 racial bonus because the webs are
+      constructed of astral material.
+Gender: Female
+DuringCombat: >-
+  Illaghri prefers to climb to a point above intruders and then fire her webs to
+  entangle as many opponents as possible. She uses quickened dimension door to
+  attack entangled foes and avoid counterattacks.
+Morale: >-
+  If Illaghri is reduced to 20 hit points or fewer, she uses plane shift to
+  retreat to the Astral Plane.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1051'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

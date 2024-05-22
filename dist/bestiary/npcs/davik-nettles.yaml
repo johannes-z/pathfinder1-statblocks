@@ -1,0 +1,92 @@
+Name: Davik Nettles
+CR: '3'
+XP: '800'
+Race: Davik Nettles
+MonsterSource: unique undead
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '-1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+Aura: stench (DC 16, 1 minute)
+AC: 15, touch 9, flat-footed 15
+AC_Mods: (-1 Dex, +6 natural)
+HP: '34'
+HD: (4d8+16)
+HP_Mods: fast healing 5
+Saves: Fort +5, Ref +0, Will +6
+Fort: '5'
+Ref: '0'
+Will: '6'
+Immune: fire, undead traits
+Speed: 30 ft., swim 30 ft.
+Melee:
+  - +1 ranseur +7 (2d4+5/x3) or slam +6 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: fear gaze
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +8)
+  values:
+    - label: Constant
+      value: water walk
+    - label: 1/day
+      value: nightmare (DC 19)
+AbilityScores:
+  - 17
+  - 9
+  - —
+  - 9
+  - 15
+  - 18
+BaseAtk: '3'
+CMB: '6'
+CMD: '15'
+Feats:
+  - Ability Focus (fear gaze)
+  - Power Attack
+Skills:
+  - Climb +10
+  - Perception +9
+  - Swim +15
+Languages:
+  - Common
+Source: AP 31
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear Gaze (Su)
+    description: >-
+      Shaken, range 30 feet, Will DC 16 negates. This fear effect does not stack
+      with itself. The save DC is Charisma-based. Ranseur As long as Davik
+      Nettles continues to exist, his +1 ranseur cannot be taken from him. If
+      disarmed of the +1 ranseur, or if he drops it, it melts into water-he can
+      retrieve his +1 ranseur by pulling it out of any body of water as a
+      moveequivalent action that provokes an attack of opportunity. If Davik is
+      put to rest permanently, his +1 ranseur loses this ability and can be
+      claimed by someone else.
+Gender: Male
+DuringCombat: >-
+  Davik Nettles wants vengeance, and the PCs are a handy tool. If they attack
+  him, he continues to speak his request for the Stag Lord's death, and if the
+  PCs cease their attack and agree to do as Davik commands, the undead creature
+  breaks off his attacks, nods, and melts back into the river. While fighting,
+  Davik relies on his hideous stench and fear gaze to disrupt organized attempts
+  to surround him.
+Morale: Davik fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '512'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

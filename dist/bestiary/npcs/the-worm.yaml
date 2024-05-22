@@ -1,0 +1,97 @@
+Name: The Worm
+CR: '3'
+XP: '800'
+Race: voidworm
+MonsterSource: Pathfinder RPG Bestiary 2 292, 217
+Alignment: CN
+Size: Tiny
+Type: outsider
+SubType: (chaotic, extraplanar, protean, shapechanger)
+Init: '5'
+Senses:
+  - blindsense 30 ft., darkvision 30 ft., detect law
+  - Perception +10
+AC: 19, touch 17, flat-footed 16
+AC_Mods: (+5 Dex, +2 natural, +2 size)
+HP: '22'
+HD: (3d10+6)
+HP_Mods: fast healing 2
+Saves: Fort +3, Ref +8, Will +4
+Fort: '3'
+Ref: '8'
+Will: '4'
+DefensiveAbilities: amorphous anatomy, freedom of movement
+Immune: acid
+Resist: electricity 10, sonic 10
+Speed: 20 ft., fly 50 ft. (perfect)
+Melee:
+  - bite +10 (1d3), tail slap +5 (1d3 plus confusion)
+Space: 2-1/2 ft.
+Reach: 0 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +9)
+  values:
+    - label: Constant
+      value: detect law At-will-dancing lights, ghost sound (DC 13), prestidigitation
+    - label: 3/day
+      value: blur (self only), obscuring mist
+    - label: 1/week
+      value: commune (CL 12th, 6 questions)
+AbilityScores:
+  - 11
+  - 21
+  - 14
+  - 12
+  - 12
+  - 17
+BaseAtk: '3'
+CMB: '1'
+CMD: 16 (can't be tripped)
+Feats:
+  - Skill Focus (Perception)
+  - Weapon Finesse
+Skills:
+  - Acrobatics +11
+  - Bluff +9
+  - Escape Artist +11
+  - Fly +23
+  - Knowledge (arcana) +7
+  - Perception +10
+  - Stealth +19
+Languages:
+  - Common
+  - Protean
+  - Sylvan
+SQ: change shape (Tiny viper or weasel; beast shape II)
+Source: PFS S6-15
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Confusion (Su)
+    description: >-
+      A creature struck by a voidworm's tail slap must succeed at a DC 14 Will
+      save or become confused for 1 round. This is a mind-affecting effect. The
+      save DC is Charisma-based.
+BeforeCombat: >-
+  Curious about the PCs, the Worm hides while casting dancing lights and ghost
+  sound to lure the new arrivals into the water in search of treasure.
+DuringCombat: >-
+  The Worm flits between targets, trying to bite the PCs to see how each one
+  tastes. If harmed, the Worm neutralizes its attacker with its tail slap before
+  reverting to its taste-testing.
+Morale: Inquisitive even about death, the voidworm fights gleefully until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7934'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,101 @@
+Name: Mythic Glass Golem
+CR: '10'
+XP: '9600'
+Race: Mythic Glass Golem
+Alignment: 'N'
+Size: Large
+Type: construct
+SubType: (mythic)
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 26, touch 9, flat-footed 26
+AC_Mods: (+17 natural, -1 size)
+HP: '136'
+HD: (12d10+70)
+Saves: Fort +4, Ref +4, Will +4
+Fort: '4'
+Ref: '4'
+Will: '4'
+DefensiveAbilities: mirrorsight, reflect spells, second save, DR 10/adamantine and epic
+Immune: construct traits, magic
+Speed: 30 ft.
+Melee:
+  - 2 slams +17 (2d8+9 plus bleed)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  bleed (1d8), blinding brightness, mythic power (4/day, surge +1d8), powerful
+  blows (slam), rend (2 slams, 2d8 bleed)
+AbilityScores:
+  - 22
+  - 11
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '12'
+CMB: '19'
+CMD: '29'
+Source: PFS S5-16
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Dazzling Brightness (Ex)
+    description: >-
+      A mythic glass golem in an area of bright light blinds any creature within
+      30 feet that can see it for 1 round (Fortitude DC 16 negates). Once a
+      creature makes this save, it is dazzled for 1 round and is immune to that
+      golem's brightness for 24 hours. The DC is Constitution-based.
+  - name: Immune to Magic (Ex)
+    description: >-
+      A mythic glass golem is immune to any spell or spell-like ability that
+      allows spell resistance.In addition, certain spells and effects function
+      differently against a mythic glass golem, as noted below. &#8226; A
+      shatter spell damages a mythic glass golem as if it were a crystalline
+      creature. &#8226; A keen edge spell affects all of a mythic glass golem's
+      slam attacks as if they were slashing weapons. &#8226; A mythic magical
+      attack that deals cold damage slows a mythic glass golem (as the slow
+      spell) for 3 rounds (no saving throw). &#8226; A magical attack that deals
+      fire damage ends any slow effect on the golem and heals 1 point of damage
+      for each 3 points of damage the attack would normally deal. If the amount
+      of healing would cause the golem to exceed its full normal hit points, it
+      gains any excess as temporary hit points. A mythic glass golem gets no
+      saving throw against fire effects.
+  - name: Mirrorsight (Ex)
+    description: >-
+      A mythic glass golem's surface reflects images of nearby creatures-even
+      invisible creatures-like a multifaceted mirror. When the mythic glass
+      golem is attacked while denied its Dexterity bonus to AC or while flanked,
+      as an immediate action, the golem can spend one use of mythic power to
+      gain the benefits of all-around vision and see invisibility until the
+      beginning of its next turn. The golem can use this ability even if it
+      would not otherwise be aware of the attack.
+  - name: Reflect Spells (Ex)
+    description: >-
+      As a free action, once every 1d4 rounds, a mythic glass golem can align
+      its internal structure to enhance its resistance to magic for 1 round.
+      During this time, the golem reflects spells (even spells that function
+      differently against the golem as described in its immune to magic ability)
+      as if under the effects of spell turning.
+DuringCombat: >-
+  The mythic glass golem focuses its attacks on the PC that dealt it the most
+  damage since its last turn.
+Morale: >-
+  The mythic glass golem fights until destroyed or until all four gem carvings
+  are illuminated in the proper order.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8091'
+UniqueMonster: '0'
+Variant: '0'
+MR: '4'
+Mythic: '1'
+MT: '0'

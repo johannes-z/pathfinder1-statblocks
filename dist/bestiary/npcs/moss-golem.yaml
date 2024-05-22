@@ -1,0 +1,97 @@
+Name: Moss Golem
+CR: '16'
+XP: '76800'
+Race: mithral golem
+MonsterSource: Pathfinder RPG Bestiary 2 139
+Alignment: 'N'
+Size: Huge
+Type: construct
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 32, touch 16, flat-footed 24
+AC_Mods: (+7 Dex, +1 dodge, +16 natural, -2 size)
+HP: '172'
+HD: (24d10+40)
+Saves: Fort +8, Ref +15, Will +8
+Fort: '8'
+Ref: '15'
+Will: '8'
+DefensiveAbilities: evasion
+DR: 15/adamantine
+Immune: construct traits, magic
+Resist: fire 10
+Speed: 50 ft.
+Melee:
+  - 2 slams +33 (4d10+11)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: quickness
+AbilityScores:
+  - 33
+  - 24
+  - —
+  - —
+  - 11
+  - 1
+BaseAtk: '24'
+CMB: '37'
+CMD: '55'
+Feats:
+  - DodgeB
+  - MobilityB
+  - RunB
+  - Spring AttackB
+SQ: climbing form
+Source: AP 143
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Climbing Form (Ex)
+    description: >-
+      A moss golem can rearrange its constituent plants into an elongated and
+      extremely flexible form as a swift action. While in this form, the moss
+      golem's reach increases to 30 feet, it gains a 30-foot climb speed, and
+      its DR becomes 15/slashing and adamantine. A moss golem in this form can
+      also move through any crack or hole in a wall or door, no matter how
+      small, without impeding its movement. A moss golem can maintain this form
+      for up to 10 rounds per day, but these rounds do not need to be
+      consecutive. Reverting to its normal form is a free action.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A moss golem is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against a moss golem, as noted below. &#8226; A diminish
+      plants spell cast on the moss golem causes it to lose its quickness
+      ability for 1d6 rounds. &#8226; A plant growth spell restores 1d6 points
+      of damage per level of the caster (maximum 10d6) to the moss golem.
+      &#8226; Hitting a moss golem in its climbing form with any spell of 6th
+      level or higher with the acid descriptor causes the moss golem to take
+      10d6 points of acid damage (no save) and lose the use of its climbing form
+      ability for 24 hours.
+  - name: Quickness (Ex)
+    description: >-
+      A moss golem is incredibly quick. It can take an extra move action during
+      its turn each round. This means it can move up to its speed and still make
+      a full attack.
+DuringCombat: >-
+  The moss golem attacks the nearest non-wyrwood creature it can see, using its
+  climbing form  to assault enemies that are hard to reach. The moss golem
+  doesn't attack wyrwoods, but it attacks any other creatures, including
+  Children of Kumaru.
+Morale: The moss golem fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12704'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

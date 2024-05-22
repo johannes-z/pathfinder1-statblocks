@@ -1,0 +1,91 @@
+Name: Tether
+CR: '3'
+XP: '800'
+Alignment: LE
+Size: Small
+Type: magical beast
+Init: '3'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +9
+AC: 15, touch 14, flat-footed 12
+AC_Mods: (+3 Dex, +1 natural, +1 size)
+HP: '26'
+HD: (4d10+4)
+Saves: Fort +5, Ref +7, Will +5
+Fort: '5'
+Ref: '7'
+Will: '5'
+Speed: 30 ft., climb 20 ft.
+Melee:
+  - bite +8 (1d4-1), 2 claws +8 (1d3-1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: energy drain (1 level, DC 14), fascination
+AbilityScores:
+  - 8
+  - 16
+  - 12
+  - 10
+  - 14
+  - 14
+BaseAtk: '4'
+CMB: '2'
+CMD: 15 (+19 vs. trip)
+Feats:
+  - Iron Will
+  - Weapon Finesse
+Skills:
+  - Acrobatics +7 (+15 when balancing)
+  - Climb +11
+  - Escape Artist +5
+  - Perception +9
+  - Stealth +15
+RacialMods: >-
+  +8 Acrobatics when balancing, +4 Stealth. The tether uses its Dexterity
+  modifier for Climb checks.
+Environment: any land
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This creature has the appearance of an emaciated cat with wiry gray fur. Its
+  eyes are bright emerald green and its tail is unusually long.
+Group: Graymalkin
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Energy Drain (Su)
+    description: >-
+      Each hour a tether remains within 20 feet of a creature it has fascinated,
+      it deals one negative level to him or her.
+  - name: Fascination (Su)
+    description: Will DC 14.
+Description:
+  - >-
+    Tethers are generally friendly (at least they act that way) to most
+    creatures they encounter. When it selects an owner, it follows that creature
+    around purring and meowing. If it manages to kill its owner with its energy
+    drain ability, it selects a new owner from the remaining family members (if
+    any). A tether is more outgoing than its relative, the slinker, and enjoys
+    crawling into its owner's lap, wrapping its tail around its owner's legs or
+    arm and gently purring. Of course, the entire time this is going on, it is
+    draining its owner's life force. Copyright Notice Author Scott Greene.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2666'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,91 @@
+Name: Archer Bush
+CR: '2'
+XP: '600'
+Alignment: 'N'
+Size: Small
+Type: plant
+Init: '0'
+Senses:
+  - tremorsense 60 ft.
+  - Perception +0
+AC: 14, touch 11, flat-footed 14
+AC_Mods: ', +3 natural, +1 size)'
+HP: '21'
+HD: (3d8+9)
+Saves: Fort +6, Ref +1, Will +1
+Fort: '6'
+Ref: '1'
+Will: '1'
+Immune: plant traits
+Speed: 10 ft.
+Ranged:
+  - thorns +4 (1d8)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 11
+  - 10
+  - 16
+  - 2
+  - 11
+  - 9
+BaseAtk: '2'
+CMB: '1'
+CMD: 11 (can't be tripped)
+Feats:
+  - Skill Focus (Stealth)
+  - Weapon Focus (thorns)
+Skills:
+  - Stealth +13
+Environment: underground
+Organization: solitary, patch (4-8), or colony (11-20)
+Treasure: none
+Description_Visual: >-
+  This creature looks like a small mound of brownish-green leaves. From its
+  trunk sprout several thick branches, each covered sparsely with leaves, and
+  each sporting rows of needle-like thorns. The leaves have small pale buds of
+  gold and purple.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Thorns (Ex)
+    description: >-
+      An archer bush can loose a cluster of needlesharp thorns at a single
+      target within 20 feet as a standard action. An opponent hit by the thorns
+      takes 1d8 points of piercing damage. Further, the target takes a -1
+      circumstance penalty on attack rolls, saves, and checks until the thorns
+      are removed (full-round action to remove the thorns).
+Description:
+  - >-
+    The archer bush is a subterranean, semi-mobile plant that gains sustenance
+    from the blood of living creatures. Hidden beneath its trunk is the archer
+    bush's mouth, which appears to be nothing more than a dark recess or cavity.
+  - >-
+    An archer bush attacks by firing a cluster of thorns at any creature that
+    comes within 20 feet of its location.
+  - >-
+    Credit The Archer Bush originally appeared in the module B3 Palace of the
+    Silver Princess (© TSR/Wizards of the Coast, 1981) and is used by
+    permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Jean
+    Wells.
+BeforeCombat: 'NULL'
+DuringCombat: 'NULL'
+Morale: 'NULL'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: 'NULL'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '2235'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

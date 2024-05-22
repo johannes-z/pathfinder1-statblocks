@@ -1,0 +1,99 @@
+Name: Blue Whale
+CR: '12'
+XP: '19200'
+Alignment: 'N'
+Size: Colossal
+Type: animal
+Init: '-1'
+Senses:
+  - low-light vision
+  - Perception +27
+AC: 26, touch 1, flat-footed 26
+AC_Mods: (-1 Dex, +25 natural, -8 size)
+HP: '184'
+HD: (16d8+112)
+Saves: Fort +17, Ref +9, Will +8
+Fort: '17'
+Ref: '9'
+Will: '8'
+Speed: swim 40 ft.
+Melee:
+  - tail slap +21 (8d6+24 plus stun)
+Space: 30 ft.
+Reach: 30 ft.
+SpecialAttacks: capsize, swallow whole (4d6+16 damage, AC 22, 18 hp)
+AbilityScores:
+  - 42
+  - 8
+  - 25
+  - 2
+  - 13
+  - 6
+BaseAtk: '12'
+CMB: '36'
+CMD: 45 (can't be tripped)
+Feats:
+  - Awesome Blow
+  - Diehard
+  - Endurance
+  - Improved Bull Rush
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Perception)
+  - Weapon Focus (tail slap)
+Skills:
+  - Perception +27
+  - Swim +35
+RacialMods: +12 Perception
+SQ: hold breath
+Environment: any ocean
+Organization: solitary, pair, or pod (3-18)
+Treasure: none
+Description_Visual: >-
+  This massive aquatic mammal has bluish-gray coloration, a wide fluke tail, and
+  a wide mouth filled with layers of baleen.
+Group: Cetacean
+Source: AP 59
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Hold Breath (Ex)
+    description: >-
+      A blue whale can hold its breath a number of rounds equal to 10 times its
+      Constitution score before it risks drowning.
+  - name: Powerful Tail (Ex)
+    description: >-
+      A blue whale's massive tail deals more damage than a normal tail slap. The
+      blue whale's tail slap is a primary attack and applies 1-1/2 times its
+      Strength bonus to its tail slap damage.
+  - name: Stun (Ex)
+    description: >-
+      A blue whale's fluke can deliver a powerful stunning blow. A creature
+      struck by this attack must succeed at a DC 34 Fortitude save or be dazed
+      for 1 round. If the strike is a critical hit and the target fails its
+      save, it is instead stunned for 1d4 rounds. The save DC is Strength-based.
+Description:
+  - >-
+    The imposing blue whale is one of the largest animals in the sea, though it
+    is generally docile toward anything it doesn't perceive as a threat. A
+    filter-feeder, the blue whale does not look at humans or ships as potential
+    meals, instead preferring to eat millions of tiny invertebrates known as
+    krill, which it sucks through its baleen in massive gulps. The most
+    dangerous thing about a blue whale, other than its sheer size, is its
+    powerful tail, which can capsize boats and kill humanoids. These enormous
+    mammals can be found in all of Golarion's oceans and seas. An adult blue
+    whale is 100 feet long and weighs 200 tons.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3171'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

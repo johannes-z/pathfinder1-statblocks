@@ -1,0 +1,85 @@
+Name: Giant Tick
+CR: '1'
+XP: '400'
+Alignment: 'N'
+Size: Small
+Type: vermin
+Init: '0'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +0
+AC: 17, touch 11, flat-footed 17
+AC_Mods: ', +6 natural, +1 size)'
+HP: '9'
+HD: (2d8)
+Saves: Fort +3, Ref +0, Will +0
+Fort: '3'
+Ref: '0'
+Will: '0'
+Immune: vermin traits
+Speed: 10 ft.
+Melee:
+  - bite +2 (1d4 plus attach and disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: blood drain
+AbilityScores:
+  - 11
+  - 10
+  - 11
+  - —
+  - 10
+  - 2
+BaseAtk: '1'
+CMB: +0 (+4 grapple)
+CMD: 10 (18 vs. trip)
+Skills:
+  - Climb +4
+RacialMods: +4 Climb
+Environment: temperate forests
+Organization: Cluster (3-6) or nest (7-12)
+Treasure: none
+Description_Visual: >-
+  Giant ticks appear as 3-foot long ticks. They are otherwise similar to normal
+  ticks.
+Group: Tick
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Drain (Ex)
+    description: >-
+      A giant tick drains blood, dealing 1d4 points of Constitution damage in
+      any round when it begins its turn attached to a victim. Once it has dealt
+      8 points of Constitution damage, it detaches crawls off to digest the
+      meal. If its victim dies before the giant tick's appetite has been sated,
+      the giant tick detaches and seeks a new target.
+  - name: Disease (Ex)
+    description: >-
+      Fifty percent of all giant ticks carry and deliver red ache with a bite
+      attack. Roll individually for each giant tick in the cluster or nest. Red
+      ache: Bite-injury; save Fort DC 11; onset 1d3 days; frequency 1 day;
+      effect 1d6 Str damage; cure 2 consecutive saves. The save DC is
+      Constitution-based.
+Description:
+  - >-
+    Giant ticks attack by dropping on their prey from above and stabbing with a
+    hollow mouth tube. If subjected to fire or immersed in water, a giant tick
+    detaches from its victim. Credit The Giant Tick originally appeared in the
+    First Edition Monster Manual (© TSR/Wizards of the Coast, 1977) and is used
+    by permission. Copyright Notice Author Scott Greene, based on original
+    material by Gary Gygax.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+CompanionFamiliarLink: 'NULL'
+id: '3111'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

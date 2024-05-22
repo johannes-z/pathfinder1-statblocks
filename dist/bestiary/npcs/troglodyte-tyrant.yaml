@@ -1,0 +1,110 @@
+Name: Troglodyte Tyrant
+CR: '10'
+XP: '9600'
+Race: Enlightened troglodyte
+Class: cleric 7/fighter 2
+MonsterSource: see page 212
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (reptilian)
+Init: '2'
+Senses:
+  - darkvision 90 ft.
+  - Perception +13
+Aura: stench (30 ft., DC 21, 10 rounds)
+AC: 24, touch 10, flat-footed 24
+AC_Mods: (+8 armor, +6 natural)
+HP: '135'
+HD: (11 HD; 9d8+2d10+84)
+Saves: Fort +17, Ref +6, Will +10 (+1 vs. fear)
+Fort: '17'
+Ref: '6'
+Will: +10 (+1 vs. fear)
+DefensiveAbilities: bravery +1
+Speed: 20 ft.
+Melee:
+  - +1 battleaxe +15/+10 (1d8+6/x3), bite +8 (1d4+2), claw +8 (1d4+2)
+  - bite +13 (1d4+5), 2 claws +13 (1d4+5)
+Ranged:
+  - javelin +10/+5 (1d6+5)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy 5/day (DC 15, 4d6), fury of the Abyss (+3, 8/day),
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 7th; concentration +12)
+  values:
+    - label: 8/day
+      value: strength surge (+3)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 7th; concentration +12)   4th-divine power, mark of
+  the reptile god* (DC 19), unholy blightD (DC 19)   3rd-bestow curse (DC 18),
+  prayer, rageD, searing light   2nd-amplify stench*, bull's strengthD, cure
+  moderate wounds, hold person (DC 17), spiritual weapon   1st-bless, command
+  (DC 16), cure light wounds (3), entropic shield, protection from goodD   0 (at
+  will)-bleed (DC 15), detect magic, guidance, stabilize
+SpellDomains: Evil (Demon subdomain), Strength
+AbilityScores:
+  - 20
+  - 15
+  - 22
+  - 14
+  - 20
+  - 14
+BaseAtk: '8'
+CMB: '13'
+CMD: '25'
+Feats:
+  - Ability Focus (stench)
+  - Combat Casting
+  - Lightning Reflexes
+  - Power Attack
+  - Quick Draw
+  - Selective Channeling
+  - Toughness
+  - Weapon Focus (battleaxe)
+Skills:
+  - Intimidate +13
+  - Knowledge (planes) +11
+  - Knowledge (religion) +13
+  - Perception +13
+  - Sense Motive +16
+  - Spellcraft +11
+  - Stealth +0 (+4 in rocky areas)
+Languages:
+  - Abyssal
+  - Draconic
+  - Undercommon
+Source: Monster Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The tyrant casts amplify stench on herself and bull's strength on a trusted
+  ally. She then uses her wand of bear's endurance.
+DuringCombat: >-
+  When combat begins, the tyrant casts rage on her allies&#8211;though she
+  doesn't concentrate on it. She then casts divine power on herself if the
+  enemies haven't reached her yet. She casts mark of the reptile god and bestow
+  curse on strong enemies, then fights in melee.
+Gear: potions of cure moderate wounds (2), wand of bear's endurance (6 charges)
+OtherGear: >-
+  mwk half-plate, +1 battleaxe, javelins (6), belt of giant strength +2,
+  headband of inspired wisdom +2, gold crown set with jet and bloodstones (worth
+  500 gp), 44 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without amplify stench and bear's endurance, the tyrant's statistics are Aura
+  stench (30 ft., DC 19, 10 rounds); hp 113; Fort +15; Con 18.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6629'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

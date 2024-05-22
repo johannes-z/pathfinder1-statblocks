@@ -1,0 +1,137 @@
+Name: Nefti
+CR: '5'
+XP: '1600'
+Race: Human
+Class: bard 5
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '6'
+Senses:
+  - Perception +7
+AC: 15, touch 12, flat-footed 13
+AC_Mods: (+3 armor, +2 Dex)
+HP: '41'
+HD: (5d8+15)
+Saves: >-
+  Fort +4, Ref +8, Will +9; +4 vs. bardic performance, languagedependent,  and
+  sonic
+Fort: '4'
+Ref: '8'
+Will: '9'
+Save_Mods: +4 vs. bardic performance, languagedependent,  and sonic
+Speed: 30 ft.
+Melee:
+  - +1 human bane sap +7 (1d6+2 nonlethal)
+Ranged:
+  - mwk shortbow +8 (1d6/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bardic performance 16 rounds/day (countersong, distraction, fascinate [DC 16],
+  inspire competence +2, inspire courage +2)
+SpellsKnown:
+  header: Bard Spells Known (CL 5th; concentration +9)
+  values:
+    - label: 2nd (3/day)
+      value: calm emotions (DC 17), heroism, mirror image
+    - label: 1st (5/day)
+      value: >-
+        charm person (DC 16), grease (DC 15), hideous laughter (DC 16), silent
+        image (DC 15)
+    - label: 0 (at will)
+      value: >-
+        daze (DC 15), detect magic, ghost sound (DC 14), light, mage hand,
+        prestidigitation (DC 14)
+AbilityScores:
+  - 12
+  - 14
+  - 12
+  - 14
+  - 13
+  - 18
+BaseAtk: '3'
+CMB: '6'
+CMD: '16'
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Spell Focus (enchantment)
+  - Toughness
+Skills:
+  - Acrobatics +12
+  - Climb +8
+  - Escape Artist +12
+  - Knowledge (dungeoneering) +10
+  - Knowledge (engineering) +10
+  - Knowledge (geography) +10
+  - Knowledge (local) +14
+  - Linguistics +8
+  - Perception +9
+  - Perform (act) +14
+  - Perform (oratory) +11
+  - Perform (wind) +11
+  - Sleight of Hand +8
+  - Spellcraft +8
+  - Stealth +12
+  - Use Magic Device +14
+Languages:
+  - Common
+  - Infernal
+  - Kelish
+  - Osiriani
+SQ: >-
+  bardic knowledge +2, exceptional stats, lore master 1/day, versatile
+  performance (act)
+Source: PFS S5-16
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Exceptional Stats (Ex)
+    description: >-
+      Nefti is a prodigy of the Aspis Consortium, and the organization recruited
+      him and began training him for service early in his life. As a result, his
+      ability scores were generated using 25 points, rather than the standard 15
+      points used to create most NPCs. This modification increases his total CR
+      by 1.
+BeforeCombat: >-
+  Following Kafar's hunch about their impending meeting with the Diamond Sage,
+  Nefti has cast heroism on himself and Kafar.
+DuringCombat: >-
+  Nefti uses his spells to inconvenience and incapacitate the PCs, sparing a
+  moment to cast mirror image if attacked. If his foes disappear into one of
+  Kafar's stink bombs, Nefti drinks his potion of delay poison, inspires
+  courage, and joins his partner in the melee.
+Morale: >-
+  Nefti surrenders if reduced to 8 or fewer hit points or if Kafar attempts to
+  parley with the PCs. If Kafar is unconscious, Nefti offers to parley. Should
+  the PCs refuse to negotiate, Nefti casts calm emotions and attempts to settle
+  matters diplomatically.
+Gear: >-
+  potion of cure moderate wounds, potion of delay poison, scrolls of comprehend
+  languages (2), acid (2)
+OtherGear: >-
+  mwk studded leather, +1 human bane sap, mwk shortbow with 20 arrows,
+  shortsword with falsebottomed scabbardUE, 133 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  When not under the effects of his heroism, Nefti's statistics are Fort +2, Ref
+  +6, Will +7; Melee +1 human bane sap +5 (1d6+2); CMB +4; Skills Acrobatics
+  +10, Climb +6, Escape Artist +10, Knowledge (dungeoneering) +8, Knowledge
+  (engineering) +8, Knowledge (geography) +8, Knowledge (local) +12, Linguistics
+  +6, Perception +7, Perform (act) +12, Perform (oratory) +9, Perform (wind) +9,
+  Sleight of Hand +6, Spellcraft +6, Stealth +10, Use Magic Device +12
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8088'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

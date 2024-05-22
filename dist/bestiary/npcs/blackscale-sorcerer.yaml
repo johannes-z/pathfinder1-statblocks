@@ -1,0 +1,115 @@
+Name: Blackscale Sorcerer
+CR: '9'
+XP: '6400'
+Race: half-orc
+Class: sorcerer 10
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +7
+AC: 19, touch 12, flat-footed 18
+AC_Mods: (+4 armor, +1 deflection, +1 Dex, +3 natural)
+HP: '82'
+HD: (10d6+45)
+Saves: Fort +8, Ref +5, Will +7
+Fort: '8'
+Ref: '5'
+Will: '7'
+DefensiveAbilities: orc ferocity
+DR: 10/adamantine
+Resist: acid 10
+Speed: 30 ft.
+Melee:
+  - mwk greataxe +8 (1d12+3/x3)
+  - 2 claws +7 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (60-foot line, 10d6 acid, DC 20, 1/day), claws (2, 1d6+2,
+  treated as magic weapons, 7 rounds/day)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 10th; concentration +15)
+  values:
+    - label: 5th (4/day)
+      value: cloudkill (DC 20)
+    - label: 4th (6/day)
+      value: fear (DC 19), shout (DC 21), stoneskin
+    - label: 3rd (7/day)
+      value: fireball (DC 20), fly, rage, stinking cloud (DC 18)
+    - label: 2nd (7/day)
+      value: acid arrow, bull's strength, false life, resist energy, scorching ray
+    - label: 1st (8/day)
+      value: >-
+        burning hands (DC 18), endure elements, mage armor, magic missile, ray
+        of enfeeblement (DC 16), shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, bleed (DC 15), detect magic, flare (DC 17),
+        ray of frost, read magic, resistance, touch of fatigue (DC 15)
+AbilityScores:
+  - 14
+  - 12
+  - 14
+  - 10
+  - 8
+  - 20
+BaseAtk: '5'
+CMB: '7'
+CMD: '19'
+Feats:
+  - Combat Casting
+  - Eschew Materials
+  - Great Fortitude
+  - Greater Spell Focus (evocation)
+  - Improved Initiative
+  - Quicken Spell
+  - Spell Focus (evocation)
+Skills:
+  - Fly +9
+  - Intimidate +15
+  - Linguistics +1
+  - Perception +7
+  - Spellcraft +7
+Languages:
+  - Common
+  - Draconic
+  - Orc
+SQ: >-
+  bloodline arcana (acid spells deal +1 damage per die), orc blood, weapon
+  familiarity
+Source: NPC Codex
+IsTemplate: '0'
+Bloodline: draconic (black)
+BeforeCombat: The sorcerer casts false life, mage armor, and stoneskin on himself.
+DuringCombat: >-
+  The sorcerer casts fly on the first round of combat along with a quickened
+  magic missile. He maneuvers so he can catch as many opponents as possible with
+  his breath weapon. If pressed into melee, he casts bull's strength and rage,
+  then attacks with his greataxe or claws.
+Gear: potion of cure serious wounds, wand of acid arrow (15 charges)
+OtherGear: >-
+  masterwork greataxe, amulet of natural armor +1, cloak of resistance +1,
+  headband of alluring charisma +2, ring of protection +1, signet ring, diamond
+  dust (worth 500 gp), 825 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without false life, mage armor, and stoneskin, the sorcerer's statistics are
+  AC 15, touch 12, flat-footed 14; hp 67; DR &#8211;.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3811'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

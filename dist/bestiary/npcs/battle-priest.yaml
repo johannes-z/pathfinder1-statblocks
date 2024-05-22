@@ -1,0 +1,87 @@
+Name: Battle Priest
+CR: '1'
+XP: '400'
+Race: human
+Class: cleric of Gorum 2
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +2
+AC: 17, touch 11, flat-footed 16
+AC_Mods: (+6 armor, +1 Dex)
+HP: '17'
+HD: (2d8+5)
+Saves: Fort +3, Ref +1, Will +5
+Fort: '3'
+Ref: '1'
+Will: '5'
+Speed: 20 ft.
+Melee:
+  - mwk greatsword +3 (2d6+1/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel positive energy 6/day (DC 14, 1d6), destructive smite (+1, 5/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 2nd; concentration +4)
+  values:
+    - label: 5/day
+      value: battle rage (+1 damage)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 2nd; concentration +4)  1st-bane, cause fear (DC
+  13), shield of faith (already cast), true strikeD  0 (at will)-bleed (DC 12),
+  guidance, resistance, stabilize
+SpellDomains: Destruction, War
+AbilityScores:
+  - 13
+  - 12
+  - 10
+  - 8
+  - 14
+  - 17
+BaseAtk: '1'
+CMB: '2'
+CMD: '13'
+Feats:
+  - Selective Channeling
+  - Toughness
+Skills:
+  - Heal +7
+  - Knowledge (religion) +3
+  - Linguistics +3
+Languages:
+  - Common
+  - Skald
+SQ: aura
+Source: PFS S2-15
+IsTemplate: '0'
+Gender: Male
+BeforeCombat: >-
+  As soon as the PCs confront Hjort's look-alike, the cleric of Gorum quietly
+  casts shield of faith amid the din of the bar and readies to stand and shout
+  at them.
+DuringCombat: >-
+  The cleric isn't afraid of melee&#8211;he draws his greatsword, casts bane,
+  and charges into battle with a bellowing roar. He uses true strike if he finds
+  a PC to be hard to hit, casts cause fear if he's taking too much damage, and
+  channels positive energy to heal his companions, excluding 3 of the PCs from
+  the healing burst.
+Morale: The battle priest fights until beaten unconscious or killed.
+OtherGear: masterwork breastplate, masterwork greatsword, wooden holy symbol
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5617'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

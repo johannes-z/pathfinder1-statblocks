@@ -1,0 +1,68 @@
+Name: Tickleback
+CR: '3'
+XP: '800'
+Race: giant tick
+MonsterSource: Tome of Horrors Revised 344
+Alignment: 'N'
+Size: Medium
+Type: vermin
+Init: '0'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +0
+AC: 15, touch 10, flat-footed 15
+AC_Mods: (+5 natural)
+HP: '34'
+HD: (4d8+16)
+Saves: Fort +8, Ref +1, Will +1
+Fort: '8'
+Ref: '1'
+Will: '1'
+Immune: mind-affecting effects
+Speed: 20 ft.
+Melee:
+  - bite +7 (1d6+6 plus grab and disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: blood drain
+AbilityScores:
+  - 18
+  - 10
+  - 19
+  - —
+  - 10
+  - 2
+BaseAtk: '3'
+CMB: '7'
+CMD: 17 (29 vs. trip)
+Source: AP 31
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Drain (Ex)
+    description: >-
+      A tunnel tick drains blood at the end of each turn it grapples a target,
+      inflicting 1 point of Strength and Constitution damage.
+  - name: Disease (Ex)
+    description: >-
+      Red ache: Bite-injury; save Fort DC 16; onset 1d3 days; frequency 1 day;
+      effect 1d6 Str damage; cure 2 consecutive saves. The save DC is
+      Constitution-based.
+DuringCombat: >-
+  The tunnel tick attacks the target Grabbles directs, or the closest large
+  target if no orders are given.
+Morale: The tunnel tick fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '515'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

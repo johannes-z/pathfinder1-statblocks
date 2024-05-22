@@ -1,0 +1,125 @@
+Name: Scorizscar
+CR: '15'
+XP: '51200'
+Race: woundwyrm
+MonsterSource: 'Pathfinder Campaign Setting: Inner Sea Bestiary 61'
+Alignment: CE
+Size: Huge
+Type: dragon
+SubType: (chaotic, evil)
+Init: '5'
+Senses:
+  - blindsight 60 ft.
+  - Perception +22
+AC: 30, touch 10, flat-footed 28
+AC_Mods: (+1 Dex, +1 dodge, +20 natural, -2 size)
+HP: '225'
+HD: (18d12+108)
+Saves: Fort +17, Ref +12, Will +12
+Fort: '17'
+Ref: '12'
+Will: '12'
+DefensiveAbilities: entropic shield, freedom of movement
+DR: 10/good or lawful
+Immune: >-
+  acid, dragon traits, gaze attacks, illusions, magic paralysis, poison,
+  polymorph, sleep, visual effects
+SR: '26'
+Speed: 30 ft., burrow 30 ft., fly 60 ft. (average), swim 30 ft.
+Melee:
+  - >-
+    bite +26 (2d8+10), 2 claws +26 (2d6+10), tail slap +21 (2d8+5), 2 wings +21
+    (1d8+5)
+Space: 15 ft.
+Reach: 10 ft. (15 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (100-ft. line, 16d6, Reflex DC 25 half, usable every 1d4
+  rounds), entropic breath, maw of the Abyss
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +23)
+  values:
+    - label: Constant
+      value: entropic shield, freedom of movement
+    - label: 1/day
+      value: polymorph any object (DC 23)
+AbilityScores:
+  - 31
+  - 13
+  - 22
+  - 14
+  - 13
+  - 20
+BaseAtk: '18'
+CMB: '30'
+CMD: 42 (46 vs. trip)
+Feats:
+  - Blind-Fight
+  - Critical Focus
+  - Dodge
+  - Flyby Attack
+  - Improved Initiative
+  - Power Attack
+  - Snatch
+  - Staggering Critical
+  - Stunning Critical
+Skills:
+  - Acrobatics +19
+  - Bluff +18
+  - Diplomacy +15
+  - Fly +18
+  - Intimidate +26
+  - Knowledge (planes) +23
+  - Perception +22
+  - Spellcraft +23
+  - Survival +22
+  - Swim +22
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+Source: AP 75
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Entropic Breath (Su)
+    description: >-
+      Instead of a line of acid, a woundwyrm can exhale a 30-foot cone of acid
+      fog (as the spell) that persists for 1 minute. Any creature that begins
+      its turn within the entropic breath is confused (Will DC 25 negates) for
+      as long as it remains within the cloud and for 1d6 rounds thereafter.
+  - name: Maw of the Abyss (Su)
+    description: >-
+      As a full-round action, a woundwyrm can attempt to suck creatures and
+      unattended objects in a 15-foot cone into a vortex in its maw. This acts
+      as a drag combat maneuver against creatures, and acts as a Strength check
+      with a +10 bonus to break objects. Unattended objects weighing less than
+      100 pounds are automatically drawn into the woundwyrm's maw. Creatures and
+      objects alike take 1d12 points of sonic damage per round within the cone.
+      While using this ability, a woundwyrm cannot speak, use its breath weapon,
+      or make attacks with its bite attack.
+Gender: Female
+DuringCombat: >-
+  While Scorizscar's ability to make flyby attacks and use her breath weapon
+  makes her a dangerous foe at range, this advantage is offset by her limited
+  sight. As a result, she generally begins combat by thundering into melee to
+  make full attacks as often as possible against foes. Scorizscar is fond of
+  using polymorph any object to turn particularly vexing foes into obsidian
+  statues&#8211;at your discretion, some of these statues might be present in
+  her lair.
+Morale: >-
+  Scorizscar fights to the death if defending her lair, but flees to heal and
+  recover if encountered elsewhere once brought below 40 hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '1'
+Land: '1'
+AgeCategory: wyrm
+CompanionFamiliarLink: '0'
+id: '5116'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'
