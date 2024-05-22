@@ -4,8 +4,9 @@ import { kebabize } from './utils/kebabize'
 import { extractSpecialAbilities } from './extractSpecialAbilities'
 import { extractSpells } from './extractSpells'
 import { mergeMonsters } from './mergeMonsters'
+import type { Monster, MonsterRaw } from './types'
 
-function saveMonster(monster: any, destination: string) {
+function saveMonster(monster: Monster, destination: string) {
   const name = (Array.isArray(monster.Name) ? monster.Name.join(' ') : monster.Name)
     .replace(/'/g, '')
 
@@ -18,12 +19,8 @@ async function extractStatblocks(filename: string, destination: string) {
   const file = Bun.file(filename)
   const text = await file.text()
 
-  const monsters = tsv2JSON(text).reduce((monsters: any, monster: any) => {
+  const monsters = tsv2JSON(text).reduce((monsters: { [key: string]: Monster }, monster: MonsterRaw) => {
     delete monster.FullText
-    for (const key in monster) {
-      if (!monster[key])
-        delete monster[key]
-    }
     monster.AbilityScores = monster.AbilityScores
       ?.split(/,\s+/g)
       .map((ability: string) => {

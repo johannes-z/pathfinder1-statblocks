@@ -1,6 +1,7 @@
+import type { Monster } from './types'
 import { unique } from './utils/unique'
 
-export function mergeMonsters(base: any, monster: any) {
+export function mergeMonsters(base: Monster, monster: Monster): Monster {
   const merged = {
     ...base,
     ...monster,
@@ -13,8 +14,8 @@ export function mergeMonsters(base: any, monster: any) {
       ...(monster.SpellLikeAbilities?.values || []),
     ], 'label', 'value'),
     SpellsKnown: unique([
-      ...(base.SpellsKnown?.value || []),
-      ...(monster.SpellsKnown?.value || []),
+      ...(base.SpellsKnown?.values || []),
+      ...(monster.SpellsKnown?.values || []),
     ], 'label', 'value'),
   }
 
