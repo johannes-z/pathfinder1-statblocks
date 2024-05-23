@@ -28,11 +28,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: dream whisper, hand of the apprentice (8/day), metamagic mastery (1/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 8th; concentration +13) 4th-maximized magic missile
-  (2), empowered summon monster II 3rd-dispel magic, empowered magic missile (2)
-  2nd-summon monster II (4) 1st-magic missile (6) 0 (at will)-detect magic,
-  light, mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 8th; concentration +13) 4th-maximized magic
+    missile (2), empowered summon monster II 3rd-dispel magic, empowered magic
+    missile (2) 2nd-summon monster II (4) 1st-magic missile (6)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, read magic
 AbilityScores:
   - null
   - 13

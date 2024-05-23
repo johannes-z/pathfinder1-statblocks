@@ -30,14 +30,18 @@ SpellLikeAbilities:
       value: dimensional steps (270 feet/day)
     - label: 8/day
       value: acid dart (1d6+4 acid)
-SpellsPrepared: >-
-  Spells Prepared (CL 9th; concentration +14)   5th-cloudkill (DC 22), summon
-  monster V, wall of stone (2)   4th-black tentacles (2), confusion (DC 19),
-  dimension door, solid fog   3rd-dispel magic, hold person (DC 18), ray of
-  exhaustion (DC 18), sleet storm, stinking cloud (2, DC 20)   2nd-false life,
-  fog cloud, glitterdust (DC 19), see invisibility, summon swarm, web (2, DC
-  19)   1st-expeditious retreat, grease (2), mage armor, obscuring mist, shield,
-  true strike (2)   0 (at will)-acid splash, detect magic, mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 9th; concentration +14)   5th-cloudkill (DC 22), summon
+    monster V, wall of stone (2)   4th-black tentacles (2), confusion (DC 19),
+    dimension door, solid fog   3rd-dispel magic, hold person (DC 18), ray of
+    exhaustion (DC 18), sleet storm, stinking cloud (2, DC 20)   2nd-false life,
+    fog cloud, glitterdust (DC 19), see invisibility, summon swarm, web (2, DC
+    19)   1st-expeditious retreat, grease (2), mage armor, obscuring mist,
+    shield, true strike (2)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, mage hand, read magic
 AbilityScores:
   - 8
   - 13

@@ -31,10 +31,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: copycat (3 rounds), lightning arc (1d6+1 electricity)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; concentration +5)   2nd-darkness, invisibility, sound
-  burst (DC 14)   1st-cause fear (DC 13), cure light wounds, magic stone,
-  obscuring mist  0 (at will)-detect magic, guidance, mending, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; concentration +5)   2nd-darkness, invisibility,
+    sound burst (DC 14)   1st-cause fear (DC 13), cure light wounds, magic
+    stone, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, mending, resistance
 SpellDomains: Air, Trickery
 AbilityScores:
   - 10

@@ -33,15 +33,18 @@ SpellLikeAbilities:
       value: master's illusion (8 rounds/day)
     - label: 8/day
       value: copycat (8 rounds), touch of evil (4 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +13)   4th-chaos hammer (DC 19),
-  confusionD (DC 19), freedom of movement, unholy blight (DC 19)   3rd-bestow
-  curse (DC 18), blindness/deafness (DC 18), cure serious wounds, dispel magic,
-  magic circle against goodD   2nd-bear's endurance, cure moderate wounds, death
-  knell (DC 17), hold person (DC 17), invisibilityD   1st-bless, command (DC
-  16), cure light wounds, doom (DC 16), protection from goodD, ray of
-  sickeningUM (DC 16), shield of faith   0 (at will)-bleed (DC 15), detect
-  magic, detect poison, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +13)   4th-chaos hammer (DC
+    19), confusionD (DC 19), freedom of movement, unholy blight (DC 19)  
+    3rd-bestow curse (DC 18), blindness/deafness (DC 18), cure serious wounds,
+    dispel magic, magic circle against goodD   2nd-bear's endurance, cure
+    moderate wounds, death knell (DC 17), hold person (DC 17), invisibilityD  
+    1st-bless, command (DC 16), cure light wounds, doom (DC 16), protection from
+    goodD, ray of sickeningUM (DC 16), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, detect poison, read magic
 SpellDomains: Evil, Trickery
 AbilityScores:
   - 8

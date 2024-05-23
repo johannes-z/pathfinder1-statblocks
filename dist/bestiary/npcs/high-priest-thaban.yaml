@@ -30,15 +30,18 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: rebuke death, touch of good
-SpellsPrepared: >-
-  Spells Prepared (CL 9th; melee touch +7)  5th-breath of life (DC 18)D, raise
-  dead   4th-cure critical woundsD, divination, restoration   3rd-create food
-  and water, cure serious woundsD, remove blindness/deafness, remove curse,
-  remove disease   2nd-consecrate, cure moderate woundsD, delay poison, eagle's
-  splendor, enthrall (DC 15), lesser restoration   1st-bless water (DC 14),
-  comprehend languages, cure light woundsD, detect undead, remove fear,
-  sanctuary (DC 14)   0 (at will)-create water, detect magic, purify food and
-  drink (DC 13), virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 9th; melee touch +7)  5th-breath of life (DC 18)D, raise
+    dead   4th-cure critical woundsD, divination, restoration   3rd-create food
+    and water, cure serious woundsD, remove blindness/deafness, remove curse,
+    remove disease   2nd-consecrate, cure moderate woundsD, delay poison,
+    eagle's splendor, enthrall (DC 15), lesser restoration   1st-bless water (DC
+    14), comprehend languages, cure light woundsD, detect undead, remove fear,
+    sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, purify food and drink (DC 13), virtue
 SpellDomains: Good, Healing
 AbilityScores:
   - 12

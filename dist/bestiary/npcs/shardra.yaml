@@ -30,10 +30,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: spirit ability (monstrous insight 5/day)
-SpellsPrepared: >-
-  Shaman Spells Prepared (CL 1st; concentration +4)   1st-heightened
-  awarenessACG, obscuring mist, identifyS  0 (at will)-daze (DC 13), guidance,
-  light
+SpellsPrepared:
+  header: >-
+    Shaman Spells Prepared (CL 1st; concentration +4)   1st-heightened
+    awarenessACG, obscuring mist, identifyS
+  values:
+    - label: 0 (at will)
+      value: daze (DC 13), guidance, light
 AbilityScores:
   - 8
   - 8

@@ -25,12 +25,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 9th; concentration +12, +16 to cast defensively)  
-  3rd-displacement, haste, ray of exhaustion (DC 16)   2nd-blur, mirror image,
-  scorching ray (2)   1st-ray of enfeeblement (DC 14), shield, shocking grasp,
-  true strike (2)   0 (at will)-acid splash, detect magic, ghost sound (DC 13),
-  mage hand
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 9th; concentration +12, +16 to cast defensively)  
+    3rd-displacement, haste, ray of exhaustion (DC 16)   2nd-blur, mirror image,
+    scorching ray (2)   1st-ray of enfeeblement (DC 14), shield, shocking grasp,
+    true strike (2)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, ghost sound (DC 13), mage hand
 AbilityScores:
   - 12
   - 16

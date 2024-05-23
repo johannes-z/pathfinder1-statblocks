@@ -24,10 +24,13 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 2nd; concentration +6)  1st-burning hands (DC 15),
-  comprehend languages, expeditious retreat, identify  0 (at will)-acid splash,
-  detect magic, flare (DC 14), read magic, resistance
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 2nd; concentration +6)  1st-burning hands (DC
+    15), comprehend languages, expeditious retreat, identify
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, flare (DC 14), read magic, resistance
 AbilityScores:
   - 9
   - 12

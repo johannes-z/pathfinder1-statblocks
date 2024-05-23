@@ -40,18 +40,21 @@ SpellLikeAbilities:
       value: touch of evil (6 rounds)
     - label: 2/day
       value: dispelling touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 13th; concentration +21)  7th-blasphemyD (DC 25),
-  destruction (DC 27), ethereal jaunt  6th-antimagic fieldD, blade barrierM (DC
-  24), harmM (2, DC 26)  5th-dispel goodD, flame strikeM (DC 23), greater
-  command (DC 23), slay living (2, DC 25)  4th-chaos hammerM (DC 22), freedom of
-  movement, poison (DC 24), spell immunity, unholy blightD, M (2, DC 22) 
-  3rd-bestow curse (2, DC 23), contagion (DC 23)M, dispel magicD, invisibility
-  purge, meld into stone, protection from energy  2nd-align weaponD (evil only),
-  calm emotions (DC 20), darkness, desecrate, hold person (DC 20), resist
-  energy, spiritual weaponM  1st-bane (DC 19), cause fear (DC 21), deathwatch,
-  entropic shield, identifyD, obscuring mist (2)  0 (at will)-bleed (DC 20),
-  detect magic, purify food and drink, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 13th; concentration +21)  7th-blasphemyD (DC 25),
+    destruction (DC 27), ethereal jaunt  6th-antimagic fieldD, blade barrierM
+    (DC 24), harmM (2, DC 26)  5th-dispel goodD, flame strikeM (DC 23), greater
+    command (DC 23), slay living (2, DC 25)  4th-chaos hammerM (DC 22), freedom
+    of movement, poison (DC 24), spell immunity, unholy blightD, M (2, DC 22) 
+    3rd-bestow curse (2, DC 23), contagion (DC 23)M, dispel magicD, invisibility
+    purge, meld into stone, protection from energy  2nd-align weaponD (evil
+    only), calm emotions (DC 20), darkness, desecrate, hold person (DC 20),
+    resist energy, spiritual weaponM  1st-bane (DC 19), cause fear (DC 21),
+    deathwatch, entropic shield, identifyD, obscuring mist (2)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 20), detect magic, purify food and drink, read magic
 SpellDomains: Evil, Magic
 AbilityScores:
   - 8

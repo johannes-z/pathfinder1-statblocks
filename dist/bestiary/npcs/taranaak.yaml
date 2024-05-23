@@ -29,12 +29,15 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (blight [60 feet], cauldron, evil eye [-2, 6 rounds], slumber [6
   rounds])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 6th; concentration +9)   3rd-lightning bolt (DC 16),
-  pain strike* (DC 16), summon monster III   2nd-bear's endurance, feast of
-  ashes* (DC 15), fester* (DC 15), hold person (DC 15)   1st-endure elements,
-  ill omen*, mage armor, ray of enfeeblement (DC 14)   0 (at will)-bleed (DC
-  13), resistance, spark*, touch of fatigue (DC 13)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 6th; concentration +9)   3rd-lightning bolt (DC
+    16), pain strike* (DC 16), summon monster III   2nd-bear's endurance, feast
+    of ashes* (DC 15), fester* (DC 15), hold person (DC 15)   1st-endure
+    elements, ill omen*, mage armor, ray of enfeeblement (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), resistance, spark*, touch of fatigue (DC 13)
 AbilityScores:
   - 15
   - 14

@@ -48,23 +48,26 @@ SpellLikeAbilities:
         plane shift, power word blind, prismatic spray (DC 27), summon (level 9,
         1d4 mariliths or nalfeshnees, or 1d2 balors 100%), summon demonic entity
         (see below)
-SpellsPrepared: >-
-  Spells Prepared (CL 20th) 9th-dominate monster (DC 26), crushing hand, meteor
-  swarm (DC 26), power word kill, wail of the banshee (DC 26) 8th-binding (DC
-  25), mass charm monster (DC 25), prismatic wall (DC 25), summon monster VIII,
-  symbol of death (DC 25) 7th-finger of death (DC 24), insanity (DC 24), mass
-  hold person (DC 24), spell turning, symbol of weakness (DC 24) 6th-acid fog,
-  chain lightning (DC 23), geas/quest (DC 23), permanent image (DC 23), symbol
-  of fear (DC 23) 5th-false vision, hold monster (DC 22), mind fog (DC 22),
-  persistent image (DC 22), symbol of sleep (DC 22), wall of force 4th-charm
-  monster (DC 21), confusion (DC 21), crushing despair (DC 21), phantasmal
-  killer (DC 21), shout (DC 21), wall of fire 3rd-deep slumber (DC 20), dispel
-  magic, displacement, gaseous form, magic circle against good, slow (DC 20)
-  2nd-darkness, hypnotic pattern (DC 19), invisibility (DC 19), scorching ray,
-  touch of idiocy, web (DC 19) 1st-cause fear (DC 18), chill touch (DC 18),
-  color spray (DC 18), ray of enfeeblement, silent image (DC 18), true strike,
-  ventriloquism (DC 18) 0 (at will)-acid splash, daze (DC 17), dancing lights,
-  ghost sound
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 20th) 9th-dominate monster (DC 26), crushing hand,
+    meteor swarm (DC 26), power word kill, wail of the banshee (DC 26)
+    8th-binding (DC 25), mass charm monster (DC 25), prismatic wall (DC 25),
+    summon monster VIII, symbol of death (DC 25) 7th-finger of death (DC 24),
+    insanity (DC 24), mass hold person (DC 24), spell turning, symbol of
+    weakness (DC 24) 6th-acid fog, chain lightning (DC 23), geas/quest (DC 23),
+    permanent image (DC 23), symbol of fear (DC 23) 5th-false vision, hold
+    monster (DC 22), mind fog (DC 22), persistent image (DC 22), symbol of sleep
+    (DC 22), wall of force 4th-charm monster (DC 21), confusion (DC 21),
+    crushing despair (DC 21), phantasmal killer (DC 21), shout (DC 21), wall of
+    fire 3rd-deep slumber (DC 20), dispel magic, displacement, gaseous form,
+    magic circle against good, slow (DC 20) 2nd-darkness, hypnotic pattern (DC
+    19), invisibility (DC 19), scorching ray, touch of idiocy, web (DC 19)
+    1st-cause fear (DC 18), chill touch (DC 18), color spray (DC 18), ray of
+    enfeeblement, silent image (DC 18), true strike, ventriloquism (DC 18)
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 17), dancing lights, ghost sound
 AbilityScores:
   - 39
   - 18

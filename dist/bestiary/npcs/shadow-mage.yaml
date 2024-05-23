@@ -36,13 +36,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: force missile (1d4+3)
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; melee touch +2, ranged touch +5)  3rd-dispel magic,
-  fly, haste, fireball (DC 17, x2)   2nd-flaming sphere (DC 16), glitterdust (DC
-  15), mirror image, protection from arrows, scorching ray (DC 16)   1st-burning
-  hands (DC 15), color spray (DC 14), expeditious retreat, mage armor (already
-  cast), shocking grasp   0 (at will)-dancing lights, detect magic, light,
-  message
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; melee touch +2, ranged touch +5)  3rd-dispel magic,
+    fly, haste, fireball (DC 17, x2)   2nd-flaming sphere (DC 16), glitterdust
+    (DC 15), mirror image, protection from arrows, scorching ray (DC 16)  
+    1st-burning hands (DC 15), color spray (DC 14), expeditious retreat, mage
+    armor (already cast), shocking grasp
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, light, message
 AbilityScores:
   - 9
   - 14

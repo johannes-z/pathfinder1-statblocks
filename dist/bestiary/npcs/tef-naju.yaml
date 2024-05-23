@@ -44,15 +44,20 @@ SpellLikeAbilities:
         wall of stone
     - label: 1/day
       value: transmute mud to rock, transmute rock to mud
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 13th; concentration +18)   5th-acidic sprayUM (DC
-  20), telekinesis (DC 20)   4th-detonateAPG (DC 19), dimension door, mass
-  reduce person (DC 19), shout (DC 19)   3rd-dispel magic, fireball (DC 18),
-  force punchUM (DC 18), haste, vampiric touch   2nd-bear's endurance, defensive
-  shockUM, invisibility, mirror image, scorching ray, stone callAPG   1st-chill
-  touch (DC 16), corrosive touchUM, magic missile (2), ray of enfeeblement (DC
-  16), shield, true strike   0 (at will)-arcane mark, detect magic, mage hand,
-  prestidigitation (DC 15), read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 13th; concentration +18)   5th-acidic sprayUM (DC
+    20), telekinesis (DC 20)   4th-detonateAPG (DC 19), dimension door, mass
+    reduce person (DC 19), shout (DC 19)   3rd-dispel magic, fireball (DC 18),
+    force punchUM (DC 18), haste, vampiric touch   2nd-bear's endurance,
+    defensive shockUM, invisibility, mirror image, scorching ray, stone
+    callAPG   1st-chill touch (DC 16), corrosive touchUM, magic missile (2), ray
+    of enfeeblement (DC 16), shield, true strike
+  values:
+    - label: 0 (at will)
+      value: >-
+        arcane mark, detect magic, mage hand, prestidigitation (DC 15), read
+        magic
 AbilityScores:
   - 28
   - 15

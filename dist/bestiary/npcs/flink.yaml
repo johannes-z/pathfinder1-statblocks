@@ -27,10 +27,13 @@ Ranged:
   - sling +4 (1d4+2)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; melee touch +4)  2nd-flame blade, heat metal (DC
-  15)   1st-cure light wounds, entangle (DC 14), obscuring mist  0 (at
-  will)-detect magic, guidance, light, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; melee touch +4)  2nd-flame blade, heat metal (DC
+    15)   1st-cure light wounds, entangle (DC 14), obscuring mist
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, virtue
 AbilityScores:
   - 15
   - 13

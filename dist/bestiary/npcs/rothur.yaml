@@ -30,10 +30,15 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hexes (bouda's eyeMC, cackle)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 2nd; concentration +3)   1st-ill omenAPG, inflict
-  light wounds (DC 12), mage armor   0 (at will)-bleed (DC 11), detect magic,
-  putrefy food and drinkAPG, touch of fatigue (DC 11)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 2nd; concentration +3)   1st-ill omenAPG, inflict
+    light wounds (DC 12), mage armor
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 11), detect magic, putrefy food and drinkAPG, touch of fatigue
+        (DC 11)
 AbilityScores:
   - 13
   - 10

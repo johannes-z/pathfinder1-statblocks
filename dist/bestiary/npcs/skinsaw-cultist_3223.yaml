@@ -32,9 +32,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: bleeding touch (1 round), copycat (1 round)
-SpellsPrepared: >-
-  Spells Prepared (CL 1st; concentration +3)   1st-command (DC 13), disguise
-  selfD (DC 13), shield of faith   0 (at will)-bleed (DC 12), light, mending
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 1st; concentration +3)   1st-command (DC 13), disguise
+    selfD (DC 13), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), light, mending
 SpellDomains: Death, Trickery
 AbilityScores:
   - 12

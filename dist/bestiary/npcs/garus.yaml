@@ -26,11 +26,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel negative energy (3/day, DC 11, 2d6), death's kiss (5/day, 1 round)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; melee touch +3, ranged touch +1)  2nd-bear's
-  endurance, death knellD (DC 14), hold person (DC 14)  1st-bane (DC 13) x2,
-  hide from undead (DC 13), protection from goodD (DC 15)  At will-bleed (DC
-  12), create water, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; melee touch +3, ranged touch +1)  2nd-bear's
+    endurance, death knellD (DC 14), hold person (DC 14)  1st-bane (DC 13) x2,
+    hide from undead (DC 13), protection from goodD (DC 15)
+  values:
+    - label: At will
+      value: bleed (DC 12), create water, guidance, resistance
 SpellDomains: UndeadAPG
 AbilityScores:
   - 13

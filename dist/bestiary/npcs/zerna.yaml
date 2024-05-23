@@ -42,14 +42,17 @@ SpellLikeAbilities:
       value: dancing lights, deeper darkness, faerie fire, feather fall, levitate
     - label: 1/day
       value: divine favor, dispel magic, suggestion (DC 16)
-SpellsPrepared: >-
-  Spells Prepared (CL 8th; melee touch +7) 4th-cure critical wounds, divine
-  power, divination, inflict critical woundsD (DC 18) 3rd-blindness/deafness (DC
-  17), create food and water, cure serious wounds, dispel magic, magic circle
-  against goodD 2nd-augury, bull's strength, cure moderate wounds, hold person
-  (DC 16), shatterD 1st-bane, cure light wounds, divine favor, doom, entropic
-  shield, true strikeD 0 (at will)-detect magic, guidance, read magic,
-  resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 8th; melee touch +7) 4th-cure critical wounds, divine
+    power, divination, inflict critical woundsD (DC 18) 3rd-blindness/deafness
+    (DC 17), create food and water, cure serious wounds, dispel magic, magic
+    circle against goodD 2nd-augury, bull's strength, cure moderate wounds, hold
+    person (DC 16), shatterD 1st-bane, cure light wounds, divine favor, doom,
+    entropic shield, true strikeD
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance
 SpellDomains: Evil
 AbilityScores:
   - 12

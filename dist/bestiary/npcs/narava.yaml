@@ -34,13 +34,16 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: storm burst (1d6+3 nonlethal, 7/day)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 6th; concentration +10)   3rd-aqueous orbAPG (DC
-  17), call lightningD (DC 18), hydraulic torrentAPG, lily pad strideAPG  
-  2nd-barkskin, flame blade, flaming sphere (DC 17), fog cloudD, gust of wind
-  (DC 17)   1st-alter windsAPG (DC 15), hydraulic pushAPG, obscuring mistD,
-  produce flame, touch of the seaAPG   0 (at will)-create water, detect magic,
-  guidance, light
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 6th; concentration +10)   3rd-aqueous orbAPG (DC
+    17), call lightningD (DC 18), hydraulic torrentAPG, lily pad strideAPG  
+    2nd-barkskin, flame blade, flaming sphere (DC 17), fog cloudD, gust of wind
+    (DC 17)   1st-alter windsAPG (DC 15), hydraulic pushAPG, obscuring mistD,
+    produce flame, touch of the seaAPG
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, light
 SpellDomains: Weather
 AbilityScores:
   - 12

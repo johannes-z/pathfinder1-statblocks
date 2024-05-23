@@ -33,14 +33,17 @@ SpellLikeAbilities:
       value: dimensional hop (90 feet/day)
     - label: 7/day
       value: strength surge (+4)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +13)   5th-righteous might,
-  teleportD   4th-chaos hammer (DC 18), freedom of movement, neutralize poison,
-  spell immunityD   3rd-dispel magic, flyD, invisibility purge, remove curse,
-  remove disease   2nd-augury, bull's strengthD, lesser restoration, make whole,
-  remove paralysis, zone of truth   1st-ant haulAPG (DC 15), bless water (DC
-  15), command (DC 15), detect evil, doom (DC 15), longstriderD   0 (at
-  will)-create water, detect poison, mending, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +13)   5th-righteous might,
+    teleportD   4th-chaos hammer (DC 18), freedom of movement, neutralize
+    poison, spell immunityD   3rd-dispel magic, flyD, invisibility purge, remove
+    curse, remove disease   2nd-augury, bull's strengthD, lesser restoration,
+    make whole, remove paralysis, zone of truth   1st-ant haulAPG (DC 15), bless
+    water (DC 15), command (DC 15), detect evil, doom (DC 15), longstriderD
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, mending, read magic
 SpellDomains: Strength, Travel
 AbilityScores:
   - 10

@@ -29,12 +29,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: rebuke death (1d4+2)
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; concentration +9)   3rd-blindness/deafness (DC 17),
-  dispel magic, searing lightD   2nd-align weapon, bull's strength, heat metalD
-  (DC 16), spiritual weapon   1st-command (DC 15), cure light woundsD, divine
-  favor, protection from evil, shield of faith   0 (at will)-detect magic,
-  light, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; concentration +9)   3rd-blindness/deafness (DC 17),
+    dispel magic, searing lightD   2nd-align weapon, bull's strength, heat
+    metalD (DC 16), spiritual weapon   1st-command (DC 15), cure light woundsD,
+    divine favor, protection from evil, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, stabilize
 SpellDomains: Healing, Sun
 AbilityScores:
   - 12

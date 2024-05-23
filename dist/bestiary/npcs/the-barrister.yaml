@@ -34,16 +34,19 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: touch of law
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +14)   5th-break enchantmentD,
-  flame strike (DC 19), greater command (DC 19)   4th-discern lies (DC 18),
-  divine power, holy smite (DC 18), order's wrathD (DC 18), spiritual allyAPG  
-  3rd-archon's auraUM (DC 17), blindness/deafness (DC 17), dispel magic, magic
-  circle against evil, remove curseD   2nd-hold person (DC 16), instant
-  armorAPG, remove paralysisD, shield other, silence (DC 16), spear of purityUM
-  (DC 16)   1st-command (DC 15), detect evil, forbid actionUM (DC 15), remove
-  fearD, sanctuary (DC 15), shield of faith   0 (at will)-guidance, light,
-  resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +14)   5th-break
+    enchantmentD, flame strike (DC 19), greater command (DC 19)   4th-discern
+    lies (DC 18), divine power, holy smite (DC 18), order's wrathD (DC 18),
+    spiritual allyAPG   3rd-archon's auraUM (DC 17), blindness/deafness (DC 17),
+    dispel magic, magic circle against evil, remove curseD   2nd-hold person (DC
+    16), instant armorAPG, remove paralysisD, shield other, silence (DC 16),
+    spear of purityUM (DC 16)   1st-command (DC 15), detect evil, forbid
+    actionUM (DC 15), remove fearD, sanctuary (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: guidance, light, resistance, stabilize
 SpellDomains: Law, Liberation
 AbilityScores:
   - 10

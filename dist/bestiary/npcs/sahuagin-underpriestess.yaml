@@ -36,11 +36,14 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: icicle (1d6+2 cold)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +8)   2nd-blood in the water*,
-  darkness, hold person (DC 16), shatterD (DC 16)   1st-bless, cure light
-  wounds, magic weapon, protection from good, true strikeD   0 (at will)-bleed
-  (DC 14), detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +8)   2nd-blood in the water*,
+    darkness, hold person (DC 16), shatterD (DC 16)   1st-bless, cure light
+    wounds, magic weapon, protection from good, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, resistance
 SpellDomains: Destruction, Water
 AbilityScores:
   - 18

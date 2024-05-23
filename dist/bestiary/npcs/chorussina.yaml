@@ -39,13 +39,17 @@ SpellLikeAbilities:
         concentration +11)
     - label: 1/day
       value: shatter (DC 13), summon monster III (vermin only)
-SpellsPrepared: >-
-  Conjurer Spells Prepared (CL 9th; concentration +13)  5th-summon monster V,
-  wall of force  4th-charm monster (DC 18), dimension door (2), fire shield 
-  3rd-dispel magic, displacement, lightning bolt (DC 17), stinking cloud (DC
-  17), suggestion (DC 17)  2nd-bear's endurance, cat's grace, false life, mirror
-  image, web (DC 16)  1st-alarm, charm person (DC 15), mage armor, magic missile
-  (2), shield  0 (at will)-acid splash, light, message, prestidigitation
+SpellsPrepared:
+  header: >-
+    Conjurer Spells Prepared (CL 9th; concentration +13)  5th-summon monster V,
+    wall of force  4th-charm monster (DC 18), dimension door (2), fire shield 
+    3rd-dispel magic, displacement, lightning bolt (DC 17), stinking cloud (DC
+    17), suggestion (DC 17)  2nd-bear's endurance, cat's grace, false life,
+    mirror image, web (DC 16)  1st-alarm, charm person (DC 15), mage armor,
+    magic missile (2), shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, light, message, prestidigitation
 AbilityScores:
   - 9
   - 16

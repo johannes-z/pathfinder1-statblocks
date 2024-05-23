@@ -35,14 +35,17 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (blight [90 feet], cackle, evil eye [-4, 4 rounds], misfortune [2
   rounds], slumber [9 rounds])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 9th; concentration +10)   5th-cloudkill (DC 16)  
-  4th-enervation, shout (DC 15)   3rd-fly, lightning bolt (DC 14), pain
-  strikeAPG (DC 14), screechAPG (DC 14)   2nd-blindness/deafness (DC 13), blood
-  blazeARG, false life, sentry skullARG, touch of idiocy   1st-burning hands (DC
-  12), chill touch (DC 12), enlarge person (DC 12), mage armor, ray of
-  enfeeblement (DC 12)   0 (at will)-arcane mark, detect magic, read magic,
-  sparkAPG
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 9th; concentration +10)   5th-cloudkill (DC 16)  
+    4th-enervation, shout (DC 15)   3rd-fly, lightning bolt (DC 14), pain
+    strikeAPG (DC 14), screechAPG (DC 14)   2nd-blindness/deafness (DC 13),
+    blood blazeARG, false life, sentry skullARG, touch of idiocy   1st-burning
+    hands (DC 12), chill touch (DC 12), enlarge person (DC 12), mage armor, ray
+    of enfeeblement (DC 12)
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, read magic, sparkAPG
 AbilityScores:
   - 12
   - 14

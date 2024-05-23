@@ -31,16 +31,20 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: fire bolt (1d6+5 fire, 7/day), wild shape 11 hours/day
-SpellsPrepared: >-
-  Spells Prepared (CL 11th; concentration +15)   6th-fire seedsD(DC 20), greater
-  dispel magic   5th-call lightning storm (DC 19), fire shieldD (DC 19),
-  stoneskin   4th-cure serious wounds, flame strike (DC 18), rusting grasp,
-  scrying (DC 18), wall of fireD  3rd-call lightning (DC 17), cure moderate
-  wounds, fireballD(DC 17), greater magic fang, poison (DC 17), protection from
-  energy   2nd-barkskin, flame blade, heat metal (DC 16), produce flameD, warp
-  wood (DC 16), wood shape   1st-burning handsD (DC 15), cure light wounds,
-  entangle (DC 15), longstrider, magic stone, obscuring mist   0 (at will)-flare
-  (DC 14), guidance, mending, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 11th; concentration +15)   6th-fire seedsD(DC 20),
+    greater dispel magic   5th-call lightning storm (DC 19), fire shieldD (DC
+    19), stoneskin   4th-cure serious wounds, flame strike (DC 18), rusting
+    grasp, scrying (DC 18), wall of fireD  3rd-call lightning (DC 17), cure
+    moderate wounds, fireballD(DC 17), greater magic fang, poison (DC 17),
+    protection from energy   2nd-barkskin, flame blade, heat metal (DC 16),
+    produce flameD, warp wood (DC 16), wood shape   1st-burning handsD (DC 15),
+    cure light wounds, entangle (DC 15), longstrider, magic stone, obscuring
+    mist
+  values:
+    - label: 0 (at will)
+      value: flare (DC 14), guidance, mending, resistance
 SpellDomains: Fire
 AbilityScores:
   - 8

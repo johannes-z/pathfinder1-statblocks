@@ -32,12 +32,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: dazing touch, touch of chaos
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +9)   3rd-locate object, searing
-  light, suggestionD, summon monster III   2nd-aid, calm emotionsD (DC 15),
-  eagle's splendor, sound burst (DC 15), zone of truth (DC 15)   1st-bless
-  water, charm personD (DC 14), comprehend languages, detect undead, hide from
-  undead   0 (at will)-detect magic, detect poison, guidance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +9)   3rd-locate object,
+    searing light, suggestionD, summon monster III   2nd-aid, calm emotionsD (DC
+    15), eagle's splendor, sound burst (DC 15), zone of truth (DC 15)  
+    1st-bless water, charm personD (DC 14), comprehend languages, detect undead,
+    hide from undead
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, guidance, virtue
 SpellDomains: Chaos, Charm
 AbilityScores:
   - 11

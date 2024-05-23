@@ -32,12 +32,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: touch of good (+3)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +9)   3rd-dispel magic, helping
-  hand, prayer, remove curseD   2nd-align weaponD (good only), bull's strength,
-  hold person (DC 15), spiritual weapon, undetectable alignment   1st-endure
-  elements, divine favor, magic stone, protection from evilD, shield of faith  
-  0 (at will)-guidance, light, read magic, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +9)   3rd-dispel magic,
+    helping hand, prayer, remove curseD   2nd-align weaponD (good only), bull's
+    strength, hold person (DC 15), spiritual weapon, undetectable alignment  
+    1st-endure elements, divine favor, magic stone, protection from evilD,
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: guidance, light, read magic, stabilize
 SpellDomains: Good, Liberation
 AbilityScores:
   - 16

@@ -23,11 +23,15 @@ Speed: 30 ft.
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (+10, 8/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 10th; ranged touch +7)  5th-cone of cold (DC 20) (x2),
-  summon monster V  4th-dimension door (x2), hypnotic pattern (DC 19) (x2) 
-  3rd-dispel magic (x2), fireball (DC 18) (x2)  2nd-acid arrow (x5)  1st-mage
-  armor, magic missile (x5)  0 (at will)-none
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 10th; ranged touch +7)  5th-cone of cold (DC 20) (x2),
+    summon monster V  4th-dimension door (x2), hypnotic pattern (DC 19) (x2) 
+    3rd-dispel magic (x2), fireball (DC 18) (x2)  2nd-acid arrow (x5)  1st-mage
+    armor, magic missile (x5)
+  values:
+    - label: 0 (at will)
+      value: none
 AbilityScores:
   - 10
   - 14

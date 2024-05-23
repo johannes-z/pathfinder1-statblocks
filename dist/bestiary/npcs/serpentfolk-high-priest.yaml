@@ -42,16 +42,19 @@ SpellLikeAbilities:
         Abilities (CL 10th; concentration +16)
     - label: 9/day
       value: battle rage (+5), touch of evil (5 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +16)  5th-flame strikeD (2, DC
-  21), righteous might, slay living (DC 21)  4th-cure critical wounds, divine
-  power, freedom of movement, spit venomUM (DC 20), unholy blightD (DC 20) 
-  3rd-cure serious wounds, dispel magic, invisibility purge, magic circle
-  against goodD, protection from energy  2nd-bear's endurance, calm emotions (DC
-  18), darkness, dread boltUM (DC 18), hold person (2, DC 18), spiritual
-  weaponD  1st-bane (DC 17), forbid actionUM (DC 17), murderous commandUM (2, DC
-  17), protection from goodD, shield of faith (2)  0 (at will)-bleed (DC 16),
-  detect magic, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +16)  5th-flame strikeD (2,
+    DC 21), righteous might, slay living (DC 21)  4th-cure critical wounds,
+    divine power, freedom of movement, spit venomUM (DC 20), unholy blightD (DC
+    20)  3rd-cure serious wounds, dispel magic, invisibility purge, magic circle
+    against goodD, protection from energy  2nd-bear's endurance, calm emotions
+    (DC 18), darkness, dread boltUM (DC 18), hold person (2, DC 18), spiritual
+    weaponD  1st-bane (DC 17), forbid actionUM (DC 17), murderous commandUM (2,
+    DC 17), protection from goodD, shield of faith (2)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect magic, resistance, stabilize
 SpellDomains: Evil, War
 AbilityScores:
   - 10

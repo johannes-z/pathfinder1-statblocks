@@ -24,6 +24,7 @@ export interface Monster {
   Reach: string
   SpellLikeAbilities?: SpellLikeAbilities
   SpellsKnown?: SpellLikeAbilities
+  SpellsPrepared?: SpellLikeAbilities
   AbilityScores: (number | null)[]
   BaseAtk: string
   CMB: string

@@ -47,10 +47,15 @@ SpellLikeAbilities:
       value: >-
         permanency, summon monster VII (earth elementals only), symbol of
         scryingUM
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 19th; concentration +28)   8th (1/day)-earthquakeM,
-  maze, repel metal or stone   6th (1/day)-disintegrateM (DC 24), flesh to
-  stoneM (DC 24)   3rd (1/day)-flyM
+SpellsPrepared:
+  header: Wizard Spells Prepared (CL 19th; concentration +28)
+  values:
+    - label: 8th (1/day)
+      value: earthquakeM, maze, repel metal or stone
+    - label: 6th (1/day)
+      value: disintegrateM (DC 24), flesh to stoneM (DC 24)
+    - label: 3rd (1/day)
+      value: flyM
 AbilityScores:
   - 22
   - 31

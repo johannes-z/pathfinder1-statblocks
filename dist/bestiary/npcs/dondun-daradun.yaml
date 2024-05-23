@@ -22,14 +22,17 @@ Speed: 30 ft.
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (8/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 11th; concentration +16)  6th-antimagic field 
-  5th-dominate person (2, DC 22), secret chest  4th-greater invisibility (2),
-  ice storm, wall of fire  3rd-deep slumber (DC 20), dispel magic, hold person
-  (DC 20), lightning bolt (DC 18), suggestion (DC 20)  2nd-hideous laughter (DC
-  19), knock, mirror image, scorching ray, see invisibility  1st-mage armor,
-  magic missile (2), shield, sleep (DC 18), vanishAPG (DC 16)  0 (at will)-acid
-  splash, light, message, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 11th; concentration +16)  6th-antimagic field 
+    5th-dominate person (2, DC 22), secret chest  4th-greater invisibility (2),
+    ice storm, wall of fire  3rd-deep slumber (DC 20), dispel magic, hold person
+    (DC 20), lightning bolt (DC 18), suggestion (DC 20)  2nd-hideous laughter
+    (DC 19), knock, mirror image, scorching ray, see invisibility  1st-mage
+    armor, magic missile (2), shield, sleep (DC 18), vanishAPG (DC 16)
+  values:
+    - label: 0 (at will)
+      value: acid splash, light, message, read magic
 AbilityScores:
   - 7
   - 12

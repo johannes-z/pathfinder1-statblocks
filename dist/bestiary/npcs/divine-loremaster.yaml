@@ -30,14 +30,17 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: resistant touch, touch of law
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +12)   5th-breath of life, spell
-  resistanceD   4th-discern lies (DC 17), divination, order's wrathD  
-  3rd-invisibility purge, locate object, magic circle against chaosD, magic
-  vestment, remove disease   2nd-augury, hold person (DC 15), lesser
-  restoration, status, shield otherD, zone of truth (DC 15)   1st-bane, bless,
-  command (DC 14), comprehend languages, obscuring mist, sanctuaryD (DC 14)   0
-  (at will)-detect magic, detect poison, guidance, light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +12)   5th-breath of life,
+    spell resistanceD   4th-discern lies (DC 17), divination, order's wrathD  
+    3rd-invisibility purge, locate object, magic circle against chaosD, magic
+    vestment, remove disease   2nd-augury, hold person (DC 15), lesser
+    restoration, status, shield otherD, zone of truth (DC 15)   1st-bane, bless,
+    command (DC 14), comprehend languages, obscuring mist, sanctuaryD (DC 14)
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, guidance, light
 SpellDomains: Law, Protection
 AbilityScores:
   - 6

@@ -44,17 +44,20 @@ SpellLikeAbilities:
       value: lightning arc (1d6+6 electricity)
     - label: 2/day
       value: dispelling touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 13th; concentration +19)  7th-blasphemy (DC 23),
-  still chain lightningD (DC 22)  6th-still control windsD (DC 21), still flame
-  strike (2, DC 21), quickened still inflict light wounds  5th-greater command
-  (3, DC 21), still imbue with spell abilityD, still spell immunity  4th-still
-  dispel magic (2), still dispel magicD, still contagion, still inflict serious
-  wounds (2)  3rd-blindness/deafness (3, DC 19), still hold person, still
-  inflict moderate wounds, still wind wallD  2nd-still inflict light wounds (3),
-  still obscuring mist, still sanctuary, still shield of faith  1st-command (3,
-  DC 17), forbid actionUM (3, DC 17), obscuring mistD  0 (at will)-bleed (DC
-  16), detect magic, flare (DC 16), light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 13th; concentration +19)  7th-blasphemy (DC 23),
+    still chain lightningD (DC 22)  6th-still control windsD (DC 21), still
+    flame strike (2, DC 21), quickened still inflict light wounds  5th-greater
+    command (3, DC 21), still imbue with spell abilityD, still spell immunity 
+    4th-still dispel magic (2), still dispel magicD, still contagion, still
+    inflict serious wounds (2)  3rd-blindness/deafness (3, DC 19), still hold
+    person, still inflict moderate wounds, still wind wallD  2nd-still inflict
+    light wounds (3), still obscuring mist, still sanctuary, still shield of
+    faith  1st-command (3, DC 17), forbid actionUM (3, DC 17), obscuring mistD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect magic, flare (DC 16), light
 SpellDomains: Air, Magic
 AbilityScores:
   - 6

@@ -26,14 +26,17 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel negative energy 6/day (DC 20, 5d6), death's kiss
-SpellsPrepared: >-
-  Spells Prepared (CL 8th; melee touch +8, ranged touch +7)  4th-cure critical
-  wounds, enervationD, poison (DC 20, x2)   3rd-animate deadD,
-  blindness/deafness (DC 19), dispel magic, meld into stone   2nd-bull's
-  strength, ghoul touchD (DC 18), hold person (DC 16), shatter (DC 16),
-  spiritual weapon   1st-bane (DC 15), cause fearD (DC 17), cure light wounds,
-  deathwatch, obscuring mist   0 (at will)-bleed (DC 16), detect magic, light,
-  read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 8th; melee touch +8, ranged touch +7)  4th-cure critical
+    wounds, enervationD, poison (DC 20, x2)   3rd-animate deadD,
+    blindness/deafness (DC 19), dispel magic, meld into stone   2nd-bull's
+    strength, ghoul touchD (DC 18), hold person (DC 16), shatter (DC 16),
+    spiritual weapon   1st-bane (DC 15), cause fearD (DC 17), cure light wounds,
+    deathwatch, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect magic, light, read magic
 SpellDomains: UndeadAPG
 AbilityScores:
   - 14

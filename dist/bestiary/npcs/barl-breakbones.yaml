@@ -35,13 +35,18 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: grave touch (3 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 7th; concentration +10)   4th-animate dead, fear (DC 19,
-  2)   3rd-fireball, fly, ray of exhaustion, vampiric touch (2)  
-  2nd-blindness/deafness (DC 17, 2), command undead  (DC 15), ghoul touch (DC
-  17, 2), spectral hand   1st-chill touch (DC 16), magic missile (4), ray of
-  enfeeblement (DC 16, 2)   0 (at will)-detect magic, mage hand,
-  prestidigitation, read magic, touch of fatigue (DC 13)
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 7th; concentration +10)   4th-animate dead, fear (DC 19,
+    2)   3rd-fireball, fly, ray of exhaustion, vampiric touch (2)  
+    2nd-blindness/deafness (DC 17, 2), command undead  (DC 15), ghoul touch (DC
+    17, 2), spectral hand   1st-chill touch (DC 16), magic missile (4), ray of
+    enfeeblement (DC 16, 2)
+  values:
+    - label: 0 (at will)
+      value: >-
+        detect magic, mage hand, prestidigitation, read magic, touch of fatigue
+        (DC 13)
 AbilityScores:
   - 29
   - 20

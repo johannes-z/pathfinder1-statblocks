@@ -26,11 +26,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (8/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 5th; concentration +10)   3rd-dispel magic,
-  fireball (DC 18)   2nd-acid arrow, invisibility, scorching ray   1st-charm
-  person (DC 16), grease (DC 16), mage armor, protection from evil, shield   0
-  (at will)-detect magic, light, mage hand, prestidigitation
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 5th; concentration +10)   3rd-dispel magic,
+    fireball (DC 18)   2nd-acid arrow, invisibility, scorching ray   1st-charm
+    person (DC 16), grease (DC 16), mage armor, protection from evil, shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, prestidigitation
 AbilityScores:
   - 11
   - 10

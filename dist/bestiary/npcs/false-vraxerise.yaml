@@ -30,16 +30,20 @@ SpellLikeAbilities:
       value: invisibility field (9 rounds/day)
     - label: 7/day
       value: blinding ray
-SpellsPrepared: >-
-  Spells Prepared (CL 9th; concentration +13)   5th-feeblemind (DC 19), shadow
-  evocation (DC 21, 2)   4th-confusion (DC 18), greater invisibility, phantasmal
-  killer (DC 20, 2), empowered scorching ray   3rd-dispel magic, displacement,
-  extended false life, fireball (DC 17), major image (DC 19, 2)  
-  2nd-invisibility (2), minor image (DC 18, 2), mirror image, resist energy,
-  scorching ray   1st-charm person (DC 15), magic missile (2), ray of
-  enfeeblement (DC 15), shield, silent image (DC 17, 2)   0 (at will)-arcane
-  mark, ghost sound (DC 14), mage hand, mending, prestidigitation  Thassilonian
-  Specialization illusion;
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 9th; concentration +13)   5th-feeblemind (DC 19), shadow
+    evocation (DC 21, 2)   4th-confusion (DC 18), greater invisibility,
+    phantasmal killer (DC 20, 2), empowered scorching ray   3rd-dispel magic,
+    displacement, extended false life, fireball (DC 17), major image (DC 19,
+    2)   2nd-invisibility (2), minor image (DC 18, 2), mirror image, resist
+    energy, scorching ray   1st-charm person (DC 15), magic missile (2), ray of
+    enfeeblement (DC 15), shield, silent image (DC 17, 2)
+  values:
+    - label: 0 (at will)
+      value: >-
+        arcane mark, ghost sound (DC 14), mage hand, mending, prestidigitation
+        Thassilonian Specialization illusion;
 AbilityScores:
   - 10
   - 14

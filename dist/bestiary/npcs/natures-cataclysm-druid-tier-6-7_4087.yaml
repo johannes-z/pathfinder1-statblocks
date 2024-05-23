@@ -25,10 +25,13 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape (1/day)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 4th)  2nd-bull's strength (2, already cast) 
-  1st-cure light wounds, longstrider, shillelagh (already cast)  0 (at
-  will)-detect magic, flare (DC 14), know direction, light
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 4th)  2nd-bull's strength (2, already cast) 
+    1st-cure light wounds, longstrider, shillelagh (already cast)
+  values:
+    - label: 0 (at will)
+      value: detect magic, flare (DC 14), know direction, light
 AbilityScores:
   - 12
   - 8

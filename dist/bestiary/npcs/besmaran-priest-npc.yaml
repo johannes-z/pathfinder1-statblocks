@@ -32,11 +32,14 @@ SpellLikeAbilities:
       value: icicle (1d6+2 cold damage)
     - label: 6/day
       value: storm burst (1d6+2 nonlethal damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)   3rd-remove disease, water
-  breathingD   2nd-aid, cure moderate wounds, fog cloudD   1st-bless, cure light
-  wounds, deathwatch, obscuring mistD, remove fear   0 (at will)-create water,
-  purify food and drink, read magic, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)   3rd-remove disease,
+    water breathingD   2nd-aid, cure moderate wounds, fog cloudD   1st-bless,
+    cure light wounds, deathwatch, obscuring mistD, remove fear
+  values:
+    - label: 0 (at will)
+      value: create water, purify food and drink, read magic, stabilize
 SpellDomains: Water, Weather
 AbilityScores:
   - 10

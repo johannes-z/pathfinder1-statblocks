@@ -35,13 +35,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   blessings 8/day, channel negative energy 5/day (DC 20, 6d6), fervor 10/day
   (4d6), paralyzing touch (DC 20), sacred weapon (+2 1d10, 11 rounds/day)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 11th; concentration +16)   4th-divine power,
-  order's wrath (DC 19), summon monster IV   3rd-bestow curse (DC 18), create
-  food and water, dispel magic (2), invisibility purge   2nd-hold person (2, DC
-  17), silence (DC 17), spiritual weapon (2)   1st-command (3, DC 16), divine
-  favor, doom (DC 16), sanctuary (DC 16), shield of faith   0 (at will)-bleed
-  (DC 15), detect magic, guidance, light, resistance
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 11th; concentration +16)   4th-divine power,
+    order's wrath (DC 19), summon monster IV   3rd-bestow curse (DC 18), create
+    food and water, dispel magic (2), invisibility purge   2nd-hold person (2,
+    DC 17), silence (DC 17), spiritual weapon (2)   1st-command (3, DC 16),
+    divine favor, doom (DC 16), sanctuary (DC 16), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, light, resistance
 AbilityScores:
   - 12
   - 13

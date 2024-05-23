@@ -31,13 +31,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: bleeding touch (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +10)  4th-death wardD, unholy
-  blight (DC 17)  3rd-animate deadD, bestow curse (DC 16), blindness/deafness
-  (DC 16), dispel magic  2nd-death knellD (DC 15), desecrate, hold person (DC
-  15), silence (DC 15), spiritual weapon  1st-cause fearD (DC 14), command (DC
-  14), detect undead, divine favor, protection from good, shield of faith  0 (at
-  will)-bleed (DC 13), detect magic, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +10)  4th-death wardD, unholy
+    blight (DC 17)  3rd-animate deadD, bestow curse (DC 16), blindness/deafness
+    (DC 16), dispel magic  2nd-death knellD (DC 15), desecrate, hold person (DC
+    15), silence (DC 15), spiritual weapon  1st-cause fearD (DC 14), command (DC
+    14), detect undead, divine favor, protection from good, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, read magic, resistance
 SpellDomains: Death, Magic
 AbilityScores:
   - 14

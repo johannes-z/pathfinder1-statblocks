@@ -43,11 +43,14 @@ SpellLikeAbilities:
       value: fire bolt (1d6+2 fire)
     - label: 7/day
       value: copycat (4 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +8)  2nd-bull's strength, cure
-  moderate wounds, hold person (DC 16), produce flameD  1st-bless, burning
-  handsD (DC 15), cure light wounds, protection from good, shield of faith  0
-  (at will)-bleed (DC 14), detect magic, read magic, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +8)  2nd-bull's strength, cure
+    moderate wounds, hold person (DC 16), produce flameD  1st-bless, burning
+    handsD (DC 15), cure light wounds, protection from good, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, read magic, stabilize
 SpellDomains: Fire, Trickery
 AbilityScores:
   - 14

@@ -46,13 +46,16 @@ SpellLikeAbilities:
       value: >-
         order's wrath (DC 19), summon (level 4, 1 barbed devil 35%), unholy
         blight (DC 19)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +12)  4th-air walk, poison (DC
-  19), spike stonesD  3rd-cure serious wounds, dispel magic, locate object,
-  stone shapeD  2nd-cure moderate wounds (3), soften earth and stoneD, status, 
-  1st-cure light wounds (3), divine favor, obscuring mist, protection from
-  goodD, sanctuary (DC 16)  0 (at will)-bleed (DC 15), detect magic, guidance,
-  mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +12)  4th-air walk, poison (DC
+    19), spike stonesD  3rd-cure serious wounds, dispel magic, locate object,
+    stone shapeD  2nd-cure moderate wounds (3), soften earth and stoneD,
+    status,  1st-cure light wounds (3), divine favor, obscuring mist, protection
+    from goodD, sanctuary (DC 16)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, mending
 SpellDomains: Earth, Evil
 AbilityScores:
   - 26

@@ -29,10 +29,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: artificer's touch, vision of madness
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +3)   1st-cure light wounds,
-  lesser confusionD (DC 13), shield of faith   0 (at will)-bleed (DC 12),
-  mending, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +3)   1st-cure light wounds,
+    lesser confusionD (DC 13), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), mending, stabilize
 SpellDomains: Artifice, Madness
 AbilityScores:
   - 16

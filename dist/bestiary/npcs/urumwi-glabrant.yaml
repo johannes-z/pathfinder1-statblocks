@@ -34,13 +34,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: touch of glory (+8), touch of good (+4)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +11)   4th-dismissal (DC 17),
-  holy smiteD (DC 17), order's wrath (DC 17)   3rd-dispel magic, magic circle
-  against evilD, prayer, remove curse, searing light   2nd-aid, bless weaponD,
-  consecrate, status, zone of truth (DC 15)   1st-detect chaos, detect evil,
-  divine favor, protection from evil, remove fear, shield of faithD   0 (at
-  will)-detect magic, detect poison, guidance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +11)   4th-dismissal (DC 17),
+    holy smiteD (DC 17), order's wrath (DC 17)   3rd-dispel magic, magic circle
+    against evilD, prayer, remove curse, searing light   2nd-aid, bless weaponD,
+    consecrate, status, zone of truth (DC 15)   1st-detect chaos, detect evil,
+    divine favor, protection from evil, remove fear, shield of faithD
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, guidance, stabilize
 SpellDomains: Glory, Good
 AbilityScores:
   - 12

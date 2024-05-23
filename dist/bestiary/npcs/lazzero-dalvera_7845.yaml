@@ -31,10 +31,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: copycat (1 round), touch of law
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +3)   1st-cause fear (DC 13),
-  protection from chaosD, shield of faith   0 (at will)-detect magic, light,
-  read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +3)   1st-cause fear (DC 13),
+    protection from chaosD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, read magic
 SpellDomains: Law, Trickery
 AbilityScores:
   - 12

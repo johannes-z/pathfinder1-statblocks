@@ -36,15 +36,19 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: touch of good (+4)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +13)   5th-dispel evilD (DC 19),
-  serenityUM (DC 19)   4th-blessing of fervorAPG, debilitating portentUC,
-  discern lies (DC 18), freedom of movementD   3rd-bestow curse (DC 17), create
-  food and water, remove curseD, remove disease, searing light   2nd-hold person
-  (DC 16), remove paralysisD, sound burst (DC 16), spear of purityUM (DC 16),
-  spiritual weapon, zone of truth (DC 16)   1st-bless, cause fear (DC 15),
-  command (DC 15), divine favor, protection from evilD, remove fear   0 (at
-  will)-detect magic, guidance, purify food and drink, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +13)   5th-dispel evilD (DC
+    19), serenityUM (DC 19)   4th-blessing of fervorAPG, debilitating portentUC,
+    discern lies (DC 18), freedom of movementD   3rd-bestow curse (DC 17),
+    create food and water, remove curseD, remove disease, searing light  
+    2nd-hold person (DC 16), remove paralysisD, sound burst (DC 16), spear of
+    purityUM (DC 16), spiritual weapon, zone of truth (DC 16)   1st-bless, cause
+    fear (DC 15), command (DC 15), divine favor, protection from evilD, remove
+    fear
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, purify food and drink, resistance
 SpellDomains: Good, Liberation
 AbilityScores:
   - null

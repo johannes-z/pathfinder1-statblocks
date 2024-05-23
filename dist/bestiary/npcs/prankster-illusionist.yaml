@@ -40,15 +40,18 @@ SpellLikeAbilities:
       value: invisibility field (10 rounds/day)
     - label: 7/day
       value: blinding ray
-SpellsPrepared: >-
-  Illusionist Spells Prepared (CL 10th; concentration +14)  5th-cloudkill (DC
-  19), persistent image (DC 21), teleport  4th-greater invisibility, phantasmal
-  killer (DC 20), empowered scorching ray, solid fog, stone shape  3rd-dispel
-  magic, displacement, fly, haste (DC 17), major image (DC 19)  2nd-detect
-  thoughts (DC 16), glitterdust (DC 16), hypnotic pattern (DC 18), magic mouth,
-  mirror image, scorching ray  1st-color spray (2, DC 17), feather fall, grease,
-  magic missile, silent image (DC 17)  0 (at will)-dancing lights, detect magic,
-  ghost sound (DC 16), mage hand
+SpellsPrepared:
+  header: >-
+    Illusionist Spells Prepared (CL 10th; concentration +14)  5th-cloudkill (DC
+    19), persistent image (DC 21), teleport  4th-greater invisibility,
+    phantasmal killer (DC 20), empowered scorching ray, solid fog, stone shape 
+    3rd-dispel magic, displacement, fly, haste (DC 17), major image (DC 19) 
+    2nd-detect thoughts (DC 16), glitterdust (DC 16), hypnotic pattern (DC 18),
+    magic mouth, mirror image, scorching ray  1st-color spray (2, DC 17),
+    feather fall, grease, magic missile, silent image (DC 17)
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, ghost sound (DC 16), mage hand
 AbilityScores:
   - 6
   - 14

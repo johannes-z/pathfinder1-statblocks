@@ -30,10 +30,13 @@ SpellLikeAbilities:
   values:
     - label: 4/day
       value: icicle (1d6+1 cold)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +3)   1st-cure light wounds,
-  endure elements, entropic shield, true strikeD   0 (at will)-bleed (DC 11),
-  create water, light, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +3)   1st-cure light wounds,
+    endure elements, entropic shield, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 11), create water, light, resistance
 SpellDomains: Destruction, Water
 AbilityScores:
   - 17

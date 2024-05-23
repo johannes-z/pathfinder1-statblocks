@@ -32,9 +32,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: blast rune (1d6+0 energy damage, 1 round), inspiring word (1 round)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +3)   1st-cause fear (DC 13),
-  command (DC 13), divine favorD   0 (at will)-guidance, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +3)   1st-cause fear (DC 13),
+    command (DC 13), divine favorD
+  values:
+    - label: 0 (at will)
+      value: guidance, light, read magic
 SpellDomains: Nobility, Rune
 AbilityScores:
   - 10

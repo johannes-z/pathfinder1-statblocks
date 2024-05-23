@@ -29,11 +29,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hexes (cackle, evil eye, fortune, misfortune)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 4th; concentration +8)   2nd-glitterdust (DC 16),
-  vomit swarmAPG, web (DC 16)   1st-ear-piercing screamUM (DC 15), ill omenAPG,
-  obscuring mist, shield of faith   0 (at will)-dancing lights, detect magic,
-  guidance, message
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 4th; concentration +8)   2nd-glitterdust (DC 16),
+    vomit swarmAPG, web (DC 16)   1st-ear-piercing screamUM (DC 15), ill
+    omenAPG, obscuring mist, shield of faith
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, guidance, message
 AbilityScores:
   - 10
   - 14

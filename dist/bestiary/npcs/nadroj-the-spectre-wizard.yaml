@@ -31,12 +31,15 @@ Reach: 5 ft.
 SpecialAttacks: >-
   create spawn, energy drain (2 levels, DC 19), hand of the apprentice (ranged
   touch +13, 7/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 7th; ranged touch +13)  4th-black tentacles, crushing
-  despair (DC 18)  3rd-deep slumber (DC 17), fireball (DC 17), slow (DC 17) 
-  2nd-darkness, false life, scorching ray, web (DC 17)  1st-mage armor, magic
-  missile (x2), shocking grasp, obscuring mist  At Will-detect magic, message,
-  ray of frost, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 7th; ranged touch +13)  4th-black tentacles, crushing
+    despair (DC 18)  3rd-deep slumber (DC 17), fireball (DC 17), slow (DC 17) 
+    2nd-darkness, false life, scorching ray, web (DC 17)  1st-mage armor, magic
+    missile (x2), shocking grasp, obscuring mist
+  values:
+    - label: At Will
+      value: detect magic, message, ray of frost, read magic
 AbilityScores:
   - null
   - 18

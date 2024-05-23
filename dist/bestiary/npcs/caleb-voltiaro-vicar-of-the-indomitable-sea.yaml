@@ -30,14 +30,17 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy 4/day (DC 15, 5d6), destructive smite (+4, 6/day),
   surge* (+12, 6/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +12)  5th-greater command (DC
-  18), ice stormD  4th-control waterD, freedom of movement, unholy blight (DC
-  17)  3rd-bestow curse (DC 16), dispel magic, prayer, water breathing, water
-  walkD  2nd-bull's strength, fog cloud, hold person (DC 15), slipstream*, D,
-  sound burst (DC 15), spiritual weapon  1st-command (DC 14), cure light wounds,
-  divine favor, obscuring mist, protection from good, true strikeD  0 (at
-  will)-create water, guidance, light, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +12)  5th-greater command (DC
+    18), ice stormD  4th-control waterD, freedom of movement, unholy blight (DC
+    17)  3rd-bestow curse (DC 16), dispel magic, prayer, water breathing, water
+    walkD  2nd-bull's strength, fog cloud, hold person (DC 15), slipstream*, D,
+    sound burst (DC 15), spiritual weapon  1st-command (DC 14), cure light
+    wounds, divine favor, obscuring mist, protection from good, true strikeD
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, light, resistance
 SpellDomains: Destruction, Water (Oceans subdomain*)
 AbilityScores:
   - 17

@@ -49,18 +49,21 @@ SpellLikeAbilities:
       value: >-
         artificer's touch (1d6+6, bypasses DR and hardness 13), copycat (13
         rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 13th; concentration +18)  7th-destruction (DC 24),
-  wall of ironD  6th-greater dispel magic, harm (DC 23), misleadD (DC 21) 
-  5th-major curseUM (DC 22), false visionD, flame strike (DC 20), summon monster
-  V, true seeing  4th-air walk, aura of doomUM (DC 21), confusionD (DC 19), cure
-  critical wounds, divine power, freedom of movement  3rd-bestow curse (DC 20),
-  deeper darkness, dispel magic, magic circle against chaos, stone shapeD,
-  vision of hellUM (DC 18)  2nd-aid, cure moderate wounds, hold person (DC 17),
-  instrument of agonyUC, invisibilityD, silence (DC 17)  1st-cause fear (DC 18),
-  disguise selfD, murderous commandUM (DC 16), obscuring mist, protection from
-  good, sanctuary (DC 16), shield of faith  0 (at will)-detect magic, guidance,
-  read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 13th; concentration +18)  7th-destruction (DC
+    24), wall of ironD  6th-greater dispel magic, harm (DC 23), misleadD (DC
+    21)  5th-major curseUM (DC 22), false visionD, flame strike (DC 20), summon
+    monster V, true seeing  4th-air walk, aura of doomUM (DC 21), confusionD (DC
+    19), cure critical wounds, divine power, freedom of movement  3rd-bestow
+    curse (DC 20), deeper darkness, dispel magic, magic circle against chaos,
+    stone shapeD, vision of hellUM (DC 18)  2nd-aid, cure moderate wounds, hold
+    person (DC 17), instrument of agonyUC, invisibilityD, silence (DC 17) 
+    1st-cause fear (DC 18), disguise selfD, murderous commandUM (DC 16),
+    obscuring mist, protection from good, sanctuary (DC 16), shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance
 SpellDomains: Artifice, Trickery
 AbilityScores:
   - 16

@@ -28,10 +28,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: destructive smite (+1, 5/day)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 2nd; concentration +4)  1st-cure light wounds, magic
-  stone, summon nature's ally I, true strikeD  0 (at will)-flare (DC 12),
-  guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 2nd; concentration +4)  1st-cure light wounds,
+    magic stone, summon nature's ally I, true strikeD
+  values:
+    - label: 0 (at will)
+      value: flare (DC 12), guidance, read magic, resistance
 SpellDomains: Destruction
 AbilityScores:
   - 8

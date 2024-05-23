@@ -24,9 +24,13 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel positive energy 4/day (DC 11, 1d6)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +4)   1st-bless, protection from
-  evilD, sanctuary (DC 14)   0 (at will)-light, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +4)   1st-bless, protection
+    from evilD, sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: light, mending, stabilize
 SpellDomains: Good, Healing
 AbilityScores:
   - 8

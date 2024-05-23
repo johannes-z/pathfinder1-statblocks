@@ -26,13 +26,16 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 2/day
-SpellsPrepared: >-
-  Spells Prepared (CL 7th; melee touch +4, ranged touch +5):   4th-air walk,
-  flame strike (DC 18)   3rd-call lightning (DC 18), speak with plants, stone
-  shape   2nd-flaming sphere (DC 18), hold animal (DC 18), resist energy, tree
-  shape   1st-cure light wounds, endure elements, hide from animals,
-  longstrider, produce flame   0 (at will)-create water, guidance, mending,
-  purify food and drink
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 7th; melee touch +4, ranged touch +5):   4th-air walk,
+    flame strike (DC 18)   3rd-call lightning (DC 18), speak with plants, stone
+    shape   2nd-flaming sphere (DC 18), hold animal (DC 18), resist energy, tree
+    shape   1st-cure light wounds, endure elements, hide from animals,
+    longstrider, produce flame
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, mending, purify food and drink
 AbilityScores:
   - 8
   - 10

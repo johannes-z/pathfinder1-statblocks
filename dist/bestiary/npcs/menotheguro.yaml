@@ -40,11 +40,14 @@ SpellLikeAbilities:
         concentration +7)
     - label: 7/day
       value: grave touch (1 round)
-SpellsPrepared: >-
-  Necromancer Spells Prepared (CL 3rd; concentration +7)  2nd-command undead (DC
-  16), false life, invisibility  1st-chill touch (DC 15), magic missile (2), ray
-  of enfeeblement (DC 15)  0 (at will)-bleed (DC 14), detect magic,
-  prestidigitation, read magic
+SpellsPrepared:
+  header: >-
+    Necromancer Spells Prepared (CL 3rd; concentration +7)  2nd-command undead
+    (DC 16), false life, invisibility  1st-chill touch (DC 15), magic missile
+    (2), ray of enfeeblement (DC 15)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, prestidigitation, read magic
 AbilityScores:
   - 24
   - 16

@@ -31,12 +31,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: storm burst (1d6+2 nonlethal damage)
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; concentration +9) 3rd-call lightningD (DC 17), create
-  food and water, remove disease 2nd-augury, barkskinD, delay poison, lesser
-  restoration 1st-endure elements, magic stone, magic weapon, obscuring mistD,
-  sanctuary (DC 15) 0 (at will)-detect poison, light, purify food and drink,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; concentration +9) 3rd-call lightningD (DC 17),
+    create food and water, remove disease 2nd-augury, barkskinD, delay poison,
+    lesser restoration 1st-endure elements, magic stone, magic weapon, obscuring
+    mistD, sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect poison, light, purify food and drink, stabilize
 SpellDomains: Plant, Weather
 AbilityScores:
   - 9

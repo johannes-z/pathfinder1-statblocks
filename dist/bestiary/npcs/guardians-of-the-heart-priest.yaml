@@ -32,12 +32,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: battle rage (+3 damage), vision of madness (+/-3)
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; melee touch +4, ranged touch +2) 
-  3rd-blindness/deafness (DC 17), rageD   2nd-hold person (DC 16, x2), inflict
-  moderate wounds (DC 16, x2), spiritual weaponD   1st-bless, command (DC 15),
-  cure light wounds, lesser confusionD (DC 15), summon monster I   0 (at
-  will)-create water, guidance, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; melee touch +4, ranged touch +2) 
+    3rd-blindness/deafness (DC 17), rageD   2nd-hold person (DC 16, x2), inflict
+    moderate wounds (DC 16, x2), spiritual weaponD   1st-bless, command (DC 15),
+    cure light wounds, lesser confusionD (DC 15), summon monster I
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, resistance, virtue
 SpellDomains: Madness, War
 AbilityScores:
   - 12

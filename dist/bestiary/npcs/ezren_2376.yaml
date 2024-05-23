@@ -28,10 +28,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day; +7 to hit, 1d6 damage)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 1st; concentration +7 [+11 to cast defensively]) 
-  1st-burning hands (DC 16), magic missile  0 (at will)-acid splash, detect
-  magic, light
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 1st; concentration +7 [+11 to cast defensively]) 
+    1st-burning hands (DC 16), magic missile
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light
 AbilityScores:
   - 10
   - 14

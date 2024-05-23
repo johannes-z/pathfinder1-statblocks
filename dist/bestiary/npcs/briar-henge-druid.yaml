@@ -29,9 +29,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: enlarge (5/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +3)  1st-enlarge personD,
-  produce flame, shillelagh  0 (at will)-detect poison, know direction, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +3)  1st-enlarge personD,
+    produce flame, shillelagh
+  values:
+    - label: 0 (at will)
+      value: detect poison, know direction, mending
 SpellDomains: Plant (Growth subdomain*)
 AbilityScores:
   - 14

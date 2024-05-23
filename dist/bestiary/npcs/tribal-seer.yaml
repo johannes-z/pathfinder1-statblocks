@@ -32,13 +32,16 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: diviner's fortune (+3)
-SpellsPrepared: >-
-  Diviner Spells Prepared (CL 6th; concentration +10)  
-  3rd-clairaudience/clairvoyance, deep slumber (DC 18), haste (DC 17), hold
-  person (DC 18)   2nd-flaming sphere (DC 16), fox's cunning, pyrotechnics (DC
-  16), see invisibility, touch of idiocy   1st-charm person (DC 16), detect
-  undead, mage armor, magic missile, shield   0 (at will)-dancing lights, detect
-  magic, detect poison, message
+SpellsPrepared:
+  header: >-
+    Diviner Spells Prepared (CL 6th; concentration +10)  
+    3rd-clairaudience/clairvoyance, deep slumber (DC 18), haste (DC 17), hold
+    person (DC 18)   2nd-flaming sphere (DC 16), fox's cunning, pyrotechnics (DC
+    16), see invisibility, touch of idiocy   1st-charm person (DC 16), detect
+    undead, mage armor, magic missile, shield
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, detect poison, message
 AbilityScores:
   - 8
   - 12

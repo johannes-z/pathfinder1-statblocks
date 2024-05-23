@@ -42,13 +42,16 @@ SpellLikeAbilities:
         6th; melee touch +5)
     - label: 7/day
       value: copycat, touch of evil
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; melee touch +5, ranged touch +6) 3rd-cure serious
-  wounds, invisibility purge, magic circle against goodD, searing light 
-  2nd-bull's strength, cure moderate wounds, hold person  (DC 16), inflict
-  moderate wounds (DC 16), invisibilityD  1st-cause fear (DC 15), cure light
-  wounds, doom (DC 15), protection from goodD, shield of faith  0 (at
-  will)-detect magic, guidance, read magic, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; melee touch +5, ranged touch +6) 3rd-cure serious
+    wounds, invisibility purge, magic circle against goodD, searing light 
+    2nd-bull's strength, cure moderate wounds, hold person  (DC 16), inflict
+    moderate wounds (DC 16), invisibilityD  1st-cause fear (DC 15), cure light
+    wounds, doom (DC 15), protection from goodD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, virtue
 SpellDomains: Evil, Trickery
 AbilityScores:
   - 13

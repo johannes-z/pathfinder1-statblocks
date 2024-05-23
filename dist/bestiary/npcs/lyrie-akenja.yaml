@@ -24,11 +24,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (6/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 4th; concentration +7)   2nd-invisibility, mirror image,
-  shatter (DC 16)   1st-burning hands (DC 15), grease (DC 14), mage armor, ray
-  of enfeeblement   0 (at will)-acid splash, detect magic, prestidigitation, ray
-  of frost
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 4th; concentration +7)   2nd-invisibility, mirror image,
+    shatter (DC 16)   1st-burning hands (DC 15), grease (DC 14), mage armor, ray
+    of enfeeblement
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, prestidigitation, ray of frost
 AbilityScores:
   - 8
   - 16

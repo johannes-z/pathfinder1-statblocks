@@ -30,11 +30,14 @@ Reach: 10 ft.
 SpecialAttacks: >-
   double hexes, hexes (cackle, evil eye [-2, 4 rounds], slumber [4 rounds]),
   superior two-weapon fighting
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 4th; concentration +5)   2nd-blindness/deafness (DC
-  13), pox pustulesAPG (DC 13)   1st-ear-piercing screamUM (DC 12),
-  fumbletongueUM (DC 12), ray of sickeningUM (DC 12), shield of faith   0 (at
-  will)-bleed (DC 11), dancing lights, guidance, touch of fatigue (DC 11)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 4th; concentration +5)   2nd-blindness/deafness
+    (DC 13), pox pustulesAPG (DC 13)   1st-ear-piercing screamUM (DC 12),
+    fumbletongueUM (DC 12), ray of sickeningUM (DC 12), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 11), dancing lights, guidance, touch of fatigue (DC 11)
 AbilityScores:
   - 20
   - 12

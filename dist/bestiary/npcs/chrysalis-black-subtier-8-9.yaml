@@ -24,15 +24,18 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (8/day), metamagic mastery (3/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 13th; concentration +18)   7th-greater scrying (DC
-  22)   6th-chain lightning (DC 21), contingency   5th-cone of cold (DC 20),
-  dominate person (2, DC 22), feeblemind (DC 22)   4th-black tentacles,
-  confusion (DC 21), dimension door, stoneskin   3rd-dispel magic, displacement,
-  lightning bolt (2, DC 18), protection from energy (DC 18)   2nd-false life,
-  mirror image, scorching ray (2), unnatural lustUM (DC 19)   1st-alarm, mage
-  armor, magic missile (3), ray of enfeeblement (DC 16)   0 (at will)-acid
-  splash, detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 13th; concentration +18)   7th-greater scrying
+    (DC 22)   6th-chain lightning (DC 21), contingency   5th-cone of cold (DC
+    20), dominate person (2, DC 22), feeblemind (DC 22)   4th-black tentacles,
+    confusion (DC 21), dimension door, stoneskin   3rd-dispel magic,
+    displacement, lightning bolt (2, DC 18), protection from energy (DC 18)  
+    2nd-false life, mirror image, scorching ray (2), unnatural lustUM (DC 19)  
+    1st-alarm, mage armor, magic missile (3), ray of enfeeblement (DC 16)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, read magic
 AbilityScores:
   - 12
   - 10

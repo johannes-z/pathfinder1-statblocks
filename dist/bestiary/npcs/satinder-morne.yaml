@@ -33,12 +33,15 @@ SpellLikeAbilities:
       value: copycat (5 rounds/day)
     - label: 6/day
       value: dazing touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8) 3rd-bestow curse (DC 16),
-  inflict serious wounds, suggestionD (DC 16) 2nd-eagle's splendor, inflict
-  moderate wounds, invisibilityD, undetectable alignment 1st-bane (DC 14),
-  command (DC 14), disguise selfD, entropic shield, inflict light wounds 0 (at
-  will)-detect poison, light, purify food and drink, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8) 3rd-bestow curse (DC 16),
+    inflict serious wounds, suggestionD (DC 16) 2nd-eagle's splendor, inflict
+    moderate wounds, invisibilityD, undetectable alignment 1st-bane (DC 14),
+    command (DC 14), disguise selfD, entropic shield, inflict light wounds
+  values:
+    - label: 0 (at will)
+      value: detect poison, light, purify food and drink, resistance
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 10

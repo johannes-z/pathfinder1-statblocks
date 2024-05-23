@@ -30,10 +30,13 @@ Ranged:
   - dart +4 (1d4+1)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; concentration +5) 2nd-flame blade, summon swarm
-  1st-magic fang, obscuring mist, produce flame 0 (at will)-flare (DC 12),
-  guidance, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; concentration +5) 2nd-flame blade, summon swarm
+    1st-magic fang, obscuring mist, produce flame
+  values:
+    - label: 0 (at will)
+      value: flare (DC 12), guidance, resistance, virtue
 AbilityScores:
   - 14
   - 13

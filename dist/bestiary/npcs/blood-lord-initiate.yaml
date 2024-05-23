@@ -31,10 +31,13 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy (DC 15, 6/day), grave touch (1 round, 6/day),
   paralysis
-SpellsPrepared: >-
-  Spells Prepared (CL 2nd; concentration +4)  1st-cause fear (DC 14), shield,
-  reduce person (DC 14), ray of enfeeblement (DC 14)  0 (at will)-arcane mark,
-  bleed (DC 13), detect magic, ray of frost, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 2nd; concentration +4)  1st-cause fear (DC 14), shield,
+    reduce person (DC 14), ray of enfeeblement (DC 14)
+  values:
+    - label: 0 (at will)
+      value: arcane mark, bleed (DC 13), detect magic, ray of frost, read magic
 AbilityScores:
   - 12
   - 15

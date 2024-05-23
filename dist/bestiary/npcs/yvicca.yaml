@@ -27,10 +27,13 @@ Melee:
   - +1 shortspear +13 (1d6+8), claw +7 (1d6+3)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 2nd; concentration +5)   1st-cure light wounds,
-  faerie fire, speak with animals   0 (at will)-detect magic, detect poison,
-  flare (DC 13), read magic
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 2nd; concentration +5)   1st-cure light wounds,
+    faerie fire, speak with animals
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, flare (DC 13), read magic
 AbilityScores:
   - 24
   - 18

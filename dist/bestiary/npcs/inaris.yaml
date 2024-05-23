@@ -33,22 +33,25 @@ SpellLikeAbilities:
       value: strength surge (+10)
     - label: 12/day
       value: battle rage (+10 damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 20th; concentration +29)  9th-energy drain (DC 28),
-  implosion (2, DC 28), mass heal, power word killD (DC 28), storm of vengeance
-  (DC 28)  8th-antimagic field, earthquake (DC 27), fire storm (2, DC 27), power
-  word stunD (DC 27), stormbolts* (DC 27)  7th-destruction (2, DC 26), grasping
-  handD, greater restoration, regenerate, repulsion  6th-banishment, blade
-  barrierD (DC 25), greater dispel magic, harm, heal (2)  5th-break enchantment,
-  breath of life, cleanse*, flame strikeD (DC 24), slay living (DC 24), spell
-  resistance, true seeing  4th-blessing of fervor, death ward, divine powerD,
-  freedom of movement, inflict critical wounds (DC 23), restoration, spell
-  immunity  3rd-bestow curse (DC 22), daylight, dispel magic (2), inflict
-  serious wounds (DC 22), magic vestmentD, sacred bond* (already cast on
-  Derrak)  2nd-lesser restoration (2), silence, spiritual weaponD, status,
-  weapon of awe* (2)  1st-bane (2, DC 20), doom (DC 20), enlarge personD,
-  inflict light wounds (3, DC 20), shield of faith  0 (at will)-bleed (DC 19),
-  create water, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 20th; concentration +29)  9th-energy drain (DC
+    28), implosion (2, DC 28), mass heal, power word killD (DC 28), storm of
+    vengeance (DC 28)  8th-antimagic field, earthquake (DC 27), fire storm (2,
+    DC 27), power word stunD (DC 27), stormbolts* (DC 27)  7th-destruction (2,
+    DC 26), grasping handD, greater restoration, regenerate, repulsion 
+    6th-banishment, blade barrierD (DC 25), greater dispel magic, harm, heal
+    (2)  5th-break enchantment, breath of life, cleanse*, flame strikeD (DC 24),
+    slay living (DC 24), spell resistance, true seeing  4th-blessing of fervor,
+    death ward, divine powerD, freedom of movement, inflict critical wounds (DC
+    23), restoration, spell immunity  3rd-bestow curse (DC 22), daylight, dispel
+    magic (2), inflict serious wounds (DC 22), magic vestmentD, sacred bond*
+    (already cast on Derrak)  2nd-lesser restoration (2), silence, spiritual
+    weaponD, status, weapon of awe* (2)  1st-bane (2, DC 20), doom (DC 20),
+    enlarge personD, inflict light wounds (3, DC 20), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 19), create water, mending, stabilize
 SpellDomains: Strength, War
 AbilityScores:
   - 14

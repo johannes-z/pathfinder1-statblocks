@@ -28,11 +28,14 @@ SpecialAttacks: >-
   blessings 5/day (Destruction: destructive attacks, heart of carnage; War:
   battle lust, war mind), channel positive energy 3/day (DC 17, 2d6), fervor
   6/day (2d6), sacred weapon (1d8, +1, 5 rounds/day)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 5th; concentration +9)   2nd-cure moderate
-  wounds (2), delay poison   1st-cure light wounds, deathwatch, diagnose
-  diseaseUM, remove fear, remove sicknessUM (DC 15)   0 (at will)-detect poison,
-  guidance, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 5th; concentration +9)   2nd-cure moderate
+    wounds (2), delay poison   1st-cure light wounds, deathwatch, diagnose
+    diseaseUM, remove fear, remove sicknessUM (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect poison, guidance, mending, stabilize
 AbilityScores:
   - 14
   - 8

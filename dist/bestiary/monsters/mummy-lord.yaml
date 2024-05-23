@@ -40,15 +40,19 @@ SpellLikeAbilities:
       value: touch of darkness (4 rounds)
     - label: 8/day
       value: touch of evil (4 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +14)  5th-dispel goodD (DC 20),
-  greater contagionUM (DC 21), slay living (DC 21)  4th-divine power, poison (DC
-  20), shadow conjurationD (DC 19), spit venomUM (DC 19)  3rd-animate dead,
-  bestow curse (DC 19), deeper darknessD, magic vestment, sands of timeUM 
-  2nd-align weaponD (evil only), bull's strength, desecrate, dread boltUM (DC
-  17), hold person (DC 18), silence (DC 17),  1st-bane (DC 17), cause fear (DC
-  17), command (DC 17), detect good, divine favor, protection from goodD,
-  sanctuary (DC 16)  0 (at will)-detect magic, guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +14)  5th-dispel goodD (DC
+    20), greater contagionUM (DC 21), slay living (DC 21)  4th-divine power,
+    poison (DC 20), shadow conjurationD (DC 19), spit venomUM (DC 19) 
+    3rd-animate dead, bestow curse (DC 19), deeper darknessD, magic vestment,
+    sands of timeUM  2nd-align weaponD (evil only), bull's strength, desecrate,
+    dread boltUM (DC 17), hold person (DC 18), silence (DC 17),  1st-bane (DC
+    17), cause fear (DC 17), command (DC 17), detect good, divine favor,
+    protection from goodD, sanctuary (DC 16)
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance
 SpellDomains: Darkness, Evil
 AbilityScores:
   - 20

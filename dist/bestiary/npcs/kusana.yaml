@@ -41,14 +41,17 @@ SpellLikeAbilities:
       value: inflict moderate wounds (DC 17), scorching ray, spider climb (self only)
     - label: 3/day
       value: quickened deep slumber (DC 17)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 9th; concentration +13)   5th-suffocationAPG (DC
-  20)   4th-confusion (DC 18), divination, poison (DC 19)   3rd-bestow curse (DC
-  18), major image (DC 17), remove curse, remove disease   2nd-augury, burning
-  gazeAPG (DC 16), death knell (DC 17), mirror image, see invisibility  
-  1st-beguiling giftAPG (DC 15), burning hands (DC 15), identify, mage armor,
-  obscuring mist   0 (at will)-bleed (DC 15), dancing lights, detect magic, read
-  magic
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 9th; concentration +13)   5th-suffocationAPG (DC
+    20)   4th-confusion (DC 18), divination, poison (DC 19)   3rd-bestow curse
+    (DC 18), major image (DC 17), remove curse, remove disease   2nd-augury,
+    burning gazeAPG (DC 16), death knell (DC 17), mirror image, see
+    invisibility   1st-beguiling giftAPG (DC 15), burning hands (DC 15),
+    identify, mage armor, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), dancing lights, detect magic, read magic
 AbilityScores:
   - 20
   - 25

@@ -40,11 +40,14 @@ SpellLikeAbilities:
         School Spell-Like Abilities (CL 4th; concentration +8)
     - label: 7/day
       value: blinding ray
-SpellsPrepared: >-
-  Illusionist Spells Prepared (CL 4th; concentration +8)  2nd-glitterdust (DC
-  16), invisibility, minor image (DC 17), mirror image  1st-mage armor,
-  protection from good, shield, shocking grasp, silent image (DC 16)  0 (at
-  will)-detect magic, ghost sound (DC 15), prestidigitation
+SpellsPrepared:
+  header: >-
+    Illusionist Spells Prepared (CL 4th; concentration +8)  2nd-glitterdust (DC
+    16), invisibility, minor image (DC 17), mirror image  1st-mage armor,
+    protection from good, shield, shocking grasp, silent image (DC 16)
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 15), prestidigitation
 AbilityScores:
   - 13
   - 17

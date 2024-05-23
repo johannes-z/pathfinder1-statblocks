@@ -33,11 +33,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: touch of evil (1 round)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-align weapon (evil
-  only)D, desecrate, resist energy   1st-bane (DC 13), doom (DC 13), obscuring
-  mist, protection from goodD   0 (at will)-bleed (DC 12), detect magic,
-  guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-align weapon (evil
+    only)D, desecrate, resist energy   1st-bane (DC 13), doom (DC 13), obscuring
+    mist, protection from goodD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, guidance, resistance
 SpellDomains: Evil, Liberation
 AbilityScores:
   - 15

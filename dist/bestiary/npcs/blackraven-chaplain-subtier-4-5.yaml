@@ -31,10 +31,13 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: battle rage (+1 damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +5)  1st-bless, doom (DC 14),
-  shield of faith, true strikeD  0 (at will)-bleed (DC 13), guidance,
-  resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +5)  1st-bless, doom (DC 14),
+    shield of faith, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), guidance, resistance, stabilize
 SpellDomains: Destruction, War
 AbilityScores:
   - 14

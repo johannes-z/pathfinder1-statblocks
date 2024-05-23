@@ -29,11 +29,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: copycat (4 rounds), fire bolt (1d6+2 fire)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +7)   2nd-cure moderate wounds,
-  hold person (DC 15), invisibilityD, spiritual weapon   1st-burning handsD (DC
-  14), command (DC 14), comprehend languages, cure light wounds (2)   0 (at
-  will)-bleed (DC 13), detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +7)   2nd-cure moderate
+    wounds, hold person (DC 15), invisibilityD, spiritual weapon   1st-burning
+    handsD (DC 14), command (DC 14), comprehend languages, cure light wounds (2)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, light, read magic
 SpellDomains: Fire, Trickery
 AbilityScores:
   - 12

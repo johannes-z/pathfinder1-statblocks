@@ -31,15 +31,18 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: battle rage (+5), bleeding touch (5 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +14)   5th-greater command (DC
-  19), greater contagionUM (DC 20), slay livingD (DC 20)   4th-air walk, cure
-  critical wounds (2), divine powerD, greater magic weapon  
-  3rd-blindness/deafness (DC 18), contagion (DC 18), dispel magic, magic
-  vestmentD, extended status   2nd-aid, cure moderate wounds (3), extended
-  shield of faith, spiritual weaponD   1st-cause fearD (DC 16), cure light
-  wounds (3), obscuring mist, sanctuary (DC 15)   0 (at will)-bleed (DC 15),
-  guidance, light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +14)   5th-greater command
+    (DC 19), greater contagionUM (DC 20), slay livingD (DC 20)   4th-air walk,
+    cure critical wounds (2), divine powerD, greater magic weapon  
+    3rd-blindness/deafness (DC 18), contagion (DC 18), dispel magic, magic
+    vestmentD, extended status   2nd-aid, cure moderate wounds (3), extended
+    shield of faith, spiritual weaponD   1st-cause fearD (DC 16), cure light
+    wounds (3), obscuring mist, sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), guidance, light, stabilize
 SpellDomains: Death, War
 AbilityScores:
   - 12

@@ -29,11 +29,16 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: ranged legerdemain, sneak attack +3d6, spell combat (-2 attack), spellstrike
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; concentration +8)   2nd-bear's endurance, glitterdust
-  (DC 14), mirror image, scorching ray   1st-corrosive touchUM, magic missile,
-  ray of enfeeblement (DC 13), shield, vanishAPG   0 (at will)-dancing lights,
-  ghost sound (DC 12), mage hand, prestidigitation (DC 12), ray of frost
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; concentration +8)   2nd-bear's endurance,
+    glitterdust (DC 14), mirror image, scorching ray   1st-corrosive touchUM,
+    magic missile, ray of enfeeblement (DC 13), shield, vanishAPG
+  values:
+    - label: 0 (at will)
+      value: >-
+        dancing lights, ghost sound (DC 12), mage hand, prestidigitation (DC
+        12), ray of frost
 AbilityScores:
   - 12
   - 15

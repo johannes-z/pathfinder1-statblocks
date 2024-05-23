@@ -25,11 +25,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: icicle (1d6+1 cold damage, 5/day), terrifying croak (DC 14)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 3rd; concentration +5)   2nd-bull's strength, burst
-  of nettlesD, summon swarm   1st-entangle (DC 13), hydraulic pushAPG,
-  longstrider, shillelagh   0 (at will)-flare (DC 12), guidance, mending,
-  resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 3rd; concentration +5)   2nd-bull's strength,
+    burst of nettlesD, summon swarm   1st-entangle (DC 13), hydraulic pushAPG,
+    longstrider, shillelagh
+  values:
+    - label: 0 (at will)
+      value: flare (DC 12), guidance, mending, resistance
 SpellDomains: SwampUM
 AbilityScores:
   - 15

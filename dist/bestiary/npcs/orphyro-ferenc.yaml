@@ -32,13 +32,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: bleeding touch (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +10)  4th-death wardD, freedom
-  of movement  3rd-animate deadD, cure serious wounds, dispel magic, wind wall 
-  2nd-eagle's splendor, magic mouthD, remove paralysis, resist energy,
-  undetectable alignment  1st-cause fearD (DC 14), entropic shield, hide from
-  undead, protection from good, remove fear, shield of faith  0 (at will)-detect
-  magic, detect poison, purify food and drink, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +10)  4th-death wardD, freedom
+    of movement  3rd-animate deadD, cure serious wounds, dispel magic, wind
+    wall  2nd-eagle's splendor, magic mouthD, remove paralysis, resist energy,
+    undetectable alignment  1st-cause fearD (DC 14), entropic shield, hide from
+    undead, protection from good, remove fear, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, purify food and drink, stabilize
 SpellDomains: Death, Magic
 AbilityScores:
   - 12

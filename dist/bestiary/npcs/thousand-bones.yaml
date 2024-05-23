@@ -25,15 +25,18 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hexes (bone ward, healing, tongues), wandering hex (intercessor)
-SpellsPrepared: >-
-  Shaman Spells Prepared (CL 8th; concentration +13)   4th-cure critical wounds,
-  divination, restoration; legend loreS or spiritual allyS, APG  
-  3rd-clairaudience/clairvoyance, create food and water, dispel magic, remove
-  disease; heroismS or locate objectS   2nd-animal messenger, calm emotions (DC
-  17), cure moderate wounds, hold person (DC 17); spiritual weaponS or
-  tonguesS   1st-charm person (DC 16), cure light wounds (3), detect undead,
-  produce flame; identifyS or unseen servantS   0 (at will)-create water, detect
-  poison, light, stabilize
+SpellsPrepared:
+  header: >-
+    Shaman Spells Prepared (CL 8th; concentration +13)   4th-cure critical
+    wounds, divination, restoration; legend loreS or spiritual allyS, APG  
+    3rd-clairaudience/clairvoyance, create food and water, dispel magic, remove
+    disease; heroismS or locate objectS   2nd-animal messenger, calm emotions
+    (DC 17), cure moderate wounds, hold person (DC 17); spiritual weaponS or
+    tonguesS   1st-charm person (DC 16), cure light wounds (3), detect undead,
+    produce flame; identifyS or unseen servantS
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, light, stabilize
 AbilityScores:
   - 5
   - 9

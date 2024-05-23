@@ -26,13 +26,18 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel positive energy (4d6, DC 15, 7/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th)  4th-dimension doorD, fireball (DC 18),
-  neutralize poison  3rd-dispel magic, flyD, prayer, revelation  2nd-detect
-  secret doors, lesser restoration, locate objectD, ray of enfeeblement, sound
-  burst (DC 16)  1st-comprehend languages (2), endure elements, longstriderD,
-  sanctuary (DC 15), shield of faith  0 (at will)-create water, detect magic,
-  guidance, read magic D Domain spell; Domains Luck, Travel
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th)  4th-dimension doorD, fireball (DC 18),
+    neutralize poison  3rd-dispel magic, flyD, prayer, revelation  2nd-detect
+    secret doors, lesser restoration, locate objectD, ray of enfeeblement, sound
+    burst (DC 16)  1st-comprehend languages (2), endure elements, longstriderD,
+    sanctuary (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, guidance, read magic D Domain spell; Domains
+        Luck, Travel
 AbilityScores:
   - 8
   - 10

@@ -33,12 +33,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: telekinetic fist (1d4+2 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 5th; concentration +8)   3rd-haste, lightning
-  bolt (DC 16), tongues   2nd-bull's strength, daze monster (DC 15), scorching
-  ray, see invisibility   1st-burning hands (DC 14), comprehend languages,
-  expeditious retreat, mage armor, magic missile   0 (at will)-arcane mark,
-  detect magic, mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 5th; concentration +8)   3rd-haste, lightning
+    bolt (DC 16), tongues   2nd-bull's strength, daze monster (DC 15), scorching
+    ray, see invisibility   1st-burning hands (DC 14), comprehend languages,
+    expeditious retreat, mage armor, magic missile
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, mage hand, read magic
 AbilityScores:
   - 14
   - 13

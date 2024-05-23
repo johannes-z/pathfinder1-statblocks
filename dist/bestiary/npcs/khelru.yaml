@@ -31,11 +31,14 @@ SpellLikeAbilities:
   values:
     - label: At Will
       value: lore keeper (21)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-bull's strength,
-  detect thoughtsD (DC 15), spiritual weapon   1st-comprehend languagesD, hide
-  from undead, shield of faith, sun metalUC   0 (at will)-detect magic,
-  guidance, light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-bull's strength,
+    detect thoughtsD (DC 15), spiritual weapon   1st-comprehend languagesD, hide
+    from undead, shield of faith, sun metalUC
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, stabilize
 SpellDomains: Knowledge, Magic
 AbilityScores:
   - 13

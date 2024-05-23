@@ -25,10 +25,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 5th; concentration +8, +12 to cast defensively)  
-  2nd-blur, scorching ray   1st-ray of enfeeblement (DC 14), shield, shocking
-  grasp, true strike   0 (at will)-acid splash, detect magic, mage hand
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 5th; concentration +8, +12 to cast defensively)  
+    2nd-blur, scorching ray   1st-ray of enfeeblement (DC 14), shield, shocking
+    grasp, true strike
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, mage hand
 AbilityScores:
   - 12
   - 14

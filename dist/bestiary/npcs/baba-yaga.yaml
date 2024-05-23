@@ -41,28 +41,32 @@ SpecialAttacks: >-
   rounds], scarUM, life giver, slumber [20 rounds], witch's hutUM, vision),
   mythic hexes, mythic power (23/ day, surge +1d12), mythic presence (DC 28),
   reverse scrying, sanctum, throw spell
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 20th; concentration +38)   9th-dominate monster (DC
-  37), foresight, gate, time stopM, wail of the banshee (DC 37), weird (DC 37),
-  wishM   8th-binding (DC 36), quickened dimension door, maze, quickened
-  phantasmal killer (DC 36), polymorph any object (DC 36), stormboltsAPG (DC
-  36), symbol of death (DC 36)   7th-control weather, finger of deathM (DC 35),
-  greater teleport, healM, jolting portentUC (DC 35), terraformM, MA, temporary
-  resurrectionUM   6th-quickened blindness/deafness (DC 34), chain lightningM
-  (DC 34), disintegrateM (DC 34), eyebite (DC 34), greater dispel magic, slay
-  living (DC 34), true seeing   5th-baleful polymorphM (DC 33), break
-  enchantmentM, dominate personM (DC 33), feeblemind (DC 33), greater forbid
-  actionUM (DC 33), major curseUM (DC 33), smug narcissismUM, steal powerM, MA
-  (DC 33)   4th-bestow curse (DC 32), charm monster (DC 32), confusion (DC 32),
-  dimensional anchor, ice stormM, greater invisibility, stoneskinM, terrible
-  remorseUM (DC 32)   3rd-cackling skullUM (DC 31), dispel magicM, fireballM (DC
-  31), fly, hasteM, lightning bolt (DC 31), protection from energy, suggestionM
-  (DC 31)   2nd-anticipate perilUM (DC 30), glitterdust (DC 30), mad
-  hallucinationUM (DC 30), mirror imageM, miserable pityUM (DC 30), pox
-  pustulesM, APG (DC 30), touch of idiocy, web (DC 30)   1st-beguiling giftAPG
-  (DC 30), bungleUM (DC 30), charm person (DC 29), disguise self (DC 29),
-  feather fall, fumbletongueUM (DC 30), magic missileM (2)   0 (at will)-daze
-  (DC 28), mending, prestidigitation, read magic
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 20th; concentration +38)   9th-dominate monster
+    (DC 37), foresight, gate, time stopM, wail of the banshee (DC 37), weird (DC
+    37), wishM   8th-binding (DC 36), quickened dimension door, maze, quickened
+    phantasmal killer (DC 36), polymorph any object (DC 36), stormboltsAPG (DC
+    36), symbol of death (DC 36)   7th-control weather, finger of deathM (DC
+    35), greater teleport, healM, jolting portentUC (DC 35), terraformM, MA,
+    temporary resurrectionUM   6th-quickened blindness/deafness (DC 34), chain
+    lightningM (DC 34), disintegrateM (DC 34), eyebite (DC 34), greater dispel
+    magic, slay living (DC 34), true seeing   5th-baleful polymorphM (DC 33),
+    break enchantmentM, dominate personM (DC 33), feeblemind (DC 33), greater
+    forbid actionUM (DC 33), major curseUM (DC 33), smug narcissismUM, steal
+    powerM, MA (DC 33)   4th-bestow curse (DC 32), charm monster (DC 32),
+    confusion (DC 32), dimensional anchor, ice stormM, greater invisibility,
+    stoneskinM, terrible remorseUM (DC 32)   3rd-cackling skullUM (DC 31),
+    dispel magicM, fireballM (DC 31), fly, hasteM, lightning bolt (DC 31),
+    protection from energy, suggestionM (DC 31)   2nd-anticipate perilUM (DC
+    30), glitterdust (DC 30), mad hallucinationUM (DC 30), mirror imageM,
+    miserable pityUM (DC 30), pox pustulesM, APG (DC 30), touch of idiocy, web
+    (DC 30)   1st-beguiling giftAPG (DC 30), bungleUM (DC 30), charm person (DC
+    29), disguise self (DC 29), feather fall, fumbletongueUM (DC 30), magic
+    missileM (2)
+  values:
+    - label: 0 (at will)
+      value: daze (DC 28), mending, prestidigitation, read magic
 AbilityScores:
   - 17
   - 20

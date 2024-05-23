@@ -43,16 +43,19 @@ SpellLikeAbilities:
   values:
     - label: At Will
       value: master's illusion (10 rounds/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +15)   5th-flame strike (DC
-  20), true seeing, wall of stone, wall of thornsD   4th-air walk, confusionD
-  (DC 19), divine power, freedom of movement, inflict critical wounds (DC 19)  
-  3rd-bestow curse (DC 18), blindness/deafness (DC 18), contagionD (DC 18),
-  dispel magic, invisibility purge   2nd-bull's strength, inflict moderate
-  wounds (DC 17, 2), mirror imageD, resist energy, shatter (DC 17)   1st-command
-  (DC 16), divine favor, doom (DC 16), entangleD (DC 16), murderous commandUM
-  (DC 16), protection from good, shield of faith   0 (at will)-bleed (DC 15),
-  detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +15)   5th-flame strike (DC
+    20), true seeing, wall of stone, wall of thornsD   4th-air walk, confusionD
+    (DC 19), divine power, freedom of movement, inflict critical wounds (DC
+    19)   3rd-bestow curse (DC 18), blindness/deafness (DC 18), contagionD (DC
+    18), dispel magic, invisibility purge   2nd-bull's strength, inflict
+    moderate wounds (DC 17, 2), mirror imageD, resist energy, shatter (DC 17)  
+    1st-command (DC 16), divine favor, doom (DC 16), entangleD (DC 16),
+    murderous commandUM (DC 16), protection from good, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, resistance
 SpellDomains: Plant (Decay subdomain), Trickery (Deception subdomain)
 AbilityScores:
   - 16

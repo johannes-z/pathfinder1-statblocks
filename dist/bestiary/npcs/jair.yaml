@@ -40,12 +40,16 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: copycat 7 rounds/day-clairvoyance/clairaudience
-SpellsPrepared: >-
-  Spells Prepared (CL 6th) 3rd-blindness/deafness (DC 18), dispel magic, speak
-  with deadD (DC 18), summon monster III 2nd-darkness, death knell (DC 17), find
-  traps, invisibilityD, silence (DC 17) 1st-command (DC 16), comprehend
-  languages, disguise selfD (DC 16), divine favor, obscuring mist, sanctuary (DC
-  16) 0 (at will)-bleed (DC 15), detect magic, mending, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th) 3rd-blindness/deafness (DC 18), dispel magic, speak
+    with deadD (DC 18), summon monster III 2nd-darkness, death knell (DC 17),
+    find traps, invisibilityD, silence (DC 17) 1st-command (DC 16), comprehend
+    languages, disguise selfD (DC 16), divine favor, obscuring mist, sanctuary
+    (DC 16)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, mending, read magic
 SpellDomains: Knowledge, Trickery
 AbilityScores:
   - 18

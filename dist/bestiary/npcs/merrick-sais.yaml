@@ -42,16 +42,19 @@ SpecialAttacks: >-
   blood drain, children of the night, create spawn, dominate (DC 19), energy
   drain (2 levels, DC 19), wild shape 11 hours/day, wooden fist (+5, 8
   rounds/day)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 11th; concentration +16)  6th-repel woodD, sirocco*
-  (DC 21)  5th-call lightning storm (DC 20), stoneskin, tree stride, wall of
-  thornsD  4th-ball lightning* (DC 19), command plantsD, dispel magic, flame
-  strike (DC 19), ice storm  3rd-call lightning (DC 18), greater magic fang,
-  plant growthD, quench, speak with plants, spike growth (DC 18)  2nd-barkskinD,
-  bull's strength, chill metal (DC 17), flame blade, fog cloud, tree shape 
-  1st-charm animal (DC 16), entangleD (DC 16), faerie fire, longstrider, magic
-  stone, produce flame (2)  0 (at will)-flare (DC 15), guidance, mending,
-  resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 11th; concentration +16)  6th-repel woodD,
+    sirocco* (DC 21)  5th-call lightning storm (DC 20), stoneskin, tree stride,
+    wall of thornsD  4th-ball lightning* (DC 19), command plantsD, dispel magic,
+    flame strike (DC 19), ice storm  3rd-call lightning (DC 18), greater magic
+    fang, plant growthD, quench, speak with plants, spike growth (DC 18) 
+    2nd-barkskinD, bull's strength, chill metal (DC 17), flame blade, fog cloud,
+    tree shape  1st-charm animal (DC 16), entangleD (DC 16), faerie fire,
+    longstrider, magic stone, produce flame (2)
+  values:
+    - label: 0 (at will)
+      value: flare (DC 15), guidance, mending, resistance
 SpellDomains: Plant
 AbilityScores:
   - 24

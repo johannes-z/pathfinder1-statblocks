@@ -31,16 +31,19 @@ SpellLikeAbilities:
       value: detect scrying
     - label: 8/day
       value: diviner's fortune (+6)
-SpellsPrepared: >-
-  Diviner Spells Prepared (CL 12th; concentration +17)   6th-disintegrate (DC
-  21), globe of invulnerability, true seeing   5th-contact other plane,
-  interposing hand, lightning arcUM (DC 22), overland flight, teleport  
-  4th-fire shield, greater invisibility, resilient sphere (DC 21), scrying (DC
-  19), stoneskin   3rd-arcane sight, clairaudience/clairvoyance, dispel magic,
-  fireball (DC 20), haste, protection from energy   2nd-darkvision, glitterdust
-  (2, DC 17), locate object, scorching ray (2)   1st-alarm, alter windsAPG (DC
-  16), identify, magic missile (3), shield   0 (at will)-detect poison, light,
-  prestidigitation, read magic
+SpellsPrepared:
+  header: >-
+    Diviner Spells Prepared (CL 12th; concentration +17)   6th-disintegrate (DC
+    21), globe of invulnerability, true seeing   5th-contact other plane,
+    interposing hand, lightning arcUM (DC 22), overland flight, teleport  
+    4th-fire shield, greater invisibility, resilient sphere (DC 21), scrying (DC
+    19), stoneskin   3rd-arcane sight, clairaudience/clairvoyance, dispel magic,
+    fireball (DC 20), haste, protection from energy   2nd-darkvision,
+    glitterdust (2, DC 17), locate object, scorching ray (2)   1st-alarm, alter
+    windsAPG (DC 16), identify, magic missile (3), shield
+  values:
+    - label: 0 (at will)
+      value: detect poison, light, prestidigitation, read magic
 AbilityScores:
   - 8
   - 16

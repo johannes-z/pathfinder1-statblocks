@@ -28,11 +28,15 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy 7/day (DC 18, 3d6), destructive smite (+2, 7/day),
   hand of the acolyte (7/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +9)  3rd-cure serious wounds,
-  prayer, rageD  2nd-aid, bull's strength, hold person (DC 16), shatterD 
-  1st-command (DC 15), cure light wounds, divine favor, shield of faith, true
-  strikeD  0 (at will)-bleed, detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +9)  3rd-cure serious wounds,
+    prayer, rageD  2nd-aid, bull's strength, hold person (DC 16), shatterD 
+    1st-command (DC 15), cure light wounds, divine favor, shield of faith, true
+    strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed, detect magic, light, read magic
 SpellDomains: Destruction, Magic
 AbilityScores:
   - 14

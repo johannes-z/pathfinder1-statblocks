@@ -30,16 +30,20 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: command robot 1/day, hand of the apprentice (9/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 12th; concentration +18)   6th-chain lightning (DC
-  23), disintegrate, wall of iron (DC 22)   5th-cone of cold (DC 22), destroy
-  robotTG (DC 22), overland flight, teleport   4th-dimension door, extended
-  displacement, ice storm, malfunctionUM (DC 20), rebuke technologyTG (DC 21)  
-  3rd-dispel magic, extended false life, greater magic weapon, lightning bolt
-  (DC 20), rechargeTG   2nd-defensive shockUM, glitterdust (DC 18),
-  invisibility, extended mage armor, make whole, resist energy   1st-chill touch
-  (DC 17), crafter's fortuneAPG (DC 17), magic missile (3), shield,
-  technomancyTG   0 (at will)-arcane mark, light, mage hand, mending
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 12th; concentration +18)   6th-chain lightning
+    (DC 23), disintegrate, wall of iron (DC 22)   5th-cone of cold (DC 22),
+    destroy robotTG (DC 22), overland flight, teleport   4th-dimension door,
+    extended displacement, ice storm, malfunctionUM (DC 20), rebuke technologyTG
+    (DC 21)   3rd-dispel magic, extended false life, greater magic weapon,
+    lightning bolt (DC 20), rechargeTG   2nd-defensive shockUM, glitterdust (DC
+    18), invisibility, extended mage armor, make whole, resist energy  
+    1st-chill touch (DC 17), crafter's fortuneAPG (DC 17), magic missile (3),
+    shield, technomancyTG
+  values:
+    - label: 0 (at will)
+      value: arcane mark, light, mage hand, mending
 AbilityScores:
   - 8
   - 15

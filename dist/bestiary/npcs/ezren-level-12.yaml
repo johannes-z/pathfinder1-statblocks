@@ -27,16 +27,20 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (10/day), metamagic mastery (3/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 12th; concentration +19)   6th-disintegrate (DC
-  23), greater dispel magic, summon monster VI   5th-cloudkill (DC 22), cone of
-  cold (DC 24), empowered lightning bolt, teleport   4th-dimension door, greater
-  invisibility, scrying (DC 21), shout (DC 23)   3rd-dispel magic, fireball (DC
-  22), fly, haste, lightning bolt (DC 22), tongues   2nd-acid arrow, glitterdust
-  (DC 19), knock, scorching ray (2), spider climb   1st-burning hands (DC 20),
-  charm person (DC 18), expeditious retreat, grease, mage armor, magic missile,
-  obscuring mist, protection from evil, shield (2)   0 (at will)-acid splash,
-  detect magic, light, mage hand
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 12th; concentration +19)   6th-disintegrate (DC
+    23), greater dispel magic, summon monster VI   5th-cloudkill (DC 22), cone
+    of cold (DC 24), empowered lightning bolt, teleport   4th-dimension door,
+    greater invisibility, scrying (DC 21), shout (DC 23)   3rd-dispel magic,
+    fireball (DC 22), fly, haste, lightning bolt (DC 22), tongues   2nd-acid
+    arrow, glitterdust (DC 19), knock, scorching ray (2), spider climb  
+    1st-burning hands (DC 20), charm person (DC 18), expeditious retreat,
+    grease, mage armor, magic missile, obscuring mist, protection from evil,
+    shield (2)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, mage hand
 AbilityScores:
   - 10
   - 14

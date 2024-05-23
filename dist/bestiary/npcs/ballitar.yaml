@@ -33,15 +33,18 @@ SpellLikeAbilities:
       value: invisibility field (10 rounds/day)
     - label: 7/day
       value: blinding ray
-SpellsPrepared: >-
-  Illusionist Spells Prepared (CL 10th; concentration +14)   5th-prying eyes,
-  shadow evocation (DC 20), telekinesis (DC 19)   4th-confusion (DC 18),
-  extended displacement, phantasmal killer (DC 18), shadow conjuration (2)  
-  3rd-dispel magic, haste, major image (DC 17), slow (DC 17), vampiric touch
-  (2)   2nd-blur, detect thoughts (DC 16), extended endure elements (2), minor
-  image (DC 16), mirror image   1st-color spray (3, DC 15), feather fall,
-  shield, silent image (DC 15)   0 (at will)-detect magic, ghost sound (DC 14),
-  mage hand, prestidigitation
+SpellsPrepared:
+  header: >-
+    Illusionist Spells Prepared (CL 10th; concentration +14)   5th-prying eyes,
+    shadow evocation (DC 20), telekinesis (DC 19)   4th-confusion (DC 18),
+    extended displacement, phantasmal killer (DC 18), shadow conjuration (2)  
+    3rd-dispel magic, haste, major image (DC 17), slow (DC 17), vampiric touch
+    (2)   2nd-blur, detect thoughts (DC 16), extended endure elements (2), minor
+    image (DC 16), mirror image   1st-color spray (3, DC 15), feather fall,
+    shield, silent image (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 14), mage hand, prestidigitation
 AbilityScores:
   - 14
   - 16

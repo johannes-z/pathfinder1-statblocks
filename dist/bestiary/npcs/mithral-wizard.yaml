@@ -34,19 +34,23 @@ SpellLikeAbilities:
       value: elemental wall (8 rounds/day)
     - label: 11/day
       value: force missile (1d4+4)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 17th; concentration +25; arcane spell failure
-  25%)   9th-meteor swarm, time stop   8th-mass charm monster (DC 26), mind
-  blank, quickened phantasmal killer, polar ray   7th-banishment (DC 25),
-  quickened fireball (2), mass hold person (DC 25), reverse gravity   6th-chain
-  lightning (DC 24), disintegrate (DC 24), quickened glitterdust, greater dispel
-  magic, stilled teleport, wall of iron   5th-cloudkill (DC 23), stilled
-  dimension door, interposing hand, teleport, wall of force (2)   4th-beast
-  shape II, confusion (DC 22), dimension door, fire shield, stilled fireball,
-  stoneskin, wall of ice (DC 22)   3rd-dispel magic (2), fireball (2, DC 21),
-  fly, lightning bolt (2, DC 21)   2nd-acid arrow (2), darkvision, invisibility,
-  mirror image, scorching ray, web (DC 20)   1st-feather fall, magic missile
-  (4), mount, shield   0 (at will)-detect magic, light, mage hand, message
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 17th; concentration +25; arcane spell failure
+    25%)   9th-meteor swarm, time stop   8th-mass charm monster (DC 26), mind
+    blank, quickened phantasmal killer, polar ray   7th-banishment (DC 25),
+    quickened fireball (2), mass hold person (DC 25), reverse gravity  
+    6th-chain lightning (DC 24), disintegrate (DC 24), quickened glitterdust,
+    greater dispel magic, stilled teleport, wall of iron   5th-cloudkill (DC
+    23), stilled dimension door, interposing hand, teleport, wall of force (2)  
+    4th-beast shape II, confusion (DC 22), dimension door, fire shield, stilled
+    fireball, stoneskin, wall of ice (DC 22)   3rd-dispel magic (2), fireball
+    (2, DC 21), fly, lightning bolt (2, DC 21)   2nd-acid arrow (2), darkvision,
+    invisibility, mirror image, scorching ray, web (DC 20)   1st-feather fall,
+    magic missile (4), mount, shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, message
 AbilityScores:
   - 16
   - 13

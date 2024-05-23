@@ -32,12 +32,15 @@ Reach: 5 ft.
 SpecialAttacks: >-
   arcane pool (+2, 11 points), improved spell combat, magus arcana (arcane
   accuracyUM, empowered magicUM, pool strikeUM) spell recall, spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 8th; concentration +13)   3rd-fireball (DC 18),
-  haste, keen edge   2nd-elemental touchAPG, frigid touchUM, glitterdust (DC
-  17), mirror image   1st-corrosive touchUM (2), shield, shocking grasp (2),
-  true strike   0 (at will)-acid splash, daze (DC 15), detect magic, mage hand,
-  read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 8th; concentration +13)   3rd-fireball (DC 18),
+    haste, keen edge   2nd-elemental touchAPG, frigid touchUM, glitterdust (DC
+    17), mirror image   1st-corrosive touchUM (2), shield, shocking grasp (2),
+    true strike
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 15), detect magic, mage hand, read magic
 AbilityScores:
   - 14
   - 14

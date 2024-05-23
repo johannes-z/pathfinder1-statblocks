@@ -34,15 +34,18 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: battle rage (+4 damage), strength surge (+4)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +13)   4th-chaos hammer (DC 19),
-  divine powerD, freedom of movement, unholy blight (DC 19)  
-  3rd-blindness/deafness (DC 18), dispel magic, invisibility purge, magic
-  vestmentD, prayer   2nd-bull's strengthD, disfiguring touchUM (DC 17), dread
-  boltUM (DC 17), effortless armorUC, hold person (DC 17)   1st-deathwatch, doom
-  (DC 16), entropic shield, magic weaponD, murderous commandUM (DC 16), ray of
-  sickeningUM (DC 16), shield of faith   0 (at will)-bleed (DC 15), detect
-  magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +13)   4th-chaos hammer (DC
+    19), divine powerD, freedom of movement, unholy blight (DC 19)  
+    3rd-blindness/deafness (DC 18), dispel magic, invisibility purge, magic
+    vestmentD, prayer   2nd-bull's strengthD, disfiguring touchUM (DC 17), dread
+    boltUM (DC 17), effortless armorUC, hold person (DC 17)   1st-deathwatch,
+    doom (DC 16), entropic shield, magic weaponD, murderous commandUM (DC 16),
+    ray of sickeningUM (DC 16), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, resistance
 SpellDomains: Strength, War
 AbilityScores:
   - 18

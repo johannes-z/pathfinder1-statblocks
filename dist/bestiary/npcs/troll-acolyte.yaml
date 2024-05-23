@@ -33,10 +33,13 @@ SpellLikeAbilities:
   values:
     - label: 4/day
       value: storm burst (1d6+1 nonlethal)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +3)    1st-bless, divine favor,
-  obscuring mistD, sun metalUC   0 (at will)-bleed (DC 11), detect magic,
-  resistance, sparkAPG
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +3)    1st-bless, divine
+    favor, obscuring mistD, sun metalUC
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 11), detect magic, resistance, sparkAPG
 SpellDomains: Destruction, Weather
 AbilityScores:
   - 21

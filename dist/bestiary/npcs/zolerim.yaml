@@ -31,20 +31,26 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: blast rune (1d6+1 energy damage, 3 rounds)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 9th; concentration +13)   5th-wall of force  
-  4th-dimension door, fear (DC 18), fire shield   3rd-dispel magic, extended
-  false life, fly, lightning bolt (DC 17)   2nd-acid arrow, glitterdust (DC 16),
-  extended mage armor, mirror image, extended shield   1st-charm person (DC 15),
-  magic missile (3), ray of enfeeblement (DC 15)   0 (at will)-arcane mark, mage
-  hand, message, prestidigitation Cleric Spells Prepared (CL 9th; concentration
-  +13)   5th-flame strike (DC 19), shoutD (DC 19)   4th-cure critical wounds,
-  explosive runesD (DC 17), freedom of movement, sending   3rd-cure serious
-  wounds (2), dispel magic, glyph of wardingD, meld into stone   2nd-hold person
-  (DC 16), resist energy, shatterD (DC 16), extended shield of faith, sound
-  burst (DC 16), spiritual weapon   1st-command (DC 15), cure light wounds (3),
-  sanctuary (DC 15), true strikeD   0 (at will)-bleed (DC 14), create water,
-  light, stabilize
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 9th; concentration +13)   5th-wall of force  
+    4th-dimension door, fear (DC 18), fire shield   3rd-dispel magic, extended
+    false life, fly, lightning bolt (DC 17)   2nd-acid arrow, glitterdust (DC
+    16), extended mage armor, mirror image, extended shield   1st-charm person
+    (DC 15), magic missile (3), ray of enfeeblement (DC 15)
+  values:
+    - label: 0 (at will)
+      value: >-
+        arcane mark, mage hand, message, prestidigitation Cleric Spells Prepared
+        (CL 9th; concentration +13) 5th-flame strike (DC 19), shoutD (DC 19)
+        4th-cure critical wounds, explosive runesD (DC 17), freedom of movement,
+        sending 3rd-cure serious wounds (2), dispel magic, glyph of wardingD,
+        meld into stone 2nd-hold person (DC 16), resist energy, shatterD (DC
+        16), extended shield of faith, sound burst (DC 16), spiritual weapon
+        1st-command (DC 15), cure light wounds (3), sanctuary (DC 15), true
+        strikeD
+    - label: 0 (at will)
+      value: bleed (DC 14), create water, light, stabilize
 SpellDomains: Destruction, Rune
 AbilityScores:
   - 8

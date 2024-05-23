@@ -37,12 +37,15 @@ SpellLikeAbilities:
         +2)
     - label: 3/day
       value: mage hand
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)  3rd-create food and water,
-  helping hand, searing lightD  2nd-bless weaponD, calm emotions (DC 15), lesser
-  restoration, resist energy  1st-comprehend languages, detect evil, endure
-  elementsD, protection from evil, sanctuary (DC 14)  0 (at will)-create water,
-  detect poison, mending, purify food and drink
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)  3rd-create food and
+    water, helping hand, searing lightD  2nd-bless weaponD, calm emotions (DC
+    15), lesser restoration, resist energy  1st-comprehend languages, detect
+    evil, endure elementsD, protection from evil, sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, mending, purify food and drink
 SpellDomains: Glory, Sun
 AbilityScores:
   - 12

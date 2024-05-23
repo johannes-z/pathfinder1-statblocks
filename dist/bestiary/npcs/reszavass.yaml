@@ -29,11 +29,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: lightning arc (1d6+1 electricity)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 3rd; concentration +5)   2nd-bear's endurance, chill
-  metal (DC 14), wind wallD   1st-entangle (DC 13), hydraulic pushAPG, magic
-  fang, obscuring mistD   0 (at will)-create water, detect poison, purify food
-  and drink (DC 12), resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 3rd; concentration +5)   2nd-bear's endurance,
+    chill metal (DC 14), wind wallD   1st-entangle (DC 13), hydraulic pushAPG,
+    magic fang, obscuring mistD
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, purify food and drink (DC 12), resistance
 SpellDomains: Air
 AbilityScores:
   - 13

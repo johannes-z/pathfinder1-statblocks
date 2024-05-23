@@ -35,15 +35,18 @@ SpellLikeAbilities:
       value: bleeding touch (5 rounds)
     - label: 1/day
       value: dispelling touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +14)  5th-insect plague, spell
-  resistanceD, wall of stone (DC 19)  4th-air walk, cure critical wounds, death
-  wardD, dismissal (DC 18), freedom of movement  3rd-animate deadD, cure serious
-  wounds, dispel magic, invisibility purge, wind wall  2nd-desecrate, eagle's
-  splendor, magic mouthD, remove paralysis, resist energy, undetectable
-  alignment  1st-cause fearD (DC 15), entropic shield, hide from undead,
-  protection from good, remove fear, shield of faith  0 (at will)-detect magic,
-  detect poison, purify food and drink, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +14)  5th-insect plague,
+    spell resistanceD, wall of stone (DC 19)  4th-air walk, cure critical
+    wounds, death wardD, dismissal (DC 18), freedom of movement  3rd-animate
+    deadD, cure serious wounds, dispel magic, invisibility purge, wind wall 
+    2nd-desecrate, eagle's splendor, magic mouthD, remove paralysis, resist
+    energy, undetectable alignment  1st-cause fearD (DC 15), entropic shield,
+    hide from undead, protection from good, remove fear, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, purify food and drink, stabilize
 SpellDomains: Death, Magic
 AbilityScores:
   - 12

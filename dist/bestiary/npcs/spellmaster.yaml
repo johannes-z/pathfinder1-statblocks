@@ -29,14 +29,17 @@ SpecialAttacks: >-
   arcane pool (+3, 10 points), improved spell combat, improved spell recall,
   magus arcana (arcane accuracyUM, close rangeUM, critical strikeUM, hasted
   assaultUM), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 12th; concentration +16)   4th-arcana theftUM,
-  greater invisibility, monstrous physique IIUM, stoneskin   3rd-dispel magic,
-  fly, force punchUM (DC 17), ray of exhaustion (DC 17), vampiric touch  
-  2nd-bear's endurance, frigid touchUM, invisibility, mirror image, intensified
-  shocking grasp (2)   1st-chill touch (DC 15), corrosive touchUM, frostbiteUM,
-  shield, true strike (2)   0 (at will)-acid splash, arcane mark, detect magic,
-  light, mage hand
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 12th; concentration +16)   4th-arcana theftUM,
+    greater invisibility, monstrous physique IIUM, stoneskin   3rd-dispel magic,
+    fly, force punchUM (DC 17), ray of exhaustion (DC 17), vampiric touch  
+    2nd-bear's endurance, frigid touchUM, invisibility, mirror image,
+    intensified shocking grasp (2)   1st-chill touch (DC 15), corrosive touchUM,
+    frostbiteUM, shield, true strike (2)
+  values:
+    - label: 0 (at will)
+      value: acid splash, arcane mark, detect magic, light, mage hand
 AbilityScores:
   - 18
   - 12

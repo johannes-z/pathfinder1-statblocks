@@ -24,11 +24,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 6th; concentration +10)   3rd-displacement,
-  lightning bolt (DC 17), slow (DC 17)   2nd-mirror image, scorching ray (2),
-  whispering wind   1st-mage armor, magic missile (2), ray of enfeeblement (DC
-  15)   0 (at will)-acid splash, detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 6th; concentration +10)   3rd-displacement,
+    lightning bolt (DC 17), slow (DC 17)   2nd-mirror image, scorching ray (2),
+    whispering wind   1st-mage armor, magic missile (2), ray of enfeeblement (DC
+    15)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, read magic
 AbilityScores:
   - 12
   - 10

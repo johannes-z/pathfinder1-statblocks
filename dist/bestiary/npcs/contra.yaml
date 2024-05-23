@@ -25,10 +25,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hexes (charm [DC 14], slumber [DC 14]), swarming
-SpellsPrepared: >-
-  Spells Prepared (CL 2nd; ranged touch +4)  1st-burning hands (DC 14), charm
-  animal (DC 14), ray of enfeeblement (DC 14)   0 (at will)-detect magic, daze
-  (DC 13), light, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 2nd; ranged touch +4)  1st-burning hands (DC 14), charm
+    animal (DC 14), ray of enfeeblement (DC 14)
+  values:
+    - label: 0 (at will)
+      value: detect magic, daze (DC 13), light, read magic
 AbilityScores:
   - 10
   - 15

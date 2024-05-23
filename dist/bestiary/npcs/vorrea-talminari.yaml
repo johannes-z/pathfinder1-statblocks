@@ -31,15 +31,18 @@ Reach: 5 ft.
 SpecialAttacks: >-
   greater spell combat, improved spell combat, spell combat (-2 attack, +2
   concentration, double bonus), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 16th; concentration +19)  6th-chain lightning (DC
-  19)  5th-cone of cold (DC 18), corrosive consumptionUM, overland flight 
-  4th-black tentacles, greater infernal healingISWG, wall of fire, wall of
-  soundUM  3rd-blink, fly, force hook chargeUM, force punchUM (2, DC 16),
-  lightning bolt (DC 16)  2nd-blur, cat's grace, frigid touchUM (2), scorching
-  ray (2)  1st-adjuring stepUC, frostbiteUM (2), hydraulic pushAPG, shield,
-  shocking grasp  0 (at will)-acid splash, daze (DC 13), detect magic, flare (DC
-  13), ray of frost
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 16th; concentration +19)  6th-chain lightning (DC
+    19)  5th-cone of cold (DC 18), corrosive consumptionUM, overland flight 
+    4th-black tentacles, greater infernal healingISWG, wall of fire, wall of
+    soundUM  3rd-blink, fly, force hook chargeUM, force punchUM (2, DC 16),
+    lightning bolt (DC 16)  2nd-blur, cat's grace, frigid touchUM (2), scorching
+    ray (2)  1st-adjuring stepUC, frostbiteUM (2), hydraulic pushAPG, shield,
+    shocking grasp
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 13), detect magic, flare (DC 13), ray of frost
 AbilityScores:
   - 17
   - 13

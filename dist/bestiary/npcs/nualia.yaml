@@ -38,11 +38,14 @@ SpellLikeAbilities:
   values:
     - label: 1/day
       value: daylight
-SpellsPrepared: >-
-  Spells Prepared (CL 4th; concentration +7)   2nd-bull's strengthD, cat's
-  grace, cure moderate wounds, shatter (DC 15)   1st-divine favor, doomD (DC
-  14), obscuring mist, sanctuary (DC 14), shield of faith   0 (at will)-bleed
-  (DC 13), detect magic, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 4th; concentration +7)   2nd-bull's strengthD, cat's
+    grace, cure moderate wounds, shatter (DC 15)   1st-divine favor, doomD (DC
+    14), obscuring mist, sanctuary (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, mending, stabilize
 SpellDomains: Demon, Ferocity
 AbilityScores:
   - 16

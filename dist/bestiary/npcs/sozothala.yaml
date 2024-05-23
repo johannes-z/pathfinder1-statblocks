@@ -35,15 +35,20 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: grave touch (4 rounds)
-SpellsPrepared: >-
-  Necromancer Spells Prepared (CL 9th; concentration +14) 5th-quickened shield,
-  waves of fatigue (2) 4th-animate dead, bestow curse (DC 19), fear (DC 19),
-  wall of fire (DC 19) 3rd-dispel magic, fly, lightning bolt (DC 18), ray of
-  exhaustion (DC 18), vampiric touch 2nd-blindness/deafness (DC 17), command
-  undead, darkness, false life, scorching ray, touch of idiocy (DC 17)
-  1st-alarm, charm person (DC 16), magic missile (3), ray of enfeeblement (2, DC
-  16) 0 (at will)-bleed (DC 15), detect magic, mage hand, message, touch of
-  fatigue (DC 15)
+SpellsPrepared:
+  header: >-
+    Necromancer Spells Prepared (CL 9th; concentration +14) 5th-quickened
+    shield, waves of fatigue (2) 4th-animate dead, bestow curse (DC 19), fear
+    (DC 19), wall of fire (DC 19) 3rd-dispel magic, fly, lightning bolt (DC 18),
+    ray of exhaustion (DC 18), vampiric touch 2nd-blindness/deafness (DC 17),
+    command undead, darkness, false life, scorching ray, touch of idiocy (DC 17)
+    1st-alarm, charm person (DC 16), magic missile (3), ray of enfeeblement (2,
+    DC 16)
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 15), detect magic, mage hand, message, touch of fatigue (DC
+        15)
 AbilityScores:
   - 22
   - 20

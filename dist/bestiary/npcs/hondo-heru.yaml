@@ -26,15 +26,18 @@ Reach: 5 ft.
 SpecialAttacks: >-
   sneak attack +1d6 Arcane School Spell-Like Abilities (CL 10th; concentration
   +15) 8/day-diviner's fortune (+5)
-SpellsPrepared: >-
-  Diviner Spells Prepared (CL 10th; concentration +15)  5th-cloudkill (DC 20),
-  quickened true strike, teleport, transmute rock to mud  4th-black tentacles,
-  dimension door, greater invisibility, scrying, shout (DC 19)  3rd-arcane
-  sight, dispel magic, fly, haste, stinking cloud (DC 18)  2nd-invisibility,
-  mirror image, scorching ray (2), see invisibility, web (DC 17)  1st-alarm,
-  mage armor, magic missile, ray of enfeeblement (DC 16), shield, true strike,
-  ventriloquism  0 (at will)-acid splash, detect magic, light, mage hand,
-  prestidigitation
+SpellsPrepared:
+  header: >-
+    Diviner Spells Prepared (CL 10th; concentration +15)  5th-cloudkill (DC 20),
+    quickened true strike, teleport, transmute rock to mud  4th-black tentacles,
+    dimension door, greater invisibility, scrying, shout (DC 19)  3rd-arcane
+    sight, dispel magic, fly, haste, stinking cloud (DC 18)  2nd-invisibility,
+    mirror image, scorching ray (2), see invisibility, web (DC 17)  1st-alarm,
+    mage armor, magic missile, ray of enfeeblement (DC 16), shield, true strike,
+    ventriloquism
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, mage hand, prestidigitation
 AbilityScores:
   - 10
   - 17

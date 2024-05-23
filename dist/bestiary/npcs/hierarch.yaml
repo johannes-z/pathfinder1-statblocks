@@ -28,19 +28,23 @@ SpecialAttacks: >-
   hell's corruption (6 rounds, 9/day), scythe of evil (6 rounds, 2/day),
   slavery/tyrannyUM variant channeling 2/day (DC 17, 7d6 plus -3 channel
   penalty)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 13th; concentration +19)   7th-blasphemyD (DC 23),
-  destruction (DC 23)   6th-harm (DC 22), planar bindingD (devils only) (DC 22),
-  summon monster VI, word of recall   5th-greater command (DC 23), dispel goodD,
-  flame strike (DC 21), greater forbid actionUM (DC 23), true seeing   4th-cure
-  critical wounds, lesser geas (DC 22), inflict critical wounds (DC 20), lesser
-  planar ally, spell immunity, unholy blightD (DC 20)   3rd-bestow curse (DC
-  19), dispel magic, invisibility purge, prayer, protection from energy,
-  suggestionD (DC 21)   2nd-align weaponD (evil only), bear's endurance, cure
-  moderate wounds, enthrall (DC 20), hold person (DC 20), resist energy, sound
-  burst (DC 18)   1st-bane (DC 19), commandD (DC 19), forbid actionUM (DC 19),
-  murderous commandUM (DC 19), protection from good, sanctuary (DC 17), shield
-  of faith   0 (at will)-bleed (DC 16), guidance, sparkAPG (DC 16), stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 13th; concentration +19)   7th-blasphemyD (DC
+    23), destruction (DC 23)   6th-harm (DC 22), planar bindingD (devils only)
+    (DC 22), summon monster VI, word of recall   5th-greater command (DC 23),
+    dispel goodD, flame strike (DC 21), greater forbid actionUM (DC 23), true
+    seeing   4th-cure critical wounds, lesser geas (DC 22), inflict critical
+    wounds (DC 20), lesser planar ally, spell immunity, unholy blightD (DC 20)  
+    3rd-bestow curse (DC 19), dispel magic, invisibility purge, prayer,
+    protection from energy, suggestionD (DC 21)   2nd-align weaponD (evil only),
+    bear's endurance, cure moderate wounds, enthrall (DC 20), hold person (DC
+    20), resist energy, sound burst (DC 18)   1st-bane (DC 19), commandD (DC
+    19), forbid actionUM (DC 19), murderous commandUM (DC 19), protection from
+    good, sanctuary (DC 17), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), guidance, sparkAPG (DC 16), stabilize
 SpellDomains: ConversionUM inquisition, Evil (DevilAPG subdomain)
 AbilityScores:
   - 14

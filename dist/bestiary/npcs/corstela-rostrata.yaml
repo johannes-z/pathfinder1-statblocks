@@ -28,12 +28,19 @@ Reach: 5 ft.
 SpecialAttacks: >-
   arcane reservoir (3/12), arcanist exploits (counterspell, dimensional slide,
   spell disruption), consume spells
-SpellsPrepared: >-
-  Arcanist Spells Prepared (CL 6th; concentration +10)   3rd
-  (3/day)-invisibility sphere   2nd (5/day)-cat's grace, mirror image   1st
-  (5/day)-color spray (DC 15), mage armor, shield, vanishAPG (DC 15)   0 (at
-  will)-acid splash, dancing lights, detect magic, ghost sound (DC 14), mage
-  hand, message, prestidigitation
+SpellsPrepared:
+  header: Arcanist Spells Prepared (CL 6th; concentration +10)
+  values:
+    - label: 3rd (3/day)
+      value: invisibility sphere
+    - label: 2nd (5/day)
+      value: cat's grace, mirror image
+    - label: 1st (5/day)
+      value: color spray (DC 15), mage armor, shield, vanishAPG (DC 15)
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, detect magic, ghost sound (DC 14), mage
+        hand, message, prestidigitation
 AbilityScores:
   - 7
   - 16

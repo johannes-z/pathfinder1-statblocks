@@ -37,20 +37,31 @@ SpellLikeAbilities:
   values:
     - label: 1/day
       value: dimension door
-SpellsPrepared: >-
-  Spells Prepared (CL 7th; concentration +12)   4th-dispel magic, summon
-  nature's ally IV   3rd-call lightning, daylight, neutralize poison  
-  2nd-barkskin, flame blade, resist energy, tree shape   1st-charm animal (DC
-  16), endure elements, entangle (DC 16), obscuring mist, pass without trace,
-  produce flame   0-flare, guidance, know direction, light  Oracle Spells Known
-  (CL 8th; concentration +18)   4th (5/day)-cure critical wounds (DC 24), fear
-  (DC 24), restoration   3rd (7/day)-animate dead, cure serious wounds (DC 23),
-  remove disease, searing light   2nd (9/day)-align weapon, cure moderate wounds
-  (DC 22), false life, gentle repose, remove blindness/deafness   1st
-  (9/day)-bless, cause fear (DC 21), command (DC 21), cure light wounds (DC 21),
-  detect undead, hide from undead, sanctuary (DC 21)   0 (at will)-create water,
-  detect magic, detect poison, mending, purify food or drink, resistance,
-  stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 7th; concentration +12)   4th-dispel magic, summon
+    nature's ally IV   3rd-call lightning, daylight, neutralize poison  
+    2nd-barkskin, flame blade, resist energy, tree shape   1st-charm animal (DC
+    16), endure elements, entangle (DC 16), obscuring mist, pass without trace,
+    produce flame   0-flare, guidance, know direction, light  Oracle Spells
+    Known (CL 8th; concentration +18)
+  values:
+    - label: 4th (5/day)
+      value: cure critical wounds (DC 24), fear (DC 24), restoration
+    - label: 3rd (7/day)
+      value: animate dead, cure serious wounds (DC 23), remove disease, searing light
+    - label: 2nd (9/day)
+      value: >-
+        align weapon, cure moderate wounds (DC 22), false life, gentle repose,
+        remove blindness/deafness
+    - label: 1st (9/day)
+      value: >-
+        bless, cause fear (DC 21), command (DC 21), cure light wounds (DC 21),
+        detect undead, hide from undead, sanctuary (DC 21)
+    - label: 0 (at will)
+      value: >-
+        create water, detect magic, detect poison, mending, purify food or
+        drink, resistance, stabilize, virtue
 AbilityScores:
   - 8
   - 24

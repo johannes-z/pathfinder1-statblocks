@@ -33,14 +33,18 @@ SpellLikeAbilities:
       value: dimensional hop (90 feet/day)
     - label: 6/day
       value: inspiring word (4 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +12)   5th-greater commandD (DC
-  18), dazing spiritual weapon (DC 14)   4th-discern liesD (DC 17), spiritual
-  allyAPG, tongues   3rd-dispel magic, flyD, remove blindness/deafness, remove
-  disease, wind wall   2nd-locate objectD, lesser restoration, silence (DC 15),
-  spiritual weapon, status, summon monster II   1st-comprehend languages,
-  floating diskD, protection from chaos, remove fear, sanctuary (DC 14), shield
-  of faith   0 (at will)-detect magic, detect poison, mending, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +12)   5th-greater commandD
+    (DC 18), dazing spiritual weapon (DC 14)   4th-discern liesD (DC 17),
+    spiritual allyAPG, tongues   3rd-dispel magic, flyD, remove
+    blindness/deafness, remove disease, wind wall   2nd-locate objectD, lesser
+    restoration, silence (DC 15), spiritual weapon, status, summon monster II  
+    1st-comprehend languages, floating diskD, protection from chaos, remove
+    fear, sanctuary (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, mending, read magic
 SpellDomains: Nobility, Travel (Trade subdomainAPG)
 AbilityScores:
   - 11

@@ -43,11 +43,14 @@ SpellsKnown:
       value: >-
         mage hand, message, read magic, open/close, prestidigitation (DC 14),
         read magic
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 4th; concentration +8)   2nd-animal messenger,
-  bear's endurance, delay poison, fog cloudD   1st-cure light wounds, endure
-  elements, magic stone, obscuring mistD, speak with animals   0 (at
-  will)-create water, light, mending, purify food and drink
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 4th; concentration +8)   2nd-animal messenger,
+    bear's endurance, delay poison, fog cloudD   1st-cure light wounds, endure
+    elements, magic stone, obscuring mistD, speak with animals
+  values:
+    - label: 0 (at will)
+      value: create water, light, mending, purify food and drink
 AbilityScores:
   - 4
   - 4

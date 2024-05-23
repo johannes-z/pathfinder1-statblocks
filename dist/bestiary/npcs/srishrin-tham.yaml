@@ -33,15 +33,18 @@ SpecialAttacks: >-
   arcane pool (14 points, +4), greater spell combat, improved spell recall,
   magus arcana (arcane accuracy, close range, critical strike, spell shield),
   spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 14th; concentration +21)  5th-cone of cold (2, DC
-  22), telekinesis (DC 22)  4th-greater invisibility, phantasmal killer (DC 21),
-  wall of fire, wall of ice (2, DC 21)  3rd-dispel magic, displacement, fly,
-  haste, ray of exhaustion (2, DC 20)  2nd-bull's strength, defensive shockUM,
-  mirror image (2), scorching ray (2), web (DC 19)  1st-chill touch (DC 18),
-  grease (DC 18), magic missile (2), ray of enfeeblement (DC 18), shocking
-  grasp, vanishAPG (DC 18)  0 (at will)-acid splash, arcane mark, detect magic,
-  ray of frost, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 14th; concentration +21)  5th-cone of cold (2, DC
+    22), telekinesis (DC 22)  4th-greater invisibility, phantasmal killer (DC
+    21), wall of fire, wall of ice (2, DC 21)  3rd-dispel magic, displacement,
+    fly, haste, ray of exhaustion (2, DC 20)  2nd-bull's strength, defensive
+    shockUM, mirror image (2), scorching ray (2), web (DC 19)  1st-chill touch
+    (DC 18), grease (DC 18), magic missile (2), ray of enfeeblement (DC 18),
+    shocking grasp, vanishAPG (DC 18)
+  values:
+    - label: 0 (at will)
+      value: acid splash, arcane mark, detect magic, ray of frost, read magic
 AbilityScores:
   - 21
   - 12

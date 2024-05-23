@@ -33,11 +33,14 @@ SpellLikeAbilities:
       value: touch of glory (+4)
     - label: 6/day
       value: battle rage (+2 damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +7)   2nd-bull's strength, death
-  knell (DC 15), shatter (DC 15), spiritual weaponD   1st-bane (DC 14),
-  deathwatch, doom (DC 14), entropic shield, magic weaponD   0 (at will)-bleed
-  (DC 13), guidance, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +7)   2nd-bull's strength,
+    death knell (DC 15), shatter (DC 15), spiritual weaponD   1st-bane (DC 14),
+    deathwatch, doom (DC 14), entropic shield, magic weaponD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), guidance, resistance, stabilize
 SpellDomains: Glory, War
 AbilityScores:
   - 20

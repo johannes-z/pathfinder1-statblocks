@@ -27,13 +27,17 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 10th; concentration +14)   5th-overland flight,
-  telekinesis (DC 19)   4th-charm monster (DC 18), dimension door, fear (DC 18),
-  locate creature   3rd-dischargeTG, dispel magic, lightning bolt (DC 17),
-  locate object, suggestion (DC 17)   2nd-knock, make whole, mirror image,
-  scorching ray, whispering wind   1st-mage armor, magic missile (2), shield,
-  unseen servant   0 (at will)-arcane mark, detect magic, light, message
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 10th; concentration +14)   5th-overland flight,
+    telekinesis (DC 19)   4th-charm monster (DC 18), dimension door, fear (DC
+    18), locate creature   3rd-dischargeTG, dispel magic, lightning bolt (DC
+    17), locate object, suggestion (DC 17)   2nd-knock, make whole, mirror
+    image, scorching ray, whispering wind   1st-mage armor, magic missile (2),
+    shield, unseen servant
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, message
 AbilityScores:
   - 10
   - 14

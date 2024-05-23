@@ -30,15 +30,19 @@ SpellLikeAbilities:
       value: invisibility field (10 rounds/day)
     - label: 7/day
       value: blinding ray
-SpellsPrepared: >-
-  Illusionist Spells Prepared (CL 10th; concentration +14)   5th-mind fog (DC
-  19), still phantasmal killer (DC 20), shadow evocation (DC 21)   4th-greater
-  invisibility, hallucinatory terrain (DC 20), extended invisibility sphere (2),
-  rainbow pattern (DC 20)   3rd-displacement, silent invisibility, major image
-  (2, DC 19), summon monster III   2nd-hypnotic pattern (DC 18), invisibility,
-  minor image (2, DC 18), mirror image, summon monster II   1st-disguise self,
-  enlarge person (DC 15), mage armor, silent image (2, DC 17), ventriloquism (DC
-  17)   0 (at will)-daze (DC 14), detect poison, ghost sound (DC 16), message
+SpellsPrepared:
+  header: >-
+    Illusionist Spells Prepared (CL 10th; concentration +14)   5th-mind fog (DC
+    19), still phantasmal killer (DC 20), shadow evocation (DC 21)   4th-greater
+    invisibility, hallucinatory terrain (DC 20), extended invisibility sphere
+    (2), rainbow pattern (DC 20)   3rd-displacement, silent invisibility, major
+    image (2, DC 19), summon monster III   2nd-hypnotic pattern (DC 18),
+    invisibility, minor image (2, DC 18), mirror image, summon monster II  
+    1st-disguise self, enlarge person (DC 15), mage armor, silent image (2, DC
+    17), ventriloquism (DC 17)
+  values:
+    - label: 0 (at will)
+      value: daze (DC 14), detect poison, ghost sound (DC 16), message
 AbilityScores:
   - 8
   - 14

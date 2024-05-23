@@ -28,12 +28,15 @@ Melee:
   - +1 quarterstaff +11/+6 (1d6+7)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Abjurer Spells Prepared (CL 6th; concentration +8)   3rd-displacement,
-  lightning bolt (DC 15), protection from energy   2nd-darkness, false life,
-  mirror image (2), protection from arrows   1st-cause fear (DC 13), magic
-  missile, shield (2), true strike   0 (at will)-ghost sound (DC 12), message,
-  open/close, touch of fatigue (DC 12)
+SpellsPrepared:
+  header: >-
+    Abjurer Spells Prepared (CL 6th; concentration +8)   3rd-displacement,
+    lightning bolt (DC 15), protection from energy   2nd-darkness, false life,
+    mirror image (2), protection from arrows   1st-cause fear (DC 13), magic
+    missile, shield (2), true strike
+  values:
+    - label: 0 (at will)
+      value: ghost sound (DC 12), message, open/close, touch of fatigue (DC 12)
 AbilityScores:
   - 16
   - 16

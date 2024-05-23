@@ -39,15 +39,19 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: bleeding touch (5 rounds), touch of evil (5 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +14)  5th-flame strike (DC 19),
-  slay living (DC 19), suffocationD, APG (DC 19)  4th-divine power, freedom of
-  movement, greater magic weapon, unholy blightD (DC 18)  3rd-animate dead,
-  contagion (DC 17), dispel magic, keen edgeD, magic vestment  2nd-death knellD
-  (DC 16), eagle's splendor, hold person (DC 16), silence (DC 16), sound burst
-  (DC 16), spiritual weapon  1st-bane (DC 15), cause fearD (DC 15), command (DC
-  15), doom (DC 15), obscuring mist, shield of faith  0 (at will)-bleed (DC 14),
-  detect magic, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +14)  5th-flame strike (DC
+    19), slay living (DC 19), suffocationD, APG (DC 19)  4th-divine power,
+    freedom of movement, greater magic weapon, unholy blightD (DC 18) 
+    3rd-animate dead, contagion (DC 17), dispel magic, keen edgeD, magic
+    vestment  2nd-death knellD (DC 16), eagle's splendor, hold person (DC 16),
+    silence (DC 16), sound burst (DC 16), spiritual weapon  1st-bane (DC 15),
+    cause fearD (DC 15), command (DC 15), doom (DC 15), obscuring mist, shield
+    of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, read magic, resistance
 SpellDomains: Death (Murder subdomainAPG), Evil (Daemon subdomainAPG)
 AbilityScores:
   - 21

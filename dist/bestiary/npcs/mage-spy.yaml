@@ -32,19 +32,22 @@ Reach: 5 ft.
 SpecialAttacks: >-
   +1 on attack rolls against goblinoid and reptilian humanoids, hand of the
   apprentice (9/day), metamagic mastery (5/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 17th; concentration +23)   9th-power word kill  
-  8th-horrid wilting (DC 24), moment of prescience   7th-quickened hold person
-  (DC 24), insanity (DC 24), statue   6th-chain lightning (DC 22), disintegrate
-  (DC 23), greater dispel magic, mass suggestion (DC 23), true seeing  
-  5th-baleful polymorph (DC 22), stilled dimension door, dominate person (DC
-  22), passwall, prying eyes   4th-bestow curse (DC 20), confusion (DC 21),
-  greater invisibility, locate creature, solid fog  
-  3rd-clairaudience/clairvoyance, dispel magic, hold person (DC 20),
-  nondetection, slow (DC 20)   2nd-alter self, darkvision, detect thoughts (DC
-  18), invisibility (2), knock   1st-charm person (DC 18), feather fall, grease,
-  mage armor, magic missile, obscuring mist   0 (at will)-detect magic, detect
-  poison, mage hand, open/close
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 17th; concentration +23)   9th-power word kill  
+    8th-horrid wilting (DC 24), moment of prescience   7th-quickened hold person
+    (DC 24), insanity (DC 24), statue   6th-chain lightning (DC 22),
+    disintegrate (DC 23), greater dispel magic, mass suggestion (DC 23), true
+    seeing   5th-baleful polymorph (DC 22), stilled dimension door, dominate
+    person (DC 22), passwall, prying eyes   4th-bestow curse (DC 20), confusion
+    (DC 21), greater invisibility, locate creature, solid fog  
+    3rd-clairaudience/clairvoyance, dispel magic, hold person (DC 20),
+    nondetection, slow (DC 20)   2nd-alter self, darkvision, detect thoughts (DC
+    18), invisibility (2), knock   1st-charm person (DC 18), feather fall,
+    grease, mage armor, magic missile, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, mage hand, open/close
 AbilityScores:
   - 10
   - 16

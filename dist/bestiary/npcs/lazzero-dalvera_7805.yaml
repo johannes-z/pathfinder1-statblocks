@@ -31,13 +31,17 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: copycat (7 rounds), touch of law
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)   4th-confusionD (DC 19),
-  cure critical wounds, lesser geas (DC 19)   3rd-dispel magic, magic circle
-  against chaosD, prayer, summon monster III   2nd-bear's endurance, hold person
-  (DC 17), invisibilityD, spiritual weapon, zone of truth (DC 17)   1st-bless,
-  cause fear (DC 15), command (DC 16), infernal healingISWG, protection from
-  chaosD, shield of faith   0 (at will)-detect magic, light, mending, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)   4th-confusionD (DC 19),
+    cure critical wounds, lesser geas (DC 19)   3rd-dispel magic, magic circle
+    against chaosD, prayer, summon monster III   2nd-bear's endurance, hold
+    person (DC 17), invisibilityD, spiritual weapon, zone of truth (DC 17)  
+    1st-bless, cause fear (DC 15), command (DC 16), infernal healingISWG,
+    protection from chaosD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, read magic
 SpellDomains: Law, Trickery
 AbilityScores:
   - 12

@@ -36,15 +36,19 @@ SpellLikeAbilities:
       value: dimensional steps (420 feet/day)
     - label: 8/day
       value: acid dart (1d6+7 acid)
-SpellsPrepared: >-
-  Conjurer Spells Prepared (CL 14th; concentration +19)  7th-mage's sword 
-  6th-chain lightning (DC 21), disintegrate (DC 21), summon monster VI 
-  5th-cloudkill (DC 22), cone of cold  4th-black tentacles, greater
-  invisibility, lesser globe of invulnerability, resilient sphere, shout (DC
-  19), summon monster IV  3rd-dispel magic, displacement, gaseous form,
-  lightning bolt (DC 18), slow (DC 18)  2nd-acid arrow, knock, scorching ray (DC
-  17), summon monster II, web (DC 19)  1st-burning hands (DC 16), magic missile
-  (2), obscuring mist, shield  0 (at will)-acid splash, detect magic, read magic
+SpellsPrepared:
+  header: >-
+    Conjurer Spells Prepared (CL 14th; concentration +19)  7th-mage's sword 
+    6th-chain lightning (DC 21), disintegrate (DC 21), summon monster VI 
+    5th-cloudkill (DC 22), cone of cold  4th-black tentacles, greater
+    invisibility, lesser globe of invulnerability, resilient sphere, shout (DC
+    19), summon monster IV  3rd-dispel magic, displacement, gaseous form,
+    lightning bolt (DC 18), slow (DC 18)  2nd-acid arrow, knock, scorching ray
+    (DC 17), summon monster II, web (DC 19)  1st-burning hands (DC 16), magic
+    missile (2), obscuring mist, shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, read magic
 AbilityScores:
   - 10
   - 14

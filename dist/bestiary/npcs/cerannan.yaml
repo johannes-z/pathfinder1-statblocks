@@ -31,10 +31,14 @@ SpellLikeAbilities:
       value: invisibility field (up to 13 rounds/day)
     - label: 7/day
       value: blinding ray (dazzeled)
-SpellsPrepared: >-
-  Spells Prepared (CL 13th; melee touch +6, ranged +5)  6th-none memorized  
-  5th-none memorized   4th-none memorized   3rd-none memorized   2nd-none
-  memorized   0 (at will)-detect magic, light, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 13th; melee touch +6, ranged +5)  6th-none memorized  
+    5th-none memorized   4th-none memorized   3rd-none memorized   2nd-none
+    memorized
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, resistance
 AbilityScores:
   - 10
   - 9

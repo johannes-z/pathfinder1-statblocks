@@ -29,13 +29,17 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: force missile (1d4+2)
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; 10% spell failure; concentration +10)  
-  3rd-displacement, fireball (DC 19, 3), haste   2nd-bull's strength, mirror
-  image, scorching ray (3), shatter (DC 16)   1st-burning hands (DC 17), magic
-  missile (3), shocking grasp, true strike   0 (at will)-acid splash, dancing
-  lights, flare (DC 14), light, ray of frost  Thassilonian Specialization
-  evocation;
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; 10% spell failure; concentration +10)  
+    3rd-displacement, fireball (DC 19, 3), haste   2nd-bull's strength, mirror
+    image, scorching ray (3), shatter (DC 16)   1st-burning hands (DC 17), magic
+    missile (3), shocking grasp, true strike
+  values:
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, flare (DC 14), light, ray of frost
+        Thassilonian Specialization evocation;
 AbilityScores:
   - 16
   - 14

@@ -49,11 +49,14 @@ SpellsKnown:
       value: >-
         dancing lights, detect magic, detect poison, mage hand, mending,
         message, read magic
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +7)  3rd-prayer, searing lightD 
-  2nd-bless weaponD, delay poison, remove paralysis, shield other  1st-cure
-  light woundsD, divine favor (2), protection from evil, remove fear  0 (at
-  will)-create water, guidance, purify food and drink, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +7)  3rd-prayer, searing
+    lightD  2nd-bless weaponD, delay poison, remove paralysis, shield other 
+    1st-cure light woundsD, divine favor (2), protection from evil, remove fear
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, purify food and drink, stabilize
 SpellDomains: Glory, Healing
 AbilityScores:
   - 22

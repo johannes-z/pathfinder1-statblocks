@@ -42,12 +42,16 @@ SpellLikeAbilities:
       value: >-
         artificer's touch (1d6+3, bypasses DR and hardness 6), copycat (6
         rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +9)  3rd-bestow curse (DC 16),
-  blindness/deafness (DC 16), stone shapeD, wrathful mantleAPG  2nd-bull's
-  strength, cure moderate wounds, invisibilityD, spiritual weapon, weapon of
-  aweAPG  1st-divine favor, commandD (DC 14), endure elements, obscuring mist,
-  shield of faith  0 (at will)-bleed (DC 13), detect magic, guidance, sparkAPG
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +9)  3rd-bestow curse (DC 16),
+    blindness/deafness (DC 16), stone shapeD, wrathful mantleAPG  2nd-bull's
+    strength, cure moderate wounds, invisibilityD, spiritual weapon, weapon of
+    aweAPG  1st-divine favor, commandD (DC 14), endure elements, obscuring mist,
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, guidance, sparkAPG
 SpellDomains: Artifice (Toil subdomain)APG, Trickery
 AbilityScores:
   - 14

@@ -30,11 +30,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: rebuke death (1d4+1), touch of evil (1 round)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +5) 2nd-cure moderate woundsD,
-  death knell (DC 14), hold person (DC 14) 1st-bane (DC13), cause fear (DC 13),
-  cure light woundsD, doom (DC 13) 0 (at will)-bleed (DC 12), guidance, light,
-  resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +5) 2nd-cure moderate woundsD,
+    death knell (DC 14), hold person (DC 14) 1st-bane (DC13), cause fear (DC
+    13), cure light woundsD, doom (DC 13)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), guidance, light, resistance
 SpellDomains: Evil, Healing
 AbilityScores:
   - 10

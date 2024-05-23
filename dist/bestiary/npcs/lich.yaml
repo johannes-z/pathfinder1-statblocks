@@ -29,19 +29,23 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: paralyzing touch (DC 23)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 18th; melee touch +9, ranged touch +7):   9th-time
-  stop, wail of the banshee (DC 26)   8th-polar ray, summon monster VIII,
-  telekinetic sphere (DC 27)   7th-forcecage (DC 26), greater teleport, greater
-  teleport, project image (DC 24)   6th-chain lightning (DC 25), globe of
-  invulnerability, greater dispel magic, mage's lucubration, true seeing  
-  5th-cloudkill (DC 22), interposing hand, magic jar (DC 22),  transmute rock to
-  mud, wall of force   4th-acid pit* (DC 21), black tentacles, greater false
-  lifeUM, greater invisibility, stoneskin   3rd-dispel magic, displacement, fly,
-  slow (DC 20), tongues, vampiric touch   2nd-acid arrow, darkness, mirror
-  image, spectral hand, touch of idiocy, touch of idiocy   1st-breakAPG (DC 18),
-  grease, mage armor, magic missile, protection from good, shield   0 (at
-  will)-acid splash, mage hand, mage hand, ray of frost
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 18th; melee touch +9, ranged touch +7):  
+    9th-time stop, wail of the banshee (DC 26)   8th-polar ray, summon monster
+    VIII, telekinetic sphere (DC 27)   7th-forcecage (DC 26), greater teleport,
+    greater teleport, project image (DC 24)   6th-chain lightning (DC 25), globe
+    of invulnerability, greater dispel magic, mage's lucubration, true seeing  
+    5th-cloudkill (DC 22), interposing hand, magic jar (DC 22),  transmute rock
+    to mud, wall of force   4th-acid pit* (DC 21), black tentacles, greater
+    false lifeUM, greater invisibility, stoneskin   3rd-dispel magic,
+    displacement, fly, slow (DC 20), tongues, vampiric touch   2nd-acid arrow,
+    darkness, mirror image, spectral hand, touch of idiocy, touch of idiocy  
+    1st-breakAPG (DC 18), grease, mage armor, magic missile, protection from
+    good, shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, mage hand, mage hand, ray of frost
 AbilityScores:
   - 12
   - 9

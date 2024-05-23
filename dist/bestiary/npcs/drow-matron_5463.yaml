@@ -45,19 +45,22 @@ SpellLikeAbilities:
       value: charming smile (15 rounds, DC 17)
     - label: 9/day
       value: dazing touch, touch of darkness (7 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 15th; concentration +21) 8th-demandD (DC 24),
-  summon monster VIII 7th-destruction (DC 23), power word blindD, word of chaos
-  6th-blade barrier (DC 22), greater dispel magic, harm (DC 22), heal, shadow
-  walkD(DC 22) 5th-break enchantment, breath of life, charm monsterD (DC 21),
-  dispel good, flame strike (DC 21), slay living (DC 21) 4th-air walk, cure
-  critical wounds (2), freedom of movement, heroismD, neutralize poison
-  3rd-bestow curse (2, DC 19), prayer, protection from energy, stone shape,
-  suggestionD(DC 19) 2nd-align weapon, bear's endurance, blindness/deafnessD (DC
-  18, only to cause blindness), death knell (DC 18), hold person (DC 18),
-  silence (2, DC 18) 1st-bless, charm personD (DC 17), command (2, DC 17),
-  detect good, shield of faith (2) 0 (at will)-bleed (DC 16), read magic,
-  resistance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 15th; concentration +21) 8th-demandD (DC 24),
+    summon monster VIII 7th-destruction (DC 23), power word blindD, word of
+    chaos 6th-blade barrier (DC 22), greater dispel magic, harm (DC 22), heal,
+    shadow walkD(DC 22) 5th-break enchantment, breath of life, charm monsterD
+    (DC 21), dispel good, flame strike (DC 21), slay living (DC 21) 4th-air
+    walk, cure critical wounds (2), freedom of movement, heroismD, neutralize
+    poison 3rd-bestow curse (2, DC 19), prayer, protection from energy, stone
+    shape, suggestionD(DC 19) 2nd-align weapon, bear's endurance,
+    blindness/deafnessD (DC 18, only to cause blindness), death knell (DC 18),
+    hold person (DC 18), silence (2, DC 18) 1st-bless, charm personD (DC 17),
+    command (2, DC 17), detect good, shield of faith (2)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), read magic, resistance, virtue
 SpellDomains: Charm, Darkness
 AbilityScores:
   - 10

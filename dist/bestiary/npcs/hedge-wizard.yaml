@@ -26,10 +26,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 3rd; concentration +7)  2nd-blindness/deafness (DC
-  16), glitterdust (DC 16)  1st-charm person (DC 15), color spray (DC 15),
-  unseen servant  0 (at will)-arcane mark, mage hand, mending, prestidigitation
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 3rd; concentration +7)  2nd-blindness/deafness
+    (DC 16), glitterdust (DC 16)  1st-charm person (DC 15), color spray (DC 15),
+    unseen servant
+  values:
+    - label: 0 (at will)
+      value: arcane mark, mage hand, mending, prestidigitation
 AbilityScores:
   - 10
   - 13

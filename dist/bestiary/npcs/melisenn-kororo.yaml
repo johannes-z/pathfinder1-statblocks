@@ -30,14 +30,17 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: blast rune (1d6+3 energy damage, 7 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)   4th-explosive runesD,
-  spell immunity, terrible remorseUM (DC 18)   3rd-blindness/deafness (DC 17),
-  cure serious wounds, dispel magic, flyD   2nd-cure moderate wounds, death
-  knell (DC 16), hold person (DC 16), hypnotic patternD (DC 16), undetectable
-  alignment (DC 16)   1st-doom (DC 15), entropic shield, feather fallD,
-  murderous commandUM (DC 15), protection from good, shield of faith   0 (at
-  will)-detect magic, guidance, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)   4th-explosive runesD,
+    spell immunity, terrible remorseUM (DC 18)   3rd-blindness/deafness (DC 17),
+    cure serious wounds, dispel magic, flyD   2nd-cure moderate wounds, death
+    knell (DC 16), hold person (DC 16), hypnotic patternD (DC 16), undetectable
+    alignment (DC 16)   1st-doom (DC 15), entropic shield, feather fallD,
+    murderous commandUM (DC 15), protection from good, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, read magic
 SpellDomains: Rune, Void
 AbilityScores:
   - 10

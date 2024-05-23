@@ -51,16 +51,19 @@ SpellLikeAbilities:
       value: elemental wall (10 rounds/day)
     - label: 8/day
       value: force missile (1d4+5)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 10th; concentration +15)  5th-cone of cold (DC 22),
-  dazing frigid touchUM (DC 20), wall of force (2), waves of fatigue  4th-ball
-  lightningAPG (DC 21), detonateAPG (DC 21), greater invisibility, ice storm
-  (2)  3rd-fireball (DC 20), haste, lightning bolt (2, DC 20), slow (DC 18),
-  wind wall  2nd-darkvision, frigid touchUM (2), intensified shocking grasp,
-  locate object, pilfering handUC, see invisibility  1st-anticipate perilUM (DC
-  16), burning hands (2, DC 16), ear-piercing screamUM (DC 16), magic missile
-  (2), ray of enfeeblement (DC 16), silent image (DC 16)  0 (at will)-detect
-  magic, light, mage hand, message
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 10th; concentration +15)  5th-cone of cold (DC
+    22), dazing frigid touchUM (DC 20), wall of force (2), waves of fatigue 
+    4th-ball lightningAPG (DC 21), detonateAPG (DC 21), greater invisibility,
+    ice storm (2)  3rd-fireball (DC 20), haste, lightning bolt (2, DC 20), slow
+    (DC 18), wind wall  2nd-darkvision, frigid touchUM (2), intensified shocking
+    grasp, locate object, pilfering handUC, see invisibility  1st-anticipate
+    perilUM (DC 16), burning hands (2, DC 16), ear-piercing screamUM (DC 16),
+    magic missile (2), ray of enfeeblement (DC 16), silent image (DC 16)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, message
 AbilityScores:
   - 41
   - 15

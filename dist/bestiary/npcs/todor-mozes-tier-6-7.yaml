@@ -32,12 +32,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: force missile (1d4+2)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 5th; concentration +8)  3rd-fireball (2, DC 18, +2
-  damage), lightning bolt (DC 18, +2 damage)  2nd-scorching ray (3, DC 17, +2
-  damage), flaming sphere (DC 17, +2 damage)  1st-magic missile (4, +2 damage),
-  shocking grasp (+2 damage)  0 (at will)-flare (2, DC 15), light, ray of frost
-  (2, +2 damage)
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 5th; concentration +8)  3rd-fireball (2, DC 18,
+    +2 damage), lightning bolt (DC 18, +2 damage)  2nd-scorching ray (3, DC 17,
+    +2 damage), flaming sphere (DC 17, +2 damage)  1st-magic missile (4, +2
+    damage), shocking grasp (+2 damage)
+  values:
+    - label: 0 (at will)
+      value: flare (2, DC 15), light, ray of frost (2, +2 damage)
 AbilityScores:
   - 10
   - 12

@@ -30,12 +30,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: battle rage (+3 damage), rebuke death (1d4+3)
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; melee touch +6)  3rd-create food and water, cure
-  serious woundsD, locate  object, stone shape   2nd-augury, cure moderate
-  woundsD, delay poison, find traps, silence (DC 15)   1st-bless, cure light
-  woundsD, protection from evil (x2), shield of faith   0 (at will)-detect
-  magic, guidance, light, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; melee touch +6)  3rd-create food and water, cure
+    serious woundsD, locate  object, stone shape   2nd-augury, cure moderate
+    woundsD, delay poison, find traps, silence (DC 15)   1st-bless, cure light
+    woundsD, protection from evil (x2), shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, resistance
 SpellDomains: Healing, War
 AbilityScores:
   - 14

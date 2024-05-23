@@ -40,22 +40,25 @@ SpecialAttacks: >-
   minions, marshal's order (advance), metamagic mastery (7/day), mythic power
   (18/day, surge +1d10), paralyzing touch (DC 30), surge of inspiration, words
   of valor
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 20th; concentration +34)   9th-gate (2), meteor
-  swarm (2, DC 33), time stopM, wishM   8th-quickened charm monster (2, DC 32),
-  horrid wilting (2, DC 33), mass charm monster (DC 36), mind blank  
-  7th-quickened dispel magic (2), greater teleport, prismatic sprayM (DC 31),
-  spell turning (2)   6th-antimagic fieldM, disintegrate (DC 30), greater dispel
-  magic, greater heroism, leashed shacklesUM (DC 30), mass eagle's splendor,
-  quickened scorching ray   5th-feeblemind (DC 33), overland flight, telekinesis
-  (2, DC 29), quickened true strike (3)   4th-detect scrying, dimension door,
-  fear (DC 29), greater invisibility, shout (2, DC 28), terrible remorseUM (DC
-  32)   3rd-fireballM (3, DC 27), greater magic weapon, halt undead (DC 28),
-  hasteM, heroismM   2nd-arcane lock, false life, mirror image, resist energy
-  (2), see invisibility, spectral hand, whispering wind   1st-disguise self,
-  feather fall, mage armorM, magic missile (2), protection from good, shield,
-  true strike   0 (at will)-detect magic, ghost sound (DC 24), mage hand,
-  open/close
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 20th; concentration +34)   9th-gate (2), meteor
+    swarm (2, DC 33), time stopM, wishM   8th-quickened charm monster (2, DC
+    32), horrid wilting (2, DC 33), mass charm monster (DC 36), mind blank  
+    7th-quickened dispel magic (2), greater teleport, prismatic sprayM (DC 31),
+    spell turning (2)   6th-antimagic fieldM, disintegrate (DC 30), greater
+    dispel magic, greater heroism, leashed shacklesUM (DC 30), mass eagle's
+    splendor, quickened scorching ray   5th-feeblemind (DC 33), overland flight,
+    telekinesis (2, DC 29), quickened true strike (3)   4th-detect scrying,
+    dimension door, fear (DC 29), greater invisibility, shout (2, DC 28),
+    terrible remorseUM (DC 32)   3rd-fireballM (3, DC 27), greater magic weapon,
+    halt undead (DC 28), hasteM, heroismM   2nd-arcane lock, false life, mirror
+    image, resist energy (2), see invisibility, spectral hand, whispering wind  
+    1st-disguise self, feather fall, mage armorM, magic missile (2), protection
+    from good, shield, true strike
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 24), mage hand, open/close
 AbilityScores:
   - 24
   - 22

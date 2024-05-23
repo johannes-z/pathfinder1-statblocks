@@ -25,12 +25,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel negative energy (3/day, DC 14, 3d6), death's kiss (7/day, 3 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; melee touch +5, ranged touch +2)  3rd-animate deadD,
-  bestow curse (DC 18), dispel magic  2nd-bull's strength (DC 16), dread boltUM
-  (DC 17), ghoul touchD (DC 17), silence (DC 16)  1st-bane (DC 16), bless, cause
-  fearD (DC 16), doom (DC 16), hide from undead (DC 16),  At Will-bleed (DC 15),
-  create water, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; melee touch +5, ranged touch +2)  3rd-animate
+    deadD, bestow curse (DC 18), dispel magic  2nd-bull's strength (DC 16),
+    dread boltUM (DC 17), ghoul touchD (DC 17), silence (DC 16)  1st-bane (DC
+    16), bless, cause fearD (DC 16), doom (DC 16), hide from undead (DC 16),
+  values:
+    - label: At Will
+      value: bleed (DC 15), create water, guidance, resistance
 SpellDomains: UndeadAPG
 AbilityScores:
   - 14

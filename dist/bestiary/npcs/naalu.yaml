@@ -28,12 +28,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: telekinetic fist (1d4+3 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 6th; concentration +10)   3rd-fireball (DC 17),
-  slow (DC 17), stinking cloud (DC 17), suggestion (DC 17)   2nd-bull's
-  strength, glitterdust (DC 16), scorching ray (2)   1st-charm person (DC 15),
-  expeditious retreat, mage armor, magic missile, mount   0 (at will)-acid
-  splash, daze (DC 14), detect magic, read magic
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 6th; concentration +10)   3rd-fireball (DC
+    17), slow (DC 17), stinking cloud (DC 17), suggestion (DC 17)   2nd-bull's
+    strength, glitterdust (DC 16), scorching ray (2)   1st-charm person (DC 15),
+    expeditious retreat, mage armor, magic missile, mount
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 14), detect magic, read magic
 AbilityScores:
   - 8
   - 14

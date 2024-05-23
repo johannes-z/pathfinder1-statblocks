@@ -26,10 +26,13 @@ Ranged:
   - dart +5 (1d3)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 3rd; concentration +5)  2nd-spider climb, summon
-  swarm  1st-charm animal (DC 13), cure light wounds, produce flame  0 (at
-  will)-create water, flare (DC 12), guidance, resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 3rd; concentration +5)  2nd-spider climb, summon
+    swarm  1st-charm animal (DC 13), cure light wounds, produce flame
+  values:
+    - label: 0 (at will)
+      value: create water, flare (DC 12), guidance, resistance
 AbilityScores:
   - 10
   - 14

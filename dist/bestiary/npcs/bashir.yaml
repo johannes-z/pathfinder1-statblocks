@@ -22,9 +22,11 @@ Speed: 30 ft.
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice 6/day
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; melee touch +2, ranged touch +2)  2nd-0   1st-0   0
-  (at will)-acid splash, bleed (DC 13), light, mage hand
+SpellsPrepared:
+  header: Spells Prepared (CL 3rd; melee touch +2, ranged touch +2)  2nd-0   1st-0
+  values:
+    - label: 0 (at will)
+      value: acid splash, bleed (DC 13), light, mage hand
 AbilityScores:
   - 12
   - 13

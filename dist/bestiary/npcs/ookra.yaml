@@ -50,12 +50,15 @@ SpellsKnown:
       value: >-
         acid splash, bleed (DC 13), daze (DC 13), mage hand, ray of frost, read
         magic
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; melee touch +6, ranged touch +5)  3rd-cure serious
-  wounds, magic circle against goodD, prayer  2nd-align weapon (evil only)D,
-  chant, communal protection from goodUC, cure moderate wounds  1st-bane (DC
-  14), bless, cure light wounds, protection from goodD, shield of faith  0 (at
-  will)-create water, detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; melee touch +6, ranged touch +5)  3rd-cure serious
+    wounds, magic circle against goodD, prayer  2nd-align weapon (evil only)D,
+    chant, communal protection from goodUC, cure moderate wounds  1st-bane (DC
+    14), bless, cure light wounds, protection from goodD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, resistance
 SpellDomains: Destruction, Evil
 AbilityScores:
   - 13

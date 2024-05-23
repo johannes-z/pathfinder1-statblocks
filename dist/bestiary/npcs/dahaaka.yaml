@@ -35,17 +35,21 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: icicle (1d6+6 cold)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 12th; concentration +16)   6th-empowered ball
-  lightningAPG (DC 18), cone of coldD (DC 20), mass cure light wounds  
-  5th-baleful polymorph (DC 19), death ward, ice stormD, wall of thorns  
-  4th-blight (DC 18), empowered chill metal (DC 16), control waterD, cure
-  serious wounds, freedom of movement   3rd-greater magic fang, hydraulic
-  torrentAPG, poison (DC 17), protection from energy, transfer regenerationMC,
-  water breathingD   2nd-barkskin, chill metal (DC 16), control vermin (DC 16),
-  fog cloudD, lesser restoration, resist energy   1st-call animalAPG, charm
-  animal (DC 15), cure light wounds, faerie fire, obscuring mistD, speak with
-  animals   0 (at will)-detect magic, detect poison, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 12th; concentration +16)   6th-empowered ball
+    lightningAPG (DC 18), cone of coldD (DC 20), mass cure light wounds  
+    5th-baleful polymorph (DC 19), death ward, ice stormD, wall of thorns  
+    4th-blight (DC 18), empowered chill metal (DC 16), control waterD, cure
+    serious wounds, freedom of movement   3rd-greater magic fang, hydraulic
+    torrentAPG, poison (DC 17), protection from energy, transfer regenerationMC,
+    water breathingD   2nd-barkskin, chill metal (DC 16), control vermin (DC
+    16), fog cloudD, lesser restoration, resist energy   1st-call animalAPG,
+    charm animal (DC 15), cure light wounds, faerie fire, obscuring mistD, speak
+    with animals
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, mending, stabilize
 SpellDomains: Water
 AbilityScores:
   - 21

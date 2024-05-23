@@ -34,13 +34,17 @@ SpellLikeAbilities:
       value: force missiles (1d4+4)
     - label: 1/day
       value: elemental wall (9 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 9th; ranged touch +8)  5th-cone of coldB (DC 20), summon
-  monster V  4th-fear (DC 18), greater invisibility, ice stormB, stone skin 
-  3rd-blink, dispel magic, haste, lightning boltB (DC 18), slow (DC 17) 
-  2nd-acid arrow. invisibility, mirror image, protection from arrows, scorching
-  rayB  1st-color sprayB (DC 15), mage armor, magic missile (x2), shield,
-  shocking grasp  0 (at will)-flare, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 9th; ranged touch +8)  5th-cone of coldB (DC 20), summon
+    monster V  4th-fear (DC 18), greater invisibility, ice stormB, stone skin 
+    3rd-blink, dispel magic, haste, lightning boltB (DC 18), slow (DC 17) 
+    2nd-acid arrow. invisibility, mirror image, protection from arrows,
+    scorching rayB  1st-color sprayB (DC 15), mage armor, magic missile (x2),
+    shield, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: flare, read magic, resistance
 AbilityScores:
   - 13
   - 19

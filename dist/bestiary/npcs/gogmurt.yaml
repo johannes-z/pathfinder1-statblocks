@@ -30,11 +30,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 1/day, sneak attack +1d6
-SpellsPrepared: >-
-  Spells Prepared (CL 4th; concentration +7)   2nd-animal messenger, flame
-  blade, lesser restoration (already cast)   1st-charm animal (DC 14), cure
-  light wounds, entangle (DC 14), speak with animals   0 (at will)-flare (DC
-  13), guidance, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 4th; concentration +7)   2nd-animal messenger, flame
+    blade, lesser restoration (already cast)   1st-charm animal (DC 14), cure
+    light wounds, entangle (DC 14), speak with animals
+  values:
+    - label: 0 (at will)
+      value: flare (DC 13), guidance, mending, stabilize
 AbilityScores:
   - 8
   - 16

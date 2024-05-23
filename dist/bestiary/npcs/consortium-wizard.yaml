@@ -24,9 +24,13 @@ Melee:
   - quarterstaff +1 (1d6)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Abjurer Spells Prepared (CL 2nd; concentration +5)   1st-alarm, grease, mage
-  armor, magic missile, shield   0 (at will)-detect magic, read magic
+SpellsPrepared:
+  header: >-
+    Abjurer Spells Prepared (CL 2nd; concentration +5)   1st-alarm, grease, mage
+    armor, magic missile, shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, read magic
 AbilityScores:
   - 10
   - 13

@@ -44,10 +44,13 @@ SpellLikeAbilities:
       value: vision of madness (+/-1)
     - label: 6/day
       value: copycat (2 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +5)  1st-bane (DC 14), cause
-  fear (DC 14), lesser confusion (DC 14)D, shield of faith  0 (at will)-bleed
-  (DC 13), detect magic, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +5)  1st-bane (DC 14), cause
+    fear (DC 14), lesser confusion (DC 14)D, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, resistance, stabilize
 SpellDomains: Madness, Trickery
 AbilityScores:
   - 17

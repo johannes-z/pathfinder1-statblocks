@@ -31,12 +31,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: strength surge (+3)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +9)   3rd-bestow curse (DC 16),
-  create food and water, magic vestmentD, prayer   2nd-aidD, resist energy,
-  sound burst (DC 15), spiritual weapon, summon monster II   1st-divine favor,
-  endure elements, forbid actionUM (DC 14), magic weaponD, shield of faith   0
-  (at will)-detect magic, guidance, mending, purify food and drink
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +9)   3rd-bestow curse (DC
+    16), create food and water, magic vestmentD, prayer   2nd-aidD, resist
+    energy, sound burst (DC 15), spiritual weapon, summon monster II  
+    1st-divine favor, endure elements, forbid actionUM (DC 14), magic weaponD,
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, mending, purify food and drink
 SpellDomains: Strength, War (TacticsAPG)
 AbilityScores:
   - 14

@@ -27,17 +27,21 @@ SpecialAttacks: >-
   hexes (agony [13 rounds], blight [130 feet], charm [2 steps, 6 rounds], evil
   eye [-4, 9 rounds], healing [cure moderate], misfortune [2 rounds], weather
   control)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 13th; concentration +19)   7th-heal   6th-cone of
-  cold (DC 22), flesh to stone (DC 22), mass suggestion (DC 22)   5th-baleful
-  polymorph (DC 21), dominate person (DC 21), geyser* (DC 21), overland flight  
-  4th-black tentacles, control water, charm monster (DC 20), dimension door,
-  phantasmal killer (DC 20)   3rd-bestow curse (DC 19), dispel magic, lightning
-  bolt (DC 19), suggestion (DC 19), vampiric touch   2nd-blindness/deafness (DC
-  18), detect thoughts (DC 18), fog cloud, glitterdust (DC 18), hold person (DC
-  18), pox pustules* (DC 18)   1st-burning hands (DC 17), command (DC 17), cure
-  light wounds (2), ill omen*, ray of enfeeblement (DC 17)   0 (at will)-bleed
-  (DC 16), dancing lights, message, stabilize
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 13th; concentration +19)   7th-heal   6th-cone of
+    cold (DC 22), flesh to stone (DC 22), mass suggestion (DC 22)   5th-baleful
+    polymorph (DC 21), dominate person (DC 21), geyser* (DC 21), overland
+    flight   4th-black tentacles, control water, charm monster (DC 20),
+    dimension door, phantasmal killer (DC 20)   3rd-bestow curse (DC 19), dispel
+    magic, lightning bolt (DC 19), suggestion (DC 19), vampiric touch  
+    2nd-blindness/deafness (DC 18), detect thoughts (DC 18), fog cloud,
+    glitterdust (DC 18), hold person (DC 18), pox pustules* (DC 18)  
+    1st-burning hands (DC 17), command (DC 17), cure light wounds (2), ill
+    omen*, ray of enfeeblement (DC 17)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), dancing lights, message, stabilize
 AbilityScores:
   - 7
   - 10

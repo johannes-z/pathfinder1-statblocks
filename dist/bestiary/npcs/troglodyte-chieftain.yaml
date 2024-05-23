@@ -35,12 +35,15 @@ Reach: 5 ft.
 SpecialAttacks: >-
   fire bolt (1d6+3 fire, 6/day), rage (7 rounds/ day), rage powers (moment of
   clarity), wild shape 1/day (can adopt ooze form but not plant form)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 6th; concentration +9)   3rd-fireballD (DC 16),
-  greater magic fang (2), swarm of fangs* (DC 16)   2nd-barkskin, bull's
-  strength (2), produce flameD, stone callAPG   1st-burning handsD (DC 14), cure
-  light wounds (2), longstrider, pass without trace   0 (at will)-create water,
-  detect magic, know direction, mending
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 6th; concentration +9)   3rd-fireballD (DC 16),
+    greater magic fang (2), swarm of fangs* (DC 16)   2nd-barkskin, bull's
+    strength (2), produce flameD, stone callAPG   1st-burning handsD (DC 14),
+    cure light wounds (2), longstrider, pass without trace
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, know direction, mending
 SpellDomains: Fire
 AbilityScores:
   - 24

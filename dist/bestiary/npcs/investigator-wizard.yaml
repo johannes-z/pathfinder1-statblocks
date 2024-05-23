@@ -30,11 +30,14 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: diviner's fortune (+2)
-SpellsPrepared: >-
-  Diviner Spells Prepared (CL 4th; concentration +8)   2nd-cat's grace, detect
-  thoughts (DC 16), web (2, DC 16)   1st-comprehend languages, feather fall,
-  mage armor, magic missile (2)   0 (at will)-dancing lights, detect magic,
-  detect poison, message
+SpellsPrepared:
+  header: >-
+    Diviner Spells Prepared (CL 4th; concentration +8)   2nd-cat's grace, detect
+    thoughts (DC 16), web (2, DC 16)   1st-comprehend languages, feather fall,
+    mage armor, magic missile (2)
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, detect poison, message
 AbilityScores:
   - 8
   - 14

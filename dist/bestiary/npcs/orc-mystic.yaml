@@ -34,11 +34,14 @@ SpellLikeAbilities:
   values:
     - label: 4/day
       value: copycat (3 rounds), touch of evil (1 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +4)   2nd-bull's strength,
-  invisibilityD   1st-bane (DC 12), magic weapon, murderous commandUM (DC 12),
-  protection from goodD   0 (at will)-bleed (DC 11), detect magic, guidance,
-  read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +4)   2nd-bull's strength,
+    invisibilityD   1st-bane (DC 12), magic weapon, murderous commandUM (DC 12),
+    protection from goodD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 11), detect magic, guidance, read magic
 SpellDomains: Evil, Trickery
 AbilityScores:
   - 17

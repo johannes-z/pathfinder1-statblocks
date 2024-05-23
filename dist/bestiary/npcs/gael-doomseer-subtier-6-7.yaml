@@ -29,15 +29,18 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: diviner's fortune (+4)
-SpellsPrepared: >-
-  Diviner Spells Prepared (CL 9th; concentration +14)   5th-cone of cold (DC
-  20), prying eyes, suffocationAPG (DC 20)   4th-dimensional anchor, enervation,
-  locate creature, stoneskin   3rd-dispel magic, fly, haste, invisibility
-  sphere, extended  see invisibility*   2nd-false life, glitterdust (DC 17),
-  locate object, mirror image, scare (DC 17), scorching ray   1st-grease (DC
-  16), hydraulic pushAPG (2), magic missile (2), touch of gracelessnessAPG (DC
-  16), true strike   0 (at will)-detect magic, detect poison, message, read
-  magic
+SpellsPrepared:
+  header: >-
+    Diviner Spells Prepared (CL 9th; concentration +14)   5th-cone of cold (DC
+    20), prying eyes, suffocationAPG (DC 20)   4th-dimensional anchor,
+    enervation, locate creature, stoneskin   3rd-dispel magic, fly, haste,
+    invisibility sphere, extended  see invisibility*   2nd-false life,
+    glitterdust (DC 17), locate object, mirror image, scare (DC 17), scorching
+    ray   1st-grease (DC 16), hydraulic pushAPG (2), magic missile (2), touch of
+    gracelessnessAPG (DC 16), true strike
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, message, read magic
 AbilityScores:
   - 8
   - 14

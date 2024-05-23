@@ -30,11 +30,15 @@ SpellLikeAbilities:
       value: dimensional steps (150 feet/day)
     - label: 7/day
       value: acid dart (1d6+2 acid)
-SpellsPrepared: >-
-  Conjurer Spells Prepared (CL 5th; concentration +9)   3rd-dispel magic,
-  fireball (DC 17), summon monster III   2nd-acid arrow, false life, scare (DC
-  16), summon monster II   1st-alarm, mage armor, magic missile (2), summon
-  monster I   0 (at will)-acid splash, flare (DC 14), read magic, resistance
+SpellsPrepared:
+  header: >-
+    Conjurer Spells Prepared (CL 5th; concentration +9)   3rd-dispel magic,
+    fireball (DC 17), summon monster III   2nd-acid arrow, false life, scare (DC
+    16), summon monster II   1st-alarm, mage armor, magic missile (2), summon
+    monster I
+  values:
+    - label: 0 (at will)
+      value: acid splash, flare (DC 14), read magic, resistance
 AbilityScores:
   - 9
   - 14

@@ -31,15 +31,18 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: dazing touch
-SpellsPrepared: >-
-  Enchanter Spells Prepared (CL 9th; concentration +14)   5th-dominate person
-  (DC 22), feeblemind (DC 22), empowered lightning bolt (DC 18)   4th-black
-  tentacles, confusion (DC 21), greater invisibility, empowered scorching ray  
-  3rd-dispel magic, fireball (DC 18), heroism, hold person (DC 20), suggestion
-  (DC 20)   2nd-glitterdust (DC 17), hideous laughter (DC 19), mirror image, see
-  invisibility, touch of idiocy, web (DC 17)   1st-charm person (DC 18), grease,
-  mage armor, magic missile (2), shield, true strike   0 (at will)-daze (DC 17),
-  detect magic, detect poison, ray of frost
+SpellsPrepared:
+  header: >-
+    Enchanter Spells Prepared (CL 9th; concentration +14)   5th-dominate person
+    (DC 22), feeblemind (DC 22), empowered lightning bolt (DC 18)   4th-black
+    tentacles, confusion (DC 21), greater invisibility, empowered scorching
+    ray   3rd-dispel magic, fireball (DC 18), heroism, hold person (DC 20),
+    suggestion (DC 20)   2nd-glitterdust (DC 17), hideous laughter (DC 19),
+    mirror image, see invisibility, touch of idiocy, web (DC 17)   1st-charm
+    person (DC 18), grease, mage armor, magic missile (2), shield, true strike
+  values:
+    - label: 0 (at will)
+      value: daze (DC 17), detect magic, detect poison, ray of frost
 AbilityScores:
   - 8
   - 16

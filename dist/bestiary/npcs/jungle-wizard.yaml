@@ -33,12 +33,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: telekinetic fist (1d4+2 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 5th; concentration +9)   3rd-beast shape I,
-  empowered burning hands (DC 16), displacement   2nd-invisibility, spider
-  climb, summon swarm, web (DC 16)   1st-burning hands (DC 16), feather fall,
-  grease, mage armor, obscuring mist   0 (at will)-dancing lights, ghost sound
-  (DC 14), mage hand, touch of fatigue (DC 14)
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 5th; concentration +9)   3rd-beast shape I,
+    empowered burning hands (DC 16), displacement   2nd-invisibility, spider
+    climb, summon swarm, web (DC 16)   1st-burning hands (DC 16), feather fall,
+    grease, mage armor, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: dancing lights, ghost sound (DC 14), mage hand, touch of fatigue (DC 14)
 AbilityScores:
   - 10
   - 16

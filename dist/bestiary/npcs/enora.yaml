@@ -27,9 +27,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: arcane reservoir (3/day, max 4), consume spells
-SpellsPrepared: >-
-  Arcanist Spells Prepared (CL 1st; concentration +4)   1st (3/day)-color spray
-  (DC 14), shield   0 (at will)-detect magic, light, message, prestidigitation
+SpellsPrepared:
+  header: Arcanist Spells Prepared (CL 1st; concentration +4)
+  values:
+    - label: 1st (3/day)
+      value: color spray (DC 14), shield
+    - label: 0 (at will)
+      value: detect magic, light, message, prestidigitation
 AbilityScores:
   - 8
   - 14

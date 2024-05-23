@@ -28,19 +28,22 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy (6/day, 8d6, DC 23), death's kiss (9/day), touch of
   darkness (16/day, DC 21)
-SpellsPrepared: >-
-  Spells Prepared (CL 16th; concentration +22)  8th-create greater undeadD, mass
-  cure critical wounds, unholy aura  7th-blasphemy, destructionD (DC 24),
-  repulsion, summon monster VII  6th-blade barrier, create undeadD, greater
-  dispel magic, harm (DC 23), heal  5th-enervationD, flame strike, greater
-  command (DC 22), slay living (DC 22), spell resistance  4th-cure critical
-  wounds, death wardD, divination, poison (DC 21) (x2)  3rd-animate deadD,
-  bestow curse (DC 20), cure serious wounds, dispel magic, invisibility purge,
-  searing light  2nd-bear's endurance, bull's strength, cure moderate wounds,
-  ghoul touchD, hold person (DC 18), silence, sound burst (DC 18),  1st-bane,
-  cause fearD (DC 18), cure light wounds, detect good, divine favor, doom (DC
-  18), endure elements (lightning)  0 (at will)-virtue, detect magic, guidance,
-  read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 16th; concentration +22)  8th-create greater undeadD,
+    mass cure critical wounds, unholy aura  7th-blasphemy, destructionD (DC 24),
+    repulsion, summon monster VII  6th-blade barrier, create undeadD, greater
+    dispel magic, harm (DC 23), heal  5th-enervationD, flame strike, greater
+    command (DC 22), slay living (DC 22), spell resistance  4th-cure critical
+    wounds, death wardD, divination, poison (DC 21) (x2)  3rd-animate deadD,
+    bestow curse (DC 20), cure serious wounds, dispel magic, invisibility purge,
+    searing light  2nd-bear's endurance, bull's strength, cure moderate wounds,
+    ghoul touchD, hold person (DC 18), silence, sound burst (DC 18),  1st-bane,
+    cause fearD (DC 18), cure light wounds, detect good, divine favor, doom (DC
+    18), endure elements (lightning)
+  values:
+    - label: 0 (at will)
+      value: virtue, detect magic, guidance, read magic
 SpellDomains: UndeadAPG
 AbilityScores:
   - 14

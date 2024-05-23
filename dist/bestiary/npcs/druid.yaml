@@ -25,12 +25,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 1/day, wooden fists (+2, 7 rounds/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; melee touch +4, ranged touch +4):   3rd-call
-  lightning (DC 17), plant growthD, poison (DC 17)   2nd-barkskinD, fog cloud,
-  heat metal (DC 16), resist energy   1st-call animal, cure light wounds,
-  entangleD (DC 15), goodberry, summon nature's ally i   0 (at will)-create
-  water, guidance, know direction, purify food and drink
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; melee touch +4, ranged touch +4):   3rd-call
+    lightning (DC 17), plant growthD, poison (DC 17)   2nd-barkskinD, fog cloud,
+    heat metal (DC 16), resist energy   1st-call animal, cure light wounds,
+    entangleD (DC 15), goodberry, summon nature's ally i
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, know direction, purify food and drink
 SpellDomains: Plant
 AbilityScores:
   - 12

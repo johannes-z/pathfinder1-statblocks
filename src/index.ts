@@ -17,30 +17,34 @@ function sanitizeMonster(_monster: MonsterRaw): Monster {
     if (_monster[key] == null || _monster[key] === '')
       delete _monster[key]
   }
-  const monster: Monster = { ..._monster }
-
-  monster.AbilityScores = _monster.AbilityScores
-    ?.split(/,\s+/g)
-    .map((ability: string) => {
-      const value = ability.split(' ')[1]
-      return value === '-' ? null : +value
-    })
-  monster.Senses = _monster.Senses?.split(/;\s+/g)
-  monster.Melee = _monster.Melee?.split(/,*\s+or\s+/g).map(value => value.replace(/\s{2,}/g, ' '))
-  monster.Ranged = _monster.Ranged?.split(/,*\s+or\s+/g).map(value => value.replace(/\s{2,}/g, ' '))
-  monster.Feats = _monster.Feats?.split(/,\s+/g)
-  monster.Skills = _monster.Skills?.split(/,\s+/g)
-  monster.Languages = _monster.Languages?.split(/[,;]\s+/g)
-  monster.Description = _monster.Description?.split(/\s{2,}/g)
-
-  if (_monster.SpecialAbilities)
-    monster.SpecialAbilities = extractSpecialAbilities(_monster)
-
-  if (_monster.SpellLikeAbilities)
-    monster.SpellLikeAbilities = extractSpells(_monster, 'SpellLikeAbilities')
-
-  if (_monster.SpellsKnown)
-    monster.SpellsKnown = extractSpells(_monster, 'SpellsKnown')
+  const monster: Monster = {
+    ..._monster,
+    AbilityScores: _monster.AbilityScores
+      ?.split(/,\s+/g)
+      .map((ability: string) => {
+        const value = ability.split(' ')[1]
+        return value === '-' ? null : +value
+      }),
+    Senses: _monster.Senses?.split(/;\s+/g),
+    Melee: _monster.Melee?.split(/,*\s+or\s+/g).map(value => value.replace(/\s{2,}/g, ' ')),
+    Ranged: _monster.Ranged?.split(/,*\s+or\s+/g).map(value => value.replace(/\s{2,}/g, ' ')),
+    Feats: _monster.Feats?.split(/,\s+/g),
+    Skills: _monster.Skills?.split(/,\s+/g),
+    Languages: _monster.Languages?.split(/[,;]\s+/g),
+    Description: _monster.Description?.split(/\s{2,}/g),
+    SpecialAbilities: _monster.SpecialAbilities
+      ? extractSpecialAbilities(_monster)
+      : undefined,
+    SpellLikeAbilities: _monster.SpellLikeAbilities
+      ? extractSpells(_monster, 'SpellLikeAbilities')
+      : undefined,
+    SpellsKnown: _monster.SpellsKnown
+      ? extractSpells(_monster, 'SpellsKnown')
+      : undefined,
+    SpellsPrepared: _monster.SpellsPrepared
+      ? extractSpells(_monster, 'SpellsPrepared')
+      : undefined,
+  }
 
   return monster
 }
@@ -51,9 +55,11 @@ async function extractStatblocks(filename: string, destination: string) {
 
   const monsters: { [key: string]: Monster[] } = tsv2JSON(contents).reduce((monsters, _monster: MonsterRaw) => {
     const monster = sanitizeMonster(_monster)
+
     if (!monsters[monster.Name])
       monsters[monster.Name] = []
     monsters[monster.Name].push(monster)
+
     return monsters
   }, {})
 

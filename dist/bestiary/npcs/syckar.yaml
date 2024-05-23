@@ -37,17 +37,20 @@ Reach: 5 ft.
 SpecialAttacks: >-
   bleed (1d4), blood drain (1 Constitution), dust cloud, fell shriek, powerful
   charge (claw, 2d6+6), wild shape 13 hours/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 13th; concentration +19)   7th-control weather  
-  6th-greater dispel magic, repel wood, wall of stone   5th-call lightning storm
-  (DC 21), cure critical wounds, greater contagion (DC 21), stoneskin   4th-ball
-  lightningAPG (DC 20), cure serious wounds, flame strike (DC 20), rusting
-  grasp, spike stones (DC 20)   3rd-cloak of windsAPG, cure moderate wounds,
-  fungal infestationUM (DC 19), greater magic fang, remove disease  
-  2nd-barkskin, bear's endurance, chill metal (DC 18), gust of wind, lesser
-  restoration, summon swarm   1st-charm animal (DC 17), cure light wounds,
-  detect aberrationAPG, entangle (DC 17), faerie fire, magic stone   0 (at
-  will)-detect magic, detect poison, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 13th; concentration +19)   7th-control weather  
+    6th-greater dispel magic, repel wood, wall of stone   5th-call lightning
+    storm (DC 21), cure critical wounds, greater contagion (DC 21), stoneskin  
+    4th-ball lightningAPG (DC 20), cure serious wounds, flame strike (DC 20),
+    rusting grasp, spike stones (DC 20)   3rd-cloak of windsAPG, cure moderate
+    wounds, fungal infestationUM (DC 19), greater magic fang, remove disease  
+    2nd-barkskin, bear's endurance, chill metal (DC 18), gust of wind, lesser
+    restoration, summon swarm   1st-charm animal (DC 17), cure light wounds,
+    detect aberrationAPG, entangle (DC 17), faerie fire, magic stone
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, resistance, stabilize
 AbilityScores:
   - 18
   - 22

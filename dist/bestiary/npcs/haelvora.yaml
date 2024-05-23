@@ -35,11 +35,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: acid dart (1d6+2 acid)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)   3rd-flyD, summon monster
-  III, vision of Hell UM   2nd-dread boltUM (DC 15, 2), hold person (DC 15),
-  soften earth and stoneD   1st-bane (DC 14), longstriderD, murderous commandUM
-  (DC 14, 3)   0 (at will)-detect magic, create water, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)   3rd-flyD, summon monster
+    III, vision of Hell UM   2nd-dread boltUM (DC 15, 2), hold person (DC 15),
+    soften earth and stoneD   1st-bane (DC 14), longstriderD, murderous
+    commandUM (DC 14, 3)
+  values:
+    - label: 0 (at will)
+      value: detect magic, create water, guidance, read magic
 SpellDomains: Earth, Travel
 AbilityScores:
   - 13

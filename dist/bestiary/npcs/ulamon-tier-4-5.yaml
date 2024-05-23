@@ -28,12 +28,15 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: storm burst (1d6+2 nonlethal damage, 6/day), wild shape 5 hours/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 5th; concentration +8)  3rd-call lightningD, cure
-  moderate wounds, water breathing  2nd-aspect of the bear*, barkskin, fog
-  cloudD, resist energy  1st-alter winds*, endure elements, obscuring mistD,
-  pass without trace, shillelagh  0 (at will)-guidance, know direction, light,
-  purify food and drink
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 5th; concentration +8)  3rd-call lightningD, cure
+    moderate wounds, water breathing  2nd-aspect of the bear*, barkskin, fog
+    cloudD, resist energy  1st-alter winds*, endure elements, obscuring mistD,
+    pass without trace, shillelagh
+  values:
+    - label: 0 (at will)
+      value: guidance, know direction, light, purify food and drink
 SpellDomains: Weather
 AbilityScores:
   - 12

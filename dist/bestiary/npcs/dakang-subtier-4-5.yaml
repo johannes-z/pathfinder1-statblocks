@@ -44,11 +44,15 @@ SpellLikeAbilities:
       value: vision of madness (+/-2)
     - label: 7/day
       value: copycat (4 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +8)  2nd-death knell (DC 16),
-  hold person (DC 16), invisibilityD, undetectable alignment  1st-bane (DC 15),
-  cause fear (DC 15), divine favor, lesser confusion (DC 15)D, shield of faith 
-  0 (at will)-bleed (DC 14), detect magic, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +8)  2nd-death knell (DC 16),
+    hold person (DC 16), invisibilityD, undetectable alignment  1st-bane (DC
+    15), cause fear (DC 15), divine favor, lesser confusion (DC 15)D, shield of
+    faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, resistance, stabilize
 SpellDomains: Madness, Trickery
 AbilityScores:
   - 17

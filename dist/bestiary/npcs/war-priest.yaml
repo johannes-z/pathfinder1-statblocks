@@ -35,10 +35,13 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: touch of chaos
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +5)   1st-bane (DC 14), magic
-  stone, magic weapon, true strikeD   0 (at will)-bleed (DC 13), detect magic,
-  detect poison, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +5)   1st-bane (DC 14), magic
+    stone, magic weapon, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, detect poison, read magic
 SpellDomains: Chaos, Destruction
 AbilityScores:
   - 15

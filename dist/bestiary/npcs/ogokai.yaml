@@ -25,9 +25,13 @@ Ranged:
   - javelin +1 (1d6)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 1st; concentration +4)   1st-entangle (DC 14),
-  produce flame   0 (at will)-create water, guidance, know direction
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 1st; concentration +4)   1st-entangle (DC 14),
+    produce flame
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, know direction
 AbilityScores:
   - 11
   - 12

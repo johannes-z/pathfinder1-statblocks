@@ -32,11 +32,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: bleeding touch (1 round), copycat (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-death knell (DC 14),
-  hold person (DC 14), invisibilityD   1st-cause fearD (DC 13), deathwatch,
-  magic weapon, murderous commandUM (DC 13)   0 (at will)-bleed (DC 12), detect
-  poison, purify food and drink, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-death knell (DC 14),
+    hold person (DC 14), invisibilityD   1st-cause fearD (DC 13), deathwatch,
+    magic weapon, murderous commandUM (DC 13)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect poison, purify food and drink, resistance
 SpellDomains: Death, Trickery
 AbilityScores:
   - 13

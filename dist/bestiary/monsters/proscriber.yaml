@@ -38,41 +38,51 @@ SpellLikeAbilities:
       value: >-
         blade barrier (DC 21), geas/quest, plane shift (DC 22), polymorph (self
         only), power word blind, waves of exhaustion, word of recall.
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 15th; good-aligned only) 8th-fire storm (DC 23),
-  plus 1 domain spell 7th-holy word (DC 22), repulsion, plus 1 domain spell
-  6th-blade barrier, geas/quest (DC 21), word of recall, plus 1 domain spell
-  5th-flame strike (DC 20), hallow, insect plague, mark of justice, righteous
-  might, plus 1 domain spell 4th-control water, death ward, divine power,
-  freedom of movement, spell immunity, plus 1 domain spell 3rd-daylight, dispel
-  magic (DC 18), invisibility purge, prayer, searing light, plus 1 domain spell
-  2nd-align weapon, consecrate, cure moderate wounds, enthrall (DC 17), zone of
-  truth (DC 17), plus 1 domain spell 1st-bless (DC 16), command (DC 16), cure
-  light wounds, divine favor, protection from evil, sanctuary, plus 1 domain
-  spell 0 (at will)- detect magic, light, read magic, resistance Cleric Spells
-  Prepared (CL 15th; neutral-aligned only) 8th-firestorm (DC 23), plus 1 domain
-  spell 7th-control weather, repulsion, plus 1 domain spell 6th-blade barrier,
-  greater dispel, magic, harm (DC 22), plus 1 domain spell 5th-flame strike (DC
-  20), mass inflict light wounds, slay living (DC 20), unhallow, plus 1 domain
-  spell 4th-death ward, dismissal (DC 19), divine power, greater magic weapon,
-  spell immunity, plus 1 domain spell 3rd-bestow curse (DC 18),
-  blindness/deafness (DC 18), daylight, searing light, wind wall, plus 1 domain
-  spell 2nd-darkness, enthrall (DC 17), hold person (DC 17), silence, spiritual
-  weapon, plus 1 domain spell 1st-bane (DC 16), command (DC 16), divine favor,
-  doom (DC 16), obscuring mist, sanctuary, plus 1 domain spell 0 (at
-  will)-detect magic, light, read magic, resistance D Domain spell; Domains as
-  per deity Cleric Spells Prepared (CL 15th; evil-aligned only) 8th-unholy aura,
-  plus 1 domain spell 7th-blasphemy (DC 22), destruction (DC 20), plus 1 domain
-  spell 6th-greater dispel magic, harm (DC 21), word of recall, plus 1 domain
-  spell 5th-flame strike (DC 20), mass inflict light wounds, slay living,
-  unhallow, plus 1 domain spell 4th-death ward, divine power, freedom of
-  movement, poison (DC 18), spell immunity, plus 1 domain spell 3rd-bestow curse
-  (DC 18), blindness/deafness (DC 18), invisibility purge, inflict serious
-  wounds, magic circle against good, plus 1 domain spell 2nd-align weapon,
-  bull's strength, death knell (DC 17), desecrate, silence, plus 1 domain spell
-  1st-bane (DC 16), cause fear (DC 16), curse water, detect good, doom, inflict
-  light wounds, sanctuary, plus 1 domain spell 0 (at will)-detect magic, light,
-  read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 15th; good-aligned only) 8th-fire storm (DC 23),
+    plus 1 domain spell 7th-holy word (DC 22), repulsion, plus 1 domain spell
+    6th-blade barrier, geas/quest (DC 21), word of recall, plus 1 domain spell
+    5th-flame strike (DC 20), hallow, insect plague, mark of justice, righteous
+    might, plus 1 domain spell 4th-control water, death ward, divine power,
+    freedom of movement, spell immunity, plus 1 domain spell 3rd-daylight,
+    dispel magic (DC 18), invisibility purge, prayer, searing light, plus 1
+    domain spell 2nd-align weapon, consecrate, cure moderate wounds, enthrall
+    (DC 17), zone of truth (DC 17), plus 1 domain spell 1st-bless (DC 16),
+    command (DC 16), cure light wounds, divine favor, protection from evil,
+    sanctuary, plus 1 domain spell
+  values:
+    - label: 0 (at will)
+      value: >-
+        detect magic, light, read magic, resistance Cleric Spells Prepared (CL
+        15th; neutral-aligned only) 8th-firestorm (DC 23), plus 1 domain spell
+        7th-control weather, repulsion, plus 1 domain spell 6th-blade barrier,
+        greater dispel, magic, harm (DC 22), plus 1 domain spell 5th-flame
+        strike (DC 20), mass inflict light wounds, slay living (DC 20),
+        unhallow, plus 1 domain spell 4th-death ward, dismissal (DC 19), divine
+        power, greater magic weapon, spell immunity, plus 1 domain spell
+        3rd-bestow curse (DC 18), blindness/deafness (DC 18), daylight, searing
+        light, wind wall, plus 1 domain spell 2nd-darkness, enthrall (DC 17),
+        hold person (DC 17), silence, spiritual weapon, plus 1 domain spell
+        1st-bane (DC 16), command (DC 16), divine favor, doom (DC 16), obscuring
+        mist, sanctuary, plus 1 domain spell
+    - label: 0 (at will)
+      value: >-
+        detect magic, light, read magic, resistance D Domain spell; Domains as
+        per deity Cleric Spells Prepared (CL 15th; evil-aligned only) 8th-unholy
+        aura, plus 1 domain spell 7th-blasphemy (DC 22), destruction (DC 20),
+        plus 1 domain spell 6th-greater dispel magic, harm (DC 21), word of
+        recall, plus 1 domain spell 5th-flame strike (DC 20), mass inflict light
+        wounds, slay living, unhallow, plus 1 domain spell 4th-death ward,
+        divine power, freedom of movement, poison (DC 18), spell immunity, plus
+        1 domain spell 3rd-bestow curse (DC 18), blindness/deafness (DC 18),
+        invisibility purge, inflict serious wounds, magic circle against good,
+        plus 1 domain spell 2nd-align weapon, bull's strength, death knell (DC
+        17), desecrate, silence, plus 1 domain spell 1st-bane (DC 16), cause
+        fear (DC 16), curse water, detect good, doom, inflict light wounds,
+        sanctuary, plus 1 domain spell
+    - label: 0 (at will)
+      value: detect magic, light, read magic, resistance
 SpellDomains: as per deity
 AbilityScores:
   - 25

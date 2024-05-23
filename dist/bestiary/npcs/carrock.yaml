@@ -35,19 +35,23 @@ Reach: 20 ft.
 SpecialAttacks: >-
   rock throwing (180 ft.), smite good (+3 attack, +27 damage, 1/day), trample
   (2d8+22, DC 31), wild shape 15 hours/day, wooden fist (+7, 11 rounds/day)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 15th; concentration +23)  8th-control plantsD,
-  finger of death (DC 26), whirlwind (DC 26)  7th-animate plantsD, creeping
-  doom, fire storm (DC 25), heal  6th-antilife shell, greater dispel magic, mass
-  cure light wounds, move earth, repel woodD  5th-animal growth, awaken, call
-  lightning storm, insect plague, rest eternal*, wall of thornsD  4th-air walk,
-  command plantsD, flame strike, freedom of movement, giant vermin, ice storm,
-  thorn body*  3rd-call lightning, cure serious wounds, plant growthD,
-  protection from energy (already cast), quench, speak with plants, stone shape 
-  2nd-barkskinD (already cast), cure moderate wounds, heat metal, owl's wisdom,
-  resist energy, stone call, wood shape  1st-ant haul* (already cast), bristle*,
-  entangleD (DC 19), faerie fire, longstrider, obscuring mist, produce flame  0
-  (at will)-detect magic, guidance, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 15th; concentration +23)  8th-control plantsD,
+    finger of death (DC 26), whirlwind (DC 26)  7th-animate plantsD, creeping
+    doom, fire storm (DC 25), heal  6th-antilife shell, greater dispel magic,
+    mass cure light wounds, move earth, repel woodD  5th-animal growth, awaken,
+    call lightning storm, insect plague, rest eternal*, wall of thornsD  4th-air
+    walk, command plantsD, flame strike, freedom of movement, giant vermin, ice
+    storm, thorn body*  3rd-call lightning, cure serious wounds, plant growthD,
+    protection from energy (already cast), quench, speak with plants, stone
+    shape  2nd-barkskinD (already cast), cure moderate wounds, heat metal, owl's
+    wisdom, resist energy, stone call, wood shape  1st-ant haul* (already cast),
+    bristle*, entangleD (DC 19), faerie fire, longstrider, obscuring mist,
+    produce flame
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, resistance, stabilize
 SpellDomains: Plant
 AbilityScores:
   - 40

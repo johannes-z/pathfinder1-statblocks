@@ -30,15 +30,19 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: rebuke death (1d4+4), touch of glory (+9)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +14)   5th-breath of lifeD,
-  flame strike (DC 20), pillar of lifeAPG   4th-cure critical woundsD,
-  neutralize poison, restoration, tongues   3rd-cure serious woundsD, dispel
-  magic, flame blade, remove blindness/deafness, symbol of healingUM   2nd-calm
-  emotions, cure moderate woundsD, instant armorAPG, lesser restoration,
-  spiritual weapon, status   1st-bless, diagnose diseaseUM, protection from
-  evil, remove fear, remove sicknessUM, shield of faithD, sun metalUC   0 (at
-  will)-detect magic, detect poison, light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +14)   5th-breath of lifeD,
+    flame strike (DC 20), pillar of lifeAPG   4th-cure critical woundsD,
+    neutralize poison, restoration, tongues   3rd-cure serious woundsD, dispel
+    magic, flame blade, remove blindness/deafness, symbol of healingUM  
+    2nd-calm emotions, cure moderate woundsD, instant armorAPG, lesser
+    restoration, spiritual weapon, status   1st-bless, diagnose diseaseUM,
+    protection from evil, remove fear, remove sicknessUM, shield of faithD, sun
+    metalUC
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, light, stabilize
 SpellDomains: Glory, Healing
 AbilityScores:
   - 7

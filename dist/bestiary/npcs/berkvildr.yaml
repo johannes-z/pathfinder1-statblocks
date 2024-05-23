@@ -32,12 +32,16 @@ SpellLikeAbilities:
   values:
     - label: 3/day
       value: alter self, fog cloud
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 6th; concentration +10)   3rd-burst of nettlesUM (DC
-  17), call lightning (DC 17), cloak of windsD, APG (DC 17), poison (DC 17)  
-  2nd-barkskin, bull's strength, frigid touchUM, resist energy, stone callD,
-  APG   1st-entangle (DC 15), faerie fire, magic fang, produce flame, stone
-  fistD, APG   0 (at will)-detect magic, flare (DC 14), mending, sparkAPG
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 6th; concentration +10)   3rd-burst of nettlesUM
+    (DC 17), call lightning (DC 17), cloak of windsD, APG (DC 17), poison (DC
+    17)   2nd-barkskin, bull's strength, frigid touchUM, resist energy, stone
+    callD, APG   1st-entangle (DC 15), faerie fire, magic fang, produce flame,
+    stone fistD, APG
+  values:
+    - label: 0 (at will)
+      value: detect magic, flare (DC 14), mending, sparkAPG
 SpellDomains: Mountain
 AbilityScores:
   - 27

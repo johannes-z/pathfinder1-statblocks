@@ -32,13 +32,16 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: bit of luck, touch of good (+3)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +10)   3rd-dispel magic,
-  protection from energyD, remove disease (DC 17), searing light   2nd-aid,
-  align weaponD (good only), delay poison (DC 16), lesser restoration, shield
-  other   1st-detect evil, protection from evilD, remove fear, sanctuary (DC
-  15), shield of faith   0 (at will)-create water, detect poison, light,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +10)   3rd-dispel magic,
+    protection from energyD, remove disease (DC 17), searing light   2nd-aid,
+    align weaponD (good only), delay poison (DC 16), lesser restoration, shield
+    other   1st-detect evil, protection from evilD, remove fear, sanctuary (DC
+    15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, light, stabilize
 SpellDomains: Good, Luck
 AbilityScores:
   - 13

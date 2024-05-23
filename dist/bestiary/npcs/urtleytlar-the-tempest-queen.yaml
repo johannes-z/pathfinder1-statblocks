@@ -54,15 +54,18 @@ SpellLikeAbilities:
       value: >-
         control weather, power word stun, project image (DC 24), summon (level
         8, 1 charybdis 100%)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +17)  4th-cure critical wounds
-  (DC 23), divine power, inflict critical woundsB (DC 23), tongues, unholy
-  blight (DC 23)  3rd-call lightningB (DC 22), cure serious wounds (DC 22, 2),
-  invisibility purge, magic circle against good, water breathing  2nd-darkness,
-  death knell (DC 21), gust of windB (DC 21), shatter (2), spiritual weapon 
-  1st-cause fear (DC 20), command (DC 20, 2), divine favor, entropic shield,
-  obscuring mistB, shield of faith, true strike  0 (at will)-bleed (DC 19),
-  detect magic, guidance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +17)  4th-cure critical wounds
+    (DC 23), divine power, inflict critical woundsB (DC 23), tongues, unholy
+    blight (DC 23)  3rd-call lightningB (DC 22), cure serious wounds (DC 22, 2),
+    invisibility purge, magic circle against good, water breathing 
+    2nd-darkness, death knell (DC 21), gust of windB (DC 21), shatter (2),
+    spiritual weapon  1st-cause fear (DC 20), command (DC 20, 2), divine favor,
+    entropic shield, obscuring mistB, shield of faith, true strike
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 19), detect magic, guidance, virtue
 SpellDomains: Destruction (Catastrophe subdomain*), Weather (Storms subdomain*)
 AbilityScores:
   - 35

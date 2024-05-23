@@ -29,15 +29,18 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (agony [10 rounds], cackle, evil eye [-4, 6 rounds], healing [cure
   moderate], misfortune [2 rounds], slumber [10 rounds])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 12th; concentration +15)   6th-flesh to stone (DC
-  19), greater discharge (DC 19)   5th-feeblemind (DC 18), mass pain strikeAPG
-  (DC 18), suffocationAPG (DC 18)    4th-cure serious wounds, dimension door,
-  fear (DC 17)   3rd-dispel magic, fly, irradiate (DC 16), suggestion (DC 16),
-  vampiric touch   2nd-cure moderate wounds (2), false life, hold person (DC
-  15), pox pustulesAPG (DC 15)   1st-charm person (DC 14), command (DC 14), cure
-  light wounds, mage armor, ray of enfeeblement (DC 14)   0 (at will)-arcane
-  mark, bleed (DC 13), light, touch of fatigue (DC 13)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 12th; concentration +15)   6th-flesh to stone (DC
+    19), greater discharge (DC 19)   5th-feeblemind (DC 18), mass pain strikeAPG
+    (DC 18), suffocationAPG (DC 18)    4th-cure serious wounds, dimension door,
+    fear (DC 17)   3rd-dispel magic, fly, irradiate (DC 16), suggestion (DC 16),
+    vampiric touch   2nd-cure moderate wounds (2), false life, hold person (DC
+    15), pox pustulesAPG (DC 15)   1st-charm person (DC 14), command (DC 14),
+    cure light wounds, mage armor, ray of enfeeblement (DC 14)
+  values:
+    - label: 0 (at will)
+      value: arcane mark, bleed (DC 13), light, touch of fatigue (DC 13)
 AbilityScores:
   - 8
   - 18

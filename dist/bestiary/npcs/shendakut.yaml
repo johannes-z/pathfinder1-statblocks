@@ -37,17 +37,21 @@ SpellLikeAbilities:
   values:
     - label: 9/day
       value: storm burst (1d6+3 nonlethal)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 12th; concentration +18)   6th-blade barrier (DC
-  22), control windsD (DC 22), harm (DC 23), mass bull's strength  
-  5th-boneshatter (DC 21, see page 15), greater command (DC 21), ice stormD,
-  true seeing, unholy iceUM (DC 21)   4th-debilitating portentUC (2), fearD (DC
-  21), freedom of movement, unholy blight (DC 20)   3rd-bestow curse (DC 20),
-  call lightningD (DC 19), sands of timeUM, searing light (2), speak with dead
-  (DC 20)   2nd-bull's strength, fog cloudD, hold person (DC 18), graceAPG (3),
-  resist energy   1st-bane (DC 17), cause fearD (DC 18), command (DC 17),
-  comprehend languages, divine favor, protection from good, shield of faith   0
-  (at will)-bleed (DC 17), detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 12th; concentration +18)   6th-blade barrier (DC
+    22), control windsD (DC 22), harm (DC 23), mass bull's strength  
+    5th-boneshatter (DC 21, see page 15), greater command (DC 21), ice stormD,
+    true seeing, unholy iceUM (DC 21)   4th-debilitating portentUC (2), fearD
+    (DC 21), freedom of movement, unholy blight (DC 20)   3rd-bestow curse (DC
+    20), call lightningD (DC 19), sands of timeUM, searing light (2), speak with
+    dead (DC 20)   2nd-bull's strength, fog cloudD, hold person (DC 18),
+    graceAPG (3), resist energy   1st-bane (DC 17), cause fearD (DC 18), command
+    (DC 17), comprehend languages, divine favor, protection from good, shield of
+    faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, guidance, read magic
 SpellDomains: Evil (FearISG subdomain), Weather
 AbilityScores:
   - 37

@@ -38,9 +38,13 @@ SpellLikeAbilities:
       value: dazing touch
     - label: 6/day
       value: icicle (1d6+1 cold damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +4)  1st-bless, charm personD,
-  divine favor  0 (at will)-create water, guidance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +4)  1st-bless, charm personD,
+    divine favor
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, stabilize
 SpellDomains: Charm, Water
 AbilityScores:
   - 11

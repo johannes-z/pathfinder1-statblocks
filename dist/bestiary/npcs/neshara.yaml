@@ -33,12 +33,16 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: touch of chaos
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; melee touch +5, ranged touch +4):   3rd-dominate
-  animalD (DC 15), inflict serious wounds (DC 15)   2nd-bear's endurance, cure
-  moderate wounds, dread boltUM (DC 14), hold animalD (DC 14)   1st-bane (DC
-  13), command (DC 13), divine favor, protection from lawD, ray of sickeningUM
-  (DC 13)   0 (at will)-bleed (DC 12), guidance, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; melee touch +5, ranged touch +4):   3rd-dominate
+    animalD (DC 15), inflict serious wounds (DC 15)   2nd-bear's endurance, cure
+    moderate wounds, dread boltUM (DC 14), hold animalD (DC 14)   1st-bane (DC
+    13), command (DC 13), divine favor, protection from lawD, ray of sickeningUM
+    (DC 13)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), guidance, resistance, virtue
 SpellDomains: Animal, Chaos
 AbilityScores:
   - 12

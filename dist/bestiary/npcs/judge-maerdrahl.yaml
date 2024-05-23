@@ -31,16 +31,20 @@ SpellLikeAbilities:
       value: charming smile (14 rounds, DC 17)
     - label: 6/day
       value: dazing touch, touch of chaos
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 14th; concentration +17)  7th-destruction, symbol
-  of weakness, word of chaosD  6th-animate objectsD, banishment, blade barrier,
-  greater dispel magic  5th-charm monsterD, greater command, flame strike, slay
-  living  4th-chaos hammerD, cure critical wounds, discern lies, freedom of
-  movement, unholy blight  3rd-bestow curse, contagion, dispel magic,
-  invisibility purge, searing light, suggestionD  2nd-calm emotionsD, enthrall,
-  hold person, resist energy, silence, zone of truth  1st-charm personD,
-  command, comprehend languages, doom, entropic shield, obscuring mist  0 (at
-  will)-bleed, detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 14th; concentration +17)  7th-destruction, symbol
+    of weakness, word of chaosD  6th-animate objectsD, banishment, blade
+    barrier, greater dispel magic  5th-charm monsterD, greater command, flame
+    strike, slay living  4th-chaos hammerD, cure critical wounds, discern lies,
+    freedom of movement, unholy blight  3rd-bestow curse, contagion, dispel
+    magic, invisibility purge, searing light, suggestionD  2nd-calm emotionsD,
+    enthrall, hold person, resist energy, silence, zone of truth  1st-charm
+    personD, command, comprehend languages, doom, entropic shield, obscuring
+    mist
+  values:
+    - label: 0 (at will)
+      value: bleed, detect magic, light, read magic
 SpellDomains: Chaos, Charm
 AbilityScores:
   - 10

@@ -43,17 +43,20 @@ SpellLikeAbilities:
         concentration +17)
     - label: 10/day
       value: touch of evil (5 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +17)  5th-dispel goodD, greater
-  command (DC 22), slay living (DC 22), unholy iceUM  4th-discern lies (DC 21),
-  dismissal (DC 21), summon monster IV, terrible remorseUM (DC 21), unholy
-  blightD (DC 21)  3rd-bestow curse (DC 20), blindness/deafness (DC 20), cure
-  serious wounds, invisibility purge, magic circle against goodD, protection
-  from energy  2nd-death knell (DC 19), desecrate, hold person (DC 19), resist
-  energy, shatterD (DC 19), sound burst (DC 19), spiritual weapon  1st-cause
-  fear (DC 18), command (DC 18), cure light wounds, curse water (DC 18), divine
-  favor, sanctuary (DC 18), true strikeD  0 (at will)-bleed (DC 17), create
-  water, detect magic, guidance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +17)  5th-dispel goodD,
+    greater command (DC 22), slay living (DC 22), unholy iceUM  4th-discern lies
+    (DC 21), dismissal (DC 21), summon monster IV, terrible remorseUM (DC 21),
+    unholy blightD (DC 21)  3rd-bestow curse (DC 20), blindness/deafness (DC
+    20), cure serious wounds, invisibility purge, magic circle against goodD,
+    protection from energy  2nd-death knell (DC 19), desecrate, hold person (DC
+    19), resist energy, shatterD (DC 19), sound burst (DC 19), spiritual weapon 
+    1st-cause fear (DC 18), command (DC 18), cure light wounds, curse water (DC
+    18), divine favor, sanctuary (DC 18), true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), create water, detect magic, guidance
 SpellDomains: Destruction, Evil
 AbilityScores:
   - 31

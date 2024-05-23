@@ -32,11 +32,14 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel positive energy 2d6 3/day (DC 14), hexes (chant, evil eye,
   misfortune), spirit ability (monstrous insight 5/day)
-SpellsPrepared: >-
-  Shaman Spells Prepared (CL 4th; concentration +8)   2nd-barkskin, false life,
-  tonguesS   1st-entangle (DC 15), heightened awarenessACG, obscuring mist,
-  remove fear, identifyS   0 (at will)-create water, detect magic, guidance,
-  light
+SpellsPrepared:
+  header: >-
+    Shaman Spells Prepared (CL 4th; concentration +8)   2nd-barkskin, false
+    life, tonguesS   1st-entangle (DC 15), heightened awarenessACG, obscuring
+    mist, remove fear, identifyS
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, light
 AbilityScores:
   - 8
   - 8

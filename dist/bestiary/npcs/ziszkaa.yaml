@@ -37,12 +37,16 @@ SpellLikeAbilities:
         15) Domain Spell-Like Abilities (CL 5th; concentration +10)
     - label: 8/day
       value: battle rage (+2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +10)  3rd-magic vestmentD,
-  protection from energy, summon monster III  2nd-cure moderate wounds, silence
-  (DC 17), sound burst (DC 17), spiritual weaponD  1st-bane (DC 16), cause fear
-  (DC 16), cure light wounds, divine favor, magic fangD, sanctuary (DC 16)  0
-  (at will)-bleed (DC 15), detect magic, guidance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +10)  3rd-magic vestmentD,
+    protection from energy, summon monster III  2nd-cure moderate wounds,
+    silence (DC 17), sound burst (DC 17), spiritual weaponD  1st-bane (DC 16),
+    cause fear (DC 16), cure light wounds, divine favor, magic fangD, sanctuary
+    (DC 16)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, virtue
 SpellDomains: ScalykindISWG, War
 AbilityScores:
   - 11

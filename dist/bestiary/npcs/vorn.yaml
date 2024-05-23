@@ -29,11 +29,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: strength surge +2
-SpellsPrepared: >-
-  Spells Prepared (CL 4th, concentration +6)  2nd-bull's strengthD, delay
-  poison, lesser restoration, spiritual weapon  1st-divine favor, magic weapon,
-  remove fear, shield of faith, true strikeD  0 (at will)-light, mending,
-  stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 4th, concentration +6)  2nd-bull's strengthD, delay
+    poison, lesser restoration, spiritual weapon  1st-divine favor, magic
+    weapon, remove fear, shield of faith, true strikeD
+  values:
+    - label: 0 (at will)
+      value: light, mending, stabilize, virtue
 SpellDomains: Destruction,  Strength
 AbilityScores:
   - 17

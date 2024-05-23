@@ -31,9 +31,13 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: rebuke death (1d4+0)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +4) 1st-bless, cure light
-  woundsD, shield of faith 0 (at will)-detect magic, light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +4) 1st-bless, cure light
+    woundsD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, stabilize
 SpellDomains: Healing, Sun
 AbilityScores:
   - 14

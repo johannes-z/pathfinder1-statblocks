@@ -28,10 +28,13 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: coven spells, hex (evil eye, DC 14)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; ranged touch +8)  2nd-blindness/deafness (DC 14),
-  glitterdust (DC 14)  1st-charm person (DC 13), identify, mage armor  0 (at
-  will)-guidance, message, read magic, touch of fatigue (DC 12)
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; ranged touch +8)  2nd-blindness/deafness (DC 14),
+    glitterdust (DC 14)  1st-charm person (DC 13), identify, mage armor
+  values:
+    - label: 0 (at will)
+      value: guidance, message, read magic, touch of fatigue (DC 12)
 AbilityScores:
   - 19
   - 16

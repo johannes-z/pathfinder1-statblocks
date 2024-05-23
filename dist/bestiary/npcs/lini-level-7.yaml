@@ -38,12 +38,15 @@ SpellLikeAbilities:
       value: >-
         dancing lights, ghost sound (DC 14), prestidigitation, speak with
         animals
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 7th; concentration +11)   4th-dispel magic, ice
-  storm   3rd-daylight, neutralize poison, remove disease (DC 18)  
-  2nd-barkskin, bull's strength, flaming sphere (DC 16), spider climb  
-  1st-entangle (2, DC 15), goodberry, speak with animals (2)   0 (at
-  will)-detect magic, know direction, light, resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 7th; concentration +11)   4th-dispel magic, ice
+    storm   3rd-daylight, neutralize poison, remove disease (DC 18)  
+    2nd-barkskin, bull's strength, flaming sphere (DC 16), spider climb  
+    1st-entangle (2, DC 15), goodberry, speak with animals (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, know direction, light, resistance
 AbilityScores:
   - 6
   - 12

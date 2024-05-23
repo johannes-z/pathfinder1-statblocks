@@ -33,14 +33,18 @@ Reach: 15 ft.
 SpecialAttacks: >-
   hexes (hex of lignificationUW, misfortuneAPG, spines and bramblesUW), rock
   throwing (180 ft.), trample (2d6+20, DC 32)
-SpellsPrepared: >-
-  Shaman Spells Prepared (CL 9th; concentration +14)   5th-commune with nature,
-  tree strideS, wall of thorns   4th-cure critical wounds (2), poison (DC 19),
-  thorn bodyAPG, S   3rd-blindness/deafness (DC 18), cure serious wounds, dispel
-  magic, minor creationS (wood items only), wind wall   2nd-aid, barkskinS, cure
-  moderate wounds (2), summon swarm, tree shape   1st-cure light wounds (3),
-  entangle (DC 16), obscuring mist, pass without trace, shillelaghS   0 (at
-  will)-bleed (DC 15), dancing lights, guidance, touch of fatigue (DC 15)
+SpellsPrepared:
+  header: >-
+    Shaman Spells Prepared (CL 9th; concentration +14)   5th-commune with
+    nature, tree strideS, wall of thorns   4th-cure critical wounds (2), poison
+    (DC 19), thorn bodyAPG, S   3rd-blindness/deafness (DC 18), cure serious
+    wounds, dispel magic, minor creationS (wood items only), wind wall  
+    2nd-aid, barkskinS, cure moderate wounds (2), summon swarm, tree shape  
+    1st-cure light wounds (3), entangle (DC 16), obscuring mist, pass without
+    trace, shillelaghS
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), dancing lights, guidance, touch of fatigue (DC 15)
 AbilityScores:
   - 34
   - 12

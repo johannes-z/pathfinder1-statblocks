@@ -31,12 +31,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: gentle rest, rebuke death (1d4+2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)   3rd-remove curse, remove
-  disease, speak with deadD (DC 16)   2nd-delay poison, gentle reposeD, remove
-  paralysis, lesser restoration   1st-bless, bless water, deathwatchD, magic
-  weapon, sanctuary (DC 14)   0 (at will)-detect magic, guidance, purify food
-  and drink, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)   3rd-remove curse, remove
+    disease, speak with deadD (DC 16)   2nd-delay poison, gentle reposeD, remove
+    paralysis, lesser restoration   1st-bless, bless water, deathwatchD, magic
+    weapon, sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, purify food and drink, stabilize
 SpellDomains: Healing, Repose
 AbilityScores:
   - 12

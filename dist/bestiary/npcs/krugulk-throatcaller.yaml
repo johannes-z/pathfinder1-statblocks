@@ -31,11 +31,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: bleeding touch (1 round), touch of evil (1 round)
-SpellsPrepared: >-
-  Cleric of Gogunta Spells Prepared (CL 3rd; concentration +5)   2nd-bull's
-  strength, death knellD (DC 14), spiritual weapon   1st-bane (DC 13), doom (DC
-  13), inflict light wounds (DC 13), protection from goodD   0 (at will)-bleed
-  (DC 12), guidance, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric of Gogunta Spells Prepared (CL 3rd; concentration +5)   2nd-bull's
+    strength, death knellD (DC 14), spiritual weapon   1st-bane (DC 13), doom
+    (DC 13), inflict light wounds (DC 13), protection from goodD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), guidance, resistance, virtue
 SpellDomains: Death, Evil
 AbilityScores:
   - 14

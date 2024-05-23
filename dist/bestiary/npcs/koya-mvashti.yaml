@@ -31,11 +31,14 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: bit of luck
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +8)   2nd-aid, augury, lesser
-  restoration, make whole   1st-bless, comprehend languages, longstrider,
-  obscuring mist, sanctuary (DC 15)   0 (at will)-create water, detect magic,
-  light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +8)   2nd-aid, augury, lesser
+    restoration, make whole   1st-bless, comprehend languages, longstrider,
+    obscuring mist, sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, light, mending
 SpellDomains: Luck, Travel
 AbilityScores:
   - 5

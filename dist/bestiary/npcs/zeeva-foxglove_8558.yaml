@@ -25,10 +25,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hexes (fortune [1 round], healing [cure light wounds], misfortune [1 round])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 4th; concentration +7)   2nd-augury, fog cloud,
-  locate object   1st-charm person (DC 14), command (DC 14), identify, unseen
-  servant   0 (at will)-guidance, mending, sparkAPG (DC 13), stabilize
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 4th; concentration +7)   2nd-augury, fog cloud,
+    locate object   1st-charm person (DC 14), command (DC 14), identify, unseen
+    servant
+  values:
+    - label: 0 (at will)
+      value: guidance, mending, sparkAPG (DC 13), stabilize
 AbilityScores:
   - 8
   - 14

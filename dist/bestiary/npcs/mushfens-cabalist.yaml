@@ -30,14 +30,17 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (cackle, charm [2 steps, 3 rounds], disguise [9 hours], evil eye [-4, 6
   rounds], slumber [9 rounds], ward [+3])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 9th; concentration +12)  5th-suffocationAPG (DC 19) 
-  4th-control water, fear (DC 17)  3rd-bestow curse (DC 16), dispel magic,
-  vampiric touch, water breathing  2nd-blindness/deafness (DC 15), cure moderate
-  wounds, detect thoughts (DC 15), hold person (DC 15), see invisibility 
-  1st-beguiling giftAPG (DC 15), charm person (DC 14), mage armor, obscuring
-  mist, ray of enfeeblement (DC 14)  0 (at will)-bleed (DC 13), detect magic,
-  read magic, touch of fatigue (DC 13)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 9th; concentration +12)  5th-suffocationAPG (DC
+    19)  4th-control water, fear (DC 17)  3rd-bestow curse (DC 16), dispel
+    magic, vampiric touch, water breathing  2nd-blindness/deafness (DC 15), cure
+    moderate wounds, detect thoughts (DC 15), hold person (DC 15), see
+    invisibility  1st-beguiling giftAPG (DC 15), charm person (DC 14), mage
+    armor, obscuring mist, ray of enfeeblement (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, read magic, touch of fatigue (DC 13)
 AbilityScores:
   - 8
   - 13

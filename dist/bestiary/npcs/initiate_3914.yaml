@@ -27,10 +27,13 @@ Ranged:
   - dart +1 (1d4)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Adept Spells Prepared (CL 3rd; concentration +4)   1st-burning hands (DC 12),
-  detect good, protection from good   0 (at will)-detect magic, light, read
-  magic
+SpellsPrepared:
+  header: >-
+    Adept Spells Prepared (CL 3rd; concentration +4)   1st-burning hands (DC
+    12), detect good, protection from good
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, read magic
 AbilityScores:
   - 10
   - 11

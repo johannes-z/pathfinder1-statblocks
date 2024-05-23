@@ -40,13 +40,16 @@ SpellLikeAbilities:
       value: levitate (self plus 2,000 lbs.), obscuring mist
     - label: 1/day
       value: fog cloud
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 8th; concentration +12)    4th-confusion (DC 20),
-  dimension door, wandering star motesAPG (DC 18)   3rd-blink, screechAPG (DC
-  17), strangling hairUM, suggestion (DC 19)   2nd-glitterdust (DC 16), hold
-  person (DC 18), invisibility, unnatural lustUM (DC 18)   1st-charm person (DC
-  17), command (DC 17), ill omenAPG, mage armor, reduce person (DC 15)   0 (at
-  will)-detect magic, message, read magic, touch of fatigue (DC 14)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 8th; concentration +12)    4th-confusion (DC 20),
+    dimension door, wandering star motesAPG (DC 18)   3rd-blink, screechAPG (DC
+    17), strangling hairUM, suggestion (DC 19)   2nd-glitterdust (DC 16), hold
+    person (DC 18), invisibility, unnatural lustUM (DC 18)   1st-charm person
+    (DC 17), command (DC 17), ill omenAPG, mage armor, reduce person (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect magic, message, read magic, touch of fatigue (DC 14)
 AbilityScores:
   - 33
   - 17

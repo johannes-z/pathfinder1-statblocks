@@ -27,9 +27,13 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy (1d6, DC 13, 4/day), touch of chaos (5/day), vision of
   madness (5/day), aura of madness (DC 12)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st)  1st-cause fear (2, DC 13), lesser confusionD
-  (DC 13)  0 (at will)-bleed (DC 12), detect magic, light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st)  1st-cause fear (2, DC 13), lesser
+    confusionD (DC 13)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, light
 SpellDomains: Chaos, Madness
 AbilityScores:
   - 12

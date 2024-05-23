@@ -36,13 +36,17 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: strength surge (+3)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +12)   4th-divine power, mark of
-  the reptile god* (DC 19), unholy blightD (DC 19)   3rd-bestow curse (DC 18),
-  prayer, rageD, searing light   2nd-amplify stench*, bull's strengthD, cure
-  moderate wounds, hold person (DC 17), spiritual weapon   1st-bless, command
-  (DC 16), cure light wounds (3), entropic shield, protection from goodD   0 (at
-  will)-bleed (DC 15), detect magic, guidance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +12)   4th-divine power, mark
+    of the reptile god* (DC 19), unholy blightD (DC 19)   3rd-bestow curse (DC
+    18), prayer, rageD, searing light   2nd-amplify stench*, bull's strengthD,
+    cure moderate wounds, hold person (DC 17), spiritual weapon   1st-bless,
+    command (DC 16), cure light wounds (3), entropic shield, protection from
+    goodD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, stabilize
 SpellDomains: Evil (Demon subdomain), Strength
 AbilityScores:
   - 20

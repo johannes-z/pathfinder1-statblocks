@@ -30,13 +30,17 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: lightning arc (1d6+3 electricity), storm burst (1d6+3 nonlethal)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +12)   4th-air walkD, freedom of
-  movement, restoration   3rd-call lightningD(DC 18), dispel magic, remove
-  disease, water breathing   2nd-augury, resist energy, lesser restoration,
-  spiritual weapon, wind wallD 1st-air bubbleUC, command (DC 16), endure
-  elements, obscuring mistD, sanctuary (DC 16), shield of faith, summon monster
-  I   0 (at will)-detect magic, light, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +12)   4th-air walkD, freedom
+    of movement, restoration   3rd-call lightningD(DC 18), dispel magic, remove
+    disease, water breathing   2nd-augury, resist energy, lesser restoration,
+    spiritual weapon, wind wallD 1st-air bubbleUC, command (DC 16), endure
+    elements, obscuring mistD, sanctuary (DC 16), shield of faith, summon
+    monster I
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, stabilize
 SpellDomains: Air, Weather
 AbilityScores:
   - 10

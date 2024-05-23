@@ -27,15 +27,18 @@ Speed: 20 ft.
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hatred
-SpellsPrepared: >-
-  Abjurer Spells Prepared (CL 10th; concentration +15)   5th-dismissal (DC 20),
-  mage's private sanctum, telepathic bond, wall of stone   4th-arcane eye,
-  lesser globe of invulnerability, remove curse, scrying (DC 19), shout (DC
-  19)   3rd-arcane sight, dispel magic, explosive runes, protection from energy,
-  tongues   2nd-locate object, make whole, obscure object (DC 17), scorching
-  ray, see invisibility, shatter (DC 17)   1st-identify (2), mage armor, magic
-  missile, protection from evil, true strike, unseen servant   0 (at
-  will)-arcane mark, detect magic, mending, read magic
+SpellsPrepared:
+  header: >-
+    Abjurer Spells Prepared (CL 10th; concentration +15)   5th-dismissal (DC
+    20), mage's private sanctum, telepathic bond, wall of stone   4th-arcane
+    eye, lesser globe of invulnerability, remove curse, scrying (DC 19), shout
+    (DC 19)   3rd-arcane sight, dispel magic, explosive runes, protection from
+    energy, tongues   2nd-locate object, make whole, obscure object (DC 17),
+    scorching ray, see invisibility, shatter (DC 17)   1st-identify (2), mage
+    armor, magic missile, protection from evil, true strike, unseen servant
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, mending, read magic
 AbilityScores:
   - 10
   - 8

@@ -38,12 +38,16 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: lightning arc (1d6+2)
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; melee touch +2, ranged touch +6)  3rd-aqueous orbAPG
-  (DC 18), call lightning (DC 18), gaseous formD  2nd-barkskin, bear's
-  endurance, bull's strength, wind wallD  1st-commune with birdsARG, cure light
-  wounds, magic fang, obscuring mistD, speak with animals, strong wingsARG  0
-  (at will)-create water, know direction, light, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; melee touch +2, ranged touch +6)  3rd-aqueous
+    orbAPG (DC 18), call lightning (DC 18), gaseous formD  2nd-barkskin, bear's
+    endurance, bull's strength, wind wallD  1st-commune with birdsARG, cure
+    light wounds, magic fang, obscuring mistD, speak with animals, strong
+    wingsARG
+  values:
+    - label: 0 (at will)
+      value: create water, know direction, light, read magic
 SpellDomains: Air
 AbilityScores:
   - 8

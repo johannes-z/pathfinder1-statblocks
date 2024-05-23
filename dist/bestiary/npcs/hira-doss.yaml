@@ -32,13 +32,16 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: copycat (7 rounds), touch of evil (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)   4th-air walk, confusionD
-  (DC 18), unholy blight (DC 19)   3rd-create food and water, dispel magic,
-  nondetectionD, searing light   2nd-cure moderate wounds, hold person (DC 16),
-  invisibilityD, silence (DC 16), status (DC 16)   1st-command (DC 15), cure
-  light wounds (3), protection from goodD, sanctuary (DC 15)   0 (at
-  will)-detect magic, light, mending, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)   4th-air walk,
+    confusionD (DC 18), unholy blight (DC 19)   3rd-create food and water,
+    dispel magic, nondetectionD, searing light   2nd-cure moderate wounds, hold
+    person (DC 16), invisibilityD, silence (DC 16), status (DC 16)   1st-command
+    (DC 15), cure light wounds (3), protection from goodD, sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, read magic
 SpellDomains: Evil, Trickery
 AbilityScores:
   - 14

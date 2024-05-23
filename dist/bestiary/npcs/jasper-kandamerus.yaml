@@ -30,11 +30,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: vision of madness (+/-1)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; concentration +6)   2nd-enthrall (DC 15), resist
-  energy (DC 15), touch of idiocyD   1st-bane (DC 14), cause fear (DC 14),
-  lesser confusionD (DC 14), shield of faith   0 (at will)-create water, detect
-  magic, detect poison, stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; concentration +6)   2nd-enthrall (DC 15), resist
+    energy (DC 15), touch of idiocyD   1st-bane (DC 14), cause fear (DC 14),
+    lesser confusionD (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, detect poison, stabilize
 SpellDomains: Destruction, Madness
 AbilityScores:
   - 10

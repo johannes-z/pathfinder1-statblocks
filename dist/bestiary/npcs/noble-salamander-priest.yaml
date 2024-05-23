@@ -48,15 +48,18 @@ SpellLikeAbilities:
         Abilities (CL 10th; ranged touch +23)
     - label: 8/day
       value: fire bolt, touch of evil
-SpellsPrepared: >-
-  Spells Prepared (CL 10th; ranged touch +23) 5th-fire shieldD, flame strike (DC
-  20), slay living (DC 20), spell resistance* 4th-death ward*, freedom of
-  movement, poison, unholy blight (DC 19), wall of fireD 3rd-bestow curse (DC
-  18), blindness/deafness (DC 18), cure serious wounds, fireballD (DC 18),
-  invisibility purge 2nd-bear's endurance, cure moderate wounds, hold person,
-  produce flameD (DC 17), sound burst (DC 17), spiritual weapon 1st-bane (DC
-  16), bless, burning handsD (DC 16), cure light wounds (x3), divine favor 0 (at
-  will)-create water, detect poison, mending, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 10th; ranged touch +23) 5th-fire shieldD, flame strike
+    (DC 20), slay living (DC 20), spell resistance* 4th-death ward*, freedom of
+    movement, poison, unholy blight (DC 19), wall of fireD 3rd-bestow curse (DC
+    18), blindness/deafness (DC 18), cure serious wounds, fireballD (DC 18),
+    invisibility purge 2nd-bear's endurance, cure moderate wounds, hold person,
+    produce flameD (DC 17), sound burst (DC 17), spiritual weapon 1st-bane (DC
+    16), bless, burning handsD (DC 16), cure light wounds (x3), divine favor
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, mending, read magic
 SpellDomains: Evil, Fire
 AbilityScores:
   - 22

@@ -27,13 +27,16 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hexes (agony, cackle, charm, disguise, slumber, tongues)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 10th; concentration +14)   5th-baleful polymorph (DC
-  19), dominate person (DC 19)   4th-dimension door, locate creature shadow
-  stepUM (2)   3rd-heroism, lightning bolt (DC 17), tongues, twilight knifeAPG  
-  2nd-false life, hold person (2, DC 16), invisibility (2)   1st-cure light
-  wounds (3), mage armor, peacebondUC (DC 15)   0 (at will)-arcane mark, bleed
-  (DC 14), detect magic, light
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 10th; concentration +14)   5th-baleful polymorph
+    (DC 19), dominate person (DC 19)   4th-dimension door, locate creature
+    shadow stepUM (2)   3rd-heroism, lightning bolt (DC 17), tongues, twilight
+    knifeAPG   2nd-false life, hold person (2, DC 16), invisibility (2)  
+    1st-cure light wounds (3), mage armor, peacebondUC (DC 15)
+  values:
+    - label: 0 (at will)
+      value: arcane mark, bleed (DC 14), detect magic, light
 AbilityScores:
   - 8
   - 17

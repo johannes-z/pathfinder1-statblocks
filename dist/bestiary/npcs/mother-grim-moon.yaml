@@ -40,15 +40,19 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: vision of madness (+/-5)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +15)   5th-commune, flame
-  strike (DC 20), overland flightD, righteous might   4th-aura of doomUM (DC
-  19), chaos hammer (DC 19), confusionD (DC 19), fear (DC 19), freedom of
-  movement   3rd-cure serious wounds, dispel magic, flyD, invisibility purge,
-  wind wall   2nd-lesser restoration, owl's wisdom, remove paralysis, resist
-  energy, spiritual weapon, touch of idiocyD   1st-bless, comprehend languages,
-  divine favor, doom (2, DC 16), lesser confusionD (DC 16), shield of faith   0
-  (at will)-bleed (DC 15), create water, detect magic, guidance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +15)   5th-commune, flame
+    strike (DC 20), overland flightD, righteous might   4th-aura of doomUM (DC
+    19), chaos hammer (DC 19), confusionD (DC 19), fear (DC 19), freedom of
+    movement   3rd-cure serious wounds, dispel magic, flyD, invisibility purge,
+    wind wall   2nd-lesser restoration, owl's wisdom, remove paralysis, resist
+    energy, spiritual weapon, touch of idiocyD   1st-bless, comprehend
+    languages, divine favor, doom (2, DC 16), lesser confusionD (DC 16), shield
+    of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), create water, detect magic, guidance
 SpellDomains: Madness, VoidHA
 AbilityScores:
   - 24

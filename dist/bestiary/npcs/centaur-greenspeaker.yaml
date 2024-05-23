@@ -27,10 +27,13 @@ Ranged:
 Space: 10 ft.
 Reach: 5 ft.
 SpecialAttacks: channel positive energy 3/day (DC 13, 1d6), hex (ward)
-SpellsPrepared: >-
-  Shaman Spells Prepared (CL 2nd; concentration +6)   1st-detect undeadS,
-  entangle (DC 15), goodberry, sleep (DC 15)   0 (at will)-detect poison,
-  guidance, purify food and drink (DC 14), resistance
+SpellsPrepared:
+  header: >-
+    Shaman Spells Prepared (CL 2nd; concentration +6)   1st-detect undeadS,
+    entangle (DC 15), goodberry, sleep (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect poison, guidance, purify food and drink (DC 14), resistance
 AbilityScores:
   - 16
   - 14

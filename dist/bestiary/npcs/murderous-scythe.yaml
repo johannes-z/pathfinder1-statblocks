@@ -38,11 +38,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: wooden fist
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 4th; concentration +6)   2nd-barkskinD, resist
-  energy (DC 14), spider climb, tree shape   1st-entangleD (DC 13), faerie fire
-  (2), longstrider, obscuring mist   0 (at will)-detect magic, guidance, light,
-  know direction
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 4th; concentration +6)   2nd-barkskinD, resist
+    energy (DC 14), spider climb, tree shape   1st-entangleD (DC 13), faerie
+    fire (2), longstrider, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, know direction
 SpellDomains: Plant
 AbilityScores:
   - 24

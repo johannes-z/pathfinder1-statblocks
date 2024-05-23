@@ -32,11 +32,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: copycat (4 rounds), strength surge (+2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +7)   2nd-death knell (DC 15),
-  dread boltUM (DC 15), hold person (DC 15), invisibilityD   1st-bane (DC 14),
-  doom (DC 14), enlarge personD (DC 14), entropic shield, ray of sickeningUM (DC
-  14)   0 (at will)-bleed (DC 13), guidance, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +7)   2nd-death knell (DC 15),
+    dread boltUM (DC 15), hold person (DC 15), invisibilityD   1st-bane (DC 14),
+    doom (DC 14), enlarge personD (DC 14), entropic shield, ray of sickeningUM
+    (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), guidance, resistance, stabilize
 SpellDomains: Strength, Trickery
 AbilityScores:
   - 17

@@ -36,16 +36,20 @@ SpellLikeAbilities:
       value: copycat (7 rounds), fire bolt (1d6+2 fire)
     - label: 1/day
       value: deeper darkness
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 12th; concentration +16)   6th-heal, quickened hold
-  person (DC 16), misleadD (DC 20)   5th-greater command (DC 19), quickened
-  divine favor, fire shieldD, flame strike (DC 19)   4th-cure critical wounds,
-  freedom of movement, greater magic weapon, sending, unholy blightD (DC 18)  
-  3rd-bestow curse (DC 17), cure serious wounds, dispel magic, fireballD (DC
-  17), magic vestment (2)   2nd-bull's strength, death knell (DC 16), produce
-  flameD, resist energy, spiritual weapon, status   1st-commandD (DC 15), cure
-  light wounds (3), sanctuary (DC 15), shield of faith   0 (at will)-bleed (DC
-  14), detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 12th; concentration +16)   6th-heal, quickened
+    hold person (DC 16), misleadD (DC 20)   5th-greater command (DC 19),
+    quickened divine favor, fire shieldD, flame strike (DC 19)   4th-cure
+    critical wounds, freedom of movement, greater magic weapon, sending, unholy
+    blightD (DC 18)   3rd-bestow curse (DC 17), cure serious wounds, dispel
+    magic, fireballD (DC 17), magic vestment (2)   2nd-bull's strength, death
+    knell (DC 16), produce flameD, resist energy, spiritual weapon, status  
+    1st-commandD (DC 15), cure light wounds (3), sanctuary (DC 15), shield of
+    faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, light, read magic
 SpellDomains: Fire, Devil, Evil
 AbilityScores:
   - 16

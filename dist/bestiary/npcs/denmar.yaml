@@ -31,16 +31,19 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: force missiles (1d4+2)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 10th; melee touch +12, ranged touch +12)  5th-break
-  enchantment, dominate person (DC 20), passwall, wall of forceB   4th-black
-  tentacles, dimension door, dimensional anchor, summon monster IV, vitriolic
-  mistB UM   3rd-clairaudience/clairvoyance, dispel magic, displacement,
-  fireballB (DC 18), fly   2nd-bear's endurance, blindness/deafness (DC 17),
-  create pitAPG (DC 17), scorching rayB, see invisibility   1st-breakAPG (DC
-  16), comprehend languages, magic missileB, magic missile, protection from
-  evil, shield, true strike   0 (at will)-acid splash, detect magic, mage hand,
-  message
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 10th; melee touch +12, ranged touch +12) 
+    5th-break enchantment, dominate person (DC 20), passwall, wall of forceB  
+    4th-black tentacles, dimension door, dimensional anchor, summon monster IV,
+    vitriolic mistB UM   3rd-clairaudience/clairvoyance, dispel magic,
+    displacement, fireballB (DC 18), fly   2nd-bear's endurance,
+    blindness/deafness (DC 17), create pitAPG (DC 17), scorching rayB, see
+    invisibility   1st-breakAPG (DC 16), comprehend languages, magic missileB,
+    magic missile, protection from evil, shield, true strike
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, mage hand, message
 AbilityScores:
   - 17
   - 17

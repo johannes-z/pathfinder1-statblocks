@@ -33,11 +33,14 @@ SpellLikeAbilities:
       value: feather fall (self only), fly (self only)
     - label: 1/day
       value: levitate (self only)
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; concentration +10)   3rd-burning entanglement* (DC
-  18), fireball (DC 18)   2nd-burning gazeAPG (2, DC 17), false life, flaming
-  sphere (DC 17)   1st-ill omenAPG(2), mage armor, obscuring mist   0 (at
-  will)-bleed, dancing lights, detect magic, sparkAPG
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; concentration +10)   3rd-burning entanglement* (DC
+    18), fireball (DC 18)   2nd-burning gazeAPG (2, DC 17), false life, flaming
+    sphere (DC 17)   1st-ill omenAPG(2), mage armor, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: bleed, dancing lights, detect magic, sparkAPG
 AbilityScores:
   - 8
   - 13

@@ -34,15 +34,19 @@ SpellLikeAbilities:
       value: dimensional steps (330 feet/day)
     - label: 7/day
       value: acid dart (1d6+5 acid)
-SpellsPrepared: >-
-  Conjurer Spells Prepared (CL 11th; concentration +15)   6th-chain lightning
-  (DC 20), summon monster VI   5th-cone of cold (DC 19), hungry pitAPG (DC 20),
-  summon monster V   4th-acid pitAPG (DC 19), dimension door, ice storm, solid
-  fog, stoneskin   3rd-aqueous orbAPG (DC 18), dispel magic, fly, lightning bolt
-  (DC 17), nondetection, protection from energy   2nd-create pitAPG (DC 17),
-  false life, glitterdust (2, DC 17), scorching ray (2)   1st-expeditious
-  retreat, grease, mage armor, magic missile, shield, unseen servant   0 (at
-  will)-acid splash, daze (DC 14), light, message
+SpellsPrepared:
+  header: >-
+    Conjurer Spells Prepared (CL 11th; concentration +15)   6th-chain lightning
+    (DC 20), summon monster VI   5th-cone of cold (DC 19), hungry pitAPG (DC
+    20), summon monster V   4th-acid pitAPG (DC 19), dimension door, ice storm,
+    solid fog, stoneskin   3rd-aqueous orbAPG (DC 18), dispel magic, fly,
+    lightning bolt (DC 17), nondetection, protection from energy   2nd-create
+    pitAPG (DC 17), false life, glitterdust (2, DC 17), scorching ray (2)  
+    1st-expeditious retreat, grease, mage armor, magic missile, shield, unseen
+    servant
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 14), light, message
 AbilityScores:
   - 10
   - 14

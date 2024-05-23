@@ -52,13 +52,16 @@ SpellsKnown:
       value: >-
         arcane mark, daze (DC 16), detect magic, mage hand, mending, message,
         open/close (DC 16), read magic, touch of fatigue (DC 16)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +13)   3rd-bestow curse (DC 20),
-  dispel magicD, glyph of warding, protection from energy, summon monster III  
-  2nd-augury, detect thoughtsD (DC 19), enthrall (DC 19), hold person (DC 19),
-  lesser restoration, zone of truth (DC 19)   1st-divine favor, doom (DC 18),
-  entropic shield, identifyD, obscuring mist, shield of faith   0 (at
-  will)-detect magic, guidance, light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +13)   3rd-bestow curse (DC
+    20), dispel magicD, glyph of warding, protection from energy, summon monster
+    III   2nd-augury, detect thoughtsD (DC 19), enthrall (DC 19), hold person
+    (DC 19), lesser restoration, zone of truth (DC 19)   1st-divine favor, doom
+    (DC 18), entropic shield, identifyD, obscuring mist, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, stabilize
 SpellDomains: Knowledge, Magic
 AbilityScores:
   - 8

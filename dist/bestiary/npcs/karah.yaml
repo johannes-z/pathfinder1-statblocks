@@ -38,14 +38,18 @@ SpellLikeAbilities:
       value: vision of madness (+/-4)
     - label: 7/day
       value: strength surge (+4)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +13)   5th-righteous mightD,
-  slay living (DC 19)   4th-confusionD (DC 18), cure critical wounds, freedom of
-  movement, unholy blight (DC 18)   3rd-cure serious wounds (2), dispel magic,
-  invisibility purge, rageD   2nd-cure moderate wounds (2), darkness, hold
-  person (DC 16), silence (DC 16), touch of idiocyD   1st-command (DC 15), cure
-  light wounds, divine favor, enlarge personD (DC 15), obscuring mist, shield of
-  faith   0 (at will)-bleed (DC 14), detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +13)   5th-righteous mightD,
+    slay living (DC 19)   4th-confusionD (DC 18), cure critical wounds, freedom
+    of movement, unholy blight (DC 18)   3rd-cure serious wounds (2), dispel
+    magic, invisibility purge, rageD   2nd-cure moderate wounds (2), darkness,
+    hold person (DC 16), silence (DC 16), touch of idiocyD   1st-command (DC
+    15), cure light wounds, divine favor, enlarge personD (DC 15), obscuring
+    mist, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, resistance
 SpellDomains: Madness, Strength
 AbilityScores:
   - 19

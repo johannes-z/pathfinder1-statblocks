@@ -53,12 +53,15 @@ SpellLikeAbilities:
         Abilities (CL 4th; concentration +12)
     - label: 11/day
       value: diviner's fortune (+2)
-SpellsPrepared: >-
-  Diviner Spells Prepared (CL 4th; concentration +12)  2nd-bull's strength,
-  command undead (DC 20), detect thoughts (DC 20), fox's cunning, mirror image 
-  1st-charm person (DC 19), comprehend languages, floating disk, identify,
-  shocking grasp, true strike  0 (at will)-arcane mark, detect magic, mending,
-  read magic
+SpellsPrepared:
+  header: >-
+    Diviner Spells Prepared (CL 4th; concentration +12)  2nd-bull's strength,
+    command undead (DC 20), detect thoughts (DC 20), fox's cunning, mirror
+    image  1st-charm person (DC 19), comprehend languages, floating disk,
+    identify, shocking grasp, true strike
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, mending, read magic
 AbilityScores:
   - 28
   - 10

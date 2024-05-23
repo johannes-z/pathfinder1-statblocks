@@ -45,13 +45,17 @@ SpellLikeAbilities:
         Abilities (CL 7th; concentration +11)
     - label: 7/day
       value: fury of the abyssAPG
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)  4th-dismissal (DC 18),
-  freedom of movement, unholy blightD (DC 18)  3rd-blindness/deafness (DC 18),
-  cure serious wounds, invisibility purge, rageD  2nd-aid, align weaponD (evil
-  only), bear's endurance, hold person (DC 16), status  1st-bane (DC 15),
-  command (DC 15), deathwatch, doomD (DC 16), ray of sickeningUM (DC 16), shield
-  of faith  0 (at will)-bleed (DC 15), guidance, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)  4th-dismissal (DC 18),
+    freedom of movement, unholy blightD (DC 18)  3rd-blindness/deafness (DC 18),
+    cure serious wounds, invisibility purge, rageD  2nd-aid, align weaponD (evil
+    only), bear's endurance, hold person (DC 16), status  1st-bane (DC 15),
+    command (DC 15), deathwatch, doomD (DC 16), ray of sickeningUM (DC 16),
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), guidance, resistance, stabilize
 SpellDomains: DemonAPG
 AbilityScores:
   - 10

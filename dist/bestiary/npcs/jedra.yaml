@@ -32,10 +32,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: bleeding touch
-SpellsPrepared: >-
-  Spells Prepared (CL 2nd; melee touch +1; ranged touch +4):  1st-bless, cause
-  fearD (DC 13), cure light wounds, shield of faith   0 (at will)-create water,
-  detect magic, purify food and drink, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 2nd; melee touch +1; ranged touch +4):  1st-bless, cause
+    fearD (DC 13), cure light wounds, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, purify food and drink, read magic
 SpellDomains: Death
 AbilityScores:
   - 8

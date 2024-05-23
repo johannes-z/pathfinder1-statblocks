@@ -40,14 +40,18 @@ SpellLikeAbilities:
       value: >-
         dancing lights, ghost sound (DC 14), prestidigitation, speak with
         animals
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 12th; concentration +18)   6th-mass bull's strength,
-  move earth, wall of stone   5th-animal growth (DC 21), stoneskin, wall of
-  thorns (2)   4th-air walk, dispel magic, flame strike (DC 20), ice storm  
-  3rd-daylight, greater magic fang, neutralize poison (2), remove disease  
-  2nd-barkskin (2), bull's strength, flaming sphere (DC 18), lesser restoration,
-  spider climb   1st-entangle (2, DC 17), faerie fire, goodberry, speak with
-  animals (2)   0 (at will)-detect magic, know direction, light, resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 12th; concentration +18)   6th-mass bull's
+    strength, move earth, wall of stone   5th-animal growth (DC 21), stoneskin,
+    wall of thorns (2)   4th-air walk, dispel magic, flame strike (DC 20), ice
+    storm   3rd-daylight, greater magic fang, neutralize poison (2), remove
+    disease   2nd-barkskin (2), bull's strength, flaming sphere (DC 18), lesser
+    restoration, spider climb   1st-entangle (2, DC 17), faerie fire, goodberry,
+    speak with animals (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, know direction, light, resistance
 AbilityScores:
   - 6
   - 12

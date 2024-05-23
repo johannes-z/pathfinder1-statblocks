@@ -47,10 +47,13 @@ SpellLikeAbilities:
       value: blink, blur, mirror image, spike growth (DC 14)
     - label: 1/day
       value: summon (level 4, 1 adhukait 35%)
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 3rd; concentration +4)   1st-burning hands (DC 12),
-  magic missile, shocking grasp, true strike   0 (at will)-acid splash, detect
-  magic, open/close (DC 11), ray of frost
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 3rd; concentration +4)   1st-burning hands (DC
+    12), magic missile, shocking grasp, true strike
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, open/close (DC 11), ray of frost
 AbilityScores:
   - 24
   - 19

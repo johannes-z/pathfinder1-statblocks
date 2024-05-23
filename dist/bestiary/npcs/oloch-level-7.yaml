@@ -31,11 +31,14 @@ Reach: 5 ft.
 SpecialAttacks: >-
   fervor 2d6 6/day, channel positive energy (DC 16), blessings 6/day, glorious
   presence (DC 16), war mind
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 7th; concentration +10)   3rd-daylight, deadly
-  juggernautUC   2nd-graceAPG, resist energy, silence, weapon of aweAPG  
-  1st-bless, divine favor, liberating commandUC, remove fear, shield of faith  
-  0 (at will)-create water, detect magic, guidance, light, stabilize
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 7th; concentration +10)   3rd-daylight, deadly
+    juggernautUC   2nd-graceAPG, resist energy, silence, weapon of aweAPG  
+    1st-bless, divine favor, liberating commandUC, remove fear, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, light, stabilize
 AbilityScores:
   - 20
   - 12

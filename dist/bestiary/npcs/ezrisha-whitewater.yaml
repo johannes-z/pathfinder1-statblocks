@@ -32,11 +32,15 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: telekinetic fist (1d4+2 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 5th; concentration +7)  3rd-blink, hydraulic
-  torrentAPG  2nd-cat's grace, mirror image, scorching ray, spider climb 
-  1st-burning hands (DC 13), grease (DC 13), mage armor, shield, shocking grasp 
-  0 (at will)-detect magic, ghost sound (DC 12), mending, message
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 5th; concentration +7)  3rd-blink, hydraulic
+    torrentAPG  2nd-cat's grace, mirror image, scorching ray, spider climb 
+    1st-burning hands (DC 13), grease (DC 13), mage armor, shield, shocking
+    grasp
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 12), mending, message
 AbilityScores:
   - 12
   - 18

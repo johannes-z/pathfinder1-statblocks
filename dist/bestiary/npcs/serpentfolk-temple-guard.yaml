@@ -38,14 +38,17 @@ SpellLikeAbilities:
       value: >-
         touch of evil (4 rounds), venomous stare (1d6+4 nonlethal damage plus
         fascinated for 1 round, DC 18 Will save negates)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +12)  4th-divine power, freedom
-  of movement, poisonD (DC 18), unholy blight (DC 18)  3rd-blindness/deafness
-  (DC 17), dispel magic, greater magic fangD (2), protection from energy 
-  2nd-align weaponD, hold person (DC 16), silence (DC 16), sound burst (2, DC
-  16)  1st-bane (DC 15), command (DC 15), divine favor (2), entropic shield,
-  protection from goodD  0 (at will)-bleed (DC 14), detect magic, guidance,
-  resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +12)  4th-divine power,
+    freedom of movement, poisonD (DC 18), unholy blight (DC 18) 
+    3rd-blindness/deafness (DC 17), dispel magic, greater magic fangD (2),
+    protection from energy  2nd-align weaponD, hold person (DC 16), silence (DC
+    16), sound burst (2, DC 16)  1st-bane (DC 15), command (DC 15), divine favor
+    (2), entropic shield, protection from goodD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, resistance
 SpellDomains: Evil, Scalykind
 AbilityScores:
   - 22

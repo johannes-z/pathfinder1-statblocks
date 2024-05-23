@@ -33,11 +33,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: strength surge (+2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +7)  3rd-dispel magic, flyD 
-  2nd-aid, bull's strengthD, calm emotions (DC 14), shatter (DC 14)  1st-command
-  (2, DC 13), divine favor, longstriderD, shield of faith  0 (at will)-detect
-  magic, detect poison, read magic, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +7)  3rd-dispel magic, flyD 
+    2nd-aid, bull's strengthD, calm emotions (DC 14), shatter (DC 14) 
+    1st-command (2, DC 13), divine favor, longstriderD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, read magic, stabilize
 SpellDomains: Strength, Travel
 AbilityScores:
   - 15

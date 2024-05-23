@@ -42,14 +42,18 @@ SpellLikeAbilities:
       value: fire bolt (1d6+4 fire)
     - label: 8/day
       value: battle rage (+4 damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +13)   4th-divine power, freedom
-  of movement, spell immunity, wall of fireD   3rd-dispel magic, fireballD (DC
-  18), invisibility purge, protection from energy, searing light   2nd-bear's
-  endurance, death knell (DC 17), hold person (DC 17), silence (DC 17),
-  spiritual weaponD   1st-burning handsD (DC 16), command (DC 16), cure light
-  wounds (2), doom (DC 16), protection from good, shield of faith   0 (at
-  will)-create water, guidance, light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +13)   4th-divine power,
+    freedom of movement, spell immunity, wall of fireD   3rd-dispel magic,
+    fireballD (DC 18), invisibility purge, protection from energy, searing
+    light   2nd-bear's endurance, death knell (DC 17), hold person (DC 17),
+    silence (DC 17), spiritual weaponD   1st-burning handsD (DC 16), command (DC
+    16), cure light wounds (2), doom (DC 16), protection from good, shield of
+    faith
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, light, stabilize
 SpellDomains: Fire, War
 AbilityScores:
   - 29

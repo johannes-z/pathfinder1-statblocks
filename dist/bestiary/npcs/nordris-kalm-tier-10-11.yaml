@@ -33,16 +33,19 @@ SpellLikeAbilities:
       value: master's illusion (13 rounds/day)
     - label: 6/day
       value: copycat (13 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 13th; concentration +16)  7th-blasphemyD (DC 19),
-  regenerate  6th-blade barrier (DC 18), harm (DC 18), mislead (DC 18) 
-  5th-false visionD, flame strike, scrying (2, DC 17)  4th-confusionD (DC 16),
-  freedom of movement, divine power, greater magic weapon (2)  3rd-magic
-  vestment, meld into stone (2, already cast 1), nondetectionD, protection from
-  energy (2)  2nd-aid, bull's strength (2), invisibilityD, undetectable
-  alignment (2)  1st-command (2 DC 13), disguise selfD, doom (DC 13), obscuring
-  mist, shield of faith  0 (at will)-detect magic, detect poison, guidance,
-  mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 13th; concentration +16)  7th-blasphemyD (DC 19),
+    regenerate  6th-blade barrier (DC 18), harm (DC 18), mislead (DC 18) 
+    5th-false visionD, flame strike, scrying (2, DC 17)  4th-confusionD (DC 16),
+    freedom of movement, divine power, greater magic weapon (2)  3rd-magic
+    vestment, meld into stone (2, already cast 1), nondetectionD, protection
+    from energy (2)  2nd-aid, bull's strength (2), invisibilityD, undetectable
+    alignment (2)  1st-command (2 DC 13), disguise selfD, doom (DC 13),
+    obscuring mist, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, guidance, mending
 SpellDomains: Evil, Trickery
 AbilityScores:
   - 16

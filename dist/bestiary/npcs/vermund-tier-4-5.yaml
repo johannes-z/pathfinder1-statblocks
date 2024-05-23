@@ -30,10 +30,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: destructive smite (+2, 6/day), wild shape 4 hours/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 4th; concentration +7)  2nd-barkskin, summon swarm
-  (2), shatterD  1st-cure light wounds, magic stone, summon nature's ally I (2),
-  true strikeD  0 (at will)-flare (DC 13), guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 4th; concentration +7)  2nd-barkskin, summon swarm
+    (2), shatterD  1st-cure light wounds, magic stone, summon nature's ally I
+    (2), true strikeD
+  values:
+    - label: 0 (at will)
+      value: flare (DC 13), guidance, read magic, resistance
 SpellDomains: Destruction
 AbilityScores:
   - 8

@@ -27,12 +27,15 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: improved spell combat, spell combat (-2 attack, +2 concentration), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 9th; concentration +13) 3rd-fireball (DC 18), haste,
-  keen edge, vampiric touch 2nd-acid arrow, blur, cat's grace, frigid touch*
-  (4d6 cold plus staggered 1 round), invisibility 1st-burning hands (DC 16),
-  corrosive touch* (5d4 acid), magic missile, shield, shocking grasp (2) 0 (at
-  will)-acid splash, daze (DC 14), flare (DC 15), ray of frost, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 9th; concentration +13) 3rd-fireball (DC 18),
+    haste, keen edge, vampiric touch 2nd-acid arrow, blur, cat's grace, frigid
+    touch* (4d6 cold plus staggered 1 round), invisibility 1st-burning hands (DC
+    16), corrosive touch* (5d4 acid), magic missile, shield, shocking grasp (2)
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 14), flare (DC 15), ray of frost, read magic
 AbilityScores:
   - 10
   - 18

@@ -31,12 +31,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: copycat (5 rounds), storm burst (1d6+2 nonlethal damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)  3rd-call lightningD (DC
-  16), magic vestment, water walk  2nd-cure moderate wounds, invisibilityD,
-  shatter (DC 15), spiritual weapon  1st-bless, cause fear (DC 14), cure light
-  wounds, divine favor, obscuring mistD  0 (at will)-bleed (DC 13), create
-  water, purify food and drink, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)  3rd-call lightningD (DC
+    16), magic vestment, water walk  2nd-cure moderate wounds, invisibilityD,
+    shatter (DC 15), spiritual weapon  1st-bless, cause fear (DC 14), cure light
+    wounds, divine favor, obscuring mistD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), create water, purify food and drink, stabilize
 SpellDomains: Trickery, Weather
 AbilityScores:
   - 14

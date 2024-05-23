@@ -35,12 +35,16 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: dazing touch
-SpellsPrepared: >-
-  Spells Prepared (CL 4th; melee touch +3, ranged touch +6):  2nd-hideous
-  laughterB (DC 17), hideous laughter (DC 17, x2), invisibility  1st-charm
-  personB (DC 16), color spray (DC 15), mage armor, magic aura, magic missile  
-  0 (at will)-dancing lights, ghost sound (DC 14), prestidigitation, ray of
-  frost (DC 14)
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 4th; melee touch +3, ranged touch +6):  2nd-hideous
+    laughterB (DC 17), hideous laughter (DC 17, x2), invisibility  1st-charm
+    personB (DC 16), color spray (DC 15), mage armor, magic aura, magic missile
+  values:
+    - label: 0 (at will)
+      value: >-
+        dancing lights, ghost sound (DC 14), prestidigitation, ray of frost (DC
+        14)
 AbilityScores:
   - 11
   - 16

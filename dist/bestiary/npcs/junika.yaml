@@ -27,10 +27,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: battle rage (+1 damage), rebuke death (1d4+1)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; melee touch +2)  2nd-cure moderate woundsD, lesser
-  restoration   1st-cure light woundsD, divine favor, protection from evil,
-  shield of faith   0 (at will)-create water, detect poison, guidance, light
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; melee touch +2)  2nd-cure moderate woundsD, lesser
+    restoration   1st-cure light woundsD, divine favor, protection from evil,
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, guidance, light
 SpellDomains: Healing, War
 AbilityScores:
   - 10

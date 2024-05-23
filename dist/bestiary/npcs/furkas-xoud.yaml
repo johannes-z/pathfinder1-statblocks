@@ -31,14 +31,17 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day), spectral miasma, telekinesis (DC 19)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 10th; concentration +14)   5th-cloudkill (DC 19),
-  wall of force   4th-dimension door, phantasmal killer (DC 18), shout (DC 18),
-  solid fog   3rd-dispel magic, fireball (DC 17), irradiateTG (2, DC 17),
-  stinking cloud (DC 17)   2nd-detect thoughts (DC 16), fog cloud, mirror image,
-  see invisibility, web (DC 16)   1st-identify, mage armor, magic missile,
-  shield, technomancyTG   0 (at will)-light, mage hand, open/close,
-  prestidigitation
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 10th; concentration +14)   5th-cloudkill (DC 19),
+    wall of force   4th-dimension door, phantasmal killer (DC 18), shout (DC
+    18), solid fog   3rd-dispel magic, fireball (DC 17), irradiateTG (2, DC 17),
+    stinking cloud (DC 17)   2nd-detect thoughts (DC 16), fog cloud, mirror
+    image, see invisibility, web (DC 16)   1st-identify, mage armor, magic
+    missile, shield, technomancyTG
+  values:
+    - label: 0 (at will)
+      value: light, mage hand, open/close, prestidigitation
 AbilityScores:
   - null
   - 14

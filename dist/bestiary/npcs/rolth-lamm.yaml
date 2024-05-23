@@ -30,14 +30,17 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: grave touch (4 rounds)
-SpellsPrepared: >-
-  Necromancer Spells Prepared (CL 8th; concentration +13)   4th-animate dead,
-  dimension door, enervation, infuse decay   3rd-dispel magic, hold person (DC
-  18), lightning bolt (DC 18), ray of exhaustion (DC 20), vampiric touch  
-  2nd-false life, ghoul touch (DC 19), scorching ray, touch of idiocy, spectral
-  hand   1st-charm person (2, DC 16), chill touch (DC 18), mage armor, ray of
-  enfeeblement (DC 18), shield, unlock flesh (DC 16)  0 (at will)-acid splash,
-  detect magic, light, touch of fatigue (DC 17)
+SpellsPrepared:
+  header: >-
+    Necromancer Spells Prepared (CL 8th; concentration +13)   4th-animate dead,
+    dimension door, enervation, infuse decay   3rd-dispel magic, hold person (DC
+    18), lightning bolt (DC 18), ray of exhaustion (DC 20), vampiric touch  
+    2nd-false life, ghoul touch (DC 19), scorching ray, touch of idiocy,
+    spectral hand   1st-charm person (2, DC 16), chill touch (DC 18), mage
+    armor, ray of enfeeblement (DC 18), shield, unlock flesh (DC 16)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, touch of fatigue (DC 17)
 AbilityScores:
   - 8
   - 14

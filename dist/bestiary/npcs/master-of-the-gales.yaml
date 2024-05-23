@@ -33,20 +33,24 @@ Reach: 5 ft.
 SpecialAttacks: >-
   lightning lord (15 bolts/day), storm burst (1d6+7 nonlethal damage, 10/day),
   wild shape 6/day, wind blast** (CMB +22, 10/day)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 15th; concentration +22)   8th-summon nature's ally
-  VIII, whirlwindD (DC 25)   7th-control weatherD, heal, summon nature's ally
-  VII, true seeing   6th-find the path, fire seeds, greater dispel magic, repel
-  wood, wind walkD   5th-animal growth (DC 22), baleful polymorph (DC 22), call
-  lightning storm (DC 22), commune with nature, control windsD (DC 22),
-  stoneskin   4th-air walkD, extended call lightning, control water, freedom of
-  movement, ice storm, rusting grasp   3rd-extended bear's endurance, extended
-  bull's strength, extended cat's grace, dominate animal (DC 20), gaseous formD,
-  greater magic fang, water breathing   2nd-barkskin, chill metal (DC 19),
-  flaming sphere (DC 19), gust of wind (DC 19), resist energy, warp wood, wind
-  wallD   1st-cure light wounds (DC 18), endure elements, faerie fire, obscuring
-  mist, produce flame, speak with animals, whispering windD   0 (at will)-create
-  water, flare (DC 17), guidance, mending
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 15th; concentration +22)   8th-summon nature's
+    ally VIII, whirlwindD (DC 25)   7th-control weatherD, heal, summon nature's
+    ally VII, true seeing   6th-find the path, fire seeds, greater dispel magic,
+    repel wood, wind walkD   5th-animal growth (DC 22), baleful polymorph (DC
+    22), call lightning storm (DC 22), commune with nature, control windsD (DC
+    22), stoneskin   4th-air walkD, extended call lightning, control water,
+    freedom of movement, ice storm, rusting grasp   3rd-extended bear's
+    endurance, extended bull's strength, extended cat's grace, dominate animal
+    (DC 20), gaseous formD, greater magic fang, water breathing   2nd-barkskin,
+    chill metal (DC 19), flaming sphere (DC 19), gust of wind (DC 19), resist
+    energy, warp wood, wind wallD   1st-cure light wounds (DC 18), endure
+    elements, faerie fire, obscuring mist, produce flame, speak with animals,
+    whispering windD
+  values:
+    - label: 0 (at will)
+      value: create water, flare (DC 17), guidance, mending
 SpellDomains: Air (Wind subdomain**), Weather
 AbilityScores:
   - 13

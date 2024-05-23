@@ -30,13 +30,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: force missile (1d4+3)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 6th; concentration +9)   3rd-fireball (DC 17),
-  hydraulic torrentAPG, lightning bolt (DC 16), wind wall   2nd-acid arrow,
-  burning gazeAPG (DC 16), fire breathAPG (DC 16), flaming sphere (DC 16),
-  scorching ray   1st-burning hands (DC 15), flare burstAPG (DC 14), mage armor,
-  magic missile, shield   0 (at will)-acid splash, flare (DC 13), message, ray
-  of frost
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 6th; concentration +9)   3rd-fireball (DC 17),
+    hydraulic torrentAPG, lightning bolt (DC 16), wind wall   2nd-acid arrow,
+    burning gazeAPG (DC 16), fire breathAPG (DC 16), flaming sphere (DC 16),
+    scorching ray   1st-burning hands (DC 15), flare burstAPG (DC 14), mage
+    armor, magic missile, shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, flare (DC 13), message, ray of frost
 AbilityScores:
   - 6
   - 16

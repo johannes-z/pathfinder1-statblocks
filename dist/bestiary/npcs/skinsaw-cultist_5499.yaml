@@ -29,11 +29,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: bleeding touch (1 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)  2nd-invisibilityD, mirror
-  image, undetectable alignment  1st-disguise selfD, murderous commandUM (DC
-  15), protection from good, shield of faith  0 (at will)-bleed (DC 13), detect
-  magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)  2nd-invisibilityD, mirror
+    image, undetectable alignment  1st-disguise selfD, murderous commandUM (DC
+    15), protection from good, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, guidance, resistance
 SpellDomains: Death,
 AbilityScores:
   - 10

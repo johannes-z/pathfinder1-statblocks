@@ -25,12 +25,15 @@ Ranged:
   - light crossbow +5 (1d8/19-20)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 7th; concentration +9)   4th-ice storm  
-  3rd-fireball (DC 15), fly   2nd-cat's grace, daze monster (DC 14), shatter (DC
-  14), web (DC 14)   1st-charm person (DC 13), chill touch (DC 13), jump, mage
-  armor, magic missile   0 (at will)-acid splash, bleed (DC 12), flare (DC 12),
-  ray of frost
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 7th; concentration +9)   4th-ice storm  
+    3rd-fireball (DC 15), fly   2nd-cat's grace, daze monster (DC 14), shatter
+    (DC 14), web (DC 14)   1st-charm person (DC 13), chill touch (DC 13), jump,
+    mage armor, magic missile
+  values:
+    - label: 0 (at will)
+      value: acid splash, bleed (DC 12), flare (DC 12), ray of frost
 AbilityScores:
   - 13
   - 14

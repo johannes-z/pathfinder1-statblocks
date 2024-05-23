@@ -30,10 +30,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: coven spells, hex (evil eye, DC 14)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd)  2nd-blindness/deafness (DC 15), web (DC 15) 
-  1st-charm person (DC 14), mage armor, ray of enfeeblement (DC 14)  0 (at
-  will)-detect magic, guidance, message, stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd)  2nd-blindness/deafness (DC 15), web (DC 15) 
+    1st-charm person (DC 14), mage armor, ray of enfeeblement (DC 14)
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, message, stabilize
 AbilityScores:
   - 19
   - 16

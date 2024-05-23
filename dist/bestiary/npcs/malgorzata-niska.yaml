@@ -28,12 +28,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: vision of madness (+/-2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)   3rd-bestow curse (DC 16),
-  prayer, rageD   2nd-silence (DC 15), sound burst (DC 15), spiritual weapon,
-  touch of idiocyD   1st-cure light wounds, divine favor, entropic shield,
-  lesser confusionD (DC 14), shield of faith 0 (at will)-bleed (DC 13),
-  guidance, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)   3rd-bestow curse (DC
+    16), prayer, rageD   2nd-silence (DC 15), sound burst (DC 15), spiritual
+    weapon, touch of idiocyD   1st-cure light wounds, divine favor, entropic
+    shield, lesser confusionD (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), guidance, resistance, virtue
 SpellDomains: Destruction, Madness
 AbilityScores:
   - 12

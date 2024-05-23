@@ -31,13 +31,16 @@ SpecialAttacks: >-
   blessings 8/day (good: battle companion, holy strike; war: battle lust, war
   mind), fervor 7/day (3d6), sacred weapon (good), smite evil 2/day (+3 attack
   and AC, +10 damage)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 10th; concentration +12)   4th-divine power  
-  3rd-invisibility purge, prayer, searing light   2nd-bear's endurance, lesser
-  restoration, resist energy, shield of fortificationACG, spear of purityUM (DC
-  14)   1st-bless, command (DC 13), divine favor, protection from evil, remove
-  fear, shield of faith   0 (at will)-detect magic, guidance, light, stabilize,
-  virtue
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 10th; concentration +12)   4th-divine power  
+    3rd-invisibility purge, prayer, searing light   2nd-bear's endurance, lesser
+    restoration, resist energy, shield of fortificationACG, spear of purityUM
+    (DC 14)   1st-bless, command (DC 13), divine favor, protection from evil,
+    remove fear, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, stabilize, virtue
 AbilityScores:
   - 16
   - 8

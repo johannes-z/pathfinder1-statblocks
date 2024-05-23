@@ -27,13 +27,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy (4d6, DC 15, 4/day), touch of chaos (6/day), vision of
   madness (6/day), chaos blade (4 rounds, 1/day), aura of madness (DC 17)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th)  4th-confusionD, freedom of movement, inflict
-  critical wounds (DC 17)  3rd-cure serious wounds (2), deeper darkness,
-  invisibility purge, rageD  2nd-bull's strength, darkness, hold person (2, DC
-  15), touch of idiocyD (DC 15)  1st-cause fear (2, DC 14), cure light wounds
-  (3), lesser confusionD (DC 14)  0 (at will)-bleed (DC 13), detect magic,
-  light, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th)  4th-confusionD, freedom of movement,
+    inflict critical wounds (DC 17)  3rd-cure serious wounds (2), deeper
+    darkness, invisibility purge, rageD  2nd-bull's strength, darkness, hold
+    person (2, DC 15), touch of idiocyD (DC 15)  1st-cause fear (2, DC 14), cure
+    light wounds (3), lesser confusionD (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, light, resistance
 SpellDomains: Chaos, Madness
 AbilityScores:
   - 13

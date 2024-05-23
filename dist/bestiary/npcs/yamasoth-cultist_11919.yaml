@@ -35,11 +35,14 @@ SpellLikeAbilities:
       value: >-
         acid dart (1d6+1 acid), artificer's touch (1d6+1, bypasses DR and
         hardness 3)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-cure moderate wounds,
-  hold person (DC 15), wood shapeD (DC 15)   1st-animate ropeD, cure light
-  wounds, divine favor, shield of faith   0 (at will)-bleed (DC 13), detect
-  magic, light, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-cure moderate
+    wounds, hold person (DC 15), wood shapeD (DC 15)   1st-animate ropeD, cure
+    light wounds, divine favor, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, light, resistance
 SpellDomains: Artifice, Earth
 AbilityScores:
   - 15

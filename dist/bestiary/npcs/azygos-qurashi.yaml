@@ -36,13 +36,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   wild shape (2/day as 6th-level druid; +2/day as 10th-level druid [feline form
   only]), +1 on attack rolls against humanoids with the elf subtype
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 8th; concentration +12; +1 caster level with earth
-  spells)  4th-air walk, strong jaw*, thorn body*  3rd-greater magic fang (3),
-  shifting sand* (DC 17)  2nd-barkskin, greensight, natural rhythm*, stone
-  call*  1st-charm animal (DC 15), cure light wounds, endure elements, faerie
-  fire (DC 15), longstrider  0 (at will)-guidance, light, purify food and drink,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 8th; concentration +12; +1 caster level with earth
+    spells)  4th-air walk, strong jaw*, thorn body*  3rd-greater magic fang (3),
+    shifting sand* (DC 17)  2nd-barkskin, greensight, natural rhythm*, stone
+    call*  1st-charm animal (DC 15), cure light wounds, endure elements, faerie
+    fire (DC 15), longstrider
+  values:
+    - label: 0 (at will)
+      value: guidance, light, purify food and drink, stabilize
 AbilityScores:
   - 16
   - 14

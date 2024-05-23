@@ -37,15 +37,19 @@ SpellLikeAbilities:
       value: >-
         aid, continual flame, detect evil, greater teleport (self plus 50 lbs.
         of objects only), message
-SpellsPrepared: >-
-  Spells Prepared (CL 14th) 7th-mass cure serious wounds (2) 6th-banishment (DC
-  21), heal (2) 5th-dispel evil (DC 20), mass cure light wounds, plane shift (DC
-  20), raise dead 4th-dismissal (DC 19), divine power, neutralize poison (DC
-  19), spell immunity 3rd-cure serious wounds, daylight, invisibility purge,
-  magic vestment, protection from energy 2nd-bull's strength, consecrate, cure
-  moderate wounds (2), lesser restoration (2), owl's wisdom 1st-bless, cure
-  light wounds (3), divine favor, sanctuary (DC 16), shield of faith 0 (at
-  will)-detect magic, purify food and drink, stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 14th) 7th-mass cure serious wounds (2) 6th-banishment
+    (DC 21), heal (2) 5th-dispel evil (DC 20), mass cure light wounds, plane
+    shift (DC 20), raise dead 4th-dismissal (DC 19), divine power, neutralize
+    poison (DC 19), spell immunity 3rd-cure serious wounds, daylight,
+    invisibility purge, magic vestment, protection from energy 2nd-bull's
+    strength, consecrate, cure moderate wounds (2), lesser restoration (2),
+    owl's wisdom 1st-bless, cure light wounds (3), divine favor, sanctuary (DC
+    16), shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, purify food and drink, stabilize, virtue
 AbilityScores:
   - 20
   - 17

@@ -65,13 +65,16 @@ SpellsKnown:
       value: >-
         acid splash, brand APG (DC 15), create water, detect poison, light, read
         magic Inquisition Persistence UM
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +11)  3rd-bestow curse (DC 18),
-  inflict serious wounds (DC 18), invisibility purge, magic vestment D 
-  2nd-bull's strength D, darkness, death knell (DC 17), inflict moderate wounds
-  (DC 17), silence (DC 17)  1st-command (DC 16), comprehend languages, divine
-  favor (2), identify D, obscuring mist  0 (at will)-detect magic, mending,
-  guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +11)  3rd-bestow curse (DC
+    18), inflict serious wounds (DC 18), invisibility purge, magic vestment D 
+    2nd-bull's strength D, darkness, death knell (DC 17), inflict moderate
+    wounds (DC 17), silence (DC 17)  1st-command (DC 16), comprehend languages,
+    divine favor (2), identify D, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: detect magic, mending, guidance, resistance
 SpellDomains: D Domain spell
 AbilityScores:
   - 32

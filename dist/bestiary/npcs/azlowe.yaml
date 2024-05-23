@@ -42,13 +42,16 @@ SpellLikeAbilities:
       value: >-
         charm monster (DC 18), crushing despair (DC 18), dimension door, mass
         bull's strength, mass enlarge person (DC 18)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 10th; concentration +16)   4th-order's wrath (DC
-  20), spell immunity   3rd-cure serious wounds, dispel magic (2), prayer  
-  2nd-aid, resist energy, lesser restoration, shatter (DC 18), silence (DC 18),
-  spiritual weapon   1st-bless, command (DC 17), cure light wounds, divine
-  favor, obscuring mist, shield of faith (2)   0 (at will)-bleed (DC 16), detect
-  magic, guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 10th; concentration +16)   4th-order's wrath
+    (DC 20), spell immunity   3rd-cure serious wounds, dispel magic (2),
+    prayer   2nd-aid, resist energy, lesser restoration, shatter (DC 18),
+    silence (DC 18), spiritual weapon   1st-bless, command (DC 17), cure light
+    wounds, divine favor, obscuring mist, shield of faith (2)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect magic, guidance, read magic, resistance
 AbilityScores:
   - 30
   - 13

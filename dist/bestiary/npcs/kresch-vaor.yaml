@@ -31,12 +31,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: sneak attack +1d6, wild shape 1/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 6th; concentration +11)   3rd-dominate animal (DC
-  18), poison (DC 18), spike growth (DC 18)   2nd-heat metal (DC 17), flaming
-  sphere (DC 17), spider climb, summon swarm   1st-entangle (DC 16), produce
-  flame, longstrider, magic fang, speak with animals   0 (at will)-detect
-  poison, flare (DC 15), know direction, resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 6th; concentration +11)   3rd-dominate animal (DC
+    18), poison (DC 18), spike growth (DC 18)   2nd-heat metal (DC 17), flaming
+    sphere (DC 17), spider climb, summon swarm   1st-entangle (DC 16), produce
+    flame, longstrider, magic fang, speak with animals
+  values:
+    - label: 0 (at will)
+      value: detect poison, flare (DC 15), know direction, resistance
 AbilityScores:
   - 12
   - 16

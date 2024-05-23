@@ -46,14 +46,17 @@ SpellLikeAbilities:
       value: charm person (DC 17), deep slumber (DC 19), tree stride
     - label: 1/day
       value: suggestion (DC 19)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 9th; concentration +13)   5th-mass pain strikeAPG
-  (DC 19)   4th-beast shape II, cure serious wounds, enervation   3rd-arcane
-  sight, dispel magic (2), twilight knifeAPG   2nd-augury, bear's endurance,
-  blindness/deafness (DC 17), death knell (DC 17), glitterdust (DC 16)  
-  1st-beguiling giftAPG (DC 15), chill touch (DC 16), mage armor, ray of
-  enfeeblement (DC 16), unseen servant   0 (at will)-bleed (DC 15), dancing
-  lights, detect magic, message
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 9th; concentration +13)   5th-mass pain strikeAPG
+    (DC 19)   4th-beast shape II, cure serious wounds, enervation   3rd-arcane
+    sight, dispel magic (2), twilight knifeAPG   2nd-augury, bear's endurance,
+    blindness/deafness (DC 17), death knell (DC 17), glitterdust (DC 16)  
+    1st-beguiling giftAPG (DC 15), chill touch (DC 16), mage armor, ray of
+    enfeeblement (DC 16), unseen servant
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), dancing lights, detect magic, message
 AbilityScores:
   - 12
   - 20

@@ -26,17 +26,35 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: detect thoughts (DC 18)
-SpellsPrepared: >-
-  Spells Prepared (CL 16th; ranged touch +20)  8th (3/day)-polymorph any object
-  (DC 25)  7th (6/day)-deflection, project image (DC 26)  6th (7/day)-greater
-  dispel magic, mislead, programmed image (DC 25)  5th (7/day)-false vision (DC
-  24), persistent image (DC 24), silent greater invisibility, teleport  4th
-  (7/day)-confusion (DC 21), dimension door, greater invisibility, phantasmal
-  killer (DC 23)  3rd (8/day)-blood biography, displacement, major image (DC
-  22), nondetection  2nd (8/day)-blur, invisibility, mirror image, obscure
-  object, see invisibility  1st (8/day)-charm person (DC 20), magic missile,
-  obscuring mist, shield, ventriloquism  0 (at will)-daze, dancing lights,
-  detect magic, flare, ghost sound, mage hand, message, read magic, resistance
+SpellsPrepared:
+  header: Spells Prepared (CL 16th; ranged touch +20)
+  values:
+    - label: 8th (3/day)
+      value: polymorph any object (DC 25)
+    - label: 7th (6/day)
+      value: deflection, project image (DC 26)
+    - label: 6th (7/day)
+      value: greater dispel magic, mislead, programmed image (DC 25)
+    - label: 5th (7/day)
+      value: >-
+        false vision (DC 24), persistent image (DC 24), silent greater
+        invisibility, teleport
+    - label: 4th (7/day)
+      value: >-
+        confusion (DC 21), dimension door, greater invisibility, phantasmal
+        killer (DC 23)
+    - label: 3rd (8/day)
+      value: blood biography, displacement, major image (DC 22), nondetection
+    - label: 2nd (8/day)
+      value: blur, invisibility, mirror image, obscure object, see invisibility
+    - label: 1st (8/day)
+      value: >-
+        charm person (DC 20), magic missile, obscuring mist, shield,
+        ventriloquism
+    - label: 0 (at will)
+      value: >-
+        daze, dancing lights, detect magic, flare, ghost sound, mage hand,
+        message, read magic, resistance
 AbilityScores:
   - 14
   - 19

@@ -29,10 +29,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: enlarge (5/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +5)  2nd-barkskinD, flaming
-  sphere (DC 14), stone call* (DC 14)  1st-enlarge personD, faerie fire, produce
-  flame, shillelagh  0 (at will)-detect poison, know direction, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +5)  2nd-barkskinD, flaming
+    sphere (DC 14), stone call* (DC 14)  1st-enlarge personD, faerie fire,
+    produce flame, shillelagh
+  values:
+    - label: 0 (at will)
+      value: detect poison, know direction, mending
 SpellDomains: Plant (Growth subdomain*)
 AbilityScores:
   - 14

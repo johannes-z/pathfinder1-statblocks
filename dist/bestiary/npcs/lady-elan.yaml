@@ -39,23 +39,45 @@ SpellLikeAbilities:
       value: storm burst
     - label: 1/day
       value: dimension door
-SpellsPrepared: >-
-  Spells Prepared (CL 21st; melee touch +14, ranged touch +19):  9
-  (4/day)-foresight, mass cure critical wounds, polar midnight (DC 25)UM,
-  shapechange, storm of vengeance (DC 25)  8 (4/day)-euphoric tranquility#,
-  frightful aspect (DC 24)UC, reverse gravity, stormbolts (DC 24)APG, whirlwind
-  (DC 24)  7 (4/day)-control weather, creeping doom (DC 23), sunbeam (DC 23),
-  true seeing, wind walk  6 (5/day)-antilife shell, control winds, greater
-  dispel magic, sirocco (DC 22)APG, stone tell, tar pool (DC 22)UC  5
-  (5/day)-atonement, awaken, death ward, ice storm, stoneskin, wall of thorns  4
-  (5/day)-air walk, ball lightning (DC 20)APG, reincarnate, scrying (DC 20),
-  sleet storm, true form (DC 20) APG  3 (5/day)-burst of nettles (DC 19)UM, call
-  lightning (DC 19), dominate animal (DC 19), neutralize poison, plant growth,
-  speak with plants  2 (6/day)-animal messenger, barkskin, feast of ashes (DC
-  18)APG, fog cloud, heat metal (DC 18), resist energy, share language  1
-  (6/day)-calm animals (DC 17), entangle (DC 17), longstrider, magic fang,
-  obscuring mist, remove sicknessUM, speak with animals  0 (at will)-detect
-  magic, know direction, read magic, stabilize
+SpellsPrepared:
+  header: 'Spells Prepared (CL 21st; melee touch +14, ranged touch +19):  9'
+  values:
+    - label: (4/day)
+      value: >-
+        foresight, mass cure critical wounds, polar midnight (DC 25)UM,
+        shapechange, storm of vengeance (DC 25) 8
+    - label: (4/day)
+      value: >-
+        euphoric tranquility#, frightful aspect (DC 24)UC, reverse gravity,
+        stormbolts (DC 24)APG, whirlwind (DC 24) 7
+    - label: (4/day)
+      value: >-
+        control weather, creeping doom (DC 23), sunbeam (DC 23), true seeing,
+        wind walk 6
+    - label: (5/day)
+      value: >-
+        antilife shell, control winds, greater dispel magic, sirocco (DC 22)APG,
+        stone tell, tar pool (DC 22)UC 5
+    - label: (5/day)
+      value: atonement, awaken, death ward, ice storm, stoneskin, wall of thorns 4
+    - label: (5/day)
+      value: >-
+        air walk, ball lightning (DC 20)APG, reincarnate, scrying (DC 20), sleet
+        storm, true form (DC 20) APG 3
+    - label: (5/day)
+      value: >-
+        burst of nettles (DC 19)UM, call lightning (DC 19), dominate animal (DC
+        19), neutralize poison, plant growth, speak with plants 2
+    - label: (6/day)
+      value: >-
+        animal messenger, barkskin, feast of ashes (DC 18)APG, fog cloud, heat
+        metal (DC 18), resist energy, share language 1
+    - label: (6/day)
+      value: >-
+        calm animals (DC 17), entangle (DC 17), longstrider, magic fang,
+        obscuring mist, remove sicknessUM, speak with animals
+    - label: 0 (at will)
+      value: detect magic, know direction, read magic, stabilize
 AbilityScores:
   - 10
   - 21

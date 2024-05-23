@@ -42,12 +42,16 @@ SpellLikeAbilities:
       value: touch of evil (3 rounds)
     - label: 8/day
       value: inspiring word (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +11)   3rd-bestow curse (DC 20),
-  blindness/deafness (DC 20), dispel magic, magic circle against goodD  
-  2nd-desecrate, enthrall (DC 17)D, hold person (DC 17), owl's wisdom, spiritual
-  weapon   1st-bane (DC 16), bless, divine favorD, doom (2, DC 18), obscuring
-  mist   0 (at will)-bleed (DC 17), detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +11)   3rd-bestow curse (DC
+    20), blindness/deafness (DC 20), dispel magic, magic circle against goodD  
+    2nd-desecrate, enthrall (DC 17)D, hold person (DC 17), owl's wisdom,
+    spiritual weapon   1st-bane (DC 16), bless, divine favorD, doom (2, DC 18),
+    obscuring mist
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, guidance, read magic
 SpellDomains: Evil, Nobility
 AbilityScores:
   - 20

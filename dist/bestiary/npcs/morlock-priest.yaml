@@ -36,12 +36,15 @@ SpellLikeAbilities:
       value: touch of chaos
     - label: 7/day
       value: copycat (5 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +9)  3rd-deeper darkness, magic
-  circle against law D, meld into stone  2nd-aid, darkness, invisibility D,
-  silence  1st-bane (DC 15), disguise self D, doom (DC 15), protection from
-  good, shield of faith (already cast)  0 (at will)-bleed, detect magic,
-  guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +9)  3rd-deeper darkness,
+    magic circle against law D, meld into stone  2nd-aid, darkness, invisibility
+    D, silence  1st-bane (DC 15), disguise self D, doom (DC 15), protection from
+    good, shield of faith (already cast)
+  values:
+    - label: 0 (at will)
+      value: bleed, detect magic, guidance, resistance
 SpellDomains: Chaos, Trickery
 AbilityScores:
   - 14

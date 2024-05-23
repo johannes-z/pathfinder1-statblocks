@@ -27,21 +27,24 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (12/day), metamagic mastery (7/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 20th; concentration +29) 9th-empowered delayed
-  blast fireball (DC 26), Echean's excellent enclosure, meteor swarm (2, DC 28),
-  time stop 8th-polar ray (2, DC 27), power word stun (2, DC 27), prismatic wall
-  (DC 27) 7th-delayed blast fireball (DC 26), finger of death (DC 26),
-  firebrand* (2, DC 26), reverse gravity (DC 26) 6th-chain lightning (2, DC 25),
-  cloak of dreams* (DC 25), greater dispel magic, mage's lubrication
-  5th-cloudkill (DC 24), dominate person (DC 24), suffocation* (DC 24), teleport
-  (2), wall of force 4th-bestow curse (DC 23), crushing despair (DC 23),
-  enervation, greater invisibility, lesser globe of invulnerability, maximized
-  magic missile 3rd-dispel magic, fireball (2, DC 22), fly, haste (2) 2nd-create
-  treasure map*, ghoul touch (DC 21), stilled magic missile, rope trick,
-  scorching ray (2) 1st-magic missile (3), ray of enfeeblement (2, DC 20),
-  shield, true strike 0 (at will)-arcane mark, detect magic, prestidigitation,
-  read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 20th; concentration +29) 9th-empowered delayed
+    blast fireball (DC 26), Echean's excellent enclosure, meteor swarm (2, DC
+    28), time stop 8th-polar ray (2, DC 27), power word stun (2, DC 27),
+    prismatic wall (DC 27) 7th-delayed blast fireball (DC 26), finger of death
+    (DC 26), firebrand* (2, DC 26), reverse gravity (DC 26) 6th-chain lightning
+    (2, DC 25), cloak of dreams* (DC 25), greater dispel magic, mage's
+    lubrication 5th-cloudkill (DC 24), dominate person (DC 24), suffocation* (DC
+    24), teleport (2), wall of force 4th-bestow curse (DC 23), crushing despair
+    (DC 23), enervation, greater invisibility, lesser globe of invulnerability,
+    maximized magic missile 3rd-dispel magic, fireball (2, DC 22), fly, haste
+    (2) 2nd-create treasure map*, ghoul touch (DC 21), stilled magic missile,
+    rope trick, scorching ray (2) 1st-magic missile (3), ray of enfeeblement (2,
+    DC 20), shield, true strike
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, prestidigitation, read magic
 AbilityScores:
   - 8
   - 16

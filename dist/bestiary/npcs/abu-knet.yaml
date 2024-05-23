@@ -30,12 +30,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: rebuke death (1d4+2), touch of law
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; melee touch +5, ranged touch +5)  3rd-bestow curse
-  (DC 16), cure serious woundsD, deeper darkness   2nd-align weapon (law only)D,
-  death knell (DC 15), enthrall (DC 15), hold person (DC 15)   1st-bless water
-  (DC 14), command (DC 14), detect evil, doom (DC 14), protection from chaos D  
-  0 (at will)-detect magic, light, purify food and drink (DC 13), read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; melee touch +5, ranged touch +5)  3rd-bestow curse
+    (DC 16), cure serious woundsD, deeper darkness   2nd-align weapon (law
+    only)D, death knell (DC 15), enthrall (DC 15), hold person (DC 15)  
+    1st-bless water (DC 14), command (DC 14), detect evil, doom (DC 14),
+    protection from chaos D
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, purify food and drink (DC 13), read magic
 SpellDomains: Healing, Law
 AbilityScores:
   - null

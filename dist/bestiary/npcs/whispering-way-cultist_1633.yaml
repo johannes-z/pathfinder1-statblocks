@@ -33,11 +33,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: bolster* (1 round)
-SpellsPrepared: >-
-  Necromancer Spells Prepared (CL 3rd; concentration +6)  2nd-acid arrow, false
-  life, scorching ray  1st-chill touch (DC 14), mage armor, ray of enfeeblement
-  (DC 14), vanish*  0 (at will)-bleed (DC 13), detect magic, ray of frost, read
-  magic, touch of fatigue (DC 13)
+SpellsPrepared:
+  header: >-
+    Necromancer Spells Prepared (CL 3rd; concentration +6)  2nd-acid arrow,
+    false life, scorching ray  1st-chill touch (DC 14), mage armor, ray of
+    enfeeblement (DC 14), vanish*
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 13), detect magic, ray of frost, read magic, touch of fatigue
+        (DC 13)
 AbilityScores:
   - 10
   - 16

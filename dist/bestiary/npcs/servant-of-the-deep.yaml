@@ -32,10 +32,14 @@ Reach: 5 ft.
 SpecialAttacks: >-
   rage (12 rounds/day), rage powers (intimidating glare, moment of clarity),
   hexes (evil eye [-2, 5 rounds], flight [feather fall at will, levitate 1/day])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 3rd; concentration +5)   2nd-cure moderate wounds,
-  touch of idiocy   1st-enlarge person (DC 13), mage armor, ray of enfeeblement
-  (DC 13)   0 (at will)-arcane mark, detect magic, detect poison, light
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 3rd; concentration +5)   2nd-cure moderate wounds,
+    touch of idiocy   1st-enlarge person (DC 13), mage armor, ray of
+    enfeeblement (DC 13)
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, detect poison, light
 AbilityScores:
   - 19
   - 14

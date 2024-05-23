@@ -30,15 +30,17 @@ SpecialAttacks: >-
   blessings 10/day (Good: battle companion, holy strike; War: battle lust, war
   mind), channel positive energy 5/day (DC 20, 5d6), fervor 10/day (5d6), sacred
   weapon (+3, 1d10, 14 rounds/day)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 14th; concentration +17)   5th-dispel evil,
-  plane shift (DC 18)   4th-air walk, discern lies (DC 17), holy smite (DC 17),
-  greater magic weapon   3rd-dispel magic, magic vestment (2), prayer,
-  protection from energy   2nd-bear's endurance, bull's strength, hold person
-  (DC 15), lesser restoration, spiritual weapon, status   1st-command (2, DC
-  14), divine favor, protection from evil, sanctuary (DC 14), shield of faith  
-  0 (at will)-detect magic, light, mending, purify food and drink (DC 13), read
-  magic
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 14th; concentration +17)   5th-dispel evil,
+    plane shift (DC 18)   4th-air walk, discern lies (DC 17), holy smite (DC
+    17), greater magic weapon   3rd-dispel magic, magic vestment (2), prayer,
+    protection from energy   2nd-bear's endurance, bull's strength, hold person
+    (DC 15), lesser restoration, spiritual weapon, status   1st-command (2, DC
+    14), divine favor, protection from evil, sanctuary (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, purify food and drink (DC 13), read magic
 AbilityScores:
   - 20
   - 8

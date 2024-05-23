@@ -42,13 +42,17 @@ SpellLikeAbilities:
       value: artificer's touch (1d6+4, bypasses 9 DR and hardness)
     - label: 6/day
       value: strength surge (+4)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +12)   5th-heal, righteous
-  mightD   4th-air walk, freedom of movement, spell immunityD   3rd-cure serious
-  wounds (2), invisibility purge, stone shapeD, wind wall   2nd- bull's
-  strengthD, cure moderate wounds (2), resist energy (2), silence (DC 15)  
-  1st-cure light wounds (2), divine favor, enlarge personD, entropic shield,
-  shield of faith   0 (at will)-detect magic, guidance, light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +12)   5th-heal, righteous
+    mightD   4th-air walk, freedom of movement, spell immunityD   3rd-cure
+    serious wounds (2), invisibility purge, stone shapeD, wind wall   2nd-
+    bull's strengthD, cure moderate wounds (2), resist energy (2), silence (DC
+    15)   1st-cure light wounds (2), divine favor, enlarge personD, entropic
+    shield, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, mending
 SpellDomains: Artifice, Strength
 AbilityScores:
   - 32

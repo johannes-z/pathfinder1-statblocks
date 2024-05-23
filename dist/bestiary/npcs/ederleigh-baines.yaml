@@ -30,10 +30,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (6/day), sneak attack +3d6
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 3rd; concentration +6)   2nd-levitate, scorching
-  ray   1st-feather fall, magic missile, shocking grasp   0 (at will)-acid
-  splash, ghost sound (DC 13), open/ close, prestidigitation
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 3rd; concentration +6)   2nd-levitate, scorching
+    ray   1st-feather fall, magic missile, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: acid splash, ghost sound (DC 13), open/ close, prestidigitation
 AbilityScores:
   - 12
   - 20

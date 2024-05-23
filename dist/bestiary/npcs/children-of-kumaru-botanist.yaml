@@ -35,16 +35,31 @@ SpellLikeAbilities:
   values:
     - label: At will
       value: detect magic
-SpellsPrepared: >-
-  Arcanist Spells Prepared (CL 14th; concentration +20)  7th (2/day)-plant shape
-  III  6th (5/day)-chain lightning (DC 22), disintegrate (DC 22)  5th
-  (5/day)-blight (DC 21), cloudkill (DC 21), teleport  4th (5/day)-acid pitAPG
-  (DC 20), contagion (DC 20), greater flaming sphereACG (DC 20), stoneskin  3rd
-  (5/day)-aqueous orbAPG (DC 19), blink, fly, lightning bolt (DC 19)  2nd
-  (6/day)-blur, false life, gust of wind (DC 18), hideous laughter (DC 18),
-  summon swarm  1st (6/day)-endure elements, identify, mage armor, shield,
-  vanishAPG (DC 16)  0 (at will)-acid splash, arcane mark, detect poison, light,
-  mage hand, mending, prestidigitation, ray of frost, read magic
+SpellsPrepared:
+  header: Arcanist Spells Prepared (CL 14th; concentration +20)
+  values:
+    - label: 7th (2/day)
+      value: plant shape III
+    - label: 6th (5/day)
+      value: chain lightning (DC 22), disintegrate (DC 22)
+    - label: 5th (5/day)
+      value: blight (DC 21), cloudkill (DC 21), teleport
+    - label: 4th (5/day)
+      value: >-
+        acid pitAPG (DC 20), contagion (DC 20), greater flaming sphereACG (DC
+        20), stoneskin
+    - label: 3rd (5/day)
+      value: aqueous orbAPG (DC 19), blink, fly, lightning bolt (DC 19)
+    - label: 2nd (6/day)
+      value: >-
+        blur, false life, gust of wind (DC 18), hideous laughter (DC 18), summon
+        swarm
+    - label: 1st (6/day)
+      value: endure elements, identify, mage armor, shield, vanishAPG (DC 16)
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, detect poison, light, mage hand, mending,
+        prestidigitation, ray of frost, read magic
 AbilityScores:
   - 8
   - 13

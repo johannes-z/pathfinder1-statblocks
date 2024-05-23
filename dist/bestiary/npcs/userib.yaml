@@ -41,15 +41,18 @@ SpellLikeAbilities:
         concentration +14)
     - label: 8/day
       value: sudden shift, wind blast
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +14)  5th-false visionD, flame
-  strike (DC 20), slay living (DC 20)  4th-confusionD (DC 19), cure critical
-  wounds, divine power, unholy blight (DC 19)  3rd-blindness/deafness (DC 18),
-  dispel magic, invisibility purge, nondetectionD, prayer  2nd-dread boltUM (DC
-  17), hold person (DC 17), mirror imageD, resist energy, weapon of aweAPG (2) 
-  1st-command (2, DC 16), doom (DC 16), entropic shield, obscuring mist,
-  protection from good, whispering windD  0 (at will)-create water, detect
-  magic, purify food and drink, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +14)  5th-false visionD, flame
+    strike (DC 20), slay living (DC 20)  4th-confusionD (DC 19), cure critical
+    wounds, divine power, unholy blight (DC 19)  3rd-blindness/deafness (DC 18),
+    dispel magic, invisibility purge, nondetectionD, prayer  2nd-dread boltUM
+    (DC 17), hold person (DC 17), mirror imageD, resist energy, weapon of aweAPG
+    (2)  1st-command (2, DC 16), doom (DC 16), entropic shield, obscuring mist,
+    protection from good, whispering windD
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, purify food and drink, resistance
 SpellDomains: Air (Wind subdomainAPG), Trickery (Deception subdomainAPG)
 AbilityScores:
   - 18

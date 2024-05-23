@@ -34,14 +34,17 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: grave touch (4 rounds)
-SpellsPrepared: >-
-  Necromancer Spells Prepared (CL 8th; concentration +13)   4th-ball
-  lightningAPG (DC 19), fear (DC 21), obsidian flowUC (DC 19), stoneskin  
-  3rd-communal resist energyUC, fly, haste, ray of exhaustion (2, DC 20)  
-  2nd-bear's endurance, command undead (DC 19), false life, glitterdust (DC 17),
-  scorching ray   1st-alarm (2, already cast), mage armor, magic missile (2),
-  ray of enfeeblement (DC 18), shield   0 (at will)-bleed (DC 17), detect magic,
-  light, read magic
+SpellsPrepared:
+  header: >-
+    Necromancer Spells Prepared (CL 8th; concentration +13)   4th-ball
+    lightningAPG (DC 19), fear (DC 21), obsidian flowUC (DC 19), stoneskin  
+    3rd-communal resist energyUC, fly, haste, ray of exhaustion (2, DC 20)  
+    2nd-bear's endurance, command undead (DC 19), false life, glitterdust (DC
+    17), scorching ray   1st-alarm (2, already cast), mage armor, magic missile
+    (2), ray of enfeeblement (DC 18), shield
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, light, read magic
 AbilityScores:
   - 8
   - 10

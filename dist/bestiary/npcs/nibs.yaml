@@ -44,18 +44,23 @@ SpellLikeAbilities:
         (CL 13th; concentration +13)
     - label: 1/day
       value: dancing lights, ghost sound, prestidigitation, speak with animals
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 13th; concentration +18)  7th-creeping doom (DC 23),
-  lesser planar bindingD  6th-fire seeds, guards and wardsD, wall of stone 
-  5th-baleful polymorph (DC 20), fire snakeAPG (DC 20), insect plague, lesser
-  planar bindingD (DC 21), wall of thorns  4th-air walk, dimensional anchorD,
-  dispel magic, flame strike (DC 19), freedom of movement, rusting grasp 
-  3rd-burrowUM (DC 18), glyph of wardingD, greater magic fang, meld into stone,
-  poison (2, DC 18)  2nd-aspect of the bearAPG, barkskin, bull's strength, fog
-  cloud, resist energy, secret pageD  1st-arcane lockD, decompose corpseUM (DC
-  16), feather stepAPG (DC 16), longstrider, pass without trace, produce flame,
-  ray of sickeningUM (DC 16)  0 (at will)-detect magic, purify food and drink
-  (DC 15), read magic, sparkAPG (DC 15)
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 13th; concentration +18)  7th-creeping doom (DC
+    23), lesser planar bindingD  6th-fire seeds, guards and wardsD, wall of
+    stone  5th-baleful polymorph (DC 20), fire snakeAPG (DC 20), insect plague,
+    lesser planar bindingD (DC 21), wall of thorns  4th-air walk, dimensional
+    anchorD, dispel magic, flame strike (DC 19), freedom of movement, rusting
+    grasp  3rd-burrowUM (DC 18), glyph of wardingD, greater magic fang, meld
+    into stone, poison (2, DC 18)  2nd-aspect of the bearAPG, barkskin, bull's
+    strength, fog cloud, resist energy, secret pageD  1st-arcane lockD,
+    decompose corpseUM (DC 16), feather stepAPG (DC 16), longstrider, pass
+    without trace, produce flame, ray of sickeningUM (DC 16)
+  values:
+    - label: 0 (at will)
+      value: >-
+        detect magic, purify food and drink (DC 15), read magic, sparkAPG (DC
+        15)
 SpellDomains: Rune (WardsAPG subdomain)
 AbilityScores:
   - 10

@@ -76,19 +76,23 @@ SpellsKnown:
       value: >-
         acid splash, arcane mark, dancing lights, ghost sound (DC 20), mage
         hand, message, prestidigitation, read magic, tough of fatigue
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 15th; concentration +26) 8th-fire stormM (DC 29),
-  mind blankD (already cast), unholy aura 7th-destructionD (2, DC 29), empowered
-  flame strike (2), repulsion (DC 28) 6th-create undeadD, greater dispel magic,
-  harmM (2, DC 29), plague storm, word of recall 5th-plane shiftM (DC 26),
-  scrying (DC 26), slay livingD (3, DC 27), steal powerMA (DC 28), true seeing
-  (already cast) 4th-aura of doom, blessing of fervorAPG, dismissal (DC 25),
-  divine power, enervationD, M (2), freedom of movement 3rd-bestow curse (3, DC
-  25), dispel magic, magic vestment (already cast), prayerM (2), seek
-  thoughtsAPG, D 2nd-darknessM, ghoul touchD (DC 25), remove paralysis, resist
-  energy (2), silenceM (2, DC 23), spiritual weapon 1st-comprehend languagesD,
-  divine favor, entropic shield, protection from good (3), shield of faithM (2)
-  0 (at will)-detect magic, guidance, light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 15th; concentration +26) 8th-fire stormM (DC 29),
+    mind blankD (already cast), unholy aura 7th-destructionD (2, DC 29),
+    empowered flame strike (2), repulsion (DC 28) 6th-create undeadD, greater
+    dispel magic, harmM (2, DC 29), plague storm, word of recall 5th-plane
+    shiftM (DC 26), scrying (DC 26), slay livingD (3, DC 27), steal powerMA (DC
+    28), true seeing (already cast) 4th-aura of doom, blessing of fervorAPG,
+    dismissal (DC 25), divine power, enervationD, M (2), freedom of movement
+    3rd-bestow curse (3, DC 25), dispel magic, magic vestment (already cast),
+    prayerM (2), seek thoughtsAPG, D 2nd-darknessM, ghoul touchD (DC 25), remove
+    paralysis, resist energy (2), silenceM (2, DC 23), spiritual weapon
+    1st-comprehend languagesD, divine favor, entropic shield, protection from
+    good (3), shield of faithM (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, mending
 SpellDomains: Death (Undead subdomainAPG), Knowledge (Thought subdomainAPG)
 AbilityScores:
   - 13

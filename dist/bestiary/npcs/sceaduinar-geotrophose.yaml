@@ -48,15 +48,18 @@ SpellLikeAbilities:
       value: >-
         antilife shell, greater teleport (self plus 50 lbs. of objects only),
         harm (DC 23), slay living (DC 22)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 9th; concentration +15)  5th-feeblemind (DC 22),
-  waves of fatigue  4th-black tentacles, crushing despair (DC 21), wandering
-  star motesAPG (DC 20)  3rd-glyph of warding (DC 19), rage, screechAPG (DC 19),
-  vampiric touch  2nd-blindness/deafness (DC 18), daze monster (DC 19), fog
-  cloud, glitterdust (DC 18), see invisibility, web (DC 18)  1st-beguiling
-  giftAPG (DC 18), lesser confusion (DC 18), ill omenAPG, mage armor, ray of
-  enfeeblement (DC 17), unseen servant  0 (at will)-guidance, mending, message,
-  resistance
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 9th; concentration +15)  5th-feeblemind (DC 22),
+    waves of fatigue  4th-black tentacles, crushing despair (DC 21), wandering
+    star motesAPG (DC 20)  3rd-glyph of warding (DC 19), rage, screechAPG (DC
+    19), vampiric touch  2nd-blindness/deafness (DC 18), daze monster (DC 19),
+    fog cloud, glitterdust (DC 18), see invisibility, web (DC 18)  1st-beguiling
+    giftAPG (DC 18), lesser confusion (DC 18), ill omenAPG, mage armor, ray of
+    enfeeblement (DC 17), unseen servant
+  values:
+    - label: 0 (at will)
+      value: guidance, mending, message, resistance
 AbilityScores:
   - 24
   - 24

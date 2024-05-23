@@ -31,12 +31,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: acid dart (1d6+2)
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; ranged touch +4)  3rd-hold person (DC 17), stinking
-  cloud (DC 18)B, summon monster III   2nd-acid arrow, glitterdust (DC 17)B,
-  invisibility, summon monster II   1st-mage armor, magic missile (x2),
-  obscuring mistB, summon monster I   0 (at will)-detect magic, light, ray of
-  frost, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; ranged touch +4)  3rd-hold person (DC 17), stinking
+    cloud (DC 18)B, summon monster III   2nd-acid arrow, glitterdust (DC 17)B,
+    invisibility, summon monster II   1st-mage armor, magic missile (x2),
+    obscuring mistB, summon monster I
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, ray of frost, read magic
 AbilityScores:
   - 10
   - 14

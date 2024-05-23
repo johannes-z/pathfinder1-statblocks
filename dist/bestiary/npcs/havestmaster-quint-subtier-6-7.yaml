@@ -31,15 +31,18 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: bleeding touch (4 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +12)   5th-mass inflict light
-  wounds (DC 18), slay living (DC 18)   4th-inflict critical wounds (DC 17)D,
-  divine power, unholy blight (DC 17)   3rd-bestow curse (DC 16),
-  blindness/deafness (DC 16), cure serious wounds, dispel magic, rageD  
-  2nd-aid, bear's endurance, death knellD, hold person (DC 15), lesser
-  restoration, resist energy   1st-cure light wounds, divine favor, doom (DC
-  14), endure elements, shield of faith, true strikeD   0 (at will)-bleed (DC
-  13), detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +12)   5th-mass inflict light
+    wounds (DC 18), slay living (DC 18)   4th-inflict critical wounds (DC 17)D,
+    divine power, unholy blight (DC 17)   3rd-bestow curse (DC 16),
+    blindness/deafness (DC 16), cure serious wounds, dispel magic, rageD  
+    2nd-aid, bear's endurance, death knellD, hold person (DC 15), lesser
+    restoration, resist energy   1st-cure light wounds, divine favor, doom (DC
+    14), endure elements, shield of faith, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, guidance, read magic
 SpellDomains: Death, Destruction
 AbilityScores:
   - 16

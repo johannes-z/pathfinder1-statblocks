@@ -32,13 +32,17 @@ SpellLikeAbilities:
       value: strength surge (+3)
     - label: 6/day
       value: copycat (7 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +10)   4th-chaos hammer (DC 17),
-  confusionD (DC 17)   3rd-bestow curse (DC 16), cure serious wounds,
-  nondetectionD, waters of LamashtuISWG   2nd-augury, darkness, dread boltUM (DC
-  15), hold person (DC 15), invisibilityD   1st-command (DC 14), doom (DC 14),
-  enlarge personD (DC 14), magic weapon, protection from good, summon monster
-  I   0 (at will)-bleed (DC 13), detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +10)   4th-chaos hammer (DC
+    17), confusionD (DC 17)   3rd-bestow curse (DC 16), cure serious wounds,
+    nondetectionD, waters of LamashtuISWG   2nd-augury, darkness, dread boltUM
+    (DC 15), hold person (DC 15), invisibilityD   1st-command (DC 14), doom (DC
+    14), enlarge personD (DC 14), magic weapon, protection from good, summon
+    monster I
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, guidance, read magic
 SpellDomains: Strength, Trickery
 AbilityScores:
   - 17

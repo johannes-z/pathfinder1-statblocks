@@ -31,11 +31,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: favored enemy (animals +2), spell combat (-2 attack), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 6th; concentration +9)   2nd-blur, frigid touchUM,
-  scorching ray, web (DC 15)   1st-corrosive touchUM, magic missile, shield,
-  shocking grasp, vanishAPG   0 (at will)-acid splash, daze (DC 13), flare (DC
-  13), light, ray of frost
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 6th; concentration +9)   2nd-blur, frigid touchUM,
+    scorching ray, web (DC 15)   1st-corrosive touchUM, magic missile, shield,
+    shocking grasp, vanishAPG
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 13), flare (DC 13), light, ray of frost
 AbilityScores:
   - 14
   - 16

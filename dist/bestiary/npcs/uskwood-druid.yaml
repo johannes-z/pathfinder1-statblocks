@@ -31,14 +31,18 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 4/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 11th; concentration +15)  6th-transport via plants 
-  5th-phantasmal killer (DC 15), wall of thorns  4th-displacement, freedom of
-  movement, ice storm, spike stones (DC 14)  3rd-cure moderate wounds, ghoul
-  touch (DC 13), greater magic fang, poison (DC 13), sleet storm  2nd-barkskin
-  (2), bear's endurance, chill touch (DC 12), resist energy  1st-cure light
-  wounds, entangle (DC 11), longstrider, obscuring mist, speak with animals  0
-  (at will)-detect magic, guidance, purify food and drink, ray of frost
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 11th; concentration +15)  6th-transport via
+    plants  5th-phantasmal killer (DC 15), wall of thorns  4th-displacement,
+    freedom of movement, ice storm, spike stones (DC 14)  3rd-cure moderate
+    wounds, ghoul touch (DC 13), greater magic fang, poison (DC 13), sleet
+    storm  2nd-barkskin (2), bear's endurance, chill touch (DC 12), resist
+    energy  1st-cure light wounds, entangle (DC 11), longstrider, obscuring
+    mist, speak with animals
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, purify food and drink, ray of frost
 AbilityScores:
   - 14
   - 14

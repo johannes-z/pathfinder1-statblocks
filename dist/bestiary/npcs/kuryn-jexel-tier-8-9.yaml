@@ -31,13 +31,17 @@ SpellLikeAbilities:
       value: rebuke death (1d4+4)
     - label: 6/day
       value: gentle rest (+6 melee touch, undead staggered for 3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +12)  5th-breath of lifeD, flame
-  strike (DC 18)  4th-cure critical woundsD (DC 17), divine power, spell
-  immunity  3rd-cure serious woundsD (DC 16), prayer, searing light (x3) 
-  2nd-consecrate, cure moderate woundsD (DC 15, x2), eagle's splendor, sound
-  burst (DC 15, x2)  1st-bless, cure light woundsD (DC 14, x3), sanctuary (DC
-  14), shield of faith  0 (at will)-detect magic, light, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +12)  5th-breath of lifeD,
+    flame strike (DC 18)  4th-cure critical woundsD (DC 17), divine power, spell
+    immunity  3rd-cure serious woundsD (DC 16), prayer, searing light (x3) 
+    2nd-consecrate, cure moderate woundsD (DC 15, x2), eagle's splendor, sound
+    burst (DC 15, x2)  1st-bless, cure light woundsD (DC 14, x3), sanctuary (DC
+    14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, resistance, stabilize
 SpellDomains: Healing, Repose
 AbilityScores:
   - 10

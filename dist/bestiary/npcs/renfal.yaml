@@ -46,14 +46,17 @@ SpellLikeAbilities:
       value: lightning lord (8 bolts/day)
     - label: 9/day
       value: storm burst (1d6+4 nonlethal)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +14)  4th-sending, sleet stormD,
-  spell immunity, spiritual allyAPG  3rd-call lightningD (DC 19), dispel magic,
-  helping hand, prayer, protection from energy  2nd-aid, eagle's splendor, hold
-  person (DC 18), silence (DC 18), spiritual weapon, wind wallD  1st-bless,
-  command (DC 17), deathwatch, endure elements, entropic shield, sanctuary (DC
-  17), whispering windD  0 (at will)-create water, detect magic, guidance, read
-  magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +14)  4th-sending, sleet
+    stormD, spell immunity, spiritual allyAPG  3rd-call lightningD (DC 19),
+    dispel magic, helping hand, prayer, protection from energy  2nd-aid, eagle's
+    splendor, hold person (DC 18), silence (DC 18), spiritual weapon, wind
+    wallD  1st-bless, command (DC 17), deathwatch, endure elements, entropic
+    shield, sanctuary (DC 17), whispering windD
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, read magic
 SpellDomains: Air (WindAPG subdomain), Weather
 AbilityScores:
   - null

@@ -60,22 +60,27 @@ SpellLikeAbilities:
       value: >-
         greater restoration, power word blind, power word kill, power word stun,
         prismatic spray, wish
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 20th; concentration +29)   9th-etherealness, mass
-  heal, miracle, overwhelming presenceUM (DC 28), storm of vengeance (DC 28)  
-  8th-fire storm (DC 27), holy aura (2), mass cure critical wounds (2)  
-  7th-destruction (DC 26), dictum, ethereal jaunt, holy word (DC 26),
-  regenerate   6th-banishment (DC 25), heroes' feast, mass cure moderate wounds,
-  undeath to death (DC 25), word of recall   5th-break enchantment, breath of
-  life (DC 24), dispel evil, plane shift (DC 24), righteous might, symbol of
-  sleep (DC 24)   4th-cure critical wounds (2), death ward, dismissal (DC 23),
-  freedom of movement, neutralize poison   3rd-cure serious wounds, daylight,
-  invisibility purge, magic circle against evil, prayer, wind wall   2nd-align
-  weapon, bear's endurance, bull's strength, consecrate, cure moderate wounds,
-  eagle's splendor   1st-bless, cure light wounds (2), divine favor, entropic
-  shield, shield of faith (2)   0 (at will)-detect magic, purify food and drink
-  (DC 19), stabilize, virtue  Paladin Spells Prepared (CL 2nd; concentration
-  +11)   1st-bless weapon (3), knight's callingAPG (DC 20)
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 20th; concentration +29)   9th-etherealness, mass
+    heal, miracle, overwhelming presenceUM (DC 28), storm of vengeance (DC 28)  
+    8th-fire storm (DC 27), holy aura (2), mass cure critical wounds (2)  
+    7th-destruction (DC 26), dictum, ethereal jaunt, holy word (DC 26),
+    regenerate   6th-banishment (DC 25), heroes' feast, mass cure moderate
+    wounds, undeath to death (DC 25), word of recall   5th-break enchantment,
+    breath of life (DC 24), dispel evil, plane shift (DC 24), righteous might,
+    symbol of sleep (DC 24)   4th-cure critical wounds (2), death ward,
+    dismissal (DC 23), freedom of movement, neutralize poison   3rd-cure serious
+    wounds, daylight, invisibility purge, magic circle against evil, prayer,
+    wind wall   2nd-align weapon, bear's endurance, bull's strength, consecrate,
+    cure moderate wounds, eagle's splendor   1st-bless, cure light wounds (2),
+    divine favor, entropic shield, shield of faith (2)
+  values:
+    - label: 0 (at will)
+      value: >-
+        detect magic, purify food and drink (DC 19), stabilize, virtue Paladin
+        Spells Prepared (CL 2nd; concentration +11) 1st-bless weapon (3),
+        knight's callingAPG (DC 20)
 AbilityScores:
   - 38
   - 18

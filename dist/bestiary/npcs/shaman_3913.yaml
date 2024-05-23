@@ -27,10 +27,13 @@ Ranged:
   - dart +0 (1d4-1)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Adept Spells Prepared (CL 2nd; concentration +4)   1st-burning hands (DC 13),
-  sleep (DC 13)   0 (at will)-ghost sound (DC 12), read magic, touch of fatigue
-  (DC 12)
+SpellsPrepared:
+  header: >-
+    Adept Spells Prepared (CL 2nd; concentration +4)   1st-burning hands (DC
+    13), sleep (DC 13)
+  values:
+    - label: 0 (at will)
+      value: ghost sound (DC 12), read magic, touch of fatigue (DC 12)
 AbilityScores:
   - 9
   - 8

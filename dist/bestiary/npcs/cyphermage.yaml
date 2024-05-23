@@ -31,14 +31,17 @@ Reach: 5 ft.
 SpecialAttacks: >-
   cypher lore* (defensive scrollcaster, enhance scroll 1/day, focused scroll
   1/day, swift scroll), hand of the apprentice (8/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 9th; concentration +14)  5th-cone of cold (DC 20),
-  wall of force  4th-dimension door, lesser globe of invulnerability, wall of
-  fire  3rd-dispel magic, fireball (DC 18), protection from energy, summon
-  monster III  2nd-acid arrow, false life, glitterdust (DC 17), locate object,
-  scorching ray  1st-feather fall, grease (DC 16), mage armor, ray of
-  enfeeblement (DC 16), shield, shocking grasp  0 (at will)-detect magic, light,
-  mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 9th; concentration +14)  5th-cone of cold (DC
+    20), wall of force  4th-dimension door, lesser globe of invulnerability,
+    wall of fire  3rd-dispel magic, fireball (DC 18), protection from energy,
+    summon monster III  2nd-acid arrow, false life, glitterdust (DC 17), locate
+    object, scorching ray  1st-feather fall, grease (DC 16), mage armor, ray of
+    enfeeblement (DC 16), shield, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, read magic
 AbilityScores:
   - 8
   - 14

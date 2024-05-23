@@ -50,12 +50,16 @@ SpellLikeAbilities:
         Spell-Like Abilities (CL 6th; concentration +10)
     - label: 7/day
       value: calming touch (1d6+6), touch of evil (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +10)  3rd-create food and water,
-  dispel magic, prayerD, protection from energy  2nd-align weaponD (evil only),
-  cure moderate wounds (2), hold person (DC 16), spiritual weapon  1st-blessD,
-  command (DC 15), cure light wounds, endure elements, shield of faith  0 (at
-  will)-create water, light, mending, purify food and drink
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +10)  3rd-create food and
+    water, dispel magic, prayerD, protection from energy  2nd-align weaponD
+    (evil only), cure moderate wounds (2), hold person (DC 16), spiritual
+    weapon  1st-blessD, command (DC 15), cure light wounds, endure elements,
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, light, mending, purify food and drink
 SpellDomains: Community, Evil
 AbilityScores:
   - 12

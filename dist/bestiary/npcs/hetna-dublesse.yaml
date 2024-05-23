@@ -30,17 +30,20 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (cauldron, charm [2 steps, 6 rounds], coven, evil eye [-4, 9 rounds],
   misfortune [2 rounds], retribution [6 rounds], waxen image [6 uses/image])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 12th; concentration +18)  6th-cloak of dreams* (DC
-  23), mass suggestion (DC 23), unwilling shield* (DC 22)  5th-baleful polymorph
-  (DC 21), cure critical wounds, mass pain strike* (DC 21), mind fog (DC 22) 
-  4th-charm monster (DC 21), confusion (DC 21), dimension door, poison (DC 20) 
-  3rd-blink, dispel magic, extended false life, lightning bolt (DC 19),
-  suggestion (DC 20)  2nd-cure moderate wounds, hold person (DC 19),
-  invisibility, extended mage armor, vomit swarm*, web (DC 18)  1st-burning
-  hands (DC 17), charm person (DC 18), command (DC 18), ill omen*, ray of
-  enfeeblement (DC 17), unseen servant  0 (at will)-daze (DC 17), detect magic,
-  message, read magic
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 12th; concentration +18)  6th-cloak of dreams* (DC
+    23), mass suggestion (DC 23), unwilling shield* (DC 22)  5th-baleful
+    polymorph (DC 21), cure critical wounds, mass pain strike* (DC 21), mind fog
+    (DC 22)  4th-charm monster (DC 21), confusion (DC 21), dimension door,
+    poison (DC 20)  3rd-blink, dispel magic, extended false life, lightning bolt
+    (DC 19), suggestion (DC 20)  2nd-cure moderate wounds, hold person (DC 19),
+    invisibility, extended mage armor, vomit swarm*, web (DC 18)  1st-burning
+    hands (DC 17), charm person (DC 18), command (DC 18), ill omen*, ray of
+    enfeeblement (DC 17), unseen servant
+  values:
+    - label: 0 (at will)
+      value: daze (DC 17), detect magic, message, read magic
 AbilityScores:
   - 8
   - 18

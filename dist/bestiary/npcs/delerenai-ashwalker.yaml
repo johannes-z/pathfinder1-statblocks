@@ -31,14 +31,18 @@ Reach: 5 ft.
 SpecialAttacks: >-
   blessings 9/day, channel positive energy 4/day (DC 19, 4d6), fervor 9/day
   (4d6), sacred weapon (+3 1d10, 12 rounds/day)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 12th; concentration +15)   4th-freedom of
-  movement, persistent vigorACG, poison (DC 17)   3rd-dispel magic, invisibility
-  purge, magic vestment, protection from energy, greater stunning barrierACG (DC
-  16)   2nd-delay poison, hold person (DC 15), instrument of agonyUC, lesser
-  restoration, shatter (DC 15), silence (DC 15)   1st-divine favor, protection
-  from law, remove fear, sanctuary (DC 14), shield of faith, sun metalUC   0 (at
-  will)-create water, detect magic, detect poison, guidance, light
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 12th; concentration +15)   4th-freedom of
+    movement, persistent vigorACG, poison (DC 17)   3rd-dispel magic,
+    invisibility purge, magic vestment, protection from energy, greater stunning
+    barrierACG (DC 16)   2nd-delay poison, hold person (DC 15), instrument of
+    agonyUC, lesser restoration, shatter (DC 15), silence (DC 15)   1st-divine
+    favor, protection from law, remove fear, sanctuary (DC 14), shield of faith,
+    sun metalUC
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, detect poison, guidance, light
 AbilityScores:
   - 14
   - 13

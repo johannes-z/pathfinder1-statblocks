@@ -30,15 +30,18 @@ SpecialAttacks: >-
   arcane pool (17 points, +4), counterstrike, greater spell combat, improved
   spell recall, magus arcana (arcane accuracy, hasted assault, silent magic,
   spell shield, still magic), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 16th; concentration +23)   6th-chain lightning (DC
-  24), true seeing   5th-cloudkill (DC 22), cone of cold (DC 23), interposing
-  hand, wall of force   4th-dimension door, fire shield, greater invisibility,
-  stoneskin, wall of fire   3rd-fly, haste, lightning bolt (3, DC 21), ray of
-  exhaustion (2, DC 20)   2nd-acid arrow, blur, bull's strength, flaming sphere
-  (2, DC 20) invisibility, mirror image   1st-chill touch (2, DC 18), magic
-  missile (2), shield, true strike (2)   0 (at will)-arcane mark, detect magic,
-  mage hand, ray of frost, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 16th; concentration +23)   6th-chain lightning (DC
+    24), true seeing   5th-cloudkill (DC 22), cone of cold (DC 23), interposing
+    hand, wall of force   4th-dimension door, fire shield, greater invisibility,
+    stoneskin, wall of fire   3rd-fly, haste, lightning bolt (3, DC 21), ray of
+    exhaustion (2, DC 20)   2nd-acid arrow, blur, bull's strength, flaming
+    sphere (2, DC 20) invisibility, mirror image   1st-chill touch (2, DC 18),
+    magic missile (2), shield, true strike (2)
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, mage hand, ray of frost, read magic
 AbilityScores:
   - 18
   - 12

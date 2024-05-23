@@ -25,19 +25,22 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: artificer's touch, hand of the apprentice (10/day), metamagic mastery (2/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 15th; concentration +22)  8th-mind blank 
-  7th-greater scrying (DC 24), limited wish, spell turning  6th-widened black
-  tentacles, disintegrate (DC 23), greater dispel magic, repulsion (DC 23) 
-  5th-dismissal (DC 22), feeblemind (DC 22), overland flight, teleport, wall of
-  stone  4th-extended black tentacles, confusion (DC 21), dimension door,
-  greater invisibility, phantasmal killer (DC 21) 
-  3rd-clairaudience/clairvoyance, dispel magic, halt undead (DC 20), slow (DC
-  20), extended stinking cloud, suggestion (DC 20)  2nd-detect thoughts (DC 19),
-  extended glitterdust, protection from arrows, resist energy, scorching ray,
-  whispering wind  1st-charm person (DC 18), comprehend languages, disguise
-  self, extended mage armor, magic missile, protection from evil  0 (at
-  will)-detect magic, light, message, prestidigitation
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 15th; concentration +22)  8th-mind blank 
+    7th-greater scrying (DC 24), limited wish, spell turning  6th-widened black
+    tentacles, disintegrate (DC 23), greater dispel magic, repulsion (DC 23) 
+    5th-dismissal (DC 22), feeblemind (DC 22), overland flight, teleport, wall
+    of stone  4th-extended black tentacles, confusion (DC 21), dimension door,
+    greater invisibility, phantasmal killer (DC 21) 
+    3rd-clairaudience/clairvoyance, dispel magic, halt undead (DC 20), slow (DC
+    20), extended stinking cloud, suggestion (DC 20)  2nd-detect thoughts (DC
+    19), extended glitterdust, protection from arrows, resist energy, scorching
+    ray, whispering wind  1st-charm person (DC 18), comprehend languages,
+    disguise self, extended mage armor, magic missile, protection from evil
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, message, prestidigitation
 AbilityScores:
   - 8
   - 10

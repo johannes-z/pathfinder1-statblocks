@@ -26,10 +26,13 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: filth fever, hand of the apprentice (6/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 3rd; concentration +6)   2nd-acid arrow,
-  invisibility   1st-comprehend languages, magic missile, shield   0 (at
-  will)-detect magic, mage hand, open/close, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 3rd; concentration +6)   2nd-acid arrow,
+    invisibility   1st-comprehend languages, magic missile, shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, mage hand, open/close, read magic
 AbilityScores:
   - 10
   - 19

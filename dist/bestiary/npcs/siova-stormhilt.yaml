@@ -31,10 +31,13 @@ Reach: 5 ft.
 SpecialAttacks: >-
   arcane pool (6 points, +1), magus arcana (arcane accuracy), spell combat,
   spell recall, spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 4th; concentration +6)   2nd-scorching ray (2)  
-  1st-chill touch (DC 13), corrosive touchUM, magic missile, shocking grasp   0
-  (at will)-acid splash, daze (DC 12), detect magic, ray of frost
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 4th; concentration +6)   2nd-scorching ray (2)  
+    1st-chill touch (DC 13), corrosive touchUM, magic missile, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 12), detect magic, ray of frost
 AbilityScores:
   - 16
   - 12

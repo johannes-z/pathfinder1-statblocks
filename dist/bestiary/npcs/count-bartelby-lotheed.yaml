@@ -29,12 +29,17 @@ Reach: 5 ft.
 SpecialAttacks: >-
   arcane pool (+2, 7 points), magus arcana (empowered magic, wand wielder),
   spell combat, spell recall, spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 7th; concentration +11)   3rd-vampiric touch,
-  haste   2nd-bull's strength, frigid touchUM, invisibility, mirror image  
-  1st-burning hands (DC 16), shield, shocking grasp, true strike, unseen
-  servant   0 (at will)-acid splash, detect magic, flare (DC 15), ghost sound
-  (DC 14), ray of frost
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 7th; concentration +11)   3rd-vampiric touch,
+    haste   2nd-bull's strength, frigid touchUM, invisibility, mirror image  
+    1st-burning hands (DC 16), shield, shocking grasp, true strike, unseen
+    servant
+  values:
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, flare (DC 15), ghost sound (DC 14), ray of
+        frost
 AbilityScores:
   - 18
   - 14

@@ -26,12 +26,15 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: improved spell combat, spell combat (-2 attack, +2 concentration), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 8th; concentration +12)  3rd-arcane sight, dispel
-  magic, vampiric touch  2nd-bear's endurance, blur, elemental touchAPG (DC 14),
-  invisibility, scorching ray  1st-burning hands (DC 13), magic missile, ray of
-  enfeeblement (DC 13), shield, true strike  0 (at will)-arcane mark, detect
-  magic, light, open/close, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 8th; concentration +12)  3rd-arcane sight, dispel
+    magic, vampiric touch  2nd-bear's endurance, blur, elemental touchAPG (DC
+    14), invisibility, scorching ray  1st-burning hands (DC 13), magic missile,
+    ray of enfeeblement (DC 13), shield, true strike
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, open/close, read magic
 AbilityScores:
   - 14
   - 10

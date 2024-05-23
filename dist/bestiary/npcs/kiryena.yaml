@@ -32,10 +32,13 @@ SpellLikeAbilities:
   values:
     - label: Constant
       value: endure elements (cold only)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 2nd; concentration +5)   1st-frostbiteUM, mage
-  armor, unshakable chillUM (DC 15)   0 (at will)-daze (DC 14), detect magic,
-  message, ray of frost
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 2nd; concentration +5)   1st-frostbiteUM, mage
+    armor, unshakable chillUM (DC 15)
+  values:
+    - label: 0 (at will)
+      value: daze (DC 14), detect magic, message, ray of frost
 AbilityScores:
   - 8
   - 13

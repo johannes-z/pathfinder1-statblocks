@@ -26,10 +26,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: storm burst (1d6+1 nonlethal damage, 5/day)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 2nd; concentration +4)  1st-endure elements,
-  obscuring mistD, pass without trace, shillelagh  0 (at will)-guidance, know
-  direction, light, purify food and drink
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 2nd; concentration +4)  1st-endure elements,
+    obscuring mistD, pass without trace, shillelagh
+  values:
+    - label: 0 (at will)
+      value: guidance, know direction, light, purify food and drink
 SpellDomains: Weather
 AbilityScores:
   - 12

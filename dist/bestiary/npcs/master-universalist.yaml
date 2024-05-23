@@ -30,20 +30,23 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (12/day), metamagic mastery (7/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 20th; concentration +29)   9th-maximized
-  disintegrate (DC 25), foresight, meteor swarm (DC 28), summon monster IX, time
-  stop   8th-discern location, greater shout (DC 29), mass charm monster (DC
-  27), mind blank, moment of prescience   7th-forcecage (2, DC 28), prismatic
-  spray (2, DC 26), spell turning   6th-chain lightning (2, DC 27), greater
-  dispel magic (2), true seeing   5th-baleful polymorph (DC 24), break
-  enchantment, cloudkill (DC 24), feeblemind (DC 24), teleport, wall of force  
-  4th-dimension door (2), greater invisibility, ice storm (2), stoneskin  
-  3rd-dispel magic, protection from energy, stinking cloud (DC 22), suggestion
-  (DC 22), tongues, vampiric touch   2nd-invisibility, mirror image, resist
-  energy (2), shatter, web (DC 21)   1st-charm person (2, DC 20), mage armor
-  (2), magic missile (3)   0 (at will)-detect magic, light, mage hand, read
-  magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 20th; concentration +29)   9th-maximized
+    disintegrate (DC 25), foresight, meteor swarm (DC 28), summon monster IX,
+    time stop   8th-discern location, greater shout (DC 29), mass charm monster
+    (DC 27), mind blank, moment of prescience   7th-forcecage (2, DC 28),
+    prismatic spray (2, DC 26), spell turning   6th-chain lightning (2, DC 27),
+    greater dispel magic (2), true seeing   5th-baleful polymorph (DC 24), break
+    enchantment, cloudkill (DC 24), feeblemind (DC 24), teleport, wall of
+    force   4th-dimension door (2), greater invisibility, ice storm (2),
+    stoneskin   3rd-dispel magic, protection from energy, stinking cloud (DC
+    22), suggestion (DC 22), tongues, vampiric touch   2nd-invisibility, mirror
+    image, resist energy (2), shatter, web (DC 21)   1st-charm person (2, DC
+    20), mage armor (2), magic missile (3)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, read magic
 AbilityScores:
   - 8
   - 12

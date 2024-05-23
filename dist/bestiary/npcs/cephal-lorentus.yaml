@@ -28,12 +28,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: brain consumption, command zombies, hand of the apprentice (5/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 7th; concentration +9)  4th-fire shield 
-  3rd-fireball (DC 15), fly  2nd-acid arrow, glitterdust (DC 14), mirror image,
-  scorching ray  1st-burning hands (DC 13), mage armor, magic missile (2),
-  shield  0 (at will)-bleed (DC 12), dancing lights, message, touch of fatigue
-  (DC 12)
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 7th; concentration +9)  4th-fire shield 
+    3rd-fireball (DC 15), fly  2nd-acid arrow, glitterdust (DC 14), mirror
+    image, scorching ray  1st-burning hands (DC 13), mage armor, magic missile
+    (2), shield
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), dancing lights, message, touch of fatigue (DC 12)
 AbilityScores:
   - 14
   - 11

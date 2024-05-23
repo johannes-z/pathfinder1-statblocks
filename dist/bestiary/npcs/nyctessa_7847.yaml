@@ -38,10 +38,13 @@ SpellLikeAbilities:
         +3)
     - label: 5/day
       value: grave touch (1 round)
-SpellsPrepared: >-
-  Necromancer Spells Prepared (CL 1st; concentration +3)  1st-chill touch (DC
-  13), mage armor, magic missile  0 (at will)-bleed (DC 12), detect magic, touch
-  of fatigue (DC 12)
+SpellsPrepared:
+  header: >-
+    Necromancer Spells Prepared (CL 1st; concentration +3)  1st-chill touch (DC
+    13), mage armor, magic missile
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, touch of fatigue (DC 12)
 AbilityScores:
   - 8
   - 14

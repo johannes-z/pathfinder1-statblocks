@@ -33,12 +33,15 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: inspiring word (2 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +7)   3rd-animate dead, magic
-  vestmentD, searing light   2nd-cure moderate wounds, enthrallD (DC 14), hold
-  person (DC 14), silence (DC 14), spiritual weapon   1st-cause fear (DC 13),
-  cure light wounds, divine favorD, obscuring mist, shield of faith   0 (at
-  will)-bleed (DC 12), detect magic, guidance, light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +7)   3rd-animate dead, magic
+    vestmentD, searing light   2nd-cure moderate wounds, enthrallD (DC 14), hold
+    person (DC 14), silence (DC 14), spiritual weapon   1st-cause fear (DC 13),
+    cure light wounds, divine favorD, obscuring mist, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, guidance, light
 SpellDomains: Destruction, Nobility
 AbilityScores:
   - 16

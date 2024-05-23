@@ -34,11 +34,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: calming touch (1d6+3)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-barkskinD, goodberry,
-  lesser restoration   1st-bless water (DC 13), entangleD (DC 13), protection
-  from evil, remove fear   0 (at will)-detect magic, light, mending, purify food
-  and drink (DC 12)
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-barkskinD,
+    goodberry, lesser restoration   1st-bless water (DC 13), entangleD (DC 13),
+    protection from evil, remove fear
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, purify food and drink (DC 12)
 SpellDomains: Community (Home subdomain), Plant
 AbilityScores:
   - 12

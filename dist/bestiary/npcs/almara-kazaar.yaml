@@ -37,14 +37,17 @@ SpellLikeAbilities:
   values:
     - label: 1/day
       value: enlarge person (self only) (DC 9), invisibility (self only)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 11th; concentration +14)   4th-divine power,
-  freedom of movement   3rd-bestow curse (DC 16), blindness/deafness (DC 16),
-  cure serious wounds, dispel magic, wind wall   2nd-cure moderate wounds, hold
-  person (DC 15), shatter (DC 15), sound burst (DC 15), spiritual weapon
-  1st-bless, command (DC 14), divine favor, doom (DC 14), protection from good,
-  shield of faith   0 (at will)-create water, detect magic, detect poison,
-  guidance, resistance
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 11th; concentration +14)   4th-divine power,
+    freedom of movement   3rd-bestow curse (DC 16), blindness/deafness (DC 16),
+    cure serious wounds, dispel magic, wind wall   2nd-cure moderate wounds,
+    hold person (DC 15), shatter (DC 15), sound burst (DC 15), spiritual weapon
+    1st-bless, command (DC 14), divine favor, doom (DC 14), protection from
+    good, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, detect poison, guidance, resistance
 AbilityScores:
   - 18
   - 12

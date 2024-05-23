@@ -36,9 +36,13 @@ SpellLikeAbilities:
       value: >-
         dancing lights, ghost sound (DC 13), prestidigitation, speak with
         animals
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 1st; concentration +4)   1st-entangle (DC 14),
-  goodberry   0 (at will)-detect magic, know direction, resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 1st; concentration +4)   1st-entangle (DC 14),
+    goodberry
+  values:
+    - label: 0 (at will)
+      value: detect magic, know direction, resistance
 AbilityScores:
   - 6
   - 12

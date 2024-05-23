@@ -31,15 +31,18 @@ Ranged:
 Space: 10 ft.
 Reach: 10 ft.
 SpecialAttacks: rock throwing (120 ft.), snowcaster, wild shape 3/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 10th; concentration +16)   5th-animal growth (DC
-  21), cure critical wounds, transmute rock to mud (DC 21)   4th-cure serious
-  wounds, flame strike (DC 21), ice storm, spike stones (DC 20)   3rd-call
-  lightning (DC 20), dominate animal (DC 19), protection from energy, sleet
-  storm   2nd-animal trance (DC 18), barkskin, bull's strength, chill metal,
-  delay poison, hold animal (DC 18)   1st-charm animal (DC 17), entangle (DC
-  17), frostbiteUM, obscuring mist, speak with animals (2)   0 (at will)-create
-  water, detect magic, light, purify food and drink
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 10th; concentration +16)   5th-animal growth (DC
+    21), cure critical wounds, transmute rock to mud (DC 21)   4th-cure serious
+    wounds, flame strike (DC 21), ice storm, spike stones (DC 20)   3rd-call
+    lightning (DC 20), dominate animal (DC 19), protection from energy, sleet
+    storm   2nd-animal trance (DC 18), barkskin, bull's strength, chill metal,
+    delay poison, hold animal (DC 18)   1st-charm animal (DC 17), entangle (DC
+    17), frostbiteUM, obscuring mist, speak with animals (2)
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, light, purify food and drink
 AbilityScores:
   - 28
   - 10

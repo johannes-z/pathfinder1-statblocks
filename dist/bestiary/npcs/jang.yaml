@@ -29,13 +29,16 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 4/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 8th; concentration +11)   4th-flame strike (DC 17),
-  freedom of movement   3rd-aqueous orbAPG, call lightning (DC 16), dominate
-  animal (DC 16), greater magic fang   2nd-barkskin, bear's endurance, bull's
-  strength, hold animal (DC 15)   1st-cure light wounds, entangle (DC 14),
-  faerie fire, hydraulic pushAPG, speak with animals   0 (at will)-create water,
-  detect magic, detect poison, mending
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 8th; concentration +11)   4th-flame strike (DC
+    17), freedom of movement   3rd-aqueous orbAPG, call lightning (DC 16),
+    dominate animal (DC 16), greater magic fang   2nd-barkskin, bear's
+    endurance, bull's strength, hold animal (DC 15)   1st-cure light wounds,
+    entangle (DC 14), faerie fire, hydraulic pushAPG, speak with animals
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, detect poison, mending
 AbilityScores:
   - 16
   - 16

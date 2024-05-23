@@ -33,15 +33,19 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: bleeding touch (5 rounds), icicle (1d6+5 cold damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +14) 5th-flame strike (DC 19),
-  insect plagueD, slay living (DC 19) 4th-control waterD, cure critical wounds,
-  freedom of movement, greater magic weapon, summon monster IV 3rd-bestow curse
-  (DC 17), cure serious wounds, dispel magic, magic vestment, water breathingD
-  2nd-cure moderate wounds (2), death knellD (DC 16), hold person (DC 16),
-  resist energy, sound burst (DC 16) 1st-bane (DC 15), cure light wounds, divine
-  favor, endure elements, obscuring mistD, shield of faith 0 (at will)-create
-  water, detect poison, mending, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +14) 5th-flame strike (DC
+    19), insect plagueD, slay living (DC 19) 4th-control waterD, cure critical
+    wounds, freedom of movement, greater magic weapon, summon monster IV
+    3rd-bestow curse (DC 17), cure serious wounds, dispel magic, magic vestment,
+    water breathingD 2nd-cure moderate wounds (2), death knellD (DC 16), hold
+    person (DC 16), resist energy, sound burst (DC 16) 1st-bane (DC 15), cure
+    light wounds, divine favor, endure elements, obscuring mistD, shield of
+    faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, mending, resistance
 SpellDomains: Death, Water
 AbilityScores:
   - 12

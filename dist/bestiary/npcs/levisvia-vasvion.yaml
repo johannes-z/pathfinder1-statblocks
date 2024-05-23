@@ -31,16 +31,31 @@ SpecialAttacks: >-
   arcane reservoir (8/14), arcanist exploits (counterspell, energy shield
   [resist 20], flame arc [6d6+2 fire], greater spell resistance [SR 22], potent
   magic, spell resistance, swift consume), consume spells
-SpellsPrepared: >-
-  Arcanist Spells Prepared (CL 11th; concentration +16)   5th (4/day)-cone of
-  cold (DC 21), suffocationAPG (DC 20)   4th (5/day)-ball lightningAPG (DC 20),
-  enchantment foilACG, phantasmal killer (DC 19)   3rd (5/day)-dispel magic,
-  force punchUM (DC 19), greater stunning barrierACG (DC 18), vision of HellUM
-  (DC 18)   2nd (5/day)-detect thoughts (DC 17), frigid touchUM, glitterdust (DC
-  17), mirror image, scorching ray   1st (6/day)-charm person (DC 16),
-  ear-piercing screamUM (DC 17), mage armor, magic missile, shield   0 (at
-  will)-acid splash, detect magic, detect poison, light, mage hand, message,
-  prestidigitation, ray of frost, touch of fatigue (DC 15)
+SpellsPrepared:
+  header: Arcanist Spells Prepared (CL 11th; concentration +16)
+  values:
+    - label: 5th (4/day)
+      value: cone of cold (DC 21), suffocationAPG (DC 20)
+    - label: 4th (5/day)
+      value: >-
+        ball lightningAPG (DC 20), enchantment foilACG, phantasmal killer (DC
+        19)
+    - label: 3rd (5/day)
+      value: >-
+        dispel magic, force punchUM (DC 19), greater stunning barrierACG (DC
+        18), vision of HellUM (DC 18)
+    - label: 2nd (5/day)
+      value: >-
+        detect thoughts (DC 17), frigid touchUM, glitterdust (DC 17), mirror
+        image, scorching ray
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 16), ear-piercing screamUM (DC 17), mage armor, magic
+        missile, shield
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, detect poison, light, mage hand, message,
+        prestidigitation, ray of frost, touch of fatigue (DC 15)
 AbilityScores:
   - 8
   - 12

@@ -39,13 +39,16 @@ SpellLikeAbilities:
   values:
     - label: 1/day
       value: feather fall
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 7th; concentration +12)   4th-air walkD, dispel
-  magic   3rd-call lightning (DC 18), gaseous formD, greater magic fang, summon
-  nature's ally III   2nd-barkskin, chill metal (DC 17), owl's wisdom, summon
-  swarm, wind wallD   1st-cure light wounds (2), faerie fire, obscuring mist,
-  shillelagh, whispering windD, windy escapeARG   0 (at will)-flare (DC 15),
-  light, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 7th; concentration +12)   4th-air walkD, dispel
+    magic   3rd-call lightning (DC 18), gaseous formD, greater magic fang,
+    summon nature's ally III   2nd-barkskin, chill metal (DC 17), owl's wisdom,
+    summon swarm, wind wallD   1st-cure light wounds (2), faerie fire, obscuring
+    mist, shillelagh, whispering windD, windy escapeARG
+  values:
+    - label: 0 (at will)
+      value: flare (DC 15), light, resistance, stabilize
 SpellDomains: Air (WindAPG subdomain)
 AbilityScores:
   - 12

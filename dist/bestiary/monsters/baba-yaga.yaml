@@ -27,17 +27,21 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: decaying hex (DC 22), evil eye (DC 22), rend (2d6+7)
-SpellsPrepared: >-
-  Spells Prepared (CL 12th; melee touch +17, ranged touch +16):   6th-greater
-  dispel magic, flesh to stone (DC 22), mass suggestion (DC 22)   5th-dominate
-  person (DC 21), feeblemind (DC 21), hold monster (DC 21), summon monster V  
-  4th-enervation, ice storm, poison (DC 20), scrying (DC 20)   3rd-bestow curse
-  (DC 19), dispel magic, fly (DC 19), screech (DC 19), spit venom (DC 19)  
-  2nd-alter self, death knell (DC 18), enthrall (DC 18), hold person (DC 18),
-  touch of idiocy, web (DC 18)   1st-cause fear (DC 17), charm person (DC 17),
-  dancing lantern, mage armor (DC 17), obscuring mist, sleep (DC 17)   0 (at
-  will)-bleed (DC 16), dancing lights, putrefy food and drink (DC 16), touch of
-  fatigue (DC 16)
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 12th; melee touch +17, ranged touch +16):   6th-greater
+    dispel magic, flesh to stone (DC 22), mass suggestion (DC 22)   5th-dominate
+    person (DC 21), feeblemind (DC 21), hold monster (DC 21), summon monster V  
+    4th-enervation, ice storm, poison (DC 20), scrying (DC 20)   3rd-bestow
+    curse (DC 19), dispel magic, fly (DC 19), screech (DC 19), spit venom (DC
+    19)   2nd-alter self, death knell (DC 18), enthrall (DC 18), hold person (DC
+    18), touch of idiocy, web (DC 18)   1st-cause fear (DC 17), charm person (DC
+    17), dancing lantern, mage armor (DC 17), obscuring mist, sleep (DC 17)
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 16), dancing lights, putrefy food and drink (DC 16), touch of
+        fatigue (DC 16)
 AbilityScores:
   - 20
   - 19

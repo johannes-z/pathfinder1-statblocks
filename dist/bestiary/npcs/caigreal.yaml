@@ -34,13 +34,16 @@ SpellLikeAbilities:
         +10)
     - label: 7/day
       value: copycat (6 rounds), dazing touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +10)  3rd-bestow curse (DC 17),
-  dispel magic, invisibility purge, suggestionD (DC 17)  2nd-disfiguring touchUM
-  (DC 16), death knell (DC 16), dread boltUM (DC 16), invisibilityD,
-  undetectable alignment  1st-charm personD (DC 15), divine favor, murderous
-  commandUM (DC 15), ray of sickeningUM (DC 15), shield of faith  0 (at
-  will)-bleed (DC 14), guidance, mending, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +10)  3rd-bestow curse (DC
+    17), dispel magic, invisibility purge, suggestionD (DC 17)  2nd-disfiguring
+    touchUM (DC 16), death knell (DC 16), dread boltUM (DC 16), invisibilityD,
+    undetectable alignment  1st-charm personD (DC 15), divine favor, murderous
+    commandUM (DC 15), ray of sickeningUM (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), guidance, mending, resistance
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 24

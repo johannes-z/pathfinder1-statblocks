@@ -36,19 +36,23 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: +1 on attack rolls against goblinoid and orc humanoids
-SpellsPrepared: >-
-  Abjurer Spells Prepared (CL 16th; concentration +22)   8th-quickened charm
-  monster (DC 23), mind blank, prismatic wall   7th-banishment (DC 23),
-  quickened haste, mass hold person (DC 25), phase door   6th-globe of
-  invulnerability, greater dispel magic, greater heroism, mass bull's strength,
-  mass suggestion (DC 24)   5th-break enchantment, stilled dimension door,
-  dominate person (2, DC 23), telepathic bond, wall of stone   4th-arcane eye,
-  charm monster (DC 22), confusion (DC 22), remove curse, solid fog, stoneskin  
-  3rd-dispel magic, haste (DC 19), hold person (2, DC 21), protection from
-  energy, wind wall   2nd-acid arrow, hideous laughter (DC 20), invisibility,
-  levitate, resist energy (2), see invisibility   1st-alarm, charm person (DC
-  19), expeditious retreat, feather fall, grease, mage armor, true strike   0
-  (at will)-dancing lights, detect magic, message, resistance
+SpellsPrepared:
+  header: >-
+    Abjurer Spells Prepared (CL 16th; concentration +22)   8th-quickened charm
+    monster (DC 23), mind blank, prismatic wall   7th-banishment (DC 23),
+    quickened haste, mass hold person (DC 25), phase door   6th-globe of
+    invulnerability, greater dispel magic, greater heroism, mass bull's
+    strength, mass suggestion (DC 24)   5th-break enchantment, stilled dimension
+    door, dominate person (2, DC 23), telepathic bond, wall of stone  
+    4th-arcane eye, charm monster (DC 22), confusion (DC 22), remove curse,
+    solid fog, stoneskin   3rd-dispel magic, haste (DC 19), hold person (2, DC
+    21), protection from energy, wind wall   2nd-acid arrow, hideous laughter
+    (DC 20), invisibility, levitate, resist energy (2), see invisibility  
+    1st-alarm, charm person (DC 19), expeditious retreat, feather fall, grease,
+    mage armor, true strike
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, message, resistance
 AbilityScores:
   - 8
   - 14

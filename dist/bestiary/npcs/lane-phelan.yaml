@@ -28,11 +28,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day)
-SpellsPrepared: >-
-  Universalist Spells Prepared (CL 5th; melee touch +5, ranged touch +8) 
-  3rd-dispel magic (x2)   2nd-cat's grace (x2), mirror image   1st-mage armor
-  (x2), protection from evil, ray of enfeeblement (DC 15)   0 (at will)-bleed
-  (DC 14), mage hand, message, open/close (DC 14)
+SpellsPrepared:
+  header: >-
+    Universalist Spells Prepared (CL 5th; melee touch +5, ranged touch +8) 
+    3rd-dispel magic (x2)   2nd-cat's grace (x2), mirror image   1st-mage armor
+    (x2), protection from evil, ray of enfeeblement (DC 15)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), mage hand, message, open/close (DC 14)
 AbilityScores:
   - 10
   - 17

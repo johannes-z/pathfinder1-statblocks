@@ -44,19 +44,22 @@ SpellLikeAbilities:
         concentration +14)
     - label: 1/day
       value: darkness
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 14th; concentration +22)  7th-blasphemy (DC 25),
-  disintegrateD (DC 25), mass cure serious wounds, repulsion (DC 25)  6th-blade
-  barrierD (DC 24), greater dispel magic, heal (2), word of recall (DC 24) 
-  5th-quickened divine favor, flame strike (DC 23), insect plague, shoutD (DC
-  23), spell resistance  4th-air walk, divine powerD, cure critical wounds,
-  dimensional anchor, poison (DC 22), sending, unholy blight (DC 22) 
-  3rd-blindness/deafness (DC 21), cure serious wounds, dispel magic,
-  invisibility purge, magic vestment, protection from energy, searing light 
-  2nd-bear's endurance, cure moderate wounds (3), hold person (DC 20), resist
-  energy, spiritual weaponD  1st-command (DC 19), cure light wounds (3),
-  sanctuary (DC 19), shield of faith, true strikeD  0 (at will)-bleed (DC 18),
-  detect magic, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 14th; concentration +22)  7th-blasphemy (DC 25),
+    disintegrateD (DC 25), mass cure serious wounds, repulsion (DC 25) 
+    6th-blade barrierD (DC 24), greater dispel magic, heal (2), word of recall
+    (DC 24)  5th-quickened divine favor, flame strike (DC 23), insect plague,
+    shoutD (DC 23), spell resistance  4th-air walk, divine powerD, cure critical
+    wounds, dimensional anchor, poison (DC 22), sending, unholy blight (DC 22) 
+    3rd-blindness/deafness (DC 21), cure serious wounds, dispel magic,
+    invisibility purge, magic vestment, protection from energy, searing light 
+    2nd-bear's endurance, cure moderate wounds (3), hold person (DC 20), resist
+    energy, spiritual weaponD  1st-command (DC 19), cure light wounds (3),
+    sanctuary (DC 19), shield of faith, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 18), detect magic, mending, stabilize
 SpellDomains: Destruction, War
 AbilityScores:
   - 8

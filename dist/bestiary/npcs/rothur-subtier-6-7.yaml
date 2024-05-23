@@ -32,12 +32,17 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (bouda's eyeMC, cackle, evil eye [-2, 1 round, DC 14], misfortune [1
   round, DC 14])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 6th; concentration +7)   3rd-bestow curse (DC 14),
-  lightning bolt (DC 14)   2nd-mirror image, see invisibility, touch of idiocy  
-  1st-cure light wounds, ill omenAPG, inflict light wounds (DC 12), mage armor  
-  0 (at will)-bleed (DC 11), detect magic, putrefy food and drinkAPG, touch of
-  fatigue (DC 11)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 6th; concentration +7)   3rd-bestow curse (DC 14),
+    lightning bolt (DC 14)   2nd-mirror image, see invisibility, touch of
+    idiocy   1st-cure light wounds, ill omenAPG, inflict light wounds (DC 12),
+    mage armor
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 11), detect magic, putrefy food and drinkAPG, touch of fatigue
+        (DC 11)
 AbilityScores:
   - 13
   - 10

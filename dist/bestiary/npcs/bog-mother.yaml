@@ -26,10 +26,13 @@ Melee:
   - club +1 (1d4-1)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 2nd; concentration +4)  1st-cure light wounds,
-  entangle (DC 13), shillelagh  0 (at will)-create water, detect poison, flare
-  (DC 12), guidance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 2nd; concentration +4)  1st-cure light wounds,
+    entangle (DC 13), shillelagh
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, flare (DC 12), guidance
 AbilityScores:
   - 9
   - 16

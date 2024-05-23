@@ -32,17 +32,21 @@ SpellLikeAbilities:
   values:
     - label: At Will
       value: feather fall (self only), fly (self only), levitate (self only)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 13th; concentration +17)   7th-control weather,
-  forcecage (DC 22)   6th-chain lightning (DC 21), greater heroism, sirocco* (DC
-  21)   5th-cone of cold (DC 20), mage's private sanctum, suffocation* (DC 19),
-  teleport   4th-ball lightning* (DC 19), bestow curse (DC 18), detonate* (DC
-  19), dragon's breath* (DC 19), greater invisibility, shout (DC 19)  
-  3rd-dispel magic, displacement, haste, lightning bolt (DC 18), protection from
-  energy, slow (DC 17)   2nd-fox's cunning, gust of wind (DC 17), protection
-  from arrows, scorching ray, see invisibility, summon swarm   1st-disguise
-  self, mage armor, magic missile, shield, shocking grasp, true strike   0 (at
-  will)-detect magic, message, prestidigitation, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 13th; concentration +17)   7th-control weather,
+    forcecage (DC 22)   6th-chain lightning (DC 21), greater heroism, sirocco*
+    (DC 21)   5th-cone of cold (DC 20), mage's private sanctum, suffocation* (DC
+    19), teleport   4th-ball lightning* (DC 19), bestow curse (DC 18), detonate*
+    (DC 19), dragon's breath* (DC 19), greater invisibility, shout (DC 19)  
+    3rd-dispel magic, displacement, haste, lightning bolt (DC 18), protection
+    from energy, slow (DC 17)   2nd-fox's cunning, gust of wind (DC 17),
+    protection from arrows, scorching ray, see invisibility, summon swarm  
+    1st-disguise self, mage armor, magic missile, shield, shocking grasp, true
+    strike
+  values:
+    - label: 0 (at will)
+      value: detect magic, message, prestidigitation, read magic, resistance
 AbilityScores:
   - 14
   - 14

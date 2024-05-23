@@ -36,15 +36,18 @@ SpellLikeAbilities:
       value: levitate (self only)
     - label: 1/week
       value: commune with familiar
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 11th; concentration +15)   6th-flesh to stone (DC
-  20)   5th-feeblemind (DC 19), teleport   4th-charm monster (DC 18), cure
-  serious wounds, dimension door, phantasmal killer (DC 18)   3rd-bestow curse
-  (DC 17), dispel magic, lightning bolt (DC 17), speak with dead (DC 17),
-  vampiric touch   2nd-cure moderate wounds, false life, hold person (DC 16),
-  rope trick, status   1st-charm person (DC 15), cure light wounds (2), mage
-  armor, unseen servant   0 (at will)-arcane mark, detect magic, light, touch of
-  fatigue (DC 14)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 11th; concentration +15)   6th-flesh to stone (DC
+    20)   5th-feeblemind (DC 19), teleport   4th-charm monster (DC 18), cure
+    serious wounds, dimension door, phantasmal killer (DC 18)   3rd-bestow curse
+    (DC 17), dispel magic, lightning bolt (DC 17), speak with dead (DC 17),
+    vampiric touch   2nd-cure moderate wounds, false life, hold person (DC 16),
+    rope trick, status   1st-charm person (DC 15), cure light wounds (2), mage
+    armor, unseen servant
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, touch of fatigue (DC 14)
 AbilityScores:
   - 8
   - 14

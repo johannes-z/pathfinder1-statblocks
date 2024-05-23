@@ -28,12 +28,15 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (cackle, child-scentUM, evil eye [-2, 7 rounds], misfortune [1 round],
   slumber [6 rounds])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 6th; concentration +10)   3rd-bestow curse (DC 17),
-  blink, vampiric touch   2nd-blindness/deafness (DC 16), false life, hold
-  person (DC 16), scare (DC 16)   1st-burning hands (DC 15), command (DC 15),
-  mage armor, ray of enfeeblement (DC 15)   0 (at will)-daze (DC 14), light,
-  mending, touch of fatigue (DC 14)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 6th; concentration +10)   3rd-bestow curse (DC
+    17), blink, vampiric touch   2nd-blindness/deafness (DC 16), false life,
+    hold person (DC 16), scare (DC 16)   1st-burning hands (DC 15), command (DC
+    15), mage armor, ray of enfeeblement (DC 15)
+  values:
+    - label: 0 (at will)
+      value: daze (DC 14), light, mending, touch of fatigue (DC 14)
 AbilityScores:
   - 4
   - 8

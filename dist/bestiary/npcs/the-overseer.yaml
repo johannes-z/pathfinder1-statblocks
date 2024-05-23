@@ -31,16 +31,19 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: grave touch (5 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 10th; melee touch +5, ranged touch +9)  5th-animate deadB,
-  cone of cold (DC 20), magic jar (DC 21), waves of fatigue  4th-bestow curse,
-  enervationB, fear (DC 20), ice storm (DC 19), lesser globe of invulnerability 
-  3rd-dispel magic, lightning bolt (DC 18), slow (DC 18), ray of exhaustion (DC
-  19), vampiric touchB (DC 19)  2nd-command undeadB, ghoul touch (DC 18), false
-  life, hypnotic pattern (DC 17), mirror image, spectral hand  1st-cause fearB
-  (DC 16), expeditious retreat, mage armor†, magic missile (x2), shield, ray of
-  enfeeblement  0 (at will)-daze (DC 15), detect magic, disrupt undead, read
-  magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 10th; melee touch +5, ranged touch +9)  5th-animate
+    deadB, cone of cold (DC 20), magic jar (DC 21), waves of fatigue  4th-bestow
+    curse, enervationB, fear (DC 20), ice storm (DC 19), lesser globe of
+    invulnerability  3rd-dispel magic, lightning bolt (DC 18), slow (DC 18), ray
+    of exhaustion (DC 19), vampiric touchB (DC 19)  2nd-command undeadB, ghoul
+    touch (DC 18), false life, hypnotic pattern (DC 17), mirror image, spectral
+    hand  1st-cause fearB (DC 16), expeditious retreat, mage armor†, magic
+    missile (x2), shield, ray of enfeeblement
+  values:
+    - label: 0 (at will)
+      value: daze (DC 15), detect magic, disrupt undead, read magic
 AbilityScores:
   - 11
   - 18

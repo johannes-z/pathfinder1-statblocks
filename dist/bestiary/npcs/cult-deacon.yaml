@@ -30,11 +30,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: copycat (3 rounds), touch of evil (1 round)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-cure moderate wounds,
-  graceAPG, invisibilityD   1st-disguise selfD, divine favor, entropic shield,
-  protection from good   0 (at will)-bleed (DC 12), detect magic, light,
-  resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-cure moderate
+    wounds, graceAPG, invisibilityD   1st-disguise selfD, divine favor, entropic
+    shield, protection from good
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, light, resistance
 SpellDomains: Evil, Trickery
 AbilityScores:
   - 13

@@ -31,12 +31,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: battle rage +3, fire bolt (1d6+3 fire)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +10)  4th-divine power, wall of
-  fireD  3rd-deeper darkness, fireballD (DC 16), summon monster III  2nd-cure
-  moderate wounds, spiritual weaponD, summon monster II  1st-burning handsD (DC
-  14), cause fear (DC 14), endure elements, shield of faith  0 (at will)-bleed,
-  create water, detect magic, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +10)  4th-divine power, wall
+    of fireD  3rd-deeper darkness, fireballD (DC 16), summon monster III 
+    2nd-cure moderate wounds, spiritual weaponD, summon monster II  1st-burning
+    handsD (DC 14), cause fear (DC 14), endure elements, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed, create water, detect magic, read magic
 SpellDomains: Fire, War
 AbilityScores:
   - 12

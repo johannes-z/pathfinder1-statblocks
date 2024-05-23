@@ -37,10 +37,13 @@ SpellLikeAbilities:
       value: detect chaos
     - label: 5/day
       value: discern lies
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +5)  1st-cure light wounds (2),
-  protection from chaosD, shield of faith  0 (at will)-create water, detect
-  magic, light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +5)  1st-cure light wounds
+    (2), protection from chaosD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, light, mending
 SpellDomains: Law, Magic
 AbilityScores:
   - 14

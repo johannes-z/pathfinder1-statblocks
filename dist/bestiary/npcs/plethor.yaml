@@ -36,19 +36,23 @@ SpellLikeAbilities:
   values:
     - label: 9/day
       value: bleeding touch
-SpellsPrepared: >-
-  Spells Prepared (CL 15th; melee touch +24, ranged touch +18)  8th-earthquakeD,
-  stormboltsAPG (DC 24)  7th-blasphemy (DC 23), destruction (DC 23),
-  disintegrateD (DC 23)  6th-banishment (DC 22), blade barrier (DC 22), greater
-  dispel magic, harmD (DC 22), summon monster VI  5th-greater command (DC 21),
-  insect plague, shoutD (DC 21), slay living (DC 21), spell resistance, summon
-  monster V  4th-death wardD, dismissal (DC 20), divine favor, order's wrath (DC
-  20), spell immunity, unholy blight (DC 20)  3rd-bestow curse (DC 19), deeper
-  darkness, dispel magic, invisibility purge, rageD, wind wall  2nd-aid, bull's
-  strength, death knell D (DC 18), desecrate, resist energy, shatter (DC 18),
-  sound burst (DC 18)  1st-bless, deathwatch, divine favor, doom (DC 17),
-  obscuring mist, sanctuary (DC 17), true strikeD  0 (at will)-detect magic,
-  guidance, light, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 15th; melee touch +24, ranged touch +18) 
+    8th-earthquakeD, stormboltsAPG (DC 24)  7th-blasphemy (DC 23), destruction
+    (DC 23), disintegrateD (DC 23)  6th-banishment (DC 22), blade barrier (DC
+    22), greater dispel magic, harmD (DC 22), summon monster VI  5th-greater
+    command (DC 21), insect plague, shoutD (DC 21), slay living (DC 21), spell
+    resistance, summon monster V  4th-death wardD, dismissal (DC 20), divine
+    favor, order's wrath (DC 20), spell immunity, unholy blight (DC 20) 
+    3rd-bestow curse (DC 19), deeper darkness, dispel magic, invisibility purge,
+    rageD, wind wall  2nd-aid, bull's strength, death knell D (DC 18),
+    desecrate, resist energy, shatter (DC 18), sound burst (DC 18)  1st-bless,
+    deathwatch, divine favor, doom (DC 17), obscuring mist, sanctuary (DC 17),
+    true strikeD
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, read magic
 SpellDomains: Destruction, Death
 AbilityScores:
   - 24

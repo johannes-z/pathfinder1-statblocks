@@ -26,10 +26,13 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: +1 on attack rolls against goblinoid and orc humanoids
-SpellsPrepared: >-
-  Adept Spells Prepared (CL 6th; concentration +9)   2nd-invisibility, mirror
-  image   1st-bless, cure light wounds, obscuring mist   0 (at will)-create
-  water, guidance, mending
+SpellsPrepared:
+  header: >-
+    Adept Spells Prepared (CL 6th; concentration +9)   2nd-invisibility, mirror
+    image   1st-bless, cure light wounds, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, mending
 AbilityScores:
   - 8
   - 10

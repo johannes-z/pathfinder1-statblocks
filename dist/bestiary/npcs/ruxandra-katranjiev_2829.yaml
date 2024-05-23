@@ -32,10 +32,13 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy (1d6, DC 10, 3/day), favored enemy (humanoid [human]
   +2), favored terrain (forest +2), lycanthropic empathy
-SpellsPrepared: >-
-  Ranger Spells Prepared (CL 1st) 1st-magic fang Cleric Spells Prepared (CL 1st)
-  1st-cause fear (DC 12), disguise selfD, divine favor 0 (at will)-bleed (DC
-  11), guidance, resistance
+SpellsPrepared:
+  header: >-
+    Ranger Spells Prepared (CL 1st) 1st-magic fang Cleric Spells Prepared (CL
+    1st) 1st-cause fear (DC 12), disguise selfD, divine favor
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 11), guidance, resistance
 SpellDomains: Animal, Trickery
 AbilityScores:
   - 17

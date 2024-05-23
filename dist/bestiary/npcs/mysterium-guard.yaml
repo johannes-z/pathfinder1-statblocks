@@ -27,11 +27,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   arcane pool (5 points, +2), magus arcana (empowered magic, pool strike), spell
   combat, spell recall, spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 7th; concentration +9)   3rd-haste   2nd-bull's
-  strength, elemental touchAPG, mirror image, scorching ray   1st-burning hands
-  (DC 13), magic missile, shield, shocking grasp (2)   0 (at will)-acid splash,
-  detect magic, disrupt undead, prestidigitation, ray of frost
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 7th; concentration +9)   3rd-haste   2nd-bull's
+    strength, elemental touchAPG, mirror image, scorching ray   1st-burning
+    hands (DC 13), magic missile, shield, shocking grasp (2)
+  values:
+    - label: 0 (at will)
+      value: >-
+        acid splash, detect magic, disrupt undead, prestidigitation, ray of
+        frost
 AbilityScores:
   - 16
   - 14

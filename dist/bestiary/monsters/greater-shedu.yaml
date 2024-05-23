@@ -33,15 +33,19 @@ SpellLikeAbilities:
         detect magic, detect thoughts (DC 15), invisibility (self only)
     - label: 2/day
       value: dominate person (DC 20), telekinesis (DC 20)
-SpellsPrepared: >-
-  Typical Spells Prepared (CL 10th)   5th-breath of lifeD, greater command (DC
-  20), mass cure light wounds (DC 20), righteous might  4th-divination, divine
-  power, holy smiteD (DC 19), restoration, spell immunity  3rd-create food and
-  water, cure serious woundsD (DC 18), dispel magic, prayer, protection from
-  energy  2nd-bull's strength, calm emotions (DC 17), cure moderate woundsD (DC
-  17), eagle's splendor, remove paralysis, resist energy  1st-bless, command (DC
-  16), cure light woundsD (DC 16), divine favor, endure elements, remove fear,
-  sanctuary (DC 16)  0 (at will)-light, guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Typical Spells Prepared (CL 10th)   5th-breath of lifeD, greater command (DC
+    20), mass cure light wounds (DC 20), righteous might  4th-divination, divine
+    power, holy smiteD (DC 19), restoration, spell immunity  3rd-create food and
+    water, cure serious woundsD (DC 18), dispel magic, prayer, protection from
+    energy  2nd-bull's strength, calm emotions (DC 17), cure moderate woundsD
+    (DC 17), eagle's splendor, remove paralysis, resist energy  1st-bless,
+    command (DC 16), cure light woundsD (DC 16), divine favor, endure elements,
+    remove fear, sanctuary (DC 16)
+  values:
+    - label: 0 (at will)
+      value: light, guidance, read magic, resistance
 SpellDomains: Good, Healing
 AbilityScores:
   - 24

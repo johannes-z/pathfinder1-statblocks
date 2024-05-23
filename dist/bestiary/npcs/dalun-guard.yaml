@@ -26,10 +26,13 @@ Ranged:
   - heavy crossbow +4 (1d10/19-20)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Hunter Spells Prepared (CL 2nd; concentration +4)   1st (3/day)-cure light
-  wounds, keen sensesAPG, magic fang, summon nature's ally I   0 (at
-  will)-detect magic, detect poison, guidance, light, resistance
+SpellsPrepared:
+  header: Hunter Spells Prepared (CL 2nd; concentration +4)
+  values:
+    - label: 1st (3/day)
+      value: cure light wounds, keen sensesAPG, magic fang, summon nature's ally I
+    - label: 0 (at will)
+      value: detect magic, detect poison, guidance, light, resistance
 AbilityScores:
   - 12
   - 17

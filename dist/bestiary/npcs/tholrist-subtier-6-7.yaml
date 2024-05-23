@@ -39,14 +39,18 @@ SpellLikeAbilities:
       value: fury of the Abyss
     - label: 9/day
       value: touch of evil (4 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +14)   4th-chaos hammer (DC 20),
-  dismissal (DC 20), freedom of movement, unholy blightD (DC 20)   3rd-bestow
-  curse (DC 19), blindness/deafness (DC 19), dispel magic, invisibility purge,
-  rageD   2nd-aid, align weaponD (evil only), hold person (DC 18), owl's wisdom,
-  resist energy (DC 18), silence (DC 18)   1st-cause fear (DC 17), command (DC
-  17), curse water, divine favor, doom (DC 17), protection from goodD, shield of
-  faith   0 (at will)-bleed (DC 16), detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +14)   4th-chaos hammer (DC
+    20), dismissal (DC 20), freedom of movement, unholy blightD (DC 20)  
+    3rd-bestow curse (DC 19), blindness/deafness (DC 19), dispel magic,
+    invisibility purge, rageD   2nd-aid, align weaponD (evil only), hold person
+    (DC 18), owl's wisdom, resist energy (DC 18), silence (DC 18)   1st-cause
+    fear (DC 17), command (DC 17), curse water, divine favor, doom (DC 17),
+    protection from goodD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect magic, guidance, read magic
 SpellDomains: DemonAPG, Evil
 AbilityScores:
   - 22

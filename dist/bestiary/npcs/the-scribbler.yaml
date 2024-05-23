@@ -51,18 +51,22 @@ SpellLikeAbilities:
       value: master's illusion (12 rounds/day)
     - label: 11/day
       value: copycat (12 rounds), strength surge (+6)
-SpellsPrepared: >-
-  Spells Prepared (CL 12th; concentration +20)  6th-heal, quickened spiritual
-  weapon, stoneskinD, summon monster VI  5th-quickened divine favor, extended
-  greater magic weapon, righteous mightD, quickened shield of faith, spell
-  resistance  4th-confusionD (DC 22), cure critical wounds, divine power,
-  freedom of movement, extended magic vestment, poison (DC 22) 
-  3rd-blindness/deafness (DC 21), cure serious wounds (2), dispel magic,
-  nondetectionD, protection from energy, summon monster III  2nd-bear's
-  endurance, bull's strength, cure moderate wounds (2), gentle repose, hold
-  person (DC 20), invisibilityD  1st-command (DC 19), cure light wounds (2),
-  disguise selfD (DC 19), obscuring mist, protection from good, sanctuary (DC
-  19)  0 (at will)-bleed (DC 18), light, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 12th; concentration +20)  6th-heal, quickened spiritual
+    weapon, stoneskinD, summon monster VI  5th-quickened divine favor, extended
+    greater magic weapon, righteous mightD, quickened shield of faith, spell
+    resistance  4th-confusionD (DC 22), cure critical wounds, divine power,
+    freedom of movement, extended magic vestment, poison (DC 22) 
+    3rd-blindness/deafness (DC 21), cure serious wounds (2), dispel magic,
+    nondetectionD, protection from energy, summon monster III  2nd-bear's
+    endurance, bull's strength, cure moderate wounds (2), gentle repose, hold
+    person (DC 20), invisibilityD  1st-command (DC 19), cure light wounds (2),
+    disguise selfD (DC 19), obscuring mist, protection from good, sanctuary (DC
+    19)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 18), light, guidance, read magic
 SpellDomains: Strength, Trickery
 AbilityScores:
   - 18

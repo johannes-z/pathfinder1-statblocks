@@ -37,16 +37,19 @@ SpellLikeAbilities:
       value: invisibility field (11 rounds/day)
     - label: 7/day
       value: blinding ray
-SpellsPrepared: >-
-  Illusionist Spells Prepared (CL 11th; concentration +15)  6th-quickened mirror
-  image, summon monster VI  5th-persistent image (DC 19), quickened shield,
-  summon monster V  4th-dimension door, greater invisibility, phantasmal killer
-  (DC 18), summon monster IV (2)  3rd-dispel magic, fly, lightning bolt (DC 17),
-  major image (DC 17) (2), summon monster III  2nd-acid arrow, bear's endurance,
-  blur, glitterdust (DC 16), invisibility, minor image (DC 16)  1st-disguise
-  self (DC 15), floating disc, mage armor, magic missile (2), silent image (DC
-  15)  0 (at will)-ghost sound (DC 14), mage hand, mending, open/ close,
-  prestidigitation
+SpellsPrepared:
+  header: >-
+    Illusionist Spells Prepared (CL 11th; concentration +15)  6th-quickened
+    mirror image, summon monster VI  5th-persistent image (DC 19), quickened
+    shield, summon monster V  4th-dimension door, greater invisibility,
+    phantasmal killer (DC 18), summon monster IV (2)  3rd-dispel magic, fly,
+    lightning bolt (DC 17), major image (DC 17) (2), summon monster III 
+    2nd-acid arrow, bear's endurance, blur, glitterdust (DC 16), invisibility,
+    minor image (DC 16)  1st-disguise self (DC 15), floating disc, mage armor,
+    magic missile (2), silent image (DC 15)
+  values:
+    - label: 0 (at will)
+      value: ghost sound (DC 14), mage hand, mending, open/ close, prestidigitation
 AbilityScores:
   - 10
   - 16

@@ -33,22 +33,25 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel negative energy 6/day (DC 21, 9d6)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 17th; concentration +25)   9th-meteor swarmD (DC
-  27), miracle (DC 27)   8th-demandD (DC 26), fire storm (DC 26), quickened
-  freedom of movement, greater spell immunity   7th-quickened cure serious
-  wounds (2), destruction (DC 25), quickened irradiateTG (DC 21), sunbeamD (DC
-  25)   6th-blade barrier (2, DC 24), quickened hold person (DC 20), heal,
-  planar bindingD (DC 24), quickened silence (DC 20)   5th-quickened cure light
-  wounds, flame strike (DC 23), greater commandD (DC 23), quickened shield of
-  faith, spell resistance, wall of stone (DC 23),   4th-cure critical wounds
-  (2), death ward, discern liesD (DC 22), greater magic weapon, spell immunity,
-  unholy blight (DC 22)   3rd-cure serious wounds (2), dischargeTG, dispel
-  magic, invisibility purge, magic vestmentD, protection from energy   2nd-cure
-  moderate wounds (3), hold person (DC 20), hypnotic patternD (DC 20), make
-  whole, spiritual weapon   1st-command (DC 19), cure light wounds (4), divine
-  favorD, sanctuary (DC 19)   0 (at will)-create water, guidance, mending,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 17th; concentration +25)   9th-meteor swarmD (DC
+    27), miracle (DC 27)   8th-demandD (DC 26), fire storm (DC 26), quickened
+    freedom of movement, greater spell immunity   7th-quickened cure serious
+    wounds (2), destruction (DC 25), quickened irradiateTG (DC 21), sunbeamD (DC
+    25)   6th-blade barrier (2, DC 24), quickened hold person (DC 20), heal,
+    planar bindingD (DC 24), quickened silence (DC 20)   5th-quickened cure
+    light wounds, flame strike (DC 23), greater commandD (DC 23), quickened
+    shield of faith, spell resistance, wall of stone (DC 23),   4th-cure
+    critical wounds (2), death ward, discern liesD (DC 22), greater magic
+    weapon, spell immunity, unholy blight (DC 22)   3rd-cure serious wounds (2),
+    dischargeTG, dispel magic, invisibility purge, magic vestmentD, protection
+    from energy   2nd-cure moderate wounds (3), hold person (DC 20), hypnotic
+    patternD (DC 20), make whole, spiritual weapon   1st-command (DC 19), cure
+    light wounds (4), divine favorD, sanctuary (DC 19)
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, mending, stabilize
 SpellDomains: Nobility, Stars
 AbilityScores:
   - 24

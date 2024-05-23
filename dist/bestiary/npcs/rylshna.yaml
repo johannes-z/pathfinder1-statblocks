@@ -29,11 +29,15 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: coven spells, hex (evil eye, DC 17)
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; ranged touch +9)  3rd-fly, stinking cloud (DC 18) 
-  2nd-blindness/deafness (DC 17), detect thoughts (DC 17), web (DC 17) 
-  1st-charm person (DC 16), identify, mage armor, ray of enfeeblement (DC 16)
-  (x2)  0 (at will)-dancing lights, detect magic, guidance, mending
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; ranged touch +9)  3rd-fly, stinking cloud (DC 18) 
+    2nd-blindness/deafness (DC 17), detect thoughts (DC 17), web (DC 17) 
+    1st-charm person (DC 16), identify, mage armor, ray of enfeeblement (DC 16)
+    (x2)
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, guidance, mending
 AbilityScores:
   - 19
   - 16

@@ -27,10 +27,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (5/day), sneak attack +1d6
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 2nd; concentration +4)   1st-burning hands (DC 13),
-  disguise self, shocking grasp   0 (at will)-acid splash, detect magic,
-  message, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 2nd; concentration +4)   1st-burning hands (DC
+    13), disguise self, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, message, read magic
 AbilityScores:
   - 10
   - 15

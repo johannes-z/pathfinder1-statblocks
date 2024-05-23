@@ -36,14 +36,18 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: touch of evil
-SpellsPrepared: >-
-  Spells Prepared (CL 8th; melee touch +6, ranged touch +7)  4th-divine power,
-  poison (DC 19), summon monster IV, unholy blightD (DC 18)  3rd-bestow curse
-  (DC 18), blindness/deafness (DC 18), cure serious wounds, dispel magic, magic
-  circle against goodD  2nd-bull's strength, cure moderate wounds, hold person
-  (DC 16), shatterD (DC 16), sound burst (DC 16)  1st-bane (DC 15), cause fear
-  (DC 16), cure light wounds, doom (DC 16), entropic shield, true strikeD  0 (at
-  will)-detect magic, guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 8th; melee touch +6, ranged touch +7)  4th-divine power,
+    poison (DC 19), summon monster IV, unholy blightD (DC 18)  3rd-bestow curse
+    (DC 18), blindness/deafness (DC 18), cure serious wounds, dispel magic,
+    magic circle against goodD  2nd-bull's strength, cure moderate wounds, hold
+    person (DC 16), shatterD (DC 16), sound burst (DC 16)  1st-bane (DC 15),
+    cause fear (DC 16), cure light wounds, doom (DC 16), entropic shield, true
+    strikeD
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance
 SpellDomains: Destruction, Evil
 AbilityScores:
   - 10

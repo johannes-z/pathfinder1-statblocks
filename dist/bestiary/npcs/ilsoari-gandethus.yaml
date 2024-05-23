@@ -27,11 +27,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (6/day), sneak attack +1d6
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 4th; concentration +7)   2nd-cat's grace, detect
-  thoughts (DC 15), levitate   1st-color spray (DC 14), identify, mage armor,
-  unseen servant   0 (at will)-detect magic, daze (DC 13), light,
-  prestidigitation
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 4th; concentration +7)   2nd-cat's grace, detect
+    thoughts (DC 15), levitate   1st-color spray (DC 14), identify, mage armor,
+    unseen servant
+  values:
+    - label: 0 (at will)
+      value: detect magic, daze (DC 13), light, prestidigitation
 AbilityScores:
   - 6
   - 11

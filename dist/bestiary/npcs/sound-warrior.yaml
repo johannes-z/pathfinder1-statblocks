@@ -53,13 +53,16 @@ SpellsKnown:
       value: >-
         ghost sound (DC 15), know direction, light, mage hand, message,
         resistance
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 8th; concentration +10)   4th-air walkD, cure
-  serious wounds, freedom of movement   3rd-call lightning (DC 15), cure
-  moderate wounds, gaseous formD, neutralize poison   2nd-barkskin, cat's grace,
-  delay poison, lesser restoration, wind wallD   1st-cure light wounds, faerie
-  fire, goodberry, longstrider, obscuring mistD, pass without trace   0 (at
-  will)-create water, detect poison, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 8th; concentration +10)   4th-air walkD, cure
+    serious wounds, freedom of movement   3rd-call lightning (DC 15), cure
+    moderate wounds, gaseous formD, neutralize poison   2nd-barkskin, cat's
+    grace, delay poison, lesser restoration, wind wallD   1st-cure light wounds,
+    faerie fire, goodberry, longstrider, obscuring mistD, pass without trace
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, mending, stabilize
 SpellDomains: Air
 AbilityScores:
   - 10

@@ -35,15 +35,18 @@ SpellLikeAbilities:
       value: charm person, dancing lights, ghost sound, sleep, suggestion
     - label: 1/day
       value: fear (DC 19), summon nature's ally III
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 11th; concentration +16)   6th-greater dispel
-  magic   5th-animal growth, baleful polymorph (DC 20), wall of thorns  
-  4th-arboreal hammerUM, atavismUM (DC 19), dispel magic, flame strike (DC 19)  
-  3rd-cure moderate wounds, greater magic fang, protection from energy, remove
-  disease, speak with plants   2nd-barkskin, gust of wind (DC 17), lesser
-  restoration, tree shape, warp wood   1st-charm animal (DC 16), cure light
-  wounds, endure elements, faerie fire, frostbiteUM, goodberry   0 (at
-  will)-create water, detect poison, know direction, purify food and drink
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 11th; concentration +16)   6th-greater dispel
+    magic   5th-animal growth, baleful polymorph (DC 20), wall of thorns  
+    4th-arboreal hammerUM, atavismUM (DC 19), dispel magic, flame strike (DC
+    19)   3rd-cure moderate wounds, greater magic fang, protection from energy,
+    remove disease, speak with plants   2nd-barkskin, gust of wind (DC 17),
+    lesser restoration, tree shape, warp wood   1st-charm animal (DC 16), cure
+    light wounds, endure elements, faerie fire, frostbiteUM, goodberry
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, know direction, purify food and drink
 AbilityScores:
   - 18
   - 15

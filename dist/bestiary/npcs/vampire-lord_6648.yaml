@@ -38,14 +38,19 @@ SpecialAttacks: >-
   blood drain, children of the night, create spawn, dominate (DC 22), energy
   drain (2 levels, DC 22), greater spell combat, improved spell combat, spell
   combat (-2 attack, +2 concentration, double bonus), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 14th; concentration +18)   5th-baleful polymorph (DC
-  19), monstrous physique IIIUM   4th-fire shield, greater invisibility, ice
-  storm, shout (DC 18), stoneskin   3rd-cloak of windsAPG, dispel magic,
-  fireball (DC 17), haste, slow (DC 17)   2nd-darkness, frigid touchUM, mirror
-  image, scorching ray (2), web (DC 16)   1st-expeditious retreat, frostbiteUM,
-  shield, shocking grasp (2), true strike   0 (at will)-arcane mark, dancing
-  lights, detect magic, ghost sound (DC 14), ray of frost
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 14th; concentration +18)   5th-baleful polymorph
+    (DC 19), monstrous physique IIIUM   4th-fire shield, greater invisibility,
+    ice storm, shout (DC 18), stoneskin   3rd-cloak of windsAPG, dispel magic,
+    fireball (DC 17), haste, slow (DC 17)   2nd-darkness, frigid touchUM, mirror
+    image, scorching ray (2), web (DC 16)   1st-expeditious retreat,
+    frostbiteUM, shield, shocking grasp (2), true strike
+  values:
+    - label: 0 (at will)
+      value: >-
+        arcane mark, dancing lights, detect magic, ghost sound (DC 14), ray of
+        frost
 AbilityScores:
   - 26
   - 14

@@ -26,11 +26,14 @@ Ranged:
   - sling +6 (1d3-2)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Adept Spells Prepared (CL 9th; concentration +11)   3rd-remove disease  
-  2nd-cure moderate wounds, delay poison, web (DC 14)   1st-cure light wounds
-  (2), endure elements, obscuring mist   0 (at will)-create water, read magic,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Adept Spells Prepared (CL 9th; concentration +11)   3rd-remove disease  
+    2nd-cure moderate wounds, delay poison, web (DC 14)   1st-cure light wounds
+    (2), endure elements, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: create water, read magic, stabilize
 AbilityScores:
   - 6
   - 13

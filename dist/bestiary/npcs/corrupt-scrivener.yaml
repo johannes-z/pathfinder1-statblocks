@@ -26,15 +26,18 @@ Melee:
   - mwk dagger +5 (1d4/19-20)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Diviner Spells Prepared (CL 9th; concentration +13)   5th-overland flight,
-  prying eyes, teleport   4th-locate creature, resilient sphere, scrying (2; DC
-  20)   3rd-blood biographyAPG (DC 19), clairaudience/clairvoyance, gaseous
-  form, hydraulic torrentAPG, nondetection   2nd-blood transcriptionUM, detect
-  thoughts (DC 18), false life, see invisibility, share languageAPG (DC 17),
-  share memoryUM (DC 18)   1st-anticipate perilUM, color spray (DC 16),
-  comprehend languages, detect secret doors, mage armor, shield   0 (at
-  will)-arcane mark, detect magic, message, read magic
+SpellsPrepared:
+  header: >-
+    Diviner Spells Prepared (CL 9th; concentration +13)   5th-overland flight,
+    prying eyes, teleport   4th-locate creature, resilient sphere, scrying (2;
+    DC 20)   3rd-blood biographyAPG (DC 19), clairaudience/clairvoyance, gaseous
+    form, hydraulic torrentAPG, nondetection   2nd-blood transcriptionUM, detect
+    thoughts (DC 18), false life, see invisibility, share languageAPG (DC 17),
+    share memoryUM (DC 18)   1st-anticipate perilUM, color spray (DC 16),
+    comprehend languages, detect secret doors, mage armor, shield
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, message, read magic
 AbilityScores:
   - 10
   - 14

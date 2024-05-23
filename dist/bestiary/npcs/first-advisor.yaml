@@ -30,16 +30,20 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (beast eyeUM, cackleAPG, evil eyeAPG, feral speechUM, flightAPG, ice
   tombUM, misfortuneAPG, scarUM, slumberAPG)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 13th; concentration +19)   7th-greater teleport  
-  6th-greater dispel magic, greater heroism, true seeing   5th-break
-  enchantment, contact other plane, feeblemind (DC 21), suffocation (DC 21)  
-  4th-charm monster (DC 20), death ward, detect scrying, discern lies (DC 20),
-  divination   3rd-bestow curse (DC 19), blood biographyAPG (DC 19),
-  clairaudience/clairvoyance, dispel magic, fly   2nd-augury, blindness/deafness
-  (DC 18), detect thoughts (DC 18), false life, share memoryUM, vomit swarmAPG  
-  1st-command (DC 17), comprehend languages, hypnotism (DC 17), ill omenAPG
-  (3)   0 (at will)-bleed (DC 14), detect magic, light, message
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 13th; concentration +19)   7th-greater teleport  
+    6th-greater dispel magic, greater heroism, true seeing   5th-break
+    enchantment, contact other plane, feeblemind (DC 21), suffocation (DC 21)  
+    4th-charm monster (DC 20), death ward, detect scrying, discern lies (DC 20),
+    divination   3rd-bestow curse (DC 19), blood biographyAPG (DC 19),
+    clairaudience/clairvoyance, dispel magic, fly   2nd-augury,
+    blindness/deafness (DC 18), detect thoughts (DC 18), false life, share
+    memoryUM, vomit swarmAPG   1st-command (DC 17), comprehend languages,
+    hypnotism (DC 17), ill omenAPG (3)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, light, message
 AbilityScores:
   - 8
   - 15

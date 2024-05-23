@@ -33,13 +33,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   bomb 9/day (3d6+4 fire and catch fire, DC 16, 10-ft. radius), hand of the
   apprentice (7/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 7th; concentration +11)   4th-lesser geas (DC 18),
-  rebuke technologyTG (DC 18)   3rd-dispel magic, irradiate (DC 17), lightning
-  bolt (DC 17), suggestion (DC 17)   2nd-glitterdust (DC 16), mirror image,
-  pyrotechnics (DC 16), scorching ray   1st-charm person (DC 15), grease (DC
-  15), mage armor, magic missile (2)   0 (at will)-arcane mark, detect magic,
-  light, mending
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 7th; concentration +11)   4th-lesser geas (DC
+    18), rebuke technologyTG (DC 18)   3rd-dispel magic, irradiate (DC 17),
+    lightning bolt (DC 17), suggestion (DC 17)   2nd-glitterdust (DC 16), mirror
+    image, pyrotechnics (DC 16), scorching ray   1st-charm person (DC 15),
+    grease (DC 15), mage armor, magic missile (2)
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, mending
 AbilityScores:
   - 9
   - 14

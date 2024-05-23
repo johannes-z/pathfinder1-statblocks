@@ -40,14 +40,18 @@ Reach: 5 ft.
 SpecialAttacks: >-
   blood drain (1d4 Con and 1d4 Wis), bomb 9/day (2d6+5 fire, DC 17), dominate
   (DC 21), hand of the apprentice (8/day), telekinesis (DC 21)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 9th; concentration +14)   5th-cone of cold (DC 20),
-  teleport   4th-crushing despair (DC 20), detonateAPG (DC 19), phantasmal
-  killer (DC 19)   3rd-deep slumber (DC 19), dispel magic, lightning bolt (DC
-  18), stinking cloud (DC 18)   2nd-invisibility, scorching ray, summon swarm,
-  touch of idiocy, web (DC 17)   1st-mage armor, magic missile, memory lapseAPG
-  (DC 17), ray of enfeeblement (DC 16), shocking grasp, silent image (DC 16)   0
-  (at will)-detect magic, ghost sound (DC 15), mage hand, message
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 9th; concentration +14)   5th-cone of cold (DC
+    20), teleport   4th-crushing despair (DC 20), detonateAPG (DC 19),
+    phantasmal killer (DC 19)   3rd-deep slumber (DC 19), dispel magic,
+    lightning bolt (DC 18), stinking cloud (DC 18)   2nd-invisibility, scorching
+    ray, summon swarm, touch of idiocy, web (DC 17)   1st-mage armor, magic
+    missile, memory lapseAPG (DC 17), ray of enfeeblement (DC 16), shocking
+    grasp, silent image (DC 16)
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 15), mage hand, message
 AbilityScores:
   - 10
   - 19

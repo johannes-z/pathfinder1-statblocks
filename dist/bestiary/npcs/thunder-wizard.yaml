@@ -34,13 +34,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: force missile (1d4+3)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 7th; concentration +10)   4th-black tentacles,
-  shout (DC 17)   3rd-lightning bolt (2, DC 16), protection from energy,
-  empowered shocking grasp   2nd-darkvision, mirror image, protection from
-  arrows, scorching ray (2)   1st-color spray (DC 14), expeditious retreat,
-  feather fall, mage armor, shocking grasp (2)   0 (at will)-dancing lights,
-  flare (DC 13), mage hand, mending
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 7th; concentration +10)   4th-black tentacles,
+    shout (DC 17)   3rd-lightning bolt (2, DC 16), protection from energy,
+    empowered shocking grasp   2nd-darkvision, mirror image, protection from
+    arrows, scorching ray (2)   1st-color spray (DC 14), expeditious retreat,
+    feather fall, mage armor, shocking grasp (2)
+  values:
+    - label: 0 (at will)
+      value: dancing lights, flare (DC 13), mage hand, mending
 AbilityScores:
   - 6
   - 16

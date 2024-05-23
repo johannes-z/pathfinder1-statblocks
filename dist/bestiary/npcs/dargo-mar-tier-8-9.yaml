@@ -24,13 +24,17 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel negative energy (5d6, DC 18, 4/day), bleeding touch (5 rounds, 6/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th)  5th-flame strike (DC 17), slay livingD (DC
-  17)  4th-confusionD (DC 16), unholy blight (2, DC 16)  3rd-animate deadD, cure
-  serious wounds, dispel magic  2nd- command undead (already cast),
-  invisibilityD, silence, sound burst (DC 15)  1st-bane (DC 14), cause fearD (DC
-  14), doom (DC 14), hide from undead (already cast), protection from good (DC
-  14)  0 (at will)-bleed (DC 13), detect magic, detect poison, light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th)  5th-flame strike (DC 17), slay livingD (DC
+    17)  4th-confusionD (DC 16), unholy blight (2, DC 16)  3rd-animate deadD,
+    cure serious wounds, dispel magic  2nd- command undead (already cast),
+    invisibilityD, silence, sound burst (DC 15)  1st-bane (DC 14), cause fearD
+    (DC 14), doom (DC 14), hide from undead (already cast), protection from good
+    (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, detect poison, light
 SpellDomains: Death, Trickery
 AbilityScores:
   - 12

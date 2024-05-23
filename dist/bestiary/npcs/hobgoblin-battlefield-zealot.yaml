@@ -32,10 +32,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: battle rage (+1), strength surge (+1)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +4)   1st-cure light wounds,
-  magic weaponD, sanctuary (DC 13), shield of faith   0 (at will)-guidance,
-  light, stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +4)   1st-cure light wounds,
+    magic weaponD, sanctuary (DC 13), shield of faith
+  values:
+    - label: 0 (at will)
+      value: guidance, light, stabilize, virtue
 SpellDomains: Strength, War
 AbilityScores:
   - 14

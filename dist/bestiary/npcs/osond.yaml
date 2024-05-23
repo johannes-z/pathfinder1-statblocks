@@ -31,14 +31,17 @@ Reach: 5 ft.
 SpecialAttacks: >-
   lightning lord (9 bolts/day), storm burst (1d6+4 nonlethal damage, 7/day),
   wild shape 9 hours/day
-SpellsPrepared: >-
-  Spells Prepared (CL 9th; concentration +13)  5th-call lightning storm (DC 19),
-  ice stormD  4th-cure serious wounds, flame strike (DC 18), freedom of
-  movement, sleet stormD  3rd-call lightningD (DC 17), remove disease (4;
-  already cast)  2nd-barkskin, bear's endurance, bull's strength, chill metal
-  (DC 16), flame blade, fog cloudD  1st-cure light wounds, entangle (DC 15),
-  goodberry, magic stone, obscuring mistD, produce flame  0 (at will)-detect
-  magic, guidance, light, stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 9th; concentration +13)  5th-call lightning storm (DC
+    19), ice stormD  4th-cure serious wounds, flame strike (DC 18), freedom of
+    movement, sleet stormD  3rd-call lightningD (DC 17), remove disease (4;
+    already cast)  2nd-barkskin, bear's endurance, bull's strength, chill metal
+    (DC 16), flame blade, fog cloudD  1st-cure light wounds, entangle (DC 15),
+    goodberry, magic stone, obscuring mistD, produce flame
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, stabilize
 SpellDomains: Weather
 AbilityScores:
   - 10

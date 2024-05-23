@@ -32,12 +32,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: battle rage (+3), bleeding touch (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +11)   3rd-animate deadD,
-  contagion (DC 18), magic circle against good, prayer   2nd-bull's strength,
-  hold person (DC 17), outbreak* (DC 17), owl's wisdom, spiritual weapon  
-  1st-bless, cure light wounds (2), divine favor, shield of faith   0 (at
-  will)-bleed (DC 15), detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +11)   3rd-animate deadD,
+    contagion (DC 18), magic circle against good, prayer   2nd-bull's strength,
+    hold person (DC 17), outbreak* (DC 17), owl's wisdom, spiritual weapon  
+    1st-bless, cure light wounds (2), divine favor, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, resistance
 SpellDomains: Death, War
 AbilityScores:
   - 20

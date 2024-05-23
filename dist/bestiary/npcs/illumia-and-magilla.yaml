@@ -38,12 +38,15 @@ SpellLikeAbilities:
       value: >-
         deep slumber (DC 18), etherealness, invisibility, magic missile, ray of
         enfeeblement (DC 16), soul bind
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 5th; concentration +11)   3rd-bestow curse (DC 19),
-  stinking cloud (DC 19)   2nd-augury, blindness/deafness (DC 18), hold person
-  (DC 18), see invisibility   1st-charm person, ear-piercing screamUM (2, DC
-  17), mage armor, obscuring mist   0 (at will)-arcane mark, dancing lights,
-  message, read magic
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 5th; concentration +11)   3rd-bestow curse (DC
+    19), stinking cloud (DC 19)   2nd-augury, blindness/deafness (DC 18), hold
+    person (DC 18), see invisibility   1st-charm person, ear-piercing screamUM
+    (2, DC 17), mage armor, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: arcane mark, dancing lights, message, read magic
 AbilityScores:
   - 24
   - 17

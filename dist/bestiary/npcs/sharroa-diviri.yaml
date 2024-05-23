@@ -33,13 +33,16 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 9th; concentration +13)  5th-dominate person (DC
-  19)  4th-dimension door, stoneskin, wall of fire  3rd-dispel magic, fireball
-  (2, DC 17), suggestion (DC 17)  2nd-detect thoughts (DC 16), glitterdust (DC
-  16), resist energy, scare (DC 16), scorching ray  1st-feather fall, magic
-  missile (2), protection from chaos, shield  0 (at will)-detect magic, light,
-  mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 9th; concentration +13)  5th-dominate person (DC
+    19)  4th-dimension door, stoneskin, wall of fire  3rd-dispel magic, fireball
+    (2, DC 17), suggestion (DC 17)  2nd-detect thoughts (DC 16), glitterdust (DC
+    16), resist energy, scare (DC 16), scorching ray  1st-feather fall, magic
+    missile (2), protection from chaos, shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, read magic
 AbilityScores:
   - 14
   - 8

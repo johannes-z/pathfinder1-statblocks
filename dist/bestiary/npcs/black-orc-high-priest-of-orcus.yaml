@@ -33,15 +33,18 @@ SpecialAttacks: >-
   channel negative energy (DC 18, 5d6) scythe of evil (5 rounds), spontaneous
   casting (inflict spells) Domain Spell-like Abilities (CL 10th): 6/day-bleeding
   touch (1d6/round, 5 rounds), touch of evil (5 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 10th):  5th-dispel good (DC 18) D , slay living (DC 18),
-  unhallow (DC 18)  4th-death ward D , divine power, lesser planar ally, spell
-  immunity  3rd-animate dead D , bestow curse (DC 16), inflict serious wounds
-  (DC 16, x2), speak with dead  2nd-align weapon, bull's strength, death knell
-  (DC 15) D , desecrate, silence (DC 15), undetectable alignment  1st-bane (DC
-  14), curse water (DC 14), doom (DC 14), protection from good D , inflict light
-  wounds (DC 14), shield of faith  0 (at will)-bleed (DC 13), create water,
-  detect magic, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 10th):  5th-dispel good (DC 18) D , slay living (DC 18),
+    unhallow (DC 18)  4th-death ward D , divine power, lesser planar ally, spell
+    immunity  3rd-animate dead D , bestow curse (DC 16), inflict serious wounds
+    (DC 16, x2), speak with dead  2nd-align weapon, bull's strength, death knell
+    (DC 15) D , desecrate, silence (DC 15), undetectable alignment  1st-bane (DC
+    14), curse water (DC 14), doom (DC 14), protection from good D , inflict
+    light wounds (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), create water, detect magic, read magic
 SpellDomains: Death, Evil
 AbilityScores:
   - 19

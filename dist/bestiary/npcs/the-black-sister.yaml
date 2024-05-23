@@ -33,14 +33,18 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: vision of madness
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +14) 5th-shoutD (DC 19), spell
-  resistance, summon monster V 4th-chaos hammer (DC 18), confusionD (DC 18),
-  cure serious wounds, greater magic weapon, unholy blight (DC 18) 3rd-bestow
-  curse (DC 17), dispel magic, magic vestment, protection from energy, rageD
-  2nd-cure moderate wounds (3), hold person (DC 16), spiritual weapon, touch of
-  idiocyD 1st-command (DC 15), cure light wounds (2), divine favor, obscuring
-  mist, true strikeD 0 (at will)-bleed (DC 14), detect poison, light, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +14) 5th-shoutD (DC 19),
+    spell resistance, summon monster V 4th-chaos hammer (DC 18), confusionD (DC
+    18), cure serious wounds, greater magic weapon, unholy blight (DC 18)
+    3rd-bestow curse (DC 17), dispel magic, magic vestment, protection from
+    energy, rageD 2nd-cure moderate wounds (3), hold person (DC 16), spiritual
+    weapon, touch of idiocyD 1st-command (DC 15), cure light wounds (2), divine
+    favor, obscuring mist, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect poison, light, resistance
 SpellDomains: Destruction, Madness
 AbilityScores:
   - 8

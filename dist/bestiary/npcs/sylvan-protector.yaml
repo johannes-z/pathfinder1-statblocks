@@ -34,10 +34,14 @@ SpellLikeAbilities:
       value: lightning arc Gnome Spell-Like Abilities (CL 3rd; concentration +5)
     - label: 1/day
       value: dancing lights, ghost sound, prestidigitation, speak with animals
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 3rd; concentration +5)  2nd-flaming sphere (DC 14),
-  summon swarm, wind wallD  1st-cure light wounds (2), obscuring mistD, speak
-  with animals  0 (at will)-flare (DC 12), light, stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 3rd; concentration +5)  2nd-flaming sphere (DC
+    14), summon swarm, wind wallD  1st-cure light wounds (2), obscuring mistD,
+    speak with animals
+  values:
+    - label: 0 (at will)
+      value: flare (DC 12), light, stabilize, virtue
 SpellDomains: Air
 AbilityScores:
   - 6

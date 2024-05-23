@@ -36,19 +36,22 @@ SpecialAttacks: >-
   2/day), paralysis (1d4+1 rounds, DC 16, elves are immune to this effect),
   scythe of evil (6 rounds, 2/day) Domain Spell- Like Abilities (CL 13th;
   concentration +19) 9/day-bleeding touch (6 rounds), touch of evil (6 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 13th; concentration +19) 7th-destructionD (DC 24),
-  ethereal jaunt 6th-antilife shell, create undeadD, greater dispel magic, harm
-  (DC 23) 5th-plane shift (DC 21), righteous might, slay living (DC 22),
-  suffocation*D (DC 22), true seeing 4th-divine power, freedom of movement,
-  inflict critical wounds (DC 21), sending, spell immunity, unholy blightD (DC
-  20) 3rd-animate dead, bestow curse (DC 20), deeper darkness, dispel magic,
-  inflict serious wounds (DC 20), magic circle against goodD 2nd-bull's
-  strength, death knellD (DC 19), desecrate, eagle's splendor, inflict moderate
-  wounds (DC 19), shatter (DC 18), spiritual weapon 1st-bane (DC 17), cause
-  fearD (DC 18), deathwatch, divine favor, inflict light wounds (DC 18),
-  obscuring mist, shield of faith 0 (at will)-bleed (DC 17), detect magic,
-  guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 13th; concentration +19) 7th-destructionD (DC
+    24), ethereal jaunt 6th-antilife shell, create undeadD, greater dispel
+    magic, harm (DC 23) 5th-plane shift (DC 21), righteous might, slay living
+    (DC 22), suffocation*D (DC 22), true seeing 4th-divine power, freedom of
+    movement, inflict critical wounds (DC 21), sending, spell immunity, unholy
+    blightD (DC 20) 3rd-animate dead, bestow curse (DC 20), deeper darkness,
+    dispel magic, inflict serious wounds (DC 20), magic circle against goodD
+    2nd-bull's strength, death knellD (DC 19), desecrate, eagle's splendor,
+    inflict moderate wounds (DC 19), shatter (DC 18), spiritual weapon 1st-bane
+    (DC 17), cause fearD (DC 18), deathwatch, divine favor, inflict light wounds
+    (DC 18), obscuring mist, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, guidance, read magic
 SpellDomains: Death (Murder subdomain*), Evil
 AbilityScores:
   - 16

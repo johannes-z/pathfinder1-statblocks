@@ -49,13 +49,16 @@ SpellLikeAbilities:
         contact other plane, delayed blast fireball (DC 24), dismissal (DC 21),
         plane shift (DC 21), summon (level 4, 1d6 bearded devils or 1 bone devil
         50%), symbol of pain (DC 22)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 10th; concentration +19)  5th-hold monster (2, DC
-  24), nightmare (DC 24), telekinesis (DC 24)  4th-enervation (3), phantasmal
-  killer (2, DC 23)  3rd-dispel magic (3), displacement, slow (DC 22) 
-  2nd-darkness (3), glitterdust (DC 21), invisibility (2)  1st-mage armor, magic
-  missile (4), shield, unseen servant  0 (at will)-detect magic, mage hand,
-  message, open/close (DC 19)
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 10th; concentration +19)  5th-hold monster (2, DC
+    24), nightmare (DC 24), telekinesis (DC 24)  4th-enervation (3), phantasmal
+    killer (2, DC 23)  3rd-dispel magic (3), displacement, slow (DC 22) 
+    2nd-darkness (3), glitterdust (DC 21), invisibility (2)  1st-mage armor,
+    magic missile (4), shield, unseen servant
+  values:
+    - label: 0 (at will)
+      value: detect magic, mage hand, message, open/close (DC 19)
 AbilityScores:
   - 16
   - 30

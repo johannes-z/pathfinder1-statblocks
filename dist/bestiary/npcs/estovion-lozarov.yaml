@@ -32,13 +32,16 @@ SpellLikeAbilities:
       value: dimensional steps (210 feet/day)
     - label: 7/day
       value: acid dart (1d6+3 acid)
-SpellsPrepared: >-
-  Conjurer Spells Prepared (CL 7th; concentration +11)  4th-black tentacles,
-  charm monster (DC 18), summon monster IV  3rd-gaseous form, lightning bolt,
-  stinking cloud (DC 17), summon monster III  2nd-darkvision, detect thoughts,
-  dust of twilight* (DC 16), scorching ray, web (DC 16)  1st-expeditious
-  retreat, mage armor, magic missile (2), obscuring mist, shield  0 (at
-  will)-acid splash, detect magic, mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Conjurer Spells Prepared (CL 7th; concentration +11)  4th-black tentacles,
+    charm monster (DC 18), summon monster IV  3rd-gaseous form, lightning bolt,
+    stinking cloud (DC 17), summon monster III  2nd-darkvision, detect thoughts,
+    dust of twilight* (DC 16), scorching ray, web (DC 16)  1st-expeditious
+    retreat, mage armor, magic missile (2), obscuring mist, shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, mage hand, read magic
 AbilityScores:
   - 5
   - 16

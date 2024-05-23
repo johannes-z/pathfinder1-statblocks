@@ -33,10 +33,13 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: storm burst
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 2nd; concentration +7)   1st-faerie fire, goodberry,
-  magic fang, obscuring mistD 0 (at will)-guidance, purify food and drink,
-  stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 2nd; concentration +7)   1st-faerie fire,
+    goodberry, magic fang, obscuring mistD
+  values:
+    - label: 0 (at will)
+      value: guidance, purify food and drink, stabilize, virtue
 SpellDomains: Weather
 AbilityScores:
   - 8

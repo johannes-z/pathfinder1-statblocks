@@ -35,15 +35,18 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: grave touch (5 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 10th; concentration +15)   5th-dismissal (DC 20),
-  quickened magic missile, summon monster V, waves of fatigue   4th-detect
-  scrying, dimension door, enervation (DC 19, 2), scrying (DC 19)   3rd-dispel
-  magic, extended false life, fireball (DC 18), lightning bolt (DC 18), vampiric
-  touch (DC 18)   2nd-command undead (DC 17), extended mage armor, scorching ray
-  (3), see invisibility   1st-identify, magic missile (3), ray of enfeeblement
-  (DC 16, 2), shield   0 (at will)-acid splash, arcane mark, detect magic, read
-  magic, prestidigitation
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 10th; concentration +15)   5th-dismissal (DC 20),
+    quickened magic missile, summon monster V, waves of fatigue   4th-detect
+    scrying, dimension door, enervation (DC 19, 2), scrying (DC 19)   3rd-dispel
+    magic, extended false life, fireball (DC 18), lightning bolt (DC 18),
+    vampiric touch (DC 18)   2nd-command undead (DC 17), extended mage armor,
+    scorching ray (3), see invisibility   1st-identify, magic missile (3), ray
+    of enfeeblement (DC 16, 2), shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, arcane mark, detect magic, read magic, prestidigitation
 AbilityScores:
   - 10
   - 14

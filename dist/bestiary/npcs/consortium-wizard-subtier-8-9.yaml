@@ -25,14 +25,18 @@ Melee:
   - quarterstaff +4 (1d6)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Abjurer Spells Prepared (CL 9th; concentration +14)   5th-dismissal (DC 22),
-  feeblemind (DC 20), persistent slow (DC 18)   4th-dimension door, dimensional
-  anchor, greater invisibility, solid fog   3rd-dispel magic, displacement,
-  fireball (DC 18), fly, stinking cloud (DC 18)   2nd-arcane lock, extended mage
-  armor, flaming sphere, glitterdust (DC 17), mirror image, resist energy  
-  1st-alarm, expeditious retreat, grease, hold portal, magic missile (2),
-  shield   0 (at will)-detect magic, read magic
+SpellsPrepared:
+  header: >-
+    Abjurer Spells Prepared (CL 9th; concentration +14)   5th-dismissal (DC 22),
+    feeblemind (DC 20), persistent slow (DC 18)   4th-dimension door,
+    dimensional anchor, greater invisibility, solid fog   3rd-dispel magic,
+    displacement, fireball (DC 18), fly, stinking cloud (DC 18)   2nd-arcane
+    lock, extended mage armor, flaming sphere, glitterdust (DC 17), mirror
+    image, resist energy   1st-alarm, expeditious retreat, grease, hold portal,
+    magic missile (2), shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, read magic
 AbilityScores:
   - 10
   - 13

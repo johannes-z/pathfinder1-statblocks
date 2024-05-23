@@ -32,16 +32,19 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: telekinetic fist
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 11th; concentration +16; arcane spell failure
-  10%)   6th-antimagic field, disintegrate (DC 22)   5th-passwall, prying eyes,
-  teleport, transmute rock to mud   4th-beast shape II, charm monster (DC 19),
-  dimension door, greater invisibility, illusory wall (DC 19)   3rd-blink,
-  dispel magic, fly, slow (DC 19), stinking cloud (DC 18), water breathing  
-  2nd-flaming sphere (DC 17), invisibility, knock, levitate, mirror image,
-  spider climb   1st-comprehend languages, detect secret doors, expeditious
-  retreat, feather fall, obscuring mist, shield, sleep (DC 16)  0 (at
-  will)-detect magic, ghost sound, mage hand, open/close
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 11th; concentration +16; arcane spell failure
+    10%)   6th-antimagic field, disintegrate (DC 22)   5th-passwall, prying
+    eyes, teleport, transmute rock to mud   4th-beast shape II, charm monster
+    (DC 19), dimension door, greater invisibility, illusory wall (DC 19)  
+    3rd-blink, dispel magic, fly, slow (DC 19), stinking cloud (DC 18), water
+    breathing   2nd-flaming sphere (DC 17), invisibility, knock, levitate,
+    mirror image, spider climb   1st-comprehend languages, detect secret doors,
+    expeditious retreat, feather fall, obscuring mist, shield, sleep (DC 16)
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound, mage hand, open/close
 AbilityScores:
   - 9
   - 20

@@ -46,14 +46,17 @@ SpellLikeAbilities:
       value: master's illusion (9 rounds/day)
     - label: 7/day
       value: copycat (9 rounds), vision of madness
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +13)  5th-nightmareD (DC 19),
-  slay living (DC 19)  4th-air walk, confusionD (DC 18), freedom of movement,
-  spell immunity  3rd-cure serious wounds, dispel magic, magic vestment,
-  nondetectionD, speak with dead (DC 17)  2nd-cure moderate wounds (2), death
-  knell (DC 16), hold person (DC 16), invisibilityD, status  1st-command (DC
-  15), cure light wounds (3), lesser confusionD (DC 15), shield of faith  0 (at
-  will)-bleed (DC 14), detect magic, light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +13)  5th-nightmareD (DC 19),
+    slay living (DC 19)  4th-air walk, confusionD (DC 18), freedom of movement,
+    spell immunity  3rd-cure serious wounds, dispel magic, magic vestment,
+    nondetectionD, speak with dead (DC 17)  2nd-cure moderate wounds (2), death
+    knell (DC 16), hold person (DC 16), invisibilityD, status  1st-command (DC
+    15), cure light wounds (3), lesser confusionD (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, light, mending
 SpellDomains: Madness, Trickery
 AbilityScores:
   - 28

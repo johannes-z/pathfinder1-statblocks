@@ -32,16 +32,19 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: fire bolt (1d6+5 fire)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 11th; concentration +15)   6th-planar bindingD
-  (devils only) (DC 20), word of recall   5th-dispel goodD, flame strike (DC
-  19), true seeing   4th-divine power (2), unholy blight (2, DC 18), wall of
-  fireD   3rd-bestow curse (2, DC 17), deeper darkness, dispel magic, fireballD
-  (DC 17), invisibility purge   2nd-bull's strength, cure moderate wounds,
-  darkness, hold person (DC 16), produce flameD, sound burst (DC 16)  
-  1st-burning handsD (DC 15), forbid actionUM (DC 15), murderous commandUM (2,
-  DC 15), shield of faith (2)   0 (at will)-bleed (DC 14), guidance, sparkAPG
-  (DC 14), stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 11th; concentration +15)   6th-planar bindingD
+    (devils only) (DC 20), word of recall   5th-dispel goodD, flame strike (DC
+    19), true seeing   4th-divine power (2), unholy blight (2, DC 18), wall of
+    fireD   3rd-bestow curse (2, DC 17), deeper darkness, dispel magic,
+    fireballD (DC 17), invisibility purge   2nd-bull's strength, cure moderate
+    wounds, darkness, hold person (DC 16), produce flameD, sound burst (DC 16)  
+    1st-burning handsD (DC 15), forbid actionUM (DC 15), murderous commandUM (2,
+    DC 15), shield of faith (2)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), guidance, sparkAPG (DC 14), stabilize
 SpellDomains: Fire, Evil (DevilAPG subdomain)
 AbilityScores:
   - 18

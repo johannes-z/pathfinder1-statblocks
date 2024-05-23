@@ -34,10 +34,13 @@ SpellLikeAbilities:
         +6)
     - label: 3/day
       value: read magic
-SpellsPrepared: >-
-  Diviner Spells Prepared (CL 2nd; concentration +6)  1st-comprehend languages,
-  identify, mage armor, unseen servant  0 (at will)-detect magic, light, mage
-  hand, prestidigitation (DC 14)
+SpellsPrepared:
+  header: >-
+    Diviner Spells Prepared (CL 2nd; concentration +6)  1st-comprehend
+    languages, identify, mage armor, unseen servant
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, prestidigitation (DC 14)
 AbilityScores:
   - 10
   - 13

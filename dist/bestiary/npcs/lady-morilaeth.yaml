@@ -46,10 +46,14 @@ SpellLikeAbilities:
       value: shadow walk Domain Spell-Like Abilities (CL 2nd; concentration +4)
     - label: 5/day
       value: copycat (2 rounds), vision of madness (+/-1)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd, nightmare spellcasting; concentration +4)
-  1st-bane (DC 13), cause fear (DC 13), cure light wounds, disguise selfD (DC
-  13) 0 (at will)-detect magic, detect poison, stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd, nightmare spellcasting; concentration +4)
+    1st-bane (DC 13), cause fear (DC 13), cure light wounds, disguise selfD (DC
+    13)
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, stabilize, virtue
 SpellDomains: Madness, Trickery
 AbilityScores:
   - 12

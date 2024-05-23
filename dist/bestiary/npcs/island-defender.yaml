@@ -38,13 +38,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: icicle
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 7th; concentration +10)   4th-control waterD, ice
-  storm   3rd-cure moderate wounds, daylight, sleet storm, water breathingD  
-  2nd-animal messenger, barkskin, bear's endurance, fog cloudD, resist energy  
-  1st-cure light wounds, endure elements, magic fang, obscuring mistD,
-  shillelagh, speak with animals   0 (at will)-light, mending, purify food and
-  drink, read magic
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 7th; concentration +10)   4th-control waterD, ice
+    storm   3rd-cure moderate wounds, daylight, sleet storm, water breathingD  
+    2nd-animal messenger, barkskin, bear's endurance, fog cloudD, resist
+    energy   1st-cure light wounds, endure elements, magic fang, obscuring
+    mistD, shillelagh, speak with animals
+  values:
+    - label: 0 (at will)
+      value: light, mending, purify food and drink, read magic
 SpellDomains: Water
 AbilityScores:
   - 10

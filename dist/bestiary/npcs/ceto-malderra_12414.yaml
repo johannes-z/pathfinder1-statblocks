@@ -32,14 +32,17 @@ SpecialAttacks: >-
   blessings 9/day (Glory: demoralizing glory, glorious presence, War: battle
   lust, war mind), channel positive energy 4/day (DC 18, 4d6), fervor 8/day
   (4d6), sacred weapon (1d10, +3, 12 rounds/day)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 12th; concentration +14)   4th-cure critical
-  wounds, freedom of movement, order's wrath (DC 16)   3rd-daylight, dispel
-  magic, invisibility purge, searing light   2nd-bull's strength, cure moderate
-  wounds (2), hold person (DC 14), lesser restoration, resist energy  
-  1st-command (DC 13), divine favor, endure elements, entropic shield, obscuring
-  mist, shield of faith   0 (at will)-detect magic, guidance, light, mending,
-  purify food and drink
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 12th; concentration +14)   4th-cure critical
+    wounds, freedom of movement, order's wrath (DC 16)   3rd-daylight, dispel
+    magic, invisibility purge, searing light   2nd-bull's strength, cure
+    moderate wounds (2), hold person (DC 14), lesser restoration, resist
+    energy   1st-command (DC 13), divine favor, endure elements, entropic
+    shield, obscuring mist, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, mending, purify food and drink
 AbilityScores:
   - 22
   - 12

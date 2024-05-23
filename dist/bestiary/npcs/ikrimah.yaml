@@ -37,16 +37,19 @@ SpellLikeAbilities:
       value: change shape (beast shape II/elemental body I, 11 rounds/day)
     - label: 9/day
       value: telekinetic fist (1d4+5 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 11th; concentration +17) 6th-disintegrate,
-  globe of invulnerability, transformation* 5th-overland flight*, telekinesis,
-  teleport, wall of force 4th-dimension door, lesser globe of invulnerability,
-  mnemonic enhancer, resilient sphere, stoneskin* 3rd-displacement*, greater
-  magic weapon*, haste*, heroism*, protection from energy* 2nd-alter self *,
-  blur*, false life*, mirror image*, owl's wisdom*, protection from arrows*,
-  resist energy* 1st-chill touch (DC 17), expeditious retreat*, mage armor*,
-  obscuring mist, protection from good*, ray of enfeeblement, shield* 0 (at
-  will)-detect magic, light, mage hand, message
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 11th; concentration +17) 6th-disintegrate,
+    globe of invulnerability, transformation* 5th-overland flight*, telekinesis,
+    teleport, wall of force 4th-dimension door, lesser globe of invulnerability,
+    mnemonic enhancer, resilient sphere, stoneskin* 3rd-displacement*, greater
+    magic weapon*, haste*, heroism*, protection from energy* 2nd-alter self *,
+    blur*, false life*, mirror image*, owl's wisdom*, protection from arrows*,
+    resist energy* 1st-chill touch (DC 17), expeditious retreat*, mage armor*,
+    obscuring mist, protection from good*, ray of enfeeblement, shield*
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, message
 AbilityScores:
   - 19
   - 14

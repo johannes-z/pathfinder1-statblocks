@@ -28,10 +28,13 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy 5/day (DC 13, 1d6), destructive smite (+1, 6/day),
   hand of the acolyte (6/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +5)  1st-cure light wounds,
-  divine favor, shield of faith, true strikeD  0 (at will)-bleed (DC 13), detect
-  magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +5)  1st-cure light wounds,
+    divine favor, shield of faith, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, light, read magic
 SpellDomains: Destruction, Magic
 AbilityScores:
   - 10

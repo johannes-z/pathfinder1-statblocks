@@ -35,17 +35,21 @@ SpellLikeAbilities:
       value: summon swarm
     - label: 1/day
       value: summon monster VI (1 succubus, 1d3 babaus, or 1d4+1 brimoraks**)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 13th; concentration +19)  7th-chain lightning (DC
-  23)  6th-mass fester* (DC 22), slay living (DC 22), swarm skin* 
-  5th-cloudkill, feeblemind (DC 21), suffocation (DC 21), teleport  4th-black
-  tentacles, crushing despair (DC 20), phantasmal killer (DC 20), spite (already
-  cast), threefold aspect (already cast)  3rd-bestow curse (DC 19), contagion
-  (DC 19), dispel magic, screech (DC 19), vampiric touch  2nd-blindness/deafness
-  (DC 18), burning gaze (DC 18), false life, pox pustules* (DC 18), vomit swarm,
-  web  1st-burning hands (DC 17), cause fear (DC 17), harm person (DC 17), mage
-  armor (already cast), obscuring mist, ray of enfeeblement (DC 17)  0 (at
-  will)-bleed (DC 16), detect magic, putrefy food and drink, resistance
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 13th; concentration +19)  7th-chain lightning (DC
+    23)  6th-mass fester* (DC 22), slay living (DC 22), swarm skin* 
+    5th-cloudkill, feeblemind (DC 21), suffocation (DC 21), teleport  4th-black
+    tentacles, crushing despair (DC 20), phantasmal killer (DC 20), spite
+    (already cast), threefold aspect (already cast)  3rd-bestow curse (DC 19),
+    contagion (DC 19), dispel magic, screech (DC 19), vampiric touch 
+    2nd-blindness/deafness (DC 18), burning gaze (DC 18), false life, pox
+    pustules* (DC 18), vomit swarm, web  1st-burning hands (DC 17), cause fear
+    (DC 17), harm person (DC 17), mage armor (already cast), obscuring mist, ray
+    of enfeeblement (DC 17)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect magic, putrefy food and drink, resistance
 AbilityScores:
   - 8
   - 14

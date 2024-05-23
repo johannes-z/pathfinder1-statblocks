@@ -51,17 +51,20 @@ SpellLikeAbilities:
         Abilities (CL 11th; concentration +18)
     - label: 10/day
       value: spell rune (1d6+5 energy damage or spell, 11 rounds), touch of chaos
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 11th; concentration +18)  6th-animate objectsD,
-  greater dispel magic, heal  5th-dispel lawD, greater command (DC 22), major
-  curseUM (DC 22), true seeing  4th-aura of doomUM (DC 21), chaos hammerD (DC
-  21), dismissal (DC 21), divine power, freedom of movement  3rd-bestow curse
-  (DC 20), cure serious wounds, dispel magic (2), glyph of wardingD,
-  invisibility purge, speak with dead (DC 20)  2nd-align weaponD (chaos only),
-  darkness, hold person (DC 19), resist energy, shatter (DC 19), sound burst (DC
-  19), spiritual weapon  1st-deathwatch, detect law, divine favor (2), obscuring
-  mist, protection from lawD, shield of faith  0 (at will)-bleed (DC 17), detect
-  magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 11th; concentration +18)  6th-animate objectsD,
+    greater dispel magic, heal  5th-dispel lawD, greater command (DC 22), major
+    curseUM (DC 22), true seeing  4th-aura of doomUM (DC 21), chaos hammerD (DC
+    21), dismissal (DC 21), divine power, freedom of movement  3rd-bestow curse
+    (DC 20), cure serious wounds, dispel magic (2), glyph of wardingD,
+    invisibility purge, speak with dead (DC 20)  2nd-align weaponD (chaos only),
+    darkness, hold person (DC 19), resist energy, shatter (DC 19), sound burst
+    (DC 19), spiritual weapon  1st-deathwatch, detect law, divine favor (2),
+    obscuring mist, protection from lawD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, guidance, read magic
 SpellDomains: Chaos, Rune
 AbilityScores:
   - 14

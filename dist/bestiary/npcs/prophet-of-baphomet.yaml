@@ -37,16 +37,19 @@ SpellLikeAbilities:
       value: touch of evil (5 rounds)
     - label: 7/day
       value: strength surge (+5)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 11th; concentration +15)   6th-blade barrier (DC
-  21), stoneskinD   5th-flame strike (DC 20), righteous mightD, slay living (DC
-  19)   4th-air walk, chaos hammer (DC 19), cure critical wounds, greater magic
-  weapon, spell immunityD   3rd-cure serious wounds, deeper darkness, dispel
-  magic, magic circle against goodD, meld into stone, mind maze* (DC 17)   2nd-
-  bull's strengthD, resist energy, shatter (DC 17), spiritual weapon, status,
-  wind wall   1st-bane (DC 15), cause fear (DC 15), cure light wounds, divine
-  favor, protection from goodD, shield of faith   0 (at will)-bleed (DC 14),
-  detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 11th; concentration +15)   6th-blade barrier (DC
+    21), stoneskinD   5th-flame strike (DC 20), righteous mightD, slay living
+    (DC 19)   4th-air walk, chaos hammer (DC 19), cure critical wounds, greater
+    magic weapon, spell immunityD   3rd-cure serious wounds, deeper darkness,
+    dispel magic, magic circle against goodD, meld into stone, mind maze* (DC
+    17)   2nd- bull's strengthD, resist energy, shatter (DC 17), spiritual
+    weapon, status, wind wall   1st-bane (DC 15), cause fear (DC 15), cure light
+    wounds, divine favor, protection from goodD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, read magic
 SpellDomains: Evil, Strength
 AbilityScores:
   - 23

@@ -44,15 +44,18 @@ SpellLikeAbilities:
       value: master's illusion (11 rounds/day)
     - label: 7/day
       value: copycat (11 rounds), touch of darkness (5 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 11th; concentration +15)  6th-harm (DC 21),
-  misleadD (DC 20)  5th-false visionD, spell resistance, true seeing 
-  4th-confusionD (DC 19), cure critical wounds (2), dismissal (DC 18), freedom
-  of movement  3rd-bestow curse (3, DC 18), blindness/deafness (2, DC 18),
-  nondetectionD  2nd-blindness/deafness (blindness only)D (DC 17), death knell
-  (DC 17), hold person (3, DC 17), resist energy  1st-command (DC 16), cure
-  light wounds (2), detect good, obscuring mistD, shield of faith  0 (at
-  will)-create water, detect magic, mending, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 11th; concentration +15)  6th-harm (DC 21),
+    misleadD (DC 20)  5th-false visionD, spell resistance, true seeing 
+    4th-confusionD (DC 19), cure critical wounds (2), dismissal (DC 18), freedom
+    of movement  3rd-bestow curse (3, DC 18), blindness/deafness (2, DC 18),
+    nondetectionD  2nd-blindness/deafness (blindness only)D (DC 17), death knell
+    (DC 17), hold person (3, DC 17), resist energy  1st-command (DC 16), cure
+    light wounds (2), detect good, obscuring mistD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, mending, read magic
 SpellDomains: Darkness, Trickery
 AbilityScores:
   - 10

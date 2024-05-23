@@ -30,13 +30,16 @@ SpellLikeAbilities:
       value: dimensional steps (240 feet/day)
     - label: 7/day
       value: acid dart (1d6+4 acid)
-SpellsPrepared: >-
-  Conjurer Spells Prepared (CL 8th; concentration +12)  4th-confusion (DC 18),
-  resilient sphere (DC 18), solid fog, summon monster IV  3rd-fireball (DC 17),
-  slow (DC 17), stinking cloud (DC 18), summon monster III, tiny hut  2nd-acid
-  arrow, glitterdust (DC 17), scorching ray (2), summon monster II  1st-grease
-  (DC 16), mage armor, magic missile (2), shield, summon monster I  0 (at
-  will)-acid splash, flare (DC 14), mage hand, message
+SpellsPrepared:
+  header: >-
+    Conjurer Spells Prepared (CL 8th; concentration +12)  4th-confusion (DC 18),
+    resilient sphere (DC 18), solid fog, summon monster IV  3rd-fireball (DC
+    17), slow (DC 17), stinking cloud (DC 18), summon monster III, tiny hut 
+    2nd-acid arrow, glitterdust (DC 17), scorching ray (2), summon monster II 
+    1st-grease (DC 16), mage armor, magic missile (2), shield, summon monster I
+  values:
+    - label: 0 (at will)
+      value: acid splash, flare (DC 14), mage hand, message
 AbilityScores:
   - 8
   - 14

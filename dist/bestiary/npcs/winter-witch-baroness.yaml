@@ -31,12 +31,15 @@ SpellLikeAbilities:
   values:
     - label: Constant
       value: endure elements (cold temperatures only)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 5th; concentration +9)   3rd-nature's exileAPG (DC
-  17), sleet storm (DC 18)   2nd-hold person (DC 16), mirror image, unshakable
-  chillUM (DC 16)   1st-chill touch (DC 15), frostbiteUM, ice spearsISM (DC 15),
-  sleep (DC 15)   0 (at will)-daze (DC 14), detect magic, ray of frost, read
-  magic
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 5th; concentration +9)   3rd-nature's exileAPG (DC
+    17), sleet storm (DC 18)   2nd-hold person (DC 16), mirror image, unshakable
+    chillUM (DC 16)   1st-chill touch (DC 15), frostbiteUM, ice spearsISM (DC
+    15), sleep (DC 15)
+  values:
+    - label: 0 (at will)
+      value: daze (DC 14), detect magic, ray of frost, read magic
 AbilityScores:
   - 8
   - 13

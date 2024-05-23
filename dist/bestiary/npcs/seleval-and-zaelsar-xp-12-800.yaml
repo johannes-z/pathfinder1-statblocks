@@ -43,14 +43,17 @@ SpellLikeAbilities:
         +15)
     - label: 10/day
       value: strength surge (+4), touch of evil (4 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 8th; concentration +15)  4th-freedom of movement, poison
-  (DC 21), sending, unholy blightD (DC 21)  3rd-blindness/deafness (DC 20), cure
-  serious wounds (2), dispel magic, magic vestmentD, stone shape  2nd-bull's
-  strengthD, cure moderate wounds (3), death knell (DC 19), hold person (DC 19) 
-  1st-command (DC 18), cure light wounds (3), divine favor, protection from
-  goodD, sanctuary (DC 18)  0 (at will)-detect magic, guidance, mending, read
-  magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 8th; concentration +15)  4th-freedom of movement, poison
+    (DC 21), sending, unholy blightD (DC 21)  3rd-blindness/deafness (DC 20),
+    cure serious wounds (2), dispel magic, magic vestmentD, stone shape 
+    2nd-bull's strengthD, cure moderate wounds (3), death knell (DC 19), hold
+    person (DC 19)  1st-command (DC 18), cure light wounds (3), divine favor,
+    protection from goodD, sanctuary (DC 18)
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, mending, read magic
 SpellDomains: Evil, Strength
 AbilityScores:
   - 18

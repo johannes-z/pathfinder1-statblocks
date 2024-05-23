@@ -44,18 +44,22 @@ SpellLikeAbilities:
         +20)
     - label: 1/day
       value: dispel magic
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 15th; concentration +20)  8th-quickened cure
-  critical wounds, earthquakeD (DC 23)  7th-blasphemyD (DC 22), quickened cure
-  serious wounds, repulsion (DC 22)  6th-blade barrier (DC 21), heal, heroes'
-  feast, stoneskinD  5th-quickened cure light wounds, flame strike (DC 20),
-  spell resistance, plane shift (DC 20), quickened shield of faith, wall of
-  stoneD  4th-air walk, cure critical wounds (2), freedom of movement, greater
-  magic weapon, spike stonesD (DC 19)  3rd-cure serious wounds (2), dispel
-  magic, magic vestment, meld into stone, rageD  2nd-cure moderate wounds (2),
-  lesser restoration, sound burst (DC 17), soften earth and stoneD, spiritual
-  weapon  1st-command (2, DC 16), cure light wounds (3), doomD (DC 16),
-  sanctuary (DC 16)  0 (at will)-bleed (DC 15), detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 15th; concentration +20)  8th-quickened cure
+    critical wounds, earthquakeD (DC 23)  7th-blasphemyD (DC 22), quickened cure
+    serious wounds, repulsion (DC 22)  6th-blade barrier (DC 21), heal, heroes'
+    feast, stoneskinD  5th-quickened cure light wounds, flame strike (DC 20),
+    spell resistance, plane shift (DC 20), quickened shield of faith, wall of
+    stoneD  4th-air walk, cure critical wounds (2), freedom of movement, greater
+    magic weapon, spike stonesD (DC 19)  3rd-cure serious wounds (2), dispel
+    magic, magic vestment, meld into stone, rageD  2nd-cure moderate wounds (2),
+    lesser restoration, sound burst (DC 17), soften earth and stoneD, spiritual
+    weapon  1st-command (2, DC 16), cure light wounds (3), doomD (DC 16),
+    sanctuary (DC 16)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, light, read magic
 SpellDomains: DemonAPG, Earth
 AbilityScores:
   - 18

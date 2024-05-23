@@ -28,9 +28,11 @@ SpecialAttacks: channel positive energy 4/day (DC 11, 1d6)
 SpellLikeAbilities:
   header: Domain Spell-Like Abilities (CL 1st)  4 rounds/day-speak with animals
   values: []
-SpellsPrepared: >-
-  Spells Prepared (CL 1st)  1st-bless, blessD, protection from evil   0 (at
-  will)-guidance, resistance, virtue
+SpellsPrepared:
+  header: Spells Prepared (CL 1st)  1st-bless, blessD, protection from evil
+  values:
+    - label: 0 (at will)
+      value: guidance, resistance, virtue
 SpellDomains: FamilyAPG
 AbilityScores:
   - 11

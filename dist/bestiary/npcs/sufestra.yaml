@@ -35,14 +35,17 @@ SpellLikeAbilities:
       value: charming smile (8 rounds, DC 14), master's illusion (8 rounds/day)
     - label: 7/day
       value: copycat (8 rounds), dazing touch
-SpellsPrepared: >-
-  Spells Prepared (CL 8th; concentration +12)   4th-confusionD (DC 18), cure
-  critical wounds, freedom of movement, sending   3rd-cure serious wounds,
-  dispel magic, protection from energy, speak with dead (DC 17), suggestionD (DC
-  17)   2nd-cure moderate wounds (2), hold person (DC 16), invisibilityD,
-  status   1st-charm personD (DC 15), command (DC 15), cure light wounds (3),
-  sanctuary (DC 15)   0 (at will)-bleed (DC 14), create water, detect magic,
-  read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 8th; concentration +12)   4th-confusionD (DC 18), cure
+    critical wounds, freedom of movement, sending   3rd-cure serious wounds,
+    dispel magic, protection from energy, speak with dead (DC 17), suggestionD
+    (DC 17)   2nd-cure moderate wounds (2), hold person (DC 16), invisibilityD,
+    status   1st-charm personD (DC 15), command (DC 15), cure light wounds (3),
+    sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), create water, detect magic, read magic
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 14

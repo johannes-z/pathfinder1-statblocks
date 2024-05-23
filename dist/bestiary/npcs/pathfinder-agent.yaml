@@ -26,10 +26,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/ day), sneak attack +1d6
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; concentration +7)  2nd-invisibility, scorching ray 
-  1st-grease (DC 15), shield, shocking grasp  0 (at will)-acid splash, detect
-  magic, light, ray of frost
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; concentration +7)  2nd-invisibility, scorching ray 
+    1st-grease (DC 15), shield, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, ray of frost
 AbilityScores:
   - 10
   - 14

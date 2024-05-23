@@ -32,19 +32,22 @@ SpellLikeAbilities:
       value: artificer's touch (1d6+7, bypasses 15 DR and hardness)
     - label: 9/day
       value: acid dart (1d6+7 acid)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 15th; concentration +21)   8th- earthquakeD, fire
-  storm (DC 24),   7th-blasphemy (DC 23), repulsion (DC 23), wall of ironD  
-  6th-animate objects, heal, major creationD, word of recall   5th-flame strike
-  (DC 21), greater command (DC 21), scrying (DC 21), slay living (DC 22), wall
-  of stoneD   4th-cure critical wounds (DC 20), dismissal (DC 20), freedom of
-  movement, sending, spike stonesD (DC 20), unholy blight (DC 20)   3rd-animate
-  dead, dispel magic, glyph of warding, meld into stone, protection from energy
-  (DC 19), stone shapeD   2nd-bull's strength, eagle's splendor, graceAPG,
-  groundswellARG, share languageAPG, wood shapeD   1st-command (DC 17), cure
-  light wounds (DC 17), divine favor, forbid actionUM (DC 17), magic stoneD,
-  shield of faith   0 (at will)-bleed (DC 17), mending, purify food and drink,
-  sparkAPG (DC 16)
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 15th; concentration +21)   8th- earthquakeD, fire
+    storm (DC 24),   7th-blasphemy (DC 23), repulsion (DC 23), wall of ironD  
+    6th-animate objects, heal, major creationD, word of recall   5th-flame
+    strike (DC 21), greater command (DC 21), scrying (DC 21), slay living (DC
+    22), wall of stoneD   4th-cure critical wounds (DC 20), dismissal (DC 20),
+    freedom of movement, sending, spike stonesD (DC 20), unholy blight (DC 20)  
+    3rd-animate dead, dispel magic, glyph of warding, meld into stone,
+    protection from energy (DC 19), stone shapeD   2nd-bull's strength, eagle's
+    splendor, graceAPG, groundswellARG, share languageAPG, wood shapeD  
+    1st-command (DC 17), cure light wounds (DC 17), divine favor, forbid
+    actionUM (DC 17), magic stoneD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), mending, purify food and drink, sparkAPG (DC 16)
 SpellDomains: Artifice, Earth
 AbilityScores:
   - 14

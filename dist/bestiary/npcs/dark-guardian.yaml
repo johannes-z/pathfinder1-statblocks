@@ -40,10 +40,13 @@ SpellLikeAbilities:
       value: touch of evil (1 round)
     - label: At will
       value: lore keeper (17)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +2) 1st-inflict light wounds (DC
-  11), protection from goodD, shield of faith 0 (at will)-bleed (DC 10), detect
-  poison, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +2) 1st-inflict light wounds
+    (DC 11), protection from goodD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 10), detect poison, guidance, resistance
 SpellDomains: Evil, Knowledge
 AbilityScores:
   - 16

@@ -32,14 +32,17 @@ SpecialAttacks: >-
   arcane pool (+4, 11 points), greater spell combat, improved spell recall,
   magus arcana (accurate strikeUC, close rangeUM, disruptiveUC, empowered
   magicUM), sneak attack +2d6, spellstrike, sprint
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 14th; concentration +18)   5th-cone of cold (DC 19),
-  telekinesis (DC 19)   4th-ball lightningAPG (DC 18), dimension door, forceful
-  strike (DC 18), greater invisibility, stoneskin   3rd-displacement, force
-  punchUM (DC 17), ray of exhaustion (DC 17), aquatic scorching ray (2)  
-  2nd-blur, darkness, frigid touchUM (2), glitterdust (DC 16), mirror image  
-  1st-chill touch (2, DC 15), shield, shocking grasp (2), true strike   0 (at
-  will)-acid splash, daze (DC 14), detect magic, mage hand, prestidigitation
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 14th; concentration +18)   5th-cone of cold (DC
+    19), telekinesis (DC 19)   4th-ball lightningAPG (DC 18), dimension door,
+    forceful strike (DC 18), greater invisibility, stoneskin   3rd-displacement,
+    force punchUM (DC 17), ray of exhaustion (DC 17), aquatic scorching ray
+    (2)   2nd-blur, darkness, frigid touchUM (2), glitterdust (DC 16), mirror
+    image   1st-chill touch (2, DC 15), shield, shocking grasp (2), true strike
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 14), detect magic, mage hand, prestidigitation
 AbilityScores:
   - 22
   - 22

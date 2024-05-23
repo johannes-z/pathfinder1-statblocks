@@ -31,12 +31,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: fire bolt (1d6+2 fire)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)   3rd-bestow curse (DC 16),
-  dispel magic, fireballD (DC 16)   2nd-cure moderate wounds, cure moderate
-  wounds, produce flameD, spiritual weapon   1st-burning handsD (DC 14), command
-  (DC 14), divine favor, protection from good, shield of faith   0 (at
-  will)-create water, detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)   3rd-bestow curse (DC
+    16), dispel magic, fireballD (DC 16)   2nd-cure moderate wounds, cure
+    moderate wounds, produce flameD, spiritual weapon   1st-burning handsD (DC
+    14), command (DC 14), divine favor, protection from good, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, resistance
 SpellDomains: Fire, Travel
 AbilityScores:
   - 12

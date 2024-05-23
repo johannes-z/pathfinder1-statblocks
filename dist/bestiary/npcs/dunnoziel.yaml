@@ -52,18 +52,21 @@ SpellLikeAbilities:
       value: >-
         fabricate, greater restoration, mass charm monster (DC 25), waves of
         exhaustion
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 16th; concentration +23)   8th-dimensional lock,
-  fire storm (DC 25)   7th-destruction (DC 24), dictum, holy word (DC 24),
-  resurrection   6th-banishment (DC 24), greater dispel magic, heal, word of
-  recall   5th-break enchantment, dispel chaos, dispel evil, plane shift (DC
-  22), righteous might   4th-dimensional anchor, dismissal (2, DC 22), freedom
-  of movement, order's wrath (DC 21)   3rd-cure serious wounds, daylight,
-  invisibility purge, prayer, protection from energy, searing light   2nd-bear's
-  endurance, bull's strength, calm emotions (DC 19), silence (DC 19), spiritual
-  weapon, status   1st-bane (DC 18), bless, command (DC 18), entropic shield,
-  remove fear, shield of faith   0 (at will)-detect magic, resistance,
-  stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 16th; concentration +23)   8th-dimensional lock,
+    fire storm (DC 25)   7th-destruction (DC 24), dictum, holy word (DC 24),
+    resurrection   6th-banishment (DC 24), greater dispel magic, heal, word of
+    recall   5th-break enchantment, dispel chaos, dispel evil, plane shift (DC
+    22), righteous might   4th-dimensional anchor, dismissal (2, DC 22), freedom
+    of movement, order's wrath (DC 21)   3rd-cure serious wounds, daylight,
+    invisibility purge, prayer, protection from energy, searing light  
+    2nd-bear's endurance, bull's strength, calm emotions (DC 19), silence (DC
+    19), spiritual weapon, status   1st-bane (DC 18), bless, command (DC 18),
+    entropic shield, remove fear, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, resistance, stabilize, virtue
 AbilityScores:
   - 27
   - 19

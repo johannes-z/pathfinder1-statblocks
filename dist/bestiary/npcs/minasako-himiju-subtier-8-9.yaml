@@ -35,15 +35,18 @@ SpecialAttacks: >-
   blood drain (1d4 Constitution), create spawn, disease, hexes (DC 19; cackle,
   charm [2 steps, 4 rounds], evil eye [-4, 7 rounds], misfortune [2 rounds],
   retribution [4 rounds], slumber [11 rounds])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 11th; concentration +15)   6th-unwilling shield* (DC
-  20)   5th-mass pain strike* (DC 19), suffocation* (DC 19)   4th-black
-  tentacles, dimension door, enervation, spite*   3rd-bestow curse (DC 17),
-  dispel magic, ray of exhaustion (DC 17), vampiric touch (x2)  
-  2nd-blindness/deafness (DC 16), false life, glitterdust (DC 16), pox pustules*
-  (DC 16), see invisibility   1st-burning hands (DC 15), mage armor, obscuring
-  mist, ray of enfeeblement (DC 15), unseen servant   0 (at will)-bleed (DC 14),
-  daze (DC 14), detect magic, touch of fatigue (DC 14)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 11th; concentration +15)   6th-unwilling shield*
+    (DC 20)   5th-mass pain strike* (DC 19), suffocation* (DC 19)   4th-black
+    tentacles, dimension door, enervation, spite*   3rd-bestow curse (DC 17),
+    dispel magic, ray of exhaustion (DC 17), vampiric touch (x2)  
+    2nd-blindness/deafness (DC 16), false life, glitterdust (DC 16), pox
+    pustules* (DC 16), see invisibility   1st-burning hands (DC 15), mage armor,
+    obscuring mist, ray of enfeeblement (DC 15), unseen servant
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), daze (DC 14), detect magic, touch of fatigue (DC 14)
 AbilityScores:
   - 18
   - 18

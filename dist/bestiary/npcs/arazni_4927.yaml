@@ -41,24 +41,27 @@ SpecialAttacks: >-
   surge), hand of the apprentice (17/day), inspire minions, marshal's order
   (advance), metamagic mastery (7/day), mythic power (18/day, surge +1d10),
   paralyzing touch (DC 30), surge of inspiration, words of valor
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 20th; concentration +34)  9th-gate, overwhelming
-  presenceUM (DC 36), power word killM (2), time stopM, wish  8th-quickened
-  charm monster, horrid wilting (2, DC 32), mass charm monster (2, DC 34),
-  prediction of failureUM (DC 32)  7th-finger of deathM (DC 32), quickened
-  invisibility sphere, mass fly, power word blind, spell turning, waves of
-  ecstasy (DC 34)  6th-antimagic fieldM, circle of death (DC 31), disintegrate
-  (DC 30), greater dispel magic, greater heroism, mass eagle's splendor, mass
-  suggestion (DC 33)  5th-dominate person (2, DC 32), feeblemind (DC 32),
-  overland flight (already cast), quickened true strike (3)  4th-detect scrying
-  (already cast), dimension door, fear (DC 29), greater invisibility, phantasmal
-  killer (2, DC 29), terrible remorse (DC 31)  3rd-fireballM (DC 27), fly,
-  greater magic weapon (already cast), hasteM (2), heroismM, stinking cloud (DC
-  27)  2nd-detect thoughts (DC 26), false life (already cast), mirror image (2),
-  resist energy (2), see invisibility, spectral hand  1st-disguise self, feather
-  fall, mage armorM, ray of enfeeblement (DC 26), shield, true strike, vanish
-  (2)  0 (at will)-detect magic, ghost sound (DC 25), mage hand, open/close M
-  mythic spell
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 20th; concentration +34)  9th-gate, overwhelming
+    presenceUM (DC 36), power word killM (2), time stopM, wish  8th-quickened
+    charm monster, horrid wilting (2, DC 32), mass charm monster (2, DC 34),
+    prediction of failureUM (DC 32)  7th-finger of deathM (DC 32), quickened
+    invisibility sphere, mass fly, power word blind, spell turning, waves of
+    ecstasy (DC 34)  6th-antimagic fieldM, circle of death (DC 31), disintegrate
+    (DC 30), greater dispel magic, greater heroism, mass eagle's splendor, mass
+    suggestion (DC 33)  5th-dominate person (2, DC 32), feeblemind (DC 32),
+    overland flight (already cast), quickened true strike (3)  4th-detect
+    scrying (already cast), dimension door, fear (DC 29), greater invisibility,
+    phantasmal killer (2, DC 29), terrible remorse (DC 31)  3rd-fireballM (DC
+    27), fly, greater magic weapon (already cast), hasteM (2), heroismM,
+    stinking cloud (DC 27)  2nd-detect thoughts (DC 26), false life (already
+    cast), mirror image (2), resist energy (2), see invisibility, spectral hand 
+    1st-disguise self, feather fall, mage armorM, ray of enfeeblement (DC 26),
+    shield, true strike, vanish (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 25), mage hand, open/close M mythic spell
 AbilityScores:
   - 24
   - 22

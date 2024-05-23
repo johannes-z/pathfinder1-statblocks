@@ -31,16 +31,19 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy 4/day (DC 15, 6d6), fury of the Abyss* (+6, 7/day),
   scythe of evil (6 rounds, 2/day), surge* (+16, 7/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 12th; concentration +16)  6th-blade barrier (DC
-  20), cone of coldD (DC 20), harm (DC 20)  5th-ice stormD, slay living (2, DC
-  19), true seeing  4th-control waterD, divine power, freedom of movement,
-  poison (DC 18), unholy blight (DC 18)  3rd-blindness/deafness (DC 17), dispel
-  magic, magic vestment, rageD (DC 17), searing light, water breathing 
-  2nd-bull's strength, death knell (DC 16), hold person (DC 16), resist energy,
-  silence (DC 16), slipstream*, D  1st-bless, command (DC 15), doom (DC 15),
-  obscuring mistD, protection from good, shield of faith  0 (at will)-create
-  water, detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 12th; concentration +16)  6th-blade barrier (DC
+    20), cone of coldD (DC 20), harm (DC 20)  5th-ice stormD, slay living (2, DC
+    19), true seeing  4th-control waterD, divine power, freedom of movement,
+    poison (DC 18), unholy blight (DC 18)  3rd-blindness/deafness (DC 17),
+    dispel magic, magic vestment, rageD (DC 17), searing light, water breathing 
+    2nd-bull's strength, death knell (DC 16), hold person (DC 16), resist
+    energy, silence (DC 16), slipstream*, D  1st-bless, command (DC 15), doom
+    (DC 15), obscuring mistD, protection from good, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, resistance
 SpellDomains: Evil (Demon subdomain*), Water (Oceans subdomain*)
 AbilityScores:
   - 18

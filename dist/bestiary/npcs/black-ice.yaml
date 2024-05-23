@@ -47,15 +47,18 @@ SpellLikeAbilities:
       value: shadow illusion (DC 13)
     - label: 2/day
       value: shadow call (DC 16)
-SpellsPrepared: >-
-  Illusionist Spells Prepared (CL 10th; concentration +15)  5th-feeblemind (DC
-  20), nightmare (DC 23), shadow evocation (DC 23), teleport  4th-charm monster
-  (DC 19), greater invisibility, phantasmal killer (DC 22), solid fog,
-  stoneskin  3rd-blink, displacement, fly, major image (DC 21), slow (DC 18) 
-  2nd-acid arrow, darkness, hypnotic pattern (DC 20), invisibility (2), resist
-  energy  1st-charm person (DC 16), color spray (DC 19), feather fall, mage
-  armor, magic missile (2), shield  0 (at will)-daze (DC 15), ghost sound (DC
-  18), mage hand, ray of frost
+SpellsPrepared:
+  header: >-
+    Illusionist Spells Prepared (CL 10th; concentration +15)  5th-feeblemind (DC
+    20), nightmare (DC 23), shadow evocation (DC 23), teleport  4th-charm
+    monster (DC 19), greater invisibility, phantasmal killer (DC 22), solid fog,
+    stoneskin  3rd-blink, displacement, fly, major image (DC 21), slow (DC 18) 
+    2nd-acid arrow, darkness, hypnotic pattern (DC 20), invisibility (2), resist
+    energy  1st-charm person (DC 16), color spray (DC 19), feather fall, mage
+    armor, magic missile (2), shield
+  values:
+    - label: 0 (at will)
+      value: daze (DC 15), ghost sound (DC 18), mage hand, ray of frost
 AbilityScores:
   - 6
   - 14

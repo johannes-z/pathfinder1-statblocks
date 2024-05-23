@@ -29,11 +29,16 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: grave touch
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; concentration +5)  2nd-command undead, detect
-  thoughts (DC 14), spectral hand  1st-chill touch (DC 13), obscuring mist, ray
-  of enfeeblement, shield  0 (at will)-bleed (DC 12), detect magic, light, ray
-  of frost, touch of fatigue (DC 12)
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; concentration +5)  2nd-command undead, detect
+    thoughts (DC 14), spectral hand  1st-chill touch (DC 13), obscuring mist,
+    ray of enfeeblement, shield
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 12), detect magic, light, ray of frost, touch of fatigue (DC
+        12)
 AbilityScores:
   - 12
   - 10

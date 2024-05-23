@@ -43,10 +43,13 @@ SpellLikeAbilities:
       value: >-
         charm monster (DC 16), cone of cold (DC 18), deep slumber (DC 15),
         gaseous form
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 3rd; concentration +7)   1st-chill touch (DC 15),
-  shield, shocking grasp, silent image (DC 15)   0 (at will)-detect magic, ghost
-  sound (DC 14), mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 3rd; concentration +7)   1st-chill touch (DC 15),
+    shield, shocking grasp, silent image (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 14), mage hand, read magic
 AbilityScores:
   - 28
   - 19

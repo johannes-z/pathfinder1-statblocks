@@ -45,11 +45,14 @@ SpellLikeAbilities:
       value: feather fall
     - label: 3/day
       value: align weapon, death knell (DC 12), ray of enfeeblement (DC 12)
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 7th; concentration +11)   3rd-dispel magic, haste  
-  2nd-glitterdust (DC 16), scorching ray, shatter (DC 16), spider climb  
-  1st-shield, shocking grasp (2) true strike, vanishAPG (DC 15)   0 (at
-  will)-daze (DC 14), detect magic, ghost sound (DC 14), mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 7th; concentration +11)   3rd-dispel magic,
+    haste   2nd-glitterdust (DC 16), scorching ray, shatter (DC 16), spider
+    climb   1st-shield, shocking grasp (2) true strike, vanishAPG (DC 15)
+  values:
+    - label: 0 (at will)
+      value: daze (DC 14), detect magic, ghost sound (DC 14), mage hand, read magic
 AbilityScores:
   - 22
   - 16

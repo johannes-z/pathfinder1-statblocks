@@ -35,16 +35,19 @@ SpellLikeAbilities:
       value: charming smile (DC 20, 12 rounds/day), master's illusion (12 rounds/day)
     - label: 7/day
       value: copycat (12 rounds), dazing touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 12th; concentration +16)   6th-harm (DC 20),
-  misleadD (DC 20), word of recall   5th-charm monsterD (DC 19), flame strike
-  (DC 19), plane shift (DC 19), scrying (DC 19)   4th-air walk, confusionD (DC
-  18), cure critical wounds, greater magic weapon, poison (DC 18)  
-  3rd-blindness/deafness (DC 17), cure serious wounds (2), dispel magic, magic
-  vestment, suggestionD (DC 17)   2nd-cure moderate wounds (2), enthrall (DC
-  16), invisibilityD, spiritual weapon, status   1st-cure light wounds (2),
-  disguise selfD, divine favor, sanctuary (DC 15), shield of faith   0 (at
-  will)-bleed (DC 14), detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 12th; concentration +16)   6th-harm (DC 20),
+    misleadD (DC 20), word of recall   5th-charm monsterD (DC 19), flame strike
+    (DC 19), plane shift (DC 19), scrying (DC 19)   4th-air walk, confusionD (DC
+    18), cure critical wounds, greater magic weapon, poison (DC 18)  
+    3rd-blindness/deafness (DC 17), cure serious wounds (2), dispel magic, magic
+    vestment, suggestionD (DC 17)   2nd-cure moderate wounds (2), enthrall (DC
+    16), invisibilityD, spiritual weapon, status   1st-cure light wounds (2),
+    disguise selfD, divine favor, sanctuary (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, light, read magic
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 12

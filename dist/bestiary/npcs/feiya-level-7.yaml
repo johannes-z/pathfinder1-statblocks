@@ -36,12 +36,15 @@ SpellLikeAbilities:
       value: feather fall (self only)
     - label: 1/day
       value: levitate (self only)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 7th; concentration +12)   4th-dimension door,
-  enervation   3rd-dispel magic, heroism (2)   2nd-glitterdust (2, DC 17), vomit
-  swarmAPG, web (DC 17)   1st-ear-piercing screamUM (DC 16), ill omenAPG (2),
-  mage armor, obscuring mist, shield of faith   0 (at will)-dancing lights,
-  detect magic, guidance, message
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 7th; concentration +12)   4th-dimension door,
+    enervation   3rd-dispel magic, heroism (2)   2nd-glitterdust (2, DC 17),
+    vomit swarmAPG, web (DC 17)   1st-ear-piercing screamUM (DC 16), ill omenAPG
+    (2), mage armor, obscuring mist, shield of faith
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, guidance, message
 AbilityScores:
   - 10
   - 14

@@ -33,10 +33,13 @@ SpellLikeAbilities:
       value: daze (DC 13), mage hand
     - label: 1/day
       value: detect thoughts (DC 15)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 1st; concentration +4)  1st-charm person (DC 14),
-  mage armor, magic missile  0 (at will)-acid splash, detect magic, flare (DC
-  13), read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 1st; concentration +4)  1st-charm person (DC 14),
+    mage armor, magic missile
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, flare (DC 13), read magic
 AbilityScores:
   - 8
   - 13

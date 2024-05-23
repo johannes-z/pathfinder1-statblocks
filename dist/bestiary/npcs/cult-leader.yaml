@@ -33,15 +33,19 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: rebuke death (1d4+5), touch of evil (5 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +15) 5th-breath of lifeD, mass
-  cure light wounds, righteous might, summon monster V 4th-air walk, cure
-  critical wounds, dismissal (DC 19), divine power, unholy blightD (DC 19)
-  3rd-cure serious wounds (2), dispel magic, magic circle against goodD, prayer
-  2nd-aid, cure moderate woundsD, death knell (DC 17), silence (DC 17),
-  spiritual weapon, undetectable alignment 1st-command (DC 16), cure light
-  woundsD, deathwatch, divine favor, obscuring mist, remove fear, shield of
-  faith 0 (at will)-create water, guidance, light, purify food & drink
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +15) 5th-breath of lifeD,
+    mass cure light wounds, righteous might, summon monster V 4th-air walk, cure
+    critical wounds, dismissal (DC 19), divine power, unholy blightD (DC 19)
+    3rd-cure serious wounds (2), dispel magic, magic circle against goodD,
+    prayer 2nd-aid, cure moderate woundsD, death knell (DC 17), silence (DC 17),
+    spiritual weapon, undetectable alignment 1st-command (DC 16), cure light
+    woundsD, deathwatch, divine favor, obscuring mist, remove fear, shield of
+    faith
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, light, purify food & drink
 SpellDomains: Evil, Healing
 AbilityScores:
   - 12

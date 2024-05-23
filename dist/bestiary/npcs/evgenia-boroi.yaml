@@ -35,12 +35,16 @@ SpellLikeAbilities:
       value: touch of darkness (2 rounds)
     - label: 6/day
       value: touch of law
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)   3rd-bestow curse (DC 16),
-  deeper darkness, dispel magic   2nd-blindness/deafness (DC 15; only to cause
-  blindness), hold person (DC 15), inflict moderate wounds (DC 15), silence (DC
-  15)   1st-bane (DC 14), cause fear (DC 14), doom (DC 14), obscuring mist,
-  sanctuary (DC 14)   0 (at will)-bleed (DC 13), guidance, mending, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)   3rd-bestow curse (DC
+    16), deeper darkness, dispel magic   2nd-blindness/deafness (DC 15; only to
+    cause blindness), hold person (DC 15), inflict moderate wounds (DC 15),
+    silence (DC 15)   1st-bane (DC 14), cause fear (DC 14), doom (DC 14),
+    obscuring mist, sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), guidance, mending, resistance
 SpellDomains: Darkness, Law
 AbilityScores:
   - null

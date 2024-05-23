@@ -39,10 +39,14 @@ SpellLikeAbilities:
       value: charm person (DC 16), deep slumber (DC 18), tree stride
     - label: 1/day
       value: suggestion (DC 18)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 3rd; concentration +7)   2nd-barkskinD, lesser
-  restoration, summon swarm   1st-cure light wounds, enlarge personD, obscuring
-  mist, shillelagh   0 (at will)-create water, guidance, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 3rd; concentration +7)   2nd-barkskinD, lesser
+    restoration, summon swarm   1st-cure light wounds, enlarge personD,
+    obscuring mist, shillelagh
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, mending, stabilize
 SpellDomains: Plant
 AbilityScores:
   - 10

@@ -32,11 +32,14 @@ SpellLikeAbilities:
   values:
     - label: 9/day
       value: dazing touch
-SpellsPrepared: >-
-  Enchanter Spells Prepared (CL 4th; concentration +10)  2nd-bear's endurance,
-  detect thoughts (DC 18), mirror image, oppressive boredomUM (DC 19) 
-  1st-alarm, charm person (DC 18), shield, sleep (DC 18), unseen servant  0 (at
-  will)-arcane mark, detect magic, detect poison, message
+SpellsPrepared:
+  header: >-
+    Enchanter Spells Prepared (CL 4th; concentration +10)  2nd-bear's endurance,
+    detect thoughts (DC 18), mirror image, oppressive boredomUM (DC 19) 
+    1st-alarm, charm person (DC 18), shield, sleep (DC 18), unseen servant
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, detect poison, message
 AbilityScores:
   - 8
   - 10

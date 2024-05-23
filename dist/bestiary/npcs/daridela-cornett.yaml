@@ -26,12 +26,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 2/day, wooden fist (+3, 7 rounds/day)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 6th; concentration +10)  3rd-call lightning (DC 17),
-  cure moderate wounds, neutralize poison, plant growthD  2nd-barkskinD, cat's
-  grace, flame blade, summon swarm, warp wood (DC 16)  1st-cure light wounds,
-  entangleD (DC 15), magic fang (2), produce flame  0 (at will)-detect magic,
-  guidance, mending, purify food and drink (DC 14)
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 6th; concentration +10)  3rd-call lightning (DC
+    17), cure moderate wounds, neutralize poison, plant growthD  2nd-barkskinD,
+    cat's grace, flame blade, summon swarm, warp wood (DC 16)  1st-cure light
+    wounds, entangleD (DC 15), magic fang (2), produce flame
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, mending, purify food and drink (DC 14)
 SpellDomains: Plant
 AbilityScores:
   - 14

@@ -29,12 +29,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (cauldron, evil eye [-2, 7 rounds], healing [cure moderate], slumber [6
   rounds])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 6th; concentration +10) 3rd-dispel magic, fireball
-  (DC 18), stinking cloud (DC 17) 2nd-blindness/deafness (DC 16), burning
-  gazeAPG (DC 17), cure moderate wounds, flaming sphere (DC 17) 1st-burning
-  hands (DC 16), mage armor, ray of enfeeblement (DC 15), shocking grasp (DC 15)
-  0 (at will)-detect magic, detect poison, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 6th; concentration +10) 3rd-dispel magic, fireball
+    (DC 18), stinking cloud (DC 17) 2nd-blindness/deafness (DC 16), burning
+    gazeAPG (DC 17), cure moderate wounds, flaming sphere (DC 17) 1st-burning
+    hands (DC 16), mage armor, ray of enfeeblement (DC 15), shocking grasp (DC
+    15)
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, read magic, resistance
 AbilityScores:
   - 8
   - 13

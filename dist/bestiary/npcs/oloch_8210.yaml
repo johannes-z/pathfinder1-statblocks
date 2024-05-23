@@ -29,9 +29,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: blessings 3/day, glorious presence (DC 12), war mind
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 1st; concentration +3)   1st-bless, shield of
-  faith   0 (at will)-create water, detect magic, guidance
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 1st; concentration +3)   1st-bless, shield of
+    faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance
 AbilityScores:
   - 18
   - 12

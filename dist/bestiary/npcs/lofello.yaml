@@ -24,11 +24,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (6/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; melee touch +3, ranged touch +4)  3rd-blink, dispel
-  magic, fly   2nd-acid arrow, blur, invisibility, scorching ray  
-  1st-comprehend languages, expeditious retreat, magic missile, shocking grasp  
-  0 (at will)-arcane mark, dancing lights, mage hand, open/close
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; melee touch +3, ranged touch +4)  3rd-blink, dispel
+    magic, fly   2nd-acid arrow, blur, invisibility, scorching ray  
+    1st-comprehend languages, expeditious retreat, magic missile, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: arcane mark, dancing lights, mage hand, open/close
 AbilityScores:
   - 10
   - 12

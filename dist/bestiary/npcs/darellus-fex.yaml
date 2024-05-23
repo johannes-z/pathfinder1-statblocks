@@ -45,17 +45,20 @@ SpellLikeAbilities:
       value: dimensional steps (360 feet/day)
     - label: 9/day
       value: acid dart (1d6+6 acid)
-SpellsPrepared: >-
-  Conjurer Spells Prepared (CL 12th; concentration +18)  6th-acid fog, chain
-  lightning (DC 22), quickened invisibility, summon monster VI   5th-acidic
-  sprayUM (DC 22), sending, summon monster V, teleport, wall of force  4th-acid
-  pit APG (DC 21), greater false lifeUM, shout (DC 20), stoneskin, summon
-  monster IV  3rd-dispel magic, displacement, fly, ray of exhaustion (DC 19),
-  stinking cloud (DC 20), summon monster III  2nd-acid arrow, darkness,
-  glitterdust (DC 19), resist energy, scorching ray (2), web (DC 19)  1st-grease
-  (DC 18), mage armor, magic missile (2), protection from evil, ray of
-  enfeeblement (DC 17), shield  0 (at will)-acid splash, mage hand,
-  prestidigitation, touch of fatigue (DC 16)
+SpellsPrepared:
+  header: >-
+    Conjurer Spells Prepared (CL 12th; concentration +18)  6th-acid fog, chain
+    lightning (DC 22), quickened invisibility, summon monster VI   5th-acidic
+    sprayUM (DC 22), sending, summon monster V, teleport, wall of force 
+    4th-acid pit APG (DC 21), greater false lifeUM, shout (DC 20), stoneskin,
+    summon monster IV  3rd-dispel magic, displacement, fly, ray of exhaustion
+    (DC 19), stinking cloud (DC 20), summon monster III  2nd-acid arrow,
+    darkness, glitterdust (DC 19), resist energy, scorching ray (2), web (DC
+    19)  1st-grease (DC 18), mage armor, magic missile (2), protection from
+    evil, ray of enfeeblement (DC 17), shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, mage hand, prestidigitation, touch of fatigue (DC 16)
 AbilityScores:
   - 8
   - 14

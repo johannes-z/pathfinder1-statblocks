@@ -31,11 +31,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: blast rune (1d6+1 energy damage, 3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-hold person (DC 16),
-  magic mouthD, spiritual weapon   1st-command (2, DC 15), eraseD, obscuring
-  mist   0 (at will)-detect magic, detect poison, purify food and drink,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-hold person (DC 16),
+    magic mouthD, spiritual weapon   1st-command (2, DC 15), eraseD, obscuring
+    mist
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, purify food and drink, stabilize
 SpellDomains: Magic, Rune
 AbilityScores:
   - 12

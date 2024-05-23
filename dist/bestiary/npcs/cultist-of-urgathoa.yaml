@@ -29,11 +29,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: battle rage (+1), bleeding touch (1 round)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-cure moderate wounds,
-  hold person (DC 15), spiritual weaponD   1st-cure light wounds, divine favor,
-  magic weaponD, shield of faith   0 (at will)-bleed (DC 13), detect magic,
-  light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-cure moderate
+    wounds, hold person (DC 15), spiritual weaponD   1st-cure light wounds,
+    divine favor, magic weaponD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, light, stabilize
 SpellDomains: Death, War
 AbilityScores:
   - 13

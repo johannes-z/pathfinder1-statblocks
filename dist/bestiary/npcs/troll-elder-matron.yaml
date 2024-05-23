@@ -29,14 +29,19 @@ Reach: 10 ft.
 SpecialAttacks: >-
   hexes (agony [10 rounds], cackle, evil eye [-4, 6 rounds], misfortune [2
   rounds], slumber [10 rounds], water lungUM), rend (2 claws, 1d6+7)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 10th; concentration +13)   5th-flame strike (DC 20),
-  mass pain strikeAPG (DC 18)   4th-confusion (DC 17), enervation, wall of ice
-  (DC 17)   3rd-fireball (2, DC 18), ray of exhaustion (DC 16), screechAPG (DC
-  16)   2nd-bull's strength, burning gazeAPG (DC 17), enthrall (DC 15), flaming
-  sphere (DC 17), touch of idiocy   1st-burning hands (DC 16), cause fear (DC
-  14), ray of enfeeblement (DC 14), reduce person (DC 14)   0 (at will)-bleed
-  (DC 13), detect magic, purify food and drink, touch of fatigue (DC 13)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 10th; concentration +13)   5th-flame strike (DC
+    20), mass pain strikeAPG (DC 18)   4th-confusion (DC 17), enervation, wall
+    of ice (DC 17)   3rd-fireball (2, DC 18), ray of exhaustion (DC 16),
+    screechAPG (DC 16)   2nd-bull's strength, burning gazeAPG (DC 17), enthrall
+    (DC 15), flaming sphere (DC 17), touch of idiocy   1st-burning hands (DC
+    16), cause fear (DC 14), ray of enfeeblement (DC 14), reduce person (DC 14)
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 13), detect magic, purify food and drink, touch of fatigue (DC
+        13)
 AbilityScores:
   - 19
   - 14

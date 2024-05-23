@@ -33,11 +33,14 @@ SpellLikeAbilities:
       value: copycat (4 rounds)
     - label: 6/day
       value: battle rage (+2 damage)
-SpellsPrepared: >-
-  Spells Prepared (CL 4th; concentration +7)  2nd-death knell (DC 15),
-  invisibilityD, silence (DC 15), sound burst (DC 15)  1st-bane (DC 14), divine
-  favor, doom (DC 14), magic weaponD, shield of faith  0 (at will)-bleed (DC
-  13), detect magic, guidance, light
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 4th; concentration +7)  2nd-death knell (DC 15),
+    invisibilityD, silence (DC 15), sound burst (DC 15)  1st-bane (DC 14),
+    divine favor, doom (DC 14), magic weaponD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, guidance, light
 SpellDomains: Trickery, War
 AbilityScores:
   - 12

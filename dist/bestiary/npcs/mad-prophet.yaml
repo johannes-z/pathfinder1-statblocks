@@ -44,14 +44,18 @@ SpellLikeAbilities:
         +16)
     - label: 1/day
       value: dancing lights, ghost sound, prestidigitation, speak with animals
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +13)  5th-slay living (DC 20),
-  true seeingD  4th-chaos hammer (DC 18), confusionD (DC 18), summon monster IV,
-  tongues  3rd-blindness/deafness (DC 18), invisibility purge, prayer, rageD,
-  searing light  2nd-cure moderate wounds, hold person (2, DC 16), resist
-  energy, spiritual weapon, touch of idiocyD  1st-cause fear (DC 16), doom (DC
-  16), entropic shield, lesser confusionD (DC 15), obscuring mist, shield of
-  faith  0 (at will)-bleed (DC 15), detect poison, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +13)  5th-slay living (DC 20),
+    true seeingD  4th-chaos hammer (DC 18), confusionD (DC 18), summon monster
+    IV, tongues  3rd-blindness/deafness (DC 18), invisibility purge, prayer,
+    rageD, searing light  2nd-cure moderate wounds, hold person (2, DC 16),
+    resist energy, spiritual weapon, touch of idiocyD  1st-cause fear (DC 16),
+    doom (DC 16), entropic shield, lesser confusionD (DC 15), obscuring mist,
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect poison, light, read magic
 SpellDomains: Knowledge, Madness
 AbilityScores:
   - 6

@@ -32,13 +32,16 @@ SpellLikeAbilities:
   values:
     - label: Constant
       value: desecrate (centered on self)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +9)   3rd-blindness/deafness (DC
-  16), contagion (DC 16), dispel magic, magic vestmentD   2nd-death knell (DC
-  15), hold person (DC 15), resist energy, sound burst (DC 15), spiritual
-  weaponD   1st-cause fearD (DC 14), command (DC 14), obscuring mist, sanctuary
-  (DC 14), shield of faith   0 (at will)-bleed (DC 13), guidance, light,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +9)   3rd-blindness/deafness
+    (DC 16), contagion (DC 16), dispel magic, magic vestmentD   2nd-death knell
+    (DC 15), hold person (DC 15), resist energy, sound burst (DC 15), spiritual
+    weaponD   1st-cause fearD (DC 14), command (DC 14), obscuring mist,
+    sanctuary (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), guidance, light, stabilize
 SpellDomains: Death, War
 AbilityScores:
   - 27

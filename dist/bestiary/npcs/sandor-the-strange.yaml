@@ -24,17 +24,20 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: diviner's fortune (+6, 9/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 12th; concentration +18) 6th-disintegrate (DC 22),
-  forceful hand, mislead (DC 22), true seeing 5th-cone of cold, false vision,
-  overland flight, passwall, prying eyes 4th-enervation, greater invisibility,
-  locate creature, phantasmal killer (DC 20), scrying 3rd-clairaudience/
-  clairvoyance, dispel magic, fireball (DC 19), slow (DC 19), vampiric touch (2)
-  2nd-arcane lock, darkness, detect thoughts (DC 18), false life, protection
-  from arrows, scorching ray (2) 1st-burning hands (DC 17), comprehend
-  languages, magic missile, protection from good, ray of enfeeblement, shield,
-  true strike 0 (at will)-bleed (DC 16), detect magic, light, mage hand, read
-  magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 12th; concentration +18) 6th-disintegrate (DC
+    22), forceful hand, mislead (DC 22), true seeing 5th-cone of cold, false
+    vision, overland flight, passwall, prying eyes 4th-enervation, greater
+    invisibility, locate creature, phantasmal killer (DC 20), scrying
+    3rd-clairaudience/ clairvoyance, dispel magic, fireball (DC 19), slow (DC
+    19), vampiric touch (2) 2nd-arcane lock, darkness, detect thoughts (DC 18),
+    false life, protection from arrows, scorching ray (2) 1st-burning hands (DC
+    17), comprehend languages, magic missile, protection from good, ray of
+    enfeeblement, shield, true strike
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect magic, light, mage hand, read magic
 AbilityScores:
   - 10
   - 14

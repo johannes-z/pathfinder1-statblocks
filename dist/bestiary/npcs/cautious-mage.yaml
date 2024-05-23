@@ -24,9 +24,13 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (6/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 1st; concentration +4)   1st-burning hands (DC 14),
-  mage armor   0 (at will)-bleed (DC 13), detect magic, resistance
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 1st; concentration +4)   1st-burning hands (DC
+    14), mage armor
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, resistance
 AbilityScores:
   - 10
   - 13

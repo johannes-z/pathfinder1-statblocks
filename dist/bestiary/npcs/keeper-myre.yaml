@@ -24,13 +24,16 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel negative energy (DC 14, 6/day), grave touch (3 rounds, 6/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 7th)  4th-enervation (DC 18, 2), black tentacles
-  (CMB 15)  3rd-hold person (DC 17, 2), vampiric touch (2)  2nd-acid arrow,
-  darkvision, false life (already cast), ghoul touch (DC 16), see invisibility 
-  1st-cause fear (DC 15), charm person, feather fall, mage armor (2, 1 already
-  cast), unseen servant  0 (at will)-acid splash, detect magic, light, read
-  magic, touch of fatigue (DC 14)
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 7th)  4th-enervation (DC 18, 2), black tentacles
+    (CMB 15)  3rd-hold person (DC 17, 2), vampiric touch (2)  2nd-acid arrow,
+    darkvision, false life (already cast), ghoul touch (DC 16), see
+    invisibility  1st-cause fear (DC 15), charm person, feather fall, mage armor
+    (2, 1 already cast), unseen servant
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, read magic, touch of fatigue (DC 14)
 AbilityScores:
   - 10
   - 8

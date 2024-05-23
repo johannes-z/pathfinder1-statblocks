@@ -29,18 +29,21 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: disease (mummy rot, DC 25), hand of the apprentice (9/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 15th; ranged touch +14)  8th-maze  7th-finger of death (DC
-  23), forcecage (DC 23)  6th-acid fog, chain lightning (DC 22), disintegrate
-  (DC 22), mass suggestion (DC 22)  5th-baleful polymorph (DC 21), dominate
-  person (DC 21), feeblemind (DC 21), summon monster V, waves of fatigue 
-  4th-enervation, ice storm, lesser globe of invulnerability, rainbow pattern
-  (DC 20), shout (DC 20)  3rd-fly, protection from energy, ray of exhaustion,
-  stinking cloud (DC 19), vampiric touch  2nd-glitterdust (DC 18), hideous
-  laughter (DC 18), extended mage armor*, protection from arrows, spectral hand,
-  web (DC 18)  1st-chill touch, grease, obscuring mist, ray of enfeeblement,
-  shocking grasp, silent image (DC 17)  0 (at will)-acid splash, detect magic,
-  ghost sound (DC 16), touch of fatigue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 15th; ranged touch +14)  8th-maze  7th-finger of death
+    (DC 23), forcecage (DC 23)  6th-acid fog, chain lightning (DC 22),
+    disintegrate (DC 22), mass suggestion (DC 22)  5th-baleful polymorph (DC
+    21), dominate person (DC 21), feeblemind (DC 21), summon monster V, waves of
+    fatigue  4th-enervation, ice storm, lesser globe of invulnerability, rainbow
+    pattern (DC 20), shout (DC 20)  3rd-fly, protection from energy, ray of
+    exhaustion, stinking cloud (DC 19), vampiric touch  2nd-glitterdust (DC 18),
+    hideous laughter (DC 18), extended mage armor*, protection from arrows,
+    spectral hand, web (DC 18)  1st-chill touch, grease, obscuring mist, ray of
+    enfeeblement, shocking grasp, silent image (DC 17)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, ghost sound (DC 16), touch of fatigue
 AbilityScores:
   - 24
   - 12

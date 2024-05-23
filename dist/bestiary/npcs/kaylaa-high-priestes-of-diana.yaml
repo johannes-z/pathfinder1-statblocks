@@ -31,18 +31,21 @@ SpecialAttacks: channel positive energy 9/day (DC 20, 7d6)
 SpellLikeAbilities:
   header: Domain Spell-Like Abilities (CL 13th)  16 rounds/day-speak with animals
   values: []
-SpellsPrepared: >-
-  Spells Prepared (CL 13th; melee touch +11, ranged touch +10)  7th-greater
-  restoration, refugeD   6th-heal, heroes' feastD, planar ally   5th-dispel
-  evil, greater forbid actionUM (DC 20), scrying (DC 20), telepathic bondD, true
-  seeing   4th-blessing of fervorAPG (DC 19), control summoned creatureUM (DC
-  19), death ward, divination, neutralize poison, summon nature's ally IV
-  (animals only) D   3rd-create food and water, dispel magic, dominate animalD
-  (DC 18), helping hand, locate object, prayer   2nd-augury, blessing of courage
-  and lifeAPG (DC 17), calm emotionsD (DC 17), delay poison, hold person (DC
-  17), shield other   1st-bless, calm animalsD (DC 16), command (DC 16), divine
-  favor, endure elements, protection from evil, shield of faith   0 (at
-  will)-create water, guidance, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 13th; melee touch +11, ranged touch +10)  7th-greater
+    restoration, refugeD   6th-heal, heroes' feastD, planar ally   5th-dispel
+    evil, greater forbid actionUM (DC 20), scrying (DC 20), telepathic bondD,
+    true seeing   4th-blessing of fervorAPG (DC 19), control summoned creatureUM
+    (DC 19), death ward, divination, neutralize poison, summon nature's ally IV
+    (animals only) D   3rd-create food and water, dispel magic, dominate animalD
+    (DC 18), helping hand, locate object, prayer   2nd-augury, blessing of
+    courage and lifeAPG (DC 17), calm emotionsD (DC 17), delay poison, hold
+    person (DC 17), shield other   1st-bless, calm animalsD (DC 16), command (DC
+    16), divine favor, endure elements, protection from evil, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, resistance, virtue
 SpellDomains: Animal, FamilyAPG
 AbilityScores:
   - 14

@@ -34,11 +34,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: strength surge (+1), touch of good (+1)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-bull's strengthD,
-  lesser restoration, shield other   1st-bless, enlarge personD (DC 13),
-  obscuring mist, sanctuary (DC 13)   0 (at will)-create water, purify food and
-  drink (DC 12), resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-bull's strengthD,
+    lesser restoration, shield other   1st-bless, enlarge personD (DC 13),
+    obscuring mist, sanctuary (DC 13)
+  values:
+    - label: 0 (at will)
+      value: create water, purify food and drink (DC 12), resistance, stabilize
 SpellDomains: Good, Strength
 AbilityScores:
   - 10

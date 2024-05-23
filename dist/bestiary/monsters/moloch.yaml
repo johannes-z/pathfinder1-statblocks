@@ -59,25 +59,28 @@ SpellLikeAbilities:
         Abilities (CL 20th)
     - label: 11/day
       value: strength surge (+10), touch of evil (10 rounds), touch of law
-SpellsPrepared: >-
-  Unholy Spells Prepared (CL 20th) 9th-crushing handD, energy drain (DC 27),
-  miracle, soul bind (DC 27), true resurrection 8th-create greater undead (x2),
-  mass inflict critical wounds (DC 26), shield of law (DC 26), symbol of death
-  (DC 26), unholy auraD (DC 26) 7th-control weather, dictum (DC 25), grasping
-  handD, mass inflict serious wounds (DC 25), refuge, resurrection 6th-antilife
-  shell, blade barrier (DC 24), create undeadD, forbiddance (DC 24), geas/quest
-  (DC 24), harm (DC 24) 5th- dispel goodD (DC 23), greater command (DC 23),
-  insect plague, mass inflict light wounds (DC 23, x2), slay living (DC 23),
-  symbol of pain (DC 23) 4th-air walk, dimensional anchor, freedom of movement,
-  giant vermin, inflict critical wounds (DC 22, x3), spell immunityD
-  3rd-blindness/deafness (DC 21), glyph of warding, invisibility purge, magic
-  circle against chaosD, magic circle against good, searing light, stone shape,
-  wind wall 2nd-augury, bull's strengthD, calm emotions (DC 20), darkness, death
-  knell (DC 20), inflict moderate wounds (DC 20), shatter (DC 20), spiritual
-  weapon 1st-bane (DC 19), cause fear (DC 19), command (DC 19), comprehend
-  languages, doom (DC 19), inflict light wounds (DC 19, x2), protection from
-  chaosD 0 (at will)-bleed (DC 18), create water, detect magic, light, read
-  magic, stabilize
+SpellsPrepared:
+  header: >-
+    Unholy Spells Prepared (CL 20th) 9th-crushing handD, energy drain (DC 27),
+    miracle, soul bind (DC 27), true resurrection 8th-create greater undead
+    (x2), mass inflict critical wounds (DC 26), shield of law (DC 26), symbol of
+    death (DC 26), unholy auraD (DC 26) 7th-control weather, dictum (DC 25),
+    grasping handD, mass inflict serious wounds (DC 25), refuge, resurrection
+    6th-antilife shell, blade barrier (DC 24), create undeadD, forbiddance (DC
+    24), geas/quest (DC 24), harm (DC 24) 5th- dispel goodD (DC 23), greater
+    command (DC 23), insect plague, mass inflict light wounds (DC 23, x2), slay
+    living (DC 23), symbol of pain (DC 23) 4th-air walk, dimensional anchor,
+    freedom of movement, giant vermin, inflict critical wounds (DC 22, x3),
+    spell immunityD 3rd-blindness/deafness (DC 21), glyph of warding,
+    invisibility purge, magic circle against chaosD, magic circle against good,
+    searing light, stone shape, wind wall 2nd-augury, bull's strengthD, calm
+    emotions (DC 20), darkness, death knell (DC 20), inflict moderate wounds (DC
+    20), shatter (DC 20), spiritual weapon 1st-bane (DC 19), cause fear (DC 19),
+    command (DC 19), comprehend languages, doom (DC 19), inflict light wounds
+    (DC 19, x2), protection from chaosD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 18), create water, detect magic, light, read magic, stabilize
 SpellDomains: Evil, Law, Strength
 AbilityScores:
   - 34

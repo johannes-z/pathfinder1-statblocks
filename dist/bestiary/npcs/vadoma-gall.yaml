@@ -33,14 +33,18 @@ SpellLikeAbilities:
       value: change shape (beast shape II or elemental body I, 9 rounds/day)
     - label: 8/day
       value: telekinetic fist (1d4+4 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 9th; concentration +14)   5th-prying eyes,
-  telekinesis, wall of force   4th-arcane eye, calcific touchAPG (DC 19),
-  dimension door, minor creation   3rd-clairaudience/clairvoyance, fireball (DC
-  18), fly, protection from energy, shrink item (DC 18)   2nd-glitterdust (DC
-  17), mirror image, protection from arrows, rope trick, scorching ray, spider
-  climb   1st-alarm, ant haulAPG (DC 16), hold portal, mage armor, magic missile
-  (2), unseen servant   0 (at will)-acid splash, detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 9th; concentration +14)   5th-prying eyes,
+    telekinesis, wall of force   4th-arcane eye, calcific touchAPG (DC 19),
+    dimension door, minor creation   3rd-clairaudience/clairvoyance, fireball
+    (DC 18), fly, protection from energy, shrink item (DC 18)   2nd-glitterdust
+    (DC 17), mirror image, protection from arrows, rope trick, scorching ray,
+    spider climb   1st-alarm, ant haulAPG (DC 16), hold portal, mage armor,
+    magic missile (2), unseen servant
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, read magic
 AbilityScores:
   - 8
   - 14

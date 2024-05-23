@@ -49,10 +49,13 @@ SpellLikeAbilities:
       value: >-
         grant up to 3 wishes (to nongenies only), gaseous form, greater
         invisibility, permanent image (DC 19), pyroclastic storm
-SpellsPrepared: >-
-  Arcanist Spells Prepared (CL 2nd; concentration +5)   1st (4/day)-mage armor,
-  thunderstompACG   0 (at will)-arcane mark, bleed (DC 13), mage hand, message,
-  read magic
+SpellsPrepared:
+  header: Arcanist Spells Prepared (CL 2nd; concentration +5)
+  values:
+    - label: 1st (4/day)
+      value: mage armor, thunderstompACG
+    - label: 0 (at will)
+      value: arcane mark, bleed (DC 13), mage hand, message, read magic
 AbilityScores:
   - 25
   - 15

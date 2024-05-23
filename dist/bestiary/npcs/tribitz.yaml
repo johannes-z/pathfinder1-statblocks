@@ -36,17 +36,20 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: touch of evil
-SpellsPrepared: >-
-  Spells Prepared (CL 12th; ranged touch +11)  6th-create undeadD, greater
-  dispel magic, harm (DC 21)  5th-dispel goodD, flame strike, greater command
-  (DC 20), slay living (DC 20), spell resistance  4th-cure critical wounds,
-  divine power, poison (DC 19), summon monster IV, unholy blightD 
-  3rd-blindness/deafness (DC 18), cure serious wounds, dispel magic (x2), magic
-  circle against goodD, prayer  2nd-cure moderate wounds, darkness, hold person
-  (DC 17)  (x2), shatterD (DC 17), silence  1st-bane (DC 16), cause fear (DC
-  16), cure light wounds, divine favor, doom (DC 16), entropic shield,
-  sanctuary, true strikeD  0 (at will)-detect magic, guidance, read magic,
-  resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 12th; ranged touch +11)  6th-create undeadD, greater
+    dispel magic, harm (DC 21)  5th-dispel goodD, flame strike, greater command
+    (DC 20), slay living (DC 20), spell resistance  4th-cure critical wounds,
+    divine power, poison (DC 19), summon monster IV, unholy blightD 
+    3rd-blindness/deafness (DC 18), cure serious wounds, dispel magic (x2),
+    magic circle against goodD, prayer  2nd-cure moderate wounds, darkness, hold
+    person (DC 17)  (x2), shatterD (DC 17), silence  1st-bane (DC 16), cause
+    fear (DC 16), cure light wounds, divine favor, doom (DC 16), entropic
+    shield, sanctuary, true strikeD
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance
 SpellDomains: Destruction, Evil
 AbilityScores:
   - 12

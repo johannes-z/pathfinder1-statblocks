@@ -31,14 +31,17 @@ SpellLikeAbilities:
       value: elemental wall (12 rounds/day)
     - label: 7/day
       value: force missile
-SpellsPrepared: >-
-  Spells Prepared (CL 9th; concentration +13)  5th-cone of cold (DC 21),
-  elemental body II  4th-fire shield, shout (DC 20), wall of fire (DC 20) 
-  3rd-fireball (DC 19), fly, halt undead (DC 17), lightning bolt (DC 19),
-  vampiric touch  2nd-bear's endurance, command undead (DC 16), darkvision,
-  false life, flaming sphere (DC 18), rope trick  1st-burning hands (2, DC 17),
-  floating disk, magic missile (2), shield  0 (at will)-detect magic, disrupt
-  undead, light, mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 9th; concentration +13)  5th-cone of cold (DC 21),
+    elemental body II  4th-fire shield, shout (DC 20), wall of fire (DC 20) 
+    3rd-fireball (DC 19), fly, halt undead (DC 17), lightning bolt (DC 19),
+    vampiric touch  2nd-bear's endurance, command undead (DC 16), darkvision,
+    false life, flaming sphere (DC 18), rope trick  1st-burning hands (2, DC
+    17), floating disk, magic missile (2), shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, disrupt undead, light, mage hand, read magic
 AbilityScores:
   - 8
   - 13

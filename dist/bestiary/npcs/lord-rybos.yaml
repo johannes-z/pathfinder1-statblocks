@@ -30,9 +30,11 @@ Melee:
 Space: 15 ft.
 Reach: 15 ft. (30 ft. with arms and tentacles)
 SpecialAttacks: constrict (4d6+10), hand of the apprentice (5/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 1st; concentration +3)   1st-alarm, mage armor   0
-  (at will)-detect magic, light, read magic
+SpellsPrepared:
+  header: Wizard Spells Prepared (CL 1st; concentration +3)   1st-alarm, mage armor
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, read magic
 AbilityScores:
   - 25
   - 15

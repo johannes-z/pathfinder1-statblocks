@@ -40,16 +40,19 @@ SpellLikeAbilities:
       value: dancing lights, darkness, faerie fire, feather fall, levitate
     - label: 1/day
       value: divine favor, dispel magic, suggestion (DC 14)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 12th)  6th-find the pathD, heal (DC 21), word of
-  recall  5th-flame strike (DC 20), greater command (2, DC 20), mass cure light
-  wounds, true seeingD  4th-cure critical wounds, divinationD, freedom of
-  movement, unholy blight (2, DC 19)  3rd-bestow curse (2), cure serious wounds,
-  dispel magicD, invisibility purge, locate object  2nd-death knell, detect
-  thoughtsD, find traps, hold person (DC 17), silence, status (already cast) 
-  1st-command (2), comprehend languagesD, cure light wounds, remove fear,
-  obscuring mist, shield of faith  0 (at will)-bleed, create water, detect
-  poison, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 12th)  6th-find the pathD, heal (DC 21), word of
+    recall  5th-flame strike (DC 20), greater command (2, DC 20), mass cure
+    light wounds, true seeingD  4th-cure critical wounds, divinationD, freedom
+    of movement, unholy blight (2, DC 19)  3rd-bestow curse (2), cure serious
+    wounds, dispel magicD, invisibility purge, locate object  2nd-death knell,
+    detect thoughtsD, find traps, hold person (DC 17), silence, status (already
+    cast)  1st-command (2), comprehend languagesD, cure light wounds, remove
+    fear, obscuring mist, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed, create water, detect poison, read magic
 SpellDomains: Knowledge, Magic
 AbilityScores:
   - 8

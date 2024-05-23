@@ -35,13 +35,16 @@ SpellLikeAbilities:
   values:
     - label: 1/day
       value: dancing lights, darkness, faerie fire
-SpellsPrepared: >-
-  Spells Prepared (CL 9th; ranged touch +5)  5th-cone of cold (DC 20) 
-  4th-arcane eye, rainbow pattern (DC 19), stoneskin, wall of fire  3rd-dispel
-  magic, fireball (DC 18), fly, ray of exhaustion  2nd-acid arrow, bear's
-  endurance, invisibility, levitate, mirror image  1st-charm person (DC 15),
-  magic missile (x2), mage armor, shield  0 (at will)-detect magic, daze, read
-  magic, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 9th; ranged touch +5)  5th-cone of cold (DC 20) 
+    4th-arcane eye, rainbow pattern (DC 19), stoneskin, wall of fire  3rd-dispel
+    magic, fireball (DC 18), fly, ray of exhaustion  2nd-acid arrow, bear's
+    endurance, invisibility, levitate, mirror image  1st-charm person (DC 15),
+    magic missile (x2), mage armor, shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, daze, read magic, resistance
 AbilityScores:
   - 8
   - 13

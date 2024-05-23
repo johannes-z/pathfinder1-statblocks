@@ -23,10 +23,13 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wooden fists (+1, 5 rounds/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 1st; melee touch +1):   1st-entangleD (DC 13), goodberry,
-  summon nature's ally I   0 (at will)-create water, guidance (x2), know
-  direction
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 1st; melee touch +1):   1st-entangleD (DC 13),
+    goodberry, summon nature's ally I
+  values:
+    - label: 0 (at will)
+      value: create water, guidance (x2), know direction
 SpellDomains: Plant
 AbilityScores:
   - 13

@@ -31,11 +31,14 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: inspiring word (1 round)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +7)   2nd-barkskinD, calm
-  emotions (DC 16), communal protection from evilUC   1st-bless, command (DC
-  15), forbid actionUM (DC 15), shieldD   0 (at will)-detect magic, guidance,
-  read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +7)   2nd-barkskinD, calm
+    emotions (DC 16), communal protection from evilUC   1st-bless, command (DC
+    15), forbid actionUM (DC 15), shieldD
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance
 SpellDomains: Nobility, Protection (Defense subdomain)
 AbilityScores:
   - 7

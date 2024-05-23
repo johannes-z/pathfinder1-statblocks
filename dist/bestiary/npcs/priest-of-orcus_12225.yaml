@@ -25,12 +25,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel energy (8/day, 3d6, DC 15), death's kiss (2 rounds, 6/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; melee touch +6)  3rd-animate deadD, bestow curse (DC
-  16), blindness/ deafness (DC 16)  2nd-bull's strength, ghoul touchD (DC 15),
-  hold person (DC 15), silence (DC 15)  1st-bane (DC 14), cause fearD (DC 14),
-  command (DC 14), cure light wounds, protection from good  0 (at will)-detect
-  magic, guidance, light, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; melee touch +6)  3rd-animate deadD, bestow curse
+    (DC 16), blindness/ deafness (DC 16)  2nd-bull's strength, ghoul touchD (DC
+    15), hold person (DC 15), silence (DC 15)  1st-bane (DC 14), cause fearD (DC
+    14), command (DC 14), cure light wounds, protection from good
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, resistance
 SpellDomains: UndeadAPG
 AbilityScores:
   - 17

@@ -32,15 +32,19 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: dazing touch
-SpellsPrepared: >-
-  Enchanter Spells Prepared (CL 11th; concentration +15)   6th-greater dispel
-  magic, mass suggestion (DC 22)   5th-feeblemind (DC 21), mind fog (DC 21),
-  teleport   4th-charm monster (DC 20), confusion (2, DC 20), dimension door,
-  greater invisibility   3rd-deep slumber (DC 19), dispel magic, fly, haste,
-  suggestion (DC 19), summon monster III   2nd-enthrall (DC 16), glitterdust (DC
-  16), hideous laughter (2, DC 18), mirror image, web (DC 16)   1st-charm person
-  (DC 17), color spray (DC 15), grease (2, DC 15), shield, unseen servant   0
-  (at will)-detect magic, mage hand, message, prestidigitation
+SpellsPrepared:
+  header: >-
+    Enchanter Spells Prepared (CL 11th; concentration +15)   6th-greater dispel
+    magic, mass suggestion (DC 22)   5th-feeblemind (DC 21), mind fog (DC 21),
+    teleport   4th-charm monster (DC 20), confusion (2, DC 20), dimension door,
+    greater invisibility   3rd-deep slumber (DC 19), dispel magic, fly, haste,
+    suggestion (DC 19), summon monster III   2nd-enthrall (DC 16), glitterdust
+    (DC 16), hideous laughter (2, DC 18), mirror image, web (DC 16)   1st-charm
+    person (DC 17), color spray (DC 15), grease (2, DC 15), shield, unseen
+    servant
+  values:
+    - label: 0 (at will)
+      value: detect magic, mage hand, message, prestidigitation
 AbilityScores:
   - 8
   - 18

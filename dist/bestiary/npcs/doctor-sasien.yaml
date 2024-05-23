@@ -30,11 +30,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: bleeding touch (1 round)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; melee touch +3, ranged touch +1)  2nd-death knellD
-  (DC 15), dread boltUM (DC 15), hold person (DC 15)   1st-bane (DC 14), cause
-  fearD (DC 14), doom (DC 14), sanctuary (DC 14)   0 (at will)-bleed (DC 13),
-  guidance, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; melee touch +3, ranged touch +1)  2nd-death knellD
+    (DC 15), dread boltUM (DC 15), hold person (DC 15)   1st-bane (DC 14), cause
+    fearD (DC 14), doom (DC 14), sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), guidance, resistance, virtue
 SpellDomains: Death, Destruction
 AbilityScores:
   - 12

@@ -34,12 +34,15 @@ SpellLikeAbilities:
       value: shatter (DC 15) Cleric Spell-Like Abilities (CL 5th; concentration +8)
     - label: 6/day
       value: rebuke death (1d4+2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)  3rd-blindness/deafness (DC
-  16), remove curseD, speak with dead  2nd-aid, enthrall (DC 15), remove
-  paralysisD, spiritual weapon  1st-bless, cure light woundsD, protection from
-  evil, sanctuary (DC 14), shield of faith  0 (at will)-detect magic, guidance,
-  mending, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)  3rd-blindness/deafness
+    (DC 16), remove curseD, speak with dead  2nd-aid, enthrall (DC 15), remove
+    paralysisD, spiritual weapon  1st-bless, cure light woundsD, protection from
+    evil, sanctuary (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, mending, read magic
 SpellDomains: Healing, Liberation
 AbilityScores:
   - 10

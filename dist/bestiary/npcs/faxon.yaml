@@ -34,11 +34,15 @@ SpellLikeAbilities:
   values:
     - label: 1/day
       value: darkness
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 5th; concentration +9)   3rd-bestow curse (DC 17),
-  vampiric touch   2nd-blindness/deafness (DC 16), burning gazeAPG, fog cloud  
-  1st-burning hands (DC 15), charm person (DC 15), command (DC 15), inflict
-  light wounds (DC 15)   0 (at will)-dancing lights, guidance, resistance, spark
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 5th; concentration +9)   3rd-bestow curse (DC 17),
+    vampiric touch   2nd-blindness/deafness (DC 16), burning gazeAPG, fog
+    cloud   1st-burning hands (DC 15), charm person (DC 15), command (DC 15),
+    inflict light wounds (DC 15)
+  values:
+    - label: 0 (at will)
+      value: dancing lights, guidance, resistance, spark
 AbilityScores:
   - 8
   - 16

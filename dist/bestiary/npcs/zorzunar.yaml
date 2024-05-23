@@ -35,13 +35,17 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: battle rage, strength surge
-SpellsPrepared: >-
-  Spells Prepared (CL 8th; ranged touch +5)  4th-air walk, cure critical wounds,
-  divine powerD, greater magic weapon  3rd-cure serious wounds, dispel magic,
-  prayer, searing lightD, speak with dead  2nd-bull's strength, cure moderate
-  wounds, hold person (DC 16), silence (DC 16), spiritual weaponD  1st-bane (DC
-  15), bless, command (DC 15), cure light wounds, enlarge personD, divine favor 
-  0 (at will)-create water, detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 8th; ranged touch +5)  4th-air walk, cure critical
+    wounds, divine powerD, greater magic weapon  3rd-cure serious wounds, dispel
+    magic, prayer, searing lightD, speak with dead  2nd-bull's strength, cure
+    moderate wounds, hold person (DC 16), silence (DC 16), spiritual weaponD 
+    1st-bane (DC 15), bless, command (DC 15), cure light wounds, enlarge
+    personD, divine favor
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, resistance
 SpellDomains: War
 AbilityScores:
   - 15

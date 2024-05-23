@@ -29,14 +29,17 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: elemental assault (10 rounds), wild shape 3/day (Small or Medium vermin)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 10th; concentration +14)   5th-insect plague,
-  stoneskin 4th-cure serious wounds, flame strike (DC 18), giant vermin, ice
-  storm   3rd-cure moderate wounds, greater magic fang, poison (DC 17),
-  protection from energy   2nd-barkskin, bear's endurance, heat metal, lesser
-  restoration, summon swarm   1st-cure light wounds (2), longstrider, produce
-  flame, speak with animals   0 (at will)-detect magic, guidance, resistance,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 10th; concentration +14)   5th-insect plague,
+    stoneskin 4th-cure serious wounds, flame strike (DC 18), giant vermin, ice
+    storm   3rd-cure moderate wounds, greater magic fang, poison (DC 17),
+    protection from energy   2nd-barkskin, bear's endurance, heat metal, lesser
+    restoration, summon swarm   1st-cure light wounds (2), longstrider, produce
+    flame, speak with animals
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, resistance, stabilize
 AbilityScores:
   - 16
   - 14

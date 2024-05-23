@@ -41,11 +41,14 @@ SpellLikeAbilities:
       value: darkness
     - label: 1/day
       value: desecrate, unholy blight (DC 15)
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 5th; concentration +9)   2nd-bull's strength, frigid
-  touchUM, glitterdust (DC 16)   1st-hydraulic pushAPG, shield, shocking grasp,
-  true strike, vanishAPG   0 (at will)-acid splash, daze (DC 14), ghost sound
-  (DC 14), read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 5th; concentration +9)   2nd-bull's strength,
+    frigid touchUM, glitterdust (DC 16)   1st-hydraulic pushAPG, shield,
+    shocking grasp, true strike, vanishAPG
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 14), ghost sound (DC 14), read magic
 AbilityScores:
   - 19
   - 14

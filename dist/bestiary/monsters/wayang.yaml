@@ -36,10 +36,13 @@ SpellLikeAbilities:
         School Spell-Like Abilities (CL 1st; concentration +4)
     - label: 6/day
       value: blinding ray
-SpellsPrepared: >-
-  Illusionist Spells Prepared (CL 1st; concentration +4)  1st-hypnotism (DC 14),
-  silent image (DC 14), vanishAPG  0 (at will)-detect magic, ghost sound (DC
-  13), read magic
+SpellsPrepared:
+  header: >-
+    Illusionist Spells Prepared (CL 1st; concentration +4)  1st-hypnotism (DC
+    14), silent image (DC 14), vanishAPG
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 13), read magic
 AbilityScores:
   - 8
   - 16

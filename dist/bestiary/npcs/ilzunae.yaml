@@ -53,20 +53,23 @@ SpellLikeAbilities:
       value: shadow conjuration (DC 22), shadow evocation (DC 23)
     - label: 1/day
       value: magic jar (DC 23), summon (level 3, 1 shadow demon 50%)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 15th; concentration +20)  8th-demandD (DC 23), rift
-  of ruinBOTD2 (DC 23)  7th-quickened cure critical wounds, destruction (DC 22),
-  power word blindD  6th-blade barrier (DC 21), quickened death knell (DC 17),
-  geas/questD, heal  5th-breath of life, quickened command (DC 16), flame strike
-  (DC 20), greater command (DC 20), slay living (DC 20), summon monster VD
-  (summons 1d3 shadows)  4th-cure critical wounds, discern lies (DC 19), poison
-  (DC 19), sending, shadow conjurationD (DC 19), unholy blight (DC 19) 
-  3rd-bestow curse (DC 18), cure serious wounds (2), dispel magic, speak with
-  dead (DC 18), suggestionD (DC 18)  2nd-blindness/deafnessD (DC 17, only to
-  cause blindness), cure moderate wounds (2), hold person (DC 17), silence (DC
-  17), undetectable alignment  1st-charm personD (DC 16), command (DC 16), cure
-  light wounds (5), divine favor  0 (at will)-bleed (DC 15), detect magic,
-  guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 15th; concentration +20)  8th-demandD (DC 23),
+    rift of ruinBOTD2 (DC 23)  7th-quickened cure critical wounds, destruction
+    (DC 22), power word blindD  6th-blade barrier (DC 21), quickened death knell
+    (DC 17), geas/questD, heal  5th-breath of life, quickened command (DC 16),
+    flame strike (DC 20), greater command (DC 20), slay living (DC 20), summon
+    monster VD (summons 1d3 shadows)  4th-cure critical wounds, discern lies (DC
+    19), poison (DC 19), sending, shadow conjurationD (DC 19), unholy blight (DC
+    19)  3rd-bestow curse (DC 18), cure serious wounds (2), dispel magic, speak
+    with dead (DC 18), suggestionD (DC 18)  2nd-blindness/deafnessD (DC 17, only
+    to cause blindness), cure moderate wounds (2), hold person (DC 17), silence
+    (DC 17), undetectable alignment  1st-charm personD (DC 16), command (DC 16),
+    cure light wounds (5), divine favor
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, read magic
 SpellDomains: Charm, Darkness
 AbilityScores:
   - null

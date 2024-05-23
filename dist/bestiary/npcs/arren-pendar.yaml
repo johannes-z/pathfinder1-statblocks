@@ -23,15 +23,19 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (8/day), metamagic mastery (2/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 11th; melee touch +4, ranged touch +5)  6th-greater dispel
-  magic   5th-baleful polymorph (DC 20), break enchantment, dismissal (DC 20)  
-  4th-ball lightningAPG (DC 19), confusion (DC 19), dimension door, scrying (DC
-  19)   3rd-clairaudience/clairvoyance, dispel magic, fly, hostile levitationUC
-  (DC 18), seek thoughtsAPG (DC 18)   2nd-acid arrow, darkvision, detect
-  thoughts (DC 17), invisibility, scorching ray   1st-alter windsAPG (DC 16),
-  comprehend languages, expeditious retreat, identify, mage armor, magic
-  missile   0 (at will)-dancing lights, mage hand, message, open/close
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 11th; melee touch +4, ranged touch +5)  6th-greater
+    dispel magic   5th-baleful polymorph (DC 20), break enchantment, dismissal
+    (DC 20)   4th-ball lightningAPG (DC 19), confusion (DC 19), dimension door,
+    scrying (DC 19)   3rd-clairaudience/clairvoyance, dispel magic, fly, hostile
+    levitationUC (DC 18), seek thoughtsAPG (DC 18)   2nd-acid arrow, darkvision,
+    detect thoughts (DC 17), invisibility, scorching ray   1st-alter windsAPG
+    (DC 16), comprehend languages, expeditious retreat, identify, mage armor,
+    magic missile
+  values:
+    - label: 0 (at will)
+      value: dancing lights, mage hand, message, open/close
 AbilityScores:
   - 9
   - 10

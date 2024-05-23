@@ -33,14 +33,18 @@ SpellLikeAbilities:
       value: lore keeper (29), remote viewing (9 rounds/day)
     - label: 8/day
       value: blast rune or spell rune (1d6+4 energy damage or spell, 9 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +14)   5th-flame strike (DC 20),
-  greater command (DC 21), true seeingD   4th-air walk, divinationD, divine
-  power, freedom of movement   3rd-dispel magic, glyph of wardingD, magic
-  vestment (2), wind wall   2nd-cure moderate wounds, detect thoughtsD (DC 17),
-  graceAPG (2), hold person (DC 18), sound burst (DC 17)   1st-comprehend
-  languagesD, cure light wounds (2), obscuring mist, sanctuary (DC 16), shield
-  of faith (2)   0 (at will)-detect magic, light, mending, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +14)   5th-flame strike (DC
+    20), greater command (DC 21), true seeingD   4th-air walk, divinationD,
+    divine power, freedom of movement   3rd-dispel magic, glyph of wardingD,
+    magic vestment (2), wind wall   2nd-cure moderate wounds, detect thoughtsD
+    (DC 17), graceAPG (2), hold person (DC 18), sound burst (DC 17)  
+    1st-comprehend languagesD, cure light wounds (2), obscuring mist, sanctuary
+    (DC 16), shield of faith (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, read magic
 SpellDomains: Knowledge, Rune
 AbilityScores:
   - 14

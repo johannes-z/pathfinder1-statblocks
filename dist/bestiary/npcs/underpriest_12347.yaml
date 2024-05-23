@@ -25,13 +25,16 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel negative energy (DC 14, 3d6, 6/ day), death's kiss (3 rounds, 4/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; melee touch +6)  3rd-animate deadD,
-  blindness/deafness (DC 17), invisibility purge, prayer  2nd-align weapon,
-  bear's endurance, ghoul touchD (DC 16), hold person (DC 16), spiritual weapon 
-  1st-bane (DC 15), cause fearD (DC 15), doom (DC 15), entropic shield,
-  obscuring mist  0 (at will)-bleed (DC 14), detect magic, detect poison,
-  guidance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; melee touch +6)  3rd-animate deadD,
+    blindness/deafness (DC 17), invisibility purge, prayer  2nd-align weapon,
+    bear's endurance, ghoul touchD (DC 16), hold person (DC 16), spiritual
+    weapon  1st-bane (DC 15), cause fearD (DC 15), doom (DC 15), entropic
+    shield, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, detect poison, guidance
 SpellDomains: UndeadAPG
 AbilityScores:
   - 14

@@ -30,13 +30,16 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: +1 on attack rolls against goblinoid and orc humanoids
-SpellsPrepared: >-
-  Abjurer Spells Prepared (CL 7th; concentration +11)  4th-black tentacles (2),
-  stoneskin  3rd-dispel magic, displacement, gaseous form, stinking cloud (DC
-  17)  2nd-glitterdust (DC 16), levitate, resist energy, see invisibility, web
-  (DC 16)  1st-alarm, color spray (DC 15), magic missile, shield, shocking
-  grasp, unseen servant  0 (at will)-detect magic, light, prestidigitation, read
-  magic  necromancy
+SpellsPrepared:
+  header: >-
+    Abjurer Spells Prepared (CL 7th; concentration +11)  4th-black tentacles
+    (2), stoneskin  3rd-dispel magic, displacement, gaseous form, stinking cloud
+    (DC 17)  2nd-glitterdust (DC 16), levitate, resist energy, see invisibility,
+    web (DC 16)  1st-alarm, color spray (DC 15), magic missile, shield, shocking
+    grasp, unseen servant
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, prestidigitation, read magic necromancy
 AbilityScores:
   - 8
   - 14

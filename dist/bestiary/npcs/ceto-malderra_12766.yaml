@@ -41,15 +41,18 @@ SpecialAttacks: >-
   invisibility), channel destruction (3d6 fire), channel negative energy 5/day
   (DC 21, 5d6), devastating blast (10d6 fire, DC 22, 3/day), fervor 11/day
   (5d6), sacred weapon (2d6, +3, 15 rounds/day), undead mastery (75 HD, DC 22)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 15th; concentration +19)   5th-flame strike (DC
-  19), righteous might, true seeing   4th-air walk, blessing of fervorAPG (DC
-  18), dimensional anchor, freedom of movement, spell immunity  
-  3rd-blindness/deafness (DC 17), dispel magic (2), invisibility purge, remove
-  curse, speak with dead (DC 17)   2nd-align weapon, bull's strength (2),
-  darkness, death knell (DC 16), resist energy   1st-comprehend languages,
-  divine favor (2), obscuring mist, protection from good, shield of faith   0
-  (at will)-bleed (DC 14), detect magic, guidance, mending, virtue
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 15th; concentration +19)   5th-flame strike
+    (DC 19), righteous might, true seeing   4th-air walk, blessing of fervorAPG
+    (DC 18), dimensional anchor, freedom of movement, spell immunity  
+    3rd-blindness/deafness (DC 17), dispel magic (2), invisibility purge, remove
+    curse, speak with dead (DC 17)   2nd-align weapon, bull's strength (2),
+    darkness, death knell (DC 16), resist energy   1st-comprehend languages,
+    divine favor (2), obscuring mist, protection from good, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, mending, virtue
 AbilityScores:
   - 24
   - 12

@@ -31,12 +31,16 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: dazing touch
-SpellsPrepared: >-
-  Enchanter Spells Prepared (CL 6th; concentration +10)   3rd-dispel magic,
-  displacement, hold person (DC 18), slow (DC 17)   2nd-acid arrow, glitterdust
-  (DC 16), hideous laughter (DC 17), mirror image, touch of idiocy   1st-alarm,
-  charm person (DC 16), mage armor, reduce person (DC 15), shield   0 (at
-  will)-acid splash, detect magic, mage hand, message
+SpellsPrepared:
+  header: >-
+    Enchanter Spells Prepared (CL 6th; concentration +10)   3rd-dispel magic,
+    displacement, hold person (DC 18), slow (DC 17)   2nd-acid arrow,
+    glitterdust (DC 16), hideous laughter (DC 17), mirror image, touch of
+    idiocy   1st-alarm, charm person (DC 16), mage armor, reduce person (DC 15),
+    shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, mage hand, message
 AbilityScores:
   - 18
   - 11

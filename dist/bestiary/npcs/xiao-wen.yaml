@@ -25,9 +25,13 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: spell combat (-2 attack)
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 1st; concentration +3)  1st-color spray (DC 13),
-  magic missile  0 (at will)-acid splash, daze (DC 12), ray of frost
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 1st; concentration +3)  1st-color spray (DC 13),
+    magic missile
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 12), ray of frost
 AbilityScores:
   - 17
   - 13

@@ -35,13 +35,16 @@ SpellLikeAbilities:
       value: dazing touch
     - label: 7/day
       value: copycat (6 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +10)   3rd-animate dead, dispel
-  magic, suggestionD (DC 18), summon monster III   2nd-bouncing charm personAPG,
-  darkness, death knell (DC 16), hold person (DC 17), invisibilityD   1st-bane
-  (DC 16), bless, charm personD (DC 16), forbid actionUM (DC 16), shield of
-  faith   0 (at will)-bleed (DC 14), detect magic, guidance, purify food and
-  drink
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +10)   3rd-animate dead,
+    dispel magic, suggestionD (DC 18), summon monster III   2nd-bouncing charm
+    personAPG, darkness, death knell (DC 16), hold person (DC 17),
+    invisibilityD   1st-bane (DC 16), bless, charm personD (DC 16), forbid
+    actionUM (DC 16), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, purify food and drink
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 10

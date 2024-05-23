@@ -40,13 +40,18 @@ SpellLikeAbilities:
       value: >-
         blur, dominate person (DC 18), major image (DC 16), mass suggestion (DC
         19), mirror image, suggestion (DC 16), teleport
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 9th; concentration +14)   3rd-dispel magic,
-  displacement, vampiric touch (2)   2nd-acid arrow, defensive shockUM, frigid
-  touchUM, invisibility, web (DC 17)   1st-burning hands (DC 16), chill touch
-  (DC 16), corrosive touchUM, magic missile, ray of enfeeblement (DC 16),
-  shocking grasp   0 (at will)-arcane mark, detect magic, mage hand,
-  prestidigitation (DC 15), read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 9th; concentration +14)   3rd-dispel magic,
+    displacement, vampiric touch (2)   2nd-acid arrow, defensive shockUM, frigid
+    touchUM, invisibility, web (DC 17)   1st-burning hands (DC 16), chill touch
+    (DC 16), corrosive touchUM, magic missile, ray of enfeeblement (DC 16),
+    shocking grasp
+  values:
+    - label: 0 (at will)
+      value: >-
+        arcane mark, detect magic, mage hand, prestidigitation (DC 15), read
+        magic
 AbilityScores:
   - 16
   - 23

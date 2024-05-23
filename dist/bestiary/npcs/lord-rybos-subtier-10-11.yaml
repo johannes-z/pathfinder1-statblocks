@@ -34,11 +34,15 @@ Melee:
 Space: 15 ft.
 Reach: 15 ft. (30 ft. with arms and tentacles)
 SpecialAttacks: constrict (4d6+15), hand of the apprentice (5/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 7th; concentration +9)   4th-stoneskin  
-  3rd-extended bull's strength, fly   2nd-blur, resist energy (2), extended
-  shield   1st-alarm, comprehend languages, mage armor, ray of enfeeblement (2,
-  DC 13)   0 (at will)-detect magic, light, mending, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 7th; concentration +9)   4th-stoneskin  
+    3rd-extended bull's strength, fly   2nd-blur, resist energy (2), extended
+    shield   1st-alarm, comprehend languages, mage armor, ray of enfeeblement
+    (2, DC 13)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, read magic
 AbilityScores:
   - 30
   - 15

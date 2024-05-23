@@ -37,16 +37,19 @@ SpellLikeAbilities:
         concentration +15)
     - label: 8/day
       value: icicle (1d6+5 cold), touch of evil (5 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +15)  5th-dispel goodD (DC 20),
-  insect plague, righteous might, slay living (DC 20)  4th-control waterD, cure
-  critical wounds, divine power, freedom of movement, unholy blight (DC 19) 
-  3rd-bestow curse (DC 18), dispel magic, invisibility purge, magic circle
-  against goodD, magic vestment  2nd-bear's endurance, death knell (DC 17),
-  enthrall (DC 17), fog cloudD, resist energy, sound burst (DC 17)  1st-bane (DC
-  16), bless, cure light wounds, divine favor, protection from goodD, sanctuary
-  (DC 16), shield of faith  0 (at will)-create water, detect poison, guidance,
-  purify food and water
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +15)  5th-dispel goodD (DC
+    20), insect plague, righteous might, slay living (DC 20)  4th-control
+    waterD, cure critical wounds, divine power, freedom of movement, unholy
+    blight (DC 19)  3rd-bestow curse (DC 18), dispel magic, invisibility purge,
+    magic circle against goodD, magic vestment  2nd-bear's endurance, death
+    knell (DC 17), enthrall (DC 17), fog cloudD, resist energy, sound burst (DC
+    17)  1st-bane (DC 16), bless, cure light wounds, divine favor, protection
+    from goodD, sanctuary (DC 16), shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, guidance, purify food and water
 SpellDomains: Evil, Water
 AbilityScores:
   - 18

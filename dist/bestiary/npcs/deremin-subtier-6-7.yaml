@@ -33,14 +33,17 @@ SpellLikeAbilities:
       value: lightning lord (8 bolts/day), master's illusion (8 rounds/day)
     - label: 6/day
       value: copycat (8 rounds), storm burst (1d6+4 nonlethal damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +11)  4th-confusionD (DC 17),
-  divine power, unholy blight (DC 17)  3rd-blindness/deafness (DC 16), call
-  lightningD (DC 16) cure serious wounds, magic vestment, water walk  2nd-cure
-  moderate wounds, invisibilityD, shatter (DC 15), sound burst (DC 15),
-  spiritual weapon  1st-bless, cause fear (DC 14), cure light wounds, magic
-  weapon, obscuring mistD, shield of faith  0 (at will)-bleed (DC 13), create
-  water, purify food and drink, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +11)  4th-confusionD (DC 17),
+    divine power, unholy blight (DC 17)  3rd-blindness/deafness (DC 16), call
+    lightningD (DC 16) cure serious wounds, magic vestment, water walk  2nd-cure
+    moderate wounds, invisibilityD, shatter (DC 15), sound burst (DC 15),
+    spiritual weapon  1st-bless, cause fear (DC 14), cure light wounds, magic
+    weapon, obscuring mistD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), create water, purify food and drink, stabilize
 SpellDomains: Trickery, Weather
 AbilityScores:
   - 14

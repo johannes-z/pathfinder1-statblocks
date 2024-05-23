@@ -39,17 +39,21 @@ SpellLikeAbilities:
       value: master's illusion (13 rounds/day)
     - label: 9/day
       value: battle rage (+6), copycat (13 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 13th; concentration +19)   7th-blasphemy (DC 23),
-  screenD (DC 23)   6th-blade barrierD (DC 22), quickened cure moderate wounds,
-  heal, word of recall   5th-quickened divine favor, extended greater magic
-  weapon, quickened sanctuary, scrying, wall of thornsD   4th-air walk,
-  confusionD (DC 20), cure critical wounds, discern lies (DC 20), extended magic
-  vestment (2)   3rd-cure serious wounds (3), dispel magic, speak with dead (DC
-  19), vampiric touchD   2nd-cure moderate wounds (2), death knell (DC 18),
-  invisibilityD, shield other, silence (DC 18), spiritual weapon   1st-cure
-  light wounds (4), disguise selfD, sanctuary (DC 17), shield of faith   0 (at
-  will)-bleed (DC 16), detect magic, read magic, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 13th; concentration +19)   7th-blasphemy (DC 23),
+    screenD (DC 23)   6th-blade barrierD (DC 22), quickened cure moderate
+    wounds, heal, word of recall   5th-quickened divine favor, extended greater
+    magic weapon, quickened sanctuary, scrying, wall of thornsD   4th-air walk,
+    confusionD (DC 20), cure critical wounds, discern lies (DC 20), extended
+    magic vestment (2)   3rd-cure serious wounds (3), dispel magic, speak with
+    dead (DC 19), vampiric touchD   2nd-cure moderate wounds (2), death knell
+    (DC 18), invisibilityD, shield other, silence (DC 18), spiritual weapon  
+    1st-cure light wounds (4), disguise selfD, sanctuary (DC 17), shield of
+    faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect magic, read magic, stabilize
 SpellDomains: Trickery, War (BloodAPG subdomain)
 AbilityScores:
   - 10

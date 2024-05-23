@@ -32,13 +32,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   arcane pool (+3, 9 points), improved spell combat, magus arcana (arcane
   accuracy, pool strike, prescient defenseUC), spell recall, spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 10th; concentration +14)   4th-dimension door,
-  wreath of bladesUC (DC 18)   3rd-fireball (DC 17), force punchUM (DC 17),
-  greater magic weapon, haste   2nd-bull's strength, defensive shockUM, frigid
-  touchUM, mirror image, scorching ray   1st-grease (DC 15), magic missile (2),
-  mount, shield, shocking grasp   0 (at will)-acid splash, dancing lights,
-  detect magic, mage hand, ray of frost
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 10th; concentration +14)   4th-dimension door,
+    wreath of bladesUC (DC 18)   3rd-fireball (DC 17), force punchUM (DC 17),
+    greater magic weapon, haste   2nd-bull's strength, defensive shockUM, frigid
+    touchUM, mirror image, scorching ray   1st-grease (DC 15), magic missile
+    (2), mount, shield, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: acid splash, dancing lights, detect magic, mage hand, ray of frost
 AbilityScores:
   - 18
   - 14

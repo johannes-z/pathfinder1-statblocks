@@ -32,13 +32,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel positive energy 4d6 4/day (DC 16), hexes (chant, evil eye,
   misfortune), spirit ability (monstrous insight 6/day)
-SpellsPrepared: >-
-  Shaman Spells Prepared (CL 7th; concentration +12)   4th-dimension door,
-  enervation, legend loreS   3rd-daylight, haste, fly, locate objectS  
-  2nd-barkskin, false life, resist energy, sickening entanglementACG (DC 17),
-  tonguesS   1st-entangle (DC 16), heightened awarenessACG, obscuring mist,
-  protection from evil, remove fear, wave shieldACG, identifyS   0 (at
-  will)-create water, detect magic, guidance, light
+SpellsPrepared:
+  header: >-
+    Shaman Spells Prepared (CL 7th; concentration +12)   4th-dimension door,
+    enervation, legend loreS   3rd-daylight, haste, fly, locate objectS  
+    2nd-barkskin, false life, resist energy, sickening entanglementACG (DC 17),
+    tonguesS   1st-entangle (DC 16), heightened awarenessACG, obscuring mist,
+    protection from evil, remove fear, wave shieldACG, identifyS
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, light
 AbilityScores:
   - 7
   - 10

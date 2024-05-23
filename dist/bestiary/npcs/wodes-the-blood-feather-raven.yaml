@@ -28,11 +28,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: lightning arc (1d6+2 electricity, 7/day), wild shape 5 hours/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 5th; concentration +9)   3rd-gaseous form, sleet
-  storm, summon nature's ally III   2nd-barkskin, cat's grace, heat metal (DC
-  16), wind wall  1st-charm animal (DC 15), magic fang, obscuring mist, produce
-  flame (2)   0 (at will)-detect magic, flare (DC 14), guidance, read magic
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 5th; concentration +9)   3rd-gaseous form, sleet
+    storm, summon nature's ally III   2nd-barkskin, cat's grace, heat metal (DC
+    16), wind wall  1st-charm animal (DC 15), magic fang, obscuring mist,
+    produce flame (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, flare (DC 14), guidance, read magic
 SpellDomains: Air
 AbilityScores:
   - 10

@@ -38,10 +38,13 @@ SpellLikeAbilities:
         School Spell-Like Abilities (CL 2nd; concentration +4)
     - label: 5/day
       value: dazing touch
-SpellsPrepared: >-
-  Enchanter Spells Prepared (CL 2nd; concentration +4)  1st-charm person (DC
-  13), color spray (DC 14), grease, sleep (DC 13)  0 (at will)-dancing lights,
-  ghost sound (2, DC 13), mage hand
+SpellsPrepared:
+  header: >-
+    Enchanter Spells Prepared (CL 2nd; concentration +4)  1st-charm person (DC
+    13), color spray (DC 14), grease, sleep (DC 13)
+  values:
+    - label: 0 (at will)
+      value: dancing lights, ghost sound (2, DC 13), mage hand
 AbilityScores:
   - 12
   - 13

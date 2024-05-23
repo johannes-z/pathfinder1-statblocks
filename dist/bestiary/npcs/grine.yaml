@@ -42,10 +42,13 @@ SpellLikeAbilities:
       value: bleeding touch (1 round)
     - label: 5/day
       value: copycat (1 round)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +3)  1st-command (DC 13),
-  disguise selfD (DC 13), shield of faith  0 (at will)-bleed (DC 12), detect
-  magic, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +3)  1st-command (DC 13),
+    disguise selfD (DC 13), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, read magic
 SpellDomains: Death, Trickery
 AbilityScores:
   - 12

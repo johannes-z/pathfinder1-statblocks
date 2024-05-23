@@ -34,11 +34,14 @@ SpellLikeAbilities:
       value: lore keeper
     - label: 5/day
       value: touch of evil (1 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +5)  2nd-detect thoughtsD (DC
-  14), hold person (DC 14), spiritual weapon  1st-cure light wounds (2),
-  protection from goodD, weapon of aweAPG  0 (at will)-bleed (DC 12), guidance,
-  resistance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +5)  2nd-detect thoughtsD (DC
+    14), hold person (DC 14), spiritual weapon  1st-cure light wounds (2),
+    protection from goodD, weapon of aweAPG
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), guidance, resistance, virtue
 SpellDomains: Evil, Knowledge
 AbilityScores:
   - 10

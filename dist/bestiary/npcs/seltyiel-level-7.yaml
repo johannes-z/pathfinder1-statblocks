@@ -32,12 +32,15 @@ Reach: 5 ft.
 SpecialAttacks: >-
   arcane pool (7 points, +2), magus arcana (arcane accuracy, empowered magic,
   spell shield), spell combat, spell recall, spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 7th; concentration +13)   3rd-daylight, dispel
-  magic   2nd-intensified corrosive touchUM, frigid touchUM, glitterdust (DC
-  16), intensified shocking grasp   1st-corrosive touchUM, enlarge person (DC
-  15), grease, shocking grasp (2)   0 (at will)-arcane mark, detect magic,
-  light, prestidigitation, sparkAPG (DC 14)
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 7th; concentration +13)   3rd-daylight, dispel
+    magic   2nd-intensified corrosive touchUM, frigid touchUM, glitterdust (DC
+    16), intensified shocking grasp   1st-corrosive touchUM, enlarge person (DC
+    15), grease, shocking grasp (2)
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, prestidigitation, sparkAPG (DC 14)
 AbilityScores:
   - 18
   - 14

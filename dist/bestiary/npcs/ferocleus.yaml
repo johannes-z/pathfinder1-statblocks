@@ -31,17 +31,20 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: acid dart (1d6+6 acid, 7/day), miasma, wild shape 13 hours/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 13th; concentration +17)  7th-creeping doom (DC 21),
-  elemental body IV (earth only)D  6th-antilife shell, repel wood, stoneskinD 
-  5th-baleful polymorph (DC 19), cure critical wounds, insect plague, wall of
-  stoneD  4th-dispel magic, flame strike (DC 18), freedom of movement, ice
-  storm, rusting grasp, spike stonesD (DC 18)  3rd-contagion (DC 18), poison (DC
-  18), protection from energy, sleet storm, stone shapeD, wind wall  2nd-bull's
-  strength, flaming sphere (DC 16), heat metal (DC 16), lesser restoration,
-  soften earth and stoneD, spider climb  1st-jump, longstrider, obscuring mist,
-  magic stoneD, pass without trace, produce flame  0 (at will)-detect magic,
-  light, stabilize, read magic
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 13th; concentration +17)  7th-creeping doom (DC
+    21), elemental body IV (earth only)D  6th-antilife shell, repel wood,
+    stoneskinD  5th-baleful polymorph (DC 19), cure critical wounds, insect
+    plague, wall of stoneD  4th-dispel magic, flame strike (DC 18), freedom of
+    movement, ice storm, rusting grasp, spike stonesD (DC 18)  3rd-contagion (DC
+    18), poison (DC 18), protection from energy, sleet storm, stone shapeD, wind
+    wall  2nd-bull's strength, flaming sphere (DC 16), heat metal (DC 16),
+    lesser restoration, soften earth and stoneD, spider climb  1st-jump,
+    longstrider, obscuring mist, magic stoneD, pass without trace, produce flame
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, stabilize, read magic
 SpellDomains: Earth
 AbilityScores:
   - 16

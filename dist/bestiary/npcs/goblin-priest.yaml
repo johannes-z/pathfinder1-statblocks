@@ -33,16 +33,19 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: touch of evil
-SpellsPrepared: >-
-  Spells Prepared (CL 10th; melee touch +7, ranged touch +8)  5th-dispel goodD,
-  greater command, mass inflict light wounds (DC 21), slay living (DC 21) 
-  4th-cure critical wounds, divine power, poison (DC 20), summon monster IV,
-  unholy blightD  3rd-animate dead, cure serious wounds, desecrate, dispel
-  magic, magic circle against goodD  2nd-bull's strength, cure moderate wounds,
-  hold person (DC 17), inflict moderate wounds (DC 18), shatterD (DC 18), sound
-  burst (DC 17), spiritual weapon  1st-bane, cure light wounds, divine favor,
-  doom (DC 17),sanctuary, shield of faith, truestrikeD  0 (at will)-bleed,
-  detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 10th; melee touch +7, ranged touch +8)  5th-dispel
+    goodD, greater command, mass inflict light wounds (DC 21), slay living (DC
+    21)  4th-cure critical wounds, divine power, poison (DC 20), summon monster
+    IV, unholy blightD  3rd-animate dead, cure serious wounds, desecrate, dispel
+    magic, magic circle against goodD  2nd-bull's strength, cure moderate
+    wounds, hold person (DC 17), inflict moderate wounds (DC 18), shatterD (DC
+    18), sound burst (DC 17), spiritual weapon  1st-bane, cure light wounds,
+    divine favor, doom (DC 17),sanctuary, shield of faith, truestrikeD
+  values:
+    - label: 0 (at will)
+      value: bleed, detect magic, guidance, read magic
 SpellDomains: Destruction, Evil
 AbilityScores:
   - 10

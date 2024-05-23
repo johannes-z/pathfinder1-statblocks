@@ -38,12 +38,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: force missile (1d4+2)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 5th; concentration +9)   3rd-fireball (DC 17), hold
-  person (DC 17), rechargeTG(DC 17)   2nd-toppling magic missile (2), scorching
-  ray (2)   1st-ear-piercing screamUM (DC 15), mage armor, shocking grasp,
-  stumble gapAPG (DC 15), technomancyTG   0 (at will)-acid splash, daze (DC 14),
-  flare (DC 14), open/close
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 5th; concentration +9)   3rd-fireball (DC 17),
+    hold person (DC 17), rechargeTG(DC 17)   2nd-toppling magic missile (2),
+    scorching ray (2)   1st-ear-piercing screamUM (DC 15), mage armor, shocking
+    grasp, stumble gapAPG (DC 15), technomancyTG
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 14), flare (DC 14), open/close
 AbilityScores:
   - 14
   - 18

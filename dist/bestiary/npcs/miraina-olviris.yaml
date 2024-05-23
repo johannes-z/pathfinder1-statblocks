@@ -29,17 +29,20 @@ SpellLikeAbilities:
       value: change shape (beast shape II or elemental body I, 11 rounds/day)
     - label: 12/day
       value: telekinetic fist (1d4+5 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 11th; concentration +20)   6th-greater dispel
-  magic, mage's lucubration, move earth   5th-baleful polymorph (DC 24), break
-  enchantment, elemental body II, plant shape I, wall of force   4th-charm
-  monster (DC 23), confusion (DC 23), dimensional anchor, mnemonic enhancer,
-  remove curse, stone shape   3rd-clairaudience/clairvoyance, deep slumber (DC
-  22), dispel magic, fly, haste, secret page, tongues   2nd-bear's endurance,
-  cat's grace, darkvision, detect thoughts (DC 21), false life, resist energy,
-  scorching ray   1st-burning hands (DC 20), charm person (DC 20), feather fall,
-  mage armor, shield, unseen servant   0 (at will)-detect magic, detect poison,
-  light, read magic
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 11th; concentration +20)   6th-greater dispel
+    magic, mage's lucubration, move earth   5th-baleful polymorph (DC 24), break
+    enchantment, elemental body II, plant shape I, wall of force   4th-charm
+    monster (DC 23), confusion (DC 23), dimensional anchor, mnemonic enhancer,
+    remove curse, stone shape   3rd-clairaudience/clairvoyance, deep slumber (DC
+    22), dispel magic, fly, haste, secret page, tongues   2nd-bear's endurance,
+    cat's grace, darkvision, detect thoughts (DC 21), false life, resist energy,
+    scorching ray   1st-burning hands (DC 20), charm person (DC 20), feather
+    fall, mage armor, shield, unseen servant
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, light, read magic
 AbilityScores:
   - 5
   - 11

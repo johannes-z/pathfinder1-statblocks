@@ -31,13 +31,17 @@ Reach: 5 ft.
 SpecialAttacks: >-
   blood frenzy, channel negative energy 5/day (DC 13, 4d6), destructive smite
   (+3, 8/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +12)   4th-dimension doorD, gift
-  of the deep*, unholy blight (DC 19)   3rd-air breathing*, flyD, prayer, summon
-  monster III   2nd-bear's endurance, cure moderate wounds, dread boltUM (DC
-  17), hold person (DC 17), shatterD (DC 17)   1st-command (DC 16), cure light
-  wounds (2), divine favor, murderous commandUM (DC 16), sanctuary, true
-  strikeD   0 (at will)-bleed (DC 15), detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +12)   4th-dimension doorD,
+    gift of the deep*, unholy blight (DC 19)   3rd-air breathing*, flyD, prayer,
+    summon monster III   2nd-bear's endurance, cure moderate wounds, dread
+    boltUM (DC 17), hold person (DC 17), shatterD (DC 17)   1st-command (DC 16),
+    cure light wounds (2), divine favor, murderous commandUM (DC 16), sanctuary,
+    true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, read magic
 SpellDomains: Destruction, Travel
 AbilityScores:
   - 20

@@ -35,12 +35,15 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: battle rage (+2), bleeding touch (2 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +7)   3rd-dispel magic, vampiric
-  touchD   2nd-cure moderate wounds, hold person (DC 14), sound burst (DC 14),
-  spiritual weaponD   1st-cause fearD (DC 13), command (DC 13), cure light
-  wounds (2), shield of faith   0 (at will)-bleed (DC 12), detect magic,
-  guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +7)   3rd-dispel magic,
+    vampiric touchD   2nd-cure moderate wounds, hold person (DC 14), sound burst
+    (DC 14), spiritual weaponD   1st-cause fearD (DC 13), command (DC 13), cure
+    light wounds (2), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, guidance, resistance
 SpellDomains: BloodAPG, MurderAPG
 AbilityScores:
   - 14

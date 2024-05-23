@@ -42,18 +42,35 @@ SpellLikeAbilities:
         concentration +24)
     - label: At Will
       value: detect magic
-SpellsPrepared: >-
-  Arcanist Spells Prepared (CL 16th; concentration +24)  8th (3/day)-greater
-  possessionOA (DC 26), temporal stasis (DC 28)  7th (5/day)-mage's sword,
-  reverse gravity  6th (5/day)-disintegrate (DC 28), greater dispel magic, wall
-  of iron  5th (5/day)-cone of cold (DC 23), smug narcissismUM (DC 23),
-  suffocationAPG (DC 23), waves of fatigue  4th (6/day)-black tentacles,
-  dimensional anchor, mindwipeOA (DC 22), wall of ice (DC 22)  3rd
-  (6/day)-dispel magic, fireball (DC 21), force punchUM (DC 21), slow (DC 23) 
-  2nd (6/day)-glitterdust (DC 20), mirror image, scorching ray, spectral hand,
-  web (DC 20)  1st (6/day)-mage armor, magic missile, shield, shocking grasp,
-  true strike  0 (at will)-acid splash, arcane mark, detect magic, light, mage
-  hand, message, open/close (DC 20), prestidigitation, read magic
+SpellsPrepared:
+  header: Arcanist Spells Prepared (CL 16th; concentration +24)
+  values:
+    - label: 8th (3/day)
+      value: greater possessionOA (DC 26), temporal stasis (DC 28)
+    - label: 7th (5/day)
+      value: mage's sword, reverse gravity
+    - label: 6th (5/day)
+      value: disintegrate (DC 28), greater dispel magic, wall of iron
+    - label: 5th (5/day)
+      value: >-
+        cone of cold (DC 23), smug narcissismUM (DC 23), suffocationAPG (DC 23),
+        waves of fatigue
+    - label: 4th (6/day)
+      value: >-
+        black tentacles, dimensional anchor, mindwipeOA (DC 22), wall of ice (DC
+        22)
+    - label: 3rd (6/day)
+      value: dispel magic, fireball (DC 21), force punchUM (DC 21), slow (DC 23)
+    - label: 2nd (6/day)
+      value: >-
+        glitterdust (DC 20), mirror image, scorching ray, spectral hand, web (DC
+        20)
+    - label: 1st (6/day)
+      value: mage armor, magic missile, shield, shocking grasp, true strike
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, detect magic, light, mage hand, message,
+        open/close (DC 20), prestidigitation, read magic
 AbilityScores:
   - null
   - 18

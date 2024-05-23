@@ -50,10 +50,14 @@ SpellLikeAbilities:
         (self plus 50 lbs. of objects only), vampiric touch
     - label: 1/day
       value: dominate person (DC 23), summon (level 3, 1 babau 50%)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; concentration +7)  2nd-calm emotionsD (DC 15), bear's
-  endurance, cat's grace  1st-cure light wounds (2), obscuring mistD, shield of
-  faith  0 (at will)-bleed (DC 14), detect magic, guidance, mending
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; concentration +7)  2nd-calm emotionsD (DC 15),
+    bear's endurance, cat's grace  1st-cure light wounds (2), obscuring mistD,
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, mending
 SpellDomains: Charm, Darkness
 AbilityScores:
   - 17

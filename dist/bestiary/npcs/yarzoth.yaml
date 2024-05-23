@@ -40,11 +40,15 @@ SpellLikeAbilities:
       value: >-
         blur, dominate person (DC 18), major image, mirror image, suggestion (DC
         17)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +9) 2nd-cure moderate wounds,
-  enthrallD (DC 17), sound burst (DC 17), summon monster II 1st-command (DC 16),
-  cure light wounds (2), divine favorD, hide from undead (DC 16), summon monster
-  I 0 (at will)-create water, detect magic, purify food and water, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +9) 2nd-cure moderate wounds,
+    enthrallD (DC 17), sound burst (DC 17), summon monster II 1st-command (DC
+    16), cure light wounds (2), divine favorD, hide from undead (DC 16), summon
+    monster I
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, purify food and water, read magic
 SpellDomains: Evil, Nobility
 AbilityScores:
   - 12

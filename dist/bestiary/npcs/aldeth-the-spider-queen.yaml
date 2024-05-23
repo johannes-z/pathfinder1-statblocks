@@ -28,14 +28,18 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (+10, 7/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 12th; ranged touch +10)  6th-circle of death (DC 20), mass
-  suggestion (DC 22)  5th-dominate person (DC 21), feeblemind (DC 21), wall of
-  force  4th-confusion (DC 20), greater invisibility, solid fog, stoneskin 
-  3rd-displacement, gaseous form, haste, slow (DC 17), stinking cloud 
-  2nd-darkness, invisibility, protection from arrows, see invisibility, web 
-  1st-charm person (DC 17), disguise self, obscuring mist, ray of enfeeblement,
-  shield  0 (at will)-dancing lights, daze (DC 16), read magic, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 12th; ranged touch +10)  6th-circle of death (DC 20),
+    mass suggestion (DC 22)  5th-dominate person (DC 21), feeblemind (DC 21),
+    wall of force  4th-confusion (DC 20), greater invisibility, solid fog,
+    stoneskin  3rd-displacement, gaseous form, haste, slow (DC 17), stinking
+    cloud  2nd-darkness, invisibility, protection from arrows, see invisibility,
+    web  1st-charm person (DC 17), disguise self, obscuring mist, ray of
+    enfeeblement, shield
+  values:
+    - label: 0 (at will)
+      value: dancing lights, daze (DC 16), read magic, resistance
 AbilityScores:
   - 10
   - 18

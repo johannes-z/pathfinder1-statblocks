@@ -24,14 +24,17 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: binding darkness
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 13th; concentration +18)   7th-mass hold person (DC
-  22), greater shadow conjuration   6th-forceful hand (2), mislead (DC 22)  
-  5th-cloak of shadows*, shadow evocation (3, DC 21)   4th-phantasmal killer (2,
-  DC 20), shadow conjuration (2), shadow jaunt* (2)   3rd-fireball (4, DC 18),
-  invisibility sphere (2)   2nd-blur (3), shadow claws* (DC 18, 2)   1st-mage
-  armor, magic missile (6)   0 (at will)-detect magic, ghost sound (DC 16),
-  light, message
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 13th; concentration +18)   7th-mass hold person
+    (DC 22), greater shadow conjuration   6th-forceful hand (2), mislead (DC
+    22)   5th-cloak of shadows*, shadow evocation (3, DC 21)   4th-phantasmal
+    killer (2, DC 20), shadow conjuration (2), shadow jaunt* (2)   3rd-fireball
+    (4, DC 18), invisibility sphere (2)   2nd-blur (3), shadow claws* (DC 18,
+    2)   1st-mage armor, magic missile (6)
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 16), light, message
 AbilityScores:
   - 8
   - 14

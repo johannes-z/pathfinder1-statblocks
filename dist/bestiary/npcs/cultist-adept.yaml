@@ -28,12 +28,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: acid dart (1d6+2 acid)
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; concentration +9)   3rd-deep slumber (DC 17), sleet
-  storm (2), stinking cloud (DC 18)   2nd-fog cloud, glitterdust (DC 17), scare
-  (DC 16), web (2, DC 17)   1st-expeditious retreat, grease (2), mage armor,
-  obscuring mist, shield   0 (at will)-acid splash, detect magic, mage hand,
-  read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; concentration +9)   3rd-deep slumber (DC 17), sleet
+    storm (2), stinking cloud (DC 18)   2nd-fog cloud, glitterdust (DC 17),
+    scare (DC 16), web (2, DC 17)   1st-expeditious retreat, grease (2), mage
+    armor, obscuring mist, shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, mage hand, read magic
 AbilityScores:
   - 8
   - 13

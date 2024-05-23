@@ -35,15 +35,18 @@ SpellLikeAbilities:
       value: summon swarm
     - label: 1/day
       value: summon monster VI (1 succubus, 1d3 babaus, or 1d4+1 brimoraks**)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 10th; concentration +15)  5th-cloudkill, suffocation
-  (DC 20)*, teleport  4th-black tentacles, phantasmal killer (DC 19), spite*
-  (already cast), threefold aspect* (already cast)  3rd-bestow curse (DC 18),
-  contagion (DC 18), screech (DC18)*, vampiric touch (DC 18) 
-  2nd-blindness/deafness (DC 17), burning gaze*, false life, vomit swarm*, web 
-  1st-burning hands (DC 16), cause fear (DC 16), charm person (DC 16), mage
-  armor (already cast), obscuring mist, ray of enfeeblement (DC 16)  0 (at
-  will)-bleed (DC 15), detect magic, putrefy food and drink*, resistance
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 10th; concentration +15)  5th-cloudkill,
+    suffocation (DC 20)*, teleport  4th-black tentacles, phantasmal killer (DC
+    19), spite* (already cast), threefold aspect* (already cast)  3rd-bestow
+    curse (DC 18), contagion (DC 18), screech (DC18)*, vampiric touch (DC 18) 
+    2nd-blindness/deafness (DC 17), burning gaze*, false life, vomit swarm*,
+    web  1st-burning hands (DC 16), cause fear (DC 16), charm person (DC 16),
+    mage armor (already cast), obscuring mist, ray of enfeeblement (DC 16)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, putrefy food and drink*, resistance
 AbilityScores:
   - 8
   - 14

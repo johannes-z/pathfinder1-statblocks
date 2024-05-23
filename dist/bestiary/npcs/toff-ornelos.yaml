@@ -24,18 +24,22 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (9/day), metamagic mastery (5/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 16th; concentration +22)  8th-mass charm monster
-  (DC 24), heightened prismatic spray (DC 26)  7th-finger of death (DC 23) ,
-  quickened fireball (DC 21), forcecage (DC 25)  6th-quickened bear's endurance,
-  chain lightning (DC 24), disintegrate, greater dispel magic  5th-cone of cold
-  (DC 23), dominate person (DC 21), heightened fireball (DC 23), quickened
-  shield, teleport  4th-black tentacles, dimension door, enervation (DC 20),
-  shout (DC 22), wall of fire (DC 22)  3rd-fireball (DC 21), fly, heroism, slow
-  (DC 19), vampiric touch  2nd-blur, detect thoughts (DC 18), fox's cunning,
-  scorching ray, see invisibility, spectral hand  1st-burning hands (DC 19),
-  expeditious retreat, magic missile (2), obscuring mist, ray of enfeeblement
-  (DC 17)  0 (at will)-detect magic, light, mending, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 16th; concentration +22)  8th-mass charm monster
+    (DC 24), heightened prismatic spray (DC 26)  7th-finger of death (DC 23) ,
+    quickened fireball (DC 21), forcecage (DC 25)  6th-quickened bear's
+    endurance, chain lightning (DC 24), disintegrate, greater dispel magic 
+    5th-cone of cold (DC 23), dominate person (DC 21), heightened fireball (DC
+    23), quickened shield, teleport  4th-black tentacles, dimension door,
+    enervation (DC 20), shout (DC 22), wall of fire (DC 22)  3rd-fireball (DC
+    21), fly, heroism, slow (DC 19), vampiric touch  2nd-blur, detect thoughts
+    (DC 18), fox's cunning, scorching ray, see invisibility, spectral hand 
+    1st-burning hands (DC 19), expeditious retreat, magic missile (2), obscuring
+    mist, ray of enfeeblement (DC 17)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, read magic
 AbilityScores:
   - 9
   - 11

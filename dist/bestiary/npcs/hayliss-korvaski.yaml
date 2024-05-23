@@ -31,10 +31,13 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: resistant touch +1
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +5)   1st-command (DC 14),
-  detect chaos, protection from chaos, sanctuaryD (DC 14)   0 (at will)-create
-  water, detect magic, light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +5)   1st-command (DC 14),
+    detect chaos, protection from chaos, sanctuaryD (DC 14)
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, light, mending
 SpellDomains: Protection, Travel
 AbilityScores:
   - 14

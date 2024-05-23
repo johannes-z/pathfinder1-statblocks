@@ -30,15 +30,19 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy 6/day (DC 16, 5d6), destructive aura (30 ft., +5, 10
   rounds/day), destructive smite (+5, 8/day), part the veil (5/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +15)  5th-flame strike (DC 20),
-  greater command (DC 21), shoutD (DC 20), symbol of pain (DC 21)  4th-confusion
-  (2, DC 20), freedom of movement, greater magic weapon, inflict critical
-  woundsD (DC 20)  3rd-bestow curse (2, DC 19), dispel magic, glyph of warding,
-  rageD  2nd-bear's endurance, calm spiritOA (2, DC 18), hold person (DC 18),
-  shatterD (DC 17), spiritual weapon  1st-bane (DC 17), command (2, DC 17), doom
-  (DC 17), sanctuary (DC 16), shield of faith, true strikeD  0 (at will)-bleed
-  (DC 16), guidance, purify food and drink, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +15)  5th-flame strike (DC
+    20), greater command (DC 21), shoutD (DC 20), symbol of pain (DC 21) 
+    4th-confusion (2, DC 20), freedom of movement, greater magic weapon, inflict
+    critical woundsD (DC 20)  3rd-bestow curse (2, DC 19), dispel magic, glyph
+    of warding, rageD  2nd-bear's endurance, calm spiritOA (2, DC 18), hold
+    person (DC 18), shatterD (DC 17), spiritual weapon  1st-bane (DC 17),
+    command (2, DC 17), doom (DC 17), sanctuary (DC 16), shield of faith, true
+    strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), guidance, purify food and drink, resistance
 SpellDomains: Destruction, Void
 AbilityScores:
   - 18

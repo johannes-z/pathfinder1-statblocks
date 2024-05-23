@@ -27,18 +27,21 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel energy (7/day, 7d6, DC 18), death's kiss (6 rounds, 7/day), touch of
   darkness (13/day, DC 19)
-SpellsPrepared: >-
-  Spells Prepared (CL 13th; melee touch +12, ranged touch +9)  7th-destructionD
-  (DC 21), mass inflict serious wounds (DC 21)  6th-create undeadD, greater
-  dispel magic, harm (DC 20)  5th-flame strike (DC 19), greater command (DC 19),
-  righteous might, slay livingD (DC 19)  4th-air walk, divine power,
-  enervationD, freedom of movement, poison (DC 18), restoration  3rd-animate
-  deadD, bestow curse (DC 17), blindness/ deafness (DC 17), prayer, protection
-  from energy, speak with dead (DC 17)  2nd-bull's strength, ghoul touchD (DC
-  16), hold person (DC 16), owl's wisdom, silence (DC 16), sound burst (DC 21) 
-  1st-bane (DC 15), command (DC 15), detect undead, doomD (DC 15), protection
-  from good, sanctuary (DC 15)  0 (at will)-detect magic, guidance, light,
-  resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 13th; melee touch +12, ranged touch +9) 
+    7th-destructionD (DC 21), mass inflict serious wounds (DC 21)  6th-create
+    undeadD, greater dispel magic, harm (DC 20)  5th-flame strike (DC 19),
+    greater command (DC 19), righteous might, slay livingD (DC 19)  4th-air
+    walk, divine power, enervationD, freedom of movement, poison (DC 18),
+    restoration  3rd-animate deadD, bestow curse (DC 17), blindness/ deafness
+    (DC 17), prayer, protection from energy, speak with dead (DC 17)  2nd-bull's
+    strength, ghoul touchD (DC 16), hold person (DC 16), owl's wisdom, silence
+    (DC 16), sound burst (DC 21)  1st-bane (DC 15), command (DC 15), detect
+    undead, doomD (DC 15), protection from good, sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, resistance
 SpellDomains: UndeadAPG
 AbilityScores:
   - 16

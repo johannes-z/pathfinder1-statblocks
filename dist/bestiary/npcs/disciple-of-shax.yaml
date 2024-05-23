@@ -44,14 +44,17 @@ SpellLikeAbilities:
         Spell-Like Abilities (CL 7th; concentration +11)
     - label: 7/day
       value: inspiring word (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)  4th-cure critical wounds,
-  inflict critical woundsD (DC 18), unholy blight (DC 18) 
-  3rd-blindness/deafness (DC 17), dispel magic, magic vestmentD, speak with dead
-  (DC 17)  2nd-cure moderate wounds (2), hold person (DC 16), shatterD (DC 16),
-  spiritual weapon  1st-cure light wounds (2), deathwatch, divine favorD,
-  sanctuary (DC 15), shield of faith  0 (at will)-bleed (DC 14), detect magic,
-  mending, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)  4th-cure critical
+    wounds, inflict critical woundsD (DC 18), unholy blight (DC 18) 
+    3rd-blindness/deafness (DC 17), dispel magic, magic vestmentD, speak with
+    dead (DC 17)  2nd-cure moderate wounds (2), hold person (DC 16), shatterD
+    (DC 16), spiritual weapon  1st-cure light wounds (2), deathwatch, divine
+    favorD, sanctuary (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, mending, stabilize
 SpellDomains: Destruction, Nobility
 AbilityScores:
   - 15

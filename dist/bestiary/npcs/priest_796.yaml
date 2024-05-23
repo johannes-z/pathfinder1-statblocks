@@ -32,14 +32,17 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: rebuke death, touch of law
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th, concentration +13) 5th-breath of lifeD,
-  righteous might 4th-air walk, freedom of movement, order's wrathD (DC 18),
-  spell immunity 3rd-daylight, dispel magic, magic circle against chaosD,
-  prayer, searing light 2nd-aid, bull's strength, cure moderate woundsD, delay
-  poison, spiritual weapon, status 1st-bless, detect chaos, divine favor (2),
-  protection from chaosD, shield of faith 0 (at will)-create water, detect
-  magic, detect poison, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th, concentration +13) 5th-breath of lifeD,
+    righteous might 4th-air walk, freedom of movement, order's wrathD (DC 18),
+    spell immunity 3rd-daylight, dispel magic, magic circle against chaosD,
+    prayer, searing light 2nd-aid, bull's strength, cure moderate woundsD, delay
+    poison, spiritual weapon, status 1st-bless, detect chaos, divine favor (2),
+    protection from chaosD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, detect poison, stabilize
 SpellDomains: Healing, Law
 AbilityScores:
   - 14

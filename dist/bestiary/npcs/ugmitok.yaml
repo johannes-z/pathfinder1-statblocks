@@ -38,14 +38,17 @@ SpellLikeAbilities:
       value: pass without trace (self only)
     - label: 3/day
       value: quench
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 10th; concentration +14)   5th-animal growth (DC
-  19), control winds (DC 19)   4th-air walk, ice storm, spike stones (DC 18),
-  strong jawAPG (DC 18)   3rd-greater magic fang, dominate animal (DC 17), sleet
-  storm, stone shape   2nd-barkskin, chill metal (DC 16), flaming sphere (DC
-  16), fog cloud, soften earth and stone   1st-faerie fire, frostbiteUM, hide
-  from animals, longstrider, snow shapeHOG   0 (at will)-create water, detect
-  magic, light, sparkAPG (DC 14)
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 10th; concentration +14)   5th-animal growth (DC
+    19), control winds (DC 19)   4th-air walk, ice storm, spike stones (DC 18),
+    strong jawAPG (DC 18)   3rd-greater magic fang, dominate animal (DC 17),
+    sleet storm, stone shape   2nd-barkskin, chill metal (DC 16), flaming sphere
+    (DC 16), fog cloud, soften earth and stone   1st-faerie fire, frostbiteUM,
+    hide from animals, longstrider, snow shapeHOG
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, light, sparkAPG (DC 14)
 AbilityScores:
   - 18
   - 19

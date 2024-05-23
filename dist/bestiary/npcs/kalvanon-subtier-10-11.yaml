@@ -30,16 +30,21 @@ Reach: 5 ft.
 SpecialAttacks: >-
   cold blast (7/day, 1d6+5 plus staggered, DC 19), corrupting gaze (DC 18),
   draining touch, wave
-SpellsPrepared: >-
-  Wizard Spells Prepared  (CL 10th; concentration +14)   5th-cone of cold (DC
-  21), geyserAPG (DC 19)   4th-bestow curse (DC 18), crushing despair (DC 18),
-  enervation, ice storm, elemental spell lightning bolt [cold] (DC 17)  
-  3rd-dispel magic, elemental auraAPG (DC 17), hydraulic torrentAPG, protection
-  from energy, wind wall   2nd-acid arrow (2), blindness/deafness (DC 16),
-  elemental touchAPG (DC 16), fog cloud, shatter (DC 16)   1st-chill touch,
-  grease, hydraulic pushAPG, mage armor, obscuring mist, protection from good  
-  0 (at will)-dancing lights, daze (DC 14), mage hand, read magic  Opposition
-  School Fire
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared  (CL 10th; concentration +14)   5th-cone of cold (DC
+    21), geyserAPG (DC 19)   4th-bestow curse (DC 18), crushing despair (DC 18),
+    enervation, ice storm, elemental spell lightning bolt [cold] (DC 17)  
+    3rd-dispel magic, elemental auraAPG (DC 17), hydraulic torrentAPG,
+    protection from energy, wind wall   2nd-acid arrow (2), blindness/deafness
+    (DC 16), elemental touchAPG (DC 16), fog cloud, shatter (DC 16)   1st-chill
+    touch, grease, hydraulic pushAPG, mage armor, obscuring mist, protection
+    from good
+  values:
+    - label: 0 (at will)
+      value: >-
+        dancing lights, daze (DC 14), mage hand, read magic Opposition School
+        Fire
 AbilityScores:
   - null
   - 14

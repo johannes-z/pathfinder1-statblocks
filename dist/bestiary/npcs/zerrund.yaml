@@ -37,12 +37,16 @@ SpellLikeAbilities:
       value: elemental wall (8 rounds/day)
     - label: 7/day
       value: force missile (1d4+4)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 8th; concentration +12)   4th-ice storm (2),
-  empowered scorching ray (3)   3rd-fly, lightning bolt (3, DC 17), empowered
-  magic missile (2)   2nd-enlarged charm person (DC 15), enlarged magic missile
-  (3), scorching ray (2)   1st-charm person (DC 15), magic missile (4), shocking
-  grasp (2)   0 (at will)-detect magic, light, message, ray of frost
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 8th; concentration +12)   4th-ice storm (2),
+    empowered scorching ray (3)   3rd-fly, lightning bolt (3, DC 17), empowered
+    magic missile (2)   2nd-enlarged charm person (DC 15), enlarged magic
+    missile (3), scorching ray (2)   1st-charm person (DC 15), magic missile
+    (4), shocking grasp (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, message, ray of frost
 AbilityScores:
   - 12
   - 20

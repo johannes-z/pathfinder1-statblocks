@@ -32,11 +32,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: icicle (1d6+2 cold damage, 6/day), tangling tentacles
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 4th; concentration +7)   2nd-barkskin, chill metal,
-  fog cloud  1st-entangle (DC 14), hydraulic push*, longstrider, obscuring mist,
-  speak with animals   0 (at will)-detect magic, flare (DC 13), guidance,
-  resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 4th; concentration +7)   2nd-barkskin, chill
+    metal, fog cloud  1st-entangle (DC 14), hydraulic push*, longstrider,
+    obscuring mist, speak with animals
+  values:
+    - label: 0 (at will)
+      value: detect magic, flare (DC 13), guidance, resistance
 SpellDomains: Water
 AbilityScores:
   - 15

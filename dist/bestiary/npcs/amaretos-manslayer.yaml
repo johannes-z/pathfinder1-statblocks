@@ -38,13 +38,16 @@ SpecialAttacks: >-
   devastating blast (8d6 electricity, DC 19, 3/day), greater spell combat,
   improved spell recall, magus arcana (arcane accuracy, critical strike, hasted
   assault, maximized magic), spellstrike, undead mastery (70 HD, DC 19)
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 14th; concentration +17)   5th-cloudkill (DC 18),
-  interposing hand   4th-black tentacles, fire shield, phantasmal killer (DC
-  17), shout (DC 17)   3rd-fly, lightning bolt (DC 16), ray of exhaustion (DC
-  16), vampiric touch (2)   2nd-blur, mirror image, scorching ray (2), web (2,
-  DC 15)   1st-feather fall, magic missile (3), shield, shocking grasp   0 (at
-  will)-dancing lights, detect magic, mage hand, prestidigitation, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 14th; concentration +17)   5th-cloudkill (DC 18),
+    interposing hand   4th-black tentacles, fire shield, phantasmal killer (DC
+    17), shout (DC 17)   3rd-fly, lightning bolt (DC 16), ray of exhaustion (DC
+    16), vampiric touch (2)   2nd-blur, mirror image, scorching ray (2), web (2,
+    DC 15)   1st-feather fall, magic missile (3), shield, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, mage hand, prestidigitation, read magic
 AbilityScores:
   - 20
   - 18

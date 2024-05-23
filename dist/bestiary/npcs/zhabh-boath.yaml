@@ -37,14 +37,17 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: touch of chaos
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +12) 5th-flame strike (DC 18),
-  summon monster VD 4th-chaos hammerD (DC 17), divine power, summon monster IV
-  3rd-bestow curse (DC 16), dispel magic, flyD, searing light, summon monster
-  III 2nd-bull's strength, death knell (DC 15), instant armor**, resist energy,
-  spiritual weapon, summon monster IID 1st-bane (DC 14), command (DC 14), doom
-  (DC 14), obscuring mist, protection from lawD, shield of faith 0 (at
-  will)-bleed (DC 13), detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +12) 5th-flame strike (DC 18),
+    summon monster VD 4th-chaos hammerD (DC 17), divine power, summon monster IV
+    3rd-bestow curse (DC 16), dispel magic, flyD, searing light, summon monster
+    III 2nd-bull's strength, death knell (DC 15), instant armor**, resist
+    energy, spiritual weapon, summon monster IID 1st-bane (DC 14), command (DC
+    14), doom (DC 14), obscuring mist, protection from lawD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, guidance, resistance
 SpellDomains: Chaos, Void (Dark Tapestry subdomain*)
 AbilityScores:
   - 22

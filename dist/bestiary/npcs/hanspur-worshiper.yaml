@@ -26,12 +26,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 1/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 5th; concentration +8)   3rd-call lightning (DC 16),
-  rain of frogsUM, water breathingD   2nd-barkskin, fog cloud, slipstreamAPG, D
-  (DC 15), warp wood (DC 15)   1st-cure light wounds (2), hydraulic pushAPG, D,
-  magic stone, produce flame   0 (at will)-detect magic, flare (DC 13),
-  guidance, light
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 5th; concentration +8)   3rd-call lightning (DC
+    16), rain of frogsUM, water breathingD   2nd-barkskin, fog cloud,
+    slipstreamAPG, D (DC 15), warp wood (DC 15)   1st-cure light wounds (2),
+    hydraulic pushAPG, D, magic stone, produce flame
+  values:
+    - label: 0 (at will)
+      value: detect magic, flare (DC 13), guidance, light
 SpellDomains: AquaticUM
 AbilityScores:
   - 16

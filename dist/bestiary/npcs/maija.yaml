@@ -34,12 +34,15 @@ Reach: 10 ft.
 SpecialAttacks: >-
   hexes (evil eye [-2, 6 rounds], misfortune [1 round], slumber [6 rounds], ward
   [+2]), rock throwing (120 ft.)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 6th; concentration +9)    3rd-dispel magic, ray of
-  exhaustion (DC 17), vampiric touch   2nd-blindness/deafness (DC 16), cure
-  moderate wounds, glitterdust (DC 15), see invisibility   1st-burning hands (DC
-  14), command (DC 14), ray of enfeeblement (DC 15), shield of faith   0 (at
-  will)-bleed (DC 14), detect magic, guidance, touch of fatigue (DC 14)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 6th; concentration +9)    3rd-dispel magic, ray of
+    exhaustion (DC 17), vampiric touch   2nd-blindness/deafness (DC 16), cure
+    moderate wounds, glitterdust (DC 15), see invisibility   1st-burning hands
+    (DC 14), command (DC 14), ray of enfeeblement (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, touch of fatigue (DC 14)
 AbilityScores:
   - 27
   - 13

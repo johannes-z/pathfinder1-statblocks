@@ -28,10 +28,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel negative energy 4/day (DC 10, 2d6), death's kiss 2/day (1 round)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; melee touch +4, ranged touch +2)  2nd-aid, darkness,
-  ghoul touchD (DC 15)   1st-cause fearD (DC 14), endure elements, magic weapon,
-  summon monster I   0 (at will)-create water, detect magic, read magic, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; melee touch +4, ranged touch +2)  2nd-aid,
+    darkness, ghoul touchD (DC 15)   1st-cause fearD (DC 14), endure elements,
+    magic weapon, summon monster I
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, read magic, virtue
 SpellDomains: UndeadAPG
 AbilityScores:
   - 14

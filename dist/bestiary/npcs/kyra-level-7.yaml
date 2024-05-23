@@ -31,13 +31,17 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: rebuke death (1d4+3)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)   4th-cure critical wounds,
-  fire shieldD, holy smite (DC 18)   3rd-cure serious wounds, dispel magic,
-  invisibility purge, searing lightD   2nd-bull's strength, cure moderate
-  wounds, heat metalD (DC 16), hold person (DC 16), spiritual weapon  
-  1st-bless, command (DC 15), cure light wounds, divine favor, endure elementsD,
-  shield of faith   0 (at will)-detect magic, guidance, light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)   4th-cure critical
+    wounds, fire shieldD, holy smite (DC 18)   3rd-cure serious wounds, dispel
+    magic, invisibility purge, searing lightD   2nd-bull's strength, cure
+    moderate wounds, heat metalD (DC 16), hold person (DC 16), spiritual
+    weapon   1st-bless, command (DC 15), cure light wounds, divine favor, endure
+    elementsD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, stabilize
 SpellDomains: Healing, Sun
 AbilityScores:
   - 14

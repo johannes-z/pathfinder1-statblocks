@@ -42,15 +42,19 @@ SpellLikeAbilities:
       value: >-
         blur, dominate person (DC 19), major image (DC 17), mass suggestion (DC
         20), mirror image, suggestion (DC 17), teleport
-SpellsPrepared: >-
-  Spells Prepared(CL 9th; melee touch +12, ranged touch +12) 5th-greater command
-  (DC 20), flame strike, slay livingD (DC 20) 4th-cure critical wounds, divine
-  power, poison (DC 19), unholy blightD (DC 19) 3rd-blindness/deafness (DC 18),
-  cure serious wounds, dispel magic, invisibility purge, magic circle against
-  goodD (DC 18) 2nd-aid, bull's strength, cure moderate wounds, desecrateD, hold
-  person (DC 17), sound burst (DC 17) 1st-bane (DC 16), cause fear (DC 16), cure
-  light wounds (x2), doom (DC 16), entropic shield, protection from goodD 0 (at
-  will)-detect magic, guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared(CL 9th; melee touch +12, ranged touch +12) 5th-greater
+    command (DC 20), flame strike, slay livingD (DC 20) 4th-cure critical
+    wounds, divine power, poison (DC 19), unholy blightD (DC 19)
+    3rd-blindness/deafness (DC 18), cure serious wounds, dispel magic,
+    invisibility purge, magic circle against goodD (DC 18) 2nd-aid, bull's
+    strength, cure moderate wounds, desecrateD, hold person (DC 17), sound burst
+    (DC 17) 1st-bane (DC 16), cause fear (DC 16), cure light wounds (x2), doom
+    (DC 16), entropic shield, protection from goodD
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance
 SpellDomains: Death, Evil
 AbilityScores:
   - 12

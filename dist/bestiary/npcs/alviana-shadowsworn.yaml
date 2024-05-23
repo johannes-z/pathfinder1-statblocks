@@ -27,12 +27,15 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 2/day
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; concentration +10) 3rd-call lightning (DC 17),
-  invisibility, poison (DC 17) 2nd-barkskin, chill touch (DC 16), gust of wind
-  (DC 16), summon swarm 1st-cure light wounds, entangle (DC 15), magic stone,
-  touch of fatigue (DC 15) 0 (at will)-detect magic, disrupt undead, guidance,
-  ray of frost
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; concentration +10) 3rd-call lightning (DC 17),
+    invisibility, poison (DC 17) 2nd-barkskin, chill touch (DC 16), gust of wind
+    (DC 16), summon swarm 1st-cure light wounds, entangle (DC 15), magic stone,
+    touch of fatigue (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect magic, disrupt undead, guidance, ray of frost
 AbilityScores:
   - 8
   - 12

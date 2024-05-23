@@ -32,10 +32,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: resistant touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +3)  1st-bless (already cast),
-  cause fear (DC 13), sanctuaryD  0 (at will)-detect magic, detect poison, read
-  magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +3)  1st-bless (already cast),
+    cause fear (DC 13), sanctuaryD
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, read magic
 SpellDomains: Destruction, Protection
 AbilityScores:
   - 8

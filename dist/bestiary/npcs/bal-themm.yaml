@@ -33,10 +33,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: gentle rest, rebuke death (1d4+1)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +4)   1st-bless, cure light
-  woundsD (DC 13), detect undead, magic weapon   0 (at will)-create water,
-  guidance, light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +4)   1st-bless, cure light
+    woundsD (DC 13), detect undead, magic weapon
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, light, stabilize
 SpellDomains: Healing, Repose
 AbilityScores:
   - 10

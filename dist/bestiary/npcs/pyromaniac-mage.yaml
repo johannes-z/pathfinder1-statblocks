@@ -33,18 +33,21 @@ SpellLikeAbilities:
       value: elemental wall (13 rounds/day)
     - label: 9/day
       value: force missile (1d4+6)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 13th; concentration +19)   7th-delayed blast
-  fireball (DC 25), statue   6th-elemental body III, maximized fireball (2, DC
-  21), greater dispel magic   5th-passwall, maximized scorching ray (2),
-  telekinesis, waves of fatigue   4th-maximized burning hands (2, DC 19),
-  greater invisibility, phantasmal killer (DC 20), shout (DC 22), wall of fire  
-  3rd-dispel magic, explosive runes, fireball (DC 21), flame arrow, fly,
-  protection from energy   2nd-flaming sphere (DC 20), gust of wind (DC 20),
-  pyrotechnics (2, DC 18), resist energy, scorching ray, web (DC 18)  
-  1st-burning hands (DC 19), expeditious retreat, grease, mage armor, magic
-  missile (2), ray of enfeeblement (DC 17)   0 (at will)-bleed (DC 16), dancing
-  lights, mage hand, open/close
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 13th; concentration +19)   7th-delayed blast
+    fireball (DC 25), statue   6th-elemental body III, maximized fireball (2, DC
+    21), greater dispel magic   5th-passwall, maximized scorching ray (2),
+    telekinesis, waves of fatigue   4th-maximized burning hands (2, DC 19),
+    greater invisibility, phantasmal killer (DC 20), shout (DC 22), wall of
+    fire   3rd-dispel magic, explosive runes, fireball (DC 21), flame arrow,
+    fly, protection from energy   2nd-flaming sphere (DC 20), gust of wind (DC
+    20), pyrotechnics (2, DC 18), resist energy, scorching ray, web (DC 18)  
+    1st-burning hands (DC 19), expeditious retreat, grease, mage armor, magic
+    missile (2), ray of enfeeblement (DC 17)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), dancing lights, mage hand, open/close
 AbilityScores:
   - 10
   - 14

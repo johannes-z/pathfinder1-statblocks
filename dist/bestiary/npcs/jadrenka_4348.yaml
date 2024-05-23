@@ -38,16 +38,19 @@ SpecialAttacks: >-
   hexes (agony [11 rounds], cackle, charm [2 steps, 5 rounds], evil eye [-4, 8
   rounds], flight [feather fall at will, levitate 1/day, fly 11 minutes/day],
   tongues [11 minutes], vision)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 11th; concentration +16)   6th-unwilling shieldAPG
-  (DC 22)   5th-baleful polymorph (DC 20), feeblemind (DC 20), major curseUM (DC
-  21)   4th-confusion (DC 19), ice storm, phantasmal killer (DC 19), wandering
-  star motesAPG (DC 19)   3rd-blink, dispel magic, howling agonyUM (DC 19),
-  lightning bolt (DC 18), sands of timeUM   2nd-false life, glitterdust (DC 17),
-  haunting mistsUM (DC 17), hold person (DC 17), invisibility   1st-bungleUM (DC
-  16), mage armor, peacebondUC, ray of enfeeblement (DC 17), unseen servant,
-  ventriloquism (DC 16)   0 (at will)-dancing lights, detect magic, message,
-  touch of fatigue (DC 16)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 11th; concentration +16)   6th-unwilling shieldAPG
+    (DC 22)   5th-baleful polymorph (DC 20), feeblemind (DC 20), major curseUM
+    (DC 21)   4th-confusion (DC 19), ice storm, phantasmal killer (DC 19),
+    wandering star motesAPG (DC 19)   3rd-blink, dispel magic, howling agonyUM
+    (DC 19), lightning bolt (DC 18), sands of timeUM   2nd-false life,
+    glitterdust (DC 17), haunting mistsUM (DC 17), hold person (DC 17),
+    invisibility   1st-bungleUM (DC 16), mage armor, peacebondUC, ray of
+    enfeeblement (DC 17), unseen servant, ventriloquism (DC 16)
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, message, touch of fatigue (DC 16)
 AbilityScores:
   - 14
   - 20

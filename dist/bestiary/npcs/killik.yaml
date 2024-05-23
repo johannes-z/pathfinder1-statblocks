@@ -33,10 +33,13 @@ SpellLikeAbilities:
       value: copycat (2 rounds)
     - label: 6/day
       value: battle rage (+1 damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +5)  1st-cure light wounds (2),
-  disguise selfD, sanctuary (DC 14)  0 (at will)-create water, detect magic,
-  detect poison, light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +5)  1st-cure light wounds
+    (2), disguise selfD, sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, detect poison, light
 SpellDomains: Trickery, War
 AbilityScores:
   - 13

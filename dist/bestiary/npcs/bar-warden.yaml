@@ -29,10 +29,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: strength surge (+1), touch of chaos
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +3)   1st-blessD, comprehend
-  languages, divine favor   0 (at will)-create water, guidance, purify food and
-  drink (DC 12)
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +3)   1st-blessD, comprehend
+    languages, divine favor
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, purify food and drink (DC 12)
 SpellDomains: Chaos, Strength (ResolveAPG subdomain)
 AbilityScores:
   - 12

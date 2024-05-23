@@ -29,16 +29,19 @@ SpecialAttacks: >-
   cackle, disguise [14 hours], evil eye [-4, 7 rounds], flight [ feather fall at
   will, levitate 1/day, fly 14 minutes/day], hexes (agony [14 rounds],
   retribution [4 rounds], slumber [14 rounds], weather control)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 14th; concentration +18)  7th-chain lightning (DC
-  23), simulacrum  6th-cone of cold (DC 23), slay living (DC 22), true seeing 
-  5th-baleful polymorph (DC 21), cure critical wounds, mass pain strike (DC 21) 
-  4th-black tentacles (DC 20), confusion (DC 20), dimension door, ice storm,
-  scrying (DC 20)  3rd-blink, pain strike* (DC 19), screech* (DC 19), sleet
-  storm, water walk  2nd-fester* (DC 18), glitterdust (DC 18), invisibility (2,
-  already cast), see invisibility  1st-ill omen*, mage armor (already cast),
-  obscuring mist, reduce person (DC 17), unseen servant  0 (at will)-bleed (DC
-  16), detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 14th; concentration +18)  7th-chain lightning (DC
+    23), simulacrum  6th-cone of cold (DC 23), slay living (DC 22), true seeing 
+    5th-baleful polymorph (DC 21), cure critical wounds, mass pain strike (DC
+    21)  4th-black tentacles (DC 20), confusion (DC 20), dimension door, ice
+    storm, scrying (DC 20)  3rd-blink, pain strike* (DC 19), screech* (DC 19),
+    sleet storm, water walk  2nd-fester* (DC 18), glitterdust (DC 18),
+    invisibility (2, already cast), see invisibility  1st-ill omen*, mage armor
+    (already cast), obscuring mist, reduce person (DC 17), unseen servant
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect magic, light, read magic
 AbilityScores:
   - 8
   - 16

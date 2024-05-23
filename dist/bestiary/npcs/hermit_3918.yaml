@@ -25,10 +25,14 @@ Ranged:
   - sling +3 (1d4-1)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Adept Spells Prepared (CL 7th; concentration +10)   2nd-animal trance (DC 15),
-  invisibility, web (DC 15)   1st-cause fear (DC 14), cure light wounds, endure
-  elements, obscuring mist   0 (at will)-light, mending, purify food and drink
+SpellsPrepared:
+  header: >-
+    Adept Spells Prepared (CL 7th; concentration +10)   2nd-animal trance (DC
+    15), invisibility, web (DC 15)   1st-cause fear (DC 14), cure light wounds,
+    endure elements, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: light, mending, purify food and drink
 AbilityScores:
   - 9
   - 10

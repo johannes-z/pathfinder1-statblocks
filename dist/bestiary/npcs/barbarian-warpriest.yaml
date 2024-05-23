@@ -31,11 +31,14 @@ Reach: 5 ft.
 SpecialAttacks: >-
   rage (19 rounds/day), rage powers (guarded stance [+2 dodge vs. melee],
   powerful blow +2, scent), lightning arc (1d6+1 electricity, 6/day)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 3rd; concentration +6)  2nd-barkskin (already cast),
-  bull's strength, wind wallD  1st-cure light wounds, endure elements, obscuring
-  mistD, shillelagh (already cast)  0 (at will)-create water, detect magic,
-  guidance, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 3rd; concentration +6)  2nd-barkskin (already
+    cast), bull's strength, wind wallD  1st-cure light wounds, endure elements,
+    obscuring mistD, shillelagh (already cast)
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, stabilize
 SpellDomains: Air
 AbilityScores:
   - 18

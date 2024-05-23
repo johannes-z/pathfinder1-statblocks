@@ -32,10 +32,13 @@ Ranged:
 Space: 10 ft.
 Reach: 10 ft.
 SpecialAttacks: rock throwing (120 ft.), spell combat (-2 attack), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 3rd; concentration +7)   1st-shield, shocking grasp
-  (2), vanishAPG   0 (at will)-acid splash, detect magic, prestidigitation (DC
-  14), ray of frost
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 3rd; concentration +7)   1st-shield, shocking
+    grasp (2), vanishAPG
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, prestidigitation (DC 14), ray of frost
 AbilityScores:
   - 27
   - 13

@@ -40,17 +40,20 @@ SpellLikeAbilities:
         (CL 3rd; concentration +8)
     - label: 3/day
       value: disguise self
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 11th; concentration +17) 6th-antilife shell, create
-  undeadD, harm (DC 22) 5th-flame strike (DC 21), righteous might, slay livingD
-  (DC 21), true seeing 4th-blessing of fervorAPG, divine power, freedom of
-  movement, inflict critical wounds, unholy blightD (DC 20) 3rd-animate deadD,
-  blindness/deafness (DC 19), inflict serious wounds (DC 19), invisibility
-  purge, magic vestment, prayer 2nd-death knellD (DC 18), graceAPG, hold person
-  (DC 18), inflict moderate wounds (DC 18), resist energy, silence (DC 18),
-  spiritual weapon 1st-cause fearD (DC 17), command (DC 17), curse water, doom
-  (2, DC 17), entropic shield, shield of faith 0 (at will)-bleed (DC 16), detect
-  magic, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 11th; concentration +17) 6th-antilife shell,
+    create undeadD, harm (DC 22) 5th-flame strike (DC 21), righteous might, slay
+    livingD (DC 21), true seeing 4th-blessing of fervorAPG, divine power,
+    freedom of movement, inflict critical wounds, unholy blightD (DC 20)
+    3rd-animate deadD, blindness/deafness (DC 19), inflict serious wounds (DC
+    19), invisibility purge, magic vestment, prayer 2nd-death knellD (DC 18),
+    graceAPG, hold person (DC 18), inflict moderate wounds (DC 18), resist
+    energy, silence (DC 18), spiritual weapon 1st-cause fearD (DC 17), command
+    (DC 17), curse water, doom (2, DC 17), entropic shield, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect magic, read magic, resistance
 SpellDomains: Death, Evil
 AbilityScores:
   - 18

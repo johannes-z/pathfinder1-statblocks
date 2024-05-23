@@ -32,14 +32,17 @@ SpellLikeAbilities:
       value: dimensional hop (80 feet/day)
     - label: 8/day
       value: bit of luck
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +13)   4th-dimension doorD,
-  divination, sending, tongues   3rd-dispel magic, flyD, magic vestment, prayer,
-  remove disease   2nd-aidD, calm emotions (DC 17), enthrall (DC 17), spiritual
-  weapon, zone of truth (DC 17)   1st-command (DC 16), endure elements,
-  longstriderD, obscuring mist, protection from evil, sanctuary (DC 16), shield
-  of faith   0 (at will)-create water, light, mending, purify food and drink (DC
-  15)
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +13)   4th-dimension doorD,
+    divination, sending, tongues   3rd-dispel magic, flyD, magic vestment,
+    prayer, remove disease   2nd-aidD, calm emotions (DC 17), enthrall (DC 17),
+    spiritual weapon, zone of truth (DC 17)   1st-command (DC 16), endure
+    elements, longstriderD, obscuring mist, protection from evil, sanctuary (DC
+    16), shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, light, mending, purify food and drink (DC 15)
 SpellDomains: Luck, Travel
 AbilityScores:
   - 6

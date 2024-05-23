@@ -44,22 +44,25 @@ SpellLikeAbilities:
         greater teleport (self plus 50 lbs. of objects only), slow (DC 23)
     - label: 1/day
       value: summon (level 5, 1 nalfeshnee 20%, 1d4 hezrous 40%, or 1d4 vrocks 50%)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 15th; concentration +28)   8th-quickened confusion
-  (DC 27), demand (DC 31), scintillating pattern   7th-quickened displacement,
-  quickened lightning bolt (DC 26), prismatic spray, project image (DC 30)  
-  6th-flesh to stone (DC 29), geas/quest, mass suggestion (DC 29), quickened
-  mirror image, mislead   5th-extended charm monster (DC 27), dominate person
-  (2, DC 28), mind fog (DC 28), nightmare (DC 28), persistent image (DC 28),
-  polymorph   4th-bestow curse (DC 27), charm monster (2, DC 27), dimensional
-  anchor, greater invisibility, extended haste, phantasmal killer (2, DC 27),
-  rainbow pattern (DC 27), resilient sphere (DC 27), scrying (DC 27)  
-  3rd-extended alter self (2), beast shape I, hold person (DC 26), major image
-  (DC 26), nondetection, suggestion (DC 26)   2nd-alter self, detect thoughts
-  (DC 25), invisibility, minor image (DC 25), misdirection, scorching ray (2)  
-  1st-charm person (2, DC 24), magic missile (4), reduce person (DC 24), silent
-  image (DC 24)   0 (at will)-bleed (DC 23), dancing lights, ghost sound (DC
-  23), message
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 15th; concentration +28)   8th-quickened
+    confusion (DC 27), demand (DC 31), scintillating pattern   7th-quickened
+    displacement, quickened lightning bolt (DC 26), prismatic spray, project
+    image (DC 30)   6th-flesh to stone (DC 29), geas/quest, mass suggestion (DC
+    29), quickened mirror image, mislead   5th-extended charm monster (DC 27),
+    dominate person (2, DC 28), mind fog (DC 28), nightmare (DC 28), persistent
+    image (DC 28), polymorph   4th-bestow curse (DC 27), charm monster (2, DC
+    27), dimensional anchor, greater invisibility, extended haste, phantasmal
+    killer (2, DC 27), rainbow pattern (DC 27), resilient sphere (DC 27),
+    scrying (DC 27)   3rd-extended alter self (2), beast shape I, hold person
+    (DC 26), major image (DC 26), nondetection, suggestion (DC 26)   2nd-alter
+    self, detect thoughts (DC 25), invisibility, minor image (DC 25),
+    misdirection, scorching ray (2)   1st-charm person (2, DC 24), magic missile
+    (4), reduce person (DC 24), silent image (DC 24)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 23), dancing lights, ghost sound (DC 23), message
 AbilityScores:
   - 30
   - 15

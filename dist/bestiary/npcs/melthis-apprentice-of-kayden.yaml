@@ -35,13 +35,17 @@ SpellLikeAbilities:
   values:
     - label: 1/day
       value: dancing lights, darkness, faerie fire
-SpellsPrepared: >-
-  Spells Prepared (CL 10th, touch +7, ranged touch +7)   5th-feeblemind (DC 19),
-  passwall   4th-confusion (DC 18), fear (DC 17), shout (DC 17)   3rd-dispel
-  magic, fly, hold person (DC 17), lightning bolt (DC 16)   2nd-hideous laughter
-  (DC 16), invisibility, shadow blades, touch of idiocy, web (DC 15)   1st-charm
-  person (DC 15), magic missile (x2), shield, sleep (DC 15)   0 (at will)-daze
-  (DC 14), detect magic, mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 10th, touch +7, ranged touch +7)   5th-feeblemind (DC
+    19), passwall   4th-confusion (DC 18), fear (DC 17), shout (DC 17)  
+    3rd-dispel magic, fly, hold person (DC 17), lightning bolt (DC 16)  
+    2nd-hideous laughter (DC 16), invisibility, shadow blades, touch of idiocy,
+    web (DC 15)   1st-charm person (DC 15), magic missile (x2), shield, sleep
+    (DC 15)
+  values:
+    - label: 0 (at will)
+      value: daze (DC 14), detect magic, mage hand, read magic
 AbilityScores:
   - 8
   - 14

@@ -33,17 +33,20 @@ SpellLikeAbilities:
       value: elemental wall (13 rounds/day)
     - label: 7/day
       value: force missile (1d4+6)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 13th; concentration +17)   7th-quickened fireball,
-  prismatic spray (DC 21)   6th-chain lightning (DC 20), quickened scorching
-  ray, repulsion (DC 20)   5th-cone of cold (DC 19), quickened shield,
-  telekinesis (DC 19), teleport   4th-bestow curse (DC 18), dimension door, ice
-  storm (DC 18), phantasmal killer (DC 18), shout (DC 18), wall of fire  
-  3rd-dispel magic, fireball (2; DC 17), heroism, vampiric touch (2)  
-  2nd-arcane lock, flaming sphere (DC 16), ghoul touch (DC 16), gust of wind,
-  invisibility, mirror image   1st-burning hands (DC 15), mage armor, magic
-  missile (2), shocking grasp (2; DC 15)   0 (at will)-dancing lights, detect
-  magic, flare, light, read magic
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 13th; concentration +17)   7th-quickened
+    fireball, prismatic spray (DC 21)   6th-chain lightning (DC 20), quickened
+    scorching ray, repulsion (DC 20)   5th-cone of cold (DC 19), quickened
+    shield, telekinesis (DC 19), teleport   4th-bestow curse (DC 18), dimension
+    door, ice storm (DC 18), phantasmal killer (DC 18), shout (DC 18), wall of
+    fire   3rd-dispel magic, fireball (2; DC 17), heroism, vampiric touch (2)  
+    2nd-arcane lock, flaming sphere (DC 16), ghoul touch (DC 16), gust of wind,
+    invisibility, mirror image   1st-burning hands (DC 15), mage armor, magic
+    missile (2), shocking grasp (2; DC 15)
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, flare, light, read magic
 AbilityScores:
   - 8
   - 14

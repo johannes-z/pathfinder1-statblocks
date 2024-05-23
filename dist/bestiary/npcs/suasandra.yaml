@@ -50,15 +50,18 @@ SpellLikeAbilities:
       value: copycat, touch of evil
     - label: 1/day
       value: scythe of evil
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 14th; concentration +20)  6th-blade barrier (DC
-  22), heal, misleadD  5th-dispel goodD, flame strike (2, DC 21), slay living
-  (DC 21)  4th-air walk, cure serious wounds (2), spell immunity, unholy blightD
-  (DC 20)  3rd-bestow curse (DC 19), create food and water, cure serious wounds,
-  nondetectionD, stone shape, water breathing  2nd-cure moderate wounds (5),
-  darkness, invisibilityD  1st-bane, cure light wounds (3), divine favor,
-  protection from goodD, sanctuary (DC 17)  0 (at will)-bleed (DC 16), guidance,
-  read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 14th; concentration +20)  6th-blade barrier (DC
+    22), heal, misleadD  5th-dispel goodD, flame strike (2, DC 21), slay living
+    (DC 21)  4th-air walk, cure serious wounds (2), spell immunity, unholy
+    blightD (DC 20)  3rd-bestow curse (DC 19), create food and water, cure
+    serious wounds, nondetectionD, stone shape, water breathing  2nd-cure
+    moderate wounds (5), darkness, invisibilityD  1st-bane, cure light wounds
+    (3), divine favor, protection from goodD, sanctuary (DC 17)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), guidance, read magic, resistance
 SpellDomains: Evil, Trickery
 AbilityScores:
   - 12

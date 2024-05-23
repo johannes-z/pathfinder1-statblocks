@@ -29,11 +29,14 @@ SpecialAttacks: >-
   blessings 5/day (Law: axiomatic strike; War: war mind), channel negative
   energy 2/day (DC 14, 1d6 damage), fervor 4/day (1d6), sacred weapon (1d6, +1,
   4 rounds/day)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 4th; concentration +6)   2nd-communal protection
-  from goodUC, shatter (DC 14)   1st-command (DC 13), cure light wounds (2),
-  remove fear   0 (at will)-guidance, mending, purify food and drink (DC 12),
-  resistance
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 4th; concentration +6)   2nd-communal
+    protection from goodUC, shatter (DC 14)   1st-command (DC 13), cure light
+    wounds (2), remove fear
+  values:
+    - label: 0 (at will)
+      value: guidance, mending, purify food and drink (DC 12), resistance
 AbilityScores:
   - 14
   - 10

@@ -39,14 +39,18 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: touch of darkness (4 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +12)  4th-divine power, inflict
-  critical woundsD (DC 18), order's wrath (DC 18), unholy blight (DC 18) 
-  3rd-bestow curse (DC 17), invisibility purge, magic circle against good,
-  prayer, rageD  2nd-blindness/deafnessD (DC 16; blindness only), death knell
-  (DC 16), desecrate, hold person (DC 16), spiritual weapon  1st-bane (DC 15),
-  cause fear (DC 15), entropic shield, divine favor, shield of faith, true
-  strikeD  0 (at will)-bleed (DC 14), detect magic, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +12)  4th-divine power,
+    inflict critical woundsD (DC 18), order's wrath (DC 18), unholy blight (DC
+    18)  3rd-bestow curse (DC 17), invisibility purge, magic circle against
+    good, prayer, rageD  2nd-blindness/deafnessD (DC 16; blindness only), death
+    knell (DC 16), desecrate, hold person (DC 16), spiritual weapon  1st-bane
+    (DC 15), cause fear (DC 15), entropic shield, divine favor, shield of faith,
+    true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, resistance, virtue
 SpellDomains: Darkness, Destruction
 AbilityScores:
   - 20

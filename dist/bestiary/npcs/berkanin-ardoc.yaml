@@ -26,12 +26,16 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (6/day), metamagic mastery (1/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 9th; concentration +12)   5th-dominate person (DC
-  18)   4th-black tentacles (DC 17), empowered scorching ray   3rd-fireball (DC
-  16), haste, empowered magic missile   2nd-blur, invisibility (2), protection
-  from arrows, web (DC 15)   1st-comprehend languages, feather fall, mage armor,
-  magic missile (2)   0 (at will)-detect magic, mage hand, message, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 9th; concentration +12)   5th-dominate person (DC
+    18)   4th-black tentacles (DC 17), empowered scorching ray   3rd-fireball
+    (DC 16), haste, empowered magic missile   2nd-blur, invisibility (2),
+    protection from arrows, web (DC 15)   1st-comprehend languages, feather
+    fall, mage armor, magic missile (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, mage hand, message, read magic
 AbilityScores:
   - 8
   - 16

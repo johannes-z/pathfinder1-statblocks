@@ -25,20 +25,24 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (12/day), metamagic mastery (6/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 18th; melee touch +9, ranged touch +10)  9th-etherealness,
-  shapechange, time stop   8th-maze, moment of prescience, power word stun,
-  summon monster VIII   7th-forcecage (DC 26), greater arcane sight, greater
-  teleport, spell turning   6th-forceful hand, globe of invulnerability, greater
-  dispel magic, repulsion (DC 25), summon monster VI   5th-break enchantment,
-  dominate person (DC 24), hold monster (DC 24), interposing hand, teleport,
-  wall of force   4th-dimension door, greater invisibility, phantasmal killer
-  (DC 23), scrying (DC 23), stoneskin, vitriolic mistUM  
-  3rd-clairaudience/clairvoyance, dispel magic (x2), fly, gaseous form, slow (DC
-  22)   2nd-alter self, blindness/deafness (DC 21), darkvision, knock, mirror
-  image, rope trick   1st-charm person (DC 20), comprehend languages, mage
-  armor, magic missile (x2), protection from evil, unseen servant   0 (at
-  will)-dancing lights, detect magic, mage hand, open/close (DC 19)
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 18th; melee touch +9, ranged touch +10) 
+    9th-etherealness, shapechange, time stop   8th-maze, moment of prescience,
+    power word stun, summon monster VIII   7th-forcecage (DC 26), greater arcane
+    sight, greater teleport, spell turning   6th-forceful hand, globe of
+    invulnerability, greater dispel magic, repulsion (DC 25), summon monster
+    VI   5th-break enchantment, dominate person (DC 24), hold monster (DC 24),
+    interposing hand, teleport, wall of force   4th-dimension door, greater
+    invisibility, phantasmal killer (DC 23), scrying (DC 23), stoneskin,
+    vitriolic mistUM   3rd-clairaudience/clairvoyance, dispel magic (x2), fly,
+    gaseous form, slow (DC 22)   2nd-alter self, blindness/deafness (DC 21),
+    darkvision, knock, mirror image, rope trick   1st-charm person (DC 20),
+    comprehend languages, mage armor, magic missile (x2), protection from evil,
+    unseen servant
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, mage hand, open/close (DC 19)
 AbilityScores:
   - 10
   - 12

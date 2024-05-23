@@ -37,12 +37,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: vision of madness
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)   3rd-dispel magicD, magic
-  vestment, searing light   2nd-bull's strength, cure moderate wounds, sound
-  burst (DC 15), touch of idiocyD   1st-cure light wounds (2), divine favor,
-  lesser confusionD (DC 14), shield of faith   0 (at will)-create water, light,
-  purify food and drink, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)   3rd-dispel magicD, magic
+    vestment, searing light   2nd-bull's strength, cure moderate wounds, sound
+    burst (DC 15), touch of idiocyD   1st-cure light wounds (2), divine favor,
+    lesser confusionD (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, light, purify food and drink, stabilize
 SpellDomains: EntropyISG, Madness
 AbilityScores:
   - 12

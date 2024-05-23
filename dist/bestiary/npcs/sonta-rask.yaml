@@ -33,11 +33,14 @@ SpellLikeAbilities:
       value: dazing touch
     - label: 6/day
       value: copycat (5 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)  3rd-invisibility purge,
-  prayer, suggestionD (DC 17)  2nd-cure moderate wounds, hold person (2, DC DC
-  16), invisibilityD  1st-bless, disguise selfD, doom (2, DC 14), sanctuary  0
-  (at will)-detect magic, detect poison, guidance, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)  3rd-invisibility purge,
+    prayer, suggestionD (DC 17)  2nd-cure moderate wounds, hold person (2, DC DC
+    16), invisibilityD  1st-bless, disguise selfD, doom (2, DC 14), sanctuary
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, guidance, mending
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 8

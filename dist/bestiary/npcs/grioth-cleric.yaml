@@ -41,11 +41,15 @@ SpellLikeAbilities:
         3rd; concentration +6)
     - label: 6/day
       value: touch of chaos, touch of darkness
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)  2nd-blindness/deafnessD (DC
-  15, only to cause blindness), cure moderate wounds, sound burst (DC 15) 
-  1st-cure light wounds, doom (DC 14), lesser confusion (DC 14), protection from
-  lawD  0 (at will)-bleed (DC 13), detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)  2nd-blindness/deafnessD
+    (DC 15, only to cause blindness), cure moderate wounds, sound burst (DC 15) 
+    1st-cure light wounds, doom (DC 14), lesser confusion (DC 14), protection
+    from lawD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, guidance, resistance
 SpellDomains: Chaos, Darkness
 AbilityScores:
   - 12

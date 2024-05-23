@@ -33,11 +33,15 @@ SpellLikeAbilities:
   values:
     - label: Constant
       value: endure elements (cold only)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 5th; concentration +9)   3rd-sleet storm, spit
-  venomUM (DC 17)   2nd-blindness/deafness (DC 16), cure moderate wounds, false
-  life   1st-frostbiteUM, icicle daggerUM, mage armor, unshakable chillUM (DC
-  17)   0 (at will)-daze (DC 14), detect magic, message, ray of frost
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 5th; concentration +9)   3rd-sleet storm, spit
+    venomUM (DC 17)   2nd-blindness/deafness (DC 16), cure moderate wounds,
+    false life   1st-frostbiteUM, icicle daggerUM, mage armor, unshakable
+    chillUM (DC 17)
+  values:
+    - label: 0 (at will)
+      value: daze (DC 14), detect magic, message, ray of frost
 AbilityScores:
   - 8
   - 13

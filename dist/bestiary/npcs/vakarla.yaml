@@ -34,15 +34,18 @@ SpellLikeAbilities:
       value: invisibility field (9 rounds/day)
     - label: 7/day
       value: blinding ray
-SpellsPrepared: >-
-  Spells Prepared (CL 9th; concentration +13)   5th-mirage arcana (DC 20),
-  overland flight   4th-fear (DC 18), hallucinatory terrain (DC 19), phantasmal
-  killer (DC 19), wall of fire   3rd-haste, invisibility sphere, major image (DC
-  18), stinking cloud (DC 17), vampiric touch   2nd-false life, fog cloud,
-  invisibility, mirror image, rope trick, scorching ray   1st-burning hands (DC
-  15), color spray (DC 16), grease, mage armor, magic missile, ray of
-  enfeeblement (DC 15)   0 (at will)-acid splash, detect magic, ghost sound (DC
-  15), open/close
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 9th; concentration +13)   5th-mirage arcana (DC 20),
+    overland flight   4th-fear (DC 18), hallucinatory terrain (DC 19),
+    phantasmal killer (DC 19), wall of fire   3rd-haste, invisibility sphere,
+    major image (DC 18), stinking cloud (DC 17), vampiric touch   2nd-false
+    life, fog cloud, invisibility, mirror image, rope trick, scorching ray  
+    1st-burning hands (DC 15), color spray (DC 16), grease, mage armor, magic
+    missile, ray of enfeeblement (DC 15)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, ghost sound (DC 15), open/close
 AbilityScores:
   - 10
   - 14

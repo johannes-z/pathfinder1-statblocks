@@ -41,12 +41,15 @@ SpellLikeAbilities:
       value: touch of evil (2 rounds)
     - label: 7/day
       value: battle rage (+2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +9)   3rd-cure serious wounds,
-  dispel magic, magic vestmentD   2nd-cure moderate wounds, hold person (DC 16),
-  lesser restoration, spiritual weaponD   1st-command (DC 15), divine favor,
-  entropic shield, shield of faith, protection from goodD   0 (at will)-create
-  water, detect magic, light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +9)   3rd-cure serious wounds,
+    dispel magic, magic vestmentD   2nd-cure moderate wounds, hold person (DC
+    16), lesser restoration, spiritual weaponD   1st-command (DC 15), divine
+    favor, entropic shield, shield of faith, protection from goodD
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, light, mending
 SpellDomains: Evil, War
 AbilityScores:
   - 29

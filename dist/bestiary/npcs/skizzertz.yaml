@@ -30,10 +30,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: copycat (2 rounds), strength surge (+1)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +4)   1st-bless, cause fear (DC
-  13), command (DC 13), enlarge personD (DC 13)   0 (at will)-bleed (DC 12),
-  detect magic, detect poison, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +4)   1st-bless, cause fear
+    (DC 13), command (DC 13), enlarge personD (DC 13)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, detect poison, resistance
 SpellDomains: Strength, Trickery
 AbilityScores:
   - 10

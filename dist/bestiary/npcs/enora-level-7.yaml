@@ -26,12 +26,19 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: arcane reservoir (6/day, max 10), consume spells, prescience 6/day
-SpellsPrepared: >-
-  Arcanist Spells Prepared (CL 7th; concentration +12)   3rd (4/day)-haste,
-  fly   2nd (5/day)-glitterdust (DC 17), invisibility, mirror image   1st
-  (6/day)- ear-piercing screamUM (DC 16), liberating commandUC, obscuring mist,
-  shield, vanishAPG   0 (at will)-acid splash, detect magic, ghost sound, light,
-  message, prestidigitation
+SpellsPrepared:
+  header: Arcanist Spells Prepared (CL 7th; concentration +12)
+  values:
+    - label: 3rd (4/day)
+      value: haste, fly
+    - label: 2nd (5/day)
+      value: glitterdust (DC 17), invisibility, mirror image
+    - label: 1st (6/day)
+      value: >-
+        ear-piercing screamUM (DC 16), liberating commandUC, obscuring mist,
+        shield, vanishAPG
+    - label: 0 (at will)
+      value: acid splash, detect magic, ghost sound, light, message, prestidigitation
 AbilityScores:
   - 8
   - 14

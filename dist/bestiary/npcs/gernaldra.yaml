@@ -28,14 +28,17 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy (DC 17, 5d6, 5/ day), death's kiss (5 rounds, 7/day),
   touch of darkness (10/ day, DC 19)
-SpellsPrepared: >-
-  Spells Prepared (CL 10th; melee touch +9, ranged touch +9)  5th-slay livingD
-  (DC 19), spell resistance, true seeing  4th-cure critical wounds, death ward,
-  enervationD (DC 20), freedom of movement  3rd-animate deadD, bestow curse (DC
-  17), deeper darkness, dispel magic, prayer  2nd-aid, death knell, ghoul touchD
-  (DC 16), hold person (DC 16) x2, silence  1st-bane, cause fearD (DC 15),
-  command (DC 15), cure light wounds x2, divine favor  0 (at will)-cure minor
-  wounds, detect magic, light, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 10th; melee touch +9, ranged touch +9)  5th-slay livingD
+    (DC 19), spell resistance, true seeing  4th-cure critical wounds, death
+    ward, enervationD (DC 20), freedom of movement  3rd-animate deadD, bestow
+    curse (DC 17), deeper darkness, dispel magic, prayer  2nd-aid, death knell,
+    ghoul touchD (DC 16), hold person (DC 16) x2, silence  1st-bane, cause fearD
+    (DC 15), command (DC 15), cure light wounds x2, divine favor
+  values:
+    - label: 0 (at will)
+      value: cure minor wounds, detect magic, light, resistance
 SpellDomains: UndeadAPG
 AbilityScores:
   - 14

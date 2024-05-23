@@ -27,13 +27,16 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: improved spell combat, spell combat (-2 attack, +2 concentration), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 12th; concentration +14)   4th-dimension door,
-  dragon's breathAPG (DC 16), stoneskin   3rd-dispel magic, haste, keen edge,
-  lightning bolt (DC 15)   2nd-bear's endurance, blur, elemental touchAPG (DC
-  14), glitterdust (DC 14), scorching ray, web (DC 14)   1st-expeditious
-  retreat, magic missile, shocking grasp (2), true strike, vanishAPG   0 (at
-  will)-arcane mark, detect magic, light, open/close, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 12th; concentration +14)   4th-dimension door,
+    dragon's breathAPG (DC 16), stoneskin   3rd-dispel magic, haste, keen edge,
+    lightning bolt (DC 15)   2nd-bear's endurance, blur, elemental touchAPG (DC
+    14), glitterdust (DC 14), scorching ray, web (DC 14)   1st-expeditious
+    retreat, magic missile, shocking grasp (2), true strike, vanishAPG
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, open/close, read magic
 AbilityScores:
   - 10
   - 18

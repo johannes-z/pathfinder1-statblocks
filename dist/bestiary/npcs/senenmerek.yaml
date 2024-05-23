@@ -31,9 +31,13 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy 4/day (DC 11, 1d6), destructive smite (+1, 5/day),
   hand of the acolyte (5/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +3)   1st-bane (DC 13), divine
-  favor, true strikeD   0 (at will)-detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +3)   1st-bane (DC 13), divine
+    favor, true strikeD
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, resistance
 SpellDomains: Destruction, Magic
 AbilityScores:
   - 19

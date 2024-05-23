@@ -35,12 +35,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: touch of evil
-SpellsPrepared: >-
-  Spells Prepared (CL 5th; melee touch +13, ranged touch +11)  3rd-contagionD
-  (DC 17), cure serious wounds, dispel magic  2nd-bull's strength, cure moderate
-  wounds, hold person (DC 16), shatterD (DC 16)  1st-cure light wounds, divine
-  favor, doom (DC 15), protection from good, true strikeD  0 (at will)-bleed,
-  detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th; melee touch +13, ranged touch +11)  3rd-contagionD
+    (DC 17), cure serious wounds, dispel magic  2nd-bull's strength, cure
+    moderate wounds, hold person (DC 16), shatterD (DC 16)  1st-cure light
+    wounds, divine favor, doom (DC 15), protection from good, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed, detect magic, guidance, resistance
 SpellDomains: Destruction, Evil
 AbilityScores:
   - 20

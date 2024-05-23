@@ -30,16 +30,19 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy (DC 21, 6d6, 9/ day), death's kiss (5 rounds, 9/day),
   mindfeed, touch of darkness (11/day, DC 21)
-SpellsPrepared: >-
-  Spells Prepared (CL 11th; ranged touch +19)  6th-create undeadD, harm (DC 22),
-  mass bear's endurance  5th-flame strike (DC 21), mass cure light wounds, shout
-  (DC 21), slay livingD (DC 21)  4th-enervationD (DC 20), death ward, poison (DC
-  20), unholy blight (DC 20) (x2)  3rd-animate deadD, bestow curse (DC 19),
-  dispel magic, invisibility purge, magic circle against good, prayer  2nd-cure
-  moderate wounds, darkness, death knell (DC 18), ghoul touchD (DC 18), hold
-  person (DC 18), resist energy, sound burst (DC 18)  1st-bane (DC 17) (x4),
-  cause fearD (DC 17), entropic shield, shield of faith  0 (at will)-detect
-  magic, guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 11th; ranged touch +19)  6th-create undeadD, harm (DC
+    22), mass bear's endurance  5th-flame strike (DC 21), mass cure light
+    wounds, shout (DC 21), slay livingD (DC 21)  4th-enervationD (DC 20), death
+    ward, poison (DC 20), unholy blight (DC 20) (x2)  3rd-animate deadD, bestow
+    curse (DC 19), dispel magic, invisibility purge, magic circle against good,
+    prayer  2nd-cure moderate wounds, darkness, death knell (DC 18), ghoul
+    touchD (DC 18), hold person (DC 18), resist energy, sound burst (DC 18) 
+    1st-bane (DC 17) (x4), cause fearD (DC 17), entropic shield, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance
 SpellDomains: UndeadAPG
 AbilityScores:
   - 12

@@ -35,14 +35,18 @@ SpellLikeAbilities:
       value: copycat (8 rounds), touch of law
     - label: At Will
       value: master's illusion (8 rounds/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +11)   4th-aura of doomUM (DC
-  17), confusionD (DC 17), cure critical wounds   3rd-animate dead,
-  blindness/deafness (DC 16), deeper darkness, magic circle against chaosD,
-  summon monster III   2nd-death knell (DC 15), hold person (DC 15),
-  invisibilityD, lesser animate deadUM, protective penumbraUM   1st-bane (DC
-  14), bless, disguise selfD, moment of greatnessUC, obscuring mist, sanctuary
-  (DC 14)   0 (at will)-bleed (DC 13), detect magic, guidance, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +11)   4th-aura of doomUM (DC
+    17), confusionD (DC 17), cure critical wounds   3rd-animate dead,
+    blindness/deafness (DC 16), deeper darkness, magic circle against chaosD,
+    summon monster III   2nd-death knell (DC 15), hold person (DC 15),
+    invisibilityD, lesser animate deadUM, protective penumbraUM   1st-bane (DC
+    14), bless, disguise selfD, moment of greatnessUC, obscuring mist, sanctuary
+    (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, guidance, mending
 SpellDomains: Law, Trickery
 AbilityScores:
   - 4

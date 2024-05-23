@@ -32,10 +32,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: rebuke death (1d4+1)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +4)   1st-cure light woundsD,
-  detect undead, hide from undead, magic weapon   0 (at will)-create water,
-  light, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +4)   1st-cure light woundsD,
+    detect undead, hide from undead, magic weapon
+  values:
+    - label: 0 (at will)
+      value: create water, light, mending, stabilize
 SpellDomains: Healing, Sun
 AbilityScores:
   - 16

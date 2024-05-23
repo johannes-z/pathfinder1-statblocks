@@ -25,12 +25,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 2/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 7th; concentration +10)  4th-control water  3rd-call
-  lightning (DC 16), greater magic fang, quench  2nd-barkskin, bull's strength,
-  chill metal, resist energy  1st-cure light wounds (2), faerie fire, produce
-  flame, speak with animals  0 (at will)-create water, flare (DC 13), guidance,
-  virtue
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 7th; concentration +10)  4th-control water 
+    3rd-call lightning (DC 16), greater magic fang, quench  2nd-barkskin, bull's
+    strength, chill metal, resist energy  1st-cure light wounds (2), faerie
+    fire, produce flame, speak with animals
+  values:
+    - label: 0 (at will)
+      value: create water, flare (DC 13), guidance, virtue
 AbilityScores:
   - 6
   - 14

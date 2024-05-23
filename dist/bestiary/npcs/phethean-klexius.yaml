@@ -25,11 +25,14 @@ Ranged:
   - light crossbow +3 (1d8/19-20)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Illusionist Spells Prepared (CL 4th; concentration +8)  2nd-create pit* (DC
-  16), hypnotic pattern (DC 18), invisibility, staggering fall (DC 16) 
-  1st-color spray (DC 17), grease (DC 15), mage armor, silent image (DC 17),  0
-  (at will)-dancing lights, detect magic, ghost sound, mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Illusionist Spells Prepared (CL 4th; concentration +8)  2nd-create pit* (DC
+    16), hypnotic pattern (DC 18), invisibility, staggering fall (DC 16) 
+    1st-color spray (DC 17), grease (DC 15), mage armor, silent image (DC 17),
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, ghost sound, mage hand, read magic
 AbilityScores:
   - 8
   - 13

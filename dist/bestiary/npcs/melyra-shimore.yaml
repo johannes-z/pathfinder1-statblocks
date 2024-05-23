@@ -31,10 +31,13 @@ SpellLikeAbilities:
       value: touch of darkness (1 rounds)
     - label: 6/day
       value: vision of madness (+/-1)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +5)  1st-divine favor, doom (DC
-  14), lesser confusionD (DC 14), magic weapon  0 (at will)-bleed (DC 13),
-  create water, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +5)  1st-divine favor, doom
+    (DC 14), lesser confusionD (DC 14), magic weapon
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), create water, guidance, resistance
 SpellDomains: Darkness, Madness
 AbilityScores:
   - 14

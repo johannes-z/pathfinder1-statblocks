@@ -32,12 +32,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: resistant touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)  3rd-invisibility purge,
-  rageD, searing light (DC 16)  2nd-bull's strength (already cast), hold person
-  (DC 15), shield otherD, silence  1st-bless (already cast), cause fear (DC 14),
-  remove fear, sanctuaryD, shield of faith  0 (at will)-detect magic, detect
-  poison, light, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)  3rd-invisibility purge,
+    rageD, searing light (DC 16)  2nd-bull's strength (already cast), hold
+    person (DC 15), shield otherD, silence  1st-bless (already cast), cause fear
+    (DC 14), remove fear, sanctuaryD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, light, read magic
 SpellDomains: Destruction, Protection
 AbilityScores:
   - 8

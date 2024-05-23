@@ -41,12 +41,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: inspiring word (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)   3rd-contagion (DC 17),
-  dispel magic (2), magic vestmentD   2nd-darkness, eagle's splendor, hold
-  person (DC 16), shatterD (DC 16), spiritual weapon   1st-command (DC 15),
-  divine favorD, murderous command (DC 15, 2), shield of faith   0 (at
-  will)-bleed (DC 14), detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)   3rd-contagion (DC 17),
+    dispel magic (2), magic vestmentD   2nd-darkness, eagle's splendor, hold
+    person (DC 16), shatterD (DC 16), spiritual weapon   1st-command (DC 15),
+    divine favorD, murderous command (DC 15, 2), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, resistance
 SpellDomains: Destruction, Nobility
 AbilityScores:
   - 20

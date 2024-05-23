@@ -28,14 +28,17 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: create spawn, energy drain (2 levels, DC 17), magic jar (DC 17)
-SpellsPrepared: >-
-  Spells Prepared (CL 11th; melee touch +10, ranged touch +9)  6th-chain
-  lightning (DC 20)  5th-cloudkill (DC 19), hold monster (DC 19), waves of
-  fatigue  4th-greater invisibility, lesser globe of invulnerability, wall of
-  fire  3rd-dispel magic, fireball (DC 17) (x3), ray of exhaustion (DC 17) 
-  2nd-blur, glitterdust (DC 16), scorching ray, mirror image (x2)  1st-charm
-  person (DC 15), magic missile (x3), obscuring mist  0 (at will)-dancing
-  lights, daze (DC 14), flare (DC 14), resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 11th; melee touch +10, ranged touch +9)  6th-chain
+    lightning (DC 20)  5th-cloudkill (DC 19), hold monster (DC 19), waves of
+    fatigue  4th-greater invisibility, lesser globe of invulnerability, wall of
+    fire  3rd-dispel magic, fireball (DC 17) (x3), ray of exhaustion (DC 17) 
+    2nd-blur, glitterdust (DC 16), scorching ray, mirror image (x2)  1st-charm
+    person (DC 15), magic missile (x3), obscuring mist
+  values:
+    - label: 0 (at will)
+      value: dancing lights, daze (DC 14), flare (DC 14), resistance
 AbilityScores:
   - null
   - 16

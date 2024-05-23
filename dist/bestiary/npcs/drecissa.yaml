@@ -27,13 +27,16 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 2/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 6th; concentration +9)   3rd-dominate animal (DC
-  16), protection from energy, remove disease, water breathingD   2nd-bear's
-  endurance, cat's grace, lesser restoration (2), slipstreamD, APG (DC 15)  
-  1st-charm animal (DC 14), cure light wounds, hide from animals, hydraulic
-  pushD, APG, speak with animals   0 (at will)-detect magic, guidance, light,
-  purify food and drink (DC 13)
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 6th; concentration +9)   3rd-dominate animal (DC
+    16), protection from energy, remove disease, water breathingD   2nd-bear's
+    endurance, cat's grace, lesser restoration (2), slipstreamD, APG (DC 15)  
+    1st-charm animal (DC 14), cure light wounds, hide from animals, hydraulic
+    pushD, APG, speak with animals
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, purify food and drink (DC 13)
 SpellDomains: AquaticUM
 AbilityScores:
   - 13

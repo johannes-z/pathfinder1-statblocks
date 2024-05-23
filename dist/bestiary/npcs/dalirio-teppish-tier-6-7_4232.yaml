@@ -36,13 +36,16 @@ SpellLikeAbilities:
       value: touch of chaos
     - label: 7/day
       value: vision of madness (+/-3)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)  4th-confusionD (DC 18),
-  freedom of movement, inflict critical wounds (DC 18)  3rd-deeper darkness,
-  inflict serious wounds (DC 17), invisibility purge, rageD  2nd-darkness (2),
-  hold person (2, DC 16), touch of idiocyD (DC 16)  1st-bane (2, DC 15), cause
-  fear (2, DC 15), lesser confusionD (DC 15)  0 (at will)-bleed (DC 14), detect
-  magic, light, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)  4th-confusionD (DC 18),
+    freedom of movement, inflict critical wounds (DC 18)  3rd-deeper darkness,
+    inflict serious wounds (DC 17), invisibility purge, rageD  2nd-darkness (2),
+    hold person (2, DC 16), touch of idiocyD (DC 16)  1st-bane (2, DC 15), cause
+    fear (2, DC 15), lesser confusionD (DC 15)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, light, resistance
 SpellDomains: Chaos, Madness
 AbilityScores:
   - 17

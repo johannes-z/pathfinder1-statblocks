@@ -70,14 +70,17 @@ SpellsKnown:
       value: >-
         arcane mark, bleed (DC 17), light, mage hand, mending, message,
         open/close, read magic, touch of fatigue (DC 17)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +16)  4th-confusionD (DC 23),
-  control water, death ward, freedom of movement  3rd-nondetectionD, remove
-  curse, remove disease (DC 22), water breathing, water walk  2nd-calm emotions
-  (DC 21), enthrall (DC 21), invisibilityD, lesser restoration, silence (DC 21) 
-  1st-command (DC 20), detect good, detect law, doom (DC 20), protection from
-  good (2), remove fear, true strikeD  0 (at will)-bleed (DC 19), detect poison,
-  guidance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +16)  4th-confusionD (DC 23),
+    control water, death ward, freedom of movement  3rd-nondetectionD, remove
+    curse, remove disease (DC 22), water breathing, water walk  2nd-calm
+    emotions (DC 21), enthrall (DC 21), invisibilityD, lesser restoration,
+    silence (DC 21)  1st-command (DC 20), detect good, detect law, doom (DC 20),
+    protection from good (2), remove fear, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 19), detect poison, guidance, stabilize
 SpellDomains: Destruction, Trickery
 AbilityScores:
   - 43

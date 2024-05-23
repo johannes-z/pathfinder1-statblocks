@@ -32,11 +32,17 @@ Ranged:
   - mwk composite shortbow +8 (1d6+6/x3)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 6th; concentration +7)   2nd (3/day)-fog cloud,
-  resist energy, warp wood, whip of spidersACG   1st (5/day)-magic fang, pass
-  without trace, produce flame, summon nature's ally I   0 (at will)-create
-  water, detect poison, guidance, know direction, resistance, virtue
+SpellsPrepared:
+  header: Druid Spells Prepared (CL 6th; concentration +7)
+  values:
+    - label: 2nd (3/day)
+      value: fog cloud, resist energy, warp wood, whip of spidersACG
+    - label: 1st (5/day)
+      value: magic fang, pass without trace, produce flame, summon nature's ally I
+    - label: 0 (at will)
+      value: >-
+        create water, detect poison, guidance, know direction, resistance,
+        virtue
 AbilityScores:
   - 22
   - 16

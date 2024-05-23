@@ -39,11 +39,15 @@ SpellLikeAbilities:
     Domain Spell-Like Abilities (CL 4th, concentration +8)  7/day?-touch of
     darkness (2 rounds)
   values: []
-SpellsPrepared: >-
-  Spells Prepared (CL 4th, concentration +8)  2nd-blindness/deafnessD (DC 16,
-  blindness only), death knell (DC 16), hold person (DC 16), spiritual weapon 
-  1st-bane (DC 15), cause fear (DC 15), entropic shield, divine favor, true
-  strikeD  0 (at will)-bleed (DC 14), detect magic, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 4th, concentration +8)  2nd-blindness/deafnessD (DC 16,
+    blindness only), death knell (DC 16), hold person (DC 16), spiritual weapon 
+    1st-bane (DC 15), cause fear (DC 15), entropic shield, divine favor, true
+    strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, resistance, virtue
 SpellDomains: Darkness, Destruction
 AbilityScores:
   - 19

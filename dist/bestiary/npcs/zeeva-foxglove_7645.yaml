@@ -25,11 +25,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hexes (fortune [1 round], healing [cure light], misfortune [1 round])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 4th; concentration +7)   2nd-augury, locate object,
-  unnatural lustUM (DC 15)   1st-beguiling gift (DC 14), charm person (DC 14),
-  ill omenAPG, unseen servant   0 (at will)-guidance, mending, sparkUM (DC 13),
-  stabilize
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 4th; concentration +7)   2nd-augury, locate
+    object, unnatural lustUM (DC 15)   1st-beguiling gift (DC 14), charm person
+    (DC 14), ill omenAPG, unseen servant
+  values:
+    - label: 0 (at will)
+      value: guidance, mending, sparkUM (DC 13), stabilize
 AbilityScores:
   - 8
   - 14

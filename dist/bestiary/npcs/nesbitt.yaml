@@ -39,14 +39,17 @@ SpellsKnown:
       value: expeditious excavationAPG, expeditious retreat, mage armor, magic weapon
     - label: 0 (at will)
       value: bleed (DC 13), detect magic, mage hand, ray of frost, resistance
-SpellsPrepared: >-
-  Spells Prepared (CL 7th; melee touch +4, ranged touch +7)  4th-rusting grasp,
-  spike stonesD (DC 17)   3rd-cure moderate wounds, meld into stone, spike
-  growth (DC 16), spiked pitD APG (DC 16)   2nd-accelerate poisonAPG (DC 15),
-  barkskin, create pitD APG (DC 15), heat metal (DC 15), spider climb   1st-cure
-  light wounds, longstrider, magic stoneD, obscuring mist, ray of sickeningUM
-  (DC 14), stone fistAPG   0 (at will)-create water, detect magic, know
-  direction, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 7th; melee touch +4, ranged touch +7)  4th-rusting
+    grasp, spike stonesD (DC 17)   3rd-cure moderate wounds, meld into stone,
+    spike growth (DC 16), spiked pitD APG (DC 16)   2nd-accelerate poisonAPG (DC
+    15), barkskin, create pitD APG (DC 15), heat metal (DC 15), spider climb  
+    1st-cure light wounds, longstrider, magic stoneD, obscuring mist, ray of
+    sickeningUM (DC 14), stone fistAPG
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, know direction, virtue
 SpellDomains: Caves, Earth
 AbilityScores:
   - 6

@@ -26,12 +26,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 2/day
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +9)   3rd-call lightning (DC
-  16), cure moderate wounds (DC 16), spike growth (DC 16)   2nd-barkskin, delay
-  poison (DC 15), flame blade, summon nature's ally II   1st-cure light wounds
-  (DC 14), endure elements, obscuring mist, produce flame    0 (at will)-detect
-  magic, know direction, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +9)   3rd-call lightning (DC
+    16), cure moderate wounds (DC 16), spike growth (DC 16)   2nd-barkskin,
+    delay poison (DC 15), flame blade, summon nature's ally II   1st-cure light
+    wounds (DC 14), endure elements, obscuring mist, produce flame
+  values:
+    - label: 0 (at will)
+      value: detect magic, know direction, read magic, resistance
 AbilityScores:
   - 10
   - 9

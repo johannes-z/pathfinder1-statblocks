@@ -27,10 +27,13 @@ Ranged:
   - mwk sling +3 (1d4+4)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Adept Spells Prepared (CL 4th; concentration +6)   2nd-darkness   1st-burning
-  hands (DC 13), cause fear (DC 13), command (DC 13)   0 (at will)-detect magic,
-  guidance, read magic
+SpellsPrepared:
+  header: >-
+    Adept Spells Prepared (CL 4th; concentration +6)   2nd-darkness  
+    1st-burning hands (DC 13), cause fear (DC 13), command (DC 13)
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic
 AbilityScores:
   - 18
   - 10

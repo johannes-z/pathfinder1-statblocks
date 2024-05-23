@@ -29,10 +29,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (5/day), hatred
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 3rd; concentration +5)   2nd-blur, levitate  
-  1st-color spray (DC 13), mage armor, magic missile   0 (at will)-acid splash,
-  detect magic, ghost sound (DC 12), read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 3rd; concentration +5)   2nd-blur, levitate  
+    1st-color spray (DC 13), mage armor, magic missile
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, ghost sound (DC 12), read magic
 AbilityScores:
   - 13
   - 10

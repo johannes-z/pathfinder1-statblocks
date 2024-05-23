@@ -38,25 +38,31 @@ SpellLikeAbilities:
   values:
     - label: 10/day
       value: artificer's touch (1d6+2), resistant touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 15th; concentration +22)   8th-greater spell
-  immunity, mind blankD   7th-ethereal jaunt, holy word (2, DC 25), repulsionD
-  (DC 24)   6th-harm (DC 23), heal (2), heroes' feast, major creationD  
-  5th-breath of life, disrupting weapon, flame strike (DC 23), righteous might,
-  spell resistanceD, true seeing   4th-air walk, divine power, freedom of
-  movement, neutralize poison (2), spell immunityD   3rd-invisibility purge,
-  meld into stone, prayer, protection from energy (2), remove curse, stone
-  shapeD   2nd-aid, bull's strength (2), hold person (2, DC 19), wood shapeD  
-  1st-animate ropeD, bless (2), divine favor (2), shield of faith (2)   0 (at
-  will)-detect magic, mending, purify food and drink, stabilize   Wizard Spells
-  Prepared (CL 15th; concentration +21; arcane spell failure 20%)  
-  8th-prismatic wall   7th-giant form I, prismatic spray   6th-chain lightning
-  (2, DC 23), disintegrate (DC 22), transformation   5th-cloudkill (DC 21), hold
-  monster (2, DC 21), wall of stone (2)   4th-arcane eye, dimension door,
-  greater invisibility (2), stoneskin   3rd-fireball (DC 20), haste (2),
-  heroism, suggestion (DC 19)   2nd-acid arrow, invisibility, see invisibility
-  (2), web (2, DC 18)   1st-charm person (DC 17), magic missile (3), shield
-  (2)   0 (at will)-detect poison, disrupt undead, mage hand, message
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 15th; concentration +22)   8th-greater spell
+    immunity, mind blankD   7th-ethereal jaunt, holy word (2, DC 25), repulsionD
+    (DC 24)   6th-harm (DC 23), heal (2), heroes' feast, major creationD  
+    5th-breath of life, disrupting weapon, flame strike (DC 23), righteous
+    might, spell resistanceD, true seeing   4th-air walk, divine power, freedom
+    of movement, neutralize poison (2), spell immunityD   3rd-invisibility
+    purge, meld into stone, prayer, protection from energy (2), remove curse,
+    stone shapeD   2nd-aid, bull's strength (2), hold person (2, DC 19), wood
+    shapeD   1st-animate ropeD, bless (2), divine favor (2), shield of faith (2)
+  values:
+    - label: 0 (at will)
+      value: >-
+        detect magic, mending, purify food and drink, stabilize Wizard Spells
+        Prepared (CL 15th; concentration +21; arcane spell failure 20%)
+        8th-prismatic wall 7th-giant form I, prismatic spray 6th-chain lightning
+        (2, DC 23), disintegrate (DC 22), transformation 5th-cloudkill (DC 21),
+        hold monster (2, DC 21), wall of stone (2) 4th-arcane eye, dimension
+        door, greater invisibility (2), stoneskin 3rd-fireball (DC 20), haste
+        (2), heroism, suggestion (DC 19) 2nd-acid arrow, invisibility, see
+        invisibility (2), web (2, DC 18) 1st-charm person (DC 17), magic missile
+        (3), shield (2)
+    - label: 0 (at will)
+      value: detect poison, disrupt undead, mage hand, message
 SpellDomains: Artifice, Protection
 AbilityScores:
   - 10

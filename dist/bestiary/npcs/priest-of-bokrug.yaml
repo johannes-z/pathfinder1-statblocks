@@ -35,12 +35,15 @@ SpellLikeAbilities:
       value: doom Domain Spell-Like Abilities (CL 6th; concentration +8)
     - label: 5/day
       value: storm burst (1d6+3 nonlethal)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +8)  3rd-call lightningD (DC
-  15), dispel magic, wind wall  2nd-eagle's splendor, fog cloudD, resist energy,
-  shatter (DC 14), sound burst (DC 14) 1st-cause fear (DC 13), command (DC 13),
-  obscuring mist, shield of faith, true strikeD  0 (at will)-bleed (DC 12),
-  detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +8)  3rd-call lightningD (DC
+    15), dispel magic, wind wall  2nd-eagle's splendor, fog cloudD, resist
+    energy, shatter (DC 14), sound burst (DC 14) 1st-cause fear (DC 13), command
+    (DC 13), obscuring mist, shield of faith, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, guidance, resistance
 SpellDomains: Destruction, Weather
 AbilityScores:
   - null

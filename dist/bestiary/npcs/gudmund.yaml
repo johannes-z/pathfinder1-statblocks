@@ -28,15 +28,19 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy (4/day, 6d6, DC 17), death's kiss (6 rounds, 8/day),
   touch of darkness (12/ day, DC 20)
-SpellsPrepared: >-
-  Spells Prepared (CL 12th; ranged touch +12)  6th-blade barrier (DC 21), create
-  undeadD, heal  5th-dispel good, greater command (DC 20), slay livingD (DC 20),
-  spell resistance, summon monster V  4th-cure critical wounds (x2), enervationD
-  (DC 19), freedom of movement, death ward  3rd-animate deadD, deeper darkness,
-  invisibility purge, magic circle against good, protection from energy, wind
-  wall  2nd-aid, death knell, ghoul touchD (DC 17), hold person (DC 17),
-  silence, spiritual weapon  1st-bane (DC 16), bless, cause fearD, cure light
-  wounds x3, obscuring mist  0 (at will)-detect magic, light, resistance, vigor
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 12th; ranged touch +12)  6th-blade barrier (DC 21),
+    create undeadD, heal  5th-dispel good, greater command (DC 20), slay livingD
+    (DC 20), spell resistance, summon monster V  4th-cure critical wounds (x2),
+    enervationD (DC 19), freedom of movement, death ward  3rd-animate deadD,
+    deeper darkness, invisibility purge, magic circle against good, protection
+    from energy, wind wall  2nd-aid, death knell, ghoul touchD (DC 17), hold
+    person (DC 17), silence, spiritual weapon  1st-bane (DC 16), bless, cause
+    fearD, cure light wounds x3, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, resistance, vigor
 SpellDomains: UndeadAPG
 AbilityScores:
   - 14

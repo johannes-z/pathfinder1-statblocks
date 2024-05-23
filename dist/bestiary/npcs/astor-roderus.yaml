@@ -26,14 +26,17 @@ Melee:
   - +2 warhammer +17/+17/+12 (2d6+9/x3)
 Space: 10 ft.
 Reach: 10 ft.
-SpellsPrepared: >-
-  Abjurer Spells Prepared (CL 10th; concentration +13)   5th-break enchantment,
-  teleport, wall of stone   4th-detonateAPG (DC 17), lesser globe of
-  invulnerability, mass enlarge person (DC 17), stoneskin   3rd-dispel magic
-  (2), fly, haste, vampiric touch   2nd-bear's endurance, bull's strength, false
-  life, glitterdust (DC 15), resist energy, see invisibility   1st-alarm,
-  feather fall, magic missile (2), shield, shocking grasp   0 (at will)-detect
-  magic, mending, message, read magic
+SpellsPrepared:
+  header: >-
+    Abjurer Spells Prepared (CL 10th; concentration +13)   5th-break
+    enchantment, teleport, wall of stone   4th-detonateAPG (DC 17), lesser globe
+    of invulnerability, mass enlarge person (DC 17), stoneskin   3rd-dispel
+    magic (2), fly, haste, vampiric touch   2nd-bear's endurance, bull's
+    strength, false life, glitterdust (DC 15), resist energy, see invisibility  
+    1st-alarm, feather fall, magic missile (2), shield, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: detect magic, mending, message, read magic
 AbilityScores:
   - 21
   - 6

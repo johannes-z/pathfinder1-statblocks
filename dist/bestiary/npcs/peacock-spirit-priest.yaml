@@ -31,14 +31,17 @@ SpellLikeAbilities:
       value: master's illusion (9 rounds/day)
     - label: 6/day
       value: copycat (9 rounds), touch of evil (4 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +12)   5th-dispel goodD, flame
-  strike (DC 18)   4th-air walk, cure critical wounds, unholy blightD (DC 17)  
-  3rd-cure serious wounds (2), magic circle against goodD, searing light (2)  
-  2nd-bull's strength, cure moderate wounds (3), hold person (DC 15),
-  invisibilityD   1st-command (DC 14), cure light wounds (2), divine favor,
-  protection from goodD, sanctuary (DC 14)   0 (at will)-bleed (DC 13), create
-  water, light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +12)   5th-dispel goodD, flame
+    strike (DC 18)   4th-air walk, cure critical wounds, unholy blightD (DC
+    17)   3rd-cure serious wounds (2), magic circle against goodD, searing light
+    (2)   2nd-bull's strength, cure moderate wounds (3), hold person (DC 15),
+    invisibilityD   1st-command (DC 14), cure light wounds (2), divine favor,
+    protection from goodD, sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), create water, light, stabilize
 SpellDomains: Evil, Trickery
 AbilityScores:
   - 16

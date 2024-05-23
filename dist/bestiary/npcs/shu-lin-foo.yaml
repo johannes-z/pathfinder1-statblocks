@@ -36,14 +36,17 @@ SpellLikeAbilities:
       value: master's illusion (8 rounds/day)
     - label: 8/day
       value: copycat (8 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +13)   4th-chaos hammer (DC 19),
-  confusionD (DC 19), dismissal (DC 19), spit venomUM (DC 19)   3rd-badger's
-  ferocityUM, dispel magic, helping hand, nondetectionD, prayer   2nd-hold
-  person (DC 17), invisibilityD, resist energy, silence (DC 17), sound burst (DC
-  17)   1st-command (DC 16), deathwatch, disguise selfD, magic weapon, murderous
-  commandUM (DC 16), sanctuary (DC 16), shield of faith   0 (at will)-detect
-  magic, light, read magic, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +13)   4th-chaos hammer (DC
+    19), confusionD (DC 19), dismissal (DC 19), spit venomUM (DC 19)  
+    3rd-badger's ferocityUM, dispel magic, helping hand, nondetectionD, prayer  
+    2nd-hold person (DC 17), invisibilityD, resist energy, silence (DC 17),
+    sound burst (DC 17)   1st-command (DC 16), deathwatch, disguise selfD, magic
+    weapon, murderous commandUM (DC 16), sanctuary (DC 16), shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, read magic, stabilize
 SpellDomains: Liberation, Trickery
 AbilityScores:
   - 15

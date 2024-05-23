@@ -30,14 +30,18 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (blight [100 feet], cackle, coven, disguise [10 hours], evil eye [-4, 6
   rounds], hag's eye [10 minutes/day], misfortune [2 rounds])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 10th; concentration +13)   5th-baleful polymorph (DC
-  18), dominate person (DC 18)   4th-dimension door, phantasmal killer (DC 17),
-  spiteAPG   3rd-bestow curse (DC 16), pain strikeAPG (DC 16), stinking cloud
-  (DC 16), water breathing   2nd-alter self, blindness/deafness, festerAPG (DC
-  15), vomit swarmAPG, web (DC 15)   1st-cause fear (DC 14), charm person (DC
-  14), mage armor, obscuring mist, ray of enfeeblement (DC 14)   0 (at
-  will)-bleed (DC 13), detect magic, detect poison, purify food and drink
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 10th; concentration +13)   5th-baleful polymorph
+    (DC 18), dominate person (DC 18)   4th-dimension door, phantasmal killer (DC
+    17), spiteAPG   3rd-bestow curse (DC 16), pain strikeAPG (DC 16), stinking
+    cloud (DC 16), water breathing   2nd-alter self, blindness/deafness,
+    festerAPG (DC 15), vomit swarmAPG, web (DC 15)   1st-cause fear (DC 14),
+    charm person (DC 14), mage armor, obscuring mist, ray of enfeeblement (DC
+    14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, detect poison, purify food and drink
 AbilityScores:
   - 14
   - 12

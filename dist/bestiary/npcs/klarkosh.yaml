@@ -35,13 +35,17 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: force missile (1d4+3)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 7th; concentration +12)   4th-fear (DC 19), ice
-  storm, stoneskin   3rd-dispel magic, fireball (DC 18), lightning bolt (DC 18),
-  stinking cloud (DC 18)   2nd-blindness/deafness (DC 17), false life,
-  invisibility, scorching ray, web (DC 17)   1st-burning hands (DC 16), mage
-  armor, obscuring mist, magic missile, protection from good, shocking grasp
-  (2)   0 (at will)-detect magic, light, message, ray of frost
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 7th; concentration +12)   4th-fear (DC 19), ice
+    storm, stoneskin   3rd-dispel magic, fireball (DC 18), lightning bolt (DC
+    18), stinking cloud (DC 18)   2nd-blindness/deafness (DC 17), false life,
+    invisibility, scorching ray, web (DC 17)   1st-burning hands (DC 16), mage
+    armor, obscuring mist, magic missile, protection from good, shocking grasp
+    (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, message, ray of frost
 AbilityScores:
   - 12
   - 8

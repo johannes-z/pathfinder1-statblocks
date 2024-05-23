@@ -33,14 +33,17 @@ SpellLikeAbilities:
       value: bleeding touch (4 rounds)
     - label: 1/day
       value: dispelling touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +13)   5th-slay living D (2, DC
-  21)   4th-death wardD, freedom of movement, poison (DC 20), spell immunity  
-  3rd-bestow curse (DC 19), contagion (2, DC 19), dispel magicD, prayer  
-  2nd-bear's endurance, darkness, death knell D (DC 18), delay poison (DC 16),
-  desecrate, resist energy (DC 16)   1st-bane (DC 15), cause fear D (DC 17, 2),
-  entropic shield, obscuring mist, protection from good   0 (at will)-bleed (DC
-  16), detect poison, light, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +13)   5th-slay living D (2,
+    DC 21)   4th-death wardD, freedom of movement, poison (DC 20), spell
+    immunity   3rd-bestow curse (DC 19), contagion (2, DC 19), dispel magicD,
+    prayer   2nd-bear's endurance, darkness, death knell D (DC 18), delay poison
+    (DC 16), desecrate, resist energy (DC 16)   1st-bane (DC 15), cause fear D
+    (DC 17, 2), entropic shield, obscuring mist, protection from good
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), detect poison, light, virtue
 SpellDomains: Death, Magic
 AbilityScores:
   - 8

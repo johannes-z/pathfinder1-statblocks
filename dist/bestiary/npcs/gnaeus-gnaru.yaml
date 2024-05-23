@@ -36,12 +36,15 @@ SpellLikeAbilities:
   values:
     - label: 3/day
       value: detect undead
-SpellsPrepared: >-
-  Spells Prepared (CL 8th; concentration +10)   3rd-displacement, vampiric
-  touch   2nd-bear's endurance, bull's strength, invisibility, scorching ray,
-  spider climb   1st-burning hands (DC 13), chill touch (DC 13), magic missile,
-  shield, shocking grasp  0 (at will)-dancing lights, detect magic, mage hand,
-  prestidigitation, ray of frost
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 8th; concentration +10)   3rd-displacement, vampiric
+    touch   2nd-bear's endurance, bull's strength, invisibility, scorching ray,
+    spider climb   1st-burning hands (DC 13), chill touch (DC 13), magic
+    missile, shield, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, mage hand, prestidigitation, ray of frost
 AbilityScores:
   - 20
   - 14

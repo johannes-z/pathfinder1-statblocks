@@ -43,12 +43,15 @@ SpellLikeAbilities:
       value: darkness, poison (DC 15)
     - label: 1/day
       value: desecrate, unholy blight (DC 15)
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 8th; concentration +12)   3rd-force punchUM (DC 17),
-  displacement, stinking cloud (DC 17)   2nd-bull's strength, frigid touchUM
-  (2), glitterdust (DC 16), mirror image   1st-hydraulic pushAPG, shield,
-  shocking grasp, true strike, vanishAPG   0 (at will)-acid splash, daze (DC
-  14), ghost sound (DC 14), mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 8th; concentration +12)   3rd-force punchUM (DC
+    17), displacement, stinking cloud (DC 17)   2nd-bull's strength, frigid
+    touchUM (2), glitterdust (DC 16), mirror image   1st-hydraulic pushAPG,
+    shield, shocking grasp, true strike, vanishAPG
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 14), ghost sound (DC 14), mage hand, read magic
 AbilityScores:
   - 20
   - 14

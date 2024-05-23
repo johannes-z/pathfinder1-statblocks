@@ -33,16 +33,19 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: rebuke death (1d4+6)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 12th; concentration +16)   6th-blade barrier (DC
-  20), healD, mass cure moderate wounds   5th-breath of life, dispel evil,
-  disrupting weapon, flame strikeD (DC 19)   4th-cure critical wounds, fire
-  shieldD, freedom of movement, holy smite (DC 18), tongues   3rd-daylight,
-  dispel magic, invisibility purge, prayer, searing lightD, speak with dead (DC
-  17)   2nd-align weapon, delay poison, heat metalD (DC 16), hold person (DC
-  16), lesser restoration, spiritual weapon   1st-bless, command (DC 15), detect
-  undead, divine favor, endure elementsD, shield of faith   0 (at will)-detect
-  magic, guidance, light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 12th; concentration +16)   6th-blade barrier (DC
+    20), healD, mass cure moderate wounds   5th-breath of life, dispel evil,
+    disrupting weapon, flame strikeD (DC 19)   4th-cure critical wounds, fire
+    shieldD, freedom of movement, holy smite (DC 18), tongues   3rd-daylight,
+    dispel magic, invisibility purge, prayer, searing lightD, speak with dead
+    (DC 17)   2nd-align weapon, delay poison, heat metalD (DC 16), hold person
+    (DC 16), lesser restoration, spiritual weapon   1st-bless, command (DC 15),
+    detect undead, divine favor, endure elementsD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, stabilize
 SpellDomains: Healing, Sun
 AbilityScores:
   - 16

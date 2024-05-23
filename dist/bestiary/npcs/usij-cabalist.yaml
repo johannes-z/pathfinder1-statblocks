@@ -30,12 +30,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: touch of evil (2 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8)  3rd-bestow curse (DC 16),
-  call lightningD (DC 16), dispel magic  2nd-gust of windD (DC 15), shatter,
-  silence (DC 15), undetectable alignment  1st-command (DC 14), cure light
-  wounds, doom (DC 14), forbid actionUM (DC 15), true strikeD  0 (at
-  will)-create water, detect magic, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8)  3rd-bestow curse (DC 16),
+    call lightningD (DC 16), dispel magic  2nd-gust of windD (DC 15), shatter,
+    silence (DC 15), undetectable alignment  1st-command (DC 14), cure light
+    wounds, doom (DC 14), forbid actionUM (DC 15), true strikeD
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, read magic, resistance
 SpellDomains: Evil
 AbilityScores:
   - 8

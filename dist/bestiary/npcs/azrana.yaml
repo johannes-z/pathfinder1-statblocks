@@ -72,19 +72,22 @@ SpellsKnown:
       value: >-
         detect magic, disrupt undead, guidance, read magic, resistance,
         stabilize
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 14th; concentration +22)  7th-ethereal jaunt,
-  legend loreD, refuge, resurrection  6th-banishment (DC 24), blade barrier (DC
-  24), greater dispel magic, heal, undeath to deathD (DC 24)  5th-insect plague,
-  plane shift (DC 23), righteous might, telepathic bondD, true seeing  4th-aura
-  of doomUM (DC 22), blessing of fervorAPG (DC 22), control summoned creatureUM
-  (DC 22), death wardD, dimensional anchor (2), freedom of movement  3rd-dispel
-  magic (2), invisibility purge, protection from energy, searing light (2), seek
-  thoughtsD, APG (DC 21)  2nd-align weapon, detect thoughtsD (DC 20), eagle's
-  splendor, lesser restoration, silence (DC 20), sound burst (2, DC 20) 
-  1st-deathwatchD, divine favor (2), forbid actionUM (DC 19), sanctuary (2, DC
-  19), shield of faith  0 (at will)-bleed (DC 18), create water, light, sparkAPG
-  (DC 18)
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 14th; concentration +22)  7th-ethereal jaunt,
+    legend loreD, refuge, resurrection  6th-banishment (DC 24), blade barrier
+    (DC 24), greater dispel magic, heal, undeath to deathD (DC 24)  5th-insect
+    plague, plane shift (DC 23), righteous might, telepathic bondD, true seeing 
+    4th-aura of doomUM (DC 22), blessing of fervorAPG (DC 22), control summoned
+    creatureUM (DC 22), death wardD, dimensional anchor (2), freedom of
+    movement  3rd-dispel magic (2), invisibility purge, protection from energy,
+    searing light (2), seek thoughtsD, APG (DC 21)  2nd-align weapon, detect
+    thoughtsD (DC 20), eagle's splendor, lesser restoration, silence (DC 20),
+    sound burst (2, DC 20)  1st-deathwatchD, divine favor (2), forbid actionUM
+    (DC 19), sanctuary (2, DC 19), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 18), create water, light, sparkAPG (DC 18)
 SpellDomains: Knowledge (Thought subdomain), Repose
 AbilityScores:
   - 22

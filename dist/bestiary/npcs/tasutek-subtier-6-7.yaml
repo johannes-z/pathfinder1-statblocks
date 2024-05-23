@@ -30,13 +30,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   blessings 5/day, enthrall, fervor 3d6 7/day, sneak attack +3d6  Blessing
   Supernatural Abilities (5/day) anarchic strike, destructive attacks
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 9th; concentration +12)   3rd-cure serious
-  wounds, dispel magic, greater stunning barrierACG (DC 16), water walk  
-  2nd-bull's strength, cure moderate wounds, graceAPG, hold person (DC 15),
-  resist energy   1st- bless, detect law, divine favor, endure elements, shield
-  of faith, stunning barrierACG (DC 14)   0 (at will)-bleed (DC 13), detect
-  magic, detect poison, light, purify food and drink
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 9th; concentration +12)   3rd-cure serious
+    wounds, dispel magic, greater stunning barrierACG (DC 16), water walk  
+    2nd-bull's strength, cure moderate wounds, graceAPG, hold person (DC 15),
+    resist energy   1st- bless, detect law, divine favor, endure elements,
+    shield of faith, stunning barrierACG (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, detect poison, light, purify food and drink
 AbilityScores:
   - 14
   - 10

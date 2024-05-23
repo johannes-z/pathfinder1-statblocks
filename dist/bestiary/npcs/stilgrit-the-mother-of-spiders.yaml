@@ -30,10 +30,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: animate webs, poison, web (+10 ranged, DC 16, 4 hp), wild shape 1/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 4th; concentration +9)   2nd-barkskin, pernicious
-  poisonUM, summon swarm   1st-hydraulic pushAPG, jump, longstrider, magic fang,
-  ray of sickeningUM (DC 16)   0 (at will)-guidance, mending, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 4th; concentration +9)   2nd-barkskin, pernicious
+    poisonUM, summon swarm   1st-hydraulic pushAPG, jump, longstrider, magic
+    fang, ray of sickeningUM (DC 16)
+  values:
+    - label: 0 (at will)
+      value: guidance, mending, resistance, virtue
 AbilityScores:
   - 14
   - 19

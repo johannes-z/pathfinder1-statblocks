@@ -33,14 +33,17 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: touch of chaos, touch of evil (3 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 7th; melee touch +9, ranged touch +6)  4th-chaos hammer
-  (DC 19), unholy blightD (DC 19), unholy blight (DC 19)   3rd-invisibility
-  purge, magic circle against goodD, prayer, summon monster III   2nd-align
-  weaponD, bear's endurance, darkness, hold person (DC 17), silence (DC 17)  
-  1st-bless, cause fear (DC 16), divine favor, doom (DC 16), magic stone,
-  protection from goodD, protection from good   0 (at will)-detect magic,
-  guidance, read magic, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 7th; melee touch +9, ranged touch +6)  4th-chaos hammer
+    (DC 19), unholy blightD (DC 19), unholy blight (DC 19)   3rd-invisibility
+    purge, magic circle against goodD, prayer, summon monster III   2nd-align
+    weaponD, bear's endurance, darkness, hold person (DC 17), silence (DC 17)  
+    1st-bless, cause fear (DC 16), divine favor, doom (DC 16), magic stone,
+    protection from goodD, protection from good
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, virtue
 SpellDomains: Chaos, Evil
 AbilityScores:
   - 19

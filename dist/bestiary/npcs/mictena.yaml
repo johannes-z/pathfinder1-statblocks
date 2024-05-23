@@ -50,11 +50,14 @@ SpellLikeAbilities:
       value: feather fall (self only)
     - label: 1/day
       value: levitate (self only)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 4th; concentration +10)  2nd-cure moderate wounds,
-  false life, web (DC 16)  1st-burning hands (DC 15), ear-piercing screamUM (DC
-  15), ill omenAPG, sanctify corpseUM  0 (at will)-bleed (DC 14), detect magic,
-  message, stabilize
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 4th; concentration +10)  2nd-cure moderate wounds,
+    false life, web (DC 16)  1st-burning hands (DC 15), ear-piercing screamUM
+    (DC 15), ill omenAPG, sanctify corpseUM
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, message, stabilize
 AbilityScores:
   - 14
   - 19

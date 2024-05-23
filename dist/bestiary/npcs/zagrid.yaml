@@ -30,15 +30,18 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: destructive smite (+5), touch of chaos
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +14)   5th-flame strike (DC 19)
-  shout (DC 19)D, slay living (C 19)   4th-chaos hammer D, cure critical wounds,
-  death ward, poison (DC 18), unholy blight (DC 18)   3rd-animate dead,
-  blindness/deafness, magic circle against good, rage D, water breathing  
-  2nd-align weapon (chaos) D, cure moderate wounds, darkness, death knell (DC
-  16), shield other, silence (DC 16)   1st-bane (DC 15), bless, command (DC 15),
-  cure light wounds, divine favor, true strike D   0 (at will)-create water,
-  detect magic, light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +14)   5th-flame strike (DC
+    19) shout (DC 19)D, slay living (C 19)   4th-chaos hammer D, cure critical
+    wounds, death ward, poison (DC 18), unholy blight (DC 18)   3rd-animate
+    dead, blindness/deafness, magic circle against good, rage D, water
+    breathing   2nd-align weapon (chaos) D, cure moderate wounds, darkness,
+    death knell (DC 16), shield other, silence (DC 16)   1st-bane (DC 15),
+    bless, command (DC 15), cure light wounds, divine favor, true strike D
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, light, mending
 SpellDomains: Chaos, Destruction
 AbilityScores:
   - 16

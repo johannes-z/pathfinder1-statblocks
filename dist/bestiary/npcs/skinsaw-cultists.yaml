@@ -30,10 +30,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: bleeding touch (1 round), copycat (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-cure moderate wounds,
-  hold person (DC 14), invisibilityD   1st-cure light wounds (2), disguise
-  selfD, divine favor   0 (at will)-bleed (DC 12), detect magic, guidance, light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +5)   2nd-cure moderate
+    wounds, hold person (DC 14), invisibilityD   1st-cure light wounds (2),
+    disguise selfD, divine favor
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, guidance, light
 SpellDomains: Death, Trickery
 AbilityScores:
   - 12

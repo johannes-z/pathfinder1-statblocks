@@ -42,11 +42,15 @@ SpellLikeAbilities:
         Abilities (CL 4th; concentration +10)
     - label: 9/day
       value: fire bolt (1d6+2 fire)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 4th; concentration +10)  2nd-bull's strength, gust
-  of wind (DC 18), heat metal, produce flameD, spider climb  1st-burning handsD
-  (DC 17), cure light wounds, magic fang (2), obscuring mist, speak with
-  animals  0 (at will)-create water, detect poison, guidance, mending
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 4th; concentration +10)  2nd-bull's strength, gust
+    of wind (DC 18), heat metal, produce flameD, spider climb  1st-burning
+    handsD (DC 17), cure light wounds, magic fang (2), obscuring mist, speak
+    with animals
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, guidance, mending
 SpellDomains: Fire
 AbilityScores:
   - 20

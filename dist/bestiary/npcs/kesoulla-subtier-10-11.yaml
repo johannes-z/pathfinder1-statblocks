@@ -33,17 +33,21 @@ SpellLikeAbilities:
       value: lore keeper (34), remote viewing (13 rounds/day)
     - label: 9/day
       value: blast rune or spell rune (1d6+6 energy damage or spell, 13 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 13th; concentration +19)   7th-blasphemy (DC 23),
-  legend loreD   6th-blade barrier (DC 22), cold ice strikeUM (DC 22), harm (DC
-  22), greater glyph of wardingD   5th-flame strike (2, DC 21), greater command
-  (DC 22), righteous might, true seeingD   4th-air walk, cure critical wounds,
-  divine power, divinationD, freedom of movement, greater magic weapon  
-  3rd-dispel magic (2), glyph of wardingD, magic vestment (2), wind wall  
-  2nd-cure moderate wounds (2), detect thoughts (DC 18)D, graceAPG (2), hold
-  person (DC 19), sound burst (DC 18)   1st-comprehend languagesD, cure light
-  wounds, entropic shield, obscuring mist, sanctuary (DC 17), shield of faith
-  (2)   0 (at will)-detect magic, light, mending, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 13th; concentration +19)   7th-blasphemy (DC 23),
+    legend loreD   6th-blade barrier (DC 22), cold ice strikeUM (DC 22), harm
+    (DC 22), greater glyph of wardingD   5th-flame strike (2, DC 21), greater
+    command (DC 22), righteous might, true seeingD   4th-air walk, cure critical
+    wounds, divine power, divinationD, freedom of movement, greater magic
+    weapon   3rd-dispel magic (2), glyph of wardingD, magic vestment (2), wind
+    wall   2nd-cure moderate wounds (2), detect thoughts (DC 18)D, graceAPG (2),
+    hold person (DC 19), sound burst (DC 18)   1st-comprehend languagesD, cure
+    light wounds, entropic shield, obscuring mist, sanctuary (DC 17), shield of
+    faith (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, read magic
 SpellDomains: Knowledge, Rune
 AbilityScores:
   - 15

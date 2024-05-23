@@ -24,14 +24,17 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day), metamagic mastery (2/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 10th; concentration +14)  5th-empowered lightning
-  bolt (DC 19), prying eyes  4th-confusion (DC 18), silent deep slumber (DC 18),
-  dimension door, wall of fire (DC 18)  3rd-extended acid arrow, fireball (DC
-  17), mass dazzling blades*, haste  2nd-fog cloud, resist energy (2), rope
-  trick, scorching ray  1st-alarm, mage armor (pre-cast), ray of enfeeblement
-  (DC 15), shield, shocking grasp  0 (at will)-dancing lights, detect magic,
-  open/close, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 10th; concentration +14)  5th-empowered lightning
+    bolt (DC 19), prying eyes  4th-confusion (DC 18), silent deep slumber (DC
+    18), dimension door, wall of fire (DC 18)  3rd-extended acid arrow, fireball
+    (DC 17), mass dazzling blades*, haste  2nd-fog cloud, resist energy (2),
+    rope trick, scorching ray  1st-alarm, mage armor (pre-cast), ray of
+    enfeeblement (DC 15), shield, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, open/close, read magic
 AbilityScores:
   - 10
   - 12

@@ -36,14 +36,17 @@ SpellLikeAbilities:
       value: lore keeper, remote viewing (7 rounds/day)
     - label: 7/day
       value: artificer's touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)   4th-giant vermin, greater
-  make wholeTG, minor creationD   3rd-blindness/deafness (DC 17), magic
-  vestment, searing light, stone shapeD   2nd-detect thoughtsD (DC 16), enthrall
-  (DC 16), hold person (DC 16), lesser restoration, make whole   1st-command (DC
-  15), comprehend languagesD, divine favor, endure elements, hide from undead,
-  sanctuary (DC 15)   0 (at will)-create water, guidance, mending, purify food
-  and drink
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)   4th-giant vermin,
+    greater make wholeTG, minor creationD   3rd-blindness/deafness (DC 17),
+    magic vestment, searing light, stone shapeD   2nd-detect thoughtsD (DC 16),
+    enthrall (DC 16), hold person (DC 16), lesser restoration, make whole  
+    1st-command (DC 15), comprehend languagesD, divine favor, endure elements,
+    hide from undead, sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, mending, purify food and drink
 SpellDomains: Artifice, Knowledge
 AbilityScores:
   - 11

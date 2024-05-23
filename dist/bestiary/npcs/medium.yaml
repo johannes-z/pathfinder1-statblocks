@@ -30,12 +30,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: calming touch (1d6+5 nonlethal), gentle rest
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +8) 3rd-bestow curse (DC 16),
-  helping hand, speak with deadD 2nd-augury, gentle reposeD, silence (DC 15),
-  spiritual weapon 1st-bless, command (DC 14), comprehend languages,
-  deathwatchD, sanctuary (DC 14) 0 (at will)-detect magic, guidance, light, read
-  magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +8) 3rd-bestow curse (DC 16),
+    helping hand, speak with deadD 2nd-augury, gentle reposeD, silence (DC 15),
+    spiritual weapon 1st-bless, command (DC 14), comprehend languages,
+    deathwatchD, sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, read magic
 SpellDomains: Community, Repose
 AbilityScores:
   - 8

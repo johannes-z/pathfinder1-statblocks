@@ -38,14 +38,23 @@ SpellLikeAbilities:
       value: augury
     - label: 1/week
       value: contact other plane
-SpellsPrepared: >-
-  Spells Prepared (CL 10th; concentration +15)   5th (3/day)-summon monster V  
-  4th (5/day)-dimension door, wall of blindness/ deafnessACG (DC 19)   3rd
-  (5/day)-fly, stinking cloud (DC 19), summon monster III   2nd (5/day)-alter
-  self, false life, glitterdust (DC 18), scorching ray,   1st (6/day)-grease,
-  mage armor, shield, silent image (DC 16), ventriloquism (DC 16)   0 (at
-  will)-acid splash, arcane mark, dancing lights, ghost sound (DC 15), mage
-  hand, message, open/ close, prestidigitation, touch of fatigue (DC 15)
+SpellsPrepared:
+  header: Spells Prepared (CL 10th; concentration +15)
+  values:
+    - label: 5th (3/day)
+      value: summon monster V
+    - label: 4th (5/day)
+      value: dimension door, wall of blindness/ deafnessACG (DC 19)
+    - label: 3rd (5/day)
+      value: fly, stinking cloud (DC 19), summon monster III
+    - label: 2nd (5/day)
+      value: alter self, false life, glitterdust (DC 18), scorching ray,
+    - label: 1st (6/day)
+      value: grease, mage armor, shield, silent image (DC 16), ventriloquism (DC 16)
+    - label: 0 (at will)
+      value: >-
+        acid splash, arcane mark, dancing lights, ghost sound (DC 15), mage
+        hand, message, open/ close, prestidigitation, touch of fatigue (DC 15)
 AbilityScores:
   - 8
   - 14

@@ -34,10 +34,13 @@ SpellLikeAbilities:
       value: speak with animals (4 rounds/day)
     - label: 5/day
       value: fire bolt (1d6 fire)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +3)  1st-burning handsD (DC 13),
-  cure light wounds, divine favor  0 (at will)-bleed (DC 12), detect magic,
-  guidance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +3)  1st-burning handsD (DC
+    13), cure light wounds, divine favor
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, guidance
 SpellDomains: Animal, Fire
 AbilityScores:
   - 10

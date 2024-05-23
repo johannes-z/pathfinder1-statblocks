@@ -31,16 +31,19 @@ SpellLikeAbilities:
       value: elemental wall (12 rounds/day)
     - label: 7/day
       value: force missile (1d4+6)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 12th; concentration +16) 6th-chain lightning (DC
-  21), disintegrate (DC 20), greater dispel magic 5th-empowered lightning bolt
-  (DC 18), sending, teleport, wall of force 4th-enervation, fire shield, ice
-  storm, resilient sphere (DC 19), scrying (DC 18) 3rd-extended false life, fly,
-  gaseous form, lightning bolt (DC 18), protection from energy, slow (DC 17)
-  2nd-alter self, detect thoughts (DC 16), extended mage armor, levitate,
-  pyrotechnics (DC 16), scorching ray 1st-burning hands (DC 16), magic missile
-  (3), ray of enfeeblement (DC 15), shield 0 (at will)-arcane mark, dancing
-  lights, detect magic, mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 12th; concentration +16) 6th-chain lightning (DC
+    21), disintegrate (DC 20), greater dispel magic 5th-empowered lightning bolt
+    (DC 18), sending, teleport, wall of force 4th-enervation, fire shield, ice
+    storm, resilient sphere (DC 19), scrying (DC 18) 3rd-extended false life,
+    fly, gaseous form, lightning bolt (DC 18), protection from energy, slow (DC
+    17) 2nd-alter self, detect thoughts (DC 16), extended mage armor, levitate,
+    pyrotechnics (DC 16), scorching ray 1st-burning hands (DC 16), magic missile
+    (3), ray of enfeeblement (DC 15), shield
+  values:
+    - label: 0 (at will)
+      value: arcane mark, dancing lights, detect magic, mage hand, read magic
 AbilityScores:
   - 10
   - 14

@@ -32,10 +32,13 @@ SpellLikeAbilities:
   values:
     - label: 4/day
       value: strength surge (+1), vision of madness (+/-1)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +3)   1st-bless, cure light
-  wounds, divine favor, enlarge personD   0 (at will)-create water, detect
-  magic, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +3)   1st-bless, cure light
+    wounds, divine favor, enlarge personD
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, mending, stabilize
 SpellDomains: Madness, Strength
 AbilityScores:
   - 25

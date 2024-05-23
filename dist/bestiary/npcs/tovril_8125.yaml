@@ -42,10 +42,13 @@ SpellLikeAbilities:
       value: touch of evil (1 rounds)
     - label: 6/day
       value: inspiring word (1 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +4)  1st-cure light wounds,
-  liberating commandUC, protection from goodD  0 (at will)-bleed (DC 13),
-  guidance, light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +4)  1st-cure light wounds,
+    liberating commandUC, protection from goodD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), guidance, light
 SpellDomains: Evil, Nobility
 AbilityScores:
   - 6

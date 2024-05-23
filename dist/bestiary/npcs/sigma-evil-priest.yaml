@@ -30,13 +30,17 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: icicle (1d6+2), touch of evil
-SpellsPrepared: >-
-  Spells Prepared (CL 7th; melee touch +7, ranged touch +5):  4th-control water,
-  spell immunity, unholy blight (DC 18)D  3rd-bestow curse (DC 17), dispel
-  magic, summon monster III, water breathing D  2nd-bull's strength, enthrall
-  (DC 16), fog cloudD, hold person (DC 16), silence (DC 16)  1st-bless, command
-  (DC 15), divine favor, protection from goodD, sanctuary (DC 15)  0 (at
-  will)-bleed (DC 14), create water, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 7th; melee touch +7, ranged touch +5):  4th-control
+    water, spell immunity, unholy blight (DC 18)D  3rd-bestow curse (DC 17),
+    dispel magic, summon monster III, water breathing D  2nd-bull's strength,
+    enthrall (DC 16), fog cloudD, hold person (DC 16), silence (DC 16) 
+    1st-bless, command (DC 15), divine favor, protection from goodD, sanctuary
+    (DC 15)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), create water, resistance, virtue
 SpellDomains: Evil, Water
 AbilityScores:
   - 14

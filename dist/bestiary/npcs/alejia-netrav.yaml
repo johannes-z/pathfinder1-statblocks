@@ -29,10 +29,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: poison, spell combat (-2 attack), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 2nd; concentration +4)   1st-burning hands (DC 13),
-  corrosive touchUM, magic missile   0 (at will)-acid splash, dancing lights,
-  detect magic, mage hand
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 2nd; concentration +4)   1st-burning hands (DC
+    13), corrosive touchUM, magic missile
+  values:
+    - label: 0 (at will)
+      value: acid splash, dancing lights, detect magic, mage hand
 AbilityScores:
   - 15
   - 14

@@ -35,14 +35,17 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: battle rage (+4), bleeding touch (4 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 9th; ranged touch +12)5th-flame strike (DC 18), slay
-  livingD (DC 18)  4th-divine powerD, freedom of movement, spell immunity 
-  3rd-animate deadD, blindness/deafness (DC 16), dispel magic, prayer,
-  protection from energy  2nd-death knellD (DC 15), cure moderate wounds,
-  desecrate, hold person (DC 15), resist energy (x2)  1st-bless, cause fearD (DC
-  14), command (DC 14), divine favor, entropic shield, shield of faith  0 (at
-  will)-detect magic, guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 9th; ranged touch +12)5th-flame strike (DC 18), slay
+    livingD (DC 18)  4th-divine powerD, freedom of movement, spell immunity 
+    3rd-animate deadD, blindness/deafness (DC 16), dispel magic, prayer,
+    protection from energy  2nd-death knellD (DC 15), cure moderate wounds,
+    desecrate, hold person (DC 15), resist energy (x2)  1st-bless, cause fearD
+    (DC 14), command (DC 14), divine favor, entropic shield, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance
 SpellDomains: War
 AbilityScores:
   - 23

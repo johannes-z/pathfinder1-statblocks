@@ -33,16 +33,19 @@ SpellLikeAbilities:
       value: charming smile (12 rounds, DC 16), master's illusion (12 rounds/day)
     - label: 7/day
       value: copycat (12 rounds), dazing touch
-SpellsPrepared: >-
-  Spells Prepared (CL 12th; concentration +16)   6th-blade barrier (DC 20),
-  heal, misleadD (DC 20)   5th-charm monsterD (DC 19), quickened divine might,
-  flame strike (DC 19), quickened shield of faith   4th-air walk, heroismD,
-  greater magic weapon (2), spell immunity   3rd-bestow curse (DC 17), cure
-  serious wounds, contagion (DC 17), dispel magic, magic vestment, suggestionD
-  (DC 17)   2nd-bear's endurance, cure moderate wounds (2), death knell (DC 16),
-  hold person (DC 16), invisibilityD   1st-charm personD (DC 15), cure light
-  wounds (3), deathwatch, obscuring mist   0 (at will)-bleed (DC 14), guidance,
-  read magic, stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 12th; concentration +16)   6th-blade barrier (DC 20),
+    heal, misleadD (DC 20)   5th-charm monsterD (DC 19), quickened divine might,
+    flame strike (DC 19), quickened shield of faith   4th-air walk, heroismD,
+    greater magic weapon (2), spell immunity   3rd-bestow curse (DC 17), cure
+    serious wounds, contagion (DC 17), dispel magic, magic vestment, suggestionD
+    (DC 17)   2nd-bear's endurance, cure moderate wounds (2), death knell (DC
+    16), hold person (DC 16), invisibilityD   1st-charm personD (DC 15), cure
+    light wounds (3), deathwatch, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), guidance, read magic, stabilize
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 10

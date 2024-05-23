@@ -47,16 +47,19 @@ SpellLikeAbilities:
         Abilities (CL 10th; concentration +15)
     - label: 8/day
       value: fury of the abyssAPG
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 10th; concentration +15)  5th- dispel goodD, flame
-  strike (DC 20), slay living (DC 21), unholy iceUM  4th- blessing of fervorAPG,
-  cure critical wounds, dismissal (DC 19), freedom of movement, unholy blightD
-  (DC 19)  3rd- bestow curse (DC 19), blindness/deafness (DC 19), cure serious
-  wounds, invisibility purge, rageD  2nd- aid, align weaponD (evil only), bear's
-  endurance, hold person (DC 17), resist energy, status  1st- command (DC 16),
-  cure light wounds, deathwatch, doomD (DC 17), liberating command, ray of
-  sickeningUM, shield of faith  0 (at will)- bleed (DC 16), guidance,
-  resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 10th; concentration +15)  5th- dispel goodD,
+    flame strike (DC 20), slay living (DC 21), unholy iceUM  4th- blessing of
+    fervorAPG, cure critical wounds, dismissal (DC 19), freedom of movement,
+    unholy blightD (DC 19)  3rd- bestow curse (DC 19), blindness/deafness (DC
+    19), cure serious wounds, invisibility purge, rageD  2nd- aid, align weaponD
+    (evil only), bear's endurance, hold person (DC 17), resist energy, status 
+    1st- command (DC 16), cure light wounds, deathwatch, doomD (DC 17),
+    liberating command, ray of sickeningUM, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), guidance, resistance, stabilize
 SpellDomains: DemonAPG
 AbilityScores:
   - 10

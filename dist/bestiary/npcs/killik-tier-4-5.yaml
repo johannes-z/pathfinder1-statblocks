@@ -33,12 +33,15 @@ SpellLikeAbilities:
       value: copycat (5 rounds)
     - label: 7/day
       value: battle rage (+2 damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +9)  3rd-dispel magic, glyph of
-  warding, nondetectionD  2nd-cure moderate wounds, gentle repose,
-  invisibilityD, spiritual weapon  1st-cure light wounds (2), disguise selfD,
-  sanctuary (DC 15), shield of faith  0 (at will)-create water, detect magic,
-  detect poison, light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +9)  3rd-dispel magic, glyph
+    of warding, nondetectionD  2nd-cure moderate wounds, gentle repose,
+    invisibilityD, spiritual weapon  1st-cure light wounds (2), disguise selfD,
+    sanctuary (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, detect poison, light
 SpellDomains: Trickery, War
 AbilityScores:
   - 13

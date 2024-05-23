@@ -26,10 +26,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (6/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; concentration +6)  2nd-bear's endurance (DC 15),
-  summon monster II  1st-endure elements, feather fall, unseen servant  0 (at
-  will)-arcane mark, light, resistance, prestidigitation
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; concentration +6)  2nd-bear's endurance (DC 15),
+    summon monster II  1st-endure elements, feather fall, unseen servant
+  values:
+    - label: 0 (at will)
+      value: arcane mark, light, resistance, prestidigitation
 AbilityScores:
   - 8
   - 13

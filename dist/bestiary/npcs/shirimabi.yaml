@@ -55,13 +55,17 @@ SpellsKnown:
       value: >-
         bleed (DC 16), mage hand, message, open/ close (DC 16), penumbraUM,
         prestidigitation, ray of frost
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; melee touch +14, ranged touch +14) 3rd-deeper
-  darknessD, dispel magic, invisibility purge, wrathful mantleAPG (DC 19) 
-  2nd-blindness/deafness (blindness only)D (DC 18), death knell (DC 18),
-  desecrate (x2), dread boltUM, (DC 18), silence (DC 18)  1st-bane (DC 17), doom
-  (DC 17), moment of greatnessUC, obscuring mistD, sanctuary (DC 17), shield of
-  faith  0 (at will)-detect magic, guidance, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; melee touch +14, ranged touch +14) 3rd-deeper
+    darknessD, dispel magic, invisibility purge, wrathful mantleAPG (DC 19) 
+    2nd-blindness/deafness (blindness only)D (DC 18), death knell (DC 18),
+    desecrate (x2), dread boltUM, (DC 18), silence (DC 18)  1st-bane (DC 17),
+    doom (DC 17), moment of greatnessUC, obscuring mistD, sanctuary (DC 17),
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, resistance, virtue
 SpellDomains: BloodAPG, Darkness
 AbilityScores:
   - null

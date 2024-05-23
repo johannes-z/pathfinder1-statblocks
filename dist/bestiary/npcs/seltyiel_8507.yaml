@@ -30,9 +30,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: arcane pool (4 points, +1), spell combat, spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 1st; concentration +6)   1st-color spray (DC 14),
-  shocking grasp   0 (at will)-arcane mark, detect magic, light
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 1st; concentration +6)   1st-color spray (DC 14),
+    shocking grasp
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light
 AbilityScores:
   - 16
   - 14

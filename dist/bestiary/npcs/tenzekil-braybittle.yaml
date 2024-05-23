@@ -38,13 +38,16 @@ SpellLikeAbilities:
       value: >-
         dancing lights, ghost sound (DC 10), prestidigitation, speak with
         animals
-SpellsPrepared: >-
-  Spells Prepared (CL 9th; concentration +12)  5th-stoneskin  4th-air walk,
-  dispel magic  3rd-call lightning (DC 16), greater magic fang, poison (DC 16),
-  protection from energy  2nd-animal messenger, barkskin, bull's strength, flame
-  blade, flaming sphere (DC 15)  1st-calm animals (DC 14), charm animal (DC 14),
-  longstrider, produce flame, shillelagh  0 (at will)-detect poison, know
-  direction, mending, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 9th; concentration +12)  5th-stoneskin  4th-air walk,
+    dispel magic  3rd-call lightning (DC 16), greater magic fang, poison (DC
+    16), protection from energy  2nd-animal messenger, barkskin, bull's
+    strength, flame blade, flaming sphere (DC 15)  1st-calm animals (DC 14),
+    charm animal (DC 14), longstrider, produce flame, shillelagh
+  values:
+    - label: 0 (at will)
+      value: detect poison, know direction, mending, resistance
 AbilityScores:
   - 15
   - 15

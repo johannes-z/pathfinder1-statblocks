@@ -28,12 +28,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: acid dart (1d6+3 acid)
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; ranged touch +5)  3rd-displacement, fireball (DC 16),
-  stinking cloud (DC 17)B, summon monster III   2nd-acid arrowB, fog cloud,
-  glitterdust (DC 16), mirror image, web (DC 16)   1st-grease (DC 15), mage
-  armorB, magic missile, obscuring mist, shield   0 (at will)-detect magic, ray
-  of frost, read magic, light
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; ranged touch +5)  3rd-displacement, fireball (DC
+    16), stinking cloud (DC 17)B, summon monster III   2nd-acid arrowB, fog
+    cloud, glitterdust (DC 16), mirror image, web (DC 16)   1st-grease (DC 15),
+    mage armorB, magic missile, obscuring mist, shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, ray of frost, read magic, light
 AbilityScores:
   - 10
   - 14

@@ -34,11 +34,14 @@ SpellLikeAbilities:
   values:
     - label: 1/day
       value: darkness
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 6th; concentration +8)   2nd-bull's strength,
-  hold person (DC 14), resist energy, silence (DC 14)   1st-bane (DC 13), divine
-  favor, doom (DC 13), magic stone, remove fear   0 (at will)-detect magic,
-  guidance, read magic, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 6th; concentration +8)   2nd-bull's strength,
+    hold person (DC 14), resist energy, silence (DC 14)   1st-bane (DC 13),
+    divine favor, doom (DC 13), magic stone, remove fear
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance, stabilize
 AbilityScores:
   - 15
   - 14

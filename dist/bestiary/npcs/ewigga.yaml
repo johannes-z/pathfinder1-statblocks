@@ -36,11 +36,14 @@ SpellLikeAbilities:
       value: >-
         alter self, dancing lights, ghost sound (DC 13), invisibility,
         pyrotechnics (DC 15), tree shape, whispering wind
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 4th; concentration +8)   2nd-heat metal, pox
-  pustulesAPG (DC 16), tar ballUM, wind wallD   1st-entangle (DC 15), goodberry,
-  obscuring mistD, produce flame, ray of sickeningUM (DC 15)   0 (at
-  will)-create water, detect magic, flare (DC 14), guidance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 4th; concentration +8)   2nd-heat metal, pox
+    pustulesAPG (DC 16), tar ballUM, wind wallD   1st-entangle (DC 15),
+    goodberry, obscuring mistD, produce flame, ray of sickeningUM (DC 15)
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, flare (DC 14), guidance
 SpellDomains: Air
 AbilityScores:
   - 23

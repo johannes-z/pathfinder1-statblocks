@@ -42,12 +42,16 @@ SpellLikeAbilities:
         Abilities (CL 5th; concentration +9)
     - label: 7/day
       value: touch of evil (2 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +9)  3rd-chain of perditionUC,
-  dispel magicD, protection from energy  2nd-align weaponD (evil only), dread
-  boltUM (DC 16), hold person (DC 16), spiritual weapon  1st-cure light wounds,
-  entropic shield, murderous commandUM (DC 15), protection from goodD, shield of
-  faith  0 (at will)-bleed (DC 14), detect magic, detect poison, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +9)  3rd-chain of perditionUC,
+    dispel magicD, protection from energy  2nd-align weaponD (evil only), dread
+    boltUM (DC 16), hold person (DC 16), spiritual weapon  1st-cure light
+    wounds, entropic shield, murderous commandUM (DC 15), protection from goodD,
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, detect poison, read magic
 SpellDomains: Evil, Magic
 AbilityScores:
   - 10

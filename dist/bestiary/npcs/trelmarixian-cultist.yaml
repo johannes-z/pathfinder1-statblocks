@@ -29,13 +29,16 @@ SpecialAttacks: >-
   blessings 8/day (evil: battle companion, unholy strike; madness: control
   madness, madness supremacy), channel negative energy (DC 19, 5d6), fervor
   9/day (4d6), sacred weapon (1d10, +2, 10 rounds/day)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 10th; concentration +14)   4th-divine power,
-  unholy blight (DC 18)   3rd-bestow curse (DC 17), contagion (DC 17), prayer,
-  searing light   2nd-bull's strength, death knell (DC 16), owl's wisdom, resist
-  energy, spiritual weapon   1st-command (2, DC 15), murderous commandUM (2, DC
-  15), sanctuary (DC 15), shield of faith   0 (at will)-bleed (DC 14), detect
-  magic, guidance, light
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 10th; concentration +14)   4th-divine power,
+    unholy blight (DC 18)   3rd-bestow curse (DC 17), contagion (DC 17), prayer,
+    searing light   2nd-bull's strength, death knell (DC 16), owl's wisdom,
+    resist energy, spiritual weapon   1st-command (2, DC 15), murderous
+    commandUM (2, DC 15), sanctuary (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, light
 AbilityScores:
   - 13
   - 17

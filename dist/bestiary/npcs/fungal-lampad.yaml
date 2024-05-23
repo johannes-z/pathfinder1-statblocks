@@ -36,11 +36,14 @@ SpellLikeAbilities:
   values:
     - label: At Will
       value: meld into stone, stone tell
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 5th; concentration +8)   3rd-spike growth (DC 16),
-  stone shape   2nd-spider climb, stone callAPG (2)   1st-cure light wounds,
-  faerie fire, magic stone (2)   0 (at will)-detect magic, detect poison, light,
-  mending
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 5th; concentration +8)   3rd-spike growth (DC 16),
+    stone shape   2nd-spider climb, stone callAPG (2)   1st-cure light wounds,
+    faerie fire, magic stone (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, light, mending
 AbilityScores:
   - 14
   - 19

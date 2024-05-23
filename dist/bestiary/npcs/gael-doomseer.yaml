@@ -28,12 +28,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: diviner's fortune (+2)
-SpellsPrepared: >-
-  Diviner Spells Prepared (CL 5th; concentration +9)   3rd-fly, invisibility
-  sphere, extended see invisibility   2nd-glitterdust (DC 16), locate object,
-  scare (DC 16), scorching ray   1st-grease (DC 15), hydraulic pushAPG, touch of
-  gracelessnessAPG (DC 15), true strike, vanishAPG   0 (at will)-detect magic,
-  detect poison, message, read magic
+SpellsPrepared:
+  header: >-
+    Diviner Spells Prepared (CL 5th; concentration +9)   3rd-fly, invisibility
+    sphere, extended see invisibility   2nd-glitterdust (DC 16), locate object,
+    scare (DC 16), scorching ray   1st-grease (DC 15), hydraulic pushAPG, touch
+    of gracelessnessAPG (DC 15), true strike, vanishAPG
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, message, read magic
 AbilityScores:
   - 8
   - 14

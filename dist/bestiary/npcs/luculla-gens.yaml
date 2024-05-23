@@ -33,13 +33,17 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: bleeding touch (3 rounds), copycat (7 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)   4th-confusionD (DC 18),
-  summon monster IV, unholy blight (DC 18)   3rd-bestow curse (DC 17), cure
-  serious wounds, nondetectionD, prayer   2nd-cure moderate wounds, hold person
-  (DC 16), invisibilityD, spiritual weapon, undetectable alignment (DC 16)  
-  1st-bane (DC 15), command (DC 15), cure light wounds (2), disguise selfD,
-  divine favor   0 (at will)-bleed (DC 14), detect magic, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)   4th-confusionD (DC 18),
+    summon monster IV, unholy blight (DC 18)   3rd-bestow curse (DC 17), cure
+    serious wounds, nondetectionD, prayer   2nd-cure moderate wounds, hold
+    person (DC 16), invisibilityD, spiritual weapon, undetectable alignment (DC
+    16)   1st-bane (DC 15), command (DC 15), cure light wounds (2), disguise
+    selfD, divine favor
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, read magic, resistance
 SpellDomains: Death, Trickery
 AbilityScores:
   - 10

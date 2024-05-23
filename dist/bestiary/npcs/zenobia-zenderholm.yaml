@@ -41,15 +41,18 @@ SpellLikeAbilities:
       value: battle rage (+4)
     - label: 1/day
       value: dispelling touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +13)   5th-flame strikeD (DC
-  19), slay living (DC 19)   4th-divine powerD, poison (DC 18), sending, unholy
-  blight (DC 18)   3rd-bestow curse (DC 17), blindness/ deafness (DC 17),
-  contagion (DC 17), dispel magicD, wind wall   2nd-death knell (DC 16),
-  desecrate, enthrall (DC 16), hold person (DC 16), resist energy, spiritual
-  weaponD   1st-command (2, DC 15), identifyD, protection from good, sanctuary
-  (DC 15), shield of faith   0 (at will)-bleed (DC 14), detect magic, light,
-  read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +13)   5th-flame strikeD (DC
+    19), slay living (DC 19)   4th-divine powerD, poison (DC 18), sending,
+    unholy blight (DC 18)   3rd-bestow curse (DC 17), blindness/ deafness (DC
+    17), contagion (DC 17), dispel magicD, wind wall   2nd-death knell (DC 16),
+    desecrate, enthrall (DC 16), hold person (DC 16), resist energy, spiritual
+    weaponD   1st-command (2, DC 15), identifyD, protection from good, sanctuary
+    (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, light, read magic
 SpellDomains: Magic, War
 AbilityScores:
   - 15

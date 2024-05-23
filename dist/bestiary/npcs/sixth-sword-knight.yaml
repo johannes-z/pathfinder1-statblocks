@@ -31,11 +31,14 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: battle rage (+2), touch of good (+2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +6)   2nd-aid, shield other,
-  sound burst (DC 14), spiritual weaponD   1st-bless, command (DC 13), divine
-  favor, protection from evilD, shield of faith   0 (at will)-guidance, light,
-  resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +6)   2nd-aid, shield other,
+    sound burst (DC 14), spiritual weaponD   1st-bless, command (DC 13), divine
+    favor, protection from evilD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: guidance, light, resistance, stabilize
 SpellDomains: Good, War
 AbilityScores:
   - 12

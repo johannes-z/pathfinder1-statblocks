@@ -28,11 +28,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 1/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 4th; concentration +7)   2nd-barkskin, bull's
-  strength, chill metal (DC 15)   1st-entangle (DC 14), magic fang, pass without
-  trace, produce flame   0 (at will)-create water, guidance, know direction,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 4th; concentration +7)   2nd-barkskin, bull's
+    strength, chill metal (DC 15)   1st-entangle (DC 14), magic fang, pass
+    without trace, produce flame
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, know direction, stabilize
 AbilityScores:
   - 11
   - 12

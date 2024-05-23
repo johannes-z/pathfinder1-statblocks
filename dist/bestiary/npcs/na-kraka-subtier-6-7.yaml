@@ -28,11 +28,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft. (10 ft. with tentacles)
 SpecialAttacks: hexes (charm [1 step, 2 rounds], evil eye [-2, 5 rounds], tongues [5 minutes])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 5th; concentration +7)   3rd-suggestion (DC 15)  
-  2nd-false life, hold person (DC 14), invisibility   1st-charm person (DC 13),
-  cure light wounds, mage armor, ray of enfeeblement (DC 13)   0 (at will)-bleed
-  (DC 12), detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 5th; concentration +7)   3rd-suggestion (DC 15)  
+    2nd-false life, hold person (DC 14), invisibility   1st-charm person (DC
+    13), cure light wounds, mage armor, ray of enfeeblement (DC 13)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, guidance, resistance
 AbilityScores:
   - 18
   - 21

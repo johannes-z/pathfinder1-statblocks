@@ -37,10 +37,14 @@ SpellLikeAbilities:
       value: touch of evil (1 round)
     - label: 5/day
       value: icicle (1d6+1 cold damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +5) 2nd-fog cloudD, silence (DC
-  14), spiritual weapon 1st-command (DC 13), divine favor, magic weapon,
-  obscuring mistD 0 (at will)-bleed (DC 12), create water, guidance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +5) 2nd-fog cloudD, silence
+    (DC 14), spiritual weapon 1st-command (DC 13), divine favor, magic weapon,
+    obscuring mistD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), create water, guidance, virtue
 SpellDomains: Evil, Water
 AbilityScores:
   - 13

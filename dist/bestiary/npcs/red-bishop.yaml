@@ -48,17 +48,20 @@ SpellLikeAbilities:
       value: master's illusion (11 rounds/day)
     - label: 13/day
       value: copycat (11 rounds), lightning arc (1d6+5 electricity)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 11th; concentration +21)  6th-chain lightningD (DC
-  26), geas/quest, heal, plague stormUM (DC 26)  5th-breath of life (DC 25),
-  charnel houseHA (DC 25), false visionD, mark of justice, plane shift (DC 25) 
-  4th-chaos hammer (DC 24), confusionD (DC 24), cure critical wounds (2), curse
-  terrainHA, sending  3rd-cure serious wounds (2), dispel magic (2), gaseous
-  formD, magic circle against good, speak with dead (DC 23)  2nd-cure moderate
-  wounds (3), darkness, death knell (DC 22), hold person (DC 22), invisibilityD,
-  silence (DC 22)  1st-cure light wounds (4), deathwatch, doom (DC 21),
-  obscuring mistD, sanctuary (DC 21)  0 (at will)-bleed (DC 20), detect magic,
-  light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 11th; concentration +21)  6th-chain lightningD
+    (DC 26), geas/quest, heal, plague stormUM (DC 26)  5th-breath of life (DC
+    25), charnel houseHA (DC 25), false visionD, mark of justice, plane shift
+    (DC 25)  4th-chaos hammer (DC 24), confusionD (DC 24), cure critical wounds
+    (2), curse terrainHA, sending  3rd-cure serious wounds (2), dispel magic
+    (2), gaseous formD, magic circle against good, speak with dead (DC 23) 
+    2nd-cure moderate wounds (3), darkness, death knell (DC 22), hold person (DC
+    22), invisibilityD, silence (DC 22)  1st-cure light wounds (4), deathwatch,
+    doom (DC 21), obscuring mistD, sanctuary (DC 21)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 20), detect magic, light, mending
 SpellDomains: Air, Trickery
 AbilityScores:
   - 10

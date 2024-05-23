@@ -34,11 +34,14 @@ SpellLikeAbilities:
       value: bleeding touch (1 round)
     - label: 6/day
       value: battle rage (+1)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-desecrate, spiritual
-  weaponD, undetectable alignment   1st-bane (DC 14), cause fearD (DC 14),
-  command (DC 14), cure light wounds   0 (at will)-bleed (DC 13), create water,
-  detect magic, guidance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-desecrate, spiritual
+    weaponD, undetectable alignment   1st-bane (DC 14), cause fearD (DC 14),
+    command (DC 14), cure light wounds
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), create water, detect magic, guidance
 SpellDomains: Death, War
 AbilityScores:
   - 12

@@ -32,19 +32,22 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: bleeding touch (7 rounds), touch of evil (7 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 14th; concentration +18)   7th-destruction (DC 21),
-  destructionD (DC 21), repulsion (DC 21)   6th-blade barrier (DC 20), greater
-  dispel magic, planar ally, planar bindingD (daemons only) (DC 20)   5th-dispel
-  good, greater command (DC 19), slay living (DC 19), slay livingD (DC 19)  
-  4th-aura of doomUM (DC 18), divine power, fleshworm infestationUM (DC 18),
-  freedom of movement, greater magic weapon, unholy blightD (DC 18)   3rd-bestow
-  curse (DC 17), blindness/deafness (DC 17), deeper darkness, prayer, vampiric
-  touchD, wrathful mantleAPG (DC 17)   2nd-boiling bloodUM (DC 16), cure
-  moderate wounds (2), death knellD (DC 16), hold person (DC 16), resist
-  energy   1st-cause fearD (DC 15), comprehend languages, doom (DC 15), entropic
-  shield, shield of faith (2)   0 (at will)-bleed (DC 14), detect magic,
-  guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 14th; concentration +18)   7th-destruction (DC
+    21), destructionD (DC 21), repulsion (DC 21)   6th-blade barrier (DC 20),
+    greater dispel magic, planar ally, planar bindingD (daemons only) (DC 20)  
+    5th-dispel good, greater command (DC 19), slay living (DC 19), slay livingD
+    (DC 19)   4th-aura of doomUM (DC 18), divine power, fleshworm infestationUM
+    (DC 18), freedom of movement, greater magic weapon, unholy blightD (DC 18)  
+    3rd-bestow curse (DC 17), blindness/deafness (DC 17), deeper darkness,
+    prayer, vampiric touchD, wrathful mantleAPG (DC 17)   2nd-boiling bloodUM
+    (DC 16), cure moderate wounds (2), death knellD (DC 16), hold person (DC
+    16), resist energy   1st-cause fearD (DC 15), comprehend languages, doom (DC
+    15), entropic shield, shield of faith (2)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, resistance
 SpellDomains: Evil (DaemonAPG subdomain), Death
 AbilityScores:
   - 9

@@ -24,10 +24,13 @@ Melee:
   - club -1 (1d4-2)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Adept Spells Prepared (CL 1st; concentration +2)   1st-burning hands (DC 12),
-  cure light wounds   0 (at will)-detect magic, guidance, touch of fatigue (DC
-  11)
+SpellsPrepared:
+  header: >-
+    Adept Spells Prepared (CL 1st; concentration +2)   1st-burning hands (DC
+    12), cure light wounds
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, touch of fatigue (DC 11)
 AbilityScores:
   - 7
   - 14

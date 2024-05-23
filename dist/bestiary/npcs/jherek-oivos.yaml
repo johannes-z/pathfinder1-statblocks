@@ -27,9 +27,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: sneak attack +2d6, hand of the apprentice  (5/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 2nd; concentration +4)  1st-charm person (DC 13), magic
-  missile  0 (at will)-detect magic, message, prestidigitation, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 2nd; concentration +4)  1st-charm person (DC 13), magic
+    missile
+  values:
+    - label: 0 (at will)
+      value: detect magic, message, prestidigitation, read magic
 AbilityScores:
   - 12
   - 18

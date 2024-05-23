@@ -29,10 +29,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (6/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 3rd; concentration +6)   2nd-mirror image,
-  scorching ray   1st-magic missile, shield, shocking grasp   0 (at will)-daze
-  (DC 13), detect magic, light, resistance
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 3rd; concentration +6)   2nd-mirror image,
+    scorching ray   1st-magic missile, shield, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: daze (DC 13), detect magic, light, resistance
 AbilityScores:
   - 12
   - 15

@@ -28,11 +28,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hexes (charm, disguise, evil eye), petrifying gaze
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 4th; concentration +7)   2nd-alter self, detect
-  thoughts (DC 15), invisibility   1st-beguiling giftAPG (DC 14), command (DC
-  14), ill omenAPG, mage armor   0 (at will)-bleed (DC 13), daze (DC 13), detect
-  magic, touch of fatigue (DC 13)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 4th; concentration +7)   2nd-alter self, detect
+    thoughts (DC 15), invisibility   1st-beguiling giftAPG (DC 14), command (DC
+    14), ill omenAPG, mage armor
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), daze (DC 13), detect magic, touch of fatigue (DC 13)
 AbilityScores:
   - 10
   - 18

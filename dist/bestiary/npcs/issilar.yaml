@@ -39,13 +39,16 @@ SpellLikeAbilities:
       value: >-
         blur, dominate person (DC 19), major image (DC 17), suggestion (DC 17),
         mirror image
-SpellsPrepared: >-
-  Enchanter Spells Prepared (CL 6th; concentration +12) 3rd-hold person (DC 21),
-  lightning bolt (2, DC 19), protection from energy 2nd-cat's grace, flaming
-  sphere (DC 18), hideous laughter (DC 20), protection from arrows, scorching
-  ray, spider climb 1st-burning hands (2, DC 17), charm person (DC 19), magic
-  missile (2), shield 0 (at will)-daze (DC 18), detect magic, mage hand, ray of
-  frost, read magic
+SpellsPrepared:
+  header: >-
+    Enchanter Spells Prepared (CL 6th; concentration +12) 3rd-hold person (DC
+    21), lightning bolt (2, DC 19), protection from energy 2nd-cat's grace,
+    flaming sphere (DC 18), hideous laughter (DC 20), protection from arrows,
+    scorching ray, spider climb 1st-burning hands (2, DC 17), charm person (DC
+    19), magic missile (2), shield
+  values:
+    - label: 0 (at will)
+      value: daze (DC 18), detect magic, mage hand, ray of frost, read magic
 AbilityScores:
   - 8
   - 23

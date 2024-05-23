@@ -31,12 +31,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: dazing touch
-SpellsPrepared: >-
-  Enchanter Spells Prepared (CL 5th; concentration +9)   3rd-fireball (DC 17),
-  suggestion (2, DC 18)   2nd-hideous laughter (DC 17), mirror image, see
-  invisibility, web (DC 16)   1st-charm person (DC 16), grease, mage armor,
-  magic missile (2)   0 (at will)-daze (DC 15), detect magic, detect poison, ray
-  of frost
+SpellsPrepared:
+  header: >-
+    Enchanter Spells Prepared (CL 5th; concentration +9)   3rd-fireball (DC 17),
+    suggestion (2, DC 18)   2nd-hideous laughter (DC 17), mirror image, see
+    invisibility, web (DC 16)   1st-charm person (DC 16), grease, mage armor,
+    magic missile (2)
+  values:
+    - label: 0 (at will)
+      value: daze (DC 15), detect magic, detect poison, ray of frost
 AbilityScores:
   - 8
   - 15

@@ -53,13 +53,17 @@ SpellLikeAbilities:
         mind blank, mirage arcana (DC 18), plague stormUM (DC 19), quench (DC
         16), reincarnate, speak with dead, veil (DC 19), vision, whirlwind (DC
         21), wind wall
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 10th; concentration +16)  5th-baleful polymorph (DC
-  21), cloudkill (DC 21), feeblemind (DC 21)  4th-confusion (DC 20), dimension
-  door (2), ice storm  3rd-dispel magic, suggestion (DC 19), vampiric touch (2) 
-  2nd-glitterdust (2, DC 18), mirror image, spectral hand, touch of idiocy (2) 
-  1st-charm person (DC 17), cure light wounds (3), mage armor, obscuring mist  0
-  (at will)-dancing lights, detect magic, message, touch of fatigue (DC 16)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 10th; concentration +16)  5th-baleful polymorph
+    (DC 21), cloudkill (DC 21), feeblemind (DC 21)  4th-confusion (DC 20),
+    dimension door (2), ice storm  3rd-dispel magic, suggestion (DC 19),
+    vampiric touch (2)  2nd-glitterdust (2, DC 18), mirror image, spectral hand,
+    touch of idiocy (2)  1st-charm person (DC 17), cure light wounds (3), mage
+    armor, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: dancing lights, detect magic, message, touch of fatigue (DC 16)
 AbilityScores:
   - 16
   - 18

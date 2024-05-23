@@ -41,11 +41,14 @@ SpellLikeAbilities:
       value: cause fear (DC 12, 30-foot radius)
     - label: 1/week
       value: commune (6 questions)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 3rd; concentration +5)   2nd-hold person (DC 14),
-  summon monster II   1st-command (DC 13), ray of enfeeblement (DC 13), summon
-  monster I   0 (at will)-bleed (DC 12), dancing lights, daze (DC 12), touch of
-  fatigue (DC 12)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 3rd; concentration +5)   2nd-hold person (DC 14),
+    summon monster II   1st-command (DC 13), ray of enfeeblement (DC 13), summon
+    monster I
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), dancing lights, daze (DC 12), touch of fatigue (DC 12)
 AbilityScores:
   - 8
   - 18

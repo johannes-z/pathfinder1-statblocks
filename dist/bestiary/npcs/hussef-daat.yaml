@@ -42,14 +42,18 @@ SpellLikeAbilities:
       value: >-
         blasphemy (DC 21), summon (level 6, 1 lemure, bearded devil, erinyes, or
         bone devil 100%)
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 13th; concentration +17)   5th-acidic sprayUM (DC
-  19)   4th-black tentacles, ice storm, phantasmal killer (DC 18), stoneskin  
-  3rd-elemental auraAPG (DC 17), lightning bolt (DC 17), locate weaknessUC, ray
-  of exhaustion (DC 17), stinking cloud (DC 17)   2nd-blur, cat's grace, mirror
-  image, spider climb, twisted spaceUC (DC 16), web (DC 16)   1st-burning hands
-  (DC 15), corrosive touchUM, obscuring mist, shield, true strike (2)   0 (at
-  will)-acid splash, daze (DC 14), detect magic, ghost sound (DC 14), read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 13th; concentration +17)   5th-acidic sprayUM (DC
+    19)   4th-black tentacles, ice storm, phantasmal killer (DC 18), stoneskin  
+    3rd-elemental auraAPG (DC 17), lightning bolt (DC 17), locate weaknessUC,
+    ray of exhaustion (DC 17), stinking cloud (DC 17)   2nd-blur, cat's grace,
+    mirror image, spider climb, twisted spaceUC (DC 16), web (DC 16)  
+    1st-burning hands (DC 15), corrosive touchUM, obscuring mist, shield, true
+    strike (2)
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 14), detect magic, ghost sound (DC 14), read magic
 AbilityScores:
   - 12
   - 22

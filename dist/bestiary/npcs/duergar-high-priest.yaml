@@ -44,17 +44,21 @@ SpellLikeAbilities:
       value: >-
         charming smile (13 rounds/day, DC 16), master's illusion (13 rounds/day,
         DC 21)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 13th; concentration +18)  7th-blasphemy (DC 22),
-  insanityD (DC 22)  6th-blade barrier (DC 21), harm (DC 21), misleadD (DC 21) 
-  5th-break enchantment (DC 20), breath of life, charm monsterD (DC 20), slay
-  living (DC 20), wall of stone (DC 20)  4th-cure critical wounds, divine power,
-  freedom of movement, heroismD, spell immunity, unholy blight (DC 19) 
-  3rd-bestow curse (DC 18), dispel magic, invisibility purge, stone shape,
-  suggestionD (DC 18), wind wall  2nd-control vermin* (DC 17), hold person (2,
-  DC 17), invisibilityD, sound burst (DC 17), spiritual weapon  1st-bane (DC
-  16), charm personD (DC 16), cure light wounds, divine favor, doom (DC 16),
-  shield of faith (2)  0 (at will)-detect magic, guidance, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 13th; concentration +18)  7th-blasphemy (DC 22),
+    insanityD (DC 22)  6th-blade barrier (DC 21), harm (DC 21), misleadD (DC
+    21)  5th-break enchantment (DC 20), breath of life, charm monsterD (DC 20),
+    slay living (DC 20), wall of stone (DC 20)  4th-cure critical wounds, divine
+    power, freedom of movement, heroismD, spell immunity, unholy blight (DC 19) 
+    3rd-bestow curse (DC 18), dispel magic, invisibility purge, stone shape,
+    suggestionD (DC 18), wind wall  2nd-control vermin* (DC 17), hold person (2,
+    DC 17), invisibilityD, sound burst (DC 17), spiritual weapon  1st-bane (DC
+    16), charm personD (DC 16), cure light wounds, divine favor, doom (DC 16),
+    shield of faith (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, resistance, virtue
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 13

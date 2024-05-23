@@ -36,17 +36,20 @@ SpellLikeAbilities:
       value: lightning lord
     - label: 8/day
       value: storm burst (1d6+6 nonlethal damage)
-SpellsPrepared: >-
-  Spells Prepared (CL 13th; melee touch +10, ranged touch +10)  7th-control
-  weatherD, creeping doom (DC 22)   6th-control windsD (DC 21), greater dispel
-  magic, liveoak   5th-call lightning storm (DC 21), commune with nature, cure
-  critical wounds, ice stormD, wall of fire   4th-cure serious wounds, flame
-  strike (DC 20), freedom of movement, scrying (DC 19), sleet stormD, summon
-  nature's  ally IV   3rd-call lightningD (DC 19), greater magic fang (x2),
-  plant growth, protection from energy (x2)   2nd-animal messenger, barkskin
-  (x3), bear's endurance, fog cloudD   1st-cure light wounds (x2), endure
-  elements, faerie fire (x2), obscuring mistD, speak with animals   0 (at
-  will)-flare (DC 16), light, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 13th; melee touch +10, ranged touch +10)  7th-control
+    weatherD, creeping doom (DC 22)   6th-control windsD (DC 21), greater dispel
+    magic, liveoak   5th-call lightning storm (DC 21), commune with nature, cure
+    critical wounds, ice stormD, wall of fire   4th-cure serious wounds, flame
+    strike (DC 20), freedom of movement, scrying (DC 19), sleet stormD, summon
+    nature's  ally IV   3rd-call lightningD (DC 19), greater magic fang (x2),
+    plant growth, protection from energy (x2)   2nd-animal messenger, barkskin
+    (x3), bear's endurance, fog cloudD   1st-cure light wounds (x2), endure
+    elements, faerie fire (x2), obscuring mistD, speak with animals
+  values:
+    - label: 0 (at will)
+      value: flare (DC 16), light, mending, stabilize
 SpellDomains: Weather
 AbilityScores:
   - 13

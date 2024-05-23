@@ -30,13 +30,16 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: swarming, wild shape 3/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 8th; concentration +12)   4th-flame strike (DC 18),
-  freedom of movement, ice storm   3rd-cure moderate wounds (DC 17), greater
-  magic fang, meld into stone, sleet storm   2nd-barkskin (2), bull's strength,
-  flaming sphere (DC 16)   1st-cure light wounds (DC 15), faerie fire,
-  longstrider (2), produce flame   0 (at will)-create water, detect magic,
-  guidance, resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 8th; concentration +12)   4th-flame strike (DC
+    18), freedom of movement, ice storm   3rd-cure moderate wounds (DC 17),
+    greater magic fang, meld into stone, sleet storm   2nd-barkskin (2), bull's
+    strength, flaming sphere (DC 16)   1st-cure light wounds (DC 15), faerie
+    fire, longstrider (2), produce flame
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, resistance
 AbilityScores:
   - 8
   - 16

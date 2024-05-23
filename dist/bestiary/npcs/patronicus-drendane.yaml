@@ -31,12 +31,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: copycat (6 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; concentration +10)  3rd-dispel magicD, invisibility
-  purge, locate object, protection from energy  2nd-hold person (DC 16),
-  invisibilityD, status, zone of truth (DC 16, 2)  1st-bless, cure light wounds
-  (2), disguise selfD, sanctuary (DC 15), summon monster I  0 (at will)-detect
-  magic, detect poison, light, stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; concentration +10)  3rd-dispel magicD, invisibility
+    purge, locate object, protection from energy  2nd-hold person (DC 16),
+    invisibilityD, status, zone of truth (DC 16, 2)  1st-bless, cure light
+    wounds (2), disguise selfD, sanctuary (DC 15), summon monster I
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, light, stabilize
 SpellDomains: Magic, Trickery
 AbilityScores:
   - 7

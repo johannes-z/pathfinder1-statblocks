@@ -47,11 +47,14 @@ SpellLikeAbilities:
       value: nondetection Domain Spell-Like Abilities (CL 4th; concentration +6)
     - label: 5/day
       value: bleeding touch (2 rounds), touch of evil (2 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +6) 2nd-death knellD (DC 14),
-  desecrate, spiritual weapon, summon monster II 1st-bane (DC 13), divine favor,
-  obscuring mist, protection from goodD, sanctuary (DC 13) 0 (at will)-bleed (DC
-  12), detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +6) 2nd-death knellD (DC 14),
+    desecrate, spiritual weapon, summon monster II 1st-bane (DC 13), divine
+    favor, obscuring mist, protection from goodD, sanctuary (DC 13)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, guidance, resistance
 SpellDomains: Death, Evil
 AbilityScores:
   - 14

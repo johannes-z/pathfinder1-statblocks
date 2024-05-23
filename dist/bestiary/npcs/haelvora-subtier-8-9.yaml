@@ -39,13 +39,16 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: acid dart (1d6+3 acid)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)   4th-dismissal (DC 18),
-  spike stonesD (DC 18), unholy blight (DC 18)   3rd-dispel magic, flyD, summon
-  monster III, vision of HellUM   2nd-death knell (DC 16), dread boltUM (2, DC
-  16), hold person (DC 16), soften earth and stoneD   1st-bane (DC 15),
-  longstriderD, murderous commandUM (3, DC 15), sanctuary (DC 15)   0 (at
-  will)-detect magic, create water, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)   4th-dismissal (DC 18),
+    spike stonesD (DC 18), unholy blight (DC 18)   3rd-dispel magic, flyD,
+    summon monster III, vision of HellUM   2nd-death knell (DC 16), dread boltUM
+    (2, DC 16), hold person (DC 16), soften earth and stoneD   1st-bane (DC 15),
+    longstriderD, murderous commandUM (3, DC 15), sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect magic, create water, guidance, read magic
 SpellDomains: Earth, Travel
 AbilityScores:
   - 14

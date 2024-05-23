@@ -36,12 +36,16 @@ SpecialAttacks: >-
   hexes (cauldron, flight [feather fall at will, levitate 1/day, fly 6
   minutes/day], misfortune [1 round], slumber [6 rounds]), rock throwing (120
   ft.)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 6th; concentration +9)   3rd-eruptive pustulesUM (DC
-  16), lightning bolt (DC 16), stinking cloud (DC 17)   2nd-blindness/deafness
-  (DC 15), glitterdust (DC 16), ice slickMC (DC 15), vomit swarmAPG   1st-ill
-  omenAPG, mage armor, shield of faith, unseen servant   0 (at will)-detect
-  magic, light, mending, message
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 6th; concentration +9)   3rd-eruptive pustulesUM
+    (DC 16), lightning bolt (DC 16), stinking cloud (DC 17)  
+    2nd-blindness/deafness (DC 15), glitterdust (DC 16), ice slickMC (DC 15),
+    vomit swarmAPG   1st-ill omenAPG, mage armor, shield of faith, unseen
+    servant
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, message
 AbilityScores:
   - 28
   - 13

@@ -36,11 +36,14 @@ SpellLikeAbilities:
       value: >-
         acid dart (1d6+1 acid), artificer's touch (1d6+1, bypasses 3 DR and
         hardness)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; concentration +7)   2nd-cure moderate wounds,
-  spiritual weapon, wood shapeD   1st-animate ropeD, cure light wounds, doom (DC
-  15), shield of faith   0 (at will)-bleed (DC 14), detect magic, light,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; concentration +7)   2nd-cure moderate wounds,
+    spiritual weapon, wood shapeD   1st-animate ropeD, cure light wounds, doom
+    (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, light, stabilize
 SpellDomains: Artifice, Earth
 AbilityScores:
   - 15

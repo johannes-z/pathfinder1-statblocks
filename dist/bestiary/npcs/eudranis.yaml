@@ -33,12 +33,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: touch of chaos, vision of madness (+/-2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +8)   2nd-align weaponD (chaos
-  only), hold person (DC 16), resist energy, spiritual weapon   1st-cure light
-  wounds, divine favor, murderous commandUM (DC 15), protection from lawD,
-  shield of faith   0 (at will)-bleed (DC 14), create water, detect magic,
-  purify food and drink (DC 14)
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +8)   2nd-align weaponD (chaos
+    only), hold person (DC 16), resist energy, spiritual weapon   1st-cure light
+    wounds, divine favor, murderous commandUM (DC 15), protection from lawD,
+    shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), create water, detect magic, purify food and drink (DC 14)
 SpellDomains: Chaos, Madness
 AbilityScores:
   - 14

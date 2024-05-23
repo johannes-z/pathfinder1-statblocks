@@ -24,10 +24,13 @@ Ranged:
   - sling +2 (1d4-2)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Adept Spells Prepared (CL 5th; concentration +8)   2nd-cat's grace, cure
-  moderate wounds   1st-command (DC 14), protection from evil, sleep (DC 14)   0
-  (at will)-detect magic, mending, purify food and drink (DC 13)
+SpellsPrepared:
+  header: >-
+    Adept Spells Prepared (CL 5th; concentration +8)   2nd-cat's grace, cure
+    moderate wounds   1st-command (DC 14), protection from evil, sleep (DC 14)
+  values:
+    - label: 0 (at will)
+      value: detect magic, mending, purify food and drink (DC 13)
 AbilityScores:
   - 7
   - 10

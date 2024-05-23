@@ -29,13 +29,16 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (6/day), metamagic mastery (2/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 11th; concentration +14)   6th-repulsion (DC 19)  
-  5th-baleful polymorph (DC 18), summon monster V   4th-dimension door, ice
-  storm, stoneskin   3rd-dispel magic, displacement, fly, lightning bolt (DC
-  16), slow (DC 16)   2nd-bear's endurance, false life, mirror image, scorching
-  ray (2)   1st-mage armor, magic missile (3), shield   0 (at will)-light, mage
-  hand, mending, prestidigitation
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 11th; concentration +14)   6th-repulsion (DC
+    19)   5th-baleful polymorph (DC 18), summon monster V   4th-dimension door,
+    ice storm, stoneskin   3rd-dispel magic, displacement, fly, lightning bolt
+    (DC 16), slow (DC 16)   2nd-bear's endurance, false life, mirror image,
+    scorching ray (2)   1st-mage armor, magic missile (3), shield
+  values:
+    - label: 0 (at will)
+      value: light, mage hand, mending, prestidigitation
 AbilityScores:
   - 11
   - 13

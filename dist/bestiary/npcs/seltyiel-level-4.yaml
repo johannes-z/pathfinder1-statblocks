@@ -32,10 +32,13 @@ Reach: 5 ft.
 SpecialAttacks: >-
   arcane pool (5 points, +1), magus arcana (spell shield), spell combat, spell
   recall, spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 4th; concentration +9)   2nd-glitterdust (DC 15),
-  mirror image   1st-enlarge person (DC 14), grease, shocking grasp (2)   0 (at
-  will)-arcane mark, detect magic, light, prestidigitation
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 4th; concentration +9)   2nd-glitterdust (DC 15),
+    mirror image   1st-enlarge person (DC 14), grease, shocking grasp (2)
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, prestidigitation
 AbilityScores:
   - 16
   - 14

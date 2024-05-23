@@ -39,12 +39,16 @@ SpellLikeAbilities:
   values:
     - label: At Will
       value: enthrall (uses 2 fervor; DC 14)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 6th; concentration +8)   2nd-bear's endurance,
-  darkness, instrument of agonyUC, silence (DC 14)   1st-cure light wounds,
-  divine favor, obscuring mist, sanctuary (DC 13), shield of faith   0 (at
-  will)-bleed (DC 12), detect magic, guidance, purify food and drink (DC 12),
-  read magic
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 6th; concentration +8)   2nd-bear's endurance,
+    darkness, instrument of agonyUC, silence (DC 14)   1st-cure light wounds,
+    divine favor, obscuring mist, sanctuary (DC 13), shield of faith
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 12), detect magic, guidance, purify food and drink (DC 12),
+        read magic
 AbilityScores:
   - 9
   - 18

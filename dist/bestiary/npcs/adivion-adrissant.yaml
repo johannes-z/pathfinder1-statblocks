@@ -41,16 +41,19 @@ SpecialAttacks: >-
   disembodied strike (1d8+8), greater spell combat, improved spell combat, soul
   lash (8d6, DC 23), spell combat (-2 attack, +2 concentration, double bonus),
   spellstrike, staff weapon
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 16th; concentration +22) 6th-chain lightning (DC
-  22), true seeing 5th-cloudkill (DC 21), cone of cold (DC 21), corrosive
-  consumption**, telekinesis (DC 21) 4th-arcana theft**, dimension door, fire
-  shield, phantasmal killer (DC 20), stoneskin 3rd-dispel magic, fly, force
-  punch** (DC 19), lightning bolt (DC 19), slow (DC 19), vampiric touch 2nd-acid
-  arrow, elemental touch* (DC 18), frigid touch**, invisibility, mirror image,
-  scorching ray (2) 1st-corrosive touch**, grease (DC 17), hydraulic push*,
-  magic missile (2), shocking grasp (2) 0 (at will)-acid splash, detect magic,
-  flare (DC 16), ray of frost, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 16th; concentration +22) 6th-chain lightning (DC
+    22), true seeing 5th-cloudkill (DC 21), cone of cold (DC 21), corrosive
+    consumption**, telekinesis (DC 21) 4th-arcana theft**, dimension door, fire
+    shield, phantasmal killer (DC 20), stoneskin 3rd-dispel magic, fly, force
+    punch** (DC 19), lightning bolt (DC 19), slow (DC 19), vampiric touch
+    2nd-acid arrow, elemental touch* (DC 18), frigid touch**, invisibility,
+    mirror image, scorching ray (2) 1st-corrosive touch**, grease (DC 17),
+    hydraulic push*, magic missile (2), shocking grasp (2)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, flare (DC 16), ray of frost, read magic
 AbilityScores:
   - 22
   - 16

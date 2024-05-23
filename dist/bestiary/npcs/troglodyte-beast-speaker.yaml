@@ -28,11 +28,14 @@ Ranged:
   - javelin +3 (1d6)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 3rd; concentration +5)   2nd-hold animalD (DC 14),
-  spider climb, summon swarm   1st-calm animalsD (DC 13), charm animal (DC 13),
-  cure light wounds, entangle (DC 13)   0 (at will)-create water, detect magic,
-  guidance, know direction
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 3rd; concentration +5)   2nd-hold animalD (DC 14),
+    spider climb, summon swarm   1st-calm animalsD (DC 13), charm animal (DC
+    13), cure light wounds, entangle (DC 13)
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, know direction
 AbilityScores:
   - 10
   - 11

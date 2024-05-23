@@ -32,11 +32,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: bleeding touch (1 rounds), dazing touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-calm emotionsD (DC
-  16), hold person (DC 16), sound burst (DC 15)   1st-bless, charm personD (DC
-  15), remove fear, shield of faith    0 (at will)-bleed (DC 13), detect magic,
-  detect poison, light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-calm emotionsD (DC
+    16), hold person (DC 16), sound burst (DC 15)   1st-bless, charm personD (DC
+    15), remove fear, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, detect poison, light
 SpellDomains: Charm, Death
 AbilityScores:
   - 8

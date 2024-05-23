@@ -36,12 +36,17 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: grave touch (3 rounds)
-SpellsPrepared: >-
-  Necromancer Spells Prepared (CL 6th; concentration +10)  3rd-displacement,
-  haste, lightning bolt (DC 17), vampiric touch  2nd-darkness, false life, scare
-  (DC 17), scorching ray, summon swarm  1st-magic missile (x2), ray of
-  enfeeblement (DC 16, x2)  0 (at will)-detect magic, disrupt undead, ray of
-  frost, read magic, touch of fatigue (DC 15)
+SpellsPrepared:
+  header: >-
+    Necromancer Spells Prepared (CL 6th; concentration +10)  3rd-displacement,
+    haste, lightning bolt (DC 17), vampiric touch  2nd-darkness, false life,
+    scare (DC 17), scorching ray, summon swarm  1st-magic missile (x2), ray of
+    enfeeblement (DC 16, x2)
+  values:
+    - label: 0 (at will)
+      value: >-
+        detect magic, disrupt undead, ray of frost, read magic, touch of fatigue
+        (DC 15)
 AbilityScores:
   - 14
   - 16

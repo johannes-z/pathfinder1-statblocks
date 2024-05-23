@@ -34,12 +34,16 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: copycat (6 rounds), dazing touch
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; concentration +9)   3rd-blindness/deafness (DC 16),
-  cure serious wounds, dispel magic, suggestionD (DC 16)   2nd-bear's endurance,
-  cure moderate wounds, invisibilityD, lesser restoration, sound burst (DC 15)  
-  1st-charm personD (DC 14), command (DC 14), cure light wounds (2), sanctuary
-  (DC 14)   0 (at will)-create water, detect magic, mending, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; concentration +9)   3rd-blindness/deafness (DC 16),
+    cure serious wounds, dispel magic, suggestionD (DC 16)   2nd-bear's
+    endurance, cure moderate wounds, invisibilityD, lesser restoration, sound
+    burst (DC 15)   1st-charm personD (DC 14), command (DC 14), cure light
+    wounds (2), sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, mending, read magic
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 16

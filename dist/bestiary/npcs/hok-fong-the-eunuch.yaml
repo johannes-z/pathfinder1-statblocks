@@ -28,15 +28,19 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hexes (charm [2 steps, 4 rounds], disguise [8 hours], evil eye [-4, 7 rounds],
   misfortune [2 rounds], tongues [8 minutes])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 12th; concentration +16)   6th-cloak of dreams* (DC
-  23), slay living (DC 20)   5th-dominate person (DC 22), feeblemind (DC 22),
-  overland flight   4th-confusion (DC 21), lesser geas (DC 21), phantasmal
-  killer (DC 18), poison (DC 18)   3rd-blink, clairaudience/clairvoyance, dispel
-  magic, pain strike* (DC 17), suggestion (DC 20)   2nd-alter self, false life,
-  fester* (DC 16), invisibility, touch of idiocy (DC 16)   1st-burning hands (DC
-  15), charm person (DC 18), cure light wounds, mage armor, ray of enfeeblement
-  (DC 15)   0 (at will)-detect poison, detect magic, guidance, message
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 12th; concentration +16)   6th-cloak of dreams*
+    (DC 23), slay living (DC 20)   5th-dominate person (DC 22), feeblemind (DC
+    22), overland flight   4th-confusion (DC 21), lesser geas (DC 21),
+    phantasmal killer (DC 18), poison (DC 18)   3rd-blink,
+    clairaudience/clairvoyance, dispel magic, pain strike* (DC 17), suggestion
+    (DC 20)   2nd-alter self, false life, fester* (DC 16), invisibility, touch
+    of idiocy (DC 16)   1st-burning hands (DC 15), charm person (DC 18), cure
+    light wounds, mage armor, ray of enfeeblement (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect poison, detect magic, guidance, message
 AbilityScores:
   - 8
   - 14

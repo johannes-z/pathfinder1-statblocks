@@ -25,13 +25,18 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (8/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 8th; concentration +13)  4th-black tentacles,
-  greater invisibility, resilient sphere  3rd-dispel magic, haste, heroism,
-  lightning bolt (DC 18)  2nd-glitterdust (DC 17), detect thoughts (DC 17),
-  scorching ray, mirror image 1st-enlarge person (DC 16), grease (DC 16), mage
-  armor, magic missile, shield, unseen servant  0 (at will)-detect magic,
-  prestidigitation (DC 15), resistance, touch of fatigue (DC 15)
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 8th; concentration +13)  4th-black tentacles,
+    greater invisibility, resilient sphere  3rd-dispel magic, haste, heroism,
+    lightning bolt (DC 18)  2nd-glitterdust (DC 17), detect thoughts (DC 17),
+    scorching ray, mirror image 1st-enlarge person (DC 16), grease (DC 16), mage
+    armor, magic missile, shield, unseen servant
+  values:
+    - label: 0 (at will)
+      value: >-
+        detect magic, prestidigitation (DC 15), resistance, touch of fatigue (DC
+        15)
 AbilityScores:
   - 9
   - 10

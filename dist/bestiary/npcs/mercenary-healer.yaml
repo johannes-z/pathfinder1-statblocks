@@ -31,10 +31,13 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: inspiring word (1 round)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +3)   1st-cure light wounds,
-  longstriderD, protection from good   0 (at will)-detect magic, mending, read
-  magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +3)   1st-cure light wounds,
+    longstriderD, protection from good
+  values:
+    - label: 0 (at will)
+      value: detect magic, mending, read magic
 SpellDomains: Nobility, Travel
 AbilityScores:
   - 8

@@ -29,12 +29,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: bleeding touch (3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +9)   3rd-blindness/deafness (DC
-  16), cure serious wounds, dispel magic, rageD   2nd-aid, bear's endurance,
-  death knellD, hold person (DC 15), lesser restoration   1st-cause fear (DC
-  14), divine favor, endure elements, shield of faith, true strikeD   0 (at
-  will)-bleed (DC 13), detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +9)   3rd-blindness/deafness
+    (DC 16), cure serious wounds, dispel magic, rageD   2nd-aid, bear's
+    endurance, death knellD, hold person (DC 15), lesser restoration   1st-cause
+    fear (DC 14), divine favor, endure elements, shield of faith, true strikeD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, guidance, read magic
 SpellDomains: Death, Destruction
 AbilityScores:
   - 16

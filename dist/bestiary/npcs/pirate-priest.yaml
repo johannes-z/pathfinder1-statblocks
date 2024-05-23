@@ -33,12 +33,15 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: stormburst
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; ranged touch +5)  3rd-call lightning D (DC 15), cure
-  serious wounds, prayer  2nd-calm emotions (DC 14), cure moderate wounds, fog
-  cloudD, hold person (DC 14), make whole  1st-bane (DC 15), bless, command (DC
-  13), cure light wounds, divine favor, obscuring mistD  0 (at will)-create
-  water, detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; ranged touch +5)  3rd-call lightning D (DC 15),
+    cure serious wounds, prayer  2nd-calm emotions (DC 14), cure moderate
+    wounds, fog cloudD, hold person (DC 14), make whole  1st-bane (DC 15),
+    bless, command (DC 13), cure light wounds, divine favor, obscuring mistD
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, resistance
 SpellDomains: Oceans*, Storms*
 AbilityScores:
   - 12

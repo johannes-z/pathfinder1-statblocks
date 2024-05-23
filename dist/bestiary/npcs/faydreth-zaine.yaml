@@ -30,12 +30,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day), scroll blade
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 7th; concentration +11)   4th-dimension door, wall
-  of ice (DC 18)   3rd-dispel magic, lightning bolt (DC 17), spiked pitAPG (DC
-  17)   2nd-false life, glitterdust (DC 16), mirror image, scorching ray  
-  1st-alarm (2), hold portal, mage armor, vanishAPG (DC 15)   0 (at will)-detect
-  magic, light, message, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 7th; concentration +11)   4th-dimension door,
+    wall of ice (DC 18)   3rd-dispel magic, lightning bolt (DC 17), spiked
+    pitAPG (DC 17)   2nd-false life, glitterdust (DC 16), mirror image,
+    scorching ray   1st-alarm (2), hold portal, mage armor, vanishAPG (DC 15)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, message, read magic
 AbilityScores:
   - 8
   - 14

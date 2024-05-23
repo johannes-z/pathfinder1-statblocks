@@ -36,11 +36,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: battle rage (+1), touch of glory (+1)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-arrow of lawUM (DC
-  15), eagle's splendor, spiritual weaponD   1st-bane (DC 14), cause fear (DC
-  14), command (DC 14), shield of faithD   0 (at will)-guidance, light,
-  stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-arrow of lawUM (DC
+    15), eagle's splendor, spiritual weaponD   1st-bane (DC 14), cause fear (DC
+    14), command (DC 14), shield of faithD
+  values:
+    - label: 0 (at will)
+      value: guidance, light, stabilize, virtue
 SpellDomains: Glory, War
 AbilityScores:
   - null

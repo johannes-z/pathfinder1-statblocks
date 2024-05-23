@@ -46,14 +46,18 @@ SpellLikeAbilities:
         +12)
     - label: 1/day
       value: suggestion (DC 17)
-SpellsPrepared: >-
-  Spells Prepared (CL 7th [8th ench.]; concentration +12 [+13 ench.])  4th-charm
-  monster (DC 20), confusion (2, DC 20), phantasmal killer (DC 19)  3rd-dispel
-  magic, fireball (DC 18), hold person (2, DC 19), reckless infatuationUM (DC
-  19)  2nd-flaming sphere (DC 17), glitterdust (DC 17), hideous laughter (DC
-  18), touch of idiocy, unnatural lustUM (2, DC 18)  1st-burning hands (DC 16),
-  charm person (2, DC 17), mage armor, magic missile (2), protection from good,
-  shield  0 (at will)-bleed, detect magic, ghost sound (DC 15), mending
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 7th [8th ench.]; concentration +12 [+13 ench.]) 
+    4th-charm monster (DC 20), confusion (2, DC 20), phantasmal killer (DC 19) 
+    3rd-dispel magic, fireball (DC 18), hold person (2, DC 19), reckless
+    infatuationUM (DC 19)  2nd-flaming sphere (DC 17), glitterdust (DC 17),
+    hideous laughter (DC 18), touch of idiocy, unnatural lustUM (2, DC 18) 
+    1st-burning hands (DC 16), charm person (2, DC 17), mage armor, magic
+    missile (2), protection from good, shield
+  values:
+    - label: 0 (at will)
+      value: bleed, detect magic, ghost sound (DC 15), mending
 AbilityScores:
   - 15
   - 17

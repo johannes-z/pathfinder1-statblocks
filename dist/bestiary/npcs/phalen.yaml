@@ -29,14 +29,18 @@ Reach: 5 ft.
 SpecialAttacks: >-
   corrupting gaze (DC 17), hand of the apprentice (+10, 8/day), malevolence (DC
   17)
-SpellsPrepared: >-
-  Spells Prepared (CL 11th; ranged touch +7)  5th-empowered fireball (DC 18),
-  feeblemind (DC 20), summon monster V  4th-bestow curse (DC 19), fear (DC 19),
-  minor globe of invulnerability, solid fog  3rd-dispel magic, fireball (DC 18),
-  lightning bolt (DC 18), slow (DC 18)  2nd-acid arrow, blindness/deafness (DC
-  17), detect thoughts (DC 17), mirror image, see invisibility  1st-cause fear
-  (DC 16), magic missile (x3), shield, ray of enfeeblement (DC 16)  0 (at
-  will)-dancing lights, daze, detect magic, flare (DC 15)
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 11th; ranged touch +7)  5th-empowered fireball (DC 18),
+    feeblemind (DC 20), summon monster V  4th-bestow curse (DC 19), fear (DC
+    19), minor globe of invulnerability, solid fog  3rd-dispel magic, fireball
+    (DC 18), lightning bolt (DC 18), slow (DC 18)  2nd-acid arrow,
+    blindness/deafness (DC 17), detect thoughts (DC 17), mirror image, see
+    invisibility  1st-cause fear (DC 16), magic missile (x3), shield, ray of
+    enfeeblement (DC 16)
+  values:
+    - label: 0 (at will)
+      value: dancing lights, daze, detect magic, flare (DC 15)
 AbilityScores:
   - null
   - 14

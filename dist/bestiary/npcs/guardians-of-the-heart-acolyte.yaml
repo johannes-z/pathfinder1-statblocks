@@ -32,11 +32,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: battle rage (+1 damage), vision of madness (+/-1)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; melee touch +1, ranged touch -1)  2nd-hold person (DC
-  15), inflict moderate wounds (DC 15), touch of idiocyD   1st-bless, command
-  (DC 14), cure light wounds, lesser confusionD (DC 14)   0 (at will)-guidance,
-  light, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; melee touch +1, ranged touch -1)  2nd-hold person
+    (DC 15), inflict moderate wounds (DC 15), touch of idiocyD   1st-bless,
+    command (DC 14), cure light wounds, lesser confusionD (DC 14)
+  values:
+    - label: 0 (at will)
+      value: guidance, light, resistance, virtue
 SpellDomains: Madness, War
 AbilityScores:
   - 12

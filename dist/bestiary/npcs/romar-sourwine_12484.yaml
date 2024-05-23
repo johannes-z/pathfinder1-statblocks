@@ -30,13 +30,16 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (5/day), sneak attack +4d6
-SpellsPrepared: >-
-  Spells Prepared (CL 8th; melee touch +13, ranged touch +13):   4th-charm
-  monster (DC 16), confusion (DC 16)   3rd-arcane sight, dispel magic, fly  
-  2nd-cat's grace, detect thoughts (DC 14), mirror image, spectral hand  
-  1st-breakAPG (DC 13), mage armor, protection from good, shield, unseen
-  servant   0 (at will)-detect magic, mage hand, open/close (DC 12), sparkAPG
-  (DC 12)
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 8th; melee touch +13, ranged touch +13):   4th-charm
+    monster (DC 16), confusion (DC 16)   3rd-arcane sight, dispel magic, fly  
+    2nd-cat's grace, detect thoughts (DC 14), mirror image, spectral hand  
+    1st-breakAPG (DC 13), mage armor, protection from good, shield, unseen
+    servant
+  values:
+    - label: 0 (at will)
+      value: detect magic, mage hand, open/close (DC 12), sparkAPG (DC 12)
 AbilityScores:
   - 8
   - 20

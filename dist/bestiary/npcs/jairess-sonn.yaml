@@ -39,11 +39,14 @@ SpellLikeAbilities:
       value: lightning arc (1d6+1 electricity)
     - label: At Will
       value: speak with animals (6 rounds/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +5)  2nd-hold person (DC 14),
-  sound burst (DC 14), wind wallD  1st-divine favor, doom (DC 13), endure
-  elements, obscuring mistD  0 (at will)-detect magic, guidance, resistance,
-  virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +5)  2nd-hold person (DC 14),
+    sound burst (DC 14), wind wallD  1st-divine favor, doom (DC 13), endure
+    elements, obscuring mistD
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, resistance, virtue
 SpellDomains: Air, Animal
 AbilityScores:
   - 8

@@ -30,11 +30,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   hand of the apprentice (+11, 7/day), rogue talent (bleeding attack), rogue
   talents (finesse rogue), sneak attack +3d6
-SpellsPrepared: >-
-  Spells Prepared (CL 6th)  3rd-haste, keen edge, slow (DC 17)  2nd-alter self,
-  cat's grace, invisibility, mirror image  1st-burning hands, mage armor†, magic
-  missile, spider climb  0 (at will)-daze (DC 14), detect magic, ghost sound (DC
-  14), resistance †Already cast
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th)  3rd-haste, keen edge, slow (DC 17)  2nd-alter
+    self, cat's grace, invisibility, mirror image  1st-burning hands, mage
+    armor†, magic missile, spider climb
+  values:
+    - label: 0 (at will)
+      value: >-
+        daze (DC 14), detect magic, ghost sound (DC 14), resistance †Already
+        cast
 AbilityScores:
   - 12
   - 20

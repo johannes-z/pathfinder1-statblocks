@@ -40,16 +40,19 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: bleeding touch (6 rounds), touch of darkness (6 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 12th; concentration +17)   6th-blade barrier (DC
-  21), create undeadD, harm (DC 21)   5th-plane shift (DC 20), slay livingD (3,
-  DC 20), spell resistance   4th-air walk, freedom of movement, poison (DC 19),
-  shadow conjurationD, unholy blight (DC 19)   3rd-animate dead, bestow curse
-  (DC 18), deeper darknessD, dispel magic (2), invisibility purge  
-  2nd-blindness/deafness (blindness only)D (DC 17), hold person (2, DC 17),
-  resist energy, sound burst (DC 17), spiritual weapon   1st-command (3, DC 16),
-  obscuring mistD, sanctuary (2, DC 16), shield of faith   0 (at will)-bleed (DC
-  15), light, mending, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 12th; concentration +17)   6th-blade barrier (DC
+    21), create undeadD, harm (DC 21)   5th-plane shift (DC 20), slay livingD
+    (3, DC 20), spell resistance   4th-air walk, freedom of movement, poison (DC
+    19), shadow conjurationD, unholy blight (DC 19)   3rd-animate dead, bestow
+    curse (DC 18), deeper darknessD, dispel magic (2), invisibility purge  
+    2nd-blindness/deafness (blindness only)D (DC 17), hold person (2, DC 17),
+    resist energy, sound burst (DC 17), spiritual weapon   1st-command (3, DC
+    16), obscuring mistD, sanctuary (2, DC 16), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), light, mending, read magic
 SpellDomains: Darkness, Death
 AbilityScores:
   - 18

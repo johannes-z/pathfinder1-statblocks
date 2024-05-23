@@ -35,12 +35,15 @@ SpellLikeAbilities:
       value: touch of evil (3 rounds)
     - label: 5/day
       value: blast rune (1d6+3 energy damage, 6 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +8)   3rd-cure serious wounds,
-  invisibility purge, magic circle against good   2nd-aid, align weapon (evil
-  only), cure moderate wounds, hold person (DC 14), spiritual weapon   1st-cure
-  light wounds, divine favor, doom (DC 13), entropic shield, erase   0 (at
-  will)-bleed (DC 12), detect magic, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +8)   3rd-cure serious wounds,
+    invisibility purge, magic circle against good   2nd-aid, align weapon (evil
+    only), cure moderate wounds, hold person (DC 14), spiritual weapon  
+    1st-cure light wounds, divine favor, doom (DC 13), entropic shield, erase
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, read magic, resistance
 SpellDomains: Rune, Evil
 AbilityScores:
   - 14

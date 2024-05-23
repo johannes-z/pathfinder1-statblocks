@@ -35,16 +35,19 @@ Reach: 5 ft.
 SpecialAttacks: >-
   blood drain, children of the night, create spawn, dominate (DC 20), energy
   drain (2 levels, DC 20)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 12th; concentration +18)   6th-circle of death (DC
-  22), disintegrate (DC 22), summon monster VI   5th-cloudkill (2, DC 21),
-  teleport, transmute rock to mud   4th-bestow curse (DC 20), charm monster (DC
-  20), contagion (DC 20), wall of fire   3rd-dispel magic, haste, hold person
-  (DC 19), lightning bolt (DC 19), summon monster III   2nd-darkness,
-  invisibility, shatter (DC 18), summon monster II, touch of idiocy, web (DC
-  18)   1st-magic missile (x2), protection from good, ray of enfeeblement (DC
-  17), shocking grasp, true strike   0 (at will)-bleed (DC 16), daze (DC 16),
-  flare (DC 16), ghost sound (DC 16)
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 12th; concentration +18)   6th-circle of death
+    (DC 22), disintegrate (DC 22), summon monster VI   5th-cloudkill (2, DC 21),
+    teleport, transmute rock to mud   4th-bestow curse (DC 20), charm monster
+    (DC 20), contagion (DC 20), wall of fire   3rd-dispel magic, haste, hold
+    person (DC 19), lightning bolt (DC 19), summon monster III   2nd-darkness,
+    invisibility, shatter (DC 18), summon monster II, touch of idiocy, web (DC
+    18)   1st-magic missile (x2), protection from good, ray of enfeeblement (DC
+    17), shocking grasp, true strike
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), daze (DC 16), flare (DC 16), ghost sound (DC 16)
 AbilityScores:
   - 17
   - 19

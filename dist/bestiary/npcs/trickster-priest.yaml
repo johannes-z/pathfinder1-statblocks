@@ -35,17 +35,20 @@ SpellLikeAbilities:
         DC 21)
     - label: 8/day
       value: copycat (12 rounds), dazing touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 12th; concentration +17)   6th-geas/questD, greater
-  dispel magic, word of recall   5th-breath of life, charm monsterD (DC 22),
-  greater command (DC 22), slay living (DC 20), spell resistance   4th-chaos
-  hammer (DC 19), cure serious wounds, discern lies (DC 19), heroismD, poison
-  (DC 19)   3rd-invisibility purge, magic vestment, prayer, protection from
-  energy (DC 18), searing light, suggestionD (DC 20)   2nd-calm emotions (DC
-  19), delay poison (DC 17), enthrall (DC 19), hold person (2, DC 19),
-  invisibilityD   1st-charm personD (DC 18), cure light wounds (2), entropic
-  shield, hide from undead, obscuring mist, remove fear   0 (at will)-detect
-  magic, light, mending, purify food and drink
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 12th; concentration +17)   6th-geas/questD,
+    greater dispel magic, word of recall   5th-breath of life, charm monsterD
+    (DC 22), greater command (DC 22), slay living (DC 20), spell resistance  
+    4th-chaos hammer (DC 19), cure serious wounds, discern lies (DC 19),
+    heroismD, poison (DC 19)   3rd-invisibility purge, magic vestment, prayer,
+    protection from energy (DC 18), searing light, suggestionD (DC 20)  
+    2nd-calm emotions (DC 19), delay poison (DC 17), enthrall (DC 19), hold
+    person (2, DC 19), invisibilityD   1st-charm personD (DC 18), cure light
+    wounds (2), entropic shield, hide from undead, obscuring mist, remove fear
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, purify food and drink
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 8

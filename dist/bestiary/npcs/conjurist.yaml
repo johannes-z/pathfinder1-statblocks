@@ -32,13 +32,16 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: acid dart (1d6+3 acid)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 7th; concentration +12) 4th-dimension door, summon
-  monster IV 3rd-haste, stinking cloud (DC 18), summon monster III
-  2nd-glitterdust (DC 17), invisibility, minor image (DC 17), summon monster II
-  1st-grease (DC 16), mage armor, magic missile (2), protection from good,
-  summon monster I 0 (at will)-detect magic, ghost sound (DC 15), mage hand, ray
-  of frost
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 7th; concentration +12) 4th-dimension door,
+    summon monster IV 3rd-haste, stinking cloud (DC 18), summon monster III
+    2nd-glitterdust (DC 17), invisibility, minor image (DC 17), summon monster
+    II 1st-grease (DC 16), mage armor, magic missile (2), protection from good,
+    summon monster I
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 15), mage hand, ray of frost
 AbilityScores:
   - 8
   - 13

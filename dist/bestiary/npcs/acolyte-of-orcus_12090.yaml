@@ -26,11 +26,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: channel negative energy (3/day, DC 11, 2d6)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd)  2nd-bull's strength (DC 14), death knellD (DC 14),
-  hold person (DC 14)  1st-bane (DC 13), doom (DC 13), hide from undead (DC 13),
-  protection from goodD (DC 15)  At will-bleed (DC 12), create water, guidance,
-  resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd)  2nd-bull's strength (DC 14), death knellD (DC 14),
+    hold person (DC 14)  1st-bane (DC 13), doom (DC 13), hide from undead (DC
+    13), protection from goodD (DC 15)
+  values:
+    - label: At will
+      value: bleed (DC 12), create water, guidance, resistance
 SpellDomains: UndeadAPG
 AbilityScores:
   - 12

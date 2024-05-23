@@ -42,18 +42,21 @@ SpellLikeAbilities:
       value: speak with animals (15 rounds/day)
     - label: 8/day
       value: touch of evil (6 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 12th; concentration +17, ranged touch +12) 
-  6th-antilife shellD (already cast), blade barrier (already cast), harm (DC
-  21)  5th-dispel goodD (DC 20), righteous might (already cast), spell
-  resistance, slay living (DC 20), true seeing  4th-chaos hammer (DC 19), divine
-  power, summon monster IV, summon nature's ally IVD, unholy blight (DC 19) 
-  3rd-animate dead, bestow curse (DC 18), dispel magic, dominate animalD (DC
-  18), glyph of warding, invisibility purge  2nd-align weaponD, cure moderate
-  wounds, desecrate (already cast), owl's wisdom, resist energy, silence 
-  1st-bane (DC 16), bless, curse water, doom (DC 16), protection from goodD,
-  protection from law, shield of faith (already cast)  0 (at will)-bleed (DC
-  15), detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 12th; concentration +17, ranged touch +12) 
+    6th-antilife shellD (already cast), blade barrier (already cast), harm (DC
+    21)  5th-dispel goodD (DC 20), righteous might (already cast), spell
+    resistance, slay living (DC 20), true seeing  4th-chaos hammer (DC 19),
+    divine power, summon monster IV, summon nature's ally IVD, unholy blight (DC
+    19)  3rd-animate dead, bestow curse (DC 18), dispel magic, dominate animalD
+    (DC 18), glyph of warding, invisibility purge  2nd-align weaponD, cure
+    moderate wounds, desecrate (already cast), owl's wisdom, resist energy,
+    silence  1st-bane (DC 16), bless, curse water, doom (DC 16), protection from
+    goodD, protection from law, shield of faith (already cast)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, read magic
 SpellDomains: Animal, Evil
 AbilityScores:
   - 25

@@ -50,15 +50,18 @@ SpellLikeAbilities:
         (DC 17), unholy aura
     - label: 1/day
       value: blasphemy, contagion, desecrate, horrid wilting, unhallow, unholy blight
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 12th; concentration +19)   4th-dismissal (DC
-  21), divine power, inflict critical wounds (DC 21), summon monster IV  
-  3rd-bestow curse (DC 20), contagion (DC 20), deeper darkness, magic circle
-  against good, protection from energy, summon monster III   2nd-augury, bull's
-  strength, enthrall (DC 19), lesser restoration, spiritual weapon, summon
-  monster II (2)   1st-bless, cause fear (DC 18), command (DC 18), divine favor,
-  shield of faith, summon monster I (2)   0 (at will)-bleed (DC 17), detect
-  magic, guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 12th; concentration +19)   4th-dismissal (DC
+    21), divine power, inflict critical wounds (DC 21), summon monster IV  
+    3rd-bestow curse (DC 20), contagion (DC 20), deeper darkness, magic circle
+    against good, protection from energy, summon monster III   2nd-augury,
+    bull's strength, enthrall (DC 19), lesser restoration, spiritual weapon,
+    summon monster II (2)   1st-bless, cause fear (DC 18), command (DC 18),
+    divine favor, shield of faith, summon monster I (2)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, guidance, read magic, resistance
 AbilityScores:
   - 23
   - 16

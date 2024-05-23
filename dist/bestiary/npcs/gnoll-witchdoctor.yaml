@@ -24,13 +24,19 @@ Melee:
   - +1 scimitar +5 (1d6+1/18-20), masterwork quarterstaff +5 (1d6)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Adept Spells Prepared (CL 3rd; melee touch +4)  1st-cause fear (DC 14),
-  obscuring mist, protection from good   0 (at will)-guidance, touch of fatigue
-  (DC 13, x2)  Druid Spells Prepared (CL 3rd; melee touch +4)  2nd-bull's
-  strength, stone callDAPG, summon swarm   1st-cure light wounds, entangle (DC
-  14), pass without trace, stone fistDAPG   0 (at will)-guidance, know
-  direction, resistance, virtue
+SpellsPrepared:
+  header: >-
+    Adept Spells Prepared (CL 3rd; melee touch +4)  1st-cause fear (DC 14),
+    obscuring mist, protection from good
+  values:
+    - label: 0 (at will)
+      value: >-
+        guidance, touch of fatigue (DC 13, x2) Druid Spells Prepared (CL 3rd;
+        melee touch +4) 2nd-bull's strength, stone callDAPG, summon swarm
+        1st-cure light wounds, entangle (DC 14), pass without trace, stone
+        fistDAPG
+    - label: 0 (at will)
+      value: guidance, know direction, resistance, virtue
 SpellDomains: MountainUM
 AbilityScores:
   - 10

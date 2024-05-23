@@ -27,11 +27,14 @@ Melee:
 Space: 10 ft.
 Reach: 10 ft.
 SpecialAttacks: wild shape 1/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 4th; concentration +7)   2nd-flaming sphere (DC 15),
-  resist energy, summon swarm   1st-charm animal (DC 14), cure light wounds,
-  produce flame, speak with animals   0 (at will)-flare (DC 13), guidance,
-  mending, resistance
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 4th; concentration +7)   2nd-flaming sphere (DC
+    15), resist energy, summon swarm   1st-charm animal (DC 14), cure light
+    wounds, produce flame, speak with animals
+  values:
+    - label: 0 (at will)
+      value: flare (DC 13), guidance, mending, resistance
 AbilityScores:
   - 18
   - 12

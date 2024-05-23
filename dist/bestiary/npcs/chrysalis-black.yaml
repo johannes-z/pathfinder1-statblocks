@@ -24,13 +24,17 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (7/day), metamagic mastery (2/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 10th; concentration +14)   5th-feeblemind (DC 20),
-  teleport   4th-black tentacles, lesser simulacrumUM, scrying (DC 18),
-  stoneskin   3rd-displacement, lightning bolt (2, DC 17), protection from
-  energy   2nd-false life, mirror image, scorching ray (2), unnatural lustUM (DC
-  17)   1st-alarm, mage armor, magic missile (2), ray of enfeeblement (DC 15)  
-  0 (at will)-acid splash, detect magic, light, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 10th; concentration +14)   5th-feeblemind (DC
+    20), teleport   4th-black tentacles, lesser simulacrumUM, scrying (DC 18),
+    stoneskin   3rd-displacement, lightning bolt (2, DC 17), protection from
+    energy   2nd-false life, mirror image, scorching ray (2), unnatural lustUM
+    (DC 17)   1st-alarm, mage armor, magic missile (2), ray of enfeeblement (DC
+    15)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, read magic
 AbilityScores:
   - 12
   - 10

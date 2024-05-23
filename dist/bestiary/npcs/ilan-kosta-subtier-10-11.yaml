@@ -43,14 +43,18 @@ SpellLikeAbilities:
       value: touch of evil (4 rounds)
     - label: 8/day
       value: inspiring word (4 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +14)   5th-dispel goodD, slay
-  living (2, DC 22)   4th-divine power, freedom of movement, spell immunity,
-  unholy blight (DC 19)D   3rd-bestow curse (DC 20), blindness/deafness (2, DC
-  20), dispel magic, magic circle against goodD   2nd-desecrate, eagle's
-  splendor, enthrall (DC 17)D, hold person (2, DC 17), spiritual weapon  
-  1st-bane (DC 16), bless, death knell (DC 18), divine favorD, doom (2, DC 18),
-  obscuring mist   0 (at will)-bleed (DC 17), detect magic, guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +14)   5th-dispel goodD, slay
+    living (2, DC 22)   4th-divine power, freedom of movement, spell immunity,
+    unholy blight (DC 19)D   3rd-bestow curse (DC 20), blindness/deafness (2, DC
+    20), dispel magic, magic circle against goodD   2nd-desecrate, eagle's
+    splendor, enthrall (DC 17)D, hold person (2, DC 17), spiritual weapon  
+    1st-bane (DC 16), bless, death knell (DC 18), divine favorD, doom (2, DC
+    18), obscuring mist
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, guidance, read magic
 SpellDomains: Evil, Nobility
 AbilityScores:
   - 20

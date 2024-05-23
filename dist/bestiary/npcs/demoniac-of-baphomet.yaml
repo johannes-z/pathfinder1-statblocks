@@ -45,13 +45,16 @@ SpellLikeAbilities:
         brimoraks) Domain Spell-Like Abilities (CL 8th; concentration +11)
     - label: 6/day
       value: strength surge (+2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +11)  4th-chaos hammerD (DC 17),
-  greater magic weapon, sending  3rd-cure serious wounds, invisibility purge,
-  magic vestmentD, searing light, stone shape  2nd-bear's endurance, bull's
-  strengthD, cure moderate wounds, make whole, spiritual weapon  1st-command (DC
-  14), doomD (DC 14), cure light wounds (3), sanctuary (DC 14)  0 (at
-  will)-bleed (DC 13), create water, light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +11)  4th-chaos hammerD (DC
+    17), greater magic weapon, sending  3rd-cure serious wounds, invisibility
+    purge, magic vestmentD, searing light, stone shape  2nd-bear's endurance,
+    bull's strengthD, cure moderate wounds, make whole, spiritual weapon 
+    1st-command (DC 14), doomD (DC 14), cure light wounds (3), sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), create water, light, mending
 SpellDomains: Evil, Strength (DemonAPG subdomain)
 AbilityScores:
   - 19

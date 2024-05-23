@@ -36,15 +36,18 @@ SpellLikeAbilities:
       value: elemental wall (9 rounds/day)
     - label: 7/day
       value: force missile (1d4+4)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 9th; concentration +13)   5th-cone of cold (DC 20),
-  transmute rock to mud   4th-empowered acid arrow, greater invisibility,
-  resilient sphere (DC 19), stone shape   3rd-dispel magic, fireball (DC 18),
-  gaseous form, ray of exhaustion (DC 17), stinking cloud (DC 17)   2nd-acid
-  arrow, bear's endurance, protection from energy, scorching ray, spider climb,
-  summon swarm   1st-burning hands (2, DC 16), color spray (DC 15), feather
-  fall, mage armor, ray of enfeeblement (DC 15)   0 (at will)-acid splash,
-  dancing lights, detect magic, mage hand
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 9th; concentration +13)   5th-cone of cold (DC
+    20), transmute rock to mud   4th-empowered acid arrow, greater invisibility,
+    resilient sphere (DC 19), stone shape   3rd-dispel magic, fireball (DC 18),
+    gaseous form, ray of exhaustion (DC 17), stinking cloud (DC 17)   2nd-acid
+    arrow, bear's endurance, protection from energy, scorching ray, spider
+    climb, summon swarm   1st-burning hands (2, DC 16), color spray (DC 15),
+    feather fall, mage armor, ray of enfeeblement (DC 15)
+  values:
+    - label: 0 (at will)
+      value: acid splash, dancing lights, detect magic, mage hand
 AbilityScores:
   - 12
   - 8

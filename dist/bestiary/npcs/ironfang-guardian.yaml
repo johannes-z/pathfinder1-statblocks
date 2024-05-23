@@ -33,14 +33,17 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: battle rage (+4)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +11)   5th-righteous mightD,
-  spell resistance   4th-cure critical wounds, restoration, spell immunityD  
-  3rd-cure serious wounds (2), magic vestmentD, protection from energy  
-  2nd-cure moderate wounds, delay poison, hold person (DC 14), lesser
-  restoration, shield other, spiritual weaponD   1st-cause fear (DC 13), detect
-  good, endure elements, magic weaponD, remove fear, shield of faith   0 (at
-  will)-detect magic, detect poison, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +11)   5th-righteous mightD,
+    spell resistance   4th-cure critical wounds, restoration, spell immunityD  
+    3rd-cure serious wounds (2), magic vestmentD, protection from energy  
+    2nd-cure moderate wounds, delay poison, hold person (DC 14), lesser
+    restoration, shield other, spiritual weaponD   1st-cause fear (DC 13),
+    detect good, endure elements, magic weaponD, remove fear, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, guidance, resistance
 SpellDomains: Strength (Ferocity subdomain), War
 AbilityScores:
   - 12

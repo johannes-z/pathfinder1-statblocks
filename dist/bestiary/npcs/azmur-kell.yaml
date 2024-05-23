@@ -26,13 +26,16 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: lightning arc (1d6+4 electricity, 6/day), wild shape 3/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 8th; concentration +11)  4th-air walkD, dispel
-  magic, cure serious wounds  3rd-call lightning (DC 16), cure moderate wounds
-  (2), gaseous formD, protection from energy  2nd-barkskin, chill metal (DC 15),
-  lesser restoration, tree shape, wind wallD  1st-cure light wounds (2),
-  entangle (DC 14), goodberry, obscuring mistD, produce flame  0 (at
-  will)-detect magic, light, mending, read magic
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 8th; concentration +11)  4th-air walkD, dispel
+    magic, cure serious wounds  3rd-call lightning (DC 16), cure moderate wounds
+    (2), gaseous formD, protection from energy  2nd-barkskin, chill metal (DC
+    15), lesser restoration, tree shape, wind wallD  1st-cure light wounds (2),
+    entangle (DC 14), goodberry, obscuring mistD, produce flame
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, read magic
 SpellDomains: Air
 AbilityScores:
   - 10

@@ -32,16 +32,19 @@ SpellLikeAbilities:
       value: dimensional hop (110 feet/day), charming smile (DC 19, 11 rounds/day)
     - label: 7/day
       value: dazing touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 11th; concentration +15)   6th-find the pathD,
-  heroes' feast   5th-breath of life (DC 19), charm monsterD (DC 19), wall of
-  stone   4th-chaos hammer (DC 18), dimension doorD, divine power, holy smite
-  (DC 18), greater magic weapon   3rd-invisibility purge, magic vestment,
-  prayer, remove curse, searing light, suggestionD (DC 17)   2nd-aid, calm
-  emotionsD (DC 16), hold person (DC 16), remove paralysis, lesser restoration,
-  spiritual weapon   1st-charm personD (DC 15), command (DC 15), divine favor,
-  protection from law, sanctuary (DC 15), shield of faith   0 (at will)-create
-  water, detect magic, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 11th; concentration +15)   6th-find the pathD,
+    heroes' feast   5th-breath of life (DC 19), charm monsterD (DC 19), wall of
+    stone   4th-chaos hammer (DC 18), dimension doorD, divine power, holy smite
+    (DC 18), greater magic weapon   3rd-invisibility purge, magic vestment,
+    prayer, remove curse, searing light, suggestionD (DC 17)   2nd-aid, calm
+    emotionsD (DC 16), hold person (DC 16), remove paralysis, lesser
+    restoration, spiritual weapon   1st-charm personD (DC 15), command (DC 15),
+    divine favor, protection from law, sanctuary (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, mending, stabilize
 SpellDomains: Charm, Travel
 AbilityScores:
   - 10

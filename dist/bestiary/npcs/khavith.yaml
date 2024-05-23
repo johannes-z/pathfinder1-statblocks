@@ -46,19 +46,22 @@ SpellLikeAbilities:
       value: elemental wall (13 rounds/day)
     - label: 10/day
       value: force missile (1d4+6)
-SpellsPrepared: >-
-  Spells Prepared (CL 13th; concentration +20)  7th-forcecage (DC 26), mass hold
-  person (DC 24), prismatic spray (DC 26)  6th-chain lightning (DC 25),
-  contagious flame* (DC 25), quickened scorching ray, unwilling shield* (DC 23) 
-  5th-baleful polymorph (DC 22), cone of cold (DC 24), hold monster (DC 22),
-  hungry pit* (DC 22), quickened magic missile  4th-black tentacles, dimension
-  door, silent dispel magic, dragon's breath* (DC 23), shout (DC 23), stoneskin 
-  3rd-dispel magic, fireball (DC 22), fly, lightning bolt (DC 22), pain strike*
-  (DC 22), slow (DC 20), wind wall  2nd-dust of twilight* (DC 19), false life,
-  glitterdust, resist energy, scorching ray (2), touch of idiocy  1st-charm
-  person (DC 18), mage armor, magic missile (2), ray of enfeeblement (DC 18),
-  shield, unseen servant  0 (at will)-acid splash, bleed (DC 17), flare (DC 19),
-  ray of frost, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 13th; concentration +20)  7th-forcecage (DC 26), mass
+    hold person (DC 24), prismatic spray (DC 26)  6th-chain lightning (DC 25),
+    contagious flame* (DC 25), quickened scorching ray, unwilling shield* (DC
+    23)  5th-baleful polymorph (DC 22), cone of cold (DC 24), hold monster (DC
+    22), hungry pit* (DC 22), quickened magic missile  4th-black tentacles,
+    dimension door, silent dispel magic, dragon's breath* (DC 23), shout (DC
+    23), stoneskin  3rd-dispel magic, fireball (DC 22), fly, lightning bolt (DC
+    22), pain strike* (DC 22), slow (DC 20), wind wall  2nd-dust of twilight*
+    (DC 19), false life, glitterdust, resist energy, scorching ray (2), touch of
+    idiocy  1st-charm person (DC 18), mage armor, magic missile (2), ray of
+    enfeeblement (DC 18), shield, unseen servant
+  values:
+    - label: 0 (at will)
+      value: acid splash, bleed (DC 17), flare (DC 19), ray of frost, resistance
 AbilityScores:
   - 8
   - 22

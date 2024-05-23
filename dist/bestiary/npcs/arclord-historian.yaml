@@ -36,10 +36,13 @@ SpellLikeAbilities:
       value: >-
         dancing lights, ghost sound (DC 12), prestidigitation, speak with
         animals
-SpellsPrepared: >-
-  Spells Prepared (CL 2nd; concentration +4)  1st-alarm, animate rope,
-  comprehend languages  0 (at will)-daze (DC 12), detect magic, mage hand, read
-  magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 2nd; concentration +4)  1st-alarm, animate rope,
+    comprehend languages
+  values:
+    - label: 0 (at will)
+      value: daze (DC 12), detect magic, mage hand, read magic
 AbilityScores:
   - 6
   - 14

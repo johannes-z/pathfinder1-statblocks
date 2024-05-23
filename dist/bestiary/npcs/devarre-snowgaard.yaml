@@ -28,14 +28,18 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: wild shape 4/day
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 11th; concentration +12)  6th*-stone tell  5th*-call
-  lightning storm (DC 19), commune with nature  4th*-cure serious wounds, dispel
-  magic, repel vermin, spike stones  3rd*-neutralize poison, protection from
-  energy, remove disease, speak with plants, stone shape  2nd-barkskin, heat
-  metal (DC 13), hold animal (DC 13), lesser restoration, soften earth and
-  stone  1st-cure light wounds (2), endure elements, speak with animals (2)  0
-  (at will)-detect magic, light, purify food and drink, read magic
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 11th; concentration +12)  6th*-stone tell 
+    5th*-call lightning storm (DC 19), commune with nature  4th*-cure serious
+    wounds, dispel magic, repel vermin, spike stones  3rd*-neutralize poison,
+    protection from energy, remove disease, speak with plants, stone shape 
+    2nd-barkskin, heat metal (DC 13), hold animal (DC 13), lesser restoration,
+    soften earth and stone  1st-cure light wounds (2), endure elements, speak
+    with animals (2)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, purify food and drink, read magic
 AbilityScores:
   - 13
   - 8

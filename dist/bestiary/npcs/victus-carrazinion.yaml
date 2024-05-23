@@ -32,17 +32,20 @@ SpellLikeAbilities:
       value: master's illusion (12 rounds/day)
     - label: 8/day
       value: copycat (12 rounds), fire bolt (1d6+6 fire)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 12th; concentration +17)  6th-mass cure moderate
-  wounds, misleadD, summon monster VI  5th-breath of life, false visionD, mark
-  of justice, slay living (DC 20), summon infernal host  4th-air walk, discern
-  lies (DC 19), summon accuser, unholy blight (DC 19), wall of fireD 
-  3rd-animate dead, fireballD (DC 18), protection from energy, remove curse,
-  speak with dead, wind wall  2nd-bull's strength, calm emotions (DC 17),
-  desecrate, eagle's splendor, invisibilityD, zone of truth (DC 17)  1st-bane
-  (DC 16), cause fear (DC 16), command (DC 16), comprehend languages, disguise
-  selfD, entropic shield, sanctuary (DC 16)  0 (at will)-bleed (DC 15), detect
-  magic, mending, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 12th; concentration +17)  6th-mass cure moderate
+    wounds, misleadD, summon monster VI  5th-breath of life, false visionD, mark
+    of justice, slay living (DC 20), summon infernal host  4th-air walk, discern
+    lies (DC 19), summon accuser, unholy blight (DC 19), wall of fireD 
+    3rd-animate dead, fireballD (DC 18), protection from energy, remove curse,
+    speak with dead, wind wall  2nd-bull's strength, calm emotions (DC 17),
+    desecrate, eagle's splendor, invisibilityD, zone of truth (DC 17)  1st-bane
+    (DC 16), cause fear (DC 16), command (DC 16), comprehend languages, disguise
+    selfD, entropic shield, sanctuary (DC 16)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, mending, read magic
 SpellDomains: Fire, Trickery
 AbilityScores:
   - 10

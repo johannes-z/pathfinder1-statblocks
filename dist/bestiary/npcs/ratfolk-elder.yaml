@@ -34,14 +34,18 @@ SpellLikeAbilities:
       value: resistant touch +2
     - label: At Will
       value: dimensional hop (90 feet/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +13)   5th-teleportD, wall of
-  stone (DC 19)   4th-dimension doorD, dismissal (DC 18), freedom of movement,
-  summon monster IV   3rd-dispel magic, magic vestment, meld into stone,
-  protection from energyD, stone shape   2nd-bull's strength, calm emotions (DC
-  16), darkness, shield otherD, sound burst (DC 16), zone of truth (DC 16)  
-  1st-bless, command (DC 15), endure elements, longstriderD, sanctuary (DC 15),
-  shield of faith   0 (at will)-create water, detect poison, guidance, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +13)   5th-teleportD, wall of
+    stone (DC 19)   4th-dimension doorD, dismissal (DC 18), freedom of movement,
+    summon monster IV   3rd-dispel magic, magic vestment, meld into stone,
+    protection from energyD, stone shape   2nd-bull's strength, calm emotions
+    (DC 16), darkness, shield otherD, sound burst (DC 16), zone of truth (DC
+    16)   1st-bless, command (DC 15), endure elements, longstriderD, sanctuary
+    (DC 15), shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, guidance, mending
 SpellDomains: Protection, Travel
 AbilityScores:
   - 10

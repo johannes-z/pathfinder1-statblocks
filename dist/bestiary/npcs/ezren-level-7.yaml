@@ -27,12 +27,15 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (8/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 7th; concentration +12)   4th-dimension door, shout
-  (DC 20)   3rd-dispel magic, fireball (DC 19), haste   2nd-glitterdust (DC 17),
-  knock, scorching ray, spider climb   1st-burning hands (DC 17), expeditious
-  retreat, mage armor, magic missile, obscuring mist, shield   0 (at will)-acid
-  splash, detect magic, light, mage hand
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 7th; concentration +12)   4th-dimension door,
+    shout (DC 20)   3rd-dispel magic, fireball (DC 19), haste   2nd-glitterdust
+    (DC 17), knock, scorching ray, spider climb   1st-burning hands (DC 17),
+    expeditious retreat, mage armor, magic missile, obscuring mist, shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, light, mage hand
 AbilityScores:
   - 10
   - 14

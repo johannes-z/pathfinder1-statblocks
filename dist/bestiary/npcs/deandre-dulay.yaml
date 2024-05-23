@@ -33,10 +33,13 @@ SpellLikeAbilities:
       value: touch of evil (1 round)
     - label: 6/day
       value: copycat (1 round)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 1st; concentration +4)  1st-cure light wounds,
-  protection from goodD, shield of faith  0 (at will)-bleed (DC 13), detect
-  magic, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 1st; concentration +4)  1st-cure light wounds,
+    protection from goodD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, stabilize
 SpellDomains: Evil, Trickery
 AbilityScores:
   - 14

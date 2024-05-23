@@ -25,10 +25,13 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: spell combat (-2 attack), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 4th; concentration +6)   2nd-bull's strength, mirror
-  image   1st-chill touch, corrosive touchUM, magic weapon, vanishAPG   0 (at
-  will)-detect magic, ghost sound (DC 12), light, mage hand
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 4th; concentration +6)   2nd-bull's strength,
+    mirror image   1st-chill touch, corrosive touchUM, magic weapon, vanishAPG
+  values:
+    - label: 0 (at will)
+      value: detect magic, ghost sound (DC 12), light, mage hand
 AbilityScores:
   - 20
   - 12

@@ -23,10 +23,13 @@ Melee:
   - mwk whip +3 (1d3 nonlethal)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-barkskin, flame
-  blade   1st-cure light wounds (DC 14), endure elements, obscuring mist   0 (at
-  will)-detect magic, know direction, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-barkskin, flame
+    blade   1st-cure light wounds (DC 14), endure elements, obscuring mist
+  values:
+    - label: 0 (at will)
+      value: detect magic, know direction, read magic, resistance
 AbilityScores:
   - 10
   - 8

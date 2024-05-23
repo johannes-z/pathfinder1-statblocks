@@ -31,11 +31,14 @@ SpellLikeAbilities:
       value: touch of darkness (2 rounds)
     - label: 6/day
       value: vision of madness (+/-2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +7)  2nd-bear's endurance,
-  darkness, silence, touch of idiocyD (DC 15)  1st-bless, divine favor, doom (DC
-  14), lesser confusionD (DC 14), magic weapon  0 (at will)-bleed (DC 13),
-  create water, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +7)  2nd-bear's endurance,
+    darkness, silence, touch of idiocyD (DC 15)  1st-bless, divine favor, doom
+    (DC 14), lesser confusionD (DC 14), magic weapon
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), create water, guidance, resistance
 SpellDomains: Darkness, Madness
 AbilityScores:
   - 14

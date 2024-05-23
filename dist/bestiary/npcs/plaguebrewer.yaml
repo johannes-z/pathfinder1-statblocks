@@ -32,15 +32,18 @@ SpellLikeAbilities:
   values:
     - label: 8/day
       value: grave touch (5 rounds)
-SpellsPrepared: >-
-  Necromancer Spells Prepared (CL 10th; concentration +15)   5th-cone of cold
-  (DC 20), wall of stone, waves of fatigue, teleport   4th-contagion (DC 21),
-  enervation (2), fear (DC 21), stoneskin   3rd-fireball (DC 18), fly, lightning
-  bolt (DC 18), vampiric touch, virulent miasma* (DC 20)  
-  2nd-blindness/deafness (DC 19), false life, glitterdust (DC 17), mirror image,
-  spectral hand, web (DC 17)   1st-chill touch (DC 18), mage armor, magic
-  missile (2), ray of enfeeblement (DC 18), shield   0 (at will)-bleed (DC 17),
-  detect magic, prestidigitation, touch of fatigue (DC 17)
+SpellsPrepared:
+  header: >-
+    Necromancer Spells Prepared (CL 10th; concentration +15)   5th-cone of cold
+    (DC 20), wall of stone, waves of fatigue, teleport   4th-contagion (DC 21),
+    enervation (2), fear (DC 21), stoneskin   3rd-fireball (DC 18), fly,
+    lightning bolt (DC 18), vampiric touch, virulent miasma* (DC 20)  
+    2nd-blindness/deafness (DC 19), false life, glitterdust (DC 17), mirror
+    image, spectral hand, web (DC 17)   1st-chill touch (DC 18), mage armor,
+    magic missile (2), ray of enfeeblement (DC 18), shield
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), detect magic, prestidigitation, touch of fatigue (DC 17)
 AbilityScores:
   - 8
   - 14

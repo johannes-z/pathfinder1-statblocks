@@ -31,13 +31,16 @@ Reach: 5 ft.
 SpecialAttacks: >-
   acid cloud (1d6+4 acid plus sickened, DC 16 Fort save for half, 5/day), flurry
   of blows, stunning fist (7/day, DC 17)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 8th; concentration +10)   4th-crushing despair (DC
-  16), detonate* (DC 16), stone shape   3rd-dispel magic, fireball (DC 15),
-  greater magic weapon, stinking cloud (DC 15)   2nd-acid arrow, blur, bull's
-  strength, false life, resist energy   1st-burning hands (DC 13), enlarge
-  person, grease, mage armor, magic missile, shield   0 (at will)-acid splash,
-  detect magic, mage hand, ray of frost, resistance
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 8th; concentration +10)   4th-crushing despair
+    (DC 16), detonate* (DC 16), stone shape   3rd-dispel magic, fireball (DC
+    15), greater magic weapon, stinking cloud (DC 15)   2nd-acid arrow, blur,
+    bull's strength, false life, resist energy   1st-burning hands (DC 13),
+    enlarge person, grease, mage armor, magic missile, shield
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, mage hand, ray of frost, resistance
 AbilityScores:
   - 16
   - 14

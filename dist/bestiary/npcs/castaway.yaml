@@ -38,16 +38,19 @@ SpellLikeAbilities:
       value: lightning lord
     - label: 7/day
       value: storm burst
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 12th; concentration +16)   6th-control windsD (DC
-  20), greater dispel magic, repel wood   5th-call lightning storm (DC 19), cure
-  critical wounds, ice stormD, tree stride   4th-cure serious wounds, dispel
-  magic, flame strike (DC 18), freedom of movement, sleet stormD   3rd-call
-  lightningD (DC 17), cure moderate wounds, greater magic fang (3), protection
-  from energy (DC 17)   2nd-barkskin (2), bear's endurance, bull's strength,
-  cat's grace, fog cloudD   1st-endure elements, entangle (DC 15), faerie fire,
-  obscuring mistD, shillelagh, speak with animals   0 (at will)-detect magic,
-  guidance, stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 12th; concentration +16)   6th-control windsD (DC
+    20), greater dispel magic, repel wood   5th-call lightning storm (DC 19),
+    cure critical wounds, ice stormD, tree stride   4th-cure serious wounds,
+    dispel magic, flame strike (DC 18), freedom of movement, sleet stormD  
+    3rd-call lightningD (DC 17), cure moderate wounds, greater magic fang (3),
+    protection from energy (DC 17)   2nd-barkskin (2), bear's endurance, bull's
+    strength, cat's grace, fog cloudD   1st-endure elements, entangle (DC 15),
+    faerie fire, obscuring mistD, shillelagh, speak with animals
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, stabilize, virtue
 SpellDomains: Weather
 AbilityScores:
   - 14

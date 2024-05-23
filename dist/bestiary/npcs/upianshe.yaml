@@ -34,14 +34,17 @@ SpecialAttacks: >-
   arcane pool (+4, 11 points), corrupting gaze (DC 20), frightful moan (DC 20),
   improved spell combat, magus arcana (disruptiveUC, enduring pride,
   spellbreakerUC), malevolence (DC 20), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 13th; concentration +18)   5th-cloudkill (DC 20)  
-  4th-dimension door, fire shield, wall of ice (DC 19)   3rd-dispel magic, force
-  punchUM (DC 18), lightning bolt (DC 18), slow (DC 18)   2nd-anticipate
-  thoughtsOA (DC 17), cat's grace, glitterdust (DC 17), scorching ray (2)  
-  1st-corrosive touchUM, frostbiteUM, mirror strikeUC (2), ray of enfeeblement
-  (DC 16), shield   0 (at will)-arcane mark, dancing lights, detect magic, mage
-  hand
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 13th; concentration +18)   5th-cloudkill (DC 20)  
+    4th-dimension door, fire shield, wall of ice (DC 19)   3rd-dispel magic,
+    force punchUM (DC 18), lightning bolt (DC 18), slow (DC 18)   2nd-anticipate
+    thoughtsOA (DC 17), cat's grace, glitterdust (DC 17), scorching ray (2)  
+    1st-corrosive touchUM, frostbiteUM, mirror strikeUC (2), ray of enfeeblement
+    (DC 16), shield
+  values:
+    - label: 0 (at will)
+      value: arcane mark, dancing lights, detect magic, mage hand
 AbilityScores:
   - null
   - 10

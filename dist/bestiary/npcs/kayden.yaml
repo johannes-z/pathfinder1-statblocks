@@ -25,20 +25,24 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (12/day), metamagic mastery (7/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 20th, touch +9, ranged touch +11)   9th-dominate monster
-  (DC 30), energy drain (DC 28), imprisonment (DC 28), summon monster IX, weird
-  (DC 28)   8th-clone, irresistible dance (DC 29), mind blank, power word stun,
-  screen   7th-limited wish, power word blind, prismatic spray, spell turning,
-  summon monster VII  6th-cone of slime, disintegrate (DC 25), geas/quest,
-  greater dispel magic, repulsion (DC 25)   5th-contact other plane, feeblemind
-  (DC 26), hold monster (DC 26), passwall, telekinesis, wall of shadow 
-  4th-beast shape II, charm monster (DC 25), confusion (DC 25), fear (DC 23),
-  hallucinatory terrain (DC 23), wall of fire   3rd-darkvision, fly, haste, hold
-  person (DC 24), lightning bolt (DC 22), slow (DC 22)   2nd-darkness, mirror
-  image, see invisibility, shadow blades, spectral hand, touch of idiocy  
-  1st-charm person (DC 22), grease, hold portal, magic missile (x2), shield,
-  sleep (DC 22)   0 (at will)-detect magic, light, mage hand, read magic
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 20th, touch +9, ranged touch +11)   9th-dominate monster
+    (DC 30), energy drain (DC 28), imprisonment (DC 28), summon monster IX,
+    weird (DC 28)   8th-clone, irresistible dance (DC 29), mind blank, power
+    word stun, screen   7th-limited wish, power word blind, prismatic spray,
+    spell turning, summon monster VII  6th-cone of slime, disintegrate (DC 25),
+    geas/quest, greater dispel magic, repulsion (DC 25)   5th-contact other
+    plane, feeblemind (DC 26), hold monster (DC 26), passwall, telekinesis, wall
+    of shadow  4th-beast shape II, charm monster (DC 25), confusion (DC 25),
+    fear (DC 23), hallucinatory terrain (DC 23), wall of fire   3rd-darkvision,
+    fly, haste, hold person (DC 24), lightning bolt (DC 22), slow (DC 22)  
+    2nd-darkness, mirror image, see invisibility, shadow blades, spectral hand,
+    touch of idiocy   1st-charm person (DC 22), grease, hold portal, magic
+    missile (x2), shield, sleep (DC 22)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mage hand, read magic
 AbilityScores:
   - 8
   - 13

@@ -34,14 +34,17 @@ SpellLikeAbilities:
   values:
     - label: 11/day
       value: bleeding touch (3 rounds), touch of evil (3 rounds)
-SpellsPrepared: >-
-  Spells Prepared (CL 6th; melee touch +12, ranged touch +13)  3rd-bestow curse
-  (DC 21) (x2), contagion (DC 21), magic circle against goodD, prayer 
-  2nd-bull's strength, death knellD (DC 20), dread bolt (DC 20)UM, desecrate,
-  hold person (DC 20), shatter (DC 20)  1st-bane (DC 19), divine favor,
-  murderous command (DC 19)UM, protection from goodD, ray of sickening (DC
-  19)UM, shield of faith  0 (at will)-bleed (DC 18), guidance, read magic,
-  resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 6th; melee touch +12, ranged touch +13)  3rd-bestow
+    curse (DC 21) (x2), contagion (DC 21), magic circle against goodD, prayer 
+    2nd-bull's strength, death knellD (DC 20), dread bolt (DC 20)UM, desecrate,
+    hold person (DC 20), shatter (DC 20)  1st-bane (DC 19), divine favor,
+    murderous command (DC 19)UM, protection from goodD, ray of sickening (DC
+    19)UM, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 18), guidance, read magic, resistance
 SpellDomains: Death, Evil
 AbilityScores:
   - 13

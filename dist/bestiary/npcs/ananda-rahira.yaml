@@ -28,14 +28,17 @@ SpecialAttacks: >-
   arcane pool (+4, 9 points), greater spell combat, improved spell recall, magus
   arcana (concentrate, dispelling strike, maneuver mastery, quickened magic,
   sacrificial staff), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 15th; concentration +17)   5th-cloudkill (DC 17),
-  interposing hand, telekinesis   4th-black tentacles, dimension door, fire
-  shield, greater invisibility   3rd-dispel magic, fly, haste, vampiric touch,
-  wind wall   2nd-bear's endurance, blur, bull's strength, elemental touchAPG,
-  mirror image (2)   1st-chill touch (DC 13), corrosive touchUM, long armACG,
-  magic missile, obscuring mist, true strike   0 (at will)-arcane mark, detect
-  magic, light, ray of frost, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 15th; concentration +17)   5th-cloudkill (DC 17),
+    interposing hand, telekinesis   4th-black tentacles, dimension door, fire
+    shield, greater invisibility   3rd-dispel magic, fly, haste, vampiric touch,
+    wind wall   2nd-bear's endurance, blur, bull's strength, elemental touchAPG,
+    mirror image (2)   1st-chill touch (DC 13), corrosive touchUM, long armACG,
+    magic missile, obscuring mist, true strike
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, light, ray of frost, read magic
 AbilityScores:
   - 18
   - 12

@@ -29,12 +29,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: bit of luck, touch of chaos
-SpellsPrepared: >-
-  Spells Prepared (CL 5th):   3rd-create food and water, meld into stone,
-  protection from energyD   2nd-aidD, bear's endurance, delay painUM (DC 16),
-  enthrall (DC 16)   1st-bless, comprehend languages, protection from evil,
-  protection from lawD, shield of faith   0 (at will)-create water, guidance,
-  resistance, virtue
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 5th):   3rd-create food and water, meld into stone,
+    protection from energyD   2nd-aidD, bear's endurance, delay painUM (DC 16),
+    enthrall (DC 16)   1st-bless, comprehend languages, protection from evil,
+    protection from lawD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, resistance, virtue
 SpellDomains: Chaos, Luck
 AbilityScores:
   - 12

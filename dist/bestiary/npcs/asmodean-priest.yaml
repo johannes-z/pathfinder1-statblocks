@@ -30,13 +30,16 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: fire bolt (1d6+3 fire), touch of law
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 7th; concentration +11)   4th-air walk, order's
-  wrathD (DC 18), sending   3rd-cure serious wounds (2), dispel magic,
-  fireballD(DC 17)   2nd-cure moderate wounds (2), hold person (DC 16), produce
-  flameD, shield other   1st-burning handsD (DC 15), command (DC 15), cure light
-  wounds (3), sanctuary (DC 15)   0 (at will)-bleed (DC 14), detect magic,
-  guidance, light
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 7th; concentration +11)   4th-air walk, order's
+    wrathD (DC 18), sending   3rd-cure serious wounds (2), dispel magic,
+    fireballD(DC 17)   2nd-cure moderate wounds (2), hold person (DC 16),
+    produce flameD, shield other   1st-burning handsD (DC 15), command (DC 15),
+    cure light wounds (3), sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, light
 SpellDomains: Fire, Law
 AbilityScores:
   - 12

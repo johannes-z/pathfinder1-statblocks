@@ -28,10 +28,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: fire bolt (1d6+1 fire, 5/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +4)  1st-burning hands (DC 13),
-  cure light wounds, produce flame (2)  0 (at will)-flare (DC 12), guidance,
-  purify food and drink, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +4)  1st-burning hands (DC
+    13), cure light wounds, produce flame (2)
+  values:
+    - label: 0 (at will)
+      value: flare (DC 12), guidance, purify food and drink, resistance
 SpellDomains: Fire
 AbilityScores:
   - 12

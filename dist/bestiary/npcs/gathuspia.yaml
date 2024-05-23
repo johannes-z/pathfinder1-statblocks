@@ -43,14 +43,17 @@ SpellLikeAbilities:
       value: >-
         deep slumber (DC 18), etherealness, invisibility, magic missile, ray of
         enfeeblement (DC 16), soul bind (DC 24)
-SpellsPrepared: >-
-  Spells Prepared (CL 8th; concentration +14)   4th-confusion (DC 20), cure
-  serious wounds, dimension door   3rd-contagion (DC 19), lightning bolt (DC
-  19), stinking cloud (DC 19), vampiric touch   2nd-blindness/deafness (DC 18),
-  command undead (DC 18), hold person (DC 18), see invisibility, web (DC 18)  
-  1st-charm person (DC 17), command (DC 17), cure light wounds, mage armor, ray
-  of enfeeblement (2, DC 17)   0 (at will)-bleed (DC 16), light, message, touch
-  of fatigue (DC 16)
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 8th; concentration +14)   4th-confusion (DC 20), cure
+    serious wounds, dimension door   3rd-contagion (DC 19), lightning bolt (DC
+    19), stinking cloud (DC 19), vampiric touch   2nd-blindness/deafness (DC
+    18), command undead (DC 18), hold person (DC 18), see invisibility, web (DC
+    18)   1st-charm person (DC 17), command (DC 17), cure light wounds, mage
+    armor, ray of enfeeblement (2, DC 17)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 16), light, message, touch of fatigue (DC 16)
 AbilityScores:
   - 23
   - 23

@@ -32,13 +32,16 @@ SpellLikeAbilities:
       value: feather fall (self only), fly (self only)
     - label: 1/day
       value: levitate (self only)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 8th; concentration+12)   4th-black tentacles, cure
-  serious wounds, solid fog   3rd-cursed treasure*, fly, ray of exhaustion (DC
-  15), water breathing   2nd-augury, blindness/deafness (DC 14), cure moderate
-  wounds, gust of wind (DC 13)   1st-comprehend languages, cure light wounds,
-  mage armor, ray of enfeeblement (DC 12), touch of the seaAPG (DC 11)   0 (at
-  will)-detect magic, light, message
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 8th; concentration+12)   4th-black tentacles, cure
+    serious wounds, solid fog   3rd-cursed treasure*, fly, ray of exhaustion (DC
+    15), water breathing   2nd-augury, blindness/deafness (DC 14), cure moderate
+    wounds, gust of wind (DC 13)   1st-comprehend languages, cure light wounds,
+    mage armor, ray of enfeeblement (DC 12), touch of the seaAPG (DC 11)
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, message
 AbilityScores:
   - 10
   - 14

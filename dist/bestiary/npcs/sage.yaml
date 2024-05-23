@@ -26,13 +26,16 @@ Ranged:
   - dart +7 (1d4-1)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 5th; concentration +12)   3rd-magic circle against
-  evil, sepia snake sigil (DC 20), stinking cloud (DC 20), suggestion (DC 20)  
-  2nd-glitterdust (DC 19), locate object, protection from arrows, touch of
-  idiocy, whispering wind   1st-charm person (DC 18), color spray (DC 18),
-  feather fall, mage armor, shield, unseen servant   0 (at will)-arcane mark,
-  detect magic, message, read magic
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 5th; concentration +12)   3rd-magic circle
+    against evil, sepia snake sigil (DC 20), stinking cloud (DC 20), suggestion
+    (DC 20)   2nd-glitterdust (DC 19), locate object, protection from arrows,
+    touch of idiocy, whispering wind   1st-charm person (DC 18), color spray (DC
+    18), feather fall, mage armor, shield, unseen servant
+  values:
+    - label: 0 (at will)
+      value: arcane mark, detect magic, message, read magic
 AbilityScores:
   - 8
   - 10

@@ -45,12 +45,15 @@ SpellLikeAbilities:
       value: shadow walk Domain Spell-Like Abilities (CL 6th; concentration +9)
     - label: 6/day
       value: copycat (6 rounds), vision of madness (+/-3)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +9) 3rd-blindness/deafness (DC
-  16), dispel magic, invisibilityD, summon monster III 2nd-cure moderate wounds,
-  hold person (DC 15), invisibilityD, silence (2) 1st-bane (DC 16), cause fear
-  (DC 16), cure light wounds (2), disguise selfD (DC 14) 0 (at will)-detect
-  magic, detect poison, stabilize, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +9) 3rd-blindness/deafness (DC
+    16), dispel magic, invisibilityD, summon monster III 2nd-cure moderate
+    wounds, hold person (DC 15), invisibilityD, silence (2) 1st-bane (DC 16),
+    cause fear (DC 16), cure light wounds (2), disguise selfD (DC 14)
+  values:
+    - label: 0 (at will)
+      value: detect magic, detect poison, stabilize, virtue
 SpellDomains: Madness, Trickery
 AbilityScores:
   - 12

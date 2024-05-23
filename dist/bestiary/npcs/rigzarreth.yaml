@@ -33,12 +33,15 @@ SpellLikeAbilities:
   values:
     - label: 3/day
       value: summon swarm
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 5th; concentration +9)   3rd-beast shape ID (animals
-  only), call lightning (DC 11), spike growth (DC 11)   2nd-barkskin, bear's
-  endurance, cat's grace, hold animalD (DC 10)   1st-cure light wounds (2),
-  magic fangD, obscuring mist, speak with animals   0 (at will)-create water,
-  guidance, know direction, light
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 5th; concentration +9)   3rd-beast shape ID
+    (animals only), call lightning (DC 11), spike growth (DC 11)   2nd-barkskin,
+    bear's endurance, cat's grace, hold animalD (DC 10)   1st-cure light wounds
+    (2), magic fangD, obscuring mist, speak with animals
+  values:
+    - label: 0 (at will)
+      value: create water, guidance, know direction, light
 SpellDomains: Animal (Fur subdomainAPG)
 AbilityScores:
   - 14

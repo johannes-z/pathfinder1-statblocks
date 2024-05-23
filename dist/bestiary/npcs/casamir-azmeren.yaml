@@ -34,13 +34,17 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: bit of luck, touch of good
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +11)   4th-freedom of movementD,
-  holy smite (DC 17), sending   3rd-create food and water, dispel magic, meld
-  into stone, protection from energyD, searing light   2nd-aidD, consecrate,
-  hold person (DC 15), silence (DC 15), sound burst (DC 15)   1st-detect undead,
-  divine favor, obscuring mist, protection from evilD, sanctuary (DC 14), shield
-  of faith   0 (at will)-create water, detect magic, read magic, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +11)   4th-freedom of
+    movementD, holy smite (DC 17), sending   3rd-create food and water, dispel
+    magic, meld into stone, protection from energyD, searing light   2nd-aidD,
+    consecrate, hold person (DC 15), silence (DC 15), sound burst (DC 15)  
+    1st-detect undead, divine favor, obscuring mist, protection from evilD,
+    sanctuary (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, read magic, stabilize
 SpellDomains: Good, Luck
 AbilityScores:
   - 9

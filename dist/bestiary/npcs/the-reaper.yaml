@@ -39,15 +39,18 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: battle rage (+4)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +13)   5th-slay livingD (DC 21),
-  spell resistance   4th-dimensional anchor, enervationD, sickening spiritual
-  weapon (DC 16), spell immunity   3rd-animate dead, contagion (DC 19), dispel
-  magic, magic vestmentD, resist energy (communal)UC   2nd-death knell (DC 18),
-  graceAPG, hold person (DC 16), outbreak* (DC 18), resist energy, spiritual
-  weaponD   1st-bless, cause fearD (DC 17), command (DC 15), doom (DC 17),
-  entropic shield, protection from good   0 (at will)-bleed (DC 15), detect
-  magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +13)   5th-slay livingD (DC
+    21), spell resistance   4th-dimensional anchor, enervationD, sickening
+    spiritual weapon (DC 16), spell immunity   3rd-animate dead, contagion (DC
+    19), dispel magic, magic vestmentD, resist energy (communal)UC   2nd-death
+    knell (DC 18), graceAPG, hold person (DC 16), outbreak* (DC 18), resist
+    energy, spiritual weaponD   1st-bless, cause fearD (DC 17), command (DC 15),
+    doom (DC 17), entropic shield, protection from good
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 15), detect magic, guidance, resistance
 SpellDomains: Death (UndeadAPG subdomain), War
 AbilityScores:
   - null

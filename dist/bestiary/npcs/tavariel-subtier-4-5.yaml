@@ -29,9 +29,13 @@ Ranged:
   - mwk composite longbow +8 (1d8+1/x3)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 1st; concentration +3)  1st-longstrider, produce
-  flame  0 (at will)-detect poison, know direction, mending
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 1st; concentration +3)  1st-longstrider, produce
+    flame
+  values:
+    - label: 0 (at will)
+      value: detect poison, know direction, mending
 AbilityScores:
   - 12
   - 16

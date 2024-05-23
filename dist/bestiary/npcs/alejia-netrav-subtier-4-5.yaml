@@ -28,11 +28,14 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: poison (DC 14), spell combat (-2 attack), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 5th; concentration +7)   2nd-acid arrow, bull's
-  strength, frigid touchUM   1st-burning hands (DC 13), color spray (DC 13),
-  corrosive touchUM, magic missile, ray of enfeeblement (DC 13)   0 (at
-  will)-acid splash, dancing lights, detect magic, read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 5th; concentration +7)   2nd-acid arrow, bull's
+    strength, frigid touchUM   1st-burning hands (DC 13), color spray (DC 13),
+    corrosive touchUM, magic missile, ray of enfeeblement (DC 13)
+  values:
+    - label: 0 (at will)
+      value: acid splash, dancing lights, detect magic, read magic
 AbilityScores:
   - 15
   - 14

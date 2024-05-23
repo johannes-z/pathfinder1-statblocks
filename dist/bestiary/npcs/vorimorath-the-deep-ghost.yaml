@@ -40,14 +40,17 @@ SpellLikeAbilities:
         Spell-Like Abilities (CL 7th; concentration +12)
     - label: 8/day
       value: telekinetic fist (1d4+3 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 7th; concentration +12)  4th-dimension door
-  (2), extended fly (2)  3rd-extended alter self (2), dispel magic, lightning
-  bolt (DC 18), slow (DC 18)  2nd-alter self (3), blindness/deafness (DC 17),
-  disfiguring touchUM (DC 17), levitate  1st-mage armor, magic missile, ray of
-  enfeeblement (DC 16), reduce person (2, DC 16), touch of gracelessnessAPG (2,
-  DC 16), unseen servant  0 (at will)-detect magic, mage hand, message,
-  open/close, touch of fatigue (DC 15)
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 7th; concentration +12)  4th-dimension door
+    (2), extended fly (2)  3rd-extended alter self (2), dispel magic, lightning
+    bolt (DC 18), slow (DC 18)  2nd-alter self (3), blindness/deafness (DC 17),
+    disfiguring touchUM (DC 17), levitate  1st-mage armor, magic missile, ray of
+    enfeeblement (DC 16), reduce person (2, DC 16), touch of gracelessnessAPG
+    (2, DC 16), unseen servant
+  values:
+    - label: 0 (at will)
+      value: detect magic, mage hand, message, open/close, touch of fatigue (DC 15)
 AbilityScores:
   - 18
   - 16

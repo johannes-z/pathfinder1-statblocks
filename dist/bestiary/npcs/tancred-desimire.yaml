@@ -39,14 +39,18 @@ SpellLikeAbilities:
         +14)
     - label: 8/day
       value: acid dart (1d6+3 acid)
-SpellsPrepared: >-
-  Conjurer Spells Prepared (CL 9th; concentration +14)  5th-acidic sprayUM (DC
-  21), summon monster V, teleport  4th-black tentacles, fire shield, ice storm,
-  summon monster IV  3rd-ash stormUM, fireball (DC 18), stinking cloud (DC 19),
-  summon monster III  2nd-acid arrow (2), extended mage armor, glitterdust (DC
-  18), summon monster II, web (DC 18)  1st-burning hands (2; DC 16), corrosive
-  touchUM, grease (2; DC 17), magic missile, summon monster I  0 (at will)-acid
-  splash, dancing lights, detect magic, flare (DC 15)
+SpellsPrepared:
+  header: >-
+    Conjurer Spells Prepared (CL 9th; concentration +14)  5th-acidic sprayUM (DC
+    21), summon monster V, teleport  4th-black tentacles, fire shield, ice
+    storm, summon monster IV  3rd-ash stormUM, fireball (DC 18), stinking cloud
+    (DC 19), summon monster III  2nd-acid arrow (2), extended mage armor,
+    glitterdust (DC 18), summon monster II, web (DC 18)  1st-burning hands (2;
+    DC 16), corrosive touchUM, grease (2; DC 17), magic missile, summon monster
+    I
+  values:
+    - label: 0 (at will)
+      value: acid splash, dancing lights, detect magic, flare (DC 15)
 AbilityScores:
   - 11
   - 17

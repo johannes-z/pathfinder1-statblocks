@@ -36,12 +36,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: storm burst (1d6+2 nonlethal damage)
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 5th; concentration +9)  3rd-call lightningD (DC 17),
-  greater magic fang, poison (DC 17)  2nd-flaming sphere (DC 16), fog cloudD,
-  gust of wind (DC 16), heat metal (DC 16)  1st-entangle (DC 15), faerie fire,
-  obscuring mistD, produce flame, shillelagh  0 (at will)-detect magic, flare
-  (DC 14), guidance, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 5th; concentration +9)  3rd-call lightningD (DC
+    17), greater magic fang, poison (DC 17)  2nd-flaming sphere (DC 16), fog
+    cloudD, gust of wind (DC 16), heat metal (DC 16)  1st-entangle (DC 15),
+    faerie fire, obscuring mistD, produce flame, shillelagh
+  values:
+    - label: 0 (at will)
+      value: detect magic, flare (DC 14), guidance, stabilize
 SpellDomains: Weather
 AbilityScores:
   - 17

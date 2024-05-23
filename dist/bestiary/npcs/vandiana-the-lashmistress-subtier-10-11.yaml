@@ -35,21 +35,27 @@ SpellLikeAbilities:
       value: lore keeper (22)
     - label: 7/day
       value: blast rune (1d6+1 energy damage, 3 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +12)  4th-cure critical wounds,
-  explosive runesD, order's wrath (DC 18), unholy blight (DC 18) 
-  3rd-blindness/deafness (DC 17), dispel magic, glyph of wardingD, magic circle
-  against good, wind wall  2nd-darkness, detect thoughtsD (DC 16), eagle's
-  splendor, hold person (DC 16), sound burst (DC 16)  1st-command (DC 15),
-  comprehend languagesD, divine favor, obscuring mist, remove fear, sanctuary
-  (DC 15)  0 (at will)-bleed (DC 14), guidance, stabilize, resistance   Conjurer
-  Spells Prepared (CL 9th; concentration +12)  5th-baleful polymorph (DC 18),
-  mage's faithful hound  4th-confusion (DC 17), dimension door, enervation 
-  3rd-arcane sight, haste, sleet storm, slow (DC 16), summon monster III 
-  2nd-command undead (DC 15), darkvision, false life, glitterdust (DC 16),
-  resist energy, web (DC 16)  1st-alarm, chill touch (2, DC 14), grease (2),
-  mage armor  0 (at will)-bleed (DC 13), message, read magic, touch of fatigue
-  (DC 13)
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +12)  4th-cure critical
+    wounds, explosive runesD, order's wrath (DC 18), unholy blight (DC 18) 
+    3rd-blindness/deafness (DC 17), dispel magic, glyph of wardingD, magic
+    circle against good, wind wall  2nd-darkness, detect thoughtsD (DC 16),
+    eagle's splendor, hold person (DC 16), sound burst (DC 16)  1st-command (DC
+    15), comprehend languagesD, divine favor, obscuring mist, remove fear,
+    sanctuary (DC 15)
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 14), guidance, stabilize, resistance Conjurer Spells Prepared
+        (CL 9th; concentration +12) 5th-baleful polymorph (DC 18), mage's
+        faithful hound 4th-confusion (DC 17), dimension door, enervation
+        3rd-arcane sight, haste, sleet storm, slow (DC 16), summon monster III
+        2nd-command undead (DC 15), darkvision, false life, glitterdust (DC 16),
+        resist energy, web (DC 16) 1st-alarm, chill touch (2, DC 14), grease
+        (2), mage armor
+    - label: 0 (at will)
+      value: bleed (DC 13), message, read magic, touch of fatigue (DC 13)
 SpellDomains: Knowledge, Rune
 AbilityScores:
   - 8

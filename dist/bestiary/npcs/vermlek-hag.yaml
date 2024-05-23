@@ -37,11 +37,16 @@ SpellLikeAbilities:
       value: mass inflict light wounds (DC 15), spider climb
     - label: 1/day
       value: gentle repose, summon (level 2, 1d4 dretches, 50%)
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 4th; concentration +7)   2nd-flaming sphere (DC 15),
-  hold person (DC 15), vomit swarm   1st-ill omen, inflict light wounds (DC 14),
-  obscuring mist, shocking grasp   0 (at will)-bleed (DC 13), detect magic,
-  putrefy food and drink, touch of fatigue (DC 13)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 4th; concentration +7)   2nd-flaming sphere (DC
+    15), hold person (DC 15), vomit swarm   1st-ill omen, inflict light wounds
+    (DC 14), obscuring mist, shocking grasp
+  values:
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 13), detect magic, putrefy food and drink, touch of fatigue
+        (DC 13)
 AbilityScores:
   - 16
   - 11

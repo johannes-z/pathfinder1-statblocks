@@ -45,15 +45,19 @@ SpellLikeAbilities:
         Abilities (CL 9th; concentration +15)
     - label: 9/day
       value: storm burst (1d6+4 nonlethal damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +15)  5th-call lightning
-  storm(DC 21), greater command (DC 21), summon monster V  4th-chaos hammer (DC
-  20), freedom of movement, sleet storm, spiritual ally*  3rd-blindness/deafness
-  (DC 19), call lightning(DC 19), dispel magic, magic vestment, protection from
-  energy  2nd-aid, cure moderate wounds, death knell (DC 18), fog cloud, hold
-  person (2; DC 18), silence (DC 18)  1st-command (DC 17), cure light wounds,
-  divine favor, doom(DC 17), entropic shield, protection from law, shield of
-  faith  0 (at will)-detect magic, guidance, read magic, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +15)  5th-call lightning
+    storm(DC 21), greater command (DC 21), summon monster V  4th-chaos hammer
+    (DC 20), freedom of movement, sleet storm, spiritual ally* 
+    3rd-blindness/deafness (DC 19), call lightning(DC 19), dispel magic, magic
+    vestment, protection from energy  2nd-aid, cure moderate wounds, death knell
+    (DC 18), fog cloud, hold person (2; DC 18), silence (DC 18)  1st-command (DC
+    17), cure light wounds, divine favor, doom(DC 17), entropic shield,
+    protection from law, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, read magic, resistance
 SpellDomains: Evil (Demon subdomain*), Weather (Storms subdomain*)
 AbilityScores:
   - 10

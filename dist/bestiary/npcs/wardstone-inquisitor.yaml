@@ -37,9 +37,13 @@ SpellLikeAbilities:
         concentration +2)
     - label: At will
       value: detect evil
-SpellsPrepared: >-
-  Spells Prepared (CL 1st; concentration +4)  1st-command (DC 14), magic weapon,
-  shield of faithD  0 (at will)-detect magic, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 1st; concentration +4)  1st-command (DC 14), magic
+    weapon, shield of faithD
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, resistance
 SpellDomains: Glory, Law
 AbilityScores:
   - 14

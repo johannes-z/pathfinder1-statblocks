@@ -33,15 +33,18 @@ SpellLikeAbilities:
       value: change shape (beast shape II or elemental body I, 11 rounds/day)
     - label: 7/day
       value: telekinetic fist (1d4+5 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 11th; concentration +15)   6th-enemy hammerAPG
-  (DC 20), flesh to stone (DC 20)   5th-baleful polymorph (DC 19), cloudkill (DC
-  19), interposing hand   4th-black tentacles, greater invisibility, stone
-  shape, stoneskin   3rd-aqueous orbAPG (DC 17), blink, dispel magic (2),
-  fireball (DC 17), slow (DC 17)   2nd-cat's grace, make whole, resist energy,
-  scorching ray (2), see invisibility   1st-alarm, expeditious retreat, grease,
-  mage armor, magic missile, shield   0 (at will)-detect magic, light, mending,
-  read magic
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 11th; concentration +15)   6th-enemy
+    hammerAPG (DC 20), flesh to stone (DC 20)   5th-baleful polymorph (DC 19),
+    cloudkill (DC 19), interposing hand   4th-black tentacles, greater
+    invisibility, stone shape, stoneskin   3rd-aqueous orbAPG (DC 17), blink,
+    dispel magic (2), fireball (DC 17), slow (DC 17)   2nd-cat's grace, make
+    whole, resist energy, scorching ray (2), see invisibility   1st-alarm,
+    expeditious retreat, grease, mage armor, magic missile, shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, mending, read magic
 AbilityScores:
   - 12
   - 17

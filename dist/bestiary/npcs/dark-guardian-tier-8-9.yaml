@@ -39,12 +39,15 @@ SpellLikeAbilities:
       value: touch of evil (2 rounds)
     - label: At will
       value: lore keeper (21)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +6) 3rd-dispel magic, magic
-  circle against goodD 2nd-align weapon (evil only)D, death knell (DC 13),
-  silence 1st-bane (DC 12), cause fear (DC 12), inflict light wounds (DC 12),
-  protection from goodD, shield of faith 0 (at will)-bleed (DC 11), detect
-  poison, guidance, resistance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +6) 3rd-dispel magic, magic
+    circle against goodD 2nd-align weapon (evil only)D, death knell (DC 13),
+    silence 1st-bane (DC 12), cause fear (DC 12), inflict light wounds (DC 12),
+    protection from goodD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 11), detect poison, guidance, resistance
 SpellDomains: Evil, Knowledge
 AbilityScores:
   - 16

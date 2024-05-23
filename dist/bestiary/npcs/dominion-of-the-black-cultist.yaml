@@ -24,11 +24,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hand of the apprentice (5/day)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 5th; concentration +7)   3rd-vampiric touch  
-  2nd-misdirection, scorching ray, summon monster II   1st-charm person (DC 13),
-  grease, mage armor, summon monster I   0 (at will)-detect magic, light,
-  message, touch of fatigue (DC 12)
+SpellsPrepared:
+  header: >-
+    Wizard Spells Prepared (CL 5th; concentration +7)   3rd-vampiric touch  
+    2nd-misdirection, scorching ray, summon monster II   1st-charm person (DC
+    13), grease, mage armor, summon monster I
+  values:
+    - label: 0 (at will)
+      value: detect magic, light, message, touch of fatigue (DC 12)
 AbilityScores:
   - 10
   - 14

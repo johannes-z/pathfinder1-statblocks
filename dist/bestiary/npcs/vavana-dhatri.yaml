@@ -29,15 +29,18 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: dazing touch
-SpellsPrepared: >-
-  Enchanter Spells Prepared (CL 9th; concentration +13)   5th-dominate person
-  (DC 21), feeblemind (DC 21)   4th-charm monster (DC 20), crushing despair (DC
-  20), dimension door, phantasmal killer (DC 18)   3rd-dispel magic,
-  displacement, fireball (DC 17), hold person (DC 19), suggestion (DC 19)  
-  2nd-acid arrow, cat's grace, hideous laughter (DC 18), mirror image, scorching
-  ray, touch of idiocy   1st-charm person (DC 17), grease, mage armor, shield,
-  silent image (DC 15), unseen servant   0 (at will)-acid splash, arcane mark,
-  light, prestidigitation
+SpellsPrepared:
+  header: >-
+    Enchanter Spells Prepared (CL 9th; concentration +13)   5th-dominate person
+    (DC 21), feeblemind (DC 21)   4th-charm monster (DC 20), crushing despair
+    (DC 20), dimension door, phantasmal killer (DC 18)   3rd-dispel magic,
+    displacement, fireball (DC 17), hold person (DC 19), suggestion (DC 19)  
+    2nd-acid arrow, cat's grace, hideous laughter (DC 18), mirror image,
+    scorching ray, touch of idiocy   1st-charm person (DC 17), grease, mage
+    armor, shield, silent image (DC 15), unseen servant
+  values:
+    - label: 0 (at will)
+      value: acid splash, arcane mark, light, prestidigitation
 AbilityScores:
   - 8
   - 16

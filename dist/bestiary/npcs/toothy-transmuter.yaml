@@ -34,16 +34,20 @@ SpellLikeAbilities:
       value: change shape (beast shape III/elemental body II, 12 rounds/day)
     - label: 9/day
       value: telekinetic fist (1d4+6 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 12th; concentration +18)   6th-chain lightning
-  (DC 22), disintegrate (2, DC 22), transformation   5th-cone of cold (DC 21),
-  telekinesis, telepathic bond, teleport, wall of stone   4th-black tentacles,
-  fire shield, greater invisibility, ice storm, mass enlarge person (DC 20)  
-  3rd-dispel magic, fly, haste, lightning bolt (2, DC 19), protection from
-  energy   2nd-blur, bull's strength, invisibility, levitate, protection from
-  arrows, scorching ray, see invisibility   1st-burning hands (DC 17), feather
-  fall, mage armor, magic missile (2), reduce person (DC 17), true strike   0
-  (at will)-detect magic, mage hand, message, read magic
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 12th; concentration +18)   6th-chain
+    lightning (DC 22), disintegrate (2, DC 22), transformation   5th-cone of
+    cold (DC 21), telekinesis, telepathic bond, teleport, wall of stone  
+    4th-black tentacles, fire shield, greater invisibility, ice storm, mass
+    enlarge person (DC 20)   3rd-dispel magic, fly, haste, lightning bolt (2, DC
+    19), protection from energy   2nd-blur, bull's strength, invisibility,
+    levitate, protection from arrows, scorching ray, see invisibility  
+    1st-burning hands (DC 17), feather fall, mage armor, magic missile (2),
+    reduce person (DC 17), true strike
+  values:
+    - label: 0 (at will)
+      value: detect magic, mage hand, message, read magic
 AbilityScores:
   - 16
   - 10

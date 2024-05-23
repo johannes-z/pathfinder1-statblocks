@@ -31,10 +31,13 @@ Reach: 5 ft.
 SpecialAttacks: >-
   fervor 1d6 4/day, channel positive energy (DC 14) , blessings 5/day, glorious
   presence (DC 14), war mind
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 4th; concentration +6)   2nd-bull's strength,
-  weapon of aweAPG   1st-bless, divine favor, remove fear, shield of faith   0
-  (at will)-create water, detect magic, guidance, stabilize
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 4th; concentration +6)   2nd-bull's strength,
+    weapon of aweAPG   1st-bless, divine favor, remove fear, shield of faith
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, stabilize
 AbilityScores:
   - 18
   - 12

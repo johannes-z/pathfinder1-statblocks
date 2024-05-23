@@ -47,11 +47,14 @@ SpellLikeAbilities:
       value: cure light wounds, lesser confusion (DC 16), silent image (DC 16)
     - label: 1/week
       value: commune (6 questions, CL 12th)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; concentration +8)  2nd-lesser restoration, remove
-  paralysis, spiritual weapon  1st-command (DC 16), divine favor, magic stone,
-  remove fear, sanctuary(DC 16)  0 (at will)-detect magic, mending, read magic,
-  stabilize
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; concentration +8)  2nd-lesser restoration, remove
+    paralysis, spiritual weapon  1st-command (DC 16), divine favor, magic stone,
+    remove fear, sanctuary(DC 16)
+  values:
+    - label: 0 (at will)
+      value: detect magic, mending, read magic, stabilize
 SpellDomains: Liberation (Freedom subdomain*), Travel
 AbilityScores:
   - 9

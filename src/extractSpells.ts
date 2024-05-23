@@ -37,9 +37,10 @@ const REGEX_SpellLikeAbilities = new RegExp(`(?<label>${SPELL_DEFINITION})[- ](?
 // eslint-disable-next-line regexp/no-super-linear-backtracking
 const REGEX_SpellLikeAbilities_Header = new RegExp(`^(?<header>.+?)\\s*(?=(${SPELL_DEFINITION}[- ])|$)`, 'i')
 
-export function extractSpells(monster: MonsterRaw, column: 'SpellsKnown' | 'SpellLikeAbilities'): SpellLikeAbilities {
+export function extractSpells(monster: MonsterRaw, column: 'SpellsKnown' | 'SpellLikeAbilities' | 'SpellsPrepared'): SpellLikeAbilities {
   const header = monster[column].match(REGEX_SpellLikeAbilities_Header)
   const matches = [...monster[column].matchAll(REGEX_SpellLikeAbilities)]
+
   return {
     header: header?.groups?.header.trim() ?? '',
     values: matches.map(match => ({

@@ -35,12 +35,16 @@ SpellLikeAbilities:
   values:
     - label: 5/day
       value: copycat (6 rounds), dazing touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +8)   3rd-dispel magic,
-  suggestionD (DC 15), summon monster III   2nd-bear's endurance, cat's grace,
-  hold person (DC 14), invisibilityD, undetectable alignment   1st-charm personD
-  (DC 13), command (DC 13), cure light wounds, divine favor, shield of faith   0
-  (at will)-light, mending, read magic, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +8)   3rd-dispel magic,
+    suggestionD (DC 15), summon monster III   2nd-bear's endurance, cat's grace,
+    hold person (DC 14), invisibilityD, undetectable alignment   1st-charm
+    personD (DC 13), command (DC 13), cure light wounds, divine favor, shield of
+    faith
+  values:
+    - label: 0 (at will)
+      value: light, mending, read magic, stabilize
 SpellDomains: Charm, Trickery
 AbilityScores:
   - 8

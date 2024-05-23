@@ -38,16 +38,19 @@ SpellLikeAbilities:
       value: elemental wall (11 rounds/day)
     - label: 7/day
       value: force missile (1d4+5)
-SpellsPrepared: >-
-  Evoker Spells Prepared (CL 11th; concentration +15)  6th- chain lightning (DC
-  22), quickened invisibility  5th-quickened burning hands (DC 17), interposing
-  hand, telekinesis  4th-greater invisibility, ice storm, silent lightning bolt
-  (DC 19), silent major image (DC 17), shout (DC 20)  3rd-dispel magic,
-  displacement, fly, lightning bolt (DC 19), slow (DC 17), wind wall  2nd-blur,
-  gust of wind (DC 18), invisibility, minor image (DC 16), scorching ray (x2) 
-  1st-alarm, burning hands (DC 17), mage armor, magic missile, shocking grasp,
-  shield  0 (at will)-detect magic, mage hand, ray of frost, read magic,
-  resistance
+SpellsPrepared:
+  header: >-
+    Evoker Spells Prepared (CL 11th; concentration +15)  6th- chain lightning
+    (DC 22), quickened invisibility  5th-quickened burning hands (DC 17),
+    interposing hand, telekinesis  4th-greater invisibility, ice storm, silent
+    lightning bolt (DC 19), silent major image (DC 17), shout (DC 20) 
+    3rd-dispel magic, displacement, fly, lightning bolt (DC 19), slow (DC 17),
+    wind wall  2nd-blur, gust of wind (DC 18), invisibility, minor image (DC
+    16), scorching ray (x2)  1st-alarm, burning hands (DC 17), mage armor, magic
+    missile, shocking grasp, shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, mage hand, ray of frost, read magic, resistance
 AbilityScores:
   - 8
   - 16

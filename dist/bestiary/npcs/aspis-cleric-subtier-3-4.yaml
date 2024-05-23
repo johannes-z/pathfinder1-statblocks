@@ -33,10 +33,13 @@ SpellLikeAbilities:
       value: touch of glory (+2)
     - label: 5/day
       value: battle rage (+1 damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 2nd; concentration +4)   1st-bane (DC 13), doom (DC
-  13), entropic shield, magic weaponD   0 (at will)-bleed (DC 12), guidance,
-  resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 2nd; concentration +4)   1st-bane (DC 13), doom
+    (DC 13), entropic shield, magic weaponD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), guidance, resistance, stabilize
 SpellDomains: Glory, War
 AbilityScores:
   - 16

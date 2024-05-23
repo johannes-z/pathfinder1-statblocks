@@ -34,11 +34,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: storm burst (1d6+1 nonlethal)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-barkskinD, calm
-  emotions (DC 15), lesser restoration   1st-endure elements, obscuring mistD,
-  remove fear, sanctuary (DC 14)   0 (at will)-create water, detect poison,
-  light, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd; concentration +6)   2nd-barkskinD, calm
+    emotions (DC 15), lesser restoration   1st-endure elements, obscuring mistD,
+    remove fear, sanctuary (DC 14)
+  values:
+    - label: 0 (at will)
+      value: create water, detect poison, light, stabilize
 SpellDomains: Plant, Weather
 AbilityScores:
   - 10

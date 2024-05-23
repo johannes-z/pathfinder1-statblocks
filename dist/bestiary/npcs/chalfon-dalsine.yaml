@@ -27,10 +27,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: spell combat (-2 attack), spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 4th; concentration +8)  2nd-cat's grace,
-  invisibility  1st-corrosive touch* (4d4 acid), shield, shocking grasp (2)  0
-  (at will)-acid splash, daze (DC 14), flare (DC 14), read magic
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 4th; concentration +8)  2nd-cat's grace,
+    invisibility  1st-corrosive touch* (4d4 acid), shield, shocking grasp (2)
+  values:
+    - label: 0 (at will)
+      value: acid splash, daze (DC 14), flare (DC 14), read magic
 AbilityScores:
   - 10
   - 18

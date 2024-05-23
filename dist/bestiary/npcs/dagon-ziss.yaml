@@ -35,11 +35,14 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: grave touch (1 round)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd; melee touch +2, ranged touch +4)  2nd-ghoul touch (DC
-  16), glitterdust (DC 15), scare (DC 16)B   1st-cause fear (DC 15)B, chill
-  touch (DC 15), mage armor, magic missile   0 (at will)-detect magic, disrupt
-  undead, read magic, touch of fatigue (DC 14)
+SpellsPrepared:
+  header: >-
+    Spells Prepared (CL 3rd; melee touch +2, ranged touch +4)  2nd-ghoul touch
+    (DC 16), glitterdust (DC 15), scare (DC 16)B   1st-cause fear (DC 15)B,
+    chill touch (DC 15), mage armor, magic missile
+  values:
+    - label: 0 (at will)
+      value: detect magic, disrupt undead, read magic, touch of fatigue (DC 14)
 AbilityScores:
   - 12
   - 16

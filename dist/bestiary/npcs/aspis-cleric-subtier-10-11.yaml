@@ -35,14 +35,17 @@ SpellLikeAbilities:
       value: touch of glory (+9)
     - label: 6/day
       value: battle rage (+4 damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 9th; concentration +12)   5th-breath of life,
-  righteous mightD   4th-chaos hammer (DC 17), divine powerD, spell immunity
-  (magic missile, fireball)   3rd-blindness (DC 16), dispel magic, invisibility
-  purge, magic vestmentD   2nd-aid, bull's strength, death knell (DC 15),
-  shatter (DC 15),  spiritual weaponD   1st-bane (DC 14), deathwatch, doom (DC
-  14), entropic shield, magic weaponD, shield of faith   0 (at will)-bleed (DC
-  13), guidance, resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 9th; concentration +12)   5th-breath of life,
+    righteous mightD   4th-chaos hammer (DC 17), divine powerD, spell immunity
+    (magic missile, fireball)   3rd-blindness (DC 16), dispel magic,
+    invisibility purge, magic vestmentD   2nd-aid, bull's strength, death knell
+    (DC 15), shatter (DC 15),  spiritual weaponD   1st-bane (DC 14), deathwatch,
+    doom (DC 14), entropic shield, magic weaponD, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), guidance, resistance, stabilize
 SpellDomains: Glory, War
 AbilityScores:
   - 20

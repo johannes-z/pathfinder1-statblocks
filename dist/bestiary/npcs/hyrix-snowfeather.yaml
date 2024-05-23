@@ -26,11 +26,14 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: spellstrike
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 5th; concentration +8)   2nd-glitterdust (DC 15),
-  scorching ray (2)   1st-grease (DC 14), ray of enfeeblement (DC 14), shield,
-  shocking grasp (2)   0 (at will)-arcane mark, dancing lights, detect magic,
-  prestidigitation (DC 14)
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 5th; concentration +8)   2nd-glitterdust (DC 15),
+    scorching ray (2)   1st-grease (DC 14), ray of enfeeblement (DC 14), shield,
+    shocking grasp (2)
+  values:
+    - label: 0 (at will)
+      value: arcane mark, dancing lights, detect magic, prestidigitation (DC 14)
 AbilityScores:
   - 12
   - 16

@@ -44,10 +44,13 @@ SpellLikeAbilities:
         (DC 18)
     - label: 1/day
       value: locate object, plane shift (DC 20, self only) (DC 23)
-SpellsPrepared: >-
-  Magus Spells Prepared (CL 2nd; concentration +8)   1st-grease, shocking grasp
-  (2), vanishAPG (DC 17)   0 (at will)-acid splash, detect magic, disrupt
-  undead, mage hand
+SpellsPrepared:
+  header: >-
+    Magus Spells Prepared (CL 2nd; concentration +8)   1st-grease, shocking
+    grasp (2), vanishAPG (DC 17)
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, disrupt undead, mage hand
 AbilityScores:
   - 18
   - 20

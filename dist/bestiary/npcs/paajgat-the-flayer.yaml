@@ -37,12 +37,15 @@ SpellLikeAbilities:
   values:
     - label: 7/day
       value: touch of darkness (2 rounds)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 5th; concentration +9)   3rd-cure serious wounds,
-  dispel magic, keen edgeD   2nd-blindness/deafnessD (DC 16, only to cause
-  blindness), cure moderate wounds, gentle repose (2)   1st-cure light wounds
-  (3), divine favor, obscuring mistD   0 (at will)-bleed (DC 14), detect magic,
-  guidance, read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 5th; concentration +9)   3rd-cure serious wounds,
+    dispel magic, keen edgeD   2nd-blindness/deafnessD (DC 16, only to cause
+    blindness), cure moderate wounds, gentle repose (2)   1st-cure light wounds
+    (3), divine favor, obscuring mistD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 14), detect magic, guidance, read magic
 SpellDomains: Darkness, Murder
 AbilityScores:
   - 24

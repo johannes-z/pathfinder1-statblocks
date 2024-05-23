@@ -36,12 +36,15 @@ SpellLikeAbilities:
       value: stone tell Arcane School Spell-Like Abilities (CL 5th; concentration +8)
     - label: 6/day
       value: telekinetic fist (1d4+2 bludgeoning)
-SpellsPrepared: >-
-  Transmuter Spells Prepared (CL 5th; concentration +8)  3rd-blink, dispel
-  magic, slow (DC 16)  2nd-acid arrow, blindness/deafness (DC 15), see
-  invisibility, spider climb  1st-crafter's fortuneAPG (DC 14), identify, mage
-  armor, magic weapon, protection from law  0 (at will)-mage hand, mending,
-  open/close (DC 13), prestidigitation
+SpellsPrepared:
+  header: >-
+    Transmuter Spells Prepared (CL 5th; concentration +8)  3rd-blink, dispel
+    magic, slow (DC 16)  2nd-acid arrow, blindness/deafness (DC 15), see
+    invisibility, spider climb  1st-crafter's fortuneAPG (DC 14), identify, mage
+    armor, magic weapon, protection from law
+  values:
+    - label: 0 (at will)
+      value: mage hand, mending, open/close (DC 13), prestidigitation
 AbilityScores:
   - 23
   - 20

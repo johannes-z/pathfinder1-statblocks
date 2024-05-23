@@ -34,13 +34,16 @@ SpellLikeAbilities:
       value: bleeding touch (3 rounds)
     - label: 6/day
       value: battle rage (+3)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 6th; concentration +9)   3rd- animate deadD,
-  blindness/deafness (DC 16), invisibility purge, wind wall   2nd-bull's
-  strength, cure moderate wounds, desecrate, spiritual weaponD, undetectable
-  alignment   1st-bane (DC 14), cause fearD (DC 14), command (DC 14), divine
-  favor, shield of faith   0 (at will)-bleed (DC 13), create water, detect
-  magic, guidance
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 6th; concentration +9)   3rd- animate deadD,
+    blindness/deafness (DC 16), invisibility purge, wind wall   2nd-bull's
+    strength, cure moderate wounds, desecrate, spiritual weaponD, undetectable
+    alignment   1st-bane (DC 14), cause fearD (DC 14), command (DC 14), divine
+    favor, shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), create water, detect magic, guidance
 SpellDomains: Death, War
 AbilityScores:
   - 12

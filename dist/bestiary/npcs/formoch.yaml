@@ -39,11 +39,14 @@ SpellLikeAbilities:
       value: artificer's touch (1d6+2, bypasses 4 DR and hardness)
     - label: 5/day
       value: strength surge (+2)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 4th; concentration +6)   2nd-bull's strength D,
-  cure moderate wounds (2), silence (DC 14)   1st-cure light wounds, divine
-  favor, enlarge personD, entropic shield, shield of faith   0 (at will)-detect
-  magic, guidance, light, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 4th; concentration +6)   2nd-bull's strength D,
+    cure moderate wounds (2), silence (DC 14)   1st-cure light wounds, divine
+    favor, enlarge personD, entropic shield, shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, light, mending
 SpellDomains: Artifice, Strength
 AbilityScores:
   - 31

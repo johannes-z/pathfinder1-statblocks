@@ -39,15 +39,18 @@ SpellLikeAbilities:
       value: strength surge (+4)
     - label: 9/day
       value: battle rage (+4)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +14)   4th-blessing of
-  fervorAPG, communal protection from energyUC, divine powerD, unholy blight (DC
-  20)   3rd-enter imageAPG, invisibility purge, magic vestmentD, protection from
-  energy, sacred bondAPG   2nd-align weapon, death knell (DC 18), hold person
-  (DC 18), magic boulder*, spiritual weaponD, weapon of aweAPG   1st-bane (DC
-  17), bless, command (DC 17), cure light wounds, divine favor, enlarge personD
-  (DC 17), shield of faith   0 (at will)-detect magic, guidance, mending, read
-  magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +14)   4th-blessing of
+    fervorAPG, communal protection from energyUC, divine powerD, unholy blight
+    (DC 20)   3rd-enter imageAPG, invisibility purge, magic vestmentD,
+    protection from energy, sacred bondAPG   2nd-align weapon, death knell (DC
+    18), hold person (DC 18), magic boulder*, spiritual weaponD, weapon of
+    aweAPG   1st-bane (DC 17), bless, command (DC 17), cure light wounds, divine
+    favor, enlarge personD (DC 17), shield of faith
+  values:
+    - label: 0 (at will)
+      value: detect magic, guidance, mending, read magic
 SpellDomains: Strength, War
 AbilityScores:
   - 34

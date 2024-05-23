@@ -34,21 +34,25 @@ SpellLikeAbilities:
       value: fire bolt (1d6+10 fire)
     - label: 4/day
       value: dispelling touch
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 20th; concentration +25)   9th-elemental swarmD
-  (fire spell only), energy drain (DC 24), gate, implosion (DC 26), summon
-  monster IX   8th-antimagic field, fire storm (DC 25), incendiary cloudD (DC
-  24), summon monster VIII, unholy aura   7th-blasphemy (DC 24), ethereal jaunt,
-  greater restoration, spell turningD, summon monster VII   6th-antimagic
-  fieldD, blade barrier (2, DC 23), heal (2)   5th-break enchantment, dispel
-  good, flame strike (DC 22), greater command (DC 20), insect plague, spell
-  resistanceD   4th-cure critical wounds, dimensional anchor, dismissal (DC 19),
-  freedom of movement, unholy blight (DC 21), wall of fireD   3rd-bestow curse
-  (DC 18), fireballD (DC 20), magic vestment (2), protection from energy (2, DC
-  18)   2nd-align weapon, delay poison, hold person (DC 17), lesser restoration,
-  produce flameD, spiritual weapon   1st-bless, burning handsD (DC 18), command
-  (3, DC 16), doom (DC 16), sanctuary (DC 16)   0 (at will)-create water, detect
-  magic, guidance, mending
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 20th; concentration +25)   9th-elemental swarmD
+    (fire spell only), energy drain (DC 24), gate, implosion (DC 26), summon
+    monster IX   8th-antimagic field, fire storm (DC 25), incendiary cloudD (DC
+    24), summon monster VIII, unholy aura   7th-blasphemy (DC 24), ethereal
+    jaunt, greater restoration, spell turningD, summon monster VII  
+    6th-antimagic fieldD, blade barrier (2, DC 23), heal (2)   5th-break
+    enchantment, dispel good, flame strike (DC 22), greater command (DC 20),
+    insect plague, spell resistanceD   4th-cure critical wounds, dimensional
+    anchor, dismissal (DC 19), freedom of movement, unholy blight (DC 21), wall
+    of fireD   3rd-bestow curse (DC 18), fireballD (DC 20), magic vestment (2),
+    protection from energy (2, DC 18)   2nd-align weapon, delay poison, hold
+    person (DC 17), lesser restoration, produce flameD, spiritual weapon  
+    1st-bless, burning handsD (DC 18), command (3, DC 16), doom (DC 16),
+    sanctuary (DC 16)
+  values:
+    - label: 0 (at will)
+      value: create water, detect magic, guidance, mending
 SpellDomains: Fire, Magic
 AbilityScores:
   - 13

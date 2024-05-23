@@ -41,13 +41,17 @@ SpellLikeAbilities:
       value: touch of evil (4 rounds)
     - label: 6/day
       value: battle rage (+4 damage)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 8th; concentration +11)  4th-divine powerD, summon
-  monster IV, unholy blight (DC 17)  3rd-cure serious wounds (2), dispel magic,
-  magic vestmentD, stone shape  2nd-cure moderate wounds, death knell (DC 15),
-  silence (DC 15), resist energy, spiritual weaponD  1st-bane (DC 14), cure
-  light wounds, command (DC 14), doom (DC 14), entropic shield, protection from
-  goodD  0 (at will)-bleed (DC 13), detect magic, guidance, virtue
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 8th; concentration +11)  4th-divine powerD,
+    summon monster IV, unholy blight (DC 17)  3rd-cure serious wounds (2),
+    dispel magic, magic vestmentD, stone shape  2nd-cure moderate wounds, death
+    knell (DC 15), silence (DC 15), resist energy, spiritual weaponD  1st-bane
+    (DC 14), cure light wounds, command (DC 14), doom (DC 14), entropic shield,
+    protection from goodD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), detect magic, guidance, virtue
 SpellDomains: Evil, War
 AbilityScores:
   - 16

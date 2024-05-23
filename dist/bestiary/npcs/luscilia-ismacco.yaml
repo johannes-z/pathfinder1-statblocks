@@ -27,11 +27,14 @@ Reach: 5 ft.
 SpecialAttacks: >-
   channel negative energy (2d6, DC 12, 6/day), touch of darkness (1 round,
   5/day), destructive smite (+1, 5/day)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 3rd)  2nd-blindness/deafnessD (DC 14, only to cause
-  blindness), cure moderate wounds (2)  1st-cause fear (DC 13), cure light
-  wounds (2), obscuring mistD  0 (at will)-bleed (DC 12), detect magic, light,
-  read magic
+SpellsPrepared:
+  header: >-
+    Cleric Spells Prepared (CL 3rd)  2nd-blindness/deafnessD (DC 14, only to
+    cause blindness), cure moderate wounds (2)  1st-cause fear (DC 13), cure
+    light wounds (2), obscuring mistD
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 12), detect magic, light, read magic
 SpellDomains: Darkness, Destruction
 AbilityScores:
   - 12

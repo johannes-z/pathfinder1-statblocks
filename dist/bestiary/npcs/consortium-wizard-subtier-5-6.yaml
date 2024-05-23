@@ -25,12 +25,15 @@ Melee:
   - quarterstaff +3 (1d6)
 Space: 5 ft.
 Reach: 5 ft.
-SpellsPrepared: >-
-  Abjurer Spells Prepared (CL 6th; concentration +10)   3rd-dispel magic,
-  displacement, fireball (DC 17), fly   2nd-daze monster (DC 16), extended mage
-  armor, glitterdust (DC 16), mirror image, resist energy (DC 18)   1st-alarm,
-  expeditious retreat, grease, magic missile, shield   0 (at will)-detect magic,
-  read magic
+SpellsPrepared:
+  header: >-
+    Abjurer Spells Prepared (CL 6th; concentration +10)   3rd-dispel magic,
+    displacement, fireball (DC 17), fly   2nd-daze monster (DC 16), extended
+    mage armor, glitterdust (DC 16), mirror image, resist energy (DC 18)  
+    1st-alarm, expeditious retreat, grease, magic missile, shield
+  values:
+    - label: 0 (at will)
+      value: detect magic, read magic
 AbilityScores:
   - 10
   - 13

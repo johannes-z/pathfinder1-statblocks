@@ -37,16 +37,20 @@ SpecialAttacks: >-
   drain (2 levels, DC 23), hexes (agony [12 rounds], cackle, cauldron, coven,
   evil eye [-4, 9 rounds], flight [ feather fall at will, levitate 1/day, fly 12
   minutes/day], retribution [6 rounds], slumber [12 rounds])
-SpellsPrepared: >-
-  Witch Spells Prepared (CL 12th; concentration +18) 6th-cone of cold (DC 22),
-  mass fester* (DC 23), slay living (DC 23) 5th-cloudkill (DC 21), inflict
-  critical wounds (DC 22), suffocation* (DC 22), waves of fatigue (DC 22)
-  4th-black tentacles, dimension door, poison (DC 21), solid fog 3rd-dispel
-  magic, lightning bolt (DC 19), suggestion (DC 19), twilight knife*, vampiric
-  touch 2nd-command undead (2, DC 19), death knell (DC 19), hold person (DC 18),
-  spectral hand, touch of idiocy 1st- beguiling gift* (DC 17), chill touch (DC
-  18), detect undead, ill omen*, mage armor, ray of enfeeblement (DC 18) 0 (at
-  will)-bleed (DC 17), message, read magic, touch of fatigue (DC 17)
+SpellsPrepared:
+  header: >-
+    Witch Spells Prepared (CL 12th; concentration +18) 6th-cone of cold (DC 22),
+    mass fester* (DC 23), slay living (DC 23) 5th-cloudkill (DC 21), inflict
+    critical wounds (DC 22), suffocation* (DC 22), waves of fatigue (DC 22)
+    4th-black tentacles, dimension door, poison (DC 21), solid fog 3rd-dispel
+    magic, lightning bolt (DC 19), suggestion (DC 19), twilight knife*, vampiric
+    touch 2nd-command undead (2, DC 19), death knell (DC 19), hold person (DC
+    18), spectral hand, touch of idiocy 1st- beguiling gift* (DC 17), chill
+    touch (DC 18), detect undead, ill omen*, mage armor, ray of enfeeblement (DC
+    18)
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 17), message, read magic, touch of fatigue (DC 17)
 AbilityScores:
   - 20
   - 18

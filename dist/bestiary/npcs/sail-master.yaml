@@ -30,10 +30,13 @@ SpellLikeAbilities:
   values:
     - label: 4/day
       value: storm burst
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 2nd; concentration +3)   1st-cure light wounds,
-  jump, obscuring mistD, shillelagh   0 (at will)-flare (DC 11), know direction,
-  light, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 2nd; concentration +3)   1st-cure light wounds,
+    jump, obscuring mistD, shillelagh
+  values:
+    - label: 0 (at will)
+      value: flare (DC 11), know direction, light, stabilize
 SpellDomains: Weather
 AbilityScores:
   - 17

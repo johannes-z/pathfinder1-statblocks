@@ -48,9 +48,13 @@ SpellsKnown:
       value: >-
         dancing lights, daze (DC 15), ghost sound (DC 15), lullaby (DC 15),
         message, prestidigitation
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 1st; concentration +2) 1st-calm animalsD (DC 12),
-  cure light wounds, faerie fire 0 (at will)-guidance, mending, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 1st; concentration +2) 1st-calm animalsD (DC 12),
+    cure light wounds, faerie fire
+  values:
+    - label: 0 (at will)
+      value: guidance, mending, stabilize
 SpellDomains: Animal
 AbilityScores:
   - 8

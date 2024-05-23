@@ -35,11 +35,14 @@ SpellLikeAbilities:
   values:
     - label: At Will
       value: enthrall (DC 14)
-SpellsPrepared: >-
-  Warpriest Spells Prepared (CL 5th; concentration +8)   2nd-bull's strength,
-  hold person (DC 15), spiritual weapon   1st-cause fear (DC 14), command (DC
-  14), divine favor, doom (DC 14), shield of faith   0 (at will)-bleed (DC 13),
-  guidance, light, resistance
+SpellsPrepared:
+  header: >-
+    Warpriest Spells Prepared (CL 5th; concentration +8)   2nd-bull's strength,
+    hold person (DC 15), spiritual weapon   1st-cause fear (DC 14), command (DC
+    14), divine favor, doom (DC 14), shield of faith
+  values:
+    - label: 0 (at will)
+      value: bleed (DC 13), guidance, light, resistance
 AbilityScores:
   - 14
   - 10

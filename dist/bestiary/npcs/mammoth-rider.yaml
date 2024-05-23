@@ -33,12 +33,15 @@ Reach: 5 ft.
 SpecialAttacks: >-
   colossus hunter, rage (9 rounds/day), rage powers (ferocious mountAPG), wild
   shape 2/day,
-SpellsPrepared: >-
-  Druid Spells Prepared (CL 6th; concentration +9)  3rd-call lightning (DC 16),
-  greater magic fang, protection from energy  2nd-aspect of the bearAPG, bear's
-  endurance, cat's grace, resist energy  1st-keen sensesAPG, obscuring mist,
-  pass without trace, speak with animals  0 (at will)- flare (DC 13), guidance,
-  resistance, stabilize
+SpellsPrepared:
+  header: >-
+    Druid Spells Prepared (CL 6th; concentration +9)  3rd-call lightning (DC
+    16), greater magic fang, protection from energy  2nd-aspect of the bearAPG,
+    bear's endurance, cat's grace, resist energy  1st-keen sensesAPG, obscuring
+    mist, pass without trace, speak with animals
+  values:
+    - label: 0 (at will)
+      value: flare (DC 13), guidance, resistance, stabilize
 AbilityScores:
   - 20
   - 13

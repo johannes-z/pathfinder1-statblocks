@@ -28,12 +28,15 @@ SpellLikeAbilities:
   values:
     - label: 6/day
       value: blinding ray
-SpellsPrepared: >-
-  Illusionist Spells Prepared (CL 5th; concentration +8)   3rd-illusory script
-  (DC 17), major image (DC 17), suggestion (DC 16)   2nd-acid arrow,
-  invisibility (2), mirror image   1st-alarm, charm person (DC 14), color spray
-  (DC 15), disguise self, mage armor   0 (at will)-acid splash, detect magic,
-  ghost sound (DC 14), message
+SpellsPrepared:
+  header: >-
+    Illusionist Spells Prepared (CL 5th; concentration +8)   3rd-illusory script
+    (DC 17), major image (DC 17), suggestion (DC 16)   2nd-acid arrow,
+    invisibility (2), mirror image   1st-alarm, charm person (DC 14), color
+    spray (DC 15), disguise self, mage armor
+  values:
+    - label: 0 (at will)
+      value: acid splash, detect magic, ghost sound (DC 14), message
 AbilityScores:
   - 10
   - 14
