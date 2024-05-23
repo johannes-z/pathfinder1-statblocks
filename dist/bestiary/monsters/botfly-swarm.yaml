@@ -1,22 +1,21 @@
 Name: Botfly Swarm
-CR: '4'
-XP: '1200'
+CR: 4
+XP: 1200
 Alignment: 'N'
 Size: Fine
 Type: vermin
 SubType: (swarm)
-Init: '0'
 Senses:
   - darkvision 60 ft.
   - Perception +0
 AC: 18, touch 18, flat-footed 18
 AC_Mods: (+8 size)
-HP: '40'
+HP: 40
 HD: (9d8)
 Saves: Fort +6, Ref +3, Will +3
-Fort: '6'
-Ref: '3'
-Will: '3'
+Fort: 6
+Ref: 3
+Will: 3
 DefensiveAbilities: swarm traits
 Immune: mind-affecting effects, weapon damage
 Weaknesses: swarm traits
@@ -33,7 +32,7 @@ AbilityScores:
   - null
   - 11
   - 2
-BaseAtk: '6'
+BaseAtk: 6
 CMB: '-'
 CMD: '-'
 Skills:
@@ -46,7 +45,6 @@ Description_Visual: >-
   From within comes the low, droning buzz of thousands of tiny flies.
 Group: Botfly
 Source: Heart of the Jungle
-IsTemplate: '0'
 SpecialAbilities:
   - name: Infestation (Ex)
     description: >-
@@ -69,18 +67,8 @@ Description:
     lict the target. While a remove disease spell (or similar effect) instantly
     halts an infestation, immunity to disease offers no protection, as the
     infestation itself is caused by parasites.
-CharacterFlag: '0'
-CompanionFlag: '0'
-Fly: '1'
-Climb: '0'
-Burrow: '0'
-Swim: '0'
-Land: '1'
+Fly: 1
+Land: 1
 AgeCategory: adult
-DontUseRacialHD: '0'
 LinkText: Botfly, Swarm
-id: '806'
-UniqueMonster: '0'
-MR: '0'
-Mythic: '0'
-MT: '0'
+id: 806

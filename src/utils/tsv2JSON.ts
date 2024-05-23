@@ -16,9 +16,11 @@ export function tsv2JSON(csv: string) {
     const currentline = lines[i].split('\t')
 
     for (let j = 0; j < headers.length; j++) {
-      let value = currentline[j].trim()
+      let value: string | number | null = currentline[j].trim()
       if (value === 'NULL')
         value = null
+      else if (!Number.isNaN(+value))
+        value = +value
       row[headers[j]] = value
     }
 

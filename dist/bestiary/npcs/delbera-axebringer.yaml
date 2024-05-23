@@ -1,6 +1,6 @@
 Name: Delbera Axebringer
-CR: '7'
-XP: '3200'
+CR: 7
+XP: 3200
 Race: dwarf
 Class: cleric of torag 6
 MonsterSource: Pathfinder RPG Bestiary 144
@@ -8,18 +8,18 @@ Alignment: LG
 Size: Medium
 Type: undead
 SubType: (humanoid, dwarf, incorporeal)
-Init: '-1'
+Init: -1
 Senses:
   - darkvision 60 ft.
   - Perception +11
 AC: 15, touch 15, flat-footed 15
 AC_Mods: (+6 deflection, -1 Dex)
-HP: '54'
+HP: 54
 HD: (6d8+24)
 Saves: Fort +10, Ref +3, Will +10; +2 vs. poison, spells, and spell-like abilities
-Fort: '10'
-Ref: '3'
-Will: '10'
+Fort: 10
+Ref: 3
+Will: 10
 Save_Mods: +2 vs. poison, spells, and spell-like abilities
 DefensiveAbilities: channel resistance +4, defensive training, incorporeal, rejuvenation
 Immune: undead traits
@@ -50,8 +50,8 @@ AbilityScores:
   - 10
   - 17
   - 16
-BaseAtk: '4'
-CMB: '3'
+BaseAtk: 4
+CMB: 3
 CMD: 16 (20 vs. bull rush and trip)
 Feats:
   - Channel Smite
@@ -74,7 +74,6 @@ Languages:
   - Common
   - Dwarven
 Source: Down The Blighted Path
-IsTemplate: '0'
 BeforeCombat: Delbera's ghost casts shield of faith whenever someone approaches.
 DuringCombat: >-
   If combat erupts, Delbera casts summon monster III to call a lantern archon,
@@ -83,22 +82,10 @@ DuringCombat: >-
 Morale: >-
   Delbera's ghost fights without fear, and cannot leave the burial chamber. If
   destroyed, she returns in 2d4 days or until Firebrand is returned to her.
-CharacterFlag: '0'
-CompanionFlag: '0'
-Fly: '1'
-Climb: '0'
-Burrow: '0'
-Swim: '0'
-Land: '0'
+Fly: 1
 TemplatesApplied: ghost|
 BaseStatistics: >-
   Without shield of faith cast, Delbera's statistics are AC 12, touch 12,
   flat-footed 12.
 AgeCategory: Adult
-CompanionFamiliarLink: '0'
-id: '7828'
-UniqueMonster: '0'
-Variant: '0'
-MR: '0'
-Mythic: '0'
-MT: '0'
+id: 7828

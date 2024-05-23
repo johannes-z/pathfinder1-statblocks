@@ -1,21 +1,20 @@
 Name: Skittergoat
 CR: 1/2
-XP: '200'
+XP: 200
 Alignment: 'N'
 Size: Small
 Type: animal
-Init: '2'
+Init: 2
 Senses:
   - low-light vision
   - Perception +4
 AC: 13, touch 13, flat-footed 11
 AC_Mods: (+2 Dex, +1 size)
-HP: '9'
+HP: 9
 HD: (2d8)
 Saves: Fort +3, Ref +5, Will +0
-Fort: '3'
-Ref: '5'
-Will: '0'
+Fort: 3
+Ref: 5
 Speed: 30 ft.
 Melee:
   - gore +3 (1d4+1)
@@ -29,8 +28,8 @@ AbilityScores:
   - 2
   - 11
   - 5
-BaseAtk: '1'
-CMB: '1'
+BaseAtk: 1
+CMB: 1
 CMD: 13 (17 vs. trip)
 Feats:
   - Skill Focus (Escape Artist)
@@ -45,7 +44,6 @@ Description_Visual: >-
   This small goat has sharp horns that wrap around its head to point forward,
   making it resemble a tiny bull.
 Source: AP 91
-IsTemplate: '0'
 SpecialAbilities:
   - name: Egg Cracker (Ex)
     description: >-
@@ -78,16 +76,6 @@ Description:
   - >-
     4th-Level Advancement: Size Medium; Attack gore (1d6); Ability Scores Str
     +4, Dex -2, Con +2; Special Qualities egg cracker.
-CharacterFlag: '0'
-CompanionFlag: '1'
-Fly: '0'
-Climb: '0'
-Burrow: '0'
-Swim: '0'
-Land: '1'
-DontUseRacialHD: '0'
-id: '6773'
-UniqueMonster: '0'
-MR: '0'
-Mythic: '0'
-MT: '0'
+CompanionFlag: 1
+Land: 1
+id: 6773

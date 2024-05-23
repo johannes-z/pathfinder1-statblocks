@@ -1,22 +1,22 @@
 Name: Centipede Swarm
-CR: '4'
-XP: '1200'
+CR: 4
+XP: 1200
 Alignment: 'N'
 Size: Diminutive
 Type: vermin
 SubType: (swarm)
-Init: '4'
+Init: 4
 Senses:
   - darkvision 60 ft., tremorsense 30 ft.
   - Perception +4
 AC: 18, touch 18, flat-footed 14
 AC_Mods: (+4 Dex, +4 size)
-HP: '31'
+HP: 31
 HD: (9d8-9)
 Saves: Fort +5, Ref +7, Will +3
-Fort: '5'
-Ref: '7'
-Will: '3'
+Fort: 5
+Ref: 7
+Will: 3
 DefensiveAbilities: swarm traits
 Immune: weapon damage
 Speed: 30 ft., climb 30 ft.
@@ -32,7 +32,7 @@ AbilityScores:
   - null
   - 10
   - 2
-BaseAtk: '6'
+BaseAtk: 6
 CMB: '-'
 CMD: '-'
 Feats:
@@ -49,7 +49,6 @@ Description_Visual: >-
   deadly, undulating wave.
 Group: Centipede
 Source: PFRPG Bestiary
-IsTemplate: '0'
 SpecialAbilities:
   - name: Poison (Ex)
     description: >-
@@ -60,18 +59,8 @@ Description:
   - >-
     A centipede swarm seeks to surround and attack any living prey it
     encounters.
-CharacterFlag: '0'
-CompanionFlag: '0'
-Fly: '0'
-Climb: '1'
-Burrow: '0'
-Swim: '0'
-Land: '1'
+Climb: 1
+Land: 1
 AgeCategory: adult
-DontUseRacialHD: '0'
 LinkText: Centipede, Swarm
-id: '60'
-UniqueMonster: '0'
-MR: '0'
-Mythic: '0'
-MT: '0'
+id: 60

@@ -1,22 +1,22 @@
 Name: Globster
-CR: '5'
-XP: '1600'
+CR: 5
+XP: 1600
 Alignment: 'N'
 Size: Large
 Type: ooze
 SubType: (aquatic)
-Init: '-5'
+Init: -5
 Senses:
   - Perception -5
 Aura: stench (DC 18, 10 rounds)
 AC: 16, touch 4, flat-footed 16
 AC_Mods: (-5 Dex, +12 natural, -1 size)
-HP: '57'
+HP: 57
 HD: (6d8+30)
 Saves: Fort +7, Ref -3, Will -3
-Fort: '7'
-Ref: '-3'
-Will: '-3'
+Fort: 7
+Ref: -3
+Will: -3
 Immune: acid, bludgeoning and piercing damage, ooze traits
 Resist: cold 10, electricity 10
 Speed: 20 ft., swim 40 ft.
@@ -32,7 +32,7 @@ AbilityScores:
   - null
   - 1
   - 1
-BaseAtk: '4'
+BaseAtk: 4
 CMB: +11 (+15 grapple)
 CMD: 16 (can't be tripped)
 Skills:
@@ -45,7 +45,6 @@ Description_Visual: >-
   This grotesque mass of blubber and rancid flesh piles up hideously upon
   itself, opening a vast maw filled with teeth.
 Source: PFRPG Bestiary 3
-IsTemplate: '0'
 SpecialAbilities:
   - name: Create Spawn (Ex)
     description: >-
@@ -87,16 +86,6 @@ Description:
     Some say the tides and phases of the moon are to blame for the times
     globsters come to land to feed. Globsters reproduce by mixing parts of their
     own foul bodies with the poorly digested remains of their meals.
-CharacterFlag: '0'
-CompanionFlag: '0'
-Fly: '0'
-Climb: '0'
-Burrow: '0'
-Swim: '1'
-Land: '1'
-DontUseRacialHD: '0'
-id: '2080'
-UniqueMonster: '0'
-MR: '0'
-Mythic: '0'
-MT: '0'
+Swim: 1
+Land: 1
+id: 2080

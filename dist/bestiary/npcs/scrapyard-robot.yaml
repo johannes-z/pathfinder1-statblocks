@@ -1,24 +1,23 @@
 Name: Scrapyard Robot
-CR: '3'
-XP: '800'
+CR: 3
+XP: 800
 Race: Scrapyard Robot
 MonsterSource: 'Pathfinder Campaign Setting: Numeria, Land of Fallen Stars 58'
 Alignment: 'N'
 Size: Medium
 Type: construct
 SubType: (robot)
-Init: '-1'
+Init: -1
 Senses:
   - darkvision 60 ft., low-light vision
   - Perception +5
 AC: 14, touch 9, flat-footed 14
 AC_Mods: (-1 Dex, +5 natural)
-HP: '42'
+HP: 42
 HD: (4d10+20)
 Saves: Fort +1, Ref +0, Will +1
-Fort: '1'
-Ref: '0'
-Will: '1'
+Fort: 1
+Will: 1
 DefensiveAbilities: hardness 5
 Immune: construct traits
 Weaknesses: fall to pieces, vulnerable to critical hits, vulnerable to electricity
@@ -35,8 +34,8 @@ AbilityScores:
   - 5
   - 10
   - 1
-BaseAtk: '4'
-CMB: '7'
+BaseAtk: 4
+CMB: 7
 CMD: 16 (20 vs. trip)
 Feats:
   - Power Attack
@@ -49,7 +48,6 @@ Languages:
   - Hallit
 SQ: repair, staggered
 Source: AP 86
-IsTemplate: '0'
 SpecialAbilities:
   - name: Fall to Pieces (Ex)
     description: >-
@@ -88,18 +86,6 @@ DuringCombat: >-
   The robots flank foes when possible, but they attack anyone who attempts to
   damage or use the batteries themselves in preference to any other target.
 Morale: A scrapyard robot fights until destroyed.
-CharacterFlag: '0'
-CompanionFlag: '0'
-Fly: '0'
-Climb: '0'
-Burrow: '0'
-Swim: '0'
-Land: '1'
+Land: 1
 AgeCategory: Adult
-CompanionFamiliarLink: '0'
-id: '6324'
-UniqueMonster: '0'
-Variant: '0'
-MR: '0'
-Mythic: '0'
-MT: '0'
+id: 6324

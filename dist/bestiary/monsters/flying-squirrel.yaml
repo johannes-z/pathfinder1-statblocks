@@ -1,21 +1,21 @@
 Name: Flying Squirrel
 CR: 1/3
-XP: '135'
+XP: 135
 Alignment: 'N'
 Size: Tiny
 Type: animal
-Init: '2'
+Init: 2
 Senses:
   - low-light vision
   - Perception +1
 AC: 14, touch 14, flat-footed 12
 AC_Mods: (+2 Dex, +2 size)
-HP: '3'
+HP: 3
 HD: (1d8-1)
 Saves: Fort +1, Ref +4, Will +1
-Fort: '1'
-Ref: '4'
-Will: '1'
+Fort: 1
+Ref: 4
+Will: 1
 Speed: 20 ft., fly 40 ft. (clumsy)
 Melee:
   - bite +4 (1d3-4)
@@ -28,8 +28,6 @@ AbilityScores:
   - 1
   - 12
   - 6
-BaseAtk: '0'
-CMB: '0'
 CMD: 6 (10 vs. trip)
 Feats:
   - AcrobaticB
@@ -52,7 +50,6 @@ Description_Visual: >-
   modify Climb and Swim skill checks.
 Group: Familiar
 Source: PFRPG Bestiary 3
-IsTemplate: '0'
 SpecialAbilities:
   - name: Glide (Ex)
     description: >-
@@ -64,16 +61,6 @@ Description:
     Although not capable of actual flight, a flying squirrel possesses a furry
     membrane stretching between its wrists and ankles, allowing it to glide for
     long distances.
-CharacterFlag: '0'
-CompanionFlag: '0'
-Fly: '1'
-Climb: '0'
-Burrow: '0'
-Swim: '0'
-Land: '1'
-DontUseRacialHD: '0'
-id: '2058'
-UniqueMonster: '0'
-MR: '0'
-Mythic: '0'
-MT: '0'
+Fly: 1
+Land: 1
+id: 2058

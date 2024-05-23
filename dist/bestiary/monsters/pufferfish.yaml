@@ -1,22 +1,22 @@
 Name: Pufferfish
 CR: 1/4
-XP: '100'
+XP: 100
 Alignment: 'N'
 Size: Tiny
 Type: animal
 SubType: (aquatic)
-Init: '2'
+Init: 2
 Senses:
   - low-light vision
   - Perception +5
 AC: 14, touch 14, flat-footed 12
 AC_Mods: (+2 Dex, +2 size)
-HP: '6'
+HP: 6
 HD: (1d8+2)
 Saves: Fort +4, Ref +4, Will +1
-Fort: '4'
-Ref: '4'
-Will: '1'
+Fort: 4
+Ref: 4
+Will: 1
 DefensiveAbilities: spines
 Speed: swim 20 ft.   MELEE
 Space: 2-1/2 ft.
@@ -29,9 +29,7 @@ AbilityScores:
   - 1
   - 12
   - 9
-BaseAtk: '0'
-CMB: '0'
-CMD: '7'
+CMD: 7
 Feats:
   - Agile Maneuvers
 Skills:
@@ -45,7 +43,6 @@ Description_Visual: >-
   colored spikes protruding from its round body.
 Group: Familiar
 Source: Familiar Folio
-IsTemplate: '0'
 SpecialAbilities:
   - name: Poison (Ex)
     description: >-
@@ -75,16 +72,5 @@ Description:
     capable of reliably distinguishing the poisonous parts of the pufferfish
     from the nontoxic parts are highly prized by members of Tian nobility.
   - Master's Special Ability +2 bonus on Fortitude saves
-CharacterFlag: '0'
-CompanionFlag: '0'
-Fly: '0'
-Climb: '0'
-Burrow: '0'
-Swim: '1'
-Land: '0'
-DontUseRacialHD: '0'
-id: '6728'
-UniqueMonster: '0'
-MR: '0'
-Mythic: '0'
-MT: '0'
+Swim: 1
+id: 6728

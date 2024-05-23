@@ -1,22 +1,22 @@
 Name: Myrmidon Robot
-CR: '11'
-XP: '12800'
+CR: 11
+XP: 12800
 Alignment: 'N'
 Size: Large
 Type: construct
 SubType: (robot)
-Init: '6'
+Init: 6
 Senses:
   - darkvision 60 ft., low-light vision, superior optics
   - Perception +20
 AC: 25, touch 11, flat-footed 23
 AC_Mods: (+2 Dex, +14 natural, -1 size)
-HP: '167'
+HP: 167
 HD: (15d10+30 plus 55 hp force shield)
 Saves: Fort +10, Ref +12, Will +10
-Fort: '10'
-Ref: '12'
-Will: '10'
+Fort: 10
+Ref: 12
+Will: 10
 DefensiveAbilities: hardness 10, resilient
 Immune: cold, construct traits
 Weaknesses: vulnerable to critical hits, vulnerable to electricity
@@ -35,7 +35,7 @@ AbilityScores:
   - 12
   - 14
   - 1
-BaseAtk: '15'
+BaseAtk: 15
 CMB: +24 (+28 grapple)
 CMD: 36 (can't be tripped)
 Feats:
@@ -62,7 +62,6 @@ Description_Visual: >-
   with eerie grace via blasts of fire from its back.
 Group: Robot
 Source: Inner Sea Bestiary
-IsTemplate: '0'
 SpecialAbilities:
   - name: Combined Arms (Ex)
     description: >-
@@ -111,16 +110,6 @@ Description:
     success in reprogramming myrmidons to submit to their control, with most
     such attempts resulting in devastating backlashes as the robots run amok
     until destroyed.
-CharacterFlag: '0'
-CompanionFlag: '0'
-Fly: '1'
-Climb: '0'
-Burrow: '0'
-Swim: '0'
-Land: '1'
-DontUseRacialHD: '0'
-id: '6281'
-UniqueMonster: '0'
-MR: '0'
-Mythic: '0'
-MT: '0'
+Fly: 1
+Land: 1
+id: 6281
