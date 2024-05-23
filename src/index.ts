@@ -1,10 +1,9 @@
 import { dump } from 'js-yaml'
-import { tsv2JSON } from './utils/tsv2JSON'
-import { kebabize } from './utils/kebabize'
 import { extractSpecialAbilities } from './extractSpecialAbilities'
 import { extractSpells } from './extractSpells'
-import { mergeMonsters } from './mergeMonsters'
 import type { Monster, MonsterRaw } from './types'
+import { kebabize } from './utils/kebabize'
+import { tsv2JSON } from './utils/tsv2JSON'
 
 function saveMonster(filename: string, monster: Monster, destination: string) {
   const target = Bun.file(`${destination}/${filename}.yaml`)
