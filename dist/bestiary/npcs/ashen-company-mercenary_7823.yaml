@@ -1,0 +1,88 @@
+Name: Ashen Company Mercenary
+CR: '2'
+XP: '600'
+Race: Duergar
+Class: warrior 4
+MonsterSource: Pathfinder RPG Bestiary 117
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '-1'
+Senses:
+  - darkvision 120 ft.
+  - Perception +5
+AC: 15, touch 9, flat-footed 15
+AC_Mods: (+6 armor, -1 Dex)
+HP: '30'
+HD: (4d10+8)
+Saves: Fort +6, Ref +0, Will +2; +2 vs. spells and spell-like abilities
+Fort: '6'
+Ref: '0'
+Will: '2'
+Save_Mods: +2 vs. spells and spell-like abilities
+Immune: paralysis, phantasms, poison
+Weaknesses: light sensitivity
+Speed: 20 ft.
+Melee:
+  - mwk warhammer +8 (1d8+3/x3)
+Ranged:
+  - mwk heavy crossbow +4 (1d10/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +2)
+  values:
+    - label: 1/day
+      value: enlarge person (self only), invisibility (self only)
+AbilityScores:
+  - 14
+  - 8
+  - 14
+  - 9
+  - 12
+  - 7
+BaseAtk: '4'
+CMB: '6'
+CMD: 15 (19 vs. bull rush and trip)
+Feats:
+  - Point-Blank Shot
+  - Weapon Focus (warhammer)
+Skills:
+  - Acrobatics -5 (-9 when jumping)
+  - Handle Animal +3
+  - Perception +5
+  - Stealth -1
+  - Survival +3
+RacialMods: +4 Stealth
+Languages:
+  - Common
+  - Dwarven
+  - Undercommon
+Source: Down The Blighted Path
+IsTemplate: '0'
+BeforeCombat: >-
+  If they hear danger approaching, the duergar mercenaries each use enlarge
+  person.
+DuringCombat: >-
+  The duergar mercenaries are unsophisticated combatants, firing with their
+  crossbows until opponents close with them, then switching to their hammers.
+Morale: >-
+  If reduced to fewer than 8 hit points, the mercenaries activate their
+  invisibility spell-like ability and flee back to their camp (see encounter F).
+OtherGear: mwk chainmail, mwk heavy crossbow, mwk warhammer, 18 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7823'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -4,6 +4,7 @@ XP: '2400'
 Alignment: NG
 Size: Tiny
 Type: fey
+SubType: (swarm)
 Init: '4'
 Senses:
   - low-light vision
@@ -17,14 +18,22 @@ Fort: '6'
 Ref: '11'
 Will: '8'
 DR: 5/cold iron
+Immune: swarm traits
 SR: '17'
+Weaknesses: swarm traits
 Speed: 20 ft., fly 40 ft. (poor)
 Melee:
   - swarm (2d6)
 Space: 10 ft.
 Reach: 0 ft.
 SpecialAttacks: distraction (DC 16), fiddle
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: 3/day
+      value: >-
+        disguise self, entangle (DC 13), invisibility (self only), pyrotechnics
+        (DC 14), ventriloquism (DC 13)
 AbilityScores:
   - 5
   - 18
@@ -59,9 +68,16 @@ Treasure: none
 Description_Visual: >-
   Winged man-shaped creatures with blue skin and cricket legs buzz about in a
   dense mass both hypnotic and frightening.
+Group: Grig
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Fiddle (Su)
+    description: >-
+      The grigs that make up a grig swarm carry tiny, grig-sized fiddles. When
+      the fiddlers play, any non-sprite within 30 feet of the instruments must
+      make a successful DC 17 Will save or be affected as though by irresistible
+      dance for as long as the playing continues. The save DC is Charisma-based.
 Description:
   - >-
     A grig swarm is a large mass of flying grigs. Normally grigs don't gather
@@ -86,15 +102,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Grig
 id: '3044'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (swarm)
-Immune: swarm traits
-Weaknesses: swarm traits
-Group: Grig
-SpellsKnown: {}

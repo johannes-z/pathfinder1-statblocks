@@ -17,16 +17,15 @@ Saves: Fort +12, Ref +6, Will +14
 Fort: '12'
 Ref: '6'
 Will: '14'
-DefensiveAbilities: ferocity
 Speed: 50 ft. (35 ft. in armor)
 Melee:
-  - >-
-    mwk greatclub +24/+19/+14 (3d8+19), gore +18 (1d8+6) or gore +23 (1d8+13), 2
-    slams +23 (2d6+13)
+  - mwk greatclub +24/+19/+14 (3d8+19), gore +18 (1d8+6)
+  - gore +23 (1d8+13), 2 slams +23 (2d6+13)
 Ranged:
   - rock +12 (2d6+19)
 Space: 15 ft.
 Reach: 15 ft.
+SpecialAttacks: powerful charge (gore, 4d8+24), rock throwing (120 ft.)
 AbilityScores:
   - 36
   - 13
@@ -49,7 +48,6 @@ Feats:
   - Sickening Critical
 Skills:
   - Perception +22
-RacialMods: +8 Perception
 Languages:
   - Common
   - Cyclops
@@ -61,9 +59,18 @@ Treasure: standard (masterwork greatclub, hide armor, other treasure)
 Description_Visual: >-
   This misshapen but incredibly muscular humanoid has a single huge bloodshot
   eye set under a short, jagged horn on its brow.
+Group: Cyclops
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Flash of Brutality (Su)
+    description: >-
+      Once per day as a swift action, a great cyclops can gain a burst of savage
+      of inspiration. When it does, it doubles the threat range of all weapons,
+      natural attacks, and rock attacks it makes until the start of its next
+      turn. Furthermore, once per day, when the great cyclops reaches 0 or fewer
+      hit points and is conscious because of its Diehard feat, this ability
+      recharges, allowing it to use the ability a second time that same day.
 Description:
   - >-
     Degenerate giants of cyclops-kind, the legendary great cyclopes embody the
@@ -95,18 +102,9 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Cyclops
 id: '2008'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: powerful charge (gore, 4d8+24), rock throwing (120 ft.)
-Group: Cyclops
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

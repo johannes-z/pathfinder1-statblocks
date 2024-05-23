@@ -21,6 +21,7 @@ Melee:
   - bite +17 (2d10+10 plus grab)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: swallow whole (1d8+7 plus 1d8 acid damage, AC 14, 10 hp), vorpal bite
 AbilityScores:
   - 24
   - 16
@@ -52,6 +53,13 @@ Description_Visual: >-
 Group: Lizard
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Vorpal Bite (Ex)
+    description: >-
+      If the gnasher lizard rolls a natural 20 on its attack roll, and
+      subsequently confirms the critical hit, it severs the head of its
+      opponent. This attack is effective on creatures up to one size larger than
+      the gnasher lizard.
 Description:
   - >-
     The gnasher is a deadly predator that often roams up to 3 miles from its
@@ -96,14 +104,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Lizard, Common
 id: '2786'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: swallow whole (1d8+7 plus 1d8 acid damage, AC 14, 10 hp), vorpal bite
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

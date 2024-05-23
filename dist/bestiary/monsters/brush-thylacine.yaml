@@ -38,6 +38,7 @@ Skills:
   - Acrobatics +6 (+10 jumping)
   - Perception +8
   - Stealth +6
+RacialMods: +4 Acrobatics when jumping
 SQ: powerful jaws
 Environment: temperate forest
 Organization: solitary or pack (2-5)
@@ -50,7 +51,6 @@ Description_Visual: >-
 Group: Thylacine
 Source: AP 31
 IsTemplate: '0'
-SpecialAbilities: {}
 Description:
   - >-
     Thylacines are large marsupial carnivores. They typically hunt alone, only
@@ -134,9 +134,6 @@ Description:
     13, Cha 7; Special Qualities low-light vision, powerful jaws. 4th-Level
     Advancement: Size Medium; AC +2 natural armor; Attack bite (1d6); Ability
     Scores Str +4, Dex -2, Con +4.
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '1'
 Fly: '0'
@@ -144,15 +141,10 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '0'
-BaseStatistics: 'NULL'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '531'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-RacialMods: +4 Acrobatics when jumping
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -18,12 +18,12 @@ Saves: Fort +7, Ref +5, Will +4
 Fort: '7'
 Ref: '5'
 Will: '4'
+Weaknesses: fear of fire, vulnerable to fire
 Speed: 30 ft., climb 10 ft.
 Melee:
   - bite +5 (1d4+3), 2 claws +5 (1d4+3)
 Space: 10 ft.
 Reach: 10 ft. (15 ft. with claws)
-SpecialAttacks: rend (2 claws, 1d6+7)
 AbilityScores:
   - 16
   - 19
@@ -43,16 +43,31 @@ Skills:
   - Intimidate +5
   - Perception +5
   - Stealth +5 (+9 in vegetation)
+RacialMods: +2 Acrobatics, +4 Stealth (+8 in vegetation)
 Languages:
   - Giant
+SQ: change shape (mossy tree; tree shape), tree climber
 Environment: cold or temperate forests
 Organization: solitary, gang (2-3), or troop (4-8)
 Treasure: standard
 Description_Visual: >-
   This large and lanky moss-colored humanoid has an elongated, toothy snout and
   appears to be covered in bits of foliage.
+Group: Troll
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Fear of Fire (Ex)
+    description: >-
+      A moss troll is shaken as long as it is within 30 feet of a visible fire
+      or an open flame of at least torch size.
+  - name: Tree Climber (Ex)
+    description: >-
+      When climbing trees and other foliage, a moss troll's climb speed
+      increases to 30 feet. If a moss troll falls while climbing in trees, it
+      ignores the first 30 feet it falls for the purposes of calculating total
+      damage from the fall. While climbing in trees, a moss troll gains a +4
+      racial bonus on initiative checks.
 Description:
   - >-
     Moss trolls are bent and gangly creatures. They are smaller and thinner than
@@ -89,21 +104,9 @@ Climb: '1'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Troll
 id: '2217'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Weaknesses: fear of fire, vulnerable to fire
-RacialMods: +2 Acrobatics, +4 Stealth (+8 in vegetation)
-SQ: change shape (mossy tree; tree shape), tree climber
-Group: Troll
-SpecialAbilities: {}
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

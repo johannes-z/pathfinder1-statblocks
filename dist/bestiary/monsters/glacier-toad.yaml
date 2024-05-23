@@ -4,10 +4,12 @@ XP: '2400'
 Alignment: 'N'
 Size: Large
 Type: magical beast
+SubType: (cold)
 Init: '1'
 Senses:
   - low-light vision, scent
   - Perception +11
+Aura: bitter cold (20 ft.)
 AC: 19, touch 10, flat-footed 18
 AC_Mods: (+1 Dex, +9 natural, -1 size)
 HP: '73'
@@ -16,9 +18,14 @@ Saves: Fort +10, Ref +8, Will +3
 Fort: '10'
 Ref: '8'
 Will: '3'
+Immune: cold
+Weaknesses: vulnerable to fire
 Speed: 30 ft., swim 15 ft.
+Melee:
+  - bite +13 (2d6+9 plus 1d6 cold and grab)
 Space: 10 ft.
 Reach: 10 ft.
+SpecialAttacks: swallow whole (1d4 bludgeoning and 1d6 cold, AC 14, 7 hp)
 AbilityScores:
   - 23
   - 13
@@ -40,6 +47,8 @@ Skills:
   - Stealth +6 (+14 in snow)
   - Swim +14
 RacialMods: +4 Acrobatics, (+8 jumping), +4 Stealth (+12 in snow)
+Languages:
+  - Aklo
 Environment: cold hills or glaciers
 Organization: solitary, pair, or knot (3-12)
 Treasure: standard
@@ -49,6 +58,11 @@ Description_Visual: >-
 Group: Toad
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Bitter Cold (Su)
+    description: >-
+      All creatures within 20 feet of a glacier toad take 1d6 points of cold
+      damage each round on the toad's turn.
 Description:
   - >-
     Glacier toads are strange, magical cousins of the more common giant toads.
@@ -64,22 +78,9 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Glacier Toad
 id: '1377'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Melee:
-  - bite +13 (2d6+9 plus 1d6 cold and grab)
-Languages:
-  - Aklo
-SubType: (cold)
-Aura: bitter cold (20 ft.)
-Immune: cold
-Weaknesses: vulnerable to fire
-SpecialAttacks: swallow whole (1d4 bludgeoning and 1d6 cold, AC 14, 7 hp)
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

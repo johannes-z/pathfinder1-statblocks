@@ -1,0 +1,124 @@
+Name: Shadow Demon
+CR: '7'
+XP: '3200'
+Alignment: CE
+Size: Medium
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar,
+Init: '8'
+Senses:
+  - darkvision 60 ft.
+  - Perception +20
+AC: 18, touch 18, flat-footed 14
+AC_Mods: (+4 deflection, +4 Dex)
+HP: '59'
+HD: (7d10+21)
+Saves: Fort +5, Ref +11, Will +7
+Fort: '5'
+Ref: '11'
+Will: '7'
+DefensiveAbilities: incorporeal
+DR: 10/cold iron or good
+Immune: cold, electricity, poison
+Resist: acid 10, fire 10
+SR: '17'
+Weaknesses: sunlight powerlessness
+Speed: fly 40 ft. (perfect)
+Melee:
+  - 2 claws +11 touch (1d6 plus 1d6 cold), bite +11 touch (1d8 plus 1d6 cold)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: pounce, sprint, shadow blend
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 10th)
+  values:
+    - label: At will
+      value: >-
+        deeper darkness, fear (DC 18), greater teleport (self only), telekinesis
+        (DC 19)
+    - label: 3/day
+      value: shadow conjuration (DC 18), shadow evocation (DC 19)
+    - label: 1/day
+      value: magic jar (DC 19), summon (level 3, 1 shadow demon 50%)
+AbilityScores:
+  - null
+  - 18
+  - 17
+  - 14
+  - 14
+  - 19
+BaseAtk: '7'
+CMB: '11'
+CMD: '25'
+Feats:
+  - Blind-Fight
+  - Combat Reflexes
+  - Improved Initiative
+  - Lightning Reflexes,
+Skills:
+  - Acrobatics +14
+  - Bluff +14
+  - Fly +22
+  - Knowledge (local) +12
+  - Knowledge (planes) +12
+  - Perception +20
+  - Sense Motive +12
+  - Stealth +14
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Common
+  - telepathy 100 ft.
+Environment: any (Abyss)
+Organization: solitary, pair, or haunt (3-8)
+Treasure: standard
+Description_Visual: >-
+  Only this shadowy bat-winged demon's teeth and claws have any sense of
+  physicality to them-the rest is lost in darkness.
+Group: Demon
+Source: PFRPG Bestiary
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Sprint (Ex)
+    description: >-
+      Once per minute, a shadow demon increase its fly speed to 240 feet for 1
+      round.
+  - name: Shadow Blend (Su)
+    description: >-
+      During any conditions other than bright light, a shadow demon can
+      disappear into the shadows as a moveequivalent action, effectively
+      becoming invisible. Artificial illumination or light spells of 2nd level
+      or lower do not negate this ability.
+  - name: Sunlight Powerlessness (Ex)
+    description: >-
+      A shadow demon is utterly powerless in bright light or natural sunlight
+      and flees from it. A shadow demon caught in such light cannot attack and
+      can take only a single move or standard action. A shadow demon that is
+      possessing a creature using magic jar is not harmed by sunlight, but if it
+      is struck by a sunbeam or sunburst spell while possessing a creature, the
+      shadow demon is driven out of its host automatically.
+Description:
+  - >-
+    Tales of demonic possession are common, used often by the ignorant to
+    explain strange or violent behavior. While the majority of such cases are
+    merely manifestations of madness or derangement, those that are legitimate
+    possessions are often the work of shadow demons. Unlike many demons, shadow
+    demons are incorporeal. When a particularly envious and evil mortal soul is
+    pulled into the Abyss, it is transformed, split apart, and combined with
+    other souls until what emerges is little more than jealous malevolence
+    without the impediment of a physical body.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+LinkText: Demon, Shadow
+id: '721'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

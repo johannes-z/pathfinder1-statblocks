@@ -26,7 +26,13 @@ Ranged:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: hatred, sneak attack +1d6
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 2nd)
+  values:
+    - label: At will
+      value: prestidigitation
+    - label: 1/day
+      value: doom (DC 11)
 AbilityScores:
   - 8
   - 17
@@ -48,16 +54,25 @@ Skills:
 RacialMods: +4 Sleight of Hand, +4 Stealth
 Languages:
   - Aklo (cannot speak)
-SQ: vermin empathy +4
 Environment: any underground
 Organization: solitary or squad (2-8)
 Treasure: standard
 Description_Visual: >-
   This creature is a rather ugly humanoid about 2 feet tall. It has long pointed
   ears and a large round nose. Its skin is grayish-brown.
+Group: Mite
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Hatred (Ex)
+    description: >-
+      Pesties receive a +1 bonus on attack rolls against creatures with the
+      dwarf or gnome subtype due to special training against these hated foes.
+  - name: Sneak Attack (Ex)
+    description: >-
+      Pesties have a sneak attack for +1d6 damage that is identical to the rogue
+      ability. This ability stacks with any sneak attack damage that a pestie
+      gains through taking rogue levels.
 Description:
   - >-
     Pesties are the larger, stealthier cousin of the mites. They lack the fangs
@@ -112,11 +127,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '2832'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Mite
-SpellsKnown: {}

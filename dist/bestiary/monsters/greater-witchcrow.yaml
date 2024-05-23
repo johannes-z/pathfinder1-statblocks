@@ -22,7 +22,18 @@ Melee:
   - 2 talons +7 (1d6+1)
 Space: 5 ft.
 Reach: 5 ft.
-SpellLikeAbilities: {}
+SpecialAttacks: hexesAPG (cackle, evil eye [-2, 6 rounds], misfortune [1 round])
+SpellLikeAbilities:
+  header: >-
+    Spell-Like Abilities (CL 5th; concentration +8; save DCs are
+    Intelligence-based)
+  values:
+    - label: Constant
+      value: detect magic, speak with animals (birds only)
+    - label: 3/day
+      value: perceive cuesAPG, vanishAPG, ventriloquism (DC 14)
+    - label: 1/day
+      value: ill omenAPG, mirror image
 AbilityScores:
   - 12
   - 17
@@ -54,14 +65,38 @@ Languages:
   - Auran
   - Common
   - speak with animals (birds only)
+SQ: apportation
 Environment: cold and temperate forests and plains
 Organization: solitary, pair, covey (3-12), or murder (13-30)
 Treasure: standard
 Description_Visual: >-
   With a raucous cry and a flurry of feathered wings, this jet-black bird takes
   to the air, an unnatural gleam in its otherworldly eyes.
+Group: Witchcrow
 Source: AP 67
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Apportation (Su)
+    description: >-
+      In large enough groupings (such as a murder), greater witchcrows can
+      perform a cooperative form of magic once per day to open a glowing ring in
+      one place leading to somewhere else on the planet. This always entails a
+      raucous aerial ritual, usually centered on those that wish to make use of
+      this ability. The ritual functions like a teleportation circle (CL 17th),
+      except it requires 1 minute of uninterrupted casting time, the circle
+      doesn't need to be placed on a horizontal surface, and it is not invisible
+      or hard to detect. After coming into existence, the edges of the circle
+      glow and the effect stays in place for 1 minute. Most witchcrows loathe
+      using this power, but some offer it as a service to those in need of quick
+      travel, demanding a high price for such assistance-usually something in
+      the bargainer's possession that is cherished, extremely valuable, and
+      almost always magical.
+  - name: Hexes (Su)
+    description: >-
+      A greater witchcrow uses hexes as a 5th-level witch. Invariably, these
+      abilities include the cackle, evil eye, and misfortune hexes, and require
+      a successful DC 15 Will save to negate or resist. Witchcrow cackling
+      proves especially unnerving as it sounds like extremely mocking cawing.
 Description:
   - >-
     The dreaded witchcrow, renowned as a harbinger of ill deeds and misfortune,
@@ -148,14 +183,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '4028'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: hexesAPG (cackle, evil eye [-2, 6 rounds], misfortune [1 round])
-SQ: apportation
-Group: Witchcrow
-SpecialAbilities: {}
-SpellsKnown: {}

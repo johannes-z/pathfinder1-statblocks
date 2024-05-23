@@ -29,7 +29,7 @@ SpecialAttacks: dark fury, manifestation, superior two-weapon fighting
 AbilityScores:
   - 18
   - 18
-  - —
+  - null
   - 14
   - 16
   - 22
@@ -62,9 +62,72 @@ Description_Visual: >-
   A figure materializes out of the surrounding shadows. It has the black cloak
   and cowl of a monk, floating in the air with no visible body. Menacing green
   eyes glare from inside the dark hood.
+Group: Cimota
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Dark Fury (Su)
+    description: >-
+      As a free action a high cimota may generate a field of negative energy in
+      the form of black lightning. A high cimota may use this power at the start
+      of combat and every 1d3 rounds thereafter. This field of energy may take
+      the form of black lightning either in a 20 ft. radius ball around the high
+      cimota or as a 100 foot line extending from the high cimota's invisible
+      fingertips. Dark fury inflicts 6d6 negative energy damage on any living
+      creature in its area of effect unless it succeeds on a DC 19 Reflex save.
+      This save is charisma based. Undead, constructs and other non-living
+      objects are not affected by dark fury.
+  - name: Displacement (Su)
+    description: >-
+      Cimota manifest on the Prime Material Plane as a shifting cloud of shadows
+      that coalesce into their cloaked and hooded forms. On any round that a
+      cimota first manifests (see below), its shifting forms affect it as a
+      displacement spell. Attacks on a cimota at this time have a 50% miss
+      chance as if the cimota had total concealment. Unlike actual total
+      concealment, this displacement does not prevent enemies from targeting a
+      cimota normally. This effect is canceled one round after a cimota
+      manifests, or if a cimota takes any action in its new locale.
+  - name: Manifestation (Su)
+    description: >-
+      As a standard action, a cimota can transport itself via planar travel from
+      any point on the Prime Material Plane to another point within its defined
+      area, or within 300 feet of the artifact to which it is bound. A cimota
+      may also lurk on the Negative Material Plane, prepared to manifest on the
+      Prime Material if certain conditions are met, such as trespassers entering
+      the area they are doomed to guard. A cimota cannot attack or move in the
+      same round in which it manifests, although it may manifest as partial
+      surprise action before initiative. A cimota benefits from displacement
+      (see above) on the round in which it first manifests.
+  - name: Lifesense (Su)
+    description: >-
+      A cimota notices and locates living creatures within 60 feet, just as if
+      it possessed the blindsight ability. Superior Two-Weapon
+  - name: Fighting (Ex)
+    description: >-
+      A black skeleton usually fights with a short sword in each hand. Because
+      of its magical nature, its Two-Weapon Fighting feat allows it to attack
+      with both weapons at no penalty.
+  - name: Unholy Existence (Su)
+    description: >-
+      Although it is possible to temporarily destroy a cimota's physical form,
+      it will return in 1d6 days, manifesting again to continue its unholy
+      existence. The only way to permanently destroy a cimota is to disrupt its
+      existence by consecrating the ground to which it is tied or the
+      destruction of the artifact to which it is bound. Sometimes, significant
+      alteration of an unholy place, such as demolition of an evil temple or
+      burning a haunted forest, could cause cimota to fade away permanently.
+      Although their physical forms may be damaged by normal attacks, their
+      unholy existence grants them spell resistance 17. Because cimota exist
+      partially on the Negative Material Plane they are subject to banishment or
+      other spells that affect outsiders.
+  - name: Unnatural Aura (Su)
+    description: >-
+      Animals do not willingly approach within 30 feet of a cimota unless a
+      master makes a DC 25 Handle Animal, Ride, or wild empathy check. This aura
+      takes effect when a cimota manifests on the Prime Material Plane. Animals
+      that come within 30 feet of a place where cimota are lurking on the
+      Negative Material Plane, or an artifact to which a cimota is bound; Will
+      be uneasy and show signs of disquiet.
 Description:
   - >-
     Cimota are the physical manifestations of evil thoughts and actions. They
@@ -112,8 +175,6 @@ Description:
   - >-
     Originally appearing in The Black Monastery (© Frog God Games/ Mark R.
     Shipley, 2011)
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '1'
@@ -123,14 +184,8 @@ Swim: '0'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '4766'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Cimota
-SpellLikeAbilities: {}
-SpellsKnown: {}

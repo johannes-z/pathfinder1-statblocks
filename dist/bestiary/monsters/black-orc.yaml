@@ -6,6 +6,7 @@ Class: warrior 1
 Alignment: CE
 Size: Medium
 Type: humanoid
+SubType: (orc)
 Init: '1'
 Senses:
   - darkvision 60 ft.
@@ -18,8 +19,9 @@ Saves: Fort +4, Ref +1, Will -1; +4 vs. undead attacks
 Fort: '4'
 Ref: '1'
 Will: '-1'
+Save_Mods: +4 vs. undead attacks
 DefensiveAbilities: blessing of Orcus, ferocity
-Weaknesses: light sensitivity
+DR: 1/-
 Speed: 20 ft.
 Melee:
   - longspear +5 (1d8+6/x3)
@@ -44,7 +46,6 @@ Skills:
 Languages:
   - Common
   - Orc
-SQ: weapon familiarity
 Environment: temperate hills and mountains
 Organization: >-
   gang (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th
@@ -53,8 +54,14 @@ Organization: >-
   bands plus 1 10th-12th level chieftain)
 Treasure: standard
 Description_Visual: This creature resembles a 7-foot tall orc with bluish-black skin and red eyes.
+Group: Orc
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Blessing of Orcus (Su)
+    description: >-
+      Black orcs gain a +4 racial bonus on all saving throws made to resist any
+      attack or effect created by an undead creature.
 Description:
   - >-
     Fully a head taller than an ordinary orc these foul brutes have been known
@@ -95,6 +102,7 @@ Description:
     name as a martial weapon. Languages: Black orcs begin play speaking Common
     and Orc. Black Orcs with high Intelligence scores can choose from the
     following languages: Abyssal, Dwarven, Giant, Gnoll, Goblin, Undercommon.
+Gear: scale mail, longspear, light crossbow, 10 bolts
 CharacterFlag: '1'
 CompanionFlag: '0'
 Fly: '0'
@@ -104,19 +112,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Orc
+AlternateNameForm: Black Orc of Orcus
 id: '2920'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (orc)
-Save_Mods: +4 vs. undead attacks
-DR: 1/-
-Group: Orc
-SpecialAbilities: {}
-Gear: scale mail, longspear, light crossbow, 10 bolts
-AlternateNameForm: Black Orc of Orcus
-SpellLikeAbilities: {}
-SpellsKnown: {}

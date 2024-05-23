@@ -48,9 +48,30 @@ Treasure: standard
 Description_Visual: >-
   This creature looks like a thick-bodied reptile with eight legs. Its eyes glow
   with an eerie, pale green incandescence.
+Group: Basilisk
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Foul Breath (Ex)
+    description: >-
+      A greater basilisk's breath is extremely foul. Any creature in a space
+      directly in front of a greater basilisk must succeed on a DC 18 Fortitude
+      save or take 1d4 points of Constitution damage each round they remain in
+      the area. A creature that successfully saves cannot be affected by the
+      breath of the same greater basilisk for 24 hours. The save DC is
+      Constitution-based.
+  - name: Gaze (Ex)
+    description: >-
+      Turn to stone permanently (as stone to flesh), range 30 feet, Fortitude DC
+      18 negates. A creature petrified in this manner that is then coated (not
+      just splashed) with fresh basilisk blood (taken from a basilisk no more
+      that 1 hour dead) is instantly restored to flesh. A single greater
+      basilisk contains enough blood to coat 1d4 Medium creatures in this
+      manner. The save DC is Constitution-based.
+  - name: Poison (Ex)
+    description: >-
+      Claw-injury; save Fort DC 18; frequency 1/ round for 6 rounds; effect 1d3
+      Con; cure 1 save.
 Description:
   - >-
     A larger and meaner cousin of the normal basilisk, the greater basilisk is a
@@ -76,17 +97,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Basilisk
 id: '2250'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Basilisk
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-BaseStatistics: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

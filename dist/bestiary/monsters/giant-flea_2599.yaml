@@ -1,0 +1,110 @@
+Name: Giant Flea
+CR: 1/2
+XP: '200'
+Alignment: 'N'
+Size: Tiny
+Type: vermin
+Init: '4'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 17, touch 16, flat-footed 13
+AC_Mods: (+4 Dex, +1 natural, +2 size)
+HP: '5'
+HD: (1d8+1)
+Saves: Fort +3, Ref +4, Will +0
+Fort: '3'
+Ref: '4'
+Will: '0'
+Immune: mind-affecting effects
+Speed: 20 ft.
+Melee:
+  - touch +6 (1d2-2 plus blood drain)
+Space: 2 1/2 ft.
+Reach: 0 ft.
+SpecialAttacks: attach, blood drain, disease
+AbilityScores:
+  - 6
+  - 18
+  - 12
+  - null
+  - 11
+  - 2
+BaseAtk: '0'
+CMB: +2 (+10 grapple)
+CMD: 22 (30 vs. trip)
+Feats:
+  - Weapon FinesseB
+Skills:
+  - Acrobatics +4 (+24 to jump)
+RacialMods: +20 to Acrobatics checks to jump
+SQ: crowd
+Environment: any temperate and warm and underground
+Organization: cluster (6-10) or swarm (20-40)
+Treasure: none
+Description_Visual: >-
+  A monstrously sized insect with a narrow, oval-shaped carapace leaps forward,
+  lashing its slender hooked legs.
+Group: Flea
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Attach (Ex)
+    description: >-
+      If a giant flea hits with a touch attack, it uses its many legs to attach
+      itself to the opponent's body. While attached the giant flea loses its
+      Dexterity bonus to AC and has an AC of 13. It gains a +12 racial bonus to
+      CMD checks while attached. An attached flea can be struck with a weapon or
+      removed by an opposed CMB attack to pluck it free. On a critical failure
+      (a roll of 1) the flea's head snaps off in the victim and continues to
+      drain blood for 1d8 more rounds. The head can be removed with a successful
+      DC 18 Heal check.
+  - name: Blood Drain (Ex)
+    description: >-
+      A giant flea drains blood, dealing 1d3 points of Constitution damage in
+      any round it begins its turn attached to a victim. Once it has dealt 4
+      points of Constitution damage, it detaches and leaps away to digest the
+      meal. At Constitution 0 the host dies and the giant flea detaches. If it
+      has yet to deal 4 points of Constitution damage, it seeks a new host.
+  - name: Crowd (Ex)
+    description: >-
+      Because of their tiny size, up to four giant fleas can occupy the same
+      5-foot space.
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Bite-injury; save Fort DC 11; onset 1d3 days; frequency
+      1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
+      The save DC is Constitution-based.
+Description:
+  - >-
+    Giant fleas are blood-sucking parasites that prey on warm-blooded animals.
+    They have strong hind legs with powerful tendons that allow them to leap
+    incredible distances with ease. A giant flea is about a foot long, with an
+    oval, flattened body. This shape makes it easy for a giant flea to move in
+    and among the hairs of large mammals. When lacking mammals large enough for
+    them to feed on, giant fleas live in swarms of up to twenty individuals.
+    These swarms wander at random, seeking prey large enough to sate their
+    appetites. Female giant fleas lay their eggs in warm areas (usually nestled
+    in the fur of some giant animal) and leave them to hatch and fend for
+    themselves. The female lays a clutch of up to 2d10 eggs, half of which never
+    hatch. The larvae hatch in two weeks, and resemble hairy maggots; they are
+    effectively helpless (AC 10, 1 hp). They mature into adult giant fleas in
+    1d6 months, and leap away to join or form a colony. Giant fleas attack in
+    groups, leaping onto the largest obvious food source; they would attack a
+    horse before a human, and a human before a halfling. If attacked, a giant
+    flea jumps away, only to return the next round to continue the attack.
+    Copyright Notice Author Erica Balsley.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '2599'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

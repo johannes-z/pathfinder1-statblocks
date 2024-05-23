@@ -56,9 +56,26 @@ Description_Visual: >-
   sharpness of a knight's lance, this towering, ibis-like bird looks to be
   sculpted from silver and brass. Standing upon long legs ending in powerful
   metallic talons, its beady eyes dart about voraciously.
+Group: Stymphalidies
 Source: AP 26
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Glare (Su)
+    description: >-
+      As a standard action, in any area of normal or brighter light, a giant
+      stymphalides can ruffle its metallic feathers in such a way as to dazzle
+      all creatures nearby. Any creature within 30 feet must make a DC 19 or be
+      blinded for 1d6 minutes. A creature can defend against this effect in the
+      same way it would a gaze attack. This is a sight-based effect. The DC is
+      Constitution-based.
+  - name: Wing Razors (Ex)
+    description: >-
+      A giant stymphalides's metallic feathers are razor-sharp. In addition to
+      being able to slash creatures with its wings as a melee attack, it may
+      beat its wings, flinging two large, feathered shards at a single target.
+      These wing razors deal 2d6 points of damage and cause bleed. A giant
+      stymphalides can use this attack a number of time per day equal to its
+      Constitution modifier.
 Description:
   - >-
     Man-eating birds of prey, the rare creatures known as stymphalides stalk the
@@ -133,14 +150,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '374'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Stymphalidies
-SpellLikeAbilities: {}
-SpellsKnown: {}

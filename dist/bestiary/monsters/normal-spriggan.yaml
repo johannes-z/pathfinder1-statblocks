@@ -4,7 +4,6 @@ XP: '800'
 Alignment: CE
 Size: Small
 Type: fey
-SubType: (gnome)
 Init: '4'
 Senses:
   - low-light vision
@@ -19,13 +18,18 @@ Ref: '8'
 Will: '4'
 Speed: 20 ft.
 Melee:
-  - halberd +3 (1d8-1/x3) or short sword +7 (1d4-1/19-20)
+  - halberd +3 (1d8-1/x3)
+  - short sword +7 (1d4-1/19-20)
 Ranged:
   - heavy crossbow +7 (1d8/19-20)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: sneak attack +2d6
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th)
+  values:
+    - label: At will
+      value: flare (DC 10), scare (DC 12), shatter (DC 12)
 AbilityScores:
   - 8
   - 18
@@ -50,7 +54,6 @@ Skills:
 RacialMods: +2 Climb, +2 Disable Device, +2 Perception, +2 Sleight of Hand, +2 Stealth
 Languages:
   - Gnome
-SQ: size alteration, spriggan magic, spriggan skills
 Environment: any land and underground
 Organization: solitary or mob (3-12)
 Treasure: standard
@@ -58,9 +61,20 @@ Description_Visual: >-
   This creature resembles an ugly, stocky gnome with a bulbous nose and reddish
   eyes. It has a shaggy dark mustache and ratty beard, both unkempt and caked
   with dirt and filth.
+Group: Spriggan
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Size Alteration (Su)
+    description: >-
+      At will, a spriggan can grow from Small to Large size or back again.
+      Weapons, armor, and other inanimate objects on its person grow
+      proportionately with it when it changes size. This is similar to the
+      enlarge person spell. An enlarged spriggan gains +12 Strength, -2
+      Dexterity, +6 Constitution, and a -2 to AC. While enlarged, a spriggan
+      cannot use its spell-like abilities or its innate sneak attack ability
+      (though any other sneak attack it may have, such as from rogue class
+      levels, is unaffected when it changes size).
 Description:
   - >-
     Spriggans are among the ugliest and certainly the most foul tempered of all
@@ -114,6 +128,9 @@ Description:
     Manual II (© TSR/ Wizards of the Coast, 1981) and is used by permission.
     Copyright Notice Authors Scott Greene and Erica Balsley, based on original
     material by Roger Moore and Gary Gygax.
+Gear: >-
+  chain shirt, halberd, short sword, heavy crossbow, quiver of 20 crossbow bolts
+  SQ size alteration
 CharacterFlag: '1'
 CompanionFlag: '0'
 Fly: '0'
@@ -123,15 +140,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Spriggan
 id: '3031'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Spriggan
-Gear: >-
-  chain shirt, halberd, short sword, heavy crossbow, quiver of 20 crossbow bolts
-  SQ size alteration
-SpellsKnown: {}

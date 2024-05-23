@@ -16,11 +16,13 @@ Saves: Fort +2, Ref +4, Will +1
 Fort: '2'
 Ref: '4'
 Will: '1'
+DefensiveAbilities: stone skin
 Speed: 15 ft., climb 15 ft., burrow 15 ft
 Melee:
   - bite +5 (1d3-3)
 Space: 2 1/2 ft.
 Reach: 0 ft.
+SpecialAttacks: swarm
 AbilityScores:
   - 4
   - 15
@@ -49,6 +51,15 @@ Description_Visual: >-
 Group: Rat
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Stone Skin (Su)
+    description: >-
+      Once per day, as a standard action, a barrow rat can toughen its skin to
+      the hardness of stone. It gains damage reduction 10/- for 1 minute.
+  - name: Swarm (Ex)
+    description: >-
+      Barrow rats crawl over each other in an attempt to swarm an opponent. Up
+      to four barrow rats can occupy a single 5-foot space.
 Description:
   - >-
     Barrow rats are scavengers by nature and prefer to feed on dead animals or
@@ -96,15 +107,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Rat, Common
 id: '2963'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-DefensiveAbilities: stone skin
-SpecialAttacks: swarm
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

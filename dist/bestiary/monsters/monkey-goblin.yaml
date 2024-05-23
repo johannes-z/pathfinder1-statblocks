@@ -19,6 +19,7 @@ Saves: Fort +3, Ref +4, Will +0; +2 vs. fear
 Fort: '3'
 Ref: '4'
 Will: '0'
+Save_Mods: +2 vs. fear
 Speed: 30 ft., climb 30 ft.
 Melee:
   - kukri +4 (1d3+2/18-20)
@@ -27,6 +28,7 @@ Ranged:
   - net +6 (entangle)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: rage (5 rounds/day)
 AbilityScores:
   - 15
   - 18
@@ -48,6 +50,7 @@ Skills:
 RacialMods: +2 Acrobatics, +2 Stealth
 Languages:
   - Goblin
+SQ: fast movement, prehensile tail
 Environment: tropical forests (Mediogalti Island)
 Organization: >-
   solitary, raiding party (4-9), warband (10-16), or tribe (17+ plus 100%
@@ -57,8 +60,16 @@ Treasure: NPC gear (leather armor, kukri, net, shortbow with 10 arrows, other tr
 Description_Visual: >-
   This creature has the wide head and toothy mouth of a goblin with dappled
   green skin, simian hands and feet, and a long, ratlike tail.
+Group: Goblin
 Source: Inner Sea Bestiary
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Prehensile Tail (Ex)
+    description: >-
+      All monkey goblins have long, flexible tails that they can use to carry
+      objects. They cannot wield weapons with their tails, but the tails do
+      allow them to retrieve small objects stowed on their persons as a swift
+      action.
 Description:
   - >-
     Monkey goblins are an offshoot of the goblin race adapted for life in the
@@ -107,17 +118,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '1'
-CompanionFamiliarLink: 'NULL'
-LinkText: Goblin
 id: '3562'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Save_Mods: +2 vs. fear
-SpecialAttacks: rage (5 rounds/day)
-SQ: fast movement, prehensile tail
-Group: Goblin
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

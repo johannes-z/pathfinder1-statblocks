@@ -9,7 +9,6 @@ Init: '5'
 Senses:
   - darkvision 60 ft., detect scrying, low-light vision, see invisibility
   - Perception +31
-Aura: fear (30 ft., DC 16)
 AC: 32, touch 15, flat-footed 26
 AC_Mods: (+5 Dex, +1 dodge, +17 natural, -1 size)
 HP: '283'
@@ -24,12 +23,31 @@ Immune: electricity, petrification
 Resist: cold 10, sonic 10
 SR: '28'
 Speed: 30 ft.
+Speed_Mod: gallop
 Melee:
   - 2 hooves +25 (2d6+5), 2 slams +30 (1d6+10)
+Ranged:
+  - +3 composite longbow +29/+24/+19/+14 (1d8+13/x3)
 Space: 10 ft.
 Reach: 5 ft.
 SpecialAttacks: powerful charge (gore, 2d8+15 plus stagger)
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th; concentration +24)
+  values:
+    - label: Constant
+      value: detect scrying, see invisibility, speak with animals
+    - label: At Will
+      value: >-
+        discern lies, freedom of movement, greater teleport (self plus 50 lbs.
+        of objects only), invisibility purge, light, message
+    - label: 5/day
+      value: >-
+        clairaudience/clairvoyance, cure critical wounds, dismissal (DC 18),
+        dispel magic
+    - label: 3/day
+      value: breath of life, mass bull's strength, plane shift (DC 19)
+    - label: 1/day
+      value: discern location, greater scrying
 AbilityScores:
   - 31
   - 20
@@ -80,7 +98,16 @@ Description_Visual: >-
 Group: Agathion
 Source: Chronicle Of The Righteous
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Gallop (Ex)
+    description: >-
+      When a cervinal uses a full-round action to run, it may move up to six
+      times its speed.
+  - name: Stagger (Ex)
+    description: >-
+      Any creature that takes damage from a cervinal's powerful charge attack
+      must succeed at a DC 28 Fortitude save or be staggered for 1 round. The
+      save DC is Constitution-based.
 Description:
   - >-
     Sometimes termed the "knights" of the agathions, cervinals have gained a
@@ -103,17 +130,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '4411'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Ranged:
-  - +3 composite longbow +29/+24/+19/+14 (1d8+13/x3)
-Speed_Mod: gallop
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

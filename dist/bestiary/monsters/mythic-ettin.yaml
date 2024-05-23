@@ -9,6 +9,7 @@ Init: '3'
 Senses:
   - low-light vision
   - Perception +12
+Aura: stench (DC 17, 10 rounds)
 AC: 22, touch 8, flat-footed 22
 AC_Mods: (+3 armor, -1 Dex, +11 natural, -1 size)
 HP: '89'
@@ -17,6 +18,8 @@ Saves: Fort +9, Ref +2, Will +5
 Fort: '9'
 Ref: '2'
 Will: '5'
+DefensiveAbilities: two brains
+DR: 5/epic
 Speed: 40 ft.
 Melee:
   - 2 flails +13/+13 (2d6+7)
@@ -60,9 +63,14 @@ Treasure: standard (studded leather, 2 flails, 4 javelins, other treasure)
 Description_Visual: >-
   Flies buzz around this bestial, two-headed giant, and maggots squirm in the
   folds of its skin.
+Group: Ettin
 Source: Mythic Adventures
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Two Brains (Ex)
+    description: >-
+      Anytime a mythic ettin attempts a Will saving throw, it rolls twice and
+      uses the better result.
 Description:
   - >-
     A mythic ettin is descended from a sordid lineage of mythic hill giants,
@@ -96,19 +104,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Ettin
 id: '4875'
 UniqueMonster: '0'
 MR: '3'
 Mythic: '1'
 MT: '0'
-Aura: stench (DC 17, 10 rounds)
-DefensiveAbilities: two brains
-DR: 5/epic
-Group: Ettin
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

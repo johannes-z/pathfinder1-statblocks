@@ -27,9 +27,9 @@ Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: create spawn, energy drain (1 level, DC 22), wail (DC 24)
 AbilityScores:
-  - —
+  - null
   - 24
-  - —
+  - null
   - 16
   - 18
   - 20
@@ -53,6 +53,7 @@ Skills:
   - Perception +24
   - Sense Motive +22
   - Stealth +25
+RacialMods: +2 Perception
 Languages:
   - Common
   - Elven
@@ -62,9 +63,40 @@ Treasure: none
 Description_Visual: >-
   A beautiful , ghostlike elven woman beckons you closer, ever closer. The air
   seems to chill as she opens her mouth…
+Group: Banshee
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      The spirit of any female humanoid that is slain by a lesser banshee's
+      death wail or energy drain rises to become a banshee in 1d4 rounds.
+      Similarly, any male humanoid slain by a banshee's death wail or energy
+      drain rises to become a dread wraith in 1d4 rounds.
+  - name: Lifesense (Ex)
+    description: >-
+      Lesser banshee's can detect living creatures within 60 feet, as if they
+      possessed the blindsight ability. In addition, the lesser banshee senses
+      the strength and life-force of the creature, as the spell deathwatch.
+  - name: Sunlight Powerlessness (Ex)
+    description: >-
+      A banshee is powerless in natural sunlight (not merely a daylight spell)
+      and flees from it, typically by hiding within a solid object. A banshee
+      caught in sunlight cannot attack or use its wail and can take only a
+      single standard or move action in a round.
+  - name: Unnatural Aura (Su)
+    description: >-
+      Animals can sense the aura of a lesser banshee at a distance of 30 feet.
+      The animal will not willingly near a lesser banshee, and panics if forced
+      to do so.
+  - name: Wail (Su)
+    description: >-
+      A lesser banshee may let loose a wail so horrible that those within 30
+      feet must make a DC 24 Fortitude save or die. The lesser banshee may only
+      use her death wail at night, and no more than twice per day. After using
+      this ability a lesser banshee must wait for 1d6 rounds before using it
+      again. The save is Charisma-based, and includes the bonus from the Ability
+      Focus feat.
 Description:
   - >-
     Lesser banshees are the spirits of departed women (especially of elven
@@ -94,17 +126,8 @@ Swim: '0'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Banshee
 id: '4739'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-RacialMods: +2 Perception
-Group: Banshee
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

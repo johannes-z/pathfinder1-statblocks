@@ -1,0 +1,116 @@
+Name: Derakni
+CR: '10'
+XP: '9600'
+Race: Derakni
+MonsterSource: 'Pathfinder Campaign Setting: The Worldwound 43'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (chaotic, demon, evil, extraplanar)
+Init: '10'
+Senses:
+  - darkvision 60 ft., scent
+  - Perception +25
+AC: 25, touch 15, flat-footed 19
+AC_Mods: (+6 Dex, +10 natural, -1 size)
+HP: '126'
+HD: (11d10+66)
+Saves: Fort +13, Ref +13, Will +8
+Fort: '13'
+Ref: '13'
+Will: '8'
+DR: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+SR: '21'
+Speed: 30 ft., fly 60 ft. (good)
+Melee:
+  - >-
+    bite +18 (1d4+8 plus poison), 2 claws +18 (1d4+8), sting +18 (1d8+8/19-20
+    plus poison)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: drone, poison
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +15)
+  values:
+    - label: At Will
+      value: >-
+        contagion (DC 17), greater teleport (self plus 50 lbs. of objects only),
+        gust of wind
+    - label: 3/day
+      value: enervation, quickened summon swarm
+    - label: 1/day
+      value: insect plague, summon (level 4, 1 derakni or 1d4 vescavor swarms 40%)
+AbilityScores:
+  - 26
+  - 23
+  - 22
+  - 9
+  - 17
+  - 16
+BaseAtk: '11'
+CMB: '20'
+CMD: 36 (44 vs. trip)
+Feats:
+  - Flyby Attack
+  - Improved Critical (sting)
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Quicken Spell-Like Ability (summon swarm)
+Skills:
+  - Acrobatics +20
+  - Fly +22
+  - Perception +25
+  - Stealth +16
+  - Survival +17
+Languages:
+  - Abyssal
+  - Celestial
+  - Draconic
+  - telepathy 100 ft.
+Source: AP 75
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Drone (Su)
+    description: >-
+      The sound of a derakni in flight is a mesmerizing, unsettling drone that
+      causes confusion in all non-demons who hear the sound. A derakni must fly
+      at least 10 feet to activate this ability (which it can do as part of a
+      move action). Any non-demon creature that begins its turn within 30 feet
+      of a derakni that moved in this manner on its previous turn must succeed
+      at a DC 18 Will save or be confused for 1d4 rounds. A creature that
+      succeeds at this save is immune to the drone of that derakni for 24 hours.
+      Demons are immune to this sonic, mind-affecting effect. The save DC is
+      Charisma-based.
+  - name: Poison (Ex)
+    description: >-
+      Bite or sting-injury; save Fort DC 21; frequency 1/ round for 6 rounds;
+      effect 1d4 Con; cure 2 consecutive saves. The save DC is
+      Constitution-based.
+BeforeCombat: The derakni attempts to summon another derakni before entering combat.
+DuringCombat: >-
+  The derakni casts insect plague and quickened summon swarm on the first round
+  of combat. It hopes to throw the PCs into chaos so it can swoop around the
+  edges of the swarms to attack lone heroes who stagger out of the swarm,
+  staying in flight and using Flyby attacks with its sting while keeping its
+  drone effect going as long as possible.
+Morale: >-
+  The derakni teleports away and does not return if it's reduced to fewer than
+  20 hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5108'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

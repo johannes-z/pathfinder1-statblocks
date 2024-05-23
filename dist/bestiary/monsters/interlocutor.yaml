@@ -29,6 +29,17 @@ Reach: 10 ft.
 SpecialAttacks: >-
   bleed (1d6), poison, rend (2 claws, 1d8+7), surgical strikes, unnerving gaze
   (30 ft.; DC 22)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +19)
+  values:
+    - label: At Will
+      value: >-
+        bleed (DC 15), plane shift (from the Material Plane to the Plane of
+        Shadow Plane, self only), stabilize
+    - label: 3/day
+      value: cure serious wounds, restoration
+    - label: 1/day
+      value: breath of life
 AbilityScores:
   - 24
   - 17
@@ -62,16 +73,25 @@ Skills:
 Languages:
   - Common
   - Infernal
-SQ: chain armor
 Environment: any (Plane of Shadow)
 Organization: solitary, pair, or gang (3-5)
 Treasure: standard
 Description_Visual: >-
   At the core of this multi-limbed monstrosity of claws and blades struggles a
   glistening mass of veins, organs, and twisted flesh.
+Group: Kyton
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Surgical Strikes (Ex)
+    description: >-
+      An interlocutor's claws threaten a critical hit on a roll of 19-20. On a
+      successful critical hit, that claw deals 2d6 bleed damage rather than 1d6.
+  - name: Unnerving Gaze (Ex)
+    description: >-
+      A creature that succumbs to an eremite's unnerving gaze becomes staggered
+      for 1 round as it becomes convinced that it recognizes some of its own
+      body parts entangled in the interlocutor's body.
 Description:
   - >-
     Interlocutors are the self-proclaimed surgeon-sculptors among kytons,
@@ -102,17 +122,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Kyton
 id: '2119'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpellLikeAbilities: {}
-Group: Kyton
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-BaseStatistics: 'NULL'
-SpellsKnown: {}

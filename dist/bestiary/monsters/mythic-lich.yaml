@@ -23,6 +23,7 @@ Will: '21'
 DefensiveAbilities: channel resistance +8, creeping paralysis
 DR: 15/bludgeoning and epic and magic
 Immune: cold, electricity, undead traits
+SR: '32'
 Speed: 30 ft.
 Melee:
   - +1 heavy mace +9/+4 (1d8), touch +3 (1d8+6 plus paralyzing touch)
@@ -32,6 +33,13 @@ SpecialAttacks: >-
   channel negative energy 10/day (DC 23, 7d6), hand of the acolyte (11/day),
   inspired spell, mythic power (7/day, surge +1d10), mythic spells 2/day,
   paralyzing touch (DC 28), scythe of evil (6 rounds, 2/day)
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 13th; concentration +21)
+  values:
+    - label: 11/day
+      value: touch of evil (6 rounds)
+    - label: 2/day
+      value: dispelling touch
 SpellsPrepared: >-
   Cleric Spells Prepared (CL 13th; concentration +21)  7th-blasphemyD (DC 25),
   destruction (DC 27), ethereal jaunt  6th-antimagic fieldD, blade barrierM (DC
@@ -44,10 +52,11 @@ SpellsPrepared: >-
   energy, spiritual weaponM  1st-bane (DC 19), cause fear (DC 21), deathwatch,
   entropic shield, identifyD, obscuring mist (2)  0 (at will)-bleed (DC 20),
   detect magic, purify food and drink, read magic
+SpellDomains: Evil, Magic
 AbilityScores:
   - 8
   - 14
-  - —
+  - null
   - 15
   - 26
   - 20
@@ -77,6 +86,7 @@ RacialMods: +8 Perception, +8 Sense Motive, +8 Spellcraft, +8 Stealth
 Languages:
   - Abyssal
   - Common
+SQ: mythic phylactery, rejuvenation
 Environment: any
 Organization: solitary
 Treasure: >-
@@ -87,6 +97,7 @@ Treasure: >-
 Description_Visual: >-
   This armored undead human wields a heavy mace and wears the trappings of a
   devil-worshiper.
+Group: Lich
 Source: Mythic Adventures
 IsTemplate: '1'
 Description:
@@ -185,7 +196,6 @@ Description:
   - 16-17 8th Channel resistance +12, immediate counterspell
   - 18-19 9th Enhanced spellcasting, sustained by magic
   - 20+ 10th Channel resistance (immunity), formidable animation
-Note: '*Necromancer power (Pathfinder RPG Core Rulebook, pages 81-82)'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -195,20 +205,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Lich
 id: '4885'
 UniqueMonster: '0'
 MR: '7'
 Mythic: '1'
 MT: '0'
-SR: '32'
-SpellLikeAbilities: {}
-SpellDomains: Evil, Magic
-SQ: mythic phylactery, rejuvenation
-Group: Lich
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpecialAbilities: {}
-SpellsKnown: {}

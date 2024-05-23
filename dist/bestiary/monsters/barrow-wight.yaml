@@ -17,6 +17,7 @@ Fort: '4'
 Ref: '2'
 Will: '5'
 DefensiveAbilities: channel resistance +2
+Immune: undead traits
 Weaknesses: resurrection vulnerability
 Speed: 30 ft.
 Melee:
@@ -27,7 +28,7 @@ SpecialAttacks: create spawn, energy drain (1 level, DC 14), insanity gaze
 AbilityScores:
   - 14
   - 12
-  - —
+  - null
   - 11
   - 13
   - 15
@@ -54,9 +55,24 @@ Description_Visual: >-
   This creature appears as a rotting humanoid with leathery, gray skin drawn
   tight over its frame. Its eyes glow crimson. The creature's clothes appear as
   rotting and tattered rags.
+Group: Wight
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      Any humanoid creature that is slain by a barrow wight becomes a barrow
+      wight itself in only 1d4 rounds. Spawn so created are less powerful than
+      typical barrow wights, and suffer a -2 penalty on all d20 rolls and
+      checks, as well as -2 hp per HD. Spawn are under the command of the barrow
+      wight that created them and remain enslaved until its death, at which
+      point they lose their spawn penalties and become full-fledged and
+      freewilled barrow wights. They do not possess any of the abilities they
+      had in life.
+  - name: Resurrection Vulnerability (Su)
+    description: >-
+      A raise dead spell cast on a barrow wight destroys it (Will negates).
+      Using the spell in this way does not require a material component.
 Description:
   - >-
     Barrow wights are undead creatures akin to normal wights, but they are
@@ -78,14 +94,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Wight
 id: '3429'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Immune: undead traits
-Group: Wight
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -4,6 +4,7 @@ XP: '600'
 Alignment: 'N'
 Size: Diminutive
 Type: animal
+SubType: (swarm)
 Init: '1'
 Senses:
   - low-light vision, scent
@@ -16,11 +17,14 @@ Saves: Fort +4, Ref +5, Will +2
 Fort: '4'
 Ref: '5'
 Will: '2'
+Immune: weapon damage, swarm traits
+Weaknesses: swarm traits
 Speed: 10 ft.
 Melee:
   - swarm (1d6 plus poison)
 Space: 10 ft.
 Reach: 0 ft.
+SpecialAttacks: distraction (DC 12)
 AbilityScores:
   - 4
   - 12
@@ -48,7 +52,11 @@ Description_Visual: >-
 Group: Poisonous Frog
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Swarm-injury; save Fort DC 12; frequency 1/round for 2 rounds; effect 1d3
+      Str; cure 1save. The save DC is Constitution-based.
 Description:
   - Poisonous frog swarms are composed of small, fierce, poisonous frogs.
   - The swarm moves collectively, hopping or jumping toward their prey.
@@ -80,15 +88,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '3047'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (swarm)
-Immune: weapon damage, swarm traits
-Weaknesses: swarm traits
-SpecialAttacks: distraction (DC 12)
-SpellLikeAbilities: {}
-SpellsKnown: {}

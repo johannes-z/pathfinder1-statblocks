@@ -1,0 +1,99 @@
+Name: Spectre
+CR: '7'
+XP: '3200'
+Race: Spectre
+Alignment: LE
+Size: Medium
+Type: undead
+SubType: (incorporeal)
+Init: '7'
+Senses:
+  - darkvision 60 ft.
+  - Perception +17
+Aura: unnatural aura (30 ft.)
+AC: 15, touch 15, flat-footed 12
+AC_Mods: (+2 deflection, +3 Dex)
+HP: '52'
+HD: (8d8+16)
+Saves: Fort +4, Ref +5, Will +9
+Fort: '4'
+Ref: '5'
+Will: '9'
+DefensiveAbilities: incorporeal, turn resistance +2
+Weaknesses: resurrection vulnerability, sunlight powerlessness
+Speed: 40 ft., fly 80 ft. (perfect)
+Melee:
+  - incorporeal touch +9 (1d8 plus energy drain)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: create spawn, energy drain (2 levels, DC 16)
+AbilityScores:
+  - null
+  - 16
+  - null
+  - 14
+  - 16
+  - 15
+BaseAtk: '6'
+CMB: '6'
+CMD: '21'
+Feats:
+  - Blind-Fight
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Weapon Finesse
+Skills:
+  - Fly +11
+  - Intimidate +13
+  - Knowledge (history) +10
+  - Knowledge (religion) +13
+  - Perception +17
+  - Stealth +14
+  - Survival +11
+Languages:
+  - Common
+Source: PFS S1-29
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      Any humanoid slain by a spectre becomes a spectre itself in 1d4 rounds.
+      Spawn so created are less powerful than typical spectres, and suffer a -2
+      penalty on all d20 rolls and checks, as well as &#8211;2 hp per HD, and
+      only drain one level on a touch. Spawn are under the command of the
+      spectre that created them and remain enslaved until its death, at which
+      point they lose their spawn penalties and become full-fledged and
+      free-willed spectres. They do not possess any of the abilities they had in
+      life.
+  - name: Resurrection Vulnerability (Su)
+    description: >-
+      A raise dead or similar spell cast on a spectre destroys it (Will
+      negates). Using the spell in this way does not require a material
+      component.
+  - name: Sunlight Powerlessness (Su)
+    description: >-
+      Spectres are powerless in natural sunlight (not merely a daylight spell)
+      and flee from it. A spectre caught in sunlight cannot attack and is
+      staggered.
+  - name: Unnatural Aura (Su)
+    description: >-
+      Animals, whether wild or domesticated, can sense the unnatural presence of
+      a spectre at a distance of 30 feet. They do not willingly approach nearer
+      than that and panic if forced to do so unless a master succeeds at a DC 25
+      Handle Animal, Ride, or wild empathy check. A panicked animal remains so
+      as long as it is within 30 feet of the spectre.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4095'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

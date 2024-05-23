@@ -4,6 +4,7 @@ XP: '1600'
 Alignment: 'N'
 Size: Large
 Type: magical beast
+SubType: (mythic)
 Init: +7M
 Senses:
   - darkvision 60 ft., low-light vision, scent
@@ -16,11 +17,16 @@ Saves: Fort +10, Ref +5, Will +2
 Fort: '10'
 Ref: '5'
 Will: '2'
+DR: 5/epic
+SR: '16'
 Speed: 30 ft.
 Melee:
   - bite +9 (1d8+5), 2 claws +9 (1d6+5 plus grab)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: >-
+  disorienting pounce, mythic power (2/day, surge +1d6), pounce, rend (2 claws,
+  1d6+7)
 AbilityScores:
   - 21
   - 12
@@ -43,8 +49,14 @@ Treasure: incidental
 Description_Visual: >-
   This beast has the general size and shape of a great bear, yet the head and
   feathers of an owl.
+Group: Owlbear
 Source: Mythic Adventures
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Disorienting Pounce (Ex)
+    description: >-
+      A creature that a mythic owlbear hits when using its pounce ability is
+      automatically staggered for 1 round.
 Description:
   - >-
     A mythic owlbear may have been created by a mythic mage, or adopted as the
@@ -60,24 +72,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Owlbear
 id: '4891'
 UniqueMonster: '0'
 MR: '2'
 Mythic: '1'
 MT: '0'
-SubType: (mythic)
-DR: 5/epic
-SR: '16'
-SpecialAttacks: >-
-  disorienting pounce, mythic power (2/day, surge +1d6), pounce, rend (2 claws,
-  1d6+7)
-Group: Owlbear
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

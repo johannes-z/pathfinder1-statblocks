@@ -1,0 +1,113 @@
+Name: Jiraku
+CR: '6'
+XP: '2400'
+Race: dosojin kami
+MonsterSource: 'Pathfinder Adventure Path #52:  Forest of Spirits 82'
+Alignment: NG
+Size: Medium
+Type: outsider
+SubType: (kami, native)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +4
+AC: 19, touch 12, flat-footed 17
+AC_Mods: (+2 Dex, +7 natural)
+HP: '67'
+HD: (9d10+18)
+HP_Mods: fast healing 3
+Saves: Fort +8, Ref +5, Will +8
+Fort: '8'
+Ref: '5'
+Will: '8'
+DR: 5/cold iron
+Immune: bleed, mind-affecting effects, petrification, polymorph
+Resist: acid 10, electricity 10, fire 10
+Speed: 40 ft.
+Melee:
+  - +1 adamantine tetsubo +13/+8 (1d10+4/x4)
+  - 2 slams +11 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +12)
+  values:
+    - label: Constant
+      value: call magma (DC 16), know direction, misdirection (DC 15)
+    - label: 3/day
+      value: >-
+        dispel magic, invisibility, longstrider, pass without trace, stone
+        shape, wind wall
+    - label: 1/day
+      value: locate object, mirage arcana (DC 18), nondetection
+AbilityScores:
+  - 15
+  - 15
+  - 14
+  - 12
+  - 14
+  - 17
+BaseAtk: '9'
+CMB: '11'
+CMD: '23'
+Feats:
+  - Alertness
+  - Exotic Weapon Proficiency (tetsubo)
+  - Improved Initiative
+  - Power Attack
+  - Weapon Focus (tetsubo)
+Skills:
+  - Acrobatics +14 (+18 to jump)
+  - Bluff +15
+  - Disguise +15
+  - Handle Animal +15
+  - Knowledge (nature) +13
+  - Perception +4
+  - Sense Motive +16
+  - Survival +11
+Languages:
+  - Common
+  - Tien
+  - telepathy 100 ft.
+SQ: merge with ward, ward (roads or trails)
+Source: PFS 8-02
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Call Magma (Sp)
+    description: >-
+      This ability functions as per call lightning, except the damage it deals
+      is half bludgeoning damage, half fire damage. In Subtier 6-7, the damage
+      increases to 3d10.
+Gender: Female
+BeforeCombat: >-
+  Jiraku casts longstrider  and pass without trace. By the time combat begins,
+  assume that only 3 rounds remain of her wind wall's duration.
+DuringCombat: >-
+  Jiraku casts dispel magic on any PCs whom she saw resist Ngon Le's scorching
+  ray during the Nagaji Ambush encounter. She then barrages the PCs with her
+  call magma ability until a PC comes close enough for her to make a full attack
+  with her tetsubo.
+Morale: >-
+  When Jiraku is incapacitated (for example, paralyzed or pinned) or reduced to
+  22 hp or less, her stony form crumbles and she immediately transforms into her
+  oni form (see below). As part of her transformation, she may teleport up to 30
+  feet as an immediate action. Unless she has been disarmed, her tetsubo
+  teleports with her.
+OtherGear: +1 adamantine tetsuboUE
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: Without longstrider, Jiraku's speed is 30 ft.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+AlternateNameForm: Kami Form
+id: '8597'
+UniqueMonster: '0'
+Variant: '1'
+MR: '0'
+Mythic: '0'
+MT: '0'

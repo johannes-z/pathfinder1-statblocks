@@ -25,7 +25,15 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: detect thoughts (DC 13)
-SpellsKnown: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +8)
+  values:
+    - label: Constant
+      value: comprehend languages
+    - label: 1/day
+      value: charm person (DC 13), suggestion (DC 15)
+    - label: 1/week
+      value: commune (CL 12th, 6 questions)
 AbilityScores:
   - 7
   - 16
@@ -61,9 +69,39 @@ Treasure: standard
 Description_Visual: >-
   What at first appears to be a bejeweled blade shimmers and writhes,
   transforming into a hideous, red-eyed serpent.
+Group: Rakshasa
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      As a full-round action, a raktavarna can take the shape of a handheld
+      object, most often an ornamental light, a one-handed weapon, or a piece of
+      treasure. If the rakshasa remains stationary in such a form, it can
+      attempt Stealth checks even while being observed. It can remain motionless
+      in object form indefinitely, but reverts to its true form as soon as it
+      takes any action. Master's
+  - name: Eyes (Su)
+    description: >-
+      A raktavarna can designate a single creature as its master as a standard
+      action. If the raktavarna is a spellcaster's familiar, its master is
+      automatically that spellcaster, and the raktavarna cannot change this. As
+      a full-round action, a raktavarna's master can observe the world as if
+      looking through the raktavarna's eyes. The master must concentrate to
+      maintain this link each round. The master's visual senses are suppressed
+      for this time, and he uses the raktavarna's darkvision, detect magic, and
+      regular eyesight to observe the world. This ability has no limit on range,
+      and functions even across planar boundaries. If the raktavarna is slain
+      while its master is using this ability, the master is stunned for 1d4
+      rounds (no save).
+  - name: Poison (Su)
+    description: >-
+      Bite-injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d2
+      Wis plus modify memory; cure 1 save. Each time a victim takes Wisdom
+      damage from this poison, a modify memory effect causes the victim to
+      forget the previous minute's interactions with the raktavarna, as long as
+      the raktavarna is no longer visible or is in object form. The save DC is
+      Constitution-based.
 Description:
   - >-
     Made up of smoke, blood, and gold, raktavarnas are the least of the
@@ -89,16 +127,9 @@ Climb: '1'
 Burrow: '0'
 Swim: '1'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Rakshasa
 id: '2174'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpellLikeAbilities: {}
-Group: Rakshasa
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'

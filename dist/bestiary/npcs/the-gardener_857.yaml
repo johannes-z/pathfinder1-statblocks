@@ -1,0 +1,135 @@
+Name: The Gardener
+CR: '13'
+XP: '25600'
+Race: halfling
+Class: monk 4/sorcerer 8
+MonsterSource: Pathfinder RPG Bestiary 144
+Alignment: LE
+Size: Small
+Type: undead
+SubType: (augmented, halfling, incorporeal)
+Init: '5'
+Senses:
+  - darkvision 60 ft.
+  - Perception +23
+AC: 32, touch 28, flat-footed 26
+AC_Mods: (+4 armor, +6 deflection, +5 Dex, +1 dodge, +4 monk Wisdom, +1 size)
+HP: '138'
+HD: (12 HD; 4d8+8d6+92)
+Saves: Fort +13, Ref +12, Will +15
+Fort: '13'
+Ref: '12'
+Will: '15'
+DefensiveAbilities: channel resistance +4, rejuvenation evasion, incorporeal
+Immune: undead traits
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +8/+3 (13d6/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  acidic ray (1d6+4 acid, 9/day), corrupting gaze (DC 22), horrific appearance
+  (DC 22), telekinesis
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 8th; concentration +14)
+  values:
+    - label: 4th (4/day)
+      value: black tentacles
+    - label: 3rd (6/day)
+      value: haste, tongues, vampiric touch
+    - label: 2nd (8/day)
+      value: cat's grace, owl's wisdom, see invisibility, touch of idiocy
+    - label: 1st (8/day)
+      value: >-
+        chill touch (DC 17), enlarge person, mage armor, magic missile, silent
+        image (DC 17), true strike
+    - label: 0 (at will)
+      value: >-
+        arcane mark, acid splash, dancing lights, detect magic, ghost sound (DC
+        16), mage hand, message, prestidigitation
+AbilityScores:
+  - null
+  - 21
+  - null
+  - 12
+  - 18
+  - 22
+BaseAtk: '7'
+CMB: '7'
+CMD: '33'
+Feats:
+  - Ability Focus (corrupting gaze)
+  - Arcane Strike
+  - Combat Reflexes
+  - Craft Wondrous Item
+  - Dodge
+  - Eschew Materials
+  - Improved Unarmed Strike
+  - Lunge
+  - Mobility
+  - Silent Spell
+  - Stunning Fist
+  - Toughness
+Skills:
+  - Acrobatics +7 (+5 jump)
+  - Bluff +21
+  - Climb +2
+  - Fly +24
+  - Knowledge (arcana) +10
+  - Knowledge (nature) +7
+  - Perception +23
+  - Sense Motive +11
+  - Stealth +24
+Languages:
+  - Common
+  - Gnome
+  - Halfling
+SQ: >-
+  bloodline arcana, fast movement, ki pool (6 points, magic), long limbs (+5
+  ft.), maneuver training, slow fall 20 ft., still mind
+Source: AP 35
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Horrific Appearance (Su)
+    description: >-
+      As a standard action at will, the gardener can cause his appearance to
+      burst into a riot of mold and decay, turning his ghostly body into a
+      hideous garden of fungus and ruin. All living creatures within a 30- foot
+      radius that view this shift must make a DC 22 Will save or be panicked for
+      1d4 rounds. This is a mind-affecting fear effect. A creature that saves
+      against this ability is immune to its effects for 24 hours.
+Gender: Male
+Bloodline: aberrant
+BeforeCombat: >-
+  In the rounds before it appears, the gardener casts cat's grace, owl's wisdom,
+  and mage armor on himself.
+DuringCombat: >-
+  The gardener uses his corrupting gaze throughout any combat. On the first
+  round, he attacks with his horrific appearance and a quickened haste spell. On
+  the second round, he casts black tentacles and a quickened magic missile. On
+  the third round, he uses telekinesis to attempt to bull rush a heavily armored
+  foe into the surrounding pool, then moves to the most wounded target and casts
+  a quickened vampiric touch. Once he's used all three charges of his rod of
+  lesser quicken metamagic, he begins attacking with his corrupting touch, using
+  telekinesis and his spells against foes who maintain ranged superiority.
+Morale: >-
+  The gardener fights to the death; once he appears, he pursues his victims
+  anywhere they flee on Whiterose Hill, but not beyond the stone wall that
+  surrounds the place.
+Gear: rod of lesser quicken metamagic
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '857'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

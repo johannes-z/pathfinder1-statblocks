@@ -8,7 +8,6 @@ Init: '1'
 Senses:
   - darkvision 60 ft., low-light vision
   - Perception +0
-Aura: stony mind (30 ft.)
 AC: 29, touch 9, flat-footed 28
 AC_Mods: (+1 Dex, +20 natural, -2 size)
 HP: '117'
@@ -17,6 +16,7 @@ Saves: Fort +4, Ref +5, Will +4
 Fort: '4'
 Ref: '5'
 Will: '4'
+DefensiveAbilities: rejuvenation
 DR: 10/ adamantine
 Immune: construct traits (+40 hp), magic
 Speed: 30 ft., fly 50 ft. (average)
@@ -27,18 +27,16 @@ Reach: 10 ft.
 SpecialAttacks: >-
   breath weapon (30 ft cone, 12d6 acid; DC 17 Ref half, usable every 1d4
   rounds), roar
-SpellLikeAbilities: {}
 AbilityScores:
   - 27
   - 12
-  - —
-  - —
+  - null
+  - null
   - 11
   - 10
 BaseAtk: '14'
 CMB: '24'
 CMD: 35 (39 vs. trip)
-RacialMods: +4 Stealth amid stone
 SQ: site bound
 Environment: any
 Organization: solitary or pair
@@ -50,7 +48,40 @@ Description_Visual: >-
 Group: Stone Idol
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A stone idol is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against the creature, as noted below. A transmute rock to mud
+      spell slows a stone idol (as the slow spell) for 2d6 rounds, with no
+      saving throw, while transmute mud to rock heals all of its lost hit
+      points. A stone to flesh spell does not actually change the stone idol's
+      structure but negates its damage reduction and immunity to magic for 1
+      full round. A disintegrate spell deals +50% damage to a stone idol. A
+      chaos hammer, holy smite, order's wrath, or unholy blight spell deals 1d4
+      points of damage per two caster levels to a stone idol if the creator's
+      alignment matches one of the aforementioned spells.
+  - name: Rejuvenation (Su)
+    description: >-
+      Unless a stone idol's main body is shattered into small fragments and
+      scattered to the winds, the creature reforms itself at full strength in
+      1d4+2 days.
+  - name: Site Bound (Ex)
+    description: >-
+      A stone idol cannot travel more than 200 feet from a central point
+      designated by its creator. Once this point is selected, it can never be
+      changed. A stone idol taken outside the area ceases functioning until it
+      is brought back into the area.
+  - name: Roar (Su)
+    description: >-
+      A sphinx stone idol can roar up to three times per day as a standard
+      action. Affected creatures become frightened for 2d6 rounds. A DC 17 Will
+      save negates the effect. The roar is a mind-affecting fear effect and a
+      sonic effect that fills a 100-foot-radius burst, centered on the stone
+      idol sphinx. A creature that successfully saves cannot be affected again
+      by the same sphinx stone idol's roar for one day. The save DC is
+      Charisma-based.
 Description:
   - >-
     A stone idol sphinx is about 15 feet long and weighs around 29,000 pounds. A
@@ -80,15 +111,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '5074'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-DefensiveAbilities: rejuvenation
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

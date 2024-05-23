@@ -22,6 +22,7 @@ Melee:
   - sting +11 (1d8+6 plus poison), wing +9 (1d6+3)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: poison
 AbilityScores:
   - 22
   - 11
@@ -41,7 +42,6 @@ Skills:
   - Perception +11
   - Stealth +3
   - Swim +14
-RacialMods: +8 Stealth in sand or mud
 Environment: warm aquatic
 Organization: solitary or school (2-5)
 Treasure: none
@@ -51,7 +51,11 @@ Description_Visual: >-
 Group: Stingray
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 19; frequency 1/round for 6 rounds; effect 1d2
+      Str and paralysis 1d6+2 rds.; cure 1 save.
 Description:
   - >-
     Stingrays are bottom feeders and are found in warm, shallow waters near
@@ -94,13 +98,8 @@ Swim: '1'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Stingray
 id: '3500'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: poison
-SpellLikeAbilities: {}
-SpellsKnown: {}

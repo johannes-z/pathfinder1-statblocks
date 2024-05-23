@@ -1,4 +1,4 @@
-import type { Monster, MonsterRaw } from './types'
+import type { Monster, MonsterRaw, SpellLikeAbilities, SpellLikeAbility } from './types'
 
 /**
  * Each entry in the spell known or spell like abilities section starts with the spell level and quantifier how often it can be used.
@@ -37,14 +37,14 @@ const REGEX_SpellLikeAbilities = new RegExp(`(?<label>${SPELL_DEFINITION})[- ](?
 // eslint-disable-next-line regexp/no-super-linear-backtracking
 const REGEX_SpellLikeAbilities_Header = new RegExp(`^(?<header>.+?)\\s*(?=(${SPELL_DEFINITION}[- ])|$)`, 'i')
 
-export function extractSpells(monster: MonsterRaw, column: 'SpellsKnown' | 'SpellLikeAbilities') {
+export function extractSpells(monster: MonsterRaw, column: 'SpellsKnown' | 'SpellLikeAbilities'): SpellLikeAbilities {
   const header = monster[column].match(REGEX_SpellLikeAbilities_Header)
   const matches = [...monster[column].matchAll(REGEX_SpellLikeAbilities)]
-  monster[column] = {
-    header: header?.groups?.header.trim(),
+  return {
+    header: header?.groups?.header.trim() ?? '',
     values: matches.map(match => ({
-      label: match.groups?.label.trim(),
-      value: match.groups?.value.trim().replace(/\s{2,}/g, ' '),
+      label: match.groups?.label.trim() ?? '',
+      value: match.groups?.value.trim().replace(/\s{2,}/g, ' ') ?? '',
     })),
   }
 }

@@ -17,15 +17,21 @@ Fort: '1'
 Ref: '3'
 Will: '2'
 DR: 2/cold iron
-SR: '11'
-Weaknesses: light blindness
 Speed: 20 ft., climb 20 ft., fly 20 ft. (clumsy)
 Melee:
   - bite +3 (1d3-4)
+Ranged:
+  - rock +3 (1d2-4)
 Space: 2-1/2 ft.
 Reach: 0 ft.
 SpecialAttacks: putrid vomit
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 1st; concentration -1)
+  values:
+    - label: At Will
+      value: prestidigitation
+    - label: 3/day
+      value: grease (DC 9), mage hand, open/close
 AbilityScores:
   - 3
   - 13
@@ -46,7 +52,6 @@ Skills:
   - Sleight of Hand +5
   - Stealth +16
   - Swim +5
-RacialMods: +2 Perception, Disable Device is a class skill
 Languages:
   - Undercommon
 SQ: gremlin lice
@@ -58,9 +63,26 @@ Treasure: standard
 Description_Visual: >-
   This putrid-looking humanoid bears a disquieting resemblance to a
   half-starved, mange-ridden opossum.
+Group: Gremlin
 Source: PFRPG Bestiary 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Gremlin Lice (Ex)
+    description: >-
+      All grimples are infested with gremlin lice. Whenever a warm-blooded
+      creature comes in physical contact with a grimple, there is a 25% chance
+      it contracts gremlin lice. 1d4 rounds later, the creature begins to itch.
+      The itch proves so distracting that for the duration of the infestation,
+      the individual takes a -1 penalty on all concentration and initiative
+      checks. Fortunately, these annoying parasites cannot live long on
+      non-gremlins, and only survive for 24 hours. Submersion in water or
+      exposure to freezing temperatures also kills a gremlin lice infestation.
+  - name: Putrid Vomit (Ex)
+    description: >-
+      Every 1d4 rounds, a grimple can spew a 30-foot line of vomit as a standard
+      action. Treat this as a ranged touch attack with no range increment.
+      Anyone struck must succeed at a DC 11 Fortitude save or be nauseated for
+      1d4 rounds. The save DC is Constitution-based.
 Description:
   - >-
     Grimples are filthy urban scavengers that lurk beneath the eaves of
@@ -77,10 +99,6 @@ Description:
     constantly) remains its most unappealing quality. Voracious omnivores,
     grimples feast off garbage. They frequently target inns, restaurants, and
     other places where they can scavenge a steady supply of food.
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-Gear: short sword
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '1'
@@ -88,20 +106,10 @@ Climb: '1'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-BaseStatistics: 'NULL'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '5253'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Ranged:
-  - rock +3 (1d2-4)
-Group: Gremlin
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

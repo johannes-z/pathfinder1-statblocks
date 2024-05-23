@@ -23,8 +23,15 @@ Melee:
   - bite +14 (1d8+6), 2 claws +14 (1d6+6)
 Space: 5 ft.
 Reach: 5 ft.
-SpecialAttacks: feed
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th)
+  values:
+    - label: At will
+      value: blink, invisibility sphere, levitate, misdirection
+    - label: 1/day
+      value: >-
+        charm monster (DC 18), crushing despair (DC 18), dimension door, mass
+        bull's strength, mass enlarge
 AbilityScores:
   - 23
   - 15
@@ -66,7 +73,18 @@ Description_Visual: >-
 Group: Barghest
 Source: PFRPG Bestiary
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Feed (Su)
+    description: >-
+      Once per month, a barghest can devour a nonevil humanoid's corpse as a
+      full-round action to gain a growth point. It gains a bonus equal to its
+      growth point total on attack rolls, CMB rolls, saving throws, and skill
+      checks. Its maximum hit points increase by 5 for each growth point it
+      gains. For every 2 growth points, a barghest's caster level for its
+      spell-like abilities and its CR increase by +1. When a barghest reaches 4
+      growth points, it sheds its skin and becomes a greater barghest, losing
+      all of its growth points (and bonuses) but gaining the stats presented on
+      this page for a greater barghest.
 Description:
   - >-
     Said to be fiendish relations of all goblinoid races, the hateful barghests
@@ -83,11 +101,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Barghest, Greater
 id: '39'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpellsKnown: {}

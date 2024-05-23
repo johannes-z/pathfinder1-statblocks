@@ -9,7 +9,6 @@ Init: '4'
 Senses:
   - darkvision 60 ft., enchantment sense, scent
   - Perception +13
-Aura: fear (30 ft., DC 16)
 AC: 18, touch 14, flat-footed 14
 AC_Mods: (+4 Dex, +4 natural)
 HP: '51'
@@ -24,12 +23,25 @@ Immune: electricity, petrification
 Resist: cold 10, sonic 10
 SR: '16'
 Speed: 50 ft.
+Speed_Mod: sprint
 Melee:
   - gore +11 (1d6+2), mwk rapier +11/+6 (1d6+2/18-20)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: powerful charge (gore +11, 2d6+3)
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +8)
+  values:
+    - label: Constant
+      value: freedom of movement, speak with animals
+    - label: At Will
+      value: animal trance (DC 13), liberating commandAPG, message, remove paralysis
+    - label: 3/day
+      value: >-
+        knock, protection from evil, summon nature's ally III (1 aurochs or 1d3
+        stags only)
+    - label: 1/day
+      value: break enchantment, seeming
 AbilityScores:
   - 14
   - 18
@@ -53,6 +65,7 @@ Skills:
   - Sense Motive +13 (+23 to detect enchantments)
   - Stealth +13
   - Survival +11
+RacialMods: +8 Acrobatics when jumping, +10 Sense Motive to detect enchantments
 Languages:
   - Celestial
   - Draconic
@@ -71,7 +84,24 @@ Description_Visual: >-
 Group: Agathion
 Source: Andoran Birthplace Of Freedom
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Enchantment Sense (Ex)
+    description: >-
+      Cervaprals have an innate sense for magical compulsion and control. A
+      cervapral can attempt a Sense Motive check to sense an enchantment as a
+      move action, rather than requiring the normal 1 minute.
+  - name: Mercies (Su)
+    description: >-
+      A cervapral's lay on hands ability removes disease (as remove disease) and
+      fatigue in addition to curing damage.
+  - name: Pronghorn (Ex)
+    description: >-
+      A cervapral's gore attack is considered a primary natural weapon, even
+      when used in conjunction with a weapon attack.
+  - name: Sprint (Ex)
+    description: >-
+      Once per minute, a cervapral can move at 10 times its normal speed (500
+      feet) when it makes a charge.
 Description:
   - >-
     Cervaprals embody the essence of liberty and are passionately devoted to
@@ -104,16 +134,9 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '6918'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Speed_Mod: sprint
-RacialMods: +8 Acrobatics when jumping, +10 Sense Motive to detect enchantments
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

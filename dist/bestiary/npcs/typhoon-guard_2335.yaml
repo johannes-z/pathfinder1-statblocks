@@ -1,0 +1,136 @@
+Name: Typhoon Guard
+CR: '8'
+XP: '4800'
+Race: Yamabushi tengu
+Class: ranger 2/rogue 2
+MonsterSource: 'Pathfinder Adventure Path #49 88'
+Alignment: LE
+Size: Medium
+Type: outsider
+SubType: (native, oni, shapechanger, tengu)
+Init: '10'
+Senses:
+  - darkvision 60 ft., low-light vision, see invisibility
+  - Perception +19
+AC: 21, touch 16, flat-footed 15
+AC_Mods: (+2 armor, +6 Dex, +2 natural, +1 shield)
+HP: '103'
+HD: (10 HD; 6d10+2d10+2d8+50)
+HP_Mods: regeneration 2 (fire or acid)
+Saves: Fort +13, Ref +17, Will +6; -2 vs. illusion (pattern) spells
+Fort: '13'
+Ref: '17'
+Will: '6'
+Save_Mods: '-2 vs. illusion (pattern) spells'
+DefensiveAbilities: evasion
+SR: '16'
+Weaknesses: susceptible to patterns
+Speed: 30 ft., fly 30 ft. (average)
+Melee:
+  - katana* +13/+8 (1d8+5/18-20) and wakizashi* +12/+7 (1d6+5/18-20)
+Ranged:
+  - composite longbow +15/+10 (1d8+4/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: favored enemy (humans +2), sneak attack +1d6, steal voice
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +9)
+  values:
+    - label: Constant
+      value: see invisibility, ventriloquism (DC 15)
+    - label: 3/day
+      value: >-
+        dimension door, hideous laughter (DC 16), ray of enfeeblement (DC 15),
+        scorching ray
+    - label: 1/day
+      value: blur, glitterdust (DC 16)
+AbilityScores:
+  - 19
+  - 23
+  - 20
+  - 12
+  - 14
+  - 18
+BaseAtk: '9'
+CMB: '13'
+CMD: '29'
+Feats:
+  - Double Slice
+  - Improved Initiative
+  - Improved Two- Weapon Fighting
+  - Iron Will
+  - Two-Weapon Defense
+  - Two- Weapon Fighting
+  - Weapon Focus (katana)
+Skills:
+  - Acrobatics +19
+  - Bluff +17
+  - Disguise +17
+  - Fly +14
+  - Intimidate +17
+  - Knowledge (planes) +10
+  - Perception +19
+  - Ride +14
+  - Stealth +19
+Languages:
+  - Minkaian
+  - Tengu
+  - Tien
+SQ: >-
+  change shape (Medium humanoid, alter self ), rogue talents (weapon training),
+  track +1, trapfinding +1, wild empathy +6, yamabushi weapons
+Source: AP 53
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Steal Voice (Su)
+    description: >-
+      Up to three times per day, but no more than once per target, a yamabushi
+      tengu can attempt to steal a victim's voice as part of its bite attack.
+      When it does so, the creature bitten must make a DC 17 Will save or lose
+      the ability to speak aloud. This prevents the use of any spell with verbal
+      components and the use of command-word-activated magic items, among other
+      difficulties. The yamabushi tengu's voice changes to match the one stolen.
+      The victim's voice remains stolen until the oni steals another voice,
+      until the oni agrees to give the stolen voice back (a standard action
+      requiring the oni to touch the victim), or until the next sunrise. Any
+      effect that removes curses (such as remove curse or break enchantment) can
+      restore a stolen voice (DC 17), as does the death of the oni who stole the
+      voice in the first place. The save DC is Charisma-based.
+  - name: Susceptible to Patterns (Ex)
+    description: >-
+      A yamabushi tengu takes a -2 penalty on all saving throws made against
+      illusion spells of the pattern subschool. For 1 round after a yamabushi
+      tengu either makes a successful save against a pattern or recovers from
+      the effects of a pattern, it is dazzled.
+  - name: Yamabushi Weapons (Ex)
+    description: >-
+      A yamabushi tengu is proficient with all monk weapons and all swordlike
+      weapons (including katanas and wakizashi), and gains a +1 bonus on attack
+      rolls and damage rolls with such weapons.
+BeforeCombat: The yamabushi tengus cast blur before combat.
+DuringCombat: >-
+  The oni attack foes with their spell-like abilities as they close to melee
+  range, using flight or dimension door to position themselves for sneak
+  attacks. Against spellcasters, the yamabushi tengus use their steal voice
+  ability to take such foes out of the fray.
+Morale: >-
+  The yamabushi tengus are cowards at heart. If half their number are slain, the
+  rest abandon Sennaka and flee the lodge.
+Gear: thunderstones (2)
+OtherGear: leather armor, katana*, composite longbow (+4 Str) with 20 arrows, wakizashi*
+Note: '* See Ultimate Combat.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '2335'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

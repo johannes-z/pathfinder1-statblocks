@@ -4,6 +4,7 @@ XP: '76800'
 Alignment: 'N'
 Size: Huge
 Type: outsider
+SubType: (earth, elemental, native)
 Init: '-1'
 Senses:
   - darkvision 60 ft., tremorsense 120 ft.
@@ -18,7 +19,7 @@ Ref: '13'
 Will: '17'
 DR: 10/slashing and adamantine
 Immune: elemental traits
-Weaknesses: vulnerability to fire
+SR: '31'
 Speed: 30 ft., burrow 5 ft.
 Melee:
   - 6 slams +32 (3d8+12)
@@ -67,9 +68,22 @@ Description_Visual: >-
   corrugated hide of bark like stone, with many thick branches. It travels along
   on clusters of humping and twining stone roots. It possesses no discernible
   face.
+Group: Treant
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Acidic Blood (Ex)
+    description: >-
+      Anyone striking the stone treant with a piercing or slashing attack and
+      inflicting damage releases a gout of acidic blood, which causes 5d4 points
+      of acid damage to the person who struck it. A DC 20 Reflex save reduces
+      this damage by half. The blood becomes inert one round after leaving the
+      elemental's body.
+  - name: Radial Symmetry (Ex)
+    description: >-
+      Because of its shape, the stone treant can bring no more than four of its
+      slam attacks to bear on any one target. However, it also perceives the
+      area around it equally well, and thus it cannot be flanked.
 Description:
   - >-
     The stone treant is a variant of the treant native to the Plane of Earth.
@@ -94,19 +108,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Treant
 id: '5086'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (earth, elemental, native)
-SR: '31'
-Group: Treant
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

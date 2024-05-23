@@ -1,0 +1,83 @@
+Name: Furnace Golem
+CR: '14'
+XP: '38400'
+Race: Furnace Golem
+MonsterSource: Tome of Horrors Complete 333
+Alignment: 'N'
+Size: Huge
+Type: construct
+Init: '-1'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 29, touch 7, flat-footed 29
+AC_Mods: (-1 Dex, +22 natural, -2 size)
+HP: '144'
+HD: (19d10+40)
+Saves: Fort +6, Ref +5, Will +6
+Fort: '6'
+Ref: '5'
+Will: '6'
+DR: 15/adamantine
+Immune: construct traits, fire, magic
+Resist: cold 20
+Speed: 20 ft.
+Melee:
+  - 2 slams +28 (4d6+11 plus 2d6 fire and grab)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: >-
+  breath weapon (50-ft. line, 10d6 fire damage, Reflex DC 19 half, usable every
+  1d4 rounds), furnace interior, grab (Medium or smaller), heat (2d6 fire)
+AbilityScores:
+  - 32
+  - 9
+  - null
+  - null
+  - 11
+  - 1
+BaseAtk: '19'
+CMB: +32 (+36 grapple)
+CMD: 41 (43 vs. trip)
+Source: AP 72
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Furnace Interior (Ex)
+    description: >-
+      A furnace golem can try to shove a grabbed opponent up to two sizes
+      smaller than itself into its interior by making a successful grapple
+      check. An opponent thrown into the furnace golem's interior is trapped as
+      a metal grating closes over the opening in the same round. A trapped
+      creature automatically takes 2d6 points of fire damage each round.
+      Escaping the creature's interior requires a successful DC 30 Strength
+      check to bend the bars. Alternatively, a trapped creature can escape by
+      dealing at least 25 points of damage to the bars (AC 22; the golem's
+      damage reduction applies to attacks against the bars as well). A Huge
+      furnace golem's interior can hold two Medium, eight Small, or 16 Tiny or
+      smaller creatures.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A furnace golem is immune to spells or spell-like abilities that allow
+      spell resistance. Certain spells and effects function differently against
+      it, as noted below. &#8226; A magical attack that bypasses a furnace
+      golem's cold resistance slows it (as the slow spell) for 3 rounds, with no
+      saving throw. &#8226; A magical attack that deals fire damage breaks any
+      slow effect on the golem and heals 1 point of damage for each 3 points of
+      damage the attack would otherwise deal. If the amount of healing would
+      cause the golem to exceed its full normal hit points, it gains any excess
+      as temporary hit points.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4651'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

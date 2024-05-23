@@ -22,6 +22,7 @@ Melee:
   - bite +13 (2d8+15/18-20 plus grab)
 Space: 20 ft.
 Reach: 5 ft.
+SpecialAttacks: grab, powerful jaws
 AbilityScores:
   - 31
   - 12
@@ -51,7 +52,15 @@ Description_Visual: >-
 Group: Shark
 Source: AP 57
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Powerful Jaws (Ex)
+    description: >-
+      The teeth of the angustiden are so sharp and tough that they make light
+      work of almost any material. When the angustiden makes a successful
+      grapple attempt following the use of its grab ability, it automatically
+      makes a sunder attempt against the armor worn by the creature grappled as
+      a free action. Each round the grapple is maintained it makes another
+      sunder attempt against its victim's armor.
 Description:
   - >-
     The angustiden is a gargantuan hunter of the deep sea. The size and ferocity
@@ -68,13 +77,8 @@ Swim: '1'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Shark, Common
 id: '3074'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: grab, powerful jaws
-SpellLikeAbilities: {}
-SpellsKnown: {}

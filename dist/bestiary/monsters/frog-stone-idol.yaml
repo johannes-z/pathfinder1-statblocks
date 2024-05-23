@@ -8,7 +8,6 @@ Init: '0'
 Senses:
   - darkvision 60 ft., low-light vision
   - Perception +0
-Aura: stony mind (30 ft.)
 AC: 20, touch 9, flat-footed 20
 AC_Mods: (+11 natural, -1 size)
 HP: '79'
@@ -17,6 +16,7 @@ Saves: Fort +3, Ref +3, Will +3
 Fort: '3'
 Ref: '3'
 Will: '3'
+DefensiveAbilities: rejuvenation
 DR: 10/adamantine
 Immune: construct traits (+30 hp), magic
 Speed: 20 ft.
@@ -25,12 +25,11 @@ Melee:
 Space: 10 ft.
 Reach: 5 ft.
 SpecialAttacks: crush (4d6+7; DC 16 Ref half)
-SpellLikeAbilities: {}
 AbilityScores:
   - 21
   - 10
-  - —
-  - —
+  - null
+  - null
   - 11
   - 1
 BaseAtk: '9'
@@ -49,7 +48,47 @@ Description_Visual: >-
 Group: Stone Idol
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Crush (Ex)
+    description: >-
+      A frog stone idol can land on foes as a standard action, using its whole
+      body to crush them. Crush attacks are effective only against opponents one
+      or more size categories smaller than the frog stone idol. A crush attack
+      affects as many creatures as fit in the stone idol's space. Creatures in
+      the affected area must succeed on a DC 16 Reflex save or be pinned,
+      automatically taking bludgeoning damage during the next round unless the
+      stone idol moves off them. If the stone idol chooses to maintain the pin,
+      it must succeed at a combat maneuver check as normal. Pinned foes take
+      damage from the crush each round if they don't escape. The save DC is
+      Constitution-based and includes a +2 racial bonus.
+  - name: Powerful Leaper (Ex)
+    description: >-
+      A frog stone idol uses its Strength to modify Acrobatics checks made to
+      jump, and it has a +8 racial bonus on Acrobatics checks made to jump.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A stone idol is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against the creature, as noted below. A transmute rock to mud
+      spell slows a stone idol (as the slow spell) for 2d6 rounds, with no
+      saving throw, while transmute mud to rock heals all of its lost hit
+      points. A stone to flesh spell does not actually change the stone idol's
+      structure but negates its damage reduction and immunity to magic for 1
+      full round. A disintegrate spell deals +50% damage to a stone idol. A
+      chaos hammer, holy smite, order's wrath, or unholy blight spell deals 1d4
+      points of damage per two caster levels to a stone idol if the creator's
+      alignment matches one of the aforementioned spells.
+  - name: Rejuvenation (Su)
+    description: >-
+      Unless a stone idol's main body is shattered into small fragments and
+      scattered to the winds, the creature reforms itself at full strength in
+      1d4+2 days.
+  - name: Site Bound (Ex)
+    description: >-
+      A stone idol cannot travel more than 200 feet from a central point
+      designated by its creator. Once this point is selected, it can never be
+      changed. A stone idol taken outside the area ceases functioning until it
+      is brought back into the area.
 Description:
   - >-
     A stone idol frog is about 10 feet long and weighs 10,000 pounds. It leaps
@@ -88,14 +127,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '5071'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-DefensiveAbilities: rejuvenation
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

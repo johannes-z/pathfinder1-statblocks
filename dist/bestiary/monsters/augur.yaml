@@ -20,13 +20,23 @@ Ref: '8'
 Will: '4'
 DR: 5/good or silver
 Immune: cold
-SR: '17'
 Speed: 20 ft., fly 50 ft. (perfect)
 Melee:
   - gore +4 (1d4-1 plus bleed)
 Space: 2-1/2 ft.
 Reach: 0 ft.
 SpecialAttacks: bleed (1d2), unnerving gaze (30 ft., DC 9)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th; concentration +4)
+  values:
+    - label: Constant
+      value: deathwatch
+    - label: At Will
+      value: bleed (DC 8), mage hand, open/close
+    - label: 3/day
+      value: inflict light wounds (DC 9)
+    - label: 1/week
+      value: commune (CL 12th, 6 questions)
 AbilityScores:
   - 8
   - 17
@@ -52,16 +62,20 @@ Skills:
 Languages:
   - Common
   - Infernal (cannot speak)
-SQ: chain armor
 Environment: any (Plane of Shadow)
 Organization: solitary, pair, pack (3-5), or squad (6-8)
 Treasure: standard
 Description_Visual: >-
   A single eye peers from behind the armor plates and keen-edged blades that
   compose the cage-like exterior of this tiny flying orb.
+Group: Kyton
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Unnerving Gaze (Ex)
+    description: >-
+      A creature that succumbs to an augur's unnerving gaze becomes shaken for 1
+      round.
 Description:
   - >-
     Gory sentinels with a lust for flesh and the myriad bodily fluids contained
@@ -105,17 +119,9 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Kyton
 id: '2117'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpellLikeAbilities: {}
-Group: Kyton
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

@@ -18,11 +18,15 @@ Saves: Fort +16, Ref +6, Will +13 (+17 vs. mind-affecting effects)
 Fort: '16'
 Ref: '6'
 Will: +13 (+17 vs. mind-affecting effects)
+DefensiveAbilities: multiple minds
+Immune: confusion and insanity effects
 Speed: 30 ft.
 Melee:
   - >-
     club +20/+15/+10 (2d6+10/19-20), bite +15 (2d6+5 plus grab), claw +15 (1d8+5
     plus grab)
+Ranged:
+  - rock +10 (2d8+15)
 Space: 15 ft.
 Reach: 15 ft.
 SpecialAttacks: >-
@@ -50,6 +54,7 @@ Feats:
 Skills:
   - Climb +29
   - Perception +26
+RacialMods: +4 Perception
 Languages:
   - Giant
 Environment: cold hills or mountains
@@ -58,8 +63,29 @@ Treasure: standard (club, other treasure)
 Description_Visual: >-
   This immense green-skinned brute wields a tree branch for a club and has nine
   heads, each filled with jutting teeth and tusks.
+Group: Troll
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Seeing Attacks (Ex)
+    description: >-
+      A jotund troll can make nine additional attacks of opportunity in a round,
+      one for each head, although no more than a single attack for any given
+      opportunity.
+  - name: Cacophonous Roar (Su)
+    description: >-
+      Once every 1d4 rounds as a standard action, a jotund troll can emit a
+      cacophonous roar from its nine heads. All creatures within a 60-foot
+      spread of the troll must make a DC 20 Will save or become confused for 1d4
+      rounds. This is a mind-affecting effect. The save DC is Charisma-based and
+      includes a +4 racial bonus.
+  - name: Multiple Minds (Ex)
+    description: >-
+      A jotund troll has nine different minds that are in constant communication
+      with each other. The resulting jumble of tangled thoughts grants the troll
+      a +4 racial bonus on all Will saving throws against mind-affecting
+      effects. In addition, whenever a jotund troll must make a Will save, it
+      can roll the saving throw twice and take the better of the two results.
 Description:
   - >-
     Jotund trolls are gigantic, nine-headed horrors. Prowling frigid moors and
@@ -86,23 +112,9 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Troll
 id: '2216'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Ranged:
-  - rock +10 (2d8+15)
-DefensiveAbilities: multiple minds
-Immune: confusion and insanity effects
-RacialMods: +4 Perception
-Group: Troll
-SpecialAbilities: {}
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

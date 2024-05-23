@@ -1,0 +1,74 @@
+Name: Burning Skeleton
+CR: 1/2
+XP: '200'
+Race: human
+MonsterSource: Pathfinder RPG Bestiary 250
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 14, touch 12, flat-footed 12
+AC_Mods: (+2 Dex, +2 natural)
+HP: '5'
+HD: (1d8+1)
+Saves: Fort +1, Ref +1, Will +2
+Fort: '1'
+Ref: '1'
+Will: '2'
+DefensiveAbilities: channel resistance +4
+DR: 5/bludgeoning
+Immune: fire, undead traits
+Weaknesses: vulnerable to cold
+Speed: 30 ft.
+Melee:
+  - 2 claws +2 (1d4+2 plus 1d6 fire)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: fiery aura (1d6 fire)
+AbilityScores:
+  - 15
+  - 14
+  - null
+  - null
+  - 10
+  - 12
+BaseAtk: '0'
+CMB: '2'
+CMD: '14'
+Feats:
+  - Improved InitiativeB
+SQ: fiery death
+Source: PFS 8-06
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Fiery Aura (Ex)
+    description: >-
+      Creatures adjacent to a burning skeleton take 1d6 points of fire damage at
+      the start of their turn. Anyone striking a burning skeleton with an
+      unarmed strike or natural attack takes 1d6 points of fire damage.
+  - name: Fiery Death (Su)
+    description: >-
+      A burning skeleton explodes into a burst of flame when it dies. Anyone
+      adjacent to the skeleton when it is destroyed takes 1d6 points of fire
+      damage (Reflex DC 11 negates).
+DuringCombat: The burning skeleton attacks nearby creatures.
+Morale: The burning skeleton fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: burning@skeleton|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8745'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -21,6 +21,7 @@ Melee:
   - bite +1 (1d4 plus disease)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: disease
 AbilityScores:
   - 10
   - 17
@@ -48,6 +49,12 @@ Description_Visual: >-
 Group: Rat
 Source: PFRPG Bestiary
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Bite-injury; save Fort DC 11; onset 1d3 days; frequency
+      1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
+      The save DC is Constitution-based.
 Description:
   - >-
     Dire rats grow up to 2 feet long and weigh up to 25 pounds. They are common
@@ -65,14 +72,9 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Rat, Dire
 id: '299'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: disease
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

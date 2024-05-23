@@ -1,0 +1,118 @@
+Name: Crusher
+CR: '6'
+XP: '2400'
+Race: cave giant
+MonsterSource: Pathfinder RPG Bestiary 3 127
+Alignment: CE
+Size: Large
+Type: humanoid
+SubType: (giant)
+Init: '0'
+Senses:
+  - darkvision 120 ft., low-light vision
+  - Perception +6
+AC: 18, touch 9, flat-footed 18
+AC_Mods: (+3 armor, +6 natural, -1 size)
+HP: '76'
+HD: (9d8+36)
+Saves: Fort +10, Ref +3, Will +3 (+2 vs. violent temper per handler)
+Fort: '10'
+Ref: '3'
+Will: +3 (+2 vs. violent temper per handler)
+DefensiveAbilities: ferocity, rock catching
+Weaknesses: light sensitivity
+Speed: 30 ft.
+Melee:
+  - 2 slams +12 (1d8+6)
+  - 2 chains (with orcs) +9/+4 (2d6+6)
+  - 2 chains (without orcs) +11/+6 (1d8+6)
+Ranged:
+  - rock +6 (1d8+6)
+Space: 10 ft.
+Reach: 10 ft. (20 ft. with chains)
+SpecialAttacks: flailing chains, rock throwing (100 ft.), violent temper
+AbilityScores:
+  - 23
+  - 10
+  - 19
+  - 6
+  - 10
+  - 7
+BaseAtk: '6'
+CMB: +13 (+15 sunder)
+CMD: 23 (25 vs. sunder)
+Feats:
+  - Cleave
+  - Improved Sunder
+  - Power Attack
+  - Vital Strike
+  - Weapon Focus (slams)
+Skills:
+  - Climb +4
+  - Intimidate +8
+  - Perception +6
+Languages:
+  - Orc
+SQ: axe wielder, handlers
+Source: AP 91
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Flailing Chains (Ex)
+    description: >-
+      Because he has been shackled for most of his life, Crusher is highly
+      capable of fighting using the chains of his manacles. Crusher's chain
+      attacks deal different amounts of damage depending on whether or not orcs
+      are still chained to his wrists. With attached orcs, Crusher takes a -2 on
+      attack rolls with his chains. On a successful hit, the attached orc takes
+      damage equal to the amount of damage Crusher deals as the giant swings his
+      allies wildly about and smashes them into opponents. If the attached orcs
+      die, their bloody corpses fall off the chains after 1 round. Thereafter,
+      Crusher makes chain attacks without attached orcs.
+  - name: Handlers (Ex)
+    description: >-
+      Crusher requires the constant attention of four handlers&#8211;two orc
+      beast-tamers controlling his legs and two chained orcs controlling his
+      arms. Normally, Crusher follows his leg handlers with little need for
+      direction, allowing the beast-tamers to take normal actions during combat.
+      The two orcs chained to his arms, however, must spend move actions to move
+      with the giant and standard actions to direct Crusher's attacks. If not
+      directed in this way, the giant takes no actions, moaning in pain or
+      gazing listlessly at the blood on the battlefield until he eventually
+      succumbs to his violent temper. For each orc handler still conscious and
+      attached to him, Crusher gains a cumulative +2 bonus on Will saves against
+      his violent temper ability (maximum +8).
+  - name: Violent Temper (Ex)
+    description: >-
+      Crusher becomes violently enraged if he isn't tended to by his "little
+      green play-people." Each round of combat on his turn, Crusher must succeed
+      at a DC 14 Will save or become enraged for 4 rounds. While enraged,
+      Crusher gains the confused condition and does not follow the guidance of
+      his handlers. He gains a +2 morale bonus to Strength and Constitution
+      (including 9 additional hit points), a +1 morale bonus on Will saves, and
+      a &#8211;2 penalty to Armor Class. Crusher always makes chain attacks
+      while enraged. After raging, Crusher is fatigued for a number of rounds
+      equal to the number of rounds spent enraged, and he cannot become enraged
+      again while fatigued or exhausted. This effect is otherwise identical to a
+      barbarian's rage.
+Gender: Male
+DuringCombat: >-
+  Crusher uses his slam attacks as directed by his orc handlers until they are
+  dead or until he succumbs to his violent temper, at which point he uses his
+  chains&#8211;with or without attached orcs.
+Morale: Crusher knows only pain, and he fights to the death.
+Gear: broken breastplate
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6768'
+UniqueMonster: '1'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -54,21 +54,45 @@ Skills:
   - Knowledge (nature) +16
   - Perception +25
   - Sense Motive +17
-RacialMods: +16 Stealth in forests
 Languages:
   - Infernal
   - Razor Treant
   - Sylvan
-SQ: animate trees, double damage against objects, treespeech
 Environment: forests or jungle
 Organization: solitary, pair, or grove (3-6)
 Treasure: incidental
 Description_Visual: >-
   This thin and gnarled black tree grows wickedly sharp razors instead of
   leaves. The razors ring like a thousand tiny bells with every wind gust.
+Group: Treant
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Bloody Autumn (Ex)
+    description: >-
+      In this awesome attack the razor treant violently shakes itself as a
+      full-round action, letting all of its leaves fall off to the ground. All
+      creatures within 30 feet of the razor treant suffer 10d4 slashing damage
+      and 1d4 bleed damage (DC 20 Reflex save for half and no bleed damage).
+      Those who fail the Reflex save must succeed on an additional DC 20 Will
+      save or be staggered for 1 round from the terrible pain of the hundreds of
+      small wounds inflicted on them. Using this attack leaves the razor treant
+      without its razor leaves for 2-6 days so it only resorts to this tactic in
+      desperate situations.
+  - name: Razor Leaves (Ex)
+    description: >-
+      Razor treants grow razors instead of leaves, hence the name. These
+      extremely keen steel blades range from one to three inches in length and
+      can easily cut through flesh. Any physical attack made by a razor treant
+      is counted as being keen and wounding (already incorporated into the
+      statistics above). Even merely touching a razor treant (including unarmed
+      melee attacks) inflicts 1d4 points of slashing damage plus wounding on the
+      victim. When a razor treant is struck for more than 20 points of damage in
+      a single blow, it loses some of its poorly connected leaves. Everyone
+      within 30 feet of the razor treant suffers 1d4 points of wounding slashing
+      damage (DC 20 Reflex negates). The razor leaves break down quickly after
+      the treant's death, remaining for only 1d2 rounds. The area around the
+      treant is considered difficult terrain during that time.
 Description:
   - >-
     Razor treants are the evil and hateful cousins of the treants, often
@@ -101,17 +125,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Treant
 id: '5085'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Treant
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

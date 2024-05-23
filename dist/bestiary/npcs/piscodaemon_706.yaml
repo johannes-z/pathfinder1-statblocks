@@ -1,0 +1,109 @@
+Name: Piscodaemon
+CR: '10'
+XP: '9600'
+Race: Piscodaemon
+MonsterSource: Tome of Horrors Revised 85
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (aquatic, daemon, evil, extraplanar)
+Init: '8'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +16
+AC: 24, touch 14, flat-footed 20
+AC_Mods: (+4 Dex, +10 natural)
+HP: '137'
+HD: (11d10+77)
+Saves: Fort +14, Ref +7, Will +9
+Fort: '14'
+Ref: '7'
+Will: '9'
+DR: 10/good
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+SR: '21'
+Speed: 30 ft., swim 50 ft.
+Melee:
+  - >-
+    2 claws +19 (2d6+7/18-20/x3 plus grab and 1d6 bleed), tentacles +17 (1d10+3
+    plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict (2d6+10)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th; concentration +14)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At will
+      value: dispel magic, greater teleport (self plus 50 lbs. of objects only)
+    - label: 3/day
+      value: fly, stinking cloud (DC 16)
+    - label: 1/day
+      value: summon (level 4, 1d3 hydrodaemons 35%; not usable at this time)
+AbilityScores:
+  - 25
+  - 18
+  - 24
+  - 14
+  - 15
+  - 17
+BaseAtk: '11'
+CMB: '18'
+CMD: '32'
+Feats:
+  - Critical Focus
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Sickening Critical
+  - Vital Strike
+Skills:
+  - Escape Artist +18
+  - Intimidate +17
+  - Knowledge (planes) +16
+  - Perception +16
+  - Sense Motive +16
+  - Stealth +18
+  - Survival +16
+  - Swim +29
+Languages:
+  - Abyssal
+  - Draconic
+  - Infernal
+  - telepathy 100 ft.
+SQ: amphibious
+Source: AP 33
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Tentacles-injury; save Fort DC 14; frequency 1/ round for 6 rounds; effect
+      1d2 Con plus staggered for 1 round; cure 2 consecutive saves.
+DuringCombat: >-
+  The piscodaemon attacks well-armored foes in preference to spellcasters, for
+  it knows that making a melee fighter staggered with its poison is more
+  crippling than the same effect applied to a spellcaster&#8211;it trusts its
+  spell resistance and other defenses to protect it from most magical attacks.
+  If reduced to fewer than 50 hit points, the daemon casts stinking cloud on
+  itself&#8211;it's immune to the spell's poison effect and hopes to slow down
+  its attackers with this tactic. (Note that since this piscodaemon is itself
+  summoned, it cannot use its own summon ability.)
+Morale: The piscodaemon fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+LinkText: Piscodaemon
+id: '706'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

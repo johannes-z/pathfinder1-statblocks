@@ -1,0 +1,146 @@
+Name: Damiel
+CR: '1'
+XP: '400'
+Race: elf
+Class: alchemist 1
+Alignment: CN
+Size: Medium
+Type: humanoid
+SubType: (elf)
+Init: '2'
+Senses:
+  - low-light vision
+  - Perception +5
+AC: 15, touch 12, flat-footed 13
+AC_Mods: (+3 armor, +2 Dex)
+HP: '9'
+HD: (1d8+1)
+Saves: Fort +3, Ref +4, Will -1; +2 vs. enchantments
+Fort: '3'
+Ref: '4'
+Will: '-1; +2 vs. enchantments'
+Immune: sleep
+Speed: 30 ft.
+Melee:
+  - rapier +1 (1d6+1/18-20)
+  - dagger +1 (1d4+1/19-20)
+Ranged:
+  - sling +2 (1d4+1)
+  - bomb +3 (1d6+3 fire)
+  - thrown splash weapon +3 (by weapon +3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bomb 4/day (1d6+3 fire, DC 13), throw anything
+AbilityScores:
+  - 12
+  - 15
+  - 12
+  - 17
+  - 8
+  - 10
+BaseAtk: '0'
+CMB: '1'
+CMD: '13'
+Feats:
+  - Brew Potion
+  - Skill Focus (Craft [Alchemy])
+  - Throw Anything
+Skills:
+  - Appraise +7
+  - Climb +0
+  - Craft (alchemy) +11
+  - Disable Device +5
+  - Knowledge (nature) +7
+  - Perception +5
+  - Sleight of Hand +6
+  - Spellcraft +7 (+9 identify magic items)
+  - Use Magic Device +4
+Languages:
+  - Common
+  - Draconic
+  - Elven
+  - Gnome
+  - Goblin
+SQ: alchemy, elven magic, extract, mutagen, weapon familiarity
+Source: Master of the Fallen Fortress
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Alchemy (Su)
+    description: >-
+      You gain a +1 bonus when using Craft (alchemy) to create an alchemical
+      item. You can use Craft (alchemy) to identify potions as if using detect
+      magic; you must hold the potion for 1 round to make such a check.
+  - name: Extract (Su)
+    description: >-
+      An extract is a stored alchemist spell. You prepare your spells by mixing
+      ingredients into a number of extracts, and then "cast" them by drinking
+      the extract, like a potion. You can only create a certain number of
+      extracts of each level per day (two 1st-level extracts at character level
+      1). When you mix an extract, you infuse the chemicals and reagents in the
+      extract with magic siphoned from your own magical aura. An extract
+      immediately becomes inert if it leaves your possession, reactivating as
+      soon as it returns to your keeping; this means you cannot normally hand
+      out your extracts for allies to use. An extract remains potent for 1 day
+      before becoming inert, so you must re-prepare your extracts every day.
+      Mixing an extract takes 1 minute of work-most alchemists prepare many
+      extracts at the start of the day or just before going on an adventure, but
+      you can keep some (or even all) of your daily extract slots open so you
+      can prepare extracts in the field as needed. You "cast" an extract by
+      drinking it, like drinking a potion. Your alchemist level is the caster
+      level of the extract. The recipes for extracts you know are kept in your
+      formula book.
+  - name: Bomb (Su)
+    description: >-
+      A bomb is an explosive splash weapon created from raw ingredients and
+      power from your innate magic. Creating and throwing a bomb is a standard
+      action that provokes an attack of opportunity. Thrown bombs have a range
+      of 20 feet and use the "Throw Splash Weapon" special attack (see page 202
+      of the Pathfinder RPG Core Rulebook). Bombs are unstable, and if not used
+      in the round they are created, they degrade and become inert. Splash
+      damage from an alchemist bomb is always equal to the bomb's minimum damage
+      (Reflex half ).
+  - name: Mutagen (Su)
+    description: >-
+      Mutagens are transformative elixirs that you can drink to enhance your
+      physical abilities at the cost of your personality. It takes 1 hour to
+      brew a dose of mutagen, and once brewed, it remains potent until used. You
+      can only maintain one dose of mutagen at a time&#8211;if you brew a second
+      dose, any existing mutagen becomes inert. A mutagen that is not in your
+      possession becomes inert until you pick it up again; non-alchemists cannot
+      use mutagens. When you brew a mutagen, you select one physical ability
+      score&#8211;either Strength, Dexterity, or Constitution. The mutagen gives
+      you a +4 alchemical bonus to that ability score and a +2 natural armor
+      bonus for 10 minutes, but you take a penalty to a mental ability score for
+      that same amount of time (Strength mutagens give you an Intelligence
+      penalty, Dexterity mutagens give you a Wisdom penalty, and Constitution
+      mutagens give you a Charisma penalty). Drinking a mutagen is a standard
+      action. Mutagens do not stack. Whenever you drink a mutagen, the effects
+      of any previous mutagen immediately end.
+Gender: Male
+Gear: >-
+  potion of cure light wounds, potion of shield, acid, alchemist's fire (2),
+  mutagen (Dexterity), oil flasks (5), tanglefoot bag, thunderstone
+OtherGear: >-
+  studded leather armor, dagger, rapier, sling with 10 bullets, alchemist's kit
+  (as spell component pouch), backpack, formula book (contains all prepared
+  extracts, plus cure light wounds, expeditious retreat, and shield), rations
+  (4), sunrods (3), thieves' tools, tindertwigs (6), various and sundry
+  inebriants and intoxicants, 2 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+ExtractsPrepared: >-
+  Alchemist Extracts Prepared (CL 1st; concentration +4) 1st-enlarge person,
+  true strike
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '838'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

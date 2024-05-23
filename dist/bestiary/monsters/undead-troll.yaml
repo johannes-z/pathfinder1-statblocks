@@ -4,7 +4,6 @@ XP: '2400'
 Alignment: CE
 Size: Large
 Type: undead
-SubType: (giant)
 Init: '2'
 Senses:
   - darkvision 60 ft., darkvision 60 ft., scent
@@ -18,6 +17,9 @@ Saves: Fort +5, Ref +4, Will +7
 Fort: '5'
 Ref: '4'
 Will: '7'
+DR: 5/magic
+Immune: undead traits
+Resist: cold 10, fire 10
 Speed: 40 ft.
 Melee:
   - bite +12 (1d8+7), 2 claws +12 (1d6+7 plus bleed)
@@ -27,7 +29,7 @@ SpecialAttacks: bleed (1d6), rend (2 claws, 1d6+10)
 AbilityScores:
   - 24
   - 14
-  - —
+  - null
   - 6
   - 9
   - 16
@@ -52,6 +54,7 @@ Treasure: standard
 Description_Visual: >-
   This tall and hideous humanoid has sickly green, rotting flesh and hands that
   end in filthy claws.
+Group: Troll
 Source: Tome of Horrors 4
 IsTemplate: '0'
 Description:
@@ -84,21 +87,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Troll
 id: '5089'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-DR: 5/magic
-Immune: undead traits
-Resist: cold 10, fire 10
-Group: Troll
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

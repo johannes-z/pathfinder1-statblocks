@@ -25,7 +25,20 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: bleed 1d4, detect thoughts (DC 15), sneak attack +1d6
-SpellsKnown: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +7)
+  values:
+    - label: 1/day
+      value: clairaudience/clairvoyance
+SpellsKnown:
+  header: Spells Known (CL 2nd; concentration +4)
+  values:
+    - label: 1st (5/day)
+      value: charm person (DC 13), ventriloquism (DC 13)
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 12), daze (DC 12), detect magic, ghost sound (DC 12), mage
+        hand
 AbilityScores:
   - 13
   - 18
@@ -61,9 +74,10 @@ Treasure: standard
 Description_Visual: >-
   This small creature looks like a well-dressed and jewelry-bedecked fiendish
   gnome, its face mostly mouth and fangs.
+Group: Rakshasa
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities: []
 Description:
   - >-
     Dandasukas, also known as "biters" among rakshasas, serve as spies and
@@ -105,16 +119,9 @@ Climb: '1'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Rakshasa
 id: '2171'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpellLikeAbilities: {}
-Group: Rakshasa
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'

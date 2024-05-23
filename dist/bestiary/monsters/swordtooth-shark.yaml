@@ -22,6 +22,7 @@ Melee:
   - bite +8 (2d6+8/18-20 plus bleed)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: bleed (1d6, DC 15)
 AbilityScores:
   - 19
   - 12
@@ -48,7 +49,15 @@ Description_Visual: >-
 Group: Shark
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Keen Scent (Ex)
+    description: >-
+      A swordtooth shark can notice creatures by scent in a 180-foot radius
+      underwater and can detect blood in the water at ranges of up to a mile.
+  - name: Savage Bite (Ex)
+    description: >-
+      A swordtooth shark applies twice its Strength bonus to damage dealt with
+      its bite attack, and it threatens a critical hit on an 18-20.
 Description:
   - >-
     Swordtooth sharks are highly aggressive carnivores that spend most of their
@@ -85,17 +94,8 @@ Swim: '1'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Shark, Common
 id: '5055'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: bleed (1d6, DC 15)
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

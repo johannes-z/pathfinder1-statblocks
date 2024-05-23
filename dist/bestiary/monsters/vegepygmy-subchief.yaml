@@ -4,6 +4,7 @@ XP: '1600'
 Alignment: 'N'
 Size: Medium
 Type: plant
+SubType: (fungus)
 Init: '1'
 Senses:
   - low-light vision
@@ -16,12 +17,14 @@ Saves: Fort +8, Ref +3, Will +3
 Fort: '8'
 Ref: '3'
 Will: '3'
-DefensiveAbilities: plant traits
 DR: 5/bludgeoning or slashing
 Immune: electricity, plant traits
 Speed: 30 ft.
 Melee:
-  - 2 claws +8 (1d4+4) or spear +9 (1d8+6 /x3)
+  - 2 claws +8 (1d4+4)
+  - spear +9 (1d8+6 /x3)
+Ranged:
+  - spear +6 (1d8+4/x3)
 Space: 5 ft.
 Reach: 5 ft.
 AbilityScores:
@@ -53,6 +56,7 @@ Description_Visual: >-
   razor-sharp claws. Its head sports two large yellow eyes, a wide mouth, inset
   nose, and a topknot of dark brown leaves. Leafy tendrils protrude from its
   shoulders, midsection, arms, and legs.
+Group: Vegepygmy
 Source: Tome of Horrors Complete
 IsTemplate: '0'
 Description:
@@ -74,6 +78,7 @@ Description:
     Edition Monster Manual II (© TSR/Wizards of the Coast, 1983) and is used by
     permission. Copyright Notice Author Scott Greene, based on original material
     by Gary Gygax.
+Gear: spear
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -83,18 +88,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Vegepygmy
 id: '3415'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Ranged:
-  - spear +6 (1d8+4/x3)
-SubType: (fungus)
-Group: Vegepygmy
-Gear: spear
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

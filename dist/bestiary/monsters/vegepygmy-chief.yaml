@@ -4,6 +4,7 @@ XP: '2400'
 Alignment: 'N'
 Size: Medium
 Type: plant
+SubType: (fungus)
 Init: '1'
 Senses:
   - low-light vision
@@ -16,14 +17,17 @@ Saves: Fort +9, Ref +4, Will +5
 Fort: '9'
 Ref: '4'
 Will: '5'
-DefensiveAbilities: plant traits
 DR: 5/bludgeoning or slashing
 Immune: electricity, plant traits
 Speed: 30 ft.
 Melee:
-  - 2 claws +11 (1d6+5) or mwk spear +13/+8 (1d8+7/x3)
+  - 2 claws +11 (1d6+5)
+  - mwk spear +13/+8 (1d8+7/x3)
+Ranged:
+  - mwk spear +9 (1d8+5/x3)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: spores
 AbilityScores:
   - 21
   - 12
@@ -59,8 +63,22 @@ Description_Visual: >-
   razor-sharp claws. Its head sports two large yellow eyes, a wide mouth, inset
   nose, and a topknot of dark brown leaves. Leafy tendrils protrude from its
   shoulders, midsection, arms, and legs.
+Group: Vegepygmy
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Spores (Ex)
+    description: >-
+      The chief is the only vegepygmy with a spore attack. As a standard action,
+      a chief vegepygmy can release a cloud of spores in a 40-foot spread. A
+      living creature caught within the cloud must succeed on a DC 17 Fortitude
+      save or be paralyzed for 2d6 rounds. After the paralysis wears off, the
+      character must succeed on another DC 17 Fortitude save or take 3d6 points
+      of Constitution damage. This save DC is Constitution-based. At
+      Constitution 0 a creature dies, and rises as a 4 HD vegepygmy bodyguard in
+      one day. If a remove disease spell is cast on a paralyzed victim before
+      the paralysis wears off, he does not have to attempt the second Fortitude
+      save and takes no Constitution damage.
 Description:
   - >-
     When a living creature is slain by russet mold (see that entry), it rises as
@@ -80,6 +98,7 @@ Description:
     Edition Monster Manual II (© TSR/Wizards of the Coast, 1983) and is used by
     permission. Copyright Notice Author Scott Greene, based on original material
     by Gary Gygax.
+Gear: masterwork spear
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -89,19 +108,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Vegepygmy
 id: '3416'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Ranged:
-  - mwk spear +9 (1d8+5/x3)
-SubType: (fungus)
-SpecialAttacks: spores
-Group: Vegepygmy
-SpecialAbilities: {}
-Gear: masterwork spear
-SpellLikeAbilities: {}
-SpellsKnown: {}

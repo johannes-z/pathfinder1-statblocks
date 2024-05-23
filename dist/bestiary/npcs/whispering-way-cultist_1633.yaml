@@ -1,0 +1,112 @@
+Name: Whispering Way Cultist
+CR: '5'
+XP: '1600'
+Race: Human
+Class: rogue (spy) 3/necromancer 3
+MonsterSource: Pathfinder RPG Advanced Player's Guide 135
+Alignment: CE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '3'
+Senses:
+  - Perception +8
+AC: 18, touch 14, flat-footed 15
+AC_Mods: (+4 armor, +1 deflection, +3 Dex)
+HP: '38'
+HD: (6 HD; 3d8+3d6+11)
+Saves: Fort +4, Ref +8, Will +6
+Fort: '4'
+Ref: '8'
+Will: '6'
+DefensiveAbilities: evasion
+Speed: 30 ft.
+Melee:
+  - mwk short sword +7 (1d6/19-20 plus poison)
+Ranged:
+  - mwk light crossbow +7 (1d8/19-20 plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: channel negative energy (DC 12, 6/day), sneak attack +2d6
+SpellLikeAbilities:
+  header: Arcane School Spell-Like Abilities (CL 3rd; concentration +6)
+  values:
+    - label: 6/day
+      value: bolster* (1 round)
+SpellsPrepared: >-
+  Necromancer Spells Prepared (CL 3rd; concentration +6)  2nd-acid arrow, false
+  life, scorching ray  1st-chill touch (DC 14), mage armor, ray of enfeeblement
+  (DC 14), vanish*  0 (at will)-bleed (DC 13), detect magic, ray of frost, read
+  magic, touch of fatigue (DC 13)
+AbilityScores:
+  - 10
+  - 16
+  - 8
+  - 16
+  - 13
+  - 10
+BaseAtk: '3'
+CMB: '3'
+CMD: '17'
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Great Fortitude
+  - Scribe Scroll
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Bluff +9
+  - Craft (alchemy) +11
+  - Diplomacy +8
+  - Disable Device +7
+  - Disguise +8
+  - Intimidate +7
+  - Knowledge (arcana) +12
+  - Knowledge (religion) +12
+  - Perception +8
+  - Sense Motive +8
+  - Spellcraft +10
+  - Stealth +10
+  - Use Magic Device +4
+Languages:
+  - Common
+  - Draconic
+  - Necril
+  - Varisian
+SQ: >-
+  arcane bond (amulet), focused arcane school (undead)*, poison use, rogue
+  talents (swift poison*), skilled liar
+Source: AP 45
+IsTemplate: '0'
+ProhibitedSchools: Abjuration, Enchantment
+BeforeCombat: Before going out on patrol, a cultist casts false life and mage armor.
+DuringCombat: >-
+  A cultist uses his bolster ability on his undead allies, while attacking
+  opponents at range with his spells.
+Morale: A Whispering Way cultist fights to the death.
+Gear: wand of command undead (6 charges), bloodroot poison (4 doses)
+OtherGear: >-
+  masterwork light crossbow with 20 bolts, masterwork short sword, cloak of
+  resistance +1, ring of protection +1, spellbook (contains all prepared spells,
+  plus all 0-level spells, command undead, and 1d3 random spells of level 1 and
+  2), spell component pouch, thieves' tools, Whispering Way amulet, 65 gp
+Note: '* See the Advanced Player''s Guide.'
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without his spells, a Whispering Way cultist's statistics are AC 14, touch 14,
+  flat-footed 11; hp 30.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '1633'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

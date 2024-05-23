@@ -1,8 +1,6 @@
 Name: Frost Dwarf
 CR: '1'
 XP: '400'
-Race: Dwarf
-Class: warrior 1
 Alignment: CN
 Size: Medium
 Type: humanoid
@@ -19,8 +17,8 @@ Saves: Fort +5, Ref +0, Will +1
 Fort: '5'
 Ref: '0'
 Will: '1'
-Save_Mods: +2 vs. poison, spells, and spell-like abilities
-DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Immune: cold
+Weaknesses: vulnerability to fire
 Speed: 20 ft.
 Melee:
   - battleaxe +3 (1d8+1 plus 1d4 cold)
@@ -44,10 +42,12 @@ Skills:
   - Perception +1
   - Stealth +0 (+4 in snow)
   - Survival +6
+RacialMods: +4 Stealth in snow
 Languages:
   - Common
   - Dwarf
   - Giant
+SQ: dwarf traits
 Environment: cold mountains
 Organization: >-
   Team (2-4), squad (9-16 plus 3 3rd-level sergeants and 1 leader of 3rd-8th
@@ -58,8 +58,15 @@ Treasure: standard (leather, battleaxe, other treasure)
 Description_Visual: >-
   This stocky humanoid is about 4 feet tall with bright blue eyes and long
   bluish-white hair.
+Group: Dwarf
 Source: Tome of Horrors 4
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Cold (Su)
+    description: >-
+      When a frost dwarf is in a cold climate, it deals an extra 1d4 points of
+      cold damage with both weapons and natural attacks. This does not function
+      if the frost dwarf is in temperate or warmer climates.
 Description:
   - >-
     Frost dwarves are chaotic and untamed as the glacial expanses which they
@@ -118,21 +125,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '4811'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Immune: cold
-Weaknesses: vulnerability to fire
-RacialMods: +4 Stealth in snow
-SQ: dwarf traits
-Group: Dwarf
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -8,6 +8,7 @@ Init: '5'
 Senses:
   - darkvision 60 ft., low-light vision
   - Perception +21
+Aura: magic circle against evil
 AC: 18, touch 10, flat-footed 17
 AC_Mods: (+1 Dex, +8 natural, -1 size)
 HP: '147'
@@ -16,13 +17,32 @@ Saves: Fort +14, Ref +10, Will +10
 Fort: '14'
 Ref: '10'
 Will: '10'
+DR: 10/evil
 SR: '18'
 Speed: 40 ft., fly 80 ft. (average)
 Melee:
   - 2 hooves +20 (1d6+7)
 Space: 10 ft.
 Reach: 5 ft.
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th)
+  values:
+    - label: At Will
+      value: >-
+        astral projection (self only), clairaudience/ clairvoyance, detect evil,
+        detect magic, detect thoughts (DC 15), invisibility (self only)
+    - label: 2/day
+      value: dominate person (DC 20), telekinesis (DC 20)
+SpellsPrepared: >-
+  Typical Spells Prepared (CL 10th)   5th-breath of lifeD, greater command (DC
+  20), mass cure light wounds (DC 20), righteous might  4th-divination, divine
+  power, holy smiteD (DC 19), restoration, spell immunity  3rd-create food and
+  water, cure serious woundsD (DC 18), dispel magic, prayer, protection from
+  energy  2nd-bull's strength, calm emotions (DC 17), cure moderate woundsD (DC
+  17), eagle's splendor, remove paralysis, resist energy  1st-bless, command (DC
+  16), cure light woundsD (DC 16), divine favor, endure elements, remove fear,
+  sanctuary (DC 16)  0 (at will)-light, guidance, read magic, resistance
+SpellDomains: Good, Healing
 AbilityScores:
   - 24
   - 12
@@ -62,9 +82,15 @@ Description_Visual: >-
   This creature has the body of a chestnut-colored horse, large brown-feathered
   wings, and the head and face of a bearded human. Its long beard and hair is
   straight-braided.
+Group: Shedu
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Magic Circle against Evil (Su)
+    description: >-
+      A greater shedu radiates a continuous magic circle against evil at caster
+      level 14th. This effect can be dispelled, but the greater shedu can resume
+      the magic circle as a free action at will.
 Description:
   - >-
     Greater shedu are the leaders and champions of their race. If encountered
@@ -93,23 +119,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '3007'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Aura: magic circle against evil
-DR: 10/evil
-SpellsPrepared: >-
-  Typical Spells Prepared (CL 10th)   5th-breath of lifeD, greater command (DC
-  20), mass cure light wounds (DC 20), righteous might  4th-divination, divine
-  power, holy smiteD (DC 19), restoration, spell immunity  3rd-create food and
-  water, cure serious woundsD (DC 18), dispel magic, prayer, protection from
-  energy  2nd-bull's strength, calm emotions (DC 17), cure moderate woundsD (DC
-  17), eagle's splendor, remove paralysis, resist energy  1st-bless, command (DC
-  16), cure light woundsD (DC 16), divine favor, endure elements, remove fear,
-  sanctuary (DC 16)  0 (at will)-light, guidance, read magic, resistance
-SpellDomains: Good, Healing
-Group: Shedu
-SpellsKnown: {}

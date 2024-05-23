@@ -4,6 +4,7 @@ XP: '600'
 Alignment: 'N'
 Size: Tiny
 Type: animal
+SubType: (swarm)
 Init: '6'
 Senses:
   - low-light vision, scent
@@ -16,11 +17,13 @@ Saves: Fort +4, Ref +5, Will +2
 Fort: '4'
 Ref: '5'
 Will: '2'
+DefensiveAbilities: swarm traits
 Speed: 15 ft., climb 15 ft., swim 15 ft.
 Melee:
   - swarm (1d6 plus disease)
 Space: 10 ft.
 Reach: 0 ft.
+SpecialAttacks: disease, distraction (DC 12)
 AbilityScores:
   - 2
   - 15
@@ -50,6 +53,12 @@ Description_Visual: >-
 Group: Rat
 Source: PFRPG Bestiary
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Swarm- injury; save Fort DC 12; onset 1d3 days; frequency
+      1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
+      The save DC is Constitution-based.
 Description:
   - >-
     A rat swarm typically consists of a biting, roiling mass of hundreds of
@@ -67,16 +76,9 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Rat, Swarm
 id: '300'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (swarm)
-DefensiveAbilities: swarm traits
-SpecialAttacks: disease, distraction (DC 12)
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

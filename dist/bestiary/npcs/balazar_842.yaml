@@ -1,0 +1,115 @@
+Name: Balazar
+CR: '1'
+XP: '400'
+Race: gnome
+Class: summoner 1
+Alignment: 'N'
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '1'
+Senses:
+  - low-light vision
+  - Perception +3
+AC: 14, touch 12, flat-footed 13
+AC_Mods: (+2 armor, +1 Dex, +1 size)
+HP: '9'
+HD: (1d8+1)
+Saves: Fort +1, Ref +1, Will +3; +2 vs. illusions
+Fort: '1'
+Ref: '1'
+Will: '3'
+Save_Mods: +2 vs. illusions
+Speed: 20 ft.
+Melee:
+  - club -1 (1d4-2)
+Ranged:
+  - light crossbow +2 (1d6/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpellLikeAbilities:
+  header: Gnome Spell-Like Abilities (CL 1st; concentration +4)
+  values:
+    - label: 1/day
+      value: >-
+        dancing lights, ghost sound (DC 13), prestidigitation, speak with
+        animals Summoner Spell-Like Abilities (CL 1st; concentration +4)
+    - label: 6/day
+      value: summon monster I
+SpellsKnown:
+  header: Spells Known (CL 1st; concentration +4)
+  values:
+    - label: 1st (2/day)
+      value: mage armor, magic fang
+    - label: 0 (at will)
+      value: acid splash, daze (DC 13), detect magic, read magic
+AbilityScores:
+  - 6
+  - 13
+  - 12
+  - 14
+  - 12
+  - 17
+BaseAtk: '0'
+CMB: '-3'
+CMD: '8'
+Feats:
+  - Spell Focus (conjuration)
+Skills:
+  - Climb - 2
+  - Handle Animal +7
+  - Knowledge (arcana) +6
+  - Ride +5
+  - Spellcraft +6
+  - Use Magic Device +7
+Languages:
+  - Common
+  - Gnome
+  - Goblin
+  - Orc
+  - Sylvan
+SQ: >-
+  defensive training, eidolon, gnome magic, hatred, life link, obsessive, weapon
+  familiarity
+Source: Master of the Fallen Fortress
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Life Link (Su)
+    description: >-
+      Your life and your eidolon's are closely bound. Whenever the eidolon takes
+      enough damage to send it back to its home plane, you can, as a free
+      action, sacrifice any number of hit points. Each hit point sacrificed in
+      this way prevents 1 point of damage done to the eidolon. This can prevent
+      the eidolon from being sent back to its home plane. In addition, you and
+      the eidolon must remain within 100 feet of one another for the eidolon to
+      remain at full strength. If the eidolon is beyond 100 feet but closer than
+      1,000 feet, its current and maximum hit point totals are reduced by 50%.
+      Current hit points lost in this way are not restored when the eidolon gets
+      closer to you, but its maximum hit point total does return to normal.
+  - name: Summon Monster I (Sp)
+    description: >-
+      You have summon monster I as a spell-like ability. Using this ability is a
+      standard action, and the summoned creature remains for 1 minute (instead
+      of 1 round). You cannot have more than one summon monster spell active in
+      this way at one time. If this ability is used again, any existing summon
+      monster spell immediately ends.
+Gender: Male
+Gear: scroll of shield, alchemist's fire
+OtherGear: >-
+  leather armor, club, light crossbow with 10 bolts, dagger, backpack, pipe,
+  spell component pouch, signal whistle, sunrods (3), 13 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '842'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

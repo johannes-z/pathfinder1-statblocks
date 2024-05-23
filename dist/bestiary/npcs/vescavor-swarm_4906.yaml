@@ -1,0 +1,99 @@
+Name: Vescavor Swarm
+CR: '5'
+XP: '1600'
+Race: Vescavor Swarm
+MonsterSource: 'Pathfinder Campaign Setting: Lost Kingdoms 50'
+Alignment: CE
+Size: Diminutive
+Type: outsider
+SubType: (chaotic, evil, extraplanar, swarm)
+Init: '3'
+Senses:
+  - darkvision 60 ft.
+  - Perception +9
+Aura: gibber (15 ft.)
+AC: 19, touch 17, flat-footed 16
+AC_Mods: (+3 Dex, +2 natural, +4 size)
+HP: '47'
+HD: (5d10+20)
+Saves: Fort +7, Ref +9, Will +2
+Fort: '7'
+Ref: '9'
+Will: '2'
+Immune: poison, swarm traits, weapon damage
+Resist: electricity 10, fire 10
+SR: '16'
+Speed: 30 ft.
+Speed_Mod: fly 40 ft. (good)
+Melee:
+  - swarm (2d6 plus distraction)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: distraction (DC 15), ravenous, traumatizing
+AbilityScores:
+  - 7
+  - 17
+  - 16
+  - 4
+  - 13
+  - 12
+BaseAtk: '5'
+CMB: '4'
+CMD: 12 (can't be tripped)
+Feats:
+  - Blind-Fight
+  - Lightning Reflexes
+  - Toughness
+Skills:
+  - Fly +21
+  - Perception +9
+  - Stealth +23
+Languages:
+  - Abyssal
+Source: AP 74
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Gibber (Su)
+    description: >-
+      Any creature within 15 feet of a vescavor swarm or inside it must succeed
+      at a successful 15 Will save or be confused for 1 round. This is a
+      mind-affecting compulsion insanity effect. A creature that saves cannot be
+      affected by the same vescavor swarm's gibbering for 24 hours. The save DC
+      is Constitution-based.
+  - name: Ravenous (Ex)
+    description: >-
+      If a vescavor swarm attacks an object or structure, it ignores up to 19
+      points of hardness (hardness of 20 or higher applies in full). Every round
+      a creature is in the same space as the swarm, the vescavors begin
+      devouring one object on the creature. The object takes half its maximum
+      hit points in damage and gains the broken condition. If the vescavors
+      attack an object with the broken condition, it is destroyed. An attended
+      or magic object can attempt a successful 15 Reflex save to negate this
+      effect. The save DC is Constitution-based.
+  - name: Traumatizing (Su)
+    description: >-
+      Any creature that spends more than 3 rounds inside a vescavor swarm must
+      succeed at DC 13 Will save or gain a type of madness (determined randomly
+      from the list on page 250 of the Pathfinder RPG GameMastery Guide). The
+      save DC is Charisma-based.
+DuringCombat: >-
+  The vescavors surround any quarry to cut off retreat, all while singing the
+  chorus of the Abyss to inflict madness on intruders with their gibber and
+  traumatizing abilities. While swarming over opponents, they also devour any
+  weapons and armor to further weaken those venturing into their lair.
+Morale: A vescavor swarm fights to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4906'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

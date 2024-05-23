@@ -38,16 +38,22 @@ Feats:
 Skills:
   - Climb +7
   - Perception +6
-RacialMods: +4 Stealth in grass
 Environment: temperate forests or plains
 Organization: solitary, pair, or prickle (3-6)
 Treasure: none
 Description_Visual: >-
   This gray, human-sized porcupine's round body is covered in sharp, striped
   quills.
+Group: Porcupine
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Quills (Ex)
+    description: >-
+      Any creature attacking a giant porcupine with light or one-handed melee
+      weapons, natural weapons, or an unarmed strike takes 1d3 points of
+      piercing damage. A creature that grapples a giant porcupine takes 2d4
+      points of piercing damage each round it does so.
 Description:
   - >-
     More so than its smaller kin, the human-sized giant porcupine is a
@@ -63,16 +69,9 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '2169'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Porcupine
-SpellLikeAbilities: {}
-SpellsKnown: {}

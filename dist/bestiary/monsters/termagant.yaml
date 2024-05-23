@@ -61,16 +61,43 @@ Languages:
   - Common
   - Infernal
   - telepathy 100 ft.
-SQ: chain armor
 Environment: any (Plane of Shadow)
 Organization: solitary, pair, or circle (3-5)
 Treasure: standard
 Description_Visual: >-
   This hovering iron maiden heaves forth a monstrously pregnant mass of tortured
   limbs and raw tentacles.
+Group: Kyton
 Source: Inner Sea Bestiary
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Su)
+    description: >-
+      Anytime a creature is grappled by a termagant's tentacles or is affected
+      by its rupture or shared rupture ability, it is exposed to the termagant's
+      flux infusion. Flux infusion functions as a poison, but with unpredictable
+      effects. Those who fail their saving throws take 1d4 points of ability
+      drain. The ability score drained is randomly determined every time the
+      flux infusion affects the creature (roll 1d6: 1-2 Constitution, 3-4
+      Dexterity, 5-6 Strength). The save DC is Constitution-based. Flux
+      Infusion: Injury; save Fort DC 28; frequency 1/round for 10 rounds; effect
+      1d4 Con, Dex, or Str; cure 2 consecutive saves.
+  - name: Rupture (Su)
+    description: >-
+      When killed, a termagant explodes in a blast of its flux infusion poison.
+      All living creatures within 15 feet must succeed at a DC 28 Fortitude
+      saving throw or be poisoned. The save DC is Constitution-based.
+  - name: Shared Rupture (Su)
+    description: >-
+      Any creature killed while poisoned by a termagant explodes. All living
+      creatures within 10 feet of the creature must succeed at a DC 23 Fortitude
+      save or be poisoned. The save DC is based on the termagant's Constitution
+      with a -5 penalty.
+  - name: Unnerving Gaze (Su)
+    description: >-
+      A creature that succumbs to a termagant's unnerving gaze becomes nauseated
+      for 1d4 rounds as its mind attempts to comprehend the horrors it has
+      witnessed.
 Description:
   - >-
     Coddling, cooing mothers of nails and aberrant life, kyton termagants seek
@@ -87,13 +114,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Kyton
 id: '3569'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Kyton
-SpellLikeAbilities: {}
-SpellsKnown: {}

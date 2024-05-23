@@ -1,0 +1,90 @@
+Name: Phycomid
+CR: '4'
+XP: '1200'
+Alignment: NE
+Size: Small
+Type: plant
+SubType: (fungus)
+Init: '0'
+Senses:
+  - tremorsense 30 ft.
+  - Perception +0
+AC: 15, touch 11, flat-footed 15
+AC_Mods: ', +4 natural, +1 size)'
+HP: '25'
+HD: (5d8+5)
+Saves: Fort +5, Ref +1, Will +1
+Fort: '5'
+Ref: '1'
+Will: '1'
+Immune: plant traits
+Speed: 10 ft.
+Ranged:
+  - fluid globule ranged touch +4 (1d6 acid plus spore infection)
+Space: 5 ft.
+Reach: 0 ft.
+SpecialAttacks: acid, spore infection
+AbilityScores:
+  - 8
+  - 10
+  - 13
+  - null
+  - 11
+  - 1
+BaseAtk: '3'
+CMB: '1'
+CMD: 11 (can't be tripped)
+Environment: underground
+Organization: solitary or patch (2-4)
+Treasure: 1/10 coins; 50% goods; 50% items
+Description_Visual: >-
+  A small blob of decomposing matter covers the ground. Several small mushrooms
+  sprout from the patch.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Acid (Ex)
+    description: >-
+      A phycomid's fluid globules are formed of acid. Any ranged touch attack
+      deals 1d6 points of acid damage.
+  - name: Spore Infection (Ex)
+    description: >-
+      A creature hit by a phycomid's fluid globule attack must succeed on a DC
+      13 Fortitude save or take 1d2 points of Constitution damage as tiny
+      mushroomlike growths sprout from its body. Each minute (10 rounds)
+      thereafter, until the victim receives a remove disease, heal, miracle, or
+      wish, he takes 1 point of Constitution damage. At Constitution 0, the
+      victim dies and his body collapses to the ground, sprouting a new
+      phycomid. The save DC is Constitution-based.
+Description:
+  - >-
+    A patch of phycomids is often found growing in garbage heaps, refuse, and
+    other such places. A typical patch of phycomid covers an area of 2 feet. The
+    actual number of mushroom-growths varies with the actual size of the patch.
+    The mushroom caps are usually white, red, purple, or yellow in color, and
+    the phycomid's body is milky white.
+  - >-
+    The phycomid attacks by extruding a small tube from its body and firing a
+    glob of acid at a foe. The phycomid has a range increment of 5 feet and can
+    fire a globule to a maximum range of 20 feet.
+  - >-
+    Credit The Phycomid originally appeared in Dragon #68 (© TSR/Wizards of the
+    Coast, 1982) and later in the First Edition Monster Manual II (© TSR/Wizards
+    of the Coast, 1983) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Gary
+    Gygax.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '2932'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

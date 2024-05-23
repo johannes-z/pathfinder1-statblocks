@@ -1,0 +1,118 @@
+Name: Ringmaster
+CR: '10'
+XP: '9600'
+Race: Human
+Class: mesmerist 11
+MonsterSource: Pathfinder RPG Occult Adventures 38
+Alignment: NE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '2'
+Senses:
+  - Perception +15
+AC: 18, touch 13, flat-footed 16
+AC_Mods: (+5 armor, +1 deflection, +2 Dex)
+HP: '97'
+HD: (11d8+44)
+Saves: Fort +9, Ref +11, Will +14
+Fort: '9'
+Ref: '11'
+Will: '14'
+Speed: 30 ft.
+Melee:
+  - mwk whip +7/+2 (1d3-1 nonlethal)
+Ranged:
+  - +1 light crossbow +11 (1d8+1)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  bold stare (disorientation, susceptibility, timidity), hypnotic stare (-3),
+  manifold tricks (3), mental potency (+2), mesmerist tricks 9/day (linked
+  reaction, meek facade, misdirection, psychosomatic surge, reflection of
+  weakness [DC 19], spectral smoke), painful stare (+5 or +3d6+5)
+SpellsKnown:
+  header: Mesmerist Spells Known (CL 11th; concentration +15)
+  values:
+    - label: 4th (3/day)
+      value: dominate person (DC 19), mind probeOA (DC 18), phantasmal killer (DC 18)
+    - label: 3rd (5/day)
+      value: aura alterationOA, displacement, dominate animal (DC 18), glibness
+    - label: 2nd (5/day)
+      value: >-
+        detect thoughts (DC 16), eagle's splendor, glitterdust (DC 16), oneiric
+        horrorOA (DC 16), suggestion (DC 17)
+    - label: 1st (6/day)
+      value: >-
+        charm person (DC 16), command (DC 16), detect secret doors, disguise
+        self, hideous laughter (DC 16), sleep (DC 16)
+    - label: 0 (at will)
+      value: >-
+        detect magic, ghost sound (DC 14), light, lullaby (DC 15), message,
+        prestidigitation
+AbilityScores:
+  - 8
+  - 14
+  - 14
+  - 10
+  - 12
+  - 18
+BaseAtk: '8'
+CMB: '7'
+CMD: '20'
+Feats:
+  - Deceitful
+  - Excoriating StareOA (DC 19)
+  - Extended Stare
+  - Great Fortitude
+  - Persuasive
+  - Spell Focus (enchantment)
+  - Toughness
+Skills:
+  - Bluff +27
+  - Diplomacy +14
+  - Disguise +10
+  - Intimidate +22
+  - Perception +15
+  - Perform (oratory) +18
+  - Sense Motive +15
+  - Spellcraft +8
+  - Use Magic Device +18
+Languages:
+  - Common
+SQ: consummate liar +5, glib lie (DC 26), touch treatment 7/day (greater)
+Source: Villain Codex
+IsTemplate: '0'
+BeforeCombat: >-
+  The ringmaster never enters a fight alone, instead bringing along her criminal
+  performers or else recruiting allies of convenience with her spells and
+  mesmerism. She uses her linked reaction trick to tie herself to more
+  perceptive minions and casts eagle's splendor and shield from her wand before
+  engaging anyone.
+DuringCombat: >-
+  The ringmaster uses her hypnotic stare on nearby victims, sapping their will
+  before targeting them with dominate person or oneiric horror. She reserves
+  phantasmal killer for those unfortunate souls who ruin her carefully laid
+  plans.
+Gear: >-
+  potion of cure moderate wounds, wand of mirror image (8 charges), wand of
+  shield (40 charges)
+OtherGear: >-
+  +1 glamered mithral chain shirt, +1 light crossbow with 20 bolts, mwk whip,
+  cloak of resistance +2, dust of illusion, ring of protection +1, disguise kit,
+  42 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '8822'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

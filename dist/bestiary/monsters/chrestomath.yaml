@@ -19,11 +19,16 @@ Ref: '-1'
 Will: '14'
 DefensiveAbilities: psychic deflection
 Immune: sensory effects
+SR: '17'
 Speed: fly 10 ft. (average)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: mind flood
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +12)
+  values:
+    - label: Constant
+      value: detect magic, detect thoughts, tongues
 AbilityScores:
   - 2
   - 2
@@ -56,6 +61,7 @@ Skills:
   - Perception +18
   - Sense Motive +18
   - Spellcraft +19
+RacialMods: +10 Knowledge (all)
 Languages:
   - Abyssal
   - Aklo
@@ -78,9 +84,57 @@ Description_Visual: >-
   This bloated, larval sack of green and pink flesh is wet and curdled, its
   brainlike wrinkles interrupted by transparent membranes showing dark fluid
   within.
+Group: Caulborn
 Source: AP 63
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Advanced Hive Mind (Ex)
+    description: >-
+      As long as there are at least two chrestomaths or caulborn within 300 feet
+      of each other, if one creature in the group is aware of a particular
+      danger, they all are. No creature in the group is considered flanked or
+      flat-footed unless all of them are.
+  - name: Cooperative Scrying (Sp)
+    description: >-
+      Three or more caulborn or chrestomaths who maintain physical contact can
+      scry on a place or creature as if using the scrying spell (DC 20), but
+      with no limit to the spell's duration so long as at least three of the
+      participants involved continue to touch and concentrate. This ability
+      functions at caster level 7th (or at the highest caster level available to
+      the most powerful participant in the group). The save DC is
+      Charisma-based, adjusted by the modifier of the participant with the
+      highest Charisma score.
+  - name: Mind Flood (Su)
+    description: >-
+      A chrestomath can target any creature it detects with its thoughtsense
+      ability with a deadly psychic attack, flooding the target creature's head
+      with so much obscure knowledge that it drives the target insane. Any
+      creature affected by the mind blast must make a successful DC 19 Will save
+      or take 1d6 points of Intelligence and Wisdom damage and be confused (as
+      per the spell confusion) for 1d6 rounds. The save DC is
+      Intelligence-based.
+  - name: Psychic Deflection (Su)
+    description: >-
+      A chrestomath adds its Charisma modifier as a deflection bonus to its AC.
+      In addition, all caulborn (though not other chrestomaths) within 300 feet
+      of a chrestomath gain half of this deflection bonus as well, with the
+      effects stacking with those from other chrestomaths and the caulborn's own
+      psychic deflection ability. These bonuses cease when the chrestomath is
+      unconscious.
+  - name: Racial Memory (Ex)
+    description: >-
+      As a full-round action, any caulborn within 300 feet of a chrestomath may
+      access the latter's racial memory to gain half the chrestomath's Knowledge
+      skill bonus as a bonus on its own Knowledge check. In addition, the
+      chrestomath instantly acquires any piece of information learned by any
+      caulborn that comes within 300 feet of it. This information may then be
+      shared by any other caulborn and chrestomaths with 300 feet.
+  - name: Thoughtsense (Su)
+    description: >-
+      A chrestomath notices and locates living, conscious creatures within 60
+      feet just as if it possessed the blindsight ability. Spells such as
+      nondetection or mind blank make an affected creature undetectable by this
+      sense.
 Description:
   - >-
     The caulborn are a race of extraplanar scholars that wander between worlds
@@ -176,14 +230,8 @@ Swim: '0'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '3517'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SR: '17'
-RacialMods: +10 Knowledge (all)
-Group: Caulborn
-SpellsKnown: {}

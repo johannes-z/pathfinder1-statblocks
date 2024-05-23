@@ -27,12 +27,28 @@ SR: '26'
 Speed: 10 ft., swim 80 ft.
 Melee:
   - >-
-    +1 shocking burst shortspear  +28/+23/+18/+13 (1d6+10 plus 1d6 
-    electricity), tail slap +22 (1d6+4 plus  push and stun)
+    +1 shocking burst shortspear +28/+23/+18/+13 (1d6+10 plus 1d6 electricity),
+    tail slap +22 (1d6+4 plus push and stun)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: shockwave, push (tail slap, 10 ft.)
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +20)
+  values:
+    - label: Constant
+      value: speak with animals
+    - label: At will
+      value: >-
+        detect thoughts (DC 15), light, lightning bolt (DC 16), hold monster (DC
+        17), message, greater teleport (self plus 50 lbs. of objects only),
+    - label: 7/day
+      value: >-
+        break enchantment, cure serious wounds, neutralize poison, remove
+        disease
+    - label: 3/day
+      value: cone of cold (DC 18), cure critical wounds, greater restoration, heal
+    - label: 1/day
+      value: awaken, summon monster VIII (water elementals only)
 AbilityScores:
   - 29
   - 19
@@ -83,7 +99,26 @@ Description_Visual: >-
 Group: Cetaceal
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Protective Aura (Su)
+    description: >-
+      Against attacks made or effects created by evil creatures, this ability
+      provides a +4 deflection bonus to AC and a +4 resistance bonus on saving
+      throws to anyone within 20 feet of the cetaceal. Otherwise, it functions
+      as a magic circle against evil effect and a lesser globe of
+      invulnerability, both with a radius of 20 feet (caster level equals
+      cetaceal's HD). The defensive benefits from the circle are not included in
+      the above stat block.
+  - name: Shockwave (Su)
+    description: >-
+      Once per day, a cetaceal can release a 100-footradius burst of energy. All
+      creatures in the area take 17d6 damage; half of this damage is cold, and
+      half is electricity (DC 25 Reflex save halves). The save DC is
+      Constitution-based.
+  - name: Stun (Ex)
+    description: >-
+      Any creature moved by a cetaceal's push attack must make a DC 25 Fortitude
+      saving throw or be stunned for 1 round. The DC is Constitution-based.
 Description:
   - >-
     Cetaceals are great waterdwelling agathions who swim the planar seas and
@@ -107,11 +142,9 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Agathion, Cetaceal
 id: '1087'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpellsKnown: {}

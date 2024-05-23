@@ -26,7 +26,7 @@ SpecialAttacks: mark quarry, pus burst
 AbilityScores:
   - 21
   - 15
-  - —
+  - null
   - 2
   - 13
   - 14
@@ -51,9 +51,27 @@ Treasure: none
 Description_Visual: >-
   A giant rotting hand rocks unsteadily, propped upon thick, stubby fingers. Its
   pale, necrotic flesh pulses and crawls with sickly boils.
+Group: Crawling Hand
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Mark Quarry (Su)
+    description: >-
+      A crawling hand is assigned a quarry by anointing the hand with a drop of
+      the intended quarry's blood. If the hand has no current quarry, it
+      automatically gains the next creature it damages as its quarry. Once
+      attuned to a target, it becomes aware of the target's location as if under
+      the effect of a continuous locate creature spell. The hand gains a +1
+      bonus on all attack rolls, damage rolls, and skill checks made to seek out
+      and destroy the marked quarry. The mark quarry ability lasts until the
+      quarry or the hand is slain.
+  - name: Pus Burst (Su)
+    description: >-
+      When damaged by a piercing or slashing melee weapon, a spray of vile pus
+      strikes the attacker unless the attacker makes a DC 15 Reflex save.
+      Weapons that provide reach protect the attacker completely from a pus
+      burst. Creatures struck by pus become nauseated for 1d3 rounds and take
+      2d6 points of negative energy damage. The save DC is Charisma-based.
 Description:
   - >-
     Some say the origins of the crawling hand lie in the experiments of demented
@@ -79,13 +97,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Crawling Hand, (Giant)
 id: '1137'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Crawling Hand
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -7,7 +7,7 @@ export interface Monster {
   Type: string
   SubType: string
   Init: string
-  Senses: string[]
+  Senses?: string[]
   Aura: string
   AC: string
   AC_Mods: string
@@ -18,27 +18,27 @@ export interface Monster {
   Ref: string
   Will: string
   Speed: string
-  Melee: string[]
-  Ranged: string[]
+  Melee?: string[]
+  Ranged?: string[]
   Space: string
   Reach: string
-  SpellLikeAbilities: SpellLikeAbilities
+  SpellLikeAbilities?: SpellLikeAbilities
   SpellsKnown?: SpellLikeAbilities
-  AbilityScores: number[]
+  AbilityScores: (number | null)[]
   BaseAtk: string
   CMB: string
   CMD: string
-  Feats: string[]
-  Skills: string[]
-  Languages: string[]
+  Feats?: string[]
+  Skills?: string[]
+  Languages?: string[]
   Environment: string
   Organization: string
   Treasure: string
   Description_Visual: string
   Source: string
   IsTemplate: string
-  SpecialAbilities: SpecialAbility[]
-  Description: string[]
+  SpecialAbilities?: SpecialAbility[]
+  Description?: string[]
   CharacterFlag: string
   CompanionFlag: string
   Fly: string
@@ -55,6 +55,7 @@ export interface Monster {
   MR: string
   Mythic: string
   MT: string
+  Group?: string
 }
 
 export interface MonsterRaw extends Omit<Monster, 'AbilityScores'
@@ -80,6 +81,7 @@ export interface MonsterRaw extends Omit<Monster, 'AbilityScores'
   SpecialAbilities: string
   SpellsKnown: string
   FullText?: string
+  Group?: string
 }
 
 export interface SpecialAbility {

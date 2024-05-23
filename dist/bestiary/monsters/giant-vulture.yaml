@@ -40,14 +40,28 @@ Skills:
   - Fly +7
   - Perception +14
 RacialMods: +8 Perception
+SQ: diseased
 Environment: warm plains or hills
 Organization: solitary, pair, or flock (3-8)
 Treasure: none
 Description_Visual: >-
   A wickedly hooked beak and an immense bald head draw attention from this
   enormous scavenger's vast wingspan.
+Group: Vulture
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Diseased (Ex)
+    description: >-
+      Due to their filthy eating habits and constant exposure to decaying flesh,
+      giant vultures are harbingers of disease-much more so than the standard
+      vulture. Any creature bitten by a giant vulture has a 10% chance of being
+      exposed to filth fever, blinding sickness, or a similar disease (Core
+      Rulebook 557). Once this check is made, a victim can no longer be infected
+      by this particular giant vulture, though attacks by different giant
+      vultures are resolved normally and may result in multiple illnesses. While
+      vultures aren't immune to all diseases, they do gain a +4 racial bonus on
+      all saving throws against such ailments.
 Description:
   - >-
     Larger even than condors, giant vultures dwell only in regions where carrion
@@ -61,9 +75,6 @@ Description:
   - >-
     A giant vulture stands more than 13 feet tall, has a wingspan of over 30
     feet, and weighs 500 to 600 pounds.
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '1'
@@ -71,19 +82,9 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-BaseStatistics: 'NULL'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '2228'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SQ: diseased
-Group: Vulture
-SpecialAbilities: {}
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -4,11 +4,11 @@ XP: '2400'
 Alignment: NE
 Size: Medium
 Type: undead
+SubType: (reptilian)
 Init: '4'
 Senses:
   - darkvision 60 ft., lifesense
   - Perception +6
-Aura: desiccation aura (30 ft., DC 26)
 AC: 19, touch 15, flat-footed 14
 AC_Mods: (+4 Dex, +1 dodge, +4 natural)
 HP: '71'
@@ -28,11 +28,10 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: constrict (2d8+4 plus 2d6 negative energy), negatively charged coils
-SpellLikeAbilities: {}
 AbilityScores:
   - 17
   - 19
-  - —
+  - null
   - 2
   - 11
   - 12
@@ -54,7 +53,6 @@ Skills:
 Languages:
   - Aklo
   - telepathy 100 ft.
-SQ: swift strike
 Environment: underground
 Organization: solitary, pair, or nest (3-8)
 Treasure: Value double standard
@@ -65,9 +63,19 @@ Description_Visual: >-
   the head starts to rise. The same glow behind those long-dead eyes illuminates
   a gaping mouth and bony fangs. Then a terrifying, painful hiss assaults your
   mind as the serpent slithers forward with a silent, unearthly grace.
+Group: Hollow Serpent
 Source: AP 42
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Lifesense (Su)
+    description: >-
+      A hollow serpent notices and locates living creatures within 60 feet, just
+      as if it possessed the blindsight ability.
+  - name: Negatively Charged Coils (Su)
+    description: >-
+      A hollow serpent deals an additional 2d6 points of damage caused by
+      negative energy to victims trapped within its coils. A successful DC 16
+      Will save reduces the damage by half. The save DC is Charisma-based.
 Description:
   - >-
     Among the many manifestations of serpentfolk faith, the hollow serpent
@@ -135,14 +143,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '1471'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (reptilian)
-Group: Hollow Serpent
-SpellsKnown: {}

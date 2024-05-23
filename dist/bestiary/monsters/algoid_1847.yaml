@@ -1,0 +1,125 @@
+Name: Algoid
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Medium
+Type: plant
+SubType: (fungus, psionic)
+Init: '0'
+Senses:
+  - low-light vision
+  - Perception +12
+AC: 16, touch 10, flat-footed 16
+AC_Mods: (+6 natural)
+HP: '37'
+HD: (5d8+15)
+Saves: Fort +7, Ref +1, Will +3
+Fort: '7'
+Ref: '1'
+Will: '3'
+DR: 5/bludgeoning and magic
+Immune: electricity, fire, plant traits
+Weaknesses: vulnerability to water
+Speed: 20 ft.
+Melee:
+  - 2 slams +8 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: animate trees, mind blast, stun
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th)
+  values:
+    - label: At will
+      value: detect thoughts (DC 15), know location
+    - label: 1/day
+      value: shocking grasp (DC 13)
+AbilityScores:
+  - 19
+  - 10
+  - 16
+  - 4
+  - 10
+  - 10
+BaseAtk: '3'
+CMB: '7'
+CMD: '17'
+Feats:
+  - Iron Will
+  - Skill Focus (Perception)
+  - Weapon Focus (slam)
+Skills:
+  - Perception +12
+  - Stealth +10 (+18 in swamps and forests)
+RacialMods: +4 Perception, +4 Stealth (+12 Stealth in swamps and forests)
+Languages:
+  - Common (can't speak)
+Environment: temperate marshes
+Organization: solitary, pair or cluster (3-6)
+Treasure: standard
+Description_Visual: >-
+  This stocky, man-sized creature seems to be composed of living algae, dark
+  green and brown in color.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Animate Trees (Su)
+    description: >-
+      An algoid can animate trees within 90 feet at will, controlling up to two
+      trees at a time. It takes 1 full round for a normal tree to uproot itself.
+      Thereafter, it moves at a speed of 10 feet and fights using the stats
+      below. Animated trees lose their ability to move if the algoid that
+      animated them is incapacitated or moves out of range. This ability is
+      otherwise similar to liveoak. Animated Tree: CR 4; N Huge plant; Init -1;
+      Senses low-light vision; AC 16 (-1 Dex, +9 natural, -2 size), touch 7,
+      flat-footed 16; hp 37 (5d8+15); Saves Fort +7, Ref +0, Will +2; DR
+      5/slashing; Immune plant traits; Weaknesses vulnerability to fire; Spd 30
+      ft.; Atk 2 slams +7 (2d6+5); Space/Reach 15 ft./15 ft.; SA double damage
+      against objects (full attack deals double damage), trample (2d6+7, DC 17);
+      Str 21, Dex 8, Con 17, Int 4, Wis 12, Cha 10; BAB +3; CMB +10; CMD 19;
+      Feats Improved Sunder, Power Attack, Weapon Focus (slam); Skills
+      Perception +5
+  - name: Mind Blast (Sp)
+    description: >-
+      Once per day, an algoid can use a mind blast in a 60-foot cone. Any
+      creature caught in the cone must succeed on a DC 14 Will save or be
+      stunned for 3d4 rounds. The save DC is Charisma-based and includes a +2
+      racial bonus.
+  - name: Stun (Ex)
+    description: >-
+      If an algoid scores a critical hit with a slam attack, the opponent struck
+      must succeed on a DC 16 Fortitude save or be stunned for 1d2 rounds. The
+      save DC is Strength-based.
+  - name: Vulnerability to Water (Ex)
+    description: >-
+      A control water spell deals 1d6 points of damage per caster level (maximum
+      10d6) to an algoid (no save).
+Description:
+  - >-
+    The algoid is a living colony of algae that has developed some semblance of
+    intelligence and mobility. It is roughly humanoid in shape and resembles a
+    green humanoid. Algoids make their lairs in marshes and swamps. They are
+    often encountered with other marsh-dwelling sentient plants; though never
+    with shambling mounds (they hate them and usually attack them on sight). The
+    algoid is 7 feet tall and weighs about 300 pounds. In its natural
+    surroundings, it is nearly invisible until it attacks and uses this to its
+    advantage when prey is nearby. The "skin" of an algoid is coarse and rough
+    with a leafy texture. The algoid often lies in wait, partially submerged in
+    water or a bog, until its prey passes nearby. It springs to attack with its
+    powerful fists when its opponents come within range. Credit The Algoid
+    originally appeared in the First Edition Fiend Folio (© TSR/ Wizards of the
+    Coast, 1981) and is used by permission. Copyright Notice Authors Scott
+    Greene and Clark Peterson, based on original material by Mike Ferguson.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '1847'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

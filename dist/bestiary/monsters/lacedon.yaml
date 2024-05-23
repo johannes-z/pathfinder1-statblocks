@@ -4,6 +4,7 @@ XP: '400'
 Alignment: CE
 Size: Medium
 Type: undead
+SubType: (aquatic)
 Init: '2'
 Senses:
   - darkvision 60 ft.
@@ -28,7 +29,7 @@ SpecialAttacks: paralysis (1d4+1 rounds, DC 13, elves are immune to this effect)
 AbilityScores:
   - 13
   - 15
-  - —
+  - null
   - 13
   - 14
   - 14
@@ -51,9 +52,15 @@ Treasure: standard
 Description_Visual: >-
   This humanoid creature has long, sharp teeth, and its pallid flesh is
   stretched tightly over its starved frame.
+Group: Ghoul
 Source: d20pfsrd
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 13; onset 1 day; frequency 1 day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based.
 Description:
   - >-
     A humanoid who dies of ghoul fever rises as a ghoul at the next midnight. A
@@ -70,15 +77,9 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Ghoul
+AlternateNameForm: Aquatic Ghoul
 id: '3345'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (aquatic)
-Group: Ghoul
-AlternateNameForm: Aquatic Ghoul
-SpellLikeAbilities: {}
-SpellsKnown: {}

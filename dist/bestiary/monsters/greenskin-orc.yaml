@@ -6,6 +6,7 @@ Class: warrior 1
 Alignment: CE
 Size: Medium
 Type: humanoid
+SubType: (orc)
 Init: '2'
 Senses:
   - darkvision 60 ft., scent
@@ -42,10 +43,10 @@ Feats:
 Skills:
   - Perception +2
   - Stealth +2 (+6 in temperate and warm forests)
+RacialMods: +2 Perception, +4 Stealth in temperate and warm forests
 Languages:
   - Common
   - Orc
-SQ: weapon familiarity
 Environment: temperate and warm forests
 Organization: >-
   gang (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th
@@ -55,6 +56,7 @@ Treasure: standard
 Description_Visual: >-
   This creature looks like an ugly orc with green slime colored skin, small
   tusks, and canine-like eyes.
+Group: Orc
 Source: Tome of Horrors Complete
 IsTemplate: '0'
 Description:
@@ -101,6 +103,9 @@ Description:
     Languages: Greenskin orcs begin play speaking Common and Orc. Greenskin orcs
     with high Intelligence scores can choose from the following languages:
     Giant, Goblin. Copyright Notice Author Casey Christofferson.
+Gear: >-
+  leather armor, longsword, composite longbow (+2 Str), 20 arrows, other
+  treasure
 CharacterFlag: '1'
 CompanionFlag: '0'
 Fly: '0'
@@ -110,19 +115,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Orc
 id: '2924'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (orc)
-RacialMods: +2 Perception, +4 Stealth in temperate and warm forests
-Group: Orc
-Gear: >-
-  leather armor, longsword, composite longbow (+2 Str), 20 arrows, other
-  treasure
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

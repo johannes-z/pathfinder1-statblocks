@@ -4,6 +4,7 @@ XP: '200'
 Alignment: 'N'
 Size: Tiny
 Type: fey
+SubType: (aquatic)
 Init: '5'
 Senses:
   - darkvision 60 ft., low-light vision
@@ -18,14 +19,19 @@ Ref: '3'
 Will: '2'
 DR: 2/cold iron
 SR: '11'
-Weaknesses: light blindness
 Speed: 10 ft., fly 20 ft. (average), swim 20 ft.
 Melee:
   - bite +1 (1d3-1)
 Space: 2-1/2 ft.
 Reach: 0 ft.
 SpecialAttacks: misplacement
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 1st; concentration +2)
+  values:
+    - label: At Will
+      value: prestidigitation, ventriloquism (DC 12)
+    - label: 1/day
+      value: scare (DC 13)
 AbilityScores:
   - 9
   - 13
@@ -57,9 +63,25 @@ Treasure: incidental
 Description_Visual: >-
   This small, bizarre humanoid creature has finlike wings, strange yellow skin,
   and tiny black eyes burning with malevolence.
+Group: Gremlin
 Source: PFRPG Bestiary 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Misplacement (Su)
+    description: >-
+      Hanivers are swift and curious, possessing an uncanny ability to meddle
+      with the possessions of any character whose square they enter. Any time a
+      haniver succeeds at a Sleight of Hand check against a creature, it also
+      rearranges that creature's possessions. The next time that creature
+      attempts to produce a weapon or item, it finds its possessions misplaced
+      or disarranged; retrieving a stored item or drawing a weapon then requires
+      a standard action instead of a move action (unless the haniver has stolen
+      the item in question). After spending this standard action, the character
+      takes mental inventory and is no longer affected by this ability.
+      Occasionally, hanivers replace items they've stolen or leave their old
+      treasures-seashells, old fish, clumps of sand-in containers or clothing
+      they have rooted through. They do this without any added difficultly to
+      their Sleight of Hand checks.
 Description:
   - >-
     Haniver gremlins haunt the stories of sailors and fishing communities,
@@ -88,10 +110,6 @@ Description:
     sailors to blame the hanivers whenever something goes missing. Hanivers
     possess flat, leathery bodies with only a few thin bones. Most stand little
     more than a foot tall and 1-1/2 feet across, and weigh less than 5 pounds.
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-Gear: short sword
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '1'
@@ -99,19 +117,10 @@ Climb: '0'
 Burrow: '0'
 Swim: '1'
 Land: '1'
-BaseStatistics: 'NULL'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '5254'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (aquatic)
-Group: Gremlin
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

@@ -37,6 +37,7 @@ Skills:
   - Climb +21
   - Perception +6
 RacialMods: +8 Climb
+SQ: expert climber
 Environment: warm forests or mountains
 Organization: solitary, pair, or nest (3-6)
 Treasure: none
@@ -46,6 +47,12 @@ Description_Visual: >-
 Group: Lizard
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Expert Climber (Ex)
+    description: >-
+      A gecko's feet allow it to climb virtually any surface, no matter how
+      slick or sheer. In effect, geckos are treated as constantly being under a
+      natural version of the spell spider climb.
 Description:
   - >-
     These lizards are mostly docile and shy away from attacking creatures larger
@@ -77,18 +84,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Lizard, Common
 id: '2129'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SQ: expert climber
-SpecialAbilities: {}
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-BaseStatistics: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

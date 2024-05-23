@@ -14,6 +14,7 @@ AC: 36, touch 18, flat-footed 33
 AC_Mods: (+2 Dex, +1 dodge, +6 insight, +18 natural, -1 size)(+4 deflection vs. evil)
 HP: '324'
 HD: (24d10+192)
+HP_Mods: regeneration 10 (evil weapons and spells)
 Saves: Fort +22, Ref +16, Will +17; +4 vs. poison, +4 resistance vs. evil,
 Fort: '22'
 Ref: '16'
@@ -31,7 +32,39 @@ Reach: 10 ft.
 SpecialAttacks: >-
   breath weapon (120-ft. line, 20d6 energy damage, Reflex DC 30 half, usable
   once every 1d4 rounds)
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 24th; concentration +30)
+  values:
+    - label: Constant
+      value: speak with animals
+    - label: At Will
+      value: >-
+        beast shape II, command (DC 17), detect thoughts, elemental body III
+        (air or water elementals only), greater teleport (self plus 50 lbs. of
+        objects only), gust of wind, hold monster (DC 20), identify, light,
+        lightning bolt (DC 19), mage hand, message
+    - label: 7/day
+      value: >-
+        break enchantment, cure serious wounds, neutralize poison, remove
+        disease
+    - label: 3/day
+      value: control water, control weather, control winds, heal, plane shift (DC 23)
+SpellsPrepared: >-
+  Cleric Spells Prepared (CL 17th; concentration +23)  9th-implosion (DC 26),
+  storm of vengeanceD (DC 26)  8th-demandD, earthquake, quickened holy smite (DC
+  21)  7th-empowered breath of life, empowered flame strike (DC 22), holy word
+  (DC 24), quickened invisibility purge, repulsionD (DC 24)  6th-animate
+  objects, blade barrierD (DC 23), find the path, heal, heroes' feast, quickened
+  remove paralysis  5th-breath of life, dispel evilD, flame strike (DC 22),
+  greater command (DC 22), spell resistance, true seeing  4th-cure critical
+  wounds (3), freedom of movement, holy smiteD (DC 21), repel vermin (DC 21) 
+  3rd-bestow curse (DC 20), daylight, dispel magic, helping hand, magic
+  vestmentD, prayer, protection from energy  2nd-align weaponD (good only), calm
+  emotions (DC 19), enthrall, hold person (DC 19), lesser restoration (2),
+  shield other  1st-bless, detect undead, divine favorD, obscuring mist, remove
+  fear, sanctuary (DC 18), shield of faith  0-detect poison, guidance, purify
+  food and drink, stabilize
+SpellDomains: Good, Nobility
 AbilityScores:
   - 36
   - 15
@@ -71,6 +104,7 @@ Skills:
   - Spellcraft +27
   - Stealth +21
   - Use Magic Device +26
+RacialMods: +4 Perception
 Languages:
   - Celestial
   - Draconic
@@ -89,7 +123,32 @@ Description_Visual: >-
 Group: Agathion
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Celestial Focus (Ex)
+    description: >-
+      A draconal's color indicates aspects of its power and attunement to the
+      powers of the good planes. These determine the draconal's breath weapon,
+      the additional energy damage of its claw and bite attacks, additional
+      resistances and immunities, and its additional domain choices (see Spells,
+      below).
+  - name: Divine Insight (Su)
+    description: A draconal adds its Charisma bonus as an insight bonus to Armor Class.
+  - name: Protective Aura (Su)
+    description: >-
+      Against attacks made or effects created by evil creatures, this ability
+      provides a +4 deflection bonus to AC and a +4 resistance bonus on saving
+      throws to anyone within 20 feet of the draconal. Otherwise, it functions
+      as a magic circle against evil effect and a lesser globe of
+      invulnerability, both with a radius of 20 feet (caster level equals
+      draconal's HD). (The defensive benefits from the circle are not included
+      in a draconal's stat block.) Spells Draconals cast spells as 17th-level
+      clerics. Like clerics, they have access to two domains, selecting from the
+      following list: Air, Good, Nobility, Weather, and two additional domain
+      options based on their color (see facing page). The majority of draconals
+      choose Good and Nobility as their domains (as represented by this stat
+      block). Draconals have a domain spell slot at each spell level but do not
+      gain the granted powers of their chosen domains, nor do they gain access
+      to other cleric abilities.
 Description:
   - >-
     Draconals are mighty agathion lords, few in number and greatly removed from
@@ -156,29 +215,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
+LinkText: Agathion, Draconal
 id: '1088'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-HP_Mods: regeneration 10 (evil weapons and spells)
-SpellsPrepared: >-
-  Cleric Spells Prepared (CL 17th; concentration +23)  9th-implosion (DC 26),
-  storm of vengeanceD (DC 26)  8th-demandD, earthquake, quickened holy smite (DC
-  21)  7th-empowered breath of life, empowered flame strike (DC 22), holy word
-  (DC 24), quickened invisibility purge, repulsionD (DC 24)  6th-animate
-  objects, blade barrierD (DC 23), find the path, heal, heroes' feast, quickened
-  remove paralysis  5th-breath of life, dispel evilD, flame strike (DC 22),
-  greater command (DC 22), spell resistance, true seeing  4th-cure critical
-  wounds (3), freedom of movement, holy smiteD (DC 21), repel vermin (DC 21) 
-  3rd-bestow curse (DC 20), daylight, dispel magic, helping hand, magic
-  vestmentD, prayer, protection from energy  2nd-align weaponD (good only), calm
-  emotions (DC 19), enthrall, hold person (DC 19), lesser restoration (2),
-  shield other  1st-bless, detect undead, divine favorD, obscuring mist, remove
-  fear, sanctuary (DC 18), shield of faith  0-detect poison, guidance, purify
-  food and drink, stabilize
-SpellDomains: Good, Nobility
-RacialMods: +4 Perception
-LinkText: Agathion, Draconal
-SpellsKnown: {}

@@ -1,6 +1,7 @@
 Name: Dread Wraith
 CR: '13'
 XP: '25600'
+MonsterSource: Pathfinder RPG Bestiary 281
 Alignment: LE
 Size: Large
 Type: undead
@@ -23,13 +24,14 @@ Immune: undead traits
 Weaknesses: sunlight powerlessness
 Speed: fly 60 ft. (good)
 Melee:
-  - incorporeal touch +20 (3d6 negative energy plus 1d8 Con  drain [Fort DC 23])
+  - incorporeal touch +20 (3d6 negative energy plus 1d8 Con drain [Fort DC 23])
 Space: 10 ft.
 Reach: 10 ft.
+SpecialAttacks: create spawn
 AbilityScores:
-  - —
+  - null
   - 28
-  - —
+  - null
   - 14
   - 20
   - 25
@@ -63,9 +65,9 @@ Treasure: none
 Description_Visual: >-
   This ghostly creature is little more than a dark shape with two flickering
   pinpoints of light where its eyes should be.
+Group: Wraith
 Source: d20pfsrd
 IsTemplate: '0'
-SpecialAbilities: {}
 Description:
   - >-
     Dread wraiths are wraiths that existed long enough and fed on enough life
@@ -79,16 +81,9 @@ Swim: '0'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Wraith
+VariantParent: Wraith
 id: '3850'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-MonsterSource: Pathfinder RPG Bestiary 281
-SpecialAttacks: create spawn
-Group: Wraith
-VariantParent: Wraith
-SpellLikeAbilities: {}
-SpellsKnown: {}

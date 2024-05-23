@@ -29,7 +29,17 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: roar, pounce, rake (2 claws +23, 1d6+8)
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 14th; concentration +16)
+  values:
+    - label: Constant
+      value: speak with animals
+    - label: At Will
+      value: detect thoughts, fireball (DC 15), hold monster (DC 17)
+    - label: 3/day
+      value: cure critical wounds, neutralize poison, remove disease, wall of force
+    - label: 1/day
+      value: heal
 AbilityScores:
   - 27
   - 17
@@ -57,6 +67,7 @@ Skills:
   - Sense Motive +19
   - Spellcraft +16
   - Stealth +24
+RacialMods: +4 Acrobatics, +4 Stealth
 Languages:
   - Celestial
   - Draconic
@@ -73,7 +84,23 @@ Description_Visual: >-
 Group: Agathion
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Protective Aura (Su)
+    description: >-
+      Against attacks made or effects created by evil creatures, this ability
+      provides a +4 deflection bonus to AC and a +4 resistance bonus on saving
+      throws to anyone within 20 feet of the leonal. Otherwise, it functions as
+      a magic circle against evil effect and a lesser globe of invulnerability,
+      both with a radius of 20 feet (caster level equals leonal's HD). The
+      defensive benefits from the circle are not included in a leonal's stat
+      block.
+  - name: Roar (Su)
+    description: >-
+      Up to three times per day, a leonal can emit a powerful roar as a standard
+      action. Each roar affects a 60- foot cone with the effects of a holy word
+      spell and also deals 2d6 points of sonic damage to all creatures in the
+      area (DC 21 Fortitude negates). This is a sonic effect. The save DC is
+      Charisma-based.
 Description:
   - >-
     A leonal is a lion-like agathion, noble and fierce. Though gentle with their
@@ -104,12 +131,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
+LinkText: Agathion, Leonal
 id: '1089'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-RacialMods: +4 Acrobatics, +4 Stealth
-LinkText: Agathion, Leonal
-SpellsKnown: {}

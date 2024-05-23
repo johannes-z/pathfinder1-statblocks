@@ -1,0 +1,132 @@
+Name: Xanesha
+CR: '9'
+XP: '6400'
+Race: lamia matriarch
+Class: rogue 1
+MonsterSource: Pathfinder RPG Bestiary 2 175
+Alignment: CE
+Size: Large
+Type: monstrous humanoid
+Init: '7'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +2
+AC: 25, touch 16, flat-footed 18
+AC_Mods: (+1 armor, +7 Dex, +8 natural, -1 size)
+HP: '133'
+HD: (13 HD; 12d10+1d8+63)
+Saves: Fort +8, Ref +17, Will +10; +2 vs. poison
+Fort: '8'
+Ref: '17'
+Will: '10'
+Save_Mods: +2 vs. poison
+Immune: mind-affecting effects
+SR: '19'
+Speed: 40 ft., climb 40 ft., swim 40 ft.
+Melee:
+  - Impaler of Thorns +17/+12/+7 (1d8+8/19-20/x3)
+  - touch +11 (1d4 Wisdom drain)
+Space: 10 ft.
+Reach: 5 ft. (10 ft. with Impaler of Thorns)
+SpecialAttacks: Wisdom drain, sneak attack +1d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +19)
+  values:
+    - label: At Will
+      value: charm monster (DC 21), ventriloquism (DC 18)
+    - label: 3/day
+      value: >-
+        deep slumber (DC 20), dream, major image (DC 20), mirror image,
+        suggestion (DC 20)
+SpellsKnown:
+  header: Spells Known (CL 6th; concentration +13)
+  values:
+    - label: 3rd (5/day)
+      value: cure serious wounds
+    - label: 2nd (7/day)
+      value: invisibility, scorching ray
+    - label: 1st (8/day)
+      value: cure light wounds, feather fall, magic missile, sanctuary (DC 18)
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, detect magic, ghost sound (DC 17), mage
+        hand, mending, prestidigitation
+AbilityScores:
+  - 20
+  - 25
+  - 19
+  - 18
+  - 14
+  - 25
+BaseAtk: '12'
+CMB: '18'
+CMD: 35 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Extend Spell
+  - Improved Critical (spear)
+  - Power Attack
+  - Silent Spell
+  - Vital Strike
+Skills:
+  - Acrobatics +23 (+27 when jumping)
+  - Bluff +23
+  - Climb +29
+  - Diplomacy +14
+  - Knowledge (arcana) +17
+  - Knowledge (local) +20
+  - Sense Motive +18
+  - Spellcraft +17
+  - Swim +29
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Thassilonian
+SQ: >-
+  change shape (fixed Medium humanoid form, alter self), trapfinding +1,
+  undersized weapons
+Source: RotRL-AE-The Skinsaw Murders
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: >-
+  If she realizes the PCs are near (as is the case if the faceless stalkers drop
+  a bell), Xanesha casts invisibility and mirror image on herself. She also
+  activates her Sihedron medallion's false life ability.
+DuringCombat: >-
+  Xanesha uses major image to make an illusory flying demon appear in a cloud of
+  smoke that then begins to circle the top of the tower. She then moves to make
+  a sneak attack on the nearest PC. After this attack, she prefers to fight in
+  melee, saving her medusa mask to temporarily petrify any particularly
+  dangerous foe. If she is reduced to fewer than 60 hit points, she casts cure
+  serious wounds on herself.
+Morale: >-
+  If she's reduced to 20 hit points or fewer, Xanesha attempts to flee Magnimar,
+  abandoning her plot and the scroll hidden in her nest. Simply slithering off
+  the side of the tower and using feather fall to descend to the ground below is
+  her easiest method of escape. If she escapes, she cuts ties with her kin and
+  Mokmurian, afraid of the punishment for failure. She grows obsessed with the
+  PCs, however, seeing their capture as the only way she can redeem herself to
+  Mokmurian&#8211;in this case, she becomes a recurring villain who might ally
+  with any number of foes the PCs find themselves up against in the next
+  adventure&#8211;although she specifically tries to avoid any situation that
+  would reveal her failure to her sister Lucrecia.
+OtherGear: >-
+  Impaler of Thorns, medusa mask, Sihedron medallion, snakeskin tunic, keys to
+  locked chests
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3226'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -23,6 +23,7 @@ Melee:
   - bite +13 (1d8+5 plus poison), 8 tentacles +11 (1d4+2 plus grab)
 Space: 10 ft.
 Reach: 10 ft. (20 ft. with tentacle)
+SpecialAttacks: constrict (tentacle, 1d4+2)
 AbilityScores:
   - 20
   - 15
@@ -53,9 +54,14 @@ Treasure: incidental
 Description_Visual: >-
   A storm of tentacles, each twenty feet in length, flails with deadly precision
   from the leathery body of this gigantic octopus.
+Group: Octopus
 Source: PFRPG Bestiary
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 19; frequency 1/round for 6 rounds; effect 1d3
+      Str; cure 2 saves.
 Description:
   - >-
     The giant octopus is a true monster capable of catching and eating sharks,
@@ -69,14 +75,9 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Octopus, (Giant)
 id: '286'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: constrict (tentacle, 1d4+2)
-Group: Octopus
-SpellLikeAbilities: {}
-SpellsKnown: {}

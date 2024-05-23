@@ -33,12 +33,25 @@ Reach: 5 ft.
 SpecialAttacks: >-
   drain prana (DC 18), malevolence, paralysis (1d4+1 rounds, DC 18), possess
   corpse
-SpellLikeAbilities: {}
-SpellsKnown: {}
+SpellsKnown:
+  header: Oracle Spells Known (CL 5th; concentration +11)
+  values:
+    - label: 2nd (6/day)
+      value: >-
+        death knell (DC 18), false life, inflict moderate wounds (DC 18),
+        levitate, minor image (DC 18), silence (DC 18)
+    - label: 1st (8/day)
+      value: >-
+        cause fear (DC 17), command (DC 17), doom (DC 17), inflict light wounds
+        (DC 17), obscuring mist, shield of faith
+    - label: 0 (at will)
+      value: >-
+        bleed (DC 16), detect magic, ghost sound, guidance, light, mage hand,
+        read magic, resistance
 AbilityScores:
   - 18
   - 15
-  - —
+  - null
   - 16
   - 12
   - 22
@@ -81,6 +94,7 @@ Treasure: >-
 Description_Visual: >-
   With its bloodless flesh and eyes the color of deepest night, this imperious
   being obviously no longer numbers among the living.
+Group: Vampire
 Source: Inner Sea Bestiary
 IsTemplate: '1'
 Description:
@@ -207,8 +221,6 @@ Description:
   - >-
     Skills: Vetalas gain a +8 racial bonus on Disguise, Perception, Sense
     Motive, and Stealth checks.
-Gender: Female
-Bloodline: undead
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -216,16 +228,11 @@ Climb: '1'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-TemplatesApplied: vampire
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Vampire
+Mystery: bones
 id: '3589'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Vampire
-Mystery: bones
-SpecialAbilities: {}

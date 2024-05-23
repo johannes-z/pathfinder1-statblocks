@@ -17,12 +17,12 @@ Saves: Fort +10, Ref +14, Will +10
 Fort: '10'
 Ref: '14'
 Will: '10'
-DefensiveAbilities: elusive
 Immune: paralysis and sleep, dragon traits
-Resist: fire 30
 Speed: 10 ft., swim 40 ft.
 Melee:
   - bite +12 (1d8+1 plus poison)
+Ranged:
+  - spit +18 (2d6 acid)
 Space: 10 ft.
 Reach: 5 ft.
 SpecialAttacks: constrict (1d8+1)
@@ -50,6 +50,9 @@ Skills:
   - Stealth +17
   - Survival +17
   - Swim +16
+Languages:
+  - Aquan
+  - Draconic
 Environment: any aquatic
 Organization: solitary or pair
 Treasure: none
@@ -58,9 +61,19 @@ Description_Visual: >-
   up to 3 feet. They are covered with rough-edged scales of brown, green, or
   blue coloration, giving their hides a mottled appearance.  Their heads are
   short, with thick, muscular necks concealed beneath a webbed fringe.
+Group: Sea Serpent
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 20; frequency 2 rounds; effect 2d6 Dex plus 2d6
+      acid; cure 2 consecutive saves. The save DC is Constitution-based.
+  - name: Spit (Ex)
+    description: >-
+      The spitting sea serpent can eject a sticky glob of concentrated acidic
+      mucous up to twice a round (using the Rapid Shot feat), with a range of 60
+      feet.
 Description:
   - >-
     Spitting sea serpents are a fiercely territorial if not terribly intelligent
@@ -85,18 +98,8 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Sea Serpent
 id: '2993'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Ranged:
-  - spit +18 (2d6 acid)
-Languages:
-  - Aquan
-  - Draconic
-Group: Sea Serpent
-SpellLikeAbilities: {}
-SpellsKnown: {}

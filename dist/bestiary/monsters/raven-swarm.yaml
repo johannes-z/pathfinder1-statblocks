@@ -4,6 +4,7 @@ XP: '800'
 Alignment: 'N'
 Size: Tiny
 Type: animal
+SubType: (swarm)
 Init: '2'
 Senses:
   - low-light vision, scent
@@ -16,11 +17,15 @@ Saves: Fort +3, Ref +6, Will +3
 Fort: '3'
 Ref: '6'
 Will: '3'
+DefensiveAbilities: half damage from piercing and slashing
+Immune: swarm traits
+Weaknesses: swarm traits
 Speed: 10 ft., fly 40 ft. (average)
 Melee:
   - swarm (1d6 plus eye-rake)
 Space: 10 ft.
 Reach: 0 ft.
+SpecialAttacks: distraction (DC 11), eye-rake
 AbilityScores:
   - 2
   - 15
@@ -46,6 +51,14 @@ Description_Visual: >-
 Group: Raven
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Rake (Ex)
+    description: >-
+      Any living creature damaged by a raven swarm must succeed on a DC 11
+      Reflex save or be blinded as the swarm scratches and tears at the victim's
+      eyes. The blindness lasts for 1d4 days or until healed with a remove
+      blindness or a successful DC 11 Heal check. The save DC is
+      Constitution-based.
 Description:
   - >-
     A raven swarm is a disorienting mass of angered birds. Raven swarms have the
@@ -64,18 +77,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Raven
 id: '3048'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (swarm)
-DefensiveAbilities: half damage from piercing and slashing
-Immune: swarm traits
-Weaknesses: swarm traits
-SpecialAttacks: distraction (DC 11), eye-rake
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

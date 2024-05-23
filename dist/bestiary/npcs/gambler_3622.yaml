@@ -1,0 +1,117 @@
+Name: Gambler
+CR: '6'
+XP: '2400'
+Race: dwarf
+Class: bard 7
+Alignment: 'N'
+Size: Medium
+Type: humanoid
+SubType: (dwarf)
+Init: '1'
+Senses:
+  - Perception +10
+AC: 16, touch 11, flat-footed 15
+AC_Mods: (+5 armor, +1 Dex)
+HP: '49'
+HD: (7d8+14)
+Saves: >-
+  Fort +3, Ref +6, Will +5; +2 vs. poison, spells, and spell-like abilities, +4
+  vs. bardic performance, language-dependent, and sonic
+Fort: '3'
+Ref: '6'
+Will: '5'
+Save_Mods: >-
+  +2 vs. poison, spells, and spell-like abilities, +4 vs. bardic performance,
+  language-dependent, and sonic
+DefensiveAbilities: defensive training (+4 dodge bonus to AC vs. giants)
+Speed: 20 ft.
+Melee:
+  - unarmed strike +10 (1d3+4)
+  - mwk dagger +10 (1d4+4/19-20)
+Ranged:
+  - dagger +6 (1d4+4/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  +1 on attack rolls against goblinoid and orc humanoids, bardic performance 20
+  rounds/day (move action; countersong, distraction, fascinate, inspire
+  competence +3, inspire courage +2, suggestion)
+SpellsKnown:
+  header: Bard Spells Known (CL 7th; concentration +11)
+  values:
+    - label: 3rd (1/day)
+      value: confusion (DC 17), glibness
+    - label: 2nd (4/day)
+      value: >-
+        cure moderate wounds (DC 16), detect thoughts (DC 16), eagle's splendor,
+        invisibility
+    - label: 1st (5/day)
+      value: >-
+        charm person (DC 15), comprehend languages, expeditious retreat, unseen
+        servant
+    - label: 0 (at will)
+      value: daze (DC 14), detect magic, mage hand, prestidigitation
+AbilityScores:
+  - 18
+  - 13
+  - 12
+  - 12
+  - 10
+  - 18
+BaseAtk: '5'
+CMB: '9'
+CMD: 20 (24 vs. bull rush or trip)
+Feats:
+  - Improved Unarmed Strike
+  - Persuasive
+  - Skill Focus (Perform [comedy])
+  - Weapon Focus (unarmed strike)
+Skills:
+  - Bluff +14
+  - Diplomacy +6
+  - Intimidate +16
+  - Knowledge (arcana) +8
+  - Knowledge (dungeoneering) +8
+  - Knowledge (geography) +8
+  - Knowledge (history) +8
+  - Knowledge (local) +8
+  - Knowledge (nature) +8
+  - Knowledge (religion) +8
+  - Perception +10 (+12 to notice unusual stonework)
+  - Perform (comedy) +17
+  - Perform (oratory) +14
+  - Sense Motive +10
+Languages:
+  - Common
+  - Dwarven
+SQ: >-
+  bardic knowledge +3, lore master 1/day, versatile performance (comedy,
+  oratory)
+Source: NPC Codex
+IsTemplate: '0'
+BeforeCombat: The bard casts eagle's splendor.
+DuringCombat: >-
+  The bard brings his fists to any brawl that breaks out when he or someone else
+  gets caught cheating. He alternates between making melee attacks and using
+  confusion to reduce the number of effective combatants.
+Gear: elixir of vision
+OtherGear: +1 chain shirt, masterwork dagger, belt of giant strength +2, 198 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+BaseStatistics: >-
+  Without eagle's splendor, the bard's statistics are Bard Spells Known reduce
+  spell DCs by 2; Cha 14; Skills Bluff +12, Diplomacy +4, Intimidate +14,
+  Perform (comedy) +15, Perform (oratory) +12.
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '3622'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

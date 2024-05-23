@@ -44,6 +44,10 @@ Skills:
   - Sense Motive +15
   - Stealth +9
 RacialMods: +4 Fly, +8 on all Knowledge skills, +4 Perception, +4 Sense Motive, +8 Stealth
+Languages:
+  - Sylvan (cannot speak)
+  - animal telepathy (30 ft.)
+SQ: insightful senses, piercing stare
 Environment: temperate forests
 Organization: solitary, pair, or roost (3-10)
 Treasure: none
@@ -53,6 +57,20 @@ Description_Visual: >-
 Group: Owl
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Animal Telepathy (Su)
+    description: >-
+      A giant owl can telepathically communicate with other animals as if under
+      the effects of speak with animals.
+  - name: Insightful Senses (Su)
+    description: >-
+      A giant owl's senses are particularly well honed to sensing danger or
+      locating prey. It adds its Wisdom modifier as an insight bonus (+3 for
+      most giant owls) on its initiative checks.
+  - name: Piercing Stare (Su)
+    description: >-
+      Up to three times per day as a swift action, a giant owl can gain the
+      effects of true seeing (as the spell) for 1 round.
 Description:
   - >-
     The noble giant owl roosts in the tallest trees or in high caves near its
@@ -70,21 +88,9 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Owl
 id: '2158'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Languages:
-  - Sylvan (cannot speak)
-  - animal telepathy (30 ft.)
-SQ: insightful senses, piercing stare
-SpecialAbilities: {}
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

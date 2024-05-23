@@ -42,6 +42,7 @@ Skills:
   - Perception +11
   - Stealth +3 (+7 in undergrowth)
 RacialMods: +8 Acrobatics when jumping, +4 Stealth in undergrowth
+SQ: powerful leaper
 Environment: temperate forests
 Organization: solitary or pack (2-5)
 Treasure: none
@@ -52,6 +53,15 @@ Description_Visual: >-
 Group: Lizard
 Source: Tome of Horrors 4
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save DC 18 Fort; frequency 1/round for 6 rounds; effect 1d4
+      Dexterity damage; cure 2 saves. The save DC is Constitution-based.
+  - name: Powerful Leaper (Ex)
+    description: >-
+      A giant forest lizard uses its Strength to modify Acrobatics checks made
+      to jump, and it has a +8 racial bonus on Acrobatics checks made to jump.
 Description:
   - >-
     Giant forest lizards are carnivorous animals that dwell in overgrown
@@ -83,18 +93,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Lizard, Common
 id: '4998'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SQ: powerful leaper
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

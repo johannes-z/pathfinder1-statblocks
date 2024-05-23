@@ -21,6 +21,7 @@ Melee:
   - bite +9 (2d6+5), tail +4 (1d8+2)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: intimidating charge
 AbilityScores:
   - 21
   - 13
@@ -50,6 +51,14 @@ Description_Visual: >-
 Group: Lizard
 Source: PFRPG Bestiary
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Intimidating Charge (Ex)
+    description: >-
+      When a giant frilled lizard charges, it hisses ferociously, extends its
+      neck frills, and darts forward on its hind legs, increasing its base speed
+      to 50 feet for that round. In addition to the normal effects of a charge,
+      the creature charged must make a DC 13 Will save or be shaken for 1d6
+      rounds. This is a fear effect. The save DC is Charisma-based.
 Description:
   - >-
     This lizard is a true behemoth- an apex predator found in tropical regions.
@@ -65,14 +74,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Lizard, Frilled (Giant)
 id: '258'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: intimidating charge
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

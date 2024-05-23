@@ -19,13 +19,21 @@ Fort: '1'
 Ref: '6'
 Will: '3'
 DR: 5/magic
+Immune: electricity
+Weaknesses: vulnerability to water
 Speed: 30 ft., fly 60 ft. (perfect)
 Melee:
   - 2 claw +3 (1d4 plus 1d4 electricity)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: breath weapon (15-foot cone of lightning, DC 13 for half, 1d8 electricity)
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th)
+  values:
+    - label: 1/hour
+      value: shocking grasp
+    - label: 1/day
+      value: lightning bolt, summon (level 2, lightning mephit 25%)
 AbilityScores:
   - 10
   - 17
@@ -59,9 +67,30 @@ Treasure: standard
 Description_Visual: >-
   This small creature appears to be a humanoid-shaped being composed of
   electricity. Bluish-white lighting arcs in small bursts from its body.
+Group: Mephit
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      15-foot cone of lightning, damage 1d8 electricity, Reflex DC 13 half. The
+      save DC is Constitution-based and includes a +1 racial bonus. Creatures
+      wearing metal armor take an extra +2 points of damage from a lightning
+      mephit's breath weapon.
+  - name: Fast Healing (Ex)
+    description: >-
+      A lightning mephit heals only if exposed electricity (whether natural,
+      such as an electrical storm, or magical, such as its own shocking grasp or
+      lightning bolt spell-like ability).
+  - name: Vulnerability to Water (Ex)
+    description: >-
+      A lightning mephit takes 1d4 points of damage per gallon of water it
+      contacts. Pouring water onto a lightning mephit requires a successful
+      ranged touch attack. Water from other sources, such as spells or effects
+      that create water but do not specify an amount in gallons, deal 1d4 points
+      of damage per caster level to a lightning mephit within its area of
+      effect. Damage from water-based attacks, like the slam attack of a water
+      elemental, is increased by 50% against a lightning mephit.
 Description:
   - >-
     Lightning mephits come from the Elemental Plane of Air and Quasi- Elemental
@@ -93,14 +122,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Mephit
 id: '2812'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Immune: electricity
-Weaknesses: vulnerability to water
-Group: Mephit
-SpellsKnown: {}

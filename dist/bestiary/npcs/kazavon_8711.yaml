@@ -1,0 +1,191 @@
+Name: Kazavon
+CR: '25'
+XP: '1638400'
+Race: great wyrm blue dragon
+Class: fighter 1/eldritch knight 4
+MonsterSource: Pathfinder RPG Bestiary 294, 94
+Alignment: LE
+Size: Colossal
+Type: dragon
+SubType: (earth)
+Init: '3'
+Senses:
+  - dragon senses
+  - Perception +43
+Aura: electricity (10 ft., 2d6 electricity), frightful presence (360 ft., DC 34)
+AC: 45, touch 5, flat-footed 42
+AC_Mods: (+3 Dex, +40 natural, -8 size)
+HP: '573'
+HD: (33 HD; 5d10+28d12+364)
+Saves: Fort +31, Ref +20, Will +26
+Fort: '31'
+Ref: '20'
+Will: '26'
+DefensiveAbilities: rejuvenation
+DR: 20/magic
+Immune: electricity, paralysis, sleep
+SR: '36'
+Speed: 40 ft., burrow 20 ft., fly 250 ft. (clumsy)
+Melee:
+  - >-
+    bite +43 (4d8+27), 2 claws +43 (4d6+18), tail slap +38 (4d6+27), 2 wings +38
+    (2d8+9)
+Space: 30 ft.
+Reach: 20 ft. (30 ft. with bite)
+SpecialAttacks: >-
+  breath weapon (140-ft. line, DC 35, 24d8 electricity), crush (Large creatures,
+  DC 35, 4d8+27), desert thirst (DC 35), sandstorm, storm breath (DC 35, 2d8
+  electricity), tail sweep (40-ft. radius, 2d8+27, DC 35)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 28th; concentration +38)
+  values:
+    - label: At Will
+      value: >-
+        create water, ghost sound (DC 20), hallucinatory terrain (DC 24), minor
+        image (DC 22), mirage arcana (DC 25), veil (DC 26), ventriloquism (DC
+        21)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 20th; concentration +30)
+  values:
+    - label: 9th (7/day)
+      value: gate, shapechange, time stop
+    - label: 8th (7/day)
+      value: binding (DC 28), demand (DC 28), maze
+    - label: 7th (7/day)
+      value: plane shift (DC 27), project image (DC 27), greater teleport
+    - label: 6th (8/day)
+      value: chain lightning (DC 26), greater dispel magic, geas/quest
+    - label: 5th (8/day)
+      value: >-
+        contact other plane, feeblemind (DC 25), telekinesis (DC 25), wall of
+        force
+    - label: 4th (8/day)
+      value: >-
+        black tentacles, charm monster (DC 24), detect scrying, greater
+        invisibility
+    - label: 3rd (8/day)
+      value: displacement, haste, keen edge, nondetection
+    - label: 2nd (9/day)
+      value: >-
+        darkness, detect thoughts (DC 22), false life, glitterdust (DC 22),
+        mirror image
+    - label: 1st (9/day)
+      value: alarm, grease, mage armor, magic missile, shield
+    - label: 0 (at will)
+      value: >-
+        arcane mark, bleed (DC 20), detect magic, detect poison, light, mage
+        hand, mending, open/close (DC 20), prestidigitation
+AbilityScores:
+  - 46
+  - 16
+  - 33
+  - 26
+  - 25
+  - 30
+BaseAtk: '33'
+CMB: +59 (+63 disarm, +63 trip)
+CMD: 72 (74 vs. disarm, 78 vs. trip)
+Feats:
+  - Arcane Armor Mastery
+  - Arcane Armor Training
+  - Arcane Strike
+  - Combat Expertise
+  - Craft Magic Arms and Armor
+  - Craft Wondrous Item
+  - Critical Focus
+  - Eschew Materials
+  - Exotic Weapon Proficiency (spiked chain)
+  - Greater Disarm
+  - Greater Trip
+  - Improved Disarm
+  - Improved Trip
+  - Iron Will
+  - Power Attack
+  - Quicken Spell
+  - Staggering Critical
+  - Still Spell
+  - Weapon Focus (spiked chain)
+Skills:
+  - Bluff +46
+  - Diplomacy +46
+  - Disguise +43
+  - Fly +23
+  - Intimidate +46
+  - Knowledge (arcana
+  - religion) +44
+  - Knowledge (geography
+  - history
+  - local
+  - nobility) +22
+  - Linguistics +13
+  - Perception +43
+  - Sense Motive +43
+  - Spellcraft +44
+  - Survival +43
+  - Use Magic Device +46
+Languages:
+  - Aklo
+  - Common
+  - Draconic
+  - Giant
+  - Infernal
+  - Necril
+  - Orc
+  - Shadowtongue
+  - Shoanti
+  - Undercommon
+  - Varisian
+SQ: change shape (fixed human form, alter self), mirage, sound imitation
+Source: Curse Of The Crimson Throne Chapter Appendix
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Change Shape (Su)
+    description: >-
+      This ability, granted to Kazavon by Zon- Kuthon, allows the blue dragon to
+      assume the form of a human man at will. He always assumes the same form-
+      stats for Kazavon in this guise appear on page 449.
+  - name: Rejuvenation (Ex)
+    description: >-
+      If Kazavon is killed, his body crumbles swiftly, and is soon reduced to
+      little more than dust. Any of the relics absorbed into his body remain
+      behind amid the dust. As long as Kazavon's relics continue to exist, there
+      is always a chance the great blue wyrm can manifest again. If Kazavon was
+      restored to life via the Everdawn Pool (as described in Rise of the Dragon
+      on page 390), all that remains are his fangs.
+Gender: Male
+BeforeCombat: >-
+  Normally, Kazavon casts mage armor and shield well before combat begins, but
+  the way he is likely  to be encountered in the final adventure's climax gives
+  him little time to do this. Those effects are not calculated into the stats
+  above.
+DuringCombat: >-
+  Kazavon opens a fight in draconic form with time stop, then places walls of
+  force to control the battlefield. He casts greater invisibility on the last
+  round of the time stop spell's effect. Kazavon saves his melee attacks for
+  when he's surrounded, and tries to remain mobile, using flight to stay far
+  from foes and hitting them with spells from a distance each round between uses
+  of his breath weapon. Every few rounds, he casts time stop again to recover,
+  reposition, and take control of the battlefield. Kazavon does not assume his
+  human form until he has access to new equipment to use in that form.
+Morale: >-
+  Kazavon knows now that he cannot be killed, but is not eager to return to the
+  limbo he endured after his previous defeat. If reduced to fewer than 50 hit
+  points, he casts greater teleport to relocate or gate to flee to the Shadow
+  Plane, where he spends a few days recovering and plotting his revenge before
+  returning.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: great wyrm
+CompanionFamiliarLink: '0'
+id: '8711'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,113 @@
+Name: Slithering Tracker
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Small
+Type: ooze
+Init: '4'
+Senses:
+  - blindsight 60 ft.
+  - Perception +8
+AC: 15, touch 11, flat-footed 14
+AC_Mods: ', +4 natural, +1 size)'
+HP: '47'
+HD: (5d8+25)
+Saves: Fort +6, Ref +1, Will +1
+Fort: '6'
+Ref: '1'
+Will: '1'
+DefensiveAbilities: sealed mind, transparent
+Immune: ooze traits
+Speed: 10 ft., climb 10 ft.
+Melee:
+  - slam +6 (1d4+3 plus paralysis)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  engulf (paralysis and plasma drain), paralysis (1d4 hours, DC 17, also when
+  struck by unarmed attacks or natural weapons), plasma drain
+AbilityScores:
+  - 14
+  - 10
+  - 21
+  - 10
+  - 10
+  - 1
+BaseAtk: '3'
+CMB: '4'
+CMD: 14 (can't be tripped)
+Feats:
+  - Improved Initiative
+  - Skill Focus (Perception)
+  - Skill Focus (Stealth)
+Skills:
+  - Climb +10
+  - Perception +8
+  - Stealth +16
+RacialMods: +4 Stealth
+Environment: any underground
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This creature looks like a long, thin transparent protoplasm, almost
+  snake-like in form.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Engulf (Ex)
+    description: >-
+      A slithering tracker can engulf a paralyzed foe up to one size larger than
+      itself as a standard action. It cannot make a slam attack during a round
+      in which it engulfs. The slithering tracker merely has to move into a
+      space occupied by a paralyzed creature, completely covering it. An
+      engulfed opponent is subjected to the slithering tracker's paralysis and
+      plasma drain, and is considered to be grappled and trapped within its
+      body. A slithering tracker only uses this ability against a paralyzed,
+      sleeping, or otherwise helpless opponent.
+  - name: Plasma Drain (Ex)
+    description: >-
+      A slithering tracker drains the body fluids from an engulfed opponent.
+      Each 5 minutes an opponent is engulfed, it takes 1 point of Constitution
+      damage. Because it takes a long time to completely drain a foe, a
+      slithering tracker generally only uses this ability against a paralyzed,
+      stunned, held, or sleeping opponent.
+  - name: Sealed Mind (Ex)
+    description: >-
+      Even though a slithering tracker has an Intelligence score, it is immune
+      to all mind-affecting effects (charms, compulsions, phantasms, patterns,
+      and morale effects) just as other oozes are.
+  - name: Transparent (Ex)
+    description: >-
+      A slithering tracker is hard to identify, even under ideal conditions, and
+      it takes a DC 15 Perception check to notice one. Creatures who fail to
+      notice a slithering tracker and walk into it are automatically hit with a
+      slam attack and subjected to the creature's paralysis attack.
+Description:
+  - >-
+    The slithering tracker is an amorphous and transparent creature that
+    inhabits dark underground areas of the world. Unlike other oozes, the
+    slithering tracker does not feed on organic matter. It survives by devouring
+    living creatures. A typical slithering tracker is 3 feet long and has a
+    thickness of about 6 inches. It can grow to a length of about 8 feet. A
+    slithering tracker prefers to attack helpless or immobile opponents. Once it
+    paralyzes an opponent, the slithering tracker flows over it and drains its
+    body fluids. The tracker, now sated, slithers off to digest its meal. All
+    that's left of the opponent is a dry and rotted husk. Credit The Slithering
+    Tracker originally appeared in the Strategic Review #5 (© TSR/Wizards of the
+    Coast, 1975) and later in the First Edition Monster Manual (© TSR/Wizards of
+    the Coast, 1977) and is used by permission. Copyright Notice Author Scott
+    Greene, based on original material by Gary Gygax.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '3023'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -19,6 +19,8 @@ Will: '2'
 Speed: 30 ft.
 Melee:
   - bite +5 (1d8+3), 2 claws +5 (1d6+3)
+Ranged:
+  - spray +5 touch (musk)
 Space: 10 ft.
 Reach: 5 ft.
 SpecialAttacks: musk
@@ -46,9 +48,20 @@ Treasure: none
 Description_Visual: >-
   Snarling and ferocious, this horse-sized skunk emits a frightening growl as it
   smashes through the undergrowth.
+Group: Skunk
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Musk (Ex)
+    description: >-
+      Up to twice per day, a giant skunk can spray a stream of noxious musk at a
+      single target within 30 feet as a standard action. With a successful
+      ranged touch attack, the creature struck by this spray must make a DC 17
+      Fortitude save or be nauseated for 1d6 rounds and then sickened for 1d6
+      minutes by the horrific stench. A successful save reduces the effect to
+      only 1d4 rounds of being sickened. A creature cannot use the scent ability
+      as long as it is affected by this musk. The save DC is Constitution-based,
+      and includes a +2 racial bonus.
 Description:
   - >-
     Much larger than their passive cousins, giant skunks are an aggressive lot.
@@ -65,18 +78,9 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '2193'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Ranged:
-  - spray +5 touch (musk)
-Group: Skunk
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

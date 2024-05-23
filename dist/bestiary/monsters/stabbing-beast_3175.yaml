@@ -1,0 +1,197 @@
+Name: Stabbing Beast
+CR: '15'
+XP: '51200'
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (evil, extraplanar, shapechanger)
+Init: '16'
+Senses:
+  - darkvision 60 ft., low-light vision, see in darkness, see invisibility
+  - Perception +27
+AC: 35, touch 23, flat-footed 22
+AC_Mods: (+12 Dex, +1 dodge, +12 natural)
+HP: '225'
+HD: (18d10+126)
+Saves: Fort +18, Ref +18, Will +15; +4 vs. mind-affecting
+Fort: '18'
+Ref: '18'
+Will: '15'
+Save_Mods: +4 vs. mind-affecting
+DefensiveAbilities: all-around vision, scorpion mind
+DR: 10/good and magic
+Immune: poison
+Resist: acid 30, cold 10, electricity 10, fire 10
+SR: '26'
+Speed: 50 ft.
+Melee:
+  - >-
+    +1 short sword +20/+15/+10/+5 (1d6+4/17-20 plus bleed), +1 short sword +20
+    (1d6+2/17-20 plus bleed), sting +22 (1d6+5 plus bleed and poison)
+Ranged:
+  - poison stream +30 touch (blindness)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: bleed 2d6, scorpion strike, sneak attack +5d6, sudden strike
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +20)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At Will
+      value: >-
+        absorbing touch*, alchemical allocation*, charm person (DC 13), keen
+        edge, poison (DC 16), true strike
+    - label: 3/day
+      value: >-
+        false alibi (DC 15, see page 75), greater teleport (self only plus 50
+        lbs.), invisibility, modify memory (DC 16), suggestion (DC 15), summon
+        (level 6, 1 fiendish deadfall scorpion**, 100%)
+AbilityScores:
+  - 16
+  - 35
+  - 24
+  - 13
+  - 15
+  - 14
+BaseAtk: '18'
+CMB: '21'
+CMD: '44'
+Feats:
+  - Combat Expertise
+  - Combat Reflexes
+  - Deflect ArrowsB
+  - Dodge
+  - Greater FeintB
+  - Improved FeintB
+  - Improved Initiative
+  - Improved Iron Will
+  - Iron Will
+  - Mobility
+  - Skill Focus (Stealth)
+  - Spring Attack
+  - Two-Weapon FightingB
+Skills:
+  - Appraise +13
+  - Bluff +22
+  - Climb +12
+  - Craft (alchemy) +13
+  - Knowledge (arcana) +10
+  - Knowledge (local) +13
+  - Knowledge (nature) +10
+  - Knowledge (planes) +13
+  - Knowledge (religion) +13
+  - Perception +27
+  - Sense Motive +14
+  - Stealth +39
+RacialMods: +8 Bluff, +4 Perception
+Languages:
+  - Abyssal
+  - Celestial
+  - Common
+  - Infernal
+  - Protean
+  - telepathy 100 ft.
+SQ: change shape (Huge scorpion or scorpion-tailed human), murderer's reward
+Environment: any land or urban
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This cottage-sized scorpion-man moves with an eerie grace and an intelligent,
+  murderous intent.
+Group: The Stabbingbeast
+Source: AP 59
+IsTemplate: '0'
+SpecialAbilities:
+  - name: s Reward (Su)
+    description: >-
+      If the Stabbing Beast's attack reduces a target to fewer than 0 hit
+      points, the Beast immediately gains 2d6 temporary hit points. If the
+      attack kills the target, the Beast immediately gains 3d8 temporary hit
+      points. Neither aspect of this ability can heal the Stabbing Beast more
+      than the maximum hit points of the target. The temporary hit points last
+      for 1 hour.
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save Fort DC 26; frequency 1/round for 6 rounds; effect 1d6
+      Str; cure 2 consecutive saves. The save DC is Constitution-based.
+  - name: Poison Stream (Ex)
+    description: >-
+      The Stabbing Beast can force a stream of poison from its stinger at a
+      target as a ranged attack. The target must make a successful DC 26
+      Fortitude save or be blinded for 1d4+1 rounds. This attack has a range of
+      180 feet with no range increment. The Beast can make this attack in place
+      of a melee sting attack (for example, attacking twice with its weapons or
+      claws and once with its poison stream).
+  - name: Scorpion Mind (Ex)
+    description: >-
+      Though the Stabbing Beast is an intelligent outsider, its mind functions
+      much like an augmented vermin's brain, granting it a +4 bonus on all
+      saving throws against mind-affecting effects.
+  - name: Scorpion Strike (Ex)
+    description: >-
+      The Stabbing Beast can make a single melee attack as a standard action. If
+      this attack hits, it deals damage normally, and the target's base land
+      speed is reduced to 5 feet for 2 rounds unless it succeeds at a DC 21
+      Fortitude saving throw.
+  - name: Sudden Strike (Ex)
+    description: >-
+      The Stabbing Beast is adept at moving quickly when its foes are surprised.
+      During a surprise round, it may act as if it had a full round to act,
+      rather than just one standard action.
+Description:
+  - >-
+    The Stabbing Beast is the herald of Norgorber, the god of greed, murder,
+    secrets, and poison. It is an incredibly dangerous predator, a creature of
+    immense strength that uses its keen intellect and deadly poison to stalk and
+    kill its prey. Its natural form is that of an huge scorpion, but it can also
+    assume an armored humanoid shape suitable for stealth or interacting with
+    Norgorber's followers. Though its main purpose for coming to Golarion is to
+    kill, it has also been called to aid great thefts and bury terrible secrets.
+  - >-
+    The Stabbing Beast enjoys the company of mortals in the same way that a
+    well-fed barn cat enjoys the company of mice. It sometimes "plays" with
+    these toys, teaching them secrets of alchemy or assassination, though it
+    just as often maims or kills them as it sees fit or according to Norgorber's
+    greater plans. It ignores most creatures as if they were unimportant or not
+    even alive, bowling over these irrelevant people in its way and casually
+    murdering those who make nuisances of themselves.
+  - Ecology
+  - >-
+    The Stabbing Beast is guilty of thousands of killings and has no fear of
+    death. It does not believe that anything other than its master can kill it,
+    despite mortal records showing that it has been killed in the past;
+    Norgorber wiped its memory of these failures when he resurrected his herald.
+    Norgorber's herald is normally emotionless and cold, showing no remorse or
+    regret for any death or injury. When the cult of Norgorber summons the
+    Stabbing Beast, the mortals may present it with several choice targets to
+    hunt and slay, though predicting its interests is difficult and the Beast
+    may select its own target-or none at all- in exchange for its services. The
+    Beast keeps trophies of its kills by covering the corpses in a preservative
+    bile, swallowing them in its scorpion form, and regurgitating them when it
+    returns to its lair deep beneath the planar metropolis of Axis.
+  - Habitat & Society
+  - >-
+    The herald of Norgorber lives only to serve his dark master, whose mandates
+    may come to the Stabbing Beast in a steady stream of evil deeds or
+    sporadically and with long periods of dormancy between. When idle for too
+    long, it tends to turn off its mind and simply waits in stasis, completely
+    inert like a clockwork device that has run down. It reacts to prayers to
+    Norgorber as if they were echoes of its master's voice, drawing its
+    attention without violence and bringing it to full alertness.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+OffenseNote: '* See the Advanced Player''s Guide.   ** See Pathfinder RPG Bestiary 3.'
+AgeCategory: adult
+DontUseRacialHD: '0'
+AlternateNameForm: Humanoid Form
+id: '3175'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

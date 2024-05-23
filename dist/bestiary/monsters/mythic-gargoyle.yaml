@@ -23,6 +23,9 @@ Melee:
   - bite +8 (1d4+3), 2 claws +8 (1d6+3), gore +8 (1d4+3)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. line, 6d6 acid damage, Reflex DC 15 half, usable every
+  1d4 rounds), mythic power (2/day, surge +1d6)
 AbilityScores:
   - 17
   - 14
@@ -52,9 +55,33 @@ Treasure: standard
 Description_Visual: >-
   This living stone statue takes the shape of a horned and winged humanoid, and
   green acid drips from its mouth.
+Group: Gargoyle
 Source: Mythic Adventures
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Freeze (Ex)
+    description: >-
+      A gargoyle can hold itself so still it appears to be a statue. A gargoyle
+      that uses freeze can take 20 on its Stealth check to hide in plain sight
+      as a stone statue.
+  - name: Opportunistic Movement (Ex)
+    description: >-
+      A mythic gargoyle can rapidly move to take advantage of an opponent's
+      weakened defenses. When an opponent within 30 feet takes an action that
+      provokes an attack of opportunity, as an immediate action the mythic
+      gargoyle can expend one use of mythic power to move up to 40 feet, ending
+      its movement next to the creature that provoked the attack of opportunity
+      and making an attack of opportunity against that creature. The gargoyle's
+      movement from this ability doesn't provoke attacks of opportunity.
+  - name: Possess Statue (Su)
+    description: >-
+      A mythic gargoyle can expend one use of mythic power to possess and
+      animate a Medium stone statue within 100 feet. The possessed statue
+      functions as a non-mythic gargoyle and lasts as long as the statue is in
+      range and the gargoyle concentrates. When using this ability, the
+      gargoyle's actual body is immobile (as if using its freeze ability) and
+      helpless. It can stop using this ability as a move action. If the statue
+      is destroyed, the gargoyle's life force returns to its own body.
 Description:
   - >-
     A mythic gargoyle is a king or queen among its kind, usually gaining its
@@ -75,19 +102,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Gargoyle, Common
 id: '4876'
 UniqueMonster: '0'
 MR: '2'
 Mythic: '1'
 MT: '0'
-SpecialAttacks: >-
-  breath weapon (60-ft. line, 6d6 acid damage, Reflex DC 15 half, usable every
-  1d4 rounds), mythic power (2/day, surge +1d6)
-Group: Gargoyle
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

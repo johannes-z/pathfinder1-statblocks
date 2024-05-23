@@ -1,0 +1,101 @@
+Name: Spriggan
+CR: '3'
+XP: '800'
+Race: Spriggan
+MonsterSource: Pathfinder RPG Bestiary 2 257
+Alignment: CE
+Size: Small
+Type: humanoid
+SubType: (gnome)
+Init: '4'
+Senses:
+  - low-light vision
+  - Perception +7
+AC: 17, touch 15, flat-footed 13
+AC_Mods: (+2 armor, +4 Dex, +1 size)
+HP: '22'
+HD: (4d8+4)
+Saves: Fort +5, Ref +5, Will +1
+Fort: '5'
+Ref: '5'
+Will: '1'
+Speed: 20 ft.
+Melee:
+  - mwk morningstar +5 (1d6-1)
+Ranged:
+  - light crossbow +8 (1d6/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +2d6
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +4)
+  values:
+    - label: At will
+      value: flare (DC 10), scare (DC 12), shatter (DC 12)
+AbilityScores:
+  - 9
+  - 19
+  - 12
+  - 10
+  - 10
+  - 9
+BaseAtk: '3'
+CMB: '1'
+CMD: '15'
+Feats:
+  - Combat Reflexes
+  - Weapon Focus (morningstar)
+Skills:
+  - Climb +1
+  - Disable Device +11
+  - Perception +7
+  - Sleight of Hand +11
+  - Stealth +15
+RacialMods: +2 Climb, +2 Disable Device, +2 Perception, +2 Sleight of Hand, +2 Stealth
+Languages:
+  - Aklo
+  - Gnome
+SQ: size alteration, spriggan magic, spriggan skills
+Source: PFS S3-05
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Size Alteration (Su)
+    description: >-
+      At will as a standard action, a spriggan can change his size between Small
+      and Large. Weapons, armor, and other objects on the spriggan's person grow
+      proportionally when he changes size (objects revert to normal size 1 round
+      after a spriggan releases them). When a spriggan becomes Large, his speed
+      increases to 30 feet, he gains +12 Strength, -2 Dexterity, and +6
+      Constitution, and he takes a &#8211;2 size penalty to his AC. While Large,
+      a spriggan cannot use his sneak attack or his racial spell-like abilities.
+  - name: Spriggan Magic (Ex)
+    description: >-
+      A spriggan gains a +1 racial bonus on concentration checks and to save DCs
+      for all of its racial spell-like abilities.
+  - name: Spriggan Skills (Ex)
+    description: >-
+      Climb, Disable Device, Perception, Sleight of Hand, and Stealth are class
+      skills for spriggans.
+DuringCombat: >-
+  The spriggan grows to Large size as soon as possible and lumbers into combat,
+  concentrating on the most dangerous opponents (see below for Large
+  statistics). The spriggan does not much like the atomies, and so avoids
+  harming PCs that seem to be concentrating their attacks against the diminutive
+  duelists.
+Morale: The grim spriggan expects and offers no quarter. He fights until slain.
+Gear: leather armor, light crossbow with 10 bolts, masterwork morningstar
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5891'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

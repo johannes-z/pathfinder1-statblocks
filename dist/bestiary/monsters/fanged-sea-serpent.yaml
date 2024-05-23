@@ -17,9 +17,7 @@ Saves: Fort +9, Ref +7, Will +6
 Fort: '9'
 Ref: '7'
 Will: '6'
-DefensiveAbilities: elusive
 Immune: paralysis and sleep, dragon traits
-Resist: fire 30
 Speed: swim 30 ft.
 Melee:
   - bite +12 (1d8+6 plus poison)
@@ -56,9 +54,14 @@ Description_Visual: >-
   protection. The serpent's most outstanding features, however, are the rows of
   long, sharp teeth that fill its mouth. It has large, lidless red eyes with
   white pupils.
+Group: Sea Serpent
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 17; frequency 1/round for 6 rounds; effect 1d4
+      Con; cure 2 consecutive saves. The save DC is Constitution-based.
 Description:
   - >-
     The fanged sea serpent is a vicious predator of the seas feared for its
@@ -86,13 +89,8 @@ Swim: '1'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Sea Serpent
 id: '2990'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Sea Serpent
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -17,10 +17,6 @@ Saves: Fort +6, Ref +2, Will +8
 Fort: '6'
 Ref: '2'
 Will: '8'
-DR: 10/-
-Immune: acid, electricity, ooze traits
-Resist: cold 20
-SR: '24'
 Speed: 30 ft.
 Melee:
   - slam +10 (1d3+4)
@@ -37,13 +33,21 @@ AbilityScores:
 BaseAtk: '6'
 CMB: '8'
 CMD: '18'
+Feats:
+  - Alertness
+  - Great Fortitude
+  - Iron Will
+  - Toughness
+Skills:
+  - Climb +10
+  - Perception +9
 Environment: any
 Organization: pack (4-6) or swarm (7-12)
 Treasure: none
 Description_Visual: This slime-covered humanoid lurches forward, its frame twisted, eyes bulging.
+Group: Living Monolith
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
 Description:
   - >-
     Crawling offspring are mindless creatures spawned from a living monolith.
@@ -68,8 +72,6 @@ Description:
   - 4 Regeneration (5 [fire]; replaces fast healing)
   - 5 Flight (fly 30 ft., average maneuverability)
   - 6 No special feature
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -79,22 +81,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '4997'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Feats:
-  - Alertness
-  - Great Fortitude
-  - Iron Will
-  - Toughness
-Skills:
-  - Climb +10
-  - Perception +9
-Group: Living Monolith
-SpellLikeAbilities: {}
-SpellsKnown: {}

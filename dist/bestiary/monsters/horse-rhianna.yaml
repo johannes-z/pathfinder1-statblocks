@@ -16,6 +16,7 @@ Saves: Fort +6, Ref +4, Will +2
 Fort: '6'
 Ref: '4'
 Will: '2'
+Weaknesses: encumbrance penalty
 Speed: 60 ft.
 Melee:
   - 2 hooves -1 (1d4+1)
@@ -38,6 +39,7 @@ Feats:
 Skills:
   - Acrobatics +5 (+9 to balance)
   - Perception +6
+RacialMods: +4 Acrobatics to balance
 SQ: dexterous, docile, hardy
 Environment: temperate plains
 Organization: solitary, pair, or herd (3-30)
@@ -45,9 +47,29 @@ Treasure: none
 Description_Visual: >-
   This horse is shorter and less elegantly muscled than most other riding
   breeds. It has a shaggy brown coat and a long, thick mane.
+Group: Horse
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Dexterous (Ex)
+    description: >-
+      Rhiannas convey a +2 bonus to their riders' Ride checks to avoid
+      obstacles.
+  - name: Docile (Ex)
+    description: >-
+      Unless specifically trained for combat (see the Handle Animal skill), a
+      Rhianna's hooves are treated as secondary attacks.
+  - name: Encumbrance Penalty (Ex)
+    description: >-
+      Rhiannas lose the benefits of the Run feat whenever they are encumbered.
+      They may still run at 4 times their speed with light encumbrance (up to
+      228 lbs.), and 3 times their speed with medium (459 lbs.) or heavy (690
+      lbs.) encumbrance.
+  - name: Hardy (Ex)
+    description: >-
+      Rhiannas are extremely durable creatures. Unlike with other mounts,
+      anytime a hustle, forced march or spurred movement would do damage to
+      these horses, they are allowed a Constitution save to negate the damage.
 Description:
   - >-
     Domesticated Rhiannas retain the notable traits of their wild ancestors:
@@ -84,18 +106,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Horse
 id: '4978'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Weaknesses: encumbrance penalty
-RacialMods: +4 Acrobatics to balance
-Group: Horse
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

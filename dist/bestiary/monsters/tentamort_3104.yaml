@@ -1,0 +1,115 @@
+Name: Tentamort
+CR: '4'
+XP: '1200'
+Alignment: 'N'
+Size: Medium
+Type: aberration
+Init: '5'
+Senses:
+  - blindsight 30 ft.
+  - Perception +0
+AC: 19, touch 11, flat-footed 18
+AC_Mods: (+1 Dex, +8 natural)
+HP: '22'
+HD: (4d8+4)
+Saves: Fort +2, Ref +4, Will +4
+Fort: '2'
+Ref: '4'
+Will: '4'
+Speed: 5 ft., climb 5 ft.
+Melee:
+  - >-
+    constricting tentacle +5 (1d4+2 plus grab), stinging tentacle +5 (1d4+2 plus
+    grab plus paralysis)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with tentacles)
+SpecialAttacks: >-
+  constrict (1d4+2, constricting tentacle only), liquefy organs (stinging
+  tentacle only), paralysis
+AbilityScores:
+  - 15
+  - 12
+  - 12
+  - 1
+  - 10
+  - 6
+BaseAtk: '3'
+CMB: +5 (+9 grapple)
+CMD: 16 (can't be tripped)
+Feats:
+  - Improved Initiative
+  - Lightning Reflexes
+Skills:
+  - Climb +14
+  - Stealth +7
+Environment: any marsh or underground
+Organization: solitary or brood (2-5)
+Treasure: none
+Description_Visual: >-
+  This creature has a small spherical body of gray flesh. Two long tentacles
+  protrude from the upper half of the sphere while eight smaller tentacles hang
+  from the bottom of its spherical body. One tentacle ends in a squid-like
+  appendage while the other ends in a needle-like barb.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Paralysis (Ex)
+    description: >-
+      The digestive fluid injected by a tentamort's stinging tentacle is coupled
+      with a paralytic poison as well that forces the victim to make a DC 13
+      Fortitude save or be paralyzed for one minute. Immunity to poison negates
+      this effect.
+  - name: Liquefy Organs (Ex)
+    description: >-
+      A tentamort can insert the needlelike projection from its stinging
+      tentacle into the body of a foe grappled by either tentacle. Doing so
+      requires a successful melee attack, and the tentamort cannot insert the
+      projection into a creature grappled with its constricting tentacle if its
+      stinging tentacle is also grappling a foe. Once inserted, the tentamort
+      injects a digestive liquid and a paralytic poison (see above) through the
+      hollow barb that liquefies the victim's internal organs; the tentamort
+      draws this liquefied slurry back through the hollow needle into its own
+      body to feed. This attack deals 1d4 points of Constitution damage each
+      round the tube remains inserted in a foe. Once the needle is removed or
+      the tentamort is killed, the foe continues to take 1 point of Constitution
+      damage until it succeeds at a DC 13 Fortitude save. This Constitution
+      damage can be halted by spells or effects that remove disease or heal
+      ability score damage (including lesser restoration).
+Description:
+  - >-
+    Tentamorts are thought to have arrived on the Material Plane through a tear
+    in the planar fabric. They are rarely encountered above ground, preferring
+    the darkness of underground caverns and dungeons. The tentamort somewhat
+    resembles a squid. Its body is a small, 3-foot diameter sphere of gray, hard
+    flesh. Two 10-foot long tentacles protrude from the upper half of its body
+    while eight 2-foot long tentacles hang from its underside (it uses these for
+    movement only). Of the two large tentacles, one is thicker and covered with
+    squid-like suction cups, while the other is leaner, and is tipped with a
+    bone-colored needle-sharp barb.
+  - A tentamort uses its small tentacles to crawl along ceilings and walls.
+  - >-
+    When prey passes underneath, it drops on its opponent, grabbing it with its
+    tentacles and injecting it with its deadly acid. If two targets are
+    available within reach, it will direct a separate tentacle at each one,
+    hoping to hold one target in place long enough to paralyze the other, then
+    detach its stinging tentacle and focus both attacks on the remaining prey.
+  - >-
+    Credit The Tentamort originally appeared in the First Edition Fiend Folio (©
+    TSR/Wizards of the Coast, 1981) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Mike
+    Roberts.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '3104'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

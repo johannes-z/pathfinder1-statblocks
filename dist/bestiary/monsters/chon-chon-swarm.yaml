@@ -4,6 +4,7 @@ XP: '800'
 Alignment: CN
 Size: Tiny
 Type: aberration
+SubType: (swarm)
 Init: '6'
 Senses:
   - darkvision 60 ft.
@@ -24,7 +25,12 @@ Ranged:
   - acid spit +8 (2d4 acid)
 Space: 10 ft.
 Reach: 0 ft.
-SpellLikeAbilities: {}
+SpecialAttacks: babble, distraction (DC 13)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +8)
+  values:
+    - label: Constant
+      value: detect magic
 AbilityScores:
   - 10
   - 15
@@ -52,9 +58,23 @@ Description_Visual: >-
   This flying head has incredibly large ears that constantly flap to keep the
   creature aloft. It babbles to itself as it flies, as if to remind itself of
   secrets only it knows.
+Group: Chon Chon
 Source: AP 53
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Acid Spit (Ex)
+    description: >-
+      A chon chon can spit a disgusting blob of acid at a single foe, making a
+      ranged attack with a range of 30 feet and no range increment. A successful
+      attack deals 2d4 points of acid damage and forces the target to make a DC
+      13 Fortitude saving throw to avoid becoming nauseated for 1 round. The
+      save DC is Constitution-based.
+  - name: Jabber (Su)
+    description: >-
+      A chon chon swarm mutters even more loudly than a solitary chon chon. Any
+      creature attempting to cast a spell within 30 feet of a chon chon must
+      make a successful DC 11 concentration check or lose the spell. This is a
+      sonic, mind-affecting effect. The concentration DC is Charisma-based.
 Description:
   - >-
     Chon chons appear to be human heads with ears so grotesquely enlarged that
@@ -109,9 +129,6 @@ Description:
     with such a curse. To this end, they've created a terrifying draught with
     the power to transform the drinker into a being resembling a chon chon,
     though few can guess for how long.
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '1'
@@ -119,16 +136,10 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-BaseStatistics: 'NULL'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '2345'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (swarm)
-SpecialAttacks: babble, distraction (DC 13)
-Group: Chon Chon
-SpellsKnown: {}

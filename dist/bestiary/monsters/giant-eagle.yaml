@@ -16,6 +16,7 @@ Saves: Fort +5, Ref +7, Will +3
 Fort: '5'
 Ref: '7'
 Will: '3'
+DefensiveAbilities: evasion
 Speed: 10 ft., fly 80 ft. (average)
 Melee:
   - 2 claws +7 (1d8+4), bite +7 (1d6+4)
@@ -39,12 +40,15 @@ Skills:
   - Perception +15
   - Sense Motive +4
 RacialMods: +4 Perception
+Languages:
+  - Auran (cannot speak)
 Environment: temperate mountains
 Organization: solitary, pair, or eyrie (3-12)
 Treasure: none
 Description_Visual: >-
   This immense eagle's feathers are golden brown and shimmer in the light. Its
   sharp beak and curved talons are dark yellow.
+Group: Eagle
 Source: PFRPG Bestiary
 IsTemplate: '0'
 Description:
@@ -52,8 +56,6 @@ Description:
     A typical giant eagle stands about 15 feet tall, has a wingspan of up to 30
     feet, and resembles its smaller cousins in nearly every way except size. It
     weighs 500 pounds.
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '1'
@@ -63,19 +65,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 LinkText: Eagle, (Giant)
 id: '151'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Languages:
-  - Auran (cannot speak)
-DefensiveAbilities: evasion
-Group: Eagle
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

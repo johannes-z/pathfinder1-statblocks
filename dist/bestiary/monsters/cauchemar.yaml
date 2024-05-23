@@ -23,7 +23,11 @@ Melee:
 Space: 15 ft.
 Reach: 10 ft.
 SpecialAttacks: smoke (DC 22)
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th)
+  values:
+    - label: 1/hour
+      value: (self plus 1 rider only)-ethereal jaunt, plane shift
 AbilityScores:
   - 31
   - 15
@@ -61,9 +65,9 @@ Treasure: none
 Description_Visual: >-
   This towering, burning equine stands upon smoking hooves. Hellfire shimmers in
   its hateful eyes.
+Group: Nightmare
 Source: PFRPG Bestiary
 IsTemplate: '0'
-SpecialAbilities: {}
 Description:
   - >-
     The cauchemar is a more dangerous variant of the nightmare, particularly
@@ -78,12 +82,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Cauchemar
 id: '281'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Nightmare
-SpellsKnown: {}

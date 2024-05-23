@@ -6,6 +6,7 @@ Class: warrior 1
 Alignment: CE
 Size: Medium
 Type: humanoid
+SubType: (orc)
 Init: '0'
 Senses:
   - darkvision 60 ft.
@@ -44,7 +45,6 @@ Skills:
 Languages:
   - Common
   - Orc
-SQ: weapon familiarity
 Environment: temperate hills and mountains
 Organization: >-
   gang (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th
@@ -54,8 +54,18 @@ Treasure: standard
 Description_Visual: >-
   This creature looks like an orc whose face and head is painted in a grotesque
   skull-like pattern.
+Group: Orc
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Invisible in Shadows (Ex)
+    description: >-
+      When a ghost-faced orc stands still or moves slowly (no more than 5 feet
+      per round) in shadowy illumination or complete darkness, it becomes
+      effectively invisible to all natural and extraordinary sight, including
+      darkvision and other sight-based senses. A ghost-faced orc invisible in
+      shadows can still be detected by hearing and smell. A true seeing spell
+      (or other similar magic) reveals its location as well.
 Description:
   - >-
     When they may be seen at all, ghost-faced orcs appear as normal orcs who
@@ -85,6 +95,7 @@ Description:
     Ghost-faced orcs begin play speaking Common and Orc. Ghost-faced orcs with
     high Intelligence scores can choose from the following languages: Giant,
     Goblin.
+Gear: studded leather armor, greataxe, shortbow, 20 arrows
 CharacterFlag: '1'
 CompanionFlag: '0'
 Fly: '0'
@@ -94,16 +105,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Orc
 id: '2923'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (orc)
-Group: Orc
-SpecialAbilities: {}
-Gear: studded leather armor, greataxe, shortbow, 20 arrows
-SpellLikeAbilities: {}
-SpellsKnown: {}

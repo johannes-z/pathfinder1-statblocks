@@ -45,9 +45,16 @@ Treasure: none
 Description_Visual: >-
   This terrible wolverine is as large as a bear, its jaws and claws oversized
   and brutal, its eyes dark and filled with rage.
+Group: Wolverine
 Source: PFRPG Bestiary
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Rage (Ex)
+    description: >-
+      A dire wolverine that takes damage in combat flies into a rage on its next
+      turn, madly clawing and biting until either it or its opponent is dead. It
+      gains +4 to Strength, +4 to Constitution, and -2 to AC. The creature
+      cannot end its rage voluntarily.
 Description:
   - >-
     Dire wolverines tend to be even more territorial than their smaller
@@ -66,13 +73,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Dire Wolverine
 id: '354'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Wolverine
-SpellLikeAbilities: {}
-SpellsKnown: {}

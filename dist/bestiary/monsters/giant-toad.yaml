@@ -16,9 +16,13 @@ Saves: Fort +6, Ref +6, Will +0
 Fort: '6'
 Ref: '6'
 Will: '0'
+DefensiveAbilities: poison skin
 Speed: 30 ft., swim 15 ft.
+Melee:
+  - bite +5 (1d6+6 plus grab)
 Space: 10 ft.
 Reach: 10 ft.
+SpecialAttacks: swallow whole (1d4 bludgeoning, AC 12, 2 hp)
 AbilityScores:
   - 19
   - 13
@@ -47,6 +51,13 @@ Description_Visual: >-
 Group: Toad
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison Skin (Ex)
+    description: >-
+      A creature that strikes a giant toad with an unarmed strike or natural
+      weapon exposes itself to the toad's poisonous skin. Skin-contact; save
+      Fort DC 14; frequency 1/ round for 4 rounds; effect 1d2 Wisdom damage;
+      cure 1 save.
 Description:
   - >-
     Most giant toads live in dryer areas after maturing, returning to the water
@@ -64,17 +75,9 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Giant Toad
 id: '1376'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Melee:
-  - bite +5 (1d6+6 plus grab)
-DefensiveAbilities: poison skin
-SpecialAttacks: swallow whole (1d4 bludgeoning, AC 12, 2 hp)
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

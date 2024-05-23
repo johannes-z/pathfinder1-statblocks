@@ -1,0 +1,139 @@
+Name: The Beast of Lepidstadt
+CR: '13'
+XP: '25600'
+Race: Flesh golem
+Class: barbarian 6
+Alignment: 'N'
+Size: Large
+Type: construct
+Init: '-1'
+Senses:
+  - low-light vision, darkvision 60 ft.
+  - Perception +1
+AC: 23, touch 6, flat-footed 23
+AC_Mods: (+5 armor, -1 Dex, +12 natural, -2 rage, -1 size)
+HP: '118'
+HD: (9d10+6d12+30)
+Saves: Fort +8, Ref +4, Will +10
+Fort: '8'
+Ref: '4'
+Will: '10'
+DefensiveAbilities: improved uncanny dodge, trap sense +2
+DR: 5/adamantine
+Immune: construct traits, magic
+Weaknesses: open mind
+Speed: 40 ft.
+Melee:
+  - ogre hook +21/+16/+11 (3d6+7/x3)
+  - 2 slams +21 (2d8+7 plus 1d6 electricity)
+Ranged:
+  - double crossbow +12 (2d6/19-20 plus 2d6)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  berserk, knockback, rage (14 rounds/day),  rage powers (knockback, moment of
+  clarity, renewed vigor  [1d8+2 hp])
+AbilityScores:
+  - 25
+  - 9
+  - null
+  - 7
+  - 11
+  - 12
+BaseAtk: '15'
+CMB: +23 (+25 bull rush)
+CMD: 32 (34 vs. bull rush)
+Feats:
+  - Cleave
+  - Exotic Weapon Proficiency (double crossbow)
+  - Improved Bull Rush
+  - Improved Iron Will
+  - Intimidating Prowess
+  - Iron Will
+  - Power Attack
+  - Skill Focus (Stealth)
+Skills:
+  - Disguise +8
+  - Intimidate +18 (+22 against Medium or smaller creatures)
+  - Perception +1
+  - Stealth +7
+Languages:
+  - Common
+SQ: fast movement, moment of clarity, renewed vigor  (1/day; 1d8)
+Source: Classic Horrors
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Berserk (Ex)
+    description: >-
+      When the Beast enters combat, there is a cumulative 5% chance each round
+      that it goes berserk. This increases to 10% per round when using its rage
+      ability. The uncontrolled golem goes on a rampage, attacking the nearest
+      living creature or smashing some object smaller than itself if no creature
+      is within reach, then moving on to spread more destruction. It takes 1
+      minute of inactivity by the golem to reset its berserk chance to 0%.
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A flesh golem is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against the creature, as noted below. &#8226; A magical attack
+      that deals cold or fire damage slows a flesh golem (as the slow spell) for
+      2d6 rounds (no save). &#8226; A magical attack that deals electricity
+      damage breaks any slow effect on the golem and heals 1 point of damage for
+      every 3 points of damage the attack would otherwise deal. If the amount of
+      healing would cause the golem to exceed its full normal hit points, it
+      gains any excess as temporary hit points. A flesh golem gets no saving
+      throw against attacks that deal electricity damage.
+  - name: Knockback (Ex)
+    description: >-
+      The Beast can make one free bull rush attempt against one target hit in
+      melee this round. The Beast does not need to move back with the target if
+      successful. This power is used as an immediate action after the attack
+      roll is made.
+  - name: Open Mind (Ex)
+    description: >-
+      Unlike other constructs, the Beast is susceptible to mind-affecting
+      effects (charms, compulsions, phantasms, patterns, and morale effects).
+  - name: Rage (Ex)
+    description: >-
+      The Beast does not gain a bonus to its Constitution while in a rage, nor
+      does it gain any extra hit points. Likewise, it is not fatigued after
+      rage.
+BeforeCombat: >-
+  The Beast tries to avoid combat if at all possible, unless hunting a
+  particular foe.
+DuringCombat: >-
+  The Beast begins by attempting to demoralize its target before attacking with
+  its ogre hook. If faced with multiple opponents or ones who seem able to
+  bypass its damage reduction, the Beast rages. While raging or berserk, the
+  Beast has little grasp of tactics, pummeling a single enemy with its fists
+  until it stops moving.
+Morale: >-
+  With no way to heal itself except its renewed vigor rage power, the Beast
+  flees from battle if reduced to less than half its hit points. If berserk, the
+  Beast fights until destroyed.
+Gear: >-
+  battered masterwork breastplate, double crossbow (see Pathfinder Chronicles
+  Campaign Setting), ogre hook, boots of the mire (see Pathfinder Adventure Path
+  volume #3), cloak of elvenkind, flesh golem manual, shock amulet of mighty
+  fists, ragged and torn explorer's outfit, headless doll, tattered book of
+  Taldan poetry, aquamarine worth 100 gp.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+BaseStatistics: >-
+  When not raging, the Beast's statistics are as follows: AC 25, touch 8,
+  flat-footed 25; Will +8; Melee ogre hook +19/+14/+9 (3d6+5/x3) or 2 slams +19
+  (2d8+5 plus 1d6 electricity); Str 21; CMB +21 (+23 bull rush); CMD 30 (32 vs.
+  bull rush); Skills Intimidate +16 (+20 against Medium or smaller creatures)
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '448'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

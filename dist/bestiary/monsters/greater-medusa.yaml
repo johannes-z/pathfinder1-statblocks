@@ -18,7 +18,8 @@ Ref: '7'
 Will: '7'
 Speed: 30 ft.
 Melee:
-  - dagger +9/+4 (1d4+2/19-20) or snakes +9 (1d4 plus  poison)
+  - dagger +9/+4 (1d4+2/19-20)
+  - snakes +9 (1d4 plus poison)
 Ranged:
   - composite shortbow +9/+4 (1d6+2/x3)
 Space: 10 ft.
@@ -45,7 +46,6 @@ Skills:
   - Intimidate +13
   - Perception +12
   - Stealth +8
-RacialMods: +4 Perception
 Languages:
   - Common
   - Terran
@@ -55,9 +55,24 @@ Treasure: double standard
 Description_Visual: >-
   This creature appears as a large female with glistening green scales, snakes
   for hair, and the lower torso of a giant snake.
+Group: Medusa
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Petrifying Gaze (Su)
+    description: >-
+      Turn to stone permanently, 30 feet, Fortitude DC 16 negates. The save DC
+      is Charisma-based.
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save DC 16; frequency 1/round for 6 rounds; effect 1d6
+      Strength damage; cure 1 save. The save DC is Constitution-based.
+  - name: Poisonous Blood (Ex)
+    description: >-
+      The blood of a greater medusa is highly poisonous even to the touch. A
+      creature contacting the blood is exposed to the poison of the medusa as
+      described above. The blood loses its potency one hour after being exposed
+      to air.
 Description:
   - >-
     The greater medusa is a rare form of the normal medusa. They are very
@@ -77,6 +92,7 @@ Description:
   - >-
     Copyright Notice Author Scott Greene, based on original material by Wizards
     of the Coast.
+Gear: composite shortbow, 20 arrows, dagger
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -86,14 +102,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Medusa
 id: '2810'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Medusa
-Gear: composite shortbow, 20 arrows, dagger
-SpellLikeAbilities: {}
-SpellsKnown: {}

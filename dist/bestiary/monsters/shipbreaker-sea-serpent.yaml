@@ -17,9 +17,7 @@ Saves: Fort +33, Ref +24, Will +26
 Fort: '33'
 Ref: '24'
 Will: '26'
-DefensiveAbilities: elusive
 Immune: paralysis and sleep, dragon traits
-Resist: fire 30
 Speed: 10 ft., swim 40 ft.
 Melee:
   - bite +43 (5d6+16/19-20 plus poison and grab)
@@ -66,6 +64,7 @@ Skills:
   - Stealth +26
   - Survival +44
   - Swim +59
+SQ: amphibious
 Environment: any aquatic
 Organization: solitary
 Treasure: 50% coins; double goods; standard items
@@ -74,9 +73,17 @@ Description_Visual: >-
   scales are dark gray-brown, festooned with barnacles, seaweed, and other sea
   life. Its maw is the size of a large wagon, with teeth the size of
   greatswords.
+Group: Sea Serpent
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Capsize (Ex)
+    description: >-
+      A shipbreaker sea serpent can attempt to capsize a boat or ship by ramming
+      it as a charge attack and making a CMB check. The DC of this check is 25,
+      or the result of the captain's Profession (sailor) check, whichever is
+      higher. For each size category the ship is larger than the sea serpent's
+      size, the sea serpent takes a cumulative -10 penalty on this CMB check.
 Description:
   - >-
     The legendary shipbreaker is thought to be the largest of the sea serpents,
@@ -108,14 +115,8 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Sea Serpent
 id: '2992'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SQ: amphibious
-Group: Sea Serpent
-SpellLikeAbilities: {}
-SpellsKnown: {}

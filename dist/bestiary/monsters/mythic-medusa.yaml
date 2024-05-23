@@ -4,6 +4,7 @@ XP: '6400'
 Alignment: LE
 Size: Medium
 Type: monstrous humanoid
+SubType: (mythic)
 Init: +10M
 Senses:
   - all-around vision, darkvision 60 ft.
@@ -16,6 +17,7 @@ Saves: Fort +7, Ref +11, Will +8
 Fort: '7'
 Ref: '11'
 Will: '8'
+DR: 5/epic
 Speed: 30 ft., fly 60 ft. (good)
 Melee:
   - >-
@@ -60,9 +62,38 @@ Treasure: double (mwk bastard sword, mwk longbow with 20 arrows, other treasure)
 Description_Visual: >-
   This unnatural woman has scaled skin, white bird wings, and long snake-hair
   that hangs past her feet.
+Group: Medusa
 Source: Mythic Adventures
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Petrifying Gaze (Su)
+    description: >-
+      Turn to stone permanently, 30 feet, Fortitude DC 18 negates. The save DC
+      is Charisma-based.
+  - name: Poison (Ex)
+    description: >-
+      Snake bite; save Fort DC 18; frequency 1/round for 6 rounds; effect 1d4
+      Con; cure 2 consecutive saves. The save DC is Constitution-based.
+  - name: Poison Weapons (Ex)
+    description: >-
+      A mythic medusa can spend a standard action to apply her snake poison to
+      her sword or to two arrows, and normally poisons her weapons in advance.
+  - name: Summon Snake (Sp)
+    description: >-
+      As a full-round action, a mythic medusa can summon an emperor cobra
+      (Bestiary 2 252) or 1d3 amphisbaenas (Bestiary 2 25) as if using a summon
+      monster spell. The summoned snakes are immune to the medusa's gaze attack
+      and remain for 8 rounds before disappearing.
+  - name: Unpetrify (Su)
+    description: >-
+      A mythic medusa can expend one use of mythic power to return a petrified
+      creature to life (as if using stone to flesh) for 1 minute. The creature
+      is under the medusa's control (as if using dominate monster) and reverts
+      to a statue at the end of this time. If the medusa expends three uses of
+      mythic power, the creature remains unpetrified for 24 hours instead of 1
+      minute. A typical petrified victim in a mythic medusa's lair is a half-elf
+      fighter 6 (Pathfinder RPG NPC Codex 82) or human warrior 6 (NPC Codex
+      268).
 Description:
   - >-
     A mythic medusa is one of the near-immortal progenitors of the medusa race,
@@ -81,19 +112,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Medusa
 id: '4887'
 UniqueMonster: '0'
 MR: '3'
 Mythic: '1'
 MT: '0'
-SubType: (mythic)
-DR: 5/epic
-Group: Medusa
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

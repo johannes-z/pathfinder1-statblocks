@@ -1,0 +1,163 @@
+Name: Xanesha
+CR: '10'
+XP: '9600'
+Race: lamia matriarch
+Class: rogue 1
+MonsterSource: Pathfinder RPG Bestiary 2 175, Pathfinder RPG Bestiary 144
+Alignment: CE
+Size: Large
+Type: undead
+SubType: (augmented monstrous humanoid, incorporeal, shapechanger)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +20
+AC: 24, touch 24, flat-footed 18
+AC_Mods: (+9 deflection, +6 Dex, -1 size)
+HP: '176'
+HD: (13d8+118)
+Saves: Fort +13, Ref +16, Will +10
+Fort: '13'
+Ref: '16'
+Will: '10'
+DefensiveAbilities: channel resistance +4, incorporeal, rejuvenation
+Immune: undead traits
+SR: '19'
+Speed: fly 30 ft. (perfect)
+Melee:
+  - corrupting touch +17 (10d6 [Fort DC 25 half] plus 1d4 Wis drain)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +1d6, tolling tumult, wisdom drain (DC 25), wrathful wail
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +21)
+  values:
+    - label: At Will
+      value: charm monster (DC 23), ventriloquism (DC 20)
+    - label: 3/day
+      value: >-
+        deep slumber (DC 22), dream, major image (DC 22), mirror image,
+        suggestion (DC 22)
+SpellsKnown:
+  header: Sorcerer Spells Known (CL 6th; concentration +15)
+  values:
+    - label: 3rd (5/day)
+      value: inflict serious wounds (DC 22)
+    - label: 2nd (7/day)
+      value: invisibility, scorching ray
+    - label: 1st (9/day)
+      value: >-
+        feather fall, inflict light wounds (DC 20), magic missile, sanctuary (DC
+        20)
+    - label: 0 (at will)
+      value: >-
+        acid splash, dancing lights, detect magic, ghost sound (DC 19), mage
+        hand, mending, prestidigitation
+AbilityScores:
+  - null
+  - 23
+  - null
+  - 18
+  - 14
+  - 29
+BaseAtk: '12'
+CMB: '19'
+CMD: 38 (can't be tripped)
+Feats:
+  - Combat Casting
+  - Combat Reflexes
+  - Extend Spell
+  - Improved Critical (spear)
+  - Power Attack
+  - Silent Spell
+  - Vital Strike
+Skills:
+  - Acrobatics +23
+  - Bluff +25
+  - Climb +30
+  - Diplomacy +16
+  - Fly +12
+  - Knowledge (arcana) +20
+  - Knowledge (local) +20
+  - Perception +20
+  - Sense Motive +18
+  - Spellcraft +20
+  - Stealth +10
+  - Swim +30
+Languages:
+  - Abyssal
+  - Common
+  - Draconic
+  - Thassilonian
+SQ: >-
+  change shape (fixed Medium humanoid form; alter self), trapfinding +1,
+  undersized weapons
+Source: AP 135
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Rejuvenation (Su)
+    description: >-
+      If the PCs recover Xanesha's skull from area A11 and either destroy it or
+      sanctify it by casting consecrate or hallow in the skull's vicinity,
+      Xanesha is put to rest permanently. Simply removing the skull from the
+      Gecko frees her to go where she wishes, in which case she returns to
+      haunting the Shadow Clock.
+  - name: Tolling Tumult (Su)
+    description: >-
+      Whenever Xanesha moves at least 30 feet in a round, once she ceases her
+      movement for that round, a 30-foot-spread area around her fills with the
+      deafening sound of immense bells tolling. Each living creature in this
+      area must succeed at a DC 25 Will saving throw or become staggered by the
+      overwhelming sound for the following round. The sound of the tolling
+      tumult does not extend beyond this 30-foot reach at all. This is a
+      mind-affecting sonic effect. The save DC is Charisma-based.
+  - name: Wrathful Wail (Su)
+    description: >-
+      Once every 1d4 rounds as a standard action, Xanesha can unleash a wail of
+      anguished wrath. All creatures in a 30-foot burst must succeed at a DC 25
+      Will save or become consumed with rage. An affected creature can take no
+      action on its turn other than to physically attack an adjacent target with
+      a melee weapon (or an unarmed strike, if no melee weapon is available). If
+      there are no adjacent targets, the enraged creature must charge the
+      nearest available target. This effect lasts for 1d4 rounds. This is a
+      sonic, mind-affecting, emotion effect; the save DC is Charisma-based.
+BeforeCombat: >-
+  Xanesha casts invisibility and mirror image as soon as she notices the PCs
+  approaching.
+DuringCombat: >-
+  Xanesha starts combat by flying toward the PCs, charging if necessary, to
+  trigger her tolling tumult to affect as many PCs as possible. If she can,  3rd
+  (5/day)-inflict serious wounds (DC 22)  2nd (7/day)-invisibility, scorching
+  ray  1st (9/day)-feather fall, inflict light wounds (DC 20), magic missile,
+  sanctuary (DC 20)  0 (at will)-acid splash, dancing lights, detect magic,
+  ghost sound (DC 19), mage hand, mending, prestidigitation   Before Combat
+  Xanesha casts invisibility and mirror image as soon as she notices the PCs
+  approaching.   Xanesha starts combat by flying toward the PCs, charging if
+  necessary, to trigger her tolling tumult to affect as many PCs as possible. If
+  she can,  she attacks with her corrupting touch at the end of that movement,
+  or otherwise uses her wrathful wail if there are no adjacent targets. She
+  continues to make melee attacks until she is reduced to fewer than 100 hit
+  points, at which point she retreats into the wall of the Gecko for cover,
+  casts inflict wounds spells on herself to heal, and then emerges at range to
+  use her spells against foes. She's particularly fond of casting deep slumber
+  on climbing characters. She continues to use her wrathful wail as often as
+  possible, enjoying the sight of foes fighting each other, and stays mobile to
+  trigger her tolling tumult each round she can while she continues to cast
+  spells.
+Morale: Xanesha fights until destroyed.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+TemplatesApplied: ghost|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11914'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

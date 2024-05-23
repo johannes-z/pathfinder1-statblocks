@@ -21,6 +21,7 @@ Melee:
   - bite +5 (1d4+1 plus disease)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: disease
 AbilityScores:
   - 13
   - 17
@@ -46,8 +47,14 @@ Description_Visual: >-
   This animal is about the size of a large dog. Its fur is brownish-grey, and
   its bushy tail is ringed in black. Its paws and ears are black as well, and it
   has a black and white mask-like marking on its face.
+Group: Racoon
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Bite-injury; save Fort DC 15; onset 1d3 days; frequency 1
+      day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
 Description:
   - >-
     Ever the opportunists, these giant procyonids tend to move out of their
@@ -77,14 +84,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '3487'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: disease
-Group: Racoon
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

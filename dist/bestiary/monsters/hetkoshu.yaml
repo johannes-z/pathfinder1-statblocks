@@ -17,7 +17,6 @@ Fort: '16'
 Ref: '9'
 Will: '11'
 Speed: 20 ft., swim 30 ft.
-Speed_Mod: sprint
 Melee:
   - bite +23 (3d6+15/19-20 plus grab), tail slap +17 (4d8+7)
 Space: 20 ft.
@@ -56,9 +55,27 @@ Treasure: none
 Description_Visual: >-
   This enormous black crocodile gapes hungrily with a maw big enough to swallow
   two armored warriors whole.
+Group: Crocodile
 Source: Osirion, Legacy Of Pharaohs
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Death Roll (Ex)
+    description: >-
+      Upon making a successful grapple check against a foe of its size or
+      smaller, a hetkoshu deals bite damage to the target and knocks it prone.
+      This does not break the hetkoshu's grapple.
+  - name: Hold Breath (Ex)
+    description: >-
+      A hetkoshu can hold its breath for 4 rounds per point of Constitution
+      before having to make Constitution checks to continue holding its breath
+      (Pathfinder RPG Core Rulebook 445).
+  - name: Savage Rush (Ex)
+    description: >-
+      For 1 round per minute, a hetkoshu may sprint with devastating speed,
+      increasing its land speed to 40 feet and allowing it to treat nonmagical
+      difficult terrain as if it were normal terrain. If it charges during this
+      round, it may attack twice with its bite as its attack action, using the
+      same attack modifier for both attacks.
 Description:
   - >-
     Infamous along Osirion's major rivers as well as in the Golden Oasis near
@@ -79,16 +96,8 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Crocodile
 id: '5570'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Crocodile
-Gender: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

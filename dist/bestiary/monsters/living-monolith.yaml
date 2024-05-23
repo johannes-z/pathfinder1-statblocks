@@ -23,9 +23,8 @@ Resist: cold 20
 SR: '24'
 Speed: 5 ft.
 Melee:
-  - >-
-    4 tentacles +20 (2d6+11 plus 2d6 acid and grab) or bite +20 (4d8+24 plus 2d6
-    acid; only against grabbed foe)
+  - 4 tentacles +20 (2d6+11 plus 2d6 acid and grab)
+  - bite +20 (4d8+24 plus 2d6 acid; only against grabbed foe)
 Space: 20 ft.
 Reach: 20 ft.
 SpecialAttacks: spawn offspring, swallow whole (6d8 acid damage, AC 20, 20 hp)
@@ -33,7 +32,7 @@ AbilityScores:
   - 32
   - 6
   - 26
-  - —
+  - null
   - 1
   - 1
 BaseAtk: '13'
@@ -90,8 +89,6 @@ Description:
     opponent unlucky enough to be grabbed by a flailing tentacle is shoved into
     one of the living monolith's maws and swallowed whole, subjected to the
     monster's deadly digestive acids.
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -101,9 +98,6 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '4996'
 UniqueMonster: '0'
 MR: '0'

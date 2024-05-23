@@ -1,0 +1,101 @@
+Name: Giant Moray Eel
+CR: '5'
+XP: '1600'
+Alignment: 'N'
+Size: Large
+Type: animal
+SubType: (aquatic)
+Init: '6'
+Senses:
+  - darkvision 60 ft., low-light vision, scent
+  - Perception +7
+AC: 19, touch 11, flat-footed 17
+AC_Mods: (+2 Dex, +8 natural, -1 size)
+HP: '52'
+HD: (7d8+21)
+Saves: Fort +8, Ref +9, Will +3
+Fort: '8'
+Ref: '9'
+Will: '3'
+Immune: disease, fear
+Weaknesses: water dependency
+Speed: 5 ft., swim 30 ft.
+Melee:
+  - bite +11(2d6+9 plus disease and grab)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: gnaw
+AbilityScores:
+  - 22
+  - 14
+  - 16
+  - 1
+  - 12
+  - 8
+BaseAtk: '5'
+CMB: +12 (+16 grapple)
+CMD: 24 (can't be tripped)
+Feats:
+  - Improved Initiative
+  - Lightning Reflexes
+  - Skill Focus (Stealth)
+  - Weapon Focus (bite)
+Skills:
+  - Escape Artist +10
+  - Perception +7
+  - Stealth +11
+  - Swim +18
+RacialMods: +8 Escape Artist
+Environment: warm aquatic
+Organization: solitary or school (4-8)
+Treasure: none
+Description_Visual: >-
+  This creature looks like an 8-foot long eel with yellowish-brown splotches on
+  its back.
+Group: Eel
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Flesh Rot: Bite-injury; save Fort DC 13; onset 1 minute; frequency 1/day;
+      effect 1d6 Con and 1d6 Cha damage; cure 2 consecutive saves. The save DC
+      is Constitution-based.
+  - name: Gnaw (Ex)
+    description: >-
+      If a giant moray begins a round with a grabbed foe, it inflicts automatic
+      bite damage (2d6+9 points of damage). A giant moray eel possesses a second
+      set of jaws in its throat that aid in swallowing-it can make a second bite
+      attack (+11 attack, 1d6+4) against a foe it has already grabbed.
+  - name: Water Dependency (Ex)
+    description: >-
+      Giant moray eels can survive out of the water for 1 minute per point of
+      Constitution (after that, refer to the drowning rules in the Pathfinder
+      Core Rulebook).
+Description:
+  - >-
+    The moray eel is a ferocious predator, capable of holding prey in its
+    primary jaws while a smaller set of jaws inside its throat chews away
+    bite-sized portions. Moray Eel Animal Companion Starting Statistics: Size
+    Medium; AC +5 natural armor; Speed swim 30 ft.; Attack bite (1d8); Ability
+    Scores Str 14, Dex 16, Con 12, Int 1, Wis 12, Cha 8; Special Qualities
+    low-light vision, grab. 7th-Level Advancement: Size Large; AC +3 natural
+    armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4; Special
+    Qualities gnaw. Credit The Giant Moray Eel originally appeared in the First
+    Edition Monster Manual (© TSR/Wizards of the Coast, 1977) and is used by
+    permission. Copyright Notice Author Scott Greene, based on original material
+    by Gary Gygax.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '3460'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

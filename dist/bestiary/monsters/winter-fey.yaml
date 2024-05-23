@@ -71,7 +71,35 @@ Description_Visual: >-
 Group: Winter Fey
 Source: AP 68
 IsTemplate: '1'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Boot Stomp (Ex)
+    description: >-
+      A winter redcap wears heavy iron boots with spiked soles that it uses to
+      deadly effect in combat. These boots give the winter redcap a kick attack
+      that it can make as a secondary attack, either as part of a full-attack
+      action or as part of its movement, just as if it had the Spring Attack
+      feat.
+  - name: Heavy Weapons (Ex)
+    description: >-
+      A winter redcap can wield weapons sized for Medium creatures without
+      penalty.
+  - name: Irreligious (Ex)
+    description: >-
+      Bitter and blasphemous, winter redcaps cannot stand the symbols of
+      good-aligned religions. If a foe spends a standard action presenting such
+      a holy symbol, any winter redcap that can see the creature must succeed at
+      a DC 15 Will save or become frightened for 1 minute and attempt to flee. A
+      winter redcap who successfully saves is shaken for 1 minute.
+  - name: Red Cap (Su)
+    description: >-
+      A winter redcap wears a tiny, shapeless woolen hat, dyed over and over
+      with the blood of its victims. While wearing this cap, a winter redcap
+      gains a +4 bonus on damage rolls (included in the above totals) and fast
+      healing 3. These benefits are lost if the cap is removed or destroyed.
+      Caps are not transferable, even between other redcaps. A winter redcap can
+      create a new cap to replace a lost cap with 10 minutes of work, but until
+      the winter redcap takes a standard action to dip the cap in the blood of a
+      foe the winter redcap helped to kill, the cap does not grant its bonuses.
 Description:
   - >-
     Infused with the primal power of winter's chill, a winter fey possesses the
@@ -182,11 +210,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '4323'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpellLikeAbilities: {}
-SpellsKnown: {}

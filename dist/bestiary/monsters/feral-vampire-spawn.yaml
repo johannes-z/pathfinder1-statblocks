@@ -1,8 +1,6 @@
 Name: Feral Vampire Spawn
 CR: '6'
 XP: '2400'
-Race: Human
-Class: rogue 2
 Alignment: CE
 Size: Medium
 Type: undead
@@ -34,7 +32,7 @@ SpecialAttacks: blood drain, energy drain (1 level, DC 10)
 AbilityScores:
   - 25
   - 14
-  - —
+  - null
   - 2
   - 6
   - 16
@@ -50,6 +48,7 @@ Skills:
   - Climb +15
   - Perception +8
   - Stealth +13
+RacialMods: +4 Climb, +4 Perception, +4 Stealth
 Languages:
   - Common (cannot speak)
 SQ: gaseous form, shadowless, spider climb
@@ -62,8 +61,46 @@ Description_Visual: >-
   boneyard. Massive muscles ripple beneath its cold, hard flesh contributing to
   its hunched posture, and jagged, broken fangs extend from between its
   bloodless lips.
+Group: Vampire Spawn
 Source: Tome of Horrors 4
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Blood Drain (Su)
+    description: >-
+      A feral vampire spawn can suck blood from a grappled opponent; if the
+      feral vampire spawn establishes or maintains a pin, it drains blood,
+      dealing 1d4 points of Constitution damage. The feral vampire spawn heals 5
+      hit points or gains 5 temporary hit points for 1 hour (up to a maximum
+      number of temporary hit points equal to its full normal hit points) each
+      round it drains blood.
+  - name: Energy Drain (Su)
+    description: >-
+      A creature hit by a feral vampire spawn's slam gains one negative level.
+      This ability only triggers once per round, regardless of the number of
+      attacks the feral vampire spawn makes.
+  - name: Fast Healing (Su)
+    description: >-
+      A feral vampire spawn has fast healing 2. If reduced to 0 hit points in
+      combat, it assumes gaseous form and attempts to escape. It must reach its
+      coffin home within 2 hours or be utterly destroyed. (It can travel up to 9
+      miles in 2 hours.) Additional damage dealt to a feral vampire spawn forced
+      into gaseous form has no effect. Once at rest, it is helpless. It regains
+      1 hit point after 1 hour, then is no helpless and resumes healing at the
+      rate of 2 hit points per round.
+  - name: Gaseous Form (Su)
+    description: >-
+      A feral vampire spawn can only assume gaseous form when it has been
+      reduced to 0 hit points in combat. It then assumes gaseous form as the
+      spell (caster level 5th) and returns to its coffin. While gaseous it has a
+      fly speed of 20 feet with perfect maneuverability.
+  - name: Shadowless (Ex)
+    description: >-
+      A feral vampire spawn casts no shadows and shows no reflection in a
+      mirror.
+  - name: Spider Climb (Ex)
+    description: >-
+      A feral vampire spawn can climb sheer surfaces as though with a spider
+      climb spell.
 Description:
   - >-
     Sometimes when vampires create minions something horrible happens to the
@@ -109,17 +146,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '5093'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-RacialMods: +4 Climb, +4 Perception, +4 Stealth
-Group: Vampire Spawn
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

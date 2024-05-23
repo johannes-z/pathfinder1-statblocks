@@ -21,7 +21,8 @@ DR: 5/piercing
 Immune: cold, undead traits
 Speed: 30 ft.
 Melee:
-  - battleaxe +4 (1d8+1/3), claw -1 (1d4) or 2 claws +4 (1d4+1)
+  - battleaxe +4 (1d8+1/3), claw -1 (1d4)
+  - 2 claws +4 (1d4+1)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: corpse call (DC 16)
@@ -40,7 +41,7 @@ SpellLikeAbilities:
 AbilityScores:
   - 13
   - 14
-  - —
+  - null
   - 11
   - 14
   - 15
@@ -102,9 +103,6 @@ Description:
     the victim's death, while success means it reanimates as a free-willed
     zuvembie.
   - Zuvembies stand between 5 and 6 feet tall and rarely weigh over 100 pounds.
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -112,10 +110,8 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-BaseStatistics: 'NULL'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '2233'
 UniqueMonster: '0'
 MR: '0'

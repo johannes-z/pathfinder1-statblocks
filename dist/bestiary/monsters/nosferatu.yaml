@@ -20,6 +20,7 @@ Saves: Fort +7, Ref +16, Will +7; +3 vs. traps
 Fort: '7'
 Ref: '16'
 Will: '7'
+Save_Mods: +3 vs. traps
 DefensiveAbilities: channel resistance +4, evasion, improved uncanny dodge, trap sense +3
 DR: 5/wood and piercing
 Immune: undead traits
@@ -33,12 +34,10 @@ Reach: 5 ft.
 SpecialAttacks: >-
   blood drain (1d4 Con and 1d4 Wis), dominate (DC 17), sneak attack +5d6,
   telekinesis (DC 17)
-SpellLikeAbilities: {}
-SpellsKnown: {}
 AbilityScores:
   - 16
   - 24
-  - —
+  - null
   - 16
   - 16
   - 16
@@ -89,6 +88,7 @@ Treasure: >-
 Description_Visual: >-
   This somberly dressed but feral-looking gaunt man has yellowed, ratlike fangs
   and ragged, clawed fingers.
+Group: Vampire
 Source: PFRPG Bestiary 4
 IsTemplate: '1'
 Description:
@@ -216,8 +216,6 @@ Description:
   - >-
     Feats: A nosferatu gains Alertness, Improved Initiative, Lightning Reflexes,
     and Skill Focus (in two different skills) as bonus feats.
-Gender: 'NULL'
-Bloodline: undead
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -225,18 +223,10 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-TemplatesApplied: vampire
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Vampire
 id: '5381'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Save_Mods: +3 vs. traps
-Group: Vampire
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpecialAbilities: {}

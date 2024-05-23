@@ -4,6 +4,7 @@ XP: '800'
 Alignment: CE
 Size: Medium
 Type: undead
+SubType: (incorporeal)
 Init: '6'
 Senses:
   - darkvision 60 ft., scent
@@ -16,15 +17,18 @@ Saves: Fort +3, Ref +3, Will +5
 Fort: '3'
 Ref: '3'
 Will: '5'
+DefensiveAbilities: incorporeal, shadow blend
+Immune: undead traits
 Speed: 50 ft.
 Melee:
   - incorporeal bite +5 (1d4 Str)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: trip (bite)
 AbilityScores:
-  - —
+  - null
   - 15
-  - —
+  - null
   - 4
   - 12
   - 15
@@ -45,8 +49,31 @@ Treasure: none
 Description_Visual: >-
   This creature appears as a large black hound formed of darkness. Its eyes burn
   with a crimson fire.
+Group: Wolf
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Strength Damage (Su)
+    description: >-
+      The bite of a shadow wolf deals 1d4 points of Strength damage to a living
+      foe. A creature reduced to Strength 0 dies.
+  - name: Trip (Ex)
+    description: >-
+      A shadow wolf can assume a corporeal form as a free action and bite (as a
+      standard action) a foe in an attempt to trip the opponent. A shadow wolf
+      that hits with its bite attack can attempt to trip the opponent as a free
+      action without making a touch attack or provoking an attack of
+      opportunity. If the attempt fails, the opponent cannot react to trip the
+      shadow wolf. Shadow wolves use their Dexterity modifier on trip attacks.
+      The shadow wolf remains corporeal (i.e., it loses its incorporeal traits)
+      for the entire round in which it attempts to trip an opponent. It can
+      assume its incorporeal form on its next turn as a free action.
+  - name: Shadow Blend (Ex)
+    description: >-
+      In any condition of illumination other than full daylight, a shadow wolf
+      can disappear into the shadows, giving it total concealment. Artificial
+      illumination, even a light or continual flame spell, does not negate this
+      ability; a daylight spell, however, will.
 Description:
   - >-
     Shadow wolves are nocturnal hunters and hate all living creatures. Their
@@ -64,18 +91,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Dog, Wolf
 id: '3440'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (incorporeal)
-DefensiveAbilities: incorporeal, shadow blend
-Immune: undead traits
-SpecialAttacks: trip (bite)
-Group: Wolf
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

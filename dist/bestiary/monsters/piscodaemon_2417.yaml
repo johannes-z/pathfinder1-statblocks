@@ -1,0 +1,132 @@
+Name: Piscodaemon
+CR: '10'
+XP: '9600'
+Alignment: NE
+Size: Medium
+Type: outsider
+SubType: (aquatic, daemon, evil, extraplanar)
+Init: '8'
+Senses:
+  - darkvision 60 ft., see invisibility
+  - Perception +20
+AC: 24, touch 14, flat-footed 20
+AC_Mods: (+4 Dex, +10 natural)
+HP: '137'
+HD: (11d10+77)
+Saves: Fort +14, Ref +7, Will +9
+Fort: '14'
+Ref: '7'
+Will: '9'
+DefensiveAbilities: all-around vision
+DR: 10/good
+Immune: acid, death effects, disease, flanking, poison
+Resist: cold 10,  electricity 10, fire 10
+SR: '21'
+Speed: 30 ft., swim 50 ft.
+Melee:
+  - >-
+    2 claws +18 (2d6+7/18-20/x3 plus grab and 1d6 bleed), tentacles +16 (1d10+3
+    plus poison)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: augmented critical, constrict (2d6+10)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 11th)
+  values:
+    - label: Constant
+      value: see invisibility
+    - label: At Will
+      value: dispel magic, greater teleport (self plus 50 lbs. of objects only)
+    - label: 3/day
+      value: fly, stinking cloud (DC 16)
+    - label: 1/day
+      value: summon (level 4, 1d3 hydrodaemons 35%)
+AbilityScores:
+  - 25
+  - 18
+  - 24
+  - 14
+  - 15
+  - 17
+BaseAtk: '11'
+CMB: +18 (+22 grapple)
+CMD: '32'
+Feats:
+  - Critical Focus
+  - Improved Initiative
+  - Multiattack
+  - Power Attack
+  - Sickening Critical
+  - Vital Strike
+Skills:
+  - Escape Artist +18
+  - Intimidate +17
+  - Knowledge (planes) +16
+  - Perception +20
+  - Sense Motive +16
+  - Stealth +18
+  - Survival +16
+  - Swim +29
+RacialMods: +4 Perception
+Languages:
+  - Abyssal
+  - Daemonic
+  - Infernal
+  - telepathy 100 ft.
+SQ: amphibious
+Environment: any (usually Gehenna, Hades, or Tarterus)
+Organization: solitary, team (2-4), or squad (6-10)
+Treasure: standard
+Description_Visual: >-
+  This large creature resembles a bipedal lobster with long, gangly arms that
+  end in powerful pincers. It has a short fish-like tail on its posterior and a
+  centipede-like head with several small tentacles located just beneath its
+  mouth.
+Group: Daemon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Augmented Critical (Ex)
+    description: >-
+      A piscodaemon's claws threaten a critical hit on an 18-20 and inflict x3
+      damage on a successful critical hit.
+  - name: Poison (Ex)
+    description: >-
+      Tentacles-injury; save Fort DC 22; frequency 1/round for 6 rounds; effect
+      1d2 Con plus staggered for 1 round; cure 2 consecutive saves. The save DC
+      is Constitution-based.
+Description:
+  - >-
+    Piscodaemons are found throughout the Lower Planes bullying and killing
+    weaker creatures. They are often themselves used as cannon fodder or slaves
+    by the more powerful races of the Lower Planes, particularly the
+    arcanadaemons.
+  - A typical piscodaemon stands about 7 feet tall and weigh 200 pounds.
+  - >-
+    A piscodaemon often opens combat with its spell-like abilities, usually
+    using stinking cloud against its foes. It then moves in and slashes and
+    rakes with its claws. If the piscodaemon can grab a foe, it hangs on and
+    constricts.
+  - >-
+    A piscodaemon's natural weapons, as well as any weapons he wields, are
+    treated as evil-aligned for the purpose of overcoming damage reduction.
+  - >-
+    Credit The Piscodaemon originally appeared in the First Edition Monster
+    Manual II (© TSR/Wizards of the Coast, 1983) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Gary
+    Gygax.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '2417'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

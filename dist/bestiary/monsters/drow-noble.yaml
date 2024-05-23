@@ -30,7 +30,23 @@ Ranged:
   - hand crossbow +5 (1d4/19-20 plus poison)
 Space: 5 ft.
 Reach: 5 ft.
-SpellLikeAbilities: {}
+SpecialAttacks: >-
+  bleeding touch (6/day), channel negative energy (4/day, 2d6, DC 12), touch of
+  chaos (6/day)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 3rd)
+  values:
+    - label: Constant
+      value: detect magic
+    - label: At Will
+      value: dancing lights, deeper darkness, faerie fire, feather fall, levitate
+    - label: 1/day
+      value: divine favor, dispel magic, suggestion (DC 14)
+SpellsPrepared: >-
+  Spells Prepared (CL 3rd) 2nd-death knellD (DC 15), hold person (DC 15),
+  silence (DC 15) 1st-bless, cause fear (DC 14), cure light wounds, protection
+  from lawD 0-bleed (DC 13), detect poison, read magic, resistance
+SpellDomains: Chaos, Death
 AbilityScores:
   - 12
   - 17
@@ -62,9 +78,18 @@ Treasure: >-
 Description_Visual: >-
   This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes
   white and pupilless.
+Group: Drow
 Source: PFRPG Bestiary
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison Use (Ex)
+    description: >-
+      Drow are skilled in the use of poison and never risk accidentally
+      poisoning themselves. Drow favor an insidious toxin that causes its
+      victims to lapse into unconsciousness- this poison allows drow to capture
+      slaves with great ease. Drow Poison-injury; save Fort DC 13; frequency
+      1/minute for 2 minutes; initial effect unconsciousness for 1 minute;
+      secondary effect unconsciousness for 2d4 hours; cure 1 save.
 Description:
   - >-
     About one out of every 20 drow is gifted with special powers from birth-the
@@ -107,20 +132,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '1'
-CompanionFamiliarLink: 'NULL'
 LinkText: Drow Noble
 id: '146'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: >-
-  bleeding touch (6/day), channel negative energy (4/day, 2d6, DC 12), touch of
-  chaos (6/day)
-SpellsPrepared: >-
-  Spells Prepared (CL 3rd) 2nd-death knellD (DC 15), hold person (DC 15),
-  silence (DC 15) 1st-bless, cause fear (DC 14), cure light wounds, protection
-  from lawD 0-bleed (DC 13), detect poison, read magic, resistance
-SpellDomains: Chaos, Death
-Group: Drow
-SpellsKnown: {}

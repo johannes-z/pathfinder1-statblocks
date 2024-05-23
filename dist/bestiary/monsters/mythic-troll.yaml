@@ -18,6 +18,8 @@ Saves: Fort +11, Ref +4, Will +3
 Fort: '11'
 Ref: '4'
 Will: '3'
+DefensiveAbilities: primal vigor
+DR: 5/epic
 Speed: 30 ft.
 Melee:
   - bite +9 (1d8+6), 2 claws +9 (1d6+6)
@@ -51,8 +53,20 @@ Treasure: standard
 Description_Visual: >-
   This giant humanoid has massive tusks, warty green hide sprouting bone spikes,
   and forearms thicker than its meaty legs.
+Group: Troll
 Source: Mythic Adventures
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Primal Vigor (Su)
+    description: >-
+      If a mythic troll takes damage during a round, its regeneration increases
+      by 5 at the start of its next turn, to a maximum of 25. If the troll is at
+      full hit points at the start of its turn, its regeneration decreases by 5,
+      to a minimum of 5. Damaging the troll with acid or fire only partially
+      suppresses its regeneration. On its turn following this damage, the troll
+      regenerates only half the normal number of hit points (for example, a
+      troll with regeneration 15 would heal 7 hit points) and can die normally
+      on that round.
 Description:
   - >-
     A mythic troll's skin is nearly as hard as stone, with bony growths,
@@ -89,19 +103,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Troll
 id: '4898'
 UniqueMonster: '0'
 MR: '2'
 Mythic: '1'
 MT: '0'
-DefensiveAbilities: primal vigor
-DR: 5/epic
-Group: Troll
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

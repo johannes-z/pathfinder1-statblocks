@@ -16,6 +16,7 @@ Saves: Fort +2, Ref +2, Will +5
 Fort: '2'
 Ref: '2'
 Will: '5'
+Immune: undead traits
 Speed: 30 ft., climb 30 ft.
 Melee:
   - bite +4 (1d2+1 plus disease) and 2 claws +4 (1d2+1 plus disease)
@@ -24,7 +25,7 @@ Reach: 5 ft.
 AbilityScores:
   - 12
   - 15
-  - —
+  - null
   - 10
   - 14
   - 14
@@ -38,7 +39,6 @@ Skills:
   - Climb +14
   - Perception +7
   - Stealth +11
-RacialMods: +8 Acrobatics
 Environment: warm jungles
 Organization: solitary, pair, or pack (4-12)
 Treasure: none
@@ -48,6 +48,12 @@ Description_Visual: >-
 Group: Monkey
 Source: Tome of Horrors 4
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Monkey Fever: Bite-injury; save DC 13 Fort; onset 1 day; frequency
+      1/day; effect 1d2 Con and 1d2 Dex damage; cure 2 consecutive saves. The
+      save DC is Charisma-based.
 Description:
   - >-
     Ghoul monkeys are cunning, undead monkeys 2-3 feet tall, weighing 10-20
@@ -75,18 +81,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Monkey
 id: '5009'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Immune: undead traits
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

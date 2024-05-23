@@ -20,12 +20,40 @@ Will: '12'
 DR: 15/good and piercing
 SR: '30'
 Speed: 40 ft.
+Speed_Mod: air walk
 Melee:
   - unarmed strike +24/+19/+14/+9 (2d6+7/19-20), bite +19 (1d8+3)
 Space: 10 ft.
 Reach: 10 ft.
 SpecialAttacks: detect thoughts (DC 24), martial artist
-SpellsKnown: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 15th; concentration +20)
+  values:
+    - label: Constant
+      value: air walk, true seeing
+SpellsKnown:
+  header: Spells Known (CL 12th; concentration +17)
+  values:
+    - label: 6th (3/day)
+      value: heal
+    - label: 5th (6/day)
+      value: flame strike (DC 20), telekinesis (DC 20)
+    - label: 4th (7/day)
+      value: charm monster (DC 19), dimension door, freedom of movement
+    - label: 3rd (7/day)
+      value: dispel magic, fireball (DC 18), haste, rage
+    - label: 2nd (7/day)
+      value: >-
+        acid arrow, cure moderate wounds, death knell (DC 17), invisibility,
+        misdirection
+    - label: 1st (8/day)
+      value: >-
+        command (DC 16), mage armor, magic missile, ray of enfeeblement (DC 16),
+        shield of faith
+    - label: 0 (at will)
+      value: >-
+        acid splash, bleed (DC 15), light, mage hand, mending, message,
+        open/close, prestidigitation, read magic
 AbilityScores:
   - 24
   - 16
@@ -69,9 +97,19 @@ Treasure: standard
 Description_Visual: >-
   This towering, blue-skinned woman has backward-facing hands and a feral,
   animal-like visage with exaggerated features.
+Group: Rakshasa
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Martial Artist (Su)
+    description: >-
+      A tataka's unarmed strikes deal 2d6 points of damage. If a tataka gains
+      monk levels, it uses its tataka unarmed strike damage or its monk unarmed
+      strike damage, whichever is higher. Its unarmed strikes function as lawful
+      and evil weapons for overcoming damage reduction. Spells A tataka casts
+      spells as a 12th-level sorcerer. A tataka can cast spells from the cleric
+      list as well as those normally available to a sorcerer. Cleric spells are
+      considered arcane spells for a tataka.
 Description:
   - >-
     Tataka rakshasas are the least subtle and largest of their kind. They are
@@ -95,17 +133,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Rakshasa
 id: '2175'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Speed_Mod: air walk
-SpellLikeAbilities: {}
-Group: Rakshasa
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-BaseStatistics: 'NULL'

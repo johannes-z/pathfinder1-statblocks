@@ -27,7 +27,7 @@ SpecialAttacks: constrict (1d8+7), soul drain, weeping discharge
 AbilityScores:
   - 21
   - 12
-  - —
+  - null
   - 12
   - 14
   - 16
@@ -56,9 +56,49 @@ Treasure: incidental
 Description_Visual: >-
   Two sinewy tentacles sprout from what appears to be an ancient and
   slime-covered chest.
+Group: Mimic
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Adhesive (Ex)
+    description: >-
+      An undead mimic exudes a thick slime that acts as a powerful adhesive,
+      holding fast any creatures or items that touch it. An adhesive-covered
+      undead mimic automatically grapples any creature it hits with its slam
+      attack. Opponents so grappled cannot get free while the undead mimic is
+      alive without removing the adhesive first. A weapon that strikes an
+      adhesive-coated undead mimic is stuck fast unless the wielder succeeds on
+      a DC 18 Reflex save. A successful DC 18 Strength check is needed to pry
+      off a stuck weapon. Strong alcohol or universal solvent dissolves the
+      adhesive, but the undead mimic can still grapple normally. An undead mimic
+      can dissolve its adhesive at will, and the substance breaks down 5 rounds
+      after the creature is destroyed. The save DC is Strength-based.
+  - name: Mimic Object (Ex)
+    description: >-
+      An undead mimic can assume the general shape of any Medium object, such as
+      a massive chest, a stout bed, or a door. The creature cannot substantially
+      alter its size, though. An undead mimic's body is hard and has a rough
+      texture, no matter what appearance it might present. An undead mimic gains
+      a +20 racial bonus on Disguise checks when imitating an object in this
+      manner. Disguise is always a class skill for an undead mimic.
+  - name: Soul Drain (Su)
+    description: >-
+      An undead mimic can take a move action to devour the soul of an adjacent
+      creature it has recently (within the last hour) killed. A creature whose
+      soul is drained cannot be restored to life until the undead mimic
+      containing its soul is destroyed. Each time an undead mimic drains a soul
+      it gains 1d8 temporary hit points and gains a +2 bonus to Strength for 1
+      hour. These bonuses stack with themselves. After 24 hours, the soul is
+      completely devoured, and the deceased creature cannot be brought back to
+      life via raise dead (resurrection and more powerful effects work normally
+      though the undead mimic must still be destroyed before this magic works).
+  - name: Weeping Discharge (Ex)
+    description: >-
+      An undead mimic constantly leaks and oozes its foul adhesive in a
+      20-foot-radius area around its body. The area quickly becomes coated in
+      the fluids and is considered difficult terrain. Undead mimics are not
+      hampered by this secretion (their own or that of another undead mimic).
+      The slimy coating lasts for 1 hour before becoming inert.
 Description:
   - >-
     Undead mimics are believed to be the result of experimentation on mimics by
@@ -81,16 +121,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Mimic
 id: '5008'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Mimic
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

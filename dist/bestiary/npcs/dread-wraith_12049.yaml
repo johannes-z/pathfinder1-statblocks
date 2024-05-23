@@ -1,0 +1,105 @@
+Name: Dread Wraith
+CR: '11'
+XP: '12800'
+Race: Dread Wraith
+Alignment: LE
+Size: Large
+Type: undead
+SubType: (incorporeal)
+Init: '13'
+Senses:
+  - darkvision 60 ft., lifesense 60 ft.
+  - Perception +23
+Aura: unnatural aura (30 ft.)
+AC: 26, touch 26, flat-footed 16
+AC_Mods: (+7 deflection, +9 Dex, +1 dodge, -1 size)
+HP: '184'
+HD: (16d8+112)
+Saves: Fort +12, Ref +14, Will +14
+Fort: '12'
+Ref: '14'
+Will: '14'
+DefensiveAbilities: channel resistance +2, incorporeal
+Immune: undead traits
+Weaknesses: sunlight powerlessness
+Speed: fly 60 ft. (good)
+Melee:
+  - incorporeal touch +20 (2d6 negative energy plus 1d6 Con drain)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: Constitution drain (DC 25), create spawn
+AbilityScores:
+  - null
+  - 28
+  - null
+  - 17
+  - 18
+  - 24
+BaseAtk: '12'
+CMB: '13'
+CMD: '40'
+Feats:
+  - Improved Natural Attack (incorporeal touch)
+  - Blind-Fight
+  - Combat Reflexes
+  - Improved Initiative
+  - Dodge
+  - Mobility
+  - Spring Attack
+  - Step Up
+Skills:
+  - Diplomacy +23
+  - Fly +30
+  - Intimidate +26
+  - Knowledge (planes) +19
+  - Knowledge (religion) +22
+  - Perception +23
+  - Sense Motive +23
+  - Stealth +24
+Languages:
+  - Abyssal
+  - Common
+  - Giant
+Source: Rappan Athuk-Level 3B
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Create Spawn (Su)
+    description: >-
+      A humanoid slain by a dread wraith becomes a wraith in 1d4 rounds. These
+      spawn are less powerful than typical wraiths, and suffer a -2 penalty on
+      all d20 rolls and checks, receive -2 hp per HD, and only drain 1d2 points
+      of Constitution on a touch. Spawn are under the command of the dread
+      wraith that created them until its death, at which point they lose their
+      spawn penalties and become free-willed wraiths. They do not possess any of
+      the abilities they had in life.
+  - name: Constitution Drain (Su)
+    description: >-
+      Creatures hit by a dread wraith's touch attack must succeed on a DC 25
+      Fortitude save or take 1d8 points of Constitution drain. On each
+      successful attack, the wraith gains 5 temporary hit points. The save DC is
+      Charisma-based.
+  - name: Lifesense (Su)
+    description: >-
+      A wraith notices and locates living creatures within 60 feet, just as if
+      it possessed the blindsight ability.
+  - name: Sunlight Powerlessness (Ex)
+    description: A wraith caught in sunlight cannot attack and is staggered.
+  - name: Unnatural Aura (Su)
+    description: >-
+      Animals do not willingly approach within 30 feet of a wraith, unless a
+      master makes a DC 25 Handle Animal, Ride, or wild empathy check.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '12049'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

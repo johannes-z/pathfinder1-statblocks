@@ -17,6 +17,7 @@ Saves: Fort +13, Ref +10, Will +6
 Fort: '13'
 Ref: '10'
 Will: '6'
+DR: 10/epic
 Immune: fire
 Weaknesses: vulnerable to cold
 Speed: 40 ft.
@@ -27,6 +28,11 @@ Reach: 10 ft.
 SpecialAttacks: >-
   breath weapon (30-ft. cone, 10d6 fire plus clinging flames, Reflex DC 21 half,
   usable every 1d4 rounds), burn (1d6, DC 21), mythic power (4/day, surge +1d8)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +10)
+  values:
+    - label: 3/day
+      value: dimension door, locate creature
 AbilityScores:
   - 29
   - 15
@@ -59,6 +65,7 @@ Treasure: standard (+2 chain shirt barding)
 Description_Visual: >-
   This brawny hound is wreathed in flames, and its footsteps leave burning
   prints that sputter and smoke.
+Group: Hell Hound
 Source: Mythic Adventures
 IsTemplate: '0'
 Description:
@@ -75,19 +82,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Hell Hound
 id: '4882'
 UniqueMonster: '0'
 MR: '4'
 Mythic: '1'
 MT: '0'
-DR: 10/epic
-SpellLikeAbilities: {}
-Group: Hell Hound
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpecialAbilities: {}
-SpellsKnown: {}

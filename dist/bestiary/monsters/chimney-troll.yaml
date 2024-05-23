@@ -13,14 +13,17 @@ AC: 14, touch 12, flat-footed 11
 AC_Mods: (+3 Dex, +2 natural, -1 size)
 HP: '19'
 HD: (3d8+6)
-HP_Mods: regeneration 5 (acid or fire)
 Saves: Fort +5, Ref +4, Will +1
 Fort: '5'
 Ref: '4'
 Will: '1'
+Resist: fire 10
+Weaknesses: wicked blood
 Speed: 30 ft., climb 20 ft.
 Melee:
   - bite +2 (1d8+1), 2 claws +2 (1d6+1)
+Ranged:
+  - rock +5 (1d8+1)
 Space: 10 ft.
 Reach: 10 ft.
 SpecialAttacks: soot breath, rock throwing (60 ft.)
@@ -42,16 +45,40 @@ Skills:
   - Climb +9
   - Perception +4
   - Stealth +0 (+8 in urban environments)
+RacialMods: +8 Stealth in urban environments
 Languages:
   - Giant
+SQ: compression, inhale flames
 Environment: any urban
 Organization: solitary or gang (2-3)
 Treasure: standard
 Description_Visual: >-
   Filth and soot cover this large, emaciated humanoid's pallid skin, and its
   beady black eyes glint with desperate hunger.
+Group: Troll
 Source: Daughters Of Fury
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Inhale Flames (Ex)
+    description: >-
+      As a standard action, a chimney troll can inhale a single nonmagical fire
+      up to the size of a campfire within 30 feet. This extinguishes the fire
+      and grants the chimney troll regeneration 3 (acid, cold) for 3 rounds. If
+      the fire is attended (such as fire on a held torch), a successful DC 13
+      Reflex save negates this effect. The save DC is Constitution-based.
+  - name: Soot Breath (Su)
+    description: >-
+      As a standard action, a chimney troll can exhale a searing cloud of smoke
+      and cinders that fills the lungs of a targeted creature within 30 feet.
+      The victim takes 1d6 points of fire damage and becomes nauseated for 1d3
+      rounds. A successful DC 13 Fortitude save halves the fire damage taken and
+      negates the nausea effect. This ability can be used once each time the
+      chimney troll inhales flames and only within 3 rounds of using that
+      ability. The save DC is Constitution-based.
+  - name: Wicked Blood (Ex)
+    description: >-
+      Chimney trolls cannot heal hit point damage naturally (such as by
+      resting).
 Description:
   - >-
     Chimney trolls are gaunt, pale giants that skulk among the shadowy rooftops
@@ -73,24 +100,9 @@ Climb: '1'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Troll
 id: '6802'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Ranged:
-  - rock +5 (1d8+1)
-Resist: fire 10
-Weaknesses: wicked blood
-RacialMods: +8 Stealth in urban environments
-SQ: compression, inhale flames
-Group: Troll
-SpecialAbilities: {}
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

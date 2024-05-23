@@ -6,6 +6,7 @@ Class: warrior 1
 Alignment: CE
 Size: Medium
 Type: humanoid
+SubType: (orc)
 Init: '1'
 Senses:
   - darkvision 60 ft., scent
@@ -27,6 +28,7 @@ Ranged:
   - javelin +2 (1d6+4)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: frenzy
 AbilityScores:
   - 18
   - 13
@@ -44,7 +46,6 @@ Skills:
 Languages:
   - Common
   - Orc
-SQ: weapon familiarity
 Environment: temperate hills
 Organization: >-
   gang (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th
@@ -56,8 +57,16 @@ Description_Visual: >-
   This massive creature resembles a powerful orc with bestial jaws and oversized
   tusks. It wears black armor and carries a wicked greataxe caked in blood. Its
   armor and hair, like its weapon, is caked with dried blood.
+Group: Orc
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Frenzy (Ex)
+    description: >-
+      Once per day a blood orc who smells or tastes blood during combat may fly
+      into a frenzy in the following round, biting and attacking with its
+      weapons until it or its opponent is dead. It gains +2 Strength, +2
+      Constitution, and -2 AC. The creature cannot end its frenzy voluntarily.
 Description:
   - >-
     Blood orcs are considered vicious killers even amongst other breeds of orcs.
@@ -102,6 +111,7 @@ Description:
     Special Attacks: Frenzy (see above). Languages: Blood orcs begin play
     speaking Common and Orc. Blood orcs with high Intelligence scores can choose
     from the following languages: Giant, Goblin.
+Gear: chain shirt, greataxe, 3 javelins
 CharacterFlag: '1'
 CompanionFlag: '0'
 Fly: '0'
@@ -111,17 +121,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Orc
 id: '2922'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (orc)
-SpecialAttacks: frenzy
-Group: Orc
-SpecialAbilities: {}
-Gear: chain shirt, greataxe, 3 javelins
-SpellLikeAbilities: {}
-SpellsKnown: {}

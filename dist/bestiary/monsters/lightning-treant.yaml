@@ -12,19 +12,32 @@ AC: 22, touch 7, flat-footed 22
 AC_Mods: (-1 Dex, +15 natural, -2 size)
 HP: '138'
 HD: (12d8+84)
+HP_Mods: fast healing 10
 Saves: Fort +15, Ref +3, Will +7
 Fort: '15'
 Ref: '3'
 Will: '7'
+DefensiveAbilities: electric healing
 DR: 10/slashing
 Immune: electricity, plant traits
-Weaknesses: vulnerability to fire
+Resist: fire 10
 Speed: 40 ft.
 Melee:
   - 2 slam +16 (2d8+9)
 Space: 15 ft.
 Reach: 15 ft.
 SpecialAttacks: double damage against objects
+SpellLikeAbilities:
+  header: Druid Spell-Like Abilities (CL 12th)
+  values:
+    - label: At will
+      value: enlarge, faerie fire, greater magic fang (self only)
+    - label: 3/day
+      value: >-
+        call lightning storm (DC 18), lightning bolt (DC 16), protection from
+        energy
+    - label: 1/day
+      value: chain lightning (DC 19)
 AbilityScores:
   - 28
   - 9
@@ -49,16 +62,26 @@ Skills:
 RacialMods: +16 Stealth in forests
 Languages:
   - Aklo
-SQ: animate trees, double damage against objects, treespeech
 Environment: temperate forests
 Organization: solitary, pair, or grove (4-8)
 Treasure: standard
 Description_Visual: >-
   This creature looks like an animated, yet dead, moss-covered tree. Its bark is
   darkened with age and no leaves appear on its branches.
+Group: Treant
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Double Damage Against Objects (Ex)
+    description: >-
+      A lightning treant that makes a full attack against an object or structure
+      deals double damage.
+  - name: Electric Healing (Ex)
+    description: >-
+      Electricity damage heals a lightning treant 1 point of damage for every 3
+      points it would otherwise deal. If the amount would cause the lightning
+      treant to exceed its full normal hit points, it gains any excess as
+      temporary hit points-these temporary hit points last for 2 hours.
 Description:
   - >-
     Unlike most treants, this creature appears to be a moss-covered dead tree,
@@ -91,16 +114,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Treant
 id: '3116'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-HP_Mods: fast healing 10
-DefensiveAbilities: electric healing
-Resist: fire 10
-SpellLikeAbilities: {}
-Group: Treant
-SpellsKnown: {}

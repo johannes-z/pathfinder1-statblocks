@@ -18,15 +18,26 @@ Saves: Fort +7, Ref +4, Will +11
 Fort: '7'
 Ref: '4'
 Will: '11'
-DR: 5/silver or good
 Immune: cold, magic missile
-SR: '17'
 Speed: 30 ft.
 Melee:
   - 2 touches +2 (1 plus bleed)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: bleed (1d6), compel courage, unnerving gaze (30 ft., DC 19)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +11)
+  values:
+    - label: Constant
+      value: shield
+    - label: At Will
+      value: calm emotions (DC 16), darkness, enthrall (DC 16), major image (DC 17)
+    - label: 3/day
+      value: crushing despair (DC 17), shadow walk, silence (DC 16)
+    - label: 1/day
+      value: >-
+        plane shift (DC 21; to the Material Plane and the Plane of Shadow only,
+        lawful evil creatures only), shout (DC 18)
 AbilityScores:
   - 10
   - 15
@@ -64,9 +75,34 @@ Treasure: standard
 Description_Visual: >-
   Cloaked in shadows, every curve and sculpted muscle of this creature suggests
   some new gasping pleasure or titillating torture.
+Group: Kyton
 Source: PFRPG Bestiary 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Compel Courage (Ex)
+    description: >-
+      An ostiarius can inspire courage as a 5th-level bard using bardic
+      performance, granting a +2 morale bonus on saving throws against charm and
+      fear effects and a +2 competence bonus on attack and weapon damage rolls.
+      This ability has a range of 50 feet and affects those creatures the
+      ostiarius chooses who also willingly accept the benefits of the effect (no
+      saving throw required). The ostiarius's performance compels creatures to
+      perform at dangerous extremes. Any living non-outsider that benefits from
+      this ability takes 1 point of bleed damage. A creature that accepts these
+      benefits for multiple consecutive rounds gains additional points of bleed
+      damage that stack with one another (to a maximum of 5). This is an
+      audible, mind-affecting effect and can be countered by a bard's
+      countersong class feature.
+  - name: Shadow Traveler (Ex)
+    description: >-
+      When an ostiarius uses plane shift to travel to the Plane of Shadow, it
+      arrives at its intended destination with complete accuracy. When an
+      ostiarius uses shadow walk, it moves at 100 miles per hour.
+  - name: Unnerving Gaze (Ex)
+    description: >-
+      A creature that succumbs to an ostiarius's unnerving gaze becomes sickened
+      for 1d4 rounds. This is a mind-affecting fear effect. The save DC is
+      Charisma-based.
 Description:
   - >-
     Ostiariuses mind the gate between the world of mortals and the delights of
@@ -86,17 +122,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Kyton
 id: '5282'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpellLikeAbilities: {}
-Group: Kyton
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

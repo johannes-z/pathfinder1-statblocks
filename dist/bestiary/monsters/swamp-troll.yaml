@@ -18,6 +18,7 @@ Saves: Fort +9, Ref +3, Will +2
 Fort: '9'
 Ref: '3'
 Will: '2'
+Weaknesses: swamp dependent
 Speed: 30 ft., swim 30 ft.
 Melee:
   - bite +6 (2d6+4), 2 claws +6 (1d6+4)
@@ -43,6 +44,7 @@ Skills:
   - 'Stealth +4 (+8 swampy or forested areas) '
   - Survival +3
   - Swim +12
+RacialMods: +4 Stealth (+8 Stealth in swampy or forested areas)
 Languages:
   - Giant
 Environment: temperate marshes
@@ -53,8 +55,19 @@ Description_Visual: >-
   sharpened and filthy claws. Its body is covered with moss and fungus, and its
   hair is dark brownish-green. Large, upward-curving fangs jut from its lower
   jaw.
+Group: Troll
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Swamp Dependent (Ex)
+    description: >-
+      Swamp trolls keep their bodies covered in a thick coating of mud and swamp
+      water. Without such a coating, they lose their regeneration ability and
+      eventually suffocate. They can survive away from their murky home for 1
+      hour per 2 points of Constitution. After that, see the suffocation rules
+      in Chapter 13 of the Pathfinder Core Rulebook. They cannot regenerate
+      while subject to suffocation from being away from their swamp for too
+      long.
 Description:
   - >-
     Swamp trolls are large, stocky, dark gray or brown hunched humanoids. Their
@@ -97,16 +110,8 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Troll
 id: '3399'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Weaknesses: swamp dependent
-RacialMods: +4 Stealth (+8 Stealth in swampy or forested areas)
-Group: Troll
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

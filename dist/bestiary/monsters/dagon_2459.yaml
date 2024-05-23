@@ -1,0 +1,196 @@
+Name: Dagon
+CR: '27'
+XP: '3280000'
+Alignment: CE
+Size: Large
+Type: outsider
+SubType: (aquatic, chaotic, demon, evil, extraplanar)
+Init: '12'
+Senses:
+  - darkvision 60 ft., true seeing
+  - Perception +60
+Aura: unholy aura (DC 27)
+AC: 50, touch 35, flat-footed 42
+AC_Mods: (+8 Dex, +15 natural, -1 size, +9 insight, +9 profane)
+HP: '594'
+HD: (36d10+396)
+Saves: Fort +33, Ref +20, Will +29
+Fort: '33'
+Ref: '20'
+Will: '29'
+DR: 25/cold iron and good
+Immune: electricity, poison, water-based spells and effects
+Resist: acid 10, cold 10, fire 10
+SR: '38'
+Speed: 20 ft., swim 60 ft.
+Melee:
+  - +5 unholy mighty cleaving trident +54/+49/+44/+39 (2d6+18/19-20)
+  - 2 slams +48 (1d8+13)
+Ranged:
+  - +5 unholy mighty cleaving trident +49 (2d6+18/19-20)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: water mastery
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 27th)
+  values:
+    - label: Constant
+      value: speak with animals (aquatic only), true seeing, unholy aura (DC 27)
+    - label: At will
+      value: >-
+        blasphemy (DC 26), charm monster (DC 23), control water, create water,
+        deeper darkness, desecrate, detect good, detect law, detect thoughts (DC
+        21), fear (DC 23), greater dispel magic, greater teleport (self plus 50
+        pounds of objects only), telekinesis (DC 24), tongues (self only),
+        unhallow, unholy blight (DC 23), water breathing
+    - label: 3/day
+      value: >-
+        summon (level 9, 1d6 shrroths, 1d4 nalfeshnees, 1d2 mariliths, or 1
+        balor 100%)
+    - label: 1/day
+      value: >-
+        enervation, feeblemind (DC 24), summon (level 9, 72 HD of aquatic
+        creatures 100%)
+SpellsPrepared: >-
+  Spells Prepared (CL 20th)  9th-mage's disjunction (DC 27), soul bind (DC 27),
+  teleportation circle, time stop  8th-antipathy (DC 26), dimensional lock,
+  horrid wilting (DC 26, x2), prismatic wall (DC 26)  7th-control weather,
+  finger of death (DC 25), limited wish, mass hold person (DC 25), prismatic
+  spray (DC 25)  6th-geas/quest (DC 24), flesh to stone (DC 24), mage's
+  lucubration, mass suggestion (DC 24), repulsion (DC 24)  5th-dominate person
+  (DC 23), mind fog (DC 23), magic jar (DC 23), wall of force, waves of fatigue 
+  4th-bestow curse (DC 22), confusion (DC 22), contagion (DC 22), lesser globe
+  of invulnerability, stoneskin, wall of ice (DC 22)  3rd-blink, lightning bolt
+  (DC 21), lightning bolt (DC 21), ray of exhaustion (DC 21), sleet storm,
+  tongues  2nd-blur (DC 20), bull's strength, fog cloud, shatter (DC 20), summon
+  swarm, web (DC 20)  1st-magic missile, obscuring mist, ray of enfeeblement
+  (x2), true strike (x2)  0 (at will)-detect magic, flare (DC 18), light,
+  resistance
+AbilityScores:
+  - 37
+  - 27
+  - 33
+  - 26
+  - 29
+  - 28
+BaseAtk: '36'
+CMB: '50'
+CMD: 86 (can't be tripped)
+Feats:
+  - Alertness
+  - Cleave
+  - Combat Casting
+  - Combat Expertise
+  - Critical Focus
+  - Enlarge Spell
+  - Extend Spell
+  - Great Cleave
+  - Great Fortitude
+  - Heighten Spell
+  - Improved Bull Rush
+  - Improved Critical (trident)
+  - Improved Initiative
+  - Maximize Spell
+  - Power Attack
+  - Quick Draw
+  - Sickening Critical
+  - Weapon Focus (trident)
+Skills:
+  - Acrobatics +47
+  - Bluff +48
+  - Diplomacy +48
+  - Escape Artist +47
+  - Knowledge (arcana) +47
+  - Knowledge (geography) +44
+  - Knowledge (local) +44
+  - Knowledge (nature) +44
+  - Knowledge (planes) +47
+  - Knowledge (religion) +44
+  - Perception +60
+  - Sense Motive +52
+  - Stealth +43
+  - Swim +60
+RacialMods: +8 Perception
+Languages:
+  - Abyssal
+  - Aquan
+  - Celestial
+  - Common
+  - Draconic
+  - Giant
+  - Goblin
+  - Infernal
+  - telepathy 100 ft.
+SQ: amphibious, planar omniscience
+Environment: any (Abyss)
+Organization: >-
+  solitary or troupe (Dagon plus 1-6 shrroth, 1-4 fiendish giant octopi, 1-2
+  fiendish krakens, or 4-8 fiendish giant squids)
+Treasure: triple standard
+Description_Visual: >-
+  This creature has the upper body, arms, and head of a green-skinned humanoid,
+  and the lower torso of a great scaled fish. A thin, almost translucent fin
+  runs the length of his back, and a long mane of black hair falls from his head
+  and down his finned back. His eyes are crimson.
+Group: Demon Lord
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Water Mastery (Ex)
+    description: >-
+      Dagon gains a +2 competence bonus on attack and damage rolls and a +2
+      competence bonus to AC i f both he and his opponent are touching water.
+      Embrace of the Uncaring Sea: Dagon's unique weapon is a +5 unholy mighty
+      cleaving trident. On a successful critical hit, the target must make a DC
+      39 Fortitude save or begin to drown (see Chapter 13 of the Pathfinder
+      Roleplaying Game Core Rulebook). This affects even creatures that can
+      ordinarily breathe underwater or are under the effects of a water
+      breathing spell. The target is allowed a new saving throw each round. The
+      drowning continues until either the target is dead, a successful save is
+      made, or the effect is successfully dispelled (CL 30th). Even if the
+      effect is successfully removed, another critical hit starts it once again.
+      The save DC is Constitution-based and includes a +10 racial bonus when
+      used by Dagon.
+Description:
+  - >-
+    Dagon is the demon prince of sea creatures. He is worshipped as a deity by
+    legions of sahuagin, locathah, skum, lizardfolk, tritons (those that have
+    accepted the ways of evil), and some merfolk. His Abyssal lair is not unlike
+    the Elemental Plane of Water in that it is composed entirely of water.
+  - >-
+    Pockets of air, though, are rumored to be trapped in invisible "bubbles"
+    throughout his lair (so as to allow the non-water breathing demons to exist
+    comfortably). Dagon makes his home in a great underwater iron citadel called
+    Thos located in the deepest recesses of his home plane.
+  - Dagon appears as a 10-foot tall merman and weighs about 2,000 pounds.
+  - >-
+    He can move on land using his fists to drag or pull his body, but prefers to
+    remain in water whenever possible.
+  - >-
+    Dagon prefers to use his trident in battle but can attack with his powerful
+    fists if he so chooses. One of his favorite tactics is to grab an
+    air-breathing opponent and dive as deep as he can in the waters where he
+    holds the victim until it drowns.
+  - >-
+    Servants of Dagon Followers of Dagon are mermen, locathah, sahuagin,
+    lizardfolk, skum, and evil humanoids that revere the seas and oceans.
+  - >-
+    Devout followers of Dagon are called Scaled Ones and must sign a pact of
+    evil with Dagon. Scaled Ones can receive spells from Dagon and are granted
+    access to two of the following domains: Chaos, Destruction, Evil, and Water.
+  - Copyright Notice Author Scott Greene.
+Gear: Embrace of the Uncaring Sea
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '2459'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

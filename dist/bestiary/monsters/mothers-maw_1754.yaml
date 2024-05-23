@@ -1,0 +1,211 @@
+Name: Mother's Maw
+CR: '15'
+XP: '51200'
+Alignment: NE
+Size: Large
+Type: undead
+SubType: (evil, extraplanar)*
+Init: '11'
+Senses:
+  - darkvision 60 ft., lifesense, scent
+  - Perception +28
+Aura: desecrate
+AC: 30, touch 16, flat-footed 23
+AC_Mods: (+7 Dex, +14 natural, -1 size)
+HP: '230'
+HD: (20d8+140)
+HP_Mods: '* fast healing 5 or 20 (see Devour Soul)'
+Saves: Fort +13, Ref +16, Will +18
+Fort: '13'
+Ref: '16'
+Will: '18'
+DefensiveAbilities: channel resistance +4
+DR: 15/bludgeoning and good
+Immune: cold, electricity, undead traits
+Resist: fire 30
+SR: '26'
+Speed: 10 ft., fly 40 ft. (average)
+Melee:
+  - >-
+    bite +26 (5d6+17/19-20 plus d10 bleed, 1d6 Con drain, grab, and mummy rot
+    [DC 26])
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: >-
+  breath weapon (60-ft. cone, 15d6 negative energy, Reflex DC 26 half, usable
+  every 1d4 rounds), channel negative energy 9/day (DC 19, 6d6), devour soul,
+  swallow whole (special acid damage, AC 17, 20 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +18)
+  values:
+    - label: Constant
+      value: desecrate
+    - label: At Will
+      value: >-
+        contagion (DC 19), dimension door, ghoul hunger** (DC 18), inflict
+        critical wounds (DC 20)
+    - label: 1/day
+      value: animate dead, create undead, eyebite (DC 22), plane shift
+AbilityScores:
+  - 33
+  - 25
+  - null
+  - 21
+  - 20
+  - 22
+BaseAtk: '15'
+CMB: +27 (+31 grapple)
+CMD: 44 (can't be tripped)
+Feats:
+  - Cleave
+  - Command UndeadB
+  - Critical Focus
+  - Improved Critical (bite)
+  - Improved Initiative
+  - Improved Iron Will
+  - Improved Lightning Reflexes
+  - Lightning Reflexes
+  - Power Attack
+  - Staggering Critical
+  - Stunning CriticalB
+  - Toughness
+Skills:
+  - Acrobatics +27 (+19 jump)
+  - Fly +28
+  - Intimidate +29
+  - Knowledge (planes) +25
+  - Knowledge (religion) +28
+  - Perception +28
+  - Profession (cook) +25
+  - Sense Motive +28
+  - Stealth +26
+SQ: deathless, true herald
+Environment: '?'
+Organization: '?'
+Treasure: '?'
+Description_Visual: >-
+  This skull is as large as an ogre and surrounded by buzzing flies. Its bat
+  wings are too small to actually carry it, yet it moves through the air as
+  easily as a bird. It is surrounded by the stink of rotting meat, spice, and
+  perfume.
+Source: AP 47
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Constitution Drain (Su)
+    description: >-
+      Creatures that are hit by the Maw's bite must succeed at a DC 26 Fortitude
+      save or take 1d6 points of Constitution drain. On each successful attack,
+      the herald gains 5 temporary hit points. The save DC is Charisma-based.
+  - name: Create Spawn (Su)
+    description: >-
+      Any creature slain by the Maw (including those that die from any of its
+      special attacks or disease) rises 1 round later as a bloody skeleton loyal
+      to the herald.
+  - name: Desecrate (Sp)
+    description: >-
+      The bonuses from the Maw's constant desecrate spell-like ability (always
+      centered on it) are calculated into the stats above.
+  - name: Devour Soul (Su)
+    description: >-
+      By using its swallow whole ability, the herald can deal 12d6+18 points of
+      damage to a swallowed creature as if using a slay living spell. A DC 21
+      Fortitude save reduces this damage to 3d6+18. A swallowed creature must
+      make this save every round on the herald's turn. The soul of a creature
+      slain by this attack becomes trapped within the herald's skull (the
+      creature's body is regurgitated immediately as a mangled wreck of
+      shattered bone and chewed meat). The creature cannot be brought back to
+      life until the herald's destruction (or a spell deflection-see below)
+      releases its soul. The Maw can hold only one soul at a time. The trapped
+      essence provides the Maw with fast healing 20, lasting 1 round for every
+      Hit Die of the devoured soul. The trapped soul gains one permanent
+      negative level for every round it spends within the Maw-these negative
+      levels remain if the creature is brought back to life (but they do not
+      stack with any negative levels imparted by being brought back to life). A
+      soul that is completely consumed may only be restored to life by a miracle
+      or wish spell. The save DC is Charisma-based.
+  - name: Spell Deflection (Su)
+    description: >-
+      If any of the following spells is cast at the Maw and overcomes its spell
+      resistance, it instead affects the devoured soul: banishment, chaos
+      hammer, confusion, crushing despair, detect thoughts, dispel evil,
+      dominate person, fear, geas/quest, holy word, hypnotism, imprisonment,
+      magic jar, maze, suggestion, trap the soul, or any form of charm or
+      compulsion. While none of these effects harms the soul, the caster makes a
+      DC 25 caster level check when a spell is deflected-success indicates that
+      the trapped soul is released from its prison and the creature whose body
+      it belonged to can now be restored to life as normal.
+  - name: Swallow Whole (Ex)
+    description: >-
+      If a creature cuts its way out of the Maw after being swallowed, the Maw
+      can use swallow whole once its fast healing repairs the damage caused by
+      its prey cutting itself free. True Herald Despite its type and Hit Dice,
+      Mother's Maw is the herald of Urgathoa. Despite its type and Hit Dice, it
+      can be conjured using the spell greater planar binding.
+  - name: Vomit Swarm (Su)
+    description: >-
+      Once per round as a free action, the Maw can vomit forth a swarm of
+      maggots (use the statistics for army ants on page 16 of the Pathfinder RPG
+      Bestiary) into a square adjacent to it, after which the swarm moves in a
+      direction of the Maw's choosing. These swarms persist for 10 rounds.
+Description:
+  - >-
+    The Mother's Maw is the herald of Urgathoa. A disgusting undead creature
+    that comes to the mortal realm at the command of the Pallid Princess, it is
+    an unsubtle thing of ravenous hunger, with little purpose but to kill, eat,
+    and animate corpses as undead. Though it is as brilliant as a lich, its only
+    interests are in satisfy its cravings for sensation. The Maw has little
+    interest in the desires of mortals (or of undead in the mortal world) except
+    for how they intersect with Urgathoa's orders. If it is necessary to eat a
+    hundred members of her cult, or to drive an entire city of ghouls into a
+    lava pit, the Maw does it. It can speak but finds little worth talking
+    about, so many assume it is as mindless as an animated skeleton. However,
+    when not on a mission of death, disease, or gluttony, it is a font of
+    knowledge about food, wine, exotic scents, and other strange experiences
+    only an undead creature can understand, and is quite willing to speak on
+    these matters to an interested party-assuming the sight of the enormous
+    talking, winged skull isn't a distraction to listeners. Although the Maw
+    normally appears as a bare skull, it sometimes covers itself with its
+    swarms. Whether this is out of a morbid sense of humor or an attempt to
+    remember an old sensation from its life is unknown. It has confirmed that it
+    was once a devourer, and before that a living creature, but it does not give
+    further details Ecology The Mother's Maw is an immortal undead, able to
+    recover from almost any attack and lacking the need to eat or drink.
+    However, it still enjoys these things and is driven by a desire to
+    experience sensation like the worst mortal hedonist. It has been known to
+    eat and spit out entire herds of cattle (one steer at a time), to crash into
+    winery casks to soak itself for hours in fine and mediocre vintages alike,
+    to roll in exotic spices, or to wrap itself in fine cloth until it looks
+    like a giant mummy skull. Worshipers of the Pallid Princess who wish to
+    curry the herald's favor know to have large amounts of food, drink, or other
+    luxuries for it to experience, consume, or defile. Sometimes the goddess
+    commands the Maw to be quiet, and it finds a resting place such as a large
+    temple where it can wait for days or weeks, using only its power to animate
+    the dead to create servants for the faithful, or in an old battlefield or
+    graveyard, casually creating dozens of undead that lurk about it like
+    cultists around a gross idol. When the Herald leaves, the undead are left
+    behind, either for the worshipers to maintain or turned loose to attack the
+    living. It has no respect for life, and if left to its own devices, it
+    casually kills things as a distraction, often reanimating them and killing
+    them again. Habitat & Society Because of its innate ability to create
+    undead, the herald is sometimes accompanied by skeletons, zombies, and
+    ghouls, which caper about it, endlessly adoring the emissary of the goddess
+    of undeath. It has been known to ferry allies into battle, or (rarely) to
+    rescue a powerful undead creature, spiriting its passenger away to safety
+    within its bony gullet, relying on its own defenses to keep its passenger
+    safe. It is particularly fond of raveners and vampires, and has gone out of
+    its way to aid them when given the choice of several allies.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+OffenseNote: '** See Pathfinder Campaign Setting: Gods and Magic.'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '1754'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

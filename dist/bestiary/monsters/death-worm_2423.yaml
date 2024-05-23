@@ -1,0 +1,92 @@
+Name: Death Worm
+CR: '6'
+XP: '2400'
+Alignment: 'N'
+Size: Large
+Type: magical beast
+SubType: (earth)
+Init: '5'
+Senses:
+  - darkvision 60 ft., tremorsense 60 ft.
+  - Perception +7
+AC: 18, touch 10, flat-footed 17
+AC_Mods: (+1 Dex, +8 natural, -1 size)
+HP: '66'
+HD: (7d10+21 plus 7)
+Saves: Fort +8, Ref +6, Will +4
+Fort: '8'
+Ref: '6'
+Will: '4'
+Speed: 20 ft., burrow 10 ft.
+Melee:
+  - bite +10 (1d8+6 plus 1d6 acid)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: spit acid, spit lightning
+AbilityScores:
+  - 18
+  - 13
+  - 16
+  - 3
+  - 11
+  - 5
+BaseAtk: '7'
+CMB: '12'
+CMD: 23 (cannot be tripped)
+Feats:
+  - Improved Initiative
+  - Iron Will
+  - Power Attack
+  - Toughness
+Skills:
+  - Perception +7
+  - Stealth +3 (+11 in desert environs)
+RacialMods: +8 Stealth in desert environs
+Environment: warm deserts
+Organization: solitary
+Treasure: none
+Description_Visual: >-
+  This creature is a long, slender, reddish-brown monster. Its skin is mottled
+  yellow across its back, tapering off as the colors near its head.  Its mouth
+  is huge and lined with rock hard teeth that allow it to break rocks and earth
+  as it burrows underground.
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Spit Acid (Ex)
+    description: >-
+      Once every 1d4 rounds, a death worm can spit a stream of acid in a 30-foot
+      line; damage 4d6 acid, Reflex DC 16 half. The save DC is Constitution
+      based. Death worms are immune to their own acid and that of other death
+      worms.
+  - name: Spit Lightning (Ex)
+    description: >-
+      Once per minute on a round in which it does not spit acid, a death worm
+      can spit a stroke of lightning in a 20-foot line; damage 3d6 electricity,
+      Reflex DC 16 half. The save DC is Constitution-based.
+Description:
+  - >-
+    The death worm is a reclusive, desert-dwelling creature content to spend its
+    life burrowing beneath the ground and sustaining itself on a diet of sand
+    and earth. On occasion, it surfaces to devour more substantial prey (animals
+    such as moose, deer, bison, and humans).
+  - Death worms lay their eggs far beneath the surface of the earth.
+  - >-
+    Newborn death worms live on a diet of sand and earth; only when they reach
+    maturity (2-5 years after hatching) do they surface and devour their first
+    living prey.
+  - Copyright Notice Authors Scott Greene and Erica Balsley.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '1'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '2423'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -29,7 +29,19 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: pounce
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 7th; concentration +10)
+  values:
+    - label: Constant
+      value: detect evil, mage armor, speak with animals
+    - label: At Will
+      value: invisibility (self only)
+    - label: 3/day
+      value: >-
+        charm monster (DC 17), dispel evil (DC 18), flame arrow, holy smite (DC
+        17), dimension door (self plus 50 lbs. of objects only), remove disease
+    - label: 1/day
+      value: major image (DC 16)
 AbilityScores:
   - 12
   - 16
@@ -56,6 +68,7 @@ Skills:
   - Spellcraft +14
   - Stealth +17
   - Use Magic Device +10
+RacialMods: +8 Acrobatics when jumping
 Languages:
   - Celestial
   - Common
@@ -73,7 +86,13 @@ Description_Visual: >-
 Group: Agathion
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Calm Emotions Aura (Su)
+    description: >-
+      A vulpinal's aura acts like a calm emotions spell with a radius of 30
+      feet. Any creature entering this area must make a Will save (DC 16) to
+      resist the effect. A creature that makes its save is immune to that
+      vulpinal's aura for 24 hours. The save DC is Charisma-based.
 Description:
   - >-
     Among the smallest of the agathions, vulpinals tend to be the most outspoken
@@ -107,12 +126,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
+LinkText: Agathion, Vulpinal
 id: '1091'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-RacialMods: +8 Acrobatics when jumping
-LinkText: Agathion, Vulpinal
-SpellsKnown: {}

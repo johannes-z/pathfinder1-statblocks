@@ -21,6 +21,7 @@ Melee:
   - bite +14 (2d8+13/19- 20 plus poison)
 Space: 15 ft.
 Reach: 15 ft.
+SpecialAttacks: poison
 AbilityScores:
   - 29
   - 14
@@ -50,9 +51,14 @@ Treasure: none
 Description_Visual: >-
   This great, writhing aquatic beast is pale blue with bright yellow stripes,
   and possesses a flipperlike tail to aid it as it swims.
+Group: Sea Snake
 Source: Isles Of The Shackles
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 19; frequency 1/round for 6 rounds; effect 1d2
+      Dex and 1d2 Con; cure 2 consecutive saves.
 Description:
   - >-
     The giant sea snake is one of the biggest reasons many sailors of the
@@ -74,13 +80,8 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '2748'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: poison
-Group: Sea Snake
-SpellLikeAbilities: {}
-SpellsKnown: {}

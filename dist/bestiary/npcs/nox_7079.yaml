@@ -1,0 +1,105 @@
+Name: Nox
+CR: '5'
+XP: '1600'
+Race: human
+Class: fighter (polearm master) 5
+MonsterSource: Pathfinder RPG Advanced Player's Guide 106, Pathfinder RPG Bestiary 4 56
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '0'
+Senses:
+  - darkvision 60 ft., see in darkness
+  - Perception +8
+AC: 21, touch 10, flat-footed 21
+AC_Mods: (+7 armor, +4 natural)
+HP: '57'
+HD: (5d10+25)
+HP_Mods: regeneration 5 (good spells, good weapons)
+Saves: Fort +8, Ref +2, Will +4; +4 vs. poison
+Fort: '8'
+Ref: '2'
+Will: '4'
+Save_Mods: +4 vs. poison
+Resist: fire 30
+Weaknesses: contract bound
+Speed: 30 ft. (20 ft. in armor)
+Melee:
+  - +1 glaive +11 (1d10+8/x3)
+Ranged:
+  - throwing axe +5 (1d6+4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: pole fighting, steadfast pike
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 5th; concentration +6)
+  values:
+    - label: 3/day
+      value: dimension door, rage
+    - label: 1/day
+      value: summon lemure
+AbilityScores:
+  - 18
+  - 10
+  - 16
+  - 10
+  - 14
+  - 13
+BaseAtk: '5'
+CMB: '9'
+CMD: '19'
+Feats:
+  - Alertness
+  - Cleave
+  - Combat Reflexes
+  - Power Attack
+  - Stand Still
+  - Step Up
+  - Toughness
+Skills:
+  - Climb +4
+  - Intimidate +9
+  - Knowledge (planes) +1
+  - Perception +8
+  - Sense Motive +8
+Languages:
+  - Common
+Source: AP 97
+IsTemplate: '0'
+Gender: Female
+BeforeCombat: Nox summons a lemure to aid in any upcoming fight.
+DuringCombat: >-
+  Nox avoids using rage on herself (since she can't use dimension door while
+  under its effects), but uses rage on her hell hound Mephiry as soon as combat
+  begins. She uses her glaive to keep herself out of her foes' reach, and uses
+  her pole fighting ability to attack adjacent foes if needed (remember that
+  doing so imposes a &#8211;4 penalty on her attack rolls). When she's not using
+  pole fighting, Nox instead uses Power Attack, taking a &#8211;2 penalty on
+  attack rolls but gaining a +4 bonus on damage rolls.
+Morale: >-
+  Although she's confident in her regenerative powers, Nox isn't foolish; she
+  knows that if she's knocked unconscious, survival is by no means guaranteed.
+  If reduced to 10 or fewer hit points, she uses dimension door to reach the
+  surface and flees to the opera house to report her failure to Thrune.
+Gear: >-
+  +1 chainmail, +1 glaive, throwing axes (4), cloak of resistance +1, bedroll,
+  waterskin, diamond dust (worth 500 gp), mithral key (unlocks all doors in the
+  complex, worth 150 gp), 9 pp, 70 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: bearded-devil-bound|
+AgeCategory: Adult
+ClassArchetypes: polearm master
+CompanionFamiliarLink: '0'
+id: '7079'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

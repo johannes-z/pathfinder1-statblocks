@@ -4,6 +4,7 @@ XP: '600'
 Alignment: 'N'
 Size: Fine
 Type: vermin
+SubType: (swarm)
 Init: '2'
 Senses:
   - darkvision 60 ft.
@@ -17,6 +18,7 @@ Fort: '3'
 Ref: '3'
 Will: '1'
 Immune: mind-affecting effects, weapon damage, swarm traits, vermin traits
+Weaknesses: swarm traits
 Speed: 10 ft., climb 10 ft.
 Melee:
   - swarm (1d6 plus disease)
@@ -27,7 +29,7 @@ AbilityScores:
   - 1
   - 15
   - 10
-  - —
+  - null
   - 10
   - 2
 BaseAtk: '2'
@@ -45,7 +47,19 @@ Description_Visual: A whirling storm of scarlet-banded spiders scuttles toward y
 Group: Scarlet Spider
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Red Ache: Swarm-injury; save Fort DC 13; onset 1d3 days; frequency 1/day;
+      effect 1d6 Str damage; cure 2 consecutive saves. The save DC is
+      Constitutionbased and includes a +2 racial bonus.
+  - name: Painful Bite (Ex)
+    description: >-
+      The bite of a scarlet spider is extremely painful. A creature bitten takes
+      a -1 circumstance penalty on attack rolls, weapon damage rolls, and
+      ability and skill checks until cured. A neutralize poison or remove
+      disease spell, or a DC 13 Heal check removes the penalty. The check DC is
+      Constitution-based and includes a +2 racial bonus.
 Description:
   - >-
     Scarlet spiders dwell in temperate forests and make their homes in the
@@ -58,8 +72,6 @@ Description:
     Scarlet spiders are not web-spinning spiders; therefore, they do not possess
     the standard web ability of other spiders.
   - Copyright Notice Author Scott Greene.
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -69,15 +81,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '3050'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (swarm)
-Weaknesses: swarm traits
-SpellLikeAbilities: {}
-SpellsKnown: {}

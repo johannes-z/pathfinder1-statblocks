@@ -16,7 +16,7 @@ Saves: Fort +3, Ref +1, Will +5
 Fort: '3'
 Ref: '1'
 Will: '5'
-DefensiveAbilities: poison flesh
+Immune: undead traits
 Speed: 10 ft., swim 20 ft.
 Melee:
   - 2 claws +3 (1d3+1), bite +3 (1d4+1)
@@ -26,7 +26,7 @@ SpecialAttacks: group grapplers, startle
 AbilityScores:
   - 12
   - 13
-  - —
+  - null
   - 5
   - 15
   - 16
@@ -47,9 +47,19 @@ Description_Visual: >-
   in these monstrous remains. The crackle of tiny grinding bones and the hiss of
   parched scales whisper with every motion as the snarling miniature mummy drags
   its shriveled corpse forward.
+Group: Ningyo
 Source: AP 37
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Startle (Su)
+    description: >-
+      Any creature of 5 Hit Dice or fewer that is attacked by an undead ningyo
+      in a surprise round must make a DC 14 Will save or be frightened for 1d4
+      rounds. If the subject succeeds on a Will save, it is shaken for 1 round.
+      Whether or not the save is successful, the affected creature is immune to
+      the same undead ningyo's startle attack for 24 hours. Creatures with 6 or
+      more HD are immune to this effect. This is a mind-affecting fear effect.
+      The save DC is Charisma-based.
 Description:
   - >-
     The bane of fishermen and divers, ningyos lurk in tropical waters, gorging
@@ -93,8 +103,6 @@ Description:
     seems to only feed the nasty sea monsters fish heads and bird carcasses,
     they obey her every command, driving off the curious as they endlessly scour
     the sea floor, as if for some unknown treasure.
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -104,15 +112,8 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '922'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Immune: undead traits
-Group: Ningyo
-SpellLikeAbilities: {}
-SpellsKnown: {}

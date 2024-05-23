@@ -17,6 +17,7 @@ Saves: Fort +5, Ref +6, Will +4
 Fort: '5'
 Ref: '6'
 Will: '4'
+DefensiveAbilities: reanimation
 DR: 10/magic
 Speed: 40 ft., fly 60 ft. (average)
 Melee:
@@ -51,9 +52,17 @@ Treasure: standard plus 2 gems (500 gp value) in eyes
 Description_Visual: >-
   This winged humanoid creature is carved of a strange green stone with eyes
   rich black in color.
+Group: Gargoyle
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Reanimation (Ex)
+    description: >-
+      The eyes of a green guardian gargoyle are made of two pieces of jet (500
+      gp each) that detect as both magic (faint conjuration) and evil. After
+      being destroyed, a green guardian automatically reanimates in 1d8+2 days
+      unless the eye gems are crushed and disenchanted with both dispel magic
+      (DC 15) and remove curse.
 Description:
   - This is a green guardian gargoyle.
   - >-
@@ -72,18 +81,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Gargoyle, Common
 id: '2619'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-DefensiveAbilities: reanimation
-Group: Gargoyle
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-BaseStatistics: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

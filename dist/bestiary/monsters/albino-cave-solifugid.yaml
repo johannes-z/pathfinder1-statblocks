@@ -16,6 +16,7 @@ Saves: Fort +8, Ref +3, Will +2
 Fort: '8'
 Ref: '3'
 Will: '2'
+Immune: mind-affecting effects
 Speed: 50 ft., climb 30 ft.
 Melee:
   - bite +7 (1d8+3), 2 claws +7 (1d4+3)
@@ -26,7 +27,7 @@ AbilityScores:
   - 16
   - 13
   - 17
-  - —
+  - null
   - 11
   - 2
 BaseAtk: '4'
@@ -50,9 +51,6 @@ Description:
   - >-
     The six-legged albino cave solifugid is well known for its aggressive
     hunting patterns. It has a legspan of 5 feet, and weighs 100 pounds.
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -60,17 +58,11 @@ Climb: '1'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-BaseStatistics: 'NULL'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
+LinkText: Albino Cave Solifugid
 id: '1358'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Immune: mind-affecting effects
-LinkText: Albino Cave Solifugid
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

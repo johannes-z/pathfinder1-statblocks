@@ -20,14 +20,15 @@ DefensiveAbilities: undead traits
 Weaknesses: resurrection vulnerability
 Speed: 30 ft.
 Melee:
-  - longsword +6 (1d8+3 plus energy drain) or slam +6 (1d4+3 plus energy drain)
+  - longsword +6 (1d8+3 plus energy drain)
+  - slam +6 (1d4+3 plus energy drain)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: create spawn, energy drain (1 level, DC 16)
 AbilityScores:
   - 16
   - 16
-  - —
+  - null
   - 15
   - 17
   - 19
@@ -54,9 +55,10 @@ Treasure: standard
 Description_Visual: >-
   The flesh of this walking corpse is rotting and putrid, its body skeletal in
   places and its eye sockets glowing with red light.
+Group: Wight
 Source: d20pfsrd
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities: []
 Description:
   - >-
     Some societies deliberately create these specialized wights to serve as
@@ -64,6 +66,7 @@ Description:
     wight that fights with a weapon, typically a sword, that channels its energy
     drain attack and affects creatures damaged by the weapon as if they had been
     struck by the wight's slam attack.
+Gear: Longsword, Studded Leather Armor
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -73,15 +76,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Wight
+VariantParent: Wight
 id: '1773'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Wight
-Gear: Longsword, Studded Leather Armor
-VariantParent: Wight
-SpellLikeAbilities: {}
-SpellsKnown: {}

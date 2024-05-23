@@ -16,6 +16,8 @@ Saves: Fort +1, Ref +2, Will +3
 Fort: '1'
 Ref: '2'
 Will: '3'
+DefensiveAbilities: incorporeal form, shadow blend
+Immune: undead traits
 Speed: 40 ft., climb 15 ft.
 Melee:
   - bite +4 (1d3-2 plus 1d2 Strength damage plus disease)
@@ -24,7 +26,7 @@ Reach: 0 ft.
 AbilityScores:
   - 6
   - 15
-  - —
+  - null
   - 2
   - 12
   - 12
@@ -50,6 +52,31 @@ Description_Visual: >-
 Group: Rat
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Ex)
+    description: >-
+      Filth fever: Bite-injury; save Fort DC 11; onset 1d3 days, frequency
+      1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
+      The save DC is Charisma-based.
+  - name: Incorporeal Form (Su)
+    description: >-
+      A shadow rat can, as a standard action, assume an incorporeal form for up
+      to 1 hour per day. In this form, the shadow rat loses its natural AC bonus
+      but gains a +2 deflection bonus to AC. While in this form, the shadow rat
+      is AC 16 (+2 deflection, +2 Dex, +2 size), touch 15, flat-footed 13. The
+      shadow rat can still attack corporeal opponents while in its incorporeal
+      form, but its attack only inflicts Strength damage and cannot cause
+      physical damage. The shadow rat gains the incorporeal subtype while using
+      this ability.
+  - name: Shadow Blend (Ex)
+    description: >-
+      A shadow rat can disappear into the shadows as a move action, gaining
+      total concealment in all levels of illumination save bright light.
+  - name: Strength Damage (Su)
+    description: >-
+      A shadow rat deals Strength damage to living foes it bites. A creature
+      reduced to 0 Strength cannot move but does not die-at least, not until the
+      shadow rat's physical damage takes its toll.
 Description:
   - >-
     Shadow rats are undead rats that can assume an incorporeal form. Other than
@@ -67,15 +94,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Rat, Common
 id: '2965'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-DefensiveAbilities: incorporeal form, shadow blend
-Immune: undead traits
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

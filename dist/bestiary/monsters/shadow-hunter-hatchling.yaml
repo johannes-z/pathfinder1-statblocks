@@ -54,9 +54,24 @@ Description_Visual: >-
   hunters have the supernatural ability to blend in with shadows, both to
   protect themselves and to stalk and ambush prey. Unlike normal snakes, shadow
   hunters often work in groups of two or three to corner prey in passages.
+Group: Shadow Hunter
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save DC 14 Fort; frequency 1/ round for 6 rounds; effect 1d4
+      Constitution damage; cure 2 consecutive saves. The save DC is
+      Constitution-based.
+  - name: Hunt by Scent (Ex)
+    description: >-
+      Shadow hunters are expert at tracking prey through the dim warrens where
+      they dwell. They can track using their Perception skill in place of
+      Survival.
+  - name: Shadowblend (Su)
+    description: >-
+      In areas of dim and no light, shadow hunters gain improved concealment;
+      there is a 40% miss chance when attacking one in such conditions.
 Description:
   - >-
     Shadow hunters generally prefer to hunt in networks of twisting passages
@@ -70,8 +85,6 @@ Description:
     retreating if need be to return later to consume their hopefully dead prey.
   - Credit
   - Originally appearing in Rappan Athuk Reloaded (© Necromancer Games, 2006)
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -81,14 +94,8 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '5053'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Shadow Hunter
-SpellLikeAbilities: {}
-SpellsKnown: {}

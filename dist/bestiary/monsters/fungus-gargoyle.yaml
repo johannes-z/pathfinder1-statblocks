@@ -9,6 +9,7 @@ Init: '2'
 Senses:
   - low-light vision
   - Perception +12
+Aura: sickening aura (10 ft., DC 16, sickened)
 AC: 17, touch 12, flat-footed 15
 AC_Mods: (+2 Dex, +5 natural)
 HP: '59'
@@ -18,11 +19,14 @@ Fort: '8'
 Ref: '4'
 Will: '4'
 DR: 10/slashing or piercing
+Immune: plant traits
+Resist: fire 5
 Speed: 40 ft., fly 60 ft. (average)
 Melee:
   - 2 claws +9 (1d8+4)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: breath weapon
 AbilityScores:
   - 18
   - 14
@@ -45,7 +49,6 @@ Skills:
 RacialMods: +2 Perception, +2 Stealth (+8 in vegetation)
 Languages:
   - Common (can't speak)
-SQ: freeze
 Environment: any
 Organization: solitary, pair, or patch (5-10)
 Treasure: none
@@ -54,9 +57,27 @@ Description_Visual: >-
   molds, funguses, and mushrooms. Its arms and legs end in clawed hands and
   feet, and its mouth is lined with fangs carved from the same substances its
   body is.
+Group: Gargoyle
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Breath Weapon (Su)
+    description: >-
+      Once every 1d4 rounds, a fungus gargoyle can breathe a line of deadly
+      spores to a range of 10 feet. A living creature struck must succeed on a
+      DC 16 Fortitude save or take 1d4 points of Strength damage. Thereafter,
+      the creature must succeed on a DC 16 Fortitude save each minute (10
+      rounds) or take 1 point of Strength damage. This cycle continues until the
+      creature dies or receives a remove disease spell. A successful DC 20 Heal
+      check or a delay poison spell slows the continuing damage to 1 point per
+      hour. The save DC is Constitution-based.
+  - name: Sickening Aura (Su)
+    description: >-
+      As a free action, a fungus gargoyle can emanate an aura that smells like
+      rotting vegetable matter in a 10-foot radius. Creatures within the area
+      must succeed on a DC 16 Fortitude save or be sickened for as long as they
+      remain in the area and for 1d4 rounds afterwards. The save DC is
+      Constitution-based.
 Description:
   - >-
     Fungus gargoyles are thought to be gargoyles that have been transformed into
@@ -90,21 +111,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Gargoyle, Common
 id: '2618'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Aura: sickening aura (10 ft., DC 16, sickened)
-Immune: plant traits
-Resist: fire 5
-SpecialAttacks: breath weapon
-Group: Gargoyle
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-BaseStatistics: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -1,0 +1,120 @@
+Name: Hydrodaemon
+CR: '7'
+XP: '3200'
+Alignment: NE
+Size: Large
+Type: outsider
+SubType: (aquatic, daemon, evil, extraplanar)
+Init: '2'
+Senses:
+  - darkvision 60 ft., detect magic
+  - Perception +14
+AC: 19, touch 11, flat-footed 17
+AC_Mods: (+2 Dex, +8 natural, -1 size)
+HP: '66'
+HD: (7d10+28)
+Saves: Fort +9, Ref +7, Will +2
+Fort: '9'
+Ref: '7'
+Will: '2'
+DR: 10/good
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+SR: '18'
+Speed: 30 ft., fly 40 ft. (average, see below), swim 60 ft.
+Melee:
+  - 2 claws +10 (1d6+4), bite +10 (2d6+4 plus grab)
+Ranged:
+  - sleep spittle +8 (sleep)
+Space: 10 ft.
+Reach: 10 ft.
+SpecialAttacks: rake (2 claws +10, 1d6+4)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 8th)
+  values:
+    - label: Constant
+      value: detect magic, water walk
+    - label: At Will
+      value: cause fear (DC 13), create water, deeper darkness
+    - label: 2/day
+      value: dimension door, greater teleport (self plus 50 pounds of objects only)
+    - label: 1/day
+      value: desecrate, summon (level 3, hydrodaemon 50%)
+AbilityScores:
+  - 18
+  - 14
+  - 18
+  - 8
+  - 11
+  - 14
+BaseAtk: '7'
+CMB: '12'
+CMD: '24'
+Feats:
+  - Cleave
+  - Point Blank Shot
+  - Power Attack
+  - Precise Shot
+Skills:
+  - Fly +10
+  - Intimidate +12
+  - Knowledge (planes) +9
+  - Perception +14
+  - Swim +22
+RacialMods: +4 Perception
+Languages:
+  - Common
+  - Daemonic
+  - telepathy 100 ft.
+SQ: amphibious, glide
+Environment: any (usually Gehenna, Tarterus, or Hades)
+Organization: solitary, gang (2-4), swarm (5-8), or mob (9-14)
+Treasure: standard
+Description_Visual: >-
+  This massive frog-like creature stands nearly 10 feet tall. Its flesh is warty
+  and dark green and its eyes are sickly yellow. It has large flaps of skin
+  under its arms that seemingly function as wings.
+Group: Daemon
+Source: Tome of Horrors Complete
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Glide (Ex)
+    description: >-
+      A hydrodaemon can launch itself into the air and glide along for 1 minute,
+      gaining a fly speed of 40 feet and average maneuverability. A gliding
+      hydrodaemon gains the pounce ability.
+  - name: Sleep Spittle (Ex)
+    description: >-
+      A hydrodaemon can fire a line of spittle at a single target within 20
+      feet, making a ranged touch attack as a standard action. A target hit by
+      the spittle must succeed on a DC 17 Will save or fall asleep for 6 rounds.
+      The save DC is Constitution-based.
+Description:
+  - >-
+    Hydrodaemons are frog-like daemons that swim the River Styx. They are the
+    only known creatures in existence that can touch the waters of the Styx
+    without suffering any ill effects. Hydrodaemons are 10 feet tall and weigh
+    about 4,000 pounds. They move by leaping in a manner akin to a frog. Large
+    flaps of skin under their arms allow them seemingly to glide when leaping.
+    The flesh of a hydrodaemon is warty and green. Its eyes are a sickly yellow
+    in color.
+  - >-
+    Credit The Hydrodaemon originally appeared in the First Edition Monster
+    Manual II (© TSR/Wizards of the Coast, 1983) and is used by permission.
+  - >-
+    Copyright Notice Author Scott Greene, based on original material by Gary
+    Gygax.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '2415'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

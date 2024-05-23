@@ -17,12 +17,22 @@ Saves: Fort +20, Ref +16, Will +12
 Fort: '20'
 Ref: '16'
 Will: '12'
+Resist: acid 10, cold 10, fire 10
 Speed: swim 90 ft.
 Melee:
-  - bite +26 (2d8+7 plus poison plus grab), 4  slams +25 (2d6+7)
+  - bite +26 (2d8+7 plus poison plus grab), 4 slams +25 (2d6+7)
 Space: 15 ft.
 Reach: 10 ft.
 SpecialAttacks: swallow whole (2d6+7 plus 1d8 acid damage, AC 18, 23 hp)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: 3/day
+      value: >-
+        cone of cold (DC 19), lightning bolt (DC 17) (affects a 30-ft. radius
+        around the pelagos rather than a single target)
+    - label: 1/day
+      value: stinking cloud (DC 17)
 AbilityScores:
   - 25
   - 16
@@ -67,8 +77,21 @@ Description_Visual: >-
   This creature resembles similar arachnids found on land. Its color ranges
   through various shades of blue and green with distinct black markings. Its
   legs and bodies are covered with thousands of fine, sticky hairs.
+Group: Sea Spider
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 26; frequency 1/round for 4 rounds; effect 1d3
+      Con damage; cure 2 consecutive saves. A creature that dies from this
+      poison turns into water and flows away (and is irrevocably dead save for a
+      miracle, wish, or the intervention of a deity). The save DC is
+      Constitution-based.
+  - name: Watersense (Ex)
+    description: >-
+      A pelagos can pinpoint the location of anything within 60 feet that is
+      touching the water.
 Description:
   - >-
     This great sea spider makes its home in the deep ocean never venturing close
@@ -92,14 +115,8 @@ Swim: '1'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '2996'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Resist: acid 10, cold 10, fire 10
-SpellLikeAbilities: {}
-Group: Sea Spider
-SpecialAbilities: {}
-SpellsKnown: {}

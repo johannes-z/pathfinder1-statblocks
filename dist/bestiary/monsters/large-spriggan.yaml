@@ -25,7 +25,11 @@ Ranged:
 Space: 10 ft.
 Reach: 10 ft.
 SpecialAttacks: sneak attack +2d6
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 4th; concentration +4)
+  values:
+    - label: At will
+      value: flare (DC 10), scare (DC 12), shatter (DC 12)
 AbilityScores:
   - 21
   - 17
@@ -58,9 +62,29 @@ Treasure: >-
 Description_Visual: >-
   Flecks of saliva drip from the corners of this filthy and ill-smelling
   humanoid, and his large pointed ears twitch at every sound.
+Group: Spriggan
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Size Alteration (Su)
+    description: >-
+      At will as a standard action, a spriggan can change his size between Small
+      and Large. Weapons, armor, and other objects on the spriggan's person grow
+      proportionally when he changes size (objects revert to normal size 1 round
+      after a spriggan releases them). When a spriggan becomes Large, his speed
+      increases to 30 feet, he gains +12 Strength, -2 Dexterity, and +6
+      Constitution, and he takes a -2 size penalty to his AC. While Large, a
+      spriggan cannot use his sneak attack or his racial spell-like abilities
+      (although if he possesses either from class levels or templates, he
+      retains their use in both sizes).
+  - name: Spriggan Magic (Ex)
+    description: >-
+      A spriggan gains a +1 racial bonus on concentration checks and to save DCs
+      for all of its racial spell-like abilities.
+  - name: Spriggan Skills (Ex)
+    description: >-
+      Climb, Disable Device, Perception, Sleight of Hand, and Stealth are class
+      skills for spriggans.
 Description:
   - >-
     When the gnomes first traveled to the mortal realm from the distant land of
@@ -86,12 +110,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Large Spriggan
 id: '1364'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Spriggan
-SpellsKnown: {}

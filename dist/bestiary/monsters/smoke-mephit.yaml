@@ -19,13 +19,21 @@ Fort: '1'
 Ref: '5'
 Will: '3'
 DR: 5/magic
+Immune: fire, outsider traits
+Weaknesses: vulnerability to cold
 Speed: 30 ft., fly 50 ft. (perfect)
 Melee:
   - 2 claw +3 (1d3)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: breath weapon (15-foot cone of black soot, DC 12 for half, 1d4 fire)
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 6th)
+  values:
+    - label: 1/hour
+      value: blur
+    - label: 1/day
+      value: ember storm, summon (level 2, 1 smoke mephit 25%)
 AbilityScores:
   - 10
   - 14
@@ -57,9 +65,26 @@ Treasure: standard
 Description_Visual: >-
   This small winged humanoid has soot-colored skin, crimson eyes, and dark
   wings. Small trails of smoke stream from its body as it flies along.
+Group: Mephit
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Ember Storm (Sp)
+    description: >-
+      Once per day a smoke mephit can create a downpour of white-hot embers that
+      affects a 20- foot radius. Living creatures caught in the storm take 2d6
+      points of fire damage (Reflex DC 14 half, caster level 6th). This ability
+      is the equivalent of a 2nd-level spell. The save DC is Charisma-based.
+  - name: Fast Healing (Ex)
+    description: >-
+      A smoke mephit heals only if it is exposed to smoke or soot (whether
+      magically created or mundane in nature).
+  - name: Sooty Breath (Su)
+    description: >-
+      Living creatures that fail their saves against the smoke mephit's breath
+      weapon are tormented by burning eyes. This effect imposes a -4 penalty to
+      AC and a -2 penalty on attack rolls for 3 rounds. The save DC is
+      Constitution-based and includes a +1 racial bonus.
 Description:
   - >-
     Smoke mephits are generally only encountered on the Plane of Molten Skies,
@@ -89,14 +114,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Mephit
 id: '2813'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Immune: fire, outsider traits
-Weaknesses: vulnerability to cold
-Group: Mephit
-SpellsKnown: {}

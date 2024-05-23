@@ -9,7 +9,6 @@ Init: '8'
 Senses:
   - darkvision 60 ft., low-light vision
   - Perception +18
-Aura: fear aura (40 ft., DC 36)
 AC: 22, touch 14, flat-footed 18
 AC_Mods: (+4 Dex, +8 natural)
 HP: '127'
@@ -18,7 +17,6 @@ Saves: Fort +8, Ref +11, Will +9
 Fort: '8'
 Ref: '11'
 Will: '9'
-DefensiveAbilities: channel resistance +4, incorporeal
 DR: 5/cold iron or good
 Immune: cold, undead traits
 SR: '21'
@@ -27,11 +25,11 @@ Melee:
   - scythe +14/+9/+4 (2d4+3/x4 plus death touch)
 Space: 5 ft.
 Reach: 5 ft.
-SpellLikeAbilities: {}
+SpecialAttacks: fear cone (30 ft., DC 20)
 AbilityScores:
   - 14
   - 19
-  - —
+  - null
   - 8
   - 11
   - 17
@@ -52,6 +50,7 @@ Skills:
   - Intimidate +16
   - Perception +18
   - Stealth +22
+SQ: sole target
 Environment: any
 Organization: solitary or omen (2-4)
 Treasure: none
@@ -59,9 +58,27 @@ Description_Visual: >-
   This tall, cloaked figure stares out from the black hood that covers its head.
   It wields an enormous scythe in its skeletal, bone-white hands, looking as
   though it is freezing the very air around it.
+Group: Grim Reaper
 Source: AP 48
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Death Touch (Su)
+    description: >-
+      Creatures hit by either a lesser reaper's touch attack or by a weapon
+      wielded by a lesser reaper must succeed at a DC 20 Fortitude save or gain
+      1d4 negative levels. The save DC is Charisma-based. A humanoid slain by a
+      reaper's death touch is consumed in unholy fire and has its remains
+      destroyed as the destruction spell. This is a death effect.
+  - name: Sole Target (Su)
+    description: >-
+      Each minor reaper is assigned a specific target by the reaper that
+      summoned it. If a creature attacks a minor reaper targeting another
+      creature, that minor reaper may immediately summon another minor reaper as
+      a free action to battle the interceding creature unless the interloper is
+      already in battle with a minor reaper of its own, in which case the
+      ability is wasted. If a minor reaper does not or cannot use this ability
+      immediately after being attacked, it must wait until it is attacked once
+      again in order to do so.
 Description:
   - >-
     Known by many names throughout nearly all cultures, grim reapers are the
@@ -129,13 +146,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '1816'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: fear cone (30 ft., DC 20)
-SQ: sole target
-Group: Grim Reaper
-SpellsKnown: {}

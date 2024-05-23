@@ -4,6 +4,7 @@ XP: '400'
 Alignment: CE
 Size: Tiny
 Type: fey
+SubType: (aquatic)
 Init: '5'
 Senses:
   - darkvision 120 ft., low-light vision
@@ -17,15 +18,24 @@ Fort: '1'
 Ref: '3'
 Will: '3'
 DR: 5/cold iron
+Resist: cold 10
 SR: '12'
 Weaknesses: vulnerable to fire and sunlight
 Speed: 20 ft., climb 10 ft., swim 30 ft.
 Melee:
   - 2 claws +3 (1d3-2)
+Ranged:
+  - dart +3 (1d2-2)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: congeal water
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 1st; concentration +0)
+  values:
+    - label: At Will
+      value: create water, prestidigitation
+    - label: 1/day
+      value: sleep (DC 10)
 AbilityScores:
   - 7
   - 13
@@ -60,9 +70,25 @@ Treasure: standard (6 darts, other treasure)
 Description_Visual: >-
   This waterlogged gremlin has lobster claws for hands and an almost canine face
   with webbed ears.
+Group: Gremlin
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Congeal Water (Su)
+    description: >-
+      Once per day, a fuath can surround a creature in a thin layer of magically
+      viscous water as a standard action at a range of 30 feet. A target that
+      fails a DC 10 Reflex save becomes entangled and must hold its breath or
+      risk drowning. The target or an adjacent creature can spend a full-round
+      action on its turn scraping off the clinging fluid, allowing a new Reflex
+      save with a +2 bonus; otherwise, the effect lasts for 1d4 minutes. A fuath
+      can use this ability even if there is no source of water nearby. The save
+      DC is Charisma-based and includes a +1 racial bonus.
+  - name: Vulnerable to Sunlight (Ex)
+    description: >-
+      A fuath takes 1 point of Constitution damage after every hour it is
+      exposed to sunlight. Water of a depth of at least 1 foot negates this
+      harmful effect.
 Description:
   - >-
     Drowners of sailors and sinkers of ships, a fuath (FOO-ah) is a wicked
@@ -85,10 +111,6 @@ Description:
     prefer the taste of "land-meat" to anything from the sea, and often raid
     shore and ships to slake their hunger. They adore sea hags to the point of
     worship.
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-Gear: short sword
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -96,20 +118,9 @@ Climb: '1'
 Burrow: '0'
 Swim: '1'
 Land: '1'
-BaseStatistics: 'NULL'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '2089'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Ranged:
-  - dart +3 (1d2-2)
-SubType: (aquatic)
-Resist: cold 10
-Group: Gremlin
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

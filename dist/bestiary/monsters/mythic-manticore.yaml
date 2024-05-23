@@ -4,6 +4,7 @@ XP: '2400'
 Alignment: LE
 Size: Large
 Type: magical beast
+SubType: (mythic)
 Init: '2'
 Senses:
   - darkvision 60 ft., low-light vision, scent
@@ -16,6 +17,7 @@ Saves: Fort +9, Ref +7, Will +3
 Fort: '9'
 Ref: '7'
 Will: '3'
+DR: 5/epic
 Speed: 30 ft., fly 50 ft. (clumsy)
 Melee:
   - bite +11 (1d8+6), 2 claws +11 (2d4+6)
@@ -23,6 +25,7 @@ Ranged:
   - 4 spikes +9 (1d6+6 plus poison)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: mythic power (2/day, surge +1d6), poison, pounce, skewer
 AbilityScores:
   - 22
   - 15
@@ -50,9 +53,32 @@ Treasure: standard
 Description_Visual: >-
   This fearsome creature has the body of a lion, the wings of a dragon, the face
   of a snarling man, and a tail of dripping spikes.
+Group: Manticore
 Source: Mythic Adventures
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Spike-injury; save Fort DC 17; frequency 1/round for 6 rounds; effect 1d4
+      Str; cure 2 consecutive saves.
+  - name: Skewer (Ex)
+    description: >-
+      If a mythic manticore confirms a critical hit with a spike, the spike pins
+      the target to the ground or a nearby surface. If the target is using
+      winged flight, the spike snares its wings. The target is considered
+      grappled by the manticore (though the manticore is not considered to be
+      grappling) and must escape the grapple to move from its square. A flying
+      creature must escape on its turn or plummet to the ground. As a swift
+      action, a mythic manticore can expend one use of mythic power to skewer
+      all targets hit by its spikes that turn, even if the attacks weren't
+      critical hits.
+  - name: Spikes (Ex)
+    description: >-
+      With a snap of its tail, a mythic manticore can loose a volley of four
+      spikes as a standard action (make an attack roll for each spike). This
+      attack has a range of 180 feet with no range increment. All targets must
+      be within 30 feet of each other. The creature can launch only 24 spikes in
+      any 24-hour period.
 Description:
   - >-
     A mythic manticore is a nightmarish creature, perhaps the result of
@@ -79,20 +105,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Manticore
 id: '4886'
 UniqueMonster: '0'
 MR: '2'
 Mythic: '1'
 MT: '0'
-SubType: (mythic)
-DR: 5/epic
-SpecialAttacks: mythic power (2/day, surge +1d6), poison, pounce, skewer
-Group: Manticore
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

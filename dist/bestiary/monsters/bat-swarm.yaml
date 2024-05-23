@@ -4,6 +4,7 @@ XP: '600'
 Alignment: 'N'
 Size: Diminutive
 Type: animal
+SubType: (swarm)
 Init: '2'
 Senses:
   - blindsense 20 ft., low-light vision
@@ -16,11 +17,14 @@ Saves: Fort +3, Ref +7, Will +3
 Fort: '3'
 Ref: '7'
 Will: '3'
+DefensiveAbilities: swarm traits
+Immune: weapon damage
 Speed: 5 ft., fly 40 ft. (good)
 Melee:
   - swarm (1d6)
 Space: 10 ft.
 Reach: 0 ft.
+SpecialAttacks: distraction (DC 11), wounding
 AbilityScores:
   - 3
   - 15
@@ -38,6 +42,7 @@ Skills:
   - Fly +12
   - Perception +15
 RacialMods: +4 Perception when using blindsense
+SQ: swarm traits
 Environment: any temperate or tropical
 Organization: solitary, pair, flight (3-6 swarms), or colony (11-20 swarms)
 Treasure: none
@@ -47,13 +52,19 @@ Description_Visual: >-
 Group: Bat
 Source: PFRPG Bestiary
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Wounding (Ex)
+    description: >-
+      Any living creature damaged by a bat swarm continues to bleed, losing 1
+      hit point per round thereafter. Multiple wounds do not result in
+      cumulative bleeding loss. The bleeding can be stopped by a DC 10 Heal
+      check or the application of a cure spell or some other healing magic.
 Description:
   - >-
     Bat swarms dwell in large caves, ruins, or even city sewers-anywhere they
     can find darkness to hide in during the day and a supply of food to feast
     upon at night. They are only encountered outside in a group at dawn or dusk,
     or when they have been startled and forced to flee their lairs.
-Gender: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '1'
@@ -63,20 +74,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 LinkText: Bat, Swarm
 id: '718'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SubType: (swarm)
-DefensiveAbilities: swarm traits
-Immune: weapon damage
-SpecialAttacks: distraction (DC 11), wounding
-SQ: swarm traits
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

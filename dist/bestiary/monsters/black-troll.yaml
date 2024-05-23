@@ -51,8 +51,18 @@ Treasure: standard
 Description_Visual: >-
   This tall, grotesque creature has a shiny black hide and hands that end in
   wicked claws. Two large tusks protrude from its fang-filled mouth.
+Group: Troll
 Source: Tome of Horrors 4
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Fire Absorption (Su)
+    description: >-
+      Any fire effect that would deal 20 or more points of damage to a fire
+      troll causes the creature to grow to Huge size. A black troll can induce
+      this effect itself by stepping into a large source of fire that deals 20
+      or more points of damage in a single round. It must spend one full round
+      in the flames for this method to work. This size change lasts 1 hour
+      before the black troll reverts to its normal size.
 Description:
   - >-
     Black trolls are an offshoot of standard trolls, believed to be
@@ -89,18 +99,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Troll
 id: '5087'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Troll
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

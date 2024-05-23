@@ -36,6 +36,7 @@ Feats:
 Skills:
   - Perception +5
   - Swim +5
+SQ: hold breath, shell
 Environment: temperate or warm water or shore
 Organization: solitary or band (2-5)
 Treasure: none
@@ -45,7 +46,12 @@ Description_Visual: >-
 Group: Turtle
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Shell (Ex)
+    description: >-
+      As a move action, a snapping turtle can pull its extremities and head into
+      its shell. It cannot move or attack as long as it remains in this state,
+      but its armor bonus from natural armor increases by +4 as long as it does.
 Description:
   - >-
     Snapping turtles are water-dwelling reptiles known for their propensity to
@@ -67,13 +73,9 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
+LinkText: Snapping Turtle
 id: '1382'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SQ: hold breath, shell
-LinkText: Snapping Turtle
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -1,0 +1,137 @@
+Name: Imrijka
+CR: '1'
+XP: '400'
+Race: half-orc
+Class: inquisitor 1
+Alignment: NG
+Size: Medium
+Type: humanoid
+SubType: (human, orc)
+Init: '1'
+Senses:
+  - darkvision 60 ft.
+  - Perception +6
+AC: 17, touch 11, flat-footed 16
+AC_Mods: (+5 armor, +1 Dex, +1 shield)
+HP: '10'
+HD: (1d8+2)
+Saves: Fort +3, Ref +1, Will +4
+Fort: '3'
+Ref: '1'
+Will: '4'
+DefensiveAbilities: orc ferocity
+Speed: 20 ft.
+Melee:
+  - morningstar +3 (1d8+3)
+  - spiked gauntlet +3 (1d4+3)
+Ranged:
+  - shortbow +1 (1d6+3/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: judgment 1/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 1st; concentration +3)
+  values:
+    - label: 5/day
+      value: gentle rest Domain Repose
+SpellsKnown:
+  header: Spells Known (CL 1st; concentration +3)
+  values:
+    - label: 1st (2/day)
+      value: command (DC 13), magic weapon
+    - label: 0 (at will)
+      value: acid splash, disrupt undead, guidance, stabilize
+AbilityScores:
+  - 16
+  - 12
+  - 13
+  - 10
+  - 15
+  - 8
+BaseAtk: '0'
+CMB: '3'
+CMD: '14'
+Feats:
+  - Intimidating Prowess
+Skills:
+  - Climb -2
+  - Intimidate +9
+  - Knowledge (dungeoneering) +4
+  - Knowledge (religion) +4
+  - Perception +6
+  - Sense Motive +7
+  - Survival +6
+Languages:
+  - Common
+  - Orc
+SQ: monster lore +2, orc blood, stern gaze, weapon familiarity
+Source: Master of the Fallen Fortress
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Judgment (Su)
+    description: >-
+      You can pronounce judgment upon your foes as a swift action, receiving a
+      bonus or special ability based on the type of judgment made. The bonuses
+      granted by the judgment continue to improve on following rounds, reaching
+      a maximum bonus that lasts until the judgment ends. You can use this
+      ability once per day. Once activated, this ability lasts until the combat
+      ends, at which point all of the bonuses end. You must participate in the
+      combat to gain these bonuses. If you are frightened, panicked, paralyzed,
+      stunned, unconscious, or otherwise prevented from participating in the
+      combat, the ability does not end, but all of the bonuses reset to those
+      granted on the first round until you can participate in the combat again.
+      When you use this ability, you must select one type of judgment to make.
+      As a swift action, you can change this judgment to another type, but doing
+      so resets the bonus granted to those granted on the first round. The
+      judgments are as follows. Destruction: You are filled with divine wrath,
+      gaining a +1 sacred bonus on all weapon damage rolls. This bonus increases
+      by +1 each round after the first, to a maximum of +3. Healing: You gain
+      fast healing 1. This causes you to heal 1 point of damage each round as
+      long as you are alive and the judgment lasts. This increases to fast
+      healing 2 on the second round and to fast healing 3 on the third round.
+      Justice: The judgment spurs you to seek justice, granting a +1 sacred
+      bonus on all attack rolls. This bonus increases by +1 each round after the
+      first, to a maximum of +3. Piercing: The judgment grants a +1 sacred bonus
+      on concentration checks and caster level checks made to overcome a
+      target's spell resistance. This bonus increases by +1 each round after the
+      first to a maximum of +3. Protection: You are surrounded by a protective
+      aura, granting a +1 sacred bonus to Armor Class. This bonus increases by
+      +1 each round after the first, to a maximum of +3. Purity: You are
+      protected from the vile taint of your foes, gaining a +1 sacred bonus on
+      all saving throws. This bonus increases by +1 each round after the first,
+      to a maximum of +3. Resiliency: The judgment makes you resistant to harm,
+      granting DR 1/magic. This bonus increases to 2/magic on the second round,
+      and 3/magic on the third and following rounds. Resistance: You gain 2
+      points of energy resistance against one energy type (acid, cold,
+      electricity, fire, or sonic) chosen when the judgment is declared. The
+      protection increases to 4 on the second round, and to 6 on the third
+      round.
+  - name: Monster Lore (Ex)
+    description: >-
+      When making Knowledge skill checks to identify the abilities and
+      weaknesses of creatures, add your Wisdom modifier as a bonus on the roll.
+  - name: Stern Gaze (Ex)
+    description: >-
+      You are skilled at sensing deception and intimidating your foes. You
+      receive a +1 morale bonus on all Intimidate and Sense Motive checks.
+Gender: Female
+Gear: alchemist's fire, holy water
+OtherGear: >-
+  scale mail, light wooden shield, dagger, morningstar, shortbow with 20 arrows,
+  spiked gauntlet, backpack, manacles, rations (4), silver holy symbol, spell
+  component pouch, sunrod, 6 gp
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '840'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

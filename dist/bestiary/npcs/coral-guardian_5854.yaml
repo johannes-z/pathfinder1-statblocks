@@ -1,0 +1,101 @@
+Name: Coral Guardian
+CR: '7'
+XP: '3200'
+Race: Chaos beast
+MonsterSource: Pathfinder RPG Bestiary 2 54
+Alignment: CN
+Size: Medium
+Type: outsider
+SubType: (chaotic, extraplanar)
+Init: '6'
+Senses:
+  - darkvision 60 ft.
+  - Perception +13
+AC: 20, touch 13, flat-footed 17
+AC_Mods: (+2 Dex, +1 dodge, +7 natural)
+HP: '85'
+HD: (9d10+36)
+Saves: Fort +9, Ref +8, Will +4
+Fort: '9'
+Ref: '8'
+Will: '4'
+DefensiveAbilities: amorphous, resistant to transformation
+SR: '18'
+Speed: 20 ft.
+Melee:
+  - 4 claws +13 (1d6+3 plus corporeal instability)
+Space: 5 ft.
+Reach: 5 ft.
+AbilityScores:
+  - 17
+  - 15
+  - 16
+  - 10
+  - 12
+  - 11
+BaseAtk: '9'
+CMB: '12'
+CMD: 25 (can't be tripped)
+Feats:
+  - Dodge
+  - Improved Initiative
+  - Mobility
+  - Toughness
+  - Weapon Focus (claw)
+Skills:
+  - Acrobatics +14 (+10 jump)
+  - Climb +15
+  - Escape Artist +14
+  - Perception +13
+  - Stealth +14
+  - Swim +15
+Source: PFS S3-03
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Corporeal Instability (Su)
+    description: >-
+      Claw-contact (curse); save Fort DC 17; effect amorphous body and 1 Wisdom
+      drain per round (see below); cure 3 consecutive saves. The save DC is
+      Con-based. A creature cursed with an amorphous body becomes a spongy,
+      shapeless mass. Unless the victim manages to control the effect (see
+      below), its shape constantly melts, flows, writhes, and boils. An affected
+      creature is unable to hold or use any item. Clothing, armor, helmets, and
+      rings become useless. Large items worn or carried&#8211;armor, backpacks,
+      even shirts&#8211;hamper more than help, reducing the victim's Dexterity
+      score by 4. Speed is reduced to 10 feet or one-quarter normal, whichever
+      is less. The victim gains the amorphous quality, but cannot cast spells or
+      use magic items, and it attacks blindly, unable to distinguish friend from
+      foe (&#8211;4 penalty on attack rolls and a 50% miss chance, regardless of
+      the attack roll). A victim can temporarily regain its own shape by taking
+      a standard action to attempt a DC 15 Will save (this DC does not vary for
+      a chaos beast with different Hit Dice or ability scores). A success
+      reestablishes the creature's normal form for 1 minute. Spells that change
+      the victim's shape (such as alter self, beast shape, elemental body, and
+      polymorph) do not remove the curse, but hold the creature in a stable form
+      (which might not be its own form, depending on the spell), and prevent
+      additional Wisdom drain for the duration of the spell; shapechange and
+      stoneskin have a similar effect. The victim takes 1 point of Wisdom drain
+      from mental shock every round that it ends its turn in an amorphous
+      shape&#8211;upon being drained to 1 Wisdom, further Wisdom drain ceases
+      and the amorphous body effect is permanent until removed via magic (no
+      further number of saving throws can cure the condition at this time).
+  - name: Resistant to Transformation (Ex)
+    description: >-
+      Transmutation effects, such as polymorphing or petrification, force a
+      chaos beast into a new shape, but at the start of its next turn, it
+      immediately returns to its normal form as a free action.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '5854'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

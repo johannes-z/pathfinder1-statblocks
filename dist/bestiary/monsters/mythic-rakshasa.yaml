@@ -17,6 +17,7 @@ Saves: Fort +9, Ref +12, Will +8
 Fort: '9'
 Ref: '12'
 Will: '8'
+DefensiveAbilities: telepathic dodge
 DR: 15/epic and good and piercing
 SR: '27'
 Speed: 40 ft.
@@ -27,7 +28,18 @@ Reach: 5 ft.
 SpecialAttacks: >-
   detect thoughts, modify memory, mythic power (5/day, surge +1d8), wild arcana
   (see page 14)
-SpellsKnown: {}
+SpellsKnown:
+  header: >-
+    Spells Known (CL 7th; concentration +12)  4th (5)-charm monster (DC 19),
+    dimension door  3rd (7)-lightning boltM (DC 18), suggestionM (DC 18),
+    vampiric touch  2nd (7)-acid arrow, invisibilityM, minor image (DC 17),
+    mirror image  1st (8)-charm person (DC 16), mage armor, magic missileM,
+    shield, silent imageM (DC 16)
+  values:
+    - label: 0 (at will)
+      value: >-
+        dancing lights, detect magic, ghost sound (DC 15), mage hand, mending,
+        message, prestidigitation
 AbilityScores:
   - 16
   - 20
@@ -64,9 +76,31 @@ Treasure: double (+1 kukri, other treasure)
 Description_Visual: >-
   Fine jewelry and clothing accentuate this tiger-headed figure's striped fur
   and formidable fangs.
+Group: Rakshasa
 Source: Mythic Adventures
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Detect Thoughts (Su)
+    description: >-
+      A rakshasa can detect thoughts as the spell (CL 18th). It can suppress or
+      resume this ability as a free action. When a rakshasa uses this ability,
+      it always functions as if it had spent 3 rounds concentrating and thus
+      gains the maximum amount of information possible. A creature can resist
+      this effect with a successful DC 20 Will save. The save DC is
+      Charisma-based.
+  - name: Modify Memory (Sp)
+    description: >-
+      A mythic rakshasa can expend one use of mythic power as a swift action to
+      modify the memory of a creature whose mind it is reading, as the modify
+      memory spell (CL 18th). The creature can resist with a successful DC 20
+      Will save. The save DC is Charisma-based.
+  - name: Telepathic Dodge (Su)
+    description: >-
+      A mythic rakshasa gains an insight bonus to its AC against creatures whose
+      minds it can read. It doesn't need to use its detect thoughts ability to
+      gain this bonus. The rakshasa doesn't gain this bonus against creatures
+      that are mindless or whose minds can't be read (such as from a mind blank
+      spell).
 Description:
   - >-
     A mythic rakshasa is a natural mind reader and uses its abilities to tempt
@@ -81,16 +115,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Rakshasa
 id: '4894'
 UniqueMonster: '0'
 MR: '5'
 Mythic: '1'
 MT: '0'
-DefensiveAbilities: telepathic dodge
-Group: Rakshasa
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}

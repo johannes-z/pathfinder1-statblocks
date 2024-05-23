@@ -17,6 +17,8 @@ Saves: Fort +7, Ref +0, Will +3
 Fort: '7'
 Ref: '0'
 Will: '3'
+DefensiveAbilities: iron resilience
+DR: 5/epic
 Speed: 30 ft. (40 ft. base)
 Melee:
   - mwk greatclub +9 (2d8+7)
@@ -24,6 +26,7 @@ Ranged:
   - javelin +1 (1d8+5)
 Space: 10 ft.
 Reach: 10 ft.
+SpecialAttacks: mythic power (1/day, surge +1d6), rising fury
 AbilityScores:
   - 21
   - 8
@@ -49,8 +52,22 @@ Treasure: standard (mwk scale mail, mwk greatclub, 4 javelins, other treasure)
 Description_Visual: >-
   This immense, muscular giant wears heavy scale mail and wields a club adorned
   with a giant claw.
+Group: Ogre
 Source: Mythic Adventures
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Iron Resilience (Ex)
+    description: >-
+      Once per round, a mythic ogre can ignore an attack that would reduce it to
+      negative hit points or kill it. The ogre takes no damage from the attack.
+      As an immediate action, a mythic ogre can expend one use of mythic power
+      to use this ability to ignore all attacks from one creature for 1 round.
+  - name: Rising Fury (Ex)
+    description: >-
+      Each time a mythic ogre takes damage, it gains a +2 morale bonus on damage
+      rolls until the end of its next turn. This bonus increases by +2 each time
+      the ogre takes damage, up to a maximum of +10. At the end of the ogre's
+      turn, this damage bonus resets to +0.
 Description:
   - >-
     A mythic ogre is an example of inbreeding going exactly right, the perfect
@@ -77,20 +94,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Ogre
 id: '4890'
 UniqueMonster: '0'
 MR: '1'
 Mythic: '1'
 MT: '0'
-DefensiveAbilities: iron resilience
-DR: 5/epic
-SpecialAttacks: mythic power (1/day, surge +1d6), rising fury
-Group: Ogre
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

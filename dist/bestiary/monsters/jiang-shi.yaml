@@ -20,6 +20,7 @@ Saves: Fort +8, Ref +11, Will +9; +2 vs. enchantment
 Fort: '8'
 Ref: '11'
 Will: '9'
+Save_Mods: +2 vs. enchantment
 DefensiveAbilities: channel resistance +4, evasion, prayer scroll
 DR: 10/magic and slashing
 Immune: disease, spell completion and spell trigger effects, undead traits
@@ -31,12 +32,10 @@ Melee:
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: brutal claws, drain chi (DC 15), flurry of blows, stunning fist (5/day, DC 16)
-SpellLikeAbilities: {}
-SpellsKnown: {}
 AbilityScores:
   - 16
   - 23
-  - —
+  - null
   - 12
   - 18
   - 16
@@ -78,6 +77,7 @@ Treasure: >-
 Description_Visual: >-
   Its flesh pallid and a parchment burial prayer hanging from its brow, this
   risen corpse lurches forward in a series of short hops.
+Group: Vampire
 Source: PFRPG Bestiary 3
 IsTemplate: '1'
 Description:
@@ -207,8 +207,6 @@ Description:
   - >-
     Skills: Jiang-shis gain a +8 racial bonus on Acrobatics, Perception, and
     Stealth checks.
-Gender: Female
-Bloodline: undead
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -216,17 +214,9 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-TemplatesApplied: vampire
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Vampire
 id: '2222'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Save_Mods: +2 vs. enchantment
-Group: Vampire
-FocusedSchool: 'NULL'
-SpecialAbilities: {}

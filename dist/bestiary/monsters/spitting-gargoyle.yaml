@@ -23,6 +23,7 @@ Melee:
   - 2 claws +7 (1d6+2), bite +7 (1d4+2), gore +7 (1d4+2)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: acid spit
 AbilityScores:
   - 15
   - 14
@@ -54,9 +55,19 @@ Description_Visual: >-
   A grotesque winged humanoid, it has a stony hide and wickedly-pointed horns.
   Its mouth is a gaping "O" like a water spout, and its chin is stained with a
   green patina of corrosion.
+Group: Gargoyle
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Acid Spit (Ex)
+    description: >-
+      30-foot line, once every 4 rounds, damage 3d6 acid, Reflex DC 16 half. The
+      save DC is Constitution based.
+  - name: Freeze (Ex)
+    description: >-
+      A spitting gargoyle can hold itself so still it appears to be a statue. A
+      spitting gargoyle that uses freeze can take 20 on its Stealth check to
+      hide in plain sight as a stone statue.
 Description:
   - >-
     Like its cousin the common gargoyle, spitting gargoyles are cruel creatures
@@ -80,18 +91,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Gargoyle, Common
 id: '4950'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: acid spit
-Group: Gargoyle
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -1,6 +1,8 @@
 Name: Filcher Gremlin
 CR: '6'
 XP: '2400'
+Race: Gremlin
+Class: rogue 6
 Alignment: CE
 Size: Small
 Type: fey
@@ -16,18 +18,17 @@ Saves: Fort +4, Ref +10, Will +7
 Fort: '4'
 Ref: '10'
 Will: '7'
+DefensiveAbilities: evasion, trap sense +2, uncanny dodge
 DR: 5/cold iron
 SR: '17'
 Weaknesses: light blindness
 Speed: 20 ft.
 Melee:
-  - >-
-    short sword +10 (1d4-2), bite +5 (1d4-2) or bite +10 (1d4-2), 2 claws +10
-    (1d4-2)
+  - short sword +10 (1d4-2), bite +5 (1d4-2)
+  - bite +10 (1d4-2), 2 claws +10 (1d4-2)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: 'sneak attack +4d6 Spell-like Abilities (CL 5th): 3/day-phase door'
-SpellLikeAbilities: {}
 AbilityScores:
   - 7
   - 21
@@ -65,9 +66,19 @@ Treasure: incidental
 Description_Visual: >-
   This creature resembles a goblin with long floppy ears, a pinched wrinkled
   face, nasty claws, a mouth full of sharp teeth and a wicked glint to its eyes.
+Group: Gremlin
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Knot Expert (Ex)
+    description: >-
+      A gremlin treats its total Hit Dice as its base attack bonus when
+      calculating its CMB to determine the Escape Artist check DC of any
+      restraints it ties using ropes.
+  - name: Phase Door (Sp)
+    description: >-
+      A gremlin can take only other gremlins through the passage and it cannot
+      set triggering conditions to allow others to use the passage.
 Description:
   - >-
     Gremlin filchers are a force to be reckoned with (when it comes to securing
@@ -77,9 +88,6 @@ Description:
     to reach spaces (which could be several given their small size), but also
     allows them to bind any person(s) who would stop them from their task at
     hand. Copyright Notice Author Scott Greene.
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
 Gear: short sword
 CharacterFlag: '0'
 CompanionFlag: '0'
@@ -88,17 +96,10 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-BaseStatistics: 'NULL'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '2668'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Race: Gremlin
-Class: rogue 6
-DefensiveAbilities: evasion, trap sense +2, uncanny dodge
-Group: Gremlin
-SpellsKnown: {}

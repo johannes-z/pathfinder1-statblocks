@@ -1,9 +1,12 @@
 Name: Pod-Spawned Guard Captain
 CR: '8'
 XP: '4800'
+Race: Human
+Class: fighter 9
 Alignment: LE
 Size: Medium
 Type: plant
+SubType: (augmented humanoid)
 Init: '5'
 Senses:
   - low-light vision
@@ -18,10 +21,11 @@ Ref: '4'
 Will: +4 (+2 vs. fear)
 DefensiveAbilities: bravery +2
 Immune: plant traits
-Resist: cold 20
 Speed: 30 ft.
 Melee:
   - +2 longsword +19/+14 (1d8+10/17-20)
+Ranged:
+  - mwk light crossbow +12 (1d8+1/19-20/x2)
 Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: weapon training (heavy blades +2, crossbows +1)
@@ -53,7 +57,6 @@ Skills:
   - Ride +10
   - Sense Motive +3
   - Swim +13
-RacialMods: +5 Disguise
 Languages:
   - Common
 SQ: armor training 2, mimic
@@ -63,9 +66,9 @@ Treasure: >-
   NPC gear (+1 breastplate, heavy steel shield, +2 longsword, mwk light crossbow
   with 20 bolts, other treasure)
 Description_Visual: no text given
+Group: Bodythief
 Source: PFRPG Bestiary 4
 IsTemplate: '1'
-SpecialAbilities: {}
 Description:
   - POD-SPAWNED CREATURE (CR 0, -1, OR -2)
   - >-
@@ -90,8 +93,6 @@ Description:
   - 'Senses: A pod-spawned creature gains low-light vision.'
   - 'Defensive Abilities: A pod-spawned creature gains plant traits.'
   - 'Special Abilities: The pod-spawned creature gains the mimic ability.'
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -101,19 +102,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '5148'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Ranged:
-  - mwk light crossbow +12 (1d8+1/19-20/x2)
-Race: Human
-Class: fighter 9
-SubType: (augmented humanoid)
-Group: Bodythief
-SpellLikeAbilities: {}
-SpellsKnown: {}

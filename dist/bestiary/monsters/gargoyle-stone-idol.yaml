@@ -8,7 +8,6 @@ Init: '2'
 Senses:
   - darkvision 60 ft., low-light vision
   - Perception +0
-Aura: stony mind (30 ft.)
 AC: 20, touch 12, flat-footed 18
 AC_Mods: (+2 Dex, +8 natural)
 HP: '47'
@@ -17,6 +16,7 @@ Saves: Fort +1, Ref +3, Will +1
 Fort: '1'
 Ref: '3'
 Will: '1'
+DefensiveAbilities: rejuvenation
 DR: 10/adamantine
 Immune: construct traits (+20 hp), magic
 Speed: 30 ft.
@@ -27,12 +27,11 @@ Reach: 5 ft.
 SpecialAttacks: >-
   breath weapon (30-ft. cone, 4d6 fire damage and see below, Reflex DC 14 half,
   usable every 1d4 rounds)
-SpellLikeAbilities: {}
 AbilityScores:
   - 19
   - 14
-  - —
-  - —
+  - null
+  - null
   - 11
   - 7
 BaseAtk: '5'
@@ -49,7 +48,37 @@ Description_Visual: This crouching horned and winged automaton appears to be car
 Group: Stone Idol
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A stone idol is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against the creature, as noted below. A transmute rock to mud
+      spell slows a stone idol (as the slow spell) for 2d6 rounds, with no
+      saving throw, while transmute mud to rock heals all of its lost hit
+      points. A stone to flesh spell does not actually change the stone idol's
+      structure but negates its damage reduction and immunity to magic for 1
+      full round. A disintegrate spell deals +50% damage to a stone idol. A
+      chaos hammer, holy smite, order's wrath, or unholy blight spell deals 1d4
+      points of damage per two caster levels to a stone idol if the creator's
+      alignment matches one of the aforementioned spells.
+  - name: Rejuvenation (Su)
+    description: >-
+      Unless a stone idol's main body is shattered into small fragments and
+      scattered to the winds, the creature reforms itself at full strength in
+      1d4+2 days.
+  - name: Site Bound (Ex)
+    description: >-
+      A stone idol cannot travel more than 200 feet from a central point
+      designated by its creator. Once this point is selected, it can never be
+      changed. A stone idol taken outside the area ceases functioning until it
+      is brought back into the area.
+  - name: Breath Weapon (Su)
+    description: >-
+      The stone gargoyle's breath weapon is a cone of superheated steam and
+      water. Creatures of an alignment opposite that of the cleric that created
+      the stone gargoyle are also sickened 1d4+3 rounds if they fail their save.
+      The save DC is Constitution-based and includes a +2 racial bonus.
 Description:
   - >-
     Stone gargoyles stand 7 feet tall and weigh about 600 pounds. Though they
@@ -75,14 +104,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '5072'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-DefensiveAbilities: rejuvenation
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

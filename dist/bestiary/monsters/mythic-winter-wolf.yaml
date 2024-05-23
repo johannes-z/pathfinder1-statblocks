@@ -4,6 +4,7 @@ XP: '2400'
 Alignment: NE
 Size: Large
 Type: magical beast
+SubType: (cold, mythic)
 Init: '5'
 Senses:
   - darkvision 60 ft., low-light vision, scent
@@ -16,11 +17,18 @@ Saves: Fort +9, Ref +6, Will +3
 Fort: '9'
 Ref: '6'
 Will: '3'
+DR: 5/epic
+Immune: cold
+Weaknesses: vulnerable to fire
 Speed: 50 ft.
 Melee:
   - bite +11 (1d8+9 plus 1d6 bleed and 1d6 cold and trip)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: >-
+  bleed (1d6), breath weapon (15-ft. cone, 6d6 cold and slow for 2 rounds,
+  Reflex DC 17 half, usable every 1d4 rounds), lingering breath (2d6 cold, 2
+  rounds), mythic power (2/day, surge +1d6)
 AbilityScores:
   - 22
   - 13
@@ -47,6 +55,7 @@ Environment: cold forests and plains
 Organization: solitary, pair, or pack (6-11)
 Treasure: standard
 Description_Visual: This giant wolf 's fur is so white it's almost blinding to behold.
+Group: Worg
 Source: Mythic Adventures
 IsTemplate: '0'
 Description:
@@ -62,25 +71,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Worg
 id: '4901'
 UniqueMonster: '0'
 MR: '2'
 Mythic: '1'
 MT: '0'
-SubType: (cold, mythic)
-DR: 5/epic
-Immune: cold
-Weaknesses: vulnerable to fire
-SpecialAttacks: >-
-  bleed (1d6), breath weapon (15-ft. cone, 6d6 cold and slow for 2 rounds,
-  Reflex DC 17 half, usable every 1d4 rounds), lingering breath (2d6 cold, 2
-  rounds), mythic power (2/day, surge +1d6)
-Group: Worg
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

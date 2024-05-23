@@ -1,0 +1,83 @@
+Name: Morlock Creeper
+CR: '4'
+XP: '1200'
+Race: Morlock
+Class: rogue 3
+MonsterSource: Pathfinder RPG Bestiary 209
+Alignment: CE
+Size: Medium
+Type: monstrous humanoid
+Init: '10'
+Senses:
+  - darkvision 120 ft., scent
+  - Perception +9
+AC: 17, touch 16, flat-footed 11
+AC_Mods: (+6 Dex, +1 natural)
+HP: '50'
+HD: (6 HD; 3d10+3d8+21)
+Saves: Fort +5, Ref +14, Will +6
+Fort: '5'
+Ref: '14'
+Will: '6'
+DefensiveAbilities: evasion, trap sense +1
+Immune: disease, poison
+Weaknesses: light blindness
+Speed: 40 ft., climb 30 ft.
+Melee:
+  - mwk club +12 (1d6+3), bite +6 (1d4+1)
+  - heavy pick +8 (1d6+3/x4)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: leap attack, sneak attack +3d6, swarming
+AbilityScores:
+  - 16
+  - 23
+  - 17
+  - 9
+  - 14
+  - 4
+BaseAtk: '5'
+CMB: '8'
+CMD: '24'
+Feats:
+  - Blind-Fight
+  - Improved Initiative
+  - Lightning Reflexes
+  - Weapon Finesse
+Skills:
+  - Acrobatics +23 (+27 when jumping)
+  - Climb +34
+  - Disable Device +13
+  - Perception +9
+  - Sleight of Hand +15
+  - Stealth +15 (+19 in caverns)
+Languages:
+  - Undercommon
+SQ: expert climber, rogue talents (finesse rogue), trapfinding +1
+Source: The Emerald Spire
+IsTemplate: '0'
+BeforeCombat: The morlock hides until it can sneak attack.
+DuringCombat: >-
+  At the morlock creeper's command, it and the other morlocks strike and fall
+  back constantly, trying to draw targets into traps or vulnerable positions. If
+  it's not fighting in darkness, a creeper uses an oil of darkness.
+Morale: >-
+  If reduced to 10 hit points or fewer, the creeper breaks from combat and flees
+  to seek the aid of the nearest ally.
+Gear: oil of darkness
+OtherGear: heavy pick, mwk club
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '1'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '6121'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

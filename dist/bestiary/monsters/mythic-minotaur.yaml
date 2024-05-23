@@ -4,6 +4,7 @@ XP: '2400'
 Alignment: CE
 Size: Large
 Type: monstrous humanoid
+SubType: (mythic)
 Init: '0'
 Senses:
   - darkvision 60 ft.
@@ -17,6 +18,8 @@ Fort: '6'
 Ref: '5'
 Will: '5'
 DefensiveAbilities: natural cunning
+DR: 5/epic
+SR: '17'
 Speed: 30 ft.
 Melee:
   - mwk greataxe +12/+7 (3d6+7/x3), gore +11 (1d6+2)
@@ -46,15 +49,40 @@ Skills:
 RacialMods: +4 Perception, +4 Survival
 Languages:
   - Giant
+SQ: maze mastery
 Environment: temperate ruins or underground
 Organization: solitary, pair, or gang (3-4)
 Treasure: standard (mwk greataxe, other treasure)
 Description_Visual: >-
   With eyes blazing red and magical runes glowing on its horns, this mighty
   beast has the body of a man and the head of a bull.
+Group: Minotaur
 Source: Mythic Adventures
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Maze Mastery (Su)
+    description: >-
+      A mythic minotaur can designate an area no greater than 100 feet on a side
+      (typically a maze, underground labyrinth, or other confusing structure) as
+      its personal lair. As a move action, the minotaur can teleport from one
+      point in its lair to any other point in its lair, as if using greater
+      teleport. In addition, whenever the minotaur must make a saving throw
+      while inside its lair, it can roll twice and take the higher result. A
+      mythic minotaur can change its lair once per week. A minotaur can share
+      its lair with other creatures (including other minotaurs or mythic
+      minotaurs) without interfering with this ability.
+  - name: Natural Cunning (Ex)
+    description: >-
+      Although a mythic minotaur is not especially intelligent, it possesses
+      innate cunning and logical ability. This gives it immunity to maze spells
+      and prevents it from ever becoming lost. Further, it is never caught
+      flat-footed.
+  - name: Oubliette (Su)
+    description: >-
+      Whenever a mythic minotaur hits a creature with its gore attack as part of
+      a powerful charge, the target must succeed at a DC 15 Will save or be sent
+      into an extradimensional prison, as the maze spell but lasting for 1d4+1
+      rounds. The save DC is Wisdom-based and includes a +2 racial modifier.
 Description:
   - >-
     A mythic minotaur is but one or two generations removed from the original
@@ -76,21 +104,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Minotaur
 id: '4888'
 UniqueMonster: '0'
 MR: '2'
 Mythic: '1'
 MT: '0'
-SubType: (mythic)
-DR: 5/epic
-SR: '17'
-SQ: maze mastery
-Group: Minotaur
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

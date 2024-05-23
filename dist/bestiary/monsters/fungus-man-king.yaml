@@ -1,6 +1,7 @@
 Name: Fungus Man King
 CR: '4'
 XP: '1200'
+Race: Male giant fungus man
 Alignment: 'N'
 Size: Medium
 Type: plant
@@ -51,9 +52,18 @@ Description_Visual: >-
   These small, non-aggressive plant-men appear to be mobile toadstools, with
   brightly colored caps, stubby arms and thick, trunk-like legs. They do not
   speak, but they hold up their hands in a sign of peace or supplication.
+Group: Fungus Man
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Spore Cloud (Ex)
+    description: >-
+      Once per round as a standard action, a fungus man can release a cloud of
+      noxious spores. All living creatures within 5 ft. must make a DC 16
+      Fortitude save or become nauseated for 1d4+1 rounds. The save DC is
+      Constitution-based. This is a poison effect, and once a creature
+      successfully saves it is immune to the spore cloud of that particular
+      fungus man for 24 hours.
 Description:
   - >-
     Fungus men are an extremely peaceful and easy-going race of intelligent
@@ -75,8 +85,6 @@ Description:
     together in any societal fashion.
   - Credit
   - Originally appearing in Rappan Athuk Reloaded (© Necromancer Games, 2006)
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -86,15 +94,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '4948'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Race: Male giant fungus man
-Group: Fungus Man
-SpellLikeAbilities: {}
-SpellsKnown: {}

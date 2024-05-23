@@ -30,8 +30,18 @@ Melee:
   - 2 claws +16 (2d6+3), 2 wings +10 (2d6+1)
 Space: 5 ft.
 Reach: 5 ft.
-SpecialAttacks: stunning strike
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +12)
+  values:
+    - label: Constant
+      value: detect magic, see invisibility, speak with animals
+    - label: At Will
+      value: >-
+        aid, blur (self only), command (DC 14), detect magic, dimension door,
+        dispel magic, gust of wind (DC 15), hold person (DC 16), light, magic
+        circle against evil (self only)
+    - label: 3/day
+      value: lightning bolt (DC 16), empowered magic missile
 AbilityScores:
   - 17
   - 23
@@ -60,6 +70,7 @@ Skills:
   - Sense Motive +15
   - Spellcraft +11
   - Stealth +18
+RacialMods: Perception +8
 Languages:
   - Celestial
   - Draconic
@@ -76,7 +87,12 @@ Description_Visual: >-
 Group: Agathion
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: True Seeing (Su)
+    description: >-
+      This ability works like the spell (caster level 14th), except it only
+      affects the avoral, the avoral must concentrate for 1 full round before it
+      takes effect, and it remains as long as the avoral concentrates.
 Description:
   - >-
     Avorals are generally human-shaped, but their upper limbs are great wings
@@ -107,12 +123,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
+LinkText: Agathion, Avoral
 id: '1086'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-RacialMods: Perception +8
-LinkText: Agathion, Avoral
-SpellsKnown: {}

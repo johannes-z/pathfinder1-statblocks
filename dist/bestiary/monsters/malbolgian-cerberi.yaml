@@ -47,7 +47,6 @@ Skills:
   - Sense Motive +4
   - Stealth +14
   - Survival +19
-RacialMods: +4 Survival when tracking undead
 Languages:
   - Infernal (cannot speak)
 Environment: any (Hell)
@@ -60,9 +59,12 @@ Description_Visual: >-
   thing of exposed bone and charred musculature. From its three fanged mouths
   leap tongues of flame, and crimson saliva leaks from the terror's skeletal
   jaws.
+Group: Cerberi
 Source: AP 28
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: s Jaws (Su)
+    description: Curse-bite; save Fort DC 23; effect forbidden to leave plane.
 Description:
   - >-
     The mythical watchdogs of Hell, cerberi bear the bodies of terrible,
@@ -136,14 +138,8 @@ Swim: '0'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '443'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Cerberi
-SpellLikeAbilities: {}
-SpellsKnown: {}

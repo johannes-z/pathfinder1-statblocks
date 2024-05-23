@@ -1,0 +1,108 @@
+Name: Hellknight
+CR: '5'
+XP: '1600'
+Race: Human
+Class: fighter 5/Hellknight 1
+MonsterSource: 'Pathfinder Adventure Path #27 66'
+Alignment: LN
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '1'
+Senses:
+  - Perception +10
+AC: 20, touch 11, flat-footed 19
+AC_Mods: (+9 armor, +1 Dex)
+HP: '62'
+HD: (6d10+29)
+Saves: Fort +10, Ref +2, Will +4; +1 vs. fear
+Fort: '10'
+Ref: '2'
+Will: '4'
+Save_Mods: +1 vs. fear
+DefensiveAbilities: bravery +1
+Speed: 20 ft.
+Melee:
+  - +1 longsword +12/+7 (1d8+7/19-20)
+Ranged:
+  - mwk composite longbow +8/+3 (1d8+3/x3)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: >-
+  smite chaos 1/day (+1 attack, damage, and AC),  weapon training (heavy blades
+  +1)
+SpellLikeAbilities:
+  header: Hellknight Spell-Like Abilities (CL 1st; concentration +1)
+  values:
+    - label: At will
+      value: detect chaos
+AbilityScores:
+  - 16
+  - 12
+  - 16
+  - 8
+  - 13
+  - 10
+BaseAtk: '5'
+CMB: '8'
+CMD: '19'
+Feats:
+  - Cleave
+  - Great Fortitude
+  - Iron Will
+  - Power Attack
+  - Toughness
+  - Weapon Focus (longsword)
+  - Weapon Specialization (longsword)
+Skills:
+  - Intimidate +9
+  - Perception +10
+Languages:
+  - Common
+SQ: aura of law, armor training 1
+Source: AP 30
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Aura of Law (Ex)
+    description: >-
+      The power of a Hellknight's aura of law (see the detect law spell) is
+      equal to his Hellknight level.
+  - name: Detect Chaos (Sp)
+    description: >-
+      At will, a Hellknight can use detect chaos, as the spell, in the same
+      manner as a paladin using her detect evil ability.
+  - name: Smite Chaos (Su)
+    description: >-
+      As a swift action once per day, a Hellknight can smite chaos. This grants
+      the Hellknight a bonus to hit a chaotic target equal to his Wisdom
+      modifier (if any) and adds his Hellknight level to all damage rolls
+      against chaotic targets. If the target is an outsider with the chaotic
+      subtype, a chaotic-aligned aberration, or a fey creature, the bonus to
+      damage increases to 2 points of damage per class level the Hellknight
+      possesses. Regardless of the target, smite chaos attacks automatically
+      bypass any DR the chaotic creature might possess. In addition, while smite
+      chaos is in effect, the Hellknight gains a deflection bonus equal to his
+      Wisdom modifier (if any) to his AC against attacks made by the target of
+      the smite. The smite effect remains until the target is dead or the next
+      time the Hellknight rests and regains the use of this ability.
+DuringCombat: >-
+  If a chaotic target is obvious, a Hellknight generally attacks it instead of
+  other targets. Hellknights work together to flank foes and support each other,
+  favoring melee combat over ranged if a choice is possible.
+Morale: Hellknights fight to the death.
+Gear: full plate, +1 longsword, masterwork composite longbow (+3 Str) with 20 arrows
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '0'
+AgeCategory: adult
+CompanionFamiliarLink: '0'
+id: '486'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

@@ -1,0 +1,80 @@
+Name: Rope Golem
+CR: '5'
+XP: '1600'
+Race: Rope Golem
+MonsterSource: Tome of Horrors Complete 340
+Alignment: 'N'
+Size: Medium
+Type: construct
+Init: '0'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +0
+AC: 17, touch 10, flat-footed 17
+AC_Mods: (+7 natural)
+HP: '53'
+HD: (6d10+20)
+Saves: Fort +2, Ref +2, Will +2
+Fort: '2'
+Ref: '2'
+Will: '2'
+DR: 5/adamantine and slashing
+Immune: construct traits, magic
+Weaknesses: vulnerable to fire
+Speed: 30 ft.
+Melee:
+  - 2 slams +9 (2d6+3 plus grab)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: constrict 1d8+3, strangle
+AbilityScores:
+  - 17
+  - 10
+  - null
+  - null
+  - 11
+  - 1
+BaseAtk: '6'
+CMB: +9 (+13 grapple)
+CMD: '19'
+Source: AP 98
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Immunity to Magic (Ex)
+    description: >-
+      A rope golem is immune to any spell or spell-like ability that allows
+      spell resistance. In addition, certain spells and effects function
+      differently against the creature. Disintegrate affects it normally. Rope
+      trick or animate rope deals 1d6 points of damage per 3 caster levels.
+      Mending heals the rope golem 2d6 hit points. It is not immune to any
+      fire-based effects or spells at all.
+  - name: Strangle (Ex)
+    description: >-
+      A rope golem has an unerring talent for seizing its victims by the neck. A
+      creature that is grappled by a rope golem cannot speak or cast spells with
+      verbal components.
+DuringCombat: >-
+  The rope golem attacks the closest target each round; if two targets are
+  equally close, it alternates its slams between those foes. Once it grapples a
+  foe, it continues to constrict and strangle that foe while using its second
+  slam to attack nearby foes (though it cannot grapple a second foe). If no
+  secondary target is in reach, it uses its second slam attack against the poor
+  victim it's currently strangling.
+Morale: >-
+  The rope golem fights until destroyed, but does not pursue foes from this
+  room.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '7143'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

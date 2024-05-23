@@ -21,6 +21,7 @@ DefensiveAbilities: elusive
 Immune: cold
 Resist: fire 30
 Speed: 10 ft., swim 50 ft.
+Speed_Mod: surge 400 ft.
 Melee:
   - bite +33 (6d10+14/19-20 plus grab), tail slap +33 (6d8+14/19-20 plus grab)
 Space: 20 ft.
@@ -61,9 +62,29 @@ Treasure: triple
 Description_Visual: >-
   This enormous, water-dwelling serpent has bright, bulging eyes and rounded
   jaws filled with long, jagged teeth.
+Group: Sea Serpent
 Source: PFRPG Bestiary 3
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Elusive (Su)
+    description: >-
+      As a full-round action while in water, a deep sea serpent can move up to
+      its run speed (200 feet) without leaving any trace of its passing
+      (identical in effect to pass without trace). An elusive deep sea serpent
+      gains a +40 circumstance bonus on its Stealth check. In addition, except
+      when in combat, a sea serpent is considered to be under the effects of a
+      nondetection spell. Both of these effects function at caster level 20th
+      and cannot be dispelled.
+  - name: Powerful Tail (Ex)
+    description: >-
+      A deep sea serpent's tail slap is always a primary attack. When a deep sea
+      serpent deals damage to an object with its tail slap or via constrict
+      damage, it ignores the first 10 points of hardness that object possesses.
+  - name: Surge (Ex)
+    description: >-
+      A deep sea serpent can surge forward as a full-round action at a speed of
+      400 feet. It must move in a straight line, but does not provoke attacks of
+      opportunity while surging.
 Description:
   - >-
     An enormous monstrosity that makes its home in the darkest depths of the
@@ -92,18 +113,9 @@ Climb: '0'
 Burrow: '0'
 Swim: '1'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Sea Serpent
 id: '2185'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Speed_Mod: surge 400 ft.
-Group: Sea Serpent
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -43,6 +43,7 @@ Skills:
   - Perception +7
 Languages:
   - Giant
+SQ: haste, spider climb
 Environment: underground
 Organization: solitary or gang (2-4)
 Treasure: standard
@@ -51,8 +52,27 @@ Description_Visual: >-
   blackish-gray and its eyes are yellow. It has long, upright ears, almost elven
   in nature. Its arms and legs are long and slender and end in wicked-looking
   claws.
+Group: Troll
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Haste (Su)
+    description: >-
+      A cave troll is affected by a permanent haste spell (caster level 8th).
+      This grants the cave troll a +1 bonus on attack rolls, and a +1 dodge
+      bonus to AC and Reflex saves (both already figured into the stat block
+      above). Any condition that makes the cave troll lose its Dexterity bonus
+      to AC also makes it lose its dodge bonus. This is an inherent bonus and
+      cannot be dispelled or negated. When making a full attack action, a cave
+      troll can make one extra attack with any weapon it is holding or one extra
+      claw attack (if using natural weapons). The extra attack is at the cave
+      troll's full attack bonus.
+  - name: Spider Climb (Su)
+    description: >-
+      A cave troll can climb sheer surfaces as though by a spider climb spell
+      (caster level 4th). This ability is always active, but can be negated or
+      dispelled. The cave troll can restart it again on its next turn as a free
+      action.
 Description:
   - >-
     Cave trolls are smaller cousins of the normal troll and are found in all
@@ -97,15 +117,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Troll
 id: '3119'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SQ: haste, spider climb
-Group: Troll
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

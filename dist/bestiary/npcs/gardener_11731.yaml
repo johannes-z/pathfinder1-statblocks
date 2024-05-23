@@ -1,0 +1,117 @@
+Name: Gardener
+CR: '14'
+XP: '38400'
+Race: Wyrwood
+Class: druid 15
+MonsterSource: Pathfinder RPG Bestiary 4 280
+Alignment: NG
+Size: Small
+Type: construct
+Init: '4'
+Senses:
+  - darkvision 60 ft., low-light vision
+  - Perception +16
+AC: 25, touch 15, flat-footed 22
+AC_Mods: (+8 armor, +3 Dex, +1 insight, +2 natural, +1 size)
+HP: '111'
+HD: (15d8+40)
+HP_Mods: fast healing 2
+Saves: >-
+  Fort +9, Ref +11, Will +13; +4 vs. fey and plant-targeted effects, +4 vs.
+  negative energy and death effects
+Fort: '9'
+Ref: '11'
+Will: '13'
+Save_Mods: >-
+  +4 vs. fey and plant-targeted effects, +4 vs. negative energy and death
+  effects
+Immune: construct traits
+Speed: 30 ft. (20 ft. in armor)
+Melee:
+  - +1 merciful scythe +15/+10/+5 (1d6+4 nonlethal/x4 plus 1d6 nonlethal)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: wild shape 6/day
+SpellLikeAbilities:
+  header: Domain Spell-Like Abilities (CL 15th; concentration +19)
+  values:
+    - label: 15/day
+      value: lightning lord (15 bolts/day)
+SpellsPrepared: >-
+  Druid Spells Prepared (CL 15th; concentration +19)   8th-sunburstD (DC 22),
+  word of recall   7th-control weatherD, fire storm (DC 21), sunbeam (DC 21)  
+  6th-control windsD (DC 20), greater dispel magic, stone tell, wall of stone  
+  5th-commune with nature, ice stormD, insect plague, stoneskin, wall of
+  thorns   4th-air walk, blightD (DC 18), command plants (DC 18), freedom of
+  movement, rusting grasp, thorn bodyAPG   3rd-call lightningD (DC 17),
+  daylight, neutralize poison, protection from energy, stone shape, wind wall  
+  2nd-fog cloudD, gust of wind (DC 16), hold animal (DC 16), resist energy, warp
+  wood (DC 16), wood shape (DC 16)   1st-entangle (DC 15), goodberryD, obscuring
+  mist, pass without trace, produce flame, speak with animals   0 (at
+  will)-detect magic, detect poison, light, mending
+SpellDomains: Weather (Seasons subdomain)
+AbilityScores:
+  - 14
+  - 18
+  - null
+  - 12
+  - 19
+  - 10
+BaseAtk: '11'
+CMB: '12'
+CMD: '27'
+Feats:
+  - Augment Summoning
+  - Extend Spell
+  - Lightning Reflexes
+  - Moonlight Summons
+  - Natural Spell
+  - Spell Focus (conjuration)
+  - Toughness
+  - Wild Speech
+Skills:
+  - Acrobatics +1 (-3 when jumping)
+  - Climb +10
+  - Handle Animal +11
+  - Heal +16
+  - Knowledge (geography) +10
+  - Knowledge (nature) +20
+  - Perception +16
+  - Spellcraft +18
+  - Survival +16
+Languages:
+  - Azlanti
+  - Druidic
+  - Elven
+SQ: >-
+  a thousand faces, animating heart, embedded ioun stones, nature bond (Weather
+  domain [SeasonsAPG subdomain]), nature sense, timeless body, trackless step,
+  untouched by the seasons, wild empathy +15, woodland stride
+Source: AP 126
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Embedded Ioun Stones (Ex)
+    description: >-
+      Gardener's various ioun stones are embedded within its body. This prevents
+      the ioun stones from being sundered or otherwise stolen unless Gardener is
+      slain.
+Gear: potion of displacement, potion of shield of faith
+OtherGear: >-
+  +2 ironwood breastplate, +1 merciful scythe, amulet of natural armor +2,
+  amethyst crescent ioun stone, clear spindle ioun stone, deep red sphere ioun
+  stone, dusty rose prism ioun stone, incandescent blue sphere ioun stone
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '11731'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

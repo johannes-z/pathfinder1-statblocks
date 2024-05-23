@@ -4,6 +4,7 @@ XP: '1600'
 Alignment: 'N'
 Size: Large
 Type: magical beast
+SubType: (mythic)
 Init: '2'
 Senses:
   - darkvision 60 ft., low-light vision, scent
@@ -16,6 +17,7 @@ Saves: Fort +7, Ref +6, Will +4
 Fort: '7'
 Ref: '6'
 Will: '4'
+DR: 5/epic
 Speed: 30 ft., fly 100 ft. (average)
 Melee:
   - bite +8 (1d6+4 plus grab), 2 talons +10 (1d6+4)
@@ -50,8 +52,16 @@ Treasure: incidental
 Description_Visual: >-
   This majestic beast combines the features of a sleek black eagle and the
   strong, lean musculature of a panther.
+Group: Griffon
 Source: Mythic Adventures
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Power Dive (Ex)
+    description: >-
+      A flying mythic griffon can move up to four times its speed when it
+      charges. If its charge begins 40 or more feet above its target, its first
+      attack deals double damage. It must be flying downward at an angle of 45
+      degrees or steeper to use this ability.
 Description:
   - >-
     A mythic griffon is a superior specimen-perhaps augmented by magic, blessed
@@ -88,19 +98,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Griffon
 id: '4880'
 UniqueMonster: '0'
 MR: '2'
 Mythic: '1'
 MT: '0'
-SubType: (mythic)
-DR: 5/epic
-Group: Griffon
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

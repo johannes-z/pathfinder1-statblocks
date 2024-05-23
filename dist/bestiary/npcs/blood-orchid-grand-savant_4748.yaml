@@ -1,0 +1,124 @@
+Name: Blood Orchid Grand Savant
+CR: '9'
+XP: '6400'
+Race: Blood orchid
+Class: sorcerer 7
+Alignment: LE
+Size: Huge
+Type: aberration
+Init: '5'
+Senses:
+  - all-around vision, darkvision 60 ft.
+  - Perception +20
+AC: 22, touch 12, flat-footed 20
+AC_Mods: (+2 deflection, +1 Dex, +1 dodge, +10 natural, -2 size)
+HP: '119'
+HD: (7d8+7d6+63)
+Saves: Fort +8, Ref +7, Will +15
+Fort: '8'
+Ref: '7'
+Will: '15'
+Immune: sonic
+Resist: acid 10, cold 10, electricity 10, fire 10
+Speed: 5 ft., fly 30 ft. (good)
+Melee:
+  - 6 tentacles +14 (1d3+6 plus grab plus poison)
+Space: 10 ft.
+Reach: 5 ft.
+SpecialAttacks: blood drain
+SpellLikeAbilities:
+  header: 'Bloodline Spell-Like Abilities (CL 7th; ranged touch +8):'
+  values:
+    - label: 8/day
+      value: acidic ray (1d6+1)
+SpellsKnown:
+  header: 'Spells Known (CL 7th; melee touch +13, ranged touch +8):'
+  values:
+    - label: 3rd (5/day)
+      value: lightning bolt (DC 18), vampiric touch
+    - label: 2nd (7/day)
+      value: cure moderate wounds, false life, scorching ray, touch of idiocy
+    - label: 1st (8/day)
+      value: >-
+        burning hands, color spray (DC 16), cure light wounds, mage armor, magic
+        missile, shield
+    - label: 0 (at will)
+      value: daze, dancing lights, detect magic, flare, light, mage hand, resistance
+AbilityScores:
+  - 23
+  - 13
+  - 18
+  - 13
+  - 16
+  - 20
+BaseAtk: '8'
+CMB: +15 (+19 grapple)
+CMD: '26'
+Feats:
+  - Arcane Strike
+  - Combat CastingB
+  - Dodge
+  - Eschew MaterialsB
+  - Extend Spell
+  - Improved Initiative
+  - Iron Will
+  - Lightning Reflexes
+  - Weapon Focus (tentacle)
+Skills:
+  - Fly +7
+  - Intimidate +14
+  - Knowledge (arcana) +14
+  - Knowledge (dungeoneering) +11
+  - Perception +20
+  - Spellcraft +12
+  - Stealth +8
+RacialMods: +4 Perception
+SQ: telepathic link
+Source: Tome of Horrors 4
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Around Vision (Ex)
+    description: A blood orchid sees in all directions at once. It cannot be flanked.
+  - name: Blood Drain (Ex)
+    description: >-
+      On a successful grapple check with two or more tentacles against a single
+      foe a blood orchid can pull the grappled creature to the mouth on its
+      underside as a free action that does not provoke an attack of opportunity.
+      The mouth latches on and drains blood from the victim. Each round it
+      maintains its grapple, the blood orchid automatically deals 1d4 points of
+      bite damage and 1 point of Constitution damage as it drains its victim's
+      blood.
+  - name: Poison (Ex)
+    description: >-
+      Tentacle-injury; save DC 21 Fort; frequency 1/ round for 4 rounds; effect
+      unconsciousness; cure 1 save. Spells: The blood orchid savant replaces its
+      bloodline bonus spells with the following: cure light wounds (3rd), cure
+      moderate wounds (5th), cure serious wounds (7th). Also, blood orchid
+      savants do not cast spells in the same way most creatures do. Their spells
+      require no verbal or material components to be cast, though somatic
+      components (tentacle writhing) is still required.
+  - name: Telepathic Bond (Ex)
+    description: >-
+      Blood orchids communicate through a non-magical telepathic bond. They can
+      sense emotions in other blood orchids at a distance of 100 ft. or less,
+      and emotions in other creatures at a range of five feet. They can
+      communicate mentally with each other through full telepathy at a distance
+      of 20 ft. or less, and can share knowledge very rapidly when touching each
+      other.
+Bloodline: Aberrant
+Gear: ring of protection +2
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4748'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

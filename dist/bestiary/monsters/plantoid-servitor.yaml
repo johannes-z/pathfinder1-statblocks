@@ -4,7 +4,6 @@ XP: '600'
 Alignment: 'N'
 Size: Medium
 Type: plant
-SubType: (extraplanar)
 Init: '0'
 Senses:
   - low-light vision
@@ -41,16 +40,33 @@ Feats:
 Skills:
   - Perception +4
   - Stealth +5
-SQ: alien plant
 Environment: any
 Organization: solitary, gang (2-5)
 Treasure: special (see description)
 Description_Visual: >-
   These shambling humanoids resemble green-skinned zombies with glowing red
   eyes, their heads draped with moss.
+Group: Plantoid
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Grab and Bite (Ex)
+    description: >-
+      A plantoid servitor that succeeds on a grapple check can make a bite
+      attack against its opponent as an immediate action. This attack uses the
+      plantoid servitor's full attack bonus and deals 1d3+2 damage.
+  - name: Poison (Ex)
+    description: >-
+      Transformative Poison: Bite-injury; save DC 13 Fort; frequency 1/round for
+      4 rounds; effect special; cure 1 save. On the first failed save, the
+      victim is paralyzed for 1d6 rounds. On the second failed saving throw,
+      moss rapidly grows on all skin surfaces. The victim gets a +2 bonus on the
+      third saving throw, but if the third save fails the victim becomes a
+      plantoid servitor under the control of the nearest plantoid. There is a
+      25% chance that the victim becomes a new plantoid in a hideous
+      transformation that takes 24 hours. If the victim succeeds on his third
+      saving throw, the moss that grew on him withers and dies and falls away
+      within a few minutes. The save DC is Constiution-based.
 Description:
   - >-
     Plantoid servitors are humans (and their ilk) who have fallen prey to a
@@ -68,8 +84,7 @@ Description:
     previous life.
   - Credit
   - Originally appearing in Rappan Athuk (© Frog God Games, 2012)
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
+Gear: special (see description)
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -79,14 +94,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '5035'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Plantoid
-Gear: special (see description)
-SpellLikeAbilities: {}
-SpellsKnown: {}

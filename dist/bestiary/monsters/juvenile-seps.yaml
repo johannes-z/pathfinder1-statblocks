@@ -16,8 +16,6 @@ Saves: Fort +5, Ref +4, Will +2
 Fort: '5'
 Ref: '4'
 Will: '2'
-DefensiveAbilities: acid blood
-Immune: acid, poison
 Speed: 20 ft.
 Melee:
   - bite +4 (1d6-1 plus poison)
@@ -46,15 +44,18 @@ Environment: temperate or warm deserts or forests
 Organization: solitary or nest (2-5)
 Treasure: incidental (acid-proof items)
 Description_Visual: This venomous snake is heavily armored and has unusually large fangs.
+Group: Seps
 Source: PFRPG Bestiary 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 13; frequency 1/round for 10 rounds; effect 1d4
+      acid and 1d2 Con damage; cure 2 consecutive saves.
 Description:
   - >-
     Sepses are born live. A hatchling soon grows up to 7 feet long and weighs 10
     pounds.
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -64,14 +65,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '5348'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Seps
-SpellLikeAbilities: {}
-SpellsKnown: {}

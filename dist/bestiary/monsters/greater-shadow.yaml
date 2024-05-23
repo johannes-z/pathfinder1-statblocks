@@ -26,9 +26,9 @@ Space: 5 ft.
 Reach: 5 ft.
 SpecialAttacks: create spawn (as per shadow), strength damage
 AbilityScores:
-  - —
+  - null
   - 20
-  - —
+  - null
   - 6
   - 12
   - 15
@@ -53,9 +53,15 @@ Treasure: standard
 Description_Visual: >-
   This shadowy figure sways and moves with an erratic grace, as if lit by an
   unseen fire.
+Group: Shadow
 Source: PFRPG Bestiary
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Strength Damage (Su)
+    description: >-
+      A greater shadow's touch deals 1d8 points of Strength damage to a living
+      creature. This is a negative energy effect. A creature dies if this
+      Strength damage equals or exceeds its actual Strength score.
 Description:
   - >-
     Greater shadows are those undead shadows that have come to be particularly
@@ -73,13 +79,9 @@ Swim: '0'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 LinkText: Shadow, Greater
 id: '315'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Shadow
-SpellLikeAbilities: {}
-SpellsKnown: {}

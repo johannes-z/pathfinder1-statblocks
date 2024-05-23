@@ -31,7 +31,20 @@ Melee:
   - bite +25 (3d6+9 plus burn), 2 talons +25 (2d8+9/19-20 plus burn plus grab)
 Space: 20 ft.
 Reach: 20 ft.
-SpellLikeAbilities: {}
+SpecialAttacks: burn (2d6, DC 25), incinerate, mythic power (7/day, surge +1d10)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +24)
+  values:
+    - label: Constant
+      value: detect magic, detect poison, see invisibility, true seeing
+    - label: At Will
+      value: >-
+        continual flame, cure critical wounds, greater dispel magic, remove
+        curse, wall of fire
+    - label: 3/day
+      value: >-
+        fire storm (DC 24), greater restoration, heal, mass cure critical
+        wounds, quickened wall of fire
 AbilityScores:
   - 29
   - 27
@@ -68,13 +81,44 @@ Languages:
   - Celestial
   - Common
   - Ignan
+SQ: death throes, mirror dodge (see page 18), parry spell (see page 30)
 Environment: warm desert and hills
 Organization: solitary
 Treasure: standard
 Description_Visual: This flaming bird burns as brightly as the sun.
+Group: Phoenix
 Source: Mythic Adventures
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Death Throes (Su)
+    description: >-
+      When killed, a mythic phoenix explodes in a blinding flash that deals 75
+      points of damage (half of this is fire damage, the other half is holy
+      damage) to anything within 50 feet (Reflex DC 25 for half). The save DC is
+      Constitution-based.
+  - name: Incinerate (Su)
+    description: >-
+      Any creature killed by fire damage from a mythic phoenix is entirely
+      destroyed, leaving behind only a trace of fine ash. The creature's magical
+      equipment is unaffected. Self-Resurrection (Su) Unless its body is
+      completely destroyed by an effect such as disintegrate, a slain mythic
+      phoenix remains dead for only 1d4 rounds, emerging fully healed from its
+      remains as if brought back to life via resurrection. A phoenix can
+      self-resurrect only once per year. If a phoenix dies a second time before
+      that year passes, its death is permanent. A mythic phoenix that dies
+      within the area of a mythic desecrate spell cannot self-resurrect until
+      the spell ends, at which point the phoenix immediately resurrects. A
+      phoenix brought back to life by other means never gains negative levels as
+      a result.
+  - name: Shroud of Flame (Su)
+    description: >-
+      A mythic phoenix can cause its feathers to burst into fire as a free
+      action. As long as its feathers are burning, any creature within reach
+      must succeed at a DC 25 Reflex save each round to avoid taking 4d6 points
+      of fire damage at the start of its turn. A creature that attacks the
+      phoenix with natural or non-reach melee weapons takes 1d6 points of fire
+      damage (no save) with each successful hit. The save DC is
+      Constitution-based.
 Description:
   - >-
     A mythic phoenix is appointed by the gods to watch over the birth, death,
@@ -90,18 +134,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Phoenix
 id: '4893'
 UniqueMonster: '0'
 MR: '7'
 Mythic: '1'
 MT: '0'
-SpecialAttacks: burn (2d6, DC 25), incinerate, mythic power (7/day, surge +1d10)
-SQ: death throes, mirror dodge (see page 18), parry spell (see page 30)
-Group: Phoenix
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

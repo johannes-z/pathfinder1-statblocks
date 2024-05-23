@@ -1,0 +1,104 @@
+Name: Smuggler
+CR: '7'
+XP: '3200'
+Race: Human
+Class: rogue (smuggler) 8
+MonsterSource: Pirates of the Inner Sea 23
+Alignment: LE
+Size: Medium
+Type: humanoid
+SubType: (human)
+Init: '4'
+Senses:
+  - Perception +11
+AC: 20, touch 15, flat-footed 15
+AC_Mods: (+5 armor, +4 Dex, +1 dodge)
+HP: '63'
+HD: (8d8+24)
+Saves: Fort +5, Ref +11, Will +5
+Fort: '5'
+Ref: '11'
+Will: '5'
+DefensiveAbilities: improved uncanny dodge
+Speed: 30 ft.
+Melee:
+  - +1 short sword +11/+6 (1d6/19-20)
+Ranged:
+  - mwk shortbow +11/+6 (1d6/19-20)
+  - light ballista +11 (3d8/19-20)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: sneak attack +4d6
+SpellLikeAbilities:
+  header: Rogue Spell-Like Abilities (CL 8th, concentration +9)
+  values:
+    - label: 3/day
+      value: detect magic
+    - label: 2/day
+      value: disguise self (DC 12)
+AbilityScores:
+  - 8
+  - 18
+  - 14
+  - 12
+  - 10
+  - 14
+BaseAtk: '6'
+CMB: '5'
+CMD: '20'
+Feats:
+  - Dodge
+  - Iron Will
+  - Exotic Weapon Proficiency (light ballista)
+  - Mobility
+  - Toughness
+  - Weapon Finesse
+Skills:
+  - Acrobatics +15
+  - Bluff +13
+  - Diplomacy +13
+  - Disable Device +15
+  - Disguise +13
+  - Knowledge (engineering) +12
+  - Perception +11
+  - Sense Motive +11
+  - Sleight of Hand +19
+  - Spellcraft +9
+  - Stealth +15
+Languages:
+  - Common
+  - Polyglot
+SQ: >-
+  rogue talents (bleeding attack +4, finesse rogue, major magic, minor magic),
+  smuggler abilities (bribery, conceal item, distraction)
+Source: AP 59
+IsTemplate: '0'
+SpecialAbilities: []
+DuringCombat: >-
+  The smugglers on the roof use the ballistae against intruders&#8211;they can't
+  target foes in area D2, though, so if the PCs move the fight down there or
+  into the floor below, they abandon the siege engines to join the fight.
+  Smugglers in melee combat work together to surround foes and flank, relying on
+  their shortbows only when they can't reach a foe in melee.
+Morale: >-
+  The smugglers are highly trained Chelish agents&#8211; they fight to the
+  death.
+Gear: >-
+  +2 studded leather, +1 short sword, masterwork shortbow with 20 arrows, cloak
+  of resistance +1
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+ClassArchetypes: smuggler
+CompanionFamiliarLink: '0'
+id: '3159'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

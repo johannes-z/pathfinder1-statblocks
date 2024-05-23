@@ -25,21 +25,32 @@ Reach: 5 ft.
 AbilityScores:
   - 14
   - 12
-  - —
-  - —
+  - null
+  - null
   - 11
   - 15
 BaseAtk: '3'
 CMB: '4'
 CMD: 15 (can't be tripped)
+Feats:
+  - Flyby AttackB
+Languages:
+  - Common
 Environment: any
 Organization: solitary, pair, or trio
 Treasure: none
 Description_Visual: >-
   This humanoid head floats silently and ominously, bits of flesh still hanging
   from its face and graying teeth clattering slightly as it bobs in the air.
+Group: Beheaded
 Source: AP 43
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Petrifying Bite (Su)
+    description: >-
+      Creatures bitten by a medusa head must make a DC 14 Fortitude save or turn
+      to stone for 1d4 rounds. Targets immune to poison are immune to this
+      effect. The save DC is Charisma-based.
 Description:
   - >-
     Beheaded are floating skulls or severed heads whose bodies have long since
@@ -85,8 +96,6 @@ Description:
     skull's Cha modifier. This is a sonic mind-affecting fear effect. Whether or
     not the save is successful, an affected creature is immune to the same
     beheaded's scream for 24 hours.
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '1'
@@ -96,18 +105,8 @@ Swim: '0'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 id: '1504'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Feats:
-  - Flyby AttackB
-Languages:
-  - Common
-Group: Beheaded
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

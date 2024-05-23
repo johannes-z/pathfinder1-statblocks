@@ -25,10 +25,11 @@ Melee:
   - slam +16 (2d6+8 plus mummy rot), snakes +10 (1d6+8 plus poison)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: asp storm, writhing snakes
 AbilityScores:
   - 26
   - 10
-  - —
+  - null
   - 8
   - 15
   - 17
@@ -45,6 +46,7 @@ Skills:
   - Intimidate +16
   - Perception +21
   - Stealth +17
+RacialMods: +4 Stealth
 Languages:
   - Common
 Environment: any
@@ -55,9 +57,45 @@ Description_Visual: >-
   powerful fist and wrapped around the creature's arms is a long black snake.
   Several more snakes slither in and out of its bandages and across the
   creature's body.
+Group: Mummy
 Source: Tome of Horrors 4
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Asp Storm (Su)
+    description: >-
+      Once per day, as a standard action, an asp mummy can call down a deluge of
+      poisonous asps. The rain of asps functions as a venomous snake swarm (see
+      below).
+  - name: Despair (Su)
+    description: >-
+      All creatures within a 30-foot radius that see an asp mummy must make a DC
+      18 Will save or be paralyzed by fear for 1d4 rounds. Whether or not the
+      save is successful, that creature cannot be affected again by the same asp
+      mummy's despair ability for one day. This is a paralysis and a
+      mind-affecting fear affect. The save DC is Charisma-based.
+  - name: Mummy Rot (Su)
+    description: >-
+      Curse and disease-slam; save DC 18 Fort; onset 1 minute; frequency 1/day;
+      effect 1d6 Con and 1d6 Cha; cure -. Mummy rot is both a curse and disease
+      and can only be cured if the curse is first removed, at which point the
+      disease can be magically removed. Even after the curse element of mummy
+      rot is lifted, a creature suffering from it cannot recover naturally over
+      time. Anyone casting a conjuration (healing) spell on the afflicted
+      creature must succeed on a DC 20 caster level check, or the spell is
+      wasted and the healing has no effect. Anyone who dies from mummy rot turns
+      to dust and cannot be raised without a resurrection or greater magic. The
+      save DC is Charisma-based.
+  - name: Poison (Ex)
+    description: >-
+      Snake Bite-injury; save DC 20 Fort; frequency 1/round for 6 rounds; effect
+      1d3 Con damage; cure 2 consecutive saves. The save DC is Charisma-based
+      and includes a +2 racial bonus.
+  - name: Writhing Snakes (Ex)
+    description: >-
+      When a creature adjacent to an asp mummy makes a melee attack against it,
+      that creature must succeed on a DC 18 Reflex save or be subjected to the
+      asp mummy's poison as the many snakes slithering in and out of the its
+      bandages spring and bite. The save DC is Charisma-based.
 Description:
   - >-
     Similar in many respects to standard mummies, asp mummies are created to
@@ -78,19 +116,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Mummy
 id: '5012'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: asp storm, writhing snakes
-RacialMods: +4 Stealth
-Group: Mummy
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

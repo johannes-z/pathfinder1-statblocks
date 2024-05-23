@@ -1,0 +1,74 @@
+Name: Piranha Swarm
+CR: '3'
+XP: '800'
+Alignment: 'N'
+Size: Tiny
+Type: animal
+SubType: (aquatic, swarm)
+Init: '7'
+Senses:
+  - blindsense 30 ft., keen scent
+  - Perception +5
+AC: 15, touch 15, flat-footed 12
+AC_Mods: (+3 Dex, +2 size)
+HP: '26'
+HD: (4d8+8)
+Saves: Fort +6, Ref +7, Will +2
+Fort: '6'
+Ref: '7'
+Will: '2'
+DefensiveAbilities: swarm traits
+Speed: swim 30 ft.
+Melee:
+  - swarm (1d6 plus bleed and distraction)
+Space: 10 ft.
+Reach: 0 ft.
+SpecialAttacks: bleed (1d6), distraction (DC 14)
+AbilityScores:
+  - 3
+  - 16
+  - 15
+  - 1
+  - 12
+  - 2
+BaseAtk: '3'
+CMB: '-'
+CMD: '-'
+Feats:
+  - Improved Initiative
+  - Skill Focus (Stealth)
+Skills:
+  - Perception +5
+  - Stealth +18
+  - Swim +9
+Environment: any aquatic
+Organization: solitary, shoal (2-5 swarms), or school (6-10 swarms)
+Treasure: none
+Description_Visual: >-
+  This swarm of silver-scaled fish thrashes feverishly, the dozens of swiftly
+  moving creatures within seeming restless and bloodthirsty.
+Group: Piranha
+Source: AP 39
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Keen Scent (Ex)
+    description: >-
+      A piranha swarm can notice creatures by scent in a 180-foot radius
+      underwater and can detect blood in the water at ranges of up to a mile.
+Description:
+  - A swarm of piranhas
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '1'
+Land: '0'
+AgeCategory: adult
+DontUseRacialHD: '0'
+LinkText: Piranha, Swarm
+id: '1014'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

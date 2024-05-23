@@ -22,6 +22,7 @@ Melee:
   - bite +12 (1d8+10 plus 1d4 bleed)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: bleed (1d4), whorled jaw
 AbilityScores:
   - 25
   - 18
@@ -50,7 +51,14 @@ Description_Visual: >-
 Group: Shark
 Source: AP 57
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Whorled Jaw (Ex)
+    description: >-
+      When a helicoprion hits a Medium or smaller creature with its bite it can,
+      as a free action, attempt to grapple and then pin that creature should the
+      initial grapple be successful. Once the target is pinned, the helicoprion
+      continues to do its bite damage (including bleed) for as long as it
+      maintains the pin.
 Description:
   - >-
     The helicoprion is a bizarre beast to behold. The remarkable physiology of
@@ -69,13 +77,8 @@ Swim: '1'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Shark, Common
 id: '3077'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: bleed (1d4), whorled jaw
-SpellLikeAbilities: {}
-SpellsKnown: {}

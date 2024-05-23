@@ -48,9 +48,31 @@ Description_Visual: >-
   This creature looks like a stocky, 8-legged, crimson scaled reptile. A row of
   bony spines juts from its back and runs the length of its body. Its eyes have
   a ghostly blue glow.
+Group: Basilisk
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Acidic Bite (Ex)
+    description: >-
+      A crimson basilisk's saliva is corrosive. Any melee bite attack deals acid
+      damage.
+  - name: Blood Frenzy (Ex)
+    description: >-
+      A crimson basilisk that detects fresh blood within 30 feet enters a
+      frenzied state the following round, along with all other crimson basilisks
+      within 30 feet. Frenzied crimson basilisks fight until they or their
+      opponents are dead. A frenzied crimson basilisk gains a +2 bonus on attack
+      rolls and damage rolls and -2 AC for 1 minute. The creature cannot end the
+      frenzy voluntarily. A crimson basilisk can enter a frenzy only once per
+      encounter.
+  - name: Wounding Gaze (Su)
+    description: >-
+      A living creature within 30 feet that meets the gaze of a crimson basilisk
+      must succeed on a DC 14 Fortitude saving throw or take 1d3 points of
+      Constitution damage as blood weeps from the victim's eyes, ears, nose, and
+      mouth. Creatures without blood (undead, plants, oozes) and other crimson
+      basilisks are immune to the effects of this gaze. The save DC is
+      Charisma-based.
 Description:
   - >-
     Crimson basilisks are variants of the common basilisk, and in some cases
@@ -87,17 +109,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Basilisk
 id: '2249'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Basilisk
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-BaseStatistics: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

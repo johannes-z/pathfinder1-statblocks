@@ -1,0 +1,233 @@
+Name: Arcanotheign
+CR: '15'
+XP: '51200'
+Alignment: 'N'
+Size: Medium
+Type: outsider
+SubType: (extraplanar, incorporeal)
+Init: '12'
+Senses:
+  - blindsense 60 ft., darkvision 60 ft., arcane sight 120 ft.
+  - Perception +26
+Aura: energy channel (10 ft., DC 27)
+AC: 27, touch 27, flat-footed 18
+AC_Mods: (+8 deflection, +8 Dex, +1 dodge)
+HP: '207'
+HD: (18d10+108)
+Saves: Fort +19, Ref +14, Will +18; +2 resistance vs. chaos/evil/ good/law
+Fort: '19'
+Ref: '14'
+Will: '18'
+Save_Mods: +2 resistance vs. chaos/evil/ good/law
+DefensiveAbilities: incorporeal, adaptive life force
+Immune: poison
+Resist: acid 30, cold 30, divine power 30, electricity 30, fire 30, sonic 30
+SR: '31'
+Speed: 40 ft., fly 60 ft. (perfect)
+Melee:
+  - 2 incorporeal touches +26 (4d6 plus energy channel)
+Ranged:
+  - 2 eldritch blasts +26 ranged touch (4d6 plus special)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: alter objects
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 18th; concentration +26)
+  values:
+    - label: Constant
+      value: arcane sight, comprehend languages, protection from chaos/evil/good/law
+    - label: At will
+      value: >-
+        clairaudience/clairvoyance, greater teleport (self plus 50 lbs. of
+        objects only), telekinesis (combat maneuver or sustained force only)
+    - label: 3/day
+      value: >-
+        cloudkill, cone of cold, cure critical wounds, fireball, inflict
+        critical wounds, lightning bolt, quickened telekinesis (combat maneuver
+        or sustained force only), scrying
+    - label: 1/day
+      value: harm, heal, limited wish, plane shift
+AbilityScores:
+  - null
+  - 27
+  - 22
+  - 31
+  - 20
+  - 27
+BaseAtk: '18'
+CMB: '26'
+CMD: '45'
+Feats:
+  - Combat Casting
+  - Command Undead
+  - Dodge
+  - Great Fortitude
+  - Greater Spell Penetration
+  - Improved Initiative
+  - Iron Will
+  - Quicken Spell-Like Ability (telekinesis)
+  - Spell Penetration
+Skills:
+  - Craft (alchemy) +31
+  - Diplomacy +26
+  - Fly +37
+  - Heal +23
+  - Intimidate +26
+  - Knowledge (arcana) +31
+  - Knowledge (history) +28
+  - Knowledge (planes) +31
+  - Knowledge (religion) +31
+  - Linguistics +28
+  - Perception +26
+  - Perform (sing) +26
+  - Sense Motive +26
+  - Spellcraft +31
+  - Stealth +29
+  - Use Magic Device +37
+RacialMods: +8 Use Magic Device
+Languages:
+  - Abyssal
+  - Ancient Osiriani
+  - Celestial
+  - Common
+  - Draconic
+  - Infernal
+  - Protean
+  - telepathy 100 ft.
+SQ: corporeal form
+Environment: any (extraplanar)
+Organization: solitary
+Treasure: standard
+Description_Visual: >-
+  This woman-shaped cloud of swirling black-and-white energy flickers like
+  lightning, with raw magical power playing about her fingertips.
+Source: AP 41
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Adaptive Life Force (Su)
+    description: >-
+      When subject to any effect, the Arcanotheign is always treated as the most
+      favorable alignment subtype pertaining to that effect (for example, if in
+      the area of a holy smite, the Arcanotheign counts as a good creature,
+      which means she takes no damage from the spell). Though she is a living
+      creature (for the purpose of harmless spells such as deathwatch and detect
+      undead), she counts as either a living creature or an undead creature,
+      depending on which outcome is more favorable to her (for example,
+      rendering her immune to both circle of death and undeath to death).
+  - name: Alter Objects (Su)
+    description: >-
+      At will, the Arcanotheign can transmute nonliving objects into different
+      shapes (as fabricate), transform solid materials into other materials
+      (such as wood into stone or stone into metal), or imbue physical objects
+      with temporary life (as animate objects). These transformations last 1
+      minute before reverting to their previous state, though the herald can
+      extend this duration as long as she concentrates and remains within 1,000
+      feet of the transformed object. When animating objects, she prefers to
+      create lifelike animals out of earth, stone, or wood, and can sustain up
+      to four Large creatures at a time (treat as normal animals, except the
+      animal's natural armor increases by +5, its type changes to "construct,"
+      and it gains construct immunities). The Arcanotheign must be within 100
+      feet of the object to use this ability, and can only maintain one type of
+      transformation (alter shape, alter material, or animate objects) at a
+      time.
+  - name: Corporeal Form (Ex)
+    description: >-
+      As an immediate action, the Arcanotheign can take physical form, losing
+      her incorporeal special quality and subtype and her deflection bonus to
+      AC, but gaining a Strength score of 20 and a natural armor bonus equal to
+      her normal deflection bonus. She can remain in this form indefinitely or
+      revert to her incorporeal state as a free action (this happens
+      automatically if she is knocked unconscious). This ability allows her to
+      pretend to be a mortal and physically manipulate objects. In this form she
+      looks like a tall woman with pale, gray, or black skin.
+  - name: Eldritch Blast (Su)
+    description: >-
+      The Arcanotheign's ranged touch attacks are incorporeal touch attacks that
+      deal 4d6 points of damage and an additional effect chosen by the herald. A
+      saving throw (DC 25) negates the additional effect (the exact type of save
+      depends on what effect the herald chooses); a creature hit by two blasts
+      in the same round suffers an increased effect if it fails both its saves
+      against the eldritch blasts. The possible effects are the following: Bleed
+      (Fortitude): The creature takes 10 points of bleed damage. Increased
+      effect: The creature is disintegrated. Dement (Will): The creature is
+      confused for 1 minute. Increased effect: The creature goes insane (as
+      insanity). Displace (Fortitude): The creature teleports (as dimension
+      door) 5 feet in a random horizontal direction at the end of its turn each
+      round for the next 10 rounds. Increased effect: The creature is banished
+      as if under the effect of a maze spell. Ignite (Reflex): The creature
+      takes 2d6 points of fire damage. Increased effect: The creature catches on
+      fire, taking 4d6 points of fire damage every round on the herald's turn
+      for the next 10 rounds. The DC to extinguish the flames is equal to the
+      save DC of the eldritch blast. Paralyze (Will): The creature is paralyzed
+      as if by hold monster. Increased effect: The creature is slowed (as slow)
+      when the paralysis ends or is broken.
+  - name: Energy Channel Aura (Su)
+    description: >-
+      The Arcanotheign's aura is charged with energy, whether acid, cold,
+      electricity, fire, negative, or positive. The herald can change the energy
+      type, suppress her aura, or reactivate her aura once per round on her turn
+      as a free action. If the energy is positive or negative, it acts like
+      channeled energy from a cleric, and the herald decides the effect of the
+      channel (positive energy could heal living creatures or harm undead;
+      negative energy could heal undead or harm living creatures). The aura's
+      effect is always 2d6 hit points (Reflex DC 25 negates). A creature that is
+      struck by the herald's incorporeal touch attack takes this damage in
+      addition to the normal touch attack damage, and it gets no saving throw
+      against this extra damage. The herald can use her Selective Channel feat
+      to exclude creatures from the effect of her aura, regardless of the aura's
+      energy type.
+  - name: Resistance to Divine Power (Su)
+    description: >-
+      The Arcanotheign has resistance 30 against damage caused by divine power,
+      such as the non-fire damage from a flame strike spell.
+Description:
+  - >-
+    The Arcanotheign is a mysterious creature serving the mad god Nethys.
+    Because her creator sends her to Golarion on missions to heal, destroy, or
+    spy, she is familiar with creatures of the mortal world, yet still very much
+    an outsider, and she is fascinated by the intricacies of mortal interactions
+    and history. In her natural, incorporeal form, she is a storm of magic,
+    immediately recognizable as a creature of the arcane and divine. Ever
+    curious, she often asks personal, direct questions of those she is sent to
+    interact with, even as she repairs their wounds or tears their souls from
+    their bodies. Sometimes she is told to assume a physical form, and lives
+    among humanoids as a mysterious oracle for days or weeks, observing those
+    near her and giving cryptic answers to those who dare approach her. She
+    stands just over 7 feet tall, and has a habit of floating a few inches above
+    the ground instead of walking. Ecology The Arcanotheign understands she is
+    foreign to mortal life and mortal needs. She enjoys experiencing new aromas
+    and tastes; someone wishing to get on her good side should bring her
+    strongly scented flowers, a tasty meal, or some other physical object that
+    may be new to her experience, even if humans would think it stinks or is
+    inedible. She is interested in animals, and if she spends much time in the
+    same place, she may "adopt" those living near her, especially orphaned ones.
+    Some in the church suspect that her attention can cause mutations in these
+    creatures, either directly or in its offspring, creating strange hybrids or
+    magical creatures. The Arcanotheign has a lesser interest in children,
+    though if a lost child finds its way to her, she is more likely to protect
+    it or return it home than to ignore or harm it. Some of these children
+    develop sorcerous power, typically with the arcane or destined bloodline.
+    Habitat & Society As a supernatural creature created in a moment of lucidity
+    by an insane, omniscient god, the Arcanotheign is often left to her own
+    devices when her master does not need her, and wanders Golarion and the
+    planes searching for new sensations and meaning to her existence and that of
+    the multiverse. She is a lonely creature and welcomes those who would speak
+    to her as part of a normal conversation rather than an attempt to get
+    information from her. Her affection for animals is related to this; they are
+    simple creatures who make no demands of her, and her habit of animating
+    giant bears, lions, and other animals out of earth, stone, or wood
+    represents her respect for animals she has known in the past ages.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '1'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: adult
+DontUseRacialHD: '0'
+id: '1438'
+UniqueMonster: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

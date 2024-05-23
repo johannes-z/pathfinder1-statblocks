@@ -27,13 +27,29 @@ SR: '33'
 Speed: 50 ft.
 Melee:
   - >-
-    +3 wounding battleaxe +39/+34/+29/+24 (2d6+15/19-  20/x3 plus 1 bleed), 2
+    +3 wounding battleaxe +39/+34/+29/+24 (2d6+15/19- 20/x3 plus 1 bleed), 2
     forepaws +30 (2d8+6 plus grab)
 Space: 10 ft.
 Reach: 10 ft.
 SpecialAttacks: pounce, rake (2 forepaws, 2d8+18)
-SpellLikeAbilities: {}
-SpellsKnown: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 20th)
+  values:
+    - label: Constant
+      value: detect good, detect magic, see invisibility
+    - label: At Will
+      value: >-
+        animate dead, blasphemy (DC 25), charm monster (DC 22), create undead,
+        desecrate, dispel magic, greater teleport (self plus 50 pounds of
+        objects only), lightning bolt (DC 21), magic circle against good,
+        produce flame, suggestion (DC 21), tongues, unhallow (DC 23), unholy
+        aura (DC 26), wall of fire
+    - label: 2/day
+      value: >-
+        summon (level 9, 2d10 lemures or nupperibos, 2d4 bearded devils, 1d4
+        bone devils, erinyes, or barbed devils, or 1 pit fiend 100%)
+    - label: 1/day
+      value: symbol of stunning (DC 25)
 AbilityScores:
   - 35
   - 29
@@ -95,7 +111,6 @@ Description_Visual: >-
 Group: Geryon
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
 Description:
   - >-
     The Blood Duke, Gorson, is a great lion-bodied humanoid that serves Great
@@ -112,9 +127,6 @@ Description:
     relentlessly and only stops when all foes are dead. Those that attempt to
     flee are run down and slaughtered.
   - Copyright Notice Author Scott Greene.
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
 Gear: +3 wounding battleaxe
 CharacterFlag: '0'
 CompanionFlag: '0'
@@ -123,10 +135,8 @@ Climb: '0'
 Burrow: '0'
 Swim: '0'
 Land: '1'
-BaseStatistics: 'NULL'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
 id: '2512'
 UniqueMonster: '0'
 MR: '0'

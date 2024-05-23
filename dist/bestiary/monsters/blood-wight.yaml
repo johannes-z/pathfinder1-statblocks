@@ -12,22 +12,24 @@ AC: 21, touch 11, flat-footed 19
 AC_Mods: (+2 Dex, +10 natural, -1 size)
 HP: '90'
 HD: (12d8+36)
+HP_Mods: fast healing 5
 Saves: Fort +7, Ref +6, Will +9
 Fort: '7'
 Ref: '6'
 Will: '9'
 DefensiveAbilities: channel resistance +5
-Weaknesses: resurrection vulnerability
+DR: 10/bludgeoning and magic
+Immune: undead traits
+Resist: fire 10
 Speed: 30 ft.
 Melee:
   - 2 claws +14 (1d8+5 plus 1 bleed)
 Space: 10 ft.
 Reach: 10 ft.
-SpecialAttacks: create spawn, energy drain (1 level, DC 14)
 AbilityScores:
   - 21
   - 15
-  - —
+  - null
   - 13
   - 13
   - 16
@@ -52,7 +54,6 @@ Skills:
 RacialMods: +8 Escape Artist
 Languages:
   - Common
-SQ: create spawn
 Environment: any
 Organization: solitary, pair
 Treasure: none
@@ -61,9 +62,22 @@ Description_Visual: >-
   covered in fresh blood which seems to ooze and weep from its body. Its clothes
   hang in rags and are soaked in blood as well. Its hands end in sharpened claws
   and its eyes display no signs of life.
+Group: Wight
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Engulf (Ex)
+    description: >-
+      A blood wight can try to wrap a Medium or smaller creature in its body as
+      a standard action. The blood wight attempts a grapple check that does not
+      provoke an attack of opportunity. If it wins the grapple check, it
+      establishes a hold and claws its opponent with a +4 bonus on the attack
+      roll. Attacks that hit an engulfing blood wight deal half their damage to
+      the monster and half to the trapped victim. An engulfed victim must hold
+      its breath as long as it remains trapped or begin to drown. A trapped
+      victim can break free with a successful grapple check. A Large blood
+      wight's body can engulf 1 Medium, 2 Small, 4 Tiny, 16 Diminutive, or 32
+      Fine or smaller opponents.
 Description:
   - >-
     When a living creature bleeds to death on unholy ground, its corpse
@@ -100,17 +114,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Wight
 id: '3430'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-HP_Mods: fast healing 5
-DR: 10/bludgeoning and magic
-Immune: undead traits
-Resist: fire 10
-Group: Wight
-SpellLikeAbilities: {}
-SpellsKnown: {}

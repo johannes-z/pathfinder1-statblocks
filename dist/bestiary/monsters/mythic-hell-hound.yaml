@@ -17,6 +17,7 @@ Saves: Fort +6, Ref +5, Will +1
 Fort: '6'
 Ref: '5'
 Will: '1'
+DR: 5/epic
 Immune: fire
 Weaknesses: vulnerable to cold
 Speed: 40 ft.
@@ -55,8 +56,14 @@ Treasure: incidental
 Description_Visual: >-
   This brawny hound is wreathed in flames, and its footsteps leave burning
   prints that sputter and smoke.
+Group: Hell Hound
 Source: Mythic Adventures
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Clinging Flames (Ex)
+    description: >-
+      A creature that takes damage from a mythic hell hound's breath weapon also
+      catches on fire (using the save DC for its burn ability).
 Description:
   - >-
     A mythic hell hound is a prince among the wolves of Hell, feral but still
@@ -71,19 +78,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Hell Hound
 id: '4881'
 UniqueMonster: '0'
 MR: '1'
 Mythic: '1'
 MT: '0'
-DR: 5/epic
-Group: Hell Hound
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

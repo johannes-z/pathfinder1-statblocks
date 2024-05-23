@@ -8,6 +8,7 @@ Init: '5'
 Senses:
   - darkvision 60 ft., low-light vision, scent
   - Perception +11
+Aura: heat (10 ft., DC 18)
 AC: 20, touch 10, flat-footed 19
 AC_Mods: (+1 Dex, +10 natural, -1 size)
 HP: '94'
@@ -16,11 +17,14 @@ Saves: Fort +12, Ref +9, Will +5
 Fort: '12'
 Ref: '9'
 Will: '5'
+Immune: fire
+Resist: cold 20
 Speed: 30 ft., climb 20 ft., swim 20 ft.
 Melee:
   - bite +14 (3d8+7 plus burn)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: burn (2d6, DC 18), heated flesh
 AbilityScores:
   - 21
   - 13
@@ -43,7 +47,7 @@ Skills:
   - Perception +11
   - Stealth +2
   - Swim +18
-RacialMods: +8 Acrobatics
+SQ: lava affinity
 Environment: warm mountains
 Organization: solitary, pair, or band (3-8)
 Treasure: none
@@ -51,6 +55,22 @@ Description_Visual: This massive lizard is dark cherry red with a pale yellow un
 Group: Lizard
 Source: Tome of Horrors 4
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Heat Aura (Ex)
+    description: >-
+      A lava lizard radiates heat, and any creature that starts its turn within
+      10 feet of a lava lizard must succeed on a DC 18 Fortitude save or take
+      1d6 points of fire damage. The save DC is Constitution-based.
+  - name: Heated Flesh (Ex)
+    description: >-
+      Any metal weapon striking a lava lizard must succeed at a DC 18 Fortitude
+      save or take 3d6 points of fire damage. Wooden weapons take double damage.
+      Damage caused to weapons in this manner is not halved, but hardness does
+      help prevent some of the damage dealt. Unarmed and natural attacks made
+      against the lava lizard deal 2d6 points of fire damage to the attacker.
+      The save DC is Constitution-based.
+  - name: Lava Affinity (Ex)
+    description: A lava lizard can breathe and swim while submerged in lava and magma.
 Description:
   - >-
     Lava lizards make their lairs in or near active volcanoes, spending their
@@ -83,22 +103,8 @@ Swim: '1'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Lizard, Common
 id: '4999'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Aura: heat (10 ft., DC 18)
-Immune: fire
-Resist: cold 20
-SpecialAttacks: burn (2d6, DC 18), heated flesh
-SQ: lava affinity
-SpecialAbilities: {}
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-VariantParent: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

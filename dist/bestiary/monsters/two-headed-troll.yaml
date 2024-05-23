@@ -20,9 +20,8 @@ Ref: '3'
 Will: '5'
 Speed: 30 ft.
 Melee:
-  - >-
-    longsword +12/+7 (2d6+6), longsword +12/+7 (2d6+6), 2 bites +7 (1d8+3) or 2
-    claws +12 (1d6+6 ), 2 bites +12 (1d8+6)
+  - longsword +12/+7 (2d6+6), longsword +12/+7 (2d6+6), 2 bites +7 (1d8+3)
+  - 2 claws +12 (1d6+6 ), 2 bites +12 (1d8+6)
 Space: 10 ft.
 Reach: 10 ft.
 SpecialAttacks: rend (2 claws, 1d6+9), superior two-weapon fighting
@@ -44,6 +43,7 @@ Feats:
   - Toughness
 Skills:
   - Perception +18
+RacialMods: +2 Perception
 Languages:
   - Giant
 Environment: underground
@@ -54,8 +54,15 @@ Description_Visual: >-
   is mottled green-gray and covered in coarse, dark hair. Each head is
   identical: red eyes, drooping nose, and yellow fangs. Its arms and legs end in
   razor-sharpened claws.
+Group: Troll
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Weapon Fighting (Ex)
+    description: >-
+      A two-headed troll fights with a weapon in each hand. Because each of its
+      two heads controls an arm, the two-headed troll does not take a penalty on
+      attack or damage rolls for attacking with two weapons.
 Description:
   - >-
     The two-headed troll is thought to be the hideous offspring of an ettin and
@@ -95,6 +102,7 @@ Description:
     appeared in the First Edition Fiend Folio (© TSR/Wizards of the Coast, 1981)
     and is used by permission. Copyright Notice Author Scott Greene, based on
     original material by Oliver Charles MacDonald.
+Gear: 2 longswords
 CharacterFlag: '1'
 CompanionFlag: '0'
 Fly: '0'
@@ -104,16 +112,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Troll
 id: '3400'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-RacialMods: +2 Perception
-Group: Troll
-SpecialAbilities: {}
-Gear: 2 longswords
-SpellLikeAbilities: {}
-SpellsKnown: {}

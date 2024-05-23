@@ -17,9 +17,7 @@ Saves: Fort +23, Ref +15, Will +17
 Fort: '23'
 Ref: '15'
 Will: '17'
-DefensiveAbilities: elusive
 Immune: paralysis and sleep, dragon traits
-Resist: fire 30
 Speed: swim 60 ft.
 Melee:
   - bite +31 (2d8+15/19-20 plus poison and grab)
@@ -62,6 +60,9 @@ Skills:
   - Stealth +16
   - Survival +28
   - Swim +38
+Languages:
+  - Aquan
+  - Draconic
 Environment: any aquatic
 Organization: solitary
 Treasure: double standard
@@ -69,9 +70,14 @@ Description_Visual: >-
   The serpent is about 60 feet long and 10 feet thick. Its body scales are
   smooth, each about the size of a large shield, and the entire serpent is deep
   green to jet black in color, with eyes a solid, nearly black red color.
+Group: Sea Serpent
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Bite-injury; save Fort DC 29; frequency 1/round for 6 rounds; effect 1d6
+      Str; cure 2 consecutive saves. The save DC is Constitution-based.
 Description:
   - >-
     The immense deep hunter serpent lives in deep oceans, and delights in
@@ -98,16 +104,8 @@ Swim: '1'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Sea Serpent
 id: '2989'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Languages:
-  - Aquan
-  - Draconic
-Group: Sea Serpent
-SpellLikeAbilities: {}
-SpellsKnown: {}

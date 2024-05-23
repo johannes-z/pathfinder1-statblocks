@@ -16,15 +16,18 @@ Saves: Fort +1, Ref +3, Will +6
 Fort: '1'
 Ref: '3'
 Will: '6'
+DefensiveAbilities: channel resistance +2
+Immune: undead traits
 Speed: 50 ft.
 Melee:
   - bite +7 (1d6+4 plus paralysis plus trip)
 Space: 5 ft.
 Reach: 5 ft.
+SpecialAttacks: paralysis (1d4+2 rounds, DC 12, elves are immune to this effect)
 AbilityScores:
   - 17
   - 15
-  - —
+  - null
   - 6
   - 14
   - 10
@@ -46,6 +49,7 @@ Treasure: none
 Description_Visual: >-
   This creature resembles a wolf with matted dark fur torn away in places.  Its
   flesh is sickly gray where its fur is torn away. Its eyes are stark white.
+Group: Wolf
 Source: Tome of Horrors Complete
 IsTemplate: '0'
 Description:
@@ -66,17 +70,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Dog, Wolf
 id: '3438'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-DefensiveAbilities: channel resistance +2
-Immune: undead traits
-SpecialAttacks: paralysis (1d4+2 rounds, DC 12, elves are immune to this effect)
-Group: Wolf
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

@@ -1,4 +1,4 @@
-import type { Monster, MonsterRaw } from './types'
+import type { Monster, MonsterRaw, SpecialAbility } from './types'
 
 /**
  * Matches the name of a special ability.
@@ -20,11 +20,11 @@ const SPECIAL_ABILITY = '[A-Za-z\\s]+?\\s?\\((Ex|Su|Sp)\\)'
  */
 const REGEX_SpecialAbilities = new RegExp(`(?<name>${SPECIAL_ABILITY})\\s(?<description>.*?)(?=\\s${SPECIAL_ABILITY}|$)`, 'gs')
 
-export function extractSpecialAbilities(monster: MonsterRaw) {
+export function extractSpecialAbilities(monster: MonsterRaw): SpecialAbility[] {
   const matches = [...monster.SpecialAbilities.matchAll(REGEX_SpecialAbilities)]
 
-  monster.SpecialAbilities = matches.map(match => ({
-    name: match.groups?.name.trim(),
-    description: match.groups?.description.trim().replace(/\s{2,}/g, ' '), // Remove extra spaces
+  return matches.map(match => ({
+    name: match.groups?.name.trim() ?? '',
+    description: match.groups?.description.trim().replace(/\s{2,}/g, ' ') ?? '', // Remove extra spaces
   }))
 }

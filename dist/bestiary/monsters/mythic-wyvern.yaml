@@ -4,6 +4,7 @@ XP: '4800'
 Alignment: 'N'
 Size: Large
 Type: dragon
+SubType: (mythic)
 Init: +8M
 Senses:
   - darkvision 60 ft., low-light vision, scent
@@ -16,7 +17,9 @@ Saves: Fort +9, Ref +6, Will +8
 Fort: '9'
 Ref: '6'
 Will: '8'
+DR: 5/epic
 Immune: dragon traits, paralysis, sleep
+Resist: acid 10, cold 10, electricity 10, fire 10
 Speed: 20 ft., fly 100 ft. (average)
 Melee:
   - >-
@@ -24,6 +27,9 @@ Melee:
     (1d8+2)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: >-
+  power lift, mythic power (3/day, surge +1d6), rake (2 talons +10, 1d6+5),
+  swallow whole (1d6+5 bludgeoning, AC 14, 10 hp)
 AbilityScores:
   - 21
   - 12
@@ -53,9 +59,24 @@ Treasure: standard
 Description_Visual: >-
   This serpentine dragon has huge wings, two taloned legs, and a tail stinger,
   and its blue scales are mottled with other colors.
+Group: Wyvern
 Source: Mythic Adventures
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Poison (Ex)
+    description: >-
+      Sting-injury; save DC 17; frequency 1/round for 6 rounds; effect 1d4
+      Constitution damage; cure 2 consecutive saves. The save DC is
+      Constitution-based.
+  - name: Power Lift (Ex)
+    description: >-
+      A mythic wyvern can expend one use of mythic power to withdraw as a move
+      action (instead of a full-round action), moving up to its speed instead of
+      double. It can even move straight up. If it's grappling a creature, the
+      wyvern can bring the grappled creature with it. Usually a wyvern uses this
+      ability to carry off its prey and drop it from above onto a hard surface.
+      Since this is a move action, the wyvern can damage its target, withdraw,
+      and drop its target all in the same round.
 Description:
   - >-
     A mythic wyvern has one or more true dragons in its recent ancestry, making
@@ -77,22 +98,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Wyvern
 id: '4902'
 UniqueMonster: '0'
 MR: '3'
 Mythic: '1'
 MT: '0'
-SubType: (mythic)
-DR: 5/epic
-Resist: acid 10, cold 10, electricity 10, fire 10
-SpecialAttacks: >-
-  power lift, mythic power (3/day, surge +1d6), rake (2 talons +10, 1d6+5),
-  swallow whole (1d6+5 bludgeoning, AC 14, 10 hp)
-Group: Wyvern
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

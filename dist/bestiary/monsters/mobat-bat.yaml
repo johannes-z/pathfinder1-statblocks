@@ -21,6 +21,7 @@ Melee:
   - bite +8 (1d8+4)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: sonic screech
 AbilityScores:
   - 17
   - 21
@@ -48,6 +49,15 @@ Description_Visual: >-
 Group: Bat
 Source: Tome of Horrors Complete
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Sonic Screech (Su)
+    description: >-
+      A mobat can blast an ear-splitting screech that affects all creatures
+      (except other mobats) within a 20-ft. radius. The screech stuns any
+      creature in the area for 1d3 rounds if it fails a DC 15 Will save. This is
+      a sonic mind-affecting effect. Whether or not the save succeeds an
+      affected creature is immune to the same mobat's screech for 24 hours. The
+      save DC is Constitution-based.
 Description:
   - >-
     The mobat has a wingspan of approximately 15 feet. It is a nocturnal
@@ -65,7 +75,6 @@ Description:
   - >-
     Copyright Notice Author Scott Greene and Clark Peterson, based on original
     material by Gary Gygax.
-Gender: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '1'
@@ -75,20 +84,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
-LinkText: Bat
 id: '2252'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-SpecialAttacks: sonic screech
-SpecialAbilities: {}
-BeforeCombat: 'NULL'
-DuringCombat: 'NULL'
-Morale: 'NULL'
-BaseStatistics: 'NULL'
-SpellLikeAbilities: {}
-SpellsKnown: {}

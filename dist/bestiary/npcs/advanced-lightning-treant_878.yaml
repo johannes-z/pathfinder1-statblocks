@@ -1,0 +1,101 @@
+Name: Advanced Lightning Treant
+CR: '11'
+XP: '12800'
+Race: lightning treant
+MonsterSource: Tome of Horrors III 119
+Alignment: NE
+Size: Huge
+Type: plant
+Init: '5'
+Senses:
+  - low-light vision
+  - Perception +20
+AC: 24, touch 9, flat-footed 23
+AC_Mods: (+1 Dex, +15 natural, -2 size)
+HP: '162'
+HD: (12d8+108)
+HP_Mods: fast healing 10
+Saves: Fort +17, Ref +7, Will +9
+Fort: '17'
+Ref: '7'
+Will: '9'
+DefensiveAbilities: electric healing
+DR: 10/slashing
+Immune: electricity, fire, plant traits
+Speed: 40 ft.
+Melee:
+  - 2 slams +21 (2d8+14)
+Space: 15 ft.
+Reach: 15 ft.
+SpecialAttacks: double damage against objects
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +14)
+  values:
+    - label: Constant
+      value: greater magic fang (self only)
+    - label: At will
+      value: faerie fire
+    - label: 3/day
+      value: >-
+        call lightning storm (DC 17), lightning bolt (DC 15), protection from
+        energy
+    - label: 1/day
+      value: chain lightning (DC 18)
+AbilityScores:
+  - 32
+  - 13
+  - 28
+  - 15
+  - 21
+  - 15
+BaseAtk: '9'
+CMB: '22'
+CMD: '33'
+Feats:
+  - Cleave
+  - Greater Sunder
+  - Improved Initiative
+  - Improved Sunder
+  - Lightning Reflexes
+  - Power Attack
+Skills:
+  - Knowledge (nature) +14
+  - Perception +20
+  - Stealth +8 (+24 in forests)
+  - Survival +17
+Languages:
+  - Aklo
+Source: AP 36
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Double Damage Against Objects (Ex)
+    description: >-
+      A lightning treant that makes a full attack against an object or structure
+      deals double damage.
+  - name: Electric Healing (Ex)
+    description: >-
+      Electricity damage heals a lightning treant 1 point of damage for every 3
+      points it would otherwise deal. If the amount would cause the lightning
+      treant to exceed its full normal hit points, it gains any excess as
+      temporary hit points-these temporary hit points last for 2 hours.
+DuringCombat: >-
+  If a lightning treant can't reach the PCs, it uses its spell-like abilities to
+  attack from afar, making sure to catch other treants in the area of effect if
+  it can to provide healing.
+Morale: The lightning treants fight to the death.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+TemplatesApplied: advanced|
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '878'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

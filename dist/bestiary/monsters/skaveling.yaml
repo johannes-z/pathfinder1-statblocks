@@ -16,15 +16,17 @@ Saves: Fort +5, Ref +6, Will +8
 Fort: '5'
 Ref: '6'
 Will: '8'
+Immune: undead traits
 Speed: 20 ft., fly 40 ft. (good)
 Melee:
   - bite +10 (2d8+7 plus disease and paralysis)
 Space: 10 ft.
 Reach: 5 ft.
+SpecialAttacks: screech, paralysis (1d4+1 rounds, DC 16)
 AbilityScores:
   - 21
   - 17
-  - —
+  - null
   - 8
   - 15
   - 14
@@ -42,6 +44,8 @@ Skills:
   - Perception +14 (+18 when using blindsense)
   - Stealth +14
 RacialMods: +4 Perception when using blindsense
+Languages:
+  - Undercommon
 Environment: any underground
 Organization: solitary or colony (2-8)
 Treasure: incidental
@@ -51,6 +55,18 @@ Description_Visual: >-
 Group: Bat
 Source: PFRPG Bestiary 2
 IsTemplate: '0'
+SpecialAbilities:
+  - name: Disease (Su)
+    description: >-
+      Ghoul Fever: Bite-injury; save Fort DC 16; onset 1 day; frequency 1/day;
+      effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC
+      is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at
+      the next midnight (Pathfinder RPG Bestiary 146).
+  - name: Screech (Su)
+    description: >-
+      Once per day as a standard action, a skaveling can screech as a mobat,
+      save that those who are affected are stunned for 1d3 rounds unless they
+      make a DC 16 Fortitude save. The save DC is Charisma-based.
 Description:
   - >-
     Known in some circles as ghoul bats, skavelings are the hideous result of
@@ -58,7 +74,6 @@ Description:
     raised on diets of fungus and humanoid flesh. Upon reaching maturity,
     urdefhans ritually slay the bats using necrotic poisons, then raise the
     corpses to serve as mounts and guardians.
-Gender: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '1'
@@ -68,19 +83,9 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 LinkText: Bat, Skaveling
 id: '1115'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Languages:
-  - Undercommon
-Immune: undead traits
-SpecialAttacks: screech, paralysis (1d4+1 rounds, DC 16)
-SpecialAbilities: {}
-SpellLikeAbilities: {}
-SpellsKnown: {}

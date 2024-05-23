@@ -28,7 +28,15 @@ Reach: 10 ft.
 SpecialAttacks: >-
   burn (1d6, DC 18), goblin king, improved bite, mythic power (2/day, surge
   +1d6), vorpal bite
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 9th; concentration +13)
+  values:
+    - label: At Will
+      value: blink, invisibility sphere, levitate, misdirection
+    - label: 1/day
+      value: >-
+        charm monster (DC 18), crushing despair (DC 18), dimension door, mass
+        bull's strength, mass enlarge
 AbilityScores:
   - 25
   - 15
@@ -70,7 +78,22 @@ Description_Visual: >-
 Group: Barghest
 Source: Mythic Adventures
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Goblin King (Su)
+    description: >-
+      A mythic barghest has the inspire courage +2 and inspire competence +2
+      abilities of a 6th-level bard. Goblins, goblin dogs, worgs, hell hounds,
+      and barghests gain double the normal bonuses from this ability.
+  - name: Improved Bite (Ex)
+    description: >-
+      A mythic barghest's bite has a critical threat range of 18-20 and critical
+      multiplier of x3.
+  - name: Vorpal Bite (Su)
+    description: >-
+      If a mythic greater barghest confirms a critical hit against a non-mythic
+      opponent, it can expend one use of mythic power as a free action to bite
+      off the opponent's head, instantly killing it (Fort DC 15 negates). The
+      save DC is Constitution-based.
 Description:
   - >-
     A mythic greater barghest is a near-divine offspring of one of the barghest
@@ -100,14 +123,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Barghest
 id: '4857'
 UniqueMonster: '0'
 MR: '2'
 Mythic: '1'
 MT: '0'
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}

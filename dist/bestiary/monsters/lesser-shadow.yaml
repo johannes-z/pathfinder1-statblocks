@@ -24,11 +24,10 @@ Melee:
   - incorporeal touch +2 (1 Strength damage)
 Space: 5 ft.
 Reach: 5 ft.
-SpecialAttacks: create spawn
 AbilityScores:
-  - —
+  - null
   - 15
-  - —
+  - null
   - 5
   - 10
   - 14
@@ -46,9 +45,19 @@ Environment: any
 Organization: solitary, gang (2-5), or swarm (1 shadow plus 6-11 lesser shadows)
 Treasure: none
 Description_Visual: This creature appears to be a humanoid constructed of living darkness.
+Group: Shadow
 Source: Tome of Horrors Complete
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Strength Damage (Su)
+    description: >-
+      The touch of a lesser shadow deals 1 point of Strength damage to a living
+      foe. A creature drained to Strength 0 by a lesser shadow dies. This is a
+      negative energy effect.
+  - name: Shadow Blend (Ex)
+    description: >-
+      In any light condition less than bright light, the lesser shadow's form
+      blends into the surrounding shadows, granting it concealment.
 Description:
   - >-
     According to ancient texts, an arcane creature known only as the Shadow Lord
@@ -73,13 +82,8 @@ Swim: '0'
 Land: '0'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Shadow
 id: '3005'
 UniqueMonster: '0'
 MR: '0'
 Mythic: '0'
 MT: '0'
-Group: Shadow
-SpellLikeAbilities: {}
-SpellsKnown: {}

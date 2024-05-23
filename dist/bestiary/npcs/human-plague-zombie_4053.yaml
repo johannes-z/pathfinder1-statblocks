@@ -1,0 +1,76 @@
+Name: Human Plague Zombie
+CR: 1/2
+XP: '200'
+Race: Human Plague Zombie
+Alignment: NE
+Size: Medium
+Type: undead
+Init: '0'
+Senses:
+  - darkvision 60 ft.
+  - Perception +0
+AC: 12, touch 10, flat-footed 12
+AC_Mods: (+2 natural)
+HP: '12'
+HD: (2d8+3)
+Saves: Fort +0, Ref +0, Will +3
+Fort: '0'
+Ref: '0'
+Will: '3'
+Immune: undead traits
+Speed: 30 ft.
+Melee:
+  - slam +4 (1d6+4 plus disease)
+Space: 5 ft.
+Reach: 5 ft.
+SpecialAttacks: death burst
+AbilityScores:
+  - 17
+  - 10
+  - null
+  - null
+  - 10
+  - 10
+BaseAtk: '1'
+CMB: '4'
+CMD: '14'
+Feats:
+  - ToughnessB
+SQ: staggered
+Source: Crypt Of The Everflame
+IsTemplate: '0'
+SpecialAbilities:
+  - name: Death Burst (Ex)
+    description: >-
+      When a plague zombie dies, it explodes in a burst of rotting, infected
+      flesh. All creatures adjacent to the plague zombie are exposed to its
+      plague (just as if they had been struck by its slam attack) and must make
+      a Fortitude save or contract zombie rot.
+  - name: Disease (Su)
+    description: >-
+      A plague zombie's slam attack carries the zombie rot disease. Zombie rot:
+      slam; save Fort DC 11; onset 1d4 days; frequency 1/day; effect 1d2 Con,
+      this damage cannot be healed while the creature is infected; cure 2
+      consecutive saves. Anyone who dies while infected with the rotting plague
+      rises as a plague zombie in 2d6 hours.
+  - name: Staggered (Ex)
+    description: >-
+      Plague zombies have poor reflexes and can only perform a single move
+      action or standard action each round (so they could move or attack but not
+      both). As a charge action, a zombie can move up to its speed and still
+      make an attack in the same round.
+CharacterFlag: '0'
+CompanionFlag: '0'
+Fly: '0'
+Climb: '0'
+Burrow: '0'
+Swim: '0'
+Land: '1'
+AgeCategory: Adult
+CompanionFamiliarLink: '0'
+id: '4053'
+UniqueMonster: '0'
+Variant: '0'
+MR: '0'
+Mythic: '0'
+MT: '0'

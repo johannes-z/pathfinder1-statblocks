@@ -9,6 +9,7 @@ Init: '10'
 Senses:
   - darkvision 60 ft., tremorsense 120 ft.
   - Perception +26
+Aura: frightful presence (30 ft., DC 27)
 AC: 38, touch 21, flat-footed 27
 AC_Mods: (+10 Dex, +1 dodge, +17 natural)
 HP: '317'
@@ -18,6 +19,7 @@ Saves: Fort +13, Ref +21, Will +17
 Fort: '13'
 Ref: '21'
 Will: '17'
+DefensiveAbilities: block attacks, fortification (50%)
 DR: 10/ adamantine and bludgeoning and epic
 Immune: elemental traits
 SR: '31'
@@ -30,7 +32,25 @@ SpecialAttacks: >-
   crystal burst (see xiomorn), crystallization (DC 28, see xiomorn), mythic
   magic (3/day), mythic power (10/day, surge +1d10), rend (2 claws, 2d4+9),
   xiomorn spellcasting
-SpellLikeAbilities: {}
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 19th; concentration +27)
+  values:
+    - label: At Will
+      value: >-
+        dispel magic, greater teleport (self plus 50 lbs. of objects only),
+        shatter (DC 20), statue, stone shape, stone tell
+    - label: 3/day
+      value: >-
+        command stone (DC 27, see xiomorn), flesh to stone (DC 24), spike stones
+        (DC 22), wall of stone
+    - label: 1/day
+      value: >-
+        permanency, summon monster VII (earth elementals only), symbol of
+        scryingUM
+SpellsPrepared: >-
+  Wizard Spells Prepared (CL 19th; concentration +28)   8th (1/day)-earthquakeM,
+  maze, repel metal or stone   6th (1/day)-disintegrateM (DC 24), flesh to
+  stoneM (DC 24)   3rd (1/day)-flyM
 AbilityScores:
   - 22
   - 31
@@ -75,12 +95,40 @@ Languages:
   - telepathy 300 ft.
 SQ: item mastery (see xiomorn), item shaper, secret of the Vault Seed
 Environment: any
+Organization: solitary, pair, or foundation (2 plus 4-20 Vault Keepers)
+Treasure: triple
 Description_Visual: >-
   This towering, spindly, four-armed entity appears to be made of stone and
   crystal, yet it moves with a fluid grace.
+Group: Xiomorn
 Source: The Emerald Spire
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Item Shaper (Ex)
+    description: >-
+      A mythic xiomorn can create magic items at a rate of 1 hour per 1,000 gp
+      in the item's base price instead of 8 hours. For items made primarily of
+      crystal, stone, or earth, this time and the item's cost to create are
+      halved.
+  - name: Secret of the Vault Seed (Su)
+    description: >-
+      Mythic xiomorns possess an innate understanding of Vault Seeds-the
+      magic-rich artifacts that grow into the xiomorns' underground vaults. This
+      process includes finding the raw crystals the seeds are formed from on the
+      Plane of Earth, faceting the gem and using magic to grow it into its
+      shape, and nurturing the seed with the proper spells once it's planted in
+      the raw earth from which the Vault will grow. A mythic xiomorn gains
+      regeneration 10 while in a Vault it created or directly helped create. No
+      attack form causes this regeneration to stop functioning; a mythic xiomorn
+      can be killed by hit point damage only if removed from its Vault first.
+  - name: Xiomorn Spellcasting (Su)
+    description: >-
+      This ability functions as simple arcane spellcasting, except that the
+      xiomorn can change its spells each morning as though preparing spells,
+      choosing a number of spells with a combined level equal to twice its CR.
+      Each xiomorn knows a number of spells with a combined level equal to three
+      times its CR-choosing from the spells listed above, as well as create
+      demiplaneUM, mythic move earth, and terraformMA.
 Description:
   - >-
     The xiomorns consist of two castes: the mythic Vault Builders and the
@@ -94,7 +142,6 @@ Description:
     world's indigenous life, except as necessary for their experiments' goals,
     and often war against such races when native empires encroach upon the
     xiomorns' experimental realms.
-Gender: 'NULL'
 CharacterFlag: '0'
 CompanionFlag: '0'
 Fly: '0'
@@ -102,24 +149,10 @@ Climb: '1'
 Burrow: '1'
 Swim: '0'
 Land: '1'
-AgeCategory: 'NULL'
 DontUseRacialHD: '0'
-VariantParent: 'NULL'
-CompanionFamiliarLink: 'NULL'
-FocusedSchool: 'NULL'
 AlternateNameForm: Vault Builder
 id: '6139'
 UniqueMonster: '0'
 MR: '8'
 Mythic: '1'
 MT: '0'
-Aura: frightful presence (30 ft., DC 27)
-DefensiveAbilities: block attacks, fortification (50%)
-SpellsPrepared: >-
-  Wizard Spells Prepared (CL 19th; concentration +28)   8th (1/day)-earthquakeM,
-  maze, repel metal or stone   6th (1/day)-disintegrateM (DC 24), flesh to
-  stoneM (DC 24)   3rd (1/day)-flyM
-Organization: solitary, pair, or foundation (2 plus 4-20 Vault Keepers)
-Treasure: triple
-Group: Xiomorn
-SpellsKnown: {}

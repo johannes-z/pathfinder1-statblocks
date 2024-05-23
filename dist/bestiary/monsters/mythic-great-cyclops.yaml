@@ -1,6 +1,7 @@
 Name: Mythic Great Cyclops
 CR: '15'
 XP: '51200'
+MonsterSource: Pathfinder RPG Bestiary 3 61
 Alignment: CE
 Size: Huge
 Type: humanoid
@@ -9,6 +10,7 @@ Init: '1'
 Senses:
   - low-light vision, see in darkness
   - Perception +22
+Aura: frightful presence (30 ft., DC 19)
 AC: 32, touch 9, flat-footed 31
 AC_Mods: (+4 armor, +1 Dex, +19 natural, -2 size)
 HP: '243'
@@ -17,7 +19,8 @@ Saves: Fort +12, Ref +6, Will +14
 Fort: '12'
 Ref: '6'
 Will: '14'
-DefensiveAbilities: ferocity
+DR: 10/epic
+Immune: electricity, fire
 Speed: 35 ft. (50 ft. base)
 Melee:
   - mwk greatclub +25/+20/+15 (3d8+21), gore +24 (1d8+14)
@@ -25,6 +28,14 @@ Ranged:
   - rock +12 (2d6+21)
 Space: 15 ft.
 Reach: 15 ft.
+SpecialAttacks: >-
+  contemptuous toss, earthquake, mythic power (6/day, surge +1d8), powerful
+  charge (gore, 4d6+21), rock throwing (120 ft.)
+SpellLikeAbilities:
+  header: Spell-Like Abilities (CL 12th; concentration +13)
+  values:
+    - label: 1/day
+      value: chain lightning (DC 17)
 AbilityScores:
   - 38
   - 13
@@ -47,7 +58,6 @@ Feats:
   - Power Attack
 Skills:
   - Perception +22
-RacialMods: +8 Perception
 Languages:
   - Common
   - Cyclops
@@ -59,9 +69,31 @@ Treasure: standard (mwk greatclub, hide armor, other treasure)
 Description_Visual: >-
   This enormous one-eyed humanoid has a horn protruding from its forehead and
   fists the size of tree trunks.
+Group: Cyclops
 Source: Mythic Adventures
 IsTemplate: '0'
-SpecialAbilities: {}
+SpecialAbilities:
+  - name: Contemptuous Toss (Ex)
+    description: >-
+      When a mythic great cyclops uses Awesome Blow and expends a use of mythic
+      power, its target flies up to 60 additional feet and takes 1d6 points of
+      damage for every additional 20 feet traveled. If the cyclops uses its gore
+      attack for this ability, it can hurl the target up to 60 feet upward
+      instead of sideways.
+  - name: Earthquake (Su)
+    description: >-
+      A mythic great cyclops can punch the ground and expend two uses of mythic
+      power to cause an earthquake (as the spell). Add the cyclops's rank to the
+      save DCs for the earthquake's effects. Other mythic great cyclopes are not
+      affected by the earthquake.
+  - name: Flash of Brutality (Su)
+    description: >-
+      Once per day as a swift action, a great cyclops can gain a burst of savage
+      inspiration. When it does, it doubles the threat range of all weapons,
+      natural attacks, and rocks it attacks with until the start of its next
+      turn. Once per day, when the cyclops reaches 0 or fewer hit points and is
+      conscious because of its Diehard feat, this ability recharges, allowing it
+      to use the ability a second time that same day.
 Description:
   - >-
     Mythic great cyclopes are the first and oldest of their kind to succumb to
@@ -77,23 +109,8 @@ Swim: '0'
 Land: '1'
 AgeCategory: adult
 DontUseRacialHD: '0'
-CompanionFamiliarLink: 'NULL'
-LinkText: Cyclops
 id: '4859'
 UniqueMonster: '0'
 MR: '6'
 Mythic: '1'
 MT: '0'
-MonsterSource: Pathfinder RPG Bestiary 3 61
-Aura: frightful presence (30 ft., DC 19)
-DR: 10/epic
-Immune: electricity, fire
-SpecialAttacks: >-
-  contemptuous toss, earthquake, mythic power (6/day, surge +1d8), powerful
-  charge (gore, 4d6+21), rock throwing (120 ft.)
-SpellLikeAbilities: {}
-Group: Cyclops
-Gender: 'NULL'
-ProhibitedSchools: 'NULL'
-FocusedSchool: 'NULL'
-SpellsKnown: {}
