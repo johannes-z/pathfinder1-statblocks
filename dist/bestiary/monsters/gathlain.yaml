@@ -15,6 +15,7 @@ AC_Mods: (+3 Dex, +1 dodge, +2 natural, +1 size)
 HP: 7
 HD: (1d6+1)
 Saves: Fort +0, Ref +3, Will +1
+Fort: 0
 Ref: 3
 Will: 1
 Speed: 30 ft., fly 40 ft. (poor)
@@ -45,6 +46,8 @@ AbilityScores:
   - 10
   - 8
   - 17
+BaseAtk: 0
+CMB: 0
 CMD: 14
 Feats:
   - Dodge
@@ -62,6 +65,7 @@ Organization: solitary, flight (2-6), or grove (2-12)
 Treasure: NPC gear (spear, other treasure)
 Description_Visual: Wings composed of wood and vines grow out of the body of this lithesome fey.
 Source: PFRPG Bestiary 4
+IsTemplate: 0
 Description:
   - >-
     According to some fey ballads, gathlains were one of the first peoples
@@ -99,8 +103,16 @@ Description:
     Goblin, Half ling, and Orc.
 Bloodline: fey
 CharacterFlag: 1
+CompanionFlag: 0
 Fly: 1
+Climb: 0
+Burrow: 0
+Swim: 0
 Land: 1
 AgeCategory: adult
 DontUseRacialHD: 1
 id: 5237
+UniqueMonster: 0
+MR: 0
+Mythic: 0
+MT: 0

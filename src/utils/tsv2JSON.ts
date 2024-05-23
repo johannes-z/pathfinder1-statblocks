@@ -1,3 +1,7 @@
+function isNumeric(value: string) {
+  return /^-?\d+$/.test(value)
+}
+
 export function tsv2JSON(csv: string) {
   const lines = csv.split(/\r\n|\n/)
 
@@ -19,8 +23,8 @@ export function tsv2JSON(csv: string) {
       let value: string | number | null = currentline[j].trim()
       if (value === 'NULL')
         value = null
-      else if (!Number.isNaN(+value))
-        value = +value
+      else if (isNumeric(value))
+        value = Number.parseFloat(value)
       row[headers[j]] = value
     }
 

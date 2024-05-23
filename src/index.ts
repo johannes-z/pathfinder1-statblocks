@@ -14,7 +14,7 @@ function saveMonster(filename: string, monster: Monster, destination: string) {
 function sanitizeMonster(_monster: MonsterRaw): Monster {
   delete _monster.FullText
   for (const key in _monster) {
-    if (!_monster[key])
+    if (_monster[key] == null || _monster[key] === '')
       delete _monster[key]
   }
   const monster: Monster = { ..._monster }
