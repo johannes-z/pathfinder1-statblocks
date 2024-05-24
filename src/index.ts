@@ -25,8 +25,8 @@ function sanitizeMonster(_monster: MonsterRaw): Monster {
         return value === '-' ? null : +value
       }),
     Senses: _monster.Senses?.split(/;\s+/g),
-    Melee: _monster.Melee?.split(/,*\s+or\s+/g).map(value => value.replace(/\s{2,}/g, ' ')),
-    Ranged: _monster.Ranged?.split(/,*\s+or\s+/g).map(value => value.replace(/\s{2,}/g, ' ')),
+    Melee: _monster.Melee?.split(/,?\s+or\s+(?![^()]*\))/g).map(value => value.replace(/\s{2,}/g, ' ')),
+    Ranged: _monster.Ranged?.split(/,?\s+or\s+(?![^()]*\))/g).map(value => value.replace(/\s{2,}/g, ' ')),
     Feats: _monster.Feats?.split(/,\s+/g),
     Skills: _monster.Skills?.split(/,\s+/g),
     Languages: _monster.Languages?.split(/[,;]\s+/g),
